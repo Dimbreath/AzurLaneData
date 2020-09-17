@@ -75,7 +75,7 @@ return {
 		{
 			side = 0,
 			dir = 1,
-			say = "随着巨大的光圈收束，无数塞壬的舰艇被吸入其中，被碾碎成了粉末",
+			say = "隨著巨大的光圈收束，無數塞壬的艦艇被吸入其中，被碾碎成了粉末",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "这是…居然连塞壬的船都被卷进去了？！",
+			say = "這是…居然連塞壬的船都被捲進去了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "失控了吗！？真是危险的力量！",
+			say = "失控了嗎！？真是危險的力量！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小心，俾斯麦正在瞄准舰队中心！！",
+			say = "小心，俾斯麥正在瞄準艦隊中心！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "躲不开了..全员准备应对第二次冲击——",
+			say = "躲不開了..全員準備應對第二次衝擊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "轰——",
+			say = "轟——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -250,7 +250,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "怎么，没有受到伤害？…",
+			say = "怎麼，沒有受到傷害？…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（在能量聚集到俾斯麦周边之后，一场巨大的爆炸打断了这一切)",
+			say = "（在能量聚集到俾斯麥周邊之後，一場巨大的爆炸打斷了這一切)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "同时也摧毁了俾斯麦的大半身舰装",
+			say = "同時也摧毀了俾斯麥的大半身艦裝",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			dir = 1,
 			expression = 2,
-			say = "呼…呼…这就是",
+			say = "呼…呼…這就是",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "这就是…妳们的极限吗！！",
+			say = "這就是…妳們的極限嗎！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,8 +323,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "居然自己摧毁了自己的主炮，嗯…果然还是没能和魔方完美融合吗",
+			actorName = "測試者",
+			say = "居然自己摧毀了自己的主炮，嗯…果然還是沒能和魔方完美融合嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "呵呵，没想到…就算是自以为足够坚定的意志…",
+			say = "呵呵，沒想到…就算是自以為足夠堅定的意志…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "也有那么一瞬…",
+			say = "也有那麼一瞬…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "被这股力量给完全侵蚀了…",
+			say = "被這股力量給完全侵蝕了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "測試者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "汇报记录：第151号测试结果：测试目标主动脱离活性化状态的元魔方影响，可以初步推定存在成为关键点的潜力，但整体表现未达到目标恕限值…",
+			actorName = "測試者",
+			say = "匯報記錄：第151號測試結果：測試目標主動脫離活性化狀態的元魔方影響，可以初步推定存在成為關鍵點的潛力，但整體表現未達到目標恕限值…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "塞壬，我不知道妳们究竟在打着什么算盘…",
+			say = "塞壬，我不知道妳們究竟在打著什麼算盤…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "但是，唯独这份荣耀，不容妳们玷污!",
+			say = "但是，唯獨這份榮耀，不容妳們玷污!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "皇家舰队的战士们，虽然我们有着多年的恩怨…但是很可惜",
+			say = "皇家艦隊的戰士們，雖然我們有著多年的恩怨…但是很可惜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "我不能就这样败在妳们手下",
+			say = "我不能就這樣敗在妳們手下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "铁血的命运，将由自己把握！",
+			say = "鐵血的命運，將由自己把握！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			}
 		},
 		{
-			say = "俾斯麦的最后一门主炮朝着皇家舰队的方向射出了最后一发炮弹",
+			say = "俾斯麥的最後一門主炮朝著皇家艦隊的方向射出了最後一發炮彈",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -579,7 +579,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "由于测距设备已经被完全摧毁，炮弹偏离了轨道，仅仅在远处炸起了一朵水花",
+			say = "由於測距設備已經被完全摧毀，炮彈偏離了軌道，僅僅在遠處炸起了一朵水花",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…明明已经没法正常的瞄准了，居然还选择反击…",
+			say = "…明明已經沒法正常的瞄準了，居然還選擇反擊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么要如此执着…",
+			say = "為什麼要如此執著…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我收回之前对妳的看法，如果这就是妳最后的选择",
+			say = "我收回之前對妳的看法，如果這就是妳最後的選擇",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我们会用炮火送妳一程",
+			say = "我們會用炮火送妳一程",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "皇家舰队全员，集中最后的火力",
+			say = "皇家艦隊全員，集中最後的火力",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "目标俾斯麦！！",
+			say = "目標俾斯麥！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			bgName = "bg_bsm_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -737,7 +737,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_3",
 			dir = 1,
@@ -756,11 +756,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_bsm_3",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "（…还是没能…达成…我们的夙愿啊……）",
+			say = "（…還是沒能…達成…我們的夙願啊……）",
 			flashN = {
 				color = {
 					1,
@@ -809,11 +809,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "（一个能够重新回到大洋的…）",
+			say = "（一個能夠重新回到大洋的…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,11 +825,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "（威严的海军…）",
+			say = "（威嚴的海軍…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_5",
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			nameColor = "#ffde38",
 			say = "等一下！",
 			flashout = {
@@ -880,12 +880,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯？还有什么问题么，俾斯麦。",
+			say = "嗯？還有什麼問題嗎，俾斯麥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,11 +897,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "我想知道，在妳们所观察到的无数个可能性中，是否存在…",
+			say = "我想知道，在妳們所觀察到的無數個可能性中，是否存在…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,12 +912,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "并没有哦",
+			say = "並沒有哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -944,12 +944,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "在绵延数千载的历史长河中，“妳”作为个体，不过是沧海一粟",
+			say = "在綿延數千載的歷史長河中，“妳”作為個體，不過是滄海一粟",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,12 +960,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "太过于渺小，以至于连选择自己命运的权力都不曾拥有",
+			say = "太過於渺小，以至於連選擇自己命運的權力都不曾擁有",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,12 +976,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "至诞生、至消亡，都不曾拥有",
+			say = "至誕生、至消亡，都不曾擁有",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,12 +992,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "无论“妳”能否在那场关键的战斗中幸存，时代的走向都不会改变",
+			say = "無論“妳”能否在那場關鍵的戰鬥中倖存，時代的走向都不會改變",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1009,7 +1009,7 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1025,11 +1025,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "不…妳错了。我想知道的并不是关于我的命运。",
+			say = "不…妳錯了。我想知道的並不是關於我的命運。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1057,11 +1057,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "她们的未来是否拥有获得救赎的可能…",
+			say = "她們的未來是否擁有獲得救贖的可能…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,7 +1072,7 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
@@ -1088,12 +1088,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "妳可真是个有趣的样本，居然能达成超出我们预测的对话",
+			say = "妳可真是個有趣的樣本，居然能達成超出我們預測的對話",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1104,12 +1104,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "欲带皇冠必承其重，看来妳已经理解了其中的意味呢",
+			say = "欲帶皇冠必承其重，看來妳已經理解了其中的意味呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1121,11 +1121,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "“要真正体验生命,妳必须站在生命之上”",
+			say = "“要真正體驗生命，妳必須站在生命之上”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1137,11 +1137,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "我们作为个体的生命在诞生之时便已消亡",
+			say = "我們作為個體的生命在誕生之時便已消亡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1153,11 +1153,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "取而代之的，是一个名为“铁血”的钢铁之躯。",
+			say = "取而代之的，是一個名為“鐵血”的鋼鐵之軀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1169,11 +1169,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "铁血终将高于一切",
+			say = "鐵血終將高於一切",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1184,28 +1184,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
-			side = 2,
-			bgName = "bg_bsm_5",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "去吧，用妳渺小而卑微的生命影响世界，去拨动静滞时间的齿轮吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "让海涛为妳翻滚，让风云为妳变色",
+			say = "去吧，用妳渺小而卑微的生命影響世界，去撥動靜滯時間的齒輪吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1216,12 +1200,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "届时，渺小的生命便成就了妳，妳便找到了“另一个自我”",
+			say = "讓海濤為妳翻滾，讓風雲為妳變色",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1232,12 +1216,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "然后妳就能找到答案了——————",
+			say = "屆時，渺小的生命便成就了妳，妳便找到了“另一個自我”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1248,12 +1232,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "前提是那时候的妳能够认可“另一个自我”呢~呵呵呵呵呵———",
+			say = "然後妳就能找到答案了——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1264,13 +1248,29 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "觀察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "前提是那時候的妳能夠認可“另一個自我”呢~呵呵呵呵呵———",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "俾斯麥",
 			side = 2,
 			dir = 1,
 			bgName = "bg_bsm_3",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "铁的纪律与…血的荣耀…………",
+			say = "鐵的紀律與…血的榮耀…………",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -1308,11 +1308,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "至少到最后，铁血的战舰还能选择面对自己的命运…",
+			say = "至少到最後，鐵血的戰艦還能選擇面對自己的命運…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1327,7 +1327,7 @@ return {
 			bgName = "bg_bsm_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -1376,11 +1376,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "您曾经说过，",
+			say = "您曾經說過，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1392,11 +1392,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "音乐总是能唤起人心中两种截然不同的渴望，一是战争，另一则是田园般的宁静",
+			say = "音樂總是能喚起人心中兩種截然不同的渴望，一是戰爭，另一則是田園般的寧靜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1408,11 +1408,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "原来如此",
+			say = "原來如此",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1425,11 +1425,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_bsm_3",
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "我终于能感受到宁静的一面了…",
+			say = "我終於能感受到寧靜的一面了…",
 			flashN = {
 				color = {
 					1,
@@ -1481,7 +1481,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"<size=60>（我的妹妹…到最后还是期待能和妳们并肩前行呀…）</size>",
+					"<size=60>（我的妹妹…到最後還是期待能和妳們並肩前行呀…）</size>",
 					1
 				}
 			}
@@ -1491,7 +1491,7 @@ return {
 			dir = 1,
 			actor = 205040,
 			nameColor = "#a9f548",
-			say = "这样就…结束了吧",
+			say = "這樣就…結束了吧",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -1538,7 +1538,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……是的，塞壬也消失得无影无踪了，我们取得了最后的胜利",
+			say = "……是的，塞壬也消失得無影無蹤了，我們取得了最後的勝利",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1553,7 +1553,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…还真是一场沉重的胜利啊",
+			say = "不過…還真是一場沉重的勝利啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1583,7 +1583,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "皇家舰队的所有成员，今天，我们合众人之力，击败了长久以来威胁着我们的强大敌人",
+			say = "皇家艦隊的所有成員，今天，我們合眾人之力，擊敗了長久以來威脅著我們的強大敵人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1598,7 +1598,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在这场战斗中，我们的敌人展现出了顽强的战斗精神",
+			say = "在這場戰鬥中，我們的敵人展現出了頑強的戰鬥精神",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1613,7 +1613,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我希望皇家舰队的各位，在未来，在同样被数倍于自己的敌人包围时，能够回忆起今天的战斗",
+			say = "我希望皇家艦隊的各位，在未來，在同樣被數倍於自己的敵人包圍時，能夠回憶起今天的戰鬥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1628,7 +1628,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "将皇家舰队的战斗意志贯彻始终",
+			say = "將皇家艦隊的戰鬥意志貫徹始終",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1657,7 +1657,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "众人",
+			actorName = "眾人",
 			say = "天佑女王——",
 			effects = {
 				{
@@ -1685,7 +1685,7 @@ return {
 			dir = -1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "全员注意，做好必要的损管检查，准备返航！",
+			say = "全員注意，做好必要的損管檢查，準備返航！",
 			effects = {
 				{
 					active = false,

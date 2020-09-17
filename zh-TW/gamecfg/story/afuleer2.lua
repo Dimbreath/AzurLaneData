@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的夥伴们\n\n<size=45>二、思乡</size>",
+					"曙光和愉快的夥伴們\n\n<size=45>二、思鄉</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "和阿芙乐尔谈到了上次演习的事情。",
+			say = "和曙光談到了上次演習的事情。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实我没有做什么哦？我只是激发了大家心中的曙光而已。真正战胜强敌的还是她们自己。",
+			say = "其實我沒有做什麼哦？我只是激發了大家心中的曙光而已。真正戰勝強敵的還是她們自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说可能有点说不明白？嗯……那要从什么地方说明才好呢…",
+			say = "這麼說可能有點說不明白？嗯……那要從什麼地方說明才好呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "阿芙乐尔拿过来了两个装着透明液体的不锈钢杯",
+			say = "曙光拿過來了兩個裝著透明液體的不鏽鋼杯",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要说起来可能会很长呢。指挥官，来点喝的吧。",
+			say = "要說起來可能會很長呢。指揮官，來點喝的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "机会难得，要不要尝试一下北方联合的特产呢？",
+			say = "機會難得，要不要嘗試一下北方聯合的特產呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "北方联合的特产……应该指的就是那个了吧。",
+			say = "北方聯合的特產……應該指的就是那個了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "刚才阿芙乐尔开的那个玻璃瓶，上面的标签上没记错应该是……",
+			say = "剛才曙光開的那個玻璃瓶，上面的標籤上沒記錯應該是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "指挥官，请吧~",
+			say = "指揮官，請吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "面对眼前的这小杯透明的，看起来和纯净水无异的液体——",
+			say = "面對眼前的這小杯透明的，看起來和純淨水無異的液體——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,11 +213,11 @@ return {
 			},
 			options = {
 				{
-					content = "小心翼翼地尝一点",
+					content = "小心翼翼地嚐一點",
 					flag = 1
 				},
 				{
-					content = "直接仰头喝下全部",
+					content = "直接仰頭喝下全部",
 					flag = 2
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "仅仅是品尝了一点点，强烈的酒精味道便在口腔中扩散开来。",
+			say = "僅僅是品嚐了一點點，強烈的酒精味道便在口腔中擴散開來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "口中像是燃起了纯净的火焰一般。先是火星，再是火把，最后是烈焰，直到燃尽口腔里的一切之后慢慢熄去……",
+			say = "口中像是燃起了純淨的火焰一般。先是火星，再是火把，最後是烈焰，直到燃盡口腔裡的一切之後慢慢熄去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			optionFlag = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "指挥官，你还好么？",
+			say = "指揮官，你還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "在酒进入身体的那一瞬间，体内像是燃起了一把火。",
+			say = "在酒進入身體的那一瞬間，體內像是燃起了一把火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "那火焰饥渴，暴躁，肆虐，像是要蚕食喉咙里，甚至是整个身体的一切，大脑也变得恍惚起来……",
+			say = "那火焰飢渴，暴躁，肆虐，像是要蠶食喉嚨裡，甚至是整個身體的一切，大腦也變得恍惚起來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "终于，那狂暴的火焰被身体安抚着，逐渐冷却下来。",
+			say = "終於，那狂暴的火焰被身體安撫著，逐漸冷卻下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			optionFlag = 2,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "指挥官，你没事吧？",
+			say = "指揮官，你沒事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "心中的曙光，还有我们北方联合舰船的历史和革命……",
+			say = "心中的曙光，還有我們北方聯合艦船的歷史和革命……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就好好给指挥官介绍一下吧",
+			say = "我就好好給指揮官介紹一下吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			say = "阿芙乐尔讲起了她的故事。",
+			say = "曙光講起了她的故事。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在聊起北方联合夥伴们的趣事时，她毫不掩饰自己的开心。",
+			say = "在聊起北方聯合夥伴們的趣事時，她毫不掩飾自己的開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在说到北方联合与塞壬的战事时，她的目光显得坚定无比。",
+			say = "在說到北方聯合與塞壬的戰事時，她的目光顯得堅定無比。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在提到北方联合的景色时，她的眼神又充满了思念。",
+			say = "在提到北方聯合的景色時，她的眼神又充滿了思念。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "直到故事的最后一个句点落下，那瓶伏特加已然是空空如也。",
+			say = "直到故事的最後一個句點落下，那瓶伏特加已然是空空如也。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵~有机会的话，真想和指挥官一起在北方联合旅行看看呢",
+			say = "呵呵~有機會的話，真想和指揮官一起在北方聯合旅行看看呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "阿芙乐尔的健谈，就像她的酒量一样，深不见底。",
+			say = "曙光的健談，就像她的酒量一樣，深不見底。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

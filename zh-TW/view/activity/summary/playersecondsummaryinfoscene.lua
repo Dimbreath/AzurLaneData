@@ -51,7 +51,6 @@ function slot0.initSummaryInfo(slot0)
 		SecondSummaryPage3.New(slot0:findTF("page3", slot0.pageContainer)),
 		SecondSummaryPage4.New(slot0:findTF("page4", slot0.pageContainer)),
 		SecondSummaryPage4.New(cloneTplTo(slot0:findTF("page4", slot0.pageContainer), slot0.pageContainer, "page4_2")),
-		SecondSummaryPage4.New(cloneTplTo(slot0:findTF("page4", slot0.pageContainer), slot0.pageContainer, "page4_3")),
 		SecondSummaryPage5.New(slot0:findTF("page5", slot0.pageContainer))
 	}
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"第一乐章\n\n<size=45>「来世之人～Von den Hinterweltlern～」</size>",
+					"第一樂章\n\n<size=45>「來世之人～Von den Hinterweltlern～」</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-1",
-			say = "清晨，海域坐标：？？？，？？？",
+			say = "清晨，海域座標：？？？，？？？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "威尔士亲王已经往东南方向撤退了，海面上没有敌影",
+			say = "威爾士親王已經往東南方向撤退了，海面上沒有敵影",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "可以适当减慢航速了吧，在这样的海况下保持全速航行实在是太勉强了",
+			say = "可以適當減慢航速了吧，在這樣的海況下保持全速航行實在是太勉強了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "再说皇家内部现在应该已经陷入混乱，恐怕也抽不出精力来追击…",
+			say = "再說皇家內部現在應該已經陷入混亂，恐怕也抽不出精力來追擊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			say = "不要轻敌！皇家的舰队不会就此善罢甘休的",
+			say = "不要輕敵！皇家的艦隊不會就此善罷甘休的",
 			dir = -1,
 			actor = 405010,
 			nameColor = "#ffde38",
@@ -133,7 +133,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "但是妳身上的伤…",
+			say = "但是妳身上的傷…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "暂时不会造成大问题，跟紧逼而来的威胁相比，这点损伤不值一提",
+			say = "暫時不會造成大問題，跟緊逼而來的威脅相比，這點損傷不值一提",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "又在说这种话了",
+			say = "又在說這種話了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "欧根，听从命令。",
+			say = "歐根，聽從命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "不管了~我要休息一下，妳就趁机稍微处理一下吧",
+			say = "不管了~我要休息一下，妳就趁機稍微處理一下吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "阻止旗舰乱来也是伴随舰的职责哦~",
+			say = "阻止旗艦亂來也是伴隨艦的職責哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "唯独在辩歪理上，我是无法赢过妳的，欧根。",
+			say = "唯獨在辯歪理上，我是無法贏過妳的，歐根。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "多谢夸奖~",
+			say = "多謝誇獎~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

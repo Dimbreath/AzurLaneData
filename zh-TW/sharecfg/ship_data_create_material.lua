@@ -70,13 +70,12 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
-			"<color=#ffde38>齊柏林伯爵</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>U-47</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Z46</color>：1.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z25</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z35</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>希佩爾將軍</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>Z19</color>：5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>俾斯麥</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>英王喬治五世</color>：0.5%",
+			"<color=#d797ff>U-556</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Z36</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>U-73</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>回聲</color>：5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
@@ -104,7 +103,7 @@ pg.ship_data_create_material = {
 	},
 	{
 		use_gold = 1500,
-		name = "特型舰祈愿",
+		name = "特型艦祈願",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
@@ -122,7 +121,7 @@ pg.ship_data_create_material = {
 	},
 	{
 		use_gold = 600,
-		name = "轻型舰祈愿",
+		name = "輕型艦祈願",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "2",
@@ -140,7 +139,7 @@ pg.ship_data_create_material = {
 	},
 	{
 		use_gold = 1500,
-		name = "重型舰祈愿",
+		name = "重型艦祈願",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "3",

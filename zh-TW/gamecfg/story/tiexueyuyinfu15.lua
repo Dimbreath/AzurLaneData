@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，声望号战列巡洋舰加入战斗！开火",
+			say = "皇家艦隊，聲望號戰鬥巡洋艦加入戰鬥！開火",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，皇家方舟号航空母舰加入战斗！",
+			say = "皇家艦隊，皇家方舟號航空母艦加入戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，胜利号装甲航母！",
+			say = "皇家艦隊，勝利號裝甲航母！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,8 +110,8 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/plane",
 			actor = 207040,
-			actorName = "胜利&皇家方舟",
-			say = "剑鱼出击！",
+			actorName = "勝利&皇家方舟",
+			say = "劍魚出擊！",
 			subActors = {
 				{
 					actor = 207020,
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "制空权就拜托妳们了！！我和罗德尼会找机会击穿它们的护盾！不要放过任何一个敌人！",
+			say = "制空權就拜託妳們了！！我和羅德尼會找機會擊穿它們的護盾！不要放過任何一個敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,8 +196,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "皇家的孩子们，妳们这样一拥而上的样子可一点也称不上“优雅”呀",
+			actorName = "測試者",
+			say = "皇家的孩子們，妳們這樣一擁而上的樣子可一點也稱不上“優雅”呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,8 +212,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "甚至连一点战术都没…",
+			actorName = "測試者",
+			say = "甚至連一點戰術都沒…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "測試者",
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "（情况似乎有点反常，所有单位的热量都超出了常规范围）",
+			actorName = "測試者",
+			say = "（情況似乎有點反常，所有單位的熱量都超出了常規範圍）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,8 +306,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "（难道是被活性化的魔方影响了吗）",
+			actorName = "測試者",
+			say = "（難道是被活性化的魔方影響了嗎）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,8 +322,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "终端，妳看到这里的情况了吗",
+			actorName = "測試者",
+			say = "終端，妳看到這裡的情況了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,8 +384,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "请求进行元魔方的活性化测试——",
+			actorName = "測試者",
+			say = "請求進行元魔方的活性化測試——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,8 +415,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "信号…被阻断了吗？",
+			actorName = "測試者",
+			say = "訊號…被阻斷了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "測試者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "无论如何，这是个难得的好机会…如果可以收集到更多关于元魔方的数据的话——",
+			actorName = "測試者",
+			say = "無論如何，這是個難得的好機會…如果可以收集到更多關於元魔方的數據的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "塞壬的动作慢下来了，不要放过这个机会，全力进攻！",
+			say = "塞壬的動作慢下來了，不要放過這個機會，全力進攻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,8 +524,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "很好，能量等级还在进一步上升…来吧，尽情发泄妳们的愤怒吧！",
+			actorName = "測試者",
+			say = "很好，能量等級還在進一步上升…來吧，盡情發洩妳們的憤怒吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "bsm-3",
-			say = "轰——",
+			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -589,7 +589,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "皇家舰队不断的攻击着俾斯麦和塞壬，炮弹和鱼雷激起的水柱冲天而上",
+			say = "皇家艦隊不斷的攻擊著俾斯麥和塞壬，炮彈和魚雷激起的水柱沖天而上",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -636,7 +636,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "洒落而下的水珠在遇到一股巨大的能量流后瞬间蒸发成了水蒸气",
+			say = "灑落而下的水珠在遇到一股巨大的能量流後瞬間蒸發成了水蒸氣",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "整个战场逐渐被白雾所笼罩",
+			say = "整個戰場逐漸被白霧所籠罩",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周边突然出现不明气象！这片白雾不仅影响了光学影像，舰载机的视野也……目前无法观测到俾斯麦！",
+			say = "周邊突然出現不明氣象！這片白霧不僅影響了光學影像，艦載機的視野也……目前無法觀測到俾斯麥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "測試者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "人类进化发展的历史…便是科技与学习的历史",
+			actorName = "測試者",
+			say = "人類進化發展的歷史…便是科技與學習的歷史",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,8 +711,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "为了学习，一切的牺牲都是值得的——",
+			actorName = "測試者",
+			say = "為了學習，一切的犧牲都是值得的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这种不祥的预感...难道…",
+			say = "這種不祥的預感...難道…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "全员！紧急回避！！",
+			say = "全員！緊急迴避！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "一道强烈的光束穿透了水雾，划出了一条巨大的气流隧道",
+			say = "一道強烈的光束穿透了水霧，劃出了一條巨大的氣流隧道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +815,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "巨大的光束，瞬间穿透了乔治五世的装甲区，留下了一个巨大的融洞",
+			say = "巨大的光束，瞬間穿透了喬治五世的裝甲區，留下了一個巨大的融洞",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "俾斯麦，妳终究还是…",
+			say = "俾斯麥，妳終究還是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +847,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "全员注意，保持一级战斗戒备！",
+			say = "全員注意，保持一級戰鬥戒備！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,6 +8,22 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>不設定任何頭像框</color>\n該狀態下將誓約角色設為秘書艦，可顯示誓約頭像框",
 		scene = {}
 	},
+	[101] = {
+		name = "一週年紀念",
+		time_second = 0,
+		id = 101,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>獻給所有一年間持續奮鬥在港區的指揮官們</color>\n開啟「再誕·曙光」紀念幣獲得",
+		scene = {}
+	},
+	[302] = {
+		name = "鐵血之誓",
+		time_second = 0,
+		id = 302,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>以赤紅的血、和冷徹的鐵，鑄就堅定的意志</color>\n「鐵血、音符與誓言」活動獲取",
+		scene = {}
+	},
 	[1001] = {
 		name = "開服紀念",
 		time_second = 0,
@@ -18,6 +34,8 @@ pg.item_data_frame = {
 	},
 	all = {
 		0,
+		101,
+		302,
 		1001
 	}
 }

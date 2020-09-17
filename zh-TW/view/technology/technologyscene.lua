@@ -96,8 +96,12 @@ function slot0.updateSettingsBtn(slot0)
 	setActive(slot6, slot9)
 	setActive(slot4, true)
 
-	if slot7:isOpenTargetCatchup() then
-		if not slot7:isOnCatchup() then
+	slot11 = slot7:isOpenTargetCatchup()
+
+	print("是抖开启", tostring(slot11), tostring(slot7:isOnCatchup()))
+
+	if slot11 then
+		if not slot12 then
 			setActive(slot5, false)
 			setActive(slot2, true)
 		else
@@ -114,6 +118,9 @@ function slot0.updateSettingsBtn(slot0)
 				setText(slot0:findTF("ProgressText", slot5), slot16 .. "/" .. slot17)
 			end
 		end
+	else
+		setActive(slot5, false)
+		setActive(slot2, false)
 	end
 end
 

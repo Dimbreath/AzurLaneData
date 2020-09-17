@@ -13,7 +13,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "平海",
-			say = "铛铛铛铛~中秋平海闪亮登场！",
+			say = "鐺鐺鐺鐺~中秋平海閃亮登場！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 502022,
-			actorName = "宁海",
+			actorName = "寧海",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -63,7 +63,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎……，这也是“中秋”的习俗吗？",
+			say = "哎……，這也是“中秋”的習俗嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不是的，只是因为平海和宁海一直很努力，所以想稍微给点奖励~",
+			say = "不是的，只是因為平海和寧海一直很努力，所以想稍微給點獎勵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这——这难道是亲手缝制的？我家的海伦娜……完全被比下去了！",
+			say = "這——這難道是親手縫製的？我家的海倫娜……完全被比下去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……我好像听到了很了不得的话——",
+			say = "……我好像聽到了很了不得的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,8 +123,8 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actorName = "宁海",
-			say = "总、总之，赶快开饭吧！我要喝桂花酿！",
+			actorName = "寧海",
+			say = "總、總之，趕快開飯吧！我要喝桂花釀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当然！这么热闹的赏月夜，大家一起把桂花酒喝完吧。啊——留给月亮大人的那份可不能动哦",
+			say = "當然！這麼熱鬧的賞月夜，大家一起把桂花酒喝完吧。啊——留給月亮大人的那份可不能動哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = -1,
 			actor = 107020,
 			nameColor = "#a9f548",
-			say = "这就是……萨拉做的“月饼”吗……",
+			say = "這就是……薩拉做的“月餅”嗎……",
 			flashout = {
 				dur = 0.75,
 				black = true,
@@ -205,7 +205,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔，嚼嚼……萨拉，妳还要……继续进步哦……",
+			say = "唔，嚼嚼……薩拉，妳還要……繼續進步哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,8 +220,8 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actorName = "宁海",
-			say = "那种一看就知道不能吃的食物…竟然吞下去了…何等温柔的亲情！",
+			actorName = "寧海",
+			say = "那種一看就知道不能吃的食物…竟然吞下去了…何等溫柔的親情！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "平海",
-			say = "列克小姐的“月饼”蛮好吃的，嚼嚼~就是味道和逸仙姐做的不太一样……",
+			say = "列小姐的“月餅”蠻好吃的，嚼嚼~就是味道和逸仙姐做的不太一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不仅形状是披萨，连味道也变成披萨味了吗？不知道该说是心灵手巧还是——",
+			say = "不僅形狀是披薩，連味道也變成披薩味了嗎？不知道該說是心靈手巧還是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "克利夫兰，妳真的有按逸仙教妳的方法做吗？这个东西我越看越像是卷饼哎",
+			say = "克里夫蘭，妳真的有按逸仙教妳的方法做嗎？這個東西我越看越像是捲餅哎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈！材料我全都按比例混合在一起啦！有什么关系嘛，反正进到肚子里都一样！",
+			say = "哈哈！材料我全都按比例混合在一起啦！有什麼關係嘛，反正進到肚子裡都一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "才、才不一样！如果不是——咳、咳——",
+			say = "才、才不一樣！如果不是——咳、咳——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "一边咽东西一边说话就会这样啦，来点桂花酒吧？",
+			say = "一邊吃東西一邊說話就會這樣啦，來點桂花酒吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么最终真正做成了“月饼”的只有我、宁海、海伦娜和——平海，妳的月饼怎么变成了包子！？",
+			say = "那麼最終真正做成了“月餅”的只有我、寧海、海倫娜和——平海，妳的月餅怎麼變成了包子！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "平海",
-			say = "啊哈哈~我把模具借给了萨拉……我很喜欢吃包子所以没关系，我做的都由我自己来吃吧！",
+			say = "啊哈哈~我把模具借給了薩拉……我很喜歡吃包子所以沒關係，我做的都由我自己來吃吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎哎……不要像宝贝一样藏着呀，我还没吃过月饼味的包子呢，嚼嚼~",
+			say = "哎哎……不要像寶貝一樣藏著呀，我還沒吃過月餅味的包子呢，嚼嚼~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,8 +373,8 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actorName = "宁海",
-			say = "平海，我们换着吃吧",
+			actorName = "寧海",
+			say = "平海，我們換著吃吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不要噎着，来，尝尝桂花酿~",
+			say = "不要噎著，來，嚐嚐桂花釀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,8 +420,8 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actorName = "宁海",
-			say = "咕噜噜~好、好香……",
+			actorName = "寧海",
+			say = "咕嚕嚕~好、好香……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好、好好喝！赠给我十桶的话，海上骑士为妳赴汤蹈火在所不辞！",
+			say = "好、好好喝！贈給我十桶的話，海上騎士為妳赴湯蹈火在所不辭！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "先这样，再放入……，然后…………",
+			say = "先這樣，再放入……，然後…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦，我都记下了！等我真正酿的时候遇到问题还可以继续来请教吗？",
+			say = "哦哦，我都記下了！等我真正釀的時候遇到問題還可以繼續來請教嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当然~",
+			say = "當然~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "姐姐，我也可以喝一点吗？",
+			say = "姐姐，我也可以喝一點嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "只能一点点哦~",
+			say = "只能一點點哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,12 +522,12 @@ return {
 			}
 		},
 		{
-			say = "神明大人，为了将要团聚与尚未团聚的同伴们，在此向此夜明月奉上吾之祝酒——",
+			say = "神明大人，為了將要團聚與尚未團聚的同伴們，在此向此夜明月奉上吾之祝酒——",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
 			actor = 107020,
-			actorName = "全体",
+			actorName = "全體",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

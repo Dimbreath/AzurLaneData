@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~发现敌方运输舰队！",
+			say = "嘿嘿~發現敵方運輸艦隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:55}",
-			say = "呼……终于解决了，我们的夜战水平果然不是盖的嘛~要不然乘胜追击把他们的登陆部队也给解决掉吧？",
+			say = "呼……終於解決了，我們的夜戰水平果然不是蓋的嘛~要不然乘勝追擊把她們的登陸部隊也給解決掉吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			actor = 303010,
 			nameColor = "#a9f548",
 			side = 1,
-			say = "是啊，我们受的伤也都不太重，完全可以继续战斗的。",
+			say = "是啊，我們受的傷也都不太重，完全可以繼續戰鬥的。",
 			actorName = "{namecode:53}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "{namecode:55}，{namecode:53}，不要太得意了，虽然不知道为什么对方会这么毫无防备，空中支援到现在也没有出现，但是这充其量只是我们运气好而已。",
+			say = "{namecode:55}，{namecode:53}，不要太得意了，雖然不知道為什麼對方會這麼毫無防備，空中支援到現在也沒有出現，但是這充其量只是我們運氣好而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "一旦对方的机动部队反应过来或者分散开的舰队聚集起来，我们就走不了了。",
+			say = "一旦對方的機動部隊反應過來或者分散開的艦隊聚集起來，我們就走不了了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
-			say = "就是，姐姐，而且妳难道忘了出发前喊着这次绝对没戏喊得最响的人是谁了吗？",
+			say = "就是，姐姐，而且妳難道忘了出發前喊著這次絕對沒戲喊得最響的人是誰了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 303030,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "是、是谁呢，姐姐我什么都不知道呢~",
+			say = "是、是誰呢，姐姐我什麼都不知道呢~",
 			actorName = "{namecode:55}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "唉，如果不是AF作战时的损失太大，我们现在承担不起在这里让自己失去战斗能力的风险，不然倒是真的可以拼一下给敌人多造成一些损失就是了。",
+			say = "唉，如果不是AF作戰時的損失太大，我們現在承擔不起在這裡讓自己失去戰鬥能力的風險，不然倒是真的可以拼一下給敵人多造成一些損失就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "可惜这个世上没有如果。走吧，今晚我们能做的，只有这么多了。虽然很不甘心，不过敌人在瓜岛的登陆作战还是成功了，而我们也不能放弃这里。",
+			say = "可惜這個世上沒有如果。走吧，今晚我們能做的，只有這麼多了。雖然很不甘心，不過敵人在瓜島的登陸作戰還是成功了，而我們也不能放棄這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "接下来，围绕着这座岛屿，会是一场漫长的战斗呢。",
+			say = "接下來，圍繞著這座島嶼，會是一場漫長的戰鬥呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:69}转头看向瓜岛，这座处于热带气候，常年高温潮湿，被雨林均匀覆盖而且人迹罕至的岛屿，此时在月光之下，依然显得十分安静。",
+			say = "{namecode:69}轉頭看向瓜島，這座處於熱帶氣候，常年高溫潮濕，被雨林均勻覆蓋而且人跡罕至的島嶼，此時在月光之下，依然顯得十分安靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "不过这份安静，马上将被战火所打破……",
+			say = "不過這份安靜，馬上將被戰火所打破……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的夥伴们\n\n<size=45>三、特别的欢迎会</size>",
+					"曙光和愉快的夥伴們\n\n<size=45>三、特別的歡迎會</size>",
 					1
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？为什么门底下会有一封信？我看看……",
+			say = "嗯？為什麼門底下會有一封信？我看看……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“亲启 阿芙乐尔女士”……看来是给我的呢。内容是——",
+			say = "“親啟 曙光女士”……看來是給我的呢。內容是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来是这样啊。看来不得不去一趟了呢。",
+			say = "原來是這樣啊。看來不得不去一趟了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "……有人吗？",
+			say = "……有人嗎？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "门好像没锁呢……那我就进来咯。",
+			say = "門好像沒鎖呢……那我就進來囉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "???",
-			say = "阿芙乐尔来了！",
+			say = "曙光來了！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actorName = "北方联合众人",
+			actorName = "北方聯合眾人",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔！",
+			say = "曙光！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "随着两声炮响，礼花与丝带在房间里飘散开来。",
+			say = "隨著兩聲炮響，禮花與絲帶在房間裡飄散開來。",
 			effects = {
 				{
 					active = true,
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "哈哈，没想到阿芙乐尔居然把指挥官带来了呢～不错嘛♪",
+			say = "哈哈，沒想到曙光居然把指揮官帶來了呢～不錯嘛♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呀，这是——",
+			say = "啊呀，這是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔同志，我们为妳准备了一个特别的欢迎会！",
+			say = "曙光同志，我們為妳準備了一個特別的歡迎會！",
 			effects = {
 				{
 					active = false,
@@ -325,7 +325,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于好久不见的老同志，不进行一点热烈的表示怎么行嘛！",
+			say = "對於好久不見的老同志，不進行一點熱烈的表示怎麼行嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎会？但是，对这个港区而言，该被欢迎的不是妳们才对吗？",
+			say = "歡迎會？但是，對這個港區而言，該被歡迎的不是妳們才對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "啊啊，这个欢迎会是我提出来的。关于这个问题其实我也想过。",
+			say = "啊啊，這個歡迎會是我提出來的。關於這個問題其實我也想過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "不过，反正都是欢迎，与其让阿芙乐尔为我们大家办欢迎会，不如就让我们为阿芙乐尔办一个欢迎会嘛！对吧？",
+			say = "不過，反正都是歡迎，與其讓曙光為我們大家辦歡迎會，不如就讓我們為曙光辦一個歡迎會嘛！對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "而且，这个欢迎会也能看作是“欢迎阿芙乐尔同志回归”的欢迎会！我说的没错吧？嘿嘿~",
+			say = "而且，這個歡迎會也能看作是“歡迎曙光同志回歸”的歡迎會！我說的沒錯吧？嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			actor = 701040,
 			nameColor = "#a9f548",
-			say = "塔什干也觉得这个想法很棒，所以和大家一起准备了这个欢迎会。",
+			say = "塔什干也覺得這個想法很棒，所以和大家一起準備了這個歡迎會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳们……",
+			say = "妳們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "阿芙乐尔脸上露出了会心的微笑。",
+			say = "曙光臉上露出了會心的微笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那，我就恭敬不如从命了呢。对了，既然是欢迎会，“那个”也带上了吧？",
+			say = "那，我就恭敬不如從命了呢。對了，既然是歡迎會，“那個”也帶上了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			actor = 702030,
 			nameColor = "#a9f548",
-			say = "威严，慢点喝～",
+			say = "威嚴，慢點喝～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，既然如此，那就让我们大家一起举杯吧！",
+			say = "呵呵，既然如此，那就讓我們大家一起舉杯吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			actorName = "北方联合众人",
+			actorName = "北方聯合眾人",
 			say = "γpa！",
 			effects = {
 				{

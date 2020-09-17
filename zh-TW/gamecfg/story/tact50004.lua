@@ -24,7 +24,7 @@ return {
 			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "可恶，敌人明明是从南边来的，为什么芝加哥那边一点警报都没有！",
+			say = "可惡，敵人明明是從南邊來的，為什麼芝加哥那邊一點警報都沒有！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			say = "可能是因为澳大利亚号过来开会时比较匆忙，没有安排好指挥权的代管……吧？",
+			say = "可能是因為澳大利亞號過來開會時比較匆忙，沒有安排好指揮權的代管……吧？",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -56,7 +56,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "欸，指挥权？代管？那是什么？",
+			say = "欸，指揮權？代管？那是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "好吃吗？",
+			say = "好吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "现在不是解释的时候呢……最坏的情况是，芝加哥她们的南方部队甚至没有反应过来就被解决了……这样就麻烦了。",
+			say = "現在不是解釋的時候呢……最壞的情況是，芝加哥她們的南方部隊甚至沒有反應過來就被解決了……這樣就麻煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "总之，虽然我已经给全军发送了警报，不过认为我们现在是孤立无援的状态比较好哦。",
+			say = "總之，雖然我已經給全軍發送了警報，不過認為我們現在是孤立無援的狀態比較好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "这我还是知道的……倒不如说，敌人的主力已经近在眼前啦！",
+			say = "這我還是知道的……倒不如說，敵人的主力已經近在眼前啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "昆西，文森斯，注意保护自己！",
+			say = "昆西，文森尼斯，注意保護自己！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actorName = "昆西&文森斯",
+			actorName = "昆西&文森尼斯",
 			side = 0,
 			actor = 103090,
 			dir = 1,

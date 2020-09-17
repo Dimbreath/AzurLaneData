@@ -40519,7 +40519,7 @@ pg.enemy_data_statistics = {
 	},
 	[397] = {
 		cannon = 0,
-		name = "驱逐「Pawn」.F",
+		name = "驅逐「Pawn」.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -40661,7 +40661,7 @@ pg.enemy_data_statistics = {
 	},
 	[398] = {
 		cannon = 0,
-		name = "轻巡「Knight」.F",
+		name = "輕巡「Knight」.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -43300,7 +43300,7 @@ pg.enemy_data_statistics = {
 	},
 	[417] = {
 		cannon = 0,
-		name = "驱逐「Pawn」III型",
+		name = "驅逐「Pawn」III型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -43442,7 +43442,7 @@ pg.enemy_data_statistics = {
 	},
 	[418] = {
 		cannon = 0,
-		name = "轻巡「Knight」III型",
+		name = "輕巡「Knight」III型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -43733,7 +43733,7 @@ pg.enemy_data_statistics = {
 	},
 	[420] = {
 		cannon = 0,
-		name = "战舰「Rook」III型",
+		name = "戰艦「Rook」III型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -44422,7 +44422,7 @@ pg.enemy_data_statistics = {
 	},
 	[425] = {
 		cannon = 0,
-		name = "领洋者III型",
+		name = "領洋者III型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -44708,7 +44708,7 @@ pg.enemy_data_statistics = {
 	},
 	[427] = {
 		cannon = 0,
-		name = "执棋者III型",
+		name = "執棋者III型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -44974,7 +44974,7 @@ pg.enemy_data_statistics = {
 	},
 	[429] = {
 		cannon = 0,
-		name = "驱逐「Pawn」II型",
+		name = "驅逐「Pawn」II型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -45116,7 +45116,7 @@ pg.enemy_data_statistics = {
 	},
 	[430] = {
 		cannon = 0,
-		name = "轻巡「Knight」II型",
+		name = "輕巡「Knight」II型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -45407,7 +45407,7 @@ pg.enemy_data_statistics = {
 	},
 	[432] = {
 		cannon = 0,
-		name = "战舰「Rook」II型",
+		name = "戰艦「Rook」II型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47765,7 +47765,7 @@ pg.enemy_data_statistics = {
 	},
 	[450] = {
 		cannon = 0,
-		name = "U81",
+		name = "U-81",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47885,7 +47885,7 @@ pg.enemy_data_statistics = {
 	},
 	[451] = {
 		cannon = 0,
-		name = "U73",
+		name = "U-73",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -48005,7 +48005,7 @@ pg.enemy_data_statistics = {
 	},
 	[452] = {
 		cannon = 0,
-		name = "U101",
+		name = "U-101",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -48125,7 +48125,7 @@ pg.enemy_data_statistics = {
 	},
 	[453] = {
 		cannon = 0,
-		name = "U522",
+		name = "U-522",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -54071,7 +54071,7 @@ pg.enemy_data_statistics = {
 	},
 	[901] = {
 		cannon = 10,
-		name = "驱逐「Pawn」",
+		name = "驅逐「Pawn」",
 		antisub = 0,
 		air = 0,
 		pilot_ai_template_id = 20005,
@@ -54099,7 +54099,7 @@ pg.enemy_data_statistics = {
 	},
 	[902] = {
 		cannon = 10,
-		name = "轻巡「Knight」",
+		name = "輕巡「Knight」",
 		antisub = 0,
 		air = 0,
 		pilot_ai_template_id = 20005,
@@ -54154,7 +54154,7 @@ pg.enemy_data_statistics = {
 	},
 	[904] = {
 		cannon = 30,
-		name = "战舰「Rook」",
+		name = "戰艦「Rook」",
 		antisub = 0,
 		air = 0,
 		pilot_ai_template_id = 20004,
@@ -54269,7 +54269,7 @@ pg.enemy_data_statistics = {
 	},
 	[913] = {
 		cannon = 20,
-		name = "领洋者I型",
+		name = "領洋者I型",
 		antisub = 0,
 		air = 0,
 		pilot_ai_template_id = 10001,
@@ -54328,7 +54328,7 @@ pg.enemy_data_statistics = {
 	},
 	[915] = {
 		cannon = 0,
-		name = "执棋者I型",
+		name = "執棋者I型",
 		antisub = 0,
 		air = 60,
 		pilot_ai_template_id = 10001,
@@ -169941,7 +169941,7 @@ pg.enemy_data_statistics = {
 	},
 	[11900110] = {
 		cannon = 0,
-		name = "护卫舰",
+		name = "護衛艦",
 		hit_growth = 0,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -176682,7 +176682,7 @@ pg.enemy_data_statistics = {
 	},
 	[12200232] = {
 		cannon = 165,
-		name = "测试者",
+		name = "測試者",
 		antiaircraft = 240,
 		speed_growth = 0,
 		air_growth = 0,
@@ -179353,7 +179353,7 @@ pg.enemy_data_statistics = {
 	},
 	[12200442] = {
 		cannon = 300,
-		name = "测试者",
+		name = "測試者",
 		antiaircraft = 390,
 		speed_growth = 0,
 		air_growth = 0,
@@ -181729,7 +181729,7 @@ pg.enemy_data_statistics = {
 	},
 	[12300134] = {
 		cannon = 95,
-		name = "测试者",
+		name = "測試者",
 		antiaircraft = 135,
 		speed_growth = 0,
 		air_growth = 0,
@@ -184413,7 +184413,7 @@ pg.enemy_data_statistics = {
 	},
 	[12300334] = {
 		cannon = 215,
-		name = "测试者",
+		name = "測試者",
 		antiaircraft = 325,
 		speed_growth = 0,
 		air_growth = 0,
@@ -248264,7 +248264,7 @@ pg.enemy_data_statistics = {
 	},
 	[999501] = {
 		cannon = 6,
-		name = "驱逐无限血测试敌人",
+		name = "驅逐无限血测试敌人",
 		rarity = 1,
 		speed_growth = 0,
 		armor = 0,
@@ -248381,7 +248381,7 @@ pg.enemy_data_statistics = {
 	},
 	[999502] = {
 		cannon = 6,
-		name = "轻巡无限血测试敌人",
+		name = "輕巡无限血测试敌人",
 		rarity = 1,
 		speed_growth = 0,
 		armor = 0,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"理科实验时间！\n\n<size=45>三　因梦想而伟大！</size>",
+					"理科實驗時間！\n\n<size=45>三　因夢想而偉大！</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			nameColor = "#a9f548",
-			say = "“让演习用的弹药全都变成美味糖果的实验”！怎么样，是不是听起来就很棒！",
+			say = "“讓演習用的彈藥全都變成美味糖果的實驗”！怎麼樣，是不是聽起來就很棒！",
 			effects = {
 				{
 					active = true,
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "啊哈哈…槽点太多反而让人不知该从哪里吐槽起呢…",
+			say = "啊哈哈…槽點太多反而讓人不知該從哪裡吐槽起呢…",
 			effects = {
 				{
 					active = false,
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该说是不着边际，还是毫无所谓呢…亏妳能这么认真地做着这样的实验啊……",
+			say = "該說是不著邊際，還是毫無所謂呢…虧妳能這麼認真地做著這樣的實驗啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 408051,
 			nameColor = "#a9f548",
-			say = "嗯哼！人类，因梦想而伟大！毕竟现在的我可是身披白衣，最爱理科实验的疯狂科学家U-73呢～",
+			say = "嗯哼！人類，因夢想而偉大！畢竟現在的我可是身披白衣，最愛理科實驗的瘋狂科學家U-73呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个…算是白衣吗？而且人类也…",
+			say = "這個…算是白衣嗎？而且人類也…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 408051,
 			nameColor = "#a9f548",
-			say = "哎呀，不要在意这种小细节嘛！",
+			say = "哎呀，不要在意這種小細節嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…鱼雷糖果…好像也不错…很美味的样子…",
+			say = "不過…魚雷糖果…好像也不錯…很美味的樣子…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…糖衣炮弹…的说？",
+			say = "…糖衣炮彈…的說？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "喂，妳们怎么也跟着认真思考起这事情了啦！？",
+			say = "喂，妳們怎麼也跟著認真思考起這事情了啦！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吼吼？看来妳们也是拥有梦想的人呀，那就跟我一起向着科学的道路前进吧！",
+			say = "吼吼？看來妳們也是擁有夢想的人呀，那就跟我一起向著科學的道路前進吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "妳的梦想，我听到了！就让我来助妳们一臂之力吧！",
+			say = "妳的夢想，我聽到了！就讓我來助妳們一臂之力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

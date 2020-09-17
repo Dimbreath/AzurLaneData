@@ -12,7 +12,7 @@ return {
 			bgm = "bsm-3",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "该结束这场无聊的闹剧了！",
+			say = "該結束這場無聊的鬧劇了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "818中队，继续进攻！",
+			say = "818中隊，繼續進攻！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "啧…那个角度…是死角！",
+			say = "嘖…那個角度…是死角！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "回避…来不及了",
+			say = "迴避…來不及了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "左侧转向舵失灵……不，是卡住了吗？",
+			say = "左側轉向舵失靈……不，是卡住了嗎？",
 			flashN = {
 				color = {
 					1,
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "是小瞧了这些双翼机的结果么…",
+			say = "是小瞧了這些雙翼機的結果嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟号通告皇家舰队全军，敌舰俾斯麦已经失去行动能力，重复，敌舰已失去行动能力",
+			say = "皇家方舟號通告皇家艦隊全軍，敵艦俾斯麥已經失去行動能力，重複，敵艦已失去行動能力",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放弃无畏的抵抗吧，妳现在只是一只受伤的鳟鱼罢了",
+			say = "放棄無畏的抵抗吧，妳現在只是一隻受傷的鱒魚罷了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgm = "bsm-8",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "俾斯麦号通告司令部",
+			say = "俾斯麥號通告司令部",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "莱茵行动已经失败",
+			say = "萊茵行動已經失敗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "我舰已失去行动能力",
+			say = "我艦已失去行動能力",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			soundeffect = "event:/cannon-main-prepared",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "但火炮犹在",
+			say = "但火炮猶在",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我舰将战至最后一弹",
+			say = "我艦將戰至最後一彈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "铁血高于一切",
+			say = "鐵血高於一切",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

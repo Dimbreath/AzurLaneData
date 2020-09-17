@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=45>二 妹妹的忧郁</size>",
+					"妹妹的變化\n\n<size=45>二 妹妹的憂鬱</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·白鹰宿舍",
+			say = "港區·白鷹宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "又一次接受文森斯的邀请来到了文森斯的宿舍",
+			say = "又一次接受文森尼斯的邀請來到了文森尼斯的宿舍",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "文森斯，这是我刚买的芒果千层，来，啊~~",
+			say = "文森尼斯，這是我剛買的芒果千層，來，啊~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "怎么连阿斯托利亚姐姐都变成这样了……",
+			say = "怎麼連阿斯托利亞姐姐都變成這樣了……",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我也是姐姐嘛！怎么能把疼爱妹妹的事情全部交给昆西呢！",
+			say = "我也是姐姐嘛！怎麼能把疼愛妹妹的事情全部交給昆西呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…阿斯托利亚姐姐…",
+			say = "唔…阿斯托利亞姐姐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "文森斯有些无奈地被阿斯托利亚一口一口喂着蛋糕。",
+			say = "文森尼斯有些無奈地被阿斯托利亞一口一口餵著蛋糕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#a9f548",
-			say = "指挥官，help me…",
+			say = "指揮官，help me…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "在一边，阿斯托利亚看着文森斯露出了有些……幸福的笑容？",
+			say = "在一邊，阿斯托利亞看著文森尼斯露出了有些……幸福的笑容？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "总觉得阿斯托利亚的角色都变了……？",
+			say = "總覺得阿斯托利亞的角色都變了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "什么嘛，指挥官，用那种眼神看着我。虽然比不上昆西，我也是姐姐，姐，姐！",
+			say = "什麼嘛，指揮官，用那種眼神看著我。雖然比不上昆西，我也是姐姐，姐，姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "而且以前我和文森斯分开比较多，像现在这样一起生活就会觉得，我的妹妹好可爱啊！",
+			say = "而且以前我和文森尼斯分開比較多，像現在這樣一起生活就會覺得，我的妹妹好可愛啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "阿斯托利亚说着一把把文森斯抱在怀里。",
+			say = "阿斯托利亞說著一把把文森尼斯抱在懷裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐……别抱那么紧……",
+			say = "姐姐……別抱那麼緊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "总觉得，阿斯托利亚莫非有变成波特兰的潜质……？",
+			say = "總覺得，阿斯托利亞莫非有變成波特蘭的潛質……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "不过，她的想法也不是不能理解，文森斯身上确实有一种让人想要去照顾她的气场呢……",
+			say = "不過，她的想法也不是不能理解，文森尼斯身上確實有一種讓人想要去照顧她的氣場呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

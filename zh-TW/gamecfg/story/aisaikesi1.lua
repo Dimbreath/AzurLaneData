@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>一　严格的秘书舰</size>",
+					"前輩與心結\n\n<size=45>一　嚴格的秘書艦</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "因为处理事务太晚睡，导致早上起得晚了些",
+			say = "因為處理事務太晚睡，導致早上起得晚了些",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "到达指挥室的时候，秘书舰已经在处理工作了",
+			say = "到達指揮室的時候，秘書艦已經在處理工作了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "…啊，指挥官？早上好",
+			say = "…啊，指揮官？早上好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天妳迟到了一会呢，发生什么事情了吗？",
+			say = "今天你遲到了一會呢，發生什麼事情了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "昨晚工作到太晚…了吗？",
+			say = "昨晚工作到太晚…了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，作为港区和舰队的领导者，调节好自己的工作计划，保证正常的作息也是很重要的",
+			say = "指揮官，作為港區和艦隊的領導者，調節好自己的工作計劃，保證正常的作息也是很重要的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "帮助指挥官安排工作时间也是秘书舰的重要职责…",
+			say = "幫助指揮官安排工作時間也是秘書艦的重要職責…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请放心，今天开始埃塞克斯会每天监督您按时作息的！",
+			say = "請放心，今天開始艾塞克斯會每天監督您按時作息的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就尽快开始今天的工作吧！",
+			say = "那就盡快開始今天的工作吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些是需要指挥官确认的文件，我已经大致为妳分类好了——",
+			say = "這些是需要指揮官確認的文件，我已經大致為你分類好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后这是今天的行程列表，演习指导、委托内容确认、日常巡逻、科研项目…",
+			say = "然後這是今天的行程列表，演習指導、委託內容確認、日常巡邏、科研項目…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等着指挥官处理的事情还有很多，请打起精神来一项项完成吧！",
+			say = "等著指揮官處理的事情還有很多，請打起精神來一項項完成吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "有种往后的日子会不太好过的预感…",
+			say = "有種往後的日子會不太好過的預感…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

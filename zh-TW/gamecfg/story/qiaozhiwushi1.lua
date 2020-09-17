@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>一　意外的救世主</size>",
+					"另一個領導者？\n\n<size=45>一　意外的救世主</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
-			say = "港区·？？？",
+			say = "港區·？？？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "一如既往的清晨，睁开眼，却是陌生的风景。",
+			say = "一如既往的清晨，睜開眼，卻是陌生的風景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "没有见过的天花板，奇异但并不陌生的香味，各种格调极高的装饰品……",
+			say = "沒有見過的天花板，奇異但並不陌生的香味，各種格調極高的裝飾品……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			},
 			options = {
 				{
-					content = "这里……是哪里……",
+					content = "這裡……是哪裡……",
 					flag = 1
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，汝终于醒了。",
+			say = "呵呵呵，汝終於醒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "循着声音望去，沙发上坐着的竟是……约克公爵！",
+			say = "循著聲音望去，沙發上坐著的竟是……約克公爵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "看来这里，应该是约克公爵的房间了。",
+			say = "看來這裡，應該是約克公爵的房間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问理由",
+					content = "詢問理由",
 					flag = 1
 				}
 			}
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然向余询问理由，汝可真是顽皮……",
+			say = "居然向余詢問理由，汝可真是頑皮……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道汝不知，正是汝之所为，让余不得不出此下策吗？",
+			say = "難道汝不知，正是汝之所為，讓余不得不出此下策嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,23 +165,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "约克公爵似乎没有在说谎，那么，她说的“汝之所为”究竟是什么事呢……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205070,
-			side = 2,
-			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "汝这一脸迷茫的，混杂着无知和纯真的神情，真是令人又爱又恨……",
+			say = "約克公爵似乎沒有在說謊，那麼，她說的“汝之所為”究竟是什麼事呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +181,23 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "汝难道不知，把那个女人置于身边，余便无法再接近汝了吗？",
+			say = "汝這一臉迷茫的，混雜著無知和純真的神情，真是令人又愛又恨……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205070,
+			side = 2,
+			bgName = "star_level_bg_107",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "汝難道不知，把那個女人置於身邊，余便無法再接近汝了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "不是“威尔士”，而是“那个女人”？难道说……",
+			say = "不是“威爾斯”，而是“那個女人”？難道說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "指挥官，我来接妳了。",
+			say = "指揮官，我來接你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			say = "房门忽然被推开，站在那里的，正是最近被上任的秘书舰——乔治五世。",
+			say = "房門忽然被推開，站在那裡的，正是最近剛上任的秘書艦——喬治五世。",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "房间中妖魅之香所酝酿出的令人无法抵抗的黑暗气息 ，被如同光明使者一般出现的乔治五世\n一扫而空。",
+			say = "房間中妖魅之香所醞釀出的令人無法抵抗的黑暗氣息 ，被如同光明使者一般出現的喬治五世\n一掃而空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶……汝为什么会知道……",
+			say = "可惡……汝為什麼會知道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "平日里旁若无人的约克公爵，竟然在乔治五世面前似乎被压制住了。",
+			say = "平日裡旁若無人的約克公爵，竟然在喬治五世面前似乎被壓制住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "呵呵，妹妹在想什么事我可是一清二楚的啊。",
+			say = "呵呵，妹妹在想什麼事我可是一清二楚的啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，工作时间快要到了，我就先把指挥官带回去了。想要找的话，欢迎来办公室。",
+			say = "那麼，工作時間快要到了，我就先把指揮官帶回去了。想要找的話，歡迎來辦公室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			withoutActorName = true,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "乔治五世说着走过来，然后，就一把被她公主抱了起来。",
+			say = "喬治五世說著走過來，然後，就一把被她公主抱了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "指挥官，抱紧点，可别摔下去了。",
+			say = "指揮官，抱緊點，可別摔下去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "然后就这么被乔治五世抱到了办公室。",
+			say = "然後就這麼被喬治五世抱到了辦公室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "真是……一个奇妙的清晨。",
+			say = "真是……一個奇妙的清晨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

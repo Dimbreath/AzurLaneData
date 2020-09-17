@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔，和一开始相比，{namecode:164}感觉到自己变强了很多，这都多亏了指挥官。",
+			say = "唔唔，和一开始相比，北风感觉到自己变强了很多，这都多亏了指挥官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399030,
-			say = "现在无论是战斗还是别的，{namecode:164}都感觉更加得心应手了。",
+			say = "现在无论是战斗还是别的，北风都感觉更加得心应手了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，{namecode:164}还想帮上大家更多的忙，还想变得更强。",
+			say = "但是，北风还想帮上大家更多的忙，还想变得更强。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399030,
-			say = "仅仅靠{namecode:164}一个人的力量是难以做到的…",
+			say = "仅仅靠北风一个人的力量是难以做到的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399030,
-			say = "指挥官，你会陪着{namecode:164}……一起的吧？",
+			say = "指挥官，你会陪着北风……一起的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

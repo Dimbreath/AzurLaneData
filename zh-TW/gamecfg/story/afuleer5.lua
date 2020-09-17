@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的夥伴们\n\n<size=45>五、刹车带</size>",
+					"曙光和愉快的夥伴們\n\n<size=45>五、剎車帶</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "这是港区里发生的一次小小的冲突。",
+			say = "這是港區裡發生的一次小小的衝突。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "今天好像没有我的任务呢。",
+			say = "今天好像沒有我的任務呢。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要不去看看我家皮罗什基吧？有点想它那温暖的皮毛了呢~",
+			say = "要不去看看我家皮羅什基吧？有點想它那溫暖的皮毛了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔同志！那个……不，不好了！北方联合要和白鹰打起来了！",
+			say = "曙光同志！那個……不，不好了！北方聯合要和白鷹打起來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发生了什么吗？别急，慢慢说就好。",
+			say = "發生了什麼嗎？別急，慢慢說就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "是，是这样的！其实……",
+			say = "是，是這樣的！其實……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "也就是说，苏维埃罗西亚和白鹰的萨拉托加在共同演习的时候发生了意见不合……",
+			say = "也就是說，蘇維埃俄羅斯和白鷹的薩拉托加在共同演習的時候發生了意見不合……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "对，就是这样！虽然不知道原因是什么，不过两边看起来都很不高兴。",
+			say = "對，就是這樣！雖然不知道原因是什麼，不過兩邊看起來都很不高興。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们现在在哪里？",
+			say = "她們現在在哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "到了！妳看，她们还在吵架呢！",
+			say = "到了！妳看，她們還在吵架呢！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "听好了！航母编队在作战的时候，战列舰要伴随在航母旁边进行护卫才对！一个人冲在前面的话，要是航母们遭到袭击了怎么办！",
+			say = "聽好了！航母編隊在作戰的時候，戰列艦要伴隨在航母旁邊進行護衛才對！一個人衝在前面的話，要是航母們遭到襲擊了怎麼辦！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "以航母作为作战中心的话还好，但是如果需要最大限度活用战舰的性能的话，不是应该再独立编成一个舰队吗",
+			say = "以航母作為作戰中心的話還好，但是如果需要最大限度活用戰艦的性能的話，不是應該再獨立編成一個艦隊嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "把我们战列舰当做一个防空哨艇，这种运用方式恕我无法接受！",
+			say = "把我們戰列艦當做一個防空哨艇，這種運用方式恕我無法接受！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "那是因为妳们北方联合根本就没有多少航空母舰，所以也不知道航母的战术是怎么样的啦！",
+			say = "那是因為妳們北方聯合根本就沒有多少航空母艦，所以也不知道航母的戰術是怎麼樣的啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "妳这——",
+			say = "妳這——",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，罗西亚，到此为止吧。吵架不能解决任何问题。",
+			say = "好了，俄羅斯，到此為止吧。吵架不能解決任何問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们北方联合在航母运用方面确实没有多少经验，这是事实",
+			say = "我們北方聯合在航母運用方面確實沒有多少經驗，這是事實",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔同志……",
+			say = "曙光同志……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "我们北方联合的舰队运用趋向于对抗塞壬。作为舰船的我们的战斗方式在其他阵营眼中并没有充分的认知，这一点亦不能否定",
+			say = "我們北方聯合的艦隊運用趨向於對抗塞壬。作為艦船的我們的戰鬥方式在其他陣營眼中並沒有充分的認知，這一點亦不能否定",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来大家都冷静下来了呢。",
+			say = "看來大家都冷靜下來了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳们是在有关舰队运用的一些问题上出现了分歧，对吧？既然如此的话，我有一个好的提议——",
+			say = "妳們是在有關艦隊運用的一些問題上出現了分歧，對吧？既然如此的話，我有一個好的提議——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "由我去向指挥官申请，明天，北方联合和白鹰各派一支队伍进行模拟对抗如何？",
+			say = "由我去向指揮官申請，明天，北方聯合和白鷹各派一支隊伍進行模擬對抗如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃罗西亚&萨拉托加",
+			actorName = "蘇維埃俄羅斯&薩拉托加",
 			side = 0,
 			bgName = "bg_story_task",
 			hideOther = true,

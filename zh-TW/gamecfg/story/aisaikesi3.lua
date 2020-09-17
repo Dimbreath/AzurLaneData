@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>三　前辈</size>",
+					"前輩與心結\n\n<size=45>三　前輩</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好，今天的工作事项也处理得差不多了！指挥官，请确认下这些报告，确认完今天就——",
+			say = "好，今天的工作事項也處理得差不多了！指揮官，請確認下這些報告，確認完今天就——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（敲门声）",
+			say = "（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了",
+			say = "打擾了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "哎？前、前辈！？我、我先去倒杯水！",
+			say = "哎？前、前輩！？我、我先去倒杯水！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯吗，现在是妳担任秘书舰吗，辛苦了。啊，水就不用了",
+			say = "艾塞克斯嗎，現在是妳擔任秘書艦嗎，辛苦了。啊，水就不用了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "那、那茶呢，前辈要喝茶吗？！",
+			say = "那、那茶呢，前輩要喝茶嗎？！",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冷静下来，我只是有事过来通报一下而已",
+			say = "冷靜下來，我只是有事過來通報一下而已",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这样的，白鹰打算组织一场针对航母的个人演习",
+			say = "是這樣的，白鷹打算組織一場針對航母的個人演習",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "个人演习？",
+			say = "個人演習？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，妳还不清楚规则吧。简单来说就是这样的……",
+			say = "對了，妳還不清楚規則吧。簡單來說就是這樣的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "大概就是这样，怎么样，埃塞克斯妳也要参加吗？",
+			say = "大概就是這樣，怎麼樣，艾塞克斯妳也要參加嗎？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让大家也见识一下新型航母的实力",
+			say = "讓大家也見識一下新型航母的實力",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（也就是说，这样的话，我就有机会和前辈直接对决了。）",
+			say = "（也就是說，這樣的話，我就有機會和前輩直接對決了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "请务必让我参加！",
+			say = "請務必讓我參加！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不错的气势，我很期待和妳的对决哦",
+			say = "不錯的氣勢，我很期待和妳的對決哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也一样，不会轻易输给前辈的！",
+			say = "我也一樣，不會輕易輸給前輩的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "虽然在前辈面前这么说了，但毕竟对手是那个企业前辈…",
+			say = "雖然在前輩面前這麼說了，但畢竟對手是那個企業前輩…",
 			flashout = {
 				dur = 1.5,
 				black = true,
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不好好准备的话，是没办法战胜的呢",
+			say = "不好好準備的話，是沒辦法戰勝的呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明天——不，现在就开始制定训练计划吧！",
+			say = "明天——不，現在就開始製定訓練計劃吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，妳愿意帮我一起训练吗？",
+			say = "指揮官，你願意幫我一起訓練嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "于是，和埃塞克斯开始了针对演习的特别训练——",
+			say = "於是，和艾塞克斯開始了針對演習的特別訓練——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

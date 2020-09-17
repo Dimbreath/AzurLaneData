@@ -9,7 +9,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有惊无险有惊无险，嘿嘿~",
+			say = "有驚無險有驚無險，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这片海域的敌人越来越难缠了，运输舰队被击沉，反潜部队很快也会到来了吧",
+			say = "這片海域的敵人越來越難纏了，運輸艦隊被擊沉，反潛部隊很快也會到來了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鱼雷也都用完了，看来是时候见好就收了",
+			say = "魚雷也都用完了，看來是時候見好就收了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "（哔哔哔——电信号声）",
+			say = "（嗶嗶嗶——電信號聲）",
 			dir = 1,
 			soundeffect = "event:/battle/dididi",
 			effects = {
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			say = "咦，收到了奇怪的求救信号…",
+			say = "咦，收到了奇怪的求救信號…",
 			effects = {
 				{
 					active = false,
@@ -96,7 +96,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "我也收到了同样的信号，虽然用的是恩尼格玛加密，但是却未注明发信方是谁",
+			say = "我也收到了同樣的信號，雖然用的是恩尼格瑪加密，但是卻未註明發信方是誰",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -115,7 +115,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道是陷阱？…恩尼格玛被破解了？…不可能",
+			say = "難道是陷阱？…恩尼格瑪被破解了？…不可能",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900180,
-			say = "这个时间点，难道会是俾斯麦姐姐…",
+			say = "這個時間點，難道會是俾斯麥姐姐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			say = "不行，我得去确认看看！",
+			say = "不行，我得去確認看看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，我们的鱼雷都已经用完了，如果这是陷阱的话就麻烦了！",
+			say = "等等，我們的魚雷都已經用完了，如果這是陷阱的話就麻煩了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "557妳先回港通报情况，我必须要去确认一下！这是我和俾斯麦姐姐的约定！",
+			say = "557妳先回港通報情況，我必須要去確認一下！這是我和俾斯麥姐姐的約定！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…那么，一定要保证安全，如果遇到敌人，马上深潜逃跑！",
+			say = "…那麼，一定要保證安全，如果遇到敵人，馬上深潛逃跑！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，放心吧，幸运女神是站在我们这边的！",
+			say = "嘻嘻，放心吧，幸運女神是站在我們這邊的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

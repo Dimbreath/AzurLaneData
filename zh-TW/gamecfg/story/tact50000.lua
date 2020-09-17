@@ -12,7 +12,7 @@ return {
 				}
 			},
 			signDate = {
-				"8月9日 凌晨 瓜岛北方海域",
+				"8月9日 凌晨 瓜島北方海域",
 				0.2,
 				{
 					600,
@@ -24,7 +24,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "呼，到了晚上终于凉快了一点……这里的天气又潮又热，光照还强，要不是有任务，真不想在这里待太久。",
+			say = "呼，到了晚上終於涼快了一點……這裡的天氣又潮又熱，光照還強，要不是有任務，真不想在這裡待太久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "真羡慕阿斯托利亚，她还有两个妹妹一起，我这边除了两个小妹妹，还有两个是盟友，虽然也不是讨厌她们……",
+			say = "真羨慕阿斯托利亞，她還有兩個妹妹一起，我這邊除了兩個小妹妹，還有兩個是盟友，雖然也不是討厭她們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "唉，休斯顿，妳要是还在该有多好呢。",
+			say = "唉，休士頓，妳要是還在該有多好呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "啊，一下子就沉浸到感伤里了，不行不行，澳大利亚号去北边开会了，现在我是南方部队的临时指挥，要给其他人做榜样才行。",
+			say = "啊，一下子就沉浸到感傷裡了，不行不行，澳大利亞號去北邊開會了，現在我是南方部隊的臨時指揮，要給其他人做榜樣才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "那么再坚持一下，明天……",
+			say = "那麼再堅持一下，明天……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "然而这时，无线电机中忽然传来了刺耳的警报声。",
+			say = "然而這時，無線電機中忽然傳來了刺耳的警報聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "这是……柏德森传来的警报？！",
+			say = "這是……柏德森傳來的警報？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,30 +117,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "怎么可能，重樱舰队真的来袭了？！而且这个距离是怎么回事！萨沃岛的两边可都是有配备雷达的妹妹在巡逻啊？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			say = "她咬了咬牙，转而联络前方不远处的僚舰巴格莱。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 103040,
-			side = 2,
-			nameColor = "#a9f548",
-			say = "巴格莱，跟上，我们要有麻烦了！",
+			say = "怎麼可能，重櫻艦隊真的來襲了？！而且這個距離是怎麼回事！薩沃島的兩邊可都是有配備雷達的妹妹在巡邏啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +130,30 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "远处，炮火声已经隐隐可闻，安静的夜晚此时仿佛忽然化身噬人的野兽，静候着柔弱的羔羊们懵懂地跳入它的巨口。",
+			say = "她咬了咬牙，轉而聯絡前方不遠處的僚艦巴格萊。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 103040,
+			side = 2,
+			nameColor = "#a9f548",
+			say = "巴格萊，跟上，我們要有麻煩了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			say = " 遠處，炮火聲已經隱隱可聞，安靜的夜晚此時彷彿忽然化身噬人的野獸，靜候著柔弱的羔羊們懵懂地跳入它的巨口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

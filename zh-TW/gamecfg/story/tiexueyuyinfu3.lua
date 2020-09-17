@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-1",
 			actor = 403030,
 			nameColor = "#ffde38",
-			say = "雷达有反应，看起来有两只小老鼠跟在我们后面呢~",
+			say = "雷達有反應，看起來有兩隻小老鼠跟在我們後面呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然被、被发现了！",
+			say = "居然被、被發現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊，快，快发电报，发电报！",
+			say = "哇啊啊啊，快，快發電報，發電報！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "俾斯麦，要陪她们玩玩吗？",
+			say = "俾斯麥，要陪她們玩玩嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 		{
 			expression = 3,
 			side = 0,
-			say = "许可交战，赶走她们。",
+			say = "許可交戰，趕走她們。",
 			dir = -1,
 			actor = 405010,
 			nameColor = "#ffde38",
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "但是不要玩过头了，对方应该已经发送我们所在的位置信息了。",
+			say = "但是不要玩過頭了，對方應該已經發送我們所在的位置訊息了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "要尽力避免继续纠缠下去。",
+			say = "要盡力避免繼續糾纏下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "了解~准备交火！",
+			say = "了解~準備交火！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

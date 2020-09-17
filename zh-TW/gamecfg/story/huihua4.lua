@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别庆典·开幕！\n\n<size=45>四　庆典一隅</size>",
+					"特別慶典·開幕！\n\n<size=45>四　慶典一隅</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "妳看，这边是厨神大赛，我记得是明天开赛，场地已经完全布置好了呢。",
+			say = "妳看，這邊是廚神大賽，我記得是明天開賽，場地已經完全佈置好了呢。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "这条路通往海边，牌子上写的是……“赶上夏日的尾巴！泳装大赛期待妳的到来！”",
+			say = "這條路通往海邊，牌子上寫的是……“趕上夏日的尾巴！泳裝大賽期待妳的到來！ ”",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "明明才刚加入舰队，妳还真是了解呢。",
+			say = "明明才剛加入艦隊，妳還真是了解呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			say = "诶嘿嘿，我可是打算在庆典里玩个痛快的呢，当然要做好功课啦~",
+			say = "欸嘿嘿，我可是打算在慶典裡玩個痛快的呢，當然要做好功課啦~",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "所以{namecode:97}妳这样把自己关在房间里太可惜啦！",
+			say = "所以{namecode:97}妳這樣把自己關在房間裡太可惜啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "“在最后的宴会上穿着亲手制作的礼服和指挥官大人共同度过一个美好的夜晚！”才是我唯一的目的哟，其他的事都无关紧要——",
+			say = "“在最後的宴會上穿著親手製作的禮服和指揮官大人共同度過一個美好的夜晚！”才是我唯一的目的喲，其他的事都無關緊要——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "咦，好像有什么声音……",
+			say = "咦，好像有什麼聲音……",
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像是……乐器声？喔，是{namecode:2}和U-81啊！换了衣服差点认不出来了……",
+			say = "好像是……樂器聲？喔，是{namecode:2}和U-81啊！換了衣服差點認不出來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = -1,
 			actor = 301013,
 			actorName = "{namecode:2}",
-			say = "呜————————————！……欸，谁叫我？",
+			say = "嗚————————————！……欸，誰叫我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "这边这边~",
+			say = "這邊這邊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是潜艇的朋友呢！{namecode:2}，一起过去看看吧！",
+			say = "是潛艇的朋友呢！{namecode:2}，一起過去看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = -1,
 			actor = 301013,
 			actorName = "{namecode:2}",
-			say = "诶等等啊！我拿着这个大号不能跑的啊——",
+			say = "欸等等啊！我拿著這個低音號不能跑的啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "{namecode:2}妳拿的这个是什么啊？",
+			say = "{namecode:2}妳拿的這個是什麼啊？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -330,7 +330,7 @@ return {
 			}
 		},
 		{
-			say = "啊这个是大号啦，女将她不是在召集一个管弦乐队在宴会的时候奏乐吗？我觉得挺好玩的就参加了",
+			say = "啊這個是低音號啦，女將她不是在召集一個管弦樂隊在宴會的時候奏樂嗎？我覺得挺好玩的就參加了",
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			blackBg = true,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "（呵呵，管弦乐队吗……正好，到时侯为了我和指挥官大人的登场而奏出最美妙的乐章吧）",
+			say = "（呵呵，管弦樂隊嗎……正好，到時侯為了我和指揮官大人的登場而奏出最美妙的樂章吧）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			actor = 408011,
 			nameColor = "#a9f548",
-			say = "诶，{namecode:2}妳会吹大号吗？",
+			say = "欸，{namecode:2}妳會吹低音號嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = -1,
 			actor = 301013,
 			actorName = "{namecode:2}",
-			say = "不会哦！",
+			say = "不會哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = -1,
 			actor = 301013,
 			actorName = "{namecode:2}",
-			say = "……啊啊啊我已经在努力的练习啦！不要用那种眼神看着我！",
+			say = "……啊啊啊我已經在努力的練習啦！不要用那種眼神看著我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "额……啊！港区第一武道会决赛好像马上开始了！大家都一起去看看吧！",
+			say = "呃……啊！港區第一武道會決賽好像馬上開始了！大家都一起去看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "嘁，打扰了我为心爱的指挥官准备衣服的时间，还一路磨蹭的不知道是哪里的谁……喂，等我一下！",
+			say = "嘁，打擾了我為心愛的指揮官準備衣服的時間，還一路磨蹭的不知道是哪裡的誰……喂，等我一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = -1,
 			hideOther = true,
 			actorName = "U-81&{namecode:2}",
-			say = "……这两个人为什么会突然凑在一起的？",
+			say = "……這兩個人為什麼會突然湊在一起的？",
 			subActors = {
 				{
 					dir = -1,
@@ -498,13 +498,13 @@ return {
 			}
 		},
 		{
-			actorName = "司仪·{namecode:55}",
+			actorName = "司儀·{namecode:55}",
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
 			actor = 303030,
 			nameColor = "#a9f548",
-			say = "战斗~~结束！！虽然{namecode:96}之前以高调的姿态一路高歌猛进，拿下了冠军，但在不败的王者——企业面前，她终究还是败下阵来！",
+			say = "戰鬥~~結束！！雖然{namecode:96}之前以高調的姿態一路高歌猛進，拿下了冠軍，但在不敗的王者——企業面前，她終究還是敗下陣來！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "好热烈的掌声……好像还是来晚了欸。",
+			say = "好熱烈的掌聲……好像還是來晚了欸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "指挥官大人……啧，不在啊……难怪不管是味道脚印还是【哔-】都感觉不到指挥官大人的存在——",
+			say = "指揮官大人……嘖，不在啊……難怪不管是味道腳印還是【嗶-】都感覺不到指揮官大人的存在——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = -1,
 			actor = 301013,
 			actorName = "{namecode:2}",
-			say = "呼呼！嗯嗯，胜利的大号感觉不错呢！",
+			say = "呼呼！嗯嗯，勝利的低音號感覺不錯呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			actor = 408011,
 			nameColor = "#a9f548",
-			say = "呃……{namecode:2}妳在旁边一直吹号最后谁赢了都没听清……",
+			say = "呃……{namecode:2}妳在旁邊一直吹號最後誰贏了都沒聽清……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			blackBg = true,
 			actor = 408011,
 			nameColor = "#a9f548",
-			say = "嗯…？那是…埃塞克斯？",
+			say = "嗯…？那是…艾塞克斯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

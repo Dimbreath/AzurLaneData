@@ -23,7 +23,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "虽然重樱舰队来势汹汹，不过由于{namecode:54}和{namecode:56}分路前去对付南方舰队，阿斯托利亚三姐妹面对的只是三名重巡：{namecode:55}，{namecode:53}以及{namecode:69}，因此一时间，双方难以分出胜负。",
+			say = "雖然重櫻艦隊來勢洶洶，不過由於{namecode:54}和{namecode:56}分路前去對付南方艦隊，阿斯托利亞三姐妹面對的只是三名重巡：{namecode:55}，{namecode:53}以及{namecode:69}，因此一時間，雙方難以分出勝負。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "但是，这个僵局也马上被打破了……",
+			say = "但是，這個僵局也馬上被打破了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "{namecode:69}，我们来了！",
+			say = "{namecode:69}，我們來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 303040,
 			nameColor = "#a9f548",
 			side = 1,
-			say = "姐姐，我来帮妳！",
+			say = "姐姐，我來幫妳！",
 			actorName = "{namecode:56}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -75,7 +75,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "解决了南方部队后从另一个方向赶来的{namecode:54}和{namecode:56}，与{namecode:69}舰队一同，对鏖战中的阿斯托利亚姐妹形成了包夹之势",
+			say = "解決了南方部隊後從另一個方向趕來的{namecode:54}和{namecode:56}，與{namecode:69}艦隊一同，對鏖戰中的阿斯托利亞姐妹形成了包夾之勢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "很好，{namecode:53}，{namecode:55}，保持开火，重整态势，我们要在这里迅速决出胜负了！",
+			say = "很好，{namecode:53}，{namecode:55}，保持開火，重整態勢，我們要在這裡迅速決出勝負了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

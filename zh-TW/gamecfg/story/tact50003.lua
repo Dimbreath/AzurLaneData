@@ -12,7 +12,7 @@ return {
 				}
 			},
 			signDate = {
-				"8月9日 凌晨  图拉吉岛南方海域",
+				"8月9日 凌晨  圖拉吉島南方海域",
 				0.2,
 				{
 					600,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "此刻的北方舰队，三名同为新奥尔良级的重巡姐妹正在快乐地交流着。",
+			say = "此刻的北方艦隊，三名同為紐奧良級的重巡姐妹正在快樂地交流著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			actor = 103100,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "阿斯托利亚姐姐，好热……",
+			say = "阿斯托利亞姐姐，好熱……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "欸，那妳把外套脱了过来姐姐帮妳拿着吧。",
+			say = "欸，那妳把外套脫了過來姐姐幫妳拿著吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 103100,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "脱了也好热，我要晕倒了……",
+			say = "脫了也好熱，我要暈倒了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 103090,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "这边是热带气候，一整年都是这个气温，现在是晚上，已经算是最凉爽的时候了哦？",
+			say = "這邊是熱帶氣候，一整年都是這個氣溫，現在是晚上，已經算是最涼爽的時候了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 103090,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "不过这两天都在帮忙搬运物资，文森斯累了也是没有办法的事呢。",
+			say = "不過這兩天都在幫忙搬運物資，文森尼斯累了也是沒有辦法的事呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 		{
 			actor = 103100,
 			side = 1,
-			say = "而且巡逻好累好无聊……为什么要巡逻，不是有企业姐姐他们？",
+			say = "而且巡邏好累好無聊……為什麼要巡邏，不是有企業姐姐她們？",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -122,7 +122,7 @@ return {
 			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "因为上头害怕附近有潜伏着的敌方的空母，所以下午的时候就早早命令企业她们提前离开这片海域了呢",
+			say = "因為上頭害怕附近有潛伏著的敵方的航母，所以下午的時候就早早命令企業她們提前離開這片海域了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "所以我们今晚才需要巡逻保证登陆部队的安全哦",
+			say = "所以我們今晚才需要巡邏保證登陸部隊的安全哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "呜哇，昆西懂得好多，我完全不知道这些欸，只知道今晚有巡逻任务，总觉得昆西比我更像姐姐……",
+			say = "嗚哇，昆西懂得好多，我完全不知道這些欸，只知道今晚有巡邏任務，總覺得昆西比我更像姐姐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "哪有，当姐姐又不是比谁知道的多，我能帮到阿斯托利亚姐姐也很高兴呢~",
+			say = "哪有，當姐姐又不是比誰知道的多，我能幫到阿斯托利亞姐姐也很高興呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "话是这么说……唔，不行，我不甘心，昆西，这次任务结束后来教我怎么才能变得像妳一样知道得那么多。",
+			say = "話是這麼說……唔，不行，我不甘心，昆西，這次任務結束後來教我怎麼才能變得像妳一樣知道得那麼多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "唔，昆西姐姐，我好困。",
+			say = "唔，昆西姐姐，我好睏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "唔，真是没办法，过来吧，我来背妳。",
+			say = "唔，真是沒辦法，過來吧，我來背妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "耶，我最喜欢昆西姐姐啦~",
+			say = "耶，我最喜歡昆西姐姐啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "唔……第二喜欢？",
+			say = "唔……第二喜歡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "……好像，还行？",
+			say = "……好像，還行？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "这时，一阵突然的强光忽然将三姐妹笼罩其中。",
+			say = "這時，一陣突然的強光忽然將三姐妹籠罩其中。",
 			flashout = {
 				dur = 1,
 				black = false,
@@ -316,7 +316,7 @@ return {
 			actor = 103100,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "唔……是后面不小心打开了探照灯吗？",
+			say = "唔……是後面不小心打開了探照燈嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 		{
 			actor = 103080,
 			side = 0,
-			say = "不对！这是……敌袭！昆西，文森斯，准备战斗！",
+			say = "不對！這是……敵襲！昆西，文森尼斯，準備戰鬥！",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

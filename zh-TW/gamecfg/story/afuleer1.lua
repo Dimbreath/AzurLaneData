@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的夥伴们\n\n<size=45>一、胜利的曙光（？）</size>",
+					"曙光和愉快的夥伴們\n\n<size=45>一、勝利的曙光（？）</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
-			say = "轻型巡洋舰演习中",
+			say = "輕型巡洋艦演習中",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 102060,
 			nameColor = "#a9f548",
-			say = "啊，不好！可恶，我也被判定击沉了么……",
+			say = "啊，不好！可惡，我也被判定擊沉了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "又有同伴被“击沉”了……再这样下去的话，队伍就要撑不住了啊！",
+			say = "又有同伴被“擊沉”了……再這樣下去的話，隊伍就要撐不住了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该，该不会是{namecode:98}他们一时糊涂，把敌人的参数给弄错了吧！没听说过这次的演习难度有这么高呀？",
+			say = "該，該不會是{namecode:98}她們一時糊塗，把敵人的參數給弄錯了吧！沒聽說過這次的演習難度有這麼高呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，不专心点的话，下一个被“击沉”的可就是妳了。",
+			say = "姐姐，不專心點的話，下一個被“擊沉”的可就是妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "正在演习的众人们陷入了苦战。",
+			say = "正在演習的眾人們陷入了苦戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，我们该怎么办？",
+			say = "姐姐，我們該怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 502020,
 			nameColor = "#a9f548",
-			say = "总，总之先努力规避敌人的攻击吧！但是，这个状况实在是……",
+			say = "總，總之先努力規避敵人的攻擊吧！但是，這個狀況實在是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "大家，不要放弃！",
+			say = "大家，不要放棄！",
 			effects = {
 				{
 					active = true,
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "突然之间，海面上响起阿芙乐尔的声音，洪亮而富有穿透力。",
+			say = "突然之間，海面上響起曙光的聲音，洪亮而富有穿透力。",
 			effects = {
 				{
 					active = false,
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我曾经在北方联合对塞壬的战斗中面对过比这更糟糕的情况。但是，我和我的同伴们都在那次战斗中坚持了下来。",
+			say = "我曾經在北方聯合對塞壬的戰鬥中面對過比這更糟糕的情況。但是，我和我的同伴們都在那次戰鬥中堅持了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，大家，不要放弃！就把这当成是真正的战场，放手一搏吧！",
+			say = "所以，大家，不要放棄！就把這當成是真正的戰場，放手一搏吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊，既然阿芙乐尔前辈都这么说了——",
+			say = "啊啊，既然曙光前輩都這麼說了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我们这些后辈们可不能示弱啊。白鹰的海上骑士，妳还有余力吧？",
+			say = "那我們這些後輩們可不能示弱啊。白鷹的海上騎士，妳還有餘力吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "那是当然！上了！",
+			say = "那是當然！上了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "别说着漂亮话然后就冲上去了呀！",
+			say = "別說著漂亮話然後就衝上去了呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真，真是的！既然大家都这样的话，那我也——！",
+			say = "真，真是的！既然大家都這樣的話，那我也——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就应该有这样的干劲，不是么？呵呵~",
+			say = "就應該有這樣的幹勁，不是嗎？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_nepu2",
 			side = 2,
 			dir = 1,
-			say = "最终，在阿芙乐尔激起了大家的斗志之后，所有演习的敌人都被顺利消灭了，可喜可贺。",
+			say = "最終，在曙光激起了大家的鬥志之後，所有演習的敵人都被順利消滅了，可喜可賀。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "顺便一提，把敌人参数弄错的正是{namecode:98}。作为补偿，每个人都得到了一张{namecode:98}商店的优惠券（一次性）。",
+			say = "順便一提，把敵人參數弄錯的正是{namecode:98}。作為補償，每個人都得到了一張{namecode:98}商店的優惠券（一次性）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

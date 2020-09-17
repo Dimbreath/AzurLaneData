@@ -825,6 +825,159 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高15%"
 		}
 	},
+	[131] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 131,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[132] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 132,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[133] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 133,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[134] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 134,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[135] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【MKV型穿甲彈】技能強化為【MKV型穿甲彈 +】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 135,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19010,
+			18010
+		}
+	},
 	[201] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
@@ -1644,6 +1797,159 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升级",
 			"主炮底座+1",
 			"主炮效率提高15%"
+		}
+	},
+	[231] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 231,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[232] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 232,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[233] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 233,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[234] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 234,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[235] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【潛力爆發】技能強化為【潛力爆發 +】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 235,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19040,
+			18040
 		}
 	},
 	[301] = {
@@ -2480,6 +2786,159 @@ pg.ship_strengthen_blueprint = {
 			"魚雷效率提高15%"
 		}
 	},
+	[331] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 331,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[332] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 332,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[333] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 333,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[334] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 334,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[335] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【心神合一】技能強化為【心神合一 +】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 335,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19050,
+			18050
+		}
+	},
 	[401] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
@@ -3299,6 +3758,159 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升级",
 			"主炮底座+1",
 			"主炮效率提高15%"
+		}
+	},
+	[431] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 431,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[432] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 432,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[433] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 433,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[434] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 434,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[435] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【神話之傳承】技能強化為【神話之傳承 +】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 435,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19070,
+			18070
 		}
 	},
 	[501] = {
@@ -4127,6 +4739,159 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級"
 		}
 	},
+	[531] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 531,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[532] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 532,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[533] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 533,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[534] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 534,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[535] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【全方位裝甲】技能強化為【全方位裝甲 +】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 535,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19100,
+			18100
+		}
+	},
 	[601] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
@@ -4953,6 +5718,5090 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高15%"
 		}
 	},
+	[631] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 631,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[632] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 632,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[633] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 633,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[634] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 634,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[635] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【Engine boost】技能強化為【Engine boost +】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 635,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19120,
+			18120
+		}
+	},
+	[701] = {
+		effect_breakout = 0,
+		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 701,
+		need_exp = 20,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			49,
+			0,
+			0,
+			0,
+			43
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	},
+	[702] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 702,
+		need_exp = 20,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			49,
+			0,
+			0,
+			0,
+			43
+		}
+	},
+	[703] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 703,
+		need_exp = 20,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			49,
+			0,
+			0,
+			0,
+			43
+		}
+	},
+	[704] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 704,
+		need_exp = 20,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			49,
+			0,
+			0,
+			0,
+			43
+		}
+	},
+	[705] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+225|防空+17|主武器底座+1|鑑賞解鎖：主界面1、旗艦開戰、任務",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 705,
+		need_exp = 50,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			49,
+			0,
+			0,
+			0,
+			43
+		},
+		effect_attr = {
+			{
+				"durability",
+				225
+			},
+			{
+				"antiaircraft",
+				17
+			}
+		},
+		effect_base = {
+			2,
+			1,
+			1
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	},
+	[706] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 706,
+		need_exp = 40,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			98,
+			0,
+			0,
+			0,
+			86
+		}
+	},
+	[707] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 707,
+		need_exp = 40,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			98,
+			0,
+			0,
+			0,
+			86
+		}
+	},
+	[708] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 708,
+		need_exp = 40,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			98,
+			0,
+			0,
+			0,
+			86
+		}
+	},
+	[709] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 709,
+		need_exp = 40,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			98,
+			0,
+			0,
+			0,
+			86
+		}
+	},
+	[710] = {
+		effect_breakout = 199012,
+		effect_desc = "突破至4星|鑑賞解鎖：主界面2、戰鬥MVP、失敗",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 710,
+		need_exp = 80,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			98,
+			0,
+			0,
+			0,
+			86
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"習得技能【塞壬之敵】",
+			"獲得專屬彈幕I",
+			"主炮效率提高5%"
+		}
+	},
+	[711] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 711,
+		need_exp = 60,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			147,
+			0,
+			0,
+			0,
+			129
+		}
+	},
+	[712] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 712,
+		need_exp = 60,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			147,
+			0,
+			0,
+			0,
+			129
+		}
+	},
+	[713] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 713,
+		need_exp = 60,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			147,
+			0,
+			0,
+			0,
+			129
+		}
+	},
+	[714] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 714,
+		need_exp = 60,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			147,
+			0,
+			0,
+			0,
+			129
+		}
+	},
+	[715] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+451|防空+34|主炮效率提高5%|鑑賞解鎖：主界面3、觸摸1、任務完成",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 715,
+		need_exp = 120,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			147,
+			0,
+			0,
+			0,
+			129
+		},
+		effect_attr = {
+			{
+				"durability",
+				451
+			},
+			{
+				"antiaircraft",
+				34
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	},
+	[716] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 716,
+		need_exp = 100,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			196,
+			0,
+			0,
+			0,
+			172
+		}
+	},
+	[717] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 717,
+		need_exp = 100,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			196,
+			0,
+			0,
+			0,
+			172
+		}
+	},
+	[718] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 718,
+		need_exp = 100,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			196,
+			0,
+			0,
+			0,
+			172
+		}
+	},
+	[719] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 719,
+		need_exp = 100,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			196,
+			0,
+			0,
+			0,
+			172
+		}
+	},
+	[720] = {
+		effect_breakout = 199013,
+		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 720,
+		need_exp = 200,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			196,
+			0,
+			0,
+			0,
+			172
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"主炮效率提高10%",
+			"副武器欄位可以裝備主炮"
+		}
+	},
+	[721] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 721,
+		need_exp = 150,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[722] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 722,
+		need_exp = 150,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[723] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 723,
+		need_exp = 150,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[724] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 724,
+		need_exp = 150,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[725] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+677|防空+51|主炮效率提高5%|鑑賞解鎖：血量警報",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 725,
+		need_exp = 300,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		},
+		effect_attr = {
+			{
+				"durability",
+				677
+			},
+			{
+				"antiaircraft",
+				51
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	},
+	[726] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 726,
+		need_exp = 200,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[727] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 727,
+		need_exp = 200,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[728] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 728,
+		need_exp = 200,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[729] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 729,
+		need_exp = 200,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[730] = {
+		effect_breakout = 199014,
+		effect_desc = "突破至6星",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 730,
+		need_exp = 400,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			245,
+			0,
+			0,
+			0,
+			215
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"專屬彈幕升級",
+			"主炮效率提高15%"
+		}
+	},
+	[801] = {
+		effect_breakout = 0,
+		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 801,
+		need_exp = 20,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			45
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	},
+	[802] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 802,
+		need_exp = 20,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			45
+		}
+	},
+	[803] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 803,
+		need_exp = 20,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			45
+		}
+	},
+	[804] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 804,
+		need_exp = 20,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			45
+		}
+	},
+	[805] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+356|防空+19|主炮效率提高5%|鑑賞解鎖：主界面1、旗艦開戰、任務",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 805,
+		need_exp = 50,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			45
+		},
+		effect_attr = {
+			{
+				"durability",
+				356
+			},
+			{
+				"antiaircraft",
+				19
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	},
+	[806] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 806,
+		need_exp = 40,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			90
+		}
+	},
+	[807] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 807,
+		need_exp = 40,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			90
+		}
+	},
+	[808] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 808,
+		need_exp = 40,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			90
+		}
+	},
+	[809] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 809,
+		need_exp = 40,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			90
+		}
+	},
+	[810] = {
+		effect_breakout = 199022,
+		effect_desc = "突破至4星|鑑賞解鎖：主界面2、戰鬥MVP、失敗",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 810,
+		need_exp = 80,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			90
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"習得技能【塞壬之敵】",
+			"主炮底座+1",
+			"主炮效率提高5%"
+		}
+	},
+	[811] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 811,
+		need_exp = 60,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			135
+		}
+	},
+	[812] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 812,
+		need_exp = 60,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			135
+		}
+	},
+	[813] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 813,
+		need_exp = 60,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			135
+		}
+	},
+	[814] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 814,
+		need_exp = 60,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			135
+		}
+	},
+	[815] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+711|防空+39|防空炮效率提高10%|鑑賞解鎖：主界面3、觸摸1、任務完成",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 815,
+		need_exp = 120,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			135
+		},
+		effect_attr = {
+			{
+				"durability",
+				711
+			},
+			{
+				"antiaircraft",
+				39
+			}
+		},
+		effect_equipment_proficiency = {
+			3,
+			0.1
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	},
+	[816] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 816,
+		need_exp = 100,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			180
+		}
+	},
+	[817] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 817,
+		need_exp = 100,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			180
+		}
+	},
+	[818] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 818,
+		need_exp = 100,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			180
+		}
+	},
+	[819] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 819,
+		need_exp = 100,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			180
+		}
+	},
+	[820] = {
+		effect_breakout = 199023,
+		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 820,
+		need_exp = 200,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			180
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"副炮底座+2",
+			"主炮效率提高10%"
+		}
+	},
+	[821] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 821,
+		need_exp = 150,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		}
+	},
+	[822] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 822,
+		need_exp = 150,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		}
+	},
+	[823] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 823,
+		need_exp = 150,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		}
+	},
+	[824] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 824,
+		need_exp = 150,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		}
+	},
+	[825] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+1068|防空+58|主炮效率提高5%|鑑賞解鎖：血量警報",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 825,
+		need_exp = 300,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		},
+		effect_attr = {
+			{
+				"durability",
+				1068
+			},
+			{
+				"antiaircraft",
+				58
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	},
+	[826] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 826,
+		need_exp = 200,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		}
+	},
+	[827] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 827,
+		need_exp = 200,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		}
+	},
+	[828] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 828,
+		need_exp = 200,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		}
+	},
+	[829] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 829,
+		need_exp = 200,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		}
+	},
+	[830] = {
+		effect_breakout = 199024,
+		effect_desc = "突破至6星",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 830,
+		need_exp = 400,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			225
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"主炮效率提高15%"
+		}
+	},
+	[901] = {
+		effect_breakout = 0,
+		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 901,
+		need_exp = 20,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			24,
+			111,
+			0,
+			0,
+			61
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	},
+	[902] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 902,
+		need_exp = 20,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			24,
+			111,
+			0,
+			0,
+			61
+		}
+	},
+	[903] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 903,
+		need_exp = 20,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			24,
+			111,
+			0,
+			0,
+			61
+		}
+	},
+	[904] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 904,
+		need_exp = 20,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			24,
+			111,
+			0,
+			0,
+			61
+		}
+	},
+	[905] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+111|防空+9|主炮底座+1|鑑賞解鎖：主界面1、旗艦開戰、任務",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 905,
+		need_exp = 50,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			24,
+			111,
+			0,
+			0,
+			61
+		},
+		effect_attr = {
+			{
+				"durability",
+				111
+			},
+			{
+				"antiaircraft",
+				9
+			}
+		},
+		effect_base = {
+			2,
+			1,
+			1
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	},
+	[906] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 906,
+		need_exp = 40,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			48,
+			222,
+			0,
+			0,
+			122
+		}
+	},
+	[907] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 907,
+		need_exp = 40,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			48,
+			222,
+			0,
+			0,
+			122
+		}
+	},
+	[908] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 908,
+		need_exp = 40,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			48,
+			222,
+			0,
+			0,
+			122
+		}
+	},
+	[909] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 909,
+		need_exp = 40,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			48,
+			222,
+			0,
+			0,
+			122
+		}
+	},
+	[910] = {
+		effect_breakout = 399032,
+		effect_desc = "突破至4星|鑑賞解鎖：主界面2、戰鬥MVP、失敗",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 910,
+		need_exp = 80,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			48,
+			222,
+			0,
+			0,
+			122
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"習得技能【塞壬之敵】",
+			"獲得專屬彈幕I",
+			"主炮效率提高5%"
+		}
+	},
+	[911] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 911,
+		need_exp = 60,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			72,
+			333,
+			0,
+			0,
+			183
+		}
+	},
+	[912] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 912,
+		need_exp = 60,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			72,
+			333,
+			0,
+			0,
+			183
+		}
+	},
+	[913] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 913,
+		need_exp = 60,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			72,
+			333,
+			0,
+			0,
+			183
+		}
+	},
+	[914] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 914,
+		need_exp = 60,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			72,
+			333,
+			0,
+			0,
+			183
+		}
+	},
+	[915] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+221|防空+18|主炮效率提高10%|魚雷預裝填+1|鑑賞解鎖：主界面3、觸摸1、任務完成",
+		extra_desc = "",
+		effect_base = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 915,
+		need_exp = 120,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			72,
+			333,
+			0,
+			0,
+			183
+		},
+		effect_attr = {
+			{
+				"durability",
+				221
+			},
+			{
+				"antiaircraft",
+				18
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.1
+		},
+		effect_preload = {
+			0,
+			1,
+			0
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	},
+	[916] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 916,
+		need_exp = 100,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			96,
+			444,
+			0,
+			0,
+			244
+		}
+	},
+	[917] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 917,
+		need_exp = 100,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			96,
+			444,
+			0,
+			0,
+			244
+		}
+	},
+	[918] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 918,
+		need_exp = 100,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			96,
+			444,
+			0,
+			0,
+			244
+		}
+	},
+	[919] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 919,
+		need_exp = 100,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			96,
+			444,
+			0,
+			0,
+			244
+		}
+	},
+	[920] = {
+		effect_breakout = 399033,
+		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 920,
+		need_exp = 200,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			96,
+			444,
+			0,
+			0,
+			244
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"防空炮效率提高10%"
+		}
+	},
+	[921] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 921,
+		need_exp = 150,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		}
+	},
+	[922] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 922,
+		need_exp = 150,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		}
+	},
+	[923] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 923,
+		need_exp = 150,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		}
+	},
+	[924] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 924,
+		need_exp = 150,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		}
+	},
+	[925] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+333|防空+27|鑑賞解鎖：血量警報",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 925,
+		need_exp = 300,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		},
+		effect_attr = {
+			{
+				"durability",
+				333
+			},
+			{
+				"antiaircraft",
+				27
+			}
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	},
+	[926] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 926,
+		need_exp = 200,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		}
+	},
+	[927] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 927,
+		need_exp = 200,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		}
+	},
+	[928] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 928,
+		need_exp = 200,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		}
+	},
+	[929] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 929,
+		need_exp = 200,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		}
+	},
+	[930] = {
+		effect_breakout = 399034,
+		effect_desc = "突破至6星",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 930,
+		need_exp = 400,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			120,
+			555,
+			0,
+			0,
+			305
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"專屬彈幕升級",
+			"全武器效率提高5%"
+		}
+	},
+	[1001] = {
+		effect_breakout = 0,
+		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1001,
+		need_exp = 30,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			85,
+			0,
+			0,
+			0,
+			47
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	},
+	[1002] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1002,
+		need_exp = 30,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			85,
+			0,
+			0,
+			0,
+			47
+		}
+	},
+	[1003] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1003,
+		need_exp = 30,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			85,
+			0,
+			0,
+			0,
+			47
+		}
+	},
+	[1004] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1004,
+		need_exp = 30,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			85,
+			0,
+			0,
+			0,
+			47
+		}
+	},
+	[1005] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+315|防空+10|主炮效率提高5%|主炮底座+1|鑑賞解鎖：主界面1、旗艦開戰、任務",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1005,
+		need_exp = 80,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			85,
+			0,
+			0,
+			0,
+			47
+		},
+		effect_attr = {
+			{
+				"durability",
+				315
+			},
+			{
+				"antiaircraft",
+				10
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_base = {
+			2,
+			1,
+			1
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	},
+	[1006] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1006,
+		need_exp = 60,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			170,
+			0,
+			0,
+			0,
+			94
+		}
+	},
+	[1007] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1007,
+		need_exp = 60,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			170,
+			0,
+			0,
+			0,
+			94
+		}
+	},
+	[1008] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1008,
+		need_exp = 60,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			170,
+			0,
+			0,
+			0,
+			94
+		}
+	},
+	[1009] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1009,
+		need_exp = 60,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			170,
+			0,
+			0,
+			0,
+			94
+		}
+	},
+	[1010] = {
+		effect_breakout = 399042,
+		effect_desc = "突破至4星|鑑賞解鎖：主界面2、戰鬥MVP、失敗",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1010,
+		need_exp = 120,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			170,
+			0,
+			0,
+			0,
+			94
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"習得技能【塞壬之敵】",
+			"主炮效率提高5%"
+		}
+	},
+	[1011] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1011,
+		need_exp = 90,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			255,
+			0,
+			0,
+			0,
+			141
+		}
+	},
+	[1012] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1012,
+		need_exp = 90,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			255,
+			0,
+			0,
+			0,
+			141
+		}
+	},
+	[1013] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1013,
+		need_exp = 90,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			255,
+			0,
+			0,
+			0,
+			141
+		}
+	},
+	[1014] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1014,
+		need_exp = 90,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			255,
+			0,
+			0,
+			0,
+			141
+		}
+	},
+	[1015] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+629|防空+21|防空炮效率提高10%|鑑賞解鎖：主界面3、觸摸1、任務完成",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1015,
+		need_exp = 180,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			255,
+			0,
+			0,
+			0,
+			141
+		},
+		effect_attr = {
+			{
+				"durability",
+				629
+			},
+			{
+				"antiaircraft",
+				21
+			}
+		},
+		effect_equipment_proficiency = {
+			3,
+			0.1
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	},
+	[1016] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1016,
+		need_exp = 150,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			340,
+			0,
+			0,
+			0,
+			188
+		}
+	},
+	[1017] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1017,
+		need_exp = 150,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			340,
+			0,
+			0,
+			0,
+			188
+		}
+	},
+	[1018] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1018,
+		need_exp = 150,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			340,
+			0,
+			0,
+			0,
+			188
+		}
+	},
+	[1019] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1019,
+		need_exp = 150,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			340,
+			0,
+			0,
+			0,
+			188
+		}
+	},
+	[1020] = {
+		effect_breakout = 399043,
+		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1020,
+		need_exp = 300,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			340,
+			0,
+			0,
+			0,
+			188
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"副炮效率提高10%"
+		}
+	},
+	[1021] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1021,
+		need_exp = 220,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		}
+	},
+	[1022] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1022,
+		need_exp = 220,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		}
+	},
+	[1023] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1023,
+		need_exp = 220,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		}
+	},
+	[1024] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1024,
+		need_exp = 220,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		}
+	},
+	[1025] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+945|防空+31|機動+5|主炮效率提高5%|鑑賞解鎖：血量警報",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1025,
+		need_exp = 450,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		},
+		effect_attr = {
+			{
+				"durability",
+				945
+			},
+			{
+				"antiaircraft",
+				31
+			},
+			{
+				"dodge",
+				5
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	},
+	[1026] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1026,
+		need_exp = 300,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		}
+	},
+	[1027] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1027,
+		need_exp = 300,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		}
+	},
+	[1028] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1028,
+		need_exp = 300,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		}
+	},
+	[1029] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1029,
+		need_exp = 300,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		}
+	},
+	[1030] = {
+		effect_breakout = 399044,
+		effect_desc = "突破至6星",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1030,
+		need_exp = 600,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			425,
+			0,
+			0,
+			0,
+			235
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"主炮效率提高15%"
+		}
+	},
+	[1101] = {
+		effect_breakout = 0,
+		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1101,
+		need_exp = 30,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			128,
+			0,
+			0,
+			0,
+			43
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	},
+	[1102] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1102,
+		need_exp = 30,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			128,
+			0,
+			0,
+			0,
+			43
+		}
+	},
+	[1103] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1103,
+		need_exp = 30,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			128,
+			0,
+			0,
+			0,
+			43
+		}
+	},
+	[1104] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1104,
+		need_exp = 30,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			128,
+			0,
+			0,
+			0,
+			43
+		}
+	},
+	[1105] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+400|防空+11|主炮效率提高5%|鑑賞解鎖：主界面1、旗艦開戰、任務",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1105,
+		need_exp = 80,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			128,
+			0,
+			0,
+			0,
+			43
+		},
+		effect_attr = {
+			{
+				"durability",
+				400
+			},
+			{
+				"antiaircraft",
+				11
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	},
+	[1106] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1106,
+		need_exp = 60,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			256,
+			0,
+			0,
+			0,
+			86
+		}
+	},
+	[1107] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1107,
+		need_exp = 60,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			256,
+			0,
+			0,
+			0,
+			86
+		}
+	},
+	[1108] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1108,
+		need_exp = 60,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			256,
+			0,
+			0,
+			0,
+			86
+		}
+	},
+	[1109] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1109,
+		need_exp = 60,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			256,
+			0,
+			0,
+			0,
+			86
+		}
+	},
+	[1110] = {
+		effect_breakout = 499022,
+		effect_desc = "突破至4星|鑑賞解鎖：主界面2、戰鬥MVP、失敗",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1110,
+		need_exp = 120,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			256,
+			0,
+			0,
+			0,
+			86
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"習得技能【塞壬之敵】",
+			"主炮底座+1",
+			"主炮效率提高5%"
+		}
+	},
+	[1111] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1111,
+		need_exp = 90,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			384,
+			0,
+			0,
+			0,
+			129
+		}
+	},
+	[1112] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1112,
+		need_exp = 90,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			384,
+			0,
+			0,
+			0,
+			129
+		}
+	},
+	[1113] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1113,
+		need_exp = 90,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			384,
+			0,
+			0,
+			0,
+			129
+		}
+	},
+	[1114] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1114,
+		need_exp = 90,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			384,
+			0,
+			0,
+			0,
+			129
+		}
+	},
+	[1115] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+797|防空+22|防空炮效率提高10%|鑑賞解鎖：主界面3、觸摸1、任務完成",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1115,
+		need_exp = 180,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			384,
+			0,
+			0,
+			0,
+			129
+		},
+		effect_attr = {
+			{
+				"durability",
+				797
+			},
+			{
+				"antiaircraft",
+				22
+			}
+		},
+		effect_equipment_proficiency = {
+			3,
+			0.1
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	},
+	[1116] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1116,
+		need_exp = 150,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			512,
+			0,
+			0,
+			0,
+			172
+		}
+	},
+	[1117] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1117,
+		need_exp = 150,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			512,
+			0,
+			0,
+			0,
+			172
+		}
+	},
+	[1118] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1118,
+		need_exp = 150,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			512,
+			0,
+			0,
+			0,
+			172
+		}
+	},
+	[1119] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1119,
+		need_exp = 150,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			512,
+			0,
+			0,
+			0,
+			172
+		}
+	},
+	[1120] = {
+		effect_breakout = 499023,
+		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1120,
+		need_exp = 300,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			512,
+			0,
+			0,
+			0,
+			172
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"副炮底座+2",
+			"主炮效率提高10%"
+		}
+	},
+	[1121] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1121,
+		need_exp = 220,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[1122] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1122,
+		need_exp = 220,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[1123] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1123,
+		need_exp = 220,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[1124] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1124,
+		need_exp = 220,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[1125] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+1195|防空+33|主炮效率提高5%|鑑賞解鎖：血量警報",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1125,
+		need_exp = 450,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		},
+		effect_attr = {
+			{
+				"durability",
+				1195
+			},
+			{
+				"antiaircraft",
+				33
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	},
+	[1126] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1126,
+		need_exp = 300,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[1127] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1127,
+		need_exp = 300,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[1128] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1128,
+		need_exp = 300,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[1129] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1129,
+		need_exp = 300,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		}
+	},
+	[1130] = {
+		effect_breakout = 499024,
+		effect_desc = "突破至6星",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1130,
+		need_exp = 600,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			640,
+			0,
+			0,
+			0,
+			215
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"主炮底座+1",
+			"主炮效率提高15%"
+		}
+	},
+	[1201] = {
+		effect_breakout = 0,
+		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1201,
+		need_exp = 20,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			122,
+			0,
+			0,
+			0,
+			46
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	},
+	[1202] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1202,
+		need_exp = 20,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			122,
+			0,
+			0,
+			0,
+			46
+		}
+	},
+	[1203] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1203,
+		need_exp = 20,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			122,
+			0,
+			0,
+			0,
+			46
+		}
+	},
+	[1204] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1204,
+		need_exp = 20,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			122,
+			0,
+			0,
+			0,
+			46
+		}
+	},
+	[1205] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+325|防空+11|主炮效率提高5%|鑑賞解鎖：主界面1、旗艦開戰、任務",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1205,
+		need_exp = 50,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			122,
+			0,
+			0,
+			0,
+			46
+		},
+		effect_attr = {
+			{
+				"durability",
+				325
+			},
+			{
+				"antiaircraft",
+				11
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	},
+	[1206] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1206,
+		need_exp = 40,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			244,
+			0,
+			0,
+			0,
+			92
+		}
+	},
+	[1207] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1207,
+		need_exp = 40,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			244,
+			0,
+			0,
+			0,
+			92
+		}
+	},
+	[1208] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1208,
+		need_exp = 40,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			244,
+			0,
+			0,
+			0,
+			92
+		}
+	},
+	[1209] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1209,
+		need_exp = 40,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			244,
+			0,
+			0,
+			0,
+			92
+		}
+	},
+	[1210] = {
+		effect_breakout = 999012,
+		effect_desc = "突破至4星|鑑賞解鎖：主界面2、戰鬥MVP、失敗",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1210,
+		need_exp = 80,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			244,
+			0,
+			0,
+			0,
+			92
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"習得技能【塞壬之敵】",
+			"主炮效率提高5%"
+		}
+	},
+	[1211] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1211,
+		need_exp = 60,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			366,
+			0,
+			0,
+			0,
+			138
+		}
+	},
+	[1212] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1212,
+		need_exp = 60,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			366,
+			0,
+			0,
+			0,
+			138
+		}
+	},
+	[1213] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1213,
+		need_exp = 60,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			366,
+			0,
+			0,
+			0,
+			138
+		}
+	},
+	[1214] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1214,
+		need_exp = 60,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			366,
+			0,
+			0,
+			0,
+			138
+		}
+	},
+	[1215] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+651|防空+22|防空炮效率提高10%|鑑賞解鎖：主界面3、觸摸1、任務完成",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1215,
+		need_exp = 120,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			366,
+			0,
+			0,
+			0,
+			138
+		},
+		effect_attr = {
+			{
+				"durability",
+				651
+			},
+			{
+				"antiaircraft",
+				22
+			}
+		},
+		effect_equipment_proficiency = {
+			3,
+			0.1
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	},
+	[1216] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1216,
+		need_exp = 100,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			488,
+			0,
+			0,
+			0,
+			184
+		}
+	},
+	[1217] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1217,
+		need_exp = 100,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			488,
+			0,
+			0,
+			0,
+			184
+		}
+	},
+	[1218] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1218,
+		need_exp = 100,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			488,
+			0,
+			0,
+			0,
+			184
+		}
+	},
+	[1219] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1219,
+		need_exp = 100,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			488,
+			0,
+			0,
+			0,
+			184
+		}
+	},
+	[1220] = {
+		effect_breakout = 999013,
+		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1220,
+		need_exp = 200,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			488,
+			0,
+			0,
+			0,
+			184
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"副炮底座+2",
+			"主炮效率提高10%"
+		}
+	},
+	[1221] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1221,
+		need_exp = 150,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		}
+	},
+	[1222] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1222,
+		need_exp = 150,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		}
+	},
+	[1223] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1223,
+		need_exp = 150,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		}
+	},
+	[1224] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1224,
+		need_exp = 150,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		}
+	},
+	[1225] = {
+		effect_breakout = 0,
+		effect_desc = "耐久+976|防空+33|主炮效率提高5%|鉴赏解锁：主界面4、血量警报",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1225,
+		need_exp = 300,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		},
+		effect_attr = {
+			{
+				"durability",
+				976
+			},
+			{
+				"antiaircraft",
+				33
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"main4",
+			"touch2",
+			"hp_warning"
+		}
+	},
+	[1226] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1226,
+		need_exp = 200,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		}
+	},
+	[1227] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1227,
+		need_exp = 200,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		}
+	},
+	[1228] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1228,
+		need_exp = 200,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		}
+	},
+	[1229] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 1229,
+		need_exp = 200,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		}
+	},
+	[1230] = {
+		effect_breakout = 999014,
+		effect_desc = "突破至6星",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1230,
+		need_exp = 400,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			610,
+			0,
+			0,
+			0,
+			230
+		},
+		extra_desc = {
+			"【塞壬之敵】升級",
+			"主炮效率提高15%"
+		}
+	},
 	all = {
 		101,
 		102,
@@ -4984,6 +10833,11 @@ pg.ship_strengthen_blueprint = {
 		128,
 		129,
 		130,
+		131,
+		132,
+		133,
+		134,
+		135,
 		201,
 		202,
 		203,
@@ -5014,6 +10868,11 @@ pg.ship_strengthen_blueprint = {
 		228,
 		229,
 		230,
+		231,
+		232,
+		233,
+		234,
+		235,
 		301,
 		302,
 		303,
@@ -5044,6 +10903,11 @@ pg.ship_strengthen_blueprint = {
 		328,
 		329,
 		330,
+		331,
+		332,
+		333,
+		334,
+		335,
 		401,
 		402,
 		403,
@@ -5074,6 +10938,11 @@ pg.ship_strengthen_blueprint = {
 		428,
 		429,
 		430,
+		431,
+		432,
+		433,
+		434,
+		435,
 		501,
 		502,
 		503,
@@ -5104,6 +10973,11 @@ pg.ship_strengthen_blueprint = {
 		528,
 		529,
 		530,
+		531,
+		532,
+		533,
+		534,
+		535,
 		601,
 		602,
 		603,
@@ -5133,6 +11007,191 @@ pg.ship_strengthen_blueprint = {
 		627,
 		628,
 		629,
-		630
+		630,
+		631,
+		632,
+		633,
+		634,
+		635,
+		701,
+		702,
+		703,
+		704,
+		705,
+		706,
+		707,
+		708,
+		709,
+		710,
+		711,
+		712,
+		713,
+		714,
+		715,
+		716,
+		717,
+		718,
+		719,
+		720,
+		721,
+		722,
+		723,
+		724,
+		725,
+		726,
+		727,
+		728,
+		729,
+		730,
+		801,
+		802,
+		803,
+		804,
+		805,
+		806,
+		807,
+		808,
+		809,
+		810,
+		811,
+		812,
+		813,
+		814,
+		815,
+		816,
+		817,
+		818,
+		819,
+		820,
+		821,
+		822,
+		823,
+		824,
+		825,
+		826,
+		827,
+		828,
+		829,
+		830,
+		901,
+		902,
+		903,
+		904,
+		905,
+		906,
+		907,
+		908,
+		909,
+		910,
+		911,
+		912,
+		913,
+		914,
+		915,
+		916,
+		917,
+		918,
+		919,
+		920,
+		921,
+		922,
+		923,
+		924,
+		925,
+		926,
+		927,
+		928,
+		929,
+		930,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1023,
+		1024,
+		1025,
+		1026,
+		1027,
+		1028,
+		1029,
+		1030,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1109,
+		1110,
+		1111,
+		1112,
+		1113,
+		1114,
+		1115,
+		1116,
+		1117,
+		1118,
+		1119,
+		1120,
+		1121,
+		1122,
+		1123,
+		1124,
+		1125,
+		1126,
+		1127,
+		1128,
+		1129,
+		1130,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1220,
+		1221,
+		1222,
+		1223,
+		1224,
+		1225,
+		1226,
+		1227,
+		1228,
+		1229,
+		1230
 	}
 }

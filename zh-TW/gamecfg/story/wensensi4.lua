@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=45>四 妹妹的失落</size>",
+					"妹妹的變化\n\n<size=45>四 妹妹的失落</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "最近的舰队事务稍微变得有些繁重，港区的成员都忙碌了起来——",
+			say = "最近的艦隊事務稍微變得有些繁重，港區的成員都忙碌了起來——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，有关下一片海域的侦查人员配置…",
+			say = "指揮官，有關下一片海域的偵查人員配置…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，文森斯，抱歉，姐姐现在和指挥官有些军务要商量，等结束了再陪妳。",
+			say = "啊，文森尼斯，抱歉，姐姐現在和指揮官有些軍務要商量，等結束了再陪妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "前些天参与了周边海域清扫战场的阿斯托利亚比较合适吧",
+			say = "前些天參與了周邊海域清掃戰場的阿斯托利亞比較合適吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，要把这一片海域分派给我吗。",
+			say = "指揮官，要把這一片海域分派給我嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，我知道了，我会努力的！",
+			say = "……嗯，我知道了，我會努力的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#a9f548",
-			say = "指挥官，有什么我能帮忙的吗？",
+			say = "指揮官，有什麼我能幫忙的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，文森斯能交给我吗，我一定会安排好的！",
+			say = "指揮官，文森尼斯能交給我嗎，我一定會安排好的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "确实，文森斯的战斗能力是值得信赖的，既然阿斯托利亚这么说，那就交给她吧。",
+			say = "確實，文森尼斯的戰鬥能力是值得信賴的，既然阿斯托利亞這麼說，那就交給她吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "文森斯，妳不用想复杂的事，一切都交给姐姐来安排就好了。",
+			say = "文森尼斯，妳不用想複雜的事，一切都交給姐姐來安排就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#a9f548",
-			say = "指挥官，来一起睡一会儿吗，已经工作很久了呢。",
+			say = "指揮官，來一起睡一會兒嗎，已經工作很久了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸文森斯的头，让她先去",
+					content = "摸文森尼斯的頭，讓她先去",
 					flag = 1
 				}
 			}
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "文森斯看起来有些失落地坐回到了沙发上，应该是觉得没人陪她比较寂寞吧。",
+			say = "文森尼斯看起來有些失落地坐回到了沙發上，應該是覺得沒人陪她比較寂寞吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "但是现在还是以舰队事务为优先吧。",
+			say = "但是現在還是以艦隊事務為優先吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

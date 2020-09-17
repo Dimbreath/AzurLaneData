@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别庆典·开幕！\n\n<size=45>三　{namecode:97}与大青花鱼</size>",
+					"特別慶典·開幕！\n\n<size=45>三　{namecode:97}與大青花魚</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·宿舍",
+			say = "港區·宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "布料，准备完成~缝纫工具，没有问题~",
+			say = "布料，準備完成~縫紉工具，沒有問題~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "向{namecode:98}借的蛮啾们……",
+			say = "向{namecode:98}借的蠻啾們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "蛮啾们举着各自分配的工具，跃跃欲试。",
+			say = "蠻啾們舉著各自分配的工具，躍躍欲試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好，开始吧！要赶在最后的宴会前做好礼服才行呢~",
+			say = "好，開始吧！要趕在最後的宴會前做好禮服才行呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "呵呵呵，想到亲爱的指挥官大人被我的礼服迷住的样子…啊哈~{namecode:97}真是太幸福了~",
+			say = "呵呵呵，想到親愛的指揮官大人被我的禮服迷住的樣子…啊哈~{namecode:97}真是太幸福了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			say = "要~帮~忙~吗？",
+			say = "要~幫~忙~嗎？",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "大大大大大青花鱼？！鬼啊！！！",
+			say = "大大大大大青花魚？！鬼啊！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "呜………………",
+			say = "嗚………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "……欸，我只是想吓一吓妳，怎么昏过去了。",
+			say = "……欸，我只是想嚇一嚇妳，怎麼昏過去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			say = "半小时过去了",
+			say = "半小時過去了",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -294,7 +294,7 @@ return {
 			bgm = "story-1",
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "……这里，是哪里……我好像梦见大青花鱼出现在我的宿舍里……",
+			say = "……這裡，是哪裡……我好像夢見大青花魚出現在我的宿舍裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			say = "不是梦哦，真的是我~",
+			say = "不是夢哦，真的是我~",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "欸，妳可别又晕过去了，蛮啾们，麻烦妳们端杯水过来。",
+			say = "欸，妳可別又暈過去了，蠻啾們，麻煩妳們端杯水過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "妳、妳这家伙，怎么会大大咧咧地出现在我的宿舍里。",
+			say = "妳、妳這傢伙，怎麼會大大咧咧地出現在我的宿舍裡。",
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也没什么特别的理由啦，就是想来找妳玩而已。",
+			say = "也沒什麼特別的理由啦，就是想來找妳玩而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "……找我玩？我们的关系还没有好到那个地步吧。",
+			say = "……找我玩？我們的關係還沒有好到那個地步吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳看，以后都要在同一支舰队里生活了，还是尽量好好相处比较好嘛",
+			say = "妳看，以後都要在同一支艦隊裡生活了，還是盡量好好相處比較好嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "……算了。不过，其实现在我也不那么在意了就是…过去是过去，现在是现在。",
+			say = "……算了。不過，其實現在我也不那麼在意了就是…過去是過去，現在是現在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的吗，太好啦！这样我就可以安心捉弄指挥官——",
+			say = "真的嗎，太好啦！這樣我就可以安心捉弄指揮官——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actorScale = 1.1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "胆敢骚扰指挥官大人的家伙…杀无赦——",
+			say = "膽敢騷擾指揮官大人的傢伙…殺無赦——",
 			effects = {
 				{
 					active = true,
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "呜哇！不是说好和解了吗？！",
+			say = "嗚哇！不是說好和解了嗎？！",
 			effects = {
 				{
 					active = false,
@@ -551,7 +551,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "虽然我并不在意过去的事，但如果现在有人想要骚扰我最爱的指挥官大人……",
+			say = "雖然我並不在意過去的事，但如果現在有人想要騷擾我最愛的指揮官大人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可就另当别论了。",
+			say = "可就另當別論了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "呜哇哇，我错了，我错了，我不会抢走指挥官的啦！",
+			say = "嗚哇哇，我錯了，我錯了，我不會搶走指揮官的啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "快把妳的舰载机收起来收起来，蛮啾们都要被妳吓到啦！",
+			say = "快把妳的艦載機收起來收起來，蠻啾們都要被妳嚇到啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "呼……吓死我了。",
+			say = "呼……嚇死我了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，{namecode:97}，要不要一起去庆典玩啊？",
+			say = "說起來，{namecode:97}，要不要一起去慶典玩啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我来的时候看到航母组的比赛好像要决出胜负了欸。",
+			say = "我來的時候看到航母組的比賽好像要決出勝負了欸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "而且这么重大的比赛，说不定还能遇到指挥官呢~",
+			say = "而且這麼重大的比賽，說不定還能遇到指揮官呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "是、是嘛…真是个缠人的家伙，就陪妳这么一次好了…",
+			say = "是、是嘛…真是個纏人的傢伙，就陪妳這麼一次好了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -25,7 +25,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "硝烟散去之后，海面恢复了平静。在芝加哥的掩护下，巴格莱得以逃脱，代价是芝加哥承受了{namecode:54}和{namecode:56}的火力，最终不得不撤退，而逃脱的巴格莱区区一艘驱逐成不了气候…",
+			say = "硝煙散去之後，海面恢復了平靜。在芝加哥的掩護下，巴格萊得以逃脫，代價是芝加哥承受了{namecode:54}和{namecode:56}的火力，最終不得不撤退，而逃脫的巴格萊區區一艘驅逐成不了氣候…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
-			say = "虽然让她们逃掉了，不过这样的战果应该可以了吧？这一片好像没有敌人了。",
+			say = "雖然讓她們逃掉了，不過這樣的戰果應該可以了吧？這一片好像沒有敵人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 303020,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "嗯，本来这次组成舰队就十分仓促，{namecode:41}和{namecode:37}还有{namecode:153}的战斗力有限，敌人的综合兵力也远超我们，不能给他们反应的时间。",
+			say = "嗯，本來這次組成艦隊就十分倉促，{namecode:41}和{namecode:37}還有{namecode:153}的戰鬥力有限，敵人的綜合兵力也遠超我們，不能給他們反應的時間。",
 			actorName = "{namecode:54}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -70,7 +70,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "而且，瓜岛对现在的我们来说是必不可少的。",
+			say = "而且，瓜島對現在的我們來說是必不可少的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:54}扶了一下眼镜，看向瓜岛方向，本应属于己方的即将竣工的机场，此时却落在了敌人的手里……",
+			say = "{namecode:54}扶了一下眼鏡，看向瓜島方向，本應屬於己方的即將竣工的機場，此時卻落在了敵人的手裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
-			say = "是是，我知道的，当务之急是SN作战。",
+			say = "是是，我知道的，當務之急是SN作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "知道的话就不要磨蹭了，{namecode:69}她们已经去攻击北边的舰队了，我们也赶快跟过去吧。",
+			say = "知道的話就不要磨蹭了，{namecode:69}她們已經去攻擊北邊的艦隊了，我們也趕快跟過去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

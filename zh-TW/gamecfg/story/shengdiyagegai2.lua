@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>二　圣地亚哥、想特训？！</size>",
+					"閃耀☆戰鬥之星！\n\n<size=45>二　聖地牙哥、想特訓？！</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "强袭模式展开，切换为最大出力！",
+			say = "強襲模式展開，切換為最大出力！",
 			bgm = "story-1",
 			actor = 201219,
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			actor = 101179,
 			nameColor = "#a9f548",
-			say = "呼啊…有点困了",
+			say = "呼啊…有點睏了",
 			effects = {
 				{
 					active = false,
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 401239,
 			nameColor = "#a9f548",
-			say = "啊！拉菲，不行啦，难得大家凑在一起摆个pose，要睡觉等一会再睡！",
+			say = "啊！拉菲，不行啦，難得大家湊在一起擺個pose，要睡覺等一會再睡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜…连{namecode:6}都……",
+			say = "嗚嗚…連{namecode:6}都……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "啊啊啊！还有人在看着呢！好歹让人家看到我们帅气的一面嘛…",
+			say = "啊啊啊！還有人在看著呢！好歹讓人家看到我們帥氣的一面嘛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、咳咳，就是这样，圣地亚哥。虽然坚持不到几秒…不过，大概能感受到吧，所谓“改造”的感觉",
+			say = "咳、咳咳，就是這樣，聖地牙哥。雖然堅持不到幾秒…不過，大概能感受到吧，所謂“改造”的感覺",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			say = "嗯…嗯！难道这个就是所谓的气场？",
+			say = "嗯…嗯！難道這個就是所謂的氣場？",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没错！气场是很重要的！",
+			say = "沒、沒錯！氣場是很重要的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，圣地亚哥为什么突然想知道改造的事情呢？",
+			say = "不過，聖地牙哥為什麼突然想知道改造的事情呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，也不知道为什么，突然就有点在意…",
+			say = "啊哈哈，也不知道為什麼，突然就有點在意…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好咯，圣地亚哥。所谓的改造呀，可不仅仅是改变一点形象这么简单哦！",
+			say = "聽好囉，聖地牙哥。所謂的改造呀，可不僅僅是改變一點形像這麼簡單哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要通过平常日积月累的训练，再加上追求更进一步的决心，以及适当的时机！才能完成一次真正的“改造”！",
+			say = "要通過平常日積月累的訓練，再加上追求更進一步的決心，以及適當的時機！才能完成一次真正的“改造”！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "喔喔…！改造原来是件这么厉害的事情！",
+			say = "喔喔…！改造原來是件這麼厲害的事情！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 201210,
-			actorName = "标枪&{namecode:6}&拉菲",
+			actorName = "標槍&{namecode:6}&拉菲",
 			say = "喔喔……",
 			subActors = {
 				{
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "怎么连妳们都这样了啦！！！！",
+			say = "怎麼連妳們都這樣了啦！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "经过了与Z23等夥伴们的交流，圣地亚哥对“改造”有了更深刻的理解，距离蜕变的时刻，已经不远了——也许",
+			say = "經過了與Z23等夥伴們的交流，聖地牙哥對“改造”有了更深刻的理解，距離蛻變的時刻，已經不遠了——也許",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

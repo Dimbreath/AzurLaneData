@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=45>三 妹妹的想法</size>",
+					"妹妹的變化\n\n<size=45>三 妹妹的想法</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·白鹰宿舍",
+			say = "港區·白鷹宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "从第一次受到邀请到现在，与文森斯相处已经过了一段时间，和她的关系也亲密了起来。",
+			say = "從第一次受到邀請到現在，與文森尼斯相處已經過了一段時間，和她的關係也親密了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，今天也来一起发呆吗？",
+			say = "指揮官，今天也來一起發呆嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽然对文森斯来说，一起玩似乎只有睡觉和发呆两个选项就是了。",
+			say = "雖然對文森尼斯來說，一起玩似乎只有睡覺和發呆兩個選項就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "（敲门声）",
+			say = "（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，来了——咦，印第酱？哦…又是躲妳家姐姐吗？",
+			say = "啊，來了——咦，印第醬？哦…又是躲妳家姐姐嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问文森斯和印第的关系",
+					content = "詢問文森尼斯和印第的關係",
 					flag = 1
 				}
 			}
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新奥尔良级和波特兰级关系很近哦？而且我和印第很合得来。",
+			say = "紐奧良級和波特蘭級關係很近哦？而且我和印第很合得來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都喜欢不说话，也都有…稍微有些麻烦的姐姐。",
+			say = "都喜歡不說話，也都有…稍微有些麻煩的姐姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#a9f548",
-			say = "虽然和印第比起来，我家的姐姐们要普通一些就是了",
+			say = "雖然和印第比起來，我家的姐姐們要普通一些就是了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问对姐姐们的想法",
+					content = "詢問對姐姐們的想法",
 					flag = 1
 				}
 			}
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从以前开始，姐姐们就什么都抢着帮我做，到最后…好像我什么都不做也没什么关系了……",
+			say = "從以前開始，姐姐們就什麼都搶著幫我做，到最後…好像我什麼都不做也沒什麼關係了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……做姐姐的都有点太爱操心了",
+			say = "……做姐姐的都有點太愛操心了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，不过，这大概就是作为姐姐的关爱…吧…印第也是不讨厌波特兰姐姐的吧？",
+			say = "嗯，不過，這大概就是作為姐姐的關愛…吧…印第也是不討厭波特蘭姐姐的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "看起来，身为妹妹，虽然对姐姐的做法有些微词，结果还是喜欢姐姐的。",
+			say = "看起來，身為妹妹，雖然對姐姐的做法有些微詞，結果還是喜歡姐姐的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

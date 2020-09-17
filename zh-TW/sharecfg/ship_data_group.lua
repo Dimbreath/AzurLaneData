@@ -2389,6 +2389,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[46] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 70,
+		group_type = 10308,
+		code = 46,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：月光下的序曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[364] = {
 		type = 3,
 		trans_skin = 0,
@@ -2413,6 +2444,68 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：墜落之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[47] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 72,
+		group_type = 10309,
+		code = 47,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：月光下的序曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[48] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 73,
+		group_type = 10310,
+		code = 48,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：月光下的序曲",
 				{
 					""
 				},
@@ -3617,6 +3710,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[358] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 108,
+		group_type = 10802,
+		code = 358,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：大青花魚的塗鴉板",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[342] = {
 		type = 8,
 		trans_skin = 0,
@@ -4174,6 +4298,46 @@ pg.ship_data_group = {
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[389] = {
+		type = 1,
+		trans_skin = 201119,
+		trans_type = 1,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 122,
+		group_type = 20129,
+		code = 389,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1061
+		},
+		description = {
+			{
+				"限時活動：鐵血、音符&誓言",
+				{
+					""
 				},
 				0
 			}
@@ -6073,6 +6237,37 @@ pg.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[134] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 179,
+		group_type = 20505,
+		code = 134,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵血、音符&誓言",
+				{
+					""
 				},
 				0
 			}
@@ -8885,6 +9080,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[207] = {
+		type = 4,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 274,
+		group_type = 30404,
+		code = 207,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：一週年登錄活動",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[383] = {
 		type = 4,
 		trans_skin = 0,
@@ -10142,6 +10368,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[388] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 320,
+		group_type = 40136,
+		code = 388,
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵血、音符&誓言",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[267] = {
 		type = 1,
 		trans_skin = 0,
@@ -10294,7 +10551,7 @@ pg.ship_data_group = {
 	},
 	[240] = {
 		type = 2,
-		trans_skin = 0,
+		trans_skin = 402039,
 		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -10311,8 +10568,17 @@ pg.ship_data_group = {
 			"C",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			12210
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -10590,6 +10856,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[250] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 333,
+		group_type = 40501,
+		code = 250,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵血、音符&誓言",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[251] = {
 		type = 5,
 		trans_skin = 0,
@@ -10725,6 +11022,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[387] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 338,
+		group_type = 40805,
+		code = 387,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵血、音符&誓言",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[341] = {
 		type = 8,
 		trans_skin = 0,
@@ -10815,6 +11143,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時建造",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[386] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 344,
+		group_type = 40804,
+		code = 386,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵血、音符&誓言",
 				{
 					""
 				},
@@ -11123,7 +11482,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：司晨的曙光",
+				"限時活動：再誕·曙光",
 				{
 					""
 				},
@@ -11570,6 +11929,210 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[20007] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 20007,
+		group_type = 19901,
+		code = 20007,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 19901
+					}
+				},
+				0
+			}
+		}
+	},
+	[20008] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 20008,
+		group_type = 19902,
+		code = 20008,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 19902
+					}
+				},
+				0
+			}
+		}
+	},
+	[20009] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 20009,
+		group_type = 39903,
+		code = 20009,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39903
+					}
+				},
+				0
+			}
+		}
+	},
+	[20010] = {
+		type = 18,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 20010,
+		group_type = 39904,
+		code = 20010,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39904
+					}
+				},
+				0
+			}
+		}
+	},
+	[20011] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 20011,
+		group_type = 49902,
+		code = 20011,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49902
+					}
+				},
+				0
+			}
+		}
+	},
+	[20012] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 9,
+		hide = 0,
+		index_id = 20012,
+		group_type = 99901,
+		code = 20012,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 99901
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -11622,7 +12185,10 @@ pg.ship_data_group = {
 		43,
 		44,
 		45,
+		46,
 		364,
+		47,
+		48,
 		49,
 		52,
 		53,
@@ -11648,6 +12214,7 @@ pg.ship_data_group = {
 		79,
 		78,
 		380,
+		358,
 		342,
 		80,
 		103,
@@ -11659,6 +12226,7 @@ pg.ship_data_group = {
 		88,
 		89,
 		90,
+		389,
 		91,
 		92,
 		93,
@@ -11700,6 +12268,7 @@ pg.ship_data_group = {
 		131,
 		132,
 		133,
+		134,
 		135,
 		136,
 		140,
@@ -11777,6 +12346,7 @@ pg.ship_data_group = {
 		204,
 		205,
 		206,
+		207,
 		383,
 		367,
 		320,
@@ -11812,6 +12382,7 @@ pg.ship_data_group = {
 		236,
 		237,
 		345,
+		388,
 		267,
 		238,
 		239,
@@ -11823,13 +12394,16 @@ pg.ship_data_group = {
 		244,
 		248,
 		249,
+		250,
 		251,
 		252,
 		385,
 		343,
+		387,
 		341,
 		399,
 		400,
+		386,
 		344,
 		253,
 		254,
@@ -11851,6 +12425,12 @@ pg.ship_data_group = {
 		20003,
 		20004,
 		20005,
-		20006
+		20006,
+		20007,
+		20008,
+		20009,
+		20010,
+		20011,
+		20012
 	}
 }

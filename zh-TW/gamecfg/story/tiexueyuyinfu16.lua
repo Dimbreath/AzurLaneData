@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"第六乐章\n\n<size=45>「新生～Der Genesende～」</size>",
+					"第六樂章\n\n<size=45>「新生～Der Genesende～」</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
 			actor = 205050,
-			say = "啧！装甲被——",
+			say = "嘖！裝甲被——",
 			flashN = {
 				color = {
 					1,
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当心！这个不是普通的炮击！",
+			say = "當心！這個不是普通的炮擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（战列舰的装甲……居然一击就……）",
+			say = "（戰列艦的裝甲……居然一擊就……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "雾气散去后，俾斯麦逐渐出现在视野里，浑身被一道黑色泛红的光芒所围绕着",
+			say = "霧氣散去後，俾斯麥逐漸出現在視野裡，渾身被一道黑色泛紅的光芒所圍繞著",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "散发出一股不祥的气息",
+			say = "散發出一股不祥的氣息",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "而测试者，早已不知去向",
+			say = "而測試者，早已不知去向",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "曾经有个伟人说过",
+			say = "曾經有個偉人說過",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "“这个世界上没有神,假使有的话,我岂能忍受自己不是那个神?所以,这个世界上没有神!”",
+			say = "“這個世界上沒有神，假使有的話，我豈能忍受自己不是那個神？所以，這個世界上沒有神!”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			actor = 205050,
-			say = "终于露出原型了吗，铁血的战舰！",
+			say = "終於露出原型了嗎，鐵血的戰艦！",
 			flashN = {
 				color = {
 					1,
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "曾经有那么一瞬间，我还以为妳有着那么一点属于战士的荣耀",
+			say = "曾經有那麼一瞬間，我還以為妳有著那麼一點屬於戰士的榮耀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "看来只是我多心了",
+			say = "看來只是我多心了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "皇家舰队从来不畏惧失败和死亡，而妳却在最后放弃了身为战舰的尊严",
+			say = "皇家艦隊從來不畏懼失敗和死亡，而妳卻在最後放棄了身為戰艦的尊嚴",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不论妳自诩为神亦或是太阳",
+			say = "不論妳自詡為神亦或是太陽",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我们都会将妳和妳的阴谋彻底击败！",
+			say = "我們都會將妳和妳的陰謀徹底擊敗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

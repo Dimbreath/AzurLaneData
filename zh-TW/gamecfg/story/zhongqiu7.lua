@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，第一个探花——威尔士！喏，请在这里写下自己的愿望",
+			say = "那麼，第一個探花——威爾士！喏，請在這裡寫下自己的願望",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "咦……要在大家的面前写吗？",
+			say = "咦……要在大家的面前寫嗎？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -46,7 +46,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯?有什么不方便让我们看到的内容吗？",
+			say = "嗯?有什麼不方便讓我們看到的內容嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈~当然不是，那我就写了——“希望每个女孩子都能露出真心的笑脸”……OK！",
+			say = "哈哈~當然不是，那我就寫了——“希望每個女孩子都能露出真心的笑臉”……OK！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 502010,
 			nameColor = "#a9f548",
-			say = "榜眼——Z46！喏，写在这里",
+			say = "榜眼——Z46！喏，寫在這裡",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -108,7 +108,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "……希望碧蓝航线的大家都能轻松一些……",
+			say = "……希望碧藍航線的大家都能輕鬆一些……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉快坐好，下一局马上开始了！这次我一定——",
+			say = "薩拉快坐好，下一局馬上開始了！這次我一定——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			actor = 502010,
 			nameColor = "#a9f548",
-			say = "萨拉托加——榜眼！",
+			say = "薩拉托加——榜眼！",
 			flashout = {
 				dur = 0.75,
 				black = true,
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "“希望能过得更加有趣”——OK！",
+			say = "“希望能過得更加有趣”——OK！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -208,7 +208,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里应该写的是对同伴们的思念之情吧",
+			say = "這裡應該寫的是對同伴們的思念之情吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎？能和同伴们团聚不就是最最有趣的事情吗！",
+			say = "哎？能和同伴們團聚不就是最最有趣的事情嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么……要写些什么呢？",
+			say = "那麼……要寫些什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“希望大家明年都能有新衣服”……就这样吧！",
+			say = "“希望大家明年都能有新衣服”……就這樣吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "新衣服吗……也有就喜欢穿常服的人在呢……",
+			say = "新衣服嗎……也有就喜歡穿常服的人在呢……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 502010,
 			nameColor = "#a9f548",
-			say = "第二个探花——欧根！",
+			say = "第二個探花——歐根！",
 			flashout = {
 				dur = 0.75,
 				black = true,
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就……“希望能与姐妹们团聚”，可以吧？",
+			say = "那就……“希望能與姐妹們團聚”，可以吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总觉得脑袋里浮响出一声“哈！”……",
+			say = "總覺得腦袋裡浮響出一聲“哈！ ”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			actor = 502010,
 			nameColor = "#a9f548",
-			say = "最后是状元——宁海！",
+			say = "最後是狀元——寧海！",
 			flashout = {
 				dur = 0.75,
 				black = true,
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			say = "咦！？我是状元！太棒啦！",
+			say = "咦！？我是狀元！太棒啦！",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
 			actor = 502022,
-			actorName = "宁海",
+			actorName = "寧海",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -468,7 +468,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "平海",
-			say = "我也想成为状元……",
+			say = "我也想成為狀元……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，宁海，需要考虑一下要写什么吗？",
+			say = "那麼，寧海，需要考慮一下要寫什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,8 +498,8 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actorName = "宁海",
-			say = "要写的内容，我一开始就决定了——希望能迎来更多的、更多的同伴！",
+			actorName = "寧海",
+			say = "要寫的內容，我一開始就決定了——希望能迎來更多的、更多的同伴！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = -1,
 			actor = 205060,
 			nameColor = "#a9f548",
-			say = "所有的花灯都飞到我们的双手触及不到的地方了……",
+			say = "所有的花燈都飛到我們的雙手觸及不到的地方了……",
 			flashout = {
 				dur = 0.75,
 				black = true,
@@ -546,7 +546,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不过啊，今夜明月，依旧悬天。美人迈兮音尘阙，隔千里兮共明月——这就是为什么我们会对月祈愿吧，只有月色，无论相隔多远，无论身处何方，都能共祈共赏的……",
+			say = "不過啊，今夜明月，依舊懸天。美人邁兮音塵闕，隔千里兮共明月——這就是為什麼我們會對月祈願吧，只有月色，無論相隔多遠，無論身處何方，都能共祈共賞的……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -565,7 +565,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望有一天，我们大家所有人能像今夜的月亮一样圆满无缺，共同围坐在这里……",
+			say = "希望有一天，我們大家所有人能像今夜的月亮一樣圓滿無缺，共同圍坐在這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "明年也好，后年也好，只要我还在，我就会一直来喔，桂花酿我还没喝够呢！",
+			say = "明年也好，後年也好，只要我還在，我就會一直來喔，桂花釀我還沒喝夠呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么……请大家随我一同望着月亮，向着神明祈愿吧",
+			say = "那麼……請大家隨我一同望著月亮，向著神明祈願吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "愿年年有今日，岁岁有今朝。愿我们的同伴浩漫如繁星，不竭似溪流。愿痛苦能磨砺我们的内心，失败能指引我们的方向……愿能与更多的人相遇相知……愿这双手一旦牵起就不再放开——",
+			say = "願年年有今日，歲歲有今朝。願我們的同伴浩漫如繁星，不竭似溪流。願痛苦能磨礪我們的內心，失敗能指引我們的方向……願能與更多的人相遇相知……願這雙手一旦牽起就不再放開——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

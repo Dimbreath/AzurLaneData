@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-3",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "这是…航空母舰的舰载机吗",
+			say = "這是…航空母艦的艦載機嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "真可惜…如果齐柏林伯爵能够完成下水的话，战局就不会如此被动了…",
+			say = "真可惜…如果齊柏林伯爵能夠完成下水的話，戰局就不會如此被動了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "不过，以为这种老式的双翼机就能击沉铁血的战舰的话也未免太小看人了！",
+			say = "不過，以為這種老式的雙翼機就能擊沉鐵血的戰艦的話也未免太小看人了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "防空火力展开，击落它们！",
+			say = "防空火力展開，擊落它們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "跟你说一个好消息喵！",
+			say = "跟你說一個好消息喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经过了这段时间科研部门大家的共同努力，终于～～实现了新的突破喵！",
+			say = "經過了這段時間科研部門大家的共同努力，終於～～實現了新的突破喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先是，又有一批全新的夥伴即将到来了喵！虽然想要真正让她们加入还得靠指挥官的努力喵…但是！",
+			say = "首先是，又有一批全新的夥伴即將到來了喵！雖然想要真正讓她們加入還得靠指揮官的努力喵…但是！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这之前，指挥官可以先对她们有一个更加直观的认知了喵！",
+			say = "在這之前，指揮官可以先對她們有一個更加直觀的認知了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "将将～这就是「科研战略战术模拟系统」，简称「战术模拟」喵！在正式开始努力之前，可以先在模拟系统中体验与新夥伴并肩作战的感受喵！",
+			say = "鏘鏘～這就是「科研戰略戰術模擬系統」，簡稱「戰術模擬」喵！在正式開始努力之前，可以先在模擬系統中體驗與新夥伴並肩作戰的感受喵！ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵，{namecode:98}已经感觉到指挥官的期待了喵，那就加油了喵！{namecode:98}先去忙别的事情了，拜拜喵！",
+			say = "呼喵，{namecode:98}已經感覺到指揮官的期待了喵，那就加油了喵！{namecode:98}先去忙別的事情了，拜拜喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,6 +8,14 @@ pg.item_data_chat = {
 		desc = "不設定任何聊天氣泡",
 		scene = {}
 	},
+	[101] = {
+		name = "一週年紀念",
+		time_second = 0,
+		id = 101,
+		time_limit_type = 0,
+		desc = "獻給所有一年間持續奮鬥在港區的指揮官們\n<color=#A7A7AAFF>開啟「再誕·曙光」紀念幣獲得</color>",
+		scene = {}
+	},
 	[1001] = {
 		name = "開服紀念",
 		time_second = 0,
@@ -18,6 +26,7 @@ pg.item_data_chat = {
 	},
 	all = {
 		0,
+		101,
 		1001
 	}
 }

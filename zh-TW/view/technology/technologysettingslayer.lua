@@ -15,8 +15,15 @@ function slot0.init(slot0)
 	slot0:findUI()
 	slot0:addListener()
 	slot0:initTendencyPage()
-	slot0:initTargetCatchupPage()
-	slot0:initActCatchupPage()
+
+	if not LOCK_TEC_CATCHUP then
+		slot0:initTargetCatchupPage()
+		slot0:initActCatchupPage()
+	else
+		setActive(slot0.targetCatchupBtn, false)
+		setActive(slot0.actCatchupBtn, false)
+		setActive(slot0:findTF("TecItemList", slot0.tendencyPanel):GetChild(3), false)
+	end
 
 	if slot0.technologyProxy:isOnCatchup() and not slot0.technologyProxy:isOnCatchupNewest() then
 		slot0:initGiveUpMsgBox()

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"理科实验时间！\n\n<size=45>一　某日的午后</size>",
+					"理科實驗時間！\n\n<size=45>一　某日的午後</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "这是一个天气晴朗，再平静不过的港区午后——",
+			say = "這是一個天氣晴朗，再平靜不過的港區午後——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！午休结束，下午的课程就要开始了，拉菲、{namecode:6}、标枪，走吧！",
+			say = "好！午休結束，下午的課程就要開始了，拉菲、{namecode:6}、標槍，走吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…再五分钟就好，的说",
+			say = "…再五分鐘就好，的說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔～这种天气不多睡会午觉太可惜了啦～",
+			say = "唔～這種天氣不多睡會午覺太可惜了啦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…就算是没有作战任务的日子，妳们这也太懒散了…",
+			say = "哈啊…就算是沒有作戰任務的日子，妳們這也太懶散了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快·起·来——",
+			say = "快·起·來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌袭…？",
+			say = "敵襲…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "应该不可能吧…声音好像是从战术教室那边传来的",
+			say = "應該不可能吧…聲音好像是從戰術教室那邊傳來的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总、总之先去战术教室看看吧！",
+			say = "總、總之先去戰術教室看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的夥伴们\n\n<size=45>四、同为“老兵”</size>",
+					"曙光和愉快的夥伴們\n\n<size=45>四、同為“老兵”</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "一队奇妙的组合正聚在一起享用重樱的茶会",
+			say = "一隊奇妙的組合正聚在一起享用重櫻的茶會",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "哦哦，这就是传闻中的重樱的抹茶吗！",
+			say = "哦哦，這就是傳聞中的重櫻的抹茶嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 705010,
 			nameColor = "#a9f548",
-			say = "喝惯了刺激的东西，偶尔换换口味也不赖嘛。",
+			say = "喝慣了刺激的東西，偶爾換換口味也不賴嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}，感谢妳用家乡的茶叶招待我们。",
+			say = "{namecode:82}，感謝妳用家鄉的茶葉招待我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈，哪里哪里。大家都是活跃在一个时代的夥伴，不用客气！",
+			say = "啊哈，哪裡哪裡。大家都是活躍在一個時代的夥伴，不用客氣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "是啊，我们几个就是老人……“舰历很长的人”呢！",
+			say = "是啊，我們幾個就是老人……“艦歷很長的人”呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说好像也没错呢，呵呵~",
+			say = "這麼說好像也沒錯呢，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "啊，对了对了！之前让指挥官跑腿买的那个游戏还挺好玩的！下次有机会的话一起来玩吧！",
+			say = "啊，對了對了！之前讓指揮官跑腿買的那個遊戲還挺好玩的！下次有機會的話一起來玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "游戏？说的是……电子游戏吗？那个的话，有点……",
+			say = "遊戲？說的是……電子遊戲嗎？那個的話，有點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "欸欸？我以为{namecode:82}在港区这么久，多多少少会玩一点呢~",
+			say = "欸欸？我以為{namecode:82}在港區這麼久，多多少少會玩一點呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "我为什么要玩这个啊！",
+			say = "我為什麼要玩這個啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，水星纪念，每个人的兴趣都是不同的啦。妳也不要每天光玩游戏比较好哦",
+			say = "好啦，水星紀念，每個人的興趣都是不同的啦。妳也不要每天光玩遊戲比較好哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗，真的是一点都没变呢。",
+			say = "噗，真的是一點都沒變呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 705010,
 			nameColor = "#a9f548",
-			say = "唔，看来只有我一个人对这个印象比较模糊吗。虽然并不是一点也没有…",
+			say = "唔，看來只有我一個人對這個印象比較模糊嗎。雖然並不是一點也沒有…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甘古特在说什么话，不管时间过去了多久，大家并肩战斗过的事实是不会消失的",
+			say = "甘古特在說什麼話，不管時間過去了多久，大家並肩戰鬥過的事實是不會消失的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突然从海洋出现的强敌、被掠夺的制海权、无数的牺牲、质和量上都令人绝望的战力差",
+			say = "突然從海洋出現的強敵、被掠奪的制海權、無數的犧牲、質和量上都令人絕望的戰力差",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……即使在这个艰难状况下，为了守护碧蓝色的航线，各个阵营的夥伴们并肩战斗——",
+			say = "……即使在這個艱難狀況下，為了守護碧藍色的航線，各個陣營的夥伴們並肩戰鬥——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，虽然状况有所不同，但是就各个阵营的夥伴们都聚集在一起这件事上来说，这个港区和当时确实很像呢",
+			say = "嗯，雖然狀況有所不同，但是就各個陣營的夥伴們都聚集在一起這件事上來說，這個港區和當時確實很像呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这都是指挥官的功劳呢",
+			say = "呵呵，這都是指揮官的功勞呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即便是作为前辈的我们，在这个舰队里也能够发挥自己的力量，去正确的引导后辈们的前进方向",
+			say = "即便是作為前輩的我們，在這個艦隊裡也能夠發揮自己的力量，去正確的引導後輩們的前進方向",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "没错，引退还为时尚早啊。哈哈哈",
+			say = "沒錯，引退還為時尚早啊。哈哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "伴随着横溢的茶香，四人的对话就这么进行了下去。",
+			say = "伴隨著橫溢的茶香，四人的對話就這麼進行了下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

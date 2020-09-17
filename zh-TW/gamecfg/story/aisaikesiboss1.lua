@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别演习·埃塞克斯级\n\n<size=45>一　特别演习·开幕！</size>",
+					"特別演習·艾塞克斯級\n\n<size=45>一　特別演習·開幕！</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这次的大规模演习，主要是模拟出面对敌方航空母舰来袭的情况，以及如何迅速有效地作出应对。",
+			say = "這次的大規模演習，主要是模擬出面對敵方航空母艦來襲的情況，以及如何迅速有效地作出應對。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同时，也能向大家展示我们白鹰的航空力量。",
+			say = "同時，也能向大家展示我們白鷹的航空力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "演习分为两方，蓝方负责“空袭”，也就是扮演假想的敌方航空母舰。而红方要负责带领出击队伍解除蓝方的航空力量威胁。",
+			say = "演習分為兩方，藍方負責“空襲”，也就是扮演假想的敵方航空母艦。而紅方要負責帶領出擊隊伍解除藍方的航空力量威脅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "哦～？也就是说，我们当中要有人扮演敌人吗？",
+			say = "哦～？也就是說，我們當中要有人扮演敵人嗎？",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那姐姐，两边的人选定了吗？",
+			say = "那姐姐，兩邊的人選定了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次的演习比较特别，红方队伍不固定，因此红方到时候会由指挥官负责人选。不过在此之前——",
+			say = "這次的演習比較特別，紅方隊伍不固定，因此紅方到時候會由指揮官負責人選。不過在此之前——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "独立，指挥官希望妳能担任红方的队长。",
+			say = "獨立，指揮官希望妳能擔任紅方的隊長。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "我吗……但是，我才刚刚加入舰队，会不会有些不合适？",
+			say = "我嗎……但是，我才剛剛加入艦隊，會不會有些不合適？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这也是一个磨合的好机会呢，不是吗？",
+			say = "不過，這也是一個磨合的好機會呢，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此。我明白了，我会尽力完成任务的。",
+			say = "原來如此。我明白了，我會盡力完成任務的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			blackBg = true,
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "（正好借着这个机会，让大家看到我的实力……！）",
+			say = "（正好藉著這個機會，讓大家看到我的實力……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后是蓝方的人选。担任蓝方的人可能会比较辛苦…这部分的话就还是由我来——",
+			say = "然後是藍方的人選。擔任藍方的人可能會比較辛苦…這部分的話就還是由我來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业前辈，可以的话，请让我来担任这次演习的蓝方吧",
+			say = "企業前輩，可以的話，請讓我來擔任這次演習的藍方吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是实力还是战斗经验，我认为自己都足以担当这次的敌对方。而且，我也想检验一下这些时间以来自己在舰队训练的成果。",
+			say = "無論是實力還是戰鬥經驗，我認為自己都足以擔當這次的敵對方。而且，我也想檢驗一下這些時間以來自己在艦隊訓練的成果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯？但是——",
+			say = "艾塞克斯？但是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，企业，这次就把任务交给后辈吧，不要总是自己一个人扛呢。",
+			say = "好啦，企業，這次就把任務交給後輩吧，不要總是自己一個人扛呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，姐姐，不要总是一个人出风头嘛！哈哈。",
+			say = "是啊，姐姐，不要總是一個人出風頭嘛！哈哈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…我明白了。埃塞克斯，这次交给妳了。具体的内容稍后会和妳说明-----",
+			say = "…我明白了。艾塞克斯，這次交給妳了。具體的內容稍後會和妳說明-----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "演习海域",
+			say = "演習海域",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此……从前辈那里争取到了敌军指挥官的职位呢。",
+			say = "原來如此……從前輩那裡爭取到了敵軍指揮官的職位呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "虽然我原本只负责观察和记录本次演习。不过前辈说了，“如果埃塞克斯需要帮助的话就全力支持她”。埃塞克斯，真的不需要我帮忙吗？",
+			say = "雖然我原本只負責觀察和記錄本次演習。不過前輩說了，“如果艾塞克斯需要幫助的話就全力支持她”。艾塞克斯，真的不需要我幫忙嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "就让我一个人负责这次行动吧。我也想看看,自己的极限究竟在哪里呢…",
+			say = "就讓我一個人負責這次行動吧。我也想看看,自己的極限究竟在哪裡呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "差不多到时间了。",
+			say = "差不多到時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107090,
 			nameColor = "#ff5c5c",
-			say = "嗯。那么，舰载机，全数出击！",
+			say = "嗯。那麼，艦載機，全數出擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

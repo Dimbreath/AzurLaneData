@@ -1,28 +1,15 @@
 slot0 = class("SecondSummaryPage4", import(".SummaryAnimationPage"))
 slot0.furnitureIdPage = {
 	{
-		106,
 		112,
+		106,
 		117,
-		118,
 		119,
-		124
+		124,
+		129
 	},
 	{
-		129,
-		138,
-		140,
-		141,
-		145,
-		148
-	},
-	{
-		151,
-		155,
-		157,
-		160,
-		167,
-		173
+		140
 	}
 }
 

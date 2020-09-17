@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"小小的骑士誓言！\n\n<size=45>二　指挥官很忙？</size>",
+					"小小的騎士誓言！\n\n<size=45>二 指揮官很忙？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "一番忙碌之后，今天的工作终于步入正轨。",
+			say = "一番忙碌之後，今天的工作終於步入正軌。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "原本接下来要指导她秘书舰的日常工作，没想到今天要处理的工作格外多，至少上午是没有指导工作的时间了...",
+			say = "原本接下來要指導她秘書艦的日常工作，沒想到今天要處理的工作格外多，至少上午是沒有指導工作的時間了...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "她正在一旁看着之前的演习报告书。就这样稍微放置一会……应该没问题的吧？",
+			say = "她正在一旁看著之前的演習報告書。就這樣稍微放置一會……應該沒問題的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "（15分钟后）",
+			say = "（15分鐘後）",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "唔唔，好无聊啊。我之前听说秘书舰是简单又好玩的工作，还能跟指挥官一起玩啥的……",
+			say = "唔唔，好無聊啊。我之前聽說秘書艦是簡單又好玩的工作，還能跟指揮官一起玩啥的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "对了对了！指挥官，要不先放一放工作，我们出去玩吧！",
+			say = "對了對了！指揮官，要不先放一放工作，我們出去玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			withoutActorName = true,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "U-556看起来有点沮丧。",
+			say = "U-556看起來有點沮喪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "这些工作真的有那么重要吗…？",
+			say = "這些工作真的有那麼重要嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "似乎U-556并不清楚指挥官和秘书舰在舰队中的作用。从她的印象来看，更像是玩伴一样的存在？",
+			say = "似乎U-556並不清楚指揮官和秘書艦在艦隊中的作用。從她的印象來看，更像是玩伴一樣的存在？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过一大早来翻资料的干劲倒还是值得表扬的…总之先和她说一下指挥官工作的重要性吧",
+			say = "不過一大早來翻資料的幹勁倒還是值得表揚的…總之先和她說一下指揮官工作的重要性吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "指挥官？怎么了吗？突然一副严肃的表情……",
+			say = "指揮官？怎麼了嗎？突然一副嚴肅的表情……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "原来如此…离开了指挥官的工作，整个港区就没法维持运作了。指挥官的工作，原来其实这么重要的啊…",
+			say = "原來如此…離開了指揮官的工作，整個港區就沒法維持運作了。指揮官的工作，原來其實這麼重要的啊…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "我也想帮上指挥官的忙！",
+			say = "我也想幫上指揮官的忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556似乎明白了工作的重要性。既然如此，这里就顺势交给她一些简单的事情处理吧。",
+			say = "U-556似乎明白了工作的重要性。既然如此，這裡就順勢交給她一些簡單的事情處理吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "把这个交给商店的{namecode:98}小姐吗？我知道了！",
+			say = "把這個交給商店的明石小姐嗎？我知道了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556拿了资料，门也不关地跑了出去。",
+			say = "U-556拿了資料，門也不關地跑了出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "果然，只要有热情的话，简单的工作她还是能做好的嘛。",
+			say = "果然，只要有熱情的話，簡單的工作她還是能做好的嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "结果，直到上午的工作时间结束，也没等到U-556回来。",
+			say = "結果，直到上午的工作時間結束，也沒等到U-556回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

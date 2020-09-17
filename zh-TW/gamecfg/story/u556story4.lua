@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"小小的骑士誓言！\n\n<size=45>四　约好了？</size>",
+					"小小的騎士誓言！\n\n<size=45>四　約好了？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "距U-556开始担任秘书舰已经过去了一段时间",
+			say = "距U-556開始擔任秘書艦已經過去了一段時間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "与最开始一副玩闹的样子不同，现在的她已经可以分担处理一些日常事务了",
+			say = "與最開始一副玩鬧的樣子不同，現在的她已經可以分擔處理一些日常事務了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "当然，秘书舰的工作远不止如此。今天要教些什么好呢…",
+			say = "當然，秘書艦的工作遠不止如此。今天要教些什麼好呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556看起来……有点无精打采的样子？",
+			say = "U-556看起來……有點無精打采的樣子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "啊，稍微有些走神，抱歉……今天要做些什么吗？",
+			say = "啊，稍微有些走神，抱歉……今天要做些什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			},
 			options = {
 				{
-					content = "发生了什么事么？",
+					content = "發生了什麼事嗎？",
 					flag = 1
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，果然瞒不过指挥官吗……其实——",
+			say = "唔，果然瞞不過指揮官嗎……其實——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "俾斯麦姐姐！我来找妳玩啦！",
+			say = "俾斯麥姐姐！我來找妳玩啦！",
 			effects = {
 				{
 					active = true,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			say = "嗯？是U-556吗。",
+			say = "嗯？是U-556嗎。",
 			side = 1,
 			bgName = "bg_guild_red",
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "抱歉，我还有些事情事情要和皇家那边商讨。",
+			say = "抱歉，我還有些事情事情要和皇家那邊商討。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "俾斯麦姐姐，有空吗？",
+			say = "俾斯麥姐姐，有空嗎？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如妳所见，我正在为下次的演习制定方案，暂时抽不出身。",
+			say = "如妳所見，我正在為下次的演習制訂方案，暫時抽不出身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "最近姐姐她总是很忙的样子……",
+			say = "最近姐姐她總是很忙的樣子……",
 			effects = {
 				{
 					active = false,
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道大姐身为铁血舰队的领袖，要处理的事情有很多。但是，没有大姐在身边，我还是觉得很寂寞……",
+			say = "我知道大姐身為鐵血艦隊的領袖，要處理的事情有很多。但是，沒有大姐在身邊，我還是覺得很寂寞……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "原来如此。",
+			say = "原來如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这样的话，能做到的事就是----",
+			say = "這樣的話，能做到的事就是----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "欸？指挥官……下个休息日会陪我玩吗？",
+			say = "欸？指揮官……下個休息日會陪我玩嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "真的吗？",
+			say = "真的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			},
 			options = {
 				{
-					content = "约好了。",
+					content = "約好了。",
 					flag = 1
 				}
 			}
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "那，那就约好了！可不能反悔！",
+			say = "那，那就約好了！可不能反悔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "总之先这样让她稍微开心点吧。",
+			say = "總之先這樣讓她稍微開心點吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

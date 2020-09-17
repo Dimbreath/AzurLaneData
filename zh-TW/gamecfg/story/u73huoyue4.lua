@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"理科实验时间！\n\n<size=45>四　真正的实验？</size>",
+					"理科實驗時間！\n\n<size=45>四　真正的實驗？</size>",
 					1
 				}
 			}
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "未经许可使用科学教室，这可是要上军事法庭的！",
+			say = "未經許可使用科學教室，這可是要上軍事法庭的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "欸，真、真的吗？",
+			say = "欸，真、真的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:37}，是科学教室的管理员。",
+			say = "{namecode:37}，是科學教室的管理員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "对不起，我错了！",
+			say = "對不起，我錯了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，不过看在妳一心追求科学的份上，这一次我就睁一只眼闭一只眼吧。",
+			say = "哼哼，不過看在妳一心追求科學的份上，這一次我就睜一隻眼閉一隻眼吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "谢谢妳，{namecode:37}！",
+			say = "謝謝妳，{namecode:37}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…这个烟雾里的成分，还有…",
+			say = "不過…這個煙霧裡的成份，還有…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳用的这些成分…原来如此，妳是想要研制糖分弹药吗",
+			say = "妳用的這些成份…原來如此，妳是想要研製成份彈藥嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "嗯嗯！（眼神发光）",
+			say = "嗯嗯！（眼神發光）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "原来真的有这种东西吗！？",
+			say = "原來真的有這種東西嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是圣诞节的那个呀！",
+			say = "就是聖誕節的那個呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "…那个，难道真的是能吃的吗？！",
+			say = "…那個，難道真的是能吃的嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼 ，就当做是给刚刚打开科学这扇大门的初学者一点指导吧，跟我来",
+			say = "哼哼 ，就當做是給剛剛打開科學這扇大門的初學者一點指導吧，跟我來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让妳们学习一下什么是“真正的科学实验”！",
+			say = "讓妳們學習一下什麼是“真正的科學實驗”！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

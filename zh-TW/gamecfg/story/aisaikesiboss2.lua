@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别演习·埃塞克斯级\n\n<size=45>二　独立的奋斗</size>",
+					"特別演習·艾塞克斯級\n\n<size=45>二　獨立的奮鬥</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "level",
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "唔…比想象中的更困难啊……",
+			say = "唔…比想像中的更困難啊……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机的指挥…今天的状态…应该都很好才对。",
+			say = "艦載機的指揮…今天的狀態…應該都很好才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "果然还是身为轻型航母的限制吗……",
+			say = "果然還是身為輕型航母的限制嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			say = "独立小姐，能稍微打扰一下吗？",
+			say = "獨立小姐，能稍微打擾一下嗎？",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳是负责记录的……香格里拉小姐？",
+			say = "妳是負責記錄的……香格里拉小姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = -1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "是的。可能会有些冒犯，我想…我可以帮独立小姐妳分析一下，妳在演习中存在的一些问题。",
+			say = "是的。可能會有些冒犯，我想…我可以幫獨立小姐妳分析一下，妳在演習中存在的一些問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "妳自身的舰载机操作是没有问题的，但是…警戒机群的位置太靠前，和队伍的其他成员，甚至和雷达哨舰都脱节了",
+			say = "妳自身的艦載機操作是沒有問題的，但是…警戒機群的位置太靠前，和隊伍的其他成員，甚至和雷達哨艦都脫節了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = -1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "独立小姐，妳是不是有点…太过心急了？继续这种战斗方式的话，可能接下来会变得更加辛苦哦？",
+			say = "獨立小姐，妳是不是有點…太過心急了？繼續這種戰鬥方式的話，可能接下來會變得更加辛苦哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "太过…心急吗…？嗯…我知道了。谢谢妳的提醒…",
+			say = "太過…心急嗎…？嗯…我知道了。謝謝妳的提醒…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我还有任务在身，就先告辞了。",
+			say = "我還有任務在身，就先告辭了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和队伍脱节了吗…",
+			say = "和隊伍脫節了嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "（但是，要怎样才能和队伍的大家配合好……）",
+			say = "（但是，要怎樣才能和隊伍的大家配合好……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "哟，独立！怎么在这一个人发呆啊，是在烦恼刚才演习的事么？",
+			say = "喲，獨立！怎麼在這一個人發呆啊，是在煩惱剛才演習的事麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "（克利夫兰…？唔……要向她求教一下吗…作为首舰的她说不定会在这上面有什么心得……）",
+			say = "（克里夫蘭…？唔……要向她求教一下嗎…作為首艦的她說不定會在這上面有什麼心得……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实是这样…",
+			say = "其實是這樣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgm = "story-1",
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "啊啊，和其他人的配合问题吗？",
+			say = "啊啊，和其他人的配合問題嗎？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "这个嘛……",
+			say = "這個嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "老姐也不知道答案吧？毕竟每次老姐也都是冲在最前面的那个呢，啊哈哈",
+			say = "老姐也不知道答案吧？畢竟每次老姐也都是衝在最前面的那個呢，啊哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系的，大姐头是最强的。那些敌人只要大姐头一个人就能解决了。",
+			say = "沒關係的，大姐頭是最強的。那些敵人只要大姐頭一個人就能解決了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "欸？妳，妳们是什么时候出现的？",
+			say = "欸？妳，妳們是什麼時候出現的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从刚刚开始一直在的啊？",
+			say = "從剛剛開始一直在的啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（原本会是姐姐的四人都到齐了……）",
+			say = "（原本會是姐姐的四人都到齊了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果三个姐姐没有一个人提出建议啊……哈哈。",
+			say = "結果三個姐姐沒有一個人提出建議啊……哈哈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我觉得只要平时多和大家交流，多了解一下大家，战斗的时候就能够更好地读懂队友的想法。",
+			say = "我覺得只要平時多和大家交流，多了解一下大家，戰鬥的時候就能夠更好地讀懂隊友的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "独立是刚来港区不久吧？那么就让我们四人带着妳来一场港区大冒险吧！走吧！",
+			say = "獨立是剛來港區不久吧？那麼就讓我們四人帶著妳來一場港區大冒險吧！走吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "哦…诶？现在吗？但是之后还有演习——",
+			say = "哦…欸？現在嗎？但是之後還有演習——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系的，走吧~指挥官会理解的。",
+			say = "沒關係的，走吧~指揮官會理解的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我们就出发吧！",
+			say = "那我們就出發吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "不对等等，明明最开始倾听烦恼的是我，排忧解难的机会却被抢走了！",
+			say = "不對等等，明明最開始傾聽煩惱的是我，排憂解難的機會卻被搶走了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系的，大姐头，一定还有机会的！",
+			say = "沒關係的，大姐頭，一定還有機會的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（这四个人关系真好啊……）",
+			say = "（這四個人關係真好啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

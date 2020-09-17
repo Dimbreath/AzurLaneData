@@ -19654,6 +19654,126 @@ pg.ship_data_statistics = {
 			"Cleveland-Class"
 		}
 	},
+	[102174] = {
+		oxy_max = 0,
+		type = 2,
+		name = "聖地牙哥·改",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 5,
+		ammo = 0,
+		id = 102174,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS San Diego",
+		oxy_cost = 0,
+		skin_id = 102080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1591,
+			63,
+			77,
+			215,
+			0,
+			70,
+			0,
+			58,
+			28,
+			32.5,
+			85,
+			123
+		},
+		attrs_growth = {
+			15745,
+			252,
+			306,
+			1704,
+			0,
+			348,
+			0,
+			852,
+			414,
+			0,
+			0,
+			490
+		},
+		attrs_growth_extra = {
+			3936,
+			588,
+			729,
+			292,
+			0,
+			822,
+			0,
+			0,
+			626,
+			0,
+			0,
+			441
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1.7,
+			0.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[102181] = {
 		oxy_max = 0,
 		type = 2,
@@ -23409,6 +23529,1434 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {}
+	},
+	[103081] = {
+		oxy_max = 0,
+		type = 3,
+		name = "阿斯托利亞",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103081,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Astoria",
+		oxy_cost = 0,
+		skin_id = 103080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			670,
+			40,
+			0,
+			42,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			15,
+			0
+		},
+		attrs_growth = {
+			16350,
+			398,
+			0,
+			824,
+			0,
+			294,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.5,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103082] = {
+		oxy_max = 0,
+		type = 3,
+		name = "阿斯托利亞",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103082,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Astoria",
+		oxy_cost = 0,
+		skin_id = 103080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			834,
+			50,
+			0,
+			52,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			15,
+			0
+		},
+		attrs_growth = {
+			16350,
+			398,
+			0,
+			824,
+			0,
+			294,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.07,
+			0.52,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103083] = {
+		oxy_max = 0,
+		type = 3,
+		name = "阿斯托利亞",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103083,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Astoria",
+		oxy_cost = 0,
+		skin_id = 103080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1161,
+			70,
+			0,
+			73,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			15,
+			0
+		},
+		attrs_growth = {
+			16350,
+			398,
+			0,
+			824,
+			0,
+			294,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.55,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103084] = {
+		oxy_max = 0,
+		type = 3,
+		name = "阿斯托利亞",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103084,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Astoria",
+		oxy_cost = 0,
+		skin_id = 103080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1651,
+			100,
+			0,
+			104,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			15,
+			0
+		},
+		attrs_growth = {
+			16350,
+			398,
+			0,
+			824,
+			0,
+			294,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3268,
+			945,
+			0,
+			564,
+			0,
+			696,
+			0,
+			246,
+			1422,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.6,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103091] = {
+		oxy_max = 0,
+		type = 3,
+		name = "昆西",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Quincy",
+		oxy_cost = 0,
+		skin_id = 103090,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			693,
+			40,
+			0,
+			43,
+			0,
+			59,
+			0,
+			41,
+			9,
+			26.16,
+			9,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			612,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.55,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103092] = {
+		oxy_max = 0,
+		type = 3,
+		name = "昆西",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Quincy",
+		oxy_cost = 0,
+		skin_id = 103090,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			862,
+			50,
+			0,
+			54,
+			0,
+			59,
+			0,
+			41,
+			9,
+			26.16,
+			9,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			612,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.07,
+			0.57,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103093] = {
+		oxy_max = 0,
+		type = 3,
+		name = "昆西",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Quincy",
+		oxy_cost = 0,
+		skin_id = 103090,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1200,
+			70,
+			0,
+			75,
+			0,
+			59,
+			0,
+			41,
+			9,
+			26.16,
+			9,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			612,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.6,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103094] = {
+		oxy_max = 0,
+		type = 3,
+		name = "昆西",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Quincy",
+		oxy_cost = 0,
+		skin_id = 103090,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1708,
+			100,
+			0,
+			106,
+			0,
+			59,
+			0,
+			41,
+			9,
+			26.16,
+			9,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			612,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3382,
+			945,
+			0,
+			578,
+			0,
+			694,
+			0,
+			243,
+			1422,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.65,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103101] = {
+		oxy_max = 0,
+		type = 3,
+		name = "文森尼斯",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103101,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Vincennes",
+		oxy_cost = 0,
+		skin_id = 103100,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			693,
+			40,
+			0,
+			43,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			12,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.55,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103102] = {
+		oxy_max = 0,
+		type = 3,
+		name = "文森尼斯",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103102,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Vincennes",
+		oxy_cost = 0,
+		skin_id = 103100,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			862,
+			50,
+			0,
+			54,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			12,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.07,
+			0.57,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103103] = {
+		oxy_max = 0,
+		type = 3,
+		name = "文森尼斯",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103103,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Vincennes",
+		oxy_cost = 0,
+		skin_id = 103100,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1200,
+			70,
+			0,
+			75,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			12,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.6,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103104] = {
+		oxy_max = 0,
+		type = 3,
+		name = "文森尼斯",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 103104,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Vincennes",
+		oxy_cost = 0,
+		skin_id = 103100,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1708,
+			100,
+			0,
+			106,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			12,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3382,
+			945,
+			0,
+			578,
+			0,
+			694,
+			0,
+			246,
+			1422,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.65,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
 	},
 	[103111] = {
 		oxy_max = 0,
@@ -36458,6 +38006,934 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[108021] = {
+		oxy_max = 243,
+		type = 8,
+		name = "大青花魚",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 108021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Albacore",
+		oxy_cost = 10,
+		skin_id = 108020,
+		attack_duration = 5,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			310,
+			11,
+			101,
+			0,
+			0,
+			35,
+			0,
+			66,
+			9,
+			16.8,
+			79,
+			0
+		},
+		attrs_growth = {
+			7565,
+			112,
+			1004,
+			0,
+			0,
+			174,
+			0,
+			978,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.05,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					0,
+					-3
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Albacore"
+		}
+	},
+	[108022] = {
+		oxy_max = 243,
+		type = 8,
+		name = "大青花魚",
+		huntingrange_level = 1,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 108022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Albacore",
+		oxy_cost = 10,
+		skin_id = 108020,
+		attack_duration = 5,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			386,
+			14,
+			126,
+			0,
+			0,
+			35,
+			0,
+			66,
+			9,
+			16.8,
+			79,
+			0
+		},
+		attrs_growth = {
+			7565,
+			112,
+			1004,
+			0,
+			0,
+			174,
+			0,
+			978,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					0,
+					-3
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Albacore"
+		}
+	},
+	[108023] = {
+		oxy_max = 243,
+		type = 8,
+		name = "大青花魚",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 108023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Albacore",
+		oxy_cost = 10,
+		skin_id = 108020,
+		attack_duration = 5,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			537,
+			19,
+			176,
+			0,
+			0,
+			35,
+			0,
+			66,
+			9,
+			16.8,
+			79,
+			0
+		},
+		attrs_growth = {
+			7565,
+			112,
+			1004,
+			0,
+			0,
+			174,
+			0,
+			978,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					0,
+					-3
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Albacore"
+		}
+	},
+	[108024] = {
+		oxy_max = 243,
+		type = 8,
+		name = "大青花魚",
+		huntingrange_level = 2,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 108024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Albacore",
+		oxy_cost = 10,
+		skin_id = 108020,
+		attack_duration = 5,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			764,
+			28,
+			252,
+			0,
+			0,
+			35,
+			0,
+			66,
+			9,
+			16.8,
+			79,
+			0
+		},
+		attrs_growth = {
+			7565,
+			112,
+			1004,
+			0,
+			0,
+			174,
+			0,
+			978,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			7555,
+			263,
+			1251,
+			0,
+			0,
+			411,
+			0,
+			0,
+			779,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					0,
+					-3
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Albacore"
+		}
+	},
 	[112011] = {
 		oxy_max = 0,
 		type = 12,
@@ -45874,6 +48350,474 @@ pg.ship_data_statistics = {
 			1.2,
 			1.45,
 			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201291] = {
+		oxy_max = 0,
+		type = 1,
+		name = "回聲",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201291,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Echo",
+		oxy_cost = 0,
+		skin_id = 201290,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			226,
+			14,
+			68,
+			28,
+			0,
+			71,
+			0,
+			65,
+			78,
+			42.6,
+			65,
+			51
+		},
+		attrs_growth = {
+			5505,
+			134,
+			670,
+			556,
+			0,
+			354,
+			0,
+			960,
+			1152,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201292] = {
+		oxy_max = 0,
+		type = 1,
+		name = "回聲",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201292,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Echo",
+		oxy_cost = 0,
+		skin_id = 201290,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			281,
+			17,
+			85,
+			35,
+			0,
+			71,
+			0,
+			65,
+			78,
+			42.6,
+			65,
+			64
+		},
+		attrs_growth = {
+			5505,
+			134,
+			670,
+			556,
+			0,
+			354,
+			0,
+			960,
+			1152,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201293] = {
+		oxy_max = 0,
+		type = 1,
+		name = "回聲",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201293,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Echo",
+		oxy_cost = 0,
+		skin_id = 201290,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			391,
+			24,
+			118,
+			49,
+			0,
+			71,
+			0,
+			65,
+			78,
+			42.6,
+			65,
+			89
+		},
+		attrs_growth = {
+			5505,
+			134,
+			670,
+			556,
+			0,
+			354,
+			0,
+			960,
+			1152,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201294] = {
+		oxy_max = 0,
+		type = 1,
+		name = "回聲",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201294,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Echo",
+		oxy_cost = 0,
+		skin_id = 201290,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			556,
+			34,
+			169,
+			70,
+			0,
+			71,
+			0,
+			65,
+			78,
+			42.6,
+			65,
+			127
+		},
+		attrs_growth = {
+			5505,
+			134,
+			670,
+			556,
+			0,
+			354,
+			0,
+			960,
+			1152,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			5495,
+			316,
+			1210,
+			382,
+			0,
+			839,
+			0,
+			-560,
+			-872,
+			0,
+			0,
+			446
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.05
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -60784,6 +63728,482 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {}
+	},
+	[205051] = {
+		oxy_max = 0,
+		type = 5,
+		name = "英王喬治五世",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 205051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS King George V",
+		oxy_cost = 0,
+		skin_id = 205050,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			82,
+			0,
+			49,
+			0,
+			57,
+			0,
+			22,
+			7,
+			28.3,
+			77,
+			0
+		},
+		attrs_growth = {
+			32540,
+			814,
+			0,
+			968,
+			0,
+			286,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KGV"
+		}
+	},
+	[205052] = {
+		oxy_max = 0,
+		type = 5,
+		name = "英王喬治五世",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 205052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS King George V",
+		oxy_cost = 0,
+		skin_id = 205050,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1659,
+			102,
+			0,
+			61,
+			0,
+			57,
+			0,
+			22,
+			7,
+			28.3,
+			77,
+			0
+		},
+		attrs_growth = {
+			32540,
+			814,
+			0,
+			968,
+			0,
+			286,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KGV"
+		}
+	},
+	[205053] = {
+		oxy_max = 0,
+		type = 5,
+		name = "英王喬治五世",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 205053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS King George V",
+		oxy_cost = 0,
+		skin_id = 205050,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2310,
+			143,
+			0,
+			85,
+			0,
+			57,
+			0,
+			22,
+			7,
+			28.3,
+			77,
+			0
+		},
+		attrs_growth = {
+			32540,
+			814,
+			0,
+			968,
+			0,
+			286,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KGV"
+		}
+	},
+	[205054] = {
+		oxy_max = 0,
+		type = 5,
+		name = "英王喬治五世",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 205054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS King George V",
+		oxy_cost = 0,
+		skin_id = 205050,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3286,
+			204,
+			0,
+			122,
+			0,
+			57,
+			0,
+			22,
+			7,
+			28.3,
+			77,
+			0
+		},
+		attrs_growth = {
+			32540,
+			814,
+			0,
+			968,
+			0,
+			286,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18054,
+			871,
+			0,
+			613,
+			0,
+			674,
+			0,
+			240,
+			677,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205061] = {
 		oxy_max = 0,
@@ -97265,6 +100685,482 @@ pg.ship_data_statistics = {
 			"Kongo-Class"
 		}
 	},
+	[304041] = {
+		oxy_max = 0,
+		type = 4,
+		name = "霧島",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 304041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kirishima",
+		oxy_cost = 0,
+		skin_id = 304040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1087,
+			69,
+			0,
+			51,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304042] = {
+		oxy_max = 0,
+		type = 4,
+		name = "霧島",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 304042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kirishima",
+		oxy_cost = 0,
+		skin_id = 304040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1352,
+			86,
+			0,
+			64,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304043] = {
+		oxy_max = 0,
+		type = 4,
+		name = "霧島",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 304043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kirishima",
+		oxy_cost = 0,
+		skin_id = 304040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1882,
+			120,
+			0,
+			89,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304044] = {
+		oxy_max = 0,
+		type = 4,
+		name = "霧島",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 304044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kirishima",
+		oxy_cost = 0,
+		skin_id = 304040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2678,
+			172,
+			0,
+			126,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			19883,
+			1208,
+			0,
+			613,
+			0,
+			691,
+			0,
+			343,
+			681,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
 	[304051] = {
 		oxy_max = 0,
 		type = 4,
@@ -116897,6 +120793,482 @@ pg.ship_data_statistics = {
 			"Z-Class"
 		}
 	},
+	[401361] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z36",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401361,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z36",
+		oxy_cost = 0,
+		skin_id = 401360,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			340,
+			15,
+			84,
+			33,
+			0,
+			77,
+			0,
+			68,
+			59,
+			43.2,
+			36,
+			49
+		},
+		attrs_growth = {
+			8295,
+			152,
+			828,
+			656,
+			0,
+			382,
+			0,
+			1008,
+			870,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401362] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z36",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401362,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z36",
+		oxy_cost = 0,
+		skin_id = 401360,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			423,
+			19,
+			105,
+			41,
+			0,
+			77,
+			0,
+			68,
+			59,
+			43.2,
+			36,
+			61
+		},
+		attrs_growth = {
+			8295,
+			152,
+			828,
+			656,
+			0,
+			382,
+			0,
+			1008,
+			870,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401363] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z36",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401363,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z36",
+		oxy_cost = 0,
+		skin_id = 401360,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			589,
+			26,
+			146,
+			58,
+			0,
+			77,
+			0,
+			68,
+			59,
+			43.2,
+			36,
+			86
+		},
+		attrs_growth = {
+			8295,
+			152,
+			828,
+			656,
+			0,
+			382,
+			0,
+			1008,
+			870,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401364] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z36",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401364,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z36",
+		oxy_cost = 0,
+		skin_id = 401360,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			838,
+			38,
+			208,
+			82,
+			0,
+			77,
+			0,
+			68,
+			59,
+			43.2,
+			36,
+			122
+		},
+		attrs_growth = {
+			8295,
+			152,
+			828,
+			656,
+			0,
+			382,
+			0,
+			1008,
+			870,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			7466,
+			358,
+			1162,
+			439,
+			0,
+			901,
+			0,
+			-591,
+			-608,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
 	[401461] = {
 		oxy_max = 0,
 		type = 1,
@@ -118704,6 +123076,126 @@ pg.ship_data_statistics = {
 		rarity = 2,
 		ammo = 0,
 		id = 402034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Köln",
+		oxy_cost = 0,
+		skin_id = 402030,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1424,
+			70,
+			126,
+			156,
+			0,
+			64,
+			0,
+			51,
+			29,
+			32,
+			62,
+			63
+		},
+		attrs_growth = {
+			14105,
+			278,
+			500,
+			1240,
+			0,
+			320,
+			0,
+			756,
+			432,
+			0,
+			0,
+			250
+		},
+		attrs_growth_extra = {
+			3947,
+			660,
+			1117,
+			574,
+			0,
+			753,
+			0,
+			169,
+			723,
+			0,
+			0,
+			349
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			234
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.55,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[402134] = {
+		oxy_max = 0,
+		type = 2,
+		name = "科隆·改",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 402134,
 		summon_offset = 0,
 		scale = 100,
 		raid_distance = 0,
@@ -122128,6 +126620,482 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {}
+	},
+	[405011] = {
+		oxy_max = 0,
+		type = 5,
+		name = "俾斯麥 ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 405011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Bismarck",
+		oxy_cost = 0,
+		skin_id = 405010,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1456,
+			82,
+			0,
+			39,
+			0,
+			56,
+			0,
+			24,
+			8,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			35515,
+			814,
+			0,
+			756,
+			0,
+			278,
+			0,
+			360,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.8,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Bismarck"
+		}
+	},
+	[405012] = {
+		oxy_max = 0,
+		type = 5,
+		name = "俾斯麥 ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 405012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Bismarck",
+		oxy_cost = 0,
+		skin_id = 405010,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1811,
+			102,
+			0,
+			48,
+			0,
+			56,
+			0,
+			24,
+			8,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			35515,
+			814,
+			0,
+			756,
+			0,
+			278,
+			0,
+			360,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.8,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Bismarck"
+		}
+	},
+	[405013] = {
+		oxy_max = 0,
+		type = 5,
+		name = "俾斯麥 ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 405013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Bismarck",
+		oxy_cost = 0,
+		skin_id = 405010,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2521,
+			143,
+			0,
+			67,
+			0,
+			56,
+			0,
+			24,
+			8,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			35515,
+			814,
+			0,
+			756,
+			0,
+			278,
+			0,
+			360,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.8,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Bismarck"
+		}
+	},
+	[405014] = {
+		oxy_max = 0,
+		type = 5,
+		name = "俾斯麥 ",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 405014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Bismarck",
+		oxy_cost = 0,
+		skin_id = 405010,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3587,
+			204,
+			0,
+			96,
+			0,
+			56,
+			0,
+			24,
+			8,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			35515,
+			814,
+			0,
+			756,
+			0,
+			278,
+			0,
+			360,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			22652,
+			871,
+			0,
+			519,
+			0,
+			660,
+			0,
+			135,
+			475,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.8,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Bismarck"
+		}
 	},
 	[405021] = {
 		oxy_max = 0,
@@ -126464,6 +131432,1942 @@ pg.ship_data_statistics = {
 				{
 					2,
 					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408041] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-556",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		oxy_cost = 10,
+		skin_id = 408040,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			203,
+			7,
+			96,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			45,
+			0
+		},
+		attrs_growth = {
+			4960,
+			74,
+			954,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					3
+				},
+				{
+					2,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408042] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-556",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		oxy_cost = 10,
+		skin_id = 408040,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			253,
+			9,
+			120,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			45,
+			0
+		},
+		attrs_growth = {
+			4960,
+			74,
+			954,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					3
+				},
+				{
+					2,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408043] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-556",
+		huntingrange_level = 2,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		oxy_cost = 10,
+		skin_id = 408040,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			352,
+			13,
+			168,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			45,
+			0
+		},
+		attrs_growth = {
+			4960,
+			74,
+			954,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					3
+				},
+				{
+					2,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408044] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-556",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		oxy_cost = 10,
+		skin_id = 408040,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			501,
+			18,
+			239,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			45,
+			0
+		},
+		attrs_growth = {
+			4960,
+			74,
+			954,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4960,
+			166,
+			1186,
+			0,
+			0,
+			366,
+			0,
+			-1,
+			777,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					3
+				},
+				{
+					2,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408051] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-73",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-73",
+		oxy_cost = 10,
+		skin_id = 408050,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			202,
+			8,
+			101,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			35,
+			0
+		},
+		attrs_growth = {
+			4915,
+			84,
+			996,
+			0,
+			0,
+			154,
+			0,
+			846,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408052] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-73",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-73",
+		oxy_cost = 10,
+		skin_id = 408050,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			251,
+			10,
+			126,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			35,
+			0
+		},
+		attrs_growth = {
+			4915,
+			84,
+			996,
+			0,
+			0,
+			154,
+			0,
+			846,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408053] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-73",
+		huntingrange_level = 2,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-73",
+		oxy_cost = 10,
+		skin_id = 408050,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			349,
+			14,
+			176,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			35,
+			0
+		},
+		attrs_growth = {
+			4915,
+			84,
+			996,
+			0,
+			0,
+			154,
+			0,
+			846,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408054] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-73",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-73",
+		oxy_cost = 10,
+		skin_id = 408050,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			497,
+			21,
+			250,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			35,
+			0
+		},
+		attrs_growth = {
+			4915,
+			84,
+			996,
+			0,
+			0,
+			154,
+			0,
+			846,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4915,
+			194,
+			1244,
+			0,
+			0,
+			364,
+			0,
+			3,
+			777,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
 				}
 			}
 		},
@@ -156694,6 +163598,732 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[900180] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-556",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 900180,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		oxy_cost = 10,
+		skin_id = 900180,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			20,
+			8,
+			96,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			18,
+			0
+		},
+		attrs_growth = {
+			200,
+			82,
+			950,
+			0,
+			0,
+			152,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			20,
+			20,
+			20
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			1,
+			1
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-2,
+					3
+				},
+				{
+					2,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[900181] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-556",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 900181,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		oxy_cost = 10,
+		skin_id = 900181,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			20,
+			8,
+			96,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			18,
+			0
+		},
+		attrs_growth = {
+			200,
+			82,
+			950,
+			0,
+			0,
+			152,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			21,
+			20,
+			20
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			1,
+			1
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-2,
+					3
+				},
+				{
+					2,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[900182] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-556",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 900182,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		oxy_cost = 10,
+		skin_id = 900182,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			20,
+			8,
+			96,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			18,
+			0
+		},
+		attrs_growth = {
+			200,
+			82,
+			950,
+			0,
+			0,
+			152,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			22,
+			20,
+			20
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			1,
+			1
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-2,
+					3
+				},
+				{
+					2,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
 	[900235] = {
 		oxy_max = 0,
 		type = 2,
@@ -156801,6 +164431,712 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900907] = {
+		oxy_max = 0,
+		type = 2,
+		name = "西雅圖",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 900907,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 199010,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			93
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			12200,
+			12200,
+			16450
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900908] = {
+		oxy_max = 0,
+		type = 5,
+		name = "喬治亞",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 900908,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 199020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			14510,
+			11250,
+			16450
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.65,
+			2.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900909] = {
+		oxy_max = 0,
+		type = 1,
+		name = "北風",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 900909,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 399030,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			31050,
+			35250,
+			36710
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900910] = {
+		oxy_max = 0,
+		type = 18,
+		name = "吾妻",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 900910,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 399040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			33110,
+			31050,
+			36710
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.6,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900911] = {
+		oxy_max = 0,
+		type = 5,
+		name = "腓特烈大帝",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 900911,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 499020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			44210,
+			42250,
+			46350
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			2.2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900912] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加斯科涅",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 900912,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 999010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			90450,
+			32250,
+			90610
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.8,
+			2,
+			0.8
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -159788,6 +168124,2830 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[199011] = {
+		oxy_max = 0,
+		type = 2,
+		name = "西雅圖",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		oxy_cost = 0,
+		skin_id = 199010,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			37
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			201
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199012] = {
+		oxy_max = 0,
+		type = 2,
+		name = "西雅圖",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		oxy_cost = 0,
+		skin_id = 199010,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			46
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			202
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199013] = {
+		oxy_max = 0,
+		type = 2,
+		name = "西雅圖",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		oxy_cost = 0,
+		skin_id = 199010,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			65
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			203
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199014] = {
+		oxy_max = 0,
+		type = 2,
+		name = "西雅圖",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		oxy_cost = 0,
+		skin_id = 199010,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			93
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199021] = {
+		oxy_max = 0,
+		type = 5,
+		name = "喬治亞",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Georgia",
+		oxy_cost = 0,
+		skin_id = 199020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199022] = {
+		oxy_max = 0,
+		type = 5,
+		name = "喬治亞",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Georgia",
+		oxy_cost = 0,
+		skin_id = 199020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199023] = {
+		oxy_max = 0,
+		type = 5,
+		name = "喬治亞",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Georgia",
+		oxy_cost = 0,
+		skin_id = 199020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199024] = {
+		oxy_max = 0,
+		type = 5,
+		name = "喬治亞",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Georgia",
+		oxy_cost = 0,
+		skin_id = 199020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399031] = {
+		oxy_max = 0,
+		type = 1,
+		name = "北風",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 399031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kitakaze",
+		oxy_cost = 0,
+		skin_id = 399030,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399032] = {
+		oxy_max = 0,
+		type = 1,
+		name = "北風",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 399032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kitakaze",
+		oxy_cost = 0,
+		skin_id = 399030,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399033] = {
+		oxy_max = 0,
+		type = 1,
+		name = "北風",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 399033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kitakaze",
+		oxy_cost = 0,
+		skin_id = 399030,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399034] = {
+		oxy_max = 0,
+		type = 1,
+		name = "北風",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 399034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kitakaze",
+		oxy_cost = 0,
+		skin_id = 399030,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.35,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399041] = {
+		oxy_max = 0,
+		type = 18,
+		name = "吾妻",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 399041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		oxy_cost = 0,
+		skin_id = 399040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399042] = {
+		oxy_max = 0,
+		type = 18,
+		name = "吾妻",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 399042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		oxy_cost = 0,
+		skin_id = 399040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399043] = {
+		oxy_max = 0,
+		type = 18,
+		name = "吾妻",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 399043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		oxy_cost = 0,
+		skin_id = 399040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.6,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399044] = {
+		oxy_max = 0,
+		type = 18,
+		name = "吾妻",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 399044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		oxy_cost = 0,
+		skin_id = 399040,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			0.6,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499021] = {
+		oxy_max = 0,
+		type = 5,
+		name = "腓特烈大帝",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 499021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		oxy_cost = 0,
+		skin_id = 499020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499022] = {
+		oxy_max = 0,
+		type = 5,
+		name = "腓特烈大帝",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 499022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		oxy_cost = 0,
+		skin_id = 499020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499023] = {
+		oxy_max = 0,
+		type = 5,
+		name = "腓特烈大帝",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 499023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		oxy_cost = 0,
+		skin_id = 499020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499024] = {
+		oxy_max = 0,
+		type = 5,
+		name = "腓特烈大帝",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 499024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		oxy_cost = 0,
+		skin_id = 499020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999011] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加斯科涅",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 999011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		oxy_cost = 0,
+		skin_id = 999010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999012] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加斯科涅",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 999012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		oxy_cost = 0,
+		skin_id = 999010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999013] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加斯科涅",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 999013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		oxy_cost = 0,
+		skin_id = 999010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999014] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加斯科涅",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 999014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		oxy_cost = 0,
+		skin_id = 999010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.7,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	all = {
 		100001,
 		100011,
@@ -159955,6 +171115,7 @@ pg.ship_data_statistics = {
 		102152,
 		102153,
 		102154,
+		102174,
 		102181,
 		102182,
 		102183,
@@ -159987,6 +171148,18 @@ pg.ship_data_statistics = {
 		103072,
 		103073,
 		103074,
+		103081,
+		103082,
+		103083,
+		103084,
+		103091,
+		103092,
+		103093,
+		103094,
+		103101,
+		103102,
+		103103,
+		103104,
 		103111,
 		103112,
 		103113,
@@ -160095,6 +171268,10 @@ pg.ship_data_statistics = {
 		108012,
 		108013,
 		108014,
+		108021,
+		108022,
+		108023,
+		108024,
 		112011,
 		112012,
 		112013,
@@ -160175,6 +171352,10 @@ pg.ship_data_statistics = {
 		201272,
 		201273,
 		201274,
+		201291,
+		201292,
+		201293,
+		201294,
 		202011,
 		202012,
 		202013,
@@ -160300,6 +171481,10 @@ pg.ship_data_statistics = {
 		205042,
 		205043,
 		205044,
+		205051,
+		205052,
+		205053,
+		205054,
 		205061,
 		205062,
 		205063,
@@ -160609,6 +171794,10 @@ pg.ship_data_statistics = {
 		304032,
 		304033,
 		304034,
+		304041,
+		304042,
+		304043,
+		304044,
 		304051,
 		304052,
 		304053,
@@ -160753,6 +171942,10 @@ pg.ship_data_statistics = {
 		401352,
 		401353,
 		401354,
+		401361,
+		401362,
+		401363,
+		401364,
 		401461,
 		401462,
 		401463,
@@ -160769,6 +171962,7 @@ pg.ship_data_statistics = {
 		402032,
 		402033,
 		402034,
+		402134,
 		402041,
 		402042,
 		402043,
@@ -160797,6 +171991,10 @@ pg.ship_data_statistics = {
 		404022,
 		404023,
 		404024,
+		405011,
+		405012,
+		405013,
+		405014,
 		405021,
 		405022,
 		405023,
@@ -160821,6 +172019,14 @@ pg.ship_data_statistics = {
 		408032,
 		408033,
 		408034,
+		408041,
+		408042,
+		408043,
+		408044,
+		408051,
+		408052,
+		408053,
+		408054,
 		408061,
 		408062,
 		408063,
@@ -161067,7 +172273,16 @@ pg.ship_data_statistics = {
 		900176,
 		900177,
 		900178,
+		900180,
+		900181,
+		900182,
 		900235,
+		900907,
+		900908,
+		900909,
+		900910,
+		900911,
+		900912,
 		901001,
 		299011,
 		299012,
@@ -161092,6 +172307,30 @@ pg.ship_data_statistics = {
 		899011,
 		899012,
 		899013,
-		899014
+		899014,
+		199011,
+		199012,
+		199013,
+		199014,
+		199021,
+		199022,
+		199023,
+		199024,
+		399031,
+		399032,
+		399033,
+		399034,
+		399041,
+		399042,
+		399043,
+		399044,
+		499021,
+		499022,
+		499023,
+		499024,
+		999011,
+		999012,
+		999013,
+		999014
 	}
 }

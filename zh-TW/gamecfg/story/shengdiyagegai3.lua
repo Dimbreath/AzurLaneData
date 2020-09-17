@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>三　圣地亚哥、苦恼中？！</size>",
+					"閃耀☆戰鬥之星！\n\n<size=45>三　聖地牙哥、苦惱中？！</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "唔…好像有点明白了，又好像不太明白…",
+			say = "唔…好像有點明白了，又好像不太明白…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所谓的“改造”究竟是什么呢…",
+			say = "所謂的“改造”究竟是什麼呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "不过聪明如圣地亚哥，一定早晚能搞明白的，嗯！",
+			say = "不過聰明如聖地牙哥，一定早晚能搞明白的，嗯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀？在那边的是…",
+			say = "哎呀？在那邊的是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 101319,
 			nameColor = "#a9f548",
-			say = "啊哇哇哇哇！敌、敌袭？！还是地震！？天灾来了！？",
+			say = "啊哇哇哇哇！敵、敵襲？！還是地震！？天災來了！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈哈，是我是我啦，圣地亚哥~",
+			say = "啊哈哈哈，是我是我啦，聖地牙哥~",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么嘛…原来是圣地亚哥啊，吓了我一跳…",
+			say = "什麼嘛…原來是聖地牙哥啊，嚇了我一跳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！尼古拉斯好像也变得不一样了！",
+			say = "啊！尼古拉斯好像也變得不一樣了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼哇~因为我一直都在睡觉嘛…睡着睡着身体就成长啦",
+			say = "呼哇~因為我一直都在睡覺嘛…睡著睡著身體就成長啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "喔喔！多睡觉就能有所成长吗！我记下来了！",
+			say = "喔喔！多睡覺就能有所成長嗎！我記下來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…也不是……算了，解释也好麻烦——",
+			say = "唔…也不是……算了，解釋也好麻煩——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			say = "才不是那样的啦啦啦啦啦！！！",
+			say = "才不是那樣的啦啦啦啦啦！！！",
 			side = 2,
 			actor = 101259,
 			dir = 1,
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			actor = 101259,
 			nameColor = "#a9f548",
-			say = "这边可是历经了千辛万苦，好不容易才完成的“改造”啊！",
+			say = "這邊可是歷經了千辛萬苦，好不容易才完成的“改造”啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要不是想着能为指挥官多出点力…（小声",
+			say = "要不是想著能為指揮官多出點力…（小聲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？哈曼为指挥官做什么？",
+			say = "嗯？哈曼為指揮官做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			actor = 101259,
 			nameColor = "#a9f548",
-			say = "没、没什么啦！总之我想说的就是，改造才没有那么容易呢！要做好心理准备才行啦！",
+			say = "沒、沒什麼啦！總之我想說的就是，改造才沒有那麼容易呢！要做好心理準備才行啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…怎么都好啦，总之让我再多睡一会吧…Zzz",
+			say = "唔…怎麼都好啦，總之讓我再多睡一會吧…Zzz",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "蜕变之路似乎也并不是那么好走，有了心理准备的圣地亚哥，似乎距离“改造”又更进了一步——也许",
+			say = "蛻變之路似乎也並不是那麼好走，有了心理準備的聖地牙哥，似乎距離“改造”又更進了一步——也許",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

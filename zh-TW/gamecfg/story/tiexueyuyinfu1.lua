@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgName = "bg_bsm_4",
 			bgm = "bsm-4",
 			nameColor = "#ffde38",
-			say = "诸君！",
+			say = "諸君！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "铁血必须积聚自己的力量并将它掌握在手里以待有利时机。",
+			say = "鐵血必須積聚自己的力量並將它掌握在手裡以待有利時機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,12 +75,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "然而，这种时机已被错过了好几次…",
+			say = "然而，這種時機已被錯過了好幾次…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "失败只是坚忍的最后考验。",
+			say = "失敗只是堅忍的最後考驗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "真理只在大炮射程之内！",
+			say = "真理只在大炮射程之內！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,12 +123,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "对于不屈不挠的人来说，没有失败这回事。",
+			say = "對於不屈不撓的人來說，沒有失敗這回事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我们的生存空间，不是靠乞求和抗议来实现的。",
+			say = "我們的生存空間，不是靠乞求和抗議來實現的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "而应该是靠铁和血来解决的！",
+			say = "而應該是靠鐵和血來解決的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,12 +171,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "这正是我们曾经所犯的错误…",
+			say = "這正是我們曾經所犯的錯誤…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "——铁血没有别的路可走，唯有奋斗！",
+			say = "——鐵血沒有別的路可走，唯有奮鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_4",
 			dir = 1,
-			actorName = "众人",
+			actorName = "眾人",
 			say = "Eisen und Blut über alles！",
 			effects = {
 				{
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "眾人",
 			side = 2,
 			bgName = "bg_bsm_4",
 			dir = 1,

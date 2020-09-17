@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>四　圣地亚哥、向前进～！</size>",
+					"閃耀☆戰鬥之星！\n\n<size=45>四　聖地牙哥、向前進～！</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "嗯，下一场演习的时间是——嗯？",
+			say = "嗯，下一場演習的時間是——嗯？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "企业大姐头~~！呀吼~~",
+			say = "企業大姐頭~~！呀吼~~",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊，是圣地亚哥么，今天看来也是状态不错的样子",
+			say = "啊，是聖地牙哥嗎，今天看來也是狀態不錯的樣子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿，每天都要保持干劲满满才行呢，不然可是会变成笨蛋的~",
+			say = "欸嘿，每天都要保持幹勁滿滿才行呢，不然可是會變成笨蛋的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…嗯，有精神总是好的",
+			say = "…嗯，有精神總是好的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…怎么了，一直盯着我看？",
+			say = "…怎麼了，一直盯著我看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业大姐头，好像不用“改造”，就有一股很厉害的“气场”呢！",
+			say = "企業大姐頭，好像不用“改造”，就有一股很厲害的“氣場”呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "改造？…是吗，妳想了解改造的意义吗？",
+			say = "改造？…是嗎，妳想了解改造的意義嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，最近看到了好多经历过“改造”的小夥伴呢，虽然不是很明白，但是就突然觉得有些在意起来",
+			say = "嘿嘿，最近看到了好多經歷過“改造”的小夥伴呢，雖然不是很明白，但是就突然覺得有些在意起來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵…真难得，妳居然会这么在意一件事情",
+			say = "呵呵…真難得，妳居然會這麼在意一件事情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过，就我看来，妳只要按妳自己的步调，以妳自己的方式继续走下去就可以了吧",
+			say = "不過，就我看來，妳只要按妳自己的步調，以妳自己的方式繼續走下去就可以了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以我自己的步调吗？",
+			say = "以我自己的步調嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯。这个舰队里有许多个性特点都十分鲜明的同伴，她们也各自有各自的成长方式",
+			say = "嗯。這個艦隊裡有許多個性特點都十分鮮明的同伴，她們也各自有各自的成長方式",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "妳也是一样，只要按着自己的步调走下去，总有一点能达到自己想要的突破的吧",
+			say = "妳也是一樣，只要按著自己的步調走下去，總有一點能達到自己想要的突破的吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喔、喔喔…不知怎么的，总有种被激励了的感觉？！",
+			say = "喔、喔喔…不知怎麼的，總有種被激勵了的感覺？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊啊，从某种意义上来说，妳可是仅次于我的存在，加油吧",
+			say = "啊啊，從某種意義上來說，妳可是僅次於我的存在，加油吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "感觉干劲都涌上来了~！有种立刻就能“变身”的感觉！难道这就是“改造”的感觉吗！？",
+			say = "感覺幹勁都湧上來了~！有種立刻就能“變身”的感覺！難道這就是“改造”的感覺嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "在企业的开导下，终于达成了顿悟（？）的圣地亚哥，改造之日，已经近在咫尺了——也许",
+			say = "在企業的開導下，終於達成了頓悟（？）的聖地亞哥，改造之日，已經近在咫尺了——也許",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

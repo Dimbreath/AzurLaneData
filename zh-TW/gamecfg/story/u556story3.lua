@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"小小的骑士誓言！\n\n<size=45>三　指挥官，找到妳啦！</size>",
+					"小小的騎士誓言！\n\n<size=45>三　指揮官，找到你啦！</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "对，对不起啦……",
+			say = "對，對不起啦……",
 			effects = {
 				{
 					active = true,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "文件我确确实实交给{namecode:98}小姐了！但是，回来的时候，我见到U-81她们在玩……",
+			say = "文件我確確實實交給{namecode:98}小姐了！但是，回來的時候，我見到U-81她們在玩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "然后……我就加入了她们，忘记了还在工作时间中……",
+			say = "然後……我就加入了她們，忘記了還在工作時間中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "下次一定不会再犯这样的错误了！！",
+			say = "下次一定不會再犯這樣的錯誤了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "对了对了！明天是休息日，指挥官也一起来玩嘛！总是工作的话，身体会坏掉的！",
+			say = "對了對了！明天是休息日，指揮官也一起來玩嘛！總是工作的話，身體會壞掉的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "于是在U-556奇怪的道歉兼邀请下，来到了今天U-81举办的捉迷藏大会现场---",
+			say = "於是在U-556奇怪的道歉兼邀請下，來到了今天U-81舉辦的捉迷藏大會現場---",
 			effects = {
 				{
 					active = false,
@@ -140,7 +140,7 @@ return {
 			bgm = "story-1",
 			actor = 408010,
 			nameColor = "#a9f548",
-			say = "那就由抽签来决定第一个做“鬼”的人吧！",
+			say = "那就由抽籤來決定第一個做“鬼”的人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "哼哼，就等着我把妳们都找出来吧！60、59……",
+			say = "哼哼，就等著我把妳們都找出來吧！60、59……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "是时候思考一下藏身之处了。",
+			say = "是時候思考一下藏身之處了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,15 +230,15 @@ return {
 			},
 			options = {
 				{
-					content = "回到指挥官办公室",
+					content = "回到指揮官辦公室",
 					flag = 1
 				},
 				{
-					content = "跟着U-81",
+					content = "跟著U-81",
 					flag = 2
 				},
 				{
-					content = "干脆就藏在U-556的背后",
+					content = "乾脆就藏在U-556的背後",
 					flag = 3
 				}
 			}
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 1,
-			say = "通常不会有人在玩游戏的时候还会想着办公室这种办公场所，那里应该非常安全",
+			say = "通常不會有人在玩遊戲的時候還會想著辦公室這種辦公場所，那裡應該非常安全",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "回到办公室，把门轻轻地关严。虽然规则不允许锁门，不过这样已经足够了。",
+			say = "回到辦公室，把門輕輕地關緊。雖然規則不允許鎖門，不過這樣已經足夠了。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "接下来只要等到时间结束就好。趁这个机会，还能顺便处理一下公文——",
+			say = "接下來只要等到時間結束就好。趁這個機會，還能順便處理一下公文——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！找到妳啦！",
+			say = "指揮官！找到你啦！",
 			effects = {
 				{
 					active = true,
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "失策了…U-556现在是秘书舰啊…",
+			say = "失策了…U-556現在是秘書艦啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 2,
-			say = "U-81是捉迷藏高手，她的藏身之处一定非常隐蔽。",
+			say = "U-81是捉迷藏高手，她的藏身之處一定非常隱蔽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "…………居然是……海里？",
+			say = "…………居然是……海裡？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			optionFlag = 2,
-			say = "身为潜水艇倒也是理所当然…不过再这么犹豫下去的话——",
+			say = "身為潛水艇倒也是理所當然…不過再這麼猶豫下去的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "指挥官！找到妳啦！",
+			say = "指揮官！找到你啦！",
 			effects = {
 				{
 					active = true,
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 3,
-			say = "最危险的地方就是最安全的地方。只要U-556出发去寻找其他人，这里就能马上到达起点，从而率先脱离危险。",
+			say = "最危險的地方就是最安全的地方。只要U-556出發去尋找其他人，這裡就能馬上到達起點，從而率先脫離危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 3,
-			say = "接下来，只要隐藏气息就好……",
+			say = "接下來，只要隱藏氣息就好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			actorName = "U-556",
-			say = "2、1、0！我来找妳们了！",
+			say = "2、1、0！我來找妳們了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			optionFlag = 3,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "指挥官？是以为我看不见吗？",
+			say = "指揮官？是以為我看不見嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
-			say = "不知不觉，第一轮捉迷藏迎来了结束，大家又都聚到一起。",
+			say = "不知不覺，第一輪捉迷藏迎來了結束，大家又都聚到一起。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以说，U-556只找到了指挥官一个人吗？",
+			say = "所以說，U-556只找到了指揮官一個人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "还不是因为妳们都藏在些那么难找的地方啦！",
+			say = "還不是因為妳們都藏在些那麼難找的地方啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我倒是不觉得大浴场的浴槽里是多难被发现的地方……",
+			say = "我倒是不覺得大浴場的浴槽裡是多難被發現的地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "不过，为什么U-556只找到了指挥官呢？而且是一下子就找到了~",
+			say = "不過，為什麼U-556只找到了指揮官呢？而且是一下子就找到了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "难道说，妳们两位的关系已经到了心有灵犀的地步了吗？",
+			say = "難道說，你們兩位的關係已經到了心有靈犀的地步了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "……等会做鬼的时候给妳点厉害尝尝吧",
+			say = "……等會做鬼的時候給妳點厲害嚐嚐吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -37,7 +37,10 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot3 = slot0.taskProxy:getTaskVO(slot0.taskIDList[slot0:findCurTaskIndex()])
+	slot1 = slot0:findCurTaskIndex()
+	slot3 = slot0.taskProxy:getTaskVO(slot0.taskIDList[#slot0.taskIDList]) or Task.New({
+		id = slot2
+	})
 	slot0.curTaskVO = slot3
 	slot4 = slot3:getConfig("award_display")[1]
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>四　Essex vs Enterprise</size>",
+					"前輩與心結\n\n<size=45>四　Essex vs Enterprise</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "演习海域",
+			say = "演習海域",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这就是最后的胜负了，能一路赢过来，不愧是我引以为傲的后辈！",
+			say = "這就是最後的勝負了，能一路贏過來，不愧是我引以為傲的後輩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			say = "前辈才是，总是游刃有余的样子…",
+			say = "前輩才是，總是游刃有餘的樣子…",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次不会再那么轻松了！埃塞克斯现在的实力，前辈就好好看看吧！",
+			say = "這次不會再那麼輕鬆了！艾塞克斯現在的實力，前輩就好好看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论何时我都会全力以赴的，来吧！",
+			say = "無論何時我都會全力以赴的，來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hideOther = true,
-			actorName = "埃塞克斯&企业",
+			actorName = "艾塞克斯&企業",
 			say = "<size=45>哈啊啊啊啊啊！！！</size>",
 			effects = {
 				{
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "哦哦…燃起来了~",
+			say = "哦哦…燃起來了~",
 			effects = {
 				{
 					active = false,
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "偶尔这样也不错呢，呵呵",
+			say = "偶爾這樣也不錯呢，呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 107060,
-			say = "不错！但还是太嫩了！",
+			say = "不錯！但還是太嫩了！",
 			flashN = {
 				color = {
 					1,
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 107090,
-			say = "前辈的攻击我已经预料到了！接下来是我的反击时间！",
+			say = "前輩的攻擊我已經預料到了！接下來是我的反擊時間！",
 			flashN = {
 				color = {
 					1,
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胜负已分！",
+			say = "勝負已分！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，这是…双方同时被“击沉”了",
+			say = "唔，這是…雙方同時被“擊沉”了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平局…吗，这样的结果究竟算是好还是不好呢…",
+			say = "平局…嗎，這樣的結果究竟算是好還是不好呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，妳的实力我确实看到了。呵呵，埃塞克斯，确实变强了呢",
+			say = "不過，妳的實力我確實看到了。呵呵，艾塞克斯，確實變強了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯？",
+			say = "艾塞克斯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的结果，不是我想要的…（小声）",
+			say = "這樣的結果，不是我想要的…（小聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起，我有点累了，先回去休息了",
+			say = "對不起，我有點累了，先回去休息了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "埃塞克斯的样子似乎有点奇怪…",
+			say = "艾塞克斯的樣子似乎有點奇怪…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

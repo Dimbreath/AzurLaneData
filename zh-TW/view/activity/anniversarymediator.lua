@@ -12,7 +12,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.SUBMIT_TASK, slot1)
 	end)
 
-	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID)
+	slot2 = getProxy(ActivityProxy):getActivityById(pg.activity_const.ANNIVERSARY_TASK_LIST_ID.act_id)
 
 	slot0.viewComponent:setActivity(slot2)
 	slot0:acceptTask(slot2)

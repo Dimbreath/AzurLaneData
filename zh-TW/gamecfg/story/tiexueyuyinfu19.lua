@@ -13,7 +13,7 @@ return {
 			bgm = "echo-loop",
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "距离信号源越来越近了…这些残骸难道是？",
+			say = "距離訊號源越來越近了…這些殘骸難道是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "不好，果然是俾斯麦姐姐遭遇了危机！！",
+			say = "不好，果然是俾斯麥姐姐遭遇了危機！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "水下骑士U-556，马力全开！",
+			say = "水下騎士U-556，馬力全開！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "等着我，俾斯麦姐姐！",
+			say = "等著我，俾斯麥姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "等着我，我一定会守护妳的！！",
+			say = "等著我，我一定會守護妳的！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>在涅普顿之前起誓</size>",
+					"<size=60>在涅普頓之前起誓</size>",
 					1.5
 				},
 				{
@@ -148,7 +148,7 @@ return {
 					1.5
 				},
 				{
-					"<size=60>无论在海洋、湖泊、河流还是小溪</size>",
+					"<size=60>無論在海洋、湖泊、河流還是小溪</size>",
 					4.5
 				},
 				{
@@ -156,7 +156,7 @@ return {
 					4.5
 				},
 				{
-					"<size=60>U-556都将帮助她的姐姐俾斯麦击退所有飞机和鱼雷的攻击</size>",
+					"<size=60>U-556都將幫助她的姐姐俾斯麥擊退所有飛機和魚雷的攻擊</size>",
 					7.5
 				},
 				{
@@ -164,7 +164,7 @@ return {
 					7.5
 				},
 				{
-					"<size=60>无论在任何地方，如果俾斯麦姐姐不幸受伤</size>",
+					"<size=60>無論在任何地方，如果俾斯麥姐姐不幸受傷</size>",
 					10.5
 				},
 				{
@@ -180,7 +180,7 @@ return {
 					13.5
 				},
 				{
-					"<size=60>                                                         ——水下骑士U-556</size>",
+					"<size=60>                                                         ——水下騎士U-556</size>",
 					18
 				}
 			}

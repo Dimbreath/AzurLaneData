@@ -209,5 +209,15 @@ return {
 				return getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")) and slot2.id == 7 and slot2.count > 0
 			end
 		end
+	},
+	{
+		banner = "anniversary",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.ANNIVERSARY
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(pg.activity_const.ANNIVERSARY_TASK_LIST_ID.act_id) and not slot0:isEnd()
+		end
 	}
 }

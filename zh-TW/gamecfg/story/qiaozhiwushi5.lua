@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>五　领导者课程</size>",
+					"另一個領導者？\n\n<size=45>五　領導者課程</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "是的，乔治妳总是太耀眼了，导致会连陛下的光芒盖过",
+			say = "是的，喬治妳總是太耀眼了，導致會連陛下的光芒蓋過",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我们皇家也有像威尔士和约克那样的很个性的孩子吧……",
+			say = "雖然我們皇家也有像威爾斯和約克那樣很有個性的孩子吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			say = "有个性还是很好的。嗯",
+			say = "有個性還是很好的。嗯",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是妳的个性——也就是“领袖魅力”，如果不注意收敛，有时候可是会给陛下添麻烦的",
+			say = "但是妳的個性——也就是“領袖魅力”，如果不注意收斂，有時候可是會給陛下添麻煩的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "也就是说……",
+			say = "也就是說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，从指挥官和其他阵营那边看来……",
+			say = "沒錯，從指揮官和其他陣營那邊看來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳和陛下在作为领导者方面很容易产生“重叠”呢…",
+			say = "妳和陛下在作為領導者方面很容易產生“重疊”呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "一瞬间，气氛似乎变得肃杀（？）了起来。",
+			say = "一瞬間，氣氛似乎變得肅殺（？）了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在皇家内部，大家都知道乔治五世妳是怎样的人，知道妳没有那么大的野心，妳只是天生如此。",
+			say = "在皇家內部，大家都知道喬治五世妳是怎樣的人，知道妳沒有那麼大的野心，妳只是天生如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是现在，如果感到疑问的不是指挥官，而是{namecode:74}和俾斯麦，甚至是北方联合的阿芙乐尔的话——",
+			say = "但是現在，如果感到疑問的不是指揮官，而是{namecode:74}和俾斯麥，甚至是北方聯合的曙光的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们产生什么样的联想，出现什么样的后果就另当别论了",
+			say = "她們產生什麼樣的聯想，出現什麼樣的後果就另當別論了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这种话由妳一说听起来可有点吓人啊……",
+			say = "……這種話由妳一說聽起來可有點嚇人啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "（原、原来是这么严重的问题吗……）",
+			say = "（原、原來是這麼嚴重的問題嗎……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgm = "story-1",
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "呵呵，当然是开玩笑了。只不过，为了要解决我们指挥官的疑虑，这里只能——",
+			say = "呵呵，當然是開玩笑了。只不過，為了要解決我們指揮官的疑慮，這裡只能——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "胡德从座位上站起来，侧身到一旁，朝着厨房的威尔士和这边分别优雅的行了一个礼",
+			say = "胡德從座位上站起來，側身到一旁，朝著廚房的威爾斯和這邊分別優雅的行了一個禮",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让指挥官多了解一点妳才行呢。乔治五世",
+			say = "讓指揮官多了解一點妳才行呢。喬治五世",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "这种了解，不应该是旁观，也不应该仅从指挥官与秘书舰的关系来进行",
+			say = "這種了解，不應該是旁觀，也不應該僅從指揮官與秘書艦的關係來進行",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			},
 			options = {
 				{
-					content = "也就是说……",
+					content = "也就是說……",
 					flag = 1
 				}
 			}
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我大概明白是什么了",
+			say = "嗯，我大概明白是什麼了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，没错，乔治，这里需要妳给指挥官展示一点妳的“弱点”呢",
+			say = "呵呵呵，沒錯，喬治，這裡需要妳給指揮官展示一點妳的“弱點”呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "乔治五世的弱点——",
+			say = "喬治五世的弱點——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			blackBg = true,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "指挥官，能拜托妳为乔治做饭吗？",
+			say = "指揮官，能拜託你為喬治做飯嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

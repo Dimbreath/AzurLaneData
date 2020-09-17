@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>二　所谓个性…</size>",
+					"另一個領導者？\n\n<size=45>二　所謂個性…</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "港區·廣場",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳是想问，那个女人，为什么那么害怕我们共同的姐姐，乔治五世？",
+			say = "妳是想問，那個女人，為什麼那麼害怕我們共同的姐姐，喬治五世？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			withoutActorName = true,
 			actor = 205060,
 			nameColor = "#a9f548",
-			say = "出于一点好奇，和威尔士亲王提起了这件事。",
+			say = "出於一點好奇，和威爾斯親王提起了這件事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			withoutActorName = true,
 			actor = 205060,
 			nameColor = "#a9f548",
-			say = "平日不苟言笑的威尔士亲王，不知为何，笑了起来。",
+			say = "平日不苟言笑的威爾斯親王，不知為何，笑了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢……对那个女人来说，姐姐应该算是她的天敌吧。",
+			say = "是呢……對那個女人來說，姐姐應該算是她的天敵吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,23 +131,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
-			say = "……天敌？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205060,
-			side = 2,
-			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "因为她的强大之处和“独占”相反，是“立于上位之人的博爱”",
+			say = "……天敵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +147,23 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好，指挥官，看那边——",
+			say = "因為她的強大之處和“獨占”相反，是“立於上位之人的博愛”",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205060,
+			side = 2,
+			bgName = "star_level_bg_113",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "正好，指揮官，看那邊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 105130,
 			nameColor = "#a9f548",
-			say = "我说，姐姐，妳还在在意个性的事吗？？",
+			say = "我說，姐姐，妳還在在意個性的事嗎？？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，在没有人承认我的个性之前，我是不会放弃的~",
+			say = "嗯，在沒有人承認我的個性之前，我是不會放棄的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐妳这个是想太多了……",
+			say = "姐姐妳這個是想太多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			actorName = "？？？",
-			say = "没错！",
+			say = "沒錯！",
 			effects = {
 				{
 					active = true,
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 105130,
 			nameColor = "#a9f548",
-			say = "妳是……皇家的乔治五世？！",
+			say = "妳是……皇家的喬治五世？！",
 			effects = {
 				{
 					active = false,
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉插入妳们的对话。正如华盛顿小姐所说，没有个性，寻找个性，这正是北卡罗莱纳小姐妳的个性。",
+			say = "抱歉插入妳們的對話。正如華盛頓小姐所說，沒有個性，尋找個性，這正是北卡羅來納小姐妳的個性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "妳的个性，应该是建立在妳自己承认自己的基础之上",
+			say = "妳的個性，應該是建立在妳自己承認自己的基礎之上",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是……这样的个性又有谁会承认呢……",
+			say = "但是……這樣的個性又有誰會承認呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "我来承认！",
+			say = "我來承認！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "有什么疑问吗？如果妳的个性需要他人承认的话，我来承认就好",
+			say = "有什麼疑問嗎？如果妳的個性需要他人承認的話，我來承認就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，舒展妳紧皱的眉头，露出笑容吧，那样更适合妳。",
+			say = "所以，舒展妳緊皺的眉頭，露出笑容吧，那樣更適合妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			actor = 105130,
 			nameColor = "#a9f548",
-			say = "……（努力憋着不笑出来）",
+			say = "……（努力憋著不笑出來）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好像妳这么一说我心里就舒服多了呢！谢谢妳！",
+			say = "好、好像妳這麼一說我心裡就舒服多了呢！謝謝妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如妳所见，指挥官，她就是这样的人。",
+			say = "如妳所見，指揮官，她就是這樣的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如同太阳一般堂堂正正，无论好坏永远坚持贯彻自我的领导魅力……",
+			say = "如同太陽一般堂堂正正，無論好壞永遠堅持貫徹自我的領導魅力……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对约克来说，这个姐姐，可算是她最应付不来的对象了。",
+			say = "對約克來說，這個姐姐，可算是她最應付不來的對象了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_113",
 			dir = 1,
 			blackBg = true,
-			say = "……似乎能理解威尔士想说的是什么了。",
+			say = "……似乎能理解威爾斯想說的是什麼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

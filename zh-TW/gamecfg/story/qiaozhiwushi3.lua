@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>三　女王陛下</size>",
+					"另一個領導者？\n\n<size=45>三　女王陛下</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·皇家宿舍",
+			say = "港區·皇家宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "某日，路过皇家宿舍的时候，忽然听到里面传来怒吼。",
+			say = "某日，路過皇家宿舍的時候，忽然聽到裡面傳來怒吼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actorName = "？？？",
-			say = "这是什么啊，乔治！",
+			say = "這是什麼啊，喬治！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "似乎是伊丽莎白正在大发雷霆的样子，而对象似乎是……乔治五世？",
+			say = "似乎是伊莉莎白正在大發雷霆的樣子，而對象似乎是……喬治五世？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "过去看看吧。",
+			say = "過去看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "star_level_bg_107",
 			side = 2,
 			dir = 1,
-			say = "餐厅中，伊丽莎白正在对着一盘鲜红的料理不停地吐着舌头。",
+			say = "餐廳中，伊莉莎白正在對著一盤鮮紅的料理不停地吐著舌頭。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "这这这、这是什么东西啊，怎么会这么辣！妳不是说不辣的吗！",
+			say = "這這這、這是什麼東西啊，怎麼會這麼辣！妳不是說不辣的嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "水，贝尔法斯特，快给本王水！",
+			say = "水，貝爾法斯特，快給本王水！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "陛下，这道菜是我问东煌的同僚们学来的，叫做麻婆豆腐。",
+			say = "陛下，這道菜是我問東煌的同僚們學來的，叫做麻婆豆腐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们向我介绍的时候是说“习惯了就不辣”的，这点应该跟陛下说过了吧……？",
+			say = "她們向我介紹的時候是說“習慣了就不辣”的，這點應該跟陛下說過了吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "虽然好像是这么回事……",
+			say = "雖然好像是這麼回事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶……虽然很辣……但是居然还有点好吃……",
+			say = "可惡……雖然很辣……但是居然還有點好吃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			withoutActorName = true,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "伊丽莎白接过水后，一口喝下，然后继续与面前的麻婆豆腐奋战起来。",
+			say = "伊莉莎白接過水後，一口喝下，然後繼續與面前的麻婆豆腐奮戰起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，我还从其他阵营那里学了不少有趣的菜式。",
+			say = "陛下，我還從其他陣營那裡學了不少有趣的菜式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳……呼，辣死本王了……不过，本王要一个一个尝试过去！",
+			say = "咳咳……呼，辣死本王了……不過，本王要一個一個嘗試過去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "没问题~",
+			say = "沒問題~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "哦？指挥官，妳也来了……妳看到刚才了吗？",
+			say = "哦？指揮官，你也來了……你看到剛才了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "點頭",
 					flag = 1
 				}
 			}
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "呵呵，不过是一点兴趣而已。“人是铁饭是钢”——我听说东洋有这么一句谚语",
+			say = "呵呵，不過是一點興趣而已。“人是鐵飯是鋼”——我聽說東洋有這麼一句諺語",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，即使是普通的用来填饱肚子料理……做的美味一点也无妨吧？",
+			say = "不過，即使是普通的用來填飽肚子料理……做的美味一點也無妨吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "就在那时，对陛下的忠臣之心和料理人之魂（？）——在乔治五世的伟岸的背影后茫茫闪烁着",
+			say = "就在那時，對陛下的忠臣之心和料理人之魂（？）——在喬治五世偉岸的背影後茫茫閃爍著",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

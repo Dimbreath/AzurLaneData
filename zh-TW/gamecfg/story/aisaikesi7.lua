@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>七　与妳一起的日常</size>",
+					"前輩與心結\n\n<size=45>七　與你一起的日常</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，傢俱进货单已经确认无误了，只要盖个章就好了。",
+			say = "指揮官，傢俱進貨單已經確認無誤了，只要蓋個章就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "科研费用清单整理好了？正好和那边的清单核对一下……",
+			say = "科研費用清單整理好了？正好和那邊的清單核對一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "舰队的事情虽然纷繁复杂，但在和埃塞克斯两人的配合下，许多事情都变得简单起来。",
+			say = "艦隊的事情雖然紛繁複雜，但在和艾塞克斯兩人的配合下，許多事情都變得簡單起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！今天也是状态绝佳！",
+			say = "嗯！今天也是狀態絕佳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "……有人敲门吗？请进！",
+			say = "……有人敲門嗎？請進！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			say = "打扰了。",
+			say = "打擾了。",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "啊，前辈！有什么事情吗？",
+			say = "啊，前輩！有什麼事情嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想拿一份昨天的委托单，有些东西想确认一下。",
+			say = "我想拿一份昨天的委託單，有些東西想確認一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "请稍等…指挥官，委托单好像在妳手旁的那堆文件里。",
+			say = "請稍等…指揮官，委託單好像在你手旁的那堆文件裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			},
 			options = {
 				{
-					content = "将委托单递给企业",
+					content = "將委託單遞給企業",
 					flag = 1
 				}
 			}
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢。",
+			say = "謝謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			say = "…呵呵，埃塞克斯有点变了呢，和指挥官之间的默契也越来越好了",
+			say = "…呵呵，艾塞克斯有點變了呢，和指揮官之間的默契也越來越好了",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "我的变化吗？",
+			say = "我的變化嗎？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "也许是和指挥官待在一起久了吧。从成为秘书舰起，无论是训练还是和其他人的交流，指挥官都帮了我很多呢…",
+			say = "也許是和指揮官待在一起久了吧。從成為秘書艦起，無論是訓練還是和其他人的交流，指揮官都幫了我很多呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			},
 			options = {
 				{
-					content = "从埃塞克斯那里也得到了许多帮助",
+					content = "從艾塞克斯那裡也得到了許多幫助",
 					flag = 1
 				}
 			}
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "我也和指挥官，变得越来越亲密了呢……",
+			say = "我也和指揮官，變得越來越親密了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "指挥官，其实我——",
+			say = "指揮官，其實我——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			}
 		},
 		{
-			say = "（推门）那个，还有件事忘了说——",
+			say = "（推門）那個，還有件事忘了說——",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "埃塞克斯的表情，不知为何看起来有些可怕。还保持着推门动作的企业则显得有些尴尬。",
+			say = "艾塞克斯的表情，不知為何看起來有些可怕。還保持著推門動作的企業則顯得有些尷尬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，啊哈哈，抱歉，打扰了呢。",
+			say = "啊，啊哈哈，抱歉，打擾了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "怎么说呢，日常总是会有点小插曲的…吧？",
+			say = "怎麼說呢，日常總是會有點小插曲的…吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

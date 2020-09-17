@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"理科实验时间！\n\n<size=45>五　科学，永无止境</size>",
+					"理科實驗時間！\n\n<size=45>五　科學，永無止境</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "哇……这里就是{namecode:37}和{namecode:98}的实验室吗……",
+			say = "哇……這裡就是{namecode:37}和{namecode:98}的實驗室嗎……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好气派……",
+			say = "好氣派……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U-73，和{namecode:37}，已经开始了……",
+			say = "U-73，和{namecode:37}，已經開始了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			nameColor = "#a9f548",
-			say = "听好了，妳从一开始就选错了成分，所以才会变成那样，妳看看这样呢？",
+			say = "聽好了，妳從一開始就選錯了成份，所以才會變成那樣，妳看看這樣呢？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "原、原来如此！",
+			say = "原、原來如此！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后，我们这样，再这样，接着这样，最后那样……",
+			say = "然後，我們這樣，再這樣，接著這樣，最後那樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "居然还有这样的操作……",
+			say = "居然還有這樣的操作……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "…………一段时间后",
+			say = "…………一段時間後",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这是！圣诞节的拐杖糖鱼雷！",
+			say = "這、這是！聖誕節的拐杖糖魚雷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 101170,
 			nameColor = "#a9f548",
-			say = "啊呜……原来，真的能吃……",
+			say = "啊嗚……原來，真的能吃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "请、请让我叫妳老师吧！{namecode:37}老师！",
+			say = "請、請讓我叫妳老師吧！{namecode:37}老師！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "师父就算啦～不过呢，科学的道路是十分广阔的！U-73，",
+			say = "老師就算啦～不過呢，科學的道路是十分廣闊的！U-73，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然妳选择了这条道路，那就继续努力吧，U-73！",
+			say = "既然妳選擇了這條道路，那就繼續努力吧，U-73！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有什么问题，欢迎来问我哦，这间实验室随时对妳开放~",
+			say = "如果有什麼問題，歡迎來問我哦，這間實驗室隨時對妳開放~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喔！我会努力的！！",
+			say = "喔！我會努力的！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…感觉，U-73比起平时摆姐姐的架子，还是现在这样更适合她呢~",
+			say = "啊哈哈…感覺，U-73比起平時擺姐姐的架子，還是現在這樣更適合她呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "教室…就那样放着没问题？",
+			say = "教室…就那樣放著沒問題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下午科隆应该还要用到那间教室来着…？",
+			say = "下午科隆應該還要用到那間教室來著…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "啊…啊哈哈哈，糟了，忘记收拾好了再过来了…",
+			say = "啊…啊哈哈哈，糟了，忘記收拾好了再過來了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actorName = "科隆",
-			say = "(远处传来的声音)是谁把教室弄成这样了啊啊啊啊！！！！",
+			say = "(遠處傳來的聲音)是誰把教室弄成這樣了啊啊啊啊！！！！",
 			effects = {
 				{
 					active = true,
@@ -453,7 +453,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "得到了优秀的老师启发的U-73，距离科学之路，大概还有一段距离——",
+			say = "得到了優秀的老師啟發的U-73，距離科學之路，大概還有一段距離——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

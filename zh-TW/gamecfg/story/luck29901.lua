@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下就算是告一段落了呢，呵呵～一直以来辛苦妳了哟，指挥官？",
+			say = "這下就算是告一段落了呢，呵呵～一直以來辛苦你了喲，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，是不是觉得可以松一口气的呢～？我们还有一段旅程需要共同进行下去呢～",
+			say = "嘻嘻，是不是覺得可以鬆一口氣了呢～？我們還有一段旅程需要共同進行下去呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么样？现在的心情是觉得很遗憾～还是很幸运呢？",
+			say = "怎麼樣？現在的心情是覺得很遺憾～還是很幸運呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺便一提，我可是觉得很幸运的哟？好啦，就让我们再一起努力一段时间吧～",
+			say = "順便一提，我可是覺得很幸運的喲？好啦，就讓我們再一起努力一段時間吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

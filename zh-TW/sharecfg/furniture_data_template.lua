@@ -1043,6 +1043,42 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[111] = {
+		advice = 0,
+		describe = "起舞徘徊風露下，今夕不知何夕",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "玉兔·醉月夕",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "zhongqiuguahuaicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 111,
+		picture = "chuanmo/zhongqiuguahua",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[112] = {
 		advice = 0,
 		describe = "遺落在塞壬的試驗場中，由“紅染的參訪者”們回收的陳舊勳章，經過處理後，贈予部分在作戰中做出傑出貢獻的指揮官。彷彿能從中感受到重櫻眾人的信念與意志\n\t\t\t<color=#fad545>——紀念參與特殊作戰中獲得的最高榮譽</color>",
@@ -1320,6 +1356,358 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[130] = {
+		advice = 0,
+		describe = "咳～咳～咳～台下的诸位辛苦了",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "发言台",
+		is_get_time_note = 1,
+		rarity = 2,
+		gain_by = "",
+		themeId = 0,
+		icon = "fayantaiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 130,
+		picture = "chuanmo/fayantai",
+		comfortable = 2,
+		tag = 6,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-31,
+					10
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/fayantai"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[131] = {
+		advice = 0,
+		describe = "车子是用来乘坐的，不可以偷吃哦！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "糖果小车",
+		is_get_time_note = 1,
+		rarity = 3,
+		gain_by = "",
+		themeId = 0,
+		icon = "cheznicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 131,
+		picture = "chuanmo/faxixunzhang",
+		comfortable = 3,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guoqingdangaocheB",
+				"normal"
+			},
+			{
+				"guoqingdangaocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				20,
+				120
+			},
+			{
+				-1,
+				1
+			},
+			0.7
+		},
+		animator = {
+			{
+				"guoqingdangaocheCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[132] = {
+		advice = 0,
+		describe = "呀哈哈哈～好高好高～～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "漂浮气球",
+		is_get_time_note = 1,
+		rarity = 3,
+		gain_by = "",
+		themeId = 0,
+		icon = "qiqiuznicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 132,
+		picture = "chuanmo/faxixunzhang",
+		comfortable = 3,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guoqingqiqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				-30,
+				-70
+			},
+			{
+				-1,
+				1
+			}
+		},
+		animator = {
+			{
+				"guoqingqiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[133] = {
+		advice = 0,
+		describe = "為了慶祝一週年而準備的紀念舞台，從今往後的每個週年都請多指教喵！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "祭典舞台",
+		is_get_time_note = 1,
+		rarity = 3,
+		gain_by = "",
+		themeId = 0,
+		icon = "wutaiznicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 133,
+		picture = "chuanmo/faxixunzhang",
+		comfortable = 3,
+		tag = 6,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiJP",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				50,
+				-85
+			}
+		},
+		interAction_group = {}
+	},
+	[134] = {
+		advice = 0,
+		describe = "飄忽~飄忽~稍微有點累了啊~",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "捲紙妖怪",
+		is_get_time_note = 1,
+		rarity = 2,
+		gain_by = "",
+		themeId = 0,
+		icon = "yaoguaiznicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 134,
+		picture = "chuanmo/faxixunzhang",
+		comfortable = 2,
+		tag = 6,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"juanzhiguai",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[135] = {
+		advice = 0,
+		describe = "這個是…鑽石的氣息喵！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "鑽石「回收」箱",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 0,
+		icon = "maoxiangjpicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 135,
+		picture = "",
+		comfortable = 3,
+		tag = 6,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"akashibox",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[140] = {
 		advice = 0,
 		describe = "某座城池的微縮模型，製作得十分精巧，可以感受到重櫻的歷史感——紀念參與《蒼紅的迴響》特殊作戰中獲得的最高榮譽",
@@ -1455,6 +1843,42 @@ pg.furniture_data_template = {
 				"liyuCharControl",
 				"liyuCharControl2"
 			}
+		},
+		interAction_group = {}
+	},
+	[145] = {
+		advice = 0,
+		describe = "台上擺放著自戰場回收的遺落之物，象徵著鐵血的執著、榮耀、與不屈的意志",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血紀念台",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "鐵血、音符與誓言 ",
+		themeId = 0,
+		icon = "bsmxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 145,
+		picture = "chuanmo/bsmxunzhang",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -28922,6 +29346,1404 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[29001] = {
+		advice = 0,
+		describe = "水底的世界同樣精彩繽紛",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "深海牆壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 29,
+		icon = "qiangbihyicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29001,
+		picture = "haiyang/qiangbihy",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29002] = {
+		advice = 0,
+		describe = "海底的地面會倒映出水光嗎",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "深海地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 29,
+		icon = "dibanhyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29002,
+		picture = "haiyang/dibanhy",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29101] = {
+		advice = 0,
+		describe = "孕育了超大珍珠的床鋪，睡上去感覺如何呢",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "貝殼床鋪",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "beikehyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29101,
+		picture = "haiyang/beikehy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-47,
+					-20
+				},
+				{
+					-1,
+					1
+				},
+				"haiyang/beikehy_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29102] = {
+		advice = 0,
+		describe = "水母床鋪？這又是個什麼構造呢",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水母床鋪",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "chuanghyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29102,
+		picture = "haiyang/chuanghy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-55,
+					84
+				},
+				{
+					1,
+					1
+				},
+				"haiyang/chuanghy_using"
+			},
+			{
+				"sleep",
+				{
+					15,
+					34
+				},
+				{
+					1,
+					1
+				},
+				"haiyang/chuanghy_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29103] = {
+		advice = 0,
+		describe = "大大的海螺座椅，不要鑽進去哦",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "海螺座椅",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "dengzi2hyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29103,
+		picture = "haiyang/dengzi2hy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-41,
+					-41
+				},
+				{
+					-1,
+					1
+				},
+				"haiyang/dengzi2hy_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29104] = {
+		advice = 0,
+		describe = "將貝殼打磨成光滑的平面真是不容易啊",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "貝殼座凳",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "dengzihyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29104,
+		picture = "haiyang/dengzihy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-9,
+					53
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29105] = {
+		advice = 0,
+		describe = "海星形狀的粉紅色地毯",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "海星地毯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "ditan1hyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29105,
+		picture = "haiyang/ditan1hy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29106] = {
+		advice = 0,
+		describe = "海底的沙子都會是軟軟的嗎",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "沙子地毯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "ditan2hyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29106,
+		picture = "haiyang/ditan2hy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29107] = {
+		advice = 0,
+		describe = "綴掛了珍珠的屏風",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "綴珠屏風",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "gelanhyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29107,
+		picture = "haiyang/gelanhy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29108] = {
+		advice = 0,
+		describe = "哇哇哇！吞進去了！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "海葵",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "haikuihyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29108,
+		picture = "haiyang/haikuihy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-2,
+					-102
+				},
+				{
+					-1,
+					1
+				},
+				"haiyang/haikuihy_using",
+				0,
+				{
+					{
+						4.82,
+						300
+					},
+					{
+						908,
+						602
+					},
+					"haiyang/haikuihy_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29109] = {
+		advice = 0,
+		describe = "這個海螺會發光耶！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "發光海螺",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "hailuohyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29109,
+		picture = "haiyang/hailuohy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29110] = {
+		advice = 0,
+		describe = "駕！啊？這不是馬嗎",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "海馬座騎",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "haimahyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29110,
+		picture = "haiyang/haimahy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					29,
+					40
+				},
+				{
+					1,
+					1
+				},
+				"haiyang/haimahy_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29111] = {
+		advice = 0,
+		describe = "這個不會噴發的，不用害怕哦",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "海底火山",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "huoshanhyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29111,
+		picture = "haiyang/huoshanhy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29112] = {
+		advice = 0,
+		describe = "珍珠般晶瑩的氣泡",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "珍珠氣泡",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "pao1hyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29112,
+		picture = "haiyang/pao1hy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29113] = {
+		advice = 0,
+		describe = "漂浮的水泡坐凳，蹦啊蹦啊",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水泡坐凳",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "pao2hyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29113,
+		picture = "haiyang/pao2hy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3,
+					85
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29114] = {
+		advice = 0,
+		describe = "大大的水泡，很舒適的泡澡",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水泡浴",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "pao3hyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29114,
+		picture = "haiyang/pao3hy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					1.1,
+					-53.8
+				},
+				{
+					1,
+					1
+				},
+				"haiyang/pao3hy_using",
+				0,
+				{
+					{
+						-5,
+						227
+					},
+					{
+						414,
+						252
+					},
+					"haiyang/pao3hy_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29115] = {
+		advice = 0,
+		describe = "裝有海星海螺的裝飾用氣泡",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "裝飾用氣泡",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "paopaohyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29115,
+		picture = "haiyang/paopaohy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29116] = {
+		advice = 0,
+		describe = "大大的貝殼沙發（實際上是用特殊材料製作）",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "貝殼狀沙發",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "shafahyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 29116,
+		picture = "haiyang/shafahy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					75,
+					36
+				},
+				{
+					1,
+					1
+				},
+				"haiyang/shafahy_using"
+			},
+			{
+				"sit",
+				{
+					-13,
+					-11
+				},
+				{
+					1,
+					1
+				},
+				"haiyang/shafahy_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29117] = {
+		advice = 0,
+		describe = "海底常見的珊瑚",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "海底珊瑚",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "shanhuhyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29117,
+		picture = "haiyang/shanhuhy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29118] = {
+		advice = 0,
+		describe = "深海常見的石頭塊",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "深海石塊",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "shitouhyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29118,
+		picture = "haiyang/shitouhy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29119] = {
+		advice = 0,
+		describe = "珊瑚加石板組成的桌子",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "珊瑚桌子",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "zhuozi2hyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29119,
+		picture = "haiyang/zhuozi2hy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			3
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29120] = {
+		advice = 0,
+		describe = "一整塊岩石形成的天然桌子",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "海底岩石桌",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 29,
+		icon = "zhuozihyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29120,
+		picture = "haiyang/zhuozihy",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			3
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29121] = {
+		advice = 0,
+		describe = "搖擺的海草！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "海草屏風",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "haicaohyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29121,
+		picture = "haiyang/haicaohy",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29122] = {
+		advice = 0,
+		describe = "深海泉水泡泡浴缸！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "深海浴缸",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 29,
+		icon = "yuganghyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29122,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenhaiyugangB",
+				"normal"
+			},
+			{
+				"shenhaiyugangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				-30,
+				-179
+			}
+		},
+		interAction_group = {}
+	},
+	[29123] = {
+		advice = 0,
+		describe = "我會吐泡泡！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "章魚沙發",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 29,
+		icon = "zhangyuhticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29123,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhangyuB",
+				"normal"
+			},
+			{
+				"zhangyuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				12.3,
+				41.7
+			}
+		},
+		interAction_group = {}
+	},
+	[29124] = {
+		advice = 0,
+		describe = "晃晃悠悠和蹦蹦跳跳。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水母蹦床",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 29,
+		icon = "shuimuhyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29124,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuimubengchuang",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			},
+			[6] = {
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"shuimubengchuangCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[29201] = {
+		advice = 0,
+		describe = "可食用的螺類",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "食用螺",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 29,
+		icon = "luohyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29201,
+		picture = "haiyang/luohy",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29202] = {
+		advice = 0,
+		describe = "壽司！最愛壽司！",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "壽司",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 29,
+		icon = "shousihyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29202,
+		picture = "haiyang/shousihy",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29301] = {
+		advice = 0,
+		describe = "不知道從哪裡找到的船舵，掛在牆上做裝飾用",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "船舵掛飾",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "chuanduohyicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29301,
+		picture = "haiyang/chuanduohy",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[29302] = {
+		advice = 0,
+		describe = "透明牆壁上真的有必要裝上窗戶嗎？",
+		count = 4,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "貝殼形窗戶",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 29,
+		icon = "chuanghuhyicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 29302,
+		picture = "haiyang/chuanghuhy",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[30001] = {
 		advice = 0,
 		describe = "七彩色牆壁，夢幻至極",
@@ -39953,6 +41775,1854 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[45001] = {
+		advice = 0,
+		describe = "側耳聆聽吧，由鐵血奏響的這曲美妙樂章——",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血樂章·地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 45,
+		icon = "dibanbsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45001,
+		picture = "bsm/dibanbsm",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45002] = {
+		advice = 0,
+		describe = "側耳聆聽吧，由鐵血奏響的這曲美妙樂章——",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血樂章·壁紙",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 45,
+		icon = "qiangbibsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45002,
+		picture = "bsm/qiangbibsm",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45101] = {
+		advice = 0,
+		describe = "老舊的播放器，究竟還能不能用呢…",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "播放器",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "bofangqibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45101,
+		picture = "bsm/bofangqibsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45102] = {
+		advice = 0,
+		describe = "造型簡約的落地檯燈",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "落地燈",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "dengbsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45102,
+		picture = "bsm/dengbsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45103] = {
+		advice = 0,
+		describe = "觸感似乎很舒服的絨毛地毯",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "絨毛地毯(小)",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 45,
+		icon = "ditan2bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45103,
+		picture = "bsm/ditan2bsm",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45104] = {
+		advice = 0,
+		describe = "觸感似乎很舒服的絨毛地毯",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "絨毛地毯(大)",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 45,
+		icon = "ditan3bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45104,
+		picture = "bsm/ditan3bsm",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			7,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45105] = {
+		advice = 0,
+		describe = "繡有精緻紋章的紅色地毯",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "紅色紋章地毯",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 45,
+		icon = "ditanbsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45105,
+		picture = "bsm/ditanbsm",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45106] = {
+		advice = 0,
+		describe = "都是非常珍貴的收藏品喲！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "玻璃收藏櫃",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "guizi2bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45106,
+		picture = "bsm/guizi2bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45107] = {
+		advice = 0,
+		describe = "吹響號角吧！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "展示櫃",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "guizi3bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45107,
+		picture = "bsm/guizi3bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45108] = {
+		advice = 0,
+		describe = "小心不要把檯燈弄掉了呢",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "燈櫃",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "guizi4bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45108,
+		picture = "bsm/guizi4bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45109] = {
+		advice = 0,
+		describe = "鞋子要整齊地擺進鞋櫃裡，這才是鐵血風範！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "木質鞋櫃",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "guizi5bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45109,
+		picture = "bsm/guizi5bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45110] = {
+		advice = 0,
+		describe = "似乎可以放很多唱片呢",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "唱片櫃",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "guizibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45110,
+		picture = "bsm/guizibsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45111] = {
+		advice = 0,
+		describe = "一、二，音樂起！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾奏樂隊",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "ji2bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45111,
+		picture = "bsm/ji2bsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45112] = {
+		advice = 0,
+		describe = "抬頭！挺胸！收腹！敬禮！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾禮儀兵",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "jibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45112,
+		picture = "bsm/jibsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45113] = {
+		advice = 0,
+		describe = "放入一張黑膠唱片，讓心情回到美好的舊時光吧",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "經典唱片機",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "jiqibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45113,
+		picture = "bsm/jiqibsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45114] = {
+		advice = 0,
+		describe = "看上去就很重的鎧甲，碰倒了大概會很慘吧",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鎧甲",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "kaijiabsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45114,
+		picture = "bsm/kaijiabsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45115] = {
+		advice = 0,
+		describe = "上下樓梯的時候要注意控制速度喲，掉下來就不好了",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "旋轉樓梯",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 45,
+		icon = "loutibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45115,
+		picture = "bsm/loutibsm",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45116] = {
+		advice = 0,
+		describe = "似乎能發出非常優雅而美妙的琴聲呢",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血鋼琴",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "qingbsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45116,
+		picture = "bsm/qingbsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45117] = {
+		advice = 0,
+		describe = "持劍的胡桃鉗玩偶",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "胡桃鉗(劍)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "renou1bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45117,
+		picture = "bsm/renou1bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45118] = {
+		advice = 0,
+		describe = "持槍的胡桃鉗玩偶",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "胡桃鉗(槍)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "renou2bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45118,
+		picture = "bsm/renou2bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45119] = {
+		advice = 0,
+		describe = "散發著懷舊氣息的復古書架",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "復古書架",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "shujiabsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45119,
+		picture = "bsm/shujiabsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45120] = {
+		advice = 0,
+		describe = "代表著鐵血的鋼鐵意志和堅韌精神",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "武器掛架",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "wuqibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45120,
+		picture = "bsm/wuqibsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45121] = {
+		advice = 0,
+		describe = "稍微坐下來休息下吧",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "軟矮凳",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "yizi2bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 45121,
+		picture = "bsm/yizi2bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					44
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45122] = {
+		advice = 0,
+		describe = "質地舒適的單人座椅",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "軟墊座椅",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "yizi3bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 45122,
+		picture = "bsm/yizi3bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-23,
+					17
+				},
+				{
+					-1,
+					1
+				},
+				"bsm/yizi3bsm_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45123] = {
+		advice = 0,
+		describe = "質地很好的辦公椅，感覺坐上去工作效率都能提高個幾成",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "辦公椅",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "yizi4bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 45123,
+		picture = "bsm/yizi4bsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-38,
+					5
+				},
+				{
+					-1,
+					1
+				},
+				"bsm/yizi4bsm_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45124] = {
+		advice = 0,
+		describe = "好，來彈一首激昂的鋼琴曲吧！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鋼琴坐凳",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "yizibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 45124,
+		picture = "bsm/yizibsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13,
+					78
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45125] = {
+		advice = 0,
+		describe = "看點綠色保養一下眼睛吧",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "植物盆栽",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "zhiwubsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45125,
+		picture = "bsm/zhiwubsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45126] = {
+		advice = 0,
+		describe = "可以擺點小東西的小圓桌",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小圓桌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "zhuozi2bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45126,
+		picture = "bsm/zhuozi2bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45127] = {
+		advice = 0,
+		describe = "工作累了就喝杯茶休息下好了",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "木質小茶几",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "zhuozi3bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45127,
+		picture = "bsm/zhuozi3bsm",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45128] = {
+		advice = 0,
+		describe = "似乎還缺了一瓶好酒呢",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "黑色置酒桌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "zhuozi4bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45128,
+		picture = "bsm/zhuozi4bsm",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {
+			0,
+			31.8
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45129] = {
+		advice = 0,
+		describe = "下一個需要敲定的議程是——",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血辦公桌",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 45,
+		icon = "zhuozi5bsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45129,
+		picture = "bsm/zhuozi5bsm",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45130] = {
+		advice = 0,
+		describe = "堆滿了書籍紙張的書桌，看來是沒有時間整理了",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "雜物書桌",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 45,
+		icon = "zhuozibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45130,
+		picture = "bsm/zhuozibsm",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45131] = {
+		advice = 0,
+		describe = "燃燒的蠟燭烘托出懷舊而優雅的氛圍",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血燭台",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 45,
+		icon = "zhutaibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45131,
+		picture = "bsm/zhutaibsm",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45132] = {
+		advice = 0,
+		describe = "造型氣派的座椅，不過感覺要坐上去也需要一點勇氣…",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血王座",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 45,
+		icon = "zuobsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 45132,
+		picture = "bsm/zuobsm",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-16,
+					22
+				},
+				{
+					-1,
+					1
+				},
+				"bsm/zuobsm_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45133] = {
+		advice = 0,
+		describe = "來一場激情澎湃的演講吧！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血演講台",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 45,
+		icon = "jiangtaibsmicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45133,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"BSMjiangtaiB",
+				"normal"
+			},
+			{
+				"BSMjiangtaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"BSMjiangtai",
+						nil,
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					405010
+				},
+				"BSMjiangtai",
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"BSMjiangtaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[45201] = {
+		advice = 0,
+		describe = "散發著柔和光芒的檯燈",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "檯燈",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "deng2bsmicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45201,
+		picture = "bsm/deng2bsm",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45202] = {
+		advice = 0,
+		describe = "開瓶酒慶祝一下吧～",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "冰鎮美酒",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "jiubsmicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45202,
+		picture = "bsm/jiubsm",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45203] = {
+		advice = 0,
+		describe = "感受到鐵血的氣場了嗎？",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "鐵血石膏像",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 45,
+		icon = "xiangbsmicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45203,
+		picture = "bsm/xiangbsm",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45301] = {
+		advice = 0,
+		describe = "附帶黑色窗簾的玻璃窗戶",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "窗戶",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "chuangbsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45301,
+		picture = "bsm/chuangbsm",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45302] = {
+		advice = 0,
+		describe = "散發著柔和光芒的壁燈",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "壁燈",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "deng3bsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45302,
+		picture = "bsm/deng3bsm",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45303] = {
+		advice = 0,
+		describe = "把珍藏的照片裝進去然後擺到桌上吧～",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "相框組合",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "guahuabsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45303,
+		picture = "bsm/guahuabsm",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45304] = {
+		advice = 0,
+		describe = "十字造型的掛件，可以掛在牆上",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "十字掛件",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "guajiabsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45304,
+		picture = "bsm/guajiabsm",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45305] = {
+		advice = 0,
+		describe = "造型華麗的掛件，可以掛在牆上",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "華麗十字掛件",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "guashibsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45305,
+		picture = "bsm/guashibsm",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45306] = {
+		advice = 0,
+		describe = "很有鐵血設計風格的藝術掛畫",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "藝術畫",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "huabsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45306,
+		picture = "bsm/huabsm",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45307] = {
+		advice = 0,
+		describe = "造型華麗的門框，推開門以後也許是另一片新天地？",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "華麗門框",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 45,
+		icon = "menbsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45307,
+		picture = "bsm/menbsm",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45308] = {
+		advice = 0,
+		describe = "可以掛在牆上的長條旗幟",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "旗幟",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "qibsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45308,
+		picture = "bsm/qibsm",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45309] = {
+		advice = 0,
+		describe = "相框內放有俾斯麥的相片，散露出她英姿颯爽的一面。",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "黑白相框",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "xiangkuangbsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45309,
+		picture = "bsm/xiangkuangbsm",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[45310] = {
+		advice = 0,
+		describe = "進門後把外套掛到衣架上吧",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "木質衣架",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 45,
+		icon = "yifubsmicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 45310,
+		picture = "bsm/yifubsm",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[49001] = {
 		advice = 0,
 		describe = "加油開始新一天的工作吧！",
@@ -42241,6 +45911,7 @@ pg.furniture_data_template = {
 		107,
 		108,
 		109,
+		111,
 		112,
 		117,
 		119,
@@ -42248,8 +45919,15 @@ pg.furniture_data_template = {
 		123,
 		124,
 		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
 		140,
 		143,
+		145,
 		149,
 		150,
 		152,
@@ -42880,6 +46558,36 @@ pg.furniture_data_template = {
 		28305,
 		28306,
 		28307,
+		29001,
+		29002,
+		29101,
+		29102,
+		29103,
+		29104,
+		29105,
+		29106,
+		29107,
+		29108,
+		29109,
+		29110,
+		29111,
+		29112,
+		29113,
+		29114,
+		29115,
+		29116,
+		29117,
+		29118,
+		29119,
+		29120,
+		29121,
+		29122,
+		29123,
+		29124,
+		29201,
+		29202,
+		29301,
+		29302,
 		30001,
 		30002,
 		30101,
@@ -43137,6 +46845,54 @@ pg.furniture_data_template = {
 		44123,
 		44301,
 		44302,
+		45001,
+		45002,
+		45101,
+		45102,
+		45103,
+		45104,
+		45105,
+		45106,
+		45107,
+		45108,
+		45109,
+		45110,
+		45111,
+		45112,
+		45113,
+		45114,
+		45115,
+		45116,
+		45117,
+		45118,
+		45119,
+		45120,
+		45121,
+		45122,
+		45123,
+		45124,
+		45125,
+		45126,
+		45127,
+		45128,
+		45129,
+		45130,
+		45131,
+		45132,
+		45133,
+		45201,
+		45202,
+		45203,
+		45301,
+		45302,
+		45303,
+		45304,
+		45305,
+		45306,
+		45307,
+		45308,
+		45309,
+		45310,
 		49001,
 		49002,
 		49101,

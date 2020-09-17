@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "终于进入可以面对面的距离了",
+			say = "終於進入可以面對面的距離了",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "当时妳就是用这个武器把胡德击败的，在这个距离上",
+			say = "當時妳就是用這個武器把胡德擊敗的，在這個距離上",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			expression = 1,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "我没说错吧，俾斯麦",
+			say = "我沒說錯吧，俾斯麥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，我们就在这个距离上击败妳，击败妳这个失去荣耀的狂信徒！",
+			say = "那麼，我們就在這個距離上擊敗妳，擊敗妳這個失去榮耀的狂信徒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			say = "荣耀…么",
+			say = "榮耀…嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
 			actor = 205050,
-			say = "皇家舰队，逢敌必战，开火！",
+			say = "皇家艦隊，逢敵必戰，開火！",
 			flashN = {
 				color = {
 					1,
@@ -167,7 +167,7 @@ return {
 		},
 		{
 			seDelay = 1.3,
-			say = "轰————",
+			say = "轟————",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
