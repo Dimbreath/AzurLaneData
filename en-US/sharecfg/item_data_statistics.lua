@@ -6293,11 +6293,11 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[30041] = {
-		display = "Contains 1 piece of Common Ironblood faction gear:\nContains Common gear\nMay combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#60a9ff>T2 Ironblood Tech Pack</color>",
+		display = "Contains 1 piece of Common Iron Blood faction gear:\nContains Common gear\nMay combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#60a9ff>T2 Iron Blood Tech Pack</color>",
 		rarity = 1,
 		type = 5,
 		drop_oil_max = 0,
-		name = "T1 Ironblood Tech Pack",
+		name = "T1 Iron Blood Tech Pack",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -6315,14 +6315,14 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	},
 	[30042] = {
 		display = [[
-May contain 1 piece of Rare Ironblood faction gear:
+May contain 1 piece of Rare Iron Blood faction gear:
 Low chance to receive <color=#60a9ff>Rare gear</color>
 High chance to receive Common gear
-May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#966af6>T3 Ironblood Tech Pack</color>]],
+May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#966af6>T3 Iron Blood Tech Pack</color>]],
 		rarity = 2,
 		type = 5,
 		drop_oil_max = 0,
-		name = "T2 Ironblood Tech Pack",
+		name = "T2 Iron Blood Tech Pack",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -6339,11 +6339,11 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[30043] = {
-		display = "May contain 1 piece of Elite Ironblood faction gear:\nLow chance to receive <color=#966af6>Elite gear</color>\nHigh chance to receive <color=#60a9ff>Rare gear</color>",
+		display = "May contain 1 piece of Elite Iron Blood faction gear:\nLow chance to receive <color=#966af6>Elite gear</color>\nHigh chance to receive <color=#60a9ff>Rare gear</color>",
 		rarity = 3,
 		type = 5,
 		drop_oil_max = 0,
-		name = "T3 Ironblood Tech Pack",
+		name = "T3 Iron Blood Tech Pack",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -6360,11 +6360,11 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[30044] = {
-		display = "May contain 1 piece of Super Rare Ironblood faction gear:\nLow chance to receive <color=#fff157>Super Rare gear</color>\nHigh chance to receive <color=#966af6>Elite gear</color>",
+		display = "May contain 1 piece of Super Rare Iron Blood faction gear:\nLow chance to receive <color=#fff157>Super Rare gear</color>\nHigh chance to receive <color=#966af6>Elite gear</color>",
 		rarity = 4,
 		type = 5,
 		drop_oil_max = 0,
-		name = "T4 Ironblood Tech Pack",
+		name = "T4 Iron Blood Tech Pack",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -6381,11 +6381,11 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[30045] = {
-		display = "Contains 1 piece of Super Rare Ironblood faction gear:\nGuaranteed to receive <color=#fff157>Super Rare gear</color>",
+		display = "Contains 1 piece of Super Rare Iron Blood faction gear:\nGuaranteed to receive <color=#fff157>Super Rare gear</color>",
 		rarity = 5,
 		type = 5,
 		drop_oil_max = 0,
-		name = "T5 Ironblood Tech Pack",
+		name = "T5 Iron Blood Tech Pack",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -94428,6 +94428,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59180] = {
+		display = "Used to exchange for the \"Illusory Butterfly\" portrait frame. Will be removed after the event ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Training Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59180,
+		icon = "Props/xunliandianshu_s",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 		rarity = 2,
@@ -102697,6 +102715,7 @@ The available outfits and their rarities are as follows:
 		59173,
 		59174,
 		59175,
+		59180,
 		59601,
 		59602,
 		59603,

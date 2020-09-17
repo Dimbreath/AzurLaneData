@@ -4229,9 +4229,9 @@ Tips:
 5. All Out Assaults deal increased damage to enemies during this Daily Challenge.
 6. You can't change to another Submarine to control immediately after Diving or Resurfacing.
 
-Escort Cargo is available on Mondays, Thursdays, and Sundays.
+Escort Mission is available on Mondays, Thursdays, and Sundays.
 
-Maritime Attack is available on Tuesdays, Fridays, and Sundays.
+Advance Mission is available on Tuesdays, Fridays, and Sundays.
 
 Fierce Assault is available on Wednesdays, Saturdays, and Sundays.
 

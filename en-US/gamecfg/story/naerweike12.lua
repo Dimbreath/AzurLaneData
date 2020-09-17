@@ -265,7 +265,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "Right. It's a date.",
+			say = "Yes. It's a date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

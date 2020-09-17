@@ -185,7 +185,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "As you all know, Glowworm encountered Admiral Hipper the day before yesterday, discovering the enemy fleet bound for Narvik. And we, together with Renown, did battle with the Scharnhorst Sisters near Narvik just yesterday... This may be a very challenging",
+			say = "As you all know, Glowworm encountered Admiral Hipper the day before yesterday, discovering the enemy fleet bound for Narvik. And we, together with Renown, did battle with the Scharnhorst Sisters near Narvik just yesterday... This may be a very challenging mission",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

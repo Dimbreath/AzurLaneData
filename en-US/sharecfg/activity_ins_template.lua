@@ -4,16 +4,17 @@ pg.activity_ins_template = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		message_persist = "ins_1",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/chicheng_1%24Ikb5FUtHpU%5EtPE5bY%5Emz%40xnNrO%40hzuA.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/chicheng_1%24Ikb5FUtHpU%5EtPE5bY%5Emz%40xnNrO%40hzuA.png",
 		is_active = 0,
 		sculpture = "chicheng_idol",
 		id = 1,
 		group_id = 1,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				2,
+				13
 			},
 			{
 				21,
@@ -31,16 +32,17 @@ pg.activity_ins_template = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		message_persist = "ins_5",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/jiasikenie_1LsNhpq%40tglef%237JCOvYB38v%5E%40XBbvDk.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/jiasikenie_1LsNhpq%40tglef%237JCOvYB38v%5E%40XBbvDk.png",
 		is_active = 0,
 		sculpture = "jiasikenie_idol",
 		id = 2,
 		group_id = 2,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				1
+				2020,
+				2,
+				14
 			},
 			{
 				10,
@@ -57,16 +59,17 @@ pg.activity_ins_template = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		message_persist = "ins_6",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/jiasikenie_2F%2101zalZ0K%21U0nRat%2315mgbJa5gelLh.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/jiasikenie_2F%2101zalZ0K%21U0nRat%2315mgbJa5gelLh.png",
 		is_active = 0,
 		sculpture = "jiasikenie_idol",
 		id = 3,
 		group_id = 3,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				1
+				2020,
+				2,
+				14
 			},
 			{
 				16,
@@ -83,16 +86,17 @@ pg.activity_ins_template = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		message_persist = "ins_9",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/kelifulan_1Efu&mlduqfJKp2kvywwaepFfZW@@Jin3.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/kelifulan_1Efu&mlduqfJKp2kvywwaepFfZW@@Jin3.png",
 		is_active = 0,
 		sculpture = "kelifulan_idol",
 		id = 4,
 		group_id = 4,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				2
+				2020,
+				2,
+				15
 			},
 			{
 				12,
@@ -111,16 +115,17 @@ pg.activity_ins_template = {
 		ship_group = 20208,
 		name = "ShiningS",
 		message_persist = "ins_14",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_2P0uX42A1e25%25O%26podT%263%25%21%404U2%24S4EE.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/xiefei_2P0uX42A1e25%25O%26podT%263%25%21%404U2%24S4EE.png",
 		is_active = 0,
 		sculpture = "xiefeierde_idol",
 		id = 5,
 		group_id = 5,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				2
+				2020,
+				2,
+				15
 			},
 			{
 				21,
@@ -137,16 +142,17 @@ pg.activity_ins_template = {
 		ship_group = 40301,
 		name = "R-Guitarist",
 		message_persist = "ins_17",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xipeier_1Oox7BqPy1sI7t6GtYatuP%5E%26o2Vq3i%23Pw.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/xipeier_1Oox7BqPy1sI7t6GtYatuP%5E%26o2Vq3i%23Pw.png",
 		is_active = 0,
 		sculpture = "xipeier_idol",
 		id = 6,
 		group_id = 6,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				3
+				2020,
+				2,
+				16
 			},
 			{
 				9,
@@ -164,16 +170,17 @@ pg.activity_ins_template = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		message_persist = "ins_4",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/chicheng_4k9dI6MllpODb2hSLdTUyalNE!!fr&o5.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/chicheng_4k9dI6MllpODb2hSLdTUyalNE!!fr&o5.png",
 		is_active = 0,
 		sculpture = "chicheng_idol",
 		id = 7,
 		group_id = 7,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				3
+				2020,
+				2,
+				16
 			},
 			{
 				18,
@@ -192,16 +199,17 @@ pg.activity_ins_template = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		message_persist = "ins_11",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/kelifulan_3tUYCDA%23WVTO26OVvD6Jk%5EuEYUMxWPpIB.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/kelifulan_3tUYCDA%23WVTO26OVvD6Jk%5EuEYUMxWPpIB.png",
 		is_active = 0,
 		sculpture = "kelifulan_idol",
 		id = 8,
 		group_id = 8,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				4
+				2020,
+				2,
+				17
 			},
 			{
 				10,
@@ -219,16 +227,17 @@ pg.activity_ins_template = {
 		ship_group = 20208,
 		name = "ShiningS",
 		message_persist = "ins_16",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_4OX%40mjJoN8Ia009k5s%40OQBcALiSM%23k0S%5E.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/xiefei_4OX%40mjJoN8Ia009k5s%40OQBcALiSM%23k0S%5E.png",
 		is_active = 0,
 		sculpture = "xiefeierde_idol",
 		id = 9,
 		group_id = 9,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				4
+				2020,
+				2,
+				17
 			},
 			{
 				19,
@@ -245,16 +254,17 @@ pg.activity_ins_template = {
 		ship_group = 40301,
 		name = "R-Guitarist",
 		message_persist = "ins_20",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xipeier_4a%24k4fBrEbml6dXVa2vv8A3%40WTD9Zo%23i.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/xipeier_4a%24k4fBrEbml6dXVa2vv8A3%40WTD9Zo%23i.png",
 		is_active = 0,
 		sculpture = "xipeier_idol",
 		id = 10,
 		group_id = 10,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				5
+				2020,
+				2,
+				18
 			},
 			{
 				13,
@@ -272,16 +282,17 @@ pg.activity_ins_template = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		message_persist = "ins_7",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/jiasikenie_3VwehZxC%26KS9Zjq2%23xkiRSm3CXD14x8H%25.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/jiasikenie_3VwehZxC%26KS9Zjq2%23xkiRSm3CXD14x8H%25.png",
 		is_active = 0,
 		sculpture = "jiasikenie_idol",
 		id = 11,
 		group_id = 11,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				5
+				2020,
+				2,
+				18
 			},
 			{
 				20,
@@ -299,16 +310,17 @@ pg.activity_ins_template = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		message_persist = "ins_2",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/chicheng_2hOFxAlh%23MCLPr5zZuIqpyNedqgVEBg.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/chicheng_2hOFxAlh%23MCLPr5zZuIqpyNedqgVEBg.png",
 		is_active = 0,
 		sculpture = "chicheng_idol",
 		id = 12,
 		group_id = 12,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				6
+				2020,
+				2,
+				19
 			},
 			{
 				9,
@@ -326,16 +338,17 @@ pg.activity_ins_template = {
 		ship_group = 40301,
 		name = "R-Guitarist",
 		message_persist = "ins_18",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xipeier_2QPCv2gIt%26%40AP%23vHP%23PV%5ESMQX4ouLr6Mb.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/xipeier_2QPCv2gIt%26%40AP%23vHP%23PV%5ESMQX4ouLr6Mb.png",
 		is_active = 0,
 		sculpture = "xipeier_idol",
 		id = 13,
 		group_id = 13,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				6
+				2020,
+				2,
+				19
 			},
 			{
 				19,
@@ -353,16 +366,17 @@ pg.activity_ins_template = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		message_persist = "ins_10",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/kelifulan_2RrkxyWvs%23o5OAyX%23Fsm0b4S9XJb9lm8H.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/kelifulan_2RrkxyWvs%23o5OAyX%23Fsm0b4S9XJb9lm8H.png",
 		is_active = 0,
 		sculpture = "kelifulan_idol",
 		id = 14,
 		group_id = 14,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				7
+				2020,
+				2,
+				20
 			},
 			{
 				9,
@@ -380,16 +394,17 @@ pg.activity_ins_template = {
 		ship_group = 20208,
 		name = "ShiningS",
 		message_persist = "ins_13",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_1NNeEr1KRnuITsR2%25BUKM%25CA16udaN5r.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/xiefei_1NNeEr1KRnuITsR2%25BUKM%25CA16udaN5r.png",
 		is_active = 0,
 		sculpture = "xiefeierde_idol",
 		id = 15,
 		group_id = 15,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				7
+				2020,
+				2,
+				20
 			},
 			{
 				15,
@@ -406,16 +421,17 @@ pg.activity_ins_template = {
 		ship_group = 40301,
 		name = "R-Guitarist",
 		message_persist = "ins_19",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xipeier_3rziwQ&WVGLRxGec!3A2wwnSZy!rC$p6R.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/xipeier_3rziwQ&WVGLRxGec!3A2wwnSZy!rC$p6R.png",
 		is_active = 0,
 		sculpture = "xipeier_idol",
 		id = 16,
 		group_id = 16,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				8
+				2020,
+				2,
+				21
 			},
 			{
 				10,
@@ -432,16 +448,17 @@ pg.activity_ins_template = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		message_persist = "ins_12",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/kelifulan_4e29txW1%23pD84lb5%5ERu%24ivuxpkUuyOPBq.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/kelifulan_4e29txW1%23pD84lb5%5ERu%24ivuxpkUuyOPBq.png",
 		is_active = 0,
 		sculpture = "kelifulan_idol",
 		id = 17,
 		group_id = 17,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				8
+				2020,
+				2,
+				21
 			},
 			{
 				17,
@@ -459,16 +476,17 @@ pg.activity_ins_template = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		message_persist = "ins_8",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/jiasikenie_4krcKK@NO3kn5V6ptv2t0oBaW!qM9fON.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/jiasikenie_4krcKK@NO3kn5V6ptv2t0oBaW!qM9fON.png",
 		is_active = 0,
 		sculpture = "jiasikenie_idol",
 		id = 18,
 		group_id = 18,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				9
+				2020,
+				2,
+				22
 			},
 			{
 				8,
@@ -486,16 +504,17 @@ pg.activity_ins_template = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		message_persist = "ins_3",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/chicheng_3OX%213sNFSrkL%23kMU%23%26Pwkaia646i64fe.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/chicheng_3OX%213sNFSrkL%23kMU%23%26Pwkaia646i64fe.png",
 		is_active = 0,
 		sculpture = "chicheng_idol",
 		id = 19,
 		group_id = 19,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				9
+				2020,
+				2,
+				22
 			},
 			{
 				14,
@@ -512,16 +531,17 @@ pg.activity_ins_template = {
 		ship_group = 20208,
 		name = "ShiningS",
 		message_persist = "ins_15",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
 		is_active = 0,
 		sculpture = "xiefeierde_idol",
 		id = 20,
 		group_id = 20,
+		order = 1,
 		time_persist = {
 			{
-				2019,
-				11,
-				10
+				2020,
+				2,
+				23
 			},
 			{
 				20,
@@ -539,11 +559,12 @@ pg.activity_ins_template = {
 		ship_group = 30514,
 		name = "S8u6r6ug8A",
 		message_persist = "ins_36",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/suruga_7niQ944V4hxflukW.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/suruga_7niQ944V4hxflukW.png",
 		is_active = 0,
 		sculpture = "junhe_5",
 		id = 21,
 		group_id = 21,
+		order = 2,
 		time_persist = {
 			{
 				2019,
@@ -565,11 +586,12 @@ pg.activity_ins_template = {
 		ship_group = 30505,
 		name = "SakuraCombinedFleet",
 		message_persist = "ins_21",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/nagato_1R9NzvGecaGI5IYf.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/nagato_1R9NzvGecaGI5IYf.png",
 		is_active = 0,
 		sculpture = "changmen_3",
 		id = 22,
 		group_id = 22,
+		order = 2,
 		time_persist = {
 			{
 				2019,
@@ -592,11 +614,12 @@ pg.activity_ins_template = {
 		ship_group = 30105,
 		name = "AYANAMIN",
 		message_persist = "ins_24",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/ayanami_BHbKqTYu042Hvurn.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/ayanami_BHbKqTYu042Hvurn.png",
 		is_active = 0,
 		sculpture = "lingbo_8",
 		id = 23,
 		group_id = 23,
+		order = 2,
 		time_persist = {
 			{
 				2019,
@@ -618,11 +641,12 @@ pg.activity_ins_template = {
 		ship_group = 30110,
 		name = "HibikiChannel",
 		message_persist = "ins_33",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/hibiki_krugPEDnApP1oKfe.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/hibiki_krugPEDnApP1oKfe.png",
 		is_active = 0,
 		sculpture = "xiang_2",
 		id = 24,
 		group_id = 24,
+		order = 2,
 		time_persist = {
 			{
 				2019,
@@ -644,11 +668,12 @@ pg.activity_ins_template = {
 		ship_group = 30221,
 		name = "Nshiro",
 		message_persist = "ins_30",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/noshiro_69MS72GrXUaHrKxN.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/noshiro_69MS72GrXUaHrKxN.png",
 		is_active = 0,
 		sculpture = "nengdai_2",
 		id = 25,
 		group_id = 25,
+		order = 2,
 		time_persist = {
 			{
 				2019,
@@ -671,11 +696,12 @@ pg.activity_ins_template = {
 		ship_group = 20603,
 		name = "UnicornI72",
 		message_persist = "ins_28",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/unicorn_VdJjO0BckrLlNbFW.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/unicorn_VdJjO0BckrLlNbFW.png",
 		is_active = 0,
 		sculpture = "dujiaoshou_5",
 		id = 26,
 		group_id = 26,
+		order = 2,
 		time_persist = {
 			{
 				2019,
@@ -697,11 +723,12 @@ pg.activity_ins_template = {
 		ship_group = 49902,
 		name = "SymphonicStigma",
 		message_persist = "ins_25",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/friedrich_fvY4LFN7XsKePSTl.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/friedrich_fvY4LFN7XsKePSTl.png",
 		is_active = 0,
 		sculpture = "feiteliedadi_2",
 		id = 27,
 		group_id = 27,
+		order = 2,
 		time_persist = {
 			{
 				2019,
@@ -725,11 +752,12 @@ pg.activity_ins_template = {
 		ship_group = 30505,
 		name = "SakuraCombinedFleet",
 		message_persist = "ins_22",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/nagato2_L5QfbheHVoTBDVe1.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/nagato2_L5QfbheHVoTBDVe1.png",
 		is_active = 0,
 		sculpture = "changmen_3",
 		id = 28,
 		group_id = 28,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -750,11 +778,12 @@ pg.activity_ins_template = {
 		ship_group = 30404,
 		name = "KirinnKS",
 		message_persist = "ins_23",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/kirijima_DAmnxVtFtYya5DN9.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/kirijima_DAmnxVtFtYya5DN9.png",
 		is_active = 0,
 		sculpture = "wudao_4",
 		id = 29,
 		group_id = 29,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -776,11 +805,12 @@ pg.activity_ins_template = {
 		ship_group = 30607,
 		name = "PhoenixWhale",
 		message_persist = "ins_26",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/ryuuhou_IQYm4Jsq6Nt7gn89.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/ryuuhou_IQYm4Jsq6Nt7gn89.png",
 		is_active = 0,
 		sculpture = "longfeng_2",
 		id = 30,
 		group_id = 30,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -803,11 +833,12 @@ pg.activity_ins_template = {
 		ship_group = 40135,
 		name = "Funf♡3536",
 		message_persist = "ins_27",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/Z35_wREOYZC6LofFrEMS.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/Z35_wREOYZC6LofFrEMS.png",
 		is_active = 0,
 		sculpture = "z35_2",
 		id = 31,
 		group_id = 31,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -829,11 +860,12 @@ pg.activity_ins_template = {
 		ship_group = 30181,
 		name = "fuwarin1118",
 		message_persist = "ins_37",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/kasumi_1JUNbfhhbjyqMlwY.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/kasumi_1JUNbfhhbjyqMlwY.png",
 		is_active = 0,
 		sculpture = "xia_2",
 		id = 32,
 		group_id = 32,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -855,11 +887,12 @@ pg.activity_ins_template = {
 		ship_group = 30208,
 		name = "RageofONI",
 		message_persist = "ins_34",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/onioko_eCP1Ai3H7ACBWTAY.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/onioko_eCP1Ai3H7ACBWTAY.png",
 		is_active = 0,
 		sculpture = "guinu_2",
 		id = 33,
 		group_id = 33,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -881,11 +914,12 @@ pg.activity_ins_template = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		message_persist = "ins_35",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/Cleveland_QtFUxl3RNyBbF5Ck.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/Cleveland_QtFUxl3RNyBbF5Ck.png",
 		is_active = 0,
 		sculpture = "kelifulan_5",
 		id = 34,
 		group_id = 34,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -907,11 +941,12 @@ pg.activity_ins_template = {
 		ship_group = 20603,
 		name = "UnicornI72",
 		message_persist = "ins_29",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/unicorn_jZLC8BqI7mok6Spf.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/unicorn_jZLC8BqI7mok6Spf.png",
 		is_active = 0,
 		sculpture = "dujiaoshou_5",
 		id = 35,
 		group_id = 35,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -933,11 +968,12 @@ pg.activity_ins_template = {
 		ship_group = 20207,
 		name = "MINAMIpton",
 		message_persist = "ins_31",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/Southampton_v7O7X8rDNCAlGi5G.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/Southampton_v7O7X8rDNCAlGi5G.png",
 		is_active = 0,
 		sculpture = "nananpudun_2",
 		id = 36,
 		group_id = 36,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -959,11 +995,12 @@ pg.activity_ins_template = {
 		ship_group = 20702,
 		name = "ArkRoyal_Defense",
 		message_persist = "ins_32",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/royal_ark_fcJJwalfHigsGXJT.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/royal_ark_fcJJwalfHigsGXJT.png",
 		is_active = 0,
 		sculpture = "huangjiafangzhou_4",
 		id = 37,
 		group_id = 37,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -985,11 +1022,12 @@ pg.activity_ins_template = {
 		ship_group = 20121,
 		name = "Javelin☆",
 		message_persist = "ins_45",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_8Tb4NVtTgzKZOwscA.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_8Tb4NVtTgzKZOwscA.png",
 		is_active = 0,
 		sculpture = "biaoqiang",
 		id = 38,
 		group_id = 38,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1012,11 +1050,12 @@ pg.activity_ins_template = {
 		ship_group = 40304,
 		name = "SPEE_FIGHT",
 		message_persist = "ins_42",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_57MRsvpltDK2cHKRr.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_57MRsvpltDK2cHKRr.png",
 		is_active = 0,
 		sculpture = "deyizhi",
 		id = 39,
 		group_id = 39,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1038,11 +1077,12 @@ pg.activity_ins_template = {
 		ship_group = 20101,
 		name = "ThornyA",
 		message_persist = "ins_58",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_12RXOzC2VgXVFOFxrQ.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_12RXOzC2VgXVFOFxrQ.png",
 		is_active = 0,
 		sculpture = "nvjiang",
 		id = 40,
 		group_id = 40,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1064,11 +1104,12 @@ pg.activity_ins_template = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		message_persist = "ins_38",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_1meMjltpQvitGoGoX.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_1meMjltpQvitGoGoX.png",
 		is_active = 0,
 		sculpture = "kelifulan",
 		id = 41,
 		group_id = 41,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1091,11 +1132,12 @@ pg.activity_ins_template = {
 		ship_group = 30705,
 		name = "KADEKURU",
 		message_persist = "ins_39",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_2DY3sGDq9xW8F8Fb6.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_2DY3sGDq9xW8F8Fb6.png",
 		is_active = 0,
 		sculpture = "xianghe",
 		id = 42,
 		group_id = 42,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1118,11 +1160,12 @@ pg.activity_ins_template = {
 		ship_group = 20603,
 		name = "UnicornI72",
 		message_persist = "ins_55",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_28jXSZSxTbaU5D5BNF.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_28jXSZSxTbaU5D5BNF.png",
 		is_active = 0,
 		sculpture = "dujiaoshou",
 		id = 43,
 		group_id = 43,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1144,11 +1187,12 @@ pg.activity_ins_template = {
 		ship_group = 10601,
 		name = "L.I.",
 		message_persist = "ins_59",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_108QzjOhTll0Zu19I2.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_108QzjOhTll0Zu19I2.png",
 		is_active = 0,
 		sculpture = "changdao",
 		id = 44,
 		group_id = 44,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1170,11 +1214,12 @@ pg.activity_ins_template = {
 		ship_group = 10125,
 		name = "DD_Hammann",
 		message_persist = "ins_56",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_27aOto4Y3UEha5BIxS.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_27aOto4Y3UEha5BIxS.png",
 		is_active = 0,
 		sculpture = "haman",
 		id = 45,
 		group_id = 45,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1196,11 +1241,12 @@ pg.activity_ins_template = {
 		ship_group = 40123,
 		name = "Zerstorer23",
 		message_persist = "ins_51",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_18SPAbNeJ4bw4k2spY.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_18SPAbNeJ4bw4k2spY.png",
 		is_active = 0,
 		sculpture = "z23",
 		id = 46,
 		group_id = 46,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1223,11 +1269,12 @@ pg.activity_ins_template = {
 		ship_group = 20220,
 		name = "forMaster_Sirius",
 		message_persist = "ins_49",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_16xbqsbDpr8aFyb40H.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_16xbqsbDpr8aFyb40H.png",
 		is_active = 0,
 		sculpture = "tianlangxing",
 		id = 47,
 		group_id = 47,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1249,11 +1296,12 @@ pg.activity_ins_template = {
 		ship_group = 30707,
 		name = "OutrangeTH",
 		message_persist = "ins_54",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_26Ip8tPejuVpHH9Fcl.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_26Ip8tPejuVpHH9Fcl.png",
 		is_active = 0,
 		sculpture = "dafeng",
 		id = 48,
 		group_id = 48,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1275,11 +1323,12 @@ pg.activity_ins_template = {
 		ship_group = 10709,
 		name = "EssexG1",
 		message_persist = "ins_60",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_13UUBD3SpIBQtQj1Cm.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_13UUBD3SpIBQtQj1Cm.png",
 		is_active = 0,
 		sculpture = "aisaikesi",
 		id = 49,
 		group_id = 49,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1301,11 +1350,12 @@ pg.activity_ins_template = {
 		ship_group = 50201,
 		name = "YIXIAN",
 		message_persist = "ins_48",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_15iXfOO5o93oJMRSbB.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_15iXfOO5o93oJMRSbB.png",
 		is_active = 0,
 		sculpture = "yixian",
 		id = 50,
 		group_id = 50,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1328,11 +1378,12 @@ pg.activity_ins_template = {
 		ship_group = 30132,
 		name = "Mutsuki",
 		message_persist = "ins_44",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_7H3uRIiWmS8zXivL6.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_7H3uRIiWmS8zXivL6.png",
 		is_active = 0,
 		sculpture = "muyue",
 		id = 51,
 		group_id = 51,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1354,11 +1405,12 @@ pg.activity_ins_template = {
 		ship_group = 40303,
 		name = "P.Eugen",
 		message_persist = "ins_43",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_6ShAoWmFLfZcWJ0AU.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_6ShAoWmFLfZcWJ0AU.png",
 		is_active = 0,
 		sculpture = "ougen",
 		id = 52,
 		group_id = 52,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1381,11 +1433,12 @@ pg.activity_ins_template = {
 		ship_group = 10706,
 		name = "Enterprise",
 		message_persist = "ins_40",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_3h7RHI6LzXSZtd1Wt.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_3h7RHI6LzXSZtd1Wt.png",
 		is_active = 0,
 		sculpture = "qiye",
 		id = 53,
 		group_id = 53,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1408,11 +1461,12 @@ pg.activity_ins_template = {
 		ship_group = 20212,
 		name = "Belfast_inService",
 		message_persist = "ins_41",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_4Ah0X5MeviPv3Uynv.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_4Ah0X5MeviPv3Uynv.png",
 		is_active = 0,
 		sculpture = "beierfasite",
 		id = 54,
 		group_id = 54,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1435,11 +1489,12 @@ pg.activity_ins_template = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		message_persist = "ins_47",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_14j8vmU0jHVsUtNNZ1.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_14j8vmU0jHVsUtNNZ1.png",
 		is_active = 0,
 		sculpture = "chicheng",
 		id = 55,
 		group_id = 55,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1462,11 +1517,12 @@ pg.activity_ins_template = {
 		ship_group = 10706,
 		name = "Enterprise",
 		message_persist = "ins_46",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_11cPOY1eoLcgxAyJnw.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_11cPOY1eoLcgxAyJnw.png",
 		is_active = 0,
 		sculpture = "qiye",
 		id = 56,
 		group_id = 56,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1488,11 +1544,12 @@ pg.activity_ins_template = {
 		ship_group = 40303,
 		name = "P.Eugen",
 		message_persist = "ins_50",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_17xzdIIknT0QWU5dih.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_17xzdIIknT0QWU5dih.png",
 		is_active = 0,
 		sculpture = "ougen",
 		id = 57,
 		group_id = 57,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1515,11 +1572,12 @@ pg.activity_ins_template = {
 		ship_group = 31201,
 		name = "akashi_TUUHAN",
 		message_persist = "ins_53",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_318Tu5UfiWrXHwUUmn.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_318Tu5UfiWrXHwUUmn.png",
 		is_active = 0,
 		sculpture = "mingshi",
 		id = 58,
 		group_id = 58,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1541,11 +1599,12 @@ pg.activity_ins_template = {
 		ship_group = 30109,
 		name = "NINJA-AKATSUKI",
 		message_persist = "ins_52",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_20zh2EE3NMp4kGFiXG.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_20zh2EE3NMp4kGFiXG.png",
 		is_active = 0,
 		sculpture = "xiao",
 		id = 59,
 		group_id = 59,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1567,11 +1626,12 @@ pg.activity_ins_template = {
 		ship_group = 40123,
 		name = "Zerstorer23",
 		message_persist = "ins_57",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/spring_32C9tzmiGBJXeiMxxE.png",
+		picture_persist = "https://blhxusstatic.akamaized.net/pic/spring_32C9tzmiGBJXeiMxxE.png",
 		is_active = 0,
 		sculpture = "z23",
 		id = 60,
 		group_id = 60,
+		order = 3,
 		time_persist = {
 			{
 				2020,
@@ -1600,11 +1660,12 @@ pg.activity_ins_template = {
 		sculpture = "yixian",
 		id = 61,
 		group_id = 61,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -1626,11 +1687,12 @@ pg.activity_ins_template = {
 		sculpture = "ougen",
 		id = 62,
 		group_id = 62,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				14,
@@ -1652,11 +1714,12 @@ pg.activity_ins_template = {
 		sculpture = "salatuojia",
 		id = 63,
 		group_id = 63,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				18,
@@ -1678,11 +1741,12 @@ pg.activity_ins_template = {
 		sculpture = "tiancheng",
 		id = 64,
 		group_id = 64,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				29
+				8,
+				15
 			},
 			{
 				16,
@@ -1704,11 +1768,12 @@ pg.activity_ins_template = {
 		sculpture = "pinghai",
 		id = 65,
 		group_id = 65,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				9,
@@ -1730,11 +1795,12 @@ pg.activity_ins_template = {
 		sculpture = "kaixuan",
 		id = 66,
 		group_id = 66,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				13,
@@ -1756,11 +1822,12 @@ pg.activity_ins_template = {
 		sculpture = "dujiaoshou",
 		id = 67,
 		group_id = 67,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -1782,11 +1849,12 @@ pg.activity_ins_template = {
 		sculpture = "changmen",
 		id = 68,
 		group_id = 68,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				10,
@@ -1808,11 +1876,12 @@ pg.activity_ins_template = {
 		sculpture = "jiasikenie",
 		id = 69,
 		group_id = 69,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				15,
@@ -1835,11 +1904,12 @@ pg.activity_ins_template = {
 		sculpture = "feiteliedadi",
 		id = 70,
 		group_id = 70,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				1
+				8,
+				18
 			},
 			{
 				11,
@@ -1861,11 +1931,12 @@ pg.activity_ins_template = {
 		sculpture = "masazhusai",
 		id = 71,
 		group_id = 71,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				16,
@@ -1887,11 +1958,12 @@ pg.activity_ins_template = {
 		sculpture = "ouruola",
 		id = 72,
 		group_id = 72,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				3
+				8,
+				20
 			},
 			{
 				9,
@@ -1913,11 +1985,12 @@ pg.activity_ins_template = {
 		sculpture = "shiyu",
 		id = 73,
 		group_id = 73,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				15,
@@ -1939,11 +2012,12 @@ pg.activity_ins_template = {
 		sculpture = "bisimai",
 		id = 74,
 		group_id = 74,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -1965,11 +2039,12 @@ pg.activity_ins_template = {
 		sculpture = "huonululu",
 		id = 75,
 		group_id = 75,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -1991,11 +2066,12 @@ pg.activity_ins_template = {
 		sculpture = "wuqi",
 		id = 76,
 		group_id = 76,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				6
+				8,
+				23
 			},
 			{
 				14,
@@ -2018,11 +2094,12 @@ pg.activity_ins_template = {
 		sculpture = "junzhu",
 		id = 77,
 		group_id = 77,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				7
+				8,
+				24
 			},
 			{
 				10,
@@ -2044,11 +2121,12 @@ pg.activity_ins_template = {
 		sculpture = "tianlangxing",
 		id = 78,
 		group_id = 78,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				18,
@@ -2070,11 +2148,12 @@ pg.activity_ins_template = {
 		sculpture = "hailunna",
 		id = 79,
 		group_id = 79,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -2097,11 +2176,12 @@ pg.activity_ins_template = {
 		sculpture = "lafei",
 		id = 80,
 		group_id = 80,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -2123,11 +2203,12 @@ pg.activity_ins_template = {
 		sculpture = "aidang",
 		id = 81,
 		group_id = 81,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				11
+				8,
+				28
 			},
 			{
 				15,
@@ -2149,11 +2230,12 @@ pg.activity_ins_template = {
 		sculpture = "banrenma",
 		id = 82,
 		group_id = 82,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				12
+				8,
+				29
 			},
 			{
 				11,
@@ -2175,11 +2257,12 @@ pg.activity_ins_template = {
 		sculpture = "guanghui",
 		id = 83,
 		group_id = 83,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				13
+				8,
+				30
 			},
 			{
 				16,
@@ -2201,11 +2284,12 @@ pg.activity_ins_template = {
 		sculpture = "lingbo",
 		id = 84,
 		group_id = 84,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -2228,11 +2312,12 @@ pg.activity_ins_template = {
 		sculpture = "chicheng",
 		id = 85,
 		group_id = 85,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				15
+				9,
+				1
 			},
 			{
 				14,
@@ -2254,11 +2339,12 @@ pg.activity_ins_template = {
 		sculpture = "luoen",
 		id = 86,
 		group_id = 86,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				16
+				9,
+				2
 			},
 			{
 				10,
@@ -2280,11 +2366,12 @@ pg.activity_ins_template = {
 		sculpture = "z23",
 		id = 87,
 		group_id = 87,
+		order = 5,
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				17,
@@ -2307,11 +2394,12 @@ pg.activity_ins_template = {
 		sculpture = "hao",
 		id = 88,
 		group_id = 88,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				23
+				8,
+				6
 			},
 			{
 				13,
@@ -2333,11 +2421,12 @@ pg.activity_ins_template = {
 		sculpture = "yingxianzuo",
 		id = 89,
 		group_id = 89,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				23
+				8,
+				6
 			},
 			{
 				20,
@@ -2359,11 +2448,12 @@ pg.activity_ins_template = {
 		sculpture = "hemin",
 		id = 90,
 		group_id = 90,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				24
+				8,
+				7
 			},
 			{
 				13,
@@ -2385,11 +2475,12 @@ pg.activity_ins_template = {
 		sculpture = "yingyong",
 		id = 91,
 		group_id = 91,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				25
+				8,
+				8
 			},
 			{
 				9,
@@ -2412,11 +2503,12 @@ pg.activity_ins_template = {
 		sculpture = "yikaluosi",
 		id = 92,
 		group_id = 92,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				25
+				8,
+				8
 			},
 			{
 				17,
@@ -2438,11 +2530,12 @@ pg.activity_ins_template = {
 		sculpture = "ying",
 		id = 93,
 		group_id = 93,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				26
+				8,
+				9
 			},
 			{
 				11,
@@ -2464,11 +2557,12 @@ pg.activity_ins_template = {
 		sculpture = "yingxianzuo",
 		id = 94,
 		group_id = 94,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				27
+				8,
+				10
 			},
 			{
 				14,
@@ -2490,11 +2584,12 @@ pg.activity_ins_template = {
 		sculpture = "ying",
 		id = 95,
 		group_id = 95,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				27
+				8,
+				10
 			},
 			{
 				19,
@@ -2517,11 +2612,12 @@ pg.activity_ins_template = {
 		sculpture = "hemin",
 		id = 96,
 		group_id = 96,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				28
+				8,
+				11
 			},
 			{
 				16,
@@ -2543,11 +2639,12 @@ pg.activity_ins_template = {
 		sculpture = "yikaluosi",
 		id = 97,
 		group_id = 97,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				29
+				8,
+				12
 			},
 			{
 				10,
@@ -2570,11 +2667,12 @@ pg.activity_ins_template = {
 		sculpture = "yingyong",
 		id = 98,
 		group_id = 98,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				29
+				8,
+				12
 			},
 			{
 				15,
@@ -2596,11 +2694,12 @@ pg.activity_ins_template = {
 		sculpture = "hao",
 		id = 99,
 		group_id = 99,
+		order = 4,
 		time_persist = {
 			{
 				2020,
-				7,
-				30
+				8,
+				13
 			},
 			{
 				14,

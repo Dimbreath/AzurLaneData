@@ -73,7 +73,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yes. It's best if we can make a smooth retreat.",
+			say = "Right. It's best if we can make a smooth retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

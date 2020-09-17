@@ -84,16 +84,27 @@ function slot0.getSortGoods(slot0)
 		table.insert(slot1, slot6)
 	end
 
-	table.sort(slot1, function (slot0, slot1)
-		if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
-			if slot0:getConfig("order") == slot1:getConfig("order") then
-				return slot0.id < slot1.id
-			else
-				return slot4 < slot5
-			end
-		else
-			return slot3 < slot2
-		end
+	function slot2(slot0)
+		return math.floor(slot0 * 0.1)
+	end
+
+	table.sort(slot1, function ()
+		error("Decompilation failed")
+		-- Exception in function building!
+		-- Traceback (most recent call last):
+		-- File "utils/luajit/ljd/ast/builder.py", line 856, in _build_function
+		--     return _build_function_definition(prototype, state.header)
+		-- File "utils/luajit/ljd/ast/builder.py", line 54, in _build_function_definition
+		--     node.statements.contents = _build_function_blocks(state, instructions)
+		-- File "utils/luajit/ljd/ast/builder.py", line 75, in _build_function_blocks
+		--     _blockenize(state, instructions)
+		-- File "utils/luajit/ljd/ast/builder.py", line 143, in _blockenize
+		--     _fix_broken_unary_expressions(state, instructions)
+		-- File "utils/luajit/ljd/ast/builder.py", line 1242, in _fix_broken_unary_expressions
+		--     _remove_instruction(state, instructions, i + 1)
+		-- File "utils/luajit/ljd/ast/builder.py", line 1265, in _remove_instruction
+		--     state.debuginfo.addr_to_line_map.pop(index)
+		-- IndexError: pop from empty list
 	end)
 
 	return slot1

@@ -6044,7 +6044,7 @@ pg.enemy_data_statistics = {
 	},
 	[139] = {
 		cannon = 0,
-		name = "Surface Torpedo",
+		name = "Surface Mine",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -6170,7 +6170,7 @@ pg.enemy_data_statistics = {
 	},
 	[140] = {
 		cannon = 0,
-		name = "Submerged Torpedo",
+		name = "Submerged Mine",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

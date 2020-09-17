@@ -8715,8 +8715,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			467,
+			468
 		}
 	},
 	{
@@ -8790,8 +8790,10 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			471,
+			472,
+			473,
+			469
 		}
 	},
 	{
@@ -8901,8 +8903,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			477,
+			478,
+			479
 		}
 	},
 	{
@@ -8976,8 +8979,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			481,
+			482,
+			483
 		}
 	},
 	{
@@ -9087,8 +9091,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			487,
+			488
 		}
 	},
 	{
@@ -9144,8 +9148,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			490,
+			491
 		}
 	},
 	{
@@ -9237,8 +9241,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			495
 		}
 	},
 	{
@@ -9276,8 +9279,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			497,
+			498
 		}
 	},
 	{
@@ -9351,8 +9354,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			501
 		}
 	},
 	{
@@ -9390,8 +9392,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			503,
+			504
 		}
 	},
 	{
@@ -9483,8 +9485,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			508,
+			509,
+			510
 		}
 	},
 	{
@@ -9558,8 +9561,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			512,
+			513
 		}
 	},
 	{
@@ -9633,8 +9636,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			516,
+			517,
+			518
 		}
 	},
 	{
@@ -9708,8 +9712,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			520,
+			521
 		}
 	},
 	{
@@ -9783,8 +9787,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			524,
+			525
 		}
 	},
 	{
@@ -9840,8 +9844,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			527,
+			528,
+			529
 		}
 	},
 	{
@@ -9951,8 +9956,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			533
 		}
 	},
 	{
@@ -9990,8 +9994,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			535
 		}
 	},
 	{
@@ -10029,8 +10032,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			537
 		}
 	},
 	{
@@ -10104,8 +10106,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			541,
+			542,
+			543
 		}
 	},
 	{
@@ -10179,8 +10182,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			545,
+			546
 		}
 	},
 	{
@@ -10254,8 +10257,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			549,
+			550,
+			551
 		}
 	},
 	{
@@ -10329,8 +10333,10 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			553,
+			554,
+			555,
+			556
 		}
 	},
 	{
@@ -10422,8 +10428,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			558,
+			559
 		}
 	},
 	{
@@ -10479,8 +10485,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			561,
+			562
 		}
 	},
 	{
@@ -10536,8 +10542,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			564,
+			565
 		}
 	},
 	{
@@ -10629,8 +10635,11 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			569,
+			570,
+			571,
+			572,
+			573
 		}
 	},
 	{
@@ -10740,8 +10749,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			575
 		}
 	},
 	{
@@ -10815,8 +10823,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			579,
+			580
 		}
 	},
 	{
@@ -10872,8 +10880,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			582
 		}
 	},
 	{
@@ -10947,8 +10954,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			586
 		}
 	},
 	{
@@ -10986,8 +10992,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			588,
+			589,
+			590
 		}
 	},
 	{
@@ -11061,8 +11068,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			592
 		}
 	},
 	{
@@ -11100,8 +11106,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			594
 		}
 	},
 	{
@@ -11139,8 +11144,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			596
 		}
 	},
 	{
@@ -11178,8 +11182,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			598
 		}
 	},
 	{
@@ -11217,8 +11220,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			600
 		}
 	},
 	{
@@ -11256,8 +11258,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			602
 		}
 	},
 	{
@@ -11295,8 +11296,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			604,
+			605,
+			606
 		}
 	},
 	{
@@ -11424,8 +11426,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			611,
+			612,
+			613
 		}
 	},
 	{
@@ -11499,8 +11502,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			615,
+			616,
+			617
 		}
 	},
 	{
@@ -11610,8 +11614,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			621
 		}
 	},
 	{
@@ -11667,8 +11670,13 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			624,
+			625,
+			626,
+			627,
+			628,
+			629,
+			630
 		}
 	},
 	{
@@ -11850,8 +11858,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			634,
+			635,
+			636
 		}
 	},
 	{
@@ -11925,8 +11934,10 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			638,
+			639,
+			640,
+			641
 		}
 	},
 	{
@@ -12036,8 +12047,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			644
 		}
 	},
 	{
@@ -12075,8 +12085,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			646
 		}
 	},
 	{
@@ -12114,8 +12123,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			648,
+			649
 		}
 	},
 	{
@@ -12189,8 +12198,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			652,
+			653,
+			654
 		}
 	},
 	{
@@ -12264,8 +12274,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			656
 		}
 	},
 	{
@@ -12339,8 +12348,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			660,
+			661
 		}
 	},
 	{
@@ -12396,8 +12405,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			663,
+			664
 		}
 	},
 	{
@@ -12453,8 +12462,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			666
 		}
 	},
 	{
@@ -12492,8 +12500,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			668,
+			669
 		}
 	},
 	{
@@ -12549,8 +12557,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			671,
+			672
 		}
 	},
 	{
@@ -12606,8 +12614,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			674
 		}
 	},
 	{
@@ -12681,8 +12688,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			678
 		}
 	},
 	{
@@ -12720,8 +12726,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			680,
+			681,
+			682
 		}
 	},
 	{
@@ -12831,8 +12838,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			686,
+			687
 		}
 	},
 	{
@@ -12888,8 +12895,7 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			689
 		}
 	},
 	{
@@ -12927,8 +12933,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			691,
+			692,
+			693
 		}
 	},
 	{
@@ -13038,8 +13045,9 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			697,
+			698,
+			699
 		}
 	},
 	{
@@ -13113,8 +13121,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			705,
-			706
+			701,
+			702
 		}
 	},
 	{

@@ -57,7 +57,7 @@ pg.expedition_daily_template = {
 		}
 	},
 	[301] = {
-		tips = "Maritime Attack available on every Tuesday, Friday and Sunday",
+		tips = "Advance Mission available on every Tuesday, Friday and Sunday",
 		limit_type = 1,
 		limit_time = 3,
 		pic = "daily2",
@@ -93,7 +93,7 @@ pg.expedition_daily_template = {
 		}
 	},
 	[401] = {
-		tips = "Beheading Operation available on every Wednesday, Saturday and Sunday",
+		tips = "Fierce Assault available on every Wednesday, Saturday and Sunday",
 		limit_type = 1,
 		limit_time = 3,
 		pic = "daily3",

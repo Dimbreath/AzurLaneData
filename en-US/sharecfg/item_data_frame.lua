@@ -152,6 +152,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>A special portrait frame designed with Laffey's motifs.</color>\nObtained by participating in the 2nd Anniversary Event.",
 		scene = {}
 	},
+	[311] = {
+		name = "Illusory Butterfly",
+		time_second = 0,
+		id = 311,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -171,6 +179,7 @@ pg.item_data_frame = {
 		307,
 		308,
 		309,
-		310
+		310,
+		311
 	}
 }

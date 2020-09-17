@@ -1,9 +1,73 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "30499",
+		param = "30703",
 		type = 3,
 		id = 1,
+		pic = "temp4",
+		time = {
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "30705",
+		type = 3,
+		id = 2,
+		pic = "temp5",
+		time = {
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "30499",
+		type = 3,
+		id = 3,
 		pic = "temp1",
 		time = {
 			{
@@ -35,7 +99,7 @@ pg.activity_banner = {
 	{
 		param = "30701",
 		type = 3,
-		id = 2,
+		id = 4,
 		pic = "temp2",
 		time = {
 			{
@@ -66,7 +130,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 5,
 		pic = "temp3",
 		param = {
 			"scene get boat",
@@ -92,75 +156,6 @@ pg.activity_banner = {
 					2020,
 					9,
 					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 4,
-		pic = "temp7",
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp6",
-		param = {
-			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					9
 				},
 				{
 					23,

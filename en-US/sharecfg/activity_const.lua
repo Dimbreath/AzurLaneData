@@ -621,6 +621,9 @@ pg.activity_const = {
 	U557_RED_POCKET_RE = {
 		act_id = 30491
 	},
+	SHINANO_EXP_ACT_ID = {
+		act_id = 30702
+	},
 	SUMMER_REMAKE = {
 		act_id = 30253
 	},

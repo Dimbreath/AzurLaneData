@@ -15229,6 +15229,157 @@ pg.activity_template = {
 			rank_act_id = 30497
 		}
 	},
+	[30702] = {
+		mark = 20200910,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30702,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30703] = {
+		mark = 20200910,
+		type = 54,
+		login_pop = 0,
+		config_id = 30703,
+		is_show = 58,
+		title_res_tag = "Shinano_frame",
+		id = 30703,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShinanoframePage",
+			ui_name = "ShinanoframePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30705] = {
+		mark = 20200910,
+		type = 69,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 57,
+		title_res_tag = "Neptune_catchup",
+		id = 30705,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "IzumoTecCatchupPage",
+			ui_name = "IzumoTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42004
+		}
+	},
 	all = {
 		1,
 		2,
@@ -15805,6 +15956,9 @@ pg.activity_template = {
 		30544,
 		30545,
 		30700,
-		30701
+		30701,
+		30702,
+		30703,
+		30705
 	}
 }

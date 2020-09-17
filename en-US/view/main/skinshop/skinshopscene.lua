@@ -69,6 +69,7 @@ function slot0.init(slot0)
 	slot0.commonConsumeTF = slot0:findTF("consume", slot0.commonPanel)
 	slot0.buyBtn = slot0:findTF("buy_btn", slot0.commonPanel)
 	slot0.activityBtn = slot0:findTF("activty_btn", slot0.commonPanel)
+	slot0.itemBtn = slot0:findTF("item_btn", slot0.commonPanel)
 	slot0.gotBtn = slot0:findTF("got_btn", slot0.commonPanel)
 	slot0.priceTxt = slot0:findTF("consume/Text", slot0.commonPanel):GetComponent(typeof(Text))
 	slot0.originalPriceTxt = slot0:findTF("consume/originalprice/Text", slot0.commonPanel):GetComponent(typeof(Text))
@@ -162,7 +163,11 @@ function slot0.initSkinPage(slot0)
 	end
 
 	for slot4, slot5 in ipairs(slot0.skinGoodsVOs) do
-		slot8 = uv1[slot5:getSkinId()].shop_type_id == 0 and 9999 or slot7
+		slot6 = slot5:getSkinId()
+
+		print(slot6)
+
+		slot8 = uv1[slot6].shop_type_id == 0 and 9999 or slot7
 		slot0.countByIds[slot8] = slot0.countByIds[slot8] + 1
 	end
 
@@ -403,28 +408,41 @@ function slot0.updateBuyBtn(slot0, slot1)
 		slot3 = uv0[slot1:getSkinId()]
 		slot6 = slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA
 		slot7 = slot1.buyCount == 0
+		slot9 = slot1:isDisCount() and slot1:IsItemDiscountType()
 
-		setActive(slot0.buyBtn, not slot6 and slot7)
+		setActive(slot0.itemBtn, slot9 and slot7)
+		setActive(slot0.buyBtn, not slot6 and slot7 and not slot9)
 		setActive(slot0.gotBtn, not slot6 and not slot7)
-		setActive(slot0.activityBtn, slot6)
+		setActive(slot0.activityBtn, slot6 and not slot9)
+		onButton(slot0, slot0.itemBtn, function ()
+			triggerButton(uv0.buyBtn)
+		end, SFX_PANEL)
 		onButton(slot0, slot0.buyBtn, function ()
 			if uv0.type == Goods.TYPE_SKIN then
 				if uv1.showCardId == slot0.id then
-					if slot0:isDisCount() then
-						slot2 = (100 - slot0:getConfig("discount")) / 100 * slot0:getConfig("resource_num")
+					slot2 = i18n("charge_scene_buy_confirm", slot0:GetPrice(), HXSet.hxLan(uv2.name))
+
+					if uv0:isDisCount() and slot0:IsItemDiscountType() then
+						slot2 = i18n("discount_coupon_tip", slot1, slot0:GetDiscountItem().name, HXSet.hxLan(uv2.name))
 					end
 
 					pg.MsgboxMgr:GetInstance():ShowMsgBox({
-						content = i18n("charge_scene_buy_confirm", slot2, HXSet.hxLan(uv2.name)),
+						content = slot2,
 						onYes = function ()
-							uv0:emit(SkinShopMediator.ON_SHOPPING, uv1.id, 1)
+							if uv0 then
+								uv1:emit(SkinShopMediator.ON_SHOPPING_BY_ACT, uv2.id, 1)
+							else
+								uv1:emit(SkinShopMediator.ON_SHOPPING, uv2.id, 1)
+							end
 						end
 					})
-				else
-					pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[9999])
 
 					return
 				end
+
+				pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[9999])
+
+				return
 			end
 		end, SFX_PANEL)
 		onButton(slot0, slot0.activityBtn, function ()
@@ -560,13 +578,9 @@ function slot0.updatePrice(slot0, slot1)
 		setActive(slot0.commonConsumeTF, slot6)
 
 		if slot6 then
-			if slot4:isDisCount() then
-				slot0.priceTxt.text = slot4:getConfig("resource_num") * (100 - slot4:getConfig("discount")) / 100
-			else
-				slot0.priceTxt.text = slot8
-			end
-
-			slot0.originalPriceTxt.text = slot8
+			slot7 = (100 - slot4:getConfig("discount")) / 100
+			slot0.priceTxt.text = slot4:GetPrice()
+			slot0.originalPriceTxt.text = slot4:getConfig("resource_num")
 
 			setActive(tf(go(slot0.originalPriceTxt)).parent, slot4:isDisCount())
 		end
@@ -592,7 +606,9 @@ function slot0.setPaintingPrefab(slot0, slot1, slot2, slot3, slot4)
 		slot2 = slot2 .. "_n"
 	end
 
-	PoolMgr.GetInstance():GetPainting(slot2, false, function (slot0)
+	pg.UIMgr.GetInstance():LoadingOn()
+	PoolMgr.GetInstance():GetPainting(slot2, true, function (slot0)
+		pg.UIMgr.GetInstance():LoadingOff()
 		setParent(slot0, uv0, false)
 
 		if not IsNil(findTF(slot0, "Touch")) then
@@ -731,11 +747,9 @@ function slot0.onNext(slot0)
 		end
 
 		if slot2 and function ()
-			slot2 = getBounds(uv0.card._tf)
-
-			return getBounds(uv1._tf):GetMax().x - getBounds(uv0.bottomTF:Find("scroll")):GetMax().x > 2
+			return getBounds(uv0.card._tf).size.x < math.ceil(getBounds(uv1._tf):GetMax().x - getBounds(uv0.bottomTF:Find("scroll")):GetMax().x)
 		end() then
-			slot0.shipRect:ScrollTo(slot0.shipRect.value - (slot0.shipRect:HeadIndexToValue(slot3 - 1) - slot0.shipRect:HeadIndexToValue(slot3)))
+			slot0.shipRect:SetNormalizedPosition(slot0.shipRect.value - (slot0.shipRect:HeadIndexToValue(slot3 - 1) - slot0.shipRect:HeadIndexToValue(slot3)), 0)
 		end
 	end
 end
@@ -773,7 +787,7 @@ function slot0.onPrev(slot0)
 		if slot2 and function ()
 			return getBounds(uv0.bottomTF:Find("scroll/content")):GetMin().x < getBounds(uv0.bottomTF:Find("scroll")):GetMin().x and getBounds(uv0.card._tf):GetMin().x < slot0:GetMin().x
 		end() then
-			slot0.shipRect:ScrollTo(slot0.shipRect:HeadIndexToValue(slot3 - 1))
+			slot0.shipRect:SetNormalizedPosition(slot0.shipRect:HeadIndexToValue(slot3 - 1), 0)
 		end
 	end
 end

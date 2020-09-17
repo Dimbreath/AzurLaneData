@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "Aren't we cahsing them, Z2?",
+			say = "Aren't we chasing them, Z2?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
