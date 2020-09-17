@@ -1081,7 +1081,7 @@ pg.gametip = {
 		tip = "Stage not yet open. Please clear <color=#92fc63>previous stage</color>."
 	},
 	battle_levelScene_lock_1 = {
-		tip = ""
+		tip = "The next stages are not yet available "
 	},
 	battle_preCombatLayer_changeFormationError = {
 		tip = "Formation switch error. Please check your formations."
@@ -5104,7 +5104,7 @@ Attack/Support Range Level:
 		tip = "Total AA"
 	},
 	elite_condition_air = {
-		tip = "Total AV"
+		tip = "Total AVI"
 	},
 	elite_condition_antisub = {
 		tip = "Total ASW"
@@ -7063,7 +7063,7 @@ Combat Details:
 		tip = "Duke of York added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Build rates increased for Z2 and Hardy! "
+		tip = "Z18 and Little Bel are added to standard build pool! "
 	},
 	buildship_special_tip = {
 		tip = "Shangri-La, Essex and others are added to standard build pool! "
@@ -10383,7 +10383,7 @@ Manjuu Arcade Hall]]
 		}
 	},
 	building_tip = {
-		tip = "Insufficient building materials. Please head to <color=#92fc63>Tasks</color> and complete <color=#92fc63>Event missions</color> to get more. "
+		tip = "Insufficient building materials. Please complete <color=#92fc63>Event missions</color> to get more. "
 	},
 	building_upgrade_tip = {
 		tip = "Are you sure you want to upgrade? Building materials will be consumed."
@@ -10949,7 +10949,7 @@ and earn great rewards!]]
 		tip = "Explore the minigame stages to receive rewards!"
 	},
 	jiujiu_expedition_amount_tip = {
-		tip = "You have run out of Exploration Points. You can receive more later by logging in during the event period."
+		tip = "You have no Exploration Points. Log in later during the event to receive more. "
 	},
 	jiujiu_expedition_stg_tip = {
 		tip = "Unlocks after you clear the previous stage."

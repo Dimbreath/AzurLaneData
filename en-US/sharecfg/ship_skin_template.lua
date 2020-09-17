@@ -96559,7 +96559,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[808012] = {
-		name = "Loisirs balnéaires",
+		name = "Loisirs Balnéaires",
 		ship_group = 80801,
 		group_index = 2,
 		illustrator2 = -1,

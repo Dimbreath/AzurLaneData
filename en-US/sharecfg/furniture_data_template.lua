@@ -63568,7 +63568,7 @@ pg.furniture_data_template = {
 		},
 		animator = {
 			{
-				"12us3CharControl"
+				"12us3BCharControl"
 			}
 		},
 		interAction_group = {}
@@ -63723,7 +63723,7 @@ pg.furniture_data_template = {
 		},
 		animator = {
 			{
-				"14us3CharControl"
+				"14us3BCharControl"
 			}
 		},
 		interAction_group = {}
@@ -63794,7 +63794,7 @@ pg.furniture_data_template = {
 		},
 		animator = {
 			{
-				"15us3CharControl"
+				"15us3BCharControl"
 			}
 		},
 		interAction_group = {}

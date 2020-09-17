@@ -4,10 +4,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 5000,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -19,10 +20,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 5550,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -34,10 +36,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 6100,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -49,10 +52,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 6650,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -64,10 +68,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 7200,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -79,10 +84,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 7750,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -94,10 +100,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 8300,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -109,10 +116,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 8850,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -124,10 +132,11 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
-					rant = 9400,
+					rant = 10000,
 					skill_id = 13581,
 					target = "TargetSelf"
 				}
@@ -139,7 +148,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 10000,
@@ -162,10 +172,11 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
-				rant = 5000,
+				rant = 10000,
 				skill_id = 13581,
 				target = "TargetSelf"
 			}
