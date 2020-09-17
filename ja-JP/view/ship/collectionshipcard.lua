@@ -77,11 +77,13 @@ end
 
 function slot0.loadImage(slot0, slot1)
 	slot3 = (slot1:isBluePrintGroup() and "0" or "") .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans))
+	slot4 = slot1:getPainting(slot0.showTrans)
 	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. slot3, "")
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
+	slot0.loadingPaintingName = slot4
 
-	LoadSpriteAsync("shipYardIcon/" .. slot1:getPainting(slot0.showTrans), function (slot0)
-		if not IsNil(uv0.go) then
+	LoadSpriteAsync("shipYardIcon/" .. slot4, function (slot0)
+		if not IsNil(uv0.go) and uv0.loadingPaintingName == uv1 then
 			uv0.iconShip.sprite = slot0
 		end
 	end)

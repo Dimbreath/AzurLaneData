@@ -321,8 +321,6 @@ function slot0.SwitchPage(slot0, slot1)
 				slot0()
 			end,
 			function (slot0)
-				print("asdfasdfasdf==================")
-
 				slot1 = uv0.pages[uv1]
 
 				SetParent(uv0.bottomTF, slot1._tf)

@@ -65,8 +65,7 @@ function slot9.Init(slot0)
 	slot0._GCDTimerList = {}
 	slot0._buffList = {}
 	slot0._labelTagList = {}
-	slot0._sonarDetectedCount = 0
-	slot0._sonarDuration = 0
+	slot0._exposedToSnoar = false
 	slot0._moveCast = true
 end
 
@@ -138,7 +137,6 @@ function slot9.RemoveSummonSickness(slot0)
 	slot0._isSickness = false
 
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._sicknessTimer)
-	slot0:DispatchEvent(uv0.Event.New(uv1.SUBMARINE_VISIBLE))
 
 	slot0._sicknessTimer = nil
 end
@@ -178,29 +176,6 @@ end
 
 function slot9.GetAllTagCount(slot0)
 	return slot0._tagCount
-end
-
-function slot9.Detected(slot0, slot1)
-	slot0._sonarDetectedCount = slot0._sonarDetectedCount + 1
-	slot0._sonarDetectedStartTime = slot0._sonarDetectedStartTime or pg.TimeMgr.GetInstance():GetCombatTime()
-	slot0._sonarDuration = slot0._sonarDuration + slot1
-
-	slot0:DispatchEvent(uv0.Event.New(uv1.SUBMARINE_DETECTED, {
-		duration = (slot0._sonarDuration - (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._sonarDetectedStartTime)) * 0.5
-	}))
-end
-
-function slot9.Undetected(slot0)
-	slot0._sonarDetectedCount = math.max(0, slot0._sonarDetectedCount - 1)
-
-	if slot0._sonarDetectedCount == 0 then
-		slot0._sonarDetectedStartTime = nil
-		slot0._sonarDuration = 0
-
-		slot0:DispatchEvent(uv0.Event.New(uv1.SUBMARINE_DETECTED, {
-			detected = false
-		}))
-	end
 end
 
 function slot9.GetSingleWeaponTagCount(slot0, slot1)
@@ -1236,6 +1211,8 @@ function slot9.UpdateOxygen(slot0, slot1)
 		end
 
 		slot0._lastOxyUpdateStamp = slot1
+
+		slot0:updateSonarExposeTag()
 	end
 end
 
@@ -1277,6 +1254,8 @@ function slot9.SetDiveInvisible(slot0, slot1)
 	slot0._diveInvisible = slot1
 
 	slot0:DispatchEvent(uv0.Event.New(uv1.SUBMARINE_VISIBLE))
+	slot0:DispatchEvent(uv0.Event.New(uv1.SUBMARINE_DETECTED))
+	slot0:dispatchDetectedTrigger()
 end
 
 function slot9.GetDiveInvisible(slot0)
@@ -1287,12 +1266,67 @@ function slot9.GetOxygenVisible(slot0)
 	return slot0._oxyState and slot0._oxyState:GetBarVisible()
 end
 
+function slot9.Detected(slot0, slot1)
+	slot2 = nil
+
+	if slot0._exposedToSnoar == false and not slot0._exposedOverTimeStamp then
+		slot2 = true
+	end
+
+	if slot1 then
+		slot0:updateExposeTimeStamp(slot1)
+	else
+		slot0._exposedToSnoar = true
+	end
+
+	if slot2 then
+		slot0:DispatchEvent(uv0.Event.New(uv1.SUBMARINE_DETECTED, {}))
+		slot0:dispatchDetectedTrigger()
+	end
+end
+
+function slot9.Undetected(slot0)
+	slot0._exposedToSnoar = false
+
+	slot0:updateExposeTimeStamp(uv0.SUB_EXPOSE_LASTING_DURATION)
+end
+
+function slot9.RemoveSonarExpose(slot0)
+	slot0._exposedToSnoar = false
+	slot0._exposedOverTimeStamp = nil
+end
+
+function slot9.updateSonarExposeTag(slot0)
+	if slot0._exposedOverTimeStamp and not slot0._exposedToSnoar and slot0._exposedOverTimeStamp < pg.TimeMgr.GetInstance():GetCombatTime() then
+		slot0._exposedOverTimeStamp = nil
+
+		slot0:DispatchEvent(uv0.Event.New(uv1.SUBMARINE_DETECTED, {
+			detected = false
+		}))
+		slot0:dispatchDetectedTrigger()
+	end
+end
+
+function slot9.updateExposeTimeStamp(slot0, slot1)
+	slot2 = pg.TimeMgr.GetInstance():GetCombatTime() + slot1
+	slot0._exposedOverTimeStamp = slot0._exposedOverTimeStamp or 0
+	slot0._exposedOverTimeStamp = slot2 < slot0._exposedOverTimeStamp and slot0._exposedOverTimeStamp or slot2
+end
+
 function slot9.IsRunMode(slot0)
 	return slot0._oxyState and slot0._oxyState:GetRundMode()
 end
 
 function slot9.GetDiveDetected(slot0)
-	return slot0:GetDiveInvisible() and slot0._sonarDetectedCount > 0
+	return slot0:GetDiveInvisible() and (slot0._exposedOverTimeStamp or slot0._exposedToSnoar)
+end
+
+function slot9.dispatchDetectedTrigger(slot0)
+	if slot0:GetDiveDetected() then
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_SUB_DETECTED, {})
+	else
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_SUB_UNDETECTED, {})
+	end
 end
 
 function slot9.GetRaidDuration(slot0)

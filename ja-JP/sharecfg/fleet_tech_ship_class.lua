@@ -1160,7 +1160,8 @@ pg.fleet_tech_ship_class = {
 			30156,
 			30157,
 			30158,
-			30182
+			30182,
+			30184
 		}
 	},
 	[30110] = {
@@ -1237,7 +1238,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30210,
 			30211,
-			30317
+			30317,
+			30318
 		}
 	},
 	[30204] = {
@@ -1424,13 +1426,14 @@ pg.fleet_tech_ship_class = {
 	},
 	[30507] = {
 		shiptype = 5,
-		name = "紀伊級",
+		name = "紀伊型",
 		t_level = 8,
 		id = 30507,
 		t_level_1 = 98,
 		nation = 3,
 		ships = {
-			30514
+			30514,
+			30512
 		}
 	},
 	[30601] = {
@@ -1480,13 +1483,15 @@ pg.fleet_tech_ship_class = {
 	},
 	[30605] = {
 		shiptype = 6,
-		name = "瑞鳳級",
+		name = "瑞鳳型",
 		t_level = 4,
 		id = 30605,
 		t_level_1 = 102,
 		nation = 3,
 		ships = {
-			30607
+			30607,
+			30608,
+			30609
 		}
 	},
 	[30701] = {
@@ -1556,6 +1561,17 @@ pg.fleet_tech_ship_class = {
 			30707
 		}
 	},
+	[30707] = {
+		shiptype = 7,
+		name = "大和型",
+		t_level = 10,
+		id = 30707,
+		t_level_1 = 110,
+		nation = 3,
+		ships = {
+			30708
+		}
+	},
 	[30801] = {
 		shiptype = 8,
 		name = "巡潜乙型",
@@ -1613,6 +1629,17 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			39904
+		}
+	},
+	[31901] = {
+		shiptype = 19,
+		name = "樫野",
+		t_level = 5,
+		id = 31901,
+		t_level_1 = 113,
+		nation = 3,
+		ships = {
+			31901
 		}
 	},
 	[40101] = {
@@ -2351,11 +2378,13 @@ pg.fleet_tech_ship_class = {
 		30704,
 		30705,
 		30706,
+		30707,
 		30801,
 		30802,
 		31201,
 		31701,
 		31801,
+		31901,
 		40101,
 		40102,
 		40103,

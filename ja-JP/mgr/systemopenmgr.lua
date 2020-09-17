@@ -33,17 +33,37 @@ function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 	uv1(slot0, slot1, slot2, slot3)
 end
 
-function slot0.isOpenSystem(slot0, slot1, slot2)
-	for slot6, slot7 in pairs(uv0.all) do
-		if uv0[slot7].mediator == slot2 and slot1 < uv0[slot7].level then
-			return false, i18n("no_open_system_tip", uv0[slot7].name, uv0[slot7].level)
-		end
-	end
+function slot4(slot0)
+	slot2 = uv0[14].name
 
-	return true
+	if uv0[14].level == slot0 then
+		if pg.StoryMgr.GetInstance():IsPlayed("ZHIHUIMIAO1") or Application.isEditor then
+			return true
+		else
+			return false, i18n("no_open_system_tip", slot2, slot1)
+		end
+	elseif slot1 < slot0 then
+		return true
+	else
+		return false, i18n("no_open_system_tip", slot2, slot1)
+	end
 end
 
-function slot4(slot0, slot1)
+function slot0.isOpenSystem(slot0, slot1, slot2)
+	if slot2 == "CommandRoomMediator" then
+		return uv0(slot1)
+	else
+		for slot6, slot7 in pairs(uv1.all) do
+			if uv1[slot7].mediator == slot2 and slot1 < uv1[slot7].level then
+				return false, i18n("no_open_system_tip", uv1[slot7].name, uv1[slot7].level)
+			end
+		end
+
+		return true
+	end
+end
+
+function slot5(slot0, slot1)
 	for slot6, slot7 in pairs(_.sort(uv0.all, function (slot0, slot1)
 		return uv0[slot1].level < uv0[slot0].level
 	end)) do

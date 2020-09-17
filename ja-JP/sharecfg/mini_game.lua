@@ -432,6 +432,19 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		name = "啾啾转转乐",
+		view_name = "RollingBallGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 14,
+		hub_id = 10,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -445,6 +458,7 @@ pg.mini_game = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }

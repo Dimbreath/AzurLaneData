@@ -121,6 +121,12 @@ function slot0.updateActivity(slot0, slot1)
 		if ActivityConst.PageIdLink[slot1.id] then
 			slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
 		else
+			slot0:flushTabs()
+
+			if slot0.pageDic[slot1.id] then
+				slot2:ActionInvoke("OnHideFulsh", slot1)
+			end
+
 			return
 		end
 	end

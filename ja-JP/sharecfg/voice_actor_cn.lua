@@ -947,5 +947,17 @@ pg.voice_actor_CN = {
 	[242] = {
 		actor_name = "田口宏子",
 		code = 242
+	},
+	[243] = {
+		actor_name = "近藤玲奈",
+		code = 243
+	},
+	[244] = {
+		actor_name = "関根瞳",
+		code = 244
+	},
+	[245] = {
+		actor_name = "小岩井ことり",
+		code = 245
 	}
 }

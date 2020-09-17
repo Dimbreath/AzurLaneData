@@ -4,6 +4,7 @@ module("p15_pb")
 
 slot2 = {
 	SC_15001_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_15001_LIMIT_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_15002_ID_FIELD = slot0.FieldDescriptor(),
 	CS_15002_COUNT_FIELD = slot0.FieldDescriptor(),
 	CS_15002_ARG_FIELD = slot0.FieldDescriptor(),
@@ -43,12 +44,23 @@ slot2.SC_15001_ITEM_LIST_FIELD.default_value = {}
 slot2.SC_15001_ITEM_LIST_FIELD.message_type = ITEMINFO
 slot2.SC_15001_ITEM_LIST_FIELD.type = 11
 slot2.SC_15001_ITEM_LIST_FIELD.cpp_type = 10
+slot2.SC_15001_LIMIT_LIST_FIELD.name = "limit_list"
+slot2.SC_15001_LIMIT_LIST_FIELD.full_name = "p15.sc_15001.limit_list"
+slot2.SC_15001_LIMIT_LIST_FIELD.number = 2
+slot2.SC_15001_LIMIT_LIST_FIELD.index = 1
+slot2.SC_15001_LIMIT_LIST_FIELD.label = 3
+slot2.SC_15001_LIMIT_LIST_FIELD.has_default_value = false
+slot2.SC_15001_LIMIT_LIST_FIELD.default_value = {}
+slot2.SC_15001_LIMIT_LIST_FIELD.message_type = ITEMINFO
+slot2.SC_15001_LIMIT_LIST_FIELD.type = 11
+slot2.SC_15001_LIMIT_LIST_FIELD.cpp_type = 10
 SC_15001.name = "sc_15001"
 SC_15001.full_name = "p15.sc_15001"
 SC_15001.nested_types = {}
 SC_15001.enum_types = {}
 SC_15001.fields = {
-	slot2.SC_15001_ITEM_LIST_FIELD
+	slot2.SC_15001_ITEM_LIST_FIELD,
+	slot2.SC_15001_LIMIT_LIST_FIELD
 }
 SC_15001.is_extendable = false
 SC_15001.extensions = {}

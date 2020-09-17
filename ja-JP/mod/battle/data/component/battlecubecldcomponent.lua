@@ -39,6 +39,13 @@ function slot1.GetCenterOffset(slot0, slot1)
 end
 
 function slot1.GetCldBox(slot0, slot1)
+	if slot1 then
+		slot0._cldData.LeftBound = slot1.x - math.abs(slot0._min.x)
+		slot0._cldData.RightBound = slot1.x + math.abs(slot0._max.x)
+		slot0._cldData.LowerBound = slot1.z - math.abs(slot0._min.z)
+		slot0._cldData.UpperBound = slot1.z + math.abs(slot0._max.z)
+	end
+
 	return slot0._box:UpdateBox(slot0._min, slot0._max, slot1)
 end
 

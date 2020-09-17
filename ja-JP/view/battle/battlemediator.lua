@@ -172,7 +172,7 @@ function slot0.onPauseBtn(slot0)
 			}
 		})
 		slot1:Pause()
-	elseif slot0.contextData.system == SYSTEM_SUBMARINE_RUN or slot0.contextData.system == SYSTEM_SUB_ROUTINE then
+	elseif slot0.contextData.system == SYSTEM_SUBMARINE_RUN or slot0.contextData.system == SYSTEM_SUB_ROUTINE or slot0.contextData.system == SYSTEM_REWARD_PERFORM then
 		slot1:Pause()
 		slot0:warnFunc(function ()
 			ys.Battle.BattleState.GetInstance():Resume()
@@ -257,6 +257,7 @@ function slot1(slot0, slot1, slot2, slot3)
 		level = slot1.level,
 		equipment = slot4,
 		properties = slot1:getProperties(slot2, slot3),
+		baseProperties = slot1:getShipProperties(),
 		proficiency = slot1:getEquipProficiencyList(),
 		rarity = slot1:getRarity(),
 		intimacy = slot1:getCVIntimacy(),
@@ -594,6 +595,7 @@ function slot0.GenBattleData(slot0)
 			slot6 = slot6 + slot11.level
 		end
 
+		BattleVertify = BattleVertify or {}
 		BattleVertify.rivalLevel = slot6
 
 		for slot10, slot11 in ipairs(slot5.mainShips) do
@@ -750,8 +752,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot8 = {}
 
 			if slot6 == SYSTEM_SCENARIO then
-				chapter = getProxy(ChapterProxy):getActiveChapter()
-				slot8 = chapter.operationBuffList
+				slot8 = getProxy(ChapterProxy):getActiveChapter().operationBuffList
 			end
 
 			slot0:addSubLayers(Context.New({

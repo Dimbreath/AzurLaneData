@@ -885,21 +885,33 @@ function slot0.GetFleetAttachmentConfig(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if not pg.map_event_template[slot5.attachmentId] then
+	return uv0.GetEventTemplateByKey(slot1, slot5.attachmentId)
+end
+
+function slot0.GetEventTemplateByKey(slot0, slot1)
+	if not pg.map_event_template[slot1] then
 		return
 	end
 
-	slot7 = {}
+	slot3 = nil
 
-	for slot11, slot12 in ipairs(slot6.effect) do
-		if slot12[1] == slot1 then
-			for slot16 = 2, #slot12 do
-				table.insert(slot7, slot12[slot16])
+	for slot7, slot8 in ipairs(slot2.effect) do
+		if slot8[1] == slot0 then
+			for slot12 = 2, #slot8 do
+				table.insert(slot3 or {}, slot8[slot12])
 			end
 		end
 	end
 
-	return slot7
+	return slot3
+end
+
+function slot0.GetCellEventByKey(slot0, slot1, slot2, slot3)
+	if not slot0.cells[ChapterCell.Line2Name(slot2 or slot0.fleet.line.row, slot3 or slot0.fleet.line.column)] then
+		return
+	end
+
+	return uv0.GetEventTemplateByKey(slot1, slot5.attachmentId)
 end
 
 function slot0.buildBattleBuffList(slot0, slot1)
@@ -1175,14 +1187,10 @@ function slot0.EliteShipTypeFilter(slot0)
 	slot2 = getProxy(BayProxy):getRawData()
 
 	for slot6, slot7 in ipairs(slot0.eliteFleetList) do
-		slot8 = #slot7
-
-		while slot8 > 0 do
-			if slot2[slot7[slot8]] == nil then
-				table.remove(slot7, slot8)
+		for slot11 = #slot7, 1, -1 do
+			if slot2[slot7[slot11]] == nil then
+				table.remove(slot7, slot11)
 			end
-
-			slot8 = slot8 - 1
 		end
 	end
 
@@ -2212,69 +2220,8 @@ function slot0.writeBack(slot0, slot1, slot2)
 		end
 
 		if slot0:CheckChapterWin() then
-			_.each(slot0.achieves, function (slot0)
-				if slot0.type == ChapterConst.AchieveType3 then
-					if _.all(_.values(uv0.cells), function (slot0)
-						if slot0.attachment == ChapterConst.AttachEnemy or slot0.attachment == ChapterConst.AttachElite or slot0.attachment == ChapterConst.AttachBoss or slot0.attachment == ChapterConst.AttachBox and pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxEnemy then
-							return slot0.flag == 1
-						end
-
-						return true
-					end) and _.all(uv0.champions, function (slot0)
-						return slot0.flag == 1
-					end) then
-						slot0.count = slot0.count + 1
-					end
-				elseif slot0.type == ChapterConst.AchieveType4 then
-					if uv0.orignalShipCount <= slot0.config then
-						slot0.count = slot0.count + 1
-					end
-				elseif slot0.type == ChapterConst.AchieveType5 then
-					if not _.any(uv0:getShips(), function (slot0)
-						return slot0:getShipType() == uv0.config
-					end) then
-						slot0.count = slot0.count + 1
-					end
-				elseif slot0.type == ChapterConst.AchieveType6 then
-					slot0.count = math.max((uv0.scoreHistory[0] or 0) + (uv0.scoreHistory[1] or 0) <= 0 and uv0.combo or 0, slot0.count or 0)
-				end
-			end)
-
-			if slot0.progress == 100 then
-				slot0.passCount = slot0.passCount + 1
-			end
-
-			slot0.progress = math.min(slot0.progress + slot0:getConfig("progress_boss"), 100)
-
-			if slot0.progress < 100 and slot8 >= 100 then
-				getProxy(ChapterProxy):RecordJustClearChapters(slot0.id, true)
-			end
-
-			slot0.defeatCount = slot0.defeatCount + 1
-
-			if not slot0:isActivity() then
-				if slot0:getMapType() == Map.ELITE then
-					pg.TrackerMgr.GetInstance():Tracking(TRACKING_HARD_CHAPTER, slot0.id)
-				elseif slot9 == Map.SCENARIO then
-					if slot0.progress == 100 and slot0.passCount == 0 then
-						pg.TrackerMgr.GetInstance():Tracking(TRACKING_HIGHEST_CHAPTER, slot0.id)
-					end
-
-					if slot0.defeatCount == 1 then
-						if slot0.id == 1204 then
-							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_12_4)
-						elseif slot0.id == 1301 then
-							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_1)
-						elseif slot0.id == 1302 then
-							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_2)
-						elseif slot0.id == 1303 then
-							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_3)
-						elseif slot0.id == 1304 then
-							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_4)
-						end
-					end
-				end
-			end
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
+			slot0:UpdateProgressOnRetreat()
 		end
 
 		if not slot6 or slot6.flag == 1 then
@@ -2301,6 +2248,72 @@ function slot0.writeBack(slot0, slot1, slot2)
 			},
 			type = slot5
 		})
+	end
+end
+
+function slot0.UpdateProgressOnRetreat(slot0)
+	_.each(slot0.achieves, function (slot0)
+		if slot0.type == ChapterConst.AchieveType3 then
+			if _.all(_.values(uv0.cells), function (slot0)
+				if slot0.attachment == ChapterConst.AttachEnemy or slot0.attachment == ChapterConst.AttachElite or slot0.attachment == ChapterConst.AttachBoss or slot0.attachment == ChapterConst.AttachBox and pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxEnemy then
+					return slot0.flag == 1
+				end
+
+				return true
+			end) and _.all(uv0.champions, function (slot0)
+				return slot0.flag == 1
+			end) then
+				slot0.count = slot0.count + 1
+			end
+		elseif slot0.type == ChapterConst.AchieveType4 then
+			if uv0.orignalShipCount <= slot0.config then
+				slot0.count = slot0.count + 1
+			end
+		elseif slot0.type == ChapterConst.AchieveType5 then
+			if not _.any(uv0:getShips(), function (slot0)
+				return slot0:getShipType() == uv0.config
+			end) then
+				slot0.count = slot0.count + 1
+			end
+		elseif slot0.type == ChapterConst.AchieveType6 then
+			slot0.count = math.max((uv0.scoreHistory[0] or 0) + (uv0.scoreHistory[1] or 0) <= 0 and uv0.combo or 0, slot0.count or 0)
+		end
+	end)
+
+	if slot0.progress == 100 then
+		slot0.passCount = slot0.passCount + 1
+	end
+
+	slot0.progress = math.min(slot0.progress + slot0:getConfig("progress_boss"), 100)
+
+	if slot0.progress < 100 and slot2 >= 100 then
+		getProxy(ChapterProxy):RecordJustClearChapters(slot0.id, true)
+	end
+
+	slot0.defeatCount = slot0.defeatCount + 1
+
+	if not slot0:isActivity() then
+		if slot0:getMapType() == Map.ELITE then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_HARD_CHAPTER, slot0.id)
+		elseif slot3 == Map.SCENARIO then
+			if slot0.progress == 100 and slot0.passCount == 0 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_HIGHEST_CHAPTER, slot0.id)
+			end
+
+			if slot0.defeatCount == 1 then
+				if slot0.id == 1204 then
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_12_4)
+				elseif slot0.id == 1301 then
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_1)
+				elseif slot0.id == 1302 then
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_2)
+				elseif slot0.id == 1303 then
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_3)
+				elseif slot0.id == 1304 then
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_4)
+				end
+			end
+		end
 	end
 end
 
@@ -2743,6 +2756,36 @@ end
 
 function slot0.IsSkipPrecombat(slot0)
 	return slot0:isLoop() and getProxy(ChapterProxy):GetSkipPrecombat()
+end
+
+function slot0.StaticIsChapterBindedActivityActive(slot0)
+	if not uv0.bindConfigTable()[slot0] then
+		return false
+	end
+
+	if not Map.StaticIsActivity(slot1.map) or uv0.StaticIsChapterRemaster(slot0) then
+		return true
+	end
+
+	if slot1.act_id == 0 then
+		return true
+	end
+
+	return getProxy(ActivityProxy):IsActivityNotEnd(slot2)
+end
+
+function slot0.StaticIsChapterRemaster(slot0)
+	for slot4, slot5 in ipairs(pg.re_map_template.all) do
+		if table.contains(pg.re_map_template[slot5].config_data, slot0) then
+			slot8 = pg.TimeMgr.GetInstance():GetServerTime()
+
+			if slot6.time == "always" or slot7:parseTimeFromConfig(slot9[2], true) <= slot8 and slot8 <= slot7:parseTimeFromConfig(slot9[3], true) then
+				return true
+			end
+		end
+	end
+
+	return false
 end
 
 function slot0.getTodayDefeatCount(slot0)

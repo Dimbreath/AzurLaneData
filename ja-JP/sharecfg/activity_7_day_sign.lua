@@ -40,7 +40,47 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[3] = {
+	{
+		id = 2,
+		front_drops = {
+			{
+				5,
+				127,
+				1
+			},
+			{
+				2,
+				18001,
+				1
+			},
+			{
+				5,
+				126,
+				1
+			},
+			{
+				2,
+				18002,
+				1
+			},
+			{
+				2,
+				18002,
+				1
+			},
+			{
+				2,
+				18003,
+				1
+			},
+			{
+				5,
+				125,
+				1
+			}
+		}
+	},
+	{
 		id = 3,
 		front_drops = {
 			{
@@ -60,12 +100,12 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[4] = {
+	{
 		id = 4,
 		front_drops = {
 			{
 				5,
-				31101,
+				32103,
 				1
 			},
 			{
@@ -75,7 +115,7 @@ pg.activity_7_day_sign = {
 			},
 			{
 				5,
-				31102,
+				32104,
 				1
 			},
 			{
@@ -85,7 +125,7 @@ pg.activity_7_day_sign = {
 			},
 			{
 				5,
-				31103,
+				32105,
 				1
 			},
 			{
@@ -95,12 +135,12 @@ pg.activity_7_day_sign = {
 			},
 			{
 				5,
-				31104,
+				32106,
 				1
 			}
 		}
 	},
-	[5] = {
+	{
 		id = 5,
 		front_drops = {
 			{
@@ -145,7 +185,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[6] = {
+	{
 		id = 6,
 		front_drops = {
 			{
@@ -185,7 +225,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[7] = {
+	{
 		id = 7,
 		front_drops = {
 			{
@@ -260,7 +300,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[8] = {
+	{
 		id = 8,
 		front_drops = {
 			{
@@ -290,7 +330,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[9] = {
+	{
 		id = 9,
 		front_drops = {
 			{
@@ -330,7 +370,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[10] = {
+	{
 		id = 10,
 		front_drops = {
 			{
@@ -405,7 +445,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[11] = {
+	{
 		id = 11,
 		front_drops = {
 			{
@@ -450,7 +490,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[12] = {
+	{
 		id = 12,
 		front_drops = {
 			{
@@ -490,7 +530,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[13] = {
+	{
 		id = 13,
 		front_drops = {
 			{
@@ -515,7 +555,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[14] = {
+	{
 		id = 14,
 		front_drops = {
 			{
@@ -530,7 +570,7 @@ pg.activity_7_day_sign = {
 			},
 			{
 				5,
-				54104,
+				54102,
 				1
 			},
 			{
@@ -550,12 +590,12 @@ pg.activity_7_day_sign = {
 			},
 			{
 				5,
-				54105,
+				54103,
 				1
 			}
 		}
 	},
-	[15] = {
+	{
 		id = 15,
 		front_drops = {
 			{
@@ -580,7 +620,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[16] = {
+	{
 		id = 16,
 		front_drops = {
 			{
@@ -620,7 +660,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[17] = {
+	{
 		id = 17,
 		front_drops = {
 			{
@@ -660,7 +700,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[18] = {
+	{
 		id = 18,
 		front_drops = {
 			{
@@ -685,53 +725,9 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	[19] = {
-		id = 19,
-		front_drops = {
-			{
-				2,
-				30024,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			},
-			{
-				2,
-				59900,
-				200
-			},
-			{
-				2,
-				16003,
-				3
-			},
-			{
-				2,
-				30025,
-				1
-			},
-			{
-				2,
-				15008,
-				1000
-			},
-			{
-				2,
-				20013,
-				1
-			},
-			{
-				2,
-				60059,
-				1
-			}
-		}
-	},
 	all = {
 		1,
+		2,
 		3,
 		4,
 		5,
@@ -747,7 +743,6 @@ pg.activity_7_day_sign = {
 		15,
 		16,
 		17,
-		18,
-		19
+		18
 	}
 }

@@ -725,4 +725,25 @@ function slot0.getFleetAirDominanceValue(slot0)
 	return slot1
 end
 
+function slot0.StaticTransformChapterFleet2Fleet(slot0, slot1)
+	slot8 = TeamType.Main
+	slot7 = "id"
+
+	table.insertto(_.pluck(slot0:getShipsByTeam(TeamType.Vanguard, slot1), "id"), _.pluck(slot0:getShipsByTeam(slot8, slot1), slot7))
+
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0.commanders) do
+		table.insert(slot3, {
+			pos = slot7,
+			id = slot8 and slot8.id
+		})
+	end
+
+	return Fleet.New({
+		ship_list = slot2,
+		commanders = slot3
+	})
+end
+
 return slot0

@@ -31,10 +31,12 @@ end
 function slot0.OnInit(slot0)
 	slot0.furnitureModals = {}
 	slot0.followeModals = {}
+	slot0.scrollView = slot0:findTF("scroll_view")
 	slot0.bg = slot0:findTF("bg")
 	slot0.floorContain = slot0:findTF("bg/furContain/floor")
 	slot0.floorGrid = slot0:findTF("bg/floorGrid")
 	slot0.furContain = slot0:findTF("bg/furContain")
+	slot0.sortGroup = slot0:findTF("sort_group", slot0.furContain)
 	slot0.wallContain = slot0:findTF("bg/furContain/wall")
 	slot0.carpetContain = slot0:findTF("bg/furContain/carpet")
 	slot0.decorationBtn = slot0:findTF("decorateBtn")
@@ -67,13 +69,15 @@ function slot0.enableDecorateMode(slot0, slot1)
 	slot0.decorateMode = slot1
 
 	setActive(slot0.backBtn, slot1)
-	SetActive(slot0.floorGrid, slot1)
 	setActive(slot0.eyeBtn, not slot1)
+
+	GetComponent(slot0.road, typeof(Button)).enabled = not slot1
+
 	slot0.shipsView:EnableTouch(slot1)
 
-	for slot5, slot6 in pairs(slot0.furnitureModals or {}) do
-		if not slot0.furnitureVOs[slot5]:canBeTouch() then
-			slot6:EnableTouch(slot1)
+	for slot6, slot7 in pairs(slot0.furnitureModals or {}) do
+		if not slot0.furnitureVOs[slot6]:canBeTouch() then
+			slot7:EnableTouch(slot1)
 		end
 	end
 
@@ -89,16 +93,16 @@ function slot0.enableDecorateMode(slot0, slot1)
 		slot0.map.afterSortFunc(slot0.map.sortedItems)
 	end
 
-	slot2 = slot0:findTF("bg")
+	slot3 = slot0:findTF("bg")
 
 	if slot1 then
 		slot0.prevScale = slot0.bg.localScale.x
-		slot3 = slot0.zoom.minZoom
-		slot0.bg.localScale = Vector3(slot3, slot3, slot3)
-		slot2.sizeDelta = Vector2(slot2.sizeDelta.x, slot2.sizeDelta.y + 300)
+		slot4 = slot0.zoom.minZoom
+		slot0.bg.localScale = Vector3(slot4, slot4, slot4)
+		slot3.sizeDelta = Vector2(slot3.sizeDelta.x, slot3.sizeDelta.y + 300)
 	elseif not slot1 and slot0.prevScale then
 		slot0.bg.localScale = Vector3(slot0.prevScale, slot0.prevScale, slot0.prevScale)
-		slot2.sizeDelta = Vector2(slot2.sizeDelta.x, slot2.sizeDelta.y - 300)
+		slot3.sizeDelta = Vector2(slot3.sizeDelta.x, slot3.sizeDelta.y - 300)
 	end
 
 	setActive(slot0.leftPanel, not slot1)
@@ -108,7 +112,7 @@ function slot0.enableDecorateMode(slot0, slot1)
 end
 
 function slot0.OnDidEnter(slot0)
-	onButton(slot0, slot0.floorGrid, function ()
+	onButton(slot0, slot0.scrollView, function ()
 		if uv0.isDraging then
 			return
 		end
@@ -152,6 +156,8 @@ function slot0.OnDidEnter(slot0)
 		end
 	end, SFX_CANCEL)
 	slot0:initHouse()
+	pg.BackYardSortMgr.GetInstance():InitUISortingOrder(slot0.scrollView, slot0.bg)
+	pg.BackYardSortMgr.GetInstance():Init(slot0.sortGroup, slot0.floorContain, slot0.furnitureModals, slot0.shipsView.shipModels, slot0.map)
 end
 
 function slot0.save(slot0)
@@ -190,7 +196,7 @@ function slot0.updateHouseArea(slot0, slot1)
 	slot2 = slot0:findTF("bg")
 	slot2.sizeDelta = Vector2(slot2.sizeDelta.x, 1080 + (slot1 - 1) * 150)
 
-	scrollTo(slot0._tf, 0.5, 0.5)
+	scrollTo(slot0.scrollView, 0.5, 0.5)
 
 	if slot1 <= 0 or slot1 > 3 then
 		SetActive(slot0.warn, false)
@@ -241,17 +247,8 @@ function slot0.createMap(slot0, slot1, slot2)
 	slot3 = pg.IsometricMap.New(slot1, slot2)
 
 	slot3:SetAfterFunc(function (slot0)
-		slot1 = 0
-
-		for slot5, slot6 in ipairs(slot0) do
-			if not slot6.ob.isBoat then
-				uv0.furnitureModals[slot6.ob.id]:SetSiblingIndex(slot1)
-			end
-
-			slot1 = slot1 + 1
-		end
-
 		uv0.shipsView:ReSort()
+		pg.BackYardSortMgr.GetInstance():SortHandler()
 	end)
 
 	return slot3
@@ -646,7 +643,8 @@ function slot0.furnitureBeginDrag(slot0, slot1)
 			return
 		end
 
-		slot1:SetParent(uv0.floorContain, true)
+		pg.BackYardSortMgr.GetInstance():AddToTopSortGroup(slot1)
+		pg.BackYardSortMgr.GetInstance():ClearFurModel(slot1)
 	end(slot1)
 end
 
@@ -1005,14 +1003,12 @@ function slot0.OnWillExit(slot0)
 		Destroy(slot0.baseBG)
 	end
 
-	if not IsNil(slot0.floorGrid) then
-		setActive(slot0.floorGrid, false)
-	end
-
+	setButtonEnabled(slot0.decorationBtn, true)
 	slot0.wallPaperModel:dispose()
 	slot0.floorPaperModel:dispose()
 	slot0.msgBoxWindow:Destroy()
 	slot0.furnitureDescWindow:Destroy()
+	pg.BackYardSortMgr.GetInstance():Dispose()
 end
 
 return slot0

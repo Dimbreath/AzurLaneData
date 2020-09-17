@@ -159,4 +159,17 @@ function slot0.addTranDrop(slot0)
 	return slot1
 end
 
+function slot0.BonusItemMarker(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0) do
+		if slot6.type == DROP_TYPE_VITEM and slot6:getConfig("virtual_type") == 20 then
+			slot6.catchupActTag = slot1[slot6.id]
+			slot1[slot6.id] = true
+		end
+	end
+
+	return slot0
+end
+
 return slot0

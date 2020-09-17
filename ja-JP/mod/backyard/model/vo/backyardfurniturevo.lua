@@ -678,6 +678,10 @@ function slot0.hasParent(slot0)
 	return slot0.parent ~= 0
 end
 
+function slot0.is3DObject(slot0)
+	return slot0:getConfig("is_3d_obj") == 1
+end
+
 function slot0.isFloor(slot0)
 	return slot0:getConfig("belong") == uv0.FLOOR
 end

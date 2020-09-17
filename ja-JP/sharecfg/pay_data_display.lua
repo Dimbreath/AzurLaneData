@@ -35,7 +35,8 @@ pg.pay_data_display = {
 				1
 			}
 		},
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -88,7 +89,8 @@ pg.pay_data_display = {
 				20001,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -109,7 +111,8 @@ pg.pay_data_display = {
 		extra_gem = 0,
 		id = 3,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -130,7 +133,8 @@ pg.pay_data_display = {
 		extra_gem = 30,
 		id = 4,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -151,7 +155,8 @@ pg.pay_data_display = {
 		extra_gem = 150,
 		id = 5,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -172,7 +177,8 @@ pg.pay_data_display = {
 		extra_gem = 360,
 		id = 6,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -193,7 +199,8 @@ pg.pay_data_display = {
 		extra_gem = 880,
 		id = 7,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -214,7 +221,8 @@ pg.pay_data_display = {
 		extra_gem = 2500,
 		id = 8,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -307,7 +315,8 @@ pg.pay_data_display = {
 				4,
 				2018
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -400,7 +409,8 @@ pg.pay_data_display = {
 				1,
 				3000
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -493,7 +503,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -586,7 +597,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -679,7 +691,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -772,7 +785,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -865,7 +879,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -963,7 +978,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -1056,7 +1072,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -1154,7 +1171,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -1247,7 +1265,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -1325,7 +1344,8 @@ pg.pay_data_display = {
 				100001,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -1428,7 +1448,8 @@ pg.pay_data_display = {
 				30121,
 				4
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -1536,7 +1557,8 @@ pg.pay_data_display = {
 				30121,
 				8
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -1634,7 +1656,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	all = {
 		1,

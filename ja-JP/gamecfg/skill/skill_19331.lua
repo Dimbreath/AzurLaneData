@@ -21,6 +21,15 @@ return {
 				arg_list = {
 					buff_id = 19332
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
+				}
 			}
 		}
 	},
@@ -45,6 +54,15 @@ return {
 				},
 				arg_list = {
 					buff_id = 19332
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
 				}
 			}
 		}
@@ -71,6 +89,15 @@ return {
 				arg_list = {
 					buff_id = 19332
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
+				}
 			}
 		}
 	},
@@ -95,6 +122,15 @@ return {
 				},
 				arg_list = {
 					buff_id = 19332
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
 				}
 			}
 		}
@@ -121,6 +157,15 @@ return {
 				arg_list = {
 					buff_id = 19332
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
+				}
 			}
 		}
 	},
@@ -145,6 +190,15 @@ return {
 				},
 				arg_list = {
 					buff_id = 19332
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
 				}
 			}
 		}
@@ -171,6 +225,15 @@ return {
 				arg_list = {
 					buff_id = 19332
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
+				}
 			}
 		}
 	},
@@ -195,6 +258,15 @@ return {
 				},
 				arg_list = {
 					buff_id = 19332
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
 				}
 			}
 		}
@@ -221,6 +293,15 @@ return {
 				arg_list = {
 					buff_id = 19332
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
+				}
 			}
 		}
 	},
@@ -245,6 +326,15 @@ return {
 				},
 				arg_list = {
 					buff_id = 19332
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 19333
 				}
 			}
 		}

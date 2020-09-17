@@ -24,6 +24,14 @@ pg.item_data_chat = {
 		desc = "Second　Anniversary！\n<color=#A7A7AAFF>二周年記念イベントで開放可能</color>",
 		scene = {}
 	},
+	[103] = {
+		name = "三周年記念",
+		time_second = 0,
+		id = 103,
+		time_limit_type = 0,
+		desc = "Third　Anniversary！\n<color=#A7A7AAFF>三周年記念イベントで開放可能</color>",
+		scene = {}
+	},
 	[300] = {
 		name = "カリスマ指揮官",
 		time_second = 2592000,
@@ -44,6 +52,7 @@ pg.item_data_chat = {
 		0,
 		101,
 		102,
+		103,
 		300,
 		301
 	}

@@ -144,6 +144,13 @@ function slot0.didEnter(slot0)
 	onNextTick(function ()
 		uv0:uiStartAnimating()
 	end)
+	onButton(slot0, slot0:findTF("middle/gear_score/vanguard/SonarTip"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.fleet_antisub_range_tip.tip,
+			weight = LayerWeightConst.SECOND_LAYER
+		})
+	end, SFX_PANEL)
 end
 
 function slot0.onBackPressed(slot0)
@@ -693,6 +700,13 @@ function slot0.displayFleetInfo(slot0)
 			setActive(uv0._operaionBuffTips, not uv0._operaionBuffTips.gameObject.activeSelf)
 			setText(uv0._operaionBuffTips:Find("Text"), uv0.chapter:GetOperationDesc())
 		end)
+	end
+
+	setActive(slot0:findTF("middle/gear_score/vanguard"):Find("SonarActive"), ChapterFleet.StaticTransformChapterFleet2Fleet(slot1):GetFleetSonarRange() > 0)
+	setActive(slot10:Find("SonarInactive"), slot12 <= 0)
+
+	if slot12 > 0 then
+		setText(slot10:Find("SonarActive/Text"), math.floor(slot12))
 	end
 end
 

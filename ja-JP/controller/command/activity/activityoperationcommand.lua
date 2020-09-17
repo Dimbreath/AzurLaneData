@@ -182,6 +182,8 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			getProxy(BuildShipProxy):addBuildShip(BuildShip.New(slot15))
 		end
 
+		slot3.data1 = slot3.data1 + slot1.arg1
+
 		slot0:sendNotification(GAME.BUILD_SHIP_DONE)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SHOP then
 		slot8 = getProxy(ShopsProxy)
@@ -384,6 +386,51 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 
 		if slot9 < #pg.activity_event_building[slot1.arg1].buff then
 			slot3.data1KeyValueList[1][slot10] = math.max((slot3.data1KeyValueList[1][slot8.material_id] or 0) - slot8.material[slot9], 0)
+		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_EXPEDITION then
+		if slot1.cmd == 0 then
+			return slot3
+		end
+
+		if slot1.cmd == 3 then
+			slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
+				statistics = slot1.statistics,
+				score = slot1.statistics._battleScore,
+				system = SYSTEM_REWARD_PERFORM
+			})
+
+			return slot3
+		end
+
+		if slot1.cmd == 4 then
+			slot3.data2_list[1] = slot3.data2_list[1] + 1
+
+			return slot3
+		end
+
+		if slot1.cmd == 1 then
+			slot3.data3 = slot3.data3 - 1
+		end
+
+		slot8 = slot1.arg1
+
+		if slot1.cmd ~= 2 then
+			slot3.data2 = slot8
+		end
+
+		slot3.data1_list[slot8] = slot2.number[1]
+
+		print("格子:" .. slot8 .. " 值:" .. slot2.number[1])
+
+		if slot2.number[2] and slot3.data1 ~= slot2.number[2] then
+			print("关卡变更" .. slot2.number[2])
+
+			slot3.data1 = slot3.data1 + 1
+			slot3.data2 = 0
+
+			for slot13 = 1, #slot3.data1_list do
+				slot3.data1_list[slot13] = 0
+			end
 		end
 	end
 

@@ -32,6 +32,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>次の1000日もよろしくピョ！</color>\n　アズールレーン配信1000日記念チャットフレーム",
 		scene = {}
 	},
+	[104] = {
+		name = "三周年記念",
+		time_second = 0,
+		id = 104,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Third　Anniversary！</color>\n　三周年記念イベントで開放可能",
+		scene = {}
+	},
 	[201] = {
 		name = "チャレンジャー",
 		time_second = 0,
@@ -160,6 +168,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>王家と、女王陛下の栄光のために！  </color>\n――「極夜照らす幻光 」イベントで入手可能",
 		scene = {}
 	},
+	[311] = {
+		name = "蝶影蜃楼",
+		time_second = 0,
+		id = 311,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「例えいつか覚める夢だろうと、この希望は――長く、永く……」</color>――「刹那觀る胡蝶の夢」イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		time_second = 0,
@@ -189,6 +205,7 @@ pg.item_data_frame = {
 		101,
 		102,
 		103,
+		104,
 		201,
 		202,
 		203,
@@ -205,6 +222,7 @@ pg.item_data_frame = {
 		307,
 		308,
 		309,
+		311,
 		401,
 		402,
 		403

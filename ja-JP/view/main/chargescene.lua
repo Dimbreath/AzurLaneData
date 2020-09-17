@@ -296,7 +296,9 @@ function slot0.initDamondsData(slot0)
 	slot0.damondItemVOs = {}
 
 	for slot5, slot6 in pairs(pg.pay_data_display.all) do
-		if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US or not pg.SdkMgr.GetInstance():CheckAudit() or slot6 ~= 1 then
+		if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():CheckAudit() and slot6 == 1 then
+			-- Nothing
+		elseif not pg.SdkMgr.GetInstance():IgnorePlatform(slot1[slot6].ignorePlatform) then
 			table.insert(slot0.damondItemVOs, Goods.Create({
 				shop_id = slot6
 			}, Goods.TYPE_CHARGE))

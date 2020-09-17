@@ -29,7 +29,7 @@ function slot1.MakeModel(slot0, slot1)
 		uv1:MakeWaveFX(uv0)
 		uv1:MakeSmokeFX(uv0)
 		uv1:MakeArrowBar(uv0)
-		uv0:UpdateDiveInvisible()
+		uv0:UpdateDiveInvisible(true)
 
 		for slot6, slot7 in ipairs(uv3:GetTemplate().appear_fx) do
 			uv0:AddFX(slot7)

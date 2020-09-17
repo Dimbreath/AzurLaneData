@@ -10,7 +10,9 @@ pg.class_upgrade_group = {
 			1,
 			12,
 			8,
-			17
+			12,
+			17,
+			19
 		}
 	},
 	{
@@ -25,7 +27,8 @@ pg.class_upgrade_group = {
 			9,
 			11,
 			12,
-			18
+			18,
+			19
 		}
 	},
 	{
@@ -63,7 +66,9 @@ pg.class_upgrade_group = {
 			1,
 			12,
 			8,
-			17
+			12,
+			17,
+			19
 		}
 	},
 	{
@@ -78,7 +83,8 @@ pg.class_upgrade_group = {
 			9,
 			11,
 			12,
-			18
+			18,
+			19
 		}
 	},
 	{

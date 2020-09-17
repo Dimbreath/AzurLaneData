@@ -141,39 +141,47 @@ function slot0.sortTasks(slot0)
 		return slot3(slot0) < slot3(slot1)
 	end
 
+	function slot2(slot0)
+		return slot0:IsUrTask() and 1 or 0
+	end
+
 	table.sort(slot0.taskVOs, function (slot0, slot1)
 		if slot0:getTaskStatus() == slot1:getTaskStatus() then
 			if (slot0.id == 10302 and 1 or 0) == (slot1.id == 10302 and 1 or 0) then
-				if slot0:getConfig("type") == slot1:getConfig("type") then
-					return slot0.id < slot1.id
-				elseif slot0:getTaskStatus() == 0 then
-					return uv0(slot0:getConfig("type"), slot1:getConfig("type"), {
-						26,
-						36,
-						6,
-						3,
-						4,
-						5,
-						2,
-						1
-					})
-				elseif slot0:getTaskStatus() == 1 then
-					return uv0(slot0:getConfig("type"), slot1:getConfig("type"), {
-						26,
-						36,
-						6,
-						1,
-						4,
-						2,
-						5,
-						3
-					})
+				if uv0(slot0) == uv0(slot1) then
+					if slot0:getConfig("type") == slot1:getConfig("type") then
+						return slot0.id < slot1.id
+					elseif slot0:getTaskStatus() == 0 then
+						return uv1(slot0:getConfig("type"), slot1:getConfig("type"), {
+							26,
+							36,
+							6,
+							3,
+							4,
+							5,
+							2,
+							1
+						})
+					elseif slot0:getTaskStatus() == 1 then
+						return uv1(slot0:getConfig("type"), slot1:getConfig("type"), {
+							26,
+							36,
+							6,
+							1,
+							4,
+							2,
+							5,
+							3
+						})
+					end
+				else
+					return slot5 < slot4
 				end
 			else
 				return slot3 < slot2
 			end
 		else
-			return uv0(slot0:getTaskStatus(), slot1:getTaskStatus(), {
+			return uv1(slot0:getTaskStatus(), slot1:getTaskStatus(), {
 				1,
 				0,
 				2

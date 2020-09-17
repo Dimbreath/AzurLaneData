@@ -84,9 +84,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域における経験値入手+3%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				1,
+				5,
 				1
 			}
 		}
@@ -101,9 +101,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域における経験値入手+4%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				1,
+				5,
 				2
 			}
 		}
@@ -118,9 +118,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域における経験値入手+5%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				1,
+				5,
 				3
 			}
 		}
@@ -135,9 +135,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域で与えるダメージ+1%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				2,
+				6,
 				1
 			}
 		}
@@ -152,9 +152,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域で与えるダメージ+2%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				2,
+				6,
 				2
 			}
 		}
@@ -169,9 +169,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域で与えるダメージ+3%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				2,
+				6,
 				3
 			}
 		}
@@ -186,9 +186,9 @@ pg.benefit_buff_template = {
 		desc = "戦術教室でスキルを強化する場合、所要時間-3%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				3,
+				7,
 				1
 			}
 		}
@@ -203,9 +203,9 @@ pg.benefit_buff_template = {
 		desc = "戦術教室でスキルを強化する場合、所要時間-4%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				3,
+				7,
 				2
 			}
 		}
@@ -220,9 +220,9 @@ pg.benefit_buff_template = {
 		desc = "戦術教室でスキルを強化する場合、所要時間-5%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				3,
+				7,
 				3
 			}
 		}
@@ -237,9 +237,9 @@ pg.benefit_buff_template = {
 		desc = "寮舎経験値入手＋3％",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				4,
+				8,
 				1
 			}
 		}
@@ -254,9 +254,9 @@ pg.benefit_buff_template = {
 		desc = "寮舎経験値入手＋4％",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				4,
+				8,
 				2
 			}
 		}
@@ -271,12 +271,22 @@ pg.benefit_buff_template = {
 		desc = "寮舎経験値入手＋5％",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				4,
+				8,
 				3
 			}
 		}
+	},
+	[25] = {
+		max_time = 0,
+		name = "活动关卡特装原型掉落加成",
+		icon = "Props/buff_urptup",
+		benefit_effect = "0",
+		id = 25,
+		benefit_condition = "",
+		benefit_type = "urpt_drop_up",
+		desc = "「刹那觀る胡蝶の夢」イベントステージにて入手できる「特装コア（ブリ集め）」は2倍になります"
 	},
 	all = {
 		1,
@@ -297,6 +307,7 @@ pg.benefit_buff_template = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

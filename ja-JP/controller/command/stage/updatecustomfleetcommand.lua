@@ -5,7 +5,7 @@ function slot0.execute(slot0, slot1)
 	slot4 = slot2.callback
 	slot6 = getProxy(BayProxy):getRawData()
 	slot8 = getProxy(ChapterProxy):getChapterById(slot2.chapterId)
-	slot9 = slot8:getConfig("map")
+	slot9 = slot8:getConfig("formation")
 	slot11 = slot8:getEliteFleetCommanders()
 	slot12 = {}
 

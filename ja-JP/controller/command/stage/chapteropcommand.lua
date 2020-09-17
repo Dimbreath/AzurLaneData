@@ -92,6 +92,12 @@ function slot0.execute(slot0, slot1)
 				uv0:doExtraFlagUpdate()
 
 				if uv1.type == ChapterConst.OpRetreat then
+					slot4 = pg.TimeMgr.GetInstance()
+
+					if uv1.win and Map.IsType(slot3:getConfig("map"), Map.ELITE) and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
+						getProxy(DailyLevelProxy):EliteCountPlus()
+					end
+
 					if slot3:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot3:isValid()) then
 						slot3:retreat(uv1.win)
 						slot3:clearSubChapter()
@@ -108,6 +114,7 @@ function slot0.execute(slot0, slot1)
 				elseif uv1.type == ChapterConst.OpMove then
 					uv0:doCollectAI()
 					uv0:doMove()
+					uv0:doTeleportByPortal()
 				elseif uv1.type == ChapterConst.OpBox then
 					uv0:doCollectAI()
 					uv0:doOpenBox()
@@ -136,6 +143,7 @@ function slot0.execute(slot0, slot1)
 					uv0:doSkipBattle()
 				elseif uv1.type == ChapterConst.OpSubTeleport then
 					uv0:doTeleportSub()
+					uv0:doTeleportByPortal()
 				end
 
 				if uv1.type ~= ChapterConst.OpEnemyRound and uv1.type ~= ChapterConst.OpMove then
@@ -157,7 +165,8 @@ function slot0.execute(slot0, slot1)
 					oldLine = uv1.ordLine,
 					extraFlagRemoveList = slot0.del_flag_list,
 					extraFlagAddList = slot0.add_flag_list,
-					win = uv1.win
+					win = uv1.win,
+					teleportPaths = uv0.teleportPaths
 				})
 			end
 		else

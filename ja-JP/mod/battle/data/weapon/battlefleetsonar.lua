@@ -105,7 +105,7 @@ function slot9.Detect(slot0)
 	slot0._currentState = uv0.STATE_DETECTING
 
 	for slot5, slot6 in ipairs(slot0:FilterTarget()) do
-		slot6:Detected(slot0._duration)
+		slot6:Detected(10)
 	end
 
 	slot0._detectedList = slot1
