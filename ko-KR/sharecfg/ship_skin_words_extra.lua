@@ -1401,7 +1401,6 @@ pg.ship_skin_words_extra = {
 		feeling4 = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
@@ -1420,6 +1419,12 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"지쳤구나... 너무 무리해선 안돼. 모든 걸 나에게 맡기고, 넌 누워서 좀 쉬어."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"어머, 어리광을 피우고 싶은 거야?"
 			}
 		},
 		detail = {

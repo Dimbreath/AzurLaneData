@@ -30,17 +30,17 @@ function slot1.UpdateMapItems()
 	error("Decompilation failed")
 	-- Exception in function building!
 	-- Traceback (most recent call last):
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 856, in _build_function
+	-- File "utils/luajit/ljd/ast/builder.py", line 856, in _build_function
 	--     return _build_function_definition(prototype, state.header)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 54, in _build_function_definition
+	-- File "utils/luajit/ljd/ast/builder.py", line 54, in _build_function_definition
 	--     node.statements.contents = _build_function_blocks(state, instructions)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 75, in _build_function_blocks
+	-- File "utils/luajit/ljd/ast/builder.py", line 75, in _build_function_blocks
 	--     _blockenize(state, instructions)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 143, in _blockenize
+	-- File "utils/luajit/ljd/ast/builder.py", line 143, in _blockenize
 	--     _fix_broken_unary_expressions(state, instructions)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 1242, in _fix_broken_unary_expressions
+	-- File "utils/luajit/ljd/ast/builder.py", line 1242, in _fix_broken_unary_expressions
 	--     _remove_instruction(state, instructions, i + 1)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 1265, in _remove_instruction
+	-- File "utils/luajit/ljd/ast/builder.py", line 1265, in _remove_instruction
 	--     state.debuginfo.addr_to_line_map.pop(index)
 	-- IndexError: pop from empty list
 end

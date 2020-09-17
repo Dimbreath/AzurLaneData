@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印第的笑容！\n\n<size=45>一 印第强化周开始！</size>",
+					"인디짱의 스마일을 위해!\n\n<size=45>1. 인디짱 강화 시작!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "모항·지휘실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "指挥官，怎么样～？这点子不错吧！",
+			say = "지휘관, 어때요~? 이거 괜찮죠!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 103070,
 			nameColor = "#a9f548",
-			say = "姐姐……怎么又拿这么多过来……",
+			say = "언니...... 뭘 또 이렇게나 많이 가져왔어......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			say = "为了让大家知道印第有多可爱，多少办法我都想得出！",
+			say = "모두에게 인디짱이 얼마나 귀여운지를 알리기 위해서라면 방법은 얼마든지 생각해낼 수 있어!",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，这次你要做什么？",
+			say = "그래서, 이번엔 뭘 할 건데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印第的量产周边！相片、钥匙链，还有抱枕套！",
+			say = "인디짱 굿즈를 만드는 거야! 사진, 열쇠고리, 그리고 쿠션 커버까지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "办公桌上堆满了印第周边的企划书。",
+			say = "사무용 탁자에 인디의 굿즈 기획서가 가득 쌓여있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不管被驳回了多少次，波特兰还是决不放弃，每天都闯进来。",
+			say = "몇 번의 거절도 아랑곳하지 않는 포틀랜드는 절대 포기하지 않고 매일 도전한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱枕套…这也太羞耻了…",
+			say = "쿠션 커버... 이것도 너무 창피해...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "关键人物波利斯看起来毫无兴致，但波特兰并不在意。",
+			say = "인디애나폴리스는 전혀 흥미가 없어 보이지만, 포틀랜드는 개의치 않는다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么不行呀～！我只是想让大家了解印第而已嘛！",
+			say = "왜 안돼~! 난 단지 모두를 인디짱에 대해서 잘 알게 해주고 싶을 뿐이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			say = "有这份心我很高兴，但这也太极端了…",
+			say = "마음은 잘 알았고 기쁘지만, 이건 너무 극단적이야......",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实，我想交更多的朋友，想让更多人了解我。",
+			say = "확실히, 나는 더 많은 친구를 사귀어서, 더 많은 사람들이 나를 알게 하고 싶어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这个方法实在有点……",
+			say = "하지만, 이 방법은 좀......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "你听见了吗？！指挥官！印第想让大家了解自己！",
+			say = "들었어요!? 지휘관!? 인디짱이 사람들이 자신을 알게 하고 싶대요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "对了！既然如此，就由我们来支援印第，直到她的粉丝变多为止！",
+			say = "아 참! 이왕 이렇게 된 김에, 저희가 인디짱을 지원해 줘요. 팬들이 엄청 많아질 때까지 쭉!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要开始咯！印第强化周！",
+			say = "그럼 시작해요! 인디짱 강화를!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "波特兰眼睛里的光芒熠熠闪光。虽然已经预见到不会有什么好结果，不过……",
+			say = "포틀랜드의 눈이 반짝반짝 빛났다. 이미 좋은 결과 같은 건 없을 거란 걸 예감했지만......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "如果这样能让波利斯——以及波特兰增加朋友的话，就帮帮她们好了。",
+			say = "이렇게 해서 포틀랜드가 기분이 좋고, 친구도 많아질 수 있다면, 도와줘야겠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连指挥官都……要是姐姐乱来的话，要马上制止她哦？",
+			say = "지휘관까지...... 만약 언니가 너무 막 나가면, 저지해 줘야 해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			say = "没关系的！相信姐姐！",
+			say = "괜찮아! 언니를 믿어!",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定会让大家都喜欢上印第的~！",
+			say = "분명히 모두 인디짱을 좋아할 거라구~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是担心这个啦……",
+			say = "그걸 걱정하는 게 아닌데......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

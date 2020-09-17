@@ -13926,6 +13926,7 @@ pg.activity_template = {
 	[20516] = {
 		mark = 20200827,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -13940,38 +13941,12 @@ pg.activity_template = {
 			1400011,
 			1400012,
 			1400013
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20517] = {
 		mark = 20200827,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -13988,38 +13963,12 @@ pg.activity_template = {
 			1400016,
 			1400017,
 			1400021
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20518] = {
 		mark = 20200827,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -14045,33 +13994,6 @@ pg.activity_template = {
 			15865,
 			15866,
 			15867
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20519] = {
@@ -14278,6 +14200,7 @@ pg.activity_template = {
 	[20523] = {
 		mark = 20200827,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -14285,37 +14208,11 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 20523,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[20524] = {
 		mark = 20200827,
+		time = "stop",
 		type = 72,
 		login_pop = 0,
 		config_id = 5,
@@ -14323,33 +14220,6 @@ pg.activity_template = {
 		config_data = "",
 		title_res_tag = "u556",
 		id = 20524,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RedPocketShipPage",
 			ui_name = "redpocketshippage"
@@ -14378,6 +14248,7 @@ pg.activity_template = {
 	},
 	[20525] = {
 		mark = 20200827,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -14422,33 +14293,6 @@ pg.activity_template = {
 				15885
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "U73SkinRePage",
 			ui_name = "u73skinRepage"
@@ -14480,6 +14324,7 @@ pg.activity_template = {
 	[20526] = {
 		mark = 20200827,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -14489,37 +14334,11 @@ pg.activity_template = {
 		id = 20526,
 		config_data = {
 			15886
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20527] = {
 		mark = 20200827,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -14583,13 +14402,323 @@ pg.activity_template = {
 			15940,
 			15941
 		},
+		page_info = {
+			class_name = "BismarckChapterPage",
+			ui_name = "BismarckChapterPage"
+		},
+		config_client = {
+			15887,
+			15888
+		}
+	},
+	[20528] = {
+		mark = 20200910,
+		page_info = "",
+		type = 52,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 20528,
+		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2020,
-					8,
-					27
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			story = {
+				{
+					10000,
+					"AISAIKESIBOSS1"
+				},
+				{
+					7500,
+					"AISAIKESIBOSS2"
+				},
+				{
+					5000,
+					"AISAIKESIBOSS3"
+				},
+				{
+					2500,
+					"AISAIKESIBOSS4"
+				},
+				{
+					0,
+					"AISAIKESIBOSS5"
+				}
+			}
+		}
+	},
+	[20529] = {
+		mark = 20200910,
+		page_info = "",
+		type = 46,
+		login_pop = 0,
+		config_id = 2006,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 20529,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20530] = {
+		mark = 20200910,
+		page_info = "",
+		type = 54,
+		login_pop = 0,
+		config_id = 20530,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20530,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20531] = {
+		mark = 20200910,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20531,
+		config_data = {
+			15756,
+			15757,
+			15758,
+			15759,
+			15760
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20532] = {
+		mark = 20200910,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_20532",
+		title_res_tag = "",
+		id = 20532,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "샹그릴라, U-101등 캐릭터 건조 확률UP!",
+			rate_tip = {
+				"<color=#ffde38>SS Rare</color>：7%",
+				"<color=#d797ff>S Rare</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Normal：30%",
+				"<color=#ffde38>샹그릴라</color>：1.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>에식스</color>：1.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>이168</color>：1.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>U-101</color>：1.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>이25</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>이56</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[20533] = {
+		mark = 20200709,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20533,
+		config_data = {
+			14675
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20534] = {
+		mark = 20200709,
+		page_info = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 20535,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20534,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
 				},
 				{
 					0,
@@ -14608,15 +14737,205 @@ pg.activity_template = {
 					59,
 					59
 				}
+			},
+			1,
+			1,
+			{
+				times,
+				15
+			}
+		}
+	},
+	[20535] = {
+		mark = 20200709,
+		page_info = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20535,
+		config_data = {
+			20533
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20536] = {
+		mark = 20200917,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20536,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20537] = {
+		mark = 20200917,
+		type = 54,
+		login_pop = 0,
+		config_id = 20537,
+		is_show = 7,
+		title_res_tag = "Shinano_frame",
+		id = 20537,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		page_info = {
-			class_name = "BismarckChapterPage",
-			ui_name = "BismarckChapterPage"
+			class_name = "ShinanoframePage",
+			ui_name = "ShinanoframePage"
 		},
 		config_client = {
-			15887,
-			15888
+			timer,
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20539] = {
+		mark = 20200917,
+		type = 69,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 6,
+		title_res_tag = "Neptune_catchup",
+		id = 20539,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "IzumoTecCatchupPage",
+			ui_name = "IzumoTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42004
 		}
 	},
 	[25000] = {
@@ -15339,6 +15658,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[25045] = {
+		mark = 20200910,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5511,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 25045,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[29006] = {
 		mark = 20200624,
 		time = "stop",
@@ -15890,6 +16225,17 @@ pg.activity_template = {
 		20525,
 		20526,
 		20527,
+		20528,
+		20529,
+		20530,
+		20531,
+		20532,
+		20533,
+		20534,
+		20535,
+		20536,
+		20537,
+		20539,
 		25000,
 		25001,
 		25002,
@@ -15935,6 +16281,7 @@ pg.activity_template = {
 		25042,
 		25043,
 		25044,
+		25045,
 		29006
 	}
 }

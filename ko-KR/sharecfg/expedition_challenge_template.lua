@@ -270,6 +270,132 @@ pg.expedition_challenge_template = {
 		},
 		bufficon = {}
 	},
+	[10016] = {
+		challenge = 10000,
+		index = 16,
+		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
+		type_name_p = "",
+		name_p = "10016",
+		id = 10016,
+		dungeon_id = 5024,
+		char_icon = {
+			"jiahe"
+		},
+		chapter_name = {
+			"Challenge",
+			"  한계 챌린지",
+			""
+		},
+		bufficon = {}
+	},
+	[10017] = {
+		challenge = 10000,
+		index = 17,
+		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
+		type_name_p = "",
+		name_p = "10017",
+		id = 10017,
+		dungeon_id = 5025,
+		char_icon = {
+			"rangbaer"
+		},
+		chapter_name = {
+			"Challenge",
+			"  한계 챌린지",
+			""
+		},
+		bufficon = {}
+	},
+	[10018] = {
+		challenge = 10000,
+		index = 18,
+		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
+		type_name_p = "",
+		name_p = "10018",
+		id = 10018,
+		dungeon_id = 5026,
+		char_icon = {
+			"changmen"
+		},
+		chapter_name = {
+			"Challenge",
+			"  한계 챌린지",
+			""
+		},
+		bufficon = {}
+	},
+	[10019] = {
+		challenge = 10000,
+		index = 19,
+		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
+		type_name_p = "",
+		name_p = "10019",
+		id = 10019,
+		dungeon_id = 5027,
+		char_icon = {
+			"gaoxiong"
+		},
+		chapter_name = {
+			"Challenge",
+			"  한계 챌린지",
+			""
+		},
+		bufficon = {}
+	},
+	[10020] = {
+		challenge = 10000,
+		index = 20,
+		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
+		type_name_p = "",
+		name_p = "10020",
+		id = 10020,
+		dungeon_id = 5028,
+		char_icon = {
+			"hailunna"
+		},
+		chapter_name = {
+			"Challenge",
+			"  한계 챌린지",
+			""
+		},
+		bufficon = {}
+	},
+	[10021] = {
+		challenge = 10000,
+		index = 21,
+		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
+		type_name_p = "",
+		name_p = "10021",
+		id = 10021,
+		dungeon_id = 5029,
+		char_icon = {
+			"xili"
+		},
+		chapter_name = {
+			"Challenge",
+			"  한계 챌린지",
+			""
+		},
+		bufficon = {}
+	},
+	[10022] = {
+		challenge = 10000,
+		index = 22,
+		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
+		type_name_p = "",
+		name_p = "10022",
+		id = 10022,
+		dungeon_id = 5030,
+		char_icon = {
+			"xiefeierde"
+		},
+		chapter_name = {
+			"Challenge",
+			"  한계 챌린지",
+			""
+		},
+		bufficon = {}
+	},
 	all = {
 		10001,
 		10002,
@@ -285,6 +411,13 @@ pg.expedition_challenge_template = {
 		10012,
 		10013,
 		10014,
-		10015
+		10015,
+		10016,
+		10017,
+		10018,
+		10019,
+		10020,
+		10021,
+		10022
 	}
 }

@@ -2275,7 +2275,7 @@ pg.activity_ins_template = {
 		ship_group = 40123,
 		name = "Zerstorer23",
 		message_persist = "ins_86",
-		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_Z23_Qh5sHZBYKu6EnKVc.png",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_Z23_Qh5sHZBYKu6EnKVc_kr.png",
 		is_active = 0,
 		sculpture = "z23",
 		id = 87,
@@ -2307,23 +2307,8 @@ pg.activity_ins_template = {
 		sculpture = "yingxianzuo",
 		id = 88,
 		group_id = 88,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20510,
@@ -2334,23 +2319,8 @@ pg.activity_ins_template = {
 		sculpture = "hemin",
 		id = 89,
 		group_id = 89,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20133,
@@ -2361,23 +2331,8 @@ pg.activity_ins_template = {
 		sculpture = "yingyong",
 		id = 90,
 		group_id = 90,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20701,
@@ -2388,23 +2343,8 @@ pg.activity_ins_template = {
 		sculpture = "yikaluosi",
 		id = 91,
 		group_id = 91,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20509,
@@ -2415,23 +2355,8 @@ pg.activity_ins_template = {
 		sculpture = "ying",
 		id = 92,
 		group_id = 92,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20509,
@@ -2442,23 +2367,8 @@ pg.activity_ins_template = {
 		sculpture = "yingxianzuo",
 		id = 93,
 		group_id = 93,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20606,
@@ -2469,23 +2379,8 @@ pg.activity_ins_template = {
 		sculpture = "ying",
 		id = 94,
 		group_id = 94,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20701,
@@ -2496,23 +2391,8 @@ pg.activity_ins_template = {
 		sculpture = "hemin",
 		id = 95,
 		group_id = 95,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20227,
@@ -2523,23 +2403,8 @@ pg.activity_ins_template = {
 		sculpture = "yikaluosi",
 		id = 96,
 		group_id = 96,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	{
 		ship_group = 20133,
@@ -2550,23 +2415,8 @@ pg.activity_ins_template = {
 		sculpture = "yingyong",
 		id = 97,
 		group_id = 97,
-		time_persist = {
-			{
-				2019,
-				10,
-				31
-			},
-			{
-				21,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			1,
-			2,
-			3
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	all = {
 		1,

@@ -26,7 +26,7 @@ function slot0.loginProcessHandler(slot0)
 	slot0.process = coroutine.wrap(function ()
 		uv0.viewComponent:switchSubView({})
 
-		if not uv1:getUserAgreement() and PLATFORM_KR ~= PLATFORM_CODE then
+		if uv1:CheckNeedUserAgreement() and not uv1:getUserAgreement() then
 			uv0.viewComponent:showUserAgreement(uv0.process)
 			coroutine.yield()
 			uv1:setUserAgreement()

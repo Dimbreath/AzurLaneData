@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印第的笑容！\n\n<size=45>二 坚不可摧！逼迫改推！</size>",
+					"인디짱의 스마일을 위해!\n\n<size=45>2. 난공불락! 강제 개방!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・学院",
+			say = "모항·학교",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "印第强化周终于开始了——",
+			say = "인디애나폴리스 강화가 마침내 시작되었다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "首先，为了扫清外部障碍，波特兰想出的办法是",
+			say = "먼저, 외부적인 장애를 정리하기 위해, 포틀랜드가 생각한 방법은",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "「让同样妹控的她改推印第！」",
+			say = "「똑같이 동생을 아끼는 그녀에게 인디를 변화시켜 달라고 부탁하기!」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，所以你第一个先来我这里了？",
+			say = "흥, 그래서 첫 번째로 나를 찾아왔다?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "对呀！德意志的话，肯定会明白这种深爱妹妹的心情吧～？",
+			say = "맞아요! 도이칠란트라면 동생을 지극히 사랑하는 이런 마음을 잘 알겠죠~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……罢了，我承认，我确实挺宠爱斯佩的。",
+			say = "...... 됐다, 인정하지. 난 확실히 슈피를 매우 아낀다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而你竟然试图让我更加喜欢你的妹妹？比斯佩还要喜欢？",
+			say = "근데 넌 내가 네 동생을 훨씬 더 좋아하게 만들겠다고? 슈피보다 더?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我倒想问问你这是什么意思了啊？",
+			say = "이게 무슨 뜻인지 묻고 싶은데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？因为印第更可爱呀！",
+			say = "에? 왜냐면 인디짱이 더 귀여우니까요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "…低等动物，我可以立刻用主炮轰碎她吧？可以吧？！",
+			say = "... 하등생물, 지금 당장 주포로 얘한테 한 방 먹여줘도 되지? 괜찮지!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "微妙的不像是在开玩笑，赶紧摇头阻止了她。",
+			say = "미묘하게 농담 같지 않았다. 빠르게 고개를 가로저었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，竟然敢惹我不快，胆子不小啊…！",
+			say = "흥, 감히 나를 불쾌하게 하다니, 간도 크구나...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "唔哇，不愧是德意志，生起气来果然好可怕呜呜…",
+			say = "우와, 역시 도이칠란트네요, 화내니까 역시 무서워요 웅...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不过被压倒一头，眼睛泛泪的印第……",
+			say = "아, 그런데 짓눌려서, 눈물을 흘리는 인디짱이면......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像也可以有…发现新萌点了！",
+			say = "아마도... 새로운 매력을 발견할 수 있겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…低等动物，就是因为你太不中用了，才集结了这么多奇奇怪怪的手下吧。",
+			say = "... 하등생물, 네가 쓸모가 없으니까 이렇게 이상한 부하들이 모이는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "德意志也试着想象一下嘛？",
+			say = "도이칠란트도 상상해 볼래요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“泪眼婆娑的印第”…是不是其实更加可爱！是吧是吧？",
+			say = "\"눈물을 뚝뚝 흘리는 인디짱\"... 훨씬 더 귀여워진 것 같지 않나요!? 맞죠 맞죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…！是、是吧…不过要是有人敢弄哭斯佩，在感慨之前，就会被我撕碎去喂鲨鱼了就是。",
+			say = "...! 그, 그래... 만약 누가 감히 슈피를 울린다면, 후회하기도 전에, 나한테 상어 밥으로 만들어져 버리겠지만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣呣，确实…要是有人敢欺负印第的话——",
+			say = "으음, 확실히... 만약 누군가 인디짱을 괴롭힌다면——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "唔…不过，这下难办了，要怎样才能拿下德意志呢…",
+			say = "음... 하지만, 어렵겠어요, 어떻게 해야 도이칠란트가 도움을 줄까요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说你啊，选谁不好，为什么偏偏找我推销你的妹妹啊？",
+			say = "너 말이야, 누구를 선택해야 할지 모르는데, 왜 하필이면 나를 찾아왔냐고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "真是的，简直浪费我的时间……低等动物！等会儿再收拾你！",
+			say = "정말로, 내 시간을 낭비만 하고...... 하등생물! 넌 좀 있다 혼내주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "啊，走掉了……不！还没完！姐姐我是不会轻易放弃的～！",
+			say = "아, 가버렸네요...... 아니! 아직 안 끝났어요! 언니인 나는 쉽게 포기하지 않을 거예요~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "想到之后，就止不住开始感到胃疼了……",
+			say = "앞으로를 생각하니 억제할 수 없는 위통이 느껴지기 시작했다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

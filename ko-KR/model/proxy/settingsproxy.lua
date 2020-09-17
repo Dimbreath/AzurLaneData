@@ -330,4 +330,14 @@ function slot0.SetBeatMonseterNianFlag(slot0)
 	PlayerPrefs.Save()
 end
 
+function slot0.CheckNeedUserAgreement(slot0)
+	if PLATFORM_CODE == PLATFORM_KR then
+		return false
+	elseif PLATFORM_CODE == PLATFORM_CH then
+		return false
+	end
+
+	return true
+end
+
 return slot0

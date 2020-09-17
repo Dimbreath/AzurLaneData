@@ -8,6 +8,10 @@ function slot0.GetPTActivityID(slot0)
 	error("Need Complete")
 end
 
+function slot0.setContextData(slot0, slot1)
+	slot0.contextData = slot1
+end
+
 function slot0.init(slot0)
 	slot0.mainTF = slot0:findTF("adapt")
 	slot0.bg = slot0:findTF("bg")

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印第的笑容！\n\n<size=45>六 真正重要的事</size>",
+					"인디짱의 스마일을 위해!\n\n<size=45>6. 진정으로 중요한 일</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "演习海域",
+			say = "연습 해역",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "左舷发现敌方潜艇！{namecode:16}，准备反潜战!",
+			say = "좌현에 적 잠수함 발견! 유다치, 대잠수함 전투 준비하세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢！交给我吧！看我大闹一番！!",
+			say = "오! 나한테 맡겨! 똑똑히 잘 보라고!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人的主力以轻巡洋舰为主……我们的编队是三艘重巡洋舰和战舰，速度较慢……",
+			say = "적의 주력은 경순양함 위주에요...... 저희 편대는 중순양함과 전함이 3척이라 속도가 느립니다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:71}，把主炮对准敌人的正面开火！用水柱引开他们的注意力，另外两位进行夹击!",
+			say = "히에이, 주포를 적의 정면을 조준하여 발사하세요! 물기둥으로 적의 주의력을 끌고, 다른 두 분이 협공을 진행해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会用弹幕来牵制他们，{namecode:156}负责雷击支援！",
+			say = "저는 탄막을 사용해서 견제할게요, 이58은 어뢰 공격으로 지원을 맡아주세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了！",
+			say = "알겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我去了！",
+			say = "응, 간다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也出发了！只是夹击的话…一定没问题的！",
+			say = "저도 출발했어요! 협공이라면... 아무런 문제 없어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再来就只剩靠实力制服对手了！",
+			say = "이제 실력으로 상대를 제압하는 일만 남았군!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgm = "level",
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "——确认击退敌军，可以返航了哦。",
+			say = "——적군 처치 확인. 돌아갈 수 있겠어요.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "辛苦大家了，看来打得很顺利呢~",
+			say = "모두 수고했어요. 보아하니 엄청 순조롭네요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实欸！感觉超顺手的！",
+			say = "맞아! 완전 쉬웠던 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多亏了波特兰明确的指示，受损也控制在了最小程度。",
+			say = "포틀랜드의 명확한 지시 덕분이죠. 피해도 최소화했어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（波特兰…在不牵扯到印第安纳波利斯的时候是这种感觉的呀……）",
+			say = "(포틀랜드... 인디애나폴리스와 연관이 없을 때는 이런 느낌이구나......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~真是的，明明要是印第在的话，能发挥得更好的~",
+			say = "아~ 정말이지, 인디짱이 있었다면, 분명히 더 잘할 수 있었을 거예요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯~仿佛在说这不是你本来的实力似的啊？",
+			say = "허~ 꼭 방금 전은 본 실력이 아니라는 것처럼 말하네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来就是嘛！要是和印第在一起的话，我能比现在更有干劲100倍！",
+			say = "당연하죠! 만약 인디짱과 함께였다면, 지금보다 100배는 열정적으로 할 수 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…没有印第在，完全提不起劲嘛~",
+			say = "하아... 인디짱이 없어서, 하나도 맥이 없다고요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，还真是有意思的发言。",
+			say = "흐흥, 참 재밌는 발언이구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "取得这般战果，竟然还说不是全力的发挥么…",
+			say = "이 전과를 얻고도 전력을 발휘한 게 아니라니...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯？",
+			say = "...... 네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对你稍微改观些了。看来不只是个死妹控啊。",
+			say = "너에 대한 관점이 조금 달라졌다. 보아하니 오로지 동생만 아는 멍청이는 아니군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于你如此重视的妹妹，我也多少有些兴趣了呢",
+			say = "네가 이렇게 아끼는 동생에 대해서, 나도 어느 정도 흥미가 생겼어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哦哦？之前不是听都不想听的吗，这是怎么了？",
+			say = "...... 에에? 전에 듣기도 싫다고 하지 않았나요? 어떻게 된 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，我不讨厌强者就是了",
+			say = "흥, 난 강한 자는 싫어하지 않을 뿐이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别发呆了，赶紧返航吧。",
+			say = "그만 멍 때려. 얼른 돌아가자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "啊，嗯，大家注意，我们要回去啦~",
+			say = "앗, 네, 모두 돌아갑시다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18872,6 +18872,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5511] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5373,
+		type = 5,
+		name = "인디짱 강화 시작!",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "botelan",
+		award_choice = "",
+		level = 1,
+		next_task = "5512",
+		visibility = 1,
+		story_id = "BOTELAN1",
+		target_id_for_client = 50003,
+		id = 5511,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5512] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5374,
+		type = 5,
+		name = "난공불락! 강제 개방!",
+		count_inherit = 0,
+		desc = "임의의 함선소녀를 10회 강화한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5513",
+		visibility = 1,
+		story_id = "BOTELAN2",
+		target_id_for_client = 0,
+		id = 5512,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5513] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5375,
+		type = 5,
+		name = "끝없는 자매의 수다",
+		count_inherit = 0,
+		desc = "포틀랜드를 포함한 함대를 출격시켜\n20회 승리한다",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5514",
+		visibility = 1,
+		story_id = "BOTELAN3",
+		target_id_for_client = 10306,
+		id = 5513,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5514] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5376,
+		type = 5,
+		name = "어색한 관계",
+		count_inherit = 0,
+		desc = "포틀랜드를 포함한 함대로 데일리 챌린지를\n3회 클리어한다",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5515",
+		visibility = 1,
+		story_id = "BOTELAN4",
+		target_id_for_client = 10306,
+		id = 5514,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5515] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5377,
+		type = 5,
+		name = "운명의 출격",
+		count_inherit = 0,
+		desc = "포틀랜드의 호감도를 100까지 달성한다",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5516",
+		visibility = 1,
+		story_id = "BOTELAN5",
+		target_id_for_client = 10306,
+		id = 5515,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5516] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5378,
+		type = 5,
+		name = "진정으로 중요한 일",
+		count_inherit = 0,
+		desc = "포틀랜드의 한계돌파를 3회 진행한다",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5517",
+		visibility = 1,
+		story_id = "BOTELAN6",
+		target_id_for_client = 103064,
+		id = 5516,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "103064",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5517] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5379,
+		type = 5,
+		name = "동경의 행복",
+		count_inherit = 0,
+		desc = "포틀랜드의 레벨을 100까지 달성한다",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "BOTELAN7",
+		target_id_for_client = 10306,
+		id = 5517,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[5521] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -62644,6 +62900,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14675] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91195,
+		type = 6,
+		name = "『限界挑战6』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14675,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				206,
+				1
+			}
+		}
+	},
 	[14730] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -88402,6 +88690,278 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15756] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93440,
+		type = 36,
+		name = "2020埃塞克斯世界BOSS挑战券任务1",
+		count_inherit = 0,
+		desc = "게임 로그인",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15756,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2007,
+				1
+			}
+		}
+	},
+	[15757] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93440,
+		type = 36,
+		name = "2020埃塞克斯世界BOSS挑战券任务2",
+		count_inherit = 0,
+		desc = "임의의 어려움 스테이지 1회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15757,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2007,
+				1
+			}
+		}
+	},
+	[15758] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93440,
+		type = 36,
+		name = "2020埃塞克斯世界BOSS挑战券任务3",
+		count_inherit = 0,
+		desc = "임의의 어려움 스테이지 3회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15758,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2007,
+				1
+			}
+		}
+	},
+	[15759] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93440,
+		type = 36,
+		name = "2020埃塞克斯世界BOSS挑战券任务4",
+		count_inherit = 0,
+		desc = "『특별 연습·에식스급』 임의의 난이도 해역 5회 클리어",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15759,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			1410001,
+			1410002,
+			1410003,
+			1410004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2007,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE",
+			{
+				mediatorClass = ActivityBossMediatorTemplate,
+				viewClass = ActivityBossAisaikesiScene
+			}
+		}
+	},
+	[15760] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93440,
+		type = 36,
+		name = "2020埃塞克斯世界BOSS挑战券任务5",
+		count_inherit = 0,
+		desc = "『특별 연습·에식스급』 임의의 난이도 해역 10회 클리어",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15760,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1410001,
+			1410002,
+			1410003,
+			1410004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2007,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE",
+			{
+				mediatorClass = ActivityBossMediatorTemplate,
+				viewClass = ActivityBossAisaikesiScene
+			}
+		}
+	},
 	[15761] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -106118,6 +106678,13 @@ pg.task_data_template = {
 		5505,
 		5506,
 		5507,
+		5511,
+		5512,
+		5513,
+		5514,
+		5515,
+		5516,
+		5517,
 		5521,
 		5522,
 		5523,
@@ -107346,6 +107913,7 @@ pg.task_data_template = {
 		14672,
 		14673,
 		14674,
+		14675,
 		14730,
 		14731,
 		14732,
@@ -108013,6 +108581,11 @@ pg.task_data_template = {
 		15753,
 		15754,
 		15755,
+		15756,
+		15757,
+		15758,
+		15759,
+		15760,
 		15761,
 		15762,
 		15763,

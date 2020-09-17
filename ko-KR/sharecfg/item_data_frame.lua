@@ -64,6 +64,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （20.06.3-20.08.31）",
 		scene = {}
 	},
+	[206] = {
+		name = "한계 챌린저 VI",
+		time_second = 0,
+		id = 206,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （20.09.10-20.12.06）",
+		scene = {}
+	},
 	[300] = {
 		name = "소환자",
 		time_second = 2592000,
@@ -144,6 +152,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>로열 네이비의 영광을 위해 싸워라, God Save The Queen </color>\n이벤트「영원한 밤의 환광」을 통해 획득",
 		scene = {}
 	},
+	[311] = {
+		name = "물에 비친 나비의 그림자",
+		time_second = 0,
+		id = 311,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>추후 이벤트 획득</color> ",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -153,6 +169,7 @@ pg.item_data_frame = {
 		203,
 		204,
 		205,
+		206,
 		300,
 		301,
 		302,
@@ -162,6 +179,7 @@ pg.item_data_frame = {
 		306,
 		307,
 		308,
-		309
+		309,
+		311
 	}
 }

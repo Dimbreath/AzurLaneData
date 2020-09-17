@@ -93,7 +93,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ShopsProxy.CHARGED_LIST_UPDATED then
 		slot0.viewComponent:setChargedList(slot3)
 		slot0.viewComponent:sortDamondItems()
-		slot0.viewComponent:TriggerMonthCardItem()
 	elseif slot2 == GAME.CHARGE_CONFIRM_FAILED then
 		getProxy(ShopsProxy):chargeFailed(slot3.payId, slot3.bsId)
 	elseif slot2 == GAME.SHOPPING_DONE then

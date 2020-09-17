@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印第的笑容！\n\n<size=45>七 向往的幸福</size>",
+					"인디짱의 스마일을 위해!\n\n<size=45>7. 동경의 행복</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "모항·항구",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……姐姐她们回来了",
+			say = "아...... 언니랑 다들 돌아왔네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "舰队，顺利返航~哈呜~~~印第我回来啦！！",
+			say = "함대, 순조롭게 복귀~ 후아~~~ 인디짱, 나 왔어!!",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 103070,
 			nameColor = "#a9f548",
-			say = "咕呜……姐姐……你抱得太紧了……",
+			say = "꺼헉...... 언니...... 너무 세게 안았어......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			say = "毕竟啊~本来今天应该由印第大显身手~",
+			say = "원래 오늘은 인디짱을 위해 실력을 발휘했어야 하는데~",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后借此机会让印第和大家变成好朋友才对的嘛！",
+			say = "그리고 이 기회로 인디짱과 모두가 좋은 친구가 되었어야 했는데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不…不是的，现在这样才正好，是吧，指挥官",
+			say = "아... 아니야, 지금 이게 딱 좋아, 그렇지, 지휘관?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？怎么回事？",
+			say = "엥? 무슨 말이야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，虽然只是我的推测，之所以今天这样编队，其实是指挥官希望大家能更了解波特兰吧？",
+			say = "하하, 제 추측일 뿐이지만, 오늘 이 편대는, 사실 지휘관이 모두에게 포틀랜드에 대해서 알려주고 싶었던 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！原来是这样呀！说起来，{namecode:16}之前一点也不了解波特兰欸！",
+			say = "아! 그랬던 거구나! 그러니까, 유다치는 이전에 포틀랜드에 대해 전혀 모르고 있었어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一直觉得她是个整天把妹妹挂嘴边的危险人物来着！",
+			say = "줄곧 포틀랜드는 하루 종일 동생만 입에 달고 사는 위험인물이라고 생각했어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，在并肩作战后，感觉有了不一样的了解…",
+			say = "하지만, 함께 전투를 치른 후에는, 다른 느낌이 드네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "波特兰是只要想做，就能做好的孩子呢！",
+			say = "포틀랜드는 하고 싶다고 생각하면, 바로 할 수 있는 사람이었어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位……",
+			say = "모두들......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官认为，要先改变周围人的看法，因此才把大家编到一起，让大家多多了解姐姐",
+			say = "지휘관은 먼저 주위 사람들의 생각을 변화시켜야 한다고 생각했어. 그래서 언니에 대해 좀 더 알 수 있게 모두 함께 편성한 거고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话，大家应该就会好好听姐姐的话了",
+			say = "이렇게 하면, 모두들 분명히 언니의 말을 들어줄 거니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以呢，指挥官其实更想让姐姐先交到朋友",
+			say = "그러니까, 지휘관은 사실 언니가 먼저 친구들을 사귀길 바란 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "指挥官……是这样的吗……？",
+			say = "지휘관...... 이렇게 되는 거였어......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "고개를 끄덕인다",
 					flag = 1
 				}
 			}
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐……能向大家介绍我的事情我很高兴…",
+			say = "언니...... 모두에게 내 이야기를 하게 해줘서 나도 기뻐...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过姐姐能过得开心快乐的话，我会更高兴的。",
+			say = "하지만 언니가 기쁘고 즐겁게 지낼 수 있다면, 난 더욱더 기쁠 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样，看到姐姐和大家其乐融融的样子，嗯，就是最让人高兴的事情了。",
+			say = "이렇게, 언니와 사람들이 화기애애한 모습을 보는 건, 그래, 정말 기쁜 일이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印第……",
+			say = "인디짱......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，谢谢你！让我能看到印第那样幸福的笑容！！",
+			say = "지휘관, 고마워요! 제가 인디짱이 저렇게 행복하게 웃는 얼굴을 볼 수 있게 해줘서!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "好！就特别授予你“印第粉丝俱乐部会员1号”的称号吧！",
+			say = "좋아요! 특별히 지휘관에게\"인디짱 팬클럽 회원 1호\"의 칭호를 드릴게요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不行不行，难得印第那么高兴……",
+			say = "아, 안돼안돼, 모처럼 인디짱의 기분이 좋은데......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，姐姐，要再好好感谢一下指挥官才行呢。",
+			say = "응, 언니, 다시 지휘관한테 감사의 마음을 잘 전해야지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！指挥官，无论是印第，还是我的事情都好好考虑到了吧？",
+			say = "응! 지휘관, 인디짱의 일이든, 저의 일이든 전부 세심하게 생각한 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "我现在明白了，为了让印第露出幸福的笑容，我也得过得开心快乐才行…！",
+			say = "이제 알았어요, 인디짱에게 행복한 웃음을 짓게 하기 위해선, 저도 즐거운 모습으로 지내야 한다는 걸...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，那个……非常谢谢你！",
+			say = "그러니까, 그...... 정말 감사합니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……欸嘿嘿",
+			say = "...... 에헤헤",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "波特兰露出有些害羞的笑容，说出了感谢的话语。",
+			say = "포틀랜드는 조금 쑥스러운 듯한 웃음을 내비치며 감사하다는 말을 전했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

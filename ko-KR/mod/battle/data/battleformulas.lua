@@ -181,23 +181,19 @@ slot0.GetFleetTorpedoPower = slot15
 function slot15(slot0, slot1)
 	slot2 = SYSTEM_DUEL
 
-	if slot0 ~= slot2 then
-		slot2 = SYSTEM_SHAM
-
-		if slot0 == slot2 then
-			slot2 = slot1.level
-			slot3 = slot1.durability
-			slot4 = ys
-			slot4 = slot4.Battle
-			slot4 = slot4.BattleDataFunction
-			slot4 = slot4.GetPlayerUnitDurabilityExtraAddition
-			slot5 = slot0
-			slot6 = slot2
-			slot4, slot5 = slot4(slot5, slot6)
-			slot6 = slot3 * slot4
-			slot6 = slot6 + slot5
-			slot1.durability = slot6
-		end
+	if slot0 == slot2 then
+		slot2 = slot1.level
+		slot3 = slot1.durability
+		slot4 = ys
+		slot4 = slot4.Battle
+		slot4 = slot4.BattleDataFunction
+		slot4 = slot4.GetPlayerUnitDurabilityExtraAddition
+		slot5 = slot0
+		slot6 = slot2
+		slot4, slot5 = slot4(slot5, slot6)
+		slot6 = slot3 * slot4
+		slot6 = slot6 + slot5
+		slot1.durability = slot6
 	end
 end
 
@@ -207,20 +203,16 @@ function slot15(slot0, slot1)
 	slot2 = 1
 	slot3 = SYSTEM_DUEL
 
-	if slot0 ~= slot3 then
-		slot3 = SYSTEM_SHAM
-
-		if slot0 == slot3 then
-			slot3 = slot1.level
-			slot4 = ys
-			slot4 = slot4.Battle
-			slot4 = slot4.BattleDataFunction
-			slot4 = slot4.GetPlayerUnitDurabilityExtraAddition
-			slot5 = slot0
-			slot6 = slot3
-			slot4 = slot4(slot5, slot6)
-			slot2 = slot4
-		end
+	if slot0 == slot3 then
+		slot3 = slot1.level
+		slot4 = ys
+		slot4 = slot4.Battle
+		slot4 = slot4.BattleDataFunction
+		slot4 = slot4.GetPlayerUnitDurabilityExtraAddition
+		slot5 = slot0
+		slot6 = slot3
+		slot4 = slot4(slot5, slot6)
+		slot2 = slot4
 	end
 
 	return slot2
@@ -433,34 +425,40 @@ function slot15(slot0, slot1, slot2)
 		slot26 = slot26 + slot27
 		slot27 = uv2
 		slot27 = slot27.GetCurrent
-		slot28 = slot0
-		slot29 = uv3
-		slot31 = slot1
-		slot30 = slot1.GetTemplate
-		slot30 = slot30(slot31)
-		slot30 = slot30.type
-		slot29 = slot29[slot30]
+		slot28 = slot1
+		slot29 = "accuracyRateExtra"
 		slot27 = slot27(slot28, slot29)
 		slot28 = uv2
 		slot28 = slot28.GetCurrent
-		slot29 = slot1
-		slot30 = "dodgeRateExtra"
+		slot29 = slot0
+		slot30 = uv3
+		slot32 = slot1
+		slot31 = slot1.GetTemplate
+		slot31 = slot31(slot32)
+		slot31 = slot31.type
+		slot30 = slot30[slot31]
 		slot28 = slot28(slot29, slot30)
-		slot29 = math
-		slot29 = slot29.max
-		slot30 = slot6[5]
-		slot31 = math
-		slot31 = slot31.min
-		slot32 = slot3
-		slot33 = slot26 + slot27
-		slot33 = slot33 - slot28
-		slot29 = slot29(slot30, slot31(slot32, slot33))
-		slot26 = slot29
-		slot29 = uv4
-		slot29 = slot29.IsHappen
-		slot30 = slot26 * slot5
-		slot29 = slot29(slot30)
-		slot20 = not slot29
+		slot29 = uv2
+		slot29 = slot29.GetCurrent
+		slot30 = slot1
+		slot31 = "dodgeRateExtra"
+		slot29 = slot29(slot30, slot31)
+		slot30 = math
+		slot30 = slot30.max
+		slot31 = slot6[5]
+		slot32 = math
+		slot32 = slot32.min
+		slot33 = slot3
+		slot34 = slot26 + slot27
+		slot34 = slot34 + slot28
+		slot34 = slot34 - slot29
+		slot30 = slot30(slot31, slot32(slot33, slot34))
+		slot26 = slot30
+		slot30 = uv4
+		slot30 = slot30.IsHappen
+		slot31 = slot26 * slot5
+		slot30 = slot30(slot31)
+		slot20 = not slot30
 	end
 
 	if not slot20 then
@@ -580,6 +578,14 @@ function slot15(slot0, slot1, slot2)
 		end
 	end
 
+	slot32 = uv2
+	slot32 = slot32.GetCurrent
+	slot33 = slot0
+	slot34 = uv5
+	slot34 = slot34.AGAINST_ARMOR_ENHANCE
+	slot34 = slot34[slot17]
+	slot32 = slot32(slot33, slot34)
+	slot31 = slot31 + slot32
 	slot32 = uv2
 	slot32 = slot32.GetCurrent
 	slot33 = slot0

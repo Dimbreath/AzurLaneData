@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印第的笑容！\n\n<size=45>三 姐妹谈资喋喋不休</size>",
+					"인디짱의 스마일을 위해!\n\n<size=45>3. 끝없는 자매의 수다</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・学园",
+			say = "모항·학교",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "波特兰没有放弃印第强化周。",
+			say = "포틀랜드는 인디애나폴리스의 강화를 포기하지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "下一个被盯上的是──",
+			say = "다음 정해진 타깃은──",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯嗯！我明白！有姐妹确实很棒呢！",
+			say = "네네네! 알았어요! 자매가 있다는 건 확실히 멋지네요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "对吧~！无论聊多久都聊不完！",
+			say = "그렇죠~! 얼마나 오랫동안 이야기를 하던지 끝이 없다구요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！就算说上三天三夜，也说不完诺福克姐姐魅力的百分之五！",
+			say = "맞아요! 3일을 밤낮으로 떠들어도 노포크 언니의 매력의 5%도 얘기할 수 없어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "就是就是！所以我拜托了指挥官，希望能安排制作充满印第魅力的周边哦~！",
+			say = "그럼요 그럼요! 그래서 제가 지휘관한테 부탁했죠. 인디짱의 매력이 충만한 굿즈를 제작할 수 있게 해달라고요~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这个想法真好！我也想弄姐姐的照片~……",
+			say = "아, 정말 좋은 생각이네요! 저도 언니의 사진을 만들고 싶어요~......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "和多塞特郡的沟通似乎比想象中的顺畅许多",
+			say = "도셋셔와의 대화는 생각보다 아주 많이 순조로운 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "不过…好像有哪里不对？",
+			say = "하지만... 어딘가 잘못된 듯한데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后啊！那时候的印第呀~……",
+			say = "그러고 나서! 그때의 인디짱은~......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯！诺福克姐姐的话肯定会这样~……",
+			say = "네네! 노포크 언니라면 분명히 이렇게~......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,14 +221,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "似乎都在自顾自地说着自家姐妹的事情……",
+			say = "둘 다 제각기 자신의 언니, 동생의 일만 얘기하고 있는 듯했다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "指出这一点",
+					content = "이 점을 지적한다.",
 					flag = 1
 				}
 			}
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你说什么呢！多塞特郡能明白印第的可爱——",
+			say = "지휘관, 무슨 말이에요! 도셋셔는 인디짱의 귀여움을 아주 잘 이해하거든요——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "并且会一起和我向大家宣传印第的可爱哦！",
+			say = "게다가 저랑 같이 모두에게 인디짱의 귀여움을 홍보해 줄 거예요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的！波特兰被诺福克姐姐的光芒照耀着——",
+			say = "맞아요! 포틀랜드는 노포크 언니의 빛을 받으면서——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定会和我一起，每天沉浸在诺福克姐姐的魅力之下的！",
+			say = "분명 저와 함께, 매일 노포크 언니의 매력에 푹 빠져 있을 거예요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………欸？",
+			say = ".............에?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………嗯？",
+			say = ".............응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多塞特郡，不是喜欢上印第了吗？",
+			say = "도셋셔, 인디짱을 좋아하게 된 게 아닌가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？嗯？波特兰，按照刚才聊的，不是要和我一起喜欢诺福克姐姐吗？",
+			say = "에? 네? 포틀랜드, 방금 대화로, 저랑 같이 노포크 언니를 좋아한다는 거 아니었어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇……奇怪？",
+			say = "이... 이상하네요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看来两人的交谈……完全是两条平行线的样子",
+			say = "두 사람의 대화를 보자니...... 완전히 다른 두 개의 평행선 상에 있는 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

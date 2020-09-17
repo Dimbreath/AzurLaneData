@@ -79153,6 +79153,138 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57766] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57766,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				3,
+				1
+			},
+			{
+				2,
+				15,
+				1
+			},
+			{
+				2,
+				16,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10028,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57767] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57767,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57768] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57768,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10032,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57770] = {
 		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 		rarity = 1,
@@ -95696,6 +95828,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59180] = {
+		display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "훈련PT",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59180,
+		icon = "Props/xunliandianshu_s",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 		rarity = 2,
@@ -100054,6 +100204,42 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[60057] = {
+		display = "『특별 연습·에식스급』에서 획득한 포인트. 일정 수량 누적하여 보상 획득 가능",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "공헌도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60057,
+		icon = "Props/59122",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60058] = {
+		display = "『특별 연습·에식스급』 EX 해역의 필요 아이템. 일반 해역 추가 보상 횟수를 증가시킬 수도 있다. ",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "특별 도전권",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60058,
+		icon = "Props/nvpu_ticket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69901] = {
 		display = "랜덤으로 '신년 테마' 스킨을 하나 획득한다냥! (만약 이미 보유 중인 스킨이 나오는 경우엔, 자동으로 상응하는 가격의 다이아로 변환된다냥)",
 		rarity = 4,
@@ -103135,6 +103321,9 @@ pg.item_data_statistics = {
 		57763,
 		57764,
 		57765,
+		57766,
+		57767,
+		57768,
 		57770,
 		57771,
 		57772,
@@ -103420,6 +103609,7 @@ pg.item_data_statistics = {
 		59172,
 		59174,
 		59175,
+		59180,
 		59601,
 		59602,
 		59603,
@@ -103651,6 +103841,8 @@ pg.item_data_statistics = {
 		60054,
 		60055,
 		60056,
+		60057,
+		60058,
 		69901,
 		69902,
 		69903,
