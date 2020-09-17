@@ -16,7 +16,7 @@ function slot0.isActivate(slot0)
 
 	if getProxy(ActivityProxy):getActivityById(slot0.activityId) and not slot3:isEnd() then
 		if slot0:getConfig("benefit_condition")[1] == "lv" then
-			slot1 = loadstring("return " .. getProxy(PlayerProxy):getRawData().level .. slot4[2] .. slot4[3])()
+			slot1 = slot0:checkOpFunc(getProxy(PlayerProxy):getRawData().level, slot4[2], slot4[3])
 		end
 
 		if slot4 == "" then
@@ -25,6 +25,22 @@ function slot0.isActivate(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.checkOpFunc(slot0, slot1, slot2, slot3)
+	if slot2 == "<=" then
+		return slot1 <= slot3
+	elseif slot2 == "<" then
+		return slot1 < slot3
+	elseif slot2 == "==" then
+		return slot1 == slot3
+	elseif slot2 == ">=" then
+		return slot3 <= slot1
+	elseif slot2 == ">" then
+		return slot3 < slot1
+	end
+
+	return false
 end
 
 return slot0

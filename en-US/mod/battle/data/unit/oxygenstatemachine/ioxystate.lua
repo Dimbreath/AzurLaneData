@@ -33,3 +33,7 @@ end
 function slot1.RunMode(slot0)
 	return nil
 end
+
+function slot1.UpdateDive(slot0)
+	return nil
+end

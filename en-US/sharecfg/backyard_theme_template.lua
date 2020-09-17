@@ -2142,6 +2142,45 @@ pg.backyard_theme_template = {
 			62116
 		}
 	},
+	[65] = {
+		Cfg_1 = 5,
+		name = "Sakura Courtyard ",
+		desc = "Sit down, meditate, and take in this rich wabi-sabi scenery. ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 65,
+		icon = "r3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			65001,
+			65002,
+			65101,
+			65102,
+			65103,
+			65104,
+			65105,
+			65106,
+			65107,
+			65108,
+			65109,
+			65110,
+			65111,
+			65112,
+			65113,
+			65114,
+			65115,
+			65116,
+			65117,
+			65118,
+			65119,
+			65301
+		}
+	},
 	[66] = {
 		Cfg_1 = 5,
 		name = "Passion for Acceleration",
@@ -2303,6 +2342,7 @@ pg.backyard_theme_template = {
 		60,
 		61,
 		62,
+		65,
 		66,
 		68,
 		69

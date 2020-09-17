@@ -11,33 +11,35 @@ end
 function slot1.OutRangeFunc(slot0)
 	slot1 = slot0:GetTemplate()
 	slot2 = slot1.hit_type
-	slot3 = uv0.GetDataProxy()
-	slot4 = slot0:GetDiveFilter()
 
 	slot0:BuffTrigger(uv1.Battle.BattleConst.BuffEffectType.ON_BOMB_BULLET_BANG, {
 		_bullet = slot0,
 		equipIndex = slot0:GetWeapon():GetEquipmentIndex()
 	})
-	slot3:SpawnColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot2.range, slot2.time, function (slot0)
-		for slot4, slot5 in ipairs(slot0) do
-			if slot5.Active then
-				slot7 = false
 
-				for slot12, slot13 in ipairs(uv1) do
-					if uv0.GetSceneMediator():GetCharacter(slot5.UID):GetUnitData():GetCurrentOxyState() == slot13 then
-						slot7 = true
-					end
+	slot6 = nil
+
+	uv0.GetDataProxy():SpawnColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot2.range, slot2.time, function (slot0)
+		if uv0.decay then
+			uv1:UpdateDistanceInfo()
+		end
+
+		for slot5, slot6 in ipairs(slot0) do
+			if slot6.Active then
+				slot7 = slot6.UID
+				slot8 = 0
+
+				if slot1 then
+					slot8 = uv1:GetDistance(slot7) / (uv0.range * 0.5) * slot1
 				end
 
-				if not slot7 then
-					uv2:HandleDamage(uv3, slot6)
-				end
+				uv3:HandleDamage(uv4, uv2.GetSceneMediator():GetCharacter(slot7):GetUnitData(), slot8)
 			end
 		end
-	end)
+	end):SetDiveFilter(slot0:GetDiveFilter())
 
 	if slot1.extra_param.friendlyFire then
-		slot3:SpawnColumnArea(slot0:GetEffectField(), slot3.GetOppoSideCode(slot0:GetIFF()), slot0:GetExplodePostion(), slot2.range, slot2.time, slot6)
+		slot3:SpawnColumnArea(slot0:GetEffectField(), slot3.GetOppoSideCode(slot0:GetIFF()), slot0:GetExplodePostion(), slot2.range, slot2.time, slot7):SetDiveFilter(slot4)
 	end
 
 	slot3:RemoveBulletUnit(slot0:GetUniqueID())

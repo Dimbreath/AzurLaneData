@@ -122,11 +122,47 @@ pg.strategy_data_template = {
 	},
 	[8650] = {
 		buff_id = 8650,
-		name = "聚光灯",
+		name = "Searchlight",
 		type = 10,
 		id = 8650,
 		icon = "",
-		desc = "聚光灯效果",
+		desc = "Under the effect of a searchlight.",
+		arg = {}
+	},
+	[8732] = {
+		buff_id = 8732,
+		name = "Blessing of the Butterfly",
+		type = 10,
+		id = 8732,
+		icon = "8732",
+		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+		arg = {}
+	},
+	[8744] = {
+		buff_id = 8744,
+		name = "Blessing of the Butterfly",
+		type = 10,
+		id = 8744,
+		icon = "8732",
+		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+		arg = {}
+	},
+	[8745] = {
+		buff_id = 8745,
+		name = "Blessing of the Butterfly",
+		type = 10,
+		id = 8745,
+		icon = "8732",
+		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+		arg = {}
+	},
+	[8746] = {
+		buff_id = 8746,
+		name = "Blessing of the Butterfly",
+		type = 10,
+		id = 8746,
+		icon = "8732",
+		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
 		arg = {}
 	},
 	[9500] = {
@@ -152,7 +188,7 @@ pg.strategy_data_template = {
 		name = "Iron Blood Aerial Support",
 		type = 10,
 		id = 9505,
-		icon = "10015",
+		icon = "10017",
 		desc = "Enemy Air Squads will appear on this stage, and your fleets will take 10% more damage from Airstrikes.",
 		arg = {}
 	},
@@ -252,6 +288,10 @@ pg.strategy_data_template = {
 		92,
 		93,
 		8650,
+		8732,
+		8744,
+		8745,
+		8746,
 		9500,
 		9502,
 		9505,

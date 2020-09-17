@@ -967,5 +967,17 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Hiroko Taguchi",
 		code = 242
+	},
+	{
+		actor_name = "Reina Kondo",
+		code = 243
+	},
+	{
+		actor_name = "Sekine Hitomi ",
+		code = 244
+	},
+	{
+		actor_name = "Koiwai Kotori ",
+		code = 245
 	}
 }

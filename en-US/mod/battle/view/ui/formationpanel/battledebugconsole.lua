@@ -207,11 +207,17 @@ function slot3.initComponent(slot0)
 		end)
 	end
 
+	slot0._antiSubDetailRange = slot0._common:Find("anti_sub_detail")
+
+	onButton(nil, slot0._antiSubDetailRange, function ()
+		uv0._state:GetMediatorByName("BattleSceneMediator"):InitDetailAntiSubArea()
+	end)
+
 	slot0._white = slot0._base:Find("white_button")
 
 	onButton(nil, slot0._white, function ()
 		for slot3, slot4 in pairs(uv0._dataProxy._foeShipList) do
-			slot4:UpdateHP(-1000, {})
+			slot4:UpdateHP(-10000, {})
 		end
 	end, SFX_PANEL)
 	SetActive(slot0._white, true)

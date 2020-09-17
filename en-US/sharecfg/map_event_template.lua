@@ -6298,6 +6298,814 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[375] = {
+		gametip = "map_event_stop_story_tip",
+		memory = 0,
+		id = 375,
+		type = 2,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "mengjingfengyin",
+		address = {
+			3,
+			0
+		},
+		effect = {}
+	},
+	[376] = {
+		gametip = "map_event_stop_story_tip",
+		memory = 0,
+		id = 376,
+		type = 2,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "mengjingfengyin",
+		address = {
+			2,
+			3
+		},
+		effect = {}
+	},
+	[377] = {
+		gametip = "map_event_stop_story_tip",
+		memory = 0,
+		id = 377,
+		type = 2,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "mengjingfengyin",
+		address = {
+			3,
+			6
+		},
+		effect = {}
+	},
+	[378] = {
+		gametip = "",
+		memory = 2757,
+		id = 378,
+		type = 1,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 0,
+		ship_prefab = "",
+		icon = "mapevent1",
+		address = {
+			7,
+			0
+		},
+		effect = {}
+	},
+	[379] = {
+		gametip = "",
+		memory = 2758,
+		id = 379,
+		type = 1,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 0,
+		ship_prefab = "",
+		icon = "mapevent1",
+		address = {
+			6,
+			4
+		},
+		effect = {}
+	},
+	[380] = {
+		gametip = "",
+		memory = 2759,
+		id = 380,
+		type = 1,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 0,
+		ship_prefab = "",
+		icon = "mapevent1",
+		address = {
+			0,
+			1
+		},
+		effect = {}
+	},
+	[381] = {
+		gametip = "",
+		memory = 0,
+		id = 381,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			4,
+			4
+		},
+		effect = {
+			{
+				"jump",
+				0,
+				4
+			},
+			{
+				"jumpsub",
+				0,
+				4
+			}
+		}
+	},
+	[382] = {
+		gametip = "",
+		memory = 0,
+		id = 382,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			0,
+			4
+		},
+		effect = {
+			{
+				"jump",
+				4,
+				4
+			},
+			{
+				"jumpsub",
+				4,
+				4
+			}
+		}
+	},
+	[383] = {
+		gametip = "",
+		memory = 0,
+		id = 383,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			1,
+			8
+		},
+		effect = {
+			{
+				"jump",
+				0,
+				0
+			},
+			{
+				"jumpsub",
+				0,
+				0
+			}
+		}
+	},
+	[384] = {
+		gametip = "",
+		memory = 0,
+		id = 384,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			0,
+			0
+		},
+		effect = {
+			{
+				"jump",
+				1,
+				8
+			},
+			{
+				"jumpsub",
+				1,
+				8
+			}
+		}
+	},
+	[385] = {
+		gametip = "",
+		memory = 0,
+		id = 385,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			8,
+			8
+		},
+		effect = {
+			{
+				"jump",
+				0,
+				7
+			},
+			{
+				"jumpsub",
+				0,
+				7
+			}
+		}
+	},
+	[386] = {
+		gametip = "",
+		memory = 0,
+		id = 386,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			0,
+			7
+		},
+		effect = {
+			{
+				"jump",
+				8,
+				8
+			},
+			{
+				"jumpsub",
+				8,
+				8
+			}
+		}
+	},
+	[387] = {
+		gametip = "",
+		memory = 0,
+		id = 387,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			4,
+			8
+		},
+		effect = {
+			{
+				"jump",
+				4,
+				2
+			},
+			{
+				"jumpsub",
+				4,
+				2
+			}
+		}
+	},
+	[388] = {
+		gametip = "",
+		memory = 0,
+		id = 388,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			4,
+			2
+		},
+		effect = {
+			{
+				"jump",
+				4,
+				8
+			},
+			{
+				"jumpsub",
+				4,
+				8
+			}
+		}
+	},
+	[389] = {
+		gametip = "",
+		memory = 0,
+		id = 389,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			4,
+			4
+		},
+		effect = {
+			{
+				"jump",
+				2,
+				4
+			},
+			{
+				"jumpsub",
+				2,
+				4
+			}
+		}
+	},
+	[390] = {
+		gametip = "",
+		memory = 0,
+		id = 390,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			2,
+			4
+		},
+		effect = {
+			{
+				"jump",
+				4,
+				4
+			},
+			{
+				"jumpsub",
+				4,
+				4
+			}
+		}
+	},
+	[391] = {
+		gametip = "",
+		memory = 0,
+		id = 391,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			4,
+			6
+		},
+		effect = {
+			{
+				"jump",
+				6,
+				6
+			},
+			{
+				"jumpsub",
+				6,
+				6
+			}
+		}
+	},
+	[392] = {
+		gametip = "",
+		memory = 0,
+		id = 392,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			6,
+			6
+		},
+		effect = {
+			{
+				"jump",
+				4,
+				6
+			},
+			{
+				"jumpsub",
+				4,
+				6
+			}
+		}
+	},
+	[393] = {
+		gametip = "",
+		memory = 0,
+		id = 393,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			2,
+			3
+		},
+		effect = {
+			{
+				"jump",
+				2,
+				5
+			},
+			{
+				"jumpsub",
+				2,
+				5
+			}
+		}
+	},
+	[394] = {
+		gametip = "",
+		memory = 0,
+		id = 394,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			3,
+			6
+		},
+		effect = {
+			{
+				"jump",
+				5,
+				6
+			},
+			{
+				"jumpsub",
+				5,
+				6
+			}
+		}
+	},
+	[395] = {
+		gametip = "",
+		memory = 0,
+		id = 395,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			6,
+			5
+		},
+		effect = {
+			{
+				"jump",
+				6,
+				3
+			},
+			{
+				"jumpsub",
+				6,
+				3
+			}
+		}
+	},
+	[396] = {
+		gametip = "",
+		memory = 0,
+		id = 396,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			5,
+			2
+		},
+		effect = {
+			{
+				"jump",
+				3,
+				2
+			},
+			{
+				"jumpsub",
+				3,
+				2
+			}
+		}
+	},
+	[397] = {
+		gametip = "",
+		memory = 0,
+		id = 397,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			0,
+			4
+		},
+		effect = {
+			{
+				"jump",
+				0,
+				10
+			},
+			{
+				"jumpsub",
+				0,
+				10
+			}
+		}
+	},
+	[398] = {
+		gametip = "",
+		memory = 0,
+		id = 398,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			0,
+			10
+		},
+		effect = {
+			{
+				"jump",
+				0,
+				4
+			},
+			{
+				"jumpsub",
+				0,
+				4
+			}
+		}
+	},
+	[399] = {
+		gametip = "",
+		memory = 0,
+		id = 399,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			0,
+			0
+		},
+		effect = {
+			{
+				"jump",
+				0,
+				6
+			},
+			{
+				"jumpsub",
+				0,
+				6
+			}
+		}
+	},
+	[400] = {
+		gametip = "",
+		memory = 0,
+		id = 400,
+		type = 4,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {
+			0,
+			6
+		},
+		effect = {
+			{
+				"jump",
+				0,
+				0
+			},
+			{
+				"jumpsub",
+				0,
+				0
+			}
+		}
+	},
+	[401] = {
+		gametip = "map_event_stop_battle_tip",
+		memory = 0,
+		id = 401,
+		type = 2,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "mengjingfengyin",
+		address = {
+			1,
+			3
+		},
+		effect = {}
+	},
+	[402] = {
+		gametip = "map_event_stop_battle_tip",
+		memory = 0,
+		id = 402,
+		type = 2,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "mengjingfengyin",
+		address = {
+			1,
+			7
+		},
+		effect = {}
+	},
+	[403] = {
+		gametip = "map_event_stop_battle_tip",
+		memory = 0,
+		id = 403,
+		type = 2,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "mengjingfengyin",
+		address = {
+			3,
+			5
+		},
+		effect = {}
+	},
+	[404] = {
+		gametip = "map_event_stop_battle_tip",
+		memory = 0,
+		id = 404,
+		type = 2,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "mengjingfengyin",
+		address = {
+			6,
+			5
+		},
+		effect = {}
+	},
+	[405] = {
+		gametip = "",
+		memory = 0,
+		id = 405,
+		type = 1,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 0,
+		ship_prefab = "",
+		icon = "taotuo",
+		address = {
+			7,
+			6
+		},
+		effect = {}
+	},
+	[406] = {
+		gametip = "",
+		memory = 0,
+		id = 406,
+		type = 3,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1444302,
+						{
+							0,
+							2
+						}
+					},
+					{
+						1444302,
+						{
+							0,
+							8
+						}
+					}
+				}
+			}
+		}
+	},
+	[407] = {
+		gametip = "",
+		memory = 0,
+		id = 407,
+		type = 3,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1444301,
+						{
+							5,
+							5
+						}
+					}
+				}
+			}
+		}
+	},
 	all = {
 		75,
 		76,
@@ -6591,6 +7399,39 @@ pg.map_event_template = {
 		371,
 		372,
 		373,
-		374
+		374,
+		375,
+		376,
+		377,
+		378,
+		379,
+		380,
+		381,
+		382,
+		383,
+		384,
+		385,
+		386,
+		387,
+		388,
+		389,
+		390,
+		391,
+		392,
+		393,
+		394,
+		395,
+		396,
+		397,
+		398,
+		399,
+		400,
+		401,
+		402,
+		403,
+		404,
+		405,
+		406,
+		407
 	}
 }

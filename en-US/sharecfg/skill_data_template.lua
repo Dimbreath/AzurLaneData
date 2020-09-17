@@ -57,8 +57,8 @@ pg.skill_data_template = {
 	},
 	[13] = {
 		desc_get = "",
-		name = "维修Lv4",
-		desc = "每5秒回复20点耐久，同类效果取最大值，不可叠加",
+		name = "Repair Ⅲ",
+		desc = "Recovers 20 HP every 5s. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 13,
@@ -84,6 +84,17 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 1,
 		id = 15,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[16] = {
+		desc_get = "",
+		name = "Specialized Bulin Custom MKIII ",
+		desc = "可替代彩色角色作为改造材料使用",
+		type = 3,
+		max_level = 1,
+		id = 16,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -7132,6 +7143,61 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 6570,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6580] = {
+		desc_get = "",
+		name = "I've Brought Your Cannons! ",
+		desc = "",
+		type = 0,
+		max_level = 1,
+		id = 6580,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6590] = {
+		desc_get = "",
+		name = "Gun Components ",
+		desc = "When equipped by Kashino: increases the FP of your Main Fleet and your CBs by 10%.",
+		type = 0,
+		max_level = 0,
+		id = 6590,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6620] = {
+		desc_get = "",
+		name = "Basic Sonar T3",
+		desc = "Decreases the Accuracy of detected enemy submarines by 3.0%. Effect does not stack.",
+		type = 0,
+		max_level = 0,
+		id = 6620,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6650] = {
+		desc_get = "",
+		name = "Improved Sonar T3",
+		desc = "Decreases the TRP of detected enemy submarines by 5.0%. Effect does not stack.",
+		type = 0,
+		max_level = 0,
+		id = 6650,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6660] = {
+		desc_get = "",
+		name = "Aviation Materials ",
+		desc = "When equipped by an AE: increases the AVI of your fleet by 8.0%.",
+		type = 0,
+		max_level = 0,
+		id = 6660,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -21936,7 +22002,7 @@ pg.skill_data_template = {
 	[11900] = {
 		desc_get = "",
 		name = "Protector of the North Passage",
-		desc = "When this ship launches an Airstrike: commences a Scan that reveals the location of all enemy Submarines for $1s. Additionally, launches a special airstrike with Anti-Sub Swordfishes. Torpedo DMG is based on the skill's level.",
+		desc = "When this ship launches an Airstrike: commences a Scan that reveals the location of all enemy Submarines for $1s. Additionally, launches a special airstrike with Anti-Sub Swordfishes; For $1 seconds, all enemy Submarines are slowed for 40% (DMG is based on the skill's level). ",
 		type = 1,
 		max_level = 10,
 		id = 11900,
@@ -24252,7 +24318,7 @@ pg.skill_data_template = {
 	[12210] = {
 		desc_get = "",
 		name = "Kolibri Assault",
-		desc = "10s after the battle begins and every 30s after that while equipping the FI 282: launches 1 FI 282, revealing the location of enemy Submarines and increasing your fleet's DMG to them by $1 for 10s.",
+		desc = "10s after the battle begins and every 30s after that while equipping the FI 282: launches 1 FI 282, revealing the location of enemy SS, slowing them by $1, and increasing their damage taken by $1 for 10s. ",
 		type = 1,
 		max_level = 10,
 		id = 12210,
@@ -32656,7 +32722,7 @@ pg.skill_data_template = {
 	[13130] = {
 		desc_get = "",
 		name = "Black Cat Cyclone",
-		desc = "1) Every 20s: increases this ship's FP by $2 for 10s, reveals the location of all enemy SSs for 10s, and launches a $1 seaplane airstrike. 2) Once per battle, if this ship has the PBY-5A Catalina equipped when its HP falls below 40.0%: launches a special seaplane airstrike. Airstrike DMG is based on the skill's level.",
+		desc = "Every 20s: launches a $1 seaplane airstrike, increasing this ship's FP by $2, revealing the location of all enemy SSs for 10s, and increasing the damage they take by $3 for 10s. Once per battle, if this ship has the PBY-5A Catalina equipped when its HP falls below 40.0%: launches a special seaplane airstrike. Airstrike DMG is based on the skill's level. ",
 		type = 1,
 		max_level = 10,
 		id = 13130,
@@ -36147,7 +36213,7 @@ pg.skill_data_template = {
 	[13510] = {
 		desc_get = "",
 		name = "Forward!",
-		desc = "When this ship fires its Main Guns: $1 chance to fire a frontal $1 special barrage (DMG is based on the skill's level.)",
+		desc = "When this ship fires its Main Guns: $1 chance to fire a frontal special barrage (DMG is based on the skill's level.)",
 		type = 1,
 		max_level = 10,
 		id = 13510,
@@ -36659,6 +36725,1111 @@ pg.skill_data_template = {
 				}
 			}
 		}
+	},
+	[13580] = {
+		desc_get = "",
+		name = "Hope's Tempest",
+		desc = "3s after the battle starts: launches a Saiun recon flight. When this ship launches an Airstrike: launches an additional $1 Shiden Kai 2, Ryuusei, or Saiun airstrike. Saiuns do not attack, but decrease the FP, TRP, and AA of one random enemy (humanoids prioritized) by 3.0% and increase the DMG they take by 3.0% until the battle ends. This debuff can stack up to 3 times.",
+		type = 1,
+		max_level = 10,
+		id = 13580,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13590] = {
+		desc_get = "",
+		name = "Dreamwaker's Bow",
+		desc = "Every 15s: fires a $2 special barrage. During the 1st and 2nd battles this ship fights in during a sortie: increases this ship's AVI by $1. When the fleet this ship is NOT in starts its 3rd, 4th, and 5th battles of a sortie: launches a $2 airstrike (DMG is based on the skill's level) 15s after the battle starts.",
+		type = 3,
+		max_level = 10,
+		id = 13590,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13600] = {
+		desc_get = "",
+		name = "Protector of the New Moon",
+		desc = "While this ship is afloat: increases the FP, EVA, and ASW of your DDs by $1. If the fleet this ship is in contains 3 (or more) Sakura Empire ships: decreases the DMG this ship takes from Main Guns and Aircraft by $2 and increases AVI and Accuracy by $1 for all your Sakura Empire CVs.",
+		type = 2,
+		max_level = 10,
+		id = 13600,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"8.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"8.0%",
+					"+1.2%"
+				},
+				{
+					"9.2%",
+					"+1.2%"
+				},
+				{
+					"10.4%",
+					"+1.6%"
+				},
+				{
+					"12.0%",
+					"+1.2%"
+				},
+				{
+					"13.2%",
+					"+1.2%"
+				},
+				{
+					"14.4%",
+					"+1.6%"
+				},
+				{
+					"16.0%",
+					"+1.2%"
+				},
+				{
+					"17.2%",
+					"+1.2%"
+				},
+				{
+					"18.4%",
+					"+1.6%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[13610] = {
+		desc_get = "",
+		name = "Kii Fleet Strategy",
+		desc = "Every 20s after the battle starts: $1 chance to fire a $2 special barrage (DMG is based on the skill's level.)",
+		type = 1,
+		max_level = 10,
+		id = 13610,
+		system_transform = {
+			[3.0] = 13615
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13620] = {
+		desc_get = "",
+		name = "Stalwart Advance",
+		desc = "While this ship is afloat: increases AVI by $1 for your Sakura Empire Main Fleet ships. If the fleet this ship is in contains 3 (or more) Sakura Empire ships: increases this ship's FP by $2 and increases your Vanguard's TRP by $2.",
+		type = 3,
+		max_level = 10,
+		id = 13620,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13630] = {
+		desc_get = "",
+		name = "Suzutsuki, Breaking Through!",
+		desc = "Increases this ship's FP and AA by $1 for each Sakura Empire ship in the same fleet as this ship; when an enemy aircraft is shot down within your fleet's Anti-Air Gun range: adds 1 stack of this buff. Can stack up to 6 times.",
+		type = 1,
+		max_level = 10,
+		id = 13630,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[13640] = {
+		desc_get = "",
+		name = "Suzutsuki, Causing Confusion!",
+		desc = "3s after the battle starts and every 15s after that: fires a special barrage and has a $2 chance to deploy a smokescreen for 5s that increases EVA by $1 for all your ships in it (barrage DMG is based on the skill's level and the first smokescreen is guaranteed to deploy.) Once per battle, when this ship's HP falls below 20.0%: heals this ship for $3 HP.",
+		type = 2,
+		max_level = 10,
+		id = 13640,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13650] = {
+		desc_get = "",
+		name = "Robust Ballasts",
+		desc = "For the first 3 battles of a sortie this ship fights in: decreases the Main Gun DMG this ship takes by $1. If there are 2 (or more) Sakura Empire ships in the same fleet as this ship: increases this ship's Speed by 10.",
+		type = 2,
+		max_level = 10,
+		id = 13650,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13660] = {
+		desc_get = "",
+		name = "Cargo Fire Precautions",
+		desc = "While this ship has Cargo equipped: decreases the Burn DMG it takes by $1 and shortens the duration of Burn effects by $2s.",
+		type = 2,
+		max_level = 10,
+		id = 13660,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3",
+				"6"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"6"
+				}
+			}
+		}
+	},
+	[13670] = {
+		desc_get = "",
+		name = "Veil of Night",
+		desc = "After this ship takes DMG 3 times in battle: decreases this ship's DMG taken by $1 until the battle ends. During the 2nd, 4th, and 6th battles of a sortie this ship fights in: heals this ship for $2 HP 60s after the battle starts. If there are 2 (or more) Sakura Empire ships in the same fleet as this ship: improves this ship's All Out Assault.",
+		type = 2,
+		max_level = 10,
+		id = 13670,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13680] = {
+		desc_get = "",
+		name = "Strike Team, Attack!",
+		desc = "Every battle, when this ship launches its first Airstrike: launches an additional $1 seaplane airstrike; when it launches its second Airstrike and onwards: $2 chance to launch an additional torpedo bomber airstrike (DMG is based on the skill's level.) If there is a Sakura Empire CVL in the same fleet as this ship: improves these airstrikes.",
+		type = 1,
+		max_level = 10,
+		id = 13680,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
+	[13690] = {
+		desc_get = "",
+		name = "Chiyoda's Domain?",
+		desc = "Every battle, when this ship launches its first Airstrike: launches an additional $1 seaplane airstrike; when it launches its second Airstrike and onwards: $2 chance to launch an additional torpedo bomber airstrike (DMG is based on the skill's level.) If there is a Sakura Empire CVL in the same fleet as this ship: improves these airstrikes.",
+		type = 1,
+		max_level = 10,
+		id = 13690,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
+	[13700] = {
+		desc_get = "",
+		name = "Dreamwaker's Bow",
+		desc = "Support effect",
+		type = 2,
+		max_level = 10,
+		id = 13700,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
 	},
 	[18010] = {
 		desc_get = "",
@@ -40284,7 +41455,7 @@ pg.skill_data_template = {
 	[19330] = {
 		desc_get = "",
 		name = "Mímir's Keen Eyes",
-		desc = "Changes this ship's position and decreases its DMG taken by $1. Every 15s: commences a sonar scan, revealing the location of all enemy Submarines for $2s and decreasing your Vanguard's DMG taken from torpedoes by $3 for $2s.",
+		desc = "Changes this ship's position and decreases its DMG taken by $1. Every 15s: commences a sonar scan, revealing the location of all enemy SSs for $2s, reducing their accuracy by $4, and decreasing your Vanguard's DMG taken from torpedoes by $3 for $2s. ",
 		type = 3,
 		max_level = 10,
 		id = 19330,
@@ -42248,6 +43419,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[22411] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Kashino once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 22411,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[22412] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Kashino once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 22412,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[23011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -44107,6 +45300,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29592,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29601] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Suzutsuki once every 24 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29601,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29602] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Suzutsuki once every 16 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29602,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -47268,6 +48483,7 @@ pg.skill_data_template = {
 		13,
 		14,
 		15,
+		16,
 		1001,
 		1002,
 		1003,
@@ -47434,6 +48650,11 @@ pg.skill_data_template = {
 		6550,
 		6560,
 		6570,
+		6580,
+		6590,
+		6620,
+		6650,
+		6660,
 		7000,
 		9010,
 		9020,
@@ -47800,6 +49021,19 @@ pg.skill_data_template = {
 		13550,
 		13560,
 		13570,
+		13580,
+		13590,
+		13600,
+		13610,
+		13620,
+		13630,
+		13640,
+		13650,
+		13660,
+		13670,
+		13680,
+		13690,
+		13700,
 		18010,
 		18040,
 		18050,
@@ -47983,6 +49217,8 @@ pg.skill_data_template = {
 		22262,
 		22311,
 		22312,
+		22411,
+		22412,
 		23011,
 		23012,
 		23031,
@@ -48152,6 +49388,8 @@ pg.skill_data_template = {
 		29582,
 		29591,
 		29592,
+		29601,
+		29602,
 		101010,
 		101020,
 		101030,

@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.chapter_template = {
 	[101] = {
-		mine_id = 2001,
 		pos_x = "0.10703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -20,18 +20,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.157291667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 3,
+		map = 1,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -49,7 +50,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 1,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We are conducting a joint military exercise with the Eagle Union's elite Task Force.",
@@ -258,12 +259,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[102] = {
-		mine_id = 2001,
 		pos_x = "0.34609375",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -277,18 +278,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 101,
+		formation = 1,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347916667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 5,
+		map = 1,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -306,7 +308,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 1,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Report! Our home port is being bombed by an unknown fleet. Commander, we need you on defense!",
@@ -624,12 +626,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[103] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -643,18 +645,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 102,
+		formation = 1,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 7,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 5,
+		map = 1,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -672,7 +675,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 1,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy's reconnaissance force has been detected up ahead - prepare to intercept them!",
@@ -1024,12 +1027,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[104] = {
-		mine_id = 2001,
 		pos_x = "0.60546875",
 		num_3 = 1,
 		progress_boss = 80,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -1043,18 +1046,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 103,
+		formation = 1,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.446875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 8,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 7,
+		map = 1,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -1072,7 +1076,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 1,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A fleet from the East, the Sakura Empire, has crossed the ocean to launch an attack against us!",
@@ -1511,12 +1515,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[201] = {
-		mine_id = 2001,
 		pos_x = "0.6265625",
 		num_3 = 1,
 		progress_boss = 70,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -1530,18 +1534,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 104,
+		formation = 2,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 10,
+		map = 2,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -1559,7 +1564,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 2,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Intel reports that a large Sakura fleet has gathered around Fuerteventura. We can't afford to lose it!",
@@ -2093,12 +2098,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[202] = {
-		mine_id = 2001,
 		pos_x = "0.575",
 		num_3 = 1,
 		progress_boss = 60,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -2112,18 +2117,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 2,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 2,
 		land_based = "",
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -2141,7 +2147,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 2,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Enemy fighters are continuing to attack! We have to split into two groups and find them.",
@@ -2728,12 +2734,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[203] = {
-		mine_id = 2001,
 		pos_x = "0.21484375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -2747,17 +2753,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 202,
+		formation = 2,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 11,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 2,
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
@@ -2774,7 +2781,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 2,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An enemy aircraft carrier is up ahead. This is a rare chance to strike the enemy where it hurts the most.",
@@ -3340,12 +3347,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[204] = {
-		mine_id = 2001,
 		pos_x = "0.28984375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -3359,18 +3366,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 203,
+		formation = 2,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.0625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 2,
 		land_based = "",
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -3388,7 +3396,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 2,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Yorktown and Lexington are under siege from Sakura fleet. We can't afford to lose them!",
@@ -3922,12 +3930,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[301] = {
-		mine_id = 2001,
 		pos_x = "0.3046875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -3941,18 +3949,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 204,
+		formation = 3,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.403125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 3,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -3970,7 +3979,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We received an intel that the Sakura are amassing a large fleet at Midway. Launch a preemptive strike!",
@@ -4525,12 +4534,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[302] = {
-		mine_id = 2001,
 		pos_x = "0.16953125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -4544,18 +4553,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 301,
+		formation = 3,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 3,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -4573,7 +4583,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Our aircraft have found enemy's aircraft carriers. Their fleet is in disarray. Now is the time to attack!",
@@ -5152,12 +5162,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[303] = {
-		mine_id = 2001,
 		pos_x = "0.60625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -5171,18 +5181,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 302,
+		formation = 3,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.491666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 3,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -5200,7 +5211,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Our aviation fleet has been attacked by enemy fighters. Yorktown has suffered severe damage!",
@@ -5774,12 +5785,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[304] = {
-		mine_id = 2001,
 		pos_x = "0.46953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -5793,18 +5804,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 303,
+		formation = 3,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 3,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -5822,7 +5834,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've sunk three enemy carriers. Victory is close, but Hiryuu is going for her final counterattack!",
@@ -6382,12 +6394,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[305] = {
-		mine_id = 2001,
 		pos_x = "0.5734375",
 		num_3 = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -6401,18 +6413,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 3,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.091666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 0,
+		map = 3,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -6430,7 +6443,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The Distress Signal is coming from merchant ships in this region! Put an end to the enemy Submarine Fleet's rampage and secure the waters!",
@@ -7062,12 +7075,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[401] = {
-		mine_id = 2001,
 		pos_x = "0.17578125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -7081,18 +7094,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 304,
+		formation = 4,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 15,
+		map = 4,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -7110,7 +7124,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura have disrupted our supply shipments to Savo Island. Provide the escort for our next shipment.",
@@ -7582,12 +7596,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[402] = {
-		mine_id = 2001,
 		pos_x = "0.31953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -7601,18 +7615,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 401,
+		formation = 4,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.140625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 15,
+		map = 4,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -7630,7 +7645,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We suffered heavy losses during the night. More enemies approaching. We need to leave this area ASAP!",
@@ -8095,12 +8110,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[403] = {
-		mine_id = 2001,
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -8114,18 +8129,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 402,
+		formation = 4,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.061458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 15,
+		map = 4,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -8143,7 +8159,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "HQ has ordered reinforcements to the Solomon Islands after we suffered heavy losses at Savo Island.",
@@ -8553,12 +8569,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[404] = {
-		mine_id = 2001,
 		pos_x = "0.59921875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -8572,18 +8588,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 403,
+		formation = 4,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.328125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 18,
+		map = 4,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -8601,7 +8618,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After half a day of fighting, we finally managed to catch the enemy fleet. Keep an eye on AA defenses!",
@@ -9148,12 +9165,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[405] = {
-		mine_id = 2001,
 		pos_x = "0.365625",
 		num_3 = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -9167,18 +9184,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 4,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.458333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 20,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 0,
+		map = 4,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -9196,7 +9214,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The Distress Signal is coming from merchant ships in this region! Put an end to the enemy Submarine Fleet's rampage and secure the waters!",
@@ -9794,12 +9812,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[501] = {
-		mine_id = 2001,
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -9813,18 +9831,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 404,
+		formation = 5,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 18,
+		map = 5,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -9842,7 +9861,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy is preparing to ship supplies around Solomon through Espas. We must intercept their shipment.",
@@ -10394,12 +10413,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[502] = {
-		mine_id = 2001,
 		pos_x = "0.65859375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -10413,18 +10432,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 501,
+		formation = 5,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.071875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 18,
+		map = 5,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -10442,7 +10462,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've located another enemy carrier fleet. We're too far from shore to call for air support.",
@@ -10932,12 +10952,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[503] = {
-		mine_id = 2001,
 		pos_x = "0.56640625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -10951,18 +10971,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 502,
+		formation = 5,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 23,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 18,
+		map = 5,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -10980,7 +11001,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Hornet has been attacked by an enemy fleet at a nearby location and is sending out her distress signal.",
@@ -11440,12 +11461,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[504] = {
-		mine_id = 2001,
 		pos_x = "0.45234375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -11459,18 +11480,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 503,
+		formation = 5,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.408333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 24,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 5,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -11488,7 +11510,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An enemy main fleet has intercepted our fleet. Prepare for battle!",
@@ -11973,12 +11995,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[505] = {
-		mine_id = 2001,
 		pos_x = "0.309375",
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -11992,18 +12014,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 5,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.071875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 24,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 0,
+		map = 5,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -12021,7 +12044,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The Distress Signal is coming from merchant ships in this region! Put an end to the enemy Submarine Fleet's rampage and secure the waters!",
@@ -12557,12 +12580,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[601] = {
-		mine_id = 2001,
 		pos_x = "0.70390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -12576,18 +12599,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 504,
+		formation = 6,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.113541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 6,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -12605,7 +12629,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "In a desperate attempt to turn the tide of the war, the Sakura have begun attacking in the dead of night.",
@@ -13128,12 +13152,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[602] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -13147,18 +13171,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 601,
+		formation = 6,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.273958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 6,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -13176,7 +13201,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Though we failed before, we'll show the Sakura the true strength of the Eagles tonight! For freedom!",
@@ -13755,12 +13780,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[603] = {
-		mine_id = 2001,
 		pos_x = "0.32265625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -13774,18 +13799,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 602,
+		formation = 6,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.40625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 27,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 6,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -13803,7 +13829,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "South Dakota was hit by a savage strike from {namecode:73}. Lend her your support now!",
@@ -14306,12 +14332,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[604] = {
-		mine_id = 2001,
 		pos_x = "0.221875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -14325,18 +14351,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 603,
+		formation = 6,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.186458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 28,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 6,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -14354,7 +14381,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We're winning the battle at the Solomon Islands, but the enemy is preparing to launch their final attack.",
@@ -14901,12 +14928,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[605] = {
-		mine_id = 2001,
 		pos_x = "0.68828125",
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -14920,18 +14947,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 6,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.470833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 28,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 0,
+		map = 6,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -14949,7 +14977,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The Distress Signal is coming from merchant ships in this region! Put an end to the enemy Submarine Fleet's rampage and secure the waters!",
@@ -15495,12 +15523,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[701] = {
-		mine_id = 2001,
 		pos_x = "0.153125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -15514,18 +15542,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 604,
+		formation = 7,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.130208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 7,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -15543,7 +15572,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura are shipping supplies to Guadalcanal. HQ has given us orders to intercept them at once!",
@@ -15913,12 +15942,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[702] = {
-		mine_id = 2001,
 		pos_x = "0.35078125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -15932,18 +15961,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 701,
+		formation = 7,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.442708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 7,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -15961,7 +15991,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Enemy managed to approach us under the cover of night. This next battle is going to be in close quarters!",
@@ -16434,12 +16464,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[703] = {
-		mine_id = 2001,
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -16453,18 +16483,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 702,
+		formation = 7,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.335416667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 7,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -16482,7 +16513,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura torpedo fleet managed to sneak behind our main fleet. Prepare to engage evasive maneuvers!",
@@ -17026,12 +17057,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[704] = {
-		mine_id = 2001,
 		pos_x = "0.728125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -17045,18 +17076,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 703,
+		formation = 7,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.163541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 7,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -17074,7 +17106,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura have an unmatchable advantage when fighting under the cover of darkness. Commander, take care!",
@@ -17602,12 +17634,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[705] = {
-		mine_id = 2001,
 		pos_x = "0.225",
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -17621,18 +17653,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 7,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.291666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 0,
+		map = 7,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -17650,7 +17683,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The Distress Signal is coming from merchant ships in this region! Put an end to the enemy Submarine Fleet's rampage and secure the waters!",
@@ -18181,12 +18214,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[801] = {
-		mine_id = 2001,
 		pos_x = "0.41953125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -18200,18 +18233,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 704,
+		formation = 8,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 8,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -18229,7 +18263,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We lost the Arctic Sea during the previous battle with the Sakura at Midway. Let's take it back!",
@@ -18621,12 +18655,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[802] = {
-		mine_id = 2001,
 		pos_x = "0.2046875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -18640,18 +18674,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 801,
+		formation = 8,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.258333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 8,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -18669,7 +18704,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The waters near the Aleutian Islands are frigid and piercing. Dawn in the Arctic has come.",
@@ -19147,12 +19182,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[803] = {
-		mine_id = 2001,
 		pos_x = "0.2546875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -19166,18 +19201,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 802,
+		formation = 8,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.041666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 8,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -19195,7 +19231,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Salt Lake City has maintained heavy damage. The situation is critical!",
@@ -19736,12 +19772,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[804] = {
-		mine_id = 2001,
 		pos_x = "0.6015625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -19755,18 +19791,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 803,
+		formation = 8,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.153125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 8,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -19784,7 +19821,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy flagships have been destroyed, but new enemies have appeared. This is the old battlefield.",
@@ -20388,12 +20425,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[805] = {
-		mine_id = 2001,
 		pos_x = "0.66796875",
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -20407,18 +20444,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 8,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.338541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 0,
+		map = 8,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -20436,7 +20474,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The Distress Signal is coming from merchant ships in this region! Put an end to the enemy Submarine Fleet's rampage and secure the waters!",
@@ -21029,12 +21067,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[901] = {
-		mine_id = 2001,
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -21048,18 +21086,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 804,
+		formation = 9,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 9,
 		land_based = "",
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -21077,7 +21116,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Under the cover of darkness, the Sakura's elite destroyers are heading towards Cologne Island.",
@@ -21563,12 +21602,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[902] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -21582,18 +21621,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 901,
+		formation = 9,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 9,
 		land_based = "",
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -21611,7 +21651,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy is close, Commander. Which will win out - the Sakura's torpedoes or the Eagles' light cruisers?",
@@ -22135,12 +22175,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[903] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -22154,18 +22194,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 902,
+		formation = 9,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 9,
 		land_based = "",
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -22183,7 +22224,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Helena's guns lit up the night sky, scattering light across the violent waters. Her position is exposed.",
@@ -22731,12 +22772,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[904] = {
-		mine_id = 2001,
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -22750,18 +22791,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 903,
+		formation = 9,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 9,
 		land_based = "",
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -22779,7 +22821,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy's destroyers showed some serious skill when fighting during the night. Heads up!",
@@ -23349,12 +23391,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[905] = {
-		mine_id = 2001,
 		pos_x = "0.44921875",
 		num_3 = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -23368,18 +23410,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 9,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.238541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 0,
+		map = 9,
 		land_based = "",
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -23397,7 +23440,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The Distress Signal is coming from merchant ships in this region! Put an end to the enemy Submarine Fleet's rampage and secure the waters!",
@@ -23977,12 +24020,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1001] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -23996,18 +24039,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 904,
+		formation = 10,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 10,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -24025,7 +24069,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Less than a week after the Battle of Kula Gulf, the Sakura Fleet reassembled again to launch a covert transport operation to the Kolombangara Islands. Task Force 18, led by Honolulu and St Louis, was once again instructed to intercept the transport.",
@@ -24530,12 +24574,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1002] = {
-		mine_id = 2001,
 		pos_x = "0.35234375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -24549,18 +24593,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1001,
+		formation = 10,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.234375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 10,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -24578,7 +24623,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Our PBY recons have detected enemy forces to the south. However, they had already detected our radar signals first. The night battle is about to commence!",
@@ -25139,12 +25184,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1003] = {
-		mine_id = 2001,
 		pos_x = "0.49453125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -25158,18 +25203,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1002,
+		formation = 10,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 10,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -25187,7 +25233,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Under the cover of night, the Sakura fleet scored several hits on our light cruisers with their prized oxygen torpedoes. However, their flagship, Jintsuu, has been heavily damaged concentrated fire from 152mm cannons, and is now retreating.",
@@ -25765,12 +25811,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1004] = {
-		mine_id = 2001,
 		pos_x = "0.571875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -25784,18 +25830,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1003,
+		formation = 10,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.378125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 10,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -25813,7 +25860,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Just as Honolulu and St. Louis were seizing on the advantage, a Sakura torpedo squadron emerged from the cover of darkness to launch a vicious counterattack! Honolulu and St. Louis have been struck by torpedoes, and the situation is critical!",
@@ -26405,12 +26452,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1005] = {
-		mine_id = 2001,
 		pos_x = "0.6859375",
 		num_3 = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -26424,18 +26471,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 10,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.196875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 35,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 0,
+		map = 10,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -26453,7 +26501,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The Distress Signal is coming from merchant ships in this region! Put an end to the enemy Submarine Fleet's rampage and secure the waters!",
@@ -27034,12 +27082,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1101] = {
-		mine_id = 2001,
 		pos_x = "0.22734375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -27053,18 +27101,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1004,
+		formation = 11,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.388541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 11,
 		land_based = "",
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -27082,7 +27131,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 11,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We have successfully drawn the enemy fleet's attention towards our air wings. Come morning, we should be able to anchor at Bougainville Island!",
@@ -27636,12 +27685,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1102] = {
-		mine_id = 2001,
 		pos_x = "0.32578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -27655,18 +27704,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1101,
+		formation = 11,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.091666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 11,
 		land_based = "",
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -27684,7 +27734,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 11,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A Sakura Empire fleet has been sighted advancing quickly through the storm! Only Task Force 39, exhausted after several consecutive battles, can stop them...",
@@ -28353,12 +28403,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1103] = {
-		mine_id = 2001,
 		pos_x = "0.55234375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -28372,18 +28422,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1102,
+		formation = 11,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.453125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 11,
 		land_based = "",
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -28401,7 +28452,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 11,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "\"Escorting our allies is our duty! Cleveland, Montpelier, Columbia, and Denver; the Knights of the Sea, shall be your shields!\"",
@@ -29040,12 +29091,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1104] = {
-		mine_id = 2001,
 		pos_x = "0.6828125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -29059,18 +29110,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1103,
+		formation = 11,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.167708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 45,
+		map = 11,
 		land_based = "",
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -29088,7 +29140,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 11,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The gallant Knights of the Sea stand face to face with the Sakura Empire's relentless heavy cruisers. The clouds in the night sky will be parted not by sunlight, but by boundless cannon fire!",
@@ -29836,12 +29888,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1201] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -29855,18 +29907,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1104,
+		formation = 12,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 12,
 		land_based = "",
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -29884,7 +29937,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 12,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Our submarines say the enemy is preparing a large-scale counterattack. We must make use of this information, stage an attack, and surprise the enemy!",
@@ -30416,12 +30469,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1202] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -30435,18 +30488,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1201,
+		formation = 12,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 12,
 		land_based = "",
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -30464,7 +30518,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 12,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Mobile Fleet is being protected by a Destroyer Fleet as they practice! This is a superb opportunity to launch an all-out attack!",
@@ -31109,12 +31163,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1203] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -31128,18 +31182,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1202,
+		formation = 12,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 12,
 		land_based = "",
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -31157,7 +31212,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 12,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've detected incoming large squadrons of enemy aircraft! Scramble your fighters and pull back the curtains on this decisive battle in the skies!",
@@ -31838,12 +31893,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1204] = {
-		mine_id = 2001,
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -31857,18 +31912,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1203,
+		formation = 12,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 37,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 45,
+		map = 12,
 		land_based = "",
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -31886,7 +31942,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 12,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "War has changed. Victory favors those who have gained air superiority. Launch your planes and seize control of the Mariana skies!",
@@ -32683,12 +32739,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1301] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -32702,18 +32758,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1204,
+		formation = 13,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 13,
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
@@ -32730,7 +32787,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 13,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The first wave of enemy aircraft is fast approaching! The decisive carrier battle is about to begin...",
@@ -33271,12 +33328,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1302] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -33290,18 +33347,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1301,
+		formation = 13,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 13,
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
@@ -33318,7 +33376,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 13,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "As the second wave of attacks approach, the sound of a flute heralds the coming of the final battle.",
@@ -33964,12 +34022,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1303] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -33983,18 +34041,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1302,
+		formation = 13,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 37,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 13,
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
@@ -34011,7 +34070,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 13,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Zuikaku, now a renowned veteran, takes up the banner of the First Carrier Division. Face her fierce assault with everything you have!",
@@ -34701,12 +34760,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1304] = {
-		mine_id = 2001,
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 18,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -34720,18 +34779,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1303,
+		formation = 13,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 38,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 50,
+		map = 13,
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
@@ -34748,7 +34808,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 13,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The final battle is now! Our target - the state-of-the-art armored carrier, Taihou! However, history may not repeat itself again...",
@@ -35547,12 +35607,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10000] = {
-		mine_id = 2001,
 		pos_x = "0.35625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -35566,18 +35626,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 10000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 5,
+		map = 10000,
 		land_based = "",
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -35595,7 +35656,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 10000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura are assembling their fleet near the Malay Sea. Protect to 'Z' fleet. Let's head out now!",
@@ -35949,12 +36010,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10001] = {
-		mine_id = 2001,
 		pos_x = "0.58203125",
 		num_3 = 1,
 		progress_boss = 42,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -35968,18 +36029,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 10000,
+		formation = 10000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.294791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 10000,
 		land_based = "",
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -35997,7 +36059,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 10000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Prince of Wales' and Repulse's anti-air defenses are far weaker than the Sakura's dive bombers.",
@@ -36415,12 +36477,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10002] = {
-		mine_id = 2001,
 		pos_x = "0.44921875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -36434,18 +36496,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 10001,
+		formation = 10000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 10000,
 		land_based = "",
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -36463,7 +36526,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 10000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Repulse and Prince of Wales were both hit by multiple waves of torpedoes. Protect them!",
@@ -36911,12 +36974,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10101] = {
-		mine_id = 2001,
 		pos_x = "0.10703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -36930,18 +36993,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 201,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.157291667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 3,
+		map = 201,
 		land_based = "",
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -36959,7 +37023,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 201,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We are conducting a joint military exercise with the Eagle Union's elite Task Force.",
@@ -37204,12 +37268,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10102] = {
-		mine_id = 2001,
 		pos_x = "0.34609375",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -37223,18 +37287,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 201,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347916667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 5,
+		map = 201,
 		land_based = "",
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -37252,7 +37317,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 201,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Report! Our home port is being bombed by an unknown fleet. Commander, we need you on defense!",
@@ -37604,12 +37669,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10103] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -37623,18 +37688,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 201,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 7,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 5,
+		map = 201,
 		land_based = "",
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -37652,7 +37718,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 201,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy's reconnaissance force has been detected up ahead - prepare to intercept them!",
@@ -38040,12 +38106,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10104] = {
-		mine_id = 2001,
 		pos_x = "0.60546875",
 		num_3 = 1,
 		progress_boss = 80,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -38059,18 +38125,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 201,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.446875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 8,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 7,
+		map = 201,
 		land_based = "",
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -38088,7 +38155,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 201,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A fleet from the East, the Sakura Empire, has crossed the ocean to launch an attack against us!",
@@ -38559,12 +38626,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10201] = {
-		mine_id = 2001,
 		pos_x = "0.6265625",
 		num_3 = 1,
 		progress_boss = 70,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -38578,18 +38645,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 202,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 10,
+		map = 202,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -38607,7 +38675,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 202,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Intel reports that a large Sakura fleet has gathered around Fuerteventura. We can't afford to lose it!",
@@ -39178,12 +39246,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10202] = {
-		mine_id = 2001,
 		pos_x = "0.575",
 		num_3 = 1,
 		progress_boss = 60,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -39197,18 +39265,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 202,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 202,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -39226,7 +39295,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 202,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Enemy fighters are continuing to attack! We've have to split into two groups and find them.",
@@ -39850,12 +39919,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10203] = {
-		mine_id = 2001,
 		pos_x = "0.21484375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -39869,18 +39938,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 202,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 11,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 202,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -39898,7 +39968,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 202,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An enemy aircraft carrier is up ahead. This is a rare chance to strike the enemy where it hurts the most.",
@@ -40499,12 +40569,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10204] = {
-		mine_id = 2001,
 		pos_x = "0.28984375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -40518,18 +40588,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 202,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.0625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 202,
 		land_based = "",
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -40547,7 +40618,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 202,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Yorktown and Lexington are under siege from Sakura fleet. We can't afford to lose them!",
@@ -41118,12 +41189,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10301] = {
-		mine_id = 2001,
 		pos_x = "0.3046875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -41137,18 +41208,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 203,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.403125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 203,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -41166,7 +41238,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 203,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We received an intel that the Sakura are amassing a large fleet at Midway. Launch a preemptive strike!",
@@ -41758,12 +41830,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10302] = {
-		mine_id = 2001,
 		pos_x = "0.16953125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -41777,18 +41849,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 203,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 203,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -41806,7 +41879,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 203,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Our aircraft have found enemy's aircraft carriers. Their fleet is in disarray. Now is the time to attack!",
@@ -42422,12 +42495,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10303] = {
-		mine_id = 2001,
 		pos_x = "0.60625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -42441,18 +42514,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 203,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.491666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 203,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -42470,7 +42544,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 203,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Our aviation fleet has been attacked by enemy fighters. Yorktown has suffered severe damage!",
@@ -43081,12 +43155,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10304] = {
-		mine_id = 2001,
 		pos_x = "0.46953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -43100,18 +43174,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 203,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 12,
+		map = 203,
 		land_based = "",
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -43129,7 +43204,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 203,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've sunk three enemy carriers. Victory is close, but Hiryuu is going for her final counterattack!",
@@ -43726,12 +43801,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10401] = {
-		mine_id = 2001,
 		pos_x = "0.17578125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -43745,18 +43820,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 204,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 15,
+		map = 204,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -43774,7 +43850,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 204,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura have disrupted our supply shipments to Savo Island. Provide the escort for our next shipment.",
@@ -44288,12 +44364,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10402] = {
-		mine_id = 2001,
 		pos_x = "0.31953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -44307,18 +44383,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 204,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.140625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 15,
+		map = 204,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -44336,7 +44413,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 204,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We suffered heavy losses during the night. More enemies approaching. We need to leave this area ASAP!",
@@ -44843,12 +44920,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10403] = {
-		mine_id = 2001,
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -44862,18 +44939,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 204,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.061458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 15,
+		map = 204,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -44891,7 +44969,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 204,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "HQ has ordered reinforcements to the Solomon Islands after we suffered heavy losses at Savo Island.",
@@ -45343,12 +45421,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10404] = {
-		mine_id = 2001,
 		pos_x = "0.59921875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -45362,18 +45440,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 204,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.328125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 18,
+		map = 204,
 		land_based = "",
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -45391,7 +45470,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 204,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After half a day of fighting, we finally managed to catch the enemy fleet. Keep an eye on AA defenses!",
@@ -45980,12 +46059,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10501] = {
-		mine_id = 2001,
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -45999,18 +46078,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 205,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 18,
+		map = 205,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -46028,7 +46108,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 205,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy is preparing to ship supplies around Solomon through Espas. We must intercept their shipment.",
@@ -46622,12 +46702,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10502] = {
-		mine_id = 2001,
 		pos_x = "0.65859375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -46641,18 +46721,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 205,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.071875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 18,
+		map = 205,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -46670,7 +46751,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 205,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've located another enemy carrier fleet. We're too far from shore to call for air support.",
@@ -47202,12 +47283,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10503] = {
-		mine_id = 2001,
 		pos_x = "0.56640625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -47221,18 +47302,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 205,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 23,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 18,
+		map = 205,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -47250,7 +47332,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 205,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Hornet has been attacked by an enemy fleet at a nearby location and is sending out her distress signal.",
@@ -47752,12 +47834,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10504] = {
-		mine_id = 2001,
 		pos_x = "0.45234375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -47771,18 +47853,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 205,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.408333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 24,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 205,
 		land_based = "",
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -47800,7 +47883,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 205,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An enemy main fleet has intercepted our fleet. Prepare for battle!",
@@ -48327,12 +48410,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10601] = {
-		mine_id = 2001,
 		pos_x = "0.70390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -48346,18 +48429,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 206,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.113541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 206,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -48375,7 +48459,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 206,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "In a desperate attempt to turn the tide of the war, the Sakura have begun attacking in the dead of night.",
@@ -48941,12 +49025,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10602] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -48960,18 +49044,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 206,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.273958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 206,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -48989,7 +49074,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 206,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Though we failed before, we'll show the Sakura the true strength of the Eagles tonight! For freedom!",
@@ -49611,12 +49696,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10603] = {
-		mine_id = 2001,
 		pos_x = "0.32265625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -49630,18 +49715,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 206,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.40625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 27,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 206,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -49659,7 +49745,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 206,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "South Dakota was hit by a savage strike from {namecode:73}. Lend her your support now!",
@@ -50205,12 +50291,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10604] = {
-		mine_id = 2001,
 		pos_x = "0.221875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -50224,18 +50310,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 206,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.186458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 28,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 206,
 		land_based = "",
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -50253,7 +50340,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 206,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We're winning the battle at the Solomon Islands, but the enemy is preparing to launch their final attack.",
@@ -50843,12 +50930,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10701] = {
-		mine_id = 2001,
 		pos_x = "0.153125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -50862,18 +50949,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 207,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.130208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 207,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -50891,7 +50979,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 207,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura are shipping supplies to Guadalcanal. HQ has given us orders to intercept them at once!",
@@ -51306,12 +51394,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10702] = {
-		mine_id = 2001,
 		pos_x = "0.35078125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -51325,18 +51413,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 207,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.442708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 207,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -51354,7 +51443,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 207,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Enemy managed to approach us under the cover of night. This next battle is going to be in close quarters!",
@@ -51872,12 +51961,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10703] = {
-		mine_id = 2001,
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -51891,18 +51980,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 207,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.335416667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 207,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -51920,7 +52010,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 207,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura torpedo fleet managed to sneak behind our main fleet. Prepare to engage evasive maneuvers!",
@@ -52509,12 +52599,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10704] = {
-		mine_id = 2001,
 		pos_x = "0.728125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -52528,18 +52618,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 207,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.163541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 207,
 		land_based = "",
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -52557,7 +52648,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 207,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura have an unmatchable advantage when fighting under the cover of darkness. Commander, take care!",
@@ -53130,12 +53221,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10801] = {
-		mine_id = 2001,
 		pos_x = "0.41953125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -53149,18 +53240,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 208,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 208,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -53178,7 +53270,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 208,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We lost the Arctic Sea during the previous battle with the Sakura at Midway. Let's take it back!",
@@ -53615,12 +53707,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10802] = {
-		mine_id = 2001,
 		pos_x = "0.2046875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -53634,18 +53726,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 208,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.258333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 208,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -53663,7 +53756,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 208,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The waters near the Aleutian Islands are frigid and piercing. Dawn in the Arctic has come.",
@@ -54186,12 +54279,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10803] = {
-		mine_id = 2001,
 		pos_x = "0.2546875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -54205,18 +54298,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 208,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.041666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 208,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -54234,7 +54328,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 208,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Salt Lake City has maintained heavy damage. The situation is critical!",
@@ -54820,12 +54914,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10804] = {
-		mine_id = 2001,
 		pos_x = "0.6015625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -54839,18 +54933,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 208,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.153125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 208,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -54868,7 +54963,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 208,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy flagships have been destroyed, but new enemies have appeared. This is the old battlefield.",
@@ -55517,12 +55612,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10901] = {
-		mine_id = 2001,
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -55536,18 +55631,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 209,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 209,
 		land_based = "",
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -55565,7 +55661,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 209,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Under the cover of darkness, the Sakura's elite destroyers are heading towards Cologne Island.",
@@ -56096,12 +56192,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10902] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -56115,18 +56211,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 209,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 209,
 		land_based = "",
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -56144,7 +56241,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 209,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy is close, Commander. Which will win out - the Sakura's torpedoes or the Eagles' light cruisers?",
@@ -56713,12 +56810,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10903] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -56732,18 +56829,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 209,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 209,
 		land_based = "",
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -56761,7 +56859,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 209,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Helena's guns lit up the night sky, scattering light across the violent waters. Her position is exposed.",
@@ -57354,12 +57452,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10904] = {
-		mine_id = 2001,
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -57373,18 +57471,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 209,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 209,
 		land_based = "",
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -57402,7 +57501,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 209,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The enemy's destroyers showed some serious skill when fighting during the night. Heads up!",
@@ -58017,12 +58116,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11001] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -58036,18 +58135,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 210,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 210,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -58065,7 +58165,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 210,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Less than a week after the Battle of Kula Gulf, the Sakura Fleet reassembled again to launch a covert transport operation to the Kolombangara Islands. Task Force 18, led by Honolulu and St Louis, was once again instructed to intercept the transport.",
@@ -58615,12 +58715,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11002] = {
-		mine_id = 2001,
 		pos_x = "0.35234375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -58634,18 +58734,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 210,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.234375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 210,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -58663,7 +58764,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 210,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Our PBY recons have detected enemy forces to the south. However, they had already detected our radar signals first. The night battle is about to commence!",
@@ -59269,12 +59370,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11003] = {
-		mine_id = 2001,
 		pos_x = "0.49453125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -59288,18 +59389,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 210,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 210,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -59317,7 +59419,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 210,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Under the cover of night, the Sakura fleet scored several hits on our light cruisers with their prized oxygen torpedoes. However, their flagship, Jintsuu, has been heavily damaged concentrated fire from 152mm cannons, and is now retreating.",
@@ -59940,12 +60042,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11004] = {
-		mine_id = 2001,
 		pos_x = "0.571875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -59959,18 +60061,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 210,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.378125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 210,
 		land_based = "",
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -59988,7 +60091,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 210,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Just as Honolulu and St. Louis were seizing on the advantage, a Sakura torpedo squadron emerged from the cover of darkness to launch a vicious counterattack! Honolulu and St. Louis have been struck by torpedoes, and the situation is critical!",
@@ -60625,12 +60728,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11101] = {
-		mine_id = 2001,
 		pos_x = "0.22734375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -60644,18 +60747,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 211,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.388541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 211,
 		land_based = "",
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -60673,7 +60777,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 211,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We have successfully drawn the enemy fleet's attention towards our air wings. Come morning, we should be able to anchor at Bougainville Island!",
@@ -61272,12 +61376,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11102] = {
-		mine_id = 2001,
 		pos_x = "0.32578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -61291,18 +61395,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 211,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.091666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 211,
 		land_based = "",
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -61320,7 +61425,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 211,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A Sakura Empire fleet has been sighted advancing quickly through the storm! Only Task Force 39, exhausted after several consecutive battles, can stop them...",
@@ -62034,12 +62139,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11103] = {
-		mine_id = 2001,
 		pos_x = "0.55234375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -62053,18 +62158,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 211,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.453125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 211,
 		land_based = "",
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -62082,7 +62188,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 211,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "\"Escorting our allies is our duty! Cleveland, Montpelier, Columbia, and Denver; the Knights of the Sea, shall be your shields!\"",
@@ -62766,12 +62872,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11104] = {
-		mine_id = 2001,
 		pos_x = "0.6828125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -62785,18 +62891,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 211,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.167708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 45,
+		map = 211,
 		land_based = "",
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -62814,7 +62921,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 211,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The gallant Knights of the Sea stand face to face with the Sakura Empire's relentless heavy cruisers. The clouds in the night sky will be parted not by sunlight, but by boundless cannon fire!",
@@ -63607,12 +63714,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20001] = {
-		mine_id = 2001,
 		pos_x = "0.2046875",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -63626,18 +63733,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.258333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 0,
+		map = 70000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -63655,7 +63763,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "Neutralize the sea mines and enemy fleets in your way and escort the Transport Ship to its destination! <color=#92fc63>Note: Your daily attempt will be spent once you start the run, and retreating will not refund it.</color> You will still receive some rewards even if you retreat.",
@@ -64086,12 +64194,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20002] = {
-		mine_id = 2001,
 		pos_x = "0.2546875",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -64105,18 +64213,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.041666667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 0,
+		map = 70000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -64134,7 +64243,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "Neutralize the sea mines and enemy fleets in your way and escort the Transport Ship to its destination! <color=#92fc63>Note: Your daily attempt will be spent once you start the run, and retreating will not refund it.</color> You will still receive some rewards even if you retreat.",
@@ -64617,12 +64726,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20003] = {
-		mine_id = 2001,
 		pos_x = "0.6015625",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -64636,18 +64745,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.153125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 0,
+		map = 70000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -64665,7 +64775,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "Neutralize the sea mines and enemy fleets in your way and escort the Transport Ship to its destination! <color=#92fc63>Note: Your daily attempt will be spent once you start the run, and retreating will not refund it.</color> You will still receive some rewards even if you retreat.",
@@ -65240,12 +65350,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040001] = {
-		mine_id = 2001,
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
@@ -65259,18 +65369,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1040000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1040000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -65288,7 +65399,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After weathering the storm and leaving her companions, {namecode:96} is alone in the seas. Is this really the 'Sanctuary' that we've been looking for?",
@@ -65771,12 +65882,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040002] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
@@ -65790,18 +65901,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040001,
+		formation = 1040000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1040000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -65819,7 +65931,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "{namecode:96} received a distress call from up ahead while anxiously searching for her sisters. Is it a trap? Or is it truly an ally? We have to look, no matter the cost.",
@@ -66357,12 +66469,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040003] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
@@ -66376,18 +66488,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040002,
+		formation = 1040000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1040000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -66405,7 +66518,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "According to previous intel, this is no doubt that this is the 'Sanctuary'. What have 'they' been planning? They don't look too difficult... The newly shielded {namecode:79} is right before {namecode:96}'s eyes.",
@@ -67012,12 +67125,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040004] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
@@ -67031,18 +67144,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040003,
+		formation = 1040001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1040001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -67060,7 +67174,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An island of falling maple leafs and shrines is enough to enchant anyone. What secrets could be hidden here?",
@@ -67617,12 +67731,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040005] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
@@ -67636,18 +67750,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040004,
+		formation = 1040001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1040001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -67665,7 +67780,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I obviously don't want this to happen again... I have to become stronger... But why did you have to turn into this... {namecode:95}!'",
@@ -68321,12 +68436,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040006] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
@@ -68340,18 +68455,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040005,
+		formation = 1040001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1040001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -68369,7 +68485,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The whole truth surely lies with {namecode:91} and {namecode:92}. With her determination, {namecode:96} heads deeper into the 'Sanctuary'...",
@@ -69022,12 +69138,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040011] = {
-		mine_id = 2001,
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
@@ -69041,18 +69157,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1040010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1040010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -69070,7 +69187,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After weathering the storm and leaving her companions, {namecode:96} is alone in the seas. Is this really the 'Sanctuary' that we've been looking for?",
@@ -69594,12 +69711,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040012] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
@@ -69613,18 +69730,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040011,
+		formation = 1040010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1040010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -69642,7 +69760,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "{namecode:96} received a distress call from up ahead while anxiously searching for her sisters. Is it a trap? Or is it truly an ally? We have to look, no matter the cost.",
@@ -70221,12 +70339,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040013] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
@@ -70240,18 +70358,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040012,
+		formation = 1040010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1040010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -70269,7 +70388,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "According to previous intel, this is no doubt that this is the 'Sanctuary'. What have 'they' been planning? They don't look too difficult... The newly shielded {namecode:79} is right before {namecode:96}'s eyes.",
@@ -70918,12 +71037,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040014] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
@@ -70937,18 +71056,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040013,
+		formation = 1040011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1040011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -70966,7 +71086,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An island of falling maple leafs and shrines is enough to enchant anyone. What secrets could be hidden here?",
@@ -71565,12 +71685,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040015] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
@@ -71584,18 +71704,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040014,
+		formation = 1040011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1040011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -71613,7 +71734,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I obviously don't want this to happen again... I have to become stronger... But why did you have to turn into this... {namecode:95}!'",
@@ -72311,12 +72432,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1040016] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
@@ -72330,18 +72451,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1040015,
+		formation = 1040011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 1040011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -72359,7 +72481,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1040011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The whole truth surely lies with {namecode:91} and {namecode:92}. With her determination, {namecode:96} heads deeper into the 'Sanctuary'...",
@@ -73053,12 +73175,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -73072,18 +73194,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1050000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1050000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -73101,7 +73224,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Glorious parted with Ark Royal and proceeded to move independently with her escorts Ardent and Acasta. However, an unknown danger lies in wait on the course they're taking...",
@@ -73635,12 +73758,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050002] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -73654,18 +73777,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1050001,
+		formation = 1050000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1050000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -73683,7 +73807,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "In a moment of carelessness, Glorious and her escorts were ambushed. They managed to get away – just barely – but they had no idea the Iron Blood fleet – now more powerful – was still in pursuit.",
@@ -74219,12 +74343,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050003] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -74238,18 +74362,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1050002,
+		formation = 1050000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1050000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -74267,7 +74392,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Hold nothing back and show our powerful enemy what the Royal Navy is capable of! Glory to the fleet and God save the Queen!",
@@ -74926,12 +75051,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050011] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -74945,18 +75070,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1050010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1050010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -74974,7 +75100,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Glorious parted with Ark Royal and proceeded to move independently with her escorts Ardent and Acasta. However, an unknown danger lies in wait on the course they're taking...",
@@ -75508,12 +75634,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050012] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -75527,18 +75653,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1050011,
+		formation = 1050010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1050010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -75556,7 +75683,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "In a moment of carelessness, Glorious and her escorts were ambushed. They managed to get away – just barely – but they had no idea the Iron Blood fleet – now more powerful – was still in pursuit.",
@@ -76092,12 +76219,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050013] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -76111,18 +76238,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1050012,
+		formation = 1050010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1050010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -76140,7 +76268,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Hold nothing back and show our powerful enemy what the Royal Navy is capable of! Glory to the fleet and God save the Queen!",
@@ -76799,12 +76927,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070101] = {
-		mine_id = 2001,
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -76818,18 +76946,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1070100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1070100,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -76847,7 +76976,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1070100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Just before sinking, a group of merchant ships sent us a lead on Graf Spee's location via telegram. Pursue the enemy that's threatening these trade routes!",
@@ -77382,12 +77511,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070102] = {
-		mine_id = 2001,
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -77401,18 +77530,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1070101,
+		formation = 1070100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1070100,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -77430,7 +77560,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1070100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've discovered Graf Spee! Prepare for battle! We're not letting her get away this time!",
@@ -78064,12 +78194,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070103] = {
-		mine_id = 2001,
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -78083,18 +78213,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1070102,
+		formation = 1070100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1070100,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -78112,7 +78243,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1070100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Exeter had to retreat from the front due to her injuries, but our target has grown weak too. The final battle with Graf Spee draws close.",
@@ -78804,12 +78935,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070201] = {
-		mine_id = 2001,
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -78823,18 +78954,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1070200,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1070200,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -78852,7 +78984,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1070200,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Just before sinking, a group of merchant ships sent us a lead on Graf Spee's location via telegram. Pursue the enemy that's threatening these trade routes!",
@@ -79386,12 +79518,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070202] = {
-		mine_id = 2001,
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -79405,18 +79537,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1070201,
+		formation = 1070200,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1070200,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -79434,7 +79567,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1070200,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've discovered Graf Spee! Prepare for battle! We're not letting her get away this time!",
@@ -80067,12 +80200,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070203] = {
-		mine_id = 2001,
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -80086,18 +80219,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1070202,
+		formation = 1070200,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1070200,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -80115,7 +80249,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1070200,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Exeter had to retreat from the front due to her injuries, but our target has grown weak too. The final battle with Graf Spee draws close.",
@@ -80806,12 +80940,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080001] = {
-		mine_id = 2001,
 		pos_x = "0.18359375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -80825,18 +80959,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1080000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.394725",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1080000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -80854,7 +80989,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I wonder if Neptune's search is going fine... Huh, what's this? We've detected a signal that superficially resembles that of Lastation? What in the world...?",
@@ -81321,12 +81456,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080002] = {
-		mine_id = 2001,
 		pos_x = "0.6203125",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -81340,18 +81475,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1080001,
+		formation = 1080000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43335",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1080000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -81369,7 +81505,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Now we're receiving Vert's and Green Heart's signals? This means... they're reading the CPU's data. We must do something about this, quick...!",
@@ -81941,12 +82077,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080003] = {
-		mine_id = 2001,
 		pos_x = "0.1390625",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -81960,18 +82096,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1080002,
+		formation = 1080000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.03125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1080000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -81989,7 +82126,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We have finally established contact with everyone. The new signal we've detected matches that of Blanc and Lowee. Please mobilize to investigate ASAP.",
@@ -82554,12 +82691,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080004] = {
-		mine_id = 2001,
 		pos_x = "0.54765625",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -82573,18 +82710,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1080003,
+		formation = 1080000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.11565",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1080000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -82602,7 +82740,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've just intercepted a new signal. It seems to be of Neptune and Planeptune. Everyone, brace yourselves! Let's finish it here!",
@@ -83280,12 +83418,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080005] = {
-		mine_id = 2001,
 		pos_x = "0.3953125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -83299,18 +83437,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1080010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1635417",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 25,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 8,
+		map = 1080010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -83328,7 +83467,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The strength of this signal is unprecedented... is this the power of a CPU? A hellish battle awaits us ahead - may we fight until the bitter end!",
@@ -84053,12 +84192,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100001] = {
-		mine_id = 2001,
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
@@ -84072,18 +84211,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1100000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1100000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -84101,7 +84241,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After weathering the storm and leaving her companions, {namecode:96} is alone in the seas. Is this really the 'Sanctuary' that we've been looking for?",
@@ -84599,12 +84739,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100002] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
@@ -84618,18 +84758,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100001,
+		formation = 1100000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1100000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -84647,7 +84788,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "{namecode:96} received a distress call from up ahead while anxiously searching for her sisters. Is it a trap? Or is it truly an ally? We have to look, no matter the cost.",
@@ -85201,12 +85342,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100003] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
@@ -85220,18 +85361,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100002,
+		formation = 1100000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1100000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -85249,7 +85391,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "According to previous intel, this is no doubt that this is the 'Sanctuary'. What have 'they' been planning? They don't look too difficult... The newly shielded {namecode:79} is right before {namecode:96}'s eyes.",
@@ -85872,12 +86014,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100004] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
@@ -85891,18 +86033,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100003,
+		formation = 1100001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1100001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -85920,7 +86063,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An island of falling maple leafs and shrines is enough to enchant anyone. What secrets could be hidden here?",
@@ -86494,12 +86637,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100005] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
@@ -86513,18 +86656,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100004,
+		formation = 1100001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1100001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -86542,7 +86686,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I obviously don't want this to happen again... I have to become stronger... But why did you have to turn into this... {namecode:95}!'",
@@ -87215,12 +87359,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100006] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
@@ -87234,18 +87378,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100005,
+		formation = 1100001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1100001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -87263,7 +87408,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The whole truth surely lies with {namecode:91} and {namecode:92}. With her determination, {namecode:96} heads deeper into the 'Sanctuary'...",
@@ -87933,12 +88078,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100011] = {
-		mine_id = 2001,
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
@@ -87952,18 +88097,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1100010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1100010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -87981,7 +88127,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After weathering the storm and leaving her companions, {namecode:96} is alone in the seas. Is this really the 'Sanctuary' that we've been looking for?",
@@ -88522,12 +88668,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100012] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
@@ -88541,18 +88687,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100011,
+		formation = 1100010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1100010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -88570,7 +88717,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "{namecode:96} received a distress call from up ahead while anxiously searching for her sisters. Is it a trap? Or is it truly an ally? We have to look, no matter the cost.",
@@ -89166,12 +89313,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100013] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
@@ -89185,18 +89332,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100012,
+		formation = 1100010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1100010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -89214,7 +89362,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "According to previous intel, this is no doubt that this is the 'Sanctuary'. What have 'they' been planning? They don't look too difficult... The newly shielded {namecode:79} is right before {namecode:96}'s eyes.",
@@ -89880,12 +90028,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100014] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
@@ -89899,18 +90047,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100013,
+		formation = 1100011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1100011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -89928,7 +90077,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An island of falling maple leafs and shrines is enough to enchant anyone. What secrets could be hidden here?",
@@ -90544,12 +90693,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100015] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
@@ -90563,18 +90712,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100014,
+		formation = 1100011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1100011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -90592,7 +90742,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I obviously don't want this to happen again... I have to become stronger... But why did you have to turn into this... {namecode:95}!'",
@@ -91307,12 +91457,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100016] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
@@ -91326,18 +91476,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1100015,
+		formation = 1100011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 1100011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -91355,7 +91506,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The whole truth surely lies with {namecode:91} and {namecode:92}. With her determination, {namecode:96} heads deeper into the 'Sanctuary'...",
@@ -92066,12 +92217,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100020] = {
-		mine_id = 2001,
 		pos_x = "0.48984375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -92085,18 +92236,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1100013,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
-		ammo_submarine = 2,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		ammo_submarine = 2,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 10,
+		map = 1100013,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -92114,7 +92266,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1100013,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The false sanctuary's final trial may only be attempted by those of unwavering strength who have surpassed their limits with their faith. Come, challenger, and prove yourself worthy.",
@@ -92814,12 +92966,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110001] = {
-		mine_id = 2001,
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -92833,18 +92985,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1110001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1110001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -92862,7 +93015,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "To rescue their friend, our heroes of the Sakura Empire are journeying home. However, the Sirens were lying in wait to ambush them.",
@@ -93413,12 +93566,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110002] = {
-		mine_id = 2001,
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -93432,18 +93585,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110001,
+		formation = 1110001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1110001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -93461,7 +93615,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The withered Sacred Sakura, the prowling Sirens, their brethren defending their home... Our heroes must find a way to get a grasp on the situation.",
@@ -93935,12 +94089,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110003] = {
-		mine_id = 2001,
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -93954,18 +94108,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110002,
+		formation = 1110001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1110001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -93983,7 +94138,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sacred Sakura can only be withering from a lack of faith. In their search for the missing shrine maiden, our heroes are heading deep into unknown waters.",
@@ -94507,12 +94662,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110004] = {
-		mine_id = 2001,
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -94526,18 +94681,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110003,
+		formation = 1110001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1110001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -94555,7 +94711,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "There they lie in slumber. The shrine maiden, and the Sacred Sakura. But one final obstacle stands between them and our heroes. Surely it can't be...?",
@@ -95167,12 +95323,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110005] = {
-		mine_id = 2001,
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
@@ -95186,18 +95342,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110004,
+		formation = 1110002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1110002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -95215,7 +95372,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "As our heroes attempted to wake Nagato, the Sirens began their attack on the Sacred Sakura. Suddenly, an unsettling mood envelops the battlefield...",
@@ -95878,12 +96035,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110006] = {
-		mine_id = 2001,
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -95897,18 +96054,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110005,
+		formation = 1110002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1110002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -95926,7 +96084,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I shall be the bud of the blooming Ink-Stained Sakura. And you shall experience the full extent of my power! I am Nagato, Big Seven of the Sakura Empire!",
@@ -96540,12 +96698,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110011] = {
-		mine_id = 2001,
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -96559,18 +96717,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1110011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1110011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -96588,7 +96747,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "To rescue their friend, our heroes of the Sakura Empire are journeying home. However, the Sirens were lying in wait to ambush them.",
@@ -97181,12 +97340,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110012] = {
-		mine_id = 2001,
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -97200,18 +97359,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110011,
+		formation = 1110011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1110011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -97229,7 +97389,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The withered Sacred Sakura, the prowling Sirens, their brethren defending their home... Our heroes must find a way to get a grasp on the situation.",
@@ -97745,12 +97905,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110013] = {
-		mine_id = 2001,
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -97764,18 +97924,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110012,
+		formation = 1110011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1110011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -97793,7 +97954,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sacred Sakura can only be withering from a lack of faith. In their search for the missing shrine maiden, our heroes are heading deep into unknown waters.",
@@ -98401,12 +98562,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110014] = {
-		mine_id = 2001,
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -98420,18 +98581,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110013,
+		formation = 1110011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1110011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -98449,7 +98611,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "There they lie in slumber. The shrine maiden, and the Sacred Sakura. But one final obstacle stands between them and our heroes. Surely it can't be...?",
@@ -99103,12 +99265,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110015] = {
-		mine_id = 2001,
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
@@ -99122,18 +99284,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110014,
+		formation = 1110012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1110012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -99151,7 +99314,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "As our heroes attempted to wake Nagato, the Sirens began their attack on the Sacred Sakura. Suddenly, an unsettling mood envelops the battlefield...",
@@ -99858,12 +100021,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110016] = {
-		mine_id = 2001,
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -99877,18 +100040,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1110015,
+		formation = 1110012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1110012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -99906,7 +100070,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I shall be the bud of the blooming Ink-Stained Sakura. And you shall experience the full extent of my power! I am Nagato, Big Seven of the Sakura Empire!",
@@ -100564,12 +100728,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110021] = {
-		mine_id = 2001,
 		pos_x = "0.48984375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -100583,18 +100747,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1110021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 4,
+		map = 1110021,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -100612,7 +100777,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1110021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "O warriors who wish to wager their honor on a final battle: I await your challenge at the foot of the otherworldly tree.",
@@ -100971,12 +101136,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120001] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -100990,18 +101155,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 1120001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1120001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -101019,7 +101185,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Reset all tactical modules, Player \"WHITE\" has entered the board, begin deployment of \"BLACK\" <Minor pieces>, behavior synchronicity: 98.3%",
@@ -101527,12 +101693,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120002] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -101546,18 +101712,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120001,
+		formation = 1120001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1120001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -101575,7 +101742,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has sacrificed a pawn, earning a small <Development> advantage, behavior synchronicity: 97.1%",
@@ -102223,12 +102390,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120003] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -102242,18 +102409,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120002,
+		formation = 1120001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1120001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -102271,7 +102439,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has gained <Initiative> for the time being, \"BLACK\" begin <Counterplay>, behavior synchronicity: 84.3%",
@@ -102886,12 +103054,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120004] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -102905,18 +103073,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120003,
+		formation = 1120001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1120001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -102934,7 +103103,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has gained <Promotion>, \"BLACK\" executes Action: <Skewer>, behavior synchronicity: 57.9%",
@@ -103667,12 +103836,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120005] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -103686,18 +103855,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120004,
+		formation = 1120002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1120002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -103715,7 +103885,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Test is reset, uNknOwN. Quarantine Mechanism is activated. All <Piece> back to the mix, behavior synchronicity: 0% ",
@@ -104243,12 +104413,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120006] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -104262,18 +104432,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120005,
+		formation = 1120002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1120002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -104291,7 +104462,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" checks \"BLACK,\" defending against <Skewer> and regaining <Initiative>, behavior synchronicity: None",
@@ -104827,12 +104998,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120007] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -104846,18 +105017,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120006,
+		formation = 1120002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1120002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -104875,7 +105047,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>WARNING: Experiment has encountered a BUG, Multiple \"BLACK\" <Piece> exhibit signs of sentience, recommendation: emergency DEBUG protocol",
@@ -105466,12 +105638,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120008] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -105485,18 +105657,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120007,
+		formation = 1120002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1120002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -105514,7 +105687,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Logging interrupted>>>Abnormal data detected>>>Log overwritten <<SysLog.Id257>>Reset all tactical modules, Player \"WHITE\" has entered the board on time",
@@ -106261,12 +106434,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120011] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -106280,18 +106453,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 1120011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1120011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -106309,7 +106483,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Reset all tactical modules, Player \"WHITE\" has entered the board, begin deployment of \"BLACK\" <Minor pieces>, behavior synchronicity: 98.3%",
@@ -106858,12 +107032,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120012] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -106877,18 +107051,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120011,
+		formation = 1120011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1120011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -106906,7 +107081,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has sacrificed a pawn, earning a small <Development> advantage, behavior synchronicity: 97.1%",
@@ -107597,12 +107772,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120013] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -107616,18 +107791,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120012,
+		formation = 1120011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1120011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -107645,7 +107821,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has gained <Initiative> for the time being, \"BLACK\" begin <Counterplay>, behavior synchronicity: 84.3%",
@@ -108301,12 +108477,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120014] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -108320,18 +108496,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120013,
+		formation = 1120011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1120011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -108349,7 +108526,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has gained <Promotion>, \"BLACK\" executes Action: <Skewer>, behavior synchronicity: 57.9%",
@@ -109123,12 +109300,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120015] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -109142,18 +109319,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120014,
+		formation = 1120012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1120012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -109171,7 +109349,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Test is reset, uNknOwN. Quarantine Mechanism is activated. All <Piece> back to the mix, behavior synchronicity: 0% ",
@@ -109740,12 +109918,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120016] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -109759,18 +109937,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120015,
+		formation = 1120012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1120012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -109788,7 +109967,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" checks \"BLACK,\" defending against <Skewer> and regaining <Initiative>, behavior synchronicity: None",
@@ -110365,12 +110544,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120017] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -110384,18 +110563,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120016,
+		formation = 1120012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 1120012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -110413,7 +110593,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>WARNING: Experiment has encountered a BUG, Multiple \"BLACK\" <Piece> exhibit signs of sentience, recommendation: emergency DEBUG protocol",
@@ -111045,12 +111225,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120018] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -111064,18 +111244,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1120017,
+		formation = 1120012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1120012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -111093,7 +111274,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Logging interrupted>>>Abnormal data detected>>>Log overwritten <<SysLog.Id257>>Reset all tactical modules, Player \"WHITE\" has entered the board on time",
@@ -111881,12 +112062,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -111900,18 +112081,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1120021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 4,
+		map = 1120021,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -111929,7 +112111,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1120021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Undefined>>\"To the challenger who has broken samsara, surpassed limits, and reached the final <Ending>, wager the proof of your existence and await my final death <Game>\" ",
@@ -112307,37 +112489,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1130001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 100,
+		best_air_dominance = 150,
 		count = 0,
 		id = 1130001,
 		icon_outline = 0,
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 1130000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1130000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -112355,7 +112538,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1130000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Soon the convoy's landing operation will conclude. Unbeknownst to them, on the final day of their mission, an unknown threat is creeping closer under the cover of the night's darkness.",
@@ -112799,37 +112982,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1130002] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 200,
+		best_air_dominance = 260,
 		count = 0,
 		id = 1130002,
 		icon_outline = 0,
 		bg = "",
 		bgm = "",
 		pre_chapter = 1130001,
+		formation = 1130000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1130000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -112847,7 +113031,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1130000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The South Group, lead by Chicago, were wiped out in an instant. Meanwhile, the 3 sisters from the North Group are still unaware of the enemy's impending attack...",
@@ -113352,37 +113536,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1130003] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 400,
+		best_air_dominance = 520,
 		count = 0,
 		id = 1130003,
 		icon_outline = 0,
 		bg = "",
 		bgm = "",
 		pre_chapter = 1130002,
+		formation = 1130000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1130000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -113400,7 +113585,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1130000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "\"Together, we can do it.\" Without hesitation, the New Orleans sisters smile as they confront the enemy, regardless of the fact that they are facing the mighty fleet that wiped out the South Group.",
@@ -113943,37 +114128,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1130101] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 100,
+		best_air_dominance = 150,
 		count = 0,
 		id = 1130101,
 		icon_outline = 0,
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 1130100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1130100,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -113991,7 +114177,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1130100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Soon the convoy's landing operation will conclude. Unbeknownst to them, on the final day of their mission, an unknown threat is creeping closer under the cover of the night's darkness.",
@@ -114435,37 +114621,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1130102] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 200,
+		best_air_dominance = 260,
 		count = 0,
 		id = 1130102,
 		icon_outline = 0,
 		bg = "",
 		bgm = "",
 		pre_chapter = 1130101,
+		formation = 1130100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1130100,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -114483,7 +114670,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1130100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The South Group, lead by Chicago, were wiped out in an instant. Meanwhile, the 3 sisters from the North Group are still unaware of the enemy's impending attack...",
@@ -114988,37 +115175,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1130103] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 400,
+		best_air_dominance = 520,
 		count = 0,
 		id = 1130103,
 		icon_outline = 0,
 		bg = "",
 		bgm = "",
 		pre_chapter = 1130102,
+		formation = 1130100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1130100,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -115036,7 +115224,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1130100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "\"Together, we can do it.\" Without hesitation, the New Orleans sisters smile as they confront the enemy, regardless of the fact that they are facing the mighty fleet that wiped out the South Group.",
@@ -115579,12 +115767,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140001] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -115598,18 +115786,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 1140001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1140001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -115627,7 +115816,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Royal Navy is sailing through the Mediterranean Sea to carry out a mission. A mission of a top secret nature...",
@@ -116123,12 +116312,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140003] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -116142,18 +116331,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140001,
+		formation = 1140001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1140001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -116171,7 +116361,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Sirens have appeared, as if to guard Mers-el-Kébir. Has a sworn ally turned their back on the Royal Navy and become a puppet for the Sirens?",
@@ -116773,12 +116963,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140004] = {
-		mine_id = 2001,
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -116792,18 +116982,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140003,
+		formation = 1140001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1140001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -116821,7 +117012,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Dunkerque dismissed the final report she received from headquarters. It seems a battle is unavoidable... All ships, prepare for combat!",
@@ -117535,12 +117726,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140005] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -117554,18 +117745,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140004,
+		formation = 1140002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1140002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -117583,7 +117775,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The joint operation between the Royal Navy and Eagle Union has begun. Their first target: the Sirens' network of defenses.",
@@ -118092,12 +118284,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140007] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -118111,18 +118303,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140005,
+		formation = 1140002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1140002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -118140,7 +118333,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A hostile force, consisting of both Vichya and Siren troops, stands in the way. Show them the principle that might makes right!",
@@ -118754,12 +118947,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140008] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -118773,18 +118966,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140007,
+		formation = 1140002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1140002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -118802,7 +118996,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "At long last, their battle spanning an entire ocean has begun; their battle of virtues; their battle for the title of the mightiest battleship.",
@@ -119549,12 +119743,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140011] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -119568,18 +119762,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 1140011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1140011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -119597,7 +119792,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Royal Navy is sailing through the Mediterranean Sea to carry out a mission. A mission of a top secret nature...",
@@ -120134,12 +120329,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140013] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -120153,18 +120348,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140011,
+		formation = 1140011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1140011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -120182,7 +120378,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Sirens have appeared, as if to guard Mers-el-Kébir. Has a sworn ally turned their back on the Royal Navy and become a puppet for the Sirens?",
@@ -120825,12 +121021,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140014] = {
-		mine_id = 2001,
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -120844,18 +121040,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140013,
+		formation = 1140011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1140011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -120873,7 +121070,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Dunkerque dismissed the final report she received from headquarters. It seems a battle is unavoidable... All ships, prepare for combat!",
@@ -121628,12 +121825,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140015] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -121647,18 +121844,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140014,
+		formation = 1140012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1140012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -121676,7 +121874,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The joint operation between the Royal Navy and Eagle Union has begun. Their first target: the Sirens' network of defenses.",
@@ -122228,12 +122426,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140017] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -122247,18 +122445,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140015,
+		formation = 1140012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1140012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -122276,7 +122475,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A hostile force, consisting of both Vichya and Siren troops, stands in the way. Show them the principle that might makes right!",
@@ -122933,12 +123132,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140018] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -122952,18 +123151,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1140017,
+		formation = 1140012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1140012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -122981,7 +123181,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "At long last, their battle spanning an entire ocean has begun; their battle of virtues; their battle for the title of the mightiest battleship.",
@@ -123764,12 +123964,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -123783,18 +123983,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1140021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 4,
+		map = 1140021,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -123812,7 +124013,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1140021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sanctuary radiates a brilliant light, casting a shadow upon its own stage. If light is that which you desire, Challenger, first you must wade through the darkness.",
@@ -124148,12 +124349,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -124167,18 +124368,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1150001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1150001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -124196,7 +124398,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A mysterious signal has lead to a ruined Siren base... Could there be any intel left?",
@@ -124732,12 +124934,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -124751,18 +124953,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150001,
+		formation = 1150001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1150001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -124780,7 +124983,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The special task force has been detected, unknown Siren-class models are approaching. Alert combat status!",
@@ -125377,12 +125580,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -125396,18 +125599,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150002,
+		formation = 1150001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1150001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -125425,7 +125629,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Non-stop enemy attacks cloud the truth behind this mysterious signal... Who exactly has led us here?",
@@ -126113,12 +126317,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -126132,18 +126336,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150003,
+		formation = 1150002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1150002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -126161,7 +126366,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new encrypted message has been received. Regardless if this is a trap or not, it's the only lead we have so far...",
@@ -126787,12 +126992,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -126806,18 +127011,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150004,
+		formation = 1150002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1150002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -126835,7 +127041,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The giant enemy ship is unexpectedly tough. However, with our unstoppable momentum, nothing stands a chance against us. Fight till the end!",
@@ -127602,12 +127808,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -127621,18 +127827,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150005,
+		formation = 1150002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1150002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -127650,7 +127857,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The closer we get to the source of the signal, the more Sirens we encounter... We shall find out what exactly they are guarding.",
@@ -128596,12 +128803,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -128615,18 +128822,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1150011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1150011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -128644,7 +128852,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A mysterious signal has lead to a ruined Siren base... Could there be any intel left?",
@@ -129221,12 +129429,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -129240,18 +129448,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150011,
+		formation = 1150011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1150011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -129269,7 +129478,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The special task force has been detected, unknown Siren-class models are approaching. Alert combat status!",
@@ -129907,12 +130116,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -129926,18 +130135,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150012,
+		formation = 1150011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1150011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -129955,7 +130165,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Non-stop enemy attacks cloud the truth behind this mysterious signal... Who exactly has led us here?",
@@ -130684,12 +130894,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150014] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -130703,18 +130913,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150013,
+		formation = 1150012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1150012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -130732,7 +130943,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new encrypted message has been received. Regardless if this is a trap or not, it's the only lead we have so far...",
@@ -131399,12 +131610,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150015] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -131418,18 +131629,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150014,
+		formation = 1150012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1150012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -131447,7 +131659,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The giant enemy ship is unexpectedly tough. However, with our unstoppable momentum, nothing stands a chance against us. Fight till the end!",
@@ -132255,12 +132467,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150016] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -132274,18 +132486,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1150015,
+		formation = 1150012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1150012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -132303,7 +132516,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The closer we get to the source of the signal, the more Sirens we encounter... We shall find out what exactly they are guarding.",
@@ -133290,12 +133503,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -133309,18 +133522,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1150021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 4,
+		map = 1150021,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -133338,7 +133552,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1150021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Even if you are brutally wounded, you are unwilling to surrender, and will harness new strength beyond your limits. If you are courageous enough, you will fly freely.",
@@ -133803,12 +134017,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1170001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG3",
 		is_ambush = 1,
@@ -133822,18 +134036,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1170001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1170001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -133851,7 +134066,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1170001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The sound of thundering gunfire breaks the silence of dawn. As the sun rises over the Solomon Sea, the stage has been set for another battle to take place.",
@@ -134337,12 +134552,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1170002] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG6",
 		is_ambush = 1,
@@ -134356,18 +134571,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1170001,
+		formation = 1170001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1170001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -134385,7 +134601,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1170001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Giant steel cannons cause the ocean to shake. Out on the blue sea sail the champions of firepower, the mightiest of ships, the Big Seven.",
@@ -134929,12 +135145,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1170003] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -134948,18 +135164,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1170002,
+		formation = 1170001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1170001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -134977,7 +135194,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1170001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "If it could save the lives of her allies, she would gladly sacrifice her own. This is where the Twilight Warrior makes her final stand.",
@@ -135560,12 +135777,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -135579,18 +135796,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1180001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1180001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -135608,7 +135826,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "During the wargame, wisdom clashes with might. Who is the \"Pawn\" that blocks the advance of the \"King?\"",
@@ -136159,12 +136377,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -136178,18 +136396,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180001,
+		formation = 1180001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1180001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -136207,7 +136426,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Under the swirling petals of the ancient capital of the Sakura Empire, a newcomer heavy cruiser launches an assault on the Golden General.",
@@ -136729,12 +136948,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -136748,18 +136967,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180002,
+		formation = 1180001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1180001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -136777,7 +136997,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The long-awaited confrontation between the King and the Jade General has arrived. As curiosity clashes with bravado, who will emerge victorious?",
@@ -137395,12 +137615,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -137414,18 +137634,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180003,
+		formation = 1180002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1180002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -137443,7 +137664,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Those who have lost sight of the future sink into the depths of despair. Is the one who extends a hand in aid a rival or...",
@@ -138062,12 +138283,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -138081,18 +138302,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180004,
+		formation = 1180002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1180002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -138110,7 +138332,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The flow of time is inexorable, and a glorious age fades into obsolescence. However, hope dawns as wings slice apart the dark clouds.",
@@ -138772,12 +138994,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -138791,18 +139013,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180005,
+		formation = 1180002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1180002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -138820,7 +139043,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A final battle eternally etched within their memories. A resolve tested, a tradition renewed. A bond reforged, a curse bestowed. A new era begins. ",
@@ -139456,12 +139679,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -139475,18 +139698,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1180011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1180011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -139504,7 +139728,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "During the wargame, wisdom clashes with might. Who is the \"Pawn\" that blocks the advance of the \"King?\"",
@@ -140097,12 +140321,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -140116,18 +140340,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180011,
+		formation = 1180011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1180011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -140145,7 +140370,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Under the swirling petals of the ancient capital of the Sakura Empire, a newcomer heavy cruiser launches an assault on the Golden General.",
@@ -140709,12 +140934,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -140728,18 +140953,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180012,
+		formation = 1180011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1180011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -140757,7 +140983,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The long-awaited confrontation between the King and the Jade General has arrived. As curiosity clashes with bravado, who will emerge victorious?",
@@ -141417,12 +141643,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180014] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -141436,18 +141662,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180013,
+		formation = 1180012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1180012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -141465,7 +141692,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Those who have lost sight of the future sink into the depths of despair. Is the one who extends a hand in aid a rival or...",
@@ -142126,12 +142353,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180015] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -142145,18 +142372,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180014,
+		formation = 1180012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1180012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -142174,7 +142402,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The flow of time is inexorable, and a glorious age fades into obsolescence. However, hope dawns as wings slice apart the dark clouds.",
@@ -142880,12 +143108,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180016] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -142899,18 +143127,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1180015,
+		formation = 1180012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1180012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -142928,7 +143157,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A final battle eternally etched within their memories. A resolve tested, a tradition renewed. A bond reforged, a curse bestowed. A new era begins. ",
@@ -143608,12 +143837,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -143627,18 +143856,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1180021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 4,
+		map = 1180021,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -143656,7 +143886,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1180021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "\"One cannot catch the tiger's cub without entering the tiger's den.\" Do you have the strength and cunning to break through my finest plans?",
@@ -144015,12 +144245,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1200001] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -144034,18 +144264,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1200100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 6,
+		map = 1200100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -144062,7 +144293,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1200100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Iron Blood assembles in frigid winds of the North. Their objective is to seize Narvik, the port that never freezes, without the notice of the Royal Navy.",
@@ -144602,12 +144833,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1200002] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -144621,18 +144852,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1200001,
+		formation = 1200100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1200100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -144649,7 +144881,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1200100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The emergence of the enemy's defense forces reveals the fact that Narvik has been occupied. H-class destroyers infiltrate Ofotfjord on a recon mission.",
@@ -145338,12 +145570,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1200003] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -145357,18 +145589,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1200002,
+		formation = 1200100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1200100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -145385,7 +145618,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1200100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Though the Iron Blood's defenses are sparse, the destroyers reach their limit under the severe weather. In the blizzard, the sparks of war ignite the horizon.",
@@ -146090,12 +146323,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1200004] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -146109,18 +146342,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1200003,
+		formation = 1200100,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1200100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -146137,7 +146371,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1200100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After reinforcements suddenly appear, the battle turns into a desperate retreat. What is the fate of the stars of the shimmering fjord?",
@@ -146834,12 +147068,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210001] = {
-		mine_id = 2001,
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -146853,18 +147087,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1210001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1210001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -146882,7 +147117,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1210001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "To rescue their friend, our heroes of the Sakura Empire are journeying home. However, the Sirens were lying in wait to ambush them.",
@@ -147433,12 +147668,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210002] = {
-		mine_id = 2001,
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -147452,18 +147687,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210001,
+		formation = 1210001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1210001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -147481,7 +147717,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1210001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The withered Sacred Sakura, the prowling Sirens, their brethren defending their home... Our heroes must find a way to get a grasp on the situation.",
@@ -147997,12 +148233,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210003] = {
-		mine_id = 2001,
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -148016,18 +148252,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210002,
+		formation = 1210001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1210001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -148045,7 +148282,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1210001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sacred Sakura can only be withering from a lack of faith. In their search for the missing shrine maiden, our heroes are heading deep into unknown waters.",
@@ -148659,12 +148896,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210004] = {
-		mine_id = 2001,
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -148678,18 +148915,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210003,
+		formation = 1210001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1210001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -148707,7 +148945,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1210001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "There they lie in slumber. The shrine maiden, and the Sacred Sakura. But one final obstacle stands between them and our heroes. Surely it can't be...?",
@@ -149319,12 +149557,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210005] = {
-		mine_id = 2001,
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
@@ -149338,18 +149576,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210004,
+		formation = 1210002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1210002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -149367,7 +149606,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1210002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "As our heroes attempted to wake Nagato, the Sirens began their attack on the Sacred Sakura. Suddenly, an unsettling mood envelops the battlefield...",
@@ -150030,12 +150269,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210006] = {
-		mine_id = 2001,
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -150049,18 +150288,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210005,
+		formation = 1210002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1210002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -150078,7 +150318,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1210002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I shall be the bud of the blooming Ink-Stained Sakura. And you shall experience the full extent of my power! I am Nagato, Big Seven of the Sakura Empire!",
@@ -150801,12 +151041,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210011] = {
-		mine_id = 2001,
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -150820,18 +151060,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1210011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1210011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -150848,7 +151089,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1210011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "To rescue their friend, our heroes of the Sakura Empire are journeying home. However, the Sirens were lying in wait to ambush them.",
@@ -151442,12 +151683,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210012] = {
-		mine_id = 2001,
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -151461,18 +151702,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210011,
+		formation = 1210011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1210011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -151490,7 +151732,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1210011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The withered Sacred Sakura, the prowling Sirens, their brethren defending their home... Our heroes must find a way to get a grasp on the situation.",
@@ -152048,12 +152290,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210013] = {
-		mine_id = 2001,
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -152067,18 +152309,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210012,
+		formation = 1210011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1210011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -152096,7 +152339,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1210011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sacred Sakura can only be withering from a lack of faith. In their search for the missing shrine maiden, our heroes are heading deep into unknown waters.",
@@ -152752,12 +152995,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210014] = {
-		mine_id = 2001,
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -152771,18 +153014,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210013,
+		formation = 1210011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1210011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -152800,7 +153044,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1210011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "There they lie in slumber. The shrine maiden, and the Sacred Sakura. But one final obstacle stands between them and our heroes. Surely it can't be...?",
@@ -153454,12 +153698,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210015] = {
-		mine_id = 2001,
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
@@ -153473,18 +153717,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210014,
+		formation = 1210012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1210012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -153502,7 +153747,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1210012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "As our heroes attempted to wake Nagato, the Sirens began their attack on the Sacred Sakura. Suddenly, an unsettling mood envelops the battlefield...",
@@ -154209,12 +154454,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210016] = {
-		mine_id = 2001,
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -154228,18 +154473,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1210015,
+		formation = 1210012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1210012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -154257,7 +154503,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1210012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I shall be the bud of the blooming Ink-Stained Sakura. And you shall experience the full extent of my power! I am Nagato, Big Seven of the Sakura Empire!",
@@ -155024,12 +155270,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1210021] = {
-		mine_id = 2001,
 		pos_x = "0.48984375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -155043,18 +155289,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1210021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 4,
+		map = 1210021,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -155072,7 +155319,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1210021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "O warriors who wish to wager their honor on a final battle: I await your challenge at the foot of the otherworldly tree.",
@@ -155435,12 +155682,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240001] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -155454,18 +155701,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1240001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1240001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -155483,7 +155731,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1240001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Royal Navy is sailing through the Mediterranean Sea to carry out a mission. A mission of a top secret nature...",
@@ -155979,12 +156227,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240003] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -155998,18 +156246,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240001,
+		formation = 1240001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 1240001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -156027,7 +156276,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1240001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Sirens have appeared, as if to guard Mers-el-Kébir. Has a sworn ally turned their back on the Royal Navy and become a puppet for the Sirens?",
@@ -156629,12 +156878,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240004] = {
-		mine_id = 2001,
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -156648,18 +156897,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240003,
+		formation = 1240001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1240001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -156677,7 +156927,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1240001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Dunkerque dismissed the final report she received from headquarters. It seems a battle is unavoidable... All ships, prepare for combat!",
@@ -157391,12 +157641,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240005] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -157410,18 +157660,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240004,
+		formation = 1240002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1240002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -157439,7 +157690,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1240002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The joint operation between the Royal Navy and Eagle Union has begun. Their first target: the Sirens' network of defenses.",
@@ -157948,12 +158199,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240007] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -157967,18 +158218,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240005,
+		formation = 1240002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1240002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -157996,7 +158248,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1240002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A hostile force, consisting of both Vichya and Siren troops, stands in the way. Show them the principle that might makes right!",
@@ -158610,12 +158862,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240008] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -158629,18 +158881,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240007,
+		formation = 1240002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1240002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -158657,7 +158910,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1240002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "At long last, their battle spanning an entire ocean has begun; their battle of virtues; their battle for the title of the mightiest battleship.",
@@ -159399,12 +159652,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240011] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -159418,18 +159671,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1240011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1240011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -159447,7 +159701,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1240011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Royal Navy is sailing through the Mediterranean Sea to carry out a mission. A mission of a top secret nature...",
@@ -159984,12 +160238,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240013] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -160003,18 +160257,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240011,
+		formation = 1240011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1240011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -160032,7 +160287,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1240011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Sirens have appeared, as if to guard Mers-el-Kébir. Has a sworn ally turned their back on the Royal Navy and become a puppet for the Sirens?",
@@ -160675,12 +160930,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240014] = {
-		mine_id = 2001,
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -160694,18 +160949,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240013,
+		formation = 1240011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1240011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -160723,7 +160979,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1240011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Dunkerque dismissed the final report she received from headquarters. It seems a battle is unavoidable... All ships, prepare for combat!",
@@ -161478,12 +161734,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240015] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -161497,18 +161753,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240014,
+		formation = 1240012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1240012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -161526,7 +161783,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1240012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The joint operation between the Royal Navy and Eagle Union has begun. Their first target: the Sirens' network of defenses.",
@@ -162078,12 +162335,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240017] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -162097,18 +162354,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240015,
+		formation = 1240012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1240012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -162126,7 +162384,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1240012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A hostile force, consisting of both Vichya and Siren troops, stands in the way. Show them the principle that might makes right!",
@@ -162783,12 +163041,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240018] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -162802,18 +163060,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240017,
+		formation = 1240012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1240012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -162831,7 +163090,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1240012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "At long last, their battle spanning an entire ocean has begun; their battle of virtues; their battle for the title of the mightiest battleship.",
@@ -163614,12 +163873,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240019] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -163633,18 +163892,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240018,
+		formation = 1240020,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 8,
+		map = 1240020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -163661,7 +163921,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1240020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A brilliant light and a cold shadow seem to struggle for control upon the delicate petals of this iris. The outcome has not yet been decided...",
@@ -164294,12 +164554,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1240021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -164313,18 +164573,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1240018,
+		formation = 1240021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 4,
+		map = 1240021,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -164342,7 +164603,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1240021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sanctuary radiates a brilliant light, casting a shadow upon its own stage. If light is that which you desire, Challenger, first you must wade through the darkness.",
@@ -164678,12 +164939,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -164697,18 +164958,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp2",
 		pre_chapter = 0,
+		formation = 1310001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 10,
+		map = 1310001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -164725,7 +164987,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sirens have a stronghold of ice in the Northern Parliament's territorial waters. Link up with their defense forces and sortie!",
@@ -165262,12 +165524,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -165281,18 +165543,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp2",
 		pre_chapter = 1310001,
+		formation = 1310001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1310001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -165309,7 +165572,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Eagle Union task force has sent the Sirens scattering. Their operation is going *too* well. Something isn't right...",
@@ -165831,12 +166094,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -165850,18 +166113,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp2",
 		pre_chapter = 1310002,
+		formation = 1310001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1310001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -165878,7 +166142,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new type of Siren has appeared, dangerous weapon in hand. A silver precipice sits between the task force and the stronghold of ice.",
@@ -166445,12 +166709,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -166464,18 +166728,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "xinnong-3",
 		pre_chapter = 1310003,
+		formation = 1310002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1310002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -166492,7 +166757,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An iceberg separates the Eagle Union task force and its allies. The Northern Parliament's backup draws near to extend a helping hand.",
@@ -167072,12 +167337,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "MAOZIHUODONG20",
 		is_ambush = 0,
@@ -167091,18 +167356,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "xinnong-3",
 		pre_chapter = 1310004,
+		formation = 1310002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1310002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -167119,7 +167385,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Meeting with a valuable ally, or mounting a counterattack against an enemy? Two paths lead to one outcome.",
@@ -167647,12 +167913,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310006] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "MAOZIHUODONG25",
 		is_ambush = 0,
@@ -167666,18 +167932,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp",
 		pre_chapter = 1310005,
+		formation = 1310002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1310002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -167694,7 +167961,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Having overcome many hardships, the joint coalition pierces deep into the heart of the Siren stronghold. What awaits them there is...",
@@ -168285,12 +168552,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310021] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -168304,18 +168571,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp2",
 		pre_chapter = 0,
+		formation = 1310011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1310011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -168332,7 +168600,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sirens have a stronghold of ice in the Northern Parliament's territorial waters. Link up with their defense forces and sortie!",
@@ -168912,12 +169180,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310022] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -168931,18 +169199,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp2",
 		pre_chapter = 1310021,
+		formation = 1310011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1310011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -168959,7 +169228,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Eagle Union task force has sent the Sirens scattering. Their operation is going *too* well. Something isn't right...",
@@ -169524,12 +169793,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310023] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -169543,18 +169812,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp2",
 		pre_chapter = 1310022,
+		formation = 1310011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 21,
+		map = 1310011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -169571,7 +169841,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new type of Siren has appeared, dangerous weapon in hand. A silver precipice sits between the task force and the stronghold of ice.",
@@ -170180,12 +170450,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310024] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -170199,18 +170469,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "xinnong-3",
 		pre_chapter = 1310023,
+		formation = 1310012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1310012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -170227,7 +170498,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An iceberg separates the Eagle Union task force and its allies. The Northern Parliament's backup draws near to extend a helping hand.",
@@ -170849,12 +171120,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310025] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "MAOZIHUODONG20",
 		is_ambush = 0,
@@ -170868,18 +171139,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "xinnong-3",
 		pre_chapter = 1310024,
+		formation = 1310012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1310012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -170896,7 +171168,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Meeting with a valuable ally, or mounting a counterattack against an enemy? Two paths lead to one outcome.",
@@ -171468,12 +171740,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310026] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "MAOZIHUODONG25",
 		is_ambush = 0,
@@ -171487,18 +171759,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp",
 		pre_chapter = 1310025,
+		formation = 1310012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1310012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -171515,7 +171788,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Having overcome many hardships, the joint coalition pierces deep into the heart of the Siren stronghold. What awaits them there is...",
@@ -172150,12 +172423,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310041] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -172169,18 +172442,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp3",
 		pre_chapter = 1310026,
+		formation = 1310025,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 0,
+		map = 1310025,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -172197,7 +172471,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1310025,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "A new Siren threat emerges... But with your new alliances tempered by the forge of battle, test the strength of your bonds and shatter the enemy!",
@@ -172825,12 +173099,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310051] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -172844,18 +173118,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bgm-cccp",
 		pre_chapter = 1310026,
+		formation = 1310026,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 0,
+		map = 1310026,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -172872,7 +173147,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1310026,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "The evil that rules over these waters appears at last! Throw yourself into battle so that the light of hope may pierce the darkness!",
@@ -173251,12 +173526,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1320001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG3",
 		is_ambush = 0,
@@ -173270,18 +173545,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1320001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1320001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -173299,7 +173575,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1320001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The sound of thundering gunfire breaks the silence of dawn. As the sun rises over the Solomon Sea, the stage has been set for another battle to take place.",
@@ -173781,12 +174057,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1320002] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG6",
 		is_ambush = 0,
@@ -173800,18 +174076,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1320001,
+		formation = 1320001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1320001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -173829,7 +174106,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1320001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Giant steel cannons cause the ocean to shake. Out on the blue sea sail the champions of firepower, the mightiest of ships, the Big Seven.",
@@ -174369,12 +174646,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1320003] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -174388,18 +174665,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1320002,
+		formation = 1320001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1320001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -174417,7 +174695,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1320001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "If it could save the lives of her allies, she would gladly sacrifice her own. This is where the Twilight Warrior makes her final stand.",
@@ -174996,12 +175274,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE5",
 		is_ambush = 0,
@@ -175015,18 +175293,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1330001,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 10,
+		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Rescue Fleet",
@@ -175042,7 +175321,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Baltimore's fleet is lost at sea. The rescue fleet put together to find them arrives at the Canal Stronghold.",
@@ -175543,12 +175822,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE9",
 		is_ambush = 0,
@@ -175562,18 +175841,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330001,
+		formation = 1330001,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Under the Mist",
@@ -175589,7 +175869,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Enterprise attempts to pick up on Baltimore's trail, only to be engulfed by the mist herself. What are the Sirens plotting...?!",
@@ -176118,12 +176398,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE14",
 		is_ambush = 0,
@@ -176137,18 +176417,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330002,
+		formation = 1330001,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
 		name = "From the Abyss",
@@ -176164,7 +176445,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Intrepid searches for some way to disrupt the heavy mist. Blocking her way are a new type of Siren foe.",
@@ -176713,12 +176994,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE20",
 		is_ambush = 0,
@@ -176732,18 +177013,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330003,
+		formation = 1330002,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Return",
@@ -176759,7 +177041,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Bluegill makes her triumphant return at a critical moment, but she also brings back new insight as to what is causing the massive waves.",
@@ -177345,12 +177627,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE25",
 		is_ambush = 0,
@@ -177364,18 +177646,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330004,
+		formation = 1330002,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Hero's Party",
@@ -177391,7 +177674,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After enduring many hardships, the scattered heroes regroup to answer the call of justice. A stirring drama awaits.",
@@ -177967,12 +178250,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330006] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE29",
 		is_ambush = 0,
@@ -177986,18 +178269,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330005,
+		formation = 1330002,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
 		name = "The Mist Clears",
@@ -178013,7 +178297,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The ocean groans and splits apart as the harbinger of doom surfaces.",
@@ -178661,12 +178945,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330021] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE5",
 		is_ambush = 0,
@@ -178680,18 +178964,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1330011,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Rescue Fleet",
@@ -178707,7 +178992,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Baltimore's fleet is lost at sea. The rescue fleet put together to find them arrives at the Canal Stronghold.",
@@ -179250,12 +179535,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330022] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE9",
 		is_ambush = 0,
@@ -179269,18 +179554,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330021,
+		formation = 1330011,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Under the Mist",
@@ -179296,7 +179582,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Enterprise attempts to pick up on Baltimore's trail, only to be engulfed by the mist herself. What are the Sirens plotting...?!",
@@ -179867,12 +180153,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330023] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE14",
 		is_ambush = 0,
@@ -179886,18 +180172,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330022,
+		formation = 1330011,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 21,
+		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
 		name = "From the Abyss",
@@ -179913,7 +180200,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Intrepid searches for some way to disrupt the heavy mist. Blocking her way are a new type of Siren foe.",
@@ -180505,12 +180792,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330024] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE20",
 		is_ambush = 0,
@@ -180524,18 +180811,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330023,
+		formation = 1330012,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Return",
@@ -180551,7 +180839,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Bluegill makes her triumphant return at a critical moment, but she also brings back new insight as to what is causing the massive waves.",
@@ -181179,12 +181467,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330025] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE25",
 		is_ambush = 0,
@@ -181198,18 +181486,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330024,
+		formation = 1330012,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Hero's Party",
@@ -181225,7 +181514,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After enduring many hardships, the scattered heroes regroup to answer the call of justice. A stirring drama awaits.",
@@ -181845,12 +182134,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330026] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE29",
 		is_ambush = 0,
@@ -181864,18 +182153,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330025,
+		formation = 1330012,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
 		name = "The Mist Clears",
@@ -181891,7 +182181,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The ocean groans and splits apart as the harbinger of doom surfaces.",
@@ -182583,12 +182873,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330041] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -182602,18 +182892,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1330026,
+		formation = 1330025,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 0,
+		map = 1330025,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Stars in the Firmament",
@@ -182629,7 +182920,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1330025,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "\"All the lights in the skies are our friends, but all the lights in the ocean are our enemies.\" Commander, will there come a day when the fighting stops?",
@@ -183182,12 +183473,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330051] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -183201,18 +183492,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "hunhe-battle",
 		pre_chapter = 1330026,
+		formation = 1330026,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 0,
+		map = 1330026,
 		unlocklevel = 0,
 		uifx = "",
 		name = "Microlayer Medley",
@@ -183228,7 +183520,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1330026,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "They were born into a tumultous era and knew no peace. However, their ironclad wills did not succumb to despair. Even in the mist, they continued to struggle.",
@@ -183616,12 +183908,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -183635,18 +183927,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1340001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 10,
+		map = 1340001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -183664,7 +183957,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "During the wargame, wisdom clashes with might. Who is the \"Pawn\" that blocks the advance of the \"King?\"",
@@ -184210,12 +184503,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -184229,18 +184522,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340001,
+		formation = 1340001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1340001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -184258,7 +184552,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Under the swirling petals of the ancient capital of the Sakura Empire, a newcomer heavy cruiser launches an assault on the Golden General.",
@@ -184775,12 +185069,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -184794,18 +185088,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340002,
+		formation = 1340001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1340001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -184823,7 +185118,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The long-awaited confrontation between the King and the Jade General has arrived. As curiosity clashes with bravado, who will emerge victorious?",
@@ -185436,12 +185731,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -185455,18 +185750,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340003,
+		formation = 1340002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1340002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -185484,7 +185780,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Those who have lost sight of the future sink into the depths of despair. Is the one who extends a hand in aid a rival or...",
@@ -186099,12 +186395,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -186118,18 +186414,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340004,
+		formation = 1340002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1340002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -186147,7 +186444,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The flow of time is inexorable, and a glorious age fades into obsolescence. However, hope dawns as wings slice apart the dark clouds.",
@@ -186805,12 +187102,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -186824,18 +187121,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340005,
+		formation = 1340002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1340002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -186853,7 +187151,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A final battle eternally etched within their memories. A resolve tested, a tradition renewed. A bond reforged, a curse bestowed. A new era begins. ",
@@ -187485,12 +187783,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -187504,18 +187802,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1340011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1340011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -187533,7 +187832,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "During the wargame, wisdom clashes with might. Who is the \"Pawn\" that blocks the advance of the \"King?\"",
@@ -188121,12 +188420,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -188140,18 +188439,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340011,
+		formation = 1340011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1340011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -188169,7 +188469,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Under the swirling petals of the ancient capital of the Sakura Empire, a newcomer heavy cruiser launches an assault on the Golden General.",
@@ -188728,12 +189028,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -188747,18 +189047,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340012,
+		formation = 1340011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 21,
+		map = 1340011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -188776,7 +189077,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The long-awaited confrontation between the King and the Jade General has arrived. As curiosity clashes with bravado, who will emerge victorious?",
@@ -189431,12 +189732,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340014] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -189450,18 +189751,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340013,
+		formation = 1340012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1340012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -189479,7 +189781,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Those who have lost sight of the future sink into the depths of despair. Is the one who extends a hand in aid a rival or...",
@@ -190136,12 +190438,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340015] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -190155,18 +190457,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340014,
+		formation = 1340012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1340012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -190184,7 +190487,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The flow of time is inexorable, and a glorious age fades into obsolescence. However, hope dawns as wings slice apart the dark clouds.",
@@ -190886,12 +191189,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340016] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -190905,18 +191208,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340015,
+		formation = 1340012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1340012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -190934,7 +191238,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A final battle eternally etched within their memories. A resolve tested, a tradition renewed. A bond reforged, a curse bestowed. A new era begins. ",
@@ -191610,12 +191914,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -191629,18 +191933,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1340016,
+		formation = 1340021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 1,
 		num_2 = 4,
+		map = 1340021,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -191658,7 +191963,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1340021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "\"One cannot catch the tiger's cub without entering the tiger's den.\" Do you have the strength and cunning to break through my finest plans?",
@@ -192017,12 +192322,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1350001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -192036,18 +192341,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1350001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 1350001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -192064,7 +192370,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1350001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Long after her injury at Mers El Kébir, Dunkerque finally begins her long journey back home with two little knights at her side.",
@@ -192626,12 +192932,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1350002] = {
-		mine_id = 2001,
 		pos_x = "0.42203125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -192645,18 +192951,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1350001,
+		formation = 1350001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 1350001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -192673,7 +192980,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1350001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "One of the coldest winters on record falls upon the Mediterranean. Advance slowly, and be cautious of the enemies!",
@@ -193295,12 +193602,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1350003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -193314,18 +193621,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1350002,
+		formation = 1350001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 1350001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -193342,7 +193650,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1350001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "One of the Royal Navy's Big Sevens is the only thing standing between you and your home. Complete the operation with the help of your friends!",
@@ -193961,12 +194269,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU4",
 		is_ambush = 0,
@@ -193980,17 +194288,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1360001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 10,
+		map = 1360001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -194007,7 +194316,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Led by battleship Richelieu, a joint fleet between Iris Libre and Royal Navy sails into new waters... and new conflicts.",
@@ -194539,12 +194848,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU9",
 		is_ambush = 0,
@@ -194558,17 +194867,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1360001,
+		formation = 1360001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1360001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -194585,7 +194895,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "On Basilica Isle, negotiations with the Vichya Dominion seem to be going nowhere. Is there no option other than to fight?",
@@ -195148,12 +195458,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU12",
 		is_ambush = 0,
@@ -195167,17 +195477,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1360002,
+		formation = 1360001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1360001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -195194,7 +195505,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Two leaders grant each other blessings of the Iris. With heavy hearts, these unwilling warriers take up arms against one another.",
@@ -195850,12 +196161,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU17",
 		is_ambush = 0,
@@ -195869,17 +196180,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "hunhe-level",
 		pre_chapter = 1360003,
+		formation = 1360002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1360002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -195896,7 +196208,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The path towards the Basilica continues. But, the mass-produced fleet that awaits... has God's protection?!",
@@ -196542,12 +196854,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU22",
 		is_ambush = 0,
@@ -196561,17 +196873,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "hunhe-level",
 		pre_chapter = 1360004,
+		formation = 1360002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1360002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -196588,7 +196901,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A wall of light separates Béarn's forces. Beware the darkened blade of the Vichya's judgment!",
@@ -197552,12 +197865,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360006] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU27",
 		is_ambush = 0,
@@ -197571,17 +197884,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "hunhe-level",
 		pre_chapter = 1360005,
+		formation = 1360002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1360002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -197598,7 +197912,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The decisive battle against Algérie begins. A mysterious power is released, and none may know whether this battle ends in glory or in tragedy.",
@@ -199314,12 +199628,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360021] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU4",
 		is_ambush = 0,
@@ -199333,17 +199647,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1360011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1360011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -199360,7 +199675,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Led by battleship Richelieu, a joint fleet between Iris Libre and Royal Navy sails into new waters... and new conflicts.",
@@ -199934,12 +200249,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360022] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU9",
 		is_ambush = 0,
@@ -199953,17 +200268,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1360021,
+		formation = 1360011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1360011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -199980,7 +200296,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "On Basilica Isle, negotiations with the Vichya Dominion seem to be going nowhere. Is there no option other than to fight?",
@@ -200585,12 +200901,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360023] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU12",
 		is_ambush = 0,
@@ -200604,17 +200920,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1360022,
+		formation = 1360011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 21,
+		map = 1360011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -200631,7 +200948,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Two leaders grant each other blessings of the Iris. With heavy hearts, these unwilling warriers take up arms against one another.",
@@ -201330,12 +201647,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360024] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU17",
 		is_ambush = 0,
@@ -201349,17 +201666,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "hunhe-level",
 		pre_chapter = 1360023,
+		formation = 1360012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1360012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -201376,7 +201694,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The path towards the Basilica continues. But, the mass-produced fleet that awaits... has God's protection?!",
@@ -202063,12 +202381,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360025] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU22",
 		is_ambush = 0,
@@ -202082,17 +202400,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "hunhe-level",
 		pre_chapter = 1360024,
+		formation = 1360012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1360012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -202109,7 +202428,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A wall of light separates Béarn's forces. Beware the darkened blade of the Vichya's judgment!",
@@ -203116,12 +203435,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360026] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU27",
 		is_ambush = 0,
@@ -203135,17 +203454,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "hunhe-level",
 		pre_chapter = 1360025,
+		formation = 1360012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1360012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -203162,7 +203482,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The decisive battle against Algérie begins. A mysterious power is released, and none may know whether this battle ends in glory or in tragedy.",
@@ -204921,12 +205241,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360041] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -204940,17 +205260,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "Bsm-3",
 		pre_chapter = 1360026,
+		formation = 1360025,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 0,
+		map = 1360025,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -204967,7 +205288,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1360025,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "Weary knights visit the crumbled Basilica after overcoming great hardships. Rest your weary feet and harken, for hymns of exultation still reach the skies.",
@@ -206226,12 +206547,12 @@ pg.chapter_template = {
 		}
 	},
 	[1360051] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -206245,17 +206566,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "Bsm-3",
 		pre_chapter = 1360026,
+		formation = 1360026,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 0,
+		map = 1360026,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -206272,7 +206594,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1360026,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "As your jolted senses drown in darkness, a sacred golden wall woven by everyone's feelings and determination reaches towards the skies once more.",
@@ -206647,12 +206969,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG4",
 		is_ambush = 0,
@@ -206666,17 +206988,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1380001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 23,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 10,
+		map = 1380001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -206693,7 +207016,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Several fleets form to deliver crucial relief supplies to the Northern Parliament. But, there may be an ulterior strategy...",
@@ -207331,12 +207654,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG11",
 		is_ambush = 0,
@@ -207350,17 +207673,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380001,
+		formation = 1380001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1380001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -207377,7 +207701,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An aurora illuminates the night sky and sets the battlefield ablaze. Stay alert, and find the enemy before they find us!",
@@ -208000,12 +208324,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG16",
 		is_ambush = 0,
@@ -208019,17 +208343,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380002,
+		formation = 1380001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1380001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -208046,7 +208371,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new Siren fleet arrives, disrupting the Royal Navy's operation plans. Fight or flight? The time to choose is now.",
@@ -208687,12 +209012,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG23",
 		is_ambush = 0,
@@ -208706,17 +209031,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380003,
+		formation = 1380002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1380002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -208733,7 +209059,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Beneath the frigid waters, Iron Blood submarines seek to surround us! Stay vigilant, and put an end to their plans!",
@@ -209428,12 +209754,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG28",
 		is_ambush = 0,
@@ -209447,17 +209773,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380004,
+		formation = 1380002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1380002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -209474,7 +209801,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "There's something unusual about the way the Iron Blood fleet is moving. Uncover the truth, and perhaps a deeper conspiracy awaits...",
@@ -210194,12 +210521,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380006] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG32",
 		is_ambush = 0,
@@ -210213,17 +210540,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380005,
+		formation = 1380002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1380002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -210240,7 +210568,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "No matter how tough the enemy, eliminate those that would threaten the safety of our routes! Heed the call of the Royal Navy, protect the escort fleet, and defeat the Sirens!",
@@ -211057,12 +211385,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380021] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG4",
 		is_ambush = 0,
@@ -211076,17 +211404,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1380011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1380011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -211103,7 +211432,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Several fleets form to deliver crucial relief supplies to the Northern Parliament. But, there may be an ulterior strategy...",
@@ -211775,12 +212104,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380022] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG11",
 		is_ambush = 0,
@@ -211794,17 +212123,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380021,
+		formation = 1380011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1380011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -211821,7 +212151,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An aurora illuminates the night sky and sets the battlefield ablaze. Stay alert, and find the enemy before they find us!",
@@ -212478,12 +212808,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380023] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG16",
 		is_ambush = 0,
@@ -212497,17 +212827,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380022,
+		formation = 1380011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 21,
+		map = 1380011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -212524,7 +212855,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new Siren fleet arrives, disrupting the Royal Navy's operation plans. Fight or flight? The time to choose is now.",
@@ -213199,12 +213530,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380024] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG23",
 		is_ambush = 0,
@@ -213218,17 +213549,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380023,
+		formation = 1380012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1380012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -213245,7 +213577,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Beneath the frigid waters, Iron Blood submarines seek to surround us! Stay vigilant, and put an end to their plans!",
@@ -213980,12 +214312,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380025] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG28",
 		is_ambush = 0,
@@ -213999,17 +214331,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380024,
+		formation = 1380012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1380012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -214026,7 +214359,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "There's something unusual about the way the Iron Blood fleet is moving. Uncover the truth, and perhaps a deeper conspiracy awaits...",
@@ -214788,12 +215121,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380026] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG32",
 		is_ambush = 0,
@@ -214807,17 +215140,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380025,
+		formation = 1380012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1380012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -214834,7 +215168,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "No matter how tough the enemy, eliminate those that would threaten the safety of our routes! Heed the call of the Royal Navy, protect the escort fleet, and defeat the Sirens!",
@@ -215694,12 +216028,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380041] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -215713,17 +216047,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1380026,
+		formation = 1380025,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 0,
+		map = 1380025,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -215740,7 +216075,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1380025,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "A sea of stars shimmers under a resplendent aurora. But beware, o travelers in the night. Should you lift your head to indulge in the beauty of the heavens, the crisis that looms underneath will pull you to an icy grave.",
@@ -216836,12 +217171,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380051] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -216855,17 +217190,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "bsm-3",
 		pre_chapter = 1380026,
+		formation = 1380026,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 0,
+		map = 1380026,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -216882,7 +217218,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1380026,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "To all ye who are spellbound by the eternal night, cut through the false light before you. Seek out the truth within your heart, and reveal the answer shrouded by darkness.",
@@ -217271,12 +217607,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU3",
 		is_ambush = 0,
@@ -217290,17 +217626,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1400001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 10,
+		map = 1400001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -217317,7 +217654,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Now, after their fight with Hood and Wales, Bismarck and Prinz Eugen are trying to escape the Royal Navy's encirclement...",
@@ -217835,12 +218172,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -217854,17 +218191,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400001,
+		formation = 1400001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1400001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -217881,7 +218219,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Royal Navy is closing in. A Siren whispers words of seduction. In the midst of a crisis, what will Bismarck do...?",
@@ -218401,12 +218739,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -218420,17 +218758,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400002,
+		formation = 1400001,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 1400001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -218447,7 +218786,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Having suffered waves of airstrikes but surviving thanks to her immense strength, Bismarck is left with only one choice: to fight to the last shell.",
@@ -219052,12 +219391,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU12",
 		is_ambush = 0,
@@ -219071,17 +219410,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400003,
+		formation = 1400002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 1400002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -219098,7 +219438,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Pursuit of Bismarck is finally coming to an end. We shall seize victory to avenge our wounded comrade and uphold the Royal Family's honour!",
@@ -219713,12 +220053,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -219732,17 +220072,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400004,
+		formation = 1400002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1400002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -219759,7 +220100,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Humankind's evolution was driven by knowledge and technological advancement. If it's for evolution's sake, no means are out of the question...",
@@ -220417,12 +220758,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -220436,17 +220777,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400005,
+		formation = 1400002,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 1400002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -220463,7 +220805,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "When you want to fool the world, tell the truth. Play the Scherzo of Iron and Blood, and save their souls from their sorrowful destiny.",
@@ -221093,12 +221435,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU3",
 		is_ambush = 0,
@@ -221112,17 +221454,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 1400011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1400011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -221139,7 +221482,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Now, after their fight with Hood and Wales, Bismarck and Prinz Eugen are trying to escape the Royal Navy's encirclement...",
@@ -221699,12 +222042,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -221718,17 +222061,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400011,
+		formation = 1400011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 17,
+		map = 1400011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -221745,7 +222089,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Royal Navy is closing in. A Siren whispers words of seduction. In the midst of a crisis, what will Bismarck do...?",
@@ -222307,12 +222651,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -222326,17 +222670,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400012,
+		formation = 1400011,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 21,
+		map = 1400011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -222353,7 +222698,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Having suffered waves of airstrikes but surviving thanks to her immense strength, Bismarck is left with only one choice: to fight to the last shell.",
@@ -223000,12 +223345,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400014] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU12",
 		is_ambush = 0,
@@ -223019,17 +223364,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400013,
+		formation = 1400012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 1400012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -223046,7 +223392,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Pursuit of Bismarck is finally coming to an end. We shall seize victory to avenge our wounded comrade and uphold the Royal Family's honour!",
@@ -223703,12 +224049,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400015] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -223722,17 +224068,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400014,
+		formation = 1400012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1400012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -223749,7 +224096,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Humankind's evolution was driven by knowledge and technological advancement. If it's for evolution's sake, no means are out of the question...",
@@ -224451,12 +224798,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400016] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -224470,17 +224817,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400015,
+		formation = 1400012,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 1400012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -224497,7 +224845,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "When you want to fool the world, tell the truth. Play the Scherzo of Iron and Blood, and save their souls from their sorrowful destiny.",
@@ -225171,12 +225519,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400017] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -225190,17 +225538,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400016,
+		formation = 1400020,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 0,
+		map = 1400020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -225217,7 +225566,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1400020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "O seaborne traveler searching for the truth of war... let us rest, and dance cheerfully to the tune of the waves.",
@@ -225839,12 +226188,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -225858,17 +226207,18 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 1400016,
+		formation = 1400021,
 		chapter_tag = 0,
 		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 1,
 		num_2 = 0,
+		map = 1400021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -225885,7 +226235,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1400021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "One who becomes intoxicated with power will never know an end to their pursuit of more. O, illusory Night Wanderer, this song is for you.",
@@ -226238,13 +226588,14498 @@ pg.chapter_template = {
 		wall_prefab = {},
 		alarm_cell = {}
 	},
-	[2100001] = {
+	[1410001] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 50,
+		oil = 10,
+		is_limit_move = 1,
 		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA7",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 95,
+		best_air_dominance = 150,
+		count = 0,
+		id = 1410001,
+		icon_outline = 0,
+		bg = "",
+		bgm = "story-6",
+		pre_chapter = 1410007,
+		formation = 1410001,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.26",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 10,
+		map = 1410001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Game of Reenactment",
+		chapter_name = "T1",
+		type = 1,
+		act_id = 30714,
+		enter_story = "DIEHAIMENGHUA6",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The dreamwaker sees a glimpse of another future. She awakens to fulfill the duty she was entrusted with.",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1440001,
+				15,
+				0
+			},
+			{
+				1440002,
+				20,
+				0
+			},
+			{
+				1440003,
+				30,
+				1
+			},
+			{
+				1440004,
+				15,
+				0
+			},
+			{
+				1440005,
+				20,
+				0
+			},
+			{
+				1440006,
+				30,
+				1
+			},
+			{
+				1440007,
+				15,
+				0
+			},
+			{
+				1440008,
+				20,
+				0
+			},
+			{
+				1440009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1440005,
+			1440008
+		},
+		ai_expedition_list = {
+			1440301,
+			1440303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1440013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58001
+			},
+			{
+				2,
+				57989
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				4
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				16
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				10,
+				"1x1XWIsLand_3",
+				1,
+				1
+			},
+			{
+				6,
+				0,
+				"1x1XWIsLand_3",
+				1,
+				1
+			},
+			{
+				2,
+				10,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				2,
+				6,
+				"2x2XWIsLand_3",
+				63,
+				-37
+			},
+			{
+				2,
+				3,
+				"2x2XWIsLand_2",
+				46,
+				-37
+			},
+			{
+				2,
+				0,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				1,
+				7,
+				"1x3XWIsLand_3",
+				92,
+				4
+			},
+			{
+				1,
+				1,
+				"1x3XWIsLand_1",
+				112,
+				4
+			},
+			{
+				0,
+				8,
+				"1x1XWIsLand_2",
+				0,
+				4
+			},
+			{
+				0,
+				2,
+				"1x1XWIsLand_2",
+				0,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_daxuanwo",
+			45,
+			20,
+			-334,
+			-84,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA9"
+		},
+		defeat_story_count = {
+			2
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410002] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 130,
+		best_air_dominance = 170,
+		count = 0,
+		id = 1410002,
+		icon_outline = 0,
+		bg = "",
+		bgm = "xinnong-2",
+		pre_chapter = 1410001,
+		formation = 1410001,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 15,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Drifting, Swelling",
+		chapter_name = "T2",
+		type = 1,
+		act_id = 30714,
+		enter_story = "DIEHAIMENGHUA10",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The dreamwaker sees a glimpse of another past. She will do anything to protect her friends and her homeland.",
+		difficulty = 4,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1440101,
+				15,
+				0
+			},
+			{
+				1440102,
+				20,
+				0
+			},
+			{
+				1440103,
+				30,
+				1
+			},
+			{
+				1440104,
+				15,
+				0
+			},
+			{
+				1440105,
+				20,
+				0
+			},
+			{
+				1440106,
+				30,
+				1
+			},
+			{
+				1440107,
+				15,
+				0
+			},
+			{
+				1440108,
+				20,
+				0
+			},
+			{
+				1440109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1440105,
+			1440108
+		},
+		ai_expedition_list = {
+			1440305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1440113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"gaoxiong_alter"
+		},
+		awards = {
+			{
+				2,
+				58002
+			},
+			{
+				2,
+				57990
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				1
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				8
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				16
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"xinnong_normal_2x1_2",
+				67,
+				29
+			},
+			{
+				5,
+				7,
+				"xinnong_normal_1x1_3",
+				3,
+				26
+			},
+			{
+				4,
+				4,
+				"xinnong_teleport02",
+				0,
+				56
+			},
+			{
+				4,
+				1,
+				"xinnong_normal_1x1_2",
+				2,
+				38
+			},
+			{
+				3,
+				3,
+				"xinnong_normal_3x1_1",
+				107,
+				13
+			},
+			{
+				3,
+				2,
+				"xinnong_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				0,
+				"xinnong_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				6,
+				"xinnong_normal_1x1_3",
+				0,
+				9
+			},
+			{
+				0,
+				6,
+				"xinnong_normal_2x2_1",
+				67,
+				-15
+			},
+			{
+				0,
+				4,
+				"xinnong_teleport02",
+				0,
+				55
+			},
+			{
+				0,
+				1,
+				"xinnong_normal_1x1_3",
+				0,
+				27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-226,
+			-89,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA11"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA14"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410003] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA17",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 170,
+		best_air_dominance = 225,
+		count = 0,
+		id = 1410003,
+		icon_outline = 0,
+		bg = "",
+		bgm = "bsm-1",
+		pre_chapter = 1410002,
+		formation = 1410001,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 15,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "The Final Torch",
+		chapter_name = "T3",
+		type = 1,
+		act_id = 30714,
+		enter_story = "DIEHAIMENGHUA15",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The dreamwaker seems echoes of a distant world. As the guardian of humanity, she sails to face finality.",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1440201,
+				15,
+				0
+			},
+			{
+				1440202,
+				20,
+				0
+			},
+			{
+				1440203,
+				30,
+				1
+			},
+			{
+				1440204,
+				15,
+				0
+			},
+			{
+				1440205,
+				20,
+				0
+			},
+			{
+				1440206,
+				30,
+				1
+			},
+			{
+				1440207,
+				15,
+				0
+			},
+			{
+				1440208,
+				20,
+				0
+			},
+			{
+				1440209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1440205,
+			1440208
+		},
+		ai_expedition_list = {
+			1440307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1440213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_M"
+		},
+		awards = {
+			{
+				2,
+				58003
+			},
+			{
+				2,
+				57991
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				4
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				8
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinnong_teleport02",
+				0,
+				18
+			},
+			{
+				8,
+				0,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				6,
+				"xinnong_normal_1x2_1",
+				0,
+				-39
+			},
+			{
+				6,
+				6,
+				"xinnong_normal_1x1_2",
+				0,
+				30
+			},
+			{
+				6,
+				4,
+				"xinnong_normal_1x1_3",
+				0,
+				20
+			},
+			{
+				5,
+				8,
+				"xinnong_normal_3x1_1",
+				-104,
+				9
+			},
+			{
+				4,
+				2,
+				"xinnong_normal_1x1_3",
+				0,
+				23
+			},
+			{
+				2,
+				5,
+				"xinnong_normal_2x2_1",
+				71,
+				-24
+			},
+			{
+				2,
+				3,
+				"xinnong_normal_1x1_2",
+				-1,
+				31
+			},
+			{
+				2,
+				0,
+				"xinnong_normal_3x1_1",
+				104,
+				10
+			},
+			{
+				1,
+				8,
+				"xinnong_teleport01",
+				7,
+				47
+			},
+			{
+				0,
+				8,
+				"xinnong_normal_1x1_2",
+				0,
+				46
+			},
+			{
+				0,
+				7,
+				"xinnong_teleport02",
+				0,
+				45
+			},
+			{
+				0,
+				3,
+				"xinnong_normal_1x2_1",
+				0,
+				-34
+			},
+			{
+				0,
+				0,
+				"xinnong_teleport03",
+				-4,
+				46
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-134,
+			110,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA16"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA19",
+			"DIEHAIMENGHUA20"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410004] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA23",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 220,
+		best_air_dominance = 290,
+		count = 0,
+		id = 1410004,
+		icon_outline = 0,
+		bg = "",
+		bgm = "xinnong-3",
+		pre_chapter = 1410003,
+		formation = 1410002,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 25,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "The First Voyage",
+		chapter_name = "T4",
+		type = 1,
+		act_id = 30715,
+		enter_story = "DIEHAIMENGHUA21",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The dreamwaker seems echoes of her own past, the cruel fate engraved upon her very existence.",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1441001,
+				15,
+				0
+			},
+			{
+				1441002,
+				20,
+				0
+			},
+			{
+				1441003,
+				30,
+				1
+			},
+			{
+				1441004,
+				15,
+				0
+			},
+			{
+				1441005,
+				20,
+				0
+			},
+			{
+				1441006,
+				30,
+				1
+			},
+			{
+				1441007,
+				15,
+				0
+			},
+			{
+				1441008,
+				20,
+				0
+			},
+			{
+				1441009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1441005,
+			1441008
+		},
+		ai_expedition_list = {
+			1441301,
+			1441303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1441013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenqianting_M"
+		},
+		awards = {
+			{
+				2,
+				58004
+			},
+			{
+				2,
+				57992
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				4
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				4
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				12
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				16
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				12
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				16
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				12
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				4
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				4
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"xinnong_normal_1x1_2",
+				0,
+				34
+			},
+			{
+				8,
+				0,
+				"xinnong_normal_2x1_2",
+				65,
+				26
+			},
+			{
+				7,
+				7,
+				"xinnong_normal_1x1_3",
+				0,
+				13
+			},
+			{
+				6,
+				7,
+				"xinnong_normal_1x1_2",
+				0,
+				30
+			},
+			{
+				6,
+				6,
+				"xinnong_teleport02",
+				0,
+				59
+			},
+			{
+				5,
+				7,
+				"xinnong_normal_2x1_1",
+				46,
+				23
+			},
+			{
+				5,
+				4,
+				"xinnong_normal_3x1_1",
+				103,
+				8
+			},
+			{
+				5,
+				3,
+				"xinnong_normal_2x1_1",
+				-54,
+				25
+			},
+			{
+				4,
+				8,
+				"xinnong_teleport03",
+				0,
+				49
+			},
+			{
+				4,
+				7,
+				"xinnong_normal_1x1_1",
+				0,
+				5
+			},
+			{
+				4,
+				6,
+				"xinnong_teleport02",
+				0,
+				16
+			},
+			{
+				4,
+				4,
+				"xinnong_teleport02",
+				0,
+				56
+			},
+			{
+				4,
+				3,
+				"xinnong_normal_1x1_1",
+				0,
+				7
+			},
+			{
+				4,
+				2,
+				"xinnong_teleport01",
+				3,
+				43
+			},
+			{
+				3,
+				7,
+				"xinnong_normal_2x1_1",
+				50,
+				23
+			},
+			{
+				3,
+				4,
+				"xinnong_normal_3x1_1",
+				106,
+				8
+			},
+			{
+				3,
+				3,
+				"xinnong_normal_2x1_1",
+				-53,
+				25
+			},
+			{
+				2,
+				4,
+				"xinnong_teleport02",
+				0,
+				19
+			},
+			{
+				2,
+				3,
+				"xinnong_normal_1x1_2",
+				0,
+				30
+			},
+			{
+				1,
+				3,
+				"xinnong_normal_1x1_3",
+				0,
+				13
+			},
+			{
+				0,
+				9,
+				"xinnong_normal_2x1_2",
+				65,
+				26
+			},
+			{
+				0,
+				3,
+				"xinnong_normal_1x1_2",
+				0,
+				36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-348,
+			-249,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA22"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA25"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410005] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA32",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 300,
+		best_air_dominance = 390,
+		count = 0,
+		id = 1410005,
+		icon_outline = 0,
+		bg = "",
+		bgm = "level02",
+		pre_chapter = 1410008,
+		formation = 1410002,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 30,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Fragments of Fate",
+		chapter_name = "T5",
+		type = 1,
+		act_id = 30715,
+		enter_story = "DIEHAIMENGHUA31",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Fragments and echoes resonate. Voices cry out to not avoid tragedy, but to create a bright future. She is no longer driven by duty alone.",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1441101,
+				15,
+				0
+			},
+			{
+				1441102,
+				20,
+				0
+			},
+			{
+				1441103,
+				30,
+				1
+			},
+			{
+				1441104,
+				15,
+				0
+			},
+			{
+				1441105,
+				20,
+				0
+			},
+			{
+				1441106,
+				30,
+				1
+			},
+			{
+				1441107,
+				15,
+				0
+			},
+			{
+				1441108,
+				20,
+				0
+			},
+			{
+				1441109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1441105,
+			1441108
+		},
+		ai_expedition_list = {
+			1441305,
+			1441307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1441113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lafei"
+		},
+		awards = {
+			{
+				2,
+				58005
+			},
+			{
+				2,
+				57993
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				8
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				16
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				12
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinnong_normal_1x1_3",
+				0,
+				18
+			},
+			{
+				8,
+				0,
+				"xinnong_normal_1x1_3",
+				0,
+				14
+			},
+			{
+				7,
+				4,
+				"xinnong_normal_1x2_1",
+				0,
+				-38
+			},
+			{
+				6,
+				5,
+				"xinnong_teleport03",
+				0,
+				40
+			},
+			{
+				6,
+				4,
+				"xinnong_normal_2x1_1",
+				0,
+				30
+			},
+			{
+				6,
+				3,
+				"xinnong_teleport01_invalid",
+				0,
+				40
+			},
+			{
+				5,
+				6,
+				"xinnong_teleport02_invalid",
+				0,
+				59
+			},
+			{
+				5,
+				4,
+				"xinnong_normal_1x1_2",
+				0,
+				40
+			},
+			{
+				5,
+				2,
+				"xinnong_teleport02",
+				0,
+				59
+			},
+			{
+				4,
+				7,
+				"xinnong_normal_2x1_2",
+				57,
+				30
+			},
+			{
+				4,
+				6,
+				"xinnong_normal_2x1_1",
+				-6,
+				27
+			},
+			{
+				4,
+				5,
+				"xinnong_normal_1x1_2",
+				-22,
+				32
+			},
+			{
+				4,
+				3,
+				"xinnong_normal_1x1_2",
+				20,
+				31
+			},
+			{
+				4,
+				2,
+				"xinnong_normal_2x1_1",
+				8,
+				23
+			},
+			{
+				4,
+				0,
+				"xinnong_normal_2x1_2",
+				62,
+				27
+			},
+			{
+				3,
+				6,
+				"xinnong_teleport02",
+				0,
+				20
+			},
+			{
+				3,
+				4,
+				"xinnong_normal_1x1_2",
+				0,
+				40
+			},
+			{
+				3,
+				2,
+				"xinnong_teleport02_invalid",
+				0,
+				20
+			},
+			{
+				2,
+				5,
+				"xinnong_teleport03_invalid",
+				0,
+				40
+			},
+			{
+				2,
+				4,
+				"xinnong_normal_2x1_1",
+				0,
+				27
+			},
+			{
+				2,
+				3,
+				"xinnong_teleport01",
+				0,
+				40
+			},
+			{
+				0,
+				8,
+				"xinnong_normal_1x1_3",
+				0,
+				17
+			},
+			{
+				0,
+				4,
+				"xinnong_normal_1x2_1",
+				0,
+				-28
+			},
+			{
+				0,
+				0,
+				"xinnong_normal_1x1_3",
+				0,
+				17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-235,
+			-82,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA34"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410006] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA37",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 380,
+		best_air_dominance = 495,
+		count = 0,
+		id = 1410006,
+		icon_outline = 0,
+		bg = "",
+		bgm = "story-6",
+		pre_chapter = 1410005,
+		formation = 1410002,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.26",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 30,
+		map = 1410001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "To Shatter Destiny",
+		chapter_name = "T6",
+		type = 1,
+		act_id = 30715,
+		enter_story = "DIEHAIMENGHUA35",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Shinano returns to reality, freed from the chains of illusion. She must make her choice, for fate comes once more.",
+		difficulty = 7,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1441201,
+				15,
+				0
+			},
+			{
+				1441202,
+				20,
+				0
+			},
+			{
+				1441203,
+				30,
+				1
+			},
+			{
+				1441204,
+				15,
+				0
+			},
+			{
+				1441205,
+				20,
+				0
+			},
+			{
+				1441206,
+				30,
+				1
+			},
+			{
+				1441207,
+				15,
+				0
+			},
+			{
+				1441208,
+				20,
+				0
+			},
+			{
+				1441209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1441205,
+			1441208
+		},
+		ai_expedition_list = {
+			1441309,
+			1441311
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1441213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58006
+			},
+			{
+				2,
+				57994
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				false,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				4
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				12
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				10,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				8,
+				6,
+				"2x2XWIsLand_3",
+				63,
+				-37
+			},
+			{
+				8,
+				3,
+				"2x2XWIsLand_2",
+				46,
+				-37
+			},
+			{
+				8,
+				0,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				7,
+				7,
+				"1x3XWIsLand_3",
+				92,
+				6
+			},
+			{
+				7,
+				1,
+				"1x3XWIsLand_1",
+				112,
+				4
+			},
+			{
+				6,
+				8,
+				"1x1XWIsLand_2",
+				0,
+				5
+			},
+			{
+				6,
+				2,
+				"1x1XWIsLand_2",
+				0,
+				5
+			},
+			{
+				4,
+				10,
+				"1x2XWIsLand_1",
+				3,
+				-36
+			},
+			{
+				4,
+				0,
+				"1x2XWIsLand_1",
+				3,
+				-36
+			},
+			{
+				3,
+				6,
+				"2x2XWIsLand_1",
+				65,
+				-33
+			},
+			{
+				3,
+				3,
+				"2x2XWIsLand_4",
+				42,
+				-33
+			},
+			{
+				1,
+				8,
+				"2x2XWIsLand_1",
+				65,
+				-33
+			},
+			{
+				1,
+				1,
+				"2x2XWIsLand_4",
+				42,
+				-33
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_daxuanwo",
+			45,
+			20,
+			-317,
+			129,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA36"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA40",
+			"DIEHAIMENGHUA41",
+			"DIEHAIMENGHUA42"
+		},
+		defeat_story_count = {
+			4,
+			5,
+			6
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8744
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410007] = {
+		pos_x = "0.18",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA4",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 95,
+		best_air_dominance = 150,
+		count = 0,
+		id = 1410007,
+		icon_outline = 0,
+		bg = "",
+		bgm = "story-4",
+		pre_chapter = 0,
+		formation = 1410001,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 0,
+		pos_y = "0.26",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 0,
+		map = 1410001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Dreamwaker's Butterfly",
+		chapter_name = "TS1",
+		type = 1,
+		act_id = 30714,
+		enter_story = "DIEHAIMENGHUA2",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "Shinano awakens in the Diadem of Light. She sets sail so that she may awaken that \"dream\" into reality.",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1446001,
+				100,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1446002
+		},
+		ai_expedition_list = {
+			1446003
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1446013
+		},
+		enemy_refresh = {
+			1
+		},
+		elite_refresh = {
+			0,
+			1
+		},
+		ai_refresh = {
+			0,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				1
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				1
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				12
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				5,
+				1,
+				"1x1_2xinrixi",
+				0,
+				3
+			},
+			{
+				4,
+				4,
+				"2x2_2xinrixi",
+				62,
+				-36
+			},
+			{
+				3,
+				1,
+				"1x3_1xinrixi",
+				109,
+				7
+			},
+			{
+				2,
+				0,
+				"2x1_1xinrixi",
+				-14,
+				-32
+			},
+			{
+				1,
+				7,
+				"2x1_2xinrixi",
+				10,
+				-28
+			},
+			{
+				1,
+				6,
+				"1x1_2xinrixi",
+				0,
+				5
+			},
+			{
+				0,
+				5,
+				"2x1_1xinrixi",
+				7,
+				-29
+			},
+			{
+				0,
+				2,
+				"1x3_1xinrixi",
+				105,
+				3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinrixi",
+			45,
+			20,
+			-200,
+			-200,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA3"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA5"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410008] = {
+		pos_x = "0.69",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 0,
+		best_air_dominance = 0,
+		count = 0,
+		id = 1410008,
+		icon_outline = 0,
+		bg = "",
+		bgm = "story-1",
+		pre_chapter = 1410004,
+		formation = 1410002,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 0,
+		pos_y = "0.123958333",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 0,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Light's Procession",
+		chapter_name = "TS2",
+		type = 1,
+		act_id = 30715,
+		enter_story = "DIEHAIMENGHUA26",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "The dreamwaker sees a glimpse of the hope yet to come. What she sees is not a fleeting fantasy, but the happiness that must come to be.",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_tuoli",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {},
+		enemy_refresh = {},
+		elite_refresh = {},
+		ai_refresh = {},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				6,
+				{
+					7,
+					6
+				}
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"tiancheng"
+		},
+		awards = {},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"xinnong_normal_1x1_2",
+				0,
+				24
+			},
+			{
+				7,
+				3,
+				"xinnong_normal_3x1_1",
+				104,
+				6
+			},
+			{
+				6,
+				7,
+				"xinnong_normal_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				5,
+				"xinnong_normal_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				3,
+				"xinnong_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				7,
+				"xinnong_normal_1x1_2",
+				0,
+				24
+			},
+			{
+				5,
+				5,
+				"xinnong_normal_1x1_2",
+				0,
+				24
+			},
+			{
+				5,
+				2,
+				"xinnong_normal_1x1_3",
+				0,
+				11
+			},
+			{
+				4,
+				1,
+				"xinnong_normal_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				3,
+				"xinnong_normal_2x2_1",
+				56,
+				-22
+			},
+			{
+				2,
+				7,
+				"xinnong_normal_1x2_1",
+				1,
+				-30
+			},
+			{
+				2,
+				5,
+				"xinnong_normal_1x2_1",
+				-6,
+				-31
+			},
+			{
+				1,
+				7,
+				"xinnong_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				1,
+				"xinnong_normal_3x1_1",
+				100,
+				7
+			},
+			{
+				0,
+				0,
+				"xinnong_normal_1x2_1",
+				5,
+				-32
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-128,
+			-4,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA30"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410021] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA7",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 375,
+		best_air_dominance = 490,
+		count = 0,
+		id = 1410021,
+		icon_outline = 0,
+		bg = "",
+		bgm = "story-6",
+		pre_chapter = 1410027,
+		formation = 1410011,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.26",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 17,
+		map = 1410011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Game of Reenactment",
+		chapter_name = "HT1",
+		type = 2,
+		act_id = 30714,
+		enter_story = "DIEHAIMENGHUA6",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The dreamwaker sees a glimpse of another future. She awakens to fulfill the duty she was entrusted with.",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"antiaircraft",
+				1,
+				1300
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1442001,
+				15,
+				0
+			},
+			{
+				1442002,
+				20,
+				0
+			},
+			{
+				1442003,
+				30,
+				1
+			},
+			{
+				1442004,
+				15,
+				0
+			},
+			{
+				1442005,
+				20,
+				0
+			},
+			{
+				1442006,
+				30,
+				1
+			},
+			{
+				1442007,
+				15,
+				0
+			},
+			{
+				1442008,
+				20,
+				0
+			},
+			{
+				1442009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1442005,
+			1442008
+		},
+		ai_expedition_list = {
+			1442301,
+			1442303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1442013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58019
+			},
+			{
+				2,
+				58007
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				4
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				16
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				10,
+				"1x1XWIsLand_3",
+				1,
+				1
+			},
+			{
+				6,
+				0,
+				"1x1XWIsLand_3",
+				1,
+				1
+			},
+			{
+				2,
+				10,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				2,
+				6,
+				"2x2XWIsLand_3",
+				63,
+				-37
+			},
+			{
+				2,
+				3,
+				"2x2XWIsLand_2",
+				46,
+				-37
+			},
+			{
+				2,
+				0,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				1,
+				7,
+				"1x3XWIsLand_3",
+				92,
+				4
+			},
+			{
+				1,
+				1,
+				"1x3XWIsLand_1",
+				112,
+				4
+			},
+			{
+				0,
+				8,
+				"1x1XWIsLand_2",
+				0,
+				4
+			},
+			{
+				0,
+				2,
+				"1x1XWIsLand_2",
+				0,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_daxuanwo",
+			45,
+			20,
+			-334,
+			-84,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA9"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410022] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 470,
+		best_air_dominance = 615,
+		count = 0,
+		id = 1410022,
+		icon_outline = 0,
+		bg = "",
+		bgm = "xinnong-2",
+		pre_chapter = 1410021,
+		formation = 1410011,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 17,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Drifting, Swelling",
+		chapter_name = "HT2",
+		type = 2,
+		act_id = 30714,
+		enter_story = "DIEHAIMENGHUA10",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The dreamwaker sees a glimpse of another past. She will do anything to protect her friends and her homeland.",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1442101,
+				15,
+				0
+			},
+			{
+				1442102,
+				20,
+				0
+			},
+			{
+				1442103,
+				30,
+				1
+			},
+			{
+				1442104,
+				15,
+				0
+			},
+			{
+				1442105,
+				20,
+				0
+			},
+			{
+				1442106,
+				30,
+				1
+			},
+			{
+				1442107,
+				15,
+				0
+			},
+			{
+				1442108,
+				20,
+				0
+			},
+			{
+				1442109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1442105,
+			1442108
+		},
+		ai_expedition_list = {
+			1442305,
+			1442307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1442113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"gaoxiong_alter"
+		},
+		awards = {
+			{
+				2,
+				58020
+			},
+			{
+				2,
+				58008
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				1
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				8
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				16
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"xinnong_hard_2x1_2",
+				67,
+				29
+			},
+			{
+				5,
+				7,
+				"xinnong_hard_1x1_3",
+				3,
+				26
+			},
+			{
+				4,
+				4,
+				"xinnong_teleport02",
+				0,
+				56
+			},
+			{
+				4,
+				1,
+				"xinnong_hard_1x1_2",
+				2,
+				38
+			},
+			{
+				3,
+				3,
+				"xinnong_hard_3x1_1",
+				107,
+				13
+			},
+			{
+				3,
+				2,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				0,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				6,
+				"xinnong_hard_1x1_3",
+				0,
+				9
+			},
+			{
+				0,
+				6,
+				"xinnong_hard_2x2_1",
+				67,
+				-15
+			},
+			{
+				0,
+				4,
+				"xinnong_teleport02",
+				0,
+				55
+			},
+			{
+				0,
+				1,
+				"xinnong_hard_1x1_3",
+				0,
+				27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-226,
+			-89,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA11"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA14"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410023] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA17",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 570,
+		best_air_dominance = 745,
+		count = 0,
+		id = 1410023,
+		icon_outline = 0,
+		bg = "",
+		bgm = "bsm-1",
+		pre_chapter = 1410022,
+		formation = 1410011,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 24,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "The Final Torch",
+		chapter_name = "HT3",
+		type = 2,
+		act_id = 30714,
+		enter_story = "DIEHAIMENGHUA15",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The dreamwaker seems echoes of a distant world. As the guardian of humanity, she sails to face finality.",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				85
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1442201,
+				15,
+				0
+			},
+			{
+				1442202,
+				20,
+				0
+			},
+			{
+				1442203,
+				30,
+				1
+			},
+			{
+				1442204,
+				15,
+				0
+			},
+			{
+				1442205,
+				20,
+				0
+			},
+			{
+				1442206,
+				30,
+				1
+			},
+			{
+				1442207,
+				15,
+				0
+			},
+			{
+				1442208,
+				20,
+				0
+			},
+			{
+				1442209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1442205,
+			1442208
+		},
+		ai_expedition_list = {
+			1442309,
+			1442311
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1442213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_M"
+		},
+		awards = {
+			{
+				2,
+				58021
+			},
+			{
+				2,
+				58009
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				4
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				8
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinnong_teleport02",
+				0,
+				18
+			},
+			{
+				8,
+				0,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				6,
+				"xinnong_hard_1x2_1",
+				0,
+				-39
+			},
+			{
+				6,
+				6,
+				"xinnong_hard_1x1_2",
+				0,
+				30
+			},
+			{
+				6,
+				4,
+				"xinnong_hard_1x1_3",
+				0,
+				20
+			},
+			{
+				5,
+				8,
+				"xinnong_hard_3x1_1",
+				-104,
+				9
+			},
+			{
+				4,
+				2,
+				"xinnong_hard_1x1_3",
+				0,
+				23
+			},
+			{
+				2,
+				5,
+				"xinnong_hard_2x2_1",
+				71,
+				-24
+			},
+			{
+				2,
+				3,
+				"xinnong_hard_1x1_2",
+				-1,
+				31
+			},
+			{
+				2,
+				0,
+				"xinnong_hard_3x1_1",
+				104,
+				10
+			},
+			{
+				1,
+				8,
+				"xinnong_teleport01",
+				7,
+				47
+			},
+			{
+				0,
+				8,
+				"xinnong_hard_1x1_2",
+				0,
+				46
+			},
+			{
+				0,
+				7,
+				"xinnong_teleport02",
+				0,
+				45
+			},
+			{
+				0,
+				3,
+				"xinnong_hard_1x2_1",
+				0,
+				-34
+			},
+			{
+				0,
+				0,
+				"xinnong_teleport03",
+				-4,
+				46
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-134,
+			110,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA16"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA19",
+			"DIEHAIMENGHUA20"
+		},
+		defeat_story_count = {
+			1,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410024] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA23",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 730,
+		best_air_dominance = 950,
+		count = 0,
+		id = 1410024,
+		icon_outline = 0,
+		bg = "",
+		bgm = "xinnong-3",
+		pre_chapter = 1410023,
+		formation = 1410012,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 35,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "The First Voyage",
+		chapter_name = "HT4",
+		type = 2,
+		act_id = 30715,
+		enter_story = "DIEHAIMENGHUA21",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The dreamwaker seems echoes of her own past, the cruel fate engraved upon her very existence.",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"air",
+				1,
+				1200
+			},
+			{
+				"antisub",
+				1,
+				500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1443001,
+				15,
+				0
+			},
+			{
+				1443002,
+				20,
+				0
+			},
+			{
+				1443003,
+				30,
+				1
+			},
+			{
+				1443004,
+				15,
+				0
+			},
+			{
+				1443005,
+				20,
+				0
+			},
+			{
+				1443006,
+				30,
+				1
+			},
+			{
+				1443007,
+				15,
+				0
+			},
+			{
+				1443008,
+				20,
+				0
+			},
+			{
+				1443009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1443005,
+			1443008
+		},
+		ai_expedition_list = {
+			1443301,
+			1443303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1443013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenqianting_M"
+		},
+		awards = {
+			{
+				2,
+				58022
+			},
+			{
+				2,
+				58010
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				4
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				4
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				12
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				16
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				12
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				16
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				12
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				4
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				4
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				34
+			},
+			{
+				8,
+				0,
+				"xinnong_hard_2x1_2",
+				65,
+				26
+			},
+			{
+				7,
+				7,
+				"xinnong_hard_1x1_3",
+				0,
+				13
+			},
+			{
+				6,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				30
+			},
+			{
+				6,
+				6,
+				"xinnong_teleport02",
+				0,
+				59
+			},
+			{
+				5,
+				7,
+				"xinnong_hard_2x1_1",
+				46,
+				23
+			},
+			{
+				5,
+				4,
+				"xinnong_hard_3x1_1",
+				103,
+				8
+			},
+			{
+				5,
+				3,
+				"xinnong_hard_2x1_1",
+				-54,
+				25
+			},
+			{
+				4,
+				8,
+				"xinnong_teleport03",
+				0,
+				49
+			},
+			{
+				4,
+				7,
+				"xinnong_hard_1x1_1",
+				0,
+				5
+			},
+			{
+				4,
+				6,
+				"xinnong_teleport02",
+				0,
+				16
+			},
+			{
+				4,
+				4,
+				"xinnong_teleport02",
+				0,
+				56
+			},
+			{
+				4,
+				3,
+				"xinnong_hard_1x1_1",
+				0,
+				7
+			},
+			{
+				4,
+				2,
+				"xinnong_teleport01",
+				3,
+				43
+			},
+			{
+				3,
+				7,
+				"xinnong_hard_2x1_1",
+				50,
+				23
+			},
+			{
+				3,
+				4,
+				"xinnong_hard_3x1_1",
+				106,
+				8
+			},
+			{
+				3,
+				3,
+				"xinnong_hard_2x1_1",
+				-53,
+				25
+			},
+			{
+				2,
+				4,
+				"xinnong_teleport02",
+				0,
+				19
+			},
+			{
+				2,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				30
+			},
+			{
+				1,
+				3,
+				"xinnong_hard_1x1_3",
+				0,
+				13
+			},
+			{
+				0,
+				9,
+				"xinnong_hard_2x1_2",
+				65,
+				26
+			},
+			{
+				0,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-348,
+			-249,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA22"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA25"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410025] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA32",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 930,
+		best_air_dominance = 1210,
+		count = 0,
+		id = 1410025,
+		icon_outline = 0,
+		bg = "",
+		bgm = "level02",
+		pre_chapter = 1410028,
+		formation = 1410012,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 40,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Fragments of Fate",
+		chapter_name = "HT5",
+		type = 2,
+		act_id = 30715,
+		enter_story = "DIEHAIMENGHUA31",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Fragments and echoes resonate. Voices cry out to not avoid tragedy, but to create a bright future. She is no longer driven by duty alone.",
+		difficulty = 9,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1350
+			},
+			{
+				"torpedo",
+				1,
+				1400
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1443101,
+				15,
+				0
+			},
+			{
+				1443102,
+				20,
+				0
+			},
+			{
+				1443103,
+				30,
+				1
+			},
+			{
+				1443104,
+				15,
+				0
+			},
+			{
+				1443105,
+				20,
+				0
+			},
+			{
+				1443106,
+				30,
+				1
+			},
+			{
+				1443107,
+				15,
+				0
+			},
+			{
+				1443108,
+				20,
+				0
+			},
+			{
+				1443109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1443105,
+			1443108
+		},
+		ai_expedition_list = {
+			1443305,
+			1443307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1443113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lafei"
+		},
+		awards = {
+			{
+				2,
+				58023
+			},
+			{
+				2,
+				58011
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				8
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				16
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				12
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinnong_hard_1x1_3",
+				0,
+				18
+			},
+			{
+				8,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				14
+			},
+			{
+				7,
+				4,
+				"xinnong_hard_1x2_1",
+				0,
+				-38
+			},
+			{
+				6,
+				5,
+				"xinnong_teleport03",
+				0,
+				40
+			},
+			{
+				6,
+				4,
+				"xinnong_hard_2x1_1",
+				0,
+				30
+			},
+			{
+				6,
+				3,
+				"xinnong_teleport01_invalid",
+				0,
+				40
+			},
+			{
+				5,
+				6,
+				"xinnong_teleport02_invalid",
+				0,
+				59
+			},
+			{
+				5,
+				4,
+				"xinnong_hard_1x1_2",
+				0,
+				40
+			},
+			{
+				5,
+				2,
+				"xinnong_teleport02",
+				0,
+				59
+			},
+			{
+				4,
+				7,
+				"xinnong_hard_2x1_2",
+				57,
+				30
+			},
+			{
+				4,
+				6,
+				"xinnong_hard_2x1_1",
+				-6,
+				27
+			},
+			{
+				4,
+				5,
+				"xinnong_hard_1x1_2",
+				-22,
+				32
+			},
+			{
+				4,
+				3,
+				"xinnong_hard_1x1_2",
+				20,
+				31
+			},
+			{
+				4,
+				2,
+				"xinnong_hard_2x1_1",
+				8,
+				23
+			},
+			{
+				4,
+				0,
+				"xinnong_hard_2x1_2",
+				62,
+				27
+			},
+			{
+				3,
+				6,
+				"xinnong_teleport02",
+				0,
+				20
+			},
+			{
+				3,
+				4,
+				"xinnong_hard_1x1_2",
+				0,
+				40
+			},
+			{
+				3,
+				2,
+				"xinnong_teleport02_invalid",
+				0,
+				20
+			},
+			{
+				2,
+				5,
+				"xinnong_teleport03_invalid",
+				0,
+				40
+			},
+			{
+				2,
+				4,
+				"xinnong_hard_2x1_1",
+				0,
+				27
+			},
+			{
+				2,
+				3,
+				"xinnong_teleport01",
+				0,
+				40
+			},
+			{
+				0,
+				8,
+				"xinnong_hard_1x1_3",
+				0,
+				17
+			},
+			{
+				0,
+				4,
+				"xinnong_hard_1x2_1",
+				0,
+				-28
+			},
+			{
+				0,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-235,
+			-82,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA34"
+		},
+		defeat_story_count = {
+			5
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410026] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA37",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 1125,
+		best_air_dominance = 1465,
+		count = 0,
+		id = 1410026,
+		icon_outline = 0,
+		bg = "",
+		bgm = "story-6",
+		pre_chapter = 1410025,
+		formation = 1410012,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.26",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 40,
+		map = 1410011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "To Shatter Destiny",
+		chapter_name = "HT6",
+		type = 2,
+		act_id = 30715,
+		enter_story = "DIEHAIMENGHUA35",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Shinano returns to reality, freed from the chains of illusion. She must make her choice, for fate comes once more.",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"air",
+				1,
+				1700
+			},
+			{
+				"antiaircraft",
+				1,
+				2300
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1443201,
+				15,
+				0
+			},
+			{
+				1443202,
+				20,
+				0
+			},
+			{
+				1443203,
+				30,
+				1
+			},
+			{
+				1443204,
+				15,
+				0
+			},
+			{
+				1443205,
+				20,
+				0
+			},
+			{
+				1443206,
+				30,
+				1
+			},
+			{
+				1443207,
+				15,
+				0
+			},
+			{
+				1443208,
+				20,
+				0
+			},
+			{
+				1443209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1443205,
+			1443208
+		},
+		ai_expedition_list = {
+			1443309,
+			1443311,
+			1443313
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1443213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58024
+			},
+			{
+				2,
+				58012
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				false,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				4
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				12
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				10,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				8,
+				6,
+				"2x2XWIsLand_3",
+				63,
+				-37
+			},
+			{
+				8,
+				3,
+				"2x2XWIsLand_2",
+				46,
+				-37
+			},
+			{
+				8,
+				0,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				7,
+				7,
+				"1x3XWIsLand_3",
+				92,
+				6
+			},
+			{
+				7,
+				1,
+				"1x3XWIsLand_1",
+				112,
+				4
+			},
+			{
+				6,
+				8,
+				"1x1XWIsLand_2",
+				0,
+				5
+			},
+			{
+				6,
+				2,
+				"1x1XWIsLand_2",
+				0,
+				5
+			},
+			{
+				4,
+				10,
+				"1x2XWIsLand_1",
+				3,
+				-36
+			},
+			{
+				4,
+				0,
+				"1x2XWIsLand_1",
+				3,
+				-36
+			},
+			{
+				3,
+				6,
+				"2x2XWIsLand_1",
+				65,
+				-33
+			},
+			{
+				3,
+				3,
+				"2x2XWIsLand_4",
+				42,
+				-33
+			},
+			{
+				1,
+				8,
+				"2x2XWIsLand_1",
+				65,
+				-33
+			},
+			{
+				1,
+				1,
+				"2x2XWIsLand_4",
+				42,
+				-33
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_daxuanwo",
+			45,
+			20,
+			-317,
+			129,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA36"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA40",
+			"DIEHAIMENGHUA41",
+			"DIEHAIMENGHUA42"
+		},
+		defeat_story_count = {
+			5,
+			6,
+			7
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8746
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410027] = {
+		pos_x = "0.18",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA4",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 375,
+		best_air_dominance = 490,
+		count = 0,
+		id = 1410027,
+		icon_outline = 0,
+		bg = "",
+		bgm = "story-4",
+		pre_chapter = 0,
+		formation = 1410001,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 0,
+		pos_y = "0.26",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 0,
+		map = 1410011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Dreamwaker's Butterfly",
+		chapter_name = "HTS1",
+		type = 1,
+		act_id = 30714,
+		enter_story = "DIEHAIMENGHUA2",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "Shinano awakens in the Diadem of Light. She sets sail so that she may awaken that \"dream\" into reality.",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1447001,
+				100,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1447002
+		},
+		ai_expedition_list = {
+			1447003
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1447013
+		},
+		enemy_refresh = {
+			1
+		},
+		elite_refresh = {
+			0,
+			1
+		},
+		ai_refresh = {
+			0,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				1
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				1
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				12
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				5,
+				1,
+				"1x1_2xinrixihard",
+				0,
+				3
+			},
+			{
+				4,
+				4,
+				"2x2_2xinrixihard",
+				62,
+				-36
+			},
+			{
+				3,
+				1,
+				"1x3_1xinrixihard",
+				109,
+				7
+			},
+			{
+				2,
+				0,
+				"2x1_1xinrixihard",
+				-14,
+				-32
+			},
+			{
+				1,
+				7,
+				"2x1_2xinrixihard",
+				10,
+				-28
+			},
+			{
+				1,
+				6,
+				"1x1_2xinrixihard",
+				0,
+				5
+			},
+			{
+				0,
+				5,
+				"2x1_1xinrixihard",
+				7,
+				-29
+			},
+			{
+				0,
+				2,
+				"1x3_1xinrixihard",
+				105,
+				3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinrixi",
+			45,
+			20,
+			-200,
+			-200,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA3"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA5"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410028] = {
+		pos_x = "0.69",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 0,
+		best_air_dominance = 0,
+		count = 0,
+		id = 1410028,
+		icon_outline = 0,
+		bg = "",
+		bgm = "story-1",
+		pre_chapter = 1410024,
+		formation = 1410002,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 0,
+		pos_y = "0.123958333",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 0,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Light's Procession",
+		chapter_name = "HTS2",
+		type = 1,
+		act_id = 30715,
+		enter_story = "DIEHAIMENGHUA26",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "The dreamwaker sees a glimpse of the hope yet to come. What she sees is not a fleeting fantasy, but the happiness that must come to be.",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_tuoli",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {},
+		enemy_refresh = {},
+		elite_refresh = {},
+		ai_refresh = {},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				6,
+				{
+					7,
+					6
+				}
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"tiancheng"
+		},
+		awards = {},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				7,
+				3,
+				"xinnong_hard_3x1_1",
+				104,
+				6
+			},
+			{
+				6,
+				7,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				5,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				3,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				5,
+				5,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				5,
+				2,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				4,
+				1,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				3,
+				"xinnong_hard_2x2_1",
+				56,
+				-22
+			},
+			{
+				2,
+				7,
+				"xinnong_hard_1x2_1",
+				1,
+				-30
+			},
+			{
+				2,
+				5,
+				"xinnong_hard_1x2_1",
+				-6,
+				-31
+			},
+			{
+				1,
+				7,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				1,
+				"xinnong_hard_3x1_1",
+				100,
+				7
+			},
+			{
+				0,
+				0,
+				"xinnong_hard_1x2_1",
+				5,
+				-32
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-128,
+			-4,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA30"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410041] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 1770,
+		best_air_dominance = 2305,
+		count = 1,
+		id = 1410041,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1410026,
+		formation = 1410020,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 1,
+		num_2 = 0,
+		map = 1410020,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Restful Dreams",
+		chapter_name = "SP",
+		type = 2,
+		act_id = 30715,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "Even this moment seems like yet another brief dream... But no matter how joyous, or how painful, I shall continue to fight...",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1444002,
+				15,
+				0
+			},
+			{
+				1444003,
+				35,
+				0
+			},
+			{
+				1444005,
+				50,
+				0
+			},
+			{
+				1444008,
+				50,
+				0
+			},
+			{
+				1444001,
+				10,
+				0
+			},
+			{
+				1444002,
+				10,
+				0
+			},
+			{
+				1444003,
+				10,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1444006,
+			1444009
+		},
+		ai_expedition_list = {},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1444013
+		},
+		enemy_refresh = {
+			0,
+			0,
+			0,
+			0,
+			2
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58027
+			},
+			{
+				2,
+				58025
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				8
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				1
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				1
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				16
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				6,
+				"xinnong_hard_2x1_1",
+				27,
+				21
+			},
+			{
+				8,
+				4,
+				"xinnong_hard_2x1_1",
+				-25,
+				21
+			},
+			{
+				7,
+				10,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				7,
+				6,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				7,
+				4,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				7,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				7,
+				"xinnong_hard_3x1_1",
+				103,
+				5
+			},
+			{
+				6,
+				6,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				6,
+				4,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				6,
+				1,
+				"xinnong_hard_3x1_1",
+				102,
+				5
+			},
+			{
+				4,
+				8,
+				"xinnong_hard_1x2_1",
+				0,
+				-30
+			},
+			{
+				4,
+				2,
+				"xinnong_hard_1x2_1",
+				0,
+				-30
+			},
+			{
+				3,
+				7,
+				"xinnong_hard_3x1_1",
+				103,
+				5
+			},
+			{
+				3,
+				6,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				4,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				1,
+				"xinnong_hard_3x1_1",
+				102,
+				5
+			},
+			{
+				2,
+				10,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				2,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				2,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				2,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				0,
+				10,
+				"xinnong_teleport01",
+				0,
+				45
+			},
+			{
+				0,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				0,
+				6,
+				"xinnong_teleport01",
+				10,
+				44
+			},
+			{
+				0,
+				4,
+				"xinnong_teleport03",
+				-10,
+				44
+			},
+			{
+				0,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				0,
+				0,
+				"xinnong_teleport03",
+				0,
+				45
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-328,
+			-336,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410051] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 0,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 930,
+		best_air_dominance = 1210,
+		count = 0,
+		id = 1410051,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1410026,
+		formation = 1410021,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		num_1 = 0,
+		model = 5,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 0,
+		num_2 = 0,
+		map = 1410021,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Harrowing Dreams",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 30715,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "To those who have plumbed into the depths between reality and illusion, follow the light of the blue butterfly, and bear witness to my dance.",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1445001
+		},
+		enemy_refresh = {
+			1,
+			1
+		},
+		elite_refresh = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xinnong"
+		},
+		awards = {},
+		grids = {
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				4,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				5,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				4,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				4,
+				1,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				3,
+				"xinnong_hard_2x1_1",
+				22,
+				23
+			},
+			{
+				3,
+				1,
+				"xinnong_hard_2x1_1",
+				-21,
+				22
+			},
+			{
+				2,
+				1,
+				"xinnong_hard_3x1_1",
+				106,
+				9
+			},
+			{
+				0,
+				3,
+				"xinnong_hard_2x2_2",
+				58,
+				-5
+			},
+			{
+				0,
+				0,
+				"xinnong_hard_2x2_2",
+				58,
+				-5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-19,
+			-112,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[2100001] = {
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
@@ -226258,18 +241093,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 2100000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 2100000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -226287,7 +241123,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After weathering the storm and leaving her companions, {namecode:96} is alone in the seas. Is this really the 'Sanctuary' that we've been looking for?",
@@ -226779,12 +241615,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100002] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
@@ -226798,18 +241634,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100001,
+		formation = 2100000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 2100000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -226827,7 +241664,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "{namecode:96} received a distress call from up ahead while anxiously searching for her sisters. Is it a trap? Or is it truly an ally? We have to look, no matter the cost.",
@@ -227376,12 +242213,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100003] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
@@ -227395,18 +242232,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100002,
+		formation = 2100000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100000,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -227424,7 +242262,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "According to previous intel, this is no doubt that this is the 'Sanctuary'. What have 'they' been planning? They don't look too difficult... The newly shielded {namecode:79} is right before {namecode:96}'s eyes.",
@@ -228040,12 +242878,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100004] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
@@ -228059,18 +242897,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100003,
+		formation = 2100001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -228088,7 +242927,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An island of falling maple leafs and shrines is enough to enchant anyone. What secrets could be hidden here?",
@@ -228654,12 +243493,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100005] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
@@ -228673,18 +243512,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100004,
+		formation = 2100001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -228702,7 +243542,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I obviously don't want this to happen again... I have to become stronger... But why did you have to turn into this... {namecode:95}!'",
@@ -229370,12 +244210,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100006] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
@@ -229389,18 +244229,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100005,
+		formation = 2100001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -229418,7 +244259,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The whole truth surely lies with {namecode:91} and {namecode:92}. With her determination, {namecode:96} heads deeper into the 'Sanctuary'...",
@@ -230081,12 +244922,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100011] = {
-		mine_id = 2001,
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
@@ -230100,18 +244941,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 2100010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 2100010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -230129,7 +244971,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "After weathering the storm and leaving her companions, {namecode:96} is alone in the seas. Is this really the 'Sanctuary' that we've been looking for?",
@@ -230662,12 +245504,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100012] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
@@ -230681,18 +245523,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100011,
+		formation = 2100010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 2100010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -230710,7 +245553,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "{namecode:96} received a distress call from up ahead while anxiously searching for her sisters. Is it a trap? Or is it truly an ally? We have to look, no matter the cost.",
@@ -231300,12 +246143,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100013] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
@@ -231319,18 +246162,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100012,
+		formation = 2100010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -231348,7 +246192,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "According to previous intel, this is no doubt that this is the 'Sanctuary'. What have 'they' been planning? They don't look too difficult... The newly shielded {namecode:79} is right before {namecode:96}'s eyes.",
@@ -232006,12 +246850,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100014] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
@@ -232025,18 +246869,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100013,
+		formation = 2100011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -232054,7 +246899,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An island of falling maple leafs and shrines is enough to enchant anyone. What secrets could be hidden here?",
@@ -232662,12 +247507,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100015] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
@@ -232681,18 +247526,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100014,
+		formation = 2100011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -232710,7 +247556,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "I obviously don't want this to happen again... I have to become stronger... But why did you have to turn into this... {namecode:95}!'",
@@ -233420,12 +248266,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100016] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
@@ -233439,18 +248285,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100015,
+		formation = 2100011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 40,
+		map = 2100011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -233468,7 +248315,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The whole truth surely lies with {namecode:91} and {namecode:92}. With her determination, {namecode:96} heads deeper into the 'Sanctuary'...",
@@ -234172,12 +249019,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100021] = {
-		mine_id = 2001,
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -234191,18 +249038,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 2100020,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 15,
+		map = 2100020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -234219,7 +249067,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Belfast's unit has encountered a new type of Siren on their way back from a convoy mission. Evade the pursuing enemy and seize victory!",
@@ -234663,12 +249511,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100022] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -234682,18 +249530,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100021,
+		formation = 2100020,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 2100020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -234710,7 +249559,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An emergency message has come in, informing us that the second convoy has been attacked by Iron Blood planes. Belfast's unit now finds itself being hunted.",
@@ -235216,12 +250065,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100023] = {
-		mine_id = 2001,
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -235235,18 +250084,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100022,
+		formation = 2100020,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 2100020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -235263,7 +250113,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Belfast went after Scharnhorst on her own. The hunted has now become the hunter. Both of their fates will be decided by a single blow.",
@@ -235859,12 +250709,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100024] = {
-		mine_id = 2001,
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -235878,18 +250728,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100023,
+		formation = 2100021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -235906,7 +250757,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100021,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new Siren model has appeared out of nowhere, armed with a superweapon. Repel the enemy and organize a counterattack!",
@@ -236525,12 +251376,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100025] = {
-		mine_id = 2001,
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -236544,18 +251395,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100024,
+		formation = 2100021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -236572,7 +251424,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100021,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The strange fog generated by the Siren's superweapon has cleared. Continue with Operation Tungsten and take down Tirpitz!",
@@ -237209,12 +252061,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100026] = {
-		mine_id = 2001,
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -237228,18 +252080,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100025,
+		formation = 2100021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -237256,7 +252109,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100021,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A mysterious aircraft carrier was sighted, but she managed to escape. For the glory of the Royal Family, take down the Siren causing havoc in the Northern Sea!",
@@ -238068,12 +252921,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100031] = {
-		mine_id = 2001,
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -238087,18 +252940,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 2100030,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 20,
+		map = 2100030,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -238115,7 +252969,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100030,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Belfast's unit has encountered a new type of Siren on their way back from a convoy mission. Evade the pursuing enemy and seize victory!",
@@ -238600,12 +253454,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100032] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -238619,18 +253473,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100031,
+		formation = 2100030,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 2100030,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -238647,7 +253502,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100030,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "An emergency message has come in, informing us that the second convoy has been attacked by Iron Blood planes. Belfast's unit now finds itself being hunted.",
@@ -239194,12 +254049,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100033] = {
-		mine_id = 2001,
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -239213,18 +254068,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100032,
+		formation = 2100030,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100030,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -239241,7 +254097,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100030,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Belfast went after Scharnhorst on her own. The hunted has now become the hunter. Both of their fates will be decided by a single blow.",
@@ -239878,12 +254734,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100034] = {
-		mine_id = 2001,
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -239897,18 +254753,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100033,
+		formation = 2100031,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100031,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -239925,7 +254782,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100031,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new Siren model has appeared out of nowhere, armed with a superweapon. Repel the enemy and organize a counterattack!",
@@ -240585,12 +255442,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100035] = {
-		mine_id = 2001,
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -240604,18 +255461,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100034,
+		formation = 2100031,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100031,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -240632,7 +255490,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100031,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The strange fog generated by the Siren's superweapon has cleared. Continue with Operation Tungsten and take down Tirpitz!",
@@ -241310,12 +256168,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100036] = {
-		mine_id = 2001,
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -241329,18 +256187,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100035,
+		formation = 2100031,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 2100031,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -241357,7 +256216,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100031,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A mysterious aircraft carrier was sighted, but she managed to escape. For the glory of the Royal Family, take down the Siren causing havoc in the Northern Sea!",
@@ -242210,12 +257069,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100061] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -242229,18 +257088,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 2100060,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 15,
+		map = 2100060,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -242258,7 +257118,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100060,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A mysterious signal has lead to a ruined Siren base... Could there be any intel left?",
@@ -242793,12 +257653,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100062] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -242812,18 +257672,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100061,
+		formation = 2100060,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 12,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 2100060,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -242841,7 +257702,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100060,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The special task force has been detected, unknown Siren-class models are approaching. Alert combat status!",
@@ -243434,12 +258295,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100063] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -243453,18 +258314,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100062,
+		formation = 2100060,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 13,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 2100060,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -243482,7 +258344,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100060,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Non-stop enemy attacks cloud the truth behind this mysterious signal... Who exactly has led us here?",
@@ -244166,12 +259028,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100064] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -244185,18 +259047,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100063,
+		formation = 2100061,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100061,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -244214,7 +259077,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100061,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new encrypted message has been received. Regardless if this is a trap or not, it's the only lead we have so far...",
@@ -244836,12 +259699,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100065] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -244855,18 +259718,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100064,
+		formation = 2100061,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100061,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -244884,7 +259748,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100061,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The giant enemy ship is unexpectedly tough. However, with our unstoppable momentum, nothing stands a chance against us. Fight till the end!",
@@ -245647,12 +260511,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100066] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -245666,18 +260530,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100065,
+		formation = 2100061,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100061,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -245695,7 +260560,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100061,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The closer we get to the source of the signal, the more Sirens we encounter... We shall find out what exactly they are guarding.",
@@ -246637,12 +261502,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100071] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -246656,18 +261521,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 2100070,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 2100070,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -246685,7 +261551,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100070,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A mysterious signal has lead to a ruined Siren base... Could there be any intel left?",
@@ -247261,12 +262127,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100072] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -247280,18 +262146,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100071,
+		formation = 2100070,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 25,
+		map = 2100070,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -247309,7 +262176,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100070,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The special task force has been detected, unknown Siren-class models are approaching. Alert combat status!",
@@ -247943,12 +262810,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100073] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -247962,18 +262829,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100072,
+		formation = 2100070,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 30,
+		map = 2100070,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -247991,7 +262859,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100070,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Non-stop enemy attacks cloud the truth behind this mysterious signal... Who exactly has led us here?",
@@ -248716,12 +263584,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100074] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -248735,18 +263603,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100073,
+		formation = 2100071,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 17,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100071,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -248764,7 +263633,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100071,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "A new encrypted message has been received. Regardless if this is a trap or not, it's the only lead we have so far...",
@@ -249427,12 +264296,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100075] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -249446,18 +264315,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100074,
+		formation = 2100071,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 35,
+		map = 2100071,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -249475,7 +264345,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100071,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The giant enemy ship is unexpectedly tough. However, with our unstoppable momentum, nothing stands a chance against us. Fight till the end!",
@@ -250279,12 +265149,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100076] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -250298,18 +265168,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2100075,
+		formation = 2100071,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 19,
+		ammo_submarine = 0,
 		is_ai = 1,
-		group_num = 2,
 		num_2 = 40,
+		map = 2100071,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -250327,7 +265198,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100071,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The closer we get to the source of the signal, the more Sirens we encounter... We shall find out what exactly they are guarding.",
@@ -251310,12 +266181,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200001] = {
-		mine_id = 2001,
 		pos_x = "0.35625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -251329,18 +266200,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 2200000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43125",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 5,
+		map = 2200000,
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
@@ -251357,7 +266229,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2200000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "The Sakura are assembling their fleet near the Malay Sea. Protect to 'Z' fleet. Let's head out now!",
@@ -251718,12 +266590,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200002] = {
-		mine_id = 2001,
 		pos_x = "0.58203125",
 		num_3 = 1,
 		progress_boss = 42,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -251737,18 +266609,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2200001,
+		formation = 2200000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.294791667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 2200000,
 		land_based = "",
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -251766,7 +266639,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2200000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Prince of Wales' and Repulse's anti-air defenses are far weaker than the Sakura's dive bombers.",
@@ -252201,12 +267074,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200003] = {
-		mine_id = 2001,
 		pos_x = "0.44921875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
@@ -252220,18 +267093,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2200002,
+		formation = 2200000,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 2200000,
 		land_based = "",
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -252249,7 +267123,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2200000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Repulse and Prince of Wales were both hit by multiple waves of torpedoes. Protect them!",
@@ -252714,12 +267588,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200011] = {
-		mine_id = 2001,
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -252733,18 +267607,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 0,
+		formation = 2200010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 2200010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -252762,7 +267637,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2200010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Just before sinking, a group of merchant ships sent us a lead on Graf Spee's location via telegram. Pursue the enemy that's threatening these trade routes!",
@@ -253296,12 +268171,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200012] = {
-		mine_id = 2001,
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -253315,18 +268190,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2200011,
+		formation = 2200010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 2200010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -253344,7 +268220,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2200010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "We've discovered Graf Spee! Prepare for battle! We're not letting her get away this time!",
@@ -253977,12 +268853,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200013] = {
-		mine_id = 2001,
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -253996,18 +268872,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 2200012,
+		formation = 2200010,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 2200010,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -254025,7 +268902,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2200010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Exeter had to retreat from the front due to her injuries, but our target has grown weak too. The final battle with Graf Spee draws close.",
@@ -254716,12 +269593,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920001] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -254735,18 +269612,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 9920001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 9920001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -254764,7 +269642,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 9920001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Reset all tactical modules, Player \"WHITE\" has entered the board, begin deployment of \"BLACK\" <Minor pieces>, behavior synchronicity: 98.3%",
@@ -255268,12 +270146,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920002] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -255287,18 +270165,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920001,
+		formation = 9920001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 9920001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -255316,7 +270195,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 9920001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has sacrificed a pawn, earning a small <Development> advantage, behavior synchronicity: 97.1%",
@@ -255960,12 +270839,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920003] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -255979,18 +270858,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920002,
+		formation = 9920001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 9920001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -256008,7 +270888,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 9920001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has gained <Initiative> for the time being, \"BLACK\" begin <Counterplay>, behavior synchronicity: 84.3%",
@@ -256619,12 +271499,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920004] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -256638,18 +271518,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920003,
+		formation = 9920001,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 9920001,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -256667,7 +271548,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 9920001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has gained <Promotion>, \"BLACK\" executes Action: <Skewer>, behavior synchronicity: 57.9%",
@@ -257396,12 +272277,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920005] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -257415,18 +272296,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920004,
+		formation = 9920002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 9920002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -257444,7 +272326,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 9920002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Test is reset, uNknOwN. Quarantine Mechanism is activated. All <Piece> back to the mix, behavior synchronicity: 0% ",
@@ -257968,12 +272850,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920006] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -257987,18 +272869,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920005,
+		formation = 9920002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 9920002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -258016,7 +272899,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 9920002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" checks \"BLACK,\" defending against <Skewer> and regaining <Initiative>, behavior synchronicity: None",
@@ -258548,12 +273431,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920007] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -258567,18 +273450,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920006,
+		formation = 9920002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 20,
+		map = 9920002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -258596,7 +273480,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 9920002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>WARNING: Experiment has encountered a BUG, Multiple \"BLACK\" <Piece> exhibit signs of sentience, recommendation: emergency DEBUG protocol",
@@ -259183,12 +274067,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920008] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -259202,18 +274086,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920007,
+		formation = 9920002,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 25,
+		map = 9920002,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -259231,7 +274116,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 9920002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Logging interrupted>>>Abnormal data detected>>>Log overwritten <<SysLog.Id257>>Reset all tactical modules, Player \"WHITE\" has entered the board on time",
@@ -259974,12 +274859,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920011] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -259993,18 +274878,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 201,
+		formation = 9920011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 9920011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -260022,7 +274908,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9920011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Reset all tactical modules, Player \"WHITE\" has entered the board, begin deployment of \"BLACK\" <Minor pieces>, behavior synchronicity: 98.3%",
@@ -260567,12 +275453,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920012] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -260586,18 +275472,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920011,
+		formation = 9920011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 9920011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -260615,7 +275502,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9920011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has sacrificed a pawn, earning a small <Development> advantage, behavior synchronicity: 97.1%",
@@ -261302,12 +276189,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920013] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -261321,18 +276208,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920012,
+		formation = 9920011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 9920011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -261350,7 +276238,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9920011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has gained <Initiative> for the time being, \"BLACK\" begin <Counterplay>, behavior synchronicity: 84.3%",
@@ -262002,12 +276890,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920014] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -262021,18 +276909,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920013,
+		formation = 9920011,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 9920011,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -262050,7 +276939,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9920011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" has gained <Promotion>, \"BLACK\" executes Action: <Skewer>, behavior synchronicity: 57.9%",
@@ -262820,12 +277709,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920015] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -262839,18 +277728,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920014,
+		formation = 9920012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 9920012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -262868,7 +277758,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9920012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Test is reset, uNknOwN. Quarantine Mechanism is activated. All <Piece> back to the mix, behavior synchronicity: 0% ",
@@ -263433,12 +278323,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920016] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -263452,18 +278342,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920015,
+		formation = 9920012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 9920012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -263481,7 +278372,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9920012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>\"WHITE\" checks \"BLACK,\" defending against <Skewer> and regaining <Initiative>, behavior synchronicity: None",
@@ -264054,12 +278945,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920017] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -264073,18 +278964,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920016,
+		formation = 9920012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 30,
+		map = 9920012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -264102,7 +278994,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9920012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>WARNING: Experiment has encountered a BUG, Multiple \"BLACK\" <Piece> exhibit signs of sentience, recommendation: emergency DEBUG protocol",
@@ -264730,12 +279622,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920018] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -264749,18 +279641,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920017,
+		formation = 9920012,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 2,
 		num_2 = 35,
+		map = 9920012,
 		land_based = "",
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -264778,7 +279671,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9920012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>Logging interrupted>>>Abnormal data detected>>>Log overwritten <<SysLog.Id257>>Reset all tactical modules, Player \"WHITE\" has entered the board on time",
@@ -265562,12 +280455,12 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[9920021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -265581,18 +280474,19 @@ pg.chapter_template = {
 		bg = "",
 		bgm = "",
 		pre_chapter = 9920017,
+		formation = 9920021,
 		chapter_tag = 0,
 		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		wall_prefab = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		ammo_submarine = 0,
 		is_ai = 0,
-		group_num = 1,
 		num_2 = 4,
+		map = 9920021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -265609,7 +280503,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 9920021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Undefined>>\"To the challenger who has broken samsara, surpassed limits, and reached the final <Ending>, wager the proof of your existence and await my final death <Game>\" ",
@@ -266339,6 +281233,24 @@ pg.chapter_template = {
 		1400016,
 		1400017,
 		1400021,
+		1410001,
+		1410002,
+		1410003,
+		1410004,
+		1410005,
+		1410006,
+		1410007,
+		1410008,
+		1410021,
+		1410022,
+		1410023,
+		1410024,
+		1410025,
+		1410026,
+		1410027,
+		1410028,
+		1410041,
+		1410051,
 		2100001,
 		2100002,
 		2100003,

@@ -69,8 +69,12 @@ pg.enemy_data_by_type = {
 		type = 17
 	},
 	{
-		type_name = "超巡",
+		type_name = "Large Cruiser ",
 		type = 18
+	},
+	{
+		type_name = "Munition Ship ",
+		type = 19
 	},
 	all = {
 		1,
@@ -90,6 +94,7 @@ pg.enemy_data_by_type = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

@@ -386,6 +386,17 @@ function slot0.ExistDifferentExWord(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
+function slot0.ExistDifferentMainExWord(slot0, slot1, slot2, slot3)
+	if slot0 == uv0(slot0) then
+		return false
+	end
+
+	slot5, slot6, slot7 = uv1.GetWordAndCV(slot0, slot1, slot2, nil, slot3)
+	slot8, slot9, slot10 = uv1.GetWordAndCV(slot4, slot1, slot2, nil, slot3)
+
+	return not uv2(slot7) and slot7 ~= slot10
+end
+
 function slot0.ExistExCv(slot0, slot1, slot2, slot3)
 	slot4, slot5 = uv0(slot0, slot1, {
 		slot2

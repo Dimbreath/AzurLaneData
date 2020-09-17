@@ -22509,6 +22509,136 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[7122] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7122,
+		type = 4,
+		name = "周常特装原型I",
+		count_inherit = 0,
+		desc = "Complete 20 Daily Missions (Excluding Event Missions)",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7122,
+		target_num = 20,
+		fix_task = 0,
+		target_id = {
+			7001,
+			7002,
+			7003,
+			7004,
+			7005,
+			7006,
+			7007,
+			7008,
+			7009,
+			7010,
+			7011,
+			7012,
+			7013,
+			7014,
+			7015,
+			7016,
+			7017,
+			7018,
+			7019,
+			7020,
+			7021,
+			7022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			},
+			{
+				1,
+				2,
+				50
+			},
+			{
+				1,
+				1,
+				200
+			}
+		}
+	},
+	[7123] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7123,
+		type = 4,
+		name = "周常特装原型II",
+		count_inherit = 0,
+		desc = "Complete 50 Daily Missions (Excluding Event Missions)",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7123,
+		target_num = 50,
+		fix_task = 0,
+		target_id = {
+			7001,
+			7002,
+			7003,
+			7004,
+			7005,
+			7006,
+			7007,
+			7008,
+			7009,
+			7010,
+			7011,
+			7012,
+			7013,
+			7014,
+			7015,
+			7016,
+			7017,
+			7018,
+			7019,
+			7020,
+			7021,
+			7022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				300
+			},
+			{
+				1,
+				2,
+				100
+			},
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
 	[10000] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -90566,6 +90696,2338 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15942] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93686,
+		type = 6,
+		name = "『信浓活动』角色收集：信浓",
+		count_inherit = 0,
+		desc = "Obtain the aircraft carrier Shinano.",
+		target_id_2 = "",
+		sub_type = 1014,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15942,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			30708
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				800
+			}
+		}
+	},
+	[15943] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93687,
+		type = 6,
+		name = "『信浓活动』角色收集：纪伊",
+		count_inherit = 0,
+		desc = "Fully Limit Break Kii.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 305124,
+		id = 15943,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "305124",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				600
+			}
+		}
+	},
+	[15944] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93688,
+		type = 6,
+		name = "『信浓活动』角色收集：凉月",
+		count_inherit = 0,
+		desc = "Fully Limit Break Suzutsuki.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 301844,
+		id = 15944,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301844",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				600
+			}
+		}
+	},
+	[15945] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93689,
+		type = 6,
+		name = "『信浓活动』角色收集：樫野",
+		count_inherit = 0,
+		desc = "Fully Limit Break Kashino.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 319014,
+		id = 15945,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "319014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				400
+			}
+		}
+	},
+	[15946] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93690,
+		type = 6,
+		name = "『信浓活动』角色收集：熊野",
+		count_inherit = 0,
+		desc = "Fully Limit Break Kumano.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 303184,
+		id = 15946,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "303184",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				400
+			}
+		}
+	},
+	[15947] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93691,
+		type = 6,
+		name = "『信浓活动』角色收集：千岁",
+		count_inherit = 0,
+		desc = "Fully Limit Break Chitose.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 306084,
+		id = 15947,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "306084",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				400
+			}
+		}
+	},
+	[15948] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93692,
+		type = 6,
+		name = "『信浓活动』角色收集：千代田",
+		count_inherit = 0,
+		desc = "Fully Limit Break Chiyoda.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 306094,
+		id = 15948,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "306094",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				400
+			}
+		}
+	},
+	[15949] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93693,
+		type = 6,
+		name = "『信浓活动』角色刷关：拉菲",
+		count_inherit = 0,
+		desc = "Defeat the boss of T2 or HT2 10 times with Laffey at max Limit Break. Laffey must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15949,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1440113,
+			1442113
+		},
+		target_id_2 = {
+			101174
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15950] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93694,
+		type = 6,
+		name = "『信浓活动』角色刷关：神通",
+		count_inherit = 0,
+		desc = "Defeat the boss of T3 or HT3 10 times with Jintsuu at max Limit Break. Jintsuu must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15950,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1440213,
+			1442213
+		},
+		target_id_2 = {
+			302134
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15951] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93695,
+		type = 6,
+		name = "『信浓活动』角色刷关：雪风",
+		count_inherit = 0,
+		desc = "Defeat the boss of T5 or HT5 10 times with Yukikaze at max Limit Break. Yukikaze must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15951,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1441113,
+			1443113
+		},
+		target_id_2 = {
+			301164
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15952] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93696,
+		type = 6,
+		name = "『信浓活动』角色刷关：高雄",
+		count_inherit = 0,
+		desc = "Defeat the boss of T6 or HT6 10 times with Takao at max Limit Break. Takao must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15952,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1441213,
+			1443213
+		},
+		target_id_2 = {
+			303114
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59180,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15953] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93851,
+		type = 26,
+		name = "一次性UR布里任务1造船",
+		count_inherit = 0,
+		desc = "Build 30 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15953,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				200
+			}
+		}
+	},
+	[15954] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93851,
+		type = 26,
+		name = "一次性UR布里任务2猫箱",
+		count_inherit = 0,
+		desc = "Train 10 Meowfficers.",
+		target_id_2 = "",
+		sub_type = 170,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15954,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				200
+			}
+		}
+	},
+	[15955] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务3演习",
+		count_inherit = 0,
+		desc = "Win 35 Exercises.",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15955,
+		target_num = 35,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15956] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务4委托",
+		count_inherit = 0,
+		desc = "Complete 30 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15956,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15957] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务5科研",
+		count_inherit = 0,
+		desc = "Conduct Research 10 times.",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15957,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15958] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务6商船",
+		count_inherit = 0,
+		desc = "Clear the Escort Mission Daily 9 times.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15958,
+		target_num = 9,
+		fix_task = 0,
+		target_id = {
+			2000,
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15959] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务8海域",
+		count_inherit = 0,
+		desc = "Clear the Advance Mission Daily 9 times.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15959,
+		target_num = 9,
+		fix_task = 0,
+		target_id = {
+			3000,
+			3001,
+			3002,
+			3003,
+			3004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15960] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务9斩首",
+		count_inherit = 0,
+		desc = "Clear the Fierce Assault Daily 9 times.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15960,
+		target_num = 9,
+		fix_task = 0,
+		target_id = {
+			4000,
+			4001,
+			4002,
+			4003,
+			4004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15961] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务7困难",
+		count_inherit = 0,
+		desc = "Clear 9 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15961,
+		target_num = 9,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15962] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93851,
+		type = 26,
+		name = "一次性UR布里任务10主线6-4",
+		count_inherit = 0,
+		desc = "Clear 6-4.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 604,
+		id = 15962,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "604",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				200
+			}
+		}
+	},
+	[15963] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务11船等级驱逐",
+		count_inherit = 0,
+		desc = "Get any DD to Level 90.",
+		target_id_2 = "90",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15963,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15964] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务12船等级巡洋",
+		count_inherit = 0,
+		desc = "Get any CA or CL to Level 90.",
+		target_id_2 = "90",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15964,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			2,
+			3,
+			18
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15965] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务11船等级航母",
+		count_inherit = 0,
+		desc = "Get any CV or CVL to Level 90.",
+		target_id_2 = "90",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15965,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			7,
+			8
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15966] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93850,
+		type = 26,
+		name = "一次性UR布里任务12船等级战列",
+		count_inherit = 0,
+		desc = "Get any BB or BC to Level 90.",
+		target_id_2 = "90",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15966,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			4,
+			5
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				100
+			}
+		}
+	},
+	[15967] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93852,
+		type = 26,
+		name = "一次性UR布里任务13布里出击",
+		count_inherit = 0,
+		desc = "Win 1 battle with a Universal Bulin or Prototype Bulin MKII in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15967,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10001,
+			10000
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59010,
+				300
+			}
+		}
+	},
+	[15968] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93853,
+		type = 26,
+		name = "一次性UR布里任务14总任务",
+		count_inherit = 0,
+		desc = "Complete all previous missions.",
+		target_id_2 = "",
+		sub_type = 90,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15968,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			15953,
+			15954,
+			15955,
+			15956,
+			15957,
+			15958,
+			15959,
+			15960,
+			15961,
+			15962,
+			15963,
+			15964,
+			15965,
+			15966,
+			15967,
+			15968
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100021,
+				1
+			}
+		}
+	},
+	[15969] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93854,
+		type = 36,
+		name = "『信浓活动』-日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15969,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59182,
+				300
+			}
+		}
+	},
+	[15970] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93855,
+		type = 36,
+		name = "『信浓活动』-日常出击",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15970,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59182,
+				300
+			}
+		}
+	},
+	[15971] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93856,
+		type = 36,
+		name = "『信浓活动』-日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15971,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59182,
+				150
+			}
+		}
+	},
+	[15972] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93857,
+		type = 6,
+		name = "『信浓活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear T1 or HT1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15973",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15972,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410001,
+			1410021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59182,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15973] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93858,
+		type = 6,
+		name = "『信浓活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear T2 or HT2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15974",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15973,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410002,
+			1410022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59182,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15974] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93859,
+		type = 6,
+		name = "『信浓活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear T3 or HT3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15975",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15974,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410003,
+			1410023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59182,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15975] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93860,
+		type = 6,
+		name = "『信浓活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear T4 or HT4.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15976",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15975,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410004,
+			1410024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59182,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15976] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93861,
+		type = 6,
+		name = "『信浓活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear T5 or HT5.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15977",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15976,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410005,
+			1410025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59182,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15977] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93862,
+		type = 6,
+		name = "『信浓活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear T6 or HT6.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15978",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15977,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410006,
+			1410026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59182,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15978] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93863,
+		type = 6,
+		name = "『信浓活动』通关SP",
+		count_inherit = 0,
+		desc = "Clear SP.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1410041,
+		id = 15978,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1410041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15979] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93864,
+		type = 6,
+		name = "『信浓活动』通关D3",
+		count_inherit = 0,
+		desc = "Clear HT6.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1410026,
+		id = 15979,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1410026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				183,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15980] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93865,
+		type = 6,
+		name = "『信浓活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete T1 or HT1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15981",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15980,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410001,
+			1410021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15981] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93866,
+		type = 6,
+		name = "『信浓活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete T2 or HT2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15982",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15981,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410002,
+			1410022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15982] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93867,
+		type = 6,
+		name = "『信浓活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete T3 or HT3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15983",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15982,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410003,
+			1410023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15983] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93868,
+		type = 6,
+		name = "『信浓活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete T4 or HT4 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15984",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15983,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410004,
+			1410024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15984] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93869,
+		type = 6,
+		name = "『信浓活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete T5 or HT5 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15985",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15984,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410005,
+			1410025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15985] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93870,
+		type = 6,
+		name = "『信浓活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete T6 or HT6 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15985,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1410006,
+			1410026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16042] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93781,
+		type = 26,
+		name = "日服三周年后山活动1",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16042,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54013,
+				5
+			},
+			{
+				8,
+				59177,
+				15
+			},
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16043] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93782,
+		type = 26,
+		name = "日服三周年后山活动2",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16043,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			},
+			{
+				8,
+				59177,
+				15
+			},
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16044] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93783,
+		type = 26,
+		name = "日服三周年后山活动3",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16044,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50005,
+				3
+			},
+			{
+				8,
+				59177,
+				15
+			},
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16045] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93784,
+		type = 26,
+		name = "日服三周年后山活动4",
+		count_inherit = 0,
+		desc = "Defeat 20 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16045,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				2
+			},
+			{
+				8,
+				59177,
+				15
+			},
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16046] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93785,
+		type = 26,
+		name = "日服三周年后山活动5",
+		count_inherit = 0,
+		desc = "Build 2 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16046,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			},
+			{
+				8,
+				59177,
+				15
+			},
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16047] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93786,
+		type = 26,
+		name = "日服三周年后山活动6",
+		count_inherit = 0,
+		desc = "Complete 2 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16047,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54024,
+				2
+			},
+			{
+				8,
+				59177,
+				15
+			},
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16048] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93787,
+		type = 26,
+		name = "日服三周年后山活动7",
+		count_inherit = 0,
+		desc = "Enhance gear 2 times.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16048,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50006,
+				3
+			},
+			{
+				8,
+				59177,
+				10
+			},
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16049] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93788,
+		type = 26,
+		name = "日服三周年翻格子活动1",
+		count_inherit = 0,
+		desc = "Log in to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16049,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16050] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93789,
+		type = 26,
+		name = "日服三周年翻格子活动2",
+		count_inherit = 0,
+		desc = "Retire 2 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16050,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16051] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93790,
+		type = 26,
+		name = "日服三周年翻格子活动3",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with Snacks 5 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16051,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16052] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93791,
+		type = 26,
+		name = "日服三周年翻格子活动4",
+		count_inherit = 0,
+		desc = "Open 1 Tech Box.",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16052,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16053] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93792,
+		type = 26,
+		name = "日服三周年翻格子活动5",
+		count_inherit = 0,
+		desc = "Conduct 2 Exercises.",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16053,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16054] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93793,
+		type = 26,
+		name = "日服三周年翻格子活动6",
+		count_inherit = 0,
+		desc = "Enhance ships 5 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16054,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16055] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93794,
+		type = 26,
+		name = "日服三周年翻格子活动7",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16055,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59179,
+				10
+			}
+		}
+	},
+	[16056] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93809,
+		type = 6,
+		name = "『信浓活动』917登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Log in to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16056,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				170,
+				2
+			}
+		}
+	},
+	[16057] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93809,
+		type = 6,
+		name = "『信浓活动』924登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Log in to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16057,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				170,
+				2
+			}
+		}
+	},
+	[16058] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93849,
+		type = 6,
+		name = "917通关任意等级破交作战送反潜装备（永久）",
+		count_inherit = 0,
+		desc = "Clear the Supply Line Disruption Daily.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16058,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1000,
+			1001,
+			1002,
+			1003,
+			1004
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				25800,
+				1
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -102908,6 +105370,8 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		7119,
 		7120,
 		7121,
+		7122,
+		7123,
 		10000,
 		10001,
 		10002,
@@ -104760,6 +107224,67 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		15828,
 		15829,
 		15830,
+		15942,
+		15943,
+		15944,
+		15945,
+		15946,
+		15947,
+		15948,
+		15949,
+		15950,
+		15951,
+		15952,
+		15953,
+		15954,
+		15955,
+		15956,
+		15957,
+		15958,
+		15959,
+		15960,
+		15961,
+		15962,
+		15963,
+		15964,
+		15965,
+		15966,
+		15967,
+		15968,
+		15969,
+		15970,
+		15971,
+		15972,
+		15973,
+		15974,
+		15975,
+		15976,
+		15977,
+		15978,
+		15979,
+		15980,
+		15981,
+		15982,
+		15983,
+		15984,
+		15985,
+		16042,
+		16043,
+		16044,
+		16045,
+		16046,
+		16047,
+		16048,
+		16049,
+		16050,
+		16051,
+		16052,
+		16053,
+		16054,
+		16055,
+		16056,
+		16057,
+		16058,
 		31013,
 		31014,
 		31015,

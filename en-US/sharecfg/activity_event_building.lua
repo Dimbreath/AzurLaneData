@@ -60,10 +60,74 @@ pg.activity_event_building = {
 			15
 		}
 	},
+	{
+		name = "Manjuu Bookstore",
+		material_id = 59177,
+		id = 5,
+		desc = "My friend asked me to pick something up! S-seriously, I'm not into this kind of literature...",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "Manjuu Arcade Hall",
+		material_id = 59177,
+		id = 6,
+		desc = "Wow, what a spectacular array of games they have this month... This ghost's wallet isn't going to survive...",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "Manjuu Capsule Shop",
+		material_id = 59177,
+		id = 7,
+		desc = "No longer shall the gacha gods deny me!!!",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "Juju Café",
+		material_id = 59177,
+		id = 8,
+		desc = "Slightly rebranded, same delicious flavors.",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		5,
+		6,
+		7,
+		8
 	}
 }

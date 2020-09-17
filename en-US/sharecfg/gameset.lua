@@ -176,6 +176,10 @@ pg.gameset = {
 		description = "",
 		key_value = 100011
 	},
+	test_ship_config_3 = {
+		description = "",
+		key_value = 100021
+	},
 	buy_oil_limit = {
 		description = "",
 		key_value = 16
@@ -334,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 166
+		key_value = 171
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -663,7 +667,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 167
+		key_value = 170
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -720,6 +724,13 @@ pg.gameset = {
 				20101,
 				10000
 			}
+		}
+	},
+	urpt_chapter_max = {
+		key_value = 0,
+		description = {
+			59010,
+			4000
 		}
 	}
 }

@@ -593,7 +593,7 @@ end
 
 function slot0.updateLive2DBtn(slot0, slot1, slot2)
 	slot3 = slot2:Find("state")
-	slot4 = "live2d/" .. string.lower(slot1:getPainting())
+	slot4 = HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1:getPainting()))
 
 	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot6 == DownloadState.CheckFailure then
 		slot5:CheckD()

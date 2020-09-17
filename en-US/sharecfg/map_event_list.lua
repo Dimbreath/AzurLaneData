@@ -814,6 +814,168 @@ pg.map_event_list = {
 			"helpbg/battle_yingxiv2"
 		}
 	},
+	[1410002] = {
+		help_open = 1,
+		chapter_id = 1410002,
+		event_list = {
+			381,
+			382
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[1410003] = {
+		help_open = 0,
+		chapter_id = 1410003,
+		event_list = {
+			383,
+			384,
+			385,
+			386
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[1410004] = {
+		help_open = 0,
+		chapter_id = 1410004,
+		event_list = {
+			387,
+			388,
+			389,
+			390,
+			391,
+			392
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[1410005] = {
+		help_open = 0,
+		chapter_id = 1410005,
+		event_list = {
+			393,
+			394,
+			395,
+			396
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[1410008] = {
+		help_open = 0,
+		chapter_id = 1410008,
+		event_list = {
+			375,
+			376,
+			377,
+			378,
+			379,
+			380,
+			405
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1410022] = {
+		help_open = 1,
+		chapter_id = 1410022,
+		event_list = {
+			381,
+			382
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[1410023] = {
+		help_open = 0,
+		chapter_id = 1410023,
+		event_list = {
+			383,
+			384,
+			385,
+			386
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[1410024] = {
+		help_open = 0,
+		chapter_id = 1410024,
+		event_list = {
+			387,
+			388,
+			389,
+			390,
+			391,
+			392
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[1410025] = {
+		help_open = 0,
+		chapter_id = 1410025,
+		event_list = {
+			393,
+			394,
+			395,
+			396
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[1410028] = {
+		help_open = 0,
+		chapter_id = 1410028,
+		event_list = {
+			375,
+			376,
+			377,
+			378,
+			379,
+			380,
+			405
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1410041] = {
+		help_open = 0,
+		chapter_id = 1410041,
+		event_list = {
+			397,
+			398,
+			399,
+			400,
+			401,
+			402,
+			403,
+			404,
+			406,
+			407
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
 	all = {
 		1220001,
 		1220002,
@@ -854,6 +1016,17 @@ pg.map_event_list = {
 		1380023,
 		1380024,
 		1380025,
-		1380026
+		1380026,
+		1410002,
+		1410003,
+		1410004,
+		1410005,
+		1410008,
+		1410022,
+		1410023,
+		1410024,
+		1410025,
+		1410028,
+		1410041
 	}
 }

@@ -1,4 +1,7 @@
 slot1 = YongshiSdkMgr.inst
+slot2 = "com.hkmanjuu.azurlane.gp.mc"
+slot3 = "com.hkmanjuu.azurlane.gp"
+slot4 = "com.hkmanjuu.azurlane.ios1"
 
 function StartSdkLogin()
 	Timer.New(function ()
@@ -137,5 +140,14 @@ return {
 	end,
 	GetIsPlatform = function ()
 		return uv0.isPlatform
+	end,
+	GetPackageCode = function (slot0)
+		if slot0 == uv0 then
+			return "2"
+		elseif slot0 == uv1 then
+			return "1"
+		elseif slot0 == uv2 then
+			return "3"
+		end
 	end
 }

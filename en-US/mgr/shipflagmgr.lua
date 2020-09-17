@@ -27,11 +27,10 @@ slot2 = {
 		slot0 = {
 			[slot6] = _.flatten(slot7)
 		}
+		slot2 = getProxy(ActivityProxy)
 
 		for slot6, slot7 in pairs(getProxy(ChapterProxy).mapEliteFleetCache) do
-			if uv0.expedition_data_by_map[slot6].on_activity == 0 or checkExist(getProxy(ActivityProxy):getActivityById(slot8), {
-				"isEnd"
-			}) == false then
+			if Map.StaticIsMapBindedActivityActive(slot6) and not Map.StaticIsMapRemaster(slot6) then
 				-- Nothing
 			end
 		end

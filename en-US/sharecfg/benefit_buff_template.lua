@@ -84,9 +84,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 3%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				1,
+				5,
 				1
 			}
 		}
@@ -101,9 +101,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 4%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				1,
+				5,
 				2
 			}
 		}
@@ -118,9 +118,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 5%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				1,
+				5,
 				3
 			}
 		}
@@ -135,9 +135,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 1%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				2,
+				6,
 				1
 			}
 		}
@@ -152,9 +152,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 2%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				2,
+				6,
 				2
 			}
 		}
@@ -169,9 +169,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 3%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				2,
+				6,
 				3
 			}
 		}
@@ -186,9 +186,9 @@ pg.benefit_buff_template = {
 		desc = "Reduces Tactical Class training time by 3%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				3,
+				7,
 				1
 			}
 		}
@@ -203,9 +203,9 @@ pg.benefit_buff_template = {
 		desc = "Reduces Tactical Class training time by 4%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				3,
+				7,
 				2
 			}
 		}
@@ -220,9 +220,9 @@ pg.benefit_buff_template = {
 		desc = "Reduces Tactical Class training time by 5%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				3,
+				7,
 				3
 			}
 		}
@@ -237,9 +237,9 @@ pg.benefit_buff_template = {
 		desc = "Increases EXP gained in the Dorm by 3%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				4,
+				8,
 				1
 			}
 		}
@@ -254,9 +254,9 @@ pg.benefit_buff_template = {
 		desc = "Increases EXP gained in the Dorm by 4%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				4,
+				8,
 				2
 			}
 		}
@@ -271,12 +271,22 @@ pg.benefit_buff_template = {
 		desc = "Increases EXP gained in the Dorm by 5%",
 		benefit_condition = {
 			"activity",
-			30412,
+			30707,
 			{
-				4,
+				8,
 				3
 			}
 		}
+	},
+	[25] = {
+		max_time = 0,
+		name = "Specialized Core Event Boost ",
+		icon = "Props/buff_urptup",
+		benefit_effect = "0",
+		id = 25,
+		benefit_condition = "",
+		benefit_type = "urpt_drop_up",
+		desc = "\"Dreamwaker's Butterfly\" Event Stages will drop twice the amount of Specialized Cores. "
 	},
 	all = {
 		1,
@@ -297,6 +307,7 @@ pg.benefit_buff_template = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

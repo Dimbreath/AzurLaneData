@@ -1,7 +1,7 @@
 slot0 = class("GalleryConst")
-slot0.Version = 1
-slot0.AutoScrollIndex = 1
-slot0.NewCount = 25
+slot0.Version = 2
+slot0.AutoScrollIndex = 26
+slot0.NewCount = 10
 slot0.OPEN_FULL_SCREEN_PIC_VIEW = "GelleryConst:OPEN_FULL_SCREEN_PIC_VIEW"
 slot0.CardStates = {
 	Unlockable = 2,

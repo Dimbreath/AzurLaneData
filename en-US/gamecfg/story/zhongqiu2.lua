@@ -166,7 +166,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Is this a bit like “Memorial Day” celebrated in my country?",
+			say = "Isn't this a bit like Memorial Day in the Eagle Union?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

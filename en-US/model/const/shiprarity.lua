@@ -28,7 +28,7 @@ function slot0.Rarity2HexColor(slot0)
 			"41D7FFFF",
 			"CC7BFFFF",
 			"FDC637FF",
-			"BD4000FF"
+			"ff5e39"
 		}
 	end
 

@@ -668,6 +668,10 @@ pg.skill_data_display = {
 		id = 8688,
 		name = "Bellowing Gusts of Fire"
 	},
+	[8691] = {
+		id = 8691,
+		name = "Adaptable Armor "
+	},
 	[8700] = {
 		id = 8700,
 		name = "Power Inhibition Release Ⅰ"
@@ -703,6 +707,22 @@ pg.skill_data_display = {
 	[8718] = {
 		id = 8718,
 		name = "All-Eclipsing Beam of Annihilation"
+	},
+	[8731] = {
+		id = 8731,
+		name = "Blessing of the Butterfly"
+	},
+	[8734] = {
+		id = 8734,
+		name = "Blessing of the Butterfly"
+	},
+	[8737] = {
+		id = 8737,
+		name = "Blessing of the Butterfly"
+	},
+	[8740] = {
+		id = 8740,
+		name = "Blessing of the Butterfly"
 	},
 	[9010] = {
 		id = 9010,
@@ -2902,11 +2922,11 @@ pg.skill_data_display = {
 	},
 	[13550] = {
 		id = 13550,
-		name = "微笑猎手"
+		name = "The Smiling Sawfish"
 	},
 	[13560] = {
 		id = 13560,
-		name = "狼群战术-U96"
+		name = "Wolf Pack Formation - U-96"
 	},
 	[13570] = {
 		id = 13570,
@@ -2915,6 +2935,122 @@ pg.skill_data_display = {
 	[13571] = {
 		id = 13571,
 		name = "AntiTorpedoField"
+	},
+	[13580] = {
+		id = 13580,
+		name = "Hope's Tempest"
+	},
+	[13581] = {
+		id = 13581,
+		name = "Hope's Tempest"
+	},
+	[13590] = {
+		id = 13590,
+		name = "Dreamwaker's Bow"
+	},
+	[13591] = {
+		id = 13591,
+		name = "Dreamwaker's Bow"
+	},
+	[13600] = {
+		id = 13600,
+		name = "Protector of the New Moon"
+	},
+	[13601] = {
+		id = 13601,
+		name = "Protector of the New Moon"
+	},
+	[13610] = {
+		id = 13610,
+		name = "Kii Fleet Strategy"
+	},
+	[13615] = {
+		id = 13615,
+		name = "Kii Fleet Strategy"
+	},
+	[13620] = {
+		id = 13620,
+		name = "Stalwart Advance"
+	},
+	[13630] = {
+		id = 13630,
+		name = "Suzutsuki, Breaking Through!"
+	},
+	[13640] = {
+		id = 13640,
+		name = "Suzutsuki, Causing Confusion!"
+	},
+	[13641] = {
+		id = 13641,
+		name = "Suzutsuki, Causing Confusion!"
+	},
+	[13642] = {
+		id = 13642,
+		name = "Suzutsuki, Causing Confusion!"
+	},
+	[13650] = {
+		id = 13650,
+		name = "Robust Ballasts"
+	},
+	[13651] = {
+		id = 13651,
+		name = "Robust Ballasts"
+	},
+	[13660] = {
+		id = 13660,
+		name = "Cargo Fire Precautions"
+	},
+	[13670] = {
+		id = 13670,
+		name = "Veil of Night"
+	},
+	[13671] = {
+		id = 13671,
+		name = "Veil of Night"
+	},
+	[13672] = {
+		id = 13672,
+		name = "Veil of Night"
+	},
+	[13680] = {
+		id = 13680,
+		name = "Strike Team, Attack!"
+	},
+	[13681] = {
+		id = 13681,
+		name = "Strike Team, Attack!"
+	},
+	[13685] = {
+		id = 13685,
+		name = "Strike Team, Attack!"
+	},
+	[13686] = {
+		id = 13686,
+		name = "Strike Team, Attack!"
+	},
+	[13690] = {
+		id = 13690,
+		name = "Chiyoda's Domain?"
+	},
+	[13691] = {
+		id = 13691,
+		name = "Chiyoda's Domain?"
+	},
+	[13695] = {
+		id = 13695,
+		name = "Chiyoda's Domain?"
+	},
+	[13696] = {
+		id = 13696,
+		name = "Chiyoda's Domain?"
+	},
+	[13700] = {
+		id = 13700,
+		name = "Dreambound Bow"
+	},
+	[13701] = {
+		id = 13701,
+		name = "Dreambound Bow"
 	},
 	[18010] = {
 		id = 18010,
@@ -4864,6 +5000,7 @@ pg.skill_data_display = {
 		8671,
 		8685,
 		8688,
+		8691,
 		8700,
 		8701,
 		8702,
@@ -4873,6 +5010,10 @@ pg.skill_data_display = {
 		8711,
 		8714,
 		8718,
+		8731,
+		8734,
+		8737,
+		8740,
 		9010,
 		9020,
 		9030,
@@ -5426,6 +5567,35 @@ pg.skill_data_display = {
 		13560,
 		13570,
 		13571,
+		13580,
+		13581,
+		13590,
+		13591,
+		13600,
+		13601,
+		13610,
+		13615,
+		13620,
+		13630,
+		13640,
+		13641,
+		13642,
+		13650,
+		13651,
+		13660,
+		13670,
+		13671,
+		13672,
+		13680,
+		13681,
+		13685,
+		13686,
+		13690,
+		13691,
+		13695,
+		13696,
+		13700,
+		13701,
 		18010,
 		18040,
 		18041,

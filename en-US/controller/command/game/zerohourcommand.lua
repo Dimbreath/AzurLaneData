@@ -47,6 +47,7 @@ function slot0.execute(slot0, slot1)
 		slot4:AddShamShop(slot4.shamShop)
 		slot4.fragmentShop:update(slot12.month, {})
 		slot4:AddFragmentShop(slot4.fragmentShop)
+		getProxy(BagProxy):ClearLimitCnt(pg.gameset.urpt_chapter_max.description[1])
 	end
 
 	for slot17, slot18 in ipairs(getProxy(ActivityProxy):getPanelActivities()) do
@@ -117,8 +118,6 @@ function slot0.execute(slot0, slot1)
 	slot20:setCourse(slot20.course)
 	slot0:sendNotification(GAME.CLASS_FORCE_UPDATE)
 	getProxy(TechnologyProxy):updateRefreshFlag(0)
-	PlayerPrefs.SetInt("stop_remind_operation", 0)
-	PlayerPrefs.Save()
 
 	slot22 = getProxy(TaskProxy)
 	slot23 = getProxy(ActivityProxy)

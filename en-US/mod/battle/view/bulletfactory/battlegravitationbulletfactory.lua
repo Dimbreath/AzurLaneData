@@ -22,30 +22,21 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 
 	uv1.Battle.PlayBattleSFX(slot7:GetTemplate().hit_sfx)
 
-	slot9 = slot7:GetDiveFilter()
 	slot11 = slot7:GetTemplate().extra_param.buff_id
 
 	uv0.GetDataProxy():SpawnLastingColumnArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot7:GetPosition():Clone()), slot5.range, slot5.time, function (slot0)
 		if uv0:CanDealDamage() then
 			for slot4, slot5 in ipairs(slot0) do
 				if slot5.Active then
-					slot7 = false
+					slot6 = uv1:GetSceneMediator():GetCharacter(slot5.UID):GetUnitData()
 
-					for slot12, slot13 in ipairs(uv2) do
-						if uv1:GetSceneMediator():GetCharacter(slot5.UID):GetUnitData():GetCurrentOxyState() == slot13 then
-							slot7 = true
-						end
-					end
+					slot6:AddBuff(uv2.Battle.BattleBuffUnit.New(uv3))
+					uv4:HandleDamage(uv0, slot6)
 
-					if not slot7 then
-						slot6:AddBuff(uv3.Battle.BattleBuffUnit.New(uv4))
-						uv5:HandleDamage(uv0, slot6)
-
-						if pg.Tool.FilterY(uv6 - slot6:GetPosition()).magnitude < 0.1 then
-							slot6:SetUncontrollableSpeed(slot10, 0.001, 1e-06)
-						else
-							slot6:SetUncontrollableSpeed(slot10, 0.1, 1e-07)
-						end
+					if pg.Tool.FilterY(uv5 - slot6:GetPosition()).magnitude < 0.1 then
+						slot6:SetUncontrollableSpeed(slot8, 0.001, 1e-06)
+					else
+						slot6:SetUncontrollableSpeed(slot8, 0.1, 1e-07)
 					end
 				end
 			end
@@ -81,7 +72,7 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 
 		pg.EffectMgr.GetInstance():PlayBattleEffect(slot2, slot3:Add(uv4), true)
 		uv3:RemoveBulletUnit(uv0:GetUniqueID())
-	end)
+	end):SetDiveFilter(slot7:GetDiveFilter())
 end
 
 function slot1.onBulletMissFunc(slot0)

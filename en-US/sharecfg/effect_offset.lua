@@ -1022,5 +1022,27 @@ pg.effect_offset = {
 			2.5,
 			-2.75
 		}
+	},
+	hudie_heise = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0.5,
+			0,
+			0
+		}
+	},
+	hudie_hongse = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0.5,
+			0,
+			0
+		}
 	}
 }

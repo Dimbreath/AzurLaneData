@@ -1622,7 +1622,7 @@ pg.commander_ability_template = {
 		name = "Loading Ace - Special",
 		group_id = 65,
 		worth = 1,
-		desc = "Your <color=#3dc6ff>BMs and ARs</color> gain 3 RLD.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 3 RLD.",
 		next = 652,
 		id = 651,
 		icon = "teshu_one_1",
@@ -1632,7 +1632,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				3
@@ -1645,6 +1646,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"ARs: RLD",
+				3
+			},
+			{
+				"AEs: RLD",
 				3
 			}
 		}
@@ -1654,7 +1659,7 @@ pg.commander_ability_template = {
 		name = "Loading Rookie - Special",
 		group_id = 65,
 		worth = 2,
-		desc = "Your <color=#3dc6ff>BMs and ARs</color> gain 4 RLD.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 4 RLD.",
 		next = 653,
 		id = 652,
 		icon = "teshu_one_2",
@@ -1664,7 +1669,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				4
@@ -1677,6 +1683,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"ARs: RLD",
+				4
+			},
+			{
+				"AEs: RLD",
 				4
 			}
 		}
@@ -1686,7 +1696,7 @@ pg.commander_ability_template = {
 		name = "Loading Adept - Special",
 		group_id = 65,
 		worth = 3,
-		desc = "Your <color=#3dc6ff>BMs and ARs</color> gain 6 RLD.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 6 RLD.",
 		next = 0,
 		id = 653,
 		icon = "teshu_one_3",
@@ -1696,7 +1706,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				6
@@ -1709,6 +1720,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"ARs: RLD",
+				6
+			},
+			{
+				"AEs: RLD",
 				6
 			}
 		}
@@ -2201,7 +2216,7 @@ pg.commander_ability_template = {
 		name = "Rookie Engineer - Special",
 		group_id = 75,
 		worth = 1,
-		desc = "Your <color=#3dc6ff>BMs and ARs</color> gain 40 HP.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 40 HP.",
 		next = 752,
 		id = 751,
 		icon = "teshu_naijiu_1",
@@ -2211,7 +2226,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				40
@@ -2224,6 +2240,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"ARs: HP",
+				40
+			},
+			{
+				"AEs: HP",
 				40
 			}
 		}
@@ -2233,7 +2253,7 @@ pg.commander_ability_template = {
 		name = "Adept Engineer - Special",
 		group_id = 75,
 		worth = 2,
-		desc = "Your <color=#3dc6ff>BMs and ARs</color> gain 56 HP.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 56 HP.",
 		next = 753,
 		id = 752,
 		icon = "teshu_naijiu_2",
@@ -2243,7 +2263,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				56
@@ -2256,6 +2277,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"ARs: HP",
+				56
+			},
+			{
+				"AEs: HP",
 				56
 			}
 		}
@@ -2265,7 +2290,7 @@ pg.commander_ability_template = {
 		name = "Ace Engineer - Special",
 		group_id = 75,
 		worth = 3,
-		desc = "Your <color=#3dc6ff>BMs and ARs</color> gain 80 HP.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, and AEs</color> gain 80 HP.",
 		next = 0,
 		id = 753,
 		icon = "teshu_naijiu_3",
@@ -2275,7 +2300,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				80
@@ -2288,6 +2314,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"ARs: HP",
+				80
+			},
+			{
+				"AEs: HP",
 				80
 			}
 		}
@@ -2669,7 +2699,7 @@ pg.commander_ability_template = {
 		name = "Rookie Helmsman - Medium Ships",
 		group_id = 91,
 		worth = 1,
-		desc = "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, and ARs</color> gain 3 EVA.",
+		desc = "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, ARs, and AEs</color> gain 3 EVA.",
 		next = 912,
 		id = 911,
 		icon = "xunyang_one_1",
@@ -2682,7 +2712,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				3
@@ -2708,6 +2739,10 @@ pg.commander_ability_template = {
 			{
 				"ARs: EVA",
 				3
+			},
+			{
+				"AEs: EVA",
+				3
 			}
 		}
 	},
@@ -2716,7 +2751,7 @@ pg.commander_ability_template = {
 		name = "Adept Helmsman - Medium Ships",
 		group_id = 91,
 		worth = 2,
-		desc = "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, and ARs</color> gain 4 EVA.",
+		desc = "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, ARs, and AEs</color> gain 4 EVA.",
 		next = 913,
 		id = 912,
 		icon = "xunyang_one_2",
@@ -2729,7 +2764,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				4
@@ -2755,6 +2791,10 @@ pg.commander_ability_template = {
 			{
 				"ARs: EVA",
 				4
+			},
+			{
+				"AEs: EVA",
+				4
 			}
 		}
 	},
@@ -2763,7 +2803,7 @@ pg.commander_ability_template = {
 		name = "Ace Helmsman - Medium Ships",
 		group_id = 91,
 		worth = 3,
-		desc = "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, and ARs</color> gain 6 EVA.",
+		desc = "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, ARs, and AEs</color> gain 6 EVA.",
 		next = 0,
 		id = 913,
 		icon = "xunyang_one_3",
@@ -2776,7 +2816,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				6
@@ -2801,6 +2842,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"ARs: EVA",
+				6
+			},
+			{
+				"AEs: EVA",
 				6
 			}
 		}

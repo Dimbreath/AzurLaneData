@@ -9,7 +9,7 @@ function slot0.execute(slot0, slot1)
 		if slot7[1] == "ACTIVITY_MAP" then
 			slot8, slot9 = getProxy(ChapterProxy):getLastMapForActivity()
 
-			if not slot8 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot8].on_activity) or slot10:isEnd() then
+			if not (slot8 and Map.StaticIsMapBindedActivityActive(slot8) and not Map.StaticIsMapRemaster(slot8)) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 				return

@@ -107,7 +107,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Just so happens that fate has brought you two here, it's getting late now so if you both don't mind, how about staying for dinner. Today we're celebrating a festival from my country --- the Mid-Autumn Festival.",
+			say = "Since you're already here, how about staying for dinner since it's already getting late? Today we're celebrating a festival from the Dragon Empery — the Mid-Autumn Festival!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

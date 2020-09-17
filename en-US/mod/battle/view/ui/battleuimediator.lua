@@ -493,7 +493,7 @@ function slot6.onRemoveAirStrike(slot0, slot1)
 end
 
 function slot6.onUpdateHostileSubmarine(slot0, slot1)
-	slot0._warningView:UpdateHostileSubmarineCount(slot1.Data.count)
+	slot0._warningView:UpdateHostileSubmarineCount(slot0._dataProxy:GetEnemySubmarineCount())
 end
 
 function slot6.onUpdateEnvironmentWarning(slot0, slot1)

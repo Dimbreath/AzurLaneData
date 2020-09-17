@@ -43,8 +43,6 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 		return false, "fleet " .. slot2.id .. " is invalid."
 	end
 
-	slot5 = 0
-
 	if slot0.target then
 		if slot2.restAmmo <= 0 then
 			return false, "lack ammo of fleet."
@@ -57,18 +55,18 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 		end
 
 		if not slot3 then
-			if isa(slot6, ChapterChampionPackage) then
-				slot1:mergeChampion(slot6)
+			if isa(slot5, ChapterChampionPackage) then
+				slot1:mergeChampion(slot5)
 
-				slot5 = bit.bor(slot5, ChapterConst.DirtyChampion)
+				slot4 = bit.bor(slot4, ChapterConst.DirtyChampion)
 			else
-				slot1:mergeChapterCell(slot6)
+				slot1:mergeChapterCell(slot5)
 
-				slot5 = bit.bor(slot5, ChapterConst.DirtyAttachment)
+				slot4 = bit.bor(slot4, ChapterConst.DirtyAttachment)
 			end
 
 			slot2.restAmmo = slot2.restAmmo - 1
-			slot5 = bit.bor(slot5, ChapterConst.DirtyFleet)
+			slot4 = bit.bor(slot4, ChapterConst.DirtyFleet)
 		end
 	elseif #slot0.movePath > 0 then
 		if _.any(slot0.movePath, function (slot0)
@@ -78,16 +76,16 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 		end
 
 		if not slot3 then
-			slot6 = slot0.movePath[#slot0.movePath]
+			slot5 = slot0.movePath[#slot0.movePath]
 			slot2.line = {
-				row = slot6.row,
-				column = slot6.column
+				row = slot5.row,
+				column = slot5.column
 			}
-			slot5 = bit.bor(slot5, ChapterConst.DirtyFleet)
+			slot4 = bit.bor(slot4, ChapterConst.DirtyFleet)
 		end
 	end
 
-	return true, slot5
+	return true, slot4
 end
 
 function slot0.PlayAIAction(slot0, slot1, slot2, slot3)

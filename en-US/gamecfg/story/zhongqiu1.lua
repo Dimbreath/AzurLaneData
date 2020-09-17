@@ -340,7 +340,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "I understand! So it seems that the Mid-Autumn Festival is one that “celebrates the reunion with friends and family”, but…how come it seems like such a downer right now? Where I'm from, all festivals should be very lively!",
+			say = "I understand! So it seems that the Mid-Autumn Festival is one that “celebrates the reunion with friends and family”, but…how come it seems like such a downer right now? In the Dragon Empery, all festivals should be very lively!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

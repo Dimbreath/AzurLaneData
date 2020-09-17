@@ -157,7 +157,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 311,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		desc = "<color=#ffffff>May the light of hope shine forevermore, whether in reality or in a dream.</color>\nObtained from \"Dreamwaker's Butterfly.\" ",
 		scene = {}
 	},
 	all = {

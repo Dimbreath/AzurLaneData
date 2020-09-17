@@ -3152,6 +3152,9 @@ Current expansions: <color=#92fc63>$3</color>
 	attribute_intimacy = {
 		tip = "Intimacy"
 	},
+	attribute_max_distance_damage = {
+		tip = "Explosion dropoff "
+	},
 	skill = {
 		tip = "Skills"
 	},
@@ -5818,9 +5821,10 @@ Up to the point before the Lecture finishes, the acquired Proficiency will be au
 Only ships below Level 100 can be added the Lecture Hall.
 The more Students you add, the more efficient the conversion rate of Proficiency to EXP will be.
 Students will lose a small amount of Morale when participating in a Lecture.
-Monitors can partake in Battleship Lectures.
-Repair Ships can partake in Destroyer and Cruiser Lectures.
-Aviation Battleships can partake in Carrier and Battleship Lectures.
+Monitors can take Battleship Lectures.
+Repair Ships can take Destroyer and Cruiser Lectures.
+Munition Ships can take Destroyer and Cruiser Lectures.
+Aviation Battleships can take Carrier and Battleship Lectures.
 
 - Lecture Schedule
 Monday: Destroyers - Amazon's Amazing Torpedo Tactics!
@@ -6066,7 +6070,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>8.06 – 8.19</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>9.17-9.30</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7053,7 +7057,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Build rates increased for Bismarck, U-96, Z26, Z36, U-556, U-73, and Echo! "
+		tip = "Receive an extra copy of Shinano after doing a total of 200 builds! (Limit of 4 times) "
 	},
 	buildship_heavy_tip = {
 		tip = "Duke of York added to standard build pool! "
@@ -7625,6 +7629,12 @@ disappear.]]
 	},
 	map_event_stop_tip = {
 		tip = "Step on <color=#92fc63>mechanisms</color> to remove obstacles of the same color."
+	},
+	map_event_stop_battle_tip = {
+		tip = "<color=#92fc63>Defeat designated enemies</color> to remove the Restricted status. "
+	},
+	map_event_stop_story_tip = {
+		tip = "<color=#92fc63>Step on an event tile</color> to remove the Restricted status. "
 	},
 	map_event_save_nekone = {
 		tip = "Successfully Rescued <color=#92fc63>Nekone</color>"
@@ -10354,16 +10364,21 @@ During the event, you will earn one Credit every day,up to a maximum of seven (7
 		tip = {
 			{
 				info = [[
-Event Duration: 5/21/20 – 6/17/20
+Event Period: 2020.9.17-10.11
 Event Rules:
-1. Starting from 5/21, a new daily mission will unlock every day at midnight. Complete it to earn a “Building Material.” Event missions do not have to be completed the day they are unlocked.
-2. Use “Building Materials” to upgrade the facilities in the “Manjuu Plaza” event. Each facility provides different beneficial buffs.
-3. Each facility has three levels. Upgrading the levels of the facilities will improve the effects of the buffs.
-4. The four upgradeable facilities are as follows: 
-Manjuu Café
-Dango Shop
-Hamburger Joint
-Dumpling House]]
+1. A new event mission unlocks every day starting from
+9/23. Complete the mission to receive building
+materials, exploration points, and other rewards.
+2. Building materials are used to upgrade buildings in
+the Celebration Plaza. Different buildings have different
+buff effects.
+3. Each building is divided into three tiers. As you
+upgrade each building, the effect of the buffs will also
+increase. The following buildings can be upgraded:
+Juju Café
+Manjuu Capsule Shop
+Manjuu Bookstore
+Manjuu Arcade Hall]]
 			}
 		}
 	},
@@ -10599,14 +10614,23 @@ any Credits, or give any rewards.]]
 	win_condition_display_qijian = {
 		tip = "Defeat the enemy boss fleet."
 	},
+	win_condition_display_qijian_tip = {
+		tip = "Clear the stage by defeating the boss fleet. "
+	},
 	win_condition_display_shangchuan = {
 		tip = "The transport ship arrives at the designated location."
+	},
+	win_condition_display_shangchuan_tip = {
+		tip = "The cargo ship has safely reached its destination. Mission complete! "
 	},
 	win_condition_display_judian = {
 		tip = "Destroy all enemy bases."
 	},
 	win_condition_display_tuoli = {
 		tip = "Any fleet reaches the escape point."
+	},
+	win_condition_display_tuoli_tip = {
+		tip = "You've stepped on an escape tile. "
 	},
 	lose_condition_display_quanmie = {
 		tip = "All your fleets are defeated."
@@ -10810,6 +10834,126 @@ you can earn.]]
 	us_error_download_painting = {
 		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
 	},
+	help_rollingBallGame = {
+		tip = {
+			{
+				info = [[
+Minigame Instructions:
+1. After selecting a jewel, you have up to 7 seconds
+to move it. During the 7 seconds, you can drag it up,
+down, left, or right an unlimited distance.
+2. While moving, the jewel will exchange positions with
+any jewels on its path. After 7 seconds or upon letting go
+of the jewel, the game will settle the results of that move.
+3. If 3 or more jewels of the same color are adjacent
+either horizontally or vertically, they will be cleared from
+the play board. This will be called 1 “Clear.”
+During the event, you will receive 1 Reward Attempt per
+day, up to a maximum of 7.
+1. Playing the minigame with a Reward Attempt will
+consume 1 attempt and grant rewards.
+2. You may check your Reward Attempts remaining on
+the right-hand side of the Celebration Plaza screen.
+3. If you have no Reward Attempts, you will not receive
+rewards for playing the minigame.
+4. If you exit the minigame for any reason, a Reward
+attempt will not be consumed, but you will also not
+receive any rewards.]]
+			}
+		}
+	},
+	rolling_ball_help = {
+		tip = {
+			{
+				info = [[
+Event Instructions:
+During the event, you will receive 1 Reward Attempt
+per day, up to a maximum of 7.
+1. Playing the minigame while you have Reward Attempts
+will consume 1 attempt and give you rewards.
+2. You may check your Reward Attempts remaining on
+the right-hand side of the Celebration Plaza screen.
+3. If you have no Reward Attempts, you will not receive
+rewards for playing the minigame.
+4. If you exit the minigame for any reason, a Reward
+attempt will not be consumed, but you will also not
+receive any rewards.]]
+			}
+		}
+	},
+	help_jiujiu_expedition_game = {
+		tip = {
+			{
+				info = [[
+Minigame Rules:
+1. During the event, tap on a grid in the game area to
+explore the zone. Each attempt requires exploration
+points.
+2. Upon reaching 100% exploration in a zone, you
+may progress to the next zone.
+3. You may only explore grids adjacent to areas you
+have already explored. Exploration will further increase
+your population.
+4. The stage has three types of grids: normal grids,
+treasure grids, and combat grids. The rewards for
+exploring each type of grid differ.
+Notice: Treasure grids must be opened, and enemies
+must defeated for treasure and combat grids to count
+as explored, respectively.]]
+			}
+		}
+	},
+	jiujiu_expedition_game_stg_desc = {
+		tip = "Stage $1 Exploration Progress "
+	},
+	build_ship_accumulative = {
+		tip = "Total: "
+	},
+	destory_ship_before_tip = {
+		tip = "Are you sure you want to retire this ship? "
+	},
+	destory_ship_input_erro = {
+		tip = "Please input the numbers on the screen. "
+	},
+	destroy_ur_rarity_tip = {
+		tip = "You have selected a ship of <color=#92fc63>UR</color> rarity. \nPlease enter the following into the box below: <color=#92fc63>$1</color> "
+	},
+	destory_ur_pt_overflowa = {
+		tip = "*You have already earned the maximum number of <color=#92fc63>Specialized \nCores</color> for this month. Any <color=#ff5c5c>excess <color=#92fc63>Specialized Cores</color> will be lost.</color> "
+	},
+	jiujiu_expedition_help = {
+		tip = {
+			{
+				info = [[
+Event Period: 9/17 - 10/11
+Event Instructions:
+1 From 9/23, you can earn Exploration Points (EP) in
+the following quantities and methods:
+1. Logging in: 11 EP
+2. Completing “Manjuu Chronicles” Missions: 10 EP
+3. Completing “Celebration Plaza” Missions: 10 EP
+EP earned from the above activities can be
+accumulated.
+2. Use EP to explore the map in “Manjuu Chronicles”
+and earn great rewards!]]
+			}
+		}
+	},
+	shop_label_unlimt_cnt = {
+		tip = "Infinite "
+	},
+	jiujiu_expedition_book_tip = {
+		tip = "Unlocks after you complete the previous collection."
+	},
+	jiujiu_expedition_reward_tip = {
+		tip = "Explore the minigame stages to receive rewards!"
+	},
+	jiujiu_expedition_amount_tip = {
+		tip = "You have run out of Exploration Points. You can receive more later by logging in during the event period."
+	},
+	jiujiu_expedition_stg_tip = {
+		tip = "Unlocks after you clear the previous stage."
+	},
 	trade_card_tips1 = {
 		tip = "Shop "
 	},
@@ -10829,6 +10973,46 @@ Come visit my shop and see what's on offer, nya~]]
 	},
 	trade_card_tips4 = {
 		tip = "$1 / $2 / $3 "
+	},
+	ur_exchange_help_tip = {
+		tip = {
+			{
+				info = [[
+- Bulin Support Plan Info
+The Bulin Support Plan is a permanent minievent.
+Complete the tasks to earn Specialized Cores, which can then be exchanged for a Specialized Bulin Custom MKIII.
+There is a cap to how many cores you can earn in one month. This cap resets at midnight of the first of every month.
+
+- How to Get Specialized Cores
+1. Through Weekly Missions. You can obtain a lot of cores by finishing the completing both 20 and 50 Daily Missions.
+2. Through clearing maps. Every time you defeat the boss fleet on main story maps (both Normal and Hard Mode), event maps, and War Archives maps, you earn a small amount of cores.
+3. Through Research. Whenever you finish doing Research in the Lab, there is a chance you'll receive a small amount of cores. 
+4. Through retiring UR ships. Ultra Rare ships received from construction grant you cores when you retire them.]]
+			}
+		}
+	},
+	fleet_antisub_range = {
+		tip = "Submarine Scan Range: "
+	},
+	fleet_antisub_range_tip = {
+		tip = {
+			{
+				info = [[
+- Submarine Scan Info:
+When an enemy submarine comes within range of ASW-capable Vanguard Fleet ships (DDs and CLs,) they will automatically be detected, thus rendering them open to attack.
+Damage can be dealt to a detected submarine using ASW weaponry such as depth charges. However, if the enemy submarine leaves your Vanguard Fleet's scan range, they will return to being undetected after some time has passed.
+
+- How your Scan Range is Calculated:
+The following 4 factors affect the size of your Vanguard Fleet's Submarine Scan Range:
+1. The greatest base ASW stat among the DDs and CLs in your Vanguard Fleet.
+2. The combined ASW stat of all ships in your Main Fleet.
+3. The additional range granted by equipping a sonar on your ships.
+4. Certain miscellaneous map-specific buffs/debuffs, the stats and skills of enemy ships, etc.
+
+Important note: any bonus points to the ASW stat gained from gear, skills, Meowfficers, or Fleet Tech does NOT affect your Scan Range.
+]]
+			}
+		}
 	},
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"

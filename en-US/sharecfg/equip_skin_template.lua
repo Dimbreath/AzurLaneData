@@ -6301,6 +6301,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[300] = {
+		icon = "92411",
+		bullet_name = "zidan_shousi",
+		name = "Sushi Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"It's fricking RAW!\" – \"Chef, it's supposed to be!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 300,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[301] = {
+		icon = "92412",
+		bullet_name = "zidan_jiangqi",
+		name = "Shogi Piece Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Aha! Checkmate! ...What do you mean that's not in the rules?\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 301,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[302] = {
+		icon = "92413",
+		bullet_name = "zidan_dafu",
+		name = "Rice Cake Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This will cause a sweet explosion, that's for sure.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 302,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[303] = {
+		icon = "92414",
+		bullet_name = "paodan_damojiu",
+		name = "Daruma Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This embodiment of Bodhidharma is about to body somebody.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 303,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[304] = {
+		icon = "92415",
+		bullet_name = "paodan_denglong",
+		name = "Lantern Ghost Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "One minute it casts light, then the next it causes a fright.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 304,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[305] = {
+		icon = "92416",
+		bullet_name = "paodan_tangsan",
+		name = "Umbrella Ghost Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Its name in the Sakura Empire's native tongue is some sort of pun.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 305,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[306] = {
+		icon = "92421",
+		bullet_name = "yulei_qingjiu",
+		name = "Sake Bottle Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "The middleman between the bottle and your cup. It's wabi-sabi, just go with it.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 306,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[307] = {
+		icon = "92422",
+		bullet_name = "yulei_shuishao",
+		name = "Ladle Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "♪ Ladle, ladle, ladle, I made you out of wood ♪",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 307,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[308] = {
+		icon = "92423",
+		bullet_name = "yulei_wushidao",
+		name = "Katana Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This katana can cut through armor. And still cut a tomato. While sheathed.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 308,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[309] = {
+		icon = "92431",
+		bullet_name = "feiji_tiangoujuu",
+		name = "Tengu Manjuu (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's got newspaper photos to submit after the battle, so it's in a bit of a rush.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 309,
+		derivate_torpedo = "yulei_qingjiu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[310] = {
+		icon = "92431",
+		bullet_name = "feiji_tiangoujuu",
+		name = "Tengu Manjuu (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's got newspaper photos to submit after the battle, so it's in a bit of a rush.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_shousi",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 310,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[311] = {
+		icon = "92431",
+		bullet_name = "feiji_tiangoujuu",
+		name = "Tengu Manjuu (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's got newspaper photos to submit after the battle, so it's in a bit of a rush.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_shousi",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 311,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[312] = {
+		icon = "92432",
+		bullet_name = "feiji_bailu",
+		name = "Flying Castle (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Not to be confused with a certain someone's moving castle.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 312,
+		derivate_torpedo = "yulei_shuishao",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[313] = {
+		icon = "92432",
+		bullet_name = "feiji_bailu",
+		name = "Flying Castle (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Not to be confused with a certain someone's moving castle.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_jiangqi",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 313,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[314] = {
+		icon = "92432",
+		bullet_name = "feiji_bailu",
+		name = "Flying Castle (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Not to be confused with a certain someone's moving castle.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_jiangqi",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 314,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[315] = {
+		icon = "92433",
+		bullet_name = "feiji_shenjiaojiu",
+		name = "Airborne Altar (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Pray it won't hit you. But if it does, pray that another one won't.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 315,
+		derivate_torpedo = "yulei_wushidao",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[316] = {
+		icon = "92433",
+		bullet_name = "feiji_shenjiaojiu",
+		name = "Airborne Altar (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Pray it won't hit you. But if it does, pray that another one won't.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_dafu",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 316,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[317] = {
+		icon = "92433",
+		bullet_name = "feiji_shenjiaojiu",
+		name = "Airborne Altar (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Pray it won't hit you. But if it does, pray that another one won't.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_dafu",
+		themeid = 21,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 317,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -7454,6 +7937,24 @@ pg.equip_skin_template = {
 		295,
 		296,
 		297,
+		300,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
 		1001,
 		1002,
 		1003,

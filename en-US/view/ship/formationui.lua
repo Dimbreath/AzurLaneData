@@ -130,7 +130,7 @@ function slot0.init(slot0)
 	slot0._vanGSTxt.text = slot0.prevVanGS or 0
 	slot0._mainGSTxt.text = slot0.prevMainGS or 0
 	slot0._subGSTxt.text = slot0.prevSubGS or 0
-	slot0.commanderFormationPanel = CommanderFormationPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event, slot0.contextData)
+	slot0.commanderFormationPanel = CommanderFormationPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.index = {
 		[FleetType.Normal] = 1,
 		[FleetType.Submarine] = 1
@@ -361,6 +361,12 @@ function slot0.didEnter(slot0)
 	slot0:UpdateFleetView(true)
 	triggerToggle(slot0[slot0.contextData.toggle or uv0.TOGGLE_FORMATION], true)
 	slot0:tweenTabArrow(true)
+	onButton(slot0, slot0._vanguardGS:Find("SonarTip"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.fleet_antisub_range_tip.tip
+		})
+	end, SFX_PANEL)
 end
 
 function slot0.SetCurrentFleetID(slot0, slot1)
@@ -372,10 +378,7 @@ end
 function slot0.updateCommanderFormation(slot0)
 	if slot0.isOpenCommander then
 		slot0.commanderFormationPanel:ActionInvoke("Update", slot0._currentFleetVO, slot0.commanderPrefabFleets)
-
-		if not slot0.commanderFormationPanel:GetLoaded() then
-			slot0.commanderFormationPanel:Load()
-		end
+		slot0.commanderFormationPanel:Load()
 	end
 end
 
@@ -928,6 +931,21 @@ function slot0.displayFleetInfo(slot0)
 		slot0.contextData.vanGS = slot2
 		slot0.mainGSInited = true
 		slot0.VanGSInited = true
+
+		setActive(slot0._vanguardGS:Find("SonarActive"), slot0._currentFleetVO:GetFleetSonarRange() > 0)
+		setActive(slot0._vanguardGS:Find("SonarInactive"), slot7 <= 0)
+
+		if slot7 > 0 then
+			setText(slot0._vanguardGS:Find("SonarActive/Text"), math.floor(slot7))
+			onButton(slot0, slot0._vanguardGS:Find("SonarActive"), function ()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					type = MSGBOX_TYPE_HELP,
+					helps = pg.gametip.fleet_antisub_range_tip.tip
+				})
+			end, SFX_PANEL)
+		else
+			onButton(slot0, slot0._vanguardGS:Find("SonarInactive"), slot8, SFX_PANEL)
+		end
 	elseif slot6 == FleetType.Submarine then
 		setActive(slot0._arrUpSub, false)
 		setActive(slot0._arrDownSub, false)
@@ -1317,6 +1335,7 @@ function slot0.willExit(slot0)
 
 	slot0:recycleCharacterList(slot0._currentFleetVO.subShips, slot4)
 	slot0:recyclePainting()
+	slot0:DisplayRenamePanel(false)
 
 	for slot4, slot5 in ipairs(slot0._attachmentList) do
 		Object.Destroy(slot5)

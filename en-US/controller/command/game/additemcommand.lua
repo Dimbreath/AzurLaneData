@@ -88,6 +88,13 @@ function slot0.execute(slot0, slot1)
 			end
 		elseif slot4 == 13 then
 			getProxy(ActivityProxy):MarkSkinCoupon(Item.VItem2SkinCouponShopId(slot2.id))
+		elseif slot4 == 20 then
+			slot6 = pg.gameset.urpt_chapter_max.description
+
+			if math.min(slot6[2] - getProxy(BagProxy):GetLimitCntById(slot6[1]), slot2.count) > 0 then
+				slot5:addItemById(slot7, slot10)
+				slot5:AddLimitCnt(slot7, slot10)
+			end
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIPMENT_SKIN then
 		getProxy(EquipmentProxy):addEquipmentSkin(slot2.id, slot2.count)

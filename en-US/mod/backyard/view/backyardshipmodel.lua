@@ -15,6 +15,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.speed = slot0.cfg.backyard_speed
 	slot0.effectContainer = slot0.tf:Find("_effect_")
 	slot0.bodyMask = slot0.tf:Find("bodyMask")
+	slot0.onDrag = false
 end
 
 function slot0.updateBoatVO(slot0, slot1)
@@ -218,6 +219,9 @@ function slot0.addBoatDragListenter(slot0)
 		uv0.viewComponent.dragShip = slot0
 
 		uv0.viewComponent:enableZoom(false)
+
+		uv0.onDrag = true
+
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_DRAG)
 
 		uv1 = uv0.boatVO:getPosition()
@@ -239,8 +243,7 @@ function slot0.addBoatDragListenter(slot0)
 		uv0:closeBodyMask()
 		uv0.viewComponent:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, uv0.boatVO.id)
 		uv0:removeItem()
-		SetParent(uv0.tf, uv0.floorGrid)
-		tf(uv0.go):SetAsLastSibling()
+		pg.BackYardSortMgr.GetInstance():AddToTopSortGroup(uv0.tf)
 		uv0:changeInnerDir(Mathf.Sign(uv0.tf.localScale.x))
 		uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
 		uv0:updateBottomGridPos(uv0.boatVO:getPosition())
@@ -263,6 +266,7 @@ function slot0.addBoatDragListenter(slot0)
 	end)
 	slot1:AddDragEndFunc(function (slot0, slot1)
 		if uv0.viewComponent.dragShip == slot0 then
+			uv0.onDrag = false
 			uv0.viewComponent.dragShip = nil
 
 			uv0.viewComponent:enableZoom(true)
@@ -440,7 +444,10 @@ function slot0.createItem(slot0, slot1)
 		})
 
 		slot3:SetPos(slot1.x + 1, slot1.y + 1)
-		slot0.tf:SetSiblingIndex(slot2:InsertChar(slot3))
+
+		slot4 = slot2:InsertChar(slot3)
+
+		pg.BackYardSortMgr.GetInstance():SortHandler()
 
 		slot0.item = slot3
 	end
@@ -1669,6 +1676,7 @@ function slot0.closeBodyMask(slot0, slot1)
 end
 
 function slot0.dispose(slot0)
+	slot0:removeItem()
 	removeAllChildren(slot0.effectContainer)
 
 	if slot0.timer then
@@ -1723,6 +1731,18 @@ function slot0.enableTouch(slot0, slot1)
 	slot0.canvasGroup.blocksRaycasts = not slot1
 
 	slot0:updateShadowTF(not slot1)
+end
+
+function slot0.SetAsLastSibling(slot0)
+	slot0.tf:SetAsLastSibling()
+end
+
+function slot0.SetAsFirstSibling(slot0)
+	slot0.tf:SetAsFirstSibling()
+end
+
+function slot0.SetParent(slot0, slot1, slot2)
+	slot0.tf:SetParent(slot1, slot2)
 end
 
 return slot0

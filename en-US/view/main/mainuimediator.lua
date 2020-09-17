@@ -123,7 +123,9 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OPEN_COMMANDER, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+			fromMain = true
+		})
 	end)
 	slot0.viewComponent:updateTraningCampBtn()
 	slot0.viewComponent:updateRefluxBtn()
@@ -345,7 +347,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_ACTIVITY_MAP, function (slot0, slot1)
 		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot2 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot2].on_activity) or slot4:isEnd() then
+		if not (slot2 and Map.StaticIsMapBindedActivityActive(slot2) and not Map.StaticIsMapRemaster(slot2)) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
@@ -520,7 +522,7 @@ function slot0.updateCommissionNotices(slot0)
 	slot3 = getProxy(NavalAcademyProxy)
 	slot5 = getProxy(PlayerProxy):getData()
 
-	slot0.viewComponent:updateCommissionNotices(getProxy(EventProxy):hasFinishState() or slot3:GetOilVO():isCommissionNotify(slot5.oilField) or slot3:GetGoldVO():isCommissionNotify(slot5.goldField))
+	slot0.viewComponent:updateCommissionNotices(getProxy(EventProxy):hasFinishState() or slot3:GetOilVO():isCommissionNotify(slot5.oilField) or slot3:GetGoldVO():isCommissionNotify(slot5.goldField) or NotifyTipHelper.ShouldShowUrTip())
 end
 
 function slot0.updateBackYardNotices(slot0)
@@ -929,7 +931,7 @@ function slot0.playStroys(slot0, slot1)
 		end
 	end
 
-	if Application.isEditor and not ENABLE_GUIDE and getProxy(PlayerProxy):getData().level >= 40 and not slot4:IsPlayed("ZHIHUIMIAO1") then
+	if ENABLE_GUIDE and getProxy(PlayerProxy):getData().level >= 40 and not slot4:IsPlayed("ZHIHUIMIAO1") then
 		table.insert(slot3, function (slot0)
 			uv0:Play("ZHIHUIMIAO1", slot0, true, true)
 		end)

@@ -45,6 +45,9 @@ end
 function slot0.OnUpdateFlush(slot0)
 end
 
+function slot0.OnHideFulsh(slot0)
+end
+
 function slot0.OnDestroy(slot0)
 end
 

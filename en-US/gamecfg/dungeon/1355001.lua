@@ -77,17 +77,18 @@ return {
 							phase = {
 								{
 									switchType = 1,
-									dive = "STATE_FLOAT",
+									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
 									switchParam = 0.5,
 									setAI = 70086
 								},
 								{
+									dive = "STATE_FLOAT",
 									switchParam = 3,
-									switchTo = 2,
 									index = 1,
 									switchType = 1,
+									switchTo = 2,
 									addWeapon = {
 										620501,
 										620502
