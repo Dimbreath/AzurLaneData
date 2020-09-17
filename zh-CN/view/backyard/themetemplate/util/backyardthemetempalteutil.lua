@@ -98,7 +98,7 @@ function slot15()
 	table.insert(uv0.HideGos, GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/back"))
 	table.insert(uv0.HideGos, GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/bg000"))
 
-	slot0 = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui")
+	slot0 = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/scroll_view")
 	slot1 = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/bg").transform
 	slot1.localScale = Vector2(uv0.TakeScale, uv0.TakeScale, 1)
 
@@ -134,7 +134,7 @@ function slot16()
 	uv0.ScaleGos = {}
 	uv0.HideGos = {}
 
-	scrollTo(GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui"), uv0.normalizedPosition.x, uv0.normalizedPosition.y)
+	scrollTo(GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/scroll_view"), uv0.normalizedPosition.x, uv0.normalizedPosition.y)
 
 	uv0.normalizedPosition = nil
 end

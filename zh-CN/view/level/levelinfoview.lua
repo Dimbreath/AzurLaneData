@@ -90,10 +90,14 @@ function slot0.set(slot0, slot1, slot2)
 	slot5 = slot1:getPlayType() == ChapterConst.TypeDefence
 
 	GetSpriteFromAtlasAsync("ui/levelstageinfoview_atlas", slot5 and "title_print_defense" or "title_print", function (slot0)
-		uv0.titleBGDecoration:GetComponent(typeof(Image)).sprite = slot0
+		if not IsNil(uv0.titleBGDecoration) then
+			uv0.titleBGDecoration:GetComponent(typeof(Image)).sprite = slot0
+		end
 	end)
 	GetSpriteFromAtlasAsync("ui/levelstageinfoview_atlas", slot5 and "titlebar_bg_defense" or "titlebar_bg", function (slot0)
-		uv0.titleBG:GetComponent(typeof(Image)).sprite = slot0
+		if not IsNil(uv0.titleBG) then
+			uv0.titleBG:GetComponent(typeof(Image)).sprite = slot0
+		end
 	end)
 	setActive(slot0.titleIcon, slot5)
 
@@ -152,7 +156,13 @@ function slot0.set(slot0, slot1, slot2)
 
 	setText(slot0.txIntro, HXSet.hxLan(slot3.profiles))
 	setText(slot0.txCost, slot3.oil)
-	setImageSprite(slot0.head, LoadSprite("qicon/" .. slot3.icon[1]))
+
+	if slot3.icon and slot3.icon[1] then
+		setActive(slot0.head.parent, true)
+		setImageSprite(slot0.head, LoadSprite("qicon/" .. slot3.icon[1]))
+	else
+		setActive(slot0.head.parent, false)
+	end
 
 	slot0.awards = slot0:getChapterAwards()
 

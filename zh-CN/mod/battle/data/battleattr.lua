@@ -12,6 +12,7 @@ slot0.AttrListInheritance = {
 	"antiAirPower",
 	"airPower",
 	"antiSubPower",
+	"fleetGS",
 	"loadSpeed",
 	"attackRating",
 	"dodgeRate",
@@ -143,37 +144,38 @@ function slot0.CancelStun(slot0)
 	slot0._attr.isStun = (slot0._attr.isStun or 0) - 1
 end
 
-function slot0.SetPlayerAttrFromOutBattle(slot0, slot1)
-	slot2 = slot0._attr or {}
-	slot0._attr = slot2
-	slot2.id = slot1.id
-	slot2.battleUID = slot0:GetUniqueID()
-	slot2.level = slot1.level
-	slot2.formulaLevel = slot1.level
-	slot2.maxHP = slot1.durability
-	slot2.cannonPower = slot1.cannon
-	slot2.torpedoPower = slot1.torpedo
-	slot2.antiAirPower = slot1.antiaircraft
-	slot2.antiSubPower = slot1.antisub
-	slot2.airPower = slot1.air
-	slot2.loadSpeed = slot1.reload
-	slot2.armorType = slot1.armorType
-	slot2.attackRating = slot1.hit
-	slot2.dodgeRate = slot1.dodge
-	slot2.velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot1.speed)
-	slot2.luck = slot1.luck
-	slot2.repressReduce = slot0:GetRepressReduce()
-	slot2.oxyMax = slot1.oxy_max
-	slot2.oxyCost = slot1.oxy_cost
-	slot2.oxyRecovery = slot1.oxy_recovery
-	slot2.oxyRecoveryBench = slot1.oxy_recovery_bench
-	slot2.oxyAtkDuration = slot1.attack_duration
-	slot2.raidDist = slot1.raid_distance
-	slot2.sonarRange = slot1.sonarRange or 0
-	slot2.sonarInterval = slot1.sonarInterval or 0
-	slot2.sonarDuration = slot1.sonarDuration or 0
-	slot2.comboTag = "combo_" .. slot2.battleUID
-	slot2.labelTag = {}
+function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
+	slot3 = slot0._attr or {}
+	slot0._attr = slot3
+	slot3.id = slot1.id
+	slot3.battleUID = slot0:GetUniqueID()
+	slot3.level = slot1.level
+	slot3.formulaLevel = slot1.level
+	slot3.maxHP = slot1.durability
+	slot3.cannonPower = slot1.cannon
+	slot3.torpedoPower = slot1.torpedo
+	slot3.antiAirPower = slot1.antiaircraft
+	slot3.antiSubPower = slot1.antisub
+	slot3.baseAntiSubPower = slot2 and slot2.antisub or slot1.antisub
+	slot3.airPower = slot1.air
+	slot3.loadSpeed = slot1.reload
+	slot3.armorType = slot1.armorType
+	slot3.attackRating = slot1.hit
+	slot3.dodgeRate = slot1.dodge
+	slot3.velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot1.speed)
+	slot3.luck = slot1.luck
+	slot3.repressReduce = slot0:GetRepressReduce()
+	slot3.oxyMax = slot1.oxy_max
+	slot3.oxyCost = slot1.oxy_cost
+	slot3.oxyRecovery = slot1.oxy_recovery
+	slot3.oxyRecoveryBench = slot1.oxy_recovery_bench
+	slot3.oxyAtkDuration = slot1.attack_duration
+	slot3.raidDist = slot1.raid_distance
+	slot3.sonarRange = slot1.sonarRange or 0
+	slot3.sonarInterval = slot1.sonarInterval or 0
+	slot3.sonarDuration = slot1.sonarDuration or 0
+	slot3.comboTag = "combo_" .. slot3.battleUID
+	slot3.labelTag = {}
 
 	uv0.SetBaseAttr(slot0)
 end
@@ -318,7 +320,7 @@ function slot0.FlashVelocity(slot0, slot1, slot2)
 end
 
 function slot0.HasSonar(slot0)
-	return slot0._attr.sonarRange * slot0._attr.sonarInterval * slot0._attr.sonarDuration ~= 0
+	return ys.Battle.BattleConfig.VAN_SONAR_PROPERTY[slot0:GetTemplate().type] ~= nil
 end
 
 function slot0.SetCurrent(slot0, slot1, slot2)

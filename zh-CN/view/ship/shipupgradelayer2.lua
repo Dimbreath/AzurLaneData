@@ -356,8 +356,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 
 		setText(slot9, i18n("word_level_upperLimit"))
 	else
-		slot8 = slot0.shipTempCfg[slot0.breakCfg.breakout_id].max_level
-		slot4 = slot3:getShipProperties()
+		slot3:getShipProperties().level = slot1:getMaxLevel() <= slot0.shipTempCfg[slot0.breakCfg.breakout_id].max_level and slot8 or slot1:getMaxLevel()
 		slot7 = slot3:getBattleTotalExpend()
 
 		setColorCount(slot10, slot0.shipVO.level, slot0.breakCfg.level)

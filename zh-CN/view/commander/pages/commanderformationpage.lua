@@ -292,7 +292,20 @@ function slot0.CloseRecordPanel(slot0)
 	setActive(slot0.recordPanel, false)
 end
 
+function slot0.Show(slot0)
+	uv0.super.Show(slot0)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+end
+
+function slot0.Hide(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	uv0.super.Hide(slot0)
+end
+
 function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	end
 end
 
 return slot0

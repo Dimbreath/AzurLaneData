@@ -336,7 +336,7 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
 		-- Nothing
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
-		setText(slot2, slot1.drop.cfg.desc)
+		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
 
 		if slot1.extendDesc then
 			slot0.singleItemIntros[slot3] = slot0.singleItemIntros[slot3 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)

@@ -4,6 +4,7 @@ slot2 = import("view.level.MapBuilder.MapBuilder")
 slot0.correspondingClass = {
 	[slot2.TYPENORMAL] = "MapBuilderNormal",
 	[slot2.TYPEESCORT] = "MapBuilderEscort",
+	[slot2.TYPESHINANO] = "MapBuilderShinano",
 	[slot2.TYPESKIRMISH] = "MapBuilderSkirmish"
 }
 slot3 = 0.5
@@ -59,38 +60,35 @@ function slot0.preload(slot0, slot1)
 	end
 
 	slot9 = getProxy(ChapterProxy):getMaps()
-	slot12 = slot0.contextData.chapterVO
 
 	if slot0.contextData.chapterId and slot9[slot0.contextData.mapIdx] then
-		slot0.contextData.chapterVO = slot13:getChapter(slot11)
+		slot0.contextData.chapterVO = slot12:getChapter(slot11)
 	end
 
 	slot0:setMaps(slot9)
 
-	slot14 = function ()
-		uv0 = uv1.contextData.chapterVO
-
-		if uv0 and uv0.active then
-			return uv0:getConfig("map")
+	slot13 = function ()
+		if uv0.contextData.chapterVO and slot0.active then
+			return slot0:getConfig("map")
 		end
 
-		slot0 = nil
+		slot1 = nil
 
-		if uv1.contextData.targetChapter and uv1.contextData.targetMap then
-			uv1.contextData.openChapterId = uv1.contextData.targetChapter
-			slot0 = uv1.contextData.targetMap.id
-			uv1.contextData.targetChapter = nil
-			uv1.contextData.targetMap = nil
-		elseif uv1.contextData.eliteDefault then
-			slot0 = uv2:getUseableMaxEliteMap() and slot1.id or nil
-			uv1.contextData.eliteDefault = nil
+		if uv0.contextData.targetChapter and uv0.contextData.targetMap then
+			uv0.contextData.openChapterId = uv0.contextData.targetChapter
+			slot1 = uv0.contextData.targetMap.id
+			uv0.contextData.targetChapter = nil
+			uv0.contextData.targetMap = nil
+		elseif uv0.contextData.eliteDefault then
+			slot1 = uv1:getUseableMaxEliteMap() and slot2.id or nil
+			uv0.contextData.eliteDefault = nil
 		end
 
-		return slot0 or uv1:selectMap(uv3)
+		return slot1 or uv0:selectMap(uv2)
 	end()
-	slot0.contextData.InitializeMap = slot14
+	slot0.contextData.InitializeMap = slot13
 
-	GetSpriteFromAtlasAsync("levelmap/" .. slot9[slot14]:getConfig("bg"), "", slot4)
+	GetSpriteFromAtlasAsync("levelmap/" .. slot9[slot13]:getConfig("bg"), "", slot4)
 end
 
 function slot0.init(slot0)
@@ -200,21 +198,24 @@ function slot0.initUI(slot0)
 
 	setActive(slot0.helpPage, false)
 
-	slot0.curtain = slot0:findTF("curtain")
+	slot0.curtain = slot0:findTF("curtain", slot0.topPanel)
 
 	setActive(slot0.curtain, false)
 
 	slot0.map = slot0:findTF("map")
 	slot0.map:GetComponent(typeof(Image)).enabled = true
+	slot1 = slot0.map:GetComponent(typeof(AspectRatioFitter))
+	slot1.aspectRatio = 1
+	slot1.aspectRatio = slot1.aspectRatio
 	slot0.UIFXList = slot0:findTF("map/UI_FX_list")
 
-	for slot5 = 0, slot0.UIFXList:GetComponentsInChildren(typeof(Renderer)).Length - 1 do
-		slot1[slot5].sortingOrder = -1
+	for slot7 = 0, slot0.UIFXList:GetComponentsInChildren(typeof(Renderer)).Length - 1 do
+		slot3[slot7].sortingOrder = -1
 	end
 
-	slot2 = GameObject.Find("LevelCamera").transform
-	slot0.levelCam = slot2:GetComponent(typeof(Camera))
-	slot0.uiMain = slot2:Find("Canvas/UIMain")
+	slot4 = GameObject.Find("LevelCamera").transform
+	slot0.levelCam = slot4:GetComponent(typeof(Camera))
+	slot0.uiMain = slot4:Find("Canvas/UIMain")
 
 	setActive(slot0.uiMain, false)
 
@@ -230,7 +231,6 @@ function slot0.initUI(slot0)
 
 	slot0.float = slot0:findTF("float")
 	slot0.clouds = slot0:findTF("clouds", slot0.float)
-	slot0.chapters = slot0:findTF("levels", slot0.float)
 
 	setActive(slot0.clouds, true)
 
@@ -340,7 +340,7 @@ function slot0.updateBattleActivity(slot0, slot1)
 			if slot8.id == slot3 then
 				slot0.battleActivity = slot8
 
-				break
+				return
 			end
 		end
 	end
@@ -377,6 +377,9 @@ function slot0.didEnter(slot0)
 			uv0:emit(uv1.ON_BACK)
 		end
 	end, SFX_CANCEL)
+	onButton(slot0, slot0:findTF("option", slot0.topChapter), function ()
+		uv0:quckExitFunc()
+	end, SFX_PANEL)
 	onButton(slot0, slot0.btnSpecial, function ()
 		if uv0:isfrozen() then
 			return
@@ -671,9 +674,11 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 		end
 	end
 
-	if slot0.contextData.chapterVO and slot0.contextData.chapterVO.id == slot1.id and slot1.active then
+	if slot0.contextData.chapterVO and slot0.contextData.chapterVO.id == slot1.id then
 		slot0:setChapter(slot1)
+	end
 
+	if slot0.contextData.chapterVO and slot0.contextData.chapterVO.id == slot1.id and slot1.active then
 		slot6 = false
 		slot7 = false
 		slot8 = false
@@ -793,12 +798,14 @@ function slot0.updateClouds(slot0)
 end
 
 function slot0.updateCouldAnimator(slot0)
-	if slot0.contextData.map:getConfig("animtor") == 1 then
+	slot1 = slot0.contextData.map:getConfig("ani_name")
+
+	if slot0.contextData.map:getConfig("animtor") == 1 and slot1 and #slot1 > 0 then
 		if slot0.tornadoTF and slot0.aniName ~= slot0.contextData.map:getConfig("ani_name") then
 			slot0:destroyCloudAnimator()
 		end
 
-		function slot2()
+		function slot3()
 			uv0.tornadoTF.transform.localScale = Vector3(uv0.tornadoTF.transform.parent.rect.width / uv0.tornadoTF.transform.rect.width, uv0.tornadoTF.transform.parent.rect.height / uv0.tornadoTF.transform.rect.height, 1)
 		end
 
@@ -807,9 +814,9 @@ function slot0.updateCouldAnimator(slot0)
 				return
 			end
 
-			slot0.animtorLoading = slot1
+			slot0.animtorLoading = slot2
 
-			PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
+			PoolMgr.GetInstance():GetUI(slot2, true, function (slot0)
 				if not uv1.contextData then
 					function (slot0)
 						PoolMgr.GetInstance():ReturnUI(uv0, slot0)
@@ -844,7 +851,7 @@ function slot0.updateCouldAnimator(slot0)
 			setParent(slot0.tornadoTF, slot0:findTF("map"))
 			tf(slot0.tornadoTF):SetSiblingIndex(1)
 			setActive(slot0.tornadoTF, true)
-			slot2()
+			slot3()
 		end
 
 		return
@@ -855,11 +862,63 @@ function slot0.updateCouldAnimator(slot0)
 	end
 end
 
+function slot0.updateMapItems(slot0)
+	for slot4 = 1, slot0.UIFXList.childCount do
+		setActive(slot0.UIFXList:GetChild(slot4 - 1), false)
+	end
+
+	if slot0.contextData.map:getConfig("cloud_suffix") == "" then
+		setActive(slot0.clouds, false)
+	else
+		setActive(slot0.clouds, true)
+
+		slot6 = "clouds_pos"
+
+		for slot6, slot7 in ipairs(slot1:getConfig(slot6)) do
+			slot0.cloudRTFs[slot6]:GetComponent(typeof(Image)).enabled = false
+
+			GetSpriteFromAtlasAsync("clouds/cloud_" .. slot6 .. "_" .. slot2, "", function (slot0)
+				if not uv0.exited and not IsNil(uv1) and uv2 == uv0.contextData.map then
+					uv1.enabled = true
+					uv1.sprite = slot0
+
+					uv1:SetNativeSize()
+
+					uv0.cloudRects[uv3] = uv4.rect.width
+				end
+			end)
+		end
+	end
+
+	slot0.mapBuilder.buffer:UpdateMapItems(slot1)
+end
+
+function slot0.switchDifficulty(slot0)
+	slot1 = slot0.contextData.map
+	slot2 = slot1:getConfig("type")
+
+	if slot1:getConfig("uifx") ~= "" then
+		setActive(slot0:findTF(slot3, slot0.UIFXList), true)
+	end
+
+	if Map.EVENT == slot2 then
+		setActive(slot0.normalBtn, false)
+		setActive(slot0.eliteBtn, false)
+	else
+		setActive(slot0.normalBtn, slot2 == Map.ELITE)
+		setActive(slot0.eliteQuota, slot2 == Map.ELITE)
+		setActive(slot0.eliteBtn, slot2 == Map.SCENARIO)
+		setActive(slot0.eliteBtn:Find("bg/pic_activity"), getProxy(ActivityProxy):getActivityById(ActivityConst.ELITE_AWARD_ACTIVITY_ID) and not slot5:isEnd())
+	end
+end
+
 function slot0.updateActivityBtns(slot0)
 	slot2 = slot0.contextData.map:isRemaster()
 	slot4 = slot0.contextData.map:getConfig("type")
 
-	setActive(slot0.activityBtn, not slot0.contextData.map:isActivity() and not slot0.contextData.map:isSkirmish() and (slot0.battleActivity and not slot0.battleActivity:isEnd()))
+	setActive(slot0.activityBtn, not slot0.contextData.map:isActivity() and not slot0.contextData.map:isSkirmish() and _.any(_.values(slot0.maps), function (slot0)
+		return slot0:IsZprojectActiveMap()
+	end))
 
 	if slot0.contextData.map:isEscort() then
 		setActive(slot0.activityBtn, false)
@@ -942,7 +1001,7 @@ function slot0.updateCountDown(slot0)
 		slot3 = pg.TimeMgr.GetInstance()
 
 		_.each(pg.chapter_template.all, function (slot0)
-			if (pg.expedition_data_by_map[pg.chapter_template[slot0].map].type == Map.ACTIVITY_HARD or slot2.type == Map.ACTIVITY_HARD) and pg.activity_template[slot1.act_id] and slot3.time and #slot3.time == 3 and uv0:parseTimeFromConfig(slot3.time[2]) - uv0:GetServerTime() > 0 then
+			if (pg.expedition_data_by_map[pg.chapter_template[slot0].map].type == Map.ACTIVITY_HARD or slot2.type == Map.ACTIVITY_EASY) and pg.activity_template[slot1.act_id] and slot3.time and #slot3.time == 3 and uv0:parseTimeFromConfig(slot3.time[2]) - uv0:GetServerTime() > 0 then
 				if uv1 == 0 then
 					uv1 = slot4
 				else
@@ -1185,31 +1244,49 @@ function slot0.setMap(slot0, slot1)
 	slot0:tryPlayMapStory()
 end
 
-function slot0.GetMapBuilder(slot0, slot1, slot2)
-	if slot0.mapBuilder and slot0.mapBuilder:GetType() ~= slot1 then
-		slot0.mapBuilder:Hide()
+function slot0.SwitchMapBuilder(slot0, slot1, slot2)
+	slot3 = slot0:GetMapBuilderInBuffer(slot1)
 
-		slot0.mapBuilder = nil
+	if not slot0.mapBuilder then
+		slot0.mapBuilder = slot0.mbDict[slot1]
 	end
 
-	slot0:GetMapBuilderInBuffer(slot1, function (slot0)
-		uv0(slot0)
+	slot3.buffer:Show()
+	slot3.buffer:DoFunction(function ()
+		if uv0.mapBuilder and uv0.mapBuilder:GetType() ~= uv1 then
+			uv0.mapBuilder.buffer:Hide()
+		end
+
+		uv0.mapBuilder = uv0.mbDict[uv1]
+
+		uv2(uv3)
 	end)
 end
 
-function slot0.GetMapBuilderInBuffer(slot0, slot1, slot2)
+function slot0.GetMapBuilderInBuffer(slot0, slot1)
 	if not slot0.mbDict[slot1] then
 		slot0.mbDict[slot1] = import("view.level.MapBuilder." .. slot0.correspondingClass[slot1]).New(slot0._tf, slot0)
-		slot0.mapBuilder = slot0.mbDict[slot1]
 
-		slot0.mbDict[slot1]:Load(function ()
-			uv0(uv1.mbDict[uv2])
-		end)
-	else
-		slot0.mapBuilder = slot0.mbDict[slot1]
-
-		slot2(slot0.mbDict[slot1])
+		slot0.mbDict[slot1]:Load()
 	end
+
+	return slot0.mbDict[slot1]
+end
+
+function slot0.JudgeMapBuilderType(slot0)
+	slot2 = nil
+
+	if slot0.contextData.map:getConfig("ui_type") == uv0.TYPESHINANO then
+		slot2 = uv0.TYPESHINANO
+	elseif slot1:isNormalMap() then
+		slot2 = uv0.TYPENORMAL
+	elseif slot1:isSkirmish() then
+		slot2 = uv0.TYPESKIRMISH
+	elseif slot1:isEscort() then
+		slot2 = uv0.TYPEESCORT
+	end
+
+	return slot2
 end
 
 function slot0.updateMap(slot0)
@@ -1220,28 +1297,11 @@ function slot0.updateMap(slot0)
 	seriesAsync({
 		function (slot0)
 			uv0:SwitchBG(uv1:getConfig("bg"))
-			slot0()
+			uv0:SwitchMapBuilder(uv0:JudgeMapBuilderType(), slot0)
 		end,
 		function (slot0)
-			slot1 = nil
+			uv0.mapBuilder:Update(uv1)
 
-			if uv0:isNormalMap() then
-				slot1 = uv1.TYPENORMAL
-			elseif uv0:isSkirmish() then
-				slot1 = uv1.TYPESKIRMISH
-			elseif uv0:isEscort() then
-				slot1 = uv1.TYPEESCORT
-			end
-
-			uv2:GetMapBuilder(slot1, function (slot0)
-				uv0(slot0)
-			end)
-		end,
-		function (slot0, slot1)
-			slot1:Update(uv0)
-			slot0()
-		end,
-		function (slot0)
 			slot1 = uv0.maps[uv1.id - 1]
 
 			setActive(uv0.btnPrev, slot1)
@@ -1263,13 +1323,14 @@ function slot0.updateMap(slot0)
 			setActive(uv0.topChapter:Find("type_chapter"), uv1:isNormalMap())
 			setActive(uv0.topChapter:Find("type_escort"), uv1:isEscort())
 			setActive(uv0.topChapter:Find("type_skirmish"), uv1:isSkirmish())
+			uv0:updateCouldAnimator()
+			uv0.mapBuilder:PostUpdateMap(uv1)
 			uv0:updateMapItems()
 			uv0:switchDifficulty()
 			uv0:updateActivityBtns()
-			uv0:updateCouldAnimator()
 
 			if uv0.contextData.openChapterId then
-				uv0.mapBuilder:TryOpenChapter(uv0.contextData.openChapterId)
+				uv0.mapBuilder.buffer:TryOpenChapter(uv0.contextData.openChapterId)
 
 				uv0.contextData.openChapterId = nil
 			end
@@ -1277,37 +1338,6 @@ function slot0.updateMap(slot0)
 			slot0()
 		end
 	})
-end
-
-function slot0.updateMapItems(slot0)
-	for slot4 = 1, slot0.UIFXList.childCount do
-		setActive(slot0.UIFXList:GetChild(slot4 - 1), false)
-	end
-
-	if slot0.contextData.map:getConfig("cloud_suffix") == "" then
-		setActive(slot0.clouds, false)
-	else
-		setActive(slot0.clouds, true)
-
-		slot6 = "clouds_pos"
-
-		for slot6, slot7 in ipairs(slot1:getConfig(slot6)) do
-			slot0.cloudRTFs[slot6]:GetComponent(typeof(Image)).enabled = false
-
-			GetSpriteFromAtlasAsync("clouds/cloud_" .. slot6 .. "_" .. slot2, "", function (slot0)
-				if not uv0.exited and not IsNil(uv1) and uv2 == uv0.contextData.map then
-					uv1.enabled = true
-					uv1.sprite = slot0
-
-					uv1:SetNativeSize()
-
-					uv0.cloudRects[uv3] = uv4.rect.width
-				end
-			end)
-		end
-	end
-
-	slot0.mapBuilder:UpdateMapItems(slot1)
 end
 
 function slot0.TrySwitchChapter(slot0, slot1)
@@ -1323,6 +1353,10 @@ function slot0.TrySwitchChapter(slot0, slot1)
 end
 
 function slot0.updateChapterTF(slot0, slot1)
+	if not slot0.mapBuilder.UpdateChapterTF then
+		return
+	end
+
 	slot0.mapBuilder:UpdateChapterTF(slot1)
 end
 
@@ -1619,25 +1653,6 @@ function slot0.isCrossStoryLimit(slot0, slot1)
 	return slot2
 end
 
-function slot0.switchDifficulty(slot0)
-	slot1 = slot0.contextData.map
-	slot2 = slot1:getConfig("type")
-
-	if slot1:getConfig("uifx") ~= "" then
-		setActive(slot0:findTF(slot3, slot0.UIFXList), true)
-	end
-
-	if Map.EVENT == slot2 then
-		setActive(slot0.normalBtn, false)
-		setActive(slot0.eliteBtn, false)
-	else
-		setActive(slot0.normalBtn, slot2 == Map.ELITE)
-		setActive(slot0.eliteQuota, slot2 == Map.ELITE)
-		setActive(slot0.eliteBtn, slot2 == Map.SCENARIO)
-		setActive(slot0.eliteBtn:Find("bg/pic_activity"), getProxy(ActivityProxy):getActivityById(ActivityConst.ELITE_AWARD_ACTIVITY_ID) and not slot5:isEnd())
-	end
-end
-
 function slot0.trackChapter(slot0, slot1, slot2)
 	slot3 = nil
 
@@ -1679,8 +1694,14 @@ function slot0.trackChapter(slot0, slot1, slot2)
 end
 
 function slot0.setChapter(slot0, slot1)
-	slot0.contextData.chapterId = nil
-	slot0.contextData.chapterVO = slot1 and slot0.maps[slot0.contextData.mapIdx]:getChapter(slot1.id)
+	slot2 = nil
+
+	if slot1 then
+		slot2 = slot1.id
+	end
+
+	slot0.contextData.chapterId = slot2
+	slot0.contextData.chapterVO = slot1
 end
 
 function slot0.switchToChapter(slot0, slot1, slot2)
@@ -1690,7 +1711,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 
 	slot0:setChapter(slot1)
 	setActive(slot0.clouds, false)
-	slot0.mapBuilder:Hide()
+	slot0.mapBuilder.buffer:Hide()
 
 	slot0.leftCanvasGroup.blocksRaycasts = false
 	slot0.rightCanvasGroup.blocksRaycasts = false
@@ -1705,16 +1726,15 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 
 	slot0:frozen(function ()
 		uv0.levelStageView:tryAutoAction(function ()
-			uv0.levelStageView:DoSafeCheckOnBegin()
+			if uv0.levelStageView then
+				uv0.levelStageView:DoSafeCheckOnBegin()
+			end
 		end)
 	end)
 	slot0.levelStageView:ActionInvoke("SetSeriesOperation", function ()
 		seriesAsync({
 			function (slot0)
 				pg.UIMgr.GetInstance():BlurPanel(uv0.topPanel, false)
-				onNextTick(slot0)
-			end,
-			function (slot0)
 				uv0.levelStageView:updateStageInfo()
 				uv0.levelStageView:updateAmbushRate(uv1.fleet.line, true)
 				uv0.levelStageView:updateStageAchieve()
@@ -1733,43 +1753,38 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				onNextTick(slot0)
 			end,
 			function (slot0)
-				slot1 = {
-					count = 0,
-					amount = 2
-				}
+				parallelAsync({
+					function (slot0)
+						slot1 = uv0:getConfig("scale")
 
-				function slot2()
-					uv0.count = uv0.count + 1
+						uv1:RecordTween("mapScale", LeanTween.value(go(uv1.map), uv1.map.localScale, Vector3.New(slot1[3], slot1[3], 1), uv2):setOnUpdateVector3(function (slot0)
+							uv0.map.localScale = slot0
+							uv0.float.localScale = slot0
+						end):setOnComplete(System.Action(slot0)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
-					if uv0.count == uv0.amount then
-						onNextTick(uv1)
+						uv1.lastRecordPivot = uv1.map.pivot
+						slot3 = LeanTween.value(go(uv1.map), uv1.map.pivot, Vector2.New(math.clamp(slot1[1] - 0.5, 0, 1), math.clamp(slot1[2] - 0.5, 0, 1)), uv2)
+
+						slot3:setOnUpdateVector2(function (slot0)
+							uv0.map.pivot = slot0
+							uv0.float.pivot = slot0
+						end):setEase(LeanTweenType.easeOutSine)
+						uv1:RecordTween("mapPivot", slot3.uniqueId)
+						shiftPanel(uv1.leftChapter, -uv1.leftChapter.rect.width - 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+						shiftPanel(uv1.rightChapter, uv1.rightChapter.rect.width + 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+						shiftPanel(uv1.topChapter, 0, uv1.topChapter.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+						uv1.levelStageView:ShiftStagePanelIn()
+					end,
+					function (slot0)
+						uv1:SwitchBG(uv0:getConfig("bg"), slot0)
+
+						if uv0:getConfig("bgm") and #slot2 > 0 then
+							playBGM(slot2)
+						end
 					end
-				end
-
-				slot3 = uv0:getConfig("scale")
-
-				uv1:RecordTween("mapScale", LeanTween.value(go(uv1.map), uv1.map.localScale, Vector3.New(slot3[3], slot3[3], 1), uv2):setOnUpdateVector3(function (slot0)
-					uv0.map.localScale = slot0
-					uv0.float.localScale = slot0
-				end):setOnComplete(System.Action(slot2)):setEase(LeanTweenType.easeOutSine).uniqueId)
-
-				uv1.lastRecordPivot = uv1.map.pivot
-				slot5 = LeanTween.value(go(uv1.map), uv1.map.pivot, Vector2.New(math.clamp(slot3[1] - 0.5, 0, 1), math.clamp(slot3[2] - 0.5, 0, 1)), uv2)
-
-				slot5:setOnUpdateVector2(function (slot0)
-					uv0.map.pivot = slot0
-					uv0.float.pivot = slot0
-				end):setEase(LeanTweenType.easeOutSine)
-				uv1:RecordTween("mapPivot", slot5.uniqueId)
-				shiftPanel(uv1.leftChapter, -uv1.leftChapter.rect.width - 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-				shiftPanel(uv1.rightChapter, uv1.rightChapter.rect.width + 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-				shiftPanel(uv1.topChapter, 0, uv1.topChapter.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-				uv1.levelStageView:ShiftStagePanelIn()
-				uv1:SwitchBG(uv0:getConfig("bg"), slot2)
-
-				if uv0:getConfig("bgm") and #slot7 > 0 then
-					playBGM(slot7)
-				end
+				}, function ()
+					onNextTick(uv0)
+				end)
 			end,
 			function (slot0)
 				setActive(uv0.topChapter, false)
@@ -1817,7 +1832,7 @@ end
 function slot0.switchToMap(slot0)
 	slot2 = getProxy(ChapterProxy)
 
-	if slot0.contextData.chapterVO:getMapType() == Map.ESCORT and OPEN_ESCORT and (#slot2.escortMaps == 0 or _.any(slot3, function (slot0)
+	if slot0.contextData.chapterVO and slot1:getMapType() == Map.ESCORT and OPEN_ESCORT and (#slot2.escortMaps == 0 or _.any(slot3, function (slot0)
 		return slot0:shouldFetch()
 	end)) then
 		slot0:emit(LevelMediator2.ON_FETCH_ESCORT)
@@ -1837,6 +1852,8 @@ function slot0.switchToMap(slot0)
 		uv0.map.localScale = slot0
 		uv0.float.localScale = slot0
 	end):setOnComplete(System.Action(function ()
+		uv0.mapBuilder.buffer:Show()
+		uv0:updateMapItems()
 		uv0:unfrozen()
 	end)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
@@ -1856,9 +1873,7 @@ function slot0.switchToMap(slot0)
 
 	if slot0.levelStageView then
 		slot0.levelStageView:ShiftStagePanelOut(function ()
-			if not uv0.contextData.chapterVO then
-				uv0:DestroyLevelStageView()
-			end
+			uv0:DestroyLevelStageView()
 		end)
 	end
 
@@ -1877,7 +1892,6 @@ function slot0.switchToMap(slot0)
 
 	slot0:onSubLayerContextChange()
 	slot0:setChapter(nil)
-	slot0:updateMapItems()
 	slot0:switchDifficulty()
 	slot0:updateActivityBtns()
 end
@@ -1892,7 +1906,7 @@ function slot0.SwitchBG(slot0, slot1, slot2)
 
 		GetSpriteFromAtlasAsync("levelmap/" .. slot1, "", function (slot0)
 			if not IsNil(uv0.map) and uv1 == uv0.currentBG then
-				setImageSprite(uv0.map, slot0, true)
+				setImageSprite(uv0.map, slot0)
 
 				if uv2 then
 					uv2()
@@ -2719,8 +2733,7 @@ function slot0.onSubLayerOpen(slot0)
 	slot0.visibilityForPreCombat = {
 		leftChapter = isActive(slot0.leftChapter),
 		rightChapter = isActive(slot0.rightChapter),
-		clouds = isActive(slot0.clouds),
-		chapters = isActive(slot0.chapters)
+		clouds = isActive(slot0.clouds)
 	}
 
 	for slot4, slot5 in pairs(slot0.visibilityForPreCombat) do

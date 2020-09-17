@@ -7,7 +7,6 @@ slot0.Battle.OxyState.__name = "OxyState"
 slot3 = slot0.Battle.OxyState
 slot3.STATE_IDLE = "STATE_IDLE"
 slot3.STATE_DIVE = "STATE_DIVE"
-slot3.STATE_DIVING = "STATE_DIVING"
 slot3.STATE_FLOAT = "STATE_FLOAT"
 slot3.STATE_RAID = "STATE_RAID"
 slot3.STATE_RETREAT = "STATE_RETREAT"
@@ -20,7 +19,6 @@ function slot3.Ctor(slot0, slot1)
 	slot0._target = slot1
 	slot0._idleState = uv0.Battle.IdleOxyState.New()
 	slot0._diveState = uv0.Battle.DiveOxyState.New()
-	slot0._divingState = uv0.Battle.DivingOxyState.New()
 	slot0._floatState = uv0.Battle.FloatOxyState.New()
 	slot0._raidState = uv0.Battle.RaidOxyState.New()
 	slot0._retreatState = uv0.Battle.RetreatOxyState.New()
@@ -74,8 +72,6 @@ function slot3.ChangeState(slot0, slot1, slot2)
 		slot0:OnRaidState()
 	elseif slot1 == uv0.STATE_RETREAT then
 		slot0:OnRetreatState()
-	elseif slot1 == uv0.STATE_DIVING then
-		slot0:OnDivingState()
 	elseif slot1 == uv0.STATE_FREE_DIVE then
 		slot0:OnFreeDiveState()
 	elseif slot1 == uv0.STATE_FREE_FLOAT then
@@ -101,19 +97,6 @@ function slot3.OnIdleState(slot0)
 	slot0._currentState = slot0._idleState
 end
 
-function slot3.OnDivingState(slot0)
-	slot0._currentState = slot0._divingState
-	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
-
-	slot0._target:ChangeWeaponDiveState()
-	slot0._target:SetCrash(false)
-	slot0._target:SetAI(uv0.SUB_DEFAULT_STAY_AI)
-	slot0._target:SetDiveInvisible(false)
-	slot0._target:StateChange(uv1.Battle.UnitState.STATE_DIVING)
-	slot0._target:RemoveBuff(uv0.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF)
-	slot0._target:AddBuff(uv1.Battle.BattleBuffUnit.New(uv0.SUB_DIVE_IMMUNE_IGNITE_BUFF))
-end
-
 function slot3.OnDiveState(slot0)
 	slot0._currentState = slot0._diveState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
@@ -121,7 +104,11 @@ function slot3.OnDiveState(slot0)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetCrash(false)
 	slot0._target:SetAI(uv0.SUB_DEFAULT_ENGAGE_AI)
-	slot0._target:SetDiveInvisible(true)
+
+	if slot0._currentState:UpdateDive() then
+		slot0._target:SetDiveInvisible(true)
+	end
+
 	slot0._target:StateChange(uv1.Battle.UnitState.STATE_DIVE)
 	slot0._target:TriggerBuff(uv2.BuffEffectType.ON_SUBMARINE_DIVE, {})
 	slot0._target:RemoveBuff(uv0.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF)
@@ -135,6 +122,7 @@ function slot3.OnFloatState(slot0)
 	slot0._target:ChangeWeaponDiveState()
 	slot0._target:SetDiveInvisible(false)
 	slot0._target:StateChange(uv0.Battle.UnitState.STATE_MOVE)
+	slot0._target:RemoveSonarExpose()
 	slot0._target:PlayFX("qianting_chushui", false)
 	slot0._target:TriggerBuff(uv1.BuffEffectType.ON_SUBMARINE_FLOAT, {})
 	slot0._target:RemoveBuff(uv2.SUB_DIVE_IMMUNE_IGNITE_BUFF)
@@ -146,7 +134,11 @@ function slot3.OnRaidState(slot0)
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
 	slot0._target:ChangeWeaponDiveState()
-	slot0._target:SetDiveInvisible(true)
+
+	if slot0._currentState:UpdateDive() then
+		slot0._target:SetDiveInvisible(true)
+	end
+
 	slot0._target:SetAI(uv0.SUB_DEFAULT_STAY_AI)
 	slot0._target:TriggerBuff(uv1.BuffEffectType.ON_SUBMARINE_RAID, {})
 	slot0._target:RemoveBuff(uv0.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF)

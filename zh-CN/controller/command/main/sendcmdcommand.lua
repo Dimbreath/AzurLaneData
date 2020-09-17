@@ -58,6 +58,16 @@ function slot0.execute(slot0, slot1)
 				system = SYSTEM_TEST,
 				drops = {}
 			})
+		elseif uv1 == "kill" then
+			slot1 = getProxy(PlayerProxy):getRawData()
+
+			PlayerPrefs.DeleteKey("last_map" .. slot1.id)
+
+			Map.lastMap = nil
+
+			PlayerPrefs.DeleteKey("last_map_for_activity" .. slot1.id)
+
+			Map.lastMapForActivity = nil
 		end
 	end)
 end

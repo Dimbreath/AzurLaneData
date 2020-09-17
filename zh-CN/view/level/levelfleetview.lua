@@ -71,6 +71,13 @@ function slot0.InitUI(slot0)
 	setActive(slot0.toggleMask, false)
 	setActive(slot0.btnSp, false)
 	setActive(slot0.spMask, false)
+	onButton(slot0, slot0:findTF("panel/title/SonarRange"), function ()
+		uv0:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.fleet_antisub_range_tip.tip
+		})
+	end, SFX_PANEL)
+	setText(slot0:findTF("panel/title/SonarRange/desc"), i18n("fleet_antisub_range"))
 end
 
 function slot0.set(slot0, slot1, slot2, slot3)
@@ -157,6 +164,8 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	if OPEN_AIR_DOMINANCE and slot0.chapterASValue > 0 then
 		slot0:updateASValue()
 	end
+
+	slot0:UpdateSonarRange()
 end
 
 function slot0.getFleetById(slot0, slot1)
@@ -249,6 +258,8 @@ function slot0.selectFleet(slot0, slot1, slot2, slot3)
 			slot0:updateASValue()
 		end
 	end
+
+	slot0:UpdateSonarRange()
 end
 
 function slot0.updateCommanderBtn(slot0, slot1, slot2)
@@ -456,6 +467,35 @@ function slot0.updateASValue(slot0)
 	setText(slot4:Find("suggest/number"), slot0.suggestionValue)
 end
 
+function slot0.UpdateSonarRange(slot0)
+	for slot5 = 1, 2 do
+		slot7 = slot0.selectIds[FleetType.Normal][slot5] and slot6 == 0 and 0 or slot0:getFleetById(slot6)
+
+		setText(slot0:findTF("panel/title/SonarRange/values"):GetChild(slot5 - 1), slot7 and math.floor(slot7:GetFleetSonarRange()) or 0)
+	end
+end
+
+function slot0.UpdateEliteSonarRange(slot0)
+	slot1 = slot0:findTF("panel/title/SonarRange/values")
+
+	for slot5 = 1, 2 do
+		slot6 = slot0.eliteFleetList[slot5]
+		slot7 = {}
+
+		for slot11, slot12 in pairs(slot0.eliteCommanderList[slot5]) do
+			table.insert(slot7, {
+				pos = slot11,
+				id = slot12
+			})
+		end
+
+		setText(slot1:GetChild(slot5 - 1), Fleet.New({
+			ship_list = slot6,
+			commanders = slot7
+		}) and math.floor(slot8:GetFleetSonarRange()) or 0)
+	end
+end
+
 function slot0.clearFleet(slot0, slot1)
 	slot3 = slot0:findTF(TeamType.Vanguard, slot1)
 	slot4 = slot0:findTF(TeamType.Submarine, slot1)
@@ -564,6 +604,7 @@ function slot0.flush(slot0)
 	end
 
 	slot0:updateEliteFleets()
+	slot0:UpdateEliteSonarRange()
 end
 
 function slot0.updateEliteLimit(slot0)
@@ -664,7 +705,7 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 
 						break
 					end
-				elseif type(slot24) == "string" and table.contains(Clone(ShipType.BundleList[slot24]), slot19:getShipType()) then
+				elseif type(slot24) == "string" and table.contains(ShipType.BundleList[slot24], slot19:getShipType()) then
 					slot17 = slot19
 					slot18 = slot24
 

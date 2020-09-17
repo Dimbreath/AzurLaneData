@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "好，这张照片就叫着“因为被夸奖而藏不住高兴心情的埃塞克斯”吧",
+			say = "好，这张照片就叫做“因为被夸奖而藏不住高兴心情的埃塞克斯”吧",
 			flashout = {
 				dur = 0.1,
 				black = false,
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "但是，港区里面也不乏其它厉害的人哦。那个自称前辈是她的宿敌的重樱的航空母舰实力也非常的强，总有一天也要和她分个胜负…",
+			say = "但是，港区里面也不乏其它厉害的人哦。那个自称前辈是她宿敌的重樱航空母舰实力也非常的强，总有一天也要和她分个胜负…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

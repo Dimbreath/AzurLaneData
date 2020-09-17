@@ -14,6 +14,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0._endFunc = slot4
 	slot0._IFF = slot2
 	slot0._cldObjList = {}
+	slot0._cldObjDistanceList = {}
 
 	slot0:SetTickness(10)
 
@@ -135,6 +136,10 @@ function slot2.GetFieldType(slot0)
 	return slot0._fieldType
 end
 
+function slot2.GetDiveFilter(slot0)
+	return slot0._diveFilter
+end
+
 function slot2.GetCldFunc(slot0)
 	return slot0._areaCldFunc
 end
@@ -159,6 +164,10 @@ function slot2.SetAreaType(slot0, slot1)
 	slot0._areaType = slot1
 
 	slot0:InitCldComponent()
+end
+
+function slot2.SetDiveFilter(slot0, slot1)
+	slot0._diveFilter = slot1
 end
 
 function slot2.SetPosition(slot0, slot1)
@@ -235,4 +244,37 @@ end
 
 function slot2.GetCldData(slot0)
 	return slot0._cldComponent:GetCldData()
+end
+
+function slot2.UpdateDistanceInfo(slot0)
+	for slot4, slot5 in ipairs(slot0._cldObjList) do
+		slot6 = nil
+		slot9 = slot5.UpperBound
+		slot10 = slot5.LowerBound
+		slot12, slot13 = nil
+
+		if slot5.LeftBound <= slot0._pos.x and slot11 <= slot5.RightBound then
+			slot12 = true
+		elseif slot11 < slot7 then
+			slot13 = slot7
+		elseif slot8 < slot11 then
+			slot13 = slot8
+		end
+
+		slot15, slot16 = nil
+
+		if slot10 <= slot0._pos.z and slot14 <= slot9 then
+			slot15 = true
+		elseif slot14 < slot10 then
+			slot16 = slot10
+		elseif slot9 < slot14 then
+			slot16 = slot9
+		end
+
+		slot0._cldObjDistanceList[slot5.UID] = slot12 and slot15 and 0 or (not slot12 or math.abs(slot16 - slot14)) and (not slot15 or math.abs(slot13 - slot11)) and math.sqrt((slot13 - slot11)^2 + (slot16 - slot14)^2)
+	end
+end
+
+function slot2.GetDistance(slot0, slot1)
+	return slot0._cldObjDistanceList[slot1]
 end

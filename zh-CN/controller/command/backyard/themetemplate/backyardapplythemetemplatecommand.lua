@@ -86,7 +86,17 @@ function slot0.WarpList(slot0)
 		if slot0[slot12].position then
 			if slot1:GetAllFurniture()[slot13.id] then
 				if function (slot0)
-					return not slot0:isPaper() and (slot0.position.x < uv0 or slot0.position.y < uv1)
+					if not slot0:isPaper() then
+						if slot0.position.x >= uv0 then
+							if slot0.position.y >= uv1 then
+								slot1 = false
+							end
+						else
+							slot1 = true
+						end
+					end
+
+					return slot1
 				end(slot13) then
 					table.remove(slot0, slot12)
 				end

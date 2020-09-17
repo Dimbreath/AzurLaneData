@@ -12,7 +12,7 @@ end
 
 function slot0.isClearMaps(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
-		if slot6:getConfig("type") == slot1 and not slot6:isClearForActivity() then
+		if slot6:getConfig("type") == slot1 and not slot6:isClearAllChapters() then
 			return false
 		end
 	end
@@ -30,9 +30,9 @@ function slot0.canSwitchToEx(slot0, slot1)
 			end
 		end(slot9) then
 			slot3 = true
-		end
 
-		break
+			break
+		end
 	end
 
 	return slot3
@@ -55,24 +55,19 @@ function slot0.getMapsByType(slot0, slot1, slot2)
 end
 
 function slot0.getMapsByActivityType(slot0, slot1)
-	slot2 = getProxy(ActivityProxy):getActivitiesByType(slot1)
-	slot3 = {}
+	slot2 = {}
 
-	for slot7, slot8 in pairs(slot0) do
-		for slot12, slot13 in pairs(slot2) do
-			if slot8:getConfig("on_activity") == slot13.id then
-				table.insert(slot3, slot8)
-
-				break
-			end
+	for slot6, slot7 in pairs(slot0) do
+		if slot7:IsZprojectActiveMap() and pg.activity_template[slot7:getConfig("on_activity")] and slot8.type == slot1 then
+			table.insert(slot2, slot7)
 		end
 	end
 
-	table.sort(slot3, function (slot0, slot1)
+	table.sort(slot2, function (slot0, slot1)
 		return slot0.id < slot1.id
 	end)
 
-	return slot3
+	return slot2
 end
 
 function slot0.isExtraBossChapter(slot0, slot1)

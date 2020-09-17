@@ -325,6 +325,136 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
+	[31] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 31,
+		illustrate = "",
+		illustration = "gallerypic31",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[32] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 32,
+		illustrate = "",
+		illustration = "gallerypic32",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[33] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 33,
+		illustrate = "",
+		illustration = "gallerypic33",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[34] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 34,
+		illustrate = "",
+		illustration = "gallerypic34",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[35] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 35,
+		illustrate = "",
+		illustration = "gallerypic35",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[36] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 36,
+		illustrate = "",
+		illustration = "gallerypic36",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[37] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 37,
+		illustrate = "",
+		illustration = "gallerypic37",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[38] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 38,
+		illustrate = "",
+		illustration = "gallerypic38",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[39] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 39,
+		illustrate = "",
+		illustration = "gallerypic39",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	[40] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 40,
+		illustrate = "",
+		illustration = "gallerypic40",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
 	all = {
 		1,
 		2,
@@ -350,6 +480,16 @@ pg.gallery_config = {
 		27,
 		28,
 		29,
-		30
+		30,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39,
+		40
 	}
 }

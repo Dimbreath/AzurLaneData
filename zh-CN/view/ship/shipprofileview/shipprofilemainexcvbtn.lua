@@ -68,11 +68,12 @@ function slot0.Update(slot0)
 end
 
 function slot0.UpdateCvBtn(slot0)
+	slot1 = slot0.voice
 	slot2 = slot0.shipGroup
 	slot4 = nil
-	slot0.nameTxt.text = true and slot0.voice.voice_name or "???"
+	slot0.nameTxt.text = true and slot1.voice_name or "???"
 
-	setActive(slot0.tagDiff, true)
+	setActive(slot0.tagDiff, ShipWordHelper.ExistDifferentMainExWord(slot0.skin.id, slot1.key, slot0.wordData.mainIndex, slot0.shipGroup:GetMaxIntimacy()))
 end
 
 return slot0

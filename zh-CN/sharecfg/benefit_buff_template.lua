@@ -84,9 +84,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，角色经验获取提高3%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				1,
+				5,
 				1
 			}
 		}
@@ -101,9 +101,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，角色经验获取提高4%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				1,
+				5,
 				2
 			}
 		}
@@ -118,9 +118,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，角色经验获取提高5%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				1,
+				5,
 				3
 			}
 		}
@@ -135,9 +135,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				2,
+				6,
 				1
 			}
 		}
@@ -152,9 +152,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				2,
+				6,
 				2
 			}
 		}
@@ -169,9 +169,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				2,
+				6,
 				3
 			}
 		}
@@ -186,9 +186,9 @@ pg.benefit_buff_template = {
 		desc = "战术学院技能学习时间减少3%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				3,
+				7,
 				1
 			}
 		}
@@ -203,9 +203,9 @@ pg.benefit_buff_template = {
 		desc = "战术学院技能学习时间减少4%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				3,
+				7,
 				2
 			}
 		}
@@ -220,9 +220,9 @@ pg.benefit_buff_template = {
 		desc = "战术学院技能学习时间减少5%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				3,
+				7,
 				3
 			}
 		}
@@ -237,9 +237,9 @@ pg.benefit_buff_template = {
 		desc = "后宅经验加成提高3%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				4,
+				8,
 				1
 			}
 		}
@@ -254,9 +254,9 @@ pg.benefit_buff_template = {
 		desc = "后宅经验加成提高4%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				4,
+				8,
 				2
 			}
 		}
@@ -271,12 +271,22 @@ pg.benefit_buff_template = {
 		desc = "后宅经验加成提高5%",
 		benefit_condition = {
 			"activity",
-			587,
+			686,
 			{
-				4,
+				8,
 				3
 			}
 		}
+	},
+	[25] = {
+		max_time = 0,
+		name = "活动关卡特装原型掉落加成",
+		icon = "Props/buff_urptup",
+		benefit_effect = "0",
+		id = 25,
+		benefit_condition = "",
+		benefit_type = "urpt_drop_up",
+		desc = "通过「蝶海梦花」活动关卡获得的特装原型数量翻倍"
 	},
 	all = {
 		1,
@@ -297,6 +307,7 @@ pg.benefit_buff_template = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

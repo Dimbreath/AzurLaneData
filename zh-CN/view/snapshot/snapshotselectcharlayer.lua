@@ -69,6 +69,7 @@ function slot0.init(slot0)
 
 	slot0:initSelectSkinPanel()
 	cameraPaintViewAdjust(false)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 function slot0.didEnter(slot0)
@@ -132,6 +133,7 @@ end
 
 function slot0.willExit(slot0)
 	cameraPaintViewAdjust(true)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 function slot1(slot0, slot1, slot2)

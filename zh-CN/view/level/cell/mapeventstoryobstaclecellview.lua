@@ -25,14 +25,19 @@ function slot0.Update(slot0)
 			if not IsNil(slot0:GetComponent(typeof(ParticleSystemEvent))) then
 				slot1:SetEndEvent(function ()
 					uv0:GetLoader():ClearRequest("DisapperAnim")
+
+					uv0.playingAnim = false
+
+					uv0:Update()
 				end)
 			end
 		end, "DisapperAnim")
 
 		slot0.disappearAnim = true
+		slot0.playingAnim = true
 	end
 
-	setActive(slot0.tf, slot7)
+	setActive(slot0.tf, slot7 or slot0.playingAnim)
 end
 
 return slot0

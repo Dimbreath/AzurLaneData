@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "师父就算啦～不过呢，科学的道路是十分广阔的！U73，",
+			say = "老师就算啦～不过呢，科学的道路是十分广阔的！U73，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

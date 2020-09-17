@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳…这是指为了帮到埃塞克斯而已…",
+			say = "咳咳…这只是为了帮到埃塞克斯而已…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

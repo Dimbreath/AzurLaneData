@@ -32,3 +32,7 @@ end
 function slot2.RunMode(slot0)
 	return false
 end
+
+function slot2.UpdateDive(slot0)
+	return true
+end

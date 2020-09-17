@@ -128,6 +128,14 @@ pg.equip_data_by_type = {
 		compare_group = 5,
 		type_name2 = "直升机"
 	},
+	[18] = {
+		distory_resource_gold_ratio = 2,
+		type_name = "货物",
+		equip_skin = 1,
+		equip_type = 18,
+		compare_group = 5,
+		type_name2 = "货物"
+	},
 	all = {
 		1,
 		2,
@@ -144,6 +152,7 @@ pg.equip_data_by_type = {
 		13,
 		14,
 		15,
-		17
+		17,
+		18
 	}
 }

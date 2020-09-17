@@ -26,24 +26,24 @@ function slot0.Update(slot0)
 			end)
 		end
 
-		slot10 = slot8 .. "_1shangceng"
-
 		if IsNil(slot0.triggerUpper) then
-			slot13 = GameObject.New(slot9 .. "_upper")
+			slot10 = GameObject.New(slot9 .. "_upper")
 
-			slot13:AddComponent(typeof(RectTransform))
-			tf(slot13):SetParent(slot0.cellRoot, false)
+			slot10:AddComponent(typeof(RectTransform))
+			tf(slot10):SetParent(slot0.cellRoot, false)
 
-			tf(slot13).localPosition = slot6.theme:GetLinePosition(slot3, slot4)
-			tf(slot13).localEulerAngles = Vector3(-slot6.theme.angle, 0, 0)
+			tf(slot10).localPosition = slot6.theme:GetLinePosition(slot3, slot4)
+			tf(slot10).localEulerAngles = Vector3(-slot6.theme.angle, 0, 0)
 
 			if slot8 and #slot8 > 0 then
-				slot0:GetLoader():GetPrefab("ui/" .. slot10, slot10, function (slot0)
+				slot11 = slot8 .. "_1shangceng"
+
+				slot0:GetLoader():GetPrefab("ui/" .. slot11, slot11, function (slot0)
 					tf(slot0):SetParent(tf(uv0), false)
 				end)
 			end
 
-			slot0.triggerUpper = HaloAttachmentView.New(slot13, slot3, slot4)
+			slot0.triggerUpper = HaloAttachmentView.New(slot10, slot3, slot4)
 		end
 	end
 

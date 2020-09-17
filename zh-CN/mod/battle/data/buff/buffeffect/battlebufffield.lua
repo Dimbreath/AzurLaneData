@@ -23,7 +23,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._isUpdateAura = slot3.FAura
 	slot4 = true
 
-	if type(slot0._target) == "string" and slot0._target == "TargetAllHarm" or slot5 == "table" and table.contains(slot0._target, "TargetAllHarm") then
+	if type(slot0._target) == "string" and slot0._target == "TargetAllHarm" or slot5 == "table" and table.contains(slot0._target, "TargetAllHarm") or slot5 == "string" and slot0._target == "TargetAllFoe" or slot5 == "table" and table.contains(slot0._target, "TargetAllFoe") then
 		slot4 = false
 	end
 

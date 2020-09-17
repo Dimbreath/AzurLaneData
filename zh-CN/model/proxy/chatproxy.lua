@@ -33,10 +33,6 @@ function slot0.InjectPublic(slot0, slot1, slot2)
 					slot9 = slot9 .. "..." or slot9
 				end
 			end
-
-			if slot10.rarity == ShipRarity.SSR then
-				slot9 = ShipRarity.SSRGradient(slot9)
-			end
 		else
 			slot9 = (slot8.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeItemId or pg.item_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeNums or slot8.int) and slot8.string
 		end

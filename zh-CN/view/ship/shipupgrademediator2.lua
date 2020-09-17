@@ -60,37 +60,13 @@ function slot0.register(slot0)
 			onSelected = function (slot0)
 				uv0.contextData.materialShipIds = slot0
 			end,
-			confirmSelect = function (slot0, slot1, slot2)
-				if not _.all(function (slot0, slot1)
-					function slot3(slot0, slot1)
-						if not _.include(uv0, slot0) then
-							uv0[slot1] = slot0
-						end
-					end
+			confirmSelect = function (slot0, slot1, slot2, slot3)
+				slot4, slot5 = ShipCalcHelper.GetEliteAndHightLevelShipsById(slot0, uv0)
 
-					_.each(slot0, function (slot0)
-						if uv0[slot0].level > 1 then
-							uv1(i18n("destroy_high_level_tip"), 2)
-						end
-
-						if slot1:getRarity() >= 4 then
-							uv1(i18n("destroy_high_rarity_tip"), 1)
-						end
-					end)
-
-					return {
-						"",
-						""
-					}
-				end(slot0, uv0), function (slot0)
-					return slot0 == ""
-				end) then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("destroy_eliteship_tip", string.gsub(table.concat(slot4, ""), "$1", slot4[1] == "" and "" or ",")),
-						onYes = slot1
-					})
-				else
+				if #slot4 == 0 and #slot5 == 0 then
 					slot1()
+				else
+					slot3.destroyConfirmWindow:ExecuteAction("Show", slot4, slot5, false, slot1)
 				end
 			end
 		})

@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 602
+		act_id = 708
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3

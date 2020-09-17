@@ -29,11 +29,14 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				target = "TargetSelf",
 				countType = 22254,
 				maxTargetNumber = 0,
 				skill_id = 22254,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Suzuya"
 				}
@@ -46,10 +49,13 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				check_target = "TargetShipTag",
 				target = "TargetSelf",
 				countType = 22254,
 				skill_id = 22256,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Suzuya"
 				}

@@ -250,7 +250,8 @@ slot0.SHIP_TYPE_ACCURACY_ENHANCE = {
 	[ShipType.JinBi] = "accuracyToShipType_15",
 	[ShipType.ZiBao] = "accuracyToShipType_16",
 	[ShipType.QianMu] = "accuracyToShipType_17",
-	[ShipType.ChaoXun] = "accuracyToShipType_18"
+	[ShipType.ChaoXun] = "accuracyToShipType_18",
+	[ShipType.Yunshu] = "accuracyToShipType_19"
 }
 slot0.OXY_RAID_BASE_LINE_PVE = -20
 slot0.OXY_RAID_BASE_LINE_PVP = -20
@@ -259,6 +260,28 @@ slot0.SUB_DEFAULT_ENGAGE_AI = 90001
 slot0.SUB_DEFAULT_RETREAT_AI = 90002
 slot0.SONAR_DURATION_K = 0.1
 slot0.SONAR_INTERVAL_K = 0.1
+slot0.VAN_SONAR_PROPERTY = {
+	[ShipType.QuZhu] = {
+		a = 2,
+		maxRange = 100,
+		minRange = 45,
+		b = 32
+	},
+	[ShipType.QingXun] = {
+		a = 2.86,
+		maxRange = 80,
+		minRange = 30,
+		b = 0
+	}
+}
+slot0.MAIN_SONAR_PROPERTY = {
+	a = 24,
+	maxRange = 15,
+	minRange = 0
+}
+slot0.SUB_EXPOSE_LASTING_DURATION = 0.5
+slot0.SUB_FADE_IN_DURATION = 0.5
+slot0.SUB_FADE_OUT_DURATION = 0.5
 slot0.SUB_DIVE_IMMUNE_IGNITE_BUFF = 314
 slot0.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF = 315
 slot0.PLAYER_SUB_BUBBLE_FX = "bubble"

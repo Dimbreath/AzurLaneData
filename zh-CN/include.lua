@@ -23,11 +23,6 @@ ERROR_MESSAGE = setmetatable({}, {
 		end
 	end
 })
-
-function GetBattleCheck()
-	return math.floor(ys.EquipDataStatisticVertify + ys.WeaponPropertyVertify + ys.ShipStatisticsVertify + ys.EnemyStatisticsVertify + ys.ExpeditionDataVertify + GetSpeNum(pg.skillCfg, 0) + GetSpeNum(pg.buffCfg, 0))
-end
-
 BVCurIndex = 1
 BVLastIndex = 1
 

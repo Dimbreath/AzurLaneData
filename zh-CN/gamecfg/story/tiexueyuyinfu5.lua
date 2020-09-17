@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "难道，你们还想再品尝次“第十一节”的屈辱吗？",
+			say = "难道，你们还想再品尝一次“第十一节”的屈辱吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -979,6 +979,22 @@ function slot6.GetConvertedAtkAttr(slot0)
 	return slot0._convertedAtkAttr
 end
 
+function slot6.SetAtkAttrTrasnform(slot0, slot1, slot2, slot3)
+	slot0._atkAttrTrans = slot1
+	slot0._atkAttrTransA = slot2
+	slot0._atkAttrTransB = slot3
+end
+
+function slot6.GetAtkAttrTrasnform(slot0, slot1)
+	slot2 = nil
+
+	if slot0._atkAttrTrans then
+		slot2 = math.min((slot1[slot0._atkAttrTrans] or 0) / slot0._atkAttrTransA, slot0._atkAttrTransB)
+	end
+
+	return slot2
+end
+
 function slot6.IsReady(slot0)
 	return slot0._currentState == slot0.STATE_READY
 end

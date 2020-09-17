@@ -69,7 +69,8 @@ return {
 				EquipType.Equipment,
 				EquipType.AntiSubAircraft,
 				EquipType.Sonar,
-				EquipType.Helicopter
+				EquipType.Helicopter,
+				EquipType.Goods
 			}
 		}
 	},

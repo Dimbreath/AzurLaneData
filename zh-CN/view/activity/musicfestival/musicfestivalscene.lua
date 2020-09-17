@@ -109,7 +109,7 @@ function slot0.didEnter(slot0)
 	slot0:InitFacility(slot0.door, function ()
 		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot0 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity) or slot2:isEnd() then
+		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return

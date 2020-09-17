@@ -97,7 +97,7 @@ end
 function slot0.getDataConfigTable(slot0)
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 		return pg.activity_event_monopoly[tonumber(slot0:getConfig("config_id"))]
-	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM then
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM or slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT then
 		return pg.activity_event_pt[tonumber(slot2)]
 	end
 end
@@ -122,23 +122,29 @@ function slot0.readyToAchieve()
 	error("Decompilation failed")
 	-- Exception in function building!
 	-- Traceback (most recent call last):
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 856, in _build_function
+	-- File "utils/luajit/ljd/ast/builder.py", line 856, in _build_function
 	--     return _build_function_definition(prototype, state.header)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 54, in _build_function_definition
+	-- File "utils/luajit/ljd/ast/builder.py", line 54, in _build_function_definition
 	--     node.statements.contents = _build_function_blocks(state, instructions)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 75, in _build_function_blocks
+	-- File "utils/luajit/ljd/ast/builder.py", line 75, in _build_function_blocks
 	--     _blockenize(state, instructions)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 143, in _blockenize
+	-- File "utils/luajit/ljd/ast/builder.py", line 143, in _blockenize
 	--     _fix_broken_unary_expressions(state, instructions)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 1242, in _fix_broken_unary_expressions
+	-- File "utils/luajit/ljd/ast/builder.py", line 1242, in _fix_broken_unary_expressions
 	--     _remove_instruction(state, instructions, i + 1)
-	-- File "/home/dimbreath/AzurLaneData/bin/luajit-decompiler/ljd/ast/builder.py", line 1265, in _remove_instruction
+	-- File "utils/luajit/ljd/ast/builder.py", line 1265, in _remove_instruction
 	--     state.debuginfo.addr_to_line_map.pop(index)
 	-- IndexError: pop from empty list
 end
 
 function slot0.isShow(slot0)
-	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+	if slot0.configId == 713 then
+		return not _.all(slot0:getConfig("config_data")[1], function (slot0)
+			slot1 = getProxy(TaskProxy):getTaskById(slot0) or getProxy(TaskProxy):getFinishTaskById(slot0)
+
+			return slot1 and slot1:isFinish() and slot1:isReceive()
+		end)
+	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 		return slot0:getConfig("is_show") > 0 and slot0.data1 ~= 0
 	else
 		return slot0:getConfig("is_show") > 0

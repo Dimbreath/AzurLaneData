@@ -10,13 +10,13 @@ function slot1.GetType(slot0)
 	return uv0.TYPEESCORT
 end
 
-function slot1.GetUIName(slot0)
+function slot1.getUIName(slot0)
 	return "escort_levels"
 end
 
 function slot1.OnInit(slot0)
-	slot0.tpl = slot0.tf:Find("escort_level_tpl")
-	slot0.itemHolder = slot0.tf:Find("items")
+	slot0.tpl = slot0._tf:Find("escort_level_tpl")
+	slot0.itemHolder = slot0._tf:Find("items")
 end
 
 function slot1.Update(slot0, slot1)
@@ -24,12 +24,12 @@ function slot1.Update(slot0, slot1)
 	slot0.float.pivot = Vector2(0.5, 0.5)
 	slot4 = 1
 
-	if slot0.map.rect.width / slot0.map.rect.height < slot0.tfParent.rect.width / slot0.tfParent.rect.height then
-		slot4 = slot0.tfParent.rect.width / 1280
-		slot0.tf.localScale = Vector3(slot4, slot4, 1)
+	if slot0.map.rect.width / slot0.map.rect.height < slot0._parentTf.rect.width / slot0._parentTf.rect.height then
+		slot4 = slot0._parentTf.rect.width / 1280
+		slot0._tf.localScale = Vector3(slot4, slot4, 1)
 	else
-		slot4 = slot0.tfParent.rect.height / 720
-		slot0.tf.localScale = Vector3(slot4, slot4, 1)
+		slot4 = slot0._parentTf.rect.height / 720
+		slot0._tf.localScale = Vector3(slot4, slot4, 1)
 	end
 
 	slot0.scaleRatio = slot4

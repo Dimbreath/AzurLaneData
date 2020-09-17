@@ -53,24 +53,28 @@ function slot0.closeTreePanel(slot0)
 	slot0.treePanel:ActionInvoke("closeTreePanel")
 end
 
-function slot0.enterAnim(slot0)
+function slot0.onUIAnimEnd(slot0, slot1)
 	slot0.antor:SetBool("play", true)
 
 	slot0.isAnim = true
 
 	setActive(slot0.clickTF, slot0.skipAnim)
 
-	slot1 = slot0._tf:GetComponent(typeof(DftAniEvent))
+	slot2 = slot0._tf:GetComponent(typeof(DftAniEvent))
 
-	slot1:SetTriggerEvent(function (slot0)
+	slot2:SetTriggerEvent(function (slot0)
 		if uv0.commanderVO:isSSR() then
 			uv0:playerEffect()
 		end
+
+		uv1:SetTriggerEvent(nil)
 	end)
-	slot1:SetEndEvent(function ()
+	slot2:SetEndEvent(function ()
 		uv0.isAnim = false
 
 		setActive(uv0.clickTF, true)
+		uv1:SetEndEvent(nil)
+		uv2()
 	end)
 end
 
@@ -103,9 +107,7 @@ function slot0.closeMsgBox(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0:updateInfo(function ()
-		uv0:enterAnim()
-	end)
+	slot0:updateInfo()
 	onButton(slot0, slot0.shareBtn, function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK)
 	end, SFX_PANEL)

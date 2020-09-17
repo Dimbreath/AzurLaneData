@@ -376,20 +376,14 @@ end
 
 function slot0.doTeleportSub(slot0)
 	slot1 = slot0.op
-	slot3 = _.detect(slot0.chapter.fleets, function (slot0)
-		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
-	end)
-	slot3.line = {
-		row = slot1.arg1,
-		column = slot1.arg2
-	}
-	slot3.startPos = {
-		row = slot1.arg1,
-		column = slot1.arg2
-	}
 	slot0.fullpath = {
-		slot3.startPos,
-		slot3.line
+		_.detect(slot0.chapter.fleets, function (slot0)
+			return slot0.id == uv0.id
+		end).startPos,
+		{
+			row = slot1.arg1,
+			column = slot1.arg2
+		}
 	}
 end
 
@@ -401,6 +395,41 @@ function slot0.doEnemyRound(slot0)
 	if slot1:getPlayType() == ChapterConst.TypeDefence then
 		slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyAttachment)
 	end
+end
+
+function slot0.doTeleportByPortal(slot0)
+	if not (slot0.fullpath and slot0.fullpath[#slot0.fullpath]) then
+		return
+	end
+
+	slot3 = nil
+
+	if slot0.op.type == ChapterConst.OpMove then
+		slot3 = slot0.chapter:GetCellEventByKey("jump", slot1.row, slot1.column)
+	elseif slot0.op.type == ChapterConst.OpSubTeleport then
+		slot3 = slot2:GetCellEventByKey("jumpsub", slot1.row, slot1.column)
+	end
+
+	if not slot3 then
+		return
+	end
+
+	slot4 = {
+		row = slot3[1],
+		column = slot3[2]
+	}
+
+	if slot0.op.type == ChapterConst.OpMove and slot2:getFleet(FleetType.Normal, slot4.row, slot4.column) then
+		return
+	end
+
+	slot0.teleportPaths = slot0.teleportPaths or {}
+
+	table.insert(slot0.teleportPaths, {
+		row = slot1.row,
+		column = slot1.column
+	})
+	table.insert(slot0.teleportPaths, slot4)
 end
 
 return slot0

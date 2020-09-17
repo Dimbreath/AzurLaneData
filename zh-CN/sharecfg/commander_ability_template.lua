@@ -1622,7 +1622,7 @@ pg.commander_ability_template = {
 		name = "装填新手·特殊",
 		group_id = 65,
 		worth = 1,
-		desc = "<color=#3dc6ff>重炮、维修</color>装填提高3点",
+		desc = "<color=#3dc6ff>重炮、维修、运输</color>装填提高3点",
 		next = 652,
 		id = 651,
 		icon = "teshu_one_1",
@@ -1632,7 +1632,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				3
@@ -1645,6 +1646,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<维修>装填",
+				3
+			},
+			{
+				"<运输>装填",
 				3
 			}
 		}
@@ -1654,7 +1659,7 @@ pg.commander_ability_template = {
 		name = "熟练装填手·特殊",
 		group_id = 65,
 		worth = 2,
-		desc = "<color=#3dc6ff>重炮、维修</color>装填提高4点",
+		desc = "<color=#3dc6ff>重炮、维修、运输</color>装填提高4点",
 		next = 653,
 		id = 652,
 		icon = "teshu_one_2",
@@ -1664,7 +1669,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				4
@@ -1677,6 +1683,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<维修>装填",
+				4
+			},
+			{
+				"<运输>装填",
 				4
 			}
 		}
@@ -1686,7 +1696,7 @@ pg.commander_ability_template = {
 		name = "无影手·特殊",
 		group_id = 65,
 		worth = 3,
-		desc = "<color=#3dc6ff>重炮、维修</color>装填提高6点",
+		desc = "<color=#3dc6ff>重炮、维修、运输</color>装填提高6点",
 		next = 0,
 		id = 653,
 		icon = "teshu_one_3",
@@ -1696,7 +1706,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				6
@@ -1709,6 +1720,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<维修>装填",
+				6
+			},
+			{
+				"<运输>装填",
 				6
 			}
 		}
@@ -2201,7 +2216,7 @@ pg.commander_ability_template = {
 		name = "轮机手·特殊",
 		group_id = 75,
 		worth = 1,
-		desc = "<color=#3dc6ff>重炮、维修</color>耐久提高40点",
+		desc = "<color=#3dc6ff>重炮、维修、运输</color>耐久提高40点",
 		next = 752,
 		id = 751,
 		icon = "teshu_naijiu_1",
@@ -2211,7 +2226,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				40
@@ -2224,6 +2240,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<维修>耐久",
+				40
+			},
+			{
+				"<运输>耐久",
 				40
 			}
 		}
@@ -2233,7 +2253,7 @@ pg.commander_ability_template = {
 		name = "熟练轮机手·特殊",
 		group_id = 75,
 		worth = 2,
-		desc = "<color=#3dc6ff>重炮、维修</color>耐久提高56点",
+		desc = "<color=#3dc6ff>重炮、维修、运输</color>耐久提高56点",
 		next = 753,
 		id = 752,
 		icon = "teshu_naijiu_2",
@@ -2243,7 +2263,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				56
@@ -2256,6 +2277,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<维修>耐久",
+				56
+			},
+			{
+				"<运输>耐久",
 				56
 			}
 		}
@@ -2265,7 +2290,7 @@ pg.commander_ability_template = {
 		name = "轮机长·特殊",
 		group_id = 75,
 		worth = 3,
-		desc = "<color=#3dc6ff>重炮、维修</color>耐久提高80点",
+		desc = "<color=#3dc6ff>重炮、维修、运输</color>耐久提高80点",
 		next = 0,
 		id = 753,
 		icon = "teshu_naijiu_3",
@@ -2275,7 +2300,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				80
@@ -2288,6 +2314,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<维修>耐久",
+				80
+			},
+			{
+				"<运输>耐久",
 				80
 			}
 		}
@@ -2657,7 +2687,7 @@ pg.commander_ability_template = {
 		name = "操舵手·中型舰",
 		group_id = 91,
 		worth = 1,
-		desc = "<color=#3dc6ff>轻巡、重巡、轻航、重炮、维修</color>机动提高3点",
+		desc = "<color=#3dc6ff>轻巡、重巡、轻航、重炮、维修、运输</color>机动提高3点",
 		next = 912,
 		id = 911,
 		icon = "xunyang_one_1",
@@ -2670,7 +2700,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				3
@@ -2688,7 +2719,7 @@ pg.commander_ability_template = {
 		name = "熟练舵手·中型舰",
 		group_id = 91,
 		worth = 2,
-		desc = "<color=#3dc6ff>轻巡、重巡、轻航、重炮、维修</color>机动提高4点",
+		desc = "<color=#3dc6ff>轻巡、重巡、轻航、重炮、维修、运输</color>机动提高4点",
 		next = 913,
 		id = 912,
 		icon = "xunyang_one_2",
@@ -2701,7 +2732,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				4
@@ -2719,7 +2751,7 @@ pg.commander_ability_template = {
 		name = "航海长·中型舰",
 		group_id = 91,
 		worth = 3,
-		desc = "<color=#3dc6ff>轻巡、重巡、轻航、重炮、维修</color>机动提高6点",
+		desc = "<color=#3dc6ff>轻巡、重巡、轻航、重炮、维修、运输</color>机动提高6点",
 		next = 0,
 		id = 913,
 		icon = "xunyang_one_3",
@@ -2732,7 +2764,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				6

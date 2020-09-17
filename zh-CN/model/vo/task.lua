@@ -225,4 +225,12 @@ function slot0.getConfirmSetting(slot0)
 	return Clone(slot0.confirmSetting)
 end
 
+function slot0.IsUrTask(slot0)
+	slot2 = pg.gameset.urpt_chapter_max.description[1]
+
+	return _.any(slot0:getConfig("award_display"), function (slot0)
+		return slot0[1] == DROP_TYPE_ITEM and slot0[2] == uv0
+	end)
+end
+
 return slot0
