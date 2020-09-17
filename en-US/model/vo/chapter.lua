@@ -631,6 +631,16 @@ function slot0.inWartime(slot0)
 	return slot0.dueTime and pg.TimeMgr.GetInstance():GetServerTime() < slot0.dueTime
 end
 
+function slot0.inActTime(slot0)
+	slot3 = false
+
+	if pg.expedition_data_by_map[slot0:getConfig("map")].on_activity > 0 and pg.activity_template[slot4] then
+		slot3 = pg.TimeMgr.GetInstance():inTime(slot5.time)
+	end
+
+	return slot3
+end
+
 function slot0.getRemainTime(slot0)
 	return slot0.dueTime and math.max(slot0.dueTime - pg.TimeMgr.GetInstance():GetServerTime() - 1, 0) or 0
 end

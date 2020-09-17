@@ -10910,7 +10910,7 @@ as explored, respectively.]]
 		tip = "Total: "
 	},
 	destory_ship_before_tip = {
-		tip = "Are you sure you want to retire this ship? "
+		tip = "Are you sure you want to select this ship? "
 	},
 	destory_ship_input_erro = {
 		tip = "Please input the numbers on the screen. "
