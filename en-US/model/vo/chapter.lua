@@ -632,13 +632,13 @@ function slot0.inWartime(slot0)
 end
 
 function slot0.inActTime(slot0)
-	slot3 = false
-
-	if pg.expedition_data_by_map[slot0:getConfig("map")].on_activity > 0 and pg.activity_template[slot4] then
-		slot3 = pg.TimeMgr.GetInstance():inTime(slot5.time)
+	if slot0:getConfig("act_id") == 0 then
+		return true
 	end
 
-	return slot3
+	slot2 = slot1 and getProxy(ActivityProxy):getActivityById(slot1)
+
+	return slot2 and not slot2:isEnd()
 end
 
 function slot0.getRemainTime(slot0)

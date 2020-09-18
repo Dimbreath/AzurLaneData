@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "���Ͻ����콢-����",
+	name = "联合舰队旗舰-长门",
 	cd = 0,
 	picture = "0",
 	desc = "",

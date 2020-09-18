@@ -18558,7 +18558,7 @@ pg.item_data_template = {
 			}
 		},
 		open_ui = {
-			4,
+			5,
 			1
 		}
 	},

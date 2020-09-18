@@ -36873,7 +36873,7 @@ pg.equip_data_statistics = {
 	},
 	[25800] = {
 		name = "\"Hedgehog\" Anti-Submarine Mortar ",
-		speciality = "Contact\nexplosion",
+		speciality = "Anti\nsubmarine",
 		type = 14,
 		tech = 0,
 		descrip = "No description",
@@ -36881,9 +36881,9 @@ pg.equip_data_statistics = {
 		icon = "25800",
 		attribute_2 = "antisub",
 		rarity = 5,
-		damage = "1 ~ 100",
+		damage = "85 ~ 170",
 		nationality = 2,
-		ammo = "Normal",
+		ammo = "Contact\nexplosion",
 		value_3 = 0,
 		id = 25800,
 		torpedo_ammo = 0,
@@ -36918,7 +36918,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25801] = {
-		damage = "2 ~ 100",
+		damage = "94 ~ 188",
 		base = 25800,
 		id = 25801,
 		torpedo_ammo = 0,
@@ -36928,7 +36928,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25802] = {
-		damage = "3 ~ 100",
+		damage = "103 ~ 206",
 		base = 25800,
 		id = 25802,
 		torpedo_ammo = 0,
@@ -36938,7 +36938,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25803] = {
-		damage = "4 ~ 100",
+		damage = "112 ~ 224",
 		base = 25800,
 		id = 25803,
 		torpedo_ammo = 0,
@@ -36948,7 +36948,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25804] = {
-		damage = "5 ~ 100",
+		damage = "122 ~ 244",
 		base = 25800,
 		id = 25804,
 		torpedo_ammo = 0,
@@ -36958,7 +36958,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25805] = {
-		damage = "6 ~ 100",
+		damage = "132 ~ 264",
 		base = 25800,
 		id = 25805,
 		torpedo_ammo = 0,
@@ -36968,7 +36968,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25806] = {
-		damage = "7 ~ 100",
+		damage = "142 ~ 284",
 		base = 25800,
 		id = 25806,
 		torpedo_ammo = 0,
@@ -36978,7 +36978,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25807] = {
-		damage = "8 ~ 100",
+		damage = "153 ~ 306",
 		base = 25800,
 		id = 25807,
 		torpedo_ammo = 0,
@@ -36988,7 +36988,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25808] = {
-		damage = "9 ~ 100",
+		damage = "164 ~ 328",
 		base = 25800,
 		id = 25808,
 		torpedo_ammo = 0,
@@ -36998,7 +36998,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25809] = {
-		damage = "10 ~ 100",
+		damage = "175 ~ 350",
 		base = 25800,
 		id = 25809,
 		torpedo_ammo = 0,
@@ -37008,7 +37008,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25810] = {
-		damage = "11 ~ 100",
+		damage = "186 ~ 372",
 		base = 25800,
 		id = 25810,
 		torpedo_ammo = 0,

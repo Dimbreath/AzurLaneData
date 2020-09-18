@@ -91559,8 +91559,8 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = {
-			7,
-			8
+			6,
+			7
 		},
 		open_need = {},
 		award_display = {

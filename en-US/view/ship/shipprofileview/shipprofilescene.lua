@@ -197,7 +197,7 @@ function slot0.InitCommon(slot0)
 	slot2 = slot0.shipGroup:getPainting(slot0.showTrans)
 
 	slot0:LoadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.isBluePrintGroup))
-	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot0.shipGroup:getShipType(slot0.showTrans)))
+	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot0.shipGroup:getShipType(slot0.showTrans)), true)
 
 	slot7 = slot0.showTrans
 	slot0.labelName.text = slot0.shipGroup:getName(slot7)
