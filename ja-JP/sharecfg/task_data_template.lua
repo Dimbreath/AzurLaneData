@@ -100093,7 +100093,7 @@ pg.task_data_template = {
 		type = 6,
 		name = "『信浓活动』角色刷关：拉菲",
 		count_inherit = 0,
-		desc = "☆5ラフィーを含む艦隊で限定海域T2/TH2中枢艦隊10回撃破（ラフィーが戦闘不能にならない）",
+		desc = "☆5ラフィーを含む艦隊で限定海域T2/HT2中枢艦隊10回撃破（ラフィーが戦闘不能にならない）",
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
@@ -100723,8 +100723,8 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = {
-			7,
-			8
+			6,
+			7
 		},
 		open_need = {},
 		award_display = {
