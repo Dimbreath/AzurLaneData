@@ -5852,7 +5852,6 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10090,
-			11720,
 			20131
 		},
 		hide_buff_list = {}
@@ -5897,7 +5896,6 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10090,
-			11720,
 			20131
 		},
 		hide_buff_list = {}
@@ -5942,7 +5940,6 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10090,
-			11720,
 			20131
 		},
 		hide_buff_list = {}
@@ -5987,7 +5984,6 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10090,
-			11720,
 			20132
 		},
 		hide_buff_list = {}

@@ -4747,7 +4747,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		tip = "航空總值"
 	},
 	elite_condition_antisub = {
-		tip = "反潜总值"
+		tip = "反潛總值"
 	},
 	elite_condition_dodge = {
 		tip = "機動總值"

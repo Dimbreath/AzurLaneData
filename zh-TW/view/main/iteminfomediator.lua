@@ -82,7 +82,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:SetOperateCount(1)
 	elseif slot2 == GAME.FRAG_SELL_DONE then
 		slot0.viewComponent:SetOperateCount(1)
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.OPEN_MAIL_ATTACHMENT_DONE and slot3.items and #slot4 > 0 then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4, function ()
 			if uv0.callback then

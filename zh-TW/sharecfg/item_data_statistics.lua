@@ -14098,7 +14098,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[52011] = {
-		display = "有几率获得以下蓝图",
+		display = "有機率獲得以下藍圖",
 		rarity = 4,
 		type = 99,
 		drop_oil_max = 0,
@@ -14221,7 +14221,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[52021] = {
-		display = "有几率获得以下蓝图",
+		display = "有機率獲得以下藍圖",
 		rarity = 4,
 		type = 99,
 		drop_oil_max = 0,
