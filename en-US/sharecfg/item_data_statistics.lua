@@ -4886,7 +4886,7 @@ Prototype Triple 410mm Mounted Gun T0 Design
 Prototype Triple 203mm Main Gun (SK C) T0 Design
 Prototype Triple 203mm Main Gun T0 Design
 Prototype Triple 152mm Main Gun T0 Design
-Twin 100mm (Type 98) AA Gun T0 Design]],
+T0 100mm Mounted AA Gun Design]],
 		rarity = 4,
 		type = 13,
 		drop_oil_max = 0,

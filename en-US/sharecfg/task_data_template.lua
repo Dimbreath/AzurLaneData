@@ -91661,7 +91661,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 15968,
-		target_num = 10,
+		target_num = 15,
 		fix_task = 0,
 		target_id = {
 			15953,

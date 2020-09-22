@@ -57355,7 +57355,6 @@ pg.ship_data_template = {
 		hide_buff_list = {}
 	},
 	[402041] = {
-		buff_list_display = "",
 		oil_at_start = 1,
 		max_level = 70,
 		equip_id_3 = 0,
@@ -57390,6 +57389,11 @@ pg.ship_data_template = {
 		airassist_time = {},
 		buff_list = {
 			1052
+		},
+		buff_list_display = {
+			1052,
+			12290,
+			23121
 		},
 		hide_buff_list = {}
 	},

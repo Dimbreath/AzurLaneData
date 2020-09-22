@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——KABOOM!!",
+			say = "BEEP————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

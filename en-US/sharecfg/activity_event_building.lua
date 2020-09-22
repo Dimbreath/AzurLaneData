@@ -76,7 +76,7 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "Manjuu Arcade Hall",
+		name = "Manjuju Game Shop",
 		material_id = 59177,
 		id = 6,
 		desc = "Wow, what a spectacular array of games they have this month... This ghost's wallet isn't going to survive...",

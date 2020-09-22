@@ -10378,7 +10378,7 @@ increase. The following buildings can be upgraded:
 Juju Café
 Manjuu Capsule Shop
 Manjuu Bookstore
-Manjuu Arcade Hall]]
+Manjuu Game Shop]]
 			}
 		}
 	},
@@ -10615,7 +10615,7 @@ any Credits, or give any rewards.]]
 		tip = "Defeat the enemy boss fleet."
 	},
 	win_condition_display_qijian_tip = {
-		tip = "Clear the stage by defeating the boss fleet. "
+		tip = "Boss defeated! Stage complete."
 	},
 	win_condition_display_shangchuan = {
 		tip = "The transport ship arrives at the designated location."

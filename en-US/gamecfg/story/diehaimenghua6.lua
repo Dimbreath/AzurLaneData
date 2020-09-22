@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 301840,
 			nameColor = "#a9f548",
-			say = "By the looks of things, they waiting for us... We've been ambushed!",
+			say = "By the looks of things, were they waiting for us... We've been ambushed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

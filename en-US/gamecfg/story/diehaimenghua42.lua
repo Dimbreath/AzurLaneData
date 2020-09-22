@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 900011,
 			actorName = "Tester",
-			say = "Arbiters function on a different program from this ours, and \"Zero\" is on a lower-level program, so there's no need to share information among all of us.",
+			say = "Arbiters function on a different program from ours, and \"Zero\" is on a lower-level program, so there's no need to share information among all of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

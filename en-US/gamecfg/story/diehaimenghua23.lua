@@ -412,7 +412,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "KABOOM——!!",
+			say = "(Yes, Isokaze, go...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

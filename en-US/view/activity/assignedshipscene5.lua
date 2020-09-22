@@ -45,7 +45,7 @@ function slot0.init(slot0)
 	slot0.afterAnima = {}
 
 	if PLATFORM_CODE == PLATFORM_US then
-		slot0.list = {
+		uv0.list = {
 			"B",
 			"W",
 			"H",
@@ -56,7 +56,7 @@ function slot0.init(slot0)
 			"S",
 			"T"
 		}
-		slot0.shiplist = {
+		uv0.shiplist = {
 			202121,
 			205021,
 			204031,
@@ -67,7 +67,7 @@ function slot0.init(slot0)
 			105131,
 			105121
 		}
-		slot0.titleFromID = {
+		uv0.titleFromID = {
 			[59720.0] = "first",
 			[60059.0] = "second"
 		}
