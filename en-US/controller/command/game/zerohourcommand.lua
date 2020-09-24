@@ -47,7 +47,10 @@ function slot0.execute(slot0, slot1)
 		slot4:AddShamShop(slot4.shamShop)
 		slot4.fragmentShop:update(slot12.month, {})
 		slot4:AddFragmentShop(slot4.fragmentShop)
-		getProxy(BagProxy):ClearLimitCnt(pg.gameset.urpt_chapter_max.description[1])
+
+		if not LOCK_UR_SHIP then
+			getProxy(BagProxy):ClearLimitCnt(pg.gameset.urpt_chapter_max.description[1])
+		end
 	end
 
 	for slot17, slot18 in ipairs(getProxy(ActivityProxy):getPanelActivities()) do

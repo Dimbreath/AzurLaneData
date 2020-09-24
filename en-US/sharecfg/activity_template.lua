@@ -13691,7 +13691,7 @@ pg.activity_template = {
 		config_client = {
 			{
 				8,
-				69911,
+				59981,
 				1
 			},
 			{
@@ -15772,6 +15772,62 @@ pg.activity_template = {
 			ui_name = "UrExchangeTaskPage"
 		}
 	},
+	[30727] = {
+		mark = 20200917,
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30727,
+		config_data = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[30728] = {
 		mark = 20200917,
 		page_info = "",
@@ -15894,6 +15950,48 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[30731] = {
+		mark = 20200924,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 64,
+		config_client = "",
+		title_res_tag = "sanzhounianhuizong",
+		id = 30731,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ThirdAnniversaryJPPage",
+			ui_name = "ThirdAnniversaryJPPage"
 		}
 	},
 	all = {
@@ -16495,8 +16593,10 @@ pg.activity_template = {
 		30724,
 		30725,
 		30726,
+		30727,
 		30728,
 		30729,
-		30730
+		30730,
+		30731
 	}
 }

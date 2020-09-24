@@ -194,8 +194,9 @@ function slot2.GenerateVertifyData(slot0)
 	end
 
 	BattleVertify = BattleVertify or {}
-	BattleVertify.configDataVertify = GetSpeNum(uv0.Battle.BattleConfig, 0)
-	BattleVertify.constDataVertify = GetSpeNum(pg.bfConsts, 0)
+	slot2 = GetSpeNum()
+	BattleVertify.configDataVertify = slot2(uv0.Battle.BattleConfig, 0)
+	BattleVertify.constDataVertify = slot2(pg.bfConsts, 0)
 end
 
 function slot2.Vertify()

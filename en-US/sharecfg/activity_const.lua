@@ -624,6 +624,9 @@ pg.activity_const = {
 	SHINANO_EXP_ACT_ID = {
 		act_id = 30702
 	},
+	JIUJIU_ADVENTURE_ID = {
+		act_id = 30711
+	},
 	UR_ITEM_ACT_ID = {
 		act_id = 30724
 	},

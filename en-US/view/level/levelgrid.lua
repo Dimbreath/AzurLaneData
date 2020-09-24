@@ -887,11 +887,30 @@ function slot0.updateTargetArrow(slot0, slot1)
 
 	slot0.arrowTarget:SetParent(slot0.cellRoot:Find(ChapterCell.Line2Name(slot1.row, slot1.column)))
 
-	slot5, slot6 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot1.row, slot1.column)
+	slot6, slot7 = function ()
+		slot0, slot1 = uv0:existEnemy(ChapterConst.SubjectPlayer, uv1.row, uv1.column)
 
-	if slot5 and slot6 == ChapterConst.AttachChampion and slot2:getChampion(slot1.row, slot1.column):getPoolType() == "common" then
-		slot8 = slot2:getChampion(slot1.row, slot1.column):getScale() / 100
-		slot0.arrowTarget.localPosition = Vector3(0, 20 + 80 * slot8, -80 * slot8)
+		if not slot0 then
+			return false
+		end
+
+		if slot1 == ChapterConst.AttachChampion then
+			if not uv0:getChampion(uv1.row, uv1.column) then
+				return false
+			end
+
+			return slot2:getPoolType() == "common", slot2:getScale() / 100
+		elseif slot1 == ChapterConst.AttachEnemy or slot1 == ChapterConst.AttachBoss then
+			if not uv0:getChapterCell(uv1.row, uv1.column) or slot2.flag ~= 0 then
+				return false
+			end
+
+			return pg.expedition_data_template[slot2.attachmentId].icon_type == 2, slot3.scale / 100
+		end
+	end()
+
+	if slot6 then
+		slot0.arrowTarget.localPosition = Vector3(0, 20 + 80 * slot7, -80 * slot7)
 	else
 		slot0.arrowTarget.localPosition = Vector3(0, 20, 0)
 	end

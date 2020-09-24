@@ -222,41 +222,39 @@ function slot0.updateLimit(slot0)
 end
 
 function slot0.selectFleet(slot0, slot1, slot2, slot3)
-	if fleetId ~= slot3 then
-		slot4 = slot0.selectIds[slot1]
+	slot4 = slot0.selectIds[slot1]
 
-		if slot3 > 0 and table.contains(slot4, slot3) then
+	if slot3 > 0 and table.contains(slot4, slot3) then
+		return
+	end
+
+	if slot1 == FleetType.Normal and slot0:getLimitNums(slot1) > 0 and slot3 == 0 and #_.filter(slot4, function (slot0)
+		return slot0 > 0
+	end) == 1 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("level_fleet_lease_one_ship"))
+
+		return
+	end
+
+	if slot0:getFleetById(slot3) then
+		if not slot5:isUnlock() then
 			return
 		end
 
-		if slot1 == FleetType.Normal and slot0:getLimitNums(slot1) > 0 and slot3 == 0 and #_.filter(slot4, function (slot0)
-			return slot0 > 0
-		end) == 1 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("level_fleet_lease_one_ship"))
+		if slot5:isLegalToFight() ~= true then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("level_fleet_not_enough"))
 
 			return
 		end
+	end
 
-		if slot0:getFleetById(slot3) then
-			if not slot5:isUnlock() then
-				return
-			end
+	slot4[slot2] = slot3
 
-			if slot5:isLegalToFight() ~= true then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("level_fleet_not_enough"))
+	slot0:updateFleet(slot1, slot2)
+	slot0:updateLimit()
 
-				return
-			end
-		end
-
-		slot4[slot2] = slot3
-
-		slot0:updateFleet(slot1, slot2)
-		slot0:updateLimit()
-
-		if OPEN_AIR_DOMINANCE and slot0.chapterASValue > 0 then
-			slot0:updateASValue()
-		end
+	if OPEN_AIR_DOMINANCE and slot0.chapterASValue > 0 then
+		slot0:updateASValue()
 	end
 
 	slot0:UpdateSonarRange()
@@ -410,21 +408,12 @@ function slot0.showToggleMask(slot0, slot1, slot2)
 			setActive(slot8:Find("off"), not slot14)
 
 			if slot12 then
-				slot8:GetComponent(typeof(Toggle)).isOn = slot9.id == currentFleetId
+				slot8:GetComponent(typeof(Toggle)).isOn = false
 
 				onToggle(slot0, slot8, function (slot0)
 					if slot0 then
 						setActive(uv0.toggleMask, false)
-
-						if uv1.id ~= currentFleetId then
-							if uv0._currentDragDelegate then
-								uv0._forceDropCharacter = true
-
-								LuaHelper.triggerEndDrag(uv0._currentDragDelegate)
-							end
-
-							uv2(uv1.id)
-						end
+						uv1(uv2.id)
 					end
 				end, SFX_UI_TAG)
 			else
@@ -469,9 +458,7 @@ end
 
 function slot0.UpdateSonarRange(slot0)
 	for slot5 = 1, 2 do
-		slot7 = slot0.selectIds[FleetType.Normal][slot5] and slot6 == 0 and 0 or slot0:getFleetById(slot6)
-
-		setText(slot0:findTF("panel/title/SonarRange/values"):GetChild(slot5 - 1), slot7 and math.floor(slot7:GetFleetSonarRange()) or 0)
+		setText(slot0:findTF("panel/title/SonarRange/values"):GetChild(slot5 - 1), slot0:getFleetById(slot0.selectIds[FleetType.Normal][slot5] or 0) and math.floor(slot7:GetFleetSonarRange()) or 0)
 	end
 end
 

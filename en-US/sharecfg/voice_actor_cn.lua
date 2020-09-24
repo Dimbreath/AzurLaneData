@@ -973,11 +973,19 @@ pg.voice_actor_CN = {
 		code = 243
 	},
 	{
-		actor_name = "Sekine Hitomi ",
+		actor_name = "Sekine Hitomi",
 		code = 244
 	},
 	{
-		actor_name = "Koiwai Kotori ",
+		actor_name = "Koiwai Kotori",
 		code = 245
+	},
+	{
+		actor_name = "Mayu Mineda",
+		code = 246
+	},
+	{
+		actor_name = "Amano Satomi",
+		code = 247
 	}
 }

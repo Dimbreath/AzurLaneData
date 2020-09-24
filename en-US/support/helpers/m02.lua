@@ -1423,43 +1423,42 @@ function GetNextHour(slot0)
 end
 
 function shortenString(slot0, slot1)
-	slot2 = 0
+	slot2 = 1
 	slot3 = 0
 	slot4 = 0
 	slot5 = #slot0
 
-	while slot2 < slot5 do
-		slot7 = 1
-
-		if string.byte(slot0, slot2 + 1) < 128 then
-			slot2 = slot2 + 1
-			slot7 = 0.5
-		elseif slot6 >= 192 and slot6 < 224 then
-			slot2 = slot2 + 2
-		elseif slot6 >= 224 and slot6 < 240 then
-			slot2 = slot2 + 3
-		elseif slot6 >= 240 and slot6 < 248 then
-			slot2 = slot2 + 4
-		elseif slot6 >= 248 and slot6 < 252 then
-			slot2 = slot2 + 5
-		elseif slot6 >= 252 and slot6 < 254 then
-			slot2 = slot2 + 6
+	function slot6(slot0)
+		if not slot0 then
+			return 0, 1
+		elseif slot0 > 240 then
+			return 4, 1
+		elseif slot0 > 225 then
+			return 3, 1
+		elseif slot0 > 192 then
+			return 2, 1
+		elseif slot0 < 126 then
+			return 1, 0.5
 		else
-			error("invalid utf8 string")
+			return 1, 1
 		end
+	end
 
-		if slot1 <= slot3 + slot7 then
-			slot4 = slot2
+	while slot2 <= slot5 do
+		slot8, slot9 = slot6(string.byte(slot0, slot2))
+
+		if slot1 <= slot3 + slot9 then
+			slot4 = slot2 + slot8
 
 			break
 		end
 	end
 
-	if slot4 == 0 or slot4 == slot5 then
+	if slot4 == 0 or slot5 < slot4 then
 		return slot0
 	end
 
-	return string.sub(slot0, 1, slot4) .. ".."
+	return string.sub(slot0, 1, slot4 - 1) .. ".."
 end
 
 function nameValidityCheck(slot0, slot1, slot2, slot3)

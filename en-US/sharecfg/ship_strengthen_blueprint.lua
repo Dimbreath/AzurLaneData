@@ -1527,7 +1527,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
 			"Secondary Gun base +2",
-			"Secondary Gun efficiency +10%"
+			"Main Gun efficiency +10%"
 		}
 	},
 	[221] = {
@@ -3488,7 +3488,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
 			"Secondary Gun base +2",
-			"Secondary Gun efficiency +10%"
+			"Main Gun efficiency +10%"
 		}
 	},
 	[421] = {
@@ -6147,7 +6147,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Learn All Out Assault Ⅰ",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[711] = {
@@ -6252,7 +6252,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[715] = {
 		effect_breakout = 0,
-		effect_desc = "HP +451|AA +34|Main Gun efficiency 5%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +451|AA +34|Main Gun efficiency +5%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6420,7 +6420,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
-			"Main Gun efficiency 10%",
+			"Main Gun efficiency +10%",
 			"Can equip Main Guns in the Secondary Weapon slot"
 		}
 	},
@@ -6526,7 +6526,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[725] = {
 		effect_breakout = 0,
-		effect_desc = "HP +677|AA +51|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
+		effect_desc = "HP +677|AA +51|Main Gun efficiency +5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6690,7 +6690,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[731] = {
@@ -6952,7 +6952,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[805] = {
 		effect_breakout = 0,
-		effect_desc = "HP +356|AA +19|Main Gun efficiency 5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
+		effect_desc = "HP +356|AA +19|Main Gun efficiency +5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7121,7 +7121,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Main Gun base +1",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[811] = {
@@ -7395,7 +7395,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
 			"Secondary Gun base +2",
-			"Main Gun efficiency 10%"
+			"Main Gun efficiency +10%"
 		}
 	},
 	[821] = {
@@ -7500,7 +7500,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[825] = {
 		effect_breakout = 0,
-		effect_desc = "HP +1068|AA +58|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
+		effect_desc = "HP +1068|AA +58|Main Gun efficiency +5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7663,7 +7663,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[831] = {
@@ -8095,7 +8095,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Learn All Out Assault Ⅰ",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[911] = {
@@ -8200,7 +8200,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[915] = {
 		effect_breakout = 0,
-		effect_desc = "HP +221|AA +18|Main Gun efficiency 10%|Torpedo preload +1|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +221|AA +18|Main Gun efficiency +10%|Torpedo preload +1|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -8900,7 +8900,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1005] = {
 		effect_breakout = 0,
-		effect_desc = "HP +315|AA +10|Main Gun efficiency 5%|Main Gun base +1|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
+		effect_desc = "HP +315|AA +10|Main Gun efficiency +5%|Main Gun base +1|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -9072,7 +9072,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[1011] = {
@@ -9450,7 +9450,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1025] = {
 		effect_breakout = 0,
-		effect_desc = "HP +945|AA +31|EVA +5|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
+		effect_desc = "HP +945|AA +31|EVA +5|Main Gun efficiency +5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9617,7 +9617,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[1101] = {
@@ -9726,7 +9726,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1105] = {
 		effect_breakout = 0,
-		effect_desc = "HP +400|AA +11|Main Gun efficiency 5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
+		effect_desc = "HP +400|AA +11|Main Gun efficiency +5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9895,7 +9895,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Main Gun base +1",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[1111] = {
@@ -10169,7 +10169,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
 			"Secondary Gun base +2",
-			"Main Gun efficiency 10%"
+			"Main Gun efficiency +10%"
 		}
 	},
 	[1121] = {
@@ -10274,7 +10274,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1125] = {
 		effect_breakout = 0,
-		effect_desc = "HP +1195|AA +33|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
+		effect_desc = "HP +1195|AA +33|Main Gun efficiency +5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10438,7 +10438,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
 			"Main Gun base +1",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[1201] = {
@@ -10547,7 +10547,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1205] = {
 		effect_breakout = 0,
-		effect_desc = "HP +325|AA +11|Main Gun efficiency 5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
+		effect_desc = "HP +325|AA +11|Main Gun efficiency +5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10715,7 +10715,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[1211] = {
@@ -10989,7 +10989,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
 			"Secondary Gun base +2",
-			"Main Gun efficiency 10%"
+			"Main Gun efficiency +10%"
 		}
 	},
 	[1221] = {
@@ -11094,7 +11094,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1225] = {
 		effect_breakout = 0,
-		effect_desc = "HP +976|AA +33|Main Gun efficiency 5%|Unlock playback for: Main screen 4, Low HP",
+		effect_desc = "HP +976|AA +33|Main Gun efficiency +5%|Unlock playback for: Main screen 4, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11258,7 +11258,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[1231] = {
@@ -11694,7 +11694,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Learn All Out Assault Ⅰ",
-			"Main Gun efficiency +5%"
+			"Main Gun efficiency ++5%"
 		}
 	},
 	[1311] = {
@@ -11799,7 +11799,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1315] = {
 		effect_breakout = 0,
-		effect_desc = "HP +433|AA +39|Main Gun efficiency +10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +433|AA +39|Main Gun efficiency ++10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12520,7 +12520,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Learn All Out Assault Ⅰ",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[1411] = {
@@ -12625,7 +12625,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1415] = {
 		effect_breakout = 0,
-		effect_desc = "HP +473|AA +27|Torpedo base +1|Main Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +473|AA +27|Torpedo base +1|Main Gun efficiency +10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -13067,7 +13067,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[1501] = {
@@ -13346,7 +13346,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Learn All Out Assault Ⅰ",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[1511] = {
@@ -13451,7 +13451,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1515] = {
 		effect_breakout = 0,
-		effect_desc = "HP +451|AA +33|Main Gun efficiency 10%|Torpedo base +1|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +451|AA +33|Main Gun efficiency +10%|Torpedo base +1|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -13889,7 +13889,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[1601] = {
@@ -13998,7 +13998,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1605] = {
 		effect_breakout = 0,
-		effect_desc = "HP +289|AA +16|Main Gun efficiency 5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
+		effect_desc = "HP +289|AA +16|Main Gun efficiency +5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14440,7 +14440,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[1621] = {
@@ -14545,7 +14545,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1625] = {
 		effect_breakout = 0,
-		effect_desc = "HP +868|AA +47|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
+		effect_desc = "HP +868|AA +47|Main Gun efficiency +5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14709,7 +14709,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
 			"Main Gun base +1",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	[1701] = {
@@ -14818,7 +14818,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1705] = {
 		effect_breakout = 0,
-		effect_desc = "HP +285|AA +11|Main Gun efficiency 5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
+		effect_desc = "HP +285|AA +11|Main Gun efficiency +5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder|Main Gun preload +1",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 1,
@@ -14990,7 +14990,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
-			"Main Gun efficiency 5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[1711] = {
@@ -15264,7 +15264,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
 			"Secondary Gun base +2",
-			"Main Gun efficiency 10%"
+			"Main Gun efficiency +10%"
 		}
 	},
 	[1721] = {
@@ -15369,7 +15369,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1725] = {
 		effect_breakout = 0,
-		effect_desc = "HP +856|AA +33|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
+		effect_desc = "HP +856|AA +33|Main Gun efficiency +5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15532,7 +15532,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
-			"Main Gun efficiency 15%"
+			"Main Gun efficiency +15%"
 		}
 	},
 	all = {

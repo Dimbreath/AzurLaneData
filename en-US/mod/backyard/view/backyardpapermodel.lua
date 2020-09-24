@@ -29,19 +29,23 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.update(slot0, slot1, slot2)
+	slot0:clear()
+
 	slot0.level = slot2
 
 	if slot1 then
-		slot0.isSpine = slot1:isSpine()
-
-		if slot0.isSpine then
-			slot3, slot4 = slot0.furniture:getSpineName()
-
-			slot0:loadSpine(slot3, slot4)
-		elseif slot0.type == uv0.PAPER_TYPE_BASEWALL then
+		if slot0.type == uv0.PAPER_TYPE_BASEWALL then
 			slot0:loadImage("base/wall_")
 		else
-			slot0:loadImage(slot1:getConfig("picture"))
+			slot0.isSpine = slot1:isSpine()
+
+			if slot0.isSpine then
+				slot3, slot4 = slot1:getSpineName()
+
+				slot0:loadSpine(slot3, slot4)
+			else
+				slot0:loadImage(slot1:getConfig("picture"))
+			end
 		end
 	elseif slot0.type == uv0.PAPER_TYPE_WALL then
 		slot0:loadImage("base/wall_")
@@ -81,6 +85,7 @@ function slot0.loadSpine(slot0, slot1, slot2)
 		rtf(slot0).anchorMin = Vector2(0.5, 1)
 		rtf(slot0).anchorMax = Vector2(0.5, 1)
 		rtf(slot0).pivot = Vector2(0.5, 1)
+		rtf(slot0).localScale = Vector3(1, 1, 1)
 
 		SetParent(slot0, uv0.parent)
 		uv1(slot0)

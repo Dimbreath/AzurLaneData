@@ -9954,6 +9954,60 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[40911] = {
+		display = "Contains 1 Random Outfit, 2020 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Advanced Universal Blueprints (3rd Batch), 10 Quick Finishers, and 100 Furniture Coins",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "2020 Party Dress Lucky Bag ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40911,
+		icon = "Props/lihe3",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[40951] = {
 		display = "Nep's Lucky Bag contains 1 x Nep Ship skin, 3 x Nep Gear skins, 8 x Wisdom Cubes, 4 x Quick Finishers, 100 x Decor Tokens, and 2018 x Gems",
 		rarity = 4,
@@ -102932,18 +102986,36 @@ Skins and drop rates:
 		index = {}
 	},
 	[69911] = {
-		display = "Collect 7 U-556's Medals to earn the limited gear \"Certificate of Sponsorship.\" ",
-		rarity = 2,
-		type = 0,
+		display = [[
+This lucky bag contains a random skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and drop rates:
+（<color=#92fc63>6.5%</color>) Baltimore - Evening Breeze Minuet (L2D);
+(<color=#92fc63>6.5%</color>) Essex - Craft Fairytale (L2D);
+(<color=#92fc63>6.5%</color>) Saint Louis - Holy Knight's Resplendence (L2D);
+(<color=#92fc63>5.5%</color>) Ayanami - Nightfall Raiment (L2D);
+(<color=#92fc63>6.5%</color>) Shinano - Dreams of the Hazy Moon;
+(<color=#92fc63>6.5%</color>) Akagi - Ruby-Laced Beauty;
+(<color=#92fc63>6.5%</color>) Kaga - Exalted White Wings;
+(<color=#92fc63>6.5%</color>) Noshiro - Xanadu's Eventide;
+(<color=#92fc63>5.4%</color>) Hatsushimo - Perennial Joy;
+(<color=#92fc63>5.4%</color>) Ariake - Unending Friendship;
+(<color=#92fc63>5.4%</color>) U-110 - A Cute, Sharky Reverie;
+(<color=#92fc63>5.4%</color>) Haruna - Scarlet Innocence;
+(<color=#92fc63>5.4%</color>) Wichita - The General's Banquet;
+(<color=#92fc63>5.4%</color>) Ikazuchi - Dawn's Thunder;
+(<color=#92fc63>5.4%</color>) Inazuma - Dusk's Lightning;
+(<color=#92fc63>5.4%</color>) Sheffield - Black Crow's Finery]],
+		rarity = 4,
+		type = 98,
 		drop_oil_max = 0,
-		name = "U-556's Medal ",
+		name = "Random Ship skin ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
-		virtual_type = 8,
+		virtual_type = 0,
 		link_id = 0,
 		id = 69911,
-		icon = "Props/u556xunzhang",
+		icon = "Props/clothIcon",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -104583,6 +104655,7 @@ The available outfits and their rarities are as follows:
 		40908,
 		40909,
 		40910,
+		40911,
 		40951,
 		40952,
 		40953,

@@ -675,6 +675,106 @@ pg.activity_ins_ship_group_template = {
 		name = "U-522",
 		sculpture = "u522"
 	},
+	[20224] = {
+		ship_group = 20224,
+		name = "White Princess",
+		sculpture = "heitaizi"
+	},
+	[10316] = {
+		ship_group = 10316,
+		name = "Justice_B",
+		sculpture = "baerdimo"
+	},
+	[10324] = {
+		ship_group = 10324,
+		name = "Bremerton",
+		sculpture = "bulaimodun"
+	},
+	[10738] = {
+		ship_group = 10738,
+		name = "Shangri-La",
+		sculpture = "xianggelila"
+	},
+	[70202] = {
+		ship_group = 70202,
+		name = "Pamiat' Merkuria",
+		sculpture = "shuixingjinian"
+	},
+	[10802] = {
+		ship_group = 10802,
+		name = "G_Albacore",
+		sculpture = "daqinghuayu"
+	},
+	[30501] = {
+		ship_group = 30501,
+		name = "Fusō",
+		sculpture = "fusang"
+	},
+	[30502] = {
+		ship_group = 30502,
+		name = "Yamashiro",
+		sculpture = "shancheng"
+	},
+	[39903] = {
+		ship_group = 39903,
+		name = "Kitakaze",
+		sculpture = "beifeng"
+	},
+	[90201] = {
+		ship_group = 90201,
+		name = "Inquisition_G",
+		sculpture = "jialisuoniye"
+	},
+	[30704] = {
+		ship_group = 30704,
+		name = "Gokou",
+		sculpture = "feilong"
+	},
+	[30703] = {
+		ship_group = 30703,
+		name = "Ino·Shika·Cho",
+		sculpture = "canglong"
+	},
+	[29901] = {
+		ship_group = 29901,
+		name = "Neptune",
+		sculpture = "haiwangxing"
+	},
+	[30402] = {
+		ship_group = 30402,
+		name = "Hiei",
+		sculpture = "birui"
+	},
+	[30512] = {
+		ship_group = 30512,
+		name = "Kii",
+		sculpture = "jiyi"
+	},
+	[30503] = {
+		ship_group = 30503,
+		name = "Isei",
+		sculpture = "yishi"
+	},
+	[30317] = {
+		ship_group = 30317,
+		name = "Suzu✩",
+		sculpture = "linggu"
+	},
+	[30318] = {
+		ship_group = 30318,
+		name = "Kuma✩",
+		sculpture = "xiongye"
+	},
+	[30210] = {
+		ship_group = 30210,
+		name = "Mogami",
+		sculpture = "zuishang"
+	},
+	[30211] = {
+		ship_group = 30211,
+		name = "Mikuma",
+		sculpture = "sanwei"
+	},
 	all = {
 		30701,
 		30702,
@@ -810,6 +910,26 @@ pg.activity_ins_ship_group_template = {
 		20502,
 		40801,
 		40805,
-		40807
+		40807,
+		20224,
+		10316,
+		10324,
+		10738,
+		70202,
+		10802,
+		30501,
+		30502,
+		39903,
+		90201,
+		30704,
+		30703,
+		29901,
+		30402,
+		30512,
+		30503,
+		30317,
+		30318,
+		30210,
+		30211
 	}
 }

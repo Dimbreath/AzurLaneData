@@ -2827,6 +2827,138 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[204040] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		touch2 = "",
+		id = 204040,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, Renown has free time today and is standing by! Please give me your orders! ...Something other than \"go play,\" please!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Leave the preparations to Belfast, and the combat reports to me! Such are the duties of the maid and the knight, yes!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, today's reading is not on the Royal Knights? Aww... Well, if you recommend it, I'll gladly read it!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"I'm not... sleepy... at all... Commander, I'll... protect you... Zzz... My eyes...|I'm really cute? ...Um, Commander, I'm glad to receive your praise, but I'd rather be complimented on my abilities rather than my looks!|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Renown has no need for a sugar rush at this time... B-but, maybe just one piece of candy...!"
+			}
+		}
+	},
+	[408090] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 408090,
+		feeling1 = "",
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Oh, there you are. You're the only person who's capable of making me clock in this early, ya know that?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I told you, remember? \"Swimming in reports of my success,\" and I delivered. Mwah!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"You got the map, Commander? No, not that, THIS one. You don't get it? It's the route we'll be taking for our date."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'm goin' straight for the kill!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Hm-hmm-hm♪... What? This is how I always look. The hell are ya getting all prude for?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Foes you can't see aren't so scary if ya got friends to watch your back. Yeah, like those surface ship buddies of yours.|nil|nil"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Ahahaha, Lebe's getting schooled by Thiele again! Ah, and if ya ever want me to school you, I could do that.|Mix together some lemon juice, coffee, and rum, and ya get... Hold up, are you seriously considering drinking this? It ain't really meant for consumption, though..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ya need somethin'? Let's hear it then."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission rewards, comin' through. Nah, I fetched 'em just 'cause I felt like doing it."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"If ya don't wanna dig through your mailbox, I could do it for ya."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Mgh... Ohh..."
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -2874,6 +3006,8 @@ pg.ship_skin_words_extra = {
 		499030,
 		305120,
 		319010,
-		301840
+		301840,
+		204040,
+		408090
 	}
 }
