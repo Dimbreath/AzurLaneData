@@ -171,7 +171,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-story-4",
-		name = "樱舞",
+		name = "櫻舞",
 		unlock_other = 0,
 		id = 14,
 		cover = "MusicCover1",
@@ -184,7 +184,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-story-5",
-		name = "危机",
+		name = "危機",
 		unlock_other = 0,
 		id = 15,
 		cover = "MusicCover1",
@@ -197,7 +197,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-story-6",
-		name = "破晓",
+		name = "破曉",
 		unlock_other = 0,
 		id = 16,
 		cover = "MusicCover1",

@@ -65105,7 +65105,7 @@ pg.item_data_statistics = {
 包含的換裝和機率如下：
 （<color=#92fc63>7.2%</color>）俾斯麥換裝  鐵血的輝光（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>7.8%</color>）皇家方舟換裝  晚會的守護者（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.0%</color>）喬治五世換裝  溫莎的玫瑰；
+（<color=#92fc63>10.0%</color>）英王喬治五世換裝  溫莎的玫瑰；
 （<color=#92fc63>12.5%</color>）Z23換裝  宴會上的優等生；
 （<color=#92fc63>12.5%</color>）海倫娜換裝  與君共舞；
 （<color=#92fc63>12.5%</color>）大黃蜂換裝  Bubbly Anniversary！；
@@ -65209,6 +65209,35 @@ pg.item_data_statistics = {
 				2,
 				30044,
 				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[70052] = {
+		display = "購買禮包可獲得大量材料獎勵",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "GP限時補給",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 70052,
+		icon = "Props/TWAndroid",
+		replace_item = 0,
+		display_icon = {
+			{
+				1,
+				14,
+				120
+			},
+			{
+				2,
+				30113,
+				10
 			}
 		},
 		price = {},
@@ -66717,6 +66746,7 @@ pg.item_data_statistics = {
 		69930,
 		69931,
 		70050,
-		70051
+		70051,
+		70052
 	}
 }

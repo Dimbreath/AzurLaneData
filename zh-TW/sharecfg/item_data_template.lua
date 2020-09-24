@@ -10750,6 +10750,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[70052] = {
+		limit = "[]",
+		display_effect = "OpenBox",
+		other_resource_cost = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "300139",
+		id = 70052,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -11437,6 +11452,7 @@ pg.item_data_template = {
 		59900,
 		60011,
 		60012,
-		70051
+		70051,
+		70052
 	}
 }
