@@ -76,7 +76,11 @@ end
 
 function slot5.GetBonePos(slot0, slot1)
 	if slot0._boneList[slot1] == nil or #slot2 == 0 then
-		return Vector3.zero
+		for slot6, slot7 in pairs(slot0._boneList) do
+			slot2 = slot7
+
+			break
+		end
 	end
 
 	slot3 = nil
@@ -181,7 +185,7 @@ function slot5.RemoveBlink(slot0, slot1)
 end
 
 function slot5.AddShaderColor(slot0, slot1)
-	slot0._animator:ShiftShader(slot0:GetTf():GetComponent(typeof(Renderer)).material.shader, slot1 or Color.New(0, 0, 0, 0))
+	slot0:SwitchShader(slot0:GetTf():GetComponent(typeof(Renderer)).material.shader, slot1 or Color.New(0, 0, 0, 0))
 end
 
 function slot5.GetPosition(slot0)
@@ -422,18 +426,24 @@ function slot5.onUpdateDiveInvisible(slot0, slot1)
 	slot0:UpdateDiveInvisible()
 end
 
-function slot5.UpdateDiveInvisible(slot0)
-	if slot0._unitData:GetDiveInvisible() then
-		slot0:updateInvisible(slot1, slot0._unitData:GetIFF() == uv0.FOE_CODE and "GRID_TRANSPARENT" or "SEMI_TRANSPARENT", slot0:GetFactory():GetDivingFilterColor())
-	else
-		slot0:updateInvisible(slot1)
+function slot5.UpdateDiveInvisible(slot0, slot1)
+	slot3 = slot0._unitData:GetIFF() == uv0.FOE_CODE
 
-		if not slot2 then
+	if slot0._unitData:GetDiveInvisible() then
+		slot0:updateInvisible(slot2, slot3 and "GRID_TRANSPARENT" or "SEMI_TRANSPARENT", slot0:GetFactory():GetDivingFilterColor())
+
+		if not slot1 and slot3 then
+			slot0:spineSemiTransparentFade(0, 0.7, 0)
+		end
+	else
+		slot0:updateInvisible(slot2)
+
+		if not slot3 then
 			slot0:AddShaderColor()
 		end
 	end
 
-	if slot2 then
+	if slot3 then
 		slot0:updateComponentVisible()
 	end
 end
@@ -463,17 +473,22 @@ function slot5.updateInvisible(slot0, slot1, slot2, slot3)
 end
 
 function slot5.onDetected(slot0, slot1)
-	slot3 = slot1.Data.duration
-
 	if slot0._unitData:GetDiveDetected() and slot0._unitData:GetIFF() == uv0.FOE_CODE then
-		SpineAnim.CharFade(slot0._go, slot3, slot3, 0.7, true)
-
 		slot0._shockFX = slot0:AddFX("shock", true, true)
 	else
-		slot0:RemoveCacheFX(slot0._shockFX)
+		slot0:RemoveCacheFX("shock")
 	end
 
+	slot0:UpdateCharacterDetected()
 	slot0:updateComponentVisible()
+end
+
+function slot5.UpdateCharacterDetected(slot0)
+	if slot0._unitData:GetIFF() == uv0.FRIENDLY_CODE or slot0._unitData:GetDiveDetected() then
+		slot0:spineSemiTransparentFade(0, 0.7, uv0.SUB_FADE_IN_DURATION)
+	else
+		slot0:spineSemiTransparentFade(0.7, 0, uv0.SUB_FADE_OUT_DURATION)
+	end
 end
 
 function slot5.onBlindExposed(slot0, slot1)
@@ -510,6 +525,23 @@ function slot5.updateComponentBlindInvisible(slot0)
 	SetActive(slot0._arrowBarTf, slot1)
 	SetActive(slot0._HPBarTf, slot1)
 	SetActive(slot0._FXAttachPoint, slot1)
+end
+
+function slot5.spineSemiTransparentFade(slot0, slot1, slot2, slot3)
+	LeanTween.cancel(slot0._go)
+	onDelayTick(function ()
+		if not uv0._go then
+			return
+		end
+
+		if not uv1 or uv1 == 0 then
+			uv0._go:GetComponent(typeof(Renderer)).material:SetFloat("_Invisible", uv2)
+		else
+			LeanTween.value(uv0._go, uv3, uv2, uv1):setOnUpdate(System.Action_float(function (slot0)
+				uv0:SetFloat("_Invisible", slot0)
+			end))
+		end
+	end, 0.06)
 end
 
 function slot5.onInitVigilantState(slot0, slot1)
@@ -674,6 +706,7 @@ function slot5.Dispose(slot0)
 		LeanTween.cancel(slot0._popGO)
 	end
 
+	LeanTween.cancel(slot0._go)
 	Object.Destroy(slot0._popGO)
 
 	if slot0._voicePlaybackInfo then
@@ -1013,6 +1046,8 @@ function slot5.SonarAcitve(slot0, slot1)
 end
 
 function slot5.SwitchShader(slot0, slot1, slot2)
+	LeanTween.cancel(slot0._go)
+
 	if slot1 then
 		slot0._animator:ShiftShader(slot1, slot2 or Color.New(0, 0, 0, 0))
 	else

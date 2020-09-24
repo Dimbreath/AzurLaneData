@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "在企業的開導下，終於達成了頓悟（？）的聖地亞哥，改造之日，已經近在咫尺了——也許",
+			say = "在企業的開導下，終於達成了頓悟（？）的聖地牙哥，改造之日，已經近在咫尺了——也許",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

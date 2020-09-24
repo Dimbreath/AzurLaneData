@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "聖地亞哥今天也是一樣充滿精神呢",
+			say = "聖地牙哥今天也是一樣充滿精神呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			actor = 107020,
 			nameColor = "#a9f548",
-			say = "等一下，別跑那麼快——哎呀，這孩子真是的…聖地亞哥可不能學她喲",
+			say = "等一下，別跑那麼快——哎呀，這孩子真是的…聖地牙哥可不能學她喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "就這樣，小小的改造之種在聖地亞哥的心中種了下來，終有一天將發芽，長成一棵大樹吧——也許",
+			say = "就這樣，小小的改造之種在聖地牙哥的心中種了下來，終有一天將發芽，長成一棵大樹吧——也許",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

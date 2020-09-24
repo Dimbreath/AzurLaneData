@@ -194,8 +194,9 @@ function slot2.GenerateVertifyData(slot0)
 	end
 
 	BattleVertify = BattleVertify or {}
-	BattleVertify.configDataVertify = GetSpeNum(uv0.Battle.BattleConfig, 0)
-	BattleVertify.constDataVertify = GetSpeNum(pg.bfConsts, 0)
+	slot2 = GetSpeNum()
+	BattleVertify.configDataVertify = slot2(uv0.Battle.BattleConfig, 0)
+	BattleVertify.constDataVertify = slot2(pg.bfConsts, 0)
 end
 
 function slot2.Vertify()
@@ -254,14 +255,6 @@ function slot2.ChangeState(slot0, slot1)
 		end
 	elseif slot1 == uv0.BATTLE_STATE_FIGHT then
 		slot0:ActiveAutoComponentTimer()
-
-		slot2, slot3 = slot0.Vertify()
-
-		if not slot2 then
-			pg.m02:sendNotification(GAME.CHEATER_MARK, {
-				reason = slot3
-			})
-		end
 	elseif slot1 == uv0.BATTLE_STATE_REPORT then
 		-- Nothing
 	end

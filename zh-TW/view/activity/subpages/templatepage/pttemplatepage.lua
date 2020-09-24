@@ -47,13 +47,26 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
-		slot0, slot1 = uv0.ptData:GetResProgress()
+		slot0 = {}
 
-		uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
-			cmd = 1,
-			activity_id = uv0.ptData:GetId(),
-			arg1 = slot1
-		})
+		if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and getProxy(PlayerProxy):getData():GoldMax(slot1.count) then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),
+					onYes = slot0
+				})
+			end)
+		end
+
+		seriesAsync(slot0, function ()
+			slot0, slot1 = uv0.ptData:GetResProgress()
+
+			uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+				cmd = 1,
+				activity_id = uv0.ptData:GetId(),
+				arg1 = slot1
+			})
+		end)
 	end, SFX_PANEL)
 end
 

@@ -448,23 +448,7 @@ function slot0.getUpgradeConsume(slot0)
 end
 
 function slot0.canEquipToEliteChapter(slot0, slot1, slot2, slot3)
-	if (getProxy(ChapterProxy):getChapterById(slot0):getEliteFleetCommanders()[slot1] or {})[slot2] ~= slot3 then
-		for slot13, slot14 in pairs(slot4:getFleetCommander(slot0, slot1) or {}) do
-			if slot7:getCommanderById(slot14).groupId == getProxy(CommanderProxy):getCommanderById(slot3).groupId and slot13 ~= slot2 then
-				return false, i18n("commander_can_not_select_same_group")
-			end
-		end
-	end
-
-	for slot11, slot12 in pairs(slot4:getOtherFleetCommander(slot0, slot1)) do
-		for slot16, slot17 in pairs(slot12) do
-			if slot3 == slot17 then
-				return false, i18n("commander_is_in_fleet_already")
-			end
-		end
-	end
-
-	return true
+	return uv0.canEquipToFleetList(getProxy(ChapterProxy):getChapterById(slot0):getEliteFleetCommanders() or {}, slot1, slot2, slot3)
 end
 
 function slot0.canEquipToFleetList(slot0, slot1, slot2, slot3)

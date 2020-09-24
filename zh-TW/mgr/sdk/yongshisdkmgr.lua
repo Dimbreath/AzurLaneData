@@ -1,4 +1,7 @@
 slot1 = YongshiSdkMgr.inst
+slot2 = "com.hkmanjuu.azurlane.gp.mc"
+slot3 = "com.hkmanjuu.azurlane.gp"
+slot4 = "com.hkmanjuu.azurlane.ios1"
 
 function StartSdkLogin()
 	Timer.New(function ()
@@ -88,7 +91,7 @@ end
 function GetUserInfoFailed()
 end
 
-function slot2(slot0, slot1, slot2)
+function slot5(slot0, slot1, slot2)
 	if slot0 == YongshiSdkUserBindInfo.FACEBOOK then
 		pg.TipsMgr.GetInstance():ShowTips(slot1 .. "facebook" .. slot2)
 	elseif slot0 == YongshiSdkUserBindInfo.APPLE then
@@ -241,5 +244,14 @@ return {
 	end,
 	GetIsPlatform = function ()
 		return uv0.isPlatform
+	end,
+	GetPackageCode = function (slot0)
+		if slot0 == uv0 then
+			return "2"
+		elseif slot0 == uv1 then
+			return "1"
+		elseif slot0 == uv2 then
+			return "3"
+		end
 	end
 }

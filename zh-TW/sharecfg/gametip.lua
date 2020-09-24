@@ -2443,7 +2443,7 @@ pg.gametip = {
 		tip = "指揮官等級到達<color=#A9F548>$1級</color>時解鎖該關卡"
 	},
 	levelScene_chapter_count_tip = {
-		tip = "今日次数："
+		tip = "今日次數："
 	},
 	levelScene_tracking_error_retry = {
 		tip = "啟動關卡失敗，請重試"
@@ -2877,7 +2877,7 @@ pg.gametip = {
 		tip = "反潛"
 	},
 	attribute_sonarRange = {
-		tip = "搜尋範圍"
+		tip = "額外偵測範圍"
 	},
 	attribute_sonarInterval = {
 		tip = "搜尋週期"
@@ -2890,6 +2890,9 @@ pg.gametip = {
 	},
 	attribute_intimacy = {
 		tip = "好感度"
+	},
+	attribute_max_distance_damage = {
+		tip = "边际伤害"
 	},
 	skill = {
 		tip = "技能"
@@ -3807,7 +3810,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 				}
 			},
 			{
-				info = "       反潛：提高反潛武器的傷害",
+				info = "       反潛：提高反潛武器的傷害，影響隊伍反潛偵測範圍",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -5570,7 +5573,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		tip = "回復速度"
 	},
 	destroy_eliteship_tip = {
-		tip = "選擇角色中有$1\n的角色是否確認?"
+		tip = "選擇角色中有$1的角色是否確認?"
 	},
 	err_resloveequip_nochoice = {
 		tip = "未選擇拆除的裝備"
@@ -7302,6 +7305,12 @@ $3]]
 	},
 	map_event_stop_tip = {
 		tip = "踩下對應顏色<color=#A9F548>機關</color>可解除禁止通行狀態"
+	},
+	map_event_stop_battle_tip = {
+		tip = "消灭周围所有<color=#ff5c5c>敌人</color>可解除禁止通行状态"
+	},
+	map_event_stop_story_tip = {
+		tip = "触发附近<color=#92fc63>剧情点</color>可解除禁止通行状态"
 	},
 	map_event_save_nekone = {
 		tip = "成功救出<color=#A9F548>貓音</color>"
@@ -10272,14 +10281,23 @@ TIPS：
 	win_condition_display_qijian = {
 		tip = "擊破敵方旗艦"
 	},
+	win_condition_display_qijian_tip = {
+		tip = "BOSS擊破，關卡攻略完成"
+	},
 	win_condition_display_shangchuan = {
 		tip = "商船抵達指定位置"
+	},
+	win_condition_display_shangchuan_tip = {
+		tip = "运输船抵达终点，护航成功"
 	},
 	win_condition_display_judian = {
 		tip = "擊破敵方所有據點"
 	},
 	win_condition_display_tuoli = {
 		tip = "任意艦隊到達脫離點"
+	},
+	win_condition_display_tuoli_tip = {
+		tip = "成功到达脱离点，关卡攻略完成"
 	},
 	lose_condition_display_quanmie = {
 		tip = "我方艦隊全滅"
@@ -10447,6 +10465,9 @@ TIPS：
 	click_back_tip = {
 		tip = "點擊空白處返回"
 	},
+	destory_ship_before_tip = {
+		tip = "是否確認"
+	},
 	trade_card_tips1 = {
 		tip = "前往商店"
 	},
@@ -10468,6 +10489,48 @@ TIPS：
 	},
 	trade_card_tips4 = {
 		tip = "$1年$2月$3日"
+	},
+	fleet_antisub_range = {
+		tip = "反潛聲吶範圍："
+	},
+	fleet_antisub_range_tip = {
+		tip = {
+			{
+				info = [[
+ · 反潛聲納偵測
+
+僅當隊伍先鋒中有未被擊破的輕巡或驅逐時，戰鬥中該
+編隊將帶有反潛聲納偵測敵方潛艇
+在反潛聲納偵測範圍內的敵方潛艇將被暴露，直至其脫離
+反潛聲納偵測範圍（部分特殊情況除外）
+
+反潛聲納探索範圍的計算方式：
+計算反潛探索範圍所使用的所有反潛值，僅取船塢角色詳
+情的白色字體屬性部分
+1、基礎聲納範圍
+根據先鋒編隊的驅逐和輕巡角色的反潛值和公式，計算
+各自的基礎偵測直徑： 
+驅逐基礎偵測直徑= 反潛值/ 2 - 32
+驅逐的基礎聲納範圍限制：最小為45，最大為100
+輕巡基礎偵測直徑= 反潛值/ 2.86
+輕巡的基礎聲納範圍限制：最小為30，最大為80
+
+計算各自的基礎偵測直徑後，取其中的最大基礎偵測直徑
+作為隊伍的基礎偵測範圍
+
+2、額外聲納範圍
+除基礎聲納範圍外，還可以通過其他方式增加額外的聲納
+範圍
+基礎範圍與額外範圍相加後，形成實際的反潛聲納偵測範
+圍
+ ·將主力編隊所有角色的反潛值合計後，根據公式計算成
+額外範圍
+主力編隊額外偵測直徑= 主力總合反潛值/ 24 
+主力編隊額外偵測範圍限制：最小為0，最大為15
+ ·裝備、技能增加的額外範圍
+]]
+			}
+		}
 	},
 	multiple_ship_energy_low_warn = {
 		tip = "$1中$2處於心情低落狀態，強制出擊將降低好感且獲得經驗減半"

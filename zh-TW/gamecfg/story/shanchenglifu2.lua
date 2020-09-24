@@ -323,7 +323,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "没、没有啦，就是平时的大凤总觉得，怎么说呢，有些难以靠近？虽然没有赤城那么明显。",
+			say = "沒、沒有啦，就是平時的{namecode:97}總覺得，怎麼說呢，有些難以靠近？雖然沒有{namecode:91}那麼明顯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

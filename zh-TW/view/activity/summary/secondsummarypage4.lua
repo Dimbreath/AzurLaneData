@@ -10,6 +10,10 @@ slot0.furnitureIdPage = {
 	},
 	{
 		140
+	},
+	{
+		175,
+		177
 	}
 }
 

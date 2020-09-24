@@ -202,7 +202,7 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 
 						break
 					end
-				elseif type(slot26) == "string" and table.contains(Clone(ShipType.BundleList[slot26]), slot21:getShipType()) then
+				elseif type(slot26) == "string" and table.contains(ShipType.BundleList[slot26], slot21:getShipType()) then
 					slot19 = slot21
 					slot20 = slot26
 

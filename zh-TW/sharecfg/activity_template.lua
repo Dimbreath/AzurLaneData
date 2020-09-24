@@ -1131,6 +1131,47 @@ pg.activity_template = {
 			ui_name = "AnimeEndPage"
 		}
 	},
+	[710] = {
+		mark = 20200917,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 710,
+		config_data = {
+			16058
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2030,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[999] = {
 		mark = 20191226,
 		page_info = "",
@@ -6182,7 +6223,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 45011,
-		is_show = 10,
+		is_show = 11,
 		config_client = "",
 		title_res_tag = "leijipt",
 		id = 45011,
@@ -6306,7 +6347,7 @@ pg.activity_template = {
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 11,
+		is_show = 12,
 		title_res_tag = "bsm",
 		id = 45014,
 		config_data = {
@@ -6584,6 +6625,181 @@ pg.activity_template = {
 			}
 		}
 	},
+	[45018] = {
+		mark = 20200924,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		title_res_tag = "sclf",
+		id = 45018,
+		config_data = {
+			{
+				13931,
+				13932
+			},
+			{
+				13933,
+				13934
+			},
+			{
+				13935,
+				13936
+			},
+			{
+				13937,
+				13938
+			},
+			{
+				13939,
+				13940
+			},
+			{
+				13941,
+				13942
+			},
+			{
+				13943,
+				13944
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YamashiroSkinPage",
+			ui_name = "yamashiroskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHANCHENGLIFU1"
+				},
+				{
+					"SHANCHENGLIFU2"
+				},
+				{
+					"SHANCHENGLIFU3"
+				},
+				{},
+				{
+					"SHANCHENGLIFU4"
+				},
+				{
+					"SHANCHENGLIFU5"
+				},
+				{
+					"SHANCHENGLIFU6"
+				}
+			}
+		}
+	},
+	[45019] = {
+		mark = 20200924,
+		type = 45,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 10,
+		title_res_tag = "sdyg_gai",
+		id = 45019,
+		config_data = {
+			{
+				{
+					59748,
+					18
+				}
+			},
+			8912,
+			{
+				8905,
+				8906,
+				8907,
+				8908,
+				8909,
+				8910,
+				8911
+			},
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SandiegoReformPage",
+			ui_name = "sandiegoreformpage"
+		},
+		config_client = {
+			{
+				"SHENGDIYAGEGAI1",
+				nil,
+				"SHENGDIYAGEGAI2",
+				nil,
+				"SHENGDIYAGEGAI3",
+				nil,
+				nil,
+				"SHENGDIYAGEGAI4"
+			},
+			{},
+			{
+				1,
+				1,
+				1,
+				1,
+				2,
+				3,
+				9
+			},
+			{}
+		}
+	},
 	[45026] = {
 		mark = 20180531,
 		page_info = "",
@@ -6629,6 +6845,47 @@ pg.activity_template = {
 			}
 		}
 	},
+	[45027] = {
+		mark = 20200924,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 45027,
+		config_data = {
+			80169
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -6665,6 +6922,7 @@ pg.activity_template = {
 		548,
 		549,
 		555,
+		710,
 		999,
 		2001,
 		2002,
@@ -6873,6 +7131,9 @@ pg.activity_template = {
 		45015,
 		45016,
 		45017,
-		45026
+		45018,
+		45019,
+		45026,
+		45027
 	}
 }

@@ -165,7 +165,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.BATTLE_OPERA, function ()
 		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot0 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity) or slot2:isEnd() then
+		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
@@ -179,7 +179,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.SPECIAL_BATTLE_OPERA, function ()
 		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot0 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity) or slot2:isEnd() then
+		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 				chapterId = getProxy(ChapterProxy):getActiveChapter() and slot4.id,
 				mapIdx = slot4 and slot4:getConfig("map")

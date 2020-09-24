@@ -4,21 +4,21 @@ function slot1.GetType(slot0)
 	return uv0.TYPESKIRMISH
 end
 
-function slot1.GetUIName(slot0)
+function slot1.getUIName(slot0)
 	return "skirmish_levels"
 end
 
 function slot1.Update(slot0)
-	slot1 = slot0.tf
+	slot1 = slot0._tf
 	slot2 = 0.21875
 	slot1.pivot = Vector2(slot2, 1)
 	slot1.anchorMin = Vector2(0.5, 1)
 	slot1.anchorMax = Vector2(0.5, 1)
-	slot1.anchoredPosition = Vector2((slot2 - 0.5) * slot0.tfParent.rect.width, 0)
+	slot1.anchoredPosition = Vector2((slot2 - 0.5) * slot0._parentTf.rect.width, 0)
 	slot0.map.pivot = Vector2(slot2, 1)
 	slot6 = 1
-	slot6 = slot0.map.rect.width / slot0.map.rect.height < slot0.tfParent.rect.width / slot0.tfParent.rect.height and slot0.tfParent.rect.width / slot0.tf.rect.width or slot0.tfParent.rect.height / slot0.tf.rect.height
-	slot0.tf.localScale = Vector3(slot6, slot6, slot6)
+	slot6 = slot0.map.rect.width / slot0.map.rect.height < slot0._parentTf.rect.width / slot0._parentTf.rect.height and slot0._parentTf.rect.width / slot0._tf.rect.width or slot0._parentTf.rect.height / slot0._tf.rect.height
+	slot0._tf.localScale = Vector3(slot6, slot6, slot6)
 end
 
 slot2 = Vector2(-193.5, 120.6)
@@ -46,11 +46,11 @@ function slot1.UpdateMapItems()
 end
 
 function slot1.OnHide(slot0)
-	for slot5 = 1, slot0.tf:Find("skirmish_items").childCount do
+	for slot5 = 1, slot0._tf:Find("skirmish_items").childCount do
 		LeanTween.cancel(go(slot1:GetChild(slot5 - 1)))
 	end
 
-	LeanTween.cancel(go(slot0.tf:Find("cloud")))
+	LeanTween.cancel(go(slot0._tf:Find("cloud")))
 	setActive(slot0.sceneParent.skirmishBar, false)
 end
 

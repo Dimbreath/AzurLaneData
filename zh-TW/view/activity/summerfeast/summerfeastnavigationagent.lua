@@ -77,7 +77,13 @@ function slot0.updateLogic(slot0)
 		LeanTween.value(slot0._go, 0, 1, Vector2.Distance(slot0.currentPoint, slot0.targetPoint) / 15):setOnUpdate(System.Action_float(function (slot0)
 			uv0._tf.anchoredPosition = Vector2.Lerp(uv1, uv2, slot0)
 			slot1 = math.lerp(uv1.scale or uv3.normalScale, uv2.scale or uv3.normalScale, slot0) * Vector2.one
-			slot1.x = slot1.x * (uv1.x < uv2.x and 1 or -1)
+			slot2 = uv1.x < uv2.x and 1 or -1
+
+			if uv1.id == uv2.id then
+				slot2 = math.random(0, 2) > 1 and 1 or -1
+			end
+
+			slot1.x = math.abs(slot1.x) * slot2
 			uv0._tf.localScale = slot1
 		end)):setOnComplete(System.Action(function ()
 			uv0.currentPoint = uv0.targetPoint

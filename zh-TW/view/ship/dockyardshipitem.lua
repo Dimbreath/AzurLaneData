@@ -110,7 +110,7 @@ function slot0.flush(slot0)
 		slot5 = slot1.bindingData and slot4.class == WorldMapShip
 
 		flushShipCard(slot0.tr, slot1, function (slot0, slot1)
-			if uv0.shipVO.configId == slot1 then
+			if isa(uv0.shipVO, Ship) and uv0.shipVO.configId == slot1 then
 				findTF(uv0.tr, "content/ship_icon"):GetComponent("Image").sprite = slot0
 			end
 		end)

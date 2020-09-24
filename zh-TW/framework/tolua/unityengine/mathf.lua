@@ -204,6 +204,12 @@ function slot3.MultiRandom(slot0, slot1)
 	return slot2
 end
 
+function slot3.RandomFloat(slot0, slot1, slot2)
+	slot2 = slot2 or 10000
+
+	return uv0.random((slot1 or 0) * slot2, slot0 * slot2) / slot2
+end
+
 UnityEngine.Mathf = slot3
 
 return slot3

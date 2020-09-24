@@ -169,6 +169,58 @@ pg.music_collect_config = {
 		},
 		unlock_cost = {}
 	},
+	{
+		music = "bgm-story-4",
+		name = "樱舞",
+		unlock_other = 0,
+		id = 14,
+		cover = "MusicCover1",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-story-5",
+		name = "危机",
+		unlock_other = 0,
+		id = 15,
+		cover = "MusicCover1",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-story-6",
+		name = "破晓",
+		unlock_other = 0,
+		id = 16,
+		cover = "MusicCover1",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-story-7",
+		name = "意志",
+		unlock_other = 0,
+		id = 17,
+		cover = "MusicCover1",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
 	all = {
 		1,
 		2,
@@ -182,6 +234,10 @@ pg.music_collect_config = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14,
+		15,
+		16,
+		17
 	}
 }

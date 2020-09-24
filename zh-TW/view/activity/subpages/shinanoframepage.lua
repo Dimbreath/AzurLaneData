@@ -10,11 +10,15 @@ function slot0.OnInit(slot0)
 	slot0.phaseTF_2 = slot0:findTF("Phase2", slot0.bg)
 	slot0.gotTag = slot0:findTF("Phase2/GotTag", slot0.bg)
 	slot0.frameTF = slot0:findTF("Phase2/Icon", slot0.bg)
+	slot0.progressBar = slot0:findTF("Phase2/Progress", slot0.bg)
+	slot0.progressText = slot0:findTF("Phase2/ProgressText", slot0.bg)
 
 	setActive(slot0.goBtn, false)
 	setActive(slot0.getBtn, false)
 	setActive(slot0.gotBtn, false)
 	setActive(slot0.gotTag, false)
+	setActive(slot0.progressBar, false)
+	setActive(slot0.progressText, false)
 	setActive(slot0.phaseTF_2, false)
 end
 
@@ -51,16 +55,30 @@ function slot0.OnUpdateFlush(slot0)
 		setActive(slot0.phaseTF_1, false)
 		setActive(slot0.phaseTF_2, true)
 
-		slot2 = slot0.ptData:CanGetAward()
-		slot3 = slot0.ptData:CanGetNextAward()
+		slot2, slot3, slot4 = slot0.ptData:GetResProgress()
 
-		setActive(slot0.goBtn, slot0.ptData:CanGetMorePt() and not slot2 and slot3)
-		setActive(slot0.getBtn, slot2)
-		setActive(slot0.gotBtn, not slot3)
-		setActive(slot0.gotTag, not slot3)
+		setText(slot0.progressText, slot2 .. "/" .. slot3)
+		setSlider(slot0.progressBar, 0, 1, slot4)
+		setActive(slot0.progressBar, true)
+		setActive(slot0.progressText, true)
+
+		slot5 = slot0.ptData:CanGetAward()
+		slot6 = slot0.ptData:CanGetNextAward()
+
+		setActive(slot0.goBtn, slot0.ptData:CanGetMorePt() and not slot5 and slot6)
+		setActive(slot0.getBtn, slot5)
+		setActive(slot0.gotBtn, not slot6)
+		setActive(slot0.gotTag, not slot6)
 	else
 		setActive(slot0.phaseTF_1, true)
 		setActive(slot0.phaseTF_2, false)
+
+		slot2, slot3, slot4 = slot0.ptData:GetResProgress()
+
+		setText(slot0.progressText, slot2 .. "/" .. slot3)
+		setSlider(slot0.progressBar, 0, 1, slot4)
+		setActive(slot0.progressBar, true)
+		setActive(slot0.progressText, true)
 	end
 end
 

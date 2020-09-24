@@ -106,7 +106,7 @@ function slot0.onAdded(slot0)
 					if getProxy(ContextProxy):getCurrentContext().mediator.__cname ~= TaskMediator.__cname then
 						function slot0()
 							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
-								page = uv0[uv1:getConfig("type")]
+								page = uv0[uv1:GetRealType()]
 							})
 						end
 					end
@@ -227,6 +227,26 @@ end
 
 function slot0.getConfirmSetting(slot0)
 	return Clone(slot0.confirmSetting)
+end
+
+function slot0.IsUrTask(slot0)
+	if not LOCK_UR_SHIP then
+		slot2 = pg.gameset.urpt_chapter_max.description[1]
+
+		return _.any(slot0:getConfig("award_display"), function (slot0)
+			return slot0[1] == DROP_TYPE_ITEM and slot0[2] == uv0
+		end)
+	else
+		return false
+	end
+end
+
+function slot0.GetRealType(slot0)
+	if slot0:getConfig("priority_type") == 0 then
+		slot1 = slot0:getConfig("type")
+	end
+
+	return slot1
 end
 
 return slot0

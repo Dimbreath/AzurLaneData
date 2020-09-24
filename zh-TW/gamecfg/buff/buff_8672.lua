@@ -1,6 +1,6 @@
 return {
 	desc_get = "",
-	name = "潜伏者II型水面减伤护盾",
+	name = "水面减伤护盾",
 	time = 0,
 	init_effect = "",
 	picture = "",

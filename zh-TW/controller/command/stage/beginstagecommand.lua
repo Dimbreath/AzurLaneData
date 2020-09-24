@@ -3,7 +3,6 @@ slot0 = class("BeginStageCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
-	ys.Battle.BattleState.GenerateVertifyData()
 	ys.Battle.BattleGate.Gates[slot2.system].Entrance(slot2, slot0)
 end
 

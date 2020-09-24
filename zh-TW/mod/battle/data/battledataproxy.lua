@@ -373,7 +373,7 @@ function slot8.InitUserShipsData(slot0, slot1, slot2, slot3, slot4)
 		slot10 = slot0:SpawnMain(slot9, slot3)
 	end
 
-	slot5 = slot0:GetFleetByIFF(slot3)
+	slot0:GetFleetByIFF(slot3):FleetUnitSpwanFinish()
 
 	if slot0._battleInitData.battleType == SYSTEM_SUBMARINE_RUN or slot6 == SYSTEM_SUB_ROUTINE then
 		for slot10, slot11 in ipairs(slot4) do
@@ -395,7 +395,7 @@ function slot8.InitUserAidData(slot0)
 
 		uv1.AttrFixer(slot0._battleInitData.battleType, slot7)
 
-		slot9 = uv2.CreateBattleUnitData(slot0:GenerateUnitID(), uv3.UnitType.PLAYER_UNIT, uv0.FRIENDLY_CODE, slot5.tmpID, slot5.skinId, slot5.equipment, slot7, slot5.proficiency or {
+		slot9 = uv2.CreateBattleUnitData(slot0:GenerateUnitID(), uv3.UnitType.PLAYER_UNIT, uv0.FRIENDLY_CODE, slot5.tmpID, slot5.skinId, slot5.equipment, slot7, slot5.baseProperties, slot5.proficiency or {
 			1,
 			1,
 			1
@@ -481,6 +481,10 @@ end
 
 function slot8.GetFleetList(slot0)
 	return slot0._fleetList
+end
+
+function slot8.GetEnemySubmarineCount(slot0)
+	return slot0._enemySubmarineCount
 end
 
 function slot8.GetCommander(slot0)
@@ -719,7 +723,7 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 
-	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, , slot1.level)
+	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, , slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, , slot1.level)
 
 	slot11:SetPosition(uv1.RandomPos(slot1.corrdinate))
 	slot11:SetAI(slot1.pilotAITemplateID or slot7.pilot_ai_template_id)
@@ -794,9 +798,7 @@ function slot8.UpdateHostileSubmarine(slot0, slot1)
 		slot0._enemySubmarineCount = slot0._enemySubmarineCount - 1
 	end
 
-	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_HOSTILE_SUBMARINE, {
-		count = slot0._enemySubmarineCount
-	}))
+	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_HOSTILE_SUBMARINE))
 end
 
 function slot8.EnemyEscape(slot0)
@@ -1008,7 +1010,7 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 		slot8 = uv2.UnitType.SUB_UNIT
 	end
 
-	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList)
+	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.baseProperties, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList)
 
 	slot10:InitCurrentHP(slot1.initHPRate or 1)
 	slot10:SetRarity(slot1.rarity)
@@ -1307,18 +1309,41 @@ function slot8.GenerateBulletID(slot0)
 	return slot1
 end
 
-function slot8.CLSBullet(slot0, slot1)
-	slot2 = true
+function slot8.CLSBullet(slot0, slot1, slot2)
+	slot3 = true
 
 	if slot0._battleInitData.battleType == SYSTEM_DUEL then
-		slot2 = false
+		slot3 = false
 	end
 
-	if slot2 then
-		for slot7, slot8 in pairs(slot0._bulletList) do
-			if slot8:GetIFF() == slot1 and slot8:GetExist() and not slot8:ImmuneCLS() then
-				slot0:RemoveBulletUnit(slot7)
+	if slot3 then
+		for slot8, slot9 in pairs(slot0._bulletList) do
+			if slot9:GetIFF() == slot1 and slot9:GetExist() and not slot9:ImmuneCLS() then
+				if not slot9:ImmuneBombCLS() or not slot2 then
+					slot0:RemoveBulletUnit(slot8)
+				end
 			end
+		end
+	end
+end
+
+function slot8.CLSAircraft(slot0, slot1)
+	for slot5, slot6 in pairs(slot0._aircraftList) do
+		if slot6:GetIFF() == slot1 then
+			slot6:Clear()
+			slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_AIR_CRAFT, {
+				UID = slot5
+			}))
+
+			slot0._aircraftList[slot5] = nil
+		end
+	end
+end
+
+function slot8.CLSMinion(slot0)
+	for slot4, slot5 in pairs(slot0._unitList) do
+		if slot5:GetIFF() == uv0.FOE_CODE and slot5:IsAlive() and not slot5:IsBoss() then
+			slot5:DeadAction()
 		end
 	end
 end
@@ -1333,6 +1358,8 @@ function slot8.SpawnColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 	slot10:SetFieldType(slot1)
 	slot10:SetOpponentAffected(not (slot7 or false))
 	slot0:CreateAreaOfEffect(slot10)
+
+	return slot10
 end
 
 function slot8.SpawnCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
@@ -1346,6 +1373,8 @@ function slot8.SpawnCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 	slot11:SetFieldType(slot1)
 	slot11:SetOpponentAffected(not (slot8 or false))
 	slot0:CreateAreaOfEffect(slot11)
+
+	return slot11
 end
 
 function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
@@ -1389,6 +1418,27 @@ function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, sl
 	end
 
 	return slot13
+end
+
+function slot8.SpawnTriggerColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
+	slot10 = uv0.Battle.BattleTriggerAOEData.New(slot0:GenerateAreaID(), slot2, slot8)
+
+	slot10:SetPosition(slot3)
+	slot10:SetRange(slot4)
+	slot10:SetAreaType(uv1.AreaType.COLUMN)
+	slot10:SetLifeTime(slot5)
+	slot10:SetFieldType(slot1)
+	slot10:SetOpponentAffected(not (slot6 or false))
+	slot0:CreateAreaOfEffect(slot10)
+
+	if slot7 and slot7 ~= "" then
+		slot0:DispatchEvent(uv0.Event.New(uv2.ADD_AREA, {
+			area = slot10,
+			FXID = slot7
+		}))
+	end
+
+	return slot10
 end
 
 function slot8.SpawnAura(slot0, slot1, slot2, slot3, slot4, slot5, slot6)

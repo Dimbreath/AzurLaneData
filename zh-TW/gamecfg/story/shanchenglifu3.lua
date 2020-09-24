@@ -236,7 +236,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "1,2,3！",
+			say = "1，2，3！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

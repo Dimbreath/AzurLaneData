@@ -127,7 +127,9 @@ function slot0.finishStroy(slot0, slot1)
 end
 
 function slot0.tryPlayStroy(slot0)
-	pg.SystemGuideMgr.GetInstance():PlayCommander()
+	if slot0.contextData.fromMain then
+		pg.SystemGuideMgr.GetInstance():PlayCommander()
+	end
 end
 
 function slot0.updateRes(slot0)

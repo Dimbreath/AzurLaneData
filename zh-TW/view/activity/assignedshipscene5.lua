@@ -1,29 +1,30 @@
 slot0 = class("AssignedShipScene5", import("..base.BaseUI"))
 slot0.list = {
-	"B",
-	"W",
-	"H",
-	"E",
-	"I",
-	"P",
-	"A",
-	"S",
-	"T"
+	"L1",
+	"B1",
+	"I1",
+	"H1",
+	"E1",
+	"S2",
+	"S3",
+	"Z1",
+	"W2"
 }
 slot0.shiplist = {
+	901111,
 	202121,
-	205021,
+	207031,
 	204031,
 	107061,
-	207031,
-	205061,
-	303121,
-	105131,
-	105121
+	202201,
+	307051,
+	307061,
+	205021
 }
 slot0.titleFromID = {
-	[59720.0] = "first",
-	[60059.0] = "second"
+	[59906.0] = "second",
+	[59955.0] = "3rd",
+	[59720.0] = "first"
 }
 
 function slot0.getUIName(slot0)
@@ -42,6 +43,35 @@ function slot0.init(slot0)
 	slot0.count = 1
 	slot0.spList = {}
 	slot0.afterAnima = {}
+
+	if PLATFORM_CODE == PLATFORM_US then
+		uv0.list = {
+			"B",
+			"W",
+			"H",
+			"E",
+			"I",
+			"P",
+			"A",
+			"S",
+			"T"
+		}
+		uv0.shiplist = {
+			202121,
+			205021,
+			204031,
+			107061,
+			207031,
+			205061,
+			303121,
+			105131,
+			105121
+		}
+		uv0.titleFromID = {
+			[59720.0] = "first",
+			[60059.0] = "second"
+		}
+	end
 end
 
 function slot0.didEnter(slot0)
@@ -102,7 +132,13 @@ function slot0.changeShowCharacter(slot0, slot1, slot2, slot3)
 		slot0.afterAnima[slot1] = true
 	end
 
-	GetSpriteFromAtlasAsync("extra_page/login_us2year/" .. string.lower(slot1), "", function (slot0)
+	slot4 = "extra_page/3rd_year/"
+
+	if PLATFORM_CODE == PLATFORM_US then
+		slot4 = "extra_page/login_us2year/"
+	end
+
+	GetSpriteFromAtlasAsync(slot4 .. string.lower(slot1), "", function (slot0)
 		uv0.spList[uv1] = slot0
 
 		uv0:checkAndSetSprite(uv1, uv2)

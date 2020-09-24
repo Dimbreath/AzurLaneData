@@ -171,6 +171,14 @@ function slot0.setActivity(slot0, slot1)
 	end
 end
 
+function slot0.RefreshActivityBuildPool(slot0, slot1)
+	slot0.activity = slot1
+
+	if slot0.curProjectName == uv0.PROJECTS.ACTIVITY then
+		slot0:UpdateBuildPoolExchange(uv1[slot0:getCreateId(slot0.curProjectName)])
+	end
+end
+
 function slot0.removeActTimer(slot0)
 	if slot0.activityTimer then
 		slot0.activityTimer:Stop()
@@ -228,6 +236,12 @@ function slot0.init(slot0)
 	slot0.patingTF = slot0:findTF("bg/main/painting")
 	slot0.msgbox = uv0(slot0:findTF("build_msg"))
 	slot0.testBtn = slot0:findTF("bg/main/gallery/test_btn")
+	slot0.buildPoolExchangeTF = slot0:findTF("bg/main/gallery/exchange_bg")
+	slot0.buildPoolExchangeGetBtn = slot0.buildPoolExchangeTF:Find("get")
+	slot0.buildPoolExchangeTxt = slot0.buildPoolExchangeTF:Find("Text"):GetComponent(typeof(Text))
+	slot0.buildPoolExchangeGetBtnMark = slot0.buildPoolExchangeGetBtn:Find("mark")
+	slot0.buildPoolExchangeGetTxt = slot0.buildPoolExchangeGetBtn:Find("Text"):GetComponent(typeof(Text))
+	slot0.buildPoolExchangeName = slot0.buildPoolExchangeTF:Find("name"):GetComponent(typeof(Text))
 
 	slot0:initHelpMsg()
 end
@@ -249,15 +263,13 @@ function slot0.didEnter(slot0)
 
 	setActive(slot1, getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
+	function slot5()
+		getProxy(TaskProxy):dealMingshiTouchFlag(11)
+	end
+
 	slot6 = SFX_CONFIRM
 
-	onButton(slot0, slot1, function ()
-		getProxy(TaskProxy):dealMingshiTouchFlag(11)
-	end, slot6)
-
-	slot5 = "build"
-
-	setPaintingPrefabAsync(slot0.patingTF, slot0.falgShip:getPainting(), slot5)
+	onButton(slot0, slot1, slot5, slot6)
 
 	for slot5, slot6 in ipairs(slot0.toggles) do
 		onToggle(slot0, slot6, function (slot0)
@@ -461,7 +473,9 @@ function slot0.switchProject(slot0, slot1)
 	setText(slot0:findTF("gallery/bg/type_intro/title", slot0.mainTF), HXSet.hxLan(slot7))
 	setText(slot0:findTF("gallery/item_bg/item/Text", slot0.mainTF), slot2.number_1)
 	setText(slot0:findTF("gallery/item_bg/gold/Text", slot0.mainTF), slot2.use_gold)
+	slot0:UpdateBuildPoolExchange(slot2)
 	slot0:UpdateTestBtn(slot1)
+	slot0:UpdateBuildPoolPaiting(slot2)
 	onButton(slot0, slot0:findTF("gallery/start_btn", slot0.mainTF), function ()
 		uv0.msgbox:show(math.max(1, _.min({
 			math.floor(uv0.player.gold / uv1.use_gold),
@@ -483,6 +497,46 @@ function slot0.switchProject(slot0, slot1)
 			return i18n("build_ship_tip", slot0, uv0.name, slot0 * uv0.use_gold, slot0 * uv0.number_1, uv1(slot0) and COLOR_GREEN or COLOR_RED)
 		end)
 	end, SFX_UI_BUILDING_STARTBUILDING)
+end
+
+function slot0.UpdateBuildPoolPaiting(slot0, slot1)
+	slot2 = nil
+
+	if slot0.painting ~= ((not slot1.exchange_ship_id or slot1.exchange_ship_id <= 0 or pg.ship_skin_template[pg.ship_data_statistics[slot1.exchange_ship_id].skin_id].painting) and slot0.falgShip:getPainting()) then
+		pg.UIMgr:GetInstance():LoadingOn()
+		setPaintingPrefabAsync(slot0.patingTF, slot2, "build", function ()
+			uv0.painting = uv1
+
+			pg.UIMgr:GetInstance():LoadingOff()
+		end)
+	end
+end
+
+function slot0.UpdateBuildPoolExchange(slot0, slot1)
+	slot3 = slot1.exchange_available_times
+
+	if slot1.exchange_request and slot2 > 0 and slot3 and slot3 > 0 and slot0.activity and not slot0.activity:isEnd() then
+		slot7 = slot0.activity.data2
+		slot0.buildPoolExchangeTxt.text = "<color=#FFDF48>" .. slot0.activity.data1 .. "</color>/" .. math.min(slot3, slot7 + 1) * slot2
+		slot9 = slot7 < slot3 and slot8 <= slot6
+
+		setActive(slot0.buildPoolExchangeGetBtnMark, slot9)
+
+		slot0.buildPoolExchangeGetTxt.text = slot7 .. "/" .. slot3
+		slot0.buildPoolExchangeName.text = pg.ship_data_statistics[slot1.exchange_ship_id].name
+
+		onButton(slot0, slot0.buildPoolExchangeTF, function ()
+			if uv0 then
+				uv1:emit(BuildShipMediator.ON_BUILDPOOL_EXCHANGE, uv1.activity.id)
+			end
+		end, SFX_PANEL)
+		setGray(slot0.buildPoolExchangeGetBtn, not slot9, true)
+		setButtonEnabled(slot0.buildPoolExchangeTF, slot9)
+	else
+		removeOnButton(slot0.buildPoolExchangeTF)
+	end
+
+	setActive(slot0.buildPoolExchangeTF, slot5)
 end
 
 function slot0.onBackPressed(slot0)

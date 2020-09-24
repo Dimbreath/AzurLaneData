@@ -30,10 +30,6 @@ function slot2.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 end
 
-function slot2.AppendCldObj(slot0, slot1)
-	slot0._cldObjList[#slot0._cldObjList + 1] = slot1
-end
-
 function slot2.Settle(slot0)
 	slot1 = {}
 	slot2 = {

@@ -624,6 +624,15 @@ pg.activity_const = {
 	SHINANO_EXP_ACT_ID = {
 		act_id = 679
 	},
+	JIUJIU_ADVENTURE_ID = {
+		act_id = 690
+	},
+	UR_ITEM_ACT_ID = {
+		act_id = 711
+	},
+	UR_TASK_ACT_ID = {
+		act_id = 713
+	},
 	SUMMER_REMAKE = {
 		act_id = 40147
 	},
@@ -634,10 +643,10 @@ pg.activity_const = {
 		act_id = 30186
 	},
 	SANDIEGO_REFORM = {
-		act_id = 30198
+		act_id = 45019
 	},
 	SKIN_YAMASHIRO_II = {
-		act_id = 30199
+		act_id = 45018
 	},
 	MIKASA_MAIN_ACTIVITY = {
 		act_id = 40012

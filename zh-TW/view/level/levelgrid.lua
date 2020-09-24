@@ -866,6 +866,10 @@ function slot0.updateFleet(slot0, slot1)
 	end
 end
 
+function slot0.GetCellFleet(slot0, slot1)
+	return slot0.cellFleets[slot1]
+end
+
 function slot0.initTargetArrow(slot0)
 	slot0.arrowTarget = cloneTplTo(slot0.arrowTpl, slot0._tf)
 	slot2 = slot0.arrowTarget
@@ -883,11 +887,30 @@ function slot0.updateTargetArrow(slot0, slot1)
 
 	slot0.arrowTarget:SetParent(slot0.cellRoot:Find(ChapterCell.Line2Name(slot1.row, slot1.column)))
 
-	slot5, slot6 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot1.row, slot1.column)
+	slot6, slot7 = function ()
+		slot0, slot1 = uv0:existEnemy(ChapterConst.SubjectPlayer, uv1.row, uv1.column)
 
-	if slot5 and slot6 == ChapterConst.AttachChampion and slot2:getChampion(slot1.row, slot1.column):getPoolType() == "common" then
-		slot8 = slot2:getChampion(slot1.row, slot1.column):getScale() / 100
-		slot0.arrowTarget.localPosition = Vector3(0, 20 + 80 * slot8, -80 * slot8)
+		if not slot0 then
+			return false
+		end
+
+		if slot1 == ChapterConst.AttachChampion then
+			if not uv0:getChampion(uv1.row, uv1.column) then
+				return false
+			end
+
+			return slot2:getPoolType() == "common", slot2:getScale() / 100
+		elseif slot1 == ChapterConst.AttachEnemy or slot1 == ChapterConst.AttachBoss then
+			if not uv0:getChapterCell(uv1.row, uv1.column) or slot2.flag ~= 0 then
+				return false
+			end
+
+			return pg.expedition_data_template[slot2.attachmentId].icon_type == 2, slot3.scale / 100
+		end
+	end()
+
+	if slot6 then
+		slot0.arrowTarget.localPosition = Vector3(0, 20 + 80 * slot7, -80 * slot7)
 	else
 		slot0.arrowTarget.localPosition = Vector3(0, 20, 0)
 	end
@@ -1949,7 +1972,7 @@ function slot0.OnTeleportConfirm(slot0, slot1)
 
 		slot6, slot7 = slot2:findPath(nil, slot4.startPos, slot1)
 
-		if slot1.row ~= slot7[#slot7].row or slot1.column ~= slot7[#slot7].column then
+		if PathFinding.PrioObstacle <= slot6 or slot1.row ~= slot7[#slot7].row or slot1.column ~= slot7[#slot7].column then
 			return
 		end
 
@@ -2065,9 +2088,7 @@ function slot0.cancelMarkTween(slot0, slot1, slot2, slot3)
 end
 
 function slot0.moveFleet(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot0.contextData.chapterVO
-	slot6 = slot5.fleet
-	slot8 = slot0.cellFleets[slot5.fleets[slot5.findex].id]
+	slot8 = slot0.cellFleets[slot0.contextData.chapterVO.fleet.id]
 
 	slot8:SetSpineVisible(true)
 	setActive(slot8.tfShadow, true)
@@ -2323,6 +2344,8 @@ end
 
 function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
 	if not slot1:getModel() then
+		slot3()
+
 		return
 	end
 
@@ -2330,6 +2353,7 @@ function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
 
 	slot1:setAction(slot2 and ChapterConst.ShipSwimAction or ChapterConst.ShipIdleAction)
 	slot1:PlayShuiHua()
+	slot0:frozen()
 
 	slot0.tweens[LeanTween.value(slot4, slot2 and 1 or 0, slot2 and 0 or 1, slot0.contextData.chapterVO:GetQuickPlayFlag() and 0.1 or 0.3):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
 		uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
@@ -2338,11 +2362,79 @@ function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
 			uv1.tfAmmo.anchoredPosition = Vector2.Lerp(uv2, uv3, slot0)
 		end
 	end)):setOnComplete(System.Action(function ()
-		uv0:SetActiveModel(not uv1)
+		onNextTick(function ()
+			uv0:SetActiveModel(not uv1)
+			uv2:unfrozen()
 
-		if uv2 then
-			uv2()
+			if uv3 then
+				uv3()
+			end
+		end)
+	end)).id] = true
+end
+
+function slot0.TeleportCellByPortalWithCameraMove(slot0, slot1, slot2, slot3, slot4)
+	slot5 = nil
+
+	parallelAsync({
+		function (slot0)
+			uv0 = slot0
+		end,
+		function (slot0)
+			uv0:TeleportFleetByPortal(uv1, uv2, function ()
+				uv0:focusOnCell(uv1.line, uv2)
+			end, slot0)
 		end
+	}, slot4)
+end
+
+function slot0.TeleportFleetByPortal(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0.contextData.chapterVO
+
+	if not slot2[1] or not slot2[2] then
+		slot4()
+
+		return
+	end
+
+	if not slot1:getModel() then
+		slot4()
+
+		return
+	end
+
+	slot9 = slot8:GetComponent("SkeletonGraphic")
+
+	slot0:frozen()
+
+	slot11 = nil
+	slot0.tweens[LeanTween.value(slot8, 1, 0, slot5:GetQuickPlayFlag() and 0.1 or 0.3):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
+		uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
+	end)):setOnComplete(System.Action(function ()
+		uv0.tweens[uv1] = nil
+
+		onNextTick(function ()
+			if uv0 then
+				uv0()
+			end
+
+			uv1:updateFleet(table.indexof(uv1.cellFleets, uv2))
+
+			uv3 = LeanTween.value(uv4, 0, 1, uv5):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
+				uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
+			end)):setOnComplete(System.Action(function ()
+				uv0.tweens[uv1] = nil
+
+				onNextTick(function ()
+					uv0:unfrozen()
+
+					if uv1 then
+						uv1()
+					end
+				end)
+			end)).id
+			uv1.tweens[uv3] = true
+		end)
 	end)).id] = true
 end
 

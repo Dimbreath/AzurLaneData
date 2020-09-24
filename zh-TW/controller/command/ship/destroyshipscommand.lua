@@ -20,77 +20,81 @@ function slot0.execute(slot0, slot1)
 		ship_id_list = slot3
 	}, 12005, function (slot0)
 		if slot0.result == 0 then
-			slot4 = getProxy(EquipmentProxy)
-			slot5 = {}
-			slot6 = {}
+			slot1 = getProxy(EquipmentProxy)
+			slot2 = {}
+			slot3 = {}
+			slot4, slot5, slot6 = ShipCalcHelper.CalcDestoryRes(uv0)
 
 			for slot10, slot11 in ipairs(uv0) do
 				uv1:removeShip(slot11)
 
-				slot12, slot13, slot14 = slot11:calReturnRes()
-				slot1 = 0 + slot12
-				slot2 = 0 + slot13
-				slot3 = 0 + slot14
+				for slot15, slot16 in ipairs(slot11.equipments) do
+					if slot16 then
+						if slot16:hasSkin() then
+							slot1:addEquipmentSkin(slot16.skinId, 1)
 
-				for slot18, slot19 in ipairs(slot11.equipments) do
-					if slot19 then
-						if slot19:hasSkin() then
-							slot4:addEquipmentSkin(slot19.skinId, 1)
-
-							slot19.skinId = 0
+							slot16.skinId = 0
 
 							pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 						end
 
-						slot4:addEquipment(slot19)
+						slot1:addEquipment(slot16)
 
-						if not slot5[slot19.id] then
-							slot5[slot19.id] = slot19:clone()
+						if not slot2[slot16.id] then
+							slot2[slot16.id] = slot16:clone()
 						else
-							slot5[slot19.id].count = slot5[slot19.id].count + 1
+							slot2[slot16.id].count = slot2[slot16.id].count + 1
 						end
 					end
 				end
 
-				table.insert(slot6, slot11.id)
+				table.insert(slot3, slot11.id)
 			end
 
 			slot7 = getProxy(PlayerProxy)
 			slot8 = slot7:getData()
 
 			slot8:addResources({
-				gold = slot1,
-				oil = slot2
+				gold = slot4,
+				oil = slot5
 			})
 
 			slot9 = {
 				{
 					id = 1,
 					type = DROP_TYPE_RESOURCE,
-					count = slot1
+					count = slot4
 				},
 				{
 					id = 2,
 					type = DROP_TYPE_RESOURCE,
-					count = slot2
+					count = slot5
 				}
 			}
 
 			slot7:updatePlayer(slot8)
 
-			if slot3 > 0 then
-				getProxy(BagProxy):addItemById(15001, slot3)
-				table.insert(slot9, {
-					id = 15001,
-					type = DROP_TYPE_ITEM,
-					count = slot3
-				})
+			slot10 = getProxy(BagProxy)
+
+			for slot14, slot15 in ipairs(slot6) do
+				if slot15.count > 0 then
+					table.insert(slot9, {
+						type = slot15.type,
+						id = slot15.id,
+						count = slot15.count
+					})
+					uv2:sendNotification(GAME.ADD_ITEM, Item.New({
+						type = slot15.type,
+						id = slot15.id,
+						count = slot15.count
+					}))
+				end
 			end
 
 			uv2:sendNotification(GAME.DESTROY_SHIP_DONE, {
-				destroiedShipIds = slot6,
+				destroiedShipIds = slot3,
 				bonus = slot9,
-				equipments = slot5
+				equipments = slot2
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_destoryShips", slot0.result))

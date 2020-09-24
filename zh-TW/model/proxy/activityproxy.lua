@@ -278,6 +278,10 @@ function slot0.deleteActivityById(slot0, slot1)
 	slot0.facade:sendNotification(uv0.ACTIVITY_DELETED, slot1)
 end
 
+function slot0.IsActivityNotEnd(slot0, slot1)
+	return slot0.data[slot1] and not slot0.data[slot1]:isEnd()
+end
+
 function slot0.readyToAchieveByType(slot0, slot1)
 	slot2 = false
 

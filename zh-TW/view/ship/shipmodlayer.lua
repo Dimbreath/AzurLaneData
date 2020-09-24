@@ -17,6 +17,8 @@ function slot0.init(slot0)
 	slot0.attrsPanel = slot0:findTF("bg/property_panel/attrs", slot0.mainPanel)
 
 	setText(slot0:findTF("bg/add_ship_panel/title/tip", slot0.mainPanel), i18n("ship_mod_exp_to_attr_tip"))
+
+	slot0.destoryConfirmWindow = ShipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 end
 
 function slot0.didEnter(slot0)
@@ -37,17 +39,16 @@ function slot0.didEnter(slot0)
 						pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
 
 						return
-					elseif not _.all(uv0:hasEliteShips(uv0.contextData.materialShipIds, uv0.shipVOs), function (slot0)
-						return slot0 == ""
-					end) then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("destroy_eliteship_tip", string.gsub(table.concat(slot2, ""), "$1", slot2[1] == "" and "" or ",")),
-							onYes = function ()
-								uv0:startModShip()
-							end
-						})
 					else
-						uv0:startModShip()
+						slot2, slot3 = ShipCalcHelper.GetEliteAndHightLevelShipsById(uv0.contextData.materialShipIds, uv0.shipVOs)
+
+						if #slot2 == 0 and #slot3 == 0 then
+							uv0:startModShip()
+						else
+							uv0.destoryConfirmWindow:ExecuteAction("Show", slot2, slot3, false, function ()
+								uv0:startModShip()
+							end)
+						end
 					end
 				end
 			})
@@ -98,29 +99,6 @@ function slot0.startModShip(slot0)
 	else
 		slot0:emit(ShipModMediator.MOD_SHIP, slot0.shipVO.id)
 	end
-end
-
-function slot0.hasEliteShips(slot0, slot1, slot2)
-	function slot4(slot0, slot1)
-		if not _.include(uv0, slot0) then
-			uv0[slot1] = slot0
-		end
-	end
-
-	_.each(slot1, function (slot0)
-		if uv0[slot0].level > 1 then
-			uv1(i18n("destroy_high_level_tip"), 2)
-		end
-
-		if slot1:getRarity() >= 4 then
-			uv1(i18n("destroy_high_rarity_tip"), 1)
-		end
-	end)
-
-	return {
-		"",
-		""
-	}
 end
 
 function slot0.setShip(slot0, slot1)
@@ -418,9 +396,21 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.tweens = nil
+
+	if slot0.destoryConfirmWindow then
+		slot0.destoryConfirmWindow:Destroy()
+
+		slot0.destoryConfirmWindow = nil
+	end
 end
 
 function slot0.onBackPressed(slot0)
+	if slot0.destoryConfirmWindow and slot0.destoryConfirmWindow:GetLoaded() and slot0.destoryConfirmWindow:isShowing() then
+		slot0.destoryConfirmWindow:Hide()
+
+		return
+	end
+
 	slot0:emit(BaseUI.ON_BACK_PRESSED, true)
 end
 

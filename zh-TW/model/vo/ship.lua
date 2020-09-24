@@ -17,8 +17,6 @@ slot0.WEAPON_COUNT = 3
 slot0.PREFAB_EQUIP = 4
 slot0.MAX_SKILL_LEVEL = 10
 slot0.ENERGY_RECOVER_TIME = 360
-slot0.TEST_SHIP_TYPE_1 = 1
-slot0.TEST_SHIP_TYPE_2 = 2
 slot0.STATE_NORMAL = 1
 slot0.STATE_REST = 2
 slot0.STATE_CLASS = 3
@@ -344,12 +342,26 @@ function slot0.Ctor(slot0, slot1)
 	slot0.groupId = pg.ship_data_template[slot0.configId].group_type
 	slot0.createTime = slot1.create_time or 0
 	slot0.virgin = getProxy(CollectionProxy) and slot3.shipGroups[slot0.groupId] == nil
-	slot5 = pg.gameset.test_ship_config_2.key_value
 
-	if slot0.configId == pg.gameset.test_ship_config_1.key_value then
-		slot0.testShip = uv0.TEST_SHIP_TYPE_1
-	elseif slot0.configId == slot5 then
-		slot0.testShip = uv0.TEST_SHIP_TYPE_2
+	if table.indexof({
+		pg.gameset.test_ship_config_1.key_value,
+		pg.gameset.test_ship_config_2.key_value
+	}, slot0.configId) == 1 then
+		slot0.testShip = {
+			2,
+			3,
+			4
+		}
+	elseif slot5 == 2 then
+		slot0.testShip = {
+			5
+		}
+	elseif slot5 == 3 then
+		slot0.testShip = {
+			6
+		}
+	else
+		slot0.testShip = nil
 	end
 
 	slot0.maxIntimacy = pg.intimacy_template[#pg.intimacy_template.all].upper_bound
@@ -503,17 +515,7 @@ function slot0.isTestShip(slot0)
 end
 
 function slot0.canUseTestShip(slot0, slot1)
-	if slot0.testShip == uv0.TEST_SHIP_TYPE_1 then
-		return table.contains({
-			2,
-			3,
-			4
-		}, slot1)
-	elseif slot0.testShip == uv0.TEST_SHIP_TYPE_2 then
-		return slot1 == 5
-	end
-
-	return false
+	return table.contains(slot0.testShip, slot1)
 end
 
 function slot0.updateEquip(slot0, slot1, slot2)
@@ -614,9 +616,7 @@ slot0.DIVE_PROPERTIES = {
 	AttributeType.OxyRaidDistance
 }
 slot0.SONAR_PROPERTIES = {
-	AttributeType.SonarRange,
-	AttributeType.SonarInterval,
-	AttributeType.SonarDuration
+	AttributeType.SonarRange
 }
 
 function slot0.intimacyAdditions(slot0, slot1)
@@ -1035,18 +1035,8 @@ function slot0.addExp(slot0, slot1, slot2)
 		slot5:setCourse(slot6)
 	end
 
-	if slot0.level == slot0:getMaxLevel() then
-		if LOCK_FULL_EXP then
-			slot1 = 0
-		end
-
-		if not slot0:isBluePrintShip() then
-			if not slot2 or not slot0:isMaxStar() then
-				slot1 = 0
-			end
-		elseif not slot2 then
-			slot1 = 0
-		end
+	if slot0.level == slot0:getMaxLevel() and (LOCK_FULL_EXP or not slot2 or not slot0:CanAccumulateExp()) then
+		slot1 = 0
 	end
 
 	slot0.exp = slot0.exp + slot1
@@ -1056,14 +1046,12 @@ function slot0.addExp(slot0, slot1, slot2)
 		slot0.level = math.min(slot0.level + 1, slot4)
 	end
 
-	if slot0:isBluePrintShip() then
-		if slot0.level == slot4 then
+	if slot0.level == slot4 then
+		if slot0:CanAccumulateExp() then
 			slot0.exp = math.min(slot0.exp, pg.gameset.exp_overflow_max.key_value)
+		else
+			slot0.exp = 0
 		end
-	elseif slot0.level == slot4 and not slot0:isMaxStar() then
-		slot0.exp = 0
-	elseif slot0:isMaxLevelAndMaxStar() then
-		slot0.exp = math.min(slot0.exp, pg.gameset.exp_overflow_max.key_value)
 	end
 end
 
@@ -1092,7 +1080,7 @@ function slot0.getNextMaxLevel(slot0)
 end
 
 function slot0.isReachNextMaxLevel(slot0)
-	return slot0:isMaxLevelAndMaxStar() and slot0:getNextMaxLevel() ~= nil
+	return slot0.level == slot0:getMaxLevel() and slot0:CanAccumulateExp() and slot0:getNextMaxLevel() ~= nil
 end
 
 function slot0.getNextMaxLevelConsume(slot0)
@@ -1125,12 +1113,8 @@ function slot0.canUpgradeMaxLevel(slot0)
 	return true
 end
 
-function slot0.isMaxLevelAndMaxStar(slot0)
-	if slot0:isBluePrintShip() then
-		return slot0.level == slot0:getMaxLevel()
-	else
-		return slot0.level == slot1 and slot0:isMaxStar()
-	end
+function slot0.CanAccumulateExp(slot0)
+	return pg.ship_data_template[slot0.configId].can_get_proficency == 1
 end
 
 function slot0.getTotalExp(slot0)
@@ -1350,7 +1334,7 @@ function slot0.SetPreferenceTag(slot0, slot1)
 end
 
 function slot0.calReturnRes(slot0)
-	return math.floor((30 + slot0.level * pg.ship_data_by_type[slot0:getShipType()].distory_resource_gold_ratio) / 10), math.floor((30 + slot0.level * pg.ship_data_by_type[slot0:getShipType()].distory_resource_oil_ratio) / 10), pg.ship_data_by_star[slot0:getConfig("rarity")].destory_battle_stars
+	return math.floor((30 + slot0.level * pg.ship_data_by_type[slot0:getShipType()].distory_resource_gold_ratio) / 10), math.floor((30 + slot0.level * pg.ship_data_by_type[slot0:getShipType()].distory_resource_oil_ratio) / 10), pg.ship_data_by_star[slot0:getConfig("rarity")].destory_item
 end
 
 function slot0.getRarity(slot0)

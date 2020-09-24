@@ -199,6 +199,10 @@ function slot0.SetSiblingIndex(slot0, slot1)
 	slot0._tf:SetSiblingIndex(slot1)
 end
 
+function slot0.GetTf(slot0)
+	return slot0._tf
+end
+
 function slot0.ReserseDir(slot0)
 	slot1 = slot0._tf.localScale
 	slot0._tf.localScale = Vector3(-slot1.x, slot1.y, slot1.z)

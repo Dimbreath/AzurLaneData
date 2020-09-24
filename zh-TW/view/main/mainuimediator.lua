@@ -123,7 +123,9 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OPEN_COMMANDER, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+			fromMain = true
+		})
 	end)
 	slot0.viewComponent:updateTraningCampBtn()
 	slot0.viewComponent:updateRefluxBtn()
@@ -344,7 +346,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_ACTIVITY_MAP, function (slot0, slot1)
 		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot2 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot2].on_activity) or slot4:isEnd() then
+		if not (slot2 and Map.StaticIsMapBindedActivityActive(slot2) and not Map.StaticIsMapRemaster(slot2)) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
@@ -517,7 +519,7 @@ function slot0.updateCommissionNotices(slot0)
 	slot3 = getProxy(NavalAcademyProxy)
 	slot5 = getProxy(PlayerProxy):getData()
 
-	slot0.viewComponent:updateCommissionNotices(getProxy(EventProxy):hasFinishState() or slot3:GetOilVO():isCommissionNotify(slot5.oilField) or slot3:GetGoldVO():isCommissionNotify(slot5.goldField))
+	slot0.viewComponent:updateCommissionNotices(getProxy(EventProxy):hasFinishState() or slot3:GetOilVO():isCommissionNotify(slot5.oilField) or slot3:GetGoldVO():isCommissionNotify(slot5.goldField) or NotifyTipHelper.ShouldShowUrTip())
 end
 
 function slot0.updateBackYardNotices(slot0)
@@ -823,7 +825,7 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.onChapterTimeUp(slot0)
-	if getProxy(ChapterProxy):getActiveChapter() and not slot2:inWartime() then
+	if getProxy(ChapterProxy):getActiveChapter() and (not slot2:inWartime() or not slot2:inActTime()) then
 		slot0.retreateMapType = slot2:getMapType()
 
 		slot0:sendNotification(GAME.CHAPTER_OP, {

@@ -545,6 +545,72 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[20015] = {
+		id = 20015,
+		name = "潜艇AI-4 移动到屏幕中部停留10秒后继续前进",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -35,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 10
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			}
+		}
+	},
+	[20016] = {
+		id = 20016,
+		name = "潜艇AI-5 移动到屏幕中部停留5秒后继续前进",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -35,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			}
+		}
+	},
 	[30000] = {
 		id = 30000,
 		name = "转圈小范围 顺时针",
@@ -5380,6 +5446,378 @@ pg.auto_pilot_template = {
 			},
 			{
 				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70100] = {
+		id = 70100,
+		name = "2020信浓活动T6测试者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 8,
+					z = 5,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 155
+				}
+			}
+		}
+	},
+	[70101] = {
+		id = 70101,
+		name = "2020信浓活动T6测试者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 8,
+					z = -35,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = -120
+				}
+			}
+		}
+	},
+	[70102] = {
+		id = 70102,
+		name = "2020信浓活动T6测试者 辅助航母行动轨迹",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -25,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70103] = {
+		id = 70103,
+		name = "2020信浓活动T6测试者 辅助航母飞机行动轨迹",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -8,
+					z = -13
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = -13
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70104] = {
+		id = 70104,
+		name = "2020信浓活动T6测试者 辅助航母飞机行动轨迹",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -8,
+					z = -5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = -5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70105] = {
+		id = 70105,
+		name = "2020信浓活动T6测试者 辅助航母飞机行动轨迹",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -8,
+					z = 3
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = 3
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70106] = {
+		id = 70106,
+		name = "2020信浓活动T1测试者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 2,
+					z = -10,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 1,
+				param = {
+					x = -180,
+					z = 125
+				}
+			}
+		}
+	},
+	[70107] = {
+		id = 70107,
+		name = "2020信浓活动T1测试者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 2,
+					z = -20,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 1,
+				param = {
+					x = -180,
+					z = -40
+				}
+			}
+		}
+	},
+	[70108] = {
+		id = 70108,
+		name = "2020信浓活动拉菲随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 20,
+					Z2 = 75,
+					moveCount = 40,
+					Z1 = 35,
+					duration = -1,
+					X1 = -15,
+					X2 = 0
+				}
+			}
+		}
+	},
+	[70109] = {
+		id = 70109,
+		name = "潜艇在屏幕分割线靠左随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -40,
+					X2 = -25
+				}
+			}
+		}
+	},
+	[70110] = {
+		id = 70110,
+		name = "2020信浓活动信浓第一波移动到下方",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -20,
+					z = -35
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 2
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 2,
+				param = {
+					x = 5,
+					z = 70
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70111] = {
+		id = 70111,
+		name = "2020信浓活动信浓第二波小范围随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 1,
+					Z2 = 75,
+					moveCount = 500,
+					Z1 = 35,
+					duration = -1,
+					X1 = -15,
+					X2 = 0
+				}
+			}
+		}
+	},
+	[70112] = {
+		id = 70112,
+		name = "2020信浓活动信浓第三波移动到上方",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -20,
+					z = 32
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 2
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 2,
+				param = {
+					x = 5,
+					z = -65
+				}
+			},
+			{
+				index = 4,
 				to = 1,
 				type = 0,
 				param = {

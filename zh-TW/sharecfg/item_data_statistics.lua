@@ -8121,6 +8121,104 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40930] = {
+		display = "購買禮包可獲得隨機換裝*1，鑽石*2020，心智單元*50，心智魔方*20，快速建造*10，傢俱幣*100",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "週年禮盒·I",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40930,
+		icon = "Props/lihe3",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69930,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40931] = {
+		display = "購買禮包可獲得隨機換裝*1，鑽石*2020，心智單元*50，心智魔方*20，快速建造*10，傢俱幣*100",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "週年禮盒·II",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40931,
+		icon = "Props/lihe1",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69931,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41201] = {
 		display = "泛用型布里贈送的情人節禮物",
 		rarity = 8,
@@ -62359,6 +62457,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59168] = {
+		display = "用於『限時體驗商店』兌換角色限時換裝，2020年10月8日後將無法使用 ",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "換裝體驗券",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59168,
+		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠收藏的驅逐船模-茳",
 		rarity = 2,
@@ -63485,7 +63601,7 @@ pg.item_data_statistics = {
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 8,
-		link_id = 10136,
+		link_id = 45019,
 		id = 59748,
 		icon = "Props/linkstar",
 		replace_item = 0,
@@ -63494,7 +63610,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59749] = {
-		display = "「我是No.1！！」——用於完成聖地牙哥近代化改造",
+		display = "「我是No.1！」——用於完成聖地牙哥近代化改造",
 		rarity = 4,
 		type = 7,
 		drop_oil_max = 0,
@@ -64967,14 +65083,14 @@ pg.item_data_statistics = {
 	},
 	[69911] = {
 		display = "收集7枚後，可以得到限定設備《約定的證明》",
-		rarity = 2,
-		type = 0,
+		rarity = 4,
+		type = 98,
 		drop_oil_max = 0,
 		name = "U-556的勳章",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
-		virtual_type = 8,
+		virtual_type = 0,
 		link_id = 0,
 		id = 69911,
 		icon = "Props/u556xunzhang",
@@ -64985,17 +65101,17 @@ pg.item_data_statistics = {
 	},
 	[69930] = {
 		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>7.2%</color>）俾斯麦换装  铁血的辉光（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.8%</color>）皇家方舟换装  晚会的守护者（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.0%</color>）乔治五世换装  温莎的玫瑰；
-（<color=#92fc63>12.5%</color>）Z23换装  宴会上的优等生；
-（<color=#92fc63>12.5%</color>）海伦娜换装  与君共舞；
-（<color=#92fc63>12.5%</color>）大黄蜂换装  Bubbly Anniversary！；
-（<color=#92fc63>12.5%</color>）约克城换装  优雅与朦胧之夜；
-（<color=#92fc63>12.5%</color>）斯佩伯爵换装  未知的晚会；
-（<color=#92fc63>12.5%</color>）时雨换装  晚会幸运星！]],
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>7.2%</color>）俾斯麥換裝  鐵血的輝光（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）皇家方舟換裝  晚會的守護者（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.0%</color>）喬治五世換裝  溫莎的玫瑰；
+（<color=#92fc63>12.5%</color>）Z23換裝  宴會上的優等生；
+（<color=#92fc63>12.5%</color>）海倫娜換裝  與君共舞；
+（<color=#92fc63>12.5%</color>）大黃蜂換裝  Bubbly Anniversary！；
+（<color=#92fc63>12.5%</color>）約克鎮換裝  優雅與朦朧之夜；
+（<color=#92fc63>12.5%</color>）施佩伯爵將軍換裝  未知的晚會；
+（<color=#92fc63>12.5%</color>）時雨換裝  晚會幸運星！]],
 		rarity = 4,
 		type = 98,
 		drop_oil_max = 0,
@@ -65014,17 +65130,17 @@ pg.item_data_statistics = {
 	},
 	[69931] = {
 		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>7.0%</color>）鹬换装  散花舞鹤（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>11.5%</color>）U-47换装  静谧一隅；
-（<color=#92fc63>11.5%</color>）欧根亲王换装  Wein Kornblume；
-（<color=#92fc63>11.5%</color>）提尔比茨换装  铁血的冰风；
-（<color=#92fc63>11.5%</color>）峦换装  轻扬的风花；
-（<color=#92fc63>11.5%</color>）椿换装  肉肉之宴！；
-（<color=#92fc63>11.5%</color>）贝尔法斯特换装  优雅而高贵的从者；
-（<color=#92fc63>11.5%</color>）罗恩换装  暗红色的微笑；
-（<color=#92fc63>12.5%</color>）德意志换装  魔姬的夜宴；]],
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>7.0%</color>）翔鶴換裝  散花舞鶴（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>11.5%</color>）U-47換裝  靜謐一隅；
+（<color=#92fc63>11.5%</color>）歐根親王換裝  Wein Kornblume；
+（<color=#92fc63>11.5%</color>）鐵必制換裝  鐵血的冰風；
+（<color=#92fc63>11.5%</color>）伊吹換裝  輕揚的風花；
+（<color=#92fc63>11.5%</color>）夕立換裝  肉肉之宴！；
+（<color=#92fc63>11.5%</color>）貝爾法斯特換裝  優雅而高貴的從者；
+（<color=#92fc63>11.5%</color>）羅恩換裝  暗紅色的微笑；
+（<color=#92fc63>12.5%</color>）德意志換裝  魔姬的夜宴；]],
 		rarity = 4,
 		type = 98,
 		drop_oil_max = 0,
@@ -65438,6 +65554,8 @@ pg.item_data_statistics = {
 		40908,
 		40909,
 		40910,
+		40930,
+		40931,
 		41201,
 		41202,
 		41203,
@@ -66452,6 +66570,7 @@ pg.item_data_statistics = {
 		59153,
 		59156,
 		59159,
+		59168,
 		59601,
 		59602,
 		59603,

@@ -1608,7 +1608,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				3
@@ -1640,7 +1641,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				4
@@ -1672,7 +1674,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				6
@@ -2175,7 +2178,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				40
@@ -2207,7 +2211,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				56
@@ -2239,7 +2244,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				80
@@ -2634,7 +2640,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				3
@@ -2665,7 +2672,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				4
@@ -2696,7 +2704,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				6

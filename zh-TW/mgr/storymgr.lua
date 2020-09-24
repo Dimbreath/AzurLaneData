@@ -526,10 +526,12 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 						uv1.stopBGM = true
 
 						LeanTween.delayedCall(slot4.bgmDelay, System.Action(function ()
-							uv0.bgm = uv1.bgm
-							uv0.stopBGM = nil
+							if uv0.storyId == uv1.id then
+								uv0.bgm = uv2.bgm
+								uv0.stopBGM = nil
 
-							pg.CriMgr.GetInstance():PlayBGM(uv1.bgm, true)
+								pg.CriMgr.GetInstance():PlayBGM(uv2.bgm, true)
+							end
 						end))
 					else
 						uv1.bgm = slot4.bgm
@@ -1191,10 +1193,18 @@ function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
 					slot4:GetComponent(typeof(Image)):GetComponent(typeof(Image)).material = slot1.material
 				end
 
-				if findTF(slot0, "hx") then
+				if findTF(slot0, "layers") then
 					for slot9 = 0, slot5.childCount - 1 do
 						if slot5:GetChild(slot9) and slot10:GetComponent(typeof(Image)) then
 							slot11:GetComponent(typeof(Image)).material = slot1.material
+						end
+					end
+				end
+
+				if findTF(slot0, "hx") then
+					for slot10 = 0, slot6.childCount - 1 do
+						if slot6:GetChild(slot10) and slot11:GetComponent(typeof(Image)) then
+							slot12:GetComponent(typeof(Image)).material = slot1.material
 						end
 					end
 				end
@@ -1705,6 +1715,31 @@ function slot0.updatePainting(slot0, slot1, slot2)
 				LeanTween.cancel(slot7.gameObject)
 
 				slot7.material = nil
+			end
+		end
+
+		if findTF(slot4, "layers") and isActive(slot7) then
+			for slot11 = 0, slot7.childCount - 1 do
+				slot13 = GetComponent(slot7:GetChild(slot11), "Image")
+
+				if slot2 then
+					slot13.material = slot0.material1
+
+					slot13.material:SetFloat("_LineDensity", 7)
+					slot3(slot13)
+				else
+					LeanTween.cancel(slot13.gameObject)
+
+					slot13.material = nil
+				end
+			end
+		end
+
+		if findTF(slot4, "hx") and isActive(slot8) then
+			if slot2 then
+				setActive(slot8, false)
+			else
+				setActive(slot8, true)
 			end
 		end
 	end

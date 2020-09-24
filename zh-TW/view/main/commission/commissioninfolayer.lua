@@ -23,8 +23,29 @@ function slot0.init(slot0)
 		weight = LayerWeightConst.SECOND_LAYER
 	})
 
-	slot0.linkBtnPanel = slot0:findTF("frame/link_btns")
-	slot0.activityInsBtn = slot0:findTF("frame/link_btns/ins")
+	slot0.linkBtnPanel = slot0:findTF("frame/link_btns/btns")
+	slot0.activityInsBtn = slot0:findTF("frame/link_btns/btns/ins")
+	slot0.activtyUrExchangeBtn = slot0:findTF("frame/link_btns/btns/urEx")
+	slot0.activtyUrExchangeTxt = slot0:findTF("frame/link_btns/btns/urEx/Text"):GetComponent(typeof(Text))
+	slot0.activtyUrExchangeCG = slot0.activtyUrExchangeBtn:GetComponent(typeof(CanvasGroup))
+	slot0.activtyUrExchangeTip = slot0:findTF("frame/link_btns/btns/urEx/tip")
+end
+
+function slot0.UpdateUrItemEntrance(slot0)
+	if not LOCK_UR_SHIP then
+		slot1 = pg.gameset.urpt_chapter_max.description
+		slot3 = slot1[2]
+		slot4 = getProxy(BagProxy):GetLimitCntById(slot1[1])
+		slot0.activtyUrExchangeTxt.text = slot4 .. "/" .. slot3
+		slot0.activtyUrExchangeCG.alpha = slot4 == slot3 and 0.6 or 1
+
+		setActive(slot0.activtyUrExchangeTip, NotifyTipHelper.ShouldShowUrTip())
+		onButton(slot0, slot0.activtyUrExchangeBtn, function ()
+			uv0:emit(CommissionInfoMediator.ON_UR_ACTIVITY)
+		end, SFX_PANEL)
+	else
+		setActive(slot0.activtyUrExchangeBtn, false)
+	end
 end
 
 function slot0.NotifyIns(slot0, slot1, slot2)
@@ -50,7 +71,7 @@ function slot0.UpdateLinkPanel(slot0)
 		end
 	end
 
-	setActive(slot0.linkBtnPanel, slot1)
+	setActive(slot0.linkBtnPanel.parent, slot1)
 end
 
 function slot0.didEnter(slot0)
@@ -80,6 +101,7 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
 	slot0:initProjects()
+	slot0:UpdateUrItemEntrance()
 end
 
 function slot0.initProjects(slot0)

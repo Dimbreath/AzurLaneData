@@ -35,7 +35,8 @@ pg.pay_data_display = {
 				1
 			}
 		},
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -83,7 +84,8 @@ pg.pay_data_display = {
 				4,
 				30
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -104,7 +106,8 @@ pg.pay_data_display = {
 		extra_gem = 0,
 		id = 3,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -125,7 +128,8 @@ pg.pay_data_display = {
 		extra_gem = 30,
 		id = 4,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -146,7 +150,8 @@ pg.pay_data_display = {
 		extra_gem = 150,
 		id = 5,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -167,7 +172,8 @@ pg.pay_data_display = {
 		extra_gem = 360,
 		id = 6,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -188,7 +194,8 @@ pg.pay_data_display = {
 		extra_gem = 880,
 		id = 7,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -209,7 +216,8 @@ pg.pay_data_display = {
 		extra_gem = 2500,
 		id = 8,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	[16] = {
 		limit_arg = 1,
@@ -302,7 +310,8 @@ pg.pay_data_display = {
 				30310,
 				3
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[18] = {
 		limit_arg = 1,
@@ -395,7 +404,8 @@ pg.pay_data_display = {
 				30304,
 				3
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[20] = {
 		limit_arg = 1,
@@ -473,7 +483,8 @@ pg.pay_data_display = {
 				100001,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[21] = {
 		limit_arg = 1,
@@ -576,7 +587,8 @@ pg.pay_data_display = {
 				30121,
 				4
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[22] = {
 		limit_arg = 1,
@@ -684,7 +696,8 @@ pg.pay_data_display = {
 				30121,
 				8
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[23] = {
 		limit_arg = 1,
@@ -757,7 +770,7 @@ pg.pay_data_display = {
 				{
 					2020,
 					6,
-					10
+					17
 				},
 				{
 					23,
@@ -782,7 +795,268 @@ pg.pay_data_display = {
 				42000,
 				2
 			}
+		},
+		ignorePlatform = {}
+	},
+	[4001] = {
+		limit_arg = 1,
+		descrip_extra = "*補給將發送到郵箱，請注意查收。",
+		name = "GP限時補給 ",
+		descrip = "可獲得120鑽和定向部件x10",
+		subject = "GP限時補給 ",
+		extra_service = 3,
+		money = 70,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "TWAndroid_l",
+		id_str = "com.hkmanjuu.azurlane.anzhuolibao1",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 4001,
+		airijp_id = "com.hkmanjuu.azurlane.anzhuolibao1",
+		extra_service_item = {
+			{
+				1,
+				14,
+				120
+			},
+			{
+				2,
+				30113,
+				10
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					28
+				},
+				{
+					11,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				120
+			},
+			{
+				2,
+				30113,
+				10
+			}
+		},
+		ignorePlatform = {
+			2,
+			3
 		}
+	},
+	[4002] = {
+		limit_arg = 1,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		name = "週年禮盒·I",
+		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
+		subject = "福袋",
+		extra_service = 3,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe3_l",
+		id_str = "com.hkmanjuu.azurlane.package4",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 4002,
+		airijp_id = "com.hkmanjuu.azurlane.package4",
+		extra_service_item = {
+			{
+				2,
+				69930,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69930,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		},
+		ignorePlatform = {}
+	},
+	[4003] = {
+		limit_arg = 1,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		name = "週年禮盒·II",
+		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
+		subject = "福袋",
+		extra_service = 3,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe1_l",
+		id_str = "com.hkmanjuu.azurlane.package5",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 4003,
+		airijp_id = "com.hkmanjuu.azurlane.package5",
+		extra_service_item = {
+			{
+				2,
+				69931,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69931,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		},
+		ignorePlatform = {}
 	},
 	all = {
 		1,
@@ -798,6 +1072,9 @@ pg.pay_data_display = {
 		20,
 		21,
 		22,
-		23
+		23,
+		4001,
+		4002,
+		4003
 	}
 }

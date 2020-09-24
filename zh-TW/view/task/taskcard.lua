@@ -27,6 +27,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.unfinishBg = slot0._tf:Find("frame/unfinish_bg")
 	slot0.tip = slot0._tf:Find("frame/tip")
 	slot0.cg = GetOrAddComponent(slot0._tf, "CanvasGroup")
+	slot0.urTag = slot0._tf:Find("frame/urTag")
 end
 
 function slot0.update(slot0, slot1)
@@ -38,7 +39,7 @@ function slot0.update(slot0, slot1)
 
 	slot0.descTxt.text = HXSet.hxLan(slot1:getConfig("desc"))
 
-	slot0.viewComponent:setSpriteTo("taskTagOb/" .. slot1:getConfig("type"), slot0.tagTF)
+	slot0.viewComponent:setSpriteTo("taskTagOb/" .. slot1:GetRealType(), slot0.tagTF)
 
 	slot2 = slot1:getConfig("target_num")
 
@@ -57,14 +58,15 @@ function slot0.update(slot0, slot1)
 	slot0.progressBar.value = slot3 / slot2
 
 	slot0:updateBtnState(slot1)
-	setActive(slot0.storyIconFrame, slot1:getConfig("story_id") and slot4 ~= "")
+	setActive(slot0.urTag, slot1:IsUrTask())
+	setActive(slot0.storyIconFrame, slot1:getConfig("story_id") and slot4 ~= "" and not slot5)
 
 	if slot4 and slot4 ~= "" then
-		if not slot1:getConfig("story_icon") or slot5 == "" then
-			slot5 = "task_icon_default"
+		if not slot1:getConfig("story_icon") or slot6 == "" then
+			slot6 = "task_icon_default"
 		end
 
-		LoadSpriteAsync("shipmodels/" .. slot5, function (slot0)
+		LoadSpriteAsync("shipmodels/" .. slot6, function (slot0)
 			if slot0 then
 				setImageSprite(uv0.storyIcon, slot0, true)
 			end
