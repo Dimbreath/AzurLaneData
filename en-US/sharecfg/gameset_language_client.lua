@@ -214,7 +214,7 @@ pg.gameset_language_client = {
 		value = "Conditions for experiencing the emotion known as \"fun\" have been met."
 	},
 	ins_7 = {
-		value = "#Training/nGascogne is self-evaluating ability to sing with emotion."
+		value = "#Training Gascogne is self-evaluating ability to sing with emotion."
 	},
 	ins_discuss_7_1 = {
 		value = "What you need is love. Yes, love. LOVE makes everything possible!"
@@ -253,7 +253,7 @@ pg.gameset_language_client = {
 		value = "Detecting disruptions within emotion capacitor..."
 	},
 	ins_9 = {
-		value = "#lunch #burgers /nBought lunch for everyone! This stuff was HEAVY!"
+		value = "#lunch #burgers Bought lunch for everyone! This stuff was HEAVY!"
 	},
 	ins_discuss_9_1 = {
 		value = "You carried that fast food like a boss, sis! "
@@ -325,7 +325,7 @@ pg.gameset_language_client = {
 		value = "You really think so? :o"
 	},
 	ins_12 = {
-		value = "#rehearsal #justidolstuff /nPhew! I love working up a sweat on stage, cause it means I'm giving it my all!"
+		value = "#rehearsal #justidolstuff Phew! I love working up a sweat on stage, cause it means I'm giving it my all!"
 	},
 	ins_discuss_12_1 = {
 		value = "You were amazing, Cleve! I wish I'd brought a camera to record it!"
@@ -355,7 +355,7 @@ pg.gameset_language_client = {
 		value = "Heck yeah! I knew you'd understand, Commander!"
 	},
 	ins_13 = {
-		value = "#Microphone #disassembly /nI was interested to see how a microphone looks on the inside. This is what I found."
+		value = "#Microphone #disassembly I was interested to see how a microphone looks on the inside. This is what I found."
 	},
 	ins_discuss_13_1 = {
 		value = "STOP! You're gonna break it if you go any further!"
@@ -376,7 +376,7 @@ pg.gameset_language_client = {
 		value = "Ah, do you enjoy breaking down things into their basic components as well, Master?"
 	},
 	ins_14 = {
-		value = "#Night_battle /nFly me to the moon, and let me play among the stars."
+		value = "#Night_battle Fly me to the moon, and let me play among the stars."
 	},
 	ins_discuss_14_1 = {
 		value = "Uh, what?"
@@ -394,7 +394,7 @@ pg.gameset_language_client = {
 		value = "It is painfully evident that you have no sense of romance, Master."
 	},
 	ins_15 = {
-		value = "#BehindTheScenes #Backstage/nI would like to thank everyone working behind the scenes. They help make our performances truly special."
+		value = "#BehindTheScenes #Backstage I would like to thank everyone working behind the scenes. They help make our performances truly special."
 	},
 	ins_discuss_15_1 = {
 		value = "Yeah, props to them! Keep up the great work!"
@@ -412,7 +412,7 @@ pg.gameset_language_client = {
 		value = "I am already rocking the stage, Master. You need not order me to."
 	},
 	ins_16 = {
-		value = "#Practice /nI am practicing my part. It is not quite satisfactory yet."
+		value = "#Practice  I am practicing my part. It is not quite satisfactory yet."
 	},
 	ins_discuss_16_1 = {
 		value = "What? You're plenty good already, Sheffy! "
@@ -433,7 +433,7 @@ pg.gameset_language_client = {
 		value = "That can be arranged, Master. Would you mind if I sing a song that also places a curse on you? ...I am joking, of course."
 	},
 	ins_17 = {
-		value = "#hobbyhour #guitar/nI'm feeling it! My guitar and I are in perfect sync today!"
+		value = "#hobbyhour #guitar I'm feeling it! My guitar and I are in perfect sync today!"
 	},
 	ins_discuss_17_1 = {
 		value = "Wow! Your guitar looks AWESOME! :D"
@@ -457,7 +457,7 @@ pg.gameset_language_client = {
 		value = "Huh? What's this all of a sudden?"
 	},
 	ins_18 = {
-		value = "#out-of-season-oktoberfest/nNothing goes together like beer and bratwurst!"
+		value = "#out-of-season-oktoberfest Nothing goes together like beer and bratwurst!"
 	},
 	ins_discuss_18_1 = {
 		value = "Not nagging for 5 seconds and actually enjoying yourself? Who are you and what have you done to Hipper?"
