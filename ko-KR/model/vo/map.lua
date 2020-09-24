@@ -31,15 +31,35 @@ function slot0.bindConfigTable(slot0)
 	return pg.expedition_data_by_map
 end
 
+function slot0.StaticIsMapBindedActivityActive(slot0)
+	for slot5, slot6 in ipairs(ChapterProxy.GetChapterIdsByMapId(slot0)) do
+		if Chapter.StaticIsChapterBindedActivityActive(slot6) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.StaticIsMapRemaster(slot0)
+	for slot5, slot6 in ipairs(ChapterProxy.GetChapterIdsByMapId(slot0)) do
+		if Chapter.StaticIsChapterRemaster(slot6) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.IsZprojectActiveMap(slot0)
+	return slot0:isActivity() and not slot0:isRemaster() and uv0.StaticIsMapBindedActivityActive(slot0.id)
+end
+
 function slot0.isInValidMap(slot0)
 	slot1 = slot0:getMapType()
 
-	if not slot0:isRemaster() and (slot1 == uv0.ACTIVITY_EASY or slot1 == uv0.ACTIVITY_HARD or uv0.ACT_EXTRA == slot1) then
-		if slot0:getConfig("on_activity") == 0 then
-			return true
-		end
-
-		return not getProxy(ActivityProxy):getActivityById(slot2) or slot3:isEnd()
+	if not slot0:isRemaster() and slot0:isActivity() then
+		return not uv0.StaticIsMapBindedActivityActive(slot0.id)
 	else
 		return false
 	end
@@ -106,15 +126,7 @@ function slot0.updateChapters(slot0, slot1)
 		if slot6:getConfig("pre_chapter") == 0 then
 			slot6:setUnlock(true)
 		else
-			slot8 = slot6:getConfig("act_id")
-
-			if not slot0:isRemaster() and slot8 > 0 then
-				slot6:setUnlock(getProxy(ActivityProxy):getActivityById(slot8) and not slot10:isEnd() and getProxy(ChapterProxy):getChapterById(slot7):isClear())
-			elseif not slot0.chapters[slot7] then
-				slot6:setUnlock(slot1 and slot1:isClear())
-			else
-				slot6:setUnlock(slot9:isClear())
-			end
+			slot6:setUnlock(getProxy(ChapterProxy):GetRawChapterById(slot7) and slot8:isClear() and (slot0:isRemaster() or Chapter.StaticIsChapterBindedActivityActive(slot6.id)))
 		end
 	end
 end
@@ -133,11 +145,7 @@ function slot0.isEliteEnabled(slot0)
 	slot1 = nil
 
 	if slot0:getMapType() == uv0.ELITE then
-		if not slot0.bindingMap then
-			return false
-		end
-
-		if not slot0.bindingMap.bindingMap then
+		if not slot0.bindingMap or not slot0.bindingMap.bindingMap then
 			return false
 		end
 
@@ -165,10 +173,28 @@ function slot0.isActivity(slot0)
 	return slot0:getConfig("type") == Map.EVENT or slot1 == Map.ACTIVITY_HARD or slot1 == Map.ACTIVITY_EASY or slot1 == Map.ACT_EXTRA
 end
 
-function slot0.isClearForActivity(slot0)
+function slot0.isClearAllChapters(slot0)
 	for slot4, slot5 in pairs(slot0.chapters) do
 		if not slot5:isClear() then
 			return false
+		end
+	end
+
+	return true
+end
+
+function slot0.isClearForActivity(slot0)
+	slot1 = _.keys(slot0.chapters)
+
+	table.sort(slot1)
+
+	for slot5 = 1, #slot1 do
+		if not slot0.chapters[slot1[slot5]]:isClear() then
+			return false
+		end
+
+		if slot5 + 1 <= #slot1 and slot1[slot5 + 1] - slot1[slot5] ~= 1 then
+			break
 		end
 	end
 

@@ -967,5 +967,17 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "타구치 히로코",
 		code = 242
+	},
+	{
+		actor_name = "콘도 레이나",
+		code = 243
+	},
+	{
+		actor_name = "세키네 히토미",
+		code = 244
+	},
+	{
+		actor_name = "코이와이 코토리",
+		code = 245
 	}
 }

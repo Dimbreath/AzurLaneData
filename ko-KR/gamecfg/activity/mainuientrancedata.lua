@@ -205,11 +205,11 @@ return {
 				return
 			end
 
-			slot5 = getProxy(ActivityProxy):getActivityById(ActivityConst.IDOL_MEDAL_COLLECTION) and not slot4:isEnd()
+			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.IDOL_MEDAL_COLLECTION) and not slot4:isEnd()
 
-			setActive(slot1, slot5)
+			setActive(slot1, slot3)
 
-			if slot5 then
+			if slot3 then
 				setActive(slot1:Find("Tip"), IdolMedalCollectionView.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE)
@@ -297,17 +297,9 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				for slot9, slot10 in ipairs(slot2:getConfig("config_data")) do
-					slot11 = slot2.data1KeyValueList[2][slot10] or 0
-
-					if pg.activity_event_building[arg] and slot11 < slot12.buff then
-						slot4 = false or slot12.material[slot11] <= (slot2.data1KeyValueList[1][slot12.material_id] or 0)
-					end
-				end
-
-				setActive(slot1:Find("Tip"), slot4 or getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0)
+				setActive(slot1:Find("Tip"), slot2:readyToAchieve() or getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0)
 				onButton(slot0, slot1, function ()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.THIRD_ANNIVERSARY_SQUARE)
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.THIRD_ANNIVERSARY_AKIBA)
 				end, SFX_PANEL)
 			end
 		end
@@ -326,8 +318,8 @@ return {
 	CurrentEntrancesList = {
 		1,
 		2,
-		4,
 		5,
-		6
+		6,
+		13
 	}
 }

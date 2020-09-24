@@ -278,6 +278,16 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
+	[25] = {
+		max_time = 0,
+		name = "이벤트 해역 특장원형 드랍 보너스",
+		icon = "Props/buff_urptup",
+		benefit_effect = "0",
+		id = 25,
+		benefit_condition = "",
+		benefit_type = "urpt_drop_up",
+		desc = "「나비 바다 꿈의 꽃」 이벤트 해역을 통해 획득하는 특장원형 수량 배가"
+	},
 	all = {
 		1,
 		2,
@@ -297,6 +307,7 @@ pg.benefit_buff_template = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

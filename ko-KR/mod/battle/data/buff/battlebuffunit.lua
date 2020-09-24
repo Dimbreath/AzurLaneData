@@ -193,6 +193,10 @@ function slot3.GetLv(slot0)
 	return slot0._level or 1
 end
 
+function slot3.GetStack(slot0)
+	return slot0._stack
+end
+
 function slot3.SetToCancel(slot0, slot1)
 	if slot1 then
 		if not slot0._cancelTime then

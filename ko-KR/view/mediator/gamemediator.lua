@@ -233,9 +233,15 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.THIRD_ANNIVERSARY_SQUARE then
 			slot4.mediator = ThirdAnniversarySquareMediator
 			slot4.viewComponent = ThirdAnniversarySquareScene
+		elseif slot3 == SCENE.THIRD_ANNIVERSARY_AKIBA then
+			slot4.mediator = ThirdAnniversarySquareMediator
+			slot4.viewComponent = AkibaStreetScene
 		elseif slot3 == SCENE.BACKYARD_THEME_TEMPLATE then
 			slot4.mediator = NewBackYardThemeTemplateMediator
 			slot4.viewComponent = NewBackYardThemeTemplateLayer
+		elseif slot3 == SCENE.JIUJIU_EXPEDITION then
+			slot4.mediator = JiuJiuExpeditionGameMediator
+			slot4.viewComponent = JiuJiuExpeditionGameView
 		end
 
 		print("load scene: " .. slot3)

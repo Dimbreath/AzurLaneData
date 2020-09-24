@@ -81,6 +81,7 @@ function slot2.Update(slot0)
 		end
 	end
 
+	slot0:updateHP()
 	slot0:updateBuffList()
 end
 
@@ -99,6 +100,9 @@ function slot2.ConfigSkin(slot0, slot1)
 	slot0._templateID = slot0._templateView:Find("template/text")
 	slot0._name = slot0._templateView:Find("name/text")
 	slot0._lv = slot0._templateView:Find("level/text")
+	slot0._totalHP = slot0._templateView:Find("totalHP/text")
+	slot0._currentHP = slot0._templateView:Find("currentHP/text")
+	slot0._HPRate = slot0._templateView:Find("HPRate/text")
 	slot0._attrView = slot2:Find("attr_panels/primal_attr")
 	slot0._baseEnhanceView = slot2:Find("attr_panels/basic_ehc")
 	slot0._secondaryAttrView = slot2:Find("attr_panels/tag_ehc")
@@ -111,16 +115,27 @@ function slot2.ConfigSkin(slot0, slot1)
 	SetActive(slot0._go, true)
 end
 
+function slot2.updateHP(slot0)
+	slot1, slot2 = slot0._unit:GetHP()
+
+	setText(slot0._totalHP, slot2)
+	setText(slot0._currentHP, slot1)
+	setText(slot0._HPRate, string.format("%.3f", slot0._unit:GetHPRate()))
+end
+
 function slot2.updatePrimalAttr(slot0, slot1)
 	slot2 = slot0._unit:GetAttrByName(slot1)
 
 	setText(slot0._attrView:Find(slot1 .. "/current"), slot2)
 
 	if slot2 - slot0._preAttrList[slot1] ~= 0 then
-		setText(slot0._attrView:Find(slot1 .. "/change"), slot3)
+		uv0.setDeltaText(slot0._attrView:Find(slot1 .. "/change"), slot3)
 
 		slot0._preAttrList[slot1] = slot2
-		slot4:GetComponent(typeof(Text)).color = slot3 > 0 and Color.green or Color.red
+	end
+
+	if slot2 - uv1.GetBase(slot0._unit, slot1) ~= 0 then
+		uv0.setDeltaText(slot0._attrView:Find(slot1 .. "/delta"), slot5)
 	end
 end
 
@@ -130,11 +145,7 @@ function slot2.updateBaseEnhancement(slot0, slot1, slot2)
 	setText(slot0._baseEnhanceView:Find(slot2):Find("current"), slot4)
 
 	if slot4 - slot0._baseEhcList[slot1] ~= 0 then
-		slot6 = slot3:Find("change")
-
-		setText(slot6, slot5)
-
-		slot6:GetComponent(typeof(Text)).color = slot5 > 0 and Color.green or Color.red
+		uv0.setDeltaText(slot3:Find("change"), slot5)
 	end
 end
 
@@ -155,12 +166,7 @@ function slot2.updateSecondaryAttr(slot0, slot1, slot2)
 
 	if slot0._secondaryAttrList[slot1].value ~= slot2 then
 		setText(slot3:Find("current"), slot2)
-
-		slot7 = slot3:Find("delta")
-
-		setText(slot7, slot6)
-
-		slot7:GetComponent(typeof(Text)).color = slot0._unit:GetAttrByName(slot1) - slot5 > 0 and Color.green or Color.red
+		uv0.setDeltaText(slot3:Find("delta"), slot0._unit:GetAttrByName(slot1) - slot5)
 	end
 end
 
@@ -195,4 +201,10 @@ function slot2.Dispose(slot0)
 	slot0._unit = nil
 
 	GameObject.Destroy(slot0._go)
+end
+
+function slot2.setDeltaText(slot0, slot1)
+	setText(slot0, slot1)
+
+	slot0:GetComponent(typeof(Text)).color = slot1 > 0 and Color.green or Color.red
 end

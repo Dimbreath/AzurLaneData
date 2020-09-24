@@ -1553,7 +1553,7 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 		slot0._paintingTF.localScale = Vector3.one
 	end
 
-	if not PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. slot1)) or not slot4:getCharacterSetting(slot2.id, "l2d") then
+	if not PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. slot1))) or not slot4:getCharacterSetting(slot2.id, "l2d") then
 		SetActive(slot3, false)
 		setPaintingPrefabAsync(slot0._paintingTF, slot1, "mainNormal", function ()
 			if uv0.exited then

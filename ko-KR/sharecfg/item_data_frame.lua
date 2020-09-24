@@ -24,6 +24,14 @@ pg.item_data_frame = {
 		desc = "항구에서 2년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF>2주년 한정 이벤트에 참여하면 획득할 수 있습니다.</color>",
 		scene = {}
 	},
+	[104] = {
+		name = "3주년 기념",
+		time_second = 0,
+		id = 104,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>3년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n3주년 한정 이벤트에 참여하여 획득",
+		scene = {}
+	},
 	[201] = {
 		name = "한계 챌린저 ",
 		time_second = 0,
@@ -157,13 +165,14 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 311,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>추후 이벤트 획득</color> ",
+		desc = "<color=#ffffff>「현실에서도 꿈에서도, 희망의 빛이 영원하기를 바란다.」</color>\n「나비 바다 꿈의 꽃」 이벤트 획득",
 		scene = {}
 	},
 	all = {
 		0,
 		101,
 		102,
+		104,
 		201,
 		202,
 		203,

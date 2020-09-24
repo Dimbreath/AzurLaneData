@@ -68,16 +68,16 @@ function slot0.ExistAnim(slot0, slot1, slot2)
 end
 
 function slot0.Update(slot0, slot1, slot2, slot3)
-	if slot3 then
-		slot3()
-	end
-
 	slot0:Show()
 
 	slot0.shipGroup = slot1
 	slot0.showTrans = slot2
 
 	setActive(slot0.weddingReview, slot1.married == 1)
+
+	if slot3 then
+		slot3()
+	end
 end
 
 function slot0.Flush(slot0, slot1, slot2)

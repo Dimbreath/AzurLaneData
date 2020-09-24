@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actor = 107380,
 			nameColor = "#92fc63",
-			say = "음, 이 사진은 '칭찬을 받아서 얼굴이 풀어질 수밖에 없는 에식스'면 되겠지.",
+			say = "음, 이 사진은 '칭찬을 받아서 얼굴이 풀어질 수밖에 없는 에식스'라고 부르면 되겠어.",
 			flashout = {
 				dur = 0.1,
 				black = false,

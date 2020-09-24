@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "사부라고 말해~ 그런데, 이과의 길은 무궁무진해! U-73",
+			say = "선생님이라고 해~ 그런데 말야, 과학의 길은 무궁무진하다고! U-73",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -235,7 +235,7 @@ function slot6.HandleBulletCldWithShip(slot0, slot1, slot2)
 			slot10 = slot0:GetShip(slot9.UID)
 			slot12 = slot10:IsImmuneCommonBulletCLD()
 
-			if slot10:GetOxyState() and slot11:GetCurrentDiveState() == uv1.DIVE and slot2:GetCldData().Surface ~= uv0.OXY_STATE.DIVE then
+			if slot10:GetCurrentOxyState() == uv1.DIVE and slot2:GetCldData().Surface ~= uv0.OXY_STATE.DIVE then
 				-- Nothing
 			elseif slot12 then
 				-- Nothing
@@ -281,7 +281,19 @@ function slot6.HandleAreaCldWithVehicle(slot0, slot1, slot2)
 		slot10 = slot2[slot9].data
 
 		if slot4 and slot10.IFF ~= slot3.IFF or not slot4 and slot10.IFF == slot3.IFF then
-			slot1:AppendCldObj(slot10)
+			slot12 = true
+
+			if slot1:GetDiveFilter() then
+				for slot18, slot19 in ipairs(slot11) do
+					if slot0:GetShip(slot10.UID):GetCurrentOxyState() == slot19 then
+						slot12 = false
+					end
+				end
+			end
+
+			if slot12 then
+				slot1:AppendCldObj(slot10)
+			end
 		end
 	end
 end

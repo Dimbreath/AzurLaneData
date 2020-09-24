@@ -35,7 +35,8 @@ pg.pay_data_display = {
 				1
 			}
 		},
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -83,7 +84,8 @@ pg.pay_data_display = {
 				20001,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -104,7 +106,8 @@ pg.pay_data_display = {
 		extra_gem = 0,
 		id = 3,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -125,7 +128,8 @@ pg.pay_data_display = {
 		extra_gem = 30,
 		id = 4,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -146,7 +150,8 @@ pg.pay_data_display = {
 		extra_gem = 240,
 		id = 5,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -167,7 +172,8 @@ pg.pay_data_display = {
 		extra_gem = 600,
 		id = 6,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -188,7 +194,8 @@ pg.pay_data_display = {
 		extra_gem = 1200,
 		id = 7,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -209,7 +216,8 @@ pg.pay_data_display = {
 		extra_gem = 3300,
 		id = 8,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	[11] = {
 		limit_arg = 1,
@@ -302,7 +310,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[12] = {
 		limit_arg = 1,
@@ -395,7 +404,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[13] = {
 		limit_arg = 1,
@@ -488,7 +498,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[14] = {
 		limit_arg = 1,
@@ -581,7 +592,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[15] = {
 		limit_arg = 1,
@@ -674,7 +686,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[16] = {
 		limit_arg = 1,
@@ -772,7 +785,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[17] = {
 		limit_arg = 1,
@@ -865,7 +879,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[18] = {
 		limit_arg = 1,
@@ -963,7 +978,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[19] = {
 		limit_arg = 1,
@@ -1056,7 +1072,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[20] = {
 		limit_arg = 1,
@@ -1134,7 +1151,8 @@ pg.pay_data_display = {
 				100001,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[21] = {
 		limit_arg = 1,
@@ -1237,7 +1255,8 @@ pg.pay_data_display = {
 				30121,
 				4
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[22] = {
 		limit_arg = 1,
@@ -1345,7 +1364,8 @@ pg.pay_data_display = {
 				30121,
 				8
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[23] = {
 		limit_arg = 1,
@@ -1443,7 +1463,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	all = {
 		1,

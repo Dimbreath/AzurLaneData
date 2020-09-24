@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 602
+		act_id = 20557
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -632,6 +632,12 @@ pg.activity_const = {
 	},
 	SHINANO_EXP_ACT_ID = {
 		act_id = 20536
+	},
+	UR_ITEM_ACT_ID = {
+		act_id = 20560
+	},
+	UR_TASK_ACT_ID = {
+		act_id = 20562
 	},
 	SUMMER_REMAKE = {
 		act_id = 20248

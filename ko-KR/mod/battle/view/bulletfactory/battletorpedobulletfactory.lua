@@ -13,37 +13,37 @@ function slot1.MakeBullet(slot0)
 end
 
 function slot1.onBulletHitFunc(slot0, slot1, slot2)
+	slot6 = uv0.GetDataProxy()
 	slot7 = slot0:GetBulletData()
 
 	uv1.Battle.PlayBattleSFX(slot7:GetTemplate().hit_sfx)
 
-	slot9 = slot7:GetDiveFilter()
+	slot10 = nil
 
-	if slot0:GetBulletData():GetTemplate().hit_type.range then
-		uv0.GetDataProxy():SpawnColumnArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.range, slot5.time, function (slot0)
-			for slot4, slot5 in ipairs(slot0) do
-				if slot5.Active then
-					slot7 = false
+	function slot11(slot0)
+		if uv0.decay then
+			uv1:UpdateDistanceInfo()
+		end
 
-					for slot12, slot13 in ipairs(uv1) do
-						if uv0:GetSceneMediator():GetCharacter(slot5.UID):GetUnitData():GetCurrentOxyState() == slot13 then
-							slot7 = true
-						end
-					end
+		for slot5, slot6 in ipairs(slot0) do
+			if slot6.Active then
+				slot7 = slot6.UID
+				slot8 = 0
 
-					if not slot7 then
-						uv2:HandleDamage(uv3, slot6)
-					end
+				if slot1 then
+					slot8 = uv1:GetDistance(slot7) / (uv0.range * 0.5) * slot1
 				end
+
+				uv3:HandleDamage(uv4, uv2:GetSceneMediator():GetCharacter(slot7):GetUnitData(), slot8)
 			end
-		end)
-	else
-		slot6:SpawnCubeArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.width, slot5.height, slot5.time, slot10)
+		end
 	end
 
-	slot11, slot12 = uv0.GetFXPool():GetFX(slot0:GetFXID())
+	((not slot0:GetBulletData():GetTemplate().hit_type.range or slot6:SpawnColumnArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.range, slot5.time, slot11)) and slot6:SpawnCubeArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.width, slot5.height, slot5.time, slot11)):SetDiveFilter(slot7:GetDiveFilter())
 
-	pg.EffectMgr.GetInstance():PlayBattleEffect(slot11, slot12:Add(slot0:GetTf().localPosition), true)
+	slot12, slot13 = uv0.GetFXPool():GetFX(slot0:GetFXID())
+
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot12, slot13:Add(slot0:GetTf().localPosition), true)
 
 	if slot7:GetPierceCount() <= 0 then
 		slot6:RemoveBulletUnit(slot7:GetUniqueID())

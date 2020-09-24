@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "에식스를 위해서에요. 그 애는 이런 건 묻기 어려워하는 성격이니까……",
+			say = "단지 에식스를 위해서에요. 그 애는 이런 건 묻기 어려워하는 성격이니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

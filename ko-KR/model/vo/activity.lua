@@ -138,7 +138,13 @@ function slot0.readyToAchieve()
 end
 
 function slot0.isShow(slot0)
-	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+	if slot0.configId == ActivityConst.UR_TASK_ACT_ID then
+		return not _.all(slot0:getConfig("config_data")[1], function (slot0)
+			slot1 = getProxy(TaskProxy):getTaskById(slot0) or getProxy(TaskProxy):getFinishTaskById(slot0)
+
+			return slot1 and slot1:isReceive()
+		end)
+	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 		return slot0:getConfig("is_show") > 0 and slot0.data1 ~= 0
 	else
 		return slot0:getConfig("is_show") > 0

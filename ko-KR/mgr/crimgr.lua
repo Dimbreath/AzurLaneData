@@ -111,6 +111,11 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 
 	slot0.bgmName = slot3
 	slot0.bgmPlaybackInfo = nil
+	slot4 = nil
+
+	if PLATFORM_CH == PLATFORM_CODE then
+		slot4 = CriWareMgr.Inst:GetChannelData(uv0.C_BGM).curCueDataKey
+	end
 
 	CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
 		if slot0 == nil then
@@ -119,6 +124,10 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 			uv1.bgmPlaybackInfo = slot0
 		end
 	end)
+
+	if PLATFORM_CH == PLATFORM_CODE then
+		CriWareMgr.Inst:GetChannelData(uv0.C_BGM).curCueDataKey = slot4
+	end
 end
 
 function slot1.StopBGM(slot0, slot1)

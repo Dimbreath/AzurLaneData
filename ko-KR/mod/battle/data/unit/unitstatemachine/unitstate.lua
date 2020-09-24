@@ -32,7 +32,6 @@ function slot0.Battle.UnitState.Ctor(slot0, slot1)
 	slot0._standState = uv0.Battle.StandState.New()
 	slot0._spellState = uv0.Battle.SpellState.New()
 	slot0._interruptState = uv0.Battle.InterruptState.New()
-	slot0._divingState = uv0.Battle.DivingState.New()
 	slot0._diveState = uv0.Battle.DiveState.New()
 	slot0._diveLeftState = uv0.Battle.DiveLeftState.New()
 	slot0._raidState = uv0.Battle.RaidState.New()
@@ -64,8 +63,6 @@ function slot0.Battle.UnitState.ChangeState(slot0, slot1, slot2)
 		slot0._currentState:AddInterruptState(slot0)
 	elseif slot1 == slot0.STATE_STAND then
 		slot0._currentState:AddStandState(slot0)
-	elseif slot1 == slot0.STATE_DIVING then
-		slot0._currentState:AddDivingState(slot0)
 	elseif slot1 == slot0.STATE_DIVE then
 		slot0._currentState:AddDiveState(slot0)
 	elseif slot1 == slot0.STATE_DIVELEFT then
@@ -101,12 +98,6 @@ function slot0.Battle.UnitState.OnAttackLeftState(slot0, slot1)
 	slot0._currentState = slot0._attackLeftState
 
 	slot0:SendAction(slot1 .. "_left")
-end
-
-function slot0.Battle.UnitState.OnDivingState(slot0)
-	slot0._currentState = slot0._divingState
-
-	slot0:SendAction(uv0.DIVING)
 end
 
 function slot0.Battle.UnitState.OnDiveState(slot0)

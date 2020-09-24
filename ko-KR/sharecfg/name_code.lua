@@ -934,5 +934,15 @@ pg.name_code = {
 		id = 187,
 		name = "槾",
 		code = "槾"
+	},
+	{
+		id = 188,
+		name = "카시노",
+		code = "㭴"
+	},
+	{
+		id = 189,
+		name = "아키즈키",
+		code = "檚"
 	}
 }

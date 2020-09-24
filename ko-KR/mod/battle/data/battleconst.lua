@@ -165,7 +165,10 @@ slot0.BulletType = {
 	BEAM = 10,
 	G_BULLET = 11,
 	ELECTRIC_ARC = 12,
-	SCALE = 13
+	MISSILE = 13,
+	SPACE_LASER = 14,
+	SCALE = 15,
+	TRIGGER_BOMB = 16
 }
 slot0.BulletDamageType = {
 	NORMAL = 1,
@@ -255,6 +258,8 @@ slot0.BuffEffectType = {
 	ON_SUBMARINE_RAID = "onSubmarineRaid",
 	ON_SUBMARINE_FLOAT = "onSubmarineFloat",
 	ON_SUBMARINE_RETREAT = "onSubmarineRetreat",
+	ON_SUB_DETECTED = "onSubDetected",
+	ON_SUB_UNDETECTED = "onSubUnDetected",
 	ON_ANTI_SUB_HATE_CHAIN = "onAntiSubHateChain",
 	ON_RECORD = "onRecord"
 }

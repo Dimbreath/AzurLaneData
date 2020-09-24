@@ -12,9 +12,9 @@ function this.GetLive2DModelAsync(slot0, slot1, slot2)
 end
 
 function this.TryReleaseLive2dRes(slot0, slot1)
-	HXSet.autoHxShift("live2d/", slot1)
+	slot2, slot3 = HXSet.autoHxShift("live2d/", slot1)
 
-	if slot0:SubRefCount(nil) then
+	if slot0:SubRefCount(slot3) then
 		slot0:ReleaseLive2dRes(slot1)
 	end
 end

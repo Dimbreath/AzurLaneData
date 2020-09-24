@@ -72,10 +72,9 @@ end
 function slot0.HandleFuncQueue(slot0)
 	if slot0._state == uv0.STATES.INITED then
 		while #slot0._funcQueue > 0 do
-			slot1 = slot0._funcQueue[1]
+			slot1 = table.remove(slot0._funcQueue, 1)
 
 			slot0[slot1.funcName](slot0, unpack(slot1.params, 1, slot1.params.len))
-			table.remove(slot0._funcQueue, 1)
 		end
 	end
 end

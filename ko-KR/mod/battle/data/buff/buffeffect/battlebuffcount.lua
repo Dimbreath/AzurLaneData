@@ -49,6 +49,16 @@ function slot1.onTakeHealing(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot1.onStack(slot0, slot1, slot2, slot3)
+	slot0._count = slot2:GetStack()
+
+	if slot0._countTarget <= slot0._count then
+		slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
+			buffFX = slot0
+		})
+	end
+end
+
 function slot1.onBulletHit(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return

@@ -36,10 +36,6 @@ function slot0.ExistAnim(slot0, slot1, slot2)
 end
 
 function slot0.Update(slot0, slot1, slot2, slot3)
-	if slot3 then
-		slot3()
-	end
-
 	slot0:Show()
 
 	slot0.shipGroup = slot1
@@ -47,6 +43,10 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 
 	slot0:InitSkills()
 	slot0:InitProperty()
+
+	if slot3 then
+		slot3()
+	end
 end
 
 function slot0.InitProperty(slot0)

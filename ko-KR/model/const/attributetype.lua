@@ -32,8 +32,6 @@ slot0.OxyRecoveryBench = "oxy_recovery_bench"
 slot0.OxyAttackDuration = "attack_duration"
 slot0.OxyRaidDistance = "raid_distance"
 slot0.SonarRange = "sonarRange"
-slot0.SonarInterval = "sonarInterval"
-slot0.SonarDuration = "sonarDuration"
 slot0.Tactics = "tactics"
 
 function slot0.Type2Name(slot0)

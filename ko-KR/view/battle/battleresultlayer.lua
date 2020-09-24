@@ -344,7 +344,7 @@ function slot0.showRewardInfo(slot0)
 		slot4 = false
 		slot5 = uv0.contextData.extraBuffList
 
-		if table.getCount(slot0) > 0 then
+		if table.getCount(PlayerConst.BonusItemMarker(slot0)) > 0 then
 			uv0:emit(BaseUI.ON_AWARD, {
 				items = slot0,
 				onYes = uv1
