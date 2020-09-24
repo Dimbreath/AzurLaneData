@@ -286,7 +286,7 @@ pg.benefit_buff_template = {
 		id = 25,
 		benefit_condition = "",
 		benefit_type = "urpt_drop_up",
-		desc = "「나비 바다 꿈의 꽃」 이벤트 해역을 통해 획득하는 특장원형 수량 배가"
+		desc = "「접해몽화」 이벤트 해역을 통해 획득하는 특장원형 수량 배가"
 	},
 	all = {
 		1,

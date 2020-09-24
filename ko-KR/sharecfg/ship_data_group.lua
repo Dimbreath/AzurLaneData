@@ -105,7 +105,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"原型商店兑换",
+				"원형 상점 교환",
 				{
 					"SHOP",
 					{

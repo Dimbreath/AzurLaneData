@@ -68425,7 +68425,7 @@ pg.ship_skin_template = {
 	},
 	[304051] = {
 		ship_group = 30405,
-		name = "{namecode:161}",
+		name = "주수정연",
 		bg_sp = "",
 		group_index = 1,
 		illustrator2 = -1,
@@ -95324,11 +95324,11 @@ pg.ship_skin_template = {
 	},
 	[808012] = {
 		ship_group = 80801,
-		name = "魅惑的沙滩时光",
+		name = "Loisirs balnéaires",
 		bg_sp = "",
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "呼…啊，Bonjour，指挥官。像这样沙滩上享受海水拍打的感觉确实是挺棒的呢。你也一起躺会感受下如何？",
+		desc = "후... 아, Bonjour, 지휘관. 이렇게 모래사장에서 파도를 맞고 있는 느낌도 정말 좋네. 너도 같이 누워서 느껴볼래?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xukufu_3",

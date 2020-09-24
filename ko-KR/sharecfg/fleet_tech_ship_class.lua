@@ -1562,7 +1562,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30707] = {
 		shiptype = 7,
-		name = "야마토",
+		name = "야마토급",
 		t_level = 10,
 		id = 30707,
 		t_level_1 = 110,
