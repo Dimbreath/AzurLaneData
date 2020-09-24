@@ -169,7 +169,7 @@ pg.gametip = {
 		tip = "Monthly purchase limit exceeded"
 	},
 	new_airi_error_code_200120 = {
-		tip = "Item does not exist"
+		tip = "Item does not exist please check the SKU"
 	},
 	new_airi_error_code_200130 = {
 		tip = "Payment method does not exist"
