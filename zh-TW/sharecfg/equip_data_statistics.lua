@@ -32340,7 +32340,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25800] = {
-		name = "刺猬彈",
+		name = "刺蝟彈",
 		speciality = "反潛",
 		type = 14,
 		tech = 0,
