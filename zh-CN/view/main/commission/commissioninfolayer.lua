@@ -32,16 +32,20 @@ function slot0.init(slot0)
 end
 
 function slot0.UpdateUrItemEntrance(slot0)
-	slot1 = pg.gameset.urpt_chapter_max.description
-	slot3 = slot1[2]
-	slot4 = getProxy(BagProxy):GetLimitCntById(slot1[1])
-	slot0.activtyUrExchangeTxt.text = slot4 .. "/" .. slot3
-	slot0.activtyUrExchangeCG.alpha = slot4 == slot3 and 0.6 or 1
+	if not LOCK_UR_SHIP then
+		slot1 = pg.gameset.urpt_chapter_max.description
+		slot3 = slot1[2]
+		slot4 = getProxy(BagProxy):GetLimitCntById(slot1[1])
+		slot0.activtyUrExchangeTxt.text = slot4 .. "/" .. slot3
+		slot0.activtyUrExchangeCG.alpha = slot4 == slot3 and 0.6 or 1
 
-	setActive(slot0.activtyUrExchangeTip, NotifyTipHelper.ShouldShowUrTip())
-	onButton(slot0, slot0.activtyUrExchangeBtn, function ()
-		uv0:emit(CommissionInfoMediator.ON_UR_ACTIVITY)
-	end, SFX_PANEL)
+		setActive(slot0.activtyUrExchangeTip, NotifyTipHelper.ShouldShowUrTip())
+		onButton(slot0, slot0.activtyUrExchangeBtn, function ()
+			uv0:emit(CommissionInfoMediator.ON_UR_ACTIVITY)
+		end, SFX_PANEL)
+	else
+		setActive(slot0.activtyUrExchangeBtn, false)
+	end
 end
 
 function slot0.NotifyIns(slot0, slot1, slot2)

@@ -266,11 +266,11 @@ return {
 				},
 				skills = {
 					{
-						id = 10670,
+						id = 10680,
 						level = 10
 					},
 					{
-						id = 2091,
+						id = 10690,
 						level = 10
 					}
 				}
@@ -301,11 +301,11 @@ return {
 				},
 				skills = {
 					{
-						id = 10680,
+						id = 10700,
 						level = 10
 					},
 					{
-						id = 10690,
+						id = 2101,
 						level = 10
 					}
 				}

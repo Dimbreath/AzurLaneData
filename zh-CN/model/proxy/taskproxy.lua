@@ -102,7 +102,7 @@ function slot0.addTask(slot0, slot1)
 	slot0.data[slot1.id]:onAdded()
 	slot0.facade:sendNotification(uv0.TASK_ADDED, slot1:clone())
 
-	if slot1:getConfig("type") == 10 and slot1:isFinish() then
+	if slot1:GetRealType() == 10 and slot1:isFinish() then
 		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end
 end
@@ -114,7 +114,7 @@ function slot0.updateTask(slot0, slot1)
 	slot0.data[slot1.id]:display("updated")
 	slot0.facade:sendNotification(uv0.TASK_UPDATED, slot1:clone())
 
-	if slot1:getConfig("type") == 10 and slot1:isFinish() then
+	if slot1:GetRealType() == 10 and slot1:isFinish() then
 		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end
 end
@@ -157,7 +157,7 @@ end
 
 function slot0.getNotFinishCount(slot0, slot1)
 	for slot7, slot8 in pairs(slot0.data) do
-		if slot8:getConfig("type") == (slot1 or 3) and slot8:isFinish() == false then
+		if slot8:GetRealType() == (slot1 or 3) and slot8:isFinish() == false then
 			slot3 = 0 + 1
 		end
 	end
@@ -278,7 +278,7 @@ end
 
 function slot0.pushAutoSubmitTask(slot0)
 	for slot4, slot5 in pairs(slot0.data) do
-		if slot5:getConfig("type") == 10 and slot5:isFinish() then
+		if slot5:GetRealType() == 10 and slot5:isFinish() then
 			slot0:sendNotification(GAME.SUBMIT_TASK, slot5.id)
 		end
 	end

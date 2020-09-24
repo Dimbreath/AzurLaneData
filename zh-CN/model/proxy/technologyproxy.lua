@@ -186,7 +186,7 @@ function slot0.GetBlueprint4Item(slot0, slot1)
 end
 
 function slot0.isOpenTargetCatchup(slot0)
-	return pg.technology_catchup_template ~= nil
+	return pg.technology_catchup_template ~= nil and #pg.technology_catchup_template.all > 0
 end
 
 function slot0.getNewestCatchupTecID(slot0)

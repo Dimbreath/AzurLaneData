@@ -10797,6 +10797,60 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40911] = {
+		display = "购买礼包可获得随机换装*1，钻石*2020，心智单元*50，心智魔方*20，高级定向蓝图三期*2，快速建造*10，家具币*100",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "2020国庆礼盒",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40911,
+		icon = "Props/lihe3",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		display = "{namecode:98}赠送的情人节礼物",
 		rarity = 8,
@@ -107357,6 +107411,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59173] = {
+		display = "用于『环城之夜』活动兑换，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "鹰羽",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59173,
+		icon = "Props/meifu2_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59174] = {
 		display = "用于『铁血、音符与誓言』活动兑换，活动结束后将会消失",
 		rarity = 2,
@@ -111883,6 +111955,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59981] = {
+		display = "收集7枚后，可以得到限定设备《约定的证明》",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "U556的勋章",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 8,
+		link_id = 0,
+		id = 59981,
+		icon = "Props/u556xunzhang",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "这是说明说明说明",
 		rarity = 3,
@@ -113372,18 +113462,37 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[69911] = {
-		display = "收集7枚后，可以得到限定设备《约定的证明》",
-		rarity = 2,
-		type = 0,
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>6.5%</color> 巴尔的摩换装 夜风Minuet <color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.5%</color> 埃塞克斯换装 Craft Fairytail <color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.5%</color> 路易九世换装 华服的圣骑士 <color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>5.5%</color> {namecode:6}换装 黯然礼装 <color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.5%</color>）{namecode:182}换装 胧月十夜；
+（<color=#92fc63>6.5%</color>）{namecode:91}换装 朱娟余醺；
+（<color=#92fc63>6.5%</color>）{namecode:92}换装 白羽风华；
+（<color=#92fc63>6.5%</color>）{namecode:50}换装 夜响的绝园；
+（<color=#92fc63>5.8%</color>）独立换装 「独立」品牌；
+（<color=#92fc63>5.4%</color>）{namecode:129}换装 吉时祝宴；
+（<color=#92fc63>5.4%</color>）{namecode:31}换装 四季团圆；
+（<color=#92fc63>5.4%</color>）U-110换装 鲨鱼小可爱；
+（<color=#92fc63>5.4%</color>）{namecode:72}换装 绯红Innocence；
+（<color=#92fc63>5.4%</color>）威奇塔换装 “将军”的晚宴；
+（<color=#92fc63>5.4%</color>）{namecode:13}换装 晨曦精灵Ikatuchi；
+（<color=#92fc63>5.4%</color>）{namecode:14}换装 月下妖精Inatuma；
+（<color=#92fc63>5.4%</color>）谢菲尔德换装 黑鸦的晚宴]],
+		rarity = 4,
+		type = 98,
 		drop_oil_max = 0,
-		name = "U556的勋章",
+		name = "随机国庆换装",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
-		virtual_type = 8,
+		virtual_type = 0,
 		link_id = 0,
 		id = 69911,
-		icon = "Props/u556xunzhang",
+		icon = "Props/clothIcon",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -114679,6 +114788,7 @@ pg.item_data_statistics = {
 		40908,
 		40909,
 		40910,
+		40911,
 		41001,
 		41002,
 		41003,
@@ -116691,6 +116801,7 @@ pg.item_data_statistics = {
 		59170,
 		59171,
 		59172,
+		59173,
 		59174,
 		59175,
 		59176,
@@ -116913,6 +117024,7 @@ pg.item_data_statistics = {
 		59968,
 		59969,
 		59979,
+		59981,
 		60001,
 		60002,
 		60003,

@@ -1666,6 +1666,42 @@ pg.activity_shop_extra = {
 		id = 55,
 		order = 2
 	},
+	[56] = {
+		num_limit = 1,
+		activity = 663,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 103072,
+		scene = "",
+		id = 56,
+		order = 9,
+		time = {
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[57] = {
 		num_limit = 1,
 		activity = 671,
@@ -1765,6 +1801,7 @@ pg.activity_shop_extra = {
 		53,
 		54,
 		55,
+		56,
 		57,
 		58
 	}

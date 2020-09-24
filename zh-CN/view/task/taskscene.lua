@@ -90,7 +90,7 @@ function slot0.filterTasks(slot0, slot1)
 	slot0._currentToggleType = slot1
 
 	for slot6, slot7 in pairs(slot0.taskVOsById) do
-		if slot7:getConfig("visibility") == 1 and pg.taskUIConfig.filter[slot0._currentToggleType][slot7:getConfig("type")] then
+		if slot7:getConfig("visibility") == 1 and pg.taskUIConfig.filter[slot0._currentToggleType][slot7:GetRealType()] then
 			table.insert(slot0.taskVOs, slot7)
 		end
 	end
@@ -149,10 +149,10 @@ function slot0.sortTasks(slot0)
 		if slot0:getTaskStatus() == slot1:getTaskStatus() then
 			if (slot0.id == 10302 and 1 or 0) == (slot1.id == 10302 and 1 or 0) then
 				if uv0(slot0) == uv0(slot1) then
-					if slot0:getConfig("type") == slot1:getConfig("type") then
+					if slot0:GetRealType() == slot1:GetRealType() then
 						return slot0.id < slot1.id
 					elseif slot0:getTaskStatus() == 0 then
-						return uv1(slot0:getConfig("type"), slot1:getConfig("type"), {
+						return uv1(slot0:GetRealType(), slot1:GetRealType(), {
 							26,
 							36,
 							6,
@@ -163,7 +163,7 @@ function slot0.sortTasks(slot0)
 							1
 						})
 					elseif slot0:getTaskStatus() == 1 then
-						return uv1(slot0:getConfig("type"), slot1:getConfig("type"), {
+						return uv1(slot0:GetRealType(), slot1:GetRealType(), {
 							26,
 							36,
 							6,

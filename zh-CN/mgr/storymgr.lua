@@ -1716,5 +1716,30 @@ function slot0.updatePainting(slot0, slot1, slot2)
 				slot7.material = nil
 			end
 		end
+
+		if findTF(slot4, "layers") and isActive(slot7) then
+			for slot11 = 0, slot7.childCount - 1 do
+				slot13 = GetComponent(slot7:GetChild(slot11), "Image")
+
+				if slot2 then
+					slot13.material = slot0.material1
+
+					slot13.material:SetFloat("_LineDensity", 7)
+					slot3(slot13)
+				else
+					LeanTween.cancel(slot13.gameObject)
+
+					slot13.material = nil
+				end
+			end
+		end
+
+		if findTF(slot4, "hx") and isActive(slot8) then
+			if slot2 then
+				setActive(slot8, false)
+			else
+				setActive(slot8, true)
+			end
+		end
 	end
 end

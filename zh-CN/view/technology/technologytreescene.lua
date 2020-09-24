@@ -282,6 +282,7 @@ function slot0.updateTypeItemList(slot0)
 end
 
 function slot0.updateTecItemList(slot0)
+	slot0.expanded = {}
 	slot1 = nil
 	slot1 = (#slot0.nationSelectedList ~= 0 or #slot0.typeSelectedList ~= 0 or TechnologyConst.GetOrderClassList()) and _.select(TechnologyConst.GetOrderClassList(), function (slot0)
 		if table.indexof(#uv0.nationSelectedList == 0 and TechnologyConst.NationOrder or uv0.nationSelectedList, pg.fleet_tech_ship_class[slot0].nation, 1) then
@@ -326,7 +327,7 @@ function slot0.updateTecItemList(slot0)
 
 					uv1.expanded[slot0] = uv1.rowHeight
 				else
-					uv1.rightLSC:ScrollTo(uv1.rightLSC:HeadIndexToValue(uv2))
+					uv1.rightLSC:ScrollTo(uv1.rightLSC:HeadIndexToValue(uv2) - 0.0001)
 
 					slot3 = uv1:findTF(slot0, uv1.rightContainer)
 					slot5 = uv1:findTF("ShipScrollView/Viewport/ShipContainer", slot3)
