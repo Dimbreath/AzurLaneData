@@ -120,6 +120,7 @@ function slot0.didEnter(slot0)
 		cmd = 0,
 		activity_id = slot0.activityId
 	})
+	slot0:SwitchToDefaultBGM()
 end
 
 function slot0.activityUpdate(slot0)

@@ -10460,6 +10460,60 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40911] = {
+		display = "ランダムなドレスシリーズの着せ替え衣装、上級指向型強化ユニット・三期目×2、ダイヤ×2020、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "三周年福袋",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40911,
+		icon = "Props/lihe4",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		display = "明石からのバレンタインプレゼント",
 		rarity = 8,
@@ -105438,6 +105492,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59173] = {
+		display = "「サークルシティナイト」報酬交換用アイテム。イベント終了後に削除される。",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "イーグルの羽根",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59173,
+		icon = "Props/meifu2_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59174] = {
 		display = "「黒鉄の楽章　誓いの海」報酬交換用。イベント終了後に削除されます",
 		rarity = 2,
@@ -109882,6 +109954,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59981] = {
+		display = "7枚集めると、限定設備「約束の証明」を入手可能",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "U-556の勲章",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 8,
+		link_id = 0,
+		id = 59981,
+		icon = "Props/u556xunzhang",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "0",
 		rarity = 3,
@@ -111402,18 +111492,37 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[69911] = {
-		display = "7枚集めると、限定設備「約束の証明」を入手可能",
-		rarity = 2,
-		type = 0,
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます） 
+各衣装の出現割合：
+（<color=#92fc63>6.5%</color> ボルチモア：夜風Minuet <color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.5%</color> エセックス：Craft Fairytail <color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.5%</color> サン・ルイ：華麗なる聖騎士 <color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>5.5%</color> 綾波：黯然礼装 <color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.5%</color>）信濃：満ち欠ける朧月；
+（<color=#92fc63>6.5%</color>）赤城：朱絹の余醺；
+（<color=#92fc63>6.5%</color>）加賀：白羽の貴華；
+（<color=#92fc63>6.5%</color>）能代：夜饗の絶園；
+（<color=#92fc63>5.8%</color>）インディペンデンス：ブランディング・I；
+（<color=#92fc63>5.4%</color>）初霜：季節わぬ幸せの祝宴よ；
+（<color=#92fc63>5.4%</color>）有明：時日問わぬ楽しい団らんよ；
+（<color=#92fc63>5.4%</color>）U-110：潜水鮫のカワイイ夢；
+（<color=#92fc63>5.4%</color>）榛名：真緋のイノセンス；
+（<color=#92fc63>5.4%</color>）ウィチタ：ジェネラル・バンケット；
+（<color=#92fc63>5.4%</color>）雷：払暁のイカヅチ；
+（<color=#92fc63>5.4%</color>）電：夕闇のイナヅマ；
+（<color=#92fc63>5.4%</color>）シェフィールド：ブラックロウ・アウトフィット]],
+		rarity = 4,
+		type = 98,
 		drop_oil_max = 0,
-		name = "U-556の勲章",
+		name = "ランダム衣装",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
-		virtual_type = 8,
+		virtual_type = 0,
 		link_id = 0,
 		id = 69911,
-		icon = "Props/u556xunzhang",
+		icon = "Props/clothIcon",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -112693,6 +112802,7 @@ pg.item_data_statistics = {
 		40908,
 		40909,
 		40910,
+		40911,
 		41001,
 		41002,
 		41003,
@@ -114678,6 +114788,7 @@ pg.item_data_statistics = {
 		59170,
 		59171,
 		59172,
+		59173,
 		59174,
 		59175,
 		59176,
@@ -114898,6 +115009,7 @@ pg.item_data_statistics = {
 		59968,
 		59969,
 		59979,
+		59981,
 		60001,
 		60002,
 		60003,

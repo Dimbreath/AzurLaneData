@@ -47,17 +47,12 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				check_target = "TargetShipTypeFriendly",
-				quota = 1,
 				maxTargetNumber = 1,
 				skill_id = 11030,
-				ship_type_list = {
-					1,
-					2,
-					3,
-					9,
-					11,
-					18
+				quota = 1,
+				check_target = {
+					"TargetAllHelp",
+					"TargetPlayerVanguardFleet"
 				}
 			}
 		}
