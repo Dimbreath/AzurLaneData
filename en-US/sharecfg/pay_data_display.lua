@@ -252,11 +252,11 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
-		id_str = "com.bilibili.blhx.zuanshi123",
+		id_str = "com.yostaren.azurlane.diamond138",
 		first_pay_double = 0,
 		extra_gem = 0,
 		id = 24,
-		airijp_id = "com.yostarjp.azurlane.diamond115",
+		airijp_id = "com.yostaren.azurlane.diamond138",
 		extra_service_item = {
 			{
 				2,
