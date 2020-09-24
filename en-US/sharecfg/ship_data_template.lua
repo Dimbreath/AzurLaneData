@@ -122,7 +122,9 @@ pg.ship_data_template = {
 		buff_list = {
 			16
 		},
-		buff_list_display = {},
+		buff_list_display = {
+			16
+		},
 		hide_buff_list = {}
 	},
 	[101021] = {

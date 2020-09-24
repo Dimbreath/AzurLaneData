@@ -624,6 +624,12 @@ pg.activity_const = {
 	SHINANO_EXP_ACT_ID = {
 		act_id = 30702
 	},
+	UR_ITEM_ACT_ID = {
+		act_id = 30724
+	},
+	UR_TASK_ACT_ID = {
+		act_id = 30726
+	},
 	SUMMER_REMAKE = {
 		act_id = 30253
 	},
