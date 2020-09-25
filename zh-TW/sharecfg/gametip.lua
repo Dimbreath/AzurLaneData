@@ -2889,7 +2889,7 @@ pg.gametip = {
 		tip = "好感度"
 	},
 	attribute_max_distance_damage = {
-		tip = "边际伤害"
+		tip = "邊際傷害"
 	},
 	skill = {
 		tip = "技能"
