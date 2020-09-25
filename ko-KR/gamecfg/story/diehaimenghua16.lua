@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "통신기",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",

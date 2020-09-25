@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_ship_create = {
 	{
 		id = 1,
-		activity_id = 20557,
+		activity_id = 20565,
 		create_id = 7,
 		pickup_num = 2,
 		pickup_list = {
@@ -121,7 +121,7 @@ pg.activity_ship_create = {
 	},
 	{
 		id = 2,
-		activity_id = 20557,
+		activity_id = 20565,
 		create_id = 8,
 		pickup_num = 2,
 		pickup_list = {
@@ -189,7 +189,7 @@ pg.activity_ship_create = {
 	},
 	{
 		id = 3,
-		activity_id = 20557,
+		activity_id = 20565,
 		create_id = 6,
 		pickup_num = 2,
 		pickup_list = {
@@ -226,6 +226,7 @@ pg.activity_ship_create = {
 			407021,
 			408031,
 			107061,
+			107091,
 			202121,
 			206041,
 			207031,

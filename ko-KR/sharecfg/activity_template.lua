@@ -15752,6 +15752,7 @@ pg.activity_template = {
 	[20557] = {
 		mark = 20200924,
 		page_info = "",
+		time = "stop",
 		type = 55,
 		login_pop = 0,
 		config_id = 0,
@@ -15763,33 +15764,6 @@ pg.activity_template = {
 			1,
 			2,
 			3
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					9,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20558] = {
@@ -15992,6 +15966,49 @@ pg.activity_template = {
 					2020,
 					10,
 					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20565] = {
+		mark = 20200924,
+		page_info = "",
+		type = 55,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20565,
+		config_data = {
+			1,
+			2,
+			3
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					19
 				},
 				{
 					23,
@@ -17324,6 +17341,7 @@ pg.activity_template = {
 		20561,
 		20562,
 		20564,
+		20565,
 		25000,
 		25001,
 		25002,
