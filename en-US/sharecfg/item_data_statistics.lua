@@ -102995,8 +102995,8 @@ Skins and drop rates:
 (<color=#92fc63>5.5%</color>) Ayanami - Nightfall Raiment (L2D);
 (<color=#92fc63>7.1%</color>) Shinano - Dreams of the Hazy Moon;
 (<color=#92fc63>6.9%</color>) Akagi - Ruby-Laced Beauty;
-(<color=#92fc63>6.5%</color>) Kaga - Exalted White Wings;
-(<color=#92fc63>6.5%</color>) Noshiro - Xanadu's Eventide;
+(<color=#92fc63>6.9%</color>) Kaga - Exalted White Wings;
+(<color=#92fc63>6.9%</color>) Noshiro - Xanadu's Eventide;
 (<color=#92fc63>5.9%</color>) Hatsushimo - Perennial Joy;
 (<color=#92fc63>5.9%</color>) Ariake - Unending Friendship;
 (<color=#92fc63>5.9%</color>) U-110 - A Cute, Sharky Reverie;
