@@ -17487,7 +17487,7 @@ pg.ship_skin_template = {
 		l2d_voice_calibrate = {
 			login = 6.67,
 			propose = 0.4,
-			main_1 = 4,
+			main_1 = 0.2,
 			touch_body = 0.66
 		}
 	},
@@ -81751,8 +81751,20 @@ pg.ship_skin_template = {
 		},
 		l2d_para_range = {
 			ParamAngleY = {
-				-30,
-				30
+				0,
+				0
+			},
+			ParamEyeBallX = {
+				-0.2,
+				0.2
+			},
+			ParamEyeBallY = {
+				-10,
+				10
+			},
+			ParamBodyAngleY = {
+				0,
+				0
 			}
 		}
 	},
@@ -124193,7 +124205,6 @@ pg.ship_skin_template = {
 		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "",
-		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
@@ -124279,6 +124290,16 @@ pg.ship_skin_template = {
 			"mail",
 			"touch_body",
 			"touch_head"
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			}
 		}
 	},
 	[199010] = {
