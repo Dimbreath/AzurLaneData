@@ -11934,7 +11934,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3400] = {
-		name = "\"94식 40cm 포\" 부품",
+		name = "\"94식 40cm 포\" 부속",
 		tech = 0,
 		type = 18,
 		speciality = "无",
@@ -36863,7 +36863,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25800] = {
-		name = "헤지호그",
+		name = "대잠 박격포(헷지호그) ",
 		speciality = "대잠",
 		type = 14,
 		tech = 0,
@@ -57614,7 +57614,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37400] = {
-		name = "자전개2",
+		name = "시덴改二",
 		type = 7,
 		speciality = "항공",
 		rarity = 5,

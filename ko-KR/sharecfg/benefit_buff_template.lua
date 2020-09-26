@@ -84,9 +84,9 @@ pg.benefit_buff_template = {
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 3% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				1,
+				5,
 				1
 			}
 		}
@@ -101,9 +101,9 @@ pg.benefit_buff_template = {
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 4% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				1,
+				5,
 				2
 			}
 		}
@@ -118,9 +118,9 @@ pg.benefit_buff_template = {
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 캐릭터 경험치 획득 5% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				1,
+				5,
 				3
 			}
 		}
@@ -135,9 +135,9 @@ pg.benefit_buff_template = {
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 1% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				2,
+				6,
 				1
 			}
 		}
@@ -152,9 +152,9 @@ pg.benefit_buff_template = {
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 2% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				2,
+				6,
 				2
 			}
 		}
@@ -169,9 +169,9 @@ pg.benefit_buff_template = {
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 3% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				2,
+				6,
 				3
 			}
 		}
@@ -186,9 +186,9 @@ pg.benefit_buff_template = {
 		desc = "전술 학원 스킬 학습 시간 3% 단축",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				3,
+				7,
 				1
 			}
 		}
@@ -203,9 +203,9 @@ pg.benefit_buff_template = {
 		desc = "전술 학원 스킬 학습 시간 4% 단축",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				3,
+				7,
 				2
 			}
 		}
@@ -220,9 +220,9 @@ pg.benefit_buff_template = {
 		desc = "전술 학원 스킬 학습 시간 5% 단축",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				3,
+				7,
 				3
 			}
 		}
@@ -237,9 +237,9 @@ pg.benefit_buff_template = {
 		desc = "숙소 경험치 보너스 3% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				4,
+				8,
 				1
 			}
 		}
@@ -254,9 +254,9 @@ pg.benefit_buff_template = {
 		desc = "숙소 경험치 보너스 4% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				4,
+				8,
 				2
 			}
 		}
@@ -271,9 +271,9 @@ pg.benefit_buff_template = {
 		desc = "숙소 경험치 보너스 5% 상승",
 		benefit_condition = {
 			"activity",
-			20462,
+			20541,
 			{
-				4,
+				8,
 				3
 			}
 		}

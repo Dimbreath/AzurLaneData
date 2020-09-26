@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
-			actorName = "驱逐舰们",
+			actorName = "구축함들",
 			say = "네~~~",
 			dialogShake = {
 				speed = 0.09,
