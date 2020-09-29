@@ -140,9 +140,13 @@ function slot0.initColoring(slot0)
 	slot1 = 1
 
 	for slot5 = 1, #slot0.colorGroups do
-		if slot0.colorGroups[slot5]:getState() == ColorGroup.StateColoring then
+		if isActive(slot0.paintsgroup[slot5]) then
 			slot1 = slot5
+		else
+			break
+		end
 
+		if slot0.colorGroups[slot5]:getState() == ColorGroup.StateColoring then
 			break
 		end
 	end
@@ -209,8 +213,6 @@ function slot0.initInteractive(slot0)
 end
 
 function slot0.updatePage(slot0)
-	warning("UpdatePage")
-
 	for slot4, slot5 in ipairs(slot0.paintsgroup) do
 		setActive(slot5:Find("lock"), slot0.colorGroups[slot4]:getState() == ColorGroup.StateLock)
 		setActive(slot5:Find("get"), slot7 == ColorGroup.StateAchieved)
