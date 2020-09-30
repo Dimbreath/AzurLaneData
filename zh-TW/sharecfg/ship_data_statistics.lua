@@ -117937,6 +117937,482 @@ pg.ship_data_statistics = {
 			"Z-Class"
 		}
 	},
+	[401181] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z18",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 401181,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Hans Lüdemann",
+		oxy_cost = 0,
+		skin_id = 401180,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			330,
+			13,
+			84,
+			28,
+			0,
+			74,
+			0,
+			67,
+			55,
+			43.2,
+			38,
+			47
+		},
+		attrs_growth = {
+			8060,
+			124,
+			836,
+			540,
+			0,
+			366,
+			0,
+			984,
+			816,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401182] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z18",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 401182,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Hans Lüdemann",
+		oxy_cost = 0,
+		skin_id = 401180,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			411,
+			16,
+			105,
+			35,
+			0,
+			74,
+			0,
+			67,
+			55,
+			43.2,
+			38,
+			59
+		},
+		attrs_growth = {
+			8060,
+			124,
+			836,
+			540,
+			0,
+			366,
+			0,
+			984,
+			816,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401183] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z18",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 401183,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Hans Lüdemann",
+		oxy_cost = 0,
+		skin_id = 401180,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			572,
+			22,
+			147,
+			48,
+			0,
+			74,
+			0,
+			67,
+			55,
+			43.2,
+			38,
+			82
+		},
+		attrs_growth = {
+			8060,
+			124,
+			836,
+			540,
+			0,
+			366,
+			0,
+			984,
+			816,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401184] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z18",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 401184,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Hans Lüdemann",
+		oxy_cost = 0,
+		skin_id = 401180,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			814,
+			32,
+			209,
+			69,
+			0,
+			74,
+			0,
+			67,
+			55,
+			43.2,
+			38,
+			117
+		},
+		attrs_growth = {
+			8060,
+			124,
+			836,
+			540,
+			0,
+			366,
+			0,
+			984,
+			816,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			7245,
+			296,
+			1156,
+			375,
+			0,
+			872,
+			0,
+			-574,
+			-579,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
 	[401191] = {
 		oxy_max = 0,
 		type = 1,
@@ -176956,6 +177432,10 @@ pg.ship_data_statistics = {
 		401012,
 		401013,
 		401014,
+		401181,
+		401182,
+		401183,
+		401184,
 		401191,
 		401192,
 		401193,

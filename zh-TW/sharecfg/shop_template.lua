@@ -4456,6 +4456,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60127] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时礼包-比翼双飞",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60127,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40100
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[60141] = {
 		group_type = 0,
 		resource_num = 980,
@@ -6739,6 +6793,104 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			101251
+		}
+	},
+	[70013] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "購買造型:月宮玉兔",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 170,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70013,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					9,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			502022
+		}
+	},
+	[70014] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "購買造型:桂花玉兔",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 170,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70014,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					9,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			502032
 		}
 	},
 	[70015] = {
@@ -17657,6 +17809,7 @@ pg.shop_template = {
 		60105,
 		60114,
 		60118,
+		60127,
 		60141,
 		60142,
 		60143,
@@ -17707,6 +17860,8 @@ pg.shop_template = {
 		70010,
 		70011,
 		70012,
+		70013,
+		70014,
 		70015,
 		70016,
 		70017,

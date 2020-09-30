@@ -19,6 +19,7 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	slot0.wordData.matchFavor = slot8
 	slot0.wordData.textContent = slot7
+	slot0.wordData.maxfavor = slot5
 end
 
 function slot0.Update(slot0)

@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 502022,
 			nameColor = "#a9f548",
-			say = "威爾士~我要抱~抱~",
+			say = "威爾斯~我要抱~抱~",
 			flashout = {
 				dur = 0.75,
 				black = true,

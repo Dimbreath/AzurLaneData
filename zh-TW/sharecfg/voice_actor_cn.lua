@@ -973,19 +973,23 @@ pg.voice_actor_CN = {
 		code = 243
 	},
 	{
-		actor_name = "关根瞳",
+		actor_name = "關根瞳",
 		code = 244
 	},
 	{
-		actor_name = "小岩井小鸟",
+		actor_name = "小岩井小鳥",
 		code = 245
 	},
 	{
-		actor_name = "峰田茉优",
+		actor_name = "峯田茉優",
 		code = 246
 	},
 	{
-		actor_name = "天野聪美",
+		actor_name = "天野聰美",
 		code = 247
+	},
+	{
+		actor_name = "高桥春香",
+		code = 248
 	}
 }

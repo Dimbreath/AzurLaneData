@@ -1,6 +1,7 @@
 slot0 = class("ProposeMediator", import("..base.ContextMediator"))
 slot0.ON_PROPOSE = "ProposeMediator:ON_PROPOSE"
 slot0.RENAME_SHIP = "ShipMainMediator:RENAME_SHIP"
+slot0.HIDE_SHIP_MAIN_WORD = "ShipMainMediator:HIDE_SHIP_MAIN_WORD"
 
 function slot0.register(slot0)
 	if slot0.contextData.shipId then
@@ -22,6 +23,9 @@ function slot0.register(slot0)
 			shipId = slot1,
 			name = slot2
 		})
+	end)
+	slot0:bind(uv0.HIDE_SHIP_MAIN_WORD, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.HIDE_Ship_MAIN_SCENE_WORD)
 	end)
 end
 

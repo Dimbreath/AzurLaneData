@@ -329,13 +329,11 @@ function slot0.updateBattleActivitys(slot0, slot1)
 end
 
 function slot0.updateBattleActivity(slot0, slot1)
-	slot2 = Map.New({
-		id = slot1
-	})
 	slot0.battleActivity = slot0.battleActivitys[1]
-	slot3 = slot2:getConfig("on_activity")
 
-	if slot2:getConfig("on_activity") ~= 0 then
+	if Map.New({
+		id = slot1
+	}):getConfig("on_activity") ~= 0 then
 		for slot7, slot8 in ipairs(slot0.battleActivitys) do
 			if slot8.id == slot3 then
 				slot0.battleActivity = slot8
@@ -916,27 +914,34 @@ function slot0.updateActivityBtns(slot0)
 	slot2 = slot0.contextData.map:isRemaster()
 	slot4 = slot0.contextData.map:getConfig("type")
 
-	setActive(slot0.activityBtn, not slot0.contextData.map:isActivity() and not slot0.contextData.map:isSkirmish() and _.any(_.values(slot0.maps), function (slot0)
+	if not slot0.contextData.map:isActivity() and not slot0.contextData.map:isSkirmish() and _.any(_.values(slot0.maps), function (slot0)
 		return slot0:IsZprojectActiveMap()
-	end))
+	end) then
+		slot7 = getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT)
+
+		print(slot7, slot7.id, slot7:isEnd())
+		setImageSprite(slot0.activityBtn, slot7 and not slot7:isEnd() and LoadSprite("ui/mainui_atlas", "event_map_" .. slot7.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
+	end
+
+	setActive(slot0.activityBtn, slot6)
 
 	if slot0.contextData.map:isEscort() then
 		setActive(slot0.activityBtn, false)
 	end
 
-	slot7 = getProxy(ChapterProxy):getChapterById(304)
+	slot8 = getProxy(ChapterProxy):getChapterById(304)
 
 	if LOCK_SOS then
 		setActive(slot0.signalBtn, false)
 	else
-		setActive(slot0.signalBtn, slot7 and slot7:isClear() and (slot4 == Map.SCENARIO or slot4 == Map.ELITE))
+		setActive(slot0.signalBtn, slot8 and slot8:isClear() and (slot4 == Map.SCENARIO or slot4 == Map.ELITE))
 	end
 
-	slot8 = false
-	slot10 = nil
+	slot9 = false
+	slot11 = nil
 
 	if ActivityLevelConst.hasExtraMap(slot0.maps) and slot0.battleActivitys then
-		slot8 = _.any(slot0.battleActivitys, function (slot0)
+		slot9 = _.any(slot0.battleActivitys, function (slot0)
 			if slot0.id == uv0:getConfig("on_activity") then
 				uv1 = slot0:getConfig("type")
 			end
@@ -945,20 +950,20 @@ function slot0.updateActivityBtns(slot0)
 		end)
 	end
 
-	slot11 = slot8 and slot4 == Map.ACT_EXTRA
-	slot13 = ActivityLevelConst.getMapsByActivityType(slot0.maps, slot10)
-	slot14 = ActivityLevelConst.isClearMaps(slot13, Map.ACTIVITY_EASY)
-	slot15 = ActivityLevelConst.isClearMaps(slot13, Map.ACTIVITY_HARD)
+	slot12 = slot9 and slot4 == Map.ACT_EXTRA
+	slot14 = ActivityLevelConst.getMapsByActivityType(slot0.maps, slot11)
+	slot15 = ActivityLevelConst.isClearMaps(slot14, Map.ACTIVITY_EASY)
+	slot16 = ActivityLevelConst.isClearMaps(slot14, Map.ACTIVITY_HARD)
 
-	setActive(slot0.actExtraBtn.parent, slot8 and slot1 and not slot11 and not slot2)
-	setActive(slot0.actEliteBtn.parent, slot0.contextData.map:existHardMap() and (slot4 == Map.ACTIVITY_EASY and (slot5 or slot2) or slot1 and slot11))
-	setActive(slot0.actNormalBtn.parent, slot4 == Map.ACTIVITY_HARD and (slot5 or slot2) or slot1 and slot11)
-	setActive(slot0.actExtraRank, slot1 and slot11)
+	setActive(slot0.actExtraBtn.parent, slot9 and slot1 and not slot12 and not slot2)
+	setActive(slot0.actEliteBtn.parent, slot0.contextData.map:existHardMap() and (slot4 == Map.ACTIVITY_EASY and (slot5 or slot2) or slot1 and slot12))
+	setActive(slot0.actNormalBtn.parent, slot4 == Map.ACTIVITY_HARD and (slot5 or slot2) or slot1 and slot12)
+	setActive(slot0.actExtraRank, slot1 and slot12)
 	setActive(slot0.remasterBtn, OPEN_REMASTER and (slot4 == Map.SCENARIO or slot4 == Map.ELITE or slot2))
 	setActive(slot0.ticketTxt.parent, slot2)
 
 	if slot2 then
-		setText(slot0.ticketTxt, slot6.remasterTickets .. " / " .. pg.gameset.reactivity_ticket_max.key_value)
+		setText(slot0.ticketTxt, slot7.remasterTickets .. " / " .. pg.gameset.reactivity_ticket_max.key_value)
 	end
 
 	if slot1 then
@@ -966,13 +971,13 @@ function slot0.updateActivityBtns(slot0)
 		slot0:updateActivityRes()
 	end
 
-	slot16 = slot0.contextData.map:getMapTitleNumber() == "EX"
+	slot17 = slot0.contextData.map:getMapTitleNumber() == "EX"
 
-	setActive(slot0.ptTotal, slot1 and not slot2 and slot16 and not ActivityConst.HIDE_PT_PANELS and slot0.ptActivity and not slot0.ptActivity:isEnd())
-	setActive(slot0.actExchangeShopBtn, slot1 and not slot2 and slot16 and not ActivityConst.HIDE_PT_PANELS and slot5)
-	setActive(slot0.eventContainer, (not slot1 or not slot16) and not slot3)
+	setActive(slot0.ptTotal, slot1 and not slot2 and slot17 and not ActivityConst.HIDE_PT_PANELS and slot0.ptActivity and not slot0.ptActivity:isEnd())
+	setActive(slot0.actExchangeShopBtn, slot1 and not slot2 and slot17 and not ActivityConst.HIDE_PT_PANELS and slot5)
+	setActive(slot0.eventContainer, (not slot1 or not slot17) and not slot3)
 
-	if slot8 and slot1 and not slot11 and (slot12 and slot15 or not slot12 and slot14) then
+	if slot9 and slot1 and not slot12 and (slot13 and slot16 or not slot13 and slot15) then
 		setActive(slot0.actExtraBtnAnim, true)
 	else
 		setActive(slot0.actExtraBtnAnim, false)
@@ -981,7 +986,7 @@ function slot0.updateActivityBtns(slot0)
 	slot0:updateCountDown()
 	slot0:registerActBtn()
 
-	if slot1 and not slot11 then
+	if slot1 and not slot12 then
 		Map.lastMapForActivity = slot0.contextData.mapIdx
 	end
 end
@@ -1835,12 +1840,12 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 	slot0.levelStageView:ActionInvoke("SwitchToChapter", slot1)
 end
 
-function slot0.switchToMap(slot0)
-	slot1 = slot0.contextData.chapterVO
-	slot2 = getProxy(ChapterProxy)
+function slot0.switchToMap(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
+	slot3 = getProxy(ChapterProxy)
 
 	if not LOCK_SOS then
-		if slot1 and slot1:getMapType() == Map.ESCORT and OPEN_ESCORT and (#slot2.escortMaps == 0 or _.any(slot3, function (slot0)
+		if slot2 and slot2:getMapType() == Map.ESCORT and OPEN_ESCORT and (#slot3.escortMaps == 0 or _.any(slot4, function (slot0)
 			return slot0:shouldFetch()
 		end)) then
 			slot0:emit(LevelMediator2.ON_FETCH_ESCORT)
@@ -1848,7 +1853,7 @@ function slot0.switchToMap(slot0)
 			return
 		end
 
-		if not LOCK_SUBMARINE and slot2.subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		if not LOCK_SUBMARINE and slot3.subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
 			slot0:emit(LevelMediator2.ON_FETCH_SUB_CHAPTER)
 
 			return
@@ -1864,15 +1869,19 @@ function slot0.switchToMap(slot0)
 		uv0.mapBuilder.buffer:Show()
 		uv0:updateMapItems()
 		uv0:unfrozen()
+
+		if uv1 then
+			uv1()
+		end
 	end)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
-	slot5 = LeanTween.value(go(slot0.map), slot0.map.pivot, slot0.lastRecordPivot or Vector2.zero, uv0)
+	slot6 = LeanTween.value(go(slot0.map), slot0.map.pivot, slot0.lastRecordPivot or Vector2.zero, uv0)
 
-	slot5:setOnUpdateVector2(function (slot0)
+	slot6:setOnUpdateVector2(function (slot0)
 		uv0.map.pivot = slot0
 		uv0.float.pivot = slot0
 	end):setEase(LeanTweenType.easeOutSine)
-	slot0:RecordTween("mapPivot", slot5.uniqueId)
+	slot0:RecordTween("mapPivot", slot6.uniqueId)
 	setActive(slot0.topChapter, true)
 	setActive(slot0.leftChapter, true)
 	setActive(slot0.rightChapter, true)
@@ -1888,8 +1897,8 @@ function slot0.switchToMap(slot0)
 
 	slot0:SwitchBG(slot0.contextData.map:getConfig("bg"))
 
-	if slot0.contextData.map:getConfig("bgm") and #slot7 > 0 then
-		playBGM(slot7)
+	if slot0.contextData.map:getConfig("bgm") and #slot8 > 0 then
+		playBGM(slot8)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
@@ -2466,7 +2475,7 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 	PoolMgr.GetInstance():GetPainting(slot1:getPainting(), true, function (slot0)
 		uv0 = slot0
 
-		Ship.SetExpression(uv0, uv1:getPainting())
+		ShipExpressionHelper.SetExpression(uv0, uv1:getPainting())
 		uv2()
 	end)
 	PoolMgr.GetInstance():GetSpineChar(slot1:getPrefab(), true, function (slot0)

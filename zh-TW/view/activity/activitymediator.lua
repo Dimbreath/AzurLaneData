@@ -34,6 +34,7 @@ slot0.OPEN_RED_PACKET_LAYER = "ActivityMediator:OPEN_RED_PACKET_LAYER"
 slot0.GO_MINI_GAME = "ActivityMediator.GO_MINI_GAME"
 slot0.GO_DECODE_MINI_GAME = "ActivityMediator:GO_DECODE_MINI_GAME"
 slot0.ON_MONTH_ACHIEVE = "on month achieve"
+slot0.ON_BOBING_RESULT = "on bobing result"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -337,7 +338,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 		end
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_BB_RESULT then
-		slot0.viewComponent:displayBBResult(slot3.numbers, slot3.callback)
+		slot0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT then
 		slot0.viewComponent.pageDic[slot3.activityID]:showLotteryAwardResult(slot3.awards, slot3.number, slot3.callback)
 	elseif slot2 == GAME.COLORING_ACHIEVE_DONE then

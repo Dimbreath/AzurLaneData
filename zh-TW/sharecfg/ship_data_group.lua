@@ -10179,6 +10179,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[346] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 320,
+		group_type = 40118,
+		code = 346,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"月度簽到",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[264] = {
 		type = 1,
 		trans_skin = 0,
@@ -12385,6 +12416,7 @@ pg.ship_data_group = {
 		398,
 		232,
 		233,
+		346,
 		264,
 		265,
 		266,

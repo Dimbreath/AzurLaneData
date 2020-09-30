@@ -887,6 +887,9 @@ pg.gametip = {
 	battle_preCombatMediator_timeout = {
 		tip = "作戰<color=#A9F548>時間用盡</color>，作戰失敗，點擊確定返回選關界面"
 	},
+	battle_preCombatMediator_activity_timeout = {
+		tip = "活动时间<color=#92fc63>已结束</color>，点击确定返回选关界面 "
+	},
 	battle_resourceSiteLayer_collecTimeDefault = {
 		tip = "採集時間: <color=#A9F548>--:--:--</color>"
 	},
@@ -5770,7 +5773,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 				info = "活動規則："
 			},
 			{
-				info = " <color=#A1E400FF>1.活動期間每天0:00:00增加一次可獲得[記憶卡片]的次數</color>"
+				info = " <color=#A1E400FF>1.活動期間每天0:00:00增加一次可獲得[月餅]的次數</color>"
 			},
 			{
 				info = " 2.翻開兩張相同的牌時即可消除這兩張牌"
@@ -5779,13 +5782,13 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 				info = " 3.當玩家開始翻動卡牌時，計時器才會開始計時"
 			},
 			{
-				info = " 4 .當所有牌消除完後，如果擁有可獲得[記憶卡片]的次\n數，可獲得一張[記憶卡片]，並消耗一次次數"
+				info = " 4 .當所有牌消除完後，如果擁有可獲得[記憶卡片]的次\n數，可獲得一張[月餅]，並消耗一次次數"
 			},
 			{
 				info = " 5.當所有牌消除完後，點擊任意區域可以開啟一輪新的遊\n戲"
 			},
 			{
-				info = " 6.獲得七張[記憶卡片]會自動獲得換裝[秋枕夢]"
+				info = " 6.獲得七張[月餅]會自動獲得換裝[月餅、不來一點嗎？]"
 			},
 			{
 				info = " 7.重複進行遊戲會記錄玩家的最佳成績並在活動頁面顯示"
@@ -10488,7 +10491,7 @@ TIPS：
 		tip = "$1年$2月$3日"
 	},
 	fleet_antisub_range = {
-		tip = "反潛聲吶範圍："
+		tip = "反潛聲納範圍："
 	},
 	fleet_antisub_range_tip = {
 		tip = {

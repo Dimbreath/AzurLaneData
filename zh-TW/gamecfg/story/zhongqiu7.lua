@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那麼，第一個探花——威爾士！喏，請在這裡寫下自己的願望",
+			say = "那麼，第一個探花——威爾斯！喏，請在這裡寫下自己的願望",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

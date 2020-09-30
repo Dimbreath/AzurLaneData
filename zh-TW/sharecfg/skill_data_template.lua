@@ -3882,7 +3882,7 @@ pg.skill_data_template = {
 	[3611] = {
 		desc_get = "",
 		name = "狼群戰術",
-		desc = "出擊時，編隊中每有一個鐵血陣營潛艇角色，自身雷擊、裝填屬性上升$1",
+		desc = "出擊時，編隊中每有一個鐵血陣營潛艇角色，自身雷擊、命中、裝填屬性上升$1",
 		type = 1,
 		max_level = 10,
 		id = 3611,
@@ -41741,7 +41741,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29591,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29593
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -41752,7 +41754,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29592,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29594
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},

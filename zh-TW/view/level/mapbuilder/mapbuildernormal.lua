@@ -212,7 +212,7 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 
 		function slot7()
 			if uv0 then
-				if math.max(uv1.expireTime - pg.TimeMgr.GetInstance():GetServerTime(), 0) > 0 then
+				if (uv1.expireTime and math.max(uv1.expireTime - pg.TimeMgr.GetInstance():GetServerTime(), 0) or 0) > 0 then
 					setText(uv0, slot0:DescCDTime(slot1))
 				elseif not uv1.active then
 					uv1:clearSubChapter()

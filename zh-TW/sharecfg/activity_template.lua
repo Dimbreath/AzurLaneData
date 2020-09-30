@@ -6223,7 +6223,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 45011,
-		is_show = 11,
+		is_show = 12,
 		config_client = "",
 		title_res_tag = "leijipt",
 		id = 45011,
@@ -6347,7 +6347,7 @@ pg.activity_template = {
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 12,
+		is_show = 13,
 		title_res_tag = "bsm",
 		id = 45014,
 		config_data = {
@@ -6800,6 +6800,66 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[45025] = {
+		mark = 20200930,
+		type = 20,
+		login_pop = 0,
+		config_id = 8,
+		is_show = 11,
+		config_client = "",
+		title_res_tag = "bobing",
+		id = 45025,
+		config_data = {
+			{
+				8881,
+				8882,
+				8883,
+				8884,
+				8885,
+				8886,
+				8887
+			},
+			{
+				{
+					8,
+					8888,
+					"bobing_mail_title",
+					"bobing_mail_content"
+				}
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BobingPage",
+			ui_name = "BobingPage"
+		}
+	},
 	[45026] = {
 		mark = 20180531,
 		page_info = "",
@@ -6884,6 +6944,66 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[45028] = {
+		mark = 20200930,
+		type = 33,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 11,
+		config_client = "",
+		title_res_tag = "bobing",
+		id = 45028,
+		config_data = {
+			{
+				{
+					59926,
+					7
+				}
+			},
+			93880,
+			{
+				93881,
+				93881,
+				93881,
+				93881,
+				93881,
+				93881,
+				93881
+			},
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CardPairZQPage",
+			ui_name = "cardpairzqpage"
 		}
 	},
 	all = {
@@ -7133,7 +7253,9 @@ pg.activity_template = {
 		45017,
 		45018,
 		45019,
+		45025,
 		45026,
-		45027
+		45027,
+		45028
 	}
 }
