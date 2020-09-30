@@ -3582,7 +3582,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 680,
-		is_show = 6,
+		is_show = 4,
 		title_res_tag = "Shinano_frame",
 		id = 680,
 		config_data = {},
@@ -3701,7 +3701,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 2,
-		is_show = 5,
+		is_show = 3,
 		title_res_tag = "Neptune_catchup",
 		id = 682,
 		config_data = {},
@@ -3850,7 +3850,7 @@ pg.activity_template = {
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 7,
+		is_show = 6,
 		config_client = "",
 		title_res_tag = "huiliu",
 		id = 687,
@@ -3893,7 +3893,7 @@ pg.activity_template = {
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 8,
+		is_show = 7,
 		title_res_tag = "rolling_ball",
 		id = 688,
 		config_data = {},
@@ -3986,7 +3986,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 6,
+		is_show = 5,
 		config_client = "",
 		title_res_tag = "jiujiu_expedition",
 		id = 690,
@@ -4239,7 +4239,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 10,
+		is_show = 9,
 		config_client = "",
 		title_res_tag = "Shinano_main",
 		id = 701,
@@ -4340,7 +4340,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 703,
-		is_show = 9,
+		is_show = 8,
 		title_res_tag = "Shinano_pt",
 		id = 703,
 		config_data = {},
@@ -4707,7 +4707,7 @@ pg.activity_template = {
 		type = 0,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 3,
+		is_show = 1,
 		config_data = "",
 		config_client = "",
 		title_res_tag = "ur_exchange_item",
@@ -4762,7 +4762,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 4,
+		is_show = 2,
 		config_client = "",
 		title_res_tag = "ur_exchange_task",
 		id = 713,
@@ -4817,7 +4817,20 @@ pg.activity_template = {
 			112,
 			113,
 			114,
-			115
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128
 		},
 		time = {
 			timer,
@@ -4887,6 +4900,66 @@ pg.activity_template = {
 		page_info = {
 			class_name = "ThirdAnniversaryJPPage",
 			ui_name = "ThirdAnniversaryJPPage"
+		}
+	},
+	[724] = {
+		mark = 20200930,
+		type = 33,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 11,
+		config_client = "",
+		title_res_tag = "",
+		id = 724,
+		config_data = {
+			{
+				{
+					59926,
+					7
+				}
+			},
+			93880,
+			{
+				93881,
+				93881,
+				93881,
+				93881,
+				93881,
+				93881,
+				93881
+			},
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CardPairZQPage",
+			ui_name = "cardpairzqpage"
 		}
 	},
 	[750] = {
@@ -6217,6 +6290,7 @@ pg.activity_template = {
 		713,
 		714,
 		720,
+		724,
 		750,
 		10006,
 		10056,

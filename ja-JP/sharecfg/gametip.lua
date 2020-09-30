@@ -1135,6 +1135,9 @@ pg.gametip = {
 	battle_preCombatMediator_timeout = {
 		tip = "<color=#92fc63>作戦制限時間</color>を過ぎました。作戦失敗…"
 	},
+	battle_preCombatMediator_activity_timeout = {
+		tip = "イベントが終了しました。"
+	},
 	battle_resourceSiteLayer_collecTimeDefault = {
 		tip = "委託時間: <color=#92fc63>--:--:--</color>"
 	},
@@ -4134,7 +4137,7 @@ No.3 リトル・イラストリアス
 				}
 			},
 			{
-				info = "    対潜：対潜兵装のダメージを上げる",
+				info = "    対潜：対潜兵装のダメージを上げる。対潜探知範囲\nに影響します。",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -6231,7 +6234,7 @@ No.3 リトル・イラストリアス
 		}
 	},
 	card_pairs_tips = {
-		tip = "本日はこれ以上「記憶の札」を入手できません。新しいゲームを始めますか？"
+		tip = "本日はこれ以上「月餅」を入手できません。新しいゲームを始めますか？"
 	},
 	upgrade_to_next_maxlevel_failed = {
 		tip = "レベルが最大です。\n現在はこれ以上認識覚醒できません。"

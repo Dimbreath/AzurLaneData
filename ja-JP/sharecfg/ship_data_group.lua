@@ -9575,7 +9575,7 @@ pg.ship_data_group = {
 	},
 	[175] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 301259,
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -9592,8 +9592,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1081
+		},
 		description = {
 			{
 				"ログインスタンプ",

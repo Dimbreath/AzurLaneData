@@ -36930,6 +36930,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2051,
+			1081,
 			22041
 		},
 		hide_buff_list = {}
@@ -36973,6 +36974,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2051,
+			1081,
 			22041
 		},
 		hide_buff_list = {}
@@ -37016,6 +37018,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2051,
+			1081,
 			22041
 		},
 		hide_buff_list = {}
@@ -37059,6 +37062,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2051,
+			1081,
 			22042
 		},
 		hide_buff_list = {}

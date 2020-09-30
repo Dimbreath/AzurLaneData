@@ -4107,7 +4107,7 @@ pg.skill_data_template = {
 	[3611] = {
 		desc_get = "",
 		name = "ウルフパック",
-		desc = "出撃時、艦隊に鉄血潜水艦が一隻につき、自身の雷装・命中が$1アップ",
+		desc = "出撃時、艦隊に鉄血潜水艦が一隻につき、自身の雷装・命中・装填が$1アップ",
 		type = 1,
 		max_level = 10,
 		id = 3611,
@@ -7182,6 +7182,28 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 6660,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6670] = {
+		desc_get = "",
+		name = "小口径主砲砲戦資材(積載)",
+		desc = "運送艦に装備されている場合、所属艦隊の前衛艦隊艦船の火力を8%アップさせる（超巡を除く）",
+		type = 0,
+		max_level = 0,
+		id = 6670,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6680] = {
+		desc_get = "",
+		name = "雷撃戦資材(積載)",
+		desc = "運送艦に装備されている場合、所属艦隊艦船の雷装を8%アップさせる",
+		type = 0,
+		max_level = 0,
+		id = 6680,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -45448,7 +45470,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29591,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29593
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -45459,7 +45483,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29592,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29594
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -49531,6 +49557,8 @@ pg.skill_data_template = {
 		6620,
 		6650,
 		6660,
+		6670,
+		6680,
 		7000,
 		9030,
 		9031,

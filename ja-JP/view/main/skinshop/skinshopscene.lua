@@ -611,7 +611,7 @@ function slot0.setPaintingPrefab(slot0, slot1, slot2, slot3, slot4)
 			setActive(slot1, false)
 		end
 
-		Ship.SetExpression(uv0:GetChild(0), uv1)
+		ShipExpressionHelper.SetExpression(uv0:GetChild(0), uv1)
 	end)
 end
 

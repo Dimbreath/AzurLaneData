@@ -264,7 +264,8 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("vote_success"))
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BB then
 		slot3.data1 = slot3.data1 + 1
-		slot3.data2 = slot3.data2 + 1
+		slot3.data2 = slot3.data2 - 1
+		slot3.data1_list = slot2.number
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_LOTTERY then
 		if slot1.cmd == 1 then
 			slot9 = ActivityItemPool.New({
@@ -454,11 +455,12 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 
 			uv3:sendNotification(ActivityProxy.ACTIVITY_SHOW_BB_RESULT, {
 				numbers = uv4.number,
-				callback = uv2
+				callback = uv2,
+				awards = uv5
 			})
 			coroutine.yield()
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD then
-			if uv5.cmd == 1 then
+			if uv6.cmd == 1 then
 				if uv1:getConfig("config_client").story and slot1[uv1.data1] and slot1[uv1.data1][1] and not pg.StoryMgr.GetInstance():IsPlayed(slot1[uv1.data1][1]) then
 					pg.StoryMgr.GetInstance():Play(slot1[uv1.data1][1], uv2)
 					coroutine.yield()
@@ -466,12 +468,12 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 
 				uv3:sendNotification(ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT, {
 					activityID = uv1.id,
-					awards = uv6,
+					awards = uv5,
 					number = uv4.number[1],
 					callback = uv2
 				})
 
-				uv6 = {}
+				uv5 = {}
 
 				coroutine.yield()
 			end
@@ -481,19 +483,19 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 				coroutine.yield()
 			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_DODGEM or uv0 == ActivityConst.ACTIVITY_TYPE_SUBMARINE_RUN then
-			if uv5.cmd == 2 and uv4.number[3] > 0 then
+			if uv6.cmd == 2 and uv4.number[3] > 0 then
 				slot0 = uv1:getConfig("config_client")[1]
 
-				table.insert(uv6, {
+				table.insert(uv5, {
 					type = slot0[1],
 					id = slot0[2],
 					count = slot0[3]
 				})
 			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SHOP then
-			if #uv6 == 1 and uv6[1].type == DROP_TYPE_ITEM then
-				if slot0.type == DROP_TYPE_ITEM and Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[uv6[1].id].type then
-					uv6 = {}
+			if #uv5 == 1 and uv5[1].type == DROP_TYPE_ITEM then
+				if slot0.type == DROP_TYPE_ITEM and Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[uv5[1].id].type then
+					uv5 = {}
 
 					uv3:sendNotification(GAME.USE_ITEM, {
 						skip_check = true,
@@ -507,21 +509,21 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("building_complete_tip"))
 		end
 
-		if #uv6 > 0 then
+		if #uv5 > 0 then
 			uv3:sendNotification(uv1:getNotificationMsg(), {
-				activityId = uv5.activity_id,
-				awards = uv6,
+				activityId = uv6.activity_id,
+				awards = uv5,
 				callback = uv2
 			})
 			coroutine.yield()
 		end
 
-		if uv0 == 17 and uv5.cmd and uv5.cmd == 2 then
+		if uv0 == 17 and uv6.cmd and uv6.cmd == 2 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("mingshi_get_tip"))
 		end
 
 		getProxy(ActivityProxy):updateActivity(uv1)
-		uv3:sendNotification(ActivityProxy.ACTIVITY_OPERATION_DONE, uv5.activity_id)
+		uv3:sendNotification(ActivityProxy.ACTIVITY_OPERATION_DONE, uv6.activity_id)
 	end)
 
 	function ()
