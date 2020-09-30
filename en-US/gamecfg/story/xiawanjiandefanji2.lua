@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 0,
 			dir = 1,
-			say = "ツェンガ―ちゃん（Z9)とベルントちゃん（Z11)は付いてきてて、ディーターちゃん（Z17)とエーリッヒちゃん（Z13)はあっち…キュンネちゃん（Z19)がいないよぉ",
+			say = "Um... Z9 and Z11 have been following behind us. Z17 is here, and Z12 is over there... but Z19 is still missing.",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "まだ来ていないのですか。…撤退の連絡は30分前に出したというのに",
+			say = "I gave the order to retreat a half an hour ago. Where is Z19...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "たしかロイヤルの支援艦隊に出くわした時にはまだいたのに…もしかして……",
+			say = "She was still with us when we fought Warspite. Do you think her comms got knocked out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 401020,
-			say = "通信設備が損傷、ええ、わたしたちの撤退連絡を受信できなかった可能性がありますね",
+			say = "If that's the case, then she has no idea we're retreating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 401020,
-			say = "こっちにも余力がほとんどないですし――ええ、本当に厄介な状況になりましたね",
+			say = "And we're almost out of ammunition. What a bother...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

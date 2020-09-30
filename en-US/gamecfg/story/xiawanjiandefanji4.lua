@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "逃げられた……",
+			say = "They got away in the end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "もう、いきなり突っ走らないでよ！怪我とか無い？",
+			say = "Hey now, don't just go running at the enemy. Are you alright, Eskimo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201320,
-			say = "大丈夫大丈夫、向こうは逃げるだけで精一杯だったからさ～",
+			say = "I'm fine~ Looks like they're low on ammo. They're just focused on escaping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "フォックスハウンドも一緒に追ってみる？",
+			say = "What's next? Did you come to chase them with me, Foxhound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "何言ってるんだよ、ぼくの任務はナルヴィクの確保だよ？",
+			say = "Isn't our mission to occupy Narvik?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201320,
-			say = "そ、そういえばそうだったよなー",
+			say = "Ummmm... well... yeah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ぼくは護衛に戻らないといけないけど――ウォースパイト様がエスキモーに追撃許可を出したよ",
+			say = "Pfft, well, I knew it would turn out like this. I have to go back to Warspite to screen, but she already approved your chase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "え、それ本当！？",
+			say = "She did?! Really?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「適度に追撃して、危なくなったら救援信号を出しなさい」って",
+			say = "She told me to tell you: \"Don't overdo it. Signal if in danger.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "うぉっしゃー！エスキモー、了解だああ！",
+			say = "Alright! Let her know Eskimo said \"aye aye!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

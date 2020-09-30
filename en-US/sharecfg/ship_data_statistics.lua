@@ -64623,6 +64623,474 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[201321] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Eskimo ",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 201321,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Eskimo",
+		oxy_cost = 0,
+		skin_id = 201320,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			267,
+			16,
+			66,
+			29,
+			0,
+			78,
+			0,
+			69,
+			78,
+			43.2,
+			72,
+			47
+		},
+		attrs_growth = {
+			6520,
+			162,
+			652,
+			572,
+			0,
+			386,
+			0,
+			1014,
+			1158,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.2,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201322] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Eskimo ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 201322,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Eskimo",
+		oxy_cost = 0,
+		skin_id = 201320,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			332,
+			20,
+			82,
+			36,
+			0,
+			78,
+			0,
+			69,
+			78,
+			43.2,
+			72,
+			59
+		},
+		attrs_growth = {
+			6520,
+			162,
+			652,
+			572,
+			0,
+			386,
+			0,
+			1014,
+			1158,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.2,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201323] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Eskimo ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 201323,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Eskimo",
+		oxy_cost = 0,
+		skin_id = 201320,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			463,
+			28,
+			115,
+			50,
+			0,
+			78,
+			0,
+			69,
+			78,
+			43.2,
+			72,
+			82
+		},
+		attrs_growth = {
+			6520,
+			162,
+			652,
+			572,
+			0,
+			386,
+			0,
+			1014,
+			1158,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.3,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201324] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Eskimo ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 201324,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Eskimo",
+		oxy_cost = 0,
+		skin_id = 201320,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			658,
+			40,
+			164,
+			72,
+			0,
+			78,
+			0,
+			69,
+			78,
+			43.2,
+			72,
+			118
+		},
+		attrs_growth = {
+			6520,
+			162,
+			652,
+			572,
+			0,
+			386,
+			0,
+			1014,
+			1158,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			6510,
+			378,
+			1205,
+			388,
+			0,
+			919,
+			0,
+			-592,
+			-828,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[201331] = {
 		oxy_max = 0,
 		type = 1,
@@ -144881,7 +145349,7 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.2,
 			1.25,
-			1.3
+			1.35
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -145000,7 +145468,7 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.25,
 			1.3,
-			1.35
+			1.4
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -237918,6 +238386,10 @@ pg.ship_data_statistics = {
 		201292,
 		201293,
 		201294,
+		201321,
+		201322,
+		201323,
+		201324,
 		201331,
 		201332,
 		201333,

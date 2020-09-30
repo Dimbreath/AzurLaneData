@@ -170,6 +170,8 @@ function slot0.execute(slot0, slot1)
 
 		slot23:updateActivity(slot27)
 	end
+
+	slot0:sendNotification(GAME.ZERO_HOUR_OP_DONE)
 end
 
 return slot0

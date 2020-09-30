@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "エスキモー、鉄血の駆逐艦隊主力と遭遇し交戦中よ！支援を求めてるとのこと！",
+			say = "We've made contact! Eskimo has encountered the main force of Iron Blood destroyers. She has engaged them and requests immediate support!",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "艦隊主力……？もしかして突っ走ったエスキモーを狙って……",
+			say = "Their main force? Engaging Eskimo on her own...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "位置は？",
+			say = "What is her position?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ロンバケンの峡湾にいるよ！",
+			say = "In Rombaksfjord.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "進路変更、すぐ援護にいくわ！フォックスハウンド、ついてきて！",
+			say = "Adjust course, full speed ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

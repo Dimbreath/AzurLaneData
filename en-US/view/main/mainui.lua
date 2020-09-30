@@ -1047,7 +1047,7 @@ function slot0.ResetActivityBtns(slot0)
 			slot10 = cloneTplTo(slot0._ActivityBtnTpl, slot2, slot9.ButtonName)
 
 			slot10:SetSiblingIndex(slot7 - 1)
-			setImageSprite(slot10:Find("Image"), LoadSprite("ui/mainui_atlas", slot9.Image), true)
+			slot0:RefreshBtn(slot10, slot9)
 
 			if slot9.Tip then
 				setImageSprite(slot10:Find("Tip"), LoadSprite("ui/mainui_atlas", slot9.Tip), true)
@@ -1058,6 +1058,8 @@ function slot0.ResetActivityBtns(slot0)
 			if slot9.CtorButton then
 				slot9.CtorButton(slot0, slot10)
 			end
+		elseif slot9.forceRefreshImage then
+			slot0:RefreshBtn(slot10, slot9)
 		end
 
 		if slot1.LayoutProperty.CellScale then
@@ -1072,16 +1074,30 @@ function slot0.ResetActivityBtns(slot0)
 	end
 end
 
+function slot0.RefreshBtn(slot0, slot1, slot2)
+	if type(slot2.Image) == "function" then
+		if slot2.Image() then
+			setImageSprite(slot1:Find("Image"), slot4, true)
+		end
+	else
+		setImageSprite(slot3, LoadSprite("ui/mainui_atlas", slot2.Image), true)
+	end
+end
+
 function slot0.UpdateActivityBtn(slot0, slot1)
 	for slot6, slot7 in ipairs(import("GameCfg.activity.MainUIEntranceData").CurrentEntrancesList) do
 		if slot2[slot7] and slot8.ButtonName == slot1 then
-			if not IsNil(slot0._ActivityBtns:Find(slot8.ButtonName)) and slot8.UpdateButton then
-				slot8.UpdateButton(slot0, slot9)
+			if not IsNil(slot0._ActivityBtns:Find(slot8.ButtonName)) then
+				if slot8.UpdateButton then
+					slot8.UpdateButton(slot0, slot9)
+				else
+					setActive(slot9, false)
+				end
 
-				break
+				if slot8.forceRefreshImage then
+					slot0:RefreshBtn(slot9, slot8)
+				end
 			end
-
-			setActive(slot9, false)
 
 			break
 		end
@@ -1383,7 +1399,7 @@ function slot0.displayShipWord(slot0, slot1)
 	slot11 = slot0.CHAT_SHOW_TIME
 
 	if findTF(slot0._paintingTF, "fitter").childCount > 0 then
-		Ship.SetExpression(findTF(slot0._paintingTF, "fitter"):GetChild(0), slot0.flagShip:getPainting(), slot1, slot2)
+		ShipExpressionHelper.SetExpression(findTF(slot0._paintingTF, "fitter"):GetChild(0), slot0.flagShip:getPainting(), slot1, slot2, slot0.flagShip.skinId)
 	end
 
 	function slot12()

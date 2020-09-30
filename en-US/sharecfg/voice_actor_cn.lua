@@ -987,5 +987,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Amano Satomi",
 		code = 247
+	},
+	{
+		actor_name = "Haruka Chisuga ",
+		code = 248
 	}
 }

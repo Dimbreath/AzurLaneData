@@ -2959,6 +2959,52 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[201320] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		id = 201320,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Patience, patience... Ah, Commander, it's about time! I've missed you!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, wanna go adventuring in the Northern Parliament's tundras when we get some time off? Don't worry about it, you'll be fine with me at your side!|Commander, is there anything I can help you with? All right, I'll just wait in this corner here and not bother you...|Target acquired: Commander's lap! Commencing tactical dive bombing!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, I've actually been waiting for you to call me! So, what do you need done?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"....... Why am I not saying anything? Oh, did you want me to? I was trying to keep quiet so I wouldn't bother you, Commander. Buuut, if you insist... I'll flirt with you all I want~! Ehehe, remember, you were the one who asked~!"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -3008,6 +3054,7 @@ pg.ship_skin_words_extra = {
 		319010,
 		301840,
 		204040,
-		408090
+		408090,
+		201320
 	}
 }

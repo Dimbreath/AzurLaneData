@@ -15798,7 +15798,20 @@ pg.activity_template = {
 			112,
 			113,
 			114,
-			115
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128
 		},
 		time = {
 			timer,
@@ -15992,6 +16005,249 @@ pg.activity_template = {
 		page_info = {
 			class_name = "ThirdAnniversaryJPPage",
 			ui_name = "ThirdAnniversaryJPPage"
+		}
+	},
+	[30732] = {
+		mark = 20200930,
+		type = 33,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 65,
+		config_client = "",
+		title_res_tag = "zhongqiuhuodong",
+		id = 30732,
+		config_data = {
+			{
+				{
+					59926,
+					7
+				}
+			},
+			93880,
+			{
+				93881,
+				93881,
+				93881,
+				93881,
+				93881,
+				93881,
+				93881
+			},
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CardPairZQPage",
+			ui_name = "cardpairzqpage"
+		}
+	},
+	[30733] = {
+		mark = 20200930,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30733,
+		config_data = {
+			1370001,
+			1370002,
+			1370003
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30734] = {
+		mark = 20200930,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30734,
+		config_data = {
+			15730,
+			15731,
+			15732,
+			15733,
+			15734,
+			15735
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30735] = {
+		mark = 20200930,
+		type = 54,
+		login_pop = 0,
+		config_id = 30735,
+		is_show = 66,
+		title_res_tag = "eski_pt",
+		id = 30735,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EskiPtPage",
+			ui_name = "EskiPtPage"
+		},
+		config_client = {
+			linkActID = 30733
+		}
+	},
+	[30736] = {
+		mark = 20200930,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30736",
+		title_res_tag = "",
+		id = 30736,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Rate Up character: Eskimo",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：26%",
+				"Common：55%",
+				"<color=#d797ff>Eskimo</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
 		}
 	},
 	all = {
@@ -16597,6 +16853,11 @@ pg.activity_template = {
 		30728,
 		30729,
 		30730,
-		30731
+		30731,
+		30732,
+		30733,
+		30734,
+		30735,
+		30736
 	}
 }

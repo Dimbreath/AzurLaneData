@@ -131,6 +131,8 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot1:getBody())
 	elseif slot2 == SetShipSkinCommand.SKIN_UPDATED then
+		slot0.shipVO = slot3.ship
+
 		slot0.viewComponent:updateCardByShip(slot3.ship)
 	elseif slot2 == GAME.CHANGE_PLAYER_ICON_DONE then
 		slot0.shipVO = slot3.ship

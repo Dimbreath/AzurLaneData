@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "――KABOOM!",
+			say = "BOOM!",
 			flashN = {
 				color = {
 					1,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ロイヤルの増援……！",
+			say = "It's the Royals! Their reinforcements!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "違うよ！あれは…うちのティーレちゃん！",
+			say = "No, I think it's our reinforcements! It's Z2!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "そんな！？",
+			say = "H- huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "仲間を決して見捨てない。ええ、そういう格好いいセリフも言ってみたかったのですが",
+			say = "\"Leave no man behind.\" I've always wanted to say that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "これは残念ながら、ええ、ほかに通れる道がなかったから合流した――それだけです",
+			say = "But the truth is: we have no way out of this fjord.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "そ、そっちですか……",
+			say = "So this is how it ends...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "向こうの数のほうが上！こりゃ一人では流石にきついね",
+			say = "One, two, three... how's Eskimo gonna get out of this one...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "（ウォースパイト様に連絡っと）",
+			say = "I have to get word to Warspite!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "味方への連絡は済みましたか。ロイヤルの駆逐艦――えっと、名前は…",
+			say = "Are you done? I am Z2. Identify yourself, Royal Navy destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "トライバル級のエスキモーとはわたしのことであーる！",
+			say = "Royal Navy Tribal-class Destroyer Eskimo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "威勢がいいですね。逃げないのですか？",
+			say = "What a vigorous response. Are you not afraid?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "たかが弾薬尽きかけの駆逐艦数隻、わたし一人でも十分さ！",
+			say = "Of a f- few Iron Blood destroyers? Not even a little bit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "（なんて無理に決まってるよね！ここはウォースパイト様が来るまで時間を稼いで――）",
+			say = "(I have to stall them until Warspite gets here...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "時間を稼がれる前に、ええ、押し通るしかありませんね",
+			say = "Well then, you're going to stay a while with me, until your reinforcements show up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

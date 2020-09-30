@@ -2816,6 +2816,10 @@ pg.skill_data_display = {
 		id = 13381,
 		name = "The Wonder of Kula Gulf"
 	},
+	[13390] = {
+		id = 13390,
+		name = "Lemme At 'Em! "
+	},
 	[13400] = {
 		id = 13400,
 		name = "Radar Scan Plus"
@@ -5537,6 +5541,7 @@ pg.skill_data_display = {
 		13371,
 		13380,
 		13381,
+		13390,
 		13400,
 		13401,
 		13410,

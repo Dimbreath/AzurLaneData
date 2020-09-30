@@ -613,7 +613,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 		slot4 = slot0.chatText:GetComponent(typeof(Text))
 
 		if findTF(slot0.nowPainting, "fitter").childCount > 0 then
-			Ship.SetExpression(findTF(slot0.nowPainting, "fitter"):GetChild(0), slot0.paintingCode, slot1, slot3)
+			ShipExpressionHelper.SetExpression(findTF(slot0.nowPainting, "fitter"):GetChild(0), slot0.paintingCode, slot1, slot3)
 		end
 
 		slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0.shipVO.skinId, slot1, nil, , slot3)
@@ -688,7 +688,7 @@ end
 
 function slot0.StopPreVoice(slot0)
 	if slot0.preVoiceContent ~= nil then
-		pg.CriMgr:StopSoundEffect_V3(slot0.preVoiceContent)
+		pg.CriMgr:UnloadSoundEffect_V3(slot0.preVoiceContent)
 	end
 end
 
@@ -942,7 +942,7 @@ function slot0.loadPainting(slot0, slot1, slot2)
 			uv0.nowPainting = uv1
 
 			setPaintingPrefabAsync(uv1, uv0.paintingCode, uv0.paintingFrameName or "chuanwu", function ()
-				Ship.SetExpression(findTF(uv0, "fitter"):GetChild(0), uv1.paintingCode)
+				ShipExpressionHelper.SetExpression(findTF(uv0, "fitter"):GetChild(0), uv1.paintingCode)
 				uv2()
 			end)
 		end)

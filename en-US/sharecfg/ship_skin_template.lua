@@ -30991,6 +30991,226 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201320] = {
+		name = "Eskimo ",
+		ship_group = 20132,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Eskimo, Tribal-class Destroyer, is here! Oi, this fleet's not half bad! Nice to meet you, Commander! ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aisijimo",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 201320,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aisijimo",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 248,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.151,
+					1.169,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.194,
+					1.173,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.019,
+					0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.219,
+					1.224,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.32,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201321] = {
+		name = "Parkaless Prankster",
+		ship_group = 20132,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Oh woe, nobody wants to play with me because they're all too busy~ ...Oh, hello little Manjuu... Heheh, maybe I'll play a prank on you instead!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aisijimo_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "106",
+		skin_type = 0,
+		id = 201321,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aisijimo_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70382,
+		voice_actor = 248,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.27,
+					1.05,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.278,
+					1.032,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.019,
+					0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.219,
+					1.098,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.32,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201330] = {
 		name = "Icarus ",
 		ship_group = 20133,
@@ -54772,6 +54992,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301259] = {
+		name = "Ariake (Retrofit) ",
+		ship_group = 30125,
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "Ah... So this is what it feels like to be retrofitted. I'll work harder for your sake, and for everyone in the 27th Destroyer Division~ ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "youming_g",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 2,
+		id = 301259,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "youming_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 155,
+		air_bomb_skin = "",
+		illustrator = 27,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.146,
+					1.107,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.095,
+					1.108,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.012,
+					0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.151,
+					1.129,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301260] = {
 		name = "Yuugure",
 		ship_group = 30126,
@@ -73420,6 +73749,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[305118] = {
+		name = "Untarnished Splendor ",
+		ship_group = 30511,
+		group_index = 8,
+		illustrator2 = -1,
+		desc = "I, battleship Mikasa, from now until eternity, pledge to you my undying love and devotion. May we help each other, encourage each other, and walk side-by-side on the same path. I hope to meet your expectations, as unworthy as I may be. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "sanli_h",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 1,
+		id = 305118,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sanli_h",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 47,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.842,
+					1.358,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.809,
+					1.332,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.025,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.728,
+					1.397,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.417,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305120] = {
 		name = "Kii",
 		ship_group = 30512,
@@ -80377,6 +80815,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[312018] = {
+		name = "White Cat's Repayment ",
+		ship_group = 31201,
+		group_index = 8,
+		illustrator2 = -1,
+		desc = "Commander, because of your continued patronage of my shop, I have no choice but to return the favor with my body, nya~! ...Just kidding, nya. Having that said, I really do love you, Commander. Even more than I love gems, nya~ ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "mingshi_h",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 1,
+		id = 312018,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mingshi_h",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.441,
+					1.165,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.47,
+					1.208,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.498,
+					1.221,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[317010] = {
 		name = "I-13",
 		ship_group = 31701,
@@ -83249,7 +83796,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 247,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -83358,7 +83905,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70405,
-		voice_actor = -1,
+		voice_actor = 247,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -89892,7 +90439,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 246,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -89987,7 +90534,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70404,
-		voice_actor = -1,
+		voice_actor = 246,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -126001,6 +126548,10 @@ pg.ship_skin_template = {
 		[20129] = {
 			201290
 		},
+		[20132] = {
+			201320,
+			201321
+		},
 		[20133] = {
 			201330,
 			201331,
@@ -126371,7 +126922,8 @@ pg.ship_skin_template = {
 		},
 		[30125] = {
 			301250,
-			301251
+			301251,
+			301259
 		},
 		[30126] = {
 			301260,
@@ -126684,7 +127236,8 @@ pg.ship_skin_template = {
 		},
 		[30511] = {
 			305110,
-			305111
+			305111,
+			305118
 		},
 		[30512] = {
 			305120,
@@ -126806,7 +127359,8 @@ pg.ship_skin_template = {
 			312011,
 			312012,
 			312013,
-			312014
+			312014,
+			312018
 		},
 		[31701] = {
 			317010
@@ -128034,6 +128588,8 @@ pg.ship_skin_template = {
 		201261,
 		201270,
 		201290,
+		201320,
+		201321,
 		201330,
 		201331,
 		201332,
@@ -128246,6 +128802,7 @@ pg.ship_skin_template = {
 		301249,
 		301250,
 		301251,
+		301259,
 		301260,
 		301261,
 		301262,
@@ -128415,6 +128972,7 @@ pg.ship_skin_template = {
 		305081,
 		305110,
 		305111,
+		305118,
 		305120,
 		305121,
 		305140,
@@ -128483,6 +129041,7 @@ pg.ship_skin_template = {
 		312012,
 		312013,
 		312014,
+		312018,
 		317010,
 		319010,
 		319011,

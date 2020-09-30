@@ -112,7 +112,6 @@ function slot0.InitEvent(slot0)
 			return
 		end
 
-		uv0:emit(ShipViewConst.HIDE_SHIP_WORD)
 		uv0:emit(ShipMainMediator.PROPOSE, uv0:GetShipVO().id, function ()
 		end)
 	end)

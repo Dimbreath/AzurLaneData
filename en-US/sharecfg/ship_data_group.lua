@@ -5988,6 +5988,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[460] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 137,
+		group_type = 20132,
+		code = 460,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Counterattack Within the Fjord",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[372] = {
 		type = 2,
 		trans_skin = 202219,
@@ -9477,8 +9508,9 @@ pg.ship_data_group = {
 	},
 	[175] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 301259,
 		trans_type = 0,
+		trans_radar_chart = "{'D','A','E','A','C','D'}",
 		handbook_type = 0,
 		redirect_id = 101,
 		nationality = 3,
@@ -9494,8 +9526,9 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_skill = {
+			1081
+		},
 		description = {
 			{
 				"Monthly Sign-in",
@@ -16992,6 +17025,7 @@ pg.ship_data_group = {
 		307,
 		325,
 		326,
+		460,
 		372,
 		373,
 		104,

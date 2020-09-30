@@ -87468,6 +87468,234 @@ pg.task_data_template = {
 			"LEVEL"
 		}
 	},
+	[15730] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93340,
+		type = 6,
+		name = "『纳尔维克下篇』通关SP1",
+		count_inherit = 0,
+		desc = "Clear SP1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15731",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1370001,
+		id = 15730,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1370001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15731] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93341,
+		type = 6,
+		name = "『纳尔维克下篇』通关SP2",
+		count_inherit = 0,
+		desc = "Clear SP2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15732",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1370002,
+		id = 15731,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1370002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15732] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93342,
+		type = 6,
+		name = "『纳尔维克下篇』通关SP3",
+		count_inherit = 0,
+		desc = "Clear SP3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1370003,
+		id = 15732,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1370003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[15733] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93343,
+		type = 6,
+		name = "『纳尔维克下篇』SP1的三星",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15734",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1370001,
+		id = 15733,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1370001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15734] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93344,
+		type = 6,
+		name = "『纳尔维克下篇』SP2的三星",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15735",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1370002,
+		id = 15734,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1370002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15735] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93345,
+		type = 6,
+		name = "『纳尔维克下篇』SP3的三星",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1370003,
+		id = 15735,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1370003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
 	[15736] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -109906,6 +110134,12 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		15720,
 		15721,
 		15722,
+		15730,
+		15731,
+		15732,
+		15733,
+		15734,
+		15735,
 		15736,
 		15737,
 		15738,

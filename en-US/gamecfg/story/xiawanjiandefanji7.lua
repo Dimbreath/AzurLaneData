@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "鉄血駆逐艦、追いついた！…って数が増えてる！",
+			say = "Now I've got y- huh? There's so many of them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "*beep beep*！",
+			say = "BOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "こ、攻撃してきた！",
+			say = "Woah! Not even a warning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "ええままよ！エスキモー、アタァァック！",
+			say = "F-fine! Lemme at 'em!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

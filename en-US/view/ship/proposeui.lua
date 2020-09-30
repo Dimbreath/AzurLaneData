@@ -72,6 +72,8 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	slot0:emit(ProposeMediator.HIDE_SHIP_MAIN_WORD)
+
 	if slot0.contextData.review then
 		-- Nothing
 	end
@@ -135,6 +137,7 @@ function slot0.didEnter(slot0)
 			setParent(tf(slot0), uv0:findTF("window"))
 
 			uv0.intimacyTF = uv0:findTF("intimacy/icon", uv0.window)
+			uv0.intimacyHeart = uv0:findTF("intimacy/heart", uv0.window)
 			uv0.intimacyValueTF = uv0:findTF("intimacy/value", uv0.window)
 			uv0.button = uv0:findTF("button", uv0.window)
 			uv0.intimacyDesc = uv0:findTF("desc", uv0.window)
@@ -169,8 +172,18 @@ function slot0.didEnter(slot0)
 
 			slot1, slot2, slot3 = uv0.shipVO:getIntimacyDetail()
 
-			setImageSprite(uv0.intimacyTF, GetSpriteFromAtlas("energy", slot1), true)
-			setActive(uv0.intimacyTF, true)
+			setImageSprite(uv0.intimacyTF, GetSpriteFromAtlas("energy", slot1), false)
+
+			if uv0.intimacyHeart then
+				if slot2 <= slot3 and not uv0.shipVO.propose then
+					setActive(uv0.intimacyHeart, true)
+					setActive(uv0.intimacyTF, false)
+				else
+					setActive(uv0.intimacyHeart, false)
+					setActive(uv0.intimacyTF, true)
+				end
+			end
+
 			setText(uv0.intimacyValueTF, i18n("propose_intimacy_tip", slot3))
 
 			if slot3 >= 100 then
@@ -394,6 +407,7 @@ function slot0.stampWindow(slot0)
 	slot0:loadChar()
 	setActive(slot0.window, true)
 	setActive(slot0.button, false)
+	setActive(slot0:findTF("live2d", slot0.targetActorTF), false)
 
 	slot1 = nil
 
@@ -738,7 +752,7 @@ function slot0.showStoryUI(slot0, slot1)
 
 		table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.storyCG, 1, 1):setFrom(0):setDelay(1):setOnComplete(System.Action(function ()
 			if findTF(uv0.targetActorTF, "fitter").childCount > 0 then
-				Ship.SetExpression(findTF(uv0.targetActorTF, "fitter"):GetChild(0), uv0.paintingName, "propose")
+				ShipExpressionHelper.SetExpression(findTF(uv0.targetActorTF, "fitter"):GetChild(0), uv0.paintingName, "propose")
 			end
 
 			setTextEN(uv0.storyContent, uv1)
@@ -874,7 +888,7 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 
 			uv0.actorPainting = slot0
 
-			Ship.SetExpression(uv0.actorPainting, uv0.paintingName)
+			ShipExpressionHelper.SetExpression(uv0.actorPainting, uv0.paintingName)
 			uv1()
 
 			if uv2 then

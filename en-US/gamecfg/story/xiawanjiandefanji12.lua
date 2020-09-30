@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "くっ…さすがに戦力差が開きすぎですね",
+			say = "Of course a destroyer can't challenge a battleship.",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ティーレちゃん、こっちの弾薬が尽きたよ…",
+			say = "Z2, I'm totally out of ammo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "そこまでよ鉄血の駆逐艦たち。あなた達はよく戦った。戦闘態勢を解いて――",
+			say = "It's over, Iron Blood destroyers. You've fought bravely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "Must we repeat that tragedy once again...?ABOOM!",
+			say = "BOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "砲撃？！",
+			say = "Huh? Where did that shot come from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "残りの鉄血駆逐艦が後ろから攻撃してきたよ！",
+			say = "Iron Blood destroyers Z12 and Z17 engaging from the rear.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……うむ。そうか…",
+			say = "Hm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あ！Z2とZ18が峡湾の奥へと逃げて行ったよ！",
+			say = "Z2 and Z18 are advancing deeper into the fjord. Should we pursue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あちらからは脱出できないはずだわね",
+			say = "This fjord is a dead end, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "はい",
+			say = "Yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "では、まずはZ12とZ17に会いに行くわよ。あの子たちを逃がしはしないわ",
+			say = "Then we will deal with Z12 and Z17 first. Do not let them escape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（なるほど、Z2とZ18、「場所」も合わせてくれたのかしら）",
+			say = "As for Z2 and Z18, we can give them some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "フォックスハウンド、艦隊反転よ。鉄血の勇敢な子たちには礼を尽くして接するべきだわ",
+			say = "Call it a tribute to their bravery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解！艦隊反転、鉄血駆逐艦を追おう！",
+			say = "Roger. Adjusting course to pursue Iron Blood destroyers Z12 and Z17!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

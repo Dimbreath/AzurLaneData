@@ -11,7 +11,7 @@ return {
 			bgm = "level02",
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "Z9にZ11…無力化していない鉄血駆逐艦は残り6隻ね",
+			say = "Z9, Z11... there should be six more Iron Blood destroyers.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,7 +35,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ウォースパイト様、鉄血の防衛施設は全部無力化したよ",
+			say = "I just got the news: all of Iron Blood's shore defenses have been disabled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "うむ",
+			say = "Grand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "それとイカロスから…ええと、艦載機と協力してZ13の無力化に成功したよ！",
+			say = "Message from Icarus: we have defeated enemy destroyer Z13 with carrier support!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z13…残り5隻……",
+			say = "Z13... That means five left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……ウォースパイト様？どうしたの？",
+			say = "You seem troubled?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ハーディとハンターのこともあるとはいえ、この戦いはあまり騎士道に沿っているとは言えないわね…",
+			say = "Watching the Z-class fight, I can't help but think of Hardy and Hunter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そういえば、エスキモーのほうはどうかしら？",
+			say = "Any news from Eskimo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ええと、イカロスと敵の駆逐艦を追跡中って連絡から何もないよ",
+			say = "No contact since the report that she was engaging Z19 with Icarus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "待って、イカロスはZ13と戦っていなかったかしら？エスキモーはどこに……っ！",
+			say = "But Icarus just reported in about Z13? I'm concerned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "エスキモーに連絡してちょうだい。状況を確認するわ",
+			say = "Call Eskimo yourself. Get a status report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yes ma'am!",
+			say = "Aye aye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -23211,18 +23211,18 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[50004] = {
-		display = "Sweet Curry or Hot Curry that is the question.  <color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
+		display = "A sweet and aromatic cake said to have come from the Moon Palace! Delicious! <color=#A9F548>（Increase EXP by 5 for 60 minutes）</color> ",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "Naval curry",
+		name = "Osmanthus Cake ",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/guihuagao",
 		replace_item = 0,
 		display_icon = {},
 		price = {
@@ -90582,6 +90582,652 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[57941] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57941,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10071,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				30,
+				1
+			},
+			{
+				2,
+				32,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57942] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57942,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			},
+			{
+				2,
+				10081,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				33,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57943] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57943,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				11029,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			},
+			{
+				2,
+				10010,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				10082,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57944] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57944,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10071,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				30,
+				1
+			},
+			{
+				2,
+				32,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57945] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57945,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			},
+			{
+				2,
+				10081,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				33,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57946] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57946,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10006,
+				1
+			},
+			{
+				2,
+				10010,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				10082,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57947] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57947,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				301151,
+				1
+			},
+			{
+				4,
+				101111,
+				1
+			},
+			{
+				4,
+				401191,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				401201,
+				1
+			},
+			{
+				4,
+				401211,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57948] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57948,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				205011,
+				1
+			},
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				401181,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				401201,
+				1
+			},
+			{
+				4,
+				401211,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57949] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57949,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				401021,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				101121,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				401201,
+				1
+			},
+			{
+				4,
+				401211,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57950] = {
 		display = "Chance to receive following designs",
 		rarity = 1,
@@ -97346,6 +97992,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59169] = {
+		display = "Earned from clearing stages in \"Counterattack Within the Fjord.\" Expires after the event period ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Fjord Badge ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59169,
+		icon = "Props/naerweike2_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59170] = {
 		display = "Used to exchange for the \"Royal Crown\" portrait frame. Will be removed after the event ends.",
 		rarity = 2,
@@ -100301,6 +100965,24 @@ let us celebrate."]],
 		virtual_type = 5,
 		link_id = 30216,
 		id = 59925,
+		icon = "props/zhongqiufanpai",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59926] = {
+		display = "Something good might happen when you collect 7 of these. ",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Mooncake ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 5,
+		link_id = 30732,
+		id = 59926,
 		icon = "props/zhongqiufanpai",
 		replace_item = 0,
 		display_icon = {},
@@ -106286,6 +106968,15 @@ The available outfits and their rarities are as follows:
 		57936,
 		57937,
 		57938,
+		57941,
+		57942,
+		57943,
+		57944,
+		57945,
+		57946,
+		57947,
+		57948,
+		57949,
 		57950,
 		57951,
 		57952,
@@ -106428,6 +107119,7 @@ The available outfits and their rarities are as follows:
 		59165,
 		59167,
 		59168,
+		59169,
 		59170,
 		59171,
 		59172,
@@ -106580,6 +107272,7 @@ The available outfits and their rarities are as follows:
 		59923,
 		59924,
 		59925,
+		59926,
 		59930,
 		59931,
 		59932,

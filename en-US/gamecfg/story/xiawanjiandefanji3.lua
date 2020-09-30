@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "……みんなとはぐれちゃった……",
+			say = "Everyone's going the wrong way.",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "もう、ロイヤルがあんな強い艦隊で増援に来るなんて聞いてないよ…",
+			say = "And I never expected the Royal Navy would send such a strong fleet at us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "とにかく、ティーレたちに連絡しないと…",
+			say = "I better get back in contact with Z2.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actorName = "通信機",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "......…",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "通信設備、壊れちゃったの…！？",
+			say = "Oh no... my comms are broken!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "落ち着くのですよキュンネ。たしか元々の作戦計画では合流地点へと……",
+			say = "Hrm... I think the original plan was to leave the fjord...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "追いついたよ！鉄血の駆逐艦！",
+			say = "I finally got you, Iron Blood destroyer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ロイヤルの追手！",
+			say = "So fast?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "簡単には逃さないのだよー！トライバル級駆逐艦エスキモー、アタック！",
+			say = "I'm not letting you get away~ Tribal-class destroyer Eskimo, attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

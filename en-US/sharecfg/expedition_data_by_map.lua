@@ -6144,6 +6144,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1370001] = {
+		map = 1370001,
+		name = "Counterattack Within the Fjord|| ||CHAPTER SP||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 30733,
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1330001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1330001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1380001] = {
 		map = 1380001,
 		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
@@ -7782,6 +7824,7 @@ pg.expedition_data_by_map = {
 		1360012,
 		1360025,
 		1360026,
+		1370001,
 		1380001,
 		1380002,
 		1380011,

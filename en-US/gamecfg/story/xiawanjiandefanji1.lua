@@ -12,7 +12,7 @@ return {
 			bgm = "level02",
 			actor = 401020,
 			nameColor = "#ff5c5c",
-			say = "ロイヤルへ奇襲を仕掛け、峡湾に突入できたところまではよかったですけど、増援が出てきて…ええ、厄介なことになりました",
+			say = "What a pain. Those Royal Navy reinforcements may be a bit of a handful.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ティーレちゃん（Z2)、これはちょっと厄介で片付けていい程度じゃないよ＞＜",
+			say = "Um... Z2, I think we're way past a handful here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "こっちは駆逐艦だけですから、戦艦に空母、主力艦だけだったとしてもハンスちゃんたちじゃ分が悪いのに",
+			say = "A battleship and an aircraft carrier are too much for little ol' me.。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ほかの護衛の艦船もいるから――",
+			say = "When you add in their destroyer escorts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "ハンスちゃん（Z18)スマイルでも無理ですね。ええ、分かっています",
+			say = "Even Z18 can't smile at a time like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "は、ハンスちゃんスマイルはすべてを解決するわけじゃないですよ～！",
+			say = "What the?! Am I just a smiley idiot to you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ベルントちゃん（Z11)やヴィルちゃん（Z21)それとアントンちゃん（Z22)たちがOnslaughtされちゃいましたし",
+			say = "Z11, Z21, and Z22 got knocked out of the fight two days ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ケルナーちゃん（Z13)の待ち伏せも失敗したし、ハンスちゃんスマイルをしても、状況はちょっとやばいかも…",
+			say = "And now that Z13's ambush failed... there's nothing for me to smile about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "ええ",
+			say = "Right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "......…",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ティーレちゃん？どうしたの？急に頭なでてくるなんて",
+			say = "Um, Z2, why are you patting my head?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "いえ、レーベくんの真似をやってみただけです",
+			say = "Just let me do this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "レーベくんならこの場面で何をするか…ええ、私はレーベくんではありませんから、これくらいしかできませんが",
+			say = "If only Z1 were here, she'd give everyone a morale boost. Too bad I don't have her sunny disposition. This is the best I can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "えへへ、大丈夫ですよ。ティーレちゃんが悪いわけじゃないですし、ティーレちゃん十分頑張っていると思いますよ？",
+			say = "Thanks. It's okay. You didn't do anything wrong. Actually, I think you're doing great, Z2~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "ええ。うん……",
+			say = "Oh, okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "よぉし、ティーレちゃんから元気をもらって、とびっきりの笑顔でみんなを励ましちゃいますよ～",
+			say = "Yeah~ You're so nice and warm, I think I can smile again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "ハンスちゃんは、さすがですね",
+			say = "I underestimated you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "笑顔は恐怖への処方箋ですよ～ティーレちゃんも一緒にスマイル☆",
+			say = "Hehe. You can't be scared with a big smile on your face. C'mon, Z2, give us a smile!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "ええ、頑張らないといけませんね",
+			say = "Okay, I'll psych myself up too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "みんな、撤退しますよ",
+			say = "Everyone, prepare to retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

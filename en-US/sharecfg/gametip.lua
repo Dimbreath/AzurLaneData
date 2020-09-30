@@ -1137,6 +1137,9 @@ pg.gametip = {
 	battle_preCombatMediator_timeout = {
 		tip = "<color=#92fc63>You're out of time!</color> Battle failed. Tap to return to main screen."
 	},
+	battle_preCombatMediator_activity_timeout = {
+		tip = "The event has <color=#92fc63>already ended</color>. Tap to return to the stage selection screen. "
+	},
 	battle_resourceSiteLayer_collecTimeDefault = {
 		tip = "Harvesting time: <color=#92fc63>--:--:--</color>"
 	},
@@ -6168,7 +6171,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		}
 	},
 	card_pairs_tips = {
-		tip = "You cannot acquire any more Memory Cards today. Would you still like to play the game?"
+		tip = "You cannot acquire any more Mooncake today. Would you still like to play the game?"
 	},
 	upgrade_to_next_maxlevel_failed = {
 		tip = "This ship is at the Max Level.\nFor now, you cannot Cognitively Awaken it any further."

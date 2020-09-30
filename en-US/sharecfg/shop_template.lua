@@ -7589,6 +7589,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60211] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时礼包-比翼双飞",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60211,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40100
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -23527,6 +23581,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70382] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:爱斯基摩人泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8901,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70382,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201321
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70383] = {
 		group_type = 0,
 		resource_num = 900,
@@ -29883,6 +29986,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[99053] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 99053,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -30110,6 +30267,7 @@ pg.shop_template = {
 		60208,
 		60209,
 		60210,
+		60211,
 		61001,
 		61002,
 		61003,
@@ -30477,6 +30635,7 @@ pg.shop_template = {
 		70379,
 		70380,
 		70381,
+		70382,
 		70383,
 		70384,
 		70385,
@@ -30615,6 +30774,7 @@ pg.shop_template = {
 		99049,
 		99050,
 		99051,
-		99052
+		99052,
+		99053
 	}
 }

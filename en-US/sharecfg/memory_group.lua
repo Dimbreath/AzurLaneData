@@ -1492,6 +1492,27 @@ pg.memory_group = {
 			1264
 		}
 	},
+	[187] = {
+		title = "Counterattack Within the Fjord ",
+		type = 2,
+		id = 187,
+		icon = "title_event",
+		memories = {
+			1265,
+			1266,
+			1267,
+			1268,
+			1269,
+			1270,
+			1271,
+			1272,
+			1273,
+			1274,
+			1275,
+			1276,
+			1277
+		}
+	},
 	[188] = {
 		title = "Aurora Noctis ",
 		type = 2,
@@ -2407,6 +2428,7 @@ pg.memory_group = {
 		184,
 		185,
 		186,
+		187,
 		188,
 		189,
 		501,

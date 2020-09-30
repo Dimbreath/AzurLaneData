@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 0,
 			dir = 1,
-			say = "キュンネちゃん！ようやく会えたよ！って黒焦げじゃありませんか！",
+			say = "Z19! There you are! What happened to you?",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ハンスちゃん？…だ、大丈夫ですよ！さっきロイヤルの駆逐艦たちに追撃されたときにちょっとかすり傷を受けちゃっただけです…",
+			say = "Is that Z18...? While I was trying to get away from Eskimo, I took some hits from Icarus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "そんなことより、ロイヤル艦隊がこちらを探していますわね…ほかの子は大丈夫ですか？",
+			say = "Be careful, they're still after me... is everyone else okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "大丈夫といえば大丈夫かな…ティーレちゃんは撤退ルートを探していますけど、ロイヤルの追撃隊があっちこっちにいますし、こっちの弾薬は尽きそうですし…",
+			say = "Mostly. Z2 is still trying to find us a way out. But the Royal Navy is everywhere, and we're almost out of ammo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "決めました。わたしがロイヤルの追撃隊を引きつけて、ハンスちゃんはティーレちゃんに早く合流してみんなと撤退しましょう！",
+			say = "Then I've decided. I'll hold them off. You get back to Z2 and retreat with the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "キュンネちゃん、何を言っているの？！",
+			say = "What are you talking about?! I've been looking for you for so long!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ダメよキュンネちゃん、せっかく会えたのにどうして……",
+			say = "You're coming with me, Z19!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "実はエスキモーとの戦いで動力系統がちょっと損傷してて…わたしを連れているとロイヤルからきっと逃げられない……",
+			say = "My drive system is crippled. I can't outrun the Royals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "じゃあわたしも一緒！キュンネちゃんを絶対に見捨てませんから！",
+			say = "Then I'll stay and fight with you. I'm not leaving you here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……",
+			say = "...Idiot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

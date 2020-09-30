@@ -620,6 +620,17 @@ pg.fleet_tech_ship_class = {
 			20129
 		}
 	},
+	[20112] = {
+		shiptype = 1,
+		name = "Tribal-Class ",
+		t_level = 5,
+		id = 20112,
+		t_level_1 = 39,
+		nation = 2,
+		ships = {
+			20132
+		}
+	},
 	[20113] = {
 		shiptype = 1,
 		name = "I-Class",
@@ -2290,6 +2301,7 @@ pg.fleet_tech_ship_class = {
 		20109,
 		20110,
 		20111,
+		20112,
 		20113,
 		20201,
 		20202,

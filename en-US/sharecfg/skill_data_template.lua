@@ -7202,6 +7202,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6670] = {
+		desc_get = "",
+		name = "Small-Caliber Gun Parts",
+		desc = "When equipped by an AE: increases the FP of your Vanguard by 8.0%.",
+		type = 0,
+		max_level = 0,
+		id = 6670,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6680] = {
+		desc_get = "",
+		name = "Torpedo Materials ",
+		desc = "When equipped by an AE: increases the TRP of your fleet by 8.0%.",
+		type = 0,
+		max_level = 0,
+		id = 6680,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -35266,6 +35288,64 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[13390] = {
+		desc_get = "",
+		name = "Lemme At 'Em!",
+		desc = "Every 30s: $1 chance to fire a special barrage (DMG is based on the skill's level.) Once per battle, when this ship's HP falls below 30.0%: heals this ship for 10.0% HP and fires this barrage.",
+		type = 1,
+		max_level = 10,
+		id = 13390,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			}
+		}
+	},
 	[13400] = {
 		desc_get = "",
 		name = "Radar Scan Plus",
@@ -42508,6 +42588,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[21016] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Tribal-class once every 24 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 21016,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[21017] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Tribal-class once every 16 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 21017,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[21021] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -45379,7 +45481,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29591,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29593
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -45390,7 +45494,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29592,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29594
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -48745,6 +48851,8 @@ pg.skill_data_template = {
 		6620,
 		6650,
 		6660,
+		6670,
+		6680,
 		7000,
 		9010,
 		9020,
@@ -49093,6 +49201,7 @@ pg.skill_data_template = {
 		13360,
 		13370,
 		13380,
+		13390,
 		13400,
 		13410,
 		13420,
@@ -49216,6 +49325,8 @@ pg.skill_data_template = {
 		20312,
 		21011,
 		21012,
+		21016,
+		21017,
 		21021,
 		21022,
 		21026,

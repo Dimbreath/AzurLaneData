@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "*beep beep*―！",
+			say = "BOOM!",
 			flashN = {
 				color = {
 					1,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ロイヤルネイビー、参上！",
+			say = "Warspite of the Royal Navy, ho!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "ウォースパイト様、ちょっと遅かったよ…（パタン",
+			say = "Waah! Warspite... you're finally here! (splash)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "エスキモー、大丈夫！？",
+			say = "Eskimo, are you alright?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "フォックスハウンド、エスキモーの様子は！",
+			say = "What happened to her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大丈夫！ちょっと気を失ってるだけ…",
+			say = "She passed out. Her rigging has taken heavy damage, but we can get it under control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そう……無事で良かったわ",
+			say = "Glad to hear it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鉄血の駆逐艦たち、一度だけしか言わないわよ。武器を下ろして投降しなさい",
+			say = "Hear me, Iron Blood! In the name of the Queen, I hereby give you one chance to surrender.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ロイヤルの援軍が到着するほうが先でしたか…エスキモーって子、ええ、なかなかやってくれましたね",
+			say = "Here they are... Well played, Eskimo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "ウォースパイトさん、すみません、わたしたちは投降するつもりはありません",
+			say = "Warspite, I'm afraid we have no intention of surrendering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "奇襲でハーディとハンターを倒したのはわたしたちですし――ええ、あなた方も「『この戦い』を戦う」つもりでしょう？",
+			say = "I suppose you came here for Hardy and Hunter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I see……あくまで戦いに付き合ってくれるとでも言うのかしら？",
+			say = "Then you choose to fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "ええ、それはわたしたちの作戦でもあります",
+			say = "Yes. The Iron Blood will fight to the last.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "「悪役」は…ええ、「悪役」を徹するべきだと思いますので",
+			say = "Let's give you that proper villainous feeling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大した覚悟ね…あなた方のDecisive Battleを侮っていたことを謝罪するわ",
+			say = "I underestimated you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "戦艦ウォースパイト、真なる戦士として、敬意ある戦いをさせてもらおう！",
+			say = "It is an honour to meet such proud warriors in battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ロイヤルネイビー、戦闘準備！",
+			say = "Royal Navy, to arms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
