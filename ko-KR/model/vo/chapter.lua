@@ -631,6 +631,16 @@ function slot0.inWartime(slot0)
 	return slot0.dueTime and pg.TimeMgr.GetInstance():GetServerTime() < slot0.dueTime
 end
 
+function slot0.inActTime(slot0)
+	if slot0:getConfig("act_id") == 0 then
+		return true
+	end
+
+	slot2 = slot1 and getProxy(ActivityProxy):getActivityById(slot1)
+
+	return slot2 and not slot2:isEnd()
+end
+
 function slot0.getRemainTime(slot0)
 	return slot0.dueTime and math.max(slot0.dueTime - pg.TimeMgr.GetInstance():GetServerTime() - 1, 0) or 0
 end

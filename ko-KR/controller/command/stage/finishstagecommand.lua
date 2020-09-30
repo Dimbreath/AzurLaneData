@@ -49,19 +49,19 @@ function slot0.GeneralPackage(slot0, slot1)
 		end
 	end
 
-	slot7 = math.floor(slot7 % 49993 * (slot0.token % 49993) % 49993 + slot0.statistics._totalTime)
+	slot8, slot9 = GetBattleCheckResult(slot7, slot0.token, slot0.statistics._totalTime)()
 
 	return {
 		system = slot4,
 		data = slot5,
 		score = slot6,
-		key = slot7,
+		key = slot8,
 		statistics = slot3,
 		kill_id_list = slot0.statistics.kill_id_list,
 		total_time = slot0.statistics._totalTime,
 		bot_percentage = slot0.statistics._botPercentage,
 		extra_param = slot2,
-		file_check = tostring(math.floor(GetBattleCheck() % 88824 * (slot0.token % 88824) % (88824 + slot7))),
+		file_check = slot9,
 		enemy_info = {},
 		data2 = {}
 	}

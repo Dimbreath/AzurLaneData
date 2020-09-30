@@ -27725,6 +27725,7 @@ pg.bullet_template = {
 		attach_buff = {},
 		extra_param = {
 			lastTime = 0.1,
+			mirror = true,
 			shrapnel = {
 				{
 					initialSplit = true,
@@ -27836,6 +27837,7 @@ pg.bullet_template = {
 		attach_buff = {},
 		extra_param = {
 			lastTime = 0.1,
+			mirror = true,
 			shrapnel = {
 				{
 					initialSplit = true,
@@ -27933,7 +27935,9 @@ pg.bullet_template = {
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			mirror = true
+		}
 	},
 	[19188] = {
 		range_offset = 0,
@@ -27992,7 +27996,9 @@ pg.bullet_template = {
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			mirror = true
+		}
 	},
 	[19189] = {
 		range_offset = 0,
@@ -28051,7 +28057,9 @@ pg.bullet_template = {
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			mirror = true
+		}
 	},
 	[19190] = {
 		range_offset = 0,
@@ -28110,7 +28118,9 @@ pg.bullet_template = {
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			mirror = true
+		}
 	},
 	[19191] = {
 		range_offset = 0,
@@ -28169,7 +28179,9 @@ pg.bullet_template = {
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			mirror = true
+		}
 	},
 	[19192] = {
 		range_offset = 20,

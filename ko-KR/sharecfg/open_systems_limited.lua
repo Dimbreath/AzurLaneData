@@ -114,7 +114,7 @@ pg.open_systems_limited = {
 	},
 	[16] = {
 		scene = "MAINUI",
-		name = "原型商店",
+		name = "원형 상점",
 		story_id = "",
 		id = 16,
 		mediator = "FragmentShop",

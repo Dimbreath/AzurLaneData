@@ -2106,6 +2106,103 @@ pg.ship_skin_expression_ex = {
 			}
 		}
 	},
+	U96 = {
+		feeling3 = "",
+		main_1 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		painting = "U96",
+		upgrade = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"2"
+			}
+		},
+		home = {
+			{
+				1100,
+				"4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"1"
+			}
+		}
+	},
+	shengwang_younv = {
+		feeling3 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		painting = "shengwang_younv",
+		upgrade = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"4"
+			}
+		}
+	},
 	jiyi = {
 		touch = "",
 		feeling3 = "",

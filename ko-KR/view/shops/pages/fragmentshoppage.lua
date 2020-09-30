@@ -52,9 +52,16 @@ function slot0.OnFragmentSellUpdate(slot0)
 end
 
 function slot0.OnUpdateItems(slot0)
-	slot0.urRes.text = (slot0.items[pg.gameset.urpt_chapter_max.description[1]] or {
-		count = 0
-	}).count
+	if not LOCK_UR_SHIP then
+		slot0.urRes.text = (slot0.items[pg.gameset.urpt_chapter_max.description[1]] or {
+			count = 0
+		}).count
+	else
+		setActive(slot0:findTF("res_ur"), false)
+		setAnchoredPosition(slot0:findTF("res_fragment"), {
+			x = 938.5
+		})
+	end
 end
 
 function slot0.OnUpdateCommodity(slot0, slot1)

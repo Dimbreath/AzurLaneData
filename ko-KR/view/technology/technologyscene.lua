@@ -114,6 +114,9 @@ function slot0.updateSettingsBtn(slot0)
 				setText(slot0:findTF("ProgressText", slot5), slot16 .. "/" .. slot17)
 			end
 		end
+	else
+		setActive(slot5, false)
+		setActive(slot2, false)
 	end
 end
 

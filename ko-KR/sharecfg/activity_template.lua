@@ -15936,6 +15936,75 @@ pg.activity_template = {
 			ui_name = "UrExchangeTaskPage"
 		}
 	},
+	[20563] = {
+		mark = 20200930,
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20563,
+		config_data = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[20564] = {
 		mark = 20200924,
 		page_info = "",
@@ -16016,6 +16085,230 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[20566] = {
+		mark = 20200930,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20566,
+		config_data = {
+			15825,
+			15826,
+			15827,
+			15828,
+			15829,
+			15830
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20567] = {
+		mark = 20200930,
+		type = 14,
+		login_pop = 0,
+		config_id = 20,
+		is_show = 11,
+		title_res_tag = "yindi_main",
+		id = 20567,
+		config_data = {
+			1180,
+			1181,
+			1182,
+			1183,
+			1184,
+			1186,
+			1187,
+			1188,
+			1189,
+			1190,
+			1191,
+			1192,
+			1193,
+			1194,
+			1195,
+			1196,
+			1197,
+			1198,
+			1199,
+			1200,
+			1201,
+			1202,
+			1203
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YinDiMainPage",
+			ui_name = "YinDiMainPage"
+		},
+		config_client = {
+			"commonbg/bg_pt_meifu2",
+			{
+				1,
+				0.97,
+				0.89,
+				1
+			},
+			pt_id = 165,
+			painting = "bolisi_pt",
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[20568] = {
+		mark = 20200930,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20568,
+		config_data = {
+			15811,
+			15812,
+			15813,
+			15814,
+			15815,
+			15816,
+			15817,
+			15818,
+			15819,
+			15820,
+			15821,
+			15822,
+			15823,
+			15824
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20569] = {
+		mark = 20200930,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 12,
+		config_client = "",
+		title_res_tag = "sanzhounianhuizong",
+		id = 20569,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ThirdAnniversaryJPPage",
+			ui_name = "ThirdAnniversaryJPPage"
 		}
 	},
 	[25000] = {
@@ -17340,8 +17633,13 @@ pg.activity_template = {
 		20560,
 		20561,
 		20562,
+		20563,
 		20564,
 		20565,
+		20566,
+		20567,
+		20568,
+		20569,
 		25000,
 		25001,
 		25002,

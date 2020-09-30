@@ -58,12 +58,12 @@ function slot0.HandleBulletHit(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.HandleDamage(slot0, slot1, slot2, slot3)
+function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 	if slot2:GetIFF() == uv0.FOE_CODE and slot2:IsShowHPBar() then
 		slot0:DispatchEvent(ys.Event.New(uv1.HIT_ENEMY, slot2))
 	end
 
-	slot6 = slot1:GetWeaponHostAttr()
+	slot7 = slot1:GetWeaponHostAttr()
 
 	slot2:TriggerBuff(uv2.BuffEffectType.ON_BULLET_HIT_BEFORE, {
 		weaponType = slot1:GetWeapon():GetTemplateData().attack_attribute,
@@ -74,66 +74,66 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot9, slot10, slot11 = slot0._calculateDamage(slot1, slot2, slot3)
-	slot12 = slot10.isMiss
-	slot13 = slot10.isCri
-	slot14 = slot10.damageAttr
+	slot10, slot11, slot12 = slot0._calculateDamage(slot1, slot2, slot3, slot4)
+	slot13 = slot11.isMiss
+	slot14 = slot11.isCri
+	slot15 = slot11.damageAttr
 
 	slot1:AppendDamageUnit(slot2:GetUniqueID())
 
-	slot17 = {
+	slot18 = {
 		target = slot2,
-		damage = slot9,
-		weaponType = slot7.type,
-		equipIndex = slot5:GetEquipmentIndex()
+		damage = slot10,
+		weaponType = slot8.type,
+		equipIndex = slot6:GetEquipmentIndex()
 	}
 
-	if slot10.isDamagePrevent then
+	if slot11.isDamagePrevent then
 		slot2:TriggerBuff(uv2.BuffEffectType.ON_DAMAGE_PREVENT, {})
 	end
 
-	slot2:UpdateHP(slot9 * -1, {
+	slot2:UpdateHP(slot10 * -1, {
 		isHeal = false,
-		isMiss = slot12,
-		isCri = slot13,
-		attr = slot14
-	}, slot1:GetPosition(), slot11)
-	slot0:DamageStatistics(slot6.id, slot2:GetAttrByName("id"), slot9)
+		isMiss = slot13,
+		isCri = slot14,
+		attr = slot15
+	}, slot1:GetPosition(), slot12)
+	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), slot10)
 
-	if not slot12 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
-		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot17)
+	if not slot13 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
+		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot18)
 	end
 
-	slot20 = true
+	slot21 = true
 
-	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot19 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot19 ~= uv2.UnitType.FUNNEL_UNIT and slot19 ~= uv2.UnitType.UAV_UNIT then
-		slot20 = false
+	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot20 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot20 ~= uv2.UnitType.FUNNEL_UNIT and slot20 ~= uv2.UnitType.UAV_UNIT then
+		slot21 = false
 	end
 
 	if slot2:IsAlive() then
-		if not slot20 then
-			for slot24, slot25 in ipairs(slot1:GetAttachBuff()) do
-				if slot25.hit_ignore or not slot12 then
-					uv4.HandleBuffPlacer(slot25, slot1, slot2)
+		if not slot21 then
+			for slot25, slot26 in ipairs(slot1:GetAttachBuff()) do
+				if slot26.hit_ignore or not slot13 then
+					uv4.HandleBuffPlacer(slot26, slot1, slot2)
 				end
 			end
 		end
 
-		if not slot12 then
-			slot2:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, slot8)
+		if not slot13 then
+			slot2:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, slot9)
 		end
 	else
-		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_KILL, slot17)
-		slot0:obituary(slot2, slot20, slot1)
-		slot0:KillCountStatistics(slot6.id, slot2:GetAttrByName("id"))
+		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_KILL, slot18)
+		slot0:obituary(slot2, slot21, slot1)
+		slot0:KillCountStatistics(slot7.id, slot2:GetAttrByName("id"))
 	end
 
-	return slot12, slot13
+	return slot13, slot14
 end
 
 function slot0.HandleMeteoDamage(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot2) do
-		slot0:HandleDamage(slot1, slot8, uv0.GetMeteoDamageRatio(#slot2)[slot7])
+		slot0:HandleDamage(slot1, slot8, nil, uv0.GetMeteoDamageRatio(#slot2)[slot7])
 	end
 end
 

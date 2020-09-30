@@ -39,7 +39,7 @@ function slot0.update(slot0, slot1)
 
 	slot0.descTxt.text = HXSet.hxLan(slot1:getConfig("desc"))
 
-	slot0.viewComponent:setSpriteTo("taskTagOb/" .. slot1:getConfig("type"), slot0.tagTF)
+	slot0.viewComponent:setSpriteTo("taskTagOb/" .. slot1:GetRealType(), slot0.tagTF)
 
 	slot2 = slot1:getConfig("target_num")
 

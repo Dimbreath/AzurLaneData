@@ -7549,7 +7549,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "주위의 모든 <color=#ff5c5c>적</color>을 섬멸하여 통행 금지 상태 해제 가능"
 	},
 	map_event_stop_story_tip = {
-		tip = "触发附近<color=#92fc63>剧情点</color>可解除禁止通行状态"
+		tip = "근처 <color=#92fc63>스토리 지점</color>에서 통행 금지 상태 해제 가능"
 	},
 	map_event_save_nekone = {
 		tip = "<color=#92fc63>네코네</color>의 구출에 성공했습니다!"

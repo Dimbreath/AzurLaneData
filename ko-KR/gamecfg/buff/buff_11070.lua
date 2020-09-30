@@ -47,25 +47,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				check_target = "TargetAllHelp",
 				minTargetNumber = 6,
-				check_target = "TargetShipTypeFriendly",
-				quota = 1,
 				skill_id = 11070,
-				ship_type_list = {
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					9,
-					10,
-					11,
-					12,
-					13,
-					18
-				}
+				quota = 1
 			}
 		}
 	}

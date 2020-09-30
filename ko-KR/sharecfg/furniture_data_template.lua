@@ -4282,6 +4282,56 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100019] = {
+		can_rotate = 0,
+		describe = "唔，这是…谁家的鹰酱？ ",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "鹰酱 ",
+		advice = 0,
+		id = 100019,
+		icon = "yingicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ying",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					100
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
@@ -72102,6 +72152,7 @@ pg.furniture_data_template = {
 		100016,
 		100017,
 		100018,
+		100019,
 		1001,
 		1002,
 		1101,

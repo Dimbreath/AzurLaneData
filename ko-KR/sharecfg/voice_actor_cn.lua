@@ -979,5 +979,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "코이와이 코토리",
 		code = 245
+	},
+	{
+		actor_name = "峰田茉优",
+		code = 246
+	},
+	{
+		actor_name = "天野聪美",
+		code = 247
 	}
 }

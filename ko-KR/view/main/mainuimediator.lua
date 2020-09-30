@@ -830,7 +830,7 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.onChapterTimeUp(slot0)
-	if getProxy(ChapterProxy):getActiveChapter() and not slot2:inWartime() then
+	if getProxy(ChapterProxy):getActiveChapter() and (not slot2:inWartime() or not Chapter.StaticIsChapterBindedActivityActive(slot2.id)) then
 		slot0.retreateMapType = slot2:getMapType()
 
 		slot0:sendNotification(GAME.CHAPTER_OP, {
