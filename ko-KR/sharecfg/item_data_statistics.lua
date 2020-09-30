@@ -22831,11 +22831,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "단맛? 매운맛? 취향은 사람마다 제각각... \n<color=#92fc63>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		display = "월궁에서 따온 계수나무로 만든 떡. 향긋하고 맛있다! <color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "해군 카레",
+		name = "계화꽃떡",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -98819,11 +98819,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59173] = {
-		display = "用于『环城之夜』活动兑换，活动结束后将会消失",
+		display = "『서클 시티』 이벤트 교환용. 이벤트 종료 시 사라짐.",
 		rarity = 2,
 		type = 98,
 		drop_oil_max = 0,
-		name = "鹰羽",
+		name = "독수리 깃털",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102799,11 +102799,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59981] = {
-		display = "收集7枚后，可以得到限定设备《约定的证明》",
+		display = "7개 수집 후 한정 설비 <약속의 증명> 획득 가능",
 		rarity = 2,
 		type = 0,
 		drop_oil_max = 0,
-		name = "U556的勋章",
+		name = "U556의 훈장",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -104217,7 +104217,7 @@ pg.item_data_statistics = {
 （<color=#92fc63>6.5%</color>）노시로 스킨 밤에 울리는 절원；
 （<color=#92fc63>5.8%</color>）인디펜던스 스킨 「인디펜던스」 브랜드；
 （<color=#92fc63>5.4%</color>）하츠시모 스킨 길일 축하연；
-（<color=#92fc63>5.4%</color>）아리아케 스킨 풍선의 연회；
+（<color=#92fc63>5.4%</color>）아리아케 스킨 사계절의 모임；
 （<color=#92fc63>5.4%</color>）U-110스킨 상어 귀여미；
 （<color=#92fc63>5.4%</color>）하루나 스킨 새빨간Innocence；
 （<color=#92fc63>5.4%</color>）위치타 스킨 "장군"의 저녁 만찬；

@@ -4284,7 +4284,7 @@ pg.furniture_data_template = {
 	},
 	[100019] = {
 		can_rotate = 0,
-		describe = "唔，这是…谁家的鹰酱？ ",
+		describe = "음, 이건... 누구의 이글이지?",
 		gain_by = "",
 		type = 14,
 		dir = 0,
@@ -4303,7 +4303,7 @@ pg.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "鹰酱 ",
+		name = "이글",
 		advice = 0,
 		id = 100019,
 		icon = "yingicon",

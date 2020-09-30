@@ -981,11 +981,11 @@ pg.voice_actor_CN = {
 		code = 245
 	},
 	{
-		actor_name = "峰田茉优",
+		actor_name = "미네다 마유",
 		code = 246
 	},
 	{
-		actor_name = "天野聪美",
+		actor_name = "아마노 사토미",
 		code = 247
 	}
 }
