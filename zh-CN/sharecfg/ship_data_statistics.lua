@@ -145349,7 +145349,7 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.2,
 			1.25,
-			1.3
+			1.35
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -145468,7 +145468,7 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.25,
 			1.3,
-			1.35
+			1.4
 		},
 		strategy_list = {},
 		strategy_list_ai = {},

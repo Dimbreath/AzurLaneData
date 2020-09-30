@@ -201,7 +201,7 @@ end
 
 function slot2.Vertify()
 	if not BattleVertify then
-		return false, 0
+		return false, CC_TYPE_0
 	end
 
 	for slot3 = 1, #uv0.BattleVertifyTable do
@@ -211,15 +211,15 @@ function slot2.Vertify()
 	end
 
 	if BattleVertify.configDataVertify ~= uv0.BattleConfigVertify then
-		return false, 6
+		return false, CC_TYPE_6
 	end
 
 	if BattleVertify.constDataVertify ~= uv0.BattleConstVertify then
-		return false, 7
+		return false, CC_TYPE_7
 	end
 
 	if BattleVertify.playerShipVertifyFail then
-		return false, 8
+		return false, CC_TYPE_8
 	end
 
 	if uv0.Battle.BattleState.GetInstance():GetBattleType() ~= SYSTEM_DUEL then
@@ -227,11 +227,11 @@ function slot2.Vertify()
 	end
 
 	if RivalLevelVertiry and RivalLevelVertiry ~= BattleVertify.rivalLevel then
-		return false, 9
+		return false, CC_TYPE_9
 	end
 
 	if BattleVertify.cloneShipVertiry then
-		return false, 10
+		return false, CC_TYPE_10
 	end
 
 	RivalLevelVertiry = nil

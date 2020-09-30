@@ -682,7 +682,7 @@ function slot0.showPainting(slot0)
 
 		setPaintingPrefabAsync(slot0._painting, slot0.paintingName, "jiesuan", function ()
 			if findTF(uv0._painting, "fitter").childCount > 0 then
-				Ship.SetExpression(findTF(uv0._painting, "fitter"):GetChild(0), uv0.paintingName, "win_mvp", uv1)
+				ShipExpressionHelper.SetExpression(findTF(uv0._painting, "fitter"):GetChild(0), uv0.paintingName, "win_mvp", uv1)
 			end
 		end)
 

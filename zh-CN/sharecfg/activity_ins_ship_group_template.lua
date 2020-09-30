@@ -133,7 +133,7 @@ pg.activity_ins_ship_group_template = {
 	[30208] = {
 		ship_group = 30208,
 		name = "RageofONI",
-		sculpture = "guinu_2"
+		sculpture = "guinu"
 	},
 	[30205] = {
 		ship_group = 30205,
@@ -775,6 +775,86 @@ pg.activity_ins_ship_group_template = {
 		name = "Mikuma",
 		sculpture = "sanwei"
 	},
+	[30123] = {
+		ship_group = 30123,
+		name = "NutLove",
+		sculpture = "ruoye"
+	},
+	[60502] = {
+		ship_group = 60502,
+		name = "VV_Littorio",
+		sculpture = "lituoliao"
+	},
+	[60102] = {
+		ship_group = 60102,
+		name = "S_Carabiniere",
+		sculpture = "longqibing"
+	},
+	[89902] = {
+		ship_group = 89902,
+		name = "Champagne",
+		sculpture = "xiangbin"
+	},
+	[80103] = {
+		ship_group = 80103,
+		name = "L.Téméraire",
+		sculpture = "lumang"
+	},
+	[30184] = {
+		ship_group = 30184,
+		name = "Puuta",
+		sculpture = "liangyue"
+	},
+	[10311] = {
+		ship_group = 10311,
+		name = "G.Wichita",
+		sculpture = "weiqita"
+	},
+	[10226] = {
+		ship_group = 10226,
+		name = "HerosAides",
+		sculpture = "linuo"
+	},
+	[89901] = {
+		ship_group = 89901,
+		name = "S.Louis",
+		sculpture = "luyijiushi"
+	},
+	[39902] = {
+		ship_group = 39902,
+		name = "Izumo",
+		sculpture = "chuyun"
+	},
+	[80104] = {
+		ship_group = 80104,
+		name = "L.Opiniâtre",
+		sculpture = "juejiang"
+	},
+	[80701] = {
+		ship_group = 80701,
+		name = "Béarn",
+		sculpture = "beiyaen"
+	},
+	[30164] = {
+		ship_group = 30164,
+		name = "Ooshio",
+		sculpture = "dachao"
+	},
+	[70505] = {
+		ship_group = 70505,
+		name = "Proj23.Ros",
+		sculpture = "suweiailuoxiya"
+	},
+	[30163] = {
+		ship_group = 30163,
+		name = "Asashio",
+		sculpture = "zhaochao"
+	},
+	[70104] = {
+		ship_group = 70104,
+		name = "Ташкент",
+		sculpture = "tashigan"
+	},
 	all = {
 		30701,
 		30702,
@@ -930,6 +1010,22 @@ pg.activity_ins_ship_group_template = {
 		30317,
 		30318,
 		30210,
-		30211
+		30211,
+		30123,
+		60502,
+		60102,
+		89902,
+		80103,
+		30184,
+		10311,
+		10226,
+		89901,
+		39902,
+		80104,
+		80701,
+		30164,
+		70505,
+		30163,
+		70104
 	}
 }

@@ -218,7 +218,7 @@ function slot0.GetPainting(slot0, slot1, slot2, slot3)
 
 		slot0:SetActive(true)
 
-		if Ship.DefaultFaceless(uv1) then
+		if ShipExpressionHelper.DefaultFaceless(uv1) then
 			setActive(tf(slot0):Find("face"), true)
 		end
 

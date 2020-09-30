@@ -15,7 +15,7 @@ end
 function slot0.preload(slot0, slot1)
 	slot3 = getProxy(CollectionProxy):getShipGroup(slot0.contextData.groupId)
 
-	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot3:getRarity(slot0.showTrans), slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup()), "", slot1)
+	LoadSpriteAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot3:getRarity(slot0.showTrans), slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup()), "", slot1)
 end
 
 function slot0.setShipGroup(slot0, slot1)
@@ -448,48 +448,44 @@ function slot0.OnCVBtnClick(slot0, slot1)
 		return
 	end
 
-	function slot3()
-		uv0:UpdatePaintingFace(uv1)
-
-		if uv0.characterModel then
-			uv0.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(uv0:GetModelAction(uv2), 0)
-		end
-
-		slot0 = {
-			uv3.CHAT_SHOW_TIME
-		}
-
-		if uv0.live2DBtn.isOn and uv0.l2dChar then
-			uv0.l2dActioning = true
-
-			parallelAsync({
-				function (slot0)
-					uv0:RemoveLive2DTimer()
-
-					if uv1.voice.key == "propose" then
-						uv0.Live2DTimer = LeanTween.delayedCall(ProposeUI.Live2DProposeDelayTime, System.Action(function ()
-							uv0.l2dChar:TriggerAction(uv1.l2d_action, uv2)
-						end)).id
-					else
-						uv0.l2dChar:TriggerAction(uv2.l2d_action, slot0)
-					end
-				end,
-				function (slot0)
-					uv0:PlayVoice(uv1, uv2)
-					uv0:ShowDailogue(uv1, uv2, slot0)
-				end
-			}, function ()
-				uv0.l2dActioning = false
-			end)
-		else
-			uv0:PlayVoice(uv1, slot0)
-			uv0:ShowDailogue(uv1, slot0)
-		end
-	end
-
 	if slot1.voice.key == "unlock" and slot0.haveOp then
 		slot0:playOpening(true, function ()
-			uv0()
+			uv0:UpdatePaintingFace(uv1)
+
+			if uv0.characterModel then
+				uv0.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(uv0:GetModelAction(uv2), 0)
+			end
+
+			slot0 = {
+				uv3.CHAT_SHOW_TIME
+			}
+
+			if uv0.live2DBtn.isOn and uv0.l2dChar then
+				uv0.l2dActioning = true
+
+				parallelAsync({
+					function (slot0)
+						uv0:RemoveLive2DTimer()
+
+						if uv1.voice.key == "propose" then
+							uv0.Live2DTimer = LeanTween.delayedCall(ProposeUI.Live2DProposeDelayTime, System.Action(function ()
+								uv0.l2dChar:TriggerAction(uv1.l2d_action, uv2)
+							end)).id
+						else
+							uv0.l2dChar:TriggerAction(uv2.l2d_action, slot0)
+						end
+					end,
+					function (slot0)
+						uv0:PlayVoice(uv1, uv2)
+						uv0:ShowDailogue(uv1, uv2, slot0)
+					end
+				}, function ()
+					uv0.l2dActioning = false
+				end)
+			else
+				uv0:PlayVoice(uv1, slot0)
+				uv0:ShowDailogue(uv1, slot0)
+			end
 		end, "star_level_unlock_anim_" .. slot0.skin.id)
 	else
 		slot3()
@@ -504,7 +500,7 @@ function slot0.UpdatePaintingFace(slot0, slot1)
 	end
 
 	if slot0.paintingFitter.childCount > 0 then
-		Ship.SetExpression(slot0.paintingFitter:GetChild(0), slot0.paintingName, slot4, slot2.matchFavor)
+		ShipExpressionHelper.SetExpression(slot0.paintingFitter:GetChild(0), slot0.paintingName, slot4, slot2.maxfavor, slot1.skin.id)
 	end
 end
 

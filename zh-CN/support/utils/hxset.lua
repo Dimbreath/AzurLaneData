@@ -44,6 +44,21 @@ function slot0.init()
 	end
 end
 
+function slot0.calcLocalizationUse()
+	if PLATFORM_CODE == PLATFORM_CH then
+		if uv0.codeMode and not function ()
+			return PlayerPrefs.GetInt("localization_use", 0) > 0
+		end() then
+			pg.m02:sendNotification(GAME.CHEATER_MARK, {
+				reason = CC_TYPE_99
+			})
+			function (slot0)
+				PlayerPrefs.SetInt("localization_use", slot0 and 1 or 0)
+			end(true)
+		end
+	end
+end
+
 function slot0.switchCodeMode()
 	if pg.gameset.code_switch.key_value == 1 or uv0.codeMode then
 		uv0.codeMode = not uv0.codeMode

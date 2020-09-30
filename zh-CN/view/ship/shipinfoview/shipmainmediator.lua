@@ -482,7 +482,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.RECORD_SHIP_EQUIPMENT_DONE,
 		GAME.SHOPPING_DONE,
 		GAME.UPGRADE_MAX_LEVEL_DONE,
-		GAME.SKIN_COUPON_SHOPPING_DONE
+		GAME.SKIN_COUPON_SHOPPING_DONE,
+		GAME.HIDE_Ship_MAIN_SCENE_WORD
 	}
 end
 
@@ -557,8 +558,12 @@ function slot0.handleNotification(slot0, slot1)
 			uv0.viewComponent:showAwakenCompleteAni(i18n("upgrade_to_next_maxlevel_succeed", uv1.newShip:getMaxLevel()))
 			uv1.callback()
 		end)
-	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == ProposeMediator then
-		slot0.viewComponent:SwitchToDefaultBGM()
+	elseif slot2 == GAME.REMOVE_LAYERS then
+		if slot3.context.mediator == ProposeMediator then
+			slot0.viewComponent:SwitchToDefaultBGM()
+		end
+	elseif slot2 == GAME.HIDE_Ship_MAIN_SCENE_WORD then
+		slot0.viewComponent:hideShipWord()
 	end
 end
 

@@ -52,7 +52,7 @@ function slot0.StaticIsMapRemaster(slot0)
 end
 
 function slot0.IsZprojectActiveMap(slot0)
-	return slot0:isActivity() and not slot0:isRemaster() and uv0.StaticIsMapBindedActivityActive(slot0.id)
+	return slot0:isActivity() and not slot0:isRemaster() and (uv0.StaticIsMapBindedActivityActive(slot0.id) or ChapterProxy.StaticIsMapActive(slot0.id))
 end
 
 function slot0.isInValidMap(slot0)

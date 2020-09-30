@@ -666,7 +666,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.ON_OPEN_INS_LAYER,
 		PileGameConst.OPEN_PILEGAME,
-		ShopsProxy.CHARGED_LIST_UPDATED
+		ShopsProxy.CHARGED_LIST_UPDATED,
+		GAME.ZERO_HOUR_OP_DONE
 	}
 end
 
@@ -826,6 +827,8 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ShopsProxy.CHARGED_LIST_UPDATED then
 		slot0.viewComponent:updateMallBtnSellTag(slot3)
 		slot0.viewComponent:UpdateMallBtnMonthcardTag()
+	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
+		slot0.viewComponent:UpdateActivityBtn("activity_map_btn")
 	end
 end
 
@@ -917,6 +920,8 @@ function slot0.handleEnterMainUI(slot0)
 			if true then
 				coroutine.yield()
 			end
+
+			HXSet.calcLocalizationUse()
 		end))
 	end
 end

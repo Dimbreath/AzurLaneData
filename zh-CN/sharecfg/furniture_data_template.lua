@@ -5220,6 +5220,58 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100020] = {
+		can_rotate = 0,
+		describe = "抬头仰望，便是无尽的繁星。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "模拟装置·星空",
+		advice = 0,
+		id = 100020,
+		icon = "starlighticon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"starlight",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					nil,
+					nil,
+					"bg1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		describe = "到处都是破洞的地板，注意不要踩到洞里啊",
@@ -82281,6 +82333,7 @@ pg.furniture_data_template = {
 		100017,
 		100018,
 		100019,
+		100020,
 		1001,
 		1002,
 		1101,

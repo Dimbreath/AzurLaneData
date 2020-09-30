@@ -987,5 +987,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "天野聪美",
 		code = 247
+	},
+	{
+		actor_name = "高桥春香",
+		code = 248
 	}
 }

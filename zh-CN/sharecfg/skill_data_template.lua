@@ -4112,7 +4112,7 @@ pg.skill_data_template = {
 	[3611] = {
 		desc_get = "",
 		name = "狼群战术",
-		desc = "出击时，编队中每有一个铁血阵营潜艇角色，自身雷击、装填属性上升$1",
+		desc = "出击时，编队中每有一个铁血阵营潜艇角色，自身雷击、命中、装填属性上升$1",
 		type = 1,
 		max_level = 10,
 		id = 3611,
@@ -7198,6 +7198,28 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 6660,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6670] = {
+		desc_get = "",
+		name = "中小口径兵装补给",
+		desc = "运输舰装备时，提高先锋舰队角色8%炮击（超巡除外）",
+		type = 0,
+		max_level = 0,
+		id = 6670,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6680] = {
+		desc_get = "",
+		name = "鱼雷兵装补给",
+		desc = "运输舰装备时，提高队伍中所有角色8%雷击",
+		type = 0,
+		max_level = 0,
+		id = 6680,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -45460,7 +45482,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29591,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29593
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -45471,7 +45495,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29592,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29594
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -49705,6 +49731,8 @@ pg.skill_data_template = {
 		6620,
 		6650,
 		6660,
+		6670,
+		6680,
 		7000,
 		9010,
 		9020,

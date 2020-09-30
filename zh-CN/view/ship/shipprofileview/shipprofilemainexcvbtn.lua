@@ -48,7 +48,8 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 		textContent = slot11,
 		mainIndex = slot12,
 		voiceCalibrate = slot13,
-		se = slot14
+		se = slot14,
+		maxfavor = slot16
 	}
 end
 

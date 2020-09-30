@@ -911,7 +911,7 @@ function slot0.initDialog(slot0, slot1)
 				slot1 = findTF(slot0, "face")
 
 				if uv1.expression then
-					setActive(slot1, Ship.SetExpression(slot0, uv0, "default") or uv1.expression)
+					setActive(slot1, ShipExpressionHelper.SetExpression(slot0, uv0, "default") or uv1.expression)
 					setImageSprite(slot1, GetSpriteFromAtlas("paintingface/" .. uv0, uv1.expression))
 				end
 
@@ -1615,7 +1615,7 @@ function slot0.setSubActors(slot0, slot1, slot2)
 		slot14 = findTF(slot13, "face")
 
 		if slot9.expression then
-			setActive(slot14, Ship.SetExpression(slot13, slot11, "default") or slot9.expression)
+			setActive(slot14, ShipExpressionHelper.SetExpression(slot13, slot11, "default") or slot9.expression)
 			setImageSprite(slot14, GetSpriteFromAtlas("paintingface/" .. slot11, slot9.expression))
 		end
 

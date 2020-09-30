@@ -876,6 +876,9 @@ pg.gametip = {
 	battle_preCombatMediator_timeout = {
 		tip = "作战<color=#92fc63>时间用尽</color>，作战失败，点击确定返回选关界面"
 	},
+	battle_preCombatMediator_activity_timeout = {
+		tip = "活动时间<color=#92fc63>已结束</color>，点击确定返回选关界面 "
+	},
 	battle_resourceSiteLayer_collecTimeDefault = {
 		tip = "采集时间: <color=#92fc63>--:--:--</color>"
 	},
@@ -3839,7 +3842,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 				}
 			},
 			{
-				info = "       反潜：提高反潜武器的伤害",
+				info = "       反潜：提高反潜武器的伤害，影响队伍反潜侦测范围",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
