@@ -64960,11 +64960,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[60057] = {
-		display = "参与『特别演习·埃塞克斯级』获得的点数，累计一定程度可以领取报酬",
+		display = "參與『特別演習·艾塞克斯級』獲得的點數，累計一定程度可以領取報酬",
 		rarity = 2,
 		type = 98,
 		drop_oil_max = 0,
-		name = "贡献值",
+		name = "貢獻值",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -64978,11 +64978,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[60058] = {
-		display = "参与『特别演习·埃塞克斯级』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+		display = "參與『特別演習·艾塞克斯級』EX關的必要道具，也可以用來增加普通關額外獎勵次數",
 		rarity = 4,
 		type = 98,
 		drop_oil_max = 0,
-		name = "特别挑战券",
+		name = "特別挑戰券",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,

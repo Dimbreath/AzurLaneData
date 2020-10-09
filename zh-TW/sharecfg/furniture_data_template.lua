@@ -40277,6 +40277,919 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[41001] = {
+		can_rotate = 0,
+		describe = "遠處高高的雲霄飛車軌道傳來了一陣陣的尖叫聲，可怕>-<",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/qiangbivt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "雲霄飛車軌道",
+		advice = 0,
+		icon = "qiangbivticon",
+		id = 41001,
+		comfortable = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41002] = {
+		can_rotate = 0,
+		describe = "精心打磨的地磚，不能讓客人傷到",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/dibanvt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "遊樂園地磚",
+		advice = 0,
+		icon = "dibanvticon",
+		id = 41002,
+		comfortable = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41101] = {
+		can_rotate = 1,
+		describe = "請諸位遊客仔細觀察公告板，合理安排行程！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/banvt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "樂園公告板",
+		advice = 0,
+		icon = "banvticon",
+		id = 41101,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41102] = {
+		can_rotate = 0,
+		describe = "綠色清檸旋轉杯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/chabei1vt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "青檸旋轉杯",
+		advice = 0,
+		id = 41102,
+		icon = "chabei1vticon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei1vt_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41103] = {
+		can_rotate = 0,
+		describe = "紅色草莓旋轉杯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/chabei2vt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "草莓旋轉杯",
+		advice = 0,
+		id = 41103,
+		icon = "chabei2vticon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei2vt_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41104] = {
+		can_rotate = 0,
+		describe = "紫色葡萄旋轉杯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/chabei3vt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "紫葡萄旋轉杯",
+		advice = 0,
+		id = 41104,
+		icon = "chabei3vticon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei3vt_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41105] = {
+		can_rotate = 0,
+		describe = "海盜主題洞窟，歡迎探險！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/dongkuvt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "海盜洞窟",
+		advice = 0,
+		icon = "dongkuvticon",
+		id = 41105,
+		comfortable = 3,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41106] = {
+		can_rotate = 0,
+		describe = "哪位勇敢的人能登頂帆船呢！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/haidaochuanvt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "海盜船",
+		advice = 0,
+		id = 41106,
+		icon = "haidaochuanvticon",
+		comfortable = 3,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					47,
+					-20
+				},
+				{
+					1,
+					1
+				},
+				"valentine/haidaochuanvt_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41107] = {
+		can_rotate = 0,
+		describe = "精心修剪的愛心狀園藝",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/huashuvt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "愛心園藝",
+		advice = 0,
+		icon = "huashuvticon",
+		id = 41107,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41108] = {
+		can_rotate = 0,
+		describe = "請不要偷偷摘下來哦",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/huatanvt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "花壇",
+		advice = 0,
+		icon = "huatanvticon",
+		id = 41108,
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41109] = {
+		can_rotate = 0,
+		describe = "客人要不要來一個棉花糖呢？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/miahuatangchevt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "棉花糖小車",
+		advice = 0,
+		id = 41109,
+		icon = "miahuatangchevticon",
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-13.9,
+					-8.1
+				},
+				{
+					1,
+					1
+				},
+				"valentine/miahuatangchevt_using",
+				0,
+				{
+					{
+						0,
+						191
+					},
+					{
+						172,
+						176
+					},
+					"valentine/miahuatangchevt_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41110] = {
+		can_rotate = 0,
+		describe = "啟動！加速！砰！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/pengpengchevt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "碰碰車",
+		advice = 0,
+		id = 41110,
+		icon = "pengpengchevticon",
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-136,
+					8
+				},
+				{
+					1,
+					1
+				},
+				"valentine/pengpengchevt_using1"
+			},
+			{
+				"sit",
+				{
+					99,
+					24
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/pengpengchevt_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41111] = {
+		can_rotate = 0,
+		describe = "樂園中著名的蠻啾氣球噴泉",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/penquanvt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "樂園噴泉",
+		advice = 0,
+		icon = "penquanvticon",
+		id = 41111,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41112] = {
+		can_rotate = 0,
+		describe = "香噴噴的熱狗！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/regouchevt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "熱狗小車",
+		advice = 0,
+		icon = "regouchevticon",
+		id = 41112,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41113] = {
+		can_rotate = 0,
+		describe = "嚴禁聖地亞哥靠近此樹！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/shuvt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 41,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "大顆蘋果樹",
+		advice = 0,
+		icon = "shuvticon",
+		id = 41113,
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41114] = {
+		can_rotate = 1,
+		describe = "冰淇凌小屋一日員工招募中",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/xuegaovt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "冰淇淋小屋",
+		advice = 0,
+		id = 41114,
+		icon = "xuegaovticon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					-101
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/xuegaovt_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41115] = {
+		can_rotate = 0,
+		describe = "逛累了不如來休息下吧",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/yizivt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "樂園休息長椅",
+		advice = 0,
+		id = 41115,
+		icon = "yizivticon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-43,
+					27
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/yizivt_using"
+			},
+			{
+				"sit",
+				{
+					10,
+					1
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/yizivt_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41116] = {
+		can_rotate = 0,
+		describe = "好像這個設施斷電了TAT",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "valentine/xuanzhuanmumavt",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 41,
+		count = 1,
+		name = "旋轉木馬",
+		advice = 0,
+		id = 41116,
+		icon = "xuanzhuanmumavticon",
+		comfortable = 3,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-136.2,
+					-78.9
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/xuanzhuanmumavt_using1"
+			},
+			{
+				"sit",
+				{
+					128.7,
+					-81.4
+				},
+				{
+					1,
+					1
+				},
+				"valentine/xuanzhuanmumavt_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[41117] = {
+		can_rotate = 0,
+		describe = "地面好擠，去空中飛呀飛！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 41,
+		icon = "qiqiuvticon",
+		count = 1,
+		name = "蠻啾氣球",
+		id = 41117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"reqiqiuB",
+				"normal"
+			},
+			{
+				"reqiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"reqiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[42001] = {
 		can_rotate = 0,
 		describe = "古色古香的壁紙，有著木色的紋路。能讓人感到放鬆~",
@@ -47851,6 +48764,25 @@ pg.furniture_data_template = {
 		40124,
 		40125,
 		40126,
+		41001,
+		41002,
+		41101,
+		41102,
+		41103,
+		41104,
+		41105,
+		41106,
+		41107,
+		41108,
+		41109,
+		41110,
+		41111,
+		41112,
+		41113,
+		41114,
+		41115,
+		41116,
+		41117,
 		42001,
 		42002,
 		42101,

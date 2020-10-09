@@ -917,10 +917,7 @@ function slot0.updateActivityBtns(slot0)
 	if not slot0.contextData.map:isActivity() and not slot0.contextData.map:isSkirmish() and _.any(_.values(slot0.maps), function (slot0)
 		return slot0:IsZprojectActiveMap()
 	end) then
-		slot7 = getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT)
-
-		print(slot7, slot7.id, slot7:isEnd())
-		setImageSprite(slot0.activityBtn, slot7 and not slot7:isEnd() and LoadSprite("ui/mainui_atlas", "event_map_" .. slot7.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
+		setImageSprite(slot0.activityBtn, getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot7:isEnd() and LoadSprite("ui/mainui_atlas", "event_map_" .. slot7.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
 	end
 
 	setActive(slot0.activityBtn, slot6)

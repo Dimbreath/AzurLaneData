@@ -32640,7 +32640,7 @@ pg.enemy_data_statistics = {
 	},
 	[339] = {
 		cannon = 0,
-		name = "世界BOSS艾塞克斯",
+		name = "艾塞克斯",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

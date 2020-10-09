@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>二 荣耀的意义</size>",
+					"我的美好回憶\n\n<size=45>二 榮耀的意義</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 203080,
 			nameColor = "#a9f548",
-			say = "阿贾克斯，妳这人真是——！",
+			say = "阿賈克斯，妳這人真是——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "我只是有一说一，比起正面对战还是夜战获胜的可能性更大嘛。",
+			say = "我只是有一說一，比起正面對戰還是夜戰獲勝的可能性更大嘛。",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "从根本上说，无视友方求援的行为不是给皇家海军抹黑吗！",
+			say = "從根本上說，無視友方求援的行為不是給皇家海軍抹黑嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "埃克塞特前辈才是，太执着于皇家的荣耀了吧？在那种情况下分割己方战力，是打算独自面对敌方主力吗？那样的话我也不拦着妳就是了♪",
+			say = "埃克塞特前輩才是，太執著於皇家的榮耀了吧？在那種情況下分割己方戰力，是打算獨自面對敵方主力嗎？那樣的話我也不攔著妳就是了♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			say = "埃克塞特和阿贾克斯又开始吵嘴了…",
+			say = "埃克塞特和阿賈克斯又開始吵嘴了…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "阿贾克斯的作战方案十分合理且正确。然而正因为太合理，对一部分重视名誉和身份的人来说似乎非常难以接受",
+			say = "阿賈克斯的作戰方案十分合理且正確。然而正因為太合理，對一部分重視名譽和身份的人來說似乎非常難以接受",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "唔…！再吵下去也没个结果。是非对错就交给指挥官来判断吧！",
+			say = "唔…！再吵下去也沒個結果。是非對錯就交給指揮官來判斷吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "认输了？还是该说这是光荣的转进呢？",
+			say = "認輸了？還是該說這是光榮的轉進呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			say = "更关键的一点，是对方越是反驳她就越喜欢煽风点火，最后搞得局面更加难以收场…",
+			say = "更關鍵的一點，是對方越是反駁她就越喜歡煽風點火，最後搞得局面更加難以收場…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "我会向埃克塞特前辈道歉的啦。反正一直都是这样。",
+			say = "我會向埃克塞特前輩道歉的啦。反正一直都是這樣。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "埃克塞特前辈是那种劝不听的类型，所以反复解释还不如先惹毛她再让她放弃，这样更快吧？",
+			say = "埃克塞特前輩是那種勸不聽的類型，所以反覆解釋還不如先惹毛她再讓她放棄，這樣更快吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "不过这个作战把指挥官来劝架也考虑进去了就是♪",
+			say = "不過這個作戰把指揮官來勸架也考慮進去了就是♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			},
 			options = {
 				{
-					content = "就算如此，也没必要这么捉弄前辈吧…",
+					content = "就算如此，也沒必要這麼捉弄前輩吧…",
 					flag = 1
 				}
 			}
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "哎呀，居然不站在我这个秘书舰这边。值得表扬哦，指挥官",
+			say = "哎呀，居然不站在我這個秘書艦這邊。值得表揚哦，指揮官",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "平常一副温柔善良的样子，这种时候倒是挺有指挥官的样子呢。",
+			say = "平常一副溫柔善良的樣子，這種時候倒是挺有指揮官的樣子呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "…就是这样我才喜欢你呀。呵呵♪",
+			say = "…就是這樣我才喜歡你呀。呵呵♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

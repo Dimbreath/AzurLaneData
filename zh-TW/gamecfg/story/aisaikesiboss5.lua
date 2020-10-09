@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actorName = "众人",
+			actorName = "眾人",
 			say = "乾杯~！",
 			dialogShake = {
 				speed = 0.09,

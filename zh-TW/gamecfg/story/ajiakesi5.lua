@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>五 可爱的小猪仔</size>",
+					"我的美好回憶\n\n<size=45>五 可愛的小豬仔</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "醒来时，发现自己躺在房间的床上。",
+			say = "醒來時，發現自己躺在房間的床上。",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是让人伤脑筋的小猪仔啊…我说过让妳好好休息的吧？",
+			say = "真是讓人傷腦筋的小豬仔啊…我說過讓你好好休息的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "都这么照顾妳了，再不好好听话之后要给妳惩罚了哦？",
+			say = "都這麼照顧你了，再不好好聽話之後要給你懲罰了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "啊~等感冒好了要怎么玩弄妳呢…光是想想就很让人兴奋呢~",
+			say = "啊~等感冒好了要怎麼玩弄你呢…光是想想就很讓人興奮呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,23 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "头很晕。看来是感冒了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "不过呢，虽说是妳在感冒休息，我的工作还是不能不做呢…",
+			say = "頭很暈。看來是感冒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +99,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "今天就通宵——边工作边照顾妳吧。小・猪・仔♪",
+			say = "不過呢，雖說是你在感冒休息，我的工作還是不能不做呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "为什么要叫妳小猪仔？怎么现在才问这种问题？",
+			say = "今天就通宵——邊工作邊照顧你吧。小・豬・仔♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,21 +131,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我捉弄起来好玩的都叫小猪仔哦。…不过宠物小猪仔就稍微不一样了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "阿贾克斯换下敷在额头的湿毛巾，还端来了粥碗（和勺子）。",
+			say = "為什麼要叫你小豬仔？怎麼現在才問這種問題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +147,37 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我给妳熬了粥，趁热吃吧？",
+			say = "我捉弄起來好玩的都叫小豬仔哦。…不過寵物小豬仔就稍微不一樣了呢。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "阿賈克斯換下敷在額頭的濕毛巾，還端來了碗粥（和勺子）。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#a9f548",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "我給你熬了粥，趁熱吃吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "来，张嘴吧？啊——。",
+			say = "來，張嘴吧？啊——。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			},
 			options = {
 				{
-					content = "张嘴",
+					content = "張嘴",
 					flag = 1
 				}
 			}
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "等等，还有点烫。……呼——",
+			say = "等等，還有點燙。……呼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "好了，再来一次，啊～？",
+			say = "好了，再來一次，啊～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "乖～刚才说到“宠物”是不一样吧，别看我这样，其实我很喜欢宠物的。",
+			say = "乖～剛才說到“寵物”是不一樣吧，別看我這樣，其實我很喜歡寵物的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "不过我养的宠物呢…呵呵，准确来说其实只有“一个”哦。所以呢……",
+			say = "不過我養的寵物呢…呵呵，準確來說其實只有“一個”哦。所以呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "要快点好起来哦，小猪仔♡",
+			say = "要快點好起來哦，小豬仔♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

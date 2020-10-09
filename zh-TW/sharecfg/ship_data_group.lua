@@ -3685,6 +3685,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[357] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 103,
+		group_type = 10709,
+		code = 357,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：特別演習·艾塞克斯級",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[380] = {
 		type = 7,
 		trans_skin = 0,
@@ -3714,6 +3745,68 @@ pg.ship_data_group = {
 					{
 						chapterid = 1304
 					}
+				},
+				0
+			}
+		}
+	},
+	[377] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 106,
+		group_type = 10722,
+		code = 377,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：特別演習·艾塞克斯級",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[378] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 108,
+		group_type = 10738,
+		code = 378,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：特別演習·艾塞克斯級",
+				{
+					""
 				},
 				0
 			}
@@ -12253,7 +12346,10 @@ pg.ship_data_group = {
 		77,
 		79,
 		78,
+		357,
 		380,
+		377,
+		378,
 		358,
 		342,
 		80,

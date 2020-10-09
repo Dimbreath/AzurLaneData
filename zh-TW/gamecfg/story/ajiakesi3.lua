@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>三 秘书舰的责任</size>",
+					"我的美好回憶\n\n<size=45>三 秘書艦的責任</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "以上就是今天的事务和演习的安排，以及各个警戒海域的情况报告。",
+			say = "以上就是今天的事務和演習的安排，以及各個警戒海域的情況報告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "学院的物资库存统计、商店到货商品的入库申请、接到的军事委托的整理、兵装的制造进度、设计图仓库的清点、",
+			say = "學院的物資庫存統計、商店到貨商品的入庫申請、接到的軍事委託的整理、兵裝的製造進度、設計圖倉庫的清點、",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "塞壬观测数据的提交、心智魔方的维护、最后是伊丽莎白陛下的公务辅助安排……",
+			say = "塞壬觀測數據的提交、心智魔方的維護、最後是伊莉莎白陛下的公務輔助安排……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "全都如报告书所述，顺利进行中。",
+			say = "全都如報告書所述，順利進行中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "好了，今天的秘书舰工作到此结束。指挥官，辛苦啦。",
+			say = "好了，今天的秘書艦工作到此結束。指揮官，辛苦啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			},
 			options = {
 				{
-					content = "向阿贾克斯道谢",
+					content = "向阿賈克斯道謝",
 					flag = 1
 				}
 			}
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "呵呵。这就是秘书舰的工作。指挥官只要放心坐在这里就行啦。",
+			say = "呵呵。這就是秘書艦的工作。指揮官只要放心坐在這裡就行啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "……晚饭和明天的早饭，妳会做的吧？还有房间的打扫",
+			say = "……晚飯和明天的早飯，你會做的吧？還有房間的打掃",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "明天是休息日，我打算和阿基里斯去买东西呢，麻烦妳早一点哦。",
+			say = "明天是休息日，我打算和阿基里斯去買東西呢，麻煩你早一點哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "阿贾克斯完成工作非常出色，但她作为秘书舰最大的特点却是——",
+			say = "阿賈克斯完成工作非常出色，但她作為秘書艦最大的特點卻是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "属于“打杂”范围的业务真的一点都不碰。",
+			say = "屬於“打雜”範圍的業務真的一點都不碰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "有什么不满吗？“秘书舰”份内的工作我可是都有好好完成的呢。",
+			say = "有什麼不滿嗎？“秘書艦”份內的工作我可是都有好好完成的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "还是说，指挥官想让我打杂？",
+			say = "還是說，指揮官想讓我打雜？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "呵呵，我也不是不能帮妳做一点点……不过指挥官的评分会掉哦？",
+			say = "呵呵，我也不是不能幫你做一點點……不過指揮官的評分會掉哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "再不然，让女仆队她们做也行啊？那样的话…就是不但把杂活推给秘书舰，连女仆队也不放过…了，是吧♪",
+			say = "再不然，讓女僕隊她們做也行啊？那樣的話…就是不但把雜活推給秘書艦，連女僕隊也不放過…了，是吧♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "这种事呀，应该是满怀喜悦地主动去做的才对吧？小猪仔♪",
+			say = "這種事呀，應該是滿懷喜悅地主動去做的才對吧？小豬仔♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "阿贾克斯，不擅长家务活。",
+			say = "阿賈克斯，不擅長家務活。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

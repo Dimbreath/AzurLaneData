@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，重櫻的{namecode:96}嗎，妳好",
+			say = "咳、咳咳，重櫻的瑞鶴嗎，妳好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哼哼，正好！遇到企業的話，幫我告訴她，就說{namecode:96}明天下午在演習海域等著她",
+			say = "哼哼，正好！遇到企業的話，幫我告訴她，就說瑞鹤明天下午在演習海域等著她",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			blackBg = true,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "…{namecode:96}，一直想要贏過前輩的那個人",
+			say = "…瑞鶴，一直想要贏過前輩的那個人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

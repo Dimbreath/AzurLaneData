@@ -353,6 +353,17 @@ pg.fleet_tech_ship_class = {
 			10704
 		}
 	},
+	[10606] = {
+		shiptype = 6,
+		name = "獨立級",
+		t_level = 4,
+		id = 10606,
+		t_level_1 = 30,
+		nation = 1,
+		ships = {
+			10722
+		}
+	},
 	[10701] = {
 		shiptype = 7,
 		name = "列星頓級",
@@ -397,7 +408,9 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 31,
 		nation = 1,
 		ships = {
-			10717
+			10709,
+			10717,
+			10738
 		}
 	},
 	[10801] = {
@@ -1742,6 +1755,7 @@ pg.fleet_tech_ship_class = {
 		10602,
 		10604,
 		10605,
+		10606,
 		10701,
 		10702,
 		10703,

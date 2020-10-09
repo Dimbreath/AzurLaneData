@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "喲，獨立！怎麼在這一個人發呆啊，是在煩惱剛才演習的事麼？",
+			say = "喲，獨立！怎麼在這一個人發呆啊，是在煩惱剛才演習的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

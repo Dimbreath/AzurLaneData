@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>六 逞强和真心・上</size>",
+					"我的美好回憶\n\n<size=45>六 逞強和真心・上</size>",
 					1
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "盖着被子的阿贾克斯脸上泛红，体温计的温度表明她正在发烧",
+			say = "蓋著被子的阿賈克斯臉上泛紅，體溫計的溫度表明她正在發燒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,23 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽说身体构造和人类不同，看来还是会感冒的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "感冒这东西真是伤脑筋…",
+			say = "雖說身體構造和人類不同，看來還是會感冒的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +67,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "秘书舰的工作也落下了，也没法找利安得学做饭…",
+			say = "感冒這東西真是傷腦筋…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +83,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是…没半点好处…",
+			say = "秘書艦的工作也落下了，也沒法找利安得學做飯…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,21 +99,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "还要让小猪仔看到这副样子……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "看来主动权不在自己手里就不大乐意……",
+			say = "真是…沒半點好處…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +115,21 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "要是平常…就该是我笑着玩弄病倒的小猪仔才对…",
+			say = "還要讓小豬仔看到這副樣子……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "看來主動權不在自己手裡就不大樂意……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "现在我反倒成被笑的那个了…今天妳就别管我了…嗯，既往不咎…",
+			say = "要是平常…就該是我笑著玩弄病倒的小豬仔才對…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "还是说…妳想着看我现在虚了，想要趁机报复我平常对妳的欺负？",
+			say = "現在我反倒成被笑的那個了…今天你就別管我了…嗯，既往不咎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "哼…平时总是欺负妳…说白了也是我自作自受。",
+			say = "還是說…你想著看我現在虛了，想要趁機報復我平常對你的欺負？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,21 +193,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "阿嚏！……要杀要剐悉听尊便吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "轻轻给阿贾克斯的额头敷上湿毛巾。",
+			say = "哼…平時總是欺負你…說白了也是我自作自受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +209,37 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "…诶…",
+			say = "阿嚏！……要殺要剮悉聽尊便吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "輕輕給阿賈克斯的額頭敷上濕毛巾。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#a9f548",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "…欸…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "妳…为什么…",
+			say = "你…為什麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉阿贾克斯这就是报复",
+					content = "告訴阿賈克斯這就是報復",
 					flag = 1
 				}
 			}
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是…随便妳了啦…呜…呜呜…",
+			say = "真是…隨便你了啦…嗚…嗚嗚…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "阿贾克斯把脸埋进了被子里。",
+			say = "阿賈克斯把臉埋進了被子裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

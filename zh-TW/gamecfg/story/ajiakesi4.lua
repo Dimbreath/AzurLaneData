@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>四 是敌是友？</size>",
+					"我的美好回憶\n\n<size=45>四 是敵是友？</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·通道",
+			say = "港區·通道",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "我经常在想…像这样巡逻的时候，还是要有点“事件”发生才好呢…",
+			say = "我經常在想…像這樣巡邏的時候，還是要有點“事件”發生才好呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
-			say = "指挥官不觉得吗？比如说…",
+			say = "指揮官不覺得嗎？比如說…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "手臂被阿贾克斯挽住了",
+			say = "手臂被阿賈克斯挽住了",
 			flashN = {
 				color = {
 					1,
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "感觉到柔软中带着坚硬的触感",
+			say = "感覺到柔軟中帶著堅硬的觸感",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "？在那里的是……",
+			say = "？在那裡的是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 403050,
 			nameColor = "#a9f548",
-			say = "阿贾克斯……",
+			say = "阿賈克斯……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，这不是斯佩吗。一个人散步吗？",
+			say = "哎呀，這不是施佩嗎。一個人散步嗎？",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "还是一如既往地坏心眼……指挥官真可怜。",
+			say = "還是一如既往地壞心眼……指揮官真可憐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "是吗。我倒是没看出来指挥官有多困扰啊？还是说斯佩也想像我这样？",
+			say = "是嗎。我倒是沒看出來指揮官有多困擾啊？還是說施佩也想像我這樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "我才没有…不像妳，我是不会捉弄指挥官的。不然铁血之名都要哭泣了。",
+			say = "我才沒有…不像妳，我是不會捉弄指揮官的。不然鐵血之名都要哭泣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "真敢说啊。明明就是手下败将。还是看到小猪仔这样所以吃醋了？",
+			say = "真敢說啊。明明就是手下敗將。還是看到小豬仔這樣所以吃醋了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "剑拔弩张的两人之间，仿佛空气中都能见到擦出的火花——并没有",
+			say = "劍拔弩張的兩人之間，彷彿空氣中都能見到擦出的火花——並沒有",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
-			say = "…呼…当我什么都没说吧。上次那家店，东西很好吃。下次也带我去吧？",
+			say = "…呼…當我什麼都沒說吧。上次那家店，東西很好吃。下次也帶我去吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			say = "好啊，那家店我也挺喜欢的。不过男性禁止入内所以……小猪仔是没法进去的呢♪",
+			say = "好啊，那家店我也挺喜歡的。不過男性禁止入內所以……小豬仔是沒法進去的呢♪",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "我知道…还有上次那件换装，传给希佩尔看了之后她不知道为什么很生气…不要紧吧…",
+			say = "我知道…還有上次那件換裝，傳給希佩爾看了之後她不知道為什麼很生氣…不要緊吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "不要紧啦。那套装备对“纯洁的男性”有特别的效果，比看上去更能提高战斗力哟，呵呵呵～",
+			say = "不要緊啦。那套裝備對“純潔的男性”有特別的效果，比看上去更能提高戰鬥力喲，呵呵呵～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "是、是这样啊…谢谢妳了，阿贾克斯。",
+			say = "是、是這樣啊…謝謝妳了，阿賈克斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "呵呵。还得去问问俄克拉荷马，有没有更好的店呢…",
+			say = "呵呵。還得去問問奧克拉荷馬，有沒有更好的店呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "不知不觉中被阿贾克斯放置play了……",
+			say = "不知不覺中被阿賈克斯放置play了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
