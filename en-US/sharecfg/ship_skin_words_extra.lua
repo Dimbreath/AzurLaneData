@@ -1171,7 +1171,7 @@ pg.ship_skin_words_extra = {
 		login = {
 			{
 				1100,
-				"Bonjour, Commander. Please relax and drink this tea while I carry out my morning prayers."
+				"Bonjour, Commander. Please relax and enjoy this tea while I finish my morning prayers."
 			}
 		},
 		home = {

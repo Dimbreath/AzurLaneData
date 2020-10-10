@@ -63104,7 +63104,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68001,
-		comfortable = 0,
+		comfortable = 4,
 		size = {
 			1,
 			1
@@ -63141,7 +63141,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68002,
-		comfortable = 0,
+		comfortable = 4,
 		size = {
 			1,
 			1
@@ -63178,7 +63178,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68101,
-		comfortable = 0,
+		comfortable = 2,
 		size = {
 			1,
 			1
@@ -63215,7 +63215,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68102,
-		comfortable = 0,
+		comfortable = 2,
 		size = {
 			2,
 			2
@@ -63252,7 +63252,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68103,
-		comfortable = 0,
+		comfortable = 2,
 		size = {
 			2,
 			8
@@ -63289,7 +63289,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68104,
-		comfortable = 0,
+		comfortable = 3,
 		size = {
 			5,
 			5
@@ -63326,7 +63326,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68105,
-		comfortable = 0,
+		comfortable = 2,
 		size = {
 			1,
 			3
@@ -63363,7 +63363,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68106,
-		comfortable = 0,
+		comfortable = 3,
 		size = {
 			5,
 			4
@@ -63400,7 +63400,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68107,
-		comfortable = 0,
+		comfortable = 2,
 		size = {
 			1,
 			1
@@ -63437,7 +63437,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68108,
-		comfortable = 0,
+		comfortable = 1,
 		size = {
 			1,
 			2
@@ -63474,7 +63474,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		id = 68109,
 		deblocking = 1,
-		comfortable = 0,
+		comfortable = 3,
 		size = {
 			8,
 			8
@@ -63525,7 +63525,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		id = 68110,
 		deblocking = 1,
-		comfortable = 0,
+		comfortable = 2,
 		size = {
 			3,
 			6
@@ -63576,7 +63576,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		id = 68111,
-		comfortable = 0,
+		comfortable = 3,
 		size = {
 			4,
 			7
@@ -63612,7 +63612,7 @@ pg.furniture_data_template = {
 		describe = "The fleet is coming through!",
 		id = 68112,
 		advice = 0,
-		comfortable = 0,
+		comfortable = 4,
 		belong = 1,
 		size = {
 			8,
@@ -63682,7 +63682,7 @@ pg.furniture_data_template = {
 		describe = "Oh hell no.",
 		id = 68113,
 		advice = 0,
-		comfortable = 0,
+		comfortable = 4,
 		belong = 1,
 		size = {
 			5,
@@ -63767,7 +63767,7 @@ pg.furniture_data_template = {
 		describe = "Curses, budget cuts.",
 		id = 68114,
 		advice = 0,
-		comfortable = 0,
+		comfortable = 4,
 		belong = 1,
 		size = {
 			7,
@@ -63838,7 +63838,7 @@ pg.furniture_data_template = {
 		describe = "Come forth, brave explorers!",
 		id = 68115,
 		advice = 0,
-		comfortable = 0,
+		comfortable = 4,
 		belong = 1,
 		size = {
 			10,

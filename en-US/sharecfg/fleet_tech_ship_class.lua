@@ -1670,7 +1670,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40103] = {
 		shiptype = 1,
-		name = "Type 1336A",
+		name = "Type 1936A",
 		t_level = 6,
 		id = 40103,
 		t_level_1 = 115,
@@ -1683,7 +1683,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40104] = {
 		shiptype = 1,
-		name = "Type 1336B",
+		name = "Type 1936B",
 		t_level = 7,
 		id = 40104,
 		t_level_1 = 116,
@@ -1695,7 +1695,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40105] = {
 		shiptype = 1,
-		name = "Type 1336C",
+		name = "Type 1936C",
 		t_level = 8,
 		id = 40105,
 		t_level_1 = 117,

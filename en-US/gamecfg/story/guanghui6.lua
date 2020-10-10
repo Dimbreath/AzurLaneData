@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 207030,
 			nameColor = "#a9f548",
-			say = "...And with this, they had finished cleaning.",
+			say = "...And with this, the cleaning is done.",
 			flashout = {
 				dur = 0.5,
 				black = true,

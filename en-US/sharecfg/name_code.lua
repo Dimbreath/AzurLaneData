@@ -872,8 +872,8 @@ pg.name_code = {
 	},
 	{
 		id = 175,
-		name = "Suruga ",
-		code = "Suruga "
+		name = "Suruga",
+		code = "Suruga"
 	},
 	{
 		id = 176,
@@ -907,13 +907,13 @@ pg.name_code = {
 	},
 	{
 		id = 182,
-		name = "Shinano ",
-		code = "Shinano "
+		name = "Shinano",
+		code = "Shinano"
 	},
 	{
 		id = 183,
-		name = "Taigei ",
-		code = "Taigei "
+		name = "Taigei",
+		code = "Taigei"
 	},
 	{
 		id = 184,
@@ -927,22 +927,22 @@ pg.name_code = {
 	},
 	{
 		id = 186,
-		name = "Fuyutsuki ",
-		code = "Fuyutsuki "
+		name = "Fuyutsuki",
+		code = "Fuyutsuki"
 	},
 	{
 		id = 187,
-		name = "Michitsuki ",
-		code = "Michitsuki "
+		name = "Michitsuki",
+		code = "Michitsuki"
 	},
 	{
 		id = 188,
-		name = "Kashino ",
-		code = "Kashino "
+		name = "Kashino",
+		code = "Kashino"
 	},
 	{
 		id = 189,
-		name = "Hatsuzuki ",
-		code = "Hatsuzuki "
+		name = "Hatsuzuki",
+		code = "Hatsuzuki"
 	}
 }

@@ -9510,7 +9510,6 @@ pg.ship_data_group = {
 		type = 1,
 		trans_skin = 301259,
 		trans_type = 0,
-		trans_radar_chart = "{'D','A','E','A','C','D'}",
 		handbook_type = 0,
 		redirect_id = 101,
 		nationality = 3,
@@ -9524,6 +9523,14 @@ pg.ship_data_group = {
 			"E",
 			"A",
 			"D",
+			"D"
+		},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
 			"D"
 		},
 		trans_skill = {
