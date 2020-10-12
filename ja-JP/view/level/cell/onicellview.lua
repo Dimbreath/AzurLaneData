@@ -46,6 +46,10 @@ function slot0.loadSpine(slot0, slot1)
 	slot0:LoadAttachments()
 
 	slot0.lastPrefab = slot0:getPrefab()
+
+	if slot1 then
+		slot1()
+	end
 end
 
 function slot0.unloadSpine(slot0)

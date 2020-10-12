@@ -1523,9 +1523,14 @@ pg.activity_shop_extra = {
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 103072,
-		scene = "",
 		id = 56,
 		order = 10,
+		scene = {
+			"scene shop",
+			{
+				warp = 1
+			}
+		},
 		time = {
 			{
 				{
@@ -1603,38 +1608,13 @@ pg.activity_shop_extra = {
 	[59] = {
 		num_limit = 1,
 		activity = 724,
+		time = "stop",
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 301181,
 		scene = "",
 		id = 59,
-		order = 10,
-		time = {
-			{
-				{
-					2020,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 10
 	},
 	all = {
 		1,

@@ -847,7 +847,7 @@ function slot0.getTouchSpineConfig(slot0)
 			slot4 = slot3[math.random(1, #slot3)]
 		end
 
-		return slot4, slot2[2], slot2[4], slot2[5], slot2[6]
+		return slot4, slot2[2], slot2[4], slot2[5], slot2[6], slot2[7]
 	end
 end
 
