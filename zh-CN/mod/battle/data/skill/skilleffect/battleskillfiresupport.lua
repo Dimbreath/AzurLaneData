@@ -18,7 +18,7 @@ function slot2.DoDataEffect(slot0, slot1, slot2)
 		slot3 = uv0.Battle.BattleTargetChoise[slot8](slot1, slot0._supportTargetArgList, nil)
 	end
 
-	slot5 = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1)
+	slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1)
 
 	if slot3[1] then
 		slot5:SetStandHost(slot4)
@@ -28,11 +28,17 @@ function slot2.DoDataEffect(slot0, slot1, slot2)
 		weapon = slot5
 	}))
 	slot5:updateMovementInfo()
-	slot5:SingleFire(slot2, slot0._emitter, function ()
-		uv0:Clear()
-	end)
+	slot5:SingleFire(slot2, slot0._emitter)
 end
 
 function slot2.DoDataEffectWithoutTarget(slot0, slot1)
 	slot0:DoDataEffect(slot1)
+end
+
+function slot2.Clear(slot0)
+	uv0.super.Clear(slot0)
+
+	if slot0._weapon then
+		slot0._weapon:Clear()
+	end
 end

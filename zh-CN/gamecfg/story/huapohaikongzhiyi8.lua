@@ -148,7 +148,7 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			side = 2,
+			side = 0,
 			actor = 102260,
 			dir = 1,
 			hideOther = true,
