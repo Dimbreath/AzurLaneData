@@ -342,8 +342,8 @@ pg.activity_event_worldboss = {
 			{
 				{
 					2020,
-					9,
-					30
+					10,
+					9
 				},
 				{
 					0,
@@ -355,7 +355,7 @@ pg.activity_event_worldboss = {
 				{
 					2020,
 					10,
-					9
+					22
 				},
 				{
 					23,

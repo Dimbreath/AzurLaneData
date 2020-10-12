@@ -40384,7 +40384,7 @@ pg.furniture_data_template = {
 	},
 	[41102] = {
 		can_rotate = 0,
-		describe = "綠色清檸旋轉杯",
+		describe = "綠色青檸旋轉杯",
 		gain_by = "",
 		type = 2,
 		dir = 0,
@@ -40899,7 +40899,7 @@ pg.furniture_data_template = {
 	},
 	[41113] = {
 		can_rotate = 0,
-		describe = "嚴禁聖地亞哥靠近此樹！",
+		describe = "嚴禁聖地牙哥靠近此樹！",
 		gain_by = "",
 		type = 2,
 		dir = 0,
@@ -40936,7 +40936,7 @@ pg.furniture_data_template = {
 	},
 	[41114] = {
 		can_rotate = 1,
-		describe = "冰淇凌小屋一日員工招募中",
+		describe = "冰淇淋小屋一日員工招募中",
 		gain_by = "",
 		type = 2,
 		dir = 0,

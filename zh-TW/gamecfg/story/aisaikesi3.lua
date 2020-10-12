@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明天——不，現在就開始製定訓練計劃吧！",
+			say = "明天——不，現在就開始制定訓練計劃吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

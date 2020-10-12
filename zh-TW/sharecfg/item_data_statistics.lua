@@ -13848,18 +13848,18 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！ <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+		display = "甜咖哩還是辣咖哩，這是一個問題！ <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "桂花糕",
+		name = "海軍咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/guihuagao",
+		icon = "Props/haijungali",
 		replace_item = 0,
 		display_icon = {},
 		price = {

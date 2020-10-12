@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哼哼，正好！遇到企業的話，幫我告訴她，就說瑞鹤明天下午在演習海域等著她",
+			say = "哼哼，正好！遇到企業的話，幫我告訴她，就說瑞鶴明天下午在演習海域等著她",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
