@@ -14753,7 +14753,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 20537,
-		is_show = 7,
+		is_show = 4,
 		title_res_tag = "Shinano_frame",
 		id = 20537,
 		config_data = {},
@@ -14872,7 +14872,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 2,
-		is_show = 6,
+		is_show = 3,
 		title_res_tag = "Neptune_catchup",
 		id = 20539,
 		config_data = {},
@@ -15021,7 +15021,7 @@ pg.activity_template = {
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 7,
+		is_show = 6,
 		config_client = "",
 		title_res_tag = "huiliu",
 		id = 20542,
@@ -15064,7 +15064,7 @@ pg.activity_template = {
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 8,
+		is_show = 7,
 		title_res_tag = "rolling_ball",
 		id = 20543,
 		config_data = {},
@@ -15410,7 +15410,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 10,
+		is_show = 9,
 		config_client = "",
 		title_res_tag = "Shinano_main",
 		id = 20550,
@@ -15511,7 +15511,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 20552,
-		is_show = 9,
+		is_show = 8,
 		title_res_tag = "Shinano_pt",
 		id = 20552,
 		config_data = {},
@@ -15852,7 +15852,7 @@ pg.activity_template = {
 		type = 0,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 3,
+		is_show = 1,
 		config_data = "",
 		config_client = "",
 		title_res_tag = "ur_exchange_item",
@@ -15907,7 +15907,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 4,
+		is_show = 2,
 		config_client = "",
 		title_res_tag = "ur_exchange_task",
 		id = 20562,
@@ -16138,7 +16138,7 @@ pg.activity_template = {
 		type = 14,
 		login_pop = 0,
 		config_id = 20,
-		is_show = 11,
+		is_show = 10,
 		title_res_tag = "yindi_main",
 		id = 20567,
 		config_data = {
@@ -16309,6 +16309,66 @@ pg.activity_template = {
 		page_info = {
 			class_name = "ThirdAnniversaryJPPage",
 			ui_name = "ThirdAnniversaryJPPage"
+		}
+	},
+	[20570] = {
+		mark = 20201012,
+		type = 33,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 11,
+		config_client = "",
+		title_res_tag = "",
+		id = 20570,
+		config_data = {
+			{
+				{
+					59926,
+					7
+				}
+			},
+			93880,
+			{
+				93881,
+				93881,
+				93881,
+				93881,
+				93881,
+				93881,
+				93881
+			},
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CardPairZQPage",
+			ui_name = "cardpairzqpage"
 		}
 	},
 	[25000] = {
@@ -17640,6 +17700,7 @@ pg.activity_template = {
 		20567,
 		20568,
 		20569,
+		20570,
 		25000,
 		25001,
 		25002,

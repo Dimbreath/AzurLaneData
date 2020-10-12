@@ -5,14 +5,19 @@ return {
 		ButtonName = "activityButton"
 	},
 	{
-		Image = "event_map",
+		forceRefreshImage = true,
 		ButtonName = "activity_map_btn",
+		Image = function ()
+			return getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot0:isEnd() and LoadSprite("ui/mainui_atlas", "event_map_" .. slot0.id) or LoadSprite("ui/mainui_atlas", "event_map")
+		end,
 		UpdateButton = function (slot0, slot1)
-			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot2:isEnd()
+			slot4 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
+				return not slot0:isEnd()
+			end) and not slot3:isEnd()
 
-			setActive(slot1, slot3)
+			setActive(slot1, slot4)
 
-			if slot3 then
+			if slot4 then
 				onButton(slot0, slot1, function ()
 					uv0:emit(MainUIMediator.ON_ACTIVITY_MAP, uv1.id)
 				end, SFX_PANEL)

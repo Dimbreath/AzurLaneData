@@ -987,5 +987,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "아마노 사토미",
 		code = 247
+	},
+	{
+		actor_name = "다카하시 하루카 ",
+		code = 248
 	}
 }

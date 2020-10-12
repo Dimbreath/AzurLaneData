@@ -2,7 +2,9 @@ slot0 = class("UrExchangeTaskPage", import("...base.BaseActivityPage"))
 
 function slot0.OnInit(slot0)
 	slot0.uilist = UIItemList.New(slot0:findTF("AD/task_list/content"), slot0:findTF("AD/task_list/content/tpl"))
-	slot0.getBtn = slot0:findTF("AD/get")
+	slot0.getBtn = slot0:findTF("AD/get_btn")
+	slot0.gotBtn = slot0:findTF("AD/got_btn")
+	slot0.unfinishBtn = slot0:findTF("AD/unfinish_btn")
 end
 
 function slot0.OnDataSetting(slot0)
@@ -22,6 +24,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot3 = _.map(slot0.activity:getConfig("config_data")[1], function (slot0)
 		return uv0:GetTaskById(slot0)
 	end)
+	slot4 = table.remove(slot3, #slot3)
 
 	function slot5(slot0)
 		if slot0:isFinish() and not slot0:isReceive() then
@@ -43,7 +46,8 @@ function slot0.OnUpdateFlush(slot0)
 	end)
 	slot0.uilist:align(#slot3)
 
-	slot6 = table.remove(slot3, #slot3):isFinish() and not slot4:isReceive() and _.all(slot3, function (slot0)
+	slot7 = slot4:isReceive()
+	slot9 = slot4:isFinish() and not slot7 and _.all(slot3, function (slot0)
 		return slot0:isFinish() and slot0:isReceive()
 	end)
 
@@ -52,8 +56,9 @@ function slot0.OnUpdateFlush(slot0)
 			uv1:emit(ActivityMediator.ON_TASK_SUBMIT, uv2)
 		end
 	end, SFX_PANEL)
-	setButtonEnabled(slot0.getBtn, slot6)
-	setActive(slot0.getBtn:Find("mark"), slot6)
+	setActive(slot0.getBtn, slot9)
+	setActive(slot0.unfinishBtn, not slot9 and not slot7)
+	setActive(slot0.gotBtn, slot7)
 end
 
 function slot0.GetTaskById(slot0, slot1)

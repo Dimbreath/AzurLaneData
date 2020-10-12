@@ -18,7 +18,7 @@ end
 function slot8.InitBattle(slot0, slot1)
 	slot0.Update = slot0.updateInit
 
-	slot0:SetupCalculateDamage()
+	slot0:SetupCalculateDamage(pg.SdkMgr.GetInstance():CheckPretest() and (PlayerPrefs.GetInt("stage_scratch") or 0) == 1 and GodenFnger or nil)
 	slot0:SetupDamageKamikazeAir()
 	slot0:SetupDamageKamikazeShip()
 	slot0:SetupDamageCrush()

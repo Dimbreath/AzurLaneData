@@ -11937,7 +11937,7 @@ pg.equip_data_statistics = {
 		name = "\"94식 40cm 포\" 부속",
 		tech = 0,
 		type = 18,
-		speciality = "无",
+		speciality = "없음",
 		id = 3400,
 		value_2 = 0,
 		icon = "3400",
@@ -11945,7 +11945,7 @@ pg.equip_data_statistics = {
 		descrip = "사쿠라 엠파이어가 연구 개발한 \"94식 40cm 포\"의 부품",
 		rarity = 5,
 		nationality = 3,
-		ammo = "无",
+		ammo = "없음",
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -12046,7 +12046,7 @@ pg.equip_data_statistics = {
 		name = "군장 보급(항공)",
 		tech = 0,
 		type = 18,
-		speciality = "无",
+		speciality = "없음",
 		id = 3500,
 		value_2 = 0,
 		icon = "3500",
@@ -12054,7 +12054,7 @@ pg.equip_data_statistics = {
 		descrip = "운송함이 장비하는 항공 군장 보급",
 		rarity = 4,
 		nationality = 0,
-		ammo = "无",
+		ammo = "없음",
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -12147,6 +12147,224 @@ pg.equip_data_statistics = {
 	[3510] = {
 		base = 3500,
 		id = 3510,
+		value_1 = "550",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3520] = {
+		name = "군장 보급(중소구경 무기) ",
+		tech = 0,
+		type = 18,
+		speciality = "없음",
+		id = 3520,
+		value_2 = 0,
+		icon = "3520",
+		value_1 = "250",
+		descrip = "운송함이 장비하는 화포 군장 보급 ",
+		rarity = 4,
+		nationality = 0,
+		ammo = "없음",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6670
+		},
+		part_main = {
+			19
+		},
+		part_sub = {
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"GDS"
+		}
+	},
+	[3521] = {
+		base = 3520,
+		id = 3521,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3522] = {
+		base = 3520,
+		id = 3522,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3523] = {
+		base = 3520,
+		id = 3523,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3524] = {
+		base = 3520,
+		id = 3524,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3525] = {
+		base = 3520,
+		id = 3525,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3526] = {
+		base = 3520,
+		id = 3526,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3527] = {
+		base = 3520,
+		id = 3527,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3528] = {
+		base = 3520,
+		id = 3528,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3529] = {
+		base = 3520,
+		id = 3529,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3530] = {
+		base = 3520,
+		id = 3530,
+		value_1 = "550",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3540] = {
+		name = "군장 보급(어뢰) ",
+		tech = 0,
+		type = 18,
+		speciality = "없음",
+		id = 3540,
+		value_2 = 0,
+		icon = "3540",
+		value_1 = "250",
+		descrip = "운송함이 장비하는 어뢰 군장 보급 ",
+		rarity = 4,
+		nationality = 0,
+		ammo = "없음",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6680
+		},
+		part_main = {
+			19
+		},
+		part_sub = {
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"GDS"
+		}
+	},
+	[3541] = {
+		base = 3540,
+		id = 3541,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3542] = {
+		base = 3540,
+		id = 3542,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3543] = {
+		base = 3540,
+		id = 3543,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3544] = {
+		base = 3540,
+		id = 3544,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3545] = {
+		base = 3540,
+		id = 3545,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3546] = {
+		base = 3540,
+		id = 3546,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3547] = {
+		base = 3540,
+		id = 3547,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3548] = {
+		base = 3540,
+		id = 3548,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3549] = {
+		base = 3540,
+		id = 3549,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3550] = {
+		base = 3540,
+		id = 3550,
 		value_1 = "550",
 		torpedo_ammo = 0,
 		property_rate = {}
@@ -94129,6 +94347,28 @@ pg.equip_data_statistics = {
 		3508,
 		3509,
 		3510,
+		3520,
+		3521,
+		3522,
+		3523,
+		3524,
+		3525,
+		3526,
+		3527,
+		3528,
+		3529,
+		3530,
+		3540,
+		3541,
+		3542,
+		3543,
+		3544,
+		3545,
+		3546,
+		3547,
+		3548,
+		3549,
+		3550,
 		4000,
 		4001,
 		4002,

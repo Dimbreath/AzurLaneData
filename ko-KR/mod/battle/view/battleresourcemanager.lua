@@ -468,7 +468,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 						return
 					end
 
-					Ship.SetExpression(slot0, uv3)
+					ShipExpressionHelper.SetExpression(slot0, uv3)
 					slot0:SetActive(false)
 
 					if uv1._resCacheList then

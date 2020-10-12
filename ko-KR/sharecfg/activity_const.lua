@@ -352,7 +352,7 @@ pg.activity_const = {
 		act_id = 20272
 	},
 	CARDPAIR_ZQ = {
-		act_id = 20273
+		act_id = 20570
 	},
 	CHUIXUE_RE_PT = {
 		act_id = 378

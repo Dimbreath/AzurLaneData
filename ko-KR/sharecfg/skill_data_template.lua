@@ -4112,7 +4112,7 @@ pg.skill_data_template = {
 	[3611] = {
 		desc_get = "",
 		name = "울프팩",
-		desc = "출격 시 함대에 메탈 블러드 잠수함이 편성되어 있을 경우, 메탈 블러드 잠수함 1대당 자신의 뇌장, 장전 수치가 $1 상승한다. ",
+		desc = "출격 시 함대에 메탈 블러드 잠수함이 편성되어 있을 경우, 메탈 블러드 잠수함 1대당 자신의 뇌장, 명중, 장전 수치가 $1 상승한다. ",
 		type = 1,
 		max_level = 10,
 		id = 3611,
@@ -7176,6 +7176,28 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 6660,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6670] = {
+		desc_get = "",
+		name = "중소구경 군장 보급",
+		desc = "운송함이 장비 시, 전열 함대 함선의 화력이 8% 상승한다(초갑순양함 제외).",
+		type = 0,
+		max_level = 0,
+		id = 6670,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6680] = {
+		desc_get = "",
+		name = "어뢰 군장 보급 ",
+		desc = "운송함이 장비 시, 편대의 모든 함선의 뇌장이 8% 상승한다. ",
+		type = 0,
+		max_level = 0,
+		id = 6680,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -45085,7 +45107,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29591,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29593
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -45096,7 +45120,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29592,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29594
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -49167,6 +49193,8 @@ pg.skill_data_template = {
 		6620,
 		6650,
 		6660,
+		6670,
+		6680,
 		7000,
 		9030,
 		9031,

@@ -36,6 +36,7 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0.wordData = {
+		maxfavor = 0,
 		cvKey = slot5,
 		cvPath = slot6,
 		textContent = slot7,

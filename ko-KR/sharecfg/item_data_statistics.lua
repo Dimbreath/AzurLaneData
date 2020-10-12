@@ -102050,6 +102050,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59926] = {
+		display = "7개를 모으면 좋은 일이 일어날지도? ",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "월병 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 5,
+		link_id = 20570,
+		id = 59926,
+		icon = "props/zhongqiufanpai",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59930] = {
 		display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 		rarity = 2,
@@ -107536,6 +107554,7 @@ pg.item_data_statistics = {
 		59923,
 		59924,
 		59925,
+		59926,
 		59930,
 		59931,
 		59932,

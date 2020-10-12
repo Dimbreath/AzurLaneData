@@ -348,7 +348,7 @@ function slot0.GetPainting(slot0, slot1, slot2, slot3)
 	slot0:FromPlural(slot4, slot1, slot2, 1, function (slot0)
 		slot0:SetActive(true)
 
-		if Ship.DefaultFaceless(uv0) then
+		if ShipExpressionHelper.DefaultFaceless(uv0) then
 			setActive(tf(slot0):Find("face"), true)
 		end
 

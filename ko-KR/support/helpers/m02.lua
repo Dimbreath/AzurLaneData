@@ -297,7 +297,7 @@ function setPaintingPrefab(slot0, slot1, slot2, slot3)
 			setActive(slot2, HXSet.isHx())
 		end
 
-		Ship.SetExpression(uv0:GetChild(0), uv1)
+		ShipExpressionHelper.SetExpression(uv0:GetChild(0), uv1)
 	end)
 end
 
@@ -331,7 +331,7 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 
 			uv1[uv0] = nil
 
-			Ship.SetExpression(slot0, uv4)
+			ShipExpressionHelper.SetExpression(slot0, uv4)
 		end
 
 		if not IsNil(findTF(slot0, "Touch")) then
