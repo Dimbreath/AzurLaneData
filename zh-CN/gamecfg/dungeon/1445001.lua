@@ -214,7 +214,9 @@ return {
 									switchType = 1,
 									setAI = 70112,
 									addWeapon = {},
-									removeWeapon = {}
+									removeWeapon = {
+										695005
+									}
 								},
 								{
 									switchParam = 2,

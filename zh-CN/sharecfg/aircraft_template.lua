@@ -18422,6 +18422,170 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[65061] = {
+		name = "普林斯顿技能鱼雷机Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1615,
+		speed = 48,
+		id = 65061,
+		scale = 1,
+		weapon_ID = {
+			65071
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[65062] = {
+		max_hp = 47,
+		name = "普林斯顿技能鱼雷机Lv2",
+		base = 65061,
+		id = 65062,
+		hp_growth = 1826,
+		weapon_ID = {
+			65072
+		}
+	},
+	[65063] = {
+		max_hp = 53,
+		name = "普林斯顿技能鱼雷机Lv3",
+		base = 65061,
+		id = 65063,
+		hp_growth = 2036,
+		weapon_ID = {
+			65073
+		}
+	},
+	[65064] = {
+		max_hp = 58,
+		name = "普林斯顿技能鱼雷机Lv4",
+		base = 65061,
+		id = 65064,
+		hp_growth = 2247,
+		weapon_ID = {
+			65074
+		}
+	},
+	[65065] = {
+		max_hp = 64,
+		name = "普林斯顿技能鱼雷机Lv5",
+		base = 65061,
+		id = 65065,
+		hp_growth = 2458,
+		weapon_ID = {
+			65075
+		}
+	},
+	[65066] = {
+		max_hp = 69,
+		name = "普林斯顿技能鱼雷机Lv6",
+		base = 65061,
+		id = 65066,
+		hp_growth = 2669,
+		weapon_ID = {
+			65076
+		}
+	},
+	[65067] = {
+		max_hp = 75,
+		name = "普林斯顿技能鱼雷机Lv7",
+		base = 65061,
+		id = 65067,
+		hp_growth = 2879,
+		weapon_ID = {
+			65077
+		}
+	},
+	[65068] = {
+		max_hp = 80,
+		name = "普林斯顿技能鱼雷机Lv8",
+		base = 65061,
+		id = 65068,
+		hp_growth = 3090,
+		weapon_ID = {
+			65078
+		}
+	},
+	[65069] = {
+		max_hp = 86,
+		name = "普林斯顿技能鱼雷机Lv9",
+		base = 65061,
+		id = 65069,
+		hp_growth = 3301,
+		weapon_ID = {
+			65079
+		}
+	},
+	[65070] = {
+		max_hp = 91,
+		name = "普林斯顿技能鱼雷机Lv10",
+		base = 65061,
+		id = 65070,
+		hp_growth = 3511,
+		weapon_ID = {
+			65080
+		}
+	},
 	[66240] = {
 		name = "山城改技能Lv0",
 		max_hp = 27,
@@ -99394,6 +99558,302 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[711021] = {
+		name = "【2020普林斯顿SP2】BOSS 大凤 红色弹幕战斗机",
+		max_hp = 120,
+		accuracy = 50,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 75,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2400,
+		speed = 33,
+		id = 711021,
+		scale = 0.75,
+		weapon_ID = {
+			711023
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[711022] = {
+		name = "【2020普林斯顿SP2】BOSS 大凤 地毯式轰炸机",
+		max_hp = 480,
+		accuracy = 50,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 172,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 711022,
+		scale = 0.75,
+		weapon_ID = {
+			711024
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[712022] = {
+		name = "【2020普林斯顿SP3】BOSS 通用战斗机",
+		max_hp = 141,
+		accuracy = 23,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 79,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 712022,
+		scale = 0.75,
+		weapon_ID = {
+			712024
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[712023] = {
+		name = "【2020普林斯顿SP3】BOSS 通用轰炸机",
+		max_hp = 154,
+		accuracy = 23,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 114,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2880,
+		speed = 30,
+		id = 712023,
+		scale = 0.75,
+		weapon_ID = {
+			712025
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[750000] = {
 		name = "空袭-轰炸机",
 		max_hp = 180,
@@ -126525,6 +126985,376 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[1101020] = {
+		name = "新日系舰载轰炸机——高爆弹药1",
+		max_hp = 80,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2280,
+		speed = 30,
+		id = 1101020,
+		scale = 0.75,
+		weapon_ID = {
+			1101035
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101021] = {
+		name = "新日系舰载轰炸机——高爆弹药2",
+		max_hp = 110,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2660,
+		speed = 30,
+		id = 1101021,
+		scale = 0.75,
+		weapon_ID = {
+			1101036
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101022] = {
+		name = "新日系舰载轰炸机——高爆弹药3",
+		max_hp = 140,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 110,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3040,
+		speed = 30,
+		id = 1101022,
+		scale = 0.75,
+		weapon_ID = {
+			1101037
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101023] = {
+		name = "新日系舰载轰炸机——高爆弹药4",
+		max_hp = 170,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		id = 1101023,
+		scale = 0.75,
+		weapon_ID = {
+			1101038
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101024] = {
+		name = "新日系舰载轰炸机——高爆弹药5",
+		max_hp = 200,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		id = 1101024,
+		scale = 0.75,
+		weapon_ID = {
+			1101039
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	all = {
 		109,
 		110,
@@ -127441,6 +128271,16 @@ pg.aircraft_template = {
 		61022,
 		61023,
 		61024,
+		65061,
+		65062,
+		65063,
+		65064,
+		65065,
+		65066,
+		65067,
+		65068,
+		65069,
+		65070,
 		66240,
 		66241,
 		66242,
@@ -129209,6 +130049,10 @@ pg.aircraft_template = {
 		700039,
 		700040,
 		700041,
+		711021,
+		711022,
+		712022,
+		712023,
 		750000,
 		750001,
 		750002,
@@ -129573,6 +130417,11 @@ pg.aircraft_template = {
 		1101011,
 		1101012,
 		1101013,
-		1101014
+		1101014,
+		1101020,
+		1101021,
+		1101022,
+		1101023,
+		1101024
 	}
 }

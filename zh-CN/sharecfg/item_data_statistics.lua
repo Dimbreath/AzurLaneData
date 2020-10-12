@@ -29818,18 +29818,18 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "用相传从月宫里摘下来的桂花制成的糕点，香甜可口！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "桂花糕",
+		name = "海军咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/guihuagao",
+		icon = "Props/haijungali",
 		replace_item = 0,
 		display_icon = {},
 		price = {
@@ -105953,6 +105953,652 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[58028] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58028,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				7,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				26,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58029] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58029,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				10070,
+				1
+			},
+			{
+				2,
+				10087,
+				1
+			},
+			{
+				2,
+				10088,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58030] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58030,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10001,
+				1
+			},
+			{
+				2,
+				10066,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			},
+			{
+				2,
+				10069,
+				1
+			},
+			{
+				2,
+				11023,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58031] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58031,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				7,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				26,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58032] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58032,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				10070,
+				1
+			},
+			{
+				2,
+				10087,
+				1
+			},
+			{
+				2,
+				10088,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58033] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58033,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10001,
+				1
+			},
+			{
+				2,
+				10066,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			},
+			{
+				2,
+				10069,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58034] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58034,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				102091,
+				1
+			},
+			{
+				4,
+				103071,
+				1
+			},
+			{
+				4,
+				103061,
+				1
+			},
+			{
+				4,
+				103041,
+				1
+			},
+			{
+				4,
+				101051,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58035] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58035,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				107051,
+				1
+			},
+			{
+				4,
+				107021,
+				1
+			},
+			{
+				4,
+				305021,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				103031,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101241,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58036] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58036,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				307031,
+				1
+			},
+			{
+				4,
+				307041,
+				1
+			},
+			{
+				4,
+				301131,
+				1
+			},
+			{
+				4,
+				305041,
+				1
+			},
+			{
+				4,
+				305031,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "参与角色将获得经验值",
 		rarity = 2,
@@ -107586,6 +108232,24 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59180,
 		icon = "Props/xunliandianshu_s",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59183] = {
+		display = "用于『划破海空之翼』活动兑换，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "翼之徽",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59183,
+		icon = "Props/pulinsidun_pt",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -116738,6 +117402,15 @@ pg.item_data_statistics = {
 		58025,
 		58026,
 		58027,
+		58028,
+		58029,
+		58030,
+		58031,
+		58032,
+		58033,
+		58034,
+		58035,
+		58036,
 		59000,
 		59001,
 		59002,
@@ -116829,6 +117502,7 @@ pg.item_data_statistics = {
 		59181,
 		59182,
 		59180,
+		59183,
 		59601,
 		59602,
 		59603,

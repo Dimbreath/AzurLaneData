@@ -13,6 +13,7 @@ function slot3.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._splitCount = 0
+	slot0._cacheEmitter = {}
 
 	slot0:ChangeShrapnelState(slot0.STATE_NORMAL)
 end
@@ -104,4 +105,22 @@ end
 function slot3.SetExplodePosition(slot0, slot1)
 	slot0._explodePos = Clone(slot1)
 	slot0._explodePos.y = uv0.BombDetonateHeight
+end
+
+function slot3.CacheChildEimtter(slot0, slot1)
+	table.insert(slot0._cacheEmitter, slot1)
+end
+
+function slot3.interruptChildEmitter(slot0)
+	for slot4, slot5 in ipairs(slot0._cacheEmitter) do
+		slot5:Destroy()
+	end
+end
+
+function slot3.Dispose(slot0)
+	slot0:interruptChildEmitter()
+
+	slot0._cacheEmitter = nil
+
+	uv0.super.Dispose(slot0)
 end

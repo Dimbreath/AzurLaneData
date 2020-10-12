@@ -528,6 +528,17 @@ pg.task_data_trigger = {
 			}
 		}
 	},
+	[52] = {
+		group_id = 20402,
+		id = 52,
+		activity_id = 2049,
+		args = {
+			{
+				1,
+				5531
+			}
+		}
+	},
 	all = {
 		1,
 		3,
@@ -576,6 +587,7 @@ pg.task_data_trigger = {
 		48,
 		49,
 		50,
-		51
+		51,
+		52
 	}
 }

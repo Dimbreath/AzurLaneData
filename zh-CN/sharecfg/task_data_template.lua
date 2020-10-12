@@ -19902,6 +19902,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5531] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5387,
+		type = 5,
+		name = "开朗活泼的秘书舰",
+		count_inherit = 0,
+		desc = "提交3个《鱼雷天妇罗》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "fanji",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5532",
+		visibility = 1,
+		story_id = "FANJI1",
+		target_id_for_client = 50003,
+		id = 5531,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5532] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5388,
+		type = 5,
+		name = "姐妹与指挥官",
+		count_inherit = 0,
+		desc = "强化任意角色10次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "fanji",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5533",
+		visibility = 1,
+		story_id = "FANJI2",
+		target_id_for_client = 0,
+		id = 5532,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5533] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5389,
+		type = 5,
+		name = "“敏锐”的朋友",
+		count_inherit = 0,
+		desc = "反击上阵出击(关卡)胜利20次",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "fanji",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5534",
+		visibility = 1,
+		story_id = "FANJI3",
+		target_id_for_client = 20402,
+		id = 5533,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20402",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5534] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5390,
+		type = 5,
+		name = "踌躇的思考",
+		count_inherit = 0,
+		desc = "反击上阵完成3次每日挑战",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "fanji",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5535",
+		visibility = 1,
+		story_id = "FANJI4",
+		target_id_for_client = 20402,
+		id = 5534,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20402",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5535] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5391,
+		type = 5,
+		name = "擦肩而过",
+		count_inherit = 0,
+		desc = "反击好感度达到100",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "fanji",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5536",
+		visibility = 1,
+		story_id = "FANJI5",
+		target_id_for_client = 20402,
+		id = 5535,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20402",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5536] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5392,
+		type = 5,
+		name = "耀眼的笑容",
+		count_inherit = 0,
+		desc = "反击突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "fanji",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5537",
+		visibility = 1,
+		story_id = "FANJI6",
+		target_id_for_client = 204024,
+		id = 5536,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "204024",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5537] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5393,
+		type = 5,
+		name = "选择的理由",
+		count_inherit = 0,
+		desc = "反击等级达到100",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "fanji",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "FANJI7",
+		target_id_for_client = 20402,
+		id = 5537,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20402",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -74044,6 +74307,39 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14676] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91196,
+		type = 6,
+		name = "『限界挑战7』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14676,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				207,
+				1
+			}
+		}
+	},
 	[14700] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -110946,6 +111242,246 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15986] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93901,
+		type = 6,
+		name = "【普林斯顿SP】地图任务1",
+		count_inherit = 0,
+		desc = "通关SP1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15987",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420001,
+		id = 15986,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15987] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93902,
+		type = 6,
+		name = "【普林斯顿SP】地图任务2",
+		count_inherit = 0,
+		desc = "通关SP2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15988",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420002,
+		id = 15987,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15988] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93903,
+		type = 6,
+		name = "【普林斯顿SP】地图任务3",
+		count_inherit = 0,
+		desc = "通关SP3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420003,
+		id = 15988,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15989] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93904,
+		type = 6,
+		name = "【普林斯顿SP】地图任务4",
+		count_inherit = 0,
+		desc = "完成SP1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15990",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420001,
+		id = 15989,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15990] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93905,
+		type = 6,
+		name = "【普林斯顿SP】地图任务5",
+		count_inherit = 0,
+		desc = "完成SP2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15991",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420002,
+		id = 15990,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15991] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93906,
+		type = 6,
+		name = "【普林斯顿SP】地图任务6",
+		count_inherit = 0,
+		desc = "完成SP3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420003,
+		id = 15991,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[16000] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -124353,6 +124889,13 @@ pg.task_data_template = {
 		5525,
 		5526,
 		5527,
+		5531,
+		5532,
+		5533,
+		5534,
+		5535,
+		5536,
+		5537,
 		6001,
 		6002,
 		6003,
@@ -125842,6 +126385,7 @@ pg.task_data_template = {
 		14673,
 		14674,
 		14675,
+		14676,
 		14700,
 		14701,
 		14702,
@@ -126787,6 +127331,12 @@ pg.task_data_template = {
 		15983,
 		15984,
 		15985,
+		15986,
+		15987,
+		15988,
+		15989,
+		15990,
+		15991,
 		16000,
 		16001,
 		16002,
