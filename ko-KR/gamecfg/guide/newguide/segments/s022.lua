@@ -53,7 +53,7 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				text = "근해 연습</color>에 다시 도전해보자!",
+				text = "<color=#ff7d36>근해 연습</color>에 다시 도전해보자!",
 				mode = 2,
 				dir = -1,
 				posY = 0,
