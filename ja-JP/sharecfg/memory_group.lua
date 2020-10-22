@@ -1748,7 +1748,7 @@ pg.memory_group = {
 		}
 	},
 	[190] = {
-		title = "海空を切裂く翼",
+		title = "奔る彩帆の青",
 		type = 2,
 		id = 190,
 		icon = "title_event",

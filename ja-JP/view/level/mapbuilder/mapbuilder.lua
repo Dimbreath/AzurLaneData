@@ -16,7 +16,13 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.buffer = setmetatable({}, {
 		__index = function (slot0, slot1)
 			return function (slot0, ...)
-				uv0:ActionInvoke(uv1, ...)
+				if uv0 == "UpdateMapItems" and underscore.any(uv1._funcQueue, function (slot0)
+					return slot0.funcName == uv0
+				end) then
+					return
+				end
+
+				uv1:ActionInvoke(uv0, ...)
 			end
 		end,
 		__newindex = function ()

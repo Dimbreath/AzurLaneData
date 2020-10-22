@@ -106336,6 +106336,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59184] = {
+		display = "ミニイベント「お菓子と魔法の夜」で入手可能。7つ入手するとラドフォードの着せ替え「キャンディマジック！」と交換できます",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "マジックキャンディ！",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59184,
+		icon = "props/candymagic",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 		rarity = 2,
@@ -115490,6 +115508,7 @@ pg.item_data_statistics = {
 		59181,
 		59182,
 		59183,
+		59184,
 		59601,
 		59602,
 		59603,

@@ -10546,297 +10546,97 @@ pg.shop_template = {
 	[70017] = {
 		group_type = 0,
 		resource_num = 600,
-		desc = "着せ替え衣装「夜回りウィッチ」を購入",
+		desc = "购买皮肤:万圣节·祥凤",
 		type = 6,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 4,
+		time = "always",
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70017,
 		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
+		discount_time = {},
 		limit_args = {},
 		effect_args = {
 			306051
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70018] = {
 		group_type = 0,
 		resource_num = 800,
-		desc = "着せ替え衣装「デビルフィーバー」を購入",
+		desc = "购买皮肤:万圣节·克利夫兰",
 		type = 6,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 4,
+		time = "always",
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70018,
 		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
+		discount_time = {},
 		limit_args = {},
 		effect_args = {
 			102091
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70019] = {
 		group_type = 0,
 		resource_num = 700,
-		desc = "着せ替え衣装「宵闇待ちの魔女」を購入",
+		desc = "购买皮肤:万圣节·绫波",
 		type = 6,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 4,
+		time = "always",
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70019,
 		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
+		discount_time = {},
 		limit_args = {},
 		effect_args = {
 			301051
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70020] = {
 		group_type = 0,
 		resource_num = 600,
-		desc = "着せ替え衣装「南瓜諸聖祭じゃ！」を購入",
+		desc = "购买皮肤:万圣节·阳炎",
 		type = 6,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 4,
+		time = "always",
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70020,
 		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
+		discount_time = {},
 		limit_args = {},
 		effect_args = {
 			301171
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70021] = {
@@ -15132,7 +14932,8 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 4,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -15143,32 +14944,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			302051
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70115] = {
@@ -15181,7 +14956,8 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 4,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -15192,32 +14968,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			213021
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70116] = {
@@ -15230,7 +14980,8 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 4,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -15241,32 +14992,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			205031
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70117] = {
@@ -22222,7 +21947,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 2,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -22238,8 +21963,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					10,
+					22
 				},
 				{
 					0,
@@ -22251,7 +21976,7 @@ pg.shop_template = {
 				{
 					2020,
 					10,
-					11
+					28
 				},
 				{
 					23,
@@ -22271,7 +21996,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -22287,8 +22012,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					10,
+					22
 				},
 				{
 					0,
@@ -22300,7 +22025,7 @@ pg.shop_template = {
 				{
 					2020,
 					10,
-					11
+					28
 				},
 				{
 					23,
@@ -22320,7 +22045,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -22336,8 +22061,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					10,
+					22
 				},
 				{
 					0,
@@ -22349,7 +22074,7 @@ pg.shop_template = {
 				{
 					2020,
 					10,
-					11
+					28
 				},
 				{
 					23,
@@ -22369,7 +22094,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -22385,8 +22110,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					10,
+					22
 				},
 				{
 					0,
@@ -22398,7 +22123,7 @@ pg.shop_template = {
 				{
 					2020,
 					10,
-					11
+					28
 				},
 				{
 					23,
@@ -22418,7 +22143,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -22434,8 +22159,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					10,
+					22
 				},
 				{
 					0,
@@ -22447,7 +22172,7 @@ pg.shop_template = {
 				{
 					2020,
 					10,
-					11
+					28
 				},
 				{
 					23,
@@ -22467,7 +22192,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -22483,8 +22208,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					10,
+					22
 				},
 				{
 					0,
@@ -22496,7 +22221,7 @@ pg.shop_template = {
 				{
 					2020,
 					10,
-					11
+					28
 				},
 				{
 					23,
@@ -30591,6 +30316,153 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70434] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:长岛万圣节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70434,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			106013
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70435] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:威奇塔万圣节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70435,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103112
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70443] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:本森万圣节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70443,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101161
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -33556,6 +33428,9 @@ pg.shop_template = {
 		70431,
 		70432,
 		70433,
+		70434,
+		70435,
+		70443,
 		90001,
 		90002,
 		90003,

@@ -5423,7 +5423,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -5494,7 +5495,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -5591,7 +5593,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,

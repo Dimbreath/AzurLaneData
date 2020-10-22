@@ -4627,6 +4627,7 @@ pg.activity_template = {
 	[731] = {
 		mark = 20201012,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -4638,37 +4639,11 @@ pg.activity_template = {
 			1420001,
 			1420002,
 			1420003
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[732] = {
 		mark = 20201012,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 732,
@@ -4676,33 +4651,6 @@ pg.activity_template = {
 		title_res_tag = "Princeton_pt",
 		id = 732,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "PrincetonPtPage",
 			ui_name = "PrincetonPtPage"
@@ -4753,6 +4701,7 @@ pg.activity_template = {
 	[734] = {
 		mark = 20201012,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -4767,33 +4716,6 @@ pg.activity_template = {
 			15989,
 			15990,
 			15991
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[735] = {
@@ -4928,6 +4850,7 @@ pg.activity_template = {
 	[738] = {
 		mark = 20201012,
 		page_info = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -4935,33 +4858,6 @@ pg.activity_template = {
 		config_data = "activity_drop_738",
 		title_res_tag = "",
 		id = 738,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
@@ -4973,6 +4869,151 @@ pg.activity_template = {
 				"ノーマル：30%",
 				"<color=#d797ff>プリンストン</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
+		}
+	},
+	[740] = {
+		mark = 20201022,
+		type = 54,
+		login_pop = 0,
+		config_id = 740,
+		is_show = 6,
+		title_res_tag = "mengfeisipifu",
+		id = 740,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MemphisHalloweenPage",
+			ui_name = "memphishalloweenpage"
+		},
+		config_client = {
+			story = {
+				{
+					"MENGFEISIWANSHENG1"
+				},
+				{
+					"MENGFEISIWANSHENG2"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG3"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG4"
+				},
+				{
+					"MENGFEISIWANSHENG5"
+				}
+			}
+		}
+	},
+	[741] = {
+		mark = 20201022,
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 741,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[742] = {
+		mark = 20201022,
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 7,
+		title_res_tag = "sign_halloween",
+		id = 742,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SignHalloweenPage",
+			ui_name = "SignHalloweenPage"
+		},
+		config_client = {
+			linkGameHubID = 11
 		}
 	},
 	[750] = {
@@ -6302,6 +6343,9 @@ pg.activity_template = {
 		736,
 		737,
 		738,
+		740,
+		741,
+		742,
 		750,
 		10006,
 		10056,

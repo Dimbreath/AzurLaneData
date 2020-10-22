@@ -8478,8 +8478,7 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			17,
-			19
+			17
 		},
 		trans_use_item = {
 			{
@@ -8589,8 +8588,7 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			17,
-			19
+			17
 		},
 		trans_use_item = {
 			{
@@ -8813,8 +8811,7 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			17,
-			19
+			17
 		},
 		trans_use_item = {
 			{

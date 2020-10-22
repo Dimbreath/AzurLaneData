@@ -74090,6 +74090,1052 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[71001] = {
+		can_rotate = 0,
+		describe = "ハロウィンの館へようこそ――",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/dibanhl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "ハロウィン館の床",
+		advice = 0,
+		icon = "dibanhl4icon",
+		id = 71001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71002] = {
+		can_rotate = 0,
+		describe = "ハロウィンの館へようこそ――",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/qiangbihl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "ハロウィン館の壁",
+		advice = 0,
+		icon = "qiangbihl4icon",
+		id = 71002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71101] = {
+		can_rotate = 0,
+		describe = "覗き込んでも底が見えない井戸。どうして館にこんなものが……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/1hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "底なしの井戸",
+		advice = 0,
+		icon = "1hl4icon",
+		id = 71101,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71102] = {
+		can_rotate = 0,
+		describe = "早く解放してピョー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/2hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "悪饅頭の牢屋",
+		advice = 0,
+		id = 71102,
+		icon = "2hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					7.9,
+					-144.9
+				},
+				{
+					1,
+					1
+				},
+				"hl4/2hl4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71103] = {
+		can_rotate = 0,
+		describe = "「このろうそくは尽きぬ生命の象徴…テラー、やけどするから触らないで」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/3hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "館の白ろうそく",
+		advice = 0,
+		icon = "3hl4icon",
+		id = 71103,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71104] = {
+		can_rotate = 0,
+		describe = "あまりにも長く使われなさすぎて蜘蛛の巣に覆われている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/4hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "館の清掃道具置き",
+		advice = 0,
+		icon = "4hl4icon",
+		id = 71104,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71105] = {
+		can_rotate = 0,
+		describe = "「下等生物、私のコートをあっちに掛けて頂戴！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/5hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "館のポールハンガー",
+		advice = 0,
+		icon = "5hl4icon",
+		id = 71105,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71106] = {
+		can_rotate = 0,
+		describe = "「なるほどです。これを読んで秘跡を解き明かそうとしているのですか」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/6hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "マスターの執務机",
+		advice = 0,
+		id = 71106,
+		icon = "6hl4icon",
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					53.2,
+					-23.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71107] = {
+		can_rotate = 0,
+		describe = "「色々置いてあるな。ダイエットに関する本があればいいのだが…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/8hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "マスターの本棚",
+		advice = 0,
+		icon = "8hl4icon",
+		id = 71107,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71108] = {
+		can_rotate = 0,
+		describe = "トリック・オア・トリート！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/9hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "お菓子の暖炉",
+		advice = 0,
+		icon = "9hl4icon",
+		id = 71108,
+		comfortable = 3,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71109] = {
+		can_rotate = 0,
+		describe = "「大きく育てて、パンプキンパイを作ろう！」「はい！姉貴！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/10hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "パンプキンの盆栽",
+		advice = 0,
+		icon = "10hl4icon",
+		id = 71109,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71110] = {
+		can_rotate = 0,
+		describe = "「ヴァンパイアの寝床を体験してみない？ふふふ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/11hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "吸血鬼の棺",
+		advice = 0,
+		id = 71110,
+		icon = "11hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-18.8,
+					-5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71111] = {
+		can_rotate = 0,
+		describe = "コウモリを模したカーペット",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/12hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "コウモリのカーペット",
+		advice = 0,
+		icon = "12hl4icon",
+		id = 71111,
+		comfortable = 2,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71112] = {
+		can_rotate = 0,
+		describe = "お菓子もホットケーキも食べ放題ピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/13hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "ハロウィン館の宴",
+		advice = 0,
+		id = 71112,
+		icon = "13hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-33,
+					94.5
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			},
+			{
+				"sit",
+				{
+					71.8,
+					51
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			},
+			{
+				"sit",
+				{
+					187.2,
+					-3.2
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71113] = {
+		can_rotate = 0,
+		describe = "「古時計が鳴り響き、夜陰が訪れる……」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/14hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ハロウィン館の古時計",
+		advice = 0,
+		icon = "14hl4icon",
+		id = 71113,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71114] = {
+		can_rotate = 0,
+		describe = "「あ、ふわりんの知り合いだ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/15hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ハロウィン館の古テレビ",
+		advice = 0,
+		icon = "15hl4icon",
+		id = 71114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71115] = {
+		can_rotate = 0,
+		describe = "その目、だれの目？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/16hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ハロウィン館の階段",
+		advice = 0,
+		icon = "16hl4icon",
+		id = 71115,
+		comfortable = 2,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71116] = {
+		can_rotate = 0,
+		describe = "オバケ饅頭が出ると言われている廊下。今では観光スポットと化している",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Ahl4icon",
+		count = 1,
+		name = "オバケ饅頭廊下",
+		id = 71116,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			13,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ahl4B",
+				"normal"
+			},
+			{
+				"Ahl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Ahl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71117] = {
+		can_rotate = 0,
+		describe = "「今日からあなたは改造戦士として組織のために戦うのです！」「そんな！なんて卑劣なヴィランだ！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Bhl4icon",
+		count = 1,
+		name = "怪人饅頭実験台",
+		id = 71117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bhl4B",
+				"normal"
+			},
+			{
+				"Bhl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Bhl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71118] = {
+		can_rotate = 0,
+		describe = "中に何が入っているんだろう？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "ハロウィン館の宝箱",
+		advice = 0,
+		id = 71118,
+		icon = "Dhl4icon",
+		comfortable = 4,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Dhl4",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[71119] = {
+		can_rotate = 0,
+		describe = "「ピーちゃん、本当に大丈夫？」「大丈夫よ、ただの演出ですから」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Chl4icon",
+		count = 1,
+		name = "ハロウィン館の魔法陣",
+		id = 71119,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Chl4B",
+				"normal"
+			},
+			{
+				"Chl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"stand2"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Chl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71301] = {
+		can_rotate = 0,
+		describe = "館に飾るパンプキンランタン",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/17hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 3,
+		name = "パンプキン・ランタン",
+		advice = 0,
+		icon = "17hl4icon",
+		id = 71301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71302] = {
+		can_rotate = 0,
+		describe = "なんか見られてる気がするピョ？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "饅頭伯爵像",
+		advice = 0,
+		id = 71302,
+		icon = "Ehl4icon",
+		comfortable = 4,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ehl4",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -75757,6 +76803,29 @@ pg.furniture_data_template = {
 		69306,
 		69307,
 		69308,
-		69309
+		69309,
+		71001,
+		71002,
+		71101,
+		71102,
+		71103,
+		71104,
+		71105,
+		71106,
+		71107,
+		71108,
+		71109,
+		71110,
+		71111,
+		71112,
+		71113,
+		71114,
+		71115,
+		71116,
+		71117,
+		71118,
+		71119,
+		71301,
+		71302
 	}
 }

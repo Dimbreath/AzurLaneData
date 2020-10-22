@@ -12,7 +12,7 @@ slot0 = {
 function calcAirDominanceValue(slot0, slot1)
 	slot2 = slot0:getAircraftCount()
 
-	return defaultValue(slot0:getProperties(slot1)[AttributeType.Air], 0) * (slot2[EquipType.FighterAircraft] * uv0.p + slot2[EquipType.TorpedoAircraft] * uv0.q + slot2[EquipType.BomberAircraft] * uv0.s + slot2[EquipType.SeaPlane] * uv0.t) * (0.8 + slot0.level * uv0.r / 100) / 100 + slot0:getEquipmentProperties()[AttributeType.AirDominate]
+	return defaultValue(slot0:getProperties(slot1)[AttributeType.Air], 0) * (defaultValue(slot2[EquipType.FighterAircraft], 0) * uv0.p + defaultValue(slot2[EquipType.TorpedoAircraft], 0) * uv0.q + defaultValue(slot2[EquipType.BomberAircraft], 0) * uv0.s + defaultValue(slot2[EquipType.SeaPlane], 0) * uv0.t) * (0.8 + slot0.level * uv0.r / 100) / 100 + defaultValue(slot0:getEquipmentProperties()[AttributeType.AirDominate], 0)
 end
 
 function calcAirDominanceStatus(slot0, slot1, slot2)
