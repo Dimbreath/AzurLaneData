@@ -345,7 +345,14 @@ function slot0.initDamonds(slot0)
 end
 
 function slot0.initDiamondList(slot0, slot1)
-	slot4 = slot0:findTF("content/ItemMonth", slot1)
+	slot2 = slot0:findTF("content/ItemList", slot1)
+	slot3 = slot0:findTF("ItemTpl", slot1)
+
+	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():CheckAudit() then
+		setActive(slot0:findTF("content/ItemMonth", slot1), false)
+	else
+		setActive(slot4, true)
+	end
 
 	function slot5(slot0)
 		slot1 = ChargeDiamondCard.New(slot0, uv0, uv1)
@@ -369,7 +376,7 @@ function slot0.initDiamondList(slot0, slot1)
 		end
 	end
 
-	slot7 = UIItemList.New(slot0:findTF("content/ItemList", slot1), slot0:findTF("ItemTpl", slot1))
+	slot7 = UIItemList.New(slot2, slot3)
 
 	slot7:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then

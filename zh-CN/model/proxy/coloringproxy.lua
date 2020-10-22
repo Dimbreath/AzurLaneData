@@ -28,7 +28,13 @@ function slot0.netUpdateData(slot0, slot1)
 	slot0.colorGroups = {}
 
 	_.each(slot3, function (slot0)
-		ColorGroup.New(slot0[1]):setHasAward(slot0[2] > 0)
+		slot2 = slot0[2]
+
+		if ColorGroup.New(slot0[1]):canBeCustomised() and COLORING_ACTIVITY_CUSTOMIZED_BANNED then
+			return
+		end
+
+		slot3:setHasAward(slot2 > 0)
 
 		if slot1 == uv0.id then
 			_.each(uv0.cell_list, function (slot0)

@@ -108255,6 +108255,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59184] = {
+		display = "收集7次后，可以得到限定换装「Candy Magic！」",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "魔法棒棒糖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59184,
+		icon = "props/candymagic",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠收藏的驱逐船模-茳",
 		rarity = 2,
@@ -117503,6 +117521,7 @@ pg.item_data_statistics = {
 		59182,
 		59180,
 		59183,
+		59184,
 		59601,
 		59602,
 		59603,

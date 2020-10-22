@@ -6616,6 +6616,29 @@ pg.activity_event_pt = {
 			0
 		}
 	},
+	[680] = {
+		link_id = 0,
+		type = 1,
+		pic_list = "",
+		pt_list = "",
+		id_2 = 680,
+		id = 680,
+		pt = 169,
+		target = {
+			3600
+		},
+		drop_client = {
+			{
+				14,
+				311,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0
+		}
+	},
 	[703] = {
 		link_id = 0,
 		type = 1,
@@ -6907,29 +6930,6 @@ pg.activity_event_pt = {
 			0
 		}
 	},
-	[680] = {
-		link_id = 0,
-		type = 1,
-		pic_list = "",
-		pt_list = "",
-		id_2 = 680,
-		id = 680,
-		pt = 169,
-		target = {
-			3600
-		},
-		drop_client = {
-			{
-				14,
-				311,
-				1
-			}
-		},
-		allplayer = {},
-		day_unlock = {
-			0
-		}
-	},
 	[732] = {
 		link_id = 0,
 		type = 1,
@@ -7044,6 +7044,71 @@ pg.activity_event_pt = {
 			0,
 			0,
 			0
+		}
+	},
+	[740] = {
+		link_id = 0,
+		type = 3,
+		pic_list = "",
+		pt_list = "",
+		id_2 = 740,
+		id = 740,
+		pt = 0,
+		target = {
+			100,
+			250,
+			400,
+			600,
+			850,
+			1150,
+			1500
+		},
+		drop_client = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				2,
+				17003,
+				5
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				2,
+				17003,
+				5
+			},
+			{
+				1,
+				1,
+				500
+			},
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				7,
+				102162,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
 		}
 	},
 	[1020] = {
@@ -9733,9 +9798,10 @@ pg.activity_event_pt = {
 		634,
 		640,
 		671,
-		703,
 		680,
+		703,
 		732,
+		740,
 		1020,
 		1021,
 		1022,

@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "抱歉，我还有些事情事情要和皇家那边商讨。",
+			say = "抱歉，我还有些事情要和皇家那边商讨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

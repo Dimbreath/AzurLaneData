@@ -1,5 +1,5 @@
 slot0 = class("ShipEquipView", import("...base.BaseSubView"))
-slot0.UNLOCK_EQUPMENT_SKIN_POS = {
+slot0.UNLOCK_EQUIPMENT_SKIN_POS = {
 	1,
 	2,
 	3
@@ -75,7 +75,7 @@ function slot0.InitEvent(slot0)
 
 		slot2 = uv0:GetShipVO().equipments
 
-		if _.all(uv1.UNLOCK_EQUPMENT_SKIN_POS, function (slot0)
+		if _.all(uv1.UNLOCK_EQUIPMENT_SKIN_POS, function (slot0)
 			return not uv0[slot0]
 		end) and not uv0.contextData.isInEquipmentSkinPage then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_no_equipment_tip"))
@@ -182,9 +182,9 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 	slot10:GetComponent(typeof(Text)).text = EquipType.LabelToName(EquipType.Types2Title(slot1, slot8.configId))
 
 	if slot2 then
-		setActive(slot7, not EquipType.isDevice(slot2.configId))
+		setActive(slot7, not slot2:isDevice())
 
-		if not EquipType.isDevice(slot2.configId) then
+		if not slot2:isDevice() then
 			slot14 = pg.ship_data_statistics[slot8.configId]
 			slot16 = slot8:getEquipProficiencyByPos(slot1) and slot15 * 100 or 0
 
@@ -217,7 +217,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 
 		slot17 = slot2:GetPropertiesInfo().attrs
 
-		for slot23, slot24 in ipairs(slot2.config.skill_id[1] and EquipType.isDevice(slot2.configId) and {
+		for slot23, slot24 in ipairs(slot2.config.skill_id[1] and slot2:isDevice() and {
 			1,
 			2,
 			5

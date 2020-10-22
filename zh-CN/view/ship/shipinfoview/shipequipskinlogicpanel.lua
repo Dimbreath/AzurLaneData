@@ -78,7 +78,7 @@ end
 function slot0.updateAll(slot0, slot1)
 	if slot1 then
 		for slot5, slot6 in ipairs(slot0.equipmentTFs) do
-			if not not table.contains(ShipEquipView.UNLOCK_EQUPMENT_SKIN_POS, slot5) then
+			if not not table.contains(ShipEquipView.UNLOCK_EQUIPMENT_SKIN_POS, slot5) then
 				slot0:updateEquipmentTF(slot1, slot5)
 			end
 

@@ -1562,7 +1562,7 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 				elseif slot11.type == ChapterConst.LBHarbor then
 					slot9 = AttachmentLBHarborCell
 				elseif slot11.type == ChapterConst.LBDock then
-					slot9 = AttachmentLBCoastalGunCell
+					slot9 = AttachmentLBDockCell
 					slot10.chapter = slot3
 				elseif slot11.type == ChapterConst.LBAntiAir then
 					slot9 = AttachmentLBAntiAirCell

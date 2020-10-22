@@ -13,7 +13,7 @@ function slot0.Update(slot0)
 			setParent(slot0, uv0.tf)
 
 			tf(slot0).anchoredPosition3D = Vector3(0, 10, 0)
-			uv0.dock = slot0
+			uv0.dock = tf(slot0)
 
 			uv0:Update()
 		end)

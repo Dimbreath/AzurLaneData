@@ -92,22 +92,30 @@ function slot0.execute(slot0, slot1)
 				uv0:doExtraFlagUpdate()
 
 				if uv1.type == ChapterConst.OpRetreat then
-					slot4 = pg.TimeMgr.GetInstance()
+					if not uv1.id then
+						uv1.win = uv0.chapter:CheckChapterWillWin()
 
-					if uv1.win and Map.IsType(slot3:getConfig("map"), Map.ELITE) and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
-						getProxy(DailyLevelProxy):EliteCountPlus()
-					end
+						if uv1.win then
+							uv0.chapter:UpdateProgressOnRetreat()
+						end
 
-					if slot3:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot3:isValid()) then
-						slot3:retreat(uv1.win)
-						slot3:clearSubChapter()
-						slot2:updateChapter(slot3)
-						uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
-							type = uv1.type,
-							win = uv1.win
-						})
+						slot4 = pg.TimeMgr.GetInstance()
 
-						return
+						if uv1.win and Map.IsType(slot3:getConfig("map"), Map.ELITE) and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
+							getProxy(DailyLevelProxy):EliteCountPlus()
+						end
+
+						if slot3:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot3:isValid()) then
+							slot3:retreat(uv1.win)
+							slot3:clearSubChapter()
+							slot2:updateChapter(slot3)
+							uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
+								type = uv1.type,
+								win = uv1.win
+							})
+
+							return
+						end
 					end
 
 					uv0:doRetreat()
@@ -181,6 +189,52 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 	end)
+end
+
+function slot0.PrepareChapterRetreat(slot0)
+	seriesAsync({
+		function (slot0)
+			if getProxy(ChapterProxy):getActiveChapter():CheckChapterWillWin() then
+				slot1:UpdateProgressOnRetreat()
+
+				slot3 = slot1:getConfig("defeat_story")
+
+				table.eachAsync(slot1:getConfig("defeat_story_count"), function (slot0, slot1, slot2)
+					if uv0.defeatCount < slot1 then
+						slot2()
+
+						return
+					end
+
+					if uv1[slot0] and type(slot3) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot3) then
+						pg.m02:sendNotification(GAME.STORY_UPDATE, {
+							storyId = slot3
+						})
+						pg.m02:sendNotification(GAME.BEGIN_STAGE, {
+							system = SYSTEM_PERFORM,
+							stageId = slot3,
+							exitCallback = slot2
+						})
+					elseif slot3 and type(slot3) == "string" then
+						pg.StoryMgr.GetInstance():Play(slot3, slot2)
+					else
+						slot2()
+					end
+				end, slot0)
+
+				return
+			end
+
+			slot0()
+		end,
+		function (slot0)
+			pg.m02:sendNotification(GAME.CHAPTER_OP, {
+				type = ChapterConst.OpRetreat
+			})
+			slot0()
+		end,
+		slot0
+	})
 end
 
 return slot0

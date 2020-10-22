@@ -82234,6 +82234,1052 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[71001] = {
+		can_rotate = 0,
+		describe = "准备好“享受”万圣之夜了吗~？",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/dibanhl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "惊魂地板",
+		advice = 0,
+		icon = "dibanhl4icon",
+		id = 71001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71002] = {
+		can_rotate = 0,
+		describe = "准备好“享受”万圣之夜了吗~？",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/qiangbihl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "惊魂墙纸",
+		advice = 0,
+		icon = "qiangbihl4icon",
+		id = 71002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71101] = {
+		can_rotate = 0,
+		describe = "深不见底的黑井。为什么屋子里会有这个…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/1hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "深邃黑井",
+		advice = 0,
+		icon = "1hl4icon",
+		id = 71101,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71102] = {
+		can_rotate = 0,
+		describe = "快~放~我~出~去！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/2hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "惊魂牢笼",
+		advice = 0,
+		id = 71102,
+		icon = "2hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					7.9,
+					-144.9
+				},
+				{
+					1,
+					1
+				},
+				"hl4/2hl4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71103] = {
+		can_rotate = 0,
+		describe = "燃烧不尽的神奇蜡烛？！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/3hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "白蜡烛",
+		advice = 0,
+		icon = "3hl4icon",
+		id = 71103,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71104] = {
+		can_rotate = 0,
+		describe = "水桶上结满了蜘蛛网。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/4hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "久置的草堆",
+		advice = 0,
+		icon = "4hl4icon",
+		id = 71104,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71105] = {
+		can_rotate = 0,
+		describe = "挂着漆黑服饰的衣架",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/5hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南瓜头衣架",
+		advice = 0,
+		icon = "5hl4icon",
+		id = 71105,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71106] = {
+		can_rotate = 0,
+		describe = "这个书桌的主人似乎不简单…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/6hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "怪人的书桌",
+		advice = 0,
+		id = 71106,
+		icon = "6hl4icon",
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					53.2,
+					-23.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71107] = {
+		can_rotate = 0,
+		describe = "摆满了奇怪的书籍和小物件的书架。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/8hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "怪人的书架",
+		advice = 0,
+		icon = "8hl4icon",
+		id = 71107,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71108] = {
+		can_rotate = 0,
+		describe = "孩子们梦寐以求的壁炉！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/9hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "糖果壁橱",
+		advice = 0,
+		icon = "9hl4icon",
+		id = 71108,
+		comfortable = 3,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71109] = {
+		can_rotate = 0,
+		describe = "这么大的南瓜，做成南瓜饼一定很好吃！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/10hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南瓜培育台",
+		advice = 0,
+		icon = "10hl4icon",
+		id = 71109,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71110] = {
+		can_rotate = 0,
+		describe = "要体验一下吸血鬼的安眠吗？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/11hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "吸血鬼之眠",
+		advice = 0,
+		id = 71110,
+		icon = "11hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-18.8,
+					-5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71111] = {
+		can_rotate = 0,
+		describe = "蝙蝠形状的红色地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/12hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "蝙蝠地毯",
+		advice = 0,
+		icon = "12hl4icon",
+		id = 71111,
+		comfortable = 2,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71112] = {
+		can_rotate = 0,
+		describe = "有无限供应的糖果和松饼~一起来享受吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/13hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "惊魂宴桌",
+		advice = 0,
+		id = 71112,
+		icon = "13hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-33,
+					94.5
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			},
+			{
+				"sit",
+				{
+					71.8,
+					51
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			},
+			{
+				"sit",
+				{
+					187.2,
+					-3.2
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71113] = {
+		can_rotate = 0,
+		describe = "钟声响起，蝙蝠四散而去",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/14hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "老旧壁钟",
+		advice = 0,
+		icon = "14hl4icon",
+		id = 71113,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71114] = {
+		can_rotate = 0,
+		describe = "滋滋——滋滋——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/15hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "没有信号的电视",
+		advice = 0,
+		icon = "15hl4icon",
+		id = 71114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71115] = {
+		can_rotate = 0,
+		describe = "那目光，是谁的目光？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/16hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "惊魂阶梯",
+		advice = 0,
+		icon = "16hl4icon",
+		id = 71115,
+		comfortable = 2,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71116] = {
+		can_rotate = 0,
+		describe = "一起来玩吧~啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Ahl4icon",
+		count = 1,
+		name = "幽灵走廊",
+		id = 71116,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			13,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ahl4B",
+				"normal"
+			},
+			{
+				"Ahl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Ahl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71117] = {
+		can_rotate = 0,
+		describe = "简单完全，绝无危险与副作用的实验啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Bhl4icon",
+		count = 1,
+		name = "怪人实验台",
+		id = 71117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bhl4B",
+				"normal"
+			},
+			{
+				"Bhl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Bhl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71118] = {
+		can_rotate = 0,
+		describe = "里面会藏着什么呢…？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "惊魂宝箱",
+		advice = 0,
+		id = 71118,
+		icon = "Dhl4icon",
+		comfortable = 4,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Dhl4",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[71119] = {
+		can_rotate = 0,
+		describe = "呼呼，会有什么东西出来呢。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Chl4icon",
+		count = 1,
+		name = "蜡烛法阵",
+		id = 71119,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Chl4B",
+				"normal"
+			},
+			{
+				"Chl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"stand2"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Chl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71301] = {
+		can_rotate = 0,
+		describe = "装饰用的南瓜挂灯。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/17hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 3,
+		name = "南瓜挂灯",
+		advice = 0,
+		icon = "17hl4icon",
+		id = 71301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71302] = {
+		can_rotate = 0,
+		describe = "刚才…是不是被瞪了？！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "啾啾伯爵像",
+		advice = 0,
+		id = 71302,
+		icon = "Ehl4icon",
+		comfortable = 4,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ehl4",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -84089,6 +85135,29 @@ pg.furniture_data_template = {
 		69306,
 		69307,
 		69308,
-		69309
+		69309,
+		71001,
+		71002,
+		71101,
+		71102,
+		71103,
+		71104,
+		71105,
+		71106,
+		71107,
+		71108,
+		71109,
+		71110,
+		71111,
+		71112,
+		71113,
+		71114,
+		71115,
+		71116,
+		71117,
+		71118,
+		71119,
+		71301,
+		71302
 	}
 }

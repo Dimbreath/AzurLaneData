@@ -2634,6 +2634,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101161] = {
+		ship_group = 10116,
+		name = "万圣兔兔美少女！",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Fight！为万圣之夜带来爱与和平的使者，南瓜兔兔美少女本森，来了！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bensen_2",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		id = 101161,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bensen_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70443,
+		voice_actor = 85,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.186,
+					1.006,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.229,
+					0.997,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.145,
+					0.988,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.391,
+							2.476,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101170] = {
 		ship_group = 10117,
 		name = "拉菲",
@@ -5279,6 +5389,109 @@ pg.ship_skin_template = {
 						{
 							-0.31,
 							2.18,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101291] = {
+		ship_group = 10129,
+		name = "Candy Magic！",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "我是魔女拉德福特，可以用魔法书的“糖果魔法”把东西都变成好吃的糖果！呼呼，差不多是这种感觉吧——…欸，指挥官？什，什么时候出现的？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ladefute_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		id = 101291,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ladefute_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 101,
+		air_bomb_skin = "",
+		illustrator = 26,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.984,
+					0.954,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.074,
+					0.961,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							2.406,
 							0
 						}
 					}
@@ -16654,6 +16867,109 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[103112] = {
+		ship_group = 10311,
+		name = "万圣的支配者？",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "哈哈哈！今晚我不是什么大将军，而是让人畏惧的魔女之王！至于你的话…就暂时变成魔女的使魔吧！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "weiqita_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		id = 103112,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "weiqita_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70435,
+		voice_actor = 24,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.416,
+					1.131,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.385,
+					1.125,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.401,
+							2.602,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103130] = {
 		ship_group = 10313,
 		name = "明尼阿波利斯",
@@ -20143,6 +20459,115 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.46,
+					0.49,
+					0
+				}
+			},
+			plane = {
+				{
+					0.46,
+					0.49,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.509,
+							0.442,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.416,
+							0.493,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[106013] = {
+		ship_group = 10601,
+		name = "L.I.@万圣限时直播中",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "「宅系魔女L.I.的万圣节特别直播频道，欢迎大家关注哦。」——呼，自我介绍这样写就可以了吧？不知道最后能得到多少订阅呢…",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "changdao_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		id = 106013,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changdao_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70434,
+		voice_actor = 45,
+		air_bomb_skin = "",
+		illustrator = 13,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -127380,7 +127805,8 @@ pg.ship_skin_template = {
 			101150
 		},
 		[10116] = {
-			101160
+			101160,
+			101161
 		},
 		[10117] = {
 			101170,
@@ -127416,7 +127842,8 @@ pg.ship_skin_template = {
 			101279
 		},
 		[10129] = {
-			101290
+			101290,
+			101291
 		},
 		[10130] = {
 			101300
@@ -127623,7 +128050,8 @@ pg.ship_skin_template = {
 		},
 		[10311] = {
 			103110,
-			103111
+			103111,
+			103112
 		},
 		[10313] = {
 			103130,
@@ -127693,6 +128121,7 @@ pg.ship_skin_template = {
 		[10601] = {
 			106010,
 			106011,
+			106013,
 			106019
 		},
 		[10602] = {
@@ -129695,6 +130124,7 @@ pg.ship_skin_template = {
 		101140,
 		101150,
 		101160,
+		101161,
 		101170,
 		101171,
 		101172,
@@ -129719,6 +130149,7 @@ pg.ship_skin_template = {
 		101271,
 		101279,
 		101290,
+		101291,
 		101300,
 		101310,
 		101311,
@@ -129824,6 +130255,7 @@ pg.ship_skin_template = {
 		103102,
 		103110,
 		103111,
+		103112,
 		103130,
 		103131,
 		103132,
@@ -129857,6 +130289,7 @@ pg.ship_skin_template = {
 		105200,
 		106010,
 		106011,
+		106013,
 		106019,
 		106020,
 		106029,
