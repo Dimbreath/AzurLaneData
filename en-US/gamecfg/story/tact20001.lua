@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#FF0000",
 			mode = 2,
-			say = "Gaaagghhh! How dare you lowly animal slaves... do this me?! ",
+			say = "Gaaagghhh! How dare you lowly animal slaves... do this to me?! ",
 			shake = {
 				speed = 1,
 				number = 3

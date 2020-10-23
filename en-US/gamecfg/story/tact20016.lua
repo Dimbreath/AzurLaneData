@@ -63,7 +63,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "Let's just get finish the mission and head back...",
+			say = "Let's just finish the mission and head back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

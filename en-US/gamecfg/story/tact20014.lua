@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "Tester β",
-			say = "Now go! Continue down the paTH you beLIEeve in to ITs final DESTINatIon! ",
+			say = "Now go! Continue down the paTH you beLIEve in to ITs final DESTINatIon! ",
 			shake = {
 				speed = 1,
 				number = 3

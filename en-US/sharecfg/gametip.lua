@@ -5400,7 +5400,7 @@ Would you like to proceed with the retrofit?
 		tip = "Current Live2D Data Needs To Be Updated, Update Now?"
 	},
 	achieve_propose_tip = {
-		tip = "Unlocked skins for $1!"
+		tip = "Unlocked skins $1!"
 	},
 	mingshi_get_tip = {
 		tip = "Found a Peculiar Material!"
@@ -9582,7 +9582,7 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		tip = "There are no Prototype Blueprints that can currently be analyzed."
 	},
 	confirm_unlock_lv = {
-		tip = "Are you sure you want to unlock $1 ($2)?"
+		tip = "Are you sure you want to unlock $2 ($1)?"
 	},
 	shops_rest_day = {
 		tip = "Store refreshes in :"

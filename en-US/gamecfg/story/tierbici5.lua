@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "If you could update the route that to be patrolled next time based on the predictions of enemy appearances in the various sea zones...",
+			say = "If you could update the route that is to be patrolled next time based on the predictions of enemy appearances in the various sea zones...",
 			flashout = {
 				dur = 0.5,
 				black = true,

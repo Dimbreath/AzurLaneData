@@ -7,7 +7,7 @@ return {
 			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "So this is beautiful afterglow of a life being thrown away...",
+			say = "So this is the beautiful afterglow of a life being thrown away...",
 			shake = {
 				speed = 1,
 				number = 3
