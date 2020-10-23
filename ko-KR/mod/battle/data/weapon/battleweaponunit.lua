@@ -623,15 +623,15 @@ function slot6.UpdateCombo(slot0, slot1)
 	end
 end
 
-function slot6.SingleFire(slot0, slot1, slot2)
+function slot6.SingleFire(slot0, slot1, slot2, slot3)
 	slot0._tempEmittersList[#slot0._tempEmittersList + 1] = {}
 
 	if not slot1 or not slot1:IsAlive() then
 		slot1 = nil
 	end
 
-	for slot7, slot8 in ipairs(slot0._barrageList) do
-		slot3[#slot3 + 1] = uv1.Battle[slot2 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3)
+	for slot8, slot9 in ipairs(slot0._barrageList) do
+		slot4[#slot4 + 1] = uv1.Battle[slot2 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3)
 			slot5 = uv0:Spawn(uv0._bulletList[uv1], uv2, uv3.EXTERNAL)
 
 			slot5:SetOffsetPriority(slot3)
@@ -667,12 +667,16 @@ function slot6.SingleFire(slot0, slot1, slot2)
 
 			uv0 = nil
 			uv1._fireFXFlag = uv1._tmpData.fire_fx_loop_type
-		end, slot8)
+
+			if uv2 then
+				uv2()
+			end
+		end, slot9)
 	end
 
-	for slot7, slot8 in ipairs(slot3) do
-		slot8:Ready()
-		slot8:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
+	for slot8, slot9 in ipairs(slot4) do
+		slot9:Ready()
+		slot9:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
 	end
 
 	slot0:CheckAndShake()

@@ -133,7 +133,7 @@ pg.activity_ins_ship_group_template = {
 	[30208] = {
 		ship_group = 30208,
 		name = "RageofONI",
-		sculpture = "guinu_2"
+		sculpture = "guinu"
 	},
 	[30205] = {
 		ship_group = 30205,

@@ -160,6 +160,8 @@ function slot1.Clear(slot0)
 
 	if slot0._skill then
 		slot0._skill:Clear()
+
+		slot0._skill = nil
 	end
 end
 

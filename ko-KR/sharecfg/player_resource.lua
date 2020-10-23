@@ -390,6 +390,11 @@ pg.player_resource = {
 		name = "shinanoframept",
 		itemid = 59180
 	},
+	[172] = {
+		id = 172,
+		name = "pulinsidun_pt",
+		itemid = 59183
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -675,6 +680,9 @@ pg.player_resource = {
 		shinanoframept = {
 			169
 		},
+		pulinsidun_pt = {
+			172
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -785,6 +793,7 @@ pg.player_resource = {
 		170,
 		171,
 		169,
+		172,
 		1001,
 		950,
 		951,

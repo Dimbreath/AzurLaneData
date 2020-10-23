@@ -404,6 +404,8 @@ function slot0.openFoodShop(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_error_noResource", pg.item_data_statistics[id2ItemId(slot0.resourceType)].name))
 			end
 
+			uv0.foodMsgBox:Hide()
+
 			return
 		end
 

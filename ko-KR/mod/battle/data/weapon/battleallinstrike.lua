@@ -43,7 +43,6 @@ function slot5.Clear(slot0)
 end
 
 function slot5.Dispose(slot0)
-	slot0._skill:Dispose()
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 

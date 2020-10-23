@@ -23600,6 +23600,196 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107230] = {
+		ship_group = 10723,
+		name = "프린스턴",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "인디펜던스급 항공모함-프린스턴, 현호 CVL-23",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "pulinsidun",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 107230,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "pulinsidun",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.384,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					1.439,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107231] = {
+		ship_group = 10723,
+		name = "해변의 특별 훈련",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "지휘관님, 수영하러 오셨나요? …저요? 해변이라고 해도 훈련할 만한 것이 많이 있어서 장비를 가져왔어요.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "pulinsidun_2",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "106",
+		skin_type = 0,
+		id = 107231,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "pulinsidun_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70433,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.176,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					1.308,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
 	[107290] = {
 		ship_group = 10729,
 		name = "바탄 ",
@@ -127863,6 +128053,10 @@ pg.ship_skin_template = {
 			107221,
 			107222
 		},
+		[10723] = {
+			107230,
+			107231
+		},
 		[10729] = {
 			107290,
 			107291
@@ -130033,6 +130227,8 @@ pg.ship_skin_template = {
 		107220,
 		107221,
 		107222,
+		107230,
+		107231,
 		107290,
 		107291,
 		107380,

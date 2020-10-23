@@ -906,9 +906,14 @@ pg.activity_shop_extra = {
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 103072,
-		scene = "",
 		id = 56,
 		order = 9,
+		scene = {
+			"scene shop",
+			{
+				warp = 1
+			}
+		},
 		time = {
 			{
 				{

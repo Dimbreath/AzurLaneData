@@ -120,6 +120,7 @@ function slot2.bulletSplit(slot0, slot1)
 				end
 			end, slot14)
 
+			slot2:CacheChildEimtter(slot20)
 			slot20:Ready()
 			slot20:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot14).angle)
 		end

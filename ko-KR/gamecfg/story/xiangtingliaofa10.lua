@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			expression = 5,
+			expression = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
 			dir = 1,
