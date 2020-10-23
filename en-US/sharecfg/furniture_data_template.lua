@@ -65272,6 +65272,1052 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[71001] = {
+		can_rotate = 0,
+		name = "Haunted House Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanhl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/dibanhl4",
+		canputon = 0,
+		count = 1,
+		describe = "It creaks an awful lot for seemingly no reason. Or maybe you're not alone in here.",
+		advice = 0,
+		deblocking = 1,
+		id = 71001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71002] = {
+		can_rotate = 0,
+		name = "Haunted House Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbihl4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/qiangbihl4",
+		canputon = 0,
+		count = 1,
+		describe = "There IS something living in the walls. Dust mites.",
+		advice = 0,
+		deblocking = 1,
+		id = 71002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71101] = {
+		can_rotate = 0,
+		name = "Bottomless Well",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/1hl4",
+		canputon = 0,
+		count = 1,
+		describe = "Curiously, it's also topless. What a lewd well.",
+		advice = 0,
+		deblocking = 1,
+		id = 71101,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71102] = {
+		can_rotate = 0,
+		name = "Circular Cage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "hl4/2hl4",
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		describe = "Its previous occupant was a wizard with a very big hat.",
+		advice = 0,
+		id = 71102,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					7.9,
+					-144.9
+				},
+				{
+					1,
+					1
+				},
+				"hl4/2hl4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71103] = {
+		can_rotate = 0,
+		name = "Creepy Candle",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/3hl4",
+		canputon = 0,
+		count = 3,
+		describe = "The flame somehow doesn't use any wax, but tends to go out at inopportune moments.",
+		advice = 0,
+		deblocking = 1,
+		id = 71103,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71104] = {
+		can_rotate = 0,
+		name = "Broom & Bucket",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/4hl4",
+		canputon = 0,
+		count = 1,
+		describe = "\"Hey! Don't forget the hay!\" – \"I'm listening! Don't forget the what?\"",
+		advice = 0,
+		deblocking = 1,
+		id = 71104,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71105] = {
+		can_rotate = 0,
+		name = "Creepy Coat Hanger",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/5hl4",
+		canputon = 0,
+		count = 1,
+		describe = "Also accommodates capes, mantles, and all other sorts of vampire attire.",
+		advice = 0,
+		deblocking = 1,
+		id = 71105,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71106] = {
+		can_rotate = 0,
+		name = "Lord's Work Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "hl4/6hl4",
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		describe = "At which your bombastic ancestor-slash-narrator spent many a night pursuing the arcane.",
+		advice = 0,
+		id = 71106,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					53.2,
+					-23.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71107] = {
+		can_rotate = 0,
+		name = "Lord's Bookshelf",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/8hl4",
+		canputon = 0,
+		count = 1,
+		describe = "\"O, keeper of tomes, what secret passage doth thy exterior hide?\"",
+		advice = 0,
+		deblocking = 1,
+		id = 71107,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71108] = {
+		can_rotate = 0,
+		name = "Candy-stuffed Fireplace",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/9hl4",
+		canputon = 0,
+		count = 1,
+		describe = "Burn those excess calories with HELLFIRE!",
+		advice = 0,
+		deblocking = 1,
+		id = 71108,
+		comfortable = 3,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71109] = {
+		can_rotate = 0,
+		name = "Potted Pumpkins",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/10hl4",
+		canputon = 0,
+		count = 1,
+		describe = "It's only a matter of time before they outgrow the pot made to contain them.",
+		advice = 0,
+		deblocking = 1,
+		id = 71109,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71110] = {
+		can_rotate = 0,
+		name = "Crimson Coffin",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "hl4/11hl4",
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		describe = "If Vampire offers you to rest in it, kindly decline. Dangerous in more ways than one.",
+		advice = 0,
+		id = 71110,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-18.8,
+					-5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71111] = {
+		can_rotate = 0,
+		name = "Bat Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/12hl4",
+		canputon = 0,
+		count = 1,
+		describe = "The universal sign that you need Mr. Wayne's help.",
+		advice = 0,
+		deblocking = 1,
+		id = 71111,
+		comfortable = 2,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71112] = {
+		can_rotate = 0,
+		name = "Creepy Banquet Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "hl4/13hl4",
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		describe = "It once sat in the old chateau that makes old gateau.",
+		advice = 0,
+		id = 71112,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-33,
+					94.5
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			},
+			{
+				"sit",
+				{
+					71.8,
+					51
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			},
+			{
+				"sit",
+				{
+					187.2,
+					-3.2
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71113] = {
+		can_rotate = 0,
+		name = "Grandfather Clock",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/14hl4",
+		canputon = 0,
+		count = 1,
+		describe = "Named after the grandfather who built it and whose spirit now haunts it.",
+		advice = 0,
+		deblocking = 1,
+		id = 71113,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71114] = {
+		can_rotate = 0,
+		name = "Antique Television",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/15hl4",
+		canputon = 0,
+		count = 1,
+		describe = "\"200 channels and nothing but static! What a ripoff!\"",
+		advice = 0,
+		deblocking = 1,
+		id = 71114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71115] = {
+		can_rotate = 0,
+		name = "Creepy Cellar Entrance",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16hl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/16hl4",
+		canputon = 0,
+		count = 1,
+		describe = "When going down there, it's important that you keep going straight and make sure not to stray.",
+		advice = 0,
+		deblocking = 1,
+		id = 71115,
+		comfortable = 2,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71116] = {
+		name = "Creepy Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Ahl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 71,
+		deblocking = 1,
+		count = 1,
+		describe = "No one knows what waits at the end of these stairs, but it's probably a jumpscare.",
+		id = 71116,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			13,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ahl4B",
+				"normal"
+			},
+			{
+				"Ahl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Ahl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71117] = {
+		name = "Dr. Frankenjuu's Lab Setup",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Bhl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 71,
+		deblocking = 1,
+		count = 1,
+		describe = "The most mortifying part, you ask? His medical license expired years ago!",
+		id = 71117,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bhl4B",
+				"normal"
+			},
+			{
+				"Bhl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Bhl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71118] = {
+		can_rotate = 0,
+		name = "Creepy Chest",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Dhl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		describe = "Just pray that it's not a mimic, or this may be the last chest you lay hands on.",
+		advice = 0,
+		id = 71118,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Dhl4",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[71119] = {
+		name = "Summoning Circle",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Chl4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 71,
+		deblocking = 1,
+		count = 1,
+		describe = "Some turn to the dark arts in hopes of getting that one SR they missed.",
+		id = 71119,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Chl4B",
+				"normal"
+			},
+			{
+				"Chl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"stand2"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Chl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71301] = {
+		can_rotate = 0,
+		name = "Pumpkin Lantern",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "17hl4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 71,
+		spine_action_replace = "",
+		picture = "hl4/17hl4",
+		canputon = 0,
+		count = 3,
+		describe = "It's like a jack-o'-lantern, but more practical.",
+		advice = 0,
+		deblocking = 1,
+		id = 71301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71302] = {
+		can_rotate = 0,
+		name = "Lord of the Manor Portrait",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "Ehl4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		describe = "You get this feeling like it's always giving you the Mutsuki stare...",
+		advice = 0,
+		id = 71302,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ehl4",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -66752,6 +67798,29 @@ pg.furniture_data_template = {
 		69306,
 		69307,
 		69308,
-		69309
+		69309,
+		71001,
+		71002,
+		71101,
+		71102,
+		71103,
+		71104,
+		71105,
+		71106,
+		71107,
+		71108,
+		71109,
+		71110,
+		71111,
+		71112,
+		71113,
+		71114,
+		71115,
+		71116,
+		71117,
+		71118,
+		71119,
+		71301,
+		71302
 	}
 }

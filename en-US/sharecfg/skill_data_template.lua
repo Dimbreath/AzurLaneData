@@ -7127,7 +7127,7 @@ pg.skill_data_template = {
 	},
 	[6560] = {
 		desc_get = "",
-		name = "Improved Pressure-Resistant Hull",
+		name = "Improved Hull Design",
 		desc = "Increases a submarine's Speed by 20.0% and moves it forward another 8 units after it enters battle.",
 		type = 0,
 		max_level = 0,

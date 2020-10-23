@@ -15,13 +15,7 @@ return {
 				0,
 				1
 			},
-			types = {
-				EquipType.CannonQuZhu,
-				EquipType.CannonQingXun,
-				EquipType.CannonZhongXun,
-				EquipType.CannonZhanlie,
-				EquipType.CannonZhongXun2
-			}
+			types = EquipType.CannonEquipTypes
 		},
 		{
 			spr = "index_tarpedo",
@@ -30,10 +24,7 @@ return {
 				0,
 				1
 			},
-			types = {
-				EquipType.Torpedo,
-				EquipType.SubmarineTorpedo
-			}
+			types = EquipType.TorpedoEquipTypes
 		},
 		{
 			spr = "index_antiaircraft",
@@ -52,12 +43,7 @@ return {
 				0,
 				1
 			},
-			types = {
-				EquipType.FighterAircraft,
-				EquipType.TorpedoAircraft,
-				EquipType.BomberAircraft,
-				EquipType.SeaPlane
-			}
+			types = EquipType.AirEquipTypes
 		},
 		{
 			spr = "index_equip",
@@ -65,13 +51,7 @@ return {
 			pages = {
 				0
 			},
-			types = {
-				EquipType.Equipment,
-				EquipType.AntiSubAircraft,
-				EquipType.Sonar,
-				EquipType.Helicopter,
-				EquipType.Goods
-			}
+			types = EquipType.DeviceEquipTypes
 		}
 	},
 	sort = {

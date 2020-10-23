@@ -390,6 +390,11 @@ pg.player_resource = {
 		name = "shinanoframept",
 		itemid = 59180
 	},
+	[172] = {
+		id = 172,
+		name = "pulinsidun_pt",
+		itemid = 59183
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -670,6 +675,9 @@ pg.player_resource = {
 		shinanoframept = {
 			169
 		},
+		pulinsidun_pt = {
+			172
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -777,6 +785,7 @@ pg.player_resource = {
 		170,
 		171,
 		169,
+		172,
 		950,
 		1001,
 		2001,

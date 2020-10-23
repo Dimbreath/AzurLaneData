@@ -197,7 +197,7 @@ function slot0.GetPropertiesInfo(slot0)
 
 	slot2.weapon = {
 		lock_open = true,
-		name = i18n(EquipType.isAircraft(slot0.configId) and "equip_info_24" or "equip_info_5"),
+		name = i18n(slot0:isAircraftExtend() and "equip_info_24" or "equip_info_5"),
 		sub = {}
 	}
 
@@ -475,6 +475,22 @@ end
 
 function slot0.isUnique(slot0)
 	return slot0.config.equip_limit ~= 0
+end
+
+function slot0.isDevice(slot0)
+	slot1 = pg.equip_data_template[slot0.configId].type
+
+	return underscore.any(EquipType.DeviceEquipTypes, function (slot0)
+		return slot0 == uv0
+	end)
+end
+
+function slot0.isAircraftExtend(slot0)
+	slot1 = pg.equip_data_template[slot0.configId].type
+
+	return underscore.any(EquipType.AirExtendEquipTypes, function (slot0)
+		return slot0 == uv0
+	end)
 end
 
 function slot0.MigrateTo(slot0, slot1)

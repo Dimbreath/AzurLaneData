@@ -14,17 +14,6 @@ function slot0.OnInit(slot0)
 	slot0:Show()
 	slot0:recoveryFromRunData()
 	slot0:tryShowTipMsgBox()
-
-	slot0.scrollTimer = Timer.New(function ()
-		if uv0.lScrollPageSC.isDraging == true then
-			uv0.scrollTag = false
-			slot0 = nil
-			uv0.scrollBarSC.value = #uv0.picForShowConfigList == 1 and 1 or uv0.lScrollPageSC.MaskPos.x / ((uv0.lScrollPageSC.MarginSize.x + uv0.lScrollPageSC.ItemSize.x) * (#uv0.picForShowConfigList - 1))
-			uv0.scrollTag = true
-		end
-	end, 0.016666666666666666, -1, 1)
-
-	slot0.scrollTimer:Start()
 end
 
 function slot0.OnDestroy(slot0)
@@ -85,7 +74,6 @@ function slot0.initData(slot0)
 	slot0.recoveryDataLikeTag = false
 	slot0.recoveryDataBGFilteTag = false
 	slot0.picLikeToggleTag = false
-	slot0.scrollTag = true
 end
 
 function slot0.findUI(slot0)
@@ -132,8 +120,6 @@ function slot0.findUI(slot0)
 	setActive(slot0.picLikeToggle, true)
 
 	slot0.emptyPanel = slot0:findTF("EmptyPanel")
-	slot0.scrollBar = slot0:findTF("Scrollbar")
-	slot0.scrollBarSC = GetComponent(slot0.scrollBar, "Scrollbar")
 	slot0.setOpenToggle = slot0:findTF("SetToggle")
 
 	setActive(slot0.setOpenToggle, false)
@@ -231,10 +217,6 @@ function slot0.initTimeSelectPanel(slot0)
 	slot0.timeSelectUIItemList:align(#GalleryConst.DateIndex)
 end
 
-function slot0.initProgressText(slot0)
-	setText(slot0.progressText, slot0.curMiddleDataIndex .. "/" .. #slot0.picForShowConfigList)
-end
-
 function slot0.initCardListPanel(slot0)
 	function slot0.lScrollPageSC.itemInitedCallback(slot0, slot1)
 		uv0.cardTFList[slot0 + 1] = slot1
@@ -256,21 +238,9 @@ function slot0.initCardListPanel(slot0)
 		uv0:setMovingTag(false)
 
 		if uv0.curMiddleDataIndex ~= slot0 + 1 then
-			setText(uv0.progressText, slot2 .. "/" .. #uv0.picForShowConfigList)
-
 			uv0.curMiddleDataIndex = slot2
 
 			uv0:saveRunData()
-
-			uv0.scrollTag = false
-
-			if #uv0.picForShowConfigList == 1 then
-				uv0.scrollBarSC.value = 1
-			else
-				uv0.scrollBarSC.value = slot0 / (#uv0.picForShowConfigList - 1)
-			end
-
-			uv0.scrollTag = true
 
 			if isActive(uv0.picPanel) then
 				uv0:switchPicImg(uv0.curMiddleDataIndex)
@@ -281,6 +251,10 @@ function slot0.initCardListPanel(slot0)
 	function slot0.lScrollPageSC.itemRecycleCallback(slot0, slot1)
 		uv0.cardTFList[slot0 + 1] = nil
 	end
+
+	function slot0.lScrollPageSC.itemMoveCallback(slot0)
+		setText(uv0.progressText, math.clamp(math.round(slot0 * (#uv0.picForShowConfigList - 1)) + 1, 1, #uv0.picForShowConfigList) .. "/" .. #uv0.picForShowConfigList)
+	end
 end
 
 function slot0.updateCardListPanel(slot0)
@@ -290,35 +264,14 @@ function slot0.updateCardListPanel(slot0)
 
 	if #slot0.picForShowConfigList > 0 then
 		setActive(slot0.scrollPanel, true)
-		setActive(slot0.scrollBar, true)
 		setActive(slot0.emptyPanel, false)
 
 		slot0.lScrollPageSC.DataCount = #slot0.picForShowConfigList
 
 		slot0.lScrollPageSC:Init(slot0.curMiddleDataIndex - 1)
-		slot0.scrollBarSC.onValueChanged:RemoveAllListeners()
-
-		slot0.scrollBarSC.value = 0
-
-		if #slot0.picForShowConfigList > 1 then
-			slot0.scrollBarSC.size = 1 / (#slot0.picForShowConfigList - 1)
-		else
-			slot0.scrollBarSC.size = 1
-		end
-
-		slot0.scrollBarSC.numberOfSteps = #slot0.picForShowConfigList
-
-		slot0.scrollBarSC.onValueChanged:AddListener(function (slot0)
-			if uv0.scrollTag == true then
-				uv0.lScrollPageSC:MoveToItemID(math.floor((uv0.lScrollPageSC.DataCount - 1) * slot0))
-			end
-		end)
-		slot0:initProgressText()
 	else
 		setActive(slot0.scrollPanel, false)
-		setActive(slot0.scrollBar, false)
 		setActive(slot0.emptyPanel, true)
-		setText(slot0.progressText, 0 .. "/" .. #slot0.picForShowConfigList)
 	end
 end
 
@@ -461,7 +414,6 @@ function slot0.openPicPanel(slot0)
 	slot0.picPanel.offsetMin = slot0._tf.parent.offsetMin
 
 	setActive(slot0.picPanel, true)
-	setActive(slot0.scrollBar, false)
 	LeanTween.value(go(slot0.picTopContainer), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
 		setLocalScale(uv0.picTopContainer, {
 			x = slot0,
@@ -479,7 +431,6 @@ function slot0.closePicPanel(slot0, slot1)
 	if slot1 == true then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.picPanel, slot0._tf)
 		setActive(slot0.picPanel, false)
-		setActive(slot0.scrollBar, true)
 
 		return
 	end
@@ -497,7 +448,6 @@ function slot0.closePicPanel(slot0, slot1)
 			})
 			pg.UIMgr.GetInstance():UnblurPanel(uv0.picPanel, uv0._tf)
 			setActive(uv0.picPanel, false)
-			setActive(uv0.scrollBar, true)
 		end))
 	end
 end

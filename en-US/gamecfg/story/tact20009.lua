@@ -72,7 +72,7 @@ return {
 					4
 				},
 				{
-					"In order to become strong enough to protect Ironblood, to protect my allies,",
+					"In order to become strong enough to protect Iron blood, to protect my allies,",
 					8
 				},
 				{

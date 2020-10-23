@@ -6,7 +6,7 @@ return {
 			actor = 900004,
 			nameColor = "#fff157",
 			side = 0,
-			say = "Intelligence reports that the Ironblood's newest battleships are set to sail through this area. If we surprise them here, the Queen will surely reward us upon our return!",
+			say = "Intelligence reports that the Iron blood's newest battleships are set to sail through this area. If we surprise them here, the Queen will surely reward us upon our return!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,7 +149,7 @@ return {
 			actor = 900004,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "Ironblood destroyer squadron detected ahead! Maybe it's just a few scouts? Report to Hood immediately!",
+			say = "Iron blood destroyer squadron detected ahead! Maybe it's just a few scouts? Report to Hood immediately!",
 			shake = {
 				speed = 1,
 				number = 3

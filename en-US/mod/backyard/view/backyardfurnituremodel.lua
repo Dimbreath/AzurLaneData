@@ -287,10 +287,14 @@ function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
 	end
 
 	if slot10 and not slot0.touchSwitch then
+		pg.UIMgr.GetInstance():LoadingOn(false)
+
 		slot0.inPreAction = true
 
 		slot5:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
+				pg.UIMgr.GetInstance():LoadingOff()
+
 				uv0.inPreAction = false
 
 				uv1:SetActionCallBack(nil)

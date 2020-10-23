@@ -2344,6 +2344,21 @@ pg.memory_group = {
 			1337
 		}
 	},
+	[551] = {
+		title = "The Heart Beneath the Smile ",
+		type = 3,
+		id = 551,
+		icon = "title_chara_fanji",
+		memories = {
+			1401,
+			1402,
+			1403,
+			1404,
+			1405,
+			1406,
+			1407
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2478,6 +2493,7 @@ pg.memory_group = {
 		547,
 		548,
 		549,
-		550
+		550,
+		551
 	}
 }

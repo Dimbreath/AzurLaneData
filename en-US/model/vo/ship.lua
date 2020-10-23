@@ -341,16 +341,11 @@ function slot0.getTransformShipId(slot0)
 end
 
 function slot0.getAircraftCount(slot0)
-	slot3 = {
-		[EquipType.FighterAircraft] = 0,
-		[EquipType.TorpedoAircraft] = 0,
-		[EquipType.BomberAircraft] = 0,
-		[EquipType.SeaPlane] = 0
-	}
+	slot3 = {}
 
 	for slot7 = 1, 3 do
 		if table.contains(EquipType.AirDomainEquip, pg.equip_data_statistics[slot0:getEquip(slot7) and slot0:getEquip(slot7).configId or slot0:getConfigTable().default_equip_list[slot7]].type) then
-			slot3[slot9] = slot3[slot9] + slot0:getConfigTable().base_list[slot7]
+			slot3[slot9] = defaultValue(slot3[slot9], 0) + slot0:getConfigTable().base_list[slot7]
 		end
 	end
 

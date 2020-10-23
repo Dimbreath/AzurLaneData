@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hello? Hang on, I remember you... You're Z23, from Ironblood, right?",
+			say = "Hello? Hang on, I remember you... You're Z23, from Iron blood, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

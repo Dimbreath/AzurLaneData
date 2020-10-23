@@ -43,7 +43,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "And in that real world, there is another me who is fighting for Ironblood...",
+			say = "And in that real world, there is another me who is fighting for Iron blood...",
 			shake = {
 				speed = 1,
 				number = 3

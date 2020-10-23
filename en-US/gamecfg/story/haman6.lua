@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			optionFlag = 1,
-			say = "That's right! It was a total coincidence! Coincidence, I tel you!",
+			say = "That's right! It was a total coincidence! Coincidence, I tell you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

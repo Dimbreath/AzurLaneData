@@ -7278,6 +7278,132 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100040] = {
+		map = 2100040,
+		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "UIACT20000",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		ui_type = 1,
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100050,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100041] = {
+		map = 2100041,
+		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "UIACT20001",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Tornado",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100051,
+		clouds_pos = {}
+	},
+	[2100050] = {
+		map = 2100050,
+		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "UIACT20000",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		ui_type = 1,
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100040,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100051] = {
+		map = 2100051,
+		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "UIACT20001",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Tornado",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100041,
+		clouds_pos = {}
+	},
 	[2100060] = {
 		map = 2100060,
 		name = "Fallen Wings: Prequel || || S.P. || E.X.",
@@ -7851,6 +7977,10 @@ pg.expedition_data_by_map = {
 		2100021,
 		2100030,
 		2100031,
+		2100040,
+		2100041,
+		2100050,
+		2100051,
 		2100060,
 		2100061,
 		2100070,

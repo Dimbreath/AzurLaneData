@@ -25,7 +25,7 @@ return {
 			nameColor = "#a9f548",
 			expression = "11",
 			side = 1,
-			say = "Don't get cocky... Those ships were clearly there to test us... We haven't even seen the Ironblood's new battleship yet. I've got a bad feeling about this...",
+			say = "Don't get cocky... Those ships were clearly there to test us... We haven't even seen the Iron blood's new battleship yet. I've got a bad feeling about this...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -60,7 +60,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "Danger!!! Enemies at starboard!!! Two large warships detected at 220 degrees... New Ironblood battleship spotted! All personnel, get ready to fight!",
+			say = "Danger!!! Enemies at starboard!!! Two large warships detected at 220 degrees... New Iron blood battleship spotted! All personnel, get ready to fight!",
 			expression = "13",
 			actor = 900004,
 			nameColor = "#a9f548",

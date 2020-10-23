@@ -2825,5 +2825,1028 @@ pg.gameset_language_client = {
 	},
 	op_reply_99_1_2 = {
 		value = "I want no such thing! I can manage just fine on my own!"
+	},
+	ins_100 = {
+		value = "I have discovered the splendid flavours of Sakura ice cream! My dear friends from the Sakura Empire, recipe please!"
+	},
+	ins_discuss_100_1 = {
+		value = "Ah! Discerning taste you have there~! If you want to know how to make it... Perhaps Hiei can give you some insight?"
+	},
+	ins_reply_100_1_1 = {
+		value = "Haha, want to watch us the next time we make it, Miss Neptune?"
+	},
+	ins_reply_100_1_2 = {
+		value = "Whoa! Sounds lovely! What time?"
+	},
+	ins_discuss_100_2 = {
+		value = "Yaaaaay! let's bring Bel along and study up! (*^▽^*)"
+	},
+	ins_reply_100_2_1 = {
+		value = "Hm? Would you like to learn how to make your own ice cream?"
+	},
+	ins_reply_100_2_2 = {
+		value = "It'd be so much better if you made it! I'd be glad to taste test..."
+	},
+	ins_reply_100_2_3 = {
+		value = "Hehe, very well. Let's set a time and all head down together."
+	},
+	ins_op_100_1_1 = {
+		value = "Sakura Empire... ice cream?"
+	},
+	op_reply_100_1_1 = {
+		value = "Yes! Good stuff, isn't it?"
+	},
+	ins_op_100_1_2 = {
+		value = "Did someone say Neptune ice cream? Shut up and take my money!"
+	},
+	op_reply_100_1_2 = {
+		value = "Hehe, sure~ But how much are you willing to pay, Commander? It doesn't come cheap~"
+	},
+	ins_101 = {
+		value = "Essex is currently concentrating on grilling beef tongue."
+	},
+	ins_discuss_101_1 = {
+		value = "Haha, Essex is always such an industrious young lady."
+	},
+	ins_reply_101_1_1 = {
+		value = "\"I've already done my research! Just a bit longer... Beef tongue must be grilled to perfection before it is optimal for consumption...\" So she says."
+	},
+	ins_discuss_101_2 = {
+		value = "Umm... can I eat already?"
+	},
+	ins_discuss_101_3 = {
+		value = "Barbecue Boss?! Grill General?! Meat Maestro?!"
+	},
+	ins_op_101_1_1 = {
+		value = "Is she facing down a Siren?!"
+	},
+	op_reply_101_1_1 = {
+		value = "\"Grilling meat IS a battle!\" said Essex."
+	},
+	ins_102 = {
+		value = "The ravenous Enterprise took the initiative, breaking Essex's focus."
+	},
+	ins_discuss_102_1 = {
+		value = "AAAAAAAA NOOOOOOO! TOO SOON, ENTERPRISE! TOO SOON!"
+	},
+	ins_reply_102_1_1 = {
+		value = "Oh, sorry. It looked done to me and I was really hungry..."
+	},
+	ins_reply_102_1_2 = {
+		value = "Well, it WAS cooked... but it hadn't reached the pinnacle of deliciousness!"
+	},
+	ins_discuss_102_2 = {
+		value = "Essex is going to remember that one, Enty."
+	},
+	ins_reply_102_2_1 = {
+		value = "I'm real sorry, Essex. I'll cook the next plate to make up for it."
+	},
+	ins_reply_102_2_2 = {
+		value = "I couldn't possibly make you go out of your way like that! Let me handle the cooking, so just sit back and enjoy the meal!"
+	},
+	ins_reply_102_2_3 = {
+		value = "Well... all right. Discretion is the better part of valor..."
+	},
+	ins_reply_102_2_4 = {
+		value = "Essex won't ever back down on matters of principle. How very much like her."
+	},
+	ins_op_102_1_1 = {
+		value = "Remind me never to get on her bad side."
+	},
+	op_reply_102_1_1 = {
+		value = "Wait for it... wait for it..."
+	},
+	ins_op_102_1_2 = {
+		value = "Huh, I guess grilling meat really is an art."
+	},
+	op_reply_102_1_2 = {
+		value = "It's a bit of a science as well! And yet, you wouldn't believe how few people take it seriously."
+	},
+	ins_103 = {
+		value = "What a dangerously delicious scent..."
+	},
+	ins_discuss_103_1 = {
+		value = "Dangerous? Umm, Cleveland, is that pufferfish?"
+	},
+	ins_reply_103_1_1 = {
+		value = "Hahaha, I didn't actually try to eat it, just thought it'd be fun to post :D"
+	},
+	ins_reply_103_1_2 = {
+		value = "Oh, thank goodness. I know you like trying new things, but there's a fine line between bravery and recklessness."
+	},
+	ins_reply_103_1_3 = {
+		value = "Even I have my limits ^^"
+	},
+	ins_reply_103_1_4 = {
+		value = "Pufferish sashimi is delicious! It's even better when you dip it in the sauce!"
+	},
+	ins_discuss_103_2 = {
+		value = "Ah, fugu, as we call it. Delicious as it may be, proper handling and preparation is crucial. Do be careful when you eat it."
+	},
+	ins_reply_103_2_1 = {
+		value = "Yeah, that's why I said I was just posting this for fun! Not like I tried it or plan on eating it lol"
+	},
+	ins_reply_103_2_2 = {
+		value = "Probably a wise decision..."
+	},
+	ins_op_103_1_1 = {
+		value = "Right, some parts are poisonous after all."
+	},
+	op_reply_103_1_1 = {
+		value = "It's nevertheless worth a try, wouldn't you agree, Commander?"
+	},
+	ins_op_103_1_2 = {
+		value = "Cleveland... you're not *actually* gonna eat that raw, are you?"
+	},
+	op_reply_103_1_2 = {
+		value = "Seriously, it's just for fun!"
+	},
+	ins_104 = {
+		value = "[New Year's Memories] Currently enjoying soba with Lady Mikasa and Richelieu."
+	},
+	ins_discuss_104_1 = {
+		value = "Having a piping hot bowl of soba on a cool New Years' Eve makes me feel like I'm going to live forever. This is my favorite tradition :D"
+	},
+	ins_reply_104_1_1 = {
+		value = "Mikasa, shall I give you a shoulder rub next time?"
+	},
+	ins_reply_104_1_2 = {
+		value = "Oh, Nagato? There's no need to go out your way for me, young one."
+	},
+	ins_discuss_104_2 = {
+		value = "Is this the photo from that last time? The Sakura Empire's soba is truly delicious, but learning how to use chopsticks was no easy feat."
+	},
+	ins_reply_104_2_1 = {
+		value = "I am glad you came. We should have more events to strengthen the bonds between our peoples."
+	},
+	ins_reply_104_2_2 = {
+		value = "However, more impressive is your ability to learn new things, Lady Richelieu."
+	},
+	ins_reply_104_2_3 = {
+		value = "Ahhh, now I want to eat ramen!"
+	},
+	ins_reply_104_2_4 = {
+		value = "Shall I make some for you, Nagato?"
+	},
+	ins_reply_104_2_5 = {
+		value = "Is she talking to herself...???"
+	},
+	ins_reply_104_2_6 = {
+		value = "Ahaha looks like I'll have to explain a thing or two first!"
+	},
+	ins_reply_104_2_7 = {
+		value = "I see... there are three people on her account... Thank you for your explanation over DM, Mikasa."
+	},
+	ins_op_104_1_1 = {
+		value = "How wonderful this peace is..."
+	},
+	op_reply_104_1_1 = {
+		value = "Yes, and it's only possible because of you, Commamder."
+	},
+	ins_op_104_1_2 = {
+		value = "Uhh... New Years was 9 months ago..."
+	},
+	op_reply_104_1_2 = {
+		value = "It took me a while to figure out how to upload... :)"
+	},
+	ins_105 = {
+		value = "Why waste time on such flashy, transient activities? "
+	},
+	ins_discuss_105_1 = {
+		value = "Awww, don't be like that, Kaga. Even we need a little recreation from time to time. Besides, aren't you having fun?"
+	},
+	ins_reply_105_1_1 = {
+		value = "Fun? Nonsense..."
+	},
+	ins_reply_105_1_2 = {
+		value = "That's not what your mask is saying."
+	},
+	ins_reply_105_1_3 = {
+		value = "You're wagging your tails too lmao"
+	},
+	ins_reply_105_1_4 = {
+		value = "Hiryuu, please show due respect to Kaga..."
+	},
+	ins_reply_105_1_5 = {
+		value = "Ugh, fine"
+	},
+	ins_discuss_105_2 = {
+		value = "Kaga, celebrations and fireworks are not meaningless at all!"
+	},
+	ins_reply_105_2_1 = {
+		value = "Now now, Zuikaku, there's no need to judge how others enjoy themselves~"
+	},
+	ins_reply_105_2_2 = {
+		value = "Is that so...?"
+	},
+	ins_reply_105_2_3 = {
+		value = "..."
+	},
+	ins_op_105_1_1 = {
+		value = "Seems like you're having a nice time."
+	},
+	op_reply_105_1_1 = {
+		value = "...Not really."
+	},
+	ins_op_105_1_2 = {
+		value = "Hey, if nothing else, your mask is cute."
+	},
+	op_reply_105_1_2 = {
+		value = "...Really? Thanks... I guess."
+	},
+	ins_106 = {
+		value = "The Royal Maids tried to make Sakura-style gyoza. They were quite delicious, but the garlic..."
+	},
+	ins_discuss_106_1 = {
+		value = "Hm? Was there something amiss?"
+	},
+	ins_reply_106_1_1 = {
+		value = "The garlic's stench... Ahh, my honourable Master, please punish this befouled maid!"
+	},
+	ins_reply_106_1_2 = {
+		value = "Haha... Should I go make some mint tea?"
+	},
+	ins_reply_106_1_3 = {
+		value = "You said it was delicious, right? Then what's the problem?"
+	},
+	ins_discuss_106_2 = {
+		value = "Have a pint of ale, and the weird aftertaste will be gone in no time!"
+	},
+	ins_reply_106_2_1 = {
+		value = "Hah! Bold solutions for bold individuals."
+	},
+	ins_reply_106_2_2 = {
+		value = "Perhaps... drinking myself to oblivion wouldn't be a bad idea either..."
+	},
+	ins_reply_106_2_3 = {
+		value = "Please don't..."
+	},
+	ins_op_106_1_1 = {
+		value = "Looks delicious to me."
+	},
+	op_reply_106_1_1 = {
+		value = "In that case, I shall bring some to you this instant, my honourable Master!"
+	},
+	ins_op_106_1_2 = {
+		value = "I don't mind one bit. I'm a big fan of garlic."
+	},
+	op_reply_106_1_2 = {
+		value = "Ah, thank you, my honourable Master..."
+	},
+	ins_107 = {
+		value = "Today's lunch is... not your usual burger!"
+	},
+	ins_discuss_107_1 = {
+		value = "woah, that looks legit! where'd u get it?"
+	},
+	ins_reply_107_1_1 = {
+		value = "I'll send the address to you."
+	},
+	ins_reply_107_1_2 = {
+		value = "woah, those are some rave reviews~ next time, let's grab the girls and DO THIS!"
+	},
+	ins_discuss_107_2 = {
+		value = "Nya? Akashi smells something good! The scent of OPPORTUNITY! Let's hold a Sasebo Burger Festival right here, nya!"
+	},
+	ins_reply_107_2_1 = {
+		value = "Wait, what?"
+	},
+	ins_reply_107_2_2 = {
+		value = "woah, the nostalgia! I want a pork belly burger, NOW!"
+	},
+	ins_reply_107_2_3 = {
+		value = "Oh right. I just remembered you're from Sasebo."
+	},
+	ins_op_107_1_1 = {
+		value = "No matter where you are, anyone can appreciate a good burger."
+	},
+	op_reply_107_1_1 = {
+		value = "Well yeah, because they're delicious! One day they might bring world peace, even!"
+	},
+	ins_op_107_1_2 = {
+		value = "Is this any different from a regular burger?"
+	},
+	op_reply_107_1_2 = {
+		value = "Umm, it's got more style than most ordinary burgers, I guess?"
+	},
+	ins_108 = {
+		value = "Who came up with the idea of going through an entire workout to get at some crab meat? It is really good though..."
+	},
+	ins_discuss_108_1 = {
+		value = "Non non. You weren't even the one who shelled the crabs. Make sure to thank Dunkerque later, okay?"
+	},
+	ins_reply_108_1_1 = {
+		value = "That has no bearing whatsoever upon the fact that it's a pain in the butt to eat!"
+	},
+	ins_discuss_108_2 = {
+		value = "Hehe~ That's why you need a shell cracker to make the job easier."
+	},
+	ins_reply_108_2_1 = {
+		value = "Thank you for helping us with it. If you hadn't, we would've been at it all day..."
+	},
+	ins_reply_108_2_2 = {
+		value = "Using a tool to dismantle the one thing keeping me from my prey, piece by piece... Ahaha, how very satisfying!"
+	},
+	ins_reply_108_2_3 = {
+		value = "Can you talk like a normal person...?"
+	},
+	ins_op_108_1_1 = {
+		value = "A pro at work."
+	},
+	op_reply_108_1_1 = {
+		value = "Ahaha... I simply did a bit of prep work beforehand~"
+	},
+	ins_op_108_1_2 = {
+		value = "Hit the enemy crab in its weak spot for massive damage!"
+	},
+	op_reply_108_1_2 = {
+		value = "Is that you, Long Island? Get off the computer."
+	},
+	ins_109 = {
+		value = "#OutWithTheBad #InWithTheGood"
+	},
+	ins_discuss_109_1 = {
+		value = "a photo from setsubun, huh? considering how we have horns to begin with, that whole thing felt a bit lulzy"
+	},
+	ins_reply_109_1_1 = {
+		value = "You were having the most fun out of all of us, Kumano."
+	},
+	ins_reply_109_1_2 = {
+		value = "After how this year has been so far... I can only hope the next one will be better."
+	},
+	ins_reply_109_1_3 = {
+		value = "Cheer up, Mogami! Hasn't this been a pretty good year for us?"
+	},
+	ins_discuss_109_2 = {
+		value = "Heh. It's fun throwing those beans around. Plus, the giant sushi roll was pretty tasty as well."
+	},
+	ins_reply_109_2_1 = {
+		value = "I bet it was! You were chowing down on it like it was going out of fashion!"
+	},
+	ins_reply_109_2_2 = {
+		value = "Hey, weren't you the one who said that my dreams wouldn't come true if I didn't cram it all down in one go?"
+	},
+	ins_op_109_1_1 = {
+		value = "A lot of food-related traditions in the Sakura Empire, huh?"
+	},
+	op_reply_109_1_1 = {
+		value = "They exist in droves wherever you go! It's just a matter of looking for them."
+	},
+	ins_110 = {
+		value = "#ReleasingSpirits May all the lost souls find peace."
+	},
+	ins_discuss_110_1 = {
+		value = "Yes. I can help with that, if you want."
+	},
+	ins_reply_110_1_1 = {
+		value = "Oh, aren't you the sweetest, Ayanami? Thank you!"
+	},
+	ins_reply_110_1_2 = {
+		value = "Is this also one of the Sakura Empire's unique traditions?"
+	},
+	ins_reply_110_1_3 = {
+		value = "Yes... It's like a prayer. A ceremony for saying farewell."
+	},
+	ins_discuss_110_2 = {
+		value = "There are all different sorts of spirit vessels, as they're known."
+	},
+	ins_reply_110_2_1 = {
+		value = "Everyone put in a lot of time and effort into making them!"
+	},
+	ins_reply_110_2_2 = {
+		value = "Yes, we did. I did so, too."
+	},
+	ins_op_110_1_1 = {
+		value = "And so they sail off to a new world. Farewell, brave souls..."
+	},
+	op_reply_110_1_1 = {
+		value = "It's beautiful in a way, yet sad in another..."
+	},
+	ins_111 = {
+		value = "Fire ramen! Delicious! But burning hot! But still delicious!"
+	},
+	ins_discuss_111_1 = {
+		value = "same. solid recommendation. was it really that hot though? didn't feel like it to me."
+	},
+	ins_reply_111_1_1 = {
+		value = "A measly bowl of ramen is no match for Yukikaze the Great!"
+	},
+	ins_reply_111_1_2 = {
+		value = "dunno about that, judging from your expression..."
+	},
+	ins_discuss_111_2 = {
+		value = "ahaha! ur just like a little kid, yukikaze!"
+	},
+	ins_reply_111_2_1 = {
+		value = "Silence, fool! I simply didn't have time to adjust to the temperature of the ramen!"
+	},
+	ins_discuss_111_3 = {
+		value = "then would it really kill you to wait til it's cooled down a bit? dumbass"
+	},
+	ins_reply_111_3_1 = {
+		value = "IT WOULDN'T BE AS GOOD THEN! PAIN IS PLEASURE!"
+	},
+	ins_reply_111_3_2 = {
+		value = "Touché."
+	},
+	ins_op_111_1_1 = {
+		value = "So, you can't handle hot food?"
+	},
+	op_reply_111_1_1 = {
+		value = "Nonsense! My mouth just needs a few minutes to adjust!"
+	},
+	ins_op_111_1_2 = {
+		value = "I want ramen too..."
+	},
+	op_reply_111_1_2 = {
+		value = "I suppose Yukikaze the Great could be convinced to allow you to tag along!"
+	},
+	ins_112 = {
+		value = "awoo?! this is the best freakin meat EVER!!!"
+	},
+	ins_discuss_112_1 = {
+		value = "geesh, slow down. I'm not saving you if you choke from trying to inhale your food."
+	},
+	ins_reply_112_1_1 = {
+		value = "but its freakin good! besides, ur doing the same thing!"
+	},
+	ins_reply_112_1_2 = {
+		value = "Am not!"
+	},
+	ins_reply_112_1_3 = {
+		value = "Ahaha... Aren't they both so cute? Let's all get sukiyaki together next time."
+	},
+	ins_reply_112_1_4 = {
+		value = "helllll yeahhhh! im down for meat this good any time!"
+	},
+	ins_discuss_112_2 = {
+		value = "Hmph. Not bad. A little bit of liquor to cap off the meal... Yeah, that's some good stuff right there."
+	},
+	ins_reply_112_2_1 = {
+		value = "All right, we've gotta do this again! Buddy up, we'll meet back here in a couple days!"
+	},
+	ins_reply_112_2_2 = {
+		value = "Such exquisite beef... But isn't this method a bit wasteful?"
+	},
+	ins_reply_112_2_3 = {
+		value = "way tooo goooood!"
+	},
+	ins_op_112_1_1 = {
+		value = "Share."
+	},
+	op_reply_112_1_1 = {
+		value = "should i save some for you next time?"
+	},
+	ins_op_112_1_2 = {
+		value = "You must be pretty happy if you're offering."
+	},
+	op_reply_112_1_2 = {
+		value = "yep! nothing makes me happier than having delicious meat in my belly!"
+	},
+	ins_113 = {
+		value = "#AwaOdori My Commander, please enjoy my dance~♥"
+	},
+	ins_discuss_113_1 = {
+		value = "Woahhh, is this a special Sakura Empire dance? Looks like a lot of fun!"
+	},
+	ins_reply_113_1_1 = {
+		value = "Y-you again?! What do you want?!"
+	},
+	ins_reply_113_1_2 = {
+		value = "Let's play together! I wanna learn that dance too!"
+	},
+	ins_reply_113_1_3 = {
+		value = "NO. BEGONE."
+	},
+	ins_discuss_113_2 = {
+		value = "Oh my. There's no harm in that, is there? Not all dances must be for the gods, as there is joy to be had simply through the art itself."
+	},
+	ins_reply_113_2_1 = {
+		value = "Let's all dance together! I'm getting excited just thinking about it~"
+	},
+	ins_reply_113_2_2 = {
+		value = "My plan to draw my Commander's full, undivided attention..."
+	},
+	ins_op_113_1_1 = {
+		value = "What a fiery dance!"
+	},
+	op_reply_113_1_1 = {
+		value = "Yes, my Commander! For you, I would dance until I go up into flames, should you will it~"
+	},
+	ins_op_113_1_2 = {
+		value = "Stunning! If only I could see it in person!"
+	},
+	op_reply_113_1_2 = {
+		value = "Gladly, my Commander! Afterwards, I can offer you a different type of dance, if you wish~♥"
+	},
+	ins_114 = {
+		value = "Noooooooooooo! I failed to flip the okonomiyaki again :("
+	},
+	ins_discuss_114_1 = {
+		value = "Don't worry. Just be more careful, and you'll be sure to succeed next time~"
+	},
+	ins_reply_114_1_1 = {
+		value = "Thank you for your kind words,,,"
+	},
+	ins_reply_114_1_2 = {
+		value = "Well, it doesn't seem to have affected the taste. It's still delicious, I'd say."
+	},
+	ins_discuss_114_2 = {
+		value = "Ohhhhh! I totally understand, Lady Mikasa! I too know the bitter defeat of failing the flip..."
+	},
+	ins_reply_114_2_1 = {
+		value = "I've disgraced myself before those who look up to me. How shameful... :("
+	},
+	ins_reply_114_2_2 = {
+		value = "Next time, let's practice the art of okonomiyaki flipping, together!"
+	},
+	ins_reply_114_2_3 = {
+		value = "I suppose I'll foot the bill for both of you next time? Hehe~"
+	},
+	ins_op_114_1_1 = {
+		value = "You two, it's not that big of a deal."
+	},
+	op_reply_114_1_1 = {
+		value = "I have been derelict in my training lol"
+	},
+	ins_op_114_1_2 = {
+		value = "Shall I do it for you next time?"
+	},
+	op_reply_114_1_2 = {
+		value = "I won't fail again :)"
+	},
+	ins_115 = {
+		value = "Ugh... octopus >_>"
+	},
+	ins_discuss_115_1 = {
+		value = "What's the matter, Honolulu? Not going to eat?"
+	},
+	ins_reply_115_1_1 = {
+		value = "I'd rather not... just looking at it brings back unwanted memories..."
+	},
+	ins_discuss_115_2 = {
+		value = "Oh, are you talking about what happened that one time? If I remember properly..."
+	},
+	ins_reply_115_2_1 = {
+		value = "NO NEED TO REMIND ME THANKS T_T UGHHHH"
+	},
+	ins_reply_115_2_2 = {
+		value = "I see... St. Louis just explained it to me. I'm sorry to hear it, Honolulu."
+	},
+	ins_reply_115_2_3 = {
+		value = "You should consider that as your great comeback."
+	},
+	ins_reply_115_2_4 = {
+		value = "I don't feel like I \"won\" at all!"
+	},
+	ins_op_115_1_1 = {
+		value = "That reminds me..."
+	},
+	op_reply_115_1_1 = {
+		value = "UGGGHHHH STOP IT"
+	},
+	ins_op_115_1_2 = {
+		value = "Let's be fair here, octopus is pretty tasty."
+	},
+	op_reply_115_1_2 = {
+		value = "maybe... when it's not trying to make *you* into its next meal..."
+	},
+	ins_116 = {
+		value = "Behold, chestnut confections!"
+	},
+	ins_discuss_116_1 = {
+		value = "Are these the sweets the girl from the Sakura Empire mentioned at the last tea party?"
+	},
+	ins_reply_116_1_1 = {
+		value = "That's right! I bought some for you, so I hope you attend the next tea party as well!"
+	},
+	ins_reply_116_1_2 = {
+		value = "My~ I'm looking forward to it♪"
+	},
+	ins_discuss_116_2 = {
+		value = "That's called kurikinton! Where'd you buy them?"
+	},
+	ins_reply_116_2_1 = {
+		value = "Oh, you don't know the store? I presumed everyone from the Sakura Empire would've heard about it... I DM'd you the details."
+	},
+	ins_reply_116_2_2 = {
+		value = "Yeah, I saw! Man, I really want to go there with Hatsuharu as soon as possible!"
+	},
+	ins_op_116_1_1 = {
+		value = "Some kurikinton would really hit the spot right about now."
+	},
+	op_reply_116_1_1 = {
+		value = "I expected you to say that, so I bought extra just in case! I'll bring some over to the office later."
+	},
+	ins_op_116_1_2 = {
+		value = "If only I had some right now! The craving's driving me nuts!"
+	},
+	op_reply_116_1_2 = {
+		value = "Then maybe you should've come with me, hehe~"
+	},
+	ins_117 = {
+		value = "Mmh. Fine wine under the moonlight. If only I had someone to share it with."
+	},
+	ins_discuss_117_1 = {
+		value = "That's an elegant facet of Eastern culture, isn't it?"
+	},
+	ins_reply_117_1_1 = {
+		value = "That might be true, but the moon pales in comparison to the beauty of a signora such as you."
+	},
+	ins_reply_117_1_2 = {
+		value = "Oh my, I'll gladly accept that compliment~"
+	},
+	ins_discuss_117_2 = {
+		value = "Oh, Miss Littorio. You were out drinking over there? I was worried senseless!"
+	},
+	ins_reply_117_2_1 = {
+		value = "Yes, just on a whim. Apologies for making you worry... Shall we have a drink together, as my way of making up for it?"
+	},
+	ins_reply_117_2_2 = {
+		value = "I-I really can't right now! But thanks for the suggestion. It seems the night winds are pretty strong, so please take care of yourself!"
+	},
+	ins_reply_117_2_3 = {
+		value = "I am Littorio, I'll be fine. I'm heading back soon anyway."
+	},
+	ins_op_117_1_1 = {
+		value = "Definitely the sort of activity you do together with someone."
+	},
+	op_reply_117_1_1 = {
+		value = "Well, Commander? How about joining me for some snacks and a drink under the serene moon?"
+	},
+	ins_op_117_1_2 = {
+		value = "You know what they say... \"The moon really is beautiful today.\""
+	},
+	op_reply_117_1_2 = {
+		value = "Are you trying to hit on me? Hehehe!"
+	},
+	ins_118 = {
+		value = "Our beliefs are different... However, this place is solemn and sacred. A sanctuary that must not be defiled."
+	},
+	ins_discuss_118_1 = {
+		value = "Are you on a trip, Champagne?"
+	},
+	ins_reply_118_1_1 = {
+		value = "Though spreading the Lord's teachings is the duty of apostles, broadening the breadth of one's experiences is the way of Man."
+	},
+	ins_reply_118_1_2 = {
+		value = "I-I guess that's true! I want to go see the world as well!"
+	},
+	ins_reply_118_1_3 = {
+		value = "As person, not ship, no shackles remain — none binding thy feet, stopping thee from going forth."
+	},
+	ins_discuss_118_2 = {
+		value = "Our beliefs are different, but just as our Lord does, he guides men to the path of good, just the same."
+	},
+	ins_reply_118_2_1 = {
+		value = "If all things exist for the same reason, aim to coexist, so that they may be saved as well."
+	},
+	ins_op_118_1_1 = {
+		value = "What a grand statue of the Buddha!"
+	},
+	op_reply_118_1_1 = {
+		value = "Through time's harsh passage, this dignified sanctuary loseth not its glory."
+	},
+	ins_119 = {
+		value = "Nothing is better than Sakura Empire tea for calming the nerves, I find."
+	},
+	ins_discuss_119_1 = {
+		value = "My, is that so? I would love to try another nation's tea for a change."
+	},
+	ins_reply_119_1_1 = {
+		value = "The taste is quite different from the black tea that we in the Royal Navy drink."
+	},
+	ins_reply_119_1_2 = {
+		value = "You've piqued my interest~ Won't you prepare some for me at the next tea party?"
+	},
+	ins_reply_119_1_3 = {
+		value = "There's nothing I can't do, but... I'll think about it!"
+	},
+	ins_discuss_119_2 = {
+		value = "Did someone from the Sakura Empire make it for you?"
+	},
+	ins_reply_119_2_1 = {
+		value = "Yes, I was treated to some when I was invited to tea by Kongou."
+	},
+	ins_reply_119_2_2 = {
+		value = "That's nice. I wonder if I can join you all next time."
+	},
+	ins_reply_119_2_3 = {
+		value = "If that's what Miss Victorious desires, then by all means, please join us next time."
+	},
+	ins_reply_119_2_4 = {
+		value = "Their tea preparation ceremony seemed like a lot of needless extra work... Or should I say, \"seemed like it took a lot of planning.\""
+	},
+	ins_op_119_1_1 = {
+		value = "Don't try to rush it. Enjoy the wabi-sabi for what it is."
+	},
+	op_reply_119_1_1 = {
+		value = "Yes, I do plan on enjoying it slowly. Hehehe."
+	},
+	ins_120 = {
+		value = "A festival of which I never knew before... I had fun, that much I will say."
+	},
+	ins_discuss_120_1 = {
+		value = "Abandoning oneself to nocturnal passions while hidden in the dark of the night, hmm?"
+	},
+	ins_reply_120_1_1 = {
+		value = "My compatriot, did you not enjoy yourself?"
+	},
+	ins_reply_120_1_2 = {
+		value = "I wouldn't say that. Seeing my brethren have fun brought joy to my soul, too."
+	},
+	ins_discuss_120_2 = {
+		value = "So this is the Sakura Empire's \"Nebuta Festival.\" It seems like you had a wild time!"
+	},
+	ins_reply_120_2_1 = {
+		value = "The jostling crowd and the marvelous flashing display made me flush with excitement!"
+	},
+	ins_reply_120_2_2 = {
+		value = "hey Ayanami, let's go see it together sometime! (^o^)丿"
+	},
+	ins_reply_120_2_3 = {
+		value = "Yes, let's. I'll go invite some other girls too."
+	},
+	ins_op_120_1_1 = {
+		value = "What's the wishing slip say? \"Sound Health\"?"
+	},
+	op_reply_120_1_1 = {
+		value = "Yep. I offered a prayer for you, for my compatriots, and for all that stand near and dear to me."
+	},
+	ins_op_120_1_2 = {
+		value = "I'm glad that you enjoyed it."
+	},
+	op_reply_120_1_2 = {
+		value = "Thank you. Let us chant together: rasse-ra! Rasse-ra!"
+	},
+	ins_121 = {
+		value = "We got together and made this imoni stew. It was good."
+	},
+	ins_discuss_121_1 = {
+		value = "When enjoying tasty food with friends, you gotta have alcohol. The sake I got from the Sakura Empire was just amazing~"
+	},
+	ins_reply_121_1_1 = {
+		value = "Listen, Eugen! Don't you ever pick a drunk quarrel with Spee ever again!"
+	},
+	ins_reply_121_1_2 = {
+		value = "Hahaha~ Don't say that. Didn't Spee have fun too?"
+	},
+	ins_reply_121_1_3 = {
+		value = "Well... I was a bit surprised, but that was my first time seeing that side of you. I guess that makes me happy?"
+	},
+	ins_reply_121_1_4 = {
+		value = "...Hmph! I'm only letting you off this time!"
+	},
+	ins_discuss_121_2 = {
+		value = "Leave the drunkards to themselves. What are you doing? Just enjoy your food."
+	},
+	ins_reply_121_2_1 = {
+		value = "But Hipper, you ended up carrying Eugen all the way back to the dorms on your back..."
+	},
+	ins_reply_121_2_2 = {
+		value = "My sister wears her feelings on her sleeves, don't you know? Hehehe~"
+	},
+	ins_reply_121_2_3 = {
+		value = "Excuse me?! Since when do I do that?!"
+	},
+	ins_reply_121_2_4 = {
+		value = "Do you not...?"
+	},
+	ins_reply_121_2_5 = {
+		value = "Oh, for god's sake! Just stop talking about it already!"
+	},
+	ins_op_121_1_1 = {
+		value = "Great, I'd say. That's a stew I could have every day."
+	},
+	op_reply_121_1_1 = {
+		value = "Yeah, you're right. You're a precious comrade too, Commander."
+	},
+	ins_122 = {
+		value = "I'm... at my limit already..."
+	},
+	ins_discuss_122_1 = {
+		value = "Is that... the wanko soba challenge?!"
+	},
+	ins_reply_122_1_1 = {
+		value = "They brought more out... I guess I need to finish it..."
+	},
+	ins_reply_122_1_2 = {
+		value = "Is that the competition where you're supposed to eat as much as you can in the alloted time?"
+	},
+	ins_discuss_122_2 = {
+		value = "Oh, if you cover up your bowl, you're saying \"I give up!\" so you can stop whenever you'd like."
+	},
+	ins_reply_122_2_1 = {
+		value = "All this time, that was an option?!"
+	},
+	ins_reply_122_2_2 = {
+		value = "Wanko soba is supposed to be enjoyed without forcing yourself, so there's no reason to get anxious over it."
+	},
+	ins_reply_122_2_3 = {
+		value = "Well, I learned something new today..."
+	},
+	ins_op_122_1_1 = {
+		value = "Good lord! You okay there, Dido?"
+	},
+	op_reply_122_1_1 = {
+		value = "To have made Master worry over me... I'm such a useless maid..."
+	},
+	ins_123 = {
+		value = "Food selfie! Check it out: the hottest new ice cream on the block!"
+	},
+	ins_discuss_123_1 = {
+		value = "I know we ate the same thing, but did it actually look like that?"
+	},
+	ins_reply_123_1_1 = {
+		value = "Tsk tsk, my friend. Snapping a good pic is only half the battle, applying the right filters is the other!"
+	},
+	ins_reply_123_1_2 = {
+		value = "All I care about is if it's tasty or not tho, lol."
+	},
+	ins_discuss_123_2 = {
+		value = "Hey, how about some pictures of food that aid in stamina training, and not just a nonstop stream of sweets and junk food?"
+	},
+	ins_reply_123_2_1 = {
+		value = "Yeah, sure, next time. Seriously though, give this ice cream a try next time! You'll love it!"
+	},
+	ins_reply_123_2_2 = {
+		value = "I'll consider it."
+	},
+	ins_reply_123_2_3 = {
+		value = "I'll let you know where it is later!"
+	},
+	ins_op_123_1_1 = {
+		value = "It's almost too pretty to eat!"
+	},
+	op_reply_123_1_1 = {
+		value = "Yeah well, either you eat it, or it melts and goes to waste!"
+	},
+	ins_op_123_1_2 = {
+		value = "If your ice cream is hot, something's gone very wrong."
+	},
+	op_reply_123_1_2 = {
+		value = "Lmao, you got me there. Genuinely though, 10/10 ice cream, I recommend it!"
+	},
+	ins_124 = {
+		value = "Tonight, our hero Reno takes on monstrous villains from a strange land!"
+	},
+	ins_discuss_124_1 = {
+		value = "You took a picture of that? Ahaha... When I saw that little girl looking scared, I couldn't help but dash out in front of her..."
+	},
+	ins_reply_124_1_1 = {
+		value = "That's because you're a gallant hero, Reno."
+	},
+	ins_reply_124_1_2 = {
+		value = "Yeah! You're so cool you deserve an origin story movie! :D"
+	},
+	ins_reply_124_1_3 = {
+		value = "Looking back at it, it's a bit embarrassing, but thanks for taking the picture, Cleveland!"
+	},
+	ins_discuss_124_2 = {
+		value = "Those \"namahage\" might look scary, but they're servants of the gods who punish bad children and bring happiness to families... Or so the legends say."
+	},
+	ins_reply_124_2_1 = {
+		value = "Is that so?! I had always thought they were some sort of movie villain..."
+	},
+	ins_reply_124_2_2 = {
+		value = "It's perfectly fine~ If anything, thanks for protecting Fumizuki. She's been talking about \"her hero, Reno\" ever since~"
+	},
+	ins_op_124_1_1 = {
+		value = "Reno, to the rescuuueee!"
+	},
+	op_reply_124_1_1 = {
+		value = "Being called that by the person I admire... It's so embarassing >.<"
+	},
+	ins_125 = {
+		value = "Fish on rice... the expert craftsmanship of a chef who's honed his technique... I see. As expected of the culture of the respected Sakura Empire."
+	},
+	ins_discuss_125_1 = {
+		value = "Even if one lacks technique, if one puts their all into making sushi, their feelings will be conveyed... Or so I've heard, at least."
+	},
+	ins_reply_125_1_1 = {
+		value = "Which is to say, a chef expresses themselves through their cooking?"
+	},
+	ins_discuss_125_2 = {
+		value = "Also, what was it called... the wasabi? It gave me an unforgettable shock."
+	},
+	ins_reply_125_2_1 = {
+		value = "It's just as you say, Cardinal. For those of us in the service of Lord Iris who are used to bland food, it definitely would..."
+	},
+	ins_reply_125_2_2 = {
+		value = "Bound to shock people who aren't used to it, that's for sure."
+	},
+	ins_reply_125_2_3 = {
+		value = "However, there's no doubt that even that was refined over a long period of time. Eating fish with soy sauce and wasabi. I consume all of it with the respect it's due."
+	},
+	ins_op_125_1_1 = {
+		value = "If you're a first-timer, you should have it without the wasabi."
+	},
+	op_reply_125_1_1 = {
+		value = "Thank you for the suggestion. But we've already experienced the shocking flavor."
+	},
+	ins_126 = {
+		value = "I tried the famous curry♪"
+	},
+	ins_discuss_126_1 = {
+		value = "A battleship on curry? Can you eat that battleship as well?"
+	},
+	ins_reply_126_1_1 = {
+		value = "Nope, you can't. It's just for show, sadly."
+	},
+	ins_discuss_126_2 = {
+		value = "Is this the famed naval curry?"
+	},
+	ins_reply_126_2_1 = {
+		value = "I dunno, it tastes a little different from the naval curry our port has."
+	},
+	ins_discuss_126_3 = {
+		value = "The weather appears to be perfect for curry."
+	},
+	ins_reply_126_3_1 = {
+		value = "Sure is! Cloudless days like these always put me in the mood for curry."
+	},
+	ins_op_126_1_1 = {
+		value = "Compared to our naval curry, which one tastes better?"
+	},
+	op_reply_126_1_1 = {
+		value = "Hard to say. Both are good in their own way!"
+	},
+	ins_op_126_1_2 = {
+		value = "Out shopping, eh?"
+	},
+	op_reply_126_1_2 = {
+		value = "Yep, along with Passepartout!"
+	},
+	ins_127 = {
+		value = "Today, I learned that you're not supposed to double dip."
+	},
+	ins_discuss_127_1 = {
+		value = "Yup, that's because the sauce is for everyone to use."
+	},
+	ins_reply_127_1_1 = {
+		value = "Sigh, I can't believe I committed such a faux pas when I was the one invited there."
+	},
+	ins_reply_127_1_2 = {
+		value = "Was your first time, so don't worry about it too much."
+	},
+	ins_reply_127_1_3 = {
+		value = "Sorry for being so clueless. But now that I know, I'll make sure to follow the rules."
+	},
+	ins_discuss_127_2 = {
+		value = "Hm? Is double dipping bad?"
+	},
+	ins_reply_127_2_1 = {
+		value = "Uh-huh, it is. For sanitary reasons, double dipping is usually banned~"
+	},
+	ins_op_127_1_1 = {
+		value = "There are shops that let you double dip though."
+	},
+	op_reply_127_1_1 = {
+		value = "Really... What a wide world this is..."
+	},
+	ins_op_127_1_2 = {
+		value = "The skewers are really good too."
+	},
+	op_reply_127_1_2 = {
+		value = "Yep, I really enjoyed them."
+	},
+	ins_128 = {
+		value = "Summer kiritanpo. Ah, what a treat."
+	},
+	ins_discuss_128_1 = {
+		value = "Hah, look at the doggie in the back. I can imagine the \"GIMME MEAT!\" so vividly."
+	},
+	ins_reply_128_1_1 = {
+		value = "Everyone loves meat, but don't forget to eat your vegetables."
+	},
+	ins_reply_128_1_2 = {
+		value = "Says the girl who didn't put any veggies on her plate!"
+	},
+	ins_reply_128_1_3 = {
+		value = "What can I say? I'm a meat lover. Besides, it's kiritanpo, what's the big deal?"
+	},
+	ins_discuss_128_2 = {
+		value = "It sure is fun having hotpot with everyone like this."
+	},
+	ins_reply_128_2_1 = {
+		value = "Yes, we must all be thankful to Noshiro for bringing us together~"
+	},
+	ins_reply_128_2_2 = {
+		value = "All I did was get everyone together. The delicious food, that's thanks to you."
+	},
+	ins_reply_128_2_3 = {
+		value = "No no, it's enough that you set the plan in motion. Make sure to invite us all again♪"
+	},
+	ins_op_128_1_1 = {
+		value = "Kiritanpo hotpot sure is popular even in the summer."
+	},
+	op_reply_128_1_1 = {
+		value = "That's right. Commander, would you like to join us next time?"
+	},
+	op_reply_128_1_2 = {
+		value = "If the Commander comes, what ingredients should we prepare? You know, for the taste and stuff."
+	},
+	op_reply_128_1_3 = {
+		value = "...How about fish...?"
 	}
 }

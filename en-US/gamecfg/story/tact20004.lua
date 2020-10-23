@@ -211,7 +211,7 @@ return {
 			dir = 0,
 			actor = 407010,
 			nameColor = "#FF0000",
-			say = "Stop... Your ego will crumble if you keep thinking like that. Don't make her sacrifices for Ironblood all in vain...",
+			say = "Stop... Your ego will crumble if you keep thinking like that. Don't make her sacrifices for Iron blood all in vain...",
 			shake = {
 				speed = 1,
 				number = 3

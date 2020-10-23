@@ -5,8 +5,6 @@ slot0 = pg.OSSMgr
 function slot0.Ctor(slot0)
 	slot0.instance = OSSStarter.ins
 	slot0.isIninted = false
-
-	ReflectionHelp.RefSetField(typeof("OSSStarter"), "debug", slot0.instance, false)
 end
 
 function slot0.InitConfig(slot0)

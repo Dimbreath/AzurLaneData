@@ -39,10 +39,7 @@ end
 function slot0.set(slot0, slot1, slot2, slot3)
 	slot0.templates = slot1
 	slot0.tickets = slot2
-
-	if not slot0.temp then
-		slot0.temp = slot1
-	end
+	slot0.temp = slot0.temp or slot1
 
 	slot0:flush(slot3)
 end

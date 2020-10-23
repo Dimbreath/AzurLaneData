@@ -153,7 +153,7 @@ return {
 			blackBg = true,
 			actor = 900010,
 			actorName = "???",
-			say = "I'm sorry... I did what I had to for the sake of Ironblood... I just want you to understand that...",
+			say = "I'm sorry... I did what I had to for the sake of Iron blood... I just want you to understand that...",
 			shake = {
 				speed = 1,
 				number = 3

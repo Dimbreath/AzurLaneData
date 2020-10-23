@@ -2296,6 +2296,41 @@ pg.backyard_theme_template = {
 			69309
 		}
 	},
+	[71] = {
+		Cfg_1 = 5,
+		name = "Haunted House",
+		desc = "Shh! Hear that? Whatever you do, don't look behind you.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 71,
+		icon = "hl4themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			71001,
+			71002,
+			71101,
+			71102,
+			71103,
+			71104,
+			71105,
+			71106,
+			71107,
+			71108,
+			71109,
+			71110,
+			71111,
+			71112,
+			71113,
+			71114,
+			71115,
+			71301
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2345,6 +2380,7 @@ pg.backyard_theme_template = {
 		65,
 		66,
 		68,
-		69
+		69,
+		71
 	}
 }

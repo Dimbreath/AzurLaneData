@@ -43,7 +43,7 @@ return {
 			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "I am the aircraft carrier Graf Zeppelin. My Ironblood Hellwings shall rain apocalyptic destruction down on you from the heavens!",
+			say = "I am the aircraft carrier Graf Zeppelin. My Iron blood Hellwings shall rain apocalyptic destruction down on you from the heavens!",
 			shake = {
 				speed = 1,
 				number = 3

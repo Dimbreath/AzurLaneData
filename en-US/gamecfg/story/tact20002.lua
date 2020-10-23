@@ -43,7 +43,7 @@ return {
 			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "I don't have any sympathy for that moron, but I can't just let her give you the wrong impression of Ironblood's might either!",
+			say = "I don't have any sympathy for that moron, but I can't just let her give you the wrong impression of Iron blood's might either!",
 			shake = {
 				speed = 1,
 				number = 3

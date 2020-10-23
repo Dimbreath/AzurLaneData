@@ -7063,13 +7063,13 @@ Combat Details:
 		tip = "Receive an extra copy of Shinano after doing a total of 200 builds! (Limit of 4 times) "
 	},
 	buildship_heavy_tip = {
-		tip = "Duke of York added to standard build pool! "
+		tip = "Tirpitz, Deutschland and others are added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Z18 and Little Bel are added to standard build pool! "
+		tip = "Z46, Z25 and others are added to standard build pool! "
 	},
 	buildship_special_tip = {
-		tip = "Shangri-La, Essex and others are added to standard build pool! "
+		tip = "Graf Zeppelin and U-47 are added to standard build pool! "
 	},
 	open_skill_pos = {
 		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
@@ -8572,7 +8572,7 @@ Event Information:
 				info = "2. The damage your fleet takes during one Challenge battle transfers into the next. You can cancel the Challenge run to reset your progress and fully repair your fleet."
 			},
 			{
-				info = "3. While it doesn't cost any Oil to do Challenge runs, you also will not earn any ship Affinity, victories, or ship/commander EXP."
+				info = "3. While it doesn't cost any Oil to do Challenge runs, you also will not earn any ship Affinity, victories, or ship/commander/meowfficer EXP."
 			},
 			{
 				info = "4. The score you earn from clearing a Challenge Stage is dependent on how much time the battle took and how much damage your fleet took. You will also earn a score bonus for consecutively clearing Stages."
@@ -11014,6 +11014,31 @@ The following 4 factors affect the size of your Vanguard Fleet's Submarine Scan 
 
 Important note: any bonus points to the ASW stat gained from gear, skills, Meowfficers, or Fleet Tech does NOT affect your Scan Range.
 ]]
+			}
+		}
+	},
+	help_candymagic = {
+		tip = {
+			{
+				info = [[
+Event Rules:
+During the event, play the minigame for 7 days, earn the event item "Magic Candy," and get Radford's limited outfit, "Sweet Magic!"
+
+-Regarding Magic Candy:
+During the event period, one pumpkin on the event banner will light up every day. If you play the minigame with a lit pumpkin, you can earn one Magic Candy, and the lit pumpkin will be put out.
+Collect 7 Magic Candies and tap the button on the event banner to get Radford's outfit, "Sweet Magic!"
+
+How to Play:
+-When Radford's avatar collects a piece of candy falling 
+from the top of the screen, your score will increase.
+-You can move Radford by tapping the two sides of the screen.
+If you come in contact with a falling bomb,
+your HP will decrease by 1.
+The game will end when your HP reaches 0.
+-When Radford comes into contact with a Ghostly Manjuu
+her movement speed will be decreased.
+-The Ghost Manjuu can be dispelled by tapping
+the flashlight on the right side of the screen.]]
 			}
 		}
 	},

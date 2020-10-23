@@ -26694,7 +26694,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Cleveland-Class"
+			"Cleveland-Class",
+			"Birmingham"
 		}
 	},
 	[102232] = {
@@ -26814,7 +26815,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Cleveland-Class"
+			"Cleveland-Class",
+			"Birmingham"
 		}
 	},
 	[102233] = {
@@ -26934,7 +26936,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Cleveland-Class"
+			"Cleveland-Class",
+			"Birmingham"
 		}
 	},
 	[102234] = {
@@ -27054,7 +27057,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Cleveland-Class"
+			"Cleveland-Class",
+			"Birmingham"
 		}
 	},
 	[102241] = {

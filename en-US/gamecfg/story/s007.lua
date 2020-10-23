@@ -25,7 +25,7 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "You've done well. It's time for us to give the Ironblood a taste of their own medicine. Target Bismarck, their lead ship! Fire!",
+			say = "You've done well. It's time for us to give the Iron blood a taste of their own medicine. Target Bismarck, their lead ship! Fire!",
 			shake = {
 				speed = 1,
 				number = 3
