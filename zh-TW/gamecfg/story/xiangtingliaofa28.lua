@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "为什么妳们会来这里…",
+			say = "為什麼妳們會來這裡…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳就是报告中多次提到的“神秘人”么！？",
+			say = "妳就是報告中多次提到的“神秘人”嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在镜面海域中瓦解塞壬防御，帮助舰队脱离险境…",
+			say = "在鏡面海域中瓦解塞壬防禦，幫助艦隊脫離險境…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又在大洋中与塞壬一同，制造毁灭性的奇异点…",
+			say = "又在大洋中與塞壬一同，製造毀滅性的奇異點…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发动了纽约港袭击的塞壬领导者……",
+			say = "發動了紐約港襲擊的塞壬領導者……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…妳究竟是谁？",
+			say = "…妳究竟是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

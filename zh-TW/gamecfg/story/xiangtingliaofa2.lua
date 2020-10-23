@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "这…刚刚出现的是？",
+			say = "這…剛剛出現的是？",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "可恶…又开始头疼了，偏偏在这种时候——",
+			say = "可惡…又開始頭疼了，偏偏在這種時候——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "指挥官，我们被偷袭了，塞壬似乎破译了我们的雷达波段，绕开了防守。",
+			say = "指揮官，我們被偷襲了，塞壬似乎破譯了我們的雷達波段，繞開了防守。",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在情况十分严峻，整个纽波特港已经陷入火海，周边设施也大半被毁。",
+			say = "現在情況十分嚴峻，整個紐波特港已經陷入火海，周邊設施也大半被毀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "救援和撤离行动虽然已经开始，但只要海上的塞壬还在攻击，情况只会越来越糟。",
+			say = "救援和撤離行動雖然已經開始，但只要海上的塞壬還在攻擊，情況只會越來越糟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...无差别轰炸！",
+			say = "...無差別轟炸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为纽波特港地处战线后方而大意了。",
+			say = "因為紐波特港地處戰線後方而大意了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是这么大规模的攻击群，居然连任何目击情报都没有，究竟是怎么回事...？",
+			say = "可是這麼大規模的攻擊群，居然連任何目擊情報都沒有，究竟是怎麼回事...？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论它们是怎么来的，到了这里就别想回去了。",
+			say = "不論它們是怎麼來的，到了這裡就別想回去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂正在阻击近海的塞壬先锋部队，不过应该拖延不了太久…",
+			say = "大黃蜂正在阻擊近海的塞壬先鋒部隊，不過應該拖延不了太久…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬的突袭已经造成了严重破坏，是时候组织反击，让塞壬付出代价了！",
+			say = "塞壬的突襲已經造成了嚴重破壞，是時候組織反擊，讓塞壬付出代價了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请下命令吧，指挥官！",
+			say = "請下命令吧，指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

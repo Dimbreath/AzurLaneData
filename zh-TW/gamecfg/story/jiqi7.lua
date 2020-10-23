@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"才不是小孩子！\n\n<size=45>七 约会！</size>",
+					"才不是小孩子！\n\n<size=45>七 約會！</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "等妳很久啦，指挥官！",
+			say = "等你很久啦，指揮官！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "我们出发吧！",
+			say = "我們出發吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "……虽然这么说，我们这是要去哪里呀？",
+			say = "……雖然這麼說，我們這是要去哪裡呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			},
 			options = {
 				{
-					content = "交给我吧",
+					content = "交給我吧",
 					flag = 1
 				}
 			}
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官呢！嘿嘿，那就拜托妳啦！",
+			say = "不愧是指揮官呢！嘿嘿，那就拜託你啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "多谢惠顾喵~",
+			say = "多謝惠顧喵~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，谢谢指挥官请客啦！",
+			say = "嘿嘿，謝謝指揮官請客啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "哦哦，指挥官快看，是海鸥！",
+			say = "哦哦，指揮官快看，是海鷗！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "喂——！海鸥们——！看这边——！",
+			say = "喂——！海鷗們——！看這邊——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "指挥官，看这里！三，二，一，茄子！",
+			say = "指揮官，看這裡！三，二，一，茄子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "不对！这完完全全就是带着小孩子出去玩嘛！！",
+			say = "不對！這完完全全就是帶著小孩子出去玩嘛！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "我不会是被{namecode:95}小姐骗了吧！",
+			say = "我不會是被{namecode:95}小姐騙了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			},
 			options = {
 				{
-					content = "「今天开心么？」",
+					content = "「今天開心嗎？」",
 					flag = 1
 				}
 			}
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "当然很开心啦！能和指挥官一起出来玩，怎么会不开心！",
+			say = "當然很開心啦！能和指揮官一起出來玩，怎麼會不開心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "只是……我好像还是被当成小孩子了呢……",
+			say = "只是……我好像還是被當成小孩子了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "啊啊，随便啦！说到底我纠结这东西干嘛！",
+			say = "啊啊，隨便啦！說到底我糾結這東西幹嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "反正，指挥官到头来还不是要依赖我的！哼哼！",
+			say = "反正，指揮官到頭來還不是要依賴我的！哼哼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "嘿嘿，今天就到这里，之后也要和我继续约会哦~",
+			say = "嘿嘿，今天就到這裡，之後也要和我繼續約會哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "没有任何事物比她脸上那天真的，璀璨的笑容更令人觉得可爱了",
+			say = "沒有任何事物比她臉上那天真的，璀璨的笑容更令人覺得可愛了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

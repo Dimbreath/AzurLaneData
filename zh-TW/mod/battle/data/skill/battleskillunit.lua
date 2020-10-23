@@ -7,8 +7,6 @@ slot0.Battle.BattleSkillUnit.__name = "BattleSkillUnit"
 slot3 = slot0.Battle.BattleSkillUnit
 
 function slot3.Ctor(slot0, slot1, slot2)
-	uv0.EventDispatcher.AttachEventDispatcher(slot0)
-
 	slot0._id = slot1
 	slot0._level = slot2
 	slot0._tempData = uv0.Battle.BattleDataFunction.GetSkillTemplate(slot1, slot2)
@@ -88,8 +86,4 @@ function slot3.Clear(slot0)
 	for slot4, slot5 in ipairs(slot0._effectList) do
 		slot5:Clear()
 	end
-end
-
-function slot3.Dispose(slot0)
-	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end

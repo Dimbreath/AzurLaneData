@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "法拉格特级驱逐舰杜威，向指挥官报到。",
+			say = "法拉格特級驅逐艦杜威，向指揮官報到。",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101400,
-			say = "同样是法拉格特级驱逐舰，艾尔温，向指挥官报到。",
+			say = "同樣是法拉格特級驅逐艦，艾爾文，向指揮官報到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "法拉格特级驱逐舰...妳们就是现在留守长岛的防御舰队吗？",
+			say = "法拉格特級驅逐艦...妳們就是現在留守長島的防禦艦隊嗎？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -63,7 +63,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 101020,
-			say = "是的…胜利小姐。",
+			say = "是的…勝利小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他人情况怎么样？！",
+			say = "其他人情況怎麼樣？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "佯攻舰队成功吸引了塞壬的注意，我们才能趁机带着伤员突围出来…",
+			say = "佯攻艦隊成功吸引了塞壬的注意，我們才能趁機帶著傷員突圍出來…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101400,
-			say = "可是又能撤到哪里去呢，纽约港已经被包围，海面上又都是塞壬舰队…",
+			say = "可是又能撤到哪裡去呢，紐約港已經被包圍，海面上又都是塞壬艦隊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101400,
-			say = "只靠我们实在是……",
+			say = "只靠我們實在是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 101020,
 			nameColor = "#a9f548",
-			say = "不、不过，既然指挥官来了，就一定有办法…对吧！",
+			say = "不、不過，既然指揮官來了，就一定有辦法…對吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			},
 			options = {
 				{
-					content = "向她们保证",
+					content = "向她們保證",
 					flag = 1
 				}
 			}
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "放心，后面包在我们身上了！",
+			say = "放心，後面包在我們身上了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "保持距离在后方航行，我们来保护妳们的安全。",
+			say = "保持距離在後方航行，我們來保護妳們的安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 101020,
 			nameColor = "#a9f548",
-			say = "对、对了！伯明翰和朱诺还在带领舰队拖延塞壬净化者的行动，",
+			say = "對、對了！伯明罕和朱諾還在帶領艦隊拖延塞壬淨化者的行動，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101020,
-			say = "指挥官快去救救她们吧！",
+			say = "指揮官快去救救她們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

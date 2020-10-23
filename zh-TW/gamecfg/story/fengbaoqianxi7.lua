@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "白鹰近海 警戒海域外边界 Risk 3",
+			say = "白鷹近海 警戒海域外邊界 Risk 3",
 			side = 2,
 			dir = 1,
 			bgm = "battle-boss-4",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果一路下来真的连点像样的抵抗都没有...",
+			say = "結果一路下來真的連點像樣的抵抗都沒有...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是塞壬兵力空虚这个程度的话，我们真的需要考虑发动全面反攻了",
+			say = "要是塞壬兵力空虛這個程度的話，我們真的需要考慮發動全面反攻了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要掉以轻心，我们严重缺少危险海域内部的情报，之后的战斗可能不会这么顺利了",
+			say = "不要掉以輕心，我們嚴重缺少危險海域內部的情報，之後的戰鬥可能不會這麼順利了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，既然现在派我们去里面收集情报，说明司令部绝对已经开始考虑反攻计划了吧~",
+			say = "哼哼，既然現在派我們去裡面收集情報，說明司令部絕對已經開始考慮反攻計劃了吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？奇怪...现在已经到定时联络时间了，大家有收到任何消息么？",
+			say = "嗯？奇怪...現在已經到定時聯絡時間了，大家有收到任何消息嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，通讯器里只有杂音在响",
+			say = "不行，通訊器裡只有雜音在響",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "杂音...这好像是通讯干扰啊。糟糕，我们被孤立在海上了！",
+			say = "雜音...這好像是通訊干擾啊。糟糕，我們被孤立在海上了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然塞壬不会放我们轻松执行任务...！",
+			say = "果然塞壬不會放我們輕鬆執行任務...！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业，还要继续前进么？",
+			say = "企業，還要繼續前進嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果按照预案，在海域执行任务的侦察舰队在遭遇干扰时，应该立刻中断一切任务撤回最近的港口",
+			say = "如果按照預案，在海域執行任務的偵察艦隊在遭遇干擾時，應該立刻中斷一切任務撤回最近的港口",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...安全优先，舰队掉转航向，保持最大战速，我们返回纽约港",
+			say = "唔...安全優先，艦隊掉轉航向，保持最大戰速，我們返回紐約港",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

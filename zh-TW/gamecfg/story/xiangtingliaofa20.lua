@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "百慕大三角·第三舰队交战区",
+			say = "百慕達三角·第三艦隊交戰區",
 			side = 2,
 			dir = 1,
 			bgm = "story-6",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据照片判断，至少有两位数的塞壬编队在周边海域徘徊。",
+			say = "根據照片判斷，至少有兩位數的塞壬編隊在周邊海域徘徊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "单从数量对比上来说，我们此战处于十分不利的位置",
+			say = "單從數量對比上來說，我們此戰處於十分不利的位置",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明只是佯攻路线，塞壬居然能抽出这么大规模的舰队迎接我们……",
+			say = "明明只是佯攻路線，塞壬居然能抽出這麼大規模的艦隊迎接我們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "企业前辈所在的主攻方向不知道变成什么样子了……",
+			say = "企業前輩所在的主攻方向不知道變成什麼樣子了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，换言之…只要我们这边能吸引的敌人越多，企业前辈那边的压力就会越小吧！",
+			say = "不過，換言之…只要我們這邊能吸引的敵人越多，企業前輩那邊的壓力就會越小吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（奋笔急书中）",
+			say = "（奮筆急書中）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "等、等等！妳突然记些什么啊！",
+			say = "等、等等！妳突然記些什麼啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "不用在意，只是例行的航海记录而已。",
+			say = "不用在意，只是例行的航海記錄而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "“即便在身陷敌军重围之时，埃塞克斯心中依然挂念着企业前辈的安危”…？！！",
+			say = "“即便在身陷敵軍重圍之時，艾塞克斯心中依然掛念著企業前輩的安危”…？！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "我、我们的迎击战术也有好好考虑啦！",
+			say = "我、我們的迎擊戰術也有好好考慮啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "我明白，一会儿埃塞克斯活跃的身姿我也会好好记录下来的。",
+			say = "我明白，一會兒艾塞克斯活躍的身姿我也會好好記錄下來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然希望能在准备更加充分地时候开战，不过士兵无法选择战场…",
+			say = "雖然希望能在準備更加充分地時候開戰，不過士兵無法選擇戰場…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "舰艏迎风，让塞壬见识一下自由的重量吧！",
+			say = "艦艏迎風，讓塞壬見識一下自由的重量吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯级绝对不会输给任何人————",
+			say = "艾塞克斯級絕對不會輸給任何人————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "这一点，首先让塞壬切身体会一下！",
+			say = "這一點，首先讓塞壬切身體會一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

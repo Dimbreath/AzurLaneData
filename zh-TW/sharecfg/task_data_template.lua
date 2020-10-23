@@ -18032,7 +18032,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "心願 ",
 		count_inherit = 0,
-		desc = "英王喬治五世等级达到100",
+		desc = "英王喬治五世等級達到100",
 		target_id_2 = "",
 		sub_type = 1013,
 		added_tip = 1,
@@ -18335,6 +18335,278 @@ pg.task_data_template = {
 				2,
 				18022,
 				2
+			}
+		}
+	},
+	[5471] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5345,
+		type = 5,
+		name = "功勞！ ",
+		count_inherit = 0,
+		desc = "提交3個《魚雷天婦羅》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "jiqi",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5472",
+		visibility = 1,
+		story_id = "JIQI1",
+		target_id_for_client = 50003,
+		id = 5471,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5472] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5346,
+		type = 5,
+		name = "正義！ ",
+		count_inherit = 0,
+		desc = "強化任意角色10次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "jiqi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5473",
+		visibility = 1,
+		story_id = "JIQI2",
+		target_id_for_client = 0,
+		id = 5472,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5473] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5347,
+		type = 5,
+		name = "突擊！ ",
+		count_inherit = 0,
+		desc = "棘鰭上陣出擊(關卡)勝利20次",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "jiqi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5474",
+		visibility = 1,
+		story_id = "JIQI3",
+		target_id_for_client = 10803,
+		id = 5473,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10803",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5474] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5348,
+		type = 5,
+		name = "意外！",
+		count_inherit = 0,
+		desc = "完成1次求救信號關卡",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "jiqi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5475",
+		visibility = 1,
+		story_id = "JIQI4",
+		target_id_for_client = 0,
+		id = 5474,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			305,
+			405,
+			505,
+			605,
+			705,
+			805,
+			905,
+			1005
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5475] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5349,
+		type = 5,
+		name = "故事！",
+		count_inherit = 0,
+		desc = "棘鰭好感度達到100",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "jiqi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5476",
+		visibility = 1,
+		story_id = "JIQI5",
+		target_id_for_client = 10803,
+		id = 5475,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10803",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5476] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5350,
+		type = 5,
+		name = "成熟！ ",
+		count_inherit = 0,
+		desc = "棘鰭突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "jiqi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5477",
+		visibility = 1,
+		story_id = "JIQI6",
+		target_id_for_client = 108034,
+		id = 5476,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "108034",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5477] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5351,
+		type = 5,
+		name = "約會！ ",
+		count_inherit = 0,
+		desc = "棘鰭等級達到100",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "jiqi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "JIQI7",
+		target_id_for_client = 10803,
+		id = 5477,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10803",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18033,
+				1
 			}
 		}
 	},
@@ -45679,6 +45951,39 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[14670] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91190,
+		type = 6,
+		name = "『限界挑战』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14670,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				201,
+				1
+			}
+		}
+	},
 	[14757] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -46273,6 +46578,309 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14780] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91340,
+		type = 26,
+		name = "新美系前哨战任务1",
+		count_inherit = 0,
+		desc = "通過作戰「風暴前夕」P1",
+		target_id_2 = "",
+		sub_type = 29,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1242017,
+		id = 14780,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1242017",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14781] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91341,
+		type = 26,
+		name = "新美系前哨战任务2",
+		count_inherit = 0,
+		desc = "通過作戰「風暴前夕」P2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250031,
+		id = 14781,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250031",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14782] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91342,
+		type = 26,
+		name = "新美系前哨战任务3",
+		count_inherit = 0,
+		desc = "通過作戰「風暴前夕」P3",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 2103,
+		id = 14782,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			2103
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14783] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91343,
+		type = 26,
+		name = "新美系前哨战任务4",
+		count_inherit = 0,
+		desc = "通過作戰「風暴前夕」P4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250032,
+		id = 14783,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250032",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14784] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91344,
+		type = 26,
+		name = "新美系前哨战任务5",
+		count_inherit = 0,
+		desc = "通過作戰「風暴前夕」P5",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250033,
+		id = 14784,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250033",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14785] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91345,
+		type = 26,
+		name = "新美系前哨战任务6",
+		count_inherit = 0,
+		desc = "通過作戰「風暴前夕」P6",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 2107,
+		id = 14785,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			2107
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14786] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91346,
+		type = 26,
+		name = "新美系前哨战任务7",
+		count_inherit = 0,
+		desc = "通過作戰「風暴前夕」P7",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250034,
+		id = 14786,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14787] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91347,
+		type = 26,
+		name = "新美系前哨战任务8",
+		count_inherit = 0,
+		desc = "獲得7份「作戰報告」",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1010,
+		id = 14787,
+		target_num = 7,
+		fix_task = 0,
+		target_id = "1010",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				760,
+				1
+			}
+		}
+	},
 	[14790] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -46734,6 +47342,971 @@ pg.task_data_template = {
 				1
 			}
 		}
+	},
+	[14810] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91370,
+		type = 36,
+		name = "『新美系活动』-日常建造",
+		count_inherit = 0,
+		desc = "建造艦船3次",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14810,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59134,
+				300
+			}
+		}
+	},
+	[14811] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91371,
+		type = 36,
+		name = "『新美系活动』-日常出击",
+		count_inherit = 0,
+		desc = "艦隊出征，獲得15次勝利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14811,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59134,
+				300
+			}
+		}
+	},
+	[14812] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91372,
+		type = 36,
+		name = "『新美系活动』-日常困难本",
+		count_inherit = 0,
+		desc = "通關1次任意困難關卡",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14812,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59134,
+				100
+			}
+		}
+	},
+	[14813] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91373,
+		type = 6,
+		name = "『新美系活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "通關A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14814",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14813,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250001,
+			1250011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59134,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14814] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91374,
+		type = 6,
+		name = "『新美系活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "通關A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14815",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14814,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250002,
+			1250012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59134,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14815] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91375,
+		type = 6,
+		name = "『新美系活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "通關A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14816",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14815,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250003,
+			1250013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59134,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14816] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91376,
+		type = 6,
+		name = "『新美系活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "通關B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14817",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14816,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250004,
+			1250014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59134,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14817] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91377,
+		type = 6,
+		name = "『新美系活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "通關B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14818",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14817,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250005,
+			1250015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59134,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14818] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91378,
+		type = 6,
+		name = "『新美系活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "通關B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14819",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14818,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250006,
+			1250016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59134,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14819] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91379,
+		type = 6,
+		name = "『新美系活动』通关D0",
+		count_inherit = 0,
+		desc = "通關SP",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250017,
+		id = 14819,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250017",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14820] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91380,
+		type = 6,
+		name = "『新美系活动』通关D3",
+		count_inherit = 0,
+		desc = "通關D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250016,
+		id = 14820,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				148,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14821] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91381,
+		type = 6,
+		name = "『新美系活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14822",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14821,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250001,
+			1250011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14822] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91382,
+		type = 6,
+		name = "『新美系活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14823",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14822,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250002,
+			1250012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14823] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91383,
+		type = 6,
+		name = "『新美系活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14824",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14823,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250003,
+			1250013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14824] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91384,
+		type = 6,
+		name = "『新美系活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14825",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14824,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250004,
+			1250014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14825] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91385,
+		type = 6,
+		name = "『新美系活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "14826",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14825,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250005,
+			1250015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14826] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91386,
+		type = 6,
+		name = "『新美系活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14826,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1250006,
+			1250016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14827] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91387,
+		type = 6,
+		name = "『新美系活动』角色收集总任务",
+		count_inherit = 0,
+		desc = "完成所有任務後可領取獎勵",
+		target_id_2 = "",
+		sub_type = 90,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14827,
+		target_num = 7,
+		fix_task = 0,
+		target_id = {
+			14828,
+			14829,
+			14830,
+			14831,
+			14832,
+			14833,
+			14834
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				5
+			}
+		}
+	},
+	[14828] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『新美系活动』角色收集：阿拉巴马",
+		count_inherit = 0,
+		desc = "[阿拉巴馬]突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 105204,
+		id = 14828,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "105204",
+		open_need = {},
+		award_display = {}
+	},
+	[14829] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『新美系活动』角色收集：棘鰭",
+		count_inherit = 0,
+		desc = "[棘鰭]突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 108034,
+		id = 14829,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "108034",
+		open_need = {},
+		award_display = {}
+	},
+	[14830] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『新美系活动』角色收集：巴尔的摩",
+		count_inherit = 0,
+		desc = "[巴爾的摩]突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 103164,
+		id = 14830,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "103164",
+		open_need = {},
+		award_display = {}
+	},
+	[14831] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『新美系活动』角色收集：巴丹",
+		count_inherit = 0,
+		desc = "[巴丹]突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 107294,
+		id = 14831,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "107294",
+		open_need = {},
+		award_display = {}
+	},
+	[14832] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『新美系活动』角色收集：伯明翰",
+		count_inherit = 0,
+		desc = "[伯明罕]突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 102234,
+		id = 14832,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102234",
+		open_need = {},
+		award_display = {}
+	},
+	[14833] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『新美系活动』角色收集：艾尔温",
+		count_inherit = 0,
+		desc = "[艾爾文]突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 101404,
+		id = 14833,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "101404",
+		open_need = {},
+		award_display = {}
+	},
+	[14834] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『新美系活动』角色收集：圣胡安",
+		count_inherit = 0,
+		desc = "[聖胡安]突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 102224,
+		id = 14834,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102224",
+		open_need = {},
+		award_display = {}
 	},
 	[14840] = {
 		is_head = 0,
@@ -61609,6 +63182,13 @@ pg.task_data_template = {
 		5465,
 		5466,
 		5467,
+		5471,
+		5472,
+		5473,
+		5474,
+		5475,
+		5476,
+		5477,
 		5491,
 		5492,
 		5493,
@@ -62342,6 +63922,7 @@ pg.task_data_template = {
 		14655,
 		14656,
 		14657,
+		14670,
 		14757,
 		14758,
 		14759,
@@ -62360,6 +63941,14 @@ pg.task_data_template = {
 		14772,
 		14773,
 		14774,
+		14780,
+		14781,
+		14782,
+		14783,
+		14784,
+		14785,
+		14786,
+		14787,
 		14790,
 		14791,
 		14792,
@@ -62374,6 +63963,31 @@ pg.task_data_template = {
 		14801,
 		14802,
 		14803,
+		14810,
+		14811,
+		14812,
+		14813,
+		14814,
+		14815,
+		14816,
+		14817,
+		14818,
+		14819,
+		14820,
+		14821,
+		14822,
+		14823,
+		14824,
+		14825,
+		14826,
+		14827,
+		14828,
+		14829,
+		14830,
+		14831,
+		14832,
+		14833,
+		14834,
 		14840,
 		14841,
 		14842,

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "大家作战还顺利么？",
+			say = "大家作戰還順利嗎？",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰姐姐~",
+			say = "克里夫蘭姐姐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟，等妳们好久了！",
+			say = "喲，等妳們好久了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉...如妳们所见，虽说都是些杂兵，但是因为这庞大的数量，清理起来还需要不少时间",
+			say = "唉...如妳們所見，雖說都是些雜兵，但是因為這龐大的數量，清理起來還需要不少時間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在是要出发去迎接指挥官了么？",
+			say = "現在是要出發去迎接指揮官了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾，司令部临时插入了特殊任务，希望我们两只舰队在合流之后直接前往危险区域边界进行侦察",
+			say = "很遺憾，司令部臨時插入了特殊任務，希望我們兩隻艦隊在合流之後直接前往危險區域邊界進行偵察",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "司令部与指挥官重新安排了护卫舰队，不必担心",
+			say = "司令部與指揮官重新安排了護衛艦隊，不必擔心",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，也好！在这里打了这么久乌合之众，终于来点有挑战性任务了",
+			say = "嘿嘿，也好！在這裡打了這麼久烏合之眾，終於來點有挑戰性任務了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头，补给物资也一起送来了哦，还有...丹佛特意买来的特色小吃？",
+			say = "大姐頭，補給物資也一起送來了哦，還有...丹佛特意買來的特色小吃？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NICE！战斗到现在正好有点肚子饿了，我就不客气了~！",
+			say = "NICE！戰鬥到現在正好有點肚子餓了，我就不客氣了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有企业加上我们海上四骑士，不论前方有什么样敌人都是轻松有余~",
+			say = "有企業加上我們海上四騎士，不論前方有什麼樣敵人都是輕鬆有餘~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 102100,
 			dir = 1,
 			hideOther = true,
-			actorName = "哥伦比亚&丹佛&蒙彼利埃",
+			actorName = "哥倫比亞&丹佛&蒙彼利埃",
 			actorPosition = {
 				x = -500,
 				y = 0

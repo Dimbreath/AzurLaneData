@@ -4088,6 +4088,122 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {}
 	},
+	[760] = {
+		name = "偵察報告·紐約近海",
+		tech = 0,
+		type = 10,
+		speciality = "無",
+		id = 760,
+		value_2 = 50,
+		icon = "760",
+		value_1 = "5",
+		attribute_2 = "durability",
+		rarity = 4,
+		descrip = "針對紐約近海塞壬控制區的正式偵查報告書，雖因干擾導致行動提前結束，但依然收集了豐富數據",
+		nationality = 0,
+		ammo = "無",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6440
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[761] = {
+		id = 761,
+		base = 760,
+		value_2 = 55,
+		value_1 = "6",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[762] = {
+		id = 762,
+		base = 760,
+		value_2 = 60,
+		value_1 = "7",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[763] = {
+		id = 763,
+		base = 760,
+		value_2 = 65,
+		value_1 = "8",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[764] = {
+		id = 764,
+		base = 760,
+		value_2 = 70,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[765] = {
+		id = 765,
+		base = 760,
+		value_2 = 75,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[766] = {
+		id = 766,
+		base = 760,
+		value_2 = 80,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[767] = {
+		id = 767,
+		base = 760,
+		value_2 = 90,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[768] = {
+		id = 768,
+		base = 760,
+		value_2 = 100,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[769] = {
+		id = 769,
+		base = 760,
+		value_2 = 110,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[770] = {
+		id = 770,
+		base = 760,
+		value_2 = 120,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1000] = {
 		name = "艦艇維修設備",
 		tech = 1,
@@ -4759,7 +4875,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -4830,7 +4947,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -4927,7 +5045,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -26180,6 +26299,249 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			19046
+		}
+	},
+	[19060] = {
+		name = "SBD無畏(麥克拉斯基隊)",
+		type = 9,
+		speciality = "轟炸",
+		rarity = 5,
+		tech = 0,
+		descrip = "中途島英雄，企業號的麥克拉斯基少校所率領的SBD無畏式俯衝轟炸機機隊",
+		value_2 = 45,
+		icon = "19060",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = "通常",
+		value_3 = 0,
+		id = 19060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				5,
+				52960
+			},
+			{
+				5,
+				52160
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			9
+		},
+		weapon_id = {
+			19060
+		},
+		skill_id = {
+			6240
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19061] = {
+		base = 19060,
+		id = 19061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52961
+			},
+			{
+				5,
+				52161
+			}
+		},
+		weapon_id = {
+			19061
+		}
+	},
+	[19062] = {
+		base = 19060,
+		id = 19062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52962
+			},
+			{
+				5,
+				52162
+			}
+		},
+		weapon_id = {
+			19062
+		}
+	},
+	[19063] = {
+		base = 19060,
+		id = 19063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52963
+			},
+			{
+				5,
+				52163
+			}
+		},
+		weapon_id = {
+			19063
+		}
+	},
+	[19064] = {
+		base = 19060,
+		id = 19064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52964
+			},
+			{
+				5,
+				52164
+			}
+		},
+		weapon_id = {
+			19064
+		}
+	},
+	[19065] = {
+		base = 19060,
+		id = 19065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52965
+			},
+			{
+				5,
+				52165
+			}
+		},
+		weapon_id = {
+			19065
+		}
+	},
+	[19066] = {
+		base = 19060,
+		id = 19066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52966
+			},
+			{
+				5,
+				52166
+			}
+		},
+		weapon_id = {
+			19066
+		}
+	},
+	[19067] = {
+		base = 19060,
+		id = 19067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52967
+			},
+			{
+				5,
+				52167
+			}
+		},
+		weapon_id = {
+			19067
+		}
+	},
+	[19068] = {
+		base = 19060,
+		id = 19068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52968
+			},
+			{
+				5,
+				52168
+			}
+		},
+		weapon_id = {
+			19068
+		}
+	},
+	[19069] = {
+		base = 19060,
+		id = 19069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52969
+			},
+			{
+				5,
+				52169
+			}
+		},
+		weapon_id = {
+			19069
+		}
+	},
+	[19070] = {
+		base = 19060,
+		id = 19070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52970
+			},
+			{
+				5,
+				52170
+			}
+		},
+		weapon_id = {
+			19070
 		}
 	},
 	[19100] = {
@@ -78907,6 +79269,17 @@ pg.equip_data_statistics = {
 		748,
 		749,
 		750,
+		760,
+		761,
+		762,
+		763,
+		764,
+		765,
+		766,
+		767,
+		768,
+		769,
+		770,
 		1000,
 		1001,
 		1002,
@@ -80273,6 +80646,17 @@ pg.equip_data_statistics = {
 		19044,
 		19045,
 		19046,
+		19060,
+		19061,
+		19062,
+		19063,
+		19064,
+		19065,
+		19066,
+		19067,
+		19068,
+		19069,
+		19070,
 		19100,
 		19101,
 		19102,

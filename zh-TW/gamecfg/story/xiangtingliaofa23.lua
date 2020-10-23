@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呜哇！越来越恶劣了…",
+			say = "嗚哇！越來越惡劣了…",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次居然是假的大黄蜂小姐！",
+			say = "這次居然是假的大黃蜂小姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业小姐，不用勉强也没关系，这里就交给我们处理吧。",
+			say = "企業小姐，不用勉強也沒關係，這裡就交給我們處理吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错，这里就交给已经怒上眉梢六亲不认的萨拉妹妹吧~",
+			say = "沒錯沒錯，這裡就交給已經怒上眉梢六親不認的薩拉妹妹吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，它是敌人——",
+			say = "不，它是敵人——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "由塞壬制造出来，只为伤害我们所爱之人的敌人。",
+			say = "由塞壬製造出來，只為傷害我們所愛之人的敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我绝不会手下留情的。",
+			say = "我絕不會手下留情的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业号，现在出战!",
+			say = "企業號，現在出戰!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

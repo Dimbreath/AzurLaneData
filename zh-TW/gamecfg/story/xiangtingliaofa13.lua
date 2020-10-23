@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "呼……雷达范围内塞壬舰队清理完毕，萨拉妹妹大胜利~",
+			say = "呼……雷達範圍內塞壬艦隊清理完畢，薩拉妹妹大勝利~",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "侦察机发来报告，东南方向又出现多支敌军…",
+			say = "偵察機發來報告，東南方向又出現多支敵軍…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没完没了啊！！！",
+			say = "沒完沒了啊！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "空袭？！萨拉托加小心——！",
+			say = "空襲？！薩拉托加小心——！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…没有发动攻击？",
+			say = "…沒有發動攻擊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特意从高空俯冲下来，只是吓我们一下…吗？",
+			say = "特意從高空俯衝下來，只是嚇我們一下…嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家快看，十一点钟方向有一个高速移动的黑影！",
+			say = "大家快看，十一點鐘方向有一個高速移動的黑影！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么近的距离，雷达上居然什么都看不到？！",
+			say = "這麼近的距離，雷達上居然什麼都看不到？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…………企业？）",
+			say = "（…………企業？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

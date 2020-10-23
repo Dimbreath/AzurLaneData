@@ -13,7 +13,7 @@ return {
 			bgm = "story-6",
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "啊啊啊啊啊啊---不会让妳们继续轰炸下去了！",
+			say = "啊啊啊啊啊啊---不會讓妳們繼續轟炸下去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "快给我乖乖上路吧————！！",
+			say = "快給我乖乖上路吧————！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -49,7 +49,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "就算对这些量产型大喊大叫，也不会得到什么忏悔之词哦。",
+			say = "就算對這些量產型大喊大叫，也不會得到什麼懺悔之詞哦。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 103160,
-			say = "这里看起来陷入苦战了啊，需要帮助吗牛仔？",
+			say = "這裡看起來陷入苦戰了啊，需要幫助嗎牛仔？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊..哈啊...大黄蜂也是，巴尔的摩也是，都热血上头冲的太靠前了！",
+			say = "哈啊..哈啊...大黃蜂也是，巴爾的摩也是，都熱血上頭衝的太靠前了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，抱歉抱歉。要想挡住我，这点塞壬还不够看呢！",
+			say = "哈哈哈，抱歉抱歉。要想擋住我，這點塞壬還不夠看呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官和各位…都没事吧！",
+			say = "指揮官和各位…都沒事吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多亏了某位热血牛仔小姐的英勇战斗，撤离工作总算顺利进行了。",
+			say = "多虧了某位熱血牛仔小姐的英勇戰鬥，撤離工作總算順利進行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，就是相信妳们一定会来，我才能拼命战斗到现在啊~",
+			say = "嘿嘿，就是相信妳們一定會來，我才能拼命戰鬥到現在啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前面的应该就是敌人的指挥系统了。只要消灭它们，量产型舰队的指挥就会瓦解。",
+			say = "前面的應該就是敵人的指揮系統了。只要消滅它們，量產型艦隊的指揮就會瓦解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳受的伤不轻，还能战斗么？",
+			say = "妳受的傷不輕，還能戰鬥嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们这打的越激烈，后方转移才越安全。怎么能在这个时候撤下去！",
+			say = "我們這打的越激烈，後方轉移才越安全。怎麼能在這個時候撤下去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳们也没意见吧，塞壬？妳们犯下的罪恶，就在此处用生命偿还吧！",
+			say = "妳們也沒意見吧，塞壬？妳們犯下的罪惡，就在此處用生命償還吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

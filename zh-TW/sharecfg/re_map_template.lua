@@ -1,11 +1,12 @@
 pg = pg or {}
 pg.re_map_template = {
 	{
-		activity_type = 1,
+		bg = "temp_hongran",
 		name = "红染常驻复刻",
 		memory_group = 108,
 		id = 1,
-		bg = "temp_hongran",
+		activity_type = 1,
+		order = 1,
 		config_data = {
 			2100001,
 			2100002,
@@ -49,11 +50,12 @@ pg.re_map_template = {
 		}
 	},
 	{
-		activity_type = 2,
+		bg = "temp_zjiandui",
 		name = "Z舰队常驻复刻",
 		memory_group = 101,
 		id = 2,
-		bg = "temp_zjiandui",
+		activity_type = 2,
+		order = 2,
 		config_data = {
 			2200001,
 			2200002,

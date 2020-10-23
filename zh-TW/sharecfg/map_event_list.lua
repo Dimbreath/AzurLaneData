@@ -69,10 +69,48 @@ pg.map_event_list = {
 			"helpbg/uta_mapevent_3"
 		}
 	},
+	[1250034] = {
+		help_open = 0,
+		chapter_id = 1250034,
+		event_list = {
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165,
+			166,
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1250017] = {
+		help_open = 0,
+		chapter_id = 1250017,
+		event_list = {
+			176
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
 	all = {
 		1160001,
 		1160002,
 		1160003,
-		1160004
+		1160004,
+		1250034,
+		1250017
 	}
 }

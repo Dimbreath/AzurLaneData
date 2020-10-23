@@ -1,7 +1,15 @@
 slot0 = class("USDefTaskWindowView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
-	return "USDefTaskWindow"
+function slot0.Load(slot0)
+	slot0._tf = findTF(slot0._parentTf, "USDefTaskWindow")
+	slot0._go = go(slot0._tf)
+
+	pg.DelegateInfo.New(slot0)
+	slot0:OnInit()
+end
+
+function slot0.Destroy(slot0)
+	slot0:Hide()
 end
 
 function slot0.OnInit(slot0)
@@ -13,9 +21,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-end
-
-function slot0.OnBackPress(slot0)
 end
 
 function slot0.initData(slot0)

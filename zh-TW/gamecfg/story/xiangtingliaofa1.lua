@@ -23,15 +23,15 @@ return {
 					3.5
 				},
 				{
-					"<size=51>内心从未如此急躁过</size> ",
+					"<size=51>內心從未如此急躁過</size> ",
 					5
 				},
 				{
-					"<size=51>为什么是今天</size>",
+					"<size=51>為什麼是今天</size>",
 					6.5
 				},
 				{
-					"<size=51>为什么是此刻</size>",
+					"<size=51>為什麼是此刻</size>",
 					8
 				},
 				{
@@ -39,7 +39,7 @@ return {
 					9.5
 				},
 				{
-					"<size=51>请千万平安无事...</size>",
+					"<size=51>請千萬平安無事...</size>",
 					11
 				}
 			}
@@ -87,7 +87,7 @@ return {
 			bgm = "airRaidAlarm",
 			actor = 207040,
 			nameColor = "#a9f548",
-			say = "注意回避！可恶...！",
+			say = "注意迴避！可惡...！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -131,7 +131,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "东北方，又来了一波敌机！防空火力不要停，优先保证指挥官的安全！",
+			say = "東北方，又來了一波敵機！防空火力不要停，優先保證指揮官的安全！",
 			flashN = {
 				color = {
 					1,
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "不管来多少都一样，尽管放马过来吧！！！",
+			say = "不管來多少都一樣，儘管放馬過來吧！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_1",
 			dir = 1,
-			say = "白鹰·纽波特港 ",
+			say = "白鷹·紐波特港 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_1",
 			dir = 1,
-			say = "混乱与火海",
+			say = "混亂與火海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_1",
 			dir = 1,
-			say = "宿舍在燃烧，船坞在燃烧，机库在燃烧",
+			say = "宿舍在燃燒，船塢在燃燒，機庫在燃燒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_1",
 			dir = 1,
-			say = "惶恐，急迫，悲伤，愤怒",
+			say = "惶恐，急迫，悲傷，憤怒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_1",
 			dir = 1,
-			say = "仅过了短短数分钟，昔日的度假胜地已然不复存在",
+			say = "僅過了短短數分鐘，昔日的度假勝地已然不復存在",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_1",
 			dir = 1,
-			say = "留存下来的只有，混乱与...火海",
+			say = "留存下來的只有，混亂與...火海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "附近一定有塞壬的航空舰队，被动防守可不是长久之计，就让我去击溃它们！",
+			say = "附近一定有塞壬的航空艦隊，被動防守可不是長久之計，就讓我去擊潰它們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂，不要莽撞，战术分析的情报还没有…",
+			say = "大黃蜂，不要莽撞，戰術分析的情報還沒有…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "放心，保护好大家，我去去就回！！",
+			say = "放心，保護好大家，我去去就回！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官快看，前方就是纽波特港区了。",
+			say = "指揮官快看，前方就是紐波特港區了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到会因为参加特别会议，再次来到白鹰的本土驻扎呢。",
+			say = "沒想到會因為參加特別會議，再次來到白鷹的本土駐紮呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "几日前，突然收到了指挥部即将召开重要军事会议的电函。",
+			say = "幾日前，突然收到了指揮部即將召開重要軍事會議的電函。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "现在舰队正在驶向白鹰本土的途中。",
+			say = "現在艦隊正在駛向白鷹本土的途中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知道那个“足以决定今后作战方针”的会议，究竟打算说些什么呢…",
+			say = "不知道那個“足以決定今後作戰方針”的會議，究竟打算說些什麼呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "快点快点，迎接我们的人已经在招手了~",
+			say = "快點快點，迎接我們的人已經在招手了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			}
 		},
 		{
-			say = "大黄蜂，沉稳一些。就算再着急也不能忘记淑女风度哦。",
+			say = "大黃蜂，沉穩一些。就算再著急也不能忘記淑女風度哦。",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -527,7 +527,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，胜利妳还不知道吧，说出来可别吃惊~~~",
+			say = "哼哼，勝利妳還不知道吧，說出來可別吃驚~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实，之前一直在前线参加战斗的企业姐，现在碰巧在附近修整哦！",
+			say = "其實，之前一直在前線參加戰鬥的企業姐，現在碰巧在附近修整哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？确实很久没见企业小姐了，真是太好了！",
+			say = "哎？確實很久沒見企業小姐了，真是太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "（还是先不要告诉她企业临时调去侦查任务的事吧...）",
+			say = "（還是先不要告訴她企業臨時調去偵查任務的事吧...）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "大老远就听到吵闹声了，还是这么精力充沛啊，大黄蜂。",
+			say = "大老遠就聽到吵鬧聲了，還是這麼精力充沛啊，大黃蜂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好久不见啊~嘿嘿，指挥官，容我来正式介绍一下。",
+			say = "好久不見啊~嘿嘿，指揮官，容我來正式介紹一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "站在妳面前的这位，就是白鹰赫赫有名的正义使者，英俊潇洒的大姐姐--巴尔的摩！",
+			say = "站在妳面前的這位，就是白鷹赫赫有名的正義使者，英俊瀟灑的大姐姐--巴爾的摩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正义使者什么的...初次见面指挥官，我是巴尔的摩，只是一名路过的普通重巡洋舰罢了…",
+			say = "正義使者什麼的...初次見面指揮官，我是巴爾的摩，只是一名路過的普通重巡洋艦罷了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "哈哈，开个玩笑。我是本处防卫舰队的旗舰，诸位在此停留期间的招待就由我来负责。",
+			say = "哈哈，開個玩笑。我是本處防衛艦隊的旗艦，諸位在此停留期間的招待就由我來負責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纽波特港虽然是军事港口，周边却是有名的度假胜地哦。",
+			say = "紐波特港雖然是軍事港口，周邊卻是有名的度假勝地哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就当是短暂的出差，好好放松一下，此处一定能给各位带来一段难忘回忆的~",
+			say = "就當是短暫的出差，好好放鬆一下，此處一定能給各位帶來一段難忘回憶的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "airRaidAlarm",
-			say = "难忘的回忆啊...",
+			say = "難忘的回憶啊...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -779,11 +779,11 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>明明是最安全的要塞，为什么会这样...</size>",
+					"<size=51>明明是最安全的要塞，為什麼會這樣...</size>",
 					1.5
 				},
 				{
-					"<size=51>「快走，这里也要沦陷了」</size>",
+					"<size=51>「快走，這裡也要淪陷了」</size>",
 					3
 				},
 				{
@@ -791,11 +791,11 @@ return {
 					4.5
 				},
 				{
-					"<size=51>…想与她们一起</size> ",
+					"<size=51>…想與她們一起</size> ",
 					6
 				},
 				{
-					"<size=51>「约定...看来就要到此为止了」</size>",
+					"<size=51>「約定...看來就要到此為止了」</size>",
 					7.5
 				},
 				{

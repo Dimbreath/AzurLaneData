@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-4",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "前方没有再出现新的的阻拦舰队，我们成功突围了",
+			say = "前方沒有再出現新的的阻攔艦隊，我們成功突圍了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周围的海况和天气也都恢复正常了！",
+			say = "周圍的海況和天氣也都恢復正常了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...还好有企业的引导，要是迷失在镜面海域里结果可就真的难说了",
+			say = "...還好有企業的引導，要是迷失在鏡面海域裡結果可就真的難說了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶，被摆了一道！到底从哪儿冒出来这么多塞壬啊",
+			say = "可惡，被擺了一道！到底從哪兒冒出來這麼多塞壬啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些是塞壬消失的主力部队么？居然在这个位置出现，难道说塞壬的目的是...",
+			say = "這些是塞壬消失的主力部隊嗎？居然在這個位置出現，難道說塞壬的目的是...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头，通讯好像恢复了。等等...司令部居然在用明码播报？！",
+			say = "大姐頭，通訊好像恢復了。等等...司令部居然在用明碼播報？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在开始接收来自纽约港的联络--------------",
+			say = "現在開始接收來自紐約港的聯絡--------------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

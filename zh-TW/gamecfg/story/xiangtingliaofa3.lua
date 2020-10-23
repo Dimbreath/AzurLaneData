@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "发现激战中的大黄蜂，已经被敌人彻底包围了！",
+			say = "發現激戰中的大黃蜂，已經被敵人徹底包圍了！",
 			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个热血牛仔...都说了注意安全，怎么冲得这么靠前啊！",
+			say = "那個熱血牛仔...都說了注意安全，怎麼衝得這麼靠前啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方还有多支塞壬舰队阻拦，应该尽快——",
+			say = "前方還有多支塞壬艦隊阻攔，應該盡快——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冲过去了…",
+			say = "衝過去了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

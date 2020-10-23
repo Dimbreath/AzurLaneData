@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "白鹰·长岛防线 不久前",
+			say = "白鷹·長島防線 不久前",
 			side = 2,
 			dir = 1,
 			bgm = "airRaidAlarm",
@@ -26,7 +26,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 102070,
 			nameColor = "#a9f548",
-			say = "怎、怎么会…….这里不是安全的后方么……",
+			say = "怎、怎麼會…….這裡不是安全的後方嗎……",
 			flashN = {
 				color = {
 					1,
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "亚特兰大姐姐…我好害怕……",
+			say = "亞特蘭大姐姐…我好害怕……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "终于找到妳了——",
+			say = "終於找到妳了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "冷静一点，是我，伯明翰。",
+			say = "冷靜一點，是我，伯明罕。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -163,7 +163,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是伯明翰啊，呜…我还以为塞壬的舰队杀到这里了…",
+			say = "是、是伯明罕啊，嗚…我還以為塞壬的艦隊殺到這裡了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102230,
-			say = "不要怕，现在沿岛防线还算稳固。再怎么说也是纽约司令部的外围防御，不会这么轻易被攻克的。",
+			say = "不要怕，現在沿島防線還算穩固。再怎麼說也是紐約司令部的外圍防禦，不會這麼輕易被攻克的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是哦…是我太紧张了…",
+			say = "是、是哦…是我太緊張了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102230,
-			say = "没事，不要紧。事先谁都没料到塞壬舰队会毫无预警的打到这里来。",
+			say = "沒事，不要緊。事先誰都沒料到塞壬艦隊會毫無預警的打到這裡來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "疏散工作进行的怎么样了？",
+			say = "疏散工作進行的怎麼樣了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已、已经基本完成了哦！现在正在杜威和艾尔温的护送下前往纽约港。",
+			say = "已、已經基本完成了哦！現在正在杜威和艾爾文的護送下前往紐約港。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果亚特兰大姐姐也在这里就更好了…",
+			say = "如果亞特蘭大姐姐也在這裡就更好了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102230,
-			say = "一直隐藏在姐姐们的光环中，可是永远也发扬不出自我的！",
+			say = "一直隱藏在姐姐們的光環中，可是永遠也發揚不出自我的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明拥有这么出色的防空性能，朱诺妳应该再自信一点。放松一些，深呼吸。",
+			say = "明明擁有這麼出色的防空性能，朱諾妳應該再自信一點。放鬆一些，深呼吸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102230,
-			say = "就是这样，平静下来了吗？",
+			say = "就是這樣，平靜下來了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好像没问题了。谢谢妳，伯明翰…",
+			say = "好、好像沒問題了。謝謝妳，伯明罕…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧，既然疏散已经结束，是时候去前线大闹一场，给塞壬些厉害尝尝了。",
+			say = "來吧，既然疏散已經結束，是時候去前線大鬧一場，給塞壬些厲害嚐嚐了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "亚特兰大级轻巡洋舰朱诺…现在出战！",
+			say = "亞特蘭大級輕巡洋艦朱諾…現在出戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

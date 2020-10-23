@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "怎么样，指挥官？我果然非常能干吧！",
+			say = "怎麼樣，指揮官？我果然非常能幹吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "和棘鳍一起完成了今天的工作。",
+			say = "和棘鰭一起完成了今天的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "今天鲦鱼和大青花鱼都没找我，其他的潜艇们好像也都有安排。",
+			say = "今天鰷魚和大青花魚都沒找我，其他的潛艇們好像也都有安排。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "唔唔唔……难道要在这里坐着过一个下午吗……",
+			say = "唔唔唔……難道要在這裡坐著過一個下午嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对了，指挥官，我们来互相讲故事吧！怎么样？",
+			say = "啊，對了，指揮官，我們來互相講故事吧！怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "有点小孩子气的要求，不过作为打发时间的手段似乎也不错。",
+			say = "有點小孩子氣的要求，不過作為打發時間的手段似乎也不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那指挥官，妳先来吧！",
+			say = "那指揮官，你先來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			withoutActorName = true,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "讲什么故事好呢？",
+			say = "講什麼故事好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,15 +200,15 @@ return {
 			},
 			options = {
 				{
-					content = "英雄牺牲拯救世界的故事",
+					content = "英雄犧牲拯救世界的故事",
 					flag = 1
 				},
 				{
-					content = "国王为了爱人放弃王位的故事",
+					content = "國王為了愛人放棄王位的故事",
 					flag = 2
 				},
 				{
-					content = "侦探步步为营找出凶手的故事",
+					content = "偵探步步為營找出兇手的故事",
 					flag = 3
 				}
 			}
@@ -256,7 +256,7 @@ return {
 			optionFlag = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "为什么拯救世界就一定要牺牲掉主人公啊！",
+			say = "為什麼拯救世界就一定要犧牲掉主人公啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			optionFlag = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "就没有既救了世界又不用牺牲自己的方法吗？这样的结局我绝对不认同！",
+			say = "就沒有既救了世界又不用犧牲自己的方法嗎？這樣的結局我絕對不認同！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "棘鳍看起来反应很激烈。",
+			say = "棘鰭看起來反應很激烈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			optionFlag = 2,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "不是，为什么国王为了一个女人愿意放弃自己的王位？",
+			say = "不是，為什麼國王為了一個女人願意放棄自己的王位？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			optionFlag = 2,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "他难道是笨蛋吗？",
+			say = "他難道是笨蛋嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "唔，或许这种情感对她来说还是太难理解了",
+			say = "唔，或許這種情感對她來說還是太難理解了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			optionFlag = 3,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "欸？结，结束了吗？",
+			say = "欸？結，結束了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			optionFlag = 3,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "我，我睡着了吗？非，非常抱歉！",
+			say = "我，我睡著了嗎？非，非常抱歉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯……这个故事似乎对棘鳍没什么吸引力",
+			say = "嗯……這個故事似乎對棘鰭沒什麼吸引力",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那接下来就到我了！",
+			say = "那接下來就到我了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "哼哼，我的故事肯定比指挥官的精彩一百倍！",
+			say = "哼哼，我的故事肯定比指揮官的精彩一百倍！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "棘鳍把自己记忆中的经历讲了一遍",
+			say = "棘鰭把自己記憶中的經歷講了一遍",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "怎么样，是不是很厉害！我的经历可是独一无二的！",
+			say = "怎麼樣，是不是很厲害！我的經歷可是獨一無二的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸头",
+					content = "摸摸頭",
 					flag = 1
 				}
 			}
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "啊，真是的，指挥官又把我当成小孩子了！",
+			say = "啊，真是的，指揮官又把我當成小孩子了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我一定会让指挥官对我刮目相看的！",
+			say = "我一定會讓指揮官對我刮目相看的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "留下了这样的宣言，明天的棘鳍会有什么变化吗？",
+			say = "留下了這樣的宣言，明天的棘鰭會有什麼變化嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

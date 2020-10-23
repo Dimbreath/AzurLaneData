@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，能用这种风格战斗，妳比看起来更豪放嘛~",
+			say = "哼哼，能用這種風格戰鬥，妳比看起來更豪放嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "抱歉，看到这种用夥伴的样子作恶的家伙，我就没办法控制心中的怒火了。",
+			say = "抱歉，看到這種用夥伴的樣子作惡的傢伙，我就沒辦法控制心中的怒火了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰大姐头还是一如既往的潇洒啊~",
+			say = "克里夫蘭大姐頭還是一如既往的瀟灑啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蒙彼利埃也很帅气哦！",
+			say = "蒙彼利埃也很帥氣哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里，我和大姐头比还差得远呢。",
+			say = "哪裡，我和大姐頭比還差得遠呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，不过伯明翰好像和妳们的战斗风格不同，要…更谨慎一些？",
+			say = "唔，不過伯明罕好像和妳們的戰鬥風格不同，要…更謹慎一些？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那孩子…稍微有些自己的个性呢…",
+			say = "那孩子…稍微有些自己的個性呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不是什么大问题，不过偶尔会执着于一些奇妙的地方。",
+			say = "雖然不是什麼大問題，不過偶爾會執著於一些奇妙的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿，我有很多姐姐，也有很多妹妹，她们都很有个性。",
+			say = "欸嘿嘿，我有很多姐姐，也有很多妹妹，她們都很有個性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然偶尔会有些小矛盾，不过我还是最喜欢她们了~可不能因为小事影响到姐妹关系哦！",
+			say = "雖然偶爾會有些小矛盾，不過我還是最喜歡她們了~可不能因為小事影響到姐妹關係哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说得好！嘿嘿，姐妹间就是要相互包容和睦相处才是~",
+			say = "說得好！嘿嘿，姐妹間就是要相互包容和睦相處才是~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位，我们即将进入中心海域，按照预定计划，由驱逐舰护卫补给舰在此待命。",
+			say = "各位，我們即將進入中心海域，按照預定計劃，由驅逐艦護衛補給艦在此待命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其余诸舰完成补给后，继续向着前方的风暴进发！",
+			say = "其餘諸艦完成補給後，繼續向著前方的風暴進發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

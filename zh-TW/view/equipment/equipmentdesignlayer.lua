@@ -145,7 +145,7 @@ function slot2(slot0, slot1)
 
 	slot4 = slot1:GetPropertiesInfo().attrs
 
-	for slot10, slot11 in ipairs(slot3.skill_id[1] and EquipType.isDevice(slot1.configId) and {
+	for slot10, slot11 in ipairs(slot3.skill_id[1] and slot1:isDevice() and {
 		1,
 		2,
 		5

@@ -2212,7 +2212,7 @@ pg.gametip = {
 		tip = "$1中$2處於心情低落狀態，強制出擊將降低好感且獲得經驗減半"
 	},
 	ship_energy_low_warn_no_exp = {
-		tip = "编队中<color=#A9F548FF>$2</color>处于<color=#D6341D>低心情状态</color>，强制出击将<color=#D6341D>降低好感</color>，确定要继续出击吗？"
+		tip = "編隊中<color=#A9F548FF>$2</color>處於<color=#D6341D>低心情狀態</color>，強制出擊將<color=#D6341D>降低好感</color>，確定要繼續出擊嗎？"
 	},
 	test_ship_intensify_tip = {
 		tip = "布里無法進行強化"
@@ -4230,12 +4230,6 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/battle_defense_6"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/battle_defense_1"
 				}
 			},
@@ -5674,8 +5668,51 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 	word_status_challenge = {
 		tip = "特殊挑戰中"
 	},
+	challenge_rule = {
+		tip = {
+			{
+				info = [[
+挑戰模式規則
+
+玩家僅能編成一名前排角色進行挑戰
+僅有前排角色會受到傷害，當前排角色被擊沉時，挑戰失敗
+後排角色中，不能出現兩名以上相同定位的角色
+*戰列、戰巡視為相同定位的角色
+*正航、輕航視為相同定位的角色
+挑戰模式不消耗石油與角色心情，不限制挑戰次數
+中途退出戰鬥會結束本次挑戰
+
+挑戰模式編隊的戰鬥力會影響最終得分
+編隊戰鬥力越低，同條件下獲得的分數越高
+調節作戰難度會影響最終積分： 
+等級限制：影響關卡敵方等級
+受傷倍率：增加受到的傷害]]
+			}
+		}
+	},
+	challenge_exit_warning = {
+		tip = "退出挑戰關卡戰鬥，將重置挑戰並直接結算至當前關卡前的得分\n是否確定退出挑戰？"
+	},
+	challenge_fleet_type_fail = {
+		tip = "已經選擇了兩名相同定位的角色"
+	},
+	challenge_current_level = {
+		tip = "當前關卡：第$1輪"
+	},
+	challenge_current_score = {
+		tip = "累計分數：$1"
+	},
+	challenge_total_score = {
+		tip = "最高得分：$1"
+	},
+	challenge_current_progress = {
+		tip = "挑戰模式第$1輪"
+	},
 	challenge_count_unlimit = {
 		tip = "<size=28>無限制</size>"
+	},
+	challenge_no_fleet = {
+		tip = "沒有可用艦隊，無法出擊"
 	},
 	equipment_skin_unload = {
 		tip = "裝備外觀已卸下至倉庫中"
@@ -6708,7 +6745,7 @@ $3]]
 		tip = "天賦點不足"
 	},
 	buildship_new_tip = {
-		tip = "俾斯麥、U-556、Z36、U-73、回聲出現機率UP!"
+		tip = "阿拉巴馬、巴爾的摩、伯明罕、艾爾文出現機率UP!"
 	},
 	buildship_heavy_tip = {
 		tip = "小比叡建造追加！"
@@ -8022,7 +8059,7 @@ Bofors 四聯40mm對空機炮？</color></size>]]
 </color></size>]]
 	},
 	electrotherapy_wanning = {
-		tip = "即將開始收圈"
+		tip = "鏡面海域擴展中"
 	},
 	memorybook_get_award_tip = {
 		tip = "需要收集全部「港區回憶」才可獲取「晃悠悠紀念章」"
@@ -8315,7 +8352,7 @@ UID：
 				info = " 4. 兩種模式都為連戰玩法，即每場戰鬥結束後，會繼承\n上一場結束時的艦船狀態。且每場戰鬥只能呼叫一次潛艇\n支援，每場戰鬥結束後，潛艇呼叫次數會恢復為1次"
 			},
 			{
-				info = " 5. 限界挑戰中不會消耗石油，不消耗艦船的好感，戰鬥\n勝負不會被計入個人信息統計，也無法獲得艦船經驗和指\n揮喵經驗"
+				info = " 5. 限界挑戰中不會消耗石油，不消耗艦船的好感，戰鬥\n勝負不會被計入個人信息統計，也無法獲得艦船經驗、指\n揮官經驗和指揮喵經驗"
 			},
 			{
 				info = " 6. 普通模式和無限模式的編隊不通用，指揮官需要分別\n配置"
@@ -8574,33 +8611,33 @@ UID：
 	help_tempesteve = {
 		tip = {
 			{
-				info = "活动说明："
+				info = "活動說明："
 			},
 			{
-				info = "1.活动期间，将会开启特别作战「风暴前夕」"
+				info = "1.活動期間，將會開啟特別作戰「風暴前夕」"
 			},
 			{
-				info = "2.作战期间指挥官每日可获得1次可进行次数\n消耗次数可推进作战进度"
+				info = "2.作戰期間指揮官每日可獲得1次可進行次數\n消耗次數可推進作戰進度"
 			},
 			{
-				info = "3.作战全程将使用NPC编队进行，无石油消耗"
+				info = "3.作戰全程將使用NPC編隊進行，無石油消耗"
 			},
 			{
-				info = "4.每次通过作战可获得道具「作战报告」"
+				info = "4.每次通過作戰可獲得道具「作戰報告」"
 			},
 			{
-				info = "5.收集7份「作战报告」后可获得\n活动限定装备「侦察报告·纽约近海」\n未消耗的「作战报告」将在活动结束后回收"
+				info = "5.收集7份「作戰報告」後可獲得\n活動限定裝備「偵察報告·紐約近海」\n未消耗的「作戰報告」將在活動結束後回收"
 			},
 			{
 				info = [[
-6.作战完成条件:
-P1完成指定作战
-P2通过指定关卡
-P3观看指定剧情
-P4通过指定关卡
-P5通过指定关卡
-P6观看指定剧情
-P7通过指定关卡]]
+6.作戰完成條件:
+P1完成指定作戰
+P2通過指定關卡
+P3觀看指定劇情
+P4通過指定關卡
+P5通過指定關卡
+P6觀看指定劇情
+P7通過指定關卡]]
 			}
 		}
 	},
@@ -8611,16 +8648,16 @@ P7通过指定关卡]]
 		tip = "成功購買 <color=#92fc63>$1</color> 物資！"
 	},
 	harbour_bomb_tip = {
-		tip = "港口被摧毁，任务失败…"
+		tip = "港口被摧毀，任務失敗… "
 	},
 	submarine_approach = {
-		tip = "潜艇接近"
+		tip = "潛艇接近 "
 	},
 	submarine_approach_desc = {
-		tip = "敌潜艇编队接近中，请注意提高警戒。"
+		tip = "敵潛艇編隊接近中，請注意提高警戒。 "
 	},
 	desc_quick_play = {
-		tip = "加速移动播放"
+		tip = "加速移動播放 "
 	},
 	text_win_condition = {
 		tip = "勝利條件"
@@ -8629,19 +8666,19 @@ P7通过指定关卡]]
 		tip = "失敗條件"
 	},
 	text_rest_HP = {
-		tip = "剩余血量"
+		tip = "剩餘血量"
 	},
 	desc_defense_reward = {
-		tip = "依据通关时港口剩余血量获得奖励"
+		tip = "依據通關時港口剩餘血量獲得獎勵 "
 	},
 	desc_base_hp = {
-		tip = "港区耐久：$1/$2"
+		tip = "港區耐久：$1/$2"
 	},
 	map_event_open = {
-		tip = "拦截机关已启动"
+		tip = "攔截機關已啟動 "
 	},
 	word_reward = {
-		tip = "奖励"
+		tip = "獎勵"
 	},
 	tips_dispense_completed = {
 		tip = "装药完毕"
@@ -8914,7 +8951,7 @@ E組）
 		tip = "烟花制作完成，本次评价："
 	},
 	tag_level_narrative = {
-		tip = "剧情关卡"
+		tip = "劇情關卡"
 	},
 	vote_get_book = {
 		tip = "獲得了應援資格"

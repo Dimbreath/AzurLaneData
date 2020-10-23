@@ -16,12 +16,28 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有一年間持續奮鬥在港區的指揮官們</color>\n開啟「再誕·曙光」紀念幣獲得",
 		scene = {}
 	},
+	[201] = {
+		name = "限界的挑戰者",
+		time_second = 0,
+		id = 201,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得 （2020.10.15-2020.12.06）",
+		scene = {}
+	},
 	[302] = {
 		name = "鐵血之誓",
 		time_second = 0,
 		id = 302,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>以赤紅的血、和冷徹的鐵，鑄就堅定的意志</color>\n「鐵血、音符與誓言」活動獲取",
+		scene = {}
+	},
+	[303] = {
+		name = "自由之翼",
+		time_second = 0,
+		id = 303,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「——為了碧藍色的自由意誌，天佑白鷹」</color>\n「箱庭療法」活動獲得",
 		scene = {}
 	},
 	[1001] = {
@@ -35,7 +51,9 @@ pg.item_data_frame = {
 	all = {
 		0,
 		101,
+		201,
 		302,
+		303,
 		1001
 	}
 }

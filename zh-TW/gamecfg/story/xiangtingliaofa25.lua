@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "百慕大三角·第四舰队交战区",
+			say = "百慕達三角·第四艦隊交戰區",
 			side = 2,
 			dir = 1,
 			bgm = "story-6",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟吼~~没有敌人撑过我们正义的炮火~！",
+			say = "喲吼~~沒有敵人撐過我們正義的砲火~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳也这么认为吧，正义的夥伴！",
+			say = "妳也這麼認為吧，正義的夥伴！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次的编队，还真是奇妙啊…",
+			say = "這次的編隊，還真是奇妙啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前我的伯明翰妹妹受妳们照顾了，十分感谢！",
+			say = "之前我的伯明罕妹妹受妳們照顧了，十分感謝！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伯明翰战斗的十分英勇，直面净化者也没有丝毫怯懦，我们才是受她照顾了。",
+			say = "伯明罕戰鬥的十分英勇，直面淨化者也沒有絲毫怯懦，我們才是受她照顧了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸亏妳们及时赶到，受伤的结果才会止步于严重受损…",
+			say = "幸虧妳們及時趕到，受傷的結果才會止步於嚴重受損…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶，一定要让塞壬付出代价！",
+			say = "可惡，一定要讓塞壬付出代價！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奥斯本，妳的妹妹们还好么？",
+			say = "奧斯本，妳的妹妹們還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还好，她们都没大事~",
+			say = "還好，她們都沒大事~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当时我们主要负责扰乱塞壬的部署，受到的都是擦伤，这点伤害可是阻止不了正义的小海狸分队的！",
+			say = "當時我們主要負責擾亂塞壬的部署，受到的都是擦傷，這點傷害可是阻止不了正義的小海狸分隊的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，为什么司令部要让大家分开行动呢？",
+			say = "不過，為什麼司令部要讓大家分開行動呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次行动的夥伴这么少，大家组成大舰队一路消灭敌人不是更好吗？",
+			say = "這次行動的夥伴這麼少，大家組成大艦隊一路消滅敵人不是更好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…这次作战本来就是在紧急情况下制定的。",
+			say = "唔…這次作戰本來就是在緊急情況下制定的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "百慕大三角当前天气恶劣，海况复杂",
+			say = "百慕達三角當前天氣惡劣，海況復雜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果要在没有足够情报支援的情况下准确找出塞壬的奇异点，我们只能各自分配搜索区域",
+			say = "如果要在沒有足夠情報支援的情況下準確找出塞壬的奇異點，我們只能各自分配搜索區域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "司令部做出这种部署也是迫于无奈吧。",
+			say = "司令部做出這種部署也是迫於無奈吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，只要有一名勇者能够击败魔王就行了的意思吧！",
+			say = "原來如此，只要有一名勇者能夠擊敗魔王就行了的意思吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。",
+			say = "沒錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊。不过呢，正义的勇者虽然只要有一人就可以，但是同伴可是越多越好啊~",
+			say = "是啊。不過呢，正義的勇者雖然只要有一人就可以，但是同伴可是越多越好啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无论是我还是克利夫兰，还有蒙彼利埃也好，虽然大家平时不一定会把正义挂在嘴边，但是大家都和妳一样是正义的夥伴哦。",
+			say = "無論是我還是克里夫蘭，還有蒙彼利埃也好，雖然大家平時不一定會把正義掛在嘴邊，但是大家都和妳一樣是正義的夥伴哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！那么正义的夥伴们呀，让我们赶紧把敌人都消灭了吧！",
+			say = "哦哦！那麼正義的夥伴們呀，讓我們趕緊把敵人都消滅了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正义必胜~！！",
+			say = "正義必勝~！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

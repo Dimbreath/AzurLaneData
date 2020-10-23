@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "她们根本不应该受到这样的对待！！她们和所有的人类一样，是有心的！！",
+			say = "她們根本不應該受到這樣的對待！！她們和所有的人類一樣，是有心的！！",
 			effects = {
 				{
 					active = true,
@@ -35,7 +35,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "事到如今，妳还把能单兵摧毁整个第二舰队的怪物称为“人类”？",
+			say = "事到如今，妳還把能單兵摧毀整個第二艦隊的怪物稱為“人類”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "那次事件一定有其他的原因，请让我们好好调查清楚再…",
+			say = "那次事件一定有其他的原因，請讓我們好好調查清楚再…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "今日起，妳的实验团队被正式解散，实验资料将由Division13统一收集作为证据。",
+			say = "今日起，妳的實驗團隊被正式解散，實驗資料將由Division13統一收集作為證據。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "而妳，将面临军事法庭的审判，有时间担心它们，不如想好怎么面对接下来的牢狱生活吧！",
+			say = "而妳，將面臨軍事法庭的審判，有時間擔心它們，不如想好怎麼面對接下來的牢獄生活吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "卫兵，把她带走！",
+			say = "衛兵，把她帶走！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "轰————",
+			say = "轟————",
 			effects = {
 				{
 					active = false,
@@ -173,7 +173,7 @@ return {
 			bgm = "story-6",
 			actor = 207040,
 			nameColor = "#a9f548",
-			say = "风速越来越快，没有办法继续派出侦察机了！",
+			say = "風速越來越快，沒有辦法繼續派出偵察機了！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "狂风暴雨，惊涛飓浪…航空甲板和萨拉妹妹也要撑不住啦！",
+			say = "狂風暴雨，驚濤巨浪…航空甲板和薩拉妹妹也要撐不住啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再坚持一下，把侦察机都收回来，我找到风暴眼的位置了！",
+			say = "再堅持一下，把偵察機都收回來，我找到風暴眼的位置了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要冲进风暴眼里，至少舰载机就能正常战斗了",
+			say = "只要衝進風暴眼裡，至少艦載機就能正常戰鬥了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一边在巨浪中航行，一边操控舰载机战斗…真是项艰巨的挑战啊…",
+			say = "一邊在巨浪中航行，一邊操控艦載機戰鬥…真是項艱鉅的挑戰啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，雷达屏出现多处反射信号！",
+			say = "等等，雷達出現多處反射訊號！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然藏在里面等我们吗！",
+			say = "果然藏在裡面等我們嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "全员做好准备，舰队即将冲入风暴眼！",
+			say = "全員做好準備，艦隊即將衝入風暴眼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

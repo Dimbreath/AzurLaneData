@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "白鹰·长岛防线 此刻",
+			say = "白鷹·長島防線 此刻",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "airRaidAlarm",
@@ -30,7 +30,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "纽约港作为白鹰第一大港，拥有最先进的港区设备和最完善的配套设施。",
+			say = "紐約港作為白鷹第一大港，擁有最先進的港區設備和最完善的配套設施。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "加之其重要的地理位置，自碧蓝航线成立之初就在纽约港设置了负责整片NA海域作战的舰队司令部。",
+			say = "加之其重要的地理位置，自碧藍航線成立之初就在紐約港設置了負責整片NA海域作戰的艦隊司令部。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "而负责保护纽约司令部及周边配属企业设施群的就是这条长岛防线了。",
+			say = "而負責保護紐約司令部及周邊配屬企業設施群的就是這條長島防線了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "坚固的防御工事，大口径的要塞炮，充足的补给储存，加上沿海岸线分布的多处军港和本土防御舰队，",
+			say = "堅固的防禦工事，大口徑的要塞炮，充足的補給儲存，加上沿海岸線分佈的多處軍港和本土防禦艦隊，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "构成了一条固若金汤的防御线。",
+			say = "構成了一條固若金湯的防禦線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "这条防线帮助人类在最黑暗的年代，抵御了塞壬最疯狂的进攻。",
+			say = "這條防線幫助人類在最黑暗的年代，抵禦了塞壬最瘋狂的進攻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "这是一条绝对不会沦陷的防线，只要一切仍在正轨的话。",
+			say = "這是一條絕對不會淪陷的防線，只要一切仍在正軌的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "因为赤色中轴的背叛，即便是纽约司令部也不得不将大多数防御舰队调防到世界各地，以应对愈发危险的局势。",
+			say = "因為赤色中軸的背叛，即便是紐約司令部也不得不將大多數防禦艦隊調防到世界各地，以應對愈發危險的局勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "塞壬就是瞄准了这一刻吧。",
+			say = "塞壬就是瞄準了這一刻吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "漂浮的残骸，燃烧的废墟——",
+			say = "漂浮的殘骸，燃燒的廢墟——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "不论如何，此刻，昔日最坚固的长岛防线已经沦陷了。",
+			say = "不論如何，此刻，昔日最堅固的長島防線已經淪陷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…怎么可能……",
+			say = "這…怎麼可能……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			side = 2,
-			say = "可恶……！",
+			say = "可惡……！",
 			dialogShake = {
 				speed = 0.09,
 				x = 11,

@@ -5914,6 +5914,114 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60172] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60172,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60173] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60173,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[60174] = {
 		group_type = 0,
 		resource_num = 500,
@@ -14733,6 +14841,251 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70206] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：棘鳍jk",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 160,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70206,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			108031
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70207] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：巴尔的摩jk",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 160,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70207,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103161
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70208] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤：艾尔温常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 190,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70208,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101401
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70209] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：伯明翰jk",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70209,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			102231
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70210] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：巴丹睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70210,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			107291
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70212] = {
 		group_type = 0,
 		resource_num = 780,
@@ -18042,6 +18395,8 @@ pg.shop_template = {
 		60168,
 		60169,
 		60171,
+		60172,
+		60173,
 		60174,
 		60188,
 		61001,
@@ -18213,6 +18568,11 @@ pg.shop_template = {
 		70203,
 		70204,
 		70205,
+		70206,
+		70207,
+		70208,
+		70209,
+		70210,
 		70212,
 		70215,
 		70216,

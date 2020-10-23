@@ -13,7 +13,7 @@ return {
 			bgm = "story-6",
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "奇怪…太轻松了。",
+			say = "奇怪…太輕鬆了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算兵力再空虚，这里也是负责保护司令部的长岛防线。",
+			say = "就算兵力再空虛，這裡也是負責保護司令部的長島防線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬真的以为靠这些杂鱼就能把要塞打下来么。",
+			say = "塞壬真的以為靠這些雜魚就能把要塞打下來嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————",
+			say = "轟——————",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞、塞壬的高阶单位…出现了！",
+			say = "塞、塞壬的高階單位…出現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
+			actorName = "淨化者",
 			say = "♪~",
 			typewriter = {
 				speed = 0.05,
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化者————",
+			say = "淨化者————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "立刻撤回要塞近海。苦战，要开始了。",
+			say = "立刻撤回要塞近海。苦戰，要開始了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

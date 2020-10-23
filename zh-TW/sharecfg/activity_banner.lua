@@ -1,22 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "347",
+		type = 3,
 		id = 1,
-		pic = "temp9",
-		param = {
-			"act boss battle",
-			{
-				mediatorClass = ActivityBossMediatorTemplate,
-				viewClass = ActivityBossAisaikesiScene
-			}
-		},
+		pic = "temp3",
 		time = {
 			{
 				{
 					2020,
 					10,
-					9
+					22
 				},
 				{
 					0,
@@ -27,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					23,
@@ -53,7 +47,7 @@ pg.activity_banner = {
 				{
 					2020,
 					10,
-					9
+					22
 				},
 				{
 					0,
@@ -64,8 +58,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					23,
@@ -87,7 +81,7 @@ pg.activity_banner = {
 				{
 					2020,
 					10,
-					9
+					22
 				},
 				{
 					0,
@@ -98,8 +92,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					10,
-					21
+					11,
+					4
 				},
 				{
 					23,
@@ -110,18 +104,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "337",
+		type = 3,
 		id = 4,
-		pic = "temp8",
-		param = {
-			"scene level"
-		},
+		pic = "temp6",
 		time = {
 			{
 				{
 					2020,
 					10,
-					10
+					15
 				},
 				{
 					0,
@@ -132,8 +124,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					10,
-					19
+					11,
+					5
 				},
 				{
 					23,
@@ -146,52 +138,15 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 5,
-		pic = "temp12",
+		pic = "temp2",
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"CHALLENGE_MAIN_SCENE"
 		},
 		time = {
 			{
 				{
 					2020,
 					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp7",
-		param = {
-			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
 					15
 				},
 				{
@@ -203,8 +158,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					10,
-					14
+					12,
+					6
 				},
 				{
 					23,
@@ -214,9 +169,9 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
+	[9] = {
 		type = 2,
-		id = 7,
+		id = 9,
 		pic = "temp14",
 		param = {
 			"scene back yard"
@@ -254,7 +209,6 @@ pg.activity_banner = {
 		3,
 		4,
 		5,
-		6,
-		7
+		9
 	}
 }

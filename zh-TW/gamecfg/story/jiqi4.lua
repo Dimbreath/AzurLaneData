@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "港区附近海域",
+			say = "港區附近海域",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦呼！……欸，我是第二吗？",
+			say = "哦呼！……欸，我是第二嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "啊，指挥官！",
+			say = "啊，指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "我们三个在举行潜泳比赛！谁输了就要请赢的人喝酸素可乐！",
+			say = "我們三個在舉行潛泳比賽！誰輸了就要請贏的人喝酸素可樂！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "这样一来，败者就是棘鳍了呢！",
+			say = "這樣一來，敗者就是棘鰭了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定是秘书舰的工作多了，疏于训练了！",
+			say = "一定是秘書艦的工作多了，疏於訓練了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，这样说的话，指挥官心里可就要有负罪感了呢。让我看看最后一名在哪里~",
+			say = "嘻嘻，這樣說的話，指揮官心裡可就要有負罪感了呢。讓我看看最後一名在哪裡~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "咦？等等，有些奇怪……棘鳍呢？",
+			say = "咦？等等，有些奇怪……棘鰭呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她不是还在后面吗？",
+			say = "她不是還在後面嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "不，后面没有人了……该不会她还在往前游？",
+			say = "不，後面沒有人了……該不會她還在往前游？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "(小声)…难道是我故意把终点的标志弄模糊的原因——",
+			say = "(小聲)…難道是我故意把終點的標誌弄模糊的原因——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？前面的海域不是重樱航母正在使用中么？",
+			say = "欸？前面的海域不是重櫻航母正在使用中嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "呃…指、指挥官，我们快去看看吧！",
+			say = "呃…指、指揮官，我們快去看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "海域另一侧",
+			say = "海域另一側",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是姐姐我的胜利呢~",
+			say = "是姐姐我的勝利呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……居然用偷袭的方法，姐姐太狡猾了！",
+			say = "嗚……居然用偷襲的方法，姐姐太狡猾了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}，精神不够集中的话可是赢不了姐姐我的呢~",
+			say = "{namecode:96}，精神不夠集中的話可是贏不了姐姐我的呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说了，万一实战的时候，有什么东西突然出现——",
+			say = "再說了，萬一實戰的時候，有什麼東西突然出現——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "哼哼，我是第一名！我就说她们两个怎么可能追得上……呃……奇怪？",
+			say = "哼哼，我是第一名！我就說她們兩個怎麼可能追得上……呃……奇怪？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这，这是……！",
+			say = "這，這是……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "姐姐就由我来守护！接招！",
+			say = "姐姐就由我來守護！接招！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "这个状况……难道是突发状况演习？",
+			say = "這個狀況……難道是突發狀況演習？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "既然这样的话……！",
+			say = "既然這樣的話……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			},
 			options = {
 				{
-					content = "叫住双方",
+					content = "叫住雙方",
 					flag = 1
 				}
 			}
@@ -533,7 +533,7 @@ return {
 			bgm = "story-1",
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "原来如此……是奋力向前的小鱼一不小心游过了终点呢。",
+			say = "原來如此……是奮力向前的小魚一不小心游過了終點呢。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "没，没想到我会犯这样的失误……",
+			say = "沒，沒想到我會犯這樣的失誤……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，没关系的。顺便一提，{namecode:96}，要在分清楚敌友之后再攻击哦？妳刚刚过于紧张了呢。",
+			say = "呵呵，沒關係的。順便一提，{namecode:96}，要在分清楚敵友之後再攻擊哦？妳剛剛過於緊張了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "对，对不起…吓到妳了",
+			say = "對，對不起…嚇到妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为惩罚，妳的天妇罗要分一半给指挥官和小鱼们哦。",
+			say = "作為懲罰，妳的天婦羅要分一半給指揮官和小魚們哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 108020,
-			actorName = "大青花鱼&鲦鱼",
+			actorName = "大青花魚&鰷魚",
 			say = "耶——！",
 			typewriter = {
 				speed = 0.05,
@@ -694,7 +694,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎，怎么会这样！",
+			say = "怎，怎麼會這樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等怎么又多了两个啊！！",
+			say = "等等怎麼又多了兩個啊！！",
 			effects = {
 				{
 					active = true,
@@ -736,7 +736,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "美味的天妇罗，为今天的插曲划上了句号。",
+			say = "美味的天婦羅，為今天的插曲劃上了句號。",
 			effects = {
 				{
 					active = false,

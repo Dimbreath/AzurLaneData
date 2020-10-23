@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"才不是小孩子！\n\n<size=45>三 突击！</size>",
+					"才不是小孩子！\n\n<size=45>三 突擊！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "演习海域",
+			say = "演習海域",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "对潜/反对潜演习作战中，“猫鲨”小分队——",
+			say = "對潛/反對潛演習作戰中，“貓鯊”小分隊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "唔唔……没有什么好的目标吗……",
+			say = "唔唔……沒有什麼好的目標嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊，难道这次一根鱼雷也没机会发射出去了吗！",
+			say = "啊啊啊，難道這次一根魚雷也沒機會發射出去了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "要是空着手回去的话，一定会被铁血和重樱的潜艇嘲笑的！",
+			say = "要是空著手回去的話，一定會被鐵血和重櫻的潛艇嘲笑的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "没有护卫的模拟货船已经被U-81她们给抢了，伊26她们也不知道在哪里得到了击破点数，这下可不太好办啊……",
+			say = "沒有護衛的模擬貨船已經被U-81她們給搶了，伊26她們也不知道在哪裡得到了擊破點數，這下可不太好辦啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "妳们看，是拉菲！她好像还没睡醒的样子，我们就趁机偷袭她吧！",
+			say = "妳們看，是拉菲！她好像還沒睡醒的樣子，我們就趁機偷襲她吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 108010,
 			nameColor = "#a9f548",
-			say = "欸？认真的吗？对手可是驱逐舰啊！",
+			say = "欸？認真的嗎？對手可是驅逐艦啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "没问题，我已经有办法了！",
+			say = "沒問題，我已經有辦法了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "棘鳍，妳去吸引她的注意力，我和鲦鱼在旁边等待机会。一旦她露出破绽，我们就发动攻击！",
+			say = "棘鰭，妳去吸引她的注意力，我和鰷魚在旁邊等待機會。一旦她露出破綻，我們就發動攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "交给我吧！",
+			say = "交給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鲦鱼，我们往这边走！",
+			say = "鰷魚，我們往這邊走！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			actor = 101170,
 			nameColor = "#a9f548",
-			say = "好困……为什么要这么早举行演习……拉菲好想回去睡觉……",
+			say = "好睏……為什麼要這麼早舉行演習……拉菲好想回去睡覺……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（就是这样！之后只要等到拉菲的注意力完全被吸引过去——）",
+			say = "（就是這樣！之後只要等到拉菲的注意力完全被吸引過去——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			actor = 101170,
 			nameColor = "#a9f548",
-			say = "潜艇，居然直接出水了……拉菲被小看了……",
+			say = "潛艇，居然直接出水了……拉菲被小看了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "啧，被躲过了吗",
+			say = "嘖，被躲過了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "（那家伙，在干什么啊！）",
+			say = "（那傢伙，在幹什麼啊！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "这种程度的攻击我才不怕——欸，欸，欸！？呜哇——",
+			say = "這種程度的攻擊我才不怕——欸，欸，欸！？嗚哇——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鲦鱼，就是现在！",
+			say = "鰷魚，就是現在！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等候多时了！鱼雷全数发射！",
+			say = "等候多時了！魚雷全數發射！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个……莫非是陷阱！",
+			say = "這個……莫非是陷阱！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			}
 		},
 		{
-			say = "哔——",
+			say = "嗶——",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -609,7 +609,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，被击沉了……",
+			say = "拉菲，被擊沉了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "太好了！作战成功！",
+			say = "太好了！作戰成功！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "真是的..我只是让妳做诱饵，没说要做到这种地步呀",
+			say = "真是的..我只是讓妳做誘餌，沒說要做到這種地步呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，棘鳍真的非常勇敢哎，指挥官现在肯定大吃一惊了吧~",
+			say = "不過，棘鰭真的非常勇敢哎，指揮官現在肯定大吃一驚了吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

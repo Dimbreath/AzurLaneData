@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 900193,
-			actorName = "巴尔的摩？",
+			actorName = "巴爾的摩？",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真正的巴尔的摩小姐可比妳强一万倍！",
+			say = "真正的巴爾的摩小姐可比妳強一萬倍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "可悲的人偶，和妳丑陋的塞壬造物主一同沉入冰冷的海底吧！",
+			say = "可悲的人偶，和妳醜陋的塞壬造物主一同沉入冰冷的海底吧！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼♪这样前方的海域就清理完毕了~指挥官~",
+			say = "哼哼♪這樣前方的海域就清理完畢了~指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官？",
+			say = "指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			},
 			options = {
 				{
-					content = "只是有点头疼，不要紧的",
+					content = "只是有點頭疼，不要緊的",
 					flag = 1
 				}
 			}
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官似乎自从进入百慕大海域后情况就不太对劲哎？",
+			say = "指揮官似乎自從進入百慕達海域後情況就不太對勁哎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "这个地方总感觉让人十分的不自在，而且…",
+			say = "這個地方總感覺讓人十分的不自在，而且…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（脑海中会偶尔听到只言片语的对话…）",
+			say = "（腦海中會偶爾聽到隻言片語的對話…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "难道指挥官被“塞壬”的歌声迷惑了~？明明萨拉妹妹就在这里的说！",
+			say = "難道指揮官被“塞壬”的歌聲迷惑了~？明明薩拉妹妹就在這裡的說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			},
 			options = {
 				{
-					content = "我没事的",
+					content = "我沒事的",
 					flag = 1
 				}
 			}
@@ -191,7 +191,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "仪表的度数还在增长，情况刻不容缓，继续前进吧。",
+			say = "儀表的度數還在增長，情況刻不容緩，繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

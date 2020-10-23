@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-4",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "结束了。",
+			say = "結束了。",
 			flashN = {
 				color = {
 					1,
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（纵使知道是假货，这种感觉…我可能永远也习惯不了吧。）",
+			say = "（縱使知道是假貨，這種感覺…我可能永遠也習慣不了吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业妳放心，大黄蜂已经调到远离前线的港口修整了。",
+			say = "企業妳放心，大黃蜂已經調到遠離前線的港口修整了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等作战结束之后，我们一起开个庆祝派对吧~",
+			say = "等作戰結束之後，我們一起開個慶祝派對吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢妳，萨拉…",
+			say = "謝謝妳，薩拉…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			say = "（走…快走…离开这里）",
+			say = "（走…快走…離開這裡）",
 			effects = {
 				{
 					active = true,
@@ -178,7 +178,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（这里是人类不应踏足的领域…）",
+			say = "（這裡是人類不應踏足的領域…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "（不，继续前进吧，只有她才能改变这一切。）",
+			say = "（不，繼續前進吧，只有她才能改變這一切。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "（妳们束缚了她太久了，该放开了。）",
+			say = "（妳們束縛了她太久了，該放開了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "（不，我们早就已经失去世间的一切了，她现在唯一能做的就是作为兵器一直战斗下去。）",
+			say = "（不，我們早就已經失去世間的一切了，她現在唯一能做的就是作為兵器一直戰鬥下去。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			actorName = "萨拉托加",
+			actorName = "薩拉托加",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官…！",
+			say = "指揮官…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actorName = "萨拉托加",
+			actorName = "薩拉托加",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…指挥官……！",
+			say = "…指揮官……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-4",
 			nameColor = "#a9f548",
-			say = "<size=70>指挥官！！！！！</size>",
+			say = "<size=70>指揮官！！！！！</size>",
 			effects = {
 				{
 					active = false,
@@ -298,7 +298,7 @@ return {
 			},
 			options = {
 				{
-					content = "我这是……？",
+					content = "我這是……？",
 					flag = 1
 				}
 			}
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 105130,
-			say = "居然能在这样的炮火声中昏睡过去，实在是非常人所能。",
+			say = "居然能在這樣的炮火聲中昏睡過去，實在是非常人所能。",
 			effects = {
 				{
 					active = false,
@@ -327,7 +327,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（脑海里的声音变得越来越清晰了……）",
+			say = "（腦海裡的聲音變得越來越清晰了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			},
 			options = {
 				{
-					content = "妳们有听到奇怪的对话声么？",
+					content = "妳們有聽到奇怪的對話聲嗎？",
 					flag = 1
 				}
 			}
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…萨拉妹妹并没听到什么奇怪的声音哦？",
+			say = "這…薩拉妹妹並沒聽到什麼奇怪的聲音哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这片海域里的电磁波十分不稳定，指挥官不会是接入到什么奇怪的频道里了吧~",
+			say = "不過，這片海域裡的電磁波十分不穩定，指揮官不會是接入到什麼奇怪的頻道裡了吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实从作战开始后，我也能感觉到一种奇怪的违和感。",
+			say = "其實從作戰開始後，我也能感覺到一種奇怪的違和感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的情况，有一种似曾相识的感觉…",
+			say = "現在的情況，有一種似曾相識的感覺…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这应该就是所谓的“既视感”了吧！不过很遗憾，我也什么都没感觉到",
+			say = "這應該就是所謂的“既視感”了吧！不過很遺憾，我也什麼都沒感覺到",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,22 +434,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "唔……既视感、么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "从无线电通报来看，三四舰队也成功突破了塞壬的中段防御，即将进入中心海域。",
+			say = "唔……既視感、嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +449,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管怎样，异常状况的源头就在前方了。",
+			say = "從無線電通報來看，三四艦隊也成功突破了塞壬的中段防禦，即將進入中心海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +464,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就在…风暴眼的中心——",
+			say = "不管怎樣，異常狀況的源頭就在前方了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "就在…風暴眼的中心——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

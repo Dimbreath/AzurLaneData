@@ -8,7 +8,7 @@ function slot1.getUIName(slot0)
 	return "skirmish_levels"
 end
 
-function slot1.Update(slot0)
+function slot1.Update(slot0, ...)
 	slot1 = slot0._tf
 	slot2 = 0.21875
 	slot1.pivot = Vector2(slot2, 1)
@@ -19,6 +19,8 @@ function slot1.Update(slot0)
 	slot6 = 1
 	slot6 = slot0.map.rect.width / slot0.map.rect.height < slot0._parentTf.rect.width / slot0._parentTf.rect.height and slot0._parentTf.rect.width / slot0._tf.rect.width or slot0._parentTf.rect.height / slot0._tf.rect.height
 	slot0._tf.localScale = Vector3(slot6, slot6, slot6)
+
+	uv0.super.Update(slot0, ...)
 end
 
 slot2 = Vector2(-193.5, 120.6)

@@ -1926,6 +1926,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[148] = {
+		can_rotate = 0,
+		describe = "於百慕達戰場中回收的未知物質，暫無法分析其有效成分。從中似乎能感受到一絲神秘的力量——紀念參與「箱庭療法」特殊作戰獲得的最高榮譽",
+		gain_by = "箱庭療法",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "餘燼",
+		advice = 0,
+		id = 148,
+		icon = "xiangtingliaofaicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"xiangtingliaofa",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[149] = {
 		can_rotate = 1,
 		describe = "一起來欣賞古老的皮影戲技藝吧~",
@@ -47903,6 +47946,7 @@ pg.furniture_data_template = {
 		140,
 		143,
 		145,
+		148,
 		149,
 		150,
 		152,

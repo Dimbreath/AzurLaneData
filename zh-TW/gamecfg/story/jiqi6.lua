@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天也是和平常一样的——",
+			say = "今天也是和平常一樣的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=60>请和我约会吧！</size>",
+			say = "<size=60>請和我約會吧！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "(等等等等，这是什么展开？)",
+			say = "(等等等等，這是什麼展開？)",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "指挥官，不明白吗？来和我约会吧！",
+			say = "指揮官，不明白嗎？來和我約會吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（先冷静下来，弄清楚具体状况……）",
+			say = "（先冷靜下來，弄清楚具體狀況……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问“约会”的原因",
+					content = "詢問“約會”的原因",
 					flag = 1
 				}
 			}
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这个是重樱的{namecode:95}小姐告诉我的呢！",
+			say = "啊，這個是重櫻的{namecode:95}小姐告訴我的呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "“只要约会了，指挥官就会对我刮目相看，不再把我当做小孩子来对待了！”她是这么告诉我的！",
+			say = "“只要約會了，指揮官就會對我刮目相看，不再把我當做小孩子來對待了！ ”她是這麼告訴我的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官一直以来都在帮助我，照顾我...我非常的喜欢指挥官！",
+			say = "指揮官一直以來都在幫助我，照顧我...我非常的喜歡指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "但是，这些会不会都是因为指挥官觉得我是小孩子，觉得我更需要被照顾，所以才对我这么细心……",
+			say = "但是，這些會不會都是因為指揮官覺得我是小孩子，覺得我更需要被照顧，所以才對我這麼細心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "我不想一直被当成小孩子看待下去",
+			say = "我不想一直被當成小孩子看待下去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "所以，指挥官，请和我约会吧！这样一来指挥官就能看到一个不一样的我了！",
+			say = "所以，指揮官，請和我約會吧！這樣一來指揮官就能看到一個不一樣的我了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "拜托了！",
+			say = "拜託了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,11 +268,11 @@ return {
 			},
 			options = {
 				{
-					content = "答应",
+					content = "答應",
 					flag = 1
 				},
 				{
-					content = "犹豫",
+					content = "猶豫",
 					flag = 2
 				}
 			}
@@ -285,7 +285,7 @@ return {
 			optionFlag = 2,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "拜托了！",
+			say = "拜託了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应",
+					content = "答應",
 					flag = 3
 				}
 			}
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，指挥官！我只听说约会是一起出去玩……具体要做些什么呀？",
+			say = "對了，指揮官！我只聽說約會是一起出去玩……具體要做些什麼呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "虽然事先已经猜到是这样的状况了…还真是…",
+			say = "雖然事先已經猜到是這樣的狀況了…還真是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

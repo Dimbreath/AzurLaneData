@@ -831,13 +831,13 @@ function slot0.getTouchSpineConfig(slot0)
 		slot2 = slot0:getConfig("spine")[1][3] or {}
 		slot4 = slot2[1]
 
-		if slot2[3] then
+		if Clone(slot2[3]) then
 			table.insert(slot3, slot2[1])
 
 			slot4 = slot3[math.random(1, #slot3)]
 		end
 
-		return slot4, slot2[2], slot2[4], slot2[5], slot2[6]
+		return slot4, slot2[2], slot2[4], slot2[5], slot2[6], slot2[7]
 	end
 end
 

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			bgm = "battle-boss-4",
-			say = "海面上回响的，是毁灭的声音。",
+			say = "海面上迴響的，是毀滅的聲音。",
 			flashN = {
 				color = {
 					1,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "硝烟与爆炎，废墟与残骸。",
+			say = "硝煙與爆炎，廢墟與殘骸。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "她独自一人，沉默而激烈地战斗着——",
+			say = "她獨自一人，沉默而激烈地戰鬥著——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -128,8 +128,8 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			actorName = "观察者",
-			say = "这样一来，整片区域的塞壬武装就被彻底清除了，恭喜恭喜~",
+			actorName = "觀察者",
+			say = "這樣一來，整片區域的塞壬武裝就被徹底清除了，恭喜恭喜~",
 			effects = {
 				{
 					active = true,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "没想到您还会特意回来善后，看来演出超乎预期的成功呢。",
+			say = "沒想到您還會特意回來善後，看來演出超乎預期的成功呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
-			say = "我说过，不要牵扯无关的人。",
+			say = "我說過，不要牽扯無關的人。",
 			effects = {
 				{
 					active = false,
@@ -189,8 +189,8 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			actorName = "观察者",
-			say = "在您说的语境下，“人”这个词有点难以界定呢。",
+			actorName = "觀察者",
+			say = "在您說的語境下，“人”這個詞有點難以界定呢。",
 			effects = {
 				{
 					active = true,
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "如果您是指这些棋子的话，毕竟都是为您特意准备的，请随意处置~",
+			say = "如果您是指這些棋子的話，畢竟都是為您特意準備的，請隨意處置~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,12 +223,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啊--如果您是指她们的话，不过是实验素材，您也可以随意破坏哟？",
+			say = "啊--如果您是指她們的話，不過是實驗素材，您也可以隨意破壞喲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,12 +239,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "还是说……好奇怪啊~明明都凑到眼前了，为什么放弃了？",
+			say = "還是說……好奇怪啊~明明都湊到眼前了，為什麼放棄了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,8 +282,8 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			actorName = "观察者",
-			say = "不要这么固执嘛。只要您愿意，我们随时可以和好如初哦~？",
+			actorName = "觀察者",
+			say = "不要這麼固執嘛。只要您願意，我們隨時可以和好如初哦~？",
 			effects = {
 				{
 					active = true,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这样一意孤行下去，除了原地踏步般一次次迎来悲伤，您什么都拯救不了。",
+			say = "這樣一意孤行下去，除了原地踏步般一次次迎來悲傷，您什麼都拯救不了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "觀察者",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "其实，妳还在逃避吧？",
+			say = "其實，妳還在逃避吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			actor = 900072,
 			actorName = "？？？",
-			say = "将我的行踪汇报给主机，就是妳的全部任务。",
+			say = "將我的行踪匯報給主機，就是妳的全部任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 900072,
 			actorName = "？？？",
-			say = "不要再多管闲事，妳不可能再妨碍我一次了。",
+			say = "不要再多管閒事，妳不可能再妨礙我一次了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -72,6 +72,9 @@ function slot0.setModel(slot0, slot1)
 	slot0.model = slot1
 end
 
+function slot0.SetExtraEffect(slot0, slot1)
+end
+
 function slot0.loadSpine(slot0, slot1)
 	if slot0.lastPrefab == slot0:getPrefab() then
 		if slot1 then

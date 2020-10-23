@@ -2026,7 +2026,7 @@ function slot0.getMapShip(slot0, slot1)
 	slot2 = nil
 
 	if slot1:isValid() and not _.detect(slot1:getShips(false), function (slot0)
-		return slot0.isNpc and uv0.hpRant > 0
+		return slot0.isNpc and slot0.hpRant > 0
 	end) then
 		if slot1:getFleetType() == FleetType.Normal then
 			slot2 = slot1:getShipsByTeam(TeamType.Main, false)[1]
@@ -2231,7 +2231,6 @@ function slot0.writeBack(slot0, slot1, slot2)
 
 		if slot0:CheckChapterWin() then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
-			slot0:UpdateProgressOnRetreat()
 		end
 
 		if not slot6 or slot6.flag == 1 then
@@ -2344,27 +2343,26 @@ function slot0.UpdateComboHistory(slot0, slot1)
 end
 
 function slot0.CheckChapterWin(slot0)
-	slot1 = slot0:CheckTransportState()
-	slot4 = ChapterConst.ReasonVictory
+	slot3 = ChapterConst.ReasonVictory
 
-	for slot8, slot9 in pairs(slot0:GetWinConditions()) do
-		if slot9.type == 1 then
+	for slot7, slot8 in pairs(slot0:GetWinConditions()) do
+		if slot8.type == 1 then
 			_.each(slot0:findChapterCells(ChapterConst.AttachBoss), function (slot0)
 				if slot0 and slot0.flag == 1 then
 					uv0 = uv0 + 1
 				end
 			end)
 
-			slot3 = false or slot9.param <= 0
-		elseif slot9.type == 2 then
-			slot3 = slot3 or slot9.param <= slot0:GetDefeatCount()
-		elseif slot9.type == 3 then
-			slot3 = slot3 or slot1 == 1
-		elseif slot9.type == 4 then
-			slot3 = slot3 or slot9.param < slot0:getRoundNum()
-		elseif slot9.type == 5 then
-			slot10 = slot9.param
-			slot3 = slot3 or not (_.any(slot0.champions, function (slot0)
+			slot2 = false or slot8.param <= 0
+		elseif slot8.type == 2 then
+			slot2 = slot2 or slot8.param <= slot0:GetDefeatCount()
+		elseif slot8.type == 3 then
+			slot2 = slot2 or slot0:CheckTransportState() == 1
+		elseif slot8.type == 4 then
+			slot2 = slot2 or slot8.param < slot0:getRoundNum()
+		elseif slot8.type == 5 then
+			slot9 = slot8.param
+			slot2 = slot2 or not (_.any(slot0.champions, function (slot0)
 				for slot5, slot6 in pairs(slot0.idList) do
 					slot1 = slot0.attachmentId == uv0 or slot6 == uv0
 				end
@@ -2373,44 +2371,57 @@ function slot0.CheckChapterWin(slot0)
 			end) or _.any(slot0.cells, function (slot0)
 				return slot0.attachmentId == uv0 and slot0.flag ~= 1
 			end))
-		elseif slot9.type == 6 then
-			slot10 = slot9.param
-			slot3 = slot3 or _.any(slot0.fleets, function (slot0)
+		elseif slot8.type == 6 then
+			slot9 = slot8.param
+			slot2 = slot2 or _.any(slot0.fleets, function (slot0)
 				return slot0:getFleetType() == FleetType.Normal and slot0:isValid() and slot0.line.row == uv0[1] and slot0.line.column == uv0[2]
 			end)
 		end
 
-		if slot3 then
+		if slot2 then
 			break
 		end
 	end
 
-	return slot3, slot4
+	return slot2, slot3
 end
 
 function slot0.CheckChapterLose(slot0)
-	slot1 = slot0:CheckTransportState()
-	slot4 = ChapterConst.ReasonDefeat
+	slot3 = ChapterConst.ReasonDefeat
 
-	for slot8, slot9 in pairs(slot0:GetLoseConditions()) do
-		if slot9.type == 1 then
-			slot3 = false or not _.any(slot0.fleets, function (slot0)
+	for slot7, slot8 in pairs(slot0:GetLoseConditions()) do
+		if slot8.type == 1 then
+			slot2 = false or not _.any(slot0.fleets, function (slot0)
 				return slot0:getFleetType() == FleetType.Normal and slot0:isValid()
 			end)
-		elseif slot9.type == 2 then
-			slot4 = (slot3 or slot0.BaseHP <= 0) and ChapterConst.ReasonDefeatDefense
+		elseif slot8.type == 2 then
+			slot3 = (slot2 or slot0.BaseHP <= 0) and ChapterConst.ReasonDefeatDefense
 		end
 
-		if slot3 then
+		if slot2 then
 			break
 		end
 	end
 
 	if slot0:getPlayType() == ChapterConst.TypeTransport then
-		slot3 = slot3 or slot1 == -1
+		slot2 = slot2 or slot0:CheckTransportState() == -1
 	end
 
-	return slot3, slot4
+	return slot2, slot3
+end
+
+function slot0.CheckChapterWillWin(slot0)
+	if slot0:existOni() then
+		return true
+	elseif slot0:isPlayingWithBombEnemy() then
+		return true
+	end
+
+	slot1, slot2 = slot0:CheckChapterWin()
+
+	if slot1 then
+		return true
+	end
 end
 
 function slot0.triggerSkill(slot0, slot1, slot2)

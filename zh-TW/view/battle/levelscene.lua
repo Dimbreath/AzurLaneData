@@ -2116,6 +2116,10 @@ function slot0.displayRemasterPanel(slot0, slot1)
 		table.insert(slot3, pg.re_map_template[slot9])
 	end
 
+	table.sort(slot3, function (slot0, slot1)
+		return slot0.order < slot1.order
+	end)
+
 	slot0.levelRemasterView = LevelRemasterView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
 	slot0.levelRemasterView:Load()

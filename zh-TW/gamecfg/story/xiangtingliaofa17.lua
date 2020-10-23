@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "有六支…七支……不对，更多塞壬舰队包围过来了！",
+			say = "有六支…七支……不對，更多塞壬艦隊包圍過來了！",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来塞壬做了十分充分的准备啊！",
+			say = "看來塞壬做了十分充分的準備啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“奇异点拥有改变战局的力量”，这件事我们知道，塞壬也知道我们知道。",
+			say = "“奇異點擁有改變戰局的力量”，這件事我們知道，塞壬也知道我們知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在塞壬制造奇异点之时，我们就已经别无选择了。",
+			say = "在塞壬製造奇異點之時，我們就已經別無選擇了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即便遭遇阻拦，我们也只能勇往直前，冲破险境。",
+			say = "即便遭遇阻攔，我們也只能勇往直前，衝破險境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！是时候让塞壬感受一下萨拉妹妹积蓄的怒火了！",
+			say = "哼！是時候讓塞壬感受一下薩拉妹妹積蓄的怒火了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

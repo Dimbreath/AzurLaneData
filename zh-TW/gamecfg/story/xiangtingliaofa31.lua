@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "返航咯，返航~",
+			say = "返航囉，返航~",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，萨拉老师？刚才开始就若有所思的？",
+			say = "怎麼了，薩拉老師？剛才開始就若有所思的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，没事没事。我只是在想，真是一场辛苦的战斗呀！",
+			say = "唔，沒事沒事。我只是在想，真是一場辛苦的戰鬥呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实如此，真是恶战一场，大家都能平安无事简直像奇迹一样……",
+			say = "確實如此，真是惡戰一場，大家都能平安無事簡直像奇蹟一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正义的夥伴大胜利~！",
+			say = "正義的夥伴大勝利~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果真的如“神秘人”所说，纽约港袭击只是为了诬陷她们，塞壬引诱我们进入百慕大的目的又是什么呢？",
+			say = "如果真的如“神秘人”所說，紐約港襲擊只是為了誣陷她們，塞壬引誘我們進入百慕大的目的又是什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且直到奇异点消失也没看到逃跑的测试者，十分在意它在暗中做什么。",
+			say = "而且直到奇異點消失也沒看到逃跑的測試者，十分在意它在暗中做什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在塞壬彻底投降前，总会在某处再遇到吧。",
+			say = "在塞壬徹底投降前，總會在某處再遇到吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次没算完的账，以后可以慢慢算…",
+			say = "這次沒算完的帳，以後可以慢慢算…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次行动观测到的结果显示，已存在的奇异点依然可以通过某种方法被安全瓦解。",
+			say = "這次行動觀測到的結果顯示，已存在的奇異點依然可以通過某種方法被安全瓦解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "如果能依据这一存在性早日研究出瓦解奇异点的具体方法就好了……",
+			say = "如果能依據這一存在性早日研究出瓦解奇異點的具體方法就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说妳们在推进的时候还遇到了假的大黄蜂…？",
+			say = "聽說妳們在推進的時候還遇到了假的大黃蜂…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是卑鄙，是瞄准了企业行进的线路特意安排的吗！",
+			say = "真是卑鄙，是瞄準了企業行進的線路特意安排的嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和塞壬战斗了这么久，它们还真是一如既往钟情于这种心理战。",
+			say = "和塞壬戰鬥了這麼久，它們還真是一如既往鍾情於這種心理戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然绝大多数情况下都不会造成实际影响，不过对着亲密的人发动攻击的感觉，总归或多或少会在心理上留下负担…",
+			say = "雖然絕大多數情況下都不會造成實際影響，不過對著親密的人發動攻擊的感覺，總歸或多或少會在心理上留下負擔…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（即便如此，企业前辈也没有一丝迷茫的奋战到今日，我也……)",
+			say = "（即便如此，企業前輩也沒有一絲迷茫的奮戰到今日，我也……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "说起来，出发前碰到孟菲斯的时候，她好像阴沉着脸说了些什么“呼呼呼，真是一场愉快的旅行啊”之类的意义不明的话呢……",
+			say = "說起來，出發前碰到曼非斯的時候，她好像陰沉著臉說了些什麼“呼呼呼，真是一場愉快的旅行啊”之類的意義不明的話呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊--先是在筹备会议，然后又跑去各部门联络，整理作战资料，最近一段时间真是辛苦她了……",
+			say = "啊--先是在籌備會議，然後又跑去各部門聯絡，整理作戰資料，最近一段時間真是辛苦她了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，旅行啊…等战争结束后，去做个长期旅行好了~大家都有什么打算呢？",
+			say = "不過，旅行啊…等戰爭結束後，去做個長期旅行好了~大家都有什麼打算呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果战争结束了，那就为了维护和平而四处奔波吧！海上骑士可是不会退休的哦~",
+			say = "如果戰爭結束了，那就為了維護和平而四處奔波吧！海上騎士可是不會退休的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我和大姐头一样。大姐头选择去哪里，我就去哪里。",
+			say = "我和大姐頭一樣。大姐頭選擇去哪裡，我就去哪裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "我的话...想去世界各地看看呢。去追寻一下真正的香格里拉也不错？",
+			say = "我的話...想去世界各地看看呢。去追尋一下真正的香格里拉也不錯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "企业前辈呢？",
+			say = "企業前輩呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战争结束以后、么…我还没思考过这个问题……",
+			say = "戰爭結束以後、嗎…我還沒思考過這個問題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，如果战争结束了，妳有什么打算呢？",
+			say = "指揮官，如果戰爭結束了，你有什麼打算呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			bgm = "story-6",
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "坚固也要有个限度！差不多该给我倒下了吧！",
+			say = "堅固也要有個限度！差不多該給我倒下了吧！",
 			flashN = {
 				color = {
 					1,
@@ -65,8 +65,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			actorName = "净化者",
-			say = "唉，妳们一直耗在我这边真的好么，那边，越烧越厉害了哦？",
+			actorName = "淨化者",
+			say = "唉，妳們一直耗在我這邊真的好嗎，那邊，越燒越厲害了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…！指挥官，再拖下去纽约港就……",
+			say = "…！指揮官，再拖下去紐約港就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、这样就结束了！",
+			say = "不、這樣就結束了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
+			actorName = "淨化者",
 			say = "？！！",
 			typewriter = {
 				speed = 0.05,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————",
+			say = "轟——————",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -188,8 +188,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "背后吗…居然是妳这个不起眼的小姑娘，大意了…",
+			actorName = "淨化者",
+			say = "背後嗎…居然是妳這個不起眼的小姑娘，大意了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "在冰冷的海底为牺牲的同伴赎罪吧，净化者。",
+			say = "在冰冷的海底為犧牲的同伴贖罪吧，淨化者。",
 			flashN = {
 				color = {
 					1,
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "朱诺…做的不错，这样大家也会对妳刮目相看了吧。",
+			say = "朱諾…做的不錯，這樣大家也會對妳刮目相看了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "击败了净化者，解除了塞壬对长岛防线的最大威胁，之后的战斗可以放心交给朱诺她们了。",
+			say = "擊敗了淨化者，解除了塞壬對長島防線的最大威脅，之後的戰鬥可以放心交給朱諾她們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "接下来舰队的目标就是…纽约港——",
+			say = "接下來艦隊的目標就是…紐約港——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

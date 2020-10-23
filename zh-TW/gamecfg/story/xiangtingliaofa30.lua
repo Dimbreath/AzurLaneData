@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "强到犯规了吧！！",
+			say = "強到犯規了吧！！",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "果然我们的判断是对的，这个被安蒂克丝刻意隐藏的时间奇点…",
+			say = "果然我們的判斷是對的，這個被安蒂克絲刻意隱藏的時間奇點…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "这里的妳们，确实与我们曾经见过的有所不同。",
+			say = "這裡的妳們，確實與我們曾經見過的有所不同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "归根究底，还是因为有这个人的存在吧。",
+			say = "歸根究底，還是因為有這個人的存在吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（...！又在瞄准指挥舰）",
+			say = "（...！又在瞄準指揮艦）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…妳们究竟是什么，究竟想做什么，又为什么要袭击纽约港！",
+			say = "…妳們究竟是什麼，究竟想做什麼，又為什麼要襲擊紐約港！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "蠢材！纽约港袭击只不过是安蒂克丝把妳们诱骗到这里的阴谋罢了，妳们根本是被一帮机器脑袋利用了！",
+			say = "蠢材！紐約港襲擊只不過是安蒂克絲把妳們誘騙到這裡的陰謀罷了，妳們根本是被一幫機器腦袋利用了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "至于我们，不过是一群于灰烬中苟且的残渣罢了，除此之外没有任何值得报出的名号。",
+			say = "至於我們，不過是一群於灰燼中苟且的殘渣罷了，除此之外沒有任何值得報出的名號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "至于她的话，妳们根本不知道她正背负着怎样沉重的宿命。",
+			say = "至於她的話，妳們根本不知道她正背負著怎樣沉重的宿命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "所以，不要再来干扰我们了。",
+			say = "所以，不要再來干擾我們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（“不计一切后果，消灭自称为“烬”的舰队”…指挥部的指令确实是这么说的。）",
+			say = "（“不計一切後果，消滅自稱為“燼”的艦隊”…指揮部的指令確實是這麼說的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（不过…）",
+			say = "（不過…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第四舰队全员，朝目标集火射击！",
+			say = "第四艦隊全員，朝目標集火射擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			say = "轰————",
+			say = "轟————",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "俯冲轰炸机队，攻击！",
+			say = "俯衝轟炸機隊，攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————",
+			say = "轟————",
 			flashN = {
 				color = {
 					1,
@@ -383,11 +383,11 @@ return {
 			},
 			options = {
 				{
-					content = "停止攻击，快停止攻击！",
+					content = "停止攻擊，快停止攻擊！",
 					flag = 1
 				},
 				{
-					content = "做得好，不要给她喘息的机会",
+					content = "做得好，不要給她喘息的機會",
 					flag = 2
 				}
 			}
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "指挥官……",
+			say = "指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "哼，只要是人类下的命令，无论是非就完全遵从的傀儡么…真是碍眼。",
+			say = "哼，只要是人類下的命令，無論是非就完全遵從的傀儡嗎…真是礙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————",
+			say = "轟————",
 			flashN = {
 				color = {
 					1,
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "一群被愚弄的孩子啊，我们一定会拯救妳们的…",
+			say = "一群被愚弄的孩子啊，我們一定會拯救妳們的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "…（闭上双眼",
+			say = "…（閉上雙眼",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "恶即斩·断钢！！！",
+			say = "惡即斬·斷鋼！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			}
 		},
 		{
-			say = "轰————",
+			say = "轟————",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -580,7 +580,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？居然同时切开了那么多炮弹！？",
+			say = "什麼？居然同時切開了那麼多炮彈！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			}
 		},
 		{
-			say = "轰————",
+			say = "轟————",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -642,7 +642,7 @@ return {
 			}
 		},
 		{
-			say = "轰————",
+			say = "轟————",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -697,7 +697,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃啊…主炮被剑气摧毁了...？！",
+			say = "呃啊…主炮被劍氣摧毀了...？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "这一切都是因妳而起，要不是妳…她就可以不用这么痛苦了！",
+			say = "這一切都是因妳而起，要不是妳…她就可以不用這麼痛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "…诶？",
+			say = "…欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "恶即…",
+			say = "惡即…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，小心！！！！",
+			say = "指揮官，小心！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 900072,
 			nameColor = "#ff5c5c",
-			say = "够了，目的已经达成，可以撤退了。",
+			say = "夠了，目的已經達成，可以撤退了。",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -847,7 +847,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "不要紧。",
+			say = "不要緊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -863,7 +863,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "信标已经设置完毕，这样和“它们”对抗的战力可以加入了。",
+			say = "信標已經設置完畢，這樣和“它們”對抗的戰力可以加入了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "今天就到此为止。",
+			say = "今天就到此為止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么要阻止那下攻击？",
+			say = "為什麼要阻止那下攻擊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "别误会了，我只是…",
+			say = "別誤會了，我只是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,7 +957,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "不想再看到自己流泪罢了。",
+			say = "不想再看到自己流淚罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个光是…和“王冠”时一样的，“奇异点”出现了！！",
+			say = "這個光是…和“王冠”時一樣的，“奇異點”出現了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			},
 			options = {
 				{
-					content = "神秘人，那个人是谁？",
+					content = "神秘人，那個人是誰？",
 					flag = 1
 				}
 			}
@@ -1022,7 +1022,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "——在那个“既视感”中反复出现的人类……",
+			say = "——在那個“既視感”中反復出現的人類……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1035,7 +1035,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "“神秘人”停了下来，犹豫了片刻，没有回答，反而转身向光芒中走去。",
+			say = "“神秘人”停了下來，猶豫了片刻，沒有回答，反而轉身向光芒中走去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1048,7 +1048,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在两人进入“奇异点”后，光芒便消失了。",
+			say = "在兩人進入“奇異點”後，光芒便消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1061,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "风暴开始平静下来，电磁干扰也在逐渐消退。",
+			say = "風暴開始平靜下來，電磁干擾也在逐漸消退。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1076,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇异点是...可以这么被轻易关闭的存在么？！",
+			say = "奇異點是...可以這麼被輕易關閉的存在嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1091,7 +1091,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜，不管怎样，总算是结束了…有那么一瞬间，真的有那种“这次一定要完蛋了”的感觉哎！",
+			say = "嗚，不管怎樣，總算是結束了…有那麼一瞬間，真的有那種“這次一定要完蛋了”的感覺哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1119,7 +1119,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（选择了沉默的离开么……）",
+			say = "（選擇了沉默的離開嗎……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1132,7 +1132,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（指挥部为什么在最开始就知道会有自称为“烬”的舰队存在……）",
+			say = "（指揮部為什麼在最開始就知道會有自稱為“燼”的艦隊存在……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1145,22 +1145,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（“安蒂克丝”和“烬”究竟是……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "大家注意~！在百慕大三角中心出现的“奇异点”已经被成功关闭了！（虽然不是我们做的）",
+			say = "（“安蒂克絲”和“燼”究竟是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,7 +1160,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然没有全歼敌人，不过主要作战目标已经达成，大家可以胜利凯旋了哦~",
+			say = "大家注意~！在百慕達三角中心出現的“奇異點”已經被成功關閉了！（雖然不是我們做的）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "雖然沒有全殲敵人，不過主要作戰目標已經達成，大家可以勝利凱旋了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1190,7 +1190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（....如此力量的强敌，总有一天...我还要变得更强！）",
+			say = "（....如此力量的強敵，總有一天...我還要變得更強！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

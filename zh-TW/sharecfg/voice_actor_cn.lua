@@ -793,7 +793,7 @@ pg.voice_actor_CN = {
 		code = 198
 	},
 	{
-		actor_name = "久保由利香",
+		actor_name = "久保百合花 ",
 		code = 199
 	},
 	{

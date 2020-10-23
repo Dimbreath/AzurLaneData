@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "白鹰·纽约港外围 此刻",
+			say = "白鷹·紐約港外圍 此刻",
 			side = 2,
 			dir = 1,
 			bgm = "story-6",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，港内的抵抗还在继续，看来勉强赶上了…",
+			say = "指揮官，港內的抵抗還在繼續，看來勉強趕上了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "比预期中早到了1分35秒，进行战斗力评价修正。",
+			actorName = "測試者",
+			say = "比預期中早到了1分35秒，進行戰鬥力評價修正。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呵，这次是测试者么，塞壬还真是倾巢出动啊。",
+			say = "呵，這次是測試者嗎，塞壬還真是傾巢出動啊。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然出现在我面前，就别想肆意妄为下去了！",
+			say = "既然出現在我面前，就別想肆意妄為下去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,8 +90,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			actorName = "测试者",
-			say = "白鹰高级制式巡洋舰，巴尔的摩级，满载排水17000吨，9门203mm主炮，防空火力出色…特点是“自诩为一般路过的重巡洋舰”——",
+			actorName = "測試者",
+			say = "白鷹高級制式巡洋艦，巴爾的摩級，滿載排水17000噸，9門203mm主炮，防空火力出色…特點是“自詡為一般路過的重巡洋艦”——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……看来妳们提前做了不少功课嘛。不过被别人当面说出这么详细的数据还真是令人不舒服……",
+			say = "……看來妳們提前做了不少功課嘛。不過被別人當面說出這麼詳細的數據還真是令人不舒服……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,8 +121,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			actorName = "测试者",
-			say = "情报显示的白鹰防卫舰队旗舰…妳就是这里最强的战舰了吗，只要将妳击破，任务就可以完成了。",
+			actorName = "測試者",
+			say = "情報顯示的白鷹防衛艦隊旗艦…妳就是這裡最強的戰艦了嗎，只要將妳擊破，任務就可以完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这是这边的台词才对！塞壬！妳们封锁海洋，不宣而战，挑拨离间，屠戮无辜，妳们所行之事皆为不义！",
+			say = "哼，這是這邊的台詞才對！塞壬！妳們封鎖海洋，不宣而戰，挑撥離間，屠戮無辜，妳們所行之事皆為不義！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今日，是时候用正义的炮火审判妳们了！",
+			say = "今日，是時候用正義的炮火審判妳們了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,8 +167,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			actorName = "测试者",
-			say = "妳们不过是兵器，用于战争和杀戮的兵器。",
+			actorName = "測試者",
+			say = "妳們不過是兵器，用於戰爭和殺戮的兵器。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			actorName = "测试者",
-			say = "只要接到命令，就算对昔日的盟友也能毫不犹豫的瞄准开火…",
+			actorName = "測試者",
+			say = "只要接到命令，就算對昔日的盟友也能毫不猶豫的瞄準開火…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,8 +199,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			actorName = "测试者",
-			say = "这样的兵器，居然还在谈论正义？",
+			actorName = "測試者",
+			say = "這樣的兵器，居然還在談論正義？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "轰——",
+			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -269,7 +269,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纵然只是兵器，只要在我的射程之内，我便会守护好我所珍视的一切。",
+			say = "縱然只是兵器，只要在我的射程之內，我便會守護好我所珍視的一切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 2,
-			say = "这便是我的正义！",
+			say = "這便是我的正義！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

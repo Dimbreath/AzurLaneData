@@ -54,6 +54,7 @@ function slot0.OnInit(slot0)
 	slot0.floorPaperModel = BackYardPaperModel.New(slot0:findTF("bg/floor"), BackYardPaperModel.PAPER_TYPE_FLOOR)
 	slot0.msgBoxWindow = BackYardMsgBox.New(slot0:findTF("msg_box"))
 	slot0.furnitureDescWindow = FurnitureDescWindow.New(slot0:findTF("desc_panel"))
+	slot0.dynamicBg = BackYardDynamicBg.New(slot0._tf.parent)
 	slot1 = slot0:IsVisitMode()
 
 	setActive(slot0.decorationBtn, not slot1)
@@ -460,7 +461,7 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 				end
 			end)
 		elseif uv0:isTouchSpine() then
-			slot0, slot1, slot2, slot3 = uv0:getTouchSpineConfig()
+			slot0, slot1, slot2, slot3, slot4, slot5 = uv0:getTouchSpineConfig()
 
 			uv2:TouchSpineAnim(function ()
 				uv0:emit(BackyardMainMediator.ON_REMOVE_MOVE_FURNITURE, uv1.id)
@@ -473,6 +474,10 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 					else
 						uv1:disableEffect(uv0)
 					end
+				end
+
+				if uv2 then
+					uv1.dynamicBg:Switch(slot0, uv2, uv3.iconTF)
 				end
 			end)
 		end
@@ -607,6 +612,12 @@ function slot0.removeFurn(slot0, slot1)
 		for slot5, slot6 in pairs(slot1:getShipExtra()) do
 			slot0.shipsView:CancelInterAction(slot6)
 		end
+	end
+
+	if slot1:isTouchSpine() then
+		slot2, slot3, slot4, slot5, slot6, slot7 = slot1:getTouchSpineConfig()
+
+		slot0.dynamicBg:ClearByName(slot7)
 	end
 
 	slot0.furnitureModals[slot1.id]:Clear()
@@ -952,6 +963,7 @@ end
 
 function slot0.OnWillExit(slot0)
 	slot0.shipsView:Destroy()
+	slot0.dynamicBg:Dispose()
 
 	for slot4, slot5 in pairs(slot0.followeModals) do
 		slot5:Clear()

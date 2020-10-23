@@ -82,12 +82,10 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
-			"<color=#ffde38>俾斯麥</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>英王喬治五世</color>：0.5%",
-			"<color=#d797ff>U-556</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z36</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>U-73</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>回聲</color>：5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>阿拉巴馬</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>巴爾的摩</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>伯明罕</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>艾爾文</color>：5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

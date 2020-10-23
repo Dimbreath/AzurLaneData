@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "哎嘿嘿，货物平稳送达~",
+			say = "哎嘿嘿，貨物平穩送達~",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "大家护航辛苦了",
+			say = "大家護航辛苦了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "咦，孟菲斯？妳不是留在司令部进行会议准备么",
+			say = "咦，曼非斯？妳不是留在司令部進行會議準備嗎",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -63,7 +63,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102160,
-			say = "为了筹备会议嘛...物资调配，布防调整的资料报告，人员联络的事项...要准备的工作像山一样多！",
+			say = "為了籌備會議嘛...物資調配，布防調整的資料報告，人員聯絡的事項...要準備的工作像山一樣多！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "现在司令部又人手紧张，我就只好过来顶一下啦...我的周末啊...咳咳，失态了！",
+			say = "現在司令部又人手緊張，我就只好過來頂一下啦...我的周末啊...咳咳，失態了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，不用这么拘谨，妳们也辛苦了。",
+			say = "哈哈哈，不用這麼拘謹，妳們也辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102160,
-			say = "企业，按照原计划妳们要与冲突海域的克利夫兰舰合流，之后前往护卫指挥官的舰队对吧？",
+			say = "企業，按照原計劃妳們要與衝突海域的克里夫蘭艦合流，之後前往護衛指揮官的艦隊對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！接下就要去和克利夫兰姐姐的舰队汇合了！",
+			say = "沒錯！接下就要去和克里夫蘭姐姐的艦隊匯合了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，确实是。",
+			say = "欸，確實是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那之后的计划可能要变动一下了，这里有一份司令部下达的特别作战计划",
+			say = "那之後的計劃可能要變動一下了，這裡有一份司令部下達的特別作戰計劃",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特别作战计划...？没听说过啊",
+			say = "特別作戰計劃...？沒聽說過啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102160,
-			say = "关于护航舰队，司令部已经与指挥官重新进行了安排，请不用担心。",
+			say = "關於護航艦隊，司令部已經與指揮官重新進行了安排，請不用擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102160,
-			say = "其它情况我也不是很清楚，总之先看一下文件吧",
+			say = "其它情況我也不是很清楚，總之先看一下文件吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102160,
-			say = "如果要进入危险区域作战的话，一定要注意装备保养和物资补给哟",
+			say = "如果要進入危險區域作戰的話，一定要注意裝備保養和物資補給喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的孟菲斯比往常还要热情啊...",
+			say = "今天的曼非斯比往常還要熱情啊...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特别热情...么？",
+			say = "特別熱情...嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102160,
-			say = "呼呼，可能是受到热烈气氛的调动，我不知不觉中鼓起精神了吧~",
+			say = "呼呼，可能是受到熱烈氣氛的調動，我不知不覺中鼓起精神了吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102160,
-			say = "那么，司令部的指令就算传达完毕，我还有别的工作要做就先失陪了。",
+			say = "那麼，司令部的指令就算傳達完畢，我還有別的工作要做就先失陪了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "唔...根据作战计划，我们需要前往塞壬威胁等级4的海域执行侦察任务",
+			say = "唔...根據作戰計劃，我們需要前往塞壬威脅等級4的海域執行偵察任務",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请大家充分检查装备和补给情况，整备结束后就出发。",
+			say = "請大家充分檢查裝備和補給情況，整備結束後就出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "装备和补给呐...顺便也给克利夫兰姐姐带点补给好了~",
+			say = "裝備和補給啊...順便也給克里夫蘭姐姐帶點補給好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我记得附近的特产----",
+			say = "我記得附近的特產----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

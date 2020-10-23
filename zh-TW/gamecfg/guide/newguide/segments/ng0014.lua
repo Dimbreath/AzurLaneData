@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击help按钮查看限界挑战帮助！",
+				text = "點擊help按鈕查看限界挑戰幫助！",
 				mode = 1,
 				dir = -1,
 				posY = -63.794,

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "白鹰近海 安全海域 Risk 0",
+			say = "白鷹近海 安全海域 Risk 0",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "塞壬威胁等级（Risk）为0么？嗯，确实是片平静的海域。",
+			say = "塞壬威脅等級（Risk）為0嗎？嗯，確實是片平靜的海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在白鹰本土近海举行演习，确实会带来诸多不便...本次白鹰能同意安排这场临行前的演习，真是万分感谢。",
+			say = "在白鷹本土近海舉行演習，確實會帶來諸多不便...本次白鷹能同意安排這場臨行前的演習，真是萬分感謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我在皇家作战时就一直听到企业小姐的事迹，借此机会，无论如何都想与妳较量一番！",
+			say = "我在皇家作戰時就一直聽到企業小姐的事蹟，藉此機會，無論如何都想與妳較量一番！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "无需拘礼，威尔士小姐。白鹰和皇家是并肩战斗的盟友，这点要求自然完全没有问题",
+			say = "無需拘禮，威爾斯小姐。白鷹和皇家是並肩戰鬥的盟友，這點要求自然完全沒有問題",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "况且我个人也十分期待与皇家的各位一较高下",
+			say = "況且我個人也十分期待與皇家的各位一較高下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么就让我们在此约定：本次演习，双方皆需全力以赴，绝不可做出放水之事",
+			say = "那麼就讓我們在此約定：本次演習，雙方皆需全力以赴，絕不可做出放水之事",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哼哼哼，就让本人领教一下白鹰舰队的实力吧！",
+			say = "哼哼哼，就讓本人領教一下白鷹艦隊的實力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我明白了。白鹰诸位，勇往直前！",
+			say = "我明白了。白鷹諸位，勇往直前！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

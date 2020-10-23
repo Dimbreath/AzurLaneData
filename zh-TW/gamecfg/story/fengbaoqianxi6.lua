@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "白鹰近海 警戒海域 Risk 3",
+			say = "白鷹近海 警戒海域 Risk 3",
 			side = 2,
 			dir = 1,
 			bgm = "battle-boss-4",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额...Risk 3？地图上是不是标错了",
+			say = "呃...Risk 3？地圖上是不是標錯了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实，现在遇到的塞壬实在太弱了，完全不像威胁等级3的样子...",
+			say = "確實，現在遇到的塞壬實在太弱了，完全不像威脅等級3的樣子...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来指挥部的情报正确无误，某些海域中的塞壬主力舰队确实正在消失",
+			say = "看來指揮部的情報正確無誤，某些海域中的塞壬主力艦隊確實正在消失",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怪不得最近作战这么顺利，塞壬终于开始逃跑了嘛！",
+			say = "怪不得最近作戰這麼順利，塞壬終於開始逃跑了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出现这种现象的原因指挥部尚在调查之中，还不能确定塞壬做出这种行动的真实意图",
+			say = "出現這種現象的原因指揮部尚在調查之中，還不能確定塞壬做出這種行動的真實意圖",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我们确实因此夺回了大片海域，总归是件好事嘛~",
+			say = "不過我們確實因此奪回了大片海域，總歸是件好事嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...在海域拓宽的同时，我们有限的兵力也变得更加分散",
+			say = "...在海域拓寬的同時，我們有限的兵力也變得更加分散",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我有种超不好的预感，塞壬绝对在计划些什么...",
+			say = "我有種超不好的預感，塞壬絕對在計劃些什麼...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "探明塞壬的目的也是我们作战任务的一环，大家保持警戒，继续前进吧。",
+			say = "探明塞壬的目的也是我們作戰任務的一環，大家保持警戒，繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
