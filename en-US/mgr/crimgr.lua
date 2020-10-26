@@ -117,7 +117,7 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 		slot4 = CriWareMgr.Inst:GetChannelData(uv0.C_BGM).curCueDataKey
 	end
 
-	CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+	CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_CROSS, function (slot0)
 		if slot0 == nil then
 			warning("Missing BGM :" .. (uv0 or "NIL"))
 		else
