@@ -10,31 +10,31 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「『星星』，是指引航路的灯火」</size>",
+					"A light that illuminates the way from up above. A star.",
 					1
 				},
 				{
-					"<size=51>「它有时是圣艾尔摩之火，有时是过洋牵星，有时则连名字都没有，默默无闻——」</size>",
+					"Sometimes referred to as St. Elmo's fire, other times as Stella Maris, and even as an unnamed guiding light...",
 					2
 				},
 				{
-					"<size=51>「在古老的传说中，『星星』是光也是火焰，守护着船只与旅人」</size>",
+					"According to legends passed down from yore, stars were beings of light or flame, ones that took ships and travelers alike under their protection.",
 					3
 				},
 				{
-					"<size=51>「而人们则吟唱赞美之歌，将满心的思念寄托于繁星」</size> ",
+					"<size=51>In return, people would pray and convey their feelings to the stars, raising songs of praise to the heavens above, in hopes they would reach their benefactors.</size> ",
 					4
 				},
 				{
-					"<size=51>「众人的思念化作无形的星星，散发深情而又崇高的辉光，一如舞台上的偶像」</size> ",
+					"<size=51>This image of stars, bolstered by the imagination of people, elevated them to beloved, admired guides of light. They were idols to be revered, shining brightly, high up in the sky.</size> ",
 					5
 				},
 				{
-					"<size=51>「北极星『Polaris』之外，照耀大海的星光，究竟又寄托着何种情感？」</size> ",
+					"Many stars besides Polaris shine brightly upon the sea. What kinds of hopes and dreams do these stars carry?",
 					6
 				},
 				{
-					"<size=51>「敬请欣赏，属于你们的故事——」</size> ",
+					"<size=51>Listen closely, my child. For your story is about to unfold...</size> ",
 					7
 				}
 			}

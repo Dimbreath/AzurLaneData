@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "――！",
+			say = "SHWIIING!",
 			side = 2,
 			dir = 1,
 			bgm = "song07",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701050,
-			say = "好，好耀眼！不仅仅是舞台效果，就连恶毒本人也…！",
+			say = "Holy smokes! Le Malin is practically gleaming, and not just thanks to the stage lighting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207110,
-			say = "没想到，那个孩子认真起来竟然能展现到这种程度…",
+			say = "To think she could produce such a dazzling performance if she just sets her mind to it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是啊，完全低估了她……",
+			say = "You said it. We underestimated her, bigtime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "而且，不仅舞台演出，舰装和布景的布置也十分的优雅……所有一切保持着贯穿全场的一致风格。",
+			say = "Her theme, her moves, heck, even her rigging were like elegance itself given physical form. It all came together so seamlessly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不光是这样…从那温柔的声音中，在场的所有人都能听出她正在尽着自己最大的努力…",
+			say = "Not only that, her soothing vocals clearly conveyed just how much effort she is exerting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202280,
-			say = "让我想起了努力的天狼星的模样……",
+			say = "Her expression reminded me of Sirius' when she's giving it her all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那就跟她战斗到安可，凭耐力取胜吧…！",
+			say = "We'll just have to match her with an encore. It's an endurance competition now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我已经很累了……不行了，一点也动不了了……",
+			say = "Uuughh, I'm exhausteeeed... I'm done. Just let me lie down...",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐……",
+			say = "Oh dear! Malin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起姐姐，都是因为我的自私才……",
+			say = "I didn't wish for you to wear yourself out... I apologize for pushing you too hard, sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "凯旋…………",
+			say = "Please, Triomphant, I'll be fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "虽说凯旋说过「想看到恶毒在大家面前闪亮登场的姿态」，要不这里还是算了……",
+			say = "It seems Le Malin is at the end of her rope... As they say: the flame that burns twice as bright burns half as long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……………不，还能再坚持一会。",
+			say = "...No, not yet. The flame within me has not yet spent all its fuel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（为了凯旋，再、再努力一会……）",
+			say = "(Just for you, sister, I shall push myself to keep going.)",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205012,
-			say = "哼哼，这是厌战准备的超一流布景和器材！好好见识下女王的力量吧！",
+			say = "Hohoho! We present you with this brilliant stage dressing, made possible by the lavish props assembled by Warspite!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205022,
-			say = "真不愧是陛下。",
+			say = "Thank you, Your Majesty. It is a brilliant stage indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常感谢您，能满足我任性的要求，给予这么多的支持……",
+			say = "I am indebted to you both. Thank you for assisting us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，这也是为了炒热现场气氛——",
+			say = "It is all in the name of making this competition more entertaining, but you're welcome nevertheless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "等等，这下不妙了…",
+			say = "Hmm. This might not be such a good idea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿尔及利亚？",
+			say = "What makes you say that, Algérie?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "如果就这样开始安可的话，恶毒可没法一直维持现在的状态。",
+			say = "If they force an encore, it's only a matter of time before Le Malin runs out of stamina.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "没想到光辉她们竟然能坚持到现在……只能使用最后的手段了。",
+			say = "It seems we have no choice. We need to use our trump card already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "恶毒，能听到吗？ 只剩下一首歌哦了！ 敦刻尔克的糖果在等着你哦！",
+			say = "Malin! Just one more song, and you'll be done! We have a box of Dunkerque's pastries waiting for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

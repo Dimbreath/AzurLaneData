@@ -16,7 +16,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈，哈，哈……结束了…！",
+			say = "*pant*... *pant*... I think... this is it for me... Oof!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是，是啊……",
+			say = "So it would seem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "光辉小姐…还有大家，都辛苦了！",
+			say = "Splendid work, everyone! We made a spectacular comeback!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "总、总算是赢了……这个和平常的恶毒也太不一样了吧…",
+			say = "Yeah, somehow... Le Malin put up a hell of a fight. I thought with how lazy she normally is, she'd be a pushover!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "「μ兵装」的输出竟然还能提升到这个水平……",
+			say = "Guess the Muse System really can work miracles, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "她的言行举止，和平常完全判若两人……",
+			say = "It was almost as though she'd been possessed... until she fell over, at least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，并且可以肯定那不是双重人格。恶毒全力以赴，拼命努力，她的感情通过「μ兵装」得到了体现。",
+			say = "This was no case of possession, Dido. Le Malin was simply performing with all her body and soul. The Muse System was amplified by her passion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这么说，如果「实力由感情反映」的话，我们这边「感情」差点就输给她了…",
+			say = "If passion equals power, then I guess that means we were nearly out-passioned by her. That's not exactly encouraging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "………………",
+			say = "...…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（难道，是塔什干只想着「努力」，缺乏了「感情」？）",
+			say = "(Could that be why I was underperforming? Have I been trying too hard and lacked heartfelt passion as a result?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（其他人在想着同志酱的事情，或者心中有着某种目标，但塔什干……）",
+			say = "(They're all doing it for our dear comrade, or for some other personal reason, while I just...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "难道，这次参赛者的兵装本身就有一些性能上的差异……",
+			say = "Maybe, but what if some of the teams just got more powerful riggings than others? What if we drew the short straw?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所提出的机能，可以肯定不包含在「μ兵装」中",
+			say = "Muse System does not function as proposed. Posited theory has no logical basis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「μ兵装」的力量来源于歌曲，即，人的情感。「情感」无法完全数值化，亦不可能实现舰装受感情增幅的精确控制。",
+			say = "Assessment: the Muse System is a military instrument that converts emotion into weaponized energy. As \"passion\" is an unquantifiable property, its utilization by the Muse System is impossible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你们是——",
+			say = "Huh? Wait a minute, aren't you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			blackBg = true,
 			actor = 307110,
 			nameColor = "#a9f548",
-			say = "（「μ兵装」就是把感情寄与歌中，赋予它们力量的东西）",
+			say = "(The Muse System is fueled by one's emotions, is it?)",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -319,7 +319,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（{namecode:97}对指挥官的感情比谁都强烈，那么就不可能发挥不出它最强的性能）",
+			say = "(If that is true, then this grants me unparalleled power! Nobody, and I mean nobody has more passionate feelings for my Commander than I do!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			blackBg = true,
 			actor = 307110,
 			nameColor = "#a9f548",
-			say = "（哼哼……指挥官，请等待{namecode:97}的完美舞台吧♡）",
+			say = "(Yes, I am truly in a league of my own! Oh, my Commander, come my time to perform, I shall prove it to you!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

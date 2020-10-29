@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区・观众席",
+			say = "Port - Among the crowd",
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
@@ -26,7 +26,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐！大家都好厉害呀！和刚才完全不一样的感觉欸！",
+			say = "Whoa! Look, sis! They're singing on a whole new level than before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……会场这么热闹，挺好的。",
+			say = "They really are... Guess they're getting fired up. Good for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 401463,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此，只要打开魔眼，就能完成这样的舞台啊。",
+			say = "Ah. With the trammel of the heart removed, their songs have attained an unprecedented level of groove.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？Moyan？什么？怎么回事？",
+			say = "What? Did you just say \"camel of the heart?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 401463,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "当负有盛名的偶像释放出深渊的力量时，她的眼睛里会充满激情的光芒，魅惑所有看到它的人。",
+			say = "Trammel. 'Tis a shackle that keeps the heart under lock and key, denying the very soul its uninhibited emotional liberty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 401463,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "但我似乎没有唤醒成为偶像的我身上的这种力量，即使是暂时也做不到。",
+			say = "Ridding oneself of it is the wish of all idols. I have yet to do, however, and find myself upon the endless staircase of recital.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}，你听懂Z46说的话了吗！？",
+			say = "...Ayanami, do you get what she's trying to say? Because I don't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大概明白。{namecode:6}在手臂隐隐作痛的时候也可以使用「魔眼」。",
+			say = "I get the gist, yes. I sometimes unshackle my heart too if the situation calls for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 201216,
+			actor = 401236,
 			side = 2,
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一会儿得找Z36好好聊一聊了……",
+			say = "Sounds like Z36's been giving you all weird ideas...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "终于，到演唱会了…直接就叫演唱会真的没问题喵…？…请继续期待，马上就是大会的最高潮喵！",
+			say = "The megaconcert – can we just call it megaconcert, by the way? – is approaching its climax, nya!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今晚的舞台上，究竟哪个组合最耀眼喵？",
+			say = "Which of our troupes will remain dazzling at the end of the night, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是展现了最优雅的舞台表演，恶毒的solo组合「Lumière」吗！",
+			say = "Will it be the exceptionally elegant solo unit Lumière, led by Le Malin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是上届比赛的实力选手，大家都热爱的组合「Polaris」吗！",
+			say = "Maybe it will be smash hit, fan-favorite from last time, Polaris?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是由巴尔的摩、光辉、黛朵、大青花鱼、塔什干五人组成的实力强劲的新组合「Astrum」吗！",
+			say = "Perhaps the all-star team composed of Baltimore, Illustrious, Dido, Albacore, and Tashkent, the amicable Astrum!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是状态绝佳，正在等待最后阶段的挑战者的{namecode:97}和罗恩组合「Verheerender」吗！",
+			say = "Or will it be Roon and Taihou, the Verheerender duo, who have already made it to the end and await new challengers?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "答案即将揭晓喵——！",
+			say = "Let us find out, nyaaaaaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

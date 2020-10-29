@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？・？？？",
+			say = "Location unknown - Time unknown",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -37,7 +37,7 @@ return {
 			blackBg = true,
 			actor = 900232,
 			nameColor = "#ff5c5c",
-			say = "数据收集完毕。这样就又成功回收了一份呢。",
+			say = "Data compilation complete. And so, another legacy has been documented.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "费了不少功夫啊。这种任务有必要花那么多精力去做吗？",
+			say = "Only took us like a million years. Sure, it's a task from the depths of the repository, but does it really take that much computing power?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			blackBg = true,
 			actor = 900232,
 			nameColor = "#ff5c5c",
-			say = "艺术可不仅仅是结果。过程也是不可或缺的哟。",
+			say = "There's more to art than the final product, you know. Reproducibility is an important element as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			blackBg = true,
 			actor = 900232,
 			nameColor = "#ff5c5c",
-			say = "否则我们和单纯的数据库有什么区别？",
+			say = "Or are you saying that there's some error within our database?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "不想和你争这个，这个话题到此为止。",
+			say = "Ugh, I forgot how pointless it is to argue with you. Whatever, forget I said anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			blackBg = true,
 			actor = 900232,
 			nameColor = "#ff5c5c",
-			say = "哦，你确定吗？我还准备听听你的观赏感想呢？",
+			say = "Oh, you're dropping the topic? Shame. I was hoping to hear about your little vacation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "哈？",
+			say = "My what now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			blackBg = true,
 			actor = 900232,
 			nameColor = "#ff5c5c",
-			say = "构建者都看到了哦，你其实一直偷偷摸摸地乐在其中吧。",
+			say = "Conductor saw you. Said you were really enjoying yourself. You thought we wouldn't find out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "…………………",
+			say = "...…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			blackBg = true,
 			actor = 900232,
 			nameColor = "#ff5c5c",
-			say = "我要回去工作了。别担心，这种小事告诉别人也没有意义就是了。",
+			say = "Would you look at the time, I need to get back to work. Don't worry, I'll keep your little misbehavior a secret. I've nothing to gain from reporting it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "…………………是是是。",
+			say = "...Uh-huh. Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

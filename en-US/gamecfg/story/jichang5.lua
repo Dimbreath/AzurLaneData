@@ -14,7 +14,7 @@ return {
 			bgm = "idol-BlueSpirit-inst",
 			actor = 701050,
 			nameColor = "#a9f548",
-			say = "（这样我就能明白这个组合的成员各自都有怎样的问题了）",
+			say = "(I think I've figured it out. The problems each member has.)",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,8 +39,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 103250,
-			actorName = "塔什干（μ兵装）",
-			say = "（巴尔的摩正在苦恼自己不够可爱，在大家中间显得太过突兀）",
+			actorName = "Tashkent μ",
+			say = "(Baltimore worries that she's out of place, because she's not cute enough to be an idol.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 207110,
-			actorName = "塔什干（μ兵装）",
-			say = "（光辉不太擅长舞蹈，并且她还没弄明白「偶像」究竟是职业还是工作）",
+			actorName = "Tashkent μ",
+			say = "(Illustrious isn't particularly good at dancing, and doesn't get what being an idol entails.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,8 +73,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 108050,
-			actorName = "塔什干（μ兵装）",
-			say = "（大青花鱼……这孩子的脑袋转的太快了，一般人根本跟不上）",
+			actorName = "Tashkent μ",
+			say = "(Albacore... It's too hard for everyone else to keep up with her brain's RPM.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,8 +90,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 202280,
-			actorName = "塔什干（μ兵装）",
-			say = "（黛朵的问题就是……不够自信）",
+			actorName = "Tashkent μ",
+			say = "(And Dido... has no confidence in herself, whatsoever.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塔什干的问题是太过沉迷于工作模式，不会享受————",
+			say = "And Tashkent is so focused on work, she's not having any fun~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欸？！",
+			say = "Wah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，对不起，对不起，我不是故意吓你的……刚刚的备忘是根据大家的情况总结出来的么？",
+			say = "Oops. Sorry, I wasn't trying to surprise you... So, you're taking notes on all of us, I see?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我觉得应该可以用的上，正打算给巴尔的摩她们看看呢。",
+			say = "I thought they'd be useful for our lessons. I was planning on sharing them with Baltimore as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此～那么可以拜托你一件事吗？",
+			say = "All righty then. Think I could ask you a favor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……什么事？",
+			say = "...A favor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼，能帮我调查一下现在其他队伍的情况么~？",
+			say = "Yep! I was wondering if you could look into lesson plans and into other units for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你自己去不就行了么，大家都知道这种事是大青花鱼最擅长的啊。",
+			say = "Can't you do that yourself? Everyone knows your specialty lies in sneaky information-gathering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "所以我才会被她们一直警惕着呀！",
+			say = "And that's exactly why everyone is on guard whenever I'm around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这样……",
+			say = "Is that so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "先说好，收集信息虽然可以，像大青花鱼那样恶作剧可不行哦？",
+			say = "Just so you know, gathering intel is fine and dandy, but don't you go around pulling pranks on others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不用担心， 这些塔什干都知道。",
+			say = "I see that you're a worrywart. Fret not, of course I know that much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不，我的意思是大青花鱼可能会在你不知情的时候搞恶作剧……",
+			say = "No, it's more because sometimes, Albacore messes with others without ever being found out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果不嫌弃的话，请让黛朵也来帮忙吧？",
+			say = "If it wouldn't be a bother, would you mind if I helped out as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我也去问问皇家的各位吧。",
+			say = "I can help ask around with the Royal Navy girls as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "光辉、黛朵，有你们帮忙我就放心了。事不宜迟，让我们开始行动吧!",
+			say = "Thanks, you'd both be doing us a huge service. All right, let's head out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

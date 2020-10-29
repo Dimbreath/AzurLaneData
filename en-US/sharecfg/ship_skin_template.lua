@@ -24361,6 +24361,101 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107230] = {
+		name = "Princeton ",
+		ship_group = 10723,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "独立级航空母舰-普林斯顿，舷号CVL-23",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "pulinsidun",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 107230,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "pulinsidun",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.384,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					1.439,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
 	[107290] = {
 		name = "Bataan",
 		ship_group = 10729,
@@ -114926,7 +115021,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900231] = {
-		name = "净化者",
+		name = "Purifier ",
 		ship_group = 900231,
 		group_index = 0,
 		illustrator2 = -1,
@@ -115034,7 +115129,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900232] = {
-		name = "观察者",
+		name = "Observer ",
 		ship_group = 900232,
 		group_index = 0,
 		illustrator2 = -1,
@@ -115142,7 +115237,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900233] = {
-		name = "净化者",
+		name = "Purifier ",
 		ship_group = 900233,
 		group_index = 0,
 		illustrator2 = -1,
@@ -128457,6 +128552,9 @@ pg.ship_skin_template = {
 			107221,
 			107222
 		},
+		[10723] = {
+			107230
+		},
 		[10729] = {
 			107290,
 			107291
@@ -130588,6 +130686,7 @@ pg.ship_skin_template = {
 		107220,
 		107221,
 		107222,
+		107230,
 		107290,
 		107291,
 		107380,

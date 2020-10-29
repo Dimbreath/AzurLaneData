@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "song07",
-			say = "港区・演出会场",
+			say = "Port - Concert Venue",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「Verheerende」和「Astrum」两者势均力敌喵！这下只能打成平手了喵？",
+			say = "It looks like Verheerende and Astrum are perfectly evenly matched, nya! Will we need to declare a tie, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突，突然有新的情报喵！…在最后的舞台上，竟然会有全体登场的环节喵！",
+			say = "...Hang on, nya! A message just came in! Seems all participants are back in the game for this last match, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前的时候没能完成的大家一起的收尾节目，就在这次补上喵！ 所有还在演习海域的舰船和需要重新出击的舰船，请赶紧来到舞台上喵！",
+			say = "We're ending with a bang to compensate for the subpar conclusion of the last trial, nya! Everyone that's still in the exercise are: rush on over to the stage if you want one last chance, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是打算最后来个盛大的收场吗？真不错啊~",
+			say = "Thou insist on as explosive a finish as this? Very well, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 206035,
 			nameColor = "#a9f548",
-			say = "独角兽…要去给光辉姐姐加油…！",
+			say = "I've got to go and support Illustrious! She needs all the help she can get!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 201234,
 			nameColor = "#a9f548",
-			say = "好啊～我也想近距离看光辉跳舞呢♪",
+			say = "Are thou, now? Why, that I do wish to see for myself. Go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 401463,
 			nameColor = "#a9f548",
-			say = "已经与吾友联系好了。让我们进入下一个战场吧——被称为「舞台」的战场。",
+			say = "So be it; let us see what the fates have in store. My friends, I call upon you once more.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "深渊黑鲨，准备出击了哦。嘎哦——",
+			say = "Raaawr. Lord of Sharkness reporting iiiin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，Z46等一下！Z36她……",
+			say = "Wait a sec, 46! We still haven't heard back from 36!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 401360,
 			nameColor = "#a9f548",
-			say = "对不起，对不起！刚刚被Z23抓住了……",
+			say = "I just got here, sorry! 23 was giving me an earful back there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 401463,
 			nameColor = "#a9f548",
-			say = "魔眼使用者是否也能被蛊惑魔眼的魅力所吸引？",
+			say = "Imply you, my friend, that she controls the key to the trammel of the ear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 401360,
 			nameColor = "#a9f548",
-			say = "欸？",
+			say = "The... The what? Camel of the ear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			actor = 801010,
 			nameColor = "#a9f548",
-			say = "我们感谢女王陛下的厚意。还有，厌战大人，谢谢你为我们在准备工作上的协助。",
+			say = "I am forever in your debt, Your Highness and Miss Warspite. This would not be possible without your kind assistance.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 205022,
 			nameColor = "#a9f548",
-			say = "不用谢。不过，我也没想到恶毒会愿意再次登台。",
+			say = "There's no need to thank us. I must say though, I am quite surprised that Le Malin has the energy to get back on stage already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#a9f548",
-			say = "呼呼，她也有守规矩的一面啦。",
+			say = "Where she draws her power from is a mystery. In any case, it's delightful to see her back in business.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可不要忘记我借你们舞台的条件哦！",
+			say = "Now don't forget the conditions under which we lease you our props and equipment, you hear?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，是让陛下和姐姐在「伊丽莎白女王舞台」上同台表演对吧？",
+			say = "Certainly not, Your Highness. You shall stand right next to Le Malin during the performance, this I guarantee you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actor = 201099,
 			nameColor = "#a9f548",
-			say = "不要…大家都准备了超厉害的服装，而我们却……",
+			say = "*sigh*... Look at the fancy stuff everyone's wearing! And we're stuck with this...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，新月……",
+			say = "Hey, it's the best we have, Crescent! Don't be so negative about it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸……你们不要再争啦～",
+			say = "Umm... C-could we not argue? Please?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么哈曼也要上台啦！",
+			say = "Why do I have to go up on stage? This is so humiliating I could just die!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵喵偶像，明明很可爱？",
+			say = "But... cat idol... cute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			actor = 101264,
 			nameColor = "#a9f548",
-			say = "彗星她们的服装，也很可爱。",
+			say = "C-class sisters outfits... also cute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁！……真，真没办法……我们跟你一起去就是了！",
+			say = "R-really? Well, if you insist, I guess we just have to give it a try then! Come on, let's go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,8 +479,8 @@ return {
 			bgName = "bg_jichang_5",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "塔什干（μ兵装）",
-			say = "结果大家都聚集过来了……",
+			actorName = "Dido μ",
+			say = "Wow, uh, there's a big crowd of people gathering...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -508,12 +508,12 @@ return {
 			}
 		},
 		{
-			actorName = "大青花鱼（μ兵装）",
+			actorName = "Albacore μ",
 			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为所有人都接到了通知，在这最后的时刻可以尽情地享受！",
+			say = "Not surprising when they just announced that we're ending with a free-for-all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,12 +524,12 @@ return {
 			}
 		},
 		{
-			actorName = "罗恩（μ兵装）",
+			actorName = "Roon μ",
 			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然总感觉这氛围太过和平，有些微妙…不过大家似乎都玩得挺开心，也算是件好事吧～",
+			say = "There's no doubt it will be fun for everyone involved. Though personally, I would've preferred a little more... bloodshed, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,12 +540,12 @@ return {
 			}
 		},
 		{
-			actorName = "鹩（μ兵装）",
+			actorName = "Taihou μ",
 			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你还真是，每次的发言都真的很可怕啊…",
+			say = "Must everything you say sound so threatening? It scares even me sometimes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,12 +556,12 @@ return {
 			}
 		},
 		{
-			actorName = "罗恩（μ兵装）",
+			actorName = "Roon μ",
 			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，{namecode:97}不也是这样么？",
+			say = "Does it? Aren't you quite similar in that regard?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,12 +572,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉（μ兵装）",
+			actorName = "Illustrious μ",
 			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后，就由我们给大家展示，最精彩的舞台演出吧！",
+			say = "Everyone together now! Let's sing for all the world to hear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,13 +588,13 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Everyone",
 			side = 2,
 			bgName = "bg_jichang_5",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "哦哦哦！！",
+			say = "Let's do it!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

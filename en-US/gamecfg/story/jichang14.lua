@@ -13,7 +13,7 @@ return {
 			bgm = "azumaster-ins",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "「μ兵装」实验暨偶像演唱会大赛还在进行中！",
+			say = "Welcome back, nya! We now return to our Muse System test run and conveniently coinciding idol showdown, nya!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一个接一个的参赛者们地登上舞台展示自己，现场气氛也狂热至顶点喵！让我们看看海域的情况怎么样了喵？",
+			say = "The crowd's excitement is through the roof after the dazzling show our participants have put on so far, nya! Let's have a closer look, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "μ兵装实验组合「Verheerender」，正高歌猛进喵！",
+			say = "On one side we have the imposing Verheerender duo, nya! If it's one thing they've shown they don't have, it's mercy, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来她们就要遇到「Polaris」和「Astrum」了！最后到底哪个组合会胜出，真是越来越扑朔迷离喵～！",
+			say = "And on the other, we have the troupes of Astrum and Polaris who just ran into one another, nya! It could end in a victory for either side, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "港区・演习海域",
+			say = "Port - Exercise Area",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，我们也不是专业的偶像，只是比你们更早接触到了「μ兵装」的感觉而已。",
+			say = "Well, we're not exactly pro idols either. We just have more experience with the Muse System than you guys, that's all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102240,
-			say = "不去过分在意「偶像活动作为工作」这一点的话，你们的表现一定能更好。",
+			say = "Oh, by the way, try not to think of this whole thing as \"serious idol business.\" Have fun with it and you'll perform better, trust me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你想着去清理害虫的时候肯定已经先开枪了——用牙买加的话来说，就是这样。",
+			say = "Indeed. I view this as an elaborate form of vermin extermination. Both my performance and enjoyment went up after I adopted such a mindset.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "谢菲，刚才的话有点难懂……",
+			say = "I'm afraid I don't quite understand what that means, Sheffy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重点在于「坦率」。作为一个组合的成员，大家要心往一处使。",
+			say = "Look, they're saying \"just be yourself.\" Oh, and teamwork makes the dream work, yadda yadda yadda.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403070,
-			say = "这样无论是舞蹈还是唱歌都可以合拍在一起。",
+			say = "As long as you're all on the same page, your choreography and singing will flow nicely together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "尤其是塔什干！",
+			say = "Sounds like something we'd better commit to memory. Right, Tashkent?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这样，我知道了。",
+			say = "Oh, I see. Will do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403070,
-			say = "（居然没有人来吐槽啊…感觉真微妙）",
+			say = "(Nobody's quipping at me for once... Feels pretty weird when you're as used to it as I am.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102240,
-			say = "啊，顺便提下，我们也一样遇到了恶毒和{namecode:97}她们，所以其实并不是给你们单独做培训啦。",
+			say = "Also, full disclose: we also explained all this to Lumière and Verheerender earlier when we ran into them. Just so you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202250,
-			say = "毕竟主人最不希望看到的事情，就是半途而废。",
+			say = "Thus, everyone knows. The Master does not wish for any one team to have an advantage over another, you see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此行为乃最大限度地发挥「μ兵装」性能的必要步骤。",
+			say = "Assessment: this information is instrumental to utilizing the Muse System to its fullest potential.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "谢谢你们，我们也正烦恼这件事呢。",
+			say = "We really appreciate it. All we knew was just guesswork until you guys came along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "将「感情」融入到歌曲中，这件事确实很困难……",
+			say = "Now, however, we have another problem: expressing our feelings through song does seem a difficult task...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是看起来很困难，其实很简单哦。",
+			say = "It might seem hard, but it's actually quite easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "{namecode:91}？",
+			say = "It is? Would you please elaborate, Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恶毒，以及{namecode:97}和罗恩的「感情」，已经再明确不过了。",
+			say = "If you want an example, just look at Le Malin, Roon, and Taihou. The source of their passion is clear as day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307100,
-			say = "一边是，对缔结羁绊的伙伴的感恩之情，以及让这种情感变得圣洁的高洁之心。",
+			say = "The former: the bond she shares with her sister, not to mention the strength of the bond itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一边则是，无处不在的，强烈而深刻的爱意",
+			say = "The latter: their unwavering will to fight for the one they love more than anything else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102240,
-			say = "（从{namecode:91}嘴里说出来的这话，非常地有说服力呢……）",
+			say = "(And wouldn't you know it, Akagi has both of those connections...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们的感情，又是什么样的呢？",
+			say = "What about you, Astrum? What passion drives you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

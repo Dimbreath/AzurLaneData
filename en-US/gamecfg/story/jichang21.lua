@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-WISHNESS-inst",
-			say = "港区・学园",
+			say = "Port - Academy",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光辉！你看见塔什干和大青花鱼了吗？",
+			say = "Hey, Illustrious, you seen Tashkent and Albacore around?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塔什干应该在教室里，但大青花鱼的话…不好意思，我也不知道她会在哪里……有什么事吗？",
+			say = "Tashkent I believe is in class at the moment, but I'm afraid I don't know where Albacore could be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "啊，倒也不是什么重要的事。就是有人问我是否愿意像上次演出一样继续使用那些兵装——也就是继续偶像活动。",
+			say = "Oh, all right. Just wanted to hear if she was gonna continue working as an idol. I had someone ask me about it, so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说来，我也听到了差不多的话…",
+			say = "You were? It so happens I was asked the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "和上次一样，似乎有不少人都想尝试一下。",
+			say = "What do you know. Apparently, tons of people wanna have a shot at it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你怎么看 我想参考一下你的想法。",
+			say = "So I've heard. What about you, Baltimore? Will you continue as an idol?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还没有决定好。之前我们一直忽视了帮忙的大家，我觉得隔一段时间再来思考这个问题也无妨。",
+			say = "I've got some catching up to do on my hero side-gig, so I'll sleep on it for a bit before I decide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实是这样呢。",
+			say = "Ah, I understand. It's not a decision made lightly, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "欸欸！你说「除非指挥官或凯旋要求我这样做，否则我绝对不干」？？",
+			say = "You're kidding! You're seriously done being an idol forever unless the Commander or Le Triomphant beg you for it?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 901110,
 			nameColor = "#a9f548",
-			say = "是的。光是回忆起这些事情就已经够累的了……",
+			say = "Yes, I've had enough of it. Just thinking about it makes me tired. Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和{namecode:97}还有塔什干的回答差不多啊～",
+			say = "You know, it's funny, 'cause Taihou and Tashkent both said pretty much the same thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "（恶毒的话，大概是真的不想再做了吧。）",
+			say = "(Although unlike them, I guess you REALLY don't wanna do it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "（咚咚）",
+			say = "*knock knock*",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，「μ兵装」演习实施报告已经整理好，请确认好哦。",
+			say = "Commander? I've finished up the report you asked for. Please, do give it a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这次活动我们玩得这么开心，是不是也该给它取个名字呢？一直叫某某演习难免会搞混呢…",
+			say = "Oh, by the way, perhaps we could come up with a better title for it? Leaving it as \"That One Test\" will surely cause unneeded confusion in the future...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的想法？让我想想……歌声，很多女孩像星星一样在舞台上闪耀……",
+			say = "What do I propose? Well, something to do with music, stars, and all everyone dancing on the stage together. Not quite sure yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "看来得好好想个名字了呢……",
+			say = "Roon has a point. We should brainstorm a title with a nice ring to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

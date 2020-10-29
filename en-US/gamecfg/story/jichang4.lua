@@ -12,7 +12,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼……总之就是这样的感觉吧。",
+			say = "Whew... So that's what it feels like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "大家辛苦了。",
+			say = "Good job, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "我为大家准备了一些点心饮料之类的，要来点吗？",
+			say = "How about we take a break for some biscuits? It so happens I brought some with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哦，那我就不客气了！塔什干要不要？",
+			say = "Whoa, thanks a bunch! Tashkent, you want some? Or can I cop myself a second helping?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我也要！",
+			say = "I-I'm going to have some too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那大家都稍微休息一下吧~",
+			say = "All right! Everyone, let's take a short break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "在正式开始之前先排练一遍真是正确的选择…",
+			say = "It sure was a good idea to check out the rigging first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是的……虽然大家都能很好地使用自己的舰装，不过……",
+			say = "It really was... Though we had no issues using the equipment, um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "果然，问题还是在于「偶像」啊。",
+			say = "I guess the problem is really the \"idol\" part.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "「偶像」么…？",
+			say = "The \"idol\" part...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唉，上次「Polaris」的演出你也看了吧，我们现在的合作无论如何也达不到她们的水平啊……",
+			say = "Yeah. Earlier, I was watching one of Polaris' previous concerts. With the way our coordination is right now, there's no way we'll be able to reach their level any time soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "饮料来了哦，光辉小姐，巴尔的摩小姐。",
+			say = "Here's a drink for you, Miss Illustrious, and one for you, Miss Baltimore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "谢谢……啊，黛朵，可以问你一个问题吗？",
+			say = "Thank you. Oh, Dido. Can I ask you something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "请问有何吩咐…？",
+			say = "And what might that be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "在参加上次「μ兵装」测试的时候，谢菲尔德参加了什么样的课程呢？",
+			say = "I know that Sheffield was part of the previous Muse System unit, so I was wondering: do you know what kinds of lessons they took to prepare for their performance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔，黛朵听说的是……",
+			say = "Well, from what I've heard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此，和我想的大相径庭……",
+			say = "I see. It's almost nothing like what I expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此，和我想的完全一样……",
+			say = "I see. It's pretty much exactly what I expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "哇！大青花鱼，你什么时候过来的？",
+			say = "Gah?! Albacore, when did you get here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "从刚才开始就在了哦？大家都很好奇大人们偷偷聚集在一起是在讨论什么话题呢~",
+			say = "I've been here the whole time, though? I was curious what you grownups were talking about.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塔什干并不在意这些。",
+			say = "Me, I'm not interested in it at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎呀，又说那样的话啦～巴尔的摩，我们之后应该怎么办？",
+			say = "Are you reaaally gonna be like that? Anyway, well? What do you want us to do, Baltimore?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "如果我们想加快进度，首先要弄清楚大家各自擅长与不擅长的地方。",
+			say = "If we want to catch up, we're going to need to pinpoint our strengths and weaknesses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是啊。不仅仅是战斗，还要调查一下大家其他方面的问题点……",
+			say = "That sounds like a good idea. We need to look for places we struggle, both in and out of battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "那就这么决定了。首先让我们再做一些演习……不对，让我们再做一些排练吧~！",
+			say = "Well, I guess we have a plan now. Let's practice, er... rehearse, some more！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

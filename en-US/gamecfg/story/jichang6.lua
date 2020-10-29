@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "idol-BlueSpirit-inst",
 			nameColor = "#a9f548",
-			say = "为了以「μ兵装」联合演习为名的演唱会，各个阵营的舰船们都开始了自己的准备计划。",
+			say = "The girls have begun preparing for the competition, also called the Muse System joint exercise...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（首先，不仅仅是适应新舰装，还要学会做偶像的技巧）",
+			say = "(First, the lessons. Not only do I have to get used to this new equipment, but I also need to learn the various skills an idol must have.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是『小加加的声乐课程特别影像vol.1-15』吧！请收好~大家一起看也没问题哦！",
+			say = "Here you go! You were looking for \"Saratoga's Special Video Sessions: Vocal Lessons Vol. 1-15,\" right? Please watch them together with everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "感激不尽。这对于我们组合演出的成功至关重要……！",
+			say = "Yeah, thanks. My unit's performance depends on it, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺便也帮忙宣传一下小加加哦~！",
+			say = "It'd be great if you could spread the word of Saratoga's greatness while you're at it, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴尔的摩也在努力学习萨拉托加前辈的战斗方式么？",
+			say = "Are you trying to learn the way Saratoga fights as well, Baltimore...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（好像被微妙地误解了……）",
+			say = "(I feel like there's a misunderstanding brewing...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 202250,
 			nameColor = "#a9f548",
-			say = "接下来，请试着用一下这样的舞步。",
+			say = "Here. Try dancing like this.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -172,7 +172,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是这种感觉么……？",
+			say = "Hm... like... this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 206035,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "光辉姐姐，是这样的哦……",
+			say = "Um, it's actually... like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯……脚步有点……",
+			say = "Hm, these steps are a bit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（光辉小姐上重下轻，不擅长这种事也是可以理解的……）",
+			say = "(Miss Illustrious, I can sympathise... You're top-heavy, so these movements are bound to be difficult...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（啊，黛朵会不会不小心比光辉小姐更显眼了？虽然黛朵在这方面确实比光辉小姐擅长一些，但是……）",
+			say = "(Oh my, will I be able to stand out more than Miss Illustrious? Although I'm a bit capable at times, I don't know if...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样就很好哦，光辉小姐。这种「笨拙」也是「偶像」的魅力之一啊~",
+			say = "It's perfectly fine for you to stay just like that, Signorina. Your clumsiness can be your strength as an idol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎……是这样的么……？",
+			say = "Um... Is that so...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 201234,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就是这样♪独角兽和光辉都是在这一点上最可爱了~",
+			say = "そうよ♪ ユニコーンちゃんもイラストリアスもそういうところが一番可愛いからね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 206035,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇啊啊？！",
+			say = "Wha?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼…（看来可以安心了呢…）",
+			say = "Whew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 206035,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "光辉姐姐，加油……！",
+			say = "D-do your best, Illustrious...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这次的舞台概念是「Universe」不是很好么？",
+			say = "I think 'space' might be a fitting theme for the upcoming performance~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欸？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯？因为舰装就是这样的啊，搭配上闪闪发光的舞台不是很好么？",
+			say = "Hm? It's because of the equipment, you know? Wouldn't it be great if the performance was bright and sparkly, just like our equipment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…这样。虽然说得容易……我们…真的需要做到这一步吗？",
+			say = "Is that so. It's one thing to say so, but... is there any reason to push ourselves that much?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其实没有哦？不过如果能做到这一步的话一定会非常有趣吧！",
+			say = "Not really? But I think it'd be more interesting and exciting that way! Don't you think so too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（无、无法反驳……）",
+			say = "(I-I don't know how to respond...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此，参与「μ兵装」实验的三个组合，除了我们之外，还有{namecode:97}与罗恩以及鸢尾的一个组合。",
+			say = "I see, so there are three Muse System units participating in the competition. Besides us, there's a unit with Taihou and Roon, and a unit from the Iris Libre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是根据阵营的相性来进行组队的么…？",
+			say = "Are they teaming up because they're comfortable with each other...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这我就不知道了。",
+			say = "There's no way to know for sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "利托里奥也申请了，不过好像是被维内托阻止了……",
+			say = "It seems that Miss Littorio also wanted to apply, but Miss Veneto stopped her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（维内托说的「动机不纯」是什么意思呢……）",
+			say = "(I wonder what Miss Veneto meant by \"impure motives\"...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_jichang_1",
 			dir = 1,
 			hidePaintObj = true,
-			say = "就这样，舰船们的各项准备工作在稳步前进着。",
+			say = "And so, the girls made slow but steady progress towards their first live performance.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -593,7 +593,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "歌曲、编舞、演出舞台，还有这套服装……总之先准备到这种程度吧。",
+			say = "The song, choreography, stage directions, and costumes... I guess this should be enough for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "再怎么烦恼演出都不会自己开始，还是先演习一次比较好哦！",
+			say = "If you keep worrying, we'll never be able to start! Let's give this practice another go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "确实。既然方向已经决定，接下来只需要通过练习和彩排来提高水平了。",
+			say = "Sounds good. If we've decided on our course of action, all that's left is to take our lessons and practice during rehearsal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "光辉小姐，可以拜托担任「C位」吗？",
+			say = "Miss Illustrious, could you be the center of our unit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……没问题！请放心交给我吧！",
+			say = "...Yes! If you're fine with me being the center, please leave it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好~那我们再来练习一次！",
+			say = "All right! Let's practice one more time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

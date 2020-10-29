@@ -8,7 +8,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			say = "港区・演习海域",
+			say = "Port - Exercise Area",
 			dir = 1,
 			bgm = "idol-BlueSpirit-inst",
 			typewriter = {
@@ -26,7 +26,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（这就是「μ兵装」……利用音乐之力与心灵之力的兵装……主人托付给我的贵重之物……）",
+			say = "(So this is the Muse rigging... Equipment that utilizes the power of music and feelings... A precious item Master gave to me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（如果我的努力能帮到主人就好了……可是黛朵做得好偶像么……呜……）",
+			say = "(I want to work hard so I can be useful to Master, but... will I be able to be a proper idol...? Oh no...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（如果黛朵失败的话，就会被主人抛弃……）",
+			say = "(If I were to fail, Master would no doubt abandon me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "发生什么事了？从刚才开始你就在一个人烦恼着。",
+			say = "What's wrong, Dido? You look like you've been fretting over something for quite some time now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没，没什么…",
+			say = "I-it's nothing, really.…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "只是，黛朵只是一个女仆，能成为偶像真是不胜惶恐……",
+			say = "It's just that, it's both amazing and terrifying that a mere maid like me is going to be an idol...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这样。女仆队很辛苦呢，还要考虑到这种问题。",
+			say = "Is that so. The maid corps must have it hard, having to worry about things like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "也可能只是黛朵想多了……",
+			say = "...Perhaps I'm simply overthinking it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不管怎么说，既然参加了就必须要做吧？不去烦恼它的话对身心都更好哦。",
+			say = "Whatever it is, if you're going to take part in it anyway, you just have to go with the flow. It's best not to worry too much about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽说叫偶像活动，其实还是一项兵装实验测试。把它当成是一项简单任务就好了……",
+			say = "Though we're taking part in idol activities, in the end, it's just to test the Muse rigging. It might be better to just think of this like any other mission...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不懂如何当好偶像这点，也许大家都差不多吧。老实说，从预习列克星敦她们的视频开始，我就有点不安了。",
+			say = "You're not the only one without any idea of what you're doing. I took a look at a video of Lexington's group's performance earlier to help me prepare, and it made me feel a bit uneasy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我不知道自己能不能做到「可爱」这一点。",
+			say = "You know, wondering if it was possible for me to be as cute as they were, and all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过机会难得，既然要做，就要全力以赴，做到最好！",
+			say = "That said, this is a chance that was given to me. If I'm going to participate anyway, I'll give it my best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "对我来说，成为偶像的话，就能够通过歌声给大家带来爱与和平了。",
+			say = "Yes, that's right. As idols, we've received a wonderful chance to spread love and peace to the world through song.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而且独角兽也很期待呢，呵呵~",
+			say = "Even Unicorn was looking forward to this, hehe.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "独角兽也要参加这次的活动么？",
+			say = "Is Unicorn participating as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是的。而且独角兽一个人会有点紧张，所以也请了吸血鬼来照顾她",
+			say = "Yes. She seemed nervous about being alone, so I asked Vampire to help her out for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "其他阵营一共会有多少人参加呢？ 上次的活动北方联盟没有参加，我不太了解情况。",
+			say = "...So how many people from the different factions will be participating? The Northern Parliament wasn't on last time, so I'm not really sure what the situation is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "北方联盟这次只有塔什干参加吗？",
+			say = "Are you the only one from the Northern Parliament?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是的。另外，鸢尾那边还告诉我「希望塔什干在组内能连同鸢尾那份一起努力，鸢尾会单独成组参加本次活动」。",
+			say = "Yup. Also, the Iris Libre told me that they'd like for me to work extra hard on their behalf, and that they'd be participating individually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔唔唔……",
+			say = "Grr...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "果然有些在意吧？其他阵营和团队的立场之类的…",
+			say = "Aren't you curious? About the other factions, and the teams, and such.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "确实我也有点在意，不过眼下最该关心的还是我们自己的事情。",
+			say = "Of course I'm curious, but this isn't the time to be worrying about that stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然已经准备完毕，就让我们开始兵装实验演习吧！",
+			say = "All right, I'm all ready, let's get started. Muse System exercise, begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

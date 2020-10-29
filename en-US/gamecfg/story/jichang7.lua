@@ -12,7 +12,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈……哈……我想出来的编舞，怎么跳起来会这么累……",
+			say = "Whewie... I never expected the choreography I came up with to be this tiring...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再稍微重新设计一下会比较好吧……",
+			say = "It might be a good idea to revise it a bit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "咕呜呜……",
+			say = "Grr...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "像这样通过持续的练习来发现问题是理所当然哦。",
+			say = "It's okay, it's a given that we'll run into problems as we practice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些「Polaris」的孩子们以前也做了同样的事情，这些都是必要的经历。",
+			say = "The Polaris girls went through the same ordeals. It's not something we can avoid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，而且到现在为止都没有发现大的问题，说明我们的设计方向是正确的~",
+			say = "That's right. Also, we haven't run into any major issues yet. That must mean we're at least on the right track.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，就这样持续练习下去的话，很快现在的问题也就不再是问题了吧。",
+			say = "That's quite true. If we're able to continue with our lessons in this manner, even our current issues won't be problematic for us in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在台上的演出内容就先这样…",
+			say = "Even the performance on stage shouldn't be an issue if we keep it up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果在舞台上表现的更好，就可以更好地发挥μ兵装的性能，不要忘记这次任务的初衷哦。",
+			say = "If we perform better on stage than we do during practice, that'd mean we're overselling our equipment's performance. Make sure you don't forget the objective of our operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "关于这次的μ兵装，我还是有一些疑惑的地方…",
+			say = "There's still something I don't get about our equipment, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "疑惑的地方？",
+			say = "Something about our equipment...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "上次克利夫兰她们装备的 「μ兵装」，确实能让我们明白「会场气氛越兴奋性能就越高」这一点。",
+			say = "Cleveland's Muse System had a mechanism where the more excited the crowd got, the more power it could output.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让所有的观众的目光都集中在唯一的组合上，这无疑是提升气氛的最佳方法。",
+			say = "Think about it. There are plenty of people without the Muse System participating, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "但不知道为什么，这次却把使用「μ兵装」舰船分成了很多队。",
+			say = "So, I just don't get why they'd deliberately split up people with the Muse System into different teams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也就是说……是什么意思？",
+			say = "I wonder... why that's the case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "「μ兵装」的性能是否会因为使用者的不同而产生很大差异。",
+			say = "So you suspect the Muse System's power output depends on who wields it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "上一次只有「Polaris」一个组合，这次确有多支队伍，确实有些奇怪。",
+			say = "Last time, there was only one unit, Polaris. But this time, there are multiple units. That's a bit strange, I think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比如说，如果重樱和铁血在使用「μ兵装」时发挥出的性能更高，那么表现上就是她们就比我们「更强」。",
+			say = "For instance, if the Sakura Empire and Iron Blood duo achieve a higher performance with the Muse System, that would mean that they're stronger than us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也就是说，阵营之间会因此而产生实力差…会不会有些解读过分了。",
+			say = "In other words, people will think there's a power imbalance between the factions... But I wonder if we're reading too deeply into this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就只有参加大会的时候才知道了~",
+			say = "We'll never find out unless we participate in the competition~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不管怎样，我们现在能做的也只有努力练习了。",
+			say = "All we can do now is focus on the lesson at hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，各位，让我们再来练习一次吧！",
+			say = "That's right. Come on everyone, once more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

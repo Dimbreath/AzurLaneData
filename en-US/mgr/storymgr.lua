@@ -1370,8 +1370,6 @@ function slot0.getNameAndPainting(slot0, slot1)
 	if not slot1.actor then
 		-- Nothing
 	elseif slot4 > 0 then
-		print(slot4)
-
 		slot2 = (ShipGroup.getDefaultShipConfig(uv0[slot4].ship_group) or uv0[slot4].name) and Ship.getShipName(slot6.id)
 		slot3 = uv0[slot4].painting
 	elseif slot4 == 0 then

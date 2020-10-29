@@ -16,7 +16,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们将成为星星，将爱与和平的歌——",
+			say = "Become a star, and sing a song of love and peace~",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……好！大家休息一下吧！",
+			say = "...All right! Break time, folks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们做到了！(＾－＾)V",
+			say = "Yaay~ *highfive*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯嗯!(＾－＾)V",
+			say = "Yay. *highfive*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "光辉小姐，辛苦了！",
+			say = "Miss Illustrious, you did great...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的非常感谢。多亏了光辉撑起了C位，大家的方向性都很好地保持了一致。",
+			say = "Really, fantastic job. Thanks to you, everyone maintained their positions well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家过奖了……因为巴尔的摩作为队长一直很好地引领着我们，我们才能做到现在这个程度。",
+			say = "You give me too much credit. It's thanks to your great leadership that we were able to come this far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿，这些都是靠大家的努力共同完成的……",
+			say = "It wasn't just me, it was thanks to everyone's cooperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这里的光要这样打……就是这样! 我来给这些孩子们下指挥吧！",
+			say = "This light should be aimed there... Come on, let's get going! I'll be giving the directions to the manjuus.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -223,7 +223,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还有这个小道具~对我来说挺好，但确实不太适合光辉她们呢～",
+			say = "Aaand this prop. It matches me just fine, but as I thought, it really won't match Illustrious and the others at all~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "胜利小姐托付给我的珍贵材料……请让黛朵用它做出最完美的服装！",
+			say = "This precious commodity that Miss Victorious entrusted to me... I'll use it to make the ultimate costume!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，天狼星不用帮我做这个！其他的东西拜托你了！",
+			say = "Oh, Sirius, you don't need to help out with that. Please, help me with something else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此，最近流行的是有耳朵的偶像……",
+			say = "I see, so the current fad is idols with animal ears...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "威严，你得到的情报很有价值。",
+			say = "Grozny, you've gotten hold of some great intel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "今天还剩下一点时间，大家早点回宿舍养精蓄锐吧。",
+			say = "All right, there's only a bit more left for today. Let's finish up and head back to the dorms.",
 			effects = {
 				{
 					active = false,
@@ -335,7 +335,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "明天嘛……就让我们在正式演出上全力以赴吧！",
+			say = "And tomorrow... let's give it our all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,13 +346,13 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Everyone",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "是！！",
+			say = "Yeah!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

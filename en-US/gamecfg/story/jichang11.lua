@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "大会海域",
+			say = "Competition Area",
 			side = 2,
 			dir = 1,
 			bgm = "idol-inorinouta-inst",
@@ -25,7 +25,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "好，到目前为止都很顺利。",
+			say = "All right. So far, so good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202280,
-			say = "成功地把之前课程上的内容都顺利记下来了…！",
+			say = "I was able to complete that lesson without a problem...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202280,
-			say = "（如果我们能一直走到最后的话，黛朵就能够帮到主人了…！）",
+			say = "(If I can keep this up until the end, I can be useful to Master...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 108050,
-			say = "下一个要遭遇的对手，应该就是劲敌了吧？",
+			say = "Don't you think we'll be facing a formidable foe next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207110,
-			say = "为什么这么说…？",
+			say = "Why...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要看看布景就会明白吧？一股超级认真的感觉已经印在上面了…",
+			say = "Mm, take a look at the set over there. It looks like they were really serious about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦！没想到「Astrum」会遭遇恶毒喵！这难道会是第一次「μ兵装」之间的表演战喵？！",
+			say = "Ooh! It seems that Astrum will face Le Malin next, nya! This will be the first live battle featuring two groups of Muse System users, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "馒头摄像，把画面切到现场！",
+			say = "Cameramanjuu! Pan over to the scene, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 901120,
-			say = "……………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（以往的训练中，她总是一副无精打采的样子，没见过她在正经练习的样子。）",
+			say = "(Whenever I saw her during a lesson, she was always lazing around, so I never got to see her practicing once during a lesson.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701050,
-			say = "（大青花鱼说她是个强劲的对手，但说不定我们能够轻松拿下胜利？）",
+			say = "(Albacore said she thinks it would be a formidable foe. But won't this be an easy victory?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_jichang_4",
 			side = 2,
 			dir = 1,
-			say = "――！",
+			say = "SHWIIING!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			actorName = "恶毒（μ兵装）",
+			actorName = "Le Malin μ",
 			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是推动海浪之空想，是照耀大海的白色偶像，恶毒。",
+			say = "I am an illusion that races among the waves. An idol that shall light up the sea. I am Le Malin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			actorName = "恶毒（μ兵装）",
+			actorName = "Le Malin μ",
 			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鸢尾之心为我心，鸢尾之爱为我歌，这伟大的救赎之意，乃是我全部的感情。",
+			say = "My heart is the heart of Iris. My song is the love of Iris. My desire is the wish to grant salvation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actorName = "恶毒（μ兵装）",
+			actorName = "Le Malin μ",
 			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在，聆听这着祷告之歌，感受灵魂上的净化吧！",
+			say = "Now, I shall purify thy souls with this song of prayer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "――！",
+			say = "SHWIIING!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207110,
-			say = "多么灿烂的光芒啊……",
+			say = "...What a brilliant light...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家，一定要当心，今天的恶毒和以往不同…！",
+			say = "Everyone, be careful. This Le Malin is different from usual...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202280,
-			say = "好的…！",
+			say = "Understood...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
