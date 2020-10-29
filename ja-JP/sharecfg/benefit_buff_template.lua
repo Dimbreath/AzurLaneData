@@ -58,7 +58,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		name = "開運招福",
 		icon = "Props/buff_minigame_11",
-		benefit_effect = "500",
+		benefit_effect = "504",
 		id = 11,
 		benefit_condition = "",
 		benefit_type = "battle_buff",
@@ -129,7 +129,7 @@ pg.benefit_buff_template = {
 		max_time = 0,
 		name = "战斗伤害加成1",
 		icon = "Props/buff_minigame_11",
-		benefit_effect = "502",
+		benefit_effect = "500",
 		id = 16,
 		benefit_type = "battle_buff",
 		desc = "メイン海域・イベント海域で与えるダメージ+1%",
@@ -146,7 +146,7 @@ pg.benefit_buff_template = {
 		max_time = 0,
 		name = "战斗伤害加成2",
 		icon = "Props/buff_minigame_11",
-		benefit_effect = "504",
+		benefit_effect = "502",
 		id = 17,
 		benefit_type = "battle_buff",
 		desc = "メイン海域・イベント海域で与えるダメージ+2%",
@@ -163,7 +163,7 @@ pg.benefit_buff_template = {
 		max_time = 0,
 		name = "战斗伤害加成3",
 		icon = "Props/buff_minigame_11",
-		benefit_effect = "500",
+		benefit_effect = "504",
 		id = 18,
 		benefit_type = "battle_buff",
 		desc = "メイン海域・イベント海域で与えるダメージ+3%",
@@ -288,6 +288,132 @@ pg.benefit_buff_template = {
 		benefit_type = "urpt_drop_up",
 		desc = "「刹那觀る胡蝶の夢」イベントステージにて入手できる「特装コア（ブリ集め）」は2倍になります"
 	},
+	[26] = {
+		max_time = 0,
+		name = "アピールVocal",
+		icon = "Props/yanchangli1",
+		benefit_effect = "500",
+		id = 26,
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが1%アップ",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
+	[27] = {
+		max_time = 0,
+		name = "アピールVocal",
+		icon = "Props/yanchangli2",
+		benefit_effect = "502",
+		id = 27,
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが2%アップ",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
+	[28] = {
+		max_time = 0,
+		name = "アピールVocal",
+		icon = "Props/yanchangli3",
+		benefit_effect = "504",
+		id = 28,
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが3%アップ",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
+	[29] = {
+		max_time = 0,
+		name = "エンゲージDance",
+		icon = "Props/wudaoli1",
+		benefit_effect = "510",
+		id = 29,
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが1%ダウン",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
+	[30] = {
+		max_time = 0,
+		name = "エンゲージDance",
+		icon = "Props/wudaoli2",
+		benefit_effect = "512",
+		id = 30,
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが2%ダウン",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
+	[31] = {
+		max_time = 0,
+		name = "エンゲージDance",
+		icon = "Props/wudaoli3",
+		benefit_effect = "514",
+		id = 31,
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
+	[32] = {
+		max_time = 0,
+		name = "メモリーPerformance",
+		icon = "Props/biaoyanli1",
+		benefit_effect = "3",
+		id = 32,
+		benefit_type = "ship_battle_exp",
+		desc = "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が3%アップ",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
+	[33] = {
+		max_time = 0,
+		name = "メモリーPerformance",
+		icon = "Props/biaoyanli2",
+		benefit_effect = "4",
+		id = 33,
+		benefit_type = "ship_battle_exp",
+		desc = "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が4%アップ",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
+	[34] = {
+		max_time = 0,
+		name = "メモリーPerformance",
+		icon = "Props/biaoyanli3",
+		benefit_effect = "5",
+		id = 34,
+		benefit_type = "ship_battle_exp",
+		desc = "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が5%アップ",
+		benefit_condition = {
+			"activity",
+			753,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -308,6 +434,15 @@ pg.benefit_buff_template = {
 		22,
 		23,
 		24,
-		25
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34
 	}
 }

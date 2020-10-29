@@ -1208,7 +1208,7 @@ pg.backyard_theme_template = {
 		desc = "ハロウィンナイトへようこそ！",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -2475,6 +2475,41 @@ pg.backyard_theme_template = {
 			69309
 		}
 	},
+	[70] = {
+		Cfg_1 = 5,
+		name = "激唱ライブ！",
+		desc = "空に届け、私達の歌！",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 70,
+		icon = "ido2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			70001,
+			70002,
+			70101,
+			70102,
+			70103,
+			70104,
+			70105,
+			70106,
+			70107,
+			70108,
+			70109,
+			70110,
+			70111,
+			70112,
+			70113,
+			70114,
+			70115,
+			70116
+		}
+	},
 	[71] = {
 		Cfg_1 = 5,
 		name = "ハロウィンの館",
@@ -2565,6 +2600,7 @@ pg.backyard_theme_template = {
 		65,
 		66,
 		69,
+		70,
 		71
 	}
 }

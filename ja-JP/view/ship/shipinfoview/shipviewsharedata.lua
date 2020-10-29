@@ -13,7 +13,7 @@ function slot0.SetPlayer(slot0, slot1)
 end
 
 function slot0.HasFashion(slot0)
-	return #slot0:GetCurGroupSkinList() > 1
+	return getProxy(ShipSkinProxy):HasFashion(slot0.shipVO)
 end
 
 function slot0.GetCurGroupSkinList(slot0)

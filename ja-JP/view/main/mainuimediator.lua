@@ -815,7 +815,8 @@ function slot0.handleNotification(slot0, slot1)
 			})
 		end
 	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE then
-		slot0.viewComponent:UpdateActivityBtn("activity_newyear")
+		slot0:getViewComponent():HandleMiniGameBtns()
+		slot0:handlingActivityBtn()
 	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
 		slot0.viewComponent:updateVoteBookBtn(slot3)
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then

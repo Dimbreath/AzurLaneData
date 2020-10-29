@@ -3459,6 +3459,59 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[184] = {
+		can_rotate = 0,
+		describe = "「星の海でも響け！私たちの歌！」――イベント「激唱のユニバース」に参加した指揮官に贈る",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "激唱の記念章",
+		advice = 0,
+		id = 184,
+		icon = "ido2xunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"song06",
+				"song07",
+				"song08"
+			},
+			{
+				"action",
+				"action2",
+				"action3"
+			}
+		},
+		spine = {
+			{
+				"ido2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -4664,7 +4717,15 @@ pg.furniture_data_template = {
 				"normal",
 				{
 					"action",
-					false
+					true,
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7"
+					}
 				}
 			}
 		},
@@ -4795,6 +4856,58 @@ pg.furniture_data_template = {
 					100
 				},
 				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[100020] = {
+		can_rotate = 0,
+		describe = "星空を仰げば――",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "コスモシミュレーター",
+		advice = 0,
+		id = 100020,
+		icon = "starlighticon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"starlight",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					nil,
+					nil,
+					"bg1"
+				}
 			}
 		},
 		interAction_group = {}
@@ -74090,6 +74203,1372 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[70001] = {
+		can_rotate = 0,
+		describe = "空に届け、私達の歌！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/dibanido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "ユニバース床",
+		advice = 0,
+		icon = "dibanido2icon",
+		id = 70001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70002] = {
+		can_rotate = 0,
+		describe = "空に届け、私達の歌！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "ユニバース壁",
+		advice = 0,
+		id = 70002,
+		icon = "qiangbiido2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiido2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[70101] = {
+		can_rotate = 0,
+		describe = "ライブを応援する饅頭たち――「真の猛者は背中で語るピョ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/1ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "応援饅頭（背）",
+		advice = 0,
+		icon = "1ido2icon",
+		id = 70101,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70102] = {
+		can_rotate = 0,
+		describe = "マナーを守ってライブ鑑賞をしよう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/2ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "ライブフェンス",
+		advice = 0,
+		icon = "2ido2icon",
+		id = 70102,
+		comfortable = 1,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70103] = {
+		can_rotate = 0,
+		describe = "ライブを応援する饅頭たち――「真の猛者は真正面から挑むピョ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/3ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "応援饅頭",
+		advice = 0,
+		icon = "3ido2icon",
+		id = 70103,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70104] = {
+		can_rotate = 0,
+		describe = "カメラを回すピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/4ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "カメラ饅頭",
+		advice = 0,
+		icon = "4ido2icon",
+		id = 70104,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70105] = {
+		can_rotate = 0,
+		describe = "輝け、ライブステージ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/5ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "ステージライト",
+		advice = 0,
+		icon = "5ido2icon",
+		id = 70105,
+		comfortable = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70106] = {
+		can_rotate = 0,
+		describe = "響け、ライブサウンド！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/6ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ライブミキサー",
+		advice = 0,
+		icon = "6ido2icon",
+		id = 70106,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70107] = {
+		can_rotate = 0,
+		describe = "プロの技を見せてやるピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/7ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "PA饅頭",
+		advice = 0,
+		icon = "7ido2icon",
+		id = 70107,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70108] = {
+		can_rotate = 0,
+		describe = "スタッフ饅頭たちが運んできた機材箱。大変だったピョ…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/8ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ライブ機材箱",
+		advice = 0,
+		icon = "8ido2icon",
+		id = 70108,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70109] = {
+		can_rotate = 0,
+		describe = "ステージへと続く階段。さあ、盛り上げていきましょー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/9ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 2,
+		name = "ライブ階段",
+		advice = 0,
+		id = 70109,
+		icon = "9ido2icon",
+		comfortable = 3,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-38,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/9ido2_using"
+			},
+			{
+				"stand2",
+				{
+					37,
+					6
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/9ido2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70110] = {
+		can_rotate = 0,
+		describe = "円環状のステージライト",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/10ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "サークルライト",
+		advice = 0,
+		icon = "10ido2icon",
+		id = 70110,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70111] = {
+		can_rotate = 0,
+		describe = "星の形をしたステージライト",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/11ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "スターライト",
+		advice = 0,
+		icon = "11ido2icon",
+		id = 70111,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70112] = {
+		can_rotate = 0,
+		describe = "月の形をしたステージライト",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/12ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "ムーンライト",
+		advice = 0,
+		icon = "12ido2icon",
+		id = 70112,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70113] = {
+		can_rotate = 0,
+		describe = "「完璧に奏でさせていただきます」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/13ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "ライブキーボード",
+		advice = 0,
+		id = 70113,
+		icon = "13ido2icon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					19.9,
+					-8
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/13ido2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70114] = {
+		can_rotate = 1,
+		describe = "「ついてこれるかな？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/14ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "ライブドラム",
+		advice = 0,
+		id = 70114,
+		icon = "14ido2icon",
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-68,
+					-10
+				},
+				{
+					1,
+					1
+				},
+				"ido2/14ido2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70115] = {
+		can_rotate = 0,
+		describe = "ソロをやりたがるギター饅頭。その実力は未知数",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/15ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ギター饅頭",
+		advice = 0,
+		icon = "15ido2icon",
+		id = 70115,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70116] = {
+		can_rotate = 0,
+		describe = "緊張しやすいベース饅頭。その実力は未知数",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/16ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ベース饅頭",
+		advice = 0,
+		icon = "16ido2icon",
+		id = 70116,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70117] = {
+		can_rotate = 0,
+		describe = "ライブは最高潮！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Aido2icon",
+		count = 1,
+		name = "超大型ステージ",
+		id = 70117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shengjiangwutaiB",
+				"normal"
+			},
+			{
+				"shengjiangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					[3] = {
+						"action",
+						"dance"
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"shengjiangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70118] = {
+		can_rotate = 0,
+		describe = "「歌の力で、愛と平和と聖なる光を――」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Bido2icon",
+		count = 1,
+		name = "ルミナステージ",
+		id = 70118,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiAB",
+				"normal"
+			},
+			{
+				"wutaiAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiACharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70119] = {
+		can_rotate = 0,
+		describe = "「我は波を駆ける空想、祈りの歌でそなたに癒やしをもたらさん」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Cido2icon",
+		count = 1,
+		name = "プラネットステージ",
+		id = 70119,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiBB",
+				"normal"
+			},
+			{
+				"wutaiBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70120] = {
+		can_rotate = 0,
+		describe = "「銃と大砲ではなく、歌の力で戦いましょうね」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Dido2icon",
+		count = 1,
+		name = "ミステリーステージ",
+		id = 70120,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiCB",
+				"normal"
+			},
+			{
+				"wutaiCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiCCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70121] = {
+		can_rotate = 0,
+		describe = "「大鳳の愛の歌を最後まで聞いていってくださいませ♡」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Eido2icon",
+		count = 1,
+		name = "オブセッションステージ",
+		id = 70121,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiDB",
+				"normal"
+			},
+			{
+				"wutaiDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiDCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70122] = {
+		can_rotate = 0,
+		describe = "「スマートでユニーク、あなたにアクティブにアピール！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Fido2icon",
+		count = 1,
+		name = "コスモステージ",
+		id = 70122,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiEB",
+				"normal"
+			},
+			{
+				"wutaiET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiECharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70123] = {
+		can_rotate = 0,
+		describe = "「ご主人様を魅了するステージ…お見せします！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Gido2icon",
+		count = 1,
+		name = "ハートステージ",
+		id = 70123,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiF",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiFcharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70124] = {
+		can_rotate = 0,
+		describe = "「目移りするんじゃないわ！Ура！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Hido2icon",
+		count = 1,
+		name = "ドリームステージ",
+		id = 70124,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiGB",
+				"normal"
+			},
+			{
+				"wutaiGT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiGCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70125] = {
+		can_rotate = 0,
+		describe = "「通りすがりのアイドル…はちょっとおかしいな。まぁいい！行くぞ！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Iido2icon",
+		count = 1,
+		name = "パッションステージ",
+		id = 70125,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiHB",
+				"normal"
+			},
+			{
+				"wutaiHT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiHCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[71001] = {
 		can_rotate = 0,
 		describe = "ハロウィンの館へようこそ――",
@@ -75209,6 +76688,7 @@ pg.furniture_data_template = {
 		176,
 		177,
 		183,
+		184,
 		100002,
 		100003,
 		100004,
@@ -75227,6 +76707,7 @@ pg.furniture_data_template = {
 		100017,
 		100018,
 		100019,
+		100020,
 		1001,
 		1002,
 		1101,
@@ -76804,6 +78285,33 @@ pg.furniture_data_template = {
 		69307,
 		69308,
 		69309,
+		70001,
+		70002,
+		70101,
+		70102,
+		70103,
+		70104,
+		70105,
+		70106,
+		70107,
+		70108,
+		70109,
+		70110,
+		70111,
+		70112,
+		70113,
+		70114,
+		70115,
+		70116,
+		70117,
+		70118,
+		70119,
+		70120,
+		70121,
+		70122,
+		70123,
+		70124,
+		70125,
 		71001,
 		71002,
 		71101,

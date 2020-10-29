@@ -46,7 +46,7 @@ return {
 		},
 		{
 			end_time = "19.94318",
-			key_flag = "K_BOTH",
+			key_flag = "K_LEFT",
 			begin_time = "19.94318"
 		},
 		{

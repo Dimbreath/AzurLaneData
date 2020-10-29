@@ -350,6 +350,41 @@ pg.box_data_template = {
 		icon = "event6",
 		effect_id = 92886
 	},
+	[10114] = {
+		name = "バッジ・アルバコア",
+		type = 1,
+		id = 10114,
+		icon = "event5",
+		effect_id = 94006
+	},
+	[10115] = {
+		name = "バッジ・タシュケント",
+		type = 1,
+		id = 10115,
+		icon = "event5",
+		effect_id = 94007
+	},
+	[10116] = {
+		name = "スタンプ・ローン",
+		type = 1,
+		id = 10116,
+		icon = "event5",
+		effect_id = 94008
+	},
+	[10117] = {
+		name = "コースター・ル・マラン",
+		type = 1,
+		id = 10117,
+		icon = "event5",
+		effect_id = 94009
+	},
+	[10118] = {
+		name = "プロマイド・大鳳",
+		type = 1,
+		id = 10118,
+		icon = "event5",
+		effect_id = 94010
+	},
 	[20001] = {
 		name = "威嚇水雷",
 		type = 0,
@@ -408,6 +443,11 @@ pg.box_data_template = {
 		10111,
 		10112,
 		10113,
+		10114,
+		10115,
+		10116,
+		10117,
+		10118,
 		20001
 	}
 }

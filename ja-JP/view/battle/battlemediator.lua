@@ -283,11 +283,16 @@ function slot0.GenBattleData(slot0)
 
 	if pg.battle_cost_template[slot0.contextData.system].global_buff_effected > 0 then
 		slot3 = {}
-		slot5 = getProxy(PlayerProxy):getData():getBuffByType(ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF)
 
 		for slot10, slot11 in ipairs(getProxy(ActivityProxy):GetBuildingBuff()) do
 			if pg.benefit_buff_template[slot11.id].benefit_type == ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF then
-				table.insert(slot5, slot11)
+				table.insert(getProxy(PlayerProxy):getData():getBuffByType(ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF), slot11)
+			end
+		end
+
+		for slot11, slot12 in ipairs(getProxy(ActivityProxy):GetPTActivityBuff()) do
+			if pg.benefit_buff_template[slot12.id].benefit_type == ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF then
+				table.insert(slot5, slot12)
 			end
 		end
 

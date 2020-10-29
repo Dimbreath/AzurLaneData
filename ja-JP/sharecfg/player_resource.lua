@@ -395,6 +395,16 @@ pg.player_resource = {
 		name = "pulinsidun_pt",
 		itemid = 59183
 	},
+	[173] = {
+		id = 173,
+		name = "skinTicket10",
+		itemid = 59186
+	},
+	[175] = {
+		id = 175,
+		name = "ouxiang2_pt",
+		itemid = 59185
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -673,6 +683,12 @@ pg.player_resource = {
 		pulinsidun_pt = {
 			172
 		},
+		skinTicket10 = {
+			173
+		},
+		ouxiang2_pt = {
+			175
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -778,6 +794,8 @@ pg.player_resource = {
 		170,
 		171,
 		172,
+		173,
+		175,
 		1001,
 		2001,
 		2002,

@@ -76,32 +76,23 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 
 	slot10, slot11, slot12 = slot0._calculateDamage(slot1, slot2, slot3, slot4)
 	slot13 = slot11.isMiss
-	slot14 = slot11.isCri
-	slot15 = slot11.damageAttr
 
 	slot1:AppendDamageUnit(slot2:GetUniqueID())
-
-	slot18 = {
-		target = slot2,
-		damage = slot10,
-		weaponType = slot8.type,
-		equipIndex = slot6:GetEquipmentIndex()
-	}
-
-	if slot11.isDamagePrevent then
-		slot2:TriggerBuff(uv2.BuffEffectType.ON_DAMAGE_PREVENT, {})
-	end
-
 	slot2:UpdateHP(slot10 * -1, {
 		isHeal = false,
 		isMiss = slot13,
-		isCri = slot14,
-		attr = slot15
+		isCri = slot11.isCri,
+		attr = slot11.damageAttr
 	}, slot1:GetPosition(), slot12)
 	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), slot10)
 
 	if not slot13 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
-		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot18)
+		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, {
+			target = slot2,
+			damage = slot10,
+			weaponType = slot8.type,
+			equipIndex = slot6:GetEquipmentIndex()
+		})
 	end
 
 	slot21 = true
@@ -257,10 +248,6 @@ function slot0.HandleCrashDamage(slot0, slot1, slot2)
 	slot0:HandleDirectDamage(slot2, slot4, slot1, uv0.UnitDeathReason.CRUSH)
 end
 
-function slot0.HandleWallHitByBullet(slot0, slot1, slot2)
-	return slot1:GetCldFunc()(slot2)
-end
-
 function slot0.HandleBuffPlacer(slot0, slot1, slot2)
 	slot5 = false
 
@@ -323,4 +310,45 @@ function slot0.HandleShipCrashDecelerate(slot0, slot1, slot2)
 	elseif slot2 > 0 and not slot1:IsCrash() then
 		slot1:SetCrash(true)
 	end
+end
+
+function slot0.HandleWallHitByBullet(slot0, slot1, slot2)
+	return slot1:GetCldFunc()(slot2)
+end
+
+function slot0.HandleWallHitByShip(slot0, slot1, slot2)
+	slot1:GetCldFunc()(slot2)
+end
+
+function slot0.HandleWallDamage(slot0, slot1, slot2)
+	if slot2:GetIFF() == uv0.FOE_CODE and slot2:IsShowHPBar() then
+		slot0:DispatchEvent(ys.Event.New(uv1.HIT_ENEMY, slot2))
+	end
+
+	slot4 = uv2.GetCurrent(slot1, "id")
+
+	if uv2.IsInvincible(slot2) then
+		return
+	end
+
+	slot5, slot6, slot7 = slot0._calculateDamage(slot1, slot2)
+
+	slot2:UpdateHP(slot5 * -1, {
+		isHeal = false,
+		isMiss = slot6.isMiss,
+		isCri = slot6.isCri,
+		attr = slot6.damageAttr
+	}, slot1:GetPosition(), slot7)
+	slot0:DamageStatistics(slot4, slot2:GetAttrByName("id"), slot5)
+
+	if slot2:IsAlive() then
+		if not slot8 then
+			slot2:TriggerBuff(uv3.BuffEffectType.ON_BE_HIT)
+		end
+	else
+		slot0:obituary(slot2, false, slot1)
+		slot0:KillCountStatistics(slot4, slot2:GetAttrByName("id"))
+	end
+
+	return slot8, slot9
 end

@@ -77,5 +77,17 @@ pg.voice_bgm = {
 	},
 	ShipBluePrintScene = {
 		bgm = "main"
+	},
+	MusicFestivalScene2 = {
+		bgm = "idol-BlueSpirit-inst"
+	},
+	NewShopsScene = {
+		bgm = "main"
+	},
+	SkinShopScene = {
+		bgm = "main"
+	},
+	BuildShipScene = {
+		bgm = "main"
 	}
 }

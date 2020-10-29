@@ -74,7 +74,10 @@ function slot0.updateLogic(slot0)
 	slot0:clearLogic()
 
 	if slot0.state == uv0.ShipState.Walk then
-		LeanTween.value(slot0._go, 0, 1, Vector2.Distance(slot0.currentPoint, slot0.targetPoint) / 15):setOnUpdate(System.Action_float(function (slot0)
+		slot1 = slot0.currentPoint
+		slot0._tf.localScale = (slot1.scale or uv0.normalScale) * Vector2.one
+
+		LeanTween.value(slot0._go, 0, 1, Vector2.Distance(slot1, slot0.targetPoint) / 15):setOnUpdate(System.Action_float(function (slot0)
 			uv0._tf.anchoredPosition = Vector2.Lerp(uv1, uv2, slot0)
 			slot1 = math.lerp(uv1.scale or uv3.normalScale, uv2.scale or uv3.normalScale, slot0) * Vector2.one
 			slot2 = uv1.x < uv2.x and 1 or -1

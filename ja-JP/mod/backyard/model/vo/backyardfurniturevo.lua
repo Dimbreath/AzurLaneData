@@ -55,15 +55,12 @@ end
 
 function slot0.getVoice(slot0)
 	if slot0:existVoice() then
-		return slot0:getConfig("can_trigger")[2]
-	end
-end
+		slot3, slot4 = nil
 
-function slot0.GetVoiceAnim(slot0)
-	if slot0:isSpine() and slot0:existVoice() then
-		slot1 = slot0:getConfig("can_trigger")
-
-		return "normal", slot1[3], slot1[4]
+		return (type(slot0:getConfig("can_trigger")[2]) ~= "table" or slot1[2][math.random(1, #slot1[2])]) and slot1[2], {
+			action = (type(slot1[3]) ~= "table" or slot1[3][1]) and slot1[3],
+			effect = slot1[4]
+		}
 	end
 end
 

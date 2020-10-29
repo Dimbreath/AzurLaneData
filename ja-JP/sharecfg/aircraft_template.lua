@@ -18586,6 +18586,672 @@ pg.aircraft_template = {
 			65080
 		}
 	},
+	[65121] = {
+		name = "恶毒μ神圣天使轰炸机Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "feiji_shenshengtianshi",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "feiji_shenshengtianshi",
+		funnel_behavior = "",
+		nationality = 9,
+		hp_growth = 1692,
+		speed = 48,
+		id = 65121,
+		scale = 1,
+		weapon_ID = {
+			65131
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[65122] = {
+		max_hp = 48,
+		name = "恶毒μ神圣天使轰炸机Lv2",
+		base = 65121,
+		id = 65122,
+		hp_growth = 1913,
+		weapon_ID = {
+			65132
+		}
+	},
+	[65123] = {
+		max_hp = 54,
+		name = "恶毒μ神圣天使轰炸机Lv3",
+		base = 65121,
+		id = 65123,
+		hp_growth = 2133,
+		weapon_ID = {
+			65133
+		}
+	},
+	[65124] = {
+		max_hp = 61,
+		name = "恶毒μ神圣天使轰炸机Lv4",
+		base = 65121,
+		id = 65124,
+		hp_growth = 2354,
+		weapon_ID = {
+			65134
+		}
+	},
+	[65125] = {
+		max_hp = 67,
+		name = "恶毒μ神圣天使轰炸机Lv5",
+		base = 65121,
+		id = 65125,
+		hp_growth = 2575,
+		weapon_ID = {
+			65135
+		}
+	},
+	[65126] = {
+		max_hp = 73,
+		name = "恶毒μ神圣天使轰炸机Lv6",
+		base = 65121,
+		id = 65126,
+		hp_growth = 2796,
+		weapon_ID = {
+			65136
+		}
+	},
+	[65127] = {
+		max_hp = 79,
+		name = "恶毒μ神圣天使轰炸机Lv7",
+		base = 65121,
+		id = 65127,
+		hp_growth = 3016,
+		weapon_ID = {
+			65137
+		}
+	},
+	[65128] = {
+		max_hp = 86,
+		name = "恶毒μ神圣天使轰炸机Lv8",
+		base = 65121,
+		id = 65128,
+		hp_growth = 3237,
+		weapon_ID = {
+			65138
+		}
+	},
+	[65129] = {
+		max_hp = 92,
+		name = "恶毒μ神圣天使轰炸机Lv9",
+		base = 65121,
+		id = 65129,
+		hp_growth = 3458,
+		weapon_ID = {
+			65139
+		}
+	},
+	[65130] = {
+		max_hp = 98,
+		name = "恶毒μ神圣天使轰炸机Lv10",
+		base = 65121,
+		id = 65130,
+		hp_growth = 3678,
+		weapon_ID = {
+			65140
+		}
+	},
+	[65181] = {
+		name = "大凤μ技能鱼雷机Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "liuxing",
+		ACC_growth = 0,
+		crash_DMG = 188,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "liuxing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 52,
+		id = 65181,
+		scale = 1,
+		weapon_ID = {
+			65191
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.26,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[65182] = {
+		max_hp = 48,
+		name = "大凤μ技能鱼雷机Lv2",
+		base = 65181,
+		id = 65182,
+		hp_growth = 1846,
+		weapon_ID = {
+			65192
+		}
+	},
+	[65183] = {
+		max_hp = 54,
+		name = "大凤μ技能鱼雷机Lv3",
+		base = 65181,
+		id = 65183,
+		hp_growth = 2087,
+		weapon_ID = {
+			65193
+		}
+	},
+	[65184] = {
+		max_hp = 61,
+		name = "大凤μ技能鱼雷机Lv4",
+		base = 65181,
+		id = 65184,
+		hp_growth = 2327,
+		weapon_ID = {
+			65194
+		}
+	},
+	[65185] = {
+		max_hp = 67,
+		name = "大凤μ技能鱼雷机Lv5",
+		base = 65181,
+		id = 65185,
+		hp_growth = 2568,
+		weapon_ID = {
+			65195
+		}
+	},
+	[65186] = {
+		max_hp = 73,
+		name = "大凤μ技能鱼雷机Lv6",
+		base = 65181,
+		id = 65186,
+		hp_growth = 2809,
+		weapon_ID = {
+			65196
+		}
+	},
+	[65187] = {
+		max_hp = 79,
+		name = "大凤μ技能鱼雷机Lv7",
+		base = 65181,
+		id = 65187,
+		hp_growth = 3050,
+		weapon_ID = {
+			65197
+		}
+	},
+	[65188] = {
+		max_hp = 86,
+		name = "大凤μ技能鱼雷机Lv8",
+		base = 65181,
+		id = 65188,
+		hp_growth = 3290,
+		weapon_ID = {
+			65198
+		}
+	},
+	[65189] = {
+		max_hp = 92,
+		name = "大凤μ技能鱼雷机Lv9",
+		base = 65181,
+		id = 65189,
+		hp_growth = 3531,
+		weapon_ID = {
+			65199
+		}
+	},
+	[65190] = {
+		max_hp = 98,
+		name = "大凤μ技能鱼雷机Lv10",
+		base = 65181,
+		id = 65190,
+		hp_growth = 3772,
+		weapon_ID = {
+			65200
+		}
+	},
+	[65201] = {
+		name = "大凤μ技能轰炸机Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 60,
+		id = 65201,
+		scale = 1,
+		weapon_ID = {
+			65211,
+			65221
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[65202] = {
+		max_hp = 48,
+		name = "大凤μ技能轰炸机Lv2",
+		base = 65201,
+		id = 65202,
+		hp_growth = 1846,
+		weapon_ID = {
+			65212,
+			65222
+		}
+	},
+	[65203] = {
+		max_hp = 54,
+		name = "大凤μ技能轰炸机Lv3",
+		base = 65201,
+		id = 65203,
+		hp_growth = 2087,
+		weapon_ID = {
+			65213,
+			65223
+		}
+	},
+	[65204] = {
+		max_hp = 61,
+		name = "大凤μ技能轰炸机Lv4",
+		base = 65201,
+		id = 65204,
+		hp_growth = 2327,
+		weapon_ID = {
+			65214,
+			65224
+		}
+	},
+	[65205] = {
+		max_hp = 67,
+		name = "大凤μ技能轰炸机Lv5",
+		base = 65201,
+		id = 65205,
+		hp_growth = 2568,
+		weapon_ID = {
+			65215,
+			65225
+		}
+	},
+	[65206] = {
+		max_hp = 73,
+		name = "大凤μ技能轰炸机Lv6",
+		base = 65201,
+		id = 65206,
+		hp_growth = 2809,
+		weapon_ID = {
+			65216,
+			65226
+		}
+	},
+	[65207] = {
+		max_hp = 79,
+		name = "大凤μ技能轰炸机Lv7",
+		base = 65201,
+		id = 65207,
+		hp_growth = 3050,
+		weapon_ID = {
+			65217,
+			65227
+		}
+	},
+	[65208] = {
+		max_hp = 86,
+		name = "大凤μ技能轰炸机Lv8",
+		base = 65201,
+		id = 65208,
+		hp_growth = 3290,
+		weapon_ID = {
+			65218,
+			65228
+		}
+	},
+	[65209] = {
+		max_hp = 92,
+		name = "大凤μ技能轰炸机Lv9",
+		base = 65201,
+		id = 65209,
+		hp_growth = 3531,
+		weapon_ID = {
+			65219,
+			65229
+		}
+	},
+	[65210] = {
+		max_hp = 98,
+		name = "大凤μ技能轰炸机Lv10",
+		base = 65201,
+		id = 65210,
+		hp_growth = 3772,
+		weapon_ID = {
+			65220,
+			65230
+		}
+	},
+	[65251] = {
+		name = "坠星机LV1",
+		max_hp = 36,
+		accuracy = 23,
+		model_ID = "feiji_weixingbanwu",
+		ACC_growth = 0,
+		crash_DMG = 188,
+		dodge = 1.05,
+		attack_power = 2,
+		dodge_limit = 5,
+		type = 2,
+		AP_growth = 2000,
+		icon = "feiji_weixingbanwu",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1386,
+		speed = 52,
+		id = 65251,
+		scale = 1,
+		weapon_ID = {
+			65261
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.26,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[65252] = {
+		max_hp = 41,
+		name = "坠星机LV2",
+		base = 65251,
+		id = 65252,
+		hp_growth = 1594,
+		weapon_ID = {
+			65262
+		}
+	},
+	[65253] = {
+		max_hp = 47,
+		name = "坠星机LV3",
+		base = 65251,
+		id = 65253,
+		hp_growth = 1802,
+		weapon_ID = {
+			65263
+		}
+	},
+	[65254] = {
+		max_hp = 52,
+		name = "坠星机LV4",
+		base = 65251,
+		id = 65254,
+		hp_growth = 2010,
+		weapon_ID = {
+			65264
+		}
+	},
+	[65255] = {
+		max_hp = 58,
+		name = "坠星机LV5",
+		base = 65251,
+		id = 65255,
+		hp_growth = 2218,
+		weapon_ID = {
+			65265
+		}
+	},
+	[65256] = {
+		max_hp = 63,
+		name = "坠星机LV6",
+		base = 65251,
+		id = 65256,
+		hp_growth = 2426,
+		weapon_ID = {
+			65266
+		}
+	},
+	[65257] = {
+		max_hp = 68,
+		name = "坠星机LV7",
+		base = 65251,
+		id = 65257,
+		hp_growth = 2634,
+		weapon_ID = {
+			65267
+		}
+	},
+	[65258] = {
+		max_hp = 74,
+		name = "坠星机LV8",
+		base = 65251,
+		id = 65258,
+		hp_growth = 2842,
+		weapon_ID = {
+			65268
+		}
+	},
+	[65259] = {
+		max_hp = 79,
+		name = "坠星机LV9",
+		base = 65251,
+		id = 65259,
+		hp_growth = 3050,
+		weapon_ID = {
+			65269
+		}
+	},
+	[65260] = {
+		max_hp = 85,
+		name = "坠星机LV10",
+		base = 65251,
+		id = 65260,
+		hp_growth = 3258,
+		weapon_ID = {
+			65270
+		}
+	},
 	[66240] = {
 		name = "山城改技能Lv0",
 		max_hp = 27,
@@ -99854,6 +100520,1192 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[721102] = {
+		name = "【2020偶像活动二期SP2】BOSS 光辉 音符鱼雷机",
+		max_hp = 96,
+		accuracy = 23,
+		model_ID = "suoyu",
+		ACC_growth = 0,
+		crash_DMG = 69,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "suoyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2380,
+		speed = 30,
+		id = 721102,
+		scale = 0.75,
+		weapon_ID = {
+			721105
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[721103] = {
+		name = "【2020偶像活动二期SP2】BOSS 光辉 音符轰炸机",
+		max_hp = 106,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 89,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2560,
+		speed = 30,
+		id = 721103,
+		scale = 0.75,
+		weapon_ID = {
+			721106
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[721104] = {
+		name = "【2020偶像活动二期SP2】BOSS 光辉 音符战斗机",
+		max_hp = 86,
+		accuracy = 23,
+		model_ID = "haiduya",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiduya",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		id = 721104,
+		scale = 0.75,
+		weapon_ID = {
+			721107,
+			1100752
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[724110] = {
+		name = "【2020偶像活动二期SP5】BOSS 大凤 第四波 音符鱼雷机",
+		max_hp = 154,
+		accuracy = 23,
+		model_ID = "liuxing",
+		ACC_growth = 0,
+		crash_DMG = 114,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "liuxing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2880,
+		speed = 30,
+		id = 724110,
+		scale = 0.75,
+		weapon_ID = {
+			724113
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[724111] = {
+		name = "【2020偶像活动二期SP5】BOSS 大凤 第四波 音符轰炸机",
+		max_hp = 162,
+		accuracy = 23,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 126,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3060,
+		speed = 30,
+		id = 724111,
+		scale = 0.75,
+		weapon_ID = {
+			724114
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[724112] = {
+		name = "【2020偶像活动二期SP5】BOSS 大凤 第四波 音符战斗机",
+		max_hp = 141,
+		accuracy = 23,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 79,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 724112,
+		scale = 0.75,
+		weapon_ID = {
+			724115,
+			1100752
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729021] = {
+		name = "【2020偶像活动二期】光辉 音符鱼雷机1",
+		max_hp = 72,
+		accuracy = 23,
+		model_ID = "suoyu",
+		ACC_growth = 0,
+		crash_DMG = 52,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "suoyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2040,
+		speed = 30,
+		id = 729021,
+		scale = 0.75,
+		weapon_ID = {
+			729031
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729022] = {
+		name = "【2020偶像活动二期】光辉 音符鱼雷机2",
+		max_hp = 99,
+		accuracy = 23,
+		model_ID = "suoyu",
+		ACC_growth = 0,
+		crash_DMG = 70,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "suoyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2380,
+		speed = 30,
+		id = 729022,
+		scale = 0.75,
+		weapon_ID = {
+			729032
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729023] = {
+		name = "【2020偶像活动二期】光辉 音符鱼雷机3",
+		max_hp = 126,
+		accuracy = 23,
+		model_ID = "suoyu",
+		ACC_growth = 0,
+		crash_DMG = 90,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "suoyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2720,
+		speed = 30,
+		id = 729023,
+		scale = 0.75,
+		weapon_ID = {
+			729033
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729024] = {
+		name = "【2020偶像活动二期】光辉 音符鱼雷机4",
+		max_hp = 153,
+		accuracy = 23,
+		model_ID = "suoyu",
+		ACC_growth = 0,
+		crash_DMG = 112,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "suoyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3060,
+		speed = 30,
+		id = 729024,
+		scale = 0.75,
+		weapon_ID = {
+			729034
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729025] = {
+		name = "【2020偶像活动二期】光辉 音符鱼雷机5",
+		max_hp = 180,
+		accuracy = 23,
+		model_ID = "suoyu",
+		ACC_growth = 0,
+		crash_DMG = 136,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "suoyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3400,
+		speed = 30,
+		id = 729025,
+		scale = 0.75,
+		weapon_ID = {
+			729035
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729026] = {
+		name = "【2020偶像活动二期】光辉 音符轰炸机1",
+		max_hp = 80,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2280,
+		speed = 30,
+		id = 729026,
+		scale = 0.75,
+		weapon_ID = {
+			729036
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729027] = {
+		name = "【2020偶像活动二期】光辉 音符轰炸机2",
+		max_hp = 110,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2660,
+		speed = 30,
+		id = 729027,
+		scale = 0.75,
+		weapon_ID = {
+			729037
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729028] = {
+		name = "【2020偶像活动二期】光辉 音符轰炸机3",
+		max_hp = 140,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 110,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3040,
+		speed = 30,
+		id = 729028,
+		scale = 0.75,
+		weapon_ID = {
+			729038
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729029] = {
+		name = "【2020偶像活动二期】光辉 音符轰炸机4",
+		max_hp = 170,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		id = 729029,
+		scale = 0.75,
+		weapon_ID = {
+			729039
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[729030] = {
+		name = "【2020偶像活动二期】光辉 音符轰炸机5",
+		max_hp = 200,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		id = 729030,
+		scale = 0.75,
+		weapon_ID = {
+			729040
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[750000] = {
 		name = "空袭-轰炸机",
 		max_hp = 180,
@@ -128281,6 +130133,46 @@ pg.aircraft_template = {
 		65068,
 		65069,
 		65070,
+		65121,
+		65122,
+		65123,
+		65124,
+		65125,
+		65126,
+		65127,
+		65128,
+		65129,
+		65130,
+		65181,
+		65182,
+		65183,
+		65184,
+		65185,
+		65186,
+		65187,
+		65188,
+		65189,
+		65190,
+		65201,
+		65202,
+		65203,
+		65204,
+		65205,
+		65206,
+		65207,
+		65208,
+		65209,
+		65210,
+		65251,
+		65252,
+		65253,
+		65254,
+		65255,
+		65256,
+		65257,
+		65258,
+		65259,
+		65260,
 		66240,
 		66241,
 		66242,
@@ -130053,6 +131945,22 @@ pg.aircraft_template = {
 		711022,
 		712022,
 		712023,
+		721102,
+		721103,
+		721104,
+		724110,
+		724111,
+		724112,
+		729021,
+		729022,
+		729023,
+		729024,
+		729025,
+		729026,
+		729027,
+		729028,
+		729029,
+		729030,
 		750000,
 		750001,
 		750002,

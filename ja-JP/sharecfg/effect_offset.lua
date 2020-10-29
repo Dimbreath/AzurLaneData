@@ -440,6 +440,17 @@ pg.effect_offset = {
 			0
 		}
 	},
+	shield06 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
 	appearbig = {
 		mirror = false,
 		y_scale = false,
@@ -1042,6 +1053,39 @@ pg.effect_offset = {
 		offset = {
 			0.5,
 			0,
+			0
+		}
+	},
+	juguangdeng_xingguang_STG = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-5,
+			8,
+			0
+		}
+	},
+	juguangdeng_xingguang_BOSS = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			2,
+			7.5,
+			0
+		}
+	},
+	bullet_ta02 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-1.5,
+			3.5,
 			0
 		}
 	}

@@ -59,6 +59,17 @@ slot0.InsertInheritedAttr(ys.Battle.BattleConfig.SHIP_TYPE_ACCURACY_ENHANCE)
 
 slot0.TAG_EHC_KEY = "DMG_TAG_EHC_"
 slot0.FROM_TAG_EHC_KEY = "DMG_FROM_TAG_"
+slot0.ATTACK_ATTR_TYPE = {
+	[slot1.WeaponDamageAttr.CANNON] = "cannonPower",
+	[slot1.WeaponDamageAttr.TORPEDO] = "torpedoPower",
+	[slot1.WeaponDamageAttr.ANTI_AIR] = "antiAirPower",
+	[slot1.WeaponDamageAttr.AIR] = "airPower",
+	[slot1.WeaponDamageAttr.ANIT_SUB] = "antiSubPower"
+}
+
+function slot0.GetAtkAttrByType(slot0, slot1)
+	return slot0[uv0.ATTACK_ATTR_TYPE[slot1]]
+end
 
 function slot0.SetAttr(slot0, slot1)
 	slot0._attr = setmetatable({}, {

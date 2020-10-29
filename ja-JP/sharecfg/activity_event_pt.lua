@@ -2,7 +2,10 @@ pg = pg or {}
 pg.activity_event_pt = {
 	[10238] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 10234,
@@ -279,7 +282,10 @@ pg.activity_event_pt = {
 	},
 	[10262] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 10255,
@@ -570,7 +576,10 @@ pg.activity_event_pt = {
 	},
 	[10266] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 10266,
@@ -637,7 +646,10 @@ pg.activity_event_pt = {
 	},
 	[330] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 2,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 330,
@@ -725,7 +737,10 @@ pg.activity_event_pt = {
 	},
 	[331] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 326,
@@ -1016,7 +1031,10 @@ pg.activity_event_pt = {
 	},
 	[345] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 340,
@@ -1307,7 +1325,10 @@ pg.activity_event_pt = {
 	},
 	[348] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 2,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 348,
@@ -1395,7 +1416,10 @@ pg.activity_event_pt = {
 	},
 	[350] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 351,
@@ -1574,7 +1598,10 @@ pg.activity_event_pt = {
 	},
 	[361] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 361,
@@ -1599,7 +1626,10 @@ pg.activity_event_pt = {
 	},
 	[373] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 362,
@@ -1890,7 +1920,10 @@ pg.activity_event_pt = {
 	},
 	[378] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 2,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 378,
@@ -2048,7 +2081,10 @@ pg.activity_event_pt = {
 	},
 	[379] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 2,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 379,
@@ -2136,7 +2172,10 @@ pg.activity_event_pt = {
 	},
 	[386] = {
 		link_id = 384,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 386,
@@ -2313,7 +2352,10 @@ pg.activity_event_pt = {
 	},
 	[399] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 3,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 399,
@@ -2378,7 +2420,10 @@ pg.activity_event_pt = {
 	},
 	[409] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 409,
@@ -2816,7 +2861,10 @@ pg.activity_event_pt = {
 	},
 	[421] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 2,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 421,
@@ -2932,7 +2980,10 @@ pg.activity_event_pt = {
 	},
 	[430] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		id_2 = 430,
 		id = 430,
 		pt = 138,
@@ -3239,7 +3290,10 @@ pg.activity_event_pt = {
 	},
 	[437] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 437,
@@ -3304,7 +3358,10 @@ pg.activity_event_pt = {
 	},
 	[450] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 450,
@@ -3329,7 +3386,10 @@ pg.activity_event_pt = {
 	},
 	[462] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 452,
@@ -3620,7 +3680,10 @@ pg.activity_event_pt = {
 	},
 	[477] = {
 		link_id = 475,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 477,
@@ -3797,7 +3860,10 @@ pg.activity_event_pt = {
 	},
 	[493] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 493,
@@ -3822,7 +3888,10 @@ pg.activity_event_pt = {
 	},
 	[506] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 506,
@@ -4134,7 +4203,10 @@ pg.activity_event_pt = {
 	},
 	[522] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 522,
@@ -4250,7 +4322,10 @@ pg.activity_event_pt = {
 	},
 	[525] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 525,
@@ -4408,7 +4483,10 @@ pg.activity_event_pt = {
 	},
 	[534] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 534,
@@ -4433,7 +4511,10 @@ pg.activity_event_pt = {
 	},
 	[545] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 545,
@@ -4745,7 +4826,10 @@ pg.activity_event_pt = {
 	},
 	[564] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 564,
@@ -5055,7 +5139,10 @@ pg.activity_event_pt = {
 	},
 	[568] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 568,
@@ -5120,7 +5207,10 @@ pg.activity_event_pt = {
 	},
 	[580] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 580,
@@ -5143,7 +5233,10 @@ pg.activity_event_pt = {
 	},
 	[582] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 2,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 582,
@@ -5229,7 +5322,10 @@ pg.activity_event_pt = {
 	},
 	[588] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 588,
@@ -5387,7 +5483,10 @@ pg.activity_event_pt = {
 	},
 	[594] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 594,
@@ -5699,7 +5798,10 @@ pg.activity_event_pt = {
 	},
 	[614] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 614,
@@ -5815,7 +5917,10 @@ pg.activity_event_pt = {
 	},
 	[623] = {
 		link_id = 621,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 623,
@@ -5992,7 +6097,10 @@ pg.activity_event_pt = {
 	},
 	[634] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 634,
@@ -6015,7 +6123,10 @@ pg.activity_event_pt = {
 	},
 	[640] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 640,
@@ -6327,7 +6438,10 @@ pg.activity_event_pt = {
 	},
 	[671] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 671,
@@ -6618,7 +6732,10 @@ pg.activity_event_pt = {
 	},
 	[680] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 680,
@@ -6641,7 +6758,10 @@ pg.activity_event_pt = {
 	},
 	[703] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 703,
@@ -6932,7 +7052,10 @@ pg.activity_event_pt = {
 	},
 	[732] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 732,
@@ -7048,7 +7171,10 @@ pg.activity_event_pt = {
 	},
 	[740] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 3,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 740,
@@ -7111,9 +7237,361 @@ pg.activity_event_pt = {
 			7
 		}
 	},
-	[1020] = {
+	[753] = {
 		link_id = 0,
 		type = 1,
+		pic_list = "",
+		pt_list = "",
+		id_2 = 753,
+		id = 753,
+		pt = 175,
+		target = {
+			100,
+			300,
+			500,
+			700,
+			1000,
+			1500,
+			2000,
+			2500,
+			3000,
+			3500,
+			4000,
+			4500,
+			5000,
+			5500,
+			6000,
+			6500,
+			7000,
+			7500,
+			8000,
+			8500,
+			9000,
+			9500,
+			10000,
+			10500,
+			11000,
+			12000,
+			13000,
+			14000,
+			15000,
+			20000,
+			25000,
+			30000,
+			35000,
+			40000,
+			45000,
+			50000,
+			55000,
+			60000,
+			80000,
+			100000
+		},
+		drop_client = {
+			{
+				2,
+				54005,
+				5
+			},
+			{
+				2,
+				18012,
+				1
+			},
+			{
+				2,
+				18002,
+				1
+			},
+			{
+				1,
+				1,
+				3000
+			},
+			{
+				2,
+				15008,
+				200
+			},
+			{
+				1,
+				1,
+				3000
+			},
+			{
+				2,
+				18012,
+				1
+			},
+			{
+				2,
+				18002,
+				1
+			},
+			{
+				1,
+				1,
+				4000
+			},
+			{
+				2,
+				15008,
+				300
+			},
+			{
+				2,
+				18022,
+				1
+			},
+			{
+				2,
+				18032,
+				1
+			},
+			{
+				2,
+				16003,
+				2
+			},
+			{
+				2,
+				15008,
+				300
+			},
+			{
+				2,
+				18013,
+				1
+			},
+			{
+				2,
+				18003,
+				1
+			},
+			{
+				2,
+				16023,
+				2
+			},
+			{
+				2,
+				15008,
+				300
+			},
+			{
+				3,
+				89160,
+				1
+			},
+			{
+				2,
+				18033,
+				1
+			},
+			{
+				2,
+				16013,
+				2
+			},
+			{
+				2,
+				15008,
+				300
+			},
+			{
+				4,
+				207111,
+				1
+			},
+			{
+				8,
+				70058,
+				1
+			},
+			{
+				2,
+				54006,
+				2
+			},
+			{
+				2,
+				15008,
+				500
+			},
+			{
+				2,
+				18013,
+				1
+			},
+			{
+				2,
+				18003,
+				1
+			},
+			{
+				2,
+				42026,
+				1
+			},
+			{
+				4,
+				207111,
+				1
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				500
+			},
+			{
+				2,
+				54006,
+				5
+			},
+			{
+				4,
+				207111,
+				1
+			},
+			{
+				2,
+				54051,
+				2
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				54051,
+				2
+			},
+			{
+				4,
+				207111,
+				1
+			},
+			{
+				2,
+				30035,
+				1
+			},
+			{
+				2,
+				30035,
+				1
+			}
+		},
+		allplayer = {
+			0.1
+		},
+		day_unlock = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		target_buff = {
+			3,
+			6,
+			10,
+			14,
+			18,
+			22
+		},
+		buff_group = {
+			{
+				26,
+				27,
+				28
+			},
+			{
+				29,
+				30,
+				31
+			},
+			{
+				32,
+				33,
+				34
+			}
+		},
+		drop_display = {
+			{
+				28,
+				{
+					3,
+					89180,
+					1
+				}
+			},
+			{
+				31,
+				{
+					3,
+					89200,
+					1
+				}
+			},
+			{
+				34,
+				{
+					3,
+					89220,
+					1
+				}
+			}
+		}
+	},
+	[1020] = {
+		link_id = 0,
+		buff_group = "",
+		target_buff = "",
+		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 1020,
@@ -7444,7 +7922,10 @@ pg.activity_event_pt = {
 	},
 	[1021] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 1021,
@@ -7775,7 +8256,10 @@ pg.activity_event_pt = {
 	},
 	[1022] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 1022,
@@ -8106,7 +8590,10 @@ pg.activity_event_pt = {
 	},
 	[1023] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 1023,
@@ -8437,7 +8924,10 @@ pg.activity_event_pt = {
 	},
 	[1024] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 1024,
@@ -8768,7 +9258,10 @@ pg.activity_event_pt = {
 	},
 	[1025] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 1025,
@@ -9099,7 +9592,10 @@ pg.activity_event_pt = {
 	},
 	[1026] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 1026,
@@ -9430,7 +9926,10 @@ pg.activity_event_pt = {
 	},
 	[1027] = {
 		link_id = 0,
+		buff_group = "",
+		target_buff = "",
 		type = 1,
+		drop_display = "",
 		pic_list = "",
 		pt_list = "",
 		id_2 = 1027,
@@ -9802,6 +10301,7 @@ pg.activity_event_pt = {
 		703,
 		732,
 		740,
+		753,
 		1020,
 		1021,
 		1022,

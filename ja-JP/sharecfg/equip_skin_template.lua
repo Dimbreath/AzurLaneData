@@ -6784,6 +6784,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[320] = {
+		icon = "92511",
+		bullet_name = "zidan_xingzi",
+		name = "スター弾（紫）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「木っ端微塵にしますね～」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 320,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[321] = {
+		icon = "92512",
+		bullet_name = "zidan_xinglan",
+		name = "スター弾（青）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「愛と平和と、光を…！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 321,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[322] = {
+		icon = "92513",
+		bullet_name = "zidan_xingbai",
+		name = "スター弾（白）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「エレガントに撃ちます…！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 322,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[323] = {
+		icon = "92514",
+		bullet_name = "paodan_xingyun",
+		name = "スター砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「アイドルインパクト！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 323,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[324] = {
+		icon = "92515",
+		bullet_name = "paodan_love",
+		name = "恋スター砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「愛しいご主人様のために…」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 324,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[325] = {
+		icon = "92516",
+		bullet_name = "paodan_liuxing",
+		name = "流れ星砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「あっそ。こうやって撃てばいいわね」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 325,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[326] = {
+		icon = "92521",
+		bullet_name = "yulei_hangtian",
+		name = "スペース魚雷（赤）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「大きいの（敵）から消し去ってやりますわ♡」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 326,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[327] = {
+		icon = "92522",
+		bullet_name = "yulei_huojian",
+		name = "スペース魚雷（青）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「サプライズ～！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 327,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[328] = {
+		icon = "92523",
+		bullet_name = "yulei_weixing",
+		name = "サテライト魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「ワスプ、位置観測を頼む！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 328,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[329] = {
+		icon = "92531",
+		bullet_name = "feiji_hangkongwutai",
+		name = "飛行体饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ステージは宇宙ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 329,
+		derivate_torpedo = "yulei_hangtian",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[330] = {
+		icon = "92531",
+		bullet_name = "feiji_hangkongwutai",
+		name = "飛行体饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ステージは宇宙ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xingzi",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 330,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[331] = {
+		icon = "92531",
+		bullet_name = "feiji_hangkongwutai",
+		name = "飛行体饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ステージは宇宙ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xingzi",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 331,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[332] = {
+		icon = "92532",
+		bullet_name = "feiji_weixingbanwu",
+		name = "衛星饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "バックダンスはおまかせピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 332,
+		derivate_torpedo = "yulei_huojian",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[333] = {
+		icon = "92532",
+		bullet_name = "feiji_weixingbanwu",
+		name = "衛星饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "バックダンスはおまかせピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xinglan",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 333,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[334] = {
+		icon = "92532",
+		bullet_name = "feiji_weixingbanwu",
+		name = "衛星饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "バックダンスはおまかせピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xinglan",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 334,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[335] = {
+		icon = "92533",
+		bullet_name = "feiji_shenshengtianshi",
+		name = "エンヘル饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "神聖なる音楽の力ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 335,
+		derivate_torpedo = "yulei_weixing",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[336] = {
+		icon = "92533",
+		bullet_name = "feiji_shenshengtianshi",
+		name = "エンヘル饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "神聖なる音楽の力ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xingbai",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 336,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[337] = {
+		icon = "92533",
+		bullet_name = "feiji_shenshengtianshi",
+		name = "エンヘル饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "神聖なる音楽の力ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xingbai",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 337,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -8438,6 +8921,24 @@ pg.equip_skin_template = {
 		315,
 		316,
 		317,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
 		1001,
 		1002,
 		1003,

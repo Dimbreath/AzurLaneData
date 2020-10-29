@@ -80034,6 +80034,324 @@ pg.equip_data_statistics = {
 			60572
 		}
 	},
+	[79611] = {
+		name = "专属弹幕-罗恩μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 79611,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79611
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79612] = {
+		name = "专属弹幕-罗恩μII",
+		base = 79611,
+		id = 79612,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79612
+		}
+	},
+	[79621] = {
+		name = "专属弹幕-恶毒μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 79621,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60581
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79622] = {
+		name = "专属弹幕-恶毒μII",
+		base = 79621,
+		id = 79622,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60582
+		}
+	},
+	[79631] = {
+		name = "专属弹幕-黛朵μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 79631,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79631
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79632] = {
+		name = "专属弹幕-黛朵μII",
+		base = 79631,
+		id = 79632,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79632
+		}
+	},
+	[79641] = {
+		name = "专属弹幕-塔什干μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 79641,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79641
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79642] = {
+		name = "专属弹幕-塔什干μII",
+		base = 79641,
+		id = 79642,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79642
+		}
+	},
+	[79651] = {
+		name = "专属弹幕-大青花鱼μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 79651,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79651
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79652] = {
+		name = "专属弹幕-大青花鱼μII",
+		base = 79651,
+		id = 79652,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79652
+		}
+	},
+	[79661] = {
+		name = "专属弹幕-巴尔的摩μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 79661,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79661
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79662] = {
+		name = "专属弹幕-巴尔的摩μII",
+		base = 79661,
+		id = 79662,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79662
+		}
+	},
 	[85000] = {
 		name = "130mm連装砲B-2LM",
 		speciality = "追尾",
@@ -83177,6 +83495,573 @@ pg.equip_data_statistics = {
 		base = 89120,
 		value_2 = 8,
 		value_1 = "245",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89140] = {
+		name = "熱愛のフィリンエッター",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 89140,
+		value_2 = 15,
+		icon = "89140",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "「私の歌は指揮官様、あなただけのため――」",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6710
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89141] = {
+		id = 89141,
+		base = 89140,
+		value_2 = 16,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89142] = {
+		id = 89142,
+		base = 89140,
+		value_2 = 17,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89143] = {
+		id = 89143,
+		base = 89140,
+		value_2 = 18,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89144] = {
+		id = 89144,
+		base = 89140,
+		value_2 = 19,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89145] = {
+		id = 89145,
+		base = 89140,
+		value_2 = 20,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89146] = {
+		id = 89146,
+		base = 89140,
+		value_2 = 22,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89147] = {
+		id = 89147,
+		base = 89140,
+		value_2 = 24,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89148] = {
+		id = 89148,
+		base = 89140,
+		value_2 = 26,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89149] = {
+		id = 89149,
+		base = 89140,
+		value_2 = 28,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89150] = {
+		id = 89150,
+		base = 89140,
+		value_2 = 30,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89160] = {
+		name = "神聖なるリュミエール",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 89160,
+		value_2 = 15,
+		icon = "89160",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "「罪のヒトよ、アイリスの救いの歌に身を、心を清めよ」",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6711
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89161] = {
+		id = 89161,
+		base = 89160,
+		value_2 = 16,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89162] = {
+		id = 89162,
+		base = 89160,
+		value_2 = 17,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89163] = {
+		id = 89163,
+		base = 89160,
+		value_2 = 18,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89164] = {
+		id = 89164,
+		base = 89160,
+		value_2 = 19,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89165] = {
+		id = 89165,
+		base = 89160,
+		value_2 = 20,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89166] = {
+		id = 89166,
+		base = 89160,
+		value_2 = 22,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89167] = {
+		id = 89167,
+		base = 89160,
+		value_2 = 24,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89168] = {
+		id = 89168,
+		base = 89160,
+		value_2 = 26,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89169] = {
+		id = 89169,
+		base = 89160,
+		value_2 = 28,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89170] = {
+		id = 89170,
+		base = 89160,
+		value_2 = 30,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89180] = {
+		name = "輝けるアストラム",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 89180,
+		value_2 = 15,
+		icon = "89180",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "「私たちの歌で、愛と平和、そして光を遠くへと届けましょう」",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6712
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89181] = {
+		id = 89181,
+		base = 89180,
+		value_2 = 16,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89182] = {
+		id = 89182,
+		base = 89180,
+		value_2 = 17,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89183] = {
+		id = 89183,
+		base = 89180,
+		value_2 = 18,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89184] = {
+		id = 89184,
+		base = 89180,
+		value_2 = 19,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89185] = {
+		id = 89185,
+		base = 89180,
+		value_2 = 20,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89186] = {
+		id = 89186,
+		base = 89180,
+		value_2 = 22,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89187] = {
+		id = 89187,
+		base = 89180,
+		value_2 = 24,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89188] = {
+		id = 89188,
+		base = 89180,
+		value_2 = 26,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89189] = {
+		id = 89189,
+		base = 89180,
+		value_2 = 28,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89190] = {
+		id = 89190,
+		base = 89180,
+		value_2 = 30,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89200] = {
+		name = "グラヴィティシューズ",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 89200,
+		value_2 = 1,
+		icon = "89200",
+		value_1 = "13",
+		attribute_2 = "speed",
+		rarity = 5,
+		descrip = "「名付けて、なりきりアイドルにゃ！」装備艦船は「μ兵装」としても扱われます",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6690
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89201] = {
+		base = 89200,
+		id = 89201,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89202] = {
+		base = 89200,
+		id = 89202,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89203] = {
+		id = 89203,
+		base = 89200,
+		value_2 = 2,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89204] = {
+		id = 89204,
+		base = 89200,
+		value_2 = 2,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89205] = {
+		id = 89205,
+		base = 89200,
+		value_2 = 2,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89206] = {
+		id = 89206,
+		base = 89200,
+		value_2 = 3,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89207] = {
+		id = 89207,
+		base = 89200,
+		value_2 = 3,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89208] = {
+		id = 89208,
+		base = 89200,
+		value_2 = 4,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89209] = {
+		id = 89209,
+		base = 89200,
+		value_2 = 4,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89210] = {
+		id = 89210,
+		base = 89200,
+		value_2 = 5,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89220] = {
+		name = "ネビュラドレス",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 89220,
+		value_2 = 0,
+		icon = "89220",
+		value_1 = "250",
+		descrip = "「見た目だけでも、『あいどる』に仕上げて差し上げましょう…」装備艦船は「μ兵装」としても扱われます",
+		rarity = 5,
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6700
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89221] = {
+		base = 89220,
+		id = 89221,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89222] = {
+		base = 89220,
+		id = 89222,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89223] = {
+		base = 89220,
+		id = 89223,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89224] = {
+		base = 89220,
+		id = 89224,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89225] = {
+		base = 89220,
+		id = 89225,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89226] = {
+		base = 89220,
+		id = 89226,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89227] = {
+		base = 89220,
+		id = 89227,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89228] = {
+		base = 89220,
+		id = 89228,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89229] = {
+		base = 89220,
+		id = 89229,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89230] = {
+		base = 89220,
+		id = 89230,
+		value_1 = "550",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -94932,6 +95817,18 @@ pg.equip_data_statistics = {
 		79592,
 		79601,
 		79602,
+		79611,
+		79612,
+		79621,
+		79622,
+		79631,
+		79632,
+		79641,
+		79642,
+		79651,
+		79652,
+		79661,
+		79662,
 		85000,
 		85001,
 		85002,
@@ -95157,6 +96054,61 @@ pg.equip_data_statistics = {
 		89128,
 		89129,
 		89130,
+		89140,
+		89141,
+		89142,
+		89143,
+		89144,
+		89145,
+		89146,
+		89147,
+		89148,
+		89149,
+		89150,
+		89160,
+		89161,
+		89162,
+		89163,
+		89164,
+		89165,
+		89166,
+		89167,
+		89168,
+		89169,
+		89170,
+		89180,
+		89181,
+		89182,
+		89183,
+		89184,
+		89185,
+		89186,
+		89187,
+		89188,
+		89189,
+		89190,
+		89200,
+		89201,
+		89202,
+		89203,
+		89204,
+		89205,
+		89206,
+		89207,
+		89208,
+		89209,
+		89210,
+		89220,
+		89221,
+		89222,
+		89223,
+		89224,
+		89225,
+		89226,
+		89227,
+		89228,
+		89229,
+		89230,
 		90000,
 		90001,
 		90002,

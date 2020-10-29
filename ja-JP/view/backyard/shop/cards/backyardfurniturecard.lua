@@ -79,6 +79,7 @@ function slot0.UpdateCountdown(slot0, slot1)
 	slot0:DestoryTimer()
 
 	slot3 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
+	slot0.prevStr = ""
 	slot0.updateTimer = Timer.New(function ()
 		slot0 = ""
 

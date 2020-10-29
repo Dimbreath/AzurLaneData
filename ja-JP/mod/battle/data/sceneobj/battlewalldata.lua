@@ -4,6 +4,8 @@ slot1 = slot0.Battle.BattleConst
 slot0.Battle.BattleWallData = class("BattleWallData")
 slot0.Battle.BattleWallData.__name = "BattleWallData"
 slot2 = slot0.Battle.BattleWallData
+slot2.CLD_OBJ_TYPE_BULLET = 1
+slot2.CLD_OBJ_TYPE_SHIP = 2
 
 function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._id = slot1
@@ -26,6 +28,7 @@ function slot2.InitCldComponent(slot0)
 		func = slot0:GetCldFunc()
 	})
 	slot0._cldComponent:SetActive(true)
+	slot0:SetCldObjType()
 end
 
 function slot2.IsActive(slot0)
@@ -66,4 +69,12 @@ end
 
 function slot2.GetCldFunc(slot0)
 	return slot0._cldFun
+end
+
+function slot2.SetCldObjType(slot0, slot1)
+	slot0._cldObjType = slot1 or uv0.CLD_OBJ_TYPE_BULLET
+end
+
+function slot2.GetCldObjType(slot0)
+	return slot0._cldObjType
 end

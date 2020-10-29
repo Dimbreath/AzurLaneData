@@ -82,21 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>ビスマルク</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ダイドー（μ兵装）</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>U-96</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>大鳳（μ兵装）</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>キング・ジョージ5世</color>：0.5%",
+			"<color=#ffde38>タシュケント（μ兵装）</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>Z26</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>ボルチモア（μ兵装）</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>Z36</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>U-73</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>U-556</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#3dc6ff>エコー</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>アルバコア（μ兵装）</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
