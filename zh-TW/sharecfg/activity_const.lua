@@ -376,7 +376,7 @@ pg.activity_const = {
 		act_id = 397
 	},
 	BAILEY_HALLOWEEN_REMAKE = {
-		act_id = 398
+		act_id = 40167
 	},
 	MEMPHIS_HALLOWEEN = {
 		act_id = 399
@@ -632,6 +632,9 @@ pg.activity_const = {
 	},
 	UR_TASK_ACT_ID = {
 		act_id = 713
+	},
+	MUSIC_FESTIVAL_ID_2 = {
+		act_id = 762
 	},
 	SUMMER_REMAKE = {
 		act_id = 40147

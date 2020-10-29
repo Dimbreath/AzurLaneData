@@ -775,6 +775,42 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[36] = {
+		num_limit = 1,
+		activity = 40167,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 101271,
+		scene = "",
+		id = 36,
+		order = 800,
+		time = {
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[40] = {
 		num_limit = 1,
 		activity = 422,
@@ -1125,6 +1161,7 @@ pg.activity_shop_extra = {
 		26,
 		27,
 		28,
+		36,
 		40,
 		47,
 		49,

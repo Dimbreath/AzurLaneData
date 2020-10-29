@@ -718,5 +718,12 @@ pg.gameset = {
 				10000
 			}
 		}
+	},
+	urpt_chapter_max = {
+		key_value = 0,
+		description = {
+			59010,
+			4000
+		}
 	}
 }

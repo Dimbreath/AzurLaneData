@@ -35102,6 +35102,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[213041] = {
+		name = "驚叫南瓜！",
+		ship_group = 21304,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Boom！不是南瓜，而是阿貝克隆比和她的Mark I！指揮官，有沒有被嚇一跳呀？嘻嘻~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "abeikelongbi_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 8,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "119",
+		skin_type = 0,
+		id = 213041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "abeikelongbi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70256,
+		voice_actor = 105,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.868,
+					3.337,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.723,
+					3.272,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					-0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.795,
+					3.137,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.346,
+							2.301,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301010] = {
 		name = "{namecode:2}",
 		ship_group = 30101,
@@ -41961,6 +42072,117 @@ pg.ship_skin_template = {
 				{
 					0.88,
 					0.61,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301411] = {
+		name = "殭屍小姐駕到！",
+		ship_group = 30141,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "{namecode:126}…變成了殭屍？我跳~我跳~指揮官，有鯛魚燒嗎？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "sanriyue_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 8,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "119",
+		skin_type = 0,
+		id = 301411,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sanriyue_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70258,
+		voice_actor = 119,
+		air_bomb_skin = "",
+		illustrator = 34,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.505,
+					1.415,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.468,
+					1.427,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.505,
+					1.458,
 					0
 				}
 			}
@@ -63227,6 +63449,136 @@ pg.ship_skin_template = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[404021] = {
+		name = "夢魘魅影",
+		ship_group = 40402,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "萬聖節的派對，似乎還挺有趣的，從好的意義來說。 “扮演鬼怪”這個活動還是挺值得嘗試的。指揮官，覺得我這身打扮如何呢？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "genaisennao_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 8,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "119",
+		skin_type = 0,
+		id = 404021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "genaisennao_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70253,
+		voice_actor = 26,
+		air_bomb_skin = "",
+		illustrator = 32,
+		rarity_bg = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			5,
+			-50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.591,
+					1.331,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.597,
+					1.336,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.007,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.617,
+					1.369,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.474,
+							2.44,
+							-0.73
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-30,
+				30
 			}
 		}
 	},
@@ -86723,7 +87075,8 @@ pg.ship_skin_template = {
 			213021
 		},
 		[21304] = {
-			213040
+			213040,
+			213041
 		},
 		[30101] = {
 			301010,
@@ -86840,7 +87193,8 @@ pg.ship_skin_template = {
 			301381
 		},
 		[30141] = {
-			301410
+			301410,
+			301411
 		},
 		[30149] = {
 			301490,
@@ -87211,7 +87565,8 @@ pg.ship_skin_template = {
 			404011
 		},
 		[40402] = {
-			404020
+			404020,
+			404021
 		},
 		[40501] = {
 			405010,
@@ -88085,6 +88440,7 @@ pg.ship_skin_template = {
 		213020,
 		213021,
 		213040,
+		213041,
 		301010,
 		301011,
 		301013,
@@ -88147,6 +88503,7 @@ pg.ship_skin_template = {
 		301380,
 		301381,
 		301410,
+		301411,
 		301490,
 		301491,
 		301498,
@@ -88341,6 +88698,7 @@ pg.ship_skin_template = {
 		404010,
 		404011,
 		404020,
+		404021,
 		405010,
 		405011,
 		405020,

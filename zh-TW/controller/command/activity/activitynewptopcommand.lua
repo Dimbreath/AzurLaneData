@@ -27,6 +27,18 @@ function slot0.execute(slot0, slot1)
 				end
 			elseif uv0.cmd == 2 then
 				uv1.data3 = slot0.number[1]
+			elseif uv0.cmd == 3 then
+				slot1 = PlayerConst.addTranDrop(slot0.award_list)
+
+				if uv0.arg1 and uv0.arg1 > 0 then
+					table.insert(uv1.data2_list, uv0.arg1)
+				end
+
+				for slot6, slot7 in ipairs(uv1.data3_list) do
+					if slot7 == (uv0.oldBuffId or 0) then
+						uv1.data3_list[slot6] = uv0.arg2
+					end
+				end
 			end
 
 			uv2:updateActivity(uv1)

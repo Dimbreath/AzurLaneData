@@ -7614,7 +7614,7 @@ $3]]
 		tip = "請先閱讀完使用者協定"
 	},
 	award_max_warning = {
-		tip = "部分獎勵將會因超出上限而浪費,是否仍要領取?"
+		tip = "以下獎勵因超出上限而<color=#ff5c5c>無法獲得</color>，是否仍要領取？"
 	},
 	sub_item_warning = {
 		tip = "是否提交以下物品?"
@@ -10589,6 +10589,9 @@ TIPS：
 ]]
 			}
 		}
+	},
+	award_overflow_tip = {
+		tip = "部分的獎勵將超出資源上限，請手動領取。 "
 	},
 	multiple_ship_energy_low_warn = {
 		tip = "$1中$2處於心情低落狀態，強制出擊將降低好感且獲得經驗減半"

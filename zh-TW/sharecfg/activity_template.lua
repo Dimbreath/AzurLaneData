@@ -6131,6 +6131,101 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40167] = {
+		mark = 20201009,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 19,
+		title_res_tag = "twbeiliHW",
+		id = 40167,
+		config_data = {
+			{
+				15060,
+				15061
+			},
+			{
+				15062,
+				15063
+			},
+			{
+				15064,
+				15065
+			},
+			{
+				15066,
+				15067
+			},
+			{
+				15068,
+				15069
+			},
+			{
+				15070,
+				15071
+			},
+			{
+				15072,
+				15073
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BaileyHalloweenPage",
+			ui_name = "baileyhalloweenpage"
+		},
+		config_client = {
+			story = {
+				{
+					"BEILIWANSHENGJIE1"
+				},
+				{
+					"BEILIWANSHENGJIE2"
+				},
+				{
+					"BEILIWANSHENGJIE3"
+				},
+				{
+					"BEILIWANSHENGJIE4"
+				},
+				{
+					"BEILIWANSHENGJIE5"
+				},
+				{
+					"BEILIWANSHENGJIE6"
+				},
+				{
+					"BEILIWANSHENGJIE7"
+				}
+			}
+		}
+	},
 	[40168] = {
 		mark = 20190606,
 		page_info = "",
@@ -7481,6 +7576,7 @@ pg.activity_template = {
 		40164,
 		40165,
 		40166,
+		40167,
 		40168,
 		40169,
 		40170,

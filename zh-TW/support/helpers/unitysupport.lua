@@ -631,7 +631,7 @@ end
 
 function setGray(slot0, slot1, slot2)
 	if slot1 and GetOrAddComponent(slot0, "UIGrayScale") or GetComponent(slot0, "UIGrayScale") then
-		slot3.recursive = slot2 ~= nil and slot2 or true
+		slot3.recursive = defaultValue(slot2, true)
 		slot3.enabled = slot1
 	end
 end

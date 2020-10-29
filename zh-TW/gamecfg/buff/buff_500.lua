@@ -11,12 +11,23 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 500
+				buff_id = 501,
+				target = "TargetAllHelp"
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onSubmarineAid"
+			},
+			arg_list = {
+				buff_id = 501,
+				target = "TargetAllHelp"
 			}
 		}
 	}

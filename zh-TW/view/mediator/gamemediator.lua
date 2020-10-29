@@ -200,6 +200,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.MUSIC_FESTIVAL then
 			slot4.mediator = MusicFestivalMediator
 			slot4.viewComponent = MusicFestivalScene
+		elseif slot3 == SCENE.MUSIC_FESTIVAL2 then
+			slot4.mediator = MusicFestivalMediator
+			slot4.viewComponent = MusicFestivalScene2
 		elseif slot3 == SCENE.HOLOLIVE_MEDAL then
 			slot4.mediator = HololiveMedalCollectionMediator
 			slot4.viewComponent = HololiveMedalCollectionView
@@ -227,6 +230,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.IDOL_MEDAL_COLLECTION_SCENE then
 			slot4.mediator = IdolMedalCollectionMediator
 			slot4.viewComponent = IdolMedalCollectionView
+		elseif slot3 == SCENE.IDOL_MEDAL_COLLECTION_SCENE2 then
+			slot4.mediator = IdolMedalCollectionMediator
+			slot4.viewComponent = IdolMedalCollectionView2
 		elseif slot3 == SCENE.PHYSICS2D_TEST then
 			slot4.mediator = Physics2dMediator
 			slot4.viewComponent = Physics2dScene

@@ -247,6 +247,22 @@ pg.share_template = {
 			"UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/pages/page5/shadow_4"
 		}
 	},
+	{
+		description = "#碧蓝航线#",
+		name = "POLARIS活动大佬章界面分享",
+		deck = 0,
+		move_comps = "",
+		camera = "OverlayCamera",
+		show_comps = "",
+		id = 15,
+		qrcode_location = {
+			-592,
+			-436
+		},
+		hidden_comps = {
+			"/OverlayCamera/Overlay/UIEffect/ClickEffect(Clone)"
+		}
+	},
 	[5000] = {
 		description = "#碧蓝航线#",
 		name = "台服分享活动（改动过唯一id 原id12）",
@@ -278,6 +294,7 @@ pg.share_template = {
 		12,
 		13,
 		14,
+		15,
 		5000
 	}
 }

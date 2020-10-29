@@ -172,7 +172,7 @@ function slot0.initAll(slot0, slot1)
 			uv0:UpdateFloor()
 			uv0:updateAttachments()
 			uv0:InitWalls()
-			uv0:UpdateIdolsAnim()
+			uv0:InitIdolsAnim()
 			onNextTick(slot0)
 		end,
 		function (slot0)
@@ -2994,18 +2994,22 @@ function slot0.updateCoastalGunAttachArea(slot0)
 	slot0:showQuadMark(slot0.contextData.chapterVO:getCoastalGunArea(), ChapterConst.MarkCoastalGun, "cell_coastal_gun", Vector2(110, 110), nil, false)
 end
 
-function slot0.UpdateIdolsAnim(slot0)
+function slot0.InitIdolsAnim(slot0)
 	if not pg.chapter_pop_template[slot0.contextData.chapterVO.id] then
 		return
 	end
 
-	for slot8, slot9 in ipairs(slot2.sd_location) do
+	for slot7, slot8 in ipairs(slot2.sd_location) do
 		slot0.idols = slot0.idols or {}
-		slot12 = SpineAnimationGroup.New(slot0.cellRoot:Find(ChapterCell.Line2Name(slot9[1][1], slot9[1][2]) .. "/" .. ChapterConst.ChildAttachment))
+		slot11 = AttachmentSpineAnimationCell.New(slot0.cellRoot:Find(ChapterCell.Line2Name(slot8[1][1], slot8[1][2]) .. "/" .. ChapterConst.ChildAttachment))
 
-		table.insert(slot0.idols, slot12)
-		slot12:Set(slot9[2])
-		slot12:SetRoutine(slot2.sd_act[slot8])
+		slot11:SetLine({
+			row = slot8[1][1],
+			column = slot8[1][2]
+		})
+		table.insert(slot0.idols, slot11)
+		slot11:Set(slot8[2])
+		slot11:SetRoutine(slot2.sd_act[slot7])
 	end
 end
 
@@ -3014,7 +3018,7 @@ function slot0.ClearIdolsAnim(slot0)
 
 	if slot0.idols then
 		for slot5, slot6 in ipairs(slot0.idols) do
-			slot6:ClearAll()
+			slot6:Clear()
 		end
 
 		table.clear(slot0.idols)

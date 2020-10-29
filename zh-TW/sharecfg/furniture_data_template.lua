@@ -47707,6 +47707,960 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[52001] = {
+		can_rotate = 0,
+		describe = "Happy Halloween！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/dibanhl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "驚叫小鎮地板",
+		advice = 0,
+		icon = "dibanhl3icon",
+		id = 52001,
+		comfortable = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52002] = {
+		can_rotate = 0,
+		describe = "Happy Halloween！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/qiangbihl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "驚叫小鎮壁紙",
+		advice = 0,
+		icon = "qiangbihl3icon",
+		id = 52002,
+		comfortable = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52101] = {
+		can_rotate = 0,
+		describe = "裡面藏著什麼呢~進去之前可要做好心理準備哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/baoleihl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 52,
+		count = 1,
+		name = "驚叫地堡",
+		advice = 0,
+		id = 52101,
+		icon = "baoleihl3icon",
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-89,
+					212
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					7,
+					86
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52102] = {
+		can_rotate = 1,
+		describe = "萬聖之夜限定美味~你也來一顆糖果吧？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/che2hl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "萬聖糖果車",
+		advice = 0,
+		icon = "che2hl3icon",
+		id = 52102,
+		comfortable = 2,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52103] = {
+		can_rotate = 1,
+		describe = "萬聖之夜限定美味~要來個南瓜派嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/chehl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "萬聖小吃攤",
+		advice = 0,
+		icon = "chehl3icon",
+		id = 52103,
+		comfortable = 2,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52104] = {
+		can_rotate = 1,
+		describe = "這邊又有一名嚇暈了！快快快！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/chuanghl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 52,
+		count = 1,
+		name = "啾啾救護隊",
+		advice = 0,
+		id = 52104,
+		icon = "chuanghl3icon",
+		comfortable = 3,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-21,
+					-21
+				},
+				{
+					1,
+					1
+				},
+				"hl3/chuanghl3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52105] = {
+		can_rotate = 1,
+		describe = "開始今夜的狂歡吧~",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/dengpaihl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "驚叫小鎮門牌",
+		advice = 0,
+		icon = "dengpaihl3icon",
+		id = 52105,
+		comfortable = 2,
+		size = {
+			1,
+			7
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52106] = {
+		can_rotate = 0,
+		describe = "細緻地繡著蝙蝠造型紋路的地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/ditanhl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "蝙蝠紋路地毯",
+		advice = 0,
+		icon = "ditanhl3icon",
+		id = 52106,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52107] = {
+		can_rotate = 0,
+		describe = "嘎嘎嘎~是不是很有節日的氛圍",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/guahl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南瓜燈",
+		advice = 0,
+		icon = "guahl3icon",
+		id = 52107,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52108] = {
+		can_rotate = 0,
+		describe = "我跳！我跳！啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/jiu2hl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "殭屍啾",
+		advice = 0,
+		icon = "jiu2hl3icon",
+		id = 52108,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52109] = {
+		can_rotate = 0,
+		describe = "唔…好像飄不起來…啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/jiu3hl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "幽靈啾",
+		advice = 0,
+		icon = "jiu3hl3icon",
+		id = 52109,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52110] = {
+		can_rotate = 0,
+		describe = "縫合線…要補一下了…啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/jiuhl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾造啾",
+		advice = 0,
+		icon = "jiuhl3icon",
+		id = 52110,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52111] = {
+		can_rotate = 1,
+		describe = "每到深夜，就會有啾從土裡爬出來…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/mudihl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾啾墓碑",
+		advice = 0,
+		icon = "mudihl3icon",
+		id = 52111,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52112] = {
+		can_rotate = 0,
+		describe = "裡面裝著什麼呢~？嘿嘿…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/mutonghl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "驚叫木桶",
+		advice = 0,
+		icon = "mutonghl3icon",
+		id = 52112,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52113] = {
+		can_rotate = 0,
+		describe = "很有節日氛圍的枯木",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/shu2hl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "驚叫枯木",
+		advice = 0,
+		icon = "shu2hl3icon",
+		id = 52113,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52114] = {
+		can_rotate = 0,
+		describe = "裝飾著彩燈的樹",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/shuhl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "彩燈樹",
+		advice = 0,
+		icon = "shuhl3icon",
+		id = 52114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52115] = {
+		can_rotate = 0,
+		describe = "萬聖之夜限定美味~要來一瓶“魔女的藥劑”嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/tanwei2hl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "驚叫飲料攤",
+		advice = 0,
+		icon = "tanwei2hl3icon",
+		id = 52115,
+		comfortable = 2,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52116] = {
+		can_rotate = 0,
+		describe = "看看想要哪種造型的南瓜燈~?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/tanweihl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南瓜燈攤位",
+		advice = 0,
+		icon = "tanweihl3icon",
+		id = 52116,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52117] = {
+		can_rotate = 0,
+		describe = "歡迎自取~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/wuhl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "糖果南瓜屋",
+		advice = 0,
+		icon = "wuhl3icon",
+		id = 52117,
+		comfortable = 3,
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52118] = {
+		can_rotate = 0,
+		describe = "今晚的特別遊行時間是…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl3/zhalanhl3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 52,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "驚叫告示牌",
+		advice = 0,
+		icon = "zhalanhl3icon",
+		id = 52118,
+		comfortable = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[52119] = {
+		can_rotate = 0,
+		describe = "加長型轎車，附啾啾司機~？",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 52,
+		icon = "che3hl3icon",
+		count = 1,
+		name = "驚叫貴賓車",
+		id = 52119,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ghostcarB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"ghostcarT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"sit"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"ghostcarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[52120] = {
+		can_rotate = 0,
+		describe = "膽小鬼請謹慎觀影~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 52,
+		icon = "fangyingjihl3",
+		count = 1,
+		name = "驚叫放映機",
+		id = 52120,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ghostmovie",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"ghostmovieCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[54104] = {
 		can_rotate = 1,
 		describe = "燈光似乎都散發甜甜的香氣",
@@ -48980,6 +49934,28 @@ pg.furniture_data_template = {
 		51116,
 		51117,
 		51118,
+		52001,
+		52002,
+		52101,
+		52102,
+		52103,
+		52104,
+		52105,
+		52106,
+		52107,
+		52108,
+		52109,
+		52110,
+		52111,
+		52112,
+		52113,
+		52114,
+		52115,
+		52116,
+		52117,
+		52118,
+		52119,
+		52120,
 		54104,
 		54105,
 		59102,

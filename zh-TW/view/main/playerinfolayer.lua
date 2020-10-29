@@ -475,12 +475,10 @@ end
 
 function slot0.isCurrentShipExistSkin(slot0, slot1)
 	if slot1 then
-		if #slot0:getGroupSkinList(slot1) > 1 then
-			return true
-		elseif #slot2 == 1 then
-			return false
-		end
+		return getProxy(ShipSkinProxy):HasFashion(slot1)
 	end
+
+	return false
 end
 
 function slot0.getGroupSkinList(slot0, slot1)

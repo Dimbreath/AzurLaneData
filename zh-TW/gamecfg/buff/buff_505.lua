@@ -16,7 +16,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				number = 0.02,
+				number = 0.03,
 				attr = "damageRatioBullet"
 			}
 		}

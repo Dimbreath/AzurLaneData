@@ -315,4 +315,12 @@ function slot0.GetAllSkinForARCamera(slot0, slot1)
 	return slot2
 end
 
+function slot0.HasFashion(slot0, slot1)
+	if #slot0:GetAllSkinForShip(slot1) == 1 then
+		return PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2[1].painting .. "_n"))
+	end
+
+	return #slot2 > 1
+end
+
 return slot0

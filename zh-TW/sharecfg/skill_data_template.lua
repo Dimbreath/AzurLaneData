@@ -21711,7 +21711,7 @@ pg.skill_data_template = {
 	},
 	[11930] = {
 		desc_get = "",
-		name = "“杜立特空襲”",
+		name = "杜立特空襲.改",
 		desc = "空襲時有$1機率觸發，使用B#25進行額外一輪航空彈幕攻擊",
 		type = 1,
 		max_level = 10,
@@ -21726,43 +21726,43 @@ pg.skill_data_template = {
 		desc_add = {
 			{
 				{
-					"40.0%",
+					"50.0%",
 					"+3.3%"
 				},
 				{
-					"43.3%",
+					"53.3%",
 					"+3.3%"
 				},
 				{
-					"46.6%",
+					"56.6%",
 					"+3.3%"
 				},
 				{
-					"49.9%",
+					"59.9%",
 					"+3.3 %"
 				},
 				{
-					"53.2%",
+					"63.2%",
 					"+3.3%"
 				},
 				{
-					"56.5%",
+					"66.5%",
 					"+3.3%"
 				},
 				{
-					"59.8%",
+					"69.8%",
 					"+3.3%"
 				},
 				{
-					"63.1%",
+					"73.1%",
 					" +3.3%"
 				},
 				{
-					"66.4%",
+					"76.4%",
 					"+3.6%"
 				},
 				{
-					"70%"
+					"80%"
 				}
 			}
 		}
@@ -41782,6 +41782,138 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29611] = {
+		desc_get = "",
+		name = "专属弹幕-罗恩(μ兵装)I",
+		desc = "主炮每进行12次攻击，触发专属弹幕-罗恩(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29611,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29612] = {
+		desc_get = "",
+		name = "专属弹幕-罗恩(μ兵装)II",
+		desc = "主炮每进行8次攻击，触发专属弹幕-罗恩(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29612,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29621] = {
+		desc_get = "",
+		name = "专属弹幕-恶毒(μ兵装)I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-恶毒(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29621,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29622] = {
+		desc_get = "",
+		name = "专属弹幕-恶毒(μ兵装)II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-恶毒(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29622,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29631] = {
+		desc_get = "",
+		name = "专属弹幕-黛朵(μ兵装)I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-黛朵(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29631,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29632] = {
+		desc_get = "",
+		name = "专属弹幕-黛朵(μ兵装)II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-黛朵(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29632,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29641] = {
+		desc_get = "",
+		name = "专属弹幕-塔什干(μ兵装)I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-塔什干(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29641,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29642] = {
+		desc_get = "",
+		name = "专属弹幕-塔什干(μ兵装)II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-塔什干(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29642,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29651] = {
+		desc_get = "",
+		name = "专属弹幕-大青花鱼(μ兵装)I",
+		desc = "进入战斗时，触发专属弹幕-大青花鱼(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29651,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29652] = {
+		desc_get = "",
+		name = "专属弹幕-大青花鱼(μ兵装)II",
+		desc = "进入战斗时，触发专属弹幕-大青花鱼(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29652,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29661] = {
+		desc_get = "",
+		name = "专属弹幕-巴尔的摩(μ兵装)I",
+		desc = "主炮每进行12次攻击，触发专属弹幕-巴尔的摩(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29661,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29662] = {
+		desc_get = "",
+		name = "专属弹幕-巴尔的摩(μ兵装)II",
+		desc = "主炮每进行8次攻击，触发专属弹幕-巴尔的摩(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29662,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[101010] = {
 		desc_get = "",
 		name = "主人公補正",
@@ -45481,6 +45613,18 @@ pg.skill_data_template = {
 		29592,
 		29601,
 		29602,
+		29611,
+		29612,
+		29621,
+		29622,
+		29631,
+		29632,
+		29641,
+		29642,
+		29651,
+		29652,
+		29661,
+		29662,
 		101010,
 		101020,
 		101030,

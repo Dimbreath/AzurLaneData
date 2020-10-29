@@ -1060,7 +1060,7 @@ pg.backyard_theme_template = {
 		name = "萬聖鬼夜",
 		desc = "歡迎來到萬聖樂園！",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -1643,6 +1643,43 @@ pg.backyard_theme_template = {
 			51118
 		}
 	},
+	[52] = {
+		Cfg_1 = 5,
+		name = "驚叫小鎮",
+		desc = "Happy Halloween！",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 52,
+		icon = "hl3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			52001,
+			52002,
+			52101,
+			52102,
+			52103,
+			52104,
+			52105,
+			52106,
+			52107,
+			52108,
+			52109,
+			52110,
+			52111,
+			52112,
+			52113,
+			52114,
+			52115,
+			52116,
+			52117,
+			52118
+		}
+	},
 	[54] = {
 		Cfg_1 = 5,
 		name = "pocky联动",
@@ -1696,6 +1733,7 @@ pg.backyard_theme_template = {
 		45,
 		49,
 		51,
+		52,
 		54
 	}
 }

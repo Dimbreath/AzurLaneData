@@ -136,19 +136,21 @@ slot29 = 5
 slot30 = 0
 slot31 = 1000000
 slot32 = 50000
-slot33 = "bgm-backyard"
-slot34 = "event:/ui/getcandy"
-slot35 = "event:/ui/jackboom"
+slot33 = "event:/ui/getcandy"
+slot34 = "event:/ui/jackboom"
 
-function slot36(slot0)
-	print(slot0)
+function slot35(slot0)
 end
 
 function slot0.getUIName(slot0)
 	return "HalloweenGameUI"
 end
 
-function slot37(slot0, slot1, slot2)
+function slot0.getBGM(slot0)
+	return "backyard"
+end
+
+function slot36(slot0, slot1, slot2)
 	slot3 = {
 		charactorTf = slot0,
 		moveRanges = slot1,
@@ -567,7 +569,7 @@ function slot37(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot38(slot0, slot1)
+function slot37(slot0, slot1)
 	slot2 = {
 		moveTf = slot0,
 		useLightTf = slot1,
@@ -595,19 +597,27 @@ function slot38(slot0, slot1)
 				end
 			end)
 
-			slot0.delegate = GetOrAddComponent(slot0.moveTf, "EventTriggerListener")
+			slot0.delegateLeft = GetOrAddComponent(findTF(slot0.moveTf, "left"), "EventTriggerListener")
+			slot0.delegateRight = GetOrAddComponent(findTF(slot0.moveTf, "right"), "EventTriggerListener")
 
-			slot0.delegate:AddPointDownFunc(function (slot0, slot1)
-				uv0:callbackDirect(slot1, uv0.pointChangeCallback)
+			slot0.delegateLeft:AddPointDownFunc(function (slot0, slot1)
+				if uv0.pointChangeCallback then
+					uv0.pointChangeCallback(uv1)
+				end
 			end)
-			slot0.delegate:AddDragFunc(function (slot0, slot1)
-				uv0:callbackDirect(slot1, uv0.pointChangeCallback)
+			slot0.delegateRight:AddPointDownFunc(function (slot0, slot1)
+				if uv0.pointChangeCallback then
+					uv0.pointChangeCallback(uv1)
+				end
 			end)
-			slot0.delegate:AddPointUpFunc(function (slot0, slot1)
-				uv0.direct = 0
-
+			slot0.delegateLeft:AddPointUpFunc(function (slot0, slot1)
 				if uv0.pointUpCallback then
-					uv0.pointUpCallback()
+					uv0.pointUpCallback(uv1)
+				end
+			end)
+			slot0.delegateRight:AddPointUpFunc(function (slot0, slot1)
+				if uv0.pointUpCallback then
+					uv0.pointUpCallback(uv1)
 				end
 			end)
 
@@ -621,12 +631,7 @@ function slot38(slot0, slot1)
 			slot3 = slot0:getPointFromEventData(slot1)
 
 			uv0(slot3.x .. "  " .. slot3.y)
-
-			if slot0.direct ~= slot0:getDirect(slot3) then
-				slot0.direct = slot4
-
-				slot2(slot0.direct)
-			end
+			slot2(slot0:getDirect(slot3))
 		end,
 		getPointFromEventData = function (slot0, slot1)
 			if not slot0.uiCam then
@@ -673,8 +678,12 @@ function slot38(slot0, slot1)
 			setActive(findTF(slot0.useLightTf, "light"), false)
 		end,
 		destroy = function (slot0)
-			if slot0.delegate then
-				ClearEventTrigger(slot0.delegate)
+			if slot0.delegateLeft then
+				ClearEventTrigger(slot0.delegateLeft)
+			end
+
+			if slot0.delegateRight then
+				ClearEventTrigger(slot0.delegateRight)
 			end
 		end
 	}
@@ -684,7 +693,7 @@ function slot38(slot0, slot1)
 	return slot2
 end
 
-function slot39(slot0, slot1)
+function slot38(slot0, slot1)
 	slot2 = {
 		_tf = slot0,
 		moveRange = slot1,
@@ -790,7 +799,7 @@ function slot39(slot0, slot1)
 	return slot2
 end
 
-function slot40()
+function slot39()
 	return {
 		speedLevel = 1,
 		dropRequestCallback = nil,
@@ -833,7 +842,7 @@ function slot40()
 	}
 end
 
-function slot41(slot0, slot1)
+function slot40(slot0, slot1)
 	return {
 		flyer = slot0,
 		scene = slot1,
@@ -1027,7 +1036,7 @@ function slot41(slot0, slot1)
 	}
 end
 
-function slot42(slot0, slot1, slot2)
+function slot41(slot0, slot1, slot2)
 	return {
 		charactor = slot0,
 		dropItemController = slot1,
@@ -1090,7 +1099,7 @@ function slot42(slot0, slot1, slot2)
 	}
 end
 
-function slot43(slot0)
+function slot42(slot0)
 	return {
 		_tf = slot0,
 		speedLevel = 1,
@@ -1174,7 +1183,7 @@ function slot43(slot0)
 	}
 end
 
-function slot44(slot0, slot1, slot2)
+function slot43(slot0, slot1, slot2)
 	slot4 = 4
 
 	return {
@@ -1307,7 +1316,7 @@ function slot44(slot0, slot1, slot2)
 	}
 end
 
-function slot45(slot0, slot1)
+function slot44(slot0, slot1)
 	slot3 = 3
 
 	return {
@@ -1417,8 +1426,8 @@ function slot0.initData(slot0)
 		uv0:onControllerDirectChange(slot0)
 	end
 
-	function slot0.controllerUI.pointUpCallback()
-		uv0:onControllerDirectUp()
+	function slot0.controllerUI.pointUpCallback(slot0)
+		uv0:onControllerDirectUp(slot0)
 	end
 
 	function slot0.controllerUI.pointLightCallback(slot0)
@@ -1486,7 +1495,6 @@ function slot0.initData(slot0)
 		setActive(uv0.countUI, false)
 		uv0:gameStart()
 	end)
-	CriWareMgr.Inst:PlayBGM(uv11, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 end
 
 function slot0.gameReadyStart(slot0)
@@ -1707,16 +1715,11 @@ function slot0.onColliderItem(slot0, slot1)
 end
 
 function slot0.onControllerDirectChange(slot0, slot1)
-	slot0:changeDirect(uv0, false)
-	slot0:changeDirect(uv1, false)
-	slot0.charactor:clearDirect()
-	slot0.charactor:onDirectChange(slot1, true)
+	slot0:changeDirect(slot1, true)
 end
 
-function slot0.onControllerDirectUp(slot0)
-	slot0:changeDirect(uv0, false)
-	slot0:changeDirect(uv1, false)
-	slot0.charactor:clearDirect()
+function slot0.onControllerDirectUp(slot0, slot1)
+	slot0:changeDirect(slot1, false)
 end
 
 function slot0.changeDirect(slot0, slot1, slot2)
@@ -1778,8 +1781,6 @@ function slot0.willExit(slot0)
 	if LeanTween.isTweening(go(slot0._tf)) then
 		LeanTween.cancel(go(slot0._tf))
 	end
-
-	CriWareMgr.Inst:PlayBGM("bgm-main", CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 end
 
 return slot0

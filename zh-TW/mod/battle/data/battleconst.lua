@@ -248,7 +248,6 @@ slot0.BuffEffectType = {
 	ON_TEAMMATE_HP_RATIO_UPDATE = "onTeammateHpRatioUpdate",
 	ON_HP_RATIO_UPDATE = "onHPRatioUpdate",
 	ON_BATTLE_BUFF_COUNT = "onBattleBuffCount",
-	ON_DAMAGE_PREVENT = "onDamagePrevent",
 	ON_SHIELD_BROKEN = "onShieldBroken",
 	ON_SUBMARINE_AID = "onSubmarineAid",
 	ON_SUBMARINE_FREE_DIVE = "onSubmarinFreeDive",

@@ -19,7 +19,3 @@ end
 function slot2.DataEffectWithoutTarget(slot0, slot1)
 	slot1:GetFleetVO():AppendIndieSonar(slot0._range, slot0._duration)
 end
-
-function slot2.Clear(slot0)
-	uv0.super.Clear(slot0)
-end

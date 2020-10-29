@@ -195,7 +195,7 @@ return {
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MUSIC_FESTIVAL)
 				end, SFX_PANEL)
-				setActive(slot1:Find("Tip"), IdolPTPage.NeedTip() or IdolMedalCollectionView.isHaveActivableMedal() or function ()
+				setActive(slot1:Find("Tip"), IdolPTPage.NeedTip() or IdolMedalCollectionMediator.isHaveActivableMedal() or function ()
 					return getProxy(InstagramProxy):ShouldShowTip()
 				end() or function ()
 					if uv0:getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) and not slot0:isEnd() then
@@ -215,7 +215,7 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				setActive(slot1:Find("Tip"), IdolMedalCollectionView.isHaveActivableMedal())
+				setActive(slot1:Find("Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE)
 				end, SFX_PANEL)
@@ -305,6 +305,44 @@ return {
 				setActive(slot1:Find("Tip"), slot2:readyToAchieve() or getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0)
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.THIRD_ANNIVERSARY_AKIBA)
+				end, SFX_PANEL)
+			end
+		end
+	},
+	{
+		Tip = "tip",
+		Image = "event_minigame",
+		ButtonName = "activity_musicfestival2",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				slot4 = getProxy(ActivityProxy)
+
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MUSIC_FESTIVAL2)
+				end, SFX_PANEL)
+				setActive(slot1:Find("Tip"), function ()
+					return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
+				end() or IdolMedalCollectionMediator.isHaveActivableMedal() or function ()
+					return uv0:readyToAchieve()
+				end() or function ()
+					return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")).count > 0
+				end())
+
+				return
+			end
+
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot4:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				setActive(slot1:Find("Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE2)
 				end, SFX_PANEL)
 			end
 		end

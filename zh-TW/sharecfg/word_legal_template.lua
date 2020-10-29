@@ -193,3 +193,44 @@ function temp()
 end
 
 temp()
+
+function temp()
+	uv0.e = {
+		s = {
+			s = {
+				e = {
+					x = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.E = {
+		s = {
+			s = {
+				e = {
+					x = {
+						this = true
+					}
+				}
+			}
+		},
+		S = {
+			S = {
+				E = {
+					X = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()

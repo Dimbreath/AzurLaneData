@@ -37,8 +37,8 @@ function slot2.DoDataEffectWithoutTarget(slot0, slot1)
 	slot0:DoDataEffect(slot1)
 end
 
-function slot2.Clear(slot0)
-	uv0.super.Clear(slot0)
+function slot2.Interrupt(slot0)
+	uv0.super.Interrupt(slot0)
 
 	if slot0._weapon then
 		slot0._weapon:Clear()
