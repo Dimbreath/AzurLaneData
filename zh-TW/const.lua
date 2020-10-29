@@ -277,10 +277,8 @@ DEFAULT_SEVOLUME = 0.8
 HIDE_CHAT_FLAG = "HideChat"
 SPECIAL_DATE = {
 	{
-		"20200401",
-		"login",
-		"loginbg_0401",
-		"login_0401"
+		"20201031",
+		"loginbg_1031"
 	}
 }
 SPECIAL_PROPOSE = {}
