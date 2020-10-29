@@ -9006,7 +9006,6 @@ pg.ship_skin_words = {
 		touch = "I wouldn't be here without your support!",
 		feeling3 = "Hey, is that for me, Commander? Aww, how nice of you~ In return, I'll keep quiet about how you were ogling us while we practiced~",
 		upgrade = "My idol rank has gone up!",
-		couple_encourage = "Yo, Taihou! How about a duo performance?",
 		expedition = "Teehee! I get this feeling like the commission team is about to enjoy a surprise concert!",
 		win_mvp = "Encore! Encore until our next encounter!",
 		home = "Your next line is, \"Why is Albacore prompting me to speak?\"",
@@ -9033,7 +9032,17 @@ pg.ship_skin_words = {
 		battle = "Trap set! Let's goooo!",
 		login = "Morning there, P! Let's make the most of today!",
 		vote = "",
-		detail = "My new gig must leave me with little time to play pranks? Haha, my friend, a true idol can perform AND play pranks, too! If you want an example, look no further than Sara!"
+		detail = "My new gig must leave me with little time to play pranks? Haha, my friend, a true idol can perform AND play pranks, too! If you want an example, look no further than Sara!",
+		couple_encourage = {
+			{
+				{
+					30711
+				},
+				1,
+				"Yo, Taihou! How about a duo performance?",
+				0
+			}
+		}
 	},
 	[112010] = {
 		touch = "Wh-why is my heart beating faster...",
