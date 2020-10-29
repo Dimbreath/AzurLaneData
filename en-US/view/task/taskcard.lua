@@ -113,53 +113,49 @@ function slot0.updateBtnState(slot0, slot1)
 				end
 			end
 
-			function slot2()
-				function uv0.overFlow.onYes()
-					uv0()
-				end
+			slot1 = nil
 
-				pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0.overFlow)
-			end
+			coroutine.wrap(function ()
+				if uv0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM or uv0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM or uv0:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
+					slot0 = DROP_TYPE_ITEM
 
-			function slot3()
-				function uv0.choice.onYes()
-					if not uv0.index then
-						pg.TipsMgr.GetInstance():ShowTips("未选择奖励,放弃领取")
-
-						return
+					if uv0:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
+						slot0 = DROP_TYPE_RESOURCE
 					end
 
-					if uv1.overFlow then
-						uv2()
-					else
-						uv3()
-					end
-				end
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0.choice)
-			end
-
-			if uv2:getConfirmSetting().sub then
-				function ()
-					function uv0.sub.onYes()
-						if uv0.choice then
-							uv1()
-						elseif uv0.overFlow then
-							uv2()
-						else
-							uv3()
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_ITEM_BOX,
+						content = i18n("sub_item_warning"),
+						items = {
+							{
+								type = slot0,
+								id = uv0:getConfig("target_id_for_client"),
+								count = uv0:getConfig("target_num")
+							}
+						},
+						onYes = function ()
+							uv0()
 						end
-					end
+					})
+					coroutine.yield()
+				end
 
-					pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0.sub)
-				end()
-			elseif slot1.choice then
-				slot3()
-			elseif slot1.overFlow then
-				slot2()
-			else
-				slot0()
-			end
+				slot0, slot1 = uv0:judgeOverflow()
+
+				if slot0 then
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_ITEM_BOX,
+						content = i18n("award_max_warning"),
+						items = slot1,
+						onYes = function ()
+							uv0()
+						end
+					})
+					coroutine.yield()
+				end
+
+				uv2()
+			end)()
 		end, SFX_PANEL)
 	else
 		slot2 = uv4

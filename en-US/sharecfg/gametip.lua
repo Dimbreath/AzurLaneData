@@ -6073,7 +6073,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>9.17-9.30</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>10.29-11.11</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7060,7 +7060,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Receive an extra copy of Shinano after doing a total of 200 builds! (Limit of 4 times) "
+		tip = "Increased build rates for Dido μ, Taihou μ, Tashkent μ, and more! "
 	},
 	buildship_heavy_tip = {
 		tip = "Tirpitz, Deutschland and others are added to standard build pool! "
@@ -9193,60 +9193,42 @@ depends on the amount of damage dealt to the boss.
 	music_collection = {
 		tip = {
 			{
-				info = "- How to Play:"
-			},
-			{
-				info = "Take on tasks during the Passionate Polaris event and collect 15 bits of Merch from the members of Polaris and you'll be rewarded with the Passionate Polaris Medal."
-			},
-			{
 				info = [[
-- How to Get Merch:
- 1. By clearing event maps with 3 stars
- 2. By completing event missions (check the event banner and the event missions tab for more info)
- 3. By accumulating Polaris Medals]]
-			},
-			{
-				info = "- The unlock condition for some Merch is unknown, but revisiting the prior event stages once you've cleared the once-a-day Special stage might get you somewhere."
+How to Play:'},{info='-The "Universe in Unison" event will run until the 11/12 maintenance.
+Collect all 12 pieces of µ-related memorabilia to
+unlock the limited furniture, "Universe Medal."'},{info='-Memorabilia items may be obtained in the following ways:
+1. Clear event stages with 3 stars
+2. Complete event-limited tasks
+3. Collect "Universe Badges" for milestone rewards.'},{info='-Memorabilia with an unknown acquisition condition (???)
+may be obtained from clearing the Daily SP Stage.
+Once you've obtained all the memorabilia items,
+you may arrange them in your fanbook.
+Additionally, you may share your fanbook by tapping
+on the "Share" button on the right side of the screen.
+
+You may claim rewards up until 11/18, 23:59]]
 			}
 		}
 	},
 	music_main = {
 		tip = {
 			{
-				info = "- The Concert Venue:"
-			},
-			{
-				info = "The Concert Venue serves as a hub from which you can quickly jump to all the different screens related to the Passionate Polaris event.\n"
-			},
-			{
 				info = [[
-- Event Activities Overview:
-1. Event Stages:
-Special maps that are available during the event period. Run them to obtain the event currency, Polaris Emblems.
- 
-2. Exchange Shop:
-Takes you to the shop where you can exchange your Polaris Emblems for all sorts of items and rewards.
- 
-3. Emblem Totals:
-Takes you to a screen where you can redeem rewards like Javelin's idol skin and new posts in Juustagram by accumulating lots of Polaris Emblems.
- 
-4. Special Construction:
-This takes you to the Build screen where you can craft event-exclusive ships.
- 
-5. Skins:
-This takes you to the Skins menu in the Shop.
- 
-6. Event Medal:
-Here you can check your progress towards the Passionate Polaris Medal, unlocked by collecting all the Polaris Merch.
- 
-7. Passion Fes:
-Here you can choose a track and play a rhythm minigame. Complete this game once a day for 7 days to unlock the Elite CL Sheffield μ.
- 
-8. Event Missions:
-This takes you to the event mission screen where you can check your progress. Complete all the missions to unlock Fubuki's idol skin.
- 
-9. Polaris Juustagram:
-Here you can see Juustagram posts from members of Polaris and company. To get new posts, you need to obtain Status Updates, which can be redeemed on the Emblem Totals screen. Do note that these new posts appear at set intervals of time.]]
+The "Universe in Unison" event will run from <color=#92fc63>10/29 to 11/12</color>'},{info='1) Sortie to event stages to earn "Universe Badges,"
+and obtain great rewards through milestone rewards
+and event currency exchange.},{info='2) In "Cosmic Concert," play the rhythm minigame,
+earn a B rating or higher, and collect "Performance Notes"
+to get the limited ship, "Le Malin µ."
+<color=#92fc63>Note:</color> You can get one chance to earn
+Performance Notes each day, up to a total of 7 chances.
+You will not consume a chance if you obtain a rating lower
+than B-rank, and the game can still be played even if you
+have no more reward attempts.'},{info='3) Collect all <color=#92fc63>12</color> album memorabilia to earn
+the commemorative "Universe Medal." Check the
+"Medals" interface for detailed acquisition conditions.
+4) Tap on "Limited Construction" to go to the ship
+Building interface.
+5) Tap on "Combat Supplies" to go to the exchange shop.]]
 			}
 		}
 	},
@@ -9293,17 +9275,32 @@ After leaving a comment on a post, you may receive a reply after a period of tim
 		tip = {
 			{
 				info = [[
-<size=31><color=#92fc63>Passion Fes Info:</color></size>
-The Passion Fes feature lets you play a rhythm game with several tracks to choose from. Complete this minigame to earn a point of Performance Power.
-Once you've collected 7 Performance Power, you can then claim the Elite CL Sheffield μ from the event banner.
-Each passing day since the start of the event gives you 1 opportunity to earn Performance Power.
-- How to Play The Minigame:
-1. Pick a song you want to play on the song select screen and choose a difficulty level, then press the Start button in the bottom right corner to begin.
-2. Tap the screen when the incoming hexagons line up with the empty central hexagon to get points.
-3. It gets a bit more complex when playing on Hard mode: you need to tap the left side of the screen for incoming red hexagons and the right side of the screen for blue hexagons. When there's an incoming extended hexagon of either color, you need to tap and hold the corresponding side of the screen to hit the note.
-4. You can also adjust how quickly the hexagons approach. This is done using the speed slider on the top right side of the song select screen.
-5. The closer you are to hitting the hexagon at the right time, the more score you'll earn from it.
-6. You can keep a combo going by hitting several notes in succession. Note that only Good and Perfect hits will add to your combo.]]
+Regarding "Cosmic Concert"
+The Cosmic Concert is a rhythm mini-game
+where you can earn Performance Notes.
+When you get a B or higher rating in a Cosmic Concert
+, you will use up a reward attempt and earn
+a Performance Note. Collect 7 to get the limited
+SR ship, "Le Malin µ."
+You can earn one Performance Note per day after
+the event starts, up to 7 total.
+How to Play:
+-Select a song from the song selection slider,
+and select a desired difficulty level.
+In this rhythm mini-game, you will earn points for
+tapping an icon when it arrives at the center of the screen. In HARD difficulty,
+tap the left side of the screen when a red icon
+reaches the center of the screen, and tap the right
+side of the screen for a blue icon.
+If an icon is followed by a white trail, you will need
+to instead tap and hold the corresponding button.
+-The "X1" button on the top-right hand side of the screen
+indicates the current note speed.
+Tap the button to toggle your note speed.
+-The rating and score you receive for each tapped note
+corresponds to your timing. Your COMBO
+will only increase for taps that score a
+GOOD or PERFECT rating.]]
 			}
 		}
 	},
@@ -11017,6 +11014,47 @@ Important note: any bonus points to the ASW stat gained from gear, skills, Meowf
 			}
 		}
 	},
+	practise_idol_tip = {
+		tip = "Would you like to begin rehearsing $1? "
+	},
+	practise_idol_help = {
+		tip = {
+			{
+				info = [[
+- Rehearsal Info:
+Complete event missions and clear event stages to earn <color=#92fc63>Universe Badges</color>, which can be used to initiate rehearsals.
+Check back regularly to see if you've collected enough for another rehearsal.
+
+There are 3 types of rehearsal, each granting a different bonus.
+Additionally, your rehearsal level for a given category increases as you perform it again. Maxing out your rehearsal level will award you an additional bonus at the end.
+
+The 3 rehearsal types are as follows:
+1. Vocal Appeal - Increases the DMG your ships deal in battle.
+2. Glamorous Steps - Decreases the DMG your ships take in battle.
+3. Memorable Performance - Increases the EXP your ships gain in battle.
+
+If you're not sure what your current rehearsal level is, you can check it from the right-hand side of the event banner.]]
+			}
+		}
+	},
+	upgrade_idol_tip = {
+		tip = "Rehearsals will grant your fleets buffs for the remainder of the event. "
+	},
+	upgrade_complete_tip = {
+		tip = "Rehearsal complete! "
+	},
+	upgrade_introduce_tip = {
+		tip = "Raise your $1 Level to MAX to get bonus rewards! "
+	},
+	collect_idol_tip = {
+		tip = "You may reset an item's position by dragging it back to the selection frame. "
+	},
+	hand_account_tip = {
+		tip = "Can be unlocked by collecting certain items. "
+	},
+	hand_account_resetting_tip = {
+		tip = "Are you sure you want to reset this page? "
+	},
 	help_candymagic = {
 		tip = {
 			{
@@ -11041,6 +11079,9 @@ her movement speed will be decreased.
 the flashlight on the right side of the screen.]]
 			}
 		}
+	},
+	award_overflow_tip = {
+		tip = "A portion of your rewards will exceed your resource limit. Please collect them manually. "
 	},
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"

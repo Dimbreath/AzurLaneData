@@ -7224,6 +7224,61 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6690] = {
+		desc_get = "",
+		name = "Cosmic Kicks",
+		desc = "Ships equipped with this are classified as \"µ\" ships.",
+		type = 0,
+		max_level = 0,
+		id = 6690,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6700] = {
+		desc_get = "",
+		name = "Celestial Body",
+		desc = "Ships equipped with this are classified as \"µ\" ships.",
+		type = 0,
+		max_level = 0,
+		id = 6700,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6710] = {
+		desc_get = "",
+		name = "White-Hot Verheerender",
+		desc = "When sortieing with a ship equipped with this gear: changes the battle music to Seafarer's Loyalty. The song will be chosen randomly if several types of music-changing gear is used at once.",
+		type = 0,
+		max_level = 0,
+		id = 6710,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6711] = {
+		desc_get = "",
+		name = "Sacred Lumière",
+		desc = "When sortieing with a ship equipped with this gear: changes the battle music to A Song of Prayer. The song will be chosen randomly if several types of music-changing gear is used at once.",
+		type = 0,
+		max_level = 0,
+		id = 6711,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6712] = {
+		desc_get = "",
+		name = "Resplendent Astrum",
+		desc = "When sortieing with a ship equipped with this gear: changes the battle music to Blue Spirit. The song will be chosen randomly if several types of music-changing gear is used at once.",
+		type = 0,
+		max_level = 0,
+		id = 6712,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -37956,6 +38011,1355 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[13730] = {
+		desc_get = "",
+		name = "Encore Flare",
+		desc = "Every 15s after the start of the battle: fires a $1 Muse barrage that increases DMG taken by 10.0% for 6s to all enemies hit; if only 1 enemy is hit then their Speed is also set to 0 for 3s and this ship fires an additional torpedo barrage (DMG is based on the skill's level).",
+		type = 1,
+		max_level = 10,
+		id = 13730,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13740] = {
+		desc_get = "",
+		name = "Bilateral Accompaniment",
+		desc = "At the start of the battle and every 30s after that: deploys 2 shields that last for $1s; the blue shield can block up to 8 enemy shells, the red shield causes DMG upon contact with an enemy up to 8 times.",
+		type = 1,
+		max_level = 10,
+		id = 13740,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5",
+				"15"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5",
+					"+1"
+				},
+				{
+					"6",
+					"+1"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8",
+					"+1"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10",
+					"+1"
+				},
+				{
+					"11",
+					"+1"
+				},
+				{
+					"12",
+					"+1"
+				},
+				{
+					"13",
+					"+2"
+				},
+				{
+					"15"
+				}
+			}
+		}
+	},
+	[13750] = {
+		desc_get = "",
+		name = "Scarlet Waltz",
+		desc = "When this ship launches an Airstrike: launches an additional $1 airstrike (DMG is based on the skill's level). If this ship's HP is above 45.0% when launching this airstrike: the airstrike becomes more powerful, but this ship takes 200 DMG.",
+		type = 1,
+		max_level = 10,
+		id = 13750,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13760] = {
+		desc_get = "",
+		name = "Soaring Opening",
+		desc = "At the start of the battle: increases this ship's AVI by $1 for each additional Muse ship in the same fleet (can be stacked up to 4 times.) Once per battle, when this ship's HP falls below 35.0% from being attacked: fires a $2 barrage that heals this ship for 8.0% of the DMG dealt (which is based on the skill's level). After this barrage is fired: decreases the load time of this ship's next Airstrike by $3.",
+		type = 1,
+		max_level = 10,
+		id = 13760,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[13770] = {
+		desc_get = "",
+		name = "Heavenly Hymn",
+		desc = "Every 20s after the start of the battle: this ship stops moving for 3s and summons a $1 Iris Angels Airwing to attack (DMG is based on this ship's TRP stat and the skill's level). Additionally, this skill has a 50.0% chance to heal this ship for 3.0% HP when activated.",
+		type = 1,
+		max_level = 10,
+		id = 13770,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13780] = {
+		desc_get = "",
+		name = "Moment of Slackery",
+		desc = "At the start of the battle: increases this ship's FP by $1, and by another 3.0% whenever this ship sinks an enemy (can be stacked up to 3 times; resets between battles). Decreases this ship's DMG taken by 5.0% and, every 25s: heals all DDs in the same fleet for $2 of their max HP.",
+		type = 2,
+		max_level = 10,
+		id = 13780,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			}
+		}
+	},
+	[13790] = {
+		desc_get = "",
+		name = "Auspice of the Stars",
+		desc = "When this ship finishes loading its Airstrike: decreases the Speed of all enemies by $1 for 4s and randomly activates one of the following effects: a) Decreases all enemies' EVA by $2 for 10s, b) For 10s, increases your Vanguard's DMG dealt by $4 and decreases your Main Fleet's DMG taken by $3, c) For 10s, increases your Main Fleet's DMG dealt by $3 and decreases your Vanguard's DMG taken by $3.",
+		type = 3,
+		max_level = 10,
+		id = 13790,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13800] = {
+		desc_get = "",
+		name = "Blue Spirit",
+		desc = "When this ship launches an Airstrike: $1 chance to launch an additional airstrike (DMG is based on the skill's level).",
+		type = 1,
+		max_level = 10,
+		id = 13800,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			}
+		}
+	},
+	[13810] = {
+		desc_get = "",
+		name = "Lyrical Dedication",
+		desc = "At the start of the battle, if your Vanguard is comprised of only this ship: fires a $2 special barrage every 20s and increases the AA of your Flagship by $1; if there are other ships present: fires a $2 powerful barrage every 20s and increases your Vanguard's Speed by 3 and AA and Accuracy by $3. Barrage DMG is based on the skill's level.",
+		type = 2,
+		max_level = 10,
+		id = 13810,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13820] = {
+		desc_get = "",
+		name = "An Opener to Our Friends",
+		desc = "For every 2 enemies this ship sinks: increases this ship's AA by $2 for the duration of the battle (can be stacked up to 3 times). Additionally, increases this ship's EVA by $1 for 60s after the start of the battle.",
+		type = 3,
+		max_level = 10,
+		id = 13820,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13830] = {
+		desc_get = "",
+		name = "Beckoning of Ice",
+		desc = "At the start of the battle: fires a special barrage and spawns Snezhinka, a summon which fights for $1s and inflicts a 5.0% aircraft DMG taken debuff to all enemies it hits 10 times (its DMG dealt and active duration is based on the skill's level).",
+		type = 1,
+		max_level = 10,
+		id = 13830,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20",
+				"50"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20",
+					"+2"
+				},
+				{
+					"22",
+					"+2"
+				},
+				{
+					"24",
+					"+2"
+				},
+				{
+					"26",
+					"+4"
+				},
+				{
+					"30",
+					"+4"
+				},
+				{
+					"34",
+					"+4"
+				},
+				{
+					"38",
+					"+4"
+				},
+				{
+					"42",
+					"+4"
+				},
+				{
+					"46",
+					"+4"
+				},
+				{
+					"50"
+				}
+			}
+		}
+	},
+	[13840] = {
+		desc_get = "",
+		name = "Blue-Purple Tenacity",
+		desc = "For the 1st, 2nd, and 3rd battles fought by the fleet this ship is in: increases this ship's FP by $1; from the 4th battle onwards: instead increases this ship's AA by $1.",
+		type = 3,
+		max_level = 10,
+		id = 13840,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[13850] = {
+		desc_get = "",
+		name = "Universal Surprise!",
+		desc = "Increases this boat's OXY by $1. When this boat resurfaces: fires a $2 torpedo barrage with a 70.0% chance to inflict Armor Break. When this boat retreats from the battle: fires a $2 torpedo barrage with a 70.0% chance to Burn enemies. Barrage DMG is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 13850,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"2",
+				"20"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2",
+					"+2"
+				},
+				{
+					"4",
+					"+2"
+				},
+				{
+					"6",
+					"+2"
+				},
+				{
+					"8",
+					"+2"
+				},
+				{
+					"10",
+					"+2"
+				},
+				{
+					"12",
+					"+2"
+				},
+				{
+					"14",
+					"+2"
+				},
+				{
+					"16",
+					"+2"
+				},
+				{
+					"18",
+					"+2"
+				},
+				{
+					"20"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13860] = {
+		desc_get = "",
+		name = "Armor-Piercing Hypercharge",
+		desc = "At the start of the battle, and with a $1 chance every 20s after that: changes this ship's ammo type to $2 special AP for 10s.",
+		type = 1,
+		max_level = 10,
+		id = 13860,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13870] = {
+		desc_get = "",
+		name = "Blazing Choreography",
+		desc = "At the start of the battle: if there is a CV, CVL, or Muse ship in the same fleet: increases this ship's EVA by $1 and increases your Vanguard's AA by $2.",
+		type = 3,
+		max_level = 10,
+		id = 13870,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -45522,6 +46926,138 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29611] = {
+		desc_get = "",
+		name = "专属弹幕-罗恩(μ兵装)I",
+		desc = "主炮每进行12次攻击，触发专属弹幕-罗恩(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29611,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29612] = {
+		desc_get = "",
+		name = "专属弹幕-罗恩(μ兵装)II",
+		desc = "主炮每进行8次攻击，触发专属弹幕-罗恩(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29612,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29621] = {
+		desc_get = "",
+		name = "专属弹幕-恶毒(μ兵装)I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-恶毒(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29621,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29622] = {
+		desc_get = "",
+		name = "专属弹幕-恶毒(μ兵装)II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-恶毒(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29622,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29631] = {
+		desc_get = "",
+		name = "专属弹幕-黛朵(μ兵装)I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-黛朵(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29631,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29632] = {
+		desc_get = "",
+		name = "专属弹幕-黛朵(μ兵装)II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-黛朵(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29632,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29641] = {
+		desc_get = "",
+		name = "专属弹幕-塔什干(μ兵装)I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-塔什干(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29641,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29642] = {
+		desc_get = "",
+		name = "专属弹幕-塔什干(μ兵装)II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-塔什干(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29642,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29651] = {
+		desc_get = "",
+		name = "专属弹幕-大青花鱼(μ兵装)I",
+		desc = "进入战斗时，触发专属弹幕-大青花鱼(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29651,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29652] = {
+		desc_get = "",
+		name = "专属弹幕-大青花鱼(μ兵装)II",
+		desc = "进入战斗时，触发专属弹幕-大青花鱼(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29652,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29661] = {
+		desc_get = "",
+		name = "专属弹幕-巴尔的摩(μ兵装)I",
+		desc = "主炮每进行12次攻击，触发专属弹幕-巴尔的摩(μ兵装)I",
+		type = 1,
+		max_level = 1,
+		id = 29661,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29662] = {
+		desc_get = "",
+		name = "专属弹幕-巴尔的摩(μ兵装)II",
+		desc = "主炮每进行8次攻击，触发专属弹幕-巴尔的摩(μ兵装)II",
+		type = 1,
+		max_level = 1,
+		id = 29662,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[101010] = {
 		desc_get = "",
 		name = "Protagonist Aura",
@@ -48853,6 +50389,11 @@ pg.skill_data_template = {
 		6660,
 		6670,
 		6680,
+		6690,
+		6700,
+		6710,
+		6711,
+		6712,
 		7000,
 		9010,
 		9020,
@@ -49233,6 +50774,21 @@ pg.skill_data_template = {
 		13680,
 		13690,
 		13700,
+		13730,
+		13740,
+		13750,
+		13760,
+		13770,
+		13780,
+		13790,
+		13800,
+		13810,
+		13820,
+		13830,
+		13840,
+		13850,
+		13860,
+		13870,
 		18010,
 		18040,
 		18050,
@@ -49591,6 +51147,18 @@ pg.skill_data_template = {
 		29592,
 		29601,
 		29602,
+		29611,
+		29612,
+		29621,
+		29622,
+		29631,
+		29632,
+		29641,
+		29642,
+		29651,
+		29652,
+		29661,
+		29662,
 		101010,
 		101020,
 		101030,

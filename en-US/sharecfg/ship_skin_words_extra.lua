@@ -3005,6 +3005,87 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[901120] = {
+		feeling3 = "",
+		upgrade = "",
+		main_extra = "",
+		id = 901120,
+		feeling1 = "",
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Good morning. Um, today... there are no lessons planned, right...?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Long live the glory of the Iris! Rejoice! Weep! ...Wait, I don't need an encore!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Tired... Why are performances so draining... I just wanna go to sleep today..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"At times like these, you gotta throw your hands in the air like you don't care, and turn around... Zzzzzz... Wh-wh-wh-what is it?! Eh? I fell asleep?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Idols shouldn't get too close to their fans, right? So that means I don't have to do these autograph events either. Sweet~♪|If I just stay awake through this lesson, I'll get to enjoy Dunkerque's sweets afterwards... Focus, focus!|Graf Spee wants to rehearse with me? Uh... O-of course I have no issues with that?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ahh~ Yeah, yeah, that's the spot. Keep massaging right there~"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission fleet has returned. Uh, yeah, that's what Béarn told me."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Uh, so today's offers are... Ah, wait, nobody said you had to go and accept ALL of them!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Too tired... can't do this anymore... Lemme go to sleep after you look over the rewards!"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"... (Am I imagining things, or is the work piling up the more I do it...?)"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Too tired... I'm gonna die... Ahhh... Waaah..."
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -3055,6 +3136,7 @@ pg.ship_skin_words_extra = {
 		301840,
 		204040,
 		408090,
-		201320
+		201320,
+		901120
 	}
 }

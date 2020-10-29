@@ -944,5 +944,10 @@ pg.name_code = {
 		id = 189,
 		name = "Hatsuzuki",
 		code = "Hatsuzuki"
+	},
+	{
+		id = 190,
+		name = "Taihou μ ",
+		code = "Taihou μ "
 	}
 }

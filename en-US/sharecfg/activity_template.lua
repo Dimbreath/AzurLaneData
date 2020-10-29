@@ -15392,6 +15392,7 @@ pg.activity_template = {
 	[30728] = {
 		mark = 20200917,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -15406,38 +15407,12 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30729] = {
 		mark = 20200917,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 171,
@@ -15445,34 +15420,7 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 30729,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 30729
 	},
 	[30730] = {
 		mark = 20200917,
@@ -15921,6 +15869,637 @@ pg.activity_template = {
 		},
 		config_client = {
 			linkGameHubID = 11
+		}
+	},
+	[30744] = {
+		mark = 20201029,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30744,
+		config_data = {
+			1430001,
+			1430002,
+			1430003,
+			1430004,
+			1430005,
+			1430041,
+			1430051
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30745] = {
+		mark = 20201029,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30745,
+		config_data = {
+			16059,
+			16060,
+			16061,
+			16062,
+			16063,
+			16064,
+			16065,
+			16066,
+			16067,
+			16068,
+			16069,
+			16070,
+			16071,
+			16072
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30746] = {
+		mark = 20201029,
+		type = 74,
+		login_pop = 0,
+		config_id = 30746,
+		is_show = 69,
+		config_client = "",
+		title_res_tag = "ouxiangleiji_pt",
+		id = 30746,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "IdolTrainPtPage",
+			ui_name = "IdolTrainPtPage"
+		}
+	},
+	[30747] = {
+		mark = 20201029,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 30747,
+		config_data = {
+			1248,
+			1249,
+			1250,
+			1251,
+			1252,
+			1253,
+			1254,
+			1255,
+			1256,
+			1257,
+			1258,
+			1259,
+			1260,
+			1261,
+			1262,
+			1263,
+			1264,
+			1265,
+			1266,
+			1267,
+			1268,
+			1269,
+			1270
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_ouxiang2",
+			{
+				1,
+				1,
+				1,
+				0.8
+			},
+			pt_id = 175,
+			painting = "luoenouxiang_pt"
+		}
+	},
+	[30748] = {
+		mark = 20201029,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30748,
+		config_data = {
+			1476001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30749] = {
+		mark = 20201029,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 175,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 30749,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30750] = {
+		mark = 20201029,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30750,
+		config_data = {
+			16080
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30751] = {
+		mark = 20201029,
+		page_info = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 94005,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30751,
+		config_data = {
+			70053,
+			70054,
+			70055,
+			70056,
+			70057,
+			70058,
+			70059,
+			70060,
+			70061,
+			70062,
+			70063,
+			70064
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30752] = {
+		mark = 20201029,
+		page_info = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		title_res_tag = "",
+		id = 30752,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30753] = {
+		mark = 20201029,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31979,100}]",
+		config_client = "",
+		title_res_tag = "",
+		id = 30753,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30754] = {
+		mark = 20201029,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30754,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30755] = {
+		mark = 20201029,
+		type = 57,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 70,
+		config_data = "0",
+		title_res_tag = "jizoupolaris",
+		id = 30755,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiefeierIdolMusicPage",
+			ui_name = "xiefeieridolmusicpage"
+		},
+		config_client = {
+			stage_on_ship = {
+				"dafeng_idol",
+				"tashigan_idol",
+				"daiduo_idol",
+				"daqinghuayu_idol",
+				"baerdimo_idol",
+				"luoen_idol",
+				"guanghui_idol",
+				action = {
+					"idol"
+				}
+			},
+			stage_off_ship = {
+				"Z46_4",
+				"yilishabai_3",
+				"yanzhan_3",
+				"xixuegui_5",
+				"U110_4",
+				"dujiaoshou_6",
+				"haman_4"
+			}
+		}
+	},
+	[30756] = {
+		mark = 20201029,
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30756,
+		config_data = {
+			129,
+			130,
+			131,
+			132,
+			133,
+			134,
+			135,
+			136,
+			137,
+			138,
+			139,
+			140,
+			141,
+			142,
+			143,
+			144
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	all = {
@@ -16539,6 +17118,19 @@ pg.activity_template = {
 		30740,
 		30741,
 		30742,
-		30743
+		30743,
+		30744,
+		30745,
+		30746,
+		30747,
+		30748,
+		30749,
+		30750,
+		30751,
+		30752,
+		30753,
+		30754,
+		30755,
+		30756
 	}
 }

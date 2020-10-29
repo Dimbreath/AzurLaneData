@@ -915,6 +915,7 @@ end
 
 function slot9.ClearBuff(slot0)
 	for slot5, slot6 in pairs(slot0._buffList) do
+		slot6:Interrupt()
 		slot6:Clear()
 	end
 end

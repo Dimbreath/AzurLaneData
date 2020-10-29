@@ -58,7 +58,7 @@ pg.skin_page_template = {
 		id = 11,
 		name = "Live",
 		res = "live",
-		english_name = "live"
+		english_name = "Shining Stars "
 	},
 	[12] = {
 		id = 12,

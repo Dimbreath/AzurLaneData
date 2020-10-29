@@ -6784,6 +6784,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[320] = {
+		icon = "92511",
+		bullet_name = "zidan_xingzi",
+		name = "Purple Star Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Often paired with flashy rainbow effects.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 320,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[321] = {
+		icon = "92512",
+		bullet_name = "zidan_xinglan",
+		name = "Blue Star Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Akatsuki insists that you can use it like a throwing star.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 321,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[322] = {
+		icon = "92513",
+		bullet_name = "zidan_xingbai",
+		name = "White Star Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Tastes a bit like vanilla.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 322,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[323] = {
+		icon = "92514",
+		bullet_name = "paodan_xingyun",
+		name = "Asteroid Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Asteroid. Not a steroid.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 323,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[324] = {
+		icon = "92515",
+		bullet_name = "paodan_love",
+		name = "Love Planet Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Your foes will be utterly lovestruck.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 324,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[325] = {
+		icon = "92516",
+		bullet_name = "paodan_liuxing",
+		name = "Falling Star Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "The absolute legend that photobombed Perseus.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 325,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[326] = {
+		icon = "92521",
+		bullet_name = "yulei_hangtian",
+		name = "Red Rocket Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "♪ Yeah, I'm a rocket ship on my way to Mars ♪",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 326,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[327] = {
+		icon = "92522",
+		bullet_name = "yulei_huojian",
+		name = "Blue Rocket Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's blasting off agaaaaaain!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 327,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[328] = {
+		icon = "92523",
+		bullet_name = "yulei_weixing",
+		name = "Satellite Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "♪ Satellite baby, come on back down to earth ♪",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 328,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[329] = {
+		icon = "92531",
+		bullet_name = "feiji_hangkongwutai",
+		name = "Command Module (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Houston? We're on a collision course...\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 329,
+		derivate_torpedo = "yulei_hangtian",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[330] = {
+		icon = "92531",
+		bullet_name = "feiji_hangkongwutai",
+		name = "Command Module (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Houston? We're on a collision course...\"",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xingzi",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 330,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[331] = {
+		icon = "92531",
+		bullet_name = "feiji_hangkongwutai",
+		name = "Command Module (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Houston? We're on a collision course...\"",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xingzi",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 331,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[332] = {
+		icon = "92532",
+		bullet_name = "feiji_weixingbanwu",
+		name = "Orbiting Pod (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Ground control to Major Kong. Why are you yeehawing?\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 332,
+		derivate_torpedo = "yulei_huojian",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[333] = {
+		icon = "92532",
+		bullet_name = "feiji_weixingbanwu",
+		name = "Orbiting Pod (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Ground control to Major Kong. Why are you yeehawing?\"",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xinglan",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 333,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[334] = {
+		icon = "92532",
+		bullet_name = "feiji_weixingbanwu",
+		name = "Orbiting Pod (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Ground control to Major Kong. Why are you yeehawing?\"",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xinglan",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 334,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[335] = {
+		icon = "92533",
+		bullet_name = "feiji_shenshengtianshi",
+		name = "Angelic Manjuu (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Here to play you some heavenly tunes.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 335,
+		derivate_torpedo = "yulei_weixing",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[336] = {
+		icon = "92533",
+		bullet_name = "feiji_shenshengtianshi",
+		name = "Angelic Manjuu (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Here to play you some heavenly tunes.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xingbai",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 336,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[337] = {
+		icon = "92533",
+		bullet_name = "feiji_shenshengtianshi",
+		name = "Angelic Manjuu (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Here to play you some heavenly tunes.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xingbai",
+		themeid = 22,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 337,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -7955,6 +8438,24 @@ pg.equip_skin_template = {
 		315,
 		316,
 		317,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
 		1001,
 		1002,
 		1003,

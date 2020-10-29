@@ -165,6 +165,15 @@ pg.strategy_data_template = {
 		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
 		arg = {}
 	},
+	[8750] = {
+		buff_id = 8750,
+		name = "Searchlight",
+		type = 10,
+		id = 8750,
+		icon = "",
+		desc = "Under the effect of a searchlight.",
+		arg = {}
+	},
 	[9500] = {
 		buff_id = 9500,
 		name = "Wisdom Cube Reactivity",
@@ -292,6 +301,7 @@ pg.strategy_data_template = {
 		8744,
 		8745,
 		8746,
+		8750,
 		9500,
 		9502,
 		9505,

@@ -3019,6 +3019,59 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[184] = {
+		can_rotate = 0,
+		name = "Universe Medal",
+		gain_by = "Universe in Unison ",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "ido2xunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "\"Let our song ring out across the sea of stars!\" —Awarded to Commanders who displayed excellence in the \"Universe in Unison\" event.",
+		advice = 0,
+		id = 184,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"song06",
+				"song07",
+				"song08"
+			},
+			{
+				"action",
+				"action2",
+				"action3"
+			}
+		},
+		spine = {
+			{
+				"ido2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -3625,6 +3678,102 @@ pg.furniture_data_template = {
 			{
 				"8yueqiandaoCharControl",
 				"8yueqiandaoCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[100009] = {
+		name = "Mechanical Stage",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "qiandaowutai2icon",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Originally intended for super robot battles.",
+		id = 100009,
+		advice = 0,
+		comfortable = 0,
+		belong = 1,
+		size = {
+			18,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"manjuustageB",
+				"normal"
+			},
+			{
+				"manjuustageT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"manjuustageCharControl",
+				"manjuustageCharControl2",
+				"manjuustageCharControl3"
 			}
 		},
 		interAction_group = {}
@@ -65272,6 +65421,1372 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[70001] = {
+		can_rotate = 0,
+		name = "Unison Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/dibanido2",
+		canputon = 0,
+		count = 1,
+		describe = "It sure is spacious in here.",
+		advice = 0,
+		deblocking = 1,
+		id = 70001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70002] = {
+		can_rotate = 0,
+		name = "Unison Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbiido2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		describe = "A starry view for the starry-eyed talent.",
+		advice = 0,
+		id = 70002,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiido2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[70101] = {
+		can_rotate = 0,
+		name = "Manjuu Fans (Back)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/1ido2",
+		canputon = 0,
+		count = 2,
+		describe = "They'll never turn their back on you. It's just the isometric perspective.",
+		advice = 0,
+		deblocking = 1,
+		id = 70101,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70102] = {
+		can_rotate = 0,
+		name = "Concert Fence",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/2ido2",
+		canputon = 0,
+		count = 2,
+		describe = "Throw your hands up in the hair and go wild, just don't go over the line.",
+		advice = 0,
+		deblocking = 1,
+		id = 70102,
+		comfortable = 1,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70103] = {
+		can_rotate = 0,
+		name = "Manjuu Fans",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/3ido2",
+		canputon = 0,
+		count = 2,
+		describe = "\"WOOOOOO! Yeah, baby! That's what we've been waiting for!\"",
+		advice = 0,
+		deblocking = 1,
+		id = 70103,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70104] = {
+		can_rotate = 0,
+		name = "Camera Crew",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/4ido2",
+		canputon = 0,
+		count = 1,
+		describe = "Lights! Camera! ...Where's the audio crew?",
+		advice = 0,
+		deblocking = 1,
+		id = 70104,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70105] = {
+		can_rotate = 0,
+		name = "Stage Lights",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/5ido2",
+		canputon = 0,
+		count = 2,
+		describe = "\"Ah yes. Most enlightening.\"",
+		advice = 0,
+		deblocking = 1,
+		id = 70105,
+		comfortable = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70106] = {
+		can_rotate = 0,
+		name = "Concert Mixer",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/6ido2",
+		canputon = 0,
+		count = 1,
+		describe = "Let's mix the six.",
+		advice = 0,
+		deblocking = 1,
+		id = 70106,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70107] = {
+		can_rotate = 0,
+		name = "Backstage Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/7ido2",
+		canputon = 0,
+		count = 1,
+		describe = "Who, coincidentally, was a member of the band Backstage Manjuus.",
+		advice = 0,
+		deblocking = 1,
+		id = 70107,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70108] = {
+		can_rotate = 0,
+		name = "Concert Instrument Boxes",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/8ido2",
+		canputon = 0,
+		count = 1,
+		describe = "Proper storage of your equipment is instrumental.",
+		advice = 0,
+		deblocking = 1,
+		id = 70108,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70109] = {
+		can_rotate = 0,
+		name = "Concert Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ido2/9ido2",
+		canputon = 0,
+		themeId = 70,
+		count = 2,
+		describe = "Climbing to the top takes either a lot of hard work, or a lucky hit single.",
+		advice = 0,
+		id = 70109,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-38,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/9ido2_using"
+			},
+			{
+				"stand2",
+				{
+					37,
+					6
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/9ido2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70110] = {
+		can_rotate = 0,
+		name = "Light Halo",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/10ido2",
+		canputon = 0,
+		count = 2,
+		describe = "Suggestive of something slightly sinister.",
+		advice = 0,
+		deblocking = 1,
+		id = 70110,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70111] = {
+		can_rotate = 0,
+		name = "Light Star",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/11ido2",
+		canputon = 0,
+		count = 2,
+		describe = "The perfect place to put a star. An idol, that is.",
+		advice = 0,
+		deblocking = 1,
+		id = 70111,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70112] = {
+		can_rotate = 0,
+		name = "Light Moon",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/12ido2",
+		canputon = 0,
+		count = 2,
+		describe = "Technically a crescent moon if you want to be a lunatic about it.",
+		advice = 0,
+		deblocking = 1,
+		id = 70112,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70113] = {
+		can_rotate = 0,
+		name = "Concert Synthesizer",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ido2/13ido2",
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		describe = "Hit me with that synth sound, man.",
+		advice = 0,
+		id = 70113,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					19.9,
+					-8
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/13ido2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70114] = {
+		can_rotate = 1,
+		name = "Concert Drum Kit",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ido2/14ido2",
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		describe = "Ba-dum-tss.",
+		advice = 0,
+		id = 70114,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-68,
+					-10
+				},
+				{
+					1,
+					1
+				},
+				"ido2/14ido2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70115] = {
+		can_rotate = 0,
+		name = "Guitarist Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/15ido2",
+		canputon = 0,
+		count = 1,
+		describe = "Through the fire and the flames the tune carries on.",
+		advice = 0,
+		deblocking = 1,
+		id = 70115,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70116] = {
+		can_rotate = 0,
+		name = "Bassist Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16ido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 70,
+		spine_action_replace = "",
+		picture = "ido2/16ido2",
+		canputon = 0,
+		count = 1,
+		describe = "Not THAT kind of bass, but just as raw.",
+		advice = 0,
+		deblocking = 1,
+		id = 70116,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70117] = {
+		name = "Ultraflashy Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Aido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "If all eyes weren't on you already, they definitely are now.",
+		id = 70117,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shengjiangwutaiB",
+				"normal"
+			},
+			{
+				"shengjiangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					[3] = {
+						"action",
+						"dance"
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"shengjiangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70118] = {
+		name = "Illuminous Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Bido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "We couldn't arrange a night battle, so we hope a night performance will suffice.",
+		id = 70118,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiAB",
+				"normal"
+			},
+			{
+				"wutaiAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiACharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70119] = {
+		name = "Stellar Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Cido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "It's not just the world that revolves around you, but the whole solar system!",
+		id = 70119,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiBB",
+				"normal"
+			},
+			{
+				"wutaiBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70120] = {
+		name = "Mystery Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Dido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "Powered by an enigmatic energy. You'll learn more about it in a future event.",
+		id = 70120,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiCB",
+				"normal"
+			},
+			{
+				"wutaiCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiCCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70121] = {
+		name = "Obsession Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Eido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "Oh yes. You really are the target of her obsession.",
+		id = 70121,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiDB",
+				"normal"
+			},
+			{
+				"wutaiDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiDCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70122] = {
+		name = "Cosmic Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Fido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "Elevates you to infinity and beyond.",
+		id = 70122,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiEB",
+				"normal"
+			},
+			{
+				"wutaiET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiECharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70123] = {
+		name = "Hearty Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Gido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "Eat your heart out, Sirius.",
+		id = 70123,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiF",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiFcharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70124] = {
+		name = "Lunar Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Hido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "We're rocking among the brightest stars tonight.",
+		id = 70124,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiGB",
+				"normal"
+			},
+			{
+				"wutaiGT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiGCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70125] = {
+		name = "Tomboyish Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Iido2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 70,
+		deblocking = 1,
+		count = 1,
+		describe = "It takes a hero to stand on this stage.",
+		id = 70125,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiHB",
+				"normal"
+			},
+			{
+				"wutaiHT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiHCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[71001] = {
 		can_rotate = 0,
 		name = "Haunted House Flooring",
@@ -66383,6 +67898,7 @@ pg.furniture_data_template = {
 		175,
 		177,
 		183,
+		184,
 		100002,
 		100003,
 		100004,
@@ -66390,6 +67906,7 @@ pg.furniture_data_template = {
 		100006,
 		100007,
 		100008,
+		100009,
 		1001,
 		1002,
 		1101,
@@ -67799,6 +69316,33 @@ pg.furniture_data_template = {
 		69307,
 		69308,
 		69309,
+		70001,
+		70002,
+		70101,
+		70102,
+		70103,
+		70104,
+		70105,
+		70106,
+		70107,
+		70108,
+		70109,
+		70110,
+		70111,
+		70112,
+		70113,
+		70114,
+		70115,
+		70116,
+		70117,
+		70118,
+		70119,
+		70120,
+		70121,
+		70122,
+		70123,
+		70124,
+		70125,
 		71001,
 		71002,
 		71101,

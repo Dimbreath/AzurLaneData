@@ -3056,6 +3056,122 @@ pg.skill_data_display = {
 		id = 13701,
 		name = "Dreambound Bow"
 	},
+	[13730] = {
+		id = 13730,
+		name = "Encore Flare"
+	},
+	[13740] = {
+		id = 13740,
+		name = "Bilateral Accompaniment"
+	},
+	[13750] = {
+		id = 13750,
+		name = "Scarlet Waltz"
+	},
+	[13751] = {
+		id = 13751,
+		name = "Scarlet Waltz"
+	},
+	[13760] = {
+		id = 13760,
+		name = "Soaring Opening"
+	},
+	[13761] = {
+		id = 13761,
+		name = "Soaring Opening"
+	},
+	[13770] = {
+		id = 13770,
+		name = "Heavenly Hymn"
+	},
+	[13780] = {
+		id = 13780,
+		name = "Moment of Slackery"
+	},
+	[13781] = {
+		id = 13781,
+		name = "Moment of Slackery"
+	},
+	[13782] = {
+		id = 13782,
+		name = "Moment of Slackery"
+	},
+	[13790] = {
+		id = 13790,
+		name = "Auspice of the Stars"
+	},
+	[13791] = {
+		id = 13791,
+		name = "Auspice of the Stars"
+	},
+	[13792] = {
+		id = 13792,
+		name = "Auspice of the Stars"
+	},
+	[13793] = {
+		id = 13793,
+		name = "Auspice of the Stars"
+	},
+	[13800] = {
+		id = 13800,
+		name = "Blue Spirit"
+	},
+	[13810] = {
+		id = 13810,
+		name = "Lyrical Dedication"
+	},
+	[13811] = {
+		id = 13811,
+		name = "Lyrical Dedication"
+	},
+	[13813] = {
+		id = 13813,
+		name = "Lyrical Dedication"
+	},
+	[13814] = {
+		id = 13814,
+		name = "Lyrical Dedication"
+	},
+	[13820] = {
+		id = 13820,
+		name = "An Opener to Our Friends"
+	},
+	[13821] = {
+		id = 13821,
+		name = "An Opener to Our Friends"
+	},
+	[13830] = {
+		id = 13830,
+		name = "Beckoning of Ice"
+	},
+	[13840] = {
+		id = 13840,
+		name = "Blue-Purple Tenacity"
+	},
+	[13841] = {
+		id = 13841,
+		name = "Blue-Purple Tenacity"
+	},
+	[13850] = {
+		id = 13850,
+		name = "Universal Surprise!"
+	},
+	[13851] = {
+		id = 13851,
+		name = "Universal Surprise!"
+	},
+	[13852] = {
+		id = 13852,
+		name = "Universal Surprise!"
+	},
+	[13860] = {
+		id = 13860,
+		name = "Armor-Piercing Hypercharge"
+	},
+	[13870] = {
+		id = 13870,
+		name = "Blazing Choreography"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5601,6 +5717,35 @@ pg.skill_data_display = {
 		13696,
 		13700,
 		13701,
+		13730,
+		13740,
+		13750,
+		13751,
+		13760,
+		13761,
+		13770,
+		13780,
+		13781,
+		13782,
+		13790,
+		13791,
+		13792,
+		13793,
+		13800,
+		13810,
+		13811,
+		13813,
+		13814,
+		13820,
+		13821,
+		13830,
+		13840,
+		13841,
+		13850,
+		13851,
+		13852,
+		13860,
+		13870,
 		18010,
 		18040,
 		18041,

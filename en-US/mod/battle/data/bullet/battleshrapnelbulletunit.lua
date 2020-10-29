@@ -8,6 +8,7 @@ slot3 = slot0.Battle.BattleShrapnelBulletUnit
 slot3.STATE_NORMAL = "normal"
 slot3.STATE_SPLIT = "split"
 slot3.STATE_SPIN = "spin"
+slot3.STATE_FINAL_SPLIT = "final_split"
 
 function slot3.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)

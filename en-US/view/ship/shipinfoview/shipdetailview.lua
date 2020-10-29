@@ -209,7 +209,7 @@ function slot0.UpdateDetail(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot0.fashionToggle, #slot0.shareData:GetCurGroupSkinList() > 1)
+	setActive(slot0.fashionToggle, slot0.shareData:HasFashion())
 	setActive(slot0.profileBtn, not slot1:isActivityNpc())
 end
 
