@@ -3795,6 +3795,59 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[184] = {
+		can_rotate = 0,
+		describe = "「让歌声响彻宇宙吧！」——授予在「激唱的Universe」行动中获得杰出成就者的纪念章 ",
+		gain_by = "激唱的Universe",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "激唱纪念章",
+		advice = 0,
+		id = 184,
+		icon = "ido2xunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"song06",
+				"song07",
+				"song08"
+			},
+			{
+				"action",
+				"action2",
+				"action3"
+			}
+		},
+		spine = {
+			{
+				"ido2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		describe = "本ID禁用",
@@ -5085,7 +5138,15 @@ pg.furniture_data_template = {
 				"normal",
 				{
 					"action",
-					false
+					true,
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7"
+					}
 				}
 			}
 		},
@@ -5268,6 +5329,80 @@ pg.furniture_data_template = {
 					nil,
 					"bg1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100021] = {
+		can_rotate = 0,
+		describe = "Let's Jump！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "doaqiuicon",
+		count = 1,
+		name = "跳跳弹球 ",
+		id = 100021,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"doaqiuCharControl"
 			}
 		},
 		interAction_group = {}
@@ -82234,6 +82369,1372 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[70001] = {
+		can_rotate = 0,
+		describe = "让我们的歌声响彻宇宙吧！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/dibanido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "激唱星空地板",
+		advice = 0,
+		icon = "dibanido2icon",
+		id = 70001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70002] = {
+		can_rotate = 0,
+		describe = "让我们的歌声响彻宇宙吧！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "激唱星空墙纸",
+		advice = 0,
+		id = 70002,
+		icon = "qiangbiido2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiido2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[70101] = {
+		can_rotate = 0,
+		describe = "正在努力应援的啾啾们…的背影",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/1ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "应援啾(背)",
+		advice = 0,
+		icon = "1ido2icon",
+		id = 70101,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70102] = {
+		can_rotate = 0,
+		describe = "请大家遵守会场内的规定哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/2ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "会场围栏",
+		advice = 0,
+		icon = "2ido2icon",
+		id = 70102,
+		comfortable = 1,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70103] = {
+		can_rotate = 0,
+		describe = "正在努力应援的啾啾们",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/3ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "应援啾",
+		advice = 0,
+		icon = "3ido2icon",
+		id = 70103,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70104] = {
+		can_rotate = 0,
+		describe = "记录下每个激动人心的瞬间啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/4ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "摄像啾",
+		advice = 0,
+		icon = "4ido2icon",
+		id = 70104,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70105] = {
+		can_rotate = 0,
+		describe = "让舞台更加熠熠生辉吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/5ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "激唱舞台灯",
+		advice = 0,
+		icon = "5ido2icon",
+		id = 70105,
+		comfortable = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70106] = {
+		can_rotate = 0,
+		describe = "将live的热情无限倍地放大吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/6ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "激唱音响",
+		advice = 0,
+		icon = "6ido2icon",
+		id = 70106,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70107] = {
+		can_rotate = 0,
+		describe = "见识下专业调音师的风采啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/7ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "调音啾",
+		advice = 0,
+		icon = "7ido2icon",
+		id = 70107,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70108] = {
+		can_rotate = 0,
+		describe = "箱子棱角的磨损，是工作人员们辛劳的象征。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/8ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "激唱设备箱",
+		advice = 0,
+		icon = "8ido2icon",
+		id = 70108,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70109] = {
+		can_rotate = 0,
+		describe = "不只是灯，整个舞台都在闪耀着光芒。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/9ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 2,
+		name = "舞台阶梯",
+		advice = 0,
+		id = 70109,
+		icon = "9ido2icon",
+		comfortable = 3,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-38,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/9ido2_using"
+			},
+			{
+				"stand2",
+				{
+					37,
+					6
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/9ido2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70110] = {
+		can_rotate = 0,
+		describe = "太阳形状的霓虹灯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/10ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "霓虹灯(光)",
+		advice = 0,
+		icon = "10ido2icon",
+		id = 70110,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70111] = {
+		can_rotate = 0,
+		describe = "五角星形状的霓虹灯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/11ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "霓虹灯(星)",
+		advice = 0,
+		icon = "11ido2icon",
+		id = 70111,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70112] = {
+		can_rotate = 0,
+		describe = "月亮形状的霓虹灯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/12ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "霓虹灯(月)",
+		advice = 0,
+		icon = "12ido2icon",
+		id = 70112,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70113] = {
+		can_rotate = 0,
+		describe = "据说它自带52种音色",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/13ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "激唱电子琴",
+		advice = 0,
+		id = 70113,
+		icon = "13ido2icon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					19.9,
+					-8
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/13ido2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70114] = {
+		can_rotate = 1,
+		describe = "跟上节奏啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/14ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "激唱架子鼓",
+		advice = 0,
+		id = 70114,
+		icon = "14ido2icon",
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-68,
+					-10
+				},
+				{
+					1,
+					1
+				},
+				"ido2/14ido2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70115] = {
+		can_rotate = 0,
+		describe = "总之…先来一段solo啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/15ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "激唱吉他啾",
+		advice = 0,
+		icon = "15ido2icon",
+		id = 70115,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70116] = {
+		can_rotate = 0,
+		describe = "不要紧张啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/16ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "激唱贝斯啾",
+		advice = 0,
+		icon = "16ido2icon",
+		id = 70116,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70117] = {
+		can_rotate = 0,
+		describe = "一起迎接Live的最高潮啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Aido2icon",
+		count = 1,
+		name = "大型升降舞台",
+		id = 70117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shengjiangwutaiB",
+				"normal"
+			},
+			{
+				"shengjiangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					[3] = {
+						"action",
+						"dance"
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"shengjiangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70118] = {
+		can_rotate = 0,
+		describe = "“愿这充满爱与和平的歌声，传向整个世界~”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Bido2icon",
+		count = 1,
+		name = "舞台<辉光>",
+		id = 70118,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiAB",
+				"normal"
+			},
+			{
+				"wutaiAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiACharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70119] = {
+		can_rotate = 0,
+		describe = "“要让整个宇宙都欣赏到我的live…啊，好累，要不算了吧…”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Cido2icon",
+		count = 1,
+		name = "舞台<行星>",
+		id = 70119,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiBB",
+				"normal"
+			},
+			{
+				"wutaiBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70120] = {
+		can_rotate = 0,
+		describe = "“仅凭歌声与舞蹈，就能让所有的人为之疯狂。live，真是有趣呢——”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Dido2icon",
+		count = 1,
+		name = "舞台<神秘>",
+		id = 70120,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiCB",
+				"normal"
+			},
+			{
+				"wutaiCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiCCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70121] = {
+		can_rotate = 0,
+		describe = "“这舞台之上的，炽热的，浓烈的爱意，全部只属于你一人哦~”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Eido2icon",
+		count = 1,
+		name = "舞台<炽热>",
+		id = 70121,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiDB",
+				"normal"
+			},
+			{
+				"wutaiDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiDCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70122] = {
+		can_rotate = 0,
+		describe = "“来一场让全宇宙都震惊的表演！要上咯！”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Fido2icon",
+		count = 1,
+		name = "舞台<太空>",
+		id = 70122,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiEB",
+				"normal"
+			},
+			{
+				"wutaiET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiECharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70123] = {
+		can_rotate = 0,
+		describe = "“请一直，一直，一直注视着我吧！”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Gido2icon",
+		count = 1,
+		name = "舞台<爱慕>",
+		id = 70123,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiF",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiFcharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70124] = {
+		can_rotate = 0,
+		describe = "“希望听了我的歌的大家，在晚上都能做一个美好的梦”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Hido2icon",
+		count = 1,
+		name = "舞台<美梦>",
+		id = 70124,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiGB",
+				"normal"
+			},
+			{
+				"wutaiGT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiGCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70125] = {
+		can_rotate = 0,
+		describe = "“只要不断地练习，生疏和紧张最后都会消失得无影无踪！”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Iido2icon",
+		count = 1,
+		name = "舞台<活力>",
+		id = 70125,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiHB",
+				"normal"
+			},
+			{
+				"wutaiHT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiHCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[71001] = {
 		can_rotate = 0,
 		describe = "准备好“享受”万圣之夜了吗~？",
@@ -83360,6 +84861,7 @@ pg.furniture_data_template = {
 		175,
 		177,
 		183,
+		184,
 		100001,
 		100002,
 		100003,
@@ -83380,6 +84882,7 @@ pg.furniture_data_template = {
 		100018,
 		100019,
 		100020,
+		100021,
 		1001,
 		1002,
 		1101,
@@ -85136,6 +86639,33 @@ pg.furniture_data_template = {
 		69307,
 		69308,
 		69309,
+		70001,
+		70002,
+		70101,
+		70102,
+		70103,
+		70104,
+		70105,
+		70106,
+		70107,
+		70108,
+		70109,
+		70110,
+		70111,
+		70112,
+		70113,
+		70114,
+		70115,
+		70116,
+		70117,
+		70118,
+		70119,
+		70120,
+		70121,
+		70122,
+		70123,
+		70124,
+		70125,
 		71001,
 		71002,
 		71101,

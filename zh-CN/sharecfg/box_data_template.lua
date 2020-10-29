@@ -350,6 +350,41 @@ pg.box_data_template = {
 		icon = "event6",
 		effect_id = 92886
 	},
+	[10114] = {
+		name = "徽章·大青花鱼 ",
+		type = 1,
+		id = 10114,
+		icon = "event5",
+		effect_id = 94006
+	},
+	[10115] = {
+		name = "徽章·塔什干",
+		type = 1,
+		id = 10115,
+		icon = "event5",
+		effect_id = 94007
+	},
+	[10116] = {
+		name = "邮票·罗恩 ",
+		type = 1,
+		id = 10116,
+		icon = "event5",
+		effect_id = 94008
+	},
+	[10117] = {
+		name = "杯垫·恶毒 ",
+		type = 1,
+		id = 10117,
+		icon = "event5",
+		effect_id = 94009
+	},
+	[10118] = {
+		name = "写真·{namecode:97}",
+		type = 1,
+		id = 10118,
+		icon = "event5",
+		effect_id = 94010
+	},
 	[20001] = {
 		name = "障碍物",
 		type = 0,
@@ -408,6 +443,11 @@ pg.box_data_template = {
 		10111,
 		10112,
 		10113,
+		10114,
+		10115,
+		10116,
+		10117,
+		10118,
 		20001
 	}
 }

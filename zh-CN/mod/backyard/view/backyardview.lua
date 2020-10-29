@@ -54,6 +54,21 @@ function slot0.OnInit(slot0)
 	slot0.floorPaperModel = BackYardPaperModel.New(slot0:findTF("bg/floor"), BackYardPaperModel.PAPER_TYPE_FLOOR)
 	slot0.msgBoxWindow = BackYardMsgBox.New(slot0:findTF("msg_box"))
 	slot0.furnitureDescWindow = FurnitureDescWindow.New(slot0:findTF("desc_panel"))
+
+	slot0.furnitureDescWindow:SetUp(function (slot0, slot1, slot2)
+		slot5 = slot2.effect
+
+		if slot2.action then
+			uv0.furnitureModals[slot0]:PlayAnim(slot4)
+		end
+
+		if slot1 then
+			slot3:PlayEffect(slot5)
+		else
+			slot3:StopEffect(slot5)
+		end
+	end)
+
 	slot0.dynamicBg = BackYardDynamicBg.New(slot0._tf.parent)
 	slot1 = slot0:IsVisitMode()
 
@@ -449,17 +464,7 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 
 	function slot6()
 		if uv0:isShowDesc() then
-			uv1.furnitureDescWindow:Show(uv0, function (slot0)
-				slot1, slot2, slot3 = uv0:GetVoiceAnim()
-
-				uv1:PlayAnim(slot0 and slot2 or slot1)
-
-				if slot0 then
-					uv1:PlayEffect(slot3)
-				else
-					uv1:StopEffect(slot3)
-				end
-			end)
+			uv1.furnitureDescWindow:Show(uv0)
 		elseif uv0:isTouchSpine() then
 			slot0, slot1, slot2, slot3, slot4, slot5 = uv0:getTouchSpineConfig()
 

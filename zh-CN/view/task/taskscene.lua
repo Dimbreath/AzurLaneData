@@ -259,27 +259,157 @@ end
 
 function slot0.updateOneStepBtn(slot0)
 	slot1 = {}
-	slot2 = {}
 
-	for slot6, slot7 in pairs(slot0.taskVOs) do
-		if slot7:getTaskStatus() == 1 and slot7:getConfig("visibility") == 1 then
-			slot1[#slot1 + 1] = slot7
-
-			slot7:confirmForSubmit()
-
-			slot2[#slot2 + 1] = slot7:getConfirmSetting()
+	for slot5, slot6 in pairs(slot0.taskVOs) do
+		if slot6:getTaskStatus() == 1 and slot6:getConfig("visibility") == 1 then
+			table.insert(slot1, slot6)
 		end
 	end
 
 	if #slot1 >= 2 == true then
-		removeOnButton(slot0.oneStepBtn)
-		setActive(slot0.oneStepBtn.gameObject, true)
+		setActive(slot0.oneStepBtn, true)
 		onButton(slot0, slot0.oneStepBtn, function ()
-			uv0:emit(TaskMediator.CLICK_GET_ALL, uv1, uv2)
-		end, SFX_CONFIRM)
+			slot0 = nil
+			slot2 = nil
+
+			coroutine.wrap(function ()
+				uv0, uv1 = uv2:filterOverflowTaskVOList(uv3)
+				uv0 = uv2:filterSubmitTaskVOList(uv0, uv4)
+				uv0 = uv2:filterChoiceTaskVOList(uv0, uv4)
+
+				if #uv0 > 0 then
+					pg.m02:sendNotification(GAME.SUBMIT_TASK_ONESTEP, {
+						resultList = uv0
+					})
+				end
+			end)()
+
+			if false then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("award_overflow_tip"))
+
+				slot1 = false
+			end
+		end, SFX_PANEL)
 	else
-		setActive(slot0.oneStepBtn.gameObject, false)
+		setActive(slot0.oneStepBtn, false)
 	end
+end
+
+function slot0.filterOverflowTaskVOList(slot0, slot1)
+	slot3 = {}
+	slot4 = getProxy(PlayerProxy):getData()
+	slot9 = pg.gameset.max_gold.key_value
+	slot10 = pg.gameset.max_oil.key_value
+	slot11 = not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0
+	slot12 = false
+
+	for slot16, slot17 in pairs(slot1 or slot0.taskVOs) do
+		if not slot17:judgeOverflow(slot4.gold, slot4.oil, not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0) then
+			table.insert(slot3, slot17)
+		end
+
+		if slot18 then
+			slot12 = true
+		end
+	end
+
+	return slot3, slot12
+end
+
+function slot0.filterSubmitTaskVOList(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot8, slot9 in ipairs(slot1) do
+		if slot9:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM or slot9:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM or slot9:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
+			slot10 = DROP_TYPE_ITEM
+
+			if slot9:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
+				slot10 = DROP_TYPE_RESOURCE
+			end
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_ITEM_BOX,
+				content = i18n("sub_item_warning"),
+				items = {
+					{
+						type = slot10,
+						id = slot9:getConfig("target_id_for_client"),
+						count = slot9:getConfig("target_num")
+					}
+				},
+				onYes = function ()
+					table.insert(uv0, uv1)
+					uv2()
+				end,
+				onNo = function ()
+					uv0()
+				end
+			})
+			coroutine.yield()
+		else
+			table.insert(slot3, slot9)
+		end
+	end
+
+	return slot3
+end
+
+function slot0.filterChoiceTaskVOList(slot0, slot1)
+	slot2 = {}
+
+	for slot7, slot8 in ipairs(slot1) do
+		if slot8:isSelectable() then
+			slot10 = {}
+
+			for slot14, slot15 in ipairs(slot8:getConfig("award_choice")) do
+				slot10[#slot10 + 1] = {
+					type = slot15[1],
+					id = slot15[2],
+					count = slot15[3],
+					index = slot14
+				}
+			end
+
+			slot11 = nil
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_ITEM_BOX,
+				content = i18n("select_award_warning"),
+				items = slot10,
+				itemFunc = function (slot0)
+					uv0 = slot0.index
+				end,
+				onYes = function ()
+					if not uv0 then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("no_item_selected_tip"))
+					else
+						slot0 = {}
+
+						for slot5, slot6 in ipairs(uv1[uv0]) do
+							table.insert(slot0, {
+								type = slot6[1],
+								id = slot6[2],
+								number = slot6[3]
+							})
+						end
+
+						uv2.choiceItemList = slot0
+
+						table.insert(uv3, uv2)
+						process()
+					end
+				end,
+				onNo = function ()
+					process()
+				end
+			})
+			coroutine.yield()
+		else
+			table.insert(slot2, slot8)
+		end
+	end
+
+	return slot2
 end
 
 return slot0

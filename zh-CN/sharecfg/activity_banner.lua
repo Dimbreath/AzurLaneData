@@ -5,15 +5,17 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"scene get boat",
+			{
+				projectName = "new"
+			}
 		},
 		time = {
 			{
 				{
 					2020,
 					10,
-					22
+					29
 				},
 				{
 					0,
@@ -24,8 +26,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					10,
-					28
+					11,
+					12
 				},
 				{
 					23,
@@ -36,9 +38,115 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "741",
-		type = 3,
+		type = 2,
 		id = 2,
+		pic = "temp4",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp5",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp6",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "742",
+		type = 3,
+		id = 5,
 		pic = "temp2",
 		time = {
 			{
@@ -70,7 +178,7 @@ pg.activity_banner = {
 	{
 		param = "740",
 		type = 3,
-		id = 3,
+		id = 6,
 		pic = "temp3",
 		time = {
 			{
@@ -99,44 +207,12 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		type = 2,
-		id = 4,
-		pic = "temp4",
-		param = {
-			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		5,
+		6
 	}
 }

@@ -1773,7 +1773,7 @@ pg.activity_shop_extra = {
 		commodity_id = 102162,
 		scene = "",
 		id = 60,
-		order = 5,
+		order = 7,
 		time = {
 			{
 				{
@@ -1809,7 +1809,7 @@ pg.activity_shop_extra = {
 		commodity_id = 101291,
 		scene = "",
 		id = 61,
-		order = 5,
+		order = 7,
 		time = {
 			{
 				{

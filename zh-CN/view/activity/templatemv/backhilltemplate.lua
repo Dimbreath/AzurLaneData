@@ -12,9 +12,14 @@ function slot0.willExit(slot0)
 	slot0.loader:Clear()
 end
 
-function slot0.InitFacility(slot0, slot1, slot2, slot3)
-	onButton(nil, slot0:Find(slot2), slot3)
-	onButton(nil, slot1:Find(slot2), slot3)
+function slot0.InitFacility(slot0, slot1, slot2)
+	onButton(slot0, slot1, slot2)
+	onButton(slot0, slot1:Find("button"), slot2)
+end
+
+function slot0.InitFacilityCross(slot0, slot1, slot2, slot3, slot4)
+	onButton(slot0, slot1:Find(slot3), slot4)
+	onButton(slot0, slot2:Find(slot3), slot4)
 end
 
 function slot0.getStudents(slot0, slot1, slot2)

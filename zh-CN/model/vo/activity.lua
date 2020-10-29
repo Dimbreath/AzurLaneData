@@ -97,7 +97,7 @@ end
 function slot0.getDataConfigTable(slot0)
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 		return pg.activity_event_monopoly[tonumber(slot0:getConfig("config_id"))]
-	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM or slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT then
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM or slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
 		return pg.activity_event_pt[tonumber(slot2)]
 	end
 end

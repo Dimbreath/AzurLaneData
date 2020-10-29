@@ -97,14 +97,11 @@ function slot0.Exit(slot0, slot1)
 		if _.detect(slot9.fleets, function (slot0)
 			return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
 		end) then
-			slot18 = true
-			submarineTeam = slot14:getShipsByTeam(TeamType.Submarine, slot18)
+			for slot19, slot20 in ipairs(slot14:getShipsByTeam(TeamType.Submarine, true)) do
+				if slot0.statistics[slot20.id] then
+					table.insert(slot8, slot20)
 
-			for slot18, slot19 in ipairs(submarineTeam) do
-				if slot0.statistics[slot19.id] then
-					table.insert(slot8, slot19)
-
-					slot7 = slot7 + slot19:getEndBattleExpend()
+					slot7 = slot7 + slot20:getEndBattleExpend()
 				end
 			end
 		else

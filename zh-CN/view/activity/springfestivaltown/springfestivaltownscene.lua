@@ -74,7 +74,7 @@ function slot0.didEnter(slot0)
 			helps = pg.gametip.help_chunjie_feast.tip
 		})
 	end)
-	slot0.InitFacility(slot0._map, slot0._upper, "kaihongbao", function ()
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "kaihongbao", function ()
 		uv0:emit(NewYearFestivalMediator.GO_SUBLAYER, Context.New({
 			mediator = RedPacketMediator,
 			viewComponent = RedPacketLayer,
@@ -89,29 +89,29 @@ function slot0.didEnter(slot0)
 			end
 		end)
 	end)
-	slot0.InitFacility(slot0._map, slot0._upper, "danianshou", function ()
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "danianshou", function ()
 		uv0:emit(NewYearFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {
 			id = ActivityConst.BEAT_MONSTER_NIAN_2020
 		})
 	end)
-	slot0.InitFacility(slot0._map, slot0._upper, "dafuweng", function ()
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "dafuweng", function ()
 		uv0:emit(NewYearFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {
 			id = ActivityConst.MONOPOLY_2020
 		})
 	end)
-	slot0.InitFacility(slot0._map, slot0._upper, "diediele", function ()
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "diediele", function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 9)
 	end)
-	slot0.InitFacility(slot0._map, slot0._upper, "jianzao", function ()
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "jianzao", function ()
 		uv0:emit(NewYearFestivalMediator.GO_SCENE, SCENE.GETBOAT, {
 			projectName = "new",
 			page = 1
 		})
 	end)
-	slot0.InitFacility(slot0._map, slot0._upper, "sishu", function ()
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "sishu", function ()
 		uv0:emit(NewYearFestivalMediator.GO_SCENE, SCENE.COLORING)
 	end)
-	slot0.InitFacility(slot0._map, slot0._upper, "pifushangdian", function ()
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "pifushangdian", function ()
 		uv0:emit(NewYearFestivalMediator.GO_SCENE, SCENE.SKINSHOP)
 	end)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, false)

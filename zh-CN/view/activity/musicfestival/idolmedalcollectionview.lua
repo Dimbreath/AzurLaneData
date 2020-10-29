@@ -25,7 +25,7 @@ end
 function slot0.initData(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.IDOL_MEDAL_COLLECTION)
-	slot0.allIDList = slot0.activityData:getConfig("config_data")
+	slot0.allIDList = IdolMedalCollectionMediator.GetPicturePuzzleIds(slot0.activityData.id)
 	slot0.pageIDList = {}
 
 	for slot4 = 1, uv0.PAGE_NUM do
@@ -191,7 +191,6 @@ end
 
 function slot0.checkAward(slot0)
 	if #slot0.activeIDList == #slot0.allIDList and slot0.activityData.data1 ~= 1 then
-		print("发消息去领最终奖励")
 		pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 1,
 			activity_id = ActivityConst.IDOL_MEDAL_COLLECTION

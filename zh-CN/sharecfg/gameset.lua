@@ -338,8 +338,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "信浓PT",
-		key_value = 171
+		description = "偶像二期PT",
+		key_value = 175
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -671,7 +671,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 170
+		key_value = 173
 	},
 	order_pt_max = {
 		key_value = 0,

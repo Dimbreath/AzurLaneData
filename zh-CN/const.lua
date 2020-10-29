@@ -226,10 +226,8 @@ DEFAULT_SEVOLUME = 0.8
 HIDE_CHAT_FLAG = "HideChat"
 SPECIAL_DATE = {
 	{
-		"20200401",
-		"login",
-		"loginbg_0401",
-		"login_0401"
+		"20201031",
+		"loginbg_1031"
 	}
 }
 SPECIAL_PROPOSE = {}
@@ -238,8 +236,8 @@ OPEN_ESCORT = false
 OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true
 AUTO_LINKLINK = false
-PLAY_OPENING = false
-OP_VERSION = "20200917"
+PLAY_OPENING = true
+OP_VERSION = "20201029"
 OPEN_TEC_TREE_SYSTEM = true
 SECRETARY_POS = true
 ADAPT_MIN = 1.8

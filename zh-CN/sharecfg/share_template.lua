@@ -242,6 +242,22 @@ pg.share_template = {
 			-279
 		}
 	},
+	{
+		description = "#碧蓝航线#",
+		name = "POLARIS活动大佬章界面分享",
+		deck = 0,
+		move_comps = "",
+		camera = "OverlayCamera",
+		show_comps = "",
+		id = 15,
+		qrcode_location = {
+			-592,
+			-436
+		},
+		hidden_comps = {
+			"/OverlayCamera/Overlay/UIEffect/ClickEffect(Clone)"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -256,6 +272,7 @@ pg.share_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }

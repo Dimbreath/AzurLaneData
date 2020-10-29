@@ -165,6 +165,15 @@ pg.strategy_data_template = {
 		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		arg = {}
 	},
+	[8750] = {
+		buff_id = 8750,
+		name = "聚光灯",
+		type = 10,
+		id = 8750,
+		icon = "",
+		desc = "聚光灯效果",
+		arg = {}
+	},
 	[9500] = {
 		buff_id = 9500,
 		name = "魔方活性化",
@@ -292,6 +301,7 @@ pg.strategy_data_template = {
 		8744,
 		8745,
 		8746,
+		8750,
 		9500,
 		9502,
 		9505,
