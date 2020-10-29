@@ -28,6 +28,7 @@ return {
 		Image = "event_minigame",
 		ButtonName = "activity_newyear",
 		Tip = "tip_1920",
+		Tag = "MiniGameHub",
 		CtorButton = function (slot0, slot1)
 			if getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot2:isEnd() and getProxy(MiniGameProxy):GetMiniGameData(3) and not slot3:GetRuntimeData("isInited") then
 				slot0:emit(MainUIMediator.MINIGAME_OPERATION, 4, MiniGameOPCommand.CMD_SPECIAL_GAME, {
@@ -143,9 +144,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_minigame",
 		ButtonName = "activity_springfestival",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd()
 
@@ -164,9 +166,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_LanternFestival",
 		ButtonName = "activity_LanternFestival",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot2:isEnd()
 
@@ -181,9 +184,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_minigame",
 		ButtonName = "activity_musicfestival",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) and not slot2:isEnd()
 
@@ -249,9 +253,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "main_decodegame",
 		ButtonName = "activity_decode",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd()
 
@@ -293,9 +298,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_minigame",
 		ButtonName = "activity_thirdAnniversary",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF) and not slot2:isEnd()
 
@@ -310,9 +316,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_minigame",
 		ButtonName = "activity_musicfestival2",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2) and not slot2:isEnd()
 

@@ -201,7 +201,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（其他人在想着同志酱的事情，或者心中有这某种目标，但塔什干……）",
+			say = "（其他人在想着同志酱的事情，或者心中有着某种目标，但塔什干……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

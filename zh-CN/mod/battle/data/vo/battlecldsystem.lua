@@ -308,7 +308,7 @@ function slot6.UpdateWallCld(slot0, slot1)
 	elseif slot3 == slot1.CLD_OBJ_TYPE_SHIP then
 		slot4 = nil
 
-		slot0:HandleWllCldWithShip(slot1, (slot1:GetIFF() ~= slot0._friendlyCode or slot0._foeShipTree:GetCldList(slot2, uv0)) and slot0.friendlyShipUnit:GetCldList(slot2, uv0))
+		slot0:HandleWllCldWithShip(slot1, (slot1:GetIFF() ~= slot0._friendlyCode or slot0._foeShipTree:GetCldList(slot2, uv0)) and slot0._shipTree:GetCldList(slot2, uv0))
 	end
 end
 
