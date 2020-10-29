@@ -15917,6 +15917,151 @@ pg.activity_template = {
 			}
 		}
 	},
+	[20576] = {
+		mark = 20201022,
+		type = 54,
+		login_pop = 0,
+		config_id = 20576,
+		is_show = 6,
+		title_res_tag = "mengfeisipifu",
+		id = 20576,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MemphisHalloweenPage",
+			ui_name = "memphishalloweenpage"
+		},
+		config_client = {
+			story = {
+				{
+					"MENGFEISIWANSHENG1"
+				},
+				{
+					"MENGFEISIWANSHENG2"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG3"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG4"
+				},
+				{
+					"MENGFEISIWANSHENG5"
+				}
+			}
+		}
+	},
+	[20577] = {
+		mark = 20201022,
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20577,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20578] = {
+		mark = 20201022,
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 7,
+		title_res_tag = "sign_halloween",
+		id = 20578,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SignHalloweenPage",
+			ui_name = "SignHalloweenPage"
+		},
+		config_client = {
+			linkGameHubID = 11
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		page_info = "",
@@ -17268,6 +17413,9 @@ pg.activity_template = {
 		20573,
 		20574,
 		20575,
+		20576,
+		20577,
+		20578,
 		25000,
 		25001,
 		25002,

@@ -614,6 +614,12 @@ function slot0.removeFurn(slot0, slot1)
 		end
 	end
 
+	if slot1:isTouchSpine() then
+		slot2, slot3, slot4, slot5, slot6, slot7 = slot1:getTouchSpineConfig()
+
+		slot0.dynamicBg:ClearByName(slot7)
+	end
+
 	slot0.furnitureModals[slot1.id]:Clear()
 
 	slot0.curFurnModal = nil

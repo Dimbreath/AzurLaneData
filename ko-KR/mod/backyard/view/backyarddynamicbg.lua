@@ -7,11 +7,8 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.Switch(slot0, slot1, slot2, slot3)
-	print(slot0.prefab and slot0.prefab.name or "", "====================", slot2)
-
-	if slot1 and slot4 ~= slot2 then
+	if slot1 and (slot0.prefab and slot0.prefab.name or "") ~= slot2 then
 		if slot0.trigger then
-			print("??????????")
 			triggerButton(slot0.trigger)
 
 			slot0.trigger = nil
@@ -30,7 +27,6 @@ function slot0.Switch(slot0, slot1, slot2, slot3)
 end
 
 function slot0.LoadBG(slot0, slot1)
-	print("Load", slot1)
 	PoolMgr.GetInstance():GetPrefab("BackyardBG/" .. slot1, slot1, true, function (slot0)
 		if uv0.exited then
 			PoolMgr.GetInstance():ReturnPrefab("BackyardBG/" .. uv1, uv1, slot0)
@@ -46,14 +42,20 @@ function slot0.LoadBG(slot0, slot1)
 end
 
 function slot0.Clear(slot0)
-	print("clear................")
-
 	if slot0.prefab then
 		slot1 = slot0.prefab.name
 
 		PoolMgr.GetInstance():ReturnPrefab("BackyardBG/" .. slot1, slot1, slot0.prefab)
 
 		slot0.prefab = nil
+	end
+end
+
+function slot0.ClearByName(slot0, slot1)
+	if slot0.prefab and slot0.prefab.name == slot1 then
+		slot0:Clear()
+
+		slot0.trigger = nil
 	end
 end
 

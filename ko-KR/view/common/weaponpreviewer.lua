@@ -365,13 +365,7 @@ function slot0.createEmitterCannon(slot0, slot1, slot2, slot3)
 			slot16 = nil
 
 			if slot8:GetType() == ys.Battle.BattleConst.BulletType.CANNON or slot14 == slot15.BOMB then
-				if _.any({
-					EquipType.CannonQuZhu,
-					EquipType.CannonQingXun,
-					EquipType.CannonZhongXun,
-					EquipType.CannonZhanlie,
-					EquipType.CannonZhongXun2
-				}, function (slot0)
+				if _.any(EquipType.CannonEquipTypes, function (slot0)
 					return table.contains(uv0.equip_type, slot0)
 				end) then
 					slot8:SetModleID(slot10)
@@ -445,11 +439,7 @@ function slot0.createEmitterAir(slot0, slot1, slot2, slot3)
 
 		slot10 = slot6.model_ID
 
-		if uv2.equipSkinId > 0 and table.contains(pg.equip_skin_template[uv2.equipSkinId].equip_type, ({
-			EquipType.FighterAircraft,
-			EquipType.TorpedoAircraft,
-			EquipType.BomberAircraft
-		})[slot6.type]) then
+		if uv2.equipSkinId > 0 and table.contains(pg.equip_skin_template[uv2.equipSkinId].equip_type, EquipType.AirProtoEquipTypes[slot6.type]) then
 			slot10 = ys.Battle.BattleDataFunction.GetEquipSkin(uv2.equipSkinId)
 		end
 

@@ -4332,6 +4332,58 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100020] = {
+		can_rotate = 0,
+		describe = "고개를 들어 무수한 별들을 바라봐요.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "시뮬레이터·밤하늘 ",
+		advice = 0,
+		id = 100020,
+		icon = "starlighticon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"starlight",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					nil,
+					nil,
+					"bg1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
@@ -72070,6 +72122,1052 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[71001] = {
+		can_rotate = 0,
+		describe = "핼러윈의 밤을 \"즐길\" 준비되셨나요~?",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/dibanhl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "깜짝 바닥",
+		advice = 0,
+		icon = "dibanhl4icon",
+		id = 71001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71002] = {
+		can_rotate = 0,
+		describe = "핼러윈의 밤을 \"즐길\" 준비되셨나요~?",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/qiangbihl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "깜짝 벽지",
+		advice = 0,
+		icon = "qiangbihl4icon",
+		id = 71002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71101] = {
+		can_rotate = 0,
+		describe = "바닥이 안 보일 정도로 깊은 우물. 어째서 집 안에 이런게...",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/1hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "캄캄한 우물",
+		advice = 0,
+		icon = "1hl4icon",
+		id = 71101,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71102] = {
+		can_rotate = 0,
+		describe = "얼~른~ 내~보~내~줘~!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/2hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "깜짝 감옥",
+		advice = 0,
+		id = 71102,
+		icon = "2hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					7.9,
+					-144.9
+				},
+				{
+					1,
+					1
+				},
+				"hl4/2hl4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71103] = {
+		can_rotate = 0,
+		describe = "끝없이 타오르는 신기한 양초!?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/3hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "백랍초",
+		advice = 0,
+		icon = "3hl4icon",
+		id = 71103,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71104] = {
+		can_rotate = 0,
+		describe = "물통에 거미줄이 가득해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/4hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "오래된 풀더미",
+		advice = 0,
+		icon = "4hl4icon",
+		id = 71104,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71105] = {
+		can_rotate = 0,
+		describe = "칠흑 같은 옷이 걸려있는 옷걸이",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/5hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "펌킨 헤드 옷걸이",
+		advice = 0,
+		icon = "5hl4icon",
+		id = 71105,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71106] = {
+		can_rotate = 0,
+		describe = "이 탁자의 주인은 만만하지 않은 것 같아요...",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/6hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "괴인의 탁자",
+		advice = 0,
+		id = 71106,
+		icon = "6hl4icon",
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					53.2,
+					-23.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71107] = {
+		can_rotate = 0,
+		describe = "이상한 서적들과 소품들이 가득 놓여있는 책장.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/8hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "괴인의 책장",
+		advice = 0,
+		icon = "8hl4icon",
+		id = 71107,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71108] = {
+		can_rotate = 0,
+		describe = "아이들이 갈망하는 벽난로!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/9hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "사탕 벽장",
+		advice = 0,
+		icon = "9hl4icon",
+		id = 71108,
+		comfortable = 3,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71109] = {
+		can_rotate = 0,
+		describe = "이렇게 큰 호박으로 호박전을 만들면 분명 맛있을 거예요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/10hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "호박 재배대",
+		advice = 0,
+		icon = "10hl4icon",
+		id = 71109,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71110] = {
+		can_rotate = 0,
+		describe = "뱀파이어의 수면을 체험해 보실래요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/11hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "뱀파이어의 수면",
+		advice = 0,
+		id = 71110,
+		icon = "11hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-18.8,
+					-5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71111] = {
+		can_rotate = 0,
+		describe = "박쥐 모양의 붉은 카펫",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/12hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "박쥐 카펫",
+		advice = 0,
+		icon = "12hl4icon",
+		id = 71111,
+		comfortable = 2,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71112] = {
+		can_rotate = 0,
+		describe = "캔디와 머핀 무한 제공~ 같이 즐겨요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/13hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "깜짝 테이블",
+		advice = 0,
+		id = 71112,
+		icon = "13hl4icon",
+		comfortable = 3,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-33,
+					94.5
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			},
+			{
+				"sit",
+				{
+					71.8,
+					51
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			},
+			{
+				"sit",
+				{
+					187.2,
+					-3.2
+				},
+				{
+					-1,
+					1
+				},
+				"hl4/13hl4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71113] = {
+		can_rotate = 0,
+		describe = "시계 소리가 울리면, 박쥐가 뿔뿔이 흩어져요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/14hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "낡은 벽시계",
+		advice = 0,
+		icon = "14hl4icon",
+		id = 71113,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71114] = {
+		can_rotate = 0,
+		describe = "츠즛——츠즛——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/15hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신호가 없는 TV",
+		advice = 0,
+		icon = "15hl4icon",
+		id = 71114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71115] = {
+		can_rotate = 0,
+		describe = "그 시선은, 누구의 시선인가요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/16hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "깜짝 계단",
+		advice = 0,
+		icon = "16hl4icon",
+		id = 71115,
+		comfortable = 2,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71116] = {
+		can_rotate = 0,
+		describe = "같이 놀자~ 쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Ahl4icon",
+		count = 1,
+		name = "유령 복도",
+		id = 71116,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			13,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ahl4B",
+				"normal"
+			},
+			{
+				"Ahl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Ahl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71117] = {
+		can_rotate = 0,
+		describe = "전혀 위험하지 않고 부작용도 없는 실험, 간단히 완성했다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Bhl4icon",
+		count = 1,
+		name = "괴인 실험대",
+		id = 71117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bhl4B",
+				"normal"
+			},
+			{
+				"Bhl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Bhl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71118] = {
+		can_rotate = 0,
+		describe = "안에 무엇이 숨겨져 있을까요...?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "깜짝 상자",
+		advice = 0,
+		id = 71118,
+		icon = "Dhl4icon",
+		comfortable = 4,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Dhl4",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[71119] = {
+		can_rotate = 0,
+		describe = "후후, 무엇이 나타날까요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 71,
+		icon = "Chl4icon",
+		count = 1,
+		name = "양초 마법진",
+		id = 71119,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Chl4B",
+				"normal"
+			},
+			{
+				"Chl4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"stand2"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Chl4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[71301] = {
+		can_rotate = 0,
+		describe = "장식용 호박등.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hl4/17hl4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 71,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 3,
+		name = "호박등",
+		advice = 0,
+		icon = "17hl4icon",
+		id = 71301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[71302] = {
+		can_rotate = 0,
+		describe = "방금... 쳐다본 거 아닌가요!?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 71,
+		count = 1,
+		name = "쥬쥬 백작상",
+		advice = 0,
+		id = 71302,
+		icon = "Ehl4icon",
+		comfortable = 4,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ehl4",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -72153,6 +73251,7 @@ pg.furniture_data_template = {
 		100017,
 		100018,
 		100019,
+		100020,
 		1001,
 		1002,
 		1101,
@@ -73696,6 +74795,29 @@ pg.furniture_data_template = {
 		69306,
 		69307,
 		69308,
-		69309
+		69309,
+		71001,
+		71002,
+		71101,
+		71102,
+		71103,
+		71104,
+		71105,
+		71106,
+		71107,
+		71108,
+		71109,
+		71110,
+		71111,
+		71112,
+		71113,
+		71114,
+		71115,
+		71116,
+		71117,
+		71118,
+		71119,
+		71301,
+		71302
 	}
 }

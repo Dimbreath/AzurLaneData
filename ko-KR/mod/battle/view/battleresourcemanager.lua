@@ -1065,11 +1065,7 @@ function slot5.GetEquipSkinPreviewRes(slot0)
 
 	slot4, slot5, slot6, slot7 = uv0.GetEquipSkin(slot0)
 
-	if _.any({
-		EquipType.FighterAircraft,
-		EquipType.TorpedoAircraft,
-		EquipType.BomberAircraft
-	}, function (slot0)
+	if _.any(EquipType.AirProtoEquipTypes, function (slot0)
 		return table.contains(uv0.equip_type, slot0)
 	end) then
 		slot1[#slot1 + 1] = uv1.GetCharacterGoPath(slot4)

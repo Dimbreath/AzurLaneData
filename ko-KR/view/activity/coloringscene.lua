@@ -209,8 +209,6 @@ function slot0.initInteractive(slot0)
 end
 
 function slot0.updatePage(slot0)
-	warning("UpdatePage")
-
 	for slot4, slot5 in ipairs(slot0.paintsgroup) do
 		setActive(slot5:Find("lock"), slot0.colorGroups[slot4]:getState() == ColorGroup.StateLock)
 		setActive(slot5:Find("get"), slot7 == ColorGroup.StateAchieved)

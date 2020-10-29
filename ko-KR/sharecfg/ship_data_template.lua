@@ -68926,17 +68926,17 @@ pg.ship_data_template = {
 		airassist_time = {},
 		buff_list = {
 			9101,
-			9111,
+			9110,
 			20142
 		},
 		buff_list_display = {
 			9101,
-			9111,
+			9110,
 			20142
 		},
 		hide_buff_list = {
 			9101,
-			9111,
+			9110,
 			20142
 		}
 	},

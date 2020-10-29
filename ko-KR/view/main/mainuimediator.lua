@@ -832,14 +832,19 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.onChapterTimeUp(slot0)
-	if getProxy(ChapterProxy):getActiveChapter() and (not slot2:inWartime() or not Chapter.StaticIsChapterBindedActivityActive(slot2.id)) then
-		slot0.retreateMapType = slot2:getMapType()
+function slot0.onChapterTimeUp(slot0, slot1)
+	if getProxy(ChapterProxy):getActiveChapter() and (not slot3:inWartime() or not Chapter.StaticIsChapterBindedActivityActive(slot3.id)) then
+		slot0.retreateMapType = slot3:getMapType()
 
-		slot0:sendNotification(GAME.CHAPTER_OP, {
-			type = ChapterConst.OpRetreat
-		})
-		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
+		ChapterOpCommand.PrepareChapterRetreat(function ()
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
+
+			if uv0 then
+				uv0()
+			end
+		end)
+	elseif slot1 then
+		slot1()
 	end
 end
 
@@ -897,7 +902,22 @@ function slot0.handleEnterMainUI(slot0)
 				uv0:tryPlayGuide()
 			end
 
-			uv0:onChapterTimeUp()
+			slot5 = false
+
+			uv0:onChapterTimeUp(function ()
+				if not uv0 then
+					uv0 = false
+					uv1 = false
+
+					uv2()
+				end
+			end)
+
+			if true then
+				slot5 = true
+
+				coroutine.yield()
+			end
 
 			if not LOCK_SUBMARINE then
 				uv0:tryRequestMainSub()

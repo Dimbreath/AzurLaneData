@@ -2634,6 +2634,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101161] = {
+		ship_group = 10116,
+		name = "핼러윈 토끼 미소녀!",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Fight! 핼러윈의 밤에 사랑과 평화를 가져온 사자, 호박 토끼 미소녀 벤슨, 도착!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bensen_2",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		id = 101161,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bensen_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70443,
+		voice_actor = 85,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.186,
+					1.006,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.229,
+					0.997,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.145,
+					0.988,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.391,
+							2.476,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101170] = {
 		ship_group = 10117,
 		name = "라피",
@@ -5168,6 +5278,109 @@ pg.ship_skin_template = {
 						{
 							-0.31,
 							2.18,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101291] = {
+		ship_group = 10129,
+		name = "Candy Magic！",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "나는 마녀 래드포드, 마법서의 \"캔디 매직\"으로 뭐든지 맛있는 사탕으로 만들 수 있지! 후후, 거의 이런 느낌이겠지——... 엣, 지휘관? 어, 언제 온 거야?",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ladefute_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		id = 101291,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ladefute_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 101,
+		air_bomb_skin = "",
+		illustrator = 26,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.984,
+					0.954,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.074,
+					0.961,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							2.406,
 							0
 						}
 					}
@@ -16446,6 +16659,109 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[103112] = {
+		ship_group = 10311,
+		name = "핼러윈의 지배자?",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "하하핫! 오늘밤 나는 대장군 같은 것이 아니라, 두려움에 떨게 만드는 마녀의 왕이다! 너는... 마녀의 소환수를 맡아!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "weiqita_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		id = 103112,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "weiqita_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70435,
+		voice_actor = 24,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.416,
+					1.131,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.385,
+					1.125,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.401,
+							2.602,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103130] = {
 		ship_group = 10313,
 		name = "미니애폴리스",
@@ -19632,6 +19948,115 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.46,
+					0.49,
+					0
+				}
+			},
+			plane = {
+				{
+					0.46,
+					0.49,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.509,
+							0.442,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.416,
+							0.493,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[106013] = {
+		ship_group = 10601,
+		name = "L.I.@핼러윈 한정 생방 중",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "「집순이 마녀 L.I.의 핼러윈 데이 특별 생방송 채널, 모두 환영해.」——후, 자기 소개는 이렇게 쓰면 되겠지? 마지막에 구독자 얼마나 늘어날 수 있을지 모르겠네...",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "changdao_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		id = 106013,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changdao_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70434,
+		voice_actor = 45,
+		air_bomb_skin = "",
+		illustrator = 13,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -127678,7 +128103,8 @@ pg.ship_skin_template = {
 			101150
 		},
 		[10116] = {
-			101160
+			101160,
+			101161
 		},
 		[10117] = {
 			101170,
@@ -127713,7 +128139,8 @@ pg.ship_skin_template = {
 			101279
 		},
 		[10129] = {
-			101290
+			101290,
+			101291
 		},
 		[10130] = {
 			101300
@@ -127919,7 +128346,8 @@ pg.ship_skin_template = {
 		},
 		[10311] = {
 			103110,
-			103111
+			103111,
+			103112
 		},
 		[10313] = {
 			103130,
@@ -127986,6 +128414,7 @@ pg.ship_skin_template = {
 		[10601] = {
 			106010,
 			106011,
+			106013,
 			106019
 		},
 		[10602] = {
@@ -130032,6 +130461,7 @@ pg.ship_skin_template = {
 		101140,
 		101150,
 		101160,
+		101161,
 		101170,
 		101172,
 		101173,
@@ -130055,6 +130485,7 @@ pg.ship_skin_template = {
 		101271,
 		101279,
 		101290,
+		101291,
 		101300,
 		101310,
 		101312,
@@ -130159,6 +130590,7 @@ pg.ship_skin_template = {
 		103102,
 		103110,
 		103111,
+		103112,
 		103130,
 		103131,
 		103132,
@@ -130189,6 +130621,7 @@ pg.ship_skin_template = {
 		105200,
 		106010,
 		106011,
+		106013,
 		106019,
 		106020,
 		106029,

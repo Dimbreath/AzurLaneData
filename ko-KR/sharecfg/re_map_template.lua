@@ -1,11 +1,12 @@
 pg = pg or {}
 pg.re_map_template = {
 	{
-		activity_type = 1,
+		bg = "temp_hongran",
 		name = "红染常驻复刻",
 		memory_group = 108,
 		id = 1,
-		bg = "temp_hongran",
+		activity_type = 1,
+		order = 1,
 		config_data = {
 			2100001,
 			2100002,
@@ -49,11 +50,12 @@ pg.re_map_template = {
 		}
 	},
 	{
-		activity_type = 2,
+		bg = "temp_zjiandui",
 		name = "Z舰队常驻复刻",
 		memory_group = 101,
 		id = 2,
-		bg = "temp_zjiandui",
+		activity_type = 2,
+		order = 2,
 		config_data = {
 			2200001,
 			2200002,
@@ -88,11 +90,12 @@ pg.re_map_template = {
 		}
 	},
 	[4] = {
-		activity_type = 1,
+		bg = "temp_lingdong",
 		name = "凛冬常驻复刻",
 		memory_group = 123,
 		id = 4,
-		bg = "temp_lingdong",
+		activity_type = 1,
+		order = 4,
 		config_data = {
 			2100021,
 			2100022,
@@ -136,11 +139,12 @@ pg.re_map_template = {
 		}
 	},
 	[5] = {
-		activity_type = 2,
+		bg = "temp_sipei",
 		name = "围剿斯佩伯爵』常驻复刻",
 		memory_group = 117,
 		id = 5,
-		bg = "temp_sipei",
+		activity_type = 2,
+		order = 5,
 		config_data = {
 			2200011,
 			2200012,
@@ -175,11 +179,12 @@ pg.re_map_template = {
 		}
 	},
 	[6] = {
-		activity_type = 1,
+		bg = "temp_yisege",
 		name = "异色格常驻复刻",
 		memory_group = 102,
 		id = 6,
-		bg = "temp_yisege",
+		activity_type = 1,
+		order = 6,
 		config_data = {
 			2100041,
 			2100042,
@@ -227,11 +232,12 @@ pg.re_map_template = {
 		}
 	},
 	[7] = {
-		activity_type = 1,
+		bg = "temp_zhuiluo",
 		name = "坠落之翼常驻复刻",
 		memory_group = 115,
 		id = 7,
-		bg = "temp_zhuiluo",
+		activity_type = 1,
+		order = 7,
 		config_data = {
 			2100061,
 			2100062,
@@ -275,11 +281,12 @@ pg.re_map_template = {
 		}
 	},
 	[9] = {
-		activity_type = 1,
+		bg = "temp_moran",
 		name = "墨染的钢铁之花常驻复刻",
 		memory_group = 131,
 		id = 9,
-		bg = "temp_moran",
+		activity_type = 1,
+		order = 9,
 		config_data = {
 			2100101,
 			2100102,

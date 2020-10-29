@@ -5116,7 +5116,7 @@ pg.item_data_statistics = {
 	},
 	[14002] = {
 		display = [[
-사용 후 SSR 과학 연주 장비(II기)의 설계도 중 임의로 1장 선택
+사용 후 SSR 과학 연구 장비(II기)의 설계도 중 임의로 1장 선택
 「시제형 2연장 406mmSKC 주포 T0 설계도」
 「시제형 3연장 152mm 양용포 Mk17 T0 설계도」
 「시제형 5식 40mm 고사기관포 T0 설계도」
@@ -99662,6 +99662,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59184] = {
+		display = "7회 수집 후, 한정 코스튬 「Candy Magic！」 획득 가능",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "마법의 막대 사탕",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59184,
+		icon = "props/candymagic",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 		rarity = 2,
@@ -108065,6 +108083,7 @@ pg.item_data_statistics = {
 		59182,
 		59180,
 		59183,
+		59184,
 		59601,
 		59602,
 		59603,

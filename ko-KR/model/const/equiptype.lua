@@ -16,11 +16,48 @@ slot0.Sonar = 14
 slot0.AntiSubAircraft = 15
 slot0.Helicopter = 17
 slot0.Goods = 18
+slot0.CannonEquipTypes = {
+	slot0.CannonQuZhu,
+	slot0.CannonQingXun,
+	slot0.CannonZhongXun,
+	slot0.CannonZhanlie,
+	slot0.CannonZhongXun2
+}
+slot0.AirProtoEquipTypes = {
+	slot0.FighterAircraft,
+	slot0.TorpedoAircraft,
+	slot0.BomberAircraft
+}
+slot0.AirEquipTypes = {
+	slot0.FighterAircraft,
+	slot0.TorpedoAircraft,
+	slot0.BomberAircraft,
+	slot0.SeaPlane
+}
+slot0.AirExtendEquipTypes = {
+	slot0.FighterAircraft,
+	slot0.TorpedoAircraft,
+	slot0.BomberAircraft,
+	slot0.SeaPlane,
+	slot0.AntiSubAircraft,
+	slot0.Helicopter
+}
 slot0.AirDomainEquip = {
 	slot0.FighterAircraft,
 	slot0.TorpedoAircraft,
 	slot0.BomberAircraft,
 	slot0.SeaPlane
+}
+slot0.TorpedoEquipTypes = {
+	slot0.Torpedo,
+	slot0.SubmarineTorpedo
+}
+slot0.DeviceEquipTypes = {
+	slot0.Equipment,
+	slot0.AntiSubAircraft,
+	slot0.Sonar,
+	slot0.Helicopter,
+	slot0.Goods
 }
 slot0.AircraftSkinType = {
 	slot0.FighterAircraft,
@@ -101,14 +138,6 @@ function slot0.type2Tag(slot0)
 	end
 
 	return uv0.tagPrints[slot0]
-end
-
-function slot0.isAircraft(slot0)
-	return pg.equip_data_template[slot0].type == uv0.FighterAircraft or slot1 == uv0.TorpedoAircraft or slot1 == uv0.BomberAircraft or slot1 == uv0.SeaPlane or slot1 == uv0.AntiSubAircraft
-end
-
-function slot0.isDevice(slot0)
-	return pg.equip_data_template[slot0].type == uv0.Equipment or slot1 == uv0.Sonar or slot1 == uv0.Helicopter or slot1 == uv0.AntiSubAircraft or slot1 == uv0.Goods
 end
 
 function slot0.getCompareGroup(slot0)

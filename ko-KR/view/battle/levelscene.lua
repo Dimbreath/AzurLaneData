@@ -917,10 +917,7 @@ function slot0.updateActivityBtns(slot0)
 	if not slot0.contextData.map:isActivity() and not slot0.contextData.map:isSkirmish() and _.any(_.values(slot0.maps), function (slot0)
 		return slot0:IsZprojectActiveMap()
 	end) then
-		slot7 = getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT)
-
-		print(slot7, slot7.id, slot7:isEnd())
-		setImageSprite(slot0.activityBtn, slot7 and not slot7:isEnd() and LoadSprite("ui/mainui_atlas", "event_map_" .. slot7.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
+		setImageSprite(slot0.activityBtn, getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot7:isEnd() and LoadSprite("ui/mainui_atlas", "event_map_" .. slot7.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
 	end
 
 	setActive(slot0.activityBtn, slot6)
@@ -2111,6 +2108,10 @@ function slot0.displayRemasterPanel(slot0, slot1)
 	for slot8, slot9 in ipairs(pg.re_map_template.all) do
 		table.insert(slot3, pg.re_map_template[slot9])
 	end
+
+	table.sort(slot3, function (slot0, slot1)
+		return slot0.order < slot1.order
+	end)
 
 	slot0.levelRemasterView = LevelRemasterView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
