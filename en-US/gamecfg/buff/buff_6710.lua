@@ -17,7 +17,7 @@ return {
 			},
 			arg_list = {
 				bgm_list = {
-					"song01"
+					"song08"
 				}
 			}
 		}

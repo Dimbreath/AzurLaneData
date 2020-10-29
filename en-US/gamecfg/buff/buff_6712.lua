@@ -17,7 +17,7 @@ return {
 			},
 			arg_list = {
 				bgm_list = {
-					"holo-inochi"
+					"song06"
 				}
 			}
 		}
