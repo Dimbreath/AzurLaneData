@@ -99,6 +99,9 @@ end
 
 function slot0.Show(slot0, slot1)
 	slot0.furnitureVO = slot1
+
+	print(slot1.id)
+
 	slot3 = slot1:descVoiceType()
 
 	setActive(slot0.descPanelVoiceBtn, slot1:existVoice() and slot3 == BackYardConst.SOUND_TYPE_EFFECT)

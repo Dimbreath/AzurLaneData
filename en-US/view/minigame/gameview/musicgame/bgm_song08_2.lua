@@ -50,11 +50,6 @@ return {
 			begin_time = "20.44118"
 		},
 		{
-			end_time = "20.44118",
-			key_flag = "K_LEFT",
-			begin_time = "20.44118"
-		},
-		{
 			end_time = "20.73529",
 			key_flag = "K_LEFT",
 			begin_time = "20.73529"
@@ -98,11 +93,6 @@ return {
 			end_time = "24.26471",
 			key_flag = "K_LEFT",
 			begin_time = "24.26471"
-		},
-		{
-			end_time = "24.55882",
-			key_flag = "K_LEFT",
-			begin_time = "24.55882"
 		},
 		{
 			end_time = "24.55882",

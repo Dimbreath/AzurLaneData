@@ -9193,13 +9193,21 @@ depends on the amount of damage dealt to the boss.
 	music_collection = {
 		tip = {
 			{
+				info = "How to Play:"
+			},
+			{
+				info = "-The \"Universe in Unison\" event will run until the 11/11 maintenance.\nCollect all 12 pieces of µ-related memorabilia to\nunlock the limited furniture, \"Universe Medal.\""
+			},
+			{
 				info = [[
-How to Play:'},{info='-The "Universe in Unison" event will run until the 11/12 maintenance.
-Collect all 12 pieces of µ-related memorabilia to
-unlock the limited furniture, "Universe Medal."'},{info='-Memorabilia items may be obtained in the following ways:
+-Memorabilia items may be obtained in the following ways:
 1. Clear event stages with 3 stars
 2. Complete event-limited tasks
-3. Collect "Universe Badges" for milestone rewards.'},{info='-Memorabilia with an unknown acquisition condition (???)
+3. Collect "Universe Badges" for milestone rewards.]]
+			},
+			{
+				info = [[
+-Memorabilia with an unknown acquisition condition (???)
 may be obtained from clearing the Daily SP Stage.
 Once you've obtained all the memorabilia items,
 you may arrange them in your fanbook.
@@ -9213,17 +9221,25 @@ You may claim rewards up until 11/18, 23:59]]
 	music_main = {
 		tip = {
 			{
+				info = "The \"Universe in Unison\" event will run from <color=#92fc63>10/29 to 11/11</color>"
+			},
+			{
+				info = "1) Sortie to event stages to earn \"Universe Badges,\"\nand obtain great rewards through milestone rewards\nand event currency exchange."
+			},
+			{
 				info = [[
-The "Universe in Unison" event will run from <color=#92fc63>10/29 to 11/12</color>'},{info='1) Sortie to event stages to earn "Universe Badges,"
-and obtain great rewards through milestone rewards
-and event currency exchange.},{info='2) In "Cosmic Concert," play the rhythm minigame,
+2) In "Cosmic Concert," play the rhythm minigame,
 earn a B rating or higher, and collect "Performance Notes"
 to get the limited ship, "Le Malin µ."
 <color=#92fc63>Note:</color> You can get one chance to earn
 Performance Notes each day, up to a total of 7 chances.
 You will not consume a chance if you obtain a rating lower
 than B-rank, and the game can still be played even if you
-have no more reward attempts.'},{info='3) Collect all <color=#92fc63>12</color> album memorabilia to earn
+have no more reward attempts.]]
+			},
+			{
+				info = [[
+3) Collect all <color=#92fc63>12</color> album memorabilia to earn
 the commemorative "Universe Medal." Check the
 "Medals" interface for detailed acquisition conditions.
 4) Tap on "Limited Construction" to go to the ship
@@ -9278,8 +9294,8 @@ After leaving a comment on a post, you may receive a reply after a period of tim
 Regarding "Cosmic Concert"
 The Cosmic Concert is a rhythm mini-game
 where you can earn Performance Notes.
-When you get a B or higher rating in a Cosmic Concert
-, you will use up a reward attempt and earn
+When you get a B or higher rating in a Cosmic Concert,
+you will use up a reward attempt and earn
 a Performance Note. Collect 7 to get the limited
 SR ship, "Le Malin µ."
 You can earn one Performance Note per day after
@@ -11038,7 +11054,7 @@ If you're not sure what your current rehearsal level is, you can check it from t
 		}
 	},
 	upgrade_idol_tip = {
-		tip = "Rehearsals will grant your fleets buffs for the remainder of the event. "
+		tip = "Rehearsals will grant your fleets\nbuffs for the remainder of the event. "
 	},
 	upgrade_complete_tip = {
 		tip = "Rehearsal complete! "

@@ -291,7 +291,7 @@ return {
 			actor = 201234,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "そうよ♪ ユニコーンちゃんもイラストリアスもそういうところが一番可愛いからね",
+			say = "I agree~ Unicorn and Illustrious are super cute due to their clumsiness~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

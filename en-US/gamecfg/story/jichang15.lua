@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			say = "そこはこの相談屋のブレマートンにおまかせ♪ サラトガちゃんみたいに「キラッ☆」とした感じになるのは急すぎる気もするけど…",
+			say = "Well, let's see... Okay, so, you definitely can't mimic Sara's \"lookie, I'm a pink, sparkly idol!\" shtick. It wouldn't suit you. Like, at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			say = "練習相手がほしいならいつでもオッケーよ♪ あっ、んーこれは指揮官に見てもらったほうがいいかな…ちょっと声かけてくるね！",
+			say = "If you ever need someone to give feedback on your image, I'll be here! Hey, wait, the Commander might be better, actually... Be right back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "「♪～繋いだ声はきっと 次の奇跡を…」",
+			say = "♪ Our connected voices will surely bring forth the next miracleeee ♪",
 			flashout = {
 				dur = 1,
 				alpha = {
