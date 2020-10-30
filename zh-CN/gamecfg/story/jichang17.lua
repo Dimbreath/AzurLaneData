@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			actor = 502020,
+			actor = 502023,
 			side = 2,
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
