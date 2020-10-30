@@ -26,7 +26,7 @@ function slot0.ExistMessage(slot0)
 end
 
 function slot0.GetData(slot0)
-	return Clone(slot0.messages)
+	return slot0.messages
 end
 
 function slot0.GetMessageById(slot0, slot1)
