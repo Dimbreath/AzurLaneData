@@ -9392,7 +9392,17 @@ pg.ship_data_group = {
 			{
 				"Event: Visitors Dyed in Red",
 				{
-					""
+					"LEVEL"
+				},
+				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -9624,7 +9634,11 @@ pg.ship_data_group = {
 			{
 				"Light ship Construction",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

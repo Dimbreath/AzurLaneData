@@ -224,7 +224,7 @@ return {
 						101
 					},
 					triggerParams = {
-						bgm = "song07"
+						bgm = "song08"
 					}
 				},
 				{

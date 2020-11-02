@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "What do I propose? Well, something to do with music, stars, and all everyone dancing on the stage together. Not quite sure yet...",
+			say = "What do I propose? Well, something to do with music, stars, and everyone dancing on the stage together. Not quite sure yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

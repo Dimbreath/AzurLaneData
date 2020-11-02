@@ -11,7 +11,7 @@ return {
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "song07",
+			bgm = "song08",
 			say = "Port - Concert Venue",
 			flashin = {
 				delay = 1,
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "We're ending with a bang to compensate for the subpar conclusion of the last trial, nya! Everyone that's still in the exercise are: rush on over to the stage if you want one last chance, nya!",
+			say = "We're ending with a bang to compensate for the subpar conclusion of the last trial, nya! Everyone that's still in the exercise area: rush on over to the stage if you want one last chance, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
