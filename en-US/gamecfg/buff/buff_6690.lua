@@ -9,5 +9,16 @@ return {
 	color = "red",
 	icon = 6690,
 	last_effect = "",
-	effect_list = {}
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id = 6701,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

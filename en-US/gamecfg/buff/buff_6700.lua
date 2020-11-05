@@ -16,7 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				buff_id = 6701
+				buff_id = 6701,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -318,7 +318,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307110,
-			say = "If we were to actually destroy everything, there would nobody be around to witness our brilliance, would there?",
+			say = "If we were to actually destroy everything, there would be nobody around to witness our brilliance, would there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
