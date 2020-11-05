@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "唉…不知道印第在阿留申群岛那边怎么样了。",
+			say = "唉…不知道印第在阿留申群島那邊怎麼樣了。",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有好好吃饭吗，有好好睡觉吗，每天有按时刷牙吗——",
+			say = "有好好吃飯嗎，有好好睡覺嗎，每天有按時刷牙嗎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "----—该不会因为太沉默被同僚欺负吧？！",
+			say = "----—該不會因為太沉默被同僚欺負吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "妳未免也担心得太多了……妹妹可不是那么柔弱的存在，多相信她一点吧",
+			say = "妳未免也擔心得太多了……妹妹可不是那麼柔弱的存在，多相信她一點吧",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！意思是印第要从我身边独立了吗？！呜呜呜，不要啊印第，永远留在姐姐身边……",
+			say = "啊！意思是印第要從我身邊獨立了嗎？！嗚嗚嗚，不要啊印第，永遠留在姐姐身邊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可没这么说……唉，算了，每次跟妳一起，都觉得完全严肃不起来……妳就不会觉得紧张吗？",
+			say = "我可沒這麼說……唉，算了，每次跟妳一起，都覺得完全嚴肅不起來……妳就不會覺得緊張嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "紧张呀，这片海域在战略意义上的重要性，以及我们对其保持控制的必要性……这些我还是明白的啦",
+			say = "緊張呀，這片海域在戰略意義上的重要性，以及我們對其保持控制的必要性……這些我還是明白的啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有控制了这座岛屿和周边的海域，我们的补给路线和前线基地的建设才能得到保证",
+			say = "只有控制了這座島嶼和周邊的海域，我們的補給路線和前線基地的建設才能得到保證",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以无论如何，我们必须保住它呢，这么重要的任务，我当然也会紧张啦。",
+			say = "所以無論如何，我們必須保住它呢，這麼重要的任務，我當然也會緊張啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……难以置信，这么逻辑清晰的话居然是从妳口中说出来的。",
+			say = "……難以置信，這麼邏輯清晰的話居然是從妳口中說出來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是在我对印第的爱面前，这点紧张就像是灰尘一样微不足道！！",
+			say = "但是在我對印第的愛面前，這點緊張就像是灰塵一樣微不足道！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……好吧，我认输了，不愧是白鹰巡洋舰中的可靠前辈。",
+			say = "……好吧，我認輸了，不愧是白鷹巡洋艦中的可靠前輩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，我对印第的爱是无敌的！",
+			say = "哼哼哼，我對印第的愛是無敵的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是，集中精神继续前进吧，{namecode:90}应该就在前面了——",
+			say = "是是是，集中精神繼續前進吧，{namecode:90}應該就在前面了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

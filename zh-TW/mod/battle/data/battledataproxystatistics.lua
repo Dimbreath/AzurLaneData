@@ -120,7 +120,7 @@ function slot0.HPRatioStatistics(slot0)
 end
 
 function slot0.BotPercentage(slot0, slot1)
-	slot0._statistics._botPercentage = math.min(100, math.floor(slot1 / (slot0._currentStageData.timeCount - slot0._countDown) * 100))
+	slot0._statistics._botPercentage = Mathf.Clamp(math.floor(slot1 / (slot0._currentStageData.timeCount - slot0._countDown) * 100), 0, 100)
 end
 
 function slot0.CalcBattleScoreWhenDead(slot0, slot1)

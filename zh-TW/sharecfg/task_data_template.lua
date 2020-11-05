@@ -50848,6 +50848,246 @@ pg.task_data_template = {
 			"LEVEL"
 		}
 	},
+	[15415] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92715,
+		type = 6,
+		name = "【龙骧复刻】地图任务1",
+		count_inherit = 0,
+		desc = "通關SP1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15416",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320001,
+		id = 15415,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15416] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92716,
+		type = 6,
+		name = "【龙骧复刻】地图任务2",
+		count_inherit = 0,
+		desc = "通關SP2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15417",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320002,
+		id = 15416,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15417] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92717,
+		type = 6,
+		name = "【龙骧复刻】地图任务3",
+		count_inherit = 0,
+		desc = "通關SP3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320003,
+		id = 15417,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15418] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92718,
+		type = 6,
+		name = "【龙骧复刻】地图任务4",
+		count_inherit = 0,
+		desc = "完成SP1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15419",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320001,
+		id = 15418,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15419] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92719,
+		type = 6,
+		name = "【龙骧复刻】地图任务5",
+		count_inherit = 0,
+		desc = "完成SP2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15420",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320002,
+		id = 15419,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15420] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92720,
+		type = 6,
+		name = "【龙骧复刻】地图任务6",
+		count_inherit = 0,
+		desc = "完成SP3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320003,
+		id = 15420,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[15450] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -64564,6 +64804,12 @@ pg.task_data_template = {
 		15325,
 		15326,
 		15327,
+		15415,
+		15416,
+		15417,
+		15418,
+		15419,
+		15420,
 		15450,
 		15451,
 		15452,

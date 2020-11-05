@@ -553,6 +553,7 @@ pg.activity_template = {
 	},
 	[337] = {
 		mark = 20201015,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -582,33 +583,6 @@ pg.activity_template = {
 			{
 				14786,
 				14787
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -682,6 +656,7 @@ pg.activity_template = {
 	[340] = {
 		mark = 20201022,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -700,38 +675,12 @@ pg.activity_template = {
 			1250008,
 			1250022,
 			1250023
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[341] = {
 		mark = 20201022,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -752,38 +701,12 @@ pg.activity_template = {
 			1250010,
 			1250024,
 			1250025
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[342] = {
 		mark = 20201022,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -809,38 +732,12 @@ pg.activity_template = {
 			14824,
 			14825,
 			14826
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[343] = {
 		mark = 20201022,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -855,38 +752,12 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[344] = {
 		mark = 20201022,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 131,
@@ -894,34 +765,7 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 344,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 344
 	},
 	[345] = {
 		mark = 20201022,
@@ -1089,6 +933,7 @@ pg.activity_template = {
 	},
 	[348] = {
 		mark = 20201022,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 348,
@@ -1097,33 +942,6 @@ pg.activity_template = {
 		title_res_tag = "newmeixi_pt",
 		id = 348,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "USDefenceOilPage",
 			ui_name = "usdefenceoilpage"
@@ -1132,6 +950,7 @@ pg.activity_template = {
 	[349] = {
 		mark = 20201022,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -1139,34 +958,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 349,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[355] = {
 		mark = 20190807,
@@ -2120,6 +1912,22 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 2028,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2029] = {
+		mark = 20181213,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5331,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2029,
 		config_data = {
 			0,
 			{}
@@ -6349,6 +6157,232 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40172] = {
+		mark = 20201105,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40172",
+		title_res_tag = "",
+		id = 40172,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "龍驤 建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#d797ff>龍驤</color>：1.4%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[40173] = {
+		mark = 20201105,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 40173,
+		config_data = {
+			1320001,
+			1320002,
+			1320003
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			prevs = {
+				1320001
+			}
+		}
+	},
+	[40174] = {
+		mark = 20201105,
+		type = 54,
+		login_pop = 0,
+		config_id = 40174,
+		is_show = 20,
+		title_res_tag = "ryujo_pt",
+		id = 40174,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "RyujoPtPage",
+			ui_name = "ryujoptpage"
+		},
+		config_client = {
+			linkActID = 40173
+		}
+	},
+	[40175] = {
+		mark = 20201105,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 145,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 40175,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40176] = {
+		mark = 20201105,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 40176,
+		config_data = {
+			15415,
+			15416,
+			15417,
+			15418,
+			15419,
+			15420
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		page_info = "",
@@ -7408,6 +7442,7 @@ pg.activity_template = {
 		2026,
 		2027,
 		2028,
+		2029,
 		2030,
 		2031,
 		2032,
@@ -7580,6 +7615,11 @@ pg.activity_template = {
 		40168,
 		40169,
 		40170,
+		40172,
+		40173,
+		40174,
+		40175,
+		40176,
 		45000,
 		45001,
 		45002,

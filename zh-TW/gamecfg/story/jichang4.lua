@@ -12,7 +12,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ふぅ…ひとまずはこんな感じかな",
+			say = "呼……总之就是这样的感觉吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "皆、お疲れさまですわ",
+			say = "大家辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "軽食とかお飲み物はいかがですか？皆様の分を用意させていただきました",
+			say = "我为大家准备了一些点心饮料之类的，要来点吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "お、ありがたくもらっちゃお！タシュケントもいる？いらない？",
+			say = "哦，那我就不客气了！塔什干要不要？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "も、もらうわよ！",
+			say = "我也要！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "よし、じゃあ皆一回休憩しようか！",
+			say = "那大家都稍微休息一下吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "アイドルカツドウを行う前に皆で一回確認するのが正解だったね",
+			say = "在正式开始之前先排练一遍真是正确的选择…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "そうですね…個々の兵装を使いこなす分には問題ないですけれど…",
+			say = "是的……虽然大家都能很好地使用自己的舰装，不过……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "やっぱり問題は「アイドル」だ",
+			say = "果然，问题还是在于「偶像」啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "「アイドル」ですか…？",
+			say = "「偶像」么…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ああ、前回の兵装実験、つまり「「Polaris」」たちのライブを見ていたが、私たちの今の連携ではそのレベルには到底できないな",
+			say = "唉，上次「Polaris」的演出你也看了吧，我们现在的合作无论如何也达不到她们的水平啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "お飲み物をお持ちしました。イラストリアス様、ボルチモア様",
+			say = "饮料来了哦，光辉小姐，巴尔的摩小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ありがとうございます。…あ、ダイドー、一つ質問していいですか？",
+			say = "谢谢……啊，黛朵，可以问你一个问题吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "なんでしょうか…？",
+			say = "请问有何吩咐…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "シェフィールドさんがこの前の「μ兵装」テストに参加していた際にどうやってレッスンを行っていたのでしょうか",
+			say = "在参加上次「μ兵装」测试的时候，谢菲尔德参加了什么样的课程呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "はい、ダイドーが聞いたのは……",
+			say = "唔，黛朵听说的是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "なるほど、思ってたのと結構違っているな…",
+			say = "原来如此，和我想的大相径庭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "なるほど、思ってたのとそんなに変わらないね…",
+			say = "原来如此，和我想的完全一样……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "わ！？アルバコア、いつの間に？",
+			say = "哇！大青花鱼，你什么时候过来的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "さっきからだよ？大人たちが集まって何の話してるか気になるじゃなーい？",
+			say = "从刚才开始就在了哦？大家都很好奇大人们偷偷聚集在一起是在讨论什么话题呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "タシュケントは別に気にしていないわ",
+			say = "塔什干并不在意这些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "まーたそんなこと～で？ボルチモア、これからどうするの？",
+			say = "哎呀，又说那样的话啦～巴尔的摩，我们之后应该怎么办？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "急いで行動するにも、まずこのユニットの皆の得意不得意を把握しておけないとな",
+			say = "如果我们想加快进度，首先要弄清楚大家各自擅长与不擅长的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "そうですね。戦闘だけでなく、それぞれの問題点を調べておきませんと",
+			say = "是啊。不仅仅是战斗，还要调查一下大家其他方面的问题点……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "じゃあ決まりだな。もうちょっと演習…もとい、リハーサルをやるとするか！",
+			say = "那就这么决定了。首先让我们再做一些演习……不对，让我们再做一些排练吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,4 +1,5 @@
 slot0 = class("MusicGameNote")
+slot0.easyTriggerStepTime = nil
 slot0.type_left = 1
 slot0.type_right = 2
 slot0.type_pu_normal = 1
@@ -20,15 +21,16 @@ slot9 = {
 	1450
 }
 slot10 = {
-	0.3,
+	0.26,
 	0.2,
 	0.15,
 	0.13
 }
 slot11 = 3
 slot12 = nil
+slot13 = false
 
-function slot13(slot0)
+function slot14(slot0)
 	slot1 = {
 		_tf = slot0,
 		type = nil,
@@ -201,7 +203,11 @@ function slot0.step(slot0, slot1)
 	for slot5 = #slot0.noteList, 1, -1 do
 		if slot0.noteList[slot5]:getRemoveTime() and slot6 < slot0.stepTime then
 			if slot0.noteStateCallback then
-				slot0.noteStateCallback(uv0)
+				if not uv1 then
+					slot0.noteStateCallback(uv0)
+				else
+					slot0.noteStateCallback(uv2)
+				end
 			end
 
 			if slot0.loopFlag then
@@ -223,6 +229,10 @@ function slot0.step(slot0, slot1)
 end
 
 function slot0.checkScoreType(slot0, slot1)
+	if slot0.dgree == MusicGameNote.type_dgree_easy and slot0.keyDownStepTime and slot0.keyDownStepTime and slot0.keyDownStepTime == MusicGameNote.easyTriggerStepTime then
+		slot0.keyDownTrigger = true
+	end
+
 	slot2, slot3 = nil
 
 	if not slot1.longFlag then
@@ -238,6 +248,10 @@ function slot0.checkScoreType(slot0, slot1)
 			if slot2 then
 				slot1.triggerDown = true
 				slot0.keyDownTrigger = true
+
+				if slot0.dgree == MusicGameNote.type_dgree_easy then
+					MusicGameNote.easyTriggerStepTime = slot0.keyDownStepTime
+				end
 			end
 		end
 	elseif not slot1.triggerDown then

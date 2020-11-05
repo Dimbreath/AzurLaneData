@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "咕呜…还是力量不足啊……",
+			say = "咕嗚…還是力量不足啊……",
 			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306060,
-			say = "不过这样一来，也算是…帮上大家的忙了吧……",
+			say = "不過這樣一來，也算是…幫上大家的忙了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次、下次不会再输给妳们了啊啊啊——",
+			say = "下次、下次不會再輸給妳們了啊啊啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "赢了……吗？",
+			say = "贏了……嗎？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -99,7 +99,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "前方的重樱舰队已经开始撤退了！",
+			say = "前方的重櫻艦隊已經開始撤退了！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -118,7 +118,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "波特兰，妳还好吧？",
+			say = "波特蘭，妳還好吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，还、还行。呼，真是危险呢",
+			say = "嗯，還、還行。呼，真是危險呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就好，再来就看萨拉托加那边了吧——",
+			say = "那就好，再來就看薩拉托加那邊了吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "{namecode:90}最后…还是输掉了吗…",
+			say = "{namecode:90}最後…還是輸掉了嗎…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -195,7 +195,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "可恶，明明直接由我们上的话……",
+			say = "可惡，明明直接由我們上的話……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -214,7 +214,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是命令，没办法…而且她的付出并没有白费",
+			say = "這是命令，沒辦法…而且她的付出並沒有白費",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重创了灰色幽灵，也算是为靠不住的前辈们报了仇了。接下来就该轮到我们——",
+			say = "重創了灰色幽靈，也算是為靠不住的前輩們報了仇了。接下來就該輪到我們——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgm = "battle-boss-2",
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "等等，姐姐！{namecode:39}那边传来情报，她带领的舰队突然遇袭，运输计划受阻！",
+			say = "等等，姐姐！{namecode:39}那邊傳來情報，她帶領的艦隊突然遇襲，運輸計劃受阻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？！",
+			say = "什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

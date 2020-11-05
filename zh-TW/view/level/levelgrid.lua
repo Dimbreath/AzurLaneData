@@ -981,18 +981,19 @@ function slot0.initChampions(slot0)
 		slot0.cellChampions[slot5] = false
 
 		if slot6.flag ~= 1 then
-			slot9 = slot0:getChampionPool(slot6:getPoolType()):Dequeue()
+			slot7 = slot6:getPoolType()
+			slot9 = slot0:getChampionPool(slot7):Dequeue()
 			slot9.name = "cell_champion_" .. slot6:getPrefab()
 			slot9.transform.localEulerAngles = Vector3(-slot1.theme.angle, 0, 0)
 
 			setParent(slot9, slot0.cellRoot, false)
 			setActive(slot9, true)
 
-			if slot6.attachment == ChapterConst.AttachOni then
-				slot0.cellChampions[slot5] = OniCellView.New(slot9)
-			elseif slot7 == "common" then
+			if slot7 == "common" then
 				slot0.cellChampions[slot5] = ChampionCellView.New(slot9)
-			else
+			elseif slot7 == "oni" then
+				slot0.cellChampions[slot5] = OniCellView.New(slot9)
+			elseif slot7 == "enemy" then
 				slot0.cellChampions[slot5] = EggCellView.New(slot9)
 			end
 
@@ -1007,14 +1008,17 @@ function slot0.initChampions(slot0)
 			slot10:setAction(ChapterConst.ShipIdleAction)
 			slot10:ResetCanvasOrder()
 
-			if slot7 == "enemy" then
+			if slot7 == "common" then
+				slot10:SetExtraEffect(slot6:getConfig("effect_prefab"))
+
+				if slot6.flag == 5 then
+					slot10:setAction(ChapterConst.ShipSwimAction)
+				end
+			elseif slot7 == "enemy" then
 				slot10:setLevel(slot6:getConfig("level"))
 				slot10:setEnemyType(slot6:getConfig("type"))
-			elseif slot7 == "common" and slot6.flag == 5 then
-				slot10:setAction(ChapterConst.ShipSwimAction)
 			end
 
-			slot10:SetExtraEffect(slot6:getConfig("effect_prefab"))
 			slot10:loadSpine(function ()
 				uv0:getModel().transform.localRotation = uv1.rotation
 
@@ -2107,7 +2111,6 @@ function slot0.moveFleet(slot0, slot1, slot2, slot3, slot4)
 			uv1.onShipStepChange(slot0)
 		end
 	end, function (slot0)
-		uv0:ResetCanvasOrder()
 	end, function ()
 		setActive(uv0.arrowTarget, false)
 
@@ -2145,7 +2148,6 @@ function slot0.moveSub(slot0, slot1, slot2, slot3, slot4)
 	slot0:updateQuadCells(ChapterConst.QuadStateFrozen)
 	slot0:teleportSubView(slot7, slot7:GetLine(), slot2[#slot2], function (slot0)
 	end, function (slot0)
-		uv0:ResetCanvasOrder()
 	end, function ()
 		uv3:SetActiveModel(not (uv0:existEnemy(ChapterConst.SubjectPlayer, uv1.row, uv1.column) or uv0:existAlly(uv2)))
 
@@ -2167,7 +2169,6 @@ function slot0.moveChampion(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	function slot9(slot0)
-		uv0:ResetCanvasOrder()
 	end
 
 	function slot10()
@@ -2204,7 +2205,6 @@ function slot0.moveTransport(slot0, slot1, slot2, slot3, slot4)
 	slot0:updateQuadCells(ChapterConst.QuadStateFrozen)
 	slot0:moveCellView(slot0.cellFleets[slot0.contextData.chapterVO.fleets[slot1].id], slot2, slot3, function (slot0)
 	end, function (slot0)
-		uv0:ResetCanvasOrder()
 	end, function ()
 		if uv0:getModel() then
 			uv1.rotation = uv0:getModel().transform.localRotation
@@ -2252,10 +2252,11 @@ function slot0.moveCellView(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 				end
 
 				uv4(uv5)
+				uv0:SetLine(uv5)
+				uv0:ResetCanvasOrder()
 			end, function ()
-				uv0:SetLine(uv1)
-				uv2(uv1)
-				uv3()
+				uv0(uv1)
+				uv2()
 			end)
 			coroutine.yield()
 		end)
@@ -2317,6 +2318,7 @@ function slot0.teleportSubView(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 		uv2.tf.localPosition = uv3.theme:GetLinePosition(uv1.row, uv1.column)
 
+		uv2:ResetCanvasOrder()
 		uv4(uv1)
 		uv5:PlaySubAnimation(uv2, false, uv6)
 	end)

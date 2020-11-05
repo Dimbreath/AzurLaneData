@@ -129,7 +129,7 @@ return {
 			}
 		}
 	},
-	time = 5,
+	time = 3,
 	name = "回血HOT",
 	init_effect = "",
 	picture = "",

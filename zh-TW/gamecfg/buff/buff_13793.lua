@@ -149,7 +149,7 @@ return {
 			}
 		}
 	},
-	time = 8,
+	time = 10,
 	name = "",
 	init_effect = "",
 	id = 13793,

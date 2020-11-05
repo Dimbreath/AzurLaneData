@@ -6184,6 +6184,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60194] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60194,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -12316,6 +12370,55 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			102181
+		}
+	},
+	[70124] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "購買造型：龍驤睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70124,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			306061
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[70127] = {
@@ -18526,6 +18629,7 @@ pg.shop_template = {
 		60173,
 		60174,
 		60188,
+		60194,
 		61001,
 		61002,
 		61003,
@@ -18647,6 +18751,7 @@ pg.shop_template = {
 		70115,
 		70116,
 		70117,
+		70124,
 		70127,
 		70130,
 		70133,

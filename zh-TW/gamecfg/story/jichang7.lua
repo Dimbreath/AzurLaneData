@@ -12,7 +12,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "はぁ…はぁ…アタシが考えた振り付け、まさかここまでも疲れるとは……",
+			say = "哈……哈……我想出来的编舞，怎么跳起来会这么累……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "もうちょっと練り直したほうが良さそうですね…",
+			say = "再稍微重新设计一下会比较好吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ぐぬぬぬ……",
+			say = "咕呜呜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "こうやって練習して問題を発見し続けるのは当たり前だぞ",
+			say = "像这样通过持续的练习来发现问题是理所当然哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "あの「Polaris」の子たちも同じことをやっていたからな。避けて通れる道はないのさ",
+			say = "那些「Polaris」的孩子们以前也做了同样的事情，这些都是必要的经历。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "ええ、それに大きなトラブルがなかったのは、方向性が間違っていないということですわ",
+			say = "嗯，而且到现在为止都没有发现大的问题，说明我们的设计方向是正确的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "確かにそうね。このままレッスンし続ければ、今の問題も問題じゃなくなるよね",
+			say = "没错，就这样持续练习下去的话，很快现在的问题也就不再是问题了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ステージのパフォーマンスはそれでいいとして…",
+			say = "在台上的演出内容就先这样…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "ステージのほうがうまく行けば、艤装の性能をよりうまく発揮できるってわけだ。今回の作戦の本来の目的を忘れてはダメだぞ",
+			say = "如果在舞台上表现的更好，就可以更好地发挥μ兵装的性能，不要忘记这次任务的初衷哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "その艤装のこと、実はちょっとわからないことがあるね",
+			say = "关于这次的μ兵装，我还是有一些疑惑的地方…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "艤装のこと…？",
+			say = "疑惑的地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "前回クリーブランドたちが装備している「μ兵装」って、確か「会場が盛り上げれば盛り上げるほど出力が強くなる」って分かった",
+			say = "上次克利夫兰她们装备的 「μ兵装」，确实能让我们明白「会场气氛越兴奋性能就越高」这一点。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "ほら、「μ兵装」の実験参加艦船以外にも、みんながいっぱい参加しているでしょう？",
+			say = "让所有的观众的目光都集中在唯一的组合上，这无疑是提升气氛的最佳方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "けど今回はあえて「μ兵装」を複数のチームに分けているから、ちょっと理由が分からないのね",
+			say = "但不知道为什么，这次却把使用「μ兵装」舰船分成了很多队。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "それは…どういうことでしょう？",
+			say = "也就是说……是什么意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "「μ兵装」が使い手によって性能が大きく変わってしまうのではないかって話ね",
+			say = "「μ兵装」的性能是否会因为使用者的不同而产生很大差异。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "前回は「Polaris」1ユニットしかなかったけど、今回は複数いるのはちょっとヘンだと感じたわけ",
+			say = "上一次只有「Polaris」一个组合，这次确有多支队伍，确实有些奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "例えば、重桜や鉄血が「μ兵装」を使うときの性能が強ければ、私たちよりそっちのほうが「強い」ってことになる",
+			say = "比如说，如果重樱和铁血在使用「μ兵装」时发挥出的性能更高，那么表现上就是她们就比我们「更强」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "つまり陣営間の力の差が出てくるってことか…いや、流石にフカヨミしすぎたか",
+			say = "也就是说，阵营之间会因此而产生实力差…会不会有些解读过分了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "そこは大会に出なければわからないからね～",
+			say = "那就只有参加大会的时候才知道了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "どのみち、今はレッスンを頑張るしかありませんね",
+			say = "不管怎样，我们现在能做的也只有努力练习了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "そうだ。ほら皆、もう一回練習するぞ",
+			say = "没错，各位，让我们再来练习一次吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

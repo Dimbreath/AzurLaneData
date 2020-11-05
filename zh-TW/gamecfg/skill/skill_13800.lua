@@ -61,11 +61,29 @@ return {
 				arg_list = {
 					weapon_id = 65255
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 65255
+				}
 			}
 		}
 	},
 	{
 		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 65256
+				}
+			},
 			{
 				targetAniEffect = "",
 				casterAniEffect = "",
@@ -87,11 +105,29 @@ return {
 				arg_list = {
 					weapon_id = 65257
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 65257
+				}
 			}
 		}
 	},
 	{
 		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 65258
+				}
+			},
 			{
 				targetAniEffect = "",
 				casterAniEffect = "",
@@ -113,11 +149,29 @@ return {
 				arg_list = {
 					weapon_id = 65259
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 65259
+				}
 			}
 		}
 	},
 	{
 		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 65260
+				}
+			},
 			{
 				targetAniEffect = "",
 				casterAniEffect = "",
@@ -133,7 +187,7 @@ return {
 	name = "",
 	cd = 0,
 	picture = "1",
-	desc = "鱼雷",
+	desc = "",
 	painting = 1,
 	id = 11400,
 	castCV = "skill",

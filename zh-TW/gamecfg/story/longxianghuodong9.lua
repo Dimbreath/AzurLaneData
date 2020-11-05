@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "终于来了吗。",
+			say = "終於來了嗎。",
 			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "已经将飞机都收回来了准备应对我们的攻击了吗……",
+			say = "已經將飛機都收回來了準備應對我們的攻擊了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喂，妳知道自己被上头当作弃子了吗？即使这样还要坚持战斗吗？",
+			say = "喂，妳知道自己被上頭當作棄子了嗎？即使這樣還要堅持戰鬥嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要以此来动摇我的决心吗？可笑！这点小事我早已知晓！",
+			say = "想要以此來動搖我的決心嗎？可笑！這點小事我早已知曉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306060,
-			say = "如果牺牲我一个，能够为大家带来胜利的话……哪怕刀山火海，我{namecode:90}也在所不辞！",
+			say = "如果犧牲我一個，能夠為大家帶來勝利的話……哪怕刀山火海，我{namecode:90}也在所不辭！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……这就是重樱的意志吗。",
+			say = "……這就是重櫻的意志嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这有什么～如果是为了印第的话，我连这个世界也能毁灭给妳看！",
+			say = "哼，這有什麼～如果是為了印第的話，我連這個世界也能毀滅給妳看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说自由之国都是些软弱之辈，没想到还是有这般有骨气的人吗……",
+			say = "聽說自由之國都是些軟弱之輩，沒想到還是有這般有骨氣的人嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = ".....居然达成共识了？！",
+			say = ".....居然達成共識了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,8 +179,8 @@ return {
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,
-			actorName = "枭",
-			say = "即使是弃子，也不会那么轻易地任人宰割的！",
+			actorName = "龍驤",
+			say = "即使是棄子，也不會那麼輕易地任人宰割的！",
 			effects = {
 				{
 					active = true,
@@ -193,37 +193,37 @@ return {
 			}
 		},
 		{
-			actorName = "枭",
+			actorName = "龍驤",
 			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好了，自由之国的战士们，我乃来自日出之国的武士，{namecode:90}！",
+			say = "聽好了，自由之國的戰士們，我乃來自日出之國的武士，{namecode:90}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "枭",
+			actorName = "龍驤",
 			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要称呼我为弃子的话，就先赢过我再说吧！",
+			say = "想要稱呼我為棄子的話，就先贏過我再說吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "枭",
+			actorName = "龍驤",
 			nameColor = "#a9f548",
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "龙骧麟振，前无坚敌！",
+			say = "龍驤麟振，前無堅敵！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

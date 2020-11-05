@@ -4401,6 +4401,48 @@ pg.expedition_data_by_map = {
 		bind_map = 0,
 		clouds_pos = {}
 	},
+	[1320001] = {
+		map = 1320001,
+		name = "斯圖爾特的硝煙|| ||CHAPTER SP||S.P.",
+		bgm = "level",
+		type = 3,
+		on_activity = 40173,
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		ui_type = 1,
+		bg = "map_5",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1320001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -5010,6 +5052,7 @@ pg.expedition_data_by_map = {
 		1250025,
 		1250026,
 		1250022,
+		1320001,
 		2100000,
 		2100001,
 		2100010,

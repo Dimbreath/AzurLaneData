@@ -15,7 +15,7 @@ return {
 			bgm = "idol-WISHNESS-inst",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "またもや開催された、母港のライブ大会！こちら司会の明石にゃ！！",
+			say = "港区的大型演唱会终于再次召开了！我是本次依旧担任主持人的{namecode:98}喵！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今回はなんと、新しいアイドル姿の艦船たちだけでなく、「μ兵装」ユニットも複数登場にゃ！",
+			say = "这一次，不仅有以全新装束出现的舰船偶像组合们参加，就连搭载了「μ兵装」的组合也将有多队闪亮登场喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "これはもはや前回以上の盛り上がり間違いなしにゃ！というわけで、選手入場にゃー！",
+			say = "这次的演唱会肯定会比上次更加激动人心喵！事不宜迟，马上有请选手入场喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "前回大会の強豪にして、「μ兵装」を形にしたユニット、「Polaris」にゃ！！",
+			say = "首先是，上届比赛中最强的，装备了「μ兵装」的组合，「Polaris」喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			say = "紹介の意味、理解しかねる。説明を求む",
+			say = "未能理解介绍的意思，请求解释。",
 			effects = {
 				{
 					active = false,
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "いや、大した意味ないから聞き流して！",
+			say = "也没什么特别的含义啦，随便听听就好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近トレンドのミミっ子アイドルコンビを新結成？！エルドリッジ&ハムマンにゃ！",
+			say = "以最近流行的有耳偶像为主题组结成的新组合？埃尔德里奇和哈曼喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……（アホ毛が「V」になっている）",
+			say = "……（用 呆毛比了一个「V」）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 101253,
 			nameColor = "#a9f548",
-			say = "うぅ、恥ずかしい……しゃ、写真を撮るなこのヘンタイ！！",
+			say = "呜，好羞耻啊……别再拍了，你这个变态！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "闇のデビルコンビ、歌って踊れて魔眼使えて更に暗号解読もできるようになった新ユニット、U-110&Z35&Z36にゃ！",
+			say = "以暗黑的恶魔为名，能歌善舞，使用着魔眼，甚至能破译密码的新组合，U-110、Z35、Z36喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可愛くないぞ、怖いぞ、がおー",
+			say = "并非可爱，而是可怕，嘎哦——♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "歌って踊れるフュンちゃんだよ～がおー♪",
+			say = "我是能歌善舞小35哦～嘎哦——♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "深淵の鮫を召喚した魔眼使いとはこの私、がおー！",
+			say = "吾乃召唤深渊巨鲨之人，魔眼使Z36！嘎哦——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本大会の大口協賛者も緊急参戦！？もうこれ優勝あげたいけど明石はお金で動じる司会ではないにゃ！クイーン・エリザベス&ウォースパイトにゃ！",
+			say = "稍等一下，本次比赛的大赞助商要紧急参赛？！好想就这样直接把冠军颁发给她…但是喵！{namecode:98}不是一个唯利是图的主持人喵！有请伊丽莎白女王&厌战喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（ここは陛下にだけアピールさせたほうがいいわね）",
+			say = "（这里还是只让陛下来宣传比较好吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下僕たち、私のステージをよーく見てなさい！！",
+			say = "仆人们，都好好地看着本王的舞台吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そしてそして、重すぎる愛からもたらされた破滅の嵐！大鳳＆ローン、μ兵装実験ユニット「Verheerender」にゃ！！",
+			say = "然后是，因为太过沉重的爱所带来的毁灭风暴! {namecode:97}和罗恩的μ兵装实验组合「Verheerender」喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ステージだけでなく、標的艦を木っ端微塵に壊す時もみてくださいね～",
+			say = "不要只盯着舞台上，我把目标船摧毁得一塌糊涂的样子也要看好了哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 307110,
 			nameColor = "#a9f548",
-			say = "（小声）指揮官様、見ているのかしら…",
+			say = "（小声）指挥官，你在看着我吗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "教国聖座より光の偶像（アイドル）が降臨！ル・マラン、μ兵装を携えて「Lumière」として出場にゃ！！",
+			say = "于鸢尾教廷之中，降临的光之偶像！携带着μ兵装的恶毒，领衔组合「Lumière」出场喵！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姉さま、頑張ってー！！",
+			say = "姐姐，加油！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………フン",
+			say = "…………我知道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最後はロイヤル・ユニオン・北方連合の陣営による連合ユニット、ステージで輝くトップスター「Astrum」にゃ！",
+			say = "最后是由皇家・白鹰・北方联盟阵营共同组成，舞台上的头号明星组合「Astrum」闪亮登场喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "皆、よろしく！！",
+			say = "大家，请多关照了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以上、大会参加者の紹介とルール説明が終わったにゃ！さあ開始まであと少し、グッズを買い求める方は購買部出張所までお願いにゃ♪",
+			say = "本次参赛者的介绍以及舞台规则的说明就到这里了喵！大会马上就要开始，想买周边的各位快来小卖部吧喵♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ユニコーンちゃん、一人で大丈夫？",
+			say = "独角兽，你一个人没问题吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 206035,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "うん、大丈夫だよ。イラストリアス姉ちゃんも頑張ろ？",
+			say = "嗯，没事。 光辉姐姐也要加油哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ええ、一緒に頑張りましょう",
+			say = "嗯嗯，我们一起加油吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "あの紹介、気合い入りすぎじゃない？",
+			say = "刚刚那个介绍，有些热情过头了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "そういうノリのほうが面白いからね！",
+			say = "这样才更有意思嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "皆様、そろそろ準備の時間です",
+			say = "各位，差不多到赛前准备的时间了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ああ、私達も行こう！",
+			say = "啊啊，我们出发吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

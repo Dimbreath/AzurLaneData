@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "波特兰，妳从刚才开始已经看了105次印第安纳波利斯的照片，叹了115次气了……",
+			say = "波特蘭，妳從剛才開始已經看了105次印第安納波利斯的照片，嘆了115次氣了……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是和妹妹分开而已，也用不着这么失落吧。",
+			say = "只是和妹妹分開而已，也用不著這麼失落吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印第她可是有那——么可爱的呀！亚特兰大妳也是做姐姐的，难道不明白妹妹的可爱之处吗！",
+			say = "印第她可是有那——麼可愛的呀！亞特蘭大妳也是做姐姐的，難道不明白妹妹的可愛之處嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的妹妹……一个是超级大笨蛋，另一个是超级胆小鬼——",
+			say = "我的妹妹……一個是超級大笨蛋，另一個是超級膽小鬼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃，好吧，确实都挺可爱的。",
+			say = "呃，好吧，確實都挺可愛的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳看嘛，那离开妹妹不应该感到伤心和难过吗！",
+			say = "妳看嘛，那離開妹妹不應該感到傷心和難過嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣地亚哥那个笨蛋不在身边我倒是觉得清净了不少……",
+			say = "聖地牙哥那個笨蛋不在身邊我倒是覺得清淨了不少……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，可以的话我也希望和妹妹们在一起，不过毕竟大家都有任务在身，这也是没办法的事。",
+			say = "當然，可以的話我也希望和妹妹們在一起，不過畢竟大家都有任務在身，這也是沒辦法的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家最后能平安无事地重新团聚就已经很好了",
+			say = "大家最後能平安無事地重新團聚就已經很好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，为了印第，我是不会受伤的，即使是受伤了，我就是爬也要爬到她的身边！",
+			say = "哼哼，為了印第，我是不會受傷的，即使是受傷了，我就是爬也要爬到她的身邊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳这家伙，对妹妹的执念还真是……在妳身边我都不好意思自称姐姐了。",
+			say = "妳這傢伙，對妹妹的執念還真是……在妳身邊我都不好意思自稱姐姐了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，有萨拉托加发来的电报……",
+			say = "咦，有薩拉托加發來的電報……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了？",
+			say = "怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……说{namecode:90}是诱饵，{namecode:95}和{namecode:96}的攻势已经到了！",
+			say = "……說{namecode:90}是誘餌，{namecode:95}和{namecode:96}的攻勢已經到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？！",
+			say = "什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我的对空火力比较强，就让我回去支援萨拉托加她们吧，波特兰妳带着剩下的人继续前进。",
+			say = "……我的對空火力比較強，就讓我回去支援薩拉托加她們吧，波特蘭妳帶著剩下的人繼續前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…萨拉托加说不用，这边面对{namecode:90}的话，更需要妳，那边交给她就好。",
+			say = "唔…薩拉托加說不用，這邊面對{namecode:90}的話，更需要妳，那邊交給她就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……知道了，那就继续前进吧。",
+			say = "……知道了，那就繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -142,7 +142,7 @@ return {
 	name = "",
 	init_effect = "jinengchufared",
 	id = 13873,
-	time = 60,
+	time = 0,
 	picture = "",
 	desc = "提高防空属性",
 	stack = 1,
@@ -150,9 +150,9 @@ return {
 	icon = 13870,
 	last_effect = "",
 	blink = {
+		0,
+		0.7,
 		1,
-		0,
-		0,
 		0.3,
 		0.3
 	},

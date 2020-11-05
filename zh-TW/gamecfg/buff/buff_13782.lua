@@ -359,17 +359,24 @@ return {
 			}
 		}
 	},
-	desc_get = "",
 	name = "恶毒μ",
-	init_effect = "",
+	init_effect = "jinengchufared",
 	id = 13782,
 	time = 0,
 	picture = "",
 	desc = "",
+	desc_get = "",
 	stack = 1,
 	color = "red",
 	icon = 13780,
 	last_effect = "",
+	blink = {
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	},
 	effect_list = {
 		{
 			type = "BattleBuffAddAttrRatio",

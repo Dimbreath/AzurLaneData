@@ -1,7 +1,6 @@
 return {
-	fadeOut = 1.5,
-	mode = 2,
 	fadeType = 1,
+	mode = 2,
 	once = true,
 	id = "JICHANG14",
 	fadein = 1.5,
@@ -14,7 +13,7 @@ return {
 			bgm = "azumaster-ins",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "「μ兵装」実験テスト並びにアイドルステージ大会、引き続き進行中にゃ！",
+			say = "「μ兵装」实验暨偶像演唱会大赛还在进行中！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +38,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ステージに次々と参加者たちのアピールが輝き、会場も大いに盛り上がっているにゃ！海域の様子を見ると…？",
+			say = "一个接一个的参赛者们地登上舞台展示自己，现场气氛也狂热至顶点喵！让我们看看海域的情况怎么样了喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +54,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "μ兵装実験ユニット「Verheerender」、まさに順調に猛威を奮っているにゃ！",
+			say = "μ兵装实验组合「Verheerender」，正高歌猛进喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +70,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そしてまさかの「Polaris」、「Astrum」と遭遇したにゃ！最後に勝ち残れるのはどのユニットか、ますますわからなくなってきたにゃ～！",
+			say = "接下来她们就要遇到「Polaris」和「Astrum」了！最后到底哪个组合会胜出，真是越来越扑朔迷离喵～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +83,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "母港・演習海域",
+			say = "港区・演习海域",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -116,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "とまあ、私たちもプロのアイドルじゃないし、単にこの「μ兵装」の感覚をそっちより触れたのが先だけどさ",
+			say = "总之，我们也不是专业的偶像，只是比你们更早接触到了「μ兵装」的感觉而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +131,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102240,
-			say = "「アイドルカツドウ」を意識しないほうがいい感じにパフォーマンスできると思うよ",
+			say = "不去过分在意「偶像活动作为工作」这一点的话，你们的表现一定能更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +146,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "害虫をソウジしようと思った瞬間、すでに銃砲が放たれるはず――ジャマイカ風に言えばそういうことです",
+			say = "你想着去清理害虫的时候肯定已经先开枪了——用牙买加的话来说，就是这样。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +163,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "シェフィ、今のはちょっとわかりにくいです…",
+			say = "谢菲，刚才的话有点难懂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要は「素直になれ」っての。あとはユニットだから、みんなの心をある程度一つの方向に向けるだけ",
+			say = "重点在于「坦率」。作为一个组合的成员，大家要心往一处使。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +194,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403070,
-			say = "そうすればダンスもボーカルも合わせられるってわけ",
+			say = "这样无论是舞蹈还是唱歌都可以合拍在一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +211,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "タシュケントは特にそういうところ",
+			say = "尤其是塔什干！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +228,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "あっそ。わかったわ",
+			say = "这样，我知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +244,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403070,
-			say = "（珍しくなにも言われてないわね……変な気分っての）",
+			say = "（居然没有人来吐槽啊…感觉真微妙）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +260,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102240,
-			say = "あ、ちなみにル・マランと大鳳たちとも会ったよ？別にあなたたちだけにレクチャーしてるわけじゃあいから",
+			say = "啊，顺便提下，我们也一样遇到了恶毒和{namecode:97}她们，所以其实并不是给你们单独做培训啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +276,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202250,
-			say = "中途半端な結果になってしまうのはご主人様的に望ましくないことです",
+			say = "毕竟主人最不希望看到的事情，就是半途而废。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +291,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「μ兵装」性能最大限の活用に必要な行動と認む",
+			say = "此行为乃最大限度地发挥「μ兵装」性能的必要步骤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "感謝する。私たちもちょうど今悩んでいたところよ",
+			say = "谢谢你们，我们也正烦恼这件事呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "「想い」をどうやって歌に乗せるの、たしかに難しいのですね…",
+			say = "将「感情」融入到歌曲中，这件事确实很困难……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +338,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "難しく思われるけど簡単ですわ",
+			say = "只是看起来很困难，其实很简单哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "赤城様？",
+			say = "{namecode:91}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +369,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ル・マラン、そして大鳳とローンの「感情」は明確よ",
+			say = "恶毒，以及{namecode:97}和罗恩的「感情」，已经再明确不过了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +385,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307100,
-			say = "片方は絆を結ぶ相手への感謝、そしてその感情を聖なるものとする高潔さ",
+			say = "一边是，对缔结羁绊的伙伴的感恩之情，以及让这种情感变得圣洁的高洁之心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +400,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そして片方は、どこまでも戦列で深い愛",
+			say = "一边则是，无处不在的，强烈而深刻的爱意",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +416,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102240,
-			say = "（なんか、赤城が言っているとすごく説得力あるよね…）",
+			say = "（从{namecode:91}嘴里说出来的这话，非常地有说服力呢……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +431,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あなたたちはどうなのかしら？",
+			say = "你们的感情，又是什么样的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

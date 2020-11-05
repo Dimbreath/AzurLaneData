@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "……啊，看来烤肉要延后了呢，侦察机发现了对方的踪迹！",
+			say = "……啊，看來烤肉要延後了呢，偵察機發現了對方的蹤跡！",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "不如就把烤肉当做庆祝吧，位置呢？",
+			say = "不如就把烤肉當做慶祝吧，位置呢？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，等等，对方……只有轻航一艘？那是…{namecode:90}？",
+			say = "不，等等，對方……只有輕航一艘？那是…{namecode:90}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…方向是这边没错，但是报告中还有{namecode:95}和{namecode:96}…",
+			say = "唔…方向是這邊沒錯，但是報告中還有{namecode:95}和{namecode:96}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我知道了……波特兰，能拜托妳和亚特兰大还有明尼亞波利斯带着部分舰队先到指定位置探明情况吗？",
+			say = "我知道了……波特蘭，能拜託妳和亞特蘭大還有明尼亞波利斯帶著部分艦隊先到指定位置探明情況嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印第，妳为什么去了阿留申，姐姐我好想妳呜呜呜——",
+			say = "印第，妳為什麼去了阿留申，姐姐我好想妳嗚嗚嗚——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解，交给我们吧！",
+			say = "了解，交給我們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = -1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "波特兰还是一如既往地到哪里都想着妹妹啊……",
+			say = "波特蘭還是一如既往地到哪裡都想著妹妹啊……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那样也没什么不好嘛～姐姐要是总缠着我，我也会高兴的！虽然被姐姐唠叨起来也会很困扰就是了……",
+			say = "那樣也沒什麼不好嘛～姐姐要是總纏著我，我也會高興的！雖然被姐姐嘮叨起來也會很困擾就是了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我的话…呃，算了，有些难以想象。",
+			say = "我的話…呃，算了，有些難以想像。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "算了，既然对方现身了，接下来就做好应战的准备吧！",
+			say = "算了，既然對方現身了，接下來就做好應戰的準備吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

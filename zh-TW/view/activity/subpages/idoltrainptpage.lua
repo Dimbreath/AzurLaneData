@@ -26,14 +26,13 @@ function slot0.OnInit(slot0)
 	slot0.idol2 = slot0:findTF("idol2", slot0.bg)
 	slot0.buffInfoBox = slot0:findTF("BuffInfoBox")
 	slot0.mask = slot0:findTF("mengban", slot0.buffInfoBox)
-	slot0.buffWindow = slot0:findTF("window", slot0.buffInfoBox)
-	slot0.buffBackBtn = slot0:findTF("top/btnBack", slot0.buffWindow)
-	slot0.buffName = slot0:findTF("top/name", slot0.buffWindow)
-	slot0.titleLv = slot0:findTF("top/name/lv", slot0.buffWindow)
-	slot0.titleIcon = slot0:findTF("top/name/icon_bg/icon", slot0.buffWindow)
-	slot0.descLv = slot0:findTF("frame/content/title/lv", slot0.buffWindow)
-	slot0.desc = slot0:findTF("frame/content/desc", slot0.buffWindow)
-	slot0.buffAwardTF = slot0:findTF("frame/award_bg/award", slot0.buffWindow)
+	slot0.buffWindow = slot0:findTF("panel", slot0.buffInfoBox)
+	slot0.buffName = slot0:findTF("title/name", slot0.buffWindow)
+	slot0.titleLv = slot0:findTF("title/lv", slot0.buffWindow)
+	slot0.titleIcon = slot0:findTF("title/icon", slot0.buffWindow)
+	slot0.buffTip = slot0:findTF("content/tip", slot0.buffWindow)
+	slot0.desc = slot0:findTF("content/desc", slot0.buffWindow)
+	slot0.buffAwardTF = slot0:findTF("award_bg/award", slot0.buffWindow)
 	slot0.trainWindow = slot0:findTF("IdolTrainWindow")
 	slot0.trainTitle = slot0:findTF("panel/title/Text", slot0.trainWindow)
 	slot0.trainBtn = slot0:findTF("panel/train_btn", slot0.trainWindow)
@@ -47,6 +46,13 @@ function slot0.OnInit(slot0)
 	slot0.info = slot0:findTF("panel/info", slot0.trainWindow)
 	slot0.curBuff = slot0:findTF("preview/current", slot0.info)
 	slot0.nextBuff = slot0:findTF("preview/next", slot0.info)
+	slot0.msgBox = slot0:findTF("MsgBox")
+	slot0.msgIcon = slot0:findTF("panel/title/icon", slot0.msgBox)
+	slot0.msgContent = slot0:findTF("panel/content", slot0.msgBox)
+	slot0.msgBoxMask = slot0:findTF("mengban", slot0.msgBox)
+	slot0.cancelBtn = slot0:findTF("panel/cancel_btn", slot0.msgBox)
+	slot0.confirmBtn = slot0:findTF("panel/confirm_btn", slot0.msgBox)
+	slot0.tipPanel = slot0:findTF("Tip")
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -80,10 +86,23 @@ function slot0.OnFirstFlush(slot0)
 			uv0:playIdolAni()
 		end)
 	end, SFX_PANEL)
-	slot0:hideBuffInfoBox()
-	onButton(slot0, slot0.buffBackBtn, function ()
-		uv0:hideBuffInfoBox()
+	removeOnButton(slot0.battleBtn)
+	onButton(slot0, slot0.battleBtn, function ()
+		slot0, slot1 = nil
+
+		if uv0.activity:getConfig("config_client") ~= "" and uv0.activity:getConfig("config_client").linkActID then
+			slot1 = getProxy(ActivityProxy):getActivityById(slot0)
+		end
+
+		if not slot0 then
+			uv0:emit(ActivityMediator.BATTLE_OPERA)
+		elseif slot1 and not slot1:isEnd() then
+			uv0:emit(ActivityMediator.BATTLE_OPERA)
+		else
+			uv0:showTip(i18n("common_activity_end"))
+		end
 	end, SFX_PANEL)
+	slot0:hideBuffInfoBox()
 
 	function slot4()
 		uv0:hideBuffInfoBox()
@@ -208,20 +227,7 @@ function slot0.showTrianPanel(slot0)
 	end
 
 	onButton(slot0, slot0.trainBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("practise_idol_tip", pg.benefit_buff_template[uv0.selectBuffId].name),
-			onYes = function ()
-				uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
-					cmd = 3,
-					activity_id = uv0.ptData:GetId(),
-					arg1 = uv0.ptData:CanTrain(),
-					arg2 = uv0.selectNewBuffId,
-					oldBuffId = uv0.selectBuffId
-				})
-				uv0:hideTrianPanel()
-				pg.TipsMgr.GetInstance():ShowTips(i18n("upgrade_complete_tip"))
-			end
-		})
+		uv0:showMsgBox()
 	end, SFX_PANEL)
 	slot0:flushTrainPanel()
 end
@@ -244,22 +250,25 @@ function slot0.flushTrainPanel(slot0)
 			end
 
 			setImageSprite(slot0:findTF("icon", slot0.trainSkillBtns[slot6.group]), LoadSprite(pg.benefit_buff_template[slot6.id].icon))
+			setText(slot0:findTF("name", slot0.trainSkillBtns[slot6.group]), shortenString(pg.benefit_buff_template[slot6.id].name, 7))
 		end
 	end
 
 	for slot5, slot6 in ipairs(slot0.trainSkillBtns) do
 		if slot5 == slot0.selectIndex then
 			setActive(slot0:findTF("selected", slot6), true)
+			setActive(slot0:findTF("name", slot6), true)
 		else
 			setActive(slot0:findTF("selected", slot6), false)
+			setActive(slot0:findTF("name", slot6), false)
 		end
 	end
 
 	if slot0.selectIndex then
 		setActive(slot0.info, true)
 		setActive(slot0.trainBtn, true)
-		setText(slot0.curBuff, "Lv." .. slot0.selectBuffLv .. " " .. pg.benefit_buff_template[slot0.selectBuffId].desc)
-		setText(slot0.nextBuff, "Lv." .. slot0.selectBuffLv + 1 .. " " .. pg.benefit_buff_template[slot0.selectNewBuffId].desc)
+		setText(slot0.curBuff, "Lv." .. slot0.selectBuffLv .. pg.benefit_buff_template[slot0.selectBuffId].desc)
+		setText(slot0.nextBuff, "Lv." .. slot0.selectBuffLv + 1 .. pg.benefit_buff_template[slot0.selectNewBuffId].desc)
 	else
 		setActive(slot0.info, false)
 		setActive(slot0.trainBtn, false)
@@ -267,8 +276,11 @@ function slot0.flushTrainPanel(slot0)
 end
 
 function slot0.showBuffInfoBox(slot0, slot1)
-	setText(slot0.buffName, pg.benefit_buff_template[slot1.id].name)
+	slot2 = pg.benefit_buff_template[slot1.id].name
+
+	setText(slot0.buffName, slot2)
 	setText(slot0.desc, pg.benefit_buff_template[slot1.id].desc)
+	setText(slot0.buffTip, i18n("upgrade_introduce_tip", slot2))
 	setImageSprite(slot0.titleIcon, LoadSprite(pg.benefit_buff_template[slot1.id].icon))
 	updateDrop(slot0.buffAwardTF, slot1.award)
 	onButton(slot0, slot0.buffAwardTF, function ()
@@ -277,11 +289,9 @@ function slot0.showBuffInfoBox(slot0, slot1)
 
 	if slot1.next then
 		setText(slot0.titleLv, "Lv." .. slot1.lv)
-		setText(slot0.descLv, "Lv." .. slot1.lv)
 		setActive(slot0:findTF("icon_bg/got_mask", slot0.buffAwardTF), false)
 	else
 		setText(slot0.titleLv, "MAX")
-		setText(slot0.descLv, "MAX")
 		setActive(slot0:findTF("icon_bg/got_mask", slot0.buffAwardTF), true)
 		removeOnButton(slot0.buffAwardTF)
 	end
@@ -328,6 +338,62 @@ function slot0.playIdolAni(slot0)
 	if slot0.model2 then
 		slot0.model2:GetComponent("SpineAnimUI"):SetAction("idol", 0)
 	end
+end
+
+function slot0.showMsgBox(slot0)
+	if slot0.selectBuffId then
+		setActive(slot0.msgBox, true)
+		setImageSprite(slot0.msgIcon, LoadSprite(pg.benefit_buff_template[slot0.selectBuffId].icon))
+		setText(slot0.msgContent, i18n("practise_idol_tip", pg.benefit_buff_template[slot0.selectBuffId].name))
+		onButton(slot0, slot0.msgBoxMask, function ()
+			uv0:hideMsgBox()
+		end, SFX_PANEL)
+		onButton(slot0, slot0.cancelBtn, function ()
+			uv0:hideMsgBox()
+		end, SFX_PANEL)
+		onButton(slot0, slot0.confirmBtn, function ()
+			uv0:hideMsgBox()
+			uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+				cmd = 3,
+				activity_id = uv0.ptData:GetId(),
+				arg1 = uv0.ptData:CanTrain(),
+				arg2 = uv0.selectNewBuffId,
+				oldBuffId = uv0.selectBuffId
+			})
+			uv0:hideTrianPanel()
+			uv0:showTip(i18n("upgrade_complete_tip"))
+		end, SFX_PANEL)
+	end
+end
+
+function slot0.hideMsgBox(slot0)
+	setActive(slot0.msgBox, false)
+end
+
+function slot0.showTip(slot0, slot1)
+	slot2 = cloneTplTo(slot0.tipPanel, slot0._tf)
+
+	setActive(slot2, true)
+	setText(slot0:findTF("Text", slot2), slot1)
+
+	slot2.transform.localScale = Vector3(0, 0.1, 1)
+
+	LeanTween.scale(slot2, Vector3(1.8, 0.1, 1), 0.1):setUseEstimatedTime(true)
+	LeanTween.scale(slot2, Vector3(1.1, 1.1, 1), 0.1):setDelay(0.1):setUseEstimatedTime(true)
+
+	slot3 = GetOrAddComponent(slot2, "CanvasGroup")
+
+	Timer.New(function ()
+		if IsNil(uv0) then
+			return
+		end
+
+		LeanTween.scale(uv0, Vector3(0.1, 1.5, 1), 0.1):setUseEstimatedTime(true):setOnComplete(System.Action(function ()
+			LeanTween.scale(uv0, Vector3.zero, 0.1):setUseEstimatedTime(true):setOnComplete(System.Action(function ()
+				Destroy(uv0)
+			end))
+		end))
+	end, 3):Start()
 end
 
 return slot0

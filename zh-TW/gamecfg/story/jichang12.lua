@@ -25,7 +25,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701050,
-			say = "ま、眩しい！ステージの演出だけでなくまるでル・マラン自身まで…！",
+			say = "好，好耀眼！不仅仅是舞台效果，就连恶毒本人也…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207110,
-			say = "あの子が本気を出したらここまでパフォーマンスができるなんて…",
+			say = "没想到，那个孩子认真起来竟然能展现到这种程度…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ああ、こちらが完全に相手を侮っていたな…",
+			say = "是啊，完全低估了她……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "ステージのパフォーマンスだけでなく、あの艤装とセットの演出がまさに「エレガント」そのもの…しかもコンセプトは一貫としている",
+			say = "而且，不仅舞台演出，舰装和布景的布置也十分的优雅……所有一切保持着贯穿全场的一致风格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "それだけじゃないわ…あの優しい歌声から会場のすべての子に彼女の精一杯の努力が伝わってきています…",
+			say = "不光是这样…从那温柔的声音中，在场的所有人都能听出她正在尽着自己最大的努力…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202280,
-			say = "頑張っているシリアスの顔が思い浮かべます…",
+			say = "让我想起了努力的天狼星的模样……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "こうなったらアンコールまで付き合ってやるぞ。スタミナ勝負だ…！",
+			say = "那就跟她战斗到安可，凭耐力取胜吧…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "もう疲れましたあああ…もう無理ぃ、動けない……",
+			say = "我已经很累了……不行了，一点也动不了了……",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姉さま……",
+			say = "姐姐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "申し訳ございません姉さま、私のわがままで……っ",
+			say = "对不起姐姐，都是因为我的自私才……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "トリオンファン…………",
+			say = "凯旋…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "「ル・マランが皆の前で輝く姿を見たい」…そう願っていたけど、さすがに無理はできないわ",
+			say = "虽说凯旋说过「想看到恶毒在大家面前闪亮登场的姿态」，要不这里还是算了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……………いいえ、まだちょっとだけよ",
+			say = "……………不，还能再坚持一会。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（トリオンファンのために、ちょ、ちょっとだけなら……）",
+			say = "（为了凯旋，再、再努力一会……）",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205012,
-			say = "ふふふ、ウォースパイトが揃えてくれた超豪華セット＆機材による演出よ！女王の力を見てなさい！",
+			say = "哼哼，这是厌战准备的超一流布景和器材！好好见识下女王的力量吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205022,
-			say = "陛下、さすがですわ",
+			say = "真不愧是陛下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感謝しますわ。私のわがままを聞き入れてくださって…",
+			say = "非常感谢您，能满足我任性的要求，给予这么多的支持……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "いいですわ、これもこのイベントを盛り上げるため――",
+			say = "没关系，这也是为了炒热现场气氛——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "ちょっと、まずいわね…",
+			say = "等等，这下不妙了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "アルジェリー？",
+			say = "阿尔及利亚？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "このままアンコールが入れば、ル・マランちゃんの今の状態を維持できないわ",
+			say = "如果就这样开始安可的话，恶毒可没法一直维持现在的状态。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "まさかイラストリアスたちがここまでやるなんて…最後の手を使うわ",
+			say = "没想到光辉她们竟然能坚持到现在……只能使用最后的手段了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "ル・マラン、聞いてる？あと1曲だけよ！ダンケルクのお菓子差し入れが待ってるわ！",
+			say = "恶毒，能听到吗？ 只剩下一首歌哦了！ 敦刻尔克的糖果在等着你哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

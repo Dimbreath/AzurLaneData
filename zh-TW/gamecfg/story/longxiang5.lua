@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=45>五 烦恼！到底最近怎么了……？</size>",
+					"輕型航母{namecode:90}參上！\n\n<size=45>五 煩惱！到底最近怎麼了……？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・重樱宿舍",
+			say = "港區・重櫻宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "果、果然还是很后悔……让主公看到那副粗鲁的样子，真是武士之耻…！",
+			say = "果、果然還是很後悔……讓主公看到那副粗魯的樣子，真是武士之恥…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "呜…！这件事竟然会让吾如此烦恼……！",
+			say = "嗚…！這件事竟然會讓吾如此煩惱……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "休息日在自己的房间的{namecode:90}显得坐立难安。",
+			say = "休息日在自己的房間的{namecode:90}顯得坐立難安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "这样下去的话，别说秘书舰了，就连军人的本职工作可能都没法照常进行了呢……",
+			say = "這樣下去的話，別說秘書艦了，就連軍人的本職工作可能都沒法照常進行了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽然是久违的休息日，今天的{namecode:90}从早上开始便没踏出房门一步。",
+			say = "雖然是久違的休息日，今天的{namecode:90}從早上開始便沒踏出房門一步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "回过神来才发现，早上起床擦了三次地板，整理东西两个小时，为了把玩偶藏起来，竟然花了一整个上午的时间。",
+			say = "回過神來才發現，早上起床擦了三次地板，整理東西兩個小時，為了把玩偶藏起來，竟然花了一整個上午的時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "唉，{namecode:6}推荐的“游戏机”都没来得及玩…！",
+			say = "唉，{namecode:6}推薦的“遊戲機”都沒來得及玩…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "这么一想，最近总是不在状态啊…",
+			say = "這麼一想，最近總是不在狀態啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "对、对不起！吾忘了昨天您拜托我的资料…！",
+			say = "對、對不起！吾忘了昨天您拜託我的資料…！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "灰色幽灵！妳总算来了！身为前一航战的一员，这个仇非报不可！",
+			say = "灰色幽靈！妳總算來了！身為前一航戰的一員，這個仇非報不可！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（主公在看的时候正是挽回名誉的绝佳机会！嗯，主公在哪个方向……）",
+			say = "（主公在看的時候正是挽回名譽的絕佳機會！嗯，主公在哪個方向……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "好痛！……判定中弹！？怎么会这样！",
+			say = "好痛！……判定中彈！？怎麼會這樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_103",
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "光辉，虽说确实是我提出想要挑件和主公外出购物时穿的可爱衣服的……",
+			say = "光輝，雖說確實是我提出想要挑件和主公外出購物時穿的可愛衣服的……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "就、就算这样也不用给我这么轻飘飘的衣服吧……！",
+			say = "就、就算這樣也不用給我這麼輕飄飄的衣服吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 306060,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
-			say = "吾到底是怎么了啊……",
+			say = "吾到底是怎麼了啊……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:90}为了驱散心底的不安，拿出几个小时前塞进抽屉的玩偶——",
+			say = "{namecode:90}為了驅散心底的不安，拿出幾個小時前塞進抽屜的玩偶——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "就这么紧抱着它在被子里滚来滚去，度过了一整天。",
+			say = "就這麼緊抱著它在被子裡滾來滾去，度過了一整天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -693,7 +693,7 @@ pg.ship_data_group = {
 	},
 	[263] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 101279,
 		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -710,13 +710,26 @@ pg.ship_data_group = {
 			"C",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			5001
+		},
 		description = {
 			{
-				" 月度簽到",
+				"進行輕型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -9978,6 +9991,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[223] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 299,
+		group_type = 30606,
+		code = 223,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：斯圖爾特的硝煙",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[224] = {
 		type = 7,
 		trans_skin = 0,
@@ -12762,6 +12806,7 @@ pg.ship_data_group = {
 		219,
 		220,
 		222,
+		223,
 		224,
 		225,
 		384,

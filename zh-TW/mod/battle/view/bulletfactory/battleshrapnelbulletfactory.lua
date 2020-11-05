@@ -37,6 +37,8 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 	if slot3:GetCurrentState() ~= slot3.STATE_SPLIT then
 		if slot4 == slot3.STATE_SPIN then
 			-- Nothing
+		elseif slot4 == slot3.STATE_FINAL_SPLIT then
+			return
 		elseif slot3:GetPierceCount() > 0 then
 			uv0.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
 
@@ -124,6 +126,10 @@ function slot2.bulletSplit(slot0, slot1)
 			slot20:Ready()
 			slot20:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot14).angle)
 		end
+	end
+
+	if slot1 then
+		slot2:ChangeShrapnelState(uv1.Battle.BattleShrapnelBulletUnit.STATE_FINAL_SPLIT)
 	end
 end
 

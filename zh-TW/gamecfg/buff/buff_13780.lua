@@ -20,6 +20,13 @@ return {
 	color = "blue",
 	icon = 13780,
 	last_effect = "",
+	blink = {
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	},
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -35,7 +42,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onStartGame"
 			},
 			arg_list = {
 				skill_id = 13781,

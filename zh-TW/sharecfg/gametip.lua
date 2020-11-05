@@ -6751,7 +6751,7 @@ $3]]
 		tip = "小比叡建造追加！"
 	},
 	buildship_light_tip = {
-		tip = "谷風建造追加！"
+		tip = "貝利建造追加！"
 	},
 	buildship_special_tip = {
 		tip = "半人馬、小赤城、小齊柏林建造追加！"

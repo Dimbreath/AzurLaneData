@@ -150,7 +150,7 @@ return {
 		}
 	},
 	name = "",
-	init_effect = "jinengchufared",
+	init_effect = "jinengchufablue",
 	time = 10,
 	picture = "",
 	desc = "受到伤害降低",

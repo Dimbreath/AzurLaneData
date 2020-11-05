@@ -4365,6 +4365,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101279] = {
+		name = "貝利.改",
+		ship_group = 10127,
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "終於等到了這一天呢~兔兔們，準備好了嗎？貝利的處女秀就要開始了哦。指揮官，姐妹們，都來看貝利的兔兔魔術吧！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "beili_g",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 2,
+		id = 101279,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beili_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 63,
+		air_bomb_skin = "",
+		illustrator = 26,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.08,
+					0.79,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.08,
+					0.79,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.59,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101290] = {
 		name = "拉德福特",
 		ship_group = 10129,
@@ -54226,6 +54328,198 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[306060] = {
+		name = "{namecode:90}",
+		ship_group = 30606,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "{namecode:90}級航空母艦—{namecode:90}",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "longxiang",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 306060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "longxiang",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 163,
+		air_bomb_skin = "",
+		illustrator = 24,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.88,
+					0.84,
+					0
+				}
+			},
+			plane = {
+				{
+					0.67,
+					0.78,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.27,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[306061] = {
+		name = "乾物武士？",
+		ship_group = 30606,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "呼啊，睡得好飽…繼續把昨晚的RPG遊戲給……欸欸欸欸，主公，您您您您為什麼會在這裡！吾、吾絕沒有懈怠，只、只是，嗚……",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "longxiang_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "109",
+		skin_type = 0,
+		id = 306061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "longxiang_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70124,
+		voice_actor = 163,
+		air_bomb_skin = "",
+		illustrator = 24,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.241,
+					1.062,
+					0
+				}
+			},
+			plane = {
+				{
+					1.194,
+					1.109,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.205,
+							2.353,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307010] = {
 		name = "{namecode:91}",
 		ship_group = 30701,
@@ -86514,7 +86808,8 @@ pg.ship_skin_template = {
 		},
 		[10127] = {
 			101270,
-			101271
+			101271,
+			101279
 		},
 		[10129] = {
 			101290
@@ -87413,6 +87708,10 @@ pg.ship_skin_template = {
 			306051,
 			306059
 		},
+		[30606] = {
+			306060,
+			306061
+		},
 		[30701] = {
 			307010,
 			307011,
@@ -88163,6 +88462,7 @@ pg.ship_skin_template = {
 		101263,
 		101270,
 		101271,
+		101279,
 		101290,
 		101300,
 		101310,
@@ -88613,6 +88913,8 @@ pg.ship_skin_template = {
 		306050,
 		306051,
 		306059,
+		306060,
+		306061,
 		307010,
 		307011,
 		307012,

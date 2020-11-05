@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=45>二 特训！拼尽全力即是重樱之约</size>",
+					"輕型航母{namecode:90}參上！\n\n<size=45>二 特訓！拼盡全力即是重櫻之約</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "港区・演习海域",
+			say = "港區・演習海域",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 306050,
 			nameColor = "#a9f548",
-			say = "啊……不行了……咱的手腕已经提不起来了……",
+			say = "啊……不行了……咱的手腕已經提不起來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 307040,
 			nameColor = "#a9f548",
-			say = "哈……哈……再这样下去貌似真不行了……",
+			say = "哈……哈……再這樣下去貌似真不行了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还不够。重樱的空母只是这种程度就被累倒可不行。",
+			say = "還不夠。重櫻的航母只是這種程度就被累倒可不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "前辈们，比往常都要严厉啊……啊{namecode:95}姐！吐槽什么的之后再说！",
+			say = "前輩們，比往常都要嚴厲啊……啊{namecode:95}姐！吐槽什麼的之後再說！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，我明明还什么都没说啊……",
+			say = "真是的，我明明還什麼都沒說啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总，总之，吾们已经快要累死了，今天就放过吾们吧……",
+			say = "總，總之，吾們已經快要累死了，今天就放過吾們吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然这种强度还是太勉强了吗？那么今天就到这……",
+			say = "果然這種強度還是太勉強了嗎？那麼今天就到這……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "我还可以继续！",
+			say = "我還可以繼續！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦，竟然还能动。真是了不起",
+			say = "哦，竟然還能動。真是了不起",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "正如{namecode:92}之前所言！这种程度对重樱的空母来说根本就不算什么！",
+			say = "正如{namecode:92}之前所言！這種程度對重櫻的航母來說根本就不算什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战场上的哭求毫无用处！身为武人，万事皆须拼尽全力，的说！",
+			say = "戰場上的哭求毫無用處！身為武人，萬事皆須拼盡全力，的說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，不愧是原来的一航战，毅力果然惊人呢。{namecode:92}，继续训练",
+			say = "哼哼，不愧是原來的一航戰，毅力果然驚人呢。{namecode:92}，繼續訓練",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过去曾与{namecode:89}和我们一起驰骋海上的小女孩，究竟能坚持到哪一步……就让我好好检验一下吧！",
+			say = "過去曾與{namecode:89}和我們一起馳騁海上的小女孩，究竟能堅持到哪一步……就讓我好好檢驗一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "那么！大家也再加把劲！努力加用功，拿出战斗精神上吧！",
+			say = "那麼！大家也再加把勁！努力加用功，拿出戰鬥精神上吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,14 +355,14 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "眾人",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			hideOther = true,
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "诶——！",
+			say = "欸——！",
 			dialogShake = {
 				speed = 0.1,
 				x = 14.25,
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "结果，训练强度变成了原定的两倍",
+			say = "結果，訓練強度變成了原定的兩倍",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

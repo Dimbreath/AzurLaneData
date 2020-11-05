@@ -10,16 +10,12 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffDOT",
+			type = "BattleBuffHP",
 			trigger = {
-				"onUpdate"
+				"onAttach"
 			},
 			arg_list = {
-				k = 0,
-				attr = "airPower",
-				time = 2,
-				dotType = 1,
-				number = 200
+				number = -200
 			}
 		}
 	}

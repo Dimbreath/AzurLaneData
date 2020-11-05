@@ -20,7 +20,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 65101
+					weapon_id = 65102
 				}
 			}
 		}

@@ -1,8 +1,19 @@
 slot0 = class("XiefeierIdolMusicPage", import("...base.BaseActivityPage"))
+slot1 = {
+	0.08,
+	0.19,
+	0.4,
+	0.6,
+	0.734,
+	0.876,
+	1,
+	1
+}
 
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.masklist = slot0.bg:Find("maskList")
+	slot0.slider = slot0.bg:Find("slider")
 end
 
 function slot0.OnDataSetting(slot0)
@@ -28,6 +39,8 @@ function slot0.OnUpdateFlush(slot0)
 		setActive(slot0.masklist:Find("mask" .. slot4 .. "/dot"), slot4 <= slot0.finish_times)
 		setActive(slot0.masklist:Find("mask" .. slot4 .. "/frame"), slot4 <= slot0.all_times and not isActive(slot0.masklist:Find("mask" .. slot4 .. "/dot")))
 	end
+
+	setSlider(slot0.slider, 0, 1, uv0[slot0.finish_times])
 
 	if slot0.hubData:getConfig("reward_need") <= slot0.finish_times and slot0.hubData.ultimate == 0 then
 		slot0:emit(ActivityMediator.MUSIC_GAME_OPERATOR, {

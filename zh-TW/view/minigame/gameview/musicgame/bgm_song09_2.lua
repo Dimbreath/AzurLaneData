@@ -250,24 +250,14 @@ return {
 			begin_time = "32.07447"
 		},
 		{
-			end_time = "32.55319",
-			key_flag = "K_LEFT",
-			begin_time = "32.55319"
-		},
-		{
 			end_time = "32.63298",
 			key_flag = "K_LEFT",
 			begin_time = "32.63298"
 		},
 		{
-			end_time = "32.71277",
+			end_time = "32.79256",
 			key_flag = "K_LEFT",
-			begin_time = "32.71277"
-		},
-		{
-			end_time = "32.79255",
-			key_flag = "K_LEFT",
-			begin_time = "32.79255"
+			begin_time = "32.79256"
 		},
 		{
 			end_time = "33.19149",
@@ -985,6 +975,16 @@ return {
 			end_time = "31.59575",
 			key_flag = "K_RIGHT",
 			begin_time = "31.59575"
+		},
+		{
+			end_time = "32.55319",
+			key_flag = "K_RIGHT",
+			begin_time = "32.55319"
+		},
+		{
+			end_time = "32.71276",
+			key_flag = "K_RIGHT",
+			begin_time = "32.71276"
 		},
 		{
 			end_time = "32.87234",

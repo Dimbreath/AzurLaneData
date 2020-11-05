@@ -45588,6 +45588,1611 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[46001] = {
+		can_rotate = 0,
+		describe = "歡迎來到數字世界！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/dibancp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "纖維支架地面",
+		advice = 0,
+		icon = "dibancpicon",
+		id = 46001,
+		comfortable = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46002] = {
+		can_rotate = 0,
+		describe = "歡迎來到數字世界！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/qiangbicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "虹彩線條牆壁",
+		advice = 0,
+		icon = "qiangbicpicon",
+		id = 46002,
+		comfortable = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46101] = {
+		can_rotate = 1,
+		describe = "來一曲龐克音樂如何？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/changpianjicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 46,
+		count = 1,
+		name = "多彩唱片機",
+		advice = 0,
+		id = 46101,
+		icon = "changpianjicpicon",
+		comfortable = 3,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					25,
+					47
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46102] = {
+		can_rotate = 0,
+		describe = "需要加一點營養液嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/chizicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 46,
+		count = 1,
+		name = "數位浴缸",
+		advice = 0,
+		id = 46102,
+		icon = "chizicpicon",
+		comfortable = 3,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					20,
+					-32
+				},
+				{
+					-1,
+					1
+				},
+				"cyberpunk/chizicp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46103] = {
+		can_rotate = 0,
+		describe = "無論何時何地，都要遵守交通規則哦",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/daocp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "人行道",
+		advice = 0,
+		icon = "daocpicon",
+		id = 46103,
+		comfortable = 2,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46104] = {
+		can_rotate = 0,
+		describe = "這裡似乎有什麼好玩的呢~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/dengpaicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "霓虹招牌",
+		advice = 0,
+		icon = "dengpaicpicon",
+		id = 46104,
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46105] = {
+		can_rotate = 0,
+		describe = "散發著冷冷的藍光",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/dengzhu2cp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "電子燈柱·藍",
+		advice = 0,
+		icon = "dengzhu2cpicon",
+		id = 46105,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46106] = {
+		can_rotate = 0,
+		describe = "散發著淡淡的黃光",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/dengzhucp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "電子燈柱·黃",
+		advice = 0,
+		icon = "dengzhucpicon",
+		id = 46106,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46107] = {
+		can_rotate = 0,
+		describe = "扭動這裡可以轉台~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/dianshicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "經典電視機",
+		advice = 0,
+		icon = "dianshicpicon",
+		id = 46107,
+		comfortable = 3,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46108] = {
+		can_rotate = 0,
+		describe = "印著唱片形狀的地墊~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/dianzicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "唱片造型地墊",
+		advice = 0,
+		icon = "dianzicpicon",
+		id = 46108,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46109] = {
+		can_rotate = 1,
+		describe = "嗯…？好像有點故障了…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/guanggaopaicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "液晶廣告牌",
+		advice = 0,
+		icon = "guanggaopaicpicon",
+		id = 46109,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46110] = {
+		can_rotate = 0,
+		describe = "打開也進不了下水道的哦",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/jinggaicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "愛心井蓋",
+		advice = 0,
+		icon = "jinggaicpicon",
+		id = 46110,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46111] = {
+		can_rotate = 0,
+		describe = "「你好，請問有什麼能幫你的嗎？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/jiqi2cp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "智能機械1號",
+		advice = 0,
+		icon = "jiqi2cpicon",
+		id = 46111,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46112] = {
+		can_rotate = 0,
+		describe = "「你好，請問有什麼能幫你的嗎？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/jiqicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "智能機械2號",
+		advice = 0,
+		icon = "jiqicpicon",
+		id = 46112,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46113] = {
+		can_rotate = 0,
+		describe = "檢測到危險，警告——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/jiqirencp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "微型機器人",
+		advice = 0,
+		icon = "jiqirencpicon",
+		id = 46113,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46114] = {
+		can_rotate = 0,
+		describe = "當心不要撞到了哦",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/luduncp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "警告路緣",
+		advice = 0,
+		icon = "luduncpicon",
+		id = 46114,
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46115] = {
+		can_rotate = 1,
+		describe = "發光的是氦哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/lupai2cp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "霓虹廣告牌",
+		advice = 0,
+		icon = "lupai2cpicon",
+		id = 46115,
+		comfortable = 2,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46116] = {
+		can_rotate = 0,
+		describe = "前方海岸~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/lupai3cp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "電子路牌·浪花",
+		advice = 0,
+		icon = "lupai3cpicon",
+		id = 46116,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46117] = {
+		can_rotate = 0,
+		describe = "前方——休息站？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/lupaicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "電子路牌·愛心",
+		advice = 0,
+		icon = "lupaicpicon",
+		id = 46117,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46118] = {
+		can_rotate = 0,
+		describe = "出行請遵守交通規則~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/malucp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "馬路",
+		advice = 0,
+		icon = "malucpicon",
+		id = 46118,
+		comfortable = 2,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46119] = {
+		can_rotate = 0,
+		describe = "「滋滋，通風不暢，警告——」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/paifengqicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "排風機器",
+		advice = 0,
+		icon = "paifengqicpicon",
+		id = 46119,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46120] = {
+		can_rotate = 1,
+		describe = "前方人行道，請停車讓行~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/paizicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "停字牌",
+		advice = 0,
+		icon = "paizicpicon",
+		id = 46120,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46121] = {
+		can_rotate = 0,
+		describe = "這次要休眠多久呢~？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/xiumiancangcp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 46,
+		count = 1,
+		name = "休眠艙",
+		advice = 0,
+		id = 46121,
+		icon = "xiumiancangcpicon",
+		comfortable = 3,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-11,
+					-17
+				},
+				{
+					1,
+					1
+				},
+				"cyberpunk/xiumiancangcp_using",
+				0,
+				{
+					{
+						23,
+						34
+					},
+					{
+						704,
+						504
+					},
+					"cyberpunk/xiumiancangcp_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46122] = {
+		can_rotate = 0,
+		describe = "淡紫色的座椅~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/yizi2cp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 46,
+		count = 1,
+		name = "充氣座椅·淡紫",
+		advice = 0,
+		id = 46122,
+		icon = "yizi2iconcp",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12,
+					54
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46123] = {
+		can_rotate = 0,
+		describe = "淡綠色的座椅~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/yizi3cp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 46,
+		count = 1,
+		name = "充氣座椅·淡綠",
+		advice = 0,
+		id = 46123,
+		icon = "yizi3cpicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12,
+					54
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46124] = {
+		can_rotate = 0,
+		describe = "淡藍色的座椅~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/yizicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 46,
+		count = 1,
+		name = "充氣座椅·淡藍",
+		advice = 0,
+		id = 46124,
+		icon = "yizicpicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12,
+					54
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46125] = {
+		can_rotate = 0,
+		describe = "附帶訊息查詢機能的隔斷",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/zhalancp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "液晶隔斷",
+		advice = 0,
+		icon = "zhalancpicon",
+		id = 46125,
+		comfortable = 3,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46126] = {
+		can_rotate = 0,
+		describe = "全息投影就不怕被盜啦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/zhanshitaicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "全息展台",
+		advice = 0,
+		icon = "zhanshitaicpicon",
+		id = 46126,
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46127] = {
+		can_rotate = 0,
+		describe = "嗯…感覺似乎放不太穩呢…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/zhuozicp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "磁浮圓桌",
+		advice = 0,
+		icon = "zhuozicpicon",
+		id = 46127,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			8.17
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46128] = {
+		can_rotate = 0,
+		describe = "裝飾著數據電路的通路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/zoudaocp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "數據通路",
+		advice = 0,
+		icon = "zoudaocpicon",
+		id = 46128,
+		comfortable = 2,
+		size = {
+			11,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46129] = {
+		can_rotate = 0,
+		describe = "要來比一比速度嗎~？",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 46,
+		icon = "checpicon",
+		count = 1,
+		name = "懸浮飛車",
+		id = 46129,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cybercarB",
+				"normal"
+			},
+			{
+				"cybercarT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit0",
+						nil,
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					nil,
+					"sit"
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					-26.29,
+					37.2
+				},
+				{
+					312,
+					272
+				},
+				"cyberpunk/cybercar_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		animator = {
+			{
+				"cybercarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[46130] = {
+		can_rotate = 1,
+		describe = "全息投影的貓貓！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 46,
+		count = 1,
+		name = "全息貓",
+		advice = 0,
+		id = 46130,
+		icon = "touyingcpicon",
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cybermao",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[46131] = {
+		can_rotate = 1,
+		describe = "目的地…似乎不能選呢",
+		gain_by = "",
+		type = 12,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 46,
+		icon = "men2cpicon",
+		count = 2,
+		name = "傳送門",
+		id = 46131,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cybermen",
+				"normal"
+			},
+			[3] = {
+				{
+					1,
+					0
+				},
+				{
+					{
+						{
+							{
+								"walk",
+								"walk1"
+							},
+							0.5
+						}
+					},
+					{
+						{
+							{
+								"walk",
+								"walk2"
+							},
+							0.5
+						}
+					}
+				}
+			}
+		},
+		animator = {
+			{
+				{
+					"cybermenCharControl"
+				},
+				{
+					"cybermenCharControl2"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46301] = {
+		can_rotate = 0,
+		describe = "可自動調節溫度、軟硬和窗外的風景~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/chuancp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "智能睡床",
+		advice = 0,
+		icon = "chuancpicon",
+		id = 46301,
+		comfortable = 3,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46302] = {
+		can_rotate = 0,
+		describe = "需要指紋聲紋及瞳孔驗證~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/mencp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "艙門",
+		advice = 0,
+		icon = "mencpicon",
+		id = 46302,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46303] = {
+		can_rotate = 0,
+		describe = "圖案似乎…不能變呢",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/qiangzhi",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "愛心壁燈",
+		advice = 0,
+		icon = "qiangzhiicon",
+		id = 46303,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46304] = {
+		can_rotate = 0,
+		describe = "不可以從這裡爬進去哦",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/tongfengkoucp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "通風口",
+		advice = 0,
+		icon = "tongfengkoucpicon",
+		id = 46304,
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[46305] = {
+		can_rotate = 0,
+		describe = "一起來街頭塗鴉吧！ ！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cyberpunk/tuyabancp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 46,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "塗鴉牆",
+		advice = 0,
+		icon = "tuyabancpicon",
+		id = 46305,
+		comfortable = 3,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[49001] = {
 		can_rotate = 0,
 		describe = "加油開始新一天的工作吧！",
@@ -49885,6 +51490,44 @@ pg.furniture_data_template = {
 		45308,
 		45309,
 		45310,
+		46001,
+		46002,
+		46101,
+		46102,
+		46103,
+		46104,
+		46105,
+		46106,
+		46107,
+		46108,
+		46109,
+		46110,
+		46111,
+		46112,
+		46113,
+		46114,
+		46115,
+		46116,
+		46117,
+		46118,
+		46119,
+		46120,
+		46121,
+		46122,
+		46123,
+		46124,
+		46125,
+		46126,
+		46127,
+		46128,
+		46129,
+		46130,
+		46131,
+		46301,
+		46302,
+		46303,
+		46304,
+		46305,
 		49001,
 		49002,
 		49101,

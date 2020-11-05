@@ -16,7 +16,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "星となって、愛と平和の歌を――",
+			say = "我们将成为星星，将爱与和平的歌——",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……よし！皆、一回休憩だ！",
+			say = "……好！大家休息一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "やったね（ビシッ",
+			say = "我们做到了！(＾－＾)V",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "やったわ（ビシッ",
+			say = "嗯嗯!(＾－＾)V",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "イラストリアス様、お疲れ様でした…！",
+			say = "光辉小姐，辛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "本当に感謝する。イラストリアスがセンターをやってくれているおかげで皆の方向性がブレなくなっているな",
+			say = "真的非常感谢。多亏了光辉撑起了C位，大家的方向性都很好地保持了一致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "いえいえ、ボルチモアさんこそリーダーとして皆を上手に率いてくださいっていますから、ここまで準備できますわ",
+			say = "大家过奖了……因为巴尔的摩作为队长一直很好地引领着我们，我们才能做到现在这个程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "準備のことなら私だけじゃなく、皆のおかげだ",
+			say = "嘿嘿，这些都是靠大家的努力共同完成的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ここのライトはこうして…それそれ！饅頭たちに指示を出すよ！",
+			say = "这里的光要这样打……就是这样! 我来给这些孩子们下指挥吧！",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -223,7 +223,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "あとこの小道具、アタシならいいけど流石にイラストリアスたちは似合わないネ～",
+			say = "还有这个小道具~对我来说挺好，但确实不太适合光辉她们呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ヴィクトリアス様より預かった大切な素材は…ダイドー、最高の衣装に仕上げさせてくださいませ！",
+			say = "胜利小姐托付给我的珍贵材料……请让黛朵用它做出最完美的服装！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "あ、シリアスそこ手伝わなくていいから！別のものでお願い！",
+			say = "啊，天狼星不用帮我做这个！其他的东西拜托你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "なるほど、最近のはやりはミミっ子アイドル……グロズヌイ、いい情報を手に入れてくれた",
+			say = "原来如此，最近流行的是有耳朵的偶像……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "タシュケントじゃあの量、絶対飲めないね…",
+			say = "威严，你得到的情报很有价值。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "さて、今日はあと少しだ。皆、今日は早く寮舎に戻って力を養おう",
+			say = "今天还剩下一点时间，大家早点回宿舍养精蓄锐吧。",
 			effects = {
 				{
 					active = false,
@@ -335,7 +335,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "そして明日……合同演習もとい、母港のライブ大会に全力を尽くそう！",
+			say = "明天嘛……就让我们在正式演出上全力以赴吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "はい！！",
+			say = "是！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

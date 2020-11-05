@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=45>六 宿敌！？传说中的偶像究竟是？！</size>",
+					"輕型航母{namecode:90}參上！\n\n<size=45>六 宿敵！？傳說中的偶像究竟是？！</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "主公现在在做什么呢……",
+			say = "主公現在在做什麼呢……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "锵锵！来自舰载机的吓一跳攻击！",
+			say = "鏘鏘！來自艦載機的嚇一跳攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "诶、诶？{namecode:90}酱？今天的反应很差哦……",
+			say = "欸、欸？{namecode:90}醬？今天的反應很差哦……",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "萨拉托加小姐……今天没有心情陪妳恶作剧。抱歉。",
+			say = "薩拉托加小姐……今天沒有心情陪妳惡作劇。抱歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊…？那就让加加我来帮妳解决烦恼吧！",
+			say = "這樣啊…？那就讓加加我來幫妳解決煩惱吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这可不行！萨拉托加小姐是白鹰的空母，吾是……",
+			say = "這、這可不行！薩拉托加小姐是白鷹的航母，吾是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "虽然大家现在都是同一个舰队的夥伴，但也不能那么轻易的把内心敞开给别人！",
+			say = "雖然大家現在都是同一個艦隊的夥伴，但也不能那麼輕易的把內心敞開給別人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过说起来，好像听说妳之前去给主公送和列星頓小姐一起的什么“演唱会”的门票吧！",
+			say = "不過說起來，好像聽說妳之前去給主公送和列星頓小姐一起的什麼“演唱會”的門票吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "竟然敢占用主公重要的勤务时间，吾这个秘书舰绝不允许！",
+			say = "竟然敢佔用主公重要的勤務時間，吾這個秘書艦絕不允許！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "…………直说的话，萨拉托加小姐妳是宿敌才对！",
+			say = "…………直說的話，薩拉托加小姐妳是宿敵才對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，是相思病呀",
+			say = "原來如此，是相思病呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "诶？",
+			say = "欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			say = "明白了。也就是说{namecode:90}酱想对指挥官展示自己好的一面",
+			say = "明白了。也就是說{namecode:90}醬想對指揮官展示自己好的一面",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那件事我可是听说了哟。虽然被指挥官撞见那种场景的确可以算的上是灾难了，不过指挥官可不是那种斤斤计较的人呢！",
+			say = "那件事我可是聽說了喲。雖然被指揮官撞見那種場景的確可以算的上是災難了，不過指揮官可不是那種斤斤計較的人呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以比起一个人烦恼，直接向指挥官表达自己真正的心意就好啦！",
+			say = "所以比起一個人煩惱，直接向指揮官表達自己真正的心意就好啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "这、这种事情对吾来说……",
+			say = "這、這種事情對吾來說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定没问题的！加加我可是在为大家的恋爱应援哦♪",
+			say = "肯定沒問題的！加加我可是在為大家的戀愛應援哦♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			blackBg = true,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "萨拉托加小姐…………",
+			say = "薩拉托加小姐…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

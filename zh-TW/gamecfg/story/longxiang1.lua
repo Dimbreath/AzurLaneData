@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=45>一 登场！日出之国的轻航母</size>",
+					"輕型航母{namecode:90}參上！\n\n<size=45>一 登場！日出之國的輕航母</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "她们是拥有人类之型，钢铁之躯的战斗少女 ",
+			say = "她們是擁有人類之型，鋼鐵之軀的戰鬥少女 ",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "曾在那次大战中大显身手，如今以心智魔方的力量变成人形，",
+			say = "曾在那次大戰中大顯身手，如今以心智魔方的力量變成人形，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "活跃在与全人类的敌人——塞壬的战斗之中",
+			say = "活躍在與全人類的敵人——塞壬的戰鬥之中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・仓库",
+			say = "港區・倉庫",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "灰头土脸的指挥官正拼命翻找着收在仓库深处的某个稀有装备。",
+			say = "灰頭土臉的指揮官正拼命翻找著收在倉庫深處的某個稀有裝備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "咚！当！咣咣！",
+			say = "咚！噹！咣咣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……找东西的过程好像并不怎么顺利。",
+			say = "……找東西的過程好像並不怎麼順利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "面对着垒的如同小山一样高资源材料和装备，指挥官已经精疲力尽并且摇摇欲坠了。",
+			say = "面對著疊的如同小山一樣高的資源材料和裝備，指揮官已經精疲力盡並且搖搖欲墜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "……危险！",
+			say = "……危險！",
 			dialogShake = {
 				speed = 0.1,
 				x = 14.25,
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "光芒一闪。从某处放出的式神劈开浑浊的空气，然后——",
+			say = "光芒一閃。從某處放出的式神劈開渾濁的空氣，然後——",
 			flashN = {
 				color = {
 					1,
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在指挥官被砸中之前，式神便完美接住了从高处掉下的材料。",
+			say = "在指揮官被砸中之前，式神便完美接住了從高處掉下的材料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "???",
-			say = "天在呼唤！地在呼唤！人在呼唤！千钧一发需要帮助的主公也在呼唤！",
+			say = "天在呼喚！地在呼喚！人在呼喚！千鈞一髮需要幫助的主公也在呼喚！",
 			effects = {
 				{
 					active = true,
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "日出之国的武士，轻航母{namecode:90}，前来参见！",
+			say = "日出之國的武士，輕航母{namecode:90}，前來參見！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……的说！",
+			say = "……的說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "如同白昼一般的出场效果闪光。",
+			say = "如同白晝一般的出場效果閃光。",
 			flashN = {
 				color = {
 					1,
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（爆炸效果……果然还是算了吧）",
+			say = "（爆炸效果……果然還是算了吧）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "主公！您没事吗？吾也来帮忙！",
+			say = "主公！您沒事嗎？吾也來幫忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "秘书舰{namecode:90}，今天也在努力保护指挥官！",
+			say = "秘書艦{namecode:90}，今天也在努力保護指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

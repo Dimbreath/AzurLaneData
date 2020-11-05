@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			say = "机场方面已经传来空袭警报，看起来{namecode:90}直接发动攻击了。萨拉，怎么说？",
+			say = "機場方面已經傳來空襲警報，看起來{namecode:90}直接發動攻擊了。薩拉，怎麼說？",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "不要慌～机场的防空火力应该能撑住一段时间，而且我刚才派出的那一波战斗机队应该足够应付了",
+			say = "不要慌～機場的防空火力應該能撐住一段時間，而且我剛才派出的那一波戰鬥機隊應該足夠應付了",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在更要紧的应该是尽快用侦察机找到{namecode:95}和{namecode:96}的位置呢……她们一定就在附近的海域",
+			say = "現在更要緊的應該是盡快用偵察機找到{namecode:95}和{namecode:96}的位置呢……她們一定就在附近的海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "也是……这么直接的攻击，吸引注意的意图很明显了。啧，跟珊瑚海那时如出一辙呢……",
+			say = "也是……這麼直接的攻擊，吸引注意的意圖很明顯了。嘖，跟珊瑚海那時如出一轍呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁知道呢，说不定和之前我们的撤离一样，人家也是迫于上头的命令……",
+			say = "誰知道呢，說不定和之前我們的撤離一樣，人家也是迫於上頭的命令……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯…不过不得不说，这一招相当有效啊",
+			say = "嗯…不過不得不說，這一招相當有效啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这座岛是我们必须守住的地方，我们不能任由{namecode:90}随意轰炸……",
+			say = "這座島是我們必須守住的地方，我們不能任由{namecode:90}隨意轟炸……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "但是如果把火力都集中到{namecode:90}那里，我们两个就很危险了…而一旦我们倒下，机场也就等于失守……",
+			say = "但是如果把火力都集中到{namecode:90}那裡，我們兩個就很危險了…而一旦我們倒下，機場也就等於失守……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "所以说，我们的相互协作就很重要了呢……",
+			say = "所以說，我們的相互協作就很重要了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，在中途岛损失了那么多航母，竟然还敢以航母为诱饵",
+			say = "不過，在中途島損失了那麼多航母，竟然還敢以航母為誘餌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该说是胆大还是什么呢……我都有些想夸奖她们了。",
+			say = "該說是膽大還是什麼呢……我都有些想誇獎她們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过我们也没有那么好骗…——嗯？",
+			say = "不過我們也沒有那麼好騙…——嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "果然来了吗，{namecode:95}和{namecode:96}的攻击队……",
+			say = "果然來了嗎，{namecode:95}和{namecode:96}的攻擊隊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼……没办法，先撑过这一波吧！",
+			say = "呼……沒辦法，先撐過這一波吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

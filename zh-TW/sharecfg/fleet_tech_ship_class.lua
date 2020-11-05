@@ -1301,6 +1301,17 @@ pg.fleet_tech_ship_class = {
 			30603
 		}
 	},
+	[30604] = {
+		shiptype = 6,
+		name = "龍驤",
+		t_level = 4,
+		id = 30604,
+		t_level_1 = 103,
+		nation = 3,
+		ships = {
+			30606
+		}
+	},
 	[30701] = {
 		shiptype = 7,
 		name = "赤城",
@@ -1851,6 +1862,7 @@ pg.fleet_tech_ship_class = {
 		30601,
 		30602,
 		30603,
+		30604,
 		30701,
 		30702,
 		30703,

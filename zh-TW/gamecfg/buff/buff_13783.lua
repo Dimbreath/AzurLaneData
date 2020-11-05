@@ -10,6 +10,13 @@ return {
 	color = "red",
 	icon = 13780,
 	last_effect = "",
+	blink = {
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	},
 	effect_list = {
 		{
 			type = "BattleBuffAddAttrRatio",

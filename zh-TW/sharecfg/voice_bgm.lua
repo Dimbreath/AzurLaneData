@@ -80,5 +80,14 @@ pg.voice_bgm = {
 	},
 	MusicFestivalScene2 = {
 		bgm = "idol-BlueSpirit-inst"
+	},
+	NewShopsScene = {
+		bgm = "main"
+	},
+	SkinShopScene = {
+		bgm = "main"
+	},
+	BuildShipScene = {
+		bgm = "main"
 	}
 }

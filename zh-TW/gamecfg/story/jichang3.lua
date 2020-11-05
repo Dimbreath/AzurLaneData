@@ -8,7 +8,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			say = "母港・演習海域",
+			say = "港区・演习海域",
 			dir = 1,
 			bgm = "idol-BlueSpirit-inst",
 			typewriter = {
@@ -26,7 +26,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（これは「μ兵装」…音楽の力、想いの力を使った兵装…ご主人様より預かった大切なもの）",
+			say = "（这就是「μ兵装」……利用音乐之力与心灵之力的兵装……主人托付给我的贵重之物……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（頑張ってご主人様の役に立てれば……でもダイドー、アイドルをやっていけるのでしょうか…うぅ…）",
+			say = "（如果我的努力能帮到主人就好了……可是黛朵做得好偶像么……呜……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（もしダイドーが失敗してしまいましたら、ご主人様には捨てられちゃう……）",
+			say = "（如果黛朵失败的话，就会被主人抛弃……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "どうしたの？さっきから一人だけ悩んでたみたいで",
+			say = "发生什么事了？从刚才开始你就在一个人烦恼着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "な、なんでもございません",
+			say = "没，没什么…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ただ、ダイドーのようなメイドはアイドルをやるのはとても恐れ多いことで…",
+			say = "只是，黛朵只是一个女仆，能成为偶像真是不胜惶恐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "あっそ。メイド隊は大変ね。そんなことまで考えなくちゃならないなんて",
+			say = "这样。女仆队很辛苦呢，还要考虑到这种问题。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "………単にダイドーが考えすぎている、かもしれません",
+			say = "也可能只是黛朵想多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "まあどっちにしても、参加したからにはやるしかないよ。思い詰めないほうが身のためね",
+			say = "不管怎么说，既然参加了就必须要做吧？不去烦恼它的话对身心都更好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "アイドルカツドウと言っても、兵装の実験テストのためよ。任務として割り切ったほうが…",
+			say = "虽说叫偶像活动，其实还是一项兵装实验测试。把它当成是一项简单任务就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "アイドルというものに不慣れなのはみんな同じだから、私も正直レキシントンたちの映像を予習したときからちょっと不安だな",
+			say = "不懂如何当好偶像这点，也许大家都差不多吧。老实说，从预习列克星敦她们的视频开始，我就有点不安了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "自分はここまで「可愛く」なれるかどうか",
+			say = "我不知道自己能不能做到「可爱」这一点。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "といっても、せっかくのチャンスだからやるからには全力を尽くしたほうが良いぞ",
+			say = "不过机会难得，既然要做，就要全力以赴，做到最好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "ええ、アイドルとして、歌で愛と平和を皆に届けるチャンスですわ",
+			say = "对我来说，成为偶像的话，就能够通过歌声给大家带来爱与和平了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ユニコーンちゃんも楽しみにしていましたもの。ふふふ",
+			say = "而且独角兽也很期待呢，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "ユニコーンさんもご参加されているのですか？",
+			say = "独角兽也要参加这次的活动么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "はい、一人だとちょっと心細くて、ヴァンパイアさんにも声をかけて面倒見て頂いています",
+			say = "是的。而且独角兽一个人会有点紧张，所以也请了吸血鬼来照顾她",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "…もしかしてほかの陣営は皆何人か参加しているの？北方連合は前回参加しなかったけど状況がよくわからないわ",
+			say = "其他阵营一共会有多少人参加呢？ 上次的活动北方联盟没有参加，我不太了解情况。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "北方連合はタシュケントだけなの？",
+			say = "北方联盟这次只有塔什干参加吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "そうよ。あとアイリスから「タシュケントはアイリスの分まで頑張ってほしい、そしてアイリスは単独で参加する」って",
+			say = "是的。另外，鸢尾那边还告诉我「希望塔什干在组内能连同鸢尾那份一起努力，鸢尾会单独成组参加本次活动」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,12 +350,13 @@ return {
 			}
 		},
 		{
+			expression = 1,
+			side = 2,
+			dir = 1,
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			dir = 1,
-			side = 2,
-			say = "それ今言うやつ？",
+			say = "唔唔唔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "そうね。でも気になるんじゃない？ほかの陣営とか、チームとか",
+			say = "果然有些在意吧？其他阵营和团队的立场之类的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "確かに気になるが、今は自分たちのところだけ心配たほうがいいぞ",
+			say = "确实我也有点在意，不过眼下最该关心的还是我们自己的事情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +405,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ほら、こちらの準備ができたぞ。兵装実験演習、スタート！",
+			say = "既然已经准备完毕，就让我们开始兵装实验演习吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

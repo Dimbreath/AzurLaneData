@@ -1,7 +1,7 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	fadeType = 1,
+	fadeType = 2,
 	once = true,
 	id = "JICHANG18",
 	fadein = 1.5,
@@ -11,40 +11,40 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>艦船は兵器、敵と沈むために生まれる定め</size>",
+					"<size=51>舰船是兵器，注定是为了击沉敌人而生</size>",
 					1
 				},
 				{
-					"<size=51>艦船は兵器、敵を壊すために生まれる定め</size>",
+					"<size=51>舰船是兵器，注定是为了消灭敌人而生</size>",
+					2
+				},
+				{
+					"<size=51>如果允许我表达对你的爱，我不会通过杀戮来独占这份爱</size>",
 					3
 				},
 				{
-					"<size=51>愛を述べるのが許されても、我、愛を独占するために殺めん</size>",
+					"<size=51>如果允许我填满自己的心，我不会通过掠夺来独占这时间</size> ",
+					4
+				},
+				{
+					"<size=51>一个可以献上我们爱和忠诚的人 一个可以填满我们心灵的人</size> ",
 					5
 				},
 				{
-					"<size=51>心を満たすのが許されても、我、時を独占するために奪えん</size> ",
-					7
-				},
-				{
-					"<size=51>愛を尽くす相手　忠誠を尽くす相手　心を満たしてくれる相手</size> ",
-					9
-				},
-				{
-					"<size=51>それ以外　破滅をもたらしても構わない</size> ",
-					11
+					"<size=51>除此之外 全部毁灭</size> ",
+					6
 				}
 			}
 		},
 		{
+			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_jichang_3",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idol-kannjouLOYALTY-inst",
-			actor = 307110,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "来たわね。Astrum",
+			actorName = "鹩(μ兵装)",
+			say = "Astrum登场了。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,29 +64,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 2,
-			dir = 1,
-			actor = 403080,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "フフフ、そろそろクライマックスになるのかしら？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "アルバコア(μ兵装)",
+			actorName = "罗恩(μ兵装)",
 			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大鳳！会いに来たよー！",
+			say = "呼呼呼，终于要掀起高潮了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +80,23 @@ return {
 			}
 		},
 		{
-			actorName = "大鳳(μ兵装)",
+			actorName = "大青花鱼(μ兵装)",
+			side = 2,
+			bgName = "bg_jichang_3",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "{namecode:97}！大青花鱼来看你啦！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "鹩(μ兵装)",
 			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
@@ -119,7 +118,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（あれ？大鳳アタシを見ても全然動じていない…？）",
+			say = "（咦？ 为什么{namecode:97}看到我完全没有动摇…？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +135,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "なんて禍々しい雰囲気…これは「Verheerender」のステージなの…？",
+			say = "气氛如此的不详……这就是 「Verheerender 」的舞台吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +152,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "気圧されるな、私たちは私たちのステージを最高にするまでだ",
+			say = "不要被气势压倒了，我们也会在我们的舞台上展现出最高水平。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +169,7 @@ return {
 			actor = 701050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "タシュケント、怖くならないわよ…！",
+			say = "塔什干，不会害怕的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +186,7 @@ return {
 			actor = 403080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "「Polaris」と逢いました？その様子…フフフ、やっぱり私たちのことについて色々と教えられましたね",
+			say = "你们遇到「Polaris」了吗？看这副样子……呵呵呵，果然她们说了很多关于我们的事情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +203,7 @@ return {
 			actor = 202280,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ご主人様を…狙っているのですか？！",
+			say = "你是在……打主人的主意？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +220,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "まさかこの兵装を使って、指揮官を…！？",
+			say = "难道你打算用这个兵装对指挥官…？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +237,7 @@ return {
 			actor = 307110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "そうですわ。「μ兵装」など最初興味なかったけど、これを使えばここまで魅せれるなら話は別です",
+			say = "正是如此。一开始我对 「μ兵装」并不感兴趣，但如果能用它来迷倒指挥官的话，那就另当别论了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +254,7 @@ return {
 			actor = 403080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "音楽だの盛り上がりだの言っていますけど、この艤装の本質は「兵器」ですよ？兵器は兵器らしく、奪うためにも使わないと",
+			say = "虽然大家都在说什么音乐和热闹气氛，但这个舰装的本质是 「武器 」吧？武器就要像武器一样，为了掠夺而使用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +271,7 @@ return {
 			actor = 207110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "あなたたちが歌に載せる想い…それは「破壊」というのですか？",
+			say = "你们寄托在歌里的情感……就是 「破坏」吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,12 +282,12 @@ return {
 			}
 		},
 		{
-			actor = 307110,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			dir = 1,
+			actorName = "鹩(μ兵装)",
 			side = 2,
-			say = "違いますわ。私たちの「想い」はこの「μ兵装」関係なく、最初から最後までずっと同じよ",
+			bgName = "bg_jichang_3",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "错了。我们的 「感情」和这个「μ兵装」无关，自始至终从未改变过。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,12 +298,12 @@ return {
 			}
 		},
 		{
-			actor = 403080,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			dir = 1,
+			actorName = "罗恩(μ兵装)",
 			side = 2,
-			say = "ええ、私の心の「隙間」を埋めて、私の衝動を受け止めてくれるヒト",
+			bgName = "bg_jichang_3",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "是的，能填补我心中「空白」的人，能接受我心中「冲动」的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 307110,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			dir = 1,
+			actorName = "鹩(μ兵装)",
 			side = 2,
-			say = "私が愛して、全てを独占して、ずっとそばにいてあげたいヒト",
+			bgName = "bg_jichang_3",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "我爱的，独占一切的，想永远伴其身侧的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,11 +332,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			dir = 1,
-			actor = 307110,
+			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "――それ以外が何一つ残さないために，「破滅」をもたらしますわ",
+			dir = 1,
+			actorName = "鹩(μ兵装)",
+			say = "――为了破坏除他之外的一切，我们要带来「破坏」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,13 +347,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actorName = "罗恩(μ兵装)",
 			side = 2,
-			dir = 1,
-			actor = 403080,
+			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "ええ、私たちの前に立ちはだかる邪魔者は……",
+			dir = 1,
+			say = "是的，现在唯一挡在我们面前的就是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,22 +363,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 0,
-			hideOther = true,
+			actorName = "鹩(μ兵装)&罗恩(μ兵装)",
+			side = 2,
+			bgName = "bg_jichang_3",
 			dir = 1,
-			actor = 307110,
-			actorName = "大鳳(μ兵装)&ローン(μ兵装)",
-			hidePaintObj = true,
-			say = "許さないわ！！！",
-			subActors = {
-				{
-					actor = 403080,
-					pos = {
-						x = 1185
-					}
-				}
-			},
+			blackBg = true,
+			nameColor = "#a9f548",
+			say = "不能原谅！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,7 +1,7 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	fadeType = 1,
+	fadeType = 2,
 	once = true,
 	id = "JICHANG21",
 	fadein = 1.5,
@@ -10,9 +10,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			bgmDelay = 2,
-			bgm = "azumaster-ins",
-			say = "母港・学園",
+			bgmDelay = 1,
+			bgm = "idol-WISHNESS-inst",
+			say = "港区・学园",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "イラストリアス！タシュケントとアルバコアを見なかった？",
+			say = "光辉！你看见塔什干和大青花鱼了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "タシュケントちゃんなら教室にいると思いますけど、アルバコアちゃんはすみません、私にも分からなくて…",
+			say = "塔什干应该在教室里，但大青花鱼的话…不好意思，我也不知道她会在哪里……有什么事吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "ああ、別に大変なことじゃないよ。この前のライブで、前回と同じく引き続き兵装の運用――つまりアイドル活動をやらないかの質問が来てさ",
+			say = "啊，倒也不是什么重要的事。就是有人问我是否愿意像上次演出一样继续使用那些兵装——也就是继续偶像活动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "まあ、そういえばそういう話がありましたね…",
+			say = "这么说来，我也听到了差不多的话…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "前回同様、ぜひやってみたい子が結構いるようだ",
+			say = "和上次一样，似乎有不少人都想尝试一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ボルチモアさんはいかがしますか？イラストリアスにも参考させてくださいませ",
+			say = "你怎么看 我想参考一下你的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "こちらこそ決めていないよ。ただでさえ助っ人がおろそかになってたししばらく時間を置いてから考えても良さそうだ",
+			say = "我还没有决定好。之前我们一直忽视了帮忙的大家，我觉得隔一段时间再来思考这个问题也无妨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "それはそうですよね。ふふふ",
+			say = "确实是这样呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "えええ！「指揮官かトリオンファンにお願いされない限り絶対にやりたくない」って答えたの？？",
+			say = "欸欸！你说「除非指挥官或凯旋要求我这样做，否则我绝对不干」？？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 901110,
 			nameColor = "#a9f548",
-			say = "そうですよ。あんなの思い出しただけでも疲れますよ、もう……",
+			say = "是的。光是回忆起这些事情就已经够累的了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大鳳とタシュケントの回答と似てるね～",
+			say = "和{namecode:97}还有塔什干的回答差不多啊～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "（ル・マランの場合は本当にやりたくないよね。多分）",
+			say = "（恶毒的话，大概是真的不想再做了吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "（トントン）",
+			say = "（咚咚）",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官、「μ兵装」演習実施レポートを取りまとめました。ご確認ください",
+			say = "指挥官，「μ兵装」演习实施报告已经整理好，请确认好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ところで、せっかく楽しかったですし、名前の方も何かつけたほうがいいでしょうか…？いつまで「何々演習」のままでは、混乱しちゃいそうで…",
+			say = "既然这次活动我们玩得这么开心，是不是也该给它取个名字呢？一直叫某某演习难免会搞混呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "アイデアですか？そうですね…歌と、たくさん女の子が星々のように舞台の上で輝いて…",
+			say = "我的想法？让我想想……歌声，很多女孩像星星一样在舞台上闪耀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "いい名前を考えておいたほうが良さそうだ",
+			say = "看来得好好想个名字了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

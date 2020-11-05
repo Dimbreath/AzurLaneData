@@ -1,7 +1,7 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	fadeType = 1,
+	fadeType = 2,
 	once = true,
 	id = "JICHANG19",
 	fadein = 1.5,
@@ -10,9 +10,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			bgmDelay = 2,
+			bgmDelay = 1,
 			bgm = "idol-kannjouLOYALTY-inst",
-			say = "（トントン）",
+			say = "（咚咚）",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -20,6 +20,13 @@ return {
 				alpha = {
 					1,
 					0
+				}
+			},
+			effects = {
+				{
+					delay = 1,
+					name = "memoryFog",
+					active = true
 				}
 			},
 			typewriter = {
@@ -35,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "「μ兵装」第二回兵装実験より少し前・母港の執務室",
+			say = "港区·指挥室 第二次μ兵装实验前不久",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "手元には実験演習――もとい、ライブイベントの実施概要、そしてμ兵装艤装の解析資料が置いてある。",
+			say = "手边有一份实验演习——订正，是现场活动的实施概要，以及μ兵装舰装的解析资料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "実施決定の直前に、各陣営には同じ種類の艤装が送られている。",
+			say = "在决定实施活动之前，同类型的舰装就已经发放到了各个阵营手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "それもそのはず、イベント準備のため、「μ兵装」各種艤装補給を上申したのは自分である。",
+			say = "那也是应该的，毕竟为了准备活动，提出补给各种类型的「μ兵装」舰装的正是自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "「μ兵装」実験テストのイベントを用いて、各陣営間の交流を促す。目的は至って単純だ",
+			say = "目的十分单纯，就是借「μ兵装」实验测试活动来鼓励各阵营之间的交流。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "妙なことに、それぞれの艤装には別々の型番がついているため、なぜユニットメンバーの決定か回りくどいことになってしまった。",
+			say = "奇怪的是，每件舰装上都有一个独立的型号，所以组合成员的决定方法显得有些别扭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,13 +123,28 @@ return {
 			}
 		},
 		{
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			actor = 307110,
 			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "指揮官様、お呼びですか？",
+			dir = 1,
+			say = "指挥官大人，是您在叫我么？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "指挥官，你好像有什么烦心事……没事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,10 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403080,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "指揮官、なにか悩んでいるようですが…大丈夫でしょうか？",
+			say = "现在，是时候向她们解释了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,26 +170,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 403080,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "さて、彼女たちにも説明する番だ――",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			bgName = "bg_jichang_1",
-			side = 2,
 			dir = 1,
-			say = "母港・ライブ席",
+			say = "港区・观众席",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -188,6 +190,12 @@ return {
 					0
 				}
 			},
+			effects = {
+				{
+					active = false,
+					name = "memoryFog"
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +206,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "な、なんにゃ！？「μ兵装」を使った「演習」ではにゃく…まさか本当にドンパチ始めそうな雰囲気にゃ！？",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "什、什么喵？ 这不是正在使用「μ兵装」演习中……她们难道打算动真格喵？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,6 +219,16 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
@@ -219,7 +237,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ど、どどどどうしようにゃ…早く避難準備をして…",
+			say = "怎怎怎怎怎么办喵……得快点准备避难喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +269,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "なんてことするかにゃ！びっくりしたんじゃにゃいかにゃ…",
+			say = "开玩笑的喵！不过刚才真的吓了一跳喵……大家请看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,11 +282,27 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_jichang_1",
 			dir = 1,
 			actor = 307110,
 			nameColor = "#a9f548",
-			say = "戦うも何も、ステージは「誰が一番輝く」のを決めるのではありませんか？ですから、このステージで勝負を決めようとしています",
+			say = "抛开战斗不谈，舞台不是决定「谁最闪亮」的吗？所以我们决定就在这个舞台上一决胜负。",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,12 +314,11 @@ return {
 		},
 		{
 			expression = 4,
+			nameColor = "#a9f548",
 			side = 2,
-			bgName = "bg_jichang_1",
 			dir = 1,
 			actor = 307110,
-			nameColor = "#a9f548",
-			say = "ほかの子も観客を消してしまえば、別に輝くでもなんでもないでしょう？",
+			say = "只要其他人和观众都消灭了，那也就不存在所谓更加闪耀的问题了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,12 +330,11 @@ return {
 		},
 		{
 			expression = 5,
+			nameColor = "#a9f548",
 			side = 2,
-			bgName = "bg_jichang_1",
 			dir = 1,
 			actor = 403080,
-			nameColor = "#a9f548",
-			say = "はい、そうですよ～びっくりしましたぁ？",
+			say = "是的，就是这样～吓了一跳吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,12 +346,11 @@ return {
 		},
 		{
 			expression = 2,
+			nameColor = "#a9f548",
 			side = 2,
-			bgName = "bg_jichang_1",
 			dir = 1,
 			actor = 307110,
-			nameColor = "#a9f548",
-			say = "（こっちがびっくりしたわよ、ローン！）",
+			say = "（你吓死我了，罗恩！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,13 +362,11 @@ return {
 		},
 		{
 			expression = 4,
+			nameColor = "#a9f548",
 			side = 2,
-			bgName = "bg_jichang_1",
 			dir = 1,
 			actor = 103250,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "まったく、驚かせてくれたじゃないか……",
+			say = "真是的，连我们这都被吓了一跳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,29 +377,11 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "bg_jichang_1",
-			dir = 1,
 			actor = 103250,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "だがこっちもこのまま退くわけにはいかないな。ライブは戦いではないにしても、もっと盛り上げらせもらうよ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "ボルチモア(μ兵装)",
 			side = 2,
-			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "みんな、準備は良いか？",
+			say = "但我们也不会就此退缩。 即使live并非战斗，我们也要让氛围更加热烈起来！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,12 +392,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス(μ兵装)",
+			actorName = "巴尔的摩(μ兵装)",
 			side = 2,
-			bgName = "bg_jichang_5",
+			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "私たちの歌の光は、もっと広く伝わってほしいですわ",
+			say = "大家都准备好了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,12 +408,12 @@ return {
 			}
 		},
 		{
-			actorName = "タシュケント(μ兵装)",
+			actorName = "光辉(μ兵装)",
 			side = 2,
-			bgName = "bg_jichang_5",
+			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうよ。同志ちゃんが見ているからね！",
+			say = "我们的歌声中蕴含的光芒，一定能传达给更多人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,12 +424,12 @@ return {
 			}
 		},
 		{
-			actorName = "ダイドー(μ兵装)",
+			actorName = "塔什干(μ兵装)",
 			side = 2,
-			bgName = "bg_jichang_5",
+			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ご主人様、ダイドーのこと、見ていてください…！",
+			say = "是的，同志酱也在看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,12 +440,12 @@ return {
 			}
 		},
 		{
-			actorName = "アルバコア(μ兵装)",
+			actorName = "黛朵μ兵装)",
 			side = 2,
-			bgName = "bg_jichang_5",
+			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ははは、大鳳、そちらのユニットに行っちゃっていい？",
+			say = "主人，请你一定，一定要注视着黛朵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,13 +456,29 @@ return {
 			}
 		},
 		{
-			actorName = "大鳳(μ兵装)",
+			actorName = "大青花鱼(μ兵装)",
 			side = 2,
-			bgName = "bg_jichang_5",
+			bgName = "bg_jichang_2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "哈哈哈，{namecode:97}，我可以去你的组合吗？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "鹩(μ兵装)",
+			side = 2,
+			bgName = "bg_jichang_2",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "お断りしますわ！…さあ、最終ステージですわ！",
+			say = "拒绝！……来吧，这就是最后的舞台了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -65005,6 +65005,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59151] = {
+		display = "用於『斯圖爾特的硝煙』活動兌換，活動結束後將會消失",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "式符-J",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59151,
+		icon = "Props/longxiang",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59152] = {
 		display = "{namecode:98}特意準備的禮品券，不小心遺落在了各個出擊海域，回收後投入使用可提高商店營業額，活動結束後將會消失",
 		rarity = 2,
@@ -69271,6 +69289,7 @@ pg.item_data_statistics = {
 		59136,
 		59140,
 		59150,
+		59151,
 		59152,
 		59153,
 		59156,
