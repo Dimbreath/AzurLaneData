@@ -256,21 +256,7 @@ end
 function slot8.GetWeaponAtkAttr(slot0)
 	slot2 = nil
 
-	if slot0._weapon:GetAtkAttrTrasnform(slot0:GetWeaponHostAttr()) then
-		slot2 = slot3
-	elseif slot0:GetWeaponTempData().attack_attribute == uv0.WeaponDamageAttr.CANNON then
-		slot2 = slot1.cannonPower
-	elseif slot4 == uv0.WeaponDamageAttr.TORPEDO then
-		slot2 = slot1.torpedoPower
-	elseif slot4 == uv0.WeaponDamageAttr.ANTI_AIR then
-		slot2 = slot1.antiAirPower
-	elseif slot4 == uv0.WeaponDamageAttr.AIR then
-		slot2 = slot1.airPower
-	elseif slot4 == uv0.WeaponDamageAttr.ANIT_SUB then
-		slot2 = slot1.antiSubPower
-	end
-
-	return slot2
+	return slot0._weapon:GetAtkAttrTrasnform(slot0:GetWeaponHostAttr()) and slot3 or uv0.Battle.BattleAttr.GetAtkAttrByType(slot1, slot0:GetWeaponTempData().attack_attribute)
 end
 
 function slot8.SetDamageEnhance(slot0, slot1)

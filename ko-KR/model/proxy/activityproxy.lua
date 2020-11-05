@@ -377,6 +377,18 @@ function slot0.GetBuildingBuff(slot0)
 	return {}
 end
 
+function slot0.GetPTActivityBuff(slot0)
+	_.each(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF), function (slot0)
+		if slot0 and not slot0:isEnd() then
+			for slot5, slot6 in pairs(slot0.data3_list) do
+				table.insert(uv0, ActivityBuff.New(slot0.id, slot6))
+			end
+		end
+	end)
+
+	return {}
+end
+
 function slot0.getBuffShipList(slot0)
 	_.each(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHIP_BUFF), function (slot0)
 		if slot0 and not slot0:isEnd() then

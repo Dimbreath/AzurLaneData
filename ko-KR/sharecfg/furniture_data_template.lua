@@ -2992,6 +2992,59 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[184] = {
+		can_rotate = 0,
+		describe = "「노랫소리가 우주에 울려 퍼지도록!」——「격창의 유니버스」 작전에서 우수한 성적을 획득한 이에게 수여하는 기념장",
+		gain_by = "격창의 유니버스 ",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "격창 기념장",
+		advice = 0,
+		id = 184,
+		icon = "ido2xunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"song06",
+				"song07",
+				"song08"
+			},
+			{
+				"action",
+				"action2",
+				"action3"
+			}
+		},
+		spine = {
+			{
+				"ido2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -4197,7 +4250,15 @@ pg.furniture_data_template = {
 				"normal",
 				{
 					"action",
-					false
+					true,
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7"
+					}
 				}
 			}
 		},
@@ -72122,6 +72183,1372 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[70001] = {
+		can_rotate = 0,
+		describe = "우리의 노랫소리가 우주에 울려 퍼지도록!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/dibanido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "격창 별하늘 바닥",
+		advice = 0,
+		icon = "dibanido2icon",
+		id = 70001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70002] = {
+		can_rotate = 0,
+		describe = "우리의 노랫소리가 우주에 울려 퍼지도록!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "격창 별하늘 벽지",
+		advice = 0,
+		id = 70002,
+		icon = "qiangbiido2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiido2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[70101] = {
+		can_rotate = 0,
+		describe = "열심히 응원 중인 쥬쥬들...의 뒷모습",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/1ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "응원쥬(뒷모습)",
+		advice = 0,
+		icon = "1ido2icon",
+		id = 70101,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70102] = {
+		can_rotate = 0,
+		describe = "모두 공연장 규칙을 준수해 주세요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/2ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "공연장 울타리",
+		advice = 0,
+		icon = "2ido2icon",
+		id = 70102,
+		comfortable = 1,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70103] = {
+		can_rotate = 0,
+		describe = "열심히 응원 중인 쥬쥬들",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/3ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "응원쥬",
+		advice = 0,
+		icon = "3ido2icon",
+		id = 70103,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70104] = {
+		can_rotate = 0,
+		describe = "심금을 울리는 매 순간을 기록할 거야쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/4ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "촬영쥬",
+		advice = 0,
+		icon = "4ido2icon",
+		id = 70104,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70105] = {
+		can_rotate = 0,
+		describe = "무대를 더욱더 초롱초롱하게!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/5ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "격창 무대 조명",
+		advice = 0,
+		icon = "5ido2icon",
+		id = 70105,
+		comfortable = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70106] = {
+		can_rotate = 0,
+		describe = "라이브의 열정을 무한배로 더 크게!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/6ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "격창 스피커",
+		advice = 0,
+		icon = "6ido2icon",
+		id = 70106,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70107] = {
+		can_rotate = 0,
+		describe = "전문 튜너의 풍채를 보아라쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/7ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "튜닝쥬",
+		advice = 0,
+		icon = "7ido2icon",
+		id = 70107,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70108] = {
+		can_rotate = 0,
+		describe = "설비함 모서리의 마모된 흔적은 스태프들의 수고한 상징.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/8ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "격창 설비함",
+		advice = 0,
+		icon = "8ido2icon",
+		id = 70108,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70109] = {
+		can_rotate = 0,
+		describe = "조명 뿐만 아니라, 무대 전체를 반짝반짝 빛나게.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/9ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 2,
+		name = "무대 계단",
+		advice = 0,
+		id = 70109,
+		icon = "9ido2icon",
+		comfortable = 3,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-38,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/9ido2_using"
+			},
+			{
+				"stand2",
+				{
+					37,
+					6
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/9ido2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70110] = {
+		can_rotate = 0,
+		describe = "태양 형상의 네온사인",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/10ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "네온사인(빛)",
+		advice = 0,
+		icon = "10ido2icon",
+		id = 70110,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70111] = {
+		can_rotate = 0,
+		describe = "오각성 형상의 네온사인",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/11ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "네온사인(별)",
+		advice = 0,
+		icon = "11ido2icon",
+		id = 70111,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70112] = {
+		can_rotate = 0,
+		describe = "달 형상의 네온사인",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/12ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "네온사인(달)",
+		advice = 0,
+		icon = "12ido2icon",
+		id = 70112,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70113] = {
+		can_rotate = 0,
+		describe = "52가지 톤의 음색을 가지고 있대요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/13ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "격창 키보드",
+		advice = 0,
+		id = 70113,
+		icon = "13ido2icon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					19.9,
+					-8
+				},
+				{
+					-1,
+					1
+				},
+				"ido2/13ido2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70114] = {
+		can_rotate = 1,
+		describe = "리듬에 맞춰쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/14ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 70,
+		count = 1,
+		name = "격창 드럼",
+		advice = 0,
+		id = 70114,
+		icon = "14ido2icon",
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-68,
+					-10
+				},
+				{
+					1,
+					1
+				},
+				"ido2/14ido2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70115] = {
+		can_rotate = 0,
+		describe = "아무튼... 먼저 기타 솔로쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/15ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "격창 기타쥬",
+		advice = 0,
+		icon = "15ido2icon",
+		id = 70115,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70116] = {
+		can_rotate = 0,
+		describe = "긴장하지 마쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido2/16ido2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 70,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "격창 베이스쥬",
+		advice = 0,
+		icon = "16ido2icon",
+		id = 70116,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[70117] = {
+		can_rotate = 0,
+		describe = "같이 라이브의 하이라이트를 맞이하자쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Aido2icon",
+		count = 1,
+		name = "대형 승강 무대",
+		id = 70117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shengjiangwutaiB",
+				"normal"
+			},
+			{
+				"shengjiangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					[3] = {
+						"action",
+						"dance"
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"shengjiangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70118] = {
+		can_rotate = 0,
+		describe = "\"이 사랑과 평화가 충만한 노랫소리가, 온 세상에 전달되길~\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Bido2icon",
+		count = 1,
+		name = "무대 <휘광>",
+		id = 70118,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiAB",
+				"normal"
+			},
+			{
+				"wutaiAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiACharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70119] = {
+		can_rotate = 0,
+		describe = "\"온 우주가 나의 라이브를 감상하도록... 아, 힘들다, 그만두자...\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Cido2icon",
+		count = 1,
+		name = "무대 <행성>",
+		id = 70119,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiBB",
+				"normal"
+			},
+			{
+				"wutaiBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70120] = {
+		can_rotate = 0,
+		describe = "\"노래와 춤만으로 모든 사람을 미치게 할 수 있다니. 라이브, 정말 재밌구나——\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Dido2icon",
+		count = 1,
+		name = "무대 <신비>",
+		id = 70120,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiCB",
+				"normal"
+			},
+			{
+				"wutaiCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiCCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70121] = {
+		can_rotate = 0,
+		describe = "\"이 무대 위에 뜨겁고, 진한 사랑, 전부 너 혼자만의 것이야~\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Eido2icon",
+		count = 1,
+		name = "무대 <치열>",
+		id = 70121,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiDB",
+				"normal"
+			},
+			{
+				"wutaiDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiDCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70122] = {
+		can_rotate = 0,
+		describe = "\"온 우주를 깜짝 놀라게 할 공연을 하자! 시작한다!\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Fido2icon",
+		count = 1,
+		name = "무대 <유니버스>",
+		id = 70122,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiEB",
+				"normal"
+			},
+			{
+				"wutaiET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiECharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70123] = {
+		can_rotate = 0,
+		describe = "\"계속, 계속, 계속 나만 주목해 줘!\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Gido2icon",
+		count = 1,
+		name = "무대 <사모>",
+		id = 70123,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiF",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiFcharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70124] = {
+		can_rotate = 0,
+		describe = "\"나의 노래를 들은 모두가 아름다운 꿈을 꿀 수 있기를\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Hido2icon",
+		count = 1,
+		name = "무대 <미몽>",
+		id = 70124,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiGB",
+				"normal"
+			},
+			{
+				"wutaiGT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiGCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[70125] = {
+		can_rotate = 0,
+		describe = "\"끝없이 노력한다면, 어색함과 긴장은 결국 흔적도 없이 사라질 거야!\"",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 70,
+		icon = "Iido2icon",
+		count = 1,
+		name = "무대 <활력>",
+		id = 70125,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiHB",
+				"normal"
+			},
+			{
+				"wutaiHT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"wutaiHCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[71001] = {
 		can_rotate = 0,
 		describe = "핼러윈의 밤을 \"즐길\" 준비되셨나요~?",
@@ -73233,6 +74660,7 @@ pg.furniture_data_template = {
 		175,
 		177,
 		183,
+		184,
 		100002,
 		100003,
 		100004,
@@ -74796,6 +76224,33 @@ pg.furniture_data_template = {
 		69307,
 		69308,
 		69309,
+		70001,
+		70002,
+		70101,
+		70102,
+		70103,
+		70104,
+		70105,
+		70106,
+		70107,
+		70108,
+		70109,
+		70110,
+		70111,
+		70112,
+		70113,
+		70114,
+		70115,
+		70116,
+		70117,
+		70118,
+		70119,
+		70120,
+		70121,
+		70122,
+		70123,
+		70124,
+		70125,
 		71001,
 		71002,
 		71101,

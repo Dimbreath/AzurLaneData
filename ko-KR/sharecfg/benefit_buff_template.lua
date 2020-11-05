@@ -58,7 +58,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		name = "사업 ",
 		icon = "Props/buff_minigame_11",
-		benefit_effect = "500",
+		benefit_effect = "504",
 		id = 11,
 		benefit_condition = "",
 		benefit_type = "battle_buff",
@@ -129,7 +129,7 @@ pg.benefit_buff_template = {
 		max_time = 0,
 		name = "전투 피해량 보너스1",
 		icon = "Props/buff_minigame_11",
-		benefit_effect = "502",
+		benefit_effect = "500",
 		id = 16,
 		benefit_type = "battle_buff",
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 1% 상승",
@@ -146,7 +146,7 @@ pg.benefit_buff_template = {
 		max_time = 0,
 		name = "전투 피해량 보너스2",
 		icon = "Props/buff_minigame_11",
-		benefit_effect = "504",
+		benefit_effect = "502",
 		id = 17,
 		benefit_type = "battle_buff",
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 2% 상승",
@@ -163,7 +163,7 @@ pg.benefit_buff_template = {
 		max_time = 0,
 		name = "전투 피해량 보너스3",
 		icon = "Props/buff_minigame_11",
-		benefit_effect = "500",
+		benefit_effect = "504",
 		id = 18,
 		benefit_type = "battle_buff",
 		desc = "메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 3% 상승",
@@ -288,6 +288,132 @@ pg.benefit_buff_template = {
 		benefit_type = "urpt_drop_up",
 		desc = "「접해몽화」 이벤트 해역을 통해 획득하는 특장원형 수량 배가"
 	},
+	[26] = {
+		max_time = 0,
+		name = "가창력",
+		icon = "Props/yanchangli1",
+		benefit_effect = "500",
+		id = 26,
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 1% 증가",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
+	[27] = {
+		max_time = 0,
+		name = "가창력",
+		icon = "Props/yanchangli2",
+		benefit_effect = "502",
+		id = 27,
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 2% 증가",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
+	[28] = {
+		max_time = 0,
+		name = "가창력",
+		icon = "Props/yanchangli3",
+		benefit_effect = "504",
+		id = 28,
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해량 3% 증가",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
+	[29] = {
+		max_time = 0,
+		name = "안무력",
+		icon = "Props/wudaoli1",
+		benefit_effect = "510",
+		id = 29,
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 1% 감소",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
+	[30] = {
+		max_time = 0,
+		name = "안무력",
+		icon = "Props/wudaoli2",
+		benefit_effect = "512",
+		id = 30,
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 2% 감소",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
+	[31] = {
+		max_time = 0,
+		name = "안무력",
+		icon = "Props/wudaoli3",
+		benefit_effect = "514",
+		id = 31,
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 피해 3% 감소",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
+	[32] = {
+		max_time = 0,
+		name = "연기력",
+		icon = "Props/biaoyanli1",
+		benefit_effect = "3",
+		id = 32,
+		benefit_type = "ship_battle_exp",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 3% 증가",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
+	[33] = {
+		max_time = 0,
+		name = "연기력",
+		icon = "Props/biaoyanli2",
+		benefit_effect = "4",
+		id = 33,
+		benefit_type = "ship_battle_exp",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 4% 증가",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
+	[34] = {
+		max_time = 0,
+		name = "연기력",
+		icon = "Props/biaoyanli3",
+		benefit_effect = "5",
+		id = 34,
+		benefit_type = "ship_battle_exp",
+		desc = "메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 경험치 5% 증가",
+		benefit_condition = {
+			"activity",
+			20581,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -308,6 +434,15 @@ pg.benefit_buff_template = {
 		22,
 		23,
 		24,
-		25
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34
 	}
 }

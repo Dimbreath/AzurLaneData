@@ -28,7 +28,7 @@ end
 function slot0.didEnter(slot0)
 	slot0:initSelectSkinPanel()
 
-	if slot0.shipVO and #slot0.skins > 1 then
+	if slot0.shipVO then
 		slot0:openSelectSkinPanel()
 	end
 end

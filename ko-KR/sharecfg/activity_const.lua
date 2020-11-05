@@ -642,6 +642,9 @@ pg.activity_const = {
 	UR_TASK_ACT_ID = {
 		act_id = 20562
 	},
+	MUSIC_FESTIVAL_ID_2 = {
+		act_id = 20590
+	},
 	SUMMER_REMAKE = {
 		act_id = 20248
 	},

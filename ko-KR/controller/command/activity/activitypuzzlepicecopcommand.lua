@@ -30,6 +30,10 @@ function slot0.execute(slot0, slot1)
 
 		return
 	elseif slot4 == 2 then
+		if not table.contains(slot8.data1_list, slot3) then
+			return
+		end
+
 		if table.contains(slot8.data2_list, slot3) then
 			return
 		end

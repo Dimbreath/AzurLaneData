@@ -2220,7 +2220,7 @@ function flushShipCard(slot0, slot1, slot2)
 		if uv0 then
 			if uv1 then
 				uv1(slot0, uv0.configId)
-			else
+			elseif not IsNil(uv2) then
 				uv2.sprite = slot0
 			end
 		end

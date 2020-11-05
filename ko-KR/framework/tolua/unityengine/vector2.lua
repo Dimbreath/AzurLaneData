@@ -272,6 +272,8 @@ end
 function slot6.Sub(slot0, slot1)
 	slot0.x = slot0.x - slot1.x
 	slot0.y = slot0.y - slot1.y
+
+	return slot0
 end
 
 function slot6.__tostring(slot0)

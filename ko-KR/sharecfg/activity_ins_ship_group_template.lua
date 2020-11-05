@@ -13,7 +13,7 @@ pg.activity_ins_ship_group_template = {
 	[40301] = {
 		ship_group = 40301,
 		name = "R-Guitarist",
-		sculpture = "xipeierhaijunshangjiang"
+		sculpture = "xipeier_idol"
 	},
 	[99901] = {
 		ship_group = 99901,
@@ -28,7 +28,7 @@ pg.activity_ins_ship_group_template = {
 	[10209] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
-		sculpture = "kelifulan"
+		sculpture = "kelifulan_idol"
 	},
 	[30705] = {
 		ship_group = 30705,
@@ -103,12 +103,12 @@ pg.activity_ins_ship_group_template = {
 	[30707] = {
 		ship_group = 30707,
 		name = "OutrangeTH",
-		sculpture = "dafeng"
+		sculpture = "dafeng_idol"
 	},
 	[49901] = {
 		ship_group = 49901,
 		name = "RoonDESU",
-		sculpture = "luoen"
+		sculpture = "luoen_idol"
 	},
 	[49902] = {
 		ship_group = 49902,
@@ -193,7 +193,7 @@ pg.activity_ins_ship_group_template = {
 	[20603] = {
 		ship_group = 20603,
 		name = "UnicornI72",
-		sculpture = "dujiaoshou"
+		sculpture = "dujiaoshou_6"
 	},
 	[20207] = {
 		ship_group = 20207,
@@ -403,7 +403,7 @@ pg.activity_ins_ship_group_template = {
 	[20703] = {
 		ship_group = 20703,
 		name = "Illustrious",
-		sculpture = "guanghui"
+		sculpture = "guanghui_idol"
 	},
 	[10125] = {
 		ship_group = 10125,
@@ -428,7 +428,7 @@ pg.activity_ins_ship_group_template = {
 	[90111] = {
 		ship_group = 90111,
 		name = "VivaLaze",
-		sculpture = "edu"
+		sculpture = "edu_idol"
 	},
 	[20215] = {
 		ship_group = 20215,
@@ -583,7 +583,7 @@ pg.activity_ins_ship_group_template = {
 	[20501] = {
 		ship_group = 20501,
 		name = "QueenEliz",
-		sculpture = "yilishabai"
+		sculpture = "yilishabai_3"
 	},
 	[20705] = {
 		ship_group = 20705,
@@ -653,12 +653,12 @@ pg.activity_ins_ship_group_template = {
 	[20204] = {
 		ship_group = 20204,
 		name = "Dido_Doll",
-		sculpture = "daiduo"
+		sculpture = "daiduo_idol"
 	},
 	[20502] = {
 		ship_group = 20502,
 		name = "Warspite",
-		sculpture = "yanzhan"
+		sculpture = "yanzhan_3"
 	},
 	[40801] = {
 		ship_group = 40801,
@@ -683,7 +683,7 @@ pg.activity_ins_ship_group_template = {
 	[10316] = {
 		ship_group = 10316,
 		name = "Justice_B",
-		sculpture = "baerdimo"
+		sculpture = "baerdimo_idol"
 	},
 	[10324] = {
 		ship_group = 10324,
@@ -703,7 +703,7 @@ pg.activity_ins_ship_group_template = {
 	[10802] = {
 		ship_group = 10802,
 		name = "G_Albacore",
-		sculpture = "daqinghuayu"
+		sculpture = "daqinghuayu_idol"
 	},
 	[30501] = {
 		ship_group = 30501,
@@ -853,7 +853,17 @@ pg.activity_ins_ship_group_template = {
 	[70104] = {
 		ship_group = 70104,
 		name = "Ташкент",
-		sculpture = "tashigan"
+		sculpture = "tashigan_idol"
+	},
+	[20123] = {
+		ship_group = 20123,
+		name = "Vampire ",
+		sculpture = "xixuegui_5"
+	},
+	[40808] = {
+		ship_group = 40808,
+		name = "HAI_110 ",
+		sculpture = "U110_4"
 	},
 	all = {
 		30701,
@@ -1026,6 +1036,8 @@ pg.activity_ins_ship_group_template = {
 		30164,
 		70505,
 		30163,
-		70104
+		70104,
+		20123,
+		40808
 	}
 }

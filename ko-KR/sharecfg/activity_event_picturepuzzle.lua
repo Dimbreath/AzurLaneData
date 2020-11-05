@@ -48,6 +48,30 @@ pg.activity_event_picturepuzzle = {
 			}
 		}
 	},
+	[758] = {
+		define = 0,
+		cd = 0,
+		drop = 94005,
+		chapter = 0,
+		id = 758,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			70053,
+			70054,
+			70055,
+			70056,
+			70057,
+			70058,
+			70059,
+			70060,
+			70061,
+			70062,
+			70063,
+			70064
+		},
+		story = {},
+		awards = {}
+	},
 	[20433] = {
 		define = 0,
 		cd = 1200,
@@ -96,8 +120,34 @@ pg.activity_event_picturepuzzle = {
 			}
 		}
 	},
+	[20586] = {
+		define = 0,
+		cd = 0,
+		drop = 94005,
+		chapter = 0,
+		id = 20586,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			70053,
+			70054,
+			70055,
+			70056,
+			70057,
+			70058,
+			70059,
+			70060,
+			70061,
+			70062,
+			70063,
+			70064
+		},
+		story = {},
+		awards = {}
+	},
 	all = {
 		549,
-		20433
+		758,
+		20433,
+		20586
 	}
 }

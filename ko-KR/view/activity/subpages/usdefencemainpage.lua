@@ -19,7 +19,6 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	slot0.taskListView:Destroy()
 end
 
 function slot0.initData(slot0)
@@ -49,11 +48,9 @@ function slot0.updateAwardBtn(slot0)
 		setActive(slot0.finishedTF, false)
 		setActive(slot0.achievedTF, false)
 		onButton(slot0, slot0.awardTF, function ()
-			uv0.taskListView:Reset()
 			uv0.taskListView:Load()
 		end, SFX_PANEL)
 		onButton(slot0, slot0.achievementBtn, function ()
-			uv0.taskListView:Reset()
 			uv0.taskListView:Load()
 		end, SFX_PANEL)
 	elseif slot1 == 1 then

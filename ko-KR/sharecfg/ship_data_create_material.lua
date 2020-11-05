@@ -82,15 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Normal：30%",
-			"<color=#ffde38>비스마르크</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>U-96</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>킹 조지 5세 </color>：0.5%",
+			"<color=#ffde38>다이도(μ장비)</color>: 2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>Z26</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z36</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>U-73</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>U-556</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>에코</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>{namecode:97}(μ장비)</color>: 2.0%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>타슈켄트(μ장비)</color>: 2.0%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>볼티모어(μ장비)</color>: 2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>알바코어(μ장비)</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

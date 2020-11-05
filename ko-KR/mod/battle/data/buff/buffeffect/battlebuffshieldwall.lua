@@ -21,15 +21,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	slot0._startTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	function slot4(slot0)
-		if not slot0:GetIgnoreShield() and slot0:GetType() == uv0._bulletType and uv0._count > 0 then
-			uv0:DoWhenHit(slot0)
-
-			if uv0._count <= 0 then
-				uv0:Deactive()
-			end
-		end
-
-		return uv0._count > 0
+		return uv0:onWallCld(slot0)
 	end
 
 	slot6 = slot3.cld_list[1]
@@ -102,6 +94,27 @@ function slot2.onUpdate(slot0, slot1, slot2, slot3)
 	slot0._centerPos = slot4
 end
 
+function slot2.onWallCld(slot0, slot1)
+	if not slot1:GetIgnoreShield() and slot1:GetType() == slot0._bulletType and slot0._count > 0 then
+		if slot0._doWhenHit == "intercept" then
+			slot1:Intercepted()
+			slot0._dataProxy:RemoveBulletUnit(slot1:GetUniqueID())
+
+			slot0._count = slot0._count - 1
+		elseif slot0._doWhenHit == "reflect" and slot0:GetIFF() ~= slot1:GetIFF() then
+			slot1:Reflected()
+
+			slot0._count = slot0._count - 1
+		end
+
+		if slot0._count <= 0 then
+			slot0:Deactive()
+		end
+	end
+
+	return slot0._count > 0
+end
+
 function slot2.GetIFF(slot0)
 	return slot0._unit:GetIFF()
 end
@@ -112,19 +125,6 @@ end
 
 function slot2.IsWallActive(slot0)
 	return slot0._count > 0
-end
-
-function slot2.DoWhenHit(slot0, slot1)
-	if slot0._doWhenHit == "intercept" then
-		slot1:Intercepted()
-		uv0.Battle.BattleDataProxy.GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
-
-		slot0._count = slot0._count - 1
-	elseif slot0._doWhenHit == "reflect" and slot0:GetIFF() ~= slot1:GetIFF() then
-		slot1:Reflected()
-
-		slot0._count = slot0._count - 1
-	end
 end
 
 function slot2.Deactive(slot0)

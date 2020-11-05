@@ -934,8 +934,6 @@ function slot0.updateActivityBtns(slot0)
 	if ActivityLevelConst.hasExtraMap(slot0.maps) and slot0.battleActivitys then
 		slot9 = _.any(slot0.battleActivitys, function (slot0)
 			if slot0.id == uv0:getConfig("on_activity") then
-				print(slot0.id)
-
 				uv1 = slot0:getConfig("type")
 			end
 
@@ -1294,8 +1292,10 @@ function slot0.JudgeMapBuilderType(slot0)
 end
 
 function slot0.updateMap(slot0)
-	if slot0.contextData.map:getConfig("bgm") and #slot2 > 0 then
-		playBGM(slot2)
+	slot3 = slot0.contextData.chapterVO and slot2:getConfig("bgm")
+
+	if slot0.contextData.map:getConfig("bgm") and #slot4 > 0 and (not slot3 or #slot3 == 0) then
+		playBGM(slot4)
 	end
 
 	seriesAsync({

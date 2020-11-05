@@ -1104,6 +1104,14 @@ function slot0.UpdateActivityBtn(slot0, slot1)
 	end
 end
 
+function slot0.HandleMiniGameBtns(slot0)
+	for slot5, slot6 in ipairs(import("GameCfg.activity.MainUIEntranceData").CurrentEntrancesList) do
+		if slot1[slot6] and slot7.Tag and slot7.Tag == "MiniGameHub" then
+			slot0:UpdateActivityBtn(slot7.ButtonName)
+		end
+	end
+end
+
 function slot0.updateAnniversaryBtn(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
