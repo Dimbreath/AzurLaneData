@@ -967,7 +967,7 @@ pg.activity_shop_extra = {
 				{
 					2020,
 					11,
-					12
+					19
 				},
 				{
 					23,
@@ -1003,7 +1003,7 @@ pg.activity_shop_extra = {
 				{
 					2020,
 					11,
-					12
+					19
 				},
 				{
 					23,
