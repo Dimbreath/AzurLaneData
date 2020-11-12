@@ -10,7 +10,7 @@ function slot0.OnUpdateFlush(slot0)
 			slot7
 		}, {
 			1
-		}) and not pg.StoryMgr.GetInstance():IsPlayed(slot2[slot7][1]) then
+		}) and not pg.NewStoryMgr.GetInstance():IsPlayed(slot2[slot7][1]) then
 			table.insert(slot1, function (slot0)
 				uv0:Play(uv1[uv2][1], slot0)
 			end)
