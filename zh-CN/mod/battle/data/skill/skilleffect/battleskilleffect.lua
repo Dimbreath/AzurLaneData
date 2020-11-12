@@ -158,9 +158,6 @@ function slot2.GetTarget(slot0, slot1, slot2)
 	end
 end
 
-function slot2.Interrupt(slot0)
-end
-
 function slot2.Clear(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot5)

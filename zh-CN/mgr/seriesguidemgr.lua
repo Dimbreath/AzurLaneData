@@ -285,9 +285,11 @@ function slot0.compatibleOldPlayer(slot0)
 		return
 	end
 
-	pg.SystemGuideMgr.GetInstance():FixGuide(function ()
-		if uv0.player.guideIndex > 1 and uv0.player.guideIndex < 101 then
-			uv1()
-		end
-	end)
+	if slot0.player.guideIndex ~= uv0 then
+		pg.SystemGuideMgr.GetInstance():FixGuide(function ()
+			if uv0.player.guideIndex > 1 and uv0.player.guideIndex < 101 then
+				uv1()
+			end
+		end)
+	end
 end

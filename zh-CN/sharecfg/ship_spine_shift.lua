@@ -55,5 +55,12 @@ pg.ship_spine_shift = {
 			-25,
 			0
 		}
+	},
+	buli_super = {
+		spine = "buli_super",
+		mainui_shift = {
+			0,
+			13
+		}
 	}
 }

@@ -29,16 +29,14 @@ function slot1.DoWave(slot0)
 
 	if slot1 then
 		pg.MsgboxMgr.GetInstance():hide()
-
-		if pg.StoryMgr.GetInstance():Play(slot0._storyID, function (slot0)
+		pg.NewStoryMgr.GetInstance():Play(slot0._storyID, function (slot0)
 			if slot0 then
 				uv0:doFail()
 			else
 				uv0:doPass()
 			end
-		end) then
-			gcAll()
-		end
+		end)
+		gcAll()
 	else
 		slot0:doPass()
 	end

@@ -21,7 +21,6 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getRawData())
-	slot0.viewComponent:setMaps(getProxy(ChapterProxy):getMaps())
 end
 
 function slot0.listNotificationInterests(slot0)

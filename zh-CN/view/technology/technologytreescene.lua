@@ -319,6 +319,7 @@ function slot0.updateTecItemList(slot0)
 				if uv1.rowHeight < GetComponent(uv0, "LayoutElement").preferredHeight then
 					slot2 = uv1:findTF(slot0, uv1.rightContainer)
 					slot4 = uv1:findTF("ShipScrollView/Viewport/ShipContainer", slot2)
+					GetComponent(uv1.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv1.rightContainer, "VerticalLayoutGroup").padding.bottom - (GetComponent(slot2, "LayoutElement").preferredHeight - uv1.rowHeight)
 					GetComponent(slot2, "LayoutElement").preferredHeight = uv1.rowHeight
 
 					setLocalRotation(uv1:findTF("ClickBtn/ArrowBtn", slot2), {
@@ -331,6 +332,7 @@ function slot0.updateTecItemList(slot0)
 
 					slot3 = uv1:findTF(slot0, uv1.rightContainer)
 					slot5 = uv1:findTF("ShipScrollView/Viewport/ShipContainer", slot3)
+					GetComponent(uv1.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv1.rightContainer, "VerticalLayoutGroup").padding.bottom + slot5.rect.height - GetComponent(slot3, "LayoutElement").preferredHeight
 					GetComponent(slot3, "LayoutElement").preferredHeight = slot5.rect.height
 
 					setLocalRotation(uv1:findTF("ClickBtn/ArrowBtn", slot3), {
@@ -352,10 +354,15 @@ function slot0.updateTecItemList(slot0)
 			setLocalRotation(uv0:findTF("ClickBtn/ArrowBtn", slot1), {
 				z = 0
 			})
+
+			GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom + slot15 - uv0.rowHeight
 		end
 	end
 
 	function slot0.rightLSC.onReturnItem(slot0, slot1)
+		if uv0.expanded[tostring(slot0)] and uv0.rowHeight < slot2 then
+			GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom - (slot2 - uv0.rowHeight)
+		end
 	end
 
 	if slot0.rightLSC.totalCount ~= 0 then

@@ -153,7 +153,7 @@ function slot0.OnInputChange(slot0, slot1)
 end
 
 function slot0.PlayStory(slot0, slot1, slot2)
-	pg.StoryMgr.GetInstance():Play(slot1, slot2)
+	pg.NewStoryMgr.GetInstance():Play(slot1, slot2)
 end
 
 function slot0.DisplayAwards(slot0, slot1, slot2)

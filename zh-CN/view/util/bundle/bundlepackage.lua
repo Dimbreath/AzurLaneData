@@ -70,7 +70,7 @@ function slot0.Remove(slot0, slot1)
 end
 
 function slot0.GetAmount(slot0)
-	return table.nums(slot0.items)
+	return table.getCount(slot0.items)
 end
 
 function slot0.Clear(slot0)

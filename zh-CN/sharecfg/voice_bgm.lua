@@ -89,5 +89,8 @@ pg.voice_bgm = {
 	},
 	BuildShipScene = {
 		bgm = "main"
+	},
+	AirForceOfDragonEmperyUI = {
+		bgm = "story-richang"
 	}
 }

@@ -112,6 +112,8 @@ function slot0.register(slot0)
 		-- Nothing
 	elseif slot9 == SYSTEM_REWARD_PERFORM then
 		-- Nothing
+	elseif slot9 == SYSTEM_AIRFIGHT then
+		-- Nothing
 	elseif slot9 == SYSTEM_HP_SHARE_ACT_BOSS or slot9 == SYSTEM_ACT_BOSS or slot9 == SYSTEM_BOSS_EXPERIMENT then
 		slot11 = slot0.contextData.actId
 
@@ -247,24 +249,24 @@ function slot0.register(slot0)
 end
 
 function slot0.showExtraChapterActSocre(slot0)
-	slot4 = getProxy(ChapterProxy):getActiveChapter()
+	slot5 = getProxy(ChapterProxy):getActiveChapter() and slot3:getMapById(slot4:getConfig("map"))
 
-	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK)) do
-		if slot9 and not slot9:isEnd() and slot9:getConfig("config_data")[1] == slot0.contextData.stageId and slot4 and Map.IsType(slot4:getConfig("map"), Map.ACT_EXTRA) then
-			slot14, slot15 = ActivityLevelConst.getExtraChapterSocre(slot11, math.floor(slot0.contextData.statistics._totalTime), ActivityLevelConst.getShipsPower(slot0.contextData.prefabFleet or slot0.contextData.oldMainShips), slot9)
-			slot16 = slot15 < slot14 and i18n("extra_chapter_record_updated") or i18n("extra_chapter_record_not_updated")
+	for slot9, slot10 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK)) do
+		if slot10 and not slot10:isEnd() and slot10:getConfig("config_data")[1] == slot0.contextData.stageId and slot5 and slot5:isActExtra() then
+			slot15, slot16 = ActivityLevelConst.getExtraChapterSocre(slot12, math.floor(slot0.contextData.statistics._totalTime), ActivityLevelConst.getShipsPower(slot0.contextData.prefabFleet or slot0.contextData.oldMainShips), slot10)
+			slot17 = slot16 < slot15 and i18n("extra_chapter_record_updated") or i18n("extra_chapter_record_not_updated")
 
-			if slot15 < slot14 then
-				slot9.data1 = slot14
+			if slot16 < slot15 then
+				slot10.data1 = slot15
 
-				slot1:updateActivity(slot9)
+				slot1:updateActivity(slot10)
 
-				slot15 = slot14
+				slot16 = slot15
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("extra_chapter_socre_tip", slot14, slot15, slot16),
+				content = i18n("extra_chapter_socre_tip", slot15, slot16, slot17),
 				weight = LayerWeightConst.SECOND_LAYER
 			})
 		end
@@ -292,7 +294,8 @@ function slot0.GetResultView(slot0)
 		[SYSTEM_HP_SHARE_ACT_BOSS] = BattleContributionResultLayer,
 		[SYSTEM_BOSS_EXPERIMENT] = BattleExperimentResultLayer,
 		[SYSTEM_ACT_BOSS] = BattleActivityBossResultLayer,
-		[SYSTEM_REWARD_PERFORM] = BattleRewardPerformResultLayer
+		[SYSTEM_REWARD_PERFORM] = BattleRewardPerformResultLayer,
+		[SYSTEM_AIRFIGHT] = BattleAirFightResultLayer
 	}
 
 	return uv0.RESULT_VIEW_TRANSFORM[slot0] or BattleResultLayer

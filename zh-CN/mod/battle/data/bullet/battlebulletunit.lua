@@ -54,24 +54,28 @@ function slot10(slot0)
 		return
 	end
 
-	slot2 = slot1:GetCLDCenterPosition() - slot0:GetPosition()
-
-	slot2:SetNormalize()
-
-	slot4 = Vector3.Dot(Vector3.Normalize(slot0._speed), slot2)
-	slot5, slot6 = nil
-	slot9 = slot0:GetSpeedRatio()
-
-	if slot2.x * slot2.z > 0 then
-		slot5 = math.cos(slot0._negativeCosAngularSpeed * slot9)
-		slot6 = math.sin(slot0._negativeSinAngularSpeed * slot9)
-	else
-		slot5 = math.cos(slot0._cosAngularSpeed * slot9)
-		slot6 = math.sin(slot0._sinAngularSpeed * slot9)
+	if not slot1:GetBeenAimedPosition() then
+		return
 	end
 
-	if slot4 < uv1.TRACKER_ANGLE then
-		slot0._speed:Set(slot0._speed.x * slot5 + slot0._speed.z * slot6, 0, slot0._speed.z * slot5 - slot0._speed.x * slot6)
+	slot3 = slot2 - slot0:GetPosition()
+
+	slot3:SetNormalize()
+
+	slot5 = Vector3.Dot(Vector3.Normalize(slot0._speed), slot3)
+	slot6, slot7 = nil
+	slot10 = slot0:GetSpeedRatio()
+
+	if slot3.x * slot3.z > 0 then
+		slot6 = math.cos(slot0._negativeCosAngularSpeed * slot10)
+		slot7 = math.sin(slot0._negativeSinAngularSpeed * slot10)
+	else
+		slot6 = math.cos(slot0._cosAngularSpeed * slot10)
+		slot7 = math.sin(slot0._sinAngularSpeed * slot10)
+	end
+
+	if slot5 < uv1.TRACKER_ANGLE then
+		slot0._speed:Set(slot0._speed.x * slot6 + slot0._speed.z * slot7, 0, slot0._speed.z * slot6 - slot0._speed.x * slot7)
 	end
 end
 

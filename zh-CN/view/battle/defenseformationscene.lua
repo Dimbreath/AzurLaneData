@@ -619,7 +619,7 @@ function slot0.getCardAttrProps(slot0, slot1)
 		},
 		{
 			i18n("word_synthesize_power"),
-			"<color=#ffff00>" .. math.floor(slot1:getShipCombatPower()) .. "</color>"
+			"<color=#ffff00>" .. slot1:getShipCombatPower() .. "</color>"
 		}
 	}
 end

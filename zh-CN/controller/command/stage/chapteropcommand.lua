@@ -101,7 +101,7 @@ function slot0.execute(slot0, slot1)
 
 						slot4 = pg.TimeMgr.GetInstance()
 
-						if uv1.win and Map.IsType(slot3:getConfig("map"), Map.ELITE) and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
+						if uv1.win and slot2:getMapById(slot3:getConfig("map")):getMapType() == Map.ELITE and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
 							getProxy(DailyLevelProxy):EliteCountPlus()
 						end
 
@@ -206,7 +206,7 @@ function slot0.PrepareChapterRetreat(slot0)
 						return
 					end
 
-					if uv1[slot0] and type(slot3) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot3) then
+					if uv1[slot0] and type(slot3) == "number" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot3) then
 						pg.m02:sendNotification(GAME.STORY_UPDATE, {
 							storyId = slot3
 						})
@@ -216,7 +216,7 @@ function slot0.PrepareChapterRetreat(slot0)
 							exitCallback = slot2
 						})
 					elseif slot3 and type(slot3) == "string" then
-						pg.StoryMgr.GetInstance():Play(slot3, slot2)
+						pg.NewStoryMgr.GetInstance():Play(slot3, slot2)
 					else
 						slot2()
 					end

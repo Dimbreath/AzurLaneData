@@ -927,8 +927,8 @@ function slot0.updateModPanel(slot0)
 		end, SFX_PANEL)
 		slot0:updateFittingPanel()
 
-		if not pg.StoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
-			pg.StoryMgr.GetInstance():Play(slot9, function ()
+		if not pg.NewStoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
+			pg.NewStoryMgr.GetInstance():Play(slot9, function ()
 				uv0:buildStartAni("fateStartWindow", function ()
 					uv0(true)
 				end)
@@ -1952,7 +1952,7 @@ function slot0.showFittingMsgPanel(slot0, slot1)
 end
 
 function slot0.checkStory(slot0)
-	slot0.storyMgr = slot0.storyMgr or pg.StoryMgr.GetInstance()
+	slot0.storyMgr = slot0.storyMgr or pg.NewStoryMgr.GetInstance()
 
 	if ({
 		nil,

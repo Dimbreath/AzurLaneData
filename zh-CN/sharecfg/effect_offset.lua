@@ -1088,5 +1088,60 @@ pg.effect_offset = {
 			3.5,
 			0
 		}
+	},
+	plane_shadow = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-4,
+			0
+		}
+	},
+	plane_yinzhang_single = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			-0.2,
+			0,
+			0
+		}
+	},
+	plane_yinzhang_double = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	plane_yinzhang_single_xiaolong = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			-0.32,
+			0.05,
+			0
+		}
+	},
+	plane_miaozhun = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0.3,
+			0
+		}
 	}
 }

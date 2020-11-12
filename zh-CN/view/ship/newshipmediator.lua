@@ -70,7 +70,8 @@ function slot0.handleNotification(slot0, slot1)
 			viewComponent = ShipEvaluationLayer,
 			data = {
 				groupId = slot3,
-				showTrans = slot0.showTrans
+				showTrans = slot0.showTrans,
+				LayerWeightMgr_weight = slot0.viewComponent:getWeightFromData()
 			}
 		}))
 	end

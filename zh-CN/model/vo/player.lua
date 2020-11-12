@@ -74,14 +74,6 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end
 
-	if not uv1 then
-		uv1 = pg.StoryMgr.GetInstance():GetStoryByName("index")
-	end
-
-	if not uv2 then
-		uv2 = pg.StoryMgr.GetInstance():GetStoryByName("index_again")
-	end
-
 	slot0.id = slot1.id
 	slot0.name = slot1.name
 	slot0.level = slot1.level or slot1.lv
@@ -159,49 +151,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.chargeExp = slot1.acc_pay_lv or 0
 	slot0.mingshiflag = 0
 	slot0.mingshiCount = 0
-	slot0.stories = {}
-	slot0.storiesAgain = {}
-
-	if slot1.story_list then
-		for slot6, slot7 in pairs(slot1.story_list) do
-			if slot7 == 20008 then
-				slot7 = 1131
-			end
-
-			if slot7 == 20009 then
-				slot7 = 1132
-			end
-
-			if slot7 == 20010 then
-				slot7 = 1133
-			end
-
-			if slot7 == 20011 then
-				slot7 = 1134
-			end
-
-			if slot7 == 20012 then
-				slot7 = 1135
-			end
-
-			if slot7 == 20013 then
-				slot7 = 1136
-			end
-
-			if slot7 == 20014 then
-				slot7 = 1137
-			end
-
-			if uv1[slot7] then
-				slot0.stories[slot7] = uv1[slot7]
-			end
-
-			if uv2[slot7] then
-				slot0.storiesAgain[slot7] = uv2[slot7]
-			end
-		end
-	end
-
 	slot0.maxGold = pg.gameset.max_gold.key_value
 	slot0.maxOil = pg.gameset.max_oil.key_value
 	slot0.chatMsgBanTime = slot1.chat_msg_ban_time or 0
@@ -311,46 +260,6 @@ end
 
 function slot0.setGuildWaitTime(slot0, slot1)
 	slot0.guildWaitTime = slot1
-end
-
-function slot0.addStory(slot0, slot1)
-	slot0.stories[slot1] = uv0[slot1]
-end
-
-function slot0.getStoryIndexID(slot0, slot1)
-	for slot5, slot6 in pairs(uv0) do
-		if slot6 == slot1 then
-			return slot5
-		end
-	end
-
-	return 0
-end
-
-function slot0.getStoryByIndexID(slot0, slot1)
-	return uv0[slot1]
-end
-
-function slot0.addStoryAgain(slot0, slot1)
-	slot0.storiesAgain[slot1] = uv0[slot1]
-end
-
-function slot0.getStoryIndexAgainID(slot0, slot1)
-	for slot5, slot6 in pairs(uv0) do
-		if slot6 == slot1 then
-			return slot5
-		end
-	end
-
-	return 0
-end
-
-function slot0.IsPlayed(slot0, slot1, slot2)
-	return (table.contains(slot0.stories, slot1) or slot0.stories[slot1]) and (slot2 or slot0:IsPlayedAgain(slot1))
-end
-
-function slot0.IsPlayedAgain(slot0, slot1)
-	return slot0:getStoryIndexAgainID(slot1) <= 0 or table.contains(slot0.storiesAgain, slot1) or slot0.storiesAgain[slot1]
 end
 
 function slot0.getChargeLevel(slot0)

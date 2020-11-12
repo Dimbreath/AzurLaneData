@@ -32,7 +32,7 @@ function slot4.doBehaviour(slot0)
 		slot5 = Clone(slot0._content)
 
 		if slot0._route[slot0._targetIndex] then
-			table.merge2dest(slot5, slot1)
+			table.merge(slot5, slot1)
 		end
 
 		slot8 = nil

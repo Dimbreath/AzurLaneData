@@ -42,6 +42,14 @@ function slot0.each(slot0, slot1)
 	end
 end
 
+function slot0.eachActive(slot0, slot1)
+	for slot5 = 0, slot0.container.childCount - 1 do
+		if isActive(slot0.container:GetChild(slot5)) then
+			slot1(slot5, slot6)
+		end
+	end
+end
+
 function slot0.StaticAlign(slot0, slot1, slot2, slot3)
 	for slot8 = slot2, slot0.childCount - 1 do
 		setActive(slot0:GetChild(slot8), false)

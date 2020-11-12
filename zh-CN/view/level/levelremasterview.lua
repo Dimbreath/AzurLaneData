@@ -60,7 +60,7 @@ function slot0.flush(slot0, slot1)
 				onButton(uv0, slot6, function ()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_do_not_open"))
 				end, SFX_PANEL)
-			elseif uv1:GetServerTime() < uv1:parseTimeFromConfig(slot3.time[2], true) or uv1:parseTimeFromConfig(slot3.time[3], true) < uv1:GetServerTime() then
+			elseif not uv1:inTime(slot3.time) then
 				setActive(slot5, true)
 				onButton(uv0, slot5, function ()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_do_not_open"))
@@ -71,7 +71,7 @@ function slot0.flush(slot0, slot1)
 
 				slot7 = pg.memory_group[slot3.memory_group]
 				slot8 = #_.filter(slot7.memories, function (slot0)
-					return pg.StoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0].story, true)
+					return pg.NewStoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0].story, true)
 				end) / #slot7.memories
 
 				setSlider(slot4:Find("progress"), 0, 1, slot8)

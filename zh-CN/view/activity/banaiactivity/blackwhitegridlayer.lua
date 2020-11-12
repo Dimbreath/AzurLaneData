@@ -932,10 +932,6 @@ function slot0.setActivity(slot0, slot1)
 	slot0:updateFur()
 end
 
-function slot0.setMaps(slot0, slot1)
-	slot0.mapVOs = slot1
-end
-
 function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 end
@@ -1034,9 +1030,8 @@ end
 
 function slot0.isUnlock(slot0, slot1)
 	slot2 = slot1.unlock[1]
-	slot3 = slot1.unlock[2]
 
-	return slot0.mapVOs[pg.chapter_template[slot3].map]:getChapter(slot3) and slot6:isUnlock() and slot6:isAllAchieve() and (slot2 == 0 or table.contains(slot0.passIds, slot2))
+	return getProxy(ChapterProxy):getChapterById(slot1.unlock[2]) and slot4:isUnlock() and slot4:isAllAchieve() and (slot2 == 0 or table.contains(slot0.passIds, slot2))
 end
 
 function slot0.GetLastestUnlockMap(slot0)
@@ -1146,8 +1141,8 @@ function slot0.loadMap(slot0, slot1)
 end
 
 function slot0.playStory(slot0, slot1)
-	if uv0[slot0.mapView.map.id].story and slot2 ~= "" and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
-		pg.StoryMgr.GetInstance():Play(slot2, slot1, true, true)
+	if uv0[slot0.mapView.map.id].story and slot2 ~= "" then
+		pg.NewStoryMgr.GetInstance():Play(slot2, slot1, true, true)
 	else
 		slot1()
 	end

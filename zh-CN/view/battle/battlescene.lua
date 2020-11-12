@@ -422,7 +422,7 @@ function slot0.initPauseWindow(slot0)
 				slot3 = 0 + slot8:getShipCombatPower()
 			end
 
-			setText(slot1:Find("power/value"), math.floor(slot3))
+			setText(slot1:Find("power/value"), slot3)
 		end
 	end
 
@@ -490,6 +490,10 @@ function slot0.updatePauseWindow(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.pauseWindow)
 
 	function slot1(slot0, slot1, slot2)
+		if not slot0 then
+			return
+		end
+
 		slot3 = 1
 
 		for slot7 = 1, #slot0 do

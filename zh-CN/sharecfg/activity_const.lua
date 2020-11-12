@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 567
+		act_id = 766
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -635,6 +635,9 @@ pg.activity_const = {
 	},
 	MUSIC_FESTIVAL_ID_2 = {
 		act_id = 762
+	},
+	HMS_Hunter_PT_ID = {
+		act_id = 769
 	},
 	SUMMER_REMAKE = {
 		act_id = 20248

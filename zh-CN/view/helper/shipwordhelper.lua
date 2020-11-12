@@ -28,21 +28,18 @@ slot0.CVBattleKey = {
 	warcry = "warcry",
 	mvp = "mvp"
 }
+slot6 = false
 
-function slot6(...)
-	if Application.isEditor then
+function slot7(...)
+	if uv0 and Application.isEditor then
 		print(...)
 	end
 end
 
-function slot7(slot0)
+function slot8(slot0)
 	if not slot0 or slot0 == "" or slot0 == "nil" then
 		return true
 	end
-end
-
-function slot8(slot0)
-	return uv0[slot0] ~= nil
 end
 
 function slot9(slot0)
@@ -50,10 +47,14 @@ function slot9(slot0)
 end
 
 function slot10(slot0)
+	return uv0[slot0] ~= nil
+end
+
+function slot11(slot0)
 	return ShipGroup.getDefaultSkin(uv0[slot0].ship_group).id
 end
 
-function slot11(slot0, slot1)
+function slot12(slot0, slot1)
 	if type(slot0 or "") == "table" then
 		return slot0
 	else
@@ -64,7 +65,7 @@ function slot11(slot0, slot1)
 	end
 end
 
-function slot12(slot0, slot1, slot2, slot3)
+function slot13(slot0, slot1, slot2, slot3)
 	slot5 = uv1(slot0) and slot0 or uv0(slot0)
 	slot6 = uv2[slot5]
 
@@ -87,7 +88,7 @@ function slot12(slot0, slot1, slot2, slot3)
 	return slot6
 end
 
-function slot13(slot0, slot1, slot2)
+function slot14(slot0, slot1, slot2)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot0) do
@@ -105,7 +106,7 @@ function slot13(slot0, slot1, slot2)
 	end
 end
 
-function slot14(slot0, slot1, slot2, slot3, slot4)
+function slot15(slot0, slot1, slot2, slot3, slot4)
 	if not uv2[uv1(slot0) and slot0 or uv0(slot0)] then
 		return nil
 	end
@@ -123,11 +124,11 @@ function slot14(slot0, slot1, slot2, slot3, slot4)
 	return uv4(slot8, slot3, slot2)
 end
 
-function slot15(slot0)
+function slot16(slot0)
 	return PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. uv0[slot0].ship_group)
 end
 
-function slot16(slot0, slot1, slot2)
+function slot17(slot0, slot1, slot2)
 	if slot2 then
 		slot3 = "event:/cv/" .. slot1 .. "/" .. slot0 .. "_" .. slot2
 	end
@@ -135,7 +136,7 @@ function slot16(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot17(slot0, slot1)
+function slot18(slot0, slot1)
 	if not uv0[slot1] then
 		return -1
 	end
@@ -151,7 +152,7 @@ function slot17(slot0, slot1)
 	return rst
 end
 
-function slot18(slot0, slot1, slot2, slot3, slot4)
+function slot19(slot0, slot1, slot2, slot3, slot4)
 	if slot0 then
 		slot5, slot6 = nil
 		slot8 = uv0(slot1) == 2 and slot0.voice_key_2 or slot0.voice_key
@@ -175,11 +176,11 @@ function slot18(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot19(slot0, slot1, slot2)
+function slot20(slot0, slot1, slot2)
 	return uv0.ExistDifferentWord(slot0, slot1, slot2) and uv1[slot0].voice_key == uv0.CV_KEY_BAN_NEW
 end
 
-function slot20(slot0, slot1)
+function slot21(slot0, slot1)
 	slot1 = slot1 or -1
 
 	if not uv0[slot0] or not slot2.main_extra or slot2.main_extra == "" or type(slot2.main_extra) == "table" and #slot2.main_extra == 0 then

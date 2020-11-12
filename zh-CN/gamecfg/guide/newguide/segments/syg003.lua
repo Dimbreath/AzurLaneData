@@ -13,6 +13,12 @@ return {
 			ui = {
 				pathIndex = -1,
 				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/combatBtn",
+				onClick = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+						mapIdx = 1,
+						noRecord = true
+					})
+				end,
 				triggerType = {
 					1
 				},

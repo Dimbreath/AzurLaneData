@@ -777,7 +777,7 @@ function slot0.initMemoryPanel(slot0)
 		slot4 = _.flatten(slot2:getConfig("config_data"))
 
 		if getProxy(TaskProxy):getTaskById(slot4[#slot4]) and not slot7:isFinish() then
-			pg.StoryMgr.GetInstance():Play("HOSHO8", function ()
+			pg.NewStoryMgr.GetInstance():Play("HOSHO8", function ()
 				uv0:emit(CollectionScene.ACTIVITY_OP, {
 					cmd = 2,
 					activity_id = uv1.id
@@ -800,7 +800,7 @@ function slot0.onInitMemory(slot0, slot1)
 		if uv0.info then
 			if uv0.isGroup then
 				uv1:showSubMemories(uv0.info)
-			elseif uv0.info.is_open == 1 or pg.StoryMgr.GetInstance():IsPlayed(uv0.info.story, true) then
+			elseif uv0.info.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(uv0.info.story, true) then
 				uv1:playMemory(uv0.info)
 			end
 		end
@@ -862,24 +862,14 @@ function slot0.playMemory(slot0, slot1)
 		end
 
 		setActive(slot0.memoryMask, true)
-		pg.StoryMgr.GetInstance():Play(slot1.story, function ()
+		pg.NewStoryMgr.GetInstance():Play(slot1.story, function ()
 			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then
-		slot3 = 0
-
-		for slot7, slot8 in pairs(pg.StoryMgr.GetInstance():GetStoryByName("index")) do
-			if slot1.story == slot8 then
-				slot3 = slot7
-
-				break
-			end
-		end
-
 		slot0:emit(uv0.BEGIN_STAGE, {
 			memory = true,
 			system = SYSTEM_PERFORM,
-			stageId = slot3
+			stageId = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot1.story)
 		})
 	end
 end

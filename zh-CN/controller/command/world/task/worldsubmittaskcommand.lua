@@ -72,7 +72,7 @@ function slot0.execute(slot0, slot1)
 
 			coroutine.wrap(function ()
 				if #uv0.config.task_ed > 0 then
-					pg.StoryMgr.GetInstance():Play(uv0.config.task_ed, uv1, true)
+					pg.NewStoryMgr.GetInstance():Play(uv0.config.task_ed, uv1, true)
 					coroutine.yield()
 				end
 

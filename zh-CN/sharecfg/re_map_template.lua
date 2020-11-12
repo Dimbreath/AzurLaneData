@@ -378,6 +378,46 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[10] = {
+		bg = "temp_guangrong",
+		name = "光荣的一战常驻复刻",
+		memory_group = 109,
+		id = 10,
+		activity_type = 2,
+		order = 10,
+		config_data = {
+			2200021,
+			2200022,
+			2200023
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -386,6 +426,7 @@ pg.re_map_template = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

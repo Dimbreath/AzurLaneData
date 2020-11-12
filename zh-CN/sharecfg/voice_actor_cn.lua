@@ -991,5 +991,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "高桥春香",
 		code = 248
+	},
+	{
+		actor_name = "汐见雪菜",
+		code = 249
 	}
 }

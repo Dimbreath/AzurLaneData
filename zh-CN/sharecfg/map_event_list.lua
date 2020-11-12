@@ -1104,6 +1104,46 @@ pg.map_event_list = {
 		event_list_loop = {},
 		help_pictures = {}
 	},
+	[1440001] = {
+		help_open = 1,
+		chapter_id = 1440001,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/coastalgun_1",
+			"helpbg/coastalgun_2"
+		}
+	},
+	[1440002] = {
+		help_open = 0,
+		chapter_id = 1440002,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/coastalgun_1",
+			"helpbg/coastalgun_2"
+		}
+	},
+	[1440003] = {
+		help_open = 0,
+		chapter_id = 1440003,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/coastalgun_1",
+			"helpbg/coastalgun_2"
+		}
+	},
+	[1440004] = {
+		help_open = 0,
+		chapter_id = 1440004,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/coastalgun_1",
+			"helpbg/coastalgun_2"
+		}
+	},
 	all = {
 		1160001,
 		1160002,
@@ -1165,6 +1205,10 @@ pg.map_event_list = {
 		1430003,
 		1430004,
 		1430005,
-		1430041
+		1430041,
+		1440001,
+		1440002,
+		1440003,
+		1440004
 	}
 }

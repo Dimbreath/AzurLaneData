@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 			nexts = {}
 		}
 
-		table.merge2dest(slot7, slot6)
+		table.merge(slot7, slot6)
 
 		slot0.points[slot5] = setmetatable(slot7, Vector2)
 	end

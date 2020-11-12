@@ -102,18 +102,15 @@ function slot0.register(slot0)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)
 		uv0.contextData.form = PreCombatLayer.FORM_EDIT
 		uv0.contextData.fleetID = slot2.id
-		slot4 = {}
 
 		FormationMediator.saveEdit()
 
 		slot5 = uv1 == SYSTEM_DUEL
 
 		if slot2.id == FleetProxy.PVP_FLEET_ID then
-			for slot10, slot11 in pairs(getProxy(BayProxy):getRawData()) do
-				if slot11:isActivityNpc() then
-					table.insert(slot4, slot11.id)
-				end
-			end
+			slot4 = table.mergeArray({}, pg.ShipFlagMgr.GetInstance():FilterShips({
+				isActivityNpc = true
+			}))
 		end
 
 		slot6 = slot5 and ShipStatus.TAG_HIDE_PVP or ShipStatus.TAG_HIDE_NORMAL

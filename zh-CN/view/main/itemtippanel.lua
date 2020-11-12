@@ -155,14 +155,15 @@ function slot0.OnRefresh(slot0, slot1)
 
 						return
 					elseif uv1 == SCENE.LEVEL then
-						if uv2 and uv2.leastChapterId then
-							if getProxy(ChapterProxy):getMaps()[slot1:getChapterById(uv2.leastChapterId):getConfig("map")] then
-								if not slot6:getChapter(slot4):isUnlock() or slot6:getMapType() == Map.ELITE and not slot6:isEliteEnabled() or getProxy(PlayerProxy):getRawData().level < slot7:getConfig("unlocklevel") then
-									pg.TipsMgr.GetInstance():ShowTips(i18n("target_chapter_is_lock"))
+						slot1 = getProxy(ChapterProxy)
+						slot2 = getProxy(PlayerProxy):getRawData()
 
-									return
-								end
-							else
+						if uv2 and uv2.leastChapterId then
+							if not slot1:getMapById(slot1:getChapterById(uv2.leastChapterId):getConfig("map")) then
+								pg.TipsMgr.GetInstance():ShowTips(i18n("target_chapter_is_lock"))
+
+								return
+							elseif not slot4:isUnlock() or slot5:getMapType() == Map.ELITE and not slot5:isEliteEnabled() or slot2.level < slot4:getConfig("unlocklevel") then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("target_chapter_is_lock"))
 
 								return
@@ -176,12 +177,30 @@ function slot0.OnRefresh(slot0, slot1)
 						end
 
 						if uv2 and uv2.lastDigit then
-							for slot8, slot9 in pairs(slot3) do
-								if slot9:isUnlock() and (uv2.mapType ~= Map.ELITE or slot9:isEliteEnabled()) and (not uv2.mapType or slot9:getMapType() == uv2.mapType) and 0 < slot9.id then
+							slot3 = 0
+							slot4 = {}
+
+							if uv2.mapType then
+								slot4 = slot1:getMapsByType(uv2.mapType)
+							else
+								for slot8, slot9 in ipairs({
+									Map.SCENARIO,
+									Map.ELITE
+								}) do
+									slot13 = slot9
+
+									for slot13, slot14 in ipairs(slot1:getMapsByType(slot13)) do
+										table.insert(slot4, slot14)
+									end
+								end
+							end
+
+							for slot8, slot9 in ipairs(slot4) do
+								if slot9:isUnlock() and (uv2.mapType ~= Map.ELITE or slot9:isEliteEnabled()) and slot3 < slot9.id then
 									for slot13, slot14 in pairs(slot9.chapters) do
 										if math.fmod(slot13, 10) == uv2.lastDigit and slot14:isUnlock() and slot14:getConfig("unlocklevel") <= slot2.level then
 											slot0.chapterId = slot13
-											slot4 = slot9.id
+											slot3 = slot9.id
 											slot0.mapIdx = slot9.id
 
 											break
@@ -192,15 +211,15 @@ function slot0.OnRefresh(slot0, slot1)
 						end
 
 						if slot0.chapterId then
-							if slot3[slot1:getChapterById(slot0.chapterId):getConfig("map")] and slot6:getMapType() == Map.ELITE and not getProxy(DailyLevelProxy):IsEliteEnabled() then
+							if maps[slot1:getChapterById(slot0.chapterId):getConfig("map")] and slot5:getMapType() == Map.ELITE and not getProxy(DailyLevelProxy):IsEliteEnabled() then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
 
 								return
 							end
 
-							if slot6 and slot6:getChapter(slot4) and slot6:getChapter(slot4):isUnlock() then
-								if slot5.active then
-									slot0.mapIdx = slot5:getConfig("map")
+							if slot5 and slot5:getChapter(slot3) and slot5:getChapter(slot3):isUnlock() then
+								if slot4.active then
+									slot0.mapIdx = slot4:getConfig("map")
 								elseif slot1:getActiveChapter() then
 									pg.MsgboxMgr.GetInstance():ShowMsgBox({
 										content = i18n("collect_chapter_is_activation"),
@@ -213,8 +232,8 @@ function slot0.OnRefresh(slot0, slot1)
 
 									return
 								else
-									slot0.mapIdx = slot5:getConfig("map")
-									slot0.openChapterId = slot4
+									slot0.mapIdx = slot4:getConfig("map")
+									slot0.openChapterId = slot3
 								end
 							else
 								pg.TipsMgr.GetInstance():ShowTips(i18n("target_chapter_is_lock"))

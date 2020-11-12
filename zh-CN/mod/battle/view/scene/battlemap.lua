@@ -18,35 +18,35 @@ function slot1.Ctor(slot0, slot1)
 	slot2 = pg.map_data[slot1]
 
 	for slot6, slot7 in ipairs(uv0.LAYERS) do
-		slot8 = GameObject.New(slot7 .. "Layer")
+		setParent(GameObject.New(slot7 .. "Layer"), slot0._go, false)
 
-		setParent(slot8, slot0._go, false)
+		if slot7 ~= "sky" then
+			slot9 = GetOrAddComponent(slot8, "MapLayerCtrl")
+			slot9.leftBorder = slot2.range_left
+			slot9.rightBorder = slot2.range_right
+			slot9.speedToLeft = slot2[slot7 .. "_speed"] or 0
+			slot9.speedScaler = 1
 
-		slot9 = GetOrAddComponent(slot8, "MapLayerCtrl")
-		slot9.leftBorder = slot2.range_left
-		slot9.rightBorder = slot2.range_right
-		slot9.speedToLeft = slot2[slot7 .. "_speed"] or 0
-		slot9.speedScaler = 1
+			table.insert(slot0.mapLayerCtrls, slot9)
+		end
 
-		for slot16, slot17 in ipairs(slot0.GetMapResNames(slot1, slot7)) do
-			slot18 = uv1.Battle.BattleResourceManager.GetInstance():InstMap(slot17)
+		for slot15, slot16 in ipairs(slot0.GetMapResNames(slot1, slot7)) do
+			slot17 = uv1.Battle.BattleResourceManager.GetInstance():InstMap(slot16)
 
-			setParent(slot18, slot8, false)
+			setParent(slot17, slot8, false)
 
-			tf(slot18).localPosition = string2vector3(string.split(slot2[slot7 .. "_pos"], ";")[slot16])
-			tf(slot18).localScale = string2vector3(string.split(slot2[slot7 .. "_scale"], ";")[slot16])
+			tf(slot17).localPosition = string2vector3(string.split(slot2[slot7 .. "_pos"], ";")[slot15])
+			tf(slot17).localScale = string2vector3(string.split(slot2[slot7 .. "_scale"], ";")[slot15])
 
-			if slot18:GetComponent(typeof(MeshRenderer)) then
-				slot20 = slot19.sharedMaterial
+			if slot17:GetComponent(typeof(MeshRenderer)) then
+				slot19 = slot18.sharedMaterial
 
 				table.insert(slot0.materialList, {
-					material = slot20,
-					offset = slot20:GetTextureOffset("_SeaTex")
+					material = slot19,
+					offset = slot19:GetTextureOffset("_SeaTex")
 				})
 			end
 		end
-
-		table.insert(slot0.mapLayerCtrls, slot9)
 
 		if slot7 == "sea" then
 			slot0._buffer = slot8.transform:Find("gelidai(Clone)")

@@ -120,7 +120,7 @@ function slot0.HPRatioStatistics(slot0)
 end
 
 function slot0.BotPercentage(slot0, slot1)
-	slot0._statistics._botPercentage = math.min(100, math.floor(slot1 / (slot0._currentStageData.timeCount - slot0._countDown) * 100))
+	slot0._statistics._botPercentage = Mathf.Clamp(math.floor(slot1 / (slot0._currentStageData.timeCount - slot0._countDown) * 100), 0, 100)
 end
 
 function slot0.CalcBattleScoreWhenDead(slot0, slot1)
@@ -446,4 +446,38 @@ function slot0.CalcSubRoutineScore(slot0)
 	slot0._subRunStatistics.point = slot2
 	slot0._subRunStatistics.total = slot4
 	slot0._statistics.subRunResult = slot0._subRunStatistics
+end
+
+function slot0.AirFightInit(slot0)
+	slot0._statistics._airFightStatistics = {
+		kill = 0,
+		score = 0,
+		hit = 0,
+		lose = 0,
+		total = 0
+	}
+end
+
+function slot0.AddAirFightScore(slot0, slot1)
+	slot0._statistics._airFightStatistics.score = slot0._statistics._airFightStatistics.score + slot1
+	slot0._statistics._airFightStatistics.kill = slot0._statistics._airFightStatistics.kill + 1
+	slot0._statistics._airFightStatistics.total = math.max(slot0._statistics._airFightStatistics.score - slot0._statistics._airFightStatistics.lose, 0)
+
+	slot0:DispatchEvent(ys.Event.New(uv0.UPDATE_DODGEM_SCORE, {
+		totalScore = slot0._statistics._airFightStatistics.total
+	}))
+end
+
+function slot0.DecreaseAirFightScore(slot0, slot1)
+	slot0._statistics._airFightStatistics.lose = slot0._statistics._airFightStatistics.lose + slot1
+	slot0._statistics._airFightStatistics.hit = slot0._statistics._airFightStatistics.hit + 1
+	slot0._statistics._airFightStatistics.total = math.max(slot0._statistics._airFightStatistics.score - slot0._statistics._airFightStatistics.lose, 0)
+
+	slot0:DispatchEvent(ys.Event.New(uv0.UPDATE_DODGEM_SCORE, {
+		totalScore = slot0._statistics._airFightStatistics.total
+	}))
+end
+
+function slot0.CalcAirFightScore(slot0)
+	slot0._statistics._battleScore = uv0.BattleScore.S
 end

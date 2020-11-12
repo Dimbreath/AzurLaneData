@@ -22,6 +22,8 @@ function slot0.MyGetRuntimeData(slot0)
 			slot5 + 2
 		}) or 0
 	end
+
+	slot0:updatSelectview()
 end
 
 function slot0.MyStoreDataToServer(slot0)
@@ -107,6 +109,11 @@ end
 
 function slot0.didEnter(slot0)
 	slot1 = 0
+
+	LeanTween.delayedCall(go(slot0.selectview), 2, System.Action(function ()
+		uv0:MyGetRuntimeData()
+	end))
+
 	slot0.Getdata_timer = Timer.New(function ()
 		uv0 = uv0 + uv1.time_interval
 
@@ -476,6 +483,10 @@ function slot0.willExit(slot0)
 		pg.CriMgr.GetInstance():UnloadCueSheet("bgm-song" .. slot0.musicData.bgm)
 
 		slot0.criInfo = nil
+	end
+
+	if LeanTween.isTweening(go(slot0.selectview)) then
+		LeanTween.cancel(go(slot0.selectview))
 	end
 
 	if LeanTween.isTweening(go(slot0.BG)) then
@@ -1335,6 +1346,10 @@ function slot0.Firstshow(slot0, slot1, slot2, slot3)
 end
 
 function slot0.updatSelectview(slot0)
+	if not slot0.song_btns or #slot0.song_btns <= 0 or not slot0.selectview then
+		return
+	end
+
 	slot4 = "top/Speedlist/x" .. slot0.game_speed
 
 	setActive(slot0.selectview:Find(slot4), true)

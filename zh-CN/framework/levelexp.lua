@@ -40,12 +40,10 @@ end
 
 function getExpByRarityFromLv1(slot0, slot1)
 	if ShipRarity.SSR <= slot0 then
-		exp = getConfigFromLevel1(pg.ship_level, slot1).exp_ur
+		return getConfigFromLevel1(pg.ship_level, slot1).exp_ur
 	else
-		exp = slot2.exp
+		return slot2.exp
 	end
-
-	return exp
 end
 
 prepareLevelExpConfig(pg.user_level)

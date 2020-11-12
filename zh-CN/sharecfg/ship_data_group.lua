@@ -33,6 +33,16 @@ pg.ship_data_group = {
 				0
 			},
 			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
+			},
+			{
 				"每周任务",
 				{
 					""
@@ -69,6 +79,16 @@ pg.ship_data_group = {
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
 					}
 				},
 				0
@@ -5697,6 +5717,16 @@ pg.ship_data_group = {
 				"限时活动：凛冬王冠",
 				{
 					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -13980,6 +14010,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"荣誉勋章兑换（概率刷新）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14329,6 +14369,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"荣誉勋章兑换（概率刷新）",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0

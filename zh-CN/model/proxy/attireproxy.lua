@@ -165,6 +165,8 @@ function slot0.updateAttireFrame(slot0, slot1)
 end
 
 function slot0.addExpiredTimer(slot0, slot1)
+	slot0:removeExpiredTimer(slot1)
+
 	if not slot1:expiredType() then
 		return
 	end
@@ -205,7 +207,7 @@ function slot0.remove(slot0)
 		slot5:Stop()
 	end
 
-	slot0.timers = nil
+	slot0.timers = {}
 end
 
 function slot0.needTip(slot0)

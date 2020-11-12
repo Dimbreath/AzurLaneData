@@ -1445,7 +1445,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 6,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3053,7 +3053,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 10,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3077,7 +3077,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 9,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3101,7 +3101,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 8,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3125,7 +3125,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 7,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3149,7 +3149,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 10,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3173,7 +3173,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 9,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3197,7 +3197,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 8,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3221,7 +3221,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 7,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3245,7 +3245,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 10,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3269,7 +3269,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 9,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3293,7 +3293,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 8,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3317,7 +3317,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 7,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3341,7 +3341,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 10,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3365,7 +3365,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 9,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3389,7 +3389,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 8,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3413,7 +3413,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 7,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3437,7 +3437,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 3,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3461,7 +3461,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 3,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3478,14 +3478,14 @@ pg.shop_template = {
 	[43003] = {
 		group_type = 0,
 		resource_num = 3000,
-		desc = "3000功勋兑换试做型布里",
+		desc = "3000功勋兑换泛用型布里",
 		type = 4,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 2,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3502,14 +3502,14 @@ pg.shop_template = {
 	[43004] = {
 		group_type = 0,
 		resource_num = 15000,
-		desc = "15000功勋兑换泛用型布里MKII",
+		desc = "15000功勋兑换试作型布里MKII",
 		type = 4,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 1,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3533,7 +3533,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 3,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3557,7 +3557,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 5,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3581,7 +3581,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 5,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -3593,6 +3593,30 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			301281
+		}
+	},
+	[43008] = {
+		group_type = 0,
+		resource_num = 4000,
+		desc = "4000功勋兑换格伦维尔",
+		type = 4,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 4,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3,
+		id = 43008,
+		genre = "arena_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201131
 		}
 	},
 	[50002] = {
@@ -9716,6 +9740,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60216] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60216,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -13384,9 +13462,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 99,
+		order = 2,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -13433,9 +13511,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 99,
+		order = 3,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -26042,7 +26120,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 10,
+		order = 2,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -26058,8 +26136,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					6,
-					3
+					11,
+					12
 				},
 				{
 					0,
@@ -26070,8 +26148,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					6,
-					17
+					11,
+					25
 				},
 				{
 					23,
@@ -26238,7 +26316,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 10,
+		order = 2,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -26254,8 +26332,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					6,
-					3
+					11,
+					12
 				},
 				{
 					0,
@@ -26266,8 +26344,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					6,
-					17
+					11,
+					25
 				},
 				{
 					23,
@@ -31810,6 +31888,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70444] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤:Z2私服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70444,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			401021
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -34295,6 +34422,7 @@ pg.shop_template = {
 		43005,
 		43006,
 		43007,
+		43008,
 		50002,
 		50003,
 		50004,
@@ -34422,6 +34550,7 @@ pg.shop_template = {
 		60213,
 		60214,
 		60215,
+		60216,
 		61001,
 		61002,
 		61003,
@@ -34863,6 +34992,7 @@ pg.shop_template = {
 		70441,
 		70442,
 		70443,
+		70444,
 		90001,
 		90002,
 		90003,

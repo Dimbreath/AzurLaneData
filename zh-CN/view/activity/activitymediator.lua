@@ -22,6 +22,7 @@ slot0.SHOW_AWARD_WINDOW = "event show award window"
 slot0.GO_DODGEM = "event go dodgem"
 slot0.GO_SUBMARINE_RUN = "event go sumbarine run"
 slot0.ON_SIMULATION_COMBAT = "event perform combat"
+slot0.ON_AIRFIGHT_COMBAT = "event perform airfight combat"
 slot0.SPECIAL_BATTLE_OPERA = "special battle opera"
 slot0.GO_PRAY_POOL = "go pray pool"
 slot0.SELECT_ACTIVITY = "event select activity"
@@ -75,6 +76,13 @@ function slot0.register(slot0)
 			exitCallback = slot2
 		})
 	end)
+	slot0:bind(uv0.ON_AIRFIGHT_COMBAT, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.BEGIN_STAGE, {
+			system = SYSTEM_AIRFIGHT,
+			stageId = slot1.stageId,
+			exitCallback = slot2
+		})
+	end)
 	slot0:bind(uv0.RETURN_AWARD_OP, function (slot0, slot1)
 		if slot1.cmd == ActivityConst.RETURN_AWARD_OP_SHOW_AWARD_OVERVIEW then
 			uv0.viewComponent:ShowWindow(ReturnerAwardWindow, slot1.arg1)
@@ -111,13 +119,9 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.EVENT_GO_SCENE, function (slot0, slot1, slot2)
 		if slot1 == SCENE.SUMMER_FEAST then
-			if not pg.StoryMgr:IsPlayed("TIANHOUYUYI1") then
-				pg.StoryMgr.GetInstance():Play("TIANHOUYUYI1", function ()
-					uv0:sendNotification(GAME.GO_SCENE, SCENE.SUMMER_FEAST)
-				end, true)
-			else
+			pg.NewStoryMgr.GetInstance():Play("TIANHOUYUYI1", function ()
 				uv0:sendNotification(GAME.GO_SCENE, SCENE.SUMMER_FEAST)
-			end
+			end)
 		else
 			uv0:sendNotification(GAME.GO_SCENE, slot1, slot2)
 		end
@@ -163,35 +167,31 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.BATTLE_OPERA, function ()
-		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
+		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
+		if not slot1 or not slot0:getMapById(slot1):isUnlock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-			return
+		else
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot2,
+				mapIdx = slot1
+			})
 		end
-
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot1,
-			mapIdx = slot0
-		})
 	end)
 	slot0:bind(uv0.SPECIAL_BATTLE_OPERA, function ()
-		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
+		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
+		if not slot1 or not slot0:getMapById(slot1):isUnlock() then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 				chapterId = getProxy(ChapterProxy):getActiveChapter() and slot4.id,
 				mapIdx = slot4 and slot4:getConfig("map")
 			})
-
-			return
+		else
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot2,
+				mapIdx = slot1
+			})
 		end
-
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot1,
-			mapIdx = slot0
-		})
 	end)
 	slot0:bind(uv0.REQUEST_VOTE_INFO, function (slot0, slot1)
 		uv0:sendNotification(GAME.REQUEST_VOTE_INFO, slot1)

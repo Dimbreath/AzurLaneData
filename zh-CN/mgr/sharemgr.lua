@@ -67,7 +67,7 @@ function slot1.Init(slot0)
 	slot0.cacheMoveComps = {}
 end
 
-function slot1.Share(slot0, slot1, slot2)
+function slot1.Share(slot0, slot1, slot2, slot3)
 	if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US and PLATFORM_CODE ~= PLATFORM_KR and (not WBManager.IsSupportShare() or uv0.SdkMgr.GetInstance():GetChannelUID() == "yun") then
 		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
 
@@ -87,39 +87,39 @@ function slot1.Share(slot0, slot1, slot2)
 	setActive(slot0.panelBlack, slot2 == uv1.PANEL_TYPE_BLACK)
 	setActive(slot0.panelPink, slot2 == uv1.PANEL_TYPE_PINK)
 
-	slot3 = uv0.share_template[slot1]
-	slot4 = getProxy(PlayerProxy):getRawData()
-	slot6 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot5.server or 0]
-	slot9 = slot0.deckTF
-	slot10 = slot0.ANCHORS_TYPE[slot3.deck] or {
+	slot4 = uv0.share_template[slot1]
+	slot5 = getProxy(PlayerProxy):getRawData()
+	slot7 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0]
+	slot10 = slot0.deckTF
+	slot11 = slot0.ANCHORS_TYPE[slot4.deck] or {
 		0.5,
 		0.5,
 		0.5,
 		0.5
 	}
-	slot9.anchorMin = Vector2(slot10[1], slot10[2])
-	slot9.anchorMax = Vector2(slot10[3], slot10[4])
+	slot10.anchorMin = Vector2(slot11[1], slot11[2])
+	slot10.anchorMax = Vector2(slot11[3], slot11[4])
 
-	setText(slot9:Find("name/value"), slot4 and slot4.name or "")
-	setText(slot9:Find("server/value"), slot6 and slot6.name or "")
-	setText(slot9:Find("lv/value"), slot4.level)
+	setText(slot10:Find("name/value"), slot5 and slot5.name or "")
+	setText(slot10:Find("server/value"), slot7 and slot7.name or "")
+	setText(slot10:Find("lv/value"), slot5.level)
 
-	slot9.anchoredPosition3D = Vector3(slot3.qrcode_location[1], slot3.qrcode_location[2], -100)
-	slot9.anchoredPosition = Vector2(slot3.qrcode_location[1], slot3.qrcode_location[2])
+	slot10.anchoredPosition3D = Vector3(slot4.qrcode_location[1], slot4.qrcode_location[2], -100)
+	slot10.anchoredPosition = Vector2(slot4.qrcode_location[1], slot4.qrcode_location[2])
 
-	_.each(slot3.hidden_comps, function (slot0)
+	_.each(slot4.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(uv0.cacheComps, slot1)
 			slot1:SetActive(false)
 		end
 	end)
-	_.each(slot3.show_comps, function (slot0)
+	_.each(slot4.show_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
 			table.insert(uv0.cacheShowComps, slot1)
 			slot1:SetActive(true)
 		end
 	end)
-	_.each(slot3.move_comps, function (slot0)
+	_.each(slot4.move_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0.path)) then
 			table.insert(uv0.cacheMoveComps, {
 				slot1,
@@ -132,25 +132,25 @@ function slot1.Share(slot0, slot1, slot2)
 			})
 		end
 	end)
-	SetParent(slot9, GameObject.Find(slot3.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
-	slot9:SetAsLastSibling()
+	SetParent(slot10, GameObject.Find(slot4.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
+	slot10:SetAsLastSibling()
 
-	slot13 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
+	slot14 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
 
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		uv0.SdkMgr.GetInstance():GameShare(slot3.description, slot13:EncodeToJPG(slot13:TakePhoto(slot11)))
+		uv0.SdkMgr.GetInstance():GameShare(slot4.description, slot14:EncodeToJPG(slot14:TakePhoto(slot12)))
 		uv0.UIMgr.GetInstance():LoadingOn()
 		onDelayTick(function ()
 			uv0.UIMgr.GetInstance():LoadingOff()
 		end, 2)
-	elseif slot13:Take(slot11, slot0.screenshot) then
+	elseif slot14:Take(slot12, slot0.screenshot) then
 		print("截图位置: " .. slot0.screenshot)
-		slot0:Show(slot3)
+		slot0:Show(slot4, slot3)
 	else
 		uv0.TipsMgr.GetInstance():ShowTips("截图失败")
 	end
 
-	SetParent(slot9, slot0.tr, false)
+	SetParent(slot10, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 		slot0:SetActive(true)
 	end)
@@ -173,10 +173,9 @@ function slot1.Share(slot0, slot1, slot2)
 	slot0.cacheMoveComps = {}
 end
 
-function slot1.Show(slot0, slot1)
+function slot1.Show(slot0, slot1, slot2)
 	slot0.go:SetActive(true)
-	uv0.UIMgr.GetInstance():BlurPanel(slot0.panel)
-	slot0.panel:SetAsLastSibling()
+	uv0.UIMgr.GetInstance():BlurPanel(slot0.panel, true, slot2)
 	uv0.DelegateInfo.New(slot0)
 	onButton(slot0, slot0.panel:Find("main/top/btnBack"), function ()
 		uv0.go:SetActive(false)
