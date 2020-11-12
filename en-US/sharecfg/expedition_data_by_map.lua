@@ -6942,6 +6942,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1420001] = {
+		map = 1420001,
+		name = "Sundered Blue|| ||CHAPTER SP||S.P. ",
+		bgm = "level",
+		type = 3,
+		on_activity = 30757,
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1360001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1430001] = {
 		map = 1430001,
 		name = "Universe in Unison|| ||CHAPTER EX||E.X.",
@@ -7782,6 +7824,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200020] = {
+		map = 2200020,
+		name = "Operation Juno|| ||CHAPTER SP||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 0,
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHUNUO1",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		ui_type = 1,
+		bg = "Map_1050000",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[9920001] = {
 		map = 9920001,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
@@ -8095,6 +8179,7 @@ pg.expedition_data_by_map = {
 		1410012,
 		1410020,
 		1410021,
+		1420001,
 		1430001,
 		1430002,
 		1430003,
@@ -8116,6 +8201,7 @@ pg.expedition_data_by_map = {
 		2100071,
 		2200000,
 		2200010,
+		2200020,
 		9920001,
 		9920002,
 		9920011,

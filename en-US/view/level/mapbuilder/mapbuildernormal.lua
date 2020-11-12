@@ -103,22 +103,19 @@ end
 
 function slot1.UpdateMapItems(slot0)
 	uv0.super.UpdateMapItems(slot0)
-
-	slot1 = slot0.contextData.map
-	slot2 = getProxy(ChapterProxy)
-
 	table.clear(slot0.chapterTFsById)
 
-	slot4 = {}
+	slot3 = {}
 
-	_.each(Chapter.bindConfigTable().all, function (slot0)
-		if uv0:getChapter(slot0) and slot1:getConfig("map") == uv0.id and (slot1:isUnlock() or slot1:activeAlways()) and slot1:isValid() and (not slot1:ifNeedHide() or uv1:GetJustClearChapters(slot1.id)) then
-			table.insert(uv2, slot1)
+	for slot7, slot8 in ipairs(slot0.data:getChapters()) do
+		if (slot8:isUnlock() or slot8:activeAlways()) and slot8:isValid() and (not slot8:ifNeedHide() or getProxy(ChapterProxy):GetJustClearChapters(slot8.id)) then
+			table.insert(slot3, slot8)
 		end
-	end)
+	end
+
 	slot0:StopMapItemTimers()
 
-	function slot9(slot0, slot1, slot2)
+	function slot8(slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
@@ -129,21 +126,21 @@ function slot1.UpdateMapItems(slot0)
 		end
 	end
 
-	UIItemList.StaticAlign(slot0.itemHolder, slot0.tpl, #slot4, slot9)
+	UIItemList.StaticAlign(slot0.itemHolder, slot0.tpl, #slot3, slot8)
 
-	slot5 = {}
+	slot4 = {}
 
-	for slot9, slot10 in pairs(slot4) do
-		slot11 = slot10:getConfigTable()
-		slot5[slot11.pos_x] = slot5[slot11.pos_x] or {}
-		slot12[slot11.pos_y] = slot5[slot11.pos_x][slot11.pos_y] or {}
+	for slot8, slot9 in pairs(slot3) do
+		slot10 = slot9:getConfigTable()
+		slot4[slot10.pos_x] = slot4[slot10.pos_x] or {}
+		slot11[slot10.pos_y] = slot4[slot10.pos_x][slot10.pos_y] or {}
 
-		table.insert(slot12[slot11.pos_y], slot10)
+		table.insert(slot11[slot10.pos_y], slot9)
 	end
 
-	for slot9, slot10 in pairs(slot5) do
-		for slot14, slot15 in pairs(slot10) do
-			slot16 = {}
+	for slot8, slot9 in pairs(slot4) do
+		for slot13, slot14 in pairs(slot9) do
+			slot15 = {}
 
 			seriesAsync({
 				function (slot0)
@@ -391,15 +388,7 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 			return
 		end
 
-		slot1 = nil
-
-		for slot5, slot6 in pairs(uv0.sceneParent.maps) do
-			if slot6:getActiveChapter() then
-				break
-			end
-		end
-
-		if slot1 and slot1 ~= uv1 then
+		if getProxy(ChapterProxy):getActiveChapter() and slot1.id ~= uv1.id then
 			uv0:InvokeParent("emit", LevelMediator2.ON_STRATEGYING_CHAPTER)
 
 			return
@@ -495,9 +484,9 @@ function slot1.PlayChapterItemAnimationBackward(slot0, slot1, slot2, slot3)
 end
 
 function slot1.UpdateChapterTF(slot0, slot1)
-	slot3 = slot0.data:getChapter(slot1)
+	if slot0.chapterTFsById[slot1] then
+		slot3 = getProxy(ChapterProxy):getChapterById(slot1)
 
-	if slot0.chapterTFsById[slot1] and slot3 then
 		slot0:UpdateMapItem(slot2, slot3)
 		slot0:PlayChapterItemAnimation(slot2, slot3)
 	end

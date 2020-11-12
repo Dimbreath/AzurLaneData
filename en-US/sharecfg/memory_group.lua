@@ -1611,6 +1611,24 @@ pg.memory_group = {
 			1382
 		}
 	},
+	[190] = {
+		title = "Sundered Blue ",
+		type = 2,
+		id = 190,
+		icon = "title_event",
+		memories = {
+			1386,
+			1387,
+			1388,
+			1389,
+			1390,
+			1391,
+			1392,
+			1393,
+			1394,
+			1395
+		}
+	},
 	[191] = {
 		title = "Universe in Unison ",
 		type = 2,
@@ -2476,6 +2494,7 @@ pg.memory_group = {
 		187,
 		188,
 		189,
+		190,
 		191,
 		501,
 		502,

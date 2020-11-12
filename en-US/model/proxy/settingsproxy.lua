@@ -20,6 +20,13 @@ function slot0.onRegister(slot0)
 	slot0.lastRequestVersionTime = nil
 end
 
+function slot0.Reset(slot0)
+	slot0:resetEquipSceneIndex()
+	slot0:resetActivityLayerIndex()
+
+	slot0.isStopBuildSpeedupReamind = false
+end
+
 function slot0.GetDockYardLockBtnFlag(slot0)
 	if not slot0.dockYardLockFlag then
 		slot0.dockYardLockFlag = PlayerPrefs.GetInt("DockYardLockFlag" .. getProxy(PlayerProxy):getRawData().id, 0) > 0

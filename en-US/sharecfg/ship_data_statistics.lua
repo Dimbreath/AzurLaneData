@@ -74,6 +74,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -189,6 +194,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -300,6 +310,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -421,6 +436,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -534,6 +554,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -655,6 +680,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -768,6 +798,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -889,6 +924,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -1002,6 +1042,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -1123,6 +1168,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -1236,6 +1286,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -1357,6 +1412,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -1470,6 +1530,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -1591,6 +1656,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -1708,6 +1778,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -1821,6 +1896,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -1944,6 +2024,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -2059,6 +2144,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -2182,6 +2272,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -2297,6 +2392,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -2418,6 +2518,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -2531,6 +2636,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -2652,6 +2762,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -2765,6 +2880,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -2886,6 +3006,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -2999,6 +3124,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -3120,6 +3250,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -3233,6 +3368,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -3354,6 +3494,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -3467,6 +3612,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -3588,6 +3738,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -3701,6 +3856,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -3824,6 +3984,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -3939,6 +4104,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -4062,6 +4232,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -4177,6 +4352,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -4300,6 +4480,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -4415,6 +4600,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -4538,6 +4728,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -4653,6 +4848,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -4776,6 +4976,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -4891,6 +5096,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -5014,6 +5224,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -5129,6 +5344,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -5252,6 +5472,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -5367,6 +5592,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -5490,6 +5720,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -5605,6 +5840,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -5728,6 +5968,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -5843,6 +6088,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -5966,6 +6216,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -6081,6 +6336,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -6204,6 +6464,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -6319,6 +6584,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -6442,6 +6712,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -6557,6 +6832,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -6678,6 +6958,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -6791,6 +7076,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -6912,6 +7202,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -7025,6 +7320,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -7146,6 +7446,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -7259,6 +7564,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -7380,6 +7690,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -7493,6 +7808,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -7614,6 +7934,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -7727,6 +8052,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -7848,6 +8178,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -7961,6 +8296,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -8082,6 +8422,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -8195,6 +8540,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -8316,6 +8666,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -8429,6 +8784,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -8550,6 +8910,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -8663,6 +9028,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -8784,6 +9154,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -8897,6 +9272,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -9018,6 +9398,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -9131,6 +9516,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -9252,6 +9642,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -9365,6 +9760,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -9488,6 +9888,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -9603,6 +10008,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -9726,6 +10136,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -9841,6 +10256,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -9964,6 +10384,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -10079,6 +10504,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -10202,6 +10632,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -10317,6 +10752,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -10440,6 +10880,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -10555,6 +11000,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -10678,6 +11128,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -10793,6 +11248,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -10916,6 +11376,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -11031,6 +11496,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -11154,6 +11624,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -11269,6 +11744,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -11392,6 +11872,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -11507,6 +11992,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -11630,6 +12120,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -11745,6 +12240,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -11868,6 +12368,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -11983,6 +12488,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -12106,6 +12616,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -12221,6 +12736,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -12342,6 +12862,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -12455,6 +12980,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -12576,6 +13106,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -12689,6 +13224,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -12810,6 +13350,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -12923,6 +13468,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -13044,6 +13594,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -13157,6 +13712,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -13280,6 +13840,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -13395,6 +13960,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -13518,6 +14088,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -13633,6 +14208,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -13756,6 +14336,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -13871,6 +14456,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -13994,6 +14584,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -14109,6 +14704,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -14230,6 +14830,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -14343,6 +14948,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -14464,6 +15074,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -14577,6 +15192,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -14700,6 +15320,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -14815,6 +15440,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -14938,6 +15568,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -15053,6 +15688,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -15176,6 +15816,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -15291,6 +15936,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -15414,6 +16064,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -15529,6 +16184,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -15652,6 +16312,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -15767,6 +16432,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -15890,6 +16560,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -16005,6 +16680,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -16126,6 +16806,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -16239,6 +16924,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -16360,6 +17050,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -16473,6 +17168,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -16597,6 +17297,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -16713,6 +17418,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -16837,6 +17547,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -16953,6 +17668,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -17077,6 +17797,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -17197,6 +17922,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -17313,6 +18043,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -17438,6 +18173,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -17552,6 +18292,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -17674,6 +18419,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -17788,6 +18538,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -17910,6 +18665,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -18024,6 +18784,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -18146,6 +18911,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -18260,6 +19030,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -18382,6 +19157,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -18496,6 +19276,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -18618,6 +19403,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -18736,6 +19526,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -18849,6 +19644,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -18973,6 +19773,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -19089,6 +19894,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -19213,6 +20023,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -19329,6 +20144,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -19453,6 +20273,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -19569,6 +20394,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -19693,6 +20523,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -19809,6 +20644,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -19933,6 +20773,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -20053,6 +20898,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -20169,6 +21019,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -20294,6 +21149,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -20410,6 +21270,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -20534,6 +21399,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -20650,6 +21520,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -20774,6 +21649,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -20890,6 +21770,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -21014,6 +21899,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -21134,6 +22024,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -21249,6 +22144,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -21373,6 +22273,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -21493,6 +22398,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -21609,6 +22519,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -21734,6 +22649,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -21848,6 +22768,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -21970,6 +22895,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -22084,6 +23014,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -22206,6 +23141,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -22320,6 +23260,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -22442,6 +23387,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -22560,6 +23510,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -22674,6 +23629,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -22798,6 +23758,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -22914,6 +23879,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -23038,6 +24008,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -23154,6 +24129,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -23278,6 +24258,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -23394,6 +24379,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -23518,6 +24508,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -23633,6 +24628,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -23757,6 +24757,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -23873,6 +24878,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -23997,6 +25007,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -24113,6 +25128,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -24237,6 +25257,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -24353,6 +25378,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -24477,6 +25507,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -24593,6 +25628,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -24718,6 +25758,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -24834,6 +25879,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -24958,6 +26008,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -25078,6 +26133,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -25194,6 +26254,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -25319,6 +26384,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -25436,6 +26506,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -25561,6 +26636,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -25677,6 +26757,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -25804,6 +26889,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -25923,6 +27013,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -26050,6 +27145,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -26169,6 +27269,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -26293,6 +27398,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -26413,6 +27523,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -26529,6 +27644,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -26654,6 +27774,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -26771,6 +27896,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -26896,6 +28026,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -27013,6 +28148,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -27138,6 +28278,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -27255,6 +28400,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -27380,6 +28530,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -27497,6 +28652,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -27622,6 +28782,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -27738,6 +28903,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -27862,6 +29032,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -27982,6 +29157,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -28097,6 +29277,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -28223,6 +29408,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -28341,6 +29531,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -28467,6 +29662,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -28585,6 +29785,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -28709,6 +29914,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -28829,6 +30039,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -28945,6 +30160,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -29070,6 +30290,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -29185,6 +30410,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -29306,6 +30536,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -29419,6 +30654,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -29540,6 +30780,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -29653,6 +30898,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -29774,6 +31024,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -29887,6 +31142,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -30008,6 +31268,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -30121,6 +31386,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -30242,6 +31512,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -30355,6 +31630,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -30476,6 +31756,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -30589,6 +31874,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -30710,6 +32000,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -30823,6 +32118,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -30944,6 +32244,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -31057,6 +32362,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -31178,6 +32488,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -31291,6 +32606,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -31412,6 +32732,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -31525,6 +32850,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -31646,6 +32976,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -31759,6 +33094,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -31880,6 +33220,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -31993,6 +33338,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -32114,6 +33464,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -32227,6 +33582,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -32348,6 +33708,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -32461,6 +33826,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -32584,6 +33954,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -32699,6 +34074,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -32822,6 +34202,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -32937,6 +34322,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -33060,6 +34450,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -33175,6 +34570,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -33298,6 +34698,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -33413,6 +34818,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -33536,6 +34946,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -33651,6 +35066,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -33774,6 +35194,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -33889,6 +35314,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -34010,6 +35440,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -34123,6 +35558,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -34244,6 +35684,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -34357,6 +35802,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -34480,6 +35930,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -34595,6 +36050,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -34718,6 +36178,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -34833,6 +36298,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -34954,6 +36424,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -35067,6 +36542,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -35188,6 +36668,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -35301,6 +36786,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -35422,6 +36912,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -35535,6 +37030,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -35656,6 +37156,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -35769,6 +37274,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -35892,6 +37402,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -36007,6 +37522,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -36130,6 +37650,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -36245,6 +37770,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -36366,6 +37896,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -36479,6 +38014,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -36600,6 +38140,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -36713,6 +38258,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -36834,6 +38384,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -36947,6 +38502,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -37068,6 +38628,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -37181,6 +38746,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -37302,6 +38872,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -37415,6 +38990,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -37536,6 +39116,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -37649,6 +39234,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -37770,6 +39360,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -37883,6 +39478,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -38004,6 +39604,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -38117,6 +39722,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -38238,6 +39848,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -38351,6 +39966,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -38472,6 +40092,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -38585,6 +40210,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -38706,6 +40336,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -38819,6 +40454,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -38940,6 +40580,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -39053,6 +40698,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -39174,6 +40824,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -39287,6 +40942,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -39408,6 +41068,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -39521,6 +41186,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -39642,6 +41312,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -39755,6 +41430,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -39876,6 +41556,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -39989,6 +41674,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -40110,6 +41800,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -40223,6 +41918,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -40344,6 +42044,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -40457,6 +42162,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -40578,6 +42288,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -40691,6 +42406,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -40812,6 +42532,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -40925,6 +42650,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -41046,6 +42776,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -41159,6 +42894,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -41280,6 +43020,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -41393,6 +43138,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -41514,6 +43264,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -41627,6 +43382,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -41748,6 +43508,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -41861,6 +43626,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -41982,6 +43752,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -42095,6 +43870,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -42216,6 +43996,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -42329,6 +44114,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -42450,6 +44240,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -42563,6 +44358,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -42684,6 +44484,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -42796,6 +44601,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -42916,6 +44726,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -43028,6 +44843,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -43148,6 +44968,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -43260,6 +45085,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -43380,6 +45210,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -43492,6 +45327,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -43612,6 +45452,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -43724,6 +45569,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -43844,6 +45694,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -43956,6 +45811,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -44076,6 +45936,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -44188,6 +46053,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -44308,6 +46178,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -44424,6 +46299,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -44536,6 +46416,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -44657,6 +46542,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -44770,6 +46660,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -44891,6 +46786,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -45004,6 +46904,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -45125,6 +47030,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -45238,6 +47148,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -45359,6 +47274,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -45472,6 +47392,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -45592,6 +47517,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -45704,6 +47634,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -45824,6 +47759,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -45936,6 +47876,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -46057,6 +48002,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -46170,6 +48120,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -46291,6 +48246,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -46404,6 +48364,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -46525,6 +48490,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -46638,6 +48608,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -46759,6 +48734,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -46872,6 +48852,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -46993,6 +48978,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -47106,6 +49096,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -47227,6 +49222,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -47340,6 +49340,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -47461,6 +49466,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -47574,6 +49584,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -47695,6 +49710,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -47808,6 +49828,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -47929,6 +49954,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -48042,6 +50072,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -48163,6 +50198,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -48276,6 +50316,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -48397,6 +50442,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -48510,6 +50560,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -48631,6 +50686,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -48744,6 +50804,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -48865,6 +50930,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -48978,6 +51048,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -49099,6 +51174,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -49212,6 +51292,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -49332,6 +51417,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -49444,6 +51534,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -49564,6 +51659,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -49680,6 +51780,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -49710,6 +51815,490 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.3,
 			1.45,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107231] = {
+		oxy_max = 0,
+		type = 6,
+		name = "Princeton",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 107231,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Princeton",
+		oxy_cost = 0,
+		skin_id = 107230,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			799,
+			0,
+			0,
+			48,
+			64,
+			66,
+			0,
+			29,
+			22,
+			31.6,
+			49,
+			24
+		},
+		attrs_growth = {
+			19480,
+			0,
+			0,
+			932,
+			630,
+			330,
+			0,
+			426,
+			318,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107232] = {
+		oxy_max = 0,
+		type = 6,
+		name = "Princeton",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 107232,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Princeton",
+		oxy_cost = 0,
+		skin_id = 107230,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			994,
+			0,
+			0,
+			60,
+			80,
+			66,
+			0,
+			29,
+			22,
+			31.6,
+			49,
+			30
+		},
+		attrs_growth = {
+			19480,
+			0,
+			0,
+			932,
+			630,
+			330,
+			0,
+			426,
+			318,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107233] = {
+		oxy_max = 0,
+		type = 6,
+		name = "Princeton",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 107233,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Princeton",
+		oxy_cost = 0,
+		skin_id = 107230,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1383,
+			0,
+			0,
+			83,
+			111,
+			66,
+			0,
+			29,
+			22,
+			31.6,
+			49,
+			42
+		},
+		attrs_growth = {
+			19480,
+			0,
+			0,
+			932,
+			630,
+			330,
+			0,
+			426,
+			318,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107234] = {
+		oxy_max = 0,
+		type = 6,
+		name = "Princeton",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 107234,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Princeton",
+		oxy_cost = 0,
+		skin_id = 107230,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1968,
+			0,
+			0,
+			118,
+			159,
+			66,
+			0,
+			29,
+			22,
+			31.6,
+			49,
+			59
+		},
+		attrs_growth = {
+			19480,
+			0,
+			0,
+			932,
+			630,
+			330,
+			0,
+			426,
+			318,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			11688,
+			0,
+			0,
+			617,
+			1202,
+			780,
+			0,
+			229,
+			1047,
+			0,
+			0,
+			337
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.55,
 			0.8
 		},
 		strategy_list = {},
@@ -49792,6 +52381,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -49912,6 +52506,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -50028,6 +52627,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -50140,6 +52744,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -50261,6 +52870,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -50374,6 +52988,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -50495,6 +53114,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -50612,6 +53236,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -50725,6 +53354,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -50951,6 +53585,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -51169,6 +53808,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -51395,6 +54039,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -51613,6 +54262,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -51849,6 +54503,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -52077,6 +54736,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -52313,6 +54977,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -52541,6 +55210,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -52775,6 +55449,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -53001,6 +55680,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -53235,6 +55919,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -53465,6 +56154,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -53683,6 +56377,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -53909,6 +56608,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -54131,6 +56835,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -54349,6 +57058,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -54578,6 +57292,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -54799,6 +57518,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -55028,6 +57752,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -55253,6 +57982,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -55376,6 +58110,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -55507,6 +58246,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -55630,6 +58374,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -55759,6 +58508,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -55872,6 +58626,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -55993,6 +58752,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -56106,6 +58870,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -56227,6 +58996,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -56340,6 +59114,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -56461,6 +59240,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -56574,6 +59358,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -56695,6 +59484,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -56808,6 +59602,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -56929,6 +59728,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -57042,6 +59846,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -57163,6 +59972,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -57276,6 +60090,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -57397,6 +60216,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -57510,6 +60334,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -57631,6 +60460,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -57744,6 +60578,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -57865,6 +60704,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -57978,6 +60822,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -58099,6 +60948,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -58212,6 +61066,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -58333,6 +61192,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -58446,6 +61310,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -58567,6 +61436,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -58680,6 +61554,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -58801,6 +61680,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -58914,6 +61798,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -59035,6 +61924,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -59148,6 +62042,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -59269,6 +62168,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -59382,6 +62286,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -59503,6 +62412,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -59616,6 +62530,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -59737,6 +62656,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -59850,6 +62774,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -59971,6 +62900,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -60084,6 +63018,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -60205,6 +63144,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -60318,6 +63262,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -60439,6 +63388,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -60552,6 +63506,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -60673,6 +63632,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -60786,6 +63750,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -60907,6 +63876,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -61020,6 +63994,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -61141,6 +64120,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -61254,6 +64238,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -61375,6 +64364,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -61488,6 +64482,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -61609,6 +64608,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -61722,6 +64726,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -61843,6 +64852,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -61956,6 +64970,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -62077,6 +65096,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -62194,6 +65218,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -62307,6 +65336,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -62430,6 +65464,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -62545,6 +65584,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -62668,6 +65712,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -62783,6 +65832,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -62906,6 +65960,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -63021,6 +66080,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -63144,6 +66208,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -63259,6 +66328,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -63380,6 +66454,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -63493,6 +66572,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -63614,6 +66698,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -63727,6 +66816,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -63850,6 +66944,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -63965,6 +67064,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -64088,6 +67192,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -64203,6 +67312,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -64324,6 +67438,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -64437,6 +67556,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -64558,6 +67682,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -64671,6 +67800,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -64792,6 +67926,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -64905,6 +68044,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -65026,6 +68170,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -65139,6 +68288,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -65260,6 +68414,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -65373,6 +68532,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -65494,6 +68658,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -65607,6 +68776,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -65728,6 +68902,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -65841,6 +69020,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -65962,6 +69146,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -66075,6 +69264,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -66196,6 +69390,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -66309,6 +69508,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -66430,6 +69634,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -66543,6 +69752,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -66664,6 +69878,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -66777,6 +69996,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -66898,6 +70122,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -67015,6 +70244,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -67128,6 +70362,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -67252,6 +70491,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -67368,6 +70612,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -67492,6 +70741,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -67608,6 +70862,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -67732,6 +70991,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -67848,6 +71112,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -67972,6 +71241,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -68088,6 +71362,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -68212,6 +71491,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -68328,6 +71612,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -68452,6 +71741,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -68568,6 +71862,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -68694,6 +71993,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -68812,6 +72116,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -68938,6 +72247,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -69056,6 +72370,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -69180,6 +72499,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -69296,6 +72620,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -69420,6 +72749,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -69536,6 +72870,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -69660,6 +72999,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -69776,6 +73120,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -69900,6 +73249,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -70016,6 +73370,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -70140,6 +73499,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -70256,6 +73620,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -70380,6 +73749,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -70496,6 +73870,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -70620,6 +73999,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -70736,6 +74120,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -70860,6 +74249,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -70976,6 +74370,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -71100,6 +74499,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -71216,6 +74620,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -71340,6 +74749,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -71456,6 +74870,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -71580,6 +74999,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -71696,6 +75120,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -71820,6 +75249,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -71936,6 +75370,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -72060,6 +75499,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -72176,6 +75620,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -72300,6 +75749,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -72416,6 +75870,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -72540,6 +75999,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -72656,6 +76120,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -72780,6 +76249,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -72896,6 +76370,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -73020,6 +76499,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -73136,6 +76620,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -73260,6 +76749,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -73376,6 +76870,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -73500,6 +76999,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -73616,6 +77120,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -73740,6 +77249,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -73856,6 +77370,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -73980,6 +77499,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -74096,6 +77620,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -74220,6 +77749,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -74336,6 +77870,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -74460,6 +77999,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -74580,6 +78124,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -74696,6 +78245,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -74821,6 +78375,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -74938,6 +78497,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -75063,6 +78627,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -75180,6 +78749,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -75305,6 +78879,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -75422,6 +79001,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -75547,6 +79131,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -75668,6 +79257,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -75784,6 +79378,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -75910,6 +79509,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -76028,6 +79632,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -76154,6 +79763,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -76272,6 +79886,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -76396,6 +80015,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -76512,6 +80136,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -76636,6 +80265,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -76752,6 +80386,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -76878,6 +80517,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -76996,6 +80640,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -77122,6 +80771,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -77240,6 +80894,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -77366,6 +81025,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -77484,6 +81148,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -77610,6 +81279,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -77728,6 +81402,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -77852,6 +81531,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -77968,6 +81652,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -78092,6 +81781,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -78208,6 +81902,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -78334,6 +82033,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -78452,6 +82156,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -78578,6 +82287,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -78696,6 +82410,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -78823,6 +82542,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -78946,6 +82670,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -79065,6 +82794,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -79193,6 +82927,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -79308,6 +83047,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -79431,6 +83175,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -79546,6 +83295,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -79669,6 +83423,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -79784,6 +83543,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -79907,6 +83671,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -80022,6 +83791,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -80145,6 +83919,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -80260,6 +84039,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -80383,6 +84167,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -80498,6 +84287,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -80621,6 +84415,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -80736,6 +84535,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -80859,6 +84663,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -80974,6 +84783,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -81097,6 +84911,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -81212,6 +85031,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -81335,6 +85159,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -81450,6 +85279,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -81573,6 +85407,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -81688,6 +85527,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -81811,6 +85655,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -81926,6 +85775,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -82049,6 +85903,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -82164,6 +86023,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -82287,6 +86151,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -82402,6 +86271,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -82525,6 +86399,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -82640,6 +86519,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -82763,6 +86647,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -82878,6 +86767,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -83001,6 +86895,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -83116,6 +87015,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -83239,6 +87143,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -83358,6 +87267,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -83473,6 +87387,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -83597,6 +87516,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -83710,6 +87634,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -83831,6 +87760,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -83944,6 +87878,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -84065,6 +88004,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -84178,6 +88122,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -84299,6 +88248,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -84412,6 +88366,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -84533,6 +88492,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -84646,6 +88610,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -84767,6 +88736,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -84880,6 +88854,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -85001,6 +88980,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -85114,6 +89098,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -85235,6 +89224,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -85352,6 +89346,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -85465,6 +89464,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -85588,6 +89592,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -85703,6 +89712,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -85826,6 +89840,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -85941,6 +89960,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -86062,6 +90086,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -86175,6 +90204,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -86296,6 +90330,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -86408,6 +90447,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -86529,6 +90573,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -86642,6 +90691,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -86763,6 +90817,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -86876,6 +90935,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -86997,6 +91061,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -87110,6 +91179,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -87231,6 +91305,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -87348,6 +91427,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -87461,6 +91545,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -87584,6 +91673,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -87699,6 +91793,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -87822,6 +91921,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -87937,6 +92041,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -88060,6 +92169,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -88175,6 +92289,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -88298,6 +92417,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -88413,6 +92537,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -88536,6 +92665,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -88651,6 +92785,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -88774,6 +92913,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -88889,6 +93033,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -89012,6 +93161,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -89127,6 +93281,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -89250,6 +93409,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -89365,6 +93529,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -89486,6 +93655,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -89599,6 +93773,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -89720,6 +93899,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -89832,6 +94016,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -89952,6 +94141,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -90064,6 +94258,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -90184,6 +94383,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -90296,6 +94500,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -90416,6 +94625,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -90528,6 +94742,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -90648,6 +94867,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -90760,6 +94984,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -90880,6 +95109,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -90992,6 +95226,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -91112,6 +95351,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -91224,6 +95468,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -91344,6 +95593,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -91456,6 +95710,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -91576,6 +95835,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -91688,6 +95952,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -91808,6 +96077,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -91920,6 +96194,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -92040,6 +96319,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -92152,6 +96436,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -92272,6 +96561,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -92388,6 +96682,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -92500,6 +96799,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -92621,6 +96925,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -92734,6 +97043,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -92855,6 +97169,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -92968,6 +97287,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -93089,6 +97413,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -93202,6 +97531,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -93323,6 +97657,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -93436,6 +97775,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -93557,6 +97901,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -93670,6 +98019,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -93791,6 +98145,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -93908,6 +98267,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -94021,6 +98385,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -94144,6 +98513,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -94259,6 +98633,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -94382,6 +98761,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -94497,6 +98881,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -94618,6 +99007,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -94731,6 +99125,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -94852,6 +99251,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -94965,6 +99369,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -95086,6 +99495,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -95199,6 +99613,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -95320,6 +99739,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -95433,6 +99857,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -95556,6 +99985,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -95671,6 +100105,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -95794,6 +100233,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -95909,6 +100353,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -96030,6 +100479,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -96143,6 +100597,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -96264,6 +100723,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -96377,6 +100841,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -96498,6 +100967,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -96611,6 +101085,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -96732,6 +101211,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -96845,6 +101329,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -96966,6 +101455,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -97079,6 +101573,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -97200,6 +101699,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -97311,6 +101815,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -97434,6 +101943,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -97549,6 +102063,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -97672,6 +102191,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -97787,6 +102311,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -97910,6 +102439,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -98029,6 +102563,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -98144,6 +102683,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -98268,6 +102812,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -98384,6 +102933,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -98508,6 +103062,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -98624,6 +103183,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -98748,6 +103312,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -98864,6 +103433,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -98988,6 +103562,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -99104,6 +103683,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -99228,6 +103812,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -99344,6 +103933,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -99468,6 +104062,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -99584,6 +104183,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -99708,6 +104312,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -99824,6 +104433,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -99948,6 +104562,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -100064,6 +104683,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -100188,6 +104812,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -100301,6 +104930,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -100422,6 +105056,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -100535,6 +105174,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -100656,6 +105300,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -100769,6 +105418,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -100890,6 +105544,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -101003,6 +105662,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -101124,6 +105788,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -101237,6 +105906,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -101358,6 +106032,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -101475,6 +106154,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -101588,6 +106272,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -101711,6 +106400,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -101826,6 +106520,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -101949,6 +106648,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -102064,6 +106768,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -102185,6 +106894,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -102298,6 +107012,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -102419,6 +107138,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -102532,6 +107256,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -102655,6 +107384,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -102770,6 +107504,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -102893,6 +107632,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -103008,6 +107752,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -103129,6 +107878,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -103242,6 +107996,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -103363,6 +108122,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -103476,6 +108240,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -103597,6 +108366,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -103710,6 +108484,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -103831,6 +108610,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -103944,6 +108728,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -104065,6 +108854,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -104178,6 +108972,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -104299,6 +109098,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -104412,6 +109216,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -104533,6 +109342,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -104646,6 +109460,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -104767,6 +109586,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -104880,6 +109704,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -105001,6 +109830,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -105114,6 +109948,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -105235,6 +110074,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -105348,6 +110192,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -105469,6 +110318,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -105582,6 +110436,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -105703,6 +110562,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -105816,6 +110680,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -105937,6 +110806,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -106050,6 +110924,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -106171,6 +111050,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -106284,6 +111168,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -106405,6 +111294,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -106518,6 +111412,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -106639,6 +111538,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -106752,6 +111656,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -106873,6 +111782,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -106986,6 +111900,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -107107,6 +112026,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -107220,6 +112144,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -107341,6 +112270,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -107454,6 +112388,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -107575,6 +112514,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -107688,6 +112632,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -107809,6 +112758,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -107922,6 +112876,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -108043,6 +113002,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -108156,6 +113120,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -108277,6 +113246,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -108390,6 +113364,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -108511,6 +113490,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -108624,6 +113608,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -108745,6 +113734,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -108858,6 +113852,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -108979,6 +113978,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -109092,6 +114096,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -109213,6 +114222,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -109326,6 +114340,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -109447,6 +114466,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -109560,6 +114584,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -109681,6 +114710,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -109794,6 +114828,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -109915,6 +114954,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -110028,6 +115072,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -110149,6 +115198,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -110262,6 +115316,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -110383,6 +115442,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -110496,6 +115560,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -110617,6 +115686,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -110730,6 +115804,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -110851,6 +115930,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -110964,6 +116048,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -111085,6 +116174,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -111198,6 +116292,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -111319,6 +116418,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -111432,6 +116536,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -111553,6 +116662,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -111666,6 +116780,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -111787,6 +116906,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -111900,6 +117024,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -112021,6 +117150,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -112134,6 +117268,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -112255,6 +117394,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -112368,6 +117512,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -112489,6 +117638,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -112602,6 +117756,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -112723,6 +117882,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -112836,6 +118000,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -112957,6 +118126,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -113070,6 +118244,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -113191,6 +118370,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -113304,6 +118488,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -113425,6 +118614,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -113538,6 +118732,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -113659,6 +118858,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -113772,6 +118976,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -113893,6 +119102,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -114006,6 +119220,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -114127,6 +119346,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -114240,6 +119464,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -114361,6 +119590,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -114474,6 +119708,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -114595,6 +119834,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -114708,6 +119952,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -114829,6 +120078,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -114942,6 +120196,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -115063,6 +120322,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -115176,6 +120440,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -115299,6 +120568,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -115414,6 +120688,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -115537,6 +120816,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -115652,6 +120936,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -115775,6 +121064,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -115890,6 +121184,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -116013,6 +121312,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -116128,6 +121432,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -116251,6 +121560,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -116366,6 +121680,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -116489,6 +121808,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -116604,6 +121928,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -116727,6 +122056,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -116842,6 +122176,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -116965,6 +122304,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -117080,6 +122424,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -117203,6 +122552,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -117318,6 +122672,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -117441,6 +122800,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -117556,6 +122920,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -117677,6 +123046,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -117790,6 +123164,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -117911,6 +123290,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -118024,6 +123408,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -118145,6 +123534,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -118258,6 +123652,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -118379,6 +123778,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -118492,6 +123896,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -118615,6 +124024,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -118730,6 +124144,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -118853,6 +124272,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -118968,6 +124392,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -119089,6 +124518,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -119202,6 +124636,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -119323,6 +124762,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -119436,6 +124880,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -119557,6 +125006,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -119670,6 +125124,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -119791,6 +125250,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -119904,6 +125368,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -120025,6 +125494,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -120138,6 +125612,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -120259,6 +125738,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -120372,6 +125856,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -120496,6 +125985,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -120612,6 +126106,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -120736,6 +126235,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -120852,6 +126356,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -120976,6 +126485,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -121092,6 +126606,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -121216,6 +126735,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -121332,6 +126856,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -121456,6 +126985,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -121572,6 +127106,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -121696,6 +127235,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -121812,6 +127356,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -121936,6 +127485,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -122052,6 +127606,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -122176,6 +127735,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -122292,6 +127856,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -122416,6 +127985,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -122532,6 +128106,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -122656,6 +128235,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -122772,6 +128356,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -122896,6 +128485,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -123012,6 +128606,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -123136,6 +128735,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -123252,6 +128856,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -123376,6 +128985,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -123492,6 +129106,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -123616,6 +129235,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -123732,6 +129356,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -123856,6 +129485,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -123972,6 +129606,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -124096,6 +129735,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -124212,6 +129856,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -124336,6 +129985,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -124452,6 +130106,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -124576,6 +130235,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -124692,6 +130356,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -124816,6 +130485,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -124932,6 +130606,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -125056,6 +130735,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -125172,6 +130856,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -125296,6 +130985,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -125412,6 +131106,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -125536,6 +131235,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -125652,6 +131356,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -125776,6 +131485,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -125896,6 +131610,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -126012,6 +131731,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -126137,6 +131861,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -126252,6 +131981,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -126375,6 +132109,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -126490,6 +132229,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -126613,6 +132357,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -126728,6 +132477,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -126851,6 +132605,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -126966,6 +132725,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -127089,6 +132853,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -127204,6 +132973,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -127327,6 +133101,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -127442,6 +133221,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -127565,6 +133349,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -127680,6 +133469,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -127803,6 +133597,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -127918,6 +133717,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -128041,6 +133845,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -128156,6 +133965,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -128279,6 +134093,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -128394,6 +134213,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -128517,6 +134341,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -128632,6 +134461,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -128755,6 +134589,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -128870,6 +134709,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -128993,6 +134837,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -129108,6 +134957,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -129231,6 +135085,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -129346,6 +135205,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -129469,6 +135333,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -129584,6 +135453,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -129707,6 +135581,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -129822,6 +135701,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -129945,6 +135829,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -130060,6 +135949,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -130183,6 +136077,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -130298,6 +136197,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -130421,6 +136325,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -130536,6 +136445,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -130659,6 +136573,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -130774,6 +136693,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -130897,6 +136821,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -131012,6 +136941,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -131135,6 +137069,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -131250,6 +137189,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -131373,6 +137317,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -131488,6 +137437,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -131611,6 +137565,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -131726,6 +137685,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -131849,6 +137813,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -131964,6 +137933,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -132087,6 +138061,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -132206,6 +138185,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -132321,6 +138305,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -132445,6 +138434,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -132560,6 +138554,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -132683,6 +138682,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -132798,6 +138802,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -132921,6 +138930,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -133036,6 +139050,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -133159,6 +139178,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -133274,6 +139298,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -133397,6 +139426,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -133512,6 +139546,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -133635,6 +139674,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -133750,6 +139794,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -133873,6 +139922,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -133988,6 +140042,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -134111,6 +140170,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -134226,6 +140290,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -134348,6 +140417,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -134460,6 +140534,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -134580,6 +140659,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -134696,6 +140780,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -134808,6 +140897,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -134930,6 +141024,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -135048,6 +141147,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -135162,6 +141266,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -135285,6 +141394,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -135398,6 +141512,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -135519,6 +141638,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -135632,6 +141756,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -135753,6 +141882,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -135866,6 +142000,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -135987,6 +142126,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -136100,6 +142244,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -136221,6 +142370,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -136334,6 +142488,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -136455,6 +142614,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -136568,6 +142732,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -136689,6 +142858,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -136802,6 +142976,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -136923,6 +143102,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -137036,6 +143220,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -137157,6 +143346,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -137270,6 +143464,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -137391,6 +143590,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -137504,6 +143708,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -137625,6 +143834,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -137738,6 +143952,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -137859,6 +144078,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -137972,6 +144196,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -138092,6 +144321,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -138204,6 +144438,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -138324,6 +144563,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -138440,6 +144684,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -138552,6 +144801,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -138674,6 +144928,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -138792,6 +145051,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -138906,6 +145170,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -139029,6 +145298,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -139142,6 +145416,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -139263,6 +145542,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -139376,6 +145660,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -139496,6 +145785,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -139608,6 +145902,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -139728,6 +146027,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -139844,6 +146148,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -139956,6 +146265,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -140078,6 +146392,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -140192,6 +146511,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -140314,6 +146638,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -140428,6 +146757,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -140548,6 +146882,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -140660,6 +146999,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -140780,6 +147124,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -140892,6 +147241,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -141012,6 +147366,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -141124,6 +147483,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -141244,6 +147608,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -141356,6 +147725,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -141476,6 +147850,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -141588,6 +147967,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -141708,6 +148092,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -141820,6 +148209,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -141940,6 +148334,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -142052,6 +148451,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -142172,6 +148576,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -142284,6 +148693,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -142404,6 +148818,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -142516,6 +148935,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -142636,6 +149060,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -142748,6 +149177,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -142870,6 +149304,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -142984,6 +149423,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -143106,6 +149550,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -143220,6 +149669,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -143340,6 +149794,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -143452,6 +149911,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -143572,6 +150036,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -143684,6 +150153,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -143804,6 +150278,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -143920,6 +150399,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -144032,6 +150516,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -144153,6 +150642,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -144266,6 +150760,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -144387,6 +150886,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -144500,6 +151004,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -144621,6 +151130,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -144734,6 +151248,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -144855,6 +151374,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -144968,6 +151492,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -145089,6 +151618,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -145202,6 +151736,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -145323,6 +151862,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -145436,6 +151980,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -145557,6 +152106,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -145670,6 +152224,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -145791,6 +152350,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -145904,6 +152468,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -146025,6 +152594,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -146138,6 +152712,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -146259,6 +152838,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -146372,6 +152956,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -146493,6 +153082,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -146606,6 +153200,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -146727,6 +153326,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -146840,6 +153444,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -146961,6 +153570,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -147074,6 +153688,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -147195,6 +153814,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -147312,6 +153936,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -147425,6 +154054,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -147548,6 +154182,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -147663,6 +154302,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -147786,6 +154430,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -147901,6 +154550,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -148022,6 +154676,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -148135,6 +154794,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -148256,6 +154920,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -148369,6 +155038,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -148492,6 +155166,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -148607,6 +155286,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -148730,6 +155414,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -148845,6 +155534,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -148968,6 +155662,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -149083,6 +155782,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -149206,6 +155910,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -149321,6 +156030,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -149559,6 +156273,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -149789,6 +156508,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -150027,6 +156751,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -150261,6 +156990,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -150483,6 +157217,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -150713,6 +157452,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -150939,6 +157683,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -151161,6 +157910,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -151395,6 +158149,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -151621,6 +158380,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -151855,6 +158619,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -152085,6 +158854,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -152307,6 +159081,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -152537,6 +159316,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -152763,6 +159547,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -152985,6 +159774,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -153219,6 +160013,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -153445,6 +160244,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -153679,6 +160483,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -153905,6 +160714,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -154143,6 +160957,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -154373,6 +161192,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -154611,6 +161435,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -154844,6 +161673,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -154956,6 +161790,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -155076,6 +161915,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -155188,6 +162032,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -155305,6 +162154,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -155436,6 +162290,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -155559,6 +162418,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -155690,6 +162554,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -155812,6 +162681,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -156060,6 +162934,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -156304,6 +163183,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -156544,6 +163428,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -156793,6 +163682,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -156911,6 +163805,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -157037,6 +163936,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -157155,6 +164059,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -157279,6 +164188,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -157394,6 +164308,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -157517,6 +164436,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -157632,6 +164556,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -157755,6 +164684,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -157870,6 +164804,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -157993,6 +164932,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -158108,6 +165052,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -158231,6 +165180,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -158346,6 +165300,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -158469,6 +165428,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -158584,6 +165548,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -158707,6 +165676,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -158822,6 +165796,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -158945,6 +165924,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -159060,6 +166044,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -159183,6 +166172,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -159298,6 +166292,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -159421,6 +166420,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -159536,6 +166540,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -159659,6 +166668,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -159774,6 +166788,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -159897,6 +166916,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -160012,6 +167036,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -160135,6 +167164,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -160250,6 +167284,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -160373,6 +167412,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -160488,6 +167532,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -160611,6 +167660,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -160726,6 +167780,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -160849,6 +167908,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -160964,6 +168028,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -161087,6 +168156,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -161202,6 +168276,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -161325,6 +168404,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -161440,6 +168524,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -161563,6 +168652,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -161678,6 +168772,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -161801,6 +168900,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -161916,6 +169020,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -162039,6 +169148,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -162154,6 +169268,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -162277,6 +169396,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -162392,6 +169516,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -162515,6 +169644,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -162630,6 +169764,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -162753,6 +169892,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -162872,6 +170016,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -162987,6 +170136,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -163111,6 +170265,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -163227,6 +170386,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -163351,6 +170515,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -163467,6 +170636,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -163591,6 +170765,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -163707,6 +170886,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -163831,6 +171015,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -163947,6 +171136,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -164071,6 +171265,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -164187,6 +171386,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -164311,6 +171515,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -164427,6 +171636,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -164551,6 +171765,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -164667,6 +171886,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -164791,6 +172015,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -164907,6 +172136,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -165032,6 +172266,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -165147,6 +172386,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -165270,6 +172514,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -165385,6 +172634,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -165508,6 +172762,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -165623,6 +172882,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -165746,6 +173010,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -165861,6 +173130,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -165984,6 +173258,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -166099,6 +173378,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -166222,6 +173506,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -166337,6 +173626,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -166460,6 +173754,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -166575,6 +173874,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -166698,6 +174002,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -166817,6 +174126,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -166932,6 +174246,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -167057,6 +174376,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -167174,6 +174498,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -167299,6 +174628,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -167416,6 +174750,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -167542,6 +174881,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -167664,6 +175008,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -167782,6 +175131,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -167909,6 +175263,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -168022,6 +175381,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -168142,6 +175506,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -168254,6 +175623,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -168375,6 +175749,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -168488,6 +175867,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -168608,6 +175992,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -168720,6 +176109,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -168837,6 +176231,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -168960,6 +176359,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -169075,6 +176479,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -169198,6 +176607,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -169312,6 +176726,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -169434,6 +176853,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -169552,6 +176976,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -169666,6 +177095,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -169789,6 +177223,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -169902,6 +177341,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -170023,6 +177467,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -170136,6 +177585,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -170256,6 +177710,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -170368,6 +177827,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -170488,6 +177952,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -170600,6 +178069,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -170717,6 +178191,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -170967,6 +178446,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -171209,6 +178693,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -171459,6 +178948,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -171701,6 +179195,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -171951,6 +179450,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -172193,6 +179697,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -172443,6 +179952,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -172689,6 +180203,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -172927,6 +180446,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -173173,6 +180697,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -173415,6 +180944,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -173653,6 +181187,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -173903,6 +181442,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -174145,6 +181689,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -174395,6 +181944,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -174641,6 +182195,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -174875,6 +182434,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -175117,6 +182681,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -175355,6 +182924,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -175589,6 +183163,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -175839,6 +183418,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -176081,6 +183665,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -176331,6 +183920,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -176573,6 +184167,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -176825,6 +184424,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -177069,6 +184673,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -177321,6 +184930,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -177569,6 +185183,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -177803,6 +185422,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -178045,6 +185669,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -178283,6 +185912,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -178517,6 +186151,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -178767,6 +186406,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -179009,6 +186653,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -179259,6 +186908,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -179503,6 +187157,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -179619,6 +187278,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -179743,6 +187407,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -179859,6 +187528,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -179983,6 +187657,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -180099,6 +187778,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -180223,6 +187907,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -180339,6 +188028,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -180463,6 +188157,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -180579,6 +188278,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -180703,6 +188407,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -180819,6 +188528,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -180943,6 +188657,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -181059,6 +188778,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -181183,6 +188907,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -181299,6 +189028,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -181424,6 +189158,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -181538,6 +189277,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -181660,6 +189404,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -181778,6 +189527,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -181891,6 +189645,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -182015,6 +189774,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -182131,6 +189895,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -182255,6 +190024,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -182371,6 +190145,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -182495,6 +190274,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -182611,6 +190395,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -182735,6 +190524,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -182851,6 +190645,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -182972,6 +190771,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -183085,6 +190889,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -183206,6 +191015,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -183320,6 +191134,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -183443,6 +191262,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -183562,6 +191386,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -183677,6 +191506,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -183801,6 +191635,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -183916,6 +191755,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -184039,6 +191883,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -184154,6 +192003,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -184277,6 +192131,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -184390,6 +192249,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -184511,6 +192375,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -184624,6 +192493,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -184744,6 +192618,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -184856,6 +192735,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -184976,6 +192860,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -185088,6 +192977,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -185208,6 +193102,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -185320,6 +193219,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -185440,6 +193344,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -185556,6 +193465,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -185667,6 +193581,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -185788,6 +193707,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -185901,6 +193825,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -186022,6 +193951,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -186135,6 +194069,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -186256,6 +194195,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -186369,6 +194313,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -186490,6 +194439,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -186603,6 +194557,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -186726,6 +194685,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -186841,6 +194805,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -186964,6 +194933,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -187079,6 +195053,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -187203,6 +195182,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -187319,6 +195303,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -187443,6 +195432,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -187559,6 +195553,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -187683,6 +195682,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -187799,6 +195803,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -187923,6 +195932,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -188039,6 +196053,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -188163,6 +196182,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -188283,6 +196307,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -188399,6 +196428,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -188524,6 +196558,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -188638,6 +196677,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -188760,6 +196804,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -188874,6 +196923,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -188997,6 +197051,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -189110,6 +197169,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -189231,6 +197295,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -189344,6 +197413,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -189465,6 +197539,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -189578,6 +197657,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -189699,6 +197783,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -189816,6 +197905,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -189927,6 +198021,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -190048,6 +198147,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -190161,6 +198265,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -190282,6 +198391,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -190395,6 +198509,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -190516,6 +198635,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -190629,6 +198753,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -190750,6 +198879,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -190863,6 +198997,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -190984,6 +199123,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -191097,6 +199241,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -191218,6 +199367,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -191331,6 +199485,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -191452,6 +199611,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -191565,6 +199729,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -191686,6 +199855,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -191799,6 +199973,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -191925,6 +200104,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -192043,6 +200227,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -192169,6 +200358,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -192287,6 +200481,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -192411,6 +200610,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -192531,6 +200735,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -192647,6 +200856,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -192773,6 +200987,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -192886,6 +201105,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -193007,6 +201231,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -193120,6 +201349,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -193239,6 +201473,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -193350,6 +201589,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -193469,6 +201713,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -193580,6 +201829,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -193697,6 +201951,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -193943,6 +202202,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -194181,6 +202445,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -194427,6 +202696,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -194667,6 +202941,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -194780,6 +203059,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -194901,6 +203185,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -195018,6 +203307,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -195131,6 +203425,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -195254,6 +203553,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -195369,6 +203673,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -195492,6 +203801,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -195607,6 +203921,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -195730,6 +204049,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -195845,6 +204169,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -195968,6 +204297,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -196083,6 +204417,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -196204,6 +204543,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -196317,6 +204661,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -196438,6 +204787,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -196551,6 +204905,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -196674,6 +205033,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -196789,6 +205153,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -196912,6 +205281,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -197027,6 +205401,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -197151,6 +205530,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -197271,6 +205655,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -197387,6 +205776,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -197512,6 +205906,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -197627,6 +206026,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -197750,6 +206154,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -197865,6 +206274,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -197989,6 +206403,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -198102,6 +206521,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -198223,6 +206647,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -198336,6 +206765,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -198457,6 +206891,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -198570,6 +207009,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -198691,6 +207135,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -198808,6 +207257,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -198921,6 +207375,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -199044,6 +207503,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -199159,6 +207623,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -199282,6 +207751,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -199395,6 +207869,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -199514,6 +207993,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -199625,6 +208109,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -199744,6 +208233,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -199855,6 +208349,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -199975,6 +208474,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -200087,6 +208591,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -200207,6 +208716,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -200318,6 +208832,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -200438,6 +208957,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -200550,6 +209074,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -200670,6 +209199,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -200782,6 +209316,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -200902,6 +209441,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -201014,6 +209558,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -201134,6 +209683,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -201246,6 +209800,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -201366,6 +209925,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -201478,6 +210042,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -201598,6 +210167,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -201710,6 +210284,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -201830,6 +210409,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -201942,6 +210526,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -202062,6 +210651,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -202174,6 +210768,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -202294,6 +210893,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -202406,6 +211010,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -202526,6 +211135,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -202638,6 +211252,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -202758,6 +211377,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -202870,6 +211494,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -202990,6 +211619,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -203102,6 +211736,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -203227,6 +211866,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -203338,6 +211982,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -203457,6 +212106,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -203568,6 +212222,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -203688,6 +212347,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -203800,6 +212464,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -203919,6 +212588,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -204030,6 +212704,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -204153,6 +212832,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -204265,6 +212949,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -204385,6 +213074,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -204497,6 +213191,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -204617,6 +213316,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -204729,6 +213433,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -204848,6 +213557,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -204959,6 +213673,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -205079,6 +213798,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -205191,6 +213915,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -205310,6 +214039,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -205425,6 +214159,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -205536,6 +214275,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -205656,6 +214400,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -205768,6 +214517,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -205887,6 +214641,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -205998,6 +214757,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -206120,6 +214884,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -206231,6 +215000,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -206351,6 +215125,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -206463,6 +215242,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -206583,6 +215367,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -206695,6 +215484,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -206814,6 +215608,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -206929,6 +215728,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -207040,6 +215844,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -207162,6 +215971,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -207273,6 +216087,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -207396,6 +216215,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -207508,6 +216332,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -207628,6 +216457,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -207739,6 +216573,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -207862,6 +216701,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -207978,6 +216822,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -208089,6 +216938,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -208209,6 +217063,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -208320,6 +217179,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -208440,6 +217304,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -208551,6 +217420,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -208671,6 +217545,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -208783,6 +217662,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -208902,6 +217786,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -209013,6 +217902,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -209133,6 +218027,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -209244,6 +218143,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -209366,6 +218270,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -209477,6 +218386,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -209600,6 +218514,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -209715,6 +218634,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -209836,6 +218760,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -209949,6 +218878,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -210070,6 +219004,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -210181,6 +219120,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -210302,6 +219246,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -210415,6 +219364,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -210536,6 +219490,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -210649,6 +219608,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -210770,6 +219734,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -210883,6 +219852,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -211004,6 +219978,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -211117,6 +220096,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -211238,6 +220222,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -211351,6 +220340,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -211472,6 +220466,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -211585,6 +220584,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -211706,6 +220710,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -211819,6 +220828,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -211940,6 +220954,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -212053,6 +221072,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -212174,6 +221198,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -212287,6 +221316,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -212408,6 +221442,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -212521,6 +221560,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -212642,6 +221686,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -212759,6 +221808,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -212872,6 +221926,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -212995,6 +222054,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -213102,6 +222166,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -213217,6 +222286,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -213324,6 +222398,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -213439,6 +222518,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -213546,6 +222630,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -213661,6 +222750,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -213768,6 +222862,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -213883,6 +222982,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -213990,6 +223094,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -214105,6 +223214,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -214212,6 +223326,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -214327,6 +223446,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -214434,6 +223558,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -214549,6 +223678,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -214656,6 +223790,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -214771,6 +223910,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -214878,6 +224022,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -214991,6 +224140,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -215237,6 +224391,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -215475,6 +224634,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -215721,6 +224885,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -215833,6 +225002,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -215957,6 +225131,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -216073,6 +225252,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -216197,6 +225381,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -216313,6 +225502,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -216436,6 +225630,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -216551,6 +225750,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -216675,6 +225879,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -216788,6 +225997,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -216907,6 +226121,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -217018,6 +226237,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -217140,6 +226364,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -217249,6 +226478,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -217370,6 +226604,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -217483,6 +226722,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -217606,6 +226850,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -217721,6 +226970,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -217846,6 +227100,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -217965,6 +227224,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -218077,6 +227341,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -218198,6 +227467,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -218315,6 +227589,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -218427,6 +227706,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -218548,6 +227832,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -218661,6 +227950,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -218782,6 +228076,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -218895,6 +228194,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -219018,6 +228322,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -219131,6 +228440,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -219252,6 +228566,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -219365,6 +228684,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -219486,6 +228810,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -219599,6 +228928,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -219720,6 +229054,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -219837,6 +229176,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -219950,6 +229294,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -220073,6 +229422,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -220190,6 +229544,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -220303,6 +229662,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -220426,6 +229790,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -220539,6 +229908,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -220660,6 +230034,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -220773,6 +230152,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -220894,6 +230278,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -221007,6 +230396,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -221128,6 +230522,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -221239,6 +230638,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -221356,6 +230760,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -221479,6 +230888,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -221595,6 +231009,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -221707,6 +231126,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -221828,6 +231252,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -221940,6 +231369,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -222060,6 +231494,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -222172,6 +231611,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -222293,6 +231737,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -222402,6 +231851,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -222521,6 +231975,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -222646,6 +232105,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -222765,6 +232229,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -222879,6 +232348,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -223002,6 +232476,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -223117,6 +232596,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -223360,6 +232844,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -223482,6 +232971,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -223593,6 +233087,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -223716,6 +233215,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -223829,6 +233333,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -223950,6 +233459,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -224062,6 +233576,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -224185,6 +233704,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -224299,6 +233823,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -224418,6 +233947,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -224544,6 +234078,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -224655,6 +234194,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -224779,6 +234323,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -224899,6 +234448,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -225015,6 +234569,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -225140,6 +234699,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -225255,6 +234819,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -225378,6 +234947,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -225493,6 +235067,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -225615,6 +235194,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -225728,6 +235312,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -225849,6 +235438,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -225962,6 +235556,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -226085,6 +235684,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -226198,6 +235802,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -226319,6 +235928,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -226436,6 +236050,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -226547,6 +236166,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -226671,6 +236295,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -226791,6 +236420,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -226907,6 +236541,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -227032,6 +236671,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -227147,6 +236791,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -227270,6 +236919,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -227385,6 +237039,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -227507,6 +237166,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -227620,6 +237284,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -227741,6 +237410,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -227854,6 +237528,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -227977,6 +237656,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -228090,6 +237774,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -228211,6 +237900,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -228328,6 +238022,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -228439,6 +238138,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -228562,6 +238266,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -228681,6 +238390,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -228796,6 +238510,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -228921,6 +238640,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -229036,6 +238760,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -229159,6 +238888,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -229274,6 +239008,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -229397,6 +239136,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -229512,6 +239256,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -229635,6 +239384,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -229750,6 +239504,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -229872,6 +239631,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -229986,6 +239750,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -230108,6 +239877,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -230226,6 +240000,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -230337,6 +240116,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -230458,6 +240242,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -230575,6 +240364,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -230688,6 +240482,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -230813,6 +240612,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -230928,6 +240732,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -231051,6 +240860,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -231170,6 +240984,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -231285,6 +241104,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -231529,6 +241353,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -231765,6 +241594,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -232009,6 +241843,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -232247,6 +242086,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -232362,6 +242206,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -232485,6 +242334,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -232600,6 +242454,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -232725,6 +242584,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -232840,6 +242704,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -232963,6 +242832,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -233078,6 +242952,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -233200,6 +243079,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -233314,6 +243198,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -233436,6 +243325,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -233550,6 +243444,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -233673,6 +243572,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -233788,6 +243692,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -233911,6 +243820,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -234030,6 +243944,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -234143,6 +244062,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -234267,6 +244191,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -234387,6 +244316,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -234503,6 +244437,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -234629,6 +244568,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -234744,6 +244688,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -234867,6 +244816,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -234986,6 +244940,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -235100,6 +245059,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -235223,6 +245187,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -235342,6 +245311,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -235457,6 +245431,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -235581,6 +245560,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -235694,6 +245678,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -235815,6 +245804,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -235932,6 +245926,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -236044,6 +246043,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -236167,6 +246171,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -236282,6 +246291,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -236405,6 +246419,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -236520,6 +246539,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -236643,6 +246667,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -236758,6 +246787,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -236881,6 +246915,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -236996,6 +247035,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -237121,6 +247165,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -237242,6 +247291,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -237359,6 +247413,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -237485,6 +247544,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -237598,6 +247662,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -237719,6 +247788,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -237836,6 +247910,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -237947,6 +248026,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -238068,6 +248152,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -238185,6 +248274,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -238298,6 +248392,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -238421,6 +248520,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -238534,6 +248638,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -238655,6 +248764,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -238768,6 +248882,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -238889,6 +249008,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -239002,6 +249126,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -239123,6 +249252,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -239236,6 +249370,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -239357,6 +249496,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -239470,6 +249614,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -239591,6 +249740,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -239708,6 +249862,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -239820,6 +249979,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -239943,6 +250107,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -240058,6 +250227,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -240181,6 +250355,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -240296,6 +250475,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -240419,6 +250603,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -240534,6 +250723,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -240657,6 +250851,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -240771,6 +250970,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -240893,6 +251097,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -241011,6 +251220,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -241125,6 +251339,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -241248,6 +251467,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -241362,6 +251586,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -241487,6 +251716,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -241604,6 +251838,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -241730,6 +251969,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -241843,6 +252087,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -241964,6 +252213,11 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		position_offset = {
 			0,
 			0,
@@ -242077,6 +252331,11 @@ pg.ship_data_statistics = {
 			5
 		},
 		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
 			0,
 			0,
 			0
@@ -242542,6 +252801,10 @@ pg.ship_data_statistics = {
 		107222,
 		107223,
 		107224,
+		107231,
+		107232,
+		107233,
+		107234,
 		107291,
 		107292,
 		107293,

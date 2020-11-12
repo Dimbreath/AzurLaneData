@@ -600,7 +600,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20110] = {
 		shiptype = 1,
-		name = "A-Class prototype",
+		name = "A-Class prototype destoryer",
 		t_level = 2,
 		id = 20110,
 		t_level_1 = 43,

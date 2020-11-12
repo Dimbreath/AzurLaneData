@@ -84,7 +84,7 @@ function slot0.canPlay(slot0)
 		return false, 1
 	end
 
-	if pg.StoryMgr.GetInstance():isActive() then
+	if pg.NewStoryMgr.GetInstance():IsRunning() then
 		return false, 2
 	end
 
@@ -125,7 +125,7 @@ end
 
 function slot0.isPlayed(slot0, slot1)
 	if getProxy(PlayerProxy) then
-		return slot2:getData():IsPlayed(slot1)
+		return pg.NewStoryMgr.GetInstance():IsPlayed(slot1)
 	end
 
 	return false
@@ -301,7 +301,7 @@ function slot0.playStories(slot0, slot1, slot2)
 
 	for slot7, slot8 in ipairs(slot1.stories) do
 		table.insert(slot3, function (slot0)
-			pg.StoryMgr.GetInstance():Play(uv0, slot0, true)
+			pg.NewStoryMgr.GetInstance():Play(uv0, slot0, true)
 		end)
 	end
 
@@ -711,7 +711,12 @@ function slot0.addUIEventTrigger(slot0, slot1, slot2, slot3)
 		onButton(slot0, slot6, function ()
 			if not IsNil(uv0) then
 				uv1:finishCurrEvent(uv2, uv3)
-				triggerButton(uv0)
+
+				if uv4.onClick then
+					uv4.onClick()
+				else
+					triggerButton(uv0)
+				end
 			end
 		end, SFX_PANEL)
 		setButtonEnabled(slot6, true)

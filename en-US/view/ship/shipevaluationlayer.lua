@@ -31,7 +31,8 @@ function slot0.init(slot0)
 	slot0.bg = slot0:findTF("BG")
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = slot0:getGroupNameFromData()
+		groupName = slot0:getGroupNameFromData(),
+		weight = slot0:getWeightFromData()
 	})
 end
 

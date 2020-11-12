@@ -37,7 +37,7 @@ function slot4(slot0)
 	slot2 = uv0[14].name
 
 	if uv0[14].level == slot0 then
-		if pg.StoryMgr.GetInstance():IsPlayed("ZHIHUIMIAO1") or Application.isEditor then
+		if pg.NewStoryMgr.GetInstance():IsPlayed("ZHIHUIMIAO1") or Application.isEditor then
 			return true
 		else
 			return false, i18n("no_open_system_tip", slot2, slot1)
@@ -78,7 +78,7 @@ function slot0.notification(slot0, slot1)
 		return
 	end
 
-	if uv1(slot1, getProxy(PlayerProxy):getData()) and not pg.MsgboxMgr.GetInstance()._go.activeSelf and slot4.story_id and slot4.story_id ~= "" and not slot0.active and not pg.StoryMgr.GetInstance():IsPlayed(slot4.story_id) and not pg.SeriesGuideMgr.GetInstance():isNotFinish() then
+	if uv1(slot1, getProxy(PlayerProxy):getData()) and not pg.MsgboxMgr.GetInstance()._go.activeSelf and slot4.story_id and slot4.story_id ~= "" and not slot0.active and not pg.NewStoryMgr.GetInstance():IsPlayed(slot4.story_id) and not pg.SeriesGuideMgr.GetInstance():isNotFinish() then
 		slot0.active = true
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -102,12 +102,6 @@ function slot0.doSystemGuide(slot0, slot1)
 	if pg.open_systems_limited[slot1].story_id and slot3 ~= "" then
 		if getProxy(ContextProxy):getCurrentContext().scene ~= SCENE[slot2.scene] then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE[slot2.scene])
-		end
-
-		if slot1 == 4 and getProxy(ChapterProxy):getActiveChapter() then
-			pg.m02:sendNotification(GAME.CHAPTER_OP, {
-				type = ChapterConst.OpRetreat
-			})
 		end
 
 		pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot3, {}, function ()

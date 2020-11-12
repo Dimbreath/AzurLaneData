@@ -125,7 +125,7 @@ function slot0.flushDetail(slot0)
 			elseif slot0.detailType == uv0.DetailType2 then
 				if slot9 == 6 then
 					slot11.text = "<color=#A9F548FF>" .. i18n("word_synthesize_power") .. "</color>"
-					slot12.text = tostring(math.floor(slot5))
+					slot12.text = tostring(slot5)
 				elseif slot9 == 5 then
 					slot11.text = "<color=#A9F548FF>" .. i18n("word_level") .. "</color>"
 					slot12.text = "Lv." .. slot0.shipVO.level

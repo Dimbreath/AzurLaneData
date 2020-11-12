@@ -61,30 +61,6 @@ function slot0.updateStage(slot0, slot1)
 	slot0.facade:sendNotification(uv0.STAGE_UPDATED, slot1:clone())
 end
 
-function slot0.getMaps(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.data.satges) do
-		if slot6:getConfig("chapter") ~= 0 then
-			if not slot1[Chapter.bindConfigTable()[slot7].map] then
-				slot1[slot8] = Map.New({
-					id = slot8
-				})
-			end
-
-			if not slot1[slot8].chapters[slot7] then
-				slot9.chapters[slot7] = Chapter.New({
-					id = slot7
-				})
-			end
-
-			slot9.chapters[slot7].stages[slot6.id] = slot6:clone()
-		end
-	end
-
-	return slot1
-end
-
 function slot0.getRandomStages(slot0)
 	return Clone(slot0.data.randomexpeditions) or {}
 end

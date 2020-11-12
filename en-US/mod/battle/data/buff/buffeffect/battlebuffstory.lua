@@ -15,5 +15,5 @@ function slot1.SetArgs(slot0, slot1, slot2)
 end
 
 function slot1.doOnHPRatioUpdate(slot0, slot1, slot2, slot3)
-	pg.StoryMgr.GetInstance():Play(slot0._storyID)
+	pg.NewStoryMgr.GetInstance():Play(slot0._storyID)
 end

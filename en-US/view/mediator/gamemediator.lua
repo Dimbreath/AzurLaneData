@@ -248,6 +248,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.JIUJIU_EXPEDITION then
 			slot4.mediator = JiuJiuExpeditionGameMediator
 			slot4.viewComponent = JiuJiuExpeditionGameView
+		elseif slot3 == SCENE.AIRFORCE_DRAGONEMPERY then
+			slot4.mediator = AirForceOfDragonEmperyMediator
+			slot4.viewComponent = AirForceOfDragonEmperyUI
 		end
 
 		print("load scene: " .. slot3)

@@ -356,6 +356,29 @@ return {
 			end
 		end
 	},
+	{
+		Tip = "tip",
+		Image = "event_airfight",
+		ButtonName = "activity_airfight_battle",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				for slot9 = 1, slot2:getConfig("config_client")[1] do
+					slot4 = 0 + (slot2:getKVPList(1, slot9) or 0)
+				end
+
+				slot6 = pg.TimeMgr.GetInstance()
+
+				setActive(slot1:Find("Tip"), slot4 < math.min((slot6:DiffDay(slot2.data1, slot6:GetServerTime()) + 1) * 2, slot5 * 3))
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.AIRFORCE_DRAGONEMPERY)
+				end, SFX_PANEL)
+			end
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
@@ -370,9 +393,8 @@ return {
 	CurrentEntrancesList = {
 		1,
 		2,
-		5,
 		6,
-		13,
-		14
+		14,
+		15
 	}
 }

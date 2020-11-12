@@ -170,6 +170,14 @@ function slot5.AddWaveFX(slot0, slot1)
 	slot0._waveFX = slot0:AddFX(slot1)
 end
 
+function slot5.RemoveWaveFX(slot0)
+	if not slot0._waveFX then
+		return
+	end
+
+	slot0:RemoveFX(slot0._waveFX)
+end
+
 function slot5.AddBlink(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if slot0._unitData:GetDiveInvisible() then
 		return nil
@@ -185,7 +193,7 @@ function slot5.RemoveBlink(slot0, slot1)
 end
 
 function slot5.AddShaderColor(slot0, slot1)
-	slot0:SwitchShader(slot0:GetTf():GetComponent(typeof(Renderer)).material.shader, slot1 or Color.New(0, 0, 0, 0))
+	slot0:GetTf():GetComponent(typeof(Renderer)).material:SetColor("_Color", slot1 or Color.New(0, 0, 0, 0))
 end
 
 function slot5.GetPosition(slot0)
@@ -239,6 +247,7 @@ function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.INIT_ANIT_SUB_VIGILANCE, slot0.onInitVigilantState)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
+	slot0._unitData:RegisterEventListener(slot0, uv0.HIDE_WAVE_FX, slot0.RemoveWaveFX)
 
 	slot5 = slot0.onUpdateScore
 

@@ -140,7 +140,7 @@ function slot3.switch(slot0, slot1)
 	end
 
 	if slot2.story then
-		pg.StoryMgr.GetInstance():Play(slot2.story)
+		pg.NewStoryMgr.GetInstance():Play(slot2.story)
 	end
 
 	if slot2.guide then

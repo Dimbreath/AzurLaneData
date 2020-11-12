@@ -3475,6 +3475,30 @@ pg.shop_template = {
 			108021
 		}
 	},
+	[43008] = {
+		group_type = 0,
+		resource_num = 4000,
+		desc = "4000功勋兑换格伦维尔",
+		type = 4,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3,
+		id = 43008,
+		genre = "arena_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201131
+		}
+	},
 	[50002] = {
 		group_type = 0,
 		resource_num = 50,
@@ -7829,6 +7853,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60216] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60216,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -9991,9 +10069,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 8937,
+		order = 8886,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -10009,8 +10087,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					8,
-					27
+					11,
+					12
 				},
 				{
 					0,
@@ -10021,8 +10099,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					9
+					11,
+					25
 				},
 				{
 					23,
@@ -10040,9 +10118,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 8937,
+		order = 8886,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -10058,8 +10136,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					8,
-					27
+					11,
+					12
 				},
 				{
 					0,
@@ -10070,8 +10148,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					9
+					11,
+					25
 				},
 				{
 					23,
@@ -15898,6 +15976,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70212] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：杜威泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8885,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70212,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101021
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70213] = {
 		group_type = 0,
 		resource_num = 880,
@@ -20733,9 +20860,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 8937,
+		order = 8886,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20751,8 +20878,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					8,
-					27
+					11,
+					12
 				},
 				{
 					0,
@@ -20763,8 +20890,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					9
+					11,
+					25
 				},
 				{
 					23,
@@ -20912,6 +21039,55 @@ pg.shop_template = {
 					2020,
 					9,
 					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70319] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：热心情人节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8885,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70319,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201031
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
 				},
 				{
 					23,
@@ -26066,6 +26242,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70433] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:普林斯顿礼服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8884,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70433,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			107231
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70434] = {
 		group_type = 0,
 		resource_num = 780,
@@ -30806,6 +31031,7 @@ pg.shop_template = {
 		43003,
 		43004,
 		43005,
+		43008,
 		50002,
 		50003,
 		50004,
@@ -30895,6 +31121,7 @@ pg.shop_template = {
 		60213,
 		60214,
 		60215,
+		60216,
 		61001,
 		61002,
 		61003,
@@ -31106,6 +31333,7 @@ pg.shop_template = {
 		70209,
 		70210,
 		70211,
+		70212,
 		70213,
 		70214,
 		70215,
@@ -31208,6 +31436,7 @@ pg.shop_template = {
 		70316,
 		70317,
 		70318,
+		70319,
 		70320,
 		70321,
 		70322,
@@ -31313,6 +31542,7 @@ pg.shop_template = {
 		70430,
 		70431,
 		70432,
+		70433,
 		70434,
 		70435,
 		70436,

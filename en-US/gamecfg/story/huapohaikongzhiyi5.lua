@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "很好，这座岛屿的机场彻底陷入瘫痪，我们该返回主力舰队了。",
+			say = "I've wrapped things up here as well. We should head back and rejoin the main fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？这是？！",
+			say = "Huh? What's this signal?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，普林斯顿？",
+			say = "Princeton, what's wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "重樱的舰载机群好像发现我们了！大家准备迎击！",
+			say = "We've been discovered by their planes! Everyone, prepare to intercept them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "以重樱现在的实力，居然还有功夫分兵作战么...",
+			say = "No way... Could there be an enemy carrier nearby?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "普林斯顿，伯明翰，Fight on！",
+			say = "Princeton! Birmingham! They're coming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#ff5c5c",
-			say = "..........",
+			say = "...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307070,
-			say = "至少，如果能拿下你们的话......",
+			say = "Ahahaha... How shall I break you all...?.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

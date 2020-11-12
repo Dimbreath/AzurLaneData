@@ -259,7 +259,7 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 		slot18.x = Mathf.Clamp(slot18.x, slot14.x - slot15, slot14.x + slot15)
 	end
 
-	slot0:DispatchEvent(uv2.Event.New(uv3.UPDATE_HP, {
+	slot0:UpdateHPAction({
 		dHP = slot1,
 		validDHP = slot11 - slot0._currentHP,
 		isMiss = slot5,
@@ -267,7 +267,7 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 		isHeal = slot7,
 		font = slot4,
 		posOffset = slot14 - slot18
-	}))
+	})
 
 	if not slot0:IsAlive() and slot10 then
 		slot0:SetDeathReason(slot2.damageReason)
@@ -280,6 +280,10 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 			unit = slot0
 		})
 	end
+end
+
+function slot9.UpdateHPAction(slot0, slot1)
+	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_HP, slot1))
 end
 
 function slot9.DeadAction(slot0)
@@ -718,25 +722,26 @@ function slot9.GetBornPosition(slot0)
 	return slot0._bornPos
 end
 
-function slot9.GetCLDCenterPosition(slot0)
-	if slot0._centerFrame ~= slot0._battleProxy.FrameIndex then
-		slot0._centerFrame = slot1
-		slot2 = slot0._move:GetPos()
-		slot3 = slot0:GetBoxSize()
-		slot0._cldCenterCache = Vector3(slot2.x + slot3.x, slot2.y, slot2.z + slot3.z)
-	end
-
-	return slot0._cldCenterCache
-end
-
 function slot9.GetCLDZCenterPosition(slot0)
 	if slot0._zCenterFrame ~= slot0._battleProxy.FrameIndex then
 		slot0._zCenterFrame = slot1
-		slot2 = slot0._move:GetPos()
-		slot0._cldZCenterCache = Vector3(slot2.x, slot2.y, slot2.z + slot0:GetBoxSize().z)
+		slot2 = slot0:GetCldBox()
+		slot0._cldZCenterCache = (slot2.min + slot2.max) * 0.5
 	end
 
 	return slot0._cldZCenterCache
+end
+
+function slot9.GetBeenAimedPosition(slot0)
+	if not slot0:GetCLDZCenterPosition() then
+		return slot1
+	end
+
+	if not (slot0:GetTemplate() and slot0:GetTemplate().aim_offset) then
+		return slot1
+	end
+
+	return Vector3(slot1.x + slot2[1], slot1.y + slot2[2], slot1.z + slot2[3])
 end
 
 function slot9.CancelFollowTeam(slot0)
@@ -915,7 +920,6 @@ end
 
 function slot9.ClearBuff(slot0)
 	for slot5, slot6 in pairs(slot0._buffList) do
-		slot6:Interrupt()
 		slot6:Clear()
 	end
 end
@@ -960,6 +964,10 @@ function slot9.CharacterActionStartCallback(slot0)
 end
 
 function slot9.DispatchChat(slot0, slot1, slot2, slot3)
+	if not slot1 or #slot1 == 0 then
+		return
+	end
+
 	slot0:DispatchEvent(uv0.Event.New(uv1.POP_UP, {
 		content = HXSet.hxLan(slot1),
 		duration = slot2,
@@ -1119,6 +1127,8 @@ function slot9.SetFormationIndex(slot0, slot1)
 end
 
 function slot9.Clear(slot0)
+	slot0._aliveState = false
+
 	for slot4, slot5 in pairs(slot0._hostileCldList) do
 		slot0:RemoveHostileCld(slot4)
 	end
@@ -1160,7 +1170,6 @@ function slot9.Dispose(slot0)
 
 	slot0._buffList = nil
 	slot0._cldZCenterCache = nil
-	slot0._cldCenterCache = nil
 
 	slot0:RemoveSummonSickness()
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)

@@ -140,7 +140,7 @@ function slot0.updateShipAttrs(slot0)
 	slot2 = table.contains(TeamType.SubShipType, slot1:getShipType())
 	slot4, slot5 = slot1:getEquipmentProperties()
 
-	FormationUI.tweenNumText(slot0.powerTxt, math.floor(slot1:getShipCombatPower()))
+	FormationUI.tweenNumText(slot0.powerTxt, slot1:getShipCombatPower())
 
 	for slot10, slot11 in pairs(uv1) do
 		slot12 = findTF(slot0.attrs, "props/" .. slot10)
@@ -379,7 +379,7 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 	slot8 = intProperties(slot8)
 	slot9 = intProperties(slot9)
 
-	if math.floor(slot1:getShipCombatPower()) ~= math.floor(slot2:getShipCombatPower()) then
+	if slot1:getShipCombatPower() ~= slot2:getShipCombatPower() then
 		table.insert({}, function (slot0)
 			TweenValue(uv0.powerTxt, uv1, uv2, uv3, 0, function (slot0)
 				setText(uv0.powerTxt, math.floor(slot0))

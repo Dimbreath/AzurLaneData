@@ -1,5 +1,3 @@
-slot0 = {}
-
 function Clone_Copy(slot0, slot1)
 	if type(slot0) ~= "table" then
 		return slot0
@@ -21,11 +19,7 @@ function Clone_Copy(slot0, slot1)
 end
 
 function Clone(slot0)
-	for slot4, slot5 in pairs(uv0) do
-		uv0[slot4] = nil
-	end
-
-	return Clone_Copy(slot0, uv0)
+	return Clone_Copy(slot0, {})
 end
 
 function class(slot0, slot1)

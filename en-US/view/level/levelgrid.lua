@@ -2646,7 +2646,7 @@ function slot0.ShowTargetHuntingRange(slot0, slot1)
 	for slot11, slot12 in pairs(_.filter(slot3:getHuntingRange(), function (slot0)
 		return uv0:getChapterCell(slot0.row, slot0.column) and slot1:IsWalkable()
 	end)) do
-		if not table.containsdata(slot5, slot12) then
+		if not table.containsData(slot5, slot12) then
 			table.insert(slot7, slot12)
 		end
 	end

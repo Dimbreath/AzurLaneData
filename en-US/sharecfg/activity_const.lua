@@ -636,6 +636,9 @@ pg.activity_const = {
 	MUSIC_FESTIVAL_ID_2 = {
 		act_id = 30755
 	},
+	HMS_Hunter_PT_ID = {
+		act_id = 769
+	},
 	SUMMER_REMAKE = {
 		act_id = 30253
 	},

@@ -1,14 +1,15 @@
 slot0 = class("ShipExpressionHelper")
 slot1 = pg.ship_skin_expression
 slot2 = pg.ship_skin_expression_ex
+slot3 = false
 
-function slot3(...)
-	if Application.isEditor then
+function slot4(...)
+	if uv0 and Application.isEditor then
 		print(...)
 	end
 end
 
-function slot4(slot0, slot1, slot2, slot3)
+function slot5(slot0, slot1, slot2, slot3)
 	function slot6(slot0)
 		if uv0.main_ex and slot1 ~= "" then
 			slot2 = nil

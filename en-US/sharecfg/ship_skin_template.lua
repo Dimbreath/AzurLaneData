@@ -536,6 +536,110 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101021] = {
+		name = "Summer Longing",
+		ship_group = 10102,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Saratoga went over there, and Lexington is... Oh, Commander, good morning! Are you here to play with us, or were you just out for some fresh air...?",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "duwei_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "106",
+		skin_type = 0,
+		id = 101021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "duwei_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70212,
+		voice_actor = 178,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.79,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.119,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					0.74,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.37,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[101022] = {
 		name = "A Christmas Thank-You",
 		ship_group = 10102,
@@ -24366,7 +24470,7 @@ pg.ship_skin_template = {
 		ship_group = 10723,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "独立级航空母舰-普林斯顿，舷号CVL-23",
+		desc = "Independence-class light aircraft carrier – Princeton (CVL-23.) ",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "pulinsidun",
@@ -24388,7 +24492,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 249,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -24435,6 +24539,103 @@ pg.ship_skin_template = {
 			plane = {
 				{
 					1.439,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107231] = {
+		name = "Canoe Training ",
+		ship_group = 10723,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Commander, are you also here to swim? ...Ah, this here? I brought it with me to the ocean to get some practice in. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "pulinsidun_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "106",
+		skin_type = 0,
+		id = 107231,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "pulinsidun_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70433,
+		voice_actor = 249,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.176,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					1.308,
 					0.955,
 					0
 				}
@@ -26869,6 +27070,117 @@ pg.ship_skin_template = {
 						{
 							-0.37,
 							2.59,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201031] = {
+		name = "Ardent Valentine",
+		ship_group = 20103,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Ehehe~ What do you think, Commander? If you're just going to say \"cute,\" I won't know if you're talking about my school uniform or the chocolate I made...",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "rexin_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "103",
+		skin_type = 0,
+		id = 201031,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "rexin_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70319,
+		voice_actor = 111,
+		air_bomb_skin = "",
+		illustrator = 38,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.09,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.16,
 							0
 						}
 					}
@@ -42838,6 +43150,110 @@ pg.ship_skin_template = {
 				{
 					1.218,
 					1.014,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[205013] = {
+		name = "Queen of the Campus",
+		ship_group = 20501,
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "Hehe, behold the new outfit that I had Akashi make for me! Impressive, no? Prostrate yourself before the elegant charm of my school uniform, servant~♪",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yilishabai_4",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "103",
+		skin_type = 0,
+		id = 205013,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yilishabai_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 19,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.133,
+					1.142,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.173,
+					1.154,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					1.135,
 					0
 				}
 			}
@@ -128126,6 +128542,7 @@ pg.ship_skin_template = {
 		},
 		[10102] = {
 			101020,
+			101021,
 			101022
 		},
 		[10103] = {
@@ -128553,7 +128970,8 @@ pg.ship_skin_template = {
 			107222
 		},
 		[10723] = {
-			107230
+			107230,
+			107231
 		},
 		[10729] = {
 			107290,
@@ -128600,6 +129018,7 @@ pg.ship_skin_template = {
 		},
 		[20103] = {
 			201030,
+			201031,
 			201039
 		},
 		[20106] = {
@@ -128860,7 +129279,8 @@ pg.ship_skin_template = {
 		[20501] = {
 			205010,
 			205011,
-			205012
+			205012,
+			205013
 		},
 		[20502] = {
 			205020,
@@ -130467,6 +130887,7 @@ pg.ship_skin_template = {
 		100010,
 		100020,
 		101020,
+		101021,
 		101022,
 		101030,
 		101039,
@@ -130687,6 +131108,7 @@ pg.ship_skin_template = {
 		107221,
 		107222,
 		107230,
+		107231,
 		107290,
 		107291,
 		107380,
@@ -130711,6 +131133,7 @@ pg.ship_skin_template = {
 		201022,
 		201029,
 		201030,
+		201031,
 		201039,
 		201060,
 		201070,
@@ -130852,6 +131275,7 @@ pg.ship_skin_template = {
 		205010,
 		205011,
 		205012,
+		205013,
 		205020,
 		205021,
 		205022,

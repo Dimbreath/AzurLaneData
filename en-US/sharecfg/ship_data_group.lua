@@ -38,6 +38,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -77,6 +87,16 @@ pg.ship_data_group = {
 				"Weekly Mission",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -4685,6 +4705,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[473] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 107,
+		group_type = 10723,
+		code = 473,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Sundered Blue",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[403] = {
 		type = 6,
 		trans_skin = 0,
@@ -5119,7 +5170,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Event: Glorious Final Battle",
+				"Event: Glorious Battle",
 				{
 					""
 				},
@@ -5159,7 +5210,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Event: Glorious Final Battle",
+				"Event: Glorious Battle",
 				{
 					""
 				},
@@ -5643,6 +5694,16 @@ pg.ship_data_group = {
 				"Event: Winter's Crown",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -8664,7 +8725,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: Glorious Final Battle",
+				"Event: Glorious Battle",
 				{
 					""
 				},
@@ -17405,6 +17466,7 @@ pg.ship_data_group = {
 		442,
 		380,
 		377,
+		473,
 		403,
 		378,
 		358,

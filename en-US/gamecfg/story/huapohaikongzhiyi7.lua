@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 1,
 			stopbgm = true,
-			say = "{namecode:96}，{namecode:97}刚刚被一枚鱼雷命中，不过没受到太大损伤，很快就能继续战斗了。",
+			say = "Zuikaku, Taihou seems to have been hit by a torpedo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "白鹰的潜艇居然已经摸到这么近的地方来了...{namecode:95}姐，让驱逐编队加强反潜警戒。",
+			say = "How'd an Eagle Union submarine find its way here? Shoukaku, tell the destroyers to be on high alert. Let's find out who attacked us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯，已经安排了哦。{namecode:97}在遇袭之前发现了一支正在破坏我们机场的落单白鹰小队，你觉得怎么样？",
+			say = "Indeed. With such a large strike force, we'll have to make proper use of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "作为目标来说真是再合适不过了！{namecode:95}姐，我们来继续发动攻击吧！",
+			say = "That's right! I'll have to teach them not to underestimate the strength of the Sakura Empire's Air Fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呵呵，正合我意。就将这首安魂曲送给你们吧，白鹰的舰艇们~",
+			say = "Hehehe, I wonder if it's time to play a requiem with this flute~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
-			say = "塞潘岛西侧海域 普林斯顿舰队",
+			say = "West of SP Island - Princeton's Fleet",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "伯明翰，刚才你说我和蒙彼利埃比较像是么...？",
+			say = "Birmingham, what were you saying earlier about me and Montpelier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "啊...！那个只是随口一说，你不用在意。",
+			say = "Oh... I was just making a little remark. Don't worry about it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我不是那个意思，你应该也知道，本来我也有可能成为克利夫兰级的一员。",
+			say = "That's not what I meant. You know how originally the Independence class was designed to be Cleveland-class ships?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "仔细想了想，我现在对克利夫兰级的各位都还不太了解呢，你能向我介绍一下么？",
+			say = "I really wanted to get to know all of you a bit better, like Biloxi and the others... but I never really had the opportunity to do so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "唔......全部介绍起来可是要稍微花一些时间哦？",
+			say = "Sisters, huh. I don't know them as well as the Columbia-class girls, but if that's fine, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "首先是我们的大姐头，克利夫兰。永远被阳光和自信所包围着，见过她帅气身姿的人都会留下深刻的印象。",
+			say = "First should be Cleveland. She's always confident and a moodmaker. She's everyone's cool big sis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，本次作战中，克利夫兰也给我留下了深刻的印象。",
+			say = "No wonder you look up to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "哈哈哈，对吧~然后是二姐哥伦比亚，她比起大姐来要更随性一些，而且总是泡泡糖不离身。",
+			say = "Next would be Columbia. She's really friendly with Cleve... Maybe it's just her teasing her, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "蒙彼利埃的话，你之前也见到过了。她非常崇拜大姐头，一直以大姐头为目标，追随着大姐头的脚步前行。",
+			say = "And then would be Montpelier and Denver. They both admire Cleve and aim to be like her, but they're working towards that in different ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后是四姐————————",
+			say = "Then, there's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "（蒙彼利埃是以克利夫兰为目标，追随着克利夫兰的脚步前行，我的话，就是萨拉托加前辈了吧...）",
+			say = "(Montpelier has Cleveland's back... It's like me with Saratoga...)",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -332,7 +332,7 @@ return {
 			blackBg = true,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "（呵呵，这么看来，应该真的和她很聊得来呢。）",
+			say = "(Hehe, I might get along with her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

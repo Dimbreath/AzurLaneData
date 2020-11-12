@@ -1,21 +1,16 @@
-slot0 = class("HMSHunterPTPage", import(".XiaobeiFaPage"))
+slot0 = class("HMSHunterPTPage", import(".TemplatePage.PtTemplatePage"))
 
 function slot0.OnInit(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.btn = slot0:findTF("btn", slot0.bg)
-	slot0.bonusList = slot0:findTF("bonus_list", slot0.bg)
-	slot0.progress = slot0:findTF("progress", slot0.bg)
-	slot0.progressTxt = slot0:findTF("progressText", slot0.bg)
-	slot0.phaseTxt = slot0:findTF("phase/Text", slot0.bg)
-	slot0.award = slot0:findTF("award", slot0.bg)
-end
+	slot0.super.OnInit(slot0)
 
-function slot0.OnDataSetting(slot0)
-	return updateActivityTaskStatus(slot0.activity)
-end
+	slot0.helpBtn = slot0:findTF("help", slot0.bg)
 
-function slot0.OnUpdateFlush(slot0)
-	slot0:flush_task_list_pt()
+	onButton(slot0, slot0.helpBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("hunter_npc")
+		})
+	end, SFX_PANEL)
 end
 
 function slot0.flush_task_list_pt(slot0)

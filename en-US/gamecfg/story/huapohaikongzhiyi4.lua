@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "塞潘岛西侧海域 白鹰主力舰队",
+			say = "West of SP Island — Eagle Union's Main Fleet",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "重樱这些家伙，终于还是主动攻过来了啊...",
+			say = "So, the Sakura Empire's fleet is finally launching its attack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "正好，我也等得有些不耐烦了。",
+			say = "Just what we were waiting for! Everyone, prepare for combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业，已经向普林斯顿小队发消息了，她们在解决了面前残余的敌人之后就会返航加入战斗。",
+			say = "Enterprise, I've already relayed the information to Princeton and co. They said they'd be coming to join up with us once they finish taking care of the enemy's remnants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，重樱的航空力量虽然比之前弱了不少，但是我们仍需要全力应战。",
+			say = "Got it. The enemy's air forces shouldn't be as strong as they were before, but... don't let your guard down. We're engaging the enemy, full force!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 102140,
 			nameColor = "#a9f548",
-			say = "我也准备好了哦，企业，防空就交给我们吧！",
+			say = "Ready over here too. Don't let the enemy get close!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "抱歉，我们计划在空中就将敌机全部消灭掉......不过有漏网之鱼的话，就拜托你们了。",
+			say = "I'm not planning on letting any through... But if any do make it past me, I'll leave that to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "嘿嘿，我就喜欢企业这股自信的气势~让我们一鼓作气，迎接又一场胜利吧！",
+			say = "Sure thing! Hehe, let's take care of them in one fell swoop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

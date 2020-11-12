@@ -38011,6 +38011,194 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[13710] = {
+		desc_get = "",
+		name = "Evasive Scramble",
+		desc = "When this ship launches an Airstrike (airstrikes launched via skills do not count): decreases this ship's aviation DMG taken by $1 for 8s. When this buff wears off: $1 chance to launch an additional $2 TBF Avenger airstrike (DMG is based on the skill's level.)",
+		type = 2,
+		max_level = 10,
+		id = 13710,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13720] = {
+		desc_get = "",
+		name = "Extinguishing Gale",
+		desc = "When sortied with Birmingham or when there are at least 3 Eagle Union ships in the fleet: decreases your Vanguard's Burn DMG taken by $1 and Burn duration by $2s; if this ship is your Flagship: further decreases your Vanguard's Burn duration by $2s.",
+		type = 3,
+		max_level = 10,
+		id = 13720,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1",
+				"3"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.9%"
+				},
+				{
+					"5.9%",
+					"+0.9%"
+				},
+				{
+					"6.8%",
+					"+1.2%"
+				},
+				{
+					"8.0%",
+					"+0.9%"
+				},
+				{
+					"8.9%",
+					"+0.9%"
+				},
+				{
+					"9.8%",
+					"+1.2%"
+				},
+				{
+					"11.0%",
+					"+1.2%"
+				},
+				{
+					"12.2%",
+					"+1.2%"
+				},
+				{
+					"13.4%",
+					"+1.6%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				}
+			}
+		}
+	},
 	[13730] = {
 		desc_get = "",
 		name = "Encore Flare",
@@ -50774,6 +50962,8 @@ pg.skill_data_template = {
 		13680,
 		13690,
 		13700,
+		13710,
+		13720,
 		13730,
 		13740,
 		13750,

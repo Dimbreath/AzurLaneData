@@ -89,6 +89,8 @@ function slot6.OpeningEffect(slot0, slot1, slot2)
 		slot0._joystick.anchorMax = Vector2(slot3.x, slot3.y)
 	elseif slot2 == SYSTEM_SUB_ROUTINE then
 		slot0._skillView:SubRoutineButton()
+	elseif slot2 == SYSTEM_AIRFIGHT then
+		slot0._skillView:AirFightButton()
 	elseif slot2 == SYSTEM_DEBUG then
 		slot0._skillView:NormalButton()
 	elseif pg.SeriesGuideMgr.GetInstance().currIndex and slot3:isEnd() then
@@ -158,6 +160,10 @@ end
 
 function slot6.InitScoreBar(slot0)
 	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui:findTF("DodgemCountBar"))
+end
+
+function slot6.InitAirFightScoreBar(slot0)
+	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui:findTF("AirFightCountBar"))
 end
 
 function slot6.InitKizunaJamming(slot0)
@@ -312,6 +318,14 @@ end
 
 function slot6.ShowDodgemScoreBar(slot0)
 	slot0:InitScoreBar()
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_DODGEM_SCORE, slot0.onUpdateDodgemScore)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_DODGEM_COMBO, slot0.onUpdateDodgemCombo)
+	slot0._scoreBarView:UpdateScore(0)
+	slot0._scoreBarView:SetActive(true)
+end
+
+function slot6.ShowAirFightScoreBar(slot0)
+	slot0:InitAirFightScoreBar()
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_DODGEM_SCORE, slot0.onUpdateDodgemScore)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_DODGEM_COMBO, slot0.onUpdateDodgemCombo)
 	slot0._scoreBarView:UpdateScore(0)

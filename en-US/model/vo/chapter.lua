@@ -11,7 +11,6 @@ slot0.CHAPTER_STATE = {
 function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
-	slot0.unlock = false
 	slot0.progress = defaultValue(slot1.progress, 0)
 	slot0.defeatCount = slot1.defeat_count or 0
 	slot0.passCount = slot1.pass_count or 0
@@ -649,12 +648,12 @@ function slot0.getStartTime(slot0)
 	return math.max(slot0.dueTime - slot0:getConfig("time"), 0)
 end
 
-function slot0.setUnlock(slot0, slot1)
-	slot0.unlock = slot1
-end
-
 function slot0.isUnlock(slot0)
-	return slot0.unlock
+	if slot0:getConfig("pre_chapter") == 0 then
+		return true
+	else
+		return getProxy(ChapterProxy):getChapterById(slot1):isClear()
+	end
 end
 
 function slot0.isClear(slot0)
@@ -1028,6 +1027,8 @@ function slot0.updateCommander(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getEliteFleetList(slot0)
+	slot0:EliteShipTypeFilter()
+
 	return slot0.eliteFleetList
 end
 
@@ -1417,10 +1418,6 @@ function slot0.selectFleets(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.isEliteChapter(slot0)
-	return Map.IsType(slot0:getConfig("map"), Map.ELITE)
-end
-
 function slot0.getInEliteShipIDs(slot0)
 	slot1 = {}
 
@@ -1433,13 +1430,9 @@ function slot0.getInEliteShipIDs(slot0)
 	return slot1
 end
 
-function slot0.isActivity(slot0)
-	return Map.StaticIsActivity(slot0:getConfig("map"))
-end
-
 function slot0.activeAlways(slot0)
-	if slot0:isActivity() and type(pg.activity_template[slot0:getConfig("act_id")].config_client) == "table" then
-		return table.contains(slot2.config_client.prevs or {}, slot0.id)
+	if getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isActivity() and type(pg.activity_template[slot0:getConfig("act_id")].config_client) == "table" then
+		return table.contains(slot3.config_client.prevs or {}, slot0.id)
 	end
 
 	return false
@@ -1453,10 +1446,6 @@ function slot0.getPrevChapterName(slot0)
 	end
 
 	return slot1
-end
-
-function slot0.getMapType(slot0)
-	return pg.expedition_data_by_map[slot0:getConfig("map")].type
 end
 
 function slot0.getMaxColumnByRow(slot0, slot1)
@@ -2301,26 +2290,32 @@ function slot0.UpdateProgressOnRetreat(slot0)
 
 	slot0.defeatCount = slot0.defeatCount + 1
 
-	if not slot0:isActivity() then
-		if slot0:getMapType() == Map.ELITE then
-			pg.TrackerMgr.GetInstance():Tracking(TRACKING_HARD_CHAPTER, slot0.id)
-		elseif slot3 == Map.SCENARIO then
-			if slot0.progress == 100 and slot0.passCount == 0 then
-				pg.TrackerMgr.GetInstance():Tracking(TRACKING_HIGHEST_CHAPTER, slot0.id)
-			end
+	if getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):getMapType() == Map.ELITE then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_HARD_CHAPTER, slot0.id)
+	elseif slot4 == Map.SCENARIO then
+		if slot0.progress == 100 and slot0.passCount == 0 then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_HIGHEST_CHAPTER, slot0.id)
+		end
 
-			if slot0.defeatCount == 1 then
-				if slot0.id == 1204 then
-					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_12_4)
-				elseif slot0.id == 1301 then
-					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_1)
-				elseif slot0.id == 1302 then
-					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_2)
-				elseif slot0.id == 1303 then
-					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_3)
-				elseif slot0.id == 1304 then
-					pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_4)
-				end
+		if slot0.defeatCount == 1 then
+			if slot0.id == 304 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_3_4)
+			elseif slot0.id == 404 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_4_4)
+			elseif slot0.id == 504 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_5_4)
+			elseif slot0.id == 604 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_6_4)
+			elseif slot0.id == 1204 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_12_4)
+			elseif slot0.id == 1301 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_1)
+			elseif slot0.id == 1302 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_2)
+			elseif slot0.id == 1303 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_3)
+			elseif slot0.id == 1304 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_4)
 			end
 		end
 	end
@@ -2777,36 +2772,6 @@ end
 
 function slot0.IsSkipPrecombat(slot0)
 	return slot0:isLoop() and getProxy(ChapterProxy):GetSkipPrecombat()
-end
-
-function slot0.StaticIsChapterBindedActivityActive(slot0)
-	if not uv0.bindConfigTable()[slot0] then
-		return false
-	end
-
-	if not Map.StaticIsActivity(slot1.map) or uv0.StaticIsChapterRemaster(slot0) then
-		return true
-	end
-
-	if slot1.act_id == 0 then
-		return true
-	end
-
-	return getProxy(ActivityProxy):IsActivityNotEnd(slot2)
-end
-
-function slot0.StaticIsChapterRemaster(slot0)
-	for slot4, slot5 in ipairs(pg.re_map_template.all) do
-		if table.contains(pg.re_map_template[slot5].config_data, slot0) then
-			slot8 = pg.TimeMgr.GetInstance():GetServerTime()
-
-			if slot6.time == "always" or slot7:parseTimeFromConfig(slot9[2], true) <= slot8 and slot8 <= slot7:parseTimeFromConfig(slot9[3], true) then
-				return true
-			end
-		end
-	end
-
-	return false
 end
 
 function slot0.getTodayDefeatCount(slot0)

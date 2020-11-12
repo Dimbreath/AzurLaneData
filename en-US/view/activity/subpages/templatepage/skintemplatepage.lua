@@ -63,8 +63,8 @@ function slot0.OnUpdateFlush(slot0)
 		slot0.nday
 	}, {
 		1
-	}) and not pg.StoryMgr.GetInstance():IsPlayed(slot1[slot0.nday][1]) then
-		slot2:Play(slot1[slot0.nday][1])
+	}) then
+		pg.NewStoryMgr.GetInstance():Play(slot1[slot0.nday][1])
 	end
 
 	if slot0.dayTF then

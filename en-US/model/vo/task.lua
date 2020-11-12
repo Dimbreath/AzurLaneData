@@ -50,13 +50,9 @@ function slot0.getProgress(slot0)
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_BOSS_PT then
 		slot1 = getProxy(PlayerProxy):getData():getResById(tonumber(slot0:getConfig("target_id")))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_STROY then
-		slot2 = getProxy(PlayerProxy):getRawData()
-
-		_.each(_.map(slot0:getConfig("target_id"), function (slot0)
-			return uv0:getStoryByIndexID(slot0)
-		end), function (slot0)
-			if uv0:IsPlayed(slot0) then
-				uv1 = uv1 + 1
+		_.each(slot0:getConfig("target_id"), function (slot0)
+			if pg.NewStoryMgr.GetInstance():GetPlayedFlag(slot0) then
+				uv0 = uv0 + 1
 			end
 		end)
 
@@ -85,8 +81,20 @@ function slot0.getTaskStatus(slot0)
 end
 
 function slot0.onAdded(slot0)
-	if slot0:getConfig("story_id") and slot2 ~= "" then
-		pg.StoryMgr.GetInstance():PlayOnTaskAdded(slot2, function ()
+	if slot0:getConfig("story_id") and slot3 ~= "" and function ()
+		if not table.contains({
+			"LevelScene",
+			"BattleScene",
+			"EventListScene",
+			"MilitaryExerciseScene",
+			"DailyLevelScene"
+		}, getProxy(ContextProxy):getCurrentContext().viewComponent.__cname) then
+			return true
+		end
+
+		return false
+	end() then
+		pg.NewStoryMgr.GetInstance():Play(slot3, function ()
 			if uv0:getConfig("sub_type") == 29 then
 				if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
 					return slot0:getConfig("task_id") == uv0.id

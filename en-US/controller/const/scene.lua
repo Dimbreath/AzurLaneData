@@ -78,6 +78,7 @@ SCENE = {
 	SHIPINFO = "scene shipinfo",
 	DEPOTSCENE = "scene depot scene",
 	ITEM_ORIGIN_PAGE = "item special page",
+	AIRFORCE_DRAGONEMPERY = "scene AirForceOfDragonEmpery",
 	BILLBOARD = "scene billboard",
 	MILITARYEXERCISE = "scene militaryexercise",
 	THIRD_ANNIVERSARY_SQUARE = "third anniversary square"

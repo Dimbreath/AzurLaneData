@@ -243322,6 +243322,1830 @@ pg.chapter_template = {
 		wall_prefab = {},
 		alarm_cell = {}
 	},
+	[1420001] = {
+		pos_x = "0.20234375",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "HUAPOHAIKONGZHIYI2",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 150,
+		best_air_dominance = 195,
+		count = 0,
+		id = 1420001,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 0,
+		formation = 1420001,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.34375",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 0,
+		num_2 = 20,
+		map = 1420001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "A Careful Stratagem",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 30757,
+		enter_story = "HUAPOHAIKONGZHIYI1",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Enemy aerial forces have been discovered around the islands in the nearby waters! While the main fleet focuses on defense, lead a separate fleet to gain air superiority!",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1460001,
+				15,
+				0
+			},
+			{
+				1460002,
+				20,
+				0
+			},
+			{
+				1460003,
+				30,
+				1
+			},
+			{
+				1460004,
+				15,
+				0
+			},
+			{
+				1460005,
+				20,
+				0
+			},
+			{
+				1460006,
+				30,
+				1
+			},
+			{
+				1460008,
+				20,
+				0
+			},
+			{
+				1460009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1460005,
+			1460008
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1460013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"miaogaodanchuan"
+		},
+		awards = {
+			{
+				2,
+				58034
+			},
+			{
+				2,
+				58028
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				8
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				4
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				6,
+				"pulinsidun_3x1_1",
+				102,
+				0
+			},
+			{
+				4,
+				3,
+				"pulinsidun_1x1_3",
+				0,
+				4
+			},
+			{
+				2,
+				5,
+				"pulinsidun_1x2_2",
+				10,
+				-44
+			},
+			{
+				0,
+				7,
+				"pulinsidun_1x1_1",
+				1,
+				1
+			},
+			{
+				0,
+				0,
+				"pulinsidun_2x2_2",
+				61,
+				-45
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_pulinsidun",
+			45,
+			20,
+			-88,
+			-189,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HUAPOHAIKONGZHIYI3"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1420002] = {
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 300,
+		best_air_dominance = 390,
+		count = 0,
+		id = 1420002,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1420001,
+		formation = 1420001,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.070833333",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 0,
+		num_2 = 25,
+		map = 1420001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Interception",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 30757,
+		enter_story = "HUAPOHAIKONGZHIYI4",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The enemy has launched an attack! Beat back the enemy airplanes that sunder the blue skies, and neutrallize the threat!",
+		difficulty = 7,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1461001,
+				15,
+				0
+			},
+			{
+				1461002,
+				20,
+				0
+			},
+			{
+				1461003,
+				30,
+				1
+			},
+			{
+				1461004,
+				15,
+				0
+			},
+			{
+				1461005,
+				20,
+				0
+			},
+			{
+				1461006,
+				30,
+				1
+			},
+			{
+				1461008,
+				20,
+				0
+			},
+			{
+				1461009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1461005,
+			1461008
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1461013
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			1
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"dafeng"
+		},
+		awards = {
+			{
+				2,
+				58035
+			},
+			{
+				2,
+				58029
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				8
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				8
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				1
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				0,
+				"pulinsidun_1x1_3",
+				-2,
+				0
+			},
+			{
+				5,
+				7,
+				"pulinsidun_1x2_1",
+				-4,
+				-42
+			},
+			{
+				4,
+				2,
+				"pulinsidun_2x2_1",
+				66,
+				-46
+			},
+			{
+				2,
+				4,
+				"pulinsidun_3x1_1",
+				92,
+				4
+			},
+			{
+				1,
+				1,
+				"pulinsidun_1x1_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_pulinsidun",
+			45,
+			20,
+			-168,
+			-299,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HUAPOHAIKONGZHIYI6"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1420003] = {
+		pos_x = "0.6375",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "HUAPOHAIKONGZHIYI8",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 700,
+		best_air_dominance = 910,
+		count = 0,
+		id = 1420003,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1420002,
+		formation = 1420001,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.221875",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		is_ai = 0,
+		num_2 = 35,
+		map = 1420001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Air Superiority",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 30757,
+		enter_story = "HUAPOHAIKONGZHIYI7",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The enemy has no intention on letting us rejoin the main fleet, and the attacks have become more intense! Could we have become their primary target?",
+		difficulty = 8,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1462001,
+				15,
+				0
+			},
+			{
+				1462002,
+				20,
+				0
+			},
+			{
+				1462003,
+				30,
+				1
+			},
+			{
+				1462004,
+				15,
+				0
+			},
+			{
+				1462005,
+				20,
+				0
+			},
+			{
+				1462006,
+				30,
+				1
+			},
+			{
+				1462008,
+				20,
+				0
+			},
+			{
+				1462009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1462005,
+			1462008
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1462013
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			1,
+			1
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xianghe"
+		},
+		awards = {
+			{
+				2,
+				58036
+			},
+			{
+				2,
+				58030
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				1
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				4
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				4
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				7,
+				"pulinsidun_2x2_1",
+				67,
+				-45
+			},
+			{
+				4,
+				4,
+				"pulinsidun_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				0,
+				"pulinsidun_1x2_2",
+				1,
+				-34
+			},
+			{
+				2,
+				7,
+				"pulinsidun_1x1_1",
+				0,
+				0
+			},
+			{
+				0,
+				3,
+				"pulinsidun_3x1_1",
+				100,
+				6
+			},
+			{
+				0,
+				0,
+				"pulinsidun_2x2_2",
+				52,
+				-38
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_pulinsidun",
+			45,
+			20,
+			-235,
+			-205,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HUAPOHAIKONGZHIYI10"
+		},
+		defeat_story_count = {
+			5
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
 	[1430001] = {
 		pos_x = "0.14609375",
 		num_3 = 8,
@@ -287300,6 +289124,2119 @@ pg.chapter_template = {
 		chapter_buff = {},
 		alarm_cell = {}
 	},
+	[2200021] = {
+		pos_x = "0.20234375",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 81,
+		best_air_dominance = 150,
+		count = 0,
+		id = 2200021,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 0,
+		formation = 2200020,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.34375",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 18,
+		ammo_submarine = 0,
+		is_ai = 0,
+		num_2 = 20,
+		map = 2200020,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Carelessness",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 100001,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Glorious parted with Ark Royal and proceeded to move independently with her escorts Ardent and Acasta. However, an unknown danger lies in wait on the course they're taking...",
+		difficulty = 6,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1050010,
+				15,
+				0
+			},
+			{
+				1050020,
+				20,
+				0
+			},
+			{
+				1050030,
+				30,
+				1
+			},
+			{
+				1050040,
+				15,
+				0
+			},
+			{
+				1050050,
+				20,
+				0
+			},
+			{
+				1050060,
+				30,
+				1
+			},
+			{
+				1050070,
+				15,
+				0
+			},
+			{
+				1050080,
+				20,
+				0
+			},
+			{
+				1050090,
+				30,
+				1
+			},
+			{
+				1050100,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {
+			1050210,
+			1050211,
+			1050212
+		},
+		guarder_expedition_list = {
+			1050020,
+			1050050,
+			1050080
+		},
+		elite_expedition_list = {
+			1050050,
+			1050080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1050500
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xipeierhaijunshangjiang"
+		},
+		awards = {
+			{
+				2,
+				57177
+			},
+			{
+				2,
+				57171
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				6
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				6
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				6
+			},
+			{
+				9,
+				2,
+				true,
+				4
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				6
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				6
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				8,
+				2,
+				"1x1IceIsland_2",
+				-108,
+				8
+			},
+			{
+				7,
+				7,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				9,
+				"1x1IceIsland_2",
+				4,
+				8
+			},
+			{
+				5,
+				4,
+				"2x3IceIsland_1",
+				41,
+				-23
+			},
+			{
+				5,
+				2,
+				"2x1ICEIsland_2",
+				61,
+				5
+			},
+			{
+				5,
+				1,
+				"2x1ICEIsland_1",
+				25,
+				-10
+			},
+			{
+				4,
+				7,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				3,
+				4,
+				"1x1IceIsland_2",
+				0,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-278,
+			110,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {
+			"ZHUNUO2"
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[2200022] = {
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 100,
+		best_air_dominance = 150,
+		count = 0,
+		id = 2200022,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 2200021,
+		formation = 2200020,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.070833333",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 20,
+		ammo_submarine = 0,
+		is_ai = 0,
+		num_2 = 30,
+		map = 2200020,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Pursuit and Retreat",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 100001,
+		enter_story = "ZHUNUO5",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "In a moment of carelessness, Glorious and her escorts were ambushed. They managed to get away – just barely – but they had no idea the Iron Blood fleet – now more powerful – was still in pursuit.",
+		difficulty = 7,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1051010,
+				15,
+				0
+			},
+			{
+				1051020,
+				20,
+				0
+			},
+			{
+				1051030,
+				30,
+				1
+			},
+			{
+				1051040,
+				15,
+				0
+			},
+			{
+				1051050,
+				20,
+				0
+			},
+			{
+				1051060,
+				30,
+				1
+			},
+			{
+				1051070,
+				15,
+				0
+			},
+			{
+				1051080,
+				20,
+				0
+			},
+			{
+				1051090,
+				30,
+				1
+			},
+			{
+				1051100,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {
+			1051210,
+			1051211,
+			1051212
+		},
+		guarder_expedition_list = {
+			1051020,
+			1051050,
+			1051080
+		},
+		elite_expedition_list = {
+			1051050,
+			1051080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1051500
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"genaisennao"
+		},
+		awards = {
+			{
+				2,
+				57178
+			},
+			{
+				2,
+				57172
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				4
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				4
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				8
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				8
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				8
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"1x1IceIsland_2",
+				0,
+				8
+			},
+			{
+				6,
+				8,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				6,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				6,
+				4,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				5,
+				2,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				9,
+				"2x1ICEIsland_1",
+				1,
+				8
+			},
+			{
+				3,
+				6,
+				"2x1ICEIsland_2",
+				-9,
+				10
+			},
+			{
+				3,
+				5,
+				"2x1ICEIsland_1",
+				6,
+				-13
+			},
+			{
+				3,
+				4,
+				"1x1IceIsland_1",
+				-5,
+				6
+			},
+			{
+				3,
+				1,
+				"1x1IceIsland_2",
+				-4,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-351,
+			9,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[2200023] = {
+		pos_x = "0.6375",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 120,
+		best_air_dominance = 150,
+		count = 0,
+		id = 2200023,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 2200022,
+		formation = 2200020,
+		chapter_tag = 0,
+		pop_pic = "",
+		star_require_1 = 1,
+		pos_y = "0.221875",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 22,
+		ammo_submarine = 0,
+		is_ai = 0,
+		num_2 = 35,
+		map = 2200020,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "Glorious Battle",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 100001,
+		enter_story = "ZHUNUO8",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Hold nothing back and show our powerful enemy what the Royal Navy is capable of! Glory to the fleet and God save the Queen!",
+		difficulty = 8,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1052010,
+				15,
+				0
+			},
+			{
+				1052020,
+				20,
+				0
+			},
+			{
+				1052030,
+				30,
+				1
+			},
+			{
+				1052040,
+				15,
+				0
+			},
+			{
+				1052050,
+				20,
+				0
+			},
+			{
+				1052060,
+				30,
+				1
+			},
+			{
+				1052070,
+				15,
+				0
+			},
+			{
+				1052080,
+				20,
+				0
+			},
+			{
+				1052090,
+				30,
+				1
+			},
+			{
+				1052100,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {
+			1052210,
+			1052211,
+			1052212
+		},
+		guarder_expedition_list = {
+			1052020,
+			1052050,
+			1052080
+		},
+		elite_expedition_list = {
+			1052050,
+			1052080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1052500
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"shaenhuosite",
+			"genaisennao"
+		},
+		awards = {
+			{
+				2,
+				57179
+			},
+			{
+				2,
+				57173
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				1
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				1
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				8
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				3,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				6,
+				6,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"2x1ICEIsland_1",
+				13,
+				14
+			},
+			{
+				5,
+				1,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				4,
+				9,
+				"2x3IceIsland_1",
+				-44,
+				-22
+			},
+			{
+				4,
+				4,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				5,
+				"1x1IceIsland_2",
+				0,
+				10
+			},
+			{
+				2,
+				2,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				1,
+				8,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				1,
+				5,
+				"2x1ICEIsland_2",
+				-6,
+				5
+			},
+			{
+				1,
+				4,
+				"2x1ICEIsland_1",
+				0,
+				10
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-442,
+			26,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
 	[9920001] = {
 		pos_x = "0.1625",
 		num_3 = 1,
@@ -298962,6 +302899,9 @@ pg.chapter_template = {
 		1410028,
 		1410041,
 		1410051,
+		1420001,
+		1420002,
+		1420003,
 		1430001,
 		1430002,
 		1430003,
@@ -299027,6 +302967,9 @@ pg.chapter_template = {
 		2200011,
 		2200012,
 		2200013,
+		2200021,
+		2200022,
+		2200023,
 		9920001,
 		9920002,
 		9920003,

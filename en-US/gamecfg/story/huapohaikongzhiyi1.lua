@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
-			say = "塞潘岛西侧海域 午后",
+			say = "West of SP Island - Afternoon",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "怎么了，普林斯顿，你看起来不是很高兴啊。",
+			say = "Something wrong, Princeton? You look like you're in a bad mood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "克利夫兰，我们现在的策略…是不是有些太保守了？",
+			say = "Cleveland, don't you think our current operation... is a bit too conservative?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明已经占领了塞潘岛，却只是在周围摆好架势等待重樱的进攻...",
+			say = "We know SP Island has already been occupied, but all we're doing is staking out over here waiting for the Sakura Empire to strike first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "以我们现在的实力，完全可以主动出击。",
+			say = "With our current strength, we can make a decisive preemptive strike!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 102140,
 			nameColor = "#a9f548",
-			say = "嗯，大姐头，我也觉得现在正应该是进攻的时候！",
+			say = "Cleve, I also think we should make the first move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "轻敌可是大忌哦？普林斯顿，蒙彼利埃。",
+			say = "I get how both of you feel. I don't think it'd be a bad idea either, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "三天前我们接到了潜艇部队传来的目击报告，现在重樱的舰队肯定已经抵达周边海域了。",
+			say = "It's been a few days since we last got a report from our submarine fleet, so the Sakura Empire's fleet should already be nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我也觉得主动出击不坏，不过，既然司令部已经选择了更加稳妥的策略，我们就安心防守吧~",
+			say = "...Given the situation, the Naval HQ decided that the best thing to do is play it safe and stick to defense. It's best not to underestimate the enemy, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "在无法掌握具体位置的情况下，我也觉得采取防守的策略更为稳妥。",
+			say = "Until we get a clearer grasp of where the enemy is, I agree that sticking to defense is the safer bet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这片大海上，从来不缺乏以少胜多的战役……",
+			say = "We may have more submarines and surface ships, but we could still lose if we get ambushed. Let's just play it safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了，大姐头...",
+			say = "I see... That's a good point...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…如果萨拉托加前辈在这里，她会怎么选择呢......",
+			say = "What would Saratoga do... at a time like this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来大家对司令部采取防守态势的布局有些想法啊。",
+			say = "It seems that you all have an opinion on this mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "企业，你听到了啊......",
+			say = "Hm? Enterprise, were you listening in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "我也不是不能理解大家的想法。AF战役之后，我们一路顺利反攻到这里，如今所有人都充满了燃烧的战意和必胜的信心，我也不例外。",
+			say = "Yeah. Honestly, I'd like to make a move as well. We've been winning battle after battle, so we're probably all being influence by the high morale going around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，正因如此，我们才更加不能松懈。越是接近胜利之时，越是要绷紧神经，绝对不能因轻敌而给敌人可乘之机。",
+			say = "However, the more drunk you are on victory, the harder it is to keep track of your surroundings. That's why we should be extra vigilant at this moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "不然，我们之前的一切努力将因不慎而付诸东流。",
+			say = "Otherwise, even a single misstep can ruin everything we've built up to this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说的没错。抱歉，是我有些心急了...",
+			say = "Indeed... It's just as you said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，我还没说完呢。",
+			say = "...However, there's no need for us to follow every instruction to the letter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "虽然司令部的策略是稳健防守，但一味固守也不是白鹰的风格。",
+			say = "Our objective may be to just focus on protecting this area, but simply sticking to defense isn't the way our fleet does things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我身为第三支队的旗舰，在接到总攻的命令之前必须驻守此处。不过我和其他支队的队长商量后，决定分派一些舰队先行清理周边岛屿上的机场，为总攻清扫障碍。",
+			say = "As the command ship, I cannot leave this area, but... I'd like to send a fleet to the surrounding islands to establish air superiority and clear out potential obstacles to our operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "普林斯顿，这个任务交给你可以么？",
+			say = "Princeton, can I entrust you with this mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "哎？！没问题，请放心交给我吧！",
+			say = "Ah?! Y-yes! Please leave it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好。然后是护卫舰...克利夫兰，我想让你们姐妹中的一艘加上里诺共同作为普利斯顿的护卫，你有什么想法吗？",
+			say = "Alright. Next, I'll be assigning the escorts. Reno, Cleveland... I'd like one ship from each of your ship classes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			actor = 102140,
 			nameColor = "#a9f548",
-			say = "大姐头，我可以去么？！",
+			say = "Cleve, would it be okay for me to go on this mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "唔…我想…还是让伯明翰去。",
+			say = "Hmm... I think... Birmingham should do it this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +501,8 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 102230,
-			actorName = "伯明翰&蒙彼利埃",
-			say = "欸？！",
+			actorName = "Birmingham & Montpelier",
+			say = "Huh?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蒙彼利埃，你的急性子要好好治一治才行，这次就留在我身边吧！",
+			say = "You can be a little impulsive, so I'd like you to stick with me and back me up. I'll leave the anti-air to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "而伯明翰呢，你平时太谨慎了，偶尔也要主动一点才行啊。没问题吧？",
+			say = "Birmingham is a bit more cautious, so she'd probably be a good fit as an escort. Think you're up for it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "既然大姐头这么说的话……我没问题。",
+			say = "If you say so... I don't have a problem with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那好，就这么决定了。普林斯顿，里诺，伯明翰，你们的任务是清理周边岛屿上的重樱机场。",
+			say = "Alright, then it's decided. Princeton, Reno, Birmingham. Your mission is to neutralize the air forces of the Sakura Empire in the perimeter of the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果遭遇敌方主力舰队的话，也不用勉强。向司令部发消息，我们随后就到。",
+			say = "If you encounter the enemy's main fleet, report back here. Don't push yourselves, and remember that we've got your backs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "是！",
+			say = "Alright!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			blackBg = true,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "（虽然只是清理岛屿机场这样的小目标......不过终于可以主动出击了！）",
+			say = "(Neutralizing the enemy's air forces... it's a small mission, but it's time to focus!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

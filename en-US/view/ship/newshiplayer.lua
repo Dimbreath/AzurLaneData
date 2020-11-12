@@ -11,6 +11,10 @@ function slot0.getUIName(slot0)
 	return "NewShipUI"
 end
 
+function slot0.getLayerWeight(slot0)
+	return LayerWeightConst.THIRD_LAYER
+end
+
 function slot0.preload(slot0, slot1)
 	LoadSpriteAsync("newshipbg/bg_" .. slot0.contextData.ship:rarity2bgPrintForGet(), function (slot0)
 		uv0.bgSprite = slot0
@@ -53,7 +57,8 @@ function slot0.init(slot0)
 	setActive(slot0._left, not slot0.contextData.canSkip)
 	setActive(slot0.audioBtn, not slot0.contextData.canSkip)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		hideLowerLayer = true
+		hideLowerLayer = true,
+		weight = slot0:getWeightFromData()
 	})
 
 	slot0.rarityEffect = {}
@@ -311,7 +316,8 @@ function slot0.showExitTip(slot0, slot1)
 				else
 					uv1:emit(NewShipMediator.ON_EXIT)
 				end
-			end
+			end,
+			weight = slot0:getWeightFromData()
 		})
 	elseif slot1 then
 		slot1()
@@ -346,7 +352,9 @@ function slot0.didEnter(slot0)
 		uv0:emit(NewShipMediator.ON_EVALIATION, uv0._shipVO:getGroupId())
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip)
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip, nil, {
+			weight = uv0:getWeightFromData()
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		if uv0.isInView or not uv0.isLoadBg then

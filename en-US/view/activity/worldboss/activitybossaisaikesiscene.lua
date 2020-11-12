@@ -102,7 +102,7 @@ function slot0.RemasterSuffering(slot0)
 	slot3.raycastTarget = false
 
 	slot2:SetParent(slot0._tf)
-	pg.StoryMgr.GetInstance():Play("AISAIKESICAIDAN", function ()
+	pg.NewStoryMgr.GetInstance():Play("AISAIKESICAIDAN", function ()
 		uv0:emit(uv0.contextData.mediatorClass.ON_PERFORM_COMBAT, 1201204)
 	end)
 end

@@ -107,18 +107,16 @@ function slot0.didEnter(slot0)
 		end)
 	end)
 	slot0:InitFacility(slot0.door, function ()
-		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
+		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
+		if not slot1 or not slot0:getMapById(slot1):isUnlock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-			return
+		else
+			uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot2,
+				mapIdx = slot1
+			})
 		end
-
-		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot1,
-			mapIdx = slot0
-		})
 	end)
 
 	slot0.academyStudents = {}
@@ -299,7 +297,7 @@ end
 
 function slot0.TryPlayStory(slot0)
 	if "TIANHOUYUYI2" then
-		pg.StoryMgr.GetInstance():Play(slot1)
+		pg.NewStoryMgr.GetInstance():Play(slot1)
 	end
 end
 

@@ -172,7 +172,7 @@ function slot0.onPauseBtn(slot0)
 			}
 		})
 		slot1:Pause()
-	elseif slot0.contextData.system == SYSTEM_SUBMARINE_RUN or slot0.contextData.system == SYSTEM_SUB_ROUTINE or slot0.contextData.system == SYSTEM_REWARD_PERFORM then
+	elseif slot0.contextData.system == SYSTEM_SUBMARINE_RUN or slot0.contextData.system == SYSTEM_SUB_ROUTINE or slot0.contextData.system == SYSTEM_REWARD_PERFORM or slot0.contextData.system == SYSTEM_AIRFIGHT then
 		slot1:Pause()
 		slot0:warnFunc(function ()
 			ys.Battle.BattleState.GetInstance():Resume()

@@ -12,7 +12,7 @@ return {
 			bgm = "level",
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "前方发现了小股重樱舰队，应该是岛屿的驻防舰队吧。",
+			say = "A small number of Sakura Empire ships spotted up ahead. I wonder if they're the island's defense fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么办，要上么，普林斯顿？",
+			say = "What should we do, Princeton? Shall we engage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "周边没有发现其他敌人，也没有收到重樱主力舰队的情报……嗯，把它们吃下吧。",
+			say = "There are no other ships in the vicinity, and no signs of the Sakura Empire flagship either... Alright, let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解，伯明翰，准备进行战斗。",
+			say = "Roger. Birmingham, ready for combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们上吧，It's Rino time！",
+			say = "Alright, let's get to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

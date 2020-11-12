@@ -13,8 +13,8 @@ function slot0.OnUpdateFlush(slot0)
 		slot0.ptData:getTargetLevel()
 	}, {
 		1
-	}) and not pg.StoryMgr.GetInstance():IsPlayed(slot2[slot1][1]) then
-		slot3:Play(slot2[slot1][1])
+	}) then
+		pg.NewStoryMgr.GetInstance():Play(slot2[slot1][1])
 	end
 
 	slot3, slot4, slot5 = slot0.ptData:GetLevelProgress()

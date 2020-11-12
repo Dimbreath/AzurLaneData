@@ -3848,5 +3848,641 @@ pg.gameset_language_client = {
 	},
 	op_reply_128_1_3 = {
 		value = "...How about fish...?"
+	},
+	ins_129 = {
+		value = "Nothing beats the sweet fragrance of afternoon tea~"
+	},
+	ins_discuss_129_1 = {
+		value = "...Why are you lighting incense?"
+	},
+	ins_reply_129_1_1 = {
+		value = "Aromatherapy, of course. I heard it is perfect for relieving stress and improving one's mood. Would you like to try for yourself, Baltimore?"
+	},
+	ins_reply_129_1_2 = {
+		value = "Stress relief, huh? I could use some of that..."
+	},
+	ins_reply_129_1_3 = {
+		value = "Oh? Are you interested in aromatherapy too? I'd be glad to introduce you to all the different modalities and their applications!"
+	},
+	ins_reply_129_1_4 = {
+		value = "Uhh, sounds good!"
+	},
+	ins_discuss_129_2 = {
+		value = "Is this essential information for an idol? Should I have Warspite brief me upon this matter...?"
+	},
+	ins_reply_129_2_1 = {
+		value = "If you so desire, Your Majesty. Shall I make preparations for before the concert?"
+	},
+	ins_reply_129_2_2 = {
+		value = "Shouldn't we plan it after an exercise or lesson?"
+	},
+	ins_reply_129_2_3 = {
+		value = "Seems like we're a bit out of sync... in more ways than one."
+	},
+	ins_op_129_1_1 = {
+		value = "I thought the point was to reduce stress..."
+	},
+	op_reply_129_1_1 = {
+		value = "Oh, Commander, you probably could benefit too~ I'll bring some to your room next time~"
+	},
+	ins_130 = {
+		value = "Hehehe... I'll capture Commander's heart with this secret song~♡"
+	},
+	ins_discuss_130_1 = {
+		value = "Ooh, can I listen to it?"
+	},
+	ins_reply_130_1_1 = {
+		value = "This is for Commander's ears only! You, stay away!"
+	},
+	ins_reply_130_1_2 = {
+		value = "When you put it like that, I only want to hear it even more~ What should I do~?"
+	},
+	ins_reply_130_1_3 = {
+		value = "Hey... Don't get any weird ideas!"
+	},
+	ins_discuss_130_2 = {
+		value = "Hmm? Were you having a secret recording session without telling me?"
+	},
+	ins_reply_130_2_1 = {
+		value = "This is a solo recording, so there's nothing in it for you! Besides, only Commander is worthy of listening to this... Ehehe..."
+	},
+	ins_reply_130_2_2 = {
+		value = "Maybe I should do something solo as well~ Ahh, I wonder if I should give Commander a call~"
+	},
+	ins_reply_130_2_3 = {
+		value = "Hmph. Don't miss the sound check. If you prevent Commander from enjoying my song..."
+	},
+	ins_reply_130_2_4 = {
+		value = "Sure, sure~"
+	},
+	ins_op_130_1_1 = {
+		value = "I hope the contents are safe for work..."
+	},
+	op_reply_130_1_1 = {
+		value = "My dearest Commander~ Taihou's passion and love for you are nothing but pure~"
+	},
+	ins_131 = {
+		value = "My wonderful sister is enjoying her break time."
+	},
+	ins_discuss_131_1 = {
+		value = "Triomphant?! When'd you take this?!"
+	},
+	ins_reply_131_1_1 = {
+		value = "It was time for our lesson, so imagine my surprise when I found you sound asleep!"
+	},
+	ins_reply_131_1_2 = {
+		value = "I just happened to oversleep! Yeah, because I'm such a hard worker!"
+	},
+	ins_reply_131_1_3 = {
+		value = "Jeez... You should take your job more seriously!"
+	},
+	ins_reply_131_1_4 = {
+		value = "Look, the idol biz is tough stuff! Gotta rest properly, you know!"
+	},
+	ins_discuss_131_2 = {
+		value = "you must've been really tired, cuz you missed out on Dunkerque's crullers"
+	},
+	ins_reply_131_2_1 = {
+		value = "Maybe this is a new Sleeping Idol project? If anyone could pull it off, it's her."
+	},
+	ins_reply_131_2_2 = {
+		value = "Eh? Such a thing exists? Tell me more!"
+	},
+	ins_reply_131_2_3 = {
+		value = "Sounds interesting! Anything I can do to help?"
+	},
+	ins_reply_131_2_4 = {
+		value = "What... did I just read..."
+	},
+	ins_op_131_1_1 = {
+		value = "Le Mochi is cute."
+	},
+	op_reply_131_1_1 = {
+		value = "If you think so, then it falls upon me to deliver more sleeping faces... by sleeping."
+	},
+	ins_op_131_1_2 = {
+		value = "What about your lesson though?"
+	},
+	op_reply_131_1_2 = {
+		value = "Uhh... work/leisure balance?"
+	},
+	ins_132 = {
+		value = "This is cruel and unusual punishment..."
+	},
+	ins_discuss_132_1 = {
+		value = "That's what you get for being late to the lesson. Besides, cleaning builds virtue!"
+	},
+	ins_reply_132_1_1 = {
+		value = "Le Triomphant, I thought you were supposed to be on my side..."
+	},
+	ins_reply_132_1_2 = {
+		value = "Sorry, sis... But for the sake of you being able to shine on stage..."
+	},
+	ins_discuss_132_2 = {
+		value = "Le Malin, you did a really good job! We really appreciate it!"
+	},
+	ins_reply_132_2_1 = {
+		value = "F-fine... I suppose this was the right thing to do..."
+	},
+	ins_discuss_132_3 = {
+		value = "What a good girl. I'll make some more donuts for you."
+	},
+	ins_reply_132_3_1 = {
+		value = "Eh?! Donuts?"
+	},
+	ins_op_132_1_1 = {
+		value = "We told you it was a bad idea..."
+	},
+	op_reply_132_1_1 = {
+		value = "I know, I know... But seriously, I just overslept..."
+	},
+	ins_op_132_1_2 = {
+		value = "Wow, looks great. You should help me out too."
+	},
+	op_reply_132_1_2 = {
+		value = "You can't trick me with that sweet talk! I'm gonna sleep twice as long today!"
+	},
+	ins_133 = {
+		value = "Those without talent... simply have to work harder!"
+	},
+	ins_discuss_133_1 = {
+		value = "You go, girl! I can't wait to see you onstage!"
+	},
+	ins_reply_133_1_1 = {
+		value = "That's just going to make me more nervous..."
+	},
+	ins_reply_133_1_2 = {
+		value = "Just take a deep breath! Inhale! Exhale!"
+	},
+	ins_discuss_133_2 = {
+		value = "The honourable Master is cheering for you as well, Dido!"
+	},
+	ins_reply_133_2_1 = {
+		value = "R-really...?"
+	},
+	ins_reply_133_2_2 = {
+		value = "Indeed. You have the full support of me and the Royal Maids!"
+	},
+	ins_reply_133_2_3 = {
+		value = "I am moved to tears by the overwhelming show of support for this unworthy maid..."
+	},
+	ins_op_133_1_1 = {
+		value = "You've got this, Dido!"
+	},
+	op_reply_133_1_1 = {
+		value = "Oh, Master! Thank you! I'll work harder, so... please look forward to my performance!"
+	},
+	ins_op_133_1_2 = {
+		value = "Hope you're not pushing yourself too hard."
+	},
+	op_reply_133_1_2 = {
+		value = "Not at all...! As long as I think about you and the others, I feel like I can do anything!"
+	},
+	ins_134 = {
+		value = "So, I signed up because I heard there would be an \"Idol Basketball Showdown,\" but I can't break any ankles in this outfit."
+	},
+	ins_discuss_134_1 = {
+		value = "You're not supposed to play hard. Just play cute."
+	},
+	ins_reply_134_1_1 = {
+		value = "Play cute...? What does that even mean..."
+	},
+	ins_discuss_134_2 = {
+		value = "Hah! It's not a showdown without two! How about it?"
+	},
+	ins_reply_134_2_1 = {
+		value = "Now we're talking! Grab Cleveland as well!"
+	},
+	ins_reply_134_2_2 = {
+		value = "Wait, it won't be an idol activity anymore at that point..."
+	},
+	ins_discuss_134_3 = {
+		value = "I like the sound of this. Count me in!"
+	},
+	ins_reply_134_3_1 = {
+		value = "The Polaris outfits are so much easier to move around in."
+	},
+	ins_reply_134_3_2 = {
+		value = "Hah, yeah... Might be a bit rough, but at least you look gorgeous!"
+	},
+	ins_reply_134_3_3 = {
+		value = "Please don't make fun of me like that!"
+	},
+	ins_op_134_1_1 = {
+		value = "Need to see more of this side of Balti."
+	},
+	op_reply_134_1_1 = {
+		value = "Huh? What side? Well, it's a good thing, right?"
+	},
+	ins_op_134_1_2 = {
+		value = "Basketball-playing idols? That's a crossover I want to see."
+	},
+	op_reply_134_1_2 = {
+		value = "Right? If only I didn't have to wear this outfit..."
+	},
+	ins_135 = {
+		value = "This newly released pudding is simply delectable~♡"
+	},
+	ins_discuss_135_1 = {
+		value = "I was wondering where you dashed off to as soon as our rehearsal ended."
+	},
+	ins_reply_135_1_1 = {
+		value = "Shall I bring you some as well, Taihou?"
+	},
+	ins_reply_135_1_2 = {
+		value = "Sure, I'd appreciate it."
+	},
+	ins_reply_135_1_3 = {
+		value = "All right, you got it~"
+	},
+	ins_discuss_135_2 = {
+		value = "DID SOMEONE SAY PUDDING? Ahh, but I'm so far away from a store..."
+	},
+	ins_reply_135_2_1 = {
+		value = "There's one not too far from the venue."
+	},
+	ins_discuss_135_3 = {
+		value = "Let's all go together next time~"
+	},
+	ins_reply_135_3_1 = {
+		value = "Please bring me someeeee~"
+	},
+	ins_op_135_1_1 = {
+		value = "Maybe you all should make some sort of Foodie Club?"
+	},
+	op_reply_135_1_1 = {
+		value = "Sounds fun, but I really just want to enjoy some smooth, creamy pudding."
+	},
+	ins_op_135_1_2 = {
+		value = "You really love pudding don't you, Roon?"
+	},
+	op_reply_135_1_2 = {
+		value = "Yeah, but not as much as I love... sharing pudding with you~"
+	},
+	ins_136 = {
+		value = "I'm a terrifying bunny from the North! Rawrrrr!"
+	},
+	ins_discuss_136_1 = {
+		value = "Rawrrr~"
+	},
+	ins_reply_136_1_1 = {
+		value = "Rawrrrrr~!!"
+	},
+	ins_reply_136_1_2 = {
+		value = "Rawrrrrr~!!!"
+	},
+	ins_reply_136_1_3 = {
+		value = "Rawrrrrrr~!!!!"
+	},
+	ins_reply_136_1_4 = {
+		value = "STOP SPAMMING MY FEED"
+	},
+	ins_reply_136_1_5 = {
+		value = "An overwhelming display of force... Truly impressive!"
+	},
+	ins_discuss_136_2 = {
+		value = "Your stage outfit looks super cute!"
+	},
+	ins_reply_136_2_1 = {
+		value = "Is that so? It's certainly got that Northern Parliament energy, yeah?"
+	},
+	ins_reply_136_2_2 = {
+		value = "That it does. But, there's still some room for improvement when it comes to the roaring."
+	},
+	ins_reply_136_2_3 = {
+		value = "...I see. I'll try to work on it."
+	},
+	ins_op_136_1_1 = {
+		value = "I don't think rabbits roar..."
+	},
+	op_reply_136_1_1 = {
+		value = "This one does. Rawrrrr!!"
+	},
+	ins_op_136_1_2 = {
+		value = "Rawr~!"
+	},
+	op_reply_136_1_2 = {
+		value = "I see how it is! But I won't lose to you in a roar-off, dear comrade!"
+	},
+	ins_137 = {
+		value = "☆☆Albacore's got a surprise for y'all~☆☆"
+	},
+	ins_discuss_137_1 = {
+		value = "Is it candy?!"
+	},
+	ins_reply_137_1_1 = {
+		value = "Nobody needs any more of your surprises, Albacore..."
+	},
+	ins_reply_137_1_2 = {
+		value = "It's something perfectly normal this time! Trust me! I just can't tell you what's inside~☆"
+	},
+	ins_reply_137_1_3 = {
+		value = "Is that so... Well, maybe I'll give it another chance."
+	},
+	ins_discuss_137_2 = {
+		value = "Why does my box look so weird compared to the others?"
+	},
+	ins_reply_137_2_1 = {
+		value = "That's because you're also weird~ ...Just kidding! I hope you enjoy what's inside!"
+	},
+	ins_reply_137_2_2 = {
+		value = "...You're not going to fool me again!"
+	},
+	ins_reply_137_2_3 = {
+		value = "C'monnnn~ We're friends now. Open it already~"
+	},
+	ins_op_137_1_1 = {
+		value = "Woah, wonder what's inside?"
+	},
+	op_reply_137_1_1 = {
+		value = "It wouldn't be a surprise if I told you. But don't worry, you're not missing out."
+	},
+	ins_op_137_1_2 = {
+		value = "I swear your \"surprises\" are more anxiety-inducing than enemy attacks."
+	},
+	op_reply_137_1_2 = {
+		value = "Eh? Do you think I'm that sus or something? I never hurt anyone~"
+	},
+	ins_138 = {
+		value = "Thank goodness, there really wasn't anything weird inside..."
+	},
+	ins_discuss_138_1 = {
+		value = "Jeez, Taihou, you act like I regularly put weird things into boxes."
+	},
+	ins_reply_138_1_1 = {
+		value = "You absolutely DO."
+	},
+	ins_reply_138_1_2 = {
+		value = "Fine, fine, I'm sorry! I swear I won't do it again ><"
+	},
+	ins_reply_138_1_3 = {
+		value = "Nope, not buying it!"
+	},
+	ins_discuss_138_2 = {
+		value = "Haha, you two seem to get along really well."
+	},
+	ins_reply_138_2_1 = {
+		value = "Who could ever get along with a brat like her? Hmph!"
+	},
+	ins_reply_138_2_2 = {
+		value = "How mean, Taihou~ Even after I sent you a postcard cheering you on~"
+	},
+	ins_reply_138_2_3 = {
+		value = "Wow, Albacore, that looks cute. Did you draw that yourself?"
+	},
+	ins_reply_138_2_4 = {
+		value = "Look, I appreciate it. Really."
+	},
+	ins_reply_138_2_5 = {
+		value = "Eheh~ You're welcome~♪"
+	},
+	ins_op_138_1_1 = {
+		value = "I ship this."
+	},
+	op_reply_138_1_1 = {
+		value = "Aw shucks, Commander~ Not you too~"
+	},
+	ins_139 = {
+		value = "Poor baby got lost~"
+	},
+	ins_discuss_139_1 = {
+		value = "You took a perfectly good Meowfficer, and look, it has anxiety!"
+	},
+	ins_reply_139_1_1 = {
+		value = "Eh, really? All I said was, \"I'll help you return to the wild.\""
+	},
+	ins_reply_139_1_2 = {
+		value = "Return to the wild? You know, about the meowfficers..."
+	},
+	ins_reply_139_1_3 = {
+		value = "Huh? I mean what I said..."
+	},
+	ins_reply_139_1_4 = {
+		value = "This isn't getting anywhere..."
+	},
+	ins_discuss_139_2 = {
+		value = "Considering the meowfficers don't seem to listen to anyone, Roon seems to have some unique abilities."
+	},
+	ins_reply_139_2_1 = {
+		value = "But, I'm trying to smile as nicely as I can~"
+	},
+	ins_discuss_139_3 = {
+		value = "Didn't you say you were coming back to rehearsal? Yet here you are playing with the animals..."
+	},
+	ins_reply_139_3_1 = {
+		value = "Heheh~ What can I say, I like cute things~♪"
+	},
+	ins_reply_139_3_2 = {
+		value = "What... How did a meowfficer get here? I thought Akashi and the Commander were supposed to take care of them..."
+	},
+	ins_reply_139_3_3 = {
+		value = "Commander? Is Commander coming?! Taihou wants to see you so!"
+	},
+	ins_op_139_1_1 = {
+		value = "Should we take it over to Akashi?"
+	},
+	op_reply_139_1_1 = {
+		value = "I'm sure Akashi won't mind if I keep this little guy a little longer..."
+	},
+	ins_op_139_1_2 = {
+		value = "I'll take care of things."
+	},
+	op_reply_139_1_2 = {
+		value = "In that case, I'm coming to see you right now, Commander~♡"
+	},
+	ins_140 = {
+		value = "I'm not exactly your image of \"a cute girl shining on stage,\" now am I?"
+	},
+	ins_discuss_140_1 = {
+		value = "Of course you are, Baltimore! Well, I do know where you're coming from though, haha..."
+	},
+	ins_reply_140_1_1 = {
+		value = "Cleveland, you were always the model of \"cool.\" Are you also into this cutesy stuff?"
+	},
+	ins_reply_140_1_2 = {
+		value = "They're equally important! But, what's most important is that we all work hard, together."
+	},
+	ins_reply_140_1_3 = {
+		value = "Yeah... but I just hope I don't make an utter fool of myself and drag down the others..."
+	},
+	ins_reply_140_1_4 = {
+		value = "Look, you're doing great out there. Believe in yourself!"
+	},
+	ins_discuss_140_2 = {
+		value = "hmm... you do look a bit stiff though. remember, confidence is sexy!"
+	},
+	ins_reply_140_2_1 = {
+		value = "Sigh... If only you could lend me some of your appeal."
+	},
+	ins_reply_140_2_2 = {
+		value = "you've got that in spades already! now's your chance to show it off!"
+	},
+	ins_op_140_1_1 = {
+		value = "Believe in the me that believes in you!"
+	},
+	op_reply_140_1_1 = {
+		value = "Uh... I'm not sure I understand, but I'll try my best!"
+	},
+	ins_op_140_1_2 = {
+		value = "I think you're doing great."
+	},
+	op_reply_140_1_2 = {
+		value = "Really? ...I'll take your word for it then."
+	},
+	ins_141 = {
+		value = "My dear sister at a recording session"
+	},
+	ins_discuss_141_1 = {
+		value = "Formidable, did you take a picture of me? It's slightly embarrassing..."
+	},
+	ins_reply_141_1_1 = {
+		value = "But look how many shares this picture has gotten! People are loving the look!"
+	},
+	ins_reply_141_1_2 = {
+		value = "Are you interested in the idol business as well, Formidable? I think you'd have a bright future as a rock musician."
+	},
+	ins_reply_141_1_3 = {
+		value = "I-I have no interest in that stuff at all!"
+	},
+	ins_discuss_141_2 = {
+		value = "Sis, you look really focused..."
+	},
+	ins_reply_141_2_1 = {
+		value = "Unicorn, you have a pretty serious aura around you when you sing as well."
+	},
+	ins_reply_141_2_2 = {
+		value = "I can't hold a candle to you at all though >.<"
+	},
+	ins_op_141_1_1 = {
+		value = "I'm hyped for your new release!"
+	},
+	op_reply_141_1_1 = {
+		value = "I certainly do hope you enjoy it~"
+	},
+	ins_op_141_1_2 = {
+		value = "Will you be doing a signing session afterwards?"
+	},
+	op_reply_141_1_2 = {
+		value = "I'd be glad to~ Shall I stop by your office for something a bit more... personal?"
+	},
+	ins_142 = {
+		value = "Remember to stay hydrated"
+	},
+	ins_discuss_142_1 = {
+		value = "wew! tashkent is chuggin' like a champ!"
+	},
+	ins_reply_142_1_1 = {
+		value = "...What the heck are you drinking?"
+	},
+	ins_reply_142_1_2 = {
+		value = "...Water. Is there a problem?"
+	},
+	ins_discuss_142_2 = {
+		value = "Thanks for coming to rehearsal today, Tashkent."
+	},
+	ins_reply_142_2_1 = {
+		value = "You too, Illustrious. By the way, Tashkent, you looked a little unsteady earlier..."
+	},
+	ins_reply_142_2_2 = {
+		value = "Don't worry about it. We had some difficulties coordinating. Nothing some practice can't solve."
+	},
+	ins_reply_142_2_3 = {
+		value = "I see. Thanks, I'll keep that in mind."
+	},
+	ins_op_142_1_1 = {
+		value = "That's a very strange-looking water canteen."
+	},
+	op_reply_142_1_1 = {
+		value = "Is that so? ...It is what it is."
+	},
+	ins_op_142_1_2 = {
+		value = "Maybe we should set up a watering station next time."
+	},
+	op_reply_142_1_2 = {
+		value = "Yeah? Probably."
+	},
+	ins_143 = {
+		value = "I worked my butt off today as well!"
+	},
+	ins_discuss_143_1 = {
+		value = "Dido, I'm coming to cheer for you!"
+	},
+	ins_reply_143_1_1 = {
+		value = "Hermione... Sirius... Thank you for your support!"
+	},
+	ins_reply_143_1_2 = {
+		value = "Everyone, including the Commander, was quite excited! Not a bad job you did, if I must say so myself!"
+	},
+	ins_discuss_143_2 = {
+		value = "Yes, that is reflected in the merchandise sales."
+	},
+	ins_reply_143_2_1 = {
+		value = "Merchandise...? What do you mean by that?"
+	},
+	ins_reply_143_2_2 = {
+		value = "I have become such a big fan of yours that, uh..."
+	},
+	ins_reply_143_2_3 = {
+		value = "She's been selling a bunch of merchandise supporting you!"
+	},
+	ins_discuss_143_3 = {
+		value = "You still look like you're really embarrassed."
+	},
+	ins_reply_143_3_1 = {
+		value = "Yeah, just thinking about everyone's eyes fixed upon me makes me nervous..."
+	},
+	ins_reply_143_3_2 = {
+		value = "Well... that's part of what makes you cute, I guess."
+	},
+	ins_op_143_1_1 = {
+		value = "I loved hearing you sing."
+	},
+	op_reply_143_1_1 = {
+		value = "Ah... Master, I'll work even harder to improve for your sake!"
+	},
+	ins_op_143_1_2 = {
+		value = "I agree. Very cute."
+	},
+	op_reply_143_1_2 = {
+		value = "C-cute? Ahh... I'm so happy I'm at a loss of words..."
+	},
+	ins_144 = {
+		value = "Universe in Unison? More like Albacore in SPACE!!"
+	},
+	ins_discuss_144_1 = {
+		value = "Eh?! You flew to the moon?"
+	},
+	ins_reply_144_1_1 = {
+		value = "With the power of the green screen! Can't let a perfectly good theme go to waste!"
+	},
+	ins_reply_144_1_2 = {
+		value = "The stars and aliens are a good touch."
+	},
+	ins_reply_144_1_3 = {
+		value = "Zero gravity... means no more hard work... Now that's what I call heaven!"
+	},
+	ins_reply_144_1_4 = {
+		value = "Hehe, can you imagine what it'd be like to actually live in space?"
+	},
+	ins_discuss_144_2 = {
+		value = "I could never imagine being so far away from Master..."
+	},
+	ins_reply_144_2_1 = {
+		value = "I'm sure no distance could keep your feelings from being transmitted."
+	},
+	ins_reply_144_2_2 = {
+		value = "Really? Maybe I'll give it a shot then!"
+	},
+	ins_op_144_1_1 = {
+		value = "Are you planning on holding a concert in space?"
+	},
+	op_reply_144_1_1 = {
+		value = "Sure am! Gotta see how the aliens react!"
+	},
+	ins_op_144_1_2 = {
+		value = "Just to be clear, nobody is actually going to space..."
+	},
+	op_reply_144_1_2 = {
+		value = "You know what they say about landing among the stars, Commander! Go, go!"
 	}
 }

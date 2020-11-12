@@ -991,5 +991,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Haruka Chisuga ",
 		code = 248
+	},
+	{
+		actor_name = "Yukina Shiomi ",
+		code = 249
 	}
 }

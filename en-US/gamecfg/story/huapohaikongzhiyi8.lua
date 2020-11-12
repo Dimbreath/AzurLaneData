@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "发现一批正在向我们接近的重樱机群，规模比之前的袭击更大。",
+			say = "We've spotted more squadrons of planes from the Sakura Empire. There are more this time around.",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来对面不打算轻易放我们回去啊…",
+			say = "They're not going to let us join up with the main fleet that easily...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "也许在现在的对手眼里，落单的我们相比主力舰队在作为目标上有着更高的吸引力吧。",
+			say = "No... What if they've made us their primary targets rather than going after our main fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "击退第一波袭击之后就隐约感觉会变成这样了......",
+			say = "(There's no way they'd half-heartedly send a squad of this size to attack Enterprise and our main fleet... Could this squadron be coming from a different enemy force?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "虽然战场上的经验不多，但判断却十分准确呢",
+			say = "Do you know what's happening on their side?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "洞悉了敌人的心态，她们的意图和行动就能自然地推理出来——这也是我从萨拉托加前辈那里学到的。",
+			say = "\"See what someone is thinking, and you can see their future.\" That's what Saratoga (as a prankster) told me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,23 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过很明显，这波袭击已经不是仅凭我们就能解决的量了，对面的重樱航母是认真想要消灭我们。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 107230,
-			say = "立刻向企业求援。企业和埃塞克斯们现在应该会非常乐意出动航空队帮我们解决问题。",
+			say = "In any case, I don't think I'll be able to handle these numbers by myself. I'll have to get some anti-air support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +120,23 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "在援军到来之前大家坚持住。我现在开始进行迎击准备。里诺，伯明翰，援护就拜托了！",
+			say = "Contact Enterprise. We'll guide their interceptors to neutralize the enemy air squadrons.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 107230,
+			say = "And... we'll hold out until they arrive. Reno, Birmingham. Please cover me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,8 +152,8 @@ return {
 			actor = 102260,
 			dir = 1,
 			hideOther = true,
-			actorName = "里诺&伯明翰",
-			say = "交给我吧！\n明白。",
+			actorName = "Reno & Birmingham",
+			say = "Leave it to me!\nRoger.",
 			subActors = {
 				{
 					actor = 102230,

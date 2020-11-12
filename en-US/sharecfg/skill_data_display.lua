@@ -3056,6 +3056,18 @@ pg.skill_data_display = {
 		id = 13701,
 		name = "Dreambound Bow"
 	},
+	[13710] = {
+		id = 13710,
+		name = "Evasive Scramble"
+	},
+	[13711] = {
+		id = 13711,
+		name = "Counterattack!"
+	},
+	[13720] = {
+		id = 13720,
+		name = "Extinguishing Gale"
+	},
 	[13730] = {
 		id = 13730,
 		name = "Encore Flare"
@@ -5717,6 +5729,9 @@ pg.skill_data_display = {
 		13696,
 		13700,
 		13701,
+		13710,
+		13711,
+		13720,
 		13730,
 		13740,
 		13750,

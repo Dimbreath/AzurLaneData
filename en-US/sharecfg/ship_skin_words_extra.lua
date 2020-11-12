@@ -3086,6 +3086,67 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[107230] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		id = 107230,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"I'm so happy to see you again. Let's get stuff done!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"You look exhausted... Hold still, I'll wipe that sweat off your brow."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, did you watch Saratoga's exercise? Not that it's any different from the usual, but it's always truly amazing how creative she can get!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Wow... I can't believe Saratoga called me Princey... Today must be my lucky day.|Montpelier's sister, Cleveland, is truly... a fascinating person. There are plenty of things I can learn from her as well.|Feel free to entrust me with as much work as you need me to. After all, we've both sworn to work hard to become like Saratoga... no?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I don't mind you trying to get me to laugh, but these pranks are a bit... W-wait, was this Saratoga's idea all along?!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Geez, that was very naughty of you. *pat pat*"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"All right, we'll now start our meeting to review and discuss Saratoga's battle style! There will be another one right after to appreciate her newest single! Commander, make sure to keep me company until the end!"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -3137,6 +3198,7 @@ pg.ship_skin_words_extra = {
 		204040,
 		408090,
 		201320,
-		901120
+		901120,
+		107230
 	}
 }

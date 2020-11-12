@@ -11,7 +11,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 102260,
 			nameColor = "#a9f548",
-			say = "普林斯顿，刚刚的战斗实在太帅了...你好厉害啊！",
+			say = "Princeton, you looked really cool out there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "...哎？",
+			say = "...Hm? Really...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机攻击的精确度很高，进攻的时机也掌握得刚刚好。完全不像是新型航母会有的战斗经验呢！",
+			say = "You landed some great direct hits, and your timing was perfect as well! I was blown away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "……那是因为我有一个好老师。",
+			say = "That's because... I had a good teacher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "好老师是指……？",
+			say = "A good teacher...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "萨拉托加前辈。我在来到这里之前，曾经和萨拉托加前辈共同战斗过一段时间。",
+			say = "Yes. She's another carrier from the Union. Someone I admire - Saratoga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "我的战斗技巧也基本都是萨拉托加前辈传授的。",
+			say = "The way of fighting you were praising was also something I learned from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "在我看来，前辈的战斗技巧甚至能称为战斗艺术。没有亲眼见识过的话，是绝对想象不到前辈有多厉害的。",
+			say = "Saratoga's fighting style might be far more stylish than mine... And it might be hard to see her influence if you only saw my performance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她虽然平时看起来爱玩，其实在战场上她对局势的把握能力绝对是顶尖的。而且————",
+			say = "Though she can be a bit mischievous at times, her grasp of the flow of battle is unparalleled. Also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "更不要说她本身对于舰载机的操控能力绝对是我所见过————",
+			say = "I've never seen anyone else command their planes as flawlessly as she does...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "这些优点只占其中一样，都已经可以说是非常出色的航母了，但是前辈————",
+			say = "All of the Eagle Union's twelve carriers are amazing in their own right, but Saratoga is just...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -225,7 +225,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "一段时间之后",
+			say = "...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（完全没有插话的空间.......）",
+			say = "(...How am I supposed to butt in?) A-ahem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "啊！抱歉...每次谈到萨拉托加前辈的时候都会不由自主的有些激动…",
+			say = "Ah! I'm sorry... I get really excited every time I start talking about Saratoga without even realizing it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "没关系没关系，你对萨拉托加小姐的崇拜，我已经深深地感受到了哦！",
+			say = "Don't sweat it~ I'm glad I now know how much you respect Saratoga!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能和心目中的英雄并肩作战，还能得到她的指导……没有什么能比这更让人幸福的了！",
+			say = "To be able to fight alongside someone you admire, and to be able to learn from them... I'm sure that's a great feeling!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "你们能理解的话真是太好了！",
+			say = "I'm so glad you understand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "普林斯顿，感觉和蒙彼利埃有些像......",
+			say = "Princeton... You and Montpelier seem to have some things in common.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "和蒙彼利埃......么？",
+			say = "We do...?？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "在“非常崇拜某人”这一点上呢。嗯...？大姐头发来了通讯。",
+			say = "Yeah, that really deep admiration of someone. Wait... I'm getting a message from my sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不好，重樱舰队突然对我们发动了空袭，战斗开始了！",
+			say = "...Shoot! It's an enemy air raid! Everyone, prepare for combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

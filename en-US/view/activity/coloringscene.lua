@@ -75,6 +75,9 @@ function slot0.DidMediatorRegisterDone(slot0)
 			table.insert(uv0.paintsgroup, uv0.colorgroupbehind:GetChild(slot4))
 		end
 	end)
+	setActive(slot0.btnShare, not COLORING_ACTIVITY_CUSTOMIZED_BANNED and _.any(slot0.colorGroups, function (slot0)
+		return slot0:canBeCustomised()
+	end))
 end
 
 function slot0.didEnter(slot0)
@@ -477,7 +480,7 @@ function slot0.TryPlayStory(slot0)
 
 	table.eachAsync({}, function (slot0, slot1, slot2)
 		if slot0 <= uv0 and slot1 then
-			pg.StoryMgr.GetInstance():Play(slot1, slot2)
+			pg.NewStoryMgr.GetInstance():Play(slot1, slot2)
 		else
 			slot2()
 		end

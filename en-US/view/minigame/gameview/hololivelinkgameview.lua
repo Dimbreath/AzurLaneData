@@ -133,7 +133,7 @@ end
 function slot0.playStory(slot0)
 	if slot0.miniGameData:GetConfigCsvLine(slot0.linkGameID).story == "" then
 		slot0:showResultPanel(true)
-	elseif not pg.StoryMgr.GetInstance():IsPlayed(slot2[1]) then
+	elseif not pg.NewStoryMgr.GetInstance():IsPlayed(slot2[1]) then
 		slot4:Play(slot3, function ()
 			uv0:showResultPanel(true)
 		end)

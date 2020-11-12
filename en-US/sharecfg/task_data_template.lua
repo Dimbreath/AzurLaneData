@@ -95435,6 +95435,246 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15986] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93901,
+		type = 6,
+		name = "【普林斯顿SP】地图任务1",
+		count_inherit = 0,
+		desc = "Clear SP1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15987",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420001,
+		id = 15986,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15987] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93902,
+		type = 6,
+		name = "【普林斯顿SP】地图任务2",
+		count_inherit = 0,
+		desc = "Clear SP2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15988",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420002,
+		id = 15987,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15988] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93903,
+		type = 6,
+		name = "【普林斯顿SP】地图任务3",
+		count_inherit = 0,
+		desc = "Clear SP3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420003,
+		id = 15988,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15989] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93904,
+		type = 6,
+		name = "【普林斯顿SP】地图任务4",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15990",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420001,
+		id = 15989,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15990] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93905,
+		type = 6,
+		name = "【普林斯顿SP】地图任务5",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15991",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420002,
+		id = 15990,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15991] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93906,
+		type = 6,
+		name = "【普林斯顿SP】地图任务6",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1420003,
+		id = 15991,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1420003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[16042] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -96675,6 +96915,816 @@ pg.task_data_template = {
 				173,
 				2
 			}
+		}
+	},
+	[16100] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94060,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油1",
+		count_inherit = 16101,
+		desc = "Spend a total of 500 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16101",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16100,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59983,
+				60
+			},
+			{
+				8,
+				59984,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16101] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94061,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油2",
+		count_inherit = 16102,
+		desc = "Spent a total of 1,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16102",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16101,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59985,
+				100
+			},
+			{
+				8,
+				59986,
+				30
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16102] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94062,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油3",
+		count_inherit = 16103,
+		desc = "Spent a total of 1,500 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16103",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16102,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59983,
+				70
+			},
+			{
+				8,
+				59984,
+				100
+			},
+			{
+				8,
+				59985,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16103] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94063,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油4",
+		count_inherit = 16104,
+		desc = "Spent a total of 2,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16104",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16103,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				150
+			},
+			{
+				8,
+				59988,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16104] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94064,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油5",
+		count_inherit = 16105,
+		desc = "Spent a total of 2,500 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16105",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16104,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59983,
+				70
+			},
+			{
+				8,
+				59987,
+				100
+			},
+			{
+				8,
+				59988,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16105] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94065,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油6",
+		count_inherit = 16106,
+		desc = "Spent a total of 3,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16106",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16105,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				100
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16106] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94066,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油7",
+		count_inherit = 16107,
+		desc = "Spent a total of 4,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16107",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16106,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59983,
+				50
+			},
+			{
+				8,
+				59985,
+				50
+			},
+			{
+				8,
+				59986,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16107] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94067,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油8",
+		count_inherit = 16108,
+		desc = "Spent a total of 5,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16108",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16107,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				100
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16108] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94068,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油9",
+		count_inherit = 16109,
+		desc = "Spent a total of 6,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16109",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16108,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59985,
+				50
+			},
+			{
+				8,
+				59986,
+				50
+			},
+			{
+				8,
+				59987,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16109] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94069,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油10",
+		count_inherit = 16110,
+		desc = "Spent a total of 7,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16110",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16109,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				164
+			},
+			{
+				8,
+				59983,
+				90
+			},
+			{
+				8,
+				59984,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16110] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94070,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油11",
+		count_inherit = 16111,
+		desc = "Spent a total of 8,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16111",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16110,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				80
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16111] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94071,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油12",
+		count_inherit = 16112,
+		desc = "Spent a total of 9,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16112",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16111,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59983,
+				60
+			},
+			{
+				8,
+				59985,
+				80
+			},
+			{
+				8,
+				59986,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16112] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94072,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油13",
+		count_inherit = 16113,
+		desc = "Spent a total of 10,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16113",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16112,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				80
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16113] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94073,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油14",
+		count_inherit = 16114,
+		desc = "Spent a total of 11,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16114",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16113,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59985,
+				50
+			},
+			{
+				8,
+				59986,
+				21
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16114] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94074,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油15",
+		count_inherit = 16115,
+		desc = "Spent a total of 12,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16115",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16114,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				80
+			},
+			{
+				8,
+				59988,
+				24
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16115] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94075,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油16",
+		count_inherit = 16116,
+		desc = "Spent a total of 13,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16116",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16115,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				80
+			},
+			{
+				8,
+				59983,
+				45
+			},
+			{
+				8,
+				59985,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16116] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94076,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油17",
+		count_inherit = 16117,
+		desc = "Spent a total of 14,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16117",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16116,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59984,
+				150
+			},
+			{
+				8,
+				59985,
+				66
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16117] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94077,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油18",
+		count_inherit = 0,
+		desc = "Spent a total of 15,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16117,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				80
+			},
+			{
+				8,
+				59984,
+				83
+			},
+			{
+				8,
+				59987,
+				92
+			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[31013] = {
@@ -111258,6 +112308,12 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		15983,
 		15984,
 		15985,
+		15986,
+		15987,
+		15988,
+		15989,
+		15990,
+		15991,
 		16042,
 		16043,
 		16044,
@@ -111290,6 +112346,24 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16071,
 		16072,
 		16080,
+		16100,
+		16101,
+		16102,
+		16103,
+		16104,
+		16105,
+		16106,
+		16107,
+		16108,
+		16109,
+		16110,
+		16111,
+		16112,
+		16113,
+		16114,
+		16115,
+		16116,
+		16117,
 		31013,
 		31014,
 		31015,

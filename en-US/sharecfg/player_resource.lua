@@ -405,6 +405,11 @@ pg.player_resource = {
 		name = "ouxiang2_pt",
 		itemid = 59185
 	},
+	[176] = {
+		id = 176,
+		name = "naerweikehaogan2",
+		itemid = 59188
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -694,6 +699,9 @@ pg.player_resource = {
 		ouxiang2_pt = {
 			175
 		},
+		naerweikehaogan2 = {
+			176
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -804,6 +812,7 @@ pg.player_resource = {
 		172,
 		173,
 		175,
+		176,
 		950,
 		1001,
 		2001,

@@ -101,11 +101,9 @@ function slot0.rotate(slot0)
 	})[slot0.curIndex] + 8 * 360, 4):setEase(LeanTweenType.easeInOutCirc):setOnUpdate(System.Action_float(function (slot0)
 		uv0.circleTF.localEulerAngles = Vector3(0, 0, -slot0)
 	end)):setOnComplete(System.Action(function ()
-		slot0 = pg.StoryMgr.GetInstance()
-
-		pg.StoryMgr.GetInstance():Play(uv0.curStoryID, function ()
+		pg.NewStoryMgr.GetInstance():Play(uv0.curStoryID, function ()
 			uv0:updateTaskPanel()
-		end, true, true, true)
+		end, true, true)
 
 		uv0.isTurning = false
 	end))
@@ -200,7 +198,7 @@ function slot0.updateTaskPanel(slot0)
 		print("story", tostring(slot6))
 
 		if slot6 then
-			pg.StoryMgr.GetInstance():Play(slot6, nil)
+			pg.NewStoryMgr.GetInstance():Play(slot6, nil)
 		end
 	end
 

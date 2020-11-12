@@ -380,7 +380,7 @@ function slot0.getBayPower(slot0)
 
 	for slot6, slot7 in pairs(slot0.data) do
 		slot8 = slot7.configId
-		slot9 = calcFloor(slot7:getShipCombatPower())
+		slot9 = slot7:getShipCombatPower()
 
 		if defaultValue(slot0.handbookTypeAssign[slot7:getGroupId()], 0) ~= 1 and (not slot1[slot8] or slot1[slot8] < slot9) then
 			slot1[slot8] = slot9
@@ -460,88 +460,7 @@ function slot0.getProposeGroupList(slot0)
 	}
 end
 
-function slot0.getEliteRecommendShip(slot0, slot1, slot2)
-	slot4 = {
-		[slot9] = slot9:getShipCombatPower()
-	}
-
-	for slot8, slot9 in ipairs(slot0:getShipsByTypes(slot1)) do
-		-- Nothing
-	end
-
-	table.sort(slot3, function (slot0, slot1)
-		return uv0[slot0] < uv0[slot1]
-	end)
-
-	slot5 = {}
-
-	for slot9, slot10 in ipairs(slot2) do
-		slot5[#slot5 + 1] = slot0.data[slot10]:getGroupId()
-	end
-
-	slot6 = getProxy(EventProxy):getActiveShipIds()
-	slot7 = #slot3
-	slot8 = nil
-
-	while slot7 > 0 do
-		slot9 = slot3[slot7]
-
-		if not table.contains(slot6, slot9.id) and not table.contains(slot2, slot10) and not table.contains(slot5, slot9:getGroupId()) then
-			slot8 = slot9
-
-			break
-		else
-			slot7 = slot7 - 1
-		end
-	end
-
-	return slot8
-end
-
-function slot0.getChallengeRecommendShip(slot0, slot1, slot2)
-	table.sort(slot0:getShipsByTypes(slot1), function (slot0, slot1)
-		return slot0:getShipCombatPower() < slot1:getShipCombatPower()
-	end)
-
-	slot4 = {}
-	slot5 = {}
-
-	for slot9, slot10 in ipairs(slot2) do
-		slot11 = slot0.data[slot10]
-		slot4[#slot4 + 1] = slot11:getGroupId()
-
-		if slot5[Challenge.shipTypeFixer(slot11:getShipType())] == nil then
-			slot5[slot12] = 0
-		end
-
-		slot5[slot12] = slot5[slot12] + 1
-	end
-
-	slot6 = #slot3
-	slot7 = nil
-
-	while slot6 > 0 do
-		slot8 = slot3[slot6]
-		slot9 = slot8.id
-		slot10 = slot8:getGroupId()
-
-		if slot5[Challenge.shipTypeFixer(slot8:getShipType())] == nil then
-			slot5[slot11] = 0
-		end
-
-		if slot5[slot11] < Challenge.SAME_TYPE_LIMIT and not table.contains(slot2, slot9) and not table.contains(slot4, slot10) then
-			slot7 = slot8
-
-			break
-		else
-			slot6 = slot6 - 1
-		end
-	end
-
-	return slot7
-end
-
-function slot0.getActivityRecommendShips(slot0, slot1, slot2, slot3)
+function slot0.getEliteRecommendShip(slot0, slot1, slot2, slot3)
 	slot5 = {
 		[slot10] = slot10:getShipCombatPower()
 	}
@@ -560,17 +479,102 @@ function slot0.getActivityRecommendShips(slot0, slot1, slot2, slot3)
 		slot6[#slot6 + 1] = slot0.data[slot11]:getGroupId()
 	end
 
-	slot7 = getProxy(EventProxy):getActiveShipIds()
-	slot8 = #slot4
+	slot7 = #slot4
+	slot8 = nil
+
+	while slot7 > 0 do
+		slot9 = slot4[slot7]
+
+		if not table.contains(slot2, slot9.id) and not table.contains(slot6, slot9:getGroupId()) and ShipStatus.ShipStatusCheck("inElite", slot9, nil, {
+			inElite = slot3
+		}) then
+			slot8 = slot9
+
+			break
+		else
+			slot7 = slot7 - 1
+		end
+	end
+
+	return slot8
+end
+
+function slot0.getChallengeRecommendShip(slot0, slot1, slot2, slot3)
+	table.sort(slot0:getShipsByTypes(slot1), function (slot0, slot1)
+		return slot0:getShipCombatPower() < slot1:getShipCombatPower()
+	end)
+
+	slot5 = {}
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(slot2) do
+		slot12 = slot0.data[slot11]
+		slot5[#slot5 + 1] = slot12:getGroupId()
+
+		if slot6[Challenge.shipTypeFixer(slot12:getShipType())] == nil then
+			slot6[slot13] = 0
+		end
+
+		slot6[slot13] = slot6[slot13] + 1
+	end
+
+	slot7 = #slot4
+	slot8 = nil
+
+	while slot7 > 0 do
+		slot9 = slot4[slot7]
+		slot10 = slot9.id
+		slot11 = slot9:getGroupId()
+
+		if slot6[Challenge.shipTypeFixer(slot9:getShipType())] == nil then
+			slot6[slot12] = 0
+		end
+
+		if slot6[slot12] < Challenge.SAME_TYPE_LIMIT and not table.contains(slot2, slot10) and not table.contains(slot5, slot11) and ShipStatus.ShipStatusCheck("inActivity", slot9, nil, {
+			inActivity = slot3
+		}) then
+			slot8 = slot9
+
+			break
+		else
+			slot7 = slot7 - 1
+		end
+	end
+
+	return slot8
+end
+
+function slot0.getActivityRecommendShips(slot0, slot1, slot2, slot3, slot4)
+	slot6 = {
+		[slot11] = slot11:getShipCombatPower()
+	}
+
+	for slot10, slot11 in ipairs(slot0:getShipsByTypes(slot1)) do
+		-- Nothing
+	end
+
+	table.sort(slot5, function (slot0, slot1)
+		return uv0[slot0] < uv0[slot1]
+	end)
+
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot2) do
+		slot7[#slot7 + 1] = slot0.data[slot12]:getGroupId()
+	end
+
+	slot8 = #slot5
 	slot9 = {}
 
 	while slot8 > 0 and slot3 > 0 do
-		slot10 = slot4[slot8]
+		slot10 = slot5[slot8]
 		slot12 = slot10:getGroupId()
 
-		if not table.contains(slot2, slot10.id) and not table.contains(slot7, slot11) and not table.contains(slot6, slot12) then
+		if not table.contains(slot2, slot10.id) and not table.contains(slot7, slot12) and ShipStatus.ShipStatusCheck("inActivity", slot10, nil, {
+			inActivity = slot4
+		}) then
 			table.insert(slot9, slot10)
-			table.insert(slot6, slot12)
+			table.insert(slot7, slot12)
 
 			slot3 = slot3 - 1
 		end
@@ -599,84 +603,39 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 		slot7[#slot7 + 1] = slot14:getGroupId()
 	end
 
-	slot9 = getProxy(EventProxy):getActiveShipIds()
-	slot10 = getProxy(FleetProxy):getAllShipIds()
-	slot11 = {}
-
-	for slot16, slot17 in ipairs(getProxy(ChapterProxy):getUseableEliteMap()) do
-		for slot22, slot23 in pairs(slot17:getChapters()) do
-			for slot28, slot29 in ipairs(slot23:getInEliteShipIDs()) do
-				table.insert(slot11, slot29)
-			end
-
-			break
-		end
-	end
-
-	slot13 = {}
-
-	for slot18, slot19 in ipairs(getProxy(ChapterProxy):getUseableActivityMap()) do
-		for slot24, slot25 in pairs(slot19:getChapters()) do
-			for slot30, slot31 in ipairs(slot25:getInEliteShipIDs()) do
-				table.insert(slot13, slot31)
-			end
-		end
-	end
-
-	slot15 = {}
-
-	for slot21, slot22 in pairs(getProxy(FleetProxy):getActivityFleets()) do
-		for slot26, slot27 in pairs(slot22) do
-			for slot32, slot33 in ipairs(slot27.ships) do
-				table.insert(slot15, slot33)
-			end
-		end
-	end
-
 	if slot8 then
 		slot4 = 2
 	end
 
-	slot18 = {}
+	slot9 = {}
+	slot10 = #slot6
 
-	function ()
-		slot0 = #uv0
-
-		while slot0 > 0 do
-			if uv1 <= 0 then
-				break
-			end
-
-			slot1 = uv0[slot0]
-			slot2 = slot1.id
-			slot3 = slot1:getGroupId()
-
-			if uv2 <= slot1.level and not slot1:isActivityNpc() and slot1.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(uv3, slot3) and not table.contains(uv4, slot2) and not table.contains(uv5, slot2) and not table.contains(uv6, slot2) and not table.contains(uv7, slot2) and not table.contains(uv8, slot2) and not table.contains(uv9, slot2) then
-				table.insert(uv3, slot3)
-				table.insert(uv5, slot2)
-				table.insert(uv9, slot2)
-
-				uv1 = uv1 - 1
-
-				if uv10 == false then
-					uv11 = true
-
-					break
-				end
-			else
-				slot0 = slot0 - 1
-			end
+	while slot10 > 0 do
+		if slot2 <= 0 then
+			break
 		end
-	end()
 
-	if nil then
-		slot8 = true
-		slot4 = 2
+		slot11 = slot6[slot10]
+		slot12 = slot11.id
+		slot13 = slot11:getGroupId()
 
-		slot20()
+		if slot4 <= slot11.level and slot11.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot5, slot12) and not table.contains(slot7, slot13) and not table.contains(slot9, slot12) and ShipStatus.ShipStatusCheck("inEvent", slot11) then
+			table.insert(slot7, slot13)
+			table.insert(slot9, slot12)
+
+			slot2 = slot2 - 1
+
+			if slot8 == false then
+				slot8 = true
+				slot4 = 2
+				slot10 = #slot6
+			end
+		else
+			slot10 = slot10 - 1
+		end
 	end
 
-	return slot18
+	return slot9
 end
 
 return slot0

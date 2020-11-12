@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "敌方机群已消灭，战斗结束。",
+			say = "The enemy's attack force has retreated. Now leaving combat.",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "{namecode:95}，{namecode:96}，{namecode:97}......对面的航母有三艘，也不知道刚刚的舰载机群是从哪艘航母来的。",
+			say = "Judging from the scale of that attack... Was it just one ship? Either way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗力，比预想中弱了很多呢...重樱的航空编队战斗力也在每况愈下啊。",
+			say = "Judging from that squad's combat power, we're probably not dealing with their main fleet. Maybe their forces are split up right now, or their airpower could just be lower than we expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚我们遭遇到的应该只是一支分队，重樱的主力航空编队肯定往塞潘岛方向去了。不知道那边的战况如何…",
+			say = "Sakura Empire's main fleet seems to be a separate force heading towards SP Island. I wonder if Cleve and the others are okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "算上我们第3支队在内，整个第58特遣舰队一共有7艘正规航空母舰。",
+			say = "We have seven carriers as well as a massive convoy here. I'm sure they'll be fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "再加上有企业亲自坐镇，按照现在的实力差，重樱的进攻多半是徒劳的吧。",
+			say = "Most importantly, Enterprise is there too, so everything in the sky is going to be-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "如果在这一战中能一举消灭重樱剩余的航空力量，这片天空就将彻底属于白鹰了。",
+			say = "Well, basically, if we can neutralize the enemy's airpower, we'll be able to establish air superiority.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "一旦失去了航空力量，重樱的主力舰队就将直接暴露在飞机面前，成为海面上的靶子。",
+			say = "And without air control, the enemy will not be able to stop our advance no matter how many big guns they have...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的力量正在不断增强，而重樱的力量正不断被削弱。为了万无一失，所以司令部才选择了保守的策略！",
+			say = "The side that controls the sky controls the flow of battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯...事实证明司令部的策略完全正确，重樱还是在焦虑下主动发起了进攻......",
+			say = "Yeah. I'm sure the Sakura Empire understands too. That's probably why they're contesting right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "里诺，普林斯顿，大姐头那边又发来了战报————",
+			say = "Reno, Princeton. I've received a message from the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "“我方潜艇的鱼雷命中了重樱的一艘主力航母”",
+			say = "Apparently, a friendly submarine has landed a hit on a powerful Sakura Empire carrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我方潜艇？…啊，确实大青花鱼跟棘鳍都在这片海域里，会是她们中的谁取得的战果吗？",
+			say = "A friendly submarine... If I recall correctly, I think Albacore and Cavalla were around in these waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "希望这样能引起敌方舰队的混乱吧。",
+			say = "Hopefully, this will sow some chaos among the enemy fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "潜艇的雷击不一定能对航空母舰造成毁灭性打击。毕竟，萨拉托加前辈也曾几度遭遇鱼雷攻击…",
+			say = "(Even though the submarine got a good hit on their carrier, I doubt a Sakura Empire carrier would sink just from that. Even Saratoga has taken plenty of hits.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且…这样一来敌方肯定会更加注意反潜，之后还想偷袭就没那么容易了…",
+			say = "(But now, the enemy will have to be more vigilant in their lookout for submarines... right?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "不过，这应该是一个好的开始吧。我们也抓紧时间，尽快回归大部队，加入战局了！",
+			say = "(Things don't seem to be going badly at all. Let's hurry and group up with the main fleet.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

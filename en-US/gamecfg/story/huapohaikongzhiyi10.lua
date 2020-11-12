@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-2",
 			nameColor = "#ff5c5c",
-			say = "{namecode:95}姐！",
+			say = "Damnit, Enterprise! ...Ugh, is it impossible to take down the Eagle Union's Task Force?",
 			effects = {
 				{
 					active = true,
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307050,
-			say = "对不起，{namecode:96}。接下来的战斗，姐姐不能再陪着你了…",
+			say = "Zuikaku, calm down... *cough* *cough*... Let's withdraw for now and come up with a plan...",
 			effects = {
 				{
 					active = false,
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "至少你能平安无事的话......",
+			say = "I can't believe I let my guard down like that... just after Taihou took a torpedo hit as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可恶......为什么会这样........",
+			say = "Damn it...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			side = 2,
-			say = "可恶..........！！！！！",
+			say = "...All right, Shoukaku, let's go...!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "普林斯顿，你们那边也已经解决了么？",
+			say = "Princeton, have you wrapped things up on your end?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "多亏大部队及时的增援，现在天空中已经没有重樱舰载机的踪影了。",
+			say = "I appreciate the backup. Thanks to you, we were able to demolish the enemy's attack forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了，你们这边也顺利解决了么。我们这边也是，以轻微的代价击退了敌人的数次进攻，可以认为，这次重樱的行动已经完全失败了。",
+			say = "Not quite. We were able to focus on the enemy carriers because of the role you played in thinning their airpower. This battle was just the culmination of that hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			say = "居然会这么顺利...太好了！",
+			say = "Thank goodness. I'm glad things worked out this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "稍早时候的捷报也传来了，我们的潜艇成功命中了另一艘重樱的航母。再加上战斗机编队的折损率，应该足够对面慌乱好一阵了。",
+			say = "Also, I heard that our subs landed another hit on a different enemy carrier. That the enemy's attack forces haven't returned must be a sign that the enemy's in disorder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来总算能暂时歇口气了…大家都辛苦了！",
+			say = "I guess that means we can finally catch our breath for the time being... Well done, everyone~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "接下来，司令部就会命令我们乘胜追击了吧。",
+			say = "I wonder if we'll get an order to pursue the enemy fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。敌人的航空编队已经构不成威胁，现在天空已经属于我们了。",
+			say = "Perhaps. No matter how many ships they might have left, with our strength, we should be able to overwhelm them with few issues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后，司令部肯定会将方针由防御转变为进攻，进而发动新的战役了吧。",
+			say = "However, it seems that the Naval HQ wants to switch to another operation and move us over to a new front.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "这次真是一次精彩的战役......如果萨拉托加前辈也能看到就好了.....",
+			say = "I wish Saratoga was here to see my performance today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，等战役彻底结束之后，你亲自把过程讲给她听嘛~",
+			say = "Why don't you just tell her about it directly next time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102090,
-			say = "告诉她你如何的英勇地与敌机搏斗，以及她错过了一场多么精彩的战役~",
+			say = "Not just about the battle, but how you were shining brilliantly on the battlefield as you took down dozens of enemy planes! Ehehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，就这么办吧！",
+			say = "...Hehe, maybe I'll do just that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "虽然现在的我还是缺乏战斗经验，更方面都还不够成熟...但是我会继续努力。",
+			say = "(Though I'm still inexperienced, if I keep striving to learn everything I can from the battlefield, then...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			say = "只要继续努力战斗，立下更多的战功，总有一天我会追上萨拉托加前辈的身影的...！",
+			say = "...Maybe someday, I can be just like her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉托加么...你选了一个很艰巨的目标呢，普林斯顿。",
+			say = "It's not a goal you'll be able to reach easily, but I'll be cheering you on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "即使是艰巨的目标，我也会加倍努力的，也请大家一起见证我的成长吧！",
+			say = "Enterprise... Yeah! Thanks, I'll do my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "我很期待着那一天呢！",
+			say = "Yeah, I'll be cheering you on too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，看到成长如此迅速的优秀后辈，萨拉托加也会很开心吧。",
+			say = "(Hehe, it looks like we both have capable rookies following our footsteps, Saratoga.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "萨拉托加前辈......我一定不会辜负您的教导的。",
+			say = "Saratoga... I'll definitely catch up to you someday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "期待下次与萨拉托加前辈的共同作战…！",
+			say = "May we fight together in the near future, once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

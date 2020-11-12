@@ -331,14 +331,18 @@ function slot6.GetBornPosition(slot0)
 	return nil
 end
 
-function slot6.GetCLDCenterPosition(slot0)
-	slot1 = slot0:GetBoxSize()
-
-	return Vector3(slot0._pos.x + slot1.x, slot0._pos.y, slot0._pos.z + slot1.z)
-end
-
 function slot6.GetCLDZCenterPosition(slot0)
 	return Vector3(slot0._pos.x, slot0._pos.y, slot0._pos.z + slot0:GetBoxSize().z)
+end
+
+function slot6.GetBeenAimedPosition(slot0)
+	slot2 = slot0:GetCLDZCenterPosition()
+
+	if not slot0:GetTemplate().aim_offset then
+		return slot2
+	end
+
+	return Vector3(slot2.x + slot1[1], slot2.y + slot1[2], slot2.z + slot1[3])
 end
 
 function slot6.GetDirection(slot0)

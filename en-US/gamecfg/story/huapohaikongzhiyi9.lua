@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "这些舰载机，比之前难缠好多，而且数量也...这么下去不妙。",
+			say = "There's too many of them... At this rate, we're going to be in trouble!",
 			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "大家注意，又有航空编队正在向我们接近了哦！",
+			say = "Everyone, be careful! New, unknown planes are approaching us from over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "不会吧，重樱把全部航空力量都集中过来了么......",
+			say = "Are they seriously pulling out all the stops to attack us...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉享受了整个战场的SuperVip待遇呢~",
+			say = "Aren't we lucky? We're getting the VIP treatment today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那还真是荣幸......",
+			say = "That means this is going to be a battle of will and endurance...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "不对，正在接近的好像是我们的战斗机群......已经开始从侧面向重樱编队发动攻击了！",
+			say = "Wait, I'm getting a visual on the unknown planes! They're from the Eagle Union fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "原来是友军啊。呼......太好了。",
+			say = "Those must be Enterprise's interceptors then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虚惊一场啊，Nice支援！",
+			say = "Phew, you scared us~ ...Oh, Cleveland, you and others are here too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "里诺、伯明翰、普林斯顿、你们都没事吧！抱歉，我们来迟了！",
+			say = "Sorry we're late. Reno, Birmingham, Princeton, are you all okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业收到你们的联络之后，一边派出了支援的航空编队，一边让我们来接应你们回去、",
+			say = "Enterprise not only sent the interceptor squadron, but also asked me to bring support as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "支援来得真是太及时了，不过企业那边不要紧么？",
+			say = "That means the enemies were focusing on us after all? Is Enterprise going to be alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102090,
-			say = "嘿嘿，不用担心，那边的战斗已经基本接近尾声了，企业甚至说“比预想中的还要轻松”。",
+			say = "Hehe, no need for you to worry! We've already taken care of that already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我们只好来这里活动一下咯。",
+			say = "That's why we've come here to help you out! Okay, let's go and wrap things up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107230,
-			say = "那我们这边也要加油了。大家一起努力，消灭来袭的敌人吧！",
+			say = "Roger! Everyone, get in anti-air formation and repel the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

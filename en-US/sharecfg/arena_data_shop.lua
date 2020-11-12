@@ -2,7 +2,40 @@ pg = pg or {}
 pg.arena_data_shop = {
 	{
 		id = 1,
-		commodity_list = {
+		commodity_list_1 = {
+			{
+				43004,
+				300
+			}
+		},
+		commodity_list_2 = {
+			{
+				43003,
+				300
+			}
+		},
+		commodity_list_3 = {
+			{
+				43001,
+				1000
+			},
+			{
+				43002,
+				1000
+			},
+			{
+				43005,
+				300
+			}
+		},
+		commodity_list_4 = {
+			{
+				43008,
+				300
+			}
+		},
+		commodity_list_5 = {},
+		commodity_list_common = {
 			{
 				23001,
 				50
@@ -70,26 +103,6 @@ pg.arena_data_shop = {
 			{
 				33044,
 				50
-			},
-			{
-				43001,
-				1000
-			},
-			{
-				43002,
-				1000
-			},
-			{
-				43003,
-				300
-			},
-			{
-				43004,
-				300
-			},
-			{
-				43005,
-				300
 			}
 		},
 		refresh_price = {

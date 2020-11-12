@@ -433,6 +433,20 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 				slot3.data1_list[slot13] = 0
 			end
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE then
+		if slot1.cmd == 1 then
+			slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
+				statistics = slot1.statistics,
+				score = slot1.statistics._battleScore,
+				system = SYSTEM_AIRFIGHT
+			})
+
+			slot3.data1KeyValueList[1] = slot3.data1KeyValueList[1] or {}
+			slot3.data1KeyValueList[1][slot1.arg1] = (slot3.data1KeyValueList[1][slot1.arg1] or 0) + 1
+		elseif slot1.cmd == 2 then
+			slot3.data1KeyValueList[2] = slot3.data1KeyValueList[2] or {}
+			slot3.data1KeyValueList[2][slot1.arg1] = 1
+		end
 	end
 
 	return slot3
@@ -443,13 +457,13 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 	slot6 = nil
 	slot6 = coroutine.create(function ()
 		if uv0 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
-			if uv1:getConfig("config_client").story and slot1[uv1.data1] and slot1[uv1.data1][1] and not pg.StoryMgr.GetInstance():IsPlayed(slot1[uv1.data1][1]) then
-				pg.StoryMgr.GetInstance():Play(slot1[uv1.data1][1], uv2)
+			if uv1:getConfig("config_client").story and slot0[uv1.data1] and slot0[uv1.data1][1] then
+				pg.NewStoryMgr.GetInstance():Play(slot0[uv1.data1][1], uv2)
 				coroutine.yield()
 			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_BB then
-			if pg.gameset.bobing_memory.description[uv1.data1] and #slot1 > 0 and not pg.StoryMgr.GetInstance():IsPlayed(slot1) then
-				pg.StoryMgr.GetInstance():Play(slot1, uv2)
+			if pg.gameset.bobing_memory.description[uv1.data1] and #slot0 > 0 then
+				pg.NewStoryMgr.GetInstance():Play(slot0, uv2)
 				coroutine.yield()
 			end
 
@@ -461,8 +475,8 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 			coroutine.yield()
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD then
 			if uv6.cmd == 1 then
-				if uv1:getConfig("config_client").story and slot1[uv1.data1] and slot1[uv1.data1][1] and not pg.StoryMgr.GetInstance():IsPlayed(slot1[uv1.data1][1]) then
-					pg.StoryMgr.GetInstance():Play(slot1[uv1.data1][1], uv2)
+				if uv1:getConfig("config_client").story and slot0[uv1.data1] and slot0[uv1.data1][1] then
+					pg.NewStoryMgr.GetInstance():Play(slot0[uv1.data1][1], uv2)
 					coroutine.yield()
 				end
 
@@ -478,8 +492,8 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 				coroutine.yield()
 			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS or uv0 == ActivityConst.ACTIVITY_TYPE_LINK_LINK then
-			if uv1:getConfig("config_client")[1] and uv1:getConfig("config_client")[1][uv1.data2 + 1] and not pg.StoryMgr.GetInstance():IsPlayed(slot1) then
-				pg.StoryMgr.GetInstance():Play(slot1, uv2)
+			if uv1:getConfig("config_client")[1] and uv1:getConfig("config_client")[1][uv1.data2 + 1] then
+				pg.NewStoryMgr.GetInstance():Play(slot0, uv2)
 				coroutine.yield()
 			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_DODGEM or uv0 == ActivityConst.ACTIVITY_TYPE_SUBMARINE_RUN then
