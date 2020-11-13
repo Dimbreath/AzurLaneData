@@ -37093,7 +37093,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25800] = {
-		name = "\"Hedgehog\" Anti-Submarine Mortar ",
+		name = "\"Hedgehog\" Anti-Submarine Mortar",
 		speciality = "Anti\nsubmarine",
 		type = 14,
 		tech = 0,
