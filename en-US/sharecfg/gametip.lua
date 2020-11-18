@@ -7060,10 +7060,10 @@ Combat Details:
 		tip = "Tirpitz, Deutschland and others are added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Z46, Z25 and others are added to standard build pool! "
+		tip = "Ardent and Acasta are added to standard build pool! "
 	},
 	buildship_special_tip = {
-		tip = "Graf Zeppelin and U-47 are added to standard build pool! "
+		tip = "Glorious is added to standard build pool! "
 	},
 	open_skill_pos = {
 		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"

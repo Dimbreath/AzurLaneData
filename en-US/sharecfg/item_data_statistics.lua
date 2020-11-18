@@ -11040,6 +11040,114 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[40971] = {
+		display = "Contains 1 Random Outfit, 2020 Gems, 50 Cognitive Chips, 34 Wisdom Cubes, 2 Special General Blueprints - Series 3, 12 Quick Finishers, and 100 Furniture Coins ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "Azur Black Friday Lucky Box ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40971,
+		icon = "Props/fudai67",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69966,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				34
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40972] = {
+		display = "Contains 1 Random Outfit, 2020 Gems, 50 Cognitive Chips, 34 Wisdom Cubes, 2 Special General Blueprints - Series 3, 12 Quick Finishers, and 100 Furniture Coins ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "Crimson Black Friday Lucky Box ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40972,
+		icon = "Props/fudai68",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69967,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				34
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41201] = {
 		display = "A Valentine Gift from UniversalBulin",
 		rarity = 8,
@@ -106530,6 +106638,68 @@ The available outfits and their rarities are as follows:
 		price = {},
 		index = {}
 	},
+	[69966] = {
+		display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+（<color=#92fc63>9.1%</color>) Aurora - Heritage of Yu City <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>) Cooper - Blazing Tennis Battle <color=#92fc63>Live2D</color>；
+（<color=#92fc63>8.8%</color>) Émile Bertin - Maid Fantastique <color=#92fc63>Live 2D</color>；
+（<color=#92fc63>8.8%</color>) Grozny - Bad Bunny Behind Bars <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.5%</color>）Hermione - Pure White Angel <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>）Eldridge - Kitty Idol <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>）Ning Hai - Dragon Sisters! -N<color=#92fc63>Live2D</color> ；
+（<color=#92fc63>9.1%</color>）Ping Hai - Dragon Sisters! -P <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>）Ping Hai - Delicious Crimson <color=#92fc63>Live2D</color> ；
+（<color=#92fc63>9.5%</color>）Richelieu - Fleuron of the Waves <color=#92fc63>Live2D</color>；
+（<color=#92fc63>8.8%</color>）St. Louis - Luxurious Wheels <color=#92fc63>Live2D</color> ]],
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Random Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69966,
+		icon = "Props/clothIcon",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69967] = {
+		display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+（<color=#92fc63>9.1%</color>） Le Malin - Mercredi at the Secret Base <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>) Jean Bart - Private Après Midi <color=#92fc63>Live2D</color> ；
+（<color=#92fc63>9.1%</color>) Zara - Poolside Coincidence <color=#92fc63>Live2D</color> ；
+（<color=#92fc63>9.1%</color>) Noshiron - Uncharted Festival Grounds? <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>）Ryuuhou - Firebird's New Year Dance <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>）Suruga - Hundred Flowers' Auspice <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.3%</color>） Azuma - Soft Voice of Spring <color=#92fc63>Live2D</color> ；
+（<color=#92fc63>9.3%</color>）Yukikaze - Winter's Snowy Wind <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.3%</color>）Taihou - Phoenix's Spring Song <color=#92fc63>Live2D</color> ；
+（<color=#92fc63>8.4%</color>）Admiral Graf Spee - World's♥Cutest <color=#92fc63>Live2D</color> ；
+（<color=#92fc63>9.1%</color>）Z46 - Girls' Relay <color=#92fc63>Live2D</color> ]],
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Random Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69967,
+		icon = "Props/clothIcon",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		display = "Use to unlock \"Port Memories\" No. 1",
 		rarity = 4,
@@ -108031,6 +108201,8 @@ The available outfits and their rarities are as follows:
 		40968,
 		40969,
 		40970,
+		40971,
+		40972,
 		41201,
 		41202,
 		41203,
@@ -110126,6 +110298,8 @@ The available outfits and their rarities are as follows:
 		69963,
 		69964,
 		69965,
+		69966,
+		69967,
 		70000,
 		70001,
 		70002,

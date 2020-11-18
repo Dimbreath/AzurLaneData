@@ -16307,8 +16307,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					11,
-					25
+					12,
+					2
 				},
 				{
 					23,
@@ -16540,6 +16540,56 @@ pg.activity_template = {
 				"<color=#d797ff>Princeton</color>：1.4%(<color=#92fc63>up!</color>)",
 				"<color=#3dc6ff>Acasta</color>：5.0%(<color=#92fc63>up!</color>)",
 				"<color=#3dc6ff>Ardent</color>：5.0%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[30764] = {
+		mark = 20201118,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30764",
+		title_res_tag = "",
+		id = 30764,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "Rate Up characters: Princeton",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#d797ff>Princeton</color>：1.4%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},
@@ -17179,6 +17229,7 @@ pg.activity_template = {
 		30760,
 		30761,
 		30762,
-		30763
+		30763,
+		30764
 	}
 }

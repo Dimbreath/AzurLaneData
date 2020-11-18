@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "Hatsushimo's eyes were twinkling with determination.",
+			say = "Hatsuharu's eyes were twinkling with determination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

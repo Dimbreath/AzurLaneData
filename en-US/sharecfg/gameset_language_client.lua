@@ -4381,10 +4381,10 @@ pg.gameset_language_client = {
 		value = "Thanks for coming to rehearsal today, Tashkent."
 	},
 	ins_reply_142_2_1 = {
-		value = "You too, Illustrious. By the way, Tashkent, you looked a little unsteady earlier..."
+		value = "You too, Illustrious. By the way, I had some difficulty following the choreography today... "
 	},
 	ins_reply_142_2_2 = {
-		value = "Don't worry about it. We had some difficulties coordinating. Nothing some practice can't solve."
+		value = "Don't worry about it. Nothing some practice can't solve. "
 	},
 	ins_reply_142_2_3 = {
 		value = "I see. Thanks, I'll keep that in mind."

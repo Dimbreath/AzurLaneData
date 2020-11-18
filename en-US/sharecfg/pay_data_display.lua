@@ -3095,6 +3095,204 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[129] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Azur Black Friday Lucky Box ",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Azur Black Friday Lucky Box ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai67",
+		id_str = "com.yostaren.azurlane.diamond140",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 129,
+		airijp_id = "com.yostaren.azurlane.diamond140",
+		extra_service_item = {
+			{
+				2,
+				69966,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				34
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69966,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				20001,
+				34
+			}
+		},
+		ignorePlatform = {}
+	},
+	[130] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Crimson Black Friday Lucky Box ",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Crimson Black Friday Lucky Box ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai68",
+		id_str = "com.yostaren.azurlane.diamond141",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 130,
+		airijp_id = "com.yostaren.azurlane.diamond141",
+		extra_service_item = {
+			{
+				2,
+				69967,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				34
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69967,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				20001,
+				34
+			}
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -3133,6 +3331,8 @@ pg.pay_data_display = {
 		125,
 		126,
 		127,
-		128
+		128,
+		129,
+		130
 	}
 }

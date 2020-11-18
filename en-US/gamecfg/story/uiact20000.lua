@@ -251,7 +251,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "They will learn the true horror of facing the best Panzerschiffe in the world!",
+			say = "They will learn the true horror of facing the best Panzerschiff in the world!",
 			shake = {
 				speed = 1,
 				number = 3

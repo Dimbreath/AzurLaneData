@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Commander, thank you for your hard work. Sorry for having had you stick with me for so long.",
+			say = "Commander, thank you for your hard work. Sorry for making you stick with me for so long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "That I've worried about you - I was only focusing on the improving efficiency as the secretary...",
+			say = "That I've worried about you - I was only focusing on improving efficiency as the secretary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

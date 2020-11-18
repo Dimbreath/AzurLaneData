@@ -29876,7 +29876,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[201213] = {
-		name = "Let’s Become Waitresses!",
+		name = "Let's Become Waitresses!",
 		ship_group = 20121,
 		group_index = 3,
 		illustrator2 = -1,

@@ -573,7 +573,7 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.selectMap(slot0)
-	return slot0.contextData.mapIdx or (not Map.lastMap or not getProxy(ChapterProxy):getMapById(Map.lastMap) or Map.lastMap) and slot2:getLastUnlockMap().id
+	return slot0.contextData.mapIdx or (not Map.lastMap or not getProxy(ChapterProxy):getMapById(Map.lastMap) or not slot3:isUnlock() or Map.lastMap) and slot2:getLastUnlockMap().id
 end
 
 function slot0.setShips(slot0, slot1)

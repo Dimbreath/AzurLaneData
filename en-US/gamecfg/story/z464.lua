@@ -196,7 +196,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "I heard many harrowing stories too. Of the demise of the past Iron Blood, of the \"other her\" from the Mirror Seas, of comrades trapped in eternal warfare, and of uncertain towards things to come.",
+			say = "I heard many harrowing stories too. Of the demise of the past Iron Blood, of the \"other her\" from the Mirror Seas, of comrades trapped in eternal warfare, and of uncertainty towards things to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
