@@ -2555,5 +2555,67 @@ pg.ship_skin_expression_ex = {
 				"5"
 			}
 		}
+	},
+	pulinsidun = {
+		feeling3 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		main_ex = "",
+		mail = "",
+		painting = "pulinsidun",
+		feeling1 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
 	}
 }

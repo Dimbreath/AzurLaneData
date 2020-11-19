@@ -46,14 +46,6 @@ function slot0.checkChapters(slot0, slot1)
 			end
 		end
 	end
-
-	for slot8, slot9 in pairs(slot2:getRawData()) do
-		for slot14, slot15 in pairs(slot9:getEliteFleetList()) do
-			if table.contains(slot15, slot1.id) then
-				table.remove(slot15, table.indexof(slot15, slot1.id))
-			end
-		end
-	end
 end
 
 function slot0.checkFormations(slot0, slot1)

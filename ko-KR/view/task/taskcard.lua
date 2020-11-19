@@ -72,7 +72,7 @@ function slot0.update(slot0, slot1)
 			end
 		end)
 		onButton(slot0, slot0.storyIconFrame, function ()
-			pg.StoryMgr.GetInstance():Play(uv0, nil, true)
+			pg.NewStoryMgr.GetInstance():Play(uv0, nil, true)
 		end, SFX_PANEL)
 	else
 		removeOnButton(slot0.storyIconFrame)

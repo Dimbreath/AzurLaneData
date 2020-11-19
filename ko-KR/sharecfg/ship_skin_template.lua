@@ -24262,7 +24262,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 249,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -24356,7 +24356,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70433,
-		voice_actor = -1,
+		voice_actor = 249,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -42749,6 +42749,109 @@ pg.ship_skin_template = {
 				{
 					1.218,
 					1.014,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[205013] = {
+		ship_group = 20501,
+		name = "여왕의 학원 명령",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "흐흥, 보아라~ 이게 바로 {namecode:98}가 새로 제작한 옷! 어때? 나의 우아한 제복의 자태에 경배하시지! 하인~♪",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yilishabai_4",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 205013,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yilishabai_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 19,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.133,
+					1.142,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.173,
+					1.154,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					1.135,
 					0
 				}
 			}
@@ -82709,6 +82812,107 @@ pg.ship_skin_template = {
 						{
 							-0.5,
 							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[401021] = {
+		ship_group = 40102,
+		name = "이색적인 일상의 풍경",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "지휘관님, \"유니폼을 입지 않고 근무해도 괜찮아\"라는 명령은 사실, 지휘관님께서 모두의 일상복 차림을 보고 싶으신 거죠? ...... 저는 상관없어요. 지휘관님이 기뻐하신다면요.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "z2_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 401021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "z2_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70444,
+		voice_actor = 172,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.039,
+					1.037,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.005,
+					0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.04,
+					1.039,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.579,
 							0
 						}
 					}
@@ -130391,7 +130595,8 @@ pg.ship_skin_template = {
 		[20501] = {
 			205010,
 			205011,
-			205012
+			205012,
+			205013
 		},
 		[20502] = {
 			205020,
@@ -131051,7 +131256,8 @@ pg.ship_skin_template = {
 			401019
 		},
 		[40102] = {
-			401020
+			401020,
+			401021
 		},
 		[40118] = {
 			401180
@@ -132456,6 +132662,7 @@ pg.ship_skin_template = {
 		205010,
 		205011,
 		205012,
+		205013,
 		205020,
 		205021,
 		205022,
@@ -132826,6 +133033,7 @@ pg.ship_skin_template = {
 		401011,
 		401019,
 		401020,
+		401021,
 		401180,
 		401190,
 		401200,

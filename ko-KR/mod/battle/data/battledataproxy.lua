@@ -1008,6 +1008,8 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0._battleInitData.battleType == SYSTEM_SUBMARINE_RUN or slot9 == SYSTEM_SUB_ROUTINE then
 		slot8 = uv2.UnitType.SUB_UNIT
+	elseif slot9 == SYSTEM_AIRFIGHT then
+		slot8 = uv2.UnitType.CONST_UNIT
 	end
 
 	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.baseProperties, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList)
@@ -1343,6 +1345,7 @@ end
 function slot8.CLSMinion(slot0)
 	for slot4, slot5 in pairs(slot0._unitList) do
 		if slot5:GetIFF() == uv0.FOE_CODE and slot5:IsAlive() and not slot5:IsBoss() then
+			slot5:SetDeathReason(uv1.UnitDeathReason.CLS)
 			slot5:DeadAction()
 		end
 	end

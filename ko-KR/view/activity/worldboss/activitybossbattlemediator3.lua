@@ -194,7 +194,7 @@ function slot0.BindEvent(slot0)
 
 		seriesAsync({
 			function (slot0)
-				if not uv0 and not pg.StoryMgr.GetInstance():IsPlayed("NG0017") then
+				if not uv0 and not pg.NewStoryMgr.GetInstance():IsPlayed("NG0017") then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						hideYes = false,
 						showStopRemind = true,

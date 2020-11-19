@@ -26,7 +26,17 @@ function slot0.GetCommodityById(slot0, slot1)
 end
 
 function slot0.GetCommodities(slot0)
-	return _.values(slot0.goods)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.goods) do
+		table.insert(slot1, slot6)
+	end
+
+	table.sort(slot1, function (slot0, slot1)
+		return slot0:getConfig("order") < slot1:getConfig("order")
+	end)
+
+	return slot1
 end
 
 function slot0.bindConfigTable(slot0)

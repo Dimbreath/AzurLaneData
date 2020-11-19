@@ -138,6 +138,8 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleInheritDungeonCommand.New())
 	elseif slot1.battleType == SYSTEM_DEBUG then
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleDebugCommand.New())
+	elseif slot1.battleType == SYSTEM_AIRFIGHT then
+		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleAirFightCommand.New())
 	else
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSingleDungeonCommand.New())
 	end
@@ -247,7 +249,7 @@ function slot2.ChangeState(slot0, slot1)
 		slot0._dataProxy:Start()
 
 		if slot0._dataProxy._dungeonInfo.beginStoy then
-			pg.StoryMgr.GetInstance():Play(slot2, function ()
+			pg.NewStoryMgr.GetInstance():Play(slot2, function ()
 				uv0._battleCommand:DoPrologue()
 			end)
 		else

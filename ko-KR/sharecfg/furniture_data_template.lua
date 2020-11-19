@@ -4445,6 +4445,80 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100021] = {
+		can_rotate = 0,
+		describe = "Let's Jump！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "doaqiuicon",
+		count = 1,
+		name = "탱탱볼",
+		id = 100021,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"doaqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
@@ -74680,6 +74754,7 @@ pg.furniture_data_template = {
 		100018,
 		100019,
 		100020,
+		100021,
 		1001,
 		1002,
 		1101,

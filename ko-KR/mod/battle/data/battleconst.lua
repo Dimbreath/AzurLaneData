@@ -36,7 +36,8 @@ slot0.UnitType = {
 	MAIN_UNIT = 7,
 	FUNNEL_UNIT = 8,
 	UAV_UNIT = 9,
-	SUB_UNIT = 10
+	SUB_UNIT = 10,
+	CONST_UNIT = 11
 }
 slot0.EquipmentType = {
 	MAIN_CANNON = 1,
@@ -63,6 +64,7 @@ slot0.EquipmentType = {
 	BEAM = 24,
 	DEPTH_CHARGE = 25,
 	REPEATER_ANTI_AIR = 26,
+	MANUAL_AAMISSILE = 28,
 	DISPOSABLE_TORPEDO = 27,
 	PREVIEW_ARICRAFT = 99,
 	AIR_ASSIST = "airAssist"
@@ -168,7 +170,8 @@ slot0.BulletType = {
 	MISSILE = 13,
 	SPACE_LASER = 14,
 	SCALE = 15,
-	TRIGGER_BOMB = 16
+	TRIGGER_BOMB = 16,
+	AAMissile = 17
 }
 slot0.BulletDamageType = {
 	NORMAL = 1,
@@ -273,7 +276,8 @@ slot0.UnitDeathReason = {
 	LEAVE = 2,
 	DESTRUCT = 3,
 	TOUCHDOWN = 4,
-	CRUSH = 5
+	CRUSH = 5,
+	CLS = 6
 }
 slot0.BattleScore = {
 	D = 0,

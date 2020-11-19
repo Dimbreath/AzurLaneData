@@ -192,8 +192,8 @@ function slot0.GetFinal(slot0)
 end
 
 function slot0.PlayStory(slot0, slot1)
-	if slot0.actMedal:getConfig("config_client").story and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
-		pg.StoryMgr.GetInstance():Play(slot2, slot1)
+	if slot0.actMedal:getConfig("config_client").story then
+		pg.NewStoryMgr.GetInstance():Play(slot2, slot1)
 	else
 		slot1()
 	end

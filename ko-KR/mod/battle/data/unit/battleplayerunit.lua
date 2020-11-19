@@ -215,7 +215,7 @@ function slot7.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0._chargeList[#slot0._chargeList + 1] = slot6
 
 		slot0._weaponQueue:AppendChargeWeapon(slot6)
-	elseif slot7 == uv1.MANUAL_TORPEDO or slot7 == uv1.DISPOSABLE_TORPEDO then
+	elseif slot7 == uv1.MANUAL_TORPEDO or slot7 == uv1.DISPOSABLE_TORPEDO or slot7 == uv1.MANUAL_AAMISSILE then
 		slot0._manualTorpedoList[#slot0._manualTorpedoList + 1] = slot6
 
 		slot0._weaponQueue:AppendManualTorpedo(slot6)

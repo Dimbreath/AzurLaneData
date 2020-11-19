@@ -11,8 +11,8 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDataSetting(slot0)
-	if slot0.activity:getConfig("config_client")[1][1] ~= nil and not pg.StoryMgr.GetInstance():IsPlayed(slot1) then
-		pg.StoryMgr.GetInstance():Play(slot1)
+	if slot0.activity:getConfig("config_client")[1][1] ~= nil then
+		pg.NewStoryMgr.GetInstance():Play(slot1)
 	end
 end
 

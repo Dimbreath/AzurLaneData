@@ -106,7 +106,7 @@ function slot2.bulletSplit(slot0, slot1)
 					if uv9.Battle.BattleTargetChoise.TargetHarmNearest(uv6)[1] == nil then
 						slot4:SetRotateInfo(nil, uv5 and uv6:GetYAngle() or uv7, slot2)
 					else
-						slot4:SetRotateInfo(slot6:GetCLDZCenterPosition(), slot5, slot2)
+						slot4:SetRotateInfo(slot6:GetBeenAimedPosition(), slot5, slot2)
 					end
 				else
 					slot4:SetRotateInfo(nil, slot5, slot2)

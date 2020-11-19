@@ -199,40 +199,64 @@ function slot0.Preload(slot0)
 
 			if slot0.contextData.prefabFleet.main_unitList then
 				for slot11, slot12 in ipairs(slot5) do
-					table.insert(slot3, {
+					slot13 = {
 						configId = slot12.configId,
-						equipments = slot12.equipment,
+						equipments = {},
 						skinId = slot12.skinId,
-						getActiveEquipments = function (slot0)
-							return slot0.equipments
-						end
-					})
+						buffs = slot12.skills
+					}
+
+					for slot19 = 1, math.max(#slot12.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot12.configId).default_equip_list) do
+						slot13.equipments[slot19] = slot12.equipment[slot19] or false
+					end
+
+					function slot13.getActiveEquipments(slot0)
+						return slot0.equipments
+					end
+
+					table.insert(slot3, slot13)
 				end
 			end
 
 			if slot6 then
 				for slot11, slot12 in ipairs(slot6) do
-					table.insert(slot3, {
+					slot13 = {
 						configId = slot12.configId,
-						equipments = slot12.equipment,
+						equipments = {},
 						skinId = slot12.skinId,
-						getActiveEquipments = function (slot0)
-							return slot0.equipments
-						end
-					})
+						buffs = slot12.skills
+					}
+
+					for slot19 = 1, math.max(#slot12.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot12.configId).default_equip_list) do
+						slot13.equipments[slot19] = slot12.equipment[slot19] or false
+					end
+
+					function slot13.getActiveEquipments(slot0)
+						return slot0.equipments
+					end
+
+					table.insert(slot3, slot13)
 				end
 			end
 
 			if slot7 then
 				for slot11, slot12 in ipairs(slot7) do
-					table.insert(slot3, {
+					slot13 = {
 						configId = slot12.configId,
-						equipments = slot12.equipment,
+						equipments = {},
 						skinId = slot12.skinId,
-						getActiveEquipments = function (slot0)
-							return slot0.equipments
-						end
-					})
+						buffs = slot12.skills
+					}
+
+					for slot19 = 1, math.max(#slot12.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot12.configId).default_equip_list) do
+						slot13.equipments[slot19] = slot12.equipment[slot19] or false
+					end
+
+					function slot13.getActiveEquipments(slot0)
+						return slot0.equipments
+					end
+
+					table.insert(slot3, slot13)
 				end
 			end
 		end
@@ -283,6 +307,10 @@ function slot0.Preload(slot0)
 
 			for slot15, slot16 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot9.configId, slot9.skills, slot0.contextData.system, slot15)) do
 				slot1:AddPreloadResource(slot16)
+			end
+
+			if slot9.buffs then
+				slot1:AddPreloadResource(ys.Battle.BattleDataFunction.GetBuffListRes(slot9.buffs, slot0.contextData.system, slot9.skinId))
 			end
 		end
 	end

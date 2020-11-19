@@ -53,9 +53,10 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 
 	slot2 = {}
+	slot3 = pg.NewStoryMgr.GetInstance()
 
 	for slot8 = 1, uv0.MAX_COUNT do
-		if slot0.storyIDTable[slot8] and slot8 <= slot0.curDay and slot8 <= math.clamp(slot0.playCount, 0, uv0.MAX_COUNT) and not pg.StoryMgr.GetInstance():IsPlayed(slot9) then
+		if slot0.storyIDTable[slot8] and slot8 <= slot0.curDay and slot8 <= math.clamp(slot0.playCount, 0, uv0.MAX_COUNT) then
 			table.insert(slot2, function (slot0)
 				uv0:Play(uv1, slot0)
 			end)

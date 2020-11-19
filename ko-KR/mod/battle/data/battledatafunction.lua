@@ -151,7 +151,11 @@ function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
 	end
 
 	if slot6.last_effect and slot6.last_effect ~= "" then
-		slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot6.last_effect)
+		for slot11, slot12 in ipairs(type(slot6.last_effect) == "table" and slot6.last_effect or {
+			slot6.last_effect
+		}) do
+			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot12)
+		end
 	end
 
 	for slot10, slot11 in ipairs(slot6.effect_list) do
@@ -201,6 +205,21 @@ function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
 	end
 
 	return slot4
+end
+
+function slot3.GetBuffListRes(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot8, slot9 in ipairs(slot0) do
+		slot15 = slot9.level
+		slot16 = {}
+
+		for slot15, slot16 in ipairs(uv0.GetResFromBuff(slot9.id, slot15, slot16, slot2)) do
+			slot3[#slot3 + 1] = slot16
+		end
+	end
+
+	return slot3
 end
 
 function slot3.GetBulletResFromSkill(slot0, slot1, slot2)

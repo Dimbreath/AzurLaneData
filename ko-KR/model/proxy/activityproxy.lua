@@ -454,8 +454,9 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 		if not slot6:isFull() then
 			function (slot0, slot1)
 				slot7 = slot1
+				slot8 = uv2
 
-				for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.TeamToTypeList(slot0), uv1.ships, slot7)) do
+				for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.TeamToTypeList(slot0), uv1.ships, slot7, slot8)) do
 					uv1:insertShip(slot8, nil, slot0)
 				end
 			end(TeamType.Submarine, TeamType.SubmarineMax - #slot6.subShips)

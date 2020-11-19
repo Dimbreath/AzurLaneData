@@ -5,20 +5,20 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	slot6 = getProxy(ChapterProxy)
+
 	if slot3:getConfig("scene") and #slot7 > 0 then
 		if slot7[1] == "ACTIVITY_MAP" then
-			slot8, slot9 = getProxy(ChapterProxy):getLastMapForActivity()
+			slot8, slot9 = slot6:getLastMapForActivity()
 
-			if not (slot8 and Map.StaticIsMapBindedActivityActive(slot8) and not Map.StaticIsMapRemaster(slot8)) then
+			if not slot8 or not slot6:getMapById(slot8):isUnlock() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-				return
+			else
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+					chapterId = slot9,
+					mapIdx = slot8
+				})
 			end
-
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-				chapterId = slot9,
-				mapIdx = slot8
-			})
 		elseif SCENE[slot7[1]] then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE[slot7[1]], slot7[2])
 		end
@@ -44,14 +44,10 @@ function slot0.execute(slot0, slot1)
 		slot14 = slot8.target_id_for_client
 
 		if slot13 == 0 and slot14 ~= 0 then
-			slot15 = Chapter.New({
-				id = slot14
-			})
-
-			if getProxy(ChapterProxy):getMaps()[slot15:getConfig("map")]:getChapter(slot15.id) and slot18:isUnlock() then
+			if slot6:getChapterById(slot14) and slot15:isUnlock() then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-					chapterId = slot18 and slot18.id,
-					mapIdx = slot18 and slot18:getConfig("map")
+					chapterId = slot15 and slot15.id,
+					mapIdx = slot15 and slot15:getConfig("map")
 				})
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock"))
@@ -70,18 +66,12 @@ function slot0.execute(slot0, slot1)
 		elseif slot13 > 7 or type(slot14) == "string" and tonumber(slot14) == 0 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 		else
-			if type(slot14) == "table" then
-				slot15 = slot6:getMaps()
+			if type(slot14) == "table" and _.all(slot14, function (slot0)
+				return not uv0:getChapterById(slot0):isUnlock()
+			end) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
 
-				if _.all(slot14, function (slot0)
-					return uv0[Chapter.New({
-						id = slot0
-					}):getConfig("map")]:getChapter(slot0) and not slot3:isUnlock()
-				end) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
-
-					return
-				end
+				return
 			end
 
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
@@ -210,31 +200,21 @@ function slot0.execute(slot0, slot1)
 		slot14 = slot8.target_id_for_client
 
 		if slot13 == 0 and slot14 ~= 0 then
-			slot15 = Chapter.New({
-				id = slot14
-			})
-
-			if getProxy(ChapterProxy):getMaps()[slot15:getConfig("map")]:getChapter(slot15.id) and slot18:isUnlock() then
+			if slot6:getChapterById(slot14) and slot15:isUnlock() then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-					chapterId = slot18 and slot18.id,
-					mapIdx = slot18 and slot18:getConfig("map")
+					chapterId = slot15 and slot15.id,
+					mapIdx = slot15 and slot15:getConfig("map")
 				})
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock"))
 			end
 		else
-			if type(slot14) == "table" then
-				slot15 = slot6:getMaps()
+			if type(slot14) == "table" and _.all(slot14, function (slot0)
+				return not uv0:getChapterById(slot0):isUnlock()
+			end) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
 
-				if _.all(slot14, function (slot0)
-					return uv0[Chapter.New({
-						id = slot0
-					}):getConfig("map")]:getChapter(slot0) and not slot3:isUnlock()
-				end) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
-
-					return
-				end
+				return
 			end
 
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)

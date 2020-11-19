@@ -1609,6 +1609,70 @@ end
 
 slot0.UnilateralCrush = slot15
 
+function slot15(slot0, slot1, ...)
+	slot3 = slot1
+	slot2 = slot1.GetIFF
+	slot2 = slot2(slot3)
+	slot3 = ys
+	slot3 = slot3.Battle
+	slot3 = slot3.BattleConfig
+	slot3 = slot3.FRIENDLY_CODE
+
+	if slot2 == slot3 then
+		slot3 = 1
+		slot4 = {
+			isMiss = false,
+			isCri = false,
+			isDamagePrevent = false
+		}
+
+		return slot3, slot4
+	else
+		slot3 = ys
+		slot3 = slot3.Battle
+		slot3 = slot3.BattleConfig
+		slot3 = slot3.FOE_CODE
+
+		if slot2 == slot3 then
+			slot3 = uv0
+			slot3 = slot3.CalculateDamage
+			slot4 = slot0
+			slot5 = slot1
+
+			return slot3(slot4, slot5, ...)
+		end
+	end
+end
+
+slot0.FriendInvincibleDamage = slot15
+
+function slot15(slot0, slot1)
+	slot2 = uv0
+	slot2 = slot2.CalculateCrashDamage
+	slot3 = slot0
+	slot4 = slot1
+	slot2, slot3 = slot2(slot3, slot4)
+	slot4 = 1
+	slot6 = slot1
+	slot5 = slot1.GetIFF
+	slot5 = slot5(slot6)
+	slot6 = ys
+	slot6 = slot6.Battle
+	slot6 = slot6.BattleConfig
+	slot6 = slot6.FRIENDLY_CODE
+
+	if slot5 == slot6 then
+		slot3 = 1
+	end
+
+	slot5 = slot4
+	slot6 = slot3
+
+	return slot5, slot6
+end
+
+slot0.FriendInvincibleCrashDamage = slot15
+
 function slot15(slot0)
 	slot1 = slot0 * 0.01
 	slot1 = 1 - slot1

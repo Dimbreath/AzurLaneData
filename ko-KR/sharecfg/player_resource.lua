@@ -405,6 +405,11 @@ pg.player_resource = {
 		name = "ouxiang2_pt",
 		itemid = 59185
 	},
+	[176] = {
+		id = 176,
+		name = "naerweikehaogan2",
+		itemid = 59188
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -699,6 +704,9 @@ pg.player_resource = {
 		ouxiang2_pt = {
 			175
 		},
+		naerweikehaogan2 = {
+			176
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -812,6 +820,7 @@ pg.player_resource = {
 		172,
 		173,
 		175,
+		176,
 		1001,
 		950,
 		951,

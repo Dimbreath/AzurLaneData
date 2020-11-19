@@ -16,18 +16,15 @@ function slot0.execute(slot0, slot1)
 
 	slot0:sendNotification(GAME.STOP_BATTLE_LOADING, {})
 
-	if pg.StoryMgr.GetInstance()._go.activeSelf then
-		pg.StoryMgr.GetInstance():EndStory()
+	if pg.NewStoryMgr:GetInstance():IsRunning() then
+		pg.NewStoryMgr:GetInstance():Quit()
 	end
 
 	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
 		pg.MsgboxMgr.GetInstance():hide()
 	end
 
-	slot5 = getProxy(SettingsProxy)
-
-	slot5:resetEquipSceneIndex()
-	slot5:resetActivityLayerIndex()
+	getProxy(SettingsProxy):Reset()
 	print("disconnect from server...-" .. tostring(slot2.code))
 	pg.ConnectionMgr.GetInstance():Disconnect()
 

@@ -58,6 +58,14 @@ function slot25.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, s
 		slot15:SetOverrideLevel(slot14)
 	elseif slot1 == uv0.UnitType.NPC_UNIT then
 		slot15 = uv1.Battle.BattleNPCUnit.New(slot0, slot2)
+	elseif slot1 == uv0.UnitType.CONST_UNIT then
+		slot15 = uv1.Battle.BattleConstPlayerUnit.New(slot0, slot2)
+
+		slot15:SetSkinId(slot4)
+		slot15:SetRepressReduce(slot10)
+		slot15:SetWeaponInfo(slot12, slot13)
+
+		slot16 = Ship.WEAPON_COUNT
 	end
 
 	slot15:SetTemplate(slot3, slot6, slot7)
@@ -207,6 +215,8 @@ function slot25.CreateWeaponUnit(slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv2.Battle.BattleRepeaterAntiAirUnit.New()
 	elseif slot8 == uv1.EquipmentType.DISPOSABLE_TORPEDO then
 		slot6 = uv2.Battle.BattleDisposableTorpedoUnit.New()
+	elseif slot8 == uv1.EquipmentType.MANUAL_AAMISSILE then
+		slot6 = uv2.Battle.BattleManualAAMissileUnit.New()
 	end
 
 	slot6:SetPotentialFactor(slot2)

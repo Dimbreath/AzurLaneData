@@ -443,13 +443,6 @@ slot4, slot5 = nil
 function slot0.didEnter(slot0)
 	slot0:setBG()
 	setActive(slot0._phonyui, false)
-
-	if ENABLE_TEST_OSS then
-		onButton(slot0, slot0._settingBtn.parent:Find("OSS") or cloneTplTo(slot0._settingBtn, slot0._settingBtn.parent, "OSS"), function ()
-			uv0:emit("TEST_OSS")
-		end, SFX_MAIN)
-	end
-
 	onToggle(slot0, slot0._moveBtn, function (slot0)
 		setActive(uv0._moveOn, slot0)
 		setActive(uv0._moveOff, not slot0)
@@ -1423,7 +1416,7 @@ function slot0.displayShipWord(slot0, slot1)
 		end)).id
 	end
 
-	slot13 = pg.StoryMgr.GetInstance():isActive()
+	slot13 = pg.NewStoryMgr.GetInstance():IsRunning()
 
 	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
 		-- Nothing

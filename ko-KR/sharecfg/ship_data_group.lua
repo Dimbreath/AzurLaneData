@@ -33,6 +33,16 @@ pg.ship_data_group = {
 				0
 			},
 			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
+			},
+			{
 				"주간 임무",
 				{
 					""
@@ -69,6 +79,16 @@ pg.ship_data_group = {
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
 					}
 				},
 				0
@@ -5155,9 +5175,13 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"이벤트 : 영광의 마지막 전투",
+				"소형함 건조",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5195,9 +5219,13 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"이벤트 : 영광의 마지막 전투",
+				"소형함 건조",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5679,6 +5707,16 @@ pg.ship_data_group = {
 				"한정 이벤트: 싸늘한 겨울의 왕관",
 				{
 					""
+				},
+				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -13835,6 +13873,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"명예 훈장 교환(확률 갱신)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14184,6 +14232,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"명예 훈장 교환(확률 갱신)",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0

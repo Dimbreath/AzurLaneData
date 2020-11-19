@@ -192,7 +192,7 @@ function slot0.UpdateView(slot0)
 end
 
 function slot0.CheckStory(slot0)
-	slot1 = pg.StoryMgr.GetInstance()
+	slot1 = pg.NewStoryMgr.GetInstance()
 
 	table.eachAsync(slot0.contextData.activity:getConfig("config_client").story, function (slot0, slot1, slot2)
 		if uv0.contextData.bossHP < slot1[1] + ((slot0 == 1 or slot1[1] == 0) and 1 or 0) then

@@ -81,7 +81,7 @@ function slot6.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot6:SetShiftInfo(slot0, slot1)
 
 		if uv0._tmpData.aim_type == uv3.WeaponAimType.AIM and slot4 ~= nil then
-			slot6:SetRotateInfo(slot4:GetCLDZCenterPosition(), uv0:GetBaseAngle(), slot2)
+			slot6:SetRotateInfo(slot4:GetBeenAimedPosition(), uv0:GetBaseAngle(), slot2)
 		else
 			slot6:SetRotateInfo(nil, uv0:GetBaseAngle(), slot2)
 		end
@@ -638,7 +638,7 @@ function slot6.SingleFire(slot0, slot1, slot2, slot3)
 			slot5:SetShiftInfo(slot0, slot1)
 
 			if uv2 ~= nil then
-				slot5:SetRotateInfo(uv2:GetCLDZCenterPosition(), uv0:GetBaseAngle(), slot2)
+				slot5:SetRotateInfo(uv2:GetBeenAimedPosition(), uv0:GetBaseAngle(), slot2)
 			else
 				slot5:SetRotateInfo(nil, uv0:GetBaseAngle(), slot2)
 			end

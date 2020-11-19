@@ -13,6 +13,8 @@ function slot2.MakeBullet(slot0)
 	return uv0.Battle.BattleCannonBullet.New()
 end
 
+slot3 = Quaternion.Euler(-90, 0, 0)
+
 function slot2.onBulletHitFunc(slot0, slot1, slot2)
 	slot3 = uv0.GetDataProxy()
 	slot5 = slot0:GetBulletData():GetTemplate()
@@ -49,8 +51,15 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 
 			uv2.Battle.PlayBattleSFX(slot5.hit_sfx)
 
-			slot12 = slot10.transform.localPosition
-			slot10.transform.localPosition = Vector3(slot12.x + (slot6:GetPosition().x - slot0:GetPosition().x) / slot6:GetInitScale(), slot12.y, slot12.z)
+			slot12 = slot0:GetPosition() - slot6:GetPosition()
+			slot12.x = slot12.x * slot7:GetDirection()
+			slot13 = slot10.transform.localPosition
+			slot12.y = math.cos(math.deg2Rad * (uv3 * slot6:GetTf().localRotation).eulerAngles.x) * slot12.z
+			slot12.z = 0
+
+			slot13:Add(slot12 / slot6:GetInitScale())
+
+			slot10.transform.localPosition = slot13
 		end
 	end
 

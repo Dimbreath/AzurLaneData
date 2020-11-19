@@ -47,7 +47,10 @@ function slot0.register(slot0)
 			}, {
 				__index = ShipStatus.TAG_HIDE_CHALLENGE
 			}),
-			otherSelectedIds = slot5
+			otherSelectedIds = slot5,
+			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
+				isActivityNpc = true
+			})
 		})
 	end)
 	slot0:bind(uv0.ON_COMMIT_FLEET, function ()

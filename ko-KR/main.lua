@@ -79,7 +79,7 @@ function OnApplicationExit()
 
 	slot3 = pg.MsgboxMgr.GetInstance() and slot2:getMsgBoxOb()
 
-	if pg.StoryMgr.GetInstance() and slot4.storyId then
+	if pg.NewStoryMgr.GetInstance() and slot4:IsRunning() then
 		if slot3 and slot3.activeSelf then
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 			triggerButton(slot2._closeBtn)
@@ -185,9 +185,6 @@ seriesAsync({
 				pg.MsgboxMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
-				pg.StoryMgr.GetInstance():Init(slot0)
-			end,
-			function (slot0)
 				pg.SystemOpenMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
@@ -207,6 +204,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.ShipFlagMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.NewStoryMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

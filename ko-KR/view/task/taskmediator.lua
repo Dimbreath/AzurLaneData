@@ -10,7 +10,7 @@ function slot0.register(slot0)
 			slot5 = _.flatten(slot3:getConfig("config_data"))
 
 			if slot1.id == slot5[#slot5] then
-				pg.StoryMgr.GetInstance():Play("YIXIAN8", function ()
+				pg.NewStoryMgr.GetInstance():Play("YIXIAN8", function ()
 					uv0:sendNotification(GAME.SUBMIT_TASK, uv1.id)
 				end)
 
@@ -158,14 +158,14 @@ function slot0.PlayStoryForTaskAct(slot0, slot1, slot2)
 				end
 			end
 
-			if (slot9:getConfig("config_client").story or {})[slot11] and slot13[slot11][slot12] and not pg.StoryMgr.GetInstance():IsPlayed(slot14) then
+			if (slot9:getConfig("config_client").story or {})[slot11] and slot13[slot11][slot12] and not pg.NewStoryMgr.GetInstance():IsPlayed(slot14) then
 				slot4 = slot14
 			end
 		end
 	end
 
 	if slot4 then
-		pg.StoryMgr.GetInstance():Play(slot4, slot2)
+		pg.NewStoryMgr.GetInstance():Play(slot4, slot2)
 	else
 		slot2()
 	end

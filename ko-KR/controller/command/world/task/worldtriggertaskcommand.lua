@@ -33,7 +33,7 @@ function slot0.execute(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips("接取任务：" .. slot1.id)
 
 			if #slot1.config.task_op > 0 then
-				pg.StoryMgr.GetInstance():Play(slot1.config.task_op)
+				pg.NewStoryMgr.GetInstance():Play(slot1.config.task_op)
 			end
 
 			if uv1 then

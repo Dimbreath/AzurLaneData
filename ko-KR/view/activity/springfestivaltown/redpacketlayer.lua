@@ -81,8 +81,8 @@ function slot0.tryPlayStory(slot0)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS)
 	slot5 = slot1.data1 - math.min(slot1.data1, slot1.data2)
 
-	if slot0.countToStory[slot1.data3 - slot1.data2] and not pg.StoryMgr.GetInstance():IsPlayed(slot7) then
-		slot8:Play(slot7)
+	if slot0.countToStory[slot1.data3 - slot1.data2] then
+		pg.NewStoryMgr.GetInstance():Play(slot7)
 	end
 end
 

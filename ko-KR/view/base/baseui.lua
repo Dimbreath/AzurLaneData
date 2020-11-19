@@ -36,6 +36,10 @@ function slot0.getGroupName(slot0)
 	return nil
 end
 
+function slot0.getLayerWeight(slot0)
+	return LayerWeightConst.BASE_LAYER
+end
+
 function slot0.getBGM(slot0)
 	return pg.voice_bgm[slot0.__cname] and slot1.bgm or nil
 end
@@ -105,11 +109,7 @@ end
 function slot0.getWeightFromData(slot0)
 	slot1 = nil
 
-	if slot0.contextData ~= nil and slot0.contextData.LayerWeightMgr_weight then
-		slot1 = slot0.contextData.LayerWeightMgr_weight
-	end
-
-	return slot1
+	return (slot0.contextData == nil or not slot0.contextData.LayerWeightMgr_weight or slot0.contextData.LayerWeightMgr_weight) and slot0:getLayerWeight()
 end
 
 function slot0.isLayer(slot0)
@@ -133,6 +133,9 @@ function slot0.onUILoaded(slot0, slot1)
 	end
 
 	pg.SeriesGuideMgr.GetInstance():dispatch({
+		view = slot0.__cname
+	})
+	pg.NewStoryMgr.GetInstance():OnSceneEnter({
 		view = slot0.__cname
 	})
 
@@ -258,6 +261,9 @@ function slot0.exit(slot0)
 			uv0:willExit()
 			uv0:detach()
 			pg.GuideMgr.GetInstance():onSceneExit({
+				view = uv0.__cname
+			})
+			pg.NewStoryMgr.GetInstance():OnSceneExit({
 				view = uv0.__cname
 			})
 			uv0:emit(uv1.DID_EXIT)

@@ -389,7 +389,7 @@ function playBGM(slot0)
 end
 
 function playStory(slot0, slot1)
-	pg.StoryMgr.GetInstance():Play(slot0, slot1)
+	pg.NewStoryMgr.GetInstance():Play(slot0, slot1)
 end
 
 function errorMessage(slot0)

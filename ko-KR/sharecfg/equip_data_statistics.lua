@@ -476,7 +476,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -485,8 +486,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1671,7 +1671,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -1680,8 +1681,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1759,7 +1759,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -1768,8 +1769,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1852,7 +1852,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -1861,8 +1862,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1940,7 +1940,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -1949,8 +1950,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2022,7 +2022,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2031,8 +2032,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2119,7 +2119,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2128,8 +2129,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2207,7 +2207,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2216,8 +2217,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2295,7 +2295,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2304,8 +2305,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2383,7 +2383,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2392,8 +2393,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2465,7 +2465,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2474,8 +2475,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2553,7 +2553,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2562,8 +2563,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2635,7 +2635,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2644,8 +2645,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2732,7 +2732,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2741,8 +2742,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2815,7 +2815,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2824,8 +2825,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -3023,7 +3023,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -3032,8 +3033,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -17128,7 +17128,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17137,8 +17138,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -17221,7 +17221,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17230,8 +17231,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -17344,7 +17344,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17353,8 +17354,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -17664,7 +17664,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17673,8 +17674,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -17902,7 +17902,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17911,8 +17912,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -17994,7 +17994,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18003,8 +18004,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -18086,7 +18086,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18095,8 +18096,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -18208,7 +18208,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18217,8 +18218,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -18300,7 +18300,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18309,8 +18310,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -18422,7 +18422,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18431,8 +18432,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -18586,7 +18586,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18595,8 +18596,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -18709,7 +18709,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18718,8 +18719,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -18873,7 +18873,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18882,8 +18883,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -31360,7 +31360,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31369,8 +31370,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -31452,7 +31452,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31461,8 +31462,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -31544,7 +31544,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31553,8 +31554,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -31665,7 +31665,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31674,8 +31675,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -31757,7 +31757,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31766,8 +31767,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -31849,7 +31849,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31858,8 +31859,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -31971,7 +31971,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31980,8 +31981,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -32063,7 +32063,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32072,8 +32073,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -32185,7 +32185,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32194,8 +32195,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -32346,7 +32346,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32355,8 +32356,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -32438,7 +32438,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32447,8 +32448,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -32530,7 +32530,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32539,8 +32540,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -32652,7 +32652,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32661,8 +32662,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -32744,7 +32744,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32753,8 +32754,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -32866,7 +32866,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32875,8 +32876,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -33029,7 +33029,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -33038,8 +33039,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -33122,7 +33122,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -33131,8 +33132,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -33246,7 +33246,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -33255,8 +33256,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -33410,7 +33410,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -33419,8 +33420,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46016,7 +46016,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46025,8 +46026,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46139,7 +46139,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46148,8 +46149,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46302,7 +46302,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46311,8 +46312,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46463,7 +46463,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46472,8 +46473,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46555,7 +46555,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46564,8 +46565,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46647,7 +46647,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46656,8 +46657,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46769,7 +46769,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46778,8 +46779,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46861,7 +46861,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46870,8 +46871,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -46983,7 +46983,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46992,8 +46993,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -62040,7 +62040,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -62049,8 +62050,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -62133,7 +62133,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -62142,8 +62143,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -62226,7 +62226,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -62235,8 +62236,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -62350,7 +62350,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -62359,8 +62360,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -62445,7 +62445,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -62454,8 +62455,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -62570,7 +62570,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -62579,8 +62580,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -72418,7 +72418,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -72427,8 +72428,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72461,7 +72461,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -72470,8 +72471,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72504,7 +72504,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -72513,8 +72514,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74255,7 +74255,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74264,8 +74265,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74318,7 +74318,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74327,8 +74328,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74381,7 +74381,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74390,8 +74391,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74424,7 +74424,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74433,8 +74434,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74757,7 +74757,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74766,8 +74767,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74800,7 +74800,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74809,8 +74810,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74843,7 +74843,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74852,8 +74853,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74896,7 +74896,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74905,8 +74906,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -74949,7 +74949,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74958,8 +74959,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75002,7 +75002,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75011,8 +75012,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75055,7 +75055,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75064,8 +75065,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75108,7 +75108,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75117,8 +75118,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75161,7 +75161,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75170,8 +75171,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75214,7 +75214,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75223,8 +75224,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75267,7 +75267,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75276,8 +75277,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75320,7 +75320,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75329,8 +75330,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75373,7 +75373,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75382,8 +75383,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75426,7 +75426,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75435,8 +75436,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75479,7 +75479,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75488,8 +75489,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75532,7 +75532,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75541,8 +75542,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75585,7 +75585,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75594,8 +75595,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75638,7 +75638,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75647,8 +75648,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75691,7 +75691,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75700,8 +75701,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75744,7 +75744,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75753,8 +75754,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75797,7 +75797,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75806,8 +75807,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75850,7 +75850,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75859,8 +75860,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75903,7 +75903,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75912,8 +75913,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -75956,7 +75956,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75965,8 +75966,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76009,7 +76009,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76018,8 +76019,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76062,7 +76062,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76071,8 +76072,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76115,7 +76115,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76124,8 +76125,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76168,7 +76168,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76177,8 +76178,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76221,7 +76221,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76230,8 +76231,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76274,7 +76274,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76283,8 +76284,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76327,7 +76327,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76336,8 +76337,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76380,7 +76380,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76389,8 +76390,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76433,7 +76433,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76442,8 +76443,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76486,7 +76486,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76495,8 +76496,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76539,7 +76539,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76548,8 +76549,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76592,7 +76592,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76601,8 +76602,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76645,7 +76645,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76654,8 +76655,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76698,7 +76698,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76707,8 +76708,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76751,7 +76751,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76760,8 +76761,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76804,7 +76804,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76813,8 +76814,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76857,7 +76857,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76866,8 +76867,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76910,7 +76910,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76919,8 +76920,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -76963,7 +76963,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76972,8 +76973,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77016,7 +77016,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77025,8 +77026,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77069,7 +77069,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77078,8 +77079,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77122,7 +77122,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77131,8 +77132,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77175,7 +77175,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77184,8 +77185,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77228,7 +77228,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77237,8 +77238,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77281,7 +77281,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77290,8 +77291,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77334,7 +77334,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77343,8 +77344,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77387,7 +77387,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77396,8 +77397,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77440,7 +77440,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77449,8 +77450,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77493,7 +77493,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77502,8 +77503,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77546,7 +77546,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77555,8 +77556,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77599,7 +77599,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77608,8 +77609,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77652,7 +77652,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77661,8 +77662,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77705,7 +77705,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77714,8 +77715,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77758,7 +77758,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77767,8 +77768,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77811,7 +77811,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77820,8 +77821,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77864,7 +77864,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77873,8 +77874,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77917,7 +77917,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77926,8 +77927,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -77970,7 +77970,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77979,8 +77980,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78023,7 +78023,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78032,8 +78033,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78076,7 +78076,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78085,8 +78086,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78129,7 +78129,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78138,8 +78139,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78182,7 +78182,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78191,8 +78192,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78317,7 +78317,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78326,8 +78327,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78370,7 +78370,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78379,8 +78380,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78423,7 +78423,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78432,8 +78433,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78476,7 +78476,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78485,8 +78486,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78529,7 +78529,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78538,8 +78539,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78582,7 +78582,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78591,8 +78592,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78635,7 +78635,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78644,8 +78645,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78688,7 +78688,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78697,8 +78698,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78741,7 +78741,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78750,8 +78751,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78794,7 +78794,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78803,8 +78804,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78847,7 +78847,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78856,8 +78857,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78900,7 +78900,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78909,8 +78910,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -78953,7 +78953,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78962,8 +78963,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79006,7 +79006,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79015,8 +79016,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79059,7 +79059,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79068,8 +79069,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79112,7 +79112,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79121,8 +79122,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79165,7 +79165,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79174,8 +79175,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79218,7 +79218,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79227,8 +79228,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79271,7 +79271,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79280,8 +79281,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79324,7 +79324,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79333,8 +79334,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79377,7 +79377,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79386,8 +79387,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79430,7 +79430,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79439,8 +79440,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79483,7 +79483,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79492,8 +79493,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79536,7 +79536,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79545,8 +79546,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79589,7 +79589,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79598,8 +79599,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79642,7 +79642,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79651,8 +79652,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79695,7 +79695,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79704,8 +79705,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79748,7 +79748,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79757,8 +79758,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79801,7 +79801,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79810,8 +79811,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79854,7 +79854,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79863,8 +79864,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79907,7 +79907,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79916,8 +79917,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -79960,7 +79960,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79969,8 +79970,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80013,7 +80013,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80022,8 +80023,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80066,7 +80066,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80075,8 +80076,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80119,7 +80119,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80128,8 +80129,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80172,7 +80172,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80181,8 +80182,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80225,7 +80225,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80234,8 +80235,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80278,7 +80278,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80287,8 +80288,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80331,7 +80331,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80340,8 +80341,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80384,7 +80384,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80393,8 +80394,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80437,7 +80437,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80446,8 +80447,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80490,7 +80490,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80499,8 +80500,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80543,7 +80543,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80552,8 +80553,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80596,7 +80596,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80605,8 +80606,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80649,7 +80649,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80658,8 +80659,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80702,7 +80702,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80711,8 +80712,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80755,7 +80755,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80764,8 +80765,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80808,7 +80808,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80817,8 +80818,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80861,7 +80861,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80870,8 +80871,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80914,7 +80914,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80923,8 +80924,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -80967,7 +80967,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80976,8 +80977,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81020,7 +81020,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81029,8 +81030,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81073,7 +81073,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81082,8 +81083,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81126,7 +81126,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81135,8 +81136,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81179,7 +81179,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81188,8 +81189,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81232,7 +81232,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81241,8 +81242,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81285,7 +81285,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81294,8 +81295,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81338,7 +81338,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81347,8 +81348,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81391,7 +81391,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81400,8 +81401,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81444,7 +81444,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81453,8 +81454,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81497,7 +81497,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81506,8 +81507,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81550,7 +81550,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81559,8 +81560,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81603,7 +81603,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81612,8 +81613,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81656,7 +81656,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81665,8 +81666,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81709,7 +81709,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81718,8 +81719,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81762,7 +81762,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81771,8 +81772,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81815,7 +81815,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81824,8 +81825,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81868,7 +81868,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81877,8 +81878,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81921,7 +81921,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81930,8 +81931,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -81974,7 +81974,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81983,8 +81984,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82027,7 +82027,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82036,8 +82037,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82080,7 +82080,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82089,8 +82090,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82133,7 +82133,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82142,8 +82143,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82186,7 +82186,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82195,8 +82196,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82239,7 +82239,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82248,8 +82249,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82292,7 +82292,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82301,8 +82302,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82345,7 +82345,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82354,8 +82355,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82398,7 +82398,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82407,8 +82408,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82451,7 +82451,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82460,8 +82461,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82504,7 +82504,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82513,8 +82514,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82557,7 +82557,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82566,8 +82567,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82610,7 +82610,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82619,8 +82620,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82662,7 +82662,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82671,8 +82672,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82714,7 +82714,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82723,8 +82724,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82766,7 +82766,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82775,8 +82776,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82819,7 +82819,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82828,8 +82829,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82924,7 +82924,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82933,8 +82934,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -82977,7 +82977,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -82986,8 +82987,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -83030,7 +83030,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -83039,8 +83040,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -83083,7 +83083,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -83092,8 +83093,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -83136,7 +83136,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -83145,8 +83146,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -83189,7 +83189,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -83198,8 +83199,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -83242,7 +83242,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -83251,8 +83252,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -83311,7 +83311,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -83320,8 +83321,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -83434,7 +83434,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -83443,8 +83444,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -87023,7 +87023,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -87032,8 +87033,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -87116,7 +87116,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -87125,8 +87126,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -87209,7 +87209,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -87218,8 +87219,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -87332,7 +87332,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -87341,8 +87342,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -87455,7 +87455,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -87464,8 +87465,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -87619,7 +87619,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -87628,8 +87629,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -88819,7 +88819,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -88828,8 +88829,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -89072,7 +89072,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -89081,8 +89082,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -89165,7 +89165,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -89174,8 +89175,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -89288,7 +89288,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -89297,8 +89298,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -92212,7 +92212,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -92221,8 +92222,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -92305,7 +92305,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -92314,8 +92315,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -92428,7 +92428,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -92437,8 +92438,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -92592,7 +92592,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -92601,8 +92602,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -93453,7 +93453,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -93462,8 +93463,7 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {

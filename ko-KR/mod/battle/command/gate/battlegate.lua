@@ -8,6 +8,7 @@ slot0.Gates = {
 	[SYSTEM_DODGEM] = ys.Battle.BattleGateDodgem,
 	[SYSTEM_SUBMARINE_RUN] = ys.Battle.BattleGateSubmarine,
 	[SYSTEM_REWARD_PERFORM] = ys.Battle.BattleGateRewardPerform,
+	[SYSTEM_AIRFIGHT] = ys.Battle.BattleGateAirFight,
 	[SYSTEM_SCENARIO] = ys.Battle.BattleGateScenario,
 	[SYSTEM_ROUTINE] = ys.Battle.BattleGateRoutine,
 	[SYSTEM_SUB_ROUTINE] = ys.Battle.BattleGateSubRoutine,

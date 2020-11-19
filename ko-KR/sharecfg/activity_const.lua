@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 20450
+		act_id = 20594
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -197,15 +197,6 @@ pg.activity_const = {
 	},
 	MORAN_RE_PT_ID = {
 		act_id = 20346
-	},
-	FAXI_PREVIEW_ID = {
-		act_id = 20152
-	},
-	FAXI_PT_ID = {
-		act_id = 20156
-	},
-	FAXI_RES_ID = {
-		act_id = 20160
 	},
 	XIAOJIAJIA_PREVIEW_ID = {
 		act_id = 20164
@@ -644,6 +635,9 @@ pg.activity_const = {
 	},
 	MUSIC_FESTIVAL_ID_2 = {
 		act_id = 20590
+	},
+	HMS_Hunter_PT_ID = {
+		act_id = 20597
 	},
 	SUMMER_REMAKE = {
 		act_id = 20248

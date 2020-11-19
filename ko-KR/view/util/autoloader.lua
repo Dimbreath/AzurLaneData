@@ -114,6 +114,30 @@ function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 	slot0._returnRequest[slot1] = uv2.New(slot1)
 end
 
+function slot0.GetSpriteDirect(slot0, slot1, slot2, slot3, slot4)
+	slot0:ClearRequest(slot4)
+
+	slot4 = slot4 or slot0:GenerateUID4LoadingRequest()
+	slot5 = nil
+	slot5 = uv0.New(slot1, slot2, function (slot0)
+		uv0._loadingRequest[uv1] = nil
+
+		if uv2 then
+			uv2(slot0)
+		end
+	end)
+
+	if uv1 then
+		print("AutoLoader Loading Atlas: " .. slot1 .. " Name: " .. slot2 .. " ;")
+	end
+
+	slot0._loadingRequest[slot4] = slot5
+
+	slot5:Start()
+
+	slot0._returnRequest[slot1] = uv2.New(slot1)
+end
+
 function slot0.GetOffSpriteRequest(slot0, slot1)
 	slot0:ClearRequest(slot1)
 end
