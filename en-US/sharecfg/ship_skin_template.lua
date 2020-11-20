@@ -66384,7 +66384,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[302131] = {
-		name = "The Tactician’s Vacation",
+		name = "The Tactician's Vacation",
 		ship_group = 30213,
 		group_index = 1,
 		illustrator2 = -1,
