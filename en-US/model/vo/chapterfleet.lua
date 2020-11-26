@@ -645,6 +645,13 @@ function slot0.getSummonCost(slot0)
 	end)
 end
 
+function slot0.DealDMG2Ships(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.ships) do
+		slot6.hpRant = math.clamp(slot6.hpRant - slot1, 0, 10000)
+		slot6.hpChange = (slot6.hpChange or 0) + slot6.hpRant - slot6.hpRant
+	end
+end
+
 function slot0.getMapAura(slot0)
 	slot1 = {}
 

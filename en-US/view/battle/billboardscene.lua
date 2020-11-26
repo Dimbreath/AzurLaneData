@@ -137,7 +137,7 @@ function slot0.didEnter(slot0)
 	end
 
 	function slot0.rankRect.onUpdateItem(slot0, slot1)
-		uv0:onUpdateItem(slot0, slot1)
+		uv0:onUpdateItem(slot0, slot1, uv0.curPagePTActID)
 	end
 
 	slot0.playerCard = RankCard.New(slot0.playerRankTF, RankCard.TYPE_SELF)
@@ -157,14 +157,14 @@ function slot0.onInintItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.onUpdateItem(slot0, slot1, slot2)
+function slot0.onUpdateItem(slot0, slot1, slot2, slot3)
 	if not slot0.cards[slot2] then
 		slot0:onInintItem(slot2)
 
-		slot3 = slot0.cards[slot2]
+		slot4 = slot0.cards[slot2]
 	end
 
-	slot3:update(slot0.displayRankVOs[slot1 + 1])
+	slot4:update(slot0.displayRankVOs[slot1 + 1], slot3)
 end
 
 function slot0.filter(slot0, slot1, slot2)
@@ -181,12 +181,18 @@ function slot0.filter(slot0, slot1, slot2)
 
 	slot0.rankRect:SetTotalCount(#slot0.displayRankVOs)
 	setActive(slot0.listEmptyTF, #slot0.displayRankVOs <= 0)
-	slot0.playerCard:update(slot0.playerRankVOs[slot0.page])
+	slot0.playerCard:update(slot0.playerRankVOs[slot0.page], slot2)
 end
 
 function slot0.switchPage(slot0, slot1, slot2)
 	if slot0.page == slot1 and slot1 ~= PowerRank.TYPE_PT then
 		return
+	end
+
+	if slot1 == PowerRank.TYPE_PT then
+		slot0.curPagePTActID = slot2
+	else
+		slot0.curPagePTActID = nil
 	end
 
 	slot0.page = slot1

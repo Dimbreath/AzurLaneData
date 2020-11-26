@@ -218,11 +218,63 @@ function slot0.FadeOutStory(slot0, slot1, slot2)
 	end
 
 	if not slot1:ShouldWaitFadeout() then
-		slot0:TweenValueForcanvasGroup(slot0.goCG, 1, 0, slot1:GetFadeoutTime(), 0)
+		slot0:fadeTransform(slot0._go, 1, 0.3, slot1:GetFadeoutTime(), true)
 		slot2()
 	else
-		slot0:TweenValueForcanvasGroup(slot0.goCG, 1, 0, slot3, 0, slot2)
+		slot0:fadeTransform(slot0._go, 1, 0.3, slot3, true, slot2)
 	end
+end
+
+function slot0.fadeTransform(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot7 = {}
+	slot8 = {}
+
+	for slot13 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+		slot15 = {
+			name = "_Color",
+			color = Color.white
+		}
+
+		if slot9[slot13].material.shader.name == "UI/GrayScale" then
+			slot15 = {
+				name = "_GrayScale",
+				color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
+			}
+		elseif slot14.material.shader.name == "UI/Line_Add_Blue" then
+			slot15 = {
+				name = "_GrayScale",
+				color = Color.New(1, 1, 1, 0.5882352941176471)
+			}
+		end
+
+		table.insert(slot8, slot15)
+
+		if slot14.material == slot14.defaultGraphicMaterial then
+			slot14.material = Material.Instantiate(slot14.defaultGraphicMaterial)
+		end
+
+		table.insert(slot7, slot14.material)
+	end
+
+	LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
+		for slot4, slot5 in ipairs(uv0) do
+			if not IsNil(slot5) then
+				slot5:SetColor(uv1[slot4].name, uv1[slot4].color * Color.New(slot0, slot0, slot0))
+			end
+		end
+	end)):setOnComplete(System.Action(function ()
+		if uv0 then
+			for slot3, slot4 in ipairs(uv1) do
+				if not IsNil(slot4) then
+					slot4:SetColor(uv2[slot3].name, uv2[slot3].color)
+				end
+			end
+		end
+
+		if uv3 then
+			uv3()
+		end
+	end))
 end
 
 function slot0.RegisetEvent(slot0, slot1)
@@ -405,17 +457,11 @@ function slot0.PlayBgm(slot0, slot1)
 		slot0:DelayCall(slot3, function ()
 			pg.CriMgr.GetInstance():PlayBGM(uv0, true)
 		end)
-
-		slot0.isPlayBgm = true
 	end
 end
 
 function slot0.StopBgm(slot0, slot1)
-	if slot0.isPlayBgm then
-		pg.CriMgr.GetInstance():StopBGM(true)
-
-		slot0.isPlayBgm = false
-	end
+	pg.CriMgr.GetInstance():StopBGM(true)
 end
 
 function slot0.StartUIAnimations(slot0, slot1, slot2)

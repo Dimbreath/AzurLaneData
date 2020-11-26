@@ -43,7 +43,8 @@ function slot0.execute(slot0, slot1)
 		activity_id = slot2.activity_id,
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,
-		arg2 = slot2.arg2
+		arg2 = slot2.arg2,
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			slot1 = uv0:getAwards(uv1, slot0)

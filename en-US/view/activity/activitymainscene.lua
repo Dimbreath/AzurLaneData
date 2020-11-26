@@ -40,8 +40,6 @@ function slot0.init(slot0)
 
 	setActive(slot0.lockAll, false)
 	setActive(slot0.tab, false)
-
-	uv0 = require("GameCfg.activity.EntranceData")
 end
 
 function slot0.didEnter(slot0)
@@ -150,6 +148,15 @@ function slot0.updateActivity(slot0, slot1)
 	end
 end
 
+function slot0.GetOnShowEntranceData()
+	uv0 = uv0 or require("GameCfg.activity.EntranceData")
+	uv0 = uv0 or {}
+
+	return _.select(uv0, function (slot0)
+		return slot0.isShow and slot0.isShow()
+	end)
+end
+
 function slot0.updateEntrances(slot0)
 	slot0.entranceList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -175,9 +182,7 @@ function slot0.updateEntrances(slot0)
 			LoadImageSpriteAsync("activitybanner/" .. slot4, slot2)
 		end
 	end)
-	slot0.entranceList:align(math.max(#_.select(uv0, function (slot0)
-		return slot0.isShow and slot0.isShow()
-	end), 5))
+	slot0.entranceList:align(math.max(#uv0.GetOnShowEntranceData(), 5))
 end
 
 function slot0.flushTabs(slot0)

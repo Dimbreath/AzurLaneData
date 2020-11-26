@@ -629,6 +629,117 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[23] = {
+		can_rotate = 0,
+		name = "Pennsylvania Ship Model",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "binxifaniyaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/binxifaniya",
+		canputon = 0,
+		count = 1,
+		describe = "Special Furniture: A 1:100 scale model of a Pennsylvania-class battleship.",
+		advice = 0,
+		deblocking = 1,
+		id = 23,
+		comfortable = 3,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24] = {
+		can_rotate = 0,
+		name = "Furious Ship Model",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "baonuicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/baonu",
+		canputon = 0,
+		count = 1,
+		describe = "Special Furniture: A 1:100 scale model of a Furious-class carrier.",
+		advice = 0,
+		deblocking = 1,
+		id = 24,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[25] = {
+		can_rotate = 0,
+		name = "Portland Ship Model",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "botelanicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/botelan",
+		canputon = 0,
+		count = 1,
+		describe = "Special Furniture: A 1:100 scale model of a Portland-class heavy cruiser.",
+		advice = 0,
+		deblocking = 1,
+		id = 25,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[102] = {
 		can_rotate = 0,
 		name = "Forgotten Memory",
@@ -2976,6 +3087,319 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[178] = {
+		can_rotate = 0,
+		name = "Improvised Stage",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "qidianwutaiicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "chuanmo/qidianwutai",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Every idol has to start somewhere.",
+		advice = 0,
+		id = 178,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			9,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					72,
+					-75
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					-28,
+					-126
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					80,
+					-143
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[179] = {
+		can_rotate = 0,
+		name = "Her Majesty The Queen's Portrait",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 4,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "queenicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/queen",
+		canputon = 0,
+		count = 1,
+		describe = "A two-dimensional, flat, not bouncy, moundless portrait of Her Majesty.",
+		advice = 0,
+		deblocking = 1,
+		id = 179,
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[180] = {
+		can_rotate = 0,
+		name = "Hero and Leander",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 4,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "libieicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/libie",
+		canputon = 0,
+		count = 1,
+		describe = "A painting that depicts an epic scene.",
+		advice = 0,
+		deblocking = 1,
+		id = 180,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[181] = {
+		name = "Speaker Podium",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "lkxdjiangtaiicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "On which no false promises are ever made, but many are broken.",
+		id = 181,
+		advice = 0,
+		comfortable = 2,
+		belong = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lkxdjiangtaiB",
+				"normal"
+			},
+			{
+				"lkxdjiangtaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"normal",
+						0,
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					107020
+				},
+				"lkxdjiangtai",
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"lkxdjiangtaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[182] = {
+		name = "Paper Airplane Runway",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "zfjicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "What's the deal with paper airplane food, anyway?",
+		id = 182,
+		advice = 0,
+		comfortable = 2,
+		belong = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zfjB",
+				"normal"
+			},
+			{
+				"zfjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2",
+						0,
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"zfjCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[183] = {
 		can_rotate = 0,
 		name = "Dreamwaker's Montage",
@@ -3068,6 +3492,98 @@ pg.furniture_data_template = {
 			{
 				"ido2xunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[187] = {
+		can_rotate = 0,
+		name = "Venus Vacation Statue",
+		gain_by = "Vacation Lane ",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "doadalaoicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/doadalao",
+		canputon = 0,
+		count = 1,
+		describe = "Given to commanders who participated in the Azur Lane x DEAD OR ALIVE Xtreme Venus Vacation collaboration.",
+		advice = 0,
+		deblocking = 1,
+		id = 187,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"doa_main_day",
+				"doa_main_night"
+			}
+		},
+		interAction_group = {}
+	},
+	[188] = {
+		can_rotate = 1,
+		name = "Manjuu Fever Projector",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "doaxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Disco inferno.",
+		advice = 0,
+		id = 188,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaxunzhang",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"doa_qifenhe",
+					"action1"
+				}
 			}
 		},
 		interAction_group = {}
@@ -3774,6 +4290,55 @@ pg.furniture_data_template = {
 				"manjuustageCharControl",
 				"manjuustageCharControl2",
 				"manjuustageCharControl3"
+			}
+		},
+		interAction_group = {}
+	},
+	[100010] = {
+		can_rotate = 1,
+		name = "Soothing Cat Paw",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "maozhuaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Kindly provided by Akashi. Squishy.",
+		advice = 0,
+		id = 100010,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maozhua",
+				"normal",
+				{
+					"action",
+					false,
+					nil,
+					"event:/ui/meow"
+				}
 			}
 		},
 		interAction_group = {}
@@ -67833,6 +68398,1162 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[72001] = {
+		can_rotate = 0,
+		name = "Venus Beach ",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibandoaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/dibandoa",
+		canputon = 0,
+		count = 1,
+		describe = "You read that right. This is a genuine artificial beach. ",
+		advice = 0,
+		deblocking = 1,
+		id = 72001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72002] = {
+		can_rotate = 0,
+		name = "Venus Wallpaper ",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbi4doaicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/qiangbidoa",
+		canputon = 0,
+		count = 1,
+		describe = "The scenery is so vivid that you could almost get lost in it. ",
+		advice = 0,
+		deblocking = 1,
+		id = 72002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72101] = {
+		can_rotate = 0,
+		name = "Pacific Flowers",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/1doa",
+		canputon = 0,
+		count = 1,
+		describe = "Like right out of a painting.",
+		advice = 0,
+		deblocking = 1,
+		id = 72101,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72102] = {
+		can_rotate = 0,
+		name = "Pacific Buffet Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/2doa",
+		canputon = 0,
+		count = 1,
+		describe = "A fruity feast, ripe for the taking.",
+		advice = 0,
+		deblocking = 1,
+		id = 72102,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72103] = {
+		can_rotate = 0,
+		name = "Lounge Sofa 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/3doa",
+		canputon = 0,
+		count = 2,
+		describe = "Makes you feel like a company exec on a lavish holiday.",
+		advice = 0,
+		deblocking = 1,
+		id = 72103,
+		comfortable = 2,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72104] = {
+		can_rotate = 0,
+		name = "Lounge Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/4doa",
+		canputon = 1,
+		count = 1,
+		describe = "It's a little small and a little low to the ground, but some consider that a plus.",
+		advice = 0,
+		deblocking = 1,
+		id = 72104,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			16.64
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72105] = {
+		can_rotate = 0,
+		name = "Lounge Sofa 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "doa/5doa",
+		canputon = 0,
+		themeId = 72,
+		count = 2,
+		describe = "Its design is so 40 years ago, but its comfiness is up to snuff.",
+		advice = 0,
+		id = 72105,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3.6,
+					35.8
+				},
+				{
+					-1,
+					1
+				},
+				"doa/5doa_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72106] = {
+		can_rotate = 0,
+		name = "Pacific Red Flower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/6doa",
+		canputon = 0,
+		count = 1,
+		describe = "Smells specifically pacific.",
+		advice = 0,
+		deblocking = 1,
+		id = 72106,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72107] = {
+		can_rotate = 0,
+		name = "Venus Tea Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/7doa",
+		canputon = 0,
+		count = 1,
+		describe = "With a tea set, as per request of the royal ladies.",
+		advice = 0,
+		deblocking = 1,
+		id = 72107,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72108] = {
+		can_rotate = 0,
+		name = "Lounge Floor Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/8doa",
+		canputon = 0,
+		count = 2,
+		describe = "Comes with adjustable light level functions, of course.",
+		advice = 0,
+		deblocking = 1,
+		id = 72108,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72109] = {
+		can_rotate = 0,
+		name = "Lounge Light Fixture",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/9doa",
+		canputon = 0,
+		count = 2,
+		describe = "How many people does it take to swap out THAT bulb, one must wonder.",
+		advice = 0,
+		deblocking = 1,
+		id = 72109,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72110] = {
+		can_rotate = 0,
+		name = "Lounge Tiling",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/10doa",
+		canputon = 0,
+		count = 2,
+		describe = "Feels like it belongs in a hotel.",
+		advice = 0,
+		deblocking = 1,
+		id = 72110,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72111] = {
+		can_rotate = 0,
+		name = "Beach Flag",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/11doa",
+		canputon = 0,
+		count = 1,
+		describe = "That's, objectively, a red flag.",
+		advice = 0,
+		deblocking = 1,
+		id = 72111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72112] = {
+		can_rotate = 0,
+		name = "Sun Lounger",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "doa/12doa",
+		canputon = 0,
+		themeId = 72,
+		count = 2,
+		describe = "While you're at it, you'll help them apply some sunscreen, won't you?",
+		advice = 0,
+		id = 72112,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-25,
+					16
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72113] = {
+		can_rotate = 0,
+		name = "Banana Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/13doa",
+		canputon = 0,
+		count = 3,
+		describe = "♪ It grows in bunches, I've got my hunches ♪",
+		advice = 0,
+		deblocking = 1,
+		id = 72113,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72114] = {
+		can_rotate = 0,
+		name = "Beach Parasol",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/14doa",
+		canputon = 0,
+		count = 1,
+		describe = "Doubles as an umbrella on rainy days.",
+		advice = 0,
+		deblocking = 1,
+		id = 72114,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72115] = {
+		can_rotate = 0,
+		name = "Pacific Reef",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/15doa",
+		canputon = 0,
+		count = 3,
+		describe = "Rougher than it looks. Wave action does that to you.",
+		advice = 0,
+		deblocking = 1,
+		id = 72115,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72116] = {
+		can_rotate = 0,
+		name = "Sailboat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/16doa",
+		canputon = 0,
+		count = 2,
+		describe = "Sadly, it's not seaworthy. Makes for an excellent decoration, though!",
+		advice = 0,
+		deblocking = 1,
+		id = 72116,
+		comfortable = 3,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72117] = {
+		can_rotate = 0,
+		name = "Pacific Reefs",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "17doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/17doa",
+		canputon = 0,
+		count = 1,
+		describe = "How cute! It's like a miniature cliff.",
+		advice = 0,
+		deblocking = 1,
+		id = 72117,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72118] = {
+		can_rotate = 0,
+		name = "Palm Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "18doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/18doa",
+		canputon = 0,
+		count = 3,
+		describe = "May or may not be harboring coconuts.",
+		advice = 0,
+		deblocking = 1,
+		id = 72118,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72119] = {
+		can_rotate = 0,
+		name = "Seaside Pier",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "19doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "doa/19doa",
+		canputon = 0,
+		themeId = 72,
+		count = 1,
+		describe = "Perfect for just sitting down and dipping your feet into the sea.",
+		advice = 0,
+		id = 72119,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-74.9,
+					-35.4
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72120] = {
+		can_rotate = 0,
+		name = "Beach Shower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "20doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/20doa",
+		canputon = 0,
+		count = 1,
+		describe = "Don't get any funny ideas now.",
+		advice = 0,
+		deblocking = 1,
+		id = 72120,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72121] = {
+		can_rotate = 0,
+		name = "Thatch Parasol",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "21doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/21doa",
+		canputon = 0,
+		count = 1,
+		describe = "Provides the coveted all-natural shade.",
+		advice = 0,
+		deblocking = 1,
+		id = 72121,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72122] = {
+		can_rotate = 0,
+		name = "Unripe Coconut",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "22doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 72,
+		spine_action_replace = "",
+		picture = "doa/22doa",
+		canputon = 0,
+		count = 3,
+		describe = "The coconut tree's warning sign, telling you to stay away or risk getting bonked.",
+		advice = 0,
+		deblocking = 1,
+		id = 72122,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72123] = {
+		can_rotate = 0,
+		name = "Queen-Size Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "23doaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "doa/23doa",
+		canputon = 0,
+		themeId = 72,
+		count = 1,
+		describe = "What more could a queen and her consort ask for?",
+		advice = 0,
+		id = 72123,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-2,
+					-33
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72124] = {
+		name = "Volleyball Net",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Adoaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 72,
+		deblocking = 1,
+		count = 1,
+		describe = "This is what you came here for, isn't it? Then let's play.",
+		id = 72124,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AdoaB",
+				"normal"
+			},
+			{
+				"AdoaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"touch"
+					},
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"AdoaCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[72125] = {
+		name = "Leisure Pool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Bdoaicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 72,
+		deblocking = 1,
+		count = 1,
+		describe = "First to fall off the platform is a wet noodle!",
+		id = 72125,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			10,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"BdoaB",
+				"normal"
+			},
+			{
+				"BdoaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"wash"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"BdoaCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -67851,6 +69572,9 @@ pg.furniture_data_template = {
 		15,
 		16,
 		17,
+		23,
+		24,
+		25,
 		102,
 		104,
 		105,
@@ -67897,8 +69621,15 @@ pg.furniture_data_template = {
 		173,
 		175,
 		177,
+		178,
+		179,
+		180,
+		181,
+		182,
 		183,
 		184,
+		187,
+		188,
 		100002,
 		100003,
 		100004,
@@ -67907,6 +69638,7 @@ pg.furniture_data_template = {
 		100007,
 		100008,
 		100009,
+		100010,
 		1001,
 		1002,
 		1101,
@@ -69365,6 +71097,33 @@ pg.furniture_data_template = {
 		71118,
 		71119,
 		71301,
-		71302
+		71302,
+		72001,
+		72002,
+		72101,
+		72102,
+		72103,
+		72104,
+		72105,
+		72106,
+		72107,
+		72108,
+		72109,
+		72110,
+		72111,
+		72112,
+		72113,
+		72114,
+		72115,
+		72116,
+		72117,
+		72118,
+		72119,
+		72120,
+		72121,
+		72122,
+		72123,
+		72124,
+		72125
 	}
 }

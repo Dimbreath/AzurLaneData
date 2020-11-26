@@ -4909,6 +4909,481 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[820] = {
+		name = "Frontier Medal ",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 820,
+		value_2 = 20,
+		icon = "820",
+		value_1 = "40",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "A medal given to aviation tactics pioneers. As the age of big ships with big guns draws to a close, the era of naval aerial control is ushered in. ",
+		nationality = 0,
+		ammo = "N/A",
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6740
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[821] = {
+		id = 821,
+		base = 820,
+		value_2 = 24,
+		value_1 = "46",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[822] = {
+		id = 822,
+		base = 820,
+		value_2 = 28,
+		value_1 = "52",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[823] = {
+		id = 823,
+		base = 820,
+		value_2 = 32,
+		value_1 = "58",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[824] = {
+		id = 824,
+		base = 820,
+		value_2 = 36,
+		value_1 = "64",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[825] = {
+		id = 825,
+		base = 820,
+		value_2 = 40,
+		value_1 = "70",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[826] = {
+		id = 826,
+		base = 820,
+		value_2 = 44,
+		value_1 = "76",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[827] = {
+		id = 827,
+		base = 820,
+		value_2 = 48,
+		value_1 = "82",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[828] = {
+		id = 828,
+		base = 820,
+		value_2 = 52,
+		value_1 = "88",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[829] = {
+		id = 829,
+		base = 820,
+		value_2 = 56,
+		value_1 = "94",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[830] = {
+		id = 830,
+		base = 820,
+		value_2 = 60,
+		value_1 = "100",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[840] = {
+		name = "Eagle Union Elite Damage Control ",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 840,
+		value_2 = 8,
+		icon = "840",
+		value_1 = "200",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		descrip = "The Eagle Union's esteemed damage control teams helped prevent many a casualty during the war. ",
+		nationality = 1,
+		ammo = "N/A",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6750
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV",
+			"UEDC"
+		}
+	},
+	[841] = {
+		id = 841,
+		base = 840,
+		value_2 = 8,
+		value_1 = "230",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[842] = {
+		id = 842,
+		base = 840,
+		value_2 = 9,
+		value_1 = "260",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[843] = {
+		id = 843,
+		base = 840,
+		value_2 = 10,
+		value_1 = "290",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[844] = {
+		id = 844,
+		base = 840,
+		value_2 = 11,
+		value_1 = "320",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[845] = {
+		id = 845,
+		base = 840,
+		value_2 = 12,
+		value_1 = "350",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[846] = {
+		id = 846,
+		base = 840,
+		value_2 = 13,
+		value_1 = "380",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[847] = {
+		id = 847,
+		base = 840,
+		value_2 = 14,
+		value_1 = "410",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[848] = {
+		id = 848,
+		base = 840,
+		value_2 = 16,
+		value_1 = "440",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[849] = {
+		id = 849,
+		base = 840,
+		value_2 = 18,
+		value_1 = "470",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[850] = {
+		id = 850,
+		base = 840,
+		value_2 = 20,
+		value_1 = "500",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[860] = {
+		name = "Washington Naval Treaty ",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 860,
+		value_2 = 12,
+		icon = "860",
+		value_1 = "8",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "\"Our nations have resolved, with a view to accomplishing these purposes, to conclude a treaty to limit their respective naval armament.\" ",
+		nationality = 0,
+		ammo = "N/A",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6760
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[861] = {
+		id = 861,
+		base = 860,
+		value_2 = 13,
+		value_1 = "8",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[862] = {
+		id = 862,
+		base = 860,
+		value_2 = 14,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[863] = {
+		id = 863,
+		base = 860,
+		value_2 = 16,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[864] = {
+		id = 864,
+		base = 860,
+		value_2 = 18,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[865] = {
+		id = 865,
+		base = 860,
+		value_2 = 20,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[866] = {
+		id = 866,
+		base = 860,
+		value_2 = 22,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[867] = {
+		id = 867,
+		base = 860,
+		value_2 = 24,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[868] = {
+		id = 868,
+		base = 860,
+		value_2 = 26,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[869] = {
+		id = 869,
+		base = 860,
+		value_2 = 28,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[870] = {
+		id = 870,
+		base = 860,
+		value_2 = 30,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[880] = {
+		name = "Nelson's Pennant of Victory ",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 880,
+		value_2 = 8,
+		icon = "880",
+		value_1 = "20",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "\"The Royal Navy expects that every soldier will do their duty.\" ",
+		nationality = 2,
+		ammo = "N/A",
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6770
+		},
+		part_main = {
+			4,
+			5,
+			10
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[881] = {
+		id = 881,
+		base = 880,
+		value_2 = 8,
+		value_1 = "23",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[882] = {
+		id = 882,
+		base = 880,
+		value_2 = 9,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[883] = {
+		id = 883,
+		base = 880,
+		value_2 = 10,
+		value_1 = "29",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[884] = {
+		id = 884,
+		base = 880,
+		value_2 = 11,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[885] = {
+		id = 885,
+		base = 880,
+		value_2 = 12,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[886] = {
+		id = 886,
+		base = 880,
+		value_2 = 13,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[887] = {
+		id = 887,
+		base = 880,
+		value_2 = 14,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[888] = {
+		id = 888,
+		base = 880,
+		value_2 = 16,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[889] = {
+		id = 889,
+		base = 880,
+		value_2 = 18,
+		value_1 = "47",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[890] = {
+		id = 890,
+		base = 880,
+		value_2 = 20,
+		value_1 = "50",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1000] = {
 		name = "Repair Toolkit",
 		tech = 1,
@@ -86990,6 +87465,237 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[89240] = {
+		name = "Awakening Pearl ",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 89240,
+		value_2 = 16,
+		icon = "89240",
+		value_1 = "6",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "No description",
+		nationality = 106,
+		ammo = "N/A",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6720
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89241] = {
+		base = 89240,
+		id = 89241,
+		value_1 = "7",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89242] = {
+		id = 89242,
+		base = 89240,
+		value_2 = 17,
+		value_1 = "7",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89243] = {
+		id = 89243,
+		base = 89240,
+		value_2 = 18,
+		value_1 = "8",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89244] = {
+		id = 89244,
+		base = 89240,
+		value_2 = 19,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89245] = {
+		id = 89245,
+		base = 89240,
+		value_2 = 20,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89246] = {
+		id = 89246,
+		base = 89240,
+		value_2 = 21,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89247] = {
+		id = 89247,
+		base = 89240,
+		value_2 = 22,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89248] = {
+		id = 89248,
+		base = 89240,
+		value_2 = 23,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89249] = {
+		id = 89249,
+		base = 89240,
+		value_2 = 24,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89250] = {
+		id = 89250,
+		base = 89240,
+		value_2 = 25,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89260] = {
+		name = "Heart Key ",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 89260,
+		value_2 = 15,
+		icon = "89260",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "No description",
+		nationality = 0,
+		ammo = "N/A",
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6730
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89261] = {
+		id = 89261,
+		base = 89260,
+		value_2 = 16,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89262] = {
+		id = 89262,
+		base = 89260,
+		value_2 = 17,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89263] = {
+		id = 89263,
+		base = 89260,
+		value_2 = 18,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89264] = {
+		id = 89264,
+		base = 89260,
+		value_2 = 19,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89265] = {
+		id = 89265,
+		base = 89260,
+		value_2 = 20,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89266] = {
+		id = 89266,
+		base = 89260,
+		value_2 = 22,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89267] = {
+		id = 89267,
+		base = 89260,
+		value_2 = 24,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89268] = {
+		id = 89268,
+		base = 89260,
+		value_2 = 26,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89269] = {
+		id = 89269,
+		base = 89260,
+		value_2 = 28,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89270] = {
+		id = 89270,
+		base = 89260,
+		value_2 = 30,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[90000] = {
 		name = "Single 130mm Main Gun (Mle 1924)",
 		speciality = "Lock",
@@ -94929,6 +95635,50 @@ pg.equip_data_statistics = {
 		808,
 		809,
 		810,
+		820,
+		821,
+		822,
+		823,
+		824,
+		825,
+		826,
+		827,
+		828,
+		829,
+		830,
+		840,
+		841,
+		842,
+		843,
+		844,
+		845,
+		846,
+		847,
+		848,
+		849,
+		850,
+		860,
+		861,
+		862,
+		863,
+		864,
+		865,
+		866,
+		867,
+		868,
+		869,
+		870,
+		880,
+		881,
+		882,
+		883,
+		884,
+		885,
+		886,
+		887,
+		888,
+		889,
+		890,
 		1000,
 		1001,
 		1002,
@@ -99537,6 +100287,28 @@ pg.equip_data_statistics = {
 		89228,
 		89229,
 		89230,
+		89240,
+		89241,
+		89242,
+		89243,
+		89244,
+		89245,
+		89246,
+		89247,
+		89248,
+		89249,
+		89250,
+		89260,
+		89261,
+		89262,
+		89263,
+		89264,
+		89265,
+		89266,
+		89267,
+		89268,
+		89269,
+		89270,
 		90000,
 		90001,
 		90002,

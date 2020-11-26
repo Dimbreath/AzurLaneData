@@ -8835,6 +8835,118 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		},
 		index = {}
 	},
+	[30323] = {
+		display = "Contains a random Venus collab gear skin. ",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Gear Skin Box (Venus Vacation) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30323,
+		icon = "Props/appearanceboxdoa",
+		replace_item = 0,
+		display_icon = {
+			{
+				9,
+				340,
+				1
+			},
+			{
+				9,
+				341,
+				1
+			},
+			{
+				9,
+				342,
+				1
+			},
+			{
+				9,
+				343,
+				1
+			},
+			{
+				9,
+				344,
+				1
+			},
+			{
+				9,
+				345,
+				1
+			},
+			{
+				9,
+				346,
+				1
+			},
+			{
+				9,
+				347,
+				1
+			},
+			{
+				9,
+				348,
+				1
+			},
+			{
+				9,
+				349,
+				1
+			},
+			{
+				9,
+				350,
+				1
+			},
+			{
+				9,
+				351,
+				1
+			},
+			{
+				9,
+				352,
+				1
+			},
+			{
+				9,
+				353,
+				1
+			},
+			{
+				9,
+				354,
+				1
+			},
+			{
+				9,
+				355,
+				1
+			},
+			{
+				9,
+				356,
+				1
+			},
+			{
+				9,
+				357,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[40004] = {
 		display = "Contains loads of valuable rewards",
 		rarity = 4,
@@ -99161,6 +99273,1200 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[58060] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58060,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10056,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58061] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58061,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				21,
+				1
+			},
+			{
+				2,
+				68,
+				1
+			},
+			{
+				2,
+				10059,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58062] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58062,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				6,
+				1
+			},
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10040,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58063] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58063,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10001,
+				1
+			},
+			{
+				2,
+				10045,
+				1
+			},
+			{
+				2,
+				10087,
+				1
+			},
+			{
+				2,
+				11032,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58064] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58064,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10018,
+				1
+			},
+			{
+				2,
+				10045,
+				1
+			},
+			{
+				2,
+				10059,
+				1
+			},
+			{
+				2,
+				11015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58065] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58065,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10056,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58066] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58066,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				21,
+				1
+			},
+			{
+				2,
+				68,
+				1
+			},
+			{
+				2,
+				10059,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58067] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58067,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				6,
+				1
+			},
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10040,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58068] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58068,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10001,
+				1
+			},
+			{
+				2,
+				10045,
+				1
+			},
+			{
+				2,
+				10087,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58069] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58069,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10018,
+				1
+			},
+			{
+				2,
+				10045,
+				1
+			},
+			{
+				2,
+				10059,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58070] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58070,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				203081,
+				1
+			},
+			{
+				4,
+				203071,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58071] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58071,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				102091,
+				1
+			},
+			{
+				4,
+				102051,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58072] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58072,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				205031,
+				1
+			},
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58073] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58073,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				10600041,
+				1
+			},
+			{
+				4,
+				112011,
+				1
+			},
+			{
+				4,
+				107051,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58074] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58074,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				10600041,
+				1
+			},
+			{
+				4,
+				112011,
+				1
+			},
+			{
+				4,
+				107051,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58075] = {
+		display = "Contains a random Venus collab gear skin. ",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Gear Skin Box (Venus Vacation) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58075,
+		icon = "Props/appearanceboxdoa",
+		replace_item = 0,
+		display_icon = {
+			{
+				9,
+				340,
+				1
+			},
+			{
+				9,
+				341,
+				1
+			},
+			{
+				9,
+				342,
+				1
+			},
+			{
+				9,
+				343,
+				1
+			},
+			{
+				9,
+				344,
+				1
+			},
+			{
+				9,
+				345,
+				1
+			},
+			{
+				9,
+				346,
+				1
+			},
+			{
+				9,
+				347,
+				1
+			},
+			{
+				9,
+				348,
+				1
+			},
+			{
+				9,
+				349,
+				1
+			},
+			{
+				9,
+				350,
+				1
+			},
+			{
+				9,
+				351,
+				1
+			},
+			{
+				9,
+				352,
+				1
+			},
+			{
+				9,
+				353,
+				1
+			},
+			{
+				9,
+				354,
+				1
+			},
+			{
+				9,
+				355,
+				1
+			},
+			{
+				9,
+				356,
+				1
+			},
+			{
+				9,
+				357,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "EXP is required to level up",
 		rarity = 2,
@@ -100650,6 +101956,42 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		link_id = 0,
 		id = 59187,
 		icon = "props/music_stage1",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59189] = {
+		display = "Used to exchange for items in the Vacation Lane event. Will disappear after the event period ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Venus Points ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59189,
+		icon = "Props/DOA_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59190] = {
+		display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Rental Outfit Voucher",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59190,
+		icon = "Props/skinTicket",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -106676,7 +108018,7 @@ The available outfits and their rarities are as follows:
 （<color=#92fc63>9.1%</color>） Le Malin - Mercredi at the Secret Base <color=#92fc63>Live2D</color>；
 （<color=#92fc63>9.1%</color>) Jean Bart - Private Après Midi <color=#92fc63>Live2D</color> ；
 （<color=#92fc63>9.1%</color>) Zara - Poolside Coincidence <color=#92fc63>Live2D</color> ；
-（<color=#92fc63>9.1%</color>) Noshiro - Uncharted Festival Grounds? <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>) Noshiron - Uncharted Festival Grounds? <color=#92fc63>Live2D</color>；
 （<color=#92fc63>9.1%</color>）Ryuuhou - Firebird's New Year Dance <color=#92fc63>Live2D</color>；
 （<color=#92fc63>9.1%</color>）Suruga - Hundred Flowers' Auspice <color=#92fc63>Live2D</color>；
 （<color=#92fc63>9.3%</color>） Azuma - Soft Voice of Spring <color=#92fc63>Live2D</color> ；
@@ -107780,6 +109122,258 @@ The available outfits and their rarities are as follows:
 		price = {},
 		index = {}
 	},
+	[70065] = {
+		display = "Marie Rose's favorite food: prinsesstårta. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Food (Marie Rose)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70065,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70066] = {
+		display = "Marie Rose's favorite drink: tropical juice. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Drink (Marie Rose)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70066,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70067] = {
+		display = "Honoka's favorite food: whipped cream puffs. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Food (Honoka)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70067,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70068] = {
+		display = "Honoka's favorite drink: lemon squash. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Drink (Honoka)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70068,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70069] = {
+		display = "Kasumi's favorite food: strawberry mille-feuille. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Food (Kasumi)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70069,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70070] = {
+		display = "Kasumi's favorite drink: iced café au lait. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Drink (Kasumi)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70070,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70071] = {
+		display = "Misaki's favorite food: mango vanilla crepe. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Food (Misaki)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70071,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70072] = {
+		display = "Misaki's favorite drink: bubble tea. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Drink (Misaki)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70072,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70073] = {
+		display = "Nagisa's favorite food: souffle pancake. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Food (Nagisa)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70073,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70074] = {
+		display = "Nagisa's favorite drink: strawberry shake. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Drink (Nagisa)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70074,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70075] = {
+		display = "Nyotengu's favorite food: manjuu. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Food (Nyotengu)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70075,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70076] = {
+		display = "Nyotengu's favorite drink green tea. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Drink (Nyotengu)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70076,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70077] = {
+		display = "Monica's favorite food: papanasi. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Food (Monica)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70077,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70078] = {
+		display = "Monica's favorite drink: maple whipped latte. Unlocks information about this character.",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Favorite Drink (Monica)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 30774,
+		id = 70078,
+		icon = "Props/doa_collect",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	all = {
 		1,
 		2,
@@ -108151,6 +109745,7 @@ The available outfits and their rarities are as follows:
 		30320,
 		30321,
 		30322,
+		30323,
 		40004,
 		40005,
 		40006,
@@ -109929,6 +111524,22 @@ The available outfits and their rarities are as follows:
 		58056,
 		58057,
 		58058,
+		58060,
+		58061,
+		58062,
+		58063,
+		58064,
+		58065,
+		58066,
+		58067,
+		58068,
+		58069,
+		58070,
+		58071,
+		58072,
+		58073,
+		58074,
+		58075,
 		59000,
 		59001,
 		59002,
@@ -110012,6 +111623,8 @@ The available outfits and their rarities are as follows:
 		59185,
 		59186,
 		59187,
+		59189,
+		59190,
 		59601,
 		59602,
 		59603,
@@ -110359,6 +111972,20 @@ The available outfits and their rarities are as follows:
 		70061,
 		70062,
 		70063,
-		70064
+		70064,
+		70065,
+		70066,
+		70067,
+		70068,
+		70069,
+		70070,
+		70071,
+		70072,
+		70073,
+		70074,
+		70075,
+		70076,
+		70077,
+		70078
 	}
 }

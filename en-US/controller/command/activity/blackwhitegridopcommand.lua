@@ -18,7 +18,8 @@ function slot0.execute(slot0, slot1)
 		cmd = 1,
 		activity_id = slot4,
 		arg1 = slot3,
-		arg2 = slot6
+		arg2 = slot6,
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			for slot5, slot6 in ipairs(slot0.award_list) do

@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.shipIds = slot1.ship_id_list or {}
 	slot0.ships = {}
 	slot0.state = uv0.StateNone
+	slot0.activityId = slot1.activity_id or 0
 
 	if slot0.finishTime == 0 then
 		slot0.state = uv0.StateNone
@@ -19,6 +20,22 @@ function slot0.Ctor(slot0, slot1)
 	else
 		slot0.state = uv0.StateFinish
 	end
+end
+
+function slot0.IsActivityType(slot0)
+	return slot0.activityId > 0
+end
+
+function slot0.IsStarting(slot0)
+	return slot0.state ~= uv0.StateNone
+end
+
+function slot0.SetActivityId(slot0, slot1)
+	slot0.activityId = slot1
+end
+
+function slot0.BelongActivity(slot0, slot1)
+	return slot0.activityId > 0 and slot0.activityId == slot1
 end
 
 function slot0.reachNum(slot0)

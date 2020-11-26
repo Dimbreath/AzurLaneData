@@ -169,9 +169,9 @@ function slot0.isAnyChapterUnlocked(slot0, slot1, slot2)
 	return false, slot3
 end
 
-function slot0.isAnyChapterClear(slot0)
+function slot0.isAnyChapterClear(slot0, slot1)
 	return underscore.any(slot0:getChapters(true), function (slot0)
-		return slot0:isClear()
+		return (not uv0 or slot0:getPlayType() ~= ChapterConst.TypeMainSub) and slot0:isClear()
 	end)
 end
 

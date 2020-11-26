@@ -45,6 +45,7 @@ slot2 = {
 	SC_11003_DISPLAY_FIELD = slot0.FieldDescriptor(),
 	SC_11003_RMB_FIELD = slot0.FieldDescriptor(),
 	SC_11003_APPRECIATION_FIELD = slot0.FieldDescriptor(),
+	SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -81,12 +82,15 @@ slot2 = {
 	CS_11202_ARG1_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ARG2_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ARG3_FIELD = slot0.FieldDescriptor(),
+	CS_11202_ARG_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11203_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_11203_AWARD_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11203_BUILD_FIELD = slot0.FieldDescriptor(),
 	SC_11203_NUMBER_FIELD = slot0.FieldDescriptor(),
 	SC_11203_RETURN_USER_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11203_INS_MESSAGE_FIELD = slot0.FieldDescriptor(),
+	SC_11203_COLLECTION_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_11203_TASK_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11204_ACTIVITY_ID_FIELD = slot0.FieldDescriptor(),
 	CS_11204_GROUP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11205_ACTIVITY_ID_FIELD = slot0.FieldDescriptor(),
@@ -150,6 +154,8 @@ slot2 = {
 	ACTIVITYINFO_DATE1_KEY_VALUE_LIST_FIELD = slot0.FieldDescriptor(),
 	ACTIVITYINFO_GROUP_LIST_FIELD = slot0.FieldDescriptor(),
 	ACTIVITYINFO_INS_MESSAGE_LIST_FIELD = slot0.FieldDescriptor(),
+	ACTIVITYINFO_COLLECTION_LIST_FIELD = slot0.FieldDescriptor(),
+	ACTIVITYINFO_TASK_LIST_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_ID_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_VERSION_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_BTN_TITLE_FIELD = slot0.FieldDescriptor(),
@@ -682,6 +688,15 @@ slot2.SC_11003_APPRECIATION_FIELD.default_value = nil
 slot2.SC_11003_APPRECIATION_FIELD.message_type = slot1.APPRECIATIONINFO
 slot2.SC_11003_APPRECIATION_FIELD.type = 11
 slot2.SC_11003_APPRECIATION_FIELD.cpp_type = 10
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.name = "theme_upload_not_allowed_time"
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.full_name = "p11.sc_11003.theme_upload_not_allowed_time"
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.number = 37
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.index = 36
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.label = 2
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.has_default_value = false
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.default_value = 0
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.type = 13
+slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD.cpp_type = 3
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -722,7 +737,8 @@ SC_11003.fields = {
 	slot2.SC_11003_CHAT_FRAME_LIST_FIELD,
 	slot2.SC_11003_DISPLAY_FIELD,
 	slot2.SC_11003_RMB_FIELD,
-	slot2.SC_11003_APPRECIATION_FIELD
+	slot2.SC_11003_APPRECIATION_FIELD,
+	slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}
@@ -1277,6 +1293,15 @@ slot2.CS_11202_ARG3_FIELD.has_default_value = false
 slot2.CS_11202_ARG3_FIELD.default_value = 0
 slot2.CS_11202_ARG3_FIELD.type = 13
 slot2.CS_11202_ARG3_FIELD.cpp_type = 3
+slot2.CS_11202_ARG_LIST_FIELD.name = "arg_list"
+slot2.CS_11202_ARG_LIST_FIELD.full_name = "p11.cs_11202.arg_list"
+slot2.CS_11202_ARG_LIST_FIELD.number = 6
+slot2.CS_11202_ARG_LIST_FIELD.index = 5
+slot2.CS_11202_ARG_LIST_FIELD.label = 3
+slot2.CS_11202_ARG_LIST_FIELD.has_default_value = false
+slot2.CS_11202_ARG_LIST_FIELD.default_value = {}
+slot2.CS_11202_ARG_LIST_FIELD.type = 13
+slot2.CS_11202_ARG_LIST_FIELD.cpp_type = 3
 CS_11202.name = "cs_11202"
 CS_11202.full_name = "p11.cs_11202"
 CS_11202.nested_types = {}
@@ -1286,7 +1311,8 @@ CS_11202.fields = {
 	slot2.CS_11202_CMD_FIELD,
 	slot2.CS_11202_ARG1_FIELD,
 	slot2.CS_11202_ARG2_FIELD,
-	slot2.CS_11202_ARG3_FIELD
+	slot2.CS_11202_ARG3_FIELD,
+	slot2.CS_11202_ARG_LIST_FIELD
 }
 CS_11202.is_extendable = false
 CS_11202.extensions = {}
@@ -1348,6 +1374,26 @@ slot2.SC_11203_INS_MESSAGE_FIELD.default_value = nil
 slot2.SC_11203_INS_MESSAGE_FIELD.message_type = INS_MESSAGE
 slot2.SC_11203_INS_MESSAGE_FIELD.type = 11
 slot2.SC_11203_INS_MESSAGE_FIELD.cpp_type = 10
+slot2.SC_11203_COLLECTION_LIST_FIELD.name = "collection_list"
+slot2.SC_11203_COLLECTION_LIST_FIELD.full_name = "p11.sc_11203.collection_list"
+slot2.SC_11203_COLLECTION_LIST_FIELD.number = 7
+slot2.SC_11203_COLLECTION_LIST_FIELD.index = 6
+slot2.SC_11203_COLLECTION_LIST_FIELD.label = 3
+slot2.SC_11203_COLLECTION_LIST_FIELD.has_default_value = false
+slot2.SC_11203_COLLECTION_LIST_FIELD.default_value = {}
+slot2.SC_11203_COLLECTION_LIST_FIELD.message_type = slot1.COLLECTIONINFO
+slot2.SC_11203_COLLECTION_LIST_FIELD.type = 11
+slot2.SC_11203_COLLECTION_LIST_FIELD.cpp_type = 10
+slot2.SC_11203_TASK_LIST_FIELD.name = "task_list"
+slot2.SC_11203_TASK_LIST_FIELD.full_name = "p11.sc_11203.task_list"
+slot2.SC_11203_TASK_LIST_FIELD.number = 8
+slot2.SC_11203_TASK_LIST_FIELD.index = 7
+slot2.SC_11203_TASK_LIST_FIELD.label = 3
+slot2.SC_11203_TASK_LIST_FIELD.has_default_value = false
+slot2.SC_11203_TASK_LIST_FIELD.default_value = {}
+slot2.SC_11203_TASK_LIST_FIELD.message_type = slot1.TASKINFO
+slot2.SC_11203_TASK_LIST_FIELD.type = 11
+slot2.SC_11203_TASK_LIST_FIELD.cpp_type = 10
 SC_11203.name = "sc_11203"
 SC_11203.full_name = "p11.sc_11203"
 SC_11203.nested_types = {}
@@ -1358,7 +1404,9 @@ SC_11203.fields = {
 	slot2.SC_11203_BUILD_FIELD,
 	slot2.SC_11203_NUMBER_FIELD,
 	slot2.SC_11203_RETURN_USER_LIST_FIELD,
-	slot2.SC_11203_INS_MESSAGE_FIELD
+	slot2.SC_11203_INS_MESSAGE_FIELD,
+	slot2.SC_11203_COLLECTION_LIST_FIELD,
+	slot2.SC_11203_TASK_LIST_FIELD
 }
 SC_11203.is_extendable = false
 SC_11203.extensions = {}
@@ -2202,6 +2250,26 @@ slot2.ACTIVITYINFO_INS_MESSAGE_LIST_FIELD.default_value = {}
 slot2.ACTIVITYINFO_INS_MESSAGE_LIST_FIELD.message_type = INS_MESSAGE
 slot2.ACTIVITYINFO_INS_MESSAGE_LIST_FIELD.type = 11
 slot2.ACTIVITYINFO_INS_MESSAGE_LIST_FIELD.cpp_type = 10
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.name = "collection_list"
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.full_name = "p11.activityinfo.collection_list"
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.number = 13
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.index = 12
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.label = 3
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.has_default_value = false
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.default_value = {}
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.message_type = slot1.COLLECTIONINFO
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.type = 11
+slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD.cpp_type = 10
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.name = "task_list"
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.full_name = "p11.activityinfo.task_list"
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.number = 14
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.index = 13
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.label = 3
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.has_default_value = false
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.default_value = {}
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.message_type = slot1.TASKINFO
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.type = 11
+slot2.ACTIVITYINFO_TASK_LIST_FIELD.cpp_type = 10
 ACTIVITYINFO.name = "activityinfo"
 ACTIVITYINFO.full_name = "p11.activityinfo"
 ACTIVITYINFO.nested_types = {}
@@ -2218,7 +2286,9 @@ ACTIVITYINFO.fields = {
 	slot2.ACTIVITYINFO_DATA3_LIST_FIELD,
 	slot2.ACTIVITYINFO_DATE1_KEY_VALUE_LIST_FIELD,
 	slot2.ACTIVITYINFO_GROUP_LIST_FIELD,
-	slot2.ACTIVITYINFO_INS_MESSAGE_LIST_FIELD
+	slot2.ACTIVITYINFO_INS_MESSAGE_LIST_FIELD,
+	slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD,
+	slot2.ACTIVITYINFO_TASK_LIST_FIELD
 }
 ACTIVITYINFO.is_extendable = false
 ACTIVITYINFO.extensions = {}
@@ -2578,7 +2648,7 @@ slot2.SC_11702_DATA_FIELD.name = "data"
 slot2.SC_11702_DATA_FIELD.full_name = "p11.sc_11702.data"
 slot2.SC_11702_DATA_FIELD.number = 2
 slot2.SC_11702_DATA_FIELD.index = 1
-slot2.SC_11702_DATA_FIELD.label = 2
+slot2.SC_11702_DATA_FIELD.label = 1
 slot2.SC_11702_DATA_FIELD.has_default_value = false
 slot2.SC_11702_DATA_FIELD.default_value = nil
 slot2.SC_11702_DATA_FIELD.message_type = INS_MESSAGE
@@ -2645,7 +2715,7 @@ slot2.SC_11704_DATA_FIELD.name = "data"
 slot2.SC_11704_DATA_FIELD.full_name = "p11.sc_11704.data"
 slot2.SC_11704_DATA_FIELD.number = 2
 slot2.SC_11704_DATA_FIELD.index = 1
-slot2.SC_11704_DATA_FIELD.label = 2
+slot2.SC_11704_DATA_FIELD.label = 1
 slot2.SC_11704_DATA_FIELD.has_default_value = false
 slot2.SC_11704_DATA_FIELD.default_value = nil
 slot2.SC_11704_DATA_FIELD.message_type = INS_MESSAGE

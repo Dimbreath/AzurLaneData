@@ -82,11 +82,12 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Dido µ</color>: 2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Taihou µ</color>: 2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Tashkent µ</color>: 2.0%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Baltimore µ</color>: 2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Albacore µ</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Marie Rose</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Honoka</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Kasumi</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Misaki</color>：0.5%",
+			"<color=#d797ff>Nagisa</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Monica</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

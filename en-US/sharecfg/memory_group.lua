@@ -1659,6 +1659,42 @@ pg.memory_group = {
 			1432
 		}
 	},
+	[192] = {
+		title = "Vacation Lane - Venus Visitation ",
+		type = 2,
+		id = 192,
+		icon = "title_event",
+		memories = {
+			1436,
+			1437,
+			1438,
+			1439,
+			1440,
+			1441,
+			1442,
+			1443,
+			1444,
+			1445,
+			1446,
+			1447,
+			1448,
+			1449,
+			1450,
+			1451
+		}
+	},
+	[193] = {
+		title = "Vacation Lane - Cozy Days ",
+		type = 2,
+		id = 193,
+		icon = "title_event",
+		memories = {
+			1452,
+			1453,
+			1454,
+			1455
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -2407,6 +2443,21 @@ pg.memory_group = {
 			1407
 		}
 	},
+	[552] = {
+		title = "Paradigm of Happiness ",
+		type = 3,
+		id = 552,
+		icon = "title_chara_xipeier",
+		memories = {
+			1461,
+			1462,
+			1463,
+			1464,
+			1465,
+			1466,
+			1467
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2496,6 +2547,8 @@ pg.memory_group = {
 		189,
 		190,
 		191,
+		192,
+		193,
 		501,
 		502,
 		503,
@@ -2544,6 +2597,7 @@ pg.memory_group = {
 		548,
 		549,
 		550,
-		551
+		551,
+		552
 	}
 }

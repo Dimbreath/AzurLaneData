@@ -206,9 +206,9 @@ function slot0.PrepareChapterRetreat(slot0)
 						return
 					end
 
-					if uv1[slot0] and type(slot3) == "number" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot3) then
+					if uv1[slot0] and type(slot3) == "number" and not pg.NewStoryMgr.GetInstance():IsPlayed(tostring(slot3)) then
 						pg.m02:sendNotification(GAME.STORY_UPDATE, {
-							storyId = slot3
+							storyId = tostring(slot3)
 						})
 						pg.m02:sendNotification(GAME.BEGIN_STAGE, {
 							system = SYSTEM_PERFORM,

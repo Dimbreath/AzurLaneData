@@ -10,6 +10,17 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
+			type = "BattleBuffCleanse",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id_list = {
+					6751
+				}
+			}
+		},
+		{
 			type = "BattleBuffCastSkill",
 			trigger = {
 				"onHPRatioUpdate"

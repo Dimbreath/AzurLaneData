@@ -3341,6 +3341,9 @@ Current expansions: <color=#92fc63>$3</color>
 	word_shipNation_holo = {
 		tip = "hololive"
 	},
+	word_shipNation_doa = {
+		tip = "Venus Vacation "
+	},
 	word_reset = {
 		tip = "Reset"
 	},
@@ -6067,7 +6070,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>10.29-11.11</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>11.26-12.9</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7054,7 +7057,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Increased build rates for Dido μ, Taihou μ, Tashkent μ, and more! "
+		tip = "Increased build rates for Marie Rose, Honoka, Kasumi, and more! "
 	},
 	buildship_heavy_tip = {
 		tip = "Tirpitz, Deutschland and others are added to standard build pool! "
@@ -9260,6 +9263,29 @@ After leaving a comment on a post, you may receive a reply after a period of tim
 			}
 		}
 	},
+	doa_collection = {
+		tip = {
+			{
+				info = [[
+Event Period:<color=#92fc63>11/26 - 12/9</color>
+1. Participate in the event to collect info about each
+character's likes and interests.
+Collect all <color=#92fc63>14</color> to get a piece of limited furniture,
+<color=#92fc63>"Venus Vacation Statue."</color>]]
+			},
+			{
+				info = [[
+2. You can earn character info through the following methods:
+① Sortie to event stages
+② Complete event missions
+③ Collect Venus Points
+④ Complete Venus Volleyball Scrimmages]]
+			},
+			{
+				info = "3. Event reward pickup lasts until 12/26, 23:59"
+			}
+		}
+	},
 	ins_word_day = {
 		tip = "$1 days ago "
 	},
@@ -9975,6 +10001,15 @@ Event Rules:
 	},
 	index_strengthen = {
 		tip = "Enhanceable"
+	},
+	index_special = {
+		tip = "Special"
+	},
+	index_not_obtained = {
+		tip = "Not Obtained"
+	},
+	index_no_limit = {
+		tip = "No Limit"
 	},
 	decodegame_gametip = {
 		tip = {
@@ -11092,6 +11127,134 @@ the flashlight on the right side of the screen.]]
 	},
 	award_overflow_tip = {
 		tip = "A portion of your rewards will exceed your resource limit. Please collect them manually. "
+	},
+	venusvolleyball_help = {
+		tip = {
+			{
+				info = [[
+Event Rules:
+1. <color=#92fc63>A new match</color> will become available every day until
+<color=#92fc63>12/2</color> at midnight, up to a total of <color=#92fc63>7</color> matches. 
+Complete all the matches to earn the limited gear, <color=#92fc63>"Venus Awakening Gem,"</color>as well as
+the following item-<color=#92fc63>"Favorite Food (Monica)"</color>.
+2. Tap to start the game and choose two characters to enter the match.
+The match will conclude when either side scores <color=#92fc63>5</color> points.
+3. A timing circle will appear when it's the player's turn to hit the ball.
+Tap anywhere on the screen at the proper time to hit the ball.
+4. When the timing circle is between the outer and inner scoring circles,
+a "Good" rating will be given. When the timing circle is tapped within the
+inner scoring circle, a "Perfect" rating will be given.
+If the screen is not tapped, or tapped before the timing circle
+is allowed to retract, a "Miss" rating will be given.
+A "Miss" will result in the other side scoring.
+A Good or Perfect rating counts as a successful receive.
+5. If all matches have been unlocked, you may can repeat
+the match on the same day. After completing all the matches,
+Free Play will be unlocked, allowing players to freely select
+their desired character to play with.]]
+			}
+		}
+	},
+	venusvolleyball_rule_tip = {
+		tip = "Earn $1 points first "
+	},
+	venusvolleyball_return_tip = {
+		tip = "Are you sure you want to quit? You will not be able to get match completion rewards. "
+	},
+	venusvolleyball_suspend_tip = {
+		tip = "Resume the match? "
+	},
+	doa_main = {
+		tip = {
+			{
+				info = [[
+Event Rules:
+The collab event, "Vacation Lane" will run from <color=#92fc63>11/26 - 12/9</color>.
+1. Clear event stages to earn Venus Points, which can be collected
+to get benchmark rewards or exchanged at the event shop.
+2. Complete 7 matches in the "Volleyball Scrimmage" minigame to earn
+the limited gear, <color=#92fc63>"Venus Awakening Gem."</color>
+Notice: 1 match will become available each day, up to a max of 7.
+3. Collect all 14 pieces of Character Likes to get the limited furniture, <color=#92fc63>"Venus Vacation Statue."</color>
+To see more information, tap "Commemorative Medal" on the event hub.
+4. Tap "Limited Construction" to build ships.
+5. Tap "Outfit Store" to see the new event outfits.
+6. From <color=#92fc63>11/26 - 12/09</color>, a new event commission will become available every day.
+Attempting this commission will not count towards your maximum
+dispatched commission fleet limit.
+Completing the commission will give event rewards.
+Unfulfilled commissions will disappear the next day.
+Completed commissions can be picked up on the next day,
+and you may take another commission on that day.
+Event rewards may picked up through 
+12/16 23:59.]]
+			}
+		}
+	},
+	doa_pt_help = {
+		tip = {
+			{
+				info = [[
+Event Rules:
+1. During the event, players may use <color=#92fc63>Venus Points</color> to
+upgrade their Permit Level on the event page.
+Each time the Permit Level is increased, players
+will have the ability to upgrade one stat.
+2. There are four types of stats: POW, TEC, STM, and APL.
+Each stat may be upgraded twice and provides the following buffs:
+① POW: Deal additional DMG on Campaign, Event,
+Hard Mode, and War Archives stages.
+② TEC: Training time in the Tactical Academy is shortened.
+③ STM: Gain more ship EXP from Campaign, Event,
+Hard Mode, and War Archives stages.
+④ APL: Gain more ship EXP from the Dorms.
+3. Tap the Permit icon on the right-hand side of the event screen
+to see the bonuses provided by each stat level.]]
+			}
+		}
+	},
+	doa_pt_complete = {
+		tip = "Upgrade Complete "
+	},
+	doa_pt_up = {
+		tip = "Are you sure you want to upgrade $1? "
+	},
+	doa_liliang = {
+		tip = "POW"
+	},
+	doa_jiqiao = {
+		tip = "TEC"
+	},
+	doa_tili = {
+		tip = "STM"
+	},
+	doa_meili = {
+		tip = "APL"
+	},
+	help_act_event = {
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/event_doa"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	},
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"

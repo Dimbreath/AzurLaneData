@@ -119,7 +119,7 @@ function slot0.FadeOutPrevPaiting(slot0, slot1, slot2, slot3)
 	if slot0:GetSideTF(slot2:GetPrevSide(slot1)) and slot2 and slot2:IsDialogueMode() and slot2:GetPainting() ~= nil and not slot2:IsSameSide(slot1) then
 		slot5 = slot1:GetPaintingData()
 
-		slot0:FadePainting(slot4, 1, slot5.alpha, slot5.time, slot3)
+		slot0:fadeTransform(slot4, 1, slot5.alpha, slot5.time, false, slot3)
 	else
 		slot3()
 	end
@@ -130,51 +130,11 @@ function slot0.FadeInPaiting(slot0, slot1, slot2, slot3)
 		slot5 = slot1:GetPaintingData()
 
 		if not IsNil(slot0:GetSideTF(slot1:GetSide())) then
-			slot0:FadePainting(slot4, slot5.alpha, 1, slot5.time)
+			slot0:fadeTransform(slot4, slot5.alpha, 1, slot5.time, false)
 		end
 	end
 
 	slot3()
-end
-
-function slot0.FadePainting(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = {}
-	slot7 = {}
-
-	for slot12 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-		slot14 = {
-			name = "_Color",
-			color = Color.white
-		}
-
-		if slot8[slot12].material.shader.name == "UI/GrayScale" then
-			slot14 = {
-				name = "_GrayScale",
-				color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
-			}
-		elseif slot13.material.shader.name == "UI/Line_Add_Blue" then
-			slot14 = {
-				name = "_GrayScale",
-				color = Color.New(1, 1, 1, 0.5882352941176471)
-			}
-		end
-
-		table.insert(slot7, slot14)
-
-		if slot13.material == slot13.defaultGraphicMaterial then
-			slot13.material = Material.Instantiate(slot13.defaultGraphicMaterial)
-		end
-
-		table.insert(slot6, slot13.material)
-	end
-
-	LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
-		for slot4, slot5 in ipairs(uv0) do
-			if not IsNil(slot5) then
-				slot5:SetColor(uv1[slot4].name, uv1[slot4].color * Color.New(slot0, slot0, slot0))
-			end
-		end
-	end)):setOnComplete(System.Action(slot5))
 end
 
 function slot0.UpdateTypeWriter(slot0, slot1, slot2)
@@ -207,7 +167,8 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 	if slot1:GetPainting() then
 		setPaintingPrefab(slot4, slot3, "duihua")
 
-		slot4.localScale = Vector3(slot8, (slot1:GetPaintingDir() > 1 or slot8 < -1) and math.abs(slot8) or 1, 1)
+		slot8 = slot1:GetPaintingDir()
+		slot4.localScale = Vector3(slot8, math.abs(slot8), 1)
 		slot10 = findTF(slot4, "fitter"):GetChild(0)
 		slot10.name = slot3
 
@@ -220,6 +181,10 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 
 		if slot1:ShouldGrayPainting() then
 			setGray(slot10, true, true)
+		end
+
+		if findTF(slot10, "shadow") then
+			setActive(slot11, slot1:ShouldFaceBlack())
 		end
 	end
 
@@ -304,9 +269,25 @@ function slot0.StartPatiningShakeAction(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot10 = tf(slot1).localPosition
+	function slot5(slot0, slot1)
+		slot7 = tf(uv0).localPosition
 
-	slot0:TweenMove(slot1, Vector3(slot10.x + (slot4.x or 0), slot10.y + (slot4.y or 10), 0), slot4.dur or 1, slot4.number or 1, slot4.delay or 0, slot3)
+		uv1:TweenMove(uv0, Vector3(slot7.x + (slot0.x or 0), slot7.y + (slot0.y or 10), 0), slot0.dur or 1, slot0.number or 1, slot0.delay or 0, slot1)
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in pairs(slot4) do
+		table.insert(slot6, function (slot0)
+			uv0(uv1, slot0)
+		end)
+	end
+
+	parallelAsync(slot6, function ()
+		if uv0 then
+			uv0()
+		end
+	end)
 end
 
 function slot0.StartPatiningZoomAction(slot0, slot1, slot2, slot3)
@@ -316,18 +297,34 @@ function slot0.StartPatiningZoomAction(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot5 = slot4.from or {
-		0,
-		0,
-		0
-	}
-	slot6 = slot4.to or {
-		1,
-		1,
-		1
-	}
+	function slot5(slot0, slot1)
+		slot2 = slot0.from or {
+			0,
+			0,
+			0
+		}
+		slot3 = slot0.to or {
+			1,
+			1,
+			1
+		}
 
-	slot0:TweenScale(slot1, Vector3(slot6[1], slot6[2], slot6[3]), slot4.dur or 0, slot4.delay or 0, slot3)
+		uv0:TweenScale(uv1, Vector3(slot3[1], slot3[2], slot3[3]), slot0.dur or 0, slot0.delay or 0, slot1)
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in pairs(slot4) do
+		table.insert(slot6, function (slot0)
+			uv0(uv1, slot0)
+		end)
+	end
+
+	parallelAsync(slot6, function ()
+		if uv0 then
+			uv0()
+		end
+	end)
 end
 
 function slot0.StartPatiningRotateAction(slot0, slot1, slot2, slot3)
@@ -337,7 +334,23 @@ function slot0.StartPatiningRotateAction(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot0:TweenRotate(slot1, slot4.value, slot4.dur or 1, slot4.number or 1, slot4.delay or 0, slot3)
+	function slot5(slot0, slot1)
+		uv0:TweenRotate(uv1, slot0.value, slot0.dur or 1, slot0.number or 1, slot0.delay or 0, slot1)
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in pairs(slot4) do
+		table.insert(slot6, function (slot0)
+			uv0(uv1, slot0)
+		end)
+	end
+
+	parallelAsync(slot6, function ()
+		if uv0 then
+			uv0()
+		end
+	end)
 end
 
 function slot0.StartPatiningMoveAction(slot0, slot1, slot2, slot3)
@@ -347,9 +360,25 @@ function slot0.StartPatiningMoveAction(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot9 = tf(slot1).localPosition
+	function slot5(slot0, slot1)
+		slot6 = tf(uv0).localPosition
 
-	slot0:TweenMove(slot1, Vector3(slot9.x + (slot4.x or 0), slot9.y + (slot4.y or 0), 0), slot4.dur or 1, 1, slot4.delay or 0, slot3)
+		uv1:TweenMove(uv0, Vector3(slot6.x + (slot0.x or 0), slot6.y + (slot0.y or 0), 0), slot0.dur or 1, 1, slot0.delay or 0, slot1)
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in pairs(slot4) do
+		table.insert(slot6, function (slot0)
+			uv0(uv1, slot0)
+		end)
+	end
+
+	parallelAsync(slot6, function ()
+		if uv0 then
+			uv0()
+		end
+	end)
 end
 
 function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
@@ -376,7 +405,8 @@ function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
 	if slot5:Find("fitter").childCount > 0 then
 		setParent(slot5:Find("fitter"):GetChild(0), slot8:Find("fitter"))
 
-		slot8.localScale = Vector3(slot2:GetPaintingDir(), 1, 1)
+		slot10 = slot2:GetPaintingDir()
+		slot8.localScale = Vector3(slot10, math.abs(slot10), 1)
 	end
 
 	slot0:TweenValue(slot8, slot5.localPosition.x, tf(slot8).localPosition.x, slot6, 0, function (slot0)

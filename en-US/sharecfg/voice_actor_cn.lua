@@ -995,5 +995,21 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Yukina Shiomi ",
 		code = 249
+	},
+	{
+		actor_name = "Houko Kuwashima ",
+		code = 250
+	},
+	{
+		actor_name = "Ai Nonaka  ",
+		code = 251
+	},
+	{
+		actor_name = "Mai Aizawa ",
+		code = 252
+	},
+	{
+		actor_name = "Akemi Sato",
+		code = 253
 	}
 }

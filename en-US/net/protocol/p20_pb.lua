@@ -5,10 +5,6 @@ module("p20_pb")
 
 slot2 = {
 	SC_20001_INFO_FIELD = slot0.FieldDescriptor(),
-	TASK_INFO_ID_FIELD = slot0.FieldDescriptor(),
-	TASK_INFO_PROGRESS_FIELD = slot0.FieldDescriptor(),
-	TASK_INFO_ACCEPT_TIME_FIELD = slot0.FieldDescriptor(),
-	TASK_INFO_SUBMIT_TIME_FIELD = slot0.FieldDescriptor(),
 	SC_20002_INFO_FIELD = slot0.FieldDescriptor(),
 	TASK_PROGRESS_ID_FIELD = slot0.FieldDescriptor(),
 	TASK_PROGRESS_PROGRESS_FIELD = slot0.FieldDescriptor(),
@@ -35,7 +31,6 @@ slot2 = {
 	TASK_UPDATE_PROGRESS_FIELD = slot0.FieldDescriptor()
 }
 SC_20001 = slot0.Descriptor()
-TASK_INFO = slot0.Descriptor()
 SC_20002 = slot0.Descriptor()
 TASK_PROGRESS = slot0.Descriptor()
 SC_20003 = slot0.Descriptor()
@@ -57,7 +52,7 @@ slot2.SC_20001_INFO_FIELD.index = 0
 slot2.SC_20001_INFO_FIELD.label = 3
 slot2.SC_20001_INFO_FIELD.has_default_value = false
 slot2.SC_20001_INFO_FIELD.default_value = {}
-slot2.SC_20001_INFO_FIELD.message_type = TASK_INFO
+slot2.SC_20001_INFO_FIELD.message_type = slot1.TASKINFO
 slot2.SC_20001_INFO_FIELD.type = 11
 slot2.SC_20001_INFO_FIELD.cpp_type = 10
 SC_20001.name = "sc_20001"
@@ -69,54 +64,6 @@ SC_20001.fields = {
 }
 SC_20001.is_extendable = false
 SC_20001.extensions = {}
-slot2.TASK_INFO_ID_FIELD.name = "id"
-slot2.TASK_INFO_ID_FIELD.full_name = "p20.task_info.id"
-slot2.TASK_INFO_ID_FIELD.number = 1
-slot2.TASK_INFO_ID_FIELD.index = 0
-slot2.TASK_INFO_ID_FIELD.label = 2
-slot2.TASK_INFO_ID_FIELD.has_default_value = false
-slot2.TASK_INFO_ID_FIELD.default_value = 0
-slot2.TASK_INFO_ID_FIELD.type = 13
-slot2.TASK_INFO_ID_FIELD.cpp_type = 3
-slot2.TASK_INFO_PROGRESS_FIELD.name = "progress"
-slot2.TASK_INFO_PROGRESS_FIELD.full_name = "p20.task_info.progress"
-slot2.TASK_INFO_PROGRESS_FIELD.number = 2
-slot2.TASK_INFO_PROGRESS_FIELD.index = 1
-slot2.TASK_INFO_PROGRESS_FIELD.label = 2
-slot2.TASK_INFO_PROGRESS_FIELD.has_default_value = false
-slot2.TASK_INFO_PROGRESS_FIELD.default_value = 0
-slot2.TASK_INFO_PROGRESS_FIELD.type = 13
-slot2.TASK_INFO_PROGRESS_FIELD.cpp_type = 3
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.name = "accept_time"
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.full_name = "p20.task_info.accept_time"
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.number = 3
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.index = 2
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.label = 2
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.has_default_value = false
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.default_value = 0
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.type = 13
-slot2.TASK_INFO_ACCEPT_TIME_FIELD.cpp_type = 3
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.name = "submit_time"
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.full_name = "p20.task_info.submit_time"
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.number = 4
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.index = 3
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.label = 2
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.has_default_value = false
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.default_value = 0
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.type = 13
-slot2.TASK_INFO_SUBMIT_TIME_FIELD.cpp_type = 3
-TASK_INFO.name = "task_info"
-TASK_INFO.full_name = "p20.task_info"
-TASK_INFO.nested_types = {}
-TASK_INFO.enum_types = {}
-TASK_INFO.fields = {
-	slot2.TASK_INFO_ID_FIELD,
-	slot2.TASK_INFO_PROGRESS_FIELD,
-	slot2.TASK_INFO_ACCEPT_TIME_FIELD,
-	slot2.TASK_INFO_SUBMIT_TIME_FIELD
-}
-TASK_INFO.is_extendable = false
-TASK_INFO.extensions = {}
 slot2.SC_20002_INFO_FIELD.name = "info"
 slot2.SC_20002_INFO_FIELD.full_name = "p20.sc_20002.info"
 slot2.SC_20002_INFO_FIELD.number = 1
@@ -489,6 +436,5 @@ sc_20008 = slot0.Message(SC_20008)
 sc_20010 = slot0.Message(SC_20010)
 sc_20012 = slot0.Message(SC_20012)
 task_add = slot0.Message(TASK_ADD)
-task_info = slot0.Message(TASK_INFO)
 task_progress = slot0.Message(TASK_PROGRESS)
 task_update = slot0.Message(TASK_UPDATE)

@@ -48,6 +48,10 @@ function slot0.PlayAnim(slot0, slot1)
 end
 
 function slot0.PlayEffect(slot0, slot1)
+	if not slot1 or slot1 == "" then
+		return
+	end
+
 	if slot1 == slot0.loading then
 		return
 	end
@@ -73,6 +77,10 @@ function slot0.PlayEffect(slot0, slot1)
 end
 
 function slot0.StopEffect(slot0, slot1)
+	if not slot1 or slot1 == "" then
+		return
+	end
+
 	if slot0.loading == slot1 then
 		slot0.loading = nil
 	end

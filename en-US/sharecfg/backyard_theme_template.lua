@@ -2366,6 +2366,48 @@ pg.backyard_theme_template = {
 			71301
 		}
 	},
+	[72] = {
+		Cfg_1 = 5,
+		name = "Venus Vacation ",
+		desc = "Time to get away from it all and play some beach volleyball. ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 72,
+		icon = "doathemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			72001,
+			72002,
+			72101,
+			72102,
+			72103,
+			72104,
+			72105,
+			72106,
+			72107,
+			72108,
+			72109,
+			72110,
+			72111,
+			72112,
+			72113,
+			72114,
+			72115,
+			72116,
+			72117,
+			72118,
+			72119,
+			72120,
+			72121,
+			72122,
+			72123
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2417,6 +2459,7 @@ pg.backyard_theme_template = {
 		68,
 		69,
 		70,
-		71
+		71,
+		72
 	}
 }

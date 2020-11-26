@@ -13,7 +13,7 @@ pg.activity_ins_ship_group_template = {
 	[40301] = {
 		ship_group = 40301,
 		name = "R-Guitarist",
-		sculpture = "xipeier_idol"
+		sculpture = "xipeierhaijunshangjiang"
 	},
 	[99901] = {
 		ship_group = 99901,
@@ -583,7 +583,7 @@ pg.activity_ins_ship_group_template = {
 	[20501] = {
 		ship_group = 20501,
 		name = "QueenEliz",
-		sculpture = "yilishabai_3"
+		sculpture = "yilishabai"
 	},
 	[20705] = {
 		ship_group = 20705,
@@ -865,6 +865,81 @@ pg.activity_ins_ship_group_template = {
 		name = "HAI_110 ",
 		sculpture = "U110_4"
 	},
+	[10711] = {
+		ship_group = 10711,
+		name = "The_Fighting_I",
+		sculpture = "wuwei"
+	},
+	[30303] = {
+		ship_group = 30303,
+		name = "REPORTER_AOBA",
+		sculpture = "qingye"
+	},
+	[20110] = {
+		ship_group = 20110,
+		name = "Cygnet",
+		sculpture = "xiaotiane"
+	},
+	[30157] = {
+		ship_group = 30157,
+		name = "HARUTSUKI",
+		sculpture = "chunyue"
+	},
+	[10306] = {
+		ship_group = 10306,
+		name = "INDI_LOVE",
+		sculpture = "botelan"
+	},
+	[10307] = {
+		ship_group = 10307,
+		name = "Indianapolis",
+		sculpture = "bolisi"
+	},
+	[10501] = {
+		ship_group = 10501,
+		name = "Nevada",
+		sculpture = "neihuada"
+	},
+	[1060004] = {
+		ship_group = 1060004,
+		name = "Misaki",
+		sculpture = "haixiao_DOA"
+	},
+	[1060001] = {
+		ship_group = 1060001,
+		name = "Marie",
+		sculpture = "maliluosi_doa"
+	},
+	[1060007] = {
+		ship_group = 1060007,
+		name = "Monica",
+		sculpture = "monika_DOA"
+	},
+	[1060006] = {
+		ship_group = 1060006,
+		name = "Nyotengu",
+		sculpture = "nvtiangou_DOA"
+	},
+	[1060002] = {
+		ship_group = 1060002,
+		name = "Honoka",
+		sculpture = "suixiang_doa"
+	},
+	[1060003] = {
+		ship_group = 1060003,
+		name = "Kasumi",
+		sculpture = "xia_DOA"
+	},
+	[1060005] = {
+		ship_group = 1060005,
+		name = "Nagisa",
+		sculpture = "zhixiao_DOA"
+	},
+	[30127] = {
+		ship_group = 30127,
+		name = "Nin_Kuroshio",
+		sculpture = "heichao"
+	},
 	all = {
 		30701,
 		30702,
@@ -1038,6 +1113,21 @@ pg.activity_ins_ship_group_template = {
 		30163,
 		70104,
 		20123,
-		40808
+		40808,
+		10711,
+		30303,
+		20110,
+		30157,
+		10306,
+		10307,
+		10501,
+		1060004,
+		1060001,
+		1060007,
+		1060006,
+		1060002,
+		1060003,
+		1060005,
+		30127
 	}
 }

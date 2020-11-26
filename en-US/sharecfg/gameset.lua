@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 175
+		key_value = 177
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -667,7 +667,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 173
+		key_value = 178
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -732,5 +732,21 @@ pg.gameset = {
 			59010,
 			4000
 		}
+	},
+	doa_fever_count = {
+		description = "",
+		key_value = 4
+	},
+	doa_fever_buff = {
+		description = "",
+		key_value = 8761
+	},
+	doa_fever_recover = {
+		description = "",
+		key_value = 0
+	},
+	doa_fever_strategy = {
+		description = "",
+		key_value = 10021
 	}
 }

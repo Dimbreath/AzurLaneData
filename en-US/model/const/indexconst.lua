@@ -50,13 +50,18 @@ function slot0.ToggleBits(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
+function slot0.SingleToggleBits(slot0, slot1, slot2, slot3)
+	return (slot0 ~= bit.lshift(1, slot3) or bit.lshift(1, slot2)) and slot5
+end
+
 slot0.DisplaySort = 1
 slot0.DisplayIndex = 2
 slot0.DisplayCamp = 3
 slot0.DisplayRarity = 4
-slot0.DisplayEquipSkinSort = 5
-slot0.DisplayEquipSkinIndex = 6
-slot0.DisplayEquipSkinTheme = 7
+slot0.DisplayExtra = 5
+slot0.DisplayEquipSkinSort = 6
+slot0.DisplayEquipSkinIndex = 7
+slot0.DisplayEquipSkinTheme = 8
 slot0.SortRarity = 1
 slot0.SortLevel = 2
 slot0.SortPower = 3
@@ -199,6 +204,19 @@ slot0.RarityNames = {
 	"index_rare4",
 	"index_rare5",
 	"index_rare6"
+}
+slot0.ExtraAll = 1
+slot0.ExtraSpecial = 2
+slot0.ExtraNotObtained = 3
+slot0.ExtraTypes = {
+	slot0.ExtraAll,
+	slot0.ExtraSpecial,
+	slot0.ExtraNotObtained
+}
+slot0.ExtraNames = {
+	"index_no_limit",
+	"index_special",
+	"index_not_obtained"
 }
 slot0.EquipSkinSortType = 1
 slot0.EquipSkinSortTypes = {
@@ -387,6 +405,26 @@ function slot0.filterByRarity(slot0, slot1)
 
 	for slot5 = uv0.Rarity1, uv0.Rarity5 do
 		if bit.band(slot1, bit.lshift(1, slot5)) > 0 and slot0:getRarity() == slot5 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.filterByExtra(slot0, slot1)
+	if bit.band(slot1, bit.lshift(1, uv0.ExtraAll)) > 0 then
+		return true
+	end
+
+	if bit.band(slot1, bit.lshift(1, uv0.ExtraSpecial)) > 0 and slot0:isSpecialFilter() then
+		return true
+	end
+
+	if bit.band(slot1, bit.lshift(1, uv0.ExtraNotObtained)) > 0 then
+		slot2 = slot0:getGroupId()
+
+		if ShipGroup.getState(slot2, getProxy(CollectionProxy):getShipGroup(slot2), slot0:isRemoulded()) ~= ShipGroup.STATE_UNLOCK then
 			return true
 		end
 	end

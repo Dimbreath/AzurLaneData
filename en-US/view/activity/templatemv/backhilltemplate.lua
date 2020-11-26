@@ -131,12 +131,14 @@ function slot0.clearStudents(slot0)
 		slot0.sortTimer = nil
 	end
 
-	for slot4, slot5 in pairs(slot0.academyStudents) do
-		slot5:detach()
-		Destroy(slot5._go)
-	end
+	if slot0.academyStudents then
+		for slot4, slot5 in pairs(slot0.academyStudents) do
+			slot5:detach()
+			Destroy(slot5._go)
+		end
 
-	table.clear(slot0.academyStudents)
+		table.clear(slot0.academyStudents)
+	end
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)

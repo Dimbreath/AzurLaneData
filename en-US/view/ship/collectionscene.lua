@@ -10,7 +10,8 @@ slot0.ShipIndex = {
 	display = {
 		index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther),
 		camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther),
-		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity5)
+		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity5),
+		extra = IndexConst.FlagRange2Bits(IndexConst.ExtraAll, IndexConst.ExtraNotObtained)
 	},
 	index = IndexConst.Flags2Bits({
 		IndexConst.IndexAll
@@ -20,6 +21,9 @@ slot0.ShipIndex = {
 	}),
 	rarity = IndexConst.Flags2Bits({
 		IndexConst.RarityAll
+	}),
+	extra = IndexConst.Flags2Bits({
+		IndexConst.ExtraAll
 	})
 }
 
@@ -330,29 +334,22 @@ function slot0.initIndexPanel(slot0)
 	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
 
 	onButton(slot0, slot0.indexBtn, function ()
-		slot0 = Clone(uv0.ShipIndex.display)
+		slot0 = Clone(uv0.ShipIndex)
 
 		if uv1.contextData.toggle == 1 and uv1.contextData.cardToggle == 2 then
+			slot0.display.camp = nil
 			slot0.camp = nil
 		end
 
-		uv1:emit(uv0.ON_INDEX, {
-			display = slot0,
-			index = uv0.ShipIndex.index,
-			camp = uv0.ShipIndex.camp,
-			rarity = uv0.ShipIndex.rarity,
-			callback = function (slot0)
-				uv0.ShipIndex.index = slot0.index
-
-				if slot0.camp then
-					uv0.ShipIndex.camp = slot0.camp
-				end
-
-				uv0.ShipIndex.rarity = slot0.rarity
-
-				uv1:initCardPanel()
+		function slot0.callback(slot0)
+			for slot4, slot5 in pairs(slot0) do
+				uv0.ShipIndex[slot4] = slot5
 			end
-		})
+
+			uv1:initCardPanel()
+		end
+
+		uv1:emit(uv0.ON_INDEX, slot0)
 	end, SFX_PANEL)
 end
 
@@ -441,77 +438,20 @@ function slot0.cardFilter(slot0)
 	slot1 = _.filter(pg.ship_data_group.all, function (slot0)
 		return pg.ship_data_group[slot0].handbook_type == uv0.contextData.cardToggle - 1
 	end)
-	slot2 = _.min(slot1)
-	slot3 = _.max(slot1)
 
-	if uv0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and uv0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and slot0.contextData.cardToggle == 1 and uv0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
-		for slot7 = slot2, slot3 do
-			slot8 = false
-			slot10 = false
+	table.sort(slot1)
 
-			if pg.ship_data_group[slot7] then
-				if slot0.contextData.cardToggle == 1 and not Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot9.group_type).nationality) then
-					slot0.codeShips[#slot0.codeShips + 1] = {
-						showTrans = false,
-						id = slot7,
-						code = slot7,
-						group = slot0.shipGroups[slot9.group_type],
-						index_id = slot9.index_id
-					}
-				elseif slot0.contextData.cardToggle == 2 and slot10 then
-					slot0.codeShips[#slot0.codeShips + 1] = {
-						showTrans = false,
-						id = slot7,
-						code = slot7 - 10000,
-						group = slot8,
-						index_id = slot9.index_id
-					}
-				elseif slot0.contextData.cardToggle == 3 then
-					slot0.codeShips[#slot0.codeShips + 1] = {
-						showTrans = false,
-						id = slot7,
-						code = slot7 - 20000,
-						group = slot8,
-						index_id = slot9.index_id
-					}
-				end
-			end
-		end
-	else
-		for slot7 = slot2, slot3 do
-			if pg.ship_data_group[slot7] then
-				slot9 = ShipGroup.New({
-					id = slot8.group_type
-				})
-
-				if ShipGroup.getState(slot7, slot0.shipGroups[slot8.group_type], false) ~= ShipGroup.STATE_LOCK and slot9 and IndexConst.filterByIndex(slot9, uv0.ShipIndex.index) and IndexConst.filterByRarity(slot9, uv0.ShipIndex.rarity) then
-					if slot0.contextData.cardToggle == 1 and not Nation.IsLinkType(slot9:getNation()) and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
-						slot0.codeShips[#slot0.codeShips + 1] = {
-							showTrans = false,
-							id = slot7,
-							code = slot7,
-							group = slot0.shipGroups[slot8.group_type],
-							index_id = slot8.index_id
-						}
-					elseif slot0.contextData.cardToggle == 2 and slot12 then
-						slot0.codeShips[#slot0.codeShips + 1] = {
-							showTrans = false,
-							id = slot7,
-							code = slot7 - 10000,
-							group = slot10,
-							index_id = slot8.index_id
-						}
-					elseif slot0.contextData.cardToggle == 3 and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
-						slot0.codeShips[#slot0.codeShips + 1] = {
-							showTrans = false,
-							id = slot7,
-							code = slot7 - 20000,
-							group = slot10,
-							index_id = slot8.index_id
-						}
-					end
-				end
-			end
+	for slot5, slot6 in ipairs(slot1) do
+		if IndexConst.filterByIndex(slot0.shipGroups[pg.ship_data_group[slot6].group_type] or ShipGroup.New({
+			id = slot7.group_type
+		}), uv0.ShipIndex.index) and (slot0.contextData.cardToggle == 2 or IndexConst.filterByCamp(slot8, uv0.ShipIndex.camp)) and IndexConst.filterByRarity(slot8, uv0.ShipIndex.rarity) and IndexConst.filterByExtra(slot8, uv0.ShipIndex.extra) then
+			slot0.codeShips[#slot0.codeShips + 1] = {
+				showTrans = false,
+				id = slot6,
+				code = slot6 - (slot0.contextData.cardToggle - 1) * 10000,
+				group = slot0.shipGroups[slot7.group_type],
+				index_id = slot7.index_id
+			}
 		end
 	end
 end
@@ -521,49 +461,21 @@ function slot0.transFilter(slot0)
 	slot1 = _.filter(pg.ship_data_group.all, function (slot0)
 		return pg.ship_data_group[slot0].handbook_type == 0
 	end)
-	slot2 = _.min(slot1)
-	slot3 = _.max(slot1)
 
-	if uv0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and uv0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and uv0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
-		for slot7 = slot2, slot3 do
-			slot8 = false
+	table.sort(slot1)
 
-			if pg.ship_data_group[slot7] and pg.ship_data_trans[slot9.group_type] then
-				if slot0.shipGroups[slot9.group_type] and not slot10.trans then
-					slot10 = nil
-				end
-
-				slot0.codeShips[#slot0.codeShips + 1] = {
-					showTrans = true,
-					id = slot7,
-					code = 3000 + slot7,
-					group = slot10,
-					index_id = slot9.index_id
-				}
-			end
-		end
-	else
-		for slot7 = slot2, slot3 do
-			if pg.ship_data_group[slot7] then
-				if slot0.shipGroups[slot8.group_type] and slot9.trans and IndexConst.filterByIndex(slot9, uv0.ShipIndex.index) and IndexConst.filterByRarity(slot9, uv0.ShipIndex.rarity) and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
-					slot0.codeShips[#slot0.codeShips + 1] = {
-						showTrans = true,
-						id = slot7,
-						code = 3000 + slot7,
-						group = slot9,
-						index_id = slot8.index_id
-					}
-				elseif pg.ship_data_trans[slot8.group_type] and IndexConst.filterByIndex(ShipGroup.New({
-					id = slot8.group_type
-				}), uv0.ShipIndex.index) and IndexConst.filterByRarity(slot10, uv0.ShipIndex.rarity) and IndexConst.filterByCamp(slot10, uv0.ShipIndex.camp) then
-					slot0.codeShips[#slot0.codeShips + 1] = {
-						showTrans = true,
-						id = slot7,
-						code = 3000 + slot7,
-						index_id = slot8.index_id
-					}
-				end
-			end
+	for slot5, slot6 in ipairs(slot1) do
+		if pg.ship_data_trans[pg.ship_data_group[slot6].group_type] and IndexConst.filterByIndex(slot0.shipGroups[slot7.group_type] or ShipGroup.New({
+			remoulded = true,
+			id = slot7.group_type
+		}), uv0.ShipIndex.index) and IndexConst.filterByCamp(slot8, uv0.ShipIndex.camp) and IndexConst.filterByRarity(slot8, uv0.ShipIndex.rarity) and IndexConst.filterByExtra(slot8, uv0.ShipIndex.extra) then
+			slot0.codeShips[#slot0.codeShips + 1] = {
+				showTrans = true,
+				id = slot6,
+				code = 3000 + slot6,
+				group = slot8.trans and slot8 or nil,
+				index_id = slot7.index_id
+			}
 		end
 	end
 end

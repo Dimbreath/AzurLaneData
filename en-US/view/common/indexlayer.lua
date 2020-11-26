@@ -29,22 +29,8 @@ slot0.panelNames = {
 
 function slot0.init(slot0)
 	slot0.panel = slot0:findTF("index_panel")
+	slot4 = "layout/EquipSkinTheme"
 	slot0.displayTFs = {
-		slot0:findTF("layout/sort", slot0.panel),
-		slot0:findTF("layout/index", slot0.panel),
-		slot0:findTF("layout/camp", slot0.panel),
-		slot0:findTF("layout/rarity", slot0.panel),
-		slot0:findTF("layout/EquipSkinSort", slot0.panel),
-		slot0:findTF("layout/EquipSkinIndex", slot0.panel),
-		slot0:findTF("layout/EquipSkinTheme", slot0.panel),
-		slot0:findTF("layout/extra", slot0.panel)
-	}
-
-	_.each(slot0.displayTFs, function (slot0)
-		setActive(slot0, false)
-	end)
-
-	slot1 = {
 		slot0:findTF("layout/sort", slot0.panel),
 		slot0:findTF("layout/index", slot0.panel),
 		slot0:findTF("layout/camp", slot0.panel),
@@ -52,13 +38,16 @@ function slot0.init(slot0)
 		slot0:findTF("layout/extra", slot0.panel),
 		slot0:findTF("layout/EquipSkinSort", slot0.panel),
 		slot0:findTF("layout/EquipSkinIndex", slot0.panel),
-		slot0:findTF("layout/EquipSkinTheme", slot5)
+		slot0:findTF(slot4, slot0.panel)
 	}
-	slot5 = slot0.panel
 
-	for slot5 = 1, #uv0.panelNames do
-		setText(slot1[slot5]:Find("title1/Image"), i18n(uv0.panelNames[slot5][1]))
-		setText(slot1[slot5]:Find("title1/Image_en"), i18n(uv0.panelNames[slot5][2]))
+	_.each(slot0.displayTFs, function (slot0)
+		setActive(slot0, false)
+	end)
+
+	for slot4 = 1, #uv0.panelNames do
+		setText(slot0.displayTFs[slot4]:Find("title1/Image"), i18n(uv0.panelNames[slot4][1]))
+		setText(slot0.displayTFs[slot4]:Find("title1/Image_en"), i18n(uv0.panelNames[slot4][2]))
 	end
 
 	slot0.displayList = {}
@@ -78,6 +67,7 @@ function slot0.didEnter(slot0)
 				index = Clone(uv0.contextData.index),
 				camp = Clone(uv0.contextData.camp),
 				rarity = Clone(uv0.contextData.rarity),
+				extra = Clone(uv0.contextData.extra),
 				equipSkinSort = Clone(uv0.contextData.equipSkinSort),
 				equipSkinIndex = Clone(uv0.contextData.equipSkinIndex),
 				equipSkinTheme = Clone(uv0.contextData.equipSkinTheme)
@@ -106,10 +96,10 @@ function slot0.initDisplays(slot0)
 			"index",
 			"camp",
 			"rarity",
+			"extra",
 			"equipSkinSort",
 			"equipSkinIndex",
-			"equipSkinTheme",
-			"extra"
+			"equipSkinTheme"
 		})[slot5]])
 
 		setActive(slot6, slot7)
@@ -127,6 +117,9 @@ function slot0.initDisplays(slot0)
 			elseif slot5 == IndexConst.DisplayRarity then
 				slot0:initRarity()
 				slot0:updateRarity()
+			elseif slot5 == IndexConst.DisplayExtra then
+				slot0:initExtra()
+				slot0:updateExtra()
 			elseif slot5 == IndexConst.DisplayEquipSkinSort then
 				slot0:initEquipSkinSort()
 				slot0:updateEquipSkinSort()
@@ -298,6 +291,46 @@ function slot0.updateRarity(slot0)
 		slot4 = findTF(slot1, "Image")
 
 		setImageSprite(slot1, bit.band(uv1.contextData.rarity, bit.lshift(1, uv0[slot0 + 1])) > 0 and uv1.blueSprite or uv1.greySprite)
+	end)
+end
+
+function slot0.initExtra(slot0)
+	slot1 = {}
+
+	_.each(IndexConst.ExtraTypes, function (slot0)
+		if bit.band(uv0.contextData.display.extra, bit.lshift(1, slot0)) > 0 then
+			table.insert(uv1, slot0)
+		end
+	end)
+
+	slot0.typeList[IndexConst.DisplayExtra] = slot1
+	slot2 = slot0.displayTFs[IndexConst.DisplayExtra]
+	slot3 = UIItemList.New(slot0:findTF("panel", slot2), slot0:findTF("panel/tpl", slot2))
+
+	slot3:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			setText(findTF(slot2, "Image"), i18n(IndexConst.ExtraNames[table.indexof(IndexConst.ExtraTypes, uv0[slot1 + 1])]))
+			setImageSprite(slot2, uv1.greySprite)
+			GetOrAddComponent(slot2, typeof(Button))
+			onButton(uv1, slot2, function ()
+				uv0.contextData.extra = IndexConst.SingleToggleBits(uv0.contextData.extra, uv1, IndexConst.ExtraAll, uv2)
+
+				uv0:updateExtra()
+			end, SFX_UI_TAG)
+		end
+	end)
+	slot3:align(#slot1)
+
+	slot0.displayList[IndexConst.DisplayExtra] = slot3
+end
+
+function slot0.updateExtra(slot0)
+	slot2 = slot0.typeList[IndexConst.DisplayExtra]
+
+	slot0.displayList[IndexConst.DisplayExtra]:each(function (slot0, slot1)
+		slot4 = findTF(slot1, "Image")
+
+		setImageSprite(slot1, bit.band(uv1.contextData.extra, bit.lshift(1, uv0[slot0 + 1])) > 0 and uv1.blueSprite or uv1.greySprite)
 	end)
 end
 

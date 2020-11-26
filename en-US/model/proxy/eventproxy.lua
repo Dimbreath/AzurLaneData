@@ -105,7 +105,7 @@ end
 
 function slot0.countBusyFleetNums(slot0)
 	for slot5, slot6 in ipairs(slot0.eventList) do
-		if slot6.state ~= EventInfo.StateNone then
+		if not slot6:IsActivityType() and slot6.state ~= EventInfo.StateNone then
 			slot1 = 0 + 1
 		end
 	end
@@ -156,6 +156,96 @@ function slot0.checkNightEvent(slot0)
 
 		return slot0.template.type == EventConst.EVENT_TYPE_NIGHT and (not slot1 or slot1 > 0)
 	end)
+end
+
+function slot0.AddActivityEvents(slot0, slot1, slot2)
+	for slot6 = #slot0.eventList, 1, -1 do
+		if slot0.eventList[slot6]:IsActivityType() and slot7:BelongActivity(slot2) then
+			table.remove(slot0.eventList, slot6)
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot1) do
+		print("add collection-----------", slot7.id)
+		table.insert(slot0.eventList, slot7)
+	end
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
+end
+
+function slot0.AddActivityEvent(slot0, slot1)
+	print("zero add collection-----------", slot1.id)
+	table.insert(slot0.eventList, slot1)
+end
+
+function slot0.CanJoinEvent(slot0, slot1)
+	if not slot1:reachNum() then
+		return false, i18n("event_minimus_ship_numbers", slot1.template.ship_num)
+	end
+
+	if not slot1:reachLevel() then
+		return false, i18n("event_level_unreached")
+	end
+
+	if not slot1:reachTypes() then
+		return false, i18n("event_type_unreached")
+	end
+
+	if not slot1:IsActivityType() and slot0.maxFleetNums <= slot0.busyFleetNums then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("event_fleet_busy"))
+
+		return
+	end
+
+	if slot1:GetCountDownTime() and slot3 < 0 then
+		return false, i18n("event_over_time_expired")
+	end
+
+	if getProxy(PlayerProxy):getData().oil < slot1:getOilConsume() then
+		slot6 = nil
+
+		if not ItemTipPanel.ShowOilBuyTip(slot1:getOilConsume()) then
+			slot6 = i18n("common_no_oil")
+		end
+
+		return false, slot6
+	end
+
+	if pg.collection_template[slot1.id] then
+		if slot5:OilMax(slot6.drop_oil_max or 0) then
+			return false, i18n("oil_max_tip_title") .. i18n("resource_max_tip_eventstart")
+		end
+
+		if slot5:GoldMax(slot6.drop_gold_max or 0) then
+			return false, i18n("gold_max_tip_title") .. i18n("resource_max_tip_eventstart")
+		end
+	end
+
+	return true
+end
+
+function slot0.CanFinishEvent(slot0, slot1)
+	if not slot1.template then
+		return false
+	end
+
+	if getProxy(PlayerProxy):getData():OilMax(slot2.drop_oil_max or 0) then
+		return false, i18n("oil_max_tip_title") .. i18n("resource_max_tip_event")
+	end
+
+	if slot3:GoldMax(slot2.drop_gold_max or 0) then
+		return false, i18n("gold_max_tip_title") .. i18n("resource_max_tip_event")
+	end
+
+	return true
+end
+
+function slot0.GetEventByActivityId(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.eventList) do
+		if slot6:BelongActivity(slot1) then
+			return slot6, slot5
+		end
+	end
 end
 
 return slot0

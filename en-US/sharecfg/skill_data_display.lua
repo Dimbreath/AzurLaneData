@@ -596,6 +596,22 @@ pg.skill_data_display = {
 		id = 6280,
 		name = "Aircraft Detection"
 	},
+	[6741] = {
+		id = 6741,
+		name = "Frontier Medal"
+	},
+	[6750] = {
+		id = 6750,
+		name = "Elite Damage Control Manjuu (Eagle Union)"
+	},
+	[6761] = {
+		id = 6761,
+		name = "Naval Treaty"
+	},
+	[6770] = {
+		id = 6770,
+		name = "Pennant of Victory"
+	},
 	[7000] = {
 		id = 7000,
 		name = "Rhine Drill"
@@ -723,6 +739,10 @@ pg.skill_data_display = {
 	[8740] = {
 		id = 8740,
 		name = "Blessing of the Butterfly"
+	},
+	[8760] = {
+		id = 8760,
+		name = "Fever Mode "
 	},
 	[9010] = {
 		id = 9010,
@@ -4964,6 +4984,138 @@ pg.skill_data_display = {
 		id = 105155,
 		name = "Divining…"
 	},
+	[106010] = {
+		id = 106010,
+		name = "Rose's Thorns"
+	},
+	[106011] = {
+		id = 106011,
+		name = "Rose's Thorns"
+	},
+	[106020] = {
+		id = 106020,
+		name = "Vibrant Minuet"
+	},
+	[106021] = {
+		id = 106021,
+		name = "Vibrant Minuet"
+	},
+	[106030] = {
+		id = 106030,
+		name = "Rock-Paper-Cannon Salvo "
+	},
+	[106031] = {
+		id = 106031,
+		name = "Rock-Paper-Cannon Salvo "
+	},
+	[106032] = {
+		id = 106032,
+		name = "Rock-Paper-Cannon Salvo "
+	},
+	[106033] = {
+		id = 106033,
+		name = "Rock-Paper-Cannon Salvo "
+	},
+	[106034] = {
+		id = 106034,
+		name = "Rock-Paper-Cannon Salvo "
+	},
+	[106040] = {
+		id = 106040,
+		name = "Super Mega Explosion"
+	},
+	[106045] = {
+		id = 106045,
+		name = "Super Mega Explosion"
+	},
+	[106050] = {
+		id = 106050,
+		name = "Sakura Petal Dance"
+	},
+	[106051] = {
+		id = 106051,
+		name = "Sakura Petal Dance"
+	},
+	[106060] = {
+		id = 106060,
+		name = "Misty Mirror Flower"
+	},
+	[106070] = {
+		id = 106070,
+		name = "Humble Part-Timer"
+	},
+	[106071] = {
+		id = 106071,
+		name = "Humble Part-Timer"
+	},
+	[106080] = {
+		id = 106080,
+		name = "Venus Friends"
+	},
+	[106081] = {
+		id = 106081,
+		name = "Venus Friends"
+	},
+	[106090] = {
+		id = 106090,
+		name = "Not-So-Gentle Sister"
+	},
+	[106091] = {
+		id = 106091,
+		name = "Not-So-Gentle Sister"
+	},
+	[106100] = {
+		id = 106100,
+		name = "Venus' Unpredictability"
+	},
+	[106101] = {
+		id = 106101,
+		name = "Venus' Unpredictability"
+	},
+	[106110] = {
+		id = 106110,
+		name = "Joker Card"
+	},
+	[106111] = {
+		id = 106111,
+		name = "Joker Card"
+	},
+	[106112] = {
+		id = 106112,
+		name = "Joker Card"
+	},
+	[106113] = {
+		id = 106113,
+		name = "Joker Card"
+	},
+	[106114] = {
+		id = 106114,
+		name = "Joker Card"
+	},
+	[106120] = {
+		id = 106120,
+		name = "Royal Flush"
+	},
+	[106121] = {
+		id = 106121,
+		name = "Royal Flush"
+	},
+	[106130] = {
+		id = 106130,
+		name = "Dance of the Heavens"
+	},
+	[106131] = {
+		id = 106131,
+		name = "Dance of the Heavens"
+	},
+	[106140] = {
+		id = 106140,
+		name = "Hanakagura"
+	},
+	[106141] = {
+		id = 106141,
+		name = "Hanakagura"
+	},
 	all = {
 		4,
 		10,
@@ -5114,6 +5266,10 @@ pg.skill_data_display = {
 		6260,
 		6270,
 		6280,
+		6741,
+		6750,
+		6761,
+		6770,
 		7000,
 		7500,
 		8521,
@@ -5146,6 +5302,7 @@ pg.skill_data_display = {
 		8734,
 		8737,
 		8740,
+		8760,
 		9010,
 		9020,
 		9030,
@@ -6205,6 +6362,39 @@ pg.skill_data_display = {
 		105152,
 		105153,
 		105154,
-		105155
+		105155,
+		106010,
+		106011,
+		106020,
+		106021,
+		106030,
+		106031,
+		106032,
+		106033,
+		106034,
+		106040,
+		106045,
+		106050,
+		106051,
+		106060,
+		106070,
+		106071,
+		106080,
+		106081,
+		106090,
+		106091,
+		106100,
+		106101,
+		106110,
+		106111,
+		106112,
+		106113,
+		106114,
+		106120,
+		106121,
+		106130,
+		106131,
+		106140,
+		106141
 	}
 }

@@ -7147,6 +7147,47 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[409] = {
+		gametip = "",
+		memory = 0,
+		id = 409,
+		type = 3,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1484301,
+						{
+							2,
+							3
+						}
+					},
+					{
+						1484302,
+						{
+							2,
+							5
+						}
+					},
+					{
+						1484303,
+						{
+							1,
+							4
+						}
+					}
+				}
+			}
+		}
+	},
 	all = {
 		75,
 		76,
@@ -7474,6 +7515,7 @@ pg.map_event_template = {
 		405,
 		406,
 		407,
-		408
+		408,
+		409
 	}
 }

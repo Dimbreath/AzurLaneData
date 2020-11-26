@@ -83,7 +83,7 @@ function slot0.Preload(slot0)
 							slot1:AddPreloadResource(slot1.GetWeaponResource(slot26, slot20))
 						end
 					elseif slot17 then
-						slot1:AddPreloadResource(slot1.GetEquipResource(slot17.configId, slot17.skinId))
+						slot1:AddPreloadResource(slot1.GetEquipResource(slot17.configId, slot17.skinId, slot0.contextData.system))
 					end
 				end
 
@@ -287,7 +287,7 @@ function slot0.Preload(slot0)
 						slot1:AddPreloadResource(slot1.GetWeaponResource(slot24, slot18))
 					end
 				elseif slot15 then
-					slot1:AddPreloadResource(slot1.GetEquipResource(slot15.configId, slot15.skinId))
+					slot1:AddPreloadResource(slot1.GetEquipResource(slot15.configId, slot15.skinId, slot0.contextData.system))
 				end
 			end
 

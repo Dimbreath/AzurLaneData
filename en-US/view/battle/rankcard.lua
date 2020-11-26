@@ -47,37 +47,45 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.levelTxt = findTF(slot0.iconTF, "level_bg/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.update(slot0, slot1)
+function slot0.update(slot0, slot1, slot2)
 	slot0.rankVO = slot1
 	slot0.nameTF.text = slot1.name
-	slot2 = slot1.rank
-	slot0.numberTF.text = slot2
+	slot3 = slot1.rank
+	slot0.numberTF.text = slot3
 	slot0.levelTxt.text = "Lv." .. slot1.lv
 
-	setActive(slot0.NumImgTF, math.min(slot2 > 0 and slot2 or 4, 4) < 4)
-	setImageSprite(slot0.frameTF, GetSpriteFromAtlas("billboardframe", "bg" .. slot3))
-	setImageSprite(slot0.NumImgTF, GetSpriteFromAtlas("billboardframe", "bgn" .. slot3), true)
+	setActive(slot0.NumImgTF, math.min(slot3 > 0 and slot3 or 4, 4) < 4)
+	setImageSprite(slot0.frameTF, GetSpriteFromAtlas("billboardframe", "bg" .. slot4))
+	setImageSprite(slot0.NumImgTF, GetSpriteFromAtlas("billboardframe", "bgn" .. slot4), true)
 
-	slot4 = uv0[slot3]
-	slot0.frameBgTF.color = Color.New(slot4[1], slot4[2], slot4[3])
+	slot5 = uv0[slot4]
+	slot0.frameBgTF.color = Color.New(slot5[1], slot5[2], slot5[3])
 
 	if slot0._type == uv1.TYPE_OTHER then
-		setActive(slot0.numberTF, slot3 >= 4)
+		setActive(slot0.numberTF, slot4 >= 4)
 
-		slot0.scoreTF.text = setColorStr(slot1:getPowerTxt(), uv2[slot3])
+		slot0.scoreTF.text = setColorStr(slot1:getPowerTxt(), uv2[slot4])
 	elseif slot0._type == uv1.TYPE_SELF then
-		setActive(slot0.numberTF, slot2 ~= 0 and slot3 >= 4)
-		setActive(slot0.notonlistTF, slot2 == 0)
+		setActive(slot0.numberTF, slot3 ~= 0 and slot4 >= 4)
+		setActive(slot0.notonlistTF, slot3 == 0)
 
 		slot0.scoreTF.text = slot1:getPowerTxt()
 	end
 
-	slot5 = PowerRank:getScoreIcon(slot1.type)
+	slot6 = PowerRank:getScoreIcon(slot1.type)
 
-	setActive(slot0.scoreIconTF, slot5)
+	setActive(slot0.scoreIconTF, slot6)
 
-	if slot5 then
-		setImageSprite(slot0.scoreIconTF, GetSpriteFromAtlas(slot5[1], slot5[2]), true)
+	if slot6 then
+		if slot1.type == PowerRank.TYPE_PT then
+			if slot2 then
+				setImageSprite(slot0.scoreIconTF, LoadSprite(pg.item_data_statistics[id2ItemId(getProxy(ActivityProxy):getActivityById(getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_client").linkPTActID):getDataConfig("pt"))].icon))
+			else
+				setActive(slot0.scoreIconTF, false)
+			end
+		else
+			setImageSprite(slot0.scoreIconTF, GetSpriteFromAtlas(slot6[1], slot6[2]), true)
+		end
 	end
 
 	LoadImageSpriteAsync("emblem/" .. slot1.arenaRank, slot0.emblemTF)

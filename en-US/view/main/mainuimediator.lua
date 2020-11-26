@@ -50,6 +50,7 @@ slot0.ON_MONOPOLY = "MainUIMediator:ON_MONOPOLY"
 slot0.ON_BLACKWHITE = "MainUIMediator:ON_BLACKWHITE"
 slot0.ON_MEMORYBOOK = "MainUIMediator:ON_MEMORYBOOK"
 slot0.GO_MINI_GAME = "MainUIMediator.GO_MINI_GAME"
+slot0.GO_SINGLE_ACTIVITY = "MainUIMediator:GO_SINGLE_ACTIVITY"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
@@ -80,13 +81,11 @@ function slot0.register(slot0)
 		slot0:updateCourseNotices()
 	end
 
-	slot14 = slot7:getBuffList()
+	slot14 = BuffHelper.GetBuffsForMainUI()
 
-	if slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot15:isEnd() then
-		for slot21, slot22 in pairs(getProxy(PlayerProxy):getData().buff_list) do
-			if pg.TimeMgr:GetInstance():GetServerTime() < slot22.timestamp and table.contains(slot15:getConfig("config_client").bufflist, slot22.id) then
-				table.insert(slot14, ActivityBuff.New(slot15.id, slot22.id, slot22.timestamp))
-			end
+	for slot19, slot20 in ipairs(import("GameCfg.activity.MainUIVirtualIconData").CurrentIconList) do
+		if slot15[slot20]:CheckExist() then
+			table.insert(slot14, slot15[slot20])
 		end
 	end
 
@@ -119,6 +118,15 @@ function slot0.register(slot0)
 	end)
 	slot0.viewComponent:updateTraningCampBtn()
 	slot0.viewComponent:updateRefluxBtn()
+	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ActivitySingleMediator,
+			viewComponent = ActivitySingleScene,
+			data = {
+				id = slot1
+			}
+		}))
+	end)
 	slot0:bind(uv0.GO_MINI_GAME, function (slot0, slot1)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot1)
 	end)
@@ -936,7 +944,7 @@ end
 function slot0.playStroys(slot0, slot1)
 	slot4 = pg.NewStoryMgr.GetInstance()
 
-	for slot8, slot9 in pairs(getProxy(TaskProxy):getData()) do
+	for slot8, slot9 in pairs(getProxy(TaskProxy):getRawData()) do
 		if slot9:getConfig("story_id") and slot10 ~= "" and not slot4:IsPlayed(slot10) then
 			table.insert({}, function (slot0)
 				uv0:Play(uv1, slot0, true, true)
@@ -944,7 +952,7 @@ function slot0.playStroys(slot0, slot1)
 		end
 	end
 
-	if ENABLE_GUIDE and getProxy(PlayerProxy):getData().level >= 40 and not slot4:IsPlayed("ZHIHUIMIAO1") then
+	if ENABLE_GUIDE and getProxy(PlayerProxy):getRawData().level >= 40 and not slot4:IsPlayed("ZHIHUIMIAO1") then
 		table.insert(slot3, function (slot0)
 			uv0:Play("ZHIHUIMIAO1", slot0, true, true)
 		end)
@@ -993,6 +1001,12 @@ function slot0.playStroys(slot0, slot1)
 				uv0:Play(uv1, slot0, true, true)
 			end)
 		end
+	end
+
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_COLLECTION_FURNITURE) and not slot8:isEnd() and slot8:getConfig("config_client").story ~= nil then
+		table.insert(slot3, function (slot0)
+			uv0:Play(uv1:getConfig("config_client").story, slot0)
+		end)
 	end
 
 	seriesAsync(slot3, slot1)

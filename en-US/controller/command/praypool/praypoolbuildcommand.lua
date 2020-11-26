@@ -9,7 +9,8 @@ function slot0.execute(slot0, slot1)
 		activity_id = ActivityConst.ACTIVITY_PRAY_POOL,
 		arg1 = slot2.pooltype,
 		arg2 = slot4[1],
-		arg3 = slot4[2]
+		arg3 = slot4[2],
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			getProxy(PrayProxy):updatePageState(PrayProxy.STAGE_BUILD_SUCCESS)

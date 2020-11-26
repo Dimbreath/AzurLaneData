@@ -410,6 +410,16 @@ pg.player_resource = {
 		name = "naerweikehaogan2",
 		itemid = 59188
 	},
+	[177] = {
+		id = 177,
+		name = "DOApt",
+		itemid = 59189
+	},
+	[178] = {
+		id = 178,
+		name = "skinTicket11",
+		itemid = 59190
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -702,6 +712,12 @@ pg.player_resource = {
 		naerweikehaogan2 = {
 			176
 		},
+		DOApt = {
+			177
+		},
+		skinTicket11 = {
+			178
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -813,6 +829,8 @@ pg.player_resource = {
 		173,
 		175,
 		176,
+		177,
+		178,
 		950,
 		1001,
 		2001,

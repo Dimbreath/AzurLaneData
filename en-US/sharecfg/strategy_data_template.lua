@@ -283,6 +283,15 @@ pg.strategy_data_template = {
 			0
 		}
 	},
+	[10021] = {
+		buff_id = 8761,
+		name = "Fever Mode",
+		type = 1000,
+		id = 10021,
+		icon = "10021",
+		desc = "Your fleet is in Fever Mode, and will restore 2% Max HP at the beginning of battle.",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -312,6 +321,7 @@ pg.strategy_data_template = {
 		10012,
 		10013,
 		10014,
-		10015
+		10015,
+		10021
 	}
 }

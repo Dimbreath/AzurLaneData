@@ -11,6 +11,24 @@ return {
 					number = -0.05,
 					attr = "injureRatio"
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
+				}
 			}
 		}
 	},
@@ -25,6 +43,24 @@ return {
 				arg_list = {
 					number = -0.061,
 					attr = "injureRatio"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
 				}
 			}
 		}
@@ -41,6 +77,24 @@ return {
 					number = -0.072,
 					attr = "injureRatio"
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
+				}
 			}
 		}
 	},
@@ -55,6 +109,24 @@ return {
 				arg_list = {
 					number = -0.083,
 					attr = "injureRatio"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
 				}
 			}
 		}
@@ -71,6 +143,24 @@ return {
 					number = -0.094,
 					attr = "injureRatio"
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
+				}
 			}
 		}
 	},
@@ -85,6 +175,24 @@ return {
 				arg_list = {
 					number = -0.105,
 					attr = "injureRatio"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
 				}
 			}
 		}
@@ -101,6 +209,24 @@ return {
 					number = -0.116,
 					attr = "injureRatio"
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
+				}
 			}
 		}
 	},
@@ -115,6 +241,24 @@ return {
 				arg_list = {
 					number = -0.127,
 					attr = "injureRatio"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
 				}
 			}
 		}
@@ -131,6 +275,24 @@ return {
 					number = -0.138,
 					attr = "injureRatio"
 				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
+				}
 			}
 		}
 	},
@@ -145,6 +307,24 @@ return {
 				arg_list = {
 					number = -0.15,
 					attr = "injureRatio"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					minTargetNumber = 1,
+					skill_id = 11482,
+					target = "TargetSelf",
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"Helena"
+					}
 				}
 			}
 		}
@@ -177,6 +357,24 @@ return {
 			arg_list = {
 				number = -0.05,
 				attr = "injureRatio"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 11482,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Helena"
+				}
 			}
 		}
 	}
