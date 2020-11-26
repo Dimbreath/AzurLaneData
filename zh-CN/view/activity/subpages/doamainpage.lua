@@ -5,7 +5,11 @@ function slot0.OnInit(slot0)
 	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
 
 	onButton(slot0, findTF(slot0.bg, "btnMiniGame"), function ()
-		uv0:emit(ActivityMediator.GO_MINI_GAME, 17)
+		if getProxy(ActivityProxy):IsActivityNotEnd(784) then
+			uv0:emit(ActivityMediator.GO_MINI_GAME, 17)
+		else
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+		end
 	end)
 end
 

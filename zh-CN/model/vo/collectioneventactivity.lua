@@ -13,7 +13,8 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot2 = slot0:getConfig("config_data")
-	slot3 = slot0:getDayIndex()
+
+	print("collection==============================", slot0:getDayIndex())
 
 	if #slot0.collections == 0 and slot3 > 0 and slot3 <= #slot2 and not table.contains(slot0.data1_list, slot2[slot3]) then
 		table.insert(slot0.collections, EventInfo.New({
@@ -24,6 +25,12 @@ function slot0.Ctor(slot0, slot1)
 			activity_id = slot0.id
 		}))
 	end
+end
+
+function slot0.getDayIndex(slot0)
+	slot2 = pg.TimeMgr.GetInstance()
+
+	return slot2:DiffDay(slot0.data1, slot2:GetServerTime()) + 1
 end
 
 function slot0.GetCollectionList(slot0)

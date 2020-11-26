@@ -606,12 +606,10 @@ end
 function slot6.AddUIFX(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0._fxPool:GetFX(slot2)
 	slot1 = slot1 or 1
-
-	slot5.transform:SetParent(slot1 > 0 and slot0._fxContainerUpper or slot0._fxContainerBottom)
-	slot0._ui:AddUIFX(slot5, slot1)
-
+	slot6 = slot1 > 0
+	slot7 = slot0._ui:AddUIFX(slot5, slot1)
 	slot4 = slot4 or 1
-	slot5.transform.localScale = Vector3(slot4, slot4, slot4)
+	slot5.transform.localScale = Vector3(slot4 / slot7.x, slot4 / slot7.y, slot4 / slot7.z)
 
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot3, true)
 end

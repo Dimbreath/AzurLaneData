@@ -525,10 +525,13 @@ end
 function slot0.AddUIFX(slot0, slot1, slot2)
 	slot2 = slot2 or 1
 	slot1 = tf(slot1)
+	slot4 = slot2 > 0 and slot0._fxContainerUpper or slot0._fxContainerBottom
 
-	slot1:SetParent(slot2 > 0 and slot0._fxContainerUpper or slot0._fxContainerBottom)
+	slot1:SetParent(slot4)
 	pg.ViewUtils.SetSortingOrder(slot1, slot0._canvasOrder + slot2)
 	pg.ViewUtils.SetLayer(slot1, Layer.UI)
+
+	return slot4.localScale
 end
 
 function slot0.OnCloseChat(slot0)

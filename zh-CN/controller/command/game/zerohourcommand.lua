@@ -163,8 +163,11 @@ function slot0.execute(slot0, slot1)
 			end
 
 			slot29 = slot26:getConfig("config_data")
+			slot30 = slot26:getDayIndex()
 
-			if slot26:getDayIndex() > 0 and slot30 <= #slot29 then
+			print("zero time collection--------------", slot30)
+
+			if slot30 > 0 and slot30 <= #slot29 then
 				getProxy(EventProxy):AddActivityEvent(EventInfo.New({
 					finish_time = 0,
 					over_time = 0,

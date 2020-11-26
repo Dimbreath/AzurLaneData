@@ -9,15 +9,15 @@ return {
 	id = 8762,
 	effect_list = {
 		{
-			type = "BattleSkillPlayUIFX",
+			type = "BattleSkillPlayCameraFX",
 			target_choise = {},
 			arg_list = {
 				delay = 0,
 				effect = "doa_qifenhe_STG",
-				scale = 0.2,
+				scale = 0.85,
 				absoulteCorrdinate = {
-					x = -20,
-					z = 70
+					x = -44,
+					z = 5
 				}
 			}
 		}

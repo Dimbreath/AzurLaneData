@@ -141,6 +141,7 @@ function slot5.AddEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_SHELTER, slot0.onRemoveShleter)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ANTI_AIR_AREA, slot0.onAntiAirArea)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_CAMERA_FX, slot0.onAddCameraFX)
 end
 
 function slot5.RemoveEvent(slot0)
@@ -159,6 +160,7 @@ function slot5.RemoveEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_SHELTER)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ANTI_AIR_AREA)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_CAMERA_FX)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.CAMERA_FOCUS_RESET)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.BULLET_TIME)
 end
@@ -311,6 +313,18 @@ end
 
 function slot5.onCameraFocusReset(slot0, slot1)
 	slot0:ResetFocus()
+end
+
+function slot5.onAddCameraFX(slot0, slot1)
+	slot0:AddCameraFX(slot1.Data.orderDiff, slot1.Data.FXID, slot1.Data.position, slot1.Data.localScale)
+end
+
+function slot5.AddCameraFX(slot0, slot1, slot2, slot3, slot4)
+	slot6 = slot0._cameraUtil:Add2Camera(slot0._fxPool:GetFX(slot2), slot1)
+	slot4 = slot4 or 1
+	slot5.transform.localScale = Vector3(slot4 / slot6.x, slot4 / slot6.y, slot4 / slot6.z)
+
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot3, true)
 end
 
 function slot5.Update(slot0)

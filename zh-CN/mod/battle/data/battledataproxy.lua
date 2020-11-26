@@ -1619,6 +1619,15 @@ function slot8.SpawnUIFX(slot0, slot1, slot2, slot3, slot4)
 	}))
 end
 
+function slot8.SpawnCameraFX(slot0, slot1, slot2, slot3, slot4)
+	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_CAMERA_FX, {
+		FXID = slot1,
+		position = slot2,
+		localScale = slot3,
+		orderDiff = slot4
+	}))
+end
+
 function slot8.GetFriendlyCode(slot0)
 	return slot0._friendlyCode
 end

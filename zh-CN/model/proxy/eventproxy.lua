@@ -166,6 +166,7 @@ function slot0.AddActivityEvents(slot0, slot1, slot2)
 	end
 
 	for slot6, slot7 in ipairs(slot1) do
+		print("add collection-----------", slot7.id)
 		table.insert(slot0.eventList, slot7)
 	end
 
@@ -173,6 +174,7 @@ function slot0.AddActivityEvents(slot0, slot1, slot2)
 end
 
 function slot0.AddActivityEvent(slot0, slot1)
+	print("zero add collection-----------", slot1.id)
 	table.insert(slot0.eventList, slot1)
 end
 
