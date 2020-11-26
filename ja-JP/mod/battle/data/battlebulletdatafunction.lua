@@ -180,6 +180,14 @@ function slot4._createScaleBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
+function slot4._createAAMissile(slot0, slot1, slot2, slot3, slot4)
+	slot5 = uv0.Battle.BattleTrackingAAMissileUnit.New(slot0, slot2:GetIFF())
+
+	slot5:SetIsCld(true)
+
+	return slot5, true
+end
+
 slot4.generateBulletFuncs = {
 	[slot1.BulletType.CANNON] = slot4._createCannonBullet,
 	[slot1.BulletType.BOMB] = slot4._createBombBullet,
@@ -194,7 +202,8 @@ slot4.generateBulletFuncs = {
 	[slot1.BulletType.G_BULLET] = slot4._createGravitationBullet,
 	[slot1.BulletType.ELECTRIC_ARC] = slot4._createDirectBullet,
 	[slot1.BulletType.SCALE] = slot4._createScaleBullet,
-	[slot1.BulletType.TRIGGER_BOMB] = slot4._createBombBullet
+	[slot1.BulletType.TRIGGER_BOMB] = slot4._createBombBullet,
+	[slot1.BulletType.AAMissile] = slot4._createAAMissile
 }
 
 function slot4.ConvertBarrage()

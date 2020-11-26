@@ -757,7 +757,7 @@ function slot5.GetWeaponResource(slot0, slot1)
 		return {}
 	end
 
-	if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.MAIN_CANNON or slot3.type == uv1.EquipmentType.SUB_CANNON or slot3.type == uv1.EquipmentType.TORPEDO or slot3.type == uv1.EquipmentType.ANTI_AIR or slot3.type == uv1.EquipmentType.ANTI_SEA or slot3.type == uv1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == uv1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == uv1.EquipmentType.DEPTH_CHARGE or slot3.type == uv1.EquipmentType.MANUAL_TORPEDO or slot3.type == uv1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == uv1.EquipmentType.BEAM then
+	if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.MAIN_CANNON or slot3.type == uv1.EquipmentType.SUB_CANNON or slot3.type == uv1.EquipmentType.TORPEDO or slot3.type == uv1.EquipmentType.ANTI_AIR or slot3.type == uv1.EquipmentType.ANTI_SEA or slot3.type == uv1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == uv1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == uv1.EquipmentType.DEPTH_CHARGE or slot3.type == uv1.EquipmentType.MANUAL_TORPEDO or slot3.type == uv1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == uv1.EquipmentType.MANUAL_AAMISSILE or slot3.type == uv1.EquipmentType.BEAM then
 		for slot7, slot8 in ipairs(slot3.bullet_ID) do
 			for slot13, slot14 in ipairs(uv2.GetBulletResource(slot8, slot1)) do
 				slot2[#slot2 + 1] = slot14
@@ -780,35 +780,36 @@ function slot5.GetWeaponResource(slot0, slot1)
 	return slot2
 end
 
-function slot5.GetEquipResource(slot0, slot1)
-	slot2 = {}
+function slot5.GetEquipResource(slot0, slot1, slot2)
+	slot3 = {}
 
 	if slot1 ~= 0 then
 		if uv0.Battle.BattleDataFunction.GetEquipSkinDataFromID(slot1).ship_skin_id ~= 0 then
-			slot2[#slot2 + 1] = uv1.GetCharacterPath(uv0.Battle.BattleDataFunction.GetPlayerShipSkinDataFromID(slot4).prefab)
+			slot3[#slot3 + 1] = uv1.GetCharacterPath(uv0.Battle.BattleDataFunction.GetPlayerShipSkinDataFromID(slot5).prefab)
 		end
 
-		if slot3.attachment_combat_scene ~= "" then
-			slot2[#slot2 + 1] = uv1.GetFXPath(slot5)
+		if slot4.attachment_combat_scene ~= "" then
+			slot3[#slot3 + 1] = uv1.GetFXPath(slot6)
 		end
 	end
 
-	slot3 = uv0.Battle.BattleDataFunction.GetWeaponDataFromID(slot0)
-	slot5 = slot3.skill_id
-
-	for slot9, slot10 in ipairs(slot3.weapon_id) do
+	for slot9, slot10 in ipairs(uv0.Battle.BattleDataFunction.GetWeaponDataFromID(slot0).weapon_id) do
 		for slot15, slot16 in ipairs(uv1.GetWeaponResource(slot10)) do
-			slot2[#slot2 + 1] = slot16
+			slot3[#slot3 + 1] = slot16
 		end
 	end
 
-	for slot9, slot10 in ipairs(slot5) do
-		for slot15, slot16 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot10, 1, {})) do
-			slot2[#slot2 + 1] = slot16
+	for slot10, slot11 in ipairs(slot4.skill_id) do
+		if slot2 then
+			slot11 = uv0.Battle.BattleDataFunction.SkillTranform(slot2, slot11) or slot11
+		end
+
+		for slot16, slot17 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot11, 1, {})) do
+			slot3[#slot3 + 1] = slot17
 		end
 	end
 
-	return slot2
+	return slot3
 end
 
 function slot5.GetBulletResource(slot0, slot1)

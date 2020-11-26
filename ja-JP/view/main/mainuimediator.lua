@@ -50,6 +50,7 @@ slot0.ON_MONOPOLY = "MainUIMediator:ON_MONOPOLY"
 slot0.ON_BLACKWHITE = "MainUIMediator:ON_BLACKWHITE"
 slot0.ON_MEMORYBOOK = "MainUIMediator:ON_MEMORYBOOK"
 slot0.GO_MINI_GAME = "MainUIMediator.GO_MINI_GAME"
+slot0.GO_SINGLE_ACTIVITY = "MainUIMediator:GO_SINGLE_ACTIVITY"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
@@ -61,16 +62,6 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setFlagShip(slot1:getShipById(slot4.character))
 	slot0.viewComponent:updatePlayerInfo(slot4)
-
-	if ENABLE_TEST_OSS then
-		slot0:bind("TEST_OSS", function (slot0)
-			uv0:addSubLayers(Context.New({
-				viewComponent = TestUpload2ResServerLayer,
-				mediator = TestUpload2ResServerMediator
-			}))
-		end)
-	end
-
 	slot0:updateCourseNotices(false)
 
 	slot6 = getProxy(TaskProxy)
@@ -90,13 +81,11 @@ function slot0.register(slot0)
 		slot0:updateCourseNotices()
 	end
 
-	slot14 = slot7:getBuffList()
+	slot14 = BuffHelper.GetBuffsForMainUI()
 
-	if slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot15:isEnd() then
-		for slot21, slot22 in pairs(getProxy(PlayerProxy):getData().buff_list) do
-			if pg.TimeMgr:GetInstance():GetServerTime() < slot22.timestamp and table.contains(slot15:getConfig("config_client").bufflist, slot22.id) then
-				table.insert(slot14, ActivityBuff.New(slot15.id, slot22.id, slot22.timestamp))
-			end
+	for slot19, slot20 in ipairs(import("GameCfg.activity.MainUIVirtualIconData").CurrentIconList) do
+		if slot15[slot20]:CheckExist() then
+			table.insert(slot14, slot15[slot20])
 		end
 	end
 
@@ -129,6 +118,15 @@ function slot0.register(slot0)
 	end)
 	slot0.viewComponent:updateTraningCampBtn()
 	slot0.viewComponent:updateRefluxBtn()
+	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ActivitySingleMediator,
+			viewComponent = ActivitySingleScene,
+			data = {
+				id = slot1
+			}
+		}))
+	end)
 	slot0:bind(uv0.GO_MINI_GAME, function (slot0, slot1)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot1)
 	end)
@@ -344,18 +342,16 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.ON_ACTIVITY_MAP, function (slot0, slot1)
-		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
+		slot3, slot4 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not (slot2 and Map.StaticIsMapBindedActivityActive(slot2) and not Map.StaticIsMapRemaster(slot2)) then
+		if not slot3 or not slot2:getMapById(slot3):isUnlock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-			return
+		else
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot4,
+				mapIdx = slot3
+			})
 		end
-
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot3,
-			mapIdx = slot2
-		})
 	end)
 	slot0:bind(uv0.ON_ACTIVITY_PT, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
@@ -656,7 +652,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CLOSE_MSGBOX_DONE,
 		TechnologyConst.UPDATE_REDPOINT_ON_TOP,
 		GAME.HANDLE_OVERDUE_ATTIRE_DONE,
-		GAME.ESCORT_FETCH_DONE,
 		PERMISSION_GRANTED,
 		PERMISSION_REJECT,
 		PERMISSION_NEVER_REMIND,
@@ -718,9 +713,9 @@ function slot0.handleNotification(slot0, slot1)
 				return
 			end
 
-			if not pg.StoryMgr.GetInstance():IsPlayed("FANGAN1") then
+			if not pg.NewStoryMgr.GetInstance():IsPlayed("FANGAN1") then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
-				pg.StoryMgr.GetInstance():Play("FANGAN1", function ()
+				pg.NewStoryMgr.GetInstance():Play("FANGAN1", function ()
 				end, true)
 			else
 				slot0:handleEnterMainUI()
@@ -788,8 +783,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:onBluePrintNotify()
 	elseif slot2 == GAME.HANDLE_OVERDUE_ATTIRE_DONE then
 		slot0.viewComponent:showOverDueAttire(slot3)
-	elseif slot2 == GAME.ESCORT_FETCH_DONE then
-		slot0:escortHandler()
 	elseif PERMISSION_GRANTED == slot2 then
 		if slot3 == ANDROID_CAMERA_PERMISSION then
 			slot0.viewComponent:openSnapShot()
@@ -834,8 +827,10 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.onChapterTimeUp(slot0, slot1)
-	if getProxy(ChapterProxy):getActiveChapter() and (not slot3:inWartime() or not Chapter.StaticIsChapterBindedActivityActive(slot3.id)) then
-		slot0.retreateMapType = slot3:getMapType()
+	slot4 = getProxy(ChapterProxy):getActiveChapter() and slot2:getMapById(slot3:getConfig("map"))
+
+	if slot3 and (not slot3:inWartime() or not slot4:isRemaster() and not slot3:inActTime()) then
+		slot0.retreateMapType = slot4:getMapType()
 
 		ChapterOpCommand.PrepareChapterRetreat(function ()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
@@ -948,9 +943,9 @@ function slot0.handleEnterMainUI(slot0)
 end
 
 function slot0.playStroys(slot0, slot1)
-	slot4 = pg.StoryMgr.GetInstance()
+	slot4 = pg.NewStoryMgr.GetInstance()
 
-	for slot8, slot9 in pairs(getProxy(TaskProxy):getData()) do
+	for slot8, slot9 in pairs(getProxy(TaskProxy):getRawData()) do
 		if slot9:getConfig("story_id") and slot10 ~= "" and not slot4:IsPlayed(slot10) then
 			table.insert({}, function (slot0)
 				uv0:Play(uv1, slot0, true, true)
@@ -958,7 +953,7 @@ function slot0.playStroys(slot0, slot1)
 		end
 	end
 
-	if ENABLE_GUIDE and getProxy(PlayerProxy):getData().level >= 40 and not slot4:IsPlayed("ZHIHUIMIAO1") then
+	if ENABLE_GUIDE and getProxy(PlayerProxy):getRawData().level >= 40 and not slot4:IsPlayed("ZHIHUIMIAO1") then
 		table.insert(slot3, function (slot0)
 			uv0:Play("ZHIHUIMIAO1", slot0, true, true)
 		end)
@@ -970,10 +965,10 @@ function slot0.playStroys(slot0, slot1)
 		slot8 = slot6.npc[2]
 		slot9 = {
 			function (slot0)
-				if uv0 == "" or pg.StoryMgr.GetInstance():IsPlayed(uv0) then
+				if uv0 == "" or pg.NewStoryMgr.GetInstance():IsPlayed(uv0) then
 					slot0()
 				else
-					pg.StoryMgr.GetInstance():Play(uv0, slot0, true, true)
+					pg.NewStoryMgr.GetInstance():Play(uv0, slot0, true, true)
 				end
 			end,
 			function (slot0)
@@ -994,7 +989,7 @@ function slot0.playStroys(slot0, slot1)
 	end
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot6:isEnd() then
-		if type(slot6:getConfig("config_client")) == "table" and slot7[2] and type(slot7[2]) == "string" and not pg.StoryMgr.GetInstance():IsPlayed(slot7[2]) then
+		if type(slot6:getConfig("config_client")) == "table" and slot7[2] and type(slot7[2]) == "string" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot7[2]) then
 			table.insert(slot3, function (slot0)
 				uv0:Play(uv1[2], slot0, true, true)
 			end)
@@ -1002,11 +997,17 @@ function slot0.playStroys(slot0, slot1)
 	end
 
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot7:isEnd() then
-		if slot7:getConfig("config_client").story[1][1] and not pg.StoryMgr.GetInstance():IsPlayed(slot9) then
+		if slot7:getConfig("config_client").story[1][1] and not pg.NewStoryMgr.GetInstance():IsPlayed(slot9) then
 			table.insert(slot3, function (slot0)
 				uv0:Play(uv1, slot0, true, true)
 			end)
 		end
+	end
+
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_COLLECTION_FURNITURE) and not slot8:isEnd() and slot8:getConfig("config_client").story ~= nil then
+		table.insert(slot3, function (slot0)
+			uv0:Play(uv1:getConfig("config_client").story, slot0)
+		end)
 	end
 
 	seriesAsync(slot3, slot1)
@@ -1080,25 +1081,26 @@ function slot0.storyStorageFix(slot0)
 end
 
 function slot0.getFixStoryByStoryId(slot0, slot1, slot2, slot3)
-	slot7 = false
+	slot4 = getProxy(PlayerProxy)
+	slot6 = false
 
-	for slot11, slot12 in ipairs(slot1) do
+	for slot10, slot11 in ipairs(slot1) do
 		if slot3 then
-			if not getProxy(PlayerProxy):getRawData():IsPlayed(slot12) then
-				slot7 = true
+			if not pg.NewStoryMgr.GetInstance():IsPlayed(slot11) then
+				slot6 = true
 
-				table.insert({}, slot12)
+				table.insert({}, slot11)
 			end
-		elseif not slot5:IsPlayed(slot12) and not slot7 then
-			table.insert(slot6, slot12)
-		elseif #slot6 > 0 then
-			slot7 = true
+		elseif not pg.NewStoryMgr.GetInstance():IsPlayed(slot11) and not slot6 then
+			table.insert(slot5, slot11)
+		elseif #slot5 > 0 then
+			slot6 = true
 		end
 	end
 
-	if slot7 then
-		for slot11, slot12 in ipairs(slot6) do
-			table.insert(slot2, slot12)
+	if slot6 then
+		for slot10, slot11 in ipairs(slot5) do
+			table.insert(slot2, slot11)
 		end
 	end
 
@@ -1107,21 +1109,20 @@ end
 
 function slot0.getFixStoryList(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(TaskProxy)
-	slot6 = getProxy(PlayerProxy):getRawData()
 	slot3 = slot3 or {}
-	slot7 = 0
+	slot5 = 0
 
-	for slot11 = slot2, slot1, -1 do
-		if slot4:getFinishTaskById(slot11) or slot4:getTaskById(slot11) then
-			slot7 = slot11
+	for slot9 = slot2, slot1, -1 do
+		if slot4:getFinishTaskById(slot9) or slot4:getTaskById(slot9) then
+			slot5 = slot9
 
 			break
 		end
 	end
 
-	for slot11 = slot7, slot1, -1 do
-		if pg.task_data_template[slot11] and slot12.story_id and #slot13 > 0 and not slot6:IsPlayed(slot13) then
-			table.insert(slot3, slot13)
+	for slot9 = slot5, slot1, -1 do
+		if pg.task_data_template[slot9] and slot10.story_id and #slot11 > 0 and not pg.NewStoryMgr.GetInstance():IsPlayed(slot11) then
+			table.insert(slot3, slot11)
 		end
 	end
 
@@ -1166,16 +1167,13 @@ function slot0.handleOverdueAttire(slot0)
 end
 
 function slot0.escortHandler(slot0)
-	if #getProxy(ChapterProxy).escortMaps == 0 or _.any(slot2, function (slot0)
-		return slot0:shouldFetch()
-	end) then
-		slot0:sendNotification(GAME.ESCORT_FETCH)
-	else
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot1:getActiveChapter() and slot3.id,
-			mapIdx = slot2[1].id
-		})
-	end
+	slot1 = getProxy(ChapterProxy)
+	slot2 = slot1:getMapsByType(Map.ESCORT)[1]
+
+	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+		chapterId = slot1:getActiveChapter() and slot3:getConfig("map") == slot2.id and slot3.id or nil,
+		mapIdx = slot2.id
+	})
 end
 
 return slot0

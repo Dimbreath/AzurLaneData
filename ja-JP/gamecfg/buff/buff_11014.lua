@@ -27,6 +27,15 @@ return {
 			arg_list = {
 				count = 1
 			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				buff_id = 11016
+			}
 		}
 	}
 }

@@ -171,7 +171,7 @@ function slot0.handleNotification(slot0, slot1)
 				canSkipBatch = slot3.canSkipBatch
 			},
 			onRemoved = function ()
-				pg.StoryMgr.GetInstance():Play("FANGAN2")
+				pg.NewStoryMgr.GetInstance():Play("FANGAN2")
 			end
 		}))
 	elseif GAME.STOP_BLUEPRINT_DONE == slot2 then

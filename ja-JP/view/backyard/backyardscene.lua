@@ -454,34 +454,13 @@ function slot0.displayBuff(slot0)
 
 	slot0.buffTimer = {}
 
-	for slot5, slot6 in ipairs(slot0.playerVO:getBuffByType(BackYardConst.BACKYARD_BUFF)) do
-		if not slot0:createBuff(slot6):isExpired() then
+	for slot5, slot6 in ipairs(BuffHelper.GetBackYardPlayerBuffs()) do
+		if slot6:isActivate() then
 			slot0.buffTFs[slot6.id] = cloneTplTo(slot0.buffTpl, slot0.buffContain)
 
-			slot0:updateBuff(slot7)
+			slot0:updateBuff(slot6)
 		end
 	end
-end
-
-function slot0.createBuff(slot0, slot1)
-	return {
-		id = slot1.id,
-		timestamp = slot1.timestamp,
-		getConfig = function (slot0, slot1)
-			return pg.benefit_buff_template[slot0.id][slot1]
-		end,
-		isExpired = function (slot0)
-			return slot0.timestamp < pg.TimeMgr.GetInstance():GetServerTime()
-		end,
-		getLeftTime = function (slot0)
-			return slot0.timestamp - pg.TimeMgr.GetInstance():GetServerTime()
-		end,
-		isRedTime = function (slot0)
-			if slot0:getLeftTime() <= 600 then
-				return true
-			end
-		end
-	}
 end
 
 function slot0.updateBuff(slot0, slot1)
@@ -494,7 +473,7 @@ function slot0.updateBuff(slot0, slot1)
 		uv1.buffTimer[uv2.id] = nil
 	end
 
-	if not slot1:isExpired() then
+	if slot1:isActivate() then
 		slot4 = slot0:findTF("Text", slot2)
 		slot2:GetComponent(typeof(Image)).sprite = LoadSprite(slot1:getConfig("icon"))
 		slot0.buffTimer[slot1.id] = Timer.New(function ()
@@ -503,7 +482,7 @@ function slot0.updateBuff(slot0, slot1)
 			slot2 = nil
 
 			if slot0 > 0 then
-				setText(uv1, (uv0:isRedTime() or setColorStr(slot1, "#FFFFFFFF")) and setColorStr(slot1, COLOR_RED))
+				setText(uv1, (slot0 > 600 or setColorStr(slot1, COLOR_RED)) and setColorStr(slot1, "#FFFFFFFF"))
 			else
 				uv2()
 			end

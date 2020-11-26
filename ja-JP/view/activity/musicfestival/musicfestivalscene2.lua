@@ -99,14 +99,12 @@ function slot0.didEnter(slot0)
 
 		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-			return
+		else
+			uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot1,
+				mapIdx = slot0
+			})
 		end
-
-		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot1,
-			mapIdx = slot0
-		})
 	end)
 	slot0:updateStageShip()
 	slot0:UpdateView()

@@ -612,7 +612,7 @@ function slot0.triggerEvent(slot0, slot1, slot2, slot3)
 
 	function slot6(slot0, slot1)
 		if slot0 and slot0:ExistStory() then
-			pg.StoryMgr.GetInstance():Play(slot0.config.story, slot1, true, true, true)
+			pg.NewStoryMgr.GetInstance():Play(slot0.config.story, slot1, true, true)
 		else
 			slot1()
 		end
@@ -655,7 +655,7 @@ function slot0.checkState(slot0)
 
 	if slot0:getStrory() then
 		table.insert({}, function (slot0)
-			pg.StoryMgr.GetInstance():Play(uv0, slot0)
+			pg.NewStoryMgr.GetInstance():Play(uv0, slot0)
 		end)
 	end
 
@@ -739,7 +739,7 @@ function slot0.startAction(slot0)
 				return
 			end
 
-			pg.StoryMgr.GetInstance():Play(slot1, slot0)
+			pg.NewStoryMgr.GetInstance():Play(slot1, slot0)
 		end
 	}, function ()
 		uv0:updateValue(0)

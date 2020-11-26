@@ -106,7 +106,7 @@ function slot0.Init(slot0, slot1)
 	print("initializing pool manager...")
 
 	slot2 = 0
-	slot3 = table.nums(slot0.preloads)
+	slot3 = table.getCount(slot0.preloads)
 
 	function slot4()
 		uv0 = uv0 + 1

@@ -1,21 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "780",
+		type = 3,
 		id = 1,
-		pic = "temp1",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new"
-			}
-		},
+		pic = "temp2",
 		time = {
 			{
 				{
 					2020,
-					10,
-					29
+					11,
+					26
 				},
 				{
 					0,
@@ -26,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					11,
-					12
+					12,
+					10
 				},
 				{
 					23,
@@ -40,7 +35,7 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 2,
-		pic = "temp4",
+		pic = "temp3",
 		param = {
 			"scene skinshop",
 			{}
@@ -49,8 +44,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					10,
-					29
+					11,
+					26
 				},
 				{
 					0,
@@ -61,8 +56,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					11,
-					11
+					12,
+					9
 				},
 				{
 					23,
@@ -75,16 +70,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
-		pic = "temp5",
+		pic = "temp4",
 		param = {
-			"scene back yard"
+			"scene get boat",
+			{
+				projectName = "new"
+			}
 		},
 		time = {
 			{
 				{
 					2020,
-					10,
-					29
+					11,
+					26
 				},
 				{
 					0,
@@ -95,8 +93,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					11,
-					11
+					12,
+					10
 				},
 				{
 					23,
@@ -111,6 +109,40 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp6",
 		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp7",
+		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
@@ -120,8 +152,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					10,
-					29
+					11,
+					26
 				},
 				{
 					0,
@@ -132,8 +164,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					11,
-					11
+					12,
+					9
 				},
 				{
 					23,
@@ -144,48 +176,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "742",
-		type = 3,
-		id = 5,
-		pic = "temp2",
-		time = {
-			{
-				{
-					2020,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "740",
-		type = 3,
+		type = 2,
 		id = 6,
-		pic = "temp3",
+		pic = "temp8",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2020,
-					10,
-					22
+					11,
+					26
 				},
 				{
 					0,
@@ -196,8 +201,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					11,
-					5
+					12,
+					9
 				},
 				{
 					23,

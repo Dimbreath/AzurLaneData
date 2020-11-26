@@ -61,7 +61,7 @@ function slot0.flush(slot0)
 	slot3 = {}
 
 	_.each(slot0.maps, function (slot0)
-		for slot4, slot5 in pairs(slot0.chapters) do
+		for slot4, slot5 in pairs(slot0:getChapters()) do
 			if slot5:getPlayType() == ChapterConst.TypeMainSub and slot5:isValid() then
 				table.insert(uv0, slot5)
 			end

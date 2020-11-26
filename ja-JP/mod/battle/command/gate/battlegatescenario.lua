@@ -135,27 +135,18 @@ function slot0.Exit(slot0, slot1)
 			exitCallback = uv3.exitCallback
 		})
 		uv5:updateActiveChapterShips()
-		uv5:getActiveChapter():writeDrops(slot3)
 
-		slot8 = nil
+		slot6 = uv5:getActiveChapter()
 
-		for slot12, slot13 in ipairs(uv5:getMaps()) do
-			if slot13:isUnlock() then
-				slot8 = slot13.id
-			end
-		end
+		slot6:writeDrops(slot3)
+
+		slot7 = uv5:getLastUnlockMap().id
 
 		uv5:updateChapter(slot6)
 
-		slot9 = nil
+		slot8 = uv5:getLastUnlockMap().id
 
-		for slot13, slot14 in ipairs(uv5:getMaps()) do
-			if slot14:isUnlock() then
-				slot9 = slot14.id
-			end
-		end
-
-		if Map.lastMap and slot9 ~= slot8 and slot8 < slot9 then
+		if Map.lastMap and slot8 ~= slot7 and slot7 < slot8 then
 			Map.autoNextPage = true
 		end
 	end)

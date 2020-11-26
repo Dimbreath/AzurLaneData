@@ -76,35 +76,10 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.EVENT_FLUSH_NIGHT)
 	end)
 	slot0:bind(EventConst.EVENT_START, function (slot0, slot1)
-		slot2 = getProxy(EventProxy)
-
-		if not slot1:reachNum() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("event_minimus_ship_numbers", slot1.template.ship_num))
-		elseif slot2.maxFleetNums <= slot2.busyFleetNums then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("event_fleet_busy"))
-		elseif not slot1:reachLevel() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("event_level_unreached"))
-		elseif not slot1:reachTypes() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("event_type_unreached"))
-		else
-			function slot3()
-				uv0:sendNotification(GAME.EVENT_START, {
-					id = uv1.id,
-					shipIds = uv1.shipIds
-				})
-			end
-
-			if slot1:getOilConsume() > 0 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("event_oil_consume", slot4),
-					onYes = function ()
-						uv0()
-					end
-				})
-			else
-				slot3()
-			end
-		end
+		uv0:sendNotification(GAME.EVENT_START, {
+			id = slot1.id,
+			shipIds = slot1.shipIds
+		})
 	end)
 	slot0:bind(EventConst.EVENT_GIVEUP, function (slot0, slot1)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -205,6 +180,16 @@ function slot0.updateEventList(slot0, slot1, slot2)
 	slot4.busyFleetNums = slot4:countBusyFleetNums()
 
 	slot0.viewComponent:updateAll(slot4, slot1, slot2)
+
+	if getProxy(SettingsProxy):ShouldShowEventActHelp() and _.any(slot5, function (slot0)
+		return slot0:IsActivityType()
+	end) then
+		getProxy(SettingsProxy):MarkEventActHelpFlag()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.help_act_event.tip
+		})
+	end
 end
 
 function slot0.getDockCallbackFuncs(slot0)

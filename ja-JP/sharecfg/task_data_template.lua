@@ -20165,6 +20165,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5541] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5394,
+		type = 5,
+		name = "なんだかいつもより……",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5542",
+		visibility = 1,
+		story_id = "XIPEIER1",
+		target_id_for_client = 50003,
+		id = 5541,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5542] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5395,
+		type = 5,
+		name = "ヒッパーは落ち着きたい　",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5543",
+		visibility = 1,
+		story_id = "XIPEIER2",
+		target_id_for_client = 0,
+		id = 5542,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5543] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5396,
+		type = 5,
+		name = "心当たりがあるのは",
+		count_inherit = 0,
+		desc = "アドミラル・ヒッパー を含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5544",
+		visibility = 1,
+		story_id = "XIPEIER3",
+		target_id_for_client = 40301,
+		id = 5543,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "40301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5544] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5397,
+		type = 5,
+		name = "潮風香るツーリング",
+		count_inherit = 0,
+		desc = "アドミラル・ヒッパー を含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5545",
+		visibility = 1,
+		story_id = "XIPEIER4",
+		target_id_for_client = 40301,
+		id = 5544,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "40301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5545] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5398,
+		type = 5,
+		name = "振り回されてしまうのは",
+		count_inherit = 0,
+		desc = "アドミラル・ヒッパー の親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5546",
+		visibility = 1,
+		story_id = "XIPEIER5",
+		target_id_for_client = 40301,
+		id = 5545,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "40301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5546] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5399,
+		type = 5,
+		name = "勇気の突撃",
+		count_inherit = 0,
+		desc = "アドミラル・ヒッパー を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5547",
+		visibility = 1,
+		story_id = "XIPEIER6",
+		target_id_for_client = 403014,
+		id = 5546,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "403014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5547] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5400,
+		type = 5,
+		name = "あんたは一生私のもの",
+		count_inherit = 0,
+		desc = "アドミラル・ヒッパー のレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XIPEIER7",
+		target_id_for_client = 40301,
+		id = 5547,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "40301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -108788,6 +109051,1922 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16081] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94021,
+		type = 6,
+		name = "『纳尔维克上复刻』通关序章",
+		count_inherit = 0,
+		desc = "プロローグをクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16082",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1440001,
+		id = 16081,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1440001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[16082] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94022,
+		type = 6,
+		name = "『纳尔维克上复刻』通关SP1",
+		count_inherit = 0,
+		desc = "SP1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16083",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1440002,
+		id = 16082,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1440002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[16083] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94023,
+		type = 6,
+		name = "『纳尔维克上复刻』通关SP2",
+		count_inherit = 0,
+		desc = "SP2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16084",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1440003,
+		id = 16083,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1440003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[16084] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94024,
+		type = 6,
+		name = "『纳尔维克上复刻』通关SP3",
+		count_inherit = 0,
+		desc = "SP3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1440004,
+		id = 16084,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1440004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[16085] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94025,
+		type = 6,
+		name = "『纳尔维克上复刻』SP1三星",
+		count_inherit = 0,
+		desc = "SP1の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16086",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1440002,
+		id = 16085,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1440002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[16086] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94026,
+		type = 6,
+		name = "『纳尔维克上复刻』SP2三星",
+		count_inherit = 0,
+		desc = "SP2の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16087",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1440003,
+		id = 16086,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1440003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[16087] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94027,
+		type = 6,
+		name = "『纳尔维克上复刻』SP3三星",
+		count_inherit = 0,
+		desc = "SP3の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1440004,
+		id = 16087,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1440004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[16088] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94028,
+		type = 6,
+		name = "『纳尔维克上复刻』临时角色加入",
+		count_inherit = 0,
+		desc = "不该看到",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16088,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201201,
+				1
+			}
+		}
+	},
+	[16089] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94029,
+		type = 6,
+		name = "『纳尔维克上复刻』sp3累计通关1",
+		count_inherit = 0,
+		desc = "SP3を10回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1440004,
+		id = 16089,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1440004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16090] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94030,
+		type = 6,
+		name = "『纳尔维克上复刻』sp3累计通关2",
+		count_inherit = 0,
+		desc = "SP3を20回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1440004,
+		id = 16090,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1440004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16091] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94031,
+		type = 6,
+		name = "『纳尔维克上复刻』sp3累计通关3",
+		count_inherit = 0,
+		desc = "SP3を40回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1440004,
+		id = 16091,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1440004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16092] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94032,
+		type = 6,
+		name = "『纳尔维克上复刻』sp3累计通关4",
+		count_inherit = 0,
+		desc = "SP3を60回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1440004,
+		id = 16092,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1440004",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201161,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16100] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94060,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油1",
+		count_inherit = 16101,
+		desc = "累計燃料消費500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16101",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16100,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59983,
+				60
+			},
+			{
+				8,
+				59984,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16101] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94061,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油2",
+		count_inherit = 16102,
+		desc = "累計燃料消費1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16102",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16101,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59985,
+				100
+			},
+			{
+				8,
+				59986,
+				30
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16102] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94062,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油3",
+		count_inherit = 16103,
+		desc = "累計燃料消費1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16103",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16102,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59983,
+				70
+			},
+			{
+				8,
+				59984,
+				100
+			},
+			{
+				8,
+				59985,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16103] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94063,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油4",
+		count_inherit = 16104,
+		desc = "累計燃料消費2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16104",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16103,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				150
+			},
+			{
+				8,
+				59988,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16104] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94064,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油5",
+		count_inherit = 16105,
+		desc = "累計燃料消費2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16105",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16104,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59983,
+				70
+			},
+			{
+				8,
+				59987,
+				100
+			},
+			{
+				8,
+				59988,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16105] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94065,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油6",
+		count_inherit = 16106,
+		desc = "累計燃料消費3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16106",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16105,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				100
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16106] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94066,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油7",
+		count_inherit = 16107,
+		desc = "累計燃料消費4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16107",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16106,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59983,
+				50
+			},
+			{
+				8,
+				59985,
+				50
+			},
+			{
+				8,
+				59986,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16107] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94067,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油8",
+		count_inherit = 16108,
+		desc = "累計燃料消費5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16108",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16107,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				100
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16108] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94068,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油9",
+		count_inherit = 16109,
+		desc = "累計燃料消費6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16109",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16108,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59985,
+				50
+			},
+			{
+				8,
+				59986,
+				50
+			},
+			{
+				8,
+				59987,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16109] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94069,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油10",
+		count_inherit = 16110,
+		desc = "累計燃料消費7000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16110",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16109,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				164
+			},
+			{
+				8,
+				59983,
+				90
+			},
+			{
+				8,
+				59984,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16110] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94070,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油11",
+		count_inherit = 16111,
+		desc = "累計燃料消費8000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16111",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16110,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				80
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16111] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94071,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油12",
+		count_inherit = 16112,
+		desc = "累計燃料消費9000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16112",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16111,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59983,
+				60
+			},
+			{
+				8,
+				59985,
+				80
+			},
+			{
+				8,
+				59986,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16112] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94072,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油13",
+		count_inherit = 16113,
+		desc = "累計燃料消費10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16113",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16112,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				80
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16113] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94073,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油14",
+		count_inherit = 16114,
+		desc = "累計燃料消費11000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16114",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16113,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59985,
+				50
+			},
+			{
+				8,
+				59986,
+				21
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16114] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94074,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油15",
+		count_inherit = 16115,
+		desc = "累計燃料消費12000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16115",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16114,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				150
+			},
+			{
+				8,
+				59984,
+				80
+			},
+			{
+				8,
+				59988,
+				24
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16115] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94075,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油16",
+		count_inherit = 16116,
+		desc = "累計燃料消費13000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16116",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16115,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				80
+			},
+			{
+				8,
+				59983,
+				45
+			},
+			{
+				8,
+				59985,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16116] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94076,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油17",
+		count_inherit = 16117,
+		desc = "累計燃料消費14000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16117",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16116,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59984,
+				150
+			},
+			{
+				8,
+				59985,
+				66
+			},
+			{
+				8,
+				59987,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16117] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94077,
+		type = 6,
+		name = "伊丽莎白校服填色累计耗油18",
+		count_inherit = 0,
+		desc = "累計燃料消費15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16117,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59982,
+				80
+			},
+			{
+				8,
+				59984,
+				83
+			},
+			{
+				8,
+				59987,
+				92
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16118] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94141,
+		type = 36,
+		name = "『DOA』日常建造",
+		count_inherit = 0,
+		desc = "艦を3隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16118,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				300
+			}
+		}
+	},
+	[16119] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94142,
+		type = 36,
+		name = "『DOA』日常出击",
+		count_inherit = 0,
+		desc = "艦を出撃させ、戦闘15回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16119,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				300
+			}
+		}
+	},
+	[16120] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94143,
+		type = 36,
+		name = "『DOA』日常困难本",
+		count_inherit = 0,
+		desc = "通常海域ハードを1回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16120,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				100
+			}
+		}
+	},
+	[16121] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94144,
+		type = 6,
+		name = "『DOA』完成「活动特殊委托」1次",
+		count_inherit = 0,
+		desc = "イベント委託を1回行う",
+		target_id_2 = "",
+		sub_type = 82,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16121,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			50001,
+			50002,
+			50003,
+			50004,
+			50005,
+			50006,
+			50007,
+			50008,
+			50009,
+			50010,
+			50011,
+			50012,
+			50013,
+			50014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				200
+			},
+			{
+				8,
+				70067,
+				1
+			}
+		},
+		scene = {
+			"EVENT"
+		}
+	},
+	[16122] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94145,
+		type = 6,
+		name = "『DOA』累计建造10次",
+		count_inherit = 0,
+		desc = "艦を10隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16122,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				500
+			},
+			{
+				8,
+				70066,
+				1
+			}
+		}
+	},
+	[16123] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94146,
+		type = 6,
+		name = "『DOA』关卡情绪高涨状态下获得60次胜利",
+		count_inherit = 0,
+		desc = "FEVERモードで戦闘を60回勝利する ",
+		target_id_2 = "",
+		sub_type = 13,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16123,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "8761",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				300
+			},
+			{
+				8,
+				70073,
+				1
+			},
+			{
+				5,
+				188,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16124] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94147,
+		type = 6,
+		name = "『DOA』通关SP1",
+		count_inherit = 0,
+		desc = "SP1クリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16125",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450001,
+		id = 16124,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70069,
+				1
+			}
+		}
+	},
+	[16125] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94148,
+		type = 6,
+		name = "『DOA』通关SP2",
+		count_inherit = 0,
+		desc = "SP2クリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16126",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450002,
+		id = 16125,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				400
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70071,
+				1
+			}
+		}
+	},
+	[16126] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94149,
+		type = 6,
+		name = "『DOA』通关SP3",
+		count_inherit = 0,
+		desc = "SP3クリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16127",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450003,
+		id = 16126,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70065,
+				1
+			}
+		}
+	},
+	[16127] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94150,
+		type = 6,
+		name = "『DOA』通关SP4",
+		count_inherit = 0,
+		desc = "SP4クリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16128",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450004,
+		id = 16127,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				800
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				70075,
+				1
+			}
+		}
+	},
+	[16128] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94151,
+		type = 6,
+		name = "『DOA』通关VSP",
+		count_inherit = 0,
+		desc = "SPクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450041,
+		id = 16128,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				8,
+				70077,
+				1
+			}
+		}
+	},
+	[16129] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94152,
+		type = 6,
+		name = "『DOA』SP1三星",
+		count_inherit = 0,
+		desc = "SP1の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16130",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450001,
+		id = 16129,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70070,
+				1
+			}
+		}
+	},
+	[16130] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94153,
+		type = 6,
+		name = "『DOA』SP2三星",
+		count_inherit = 0,
+		desc = "SP2の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16131",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450002,
+		id = 16130,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70074,
+				1
+			}
+		}
+	},
+	[16131] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94154,
+		type = 6,
+		name = "『DOA』SP3三星",
+		count_inherit = 0,
+		desc = "SP3の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16132",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450003,
+		id = 16131,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70068,
+				1
+			}
+		}
+	},
+	[16132] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94155,
+		type = 6,
+		name = "『DOA』SP4三星",
+		count_inherit = 0,
+		desc = "SP4の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450004,
+		id = 16132,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70076,
+				1
+			}
+		}
+	},
+	[16140] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94100,
+		type = 6,
+		name = "『DOA』1126登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "ゲームにログインせよ！",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16140,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				178,
+				2
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -119738,6 +121917,13 @@ pg.task_data_template = {
 		5535,
 		5536,
 		5537,
+		5541,
+		5542,
+		5543,
+		5544,
+		5545,
+		5546,
+		5547,
 		6001,
 		6002,
 		6003,
@@ -122084,6 +124270,52 @@ pg.task_data_template = {
 		16071,
 		16072,
 		16080,
+		16081,
+		16082,
+		16083,
+		16084,
+		16085,
+		16086,
+		16087,
+		16088,
+		16089,
+		16090,
+		16091,
+		16092,
+		16100,
+		16101,
+		16102,
+		16103,
+		16104,
+		16105,
+		16106,
+		16107,
+		16108,
+		16109,
+		16110,
+		16111,
+		16112,
+		16113,
+		16114,
+		16115,
+		16116,
+		16117,
+		16118,
+		16119,
+		16120,
+		16121,
+		16122,
+		16123,
+		16124,
+		16125,
+		16126,
+		16127,
+		16128,
+		16129,
+		16130,
+		16131,
+		16132,
+		16140,
 		30201,
 		30202,
 		31001,

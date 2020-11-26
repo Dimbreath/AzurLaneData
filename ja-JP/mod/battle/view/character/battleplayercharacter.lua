@@ -185,6 +185,10 @@ function slot4.onTorepedoReady(slot0, slot1)
 	end
 end
 
+function slot4.onAAMissileWeaponFire(slot0, slot1)
+	slot0:onAAMissileReady()
+end
+
 function slot4.onWillDie(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._smokeList) do
 		if slot6.active == true then

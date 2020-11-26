@@ -6,7 +6,8 @@ function slot0.execute(slot0, slot1)
 
 	pg.ConnectionMgr.GetInstance():Send(11202, {
 		cmd = 6,
-		activity_id = slot2.activity_id
+		activity_id = slot2.activity_id,
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			slot1 = uv0.data1_list

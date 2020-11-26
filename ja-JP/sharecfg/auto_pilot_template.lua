@@ -6491,6 +6491,250 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70117] = {
+		id = 70117,
+		name = "回Z轴58绝对中心点",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -5,
+					z = 58
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70118] = {
+		id = 70118,
+		name = "中心点偏左站位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -10,
+					z = 58
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70119] = {
+		id = 70119,
+		name = "中心点偏右站位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = 0,
+					z = 58
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70120] = {
+		id = 70120,
+		name = "DOA联动VSP莫妮卡有节奏的随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					stopCount = 0,
+					Z2 = 75,
+					moveCount = 5000,
+					Z1 = 35,
+					duration = 1.5,
+					X1 = -20,
+					X2 = -5
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 0,
+					Z2 = 75,
+					moveCount = 5000,
+					Z1 = 35,
+					duration = 5.1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
+	[70121] = {
+		id = 70121,
+		name = "DOA联动EX女天狗第二波飞机",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -100,
+					z = 65
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70122] = {
+		id = 70122,
+		name = "DOA联动EX女天狗第二波飞机",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -100,
+					z = 35
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70123] = {
+		id = 70123,
+		name = "DOA联动EX女天狗第二波飞机",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -100,
+					z = 5
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70124] = {
+		id = 70124,
+		name = "DOA联动EX女天狗第三波上下移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = 0,
+					z = 16
+				}
+			},
+			{
+				index = 3,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = -16
+				}
+			}
+		}
+	},
+	[70125] = {
+		id = 70125,
+		name = "回中心点偏下位置",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -5,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

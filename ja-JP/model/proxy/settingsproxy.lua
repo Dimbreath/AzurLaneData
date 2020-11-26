@@ -20,6 +20,13 @@ function slot0.onRegister(slot0)
 	slot0.lastRequestVersionTime = nil
 end
 
+function slot0.Reset(slot0)
+	slot0:resetEquipSceneIndex()
+	slot0:resetActivityLayerIndex()
+
+	slot0.isStopBuildSpeedupReamind = false
+end
+
 function slot0.GetDockYardLockBtnFlag(slot0)
 	if not slot0.dockYardLockFlag then
 		slot0.dockYardLockFlag = PlayerPrefs.GetInt("DockYardLockFlag" .. getProxy(PlayerProxy):getRawData().id, 0) > 0
@@ -338,6 +345,23 @@ function slot0.CheckNeedUserAgreement(slot0)
 	end
 
 	return true
+end
+
+function slot0.ShouldShowEventActHelp(slot0)
+	if not slot0.actEventFlag then
+		slot0.actEventFlag = PlayerPrefs.GetInt("event_act_help1" .. getProxy(PlayerProxy):getRawData().id, 0) > 0
+	end
+
+	return not slot0.actEventFlag
+end
+
+function slot0.MarkEventActHelpFlag(slot0)
+	if not slot0.actEventFlag then
+		slot0.actEventFlag = true
+
+		PlayerPrefs.SetInt("event_act_help1" .. getProxy(PlayerProxy):getRawData().id, 1)
+		PlayerPrefs.Save()
+	end
 end
 
 return slot0

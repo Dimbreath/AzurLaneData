@@ -629,6 +629,117 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[23] = {
+		can_rotate = 0,
+		describe = "特殊家具：ペンシルベニア模型（1:100)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/binxifaniya",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ペンシルベニア模型",
+		advice = 0,
+		icon = "binxifaniyaicon",
+		id = 23,
+		comfortable = 3,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24] = {
+		can_rotate = 0,
+		describe = "特殊家具：フューリアス模型（1:100)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/baonu",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "フューリアス模型",
+		advice = 0,
+		icon = "baonuicon",
+		id = 24,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[25] = {
+		can_rotate = 0,
+		describe = "特殊家具：ポートランド模型（1:100)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/botelan",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ポートランド模型",
+		advice = 0,
+		icon = "botelanicon",
+		id = 25,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[101] = {
 		can_rotate = 0,
 		describe = "βテスト報酬",
@@ -3416,6 +3527,319 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[178] = {
+		can_rotate = 0,
+		describe = "「アイドルの夢はここからはじまるき！」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/qidianwutai",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "はじまりのステージ",
+		advice = 0,
+		id = 178,
+		icon = "qidianwutaiicon",
+		comfortable = 2,
+		size = {
+			9,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					72,
+					-75
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					-28,
+					-126
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					80,
+					-143
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[179] = {
+		can_rotate = 0,
+		describe = "カリスマ満ち溢れる女王陛下の肖像画（直筆サイン入り）",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/queen",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "女王陛下の肖像画",
+		advice = 0,
+		icon = "queenicon",
+		id = 179,
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[180] = {
+		can_rotate = 0,
+		describe = "古の神話の物語が描かれる絵画。高い価値がつけられそうに見える",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/libie",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "ヒーローとリアンダー",
+		advice = 0,
+		icon = "libieicon",
+		id = 180,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[181] = {
+		can_rotate = 0,
+		describe = "神の摂理による保護の元、生命、財産、名誉を――",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		canputon = 0,
+		themeId = 0,
+		icon = "lkxdjiangtaiicon",
+		count = 1,
+		name = "宣言の演壇",
+		id = 181,
+		advice = 0,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lkxdjiangtaiB",
+				"normal"
+			},
+			{
+				"lkxdjiangtaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"normal",
+						0,
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					107020
+				},
+				"lkxdjiangtai",
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"lkxdjiangtaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[182] = {
+		can_rotate = 0,
+		describe = "「どっちの紙飛行機がより遠く飛べるか勝負よ！」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "zfjicon",
+		count = 1,
+		name = "紙飛行機デッキ",
+		id = 182,
+		advice = 0,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zfjB",
+				"normal"
+			},
+			{
+				"zfjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2",
+						0,
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"zfjCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[183] = {
 		can_rotate = 0,
 		describe = "「刹那觀る胡蝶の夢」を体験した指揮官に贈る記念賞。「知らず、周の夢に胡蝶と為れるか、胡蝶の夢に周と為れるかを」",
@@ -3508,6 +3932,148 @@ pg.furniture_data_template = {
 			{
 				"ido2xunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[186] = {
+		can_rotate = 1,
+		describe = "「生薬配合でのどのが」は削除。効能や成分に触れる表現は薬事的にNGなので、避けてもらえると…！」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/qiantiantang",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "浅田飴のクッション（クール）",
+		advice = 0,
+		id = 186,
+		icon = "qiantiantangicon",
+		comfortable = 5,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					10,
+					43
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[187] = {
+		can_rotate = 0,
+		describe = "「アズールレーン」×「DEAD OR ALIVE Xtreme Venus Vacation」コラボイベントに参加した指揮官に贈る",
+		gain_by = "假日航线",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/doadalao",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ヴィーナス記念像",
+		advice = 0,
+		icon = "doadalaoicon",
+		id = 187,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"doa_main_day",
+				"doa_main_night"
+			}
+		},
+		interAction_group = {}
+	},
+	[188] = {
+		can_rotate = 1,
+		describe = "レッツ、フィーバー！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "饅頭フィーバーボックス（ヴィーナス）",
+		advice = 0,
+		id = 188,
+		icon = "doaxunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaxunzhang",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"doa_qifenhe",
+					"action1"
+				}
 			}
 		},
 		interAction_group = {}
@@ -3676,7 +4242,7 @@ pg.furniture_data_template = {
 	},
 	[100004] = {
 		can_rotate = 0,
-		describe = "無関係の饅頭を2体待ち伏せさせる危険の罠 ",
+		describe = "無関係の饅頭を2体待ち伏せさせる危険の罠",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -4908,6 +5474,80 @@ pg.furniture_data_template = {
 					nil,
 					"bg1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100021] = {
+		can_rotate = 0,
+		describe = "Let's Jump！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "doaqiuicon",
+		count = 1,
+		name = "ジャンピングボール",
+		id = 100021,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"doaqiuCharControl"
 			}
 		},
 		interAction_group = {}
@@ -76615,6 +77255,1162 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[72001] = {
+		can_rotate = 0,
+		describe = "一味違うバカンスを楽しむピョ！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/dibandoa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "バカンスビーチ",
+		advice = 0,
+		icon = "dibandoaicon",
+		id = 72001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72002] = {
+		can_rotate = 0,
+		describe = "一味違うバカンスを楽しむピョ！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/qiangbidoa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "バカンス壁紙",
+		advice = 0,
+		icon = "qiangbi4doaicon",
+		id = 72002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72101] = {
+		can_rotate = 0,
+		describe = "生き生きとした南国の花",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/1doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南国フラワー",
+		advice = 0,
+		icon = "1doaicon",
+		id = 72101,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72102] = {
+		can_rotate = 0,
+		describe = "フルーツとディッシュはセルフサービスで",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/2doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南国ビュッフェテーブル",
+		advice = 0,
+		icon = "2doaicon",
+		id = 72102,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72103] = {
+		can_rotate = 0,
+		describe = "木のフレームに柔らかクッション、快適なソファーのできあがり",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/3doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "カジュアルソファー１",
+		advice = 0,
+		icon = "3doaicon",
+		id = 72103,
+		comfortable = 2,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72104] = {
+		can_rotate = 0,
+		describe = "部屋にある小さなテーブル、ちょっと低め",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/4doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "カジュアルテーブル",
+		advice = 0,
+		icon = "4doaicon",
+		id = 72104,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			16.64
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72105] = {
+		can_rotate = 0,
+		describe = "木のフレームに柔らかクッション、快適なソファーのできあがり",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/5doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 2,
+		name = "カジュアルソファー２",
+		advice = 0,
+		id = 72105,
+		icon = "5doaicon",
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3.6,
+					35.8
+				},
+				{
+					-1,
+					1
+				},
+				"doa/5doa_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72106] = {
+		can_rotate = 0,
+		describe = "生き生きとした南国の花",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/6doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南国フラワー（赤）",
+		advice = 0,
+		icon = "6doaicon",
+		id = 72106,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72107] = {
+		can_rotate = 0,
+		describe = "花の香りとともに午後のティータイムを",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/7doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "バカンスティーテーブル",
+		advice = 0,
+		icon = "7doaicon",
+		id = 72107,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72108] = {
+		can_rotate = 0,
+		describe = "繊巧なフロアランプ、明るさも調整できる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/8doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "カジュアルフロアランプ",
+		advice = 0,
+		icon = "8doaicon",
+		id = 72108,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72109] = {
+		can_rotate = 0,
+		describe = "繊巧なポールライト、優しい光を放っている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/9doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "カジュアルポールライト",
+		advice = 0,
+		icon = "9doaicon",
+		id = 72109,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72110] = {
+		can_rotate = 0,
+		describe = "素朴なタイル、安心感がある",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/10doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "カジュアルタイル",
+		advice = 0,
+		icon = "10doaicon",
+		id = 72110,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72111] = {
+		can_rotate = 0,
+		describe = "ビーチフラッグスのチャンピオンは誰かな？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/11doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ビーチフラッグ",
+		advice = 0,
+		icon = "11doaicon",
+		id = 72111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72112] = {
+		can_rotate = 0,
+		describe = "「日光浴を楽しもう～」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/12doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 2,
+		name = "ビーチデッキチェア",
+		advice = 0,
+		id = 72112,
+		icon = "12doaicon",
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-25,
+					16
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72113] = {
+		can_rotate = 0,
+		describe = "一つ採ってもバレないよね？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/13doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "南国のバナナの木",
+		advice = 0,
+		icon = "13doaicon",
+		id = 72113,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72114] = {
+		can_rotate = 0,
+		describe = "遊び疲れたらパラソルの下で一休み！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/14doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ビーチパラソル",
+		advice = 0,
+		icon = "14doaicon",
+		id = 72114,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72115] = {
+		can_rotate = 0,
+		describe = "波に幾度も打たれ、ちょっとつるつるになった岩礁",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/15doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "南国の岩礁",
+		advice = 0,
+		icon = "15doaicon",
+		id = 72115,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72116] = {
+		can_rotate = 0,
+		describe = "装飾に使われる小さなヨット、海に出しちゃダメだよ？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/16doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "南国ヨット",
+		advice = 0,
+		icon = "16doaicon",
+		id = 72116,
+		comfortable = 3,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72117] = {
+		can_rotate = 0,
+		describe = "登っちゃダメ、危ないよ？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/17doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南国の大岩礁",
+		advice = 0,
+		icon = "17doaicon",
+		id = 72117,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72118] = {
+		can_rotate = 0,
+		describe = "揺らしたら何か落ちてくるかな？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/18doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "南国のヤシの木",
+		advice = 0,
+		icon = "18doaicon",
+		id = 72118,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72119] = {
+		can_rotate = 0,
+		describe = "海の風を感じながら、お散歩を楽しもう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/19doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 1,
+		name = "シーサイドピア",
+		advice = 0,
+		id = 72119,
+		icon = "19doaicon",
+		comfortable = 3,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-74.9,
+					-35.4
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72120] = {
+		can_rotate = 0,
+		describe = "ビーチで遊んだ後はシャワーを浴びよう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/20doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ビーチシャワー",
+		advice = 0,
+		icon = "20doaicon",
+		id = 72120,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72121] = {
+		can_rotate = 0,
+		describe = "茅葺きで作ったパラソル、とりあえず暑さを凌いでくれる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/21doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "茅葺きパラソル",
+		advice = 0,
+		icon = "21doaicon",
+		id = 72121,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72122] = {
+		can_rotate = 0,
+		describe = "いつの間にか落ちてきた青いヤシの実",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/22doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "南国の青ヤシ",
+		advice = 0,
+		icon = "22doaicon",
+		id = 72122,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72123] = {
+		can_rotate = 0,
+		describe = "大きなふかふかベッド、横たわれば一日の疲れが取れる気がする",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/23doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 1,
+		name = "カジュアルスイートベッド",
+		advice = 0,
+		id = 72123,
+		icon = "23doaicon",
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-2,
+					-33
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72124] = {
+		can_rotate = 0,
+		describe = "スパイクを決める…ピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 72,
+		icon = "Adoaicon",
+		count = 1,
+		name = "南国ビーチバレー",
+		id = 72124,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AdoaB",
+				"normal"
+			},
+			{
+				"AdoaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"touch"
+					},
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"AdoaCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[72125] = {
+		can_rotate = 0,
+		describe = "浮島に最後までいられるか勝負だピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 72,
+		icon = "Bdoaicon",
+		count = 1,
+		name = "レジャープール",
+		id = 72125,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			10,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"BdoaB",
+				"normal"
+			},
+			{
+				"BdoaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"wash"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"BdoaCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -76633,6 +78429,9 @@ pg.furniture_data_template = {
 		15,
 		16,
 		17,
+		23,
+		24,
+		25,
 		101,
 		102,
 		104,
@@ -76687,8 +78486,16 @@ pg.furniture_data_template = {
 		175,
 		176,
 		177,
+		178,
+		179,
+		180,
+		181,
+		182,
 		183,
 		184,
+		186,
+		187,
+		188,
 		100002,
 		100003,
 		100004,
@@ -76708,6 +78515,7 @@ pg.furniture_data_template = {
 		100018,
 		100019,
 		100020,
+		100021,
 		1001,
 		1002,
 		1101,
@@ -78334,6 +80142,33 @@ pg.furniture_data_template = {
 		71118,
 		71119,
 		71301,
-		71302
+		71302,
+		72001,
+		72002,
+		72101,
+		72102,
+		72103,
+		72104,
+		72105,
+		72106,
+		72107,
+		72108,
+		72109,
+		72110,
+		72111,
+		72112,
+		72113,
+		72114,
+		72115,
+		72116,
+		72117,
+		72118,
+		72119,
+		72120,
+		72121,
+		72122,
+		72123,
+		72124,
+		72125
 	}
 }

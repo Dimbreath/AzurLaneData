@@ -35,13 +35,6 @@ function slot0.register(slot0)
 	slot0.viewComponent:setCollectionRate(slot5:getCollectionRate())
 	slot0.viewComponent:setTrophyList(slot5:getTrophys())
 	slot0.viewComponent:setMilitaryExercise(getProxy(MilitaryExerciseProxy):getSeasonInfo())
-
-	for slot12, slot13 in pairs(getProxy(BayProxy):getRawData()) do
-		if slot13:isActivityNpc() then
-			table.insert({}, slot13.id)
-		end
-	end
-
 	slot0:bind(uv0.CHANGE_PAINT, function (slot0, slot1)
 		slot2 = {}
 		uv0.contextData.showSelectCharacters = true
@@ -57,7 +50,9 @@ function slot0.register(slot0)
 			selectedMax = uv0.viewComponent.secretary_max,
 			hideTagFlags = ShipStatus.TAG_HIDE_ADMIRAL,
 			selectedIds = slot2,
-			ignoredIds = uv1,
+			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
+				isActivityNpc = true
+			}),
 			onSelected = function (slot0, slot1)
 				uv0.contextData.showSelectCharacters = false
 

@@ -409,7 +409,7 @@ end
 
 function slot0.TryPlayStory(slot0)
 	if "TIANHOUYUYI2" then
-		pg.StoryMgr.GetInstance():Play(slot1)
+		pg.NewStoryMgr.GetInstance():Play(slot1)
 	end
 end
 

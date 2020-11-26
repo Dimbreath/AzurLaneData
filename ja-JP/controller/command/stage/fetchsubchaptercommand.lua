@@ -20,19 +20,11 @@ function slot0.execute(slot0, slot1)
 		end
 
 		_.each(slot0.chapter_list, function (slot0)
-			if uv0[slot0.chapter_id] then
-				slot1 = uv1:getChapterById(slot0.chapter_id)
-				slot1.expireTime = slot0.active_time
-				slot1.awardIndex = slot0.index
+			slot1 = uv0:getChapterById(slot0.chapter_id)
+			slot1.expireTime = slot0.active_time
+			slot1.awardIndex = slot0.index
 
-				uv1:updateChapter(slot1)
-			else
-				uv1:addChapter(Chapter.New({
-					id = slot0.chapter_id,
-					active_time = slot0.active_time,
-					index = slot0.index
-				}))
-			end
+			uv0:updateChapter(slot1)
 		end)
 		uv0:sendNotification(GAME.SUB_CHAPTER_FETCH_DONE)
 	end)

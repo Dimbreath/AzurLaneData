@@ -11,7 +11,7 @@ return {
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "song07",
+			bgm = "song08",
 			say = "母港・ライブ会場",
 			flashin = {
 				delay = 1,

@@ -39,7 +39,9 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SSレア</color>：7%",
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：26%",
-			"ノーマル：55%"
+			"ノーマル：55%",
+			"<color=#d797ff>ハーディ</color>：1.4%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Z2</color>：1.4%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
@@ -82,15 +84,17 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>ダイドー（μ兵装）</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>マリー・ローズ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>大鳳（μ兵装）</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ほのか</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>タシュケント（μ兵装）</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>かすみ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>ボルチモア（μ兵装）</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>みさき</color>：0.5%",
 			" ",
-			"<color=#d797ff>アルバコア（μ兵装）</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>なぎさ</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>モニカ</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

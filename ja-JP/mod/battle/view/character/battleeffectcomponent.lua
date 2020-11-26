@@ -88,10 +88,14 @@ function slot5.DoWhenAddBuff(slot0, slot1)
 	end
 
 	if slot3.last_effect ~= nil and slot3.last_effect ~= "" then
-		slot4 = slot0._owner:AddFX(slot3.last_effect)
-		slot0._buffLastEffects[slot2] = slot4
+		for slot8, slot9 in ipairs(type(slot3.last_effect) == "table" and slot3.last_effect or {
+			slot3.last_effect
+		}) do
+			slot10 = slot0._owner:AddFX(slot9)
+			slot0._buffLastEffects[slot2] = slot10
 
-		slot4:SetActive(true)
+			slot10:SetActive(true)
+		end
 	end
 
 	if slot3.blink then

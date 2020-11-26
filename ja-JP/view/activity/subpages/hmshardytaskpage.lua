@@ -10,7 +10,19 @@ end
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.goHuntBtn, function ()
-		uv0:emit(ActivityMediator.SELECT_ACTIVITY, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST) and slot0.id or 0)
+		uv0:emit(ActivityMediator.SELECT_ACTIVITY, pg.activity_const.HMS_Hunter_PT_ID.act_id)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.notGetBtn, function ()
+		uv0:emit(ActivityMediator.BATTLE_OPERA)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.battleBtn, function ()
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.buildBtn, function ()
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GETBOAT, {
+			page = BuildShipScene.PAGE_BUILD,
+			projectName = BuildShipScene.PROJECTS.LIGHT
+		})
 	end, SFX_PANEL)
 end
 

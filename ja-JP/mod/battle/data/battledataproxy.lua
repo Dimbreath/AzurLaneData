@@ -207,7 +207,7 @@ function slot8.initBGM(slot0)
 			end
 
 			if slot5.equipment then
-				for slot11, slot12 in ipairs(uv0.GetEquipSkill(slot5.equipment)) do
+				for slot11, slot12 in ipairs(uv0.GetEquipSkill(slot5.equipment, uv1._battleInitData.battleType)) do
 					slot6[slot12] = {
 						level = 1,
 						id = slot12
@@ -216,11 +216,11 @@ function slot8.initBGM(slot0)
 			end
 
 			for slot11, slot12 in pairs(uv0.GetSongList(slot6).initList) do
-				uv1[slot11] = true
+				uv2[slot11] = true
 			end
 
 			for slot11, slot12 in pairs(slot7.otherList) do
-				uv2[slot11] = true
+				uv3[slot11] = true
 			end
 		end
 	end
@@ -1008,6 +1008,8 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0._battleInitData.battleType == SYSTEM_SUBMARINE_RUN or slot9 == SYSTEM_SUB_ROUTINE then
 		slot8 = uv2.UnitType.SUB_UNIT
+	elseif slot9 == SYSTEM_AIRFIGHT then
+		slot8 = uv2.UnitType.CONST_UNIT
 	end
 
 	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.baseProperties, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList)
@@ -1028,9 +1030,9 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot10:SetPosition(slot3)
-	uv3.InitUnitSkill(slot1, slot10)
-	uv3.InitEquipSkill(slot1.equipment, slot10)
-	uv3.InitCommanderSkill(slot4, slot10)
+	uv3.InitUnitSkill(slot1, slot10, slot9)
+	uv3.InitEquipSkill(slot1.equipment, slot10, slot9)
+	uv3.InitCommanderSkill(slot4, slot10, slot9)
 	slot10:SetGearScore(slot1.shipGS)
 
 	return slot10
@@ -1343,6 +1345,7 @@ end
 function slot8.CLSMinion(slot0)
 	for slot4, slot5 in pairs(slot0._unitList) do
 		if slot5:GetIFF() == uv0.FOE_CODE and slot5:IsAlive() and not slot5:IsBoss() then
+			slot5:SetDeathReason(uv1.UnitDeathReason.CLS)
 			slot5:DeadAction()
 		end
 	end
@@ -1604,6 +1607,15 @@ function slot8.SpawnEffect(slot0, slot1, slot2, slot3)
 		FXID = slot1,
 		position = slot2,
 		localScale = slot3
+	}))
+end
+
+function slot8.SpawnUIFX(slot0, slot1, slot2, slot3, slot4)
+	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_UI_FX, {
+		FXID = slot1,
+		position = slot2,
+		localScale = slot3,
+		orderDiff = slot4
 	}))
 end
 

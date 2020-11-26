@@ -22,6 +22,7 @@ function slot6.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(uv1.Battle.BattleDataProxy.__name)
 	slot0._uiMGR = pg.UIMgr.GetInstance()
+	slot0._fxPool = uv1.Battle.BattleFXPool.GetInstance()
 	slot0._updateViewList = {}
 
 	slot0:SetBattleUI()
@@ -89,6 +90,8 @@ function slot6.OpeningEffect(slot0, slot1, slot2)
 		slot0._joystick.anchorMax = Vector2(slot3.x, slot3.y)
 	elseif slot2 == SYSTEM_SUB_ROUTINE then
 		slot0._skillView:SubRoutineButton()
+	elseif slot2 == SYSTEM_AIRFIGHT then
+		slot0._skillView:AirFightButton()
 	elseif slot2 == SYSTEM_DEBUG then
 		slot0._skillView:NormalButton()
 	elseif pg.SeriesGuideMgr.GetInstance().currIndex and slot3:isEnd() then
@@ -158,6 +161,10 @@ end
 
 function slot6.InitScoreBar(slot0)
 	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui:findTF("DodgemCountBar"))
+end
+
+function slot6.InitAirFightScoreBar(slot0)
+	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui:findTF("AirFightCountBar"))
 end
 
 function slot6.InitKizunaJamming(slot0)
@@ -250,6 +257,7 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING, slot0.onUpdateEnvironmentWarning)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.KIZUNA_JAMMING, slot0.onJamming)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UI_FX, slot0.OnAddUIFX)
 end
 
 function slot6.RemoveUIEvent(slot0)
@@ -275,6 +283,7 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.FLEET_HORIZON_UPDATE)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UI_FX)
 end
 
 function slot6.ShowSkillPainting(slot0, slot1, slot2, slot3)
@@ -312,6 +321,14 @@ end
 
 function slot6.ShowDodgemScoreBar(slot0)
 	slot0:InitScoreBar()
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_DODGEM_SCORE, slot0.onUpdateDodgemScore)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_DODGEM_COMBO, slot0.onUpdateDodgemCombo)
+	slot0._scoreBarView:UpdateScore(0)
+	slot0._scoreBarView:SetActive(true)
+end
+
+function slot6.ShowAirFightScoreBar(slot0)
+	slot0:InitAirFightScoreBar()
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_DODGEM_SCORE, slot0.onUpdateDodgemScore)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_DODGEM_COMBO, slot0.onUpdateDodgemCombo)
 	slot0._scoreBarView:UpdateScore(0)
@@ -580,6 +597,23 @@ function slot6.onFleetHorizonUpdate(slot0, slot1)
 	end
 
 	slot0._inkView:UpdateHollow(slot1.Dispatcher:GetUnitList())
+end
+
+function slot6.OnAddUIFX(slot0, slot1)
+	slot0:AddUIFX(slot1.Data.orderDiff, slot1.Data.FXID, slot1.Data.position, slot1.Data.localScale)
+end
+
+function slot6.AddUIFX(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0._fxPool:GetFX(slot2)
+	slot1 = slot1 or 1
+
+	slot5.transform:SetParent(slot1 > 0 and slot0._fxContainerUpper or slot0._fxContainerBottom)
+	slot0._ui:AddUIFX(slot5, slot1)
+
+	slot4 = slot4 or 1
+	slot5.transform.localScale = Vector3(slot4, slot4, slot4)
+
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot3, true)
 end
 
 function slot6.registerUnitEvent(slot0, slot1)

@@ -45,6 +45,7 @@ function slot2.Dispose(slot0)
 		slot0._vigilantBar = nil
 	end
 
+	slot0:AddShaderColor()
 	slot0._factory:GetArrowPool():DestroyObj(slot0._arrowBar)
 	uv0.super.Dispose(slot0)
 end

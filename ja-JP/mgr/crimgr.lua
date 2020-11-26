@@ -125,7 +125,7 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 		end
 	end)
 
-	if uv0.NEXT_VER <= CSharpVersion then
+	if uv0.NEXT_VER <= CSharpVersion and slot4 ~= nil then
 		CriWareMgr.Inst:GetChannelData(uv0.C_BGM).curCueDataKey = slot4
 	end
 end

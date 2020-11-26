@@ -86,33 +86,34 @@ function slot0.set(slot0, slot1, slot2)
 
 	slot0.chapter = slot1
 	slot0.posStart = slot2 or Vector3(0, 0, 0)
-	slot4 = string.split(slot0.chapter:getConfigTable().name, "|")
-	slot5 = slot1:getPlayType() == ChapterConst.TypeDefence
+	slot3 = getProxy(ChapterProxy):getMapById(slot1:getConfig("map"))
+	slot5 = string.split(slot0.chapter:getConfigTable().name, "|")
+	slot6 = slot1:getPlayType() == ChapterConst.TypeDefence
 
-	GetSpriteFromAtlasAsync("ui/levelstageinfoview_atlas", slot5 and "title_print_defense" or "title_print", function (slot0)
+	GetSpriteFromAtlasAsync("ui/levelstageinfoview_atlas", slot6 and "title_print_defense" or "title_print", function (slot0)
 		if not IsNil(uv0.titleBGDecoration) then
 			uv0.titleBGDecoration:GetComponent(typeof(Image)).sprite = slot0
 		end
 	end)
-	GetSpriteFromAtlasAsync("ui/levelstageinfoview_atlas", slot5 and "titlebar_bg_defense" or "titlebar_bg", function (slot0)
+	GetSpriteFromAtlasAsync("ui/levelstageinfoview_atlas", slot6 and "titlebar_bg_defense" or "titlebar_bg", function (slot0)
 		if not IsNil(uv0.titleBG) then
 			uv0.titleBG:GetComponent(typeof(Image)).sprite = slot0
 		end
 	end)
-	setActive(slot0.titleIcon, slot5)
+	setActive(slot0.titleIcon, slot6)
 
-	slot6 = slot0.progressBar.sizeDelta
-	slot6.x = slot5 and uv0 or uv1
-	slot0.progressBar.sizeDelta = slot6
+	slot7 = slot0.progressBar.sizeDelta
+	slot7.x = slot6 and uv0 or uv1
+	slot0.progressBar.sizeDelta = slot7
 
-	setText(slot0:findTF("title_index", slot0.txTitle), slot3.chapter_name .. "  ")
-	setText(slot0:findTF("title", slot0.txTitle), slot4[1])
-	setText(slot0:findTF("title_en", slot0.txTitle), slot4[2] or "")
-	setActive(slot0.txTitleHead, slot4[3])
+	setText(slot0:findTF("title_index", slot0.txTitle), slot4.chapter_name .. "  ")
+	setText(slot0:findTF("title", slot0.txTitle), slot5[1])
+	setText(slot0:findTF("title_en", slot0.txTitle), slot5[2] or "")
+	setActive(slot0.txTitleHead, slot5[3])
 
-	slot0.txTitle.localPosition = Vector3(slot0.txTitle.localPosition.x, slot4[3] and 249 or 257, slot7.z)
+	slot0.txTitle.localPosition = Vector3(slot0.txTitle.localPosition.x, slot5[3] and 249 or 257, slot8.z)
 
-	setText(slot0.txTitleHead, slot4[3] or "")
+	setText(slot0.txTitleHead, slot5[3] or "")
 	setText(slot0.winCondDesc, i18n("text_win_condition") .. "：" .. i18n(slot1:getConfig("win_condition_display")))
 	setText(slot0.loseCondDesc, i18n("text_lose_condition") .. "：" .. i18n(slot1:getConfig("lose_condition_display")))
 	setActive(slot0.winCondAwardBtn, slot1:getPlayType() == ChapterConst.TypeDefence)
@@ -127,11 +128,11 @@ function slot0.set(slot0, slot1, slot2)
 		setActive(slot0.trAchieves, true)
 
 		slot0.passState.localPosition = Vector3(-slot0.passState.rect.width, 0, 0)
-		slot8 = slot1:hasMitigation()
+		slot9 = slot1:hasMitigation()
 
-		setActive(slot0.passState, slot8)
+		setActive(slot0.passState, slot9)
 
-		if slot8 then
+		if slot9 then
 			setImageSprite(slot0.passState, GetSpriteFromAtlas("passstate", slot1:getRiskLevel()), true)
 		end
 
@@ -154,12 +155,12 @@ function slot0.set(slot0, slot1, slot2)
 		end)
 	end
 
-	setText(slot0.txIntro, HXSet.hxLan(slot3.profiles))
-	setText(slot0.txCost, slot3.oil)
+	setText(slot0.txIntro, HXSet.hxLan(slot4.profiles))
+	setText(slot0.txCost, slot4.oil)
 
-	if slot3.icon and slot3.icon[1] then
+	if slot4.icon and slot4.icon[1] then
 		setActive(slot0.head.parent, true)
-		setImageSprite(slot0.head, LoadSprite("qicon/" .. slot3.icon[1]))
+		setImageSprite(slot0.head, LoadSprite("qicon/" .. slot4.icon[1]))
 	else
 		setActive(slot0.head.parent, false)
 	end
@@ -168,15 +169,15 @@ function slot0.set(slot0, slot1, slot2)
 
 	slot0.dropList:align(#slot0.awards)
 
-	slot8 = slot1:existLoop()
+	slot9 = slot1:existLoop()
 
-	setActive(slot0.loopBtn, slot8)
+	setActive(slot0.loopBtn, slot9)
 
-	if slot8 then
-		slot12 = PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or slot11 == -1 and slot1:canActivateLoop()
+	if slot9 then
+		slot13 = PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or slot12 == -1 and slot1:canActivateLoop()
 
-		setActive(slot0.loopOn, slot12)
-		setActive(slot0.loopOff, not slot12)
+		setActive(slot0.loopOn, slot13)
+		setActive(slot0.loopOff, not slot13)
 		onButton(slot0, slot0.loopToggle, function ()
 			if not uv0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_activate_loop_mode_failed"))
@@ -213,14 +214,14 @@ function slot0.set(slot0, slot1, slot2)
 		end
 	end, SFX_CANCEL)
 
-	slot9 = slot1:getConfig("risk_levels") or {}
+	slot10 = slot1:getConfig("risk_levels") or {}
 
 	onButton(slot0, slot0.passState, function ()
 		if not uv0:hasMitigation() then
 			return
 		end
 
-		if uv0:isEliteChapter() then
+		if uv1:getMapType() == Map.ELITE then
 			slot0 = i18n("level_risk_level_desc", uv0:getChapterState()) .. i18n("level_risk_level_mitigation_rate", uv0:getRemainPassCount(), uv0:getMitigationRate()) .. "\n" .. i18n("level_diffcult_chapter_state_safety")
 		end
 
@@ -237,11 +238,11 @@ function slot0.set(slot0, slot1, slot2)
 	end)
 	setText(slot0.descQuickPlay, i18n("desc_quick_play"))
 
-	slot10 = slot1:CanQuickPlay()
+	slot11 = slot1:CanQuickPlay()
 
-	setActive(slot0.quickPlayGroup, slot10)
+	setActive(slot0.quickPlayGroup, slot11)
 
-	if slot10 then
+	if slot11 then
 		onToggle(slot0, slot0.toggleQuickPlay, function (slot0)
 			PlayerPrefs.SetInt(uv0, slot0 and 1 or 0)
 			PlayerPrefs.Save()
@@ -249,14 +250,14 @@ function slot0.set(slot0, slot1, slot2)
 		triggerToggle(slot0.toggleQuickPlay, PlayerPrefs.GetInt("chapter_quickPlay_flag_" .. slot1.id, 0) == 1)
 	end
 
-	slot11 = slot0:findTF("panel")
-	slot11.transform.localPosition = slot0.posStart
+	slot12 = slot0:findTF("panel")
+	slot12.transform.localPosition = slot0.posStart
 
-	table.insert(slot0.delayTween, LeanTween.move(slot11, Vector3.zero, 0.2).uniqueId)
+	table.insert(slot0.delayTween, LeanTween.move(slot12, Vector3.zero, 0.2).uniqueId)
 
-	slot11.localScale = Vector3.zero
+	slot12.localScale = Vector3.zero
 
-	table.insert(slot0.delayTween, LeanTween.scale(slot11, Vector3(1, 1, 1), 0.2).uniqueId)
+	table.insert(slot0.delayTween, LeanTween.scale(slot12, Vector3(1, 1, 1), 0.2).uniqueId)
 	table.insert(slot0.delayTween, LeanTween.moveX(slot0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
 end
 

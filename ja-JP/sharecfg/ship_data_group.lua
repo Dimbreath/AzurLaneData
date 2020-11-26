@@ -38,6 +38,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -77,6 +87,16 @@ pg.ship_data_group = {
 				"常設任務",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -5697,6 +5717,16 @@ pg.ship_data_group = {
 				"イベント：凛冽なりし冬の王冠",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -13973,6 +14003,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14322,6 +14362,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -17232,6 +17282,223 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[10061] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 106,
+		hide = 0,
+		index_id = 10061,
+		group_type = 1060001,
+		code = 10061,
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：バケーションレーン",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10062] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 106,
+		hide = 0,
+		index_id = 10062,
+		group_type = 1060002,
+		code = 10062,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：バケーションレーン",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10063] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 106,
+		hide = 0,
+		index_id = 10063,
+		group_type = 1060003,
+		code = 10063,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：バケーションレーン",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10064] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 106,
+		hide = 0,
+		index_id = 10064,
+		group_type = 1060004,
+		code = 10064,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：バケーションレーン",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10065] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 106,
+		hide = 0,
+		index_id = 10065,
+		group_type = 1060005,
+		code = 10065,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：バケーションレーン",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10066] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 106,
+		hide = 0,
+		index_id = 10066,
+		group_type = 1060006,
+		code = 10066,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：バケーションレーン",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10067] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 106,
+		hide = 0,
+		index_id = 10067,
+		group_type = 1060007,
+		code = 10067,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：バケーションレーン",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		type = 2,
 		trans_skin = 0,
@@ -18236,6 +18503,13 @@ pg.ship_data_group = {
 		10055,
 		10056,
 		10057,
+		10061,
+		10062,
+		10063,
+		10064,
+		10065,
+		10066,
+		10067,
 		20001,
 		20002,
 		20003,

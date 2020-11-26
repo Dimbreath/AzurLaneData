@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		bgm = "main"
+		bgm = "doa_story1"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		bgm = "holo-fff-inst"
@@ -82,12 +82,21 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		bgm = "main"
+		bgm = "doa_guanqia"
 	},
 	SkinShopScene = {
 		bgm = "main"
 	},
 	BuildShipScene = {
 		bgm = "main"
+	},
+	AirForceOfDragonEmperyUI = {
+		bgm = "story-richang"
+	},
+	VolleyballGameView = {
+		bgm = "doa_minigame"
+	},
+	DOALinkIslandScene = {
+		bgm = "doa_story1"
 	}
 }

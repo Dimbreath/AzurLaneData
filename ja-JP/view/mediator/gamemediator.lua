@@ -118,6 +118,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.ACTIVITY then
 			slot4.mediator = ActivityMediator
 			slot4.viewComponent = ActivityMainScene
+		elseif slot3 == SCENE.SINGLE_ACTIVITY then
+			slot4.mediator = ActivitySingleMediator
+			slot4.viewComponent = ActivitySingleScene
 		elseif slot3 == SCENE.GUILD then
 			slot4.mediator = GuildMainMediator
 			slot4.viewComponent = GuildMainScene
@@ -236,18 +239,24 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.PHYSICS2D_TEST then
 			slot4.mediator = Physics2dMediator
 			slot4.viewComponent = Physics2dScene
-		elseif slot3 == SCENE.THIRD_ANNIVERSARY_SQUARE then
-			slot4.mediator = ThirdAnniversarySquareMediator
-			slot4.viewComponent = ThirdAnniversarySquareScene
 		elseif slot3 == SCENE.THIRD_ANNIVERSARY_AKIBA then
 			slot4.mediator = ThirdAnniversarySquareMediator
 			slot4.viewComponent = AkibaStreetScene
+		elseif slot3 == SCENE.DOALINK_ISLAND then
+			slot4.mediator = DOALinkIslandMediator
+			slot4.viewComponent = DOALinkIslandScene
 		elseif slot3 == SCENE.BACKYARD_THEME_TEMPLATE then
 			slot4.mediator = NewBackYardThemeTemplateMediator
 			slot4.viewComponent = NewBackYardThemeTemplateLayer
 		elseif slot3 == SCENE.JIUJIU_EXPEDITION then
 			slot4.mediator = JiuJiuExpeditionGameMediator
 			slot4.viewComponent = JiuJiuExpeditionGameView
+		elseif slot3 == SCENE.AIRFORCE_DRAGONEMPERY then
+			slot4.mediator = AirForceOfDragonEmperyMediator
+			slot4.viewComponent = AirForceOfDragonEmperyUI
+		elseif slot3 == SCENE.DOA_MEDAL_COLLECTION_SCENE then
+			slot4.mediator = IdolMedalCollectionMediator
+			slot4.viewComponent = DoaMedalCollectionView
 		end
 
 		print("load scene: " .. slot3)

@@ -301,18 +301,21 @@ slot1 = {
 		inEvent = 2
 	},
 	inActivity = {
-		inActivity = 2,
+		isActivityNpc = 2,
 		inEvent = 2,
-		inWorld = 2
+		inWorld = 2,
+		inActivity = 2
 	},
 	inEvent = {
-		inEvent = 2,
 		inChapter = 2,
-		inFleet = 1,
+		inEvent = 2,
 		inPvP = 1,
+		inFleet = 1,
+		isActivityNpc = 2,
 		inWorld = 2
 	},
 	inClass = {
+		isActivityNpc = 2,
 		inClass = 2,
 		inBackyard = 1
 	},
@@ -320,7 +323,8 @@ slot1 = {
 		inTactics = 2
 	},
 	inBackyard = {
-		inClass = 2
+		inClass = 2,
+		isActivityNpc = 2
 	},
 	onPropose = {
 		inEvent = 2,
@@ -339,6 +343,7 @@ slot1 = {
 		inTactics = 1,
 		inBackyard = 1,
 		inEvent = 2,
+		isActivityNpc = 2,
 		inWorld = 2,
 		inAdmiral = 2
 	}
@@ -376,6 +381,9 @@ slot2 = {
 	},
 	inAdmiral = {
 		tips_block = "playerinfo_ship_is_already_flagship"
+	},
+	isActivityNpc = {
+		tips_block = "word_shipState_fight"
 	}
 }
 
@@ -385,7 +393,11 @@ function slot0.ShipStatusCheck(slot0, slot1, slot2, slot3)
 	if slot4 == ShipStatus.STATE_CHANGE_FAIL then
 		return false, i18n(slot5)
 	elseif slot4 == ShipStatus.STATE_CHANGE_CHECK then
-		return ShipStatus.ChangeStatusCheckBox(slot5, slot1, slot2)
+		if slot2 then
+			return ShipStatus.ChangeStatusCheckBox(slot5, slot1, slot2)
+		else
+			return false
+		end
 	else
 		return true
 	end

@@ -64,35 +64,44 @@ function slot0.updateForEvent(slot0)
 	slot3 = 0
 	slot4 = 0
 	slot5 = 0
-	slot6 = {}
+	slot9 = {}
 
 	_.each(slot0._proxy:getEventList(), function (slot0)
-		if slot0.state == EventInfo.StateNone then
+		if slot0:IsActivityType() then
+			if slot0.state == EventInfo.StateNone then
+				uv0 = uv0 + 1
+			elseif slot0.state == EventInfo.StateActive then
+				uv1 = uv1 + 1
+			elseif slot0.state == EventInfo.StateFinish then
+				uv2 = uv2 + 1
+			end
+		elseif slot0.state == EventInfo.StateNone then
 			-- Nothing
 		elseif slot0.state == EventInfo.StateActive then
-			uv0 = uv0 + 1
+			uv3 = uv3 + 1
 
-			table.insert(uv1, slot0)
+			table.insert(uv4, slot0)
 		elseif slot0.state == EventInfo.StateFinish then
-			uv2 = uv2 + 1
+			uv5 = uv5 + 1
 
-			table.insert(uv1, slot0)
+			table.insert(uv4, slot0)
 		end
 	end)
 
-	slot0.finishedCounter.text = slot3
-	slot0.ongoingCounter.text = slot4
-	slot0.leisureCounter.text = slot0._proxy.maxFleetNums - (slot3 + slot4)
+	slot10 = slot3 + 0
+	slot0.finishedCounter.text = slot10
+	slot0.ongoingCounter.text = slot4 + 0
+	slot0.leisureCounter.text = slot0._proxy.maxFleetNums - (slot3 + slot4) + 0
 
-	setActive(slot0.finishedCounterContainer, slot3 > 0)
-	setActive(slot0.ongoingCounterContainer, slot4 > 0)
-	setActive(slot0.leisureCounterContainer, slot0._proxy.maxFleetNums > slot3 + slot4)
-	setActive(slot0.goBtn, slot3 == 0)
-	setActive(slot0.finishedBtn, slot3 > 0)
-	table.sort(slot6, function (slot0, slot1)
+	setActive(slot0.finishedCounterContainer, slot10 > 0)
+	setActive(slot0.ongoingCounterContainer, slot11 > 0)
+	setActive(slot0.leisureCounterContainer, slot12 > 0)
+	setActive(slot0.goBtn, slot10 == 0)
+	setActive(slot0.finishedBtn, slot10 > 0)
+	table.sort(slot9, function (slot0, slot1)
 		return slot1.state < slot0.state
 	end)
-	slot0.itemsPanel:updateEventItems(slot6, slot0._proxy.maxFleetNums)
+	slot0.itemsPanel:updateEventItems(slot9, slot0._proxy)
 	onButton(slot0, slot0.finishedBtn, function ()
 		_.each(uv0, function (slot0)
 			if slot0.state == EventInfo.StateFinish then

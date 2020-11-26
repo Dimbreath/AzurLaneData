@@ -405,6 +405,21 @@ pg.player_resource = {
 		name = "ouxiang2_pt",
 		itemid = 59185
 	},
+	[176] = {
+		id = 176,
+		name = "naerweikehaogan2",
+		itemid = 59188
+	},
+	[177] = {
+		id = 177,
+		name = "DOApt",
+		itemid = 59189
+	},
+	[178] = {
+		id = 178,
+		name = "skinTicket11",
+		itemid = 59190
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -689,6 +704,15 @@ pg.player_resource = {
 		ouxiang2_pt = {
 			175
 		},
+		naerweikehaogan2 = {
+			176
+		},
+		DOApt = {
+			177
+		},
+		skinTicket11 = {
+			178
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -796,6 +820,9 @@ pg.player_resource = {
 		172,
 		173,
 		175,
+		176,
+		177,
+		178,
 		1001,
 		2001,
 		2002,

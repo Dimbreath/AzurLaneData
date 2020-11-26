@@ -30,31 +30,46 @@ slot0.BG_DAY = "day"
 slot0.BG_NIGHT = "night"
 slot0.BG_TIMELINE_DAY = 5
 slot0.BG_TIMELINE_NIGHT = 18
-slot0.BG_TIMES = {
+slot0.TIMES_INFO = {
 	{
-		0,
-		5,
-		"night"
+		bg = "bg_main_night",
+		bgm = "doa_main_night",
+		time = {
+			0,
+			5
+		}
 	},
 	{
-		5,
-		8,
-		"twilight"
+		bg = "bg_main_twilight",
+		bgm = "doa_main_day",
+		time = {
+			5,
+			8
+		}
 	},
 	{
-		5,
-		16,
-		"day"
+		bg = "bg_main_day",
+		bgm = "doa_main_day",
+		time = {
+			8,
+			16
+		}
 	},
 	{
-		16,
-		19,
-		"twilight"
+		bg = "bg_main_twilight",
+		bgm = "doa_main_day",
+		time = {
+			16,
+			19
+		}
 	},
 	{
-		19,
-		24,
-		"night"
+		bg = "bg_main_night",
+		bgm = "doa_main_night",
+		time = {
+			19,
+			24
+		}
 	}
 }
 slot0.BUFFTEXT_SHOW_TIME = 7
@@ -65,9 +80,23 @@ function slot0.getUIName(slot0)
 	return "MainUI"
 end
 
+function slot0.getDiffTimeInfo(slot0, slot1)
+	slot2 = pg.TimeMgr.GetInstance():GetServerHour()
+
+	for slot6, slot7 in ipairs(uv0.TIMES_INFO) do
+		if slot7.time[1] <= slot2 and slot2 < slot7.time[2] then
+			return slot7[slot1]
+		end
+	end
+end
+
 function slot0.getBGM(slot0)
 	if slot0:getCurrentFlagship():IsBgmSkin() and getProxy(SettingsProxy):IsBGMEnable() then
 		return slot1:GetSkinBgm()
+	elseif checkExist(getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_MAP_ACT_ID), {
+		"isEnd"
+	}) == false then
+		return slot0:getDiffTimeInfo("bgm")
 	else
 		return uv0.super.getBGM(slot0)
 	end
@@ -82,25 +111,12 @@ function slot0.setShips(slot0, slot1)
 end
 
 function slot0.setBG(slot0)
-	slot1 = pg.TimeMgr.GetInstance():GetServerHour()
-	slot2 = ""
+	PoolMgr.GetInstance():GetSprite("commonbg/" .. slot0:getDiffTimeInfo("bg"), "", false, function (slot0)
+		uv0.bgLoading = false
 
-	for slot6, slot7 in ipairs(uv0.BG_TIMES) do
-		if slot7[1] <= slot1 and slot1 < slot7[2] then
-			slot2 = "commonbg/bg_main_" .. slot7[3]
-
-			break
-		end
-	end
-
-	if slot2 then
-		PoolMgr.GetInstance():GetSprite(slot2, "", false, function (slot0)
-			uv0.bgLoading = false
-
-			uv0:setChangeBtnInteractable()
-			setImageSprite(uv0._bg:Find("bg"), slot0)
-		end)
-	end
+		uv0:setChangeBtnInteractable()
+		setImageSprite(uv0._bg:Find("bg"), slot0)
+	end)
 end
 
 function slot0.Ctor(slot0)
@@ -443,13 +459,6 @@ slot4, slot5 = nil
 function slot0.didEnter(slot0)
 	slot0:setBG()
 	setActive(slot0._phonyui, false)
-
-	if ENABLE_TEST_OSS then
-		onButton(slot0, slot0._settingBtn.parent:Find("OSS") or cloneTplTo(slot0._settingBtn, slot0._settingBtn.parent, "OSS"), function ()
-			uv0:emit("TEST_OSS")
-		end, SFX_MAIN)
-	end
-
 	onToggle(slot0, slot0._moveBtn, function (slot0)
 		setActive(uv0._moveOn, slot0)
 		setActive(uv0._moveOff, not slot0)
@@ -1102,9 +1111,13 @@ function slot0.ResetActivityBtns(slot0)
 end
 
 function slot0.RefreshBtn(slot0, slot1, slot2)
+	if slot1:Find("Image") == nil then
+		slot3 = slot1
+	end
+
 	if type(slot2.Image) == "function" then
 		if slot2.Image() then
-			setImageSprite(slot1:Find("Image"), slot4, true)
+			setImageSprite(slot3, slot4, true)
 		end
 	else
 		setImageSprite(slot3, LoadSprite("ui/mainui_atlas", slot2.Image), true)
@@ -1462,7 +1475,7 @@ function slot0.displayShipWord(slot0, slot1)
 		end)).id
 	end
 
-	slot13 = pg.StoryMgr.GetInstance():isActive()
+	slot13 = pg.NewStoryMgr.GetInstance():IsRunning()
 
 	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
 		-- Nothing
@@ -1790,46 +1803,54 @@ function slot0.updateBuffList(slot0, slot1)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			LoadImageSpriteAsync(uv0[slot1 + 1]:getConfig("icon"), slot2)
-			onButton(uv1, slot2, function ()
-				if uv0._buffTextTimer then
-					uv0._buffTextTimer:Stop()
+			if uv0[slot1 + 1].IsVirtualIcon then
+				uv1:RefreshBtn(slot2, slot3)
+
+				if slot3.UpdateButton then
+					slot3.UpdateButton(uv1, slot2)
 				end
-
-				setActive(uv0._buffText, true)
-
-				if uv1:getConfig("max_time") > 0 then
-					if uv1.timestamp then
-						setText(uv0._buffText:Find("Text"), string.gsub(uv1:getConfig("desc"), "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot3 - pg.TimeMgr:GetInstance():GetServerTime())))
-
-						uv0._buffTimeCountDownTimer = Timer.New(function ()
-							if uv0 > 0 then
-								uv0 = uv0 - 1
-
-								setText(uv1._buffText:Find("Text"), string.gsub(uv2, "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(uv0)))
-							else
-								uv1._buffTimeCountDownTimer:Stop()
-								setActive(uv1._buffText, false)
-								setActive(uv3, false)
-							end
-						end, 1, -1)
-
-						uv0._buffTimeCountDownTimer:Start()
+			else
+				LoadImageSpriteAsync(slot3:getConfig("icon"), slot2)
+				onButton(uv1, slot2, function ()
+					if uv0._buffTextTimer then
+						uv0._buffTextTimer:Stop()
 					end
-				else
-					setText(uv0._buffText:Find("Text"), slot0)
-				end
 
-				uv0._buffTextTimer = Timer.New(function ()
-					setActive(uv0._buffText, false)
+					setActive(uv0._buffText, true)
 
-					if uv0._buffTimeCountDownTimer ~= nil then
-						uv0._buffTimeCountDownTimer:Stop()
+					if uv1:getConfig("max_time") > 0 then
+						if uv1.timestamp then
+							setText(uv0._buffText:Find("Text"), string.gsub(uv1:getConfig("desc"), "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot3 - pg.TimeMgr:GetInstance():GetServerTime())))
+
+							uv0._buffTimeCountDownTimer = Timer.New(function ()
+								if uv0 > 0 then
+									uv0 = uv0 - 1
+
+									setText(uv1._buffText:Find("Text"), string.gsub(uv2, "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(uv0)))
+								else
+									uv1._buffTimeCountDownTimer:Stop()
+									setActive(uv1._buffText, false)
+									setActive(uv3, false)
+								end
+							end, 1, -1)
+
+							uv0._buffTimeCountDownTimer:Start()
+						end
+					else
+						setText(uv0._buffText:Find("Text"), slot0)
 					end
-				end, uv3.BUFFTEXT_SHOW_TIME, 1)
 
-				uv0._buffTextTimer:Start()
-			end, SFX_PANEL)
+					uv0._buffTextTimer = Timer.New(function ()
+						setActive(uv0._buffText, false)
+
+						if uv0._buffTimeCountDownTimer ~= nil then
+							uv0._buffTimeCountDownTimer:Stop()
+						end
+					end, uv3.BUFFTEXT_SHOW_TIME, 1)
+
+					uv0._buffTextTimer:Start()
+				end, SFX_PANEL)
+			end
 		end
 	end)
 	slot2:align(#slot1)

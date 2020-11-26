@@ -42,7 +42,7 @@ function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
 
 		if slot0.maps[slot0.contextData.mapIdx + uv1] then
 			if slot2:getMapType() == Map.ELITE and not slot2:isEliteEnabled() then
-				slot1 = slot0.maps[slot2:getBindMap()].id
+				slot1 = slot0.maps[slot2:getBindMapId()].id
 
 				pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_unusable"))
 			end
@@ -177,26 +177,19 @@ function slot0.UpdateMapItems(slot0)
 	end
 
 	uv0.UpdateMapItems(slot0)
-
-	slot2 = getProxy(ChapterProxy)
-
 	table.clear(slot0.chapterTFsById)
 
-	slot3 = Chapter.bindConfigTable()
-	slot4 = {}
+	slot3 = {}
 
-	for slot8, slot9 in pairs(slot0.contextData.map.chapters) do
-		slot10 = slot9:getConfig("pre_chapter")
-		slot11 = slot2:GetRawChapterById(slot10)
-
-		if (slot9:isUnlock() or slot9:activeAlways() or (slot10 == 0 or slot11 and slot11:isClear()) and not Chapter.StaticIsChapterBindedActivityActive(slot9.id)) and (not slot9:ifNeedHide() or slot2:GetJustClearChapters(slot9.id)) then
-			table.insert(slot4, slot9)
+	for slot7, slot8 in pairs(slot0.contextData.map:getChapters()) do
+		if (slot8:activeAlways() or slot8:isUnlock()) and (not slot8:ifNeedHide() or getProxy(ChapterProxy):GetJustClearChapters(slot8.id)) then
+			table.insert(slot3, slot8)
 		end
 	end
 
 	slot0:StopMapItemTimers()
 
-	function slot9(slot0, slot1, slot2)
+	function slot8(slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
@@ -207,21 +200,21 @@ function slot0.UpdateMapItems(slot0)
 		end
 	end
 
-	UIItemList.StaticAlign(slot0.itemHolder, slot0.tpl, #slot4, slot9)
+	UIItemList.StaticAlign(slot0.itemHolder, slot0.tpl, #slot3, slot8)
 
-	slot5 = {}
+	slot4 = {}
 
-	for slot9, slot10 in pairs(slot4) do
-		slot11 = slot10:getConfigTable()
-		slot5[slot11.pos_x] = slot5[slot11.pos_x] or {}
-		slot12[slot11.pos_y] = slot5[slot11.pos_x][slot11.pos_y] or {}
+	for slot8, slot9 in pairs(slot3) do
+		slot10 = slot9:getConfigTable()
+		slot4[slot10.pos_x] = slot4[slot10.pos_x] or {}
+		slot11[slot10.pos_y] = slot4[slot10.pos_x][slot10.pos_y] or {}
 
-		table.insert(slot12[slot11.pos_y], slot10)
+		table.insert(slot11[slot10.pos_y], slot9)
 	end
 
-	for slot9, slot10 in pairs(slot5) do
-		for slot14, slot15 in pairs(slot10) do
-			slot16 = {}
+	for slot8, slot9 in pairs(slot4) do
+		for slot13, slot14 in pairs(slot9) do
+			slot15 = {}
 
 			seriesAsync({
 				function (slot0)
@@ -393,30 +386,32 @@ function slot0.UpdateMapItem(slot0, slot1, slot2)
 		end
 
 		if not uv1:isUnlock() then
-			if Chapter.StaticIsChapterBindedActivityActive(uv1.id) then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", uv1:getPrevChapterName()))
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
-			end
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", uv1:getPrevChapterName()))
+
+			return
+		end
+
+		if not getProxy(ChapterProxy):getMapById(uv1:getConfig("map")):isRemaster() and not uv1:inActTime() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
 
 			return
 		end
 
 		if uv0.sceneParent.player.level < uv1:getConfig("unlocklevel") then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", slot0))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", slot1))
 
 			return
 		end
 
-		slot1 = nil
+		slot2 = nil
 
-		for slot5, slot6 in pairs(uv0.sceneParent.maps) do
-			if slot6:getActiveChapter() then
+		for slot6, slot7 in pairs(uv0.sceneParent.maps) do
+			if slot7:getActiveChapter() then
 				break
 			end
 		end
 
-		if slot1 and slot1 ~= uv1 then
+		if slot2 and slot2 ~= uv1 then
 			uv0:InvokeParent("emit", LevelMediator2.ON_STRATEGYING_CHAPTER)
 
 			return
@@ -425,9 +420,9 @@ function slot0.UpdateMapItem(slot0, slot1, slot2)
 		if uv1.active then
 			uv0:InvokeParent("switchToChapter", uv1)
 		else
-			slot2 = uv2.localPosition
+			slot3 = uv2.localPosition
 
-			uv0:InvokeParent("displayChapterPanel", uv1, Vector3(slot2.x - 10, slot2.y + 150))
+			uv0:InvokeParent("displayChapterPanel", uv1, Vector3(slot3.x - 10, slot3.y + 150))
 		end
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end

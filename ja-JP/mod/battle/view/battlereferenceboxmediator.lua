@@ -114,13 +114,14 @@ end
 
 function slot4.onAddUnit(slot0, slot1)
 	slot2 = slot1.Data.type
+	slot3 = slot1.Data.unit
 
 	if slot0._unitBoxActive then
-		slot0._unitBoxList[unit:GetUniqueID()] = slot0:createBox(unit)
+		slot0._unitBoxList[slot3:GetUniqueID()] = slot0:createBox(slot3)
 	end
 
 	if slot0._detailViewActive and slot2 == uv0.UnitType.PLAYER_UNIT then
-		slot0:createDetail(unit)
+		slot0:createDetail(slot3)
 	end
 end
 

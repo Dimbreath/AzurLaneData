@@ -54,7 +54,6 @@ function slot0.execute(slot0, slot1)
 		slot2 = getProxy(PlayerProxy):getData()
 
 		if uv0 then
-			pg.StoryMgr.GetInstance():Reset()
 			pg.PushNotificationMgr.GetInstance():Reset()
 			pg.SdkMgr.GetInstance():CreateRole(slot2.id, slot2.name, slot2.level, slot2.registerTime, slot2:getTotalGem())
 		end

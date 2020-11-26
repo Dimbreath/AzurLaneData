@@ -10,7 +10,8 @@ function slot0.execute(slot0, slot1)
 		arg3 = 0,
 		arg2 = 0,
 		activity_id = slot6.activityId,
-		arg1 = slot6:GetIntByBit(slot2.result)
+		arg1 = slot6:GetIntByBit(slot2.result),
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			slot1 = {}

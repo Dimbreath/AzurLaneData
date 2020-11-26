@@ -25,8 +25,8 @@ function slot0.OnUpdateFlush(slot0)
 		slot0.nday
 	}, {
 		1
-	}) and not pg.StoryMgr.GetInstance():IsPlayed(slot2[slot0.nday][1]) then
-		slot3:Play(slot2[slot0.nday][1])
+	}) then
+		pg.NewStoryMgr.GetInstance():Play(slot2[slot0.nday][1])
 	end
 
 	for slot6 = 1, 2 do

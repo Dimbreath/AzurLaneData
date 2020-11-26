@@ -63,7 +63,7 @@ function slot0.GetGearScoreSum(slot0, slot1)
 		slot3 = 0 + slot8:getShipCombatPower()
 	end
 
-	return math.floor(slot3)
+	return slot3
 end
 
 return slot0

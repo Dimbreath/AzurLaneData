@@ -71,7 +71,7 @@ end
 function slot0.GetAward(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
-			pg.StoryMgr.GetInstance():Play(uv0, slot0, true)
+			pg.NewStoryMgr.GetInstance():Play(uv0, slot0, true)
 		end,
 		function (slot0)
 			if (getProxy(TaskProxy):getTaskById(uv0) or slot1:getFinishTaskById(uv0)) and slot2:isFinish() and not slot2:isReceive() then

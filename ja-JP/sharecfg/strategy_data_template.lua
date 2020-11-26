@@ -272,6 +272,15 @@ pg.strategy_data_template = {
 			0
 		}
 	},
+	[10021] = {
+		buff_id = 8761,
+		name = "FEVERモード",
+		type = 1000,
+		id = 10021,
+		icon = "10021",
+		desc = "味方艦隊戦闘開始時、自身の耐久値が最大値の2%回復する",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -300,6 +309,7 @@ pg.strategy_data_template = {
 		10012,
 		10013,
 		10014,
-		10015
+		10015,
+		10021
 	}
 }

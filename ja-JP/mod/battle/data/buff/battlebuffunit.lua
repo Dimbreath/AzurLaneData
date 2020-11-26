@@ -185,12 +185,6 @@ function slot3.IsTimeToRemove(slot0, slot1)
 	end
 end
 
-function slot3.Interrupt(slot0)
-	for slot4, slot5 in ipairs(slot0._effectList) do
-		slot5:Interrupt()
-	end
-end
-
 function slot3.Clear(slot0)
 	for slot4, slot5 in ipairs(slot0._effectList) do
 		slot5:Clear()

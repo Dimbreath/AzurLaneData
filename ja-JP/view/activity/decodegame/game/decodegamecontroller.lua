@@ -26,7 +26,7 @@ function slot0.SetUp(slot0, slot1)
 			uv0.view:DoEnterAnim(slot0)
 		end,
 		function (slot0)
-			pg.StoryMgr.GetInstance():Play(DecodeGameConst.STORYID, slot0)
+			pg.NewStoryMgr.GetInstance():Play(DecodeGameConst.STORYID, slot0)
 		end,
 		function (slot0)
 			uv0.view:ShowHelper(1, slot0)

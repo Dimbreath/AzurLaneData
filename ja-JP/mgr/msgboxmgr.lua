@@ -620,10 +620,8 @@ function slot11(slot0, slot1)
 
 						return
 					elseif uv2[1] == "LEVEL" and uv2[2] then
-						slot1 = getProxy(ChapterProxy)
-
-						if slot1:getMaps()[slot1:getChapterById(uv2[2].chapterid):getConfig("map")] and slot4:getChapter(slot0) and slot4:getChapter(slot0):isUnlock() then
-							if slot1:getActiveChapter() and slot5.id ~= slot0 then
+						if getProxy(ChapterProxy):getChapterById(uv2[2].chapterid):isUnlock() then
+							if slot1:getActiveChapter() and slot3.id ~= slot0 then
 								uv3:ShowMsgBox({
 									content = i18n("collect_chapter_is_activation"),
 									onYes = function ()
@@ -635,15 +633,15 @@ function slot11(slot0, slot1)
 
 								return
 							else
-								if slot3.active then
+								if slot2.active then
 									-- Nothing
 								else
-									slot6.openChapterId = slot0
+									slot4.openChapterId = slot0
 								end
 
 								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-									mapIdx = slot3:getConfig("map"),
-									chapterId = slot3.id
+									mapIdx = slot2:getConfig("map"),
+									chapterId = slot2.id
 								})
 							end
 						else

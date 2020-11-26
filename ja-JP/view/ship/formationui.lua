@@ -221,7 +221,7 @@ function slot0.SetFleetNameLabel(slot0)
 	setText(slot0._fleetNameText, slot0.defaultFleetName(slot0._currentFleetVO))
 end
 
-function slot0.quckExitFunc(slot0)
+function slot0.quickExitFunc(slot0)
 	if slot0._currentDragDelegate then
 		slot0._forceDropCharacter = true
 
@@ -1084,7 +1084,7 @@ function slot0.getCardAttrProps(slot0, slot1)
 		},
 		{
 			i18n("word_synthesize_power"),
-			"<color=#ffff00>" .. math.floor(slot1:getShipCombatPower()) .. "</color>"
+			"<color=#ffff00>" .. slot1:getShipCombatPower() .. "</color>"
 		}
 	}
 end

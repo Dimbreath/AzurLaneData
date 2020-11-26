@@ -199,7 +199,7 @@ function slot0.checkCountStory(slot0, slot1)
 	if _.detect(slot0.activity:getDataConfig("story") or {}, function (slot0)
 		return slot0[1] == uv0
 	end) then
-		pg.StoryMgr.GetInstance():Play(slot5[2], slot1)
+		pg.NewStoryMgr.GetInstance():Play(slot5[2], slot1)
 	else
 		slot1()
 	end
@@ -447,7 +447,7 @@ function slot0.checkEffect(slot0, slot1)
 		seriesAsync({
 			function (slot0)
 				if uv0 and tonumber(uv0) ~= 0 then
-					pg.StoryMgr.GetInstance():Play(uv0, slot0, true, true, true)
+					pg.NewStoryMgr.GetInstance():Play(uv0, slot0, true, true)
 				else
 					slot0()
 				end

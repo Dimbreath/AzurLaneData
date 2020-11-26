@@ -252,7 +252,7 @@ function slot0.flushDetail(slot0)
 					slot15.text = tostring(math.floor(slot1:getBattleTotalExpend()))
 				elseif slot11 == 6 then
 					slot14.text = setColorStr(i18n("word_synthesize_power"), COLOR_GREEN)
-					slot15.text = tostring(math.floor(slot5))
+					slot15.text = tostring(slot5)
 				else
 					slot14.text = AttributeType.Type2Name(slot16)
 					slot15.text = tostring(math.floor(slot3[slot16]))

@@ -46,10 +46,9 @@ function slot0.InitUI(slot0)
 	setActive(slot0.item, false)
 end
 
-function slot0.set(slot0, slot1, slot2, slot3)
-	slot0.maps = slot1
-	slot0.subRefreshCount = slot2
-	slot0.subProgress = slot3
+function slot0.set(slot0, slot1, slot2)
+	slot0.subRefreshCount = slot1
+	slot0.subProgress = slot2
 
 	slot0:flush()
 	onButton(slot0, slot0.btnHelp, function ()
@@ -86,8 +85,8 @@ function slot0.flush(slot0)
 
 	slot3 = {}
 
-	_.each(slot0.maps, function (slot0)
-		for slot4, slot5 in pairs(slot0.chapters) do
+	_.each(getProxy(ChapterProxy):getNormalMaps(), function (slot0)
+		for slot4, slot5 in ipairs(slot0:getChapters()) do
 			if slot5:getPlayType() == ChapterConst.TypeMainSub and slot5:isValid() then
 				table.insert(uv0, slot5)
 			end

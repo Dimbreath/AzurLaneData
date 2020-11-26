@@ -355,24 +355,16 @@ function slot0.getExpAdditionSpeed(slot0)
 			end
 
 			slot1 = pg.dorm_data_template[uv0.dormVO.id]
-			slot2 = pg.benefit_buff_template
-			slot3 = uv0.playerVO:getBuffByType(BackYardConst.BACKYARD_BUFF)
 
-			for slot8, slot9 in ipairs(getProxy(ActivityProxy):GetBuildingBuff()) do
-				if pg.benefit_buff_template[slot9.id].benefit_type == BackYardConst.BACKYARD_BUFF then
-					table.insert(slot3, slot9)
+			for slot7, slot8 in pairs(BuffHelper.GetBackYardExpBuffs()) do
+				if slot8:isActivate() then
+					slot3 = tonumber(slot8:getConfig("benefit_effect")) / 100 + 1
 				end
 			end
 
-			for slot9, slot10 in pairs(slot3) do
-				if not slot10.timestamp or slot10.timestamp >= pg.TimeMgr.GetInstance():GetServerTime() then
-					slot5 = tonumber(slot2[slot10.id].benefit_effect) / 100 + 1
-				end
-			end
+			slot7 = uv0.dormVO:getComfortable()
 
-			slot9 = uv0.dormVO:getComfortable()
-
-			return pg.gameset["dorm_exp_ratio_by_" .. slot0].key_value / 100 * (pg.gameset.dorm_exp_base.key_value + slot1.exp * slot9 / (slot9 + pg.gameset.dorm_exp_ratio_comfort_degree.key_value)) * slot5 * (1 + 0.05 * uv0.playerVO.level)
+			return pg.gameset["dorm_exp_ratio_by_" .. slot0].key_value / 100 * (pg.gameset.dorm_exp_base.key_value + slot1.exp * slot7 / (slot7 + pg.gameset.dorm_exp_ratio_comfort_degree.key_value)) * slot3 * (1 + 0.05 * uv0.playerVO.level)
 		end() * 3600 / pg.dorm_data_template[slot0.dormVO.id].time)
 	elseif slot0.contextData.type == uv0.SHIP_CLASS_TYPE then
 		slot2 = 0

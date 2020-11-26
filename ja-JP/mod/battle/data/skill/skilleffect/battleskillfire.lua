@@ -18,19 +18,24 @@ function slot2.SetWeaponSkin(slot0, slot1)
 end
 
 function slot2.DoDataEffect(slot0, slot1, slot2)
-	slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1)
+	if slot0._weapon == nil then
+		slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1)
 
-	if slot0._modelID then
-		slot3:SetModelID(slot0._modelID)
-	elseif slot0._useSkin and slot1:GetPriorityWeaponSkin() then
-		slot3:SetModelID(uv1.GetEquipSkin(slot4))
+		if slot0._modelID then
+			slot0._weapon:SetModelID(slot0._modelID)
+		elseif slot0._useSkin and slot1:GetPriorityWeaponSkin() then
+			slot0._weapon:SetModelID(uv1.GetEquipSkin(slot3))
+		end
+
+		slot1:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CREATE_TEMPORARY_WEAPON, {
+			weapon = slot0._weapon
+		}))
 	end
 
-	slot1:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CREATE_TEMPORARY_WEAPON, {
-		weapon = slot3
-	}))
-	slot3:updateMovementInfo()
-	slot3:SingleFire(slot2, slot0._emitter)
+	slot0._weapon:updateMovementInfo()
+	slot0._weapon:SingleFire(slot2, slot0._emitter, function ()
+		uv0._weapon:Clear()
+	end)
 end
 
 function slot2.DoDataEffectWithoutTarget(slot0, slot1)
@@ -40,7 +45,7 @@ end
 function slot2.Clear(slot0)
 	uv0.super.Clear(slot0)
 
-	if slot0._weapon then
+	if slot0._weapon and not slot0._weapon:GetHost():IsAlive() then
 		slot0._weapon:Clear()
 	end
 end

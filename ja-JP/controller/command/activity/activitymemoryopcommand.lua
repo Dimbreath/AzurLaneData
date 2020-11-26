@@ -21,7 +21,8 @@ function slot0.execute(slot0, slot1)
 		cmd = 2,
 		arg2 = 0,
 		activity_id = slot4,
-		arg1 = slot3
+		arg1 = slot3,
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			table.insert(uv0.data2_list, uv1)

@@ -96,3 +96,50 @@ function sortCompare(...)
 
 	return false
 end
+
+function calcPositionAngle(slot0, slot1)
+	slot2 = Vector3(slot0, slot1, 0)
+	slot3 = Vector3.up
+	slot4 = Vector2.Angle(slot2, slot3)
+
+	return Vector3.Cross(slot2, slot3).z > 0 and slot4 or -slot4
+end
+
+function dichotomy(slot0, slot1)
+	slot2 = 1
+	slot3 = #slot1
+	slot4 = nil
+
+	while slot2 < slot3 do
+		if slot1[bit.rshift(slot2 + slot3, 1)] < slot0 then
+			slot2 = slot4 + 1
+		else
+			slot3 = slot4
+		end
+	end
+
+	if slot3 < slot2 then
+		return
+	else
+		return slot2
+	end
+end
+
+function DOAParabolaCalc(slot0, slot1, slot2)
+	slot3 = slot0 * math.sqrt(slot1 / 2)
+	slot4 = 0
+	slot5 = slot3 * slot3
+	slot6 = nil
+
+	while slot5 - slot4 > 0.01 do
+		slot6 = (slot4 + slot5) / 2
+
+		if slot3 > math.sqrt(slot6) + math.sqrt(slot6 + slot2) then
+			slot4 = slot6
+		else
+			slot5 = slot6
+		end
+	end
+
+	return slot4
+end
