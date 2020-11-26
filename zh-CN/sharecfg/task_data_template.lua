@@ -20165,6 +20165,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5541] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5394,
+		type = 5,
+		name = "比以往更加…",
+		count_inherit = 0,
+		desc = "提交3个《鱼雷天妇罗》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5542",
+		visibility = 1,
+		story_id = "XIPEIER1",
+		target_id_for_client = 50003,
+		id = 5541,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5542] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5395,
+		type = 5,
+		name = "希佩尔想要冷静",
+		count_inherit = 0,
+		desc = "强化任意角色10次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5543",
+		visibility = 1,
+		story_id = "XIPEIER2",
+		target_id_for_client = 0,
+		id = 5542,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5543] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5396,
+		type = 5,
+		name = "线索之所在",
+		count_inherit = 0,
+		desc = "希佩尔海军上将上阵出击(关卡)胜利20次'",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5544",
+		visibility = 1,
+		story_id = "XIPEIER3",
+		target_id_for_client = 40301,
+		id = 5543,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "40301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5544] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5397,
+		type = 5,
+		name = "临海的摩托之旅",
+		count_inherit = 0,
+		desc = "希佩尔海军上将上阵完成3次每日挑战'",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5545",
+		visibility = 1,
+		story_id = "XIPEIER4",
+		target_id_for_client = 40301,
+		id = 5544,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "40301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5545] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5398,
+		type = 5,
+		name = "作战会议(?)",
+		count_inherit = 0,
+		desc = "希佩尔海军上将好感度达到100'",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5546",
+		visibility = 1,
+		story_id = "XIPEIER5",
+		target_id_for_client = 40301,
+		id = 5545,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "40301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5546] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5399,
+		type = 5,
+		name = "勇气的冲锋",
+		count_inherit = 0,
+		desc = "希佩尔海军上将突破至满星'",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5547",
+		visibility = 1,
+		story_id = "XIPEIER6",
+		target_id_for_client = 403014,
+		id = 5546,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "403014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5547] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5400,
+		type = 5,
+		name = "一生的约定",
+		count_inherit = 0,
+		desc = "希佩尔海军上将等级达到100'",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "xipeierhaijunshangjiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XIPEIER7",
+		target_id_for_client = 40301,
+		id = 5547,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "40301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -115974,6 +116237,688 @@ pg.task_data_template = {
 			"LEVEL"
 		}
 	},
+	[16118] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94141,
+		type = 36,
+		name = "『DOA』日常建造",
+		count_inherit = 0,
+		desc = "建造舰船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16118,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				300
+			}
+		}
+	},
+	[16119] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94142,
+		type = 36,
+		name = "『DOA』日常出击",
+		count_inherit = 0,
+		desc = "舰队出征，获得15次胜利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16119,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				300
+			}
+		}
+	},
+	[16120] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94143,
+		type = 36,
+		name = "『DOA』日常困难本",
+		count_inherit = 0,
+		desc = "通关1次任意困难关卡 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16120,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				100
+			}
+		}
+	},
+	[16121] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94144,
+		type = 6,
+		name = "『DOA』完成「活动特殊委托」1次",
+		count_inherit = 0,
+		desc = "完成「活动特殊委托」1次",
+		target_id_2 = "",
+		sub_type = 82,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16121,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			50001,
+			50002,
+			50003,
+			50004,
+			50005,
+			50006,
+			50007,
+			50008,
+			50009,
+			50010,
+			50011,
+			50012,
+			50013,
+			50014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				200
+			},
+			{
+				8,
+				70067,
+				1
+			}
+		},
+		scene = {
+			"EVENT"
+		}
+	},
+	[16122] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94145,
+		type = 6,
+		name = "『DOA』累计建造10次",
+		count_inherit = 0,
+		desc = "建造舰船10次",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16122,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				500
+			},
+			{
+				8,
+				70066,
+				1
+			}
+		}
+	},
+	[16123] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94146,
+		type = 6,
+		name = "『DOA』关卡情绪高涨状态下获得60次胜利",
+		count_inherit = 0,
+		desc = "关卡情绪高涨状态下获得60次胜利",
+		target_id_2 = "",
+		sub_type = 13,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16123,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "8761",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				300
+			},
+			{
+				8,
+				70073,
+				1
+			},
+			{
+				5,
+				188,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16124] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94147,
+		type = 6,
+		name = "『DOA』通关SP1",
+		count_inherit = 0,
+		desc = "通关SP1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16125",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450001,
+		id = 16124,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70069,
+				1
+			}
+		}
+	},
+	[16125] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94148,
+		type = 6,
+		name = "『DOA』通关SP2",
+		count_inherit = 0,
+		desc = "通关SP2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16126",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450002,
+		id = 16125,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				400
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70071,
+				1
+			}
+		}
+	},
+	[16126] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94149,
+		type = 6,
+		name = "『DOA』通关SP3",
+		count_inherit = 0,
+		desc = "通关SP3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16127",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450003,
+		id = 16126,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70065,
+				1
+			}
+		}
+	},
+	[16127] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94150,
+		type = 6,
+		name = "『DOA』通关SP4",
+		count_inherit = 0,
+		desc = "通关SP4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16128",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450004,
+		id = 16127,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59189,
+				800
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				70075,
+				1
+			}
+		}
+	},
+	[16128] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94151,
+		type = 6,
+		name = "『DOA』通关VSP",
+		count_inherit = 0,
+		desc = "通关VSP",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450041,
+		id = 16128,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				8,
+				70077,
+				1
+			}
+		}
+	},
+	[16129] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94152,
+		type = 6,
+		name = "『DOA』SP1三星",
+		count_inherit = 0,
+		desc = "完成SP1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16130",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450001,
+		id = 16129,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70070,
+				1
+			}
+		}
+	},
+	[16130] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94153,
+		type = 6,
+		name = "『DOA』SP2三星",
+		count_inherit = 0,
+		desc = "完成SP2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16131",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450002,
+		id = 16130,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70074,
+				1
+			}
+		}
+	},
+	[16131] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94154,
+		type = 6,
+		name = "『DOA』SP3三星",
+		count_inherit = 0,
+		desc = "完成SP3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16132",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450003,
+		id = 16131,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70068,
+				1
+			}
+		}
+	},
+	[16132] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94155,
+		type = 6,
+		name = "『DOA』SP4三星",
+		count_inherit = 0,
+		desc = "完成SP4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1450004,
+		id = 16132,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1450004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70076,
+				1
+			}
+		}
+	},
+	[16140] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94100,
+		type = 6,
+		name = "『DOA』1126登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16140,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				178,
+				2
+			}
+		}
+	},
 	[30101] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -126735,6 +127680,13 @@ pg.task_data_template = {
 		5535,
 		5536,
 		5537,
+		5541,
+		5542,
+		5543,
+		5544,
+		5545,
+		5546,
+		5547,
 		6001,
 		6002,
 		6003,
@@ -129280,6 +130232,22 @@ pg.task_data_template = {
 		16115,
 		16116,
 		16117,
+		16118,
+		16119,
+		16120,
+		16121,
+		16122,
+		16123,
+		16124,
+		16125,
+		16126,
+		16127,
+		16128,
+		16129,
+		16130,
+		16131,
+		16132,
+		16140,
 		30101,
 		30102,
 		30103,

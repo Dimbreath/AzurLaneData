@@ -15,10 +15,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot0:sendNotification(GAME.STOP_BATTLE_LOADING, {})
-
-	if pg.NewStoryMgr:GetInstance():IsRunning() then
-		pg.NewStoryMgr:GetInstance():Quit()
-	end
+	pg.NewStoryMgr:GetInstance():Quit()
 
 	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
 		pg.MsgboxMgr.GetInstance():hide()
@@ -38,6 +35,7 @@ function slot0.execute(slot0, slot1)
 	DockyardScene.indexFlag = nil
 	DockyardScene.indexFlag2 = nil
 	DockyardScene.indexFlag3 = nil
+	DockyardScene.indexFlag4 = nil
 	LevelMediator2.prevRefreshBossTimeTime = nil
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil

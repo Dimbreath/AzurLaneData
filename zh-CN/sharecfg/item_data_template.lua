@@ -6046,6 +6046,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[30323] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30323",
+		id = 30323,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[40001] = {
 		limit = "[]",
 		display_effect = "OpenBox",
@@ -22534,6 +22549,7 @@ pg.item_data_template = {
 		30320,
 		30321,
 		30322,
+		30323,
 		40001,
 		40002,
 		40003,

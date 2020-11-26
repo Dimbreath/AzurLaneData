@@ -3092,6 +3092,9 @@ pg.gametip = {
 	word_shipNation_holo = {
 		tip = "hololive"
 	},
+	word_shipNation_doa = {
+		tip = "维纳斯假期"
+	},
 	word_reset = {
 		tip = "重置"
 	},
@@ -6129,7 +6132,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>20.10.29-20.11.11</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+		tip = "*活动期间(<color=#A1E400FF>20.11.26-20.12.9</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
 	},
 	battle_result_boss_destruct = {
 		tip = "阻止boss自毁并击破boss"
@@ -7158,7 +7161,7 @@ $3]]
 		tip = "天赋点不足"
 	},
 	buildship_new_tip = {
-		tip = "黛朵(μ兵装)、{namecode:97}(μ兵装)、塔什干(μ兵装)等角色建造概率UP！"
+		tip = "玛莉萝丝、穗香、霞 等角色建造概率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "{namecode:82}、{namecode:71} 建造追加！"
@@ -9564,6 +9567,24 @@ TIPS：
 			}
 		}
 	},
+	doa_collection = {
+		tip = {
+			{
+				info = "活动时间：<color=#92fc63>11.26-12.10</color>\n1.活动期间，参与活动收集「角色喜好」，收集全部<color=#92fc63>14</color>个\n后可获得限定家具<color=#92fc63>「维纳斯假期纪念像」</color>"
+			},
+			{
+				info = [[
+2.参与以下内容可以收集「角色喜好」：
+①通过活动关卡
+②完成活动任务
+③累积维纳斯点数
+④完成维纳斯排球练习赛]]
+			},
+			{
+				info = "3.领取时间截止12月16日23点59分"
+			}
+		}
+	},
 	ins_word_day = {
 		tip = "$1天前"
 	},
@@ -10311,6 +10332,15 @@ TIPS：
 	},
 	index_strengthen = {
 		tip = "可强化"
+	},
+	index_special = {
+		tip = "特殊"
+	},
+	index_not_obtained = {
+		tip = "未获得"
+	},
+	index_no_limit = {
+		tip = "无限制"
 	},
 	decodegame_gametip = {
 		tip = {
@@ -11446,5 +11476,125 @@ BUFF加成也会增加
 	},
 	fighterplane_score_tip = {
 		tip = "总计"
+	},
+	venusvolleyball_help = {
+		tip = {
+			{
+				info = [[
+活动规则：
+1.<color=#92fc63>12月2日</color>为止每日0点开放<color=#92fc63>1</color>场新的比赛，总计<color=#92fc63>7</color>场，可累
+计。全部完成后可以获得限定装备<color=#92fc63>「觉醒宝珠」</color>以及角色
+喜好道具-<color=#92fc63>「喜好食物(莫妮卡)」</color>
+2.点击开始游戏，选择两名角色后开始比赛，任意一方获
+得<color=#92fc63>5</color>分后即可完成游戏
+3.指挥官在接球和击球时会出现判定圈，点击屏幕任意位
+置完成判定
+4.判定圈缩至外圈与内圈之间时点击视为good，判定圈
+缩至内圈后点击视为perfect，未进行点击或判定圈未缩
+到外圈时点击视为miss
+接球时：判定miss为失分，判定good和perfect成功接球
+击球时：判定miss击球但不得分，判定good和perfect击
+球得分
+5.未开放全部比赛前，可重复挑战当日比赛，在完成全部
+比赛后开启自由挑战，指挥官可自由选择角色进行比赛]]
+			}
+		}
+	},
+	venusvolleyball_rule_tip = {
+		tip = "先得$1分"
+	},
+	venusvolleyball_return_tip = {
+		tip = "是否退出游戏？退出游戏不会视为完成该场比赛"
+	},
+	venusvolleyball_suspend_tip = {
+		tip = "是否继续游戏？"
+	},
+	doa_main = {
+		tip = {
+			{
+				info = [[
+活动规则：
+<color=#92fc63>11.26-12.10</color>期间开启限时活动「假日航线」
+1.通过特别作战获取「维纳斯点数」，在「累计奖励」和
+「补给商店」处兑换丰厚奖励
+2.完成「排球练习赛」小游戏第七战可以获得限定装备
+<color=#92fc63>「觉醒宝珠」</color>
+注意：每日开放1场新的比赛，总计7场
+3.在活动中收集14个「角色喜好」道具后，可在
+「纪念章」处获取<color=#92fc63>「维纳斯假期纪念像」</color>
+详细获取条件可在「纪念章」界面查看
+4.点击「限时建造」可以前往建造界面
+5.点击「换装商店」可以前往换装商店界面
+6.<color=#92fc63>11.26-12.09</color> 每日刷新一个活动特殊委托，该委托不占
+用可派出舰队上限，完成委托可获取活动奖励
+未进行的委托将于次日消失，进行中的委托可于次日领取
+奖励，领取奖励后可刷新次日的活动特殊委托，领取时间
+截止12月16日23点59分]]
+			}
+		}
+	},
+	doa_pt_help = {
+		tip = {
+			{
+				info = [[
+活动规则：
+1.活动期间指挥官获得<color=#92fc63>「维纳斯点数」</color>后可以在活动页面
+对执照等级进行升级，当执照等级提升时会出现能力值强
+化选择界面，指挥官可以选择能力值进行强化
+2.能力值分为力量、技巧、体力、魅力四种，每种能力值
+可以强化两次，并且会提供额外的加成：
+①力量：主线、困难、活动、作战档案关卡中，造成的伤
+害提高
+②技巧：战术学院学习时间缩短
+③体力：主线、困难、活动、作战档案关卡中，角色经验
+获取提高
+④魅力：后宅经验加成提高
+3.点击页面右侧执照等级图标可以查看每种能力值提供的
+额外加成]]
+			}
+		}
+	},
+	doa_pt_complete = {
+		tip = "强化已完成"
+	},
+	doa_pt_up = {
+		tip = "是否对$1进行强化?"
+	},
+	doa_liliang = {
+		tip = "力量"
+	},
+	doa_jiqiao = {
+		tip = "技巧"
+	},
+	doa_tili = {
+		tip = "体力"
+	},
+	doa_meili = {
+		tip = "魅力"
+	},
+	help_act_event = {
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/event_doa"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }

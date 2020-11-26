@@ -815,9 +815,23 @@ function slot0.getFleetStgIds(slot0, slot1)
 	end
 
 	for slot9 = #slot2, 1, -1 do
-		if pg.strategy_data_template[slot2[slot9]].buff_id == 0 then
+		if not pg.strategy_data_template[slot2[slot9]] or pg.strategy_data_template[slot2[slot9]].buff_id == 0 then
 			table.remove(slot2, slot9)
 		end
+	end
+
+	return slot2
+end
+
+function slot0.GetShowingStartegies(slot0)
+	for slot6, slot7 in ipairs(slot0:getExtraFlags()) do
+		if pg.strategy_data_template[ChapterConst.Status2StgBuff[slot7]].buff_id == 0 then
+			table.insert(slot0:getFleetStgIds(slot0.fleet), slot8)
+		end
+	end
+
+	if slot0:getPlayType() == ChapterConst.TypeDOALink and pg.gameset.doa_fever_count.key_value <= slot0.defeatEnemies then
+		table.insert(slot2, pg.gameset.doa_fever_strategy.key_value)
 	end
 
 	return slot2
@@ -897,6 +911,14 @@ function slot0.GetFleetAttachmentConfig(slot0, slot1, slot2, slot3)
 	return uv0.GetEventTemplateByKey(slot1, slot5.attachmentId)
 end
 
+function slot0.GetCellEventByKey(slot0, slot1, slot2, slot3)
+	if not slot0.cells[ChapterCell.Line2Name(slot2 or slot0.fleet.line.row, slot3 or slot0.fleet.line.column)] then
+		return
+	end
+
+	return uv0.GetEventTemplateByKey(slot1, slot5.attachmentId)
+end
+
 function slot0.GetEventTemplateByKey(slot0, slot1)
 	if not pg.map_event_template[slot1] then
 		return
@@ -913,14 +935,6 @@ function slot0.GetEventTemplateByKey(slot0, slot1)
 	end
 
 	return slot3
-end
-
-function slot0.GetCellEventByKey(slot0, slot1, slot2, slot3)
-	if not slot0.cells[ChapterCell.Line2Name(slot2 or slot0.fleet.line.row, slot3 or slot0.fleet.line.column)] then
-		return
-	end
-
-	return uv0.GetEventTemplateByKey(slot1, slot5.attachmentId)
 end
 
 function slot0.buildBattleBuffList(slot0, slot1)
@@ -985,6 +999,12 @@ function slot0.updateFleetShipHp(slot0, slot1, slot2)
 		if slot7.id ~= slot0.fleet.id then
 			slot7:clearShipHpChange()
 		end
+	end
+end
+
+function slot0.DealDMG2Fleets(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.fleets) do
+		slot6:DealDMG2Ships(slot1)
 	end
 end
 
@@ -2227,6 +2247,10 @@ function slot0.writeBack(slot0, slot1, slot2)
 
 			slot3.defeatEnemies = slot3.defeatEnemies + 1
 			slot0.defeatEnemies = slot0.defeatEnemies + 1
+
+			if slot0:getPlayType() == ChapterConst.TypeDOALink and not table.contains(slot0.buff_list, pg.gameset.doa_fever_buff.key_value) and pg.gameset.doa_fever_count.key_value <= slot0.defeatEnemies then
+				table.insert(slot0.buff_list, pg.gameset.doa_fever_buff.key_value)
+			end
 		end
 
 		if slot0:getPlayType() == ChapterConst.TypeMainSub and slot5 == ChapterConst.AttachBoss and slot2.statistics._battleScore == ys.Battle.BattleConst.BattleScore.S then
@@ -2235,9 +2259,7 @@ function slot0.writeBack(slot0, slot1, slot2)
 				return type(pg.expedition_data_by_map[slot0].drop_by_map_display) == "table" and #slot1 > 0
 			end), slot0:getConfig("map")) + 1)
 		end
-	end
 
-	if slot5 ~= ChapterConst.AttachBoss then
 		getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, {
 			score = slot2.statistics._battleScore,
 			line = {

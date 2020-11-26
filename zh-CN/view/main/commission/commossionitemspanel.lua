@@ -1,8 +1,4 @@
 slot0 = class("CommossionItemsPanel")
-slot0.STATE_LOCK = 0
-slot0.STATE_EMPTY = 1
-slot0.STATE_ACTIVE = 2
-slot0.STATE_FINISHED = 3
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0._go = slot1
@@ -15,82 +11,117 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.updateEventItems(slot0, slot1, slot2)
-	for slot6, slot7 in pairs(slot0.timers or {}) do
-		slot7:Stop()
-	end
+	slot3 = slot2.maxFleetNums
+	slot4 = pairs
 
-	function slot3(slot0)
-		slot1 = uv0.STATE_LOCK
-
-		if uv1 < slot0 then
-			slot1 = uv0.STATE_LOCK
-		elseif slot0 > #uv2 then
-			return uv0.STATE_EMPTY
-		elseif uv2[slot0].state == EventInfo.StateFinish then
-			return uv0.STATE_FINISHED
-		elseif uv2[slot0].state == EventInfo.StateActive then
-			return uv0.STATE_ACTIVE
-		end
-
-		return slot1
+	for slot7, slot8 in slot4(slot0.timers or {}) do
+		slot8:Stop()
 	end
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
-		if uv0(slot1 + 1) == uv1.STATE_LOCK then
-			setText(slot2:Find("lock/Text"), i18n("commission_no_open") .. "\n" .. i18n("commission_open_tip", uv2:getChapterByCount(slot3).chapter_name))
-		elseif slot4 == uv1.STATE_EMPTY then
-			setText(slot2:Find("unlock/name_bg/Text"), i18n("commission_idle"))
-			onButton(uv2, slot2:Find("unlock/leisure/go_btn"), function ()
-				uv0._viewComponent:emit(CommissionInfoMediator.ON_ACTIVE_EVENT)
-			end, SFX_PANEL)
-			onButton(uv2, slot2, function ()
-				triggerButton(uv0:Find("unlock/leisure/go_btn"))
-			end, SFX_PANEL)
-		elseif slot4 == uv1.STATE_FINISHED then
-			setText(slot2:Find("unlock/name_bg/Text"), uv3[slot3].template.title)
-			onButton(uv2, slot2:Find("unlock/finished/finish_btn"), function ()
-				uv0._viewComponent:emit(CommissionInfoMediator.FINISH_EVENT, uv1)
-			end, SFX_PANEL)
-			onButton(uv2, slot2, function ()
-				triggerButton(uv0:Find("unlock/finished/finish_btn"))
-			end, SFX_PANEL)
-		elseif slot4 == uv1.STATE_ACTIVE then
-			slot5 = uv3[slot3]
-
-			setText(slot2:Find("unlock/name_bg/Text"), slot5.template.title)
-
-			slot6 = slot2:Find("unlock/ongoging/time"):GetComponent(typeof(Text))
-			slot7 = slot5.finishTime + 2
-
-			if uv2.timers[slot5.id] then
-				uv2.timers[slot5.id]:Stop()
-
-				uv2.timers[slot5.id] = nil
+		if slot0 == UIItemList.EventUpdate then
+			if uv0 < slot1 + 1 then
+				setText(slot2:Find("lock/Text"), i18n("commission_no_open") .. "\n" .. i18n("commission_open_tip", uv1:getChapterByCount(slot3).chapter_name))
+			else
+				uv1:UpdateEventInfo(slot2, uv2[slot3])
 			end
 
-			uv2.timers[slot5.id] = Timer.New(function ()
-				if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-					uv1.timers[uv2.id]:Stop()
-
-					uv1.timers[uv2.id] = nil
-
-					uv1._parent:update()
-				else
-					uv3.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
-				end
-			end, 1, -1)
-
-			uv2.timers[slot5.id]:Start()
-			uv2.timers[slot5.id].func()
+			setActive(slot2:Find("unlock"), not slot4)
+			setActive(slot2:Find("lock"), slot4)
+			uv1:UpdateStyle(slot2, false, eventInfo)
 		end
-
-		setActive(slot2:Find("unlock"), slot4 ~= uv1.STATE_LOCK)
-		setActive(slot2:Find("lock"), slot4 == uv1.STATE_LOCK)
-		setActive(slot2:Find("unlock/leisure"), slot4 == uv1.STATE_EMPTY)
-		setActive(slot2:Find("unlock/ongoging"), slot4 == uv1.STATE_ACTIVE)
-		setActive(slot2:Find("unlock/finished"), slot4 == uv1.STATE_FINISHED)
 	end)
 	slot0.uilist:align(4)
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot4:isEnd() and slot2:GetEventByActivityId(slot4.id) then
+		slot6 = cloneTplTo(slot0.uilist.item, slot0.uilist.container)
+
+		slot6:SetAsFirstSibling()
+		slot0:UpdateEventInfo(slot6, slot5)
+		setActive(slot6:Find("unlock"), true)
+		setActive(slot6:Find("lock"), false)
+		slot0:UpdateStyle(slot6, true, eventInfo)
+	end
+end
+
+function slot0.UpdateStyle(slot0, slot1, slot2, slot3)
+	slot4 = slot3 and slot3.state or EventInfo.StateNone
+	slot5 = "icon_1"
+	slot6 = "icon_4"
+	slot7 = "icon_3"
+
+	if slot2 then
+		slot7 = "icon_6"
+		slot6 = "icon_6"
+		slot5 = "icon_5"
+	end
+
+	slot1:Find("unlock/leisure/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot5)
+	slot1:Find("unlock/ongoging/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot6)
+	slot1:Find("unlock/finished/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot7)
+	slot8 = "event_ongoing"
+
+	if slot2 then
+		slot8 = "event_bg_act"
+	end
+
+	slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot8)
+	slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot8)
+	slot10 = slot2 and Color.New(0.996078431372549, 0.7568627450980392, 0.9725490196078431, 1) or Color.New(0.6039215686274509, 0.7843137254901961, 0.9607843137254902, 1)
+	slot1:Find("unlock/ongoging/print"):GetComponent(typeof(Image)).color = slot10
+	slot1:Find("unlock/finished/print"):GetComponent(typeof(Image)).color = slot10
+
+	setActive(slot1:Find("unlock/act"), slot4 == EventInfo.StateNone and slot2)
+end
+
+function slot0.UpdateEventInfo(slot0, slot1, slot2)
+	if (slot2 and slot2.state or EventInfo.StateNone) == EventInfo.StateNone then
+		setText(slot1:Find("unlock/name_bg/Text"), i18n("commission_idle"))
+		onButton(slot0, slot1:Find("unlock/leisure/go_btn"), function ()
+			uv0._viewComponent:emit(CommissionInfoMediator.ON_ACTIVE_EVENT)
+		end, SFX_PANEL)
+		onButton(slot0, slot1, function ()
+			triggerButton(uv0:Find("unlock/leisure/go_btn"))
+		end, SFX_PANEL)
+	elseif slot3 == EventInfo.StateFinish then
+		setText(slot1:Find("unlock/name_bg/Text"), slot2.template.title)
+		onButton(slot0, slot1:Find("unlock/finished/finish_btn"), function ()
+			uv0._viewComponent:emit(CommissionInfoMediator.FINISH_EVENT, uv1)
+		end, SFX_PANEL)
+		onButton(slot0, slot1, function ()
+			triggerButton(uv0:Find("unlock/finished/finish_btn"))
+		end, SFX_PANEL)
+	elseif slot3 == EventInfo.StateActive then
+		setText(slot1:Find("unlock/name_bg/Text"), slot2.template.title)
+
+		slot4 = slot1:Find("unlock/ongoging/time"):GetComponent(typeof(Text))
+		slot5 = slot2.finishTime + 2
+
+		if slot0.timers[slot2.id] then
+			slot0.timers[slot2.id]:Stop()
+
+			slot0.timers[slot2.id] = nil
+		end
+
+		slot0.timers[slot2.id] = Timer.New(function ()
+			if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+				uv1.timers[uv2.id]:Stop()
+
+				uv1.timers[uv2.id] = nil
+
+				uv1._parent:update()
+			else
+				uv3.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
+			end
+		end, 1, -1)
+
+		slot0.timers[slot2.id]:Start()
+		slot0.timers[slot2.id].func()
+	end
+
+	setActive(slot1:Find("unlock/leisure"), slot3 == EventInfo.StateNone)
+	setActive(slot1:Find("unlock/ongoging"), slot3 == EventInfo.StateActive)
+	setActive(slot1:Find("unlock/finished"), slot3 == EventInfo.StateFinish)
 end
 
 function slot0.getChapterByCount(slot0, slot1)

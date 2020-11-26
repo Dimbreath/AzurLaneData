@@ -15,7 +15,8 @@ function slot0.execute(slot0, slot1)
 			activity_id = slot2.activity_id,
 			arg1 = slot2.arg1 or 0,
 			arg2 = slot2.arg2 or 0,
-			arg3 = slot2.arg3 or 0
+			arg3 = slot2.arg3 or 0,
+			arg_list = {}
 		}, 11203, function (slot0)
 			if slot0.result == 0 then
 				uv0:UpdateMessage(Instagram.New(slot0.ins_message))

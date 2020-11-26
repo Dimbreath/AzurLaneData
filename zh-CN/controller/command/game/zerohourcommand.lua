@@ -154,6 +154,31 @@ function slot0.execute(slot0, slot1)
 		slot13:updateActivity(slot24)
 	end
 
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot26:isEnd() then
+		slot27, slot28 = getProxy(EventProxy):GetEventByActivityId(slot26.id)
+
+		if not slot27 or slot27 and not slot27:IsStarting() then
+			if slot27 and slot28 then
+				table.remove(getProxy(EventProxy).eventList, slot28)
+			end
+
+			slot29 = slot26:getConfig("config_data")
+
+			if slot26:getDayIndex() > 0 and slot30 <= #slot29 then
+				getProxy(EventProxy):AddActivityEvent(EventInfo.New({
+					finish_time = 0,
+					over_time = 0,
+					id = slot29[slot30],
+					ship_id_list = {},
+					activity_id = slot26.id
+				}))
+			end
+
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
+			slot0:sendNotification(GAME.EVENT_LIST_UPDATE)
+		end
+	end
+
 	slot0:sendNotification(GAME.ZERO_HOUR_OP_DONE)
 end
 

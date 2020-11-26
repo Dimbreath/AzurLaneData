@@ -435,16 +435,8 @@ function slot0.addExp(slot0, slot1)
 	end
 end
 
-function slot0.getBuffByType(slot0, slot1)
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot0.buff_list) do
-		if pg.benefit_buff_template[slot7.id].benefit_type == slot1 then
-			table.insert(slot2, slot7)
-		end
-	end
-
-	return slot2
+function slot0.GetBuffs(slot0)
+	return slot0.buff_list
 end
 
 function slot0.getLevelExpConfig(slot0)

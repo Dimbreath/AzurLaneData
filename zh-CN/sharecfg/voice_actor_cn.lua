@@ -995,5 +995,21 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "汐见雪菜",
 		code = 249
+	},
+	{
+		actor_name = "桑岛法子",
+		code = 250
+	},
+	{
+		actor_name = "野中蓝",
+		code = 251
+	},
+	{
+		actor_name = "相泽舞",
+		code = 252
+	},
+	{
+		actor_name = "佐藤朱",
+		code = 253
 	}
 }

@@ -14,7 +14,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot0:sendNotification(GAME.MAINUI_ACT_BTN_DONE, {
-		cnt = slot4,
+		cnt = slot4 + #_.filter(ActivityMainScene.GetOnShowEntranceData(), function (slot0)
+			return slot0.isTip and slot0.isTip()
+		end),
 		priority = slot5
 	})
 end

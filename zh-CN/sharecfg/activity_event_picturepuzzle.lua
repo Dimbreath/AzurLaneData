@@ -72,8 +72,35 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {}
 	},
+	[783] = {
+		define = 0,
+		cd = 0,
+		drop = 94156,
+		chapter = 0,
+		id = 783,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			70077,
+			70078,
+			70071,
+			70072,
+			70075,
+			70076,
+			70067,
+			70068,
+			70073,
+			70074,
+			70069,
+			70070,
+			70065,
+			70066
+		},
+		story = {},
+		awards = {}
+	},
 	all = {
 		549,
-		758
+		758,
+		783
 	}
 }

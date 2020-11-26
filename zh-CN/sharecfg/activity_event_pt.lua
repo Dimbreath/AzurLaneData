@@ -11,6 +11,7 @@ pg.activity_event_pt = {
 		id_2 = 280,
 		id = 284,
 		pt = 123,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -291,6 +292,7 @@ pg.activity_event_pt = {
 		id_2 = 305,
 		id = 312,
 		pt = 126,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -585,6 +587,7 @@ pg.activity_event_pt = {
 		id_2 = 316,
 		id = 316,
 		pt = 127,
+		buff_time = "",
 		target = {
 			100,
 			200,
@@ -655,6 +658,7 @@ pg.activity_event_pt = {
 		id_2 = 330,
 		id = 330,
 		pt = 2,
+		buff_time = "",
 		target = {
 			500,
 			1000,
@@ -746,6 +750,7 @@ pg.activity_event_pt = {
 		id_2 = 326,
 		id = 331,
 		pt = 130,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -1040,6 +1045,7 @@ pg.activity_event_pt = {
 		id_2 = 340,
 		id = 345,
 		pt = 131,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -1334,6 +1340,7 @@ pg.activity_event_pt = {
 		id_2 = 348,
 		id = 348,
 		pt = 2,
+		buff_time = "",
 		target = {
 			500,
 			1000,
@@ -1425,6 +1432,7 @@ pg.activity_event_pt = {
 		id_2 = 351,
 		id = 350,
 		pt = 132,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -1607,6 +1615,7 @@ pg.activity_event_pt = {
 		id_2 = 361,
 		id = 361,
 		pt = 134,
+		buff_time = "",
 		target = {
 			3000
 		},
@@ -1635,6 +1644,7 @@ pg.activity_event_pt = {
 		id_2 = 362,
 		id = 373,
 		pt = 133,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -1929,6 +1939,7 @@ pg.activity_event_pt = {
 		id_2 = 378,
 		id = 378,
 		pt = 1,
+		buff_time = "",
 		target = {
 			500,
 			1000,
@@ -2090,6 +2101,7 @@ pg.activity_event_pt = {
 		id_2 = 379,
 		id = 379,
 		pt = 2,
+		buff_time = "",
 		target = {
 			500,
 			1000,
@@ -2181,6 +2193,7 @@ pg.activity_event_pt = {
 		id_2 = 386,
 		id = 386,
 		pt = 2002,
+		buff_time = "",
 		target = {
 			400,
 			600,
@@ -2361,6 +2374,7 @@ pg.activity_event_pt = {
 		id_2 = 399,
 		id = 399,
 		pt = 0,
+		buff_time = "",
 		target = {
 			100,
 			250,
@@ -2429,6 +2443,7 @@ pg.activity_event_pt = {
 		id_2 = 409,
 		id = 409,
 		pt = 137,
+		buff_time = "",
 		target = {
 			100,
 			200,
@@ -2870,6 +2885,7 @@ pg.activity_event_pt = {
 		id_2 = 421,
 		id = 421,
 		pt = 2,
+		buff_time = "",
 		target = {
 			500,
 			1000,
@@ -2987,6 +3003,7 @@ pg.activity_event_pt = {
 		id_2 = 430,
 		id = 430,
 		pt = 138,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -3299,6 +3316,7 @@ pg.activity_event_pt = {
 		id_2 = 437,
 		id = 437,
 		pt = 139,
+		buff_time = "",
 		target = {
 			100,
 			200,
@@ -3367,6 +3385,7 @@ pg.activity_event_pt = {
 		id_2 = 450,
 		id = 450,
 		pt = 140,
+		buff_time = "",
 		target = {
 			3000
 		},
@@ -3395,6 +3414,7 @@ pg.activity_event_pt = {
 		id_2 = 452,
 		id = 462,
 		pt = 141,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -3689,6 +3709,7 @@ pg.activity_event_pt = {
 		id_2 = 477,
 		id = 477,
 		pt = 2004,
+		buff_time = "",
 		target = {
 			400,
 			600,
@@ -3869,6 +3890,7 @@ pg.activity_event_pt = {
 		id_2 = 493,
 		id = 493,
 		pt = 142,
+		buff_time = "",
 		target = {
 			3400
 		},
@@ -3897,6 +3919,7 @@ pg.activity_event_pt = {
 		id_2 = 506,
 		id = 506,
 		pt = 143,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -4212,6 +4235,7 @@ pg.activity_event_pt = {
 		id_2 = 522,
 		id = 522,
 		pt = 145,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -4331,6 +4355,7 @@ pg.activity_event_pt = {
 		id_2 = 525,
 		id = 525,
 		pt = 146,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -4492,6 +4517,7 @@ pg.activity_event_pt = {
 		id_2 = 534,
 		id = 534,
 		pt = 148,
+		buff_time = "",
 		target = {
 			2800
 		},
@@ -4520,6 +4546,7 @@ pg.activity_event_pt = {
 		id_2 = 545,
 		id = 545,
 		pt = 149,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -4835,6 +4862,7 @@ pg.activity_event_pt = {
 		id_2 = 564,
 		id = 564,
 		pt = 151,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -5148,6 +5176,7 @@ pg.activity_event_pt = {
 		id_2 = 568,
 		id = 568,
 		pt = 152,
+		buff_time = "",
 		target = {
 			100,
 			200,
@@ -5216,6 +5245,7 @@ pg.activity_event_pt = {
 		id_2 = 580,
 		id = 580,
 		pt = 154,
+		buff_time = "",
 		target = {
 			3000
 		},
@@ -5242,6 +5272,7 @@ pg.activity_event_pt = {
 		id_2 = 582,
 		id = 582,
 		pt = 2,
+		buff_time = "",
 		target = {
 			500,
 			1000,
@@ -5331,6 +5362,7 @@ pg.activity_event_pt = {
 		id_2 = 588,
 		id = 588,
 		pt = 157,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -5492,6 +5524,7 @@ pg.activity_event_pt = {
 		id_2 = 594,
 		id = 594,
 		pt = 159,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -5807,6 +5840,7 @@ pg.activity_event_pt = {
 		id_2 = 614,
 		id = 614,
 		pt = 161,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -5926,6 +5960,7 @@ pg.activity_event_pt = {
 		id_2 = 623,
 		id = 623,
 		pt = 2006,
+		buff_time = "",
 		target = {
 			400,
 			600,
@@ -6106,6 +6141,7 @@ pg.activity_event_pt = {
 		id_2 = 634,
 		id = 634,
 		pt = 162,
+		buff_time = "",
 		target = {
 			3000
 		},
@@ -6132,6 +6168,7 @@ pg.activity_event_pt = {
 		id_2 = 640,
 		id = 640,
 		pt = 163,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -6447,6 +6484,7 @@ pg.activity_event_pt = {
 		id_2 = 671,
 		id = 671,
 		pt = 166,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -6741,6 +6779,7 @@ pg.activity_event_pt = {
 		id_2 = 680,
 		id = 680,
 		pt = 169,
+		buff_time = "",
 		target = {
 			3600
 		},
@@ -6767,6 +6806,7 @@ pg.activity_event_pt = {
 		id_2 = 703,
 		id = 703,
 		pt = 171,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -7061,6 +7101,7 @@ pg.activity_event_pt = {
 		id_2 = 732,
 		id = 732,
 		pt = 172,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -7180,6 +7221,7 @@ pg.activity_event_pt = {
 		id_2 = 740,
 		id = 740,
 		pt = 0,
+		buff_time = "",
 		target = {
 			100,
 			250,
@@ -7245,6 +7287,7 @@ pg.activity_event_pt = {
 		id_2 = 753,
 		id = 753,
 		pt = 175,
+		buff_time = "",
 		target = {
 			100,
 			300,
@@ -7597,6 +7640,7 @@ pg.activity_event_pt = {
 		id_2 = 769,
 		id = 769,
 		pt = 176,
+		buff_time = "",
 		target = {
 			100,
 			200,
@@ -7654,6 +7698,349 @@ pg.activity_event_pt = {
 			7
 		}
 	},
+	[779] = {
+		link_id = 0,
+		type = 1,
+		drop_display = "",
+		pic_list = "",
+		pt_list = "",
+		id_2 = 779,
+		id = 779,
+		pt = 177,
+		target = {
+			100,
+			300,
+			500,
+			700,
+			1000,
+			1500,
+			2000,
+			2500,
+			3000,
+			3500,
+			4000,
+			4500,
+			5000,
+			5500,
+			6000,
+			6500,
+			7000,
+			7500,
+			8000,
+			8500,
+			9000,
+			9500,
+			10000,
+			10500,
+			11000,
+			12000,
+			13000,
+			14000,
+			15000,
+			20000,
+			25000,
+			30000,
+			35000,
+			40000,
+			45000,
+			50000,
+			55000,
+			60000,
+			80000,
+			100000
+		},
+		drop_client = {
+			{
+				2,
+				54005,
+				5
+			},
+			{
+				2,
+				18012,
+				1
+			},
+			{
+				2,
+				18002,
+				1
+			},
+			{
+				1,
+				1,
+				3000
+			},
+			{
+				2,
+				15008,
+				200
+			},
+			{
+				1,
+				1,
+				3000
+			},
+			{
+				2,
+				18012,
+				1
+			},
+			{
+				2,
+				18002,
+				1
+			},
+			{
+				1,
+				1,
+				4000
+			},
+			{
+				2,
+				15008,
+				300
+			},
+			{
+				2,
+				18022,
+				1
+			},
+			{
+				2,
+				18032,
+				1
+			},
+			{
+				2,
+				16003,
+				2
+			},
+			{
+				2,
+				15008,
+				300
+			},
+			{
+				2,
+				18013,
+				1
+			},
+			{
+				2,
+				18003,
+				1
+			},
+			{
+				2,
+				16023,
+				2
+			},
+			{
+				2,
+				15008,
+				300
+			},
+			{
+				3,
+				89260,
+				1
+			},
+			{
+				2,
+				18033,
+				1
+			},
+			{
+				2,
+				16013,
+				2
+			},
+			{
+				2,
+				15008,
+				300
+			},
+			{
+				4,
+				10600061,
+				1
+			},
+			{
+				8,
+				70072,
+				1
+			},
+			{
+				2,
+				54006,
+				2
+			},
+			{
+				2,
+				15008,
+				500
+			},
+			{
+				2,
+				18013,
+				1
+			},
+			{
+				2,
+				18003,
+				1
+			},
+			{
+				2,
+				42026,
+				1
+			},
+			{
+				4,
+				10600061,
+				1
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				500
+			},
+			{
+				2,
+				54006,
+				5
+			},
+			{
+				4,
+				10600061,
+				1
+			},
+			{
+				2,
+				54051,
+				2
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				54051,
+				2
+			},
+			{
+				4,
+				10600061,
+				1
+			},
+			{
+				2,
+				30035,
+				1
+			},
+			{
+				2,
+				30035,
+				1
+			}
+		},
+		allplayer = {
+			0.1
+		},
+		day_unlock = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		target_buff = {
+			3,
+			6,
+			9,
+			12,
+			15,
+			18,
+			21,
+			23
+		},
+		buff_group = {
+			{
+				35,
+				36,
+				37
+			},
+			{
+				38,
+				39,
+				40
+			},
+			{
+				41,
+				42,
+				43
+			},
+			{
+				44,
+				45,
+				46
+			}
+		},
+		buff_time = {
+			{
+				2020,
+				12,
+				10
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
 	[1020] = {
 		link_id = 0,
 		buff_group = "",
@@ -7665,6 +8052,7 @@ pg.activity_event_pt = {
 		id_2 = 1020,
 		id = 1020,
 		pt = 1001,
+		buff_time = "",
 		target = {
 			200,
 			400,
@@ -7999,6 +8387,7 @@ pg.activity_event_pt = {
 		id_2 = 1021,
 		id = 1021,
 		pt = 1001,
+		buff_time = "",
 		target = {
 			200,
 			400,
@@ -8333,6 +8722,7 @@ pg.activity_event_pt = {
 		id_2 = 1022,
 		id = 1022,
 		pt = 1001,
+		buff_time = "",
 		target = {
 			200,
 			400,
@@ -8667,6 +9057,7 @@ pg.activity_event_pt = {
 		id_2 = 1023,
 		id = 1023,
 		pt = 1001,
+		buff_time = "",
 		target = {
 			200,
 			400,
@@ -9001,6 +9392,7 @@ pg.activity_event_pt = {
 		id_2 = 1024,
 		id = 1024,
 		pt = 1001,
+		buff_time = "",
 		target = {
 			200,
 			400,
@@ -9335,6 +9727,7 @@ pg.activity_event_pt = {
 		id_2 = 1025,
 		id = 1025,
 		pt = 1001,
+		buff_time = "",
 		target = {
 			200,
 			400,
@@ -9669,6 +10062,7 @@ pg.activity_event_pt = {
 		id_2 = 1026,
 		id = 1026,
 		pt = 1001,
+		buff_time = "",
 		target = {
 			200,
 			400,
@@ -10003,6 +10397,7 @@ pg.activity_event_pt = {
 		id_2 = 1027,
 		id = 1027,
 		pt = 1001,
+		buff_time = "",
 		target = {
 			200,
 			400,
@@ -10371,6 +10766,7 @@ pg.activity_event_pt = {
 		740,
 		753,
 		769,
+		779,
 		1020,
 		1021,
 		1022,

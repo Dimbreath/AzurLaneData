@@ -16,7 +16,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.mode = slot1.mode
 	slot0.once = slot1.once
 	slot0.fadeOut = slot1.fadeOut
-	slot0.hideSkip = slot3 or slot1.hideSkip
+	slot0.hideSkip = slot1.hideSkip
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
 	slot0.steps = {}
 

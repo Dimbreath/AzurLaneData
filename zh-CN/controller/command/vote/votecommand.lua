@@ -32,7 +32,8 @@ function slot0.execute(slot0, slot1)
 		activity_id = activityId,
 		arg1 = slot3,
 		arg2 = slot4,
-		arg3 = slot5
+		arg3 = slot5,
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			slot1 = getProxy(ActivityProxy)

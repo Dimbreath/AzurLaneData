@@ -4,6 +4,7 @@ EventDetailPanel = require("view/event/EventDetailPanel")
 slot0 = class("EventListScene", import("..base.BaseUI"))
 slot1 = {
 	{
+		0,
 		1,
 		3,
 		4,
@@ -283,19 +284,23 @@ function slot0.filter(slot0)
 	end
 
 	slot0.eventList = _.sort(slot0.eventList, function (slot0, slot1)
-		if slot0.state ~= slot1.state then
-			return slot1.state < slot0.state
-		end
+		if (slot0:IsActivityType() and 1 or 0) == (slot1:IsActivityType() and 1 or 0) then
+			if slot0.state ~= slot1.state then
+				return slot1.state < slot0.state
+			end
 
-		if slot0.template.type == 3 and slot1.template.type ~= 3 then
-			return true
-		end
+			if slot0.template.type == 3 and slot1.template.type ~= 3 then
+				return true
+			end
 
-		if slot0.template.type ~= 3 and slot1.template.type == 3 then
-			return false
-		end
+			if slot0.template.type ~= 3 and slot1.template.type == 3 then
+				return false
+			end
 
-		return slot0.id < slot1.id
+			return slot0.id < slot1.id
+		else
+			return slot3 < slot2
+		end
 	end)
 end
 

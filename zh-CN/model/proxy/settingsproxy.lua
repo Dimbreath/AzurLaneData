@@ -338,4 +338,21 @@ function slot0.CheckNeedUserAgreement(slot0)
 	return true
 end
 
+function slot0.ShouldShowEventActHelp(slot0)
+	if not slot0.actEventFlag then
+		slot0.actEventFlag = PlayerPrefs.GetInt("event_act_help" .. getProxy(PlayerProxy):getRawData().id, 0) > 0
+	end
+
+	return not slot0.actEventFlag
+end
+
+function slot0.MarkEventActHelpFlag(slot0)
+	if not slot0.actEventFlag then
+		slot0.actEventFlag = true
+
+		PlayerPrefs.SetInt("event_act_help" .. getProxy(PlayerProxy):getRawData().id, 1)
+		PlayerPrefs.Save()
+	end
+end
+
 return slot0

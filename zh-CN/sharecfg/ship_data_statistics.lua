@@ -19201,7 +19201,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Helena"
+		}
 	},
 	[102052] = {
 		oxy_max = 0,
@@ -19324,7 +19326,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Helena"
+		}
 	},
 	[102053] = {
 		oxy_max = 0,
@@ -19447,7 +19451,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Helena"
+		}
 	},
 	[102054] = {
 		oxy_max = 0,
@@ -19570,7 +19576,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Helena"
+		}
 	},
 	[102061] = {
 		oxy_max = 0,
@@ -25803,7 +25811,9 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Helena-Chan"
+			"Helena-Chan",
+			"Helena",
+			"special"
 		}
 	},
 	[102192] = {
@@ -25928,7 +25938,9 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Helena-Chan"
+			"Helena-Chan",
+			"Helena",
+			"special"
 		}
 	},
 	[102193] = {
@@ -26053,7 +26065,9 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Helena-Chan"
+			"Helena-Chan",
+			"Helena",
+			"special"
 		}
 	},
 	[102194] = {
@@ -26178,7 +26192,9 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Helena-Chan"
+			"Helena-Chan",
+			"Helena",
+			"special"
 		}
 	},
 	[102201] = {
@@ -26304,7 +26320,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Cleveland-Class",
-			"Cleveland-Chan"
+			"Cleveland-Chan",
+			"special"
 		}
 	},
 	[102202] = {
@@ -26430,7 +26447,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Cleveland-Class",
-			"Cleveland-Chan"
+			"Cleveland-Chan",
+			"special"
 		}
 	},
 	[102203] = {
@@ -26556,7 +26574,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Cleveland-Class",
-			"Cleveland-Chan"
+			"Cleveland-Chan",
+			"special"
 		}
 	},
 	[102204] = {
@@ -26682,7 +26701,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Cleveland-Class",
-			"Cleveland-Chan"
+			"Cleveland-Chan",
+			"special"
 		}
 	},
 	[102211] = {
@@ -26810,7 +26830,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Helena-Chan",
-			"Cleveland-Chan"
+			"Cleveland-Chan",
+			"special"
 		}
 	},
 	[102212] = {
@@ -26938,7 +26959,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Helena-Chan",
-			"Cleveland-Chan"
+			"Cleveland-Chan",
+			"special"
 		}
 	},
 	[102213] = {
@@ -27066,7 +27088,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Helena-Chan",
-			"Cleveland-Chan"
+			"Cleveland-Chan",
+			"special"
 		}
 	},
 	[102214] = {
@@ -27194,7 +27217,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Helena-Chan",
-			"Cleveland-Chan"
+			"Cleveland-Chan",
+			"special"
 		}
 	},
 	[102221] = {
@@ -28324,7 +28348,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Cleveland-Class",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[102242] = {
@@ -28450,7 +28475,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Cleveland-Class",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[102243] = {
@@ -28576,7 +28602,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Cleveland-Class",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[102244] = {
@@ -28702,7 +28729,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Cleveland-Class",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[102251] = {
@@ -30334,7 +30362,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Helena"
+		}
 	},
 	[103011] = {
 		oxy_max = 0,
@@ -37321,7 +37351,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[103252] = {
@@ -37445,7 +37476,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[103253] = {
@@ -37569,7 +37601,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[103254] = {
@@ -37693,7 +37726,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[105011] = {
@@ -57211,7 +57245,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"Albacore"
+			"Albacore",
+			"special"
 		}
 	},
 	[108052] = {
@@ -57441,7 +57476,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"Albacore"
+			"Albacore",
+			"special"
 		}
 	},
 	[108053] = {
@@ -57671,7 +57707,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"Albacore"
+			"Albacore",
+			"special"
 		}
 	},
 	[108054] = {
@@ -57901,7 +57938,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"Albacore"
+			"Albacore",
+			"special"
 		}
 	},
 	[112011] = {
@@ -77421,7 +77459,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[202182] = {
 		oxy_max = 0,
@@ -77546,7 +77586,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[202183] = {
 		oxy_max = 0,
@@ -77671,7 +77713,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[202184] = {
 		oxy_max = 0,
@@ -77796,7 +77840,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[202191] = {
 		oxy_max = 0,
@@ -80946,7 +80992,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[202252] = {
@@ -81073,7 +81120,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[202253] = {
@@ -81200,7 +81248,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[202254] = {
@@ -81327,7 +81376,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[202261] = {
@@ -82463,7 +82513,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Dido_class",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[202282] = {
@@ -82591,7 +82642,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Dido_class",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[202283] = {
@@ -82719,7 +82771,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Dido_class",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[202284] = {
@@ -82847,7 +82900,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Dido_class",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[203011] = {
@@ -89022,7 +89076,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[204042] = {
 		oxy_max = 0,
@@ -89144,7 +89200,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[204043] = {
 		oxy_max = 0,
@@ -89266,7 +89324,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[204044] = {
 		oxy_max = 0,
@@ -89388,7 +89448,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[205011] = {
 		oxy_max = 0,
@@ -99415,7 +99477,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[207092] = {
 		oxy_max = 0,
@@ -99537,7 +99601,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[207093] = {
 		oxy_max = 0,
@@ -99659,7 +99725,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[207094] = {
 		oxy_max = 0,
@@ -99781,7 +99849,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[207111] = {
 		oxy_max = 0,
@@ -99904,7 +99974,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[207112] = {
@@ -100028,7 +100099,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[207113] = {
@@ -100152,7 +100224,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[207114] = {
@@ -100276,7 +100349,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[213011] = {
@@ -140944,7 +141018,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Kongo-Class"
+			"Kongo-Class",
+			"special"
 		}
 	},
 	[304062] = {
@@ -141067,7 +141142,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Kongo-Class"
+			"Kongo-Class",
+			"special"
 		}
 	},
 	[304063] = {
@@ -141190,7 +141266,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Kongo-Class"
+			"Kongo-Class",
+			"special"
 		}
 	},
 	[304064] = {
@@ -141313,7 +141390,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Kongo-Class"
+			"Kongo-Class",
+			"special"
 		}
 	},
 	[305011] = {
@@ -154596,7 +154674,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[307092] = {
 		oxy_max = 0,
@@ -154718,7 +154798,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[307093] = {
 		oxy_max = 0,
@@ -154840,7 +154922,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[307094] = {
 		oxy_max = 0,
@@ -154962,7 +155046,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[307101] = {
 		oxy_max = 0,
@@ -155085,7 +155171,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[307102] = {
@@ -155209,7 +155296,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[307103] = {
@@ -155333,7 +155421,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[307104] = {
@@ -155457,7 +155546,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[307111] = {
@@ -155581,7 +155671,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[307112] = {
@@ -155705,7 +155796,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[307113] = {
@@ -155829,7 +155921,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[307114] = {
@@ -155953,7 +156046,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[308011] = {
@@ -174296,7 +174390,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[403072] = {
@@ -174422,7 +174517,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[403073] = {
@@ -174548,7 +174644,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[403074] = {
@@ -174674,7 +174771,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[403081] = {
@@ -174801,7 +174899,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"roonμ"
+			"roonμ",
+			"special"
 		}
 	},
 	[403082] = {
@@ -174928,7 +175027,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"roonμ"
+			"roonμ",
+			"special"
 		}
 	},
 	[403083] = {
@@ -175055,7 +175155,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"roonμ"
+			"roonμ",
+			"special"
 		}
 	},
 	[403084] = {
@@ -175182,7 +175283,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"roonμ"
+			"roonμ",
+			"special"
 		}
 	},
 	[404011] = {
@@ -177752,7 +177854,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[407022] = {
 		oxy_max = 0,
@@ -177873,7 +177977,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[407023] = {
 		oxy_max = 0,
@@ -177994,7 +178100,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[407024] = {
 		oxy_max = 0,
@@ -178115,7 +178223,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"special"
+		}
 	},
 	[408011] = {
 		oxy_max = 188,
@@ -195103,7 +195213,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Tashkent",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[701052] = {
@@ -195228,7 +195339,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Tashkent",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[701053] = {
@@ -195353,7 +195465,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Tashkent",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[701054] = {
@@ -195478,7 +195591,8 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Tashkent",
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[702011] = {
@@ -204954,7 +205068,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[901122] = {
@@ -205078,7 +205193,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[901123] = {
@@ -205202,7 +205318,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[901124] = {
@@ -205326,7 +205443,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[902011] = {
@@ -207422,7 +207540,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[905032] = {
@@ -207546,7 +207665,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[905033] = {
@@ -207670,7 +207790,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[905034] = {
@@ -207794,7 +207915,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"μ"
+			"μ",
+			"special"
 		}
 	},
 	[900001] = {
@@ -252642,6 +252764,3498 @@ pg.ship_data_statistics = {
 			"hololive"
 		}
 	},
+	[10600011] = {
+		oxy_max = 0,
+		type = 1,
+		name = "玛莉萝丝",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Marie Rose",
+		oxy_cost = 0,
+		skin_id = 10600010,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			329,
+			17,
+			98,
+			33,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			78,
+			52
+		},
+		attrs_growth = {
+			8030,
+			166,
+			968,
+			656,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600012] = {
+		oxy_max = 0,
+		type = 1,
+		name = "玛莉萝丝",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Marie Rose",
+		oxy_cost = 0,
+		skin_id = 10600010,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			409,
+			21,
+			122,
+			41,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			78,
+			65
+		},
+		attrs_growth = {
+			8030,
+			166,
+			968,
+			656,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600013] = {
+		oxy_max = 0,
+		type = 1,
+		name = "玛莉萝丝",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Marie Rose",
+		oxy_cost = 0,
+		skin_id = 10600010,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			570,
+			29,
+			171,
+			58,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			78,
+			90
+		},
+		attrs_growth = {
+			8030,
+			166,
+			968,
+			656,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600014] = {
+		oxy_max = 0,
+		type = 1,
+		name = "玛莉萝丝",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Marie Rose",
+		oxy_cost = 0,
+		skin_id = 10600010,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			811,
+			42,
+			243,
+			82,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			78,
+			129
+		},
+		attrs_growth = {
+			8030,
+			166,
+			968,
+			656,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			8020,
+			397,
+			1207,
+			439,
+			0,
+			965,
+			0,
+			-619,
+			-769,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600021] = {
+		oxy_max = 0,
+		type = 5,
+		name = "穗香",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Honoka",
+		oxy_cost = 0,
+		skin_id = 10600020,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1274,
+			77,
+			0,
+			40,
+			0,
+			53,
+			0,
+			19,
+			6,
+			26,
+			91,
+			0
+		},
+		attrs_growth = {
+			31065,
+			760,
+			0,
+			792,
+			0,
+			264,
+			0,
+			288,
+			96,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600022] = {
+		oxy_max = 0,
+		type = 5,
+		name = "穗香",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Honoka",
+		oxy_cost = 0,
+		skin_id = 10600020,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1585,
+			96,
+			0,
+			50,
+			0,
+			53,
+			0,
+			19,
+			6,
+			26,
+			91,
+			0
+		},
+		attrs_growth = {
+			31065,
+			760,
+			0,
+			792,
+			0,
+			264,
+			0,
+			288,
+			96,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600023] = {
+		oxy_max = 0,
+		type = 5,
+		name = "穗香",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Honoka",
+		oxy_cost = 0,
+		skin_id = 10600020,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2206,
+			134,
+			0,
+			70,
+			0,
+			53,
+			0,
+			19,
+			6,
+			26,
+			91,
+			0
+		},
+		attrs_growth = {
+			31065,
+			760,
+			0,
+			792,
+			0,
+			264,
+			0,
+			288,
+			96,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600024] = {
+		oxy_max = 0,
+		type = 5,
+		name = "穗香",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Honoka",
+		oxy_cost = 0,
+		skin_id = 10600020,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3138,
+			191,
+			0,
+			99,
+			0,
+			53,
+			0,
+			19,
+			6,
+			26,
+			91,
+			0
+		},
+		attrs_growth = {
+			31065,
+			760,
+			0,
+			792,
+			0,
+			264,
+			0,
+			288,
+			96,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			31065,
+			1198,
+			0,
+			536,
+			0,
+			629,
+			0,
+			-53,
+			-21,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600031] = {
+		oxy_max = 0,
+		type = 3,
+		name = "霞",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Kasumi",
+		oxy_cost = 0,
+		skin_id = 10600030,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			781,
+			49,
+			40,
+			42,
+			0,
+			64,
+			0,
+			46,
+			18,
+			28,
+			85,
+			0
+		},
+		attrs_growth = {
+			19055,
+			484,
+			396,
+			820,
+			0,
+			320,
+			0,
+			678,
+			270,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.4,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600032] = {
+		oxy_max = 0,
+		type = 3,
+		name = "霞",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Kasumi",
+		oxy_cost = 0,
+		skin_id = 10600030,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			972,
+			61,
+			50,
+			52,
+			0,
+			64,
+			0,
+			46,
+			18,
+			28,
+			85,
+			0
+		},
+		attrs_growth = {
+			19055,
+			484,
+			396,
+			820,
+			0,
+			320,
+			0,
+			678,
+			270,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.4,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600033] = {
+		oxy_max = 0,
+		type = 3,
+		name = "霞",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Kasumi",
+		oxy_cost = 0,
+		skin_id = 10600030,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1353,
+			85,
+			70,
+			73,
+			0,
+			64,
+			0,
+			46,
+			18,
+			28,
+			85,
+			0
+		},
+		attrs_growth = {
+			19055,
+			484,
+			396,
+			820,
+			0,
+			320,
+			0,
+			678,
+			270,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600034] = {
+		oxy_max = 0,
+		type = 3,
+		name = "霞",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Kasumi",
+		oxy_cost = 0,
+		skin_id = 10600030,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1924,
+			122,
+			99,
+			104,
+			0,
+			64,
+			0,
+			46,
+			18,
+			28,
+			85,
+			0
+		},
+		attrs_growth = {
+			19055,
+			484,
+			396,
+			820,
+			0,
+			320,
+			0,
+			678,
+			270,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			19045,
+			1097,
+			939,
+			568,
+			0,
+			753,
+			0,
+			0,
+			1950,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.65,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600041] = {
+		oxy_max = 0,
+		type = 2,
+		name = "海咲",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Misaki",
+		oxy_cost = 0,
+		skin_id = 10600040,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			677,
+			31,
+			0,
+			62,
+			0,
+			72,
+			0,
+			56,
+			30,
+			33,
+			89,
+			37
+		},
+		attrs_growth = {
+			16500,
+			308,
+			0,
+			1212,
+			0,
+			356,
+			0,
+			828,
+			438,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Misaki"
+		}
+	},
+	[10600042] = {
+		oxy_max = 0,
+		type = 2,
+		name = "海咲",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Misaki",
+		oxy_cost = 0,
+		skin_id = 10600040,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			842,
+			39,
+			0,
+			77,
+			0,
+			72,
+			0,
+			56,
+			30,
+			33,
+			89,
+			46
+		},
+		attrs_growth = {
+			16500,
+			308,
+			0,
+			1212,
+			0,
+			356,
+			0,
+			828,
+			438,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Misaki"
+		}
+	},
+	[10600043] = {
+		oxy_max = 0,
+		type = 2,
+		name = "海咲",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Misaki",
+		oxy_cost = 0,
+		skin_id = 10600040,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1172,
+			54,
+			0,
+			107,
+			0,
+			72,
+			0,
+			56,
+			30,
+			33,
+			89,
+			65
+		},
+		attrs_growth = {
+			16500,
+			308,
+			0,
+			1212,
+			0,
+			356,
+			0,
+			828,
+			438,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Misaki"
+		}
+	},
+	[10600044] = {
+		oxy_max = 0,
+		type = 2,
+		name = "海咲",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 10600044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Misaki",
+		oxy_cost = 0,
+		skin_id = 10600040,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1667,
+			77,
+			0,
+			153,
+			0,
+			72,
+			0,
+			56,
+			30,
+			33,
+			89,
+			93
+		},
+		attrs_growth = {
+			16500,
+			308,
+			0,
+			1212,
+			0,
+			356,
+			0,
+			828,
+			438,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			1650,
+			727,
+			0,
+			583,
+			0,
+			844,
+			0,
+			-3,
+			277,
+			0,
+			0,
+			428
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Misaki"
+		}
+	},
+	[10600051] = {
+		oxy_max = 0,
+		type = 5,
+		name = "凪咲",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nagisa",
+		oxy_cost = 0,
+		skin_id = 10600050,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1245,
+			73,
+			0,
+			32,
+			0,
+			55,
+			0,
+			20,
+			8,
+			30,
+			87,
+			0
+		},
+		attrs_growth = {
+			30355,
+			720,
+			0,
+			636,
+			0,
+			272,
+			0,
+			294,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Nagisa"
+		}
+	},
+	[10600052] = {
+		oxy_max = 0,
+		type = 5,
+		name = "凪咲",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nagisa",
+		oxy_cost = 0,
+		skin_id = 10600050,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1549,
+			91,
+			0,
+			40,
+			0,
+			55,
+			0,
+			20,
+			8,
+			30,
+			87,
+			0
+		},
+		attrs_growth = {
+			30355,
+			720,
+			0,
+			636,
+			0,
+			272,
+			0,
+			294,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Nagisa"
+		}
+	},
+	[10600053] = {
+		oxy_max = 0,
+		type = 5,
+		name = "凪咲",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nagisa",
+		oxy_cost = 0,
+		skin_id = 10600050,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2156,
+			127,
+			0,
+			56,
+			0,
+			55,
+			0,
+			20,
+			8,
+			30,
+			87,
+			0
+		},
+		attrs_growth = {
+			30355,
+			720,
+			0,
+			636,
+			0,
+			272,
+			0,
+			294,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Nagisa"
+		}
+	},
+	[10600054] = {
+		oxy_max = 0,
+		type = 5,
+		name = "凪咲",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nagisa",
+		oxy_cost = 0,
+		skin_id = 10600050,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3066,
+			181,
+			0,
+			80,
+			0,
+			55,
+			0,
+			20,
+			8,
+			30,
+			87,
+			0
+		},
+		attrs_growth = {
+			30355,
+			720,
+			0,
+			636,
+			0,
+			272,
+			0,
+			294,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			20338,
+			1208,
+			0,
+			429,
+			0,
+			643,
+			0,
+			351,
+			775,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Nagisa"
+		}
+	},
+	[10600061] = {
+		oxy_max = 0,
+		type = 7,
+		name = "女天狗",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nyotengu",
+		oxy_cost = 0,
+		skin_id = 10600060,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1108,
+			0,
+			0,
+			58,
+			71,
+			43,
+			0,
+			30,
+			13,
+			32.5,
+			88,
+			0
+		},
+		attrs_growth = {
+			27025,
+			0,
+			0,
+			1144,
+			700,
+			212,
+			0,
+			444,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600062] = {
+		oxy_max = 0,
+		type = 7,
+		name = "女天狗",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nyotengu",
+		oxy_cost = 0,
+		skin_id = 10600060,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1378,
+			0,
+			0,
+			72,
+			89,
+			43,
+			0,
+			30,
+			13,
+			32.5,
+			88,
+			0
+		},
+		attrs_growth = {
+			27025,
+			0,
+			0,
+			1144,
+			700,
+			212,
+			0,
+			444,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600063] = {
+		oxy_max = 0,
+		type = 7,
+		name = "女天狗",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nyotengu",
+		oxy_cost = 0,
+		skin_id = 10600060,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1919,
+			0,
+			0,
+			101,
+			124,
+			43,
+			0,
+			30,
+			13,
+			32.5,
+			88,
+			0
+		},
+		attrs_growth = {
+			27025,
+			0,
+			0,
+			1144,
+			700,
+			212,
+			0,
+			444,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.2,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600064] = {
+		oxy_max = 0,
+		type = 7,
+		name = "女天狗",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nyotengu",
+		oxy_cost = 0,
+		skin_id = 10600060,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2730,
+			0,
+			0,
+			144,
+			176,
+			43,
+			0,
+			30,
+			13,
+			32.5,
+			88,
+			0
+		},
+		attrs_growth = {
+			27025,
+			0,
+			0,
+			1144,
+			700,
+			212,
+			0,
+			444,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			16215,
+			0,
+			0,
+			600,
+			1210,
+			501,
+			0,
+			-2,
+			762,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600071] = {
+		oxy_max = 0,
+		type = 2,
+		name = "莫妮卡",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600071,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Monica",
+		oxy_cost = 0,
+		skin_id = 10600070,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			652,
+			27,
+			54,
+			68,
+			0,
+			67,
+			0,
+			55,
+			29,
+			32,
+			88,
+			21
+		},
+		attrs_growth = {
+			15900,
+			272,
+			538,
+			1328,
+			0,
+			334,
+			0,
+			810,
+			432,
+			0,
+			0,
+			208
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600072] = {
+		oxy_max = 0,
+		type = 2,
+		name = "莫妮卡",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600072,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Monica",
+		oxy_cost = 0,
+		skin_id = 10600070,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			811,
+			34,
+			67,
+			85,
+			0,
+			67,
+			0,
+			55,
+			29,
+			32,
+			88,
+			26
+		},
+		attrs_growth = {
+			15900,
+			272,
+			538,
+			1328,
+			0,
+			334,
+			0,
+			810,
+			432,
+			0,
+			0,
+			208
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600073] = {
+		oxy_max = 0,
+		type = 2,
+		name = "莫妮卡",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600073,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Monica",
+		oxy_cost = 0,
+		skin_id = 10600070,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1129,
+			47,
+			94,
+			118,
+			0,
+			67,
+			0,
+			55,
+			29,
+			32,
+			88,
+			37
+		},
+		attrs_growth = {
+			15900,
+			272,
+			538,
+			1328,
+			0,
+			334,
+			0,
+			810,
+			432,
+			0,
+			0,
+			208
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.6,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
+	[10600074] = {
+		oxy_max = 0,
+		type = 2,
+		name = "莫妮卡",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 10600074,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Monica",
+		oxy_cost = 0,
+		skin_id = 10600070,
+		attack_duration = 0,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1606,
+			68,
+			135,
+			168,
+			0,
+			67,
+			0,
+			55,
+			29,
+			32,
+			88,
+			52
+		},
+		attrs_growth = {
+			15900,
+			272,
+			538,
+			1328,
+			0,
+			334,
+			0,
+			810,
+			432,
+			0,
+			0,
+			208
+		},
+		attrs_growth_extra = {
+			3180,
+			636,
+			1150,
+			544,
+			0,
+			791,
+			0,
+			0,
+			723,
+			0,
+			0,
+			306
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.6,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		}
+	},
 	[299011] = {
 		oxy_max = 0,
 		type = 2,
@@ -262994,6 +266608,34 @@ pg.ship_data_statistics = {
 		10500072,
 		10500073,
 		10500074,
+		10600011,
+		10600012,
+		10600013,
+		10600014,
+		10600021,
+		10600022,
+		10600023,
+		10600024,
+		10600031,
+		10600032,
+		10600033,
+		10600034,
+		10600041,
+		10600042,
+		10600043,
+		10600044,
+		10600051,
+		10600052,
+		10600053,
+		10600054,
+		10600061,
+		10600062,
+		10600063,
+		10600064,
+		10600071,
+		10600072,
+		10600073,
+		10600074,
 		299011,
 		299012,
 		299013,

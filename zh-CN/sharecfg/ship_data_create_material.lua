@@ -84,15 +84,17 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>黛朵(μ兵装)</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>玛莉萝丝</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:97}(μ兵装)</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>穗香</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>塔什干(μ兵装)</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>霞</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>巴尔的摩(μ兵装)</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>海咲</color>：0.5%",
 			" ",
-			"<color=#d797ff>大青花鱼(μ兵装)</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>凪咲</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>莫妮卡</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

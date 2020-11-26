@@ -5,6 +5,8 @@ function slot0.Create(slot0)
 		return InstagramActivity.New(slot0)
 	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
 		return BeatMonterNianActivity.New(slot0)
+	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT then
+		return CollectionEventActivity.New(slot0)
 	else
 		return Activity.New(slot0)
 	end

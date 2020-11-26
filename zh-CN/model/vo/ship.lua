@@ -1610,14 +1610,38 @@ function slot0.isRemouldable(slot0)
 	return not slot0:isTestShip() and not slot0:isBluePrintShip() and pg.ship_data_trans[slot0.groupId]
 end
 
-function slot0.hasAvailiableSkin(slot0)
-	for slot7, slot8 in ipairs(getProxy(ShipSkinProxy):GetAllSkinForShip(slot0)) do
-		if slot0:proposeSkinOwned(slot8) or table.contains(getProxy(ShipSkinProxy):getSkinList(), slot8.id) then
-			slot3 = 0 + 1
+function slot0.isAllRemouldFinish(slot0)
+	for slot5, slot6 in ipairs(pg.ship_data_trans[slot0.groupId].transform_list) do
+		for slot10, slot11 in ipairs(slot6) do
+			if not slot0.transforms[slot11[2]] or slot0.transforms[slot11[2]].level < pg.transform_data_template[slot11[2]].max_level then
+				return false
+			end
 		end
 	end
 
-	return slot3 > 0
+	return true
+end
+
+function slot0.isSpecialFilter(slot0)
+	for slot5, slot6 in ipairs(pg.ship_data_statistics[slot0.configId].tag_list) do
+		if slot6 == "special" then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.hasAvailiableSkin(slot0)
+	slot1 = getProxy(ShipSkinProxy)
+
+	for slot8, slot9 in ipairs(slot1:GetAllSkinForShip(slot0)) do
+		if slot0:proposeSkinOwned(slot9) or slot1:getRawData()[slot9.id] then
+			slot4 = 0 + 1
+		end
+	end
+
+	return slot4 > 0
 end
 
 return slot0

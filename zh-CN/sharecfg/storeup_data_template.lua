@@ -18,6 +18,16 @@ pg.storeup_data_template = {
 				1,
 				4,
 				50
+			},
+			{
+				5,
+				24,
+				1
+			},
+			{
+				3,
+				820,
+				1
 			}
 		}
 	},
@@ -75,6 +85,11 @@ pg.storeup_data_template = {
 				4,
 				101081,
 				1
+			},
+			{
+				1,
+				4,
+				50
 			}
 		}
 	},
@@ -103,6 +118,11 @@ pg.storeup_data_template = {
 				3,
 				500,
 				1
+			},
+			{
+				5,
+				8,
+				1
 			}
 		}
 	},
@@ -129,6 +149,11 @@ pg.storeup_data_template = {
 				4,
 				103111,
 				1
+			},
+			{
+				1,
+				4,
+				50
 			}
 		}
 	},
@@ -150,6 +175,16 @@ pg.storeup_data_template = {
 				5,
 				3,
 				1
+			},
+			{
+				5,
+				182,
+				1
+			},
+			{
+				1,
+				4,
+				50
 			}
 		}
 	},
@@ -176,6 +211,11 @@ pg.storeup_data_template = {
 				5,
 				5,
 				1
+			},
+			{
+				3,
+				860,
+				1
 			}
 		}
 	},
@@ -200,6 +240,11 @@ pg.storeup_data_template = {
 			{
 				5,
 				103,
+				1
+			},
+			{
+				5,
+				25,
 				1
 			}
 		}
@@ -227,6 +272,11 @@ pg.storeup_data_template = {
 				5,
 				2,
 				1
+			},
+			{
+				5,
+				181,
+				1
 			}
 		}
 	},
@@ -252,6 +302,11 @@ pg.storeup_data_template = {
 			{
 				5,
 				1,
+				1
+			},
+			{
+				3,
+				840,
 				1
 			}
 		}
@@ -280,6 +335,11 @@ pg.storeup_data_template = {
 				3,
 				520,
 				1
+			},
+			{
+				5,
+				23,
+				1
 			}
 		}
 	},
@@ -306,6 +366,11 @@ pg.storeup_data_template = {
 				1,
 				4,
 				50
+			},
+			{
+				5,
+				178,
+				1
 			}
 		}
 	},
@@ -332,6 +397,11 @@ pg.storeup_data_template = {
 				1,
 				4,
 				50
+			},
+			{
+				5,
+				180,
+				1
 			}
 		}
 	},
@@ -357,6 +427,11 @@ pg.storeup_data_template = {
 				5,
 				6,
 				1
+			},
+			{
+				5,
+				179,
+				1
 			}
 		}
 	},
@@ -381,6 +456,11 @@ pg.storeup_data_template = {
 			{
 				5,
 				9,
+				1
+			},
+			{
+				3,
+				880,
 				1
 			}
 		}
@@ -408,6 +488,11 @@ pg.storeup_data_template = {
 				5,
 				7,
 				1
+			},
+			{
+				1,
+				4,
+				50
 			}
 		}
 	},
@@ -436,6 +521,11 @@ pg.storeup_data_template = {
 				4,
 				203061,
 				1
+			},
+			{
+				1,
+				4,
+				50
 			}
 		}
 	},
@@ -462,6 +552,11 @@ pg.storeup_data_template = {
 				4,
 				402041,
 				1
+			},
+			{
+				1,
+				4,
+				50
 			}
 		}
 	},

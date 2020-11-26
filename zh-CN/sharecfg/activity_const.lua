@@ -633,11 +633,17 @@ pg.activity_const = {
 	UR_TASK_ACT_ID = {
 		act_id = 713
 	},
+	DOA_MEDAL_ACT_ID = {
+		act_id = 783
+	},
 	MUSIC_FESTIVAL_ID_2 = {
 		act_id = 762
 	},
 	HMS_Hunter_PT_ID = {
 		act_id = 769
+	},
+	DOA_COLLECTION_FURNITURE = {
+		act_id = 783
 	},
 	SUMMER_REMAKE = {
 		act_id = 20248
@@ -725,5 +731,11 @@ pg.activity_const = {
 	},
 	NEW_ORLEANS_Map_BATTLE = {
 		act_id = 30418
+	},
+	DOA_MAP_ACT_ID = {
+		act_id = 777
+	},
+	DOA_PT_ID = {
+		act_id = 779
 	}
 }

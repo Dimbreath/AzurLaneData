@@ -777,6 +777,117 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[23] = {
+		can_rotate = 0,
+		describe = "特殊家具：宾夕法尼亚级战列舰1:100舰船模型",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/binxifaniya",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "宾夕法尼亚级船模",
+		advice = 0,
+		icon = "binxifaniyaicon",
+		id = 23,
+		comfortable = 3,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24] = {
+		can_rotate = 0,
+		describe = "特殊家具：暴怒级航空母舰1:100舰船模型",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/baonu",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "暴怒级船模",
+		advice = 0,
+		icon = "baonuicon",
+		id = 24,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[25] = {
+		can_rotate = 0,
+		describe = "特殊家具：波特兰级重巡洋舰1:100舰船模型",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/botelan",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "波特兰级船模",
+		advice = 0,
+		icon = "botelanicon",
+		id = 25,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[101] = {
 		can_rotate = 0,
 		describe = "内测期间完成指定任务，由司令部发放的荣耀之证\n<color=#ffde38>——纪念在2017.4.18—4.26的光荣作战</color>",
@@ -3900,6 +4011,319 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[178] = {
+		can_rotate = 0,
+		describe = "偶像的梦想从这里开始！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/qidianwutai",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "起点的舞台",
+		advice = 0,
+		id = 178,
+		icon = "qidianwutaiicon",
+		comfortable = 2,
+		size = {
+			9,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					72,
+					-75
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					-28,
+					-126
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					80,
+					-143
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[179] = {
+		can_rotate = 0,
+		describe = "女王的画像(附亲笔签名)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/queen",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "女王的画像",
+		advice = 0,
+		icon = "queenicon",
+		id = 179,
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[180] = {
+		can_rotate = 0,
+		describe = "精致的油画，看起来就很贵的样子。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/libie",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "名画《别离》",
+		advice = 0,
+		icon = "libieicon",
+		id = 180,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[181] = {
+		can_rotate = 0,
+		describe = "「以我们神圣的名誉，彼此宣誓——」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		canputon = 0,
+		themeId = 0,
+		icon = "lkxdjiangtaiicon",
+		count = 1,
+		name = "宣言讲台",
+		id = 181,
+		advice = 0,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lkxdjiangtaiB",
+				"normal"
+			},
+			{
+				"lkxdjiangtaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"normal",
+						0,
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					107020
+				},
+				"lkxdjiangtai",
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"lkxdjiangtaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[182] = {
+		can_rotate = 0,
+		describe = "比比看谁的纸飞机能飞得更远吧！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "zfjicon",
+		count = 1,
+		name = "纸飞机",
+		id = 182,
+		advice = 0,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zfjB",
+				"normal"
+			},
+			{
+				"zfjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2",
+						0,
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"zfjCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[183] = {
 		can_rotate = 0,
 		describe = "授予在「蝶海梦花」特别作战中杰出成就者的纪念章。以鸟居与浮世绘复现了「梦境」中的场景，若隐若现的蓝蝶缭绕在其中。",
@@ -3992,6 +4416,98 @@ pg.furniture_data_template = {
 			{
 				"ido2xunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[187] = {
+		can_rotate = 0,
+		describe = "“与指挥官，还有大家共同经历了一段很有趣的时光呢~之后也请多指教了哦~” <color=#ffde38>——「假日航线」活动纪念</color>",
+		gain_by = "假日航线",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/doadalao",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "维纳斯假期纪念像",
+		advice = 0,
+		icon = "doadalaoicon",
+		id = 187,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"doa_main_day",
+				"doa_main_night"
+			}
+		},
+		interAction_group = {}
+	},
+	[188] = {
+		can_rotate = 1,
+		describe = "Let's fever！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "啾啾气氛盒(维纳斯)",
+		advice = 0,
+		id = 188,
+		icon = "doaxunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaxunzhang",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"doa_qifenhe",
+					"action1"
+				}
 			}
 		},
 		interAction_group = {}
@@ -5504,6 +6020,80 @@ pg.furniture_data_template = {
 		count = 1,
 		name = "跳跳弹球 ",
 		id = 100021,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"doaqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100022] = {
+		can_rotate = 0,
+		describe = "谁都可以体验一把“随时随地都能荡的秋千”了！ ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "feiqiuqianicon",
+		count = 1,
+		name = "飞天御秋千",
+		id = 100022,
 		advice = 0,
 		comfortable = 0,
 		deblocking = 1,
@@ -84929,6 +85519,1162 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[72001] = {
+		can_rotate = 0,
+		describe = "一起来享受不一样的假期啾！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/dibandoa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "假期海滩",
+		advice = 0,
+		icon = "dibandoaicon",
+		id = 72001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72002] = {
+		can_rotate = 0,
+		describe = "一起来享受不一样的假期啾！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/qiangbidoa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "假期墙纸",
+		advice = 0,
+		icon = "qiangbi4doaicon",
+		id = 72002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72101] = {
+		can_rotate = 0,
+		describe = "生机勃勃的鲜花装饰",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/1doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南国鲜花",
+		advice = 0,
+		icon = "1doaicon",
+		id = 72101,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72102] = {
+		can_rotate = 0,
+		describe = "水果和各种美味欢迎自取~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/2doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南国自助餐桌",
+		advice = 0,
+		icon = "2doaicon",
+		id = 72102,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72103] = {
+		can_rotate = 0,
+		describe = "在木椅的基础上加装了软垫，就成了舒适的沙发~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/3doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "休闲沙发",
+		advice = 0,
+		icon = "3doaicon",
+		id = 72103,
+		comfortable = 2,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72104] = {
+		can_rotate = 0,
+		describe = "房间内的小桌子，好像有点矮。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/4doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "休闲小桌",
+		advice = 0,
+		icon = "4doaicon",
+		id = 72104,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			16.64
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72105] = {
+		can_rotate = 0,
+		describe = "在木椅的基础上加装了软垫，就成了舒适的沙发~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/5doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 2,
+		name = "休闲沙发2",
+		advice = 0,
+		id = 72105,
+		icon = "5doaicon",
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3.6,
+					35.8
+				},
+				{
+					-1,
+					1
+				},
+				"doa/5doa_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72106] = {
+		can_rotate = 0,
+		describe = "生机勃勃的鲜花装饰",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/6doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南国红花",
+		advice = 0,
+		icon = "6doaicon",
+		id = 72106,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72107] = {
+		can_rotate = 0,
+		describe = "伴随着花香享用下午茶吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/7doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "假期午茶桌",
+		advice = 0,
+		icon = "7doaicon",
+		id = 72107,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72108] = {
+		can_rotate = 0,
+		describe = "精致的大落地灯，亮度可以灵活调整。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/8doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "休闲落地灯",
+		advice = 0,
+		icon = "8doaicon",
+		id = 72108,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72109] = {
+		can_rotate = 0,
+		describe = "精致的壁灯，散发着柔和的光芒。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/9doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "休闲壁灯",
+		advice = 0,
+		icon = "9doaicon",
+		id = 72109,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72110] = {
+		can_rotate = 0,
+		describe = "质朴的地砖，给人一种安心的感觉",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/10doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "休闲地砖",
+		advice = 0,
+		icon = "10doaicon",
+		id = 72110,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72111] = {
+		can_rotate = 0,
+		describe = "谁能赢得抢旗大赛的冠军呢~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/11doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "沙滩小旗",
+		advice = 0,
+		icon = "11doaicon",
+		id = 72111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72112] = {
+		can_rotate = 0,
+		describe = "到享受日光浴的时间了~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/12doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 2,
+		name = "海滩躺椅",
+		advice = 0,
+		id = 72112,
+		icon = "12doaicon",
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-25,
+					16
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72113] = {
+		can_rotate = 0,
+		describe = "偷偷摘一串下来应该没人发现吧？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/13doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "南国香蕉树",
+		advice = 0,
+		icon = "13doaicon",
+		id = 72113,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72114] = {
+		can_rotate = 0,
+		describe = "玩累了就在阳伞下休息一会吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/14doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "海滩阳伞",
+		advice = 0,
+		icon = "14doaicon",
+		id = 72114,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72115] = {
+		can_rotate = 0,
+		describe = "历经海水冲刷，已经变得有些圆滑的石头。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/15doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "南国礁石",
+		advice = 0,
+		icon = "15doaicon",
+		id = 72115,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72116] = {
+		can_rotate = 0,
+		describe = "只是用来装饰的小帆船，不能真的开出去哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/16doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "南国小帆船",
+		advice = 0,
+		icon = "16doaicon",
+		id = 72116,
+		comfortable = 3,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72117] = {
+		can_rotate = 0,
+		describe = "攀登危险，不可以乱来哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/17doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "南国大礁石",
+		advice = 0,
+		icon = "17doaicon",
+		id = 72117,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72118] = {
+		can_rotate = 0,
+		describe = "摇一摇的话会不会落下些什么？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/18doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "南国椰子树",
+		advice = 0,
+		icon = "18doaicon",
+		id = 72118,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72119] = {
+		can_rotate = 0,
+		describe = "散散步，吹吹海风，享受休闲假期~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/19doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 1,
+		name = "休闲木栈道",
+		advice = 0,
+		id = 72119,
+		icon = "19doaicon",
+		comfortable = 3,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-74.9,
+					-35.4
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72120] = {
+		can_rotate = 0,
+		describe = "在沙滩玩完以后就来冲一冲吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/20doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "冲淋台",
+		advice = 0,
+		icon = "20doaicon",
+		id = 72120,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72121] = {
+		can_rotate = 0,
+		describe = "用茅草搭建的阳伞，姑且…还是可以避避暑的吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/21doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "茅草阳伞",
+		advice = 0,
+		icon = "21doaicon",
+		id = 72121,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72122] = {
+		can_rotate = 0,
+		describe = "不知什么时候落下来的青椰子。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/22doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "南国青椰",
+		advice = 0,
+		icon = "22doaicon",
+		id = 72122,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72123] = {
+		can_rotate = 0,
+		describe = "松软的大床，感觉躺一会就能恢复整天的疲劳~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/23doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 1,
+		name = "休闲大床",
+		advice = 0,
+		id = 72123,
+		icon = "23doaicon",
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-2,
+					-33
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72124] = {
+		can_rotate = 0,
+		describe = "看我的扣杀…啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 72,
+		icon = "Adoaicon",
+		count = 1,
+		name = "南国沙滩排球",
+		id = 72124,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AdoaB",
+				"normal"
+			},
+			{
+				"AdoaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"touch"
+					},
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"AdoaCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[72125] = {
+		can_rotate = 0,
+		describe = "来比一比谁能在浮板上站到最后啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 72,
+		icon = "Bdoaicon",
+		count = 1,
+		name = "休闲泳池",
+		id = 72125,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			10,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"BdoaB",
+				"normal"
+			},
+			{
+				"BdoaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"wash"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"BdoaCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -84951,6 +86697,9 @@ pg.furniture_data_template = {
 		20,
 		21,
 		22,
+		23,
+		24,
+		25,
 		101,
 		102,
 		103,
@@ -85012,8 +86761,15 @@ pg.furniture_data_template = {
 		174,
 		175,
 		177,
+		178,
+		179,
+		180,
+		181,
+		182,
 		183,
 		184,
+		187,
+		188,
 		100001,
 		100002,
 		100003,
@@ -85035,6 +86791,7 @@ pg.furniture_data_template = {
 		100019,
 		100020,
 		100021,
+		100022,
 		1001,
 		1002,
 		1101,
@@ -86840,6 +88597,33 @@ pg.furniture_data_template = {
 		71118,
 		71119,
 		71301,
-		71302
+		71302,
+		72001,
+		72002,
+		72101,
+		72102,
+		72103,
+		72104,
+		72105,
+		72106,
+		72107,
+		72108,
+		72109,
+		72110,
+		72111,
+		72112,
+		72113,
+		72114,
+		72115,
+		72116,
+		72117,
+		72118,
+		72119,
+		72120,
+		72121,
+		72122,
+		72123,
+		72124,
+		72125
 	}
 }
