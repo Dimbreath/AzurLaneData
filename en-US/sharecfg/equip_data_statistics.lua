@@ -4787,7 +4787,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[800] = {
-		name = "Pressure-Resistant Hull Design ",
+		name = "Pressure-Resistant Hull Design",
 		speciality = "N/A",
 		type = 10,
 		tech = 2,
@@ -4910,7 +4910,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[820] = {
-		name = "Frontier Medal ",
+		name = "Frontier Medal",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -5032,7 +5032,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[840] = {
-		name = "Eagle Union Elite Damage Control ",
+		name = "Eagle Union Elite Damage Control",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -5149,7 +5149,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[860] = {
-		name = "Washington Naval Treaty ",
+		name = "Washington Naval Treaty",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -5265,7 +5265,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[880] = {
-		name = "Nelson's Pennant of Victory ",
+		name = "Nelson's Pennant of Victory",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -87466,7 +87466,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89240] = {
-		name = "Awakening Pearl ",
+		name = "Awakening Pearl",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -87581,7 +87581,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89260] = {
-		name = "Heart Key ",
+		name = "Heart Key",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
