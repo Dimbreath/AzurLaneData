@@ -3,9 +3,15 @@ slot0 = class("DoaMainPage", import(".TemplatePage.PreviewTemplatePage"))
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
+	slot1 = getProxy(MiniGameProxy)
+	slot2 = getProxy(ActivityProxy)
 
 	onButton(slot0, findTF(slot0.bg, "btnMiniGame"), function ()
-		uv0:emit(ActivityMediator.GO_MINI_GAME, 17)
+		if uv1:IsActivityNotEnd(uv0:GetHubByGameId(17):getConfig("act_id")) then
+			uv2:emit(ActivityMediator.GO_MINI_GAME, 17)
+		else
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+		end
 	end)
 end
 

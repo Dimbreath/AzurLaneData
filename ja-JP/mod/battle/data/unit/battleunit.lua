@@ -228,7 +228,7 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot11)
 
 		if slot0._currentHP <= slot11.damage then
-			slot0:TriggerBuff(uv0.BuffEffectType.ON_DYING, {})
+			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_FATAL_DAMAGE, {})
 		end
 
 		slot1 = -slot11.damage
@@ -287,6 +287,11 @@ function slot9.UpdateHPAction(slot0, slot1)
 end
 
 function slot9.DeadAction(slot0)
+	slot0:TriggerBuff(uv0.BuffEffectType.ON_SINK, {})
+	slot0:DeacActionClear()
+end
+
+function slot9.DeacActionClear(slot0)
 	slot0._aliveState = false
 
 	uv0.Spirit(slot0)

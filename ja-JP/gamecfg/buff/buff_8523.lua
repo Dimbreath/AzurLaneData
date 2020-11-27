@@ -14,7 +14,7 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onDying"
+				"onBeforeFatalDamage"
 			},
 			arg_list = {
 				buff_id = 8524,

@@ -331,3 +331,12 @@ end
 function slot4.GetCamera(slot0)
 	return slot0._camera
 end
+
+function slot4.Add2Camera(slot0, slot1, slot2)
+	slot1 = tf(slot1)
+
+	slot1:SetParent(slot0._cameraTF)
+	pg.ViewUtils.SetSortingOrder(slot1, slot2 or 0)
+
+	return slot0._cameraTF.localScale
+end

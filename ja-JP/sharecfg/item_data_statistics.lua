@@ -116362,7 +116362,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70065] = {
-		display = "マリー・ローズが好きな食べもの：トロピカルジュース。キャラの好物情報を開放可能",
+		display = "マリー・ローズが好きな食べもの：プリンセスバーケルセ。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116380,7 +116380,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70066] = {
-		display = "マリー・ローズが好きな飲みもの：プリンセスバーケルセ。キャラの好物情報を開放可能",
+		display = "マリー・ローズが好きな飲みもの：トロピカルジュース。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116398,7 +116398,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70067] = {
-		display = "ほのかが好きな食べもの：レモンスカッシュ。キャラの好物情報を開放可能",
+		display = "ほのかが好きな食べもの：ホイップシュークリーム。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116416,7 +116416,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70068] = {
-		display = "ほのかが好きな飲みもの：ホイップシュークリーム。キャラの好物情報を開放可能",
+		display = "ほのかが好きな飲みもの：レモンスカッシュ。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116434,7 +116434,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70069] = {
-		display = "かすみが好きな食べもの：アイスコーヒー。キャラの好物情報を開放可能",
+		display = "かすみが好きな食べもの：苺のミルフィーユ。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116452,7 +116452,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70070] = {
-		display = "かすみが好きな飲みもの：苺のミルフィーユ。キャラの好物情報を開放可能",
+		display = "かすみが好きな飲みもの：アイスコーヒー。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116470,7 +116470,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70071] = {
-		display = "みさきが好きな食べもの：タピオカミルクティー。キャラの好物情報を開放可能",
+		display = "みさきが好きな食べもの：マンゴーバニラクレープ。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116488,7 +116488,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70072] = {
-		display = "みさきが好きな飲みもの：マンゴーバニラクレープ。キャラの好物情報を開放可能",
+		display = "みさきが好きな飲みもの：タピオカミルクティー。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116506,7 +116506,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70073] = {
-		display = "なぎさが好きな食べもの：いちごシェイク。キャラの好物情報を開放可能",
+		display = "なぎさが好きな食べもの：スフレパンケーキ。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116524,7 +116524,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70074] = {
-		display = "なぎさが好きな飲みもの：スフレパンケーキ。キャラの好物情報を開放可能",
+		display = "なぎさが好きな飲みもの：いちごシェイク。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116542,7 +116542,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70075] = {
-		display = "女天狗が好きな食べもの：抹茶。キャラの好物情報を開放可能",
+		display = "女天狗が好きな食べもの：まんじゅう。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116560,7 +116560,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70076] = {
-		display = "女天狗が好きな飲みもの：まんじゅう。キャラの好物情報を開放可能",
+		display = "女天狗が好きな飲みもの：抹茶。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116578,7 +116578,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70077] = {
-		display = "モニカが好きな食べもの：メープルホイップラテ。キャラの好物情報を開放可能",
+		display = "モニカが好きな食べもの：パパナッシュ。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,
@@ -116596,7 +116596,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[70078] = {
-		display = "モニカが好きな飲みもの：パパナッシュ。キャラの好物情報を開放可能",
+		display = "モニカが好きな飲みもの：メープルホイップラテ。キャラの好物情報を開放可能",
 		rarity = 4,
 		type = 0,
 		drop_oil_max = 0,

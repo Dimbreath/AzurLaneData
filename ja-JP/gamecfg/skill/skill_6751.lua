@@ -4,9 +4,9 @@ return {
 	cd = 0,
 	picture = "0",
 	desc = "本舰被击破时，跳转到无敌",
-	painting = 0,
+	painting = 1,
 	id = 10450,
-	castCV = "skill",
+	castCV = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

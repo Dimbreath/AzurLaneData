@@ -27,6 +27,12 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
+function slot0.getDayIndex(slot0)
+	slot2 = pg.TimeMgr.GetInstance()
+
+	return slot2:DiffDay(slot0.data1, slot2:GetServerTime()) + 1
+end
+
 function slot0.GetCollectionList(slot0)
 	return slot0.collections
 end

@@ -10782,7 +10782,7 @@ GET!
 		tip = "着替所持"
 	},
 	index_reform = {
-		tip = "改造実装"
+		tip = "改造可能"
 	},
 	index_strengthen = {
 		tip = "強化可能"
