@@ -250330,13 +250330,11 @@ pg.chapter_template = {
 		box_refresh = {
 			0
 		},
-		story_refresh = {},
-		defeat_story = {
+		story_refresh = {
 			"JIARIHANGXIAN4"
 		},
-		defeat_story_count = {
-			1
-		},
+		defeat_story = {},
+		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {

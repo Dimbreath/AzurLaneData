@@ -108018,7 +108018,7 @@ The available outfits and their rarities are as follows:
 （<color=#92fc63>9.1%</color>） Le Malin - Mercredi at the Secret Base <color=#92fc63>Live2D</color>；
 （<color=#92fc63>9.1%</color>) Jean Bart - Private Après Midi <color=#92fc63>Live2D</color> ；
 （<color=#92fc63>9.1%</color>) Zara - Poolside Coincidence <color=#92fc63>Live2D</color> ；
-（<color=#92fc63>9.1%</color>) Noshiron - Uncharted Festival Grounds? <color=#92fc63>Live2D</color>；
+（<color=#92fc63>9.1%</color>) Noshiro - Uncharted Festival Grounds? <color=#92fc63>Live2D</color>；
 （<color=#92fc63>9.1%</color>）Ryuuhou - Firebird's New Year Dance <color=#92fc63>Live2D</color>；
 （<color=#92fc63>9.1%</color>）Suruga - Hundred Flowers' Auspice <color=#92fc63>Live2D</color>；
 （<color=#92fc63>9.3%</color>） Azuma - Soft Voice of Spring <color=#92fc63>Live2D</color> ；
