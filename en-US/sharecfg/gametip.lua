@@ -9997,7 +9997,7 @@ Event Rules:
 		tip = "Has Skin"
 	},
 	index_reform = {
-		tip = "Has Retrofit"
+		tip = "Retrofit Available"
 	},
 	index_strengthen = {
 		tip = "Enhanceable"

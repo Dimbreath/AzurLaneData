@@ -74,7 +74,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onDying"
+				"onSink"
 			},
 			arg_list = {
 				skill_id = 10080,
@@ -84,7 +84,7 @@ return {
 		{
 			type = "BattleBuffCancelBuff",
 			trigger = {
-				"onDying"
+				"onSink"
 			},
 			arg_list = {
 				count = 1

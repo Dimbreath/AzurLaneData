@@ -604,6 +604,10 @@ pg.skill_data_display = {
 		id = 6750,
 		name = "Elite Damage Control Manjuu (Eagle Union)"
 	},
+	[6751] = {
+		id = 6751,
+		name = "Elite Damage Control Manjuu (Eagle Union)"
+	},
 	[6761] = {
 		id = 6761,
 		name = "Naval Treaty"
@@ -5268,6 +5272,7 @@ pg.skill_data_display = {
 		6280,
 		6741,
 		6750,
+		6751,
 		6761,
 		6770,
 		7000,
