@@ -39,9 +39,7 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SSレア</color>：7%",
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：26%",
-			"ノーマル：55%",
-			"<color=#d797ff>ハーディ</color>：1.4%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z2</color>：1.4%(<color=#92fc63>up!</color>)"
+			"ノーマル：55%"
 		}
 	},
 	{

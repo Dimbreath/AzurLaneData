@@ -7226,7 +7226,7 @@ No.7 クイーン・エリザベスの着せ替え
 		tip = "「三笠」、「比叡」常設実装！"
 	},
 	buildship_light_tip = {
-		tip = "ハーディ、Z2 出現率UP！"
+		tip = "「浜風」常設実装！"
 	},
 	buildship_special_tip = {
 		tip = "「伊13」常設実装！"
