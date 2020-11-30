@@ -7167,7 +7167,7 @@ $3]]
 		tip = "{namecode:82}、{namecode:71} 建造追加！"
 	},
 	buildship_light_tip = {
-		tip = "勇敢、Z2 建造概率UP！"
+		tip = "{namecode:128} 建造追加！"
 	},
 	buildship_special_tip = {
 		tip = "{namecode:163} 建造追加！"
