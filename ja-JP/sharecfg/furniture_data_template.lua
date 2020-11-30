@@ -3938,7 +3938,7 @@ pg.furniture_data_template = {
 	},
 	[186] = {
 		can_rotate = 1,
-		describe = "「生薬配合でのどのが」は削除。効能や成分に触れる表現は薬事的にNGなので、避けてもらえると…！」",
+		describe = "座り心地も爽やか――クールでエレガントですわ！",
 		gain_by = "",
 		type = 7,
 		dir = 0,
