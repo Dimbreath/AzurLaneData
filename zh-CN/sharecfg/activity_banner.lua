@@ -33,38 +33,13 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp3",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
