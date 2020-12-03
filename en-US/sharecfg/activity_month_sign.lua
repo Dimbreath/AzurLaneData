@@ -236,8 +236,8 @@ pg.activity_month_sign = {
 		day29 = {
 			{
 				2,
-				30014,
-				2
+				30015,
+				1
 			}
 		},
 		day30 = {
@@ -2786,8 +2786,8 @@ pg.activity_month_sign = {
 		day29 = {
 			{
 				2,
-				30034,
-				2
+				30035,
+				1
 			}
 		},
 		day30 = {
@@ -3041,8 +3041,8 @@ pg.activity_month_sign = {
 		day29 = {
 			{
 				2,
-				30044,
-				2
+				30045,
+				1
 			}
 		},
 		day30 = {

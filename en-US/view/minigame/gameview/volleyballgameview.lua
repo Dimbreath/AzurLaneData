@@ -300,6 +300,14 @@ function slot0.initMainUI(slot0)
 
 	slot0:getGameData()
 
+	if slot0.hubData.ultimate == 0 and slot0.hubData:getConfig("reward_need") <= slot0.hubData.usedtime then
+		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
+			hubid = slot0.hubData.id,
+			cmd = MiniGameOPCommand.CMD_ULTIMATE,
+			args1 = {}
+		})
+	end
+
 	slot0.isFree = slot0.hubData.ultimate ~= 0 and true or false
 
 	setActive(slot0:findTF("free_tag", slot0.mainStartBtn), slot0.isFree)

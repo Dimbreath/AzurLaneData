@@ -271,7 +271,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Even though you've taken a lot of impure glances at Misaki... you worked hard for our sake, so... I'll forgive you, just this once... you sillly dog.",
+			say = "Even though you've taken a lot of impure glances at Misaki... you worked hard for our sake, so... I'll forgive you, just this once... you silly dog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

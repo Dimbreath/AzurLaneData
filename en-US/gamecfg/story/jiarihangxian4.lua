@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			actor = 10600040,
 			nameColor = "#a9f548",
-			say = "The Venus Festival is a huuge festival that occurs in the Venus Islands, where summer never ends. The girls the island's Owner enters into the festival are called Venuses, and the goal is to make them shine as brightly as they can! There's also the goal of trying to earn a lot of money, so we can turn the island into a huge resort.",
+			say = "The Venus Festival is a huge festival that occurs in the Venus Islands, where summer never ends. The girls the island's Owner enters into the festival are called Venuses, and the goal is to make them shine as brightly as they can! There's also the goal of trying to earn a lot of money, so we can turn the island into a huge resort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
