@@ -63,6 +63,10 @@ function slot0.init(slot0)
 	}
 
 	slot0:initPainting()
+
+	slot0._fxContainerUpper = slot0._tf:Find("FXContainerUpper")
+	slot0._fxContainerBottom = slot0._tf:Find("FXContainerBottom")
+	slot0._canvasOrder = slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot3.sortingOrder or 0
 end
 
 function slot0.initPainting(slot0)
@@ -517,6 +521,18 @@ function slot0.updatePauseWindow(slot0)
 	slot1(slot0._mainShipVOs, slot4:GetMainList(), slot0.mainTFs)
 	slot1(slot0._vanShipVOs, slot4:GetScoutList(), slot0.vanTFs)
 	setText(slot0.LeftTime, ys.Battle.BattleTimerView.formatTime(math.floor(slot3:GetCountDown())))
+end
+
+function slot0.AddUIFX(slot0, slot1, slot2)
+	slot2 = slot2 or 1
+	slot1 = tf(slot1)
+	slot4 = slot2 > 0 and slot0._fxContainerUpper or slot0._fxContainerBottom
+
+	slot1:SetParent(slot4)
+	pg.ViewUtils.SetSortingOrder(slot1, slot0._canvasOrder + slot2)
+	pg.ViewUtils.SetLayer(slot1, Layer.UI)
+
+	return slot4.localScale
 end
 
 function slot0.OnCloseChat(slot0)

@@ -18,7 +18,7 @@ end
 function slot7.Retreat(slot0)
 	uv0.super.Retreat(slot0)
 	slot0:SetDeathReason(uv1.UnitDeathReason.LEAVE)
-	slot0:DeadAction()
+	slot0:DeacActionClear()
 	slot0._battleProxy:ShutdownPlayerUnit(slot0:GetUniqueID())
 	slot0._battleProxy:KillUnit(slot0:GetUniqueID())
 end

@@ -144,19 +144,20 @@ end
 
 function slot0.GetCurBuffInfos(slot0)
 	slot1 = {}
+	slot2 = #slot0.activity:getDataConfig("buff_group")
 
-	for slot5, slot6 in ipairs(slot0.curBuffs) do
-		slot10 = "buff_group"
+	for slot6, slot7 in ipairs(slot0.curBuffs) do
+		slot11 = "buff_group"
 
-		for slot10, slot11 in ipairs(slot0.activity:getDataConfig(slot10)) do
-			for slot15, slot16 in ipairs(slot11) do
-				if slot6 == slot16 then
+		for slot11, slot12 in ipairs(slot0.activity:getDataConfig(slot11)) do
+			for slot16, slot17 in ipairs(slot12) do
+				if slot7 == slot17 then
 					table.insert(slot1, {
-						id = slot16,
-						lv = slot15,
-						group = #slot11 - slot10 + 1,
-						next = slot11[slot15 + 1],
-						award = slot0:GetBuffAwardInfo(slot11[#slot11])
+						id = slot17,
+						lv = slot16,
+						group = slot2 - slot11 + 1,
+						next = slot12[slot16 + 1],
+						award = slot0:GetBuffAwardInfo(slot12[#slot12])
 					})
 				end
 			end
@@ -167,21 +168,61 @@ function slot0.GetCurBuffInfos(slot0)
 end
 
 function slot0.GetBuffAwardInfo(slot0, slot1)
-	slot5 = "drop_display"
+	if slot0.activity:getDataConfig("drop_display") == "" then
+		return nil
+	end
 
-	for slot5, slot6 in ipairs(slot0.activity:getDataConfig(slot5)) do
-		if slot1 == slot6[1] then
-			slot7 = slot6[2]
+	for slot6, slot7 in ipairs(slot2) do
+		if slot1 == slot7[1] then
+			slot8 = slot7[2]
 
 			return {
-				type = slot7[1],
-				id = slot7[2],
-				count = slot7[3]
+				type = slot8[1],
+				id = slot8[2],
+				count = slot8[3]
 			}
 		end
 	end
 
 	return nil
+end
+
+function slot0.GetBuffLevelProgress(slot0)
+	slot3, slot4 = function ()
+		slot3 = "target_buff"
+
+		for slot3, slot4 in ipairs(uv0.activity:getDataConfig(slot3)) do
+			if uv0.level < slot4 then
+				return slot3, slot4
+			end
+		end
+
+		uv1 = true
+
+		return #uv0.activity:getDataConfig("target_buff") + 1, 1
+	end()
+	slot6 = (slot3 == 1 and true or false) and 0 or slot0.activity:getDataConfig("target_buff")[slot3 - 1]
+
+	return slot3, false and 1 or (slot0.level - slot6) / (slot4 - slot6)
+end
+
+function slot0.isInBuffTime(slot0)
+	if type(slot0.activity:getDataConfig("buff_time")) == "table" then
+		return pg.TimeMgr.GetInstance():GetServerTime() < pg.TimeMgr.GetInstance():Table2ServerTime({
+			year = slot1[1][1],
+			month = slot1[1][2],
+			day = slot1[1][3],
+			hour = slot1[2][1],
+			min = slot1[2][2],
+			sec = slot1[2][3]
+		}) and true or false
+	elseif slot1 == "always" then
+		return true
+	elseif slot1 == "stop" then
+		return false
+	end
+
+	return false
 end
 
 return slot0

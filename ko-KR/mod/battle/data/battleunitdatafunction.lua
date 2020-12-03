@@ -116,64 +116,68 @@ function slot25.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, s
 	return slot15
 end
 
-function slot25.InitUnitSkill(slot0, slot1)
-	for slot6, slot7 in pairs(slot0.skills or {}) do
-		slot1:AddBuff(uv0.Battle.BattleBuffUnit.New(slot7.id, slot7.level, slot1))
+function slot25.InitUnitSkill(slot0, slot1, slot2)
+	for slot7, slot8 in pairs(slot0.skills or {}) do
+		slot1:AddBuff(uv0.Battle.BattleBuffUnit.New(slot8.id, slot8.level, slot1))
 	end
 end
 
-function slot25.GetEquipSkill(slot0)
-	slot1 = Ship.WEAPON_COUNT
-	slot2 = {}
+function slot25.GetEquipSkill(slot0, slot1)
+	slot2 = Ship.WEAPON_COUNT
+	slot3 = {}
 
-	for slot6, slot7 in ipairs(slot0) do
-		if slot7.id then
-			slot9 = nil
+	for slot7, slot8 in ipairs(slot0) do
+		if slot8.id then
+			slot10 = nil
 
-			if slot1 and slot1 < slot6 then
-				if uv0.GetWeaponDataFromID(slot8) ~= nil then
-					slot9 = slot10.skill_id
+			if slot2 and slot2 < slot7 then
+				if uv0.GetWeaponDataFromID(slot9) ~= nil then
+					slot10 = slot11.skill_id
 				end
 			else
-				slot9 = uv0.GetWeaponDataFromID(slot8).skill_id
+				slot10 = uv0.GetWeaponDataFromID(slot9).skill_id
 			end
 
-			for slot13, slot14 in ipairs(slot9) do
-				table.insert(slot2, slot14)
+			for slot14, slot15 in ipairs(slot10) do
+				if slot1 then
+					slot15 = uv0.SkillTranform(slot1, slot15) or slot15
+				end
+
+				table.insert(slot3, slot15)
 			end
 		end
 	end
 
-	return slot2
+	return slot3
 end
 
-function slot25.InitEquipSkill(slot0, slot1)
-	for slot6, slot7 in ipairs(uv0.GetEquipSkill(slot0)) do
-		slot1:AddBuff(uv1.Battle.BattleBuffUnit.New(slot7, 1, slot1))
+function slot25.InitEquipSkill(slot0, slot1, slot2)
+	for slot7, slot8 in ipairs(uv0.GetEquipSkill(slot0, slot2)) do
+		slot1:AddBuff(uv1.Battle.BattleBuffUnit.New(slot8, 1, slot1))
 	end
 end
 
-function slot25.InitCommanderSkill(slot0, slot1)
-	slot2 = uv0.Battle.BattleState.GetInstance():GetBattleType()
+function slot25.InitCommanderSkill(slot0, slot1, slot2)
+	slot3 = uv0.Battle.BattleState.GetInstance():GetBattleType()
 
-	for slot6, slot7 in pairs(slot0 or {}) do
-		slot9 = false
+	for slot7, slot8 in pairs(slot0 or {}) do
+		slot10 = false
 
-		if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot7.id, slot7.level).limit then
-			for slot13, slot14 in ipairs(slot8) do
-				if slot2 == slot14 then
-					slot9 = true
+		if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot8.id, slot8.level).limit then
+			for slot14, slot15 in ipairs(slot9) do
+				if slot3 == slot15 then
+					slot10 = true
 
 					break
 				end
 			end
 		end
 
-		if not slot9 then
-			slot10 = uv0.Battle.BattleBuffUnit.New(slot7.id, slot7.level, slot1)
+		if not slot10 then
+			slot11 = uv0.Battle.BattleBuffUnit.New(slot8.id, slot8.level, slot1)
 
-			slot10:SetCommander(slot7.commander)
-			slot1:AddBuff(slot10)
+			slot11:SetCommander(slot8.commander)
+			slot1:AddBuff(slot11)
 		end
 	end
 end

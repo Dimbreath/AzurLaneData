@@ -124,6 +124,28 @@ function slot0.addToLayerMgr(slot0)
 	})
 end
 
+slot0.optionsPath = {
+	"option",
+	"top/option",
+	"top/left_top/option",
+	"blur_container/top/title/option",
+	"blur_container/top/option",
+	"top/top_chapter/option",
+	"top/top/option",
+	"common/top/option",
+	"blur_panel/top/option",
+	"blurPanel/top/option",
+	"blur_container/top/option",
+	"top/title/option",
+	"blur_panel/adapt/top/option",
+	"mainPanel/top/option",
+	"bg/top/option",
+	"blur_container/adapt/top/title/option",
+	"blur_container/adapt/top/option",
+	"ForNorth/top/option",
+	"top/top_chapter/option"
+}
+
 function slot0.onUILoaded(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1 and slot1.transform
@@ -143,26 +165,11 @@ function slot0.onUILoaded(slot0, slot1)
 
 	pg.DelegateInfo.New(slot0)
 
-	slot0.optionBtns = {
-		slot0:findTF("top/option"),
-		slot0:findTF("top/left_top/option"),
-		slot0:findTF("blur_container/top/title/option"),
-		slot0:findTF("blur_container/top/option"),
-		slot0:findTF("top/top_chapter/option"),
-		slot0:findTF("top/top/option"),
-		slot0:findTF("common/top/option"),
-		slot0:findTF("blur_panel/top/option"),
-		slot0:findTF("blurPanel/top/option"),
-		slot0:findTF("blur_container/top/option"),
-		slot0:findTF("top/title/option"),
-		slot0:findTF("blur_panel/adapt/top/option"),
-		slot0:findTF("mainPanel/top/option"),
-		slot0:findTF("bg/top/option"),
-		slot0:findTF("blur_container/adapt/top/title/option"),
-		slot0:findTF("blur_container/adapt/top/option"),
-		slot0:findTF("ForNorth/top/option")
-	}
+	slot0.optionBtns = {}
 
+	table.foreachi(slot0.optionsPath, function (slot0, slot1)
+		table.insert(uv0.optionBtns, uv0:findTF(slot1))
+	end)
 	slot0:init()
 	setActive(slot0._tf, not slot0.event:chectConnect(uv0.LOADED))
 	slot0:emit(uv0.LOADED)
@@ -175,17 +182,15 @@ end
 function slot0.init(slot0)
 end
 
-function slot0.quckExitFunc(slot0)
+function slot0.quickExitFunc(slot0)
 	slot0:emit(uv0.ON_HOME)
 end
 
 function slot0.quickExit(slot0)
-	for slot4, slot5 in pairs(slot0.optionBtns) do
-		if not IsNil(slot5) then
-			onButton(slot0, slot5, function ()
-				uv0:quckExitFunc()
-			end, SFX_PANEL)
-		end
+	for slot4, slot5 in ipairs(slot0.optionBtns) do
+		onButton(slot0, slot5, function ()
+			uv0:quickExitFunc()
+		end, SFX_PANEL)
 	end
 end
 
@@ -237,15 +242,15 @@ function slot0.enter(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
-end
-
 function slot0.closeView(slot0)
 	if slot0.contextData.isLayer then
 		slot0:emit(uv0.ON_CLOSE)
 	else
 		slot0:emit(uv0.ON_BACK)
 	end
+end
+
+function slot0.didEnter(slot0)
 end
 
 function slot0.willExit(slot0)

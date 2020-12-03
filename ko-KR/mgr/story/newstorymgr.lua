@@ -45,6 +45,8 @@ function LoadStory(slot0)
 end
 
 function slot0.SetData(slot0, slot1)
+	slot0.playedList = {}
+
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot6
 
@@ -181,9 +183,9 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 
 			slot1 = uv0.playQueue[1][2]
 
-			uv0:SoloPlay(uv0.playQueue[1][1], function (slot0)
+			uv0:SoloPlay(uv0.playQueue[1][1], function (slot0, slot1)
 				if uv0 then
-					uv0(slot0)
+					uv0(slot0, slot1)
 				end
 
 				table.remove(uv1.playQueue, 1)
@@ -265,6 +267,9 @@ function slot0.CheckState(slot0)
 end
 
 function slot0.OnStart(slot0)
+	removeOnButton(slot0._go)
+	removeOnButton(slot0.skinBtn)
+
 	slot0.state = uv0
 
 	pg.m02:sendNotification(GAME.STORY_BEGIN, slot0.storyScript:GetName())
@@ -307,8 +312,13 @@ function slot0.OnStart(slot0)
 end
 
 function slot0.Clear(slot0)
-	pg.CriMgr.GetInstance():ResumeNormalBGM()
-	pg.CriMgr.GetInstance():StopSE_V3()
+	removeOnButton(slot0._go)
+	removeOnButton(slot0.skinBtn)
+
+	if isActive(slot0._go) then
+		pg.DelegateInfo.Dispose(slot0)
+	end
+
 	setActive(slot0.skinBtn, false)
 	setActive(slot0._go, false)
 
@@ -316,8 +326,8 @@ function slot0.Clear(slot0)
 		slot5:StoryEnd()
 	end
 
-	removeOnButton(slot0.skinBtn)
-	pg.DelegateInfo.Dispose(slot0)
+	pg.CriMgr.GetInstance():StopSE_V3()
+	pg.CriMgr.GetInstance():ResumeNormalBGM()
 	pg.m02:sendNotification(GAME.STORY_END, storyId)
 end
 

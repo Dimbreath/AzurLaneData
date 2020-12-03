@@ -357,24 +357,42 @@ return {
 		end
 	},
 	{
+		Image = "event_minigame",
+		ButtonName = "activity_DOALink",
+		Tag = "MiniGameHub",
 		Tip = "tip",
-		Image = "event_airfight",
-		ButtonName = "activity_airfight_battle",
 		UpdateButton = function (slot0, slot1)
-			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE) and not slot2:isEnd()
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd()
 
 			setActive(slot1, slot3)
 
 			if slot3 then
-				for slot9 = 1, slot2:getConfig("config_client")[1] do
-					slot4 = 0 + (slot2:getKVPList(1, slot9) or 0)
-				end
+				slot4 = getProxy(ActivityProxy)
 
-				slot6 = pg.TimeMgr.GetInstance()
-
-				setActive(slot1:Find("Tip"), slot4 < math.min((slot6:DiffDay(slot2.data1, slot6:GetServerTime()) + 1) * 2, slot5 * 3))
 				onButton(slot0, slot1, function ()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.AIRFORCE_DRAGONEMPERY)
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOALINK_ISLAND)
+				end, SFX_PANEL)
+				setActive(slot1:Find("Tip"), function ()
+					return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
+				end() or DoaMedalCollectionView.isHaveActivableMedal() or function ()
+					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
+
+					return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
+				end() or function ()
+					return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")).count > 0
+				end())
+
+				return
+			end
+
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot4:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				setActive(slot1:Find("Tip"), DoaMedalCollectionView.isHaveActivableMedal())
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOA_MEDAL_COLLECTION_SCENE)
 				end, SFX_PANEL)
 			end
 		end
@@ -393,8 +411,8 @@ return {
 	CurrentEntrancesList = {
 		1,
 		2,
+		5,
 		6,
-		14,
 		15
 	}
 }

@@ -629,6 +629,117 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[23] = {
+		can_rotate = 0,
+		describe = "특수 가구: 펜실베이니아급 전함 1:100 함선 모형",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/binxifaniya",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "펜실베이니아급 모형",
+		advice = 0,
+		icon = "binxifaniyaicon",
+		id = 23,
+		comfortable = 3,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24] = {
+		can_rotate = 0,
+		describe = "특수 가구: 퓨리어스급 항공모함 1:100 함선 모형",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/baonu",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "퓨리어스급 모형",
+		advice = 0,
+		icon = "baonuicon",
+		id = 24,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[25] = {
+		can_rotate = 0,
+		describe = "특수 가구: 포틀랜드급 중순양함 1:100 함선 모형",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/botelan",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "포틀랜드급 모형",
+		advice = 0,
+		icon = "botelanicon",
+		id = 25,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[102] = {
 		can_rotate = 0,
 		describe = "USS Arizona 1915.6.19─1941.12.7",
@@ -2949,6 +3060,319 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[178] = {
+		can_rotate = 0,
+		describe = "아이돌의 꿈은 여기서부터 시작이야!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/qidianwutai",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "스타트 스테이지",
+		advice = 0,
+		id = 178,
+		icon = "qidianwutaiicon",
+		comfortable = 2,
+		size = {
+			9,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					72,
+					-75
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					-28,
+					-126
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					80,
+					-143
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[179] = {
+		can_rotate = 0,
+		describe = "여왕의 초상화(자필 서명 추가)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/queen",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "여왕의 초상화",
+		advice = 0,
+		icon = "queenicon",
+		id = 179,
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[180] = {
+		can_rotate = 0,
+		describe = "훌륭한 유화. 매우 비싸 보인다.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/libie",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "명화 <이별>",
+		advice = 0,
+		icon = "libieicon",
+		id = 180,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[181] = {
+		can_rotate = 0,
+		describe = "「우리의 신성한 명예로서 피차 선서한다——」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		canputon = 0,
+		themeId = 0,
+		icon = "lkxdjiangtaiicon",
+		count = 1,
+		name = "선교 강단",
+		id = 181,
+		advice = 0,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lkxdjiangtaiB",
+				"normal"
+			},
+			{
+				"lkxdjiangtaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"normal",
+						0,
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					107020
+				},
+				"lkxdjiangtai",
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"lkxdjiangtaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[182] = {
+		can_rotate = 0,
+		describe = "누구의 종이 비행기가 더 멀리 날아가는지 시합해볼까!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "zfjicon",
+		count = 1,
+		name = "종이 비행기",
+		id = 182,
+		advice = 0,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zfjB",
+				"normal"
+			},
+			{
+				"zfjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2",
+						0,
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"zfjCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[183] = {
 		can_rotate = 0,
 		describe = "「접해몽화」 특별 작전에서 우수한 성과를 거둔 자에게 수여하는 기념장. 도리이와 우키요에로 구현된 「꿈」 속의 풍경, 아른아른한 푸른 나비가 떠다니고 있다.",
@@ -3041,6 +3465,98 @@ pg.furniture_data_template = {
 			{
 				"ido2xunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[187] = {
+		can_rotate = 0,
+		describe = "\"지휘관과, 그리고 모두와 함께 아주 즐거운 시간을 보냈어요~ 앞으로도 잘 부탁드릴게요~\" <color=#ffde38>——「휴일항로」 이벤트 기념</color>",
+		gain_by = "假日航线",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/doadalao",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "비너스 휴가 기념장",
+		advice = 0,
+		icon = "doadalaoicon",
+		id = 187,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"doa_main_day",
+				"doa_main_night"
+			}
+		},
+		interAction_group = {}
+	},
+	[188] = {
+		can_rotate = 1,
+		describe = "Let's fever！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "쥬쥬 무드 케이스(비너스)",
+		advice = 0,
+		id = 188,
+		icon = "doaxunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaxunzhang",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"doa_qifenhe",
+					"action1"
+				}
 			}
 		},
 		interAction_group = {}
@@ -74669,6 +75185,1162 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[72001] = {
+		can_rotate = 0,
+		describe = "함께 색다른 바캉스를 즐기자쥬!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/dibandoa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "바캉스 해변",
+		advice = 0,
+		icon = "dibandoaicon",
+		id = 72001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72002] = {
+		can_rotate = 0,
+		describe = "함께 색다른 바캉스를 즐기자쥬!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/qiangbidoa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "바캉스 벽지",
+		advice = 0,
+		icon = "qiangbi4doaicon",
+		id = 72002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72101] = {
+		can_rotate = 0,
+		describe = "생기 넘치는 생화 장식",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/1doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "남국 생화",
+		advice = 0,
+		icon = "1doaicon",
+		id = 72101,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72102] = {
+		can_rotate = 0,
+		describe = "과일과 각종 맛있는 음식들 가져가세요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/2doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "남국 뷔페 식탁",
+		advice = 0,
+		icon = "2doaicon",
+		id = 72102,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72103] = {
+		can_rotate = 0,
+		describe = "나무로 기본틀을 잡고 푹신한 쿠션을 더하면 편안한 소파 완성~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/3doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "캐주얼 소파",
+		advice = 0,
+		icon = "3doaicon",
+		id = 72103,
+		comfortable = 2,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72104] = {
+		can_rotate = 0,
+		describe = "방 안의 탁자. 조금 낮은 것 같기도.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/4doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "캐주얼 탁자",
+		advice = 0,
+		icon = "4doaicon",
+		id = 72104,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			16.64
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72105] = {
+		can_rotate = 0,
+		describe = "나무로 기본틀을 잡고 푹신한 쿠션을 더하면 편안한 소파 완성~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/5doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 2,
+		name = "캐주얼 소파2",
+		advice = 0,
+		id = 72105,
+		icon = "5doaicon",
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3.6,
+					35.8
+				},
+				{
+					-1,
+					1
+				},
+				"doa/5doa_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72106] = {
+		can_rotate = 0,
+		describe = "생기 넘치는 생화 장식",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/6doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "남국 붉은꽃",
+		advice = 0,
+		icon = "6doaicon",
+		id = 72106,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72107] = {
+		can_rotate = 0,
+		describe = "꽃향기를 맡으며 애프터눈티를 즐겨요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/7doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "바캉스 티 테이블",
+		advice = 0,
+		icon = "7doaicon",
+		id = 72107,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72108] = {
+		can_rotate = 0,
+		describe = "멋진 플로어 스탠드. 밝기를 조절할 수 있어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/8doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "캐주얼 플로어 스탠드",
+		advice = 0,
+		icon = "8doaicon",
+		id = 72108,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72109] = {
+		can_rotate = 0,
+		describe = "멋진 벽등. 온화한 빛을 발산해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/9doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "캐주얼 벽등",
+		advice = 0,
+		icon = "9doaicon",
+		id = 72109,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72110] = {
+		can_rotate = 0,
+		describe = "소박한 보도블록. 안정감을 주네요.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/10doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "캐주얼 보도블록",
+		advice = 0,
+		icon = "10doaicon",
+		id = 72110,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72111] = {
+		can_rotate = 0,
+		describe = "누가 깃발 뺏기 대회의 우승을 차지할 것인가~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/11doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "백사장 깃발",
+		advice = 0,
+		icon = "11doaicon",
+		id = 72111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72112] = {
+		can_rotate = 0,
+		describe = "일광욕을 즐길 시간이 왔어요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/12doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 2,
+		name = "비치 리클라이너",
+		advice = 0,
+		id = 72112,
+		icon = "12doaicon",
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-25,
+					16
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72113] = {
+		can_rotate = 0,
+		describe = "몰라 한 송이 따도 아무도 못보겠지?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/13doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "남국 바나나 나무",
+		advice = 0,
+		icon = "13doaicon",
+		id = 72113,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72114] = {
+		can_rotate = 0,
+		describe = "놀다가 지치면 파라솔 밑에서 쉬어요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/14doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "비치 파라솔",
+		advice = 0,
+		icon = "14doaicon",
+		id = 72114,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72115] = {
+		can_rotate = 0,
+		describe = "바닷물의 침식으로, 둥글고 매끄럽게 변한 돌.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/15doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "남국 암초",
+		advice = 0,
+		icon = "15doaicon",
+		id = 72115,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72116] = {
+		can_rotate = 0,
+		describe = "장식용 요트. 정말로 타고 나가면 안돼요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/16doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "남국 요트",
+		advice = 0,
+		icon = "16doaicon",
+		id = 72116,
+		comfortable = 3,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72117] = {
+		can_rotate = 0,
+		describe = "올라가면 위험해요. 함부로 올라가지 말아요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/17doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "남국 거대 암초",
+		advice = 0,
+		icon = "17doaicon",
+		id = 72117,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72118] = {
+		can_rotate = 0,
+		describe = "흔들어보면 무언가가 떨어질까요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/18doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "남국 야자수",
+		advice = 0,
+		icon = "18doaicon",
+		id = 72118,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72119] = {
+		can_rotate = 0,
+		describe = "산책하고, 바닷바람을 맞아보고, 한가로운 휴가를 즐겨요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/19doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 1,
+		name = "캐주얼 나무 잔도",
+		advice = 0,
+		id = 72119,
+		icon = "19doaicon",
+		comfortable = 3,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-74.9,
+					-35.4
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72120] = {
+		can_rotate = 0,
+		describe = "모래사장에서 다 놀면 샤워해야죠~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/20doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "레인 샤워기",
+		advice = 0,
+		icon = "20doaicon",
+		id = 72120,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72121] = {
+		can_rotate = 0,
+		describe = "밀짚으로 만든 파라솔. 우선... 더위 좀 피하죠~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/21doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "밀짚 파라솔",
+		advice = 0,
+		icon = "21doaicon",
+		id = 72121,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72122] = {
+		can_rotate = 0,
+		describe = "언제 떨어졌는지 알 수 없는 청야자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/22doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 72,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "남국 청야자",
+		advice = 0,
+		icon = "22doaicon",
+		id = 72122,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72123] = {
+		can_rotate = 0,
+		describe = "푹신한 침대. 잠깐만 누워도 하루의 피로가 회복될 것 같아요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa/23doa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 72,
+		count = 1,
+		name = "캐주얼 침대",
+		advice = 0,
+		id = 72123,
+		icon = "23doaicon",
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-2,
+					-33
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[72124] = {
+		can_rotate = 0,
+		describe = "스매시를 받아... 쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 72,
+		icon = "Adoaicon",
+		count = 1,
+		name = "남국 비치 발리볼",
+		id = 72124,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AdoaB",
+				"normal"
+			},
+			{
+				"AdoaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"touch"
+					},
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"AdoaCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[72125] = {
+		can_rotate = 0,
+		describe = "누가 부판 위에서 끝까지 버티는지 시합해볼까!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 72,
+		icon = "Bdoaicon",
+		count = 1,
+		name = "캐주얼 수영장",
+		id = 72125,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			10,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"BdoaB",
+				"normal"
+			},
+			{
+				"BdoaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					"wash"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"BdoaCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -74687,6 +76359,9 @@ pg.furniture_data_template = {
 		15,
 		16,
 		17,
+		23,
+		24,
+		25,
 		102,
 		104,
 		105,
@@ -74733,8 +76408,15 @@ pg.furniture_data_template = {
 		173,
 		175,
 		177,
+		178,
+		179,
+		180,
+		181,
+		182,
 		183,
 		184,
+		187,
+		188,
 		100002,
 		100003,
 		100004,
@@ -76348,6 +78030,33 @@ pg.furniture_data_template = {
 		71118,
 		71119,
 		71301,
-		71302
+		71302,
+		72001,
+		72002,
+		72101,
+		72102,
+		72103,
+		72104,
+		72105,
+		72106,
+		72107,
+		72108,
+		72109,
+		72110,
+		72111,
+		72112,
+		72113,
+		72114,
+		72115,
+		72116,
+		72117,
+		72118,
+		72119,
+		72120,
+		72121,
+		72122,
+		72123,
+		72124,
+		72125
 	}
 }

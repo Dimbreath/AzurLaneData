@@ -262,6 +262,16 @@ function slot0.uiExitAnimating(slot0)
 	shiftPanel(slot0._right, 470, nil, , , true, true)
 end
 
+function slot0.quickExitFunc(slot0)
+	if slot0._currentForm == uv0.FORM_EDIT and slot0._editedFlag then
+		slot0:emit(PreCombatMediator.ON_ABORT_EDIT)
+
+		GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).interactable = false
+	end
+
+	uv0.super.quickExitFunc(slot0)
+end
+
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then

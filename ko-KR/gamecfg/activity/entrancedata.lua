@@ -56,7 +56,13 @@ return {
 			return pg.TimeMgr.GetInstance():inTime(ActivityConst.LIMIT_SKIN_SHOP_TIME)
 		end,
 		isTip = function ()
-			return getProxy(PlayerProxy):getRawData():getResource(pg.gameset.skin_ticket.key_value) and slot2 > 0
+			if not getProxy(PlayerProxy):getRawData():getResource(pg.gameset.skin_ticket.key_value) or slot2 <= 0 then
+				return false
+			end
+
+			return _.any(getProxy(ShipSkinProxy):GetAllSkins(), function (slot0)
+				return slot0:getConfig("genre") == ShopArgs.SkinShopTimeLimit and not uv0:hasSkin(slot0:getSkinId())
+			end)
 		end
 	},
 	{
@@ -239,9 +245,23 @@ return {
 				end
 
 				slot3 = pg.TimeMgr.GetInstance()
+				slot5 = math.min((slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
 
-				return slot1 < math.min((slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
+				return false
 			end
+		end
+	},
+	{
+		banner = "doa_medal",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.DOA_MEDAL_COLLECTION_SCENE
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_MEDAL_ACT_ID) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return DoaMedalCollectionView.isHaveActivableMedal()
 		end
 	}
 }

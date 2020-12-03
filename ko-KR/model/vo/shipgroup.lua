@@ -88,6 +88,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.evaluation = nil
 	slot0.lastReqStamp = 0
 	slot0.trans = false
+	slot0.remoulded = slot1.remoulded
 	slot2 = uv0.getDefaultShipConfig(slot0.id)
 	slot0.shipConfig = setmetatable({}, {
 		__index = function (slot0, slot1)
@@ -262,6 +263,24 @@ end
 
 function slot0.GetMaxIntimacy(slot0)
 	return slot0.maxIntimacy / 100 + (slot0.married and slot0.married * 1000 or 0)
+end
+
+function slot0.isSpecialFilter(slot0)
+	for slot4, slot5 in ipairs(slot0.shipConfig.tag_list) do
+		if slot5 == "special" then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.getGroupId(slot0)
+	return slot0.id
+end
+
+function slot0.isRemoulded(slot0)
+	return slot0.remoulded
 end
 
 return slot0

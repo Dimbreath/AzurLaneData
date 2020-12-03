@@ -6708,6 +6708,790 @@ pg.collection_template = {
 		},
 		special_drop = {}
 	},
+	[50001] = {
+		ship_num = 2,
+		time = 0,
+		type = 0,
+		collect_time = 1800,
+		title = "모항 청소",
+		drop_gold_max = 40,
+		drop_oil_max = 0,
+		exp = 60,
+		oil = 0,
+		id = 50001,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "60",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "20~40",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "0~1",
+				type = 2
+			},
+			{
+				id = 59189,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50002] = {
+		ship_num = 3,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "요리 제작",
+		drop_gold_max = 85,
+		drop_oil_max = 0,
+		exp = 120,
+		oil = 0,
+		id = 50002,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59189,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50003] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "보급 구매",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50003,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 59189,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50004] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "섬 순찰",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50004,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30323,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50005] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 10800,
+		title = "자연 조사",
+		drop_gold_max = 0,
+		drop_oil_max = 130,
+		exp = 360,
+		oil = 0,
+		id = 50005,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "80~130",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "3~5",
+				type = 2
+			},
+			{
+				id = 30323,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50006] = {
+		ship_num = 5,
+		time = 0,
+		type = 0,
+		collect_time = 14400,
+		title = "보고서 작성",
+		drop_gold_max = 0,
+		drop_oil_max = 180,
+		exp = 480,
+		oil = 0,
+		id = 50006,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "480",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~180",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			},
+			{
+				id = 30323,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50007] = {
+		ship_num = 2,
+		time = 0,
+		type = 0,
+		collect_time = 1800,
+		title = "모항 청소",
+		drop_gold_max = 40,
+		drop_oil_max = 0,
+		exp = 60,
+		oil = 0,
+		id = 50007,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "60",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "20~40",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "0~1",
+				type = 2
+			},
+			{
+				id = 59189,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50008] = {
+		ship_num = 3,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "요리 제작",
+		drop_gold_max = 85,
+		drop_oil_max = 0,
+		exp = 120,
+		oil = 0,
+		id = 50008,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59189,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50009] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "보급 구매",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50009,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 59189,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50010] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "섬 순찰",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50010,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30323,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50011] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 10800,
+		title = "자연 조사",
+		drop_gold_max = 0,
+		drop_oil_max = 130,
+		exp = 360,
+		oil = 0,
+		id = 50011,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "80~130",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "3~5",
+				type = 2
+			},
+			{
+				id = 30323,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50012] = {
+		ship_num = 5,
+		time = 0,
+		type = 0,
+		collect_time = 14400,
+		title = "보고서 작성",
+		drop_gold_max = 0,
+		drop_oil_max = 180,
+		exp = 480,
+		oil = 0,
+		id = 50012,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "480",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~180",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			},
+			{
+				id = 30323,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50013] = {
+		ship_num = 3,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "요리 제작",
+		drop_gold_max = 85,
+		drop_oil_max = 0,
+		exp = 120,
+		oil = 0,
+		id = 50013,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59189,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50014] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "섬 순찰",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50014,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30323,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
 	all = {
 		101,
 		102,
@@ -6853,6 +7637,20 @@ pg.collection_template = {
 		40303,
 		40304,
 		40305,
-		40306
+		40306,
+		50001,
+		50002,
+		50003,
+		50004,
+		50005,
+		50006,
+		50007,
+		50008,
+		50009,
+		50010,
+		50011,
+		50012,
+		50013,
+		50014
 	}
 }

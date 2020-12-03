@@ -22,6 +22,7 @@ function slot6.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(uv1.Battle.BattleDataProxy.__name)
 	slot0._uiMGR = pg.UIMgr.GetInstance()
+	slot0._fxPool = uv1.Battle.BattleFXPool.GetInstance()
 	slot0._updateViewList = {}
 
 	slot0:SetBattleUI()
@@ -256,6 +257,7 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING, slot0.onUpdateEnvironmentWarning)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.KIZUNA_JAMMING, slot0.onJamming)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UI_FX, slot0.OnAddUIFX)
 end
 
 function slot6.RemoveUIEvent(slot0)
@@ -281,6 +283,7 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.FLEET_HORIZON_UPDATE)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UI_FX)
 end
 
 function slot6.ShowSkillPainting(slot0, slot1, slot2, slot3)
@@ -594,6 +597,21 @@ function slot6.onFleetHorizonUpdate(slot0, slot1)
 	end
 
 	slot0._inkView:UpdateHollow(slot1.Dispatcher:GetUnitList())
+end
+
+function slot6.OnAddUIFX(slot0, slot1)
+	slot0:AddUIFX(slot1.Data.orderDiff, slot1.Data.FXID, slot1.Data.position, slot1.Data.localScale)
+end
+
+function slot6.AddUIFX(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0._fxPool:GetFX(slot2)
+	slot1 = slot1 or 1
+	slot6 = slot1 > 0
+	slot7 = slot0._ui:AddUIFX(slot5, slot1)
+	slot4 = slot4 or 1
+	slot5.transform.localScale = Vector3(slot4 / slot7.x, slot4 / slot7.y, slot4 / slot7.z)
+
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot3, true)
 end
 
 function slot6.registerUnitEvent(slot0, slot1)

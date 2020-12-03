@@ -63,7 +63,7 @@ function slot0.ShoulePlayBgm(slot0)
 end
 
 function slot0.ShouldStopBgm(slot0)
-	return slot0.stopbgm or slot0:ShoulePlayBgm()
+	return slot0.stopbgm
 end
 
 function slot0.GetEffects(slot0)

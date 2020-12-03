@@ -843,41 +843,38 @@ function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)
 	slot6 = nil
 	slot7 = 0
 	slot8 = 0
+	slot9 = 0
 
 	slot4:AddBeginDragFunc(function (slot0, slot1)
 		uv0 = 0
 		uv1 = 0
 		uv2 = slot1.position
-		prev = uv2.y
-
-		if onBegin then
-			onBegin()
-		end
+		uv3 = uv2.y
 	end)
 	slot4:AddDragFunc(function (slot0, slot1)
-		if slot1.position.y < prev and uv0 ~= 0 then
-			uv1 = slot1.position
-			uv0 = 0
-		elseif prev < slot1.position.y and uv2 ~= 0 then
-			uv1 = slot1.position
-			uv2 = 0
+		if slot1.position.y < uv0 and uv1 ~= 0 then
+			uv2 = slot1.position
+			uv1 = 0
+		elseif uv0 < slot1.position.y and uv3 ~= 0 then
+			uv2 = slot1.position
+			uv3 = 0
 		end
 
-		slot3 = math.abs(math.floor((slot1.position.y - uv1.y) / uv3))
+		slot3 = math.abs(math.floor((slot1.position.y - uv2.y) / uv4))
 
-		if uv4 and uv2 < slot3 then
-			uv2 = slot3
+		if uv5 and uv3 < slot3 then
+			uv3 = slot3
 
-			uv4(slot2)
+			uv5(slot2)
 		end
 
-		if uv4 and slot3 < uv0 then
-			uv0 = slot3
+		if uv5 and slot3 < uv1 then
+			uv1 = slot3
 
-			uv4(slot2)
+			uv5(slot2)
 		end
 
-		prev = uv1.y
+		uv0 = uv2.y
 	end)
 	slot4:AddDragEndFunc(function (slot0, slot1)
 		if uv0 then

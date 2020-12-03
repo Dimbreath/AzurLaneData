@@ -11,6 +11,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.labelLimitTime = slot0:findTF("timeLimit$/labelLimitTime$"):GetComponent("Text")
 	slot0.iconType = slot0:findTF("iconType$"):GetComponent("Image")
 	slot0.iconState = slot0:findTF("iconState$")
+	slot0.activityLimitBg = slot0:findTF("bgAct")
+	slot0.shadow = slot0:findTF("Image"):GetComponent(typeof(Image))
+	slot0.timerBg = slot0:findTF("labelTime$"):GetComponent(typeof(Image))
+	slot0.label = slot0:findTF("labelName$/Image"):GetComponent(typeof(Text))
 	slot0.labelLv = slot0:findTF("level/labelLv$"):GetComponent("Text")
 	slot0.iconTip = slot0:findTF("iconTip$").gameObject
 	slot0.labelName = slot0:findTF("labelName$"):GetComponent("Text")
@@ -74,7 +78,16 @@ function slot0.Flush(slot0)
 		slot0.iconTip:SetActive(false)
 	end
 
-	LoadImageSpriteAsync("eventtype/" .. slot0.event.template.icon, slot0.iconType)
+	LoadImageSpriteAsync("eventtype/" .. slot0.event.template.icon, slot0.iconType, true)
+
+	slot1 = slot0.event:IsActivityType()
+
+	setActive(slot0.activityLimitBg, slot1)
+	setActive(slot0.shadow.gameObject, not slot1)
+
+	slot0.timerBg.color = slot1 and Color.New(0.3843137254901961, 0.17254901960784313, 0.4392156862745098, 0.5) or Color.New(1, 1, 1, 1)
+	slot0.label.color = slot1 and Color.New(0.9411764705882353, 0.803921568627451, 1, 1) or Color.New(0.6431372549019608, 0.8117647058823529, 0.9725490196078431, 1)
+
 	eachChild(slot0.iconState, function (slot0)
 		setActive(slot0, slot0.gameObject.name == tostring(uv0.event.state))
 	end)
@@ -82,33 +95,33 @@ function slot0.Flush(slot0)
 	slot0.labelLv.text = "" .. slot0.event.template.lv
 	slot0.labelName.text = slot0.event.template.title
 
-	for slot6 = slot0.awardsTr.childCount, #slot0.event.template.drop_display - 1 do
+	for slot7 = slot0.awardsTr.childCount, #slot0.event.template.drop_display - 1 do
 		Object.Instantiate(slot0.awardItem).transform:SetParent(slot0.awardsTr, false)
 	end
 
-	for slot6 = 0, slot0.awardsTr.childCount - 1 do
-		slot7 = slot0.awardsTr:GetChild(slot6)
+	for slot7 = 0, slot0.awardsTr.childCount - 1 do
+		slot8 = slot0.awardsTr:GetChild(slot7)
 
-		if slot6 < #slot1 then
-			slot7.gameObject:SetActive(true)
+		if slot7 < #slot2 then
+			slot8.gameObject:SetActive(true)
 
-			slot8 = slot1[slot6 + 1]
+			slot9 = slot2[slot7 + 1]
 
-			updateDrop(slot7, {
-				type = slot8.type,
-				id = slot8.id,
-				count = slot8.nums
+			updateDrop(slot8, {
+				type = slot9.type,
+				id = slot9.id,
+				count = slot9.nums
 			})
 		else
-			slot7.gameObject:SetActive(false)
+			slot8.gameObject:SetActive(false)
 		end
 	end
 
-	slot3 = table.getCount(slot0.event.template.special_drop) ~= 0
+	slot4 = table.getCount(slot0.event.template.special_drop) ~= 0
 
-	SetActive(slot0.specialAward, slot3)
+	SetActive(slot0.specialAward, slot4)
 
-	if slot3 then
+	if slot4 then
 		updateDrop(slot0.specialAward, {
 			type = slot0.event.template.special_drop.type,
 			id = slot0.event.template.special_drop.id

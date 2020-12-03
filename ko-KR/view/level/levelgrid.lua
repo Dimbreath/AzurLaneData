@@ -9,6 +9,7 @@ function slot0.init(slot0)
 	uv0.super.init(slot0)
 
 	slot0.levelCam = GameObject.Find("LevelCamera"):GetComponent(typeof(Camera))
+	GameObject.Find("LevelCamera/Canvas"):GetComponent(typeof(Canvas)).sortingOrder = ChapterConst.PriorityMin
 	slot0.quadTws = {}
 	slot0.attachTws = {}
 	slot0.shiningTws = {}
@@ -704,15 +705,12 @@ function slot0.updateFleet(slot0, slot1)
 				slot12:SetParent(slot0._tf, false)
 
 				slot12.localEulerAngles = Vector3(-slot2.theme.angle, 0, 0)
+				slot13 = GetOrAddComponent(slot12, typeof(Canvas))
 
-				onNextTick(function ()
-					slot0 = GetOrAddComponent(go(uv0), typeof(Canvas))
-					slot0.overrideSorting = true
-					slot0.sortingOrder = ChapterConst.PriorityMax
+				GetOrAddComponent(go(slot12), typeof(GraphicRaycaster))
 
-					GetOrAddComponent(go(uv0), typeof(GraphicRaycaster))
-				end)
-
+				slot13.overrideSorting = true
+				slot13.sortingOrder = ChapterConst.PriorityMax
 				slot0.opBtns[slot1] = slot12
 			end
 
@@ -1160,34 +1158,6 @@ function slot0.clearChampions(slot0)
 
 		slot0.cellChampions = nil
 	end
-end
-
-function slot0.sortItems(slot0)
-	if not slot0.sortFunc then
-		slot0.sortFunc = debounce(function ()
-			if uv0.exited then
-				return
-			end
-
-			slot0 = {}
-
-			if uv0.cellFleets then
-				for slot4, slot5 in pairs(uv0.cellFleets) do
-					slot5:ResetCanvasOrder()
-				end
-			end
-
-			if uv0.cellChampions then
-				_.each(uv0.cellChampions, function (slot0)
-					if slot0 then
-						slot0:ResetCanvasOrder()
-					end
-				end)
-			end
-		end, 0.1, false)
-	end
-
-	slot0.sortFunc()
 end
 
 function slot0.initCell(slot0, slot1, slot2)
@@ -2345,6 +2315,12 @@ function slot0.PlayChampionSubmarineAnimation(slot0, slot1, slot2, slot3)
 end
 
 function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
+	if not slot1 then
+		slot3()
+
+		return
+	end
+
 	if not slot1:getModel() then
 		slot3()
 
@@ -2364,14 +2340,17 @@ function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
 			uv1.tfAmmo.anchoredPosition = Vector2.Lerp(uv2, uv3, slot0)
 		end
 	end)):setOnComplete(System.Action(function ()
-		onNextTick(function ()
-			uv0:SetActiveModel(not uv1)
-			uv2:unfrozen()
+		uv0:unfrozen()
 
-			if uv3 then
-				uv3()
-			end
-		end)
+		if uv0.exited then
+			return
+		end
+
+		uv1:SetActiveModel(not uv2)
+
+		if uv3 then
+			uv3()
+		end
 	end)).id] = true
 end
 
@@ -2413,30 +2392,34 @@ function slot0.TeleportFleetByPortal(slot0, slot1, slot2, slot3, slot4)
 	slot0.tweens[LeanTween.value(slot8, 1, 0, slot5:GetQuickPlayFlag() and 0.1 or 0.3):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
 		uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
 	end)):setOnComplete(System.Action(function ()
+		if uv0.exited then
+			return
+		end
+
 		uv0.tweens[uv1] = nil
 
-		onNextTick(function ()
-			if uv0 then
-				uv0()
+		if uv2 then
+			uv2()
+		end
+
+		uv0:updateFleet(table.indexof(uv0.cellFleets, uv3))
+
+		uv1 = LeanTween.value(uv4, 0, 1, uv5):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
+			uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
+		end)):setOnComplete(System.Action(function ()
+			if uv0.exited then
+				return
 			end
 
-			uv1:updateFleet(table.indexof(uv1.cellFleets, uv2))
+			uv0.tweens[uv1] = nil
 
-			uv3 = LeanTween.value(uv4, 0, 1, uv5):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
-				uv0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
-			end)):setOnComplete(System.Action(function ()
-				uv0.tweens[uv1] = nil
+			uv0:unfrozen()
 
-				onNextTick(function ()
-					uv0:unfrozen()
-
-					if uv1 then
-						uv1()
-					end
-				end)
-			end)).id
-			uv1.tweens[uv3] = true
-		end)
+			if uv2 then
+				uv2()
+			end
+		end)).id
+		uv0.tweens[uv1] = true
 	end)).id] = true
 end
 
@@ -2664,7 +2647,10 @@ function slot0.OnChangeSubAutoAttack(slot0)
 		return
 	end
 
-	slot4 = slot0.cellFleets[slot2.id]
+	if not slot0.cellFleets[slot2.id] then
+		return
+	end
+
 	slot5 = slot1.subAutoAttack == 1
 
 	slot4:SetActive(slot5)

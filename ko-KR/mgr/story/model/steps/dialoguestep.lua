@@ -31,6 +31,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.subPaintings = slot1.subActors
 	slot0.paingtingScale = slot1.actorScale
 	slot0.hidePainting = slot1.withoutPainting
+	slot0.actorShadow = slot1.actorShadow
 
 	if slot0.hidePainting or slot0.actor == nil then
 		slot0.actor = nil
@@ -50,6 +51,10 @@ end
 
 function slot0.GetTypewriter(slot0)
 	return slot0.typewriter
+end
+
+function slot0.ShouldFaceBlack(slot0)
+	return slot0.actorShadow
 end
 
 function slot0.GetPaintingData(slot0)
@@ -82,11 +87,15 @@ function slot0.GetPaintingMoveToSide(slot0)
 end
 
 function slot0.GetPaintingAction(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0:GetPaintingActions()) do
-		if slot7.type == slot1 then
-			return slot7
+	slot2 = {}
+
+	for slot7, slot8 in ipairs(slot0:GetPaintingActions()) do
+		if slot8.type == slot1 then
+			table.insert(slot2, slot8)
 		end
 	end
+
+	return slot2
 end
 
 function slot0.GetSide(slot0)

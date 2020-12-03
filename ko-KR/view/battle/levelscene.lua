@@ -13,6 +13,10 @@ function slot0.getUIName(slot0)
 	return "LevelMainScene"
 end
 
+slot0.optionsPath = {
+	"top/top_chapter/option"
+}
+
 function slot0.preload(slot0, slot1)
 	slot2 = 0
 	slot4 = nil
@@ -357,9 +361,6 @@ function slot0.didEnter(slot0)
 			uv0:emit(uv1.ON_BACK)
 		end
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("option", slot0.topChapter), function ()
-		uv0:quckExitFunc()
-	end, SFX_PANEL)
 	onButton(slot0, slot0.btnSpecial, function ()
 		if uv0:isfrozen() then
 			return
@@ -573,7 +574,7 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.selectMap(slot0)
-	return slot0.contextData.mapIdx or (not Map.lastMap or not getProxy(ChapterProxy):getMapById(Map.lastMap) or Map.lastMap) and slot2:getLastUnlockMap().id
+	return slot0.contextData.mapIdx or (not Map.lastMap or not getProxy(ChapterProxy):getMapById(Map.lastMap) or not slot3:isUnlock() or Map.lastMap) and slot2:getLastUnlockMap().id
 end
 
 function slot0.setShips(slot0, slot1)
@@ -870,20 +871,20 @@ function slot0.updateActivityBtns(slot0)
 	slot3 = slot0.contextData.map:isRemaster()
 	slot6 = slot0.contextData.map:getConfig("type")
 
-	if not slot1 and not slot0.contextData.map:isSkirmish() and not slot0.contextData.map:isEscort() then
-		setImageSprite(slot0.activityBtn, getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot9:isEnd() and LoadSprite("ui/mainui_atlas", "event_map_" .. slot9.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
+	if getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot8:isEnd() and not slot1 and not slot0.contextData.map:isSkirmish() and not slot0.contextData.map:isEscort() then
+		setImageSprite(slot0.activityBtn, slot9 and LoadSprite("ui/mainui_atlas", "event_map_" .. slot8.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
 	end
 
-	setActive(slot0.activityBtn, slot8)
+	setActive(slot0.activityBtn, slot10)
 	setActive(slot0.signalBtn, getProxy(ChapterProxy):getChapterById(304):isClear() and (slot6 == Map.SCENARIO or slot6 == Map.ELITE))
 
 	if slot1 and slot2 then
-		setActive(slot0.actExtraBtn.parent, underscore.any(slot9:getMapsByActivities(), function (slot0)
+		setActive(slot0.actExtraBtn.parent, underscore.any(slot11:getMapsByActivities(), function (slot0)
 			return slot0:isActExtra()
 		end) and not slot3 and slot6 ~= Map.ACT_EXTRA)
 
 		if isActive(slot0.actExtraBtn.parent) then
-			if underscore.all(underscore.filter(slot11, function (slot0)
+			if underscore.all(underscore.filter(slot13, function (slot0)
 				return slot0:getMapType() == Map.ACTIVITY_EASY or slot1 == Map.ACTIVITY_HARD
 			end), function (slot0)
 				return slot0:isClear()
@@ -916,7 +917,7 @@ function slot0.updateActivityBtns(slot0)
 	setActive(slot0.ticketTxt.parent, slot3)
 
 	if slot3 then
-		setText(slot0.ticketTxt, slot9.remasterTickets .. " / " .. pg.gameset.reactivity_ticket_max.key_value)
+		setText(slot0.ticketTxt, slot11.remasterTickets .. " / " .. pg.gameset.reactivity_ticket_max.key_value)
 	end
 
 	slot0:updateCountDown()
@@ -1729,6 +1730,15 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				else
 					slot0()
 				end
+			end,
+			function (slot0)
+				slot1 = getProxy(ChapterProxy)
+
+				uv1.levelStageView:UpdateComboPanel(slot1:GetComboHistory(uv0.id))
+				slot1:RecordComboHistory(uv0.id, nil)
+				uv1.levelStageView:UpdateDOALinkFeverPanel(slot1:GetLastDefeatedEnemy(uv0.id))
+				slot1:RecordLastDefeatedEnemy(uv0.id, nil)
+				slot0()
 			end,
 			function (slot0)
 				uv0:unfrozen()

@@ -221,7 +221,7 @@ function slot0.SetFleetNameLabel(slot0)
 	setText(slot0._fleetNameText, slot0.defaultFleetName(slot0._currentFleetVO))
 end
 
-function slot0.quckExitFunc(slot0)
+function slot0.quickExitFunc(slot0)
 	if slot0._currentDragDelegate then
 		slot0._forceDropCharacter = true
 

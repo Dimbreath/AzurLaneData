@@ -995,5 +995,21 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "시오미 유키나",
 		code = 249
+	},
+	{
+		actor_name = "쿠와시마 호코",
+		code = 250
+	},
+	{
+		actor_name = "노나카 아이",
+		code = 251
+	},
+	{
+		actor_name = "아이자와 마이",
+		code = 252
+	},
+	{
+		actor_name = "사토 아케미",
+		code = 253
 	}
 }

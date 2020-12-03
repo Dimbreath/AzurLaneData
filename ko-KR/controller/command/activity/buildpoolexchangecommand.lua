@@ -8,10 +8,11 @@ function slot0.execute(slot0, slot1)
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(11202, {
-		arg1 = 0,
 		cmd = 2,
+		arg1 = 0,
 		arg2 = 0,
-		activity_id = slot3
+		activity_id = slot3,
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			uv0.data2 = uv0.data2 + 1

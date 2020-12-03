@@ -595,7 +595,7 @@ function slot0.addShipMove(slot0, slot1, slot2)
 end
 
 function slot0.ResetShipPos(slot0, slot1)
-	if not slot0:GetCanWalkGrid(slot0.data.ships[slot1]) then
+	if not slot0.data:GetSurroundGridByPoint(slot0.data.ships[slot1]:getPosition(), 1, 1, false) then
 		return
 	end
 

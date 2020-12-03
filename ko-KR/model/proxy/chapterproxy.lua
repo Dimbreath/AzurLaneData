@@ -130,6 +130,7 @@ function slot0.register(slot0)
 	slot0.defeatedEnemiesBuffer = {}
 	slot0.comboHistoryBuffer = {}
 	slot0.justClearChapters = {}
+	slot0.outStageHPChanges = {}
 
 	slot0:buildMaps()
 end
@@ -577,7 +578,7 @@ function slot0.getHigestClearChapterAndMap(slot0)
 	slot1 = slot0.baseMaps[1]
 
 	for slot5, slot6 in ipairs(slot0:getNormalMaps()) do
-		if not slot6:isAnyChapterClear() then
+		if not slot6:isAnyChapterClear(true) then
 			break
 		end
 
@@ -821,20 +822,16 @@ function slot0.GetChapterAidBuffs(slot0)
 	return slot1
 end
 
-function slot0.RecordLastDefeatedEnemy(slot0, slot1, slot2)
-	if not slot1 or slot1 <= 0 then
-		return
-	end
-
-	slot0.defeatedEnemiesBuffer[slot1] = slot2
-end
-
 function slot0.RecordComboHistory(slot0, slot1, slot2)
 	if not slot1 or slot1 <= 0 then
 		return
 	end
 
 	slot0.comboHistoryBuffer[slot1] = slot2
+end
+
+function slot0.GetComboHistory(slot0, slot1)
+	return slot0.comboHistoryBuffer[slot1]
 end
 
 function slot0.RecordJustClearChapters(slot0, slot1, slot2)
@@ -847,6 +844,30 @@ end
 
 function slot0.GetJustClearChapters(slot0, slot1)
 	return slot0.justClearChapters[slot1]
+end
+
+function slot0.RecordLastDefeatedEnemy(slot0, slot1, slot2)
+	if not slot1 or slot1 <= 0 then
+		return
+	end
+
+	slot0.defeatedEnemiesBuffer[slot1] = slot2
+end
+
+function slot0.GetLastDefeatedEnemy(slot0, slot1)
+	return slot0.defeatedEnemiesBuffer[slot1]
+end
+
+function slot0.RecordOutStageHPChanges(slot0, slot1, slot2)
+	if not slot1 or slot1 <= 0 then
+		return
+	end
+
+	slot0.outStageHPChanges[slot1] = slot2 and (slot0.outStageHPChanges[slot1] or 0) + slot2 or nil
+end
+
+function slot0.GetOutStageHPChanges(slot0, slot1)
+	return slot0.outStageHPChanges[slot1] or 0
 end
 
 function slot0.ifShowRemasterTip(slot0)

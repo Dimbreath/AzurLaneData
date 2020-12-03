@@ -670,6 +670,64 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		name = "沙排小游戏",
+		view_name = "VolleyballGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 17,
+		hub_id = 13,
+		request_data = 0,
+		simple_config_data = {
+			story = {
+				{
+					"JIARIHANGXIANRICHANG1"
+				},
+				{},
+				{
+					"JIARIHANGXIANRICHANG2"
+				},
+				{},
+				{
+					"JIARIHANGXIANRICHANG3"
+				},
+				{},
+				{
+					"JIARIHANGXIANRICHANG4"
+				}
+			},
+			mainChar = {
+				1,
+				6,
+				3,
+				4,
+				5,
+				2,
+				7
+			},
+			minorChar = {
+				2,
+				1,
+				2,
+				5,
+				6,
+				7,
+				4
+			},
+			endScore = {
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -686,6 +744,7 @@ pg.mini_game = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

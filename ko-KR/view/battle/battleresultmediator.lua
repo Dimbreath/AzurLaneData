@@ -33,7 +33,7 @@ function slot0.register(slot0)
 		slot0.viewComponent:setChallengeInfo(slot10:getUserChallengeInfo(slot0.contextData.mode), slot10:userSeaonExpire(slot0.contextData.mode))
 	else
 		if slot9 == SYSTEM_SCENARIO or slot9 == SYSTEM_ROUTINE or slot9 == SYSTEM_ACT_BOSS or slot9 == SYSTEM_HP_SHARE_ACT_BOSS or slot9 == SYSTEM_SUB_ROUTINE then
-			slot0.viewComponent:setExpBuff(_.detect(slot8:getBuffList(), function (slot0)
+			slot0.viewComponent:setExpBuff(_.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
 				return slot0:getConfig("benefit_type") == "rookie_battle_exp"
 			end), slot8:getBuffShipList())
 		end

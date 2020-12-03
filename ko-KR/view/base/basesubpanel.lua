@@ -176,8 +176,8 @@ function slot0.getTpl(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.SetParent(slot0, slot1)
-	setParent(slot0._tf, slot1)
+function slot0.SetParent(slot0, slot1, ...)
+	setParent(slot0._tf, slot1, ...)
 end
 
 function slot0.GetUIName(slot0)

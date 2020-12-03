@@ -30,7 +30,8 @@ function slot0.execute(slot0, slot1)
 		cmd = 1,
 		activity_id = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON).id,
 		arg1 = slot3,
-		arg2 = slot4
+		arg2 = slot4,
+		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			getProxy(ShipSkinProxy):addSkin(ShipSkin.New({

@@ -39,9 +39,7 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：26%",
-			"Normal：55%",
-			"<color=#d797ff>하디</color>：1.4%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z2</color>：1.4%(<color=#92fc63>up!</color>)"
+			"Normal：55%"
 		}
 	},
 	{
@@ -80,19 +78,21 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>SS Rare</color>：7%",
-			"<color=#d797ff>S Rare</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Normal：30%",
-			"<color=#ffde38>다이도(μ장비)</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>SSR</color>: 7%",
+			"<color=#d797ff>SR</color>: 12%",
+			"<color=#3dc6ff>R</color>: 51%",
+			"N: 30%",
+			"<color=#ffde38>마리 로즈</color>: 2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:97}(μ장비)</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>호노카</color>: 2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>타슈켄트(μ장비)</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>카스미</color>: 2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>볼티모어(μ장비)</color>: 2.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>미사키</color>: 0.5%",
 			" ",
-			"<color=#d797ff>알바코어(μ장비)</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>나기사</color>: 2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>모니카</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

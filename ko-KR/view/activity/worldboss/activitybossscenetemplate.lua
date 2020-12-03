@@ -59,7 +59,7 @@ function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("back_button", slot0.top)
 
 	onButton(slot0, slot0.top:Find("option"), function ()
-		uv0:quckExitFunc()
+		uv0:quickExitFunc()
 	end, SFX_PANEL)
 	setActive(slot0.top, false)
 	setAnchoredPosition(slot0.top, {
