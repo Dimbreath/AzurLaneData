@@ -383,7 +383,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "니이즈키, 정말이지……",
+			say = "크레센트, 정말이지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "우이잉~~~! 마리~ 모두들~~ 너무 보고 싶었어요~~~",
+			say = "우이잉~~~! 마리~ 모두들~~ 너무 보고 싶을거예요~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
