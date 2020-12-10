@@ -6438,6 +6438,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1390001] = {
+		map = 1390001,
+		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 30780,
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZUIZHENGUIDEBAOWU1",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		ui_type = 1,
+		bg = "Map_1250001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1400001] = {
 		map = 1400001,
 		name = "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
@@ -8293,6 +8335,7 @@ pg.expedition_data_by_map = {
 		1380012,
 		1380025,
 		1380026,
+		1390001,
 		1400001,
 		1400002,
 		1400011,

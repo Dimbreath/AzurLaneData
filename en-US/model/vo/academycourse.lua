@@ -50,8 +50,18 @@ function slot0.getDay(slot0)
 	return slot3
 end
 
+function slot0.getRealDay(slot0)
+	slot1 = slot0.timestamp
+
+	if not slot0:inClass() then
+		slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+	end
+
+	return pg.TimeMgr.GetInstance():GetServerTimestampWeek(slot1)
+end
+
 function slot0.getExtraRate(slot0)
-	return slot0:getDay() == 7 and 2 or 1
+	return slot0:getRealDay() == 7 and 2 or 1
 end
 
 function slot0.existCourse(slot0)

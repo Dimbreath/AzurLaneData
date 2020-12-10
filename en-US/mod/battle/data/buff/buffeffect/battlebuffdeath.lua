@@ -42,6 +42,6 @@ end
 
 function slot1.DoDead(slot0, slot1)
 	slot1:SetCurrentHP(0)
-	slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
+	slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.DESTRUCT)
 	slot1:DeadAction()
 end

@@ -7316,7 +7316,7 @@ pg.skill_data_template = {
 	},
 	[6750] = {
 		desc_get = "",
-		name = "Elite Damage Control (Eagle Union)",
+		name = "Dmg Control (Union)",
 		desc = "When the ship with this gear equipped is hit by an attack that would otherwise sink it: the ship survives, becomes invulnerable for 8s, and then sinks. Effect only applies to Eagle Union ships.",
 		type = 0,
 		max_level = 0,

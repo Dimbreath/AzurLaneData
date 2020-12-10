@@ -94,51 +94,50 @@ function slot0.addListener(slot0)
 end
 
 function slot0.updatePainting(slot0, slot1, slot2, slot3, slot4)
-	function slot5(slot0)
-		slot0.material:SetFloat("_LineGray", 0.3)
-		slot0.material:SetFloat("_TearDistance", 0)
-		LeanTween.cancel(slot0.gameObject)
-		table.insert(uv0.tweenObjs, slot0.gameObject)
-		LeanTween.value(slot0.gameObject, 0, 2, 2):setLoopClamp():setOnUpdate(System.Action_float(function (slot0)
-			if slot0 >= 1.2 then
-				uv0.material:SetFloat("_LineGray", 0.3)
-			elseif slot0 >= 1.1 then
-				uv0.material:SetFloat("_LineGray", 0.45)
-			elseif slot0 >= 1.03 then
-				uv0.material:SetFloat("_TearDistance", 0)
-			elseif slot0 >= 1 then
-				uv0.material:SetFloat("_TearDistance", 0.3)
-			elseif slot0 >= 0.35 then
-				uv0.material:SetFloat("_LineGray", 0.3)
-			elseif slot0 >= 0.3 then
-				uv0.material:SetFloat("_LineGray", 0.4)
-			elseif slot0 >= 0.25 then
-				uv0.material:SetFloat("_LineGray", 0.3)
-			elseif slot0 >= 0.2 then
-				uv0.material:SetFloat("_LineGray", 0.4)
-			end
-		end))
+	setPaintingPrefab(slot2, slot1, "chuanwu")
+
+	if slot0:findTF("fitter", slot2):GetChild(0) then
+		slot7 = GetComponent(slot6, "MeshImage")
+
+		if slot4 then
+			slot7.material = slot0.material1
+
+			slot7.material:SetFloat("_LineDensity", 7)
+			function (slot0)
+				slot0.material:SetFloat("_LineGray", 0.3)
+				slot0.material:SetFloat("_TearDistance", 0)
+				LeanTween.cancel(slot0.gameObject)
+				table.insert(uv0.tweenObjs, slot0.gameObject)
+				LeanTween.value(slot0.gameObject, 0, 2, 2):setLoopClamp():setOnUpdate(System.Action_float(function (slot0)
+					if slot0 >= 1.2 then
+						uv0.material:SetFloat("_LineGray", 0.3)
+					elseif slot0 >= 1.1 then
+						uv0.material:SetFloat("_LineGray", 0.45)
+					elseif slot0 >= 1.03 then
+						uv0.material:SetFloat("_TearDistance", 0)
+					elseif slot0 >= 1 then
+						uv0.material:SetFloat("_TearDistance", 0.3)
+					elseif slot0 >= 0.35 then
+						uv0.material:SetFloat("_LineGray", 0.3)
+					elseif slot0 >= 0.3 then
+						uv0.material:SetFloat("_LineGray", 0.4)
+					elseif slot0 >= 0.25 then
+						uv0.material:SetFloat("_LineGray", 0.3)
+					elseif slot0 >= 0.2 then
+						uv0.material:SetFloat("_LineGray", 0.4)
+					end
+				end))
+			end(slot7)
+		end
 	end
 
-	setPaintingPrefabAsync(slot2, slot1, "chuanwu", function ()
-		if uv0:findTF("fitter", uv1):GetChild(0) then
-			slot1 = GetComponent(slot0, "MeshImage")
+	setPaintingPrefabAsync(slot3, slot1, "chuanwu")
 
-			if uv2 then
-				slot1.material = uv0.material1
+	if slot0:findTF("fitter", slot3):GetChild(0) then
+		slot7:GetComponent("Image").color = Color.New(1, 1, 1, 0.15)
+	end
 
-				slot1.material:SetFloat("_LineDensity", 7)
-				uv3(slot1)
-			end
-		end
-	end)
-	setPaintingPrefabAsync(slot3, slot1, "chuanwu", function ()
-		if uv0:findTF("fitter", uv1):GetChild(0) then
-			slot0:GetComponent("Image").color = Color.New(1, 1, 1, 0.15)
-		end
-
-		uv1.localScale = Vector3(2.2, 2.2, 1)
-	end)
+	slot3.localScale = Vector3(2.2, 2.2, 1)
 end
 
 function slot0.updateSlider(slot0, slot1)

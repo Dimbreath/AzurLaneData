@@ -223,7 +223,7 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		return nil
 	end
 
-	slot0.storyScript = Story.New(slot6, slot3, slot4)
+	slot0.storyScript = Story.New(slot6, slot3, slot0:IsReView())
 
 	if not slot0:CheckState() then
 		uv0("story state error")
@@ -370,7 +370,9 @@ function slot0.OnSceneExit(slot0, slot1)
 end
 
 function slot0.IsReView(slot0)
-	return slot0.scenes[CollectionScene.__cname] == true
+	slot1 = getProxy(ContextProxy):GetPrevContext(2)
+
+	return slot0.scenes[CollectionScene.__cname] == true or slot1 and slot1.mediator == CollectionMediator
 end
 
 function slot0.IsRunning(slot0)

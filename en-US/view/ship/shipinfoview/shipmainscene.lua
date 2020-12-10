@@ -737,8 +737,12 @@ function slot0.gotoPage(slot0, slot1)
 end
 
 function slot0.switchToPage(slot0, slot1, slot2)
+	setActive(slot0.detailContainer, false)
+
 	function slot3(slot0, slot1)
 		if slot0 == ShipViewConst.PAGE.DETAIL then
+			setActive(uv0.detailContainer, slot1)
+
 			slot2 = slot1 and {
 				uv0.detailContainer.rect.width + 200,
 				0
@@ -988,6 +992,12 @@ function slot0.loadSkinBg(slot0, slot1, slot2, slot3)
 		slot0.isDesign = slot2
 
 		if slot0.isDesign then
+			if slot0.bgEffect then
+				for slot7, slot8 in pairs(slot0.bgEffect) do
+					setActive(slot8, false)
+				end
+			end
+
 			if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipVO:getRarity() then
 				PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 

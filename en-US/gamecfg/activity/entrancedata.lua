@@ -232,9 +232,8 @@ return {
 				end
 
 				slot3 = pg.TimeMgr.GetInstance()
-				slot5 = math.min((slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
 
-				return false
+				return slot1 < math.min((slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
 			end
 		end
 	},

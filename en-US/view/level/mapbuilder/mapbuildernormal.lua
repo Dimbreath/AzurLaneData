@@ -343,6 +343,7 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 		slot24 = findTF(slot4, "mark")
 		slot26 = not slot0.data:isRemaster() and slot22 > 0 and math.max(slot22 - slot2.todayDefeatCount, 0) > 0
 
+		warning(slot2.id, bonusTIme, slot26)
 		setActive(slot24:Find("bonus"), slot26)
 		setActive(slot24, slot26)
 

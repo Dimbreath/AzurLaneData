@@ -523,7 +523,7 @@ pg.activity_const = {
 		act_id = 620
 	},
 	U110BATTLE_RE_PAGE = {
-		act_id = 650
+		act_id = 30778
 	},
 	LINDONG_REMAKE_KR = {
 		act_id = 0

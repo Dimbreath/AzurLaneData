@@ -658,7 +658,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[125] = {
 		effect_breakout = 0,
-		effect_desc = "HP +569|AA +51|Main Gun efficiency +5%|Unlock playback for: Special touch, Low HP",
+		effect_desc = "HP +596|AA +51|Main Gun efficiency +5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",

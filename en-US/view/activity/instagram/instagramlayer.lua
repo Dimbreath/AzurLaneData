@@ -52,13 +52,21 @@ function slot0.init(slot0)
 	slot0.UIMgr:BlurPanel(slot0._tf)
 end
 
-function slot0.SetImageByUrl(slot0, slot1, slot2)
+function slot0.SetImageByUrl(slot0, slot1, slot2, slot3)
 	if not slot1 or slot1 == "" then
 		slot2:GetComponent(typeof(Image)).sprite = LoadSprite("bg/bg_night")
+
+		if slot3 then
+			slot3()
+		end
 	elseif slot0.sprites[slot1] then
-		slot3.sprite = slot4
+		slot4.sprite = slot5
+
+		if slot3 then
+			slot3()
+		end
 	else
-		slot3.enabled = false
+		slot4.enabled = false
 
 		slot0.downloadmgr:GetSprite("ins", "1", slot1, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
 			if not uv0.sprites then
@@ -68,6 +76,10 @@ function slot0.SetImageByUrl(slot0, slot1, slot2)
 			uv0.sprites[uv1] = slot0
 			uv2.sprite = slot0
 			uv2.enabled = true
+
+			if uv3 then
+				uv3()
+			end
 		end))
 	end
 end

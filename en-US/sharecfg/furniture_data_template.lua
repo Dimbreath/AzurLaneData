@@ -3496,6 +3496,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[185] = {
+		can_rotate = 0,
+		name = "精品书架",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "jiyiguowuicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/jiyiguowu",
+		canputon = 0,
+		count = 1,
+		describe = "\"I ask of thee, art thou mankind?\" Nay, I am but a manjuu, and this is just a normal bookcase. ",
+		advice = 0,
+		deblocking = 1,
+		id = 185,
+		comfortable = 5,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[187] = {
 		can_rotate = 0,
 		name = "Venus Vacation Statue",
@@ -69628,6 +69665,7 @@ pg.furniture_data_template = {
 		182,
 		183,
 		184,
+		185,
 		187,
 		188,
 		100002,

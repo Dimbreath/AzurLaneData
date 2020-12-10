@@ -7063,7 +7063,7 @@ Combat Details:
 		tip = "Tirpitz, Deutschland and others are added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Ardent and Acasta are added to standard build pool! "
+		tip = "Arashio and Hazelwood are added to standard build pool!"
 	},
 	buildship_special_tip = {
 		tip = "Glorious is added to standard build pool! "
