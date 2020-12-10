@@ -1727,6 +1727,45 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[63] = {
+		num_limit = 1,
+		activity = 495,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 401237,
+		id = 63,
+		order = 1,
+		scene = {
+			"scene coloring",
+			{}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1781,6 +1820,7 @@ pg.activity_shop_extra = {
 		59,
 		60,
 		61,
-		62
+		62,
+		63
 	}
 }

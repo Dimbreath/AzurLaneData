@@ -40,4 +40,8 @@ function slot0.cleanUntilMediator(slot0, slot1)
 	end
 end
 
+function slot0.GetPrevContext(slot0, slot1)
+	return slot0.data[#slot0.data - slot1]
+end
+
 return slot0

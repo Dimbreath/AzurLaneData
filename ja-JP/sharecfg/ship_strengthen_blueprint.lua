@@ -658,7 +658,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+569|対空+51|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+596|対空+51|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",

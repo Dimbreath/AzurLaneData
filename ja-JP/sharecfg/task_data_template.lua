@@ -87353,6 +87353,816 @@ pg.task_data_template = {
 			"ACT_BOSS_SPF"
 		}
 	},
+	[15350] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92571,
+		type = 6,
+		name = "Z23画家填色累计耗油1",
+		count_inherit = 15351,
+		desc = "累計燃料消費500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15351",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15350,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59970,
+				60
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59972,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15351] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92572,
+		type = 6,
+		name = "Z23画家填色累计耗油2",
+		count_inherit = 15352,
+		desc = "累計燃料消費1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15352",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15351,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59973,
+				80
+			},
+			{
+				8,
+				59975,
+				60
+			},
+			{
+				8,
+				59976,
+				35
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15352] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92573,
+		type = 6,
+		name = "Z23画家填色累计耗油3",
+		count_inherit = 15353,
+		desc = "累計燃料消費1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15353",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15352,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59977,
+				30
+			},
+			{
+				8,
+				59974,
+				90
+			},
+			{
+				8,
+				59972,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15353] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92574,
+		type = 6,
+		name = "Z23画家填色累计耗油4",
+		count_inherit = 15354,
+		desc = "累計燃料消費2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15354",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15353,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59975,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15354] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92575,
+		type = 6,
+		name = "Z23画家填色累计耗油5",
+		count_inherit = 15355,
+		desc = "累計燃料消費2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15355",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15354,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59974,
+				75
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15355] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92576,
+		type = 6,
+		name = "Z23画家填色累计耗油6",
+		count_inherit = 15356,
+		desc = "累計燃料消費3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15356",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15355,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59976,
+				40
+			},
+			{
+				8,
+				59977,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15356] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92577,
+		type = 6,
+		name = "Z23画家填色累计耗油7",
+		count_inherit = 15357,
+		desc = "累計燃料消費4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15357",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15356,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59970,
+				90
+			},
+			{
+				8,
+				59975,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15357] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92578,
+		type = 6,
+		name = "Z23画家填色累计耗油8",
+		count_inherit = 15358,
+		desc = "累計燃料消費5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15358",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15357,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59972,
+				80
+			},
+			{
+				8,
+				59977,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15358] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92579,
+		type = 6,
+		name = "Z23画家填色累计耗油9",
+		count_inherit = 15359,
+		desc = "累計燃料消費6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15359",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15358,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59970,
+				55
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59975,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15359] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92580,
+		type = 6,
+		name = "Z23画家填色累计耗油10",
+		count_inherit = 15360,
+		desc = "累計燃料消費7000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15360",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15359,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				90
+			},
+			{
+				8,
+				59974,
+				75
+			},
+			{
+				8,
+				59977,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15360] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92581,
+		type = 6,
+		name = "Z23画家填色累计耗油11",
+		count_inherit = 15361,
+		desc = "累計燃料消費8000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15361",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15360,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				100
+			},
+			{
+				8,
+				59977,
+				70
+			},
+			{
+				8,
+				59978,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15361] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92582,
+		type = 6,
+		name = "Z23画家填色累计耗油12",
+		count_inherit = 15362,
+		desc = "累計燃料消費9000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15362",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15361,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				120
+			},
+			{
+				8,
+				59972,
+				100
+			},
+			{
+				8,
+				59978,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15362] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92583,
+		type = 6,
+		name = "Z23画家填色累计耗油13",
+		count_inherit = 15363,
+		desc = "累計燃料消費10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15363",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15362,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59975,
+				110
+			},
+			{
+				8,
+				59973,
+				25
+			},
+			{
+				8,
+				59977,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15363] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92584,
+		type = 6,
+		name = "Z23画家填色累计耗油14",
+		count_inherit = 15364,
+		desc = "累計燃料消費11000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15364",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15363,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59974,
+				30
+			},
+			{
+				8,
+				59976,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15364] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92585,
+		type = 6,
+		name = "Z23画家填色累计耗油15",
+		count_inherit = 15365,
+		desc = "累計燃料消費12000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15365",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15364,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59977,
+				85
+			},
+			{
+				8,
+				59978,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15365] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92586,
+		type = 6,
+		name = "Z23画家填色累计耗油16",
+		count_inherit = 15366,
+		desc = "累計燃料消費13000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15366",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15365,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59972,
+				92
+			},
+			{
+				8,
+				59973,
+				48
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15366] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92587,
+		type = 6,
+		name = "Z23画家填色累计耗油17",
+		count_inherit = 15367,
+		desc = "累計燃料消費14000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15367",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15366,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59974,
+				45
+			},
+			{
+				8,
+				59975,
+				114
+			},
+			{
+				8,
+				59976,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15367] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92588,
+		type = 6,
+		name = "Z23画家填色累计耗油18",
+		count_inherit = 0,
+		desc = "累計燃料消費15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15367,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				75
+			},
+			{
+				8,
+				59977,
+				49
+			},
+			{
+				8,
+				59978,
+				44
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
 	[15368] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -123707,6 +124517,24 @@ pg.task_data_template = {
 		15344,
 		15345,
 		15346,
+		15350,
+		15351,
+		15352,
+		15353,
+		15354,
+		15355,
+		15356,
+		15357,
+		15358,
+		15359,
+		15360,
+		15361,
+		15362,
+		15363,
+		15364,
+		15365,
+		15366,
+		15367,
 		15368,
 		15369,
 		15370,

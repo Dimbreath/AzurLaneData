@@ -7707,6 +7707,7 @@ pg.activity_event_pt = {
 		id_2 = 779,
 		id = 779,
 		pt = 177,
+		buff_time = "stop",
 		target = {
 			100,
 			300,
@@ -8026,18 +8027,6 @@ pg.activity_event_pt = {
 				44,
 				45,
 				46
-			}
-		},
-		buff_time = {
-			{
-				2020,
-				12,
-				10
-			},
-			{
-				23,
-				59,
-				59
 			}
 		}
 	},

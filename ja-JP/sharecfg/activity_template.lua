@@ -154,45 +154,6 @@ pg.activity_template = {
 			}
 		}
 	},
-	[40] = {
-		mark = 20200409,
-		page_info = "",
-		type = 0,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_data = "",
-		config_client = "",
-		title_res_tag = "",
-		id = 40,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
 	[368] = {
 		mark = 20190911,
 		time = "always",
@@ -361,6 +322,132 @@ pg.activity_template = {
 			35,
 			36,
 			37
+		}
+	},
+	[495] = {
+		mark = 20201210,
+		page_info = "",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "z23tianse",
+		id = 495,
+		config_data = {
+			{
+				47,
+				92589
+			},
+			{
+				48,
+				92590
+			},
+			{
+				49,
+				92591
+			},
+			{
+				50,
+				92592
+			},
+			{
+				51,
+				92593
+			},
+			{
+				52,
+				92594
+			},
+			{
+				53,
+				92595
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					12,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[496] = {
+		mark = 20201210,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 496,
+		config_data = {
+			15350,
+			15351,
+			15352,
+			15353,
+			15354,
+			15355,
+			15356,
+			15357,
+			15358,
+			15359,
+			15360,
+			15361,
+			15362,
+			15363,
+			15364,
+			15365,
+			15366,
+			15367
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					12,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[610] = {
@@ -1787,6 +1874,7 @@ pg.activity_template = {
 	[775] = {
 		mark = 20201126,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1796,38 +1884,12 @@ pg.activity_template = {
 		id = 775,
 		config_data = {
 			16140
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[776] = {
 		mark = 20201126,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -1835,43 +1897,16 @@ pg.activity_template = {
 		config_data = "[{31978,100}]",
 		config_client = "",
 		title_res_tag = "",
-		id = 776,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 776
 	},
 	[777] = {
 		mark = 20201126,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
-		config_client = "",
 		title_res_tag = "",
 		id = 777,
 		config_data = {
@@ -1882,37 +1917,14 @@ pg.activity_template = {
 			1450041,
 			1450051
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+		config_client = {
+			story = "JIARIHANGXIAN1"
 		}
 	},
 	[778] = {
 		mark = 20201126,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1936,33 +1948,6 @@ pg.activity_template = {
 			16130,
 			16131,
 			16132
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[779] = {
@@ -2012,7 +1997,7 @@ pg.activity_template = {
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 10,
+		is_show = 0,
 		title_res_tag = "doa_preview",
 		id = 780,
 		config_data = {
@@ -2174,6 +2159,7 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		config_client = "",
 		title_res_tag = "",
 		id = 783,
 		config_data = {
@@ -2218,14 +2204,12 @@ pg.activity_template = {
 					59
 				}
 			}
-		},
-		config_client = {
-			story = "JIARIHANGXIAN1"
 		}
 	},
 	[784] = {
 		mark = 20201126,
 		page_info = "",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 13,
@@ -2233,33 +2217,6 @@ pg.activity_template = {
 		config_data = "0",
 		title_res_tag = "",
 		id = 784,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"maliluosi_DOA",
@@ -2274,6 +2231,7 @@ pg.activity_template = {
 	[785] = {
 		mark = 20201126,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -2281,38 +2239,12 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 785,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[786] = {
 		mark = 20201126,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -2335,33 +2267,6 @@ pg.activity_template = {
 			156,
 			157,
 			158
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[10006] = {
@@ -2396,8 +2301,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					6,
-					19
+					12,
+					11
 				},
 				{
 					0,
@@ -2408,8 +2313,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					6,
-					28
+					12,
+					20
 				},
 				{
 					23,
@@ -3506,7 +3411,6 @@ pg.activity_template = {
 		9,
 		18,
 		21,
-		40,
 		368,
 		369,
 		392,
@@ -3516,6 +3420,8 @@ pg.activity_template = {
 		448,
 		458,
 		466,
+		495,
+		496,
 		610,
 		629,
 		630,

@@ -1380,6 +1380,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10142,9 +10153,20 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：特別ログインボーナス",
+				"ログインスタンプ",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

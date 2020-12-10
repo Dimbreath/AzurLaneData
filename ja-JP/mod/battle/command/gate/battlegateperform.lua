@@ -33,7 +33,7 @@ function slot0.Entrance(slot0, slot1)
 			slot2
 		}, function (slot0)
 			uv1:sendNotification(GAME.STORY_UPDATE, {
-				storyId = pg.NewStoryMgr.GetInstance():StoryName2StoryId(uv0)
+				storyId = tostring(pg.NewStoryMgr.GetInstance():StoryId2StoryName(uv0))
 			})
 
 			uv2.token = slot0.key

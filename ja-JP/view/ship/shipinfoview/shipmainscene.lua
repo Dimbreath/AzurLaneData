@@ -734,8 +734,12 @@ function slot0.gotoPage(slot0, slot1)
 end
 
 function slot0.switchToPage(slot0, slot1, slot2)
+	setActive(slot0.detailContainer, false)
+
 	function slot3(slot0, slot1)
 		if slot0 == ShipViewConst.PAGE.DETAIL then
+			setActive(uv0.detailContainer, slot1)
+
 			slot2 = slot1 and {
 				uv0.detailContainer.rect.width + 200,
 				0
@@ -803,7 +807,7 @@ function slot0.switchToPage(slot0, slot1, slot2)
 		end
 
 		if uv0.bgEffect[uv0.shipVO:getRarity()] then
-			setActive(slot2, slot0 ~= ShipViewConst.PAGE.REMOULD)
+			setActive(slot2, slot0 ~= ShipViewConst.PAGE.REMOULD and uv0.shipVO.bluePrintFlag and uv0.shipVO.bluePrintFlag == 0)
 		end
 
 		setActive(uv0.helpBtn, slot0 ~= ShipViewConst.PAGE.REMOULD)
@@ -907,7 +911,7 @@ function slot0.loadPainting(slot0, slot1, slot2)
 		slot7.localScale = Vector3(1, 1, 1)
 	end
 
-	if slot0.LoadShipVOId and not slot2 and slot0.LoadShipVOId == slot0.shipVO.id and slot0.LoadPaintingCode == slot1 then
+	if slot0.LoadShipVOId and not slot2 and slot0.LoadShipVOId == slot0.shipVO.id and slot0.LoadPaintingCode == slot1 and not slot2 then
 		return
 	end
 
@@ -985,6 +989,12 @@ function slot0.loadSkinBg(slot0, slot1, slot2, slot3)
 		slot0.isDesign = slot2
 
 		if slot0.isDesign then
+			if slot0.bgEffect then
+				for slot7, slot8 in pairs(slot0.bgEffect) do
+					setActive(slot8, false)
+				end
+			end
+
 			if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipVO:getRarity() then
 				PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 

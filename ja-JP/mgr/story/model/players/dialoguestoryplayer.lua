@@ -204,10 +204,9 @@ function slot0.InitSubPainting(slot0, slot1, slot2)
 		slot3 = findTF(findTF(slot1, "fitter"):GetChild(0), "face")
 
 		if slot0.expression then
+			setActive(slot3, true)
 			setImageSprite(slot3, GetSpriteFromAtlas("paintingface/" .. slot0.name, slot0.expression))
 		end
-
-		setActive(slot3, slot0.expression)
 
 		if slot0.pos then
 			setAnchoredPosition(slot1, slot0.pos)

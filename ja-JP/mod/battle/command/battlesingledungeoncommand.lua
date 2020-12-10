@@ -194,17 +194,21 @@ function slot3.onUnitDying(slot0, slot1)
 end
 
 function slot3.onWillDie(slot0, slot1)
-	if slot1.Dispatcher:GetDeathReason() ~= uv0.Battle.BattleConst.UnitDeathReason.LEAVE then
+	if slot1.Dispatcher:GetDeathReason() == uv0.Battle.BattleConst.UnitDeathReason.LEAVE then
+		if slot2:GetIFF() == uv0.Battle.BattleConfig.FRIENDLY_CODE then
+			slot0._dataProxy:CalcBPWhenPlayerLeave(slot2)
+		end
+	elseif slot4 == slot3.DESTRUCT then
 		slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
-	elseif slot2:GetIFF() == uv0.Battle.BattleConfig.FRIENDLY_CODE then
-		slot0._dataProxy:CalcBPWhenPlayerLeave(slot2)
+
+		if slot2:IsBoss() then
+			slot0._dataProxy:AddScoreWhenBossDestruct()
+		end
+	else
+		slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
 	end
 
 	if slot2:IsBoss() and not slot0._dataProxy:IsThereBoss() then
-		if slot3 == uv0.Battle.BattleConst.UnitDeathReason.DESTRUCT then
-			slot0._dataProxy:AddScoreWhenBossDestruct()
-		end
-
 		slot0._dataProxy:KillAllEnemy()
 	end
 end
