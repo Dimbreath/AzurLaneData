@@ -658,7 +658,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+569|防空+51|主炮效率提高5%|鉴赏解锁：血量警报",
+		effect_desc = "耐久+596|防空+51|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",

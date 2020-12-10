@@ -3794,170 +3794,372 @@ pg.activity_ins_template = {
 	{
 		ship_group = 1060004,
 		name = "Misaki",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_145",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_haixiao1_jO5usWuXySfEhjTq.png",
+		is_active = 0,
 		sculpture = "haixiao_DOA",
 		id = 145,
 		group_id = 145,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				11,
+				26
+			},
+			{
+				13,
+				10,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1258,
+			1260,
+			1263
+		}
 	},
 	{
 		ship_group = 1060005,
 		name = "Nagisa",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_146",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_zhixiao2_xEMKH4zJRzG9h8Sx.png",
+		is_active = 0,
 		sculpture = "zhixiao_DOA",
 		id = 146,
 		group_id = 146,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				11,
+				26
+			},
+			{
+				20,
+				6,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1271,
+			1275
+		}
 	},
 	{
 		ship_group = 1060001,
 		name = "Marie",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_147",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_maliluosi1_6Tg3qlrvyUeGS2pp.png",
+		is_active = 0,
 		sculpture = "maliluosi_doa",
 		id = 147,
 		group_id = 147,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				11,
+				27
+			},
+			{
+				8,
+				38,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1282,
+			1284,
+			1287
+		}
 	},
 	{
 		ship_group = 1060002,
 		name = "Honoka",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_150",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_suixiang2_gONpjvFlbt364JGB.png",
+		is_active = 0,
 		sculpture = "suixiang_doa",
 		id = 148,
 		group_id = 148,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				11,
+				27
+			},
+			{
+				15,
+				54,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1309,
+			1312
+		}
 	},
 	{
 		ship_group = 30303,
 		name = "REPORTER_AOBA",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_148",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_monika2_oLIMhCcUuwkMw6Ws.png",
+		is_active = 0,
 		sculpture = "qingye",
 		id = 149,
 		group_id = 149,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				11,
+				28
+			},
+			{
+				14,
+				22,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1294,
+			1297
+		}
 	},
 	{
 		ship_group = 1060006,
 		name = "Nyotengu",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_149",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_nvtiangou2_usQIXIVrG6cVIJCr.png",
+		is_active = 0,
 		sculpture = "nvtiangou_DOA",
 		id = 150,
 		group_id = 150,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				11,
+				28
+			},
+			{
+				19,
+				43,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1303,
+			1305
+		}
 	},
 	{
 		ship_group = 1060007,
 		name = "Monica",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_154",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_monika1_JCoJenw30AXIwO6v.png",
+		is_active = 0,
 		sculpture = "monika_DOA",
 		id = 151,
 		group_id = 151,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				11,
+				29
+			},
+			{
+				16,
+				34,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1349,
+			1353,
+			1355
+		}
 	},
 	{
 		ship_group = 1060001,
 		name = "Marie",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_152",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_maliluosi2_SxbbsSdtCfu5m1M4.png",
+		is_active = 0,
 		sculpture = "maliluosi_doa",
 		id = 152,
 		group_id = 152,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				11,
+				30
+			},
+			{
+				17,
+				2,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1330,
+			1333,
+			1337
+		}
 	},
 	{
 		ship_group = 30127,
 		name = "Nin_Kuroshio",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_151",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_xia1_CS7XTzywtfbyYtyY.png",
+		is_active = 0,
 		sculpture = "heichao",
 		id = 153,
 		group_id = 153,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				1
+			},
+			{
+				11,
+				53,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1319,
+			1321,
+			1323
+		}
 	},
 	{
 		ship_group = 1060002,
 		name = "Honoka",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_157",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_suixiang1_uxikPSRevRVmhCy0.png",
+		is_active = 0,
 		sculpture = "suixiang_doa",
 		id = 154,
 		group_id = 154,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				1
+			},
+			{
+				14,
+				11,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1376,
+			1378,
+			1381
+		}
 	},
 	{
 		ship_group = 1060004,
 		name = "Misaki",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_153",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_zhixiao1_Ginsz4BeYhqInkS1.png",
+		is_active = 0,
 		sculpture = "haixiao_DOA",
 		id = 155,
 		group_id = 155,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				2
+			},
+			{
+				10,
+				16,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1341,
+			1344
+		}
 	},
 	{
 		ship_group = 1060006,
 		name = "Nyotengu",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_155",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_nvtiangou1_KMUF6SqJlEEgPU4V.png",
+		is_active = 0,
 		sculpture = "nvtiangou_DOA",
 		id = 156,
 		group_id = 156,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				3
+			},
+			{
+				11,
+				23,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1359,
+			1363
+		}
 	},
 	{
 		ship_group = 1060003,
 		name = "Kasumi",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_156",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_xia2_M04PFjvZOiFqFSjw.png",
+		is_active = 0,
 		sculpture = "xia_DOA",
 		id = 157,
 		group_id = 157,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				4
+			},
+			{
+				9,
+				48,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1368,
+			1371
+		}
 	},
 	{
 		ship_group = 1060004,
 		name = "Misaki",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_158",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/201126_haixiao2_zC8Pp6B14zLy1sh6.png",
+		is_active = 0,
 		sculpture = "haixiao_DOA",
 		id = 158,
 		group_id = 158,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				5
+			},
+			{
+				18,
+				9,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1385,
+			1388
+		}
 	},
 	all = {
 		1,

@@ -26,6 +26,7 @@ function slot0.init(slot0)
 	slot0.btnBack = slot0:findTF("top/btnBack")
 	slot0.title = slot0:findTF("center/title_bar/text")
 	slot0.bg = slot0:findTF("center/board/container/bg")
+	slot0.painting = slot0:findTF("center/painting")
 	slot0.zoom = slot0.bg:GetComponent("Zoom")
 	slot0.zoom.maxZoom = 3
 	slot0.cells = slot0:findTF("cells", slot0.bg)
@@ -225,6 +226,16 @@ function slot0.updatePage(slot0)
 
 			slot2 = slot2 + 1
 		end
+	end
+
+	if getProxy(ColoringProxy):IsALLAchieve() then
+		slot0.loader:GetSpriteDirect("ui/coloring_atlas", "painting_got", function (slot0)
+			if not slot0 then
+				return
+			end
+
+			setImageSprite(uv0.painting, slot0)
+		end, slot0.painting)
 	end
 
 	slot0:TryPlayStory()

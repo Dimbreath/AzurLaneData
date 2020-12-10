@@ -11,7 +11,9 @@ slot2.PrimalAttr = {
 	"antiAirPower",
 	"antiSubPower",
 	"loadSpeed",
-	"dodgeRate"
+	"dodgeRate",
+	"attackRating",
+	"velocity"
 }
 slot2.BaseEnhancement = {
 	damageRatioByBulletTorpedo = "damage/damageRatioByBulletTorpedo",

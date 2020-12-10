@@ -4420,6 +4420,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[185] = {
+		can_rotate = 0,
+		describe = "「指挥官要找什么书吗？尽管交给我就好了！」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/jiyiguowu",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "精品书架",
+		advice = 0,
+		icon = "jiyiguowuicon",
+		id = 185,
+		comfortable = 5,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[187] = {
 		can_rotate = 0,
 		describe = "“与指挥官，还有大家共同经历了一段很有趣的时光呢~之后也请多指教了哦~” <color=#ffde38>——「假日航线」活动纪念</color>",
@@ -86768,6 +86805,7 @@ pg.furniture_data_template = {
 		182,
 		183,
 		184,
+		185,
 		187,
 		188,
 		100001,

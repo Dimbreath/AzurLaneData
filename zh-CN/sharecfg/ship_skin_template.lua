@@ -85646,6 +85646,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401237] = {
+		ship_group = 40123,
+		name = "书架边的“风景”？",
+		bg_sp = "",
+		group_index = 7,
+		illustrator2 = -1,
+		desc = "指挥官，要好好扶着梯子哦。我要把这本书给放上去…嘿咻…好啦，这样就…指挥官！？不要往上看啊！！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "z23_6",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 401237,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "z23_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 3,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.07,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.11,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.01,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.07,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							2.15,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
 	[401238] = {
 		ship_group = 40123,
 		name = "黑曜的嫁衣",
@@ -133632,6 +133740,7 @@ pg.ship_skin_template = {
 			401234,
 			401235,
 			401236,
+			401237,
 			401238,
 			401239
 		},
@@ -135420,6 +135529,7 @@ pg.ship_skin_template = {
 		401234,
 		401235,
 		401236,
+		401237,
 		401238,
 		401239,
 		401250,

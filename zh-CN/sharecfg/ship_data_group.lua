@@ -1380,6 +1380,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10134,6 +10145,17 @@ pg.ship_data_group = {
 				"月度签到",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

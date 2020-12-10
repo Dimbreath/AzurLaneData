@@ -128,12 +128,12 @@ function slot1.SetServerTime(slot0, slot1, slot2)
 	slot0._sAnchorTime = slot2 - (SERVER_DAYLIGHT_SAVEING_TIME and 3600 or 0)
 	slot0._AnchorDelta = slot2 - os.time({
 		hour = 0,
-		month = 1,
-		year = 1970,
+		month = 11,
+		year = 2020,
 		min = 0,
 		sec = 0,
 		isdst = false,
-		day = 5
+		day = 23
 	})
 end
 

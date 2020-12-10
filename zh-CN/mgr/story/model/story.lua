@@ -26,6 +26,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.branchCode = nil
 	slot0.force = slot2
+	slot0.isReview = slot3
 	slot0.isPlayed = pg.NewStoryMgr:GetInstance():IsPlayed(slot0.name)
 	slot0.nextScriptName = nil
 	slot0.skipAll = false
@@ -40,7 +41,7 @@ function slot0.ShouldHideSkip(slot0)
 end
 
 function slot0.CanPlay(slot0)
-	return slot0.force or not slot0.isPlayed
+	return slot0.force or not slot0.isPlayed or slot0.isReview
 end
 
 function slot0.GetId(slot0)
