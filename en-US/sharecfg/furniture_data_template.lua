@@ -3498,7 +3498,7 @@ pg.furniture_data_template = {
 	},
 	[185] = {
 		can_rotate = 0,
-		name = "精品书架",
+		name = "Well-Stocked Bookcase ",
 		gain_by = "",
 		type = 7,
 		dir = 0,

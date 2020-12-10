@@ -51,13 +51,9 @@ function slot0.getDay(slot0)
 end
 
 function slot0.getRealDay(slot0)
-	slot1 = slot0.timestamp
+	t = pg.TimeMgr.GetInstance():GetServerTime()
 
-	if not slot0:inClass() then
-		slot1 = pg.TimeMgr.GetInstance():GetServerTime()
-	end
-
-	return pg.TimeMgr.GetInstance():GetServerTimestampWeek(slot1)
+	return pg.TimeMgr.GetInstance():GetServerTimestampWeek(t)
 end
 
 function slot0.getExtraRate(slot0)

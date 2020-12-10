@@ -106,6 +106,7 @@ function slot0.UpdateFashion(slot0, slot1)
 					return
 				end
 
+				uv0.clickCellTime = Time.realtimeSinceStartup
 				uv0.fashionSkinId = uv1.id
 
 				uv0:UpdateFashionDetail(uv1)
@@ -269,6 +270,10 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		end
 	end)
 	onButton(slot0, slot2.cancel, function ()
+		if uv0.clickCellTime and Time.realtimeSinceStartup - uv0.clickCellTime <= 0.35 then
+			return
+		end
+
 		uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.DETAIL)
 	end)
 end

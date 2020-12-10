@@ -810,7 +810,7 @@ function slot0.switchToPage(slot0, slot1, slot2)
 		end
 
 		if uv0.bgEffect[uv0.shipVO:getRarity()] then
-			setActive(slot2, slot0 ~= ShipViewConst.PAGE.REMOULD)
+			setActive(slot2, slot0 ~= ShipViewConst.PAGE.REMOULD and uv0.shipVO.bluePrintFlag and uv0.shipVO.bluePrintFlag == 0)
 		end
 
 		setActive(uv0.helpBtn, slot0 ~= ShipViewConst.PAGE.REMOULD)
