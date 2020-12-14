@@ -86899,7 +86899,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89140] = {
-		name = "White-Hot Verheerender ",
+		name = "White-Hot Verheerender",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -87015,7 +87015,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89160] = {
-		name = "Sacred Lumière ",
+		name = "Sacred Lumière",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -87131,7 +87131,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89180] = {
-		name = "Resplendent Astrum ",
+		name = "Resplendent Astrum",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -87247,7 +87247,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89200] = {
-		name = "Cosmic Kicks ",
+		name = "Cosmic Kicks",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -87361,7 +87361,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89220] = {
-		name = "Celestial Body ",
+		name = "Celestial Body",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
