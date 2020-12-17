@@ -16913,6 +16913,60 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30782] = {
+		mark = 20201217,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30782",
+		title_res_tag = "",
+		id = 30782,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					12,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Rate Up characters: Mikasa, Hiei and more",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#ffde38>Mikasa</color>：2.0%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Hiei</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Hamakaze</color>：5.0%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Kuroshio</color>：5.0%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Oyashio</color>：5.0%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -17568,6 +17622,7 @@ pg.activity_template = {
 		30778,
 		30779,
 		30780,
-		30781
+		30781,
+		30782
 	}
 }

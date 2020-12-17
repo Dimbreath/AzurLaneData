@@ -11257,7 +11257,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8884,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11273,8 +11273,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					11,
-					18
+					12,
+					17
 				},
 				{
 					0,
@@ -11286,7 +11286,7 @@ pg.shop_template = {
 				{
 					2020,
 					12,
-					2
+					28
 				},
 				{
 					23,
@@ -11306,7 +11306,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8884,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11322,8 +11322,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					11,
-					18
+					12,
+					17
 				},
 				{
 					0,
@@ -11335,7 +11335,7 @@ pg.shop_template = {
 				{
 					2020,
 					12,
-					2
+					28
 				},
 				{
 					23,
@@ -11355,7 +11355,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8884,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11371,8 +11371,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					11,
-					18
+					12,
+					17
 				},
 				{
 					0,
@@ -11384,7 +11384,7 @@ pg.shop_template = {
 				{
 					2020,
 					12,
-					2
+					28
 				},
 				{
 					23,
@@ -14052,6 +14052,55 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			103071
+		}
+	},
+	[70171] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：三笠春装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 8882,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70171,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			305112
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[70172] = {
@@ -20754,7 +20803,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8884,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20770,8 +20819,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					11,
-					18
+					12,
+					17
 				},
 				{
 					0,
@@ -20783,7 +20832,7 @@ pg.shop_template = {
 				{
 					2020,
 					12,
-					2
+					28
 				},
 				{
 					23,
@@ -22420,7 +22469,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8884,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -22436,8 +22485,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					11,
-					18
+					12,
+					17
 				},
 				{
 					0,
@@ -22449,7 +22498,7 @@ pg.shop_template = {
 				{
 					2020,
 					12,
-					2
+					28
 				},
 				{
 					23,
@@ -31971,6 +32020,7 @@ pg.shop_template = {
 		70163,
 		70164,
 		70165,
+		70171,
 		70172,
 		70166,
 		70167,

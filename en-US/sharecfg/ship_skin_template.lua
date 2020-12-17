@@ -75642,6 +75642,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[305112] = {
+		name = "Blossom-Viewing Season",
+		ship_group = 30511,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "It's about time for the flowers to bloom once more. Alas, how the time flies by... Ahem, Commander, let's see, would you like to go blossom-viewing with me?",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "sanli_4",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "113",
+		skin_type = 0,
+		id = 305112,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sanli_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70171,
+		voice_actor = 47,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.52,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.48,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.53,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305118] = {
 		name = "Untarnished Splendor ",
 		ship_group = 30511,
@@ -132028,6 +132139,7 @@ pg.ship_skin_template = {
 		[30511] = {
 			305110,
 			305111,
+			305112,
 			305118
 		},
 		[30512] = {
@@ -133844,6 +133956,7 @@ pg.ship_skin_template = {
 		305081,
 		305110,
 		305111,
+		305112,
 		305118,
 		305120,
 		305121,
