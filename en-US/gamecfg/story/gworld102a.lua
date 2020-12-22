@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "舰队已接近NY港近海，海域通行许可已确认。",
+			say = "Orders received. We are now entering NY City’s waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			voice = "event:/tb/35/tb-35",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "请指挥官继续跟随航线前往港口停泊。",
+			say = "The port is located that way. Please move the fleet towards the destination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

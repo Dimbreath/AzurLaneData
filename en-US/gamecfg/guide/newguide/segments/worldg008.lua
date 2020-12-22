@@ -16,7 +16,7 @@ return {
 				"clickCollection"
 			},
 			style = {
-				text = "可以切换多个舰队哟",
+				text = "You may now switch to another fleet.",
 				mode = 2,
 				dir = -1,
 				posY = -180.56,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "选择第二舰队",
+				text = "Select your second fleet.",
 				mode = 2,
 				dir = -1,
 				posY = -103.1,

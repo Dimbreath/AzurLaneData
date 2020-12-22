@@ -535,7 +535,7 @@ pg.gametip = {
 		tip = "She's in the middle of a special ops!"
 	},
 	word_shipState_activity = {
-		tip = "该角色在特殊作战编队中哦~"
+		tip = "This ship is already assigned to a special fleet. "
 	},
 	word_shipState_sham = {
 		tip = "She's in the middle of a simulation!"
@@ -604,16 +604,16 @@ pg.gametip = {
 		tip = "Emas"
 	},
 	word_pt = {
-		tip = "PT"
+		tip = "Points"
 	},
 	word_omamori = {
-		tip = "樱之御守"
+		tip = "Sakura Amulet"
 	},
 	word_yisegefuke_pt = {
-		tip = "pt"
+		tip = "Points"
 	},
 	word_faxipt = {
-		tip = "爱丽丝之徽"
+		tip = "Iris Écu"
 	},
 	word_count_2 = {
 		tip = "<color=$1>$2つ</color>"
@@ -1021,7 +1021,7 @@ pg.gametip = {
 		tip = "Coming soon"
 	},
 	common_go_home = {
-		tip = "是否返回主界面"
+		tip = "Would you like to return to the main menu? "
 	},
 	dont_remind_today = {
 		tip = "Notified"
@@ -1153,7 +1153,7 @@ pg.gametip = {
 		tip = "Do battle for $1 seconds"
 	},
 	battle_preCombatLayer_damage_before_end = {
-		tip = "战斗结束前尽可能取得更高伤害"
+		tip = "Deal as much damage as possible in the allotted time. "
 	},
 	battle_preCombatLayer_destory_transport_ship = {
 		tip = "Sink $1 or more Cargo Ships. "
@@ -2914,7 +2914,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "Spent <color=#92fc63>$1</color> Oil to recover <color=#92fc63>$2</color> AP."
 	},
 	world_stamina_resetwarning = {
-		tip = "注意：大型作战即将重置，重置后溢出行动力不会被保留，指挥官请合理制定舰队作战策略！"
+		tip = "Notice: Operation Siren is about to <color=#ff5c5c>reset</color>.\nYou will only carry over a maximum of <color=#ff5c5c>100 AP</color> after reset,\nso please plan your combat strategy accordingly! "
 	},
 	world_ship_healthy = {
 		tip = "The selected ship does not need any repairs. \nAre you sure you want to use this item? "
@@ -2988,21 +2988,40 @@ Morale drain and Affection gain are also increased by 100%. ]]
 	world_instruction_help_1 = {
 		tip = {
 			{
-				info = [[
-  <color=#92fc63>舰队部署</color>
-   在己方港口海域，可以从港区船坞中重新部署参与
-大型作战的舰队，并为所有舰船恢复耐久与士气。 
-
-  <color=#92fc63>舰队维护</color>
-  为所有舰队恢复士气与耐久，并消除战损状态。
-
-  <color=#92fc63>空域侦查</color>
-  消耗行动力侦查当前海域的全部区域。
-
-  <color=#92fc63>潜艇支援</color>
-  可以部署与呼叫潜艇编队支援，潜艇部队需要在港
-  口海域进行部署。
- ]]
+				info = "About Orders:"
+			},
+			{
+				info = "During Operation Siren, you can issue orders to aid you in the operation. Issuing orders costs Action Points./n/n"
+			},
+			{
+				info = "1. Order: Fleet Redeployment"
+			},
+			{
+				info = "If there is a friendly port in the zone you are in, you can use Action Points to dock at it and change your active fleet composition."
+			},
+			{
+				info = "Redeploying your fleet will repair your ships to full HP and fully restore their Resolve (Operation Siren-only Morale, in essence) in addition to clearing any debuffs they may have./n/n"
+			},
+			{
+				info = "2. Order: Regroup and Rest"
+			},
+			{
+				info = "Issuing this order will repair your ships to full HP and fully restore their Resolve in addition to clearing the Tolls of War debuff./n/n"
+			},
+			{
+				info = "3. Order: Reconnaissance"
+			},
+			{
+				info = "This will commence reconnaissance over a zone and give you a more detailed overview of it./n/n"
+			},
+			{
+				info = "4. Order: Submarine Support"
+			},
+			{
+				info = "Issuing this order will deploy your submarine fleet in the target zone. You must have already created a valid submarine fleet to issue this order."
+			},
+			{
+				info = "This submarine fleet works much the same as the one outside Operation Siren; the submarine fleet’s mode of attack can be changed using the panel on the right-hand side of the screen, and it can be called into battle to provide direct support."
 			}
 		}
 	},
@@ -3150,37 +3169,37 @@ Morale drain and Affection gain are also increased by 100%. ]]
 	world_boss_help_meta = {
 		tip = {
 			{
-				info = [[
-信标·烬功能说明
-1.「余烬信标数据」获取与解析
-·指挥官可通过在大型作战中获取「余烬信标数据」，达
-到指定数据量后进行解析并发现特定余烬信标
-·每日最多可解析 <color=#92fc63>2次</color>，次数于每日0点重置，尚未使用
-的「余烬信标数据」将会保留。
-·每次解析「余烬信标数据」所需量为<color=#92fc63>100</color>点
-2.挑战自己解析的信标
-·第一次挑战自己解析的信标不会消耗石油，从第二次
-开始每次挑战消耗<color=#92fc63>40</color>点石油。(不会消耗挑战次数)
-·当信标HP归零后视为战斗胜利，指挥官可以领取对应的
-作战奖励。
-·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，
-记得向其他指挥官请求支援哦。
-·每次挑战成功后，信标的强度将会提升1阶段，总计15
-阶段。随着阶段提升，战斗奖励也会提升。
-3.挑战其他信标
-·在信标列表界面可以挑战其他指挥官发起求助的信标，
-参与其他指挥官发布的信标战斗结束后，将会根据造成
-的伤害程度立刻获得奖励。
-·每次挑战需要消耗1点挑战次数，不需要消耗石油
-·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置
-·同一个信标最多能允许累计30位指挥官进行挑战
-·特别说明：出现网络波动或中途退出的情况，战斗将会
-消耗挑战次数但无法获得任何奖励，请在参与作战时保持
-网络环境畅通！
-4.战斗说明
-·挑战信标·烬只能使用大型作战中的舰船，暂不可使用
-指挥喵与潜艇
-·战斗结算时不会获得经验值，不会影响舰船心情值]]
+				info = "- About Ashes Showdowns:"
+			},
+			{
+				info = "Ashes Showdowns put you and other players up against members of Ashes. Participating in one rewards you with a myriad of items, including Sync Points."
+			},
+			{
+				info = "An Ashes Showdown consists of 2 parts: analyzing Ashes Coordinates to locate the Ashes member, and then the actual fight with the Ashes member in question."
+			},
+			{
+				info = "This mode is unlocked after sufficiently advancing the story in Operation Siren./n/n"
+			},
+			{
+				info = "1. About Ashes Coordinates Analysis:"
+			},
+			{
+				info = "Ashes Coordinates are obtained through battles in Operation Siren. Your number of gathered coordinates is shown in the top right corner of the operation map. At the 100, 150, and 200 Coordinates increments, you gain one opportunity to challenge a member of Ashes. To do this, you must break down all your existing Ashes Coordinates."
+			},
+			{
+				info = "A maximum of 3 Ashes Showdowns can be initiated in one day. Your number of attempts refreshes every day at midnight, and if you have an excess number of Ashes Coordinates, then these will be wiped as well."
+			},
+			{
+				info = "Once an Ashes Showdown has been initiated, it remains open for 24 hours./n/n"
+			},
+			{
+				info = "2. Initiating an Ashes Showdown:"
+			},
+			{
+				info = "Navigate to the bottom right corner of the Operation Siren sector map and tap the Ashes Showdown button to challenge a member of Ashes."
+			},
+			{
+				info = "You will need to create a special fleet for the battle against the Ashes member."
 			}
 		}
 	},
@@ -3207,7 +3226,7 @@ Are you sure you want to cancel the item retrieval?
 <color=#92fc63>(If cancelled, partial awards will be rewarded immediately.)</color> ]]
 	},
 	world_catsearch_help_2 = {
-		tip = "搜寻奖励查询"
+		tip = "Potential Rewards: "
 	},
 	world_catsearch_help_3 = {
 		tip = {
@@ -3234,19 +3253,19 @@ Are you sure you want to cancel the item retrieval?
 		}
 	},
 	world_catsearch_help_4 = {
-		tip = "搜寻中..."
+		tip = "Retrieving... "
 	},
 	world_catsearch_help_5 = {
-		tip = "指挥喵物资搜寻中，暂时无法为舰队提供加成"
+		tip = "This Meowfficer’s skills will not apply, as they are busy retrieving an item. "
 	},
 	world_catsearch_help_6 = {
-		tip = "搜寻过程中有几率获得以下奖励"
+		tip = "You may receive the following rewards: "
 	},
 	world_level_prefix = {
 		tip = "LV.$1"
 	},
 	world_map_level = {
-		tip = "Operation Level: <color=#92fc63>$1</color>\nIt is best to attempt to capture zones with a Corrosion level that is less than or equal to your Operation Level. (Operation Level is determined by your combat effectiveness and adaptability stats) "
+		tip = "Operation Level:\nYour current Operation Level is <color=#92fc63>$1</color>. Please consider challenging stages with an equal or lower Corrosion Level. "
 	},
 	task_notfound_error = {
 		tip = "Unable to find mission config. Update may be required. Error ID: "
@@ -3786,7 +3805,7 @@ Are you sure you want to cancel the item retrieval?
 		tip = "哔哩哔哩"
 	},
 	word_shipNation_um = {
-		tip = "传颂之物"
+		tip = "Utawarerumono "
 	},
 	word_shipNation_ai = {
 		tip = "KizunaAI"
@@ -3798,7 +3817,7 @@ Are you sure you want to cancel the item retrieval?
 		tip = "Venus Vacation "
 	},
 	word_shipNation_link = {
-		tip = "联动"
+		tip = "Collab "
 	},
 	word_reset = {
 		tip = "Reset"
@@ -5206,7 +5225,7 @@ Attack/Support Range Level:
 		tip = "You don't have enough Gems!"
 	},
 	guild_tip_dissolve = {
-		tip = "You will not be able to restore your guild once it is dissolved. Continue dissolving your guild?"
+		tip = "Once a Guild is disbanded, the Guild status (including member activity, Guild funding, Guild tech level, etc) will be erased and cannot be restored. All uncollected supplies and Action Reports will be permanently lost. Are you sure you wish to disband the Guild? "
 	},
 	guild_tip_quit = {
 		tip = "Are you sure you want to leave the guild?"
@@ -5984,10 +6003,10 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
 		tip = "累計数"
 	},
 	npcfriendly_count = {
-		tip = "目标友好度："
+		tip = "Target Affection:"
 	},
 	npcfriendly_total_count = {
-		tip = "当前友好度："
+		tip = "Affection:"
 	},
 	longxiang_count = {
 		tip = "J Talisman target: "
@@ -7212,13 +7231,13 @@ Combat Details:
 		tip = "Touch\n3"
 	},
 	gold = {
-		tip = "金币"
+		tip = "Funds"
 	},
 	oil = {
-		tip = "石油"
+		tip = "Oil"
 	},
 	diamond = {
-		tip = "钻石"
+		tip = "Gems"
 	},
 	word_photo_mode = {
 		tip = "Photo"
@@ -7294,13 +7313,13 @@ Combat Details:
 		tip = "Game resource restoration complete."
 	},
 	resource_clear_all = {
-		tip = "是否清理缓存资源？(清理完成之后游戏将自动退出)"
+		tip = "Would you like to clear your cache data? \nThe game will automatically restart upon completion. "
 	},
 	acl_oil_count = {
-		tip = "目标石油："
+		tip = "Spent Oil:"
 	},
 	acl_oil_total_count = {
-		tip = "累计使用石油："
+		tip = "Total Spent Oil:"
 	},
 	word_take_video_tip = {
 		tip = "Tips: Tap the button on the right side to stop recording."
@@ -8099,7 +8118,7 @@ disappear.]]
 		tip = "If this Temporary Recruit leaves the port, any items or materials used to Limit Break her will NOT be refunded. Continue anyway?"
 	},
 	word_chuansong = {
-		tip = "可可波币"
+		tip = "Furniture Tokens "
 	},
 	npc_evaluation_tip = {
 		tip = "You can't Like or Comment on ships that haven't been recruited"
@@ -9547,7 +9566,7 @@ Voting Schedule:
 		tip = "The Popularity Poll has concluded."
 	},
 	vote_fame_tip = {
-		tip = "※观赏完殿堂角色特别小故事，可解锁角色专属头像框：企业$1,贝尔法斯特$2,椿$3"
+		tip = "Tap the winners of the popularity vote to receive a commemorative chat border! Enterprise $1, Belfast $2, Ayanami $3 "
 	},
 	word_maintain = {
 		tip = "post-maintenance "
@@ -9668,7 +9687,20 @@ depends on the amount of damage dealt to the boss.
 		tip = "Enabling this option hides background art in skins during battle "
 	},
 	option_desc11 = {
-		tip = "option_desc11"
+		tip = [[
+Display Carrier Detection line
+
+ {{info='- About Carrier Detection:'},{info='The carriers in your Main Fleet can be in one of two states: Hidden, and Detected.'},{info='Your carriers start the battle in the Hidden state, but once their Detection Gauge fills up, they will enter and remain in the Detected state until the gauge falls back down below a certain threshold.
+
+'},{info='While Hidden, your carriers will not be targeted by most enemy skills and attacks.'},{info='Additionally, your carriers will also deal increased damage.
+
+'},{info='1. About the Detection Gauge:'},{info='The Detection Gauge represents how close the enemy is to detecting the presence of your carriers. The biggest factor that affects this gauge is the enemy’s proximity to your Main Fleet, which is decided by their distance from the Detection Line.
+
+'},{info='However, other factors affect this gauge as well. The Detection Gauge increases:'},{info='- When an enemy crosses the Detection Line'},{info='- When an enemy ship or aircraft reaches the left-hand side of the screen'},{info='- When a friendly carrier launches an Airstrike'},{info='- When the skills of certain friendly carriers activate'},{info='- When a friendly carrier catches fire (when this happens, the Detection Gauge will not go below a certain threshold until the fire is put out)
+
+'},{info='The Detection Gauge will decrease as long as there are no enemies past the Detection Line.'},{info='Each carrier has a separate Detection Gauge, and the higher their AVI stat, the longer it will take for them to be Detected.
+
+{info='2. The Detection Gauge During Exercises:'},{info='The Detection Gauge will not decrease in Exercise Battles. Additionally, once the opponent’s fleet gets near enough to your Main Fleet, all of your carriers will enter the Detected state.'}}]]
 	},
 	music_collection = {
 		tip = {
@@ -10877,22 +10909,31 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 	equipment_upgrade_help = {
 		tip = {
 			{
-				info = "<color=#ffde38>装备研发系统说明：</color>\n"
+				info = "- About Gear R&D:"
 			},
 			{
-				info = "· 装备研发是通过<color=#92fc63>消耗</color>研发素材与物资将特定装备转变\n为更高级装备的系统。"
+				info = "Gear R&D allows you to develop new equipment for your fleet by modifying existing equipment into another through the use of special materials and items./n/n"
 			},
 			{
-				info = "·点击选择想要研发的装备，即可进入对应的装备研发\n界面。"
+				info = "- Gear R&D Summary:"
 			},
 			{
-				info = "·当所选装备拥有多种研发途径获得时，可以使用切换\n方案按钮进行切换。"
+				info = "1. First, select the piece of equipment you want to use as a base for modification."
 			},
 			{
-				info = "·当素材装备也可通过研发获得时，可通过点击左侧的\n快速研发按钮进入对应研发界面。"
+				info = "2. Verify that you have all the required materials and items for your desired modification. If there are multiple development paths to the equipment you want, you can change your active development path."
 			},
 			{
-				info = "·正在装备中装备也可以作为素材装备，研发后的新装\n备将直接变为装备中状态。（若新装备的类型无法被\n原角色装备，则装备返回仓库）"
+				info = "3. Once you have everything in order, tap the icon of the gear you wish to modify and select the materials you want to use. You may also use a currently-equipped item if you want."
+			},
+			{
+				info = "4. Press the button to commence development. This will spend your chosen materials and base equipment and give you your new piece of equipment."
+			},
+			{
+				info = "If you selected base equipment that is already equipped on a ship, your new equipment will automatically be put into the slot was taken from."
+			},
+			{
+				info = "If the ship cannot equip the newly-developed equipment, it will instead be sent to your Depot."
 			}
 		}
 	},
@@ -11336,25 +11377,25 @@ any Credits, or give any rewards.]]
 		tip = "Damage Modifier "
 	},
 	equip_info_29 = {
-		tip = "伤害属性类型"
+		tip = "???"
 	},
 	equip_info_30 = {
-		tip = "属性效率"
+		tip = "???"
 	},
 	equip_info_31 = {
 		tip = "FR "
 	},
 	equip_info_extralevel_0 = {
-		tip = "等级0"
+		tip = "Level 0"
 	},
 	equip_info_extralevel_1 = {
-		tip = "等级1"
+		tip = "Level 1"
 	},
 	equip_info_extralevel_2 = {
-		tip = "等级2"
+		tip = "Level 2"
 	},
 	equip_info_extralevel_3 = {
-		tip = "等级3"
+		tip = "Level 3"
 	},
 	tec_settings_btn_word = {
 		tip = "Research Focus"
@@ -11737,7 +11778,7 @@ you can earn.]]
 		tip = "This ship is assigned to another mission and cannot be used."
 	},
 	guild_event_start_done = {
-		tip = "Dispatch Successful"
+		tip = "Successfully Dispatched "
 	},
 	guild_fleet_update_done = {
 		tip = "Fleet composition has been updated."
@@ -11767,7 +11808,7 @@ you can earn.]]
 		tip = "Once dispatched, you will not be able to change this formation until the operation ends. Would you like to continue?"
 	},
 	guild_word_sea = {
-		tip = "Territory"
+		tip = "Zone "
 	},
 	guild_word_score_addition = {
 		tip = "Rating Increased:"
@@ -11818,7 +11859,7 @@ you can earn.]]
 		tip = "Insufficient challenge attempts remaining."
 	},
 	guild_boss_fleet_cnt_invaild = {
-		tip = "Error occurred while editing fleet composition. Please update your roster. "
+		tip = "There was an error in your fleet formation. "
 	},
 	guild_boss_formation_not_exist_self_ship = {
 		tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 of your own ships."
@@ -11827,7 +11868,7 @@ you can earn.]]
 		tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 ship."
 	},
 	guild_battle_result_boss_is_death = {
-		tip = "大舰队作战首领战已经结束，战斗失效"
+		tip = "This boss battle has already ended. "
 	},
 	guild_must_edit_fleet = {
 		tip = "Updated Support Fleet list."
@@ -11857,7 +11898,7 @@ you can earn.]]
 		tip = "There is are no entries on the Guild's message board."
 	},
 	guild_exist_report_award_when_exit = {
-		tip = "You still have unclaimed Guild rewards. Are you sure you would like to leave the Guild?"
+		tip = "You still have unclaimed Guild rewards. Would you like to go claim them? "
 	},
 	guild_report_tooltip = {
 		tip = "Only 20 rewards can be stored on the Action Report screen. When this amount is surpassed, unclaimed rewards will start being replaced in chronological order."
@@ -11893,7 +11934,7 @@ you can earn.]]
 		tip = "Guild Operation participations restored by +$1."
 	},
 	not_exist_guild_use_item = {
-		tip = "未加入大舰队，无法使用该道具"
+		tip = "This item cannot be used as you are not in a Guild. "
 	},
 	guild_member_tip = {
 		tip = {
@@ -12149,7 +12190,7 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 		tip = "<color=red>Unclaimed</color>"
 	},
 	word_shipState_guild_event = {
-		tip = "角色正在参与大舰队作战，无法退役"
+		tip = "This ship is participating in Operation Siren and cannot be retired. "
 	},
 	us_error_download_painting = {
 		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
@@ -12568,16 +12609,16 @@ to see the bonuses provided by each stat level.]]
 		tip = "未配置tip"
 	},
 	ad_4 = {
-		tip = "<material=underline c=#92fc63><color=#92fc63>$2</color></material> invites you to challenge <material=underline><color=#FFDE38FF>$3</color></material>"
+		tip = "$1 <material=underline c=#92fc63><color=#92fc63>$2</color></material> has invited you to challenge <material=underline><color=#FFDE38FF>$3</color></material> "
 	},
 	world_word_expired = {
 		tip = "未配置tip"
 	},
 	world_word_guild_member = {
-		tip = "大舰队成员"
+		tip = "Guild member"
 	},
 	world_word_guild_player = {
-		tip = "玩家"
+		tip = "player"
 	},
 	world_joint_boss_award_expired = {
 		tip = "未配置tip"
@@ -12786,41 +12827,61 @@ to see the bonuses provided by each stat level.]]
 	meta_help = {
 		tip = {
 			{
-				info = "META研究室说明："
+				info = "- About the META Lab:"
 			},
 			{
-				info = "·META研究室拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研修」</color>、\n<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块\n"
+				info = "The META Lab is where you are able to acquire and upgrade META ships. Here you can:"
 			},
 			{
-				info = [[
-1.<color=#92fc63>能量激活</color>
-·META角色达到指定等级后可以使用对应的角色结晶进行
-激活。激活后可以提升角色星级
-·角色结晶可以通过「资讯同步」奖励获取]]
+				info = "- View acquired META ships and your progress towards recruiting other META ships"
 			},
 			{
-				info = [[
-2.<color=#92fc63>战术研修</color>
-·完成战术研修任务获得META角色的技能升级经验，部
-分任务可以重复完成
-·一名角色只能同时进行一项技能的战术养成任务，多名
-角色之间彼此独立，同时进行
-·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前
-<color=#92fc63>60%</color>的技能升级经验拥有双倍累计速度
-]]
+				info = "- Claim rewards from accumulating Sync Points"
 			},
 			{
-				info = [[
-3.<color=#92fc63>舰装强化</color>
-·META角色可以通过消耗舰装强化材料对「炮击」「雷
-击」「航空」「装填」4个属性中的若干个进行强化
-·强化会提升相应属性值，当强化进度达到一定数值后还
-可获得额外属性提升。
-·舰装强化材料可通过「资讯同步」奖励及大型作战内
-港口商店购买获取
-4.<color=#92fc63>资讯同步</color>
-·通过「信标·烬」战斗收集角色同步值，在<color=#92fc63>指定时间</color>内
-领取包含养成材料在内的丰厚奖励]]
+				info = "- Carry out Rigging Fortification, and Tactical Research, and Somatic Activation/n/n"
+			},
+			{
+				info = "1. About Sync Points:"
+			},
+			{
+				info = "Sync Points obtained through Ashes Showdown in Operation Siren can be used to recruit certain META ships."
+			},
+			{
+				info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship./n/n"
+			},
+			{
+				info = "2. About Rigging Fortification:"
+			},
+			{
+				info = "Recruited META ships can be enhanced via the Rigging Fortification menu. Fortifying a META ship's rigging lets you upgrade theirfirepower, torpedoes, aviation, and reload stats."
+			},
+			{
+				info = "Enhancing these stats past a certain threshold grants you access to additional bonus stat boosts."
+			},
+			{
+				info = "The process of fortifying riggings requires specific materials./n/n"
+			},
+			{
+				info = "3. About Somatic Activation:"
+			},
+			{
+				info = "Much like ordinary ships, META ships can be upgraded and have their star rating increase. However, instead of Bulins, META ships require their own item called META Crystals."
+			},
+			{
+				info = "For more information, consult the tips on ordinary Limit Breaking./n/n"
+			},
+			{
+				info = "4. About Tactical Research:"
+			},
+			{
+				info = "The skills of META ships can only be leveled in the META Lab. You can head to a META ship’s skill menu through the Somatic Activation screen."
+			},
+			{
+				info = "Leveling a META ship’s skills requires specific materials and are fed EXP through the completion of special META ship skill missions."
+			},
+			{
+				info = "Note that there is a limit to how much EXP can be gained in a single day, and that only 1 skill per META ship can be leveled at a time."
 			}
 		}
 	},
@@ -12840,7 +12901,7 @@ to see the bonuses provided by each stat level.]]
 		tip = "Clear the first chapter of <color=#92fc63>Operation Siren</color> to unlock Ashes Showdown for the ability to obtain META ships. "
 	},
 	word_take_effect = {
-		tip = "生效"
+		tip = "In Effect "
 	},
 	world_boss_challenge_cnt = {
 		tip = "Participants: "
@@ -12849,31 +12910,31 @@ to see the bonuses provided by each stat level.]]
 		tip = "???"
 	},
 	world_word_friend = {
-		tip = "战友"
+		tip = "Friends "
 	},
 	world_word_world = {
-		tip = "世界"
+		tip = "Global"
 	},
 	world_word_guild = {
-		tip = "大舰队"
+		tip = "Fleet"
 	},
 	world_collection_1 = {
-		tip = "收集进度"
+		tip = "Progress:"
 	},
 	world_collection_2 = {
 		tip = "Progress:"
 	},
 	world_collection_3 = {
-		tip = "Collection "
+		tip = "Progress:"
 	},
 	zero_hour_command_error = {
 		tip = "An error has occurred due to a data update or daily rollover. "
 	},
 	commander_is_in_bigworld = {
-		tip = "该指挥喵在大型作战中"
+		tip = "This Meowfficer is participating in Operation Siren. "
 	},
 	world_collection_back = {
-		tip = "点击空白处返回"
+		tip = "Tap to return "
 	},
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"

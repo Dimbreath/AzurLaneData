@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-1",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：发现疑似铁血舰载机群正在向我们接近，请做好对空作战准备。",
+			say = "Approaching non-allied aircraft have been detected. Profile matches that of Iron Blood manufacture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我也注意到了，是铁血量产型航母的机群么，还是说...",
+			say = "Must be from those mass-produced ships... they're in attack formation, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂，再在对铁血舰队进行一次侦查，重点搜索铁血航母，看一看齐柏林伯爵有没有藏在铁血舰队中。",
+			say = "Hornet, do you still have recon planes in the vicinity? Have a good look around and see if you can spot any Iron Blood carriers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "交给我吧~！",
+			say = "Will do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "战斗机群升空，准备迎战！",
+			say = "Fighter squadrons, prepare to intercept!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,

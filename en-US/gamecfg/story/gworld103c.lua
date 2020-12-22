@@ -12,7 +12,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "G.M系统的可视化面板中整合了多种战役所需的常规指令。",
+			say = "Special orders to the fleet can also be issued using my intermediary relay module. This will invariably ensure the message reaches its addressee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "引导指令已确认：指挥官，请首先使用空域侦察指令获取海域内的详细情报吧。",
+			say = "...Orders received. Commencing test of order function.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

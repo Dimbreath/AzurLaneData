@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "嗯？这些塞壬的残骸...这片区域除了我们之外还有其他舰队么？",
+			say = "What the... Siren wreckage? Is there another fleet besides us operating in this zone, or...?",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			voice = "event:/tb/49/tb-49",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "资料查询中：没有发现其他舰队在这片区域的作战记录，也没有发现其他舰队前来作战的规划。",
+			say = "Commencing scan... No allied presence detected within zone. Additionally, no record of recent allied activity in this zone could be found.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "大家快看雷达，我发现了一些有趣的事哦。",
+			say = "Hey, folks... Check the radar. You won't believe it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "雷达上密密麻麻的小点，代表着附近海域的敌方分布情况。然后每次刷新，小点的数量都会突然减少一些。",
+			say = "The radar screen shows dozens upon dozens of little dots, each symbolizing a Siren force. With each scan, a dot disappears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方的塞壬舰队在，消失......?",
+			say = "The Sirens aren't moving... they're vanishing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "........难道真的是，「她们」。",
+			say = "Someone is here, taking out the Sirens one by one. And it’s not one of ours...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我去前方侦查一下！",
+			say = "Commander, I know it’s dangerous, but we should head there and investigate immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等、「她们」是谁啊？现在情况不明，你自己一个人冲过去太危险了！",
+			say = "We have only an incomplete picture of the situation at best, but one thing’s for sure: we should stick together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，企业！",
+			say = "Hornet, Sirens vanishing aside, are you picking up any unusual readings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "唔...雷达上侦测不到信号，还能让企业姐这么激动...难道前方和塞壬战斗的是余烬？",
+			say = "Nope, not a single one! But these Sirens vanishing are the darndest thing I've ever seen... You don't think it could be... the Ashes?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "......舰队调整队形，保持警戒跟随企业前进。但是没有命令，不要主动向余烬开火。",
+			say = "If it is one of them, we will need to reconsider our approach entirely. For now, we must proceed forward to see what we're dealing with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

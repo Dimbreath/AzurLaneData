@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "嗯~指挥官的进展迅速啊！接下来尝试“击败”我吧！",
+			say = "Woah~ You sure don't beat around the bush, Commander! But now, it’s my turn!",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			voice = "event:/tb/22/tb-22",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "演习指令已确认：请击败海域内的大黄蜂。",
+			say = "Objective identified: repel Hornet in this exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "G.M系统的详细使用方式已经整合进帮助模块中，如果您有不清楚的地方可以随时进行查看。",
+			say = "Should you need assistance with navigation, it can be found here on your screen at any time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "引导指令已确认：指挥官，在正式出海作战之前，先返回NY港进行一下舰队补给吧。",
+			say = "Plot a course to NY City to inspect its logistics facilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

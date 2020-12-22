@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-1",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：指挥官，舰队已到达NA海域核心区域外围。",
+			say = "Orders received. A fleet has been deployed beyond the NA Ocean boundary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			voice = "event:/tb/41/tb-41",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "为了确保前哨站的顺利部署，首先需要彻底清理这片海域中的敌人。",
+			say = "Hostiles detected. All hostile presence in the sector must be eliminated to establish a forward base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "终于到总攻前的最后一步了......各舰注意，准备战斗！",
+			say = "we're nearing the finale of the first part of Operation Siren. It’s time to wipe out all the hostiles and establish a forward base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "系统界面中的黄色区域代表海域中可进行进一步情报分析的地方，点击对应区域即可执行分析进程。",
+			say = "Transferring data... Scanning the yellow tile host to an item node is recommended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "敌人的详细信息、隐藏的物资点、或者海域中隐藏的其他秘密，分析模块将会整合战役级的侦查力量获取最大限度的情报。",
+			say = "Scanning Mode can provide you with both detailed and general information on enemies, resource nodes, item caches, and more. Making frequent use of it is recommended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "引导指令已确认：指挥官，请对敌方舰队使用分析模块吧。",
+			say = "Orders received. Select a target to scan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

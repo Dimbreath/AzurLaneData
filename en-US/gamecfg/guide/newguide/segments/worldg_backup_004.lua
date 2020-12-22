@@ -16,7 +16,7 @@ return {
 				"clickShop"
 			},
 			style = {
-				text = "仓库里会出售各种道具，指挥官可以选择进行购买。",
+				text = "Various items are sold here.",
 				mode = 2,
 				dir = -1,
 				posY = 191.87,

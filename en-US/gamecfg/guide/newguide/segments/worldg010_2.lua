@@ -7,7 +7,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "点击一片地图外海域，就可以打开世界地图面板，查看对应地图位置",
+				text = "Tap on an outside area to view the World Map. ",
 				mode = 2,
 				dir = -1,
 				posY = 0,
@@ -63,7 +63,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "点击地图外任意区域，关闭地图",
+				text = "Tap on any place other than the map to close the World Map.",
 				mode = 2,
 				dir = -1,
 				posY = 0,

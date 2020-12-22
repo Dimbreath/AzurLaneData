@@ -12,7 +12,7 @@ return {
 			bgm = "story-french1",
 			actor = 201130,
 			nameColor = "#a9f548",
-			say = "我是皇家驱逐舰格伦维尔，根据司令部的命令在这里迎接你们。两位以及身后的量产型驱逐舰队就是从自由鸢尾来的同伴吧。",
+			say = "Hey there, are you two the reinforcements from the Iris Libre fleet? I'm Grenville, from the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801030,
-			say = "你好！我是自由鸢尾的鲁莽，旁边的是倔强，请多关照咯~",
+			say = "Hi there! I'm Le Téméraire, from Iris Libre... And, um, this here is L'Opiniâtre~ We've arrived safely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201130,
-			say = "虽然各位刚刚经历了漫长的旅途...不过很抱歉，战役已经开始了！我们稍作补给之后也要尽快投入战斗，这样安排可以么？",
+			say = "...Ah, sorry, sorry. Did I make things awkward? They're our friends though, so you don't have to be shy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "没问题，我们从陆间海赶来就是参与战役行动的。根据黎塞留大人的命令，本次行动中我们全程听候LD司令部的调遣。",
+			say = "We've come from the Méditerranée at the behest of the Cardinal... We will now heed the instructions of the Royal Navy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 201130,
 			nameColor = "#a9f548",
-			say = "太好了！事不宜迟，请立刻随我前往补给点的位置吧。",
+			say = "See, that wasn't too bad! Anyway, let’s head to the resupply point first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "有劳了。鲁莽，出发了哦！",
+			say = "Th-thanks... Tem, I'm glad you're here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "鲁莽...？",
+			say = "Um, Tem...?？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801030,
-			say = "哇啊啊是！稍微被作战指令书中的参战舰船列表吓到了，皇家居然调集了这么气派的舰队啊...",
+			say = "Woaaahh! I heard everyone would be here for Operation Siren, but seeing this in person is even more amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 201130,
 			nameColor = "#a9f548",
-			say = "嘿嘿，我们这次可是把所有能调动的军舰全都调过来了哦，这次绝对给塞壬一点颜色瞧瞧！",
+			say = "That’s right! Her Majesty transferred all the warships we could spare to this operation. We're gonna give those Sirens a good scare!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "哦哦~！我也感觉燃起来了！快点快点，立刻去前线吧！",
+			say = "Woah! W-wow, we've gotta do our part too then! Opie, we're also gonna be heading out to the front lines!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "鲁莽，我们要先去补给点......",
+			say = "Tem, didn't you say you had to go to the supply point first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			say = "啊哎？！！是！",
+			say = "Eh?! Uh, yeah! Ahaha...",
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",

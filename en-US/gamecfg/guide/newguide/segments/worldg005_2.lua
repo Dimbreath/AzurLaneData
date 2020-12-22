@@ -7,7 +7,7 @@ return {
 				"ForceClick"
 			},
 			style = {
-				text = "您已经到达大型作战海域，请点击出发区域",
+				text = "You've already arrived at the Operation Siren combat zone. Please tap on the departure area.",
 				mode = 2,
 				dir = -1,
 				posY = -260,

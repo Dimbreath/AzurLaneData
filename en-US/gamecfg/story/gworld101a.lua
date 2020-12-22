@@ -12,7 +12,7 @@ return {
 			bgm = "level02",
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "STOP！指挥官，到这里为止就不能继续前进了！",
+			say = "Woah! Commander, hold it right there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,11 +23,11 @@ return {
 			},
 			options = {
 				{
-					content = "「......大黄蜂？」",
+					content = "\"Hornet...?\"",
 					flag = 1
 				},
 				{
-					content = "「没想到这么快就遇到敌人了...」",
+					content = "\"I didn't think we’d run into the enemy so soon.\"",
 					flag = 2
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			optionFlag = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "嘿嘿，好久不见了指挥官~",
+			say = "Hehe, long time no see, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "全舰队准备————",
+			say = "After all, we were warned that Siren Pawns were on the move, and an exercise was staged as a countermeasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			optionFlag = 2,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊啊！等、等一下！突然和你开玩笑是我不对，我是真正的大黄蜂啦！",
+			say = "Ahahaha! So you've seen through me! ...Wait, hold on, that was a bad joke! I'm the real Hornet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "是这样的，因为海域中心的异常区域影响，整片NA海域的海况都发生了不少变化。",
+			say = "...Anyway, here’s the deal. There’s been a lot of weird weather conditions around these parts, most likely due to Siren activity in these waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "为了安全起见，指挥部为每支参与作战的舰队都准备了一场特别演习，以帮助大家更好的进入战役状态。",
+			say = "I don't need to be lecturing you about how the Pawns created by the Mirror Seas sometimes fight just like us, so the point of the exercise is to get us familiar with that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "虽然我觉得指挥官肯定没问题啦，不过命令就是命令，首先来找到我的位置吧！",
+			say = "And I, Hornet, will be your opponent. How about it, Commander? Ready for some action?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "演习指令已确认：请寻找海域中大黄蜂的位置。",
+			say = "Orders received. Simply approach Hornet’s fleet to begin the exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

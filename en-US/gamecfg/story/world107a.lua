@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "我们明明已经这么深入NA海域内部了，情况有些不对，敌人还是太少了......",
+			say = "There’s hardly any Sirens in this zone. Something fishy’s going on...",
 			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里按照以前的海图，这里应该处于Risk6~8的范围内，也就是仅限主力舰队在执行特殊作战任务时前往的区域吧！",
+			say = "This is supposed to be a Corrosion level 6 zone, and all we've come across are small fry every now and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在现在塞壬有限的抵抗里也完全看不出指挥者的存在，行动过于单纯了。",
+			say = "What’s more, their mode of attack is way too simplistic. I don't think they have anyone leading them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗力能力与刚刚在百慕海域中遭遇的那些根本不能相提并论，要是按照海图的标的话，那里的危险等级反而更低一些才对...",
+			say = "The reports said this zone is a big step up from the Bermuda sector, yet it feels like a big step down instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "又有一批海图要作废了。",
+			say = "Perhaps those reports were way out of date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "根据以往的战斗经验，只有在舰队指挥系统遭受毁灭性打击的时候塞壬才会出现这样的战斗模式。",
+			say = "you're right. The Sirens only attack like this once They've been stripped of their command. They become like headless chickens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "可是要怎么做才能让这么大范围内的塞壬指挥遭受到毁灭性打击......",
+			say = "Under normal circumstances, we’d probably have run into several major Siren fleets by now. And yet, we've not seen anything close to that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "只有中枢指挥系统出现异常这一个可能了。如果这样的话，不论是低下的指挥效率还是异常的舰队部署都能解释得通了。",
+			say = "Guessing they must've taken some major losses for this happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "可是我们刚刚才在百慕大海域和塞壬苦战了一场哦？我是觉得那批塞壬绝对是受到高级塞壬直接指挥的啦。",
+			say = "It just doesn't add up... No sign that any of the Ashes have come through here, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "综合现在的状况来看，塞壬指挥系统的某些部分出现问题，但是某些部分又完好无损...？",
+			say = "I have a theory: their chain of command collapsed entirely, but their most basic units can still function independently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "哼哼，不论原因是什么，现在绝对是我们夺回整片NA海域的大好时机，指挥部选择的时机太漂亮了！",
+			say = "Whatever happened, it’s worked out in our favor. Let’s not pass up this opportunity to seize an easy victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "嗯，没错。总之一边战斗，一边寻找塞壬陷入异常的原因吧。",
+			say = "Baltimore is right. This is the most favorable situation possible for us. Let’s use it to reclaim this sector!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

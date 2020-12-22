@@ -25,7 +25,7 @@ return {
 		{
 			alpha = 0.2,
 			style = {
-				text = "点击后退按钮回到主界面",
+				text = "Tap here to return to the main screen",
 				mode = 2,
 				dir = -1,
 				posY = 226.09,

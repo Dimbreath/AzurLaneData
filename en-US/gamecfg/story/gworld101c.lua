@@ -13,7 +13,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "大黄蜂已被判定“击沉”，演习结束。",
+			say = "I've confirmed that you've scored a direct hit on Hornet with a dummy round.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "真是毫不留情的“攻击”啊...看到你们状态这么好我也放心了。",
+			say = "You really came prepared, Commander! Good on ya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "不过，在大型作战过程中，可能会遭遇极其危险的战斗。",
+			say = "You should've already been briefed on this, but there’s been a new Siren spotted during pre-operation scouting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在一时难以战胜敌人的情况下，不要恋战，果断撤退才是明智的选择哦。",
+			say = "If you encounter a particularly tough battle, don't be afraid to withdraw.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "比如像......这样~！",
+			say = "For example, if you encounter something... like this~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "演习状态已修改：舰队即将遭遇到毁灭性打击。",
+			say = "Warning: Based on an analysis of the incoming practice rounds, we are at a disadvantage. I would recommend withdrawing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			},
 			options = {
 				{
-					content = "....这是作弊吧！",
+					content = "....“All right, let’s stick to that plan and withdraw!”",
 					flag = 1
 				}
 			}

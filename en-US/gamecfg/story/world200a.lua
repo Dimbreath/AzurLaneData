@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
-			say = "利维浦港·司令部会议室",
+			say = "Liverpool - Strategic Command Room",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "那么指挥官，企业，胡德，我也要先返回司令部了，希望我们所有人的作战都能顺利进行！",
+			say = "Now then, Commander, Enterprise, and my friends of the Royal Navy, let’s make Operation Siren a success!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "皇家舰队也将在几小时后开始正式作战，胡德通话结束。",
+			say = "Indeed. The Royal Navy is ready to set sail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "呼......战役终于要正式开始了么。",
+			say = "So... Operation Siren is finally commencing in earnest.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "真是激动人心的演讲，胡德，做得很好！",
+			say = "An excellent speech, Hood. Well done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "若是陛下亲自去的话，演讲效果一定会更好。",
+			say = "It is an honour to receive your compliments, Your Majesty. If I may be frank, I would have preferred to hear Your Majesty’s speech.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鼓舞前线将士的事，还是交给会亲临前线与他们并肩战斗的人吧。",
+			say = "Hood, you're better suited for this job than anyone else. Besides, it is not I who will be leading the Royal Navy this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，停战协定那边...您果然还是决定亲自去么，实在是太危险了。",
+			say = "Your Majesty, are you sure you'll be fine handling the negotiations with the Crimson Axis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，既然是对面主动提出来的，本王也没有多少选择余地，算是为了全局着想的必要风险吧。",
+			say = "Hmph. Since they sent the invitation, it would be rude for me not to accept. Besides, part of being in the Royal Navy is the willingness to take some risks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说了...前几次被她整的那么惨，这次不扳回几分来的话让皇家的颜面何存！",
+			say = "Think well about the situation, Warspite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，我们也有“人质”在手里嘛。针对日前“失踪”铁血舰队的搜索正在逐步的缩小范围。这个节骨眼上料腓特烈也不敢把本王怎么样。",
+			say = "We've bickered long against the Iron Blood, and for what? Now that Operation Siren is upon us, we finally have a chance to change that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次作战目标简单明了，本王不在倒也没什么问题，关键是...唔...",
+			say = "There is one objective that unites us all - to take down the Sirens. Plain and simple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个时间点进行大型作战，对于局势来说也许是最好的选择，但是就内外部环境来说还有不少亟待解决的问题啊。",
+			say = "I would normally agree with you, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！腓特烈现在想方设法把我调离前线，我总觉得有怪。",
+			say = "Hm? Are you concerned about their top brass? Or perhaps about Friedrich? They certainly have been suspicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次乔治五世会与我同行，光辉她们又在陆间海...",
+			say = "But, I'll have George with me this time, so don't worry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胡德、厌战，前线战况，以及指挥部和LD司令部内的各种事就全部交给你们了哦。",
+			say = "Anyway, enough of that. Hood, Warspite, I'll be entrusting Operation Siren and the defense of the Royal Capital to you two!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,8 +307,8 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 205020,
-			actorName = "厌战&胡德",
-			say = "遵命！",
+			actorName = "Hood & Warspite",
+			say = "As you wish!",
 			subActors = {
 				{
 					actor = 204030,
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于女仆队的方面…贝法本王会一同带走，谢菲有其他任务。唔…纽卡斯尔继续留守LD司令部，爱丁堡跟随主力去前线好了！",
+			say = "As for the Royal Maids... Bel, come with me. Sheffield is out on a separate mission, so... Newcastle, Edinburgh, you two will oversee operations in our absence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遵命，我这就去安排。",
+			say = "As you wish, Your Majesty. I will begin making arrangements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			actor = 205060,
 			nameColor = "#a9f548",
-			say = "陛下，我还有一个疑问。关于指挥部最新研发的领航员系统，指挥官与白鹰舰队都已经开始使用了吧，为什么我们没有使用呢？",
+			say = "Pardon me, Your Majesty, but I have a question. Do you know about the “thing” that was sent to the Commander from the Naval HQ?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "TB啊......关于它本王还有些要查明的事，所以这次作战我们先不用。",
+			say = "TB? ...I've heard about it. What of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？开发领航员的「The Bridge」计划难道您没有参与么...？",
+			say = "Yes. I understand that it was developed by the Naval HQ using the latest technology, but I was wondering if Your Majesty had any information about its identity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能啊！正是因为参与了，所以才格外觉得有些不得不调查清楚的事...",
+			say = "No clue. I'm looking into it, but I don't have any details just yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，再说下去就复杂了，等本王有进一步结论之后再和你们说吧。",
+			say = "That thing says it “can't pass the Turing Test,” but don't you think that warrants suspicion in itself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本王差不多要进行出行准备了，战前会议到此为止。",
+			say = "Anyway, we can worry about that later... Does anyone have any other issues?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			blackBg = true,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "在此预祝你们作战顺利。胡德，带领舰队向世界展现皇家的威严吧！可不许让本王失望哦！",
+			say = "If not, then our meeting is adjourned! Do your utmost to display the glory of the Royal Navy to the world. Good luck in Operation Siren!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

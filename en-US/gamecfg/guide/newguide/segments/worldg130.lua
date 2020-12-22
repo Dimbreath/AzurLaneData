@@ -7,7 +7,7 @@ return {
 				"Show"
 			},
 			style = {
-				text = "行动力可以使用道具进行恢复，也可以使用石油进行兑换。",
+				text = "AP can be obtained by using items or Oil.",
 				mode = 2,
 				dir = 1,
 				char = "1",

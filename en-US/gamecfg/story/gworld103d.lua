@@ -12,7 +12,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "海域侦查已完成，已将侦察情报同步整合至G.M系统中。",
+			say = "Scan complete. Now displaying results of zone reconnaissance on screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "引导指令已确认：指挥官，接下来请与侦察到的敌方舰队交战吧。",
+			say = "Orders received. Commencing test of Scanning Mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

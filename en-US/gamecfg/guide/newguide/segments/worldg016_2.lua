@@ -32,7 +32,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "长按对象可以切换分析模式",
+				text = "Press and hold to switch to scanning mode.",
 				mode = 2,
 				dir = -1,
 				posY = -320,
@@ -87,7 +87,7 @@ return {
 				"explainDetail"
 			},
 			style = {
-				text = "玩家可以在分析仪模式下查看战斗对象的情报或者调查点的信息.",
+				text = "You can use scanning mode to show more information about an enemy's combat capabilities, or check resource nodes..",
 				mode = 2,
 				dir = 1,
 				posY = -200,

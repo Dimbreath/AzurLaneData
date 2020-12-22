@@ -16,7 +16,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "点击打开仓库",
+				text = "Tap to open the Depot.",
 				mode = 2,
 				dir = 1,
 				posY = -229.8,

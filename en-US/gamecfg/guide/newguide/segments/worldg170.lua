@@ -3,7 +3,7 @@ return {
 	events = {
 		{
 			style = {
-				text = "刚刚解锁了新的功能，返回主界面查看一下吧",
+				text = "You've just unlocked a new feature. Return to the Home Screen to check it out.",
 				mode = 2,
 				dir = -1,
 				posY = 353.64,
@@ -25,7 +25,7 @@ return {
 		},
 		{
 			style = {
-				text = "信标·烬系统已开启，通过此功能可与其他玩家共同进行与信标的战斗",
+				text = "You've unlocked Ashes Showdown. Team up with other commanders to take down these powerful foes!",
 				mode = 2,
 				dir = -1,
 				posY = -269.2,
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			style = {
-				text = "击败各个海域的敌人可获得追踪器，追踪器最多可持有一个，获得后在此进行情报解析",
+				text = "Defeat a variety of enemies to obtain a Data Logger. You can hold a maximum of 1 Data Logger. After obtaining it, go here to analyze.",
 				mode = 2,
 				dir = -1,
 				posY = -46.31,
@@ -78,7 +78,7 @@ return {
 		},
 		{
 			style = {
-				text = "每次进行挑战都会消耗1点挑战点数，点数随时间自然恢复",
+				text = "Each challenge will use 1 attempt, and your attempts will naturally recover over time.",
 				mode = 2,
 				dir = -1,
 				posY = 330.6,
@@ -87,7 +87,7 @@ return {
 		},
 		{
 			style = {
-				text = "您和其他玩家对信标造成的伤害都会显示在排行榜中",
+				text = "The leaderboard shows how much you and other players have dealt to the boss.",
 				mode = 2,
 				dir = -1,
 				posY = 110.29,
@@ -96,7 +96,7 @@ return {
 		},
 		{
 			style = {
-				text = "击败信标后，可以获得奖励",
+				text = "You may collect your rewards after defeating a boss.",
 				mode = 2,
 				dir = 1,
 				posY = -220.5,
@@ -105,7 +105,7 @@ return {
 		},
 		{
 			style = {
-				text = "信标实力较强，可以通过求助功能邀请其他玩家一起战斗",
+				text = "Foes in Ashes Showdown are mighty, and you can use the \"Request Support\" function to call for assistance.",
 				mode = 2,
 				dir = 1,
 				posY = -404.9,
@@ -114,7 +114,7 @@ return {
 		},
 		{
 			style = {
-				text = "通过信标列表功能可以查看其他玩家向您求助的信标战斗",
+				text = "You can see the requests other players have sent you in the Boss List menu.",
 				mode = 2,
 				dir = -1,
 				posY = -431.9,
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			style = {
-				text = "那么就开始挑战信标吧！",
+				text = "Now, continue the battle against the Ashes!",
 				mode = 2,
 				dir = 1,
 				posY = -423,

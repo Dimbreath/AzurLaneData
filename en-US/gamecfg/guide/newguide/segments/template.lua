@@ -7,7 +7,7 @@ return {
 			alpha = 0.4,
 			code = 2,
 			style = {
-				text = "指挥官，军部为港区派遣了能够在水下作战的舰娘协助我们，快去迎接一下新的伙伴吧",
+				text = "Commander, the Naval HQ has dispatched a shipgirl who will be able to fight underwater. Let's go meet her!",
 				mode = 1,
 				dir = 1,
 				scene = "BIANDUI",

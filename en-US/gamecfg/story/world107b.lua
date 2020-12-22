@@ -12,7 +12,7 @@ return {
 			bgm = "bsm-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "等、大家稍等一下！侦察机发现了一支行踪异常的舰队！",
+			say = "Hold up a hot minute, y’all! One of my recon planes just spotted a ships, and it’s not allied nor Siren!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "........不会吧，侦察机在舰队中发现了提尔比茨的身影，是日前袭击了斯卡帕湾并突破皇家封锁的铁血主力舰队！",
+			say = "........Wait... TIRPITZ?! What on earth is she doing out here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "航向呢？！",
+			say = "Is she coming towards us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "与我们航线相反，正在向着百慕大海域方向前进。她们应该还没有注意到我们的存在。",
+			say = "Us? No, she and her escorts are headed for the Bermuda sector. I don't think they even know we're here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "毕竟航空力量薄弱可是铁血舰队的特色之一呢。",
+			say = "They know about Operation Siren, so whatever she’s here for, I can only hope her intentions are good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到袭击了皇家之后，现在又鬼鬼祟祟的向着我们的海岸线靠拢，意图已经再明显不过了......",
+			say = "Actually... I reckon we should link up with her. She might be able to help us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？指挥部不是正在与赤色中轴协商停火协议么！",
+			say = "Maybe... Or she’s out on a mission on her own. Might not be very happy to see us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "问题就在这里。也许以停火协议为幌子的突然袭击，或者是想在停火协议的谈判桌上争取更多的利益么。",
+			say = "We have no idea how the talks between our respective higher-ups panned out... She could be acting on her own. There’s a myriad of possibilities.In any case, this region falls under the Eagle Union’s jurisdiction. If we can't link up with her, we can at least ask her to retreat to the east end of the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是哪种情况，指挥部现在应该还蒙在鼓里吧......",
+			say = "In any case, this region falls under the Eagle Union’s jurisdiction. If we can't link up with her, we can at least ask her to retreat to the east end of the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			},
 			options = {
 				{
-					content = "立刻向指挥部进行汇报",
+					content = "“Let’s give Saratoga a call.”",
 					flag = 1
 				}
 			}
@@ -167,7 +167,7 @@ return {
 			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：正在向指挥部发送情报中。",
+			say = "Transferring data... Complete. Communications package sent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办，指挥官？反正停火协议还没有正式签署，趁着铁血舰队还没发现我们先下手为强？",
+			say = "So, what now, Commander? Assuming Carolina’s right, us taking matters into our own hands might cost Her Majesty some leverage at the negotiating table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "NA海域中的局势已经非常复杂了，现在让冲突进一步升级和整体战役的方针相违背。",
+			say = "Things are already complicated enough in the NA Ocean. We have no incentive to make it any worse for ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,22 +208,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "百慕大海域中确实存在着异常现象，铁血舰队的目标也许只是在那里也说不定......",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "赞成，指挥部在作战之前也再三强调过不要与赤色中轴发生无谓的战斗。",
+			say = "The best course of action is to simply stick to our orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +223,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是...也不能就这样放着铁血舰队畅通无阻的向白鹰的海岸前进...",
+			say = "I agree. As important as cooperation is between our factions, we should take a more conservative approach for the time being.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Having said that... We should at least let her know we're here. You know, broadcast our presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "用舰载机掠过铁血舰队上空示警一下怎么样？",
+			say = "What, like, fly some planes right above her or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "舰队调整航向，同时从空中对铁血舰队发出警告。",
+			say = "That should be good enough. TB can set a travel path for the planes to follow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			voice = "event:/tb/21/tb-21",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：目标设定为铁血舰队，正在规划最佳的交战航线————",
+			say = "Plotting course... Complete. Aircraft will proceed in airspace directly intersecting the Iron Blood fleet’s path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，空中的事包在我身上~让我们给偷偷乱跑的铁血舰队一点小小的警告吧！",
+			say = "All right, I've got this! Let’s give ‘em a pretty little flyby!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

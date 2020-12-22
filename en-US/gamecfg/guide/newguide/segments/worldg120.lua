@@ -7,7 +7,7 @@ return {
 				"ClickOrder"
 			},
 			style = {
-				text = "点击G.M系统左上角的按钮可以进入舰队指令面板。",
+				text = "点击G.Tap the \"Order\" button by your map to view your Fleet Commands.",
 				mode = 1,
 				dir = 1,
 				posY = 192.3,
@@ -33,7 +33,7 @@ return {
 				"ShowButton1"
 			},
 			style = {
-				text = "舰队部署可以重新部署在大型作战中使用的舰队，并且每次使用后都可以为舰船恢复所有生命值。",
+				text = "Fleet Redeployment allows you to give your fleet a fresh restart, fully restoring HP and Resolve.",
 				mode = 2,
 				dir = 1,
 				posY = 0,
@@ -57,7 +57,7 @@ return {
 				"ShowButton2"
 			},
 			style = {
-				text = "舰队休整可以提高舰队因作战失败而下降的士气。",
+				text = "The rest of the fleet can recover Resolve from defeats by winning battles.",
 				mode = 2,
 				dir = 1,
 				posY = 0,
@@ -81,7 +81,7 @@ return {
 				"ShowButton3"
 			},
 			style = {
-				text = "空域侦查可以在有战争迷雾的海域中使用，以打开海域视野。",
+				text = "Airspace Reconnaisance can be used on maps with Fog of War to light up the map.",
 				mode = 2,
 				dir = -1,
 				posY = 0,

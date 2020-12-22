@@ -7,7 +7,7 @@ return {
 				"ClickOrder"
 			},
 			style = {
-				text = "点击G.M系统右下角的按钮可以进入分析仪面板。",
+				text = "Tap on the lower-right button the Navigation System to enter scanning mode.",
 				mode = 1,
 				dir = 1,
 				char = "1",

@@ -12,7 +12,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "在道具分类中存放着所有大型作战过程所需的各类常规材料，比如维修道具，各类兑换凭证等。",
+			say = "Here you can view all the various items you have gathered throughout Operation Siren, such as repair items, exchange shop currencies, and the like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

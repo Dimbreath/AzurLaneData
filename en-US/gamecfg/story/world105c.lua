@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：战斗结果已确认：敌方舰队肃清，但是在远方区域发现塞壬舰队的增援迹象，请不要放松警惕。",
+			say = "Scan complete. Attention: detecting distant Siren signal. Proceed with caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "唔，确实有种不同寻常的气息啊。这才刚进入百慕大海域边缘，塞壬就派舰队热情迎接我们了。",
+			say = "Geesh. We only just got here, and they're already starting to swarm us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与整片NA海域外围塞壬普遍异常的行为模式不同，这里的塞壬舰队明显进行着有组织的反击。",
+			say = "They've clearly been on standby to mount a counterattack, unlike every other sector in the NA Ocean we've taken back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，敌人进攻的越猛烈，越说明我们前往百慕大深处一探究竟的必要性。想必海域里隐藏着不想被我们发现的秘密吧！",
+			say = "The fiercer their defense, the clearer it is there’s something in the depths of the Bermuda sector that we need to investigate. It’s gotta be something really, really big.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "百慕大中的秘密......",
+			say = "Something big...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			bgName = "bg_banama_2",
-			say = "这些幻影，究竟是什么东西…？",
+			say = "What... is this? What are these dark shapes?",
 			effects = {
 				{
 					active = true,
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "记录。",
+			say = "Memories. Logged data, to be specific.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "什么地方，什么时候的记录？",
+			say = "Logged data? Memories? Whose? And from when?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "存在于彼方，又存在于此处。既是过去的刻印，又是未来的预兆。",
+			say = "Yours. Hers. From the future, and the past, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "现在，也存在于你的心里了。",
+			say = "And now, it makes up the fiber of your very being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "记录是不会说谎的。",
+			say = "The data does not lie. It is the truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgm = "story-richang",
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "企业？你是想到了什么事情吗？",
+			say = "Enterprise? Do you hear me? What’s wrong?",
 			effects = {
 				{
 					active = false,
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么，大家继续前进吧。",
+			say = "...Oh, no, it’s nothing. Let’s keep moving. Be on your guard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

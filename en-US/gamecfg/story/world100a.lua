@@ -14,7 +14,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "线路接通，加密通讯已接入。",
+			say = "Establishing encrypted channel...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			voice = "event:/tb/1/tb-1",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "初次见面，指挥官。",
+			say = "Greetings, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			voice = "event:/tb/2/tb-2",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "我的名字是“领航员-TB”，是指挥部于「The Bridge」计划中设计的最新型辅助用智能人格。",
+			say = "I am TB, your identification interface digital assistant and navigator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			voice = "event:/tb/3/tb-3",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "在与主机的连接正常时，我可以通过舰队的雷达系统、声呐系统进行各类情报整理与战术分析任务。",
+			say = "When you connect to the mainframe and go online, you can view data, analyses, and statistics sent from your fleets' sonar and radar. Additionally, you may issue commands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			voice = "event:/tb/4/tb-4",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "当连接遭受干扰时，我会进入离线模式，该模式下运算能力受到限制，但是依然可以执行火控校准，数据整合以及航路规划等任务。",
+			say = "When you disconnect from the mainframe and go offline, my processing capabilities will be limited, but basic features such as target marking, data reception, and course plotting will remain fully functional.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			voice = "event:/tb/5/tb-5",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "接下来的行动中，我将作为您的副官协助您的战斗指挥",
+			say = "In this upcoming operation, I shall serve as your adjutant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，现在向您转达指挥部下达的机密指令：",
+			say = "I will now transmit classified information to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgm = "hunhe-story",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "近期，经过反复侦查，指挥部确信NA海域中塞壬部署于近海的作战舰队正在向海域深处撤离。",
+			say = "After repeated investigations, there have been many sightings of the Siren fleets deployed in the coastal waters of the North Atlantic, better known as the NA Ocean, withdrawing towards the region’s depths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "发生这一异常现象的原因尚不明确，相关调查工作仍然在进行中。",
+			say = "The reasons for their changes in behavior are unknown, but as a result, the stalemate between the Sirens and the major naval powers has largely been resolved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "就结果而言，塞壬舰队的撤离使得近海区域威胁等级大幅下降，我方的行动范围也获得了相当程度扩展。",
+			say = "The conditions for a large-scale counter-offensive operation against the Sirens, which had previously been impossible, have now been met.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "因此指挥部认为战役时机已经成熟。各辖区除保留必要的防御舰队之外，调动所有机动力量应当立刻前往NA海域集结，准备执行对塞壬大型作战。",
+			say = "In accordance with the decisions of the Naval HQ, a large-scale operation mobilizing the fleets from all around the world has finally been announced. Its name is “Operation Siren.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "本次战役各项行动将由NY司令部与LD司令部共同负责。战役目标为清理塞壬控制区域，突破塞壬防线，攻破海域中心的异常能量区域，最终夺回整片海域的控制权。",
+			say = "Our centers of operations are based in NY City and the Royal Capital. We are in charge of suppressing the Sirens in the area spanning the northwest to southeast sectors of the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥部将NA海域分为了四个战区，D战区因为赤色中轴的关系，很遗憾并不在我们的掌控范围之内。",
+			say = "Judging from recent trends and the current situation, we unfortunately should not count on the full cooperation of the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "除了D战区之外，战役行动将从其余三个战区同时开始。在舰队集结完毕后，您将作为A战区的战区指挥带领舰队从NY港开始作战。",
+			say = "However, we shall still begin the operation simultaneously across three sectors. Commander, you should first dispatch a fleet from NY City to secure each operational zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，您的任务是首先带领舰队夺回被塞壬重新控制的百慕大海域，然后进军至中心区域外建立两处海上前进基地。就地补给，等待后续总攻的命令。",
+			say = "Commander, your objective is to lead the fleet to recapture Siren-controlled waters, establish two forward bases, and then await orders to begin our final assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			voice = "event:/tb/9/tb-9",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "预祝您战斗顺利，加密通讯结束，线路即将中断。",
+			say = "This is the conclusion of TB’s strategy briefing. I wish you the best of luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

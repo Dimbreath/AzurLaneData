@@ -16,7 +16,7 @@ return {
 				"introduceStamina"
 			},
 			style = {
-				text = "请随时关注自己的行动力哦",
+				text = "Please keep an eye on your Action Points (AP).",
 				mode = 2,
 				dir = -1,
 				posY = 186.01,

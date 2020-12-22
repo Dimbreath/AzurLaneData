@@ -2,7 +2,7 @@ pg = pg or {}
 pg.world_trap_data = {
 	{
 		buff_id = 301,
-		name = "磁力陷阱",
+		name = "Electromagnetic Anomaly",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 1,
@@ -10,7 +10,7 @@ pg.world_trap_data = {
 	},
 	{
 		buff_id = 302,
-		name = "漩涡陷阱",
+		name = "Maelstrom",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 2,
@@ -18,7 +18,7 @@ pg.world_trap_data = {
 	},
 	{
 		buff_id = 303,
-		name = "燃烧陷阱",
+		name = "Burning Seas",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 3,
@@ -26,7 +26,7 @@ pg.world_trap_data = {
 	},
 	{
 		buff_id = 304,
-		name = "干扰陷阱",
+		name = "Type I EMP",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 4,
@@ -34,7 +34,7 @@ pg.world_trap_data = {
 	},
 	{
 		buff_id = 305,
-		name = "钝足陷阱",
+		name = "Type II EMP",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 5,
@@ -42,7 +42,7 @@ pg.world_trap_data = {
 	},
 	{
 		buff_id = 306,
-		name = "严寒陷阱",
+		name = "Frigid Waters",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 6,
@@ -50,7 +50,7 @@ pg.world_trap_data = {
 	},
 	[100] = {
 		buff_id = 307,
-		name = "钝足陷阱-虫洞A",
+		name = "Type II EMP",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 100,
@@ -58,7 +58,7 @@ pg.world_trap_data = {
 	},
 	[101] = {
 		buff_id = 308,
-		name = "燃烧陷阱-虫洞B",
+		name = "Burning Seas",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 101,
@@ -66,7 +66,7 @@ pg.world_trap_data = {
 	},
 	[102] = {
 		buff_id = 309,
-		name = "变异怪后续陷阱-干扰",
+		name = "Type I EMP",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 102,
@@ -74,7 +74,7 @@ pg.world_trap_data = {
 	},
 	[103] = {
 		buff_id = 310,
-		name = "变异怪后续陷阱-钝足",
+		name = "Type II EMP",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 103,
@@ -82,7 +82,7 @@ pg.world_trap_data = {
 	},
 	[110] = {
 		buff_id = 308,
-		name = "燃烧陷阱-虫洞B",
+		name = "Burning Seas",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 110,
@@ -90,7 +90,7 @@ pg.world_trap_data = {
 	},
 	[1001] = {
 		buff_id = 311,
-		name = "宝图-黑雾下陷阱-干扰",
+		name = "Type I EMP",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 1001,
@@ -98,7 +98,7 @@ pg.world_trap_data = {
 	},
 	[1002] = {
 		buff_id = 312,
-		name = "宝图-黑雾下陷阱-钝足",
+		name = "Type II EMP",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 1002,
@@ -106,7 +106,7 @@ pg.world_trap_data = {
 	},
 	[1003] = {
 		buff_id = 313,
-		name = "宝图-黑雾下陷阱-磁力",
+		name = "Electromagnetic Anomaly",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 1003,
@@ -114,7 +114,7 @@ pg.world_trap_data = {
 	},
 	[1004] = {
 		buff_id = 314,
-		name = "陷阱屋-超强磁力异常",
+		name = "Strong Electromagnetic Anomaly",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 1004,
@@ -122,7 +122,7 @@ pg.world_trap_data = {
 	},
 	[1005] = {
 		buff_id = 315,
-		name = "陷阱屋-燃烧海域",
+		name = "Burning Seas",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1005,
@@ -130,7 +130,7 @@ pg.world_trap_data = {
 	},
 	[1006] = {
 		buff_id = 316,
-		name = "陷阱屋-冰冷海域",
+		name = "Frigid Waters",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1006,
@@ -138,7 +138,7 @@ pg.world_trap_data = {
 	},
 	[1007] = {
 		buff_id = 317,
-		name = "陷阱屋-漩涡",
+		name = "Maelstrom",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1007,
@@ -146,7 +146,7 @@ pg.world_trap_data = {
 	},
 	[1008] = {
 		buff_id = 318,
-		name = "打捞海域-强力干扰",
+		name = "Type I EMP",
 		obstacle = 1,
 		repeat_trap = 0,
 		id = 1008,
@@ -154,7 +154,7 @@ pg.world_trap_data = {
 	},
 	[1011] = {
 		buff_id = 321,
-		name = "宝图填充-磁力异常",
+		name = "Electromagnetic Anomaly",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 1011,
@@ -162,7 +162,7 @@ pg.world_trap_data = {
 	},
 	[1012] = {
 		buff_id = 322,
-		name = "宝图填充-漩涡",
+		name = "Maelstrom",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1012,
@@ -170,7 +170,7 @@ pg.world_trap_data = {
 	},
 	[1013] = {
 		buff_id = 323,
-		name = "宝图填充-燃烧海域",
+		name = "Burning Seas",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1013,
@@ -178,7 +178,7 @@ pg.world_trap_data = {
 	},
 	[1014] = {
 		buff_id = 324,
-		name = "宝图填充-EMP干扰",
+		name = "Type I EMP",
 		obstacle = 1,
 		repeat_trap = 0,
 		id = 1014,
@@ -186,7 +186,7 @@ pg.world_trap_data = {
 	},
 	[1015] = {
 		buff_id = 325,
-		name = "宝图填充-EMP钝足",
+		name = "Type II EMP",
 		obstacle = 1,
 		repeat_trap = 0,
 		id = 1015,
@@ -194,7 +194,7 @@ pg.world_trap_data = {
 	},
 	[1016] = {
 		buff_id = 326,
-		name = "宝图填充-冰冷海域",
+		name = "Frigid Waters",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1016,
@@ -202,7 +202,7 @@ pg.world_trap_data = {
 	},
 	[1021] = {
 		buff_id = 321,
-		name = "磁力异常",
+		name = "Electromagnetic Anomaly",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 1021,
@@ -210,7 +210,7 @@ pg.world_trap_data = {
 	},
 	[1022] = {
 		buff_id = 322,
-		name = "漩涡",
+		name = "Maelstrom",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1022,
@@ -218,7 +218,7 @@ pg.world_trap_data = {
 	},
 	[1023] = {
 		buff_id = 323,
-		name = "燃烧海域",
+		name = "Burning Seas",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1023,
@@ -226,7 +226,7 @@ pg.world_trap_data = {
 	},
 	[1024] = {
 		buff_id = 324,
-		name = "EMP干扰",
+		name = "Type I EMP",
 		obstacle = 1,
 		repeat_trap = 0,
 		id = 1024,
@@ -234,7 +234,7 @@ pg.world_trap_data = {
 	},
 	[1025] = {
 		buff_id = 325,
-		name = "EMP干扰",
+		name = "Type II EMP",
 		obstacle = 1,
 		repeat_trap = 0,
 		id = 1025,
@@ -242,7 +242,7 @@ pg.world_trap_data = {
 	},
 	[1026] = {
 		buff_id = 326,
-		name = "冰冷海域",
+		name = "Frigid Waters",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 1026,
@@ -250,7 +250,7 @@ pg.world_trap_data = {
 	},
 	[2001] = {
 		buff_id = 315,
-		name = "燃烧海域",
+		name = "Burning Seas",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 2001,
@@ -258,7 +258,7 @@ pg.world_trap_data = {
 	},
 	[2002] = {
 		buff_id = 317,
-		name = "漩涡",
+		name = "Maelstrom",
 		obstacle = 2,
 		repeat_trap = 1,
 		id = 2002,
@@ -266,7 +266,7 @@ pg.world_trap_data = {
 	},
 	[2003] = {
 		buff_id = 311,
-		name = "EMP干扰",
+		name = "Type I EMP",
 		obstacle = 1,
 		repeat_trap = 0,
 		id = 2003,
@@ -274,7 +274,7 @@ pg.world_trap_data = {
 	},
 	[2010] = {
 		buff_id = 320,
-		name = "异常燃烧海域",
+		name = "Blazing Seas",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 2010,
@@ -282,7 +282,7 @@ pg.world_trap_data = {
 	},
 	[2011] = {
 		buff_id = 323,
-		name = "异常燃烧海域",
+		name = "Burning Seas",
 		obstacle = 2,
 		repeat_trap = 0,
 		id = 2011,

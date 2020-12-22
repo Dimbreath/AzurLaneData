@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "空气中，漂浮着一些黑色的粒子...？",
+			say = "Our fleet catches the sight of some strange black cloud of matter....？",
 			side = 2,
 			dir = 1,
 			bgm = "bsm-1",
@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "仿佛具有磁性一样...啊，用手一碰就落在海面上了。",
+			say = "Direct contact with it could prove a disastrous mistake. Instead, we keep our distance and safely collect a few samples of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "收集一些样本好了。",
+			say = "Let’s have our analysts back at port take a look at it later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

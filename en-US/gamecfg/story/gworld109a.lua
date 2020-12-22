@@ -16,7 +16,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，欢迎来到对余烬作战指挥室。下面由我向您说明一下余烬信标与对余烬作战的相关事宜。",
+			say = "Ashes coordinate tracking system initiated. Commencing tutorial.",
 			flashin = {
 				stopbgm = true,
 				black = true,
@@ -43,7 +43,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "余烬舰队的舰装内部拥有独特结构，因此可以长期躲避在我方的雷达显示之外。",
+			say = "It is hypothesized that Ashes riggings are encased in a special material that renders them completely undetectable using conventional radars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "科研部门在最近的一次测试中，解析出一种在余烬战斗过程中舰装释放出的独特信号特征。",
+			say = "Fortunately, the R&D department has managed to engineer a device that is capable of detecting the faint tracks left by Ashes members.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥部将其称呼为余烬信标。通过对收集到的余烬信标进行解析，舰队就可以在第一时间发现海域中正处于交战状态的余烬成员。",
+			say = "Locking on to these tracks and following them allows us to pinpoint the location of any Ashes members active in the region.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "虽然余烬在现阶段尚未对作战造成严重危害，但余烬的存在本身就是影响作战成功的不稳定因素。",
+			say = "Unlike Sirens, it is believed that Ashes members can be reasoned with and that they are not inherently hostile. In certain cases, cooperation between us may even be feasible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥部希望您能带领舰队消除余烬的威胁。",
+			say = "However, naval command has concluded that they will invariably interfere with Operation Siren in one way or another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			voice = "event:/tb/11/tb-11",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，与余烬进行作战是一件十分危险的事，请您小心。",
+			say = "Bear in mind that fighting Ashes members comes with extreme danger. Proceed with caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,23 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "看来必须要和余烬交战了啊......",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "指挥官，指挥部从来没说要以一方消灭另一方的形式消除余烬的威胁哦。",
+			say = "Extreme danger... I don't doubt it. Looking over the mission documents again, they say we only have to “deal with” the Ashes, not “eliminate” them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +159,23 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "只是她们从来没有回应过我们的联络请求，现在除了战斗之外也没有别的方式了吧。",
+			say = "Why, what a keen eye you have. Allow me to elaborate on what means.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "It is true that the Ashes may pose a threat to the integrity of Operation Siren, but depending on who you ask, some members of the fleet view them as one of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			blackBg = true,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "如果余烬真有成为友军的潜质的话，就用战斗来探明她们的本心吧。不是也有不打不相识的说法嘛~",
+			say = "If we gather more information about their goals and who they are, we may be able to get them on our side one day. Wouldn't that be something?~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "原来如此...如果真的能增进彼此的了解就好了。",
+			say = "Memphis has a point. We still don't know what the Ashes are after. Moreover, they might be willing to at least hear what their fellow shipgirl has to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "希望她们不是我们真正的敌人......",
+			say = "Who knows. One day, we might even fight side-by-side with them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

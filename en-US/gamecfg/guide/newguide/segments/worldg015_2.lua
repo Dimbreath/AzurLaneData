@@ -21,7 +21,7 @@ return {
 				"showTransportTip"
 			},
 			style = {
-				text = "舰队访问地图边缘的虚拟单元格就可以跨地图移动",
+				text = "Fleets can move between zones by heading towards tiles at the edges of each zone.",
 				mode = 2,
 				dir = -1,
 				posY = 296.05,
@@ -80,7 +80,7 @@ return {
 				"showDangerousTip"
 			},
 			style = {
-				text = "红色的虚拟单元格意味着当前的海域过于危险",
+				text = "A red cell means that the current zone is too difficult",
 				mode = 2,
 				dir = -1,
 				posY = 296.05,
@@ -139,7 +139,7 @@ return {
 				"showForbiddenTip"
 			},
 			style = {
-				text = "禁止标记则意味着当前海域无法进行边缘传送",
+				text = "A stop indication means that your fleet cannot move into another zone from that edge of the map.",
 				mode = 2,
 				dir = -1,
 				posY = 296.05,
@@ -197,7 +197,7 @@ return {
 				"showForbiddenTip"
 			},
 			style = {
-				text = "好的，现在请按照罗经指示的方向开始移动到新水域吧",
+				text = "All right, please follow the indicated directions and head to a new zone!",
 				mode = 2,
 				dir = -1,
 				posY = 296.05,

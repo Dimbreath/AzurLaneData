@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "明明刚才一口气涌来了那么多敌人，现在越往深处，敌人反倒越少呢。",
+			say = "There were so many Sirens here before, and now they're all but gone... It’s so strange.",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "残骸的密度倒是来越高了，看来那位余烬的{namecode:94}小姐已经提前帮我们清理干净了。",
+			say = "they're not gone, They've just turned into wrecks, dotting the path we're headed... Coincidentally, the same path that Hiryuu lookalike went.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬明明不久前才把百慕大夺回去啊，居然短时间内就修了这么多设施，还布置了这么多舰队...",
+			say = "Still, you've gotta hand it to the Sirens. They built a base amazingly fast after they reclaimed this place. Wouldn't be easy to break through with just our fleet alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "我们在和塞壬打仗，余烬也在和塞壬打仗。指挥部下达过对余烬开火的命令，余烬也对我们也抱有敌意。",
+			say = "we're at war with the Sirens, and the Sirens are at war with the Ashes... Add to that, the mission outline declares the Ashes group as hostile to us, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在算上赤色中轴的话，这已经是四方势力在混战了...真是越来越搞不懂战局的发展了...",
+			say = "If the Crimson Axis decides to throw their hat into the ring, We'll have 4 distinct factions competing in this region.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚她提到的仲裁机关让我很在意，余烬在海域里大举进攻塞壬，就是为了寻找那个叫仲裁机关的东西么？",
+			say = "Potentially more, if this “Arbiter” individual isn't working with the Sirens or the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "看来NA海域中塞壬异常部署的原因，可能比我们想的复杂很多...",
+			say = "The reason for the Sirens’ unconventional deployment across the NA Ocean is getting weirder and weirder...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "轰隆隆——————",
+			say = "KABOOOOM!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚的是...雷声？现在明明是晴天哎，怎么会突然出现这么响的雷......？！",
+			say = "Was that... thunder? But the skies are clear! And it struck the middle of the ocean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里的洋流也很混乱，就像是...整片海域被撕碎了一样。",
+			say = "Let me check the weather data... Strange. No unusual readings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业，再往前不远就是上次奇异点的旧址了吧。",
+			say = "...Enterprise, we're near where the Singularity in this region originated, aren't we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "嗯...上次奇异点虽然消失了，但是这片海域的海况从那之后就一直十分怪异。",
+			say = "Yeah. It’s long gone by now, but the Singularity had some lasting effects on the region.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "领航员，你能整合侦查数据对附近海域的海况进行一下立体分析么？",
+			say = "TB, could you analyze all the available weather data from this region?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：没问题。正在将正在将侦察机情报、雷达数据与声呐数据进行整合————",
+			say = "Orders received. Fetching and analyzing data gathered by radar, sonar, and reconnaissance planes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是越看越厉害了...这么复杂的数据原本需要一个团队花费几个小时才能分析完毕吧...！",
+			say = "Wow. Used to take a team of specialists to make heads or tails of that much data. Expect no less of an identification inter... whatever TB said she was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇怪，指挥部是什么时候突然掌握了这种先进技术的.....",
+			say = "The waves are starting to pick up, it looks like...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			voice = "event:/tb/38/tb-38",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "当前海域的未来气象预测，以及洋流状况已经分析完毕，请在G.M系统上进行查看。",
+			say = "Analysis complete. Displaying results of analysis on interface screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "以及，未来6小时内可能出现恶劣天气，请舰队做好应对措施。",
+			say = "Attention: There is a high likelihood of bad weather within the next 6 hours. Requesting permission to form a plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "有了可靠的领航员小姐，总算可以更加安全地探索这片海况复杂的区域了。",
+			say = "6 hours? That’s pretty specific... Anyway, We'll go ahead and let TB devise a plan for us to follow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

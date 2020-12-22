@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，前方海域发现多处敌方信号，推测为塞壬拦截舰队。",
+			say = "Analysis complete. Multiple hostile signals have been detected to the front. Profile matches that of a Siren defense fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！居然还有预警功能，这是直接连接了舰队的雷达系统么？",
+			say = "Wow, you can tell that all the way from over here? HQ spared no expenses on their new radar, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			voice = "event:/tb/15/tb-15",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "是的，我可以通过整合各舰的情报数据，对于战场情况提供实时分析。",
+			say = "Affirmative. I can provide real-time analysis of the battlefield by interfacing with the fleet’s weaponry and cross-referencing the data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是便利的辅助系统呢......",
+			say = "That’s quite the handy auxiliary system They've created...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "舰队调整队形，准备迎敌。",
+			say = "Let’s take TB’s analyses into account when planning from here on out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

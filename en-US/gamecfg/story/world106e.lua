@@ -11,7 +11,7 @@ return {
 			bgm = "story-6",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "指挥官，NY港至百慕大海域中心的航线已经清理完毕，可以联系司令部进行后续作战计划了。",
+			say = "Commander, we've managed to secure a route from the NY City port to the center of the Bermuda region. You should contact Saratoga for a follow-up plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			},
 			options = {
 				{
-					content = "进行汇报",
+					content = "“Right. Let’s inform her at once.”",
 					flag = 1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "嗯嗯嗯......原来如此，真是完全令人摸不着头脑的情况呢，指挥官辛苦了！",
+			say = "Holy moly, this is a lot to take in for a humble idol like me!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "NY司令部会尝试进行追踪新出现的余烬成员。至于百慕大中各类异常现象的后续探索，司令部会在商量之后再做决定。",
+			say = "Okay, so... Naval command’s plan is as follows: “Primary objective: investigate the Ashes individual. Secondary objective: investigate the abnormal-slash-artificial weather phenomena.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "到目前为止的作战大家都辛苦了，不过还不能在这里停下来哟~",
+			say = "I know it’s tough out there, but it’s too early to call it quits and come home. Hang in there!~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "下一步作战计划是继续前进，打通前往中心区域的航线。",
+			say = "What’s that? “Clear a path through to the NA Central Sector”?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "其他区域的作战目前总体来说也都在顺利推进中，我接下来也会前往一线增援，总攻的时候见咯！",
+			say = "Sounds good! That idea has Sara’s seal of approval! In fact, I'll round up some backup and try to meet you halfway there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "啊对了，关于赤色中轴的问题......算了！如果有最新情报的话，我会第一时间来通知你的！",
+			say = "Oh, and if we see any sign of the Crimson Axis getting up to no good, We'll let you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "小加加通话结束~！",
+			say = "Sister Sara, over and out!~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉托加最后没说完的话很让人在意哎...企业，你知道些什么么？",
+			say = "The Crimson Axis, huh... You think they'll try anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "唔...这个倒也不是什么不能说的情报。其实，为了保证作战顺利进行，指挥部正在与赤色中轴协商在NA海域中的短期停火协议。",
+			say = "can't say for sure. What we do know is that they know just how critical this operation is. All we can do is hope they'll keep to themselves, as agreed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "协商由皇家的伊丽莎白女王直接负责，看萨拉托加的语气，应该很快就能取得进展了吧。",
+			say = "With Queen Elizabeth at the negotiating table, everything should go fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎哎哎？！！这件事我可从来没听说过啊！",
+			say = "We have some leeway in the form of the Commander too, so there’s that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和赤色中轴进行停火谈判，这种事真的能谈下来么...？",
+			say = "Perhaps what it takes to bring our two factions together is not a common enemy, but a common leader. Hehe~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "而且还偏偏让皇家的伊丽莎白女王去谈.....她不是之前在腓特烈大帝那里吃了个大亏么，不会有问题吧......",
+			say = "I'm not so much worried about any one person on their side sparking trouble, but the Royal Navy’s and Iron Blood’s respective leaders don't exactly get along...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用担心，在这种大局问题上她是不会被情感影响的。相信皇家，相信伊丽莎白的能力吧。",
+			say = "Either way, there’s not much we can do but put our faith in Her Majesty’s ability to keep the situation under control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "和赤色中轴的短期停火，如果能达成的话......",
+			say = "Ideally, the Azur Lane and Crimson Axis will be able to work together. At least for this vitally important operation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

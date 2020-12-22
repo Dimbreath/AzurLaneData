@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "NA海域被指挥部根据海况和危险程度划分为数十个作战海域。",
+			say = "Transferring zone data... Complete. The Operation Siren map is divided into dozens of zones, based on naval command’s evaluation of the local climate and intensity of hostile presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "通过不断探索和压制危险海域，可探索的区域也将进一步扩大。",
+			say = "Exploring and conquering zones will further expand your list of accessible zones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "G.M系统中搭载有区域移动模式，可以帮助您快速规划舰队航线。",
+			say = "G.The navigation system is equipped with a regional movement mode, which can help you quickly plot a fleet’s course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "作战指令已确认：指挥官，大型作战海域已经正式向您开放，请前往司令部提供的第一处任务海域吧。",
+			say = "This concludes the tutorial. You may now commence Operation Siren, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

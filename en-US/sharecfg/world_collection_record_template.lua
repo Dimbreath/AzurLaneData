@@ -2,7 +2,7 @@ pg = pg or {}
 pg.world_collection_record_template = {
 	[100001] = {
 		group_ID = 1,
-		name = "作战简报",
+		name = "Operation Briefing",
 		mask = "bg/bg_memory",
 		id = 100001,
 		icon = "memory_dashijie",
@@ -11,7 +11,7 @@ pg.world_collection_record_template = {
 	},
 	[100002] = {
 		group_ID = 2,
-		name = "序幕I",
+		name = "Prologue - Part I",
 		mask = "bg/bg_memory",
 		id = 100002,
 		icon = "memory_dashijie",
@@ -20,7 +20,7 @@ pg.world_collection_record_template = {
 	},
 	[100003] = {
 		group_ID = 3,
-		name = "序幕II",
+		name = "Prologue - Part II",
 		mask = "bg/bg_memory",
 		id = 100003,
 		icon = "memory_dashijie",
@@ -29,7 +29,7 @@ pg.world_collection_record_template = {
 	},
 	[100004] = {
 		group_ID = 4,
-		name = "序幕III",
+		name = "Prologue - Part III",
 		mask = "bg/bg_memory",
 		id = 100004,
 		icon = "memory_dashijie",
@@ -38,7 +38,7 @@ pg.world_collection_record_template = {
 	},
 	[100005] = {
 		group_ID = 5,
-		name = "序幕IV",
+		name = "Prologue - Part IV",
 		mask = "bg/bg_memory",
 		id = 100005,
 		icon = "memory_dashijie",
@@ -47,7 +47,7 @@ pg.world_collection_record_template = {
 	},
 	[100006] = {
 		group_ID = 6,
-		name = "号响",
+		name = "The Bugle Sounds",
 		mask = "bg/bg_memory",
 		id = 100006,
 		icon = "memory_dashijie",
@@ -56,7 +56,7 @@ pg.world_collection_record_template = {
 	},
 	[100007] = {
 		group_ID = 7,
-		name = "似曾相识",
+		name = "Once More, Into battle",
 		mask = "bg/bg_memory",
 		id = 100007,
 		icon = "memory_dashijie",
@@ -65,7 +65,7 @@ pg.world_collection_record_template = {
 	},
 	[100008] = {
 		group_ID = 8,
-		name = "TB系统",
+		name = "Radar Module",
 		mask = "bg/bg_memory",
 		id = 100008,
 		icon = "memory_dashijie",
@@ -74,7 +74,7 @@ pg.world_collection_record_template = {
 	},
 	[100009] = {
 		group_ID = 9,
-		name = "回忆",
+		name = "Recollection",
 		mask = "bg/bg_memory",
 		id = 100009,
 		icon = "memory_dashijie",
@@ -83,7 +83,7 @@ pg.world_collection_record_template = {
 	},
 	[100010] = {
 		group_ID = 10,
-		name = "火光",
+		name = "Traces",
 		mask = "bg/bg_memory",
 		id = 100010,
 		icon = "memory_dashijie",
@@ -92,7 +92,7 @@ pg.world_collection_record_template = {
 	},
 	[100011] = {
 		group_ID = 11,
-		name = "另一个神秘人",
+		name = "The Mysterious Ship",
 		mask = "bg/bg_memory",
 		id = 100011,
 		icon = "memory_dashijie",
@@ -101,7 +101,7 @@ pg.world_collection_record_template = {
 	},
 	[100012] = {
 		group_ID = 12,
-		name = "敌人的敌人",
+		name = "The Enemy of My Enemy",
 		mask = "bg/bg_memory",
 		id = 100012,
 		icon = "memory_dashijie",
@@ -110,7 +110,7 @@ pg.world_collection_record_template = {
 	},
 	[100013] = {
 		group_ID = 13,
-		name = "探索I",
+		name = "The Search - Part I",
 		mask = "bg/bg_memory",
 		id = 100013,
 		icon = "memory_dashijie",
@@ -119,7 +119,7 @@ pg.world_collection_record_template = {
 	},
 	[100014] = {
 		group_ID = 14,
-		name = "探索II",
+		name = "The Search - Part II",
 		mask = "bg/bg_memory",
 		id = 100014,
 		icon = "memory_dashijie",
@@ -128,7 +128,7 @@ pg.world_collection_record_template = {
 	},
 	[100015] = {
 		group_ID = 15,
-		name = "探索III",
+		name = "The Search - Part III",
 		mask = "bg/bg_memory",
 		id = 100015,
 		icon = "memory_dashijie",
@@ -137,7 +137,7 @@ pg.world_collection_record_template = {
 	},
 	[100016] = {
 		group_ID = 16,
-		name = "阶段性进展",
+		name = "Securing the Zone",
 		mask = "bg/bg_memory",
 		id = 100016,
 		icon = "memory_dashijie",
@@ -146,7 +146,7 @@ pg.world_collection_record_template = {
 	},
 	[100017] = {
 		group_ID = 17,
-		name = "阶段性进展",
+		name = "Securing the Zone",
 		mask = "bg/bg_memory",
 		id = 100017,
 		icon = "memory_dashijie",
@@ -155,7 +155,7 @@ pg.world_collection_record_template = {
 	},
 	[100018] = {
 		group_ID = 18,
-		name = "赤色舰队",
+		name = "The Crimson Axis",
 		mask = "bg/bg_memory",
 		id = 100018,
 		icon = "memory_dashijie",
@@ -164,7 +164,7 @@ pg.world_collection_record_template = {
 	},
 	[100019] = {
 		group_ID = 19,
-		name = "通讯",
+		name = "Communications",
 		mask = "bg/bg_memory",
 		id = 100019,
 		icon = "memory_dashijie",
@@ -173,7 +173,7 @@ pg.world_collection_record_template = {
 	},
 	[100020] = {
 		group_ID = 20,
-		name = "空战",
+		name = "Aviation Battle",
 		mask = "bg/bg_memory",
 		id = 100020,
 		icon = "memory_dashijie",
@@ -182,7 +182,7 @@ pg.world_collection_record_template = {
 	},
 	[100021] = {
 		group_ID = 21,
-		name = "停火",
+		name = "Ceasefire...?",
 		mask = "bg/bg_memory",
 		id = 100021,
 		icon = "memory_dashijie",
@@ -191,7 +191,7 @@ pg.world_collection_record_template = {
 	},
 	[100022] = {
 		group_ID = 22,
-		name = "准备工作",
+		name = "Necessary Preparations",
 		mask = "bg/bg_memory",
 		id = 100022,
 		icon = "memory_dashijie",
@@ -200,7 +200,7 @@ pg.world_collection_record_template = {
 	},
 	[100023] = {
 		group_ID = 23,
-		name = "准备完成",
+		name = "Preparations Complete",
 		mask = "bg/bg_memory",
 		id = 100023,
 		icon = "memory_dashijie",
@@ -209,7 +209,7 @@ pg.world_collection_record_template = {
 	},
 	[100024] = {
 		group_ID = 24,
-		name = "对余烬作战",
+		name = "Ashes Beacon",
 		mask = "bg/bg_memory",
 		id = 100024,
 		icon = "memory_dashijie",
@@ -218,7 +218,7 @@ pg.world_collection_record_template = {
 	},
 	[100025] = {
 		group_ID = 1,
-		name = "女王的职责",
+		name = "The Queen's Duty",
 		mask = "bg/bg_memory",
 		id = 100025,
 		icon = "memory_dashijie",
@@ -227,7 +227,7 @@ pg.world_collection_record_template = {
 	},
 	[100026] = {
 		group_ID = 2,
-		name = "集结",
+		name = "Setting Sail",
 		mask = "bg/bg_memory",
 		id = 100026,
 		icon = "memory_dashijie",
@@ -236,7 +236,7 @@ pg.world_collection_record_template = {
 	},
 	[100027] = {
 		group_ID = 3,
-		name = "并肩作战",
+		name = "Side by Side",
 		mask = "bg/bg_memory",
 		id = 100027,
 		icon = "memory_dashijie",
@@ -245,7 +245,7 @@ pg.world_collection_record_template = {
 	},
 	[100028] = {
 		group_ID = 4,
-		name = "外围清扫",
+		name = "Sector Sweep",
 		mask = "bg/bg_memory",
 		id = 100028,
 		icon = "memory_dashijie",
@@ -254,7 +254,7 @@ pg.world_collection_record_template = {
 	},
 	[100029] = {
 		group_ID = 5,
-		name = "求援信号",
+		name = "Distress Signal",
 		mask = "bg/bg_memory",
 		id = 100029,
 		icon = "memory_dashijie",
@@ -263,7 +263,7 @@ pg.world_collection_record_template = {
 	},
 	[100030] = {
 		group_ID = 6,
-		name = "遇难地点",
+		name = "Disaster Site",
 		mask = "bg/bg_memory",
 		id = 100030,
 		icon = "memory_dashijie",
@@ -272,7 +272,7 @@ pg.world_collection_record_template = {
 	},
 	[100031] = {
 		group_ID = 7,
-		name = "残骸",
+		name = "Desolation",
 		mask = "bg/bg_memory",
 		id = 100031,
 		icon = "memory_dashijie",
@@ -281,7 +281,7 @@ pg.world_collection_record_template = {
 	},
 	[100032] = {
 		group_ID = 8,
-		name = "残影",
+		name = "Devestation",
 		mask = "bg/bg_memory",
 		id = 100032,
 		icon = "memory_dashijie",
@@ -290,7 +290,7 @@ pg.world_collection_record_template = {
 	},
 	[100033] = {
 		group_ID = 9,
-		name = "科研任务",
+		name = "Special Mission",
 		mask = "bg/bg_memory",
 		id = 100033,
 		icon = "memory_dashijie",
@@ -299,7 +299,7 @@ pg.world_collection_record_template = {
 	},
 	[100034] = {
 		group_ID = 10,
-		name = "女王的联络",
+		name = "Message from Her Majesty",
 		mask = "bg/bg_memory",
 		id = 100034,
 		icon = "memory_dashijie",
@@ -308,7 +308,7 @@ pg.world_collection_record_template = {
 	},
 	[100035] = {
 		group_ID = 11,
-		name = "重力异常",
+		name = "Gravitational Anomaly",
 		mask = "bg/bg_memory",
 		id = 100035,
 		icon = "memory_dashijie",
@@ -317,7 +317,7 @@ pg.world_collection_record_template = {
 	},
 	[100036] = {
 		group_ID = 12,
-		name = "练手",
+		name = "A Matter of Acclimation",
 		mask = "bg/bg_memory",
 		id = 100036,
 		icon = "memory_dashijie",
@@ -326,7 +326,7 @@ pg.world_collection_record_template = {
 	},
 	[100037] = {
 		group_ID = 13,
-		name = "强敌登场",
+		name = "Impenetrable",
 		mask = "bg/bg_memory",
 		id = 100037,
 		icon = "memory_dashijie",
@@ -335,7 +335,7 @@ pg.world_collection_record_template = {
 	},
 	[100038] = {
 		group_ID = 14,
-		name = "第二座前哨",
+		name = "Conclusion",
 		mask = "bg/bg_memory",
 		id = 100038,
 		icon = "memory_dashijie",
@@ -344,7 +344,7 @@ pg.world_collection_record_template = {
 	},
 	[100039] = {
 		group_ID = 1,
-		name = "另一处攻击",
+		name = "Detached Force",
 		mask = "bg/bg_memory",
 		id = 100039,
 		icon = "memory_dashijie",
@@ -353,7 +353,7 @@ pg.world_collection_record_template = {
 	},
 	[100040] = {
 		group_ID = 2,
-		name = "TB系统测试",
+		name = "TB Systems Test",
 		mask = "bg/bg_memory",
 		id = 100040,
 		icon = "memory_dashijie",
@@ -362,7 +362,7 @@ pg.world_collection_record_template = {
 	},
 	[100041] = {
 		group_ID = 3,
-		name = "铁血的动向",
+		name = "Iron Blood's Movements",
 		mask = "bg/bg_memory",
 		id = 100041,
 		icon = "memory_dashijie",
@@ -371,7 +371,7 @@ pg.world_collection_record_template = {
 	},
 	[100042] = {
 		group_ID = 4,
-		name = "友方信号",
+		name = "Allied Activity?",
 		mask = "bg/bg_memory",
 		id = 100042,
 		icon = "memory_dashijie",
@@ -380,7 +380,7 @@ pg.world_collection_record_template = {
 	},
 	[100043] = {
 		group_ID = 5,
-		name = "干扰",
+		name = "Jamming",
 		mask = "bg/bg_memory",
 		id = 100043,
 		icon = "memory_dashijie",
@@ -389,7 +389,7 @@ pg.world_collection_record_template = {
 	},
 	[100044] = {
 		group_ID = 6,
-		name = "救援",
+		name = "Relief",
 		mask = "bg/bg_memory",
 		id = 100044,
 		icon = "memory_dashijie",
@@ -398,7 +398,7 @@ pg.world_collection_record_template = {
 	},
 	[100045] = {
 		group_ID = 7,
-		name = "疑惑",
+		name = "Suspicions",
 		mask = "bg/bg_memory",
 		id = 100045,
 		icon = "memory_dashijie",
@@ -407,7 +407,7 @@ pg.world_collection_record_template = {
 	},
 	[100046] = {
 		group_ID = 8,
-		name = "分散计划",
+		name = "Weather Task Force",
 		mask = "bg/bg_memory",
 		id = 100046,
 		icon = "memory_dashijie",
@@ -416,7 +416,7 @@ pg.world_collection_record_template = {
 	},
 	[100047] = {
 		group_ID = 9,
-		name = "残影",
+		name = "Phantoms",
 		mask = "bg/bg_memory",
 		id = 100047,
 		icon = "memory_dashijie",
@@ -425,7 +425,7 @@ pg.world_collection_record_template = {
 	},
 	[100048] = {
 		group_ID = 10,
-		name = "仲裁机关",
+		name = "Arbiter",
 		mask = "bg/bg_memory",
 		id = 100048,
 		icon = "memory_dashijie",
@@ -434,7 +434,7 @@ pg.world_collection_record_template = {
 	},
 	[100049] = {
 		group_ID = 11,
-		name = "增援",
+		name = "Backup",
 		mask = "bg/bg_memory",
 		id = 100049,
 		icon = "memory_dashijie",
@@ -443,7 +443,7 @@ pg.world_collection_record_template = {
 	},
 	[100050] = {
 		group_ID = 12,
-		name = "滴水不漏",
+		name = "Precise Measurements",
 		mask = "bg/bg_memory",
 		id = 100050,
 		icon = "memory_dashijie",
@@ -452,7 +452,7 @@ pg.world_collection_record_template = {
 	},
 	[100051] = {
 		group_ID = 13,
-		name = "一鼓作气",
+		name = "Focused Offensive",
 		mask = "bg/bg_memory",
 		id = 100051,
 		icon = "memory_dashijie",
@@ -461,7 +461,7 @@ pg.world_collection_record_template = {
 	},
 	[100052] = {
 		group_ID = 14,
-		name = "修整",
+		name = "Rest",
 		mask = "bg/bg_memory",
 		id = 100052,
 		icon = "memory_dashijie",
@@ -470,7 +470,7 @@ pg.world_collection_record_template = {
 	},
 	[100053] = {
 		group_ID = 1,
-		name = "初临陆间海",
+		name = "Ocean Voyage",
 		mask = "bg/bg_memory",
 		id = 100053,
 		icon = "memory_dashijie",
@@ -479,7 +479,7 @@ pg.world_collection_record_template = {
 	},
 	[100054] = {
 		group_ID = 2,
-		name = "撒丁舰队",
+		name = "Sardegna",
 		mask = "bg/bg_memory",
 		id = 100054,
 		icon = "memory_dashijie",
@@ -488,7 +488,7 @@ pg.world_collection_record_template = {
 	},
 	[100055] = {
 		group_ID = 3,
-		name = "塔兰托港",
+		name = "Taranto",
 		mask = "bg/bg_memory",
 		id = 100055,
 		icon = "memory_dashijie",
@@ -497,7 +497,7 @@ pg.world_collection_record_template = {
 	},
 	[100056] = {
 		group_ID = 4,
-		name = "中途离席",
+		name = "Leaving Midway",
 		mask = "bg/bg_memory",
 		id = 100056,
 		icon = "memory_dashijie",
@@ -506,7 +506,7 @@ pg.world_collection_record_template = {
 	},
 	[100057] = {
 		group_ID = 5,
-		name = "达喀尔港",
+		name = "Dakar",
 		mask = "bg/bg_memory",
 		id = 100057,
 		icon = "memory_dashijie",
@@ -515,7 +515,7 @@ pg.world_collection_record_template = {
 	},
 	[100058] = {
 		group_ID = 6,
-		name = "单独行动",
+		name = "Solo Operation",
 		mask = "bg/bg_memory",
 		id = 100058,
 		icon = "memory_dashijie",
@@ -524,7 +524,7 @@ pg.world_collection_record_template = {
 	},
 	[100059] = {
 		group_ID = 7,
-		name = "疑惑",
+		name = "Uncertainty",
 		mask = "bg/bg_memory",
 		id = 100059,
 		icon = "memory_dashijie",
@@ -533,7 +533,7 @@ pg.world_collection_record_template = {
 	},
 	[100060] = {
 		group_ID = 8,
-		name = "突击",
+		name = "Incursion",
 		mask = "bg/bg_memory",
 		id = 100060,
 		icon = "memory_dashijie",
@@ -542,7 +542,7 @@ pg.world_collection_record_template = {
 	},
 	[100061] = {
 		group_ID = 9,
-		name = "异样",
+		name = "Anomaly",
 		mask = "bg/bg_memory",
 		id = 100061,
 		icon = "memory_dashijie",
@@ -551,7 +551,7 @@ pg.world_collection_record_template = {
 	},
 	[100062] = {
 		group_ID = 10,
-		name = "AF作战",
+		name = "Illusion",
 		mask = "bg/bg_memory",
 		id = 100062,
 		icon = "memory_dashijie",
@@ -560,7 +560,7 @@ pg.world_collection_record_template = {
 	},
 	[100063] = {
 		group_ID = 11,
-		name = "替代品",
+		name = "Substitute",
 		mask = "bg/bg_memory",
 		id = 100063,
 		icon = "memory_dashijie",
@@ -569,7 +569,7 @@ pg.world_collection_record_template = {
 	},
 	[100064] = {
 		group_ID = 12,
-		name = "军师的传承",
+		name = "Warrior’s Awakening",
 		mask = "bg/bg_memory",
 		id = 100064,
 		icon = "memory_dashijie",
@@ -578,7 +578,7 @@ pg.world_collection_record_template = {
 	},
 	[100065] = {
 		group_ID = 13,
-		name = "敌影",
+		name = "The Arbitrating Sage",
 		mask = "bg/bg_memory",
 		id = 100065,
 		icon = "memory_dashijie",
@@ -587,7 +587,7 @@ pg.world_collection_record_template = {
 	},
 	[100066] = {
 		group_ID = 14,
-		name = "修整",
+		name = "Escape",
 		mask = "bg/bg_memory",
 		id = 100066,
 		icon = "memory_dashijie",
@@ -596,7 +596,7 @@ pg.world_collection_record_template = {
 	},
 	[100071] = {
 		group_ID = 1,
-		name = "尚未公开纪录",
+		name = "Classified Intel",
 		mask = "bg/bg_memory",
 		id = 100071,
 		icon = "memory_dashijie",

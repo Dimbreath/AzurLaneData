@@ -16,7 +16,7 @@ return {
 				"action"
 			},
 			style = {
-				text = "任务种类已更新完毕，请指挥官进行确认。",
+				text = "Mission type has been changed.",
 				mode = 2,
 				dir = -1,
 				posY = 191.87,
@@ -41,7 +41,7 @@ return {
 				"accept"
 			},
 			style = {
-				text = "请点击接受按钮，接受任务",
+				text = "Please tap the Accept button to begin the mission.",
 				mode = 2,
 				dir = -1,
 				posY = 191.87,

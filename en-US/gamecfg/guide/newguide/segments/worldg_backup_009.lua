@@ -21,7 +21,7 @@ return {
 				"clickMemo"
 			},
 			style = {
-				text = "这边可以查看战斗日志哟~",
+				text = "You can check the battle log here.~",
 				mode = 2,
 				dir = 1,
 				posY = 115.27,

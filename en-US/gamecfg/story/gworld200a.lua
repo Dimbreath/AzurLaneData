@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "舰队指挥权限提升确认完毕，现在一场行动中能够同时指挥的舰队数量提升了。",
+			say = "You have now received authorisation to sortie up to four fleets in Operation Siren.",
 			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "带领更多的舰队，彻底压制海域中的敌人吧。",
+			say = "Please, make full use of them to bring us victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

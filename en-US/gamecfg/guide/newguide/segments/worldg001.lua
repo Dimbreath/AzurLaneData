@@ -16,7 +16,7 @@ return {
 				"chooseCamp"
 			},
 			style = {
-				text = "请选择要加入的阵营",
+				text = "Please select the faction you'd like to join.",
 				mode = 2,
 				dir = -1,
 				posY = -189.51,
