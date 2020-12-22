@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "听描述果然不如自己亲身体验来的实在，真是奇妙的感觉啊......",
+			say = "Is anyone else getting nauseous from being inside this place...?",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重力正在忽大忽小，没有规律的进行变化......虽然还在可承受范围内，不过这种状态下遭遇敌人的话会很麻烦。",
+			say = "Mm, considering how erratically the gravity is shifting around, this would be difficult for a normal person to tolerate, let alone one of us with our rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好前面还有些幸存的塞壬量产型，大家先用它们校正一下射表，尽可能熟悉一下在这片异常区域内作战的感觉吧。",
+			say = "There are some mass-produced Siren stragglers just ahead of us. Let’s use them to calibrate our shots and to get as familiar with fighting under these conditions as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

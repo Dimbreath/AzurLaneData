@@ -12,7 +12,7 @@ return {
 			bgm = "story-french1",
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "唔...找了一大圈了，完全没看到友方舰队留下的迹象哦。",
+			say = "You really can't see anything from this distance, huh... Can't even tell what kind of ship might’ve sent that signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201130,
-			say = "果然必须进行一下深入探索了么。",
+			say = "We'll have to take a closer look after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "与其说没有友方舰队，倒不如说这里塞壬的舰队也没剩多少……",
+			say = "I don't see any friendly ships here, but there aren't many Sirens either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "看这成片的废墟，除非今天司令部改用主力航空队当侦察舰队行动了。",
+			say = "All I'm seeing are the destroyed husks of Siren ships, but I don't think any Royal Navy ships passed through this area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "而且......有能力清理整片海域塞壬的舰队真的需要发送救援信号么？",
+			say = "If a force large enough to wipe out all these Sirens really did pass through here, Hood must've heard about it by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 201130,
 			nameColor = "#a9f548",
-			say = "果然事情有古怪......",
+			say = "Good point. What could've happened here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "......这片海域的塞壬，全部都是你们击败的么........?",
+			say = "...Did the three of you take out all these Sirens...??",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "真是人不可貌相啊，干得漂亮！",
+			say = "That’s some real magic if I've ever seen it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 201130,
 			nameColor = "#a9f548",
-			say = "欸，欸？不是的啦！我们来的时候这里就已经是这个样子了！覆盖海面的塞壬残骸，破损的塞壬设施，以及哪里都看不到求救舰队的身影...",
+			say = "Eh...? N-no, it wasn't us! This place was already like this when we came here! This place is covered with destroyed Siren ships and facilities, and there’s no fleet in distress here as far as I can tell...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此……此处看来是一处塞壬实验场的废墟。防御设施、实验设施连同驻扎舰队在内都被彻底摧毁了。",
+			say = "I see... This must've been a Siren research facility. Everything here, including its defenses, must've been swept by some powerful force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "唔...........这边有一艘船体被整个切开的塞壬战列舰。",
+			say = "Even this Siren battleship has been cut cleanly apart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "那边有一座连同上面的建筑都被炸平的小岛，这种情况，总感觉在哪里看到过...",
+			say = "This isn't something that Warspite would do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "哎？那边留下的是…整齐的…大口径贯通伤？",
+			say = "Hm... What’s that over there? It’s a clean puncture. Almost could pass for a porthole...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "我们现在有武器能造成这种伤害么，威尔士？",
+			say = "Wales, do we have any weapons that are capable of that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "据我所知没有类似的武器......不过这个痕迹倒是很像塞壬净化者主武器命中后的痕迹啊。",
+			say = "Not that I know of... This kind of damage looks as if it was caused by Purifier’s laser weapon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201130,
-			say = "塞壬在自相残杀...？这种事真的可能发生么...",
+			say = "Sirens turning against each other? Is something like that possible...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "或者是某些使用着和塞壬一样夸张的武器对塞壬进行攻击的人......感觉我也得出和你类似的答案了...",
+			say = "Or... it might be someone using Siren technology. In any case, it feels like we're getting closer to the truth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...如果真的是那样的话，我们很快就能清楚了。大家小心前进，继续搜索遇难舰队的踪迹。",
+			say = "The answer should lie at the coordinates we've been given. Everyone, stay alert as you move forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "...........威尔士，好像有人在盯着我们。",
+			say = "(...Wales, I think someone’s watching us.)",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我也有这种感觉。",
+			say = "(Yes, I feel it too. Just a vague intuition though.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "哎？！雷达上除了我们之外没有看到其他人哦。",
+			say = "Eh? There’s nothing showing up on the radar though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "那是因为，她们从雷达上是看不到的————在那个方向么！",
+			say = "It’s odd how there are enemies that we can't detect on— Wait, in front of us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可畏，不要刺激她们！我们这次是来执行救援任务的，没有准备同余烬战斗的力量，一旦打起来我们会很被动！",
+			say = "Hold, Formidable! We're only here on a rescue mission! We don't have the firepower to fight against the Ashes right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "我知道啦，只是想去一看她的真面目嘛...不过对面的反应很快，侦察机扑了个空。",
+			say = "I know... But I just wanted to see who - or what - they really are. But they're fast, my recon didn't manage to get a glimpse of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "不过........嗯？等等，我发现了疑似白鹰舰队的遇难信号！",
+			say = "But... Hmm...? Wait, is that... an Eagle Union fleet?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "居然真的有白鹰舰队在这里......太好了，从攻击中幸存了么。",
+			say = "There really was an Eagle Union fleet here? ...Thank goodness we made it in time then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

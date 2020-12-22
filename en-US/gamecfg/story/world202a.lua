@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域东北·皇家外围作战区域",
+			say = "NA Ocean NE Sector - Royal Navy Operation Zone",
 			side = 2,
 			dir = 1,
 			bgm = "story-french1",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "GoGoGo！又一批敌人被消灭了！",
+			say = "All right! Another wave of enemies wiped out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一路上都没遇到像样的抵抗，肯特选手，潇洒突破！",
+			say = "Would you look at that, Contestant Kent smashes through the first Siren barrier with ease!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和情报中一样，海域外围塞壬舰队的数量明显减少了，我们推进到这里居然没受到什么阻力。",
+			say = "Just as rumoured, the enemies are sparser than usual. We've barely encountered any resistance even out this far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "怎么样，你们的作战还顺利么？",
+			say = "Edinburgh, Kent, is everything going well on your end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			actor = 203030,
 			nameColor = "#a9f548",
-			say = "Yes！塞壬留在海里的舰队不堪一击，我们可能要提前达成作战目标了！",
+			say = "Piece of cake! If the Sirens are gonna roll over just like this, we'll be back home in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "那还真是比预想之中还要顺利。嗯，萨福克和诺福克呢？",
+			say = "Things are going better than I expected. Hm? Where are Norfolk and Suffolk?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202110,
-			say = "诺福克正拖着萨福克追击在刚才被打散的塞壬舰队，这些敌人简直一触即溃，反而多费了点功夫......",
+			say = "They're currently chasing down the routed Siren forces. Their formations are falling apart with even a mere touch......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "嗯，这一点和其他舰队的反馈相同。塞壬的指挥系统看来确实出了一些不为我们所知的问题。",
+			say = "Mm, that’s what I'm hearing from the other teams as well. Apparently, the Sirens’ chain of command doesn't seem to be working properly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "利用这一点，各处区域的作战情况都比预期中的要好了不少。",
+			say = "Hopefully, this is giving the Eagle Union some extra breathing room as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "嗯...萨福克？那孩子难得也有这么积极的一面啊。",
+			say = "Having that said... It’s unusual for Suffolk to take the initiative in chasing down the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202110,
-			say = "“快点结束战斗，才好回去摸鱼啊~”她本人好像是这么说的...",
+			say = "“She muttered something like, “the faster we wipe out the enemy, the sooner I can go back to watching the seagulls...”...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "哇啊啊！动机姑且不论...这次萨福克可是真的干劲满满哦！",
+			say = "W-well, whatever her reasons might be... I'm just glad to see Suffolk giving it her best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "呵呵，我明白。继续努力吧，威尔士亲王通话结束。",
+			say = "Heh, indeed. Keep up the good work as well, Edinburgh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202110,
-			say = "呼~肯特，可不能被萨福克她们比下去了，我们也继续战斗吧！",
+			say = "Got that, Kent? We can't afford to fall behind either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

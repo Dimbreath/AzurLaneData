@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域东北·事故海域周边",
+			say = "NA Ocean NE Sector - Incident Site",
 			side = 2,
 			dir = 1,
 			bgm = "story-french1",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "司令部收到的求救信号，就是从这片海域发出来的。",
+			say = "The distress signal came from over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "远远看上去没什么特别的，和周围一样平静又阴森......",
+			say = "From this distance, it doesn't look like there’s anything over there. Just another gloomy patch of ocean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201130,
-			say = "可畏小姐和威尔仕亲王正在赶来的路上，与她们汇合之前我们不要冒进，首先侦察一下附近的情况吧。",
+			say = "Formidable and Prince of Wales are on their way to join us. We were told to keep our distance until they arrive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801030,
-			say = "侦察任务是么！了解~！驱逐舰鲁莽，全速出发！",
+			say = "Let’s circle around and take a look! All we have to do is keep our distance, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

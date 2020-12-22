@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域东北·皇家主力舰队",
+			say = "NA Ocean NE Sector - Royal Navy Main Fleet",
 			side = 2,
 			dir = 1,
 			bgm = "story-french1",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胡德，各舰队的进展都很顺利，我们也向中部区域推进怎么样？",
+			say = "Hood, all our forces are advancing smoothly and momentum is on our side. Shall we start scouting out the central zone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "中部区域啊......那里一直以来都处于塞壬严密的封锁中，我们缺乏足够的侦察情报。",
+			say = "That’s where the core of the Siren forces should be, right? ...We have no information about what we might be going up against.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恐怕塞壬的众多实验场也隐藏在其中。关于塞壬设备做出怎样的奇观，在之前的战斗中我们都有明确的认识。",
+			say = "Until now, all the scouting we've done has been at a distance. There’s no telling what dangers are waiting for us at the heart of their territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然塞壬战斗力有所下降，依然不能轻敌冒进啊......时间还很充裕，我们的行动不提前。",
+			say = "Even though the Sirens have been significantly weaker, I can't afford to underestimate the enemy and put our girls at risk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望其他战场也千万不要冒进啊...",
+			say = "I hope that everyone else also is also exercising the proper amount of caution...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘀——————",
+			say = "Bzzt...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202190,
-			say = "胡德小姐，LD司令部刚刚收到了一份紧急求救信号，然后与发送信号的舰队失去了联络。",
+			say = "Miss Hood, the long-range receiver back at the Capital just received an emergency distress signal, but quickly lost contact with the fleet that sent the signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202190,
-			say = "司令部推测信号可能是由一支友方侦察舰队发出的，但目前还没查明具体是哪支舰队————",
+			say = "We speculate that the signal may have been set from a friendly recon fleet, but we haven't determined which fleet that might be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202190,
-			say = "情况紧急，下面将求救信号的坐标发送给您，请您立刻安排救援行动。",
+			say = "However, we do know that the situation is urgent. I'm sending over the coordinates of the distress signal now, so please arrange a rescue operation with due haste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 204030,
-			say = "这个位置是......奇怪，我没有派遣任何舰队过去啊。这种时候也不可能有民间船队...",
+			say = "These coordinates... No Royal Navy ships should've been deployed to this area...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纽卡斯尔，立刻让LD司令部与白鹰进行核实，看看她们有没有舰队在那里失联了，我这就安排救援行动。",
+			say = "Newcastle, please send this information to the Eagle Union to verify if one of their fleets might’ve gotten lost in this area. We need to verify the authenticity of this signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202190,
-			say = "好的，我这就去安排核实，纽卡斯尔通讯结束。",
+			say = "Very well. I'll try to get in contact with the Eagle Union as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205070,
-			say = "此处海域，似乎并非白鹰舰队的作战区域，为何会有她们的舰队在此遇难？",
+			say = "‘tis unlikely that the Eagle Union would stray out this far. Why would the Eagle Union be in this operation zone in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个问题只能等见到她们的时候亲自问问了...如果救援信号真的是白鹰舰队发出来的话。",
+			say = "The only way to find out is to directly ask them... whether this signal really came from one of their ships...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论如何，不能对求救信号置之不理，我们的舰队位置更新过了么，哪一支能最快赶到事故海域？",
+			say = "Having that said, we can't ignore the distress signal either. Formidable, which one of our fleets is closest to the coordinates?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照位置来说，我们与自由鸢尾的那支混合游击舰队能够最快赶过去，不过仅凭她们的话，无法应对可能发生的意外情况。",
+			say = "Grenville’s group should be the closest. However, considering their purpose was to link up with the Iris Libre forces, they might not be the most combat-capable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "虽然速度会稍微慢一些，稳妥起见，胡德，让我带领一部分主力舰队前去支援吧。",
+			say = "Hood, how about we take a small detachment to back them up? Hopefully it won't be too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "中部区域情况复杂，随时有在镜面海域中遭遇塞壬伏击的危险，我愿意护送可畏一同前往。",
+			say = "I'll go too. If this is a trap laid by the Sirens, we do not want to risk them getting trapped in a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这么办吧。首先与游击舰队汇合，然后一同前往事故海域。调查原因，拯救幸存者。",
+			say = "That’s settled then. Please join Grenville’s group and investigate the source of the distress signal. If something did happen, make sure to rescue the survivors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此讯号颇为诡异，汝等应随机应变，切莫大意。",
+			say = "Thou wouldst be wise to exercise caution, Wales, for the Sirens’ treachery knows no bounds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白，那么我们出发了！",
+			say = "Heh, I'm glad you're worried about me. In any case, let’s get going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

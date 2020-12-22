@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "呜哇…肯特选手，要被这些奇奇怪怪的东西弄晕了...",
+			say = "Ughh... My head’s getting all spinny...",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不仅炮弹的落点难以预测，鱼雷的轨迹也受到了干扰…这，这样子好难命中敌人呀...",
+			say = "It’s not only the trajectory of our shells that’s being affected... even our torpedoes won't work properly... It’s bloody difficult trying to hit the enemy like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在贴近距离之后还是能够准确命中的，实在不行的话，大家就挥动手中的剑吧~",
+			say = "If distance is an issue, then all we have to do is close the gap... After all, gravity can't mess with the strike of a sword.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "厌战，我和爱丁堡发现了一个奇怪的塞壬哎，不论怎么攻击它，它都不还手！",
+			say = "Warspite, Edinburgh and I found a really weird Siren! No matter what kind of attacks we throw at it, it won't fight back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是我们的火力也破坏不了它的装甲......就这么僵持下去实在太累了......大家快来帮忙啊！",
+			say = "But our attacks aren't doing anything to its armour either! Come help us out over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...打不还手的坚固塞壬？是因为指挥出现异常了么，还是...坚持住，我们这就去支援！",
+			say = "A Siren that isn't fighting back...? Has it lost its command module and its ability to move?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "哈啊......累死了，厌战你看，前面就是那个奇怪塞壬了。",
+			say = "*panting* ...Warspite, over there! That’s the strange Siren...!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在指挥部的资料上没有见过与之型号相符的塞壬，也许又是一个新型号吧...",
+			say = "I don't have any data on it. It might even be a new model...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "………………………………………………………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 205040,
 			nameColor = "#a9f548",
-			say = "看我的——————",
+			say = "Eat this! Haaaah!",
 			flashN = {
 				color = {
 					1,
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是没有一点反应哎......",
+			say = "It didn't even flinch...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "罗德尼...可能在你的位置看不清楚，你刚才打出去的炮弹，其实根本没有碰到那个塞壬的装甲......",
+			say = "No, Rodney... You didn't even land a hit on its armour in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！！怎么会有这种事！是我打歪了么......",
+			say = "Huh?! How’s that possible? I could've sworn I landed a direct hit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，就算在这片重力异常的海域里，你刚刚的射击也十分准确。发生的事情只不过单纯是，你的炮弹在碰到它的装甲之前就消失了.....",
+			say = "No, your aim was true, but the explosion wasn't because you landed a hit. The fuse activated before the shell even touched the Siren.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额...我不是很理解。",
+			say = "In other words, both the shell and the explosion “disappeared” before reaching the armor...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也不是很理解.............",
+			say = "That seems to be the case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205020,
-			say = "向司令部进行报告，然后大家立刻撤退，立刻远离这片海域！！！",
+			say = "The Naval HQ needs to hear about this. Everyone, retreat immediately and stay away from this zone!",
 			effects = {
 				{
 					active = true,
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎！？！！",
+			say = "Warspite! The Siren’s moving!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突突突突然发生了什么吗？！",
+			say = "Eeeeeeeek?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家先不要问了，那个塞壬很危险，绝对不是我们能对付的......立刻执行命令，全速撤退！",
+			say = "We're no match for that thing! Everyone, hurry and retreat this instant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 900285,
 			dir = 1,
 			actorName = "？？？",
-			say = "哼……………………",
+			say = "Hnnnnnnnnhhh...",
 			effects = {
 				{
 					active = false,
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			actor = 203030,
 			nameColor = "#a9f548",
-			say = "异常塞壬，突然消失了......？",
+			say = "The Siren... suddenly vanished...?",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这次又是怎么回事啊！从进来之后尽是些莫名其妙的状况，之后的报告要怎么写才好......",
+			say = "Wh-wh-wh-what just happened?! Sirens suddenly appearing and disappearing from thin air, all these strange phenomena... I'm going to be writing reports for the rest of my life!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "厌战，周边区域突然出现了数个高强度的塞壬信号，正在向我们的方向快速接近！",
+			say = "Warspite, something feels familiar about that Siren. I'm not quite sure what it is, but I think we'll be able to defeat it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".........看来必须要有一场恶战了。情况紧急，大家不要保留弹药，全力战斗，消灭敌人！",
+			say = "...We don't have much of a choice right now. Everyone, We'll find out right here and now whether we can make that enemy bleed! Begin attacking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

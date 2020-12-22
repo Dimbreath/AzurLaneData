@@ -12,7 +12,7 @@ return {
 			bgm = "story-french1",
 			actor = 203040,
 			nameColor = "#a9f548",
-			say = "终于......最后一艘敌人也被打倒了！",
+			say = "Finally... the last enemy is down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯特选手，快要燃尽了.......",
+			say = "Contestant Kent... is about to bow out... H-huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的......这些到底是什么东西啊，战斗力虽然一般，但是防御力真是夸张，再加上重力变化的干扰，真是！从来！没遇到过这么难缠的敌人！",
+			say = "*panting* ...Just what kind of enemy was that...? But... at least, it looks like the gravity abnormality is starting to clear up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "围绕身体的异常感正在消失，重力好像开始恢复正常了。",
+			say = "I think you're right. The gravity is starting to stabilise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已，已经安全了吗…？",
+			say = "D-does that mean we're safe now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "千钧一发......是我们胜利了。刚刚的战斗十分精彩，诸位辛苦了。",
+			say = "Yeah. Our communications are back online as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡，刚刚你在担心报告怎么写对吧，我听到了哦。",
+			say = "Edinburgh, you really helped me understand that enemy’s weak point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！额...哎嘿嘿.........",
+			say = "Huh? O-oh, thank you, Lady Warspite...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你把今天遭遇的一切如实写下来就好，之后的事就交给陛下定夺。",
+			say = "We need to report what happened here to Her Majesty. About this Mirror Sea, and about that Siren...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是...！",
+			say = "Yes...！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于刚才遭遇到的异常塞壬，如果有了进一步调查结论的话，我一定第一时间向大家告知。",
+			say = "(...A new type of Siren that can manipulate gravity. We have no idea just how strong it is, but we do know that we can't afford to ignore this threat.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在海域清理完毕，第二处前哨站也能继续进行部署作业了。",
+			say = "(Even after we finish building the second Outpost, We'll have to come up with countermeasures.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡随我返回主力舰队向陛下报告。其他人留在这里护卫前哨站的部署工作，然后驻扎在此处进行修整，等待总攻命令。",
+			say = "Edinburgh, you and Hood will head back with me. Rodney, stay here and oversee the construction of the Outpost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Everyone",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情况远比预想中的要复杂，接下来的作战会变成什么样呢，能一切顺利就好了......",
+			say = "The situation is becoming a lot more complicated than I expected... I can only hope that the rest of the Operation proceeds smoothly......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
