@@ -2408,6 +2408,51 @@ pg.backyard_theme_template = {
 			72123
 		}
 	},
+	[73] = {
+		Cfg_1 = 5,
+		name = "Cozy Christmas",
+		desc = "Gather 'round, m'dear, for the coziest time of year is here!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 73,
+		icon = "cs4themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			73001,
+			73002,
+			73101,
+			73102,
+			73103,
+			73104,
+			73105,
+			73106,
+			73107,
+			73108,
+			73109,
+			73110,
+			73111,
+			73112,
+			73113,
+			73114,
+			73115,
+			73116,
+			73117,
+			73118,
+			73119,
+			73120,
+			73121,
+			73301,
+			73302,
+			73303,
+			73304,
+			73305
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2460,6 +2505,7 @@ pg.backyard_theme_template = {
 		69,
 		70,
 		71,
-		72
+		72,
+		73
 	}
 }

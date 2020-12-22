@@ -17,9 +17,12 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = {}
 			slot2 = Guild.New(slot0.guild)
+
+			slot2:SetMaxMemberCntAddition(slot0.guild.tech_seat)
+
 			slot3 = GuildMember.New(slot0.guild.leader)
 
-			slot3:setDuty(GuildMember.DUTY_COMMANDER)
+			slot3:setDuty(GuildConst.DUTY_COMMANDER)
 			slot2:addMember(slot3)
 			table.insert(slot1, slot2)
 			uv0:sendNotification(GAME.GUILD_SEARCH_DONE, slot1)

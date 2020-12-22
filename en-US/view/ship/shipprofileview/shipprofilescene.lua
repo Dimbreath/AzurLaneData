@@ -15,13 +15,14 @@ end
 function slot0.preload(slot0, slot1)
 	slot3 = getProxy(CollectionProxy):getShipGroup(slot0.contextData.groupId)
 
-	LoadSpriteAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot3:getRarity(slot0.showTrans), slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup()), "", slot1)
+	LoadSpriteAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot3:getRarity(slot0.showTrans), slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup(), slot3:isMetaGroup()), "", slot1)
 end
 
 function slot0.setShipGroup(slot0, slot1)
 	slot0.shipGroup = slot1
 	slot0.groupSkinList = slot1:getDisplayableSkinList()
 	slot0.isBluePrintGroup = slot0.shipGroup:isBluePrintGroup()
+	slot0.isMetaGroup = slot0.shipGroup:isMetaGroup()
 end
 
 function slot0.setShowTrans(slot0, slot1)
@@ -196,7 +197,7 @@ function slot0.InitCommon(slot0)
 	slot1 = slot0.shipGroup.shipConfig
 	slot2 = slot0.shipGroup:getPainting(slot0.showTrans)
 
-	slot0:LoadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.isBluePrintGroup))
+	slot0:LoadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.isBluePrintGroup, slot0.isMetaGroup))
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot0.shipGroup:getShipType(slot0.showTrans)), true)
 
 	slot7 = slot0.showTrans
@@ -241,7 +242,8 @@ function slot0.FlushHearts(slot0)
 end
 
 function slot0.LoadSkinBg(slot0, slot1)
-	slot0.bluePintBg = slot0.isBluePrintGroup and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, true)
+	slot0.bluePintBg = slot0.isBluePrintGroup and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, true, false)
+	slot0.metaMainBg = slot0.isMetaGroup and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, false, true)
 
 	if slot0.shipSkinBg ~= slot1 then
 		slot0.shipSkinBg = slot1
@@ -261,10 +263,29 @@ function slot0.LoadSkinBg(slot0, slot1)
 			end)
 		end
 
+		function slot4()
+			PoolMgr.GetInstance():GetUI("raritymeta" .. uv0.shipGroup:getRarity(uv0.showTrans), true, function (slot0)
+				uv0.metaBg = slot0
+				uv0.metaName = "raritymeta" .. uv0.shipGroup:getRarity(uv0.showTrans)
+
+				slot0.transform:SetParent(uv0.staticBg, false)
+
+				slot0.transform.localPosition = Vector3(1, 1, 1)
+				slot0.transform.localScale = Vector3(1, 1, 1)
+
+				slot0.transform:SetSiblingIndex(1)
+				setActive(slot0, true)
+			end)
+		end
+
 		pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot1, slot0.bg, slot0.staticBg, function (slot0)
 			rtf(slot0).localPosition = Vector3(0, 0, 200)
 		end, function (slot0)
 			if uv0.bluePintBg and uv1 == uv0.bluePintBg then
+				if uv0.metaBg then
+					setActive(uv0.metaBg, false)
+				end
+
 				if uv0.designBg and uv0.designName ~= "raritydesign" .. uv0.shipGroup:getRarity(uv0.showTrans) then
 					PoolMgr.GetInstance():ReturnUI(uv0.designName, uv0.designBg)
 
@@ -276,8 +297,30 @@ function slot0.LoadSkinBg(slot0, slot1)
 				else
 					setActive(uv0.designBg, true)
 				end
-			elseif uv0.designBg then
-				setActive(uv0.designBg, false)
+			elseif uv0.metaMainBg and uv1 == uv0.metaMainBg then
+				if uv0.designBg then
+					setActive(uv0.designBg, false)
+				end
+
+				if uv0.metaBg and uv0.metaName ~= "raritymeta" .. uv0.shipGroup:getRarity(uv0.showTrans) then
+					PoolMgr.GetInstance():ReturnUI(uv0.metaName, uv0.metaBg)
+
+					uv0.metaBg = nil
+				end
+
+				if not uv0.metaBg then
+					uv3()
+				else
+					setActive(uv0.metaBg, true)
+				end
+			else
+				if uv0.designBg then
+					setActive(uv0.designBg, false)
+				end
+
+				if uv0.metaBg then
+					setActive(uv0.metaBg, false)
+				end
 			end
 		end)
 	end
@@ -369,7 +412,7 @@ function slot0.ShiftSkin(slot0, slot1)
 
 	slot3 = nil
 
-	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.skin.id, slot0.shipGroup:isBluePrintGroup()))
+	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.skin.id, slot0.shipGroup:isBluePrintGroup(), slot0.shipGroup:isMetaGroup()))
 
 	slot0.haveOp = PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. slot0.skin.id))
 end

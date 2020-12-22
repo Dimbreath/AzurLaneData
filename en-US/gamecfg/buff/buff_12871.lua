@@ -29,7 +29,7 @@ return {
 				buff_id = 12874,
 				target = "TargetShipTag",
 				ship_tag_list = {
-					"ryuhou"
+					"Ryuho"
 				}
 			}
 		},
@@ -53,7 +53,7 @@ return {
 				target = "TargetShipTag",
 				killer = "self",
 				ship_tag_list = {
-					"ryuhou"
+					"Ryuho"
 				}
 			}
 		}

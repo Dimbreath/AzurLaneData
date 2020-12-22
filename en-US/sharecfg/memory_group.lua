@@ -60,6 +60,27 @@ pg.memory_group = {
 			28
 		}
 	},
+	{
+		title = "所罗门的噩梦上",
+		type = 1,
+		id = 5,
+		icon = "title_main",
+		memories = {
+			1191,
+			1192,
+			1193,
+			1194,
+			1195,
+			1196,
+			1197,
+			1198,
+			1199,
+			1200,
+			1201,
+			1202,
+			1203
+		}
+	},
 	[98] = {
 		title = "Unlock \"Fate Simulation.\" ",
 		type = 1,
@@ -2463,6 +2484,7 @@ pg.memory_group = {
 		2,
 		3,
 		4,
+		5,
 		98,
 		99,
 		100,

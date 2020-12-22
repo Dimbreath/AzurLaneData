@@ -31,6 +31,17 @@ return {
 					7
 				}
 			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetSelf"
+			},
+			arg_list = {
+				buff_id = 13122
+			}
 		}
 	}
 }

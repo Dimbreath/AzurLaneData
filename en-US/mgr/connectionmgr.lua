@@ -116,10 +116,10 @@ function slot1.Reconnect(slot0, slot1)
 				uv3 = nil
 
 				if getProxy(PlayerProxy) and slot1:getInited() then
-					uv6.SecondaryPWDMgr:GetInstance():FetchData()
+					uv6.SecondaryPWDMgr.GetInstance():FetchData()
 				end
 
-				uv6.GuideMgr:GetInstance():onReconneceted()
+				uv6.GuideMgr.GetInstance():onReconneceted()
 			else
 				print("reconnect failed: " .. slot0.result)
 				uv6.m02:sendNotification(GAME.LOGOUT, {
@@ -227,7 +227,15 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		return
 	end
 
-	uv2:Queue(slot1, slot2, slot3, slot4, slot5, nil, slot6)
+	uv2:Queue(slot1, slot2, slot3, function (slot0)
+		if slot0.result == 9998 then
+			uv0.m02:sendNotification(GAME.EXTRA_PROTO_RESULT, {
+				result = slot0.result
+			})
+		else
+			uv1(slot0)
+		end
+	end, slot5, nil, slot6)
 end
 
 function slot1.setPacketIdx(slot0, slot1)

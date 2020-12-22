@@ -29,6 +29,10 @@ function slot0.IsBluePrintGroup(slot0)
 	return table.contains(pg.ship_data_blueprint.all, slot0)
 end
 
+function slot0.IsMetaGroup(slot0)
+	return table.contains(pg.ship_strengthen_meta.all, slot0)
+end
+
 slot0.STATE_LOCK = 0
 slot0.STATE_NOTGET = 1
 slot0.STATE_UNLOCK = 2
@@ -244,6 +248,10 @@ function slot0.VoiceReplayCodition(slot0, slot1)
 		return false, i18n("ship_profile_voice_locked_design", slot6)
 	end
 
+	if slot0:isMetaGroup() and not table.contains(getProxy(BayProxy):getMetaShipByGroupId(slot0.id):getMetaCharacter():getUnlockedVoiceList(), slot1.key) and slot5:getUnlockVoiceRepairPercent(slot1.key) > 0 then
+		return false, i18n("ship_profile_voice_locked_meta", slot7)
+	end
+
 	if slot1.unlock_condition[1] == uv0.CONDITION_INTIMACY then
 		if slot0.maxIntimacy < slot1.unlock_condition[2] then
 			slot2 = false
@@ -277,6 +285,10 @@ end
 
 function slot0.isRemoulded(slot0)
 	return slot0.remoulded
+end
+
+function slot0.isMetaGroup(slot0)
+	return uv0.IsMetaGroup(slot0.id)
 end
 
 return slot0

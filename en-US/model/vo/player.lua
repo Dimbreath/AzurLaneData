@@ -55,6 +55,26 @@ function slot0.headFrame2Res(slot0, slot1)
 	return slot3, slot4
 end
 
+function slot0.isMetaShipNeedToTrans(slot0)
+	return getProxy(BayProxy):getMetaShipByGroupId(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0)) and true or false
+end
+
+function slot0.metaShip2Res(slot0)
+	slot4 = getProxy(BayProxy):getMetaShipByGroupId(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0)):getMetaCharacter():getSpecialMaterialInfoToMaxStar()
+	slot9 = nil
+	slot10 = {}
+
+	for slot14, slot15 in ipairs((not (slot4.count <= getProxy(BagProxy):getItemCountById(slot4.itemID)) or pg.ship_transform[slot1].common_item) and pg.ship_transform[slot1].exclusive_item) do
+		table.insert(slot10, {
+			type = slot15[1],
+			id = slot15[2],
+			count = slot15[3]
+		})
+	end
+
+	return slot10
+end
+
 function slot0.getSkinTicket(slot0)
 	return pg.gameset.skin_ticket.key_value == 0 and 0 or slot0:getResource(slot1)
 end
@@ -82,8 +102,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.attackCount = slot1.attack_count or 0
 	slot0.winCount = slot1.win_count or 0
 	slot0.manifesto = slot1.adv or slot1.manifesto
-	slot0.ship_bag_max = slot1.ship_bag_max
-	slot0.equip_bag_max = slot1.equip_bag_max
+	slot0.shipBagMax = slot1.ship_bag_max
+	slot0.equipBagMax = slot1.equip_bag_max
 	slot0.buff_list = slot1.buffList or {}
 	slot0.rank = slot1.rank or slot1.title or 0
 	slot0.pvp_attack_count = slot1.pvp_attack_count or 0
@@ -98,6 +118,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.displayTrophyList = slot1.medal_id or {}
 	slot0.banBackyardUploadTime = slot1.theme_upload_not_allowed_time or 0
 	slot0.rmb = slot1.rmb or 0
+	slot0.identityFlag = slot1.gm_flag
 
 	if slot1.appreciation then
 		for slot7, slot8 in ipairs(slot1.appreciation.gallerys or {}) do
@@ -152,8 +173,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.chargeExp = slot1.acc_pay_lv or 0
 	slot0.mingshiflag = 0
 	slot0.mingshiCount = 0
-	slot0.maxGold = pg.gameset.max_gold.key_value
-	slot0.maxOil = pg.gameset.max_oil.key_value
 	slot0.chatMsgBanTime = slot1.chat_msg_ban_time or 0
 	slot0.displayInfo = slot1.display or {}
 	slot0.attireInfo = {
@@ -204,23 +223,23 @@ function slot0.updateModifyNameColdTime(slot0, slot1)
 end
 
 function slot0.getMaxGold(slot0)
-	slot1 = 0
-
-	if getProxy(GuildProxy):getData() then
-		slot1 = slot2.maxGoldAddition
-	end
-
-	return slot0.maxGold + slot1
+	return pg.gameset.max_gold.key_value
 end
 
 function slot0.getMaxOil(slot0)
-	slot1 = 0
+	return pg.gameset.max_oil.key_value
+end
 
-	if getProxy(GuildProxy):getData() then
-		slot1 = slot2.maxOilAddition
-	end
+function slot0.getLevelMaxGold(slot0)
+	slot1 = slot0:getConfig("max_gold")
 
-	return slot0.maxOil + slot1
+	return getProxy(GuildProxy):getRawData() and slot1 + slot2:getMaxGoldAddition() or slot1
+end
+
+function slot0.getLevelMaxOil(slot0)
+	slot1 = slot0:getConfig("max_oil")
+
+	return getProxy(GuildProxy):getRawData() and slot1 + slot2:getMaxOilAddition() or slot1
 end
 
 function slot0.getResource(slot0, slot1)
@@ -285,11 +304,11 @@ function slot0.addVipCard(slot0, slot1)
 end
 
 function slot0.addShipBagCount(slot0, slot1)
-	slot0.ship_bag_max = slot0.ship_bag_max + slot1
+	slot0.shipBagMax = slot0.shipBagMax + slot1
 end
 
 function slot0.addEquipmentBagCount(slot0, slot1)
-	slot0.equip_bag_max = slot0.equip_bag_max + slot1
+	slot0.equipBagMax = slot0.equipBagMax + slot1
 end
 
 function slot0.bindConfigTable(slot0)
@@ -349,11 +368,37 @@ function slot0.isFull(slot0)
 	return true
 end
 
+function slot0.getMaxEquipmentBag(slot0)
+	slot1 = slot0.equipBagMax
+	slot2 = 0
+
+	if getProxy(GuildProxy):getRawData() then
+		slot2 = slot3:getEquipmentBagAddition()
+	end
+
+	return slot2 + slot1
+end
+
+function slot0.getMaxShipBag(slot0)
+	slot1 = slot0.shipBagMax
+	slot2 = 0
+
+	if getProxy(GuildProxy):getRawData() then
+		slot2 = slot3:getShipBagAddition()
+	end
+
+	return slot2 + slot1
+end
+
 function slot0.__index(slot0, slot1)
 	if slot1 == "gem" then
 		return slot0:getChargeGem()
 	elseif slot1 == "freeGem" then
 		return slot0:getTotalGem()
+	elseif slot1 == "equipBagMax" then
+		return slot0:getMaxEquipmentBag()
+	elseif slot1 == "shipBagMax" then
+		return slot0:getMaxShipBag()
 	end
 
 	return rawget(slot0, slot1) or uv0[slot1] or uv0.super[slot1]
@@ -402,13 +447,15 @@ end
 function slot0.addResources(slot0, slot1)
 	for slot5, slot6 in pairs(slot1) do
 		if slot5 == "gold" then
-			slot0[slot5] = math.min(slot0[slot5] + slot6, slot0.maxGold)
+			slot0[slot5] = math.min(slot0[slot5] + slot6, slot0:getMaxGold())
 		elseif slot5 == "oil" then
-			slot0[slot5] = math.min(slot0[slot5] + slot6, slot0.maxOil)
+			slot0[slot5] = math.min(slot0[slot5] + slot6, slot0:getMaxOil())
 		elseif slot5 == "chargeGem" then
 			slot0.chargeGem = slot0:getChargeGem() + slot6
 		elseif slot5 == "gem" or slot5 == "freeGem" then
 			slot0.awardGem = slot0:getFreeGem() + slot6
+		elseif slot5 == id2res(WorldConst.ResourceID) then
+			slot0[slot5] = math.min(slot0[slot5] + slot6, pg.gameset.world_resource_max.key_value)
 		else
 			slot0[slot5] = slot0[slot5] + slot6
 		end
@@ -518,6 +565,10 @@ end
 
 function slot0.GetBanUploadBackYardThemeTemplateTime(slot0)
 	return pg.TimeMgr.GetInstance():STimeDescC(slot0.banBackyardUploadTime or 0)
+end
+
+function slot0.CheckIdentityFlag(slot0)
+	return slot0.identityFlag == 1
 end
 
 return slot0

@@ -40,16 +40,20 @@ function slot1.onBulletHit(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	print(slot3.weaponType, slot0._weaponType)
+	slot5 = slot3.target
 
 	if not slot0._weaponType then
-		slot3.target:UpdateHP(slot0._number, {
+		if slot0._number > 0 then
+			slot6 = math.floor(slot6 * slot1:GetAttrByName("healingRate"))
+		end
+
+		slot5:UpdateHP(slot6, {
 			isMiss = false,
 			isCri = false,
-			isHeal = slot0._number > 0
+			isHeal = slot7
 		})
 	elseif slot3.weaponType == slot0._weaponType then
-		slot1:UpdateHP(math.floor(slot3.damage * slot0._damageConvert), {
+		slot1:UpdateHP(math.floor(slot3.damage * slot0._damageConvert * slot4), {
 			isMiss = false,
 			isCri = false,
 			isHeal = true
@@ -58,10 +62,14 @@ function slot1.onBulletHit(slot0, slot1, slot2, slot3)
 end
 
 function slot1.onTrigger(slot0, slot1, slot2)
+	if slot0:CalcNumber(slot1) > 0 then
+		slot3 = math.floor(slot3 * slot1:GetAttrByName("healingRate"))
+	end
+
 	slot1:UpdateHP(slot3, {
 		isMiss = false,
 		isCri = false,
-		isHeal = slot0:CalcNumber(slot1) > 0
+		isHeal = slot4
 	})
 end
 

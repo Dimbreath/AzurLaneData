@@ -138,5 +138,5 @@ end
 function slot4.Dispose(slot0)
 	slot0._battleFleetVO = nil
 
-	slot0.super.Dispose(slot0)
+	uv0.super.Dispose(slot0)
 end

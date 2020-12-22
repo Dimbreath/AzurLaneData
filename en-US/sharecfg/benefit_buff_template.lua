@@ -37,7 +37,7 @@ pg.benefit_buff_template = {
 		name = "EXP Bonus",
 		hide = 0,
 		max_time = 0,
-		desc = "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 30.",
+		desc = "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 60.",
 		benefit_effect = "100",
 		id = 4,
 		icon = "Props/xinshou",
@@ -45,7 +45,7 @@ pg.benefit_buff_template = {
 		benefit_condition = {
 			"lv",
 			"<",
-			30
+			60
 		}
 	},
 	[10] = {
@@ -623,6 +623,28 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
+	[47] = {
+		name = "High-Efficiency Operation Description",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "61001",
+		desc = "2x Oil Consumption\n2x Rewards",
+		benefit_effect = "0",
+		id = 47,
+		icon = "Props/xinshou",
+		benefit_type = "desc"
+	},
+	[48] = {
+		name = "High-Efficiency Operation Bonus",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "Mood, Affection, Commander EXP, Meowfficer EXP, and Ship EXP Bonus",
+		benefit_effect = "100",
+		id = 48,
+		icon = "Props/xinshou",
+		benefit_type = "chapter_up"
+	},
 	all = {
 		1,
 		2,
@@ -664,6 +686,8 @@ pg.benefit_buff_template = {
 		43,
 		44,
 		45,
-		46
+		46,
+		47,
+		48
 	}
 }

@@ -1,40 +1,20 @@
 return {
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
-	{
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II"
-	},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
 	time = 0,
 	name = "全弹发射",
 	init_effect = "",
 	id = 22262,
 	picture = "",
-	desc = "主炮每进行6次攻击，触发全弹发射-{namecode:66}级II",
+	desc = "主炮每进行4次攻击，触发全弹发射-{namecode:66}级II",
 	stack = 1,
 	color = "red",
 	icon = 20200,
@@ -46,7 +26,7 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countTarget = 6,
+				countTarget = 4,
 				countType = 22260,
 				index = {
 					1

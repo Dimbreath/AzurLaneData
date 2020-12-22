@@ -27,15 +27,15 @@ return {
 				"onLeader"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
-				minTargetNumber = 1,
+				minTargetNumber = 2,
 				skill_id = 102010,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					10200011,
-					10200012,
-					10200013,
-					10200014
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Bilibili"
 				}
 			}
 		}

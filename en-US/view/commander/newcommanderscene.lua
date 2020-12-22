@@ -45,7 +45,7 @@ function slot0.openTreePanel(slot0, slot1)
 		end()
 	else
 		slot0.treePanel:Load()
-		slot0.treePanel:AddLoadedCallback(slot2)
+		slot0.treePanel:CallbackInvoke(slot2)
 	end
 end
 
@@ -96,7 +96,7 @@ function slot0.openMsgBox(slot0, slot1)
 		end()
 	else
 		slot0.msgbox:Load()
-		slot0.msgbox:AddLoadedCallback(slot2)
+		slot0.msgbox:CallbackInvoke(slot2)
 	end
 end
 

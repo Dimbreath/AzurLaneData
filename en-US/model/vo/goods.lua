@@ -10,6 +10,7 @@ slot0.TYPE_GUILD = 9
 slot0.TYPE_SHAM_BATTLE = 10
 slot0.TYPE_ESCORT = 11
 slot0.TYPE_FRAGMENT = 12
+slot0.TYPE_WORLD = 13
 slot0.GIFT_BOX = 1
 slot0.MONTH_CARD = 2
 slot0.GEM = 0

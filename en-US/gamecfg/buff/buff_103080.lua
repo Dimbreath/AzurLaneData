@@ -27,15 +27,15 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
 				minTargetNumber = 1,
 				buff_id = 103082,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					10300051,
-					10300052,
-					10300053,
-					10300054
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Saraana"
 				}
 			}
 		},

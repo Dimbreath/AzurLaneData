@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "Tired of waiting, nya? It's time to commence the third round, nya!",
+			say = "是不是已经等不及了喵？第三场比赛这就开始了喵！",
 			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Introducing: the red team, with a bond of friendship as strong as sisters, nya! It's Marie Rose and Honoka!",
+			say = "红方，虽不是姐妹，但默契不输姐妹！最佳组合·玛莉萝丝&穗香喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600010,
-			say = "Our tag team is the strongest under the sun!",
+			say = "玛莉和穗香的组合是绝对不会输给任何人的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hehehe! Let's give this our best shot, Marie!",
+			say = "嘻嘻~好！一起加油吧，玛莉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The blue team, with a bond strengthened over many years, it's Her Majesty's ardent supporters: Warspite and Belfast, nya!",
+			say = "蓝方，在长久的共事中磨合出的默契！无需多余的言语，也能知晓彼此心意！女王陛下的得力干将·厌战&贝尔法斯特喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Bel! Show them the elegant grace of the Royal Maids!",
+			say = "让对面见识下皇家女仆队的优雅与干练吧，贝法！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Warspite, show them the Royal Navy's glory! Especially to that pink one... What's with her size, anyway?! Urghghh... Prove to her that flat is justice!",
+			say = "展现皇家的荣耀吧！厌战！尤其是对面的粉毛！咕奴奴奴奴奴…那个大小是怎么回事啊！！可恶！一定要让她知道“品乳同盟”的厉害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600020,
-			say = "S-surely you jest?!",
+			say = "欸、欸？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Y-Your Majesty, please, calm down...!",
+			say = "陛、陛下…请冷静一些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600010,
-			say = "Geez, stop bothering Honoka... But you know, I'm super excited to get this show on the road! Let's have some fun, Maid Lady!",
+			say = "虽然不太清楚是怎么回事，玛莉也燃起来了！请多指教，女仆长大人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hehe, then I hope my sincerity will reach you as I battle to my utmost.",
+			say = "呵呵，让我们竭尽全力，为大家献上一场精彩的比赛吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Somehow, I'm compelled to cheer for Warspite's side... Ahem! Anyway then, let the next round begin, nya!",
+			say = "呣…{namecode:98}也忍不住想为厌战加油了喵…咳、咳咳！{namecode:98}可是主持喵！才不会轻易偏颇喵！比赛开始喵！双方都加油喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

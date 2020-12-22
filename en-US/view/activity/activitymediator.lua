@@ -152,7 +152,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.GO_SHOPS_LAYER, function (slot0, slot1)
 		if not getProxy(ActivityProxy):getActivityById(slot1.actId) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end

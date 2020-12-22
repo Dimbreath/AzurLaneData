@@ -168,6 +168,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>May the light of hope shine forevermore, whether in reality or in a dream.</color>\nObtained from \"Dreamwaker's Butterfly.\" ",
 		scene = {}
 	},
+	[312] = {
+		name = "Weapon of the Iron Blood ",
+		time_second = 0,
+		id = 312,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Available at a later date.</color> ",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -189,6 +197,7 @@ pg.item_data_frame = {
 		308,
 		309,
 		310,
-		311
+		311,
+		312
 	}
 }

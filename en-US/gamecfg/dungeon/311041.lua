@@ -242,8 +242,8 @@ return {
 					triggerType = 5,
 					waveIndex = 400,
 					preWaves = {
-						102,
-						101
+						101,
+						102
 					},
 					triggerParams = {
 						bgm = "battle-boss-4"
@@ -253,11 +253,11 @@ return {
 					triggerType = 3,
 					waveIndex = 500,
 					preWaves = {
-						102,
-						101
+						101,
+						102
 					},
 					triggerParams = {
-						id = "W023"
+						id = "WN010A"
 					}
 				},
 				{
@@ -265,8 +265,8 @@ return {
 					waveIndex = 103,
 					conditionType = 0,
 					preWaves = {
-						102,
-						101
+						400,
+						500
 					},
 					triggerParam = {},
 					spawn = {
@@ -372,7 +372,7 @@ return {
 						203
 					},
 					triggerParams = {
-						id = "W024"
+						id = "WN010B"
 					}
 				},
 				{
@@ -391,7 +391,7 @@ return {
 						900
 					},
 					triggerParams = {
-						id = "W025"
+						id = "WN010C"
 					}
 				}
 			}

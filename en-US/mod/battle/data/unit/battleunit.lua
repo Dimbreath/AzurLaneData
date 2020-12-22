@@ -214,10 +214,11 @@ function slot9.HandleDamageToDeath(slot0)
 end
 
 function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
-	slot10 = slot0:IsAlive()
+	slot10 = slot1
+	slot11 = slot0:IsAlive()
 
 	if not slot2.isHeal then
-		slot11 = {
+		slot12 = {
 			damage = -slot1,
 			isShare = slot2.isShare,
 			miss = slot2.isMiss,
@@ -225,51 +226,52 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 			damageAttr = slot2.attr
 		}
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot11)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot12)
 
-		if slot0._currentHP <= slot11.damage then
+		if slot0._currentHP <= slot12.damage then
 			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_FATAL_DAMAGE, {})
 		end
 
-		slot1 = -slot11.damage
+		slot1 = -slot12.damage
 
 		if uv1.IsInvincible(slot0) then
 			return
 		end
 	else
-		slot11 = {
+		slot12 = {
 			damage = slot1,
 			isHeal = slot7
 		}
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot11)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot12)
 
-		slot7 = slot11.isHeal
-		slot1 = slot11.damage
+		slot7 = slot12.isHeal
+		slot1 = slot12.damage
 	end
 
-	slot11 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
+	slot12 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
 
-	slot0:SetCurrentHP(slot11)
+	slot0:SetCurrentHP(slot12)
 
 	if slot3 and not slot3:EqualZero() then
-		slot14 = slot0:GetPosition()
-		slot15 = slot0:GetBoxSize().x
-		slot18 = slot3:Clone()
-		slot18.x = Mathf.Clamp(slot18.x, slot14.x - slot15, slot14.x + slot15)
+		slot15 = slot0:GetPosition()
+		slot16 = slot0:GetBoxSize().x
+		slot19 = slot3:Clone()
+		slot19.x = Mathf.Clamp(slot19.x, slot15.x - slot16, slot15.x + slot16)
 	end
 
 	slot0:UpdateHPAction({
+		preShieldHP = slot10,
 		dHP = slot1,
-		validDHP = slot11 - slot0._currentHP,
+		validDHP = slot12 - slot0._currentHP,
 		isMiss = slot5,
 		isCri = slot6,
 		isHeal = slot7,
 		font = slot4,
-		posOffset = slot14 - slot18
+		posOffset = slot15 - slot19
 	})
 
-	if not slot0:IsAlive() and slot10 then
+	if not slot0:IsAlive() and slot11 then
 		slot0:SetDeathReason(slot2.damageReason)
 		slot0:DeadAction()
 	end
@@ -340,22 +342,6 @@ end
 
 function slot9.GetTemplateID(slot0)
 	return slot0._tmpID
-end
-
-function slot9.SetRepress(slot0, slot1)
-	slot0._repress = slot1
-end
-
-function slot9.GetRepress(slot0)
-	return slot0._repress or false
-end
-
-function slot9.SetRepressReduce(slot0, slot1)
-	slot0._repressReduce = slot1
-end
-
-function slot9.GetRepressReduce(slot0)
-	return slot0._repressReduce or 1
 end
 
 function slot9.SetOverrideLevel(slot0, slot1)
@@ -613,7 +599,7 @@ function slot9.ShiftWeapon(slot0, slot1, slot2)
 	end
 
 	for slot6, slot7 in ipairs(slot2) do
-		slot0:AddNewAutoWeapon(slot7)
+		slot0:AddNewAutoWeapon(slot7):InitialCD()
 	end
 end
 
@@ -816,6 +802,14 @@ function slot9.SetUncontrollableSpeed(slot0, slot1, slot2, slot3)
 	slot0._move:SetForceMove(slot1, slot2, slot3, slot2 / slot3)
 end
 
+function slot9.SetAdditiveSpeed(slot0, slot1)
+	slot0._move:UpdateAdditiveSpeed(slot1)
+end
+
+function slot9.RemoveAdditiveSpeed(slot0)
+	slot0._move:RemoveAdditiveSpeed()
+end
+
 function slot9.Boost(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._move:SetForceMove(slot1, slot2, slot3, slot4, slot5)
 end
@@ -868,11 +862,15 @@ function slot9.AddBuff(slot0, slot1)
 	slot2 = slot1:GetID()
 
 	if slot0:GetBuff(slot2) then
-		if slot1:GetLv() <= slot4:GetLv() then
+		slot5 = slot4:GetLv()
+		slot6 = slot1:GetLv()
+
+		if slot6 <= slot5 then
 			slot4:Stack(slot0)
 			slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, {
 				unit_id = slot0._uniqueID,
-				buff_id = slot2
+				buff_id = slot2,
+				buff_level = math.max(slot5, slot6)
 			}))
 		else
 			slot0:RemoveBuff(slot2)
@@ -886,8 +884,15 @@ function slot9.AddBuff(slot0, slot1)
 		slot0._buffList[slot2] = slot1
 
 		slot1:Attach(slot0)
+
+		slot3.buff_level = slot1:GetLv()
+
 		slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot3))
 	end
+
+	slot0:TriggerBuff(uv2.BuffEffectType.ON_BUFF_ADDED, {
+		buffID = slot2
+	})
 end
 
 function slot9.SetBuffStack(slot0, slot1, slot2, slot3)
@@ -921,6 +926,10 @@ function slot9.RemoveBuff(slot0, slot1)
 	if slot0:GetBuff(slot1) then
 		slot2:Remove()
 	end
+
+	slot0:TriggerBuff(uv0.BuffEffectType.ON_BUFF_REMOVED, {
+		buffID = slot1
+	})
 end
 
 function slot9.ClearBuff(slot0)
@@ -1431,4 +1440,49 @@ function slot9.RemoveExposed(slot0, slot1)
 	slot0._exposedList[slot1] = nil
 
 	slot0:DispatchEvent(uv0.Event.New(uv1.BLIND_EXPOSE))
+end
+
+function slot9.SetWorldDeathMark(slot0)
+	slot0._worldDeathMark = true
+end
+
+function slot9.GetWorldDeathMark(slot0)
+	return slot0._worldDeathMark
+end
+
+function slot9.InitCloak(slot0)
+	slot0._cloak = uv0.Battle.BattleUnitCloakComponent.New(slot0)
+
+	return slot0._cloak
+end
+
+function slot9.CloakOnFire(slot0, slot1)
+	if slot0._cloak then
+		slot0._cloak:UpdateDotExpose(slot1)
+	end
+end
+
+function slot9.CloakExpose(slot0, slot1)
+	if slot0._cloak then
+		slot0._cloak:AppendExpose(slot1)
+	end
+end
+
+function slot9.StrikeExpose(slot0)
+	if slot0._cloak then
+		slot0._cloak:AppendStrikeExpose()
+	end
+end
+
+function slot9.UpdateCloak(slot0, slot1)
+	slot0._cloak:Update(slot1)
+end
+
+function slot9.UpdateCloakConfig(slot0)
+	slot0._cloak:UpdateCloakConfig()
+	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_CLOAK_CONFIG))
+end
+
+function slot9.GetCloak(slot0)
+	return slot0._cloak
 end

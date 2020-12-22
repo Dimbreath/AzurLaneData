@@ -11,7 +11,7 @@ return {
 			bgm = "doa_boss",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "Aaaand we're back, nya! The second battle will begin in just a moment, nya!",
+			say = "让各位久等了喵！第二战马上开始喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "This time, it'll be a battle of sisters, nya! Representing the red team, we have Misaki and Nagisa, and fighting for the blue team, Admiral Hipper and Prinz Eugen, nya!",
+			say = "这次的主题是“姐妹VS姐妹”喵！双方选手分别是女神姐妹花·海咲&凪咲，以及铁血姐妹花·希佩尔&欧根喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600040,
-			say = "Fighting dressed up like this... I'm not really sure what I'm supposed to be doing here, but... I'm excited to be battling side-by-side with you, big sis. Let's do our best!",
+			say = "以这样的方式和姐姐“并肩作战”啊，还真有点不知道怎么办呢…总之一起加油吧，姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600050,
-			say = "Misaki... I don't want you to get hurt. Be careful, okay?",
+			say = "海咲你要小心点，别受伤了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600040,
-			say = "I'll be fine~ Akashi told us that we're using special ammo, remember?",
+			say = "放心啦，姐姐~{namecode:98}小姐前面不是说过，弹药都已经换成没有杀伤力的特殊型了嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600050,
-			say = "I know, but... don't let your guard down. You're my precious little sister... I'll protect you, so make sure to stay behind me at all times!",
+			say = "话、话是这么说，小心点总没错……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "You really don't need to... I'd like to shoot some rounds, too...",
+			say = "是~是~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Would you look at that. Sisters versus sisters. The Commander must have a kink for that sort of stuff, heheh.",
+			say = "嚯~对面也是“姐妹”啊，真是缘分啊，不是吗~？或者应该说，是指挥官安排得巧妙？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Quit being snarky and focus, Eugen! Are you ready or what?",
+			say = "玩笑话就适可而止吧，欧根。做好准备上了！可不要丢了派我们上场的指挥官的脸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ooh, feeling nervous because the Commander has high hopes for you, \"big\" sis?",
+			say = "哎呀，别这么紧绷嘛，难道是看到对手也是姐妹，再加上背负指挥官的期待，多少有些紧张了？“姐姐”~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Me? Nervous? Hah! You're just imagining things!",
+			say = "哈啊？紧张？你在说谁呢？我怎么可能因为这点小场面就紧张！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Right. My overactive imagination is the only explanation for why your hands are shaking.",
+			say = "拳头，在微微颤抖哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I-it's called shivering! I'm feeling a bit cold, that's all!",
+			say = "这、这是重樱经常说的“武者震”啦！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "That girl with the silver hair looks pretty formidable... So she's the little sister on their side, huh?",
+			say = "对面的“妹妹”，看起来不太好对付呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600040,
-			say = "You think so? All I know is I wanna chat 'em up!",
+			say = "欸~是吗？我倒觉得好像有不少话题可以跟她聊呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Well, what a coincidence. I was thinking much the same. We could talk about... sisterhood, and such.",
+			say = "哎呀？真巧，我也有同感呢~之后找个时间，我们来好~好聊下吧~关于“姐姐”的话题~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sure! We could totally hang out!",
+			say = "一言为定~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wh-whatever, just focus on the exercise!",
+			say = "所、所以说！把精神集中在比赛上啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Misaki, are you ready?",
+			say = "海咲，准备好了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Are you done there yet, nya? Good! Then the second round staaaarts... now, nya!",
+			say = "寒暄得差不多了喵？那么，比赛现在开始喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -44,10 +44,10 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 				uv1:extendData({
 					fromMediatorName = uv0.mediator.__cname
 				})
-				uv2:removeLayer(uv3.facade, uv0, function ()
-					uv2 = uv0.facade:removeMediator(uv1.mediator.__cname):getViewComponent()
+				uv2:removeLayerMediator(uv3.facade, uv0, function (slot0)
+					uv0 = slot0
 
-					uv3()
+					uv1()
 				end)
 			else
 				slot0()
@@ -76,13 +76,16 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 			slot0()
 		end,
 		function (slot0)
-			uv0:remove(uv1, function ()
-				if uv0 then
-					uv0:onContextRemoved()
-				end
-
-				uv1()
-			end)
+			if uv0 then
+				table.eachAsync(uv0, function (slot0, slot1, slot2)
+					uv0:remove(slot1.mediator:getViewComponent(), function ()
+						uv0.context:onContextRemoved()
+						uv1()
+					end)
+				end, slot0)
+			else
+				slot0()
+			end
 		end,
 		function (slot0)
 			uv0:enter({

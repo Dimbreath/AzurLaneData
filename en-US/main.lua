@@ -37,6 +37,21 @@ if (PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM 
 	pg.SdkMgr.GetInstance():InitSDK()
 end
 
+if PLATFORM_CODE == PLATFORM_JP then
+	slot0 = tf(GameObject.Find("LevelCamera/Canvas/UIMain/LevelGrid"))
+
+	RemoveComponent(slot0, typeof(Image))
+
+	slot0.offsetMin = Vector2(-200, -200)
+	slot0.offsetMax = Vector2(200, 200)
+
+	setActive(slot0:Find("DragLayer"), true)
+end
+
+if PLATFORM_CODE == PLATFORM_US then
+	setActive(tf(GameObject.Find("LevelCamera/Canvas/UIMain/LevelGrid")):Find("DragLayer"), true)
+end
+
 GetComponent(tf(GameObject.Find("OverlayCamera/Overlay/UIDebug/logs")), "Text").supportRichText = false
 
 pg.TimeMgr.GetInstance():Init()
@@ -133,6 +148,12 @@ function OnApplicationExit()
 		return
 	end
 
+	if nowWorld.staminaMgr:IsShowing() then
+		nowWorld.staminaMgr:Hide()
+
+		return
+	end
+
 	slot11:onBackPressed()
 end
 
@@ -191,6 +212,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.ToastMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.WorldToastMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.SecondaryPWDMgr.GetInstance():Init(slot0)

@@ -11,7 +11,7 @@ return {
 			bgm = "doa_boss",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "Commander! There's a new message on the terminal!",
+			say = "指挥官！终端有变化了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,11 +32,11 @@ return {
 			}
 		},
 		{
-			actorName = "Terminal",
+			actorName = "终端",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"All Missions complete. A teleportation device is being sent to Vacation Island at Coordinates (XXX,XXX)\"",
+			say = "「Congratulations！指令已全部达成，传送坐标已激活，请前往度假之岛指定坐标<XXX,XXX>启动传送装置」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Following the terminal's coordinates, we were able to find the teleportation device on Vacation Island.",
+			say = "根据终端指示的坐标为止，众人找到了岛上的传送装置。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Even though there was nothing here before... This really must have only just appeared, nya...",
+			say = "之前应该搜索过这个地方才对的喵…果然是达成条件以后才会出现的喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "A new message flashes on the terminal.",
+			say = "而终端机上也出现了对应的新信息——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,11 +105,11 @@ return {
 			}
 		},
 		{
-			actorName = "Terminal",
+			actorName = "终端",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"Will you activate the teleportation device? <YES> <NO>\"",
+			say = "「是否确定启动传送装置？<YES><NO>」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Looks like it's time for us all to part ways.",
+			say = "看来，离别的时刻终于到来了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Waaah! Marie... Everyone... Please take careeee!",
+			say = "呜欸~~~！玛莉妹妹~各位~我会想你们的~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Aww... Even though it's been a short stay, I had a really fun time with you all!",
+			say = "呜…虽然时间不算很长，但是玛莉在这边度过了一段很快乐的时光！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600020,
-			say = "Come on, Marie. The time for farewells is the time to put on your biggest smile. You're even making me... *sob*...",
+			say = "玛莉，告别的时候要笑着告别才行哦，虽然我也，我也……呜呜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600030,
-			say = "Thank you for all your help! Without you, we wouldn't be able to go back. I don't know how we can thank you enough...",
+			say = "多亏了有各位，还有指挥官，我们才能如此顺利地找到回去的路呢…谢谢你们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600070,
-			say = "Commander, everyone... I'd love to invite you all to the Venus Islands to show our gratitude, but...",
+			say = "有机会的话，真想招待你们去维纳斯群岛玩呢~不如…跟我们一起回去如何呀？指挥官，还有舰船的各位~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "I'd accept it in a heartbeat.",
+			say = "真是充满诱惑力的提议呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "*stare*...",
+			say = "盯——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "I'm joking, of course.",
+			say = "当然，这都是玩笑话罢了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Akashi... Everyone... really, thank you so much for taking such good care of us! You too, Commander! ...Really, we owe you, bigtime!",
+			say = "这段时间真是多亏{namecode:98}的帮助了呢，谢谢你，{namecode:98}！啊，当然还有指挥官和其他各位~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Even though you've taken a lot of impure glances at Misaki... you worked hard for our sake, so... I'll forgive you, just this once... you silly dog.",
+			say = "虽、虽然时不时会对海咲露出奇怪的表情，不过看在这段时间你这么努力帮我们的份上，我就原谅你好了，笨狗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600060,
-			say = "Everyone must part ways some day, but our bond shall remain strong. Undoubtedly, we shall meet again sometime, hehehe.",
+			say = "呵呵，天下无不散之筵席，而且我有预感，我们缘分未尽，总会在哪里再次相遇的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "She's right, as sad as it is. We all must part ways some day...",
+			say = "无论如何不舍，终归该有一别，现在，时候到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,11 +311,11 @@ return {
 			},
 			options = {
 				{
-					content = "Press <YES>",
+					content = "按下YES",
 					flag = 1
 				},
 				{
-					content = "Press <NO>",
+					content = "按下NO",
 					flag = 2
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "The teleporter activates and glows brightly. Right after, an elliptical portal appears in front of the girls.",
+			say = "对着屏幕按下后，传送装置发出了柔和的白光，并且逐渐扩大，形成了大约2米高的椭圆形光球，看来这就是通往她们故乡的入口了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "No matter how unwilling I was, I knew that we would have to say goodbye one day. And that day had come.",
+			say = "无论如何不舍，终归该有一别，现在，时候到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			},
 			options = {
 				{
-					content = "Press <YES>",
+					content = "按下YES",
 					flag = 1
 				}
 			}
@@ -357,7 +357,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "I can't be gloomy now. Time to see them off with a smile.",
+			say = "该微笑地目送她们返乡了吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm, what's this? Commander, the terminal has a new message, nya!",
+			say = "喵喵？指挥官？那个终端…好像出现了新的文字喵！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actorName = "Terminal",
+			actorName = "终端",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"Teleporter activation complete. The teleporter will be active for a period of 7 hours every 168 hours. Note that only certain entities are able to travel through this portal.\"",
+			say = "「传送装置启动完毕。此后，传送装置将以一周(168小时)为周期循环启动，每次启动时间为7小时。※传送装置已录入生物信息，仅可传送指定人员。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "It can work on its own?!",
+			say = "竟然还能循环启动的吗！？",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actorName = "Terminal",
+			actorName = "终端",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"Mission complete. Terminal deactivating. Have a pleasant vacation.\"",
+			say = "「备注：本终端已完成任务，即将停止机能。传送装置即将进入保守运行状态。祝愿各位有一个美好的假日。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh... the terminal stopped working...",
+			say = "啊…终端…停止运作了喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600010,
-			say = "Umm, then that means... we can come here anytime, right?",
+			say = "呼欸？这个意思是…玛莉我们可以留在这边再多玩一会了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yep! I'm so happy that our farewell doesn't have to be forever...!",
+			say = "嗯！虽然也没有那么方便，但至少不是永远的告别了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600030,
-			say = "Heheh, looks like I have plenty of pleasant chats with the Sakura Empire girls to look forward to!",
+			say = "呵呵~可以跟重樱的各位再多交流交流了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600070,
-			say = "And I've still yet to make some high-stakes bets with all of you~♪",
+			say = "唔…看来是没办法招待各位前往维纳斯群岛了呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			actor = 10600040,
 			nameColor = "#a9f548",
-			say = "Isn't this great, sis?",
+			say = "真是太好了呢，姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I-I don't really care...! But, well, if you're happy, then I'm happy too.",
+			say = "哼、哼！也没有很惊喜就是了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600060,
-			say = "Hehehe. It would seem we still have much fun ahead of us.",
+			say = "看来缘分比想象中的要更早归来呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Through some stroke of luck, our vacation with our new friends just received a new lease on life.",
+			say = "与来自远方的友人共度的假日，看来可以再持续一阵子了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

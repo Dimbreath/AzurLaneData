@@ -56,6 +56,7 @@ function slot0.init(slot0)
 		slot0:findTF("frame/scroll_rect/tagRoot/chanllenge", slot0.leftPanel),
 		slot0:findTF("frame/scroll_rect/tagRoot/extra_chapter", slot0.leftPanel),
 		slot0:findTF("frame/scroll_rect/tagRoot/boss_battle", slot0.leftPanel),
+		slot0:findTF("frame/scroll_rect/tagRoot/guild", slot0.leftPanel),
 		slot0:findTF("frame/scroll_rect/tagRoot/military", slot0.leftPanel)
 	}
 	slot0.ptToggles = {}
@@ -89,7 +90,7 @@ function slot0.updateToggles(slot0)
 	for slot4, slot5 in pairs(slot0.toggles) do
 		slot6 = nil
 
-		setActive(slot5, (not PowerRank.typeInfo[slot4].act_type or PowerRank:getActivityByRankType(slot4)) and slot4 ~= PowerRank.TYPE_PLEDGE)
+		setActive(slot5, (not PowerRank.typeInfo[slot4].act_type or PowerRank:getActivityByRankType(slot4)) and (slot4 ~= PowerRank.TYPE_PLEDGE or false) and (slot4 == PowerRank.TYPE_GUILD_BATTLE and true or true))
 	end
 
 	for slot4, slot5 in pairs(slot0.ptToggles) do
@@ -114,6 +115,13 @@ function slot0.didEnter(slot0)
 
 	for slot4, slot5 in pairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
+			if uv0 == PowerRank.TYPE_GUILD_BATTLE then
+				setActive(uv1.mainPanel, not slot0)
+				uv1:emit(BillboardMediator.ON_GUILD_RANK, slot0)
+
+				return
+			end
+
 			if slot0 then
 				uv1:switchPage(uv0, checkExist(PowerRank:getActivityByRankType(uv0), {
 					"id"

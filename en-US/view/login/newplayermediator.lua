@@ -14,7 +14,7 @@ function slot0.register(slot0)
 			mediator = SkillInfoMediator,
 			viewComponent = SkillInfoLayer,
 			data = {
-				fromNewShip = 1,
+				fromNewShip = true,
 				skillId = slot1
 			}
 		}))

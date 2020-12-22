@@ -6,7 +6,7 @@ function slot0.execute(slot0, slot1)
 	}):getExchangePrice()
 	slot11 = getProxy(BagProxy):getItemById(ITEM_ID_SILVER_HOOK)
 
-	if getProxy(PlayerProxy):getData().ship_bag_max <= #getProxy(BayProxy):getShips() then
+	if getProxy(PlayerProxy):getData():getMaxShipBag() <= #getProxy(BayProxy):getShips() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
 		return

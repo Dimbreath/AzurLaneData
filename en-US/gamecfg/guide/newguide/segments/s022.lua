@@ -51,6 +51,31 @@ return {
 			}
 		},
 		{
+			alpha = 0.276,
+			style = {
+				text = "Choose campaign",
+				mode = 1,
+				dir = -1,
+				posY = -50,
+				posX = 250
+			},
+			ui = {
+				pathIndex = -1,
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
+				triggerType = {
+					1
+				},
+				fingerPos = {
+					posY = -28.32,
+					posX = 43.74
+				}
+			},
+			code = {
+				1,
+				2
+			}
+		},
+		{
 			alpha = 0.34,
 			style = {
 				text = "Now, select the <color=#ff7d36>Offshore Exercises</color> stage.",
@@ -63,26 +88,6 @@ return {
 				pathIndex = -1,
 				delay = 1.8,
 				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/float/levels/items/Chapter_101/main",
-				childAdjust = {
-					{
-						"circle",
-						"scale",
-						{
-							1,
-							1,
-							1
-						}
-					},
-					{
-						"info/bk",
-						"position",
-						{
-							0,
-							0,
-							0
-						}
-					}
-				},
 				triggerType = {
 					1
 				},
@@ -109,7 +114,7 @@ return {
 		{
 			alpha = 0.435,
 			style = {
-				text = "Tap <color=#ff7d36>go</color> to start searching for the enemy!",
+				text = "Tap<color=#ff7d36> to go </color> and start scanning",
 				mode = 2,
 				dir = 1,
 				posY = 0,

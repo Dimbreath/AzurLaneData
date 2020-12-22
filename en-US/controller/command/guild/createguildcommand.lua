@@ -36,17 +36,20 @@ function slot0.execute(slot0, slot1)
 					transform_flag = uv1.transformFlag,
 					skin = uv1.skinId,
 					marry_flag = uv1.proposeTime
-				}
+				},
+				join_time = pg.TimeMgr.GetInstance():GetServerTime()
 			})
 
-			slot3:setDuty(GuildMember.DUTY_COMMANDER)
+			slot3:setDuty(GuildConst.DUTY_COMMANDER)
 			slot1:addMember(slot3)
+			slot1:StartTech(pg.guildset.guild_tech_default.key_value)
 			getProxy(GuildProxy):addGuild(slot1)
 			uv1:consume({
 				gem = uv2
 			})
 			uv3:updatePlayer(uv1)
 			uv4:sendNotification(GAME.CREATE_GUILD_DONE)
+			uv4:sendNotification(GAME.GUILD_GET_USER_INFO)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_sucess"))
 		elseif slot0.result == 2015 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_name_invaild"))

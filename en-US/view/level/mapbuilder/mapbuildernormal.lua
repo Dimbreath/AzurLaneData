@@ -332,29 +332,20 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 			setText(slot19:Find("Text"), setColorStr(slot21 - slot2:getTodayDefeatCount() .. "/" .. slot21, slot21 <= slot2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
 		end
 
-		for slot26, slot27 in ipairs(slot2:getConfig("boss_expedition_id")) do
-			slot22 = math.max(0, pg.expedition_activity_template[slot27] and slot28.bonus_time or 0)
-		end
+		slot21 = slot2:GetDailyBonusQuota()
+		slot22 = findTF(slot4, "mark")
 
-		if pg.chapter_defense[slot2.id] then
-			slot22 = math.max(slot22, slot23.bonus_time or 0)
-		end
+		setActive(slot22:Find("bonus"), slot21)
+		setActive(slot22, slot21)
 
-		slot24 = findTF(slot4, "mark")
-		slot26 = not slot0.data:isRemaster() and slot22 > 0 and math.max(slot22 - slot2.todayDefeatCount, 0) > 0
+		if slot21 then
+			slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.sceneParent.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot22:Find("bonus"))
+			LeanTween.cancel(go(slot22), true)
 
-		warning(slot2.id, bonusTIme, slot26)
-		setActive(slot24:Find("bonus"), slot26)
-		setActive(slot24, slot26)
+			slot26 = slot22.anchoredPosition.y
+			slot22:GetComponent(typeof(CanvasGroup)).alpha = 0
 
-		if slot26 then
-			slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.sceneParent.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot24:Find("bonus"))
-			LeanTween.cancel(go(slot24), true)
-
-			slot30 = slot24.anchoredPosition.y
-			slot24:GetComponent(typeof(CanvasGroup)).alpha = 0
-
-			LeanTween.value(go(slot24), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
+			LeanTween.value(go(slot22), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 				uv0.alpha = slot0
 				slot1 = uv1.anchoredPosition
 				slot1.y = uv2 * slot0

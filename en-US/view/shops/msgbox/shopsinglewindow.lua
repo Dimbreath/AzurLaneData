@@ -11,6 +11,8 @@ function slot0.OnLoaded(slot0)
 	slot0.itemOwnTF = slot0:findTF("icon_bg/own/Text", slot0.itemTF)
 	slot0.itemOwnLabelTF = slot0:findTF("icon_bg/own/label", slot0.itemTF)
 	slot0.confirmBtn = slot0:findTF("window/actions/confirm_btn")
+	slot0.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
+	slot0.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
 
 	setText(slot0:findTF("window/actions/cancel_btn/pic"), i18n("shop_word_cancel"))
 	setText(slot0:findTF("window/actions/confirm_btn/pic"), i18n("shop_word_exchange"))

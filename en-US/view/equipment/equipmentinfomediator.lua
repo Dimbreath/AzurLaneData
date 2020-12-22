@@ -16,6 +16,7 @@ slot0.ON_CHANGE = "EquipmentInfoMediator.ON_CHANGE"
 slot0.ON_UNEQUIP = "EquipmentInfoMediator:ON_UNEQUIP"
 slot0.ON_REVERT = "EquipmentInfoMediator:ON_REVERT"
 slot0.ON_MOVE = "EquipmentInfoMediator:ON_MOVE"
+slot0.OPEN_LAYER = "OPEN LAYER"
 
 function slot0.register(slot0)
 	if getProxy(ContextProxy):getCurrentContext().scene == SCENE.EQUIPSCENE then
@@ -120,6 +121,9 @@ function slot0.register(slot0)
 			page = 2,
 			shipId = slot1
 		})
+	end)
+	slot0:bind(uv0.OPEN_LAYER, function (slot0, ...)
+		uv0:addSubLayers(...)
 	end)
 	slot0.viewComponent:setEquipment(getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.equipmentId) or slot5 and slot5 > 0 and Equipment.New({
 		id = slot5

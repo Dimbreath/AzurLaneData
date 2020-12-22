@@ -7,8 +7,8 @@ return {
 				text = "Tap here to change Quick Retire settings.",
 				mode = 1,
 				dir = -1,
-				posY = -107,
-				posX = -570
+				posY = -285,
+				posX = -302
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/setting",
@@ -30,17 +30,8 @@ return {
 				text = "In the top part, select which ship rarities you would like to prioritize.",
 				mode = 1,
 				dir = 1,
-				posY = 277,
-				posX = -645,
-				charPos = {
-					x = -24.99997,
-					y = -239.1717
-				},
-				hand = {
-					w = 0,
-					x = 96,
-					y = -235
-				}
+				posY = 101.6,
+				posX = -56.2
 			}
 		},
 		{
@@ -49,17 +40,8 @@ return {
 				text = "In the bottom part, select what you would like to do for duplicate copies of ships you already own.",
 				mode = 1,
 				dir = 1,
-				posY = 95.206,
-				posX = -674,
-				charPos = {
-					x = -24.99997,
-					y = -239.1717
-				},
-				hand = {
-					w = -62,
-					x = 96,
-					y = -235
-				}
+				posY = -159.6,
+				posX = 13.3
 			}
 		},
 		{
@@ -68,7 +50,7 @@ return {
 				text = "Tap on the Help button to view detailed Quick Retire conditions",
 				mode = 1,
 				dir = -1,
-				posY = 377.1,
+				posY = 150.7,
 				posX = 224.01
 			},
 			ui = {

@@ -66,7 +66,12 @@ function slot0.setPlayer(slot0, slot1)
 	setText(slot0._playerBonusExp, "+0")
 
 	slot0.calcPlayerProgress = slot0.calcPlayerExp
-	slot3 = slot0.contextData.extraBuffList
+
+	for slot7, slot8 in ipairs(slot0.contextData.extraBuffList) do
+		if pg.benefit_buff_template[slot8].benefit_type == Chapter.OPERATION_BUFF_TYPE_EXP then
+			setActive(slot0._playerExpExtra, true)
+		end
+	end
 end
 
 function slot0.setExpBuff(slot0, slot1, slot2)
@@ -340,12 +345,20 @@ function slot0.showRewardInfo(slot0)
 		end
 
 		slot4 = false
-		slot5 = uv0.contextData.extraBuffList
+
+		for slot9, slot10 in ipairs(uv0.contextData.extraBuffList) do
+			if pg.benefit_buff_template[slot10].benefit_type == Chapter.OPERATION_BUFF_TYPE_REWARD then
+				slot4 = true
+
+				break
+			end
+		end
 
 		if table.getCount(PlayerConst.BonusItemMarker(slot0)) > 0 then
 			uv0:emit(BaseUI.ON_AWARD, {
-				items = slot0,
-				onYes = uv1
+				items = slot3,
+				extraBonus = slot4,
+				removeFunc = uv1
 			})
 			coroutine.yield()
 

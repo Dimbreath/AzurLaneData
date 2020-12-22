@@ -84,6 +84,15 @@ pg.strategy_data_template = {
 			area_scout
 		}
 	},
+	[47] = {
+		buff_id = 0,
+		name = "High-Efficiency Operation",
+		type = 10,
+		id = 47,
+		icon = "tebiezuozhan",
+		desc = "Increases the Oil spent on this current stage by 100%;\nIn the process, increases the Commander EXP, Meowfficer EXP, and Ship EXP gained by 100%, and grants an additional drop chance. Mood consumption and Affection gain are both increased by 100%. ",
+		arg = {}
+	},
 	[90] = {
 		buff_id = 90,
 		name = "RED ALERT!",
@@ -301,6 +310,7 @@ pg.strategy_data_template = {
 		10,
 		11,
 		12,
+		47,
 		90,
 		91,
 		92,

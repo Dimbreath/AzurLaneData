@@ -95,7 +95,7 @@ function slot0.update_task_list_mikasa_museum(slot0, slot1, slot2, slot3)
 			}), function (slot0)
 				return uv0:getFinishTaskById(slot0) ~= nil
 			end) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("word_museum_1"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("word_museum_1"))
 			else
 				uv3:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 					page = "activity"

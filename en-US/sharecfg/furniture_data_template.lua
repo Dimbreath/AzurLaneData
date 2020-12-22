@@ -69591,6 +69591,1204 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[73001] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibancs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/dibancs4",
+		canputon = 0,
+		count = 1,
+		describe = "Genuine pine, of course.",
+		advice = 0,
+		deblocking = 1,
+		id = 73001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73002] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbics4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/qiangbics4",
+		canputon = 0,
+		count = 1,
+		describe = "A shade of biege that harkens back to a simpler time.",
+		advice = 0,
+		deblocking = 1,
+		id = 73002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73101] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "christmas4/1cs4",
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		describe = "Gather round now!",
+		advice = 0,
+		id = 73101,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-117.4,
+					70.2
+				},
+				{
+					1,
+					1
+				},
+				"christmas4/1cs4_using"
+			},
+			{
+				"sit",
+				{
+					27.5,
+					77.4
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/1cs4_using"
+			},
+			{
+				"sit",
+				{
+					116.4,
+					32.9
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/1cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73102] = {
+		can_rotate = 0,
+		name = "Large Brown Teddy Bear",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/2cs4",
+		canputon = 0,
+		count = 1,
+		describe = "You know the drill. Bear hug time.",
+		advice = 0,
+		deblocking = 1,
+		id = 73102,
+		comfortable = 3,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73103] = {
+		can_rotate = 0,
+		name = "Manjuu Grandmaster",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "christmas4/3cs4",
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		describe = "Was the uncontested chess champion until they created Big Azure.",
+		advice = 0,
+		id = 73103,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					68.4,
+					61.3
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/3cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73104] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Telescope",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/4cs4",
+		canputon = 0,
+		count = 1,
+		describe = "♪ Open your eyes, look up to the skies and see ♪",
+		advice = 0,
+		deblocking = 1,
+		id = 73104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73105] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Shelves",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/5cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Almost as stuffed as the stockings.",
+		advice = 0,
+		deblocking = 1,
+		id = 73105,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73106] = {
+		can_rotate = 0,
+		name = "Cozy Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/6cs4",
+		canputon = 0,
+		count = 1,
+		describe = "It's... dry! Amazingly.",
+		advice = 0,
+		deblocking = 1,
+		id = 73106,
+		comfortable = 2,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73107] = {
+		can_rotate = 0,
+		name = "Pile of Firewood",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/7cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Every bit of chopped wood gets logged these days.",
+		advice = 0,
+		deblocking = 1,
+		id = 73107,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73108] = {
+		can_rotate = 0,
+		name = "Chilly Pond",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "christmas4/8cs4",
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		describe = "Here's your complimentary towel and hypothermia.",
+		advice = 0,
+		id = 73108,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					42.7,
+					-35.6
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/8cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73109] = {
+		can_rotate = 0,
+		name = "Gorgeous Christmas Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/9cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Equipped with motion sensors. Nobody's opening presents early without an alarm going off.",
+		advice = 0,
+		deblocking = 1,
+		id = 73109,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73110] = {
+		can_rotate = 0,
+		name = "Pile of Toys",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/10cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Remember to put them away when you're done playing.",
+		advice = 0,
+		deblocking = 1,
+		id = 73110,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73111] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Floor Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/11cs4",
+		canputon = 0,
+		count = 1,
+		describe = "With a glow as pure and white as the snow.",
+		advice = 0,
+		deblocking = 1,
+		id = 73111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73112] = {
+		can_rotate = 0,
+		name = "Christmas Snowglobe",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/12cs4",
+		canputon = 0,
+		count = 1,
+		describe = "A microcosm of Christmas spirit.",
+		advice = 0,
+		deblocking = 1,
+		id = 73112,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73113] = {
+		can_rotate = 0,
+		name = "Cozy Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/13cs4",
+		canputon = 0,
+		count = 2,
+		describe = "It doesn't get better than this. Happy holidays.",
+		advice = 0,
+		deblocking = 1,
+		id = 73113,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73114] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "christmas4/14cs4",
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		describe = "You can almost hear it beckoning you to sit down and get comfy.",
+		advice = 0,
+		id = 73114,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					22,
+					10
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73115] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "christmas4/15cs4",
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		describe = "Early to bed and early to rise to open those presents as soon as one can.",
+		advice = 0,
+		id = 73115,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-23,
+					35
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73116] = {
+		can_rotate = 0,
+		name = "Big Christmas Cake",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/16cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Don't listen to the haters. Christmas cakes are still good after the 25th.",
+		advice = 0,
+		deblocking = 1,
+		id = 73116,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73117] = {
+		can_rotate = 0,
+		name = "Christmas Caroler",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "17cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/17cs4",
+		canputon = 0,
+		count = 1,
+		describe = "The Manjuu would love to sing, but it's honoring the Silent Night.",
+		advice = 0,
+		deblocking = 1,
+		id = 73117,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73118] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Gramophone",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "18cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/18cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Plays all those nostalgic vinyls your grandpa still has.",
+		advice = 0,
+		deblocking = 1,
+		id = 73118,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73119] = {
+		can_rotate = 0,
+		name = "Piano-playing Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "19cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/19cs4",
+		canputon = 0,
+		count = 1,
+		describe = "It's actually a player piano, but let the manjuu have its fun.",
+		advice = 0,
+		deblocking = 1,
+		id = 73119,
+		comfortable = 2,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73120] = {
+		can_rotate = 1,
+		name = "Cozy Christmas Square Rug",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "20cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/20cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Depicts a scene you've probably seen 100 times by now.",
+		advice = 0,
+		deblocking = 1,
+		id = 73120,
+		comfortable = 2,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73121] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Fireplace",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "21cs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/21cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Would it spoil the mood if I told you it's actually a big heater with a TV screen?",
+		advice = 0,
+		deblocking = 1,
+		id = 73121,
+		comfortable = 2,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73122] = {
+		name = "Manjuu Sled",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Acs4icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 73,
+		deblocking = 1,
+		count = 1,
+		describe = "\"Now, Chicky! Now, Tweety! Now, Tenders, and Manjuu!\"",
+		id = 73122,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Acs4B",
+				"normal"
+			},
+			{
+				"Acs4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"Acs4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[73301] = {
+		can_rotate = 0,
+		name = "Deer Head Decoration",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "22cs4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/22cs4",
+		canputon = 0,
+		count = 1,
+		describe = "This might be sending the wrong messages to the reindeers...",
+		advice = 0,
+		deblocking = 1,
+		id = 73301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73302] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Stockings",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "23cs4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/23cs4",
+		canputon = 0,
+		count = 1,
+		describe = "It's a bit like a loot box, if you want to be overly cynical.",
+		advice = 0,
+		deblocking = 1,
+		id = 73302,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73303] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Ribbons",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "24cs4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/24cs4",
+		canputon = 0,
+		count = 6,
+		describe = "You can hang these anywhere during Christmas and it just works.",
+		advice = 0,
+		deblocking = 1,
+		id = 73303,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73304] = {
+		can_rotate = 0,
+		name = "Cozy Christmas Windowsill",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "25cs4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/25cs4",
+		canputon = 0,
+		count = 4,
+		describe = "Fogs up when you breathe on it. Just as it should.",
+		advice = 0,
+		deblocking = 1,
+		id = 73304,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73305] = {
+		can_rotate = 0,
+		name = "Starry Hanging Lights",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "26cs4icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 73,
+		spine_action_replace = "",
+		picture = "christmas4/26cs4",
+		canputon = 0,
+		count = 1,
+		describe = "Twinkles like a pole star. No, not that kind of pole...",
+		advice = 0,
+		deblocking = 1,
+		id = 73305,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -71162,6 +72360,35 @@ pg.furniture_data_template = {
 		72122,
 		72123,
 		72124,
-		72125
+		72125,
+		73001,
+		73002,
+		73101,
+		73102,
+		73103,
+		73104,
+		73105,
+		73106,
+		73107,
+		73108,
+		73109,
+		73110,
+		73111,
+		73112,
+		73113,
+		73114,
+		73115,
+		73116,
+		73117,
+		73118,
+		73119,
+		73120,
+		73121,
+		73122,
+		73301,
+		73302,
+		73303,
+		73304,
+		73305
 	}
 }

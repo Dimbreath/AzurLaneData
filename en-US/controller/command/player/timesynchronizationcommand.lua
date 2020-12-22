@@ -10,19 +10,15 @@ function slot0.execute(slot0, slot1)
 		slot4:flushTimesListener()
 	end
 
-	if getProxy(ShopsProxy):getGuildShop() then
-		slot5:addGuildShopRefreshTimer()
-	end
+	slot5, slot6 = slot3:getExChangeItemInfo()
 
-	slot6, slot7 = slot3:getExChangeItemInfo()
-
-	if slot6 and slot7 then
+	if slot5 and slot6 then
 		slot3:addExChangeItemTimer()
 	end
 
 	if getProxy(MilitaryExerciseProxy):getSeasonInfo() then
-		slot8:addRefreshCountTimer()
-		slot8:addSeasonOverTimer()
+		slot7:addRefreshCountTimer()
+		slot7:addSeasonOverTimer()
 	end
 end
 

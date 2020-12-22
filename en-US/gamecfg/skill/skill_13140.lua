@@ -30,11 +30,11 @@ return {
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
 			target_choise = {
-				"TargetAllHelp",
-				"TargetPlayerMainFleet"
+				"TargetAllHelp"
 			},
 			arg_list = {
-				buff_id = 13142
+				buff_id = 13142,
+				exceptCaster = true
 			}
 		}
 	}

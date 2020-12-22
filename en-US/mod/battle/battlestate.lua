@@ -88,16 +88,18 @@ function slot2.Ctor(slot0)
 	slot0:ChangeState(uv0.BATTLE_STATE_IDLE)
 end
 
-function slot2.IsAutoBotActive()
-	return PlayerPrefs.GetInt("autoBotIsAcitve", 0) == 1 and AutoBotCommand.autoBotSatisfied()
+function slot2.IsAutoBotActive(slot0)
+	return PlayerPrefs.GetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(slot0), 0) == 1 and AutoBotCommand.autoBotSatisfied()
 end
 
-function slot2.IsAutoSubActive()
-	return PlayerPrefs.GetInt("autoSubIsAcitve", 0) == 1
+function slot2.IsAutoSubActive(slot0)
+	return PlayerPrefs.GetInt("autoSubIsAcitve" .. AutoSubCommand.GetAutoSubMark(slot0), 0) == 1
 end
 
 function slot2.ChatUseable(slot0)
-	return (not PlayerPrefs.GetInt(HIDE_CHAT_FLAG) or slot1 ~= 1) and (slot0:GetBattleType() == SYSTEM_DUEL or slot0.IsAutoBotActive())
+	slot3 = slot0:GetBattleType()
+
+	return (not PlayerPrefs.GetInt(HIDE_CHAT_FLAG) or slot1 ~= 1) and (slot3 == SYSTEM_DUEL or slot0.IsAutoBotActive(slot3))
 end
 
 function slot2.GetState(slot0)
@@ -136,10 +138,14 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSubRoutineCommand.New())
 	elseif slot1.battleType == SYSTEM_HP_SHARE_ACT_BOSS or slot1.battleType == SYSTEM_BOSS_EXPERIMENT then
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleInheritDungeonCommand.New())
+	elseif slot1.battleType == SYSTEM_WORLD_BOSS then
+		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleWorldBossCommand.New())
 	elseif slot1.battleType == SYSTEM_DEBUG then
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleDebugCommand.New())
 	elseif slot1.battleType == SYSTEM_AIRFIGHT then
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleAirFightCommand.New())
+	elseif slot1.battleType == SYSTEM_GUILD then
+		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleGuildBossCommand.New())
 	else
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSingleDungeonCommand.New())
 	end

@@ -55,6 +55,16 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.activityProxy = getProxy(ActivityProxy)
+	slot0.userTF = findTF(slot0.tr, "content/user")
+
+	if slot0.userTF then
+		slot0.userIconTF = slot0.userTF:Find("icon"):GetComponent(typeof(Image))
+		slot0.userIconFrame = slot0.userTF:Find("frame")
+		slot0.userNameTF = findTF(slot0.tr, "content/user_name/Text"):GetComponent(typeof(Text))
+		slot0.levelTF = findTF(slot0.tr, "content/dockyard/lv")
+	end
+
+	slot0.palyerId = getProxy(PlayerProxy):getRawData().id
 end
 
 function slot0.update(slot0, slot1)
@@ -107,8 +117,6 @@ function slot0.flush(slot0)
 			return
 		end
 
-		slot5 = slot1.bindingData and slot4.class == WorldMapShip
-
 		flushShipCard(slot0.tr, slot1, function (slot0, slot1)
 			if isa(uv0.shipVO, Ship) and uv0.shipVO.configId == slot1 then
 				findTF(uv0.tr, "content/ship_icon"):GetComponent("Image").sprite = slot0
@@ -125,16 +133,26 @@ function slot0.flush(slot0)
 				warning("找不到疲劳")
 			end
 
-			setImageSprite(slot0.energyTF, slot8)
+			setImageSprite(slot0.energyTF, slot6)
 		end
 
-		setActive(slot0.energyTF, slot7)
+		setActive(slot0.energyTF, slot5)
 		setText(slot0.nameTF, shortenString(slot1:getName(), 7))
 
-		if ShipStatus.ShipStatusToTag(slot1, slot0.hideTagFlags) then
-			slot0.iconStatusTxt.text = slot8[3]
+		slot6 = nil
 
-			GetSpriteFromAtlasAsync(slot8[1], slot8[2], function (slot0)
+		if slot1.user then
+			slot7 = Clone(slot1)
+			slot7.id = GuildAssaultFleet.GetRealId(slot7.id)
+			slot6 = ShipStatus.ShipStatusToTag(slot7, slot0.hideTagFlags)
+		else
+			slot6 = ShipStatus.ShipStatusToTag(slot1, slot0.hideTagFlags)
+		end
+
+		if slot6 then
+			slot0.iconStatusTxt.text = slot6[3]
+
+			GetSpriteFromAtlasAsync(slot6[1], slot6[2], function (slot0)
 				setImageSprite(uv0.iconStatus, slot0, true)
 				setActive(uv0.iconStatus, true)
 
@@ -151,21 +169,21 @@ function slot0.flush(slot0)
 			return
 		end
 
-		slot9, slot10, slot11 = slot1:getIntimacyDetail()
+		slot7, slot8, slot9 = slot1:getIntimacyDetail()
 
-		if slot10 <= slot11 and not slot1.propose and not slot6 then
+		if slot8 <= slot9 and not slot1.propose and not slot4 then
 			if slot0.proposeTF.childCount == 0 then
 				slot0.proposeModel = LoadAndInstantiateSync("UI", "heartShipCard")
 				slot0.sg = GetComponent(slot0.proposeModel, "SkeletonGraphic")
 
 				slot0.proposeModel.transform:SetParent(slot0.proposeTF, false)
 
-				slot13 = GetComponent(slot0.proposeModel, typeof(RectTransform))
-				slot13.localScale = Vector3(0.5, 0.5, 0.5)
-				slot13.rect.height = 40
-				slot13.rect.width = 40
-				slot13.localPosition = Vector3(0, 0, 0)
-				slot13.localRotation = Vector3(0, 0, 0)
+				slot11 = GetComponent(slot0.proposeModel, typeof(RectTransform))
+				slot11.localScale = Vector3(0.5, 0.5, 0.5)
+				slot11.rect.height = 40
+				slot11.rect.width = 40
+				slot11.localPosition = Vector3(0, 0, 0)
+				slot11.localRotation = Vector3(0, 0, 0)
 			end
 
 			slot0.sg.enabled = true
@@ -173,29 +191,76 @@ function slot0.flush(slot0)
 			slot0.sg.enabled = false
 		end
 
-		if slot5 then
-			setActive(slot0.hpBar, true)
-			setActive(slot0.hpBar:Find("fillarea/green"), slot4:IsHpSafe())
-			setActive(slot0.hpBar:Find("fillarea/red"), not slot4:IsHpSafe())
-
-			slot0.hpBar:GetComponent(typeof(Slider)).fillRect = slot4:IsHpSafe() and slot12 or slot13
-
-			setSlider(slot0.hpBar, 0, 10000, slot4.hpRant)
-
-			if slot0.maskStatusOb then
-				setActive(slot0.maskStatusOb, not slot4:IsAlive())
-			end
-		elseif slot0.hpBar then
+		if slot0.hpBar then
 			setActive(slot0.hpBar, false)
 		end
 
 		slot0:UpdateExpBuff()
 	end
 
+	if slot0.userTF then
+		slot0:UpdateUser(slot1)
+	end
+
 	slot0.content:SetActive(slot2)
 	slot0.quit:SetActive(not slot2)
 
 	slot0.btn.targetGraphic = slot2 and slot0.imageFrame or slot0.imageQuit
+end
+
+function slot0.UpdateUser(slot0, slot1)
+	slot0:clear()
+
+	slot2 = tobool(slot1) and slot1.user
+	slot3 = slot2 and slot2.id ~= slot0.palyerId
+
+	setActive(slot0.userTF, slot3 and slot0.detailType == uv0.DetailType0)
+	setActive(slot0.userNameTF.gameObject.transform.parent, slot3)
+
+	if slot3 and slot2 ~= slot0.user then
+		LoadSpriteAsync("qicon/" .. Ship.New({
+			configId = slot2.icon
+		}):getPrefab(), function (slot0)
+			uv0.userIconTF.sprite = slot0
+		end)
+
+		slot5 = AttireFrame.attireFrameRes(slot2, isSelf, AttireConst.TYPE_ICON_FRAME, slot2.propose)
+
+		PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot5, slot5, true, function (slot0)
+			if IsNil(uv0.tr) then
+				return
+			end
+
+			if uv0.userIconFrame then
+				slot0.name = uv1
+
+				setParent(slot0, uv0.userIconFrame, false)
+			else
+				PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
+			end
+		end)
+
+		slot0.userNameTF.text = slot2.name
+		slot0.user = slot2
+
+		setAnchoredPosition(slot0.levelTF, {
+			x = -108
+		})
+
+		return
+	end
+
+	setAnchoredPosition(slot0.levelTF, {
+		x = -16
+	})
+end
+
+function slot0.clear(slot0)
+	if slot0.userIconFrame.childCount > 0 then
+		slot1 = slot0.userIconFrame:GetChild(0).gameObject
+
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1.name, slot1.name, slot1)
+	end
 end
 
 function slot0.flushDetail(slot0)
@@ -273,11 +338,17 @@ function slot0.flushDetail(slot0)
 	end
 
 	slot0.detail:SetActive(slot2 and uv0.DetailType0 < slot0.detailType)
+
+	if slot0.userTF then
+		slot0:UpdateUser(slot1)
+	end
 end
 
 function slot0.canModAttr(slot0, slot1, slot2, slot3)
 	if slot1:isBluePrintShip() then
 		return slot1:getBluePrint():isMaxIntensifyLevel()
+	elseif slot1:isMetaShip() then
+		return slot1:getMetaCharacter():isMaxRepairExp()
 	elseif not ShipModAttr.ATTR_TO_INDEX[slot2] then
 		return true
 	elseif slot1:getModAttrTopLimit(slot2) == 0 then
@@ -312,6 +383,25 @@ function slot0.updateBlackBlock(slot0, slot1)
 
 	if slot0.maskStatusOb then
 		setActive(slot0.maskStatusOb, slot2)
+	end
+end
+
+function slot0.updateWorld(slot0)
+	if slot0.shipVO:getFlag("inWorld") then
+		slot2 = WorldConst.FetchWorldShip(slot1.id)
+
+		setActive(slot0.hpBar, true)
+		setActive(slot0.hpBar:Find("fillarea/green"), slot2:IsHpSafe())
+		setActive(slot0.hpBar:Find("fillarea/red"), not slot2:IsHpSafe())
+
+		slot0.hpBar:GetComponent(typeof(Slider)).fillRect = slot2:IsHpSafe() and slot3 or slot4
+
+		setSlider(slot0.hpBar, 0, 10000, slot2.hpRant)
+		setActive(slot0.hpBar:Find("broken"), slot2:IsBroken())
+
+		if slot0.maskStatusOb then
+			setActive(slot0.maskStatusOb, not slot2:IsAlive())
+		end
 	end
 end
 

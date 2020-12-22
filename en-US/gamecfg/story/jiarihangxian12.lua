@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "Hmm... The progress is still listed at 85%, and I still can't trace the source of the signal, nya...",
+			say = "唔…虽然进度已经到达了85%…不过还是没能追踪到信号的来源喵……",
 			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "There's not much we can do. It's probably one of you-know-who's plans anyway... For now, let's just work on getting it to 100%.",
+			say = "罢了，按照这种展开，八成又是“那群家伙”搞的鬼…等进度满了看看会出现什么新的提示吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "On that note, looks like the final round will feature...",
+			say = "不过，最后的对手啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Nyotengu, nya... She's a literal legend among us from the Sakura Empire...",
+			say = "女天狗…没想到真的是重樱传说里的大妖怪喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Hmm... Who should I put up against her...",
+			say = "该派谁上阵比较好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "If you're unsure, why not ask your elders for advice?",
+			say = "如果感到迷茫的话，不妨听听年长者的建议如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Nya?! You surprised me there, Mikasa...",
+			say = "呼喵！？吓了一跳喵，原来是{namecode:82}前辈喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I was shocked to see the demon of legends. Even more so when she turned out to be exceedingly kind.",
+			say = "见到古老传说中的“大妖怪”确实还是挺让人吃惊的呢~不过实际聊过天以后，会发现其实女天狗还是挺平易近人的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600060,
-			say = "Hehehe. Strangely, Mikasa and I think much alike.",
+			say = "呵呵~跟{namecode:82}确实有不少共同话题可以聊呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Speak of the devil, nya! Or should I say \"tengu,\" nya...",
+			say = "出现了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Did I scare you, little green kitty?",
+			say = "真是一惊一乍的猫耳小姑娘啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I have a name, you know, nya! I'm Akashi, not just \"green kitty,\" nya!",
+			say = "{namecode:98}可是有“{namecode:98}”这个正经名字的喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "As they say: when in doubt, turn to people with more expertise.",
+			say = "迷茫的时候，还是听听“前辈”的意见好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			},
 			options = {
 				{
-					content = "\"Who do you think I should choose, Mikasa?\"",
+					content = "咨询{namecode:82}",
 					flag = 1
 				}
 			}
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "When faced with an age-old adversary, who else could prove a better match than some unpredictable young'uns?",
+			say = "虽然来自不同的远方，但既然对手也算是重樱传说中的存在，不妨让重樱的后辈们上去锻炼锻炼如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600060,
-			say = "Some young'uns? I know not what you mean, but trifling beings as yourselves need not hold anything back. It need not be a one-on-one match, either. I'll allow multiple opponents, just allow me to have fun, dear Commander~",
+			say = "既然是面对“后辈”，就不用太过拘泥于“单挑的公平”之类的了，要给我安排一场足够尽兴的比赛哦，指挥官殿下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "The \"young'uns,\" eh...",
+			say = "后辈们…吗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -39,6 +39,12 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
+	if (slot8.usage == ItemUsage.GUILD_DONATE or slot8.usage == ItemUsage.GUILD_OPERATION) and not getProxy(GuildProxy):getRawData() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("not_exist_guild_use_item"))
+
+		return
+	end
+
 	pg.ConnectionMgr.GetInstance():Send(15002, {
 		id = slot3,
 		count = slot4,
@@ -72,6 +78,14 @@ function slot0.execute(slot0, slot1)
 				slot2.subRefreshCount = slot2.subRefreshCount + uv2
 
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_use_item_sos_used", uv2))
+			elseif uv3.usage == ItemUsage.GUILD_DONATE then
+				if getProxy(GuildProxy):getRawData() then
+					slot2:AddExtraDonateCnt(uv2)
+					pg.TipsMgr.GetInstance():ShowTips(i18n("guild_use_donateitem_success", uv2))
+				end
+			elseif uv3.usage == ItemUsage.GUILD_OPERATION and getProxy(GuildProxy):getRawData() then
+				slot2:AddExtraBattleCnt(uv2)
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_use_battleitem_success", uv2))
 			end
 
 			if QRJ_ITEM_ID_RANGE[1] <= uv1 and uv1 <= slot2[2] then
@@ -103,8 +117,6 @@ function slot0.Check(slot0, slot1)
 
 		return
 	end
-
-	print(slot0.id)
 
 	if uv0.CheckGold(slot2, (slot0:getConfig("drop_gold_max") or 0) * slot1) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
@@ -148,7 +160,7 @@ function slot0.CheckOil(slot0, slot1)
 end
 
 function slot0.CheckShipBag(slot0, slot1)
-	if table.contains({}, slot0) and getProxy(PlayerProxy):getRawData().ship_bag_max < getProxy(BayProxy):getShipCount() + slot1 then
+	if table.contains({}, slot0) and getProxy(PlayerProxy):getRawData():getMaxShipBag() < getProxy(BayProxy):getShipCount() + slot1 then
 		return true
 	end
 
@@ -159,7 +171,7 @@ function slot0.CheckEquipemtnBag(slot0, slot1)
 	if table.contains({
 		Item.EQUIPMENT_ASSIGNED_TYPE,
 		Item.EQUIPMENT_BOX_TYPE_5
-	}, slot0) and getProxy(PlayerProxy):getRawData().equip_bag_max < getProxy(EquipmentProxy):getCapacity() + slot1 then
+	}, slot0) and getProxy(PlayerProxy):getRawData():getMaxEquipmentBag() < getProxy(EquipmentProxy):getCapacity() + slot1 then
 		return true
 	end
 

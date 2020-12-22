@@ -19,7 +19,7 @@ function slot1.onTakeHealing(slot0, slot1, slot2, slot3)
 	slot5 = math.ceil(slot4 * slot0._corruptRate)
 	slot3.damage = slot4 - slot5
 
-	slot1:UpdateHP(math.ceil(slot5 * slot0._damageRate), {
+	slot1:UpdateHP(math.ceil(slot5 * slot0._damageRate) * -1, {
 		isMiss = false,
 		isCri = false,
 		isShare = false,

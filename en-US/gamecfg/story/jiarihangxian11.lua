@@ -12,7 +12,7 @@ return {
 			bgm = "doa_boss",
 			actor = 10600010,
 			nameColor = "#a9f548",
-			say = "Honoka, look out!",
+			say = "穗香，快躲开！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			dir = 1,
 			actor = 10600020,
 			nameColor = "#a9f548",
-			say = "Right! *boing*",
+			say = "好、好的！（晃动）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ugh... So bouncy...",
+			say = "呼喵？！这、这是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Have yourselves a taste of this!",
+			say = "这一招你躲得掉吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			actor = 10600020,
 			nameColor = "#a9f548",
-			say = "...Hah! *boing*",
+			say = "……嘿！（晃动）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh my, nya!",
+			say = "厉、厉害喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600010,
-			say = "This is our chance! Honoka, with me!",
+			say = "机会来了！穗香，一起进攻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hiyah! *boooing*",
+			say = "来了！（晃动）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Not so fast, ladies!",
+			say = "不会那么简单就让你们得逞的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh dear, oh dear... The Commander seems to have suffered a nosebleed...",
+			say = "哎呀呀…从各种意义上来说，是不是都有些“太过刺激”了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "It's a featured fight... in many ways...",
+			say = "确实，从从各种意义上来说，都是一场十分厉害的巅峰对决……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "A-and there you have it! That was a battle that you couldn't take your eyes off of, nya... But I think I've had enough melons for one summer, nya...",
+			say = "比、比赛结束喵！真是一场令人叹为观止的对决喵…{namecode:98}，感觉有点失落喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Akashi?!",
+			say = "{namecode:98}小姐！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600010,
-			say = "Wow... You really gave us a run for our money, Maid Lady!",
+			say = "呼…果然没那么容易从女仆长大人那取得优势呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I'm quite impressed with you two. Your teamwork was truly impeccable.",
+			say = "两位不愧是最佳组合呢，配合得十分完美~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hehe, Marie and I are besties~ You two fought well, too! It was like... you perfectly understood each other, even without saying a single world!",
+			say = "嘻嘻~因为穗香和玛莉是最好的朋友嘛~两位也好厉害！有种“长久合作才能养成的默契”的感觉~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I-it seems like our match was the focus of today for a certain reason, but... it was quite a fun battle regardless! Thank you for the game!",
+			say = "虽、虽然好像有些意料之外的效果，不过还是一场十分尽兴的比赛！谢谢你们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Geez, you're making me blush~",
+			say = "欸嘿嘿~感觉都有点不好意思了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Get a hold of yourself, Akashi... A professional MC can't be shaken up this easily, nya! Okay, um, we'll continue with the final round after this short break!",
+			say = "呼喵！{namecode:98}振作起来了喵！专业的主持才不会让自己失神太久喵！感谢双方带来的巅峰一战喵！让我们稍事休息，接下来就是万众瞩目的最后一场比赛了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

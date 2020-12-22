@@ -23,6 +23,8 @@ function slot0.register(slot0)
 				arg2 = slot4[3],
 				arg3 = slot4[4]
 			})
+		elseif slot2 == "world battle skip" then
+			switch_world_skip_battle()
 		elseif slot2 == pg.gameset.code_switch.description then
 			if getProxy(PlayerProxy):getRawData().level >= 9 then
 				HXSet.switchCodeMode()
@@ -109,7 +111,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.FRIEND_SEARCH_DONE,
 		GAME.FINISH_STAGE,
 		FriendProxy.FRIEND_NEW_MSG,
-		GuildProxy.NEW_MSG_ADDED
+		GuildProxy.NEW_MSG_ADDED,
+		GAME.GO_WORLD_BOSS_SCENE
 	}
 end
 
@@ -163,6 +166,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.contextData.msg = nil
 		end
 	elseif slot2 == GAME.FINISH_STAGE then
+		slot0.viewComponent:closeView()
+	elseif slot2 == GAME.GO_WORLD_BOSS_SCENE then
 		slot0.viewComponent:closeView()
 	end
 end

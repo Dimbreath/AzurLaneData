@@ -1,11 +1,5 @@
 slot0 = class("ActivityGoodsCard")
-slot0.Color = {
-	[3] = {
-		0.8745098039215686,
-		0.9294117647058824,
-		1
-	}
-}
+slot0.Color = {}
 slot0.DefaultColor = {
 	0.8745098039215686,
 	0.9294117647058824,

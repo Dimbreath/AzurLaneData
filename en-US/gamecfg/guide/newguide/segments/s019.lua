@@ -13,7 +13,7 @@ return {
 			ui = {
 				hideChildEvent = true,
 				pathIndex = -1,
-				path = "/OverlayCamera/Overlay/UIMain/EquipUpgradeUI(Clone)/finish_panel",
+				path = "/OverlayCamera/Overlay/UIMain/EquipUpgradeUI(Clone)/finish_panel/bg",
 				triggerType = {
 					1
 				},
@@ -29,7 +29,7 @@ return {
 				hideChildEvent = true,
 				pathIndex = -1,
 				delay = 0.5,
-				path = "/OverlayCamera/Overlay/UIMain/EquipUpgradeUI(Clone)",
+				path = "/OverlayCamera/Overlay/UIMain/EquipUpgradeUI(Clone)/bg",
 				triggerType = {
 					1
 				},

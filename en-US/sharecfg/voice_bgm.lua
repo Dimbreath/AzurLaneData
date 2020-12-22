@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		bgm = "main"
+		bgm = "main-christmas"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		bgm = "holo-fff-inst"
@@ -52,7 +52,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	MainUI = {
-		bgm = "main"
+		bgm = "main-christmas"
 	},
 	HoloLiveLinkGameView = {
 		bgm = "holo-fff-inst"
@@ -74,6 +74,9 @@ pg.voice_bgm = {
 	},
 	FriendScene = {
 		bgm = "main"
+	},
+	WorldScene = {
+		bgm = "level02"
 	},
 	ShipBluePrintScene = {
 		bgm = "main"
@@ -98,5 +101,14 @@ pg.voice_bgm = {
 	},
 	DOALinkIslandScene = {
 		bgm = "doa_story1"
+	},
+	GuildMainScene = {
+		bgm = "story-richang"
+	},
+	LevelScene = {
+		bgm = "SailAwayJustice"
+	},
+	WorldBossScene = {
+		bgm = "bsm-3"
 	}
 }

@@ -39,6 +39,15 @@ function slot0.register(slot0)
 			prevPage = uv0.__cname,
 			hideTagFlags = ShipStatus.TAG_HIDE_TACTICES,
 			onShip = function (slot0, slot1, slot2)
+				if slot0:isMetaShip() then
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
+						autoOpenTactics = true,
+						autoOpenShipConfigID = slot0.configId
+					})
+
+					return
+				end
+
 				slot3, slot4 = ShipStatus.ShipStatusCheck("inTactics", slot0, slot1)
 
 				if not slot3 then

@@ -516,6 +516,9 @@ pg.gametip = {
 	word_shipState_fight = {
 		tip = "She's currently in battle!"
 	},
+	word_shipState_world = {
+		tip = "This character is participating in Operation Siren. "
+	},
 	word_shipState_rest = {
 		tip = "She's currently resting..."
 	},
@@ -523,7 +526,7 @@ pg.gametip = {
 		tip = "She's currently in class!"
 	},
 	word_shipState_tactics = {
-		tip = "戦術教室で勉強中です"
+		tip = "She's currently in class!"
 	},
 	word_shipState_collect = {
 		tip = "She's currently on commission!"
@@ -753,8 +756,32 @@ pg.gametip = {
 	word_equipment_aircraft = {
 		tip = "Aircraft"
 	},
+	word_equipment_small_cannon = {
+		tip = "DD Main Gun"
+	},
+	word_equipment_medium_cannon = {
+		tip = "CL Main Gun"
+	},
+	word_equipment_big_cannon = {
+		tip = "BB Main Gun"
+	},
+	word_equipment_warship_torpedo = {
+		tip = "Surface Torpedo"
+	},
+	word_equipment_submarine_torpedo = {
+		tip = "Sub Torpedo"
+	},
 	word_equipment_antiaircraft = {
 		tip = "Anti-Air"
+	},
+	word_equipment_fighter = {
+		tip = "Fighter"
+	},
+	word_equipment_bomber = {
+		tip = "Dive Bomber"
+	},
+	word_equipment_torpedo_bomber = {
+		tip = "Torp Bomber"
 	},
 	word_equipment_equip = {
 		tip = "Auxiliary"
@@ -1824,6 +1851,12 @@ Current expansions: <color=#92fc63>$3</color>
 	mail_takeAttachment_error_noAttach = {
 		tip = "Failed to collect rewards."
 	},
+	mail_takeAttachment_error_noWorld = {
+		tip = "Unable to collect item; Operation Siren must be unlocked first."
+	},
+	mail_takeAttachment_error_reWorld = {
+		tip = "Since Operation Siren was reset, the collected items will be converted into Supply Shop Vouchers. Continue?"
+	},
 	mail_count = {
 		tip = "Includes <color=#92fc63>$1</color> reward(s)"
 	},
@@ -2343,6 +2376,9 @@ Current expansions: <color=#92fc63>$3</color>
 	ship_formationUI_exercise_fleetName = {
 		tip = "Exercise Fleet"
 	},
+	ship_formationUI_fleetName_world = {
+		tip = "Participating Fleets "
+	},
 	ship_formationUI_changeFormationError_flag = {
 		tip = "Formation switch error. Please check your formations!"
 	},
@@ -2795,11 +2831,422 @@ Current expansions: <color=#92fc63>$3</color>
 			}
 		}
 	},
+	levelScene_select_SP_OP = {
+		tip = "Select Item"
+	},
+	levelScene_unselect_SP_OP = {
+		tip = "No Item"
+	},
+	levelScene_select_SP_OP_reminder = {
+		tip = [[
+Would you like to use a High-Efficiency Combat Logistics Plan? 
+When used, increases the Oil cost during the sortie by 100%;
+At the end of battle, increases the Commander EXP, Meowfficer EXP, and Ship EXP gain by 100%, and also grants another set of drops;
+Morale drain and Affection gain are also increased by 100%. ]]
+	},
 	tack_tickets_max_warning = {
 		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards? "
 	},
 	error_refresh_sub_chapter = {
 		tip = "You cannot initiate any more Rescue Missions. "
+	},
+	world_battle_count = {
+		tip = "交战次数说明文本占坑"
+	},
+	world_fleetName1 = {
+		tip = "1st Fleet"
+	},
+	world_fleetName2 = {
+		tip = "2nd Fleet"
+	},
+	world_fleetName3 = {
+		tip = "3rd Fleet"
+	},
+	world_fleetName4 = {
+		tip = "4th Fleet"
+	},
+	world_fleetName5 = {
+		tip = "Sub Fleet"
+	},
+	world_ship_repair_1 = {
+		tip = "Conducting basic repairs on $1 costs: \n$2 <icon name=world_money w=0.7 h=0.7/>"
+	},
+	world_ship_repair_2 = {
+		tip = "Conducting complete repairs on $1 costs: \n$2 <icon name=world_money w=0.7 h=0.7/>"
+	},
+	world_ship_repair_all = {
+		tip = "Repairing all participating ships costs: \n$1 <icon name=world_money w=0.7 h=0.7/> "
+	},
+	world_ship_repair_no_need = {
+		tip = "No ships need repair. "
+	},
+	world_event_teleport_alter = {
+		tip = "If you move to another zone, fleets currently in battle will automatically retreat. "
+	},
+	world_transport_battle_alter = {
+		tip = "A fleet is currently in combat. Unable to leave this zone. "
+	},
+	world_transport_locked = {
+		tip = "The current zone has not been secured yet. You will only be able to move to adjacent zones from the edges of this zone. "
+	},
+	world_target_count = {
+		tip = "$1 available reward(s) "
+	},
+	world_help_tip = {
+		tip = "未配置tip"
+	},
+	world_dangerbattle_confirm = {
+		tip = "The fleet you are about to engage is much stronger than usual! \nAre you sure you want to fight it? "
+	},
+	world_stamina_exchange = {
+		tip = "Insufficient AP. Would you like to spend <icon name=oil w=0.7 h=0.7/> $1 to restore $2 AP?"
+	},
+	world_stamina_not_enough = {
+		tip = "Insufficient AP."
+	},
+	world_stamina_recover = {
+		tip = "*If you have less than 100 AP, you will regenerate <color=#92fc63>1</color> AP every <color=#92fc63>10 minutes</color>. "
+	},
+	world_stamina_text = {
+		tip = "Spend <color=#92fc63>$1</color> Oil to refill <color=#92fc63>$2</color> AP? (Daily refills available: <color=#92fc63>$3/$4</color>)"
+	},
+	world_stamina_text2 = {
+		tip = "Spent <color=#92fc63>$1</color> Oil to recover <color=#92fc63>$2</color> AP."
+	},
+	world_stamina_resetwarning = {
+		tip = "注意：大型作战即将重置，重置后溢出行动力不会被保留，指挥官请合理制定舰队作战策略！"
+	},
+	world_ship_healthy = {
+		tip = "The selected ship does not need any repairs. \nAre you sure you want to use this item? "
+	},
+	world_map_dangerous = {
+		tip = "该海域过于危险，禁止进入"
+	},
+	world_map_not_open = {
+		tip = "Zone is unavailable."
+	},
+	world_map_locked_stage = {
+		tip = "Zone is unavailable."
+	},
+	world_map_locked_border = {
+		tip = "The surrounding zone has not yet been secured. "
+	},
+	world_item_allocate_panel_fleet_info_text = {
+		tip = "得到了塞壬的祝福，舰娘的状态被强化了！"
+	},
+	world_redeploy_not_change = {
+		tip = "You did not change your fleet. Are you done changing your formation? "
+	},
+	world_redeploy_warn = {
+		tip = "Redeploying the fleet will also remove the fleet stationed at port. Are you sure you want to continue? "
+	},
+	world_redeploy_cost_tip = {
+		tip = "Redeploying the fleet will cost $1 AP. Are you sure you wish to continue? \n(Current AP: $2; The shorter the time since this command was last used, the greater the AP cost will be.) "
+	},
+	world_redeploy_tip = {
+		tip = "Fleet not yet formed. "
+	},
+	world_fleet_choose = {
+		tip = "Fighting in Operation Siren will not affect Morale or consume Oil. "
+	},
+	world_fleet_formation_not_valid = {
+		tip = "The formation of $1 must be changed. "
+	},
+	world_fleet_in_vortex = {
+		tip = "The fleet has been caught in a Maelstrom and has restricted movement. "
+	},
+	world_stage_help = {
+		tip = {
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	world_transport_disable = {
+		tip = "Unable to leave through this zone. "
+	},
+	world_resource_tip_1 = {
+		tip = "未配置tip"
+	},
+	world_resource_tip_2 = {
+		tip = "未配置tip"
+	},
+	world_instruction_all_1 = {
+		tip = "This feature has not been released yet. "
+	},
+	world_instruction_help_1 = {
+		tip = {
+			{
+				info = [[
+  <color=#92fc63>舰队部署</color>
+   在己方港口海域，可以从港区船坞中重新部署参与
+大型作战的舰队，并为所有舰船恢复耐久与士气。 
+
+  <color=#92fc63>舰队维护</color>
+  为所有舰队恢复士气与耐久，并消除战损状态。
+
+  <color=#92fc63>空域侦查</color>
+  消耗行动力侦查当前海域的全部区域。
+
+  <color=#92fc63>潜艇支援</color>
+  可以部署与呼叫潜艇编队支援，潜艇部队需要在港
+  口海域进行部署。
+ ]]
+			}
+		}
+	},
+	world_instruction_redeploy_1 = {
+		tip = "Fleet Redeployment can only be carried out in a port. "
+	},
+	world_instruction_redeploy_2 = {
+		tip = "The fleet has been redeployed. HP and Resolve have been restored. "
+	},
+	world_instruction_morale_1 = {
+		tip = "Would you like to spend $1 AP to restore the HP and Resolve of your fleet and remove the “Tolls of War” effect? (Current AP: $2; After using this command, you will not be able to use it again for a period of time.) "
+	},
+	world_instruction_morale_2 = {
+		tip = "Fleet already has max Resolve."
+	},
+	world_instruction_morale_3 = {
+		tip = "Fleet Resolve restored."
+	},
+	world_instruction_submarine_1 = {
+		tip = "This command cannot be issued in this zone."
+	},
+	world_instruction_submarine_2 = {
+		tip = "Spend $1 AP to call in submarine support? \n(Current AP: $2; The shorter the time since this command was last used, the greater the AP cost will be.)"
+	},
+	world_instruction_submarine_3 = {
+		tip = "The submarine fleet is already sortieing."
+	},
+	world_instruction_submarine_4 = {
+		tip = "Cannot request support because the sub fleet has not been set up yet."
+	},
+	world_instruction_submarine_5 = {
+		tip = "The submarine fleet has left the zone."
+	},
+	world_instruction_submarine_6 = {
+		tip = "If you move to another zone, your submarine fleet will be put on standby. Are you sure you want to leave this zone?"
+	},
+	world_instruction_submarine_7 = {
+		tip = "当前海域部署的潜艇舰队弹药耗尽，是否消耗\n$1行动力为潜艇舰队补充弹药并恢复状态？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+	},
+	world_instruction_detect_1 = {
+		tip = "Spend $1 AP to request reconnaissance? \n(Current AP: $2; The shorter the time since this command was last used, the greater the AP cost will be.)"
+	},
+	world_instruction_detect_2 = {
+		tip = "Conducted aerial reconnaissance."
+	},
+	world_instruction_supply_1 = {
+		tip = "未配置tip"
+	},
+	world_instruction_supply_2 = {
+		tip = "$1 until this command can be given again. "
+	},
+	world_item_recycle_1 = {
+		tip = "The following items will be converted when Operation Siren resets:"
+	},
+	world_item_recycle_2 = {
+		tip = "The following items will be lost when Operation Siren resets:"
+	},
+	world_item_origin = {
+		tip = "This items can be obtained in the following manner"
+	},
+	world_shop_bag_unactivated = {
+		tip = "The shop cannot be accessed because Operation Siren has not been unlocked yet. "
+	},
+	world_shop_preview_tip = {
+		tip = "Purchase is available after reset"
+	},
+	world_map_title_tips_en = {
+		tip = "OPERATION INFO"
+	},
+	world_map_title_tips = {
+		tip = "Operation Info "
+	},
+	world_mapbuff_attrtxt_1 = {
+		tip = "Offense Boost "
+	},
+	world_mapbuff_attrtxt_2 = {
+		tip = "Survival Boost "
+	},
+	world_mapbuff_attrtxt_3 = {
+		tip = "Combat Interference "
+	},
+	world_mapbuff_compare_txt = {
+		tip = "Adaptive Tuning"
+	},
+	world_wind_move = {
+		tip = "Cannot proceed to the target zone. Please first move the fleet that is in the target zone. "
+	},
+	world_battle_pause = {
+		tip = "OPERATION"
+	},
+	world_battle_pause2 = {
+		tip = "Operation Siren "
+	},
+	world_task_samemap = {
+		tip = "Unable to accept new missions until all unfinished missions in this zone are completed. "
+	},
+	world_task_maplock = {
+		tip = "You may not leave this zone yet because there are still unfinished missions. Please check\"Information\" for more details. "
+	},
+	world_task_goto0 = {
+		tip = "There are no missions in this zone."
+	},
+	world_task_goto3 = {
+		tip = "The fleet has already been deployed to the target zone."
+	},
+	world_task_view1 = {
+		tip = "Mission Location："
+	},
+	world_task_view2 = {
+		tip = "Current Location："
+	},
+	world_task_view3 = {
+		tip = "Unknown "
+	},
+	world_task_refuse1 = {
+		tip = "You cannot accept any more Daily Missions. "
+	},
+	world_sairen_title = {
+		tip = "Siren-Controlled "
+	},
+	world_sairen_description1 = {
+		tip = "Siren Control: <color=#3dc6ff>$1%</color>"
+	},
+	world_sairen_description2 = {
+		tip = "Siren Control: <color=#ffde38>$1%</color>"
+	},
+	world_sairen_description3 = {
+		tip = "Siren Control: <color=#ff5c5c>$1%</color>"
+	},
+	world_low_morale = {
+		tip = "You are unable to start a boss battle because your fleet Resolve is low. \nYou can restore Resolve by issuing a Regroup and Rest command or by winning battles. "
+	},
+	world_recycle_notice = {
+		tip = "Operation Siren has been reset. Leave the current screen?"
+	},
+	world_recycle_item_transform = {
+		tip = "Operation Siren has been reset, and unused items have been converted into Supply Shop Vouchers:"
+	},
+	world_exit_tip = {
+		tip = "Return to the home screen? "
+	},
+	world_consume_carry_tips = {
+		tip = "未配置tip"
+	},
+	world_boss_help_meta = {
+		tip = {
+			{
+				info = [[
+信标·烬功能说明
+1.「余烬信标数据」获取与解析
+·指挥官可通过在大型作战中获取「余烬信标数据」，达
+到指定数据量后进行解析并发现特定余烬信标
+·每日最多可解析 <color=#92fc63>2次</color>，次数于每日0点重置，尚未使用
+的「余烬信标数据」将会保留。
+·每次解析「余烬信标数据」所需量为<color=#92fc63>100</color>点
+2.挑战自己解析的信标
+·第一次挑战自己解析的信标不会消耗石油，从第二次
+开始每次挑战消耗<color=#92fc63>40</color>点石油。(不会消耗挑战次数)
+·当信标HP归零后视为战斗胜利，指挥官可以领取对应的
+作战奖励。
+·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，
+记得向其他指挥官请求支援哦。
+·每次挑战成功后，信标的强度将会提升1阶段，总计15
+阶段。随着阶段提升，战斗奖励也会提升。
+3.挑战其他信标
+·在信标列表界面可以挑战其他指挥官发起求助的信标，
+参与其他指挥官发布的信标战斗结束后，将会根据造成
+的伤害程度立刻获得奖励。
+·每次挑战需要消耗1点挑战次数，不需要消耗石油
+·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置
+·同一个信标最多能允许累计30位指挥官进行挑战
+·特别说明：出现网络波动或中途退出的情况，战斗将会
+消耗挑战次数但无法获得任何奖励，请在参与作战时保持
+网络环境畅通！
+4.战斗说明
+·挑战信标·烬只能使用大型作战中的舰船，暂不可使用
+指挥喵与潜艇
+·战斗结算时不会获得经验值，不会影响舰船心情值]]
+			}
+		}
+	},
+	world_close = {
+		tip = "Operation Siren is unavailable at this time. "
+	},
+	world_catsearch_success = {
+		tip = "Commencing Meowfficer item retrieval operations... "
+	},
+	world_catsearch_stop = {
+		tip = "Are you sure you want to stop retrieving items and recall all dispatched Meowfficers? \nYou will receive rewards based on the number of turns elapsed. "
+	},
+	world_catsearch_fleetcheck = {
+		tip = "Are you sure you want to redeploy your fleet and recall all dispatched Meowfficers? \nYou will receive rewards based on the number of turns elapsed. "
+	},
+	world_catsearch_leavemap = {
+		tip = "Are you sure you want to withdraw from this zone and recall all dispatched Meowfficers? \nYou will receive rewards based on the number of turns elapsed. "
+	},
+	world_catsearch_help_1 = {
+		tip = [[
+Retrieval progress will proceed as your <color=#ffde38>fleet operations advance</color>. 
+Are you sure you want to cancel the item retrieval?
+
+<color=#92fc63>(If cancelled, partial awards will be rewarded immediately.)</color> ]]
+	},
+	world_catsearch_help_2 = {
+		tip = "搜寻奖励查询"
+	},
+	world_catsearch_help_3 = {
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/tactics"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	world_catsearch_help_4 = {
+		tip = "搜寻中..."
+	},
+	world_catsearch_help_5 = {
+		tip = "指挥喵物资搜寻中，暂时无法为舰队提供加成"
+	},
+	world_catsearch_help_6 = {
+		tip = "搜寻过程中有几率获得以下奖励"
+	},
+	world_level_prefix = {
+		tip = "LV.$1"
+	},
+	world_map_level = {
+		tip = "Operation Level: <color=#92fc63>$1</color>\nIt is best to attempt to capture zones with a Corrosion level that is less than or equal to your Operation Level. (Operation Level is determined by your combat effectiveness and adaptability stats) "
 	},
 	task_notfound_error = {
 		tip = "Unable to find mission config. Update may be required. Error ID: "
@@ -3152,6 +3599,12 @@ Current expansions: <color=#92fc63>$3</color>
 	attribute_max_distance_damage = {
 		tip = "Explosion dropoff "
 	},
+	attribute_anti_siren = {
+		tip = "OPS Damage Boost "
+	},
+	attribute_add_new = {
+		tip = "New!"
+	},
 	skill = {
 		tip = "Skills"
 	},
@@ -3343,6 +3796,9 @@ Current expansions: <color=#92fc63>$3</color>
 	},
 	word_shipNation_doa = {
 		tip = "Venus Vacation "
+	},
+	word_shipNation_link = {
+		tip = "联动"
 	},
 	word_reset = {
 		tip = "Reset"
@@ -4857,6 +5313,9 @@ Attack/Support Range Level:
 	guild_faction_unknown = {
 		tip = "????"
 	},
+	guild_faction_meta = {
+		tip = "META"
+	},
 	guild_word_commder = {
 		tip = "Admiral"
 	},
@@ -5692,6 +6151,9 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
 	words_battle_hide_bg = {
 		tip = "Hide skin backgrounds in battle "
 	},
+	words_battle_expose_line = {
+		tip = "Toggle in-combat CV detection line "
+	},
 	activity_puzzle_get1 = {
 		tip = "<color=#A9F548FF>How to get: \nmission 7</color>"
 	},
@@ -6005,6 +6467,9 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 	},
 	word_status_challenge = {
 		tip = "In Challenge Mode "
+	},
+	word_status_world = {
+		tip = "Operation Siren "
 	},
 	challenge_rule = {
 		tip = "gametips:challenge_rule"
@@ -6365,6 +6830,9 @@ Updating the Research Project list
 	ship_profile_voice_locked_design = {
 		tip = "Coming Soon"
 	},
+	ship_profile_voice_locked_meta = {
+		tip = "未配置tip"
+	},
 	help_technolog0 = {
 		tip = {
 			{
@@ -6606,6 +7074,12 @@ Combat Details:
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/level_ui_help_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/level_ui_help_4"
 				}
 			},
@@ -6649,6 +7123,12 @@ Combat Details:
 				icon = {
 					path = "",
 					atlas = "helpbg/battle_ac_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_concealment"
 				}
 			},
 			disableScroll = true,
@@ -7060,10 +7540,10 @@ Combat Details:
 		tip = "Increased build rates for Marie Rose, Honoka, Kasumi, and more! "
 	},
 	buildship_heavy_tip = {
-		tip = "Tirpitz, Deutschland and others are added to standard build pool! "
+		tip = "Mikasa and Hiei are added to standard build pool!"
 	},
 	buildship_light_tip = {
-		tip = "Arashio and Hazelwood are added to standard build pool!"
+		tip = "Hamakaze is added to standard build pool! "
 	},
 	buildship_special_tip = {
 		tip = "Glorious is added to standard build pool! "
@@ -9187,6 +9667,9 @@ depends on the amount of damage dealt to the boss.
 	option_desc10 = {
 		tip = "Enabling this option hides background art in skins during battle "
 	},
+	option_desc11 = {
+		tip = "option_desc11"
+	},
 	music_collection = {
 		tip = {
 			{
@@ -10055,6 +10538,9 @@ Event Rules:
 	indexsort_camp = {
 		tip = "Faction"
 	},
+	indexsort_type = {
+		tip = "Type"
+	},
 	indexsort_rarity = {
 		tip = "Rarity"
 	},
@@ -10072,6 +10558,9 @@ Event Rules:
 	},
 	indexsort_rarityeng = {
 		tip = "Rarity"
+	},
+	indexsort_typeeng = {
+		tip = "TYPE"
 	},
 	fightfail_up = {
 		tip = "Would you like to retreat and return to the map select screen?"
@@ -10366,6 +10855,79 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 	},
 	collect_tip2 = {
 		tip = "Some selected ships are busy. Unable to form commission fleet. "
+	},
+	word_weakness = {
+		tip = "Weak Point "
+	},
+	special_operation_tip1 = {
+		tip = "No consumables available."
+	},
+	special_operation_tip2 = {
+		tip = "No consumables available."
+	},
+	area_lock = {
+		tip = "This zone has not been unlocked. "
+	},
+	equipment_upgrade_equipped_tag = {
+		tip = "Equipped : "
+	},
+	equipment_upgrade_spare_tag = {
+		tip = "In Depot : "
+	},
+	equipment_upgrade_help = {
+		tip = {
+			{
+				info = "<color=#ffde38>装备研发系统说明：</color>\n"
+			},
+			{
+				info = "· 装备研发是通过<color=#92fc63>消耗</color>研发素材与物资将特定装备转变\n为更高级装备的系统。"
+			},
+			{
+				info = "·点击选择想要研发的装备，即可进入对应的装备研发\n界面。"
+			},
+			{
+				info = "·当所选装备拥有多种研发途径获得时，可以使用切换\n方案按钮进行切换。"
+			},
+			{
+				info = "·当素材装备也可通过研发获得时，可通过点击左侧的\n快速研发按钮进入对应研发界面。"
+			},
+			{
+				info = "·正在装备中装备也可以作为素材装备，研发后的新装\n备将直接变为装备中状态。（若新装备的类型无法被\n原角色装备，则装备返回仓库）"
+			}
+		}
+	},
+	equipment_upgrade_title = {
+		tip = "Upgrading "
+	},
+	equipment_upgrade_coin_consume = {
+		tip = "Cost"
+	},
+	equipment_upgrade_quick_interface_source_chosen = {
+		tip = "Select Gear "
+	},
+	equipment_upgrade_quick_interface_materials_consume = {
+		tip = "Cost: "
+	},
+	equipment_upgrade_feedback_lack_of_materials = {
+		tip = "Insufficient materials "
+	},
+	equipment_upgrade_feedback_equipment_consume = {
+		tip = "The <color=#92fc63>$2</color> equipped by <color=#92fc63>$1</color> will be consumed during Gear R&D. "
+	},
+	equipment_upgrade_feedback_equipment_can_be_produced = {
+		tip = "Insufficient gear. Please craft more in the Depot. "
+	},
+	equipment_upgrade_quick_interface_feedback_source_chosen = {
+		tip = "Select Gear "
+	},
+	equipment_upgrade_feedback_lack_of_equipment = {
+		tip = "Insufficient gear. "
+	},
+	equipment_upgrade_equipped_unavailable = {
+		tip = "<color=#92fc63>$2</color> was sent to the Depot because it cannot be equipped on <color=#92fc63>$1</color>. "
+	},
+	equipment_upgrade_initial_node = {
+		tip = "This gear can't be created in Gear Lab "
 	},
 	discount_coupon_tip = {
 		tip = "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
@@ -10770,6 +11332,30 @@ any Credits, or give any rewards.]]
 	equip_info_27 = {
 		tip = ""
 	},
+	equip_info_28 = {
+		tip = "Damage Modifier "
+	},
+	equip_info_29 = {
+		tip = "伤害属性类型"
+	},
+	equip_info_30 = {
+		tip = "属性效率"
+	},
+	equip_info_31 = {
+		tip = "FR "
+	},
+	equip_info_extralevel_0 = {
+		tip = "等级0"
+	},
+	equip_info_extralevel_1 = {
+		tip = "等级1"
+	},
+	equip_info_extralevel_2 = {
+		tip = "等级2"
+	},
+	equip_info_extralevel_3 = {
+		tip = "等级3"
+	},
 	tec_settings_btn_word = {
 		tip = "Research Focus"
 	},
@@ -10875,6 +11461,630 @@ you can earn.]]
 	},
 	tec_catchup_errorfix = {
 		tip = "The special beginners' PR1 Research Missions will be reset once. (These missions will not be reset if you've already completed them 2 times)"
+	},
+	guild_duty_is_too_low = {
+		tip = "见习成员无法领取奖励"
+	},
+	guild_trainee_duty_change_tip = {
+		tip = "见习成员无法变更职位"
+	},
+	guild_not_exist_donate_task = {
+		tip = "This mission no longer exists."
+	},
+	guild_week_task_state_is_wrong = {
+		tip = "Guild Mission status cannot be read."
+	},
+	guild_get_week_done = {
+		tip = "New Guild Missions have already been posted."
+	},
+	guild_public_awards = {
+		tip = "Guild rewards:"
+	},
+	guild_private_awards = {
+		tip = "Member rewards:"
+	},
+	guild_task_selecte_tip = {
+		tip = "You are about to accept the following Guild Mission: $1. Once you've accepted it, you will not be able to change to another one for the rest of the week. Are you sure you want to continue?"
+	},
+	guild_task_accept = {
+		tip = "You are about to accept [$1]'s [$2]. You have already received your individual rewards for this week. Continue?"
+	},
+	guild_commander_and_sub_op = {
+		tip = "Only the Guild Leader and Officers may carry out this action."
+	},
+	["guild_donate_times_not enough"] = {
+		tip = "Today’s contribution attempts have been used up."
+	},
+	guild_donate_success = {
+		tip = "Successful contribution."
+	},
+	guild_left_donate_cnt = {
+		tip = "Remaining daily contributions: $1"
+	},
+	guild_donate_tip = {
+		tip = "You are about to contribute <color=#92FC63FF>$2 $1</color> to the Guild (Currently held: <color=$4>$3</color>). Are you sure you want to continue?"
+	},
+	guild_donate_addition_capital_tip = {
+		tip = "Guild Funds increased by $1."
+	},
+	guild_donate_addition_techpoint_tip = {
+		tip = "Guild Contribution Level increased by $1."
+	},
+	guild_supply_no_open = {
+		tip = "Guild Supplies currently unavailable."
+	},
+	guild_supply_award_got = {
+		tip = "Guild Supplies already collected."
+	},
+	guild_new_member_get_award_tip = {
+		tip = "Guild Supplies are not available to new members until one day after joining the Guild."
+	},
+	guild_start_supply_consume_tip = {
+		tip = "Spend $1 Guild Funds to purchase Guild Supplies?"
+	},
+	guild_left_supply_day = {
+		tip = "$1 day(s) left"
+	},
+	guild_supply_help_tip = {
+		tip = {
+			{
+				info = "Supplies distributed by the Guild management. Contains the following items:"
+			},
+			{
+				info = "<color=#D797FFFF>Guild Tokens x30</color>"
+			},
+			{
+				info = "There is an additional chance of receiving the following items (all odds are calculated independently)"
+			},
+			{
+				info = "<color=#D797FFFF>Guild Tokens x10 (40.00% chance)</color>"
+			},
+			{
+				info = "<color=#D797FFFF>Guild Tokens x10 (10.00% chance)</color>"
+			},
+			{
+				info = "<color=#D797FFFF>Prototype Cores x10 (5.00% chance)</color>"
+			},
+			{
+				info = "<color=#D797FFFF>Gems (1.00% chance)</color>"
+			},
+			{
+				info = "<color=#D797FFFF>Prototype Gear Upgrade Part (0.10% chance)</color>"
+			}
+		}
+	},
+	guild_op_only_administrator = {
+		tip = "Only the Guild Leader and Officers may carry out this action."
+	},
+	guild_shop_refresh_done = {
+		tip = "Shop refreshed."
+	},
+	guild_shop_cnt_no_enough = {
+		tip = "You cannot purchase this."
+	},
+	guild_shop_refresh_all_tip = {
+		tip = "Would you like to spend $2 <color=#92fc63>$1</color><icon name=guildicon w=0.7 h=0.7/> to refresh the shop lineup?"
+	},
+	guild_shop_exchange_tip = {
+		tip = "Would you like to exchange for this item?"
+	},
+	guild_shop_label_1 = {
+		tip = "Select an item to exchange for："
+	},
+	guild_shop_label_2 = {
+		tip = "Stock"
+	},
+	guild_shop_label_3 = {
+		tip = "Confirm"
+	},
+	guild_shop_label_4 = {
+		tip = "Cost"
+	},
+	guild_shop_label_5 = {
+		tip = "Select an character to exchange for："
+	},
+	guild_shop_must_select_goods = {
+		tip = "Select an item to exchange for："
+	},
+	guild_not_exist_activation_tech = {
+		tip = "There are no operational Guild Tech facilities."
+	},
+	guild_not_exist_tech = {
+		tip = "There are no Guild Tech facilities."
+	},
+	guild_cancel_only_once_pre_day = {
+		tip = "A research target can only be changed once a day."
+	},
+	guild_tech_is_max_level = {
+		tip = "This facility has reached the highest level."
+	},
+	guild_tech_gold_no_enough = {
+		tip = "You lack the funds needed to upgrade this facility."
+	},
+	guild_tech_guildgold_no_enough = {
+		tip = "You lack the Guild Tokens needed to upgrade this facility."
+	},
+	guild_tech_upgrade_done = {
+		tip = "Facility's level has increased."
+	},
+	guild_exist_activation_tech = {
+		tip = "You can only upgrade one facility at a time."
+	},
+	guild_tech_gold_desc = {
+		tip = "Coins Storage Cap +$1"
+	},
+	guild_tech_oil_desc = {
+		tip = "Oil Storage Cap +$1"
+	},
+	guild_tech_shipbag_desc = {
+		tip = "Dock Slots +$1"
+	},
+	guild_tech_equipbag_desc = {
+		tip = "Warehouse Slots +$1"
+	},
+	guild_box_gold_desc = {
+		tip = "Cat Box Cost -$1"
+	},
+	guidl_r_box_time_desc = {
+		tip = "Rare Cat Box Training Time -$1"
+	},
+	guidl_sr_box_time_desc = {
+		tip = "Elite Cat Box Training Time -$2"
+	},
+	guidl_ssr_box_time_desc = {
+		tip = "Super Rare Cat Box Training Time -$3"
+	},
+	guild_member_max_cnt_desc = {
+		tip = "Guild Roster Size +$1"
+	},
+	guild_tech_livness_no_enough = {
+		tip = "活跃度达到$1可学习"
+	},
+	guild_ship_attr_desc = {
+		tip = "The Guild's $1 has $2 when $3 during operations."
+	},
+	guild_start_tech_group_tip = {
+		tip = "You are about to begin researching $1. Are you sure you want to continue?"
+	},
+	guild_cancel_tech_tip = {
+		tip = "You are about to stop developing $1 (progress will be retained). Are you sure you want to stop? "
+	},
+	guild_tech_consume_tip = {
+		tip = "Upgrading $3 will cost $1<icon name=guildicon w=0.7 h=0.7/> and $2<icon name=gold w=0.7 h=0.7/>. Are you sure you want to continue?"
+	},
+	guild_tech_non_admin = {
+		tip = "Only the Guild Leader and Officers may carry out this action."
+	},
+	guild_tech_label_max_level = {
+		tip = "Level Cap:"
+	},
+	guild_tech_label_dev_progress = {
+		tip = "Progress:"
+	},
+	guild_tech_label_condition = {
+		tip = "New progress milestone has been reached."
+	},
+	guild_tech_donate_target = {
+		tip = "You must attain $1 progress first."
+	},
+	guild_not_exist = {
+		tip = "This Guild does not exist."
+	},
+	guild_not_exist_battle = {
+		tip = "This Guild Operation has never occurred."
+	},
+	guild_battle_is_end = {
+		tip = "This Guild Operation has aleady ended."
+	},
+	guild_battle_is_exist = {
+		tip = "A Guild Operation is already in progress."
+	},
+	guild_guildgold_no_enough_for_battle = {
+		tip = "There are not enough Guild Funds to commence a Guild Operation."
+	},
+	guild_event_start_tip1 = {
+		tip = "A new Guild Operation has been started. Press the button to refresh this screen."
+	},
+	guild_event_start_tip2 = {
+		tip = "A new Guild Operation could not be started as another one is already in progress."
+	},
+	guild_word_may_happen_event = {
+		tip = "Possible Events"
+	},
+	guild_battle_award = {
+		tip = "Rewards:"
+	},
+	guild_word_consume = {
+		tip = "Cost:"
+	},
+	guild_start_event_consume_tip = {
+		tip = "Would you like to spend $1 Guild Funds and commence $2?"
+	},
+	guild_word_consume_for_battle = {
+		tip = "Cost: "
+	},
+	guild_level_no_enough = {
+		tip = "The Guild does not meet the level requirement to start a Guild Operation."
+	},
+	guild_open_event_info_when_exist_active = {
+		tip = "The current operation cannot be changed because $1 is in progress."
+	},
+	guild_join_event_cnt_label = {
+		tip = "Eligible Participants:"
+	},
+	guild_join_event_max_cnt_tip = {
+		tip = "Insufficient number of participants."
+	},
+	guild_join_event_progress_label = {
+		tip = "Progress:"
+	},
+	guild_join_event_exist_finished_mission_tip = {
+		tip = "You will be unable to claim the rewards if you abandon this operation. Are you sure you want to continue?"
+	},
+	guild_event_not_exist = {
+		tip = "This Guild Event no longer exists."
+	},
+	guild_fleet_can_not_edit = {
+		tip = "Guild Fleet composition cannot be changed."
+	},
+	guild_fleet_exist_same_kind_ship = {
+		tip = "You cannot select 2 of the same ship."
+	},
+	guild_event_exist_same_kind_ship = {
+		tip = "Guild Fleet composition cannot be changed as there are 2 of the same ship."
+	},
+	guidl_event_ship_in_event = {
+		tip = "This ship is assigned to another mission and cannot be used."
+	},
+	guild_event_start_done = {
+		tip = "Dispatch Successful"
+	},
+	guild_fleet_update_done = {
+		tip = "Fleet composition has been updated."
+	},
+	guild_event_is_lock = {
+		tip = "This Guild Event is unavailable."
+	},
+	guild_event_is_finish = {
+		tip = "The Guild Event has concluded. Head to Action Report to claim your rewards."
+	},
+	guild_fleet_not_save_tip = {
+		tip = "The fleet formation has not been updated. Return to the previous screen?"
+	},
+	guild_word_battle_area = {
+		tip = "Zone:"
+	},
+	guild_word_battle_type = {
+		tip = "Type:"
+	},
+	guild_wrod_battle_target = {
+		tip = "Objectives:"
+	},
+	guild_event_recomm_ship_failed = {
+		tip = "There are no ships that meet the conditions."
+	},
+	guild_event_start_event_tip = {
+		tip = "Once dispatched, you will not be able to change this formation until the operation ends. Would you like to continue?"
+	},
+	guild_word_sea = {
+		tip = "Territory"
+	},
+	guild_word_score_addition = {
+		tip = "Rating Increased:"
+	},
+	guild_word_effect_addition = {
+		tip = "Efficiency Increased:"
+	},
+	guild_curr_fleet_can_not_edit = {
+		tip = "Fleet formation cannot be changed."
+	},
+	guild_next_edit_fleet_time = {
+		tip = "A new dispatch can be issued in $1."
+	},
+	guild_event_info_desc1 = {
+		tip = "The combined $1 of the $5 ships participating in this Guild Event must be at least $2: <color=$3>$4/$5</color>"
+	},
+	guild_event_info_desc2 = {
+		tip = "Total combined $1: <color=$2>$3/$4</color>"
+	},
+	guild_join_member_cnt = {
+		tip = "Participants:"
+	},
+	guild_total_effect = {
+		tip = "Total Efficiency:"
+	},
+	guild_word_people = {
+		tip = ""
+	},
+	guild_event_info_desc3 = {
+		tip = "$1 ships (now: $2)"
+	},
+	guild_not_exist_boss = {
+		tip = "No data on this boss exists."
+	},
+	guild_ship_from = {
+		tip = "from:"
+	},
+	guild_boss_formation_1 = {
+		tip = "Up to 3 support ships belonging to players from your Guild can be chosen."
+	},
+	guild_boss_formation_2 = {
+		tip = "1 support ship from this guild member's list can be chosen."
+	},
+	guild_boss_formation_3 = {
+		tip = "You cannot select 2 of the same ship."
+	},
+	guild_boss_cnt_no_enough = {
+		tip = "Insufficient challenge attempts remaining."
+	},
+	guild_boss_fleet_cnt_invaild = {
+		tip = "编队不符合条件"
+	},
+	guild_boss_formation_not_exist_self_ship = {
+		tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 of your own ships."
+	},
+	guild_fleet_is_legal = {
+		tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 ship."
+	},
+	guild_battle_result_boss_is_death = {
+		tip = "大舰队作战首领战已经结束，战斗失效"
+	},
+	guild_must_edit_fleet = {
+		tip = "Updated Support Fleet list."
+	},
+	guild_ship_in_battle = {
+		tip = "$1 is in a battle. The support ship list will be updated once the battle ends."
+	},
+	guild_ship_in_assult_fleet = {
+		tip = "This ship is already in your Support Fleet."
+	},
+	guild_event_exist_assult_ship = {
+		tip = "The chosen support ship cannot participate in this Guild Event."
+	},
+	guild_formation_erro_in_boss_battle = {
+		tip = "The support ship cannot be changed as a boss battle is taking place."
+	},
+	guild_get_report_failed = {
+		tip = "Failed to read Action Report data."
+	},
+	guild_report_get_all = {
+		tip = "Claim All"
+	},
+	guild_can_not_get_tip = {
+		tip = "You cannot claim rewards as you did not participate in this Guild Event."
+	},
+	guild_not_exist_notifycation = {
+		tip = "There is are no entries on the Guild's message board."
+	},
+	guild_exist_report_award_when_exit = {
+		tip = "You still have unclaimed Guild rewards. Are you sure you would like to leave the Guild?"
+	},
+	guild_report_tooltip = {
+		tip = "Only 20 rewards can be stored on the Action Report screen. When this amount is surpassed, unclaimed rewards will start being replaced in chronological order."
+	},
+	word_guildgold = {
+		tip = "Guild Tokens"
+	},
+	guild_member_rank_title_donate = {
+		tip = "Contributions"
+	},
+	guild_member_rank_title_finish_cnt = {
+		tip = "Completions"
+	},
+	guild_member_rank_title_join_cnt = {
+		tip = "Participations"
+	},
+	guild_donate_log = {
+		tip = "$1 $2 spent $4 $3 and completed a Contribution Mission. Guild Funds increased by $5."
+	},
+	guild_supply_log = {
+		tip = "$1 $2 spent $3 Guild Funds and bought Guild Supplies for $4 day(s)."
+	},
+	guild_weektask_log = {
+		tip = "Guild Mission $1 has been completed. Guild Funds increased by $2."
+	},
+	guild_battle_log = {
+		tip = "$1 $2 spent $3 Guild Funds and commenced a Guild Battle."
+	},
+	guild_use_donateitem_success = {
+		tip = "Contribution attempts restored by +$1."
+	},
+	guild_use_battleitem_success = {
+		tip = "Guild Operation participations restored by +$1."
+	},
+	not_exist_guild_use_item = {
+		tip = "未加入大舰队，无法使用该道具"
+	},
+	guild_member_tip = {
+		tip = {
+			{
+				info = "- User Management Info:"
+			},
+			{
+				info = "1. Guild members can view the details of fellow members on this screen."
+			},
+			{
+				info = "2. The Guild Leader and Officers can freely change the position of <color=#92fc63>all members of lower rank than themselves</color>."
+			},
+			{
+				info = "3. The Guild Leader and Officers have the power to remove <color=#92fc63>any member of lower rank than themselves</color> from the Guild. "
+			},
+			{
+				info = "4. If the Guild Leader has not logged in for <color=#92fc63>10 consecutive days</color>, Officers have the option to <color=#92fc63>denounce</color> them and call for a new Guild Leader."
+			},
+			{
+				info = "5. When an Officer moves forward with a denunciation, and the current Guild Leader does not log in within <color=#92fc63>24</color> hours to overrule it, then at the end of the 24-hour period, leadership will be transferred to the member with <color=#92fc63>the most contributions to the Guild</color>."
+			}
+		}
+	},
+	guild_tech_tip = {
+		tip = [[
+Guild Tech Info:
+1. Guild Tech Facilities:
+Guild Tech facilities are jointly managed by the entire Guild and grant a number of bonuses to its members.
+Members of the Guild can gain access to these bonuses by contributing Guild Tokens and Guild Funds.
+The facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger.
+Facility information and construction options can be found via the button in the top right corner on the Guild Tech screen.
+2. Facility Management:
+- The requirements to use or upgrade a facility can be found on the Guild Tech screen.
+- Facilities can be upgraded by spending Guild Tokens and Guild Funds.
+- A player must be in a Guild in order to benefit from Guild Tech facilities.
+- If a player leaves a Guild and joins another, their new facility level will be based on which is highest between their own facility level or the facility level of the new Guild. Either way, a player will not need to level up their facilities from scratch.
+3. Upgrading Facilities:
+To upgrade a facility, a Guild Leader or an Officer must go to the Guild Tech screen, enable Research Mode, and choose a facility to upgrade.
+Once a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up.
+4. Contributing Materials:
+To donate items to your Guild, go to the Contributions screen and select the items you wish to give.
+Contributing will give your fellow members Guild Tokens, and also increase your Guild Funds and fill the Guild Tech progress bar.
+Note: the Guild can only change which facility it upgrades once every 24 hours. The default facility upgrade is the Guild Roster Expansion.]]
+	},
+	guild_office_tip = {
+		tip = [[
+Guild Funds, Guild Operations, and Guild Supplies Info:
+1. Guild Funds:
+Guild Funds are a resource that can be used to grant helpful bonuses to all members of the Guild.
+The Guild Leader and Officers decide how they are allocated, and can use them to do the following:
+- Purchase Guild Supplies which give resources to their members every day
+- Upgrade Guild Tech facilities which improves important port functions
+- Start Guild Operations
+2. How to Earn Guild Funds:
+There are 2 main ways to earn Guild Funds:
+- Contributing resources to the Guild
+Members can always contribute some of their own resources to the Guild. Doing so will also grant both Guild Tokens and Guild Funds.
+- Completing Guild Missions
+The Guild Leader or an Officer can issue Guild Missions through the Contributions menu, and ordinary members can take on these missions.
+Every individual member that completes the mission receives Guild Tokens, in addition to Guild Funds being automatically awarded.
+Furthermore, the missions can be repeated several times for additional rewards, adding to the Guild's total number of mission completions.
+If all Guild members complete the mission, even more Guild Funds will be awarded.
+3. Guild Supplies
+The Guild Leader or an Officer can use Guild Funds to purchase Guild Supplies. When Guild Supplies have been bought, all members of the Guild will receive a package every day for the next 14 days.
+If a player so desires, they can stockpile up to 3 days' worth of Guild Supplies.
+Lastly, a player who has just joined a Guild cannot claim Guild Supplies on their first day.]]
+	},
+	guild_event_help_tip = {
+		tip = {
+			{
+				info = "作战说明："
+			},
+			{
+				info = "1.大舰队作战(以下简称为<color=#92fc63>作战</color>)是需要大舰队成员共同完\n成的战役。"
+			},
+			{
+				info = "2.作战需要有大舰队<color=#92fc63>司令</color>或<color=#92fc63>副司令</color>开启，开启时需要消耗\n<color=#92fc63>大舰队资金</color>。"
+			},
+			{
+				info = "3.作战中有若干个事件，事件需要所有成员派遣舰船前往\n解决，<color=#92fc63>派遣的舰船越多，解决事件的速度越快</color>。"
+			},
+			{
+				info = "3.1.事件类型如下"
+			},
+			{
+				info = "遭遇战",
+				rawIcon = {
+					name = "1",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "航空战",
+				rawIcon = {
+					name = "2",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "运输护卫",
+				rawIcon = {
+					name = "3",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "运输破坏",
+				rawIcon = {
+					name = "4",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "占领据点",
+				rawIcon = {
+					name = "5",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "据点防卫",
+				rawIcon = {
+					name = "6",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "侦查巡逻",
+				rawIcon = {
+					name = "7",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "后勤维修",
+				rawIcon = {
+					name = "8",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "4.所有主线事件完成后，将会出现首领敌人。"
+			},
+			{
+				info = "5.首领敌人的血量由<color=#92fc63>当次作战参与事件的成员数量</color>决定。"
+			},
+			{
+				info = "6.每个成员每天只能挑战<color=#92fc63>1</color>次首领战。"
+			},
+			{
+				info = "7.攻坚队：首领战事件可以使用攻坚队内的舰船协助作\n战，每位成员均可向攻坚队派遣<color=#92fc63>2</color>名角色。"
+			},
+			{
+				info = "8.向攻坚队派遣舰船后<color=#92fc63>30</color>分钟内无法修改，首领敌人出\n现状态下，无法修改攻坚队配置"
+			},
+			{
+				info = "9.首领战作战编组说明详见首领敌人作战编组界面。"
+			},
+			{
+				info = "10.击败首领敌人后，作战结束。"
+			},
+			{
+				info = "11.所有事件和首领敌人的奖励将会发放到<color=#92fc63>作战报告</color>内，\n作战报告有存储上限，请指挥官<color=#92fc63>及时领取</color>。"
+			}
+		}
+	},
+	guild_mission_info_tip = {
+		tip = [[
+1. Completing a Guild Event:
+When a Guild Event occurs, every member of the Guild can create and send out a Dispatch Fleet consisting of 4 of their own ships.
+An additional Dispatch Fleet can be sent out every 6 hours after the start of the Guild Event. However, a single member can only send a maximum of 16 ships across 4 instances.
+The more ships that are sent, the quicker the Guild Event will progress. Progress will be made even faster if certain optional conditions are fulfilled.
+2. What the Guild Event Rating is:
+Additional rewards may be issued depending on the rating of the individual participants in the Guild Event. Furthermore, the more Guild members that participate, the greater the odds that their rating will increase. Their rating might also increase if they satisfy certain conditions.
+Rewards can be claimed via the Action Report screen after a Guild Event has concluded.]]
+	},
+	guild_boss_fleet_desc = {
+		tip = [[
+1. A Guild Operation boss fleet can consist of up to <color=#92fc63>9</color> ships.
+2. Both your Vanguard Fleet and Main Fleet must contain at least <color=#92fc63>1</color> of your own ships.
+3. Up to <color=#92fc63>3</color> ships can be borrowed from Support Fleets created by fellow Guild members.
+4. The boss is defeated once their HP is reduced to 0, and the Guild Operation will conclude. The boss can only be fought once a day.]]
+	},
+	guild_boss_formation_exist_invaild_ship = {
+		tip = "Your boss fleet composition has changed as another member altered their Support Fleet lineup."
+	},
+	guild_exist_unreceived_supply_award = {
+		tip = "<color=red>Unclaimed</color>"
+	},
+	word_shipState_guild_event = {
+		tip = "角色正在参与大舰队作战，无法退役"
 	},
 	us_error_download_painting = {
 		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
@@ -11255,6 +12465,350 @@ to see the bonuses provided by each stat level.]]
 				y = 1024
 			}
 		}
+	},
+	index_equip = {
+		tip = "Equipped "
+	},
+	index_without_limit = {
+		tip = "No Limit"
+	},
+	meta_learn_skill = {
+		tip = "未配置tip"
+	},
+	world_joint_boss_not_found = {
+		tip = "Unable to battle this target. Please try another target. "
+	},
+	world_joint_boss_is_death = {
+		tip = "Coordinates have expired. Please try another target. "
+	},
+	world_joint_whitout_guild = {
+		tip = "You haven’t joined a Guild yet. "
+	},
+	world_joint_whitout_friend = {
+		tip = "You don’t have any friends yet :( "
+	},
+	world_joint_call_support_failed = {
+		tip = "Unable to send support request."
+	},
+	world_joint_call_support_success = {
+		tip = "Support request sent successfully."
+	},
+	world_joint_call_friend_support_txt = {
+		tip = "未配置tip"
+	},
+	world_joint_call_guild_support_txt = {
+		tip = "未配置tip"
+	},
+	world_joint_call_world_support_txt = {
+		tip = "未配置tip"
+	},
+	ad_4 = {
+		tip = "<material=underline c=#92fc63><color=#92fc63>$2</color></material> invites you to challenge <material=underline><color=#FFDE38FF>$3</color></material>"
+	},
+	world_word_expired = {
+		tip = "未配置tip"
+	},
+	world_word_guild_member = {
+		tip = "大舰队成员"
+	},
+	world_word_guild_player = {
+		tip = "玩家"
+	},
+	world_joint_boss_award_expired = {
+		tip = "未配置tip"
+	},
+	world_joint_not_refresh_frequently = {
+		tip = "Please try again later. "
+	},
+	world_joint_exit_battle_tip = {
+		tip = "Would you like to end the battle and head to Ashes Showdown? "
+	},
+	world_boss_get_item = {
+		tip = "You’ve obtained the maximum amount of Ashes Coordinates. Do you want to analyze the Ashes Coordinates and begin an Ashes Showdown? \n(<color=#ff5c5c>If you do not analyze your Ashes Coordinates, you will not be able to collect any more today</color>) "
+	},
+	world_boss_ask_help = {
+		tip = "A support request cannot be sent to this channel. "
+	},
+	world_joint_count_no_enough = {
+		tip = "Insufficient challenge attempts remaining. "
+	},
+	world_boss_none = {
+		tip = "Coordinates have expired. Please try another target. "
+	},
+	world_boss_fleet = {
+		tip = "Ashes Showdown Fleet "
+	},
+	world_max_challenge_cnt = {
+		tip = "This battle is already full. Please try another target. "
+	},
+	world_reset_success = {
+		tip = "Operation Siren progress has been reset. "
+	},
+	world_map_dangerous_confirm = {
+		tip = "A high-difficulty battle has been unlocked. Be careful - you’ll only get to challenge this enemy once, so make sure you’re prepared. "
+	},
+	world_map_version = {
+		tip = "This zone will be reset because assets have been updated. "
+	},
+	world_resource_fill = {
+		tip = "Unable to hold any more Supply Shop Vouchers. "
+	},
+	meta_sys_lock_tip = {
+		tip = "未配置tip"
+	},
+	meta_story_lock = {
+		tip = "未配置tip"
+	},
+	meta_acttime_limit = {
+		tip = "Limited "
+	},
+	meta_pt_left = {
+		tip = "$1 Days Left"
+	},
+	meta_syn_rate = {
+		tip = "资讯同步率"
+	},
+	meta_repair_rate = {
+		tip = "Fortification Rate "
+	},
+	meta_story_tip_1 = {
+		tip = "未配置tip"
+	},
+	meta_story_tip_2 = {
+		tip = "未配置tip"
+	},
+	meta_pt_get_way = {
+		tip = "未配置tip"
+	},
+	meta_pt_point = {
+		tip = "Sync Point "
+	},
+	meta_award_get = {
+		tip = "Collect"
+	},
+	meta_award_got = {
+		tip = "Collected"
+	},
+	meta_repair = {
+		tip = "Fortify Bonus:"
+	},
+	meta_repair_success = {
+		tip = "Rigging Fortification successful. "
+	},
+	meta_repair_effect_unlock = {
+		tip = "Obtained at $1% Fortification Rate. "
+	},
+	meta_repair_effect_special = {
+		tip = "Fortification Rate reached $1%. "
+	},
+	meta_energy_ship_level_need = {
+		tip = "Level Requirement: $1/$2"
+	},
+	meta_energy_ship_repairrate_need = {
+		tip = "Fortification Rate Req: $1/$2"
+	},
+	meta_energy_active_box_tip = {
+		tip = "Are you sure you want this ship to undergo Somatic Activation? (The ship will gain a ★ afterwards) "
+	},
+	meta_break = {
+		tip = "*This ship will gain a ★ after Somatic Activation. "
+	},
+	meta_energy_preview_title = {
+		tip = "Final stats at Max Fortification: "
+	},
+	meta_energy_preview_tip = {
+		tip = "*Does not include effects from affection or oath. "
+	},
+	meta_exp_per_day = {
+		tip = "Daily EXP "
+	},
+	meta_skill_unlock = {
+		tip = "Select the skill to learn. "
+	},
+	meta_unlock_skill_tip = {
+		tip = "The following materials are required to learn <color=#92fc63>$2</color>: "
+	},
+	meta_unlock_skill_select = {
+		tip = "未配置tip"
+	},
+	meta_switch_skill_disable = {
+		tip = "Unable to switch to learning a new skill today. "
+	},
+	meta_switch_skill_box_title = {
+		tip = "Would you like to start learning $1? "
+	},
+	meta_cur_pt = {
+		tip = "Sync Points "
+	},
+	meta_toast_fullexp = {
+		tip = "No more EXP can be earned today. "
+	},
+	meta_toast_tactics = {
+		tip = "Research EXP "
+	},
+	meta_skillbtn_tactics = {
+		tip = "Upgrade "
+	},
+	meta_destroy_tip = {
+		tip = "META ships cannot be retired. "
+	},
+	meta_voice_name_feeling1 = {
+		tip = "Let Down"
+	},
+	meta_voice_name_feeling2 = {
+		tip = "Stranger"
+	},
+	meta_voice_name_feeling3 = {
+		tip = "Friend"
+	},
+	meta_voice_name_feeling4 = {
+		tip = "Synced"
+	},
+	meta_voice_name_feeling5 = {
+		tip = "Love"
+	},
+	meta_voice_name_propose = {
+		tip = "Oath"
+	},
+	world_boss_ad = {
+		tip = "[$1] Lv. $2 "
+	},
+	world_boss_drop_title = {
+		tip = "未配置tip"
+	},
+	world_boss_pt_recove_desc = {
+		tip = "$1 Challenge Attempts will be restored each day at midnight. "
+	},
+	world_boss_progress_item_desc = {
+		tip = "Analyze the<color=#92fc63> Ashes Coordinates </color>you’ve collected during Operation Siren to unlock an Ashes Showdown. Once analyzed, any leftover Ashes Coordinates will be consumed. If the amount of stored Ashes Coordinates has reached its max, you will not be able to obtain any more Ashes Coordinates.\nDaily Analysis Attempts: $1/$2\nAshes Coordinates collected: $3 "
+	},
+	world_joint_max_challenge_people_cnt = {
+		tip = "This battle is already full. "
+	},
+	equip_ammo_type_1 = {
+		tip = "AP"
+	},
+	equip_ammo_type_2 = {
+		tip = "HE"
+	},
+	equip_ammo_type_3 = {
+		tip = "Normal"
+	},
+	equip_ammo_type_4 = {
+		tip = "Magnetic "
+	},
+	equip_ammo_type_5 = {
+		tip = "Normal "
+	},
+	equip_ammo_type_6 = {
+		tip = "Beehive"
+	},
+	equip_ammo_type_7 = {
+		tip = "SAP"
+	},
+	equip_ammo_type_8 = {
+		tip = "Fixed-Depth"
+	},
+	equip_ammo_type_9 = {
+		tip = "Contact"
+	},
+	equip_ammo_type_10 = {
+		tip = "None "
+	},
+	common_daily_limit = {
+		tip = "未配置tip"
+	},
+	meta_help = {
+		tip = {
+			{
+				info = "META研究室说明："
+			},
+			{
+				info = "·META研究室拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研修」</color>、\n<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块\n"
+			},
+			{
+				info = [[
+1.<color=#92fc63>能量激活</color>
+·META角色达到指定等级后可以使用对应的角色结晶进行
+激活。激活后可以提升角色星级
+·角色结晶可以通过「资讯同步」奖励获取]]
+			},
+			{
+				info = [[
+2.<color=#92fc63>战术研修</color>
+·完成战术研修任务获得META角色的技能升级经验，部
+分任务可以重复完成
+·一名角色只能同时进行一项技能的战术养成任务，多名
+角色之间彼此独立，同时进行
+·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前
+<color=#92fc63>60%</color>的技能升级经验拥有双倍累计速度
+]]
+			},
+			{
+				info = [[
+3.<color=#92fc63>舰装强化</color>
+·META角色可以通过消耗舰装强化材料对「炮击」「雷
+击」「航空」「装填」4个属性中的若干个进行强化
+·强化会提升相应属性值，当强化进度达到一定数值后还
+可获得额外属性提升。
+·舰装强化材料可通过「资讯同步」奖励及大型作战内
+港口商店购买获取
+4.<color=#92fc63>资讯同步</color>
+·通过「信标·烬」战斗收集角色同步值，在<color=#92fc63>指定时间</color>内
+领取包含养成材料在内的丰厚奖励]]
+			}
+		}
+	},
+	world_boss_daily_limit = {
+		tip = "Insufficient analysis attempts. "
+	},
+	common_go_to_analyze = {
+		tip = "Analyze "
+	},
+	world_boss_not_reach_target = {
+		tip = "Insufficient Ashes Coordinates. "
+	},
+	meta_pt_notenough = {
+		tip = "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"
+	},
+	meta_boss_unlock = {
+		tip = "Clear the first chapter of <color=#92fc63>Operation Siren</color> to unlock Ashes Showdown for the ability to obtain META ships. "
+	},
+	word_take_effect = {
+		tip = "生效"
+	},
+	world_boss_challenge_cnt = {
+		tip = "Participants: "
+	},
+	word_shipNation_meta = {
+		tip = "???"
+	},
+	world_word_friend = {
+		tip = "战友"
+	},
+	world_word_world = {
+		tip = "世界"
+	},
+	world_word_guild = {
+		tip = "大舰队"
+	},
+	world_collection_1 = {
+		tip = "收集进度"
+	},
+	world_collection_2 = {
+		tip = "Progress:"
+	},
+	world_collection_3 = {
+		tip = "Collection "
+	},
+	zero_hour_command_error = {
+		tip = "An error has occurred due to a data update or daily rollover. "
+	},
+	commander_is_in_bigworld = {
+		tip = "该指挥喵在大型作战中"
+	},
+	world_collection_back = {
+		tip = "点击空白处返回"
 	},
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"

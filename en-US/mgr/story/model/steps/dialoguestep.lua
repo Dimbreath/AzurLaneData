@@ -19,6 +19,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.say = slot1.say
 	slot0.side = slot1.side
 	slot0.dir = slot1.dir
+
+	if slot0.dir == 0 then
+		slot0.dir = 1
+	end
+
 	slot0.expression = slot1.expression
 	slot0.typewriter = slot1.typewriter
 	slot0.painting = slot1.painting

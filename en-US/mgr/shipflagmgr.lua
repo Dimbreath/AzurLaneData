@@ -75,12 +75,15 @@ slot2 = {
 		return getProxy(PlayerProxy):getRawData().characters
 	end,
 	inWorld = function ()
-		return _.map(getProxy(WorldProxy):GetWorld():GetShips(), function (slot0)
+		return _.map(nowWorld:GetShips(), function (slot0)
 			return slot0.id
 		end)
 	end,
 	isActivityNpc = function ()
 		return getProxy(BayProxy).activityNpcShipIds
+	end,
+	inGuildEvent = function ()
+		return getProxy(GuildProxy):getRawData():GetAllEventShip()
 	end
 }
 

@@ -6,7 +6,7 @@ function slot0.execute(slot0, slot1)
 	slot5 = slot2.callback
 	slot7 = getProxy(BayProxy):getShipById(slot2.shipId)
 
-	if getProxy(PlayerProxy):getData().equip_bag_max <= getProxy(EquipmentProxy):getCapacity() then
+	if getProxy(PlayerProxy):getData():getMaxEquipmentBag() <= getProxy(EquipmentProxy):getCapacity() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 
 		if slot5 then

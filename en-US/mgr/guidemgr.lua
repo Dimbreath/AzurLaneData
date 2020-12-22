@@ -52,10 +52,9 @@ function slot0.Init(slot0, slot1)
 
 		SetActive(uv0.fingerTF, false)
 
-		uv0.wTask = findTF(uv0._go, "wTask")
-
-		setActive(uv0.wTask, false)
-
+		uv0._signRes = findTF(uv0._go, "signRes")
+		uv0.signPool = {}
+		uv0.curSignList = {}
 		uv0.fingerSprites = {}
 
 		eachChild(findTF(uv0._go, "resources"), function (slot0)
@@ -66,6 +65,7 @@ function slot0.Init(slot0, slot1)
 		uv0.inited = true
 		uv0.finder = uv0:Finder()
 		uv0.managerState = uv1.MANAGER_STATE.IDLE
+		uv0.material = uv0._tf:Find("resources/material"):GetComponent(typeof(Image)).material
 
 		uv2()
 	end)
@@ -124,11 +124,7 @@ function slot0.checkModuleOpen(slot0, slot1)
 end
 
 function slot0.isPlayed(slot0, slot1)
-	if getProxy(PlayerProxy) then
-		return pg.NewStoryMgr.GetInstance():IsPlayed(slot1)
-	end
-
-	return false
+	return pg.NewStoryMgr.GetInstance():IsPlayed(slot1)
 end
 
 function slot0.play(slot0, slot1, slot2, slot3, slot4)
@@ -231,7 +227,10 @@ function slot0.doCurrEvent(slot0, slot1, slot2)
 		elseif uv0.notifies then
 			uv1:sendNotifies(uv0, uv2)
 		elseif uv0.showSign then
-			uv1:showSign(uv0.showSign, uv2)
+			uv1:showSign(uv0, uv2)
+		elseif uv0.doFunc then
+			uv0.doFunc()
+			uv2()
 		elseif uv0.doNothing then
 			uv2()
 		else
@@ -251,34 +250,190 @@ function slot0.doCurrEvent(slot0, slot1, slot2)
 end
 
 function slot0.showSign(slot0, slot1, slot2)
+	slot3 = slot1.showSign
+
 	function ()
-		slot0 = uv0.duration
-		slot1 = uv0.pos
-		slot3 = nil
+		slot0 = uv0.type
+		slot1 = uv0.duration
+		slot2 = uv0.simultaneously
+		slot3 = uv0.clickUI
+		slot4 = uv0.clickArea
+		slot5 = uv0.longPress
+		slot7 = {}
 
-		if uv0.signType == 1 then
-			slot3 = uv1.wTask
-		end
+		for slot11, slot12 in ipairs(uv0.signList) do
+			slot13 = slot12.signType
+			uv1.curSignList[#uv1.curSignList + 1] = {
+				signType = slot13,
+				sign = uv1:getSign(slot13, slot12)
+			}
 
-		setActive(slot3, true)
-
-		if type(slot1) == "string" then
-			if slot1 == "compassPos" then
-				slot1 = WorldGuider.GetInstance().tempGridPos
+			if type(slot12.pos) == "string" then
+				if slot14 == "useCachePos" then
+					slot14 = WorldGuider.GetInstance():GetTempGridPos(slot12.cachedIndex)
+				end
+			elseif type(slot14) == "table" then
+				slot14 = Vector3.New(slot14[1], slot14[2], slot14[3])
 			end
-		elseif type(slot1) == "table" then
-			slot1 = Vector3.New(slot1[1], slot1[2], slot1[3])
+
+			if slot14 then
+				setLocalPosition(slot16, slot14)
+			end
+
+			slot7[#slot7 + 1] = slot17
 		end
 
-		setLocalPosition(slot3, slot1)
+		function recycle_handler()
+			for slot3, slot4 in ipairs(uv0) do
+				slot5 = uv1.curSignList[slot4]
 
-		uv1.signTimer = Timer.New(function ()
-			setActive(uv0, false)
-			uv1()
-		end, slot0, slot0, 1)
+				uv1:recycleSign(slot5.signType, slot5.sign)
 
-		uv1.signTimer:Start()
+				uv1.curSignList[slot4] = nil
+			end
+
+			if not uv2 then
+				uv1:finishCurrEvent(uv3, uv4)
+			end
+		end
+
+		slot9 = uv1.curSignList[slot7[1]].sign
+
+		if slot0 == 2 then
+			uv1:updateUIStyle(uv2, false, nil)
+
+			slot10 = findTF(slot9, "btn")
+
+			if slot3 then
+				setActive(slot9, false)
+				uv1.finder:Search({
+					path = slot3.path,
+					delay = slot3.delay,
+					pathIndex = slot3.pathIndex,
+					conditionData = slot3.conditionData,
+					found = function (slot0)
+						uv0.cloneTarget = uv0:cloneGO(go(slot0), uv0._tf, uv1)
+
+						setActive(uv0.cloneTarget, false)
+
+						uv2.localPosition = uv0.cloneTarget.localPosition - Vector3(uv0.cloneTarget.sizeDelta.x * (uv0.cloneTarget.pivot.x - 0.5), uv0.cloneTarget.sizeDelta.y * (uv0.cloneTarget.pivot.y - 0.5), 0)
+
+						if uv1.sizeDeltaPlus then
+							uv3.sizeDelta = uv0.cloneTarget.sizeDelta + Vector2(uv1.sizeDeltaPlus[1], uv1.sizeDeltaPlus[2])
+						else
+							uv3.sizeDelta = uv0.cloneTarget.sizeDelta
+						end
+
+						setActive(uv2, true)
+					end,
+					notFound = function ()
+						uv0:endGuider(uv1)
+					end
+				})
+			elseif slot4 then
+				slot10.sizeDelta = Vector2.New(slot4[1], slot4[2])
+			end
+
+			slot11 = GetOrAddComponent(slot10, typeof(UILongPressTrigger))
+
+			slot11.onLongPressed:RemoveAllListeners()
+			slot11.onReleased:RemoveAllListeners()
+
+			if slot5 == 1 then
+				slot11.onLongPressed:AddListener(function ()
+					recycle_handler()
+				end)
+			else
+				slot11.onReleased:AddListener(function ()
+					recycle_handler()
+				end)
+			end
+
+			return
+		end
+
+		if slot0 == 3 then
+			slot9.sizeDelta = Vector2.New(slot4[1], slot4[2])
+
+			uv1:updateUIStyle(uv2, true, uv3)
+		else
+			if slot2 then
+				uv1:finishCurrEvent(uv2, uv3)
+			end
+
+			if slot1 ~= nil then
+				uv1.curSignList[slot8].signTimer = Timer.New(function ()
+					recycle_handler()
+				end, slot1, 1)
+
+				uv1.curSignList[slot8].signTimer:Start()
+			end
+		end
 	end()
+end
+
+function slot0.getSign(slot0, slot1, slot2)
+	slot3, slot4 = nil
+	slot5 = slot2.atlasName
+	slot6 = slot2.fileName
+
+	if slot0.signPool[slot1] ~= nil and #slot0.signPool[slot1] > 0 then
+		slot3 = table.remove(slot0.signPool[slot1], #slot0.signPool[slot1])
+	else
+		if slot1 == 1 or slot1 == 6 then
+			slot4 = findTF(slot0._signRes, "wTask")
+		elseif slot1 == 2 then
+			slot4 = findTF(slot0._signRes, "wDanger")
+		elseif slot1 == 3 then
+			slot4 = findTF(slot0._signRes, "wForbidden")
+		elseif slot1 == 4 then
+			slot4 = findTF(slot0._signRes, "wClickArea")
+		elseif slot1 == 5 then
+			slot4 = findTF(slot0._signRes, "wShowArea")
+		end
+
+		slot3 = tf(Instantiate(slot4))
+	end
+
+	if slot1 == 6 then
+		setImageSprite(findTF(slot3, "shadow"), LoadSprite(slot5, slot6), true)
+	end
+
+	setActive(slot3, true)
+	setParent(slot3, slot0._go.transform)
+
+	slot3.eulerAngles = Vector3(0, 0, 0)
+	slot3.localScale = Vector3.one
+
+	return slot3
+end
+
+function slot0.recycleSign(slot0, slot1, slot2)
+	if slot0.signPool[slot1] == nil then
+		slot0.signPool[slot1] = {}
+	end
+
+	if #slot0.signPool[slot1] > 3 or slot1 == 6 then
+		Destroy(slot2)
+	else
+		table.insert(slot3, slot2)
+		setParent(slot2, slot0._signRes)
+		setActive(slot2, false)
+	end
+end
+
+function slot0.destroyAllSign(slot0)
+	for slot4, slot5 in ipairs(slot0.curSignList) do
+		if slot5.signTimer ~= nil then
+			slot5.signTimer:Stop()
+
+			slot5.signTimer = nil
+		end
+
+		slot0:recycleSign(slot5.signType, slot5.sign)
+
+		slot0.curSignList[slot4] = nil
+	end
 end
 
 function slot0.sendNotifies(slot0, slot1, slot2)
@@ -307,6 +462,7 @@ function slot0.playStories(slot0, slot1, slot2)
 
 	seriesAsync(slot3, function ()
 		uv0:finishCurrEvent(uv1, uv2)
+		pg.m02:sendNotification(GAME.START_GUIDE)
 	end)
 end
 
@@ -394,6 +550,15 @@ function slot0.findUI(slot0, slot1, slot2)
 	end)
 end
 
+function slot0.SetHighLightLine(slot0, slot1)
+	slot2 = slot0._tf:InverseTransformPoint(slot1.position)
+	slot0.highLightLine = cloneTplTo(findTF(slot0._signRes, "wShowArea"), slot0._tf)
+	slot3 = 15
+	slot0.highLightLine.sizeDelta = Vector2(slot1.sizeDelta.x + slot3, slot1.sizeDelta.y + slot3)
+	slot0.highLightLine.pivot = slot1.pivot
+	slot0.highLightLine.localPosition = Vector3(slot2.x, slot2.y, 0) + Vector3((slot1.pivot.x - 0.5) * slot3, (slot1.pivot.y - 0.5) * slot3, 0)
+end
+
 function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 	slot0.bgAlpha.alpha = slot1.alpha or 0.2
 
@@ -408,7 +573,11 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 				delay = slot1.style.ui.delay,
 				pathIndex = slot1.style.ui.pathIndex,
 				found = function (slot0)
-					uv0.cloneTarget = uv0:cloneGO(go(slot0), uv0._tf, uv1.style.ui)
+					if uv0.style.ui.lineMode then
+						uv1:SetHighLightLine(slot0)
+					else
+						uv1.cloneTarget = uv1:cloneGO(go(slot0), uv1._tf, uv0.style.ui)
+					end
 				end,
 				notFound = function ()
 					uv0:endGuider()
@@ -437,47 +606,57 @@ function slot0.updateContent(slot0, slot1)
 	SetActive(slot0.styleTF1, slot4 == uv0.MODE1)
 	SetActive(slot0.styleTF2, slot4 == uv0.MODE2)
 
-	slot7 = nil
+	slot7, slot8 = nil
 
 	if slot4 == uv0.MODE1 then
 		slot7 = slot0.styleTF1
+		slot8 = Vector3(18, -31, 0)
 	elseif slot4 == uv0.MODE2 then
 		slot7 = slot0.styleTF2
+		slot8 = Vector3(-27, 143, 0)
 	end
 
-	slot8 = slot3 == 1 and Vector3(1, 1, 1) or Vector3(-1, 1, 1)
-	slot7.localScale = slot8
-	slot7:Find("content").localScale = slot8
+	slot9 = slot7:Find("char"):GetComponent(typeof(Image))
+	slot9.sprite = GetSpriteFromAtlas("ui/guide_atlas", "guide" .. (slot2.char or ""))
 
-	setText(slot9, HXSet.hxLan(slot2.text or ""))
+	slot9:SetNativeSize()
 
-	if CHAT_POP_STR_LEN_MIDDLE < #slot9:GetComponent(typeof(Text)).text then
-		slot11.alignment = TextAnchor.MiddleLeft
+	slot9.material = slot2.char and slot0.material
+	slot9.gameObject.transform.pivot = getSpritePivot(slot10)
+
+	setAnchoredPosition(slot9.gameObject.transform, {
+		x = slot8.x,
+		y = slot8.y
+	})
+
+	slot11 = slot3 == 1 and Vector3(1, 1, 1) or Vector3(-1, 1, 1)
+	slot7.localScale = slot11
+	slot7:Find("content").localScale = slot11
+
+	setText(slot12, HXSet.hxLan(slot2.text or ""))
+
+	if CHAT_POP_STR_LEN_MIDDLE < #slot12:GetComponent(typeof(Text)).text then
+		slot14.alignment = TextAnchor.MiddleLeft
 	else
-		slot11.alignment = TextAnchor.MiddleCenter
+		slot14.alignment = TextAnchor.MiddleCenter
 	end
 
-	slot12 = slot11.preferredHeight + 120
+	slot15 = slot14.preferredHeight + 120
 
-	if slot4 == uv0.MODE2 and slot0.initChatBgH < slot12 then
-		slot7.sizeDelta = Vector2.New(slot7.sizeDelta.x, slot12)
+	if slot4 == uv0.MODE2 and slot0.initChatBgH < slot15 then
+		slot7.sizeDelta = Vector2.New(slot7.sizeDelta.x, slot15)
 	else
 		slot7.sizeDelta = Vector2.New(slot7.sizeDelta.x, slot0.initChatBgH)
 	end
 
 	if slot4 == uv0.MODE1 then
-		slot13 = slot2.charPos or {
-			x = -388,
-			y = -100.1717
-		}
-		slot7:Find("char").localPosition = Vector3(slot13.x, slot13.y, 0)
-		slot14 = slot2.hand or {
+		slot16 = slot2.hand or {
 			w = 0,
 			x = -267,
 			y = -96
 		}
-		slot7:Find("hand").localPosition = Vector3(slot14.x, slot14.y, 0)
-		slot7:Find("hand").eulerAngles = Vector3(0, 0, slot14.w)
+		slot7:Find("hand").localPosition = Vector3(slot16.x, slot16.y, 0)
+		slot7:Find("hand").eulerAngles = Vector3(0, 0, slot16.w)
 	end
 
 	setAnchoredPosition(slot0.guiderTF, Vector2(slot5, slot6))
@@ -498,7 +677,13 @@ function slot0.Finder(slot0)
 
 	function slot3(slot0, slot1)
 		if not IsNil(GameObject.Find(slot0)) then
-			if slot1 and slot1 ~= -1 then
+			if slot1 and slot1 == -999 then
+				for slot7 = 0, tf(slot2).childCount do
+					if not IsNil(tf(slot2):GetChild(slot7)) and go(slot8).activeInHierarchy then
+						return slot8
+					end
+				end
+			elseif slot1 and slot1 ~= -1 then
 				if uv0(tf(slot2), slot1) >= 0 and slot3 < tf(slot2).childCount and not IsNil(tf(slot2):GetChild(slot3)) then
 					return slot4
 				end
@@ -510,8 +695,8 @@ function slot0.Finder(slot0)
 
 	function slot4(slot0, slot1)
 		if uv0(slot0, -1) ~= nil then
-			for slot7 = 0, slot2.childCount - 1 do
-				if table.contains(slot1, slot2:GetChild(slot7):GetChild(0).name) then
+			for slot6, slot7 in ipairs(slot1) do
+				if slot2:Find(slot7) then
 					return slot8
 				end
 			end
@@ -722,9 +907,16 @@ function slot0.addUIEventTrigger(slot0, slot1, slot2, slot3)
 		setButtonEnabled(slot6, true)
 	elseif slot8 == uv1 then
 		onToggle(slot0, slot6, function (slot0)
-			if slot0 and not IsNil(uv0) then
-				uv1:finishCurrEvent(uv2, uv3)
-				triggerToggle(uv0, uv4.triggerType[2] or true)
+			if IsNil(uv0) then
+				return
+			end
+
+			uv1:finishCurrEvent(uv2, uv3)
+
+			if uv4.triggerType[2] ~= nil then
+				triggerToggle(uv0, uv4.triggerType[2])
+			else
+				triggerToggle(uv0, true)
 			end
 		end, SFX_PANEL)
 		setToggleEnabled(slot6, true)
@@ -775,6 +967,7 @@ function slot0.finishCurrEvent(slot0, slot1, slot2)
 	slot0.bgAlpha.alpha = 0.2
 
 	removeOnButton(slot0._go)
+	slot0:destroyAllSign()
 	SetParent(slot0.fingerTF, tf(slot0._go), false)
 	SetActive(slot0.fingerTF, false)
 	SetActive(slot0.guiderTF, false)
@@ -800,6 +993,12 @@ function slot0.finishCurrEvent(slot0, slot1, slot2)
 		slot0.findUITimer = nil
 	end
 
+	if slot0.highLightLine then
+		Destroy(slot0.highLightLine)
+
+		slot0.highLightLine = nil
+	end
+
 	if slot2 then
 		slot2()
 	end
@@ -820,12 +1019,7 @@ function slot7(slot0)
 		slot0.targetTimer = nil
 	end
 
-	if slot0.signTimer then
-		slot0.signTimer:Stop()
-
-		slot0.signTimer = nil
-	end
-
+	slot0:destroyAllSign()
 	slot0.finder:Clear()
 
 	if slot0.cloneTarget then

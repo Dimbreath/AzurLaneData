@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Paradigm of Happiness\n\n<size=45>Chapter 2 - Hipper Wants to Calm Down</size>",
+					"幸福的范式\n\n<size=45>二 希佩尔想要冷静</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "After reaching a good place to take a break from work, I decided to get up to look for Hipper.",
+			say = "工作也算告一段落，于是起身去寻找希佩尔的下落。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "Even though she said some mean things, I didn't expect that she had already finished all her work by the time she left...",
+			say = "虽然说了一堆狠话，不过没想到她在出去之前就把工作都处理完了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "Just when I was starting to dwell on this fact, I spotted Hipper in one of the lounges. She seemed to be completely engrossed in something.",
+			say = "正在感慨之时，突然发现了在某间休息室内希佩尔的身影。似乎正在心无旁骛地弄着什么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,10 +69,10 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "Admiral Hipper",
+			actorName = "希佩尔海军上将",
 			actor = 403010,
 			nameColor = "#a9f548",
-			say = "Seriously... Whether's it's Eugen or that big idiot, why do they always... Am I reading too much into things? Did I misunderstand something? Fat chance, right? Yeah, no way...",
+			say = "……真是的，那个笨蛋也好欧根也好，为什么都……是我想太多了？还是听错了？不可能，绝对不可能…",
 			flashout = {
 				dur = 0.5,
 				black = false,
@@ -105,8 +105,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "But, shouldn't that idiot have come looking for me by now? Geez...",
+			actorName = "希佩尔海军上将",
+			say = "不过，既然这样不应该那家伙主动来找我吗？真是的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			},
 			options = {
 				{
-					content = "\"I'm right here.\"",
+					content = "向希佩尔搭话",
 					flag = 1
 				}
 			}
@@ -128,8 +128,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Eeeaaahh?! Wh-wh-when did you get here?!",
+			actorName = "希佩尔海军上将",
+			say = "呀啊啊啊啊啊啊！？你你你什么时候来的！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,8 +155,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "You would've said something but... you didn't want to interrupt my monologue? ...Excuse me?!",
+			actorName = "希佩尔海军上将",
+			say = "「本来想早点出声没想到看呆了？」……哈啊！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +182,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Dammit, this is your fault! I'm not myself today because of you!",
+			actorName = "希佩尔海军上将",
+			say = "啊啊真是的，都是因为你！害我今天一天状态都不对劲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "My fault? What did I do to wrong her?",
+			say = "今天做过什么…？一点头绪都没有",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,8 +219,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Deep breaths, deep breaths... Whew... Whatever, forget it. Anyway, what do you want?",
+			actorName = "希佩尔海军上将",
+			say = "深呼吸深呼吸……呼，没什么，别在意。所以呢，找我有什么事?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			},
 			options = {
 				{
-					content = "\"What are you doing?\"",
+					content = "询问希佩尔在做什么",
 					flag = 1
 				}
 			}
@@ -252,8 +252,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "What am I doing? ...Arranging flowers, I guess?",
+			actorName = "希佩尔海军上将",
+			say = "做什么……插花啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,8 +269,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "What's with that look on your face? Is it THAT weird for me to have hobbies?",
+			actorName = "希佩尔海军上将",
+			say = "你这是什么表情…有必要这么吃惊吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,8 +286,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "I'll do this sometimes when I want to calm down. It's easier for me to concentrate when I'm alone... Why do I need to calm down in the first place...?! Why, that's... because... of... you!",
+			actorName = "希佩尔海军上将",
+			say = "在想要冷静的时候偶尔会自己弄弄这个，独处的情况下也比较容易集中。——为什么现在要冷静一下？还不是因为你…因为…你…唔！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,8 +303,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Gaahhh! It took me all that time to calm down, and now I'm all worked up again!",
+			actorName = "希佩尔海军上将",
+			say = "啊啊真是的，好不容易冷静下来你一来全白费了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "You must've been really focused since you didn't even notice me until I called out to you...",
+			say = "出声前完全没注意到有人靠近，果然是相当集中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,8 +340,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Hm? Hmph, well, yeah. I'm quite confident in my aesthetic talents... Did it interest you that much? Hmm...",
+			actorName = "希佩尔海军上将",
+			say = "欸？哼，哼！那是当然。我对自己插花的手艺可以是很有自信的…你那么在意吗？这样啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,8 +367,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Just out of curiosity, what's your favorite flower?",
+			actorName = "希佩尔海军上将",
+			say = "姑且问问，你有什么喜欢的花吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "I randomly picked the names of a few flowers that I actually know about.",
+			say = "随口说了几种知道的花",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,8 +394,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Oh really? In that case... maybe I'll make something for you if I'm ever in the mood.",
+			actorName = "希佩尔海军上将",
+			say = "这样…等我什么时候心血来潮了也给你弄一组好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,8 +411,8 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "You're always hanging out in that dreary office of yours. Stewing in your tastelessness all day can't be healthy.",
+			actorName = "希佩尔海军上将",
+			say = "总在那煞风景的指挥室里，岂不显得给你干活的我品味也不行了嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "Hipper seemed to have cheered up a bit at least...",
+			say = "希佩尔似乎又有点开心了的样子……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

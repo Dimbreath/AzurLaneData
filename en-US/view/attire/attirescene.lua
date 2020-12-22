@@ -69,7 +69,7 @@ end
 function slot0.updateCurrPage(slot0, slot1)
 	if not slot0.panels[slot0.page]:GetLoaded() then
 		slot2:Load()
-		slot2:AddLoadedCallback(function ()
+		slot2:CallbackInvoke(function ()
 			uv0:ActionInvoke("Update", uv1.rawAttireVOs, uv1.playerVO)
 
 			if uv2 then

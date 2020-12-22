@@ -70,8 +70,8 @@ function slot5.SetBoneList(slot0)
 	end
 end
 
-function slot5.SpawnBullet(slot0, slot1, slot2, slot3)
-	slot0._bulletFactoryList[slot1:GetTemplate().type]:CreateBullet(slot0._tf, slot1, slot0:GetBonePos(slot2), slot3, slot0._unitData:GetDirection())
+function slot5.SpawnBullet(slot0, slot1, slot2, slot3, slot4)
+	slot0._bulletFactoryList[slot1:GetTemplate().type]:CreateBullet(slot0._tf, slot1, slot4 or slot0:GetBonePos(slot2), slot3, slot0._unitData:GetDirection())
 end
 
 function slot5.GetBonePos(slot0, slot1)
@@ -245,6 +245,8 @@ function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.BLIND_VISIBLE, slot0.onUpdateBlindInvisible)
 	slot0._unitData:RegisterEventListener(slot0, uv0.BLIND_EXPOSE, slot0.onBlindExposed)
 	slot0._unitData:RegisterEventListener(slot0, uv0.INIT_ANIT_SUB_VIGILANCE, slot0.onInitVigilantState)
+	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_CLOAK_CONFIG, slot0.onUpdateCloakConfig)
+	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_CLOAK_LOCK, slot0.onUpdateCloakLock)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HIDE_WAVE_FX, slot0.RemoveWaveFX)
@@ -280,6 +282,8 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.CHANGE_ANTI_SUB_VIGILANCE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_ANIT_SUB_VIGILANCE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.ANTI_SUB_VIGILANCE_SONAR_CHECK)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_CLOAK_CONFIG)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_CLOAK_LOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON)
 
@@ -317,7 +321,7 @@ function slot5.UnregisterWeaponListener(slot0, slot1)
 end
 
 function slot5.onCreateBullet(slot0, slot1)
-	slot0:SpawnBullet(slot1.Data.bullet, slot1.Data.spawnBound, slot1.Data.fireFxID)
+	slot0:SpawnBullet(slot1.Data.bullet, slot1.Data.spawnBound, slot1.Data.fireFxID, slot1.Data.position)
 end
 
 function slot5.onCannonFire(slot0, slot1)
@@ -653,6 +657,10 @@ function slot5.UpdateCastClockPosition(slot0)
 	slot0._castClock:UpdateCastClockPosition(slot0._referenceVector)
 end
 
+function slot5.UpdateBarrierClockPosition(slot0)
+	slot0._barrierClock:UpdateBarrierClockPosition(slot0._referenceVector)
+end
+
 function slot5.SetArrowPoint(slot0)
 	slot0._arrowVector:Set()
 
@@ -720,6 +728,13 @@ function slot5.Dispose(slot0)
 
 	if slot0._voicePlaybackInfo then
 		slot0._voicePlaybackInfo:PlaybackStop()
+	end
+
+	if slot0._cloakBar then
+		slot0._cloakBar:Dispose()
+
+		slot0._cloakBar = nil
+		slot0._cloakBarTf = nil
 	end
 
 	slot0._voicePlaybackInfo = nil
@@ -857,6 +872,16 @@ function slot5.AddCastClock(slot0, slot1)
 	slot0:UpdateCastClockPosition()
 end
 
+function slot5.AddBarrierClock(slot0, slot1)
+	slot2 = slot1.transform
+
+	SetActive(slot2, false)
+
+	slot0._barrierClock = uv0.Battle.BattleBarrierBar.New(slot2)
+
+	slot0:UpdateBarrierClockPosition()
+end
+
 function slot5.AddVigilantBar(slot0, slot1)
 	slot0._vigilantBar = uv0.Battle.BattleVigilantBar.New(slot1.transform)
 
@@ -867,6 +892,31 @@ end
 
 function slot5.UpdateVigilantBarPosition(slot0)
 	slot0._vigilantBar:UpdateVigilantBarPosition(slot0._hpBarPos)
+end
+
+function slot5.AddCloakBar(slot0, slot1)
+	slot0._cloakBarTf = slot1.transform
+	slot0._cloakBar = uv0.Battle.BattleCloakBar.New(slot1.transform)
+
+	slot0._cloakBar:ConfigCloak(slot0._unitData:GetCloak())
+	slot0._cloakBar:UpdateCloakProgress()
+end
+
+function slot5.UpdateCloakBarPosition(slot0, slot1)
+	if slot0._inViewArea then
+		slot0._cloakBarTf.anchoredPosition = uv0
+	else
+		slot0._cloakBar:UpdateCloarBarPosition(slot0._arrowVector)
+	end
+end
+
+function slot5.onUpdateCloakConfig(slot0, slot1)
+	slot0._cloakBar:UpdateCloakConfig()
+end
+
+function slot5.onUpdateCloakLock(slot0, slot1)
+	print("uuuuuu")
+	slot0._cloakBar:UpdateCloakLock()
 end
 
 function slot5.OnUpdateHP(slot0, slot1)

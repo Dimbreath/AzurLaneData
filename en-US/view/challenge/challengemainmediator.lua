@@ -5,6 +5,7 @@ slot0.ON_PRECOMBAT = "ChallengeMainMediator:ON_PRECOMBAT"
 slot0.ON_SELECT_ELITE_COMMANDER = "ChallengeMainMediator:ON_SELECT_ELITE_COMMANDER"
 slot0.ON_OPEN_RANK = "ChallengeMainMediator:ON_OPEN_RANK"
 slot0.COMMANDER_FORMATION_OP = "ChallengeMainMediator:COMMANDER_FORMATION_OP"
+slot0.ON_COMMANDER_SKILL = "ChallengeMainMediator:ON_COMMANDER_SKILL"
 
 function slot0.register(slot0)
 	slot3 = getProxy(ChallengeProxy)
@@ -64,11 +65,6 @@ function slot0.register(slot0)
 
 		uv0.contextData.editFleet = true
 	end)
-	slot0:bind(uv0.COMMANDER_FORMATION_OP, function (slot0, slot1)
-		uv0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
-			data = slot1
-		})
-	end)
 	slot0:bind(ActivityFleetPanel.ON_FLEET_RECOMMEND, function (slot0, slot1)
 		uv0:recommendActivityFleet(uv1.id, slot1)
 		uv3.viewComponent:setFleet(uv2:getActivityFleets()[uv1.id])
@@ -81,20 +77,27 @@ function slot0.register(slot0)
 		uv2.viewComponent:setFleet(slot3)
 		uv2.viewComponent:updateEditPanel()
 	end)
+	slot0:bind(uv0.COMMANDER_FORMATION_OP, function (slot0, slot1)
+		uv0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
+			data = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_COMMANDER_SKILL, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = CommanderSkillMediator,
+			viewComponent = CommanderSkillLayer,
+			data = {
+				skill = slot1
+			}
+		}))
+	end)
 	slot0:bind(uv0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2)
-		slot4 = nil
-
-		for slot8, slot9 in pairs(uv0:getActivityFleets()[uv1.id]) do
-			if slot8 == slot1 then
-				slot4 = slot9
-			end
-		end
-
 		uv2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 1,
 			mode = CommandRoomScene.MODE_SELECT,
-			activeCommander = slot4:getCommanders()[slot2],
+			activeCommander = uv0:getActivityFleets()[uv1.id][slot1]:getCommanders()[slot2],
 			ignoredIds = {},
+			fleetType = CommandRoomScene.FLEET_TYPE_CHALLENGE,
 			onCommander = function (slot0)
 				return true
 			end,
@@ -184,14 +187,17 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CHALLENGE2_RESET_DONE,
 		GAME.CHALLENGE2_INFO_DONE,
 		GAME.SUBMIT_TASK_DONE,
-		CommanderProxy.PREFAB_FLEET_UPDATE
+		CommanderProxy.PREFAB_FLEET_UPDATE,
+		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE
 	}
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot6 = getProxy(FleetProxy)
+
 	if slot1:getName() == GAME.CHALLENGE2_INITIAL_DONE then
-		slot5 = slot1:getBody().mode
-		slot6 = getProxy(ChallengeProxy):getUserChallengeInfo(slot5)
+		slot7 = slot1:getBody().mode
+		slot8 = getProxy(ChallengeProxy):getUserChallengeInfo(slot7)
 
 		slot0:addSubLayers(Context.New({
 			mediator = ChallengePreCombatMediator,
@@ -199,7 +205,7 @@ function slot0.handleNotification(slot0, slot1)
 			data = {
 				system = SYSTEM_CHALLENGE,
 				actID = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id,
-				mode = slot5,
+				mode = slot7,
 				func = function ()
 					uv0:tryBattle()
 				end
@@ -242,6 +248,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
 		slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 		slot0.viewComponent:updateCommanderPrefab()
+	elseif slot2 == GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE then
+		slot7 = slot6:getActivityFleets()[slot3.actId]
+
+		slot0.viewComponent:setFleet(slot7)
+		slot0.viewComponent:updateEditPanel()
+		slot0.viewComponent:updateCommanderFleet(slot7[slot3.fleetId])
 	end
 end
 

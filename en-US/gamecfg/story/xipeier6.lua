@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Paradigm of Happiness\n\n<size=45>Chapter 6 - Courageous Charge</size>",
+					"幸福的范式\n\n<size=45>六 勇气的冲锋</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "Port - Outside the Office",
+			say = "港区·指挥室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,8 +51,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "...We need to talk!",
+			actorName = "希佩尔海军上将",
+			say = "……我有事找你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "Hipper suddenly threw open the door and barged in.",
+			say = "希佩尔突然开门闯了进来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,8 +100,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Why else would I be here... Look what you've done to me! I haven't been myself lately because of you!",
+			actorName = "希佩尔海军上将",
+			say = "还问什么事…都是因为你，害我最近状态都不正常了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,8 +117,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "When you were working that other day, I was just thinking about how you weren't half bad...",
+			actorName = "希佩尔海军上将",
+			say = "之前兜风回来的时候还在想，你这家伙终于能干一些了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,8 +134,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "But then nothing came of it at all! Ever since we got back, I've been cleaning up after your messes, nonstop!",
+			actorName = "希佩尔海军上将",
+			say = "结果完全没有！就因为你最近太废柴了，才害我一直要帮你擦屁股！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "How'd she get that impression of me...?",
+			say = "印象中应该不至于……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "It's natural to help out while I'm the secretary, but even when I'm not working, I'm always worried about whether you might need help with something!",
+			actorName = "希佩尔海军上将",
+			say = "作为秘书舰帮忙做事倒是没什么…不过你这样，我就算没在工作的时候，也老是会担心你遇到问题不是吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,8 +192,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Have you ever been in this situation where you just can't stop thinking about someone?! You've even started appearing in my dreams... How annoying is that?!",
+			actorName = "希佩尔海军上将",
+			say = "你有遇到过像这样满脑子里都是某人的情况吗！？连在梦里都会出现…真是太烦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "I was left stunned by Hipper's words for some length of time.",
+			say = "希佩尔一番唐突的发言，让人不禁愣住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,8 +223,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Ahh, geez. How am I going to get you to take responsibility for this?",
+			actorName = "希佩尔海军上将",
+			say = "啊啊真是的，你说究竟该怎么办才好嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,8 +250,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "*sigh*... But considering how daft you can be, I'd be better off just asking Glowworm...",
+			actorName = "希佩尔海军上将",
+			say = "哈啊…反正你这家伙迟钝得要死，问你还不如问萤火虫呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "Hipper was so... embarrassed? That she looked like she was about to cry. Just then...",
+			say = "希佩尔激动地说着，又一脸害羞脸红到不行的样子，既然如此——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,8 +297,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403030,
-			actorName = "Prinz Eugen",
-			say = "...Whew. The anticipation was killing me, so I just had to come take a look... But you two are like brick walls trying to talk to each other.",
+			actorName = "欧根亲王",
+			say = "……呼。放不下心来跟过来一看，果然是这种展开啊。你们俩可真是一个比一个迟钝啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,8 +314,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "E-Eugen! Why are you here...?",
+			actorName = "希佩尔海军上将",
+			say = "欧，欧根！你怎么在这里……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,8 +331,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403030,
-			actorName = "Prinz Eugen",
-			say = "I was planning to come cheer up my cute, clumsy sister~♪",
+			actorName = "欧根亲王",
+			say = "想着要给笨拙的姐姐打打气嘛♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,8 +348,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403030,
-			actorName = "Prinz Eugen",
-			say = "Commander, did you know? The reason why she's been so flustered is because she saw the couple's ticket that Akashi bought for you.",
+			actorName = "欧根亲王",
+			say = "指挥官你知道吗？姐姐之所以那么慌张，是因为她看到明石帮你买的情侣套票了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,8 +365,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "What? Sh-sh-shut up! I've never even heard about this...!",
+			actorName = "希佩尔海军上将",
+			say = "哈啊？！……笨笨笨笨蛋！瞎说什么啊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,8 +392,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403030,
-			actorName = "Prinz Eugen",
-			say = "Buying that ticket of course means that you plan to use it. In other words, she was thinking about who you were going to give it to. Right, sis?",
+			actorName = "欧根亲王",
+			say = "买了票那就意味着要用――她可在意你要和谁去用了呢。对吧，姐姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,8 +409,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "N-nonsense! Besides, how did you even know about that?! Peeping at other peoples' stuff is really distasteful!",
+			actorName = "希佩尔海军上将",
+			say = "啰，啰嗦！说到底你又是怎么知道的啊！偷看别人这种事也太恶趣味了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,8 +426,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403030,
-			actorName = "Prinz Eugen",
-			say = "Well, whatever the case may be... the cat's out of the bag now, isn't it? What do the two of you plan to do now?",
+			actorName = "欧根亲王",
+			say = "呵呵，虽然姐姐自己觉得隐藏得很好…不过，其实早就露馅了哦？指挥官也有想要说的话才对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,8 +443,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "It... it's not like that... Hmph! Idiotic Commander! What... Did you have something to say to me?!",
+			actorName = "希佩尔海军上将",
+			say = "我才…没有…哼、哼！笨蛋指挥官！你…有什么话要对我说吗？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,8 +460,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "I'm a kind and tolerant person, so I'll... hear you out...",
+			actorName = "希佩尔海军上将",
+			say = "我就特别开恩，姑且听一听好了……你，你说吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "The memory of the scenery we saw together was still fresh on my mind. And this ticket... was for a two-person trip so that we could enjoy that view again.",
+			say = "回想起上次绕路时看到的，令希佩尔展露笑容的美妙风景…而这情侣票，便是为了启动能够再度领略那片风景的双人旅行而准备的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "Perhaps this small token was not enough to thank Hipper for her hard work as my secretary, but I wanted to at least try to express my sentiment.",
+			say = "也许这不足以报答希佩尔一直以来作为秘书舰的努力工作，但是，这份感情绝对没有半分虚假。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			},
 			options = {
 				{
-					content = "Hand the couple's ticket to Hipper",
+					content = "把情侣票递给希佩尔",
 					flag = 1
 				}
 			}
@@ -511,8 +511,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "Huh...?! Th-this was... for me...?",
+			actorName = "希佩尔海军上将",
+			say = "……！真、真的是…要给我的吗…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,8 +528,8 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403010,
-			actorName = "Admiral Hipper",
-			say = "I-I suppose I have no choice then! Be grateful that I'm willing to give you the time of day!",
+			actorName = "希佩尔海军上将",
+			say = "真，真没办法！我就好心收下吧，你可要感谢我哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

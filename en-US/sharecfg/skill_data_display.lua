@@ -408,6 +408,10 @@ pg.skill_data_display = {
 		id = 4161,
 		name = "Supporting Wings"
 	},
+	[4176] = {
+		id = 4176,
+		name = "Supporting Wings"
+	},
 	[5001] = {
 		id = 5001,
 		name = "Interference"
@@ -563,10 +567,6 @@ pg.skill_data_display = {
 	[6210] = {
 		id = 6210,
 		name = "Super Heavy Shell"
-	},
-	[6220] = {
-		id = 6220,
-		name = "Swordfish (818 Squad)"
 	},
 	[6230] = {
 		id = 6230,
@@ -996,6 +996,10 @@ pg.skill_data_display = {
 		id = 10540,
 		name = "Royal Alliance"
 	},
+	[10541] = {
+		id = 10541,
+		name = "Royal Alliance"
+	},
 	[10550] = {
 		id = 10550,
 		name = "Logistics Repair"
@@ -1066,6 +1070,10 @@ pg.skill_data_display = {
 	},
 	[10710] = {
 		id = 10710,
+		name = "Giant Hunter"
+	},
+	[10711] = {
+		id = 10711,
 		name = "Giant Hunter"
 	},
 	[10720] = {
@@ -1476,6 +1484,10 @@ pg.skill_data_display = {
 		id = 11560,
 		name = "2,700 Pounds of Justice"
 	},
+	[11561] = {
+		id = 11561,
+		name = "2700磅的正义"
+	},
 	[11570] = {
 		id = 11570,
 		name = "Recon Support"
@@ -1523,6 +1535,18 @@ pg.skill_data_display = {
 	[11623] = {
 		id = 11623,
 		name = "Suisei's Coruscation"
+	},
+	[11626] = {
+		id = 11626,
+		name = "群星之怒"
+	},
+	[11627] = {
+		id = 11627,
+		name = "多彩祥云"
+	},
+	[11628] = {
+		id = 11628,
+		name = "复仇怨火"
 	},
 	[11630] = {
 		id = 11630,
@@ -2720,6 +2744,10 @@ pg.skill_data_display = {
 		id = 13220,
 		name = "Crush Any Contender!"
 	},
+	[13225] = {
+		id = 13225,
+		name = "Crush Any Contender!"
+	},
 	[13230] = {
 		id = 13230,
 		name = "Arbiter of Z"
@@ -2948,6 +2976,10 @@ pg.skill_data_display = {
 		id = 13540,
 		name = "Waters of Styx "
 	},
+	[13545] = {
+		id = 13545,
+		name = "Waters of Styx "
+	},
 	[13550] = {
 		id = 13550,
 		name = "The Smiling Sawfish"
@@ -3078,6 +3110,10 @@ pg.skill_data_display = {
 	},
 	[13701] = {
 		id = 13701,
+		name = "Dreambound Bow"
+	},
+	[13705] = {
+		id = 13705,
 		name = "Dreambound Bow"
 	},
 	[13710] = {
@@ -3714,6 +3750,14 @@ pg.skill_data_display = {
 	},
 	[21012] = {
 		id = 21012,
+		name = "All Out Assault Ⅱ"
+	},
+	[21016] = {
+		id = 21016,
+		name = "All Out Assault Ⅰ"
+	},
+	[21017] = {
+		id = 21017,
 		name = "All Out Assault Ⅱ"
 	},
 	[21021] = {
@@ -4724,6 +4768,30 @@ pg.skill_data_display = {
 		id = 29572,
 		name = "All Out Assault Ⅱ"
 	},
+	[39000] = {
+		id = 39000,
+		name = "Optimize I"
+	},
+	[39001] = {
+		id = 39001,
+		name = "Optimize II"
+	},
+	[39002] = {
+		id = 39002,
+		name = "Optimize III"
+	},
+	[39003] = {
+		id = 39003,
+		name = "Optimize IV"
+	},
+	[39004] = {
+		id = 39004,
+		name = "Overload"
+	},
+	[39010] = {
+		id = 39010,
+		name = "Optimize I"
+	},
 	[101010] = {
 		id = 101010,
 		name = "Protagonist Aura"
@@ -5120,6 +5188,50 @@ pg.skill_data_display = {
 		id = 106141,
 		name = "Hanakagura"
 	},
+	[800040] = {
+		id = 800040,
+		name = "Scorched Blade"
+	},
+	[800041] = {
+		id = 800041,
+		name = "Scorched Blade"
+	},
+	[800050] = {
+		id = 800050,
+		name = "Cards of Light and Dark"
+	},
+	[800051] = {
+		id = 800051,
+		name = "Cards of Light and Dark"
+	},
+	[800052] = {
+		id = 800052,
+		name = "Cards of Light and Dark"
+	},
+	[800060] = {
+		id = 800060,
+		name = "The Cherry Petal Memento"
+	},
+	[800061] = {
+		id = 800061,
+		name = "The Cherry Petal Memento"
+	},
+	[800062] = {
+		id = 800062,
+		name = "The Cherry Petal Memento"
+	},
+	[800063] = {
+		id = 800063,
+		name = "The Cherry Petal Memento"
+	},
+	[800075] = {
+		id = 800075,
+		name = "Scorched Blade "
+	},
+	[800077] = {
+		id = 800077,
+		name = "Scorched Blade "
+	},
 	all = {
 		4,
 		10,
@@ -5223,6 +5335,7 @@ pg.skill_data_display = {
 		4151,
 		4160,
 		4161,
+		4176,
 		5001,
 		5011,
 		5021,
@@ -5262,7 +5375,6 @@ pg.skill_data_display = {
 		6190,
 		6200,
 		6210,
-		6220,
 		6230,
 		6231,
 		6240,
@@ -5370,6 +5482,7 @@ pg.skill_data_display = {
 		10510,
 		10530,
 		10540,
+		10541,
 		10550,
 		10560,
 		10570,
@@ -5388,6 +5501,7 @@ pg.skill_data_display = {
 		10690,
 		10700,
 		10710,
+		10711,
 		10720,
 		10730,
 		10740,
@@ -5490,6 +5604,7 @@ pg.skill_data_display = {
 		11540,
 		11550,
 		11560,
+		11561,
 		11570,
 		11580,
 		11581,
@@ -5502,6 +5617,9 @@ pg.skill_data_display = {
 		11621,
 		11622,
 		11623,
+		11626,
+		11627,
+		11628,
 		11630,
 		11640,
 		11641,
@@ -5801,6 +5919,7 @@ pg.skill_data_display = {
 		13203,
 		13210,
 		13220,
+		13225,
 		13230,
 		13240,
 		13250,
@@ -5858,6 +5977,7 @@ pg.skill_data_display = {
 		13522,
 		13530,
 		13540,
+		13545,
 		13550,
 		13560,
 		13570,
@@ -5891,6 +6011,7 @@ pg.skill_data_display = {
 		13696,
 		13700,
 		13701,
+		13705,
 		13710,
 		13711,
 		13720,
@@ -6050,6 +6171,8 @@ pg.skill_data_display = {
 		20272,
 		21011,
 		21012,
+		21016,
+		21017,
 		21021,
 		21022,
 		21031,
@@ -6302,6 +6425,12 @@ pg.skill_data_display = {
 		29562,
 		29571,
 		29572,
+		39000,
+		39001,
+		39002,
+		39003,
+		39004,
+		39010,
 		101010,
 		101020,
 		101030,
@@ -6400,6 +6529,17 @@ pg.skill_data_display = {
 		106130,
 		106131,
 		106140,
-		106141
+		106141,
+		800040,
+		800041,
+		800050,
+		800051,
+		800052,
+		800060,
+		800061,
+		800062,
+		800063,
+		800075,
+		800077
 	}
 }

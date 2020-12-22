@@ -12,22 +12,13 @@ function slot0.init(slot0)
 	slot0.skillInfoIntro = slot0:findTF("panel/bg/help_panel/skill_intro")
 	slot0.skillInfoIcon = slot0:findTF("panel/bg/skill_icon")
 	slot0.buttonList = slot0:findTF("panel/buttonList")
-	slot0.skillDescTF = slot0:findTF("panel/bg/help_panel/Viewport/introTF")
+	slot0.skillDescTF = slot0:findTF("panel/bg/help_panel/Viewport/content/introTF")
 	slot0.skillDescContent = slot0:findTF("panel/bg/help_panel/Viewport/content")
 
 	setText(slot0.skillInfoName, slot1:getConfig("name"))
 	setText(slot0.skillInfoLv, "Lv." .. slot1:getLevel())
 
-	slot2 = slot1:getConfig("lv")
-
-	setActive(slot0.skillDescTF, false)
-
-	slot6 = "desc"
-
-	for slot6, slot7 in ipairs(slot1:getConfig(slot6)) do
-		setText(findTF(cloneTplTo(slot0.skillDescTF, slot0.skillDescContent), "Lv"), slot2 < slot7[1] and "<color=#a3a2a2>" .. "Lv." .. slot7[1] .. "</color>" or "Lv." .. slot7[1])
-		setText(findTF(slot8, "Desc"), slot2 < slot7[1] and "<color=#a3a2a2>" .. slot7[2] .. "</color>" or slot7[2])
-	end
+	slot0.skillDescList = UIItemList.New(slot0.skillDescContent, slot0.skillDescTF)
 
 	GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot1:getConfig("icon"), "", slot0.skillInfoIcon)
 end
@@ -43,6 +34,31 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CONFIRM)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+
+	slot0.commonFlag = defaultValue(slot0.contextData.commonFlag, true)
+
+	slot0:UpdateList()
+end
+
+function slot0.UpdateList(slot0)
+	slot1 = slot0.contextData.skill
+	slot2 = slot1:getConfig("lv")
+	slot4 = slot1:getConfig("lv")
+
+	slot0.skillDescList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
+			slot5 = uv1:GetColor(slot3.lv <= uv2)
+
+			setText(slot2, "<color=" .. slot5 .. ">" .. (uv1.commonFlag and slot3.desc or slot3.desc_world) .. (uv2 < slot3.lv and "(Lv." .. slot3.lv .. i18n("word_take_effect") .. ")" or "") .. "</color>")
+			setText(slot2:Find("level"), "<color=" .. slot5 .. ">" .. "Lv." .. slot3.lv .. "</color>")
+		end
+	end)
+	slot0.skillDescList:align(#slot1:GetSkillGroup())
+end
+
+function slot0.GetColor(slot0, slot1)
+	return "#FFFFFFFF"
 end
 
 function slot0.willExit(slot0)

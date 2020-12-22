@@ -197,9 +197,11 @@ function slot0.register(slot0)
 				slot6 = Fleet.DEFAULT_NAME[slot1]
 			end
 
-			if Fleet.EnergyCheck(slot5, slot6, slot2, slot4) then
-				slot2()
-			end
+			Fleet.EnergyCheck(slot5, slot6, function (slot0)
+				if slot0 then
+					uv0()
+				end
+			end, slot4)
 		end
 	end)
 end

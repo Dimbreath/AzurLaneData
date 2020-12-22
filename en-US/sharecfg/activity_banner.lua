@@ -1,16 +1,19 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "30778",
-		type = 3,
+		type = 2,
 		id = 1,
 		pic = "temp1",
+		param = {
+			"scene level",
+			{}
+		},
 		time = {
 			{
 				{
 					2020,
 					12,
-					10
+					22
 				},
 				{
 					0,
@@ -22,7 +25,7 @@ pg.activity_banner = {
 				{
 					2020,
 					12,
-					21
+					29
 				},
 				{
 					23,
@@ -33,19 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "",
+		type = 8,
 		id = 2,
-		pic = "temp3",
-		param = {
-			"scene skinshop",
-			{}
-		},
+		pic = "temp2",
 		time = {
 			{
 				{
 					2020,
 					12,
-					10
+					22
 				},
 				{
 					0,
@@ -57,7 +57,7 @@ pg.activity_banner = {
 				{
 					2020,
 					12,
-					21
+					29
 				},
 				{
 					23,
@@ -70,17 +70,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
-		pic = "temp2",
+		pic = "temp3",
 		param = {
-			"scene level",
-			{}
+			"metacharacter",
+			{
+				autoOpenShipConfigID = 9707011
+			}
 		},
 		time = {
 			{
 				{
 					2020,
 					12,
-					11
+					22
 				},
 				{
 					0,
@@ -92,7 +94,170 @@ pg.activity_banner = {
 				{
 					2020,
 					12,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp4",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "811",
+		type = 3,
+		id = 5,
+		pic = "temp5",
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
 					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "813",
+		type = 3,
+		id = 6,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "815",
+		type = 3,
+		id = 7,
+		pic = "temp7",
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "814",
+		type = 3,
+		id = 8,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					5
 				},
 				{
 					23,
@@ -105,6 +270,11 @@ pg.activity_banner = {
 	all = {
 		1,
 		2,
-		3
+		3,
+		4,
+		5,
+		6,
+		7,
+		8
 	}
 }

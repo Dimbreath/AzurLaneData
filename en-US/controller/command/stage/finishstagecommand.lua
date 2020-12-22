@@ -44,7 +44,7 @@ function slot0.GeneralPackage(slot0, slot1)
 				ship_gear_score = math.floor(slot13.gearScore)
 			})
 
-			slot7 = slot0.system + ((slot0.system ~= SYSTEM_DUEL or slot0.rivalId) and slot0.stageId) + slot0.statistics._battleScore + slot14 + slot15 + slot16 + slot18
+			slot7 = slot0.system + ((slot0.system ~= SYSTEM_DUEL or slot0.rivalId) and (slot0.system ~= SYSTEM_WORLD_BOSS or slot0.bossId) and slot0.stageId) + slot0.statistics._battleScore + slot14 + slot15 + slot16 + slot18
 			slot2 = 0 + slot12:getShipCombatPower()
 		end
 	end
@@ -62,6 +62,7 @@ function slot0.GeneralPackage(slot0, slot1)
 		bot_percentage = slot0.statistics._botPercentage,
 		extra_param = slot2,
 		file_check = slot9,
+		boss_hp = slot0.statistics._maxBossHP,
 		enemy_info = {},
 		data2 = {}
 	}
@@ -151,26 +152,25 @@ function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.GeneralLoot(slot0, slot1)
+	slot2 = {}
 	slot3 = {}
 
-	for slot7, slot8 in ipairs(slot1.drop_info) do
-		slot9 = Item.New(slot8)
+	function slot4(slot0, slot1)
+		for slot5, slot6 in ipairs(slot0) do
+			slot7 = Item.New(slot6)
 
-		table.insert({}, slot9)
+			table.insert(slot1, slot7)
 
-		if slot9.type == DROP_TYPE_SHIP then
-			slot9.virgin = getProxy(CollectionProxy) and slot11.shipGroups[pg.ship_data_template[slot9.id].group_type] == nil
+			if slot7.type == DROP_TYPE_SHIP then
+				slot7.virgin = getProxy(CollectionProxy) and slot9.shipGroups[pg.ship_data_template[slot7.id].group_type] == nil
+			end
+
+			uv0:sendNotification(GAME.ADD_ITEM, slot7)
 		end
-
-		slot0:sendNotification(GAME.ADD_ITEM, slot9)
 	end
 
-	for slot7, slot8 in ipairs(slot1.extra_drop_info) do
-		slot9 = Item.New(slot8)
-
-		table.insert(slot3, slot9)
-		slot0:sendNotification(GAME.ADD_ITEM, slot9)
-	end
+	slot4(slot1.drop_info, slot2)
+	slot4(slot1.extra_drop_info, slot3)
 
 	return slot2, slot3
 end

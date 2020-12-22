@@ -13,7 +13,7 @@ function slot2.SetWaveData(slot0, slot1)
 	uv0.super.SetWaveData(slot0, slot1)
 
 	slot0._pause = slot0._param.pause
-	slot0._type = slot0._param.type or 0
+	slot0._cameraType = slot0._param.type or 0
 	slot0._modelID = slot0._param.model or 900006
 	slot0._duration = slot0._param.duration or 1
 	slot0._zoomSize = slot0._param.zoomSize
@@ -25,7 +25,7 @@ function slot2.DoWave(slot0)
 
 	slot1 = uv1.Battle.BattleCameraUtil.GetInstance()
 
-	if slot0._type == 1 then
+	if slot0._cameraType == 1 then
 		slot3 = nil
 
 		for slot7, slot8 in pairs(uv1.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
@@ -50,7 +50,7 @@ function slot2.DoWave(slot0)
 				slot1:ZoomCamara(nil, slot0._zoomSize, slot0._duration, true)
 			end
 		end
-	elseif slot0._type == 0 then
+	elseif slot0._cameraType == 0 then
 		slot1:FocusCharacter(nil, slot0._duration, 0)
 		slot1:ZoomCamara(nil, , slot0._duration)
 	end

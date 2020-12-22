@@ -20,6 +20,12 @@ function slot1.SetActive(slot0, slot1)
 	SetActive(slot0._skin, slot1)
 end
 
+function slot1.SetJam(slot0, slot1)
+	SetActive(slot0._jam, slot1)
+	SetActive(slot0._icon, not slot1)
+	SetActive(slot0._progress, not slot1)
+end
+
 function slot1.ConfigSkin(slot0, slot1)
 	slot0._skin = slot1
 	slot0._btn = slot1:Find("ActCtl")
@@ -33,6 +39,7 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot0._filledEffect = slot1:Find("ActCtl/filledEffect")
 	slot0._filled = slot0._icon:Find("filled")
 	slot0._unfill = slot0._icon:Find("unfill")
+	slot0._jam = slot1:Find("ActCtl/jam")
 	slot0._countTxt = slot0._text:GetComponent(typeof(Text))
 
 	slot1.gameObject:SetActive(true)

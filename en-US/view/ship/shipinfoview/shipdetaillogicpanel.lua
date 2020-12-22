@@ -20,6 +20,7 @@ slot3 = Vector3(1, 1, 1)
 slot4 = Vector3(1.3, 1.3, 1.3)
 slot0.EQUIPMENT_ADDITION = 0
 slot0.TECHNOLOGY_ADDITION = 1
+slot0.CORE_ADDITION = 2
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1.gameObject)
@@ -36,10 +37,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.levelTip = findTF(slot0.attrs, "level_bg/tip")
 	slot0.levelBg = findTF(slot0.attrs, "level_bg")
 	slot0.armorNameTxt = slot0.attrs:Find("icons"):GetChild(1):Find("name")
-	slot0.worldToggle = findTF(slot0._tf, "switch_world_buff")
-	slot0.worldBuff = findTF(slot0._tf, "world_buff")
-	slot0.worldBuffContainer = findTF(slot0.worldBuff, "buff_list")
-	slot0.worldBuffItem = findTF(slot0.worldBuffContainer, "item")
 end
 
 function slot0.attach(slot0, slot1)
@@ -66,17 +63,12 @@ function slot0.flush(slot0, slot1)
 	slot0:updateShipAttrs()
 	slot0:updateSKills()
 	slot0:updateLevelInfo()
-	setActive(slot0.worldToggle, slot0.shipVO.bindingData and slot2.class == WorldMapShip)
-
-	if slot2 and slot2.class == WorldMapShip then
-		slot0:updateWorldBuffs()
-	end
 
 	if not slot1:isMaxStar() and slot0.evalueIndex == uv0.TECHNOLOGY_ADDITION then
 		triggerToggle(slot0.evalueToggle, false)
 	end
 
-	setActive(slot0.evalueToggle, slot3)
+	setActive(slot0.evalueToggle, slot2)
 end
 
 function slot0.updateEvalues(slot0)
@@ -95,39 +87,6 @@ function slot0.updateEvalues(slot0)
 			setActive(slot6, slot7 ~= 0)
 		end
 	end
-end
-
-function slot0.updateWorldBuffs(slot0)
-	onToggle(slot0, slot0.worldToggle, function (slot0)
-		setActive(uv0.worldBuff, slot0)
-		setActive(uv0.attrs, not slot0)
-	end, SFX_PANEL)
-
-	slot1 = slot0.shipVO.bindingData
-	slot3 = UIItemList.New(slot0.worldBuffContainer, slot0.worldBuffItem)
-
-	slot3:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-			slot4 = slot3:GetBuffLevel()
-
-			setText(slot2:Find("level"), slot4 .. "/" .. slot3:GetMaxFloor())
-
-			if slot3.config.percent[1] == 1 then
-				slot5 = slot3.config.buff_effect[1] * slot4 / 100 .. "%"
-			end
-
-			setText(slot2:Find("value"), slot5)
-		end
-	end)
-	slot3:align(#slot1:GetBuffList())
-
-	slot4 = slot1:GetBuffLevel()
-	slot5 = slot1:GetBuffMaxLevel()
-
-	setText(slot0.worldBuff:Find("level_bg/level_label/Text"), slot4)
-	setText(slot0.worldBuff:Find("level_bg/exp_info"), slot4 .. "/" .. slot5)
-	setSlider(slot0.worldBuff:Find("level_bg/exp"), slot4, 0, slot5)
 end
 
 function slot0.updateShipAttrs(slot0)

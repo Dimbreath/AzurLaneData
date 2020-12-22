@@ -36,7 +36,7 @@ return {
 			arg_list = {
 				buff_id = 13332,
 				ship_tag_list = {
-					"vauquelin-class"
+					"Vauquelin-Class"
 				}
 			}
 		}

@@ -77,15 +77,15 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
 				minTargetNumber = 1,
 				skill_id = 10480,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					502031,
-					502032,
-					502033,
-					502034
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Ping Hai"
 				}
 			}
 		}

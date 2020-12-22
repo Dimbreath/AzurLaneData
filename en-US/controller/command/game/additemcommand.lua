@@ -88,6 +88,13 @@ function slot0.execute(slot0, slot1)
 			end
 		elseif slot4 == 13 then
 			getProxy(ActivityProxy):MarkSkinCoupon(Item.VItem2SkinCouponShopId(slot2.id))
+		elseif slot4 == 14 then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot6:isEnd() then
+				slot6.data1 = slot6.data1 + slot2.count
+
+				slot5:updateActivity(slot6)
+				nowWorld:GetBossProxy():UpdatedUnlockProgress()
+			end
 		elseif slot4 == 20 then
 			slot6 = pg.gameset.urpt_chapter_max.description
 
@@ -105,13 +112,7 @@ function slot0.execute(slot0, slot1)
 			getProxy(CollectionProxy):flushCollection(slot4)
 		end
 	elseif slot2.dropType == DROP_TYPE_WORLD_ITEM then
-		slot4 = getProxy(WorldProxy):GetWorld()
-
-		slot4:getInventoryProxy():AddItem(slot2.id, slot2.count)
-		slot4:AddLog(WorldLog.TypeDrop, {
-			item = slot2.id,
-			itemnum = slot2.count
-		})
+		nowWorld:GetInventoryProxy():AddItem(slot2.id, slot2.count)
 	elseif slot2.dropType == DROP_TYPE_ICON_FRAME then
 		slot5 = IconFrame.New({
 			id = slot2.id
@@ -136,6 +137,8 @@ function slot0.execute(slot0, slot1)
 		pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
 	elseif slot2.dropType == DROP_TYPE_EMOJI then
 		getProxy(EmojiProxy):addNewEmojiID(slot2.id)
+	elseif slot2.dropType == DROP_TYPE_WORLD_COLLECTION then
+		nowWorld:GetCollectionProxy():Unlock(slot2.id)
 	else
 		print("can not handle this type>>" .. slot2.dropType)
 	end

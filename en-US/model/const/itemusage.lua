@@ -9,5 +9,7 @@ slot0.ADD_SHIP = "usage_add_ship"
 slot0.DORM_LV_UP = "usage_dorm_lv_up"
 slot0.DROP_APPOINTED = "usage_drop_appointed"
 slot0.SOS = "usage_sos"
+slot0.GUILD_DONATE = "usage_guild_donate"
+slot0.GUILD_OPERATION = "usage_guild_operation"
 
 return slot0

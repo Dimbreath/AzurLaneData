@@ -40,6 +40,18 @@ function slot0.execute(slot0, slot1)
 						uv1.data3_list[slot6] = uv0.arg2
 					end
 				end
+			elseif uv0.cmd == 4 then
+				slot1 = PlayerConst.addTranDrop(slot0.award_list)
+
+				for slot6, slot7 in ipairs(uv1:getDataConfig("target")) do
+					if slot7 <= uv0.arg1 then
+						if not table.contains(uv1.data1_list, slot7) then
+							table.insert(uv1.data1_list, slot7)
+						end
+					else
+						break
+					end
+				end
 			end
 
 			uv2:updateActivity(uv1)
