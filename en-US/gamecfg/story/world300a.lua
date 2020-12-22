@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·白鹰控制区",
+			say = "NA Ocean - Sector under Eagle Union jurisdiction",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯，指挥官已经带领舰队出发了，我们也开始行动吧。",
+			say = "Essex, the Commander has set off with the fleet. We should depart soon too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，大家注意，本次战役不是一次针对塞壬据点的斩首行动，而是彻底清理NA海域的歼灭行动。",
+			say = "Right, but please remember that this battle is not meant to be an assault on the Siren stronghold, but rather a sector sweep to clear the NA Ocean of all Siren presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "我们的任务为稳步清理C战区，也就是西北NA海域，然后建立两处为总攻准备的前哨站。",
+			say = "Our task is to clear out zone C, which is in the Northwest sector, and then establish two Outposts for the final offensive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "现在白鹰的实力已经今非昔比了，其中的变化就让塞壬好好领教一下吧！",
+			say = "The Eagle Union is far stronger than it was last time we saw the Sirens. Let's show them how much we've improved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有干劲是好事哦，无畏。因为塞壬基本彻底放弃了近海封锁，初期的战斗也预计会比较轻。",
+			say = "Good to see that you're motivated, Intrepid. The Sirens have basically completely abandoned their offshore blockade, so the initial few battles should be fairly easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过继续深入之后就不好说了......NA海域中心长期被塞壬占据，也许会遇到意料之外的危险，大家千万不要轻敌。",
+			say = "However, it will get harder after that... The central sector has been occupied by Sirens for a long time, and they might have laid traps in that time. Don't underestimate them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别忘了还有一件司令部希望我们特别关注的事情哦。",
+			say = "There is one more thing that naval command wants us to pay special attention to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于现在铁血主力舰队的动向，对吧？",
+			say = "The Iron Blood fleet's suspicious activity, I assume?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "没错！突破皇家封锁线的铁血舰队至今行踪不明，对于战役全局来说是个巨大的隐患......",
+			say = "Yep. The whereabouts of Tirpitz's fleet is still unknown, and we don't even know whether they're Pawns or not, which is a big, security-threatening question mark...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "就是这一点我一直觉得很奇怪！铁血舰队好不容易突破了封锁却没有继续扩大战果，反而只是在大洋里找了个地方躲了起来？",
+			say = "I don't get it. Why would an Iron Blood fleet waltz into OUR area of operations anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果不是恰好赶上这次行动，我们完全可以集中舰队慢慢围捕它们，铁血的这一行动究竟有什么意义啊......",
+			say = "If it's to assist in Operation Siren, they could've at least contacted us about it. Hell, then we could've worked together...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果不是恰好赶上这次行动呢...腓特烈大帝不会是早就知道这件事才会作出的这种反常部署吧。",
+			say = "I doubt they came here simply to assist us. This is Iron Blood we're talking about, the faction led by Friedrich and Bismarck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "考虑到之前行动的严重泄密情况与整次行动漫长的准备周期，这种猜想的可能性也不完全为零。",
+			say = "There's bound to be layers of complexity to the situation, because of course there has to be. In any case, we have little choice but to investigate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "指挥部正在对内部进行彻查，不过战场上的调查就只能我们来做了。",
+			say = "Well, investigate as much as we can. Our primary goal is to secure this zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，等我们发现她们的行踪之后，当面好好问个清楚吧~！",
+			say = "We'll find the Iron Blood fleet sooner or later, and when we do, we can ask them what their intentions are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

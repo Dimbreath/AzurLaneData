@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 101440,
 			nameColor = "#a9f548",
-			say = "呜哇......这些漂浮在水面上的残骸全都是塞壬的吧......",
+			say = "Hey, Cleveland! There's even more Siren wrecks here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102090,
-			say = "看来在我们来晚了，错过了一场盛大的战斗呢。",
+			say = "Really? Man... I would've stayed home if I'd known someone would do all our work for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头，不光是船体的残骸，塞壬设施可是连带岛礁一起被炸碎了啊！",
+			say = "Looks like they didn't dunk on just the Sirens, but all their facilities, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么看都不是皇家方舟一个人能造成的破坏力......",
+			say = "It's hard to say who did this, but it can't have been Ark Royal. The damage is just way too extensive to have been caused by her alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102090,
-			say = "埃塞克斯给出的侦察情报应该不会有错，不过现在的情况确实很奇怪。",
+			say = "True that... What's even weirder is, she's not showing up on radar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家提高警惕，继续搜索皇家方舟的位置。",
+			say = "Let's look around a little more, maybe we'll find some answers! Be on your guards, guys!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

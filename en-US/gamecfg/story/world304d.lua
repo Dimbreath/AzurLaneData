@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-2",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "怎么回事，出现的敌人全都是没见过的新型号啊......！",
+			say = "A new type of Siren...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "新型敌人的作战方式倒是与侵扰者类似，但是比侵扰者要难缠得多.....",
+			say = "It... seems to be an improved version of the Obstructor...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "何止是难缠，以前遇到的执行者系列和它们根本不在一个档次上！",
+			say = "Looks a lot stronger than the basic Sirens we've fought so far! Be careful, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "因为连续不断的干扰，现在舰载机操控性下降，电子设备多数瘫痪，已经没办法维持有效的空中打击了！埃塞克斯，怎么办！",
+			say = "My aircraft are performing at well below average because of all the electronic interference... Essex, should we retreat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家继续拉开距离，尽量进行俯冲轰炸提高精度！唉...这种时候如果有战列舰编队在就好了......!",
+			say = "Not yet! Just keep a low altitude and make every bomb count! Agh, where are our battleships?! We need them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "这个声音是...大口径舰炮！终于有援军登场了么？！",
+			say = "There they are! And thank goodness for it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯，终于找到你们了！司令部在失去与你们的联络之后就对周边舰队发出了搜索命令。",
+			say = "Essex! At last, we found you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是进入这片区域之后我们的通讯设备也开始出现故障，你们果然也是遭遇到塞壬干扰而失联的啊...",
+			say = "We came running as quick as we could after we got word from the Commander about jamming in the area. Had our own comms not been compromised, we would've arrived sooner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 105190,
-			say = "航空编队居然和塞壬打近战...你们这是在实验全新的航母战术么？",
+			say = "Carriers fighting Sirens at close quarters... Novel. I like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "如果可以的话，我们也不想放这些奇怪的塞壬接近啊！这里面有着很复杂的原因......！",
+			say = "If we could've kept our distance, we would've!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们现在的情况怎么样？",
+			say = "Of course. What's your status? Any injuries?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "舰体损伤轻微，但是电子设备受损严重...能在这种时候看到你们的增援真是太好了！",
+			say = "Our aircraft and weaponry are fine, but all our electronics are disabled and we're stuck here. You came right in the nick of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们也要小心，对面是以电子战和鱼雷作为主要攻击手段的未知型号，比以往的侵扰者难缠得多！",
+			say = "We're presumably dealing with an upgraded version of the Obstructor! Watch yourselves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 105200,
-			say = "放心吧，战列舰，就是为了从正面解决这样的敌人而存在的。",
+			say = "Don't you worry now. Us battleships can handle a jammin' without too much trouble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 105190,
-			say = "这里由我们吸引火力，你们趁机拉开距离，尽情展现射程的优势吧！",
+			say = "We'll draw their fire. Carriers, fall back and try to provide support with your aircraft if you can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有你们这样可靠的同伴真是太好了，一起并肩战斗吧！",
+			say = "Got it! We're counting on you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

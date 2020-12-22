@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "西南NA海域·前哨站",
+			say = "NA Ocean SW Sector - Outpost construction site",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊......我之前也只是见过设计图而已，居然真的这么快就建立完成了.....",
+			say = "Hey, Saratoga, what are these ships? The transports for the materials and workers that will build the Outpost?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "哼哼~这处前哨站的建立工作也有我出的一份力哦~不过一切的辛苦都是值得的！",
+			say = "You got it! And don't forget the logistics team needed to sustain this operation! Which, by the way, yours truly is a member of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "呼哇~！享受啊......",
+			say = "Hey, I know what you all could use after all your hard work! Nice, cold ice cream!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "萨拉托加......已经完全成为沙发的俘虏了.......",
+			say = "I-ice cream? Why, thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可不只是有休息室而已哦！前哨站里设置有完整的休闲模块，不但有提供各类饮料点心的饮食区，还有设施齐全的休闲娱乐区。",
+			say = "And that's not all you'll find at the Outpost! There's also a lounge area with entertainment, a cafeteria with snacks and drinks, and a recreation room to relax after a day of hard fighting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如这里就恰好摆着一个咖啡机，大家要来杯咖啡么~？",
+			say = "Speaking of drinks, we've got some hot coffee for you as well. With or without sugar, Memphis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "真是太厉害了........请给我来一杯！",
+			say = "Just hand me the cup, please. Knowing you, you'd add salt instead of sugar just as a prank.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题~埃塞克斯不来一杯么？",
+			say = "Hey now, I wouldn't stoop THAT low! That's just mean! How about you, Essex? Want some coffee?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "那就......也请给我一杯。",
+			say = "Yes, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "这就对了，休息放松可是很重要的，这一点千万不要向你的企业前辈学习哦~",
+			say = "Here you are! Now head to the provisionary dorm and get yourselves some rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "除了休闲模块之外，前哨站还设置有动力模块、居住模块、补给模块、维修模块、防御模块以及指挥模块。",
+			say = "The Outpost's facilities will receive an upgrade once the next stage of Operation Siren commences. Look forward to it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为采用模块化结构设计，可以很方便的进行运输和组装。",
+			say = "The facilities we have now might be pretty basic, but as we reclaim more zones and establish supply routes, the resources available to us will increase!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "如果后续有需求的话也可以对前哨站进行进一步改装，要变成大洋中的半永久据点也不是不可能。",
+			say = "...All that is to say, just have faith in me and the Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "除了厉害之外，我已经找不到其他的形容词了......",
+			say = "Will do. Looking forward to seeing what the upgraded Outpost will be like!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "哼哼哼~被塞壬打压了这么久，也该让塞壬见识一下我们的技术进步了。",
+			say = "That's the kind of enthusiasm I want to hear! Now, you must all be dead tired after fighting the Sirens for so long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			blackBg = true,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "在总攻开始之前，大家就在这里尽情的休整一番吧~！",
+			say = "So just get comfy and have yourselves a rest while we await new orders!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

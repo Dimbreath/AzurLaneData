@@ -116199,7 +116199,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900230] = {
-		name = "构建者",
+		name = "Compiler ",
 		ship_group = 900230,
 		group_index = 0,
 		illustrator2 = -1,

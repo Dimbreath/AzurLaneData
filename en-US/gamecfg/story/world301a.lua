@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "唉...虽说敌人弱是好事，但是弱到一定程度反而让人不安了......",
+			say = "Hmm... I can't complain about being served an easy victory on a silver platter, but... it feels TOO easy.",
 			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "塞壬现在投入的舰队里连执行者系列都很少见，更不要提之前在巴拿马要塞那里遭遇到的新型号了....",
+			say = "You'd think we'd have run into a new Siren this deep into their territory, or at least come across a force that poses some semblence of a threat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "它们真的打算抵抗么....？",
+			say = "Are they just going to take it lying down...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "与塞壬作战了这么久，现在是第一次感受到我们对于塞壬存在科技和战斗力上的优势。",
+			say = "After having fought them for so long, this is the first time I feel we have a big technological and strategic advantage over the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "塞壬前来迎击的舰队构成就好像......唔...像是在故意清理老旧的库存一样。",
+			say = "Their unit deployment is so bizarrely unconventional... It's as though they're just clearing out their old stock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这么一说...确实有点这种感觉。塞壬与其说减少了舰队部署的数量，更像是将精锐部队全部调走了？！",
+			say = "Hey, yeah, you're right... It's not like they're deploying fewer fleets, more like they just never deployed any of their stronger elite units!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以现在的局势才是这么一边倒么.....现在的塞壬就像一边极其敷衍的抵抗，一边躺平了放任我们夺回海域控制权一样。",
+			say = "Something fishy is going on here. They're only doing the bare minimum to give off the impression of a counterattack while essentially letting us waltz in and retake territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这可不是好现象，铁血主力舰队位置不明，塞壬主力舰队也不见踪影......",
+			say = "The Sirens' chain of command is nowhere to be seen, and we still have no idea about the whereabouts of the Iron Blood's fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "明明现在我们正在以全线优势的兵力向着海域核心区进攻，为什么我的心里越来越焦虑了......",
+			say = "I can't help but feel this is all part of a clever ploy that we just can't grasp with the intel we have now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "啊！关于铁血舰队的动向，我在司令部看到了一些尚未核实准确性的情报哦。",
+			say = "Well, speaking of intel and the Iron Blood fleet, I just came across an unverified report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "在斯卡帕湾遇袭结束后没过多久，好像有一只铁血舰队驶入了陆间海，然后偷偷穿越运河进入了厄立特里亚海 。",
+			say = "Allegedly, not long after the attack on Scarpa Bay ended, an Iron Blood fleet embarked on a secret mission through the canal into the Eritrean Sea. 。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "这又是什么部署方式......铁血也和塞壬一样指挥系统出现问题了么？",
+			say = "The Eritrean Sea? Why? Are they just acting without rhyme or reason, like the Sirens are now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "厄立特里亚海那边一直都不是我们的战略重心，铁血总不会计划来一个大迂回袭击我们的西海岸吧.....？",
+			say = "Our defenses have always been rather lackluster in that sector. You don't think they're planning on taking the long way around to attack our west coast, are they?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "领航员小姐，你对这件事有什么看法么？",
+			say = "TB, what's your take on this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			voice = "event:/tb/48/tb-48",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "资料查询中：根据现有的情报，无法得出任何可靠结论。",
+			say = "Parsing request... Complete. No definite conclusion can be drawn based on currently available data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "厄立特里亚海海域一直由皇家和东煌共同负责，需要向相关司令部提交情报查询申请么？",
+			say = "The Eritrean Sea has always been under the joint responsibility of the Royal Navy and Dragon Empery. Do you wish to submit an official query to these authorities?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊...我只是随便一问。现在正在执行大型作战期间，NA海域外的战局不是我们应该关心的。",
+			say = "Err... No, just thought I'd ask. Never mind. Let's get back to the more pressing operation at hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "不过领航员小姐确实很厉害啊，可以实时对比来收集到的海量情报，简直就像一个便携式分析模块一样。",
+			say = "You gotta hand it to TB though. It's incredible how much data she can fetch and parse if you just ask her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			voice = "event:/tb/6/tb-6",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "能为作战提供辅助和支援是我的职责，很高兴能为大家提供帮助。",
+			say = "It is my duty to provide analysis and facilitate communication upon a user's request. I am glad to be of assistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

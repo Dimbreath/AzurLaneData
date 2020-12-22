@@ -13,7 +13,7 @@ return {
 			bgm = "xinnong-2",
 			actor = 900286,
 			nameColor = "#ff5c5c",
-			say = "只依靠一种型号代行者有点不太够么，那稍微再增加点......",
+			say = "It seems a lone Enforcer will not suffice. Then let us add another...",
 			flashin = {
 				delay = 0.1,
 				dur = 0.1,
@@ -39,7 +39,7 @@ return {
 			blackBg = true,
 			actor = 900287,
 			actorName = "？？？",
-			say = "XIV，发现G的行踪了.......你这是在？别玩了，快回来。",
+			say = "Temperance, we've found a clue as to Code G's whereabouts. It's time to stop playing around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			blackBg = true,
 			actor = 900286,
 			nameColor = "#ff5c5c",
-			say = "终于抓到了么......代行者XIV「Purification」，隐匿。",
+			say = "At last. Enforcer, disappear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 105140,
 			nameColor = "#a9f548",
-			say = "敌人的攻击突然全部停止了，不对！连敌人本身都消失了？",
+			say = "The Sirens... vanished.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些敌人究竟是怎么回事......",
+			say = "Now I see. They have some combination of radar presence negation, optic camouflage, and some sort of tech that negates the waves caused by their movement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "这就是我刚才想说的能被这些奇怪塞壬近身的复杂原因......",
+			say = "If they've got all that, then it's no wonder we didn't detect them until they were right in our faces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "现在亲眼见到也不得不相信了，这些塞壬可能真的使用了某种光学隐身技术.......这就是仲裁机关么。",
+			say = "I remember Tester having access to optic camouflage as well, but that's not on the same scale as concealing an entire fleet of mass-produced units...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			voice = "event:/tb/26/tb-26",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "状态更新中：系统故障已经排除完毕，与主机的连接已恢复，请问是否要将作战记录发送至司令部？",
+			say = "Jamming countermeasure has been devised. System will reboot momentarily. Do you wish to send a data log of your previous battle to the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NY司令部和指挥部各发送一份吧，然后给指挥官也发一份。",
+			say = "Obviously, yes. Send it to naval headquarters too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这批敌人拥有难以置信的科技水平，要是能得到更多情报就好了.......",
+			say = "As it stands, we can't possibly defeat THOSE Sirens just by ourselves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "不对劲......大家有在海面上看到任何战斗中被破坏的敌人残骸么？",
+			say = "Hey... Am I imagining things, or did almost every Siren wreck just... disappear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这么说来.......确实没有看到。",
+			say = "Huh... Now that you mention it, yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经过一场激战海面上居然一点痕迹都没留下？！",
+			say = "Doesn't look like we'll get to gather many samples now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对面在撤退的同时主动回收了所有海面上的残骸，以此来阻止我们的进一步研究么......真是滴水不漏的行动作风。",
+			say = "We won't be able to analyze these new Siren models this way... The next time they attack, we'll be no wiser than we are now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人明显是主动撤退，随时有再次袭来的可能。你们现在缺乏护卫，接下来的战斗就让我们一起行动怎么样？",
+			say = "At the very least, we took a considerable amount of them out. I doubt they will attack us again right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题。同时通知海域内的所有舰队提高警惕，小心雷达侦测到的可疑目标。",
+			say = "Either way, we can't get careless. South Dakota, follow us to the planned spot for the Outpost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "只要建立了前哨站，我们就可以进行就地维护了。大家再坚持一下，继续前进！",
+			say = "Once we establish an Outpost and gain a foothold in this zone, we'll be able to repair our electronics. We just have to keep going until then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

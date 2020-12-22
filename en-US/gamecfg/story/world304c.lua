@@ -13,7 +13,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：接收到一条发送人未知的通讯联络请求。",
+			say = "Communications request received. Its sender could not be identified.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，幕后黑手还是等不及要来炫耀一番了么。",
+			say = "Hidden caller ID? I think we all know better than to answer that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "试图从通讯器里首先登场......这个套路，不会是那个奇怪的清除者吧.........难道是她的干扰设备升级了？",
+			say = "Sending a communications request out of nowhere and refusing to identify themselves... Sounds like the work of the Sirens' Omitter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "清除者么......领航员小姐，直接拒绝掉这个不明通讯吧。",
+			say = "I agree. TB, deny the communications request.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：通讯联络请求已拒绝。",
+			say = "Orders received. Incoming communications request has been rejected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "——滋——滋滋————",
+			say = "Brrzzzt...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 900286,
 			actorName = "？？？",
-			say = "拒绝......是无用的。",
+			say = "You cannot reject me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 900286,
 			actorName = "？？？",
-			say = "海域中的舰船，我们是仲裁机关，立刻解除你们的武装，并且投降，抵抗是无效的。",
+			say = "Hear my word, all you within this region. I am Arbiter. Lay down your arms and surrender. Resistance is futile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "仲裁机关...是什么？你是塞壬么？",
+			say = "Arbiter?! So you're with the Sirens, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 900286,
 			actorName = "？？？",
-			say = "塞壬，确实存在有这样一个名字......不过我更倾向于被称呼为，「安蒂克丝」。",
+			say = "Sirens? Hah. I remember those insects. However, I am no Siren. It would be more apt to call me Antiochus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "安蒂克丝？！这个名字司令部也有记录…你就是余烬之前提到的安蒂克丝？！",
+			say = "Antiochus? The Ashes have used that word before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 900286,
 			actorName = "？？？",
-			say = "........仲裁者·天帕岚斯·XIV，一定需要一个名字的话，就使用这个称呼吧。",
+			say = "In full, my name is Arbiter: Temperance ⅩⅣ. If you insist on titles, then call me by this one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "好长.......！天帕岚斯是吧.......就是你在一直干扰我们的电子设备么？",
+			say = "What a mouthful... You're the one jamming TB's systems, aren't you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 900286,
 			nameColor = "#ff5c5c",
-			say = "你们正在使用的领航员系统，很有趣，但是还不够......我已经厌倦了。",
+			say = "Her anti-jamming measures were an amusing little puzzle. But I have had enough with puzzles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 900286,
 			nameColor = "#ff5c5c",
-			say = "立刻解除武装，并且投降，抵抗是无效的。",
+			say = "This is your last warning. Lay down your arms and surrender. Resistance is futile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "不过是个资料库里不存在的奇怪塞壬而已，还真是嚣张啊......",
+			say = "Yeah, like we're going to do what some random voice over the radio tells us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们没有任何理由在塞壬面前解除武装或者投降。",
+			say = "We're not surrendering to anyone! Now show yourself, \"Arbiter\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你也厌倦了一直躲在远处干扰，为了结束这场游戏，堂堂正正的出来与我们一决胜负吧。",
+			say = "You're tired of puzzles, are you? Then come out and fight us on equal terms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 900286,
 			nameColor = "#ff5c5c",
-			say = "提议被拒绝......那么，就采用武力手段吧。",
+			say = "I offered you the easy way, and you rejected it. If I must beat you into submission, then I shall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900286,
-			say = "在战争中，堂堂正正是不需要的..........",
+			say = "But... fight you on equal terms? Don't make me laugh. There is no fairness in war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "对方主动切断了连接，通讯已结束。",
+			say = "Sender has closed the communications channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "仲裁机关与安蒂克丝......领航员小姐，能够和指挥部的数据库进行资料比对么。",
+			say = "TB, can you check the mainframe's database for info on Antiochus and this \"Arbiter\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：系统当前正处于离线模式中，正在与本地数据库进行比对。",
+			say = "Orders received. Mainframe database is unavailable in offline mode. Searching through local database...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			voice = "event:/tb/7/tb-7",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "本地数据库中没有搜索到任何相关信息，正在尝试与主机进行同步————",
+			say = "No results found in local database. Attempting to reconnect with mainframe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			voice = "event:/tb/45/tb-45",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "警告：与主机进行连接的请求已被驳回，本机依然处于强烈干扰环境中。",
+			say = "Connection could not be established due to electronic interference. Order could not be executed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "警告：前方海域中检测到大量塞壬舰队信号。",
+			say = "Warning: Multiple Siren signals have been detected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "又来......？这都第几次了啊......反正又是一群雷达上的假目标吧。",
+			say = "Again? How long are they gonna keep messing with us like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对，这次侦察机同样目视到了敌人的出现....而且是在视野范围内从海面上凭空出现的？！！",
+			say = "No... This time, they're not messing around. Look, we have a visual on them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从视野范围内凭空出现的...？那岂不是，光学隐身？！这不是在科幻小说里才会出现的东西么！",
+			say = "Say what?! Do the Sirens have fricking optical camouflage now or something?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "这倒是个全新发现...根据目前的研究，塞壬舰队能神出鬼没的原因大多都和它们隐藏在海域各处的镜面海域有关。",
+			say = "Well... this disproves that whole theory about Mirror Seas being the only thing that can dimensionally displace organic matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "像这样从非镜面海域中凭空出现......真亏它们能做出这么夸张的事啊。",
+			say = "Or maybe they've already formed a Mirror Sea around us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是不是光学隐身，既然敌人已经现身，岂有不战之理。立刻联系周边舰队，包围消灭敌人！",
+			say = "In any case, we have to deal with these Sirens to secure the zone. Everyone, try to contact other fleets in the region and request backup!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "不行！我们的舰队之间的通讯也被干扰了，现在只能希望周边舰队能主动发现我们的情况了......",
+			say = "...Not happening. Our signals aren't coming through due to Arbiter's jamming...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "或者由我们主动消灭干扰源......本来以为这次情况会有所好转呢。",
+			say = "That doesn't leave us with much choice but to locate and destroy the jammer, then...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			voice = "event:/tb/58/tb-58",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "非常抱歉......",
+			say = "I apologize for this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "这次不是你的错啦，是敌人变化了而已。没关系，我们在这种情况下战斗也不是第一次了。",
+			say = "It's not your fault, TB. Besides, it's not the first time we've been in this sort of situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家各就各位，让嚣张的敌人见识一下白鹰舰队的实力吧！",
+			say = "We'll be fine, don't worry. Now let's show these Sirens what we're really made of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

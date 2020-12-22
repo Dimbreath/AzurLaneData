@@ -13,7 +13,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：警告，前方海域中检测到大量塞壬舰队信号。",
+			say = "Numerous hostiles have been detected. Proceed with caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！但是我的侦察机什么都没有发现哦？你是不是弄错了？",
+			say = "You sure? My recon planes in the air haven't spotted anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			voice = "event:/tb/19/tb-19",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：正在根据侦察机的情报对目标信号进行修正。",
+			say = "Update to data processing program required. Calculating time requirement...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			voice = "event:/tb/40/tb-40",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：经过修正，刚刚发现的敌军均为干扰引号。",
+			say = "Complete. This signal type will be treated as a form of Siren jamming. Reboot required to update definitions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			voice = "event:/tb/24/tb-24",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "确认存在不明信号源正在试图干扰舰队的电子设备，正在启动反制措施。",
+			say = "Complete. System jamming has been detected. Initiating anti-jamming program.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...这就是克利夫兰她们之前遭遇到的幽灵信号么...不论是谁在做这些事，看来已经彻底盯上我们了。",
+			say = "Is this the \"ghost signal\" Cleveland's fleet reported earlier? I'll admit, the things it does to the radar is pretty spooky...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "正在向司令部提交异常状态报告————",
+			say = "Transferring interference pattern data to headquarters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "警告：通讯系统出现故障，与司令部通讯连接已中断。",
+			say = "Error: Data package could not be sent. Connection with headquarters could not be established.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "警告：与主机连接中断，系统即将进入离线模式。",
+			say = "Connection to mainframe has been lost. Resuming in offline mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "领航员小姐又被塞壬干扰了........",
+			say = "Dammit! Not again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "......十分抱歉。",
+			say = "I apologize for the inconvenience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = ".............大家发现了么，迄今为止，我们遭遇到的所有干扰对于战局来说都是没有意义的。",
+			say = "I can't help but wonder: what are the Sirens trying to achieve with this jamming?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论雷达屏幕如何变化，实际上我们周边根本没有任何敌人.....对面好像只是在单纯的炫耀它的电子战能力一样。",
+			say = "If it's meant to impede our progress, then there are more effective ways to do that... I'm almost inclined to believe they're just flaunting what they're capable of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "我也有这种感觉...就好像是在说我们的技术升级对于它不值一提一样，这种赤裸裸的挑衅行为.....",
+			say = "Essex, what do we do if we don't run into any Sirens soon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们虽然拥有可以决战海空的舰载机编队，可是如果看不到敌人的话就什么都做不了。",
+			say = "Then we just reclaim the zone, simple as that. Whether we fight them now or later doesn't matter much, we'll run into Sirens sooner or later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "明明已经接近了核心区域外围，按理说是塞壬绝对设有重兵防御的地方，现在除了雷达上的假目标之外居然什么都没发现...",
+			say = "I will say though, it's bizarre that we've come this close to the center of the NA Ocean and hardly done any fighting at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬接下来一定会有行动。趁着现在我们的舰队间通讯还正常，立刻让其他舰队远离这片区域，从外部搜索干扰源的位置。",
+			say = "Don't get me wrong, it's better than the alternative, but I'm worried that they might be amassing their forces somewhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们就先留在这里陪这个“害羞”的敌人好好玩玩吧。",
+			say = "...Anyway, let's get back to our objective: reclaiming the zone, then searching around for the source of this jamming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

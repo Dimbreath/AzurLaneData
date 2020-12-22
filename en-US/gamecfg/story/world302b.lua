@@ -13,7 +13,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：观测到皇家方舟正在被大量塞壬舰队追逐——————",
+			say = "Scan complete. Unit identified as Ark Royal is being pursued by a large number of hostiles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			voice = "event:/tb/26/tb-26",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "警告：与主机连接中断，系统即将进入离线模式。",
+			say = "Warning: Connection to mainframe has been lost. Resuming in offline mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "咦，连接中断？！发生什么事了TB，能查到问题么？",
+			say = "We lost connection?! What happened, TB?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			voice = "event:/tb/24/tb-24",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：系统在大约5秒之前遭受到一次强烈定向干扰，推测塞壬正在对本机进行电子攻击。",
+			say = "Detecting Siren electronic interference. Readings indicate that a hostile presence is moving toward this location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的设备升级之后，塞壬的干扰措施也对应升级了么，看来在电子技术上我们与塞壬依然存在巨大差距.....",
+			say = "Sirens...! I should've known. It was only a matter of time before they showed their hand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，看来TB系统也有很多不完善的地方啊，稍微有点安心了。",
+			say = "This seems like a good time to test our anti-jamming function to see how well it works.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "...啊？你为什么会因为系统被敌方成功干扰而安心啊？！",
+			say = "Wasn't it supposed to be automatic? ...Did TB disable it and let us get jammed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "你们想，明明事先一点风声都没有，如果现在指挥部直接拿出来一个像科幻小说中才会出现的完美作战辅助装置。",
+			say = "It's more probable that it simply wasn't automatic, or it failed. They did task us with testing TB's systems after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "那个东西的来源会让人觉得很疑惑吧......比如会不会是从塞壬那里获取的技术之类的......？",
+			say = "In a way, I'm relieved that her anti-jamming system failed. That means her coding is flawed, but flaws can be fixed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正因为还在研究中，所以存在缺陷，所以指挥部需要不停改进。这些不正是我们自主研发的证明么？",
+			say = "Imagine if she worked perfectly all the time. Wouldn't that be a cause for concern? That could suggest the Sirens have a backdoor into her system and are saving it as an ace up their sleeve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "好像确实是这样...哎，科幻小说里可是有不少贸然使用敌方的技术结果被坑的很惨的情节啊.....",
+			say = "In that sense, yeah. When things work TOO smoothly, you get complacent, and that's how they get you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "啊！现在不是说这些的时候！正在被塞壬追击的皇家方舟怎么办，我们要去支援么？",
+			say = "...We're getting sidetracked! What about Ark Royal? Should we link up and assist her, or what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，怎么能对友军的困境坐视不理。我们的游击舰队距离她的位置最近，让克利夫兰她们去支援吧！",
+			say = "Yeah, let's go! We can catch up with Cleveland's fleet later; Ark Royal needs help, and quick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

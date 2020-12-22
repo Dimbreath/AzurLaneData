@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "这里就是预定里建立前哨站的海域啊，距离海域核心区域居然这么近.....",
+			say = "Here it is, the place we're going to build the Outpost. We're getting pretty near the center of the NA Ocean now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果在这里建立起维修补给基地的话，总攻的时候确实会便利很多。",
+			say = "If we can also set up a supply base here, it should make it a lot easier to sustain an offensive on the Sirens' stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "而且预计建立的前哨站不止一处。根据规划，整片NA海域围绕核心区域将会建立合计六处前哨站。",
+			say = "This isn't the only place we're building an Outpost, you know. Every faction is building their own in each sector surrounding the center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "将塞壬从四面压缩到中心点然后一起发动总攻.....这种规模浩大的战役我还是第一次参加呢。",
+			say = "Attacking from all directions? Now that's what I call a united offensive. The Sirens will crumble under the sheer firepower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "等到总攻的时候场面一定会很壮观吧......！",
+			say = "When we all attack at once, boy, it'll be the biggest sortie anyone's ever seen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "如果不是陷入了与赤色中轴的战争，我们早就可以小规模的对塞壬控制的大洋发动反击了。",
+			say = "If we ALL would attack at once, we wouldn't need to first force the Sirens back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过铁血貌似对海域中存在的塞壬设施很感兴趣，这次作战中应该不会撕毁停火协议来妨碍我们。",
+			say = "As long as the Crimson Axis exists, we're reliant on the Commander bringing all the factions' ships together under the same banner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样一来海域中剩下的不稳定因素就是余烬了么......",
+			say = "That aside, as we get closer to establishing Outposts in each sector, there's still one big question with no answer in sight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107380,
-			say = "听说指挥官的舰队在A战区发现了新的余烬成员，余烬看来也在向着NA海域集结兵力。",
+			say = "You mean the Ashes, correct? I believe the Commander's fleet ran into one of their members earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们究竟是从何而来，行动目的又是什么呢......",
+			say = "They are, indeed, a mystery. I can't even fathom a guess as to why they're in the NA Ocean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉，余烬最近的行动越来越频繁，这个由指挥部划定的机密事项很快就要变得人尽皆知了。",
+			say = "Naval command wanted to keep the existence of the Ashes a secret, but... well, that's not really possible with how much they make their presence known.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "估计很快除了塞壬三问之后，在舰队中也要出现余烬三问了吧，哈哈.......",
+			say = "It's only a matter of time before they start considering ways to deal with them. Which, of course, will mean more paperwork for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "唔......大家注意到了么，在击退了那个名字很长的仲裁机关之后，我们一路上再也没遭遇到任何干扰了。",
+			say = "Hang in there, Memphis... On another note, I've been thinking about something. Did you notice how we haven't been jammed since we fought off Arbiter's units?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这样没错。不过，这不是好事么，有什么奇怪的.....？",
+			say = "What about it? Isn't that a good thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是在干扰消失之后没多久，阻击我们的塞壬舰队就出现了。",
+			say = "Well, yeah, but shortly after the jamming stopped, a regular Siren fleet turned up and engaged us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "而且不是之前像清理陈旧库存一样敷衍的舰队，刚刚袭来的敌人都是有一定战斗能力的。",
+			say = "And they weren't factory seconds either. They put up a decent fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是想说那个天帕岚斯的干扰对于普通塞壬来说同样生效么？还是说天帕岚斯出手修复了塞壬指挥系统的异常？",
+			say = "Are you... saying that Arbiter's jamming affects ordinary Sirens too? Or maybe that Arbiter repaired whatever was causing disarray in the Sirens' chain of command?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "究竟是哪种情况我还不太确定，不过鉴于它们的指挥系统从开始大型作战之后就没正常运转过，也许是那个仲裁机关做了什么事吧。",
+			say = "I'm not sure which of those two is more accurate, but maybe the latter. The Sirens were sloppy ever since this operation began, and maybe Arbiter just fixed whatever was wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论现在塞壬想做什么都来不及了，趁着它们还没有完成部署，一鼓作气消灭它们！",
+			say = "Speculate in your spare time, you two! Focus! We still need to clear this zone of Sirens and establish the Outpost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

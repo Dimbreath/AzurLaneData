@@ -12,7 +12,7 @@ return {
 			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "美丽的女士们，欢迎来到陆间海。我是撒丁帝国的利托里奥，诸位一路长途奔波辛苦了~",
+			say = "Welcome to the Méditerranée, my lovely ladies. I am Littorio, from the Sardegna Empire. You must all be weary from your long journey~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次确实算得上一场字面意义上的长途奔波，不过路上倒是没有想象中的辛苦。",
+			say = "It’s a pleasure to meet you. But I must ask, Littorio of Sardegna...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明还没有签订协议呢，陆间海上怎么已经见不到碧蓝航线的舰队了啊。",
+			say = "I was told that the Azur Lane would have representatives here at this negotiation, but why have I not seen them yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "武力阻挠姑且不论，居然连围观的都没有，你觉得这是为什么？",
+			say = "Did they have nobody to send here because they’re too focused on Operation Siren?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "这可能就是来自陆间海的独特魅力吧~",
+			say = "Maybe they’re too busy enjoying the splendors of Sardegna?~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "..........",
+			say = ".......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "正经的说，碧蓝航线那边对于停火协议也很看重，所以最近主动降低了冲突的烈度，陆间海的局势也因此平和了很多。",
+			say = "To be frank, because the negotiations are taking place at a Crimson Axis-controlled port, I believe the point was to bring as few ships as possible, as to not incense the various leaders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -48,7 +48,62 @@ pg.benefit_buff_template = {
 			60
 		}
 	},
-	[10] = {
+	{
+		name = "",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "",
+		benefit_effect = "100",
+		id = 5,
+		icon = "more_oil",
+		benefit_type = "more_oil"
+	},
+	{
+		name = "",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "",
+		benefit_effect = "100",
+		id = 6,
+		icon = "user_battle_exp",
+		benefit_type = "user_battle_exp"
+	},
+	{
+		name = "",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "",
+		benefit_effect = "100",
+		id = 7,
+		icon = "ship_battle_exp",
+		benefit_type = "ship_battle_exp"
+	},
+	{
+		name = "",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "",
+		benefit_effect = "1",
+		id = 8,
+		icon = "extra_drop",
+		benefit_type = "extra_drop"
+	},
+	{
+		name = "",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "Provide an extra drop for event stages and can&apos;t be used for the first drop of the day. ",
+		benefit_effect = "1",
+		id = 9,
+		icon = "extra_activity_drop",
+		benefit_type = "extra_activity_drop"
+	},
+	{
 		name = "Academic Achievement",
 		hide = 0,
 		max_time = 86400,
@@ -59,7 +114,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_10",
 		benefit_type = "skill_learncost_up"
 	},
-	[11] = {
+	{
 		name = "Career Success",
 		hide = 0,
 		max_time = 86400,
@@ -70,7 +125,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_11",
 		benefit_type = "battle_buff"
 	},
-	[12] = {
+	{
 		name = "Fruitful Courtship",
 		hide = 0,
 		max_time = 86400,
@@ -81,7 +136,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_12",
 		benefit_type = "intimacy_up_extra"
 	},
-	[13] = {
+	{
 		name = "Combat Insight I",
 		hide = 0,
 		max_time = 0,
@@ -99,7 +154,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[14] = {
+	{
 		name = "Combat Insight II",
 		hide = 0,
 		max_time = 0,
@@ -117,7 +172,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[15] = {
+	{
 		name = "Combat Insight III",
 		hide = 0,
 		max_time = 0,
@@ -135,7 +190,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[16] = {
+	{
 		name = "Battle Acumen I",
 		hide = 0,
 		max_time = 0,
@@ -153,7 +208,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[17] = {
+	{
 		name = "Battle Acumen II",
 		hide = 0,
 		max_time = 0,
@@ -171,7 +226,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[18] = {
+	{
 		name = "Battle Acumen III",
 		hide = 0,
 		max_time = 0,
@@ -189,7 +244,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[19] = {
+	{
 		name = "Efficient Education I",
 		hide = 0,
 		max_time = 0,
@@ -207,7 +262,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[20] = {
+	{
 		name = "Efficient Education II",
 		hide = 0,
 		max_time = 0,
@@ -225,7 +280,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[21] = {
+	{
 		name = "Efficient Education III",
 		hide = 0,
 		max_time = 0,
@@ -243,7 +298,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[22] = {
+	{
 		name = "Leisurely Learning I",
 		hide = 0,
 		max_time = 0,
@@ -261,7 +316,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[23] = {
+	{
 		name = "Leisurely Learning II",
 		hide = 0,
 		max_time = 0,
@@ -279,7 +334,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[24] = {
+	{
 		name = "Leisurely Learning III",
 		hide = 0,
 		max_time = 0,
@@ -297,7 +352,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[25] = {
+	{
 		name = "Specialized Core Event Boost ",
 		hide = 0,
 		max_time = 0,
@@ -308,7 +363,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_urptup",
 		benefit_type = "urpt_drop_up"
 	},
-	[26] = {
+	{
 		name = "Vocal Appeal",
 		hide = 0,
 		max_time = 0,
@@ -323,7 +378,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[27] = {
+	{
 		name = "Vocal Appeal",
 		hide = 0,
 		max_time = 0,
@@ -338,7 +393,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[28] = {
+	{
 		name = "Vocal Appeal",
 		hide = 0,
 		max_time = 0,
@@ -353,7 +408,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[29] = {
+	{
 		name = "Glamorous Steps",
 		hide = 0,
 		max_time = 0,
@@ -368,7 +423,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[30] = {
+	{
 		name = "Glamorous Steps",
 		hide = 0,
 		max_time = 0,
@@ -383,7 +438,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[31] = {
+	{
 		name = "Glamorous Steps",
 		hide = 0,
 		max_time = 0,
@@ -398,7 +453,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[32] = {
+	{
 		name = "Memorable Performance",
 		hide = 0,
 		max_time = 0,
@@ -413,7 +468,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[33] = {
+	{
 		name = "Memorable Performance",
 		hide = 0,
 		max_time = 0,
@@ -428,7 +483,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[34] = {
+	{
 		name = "Memorable Performance",
 		hide = 0,
 		max_time = 0,
@@ -443,7 +498,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[35] = {
+	{
 		name = "<color=#ff5c5c>POW</color> Lv. 1:",
 		hide = 0,
 		max_time = 0,
@@ -458,7 +513,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[36] = {
+	{
 		name = "<color=#ff5c5c>POW</color> Lv. 2:",
 		hide = 0,
 		max_time = 0,
@@ -473,7 +528,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[37] = {
+	{
 		name = "<color=#ff5c5c>POW </color>MAX:",
 		hide = 0,
 		max_time = 0,
@@ -488,7 +543,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[38] = {
+	{
 		name = "<color=#00BFFF>TEC</color> Lv. 1:",
 		hide = 0,
 		max_time = 0,
@@ -503,7 +558,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[39] = {
+	{
 		name = "<color=#00BFFF>TEC</color> Lv. 2:",
 		hide = 0,
 		max_time = 0,
@@ -518,7 +573,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[40] = {
+	{
 		name = "<color=#00BFFF>TEC</color> MAX:",
 		hide = 0,
 		max_time = 0,
@@ -533,7 +588,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[41] = {
+	{
 		name = "<color=#ffde38>STM</color> Lv. 1:",
 		hide = 0,
 		max_time = 0,
@@ -548,7 +603,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[42] = {
+	{
 		name = "<color=#ffde38>STM</color> Lv. 2:",
 		hide = 0,
 		max_time = 0,
@@ -563,7 +618,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[43] = {
+	{
 		name = "<color=#ffde38>STM</color> MAX:",
 		hide = 0,
 		max_time = 0,
@@ -578,7 +633,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[44] = {
+	{
 		name = "<color=#FF69B4>APL</color> Lv. 1:",
 		hide = 0,
 		max_time = 0,
@@ -593,7 +648,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[45] = {
+	{
 		name = "<color=#FF69B4>APL</color> Lv. 2:",
 		hide = 0,
 		max_time = 0,
@@ -608,7 +663,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[46] = {
+	{
 		name = "<color=#FF69B4>APL</color> MAX:",
 		hide = 0,
 		max_time = 0,
@@ -623,7 +678,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[47] = {
+	{
 		name = "High-Efficiency Operation Description",
 		hide = 0,
 		max_time = 0,
@@ -634,7 +689,7 @@ pg.benefit_buff_template = {
 		icon = "Props/xinshou",
 		benefit_type = "desc"
 	},
-	[48] = {
+	{
 		name = "High-Efficiency Operation Bonus",
 		hide = 0,
 		max_time = 0,
@@ -650,6 +705,11 @@ pg.benefit_buff_template = {
 		2,
 		3,
 		4,
+		5,
+		6,
+		7,
+		8,
+		9,
 		10,
 		11,
 		12,
