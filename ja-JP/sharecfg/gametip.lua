@@ -12258,6 +12258,9 @@ GET!
 	guild_shop_label_4 = {
 		tip = "消費"
 	},
+	guild_shop_label_5 = {
+		tip = "以下の艦船から一隻を選択してください"
+	},
 	guild_shop_must_select_goods = {
 		tip = "交換するアイテムを選択してください"
 	},
