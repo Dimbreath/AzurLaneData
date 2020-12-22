@@ -170,6 +170,10 @@ function slot4.GrayScale(slot0)
 	return 0.299 * slot0.r + 0.587 * slot0.g + 0.114 * slot0.b
 end
 
+function slot4.ToHex(slot0, slot1)
+	return slot1 and string.format("%.2X%.2X%.2X%.2X", slot0.r * 255, slot0.g * 255, slot0.b * 255, slot0.a * 255) or string.format("%.2X%.2X%.2X", slot0.r * 255, slot0.g * 255, slot0.b * 255)
+end
+
 function slot4.__tostring(slot0)
 	return string.format("RGBA(%f,%f,%f,%f)", slot0.r, slot0.g, slot0.b, slot0.a)
 end
@@ -236,6 +240,10 @@ end
 
 function slot5.clear()
 	return uv0.New(0, 0, 0, 0)
+end
+
+function slot5.buttonDisabled()
+	return uv0.New(0.7843137254901961, 0.7843137254901961, 0.7843137254901961, 0.5)
 end
 
 function slot5.gamma(slot0)

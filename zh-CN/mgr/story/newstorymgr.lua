@@ -296,7 +296,11 @@ function slot0.OnStart(slot0)
 	end
 
 	onButton(slot0, slot0.skinBtn, function ()
-		if uv0:IsReView() then
+		if not uv0.currPlayer:CanSkip() then
+			return
+		end
+
+		if uv0:IsReView() or uv0.storyScript:IsPlayed() then
 			uv1()
 
 			return
@@ -326,9 +330,8 @@ function slot0.Clear(slot0)
 		slot5:StoryEnd()
 	end
 
-	pg.CriMgr.GetInstance():StopSE_V3()
-	pg.CriMgr.GetInstance():ResumeNormalBGM()
-	pg.m02:sendNotification(GAME.STORY_END, storyId)
+	pg.CriMgr.GetInstance():ResumeLastNormalBGM()
+	pg.m02:sendNotification(GAME.STORY_END)
 end
 
 function slot0.OnEnd(slot0, slot1)

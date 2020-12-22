@@ -8598,8 +8598,8 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			75,
-			32
+			80,
+			35
 		},
 		level_exp = {
 			0,
@@ -8612,8 +8612,8 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			63,
-			8
+			67,
+			9
 		}
 	},
 	[40702] = {

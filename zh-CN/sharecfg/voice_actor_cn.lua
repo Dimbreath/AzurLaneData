@@ -649,7 +649,7 @@ pg.voice_actor_CN = {
 		code = 162
 	},
 	{
-		actor_name = "洲崎绫 ",
+		actor_name = "洲崎绫",
 		code = 163
 	},
 	{

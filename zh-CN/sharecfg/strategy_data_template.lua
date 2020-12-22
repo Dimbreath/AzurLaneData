@@ -84,6 +84,15 @@ pg.strategy_data_template = {
 			area_scout
 		}
 	},
+	[47] = {
+		buff_id = 0,
+		name = "高效作战",
+		type = 10,
+		id = 47,
+		icon = "tebiezuozhan",
+		desc = "当前关卡中的战斗石油消耗增加100%;\n同时战斗结算时指挥官、指挥喵、角色经验获取提高100%，额外获得一次掉落;\n心情值消耗，好感度获取均提高100%。",
+		arg = {}
+	},
 	[90] = {
 		buff_id = 90,
 		name = "危机出现!",
@@ -301,6 +310,7 @@ pg.strategy_data_template = {
 		10,
 		11,
 		12,
+		47,
 		90,
 		91,
 		92,

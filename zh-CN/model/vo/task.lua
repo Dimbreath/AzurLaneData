@@ -7,6 +7,7 @@ slot0.TYPE_HIDDEN = 5
 slot0.TYPE_ACTIVITY = 6
 slot0.TYPE_ACTIVITY_ROUTINE = 36
 slot0.TYPE_ACTIVITY_BRANCH = 26
+slot0.TYPE_GUILD_WEEKLY = 12
 slot1 = {
 	"scenario",
 	"branch",
@@ -30,6 +31,22 @@ end
 
 function slot0.bindConfigTable(slot0)
 	return pg.task_data_template
+end
+
+function slot0.isGuildTask(slot0)
+	return slot0:getConfig("type") == uv0.TYPE_GUILD_WEEKLY
+end
+
+function slot0.IsRoutineType(slot0)
+	return slot0:getConfig("type") == uv0.TYPE_ROUTINE
+end
+
+function slot0.IsWeeklyType(slot0)
+	return slot0:getConfig("type") == uv0.TYPE_WEEKLY
+end
+
+function slot0.IsGuildAddLivnessType(slot0)
+	return slot0:getConfig("type") == uv0.TYPE_ROUTINE or slot1 == uv0.TYPE_WEEKLY or slot1 == uv0.TYPE_GUILD_WEEKLY
 end
 
 function slot0.isFinish(slot0)

@@ -31,7 +31,25 @@ return {
 		{
 			id = "NG005",
 			condition = function ()
-				return getProxy(PlayerProxy):getData().level >= 40
+				return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "CommandRoomMediator")
+			end,
+			args = function (slot0)
+				return {}
+			end
+		},
+		{
+			id = "NG0022",
+			condition = function ()
+				return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "EquipmentTransformTreeMediator")
+			end,
+			args = function (slot0)
+				return {}
+			end
+		},
+		{
+			id = "NG0023",
+			condition = function ()
+				return pg.NewStoryMgr.GetInstance():IsPlayed("WorldG192")
 			end,
 			args = function (slot0)
 				return {}
@@ -53,11 +71,15 @@ return {
 					})
 				end
 
-				if slot0.contextData.map:isActivity() then
+				if slot0.contextData.map and slot0.contextData.map:isActivity() then
 					slot0:emit(LevelMediator2.ON_SWITCH_NORMAL_MAP)
 				end
 
-				return {}
+				return slot0.contextData.entranceStatus and {
+					2
+				} or {
+					1
+				}
 			end
 		},
 		{

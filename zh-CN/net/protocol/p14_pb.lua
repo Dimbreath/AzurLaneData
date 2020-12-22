@@ -4,6 +4,7 @@ module("p14_pb")
 
 slot1 = {
 	SC_14001_EQUIP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_14001_SHIP_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_14002_SHIP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_14002_POS_FIELD = slot0.FieldDescriptor(),
 	SC_14003_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -17,6 +18,13 @@ slot1 = {
 	SC_14009_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_14010_EQUIP_ID_FIELD = slot0.FieldDescriptor(),
 	SC_14011_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_14013_SHIP_ID_FIELD = slot0.FieldDescriptor(),
+	CS_14013_POS_FIELD = slot0.FieldDescriptor(),
+	CS_14013_UPGRADE_ID_FIELD = slot0.FieldDescriptor(),
+	SC_14014_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_14015_EQUIP_ID_FIELD = slot0.FieldDescriptor(),
+	CS_14015_UPGRADE_ID_FIELD = slot0.FieldDescriptor(),
+	SC_14016_RESULT_FIELD = slot0.FieldDescriptor(),
 	EQUIPINFO_ID_FIELD = slot0.FieldDescriptor(),
 	EQUIPINFO_COUNT_FIELD = slot0.FieldDescriptor(),
 	SC_14101_EQUIP_SKIN_LIST_FIELD = slot0.FieldDescriptor(),
@@ -34,6 +42,10 @@ CS_14008 = slot0.Descriptor()
 SC_14009 = slot0.Descriptor()
 CS_14010 = slot0.Descriptor()
 SC_14011 = slot0.Descriptor()
+CS_14013 = slot0.Descriptor()
+SC_14014 = slot0.Descriptor()
+CS_14015 = slot0.Descriptor()
+SC_14016 = slot0.Descriptor()
 EQUIPINFO = slot0.Descriptor()
 SC_14101 = slot0.Descriptor()
 EQUIPSKININFO = slot0.Descriptor()
@@ -47,12 +59,22 @@ slot1.SC_14001_EQUIP_LIST_FIELD.default_value = {}
 slot1.SC_14001_EQUIP_LIST_FIELD.message_type = EQUIPINFO
 slot1.SC_14001_EQUIP_LIST_FIELD.type = 11
 slot1.SC_14001_EQUIP_LIST_FIELD.cpp_type = 10
+slot1.SC_14001_SHIP_ID_LIST_FIELD.name = "ship_id_list"
+slot1.SC_14001_SHIP_ID_LIST_FIELD.full_name = "p14.sc_14001.ship_id_list"
+slot1.SC_14001_SHIP_ID_LIST_FIELD.number = 3
+slot1.SC_14001_SHIP_ID_LIST_FIELD.index = 1
+slot1.SC_14001_SHIP_ID_LIST_FIELD.label = 3
+slot1.SC_14001_SHIP_ID_LIST_FIELD.has_default_value = false
+slot1.SC_14001_SHIP_ID_LIST_FIELD.default_value = {}
+slot1.SC_14001_SHIP_ID_LIST_FIELD.type = 13
+slot1.SC_14001_SHIP_ID_LIST_FIELD.cpp_type = 3
 SC_14001.name = "sc_14001"
 SC_14001.full_name = "p14.sc_14001"
 SC_14001.nested_types = {}
 SC_14001.enum_types = {}
 SC_14001.fields = {
-	slot1.SC_14001_EQUIP_LIST_FIELD
+	slot1.SC_14001_EQUIP_LIST_FIELD,
+	slot1.SC_14001_SHIP_ID_LIST_FIELD
 }
 SC_14001.is_extendable = false
 SC_14001.extensions = {}
@@ -267,6 +289,108 @@ SC_14011.fields = {
 }
 SC_14011.is_extendable = false
 SC_14011.extensions = {}
+slot1.CS_14013_SHIP_ID_FIELD.name = "ship_id"
+slot1.CS_14013_SHIP_ID_FIELD.full_name = "p14.cs_14013.ship_id"
+slot1.CS_14013_SHIP_ID_FIELD.number = 1
+slot1.CS_14013_SHIP_ID_FIELD.index = 0
+slot1.CS_14013_SHIP_ID_FIELD.label = 2
+slot1.CS_14013_SHIP_ID_FIELD.has_default_value = false
+slot1.CS_14013_SHIP_ID_FIELD.default_value = 0
+slot1.CS_14013_SHIP_ID_FIELD.type = 13
+slot1.CS_14013_SHIP_ID_FIELD.cpp_type = 3
+slot1.CS_14013_POS_FIELD.name = "pos"
+slot1.CS_14013_POS_FIELD.full_name = "p14.cs_14013.pos"
+slot1.CS_14013_POS_FIELD.number = 2
+slot1.CS_14013_POS_FIELD.index = 1
+slot1.CS_14013_POS_FIELD.label = 2
+slot1.CS_14013_POS_FIELD.has_default_value = false
+slot1.CS_14013_POS_FIELD.default_value = 0
+slot1.CS_14013_POS_FIELD.type = 13
+slot1.CS_14013_POS_FIELD.cpp_type = 3
+slot1.CS_14013_UPGRADE_ID_FIELD.name = "upgrade_id"
+slot1.CS_14013_UPGRADE_ID_FIELD.full_name = "p14.cs_14013.upgrade_id"
+slot1.CS_14013_UPGRADE_ID_FIELD.number = 3
+slot1.CS_14013_UPGRADE_ID_FIELD.index = 2
+slot1.CS_14013_UPGRADE_ID_FIELD.label = 2
+slot1.CS_14013_UPGRADE_ID_FIELD.has_default_value = false
+slot1.CS_14013_UPGRADE_ID_FIELD.default_value = 0
+slot1.CS_14013_UPGRADE_ID_FIELD.type = 13
+slot1.CS_14013_UPGRADE_ID_FIELD.cpp_type = 3
+CS_14013.name = "cs_14013"
+CS_14013.full_name = "p14.cs_14013"
+CS_14013.nested_types = {}
+CS_14013.enum_types = {}
+CS_14013.fields = {
+	slot1.CS_14013_SHIP_ID_FIELD,
+	slot1.CS_14013_POS_FIELD,
+	slot1.CS_14013_UPGRADE_ID_FIELD
+}
+CS_14013.is_extendable = false
+CS_14013.extensions = {}
+slot1.SC_14014_RESULT_FIELD.name = "result"
+slot1.SC_14014_RESULT_FIELD.full_name = "p14.sc_14014.result"
+slot1.SC_14014_RESULT_FIELD.number = 1
+slot1.SC_14014_RESULT_FIELD.index = 0
+slot1.SC_14014_RESULT_FIELD.label = 2
+slot1.SC_14014_RESULT_FIELD.has_default_value = false
+slot1.SC_14014_RESULT_FIELD.default_value = 0
+slot1.SC_14014_RESULT_FIELD.type = 13
+slot1.SC_14014_RESULT_FIELD.cpp_type = 3
+SC_14014.name = "sc_14014"
+SC_14014.full_name = "p14.sc_14014"
+SC_14014.nested_types = {}
+SC_14014.enum_types = {}
+SC_14014.fields = {
+	slot1.SC_14014_RESULT_FIELD
+}
+SC_14014.is_extendable = false
+SC_14014.extensions = {}
+slot1.CS_14015_EQUIP_ID_FIELD.name = "equip_id"
+slot1.CS_14015_EQUIP_ID_FIELD.full_name = "p14.cs_14015.equip_id"
+slot1.CS_14015_EQUIP_ID_FIELD.number = 1
+slot1.CS_14015_EQUIP_ID_FIELD.index = 0
+slot1.CS_14015_EQUIP_ID_FIELD.label = 2
+slot1.CS_14015_EQUIP_ID_FIELD.has_default_value = false
+slot1.CS_14015_EQUIP_ID_FIELD.default_value = 0
+slot1.CS_14015_EQUIP_ID_FIELD.type = 13
+slot1.CS_14015_EQUIP_ID_FIELD.cpp_type = 3
+slot1.CS_14015_UPGRADE_ID_FIELD.name = "upgrade_id"
+slot1.CS_14015_UPGRADE_ID_FIELD.full_name = "p14.cs_14015.upgrade_id"
+slot1.CS_14015_UPGRADE_ID_FIELD.number = 2
+slot1.CS_14015_UPGRADE_ID_FIELD.index = 1
+slot1.CS_14015_UPGRADE_ID_FIELD.label = 2
+slot1.CS_14015_UPGRADE_ID_FIELD.has_default_value = false
+slot1.CS_14015_UPGRADE_ID_FIELD.default_value = 0
+slot1.CS_14015_UPGRADE_ID_FIELD.type = 13
+slot1.CS_14015_UPGRADE_ID_FIELD.cpp_type = 3
+CS_14015.name = "cs_14015"
+CS_14015.full_name = "p14.cs_14015"
+CS_14015.nested_types = {}
+CS_14015.enum_types = {}
+CS_14015.fields = {
+	slot1.CS_14015_EQUIP_ID_FIELD,
+	slot1.CS_14015_UPGRADE_ID_FIELD
+}
+CS_14015.is_extendable = false
+CS_14015.extensions = {}
+slot1.SC_14016_RESULT_FIELD.name = "result"
+slot1.SC_14016_RESULT_FIELD.full_name = "p14.sc_14016.result"
+slot1.SC_14016_RESULT_FIELD.number = 1
+slot1.SC_14016_RESULT_FIELD.index = 0
+slot1.SC_14016_RESULT_FIELD.label = 2
+slot1.SC_14016_RESULT_FIELD.has_default_value = false
+slot1.SC_14016_RESULT_FIELD.default_value = 0
+slot1.SC_14016_RESULT_FIELD.type = 13
+slot1.SC_14016_RESULT_FIELD.cpp_type = 3
+SC_14016.name = "sc_14016"
+SC_14016.full_name = "p14.sc_14016"
+SC_14016.nested_types = {}
+SC_14016.enum_types = {}
+SC_14016.fields = {
+	slot1.SC_14016_RESULT_FIELD
+}
+SC_14016.is_extendable = false
+SC_14016.extensions = {}
 slot1.EQUIPINFO_ID_FIELD.name = "id"
 slot1.EQUIPINFO_ID_FIELD.full_name = "p14.equipinfo.id"
 slot1.EQUIPINFO_ID_FIELD.number = 1
@@ -347,6 +471,8 @@ cs_14004 = slot0.Message(CS_14004)
 cs_14006 = slot0.Message(CS_14006)
 cs_14008 = slot0.Message(CS_14008)
 cs_14010 = slot0.Message(CS_14010)
+cs_14013 = slot0.Message(CS_14013)
+cs_14015 = slot0.Message(CS_14015)
 equipinfo = slot0.Message(EQUIPINFO)
 equipskininfo = slot0.Message(EQUIPSKININFO)
 sc_14001 = slot0.Message(SC_14001)
@@ -355,4 +481,6 @@ sc_14005 = slot0.Message(SC_14005)
 sc_14007 = slot0.Message(SC_14007)
 sc_14009 = slot0.Message(SC_14009)
 sc_14011 = slot0.Message(SC_14011)
+sc_14014 = slot0.Message(SC_14014)
+sc_14016 = slot0.Message(SC_14016)
 sc_14101 = slot0.Message(SC_14101)

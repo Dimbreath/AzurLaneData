@@ -62,51 +62,33 @@ function slot1.InitCri(slot0, slot1)
 		uv2()
 	end)
 
-	slot0.storyBGMName = nil
-	slot0.normalBGMName = nil
+	slot0.typeNow = nil
+	slot0.bgmNow = nil
 	slot0.lastNormalBGMName = nil
 end
 
-function slot1.SetStoryBGM(slot0, slot1)
-	slot0.storyBGMName = slot1
-	slot0.normalBGMName = nil
+function slot1.SetTypeBGM(slot0, slot1, slot2)
+	slot0.typeNow = slot2
+	slot0.bgmNow = slot1
+
+	if not slot2 then
+		slot0.lastNormalBGMName = slot1
+	end
 end
 
-function slot1.SetNormalBGM(slot0, slot1)
-	slot0.lastNormalBGMName = slot1
-	slot0.normalBGMName = slot1
-	slot0.storyBGMName = nil
-end
-
-function slot1.ResumeNormalBGM(slot0)
+function slot1.ResumeLastNormalBGM(slot0)
 	if slot0.lastNormalBGMName then
 		slot0:PlayBGM(slot0.lastNormalBGMName)
 	end
 end
 
-function slot1.ResumeStoryBGM(slot0)
-	if slot0.storyBGMName then
-		slot0:PlayBGM(slot0.storyBGMName)
-	end
-end
-
 function slot1.PlayBGM(slot0, slot1, slot2)
-	if slot0.bgmPlaybackInfo == nil then
-		if slot2 and slot0.storyBGMName and slot1 ~= slot0.storyBGMName then
-			slot0:UnloadCueSheet("bgm-" .. slot0.storyBGMName)
-		elseif slot0.normalBGMName and slot1 ~= slot0.normalBGMName then
-			slot0:UnloadCueSheet("bgm-" .. slot0.normalBGMName)
-		end
-	end
-
-	if slot2 then
-		slot0:SetStoryBGM(slot1)
-	else
-		slot0:SetNormalBGM(slot1)
-	end
+	slot0:SetTypeBGM(slot1, slot2)
 
 	if slot0.bgmName == "bgm-" .. slot1 then
 		return
+	elseif slot0.bgmName ~= nil and slot0.bgmPlaybackInfo == nil then
+		slot0:UnloadCueSheet(slot0.bgmName)
 	end
 
 	slot0.bgmName = slot3
@@ -168,6 +150,10 @@ function slot1.CheckFModeEvent(slot0, slot1, slot2, slot3)
 
 	string.gsub(slot1, "event:/cv/(.+)/(.+)", function (slot0, slot1)
 		uv0 = "cv-" .. slot0 .. (tobool(ShipWordHelper.CVBattleKey[string.gsub(slot1, "_%w+", "")]) and "-battle" or "")
+		uv1 = slot1
+	end)
+	string.gsub(slot1, "event:/tb/(.+)/(.+)", function (slot0, slot1)
+		uv0 = "tb-" .. slot0
 		uv1 = slot1
 	end)
 

@@ -7,8 +7,8 @@ return {
 				text = "点击这里可以对一键退役的条件进行设置",
 				mode = 1,
 				dir = -1,
-				posY = -107,
-				posX = -570
+				posY = -285,
+				posX = -302
 			},
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/setting",
@@ -30,17 +30,8 @@ return {
 				text = "上方选择优先级可以对稀有度优先级进行设置",
 				mode = 1,
 				dir = 1,
-				posY = 277,
-				posX = -645,
-				charPos = {
-					x = -24.99997,
-					y = -239.1717
-				},
-				hand = {
-					w = 0,
-					x = 96,
-					y = -235
-				}
+				posY = 101.6,
+				posX = -56.2
 			}
 		},
 		{
@@ -49,17 +40,8 @@ return {
 				text = "下方可以对拥有或未拥有满星舰船时的选择条件进行设置",
 				mode = 1,
 				dir = 1,
-				posY = 95.206,
-				posX = -674,
-				charPos = {
-					x = -24.99997,
-					y = -239.1717
-				},
-				hand = {
-					w = -62,
-					x = 96,
-					y = -235
-				}
+				posY = -159.6,
+				posX = 13.3
 			}
 		},
 		{
@@ -68,7 +50,7 @@ return {
 				text = "点击帮助按钮可以查看详细退役条件",
 				mode = 1,
 				dir = -1,
-				posY = 377.1,
+				posY = 150.7,
 				posX = 224.01
 			},
 			ui = {

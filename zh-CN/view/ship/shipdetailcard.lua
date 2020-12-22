@@ -60,8 +60,6 @@ function slot0.flush(slot0)
 			return
 		end
 
-		slot5 = slot1.bindingData and slot4.class == WorldMapShip
-
 		flushShipCard(slot0.tr, slot1)
 		setActive(slot0.npc, slot1:isActivityNpc())
 
@@ -74,16 +72,16 @@ function slot0.flush(slot0)
 				warning("找不到疲劳")
 			end
 
-			setImageSprite(slot0.energyTF, slot8)
+			setImageSprite(slot0.energyTF, slot6)
 		end
 
-		setActive(slot0.energyTF, slot7)
+		setActive(slot0.energyTF, slot5)
 		setScrollText(slot0.labelName, slot1:getName())
 
 		if ShipStatus.ShipStatusToTag(slot1, slot0.tagFlags) then
-			slot0.iconStatusTxt.text = slot8[3]
+			slot0.iconStatusTxt.text = slot6[3]
 
-			GetSpriteFromAtlasAsync(slot8[1], slot8[2], function (slot0)
+			GetSpriteFromAtlasAsync(slot6[1], slot6[2], function (slot0)
 				setImageSprite(uv0.iconStatus, slot0, true)
 				setActive(uv0.iconStatus, true)
 
@@ -96,9 +94,9 @@ function slot0.flush(slot0)
 			setActive(slot0.iconStatus, false)
 		end
 
-		slot9, slot10, slot11 = slot1:getIntimacyDetail()
+		slot7, slot8, slot9 = slot1:getIntimacyDetail()
 
-		if slot10 <= slot11 and not slot1.propose and not slot6 then
+		if slot8 <= slot9 and not slot1.propose and not slot4 then
 			setActive(slot0.proposeTF, true)
 		else
 			setActive(slot0.proposeTF, false)

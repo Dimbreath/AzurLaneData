@@ -43,6 +43,7 @@ function slot0.init(slot0)
 	slot0.prefabSelf = slot1:Find("popo_self").gameObject
 	slot0.prefabOthers = slot1:Find("popo_other").gameObject
 	slot0.prefabPublic = slot1:Find("popo_public").gameObject
+	slot0.prefabWorldBoss = slot1:Find("popo_worldboss").gameObject
 	slot0.input = slot0.frame:Find("contain/ListContainer/inputbg/input"):GetComponent("InputField")
 	slot0.send = slot0.frame:Find("send")
 	slot0.channelSend = slot0.frame:Find("channel_send")
@@ -206,7 +207,8 @@ function slot0.didEnter(slot0)
 		rtf(slot0.frame.transform).offsetMax = Vector2(0, -120)
 	else
 		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-			groupName = slot0:getGroupName()
+			groupName = slot0:getGroupNameFromData(),
+			weight = slot0:getWeightFromData()
 		})
 	end
 
@@ -449,6 +451,8 @@ function slot0.append(slot0, slot1, slot2, slot3)
 			else
 				slot0:appendPublic(slot1, slot2)
 			end
+		elseif slot1:IsWorldBossNotify() then
+			slot0:appendPublic(slot1, slot2)
 		else
 			slot0:appendOthers(slot1, slot2)
 		end
@@ -493,18 +497,20 @@ function slot0.appendOthers(slot0, slot1, slot2)
 end
 
 function slot0.appendPublic(slot0, slot1, slot2)
-	slot4 = nil
+	slot3 = nil
 
-	if #slot0.poolBubble.public > 0 then
-		setActive(slot3[1].tf, true)
-		table.remove(slot3, 1)
+	if slot1.id == 4 then
+		slot3 = ChatBubbleWorldBoss.New(cloneTplTo(slot0.prefabWorldBoss, slot0.content))
+	elseif #slot0.poolBubble.public > 0 then
+		setActive(slot4[1].tf, true)
+		table.remove(slot4, 1)
 	else
-		slot4 = ChatBubblePublic.New(cloneTplTo(slot0.prefabPublic, slot0.content))
+		slot3 = ChatBubblePublic.New(cloneTplTo(slot0.prefabPublic, slot0.content))
 	end
 
-	slot4.tf:SetSiblingIndex(slot2)
-	table.insert(slot0.bubbleCards, slot4)
-	slot4:update(slot1)
+	slot3.tf:SetSiblingIndex(slot2)
+	table.insert(slot0.bubbleCards, slot3)
+	slot3:update(slot1)
 end
 
 function slot0.appendTopPublic(slot0, slot1)
@@ -588,6 +594,7 @@ function slot0.willExit(slot0)
 	end
 
 	slot0:removeLateUpdateListener()
+	getProxy(GuildProxy):ClearNewChatMsgCnt()
 end
 
 function slot0.insertEmojiToInputText(slot0, slot1)

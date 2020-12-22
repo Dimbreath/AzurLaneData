@@ -18,7 +18,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.OPEND_FRIEND, function (slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			onNo = true,
+			hideNo = true,
 			yesText = "text_apply",
 			limit = 20,
 			type = MSGBOX_TYPE_INPUT,

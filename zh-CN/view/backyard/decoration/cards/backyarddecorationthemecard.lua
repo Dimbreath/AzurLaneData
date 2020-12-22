@@ -1,7 +1,7 @@
 slot0 = class("BackYardDecorationThemeCard", import(".BackYardDecorationCard"))
 
 function slot0.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.add = findTF(slot0._tf, "bg/Add")
 	slot0.rawIcon = findTF(slot0._tf, "bg/icon_raw"):GetComponent(typeof(RawImage))

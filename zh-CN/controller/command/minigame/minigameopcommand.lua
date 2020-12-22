@@ -57,7 +57,7 @@ function slot0.execute(slot0, slot1)
 				argList = uv1
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips("mini game Error : " .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips("mini game Error : " .. slot0.result)
 		end
 	end)
 end

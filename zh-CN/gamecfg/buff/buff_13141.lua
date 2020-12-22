@@ -17,7 +17,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 450,
+					number = 500,
 					attr = "cannonPower"
 				}
 			}
@@ -41,7 +41,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 520,
+					number = 610,
 					attr = "cannonPower"
 				}
 			}
@@ -65,7 +65,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 600,
+					number = 720,
 					attr = "cannonPower"
 				}
 			}
@@ -89,7 +89,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 700,
+					number = 830,
 					attr = "cannonPower"
 				}
 			}
@@ -113,7 +113,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 770,
+					number = 940,
 					attr = "cannonPower"
 				}
 			}
@@ -137,7 +137,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 850,
+					number = 1050,
 					attr = "cannonPower"
 				}
 			}
@@ -161,7 +161,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 950,
+					number = 1160,
 					attr = "cannonPower"
 				}
 			}
@@ -185,7 +185,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 1020,
+					number = 1270,
 					attr = "cannonPower"
 				}
 			}
@@ -209,7 +209,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 1100,
+					number = 1380,
 					attr = "cannonPower"
 				}
 			}
@@ -233,7 +233,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 1200,
+					number = 1500,
 					attr = "cannonPower"
 				}
 			}
@@ -272,7 +272,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				number = 450,
+				number = 500,
 				attr = "cannonPower"
 			}
 		}

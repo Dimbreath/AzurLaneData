@@ -10,6 +10,15 @@ return {
 					weapon_id = 72262,
 					emitter = "BattleBulletEmitter"
 				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
+				arg_list = {
+					buff_id = 22265
+				}
 			}
 		}
 	},
@@ -37,6 +46,15 @@ return {
 			arg_list = {
 				weapon_id = 72262,
 				emitter = "BattleBulletEmitter"
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
+			arg_list = {
+				buff_id = 22265
 			}
 		}
 	}

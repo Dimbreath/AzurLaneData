@@ -43,7 +43,7 @@ function slot0.updateRes(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0._tf, function ()
+	onButton(slot0, slot0._tf:Find("bg"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:updateAll()
@@ -141,29 +141,41 @@ function slot1(slot0)
 	}
 end
 
-function slot0.updateAttrs(slot0, slot1, slot2, slot3, slot4)
-	for slot9 = 1, #slot2:GetPropertiesInfo().weapon.sub do
-		uv0(slot5.weapon.sub[slot9])
+function slot2(slot0)
+	slot0.sub = {
+		_.detect(slot0.sub, function (slot0)
+			return slot0.type == AttributeType.Corrected
+		end)
+	}
+end
+
+function slot0.updateAttrs(slot0, slot1, slot2, slot3)
+	for slot8 = 1, #slot2:GetPropertiesInfo().weapon.sub do
+		uv0(slot4.weapon.sub[slot8])
 	end
 
+	uv1(slot4.equipInfo)
+
+	slot4.equipInfo.lock_open = true
+
 	if slot3 then
-		Equipment.InsertAttrsUpgrade(slot5.attrs, slot3:GetPropertiesInfo().attrs)
+		Equipment.InsertAttrsUpgrade(slot4.attrs, slot3:GetPropertiesInfo().attrs)
 
 		if checkExist(slot2:GetSkill(), {
-			"id"
+			"name"
 		}) ~= checkExist(slot3:GetSkill(), {
-			"id"
+			"name"
 		}) then
-			table.insert(slot5.attrs, {
+			table.insert(slot4.attrs, {
 				lock_open = true,
 				name = i18n("skill"),
-				value = setColorStr(checkExist(slot7, {
+				value = setColorStr(checkExist(slot6, {
 					"name"
 				}) or i18n("equip_info_25"), "#FFDE00FF"),
 				sub = {
 					{
 						name = i18n("equip_info_26"),
-						value = setColorStr(checkExist(slot8, {
+						value = setColorStr(checkExist(slot7, {
 							"name"
 						}) or i18n("equip_info_25"), "#FFDE00FF")
 					}
@@ -171,53 +183,52 @@ function slot0.updateAttrs(slot0, slot1, slot2, slot3, slot4)
 			})
 		end
 
-		if #slot6.weapon.sub > #slot5.weapon.sub then
-			for slot12 = #slot5.weapon.sub, #slot6.weapon.sub do
-				table.insert(slot5.weapon.sub, {
+		if #slot5.weapon.sub > #slot4.weapon.sub then
+			for slot11 = #slot4.weapon.sub, #slot5.weapon.sub do
+				table.insert(slot4.weapon.sub, {
 					name = i18n("equip_info_25"),
 					sub = {}
 				})
 			end
 		end
 
-		for slot12 = #slot5.weapon.sub, 1, -1 do
-			slot13 = slot5.weapon.sub[slot12]
+		for slot11 = #slot4.weapon.sub, 1, -1 do
+			slot12 = slot4.weapon.sub[slot11]
 
-			if slot6.weapon.sub[slot12] then
-				uv0(slot6.weapon.sub[slot12])
+			if slot5.weapon.sub[slot11] then
+				uv0(slot5.weapon.sub[slot11])
 			else
-				slot14 = {
+				slot13 = {
 					name = i18n("equip_info_25"),
 					sub = {}
 				}
 			end
 
-			if slot13.name ~= slot14.name then
-				slot13.sub = {
+			if slot12.name ~= slot13.name then
+				slot12.sub = {
 					{
 						name = i18n("equip_info_27"),
-						value = slot14.name
+						value = slot13.name
 					}
 				}
 			else
-				Equipment.InsertAttrsUpgrade(slot13.sub, slot14.sub)
+				Equipment.InsertAttrsUpgrade(slot12.sub, slot13.sub)
 			end
 
-			if #slot13.sub == 0 then
-				table.remove(slot5.weapon.sub, slot12)
+			if #slot12.sub == 0 then
+				table.remove(slot4.weapon.sub, slot11)
 
-				if slot6.weapon.sub[slot12] then
-					table.remove(slot6.weapon.sub, slot12)
+				if slot5.weapon.sub[slot11] then
+					table.remove(slot5.weapon.sub, slot11)
 				end
 			end
 		end
+
+		uv1(slot5.equipInfo)
+		Equipment.InsertAttrsUpgrade(slot4.equipInfo.sub, slot5.equipInfo.sub)
 	end
 
-	if slot4 then
-		slot5.weapon.sub = {}
-	end
-
-	updateEquipUpgradeInfo(slot1, slot5, slot0.contextData.shipVO)
+	updateEquipUpgradeInfo(slot1, slot4, slot0.contextData.shipVO)
 end
 
 function slot0.updateMaterials(slot0)
@@ -298,14 +309,14 @@ end
 function slot0.upgradeFinish(slot0, slot1, slot2)
 	setActive(slot0.mainPanel, false)
 	setActive(slot0.finishPanel, true)
-	onButton(slot0, slot0.finishPanel, function ()
+	onButton(slot0, slot0.finishPanel:Find("bg"), function ()
 		setActive(uv0.mainPanel, true)
 		setActive(uv0.finishPanel, false)
 	end, SFX_CANCEL)
 	setText(findTF(slot0.finishPanel, "frame/equipment_panel/name_container"), slot2.config.name)
 	setActive(findTF(slot0.finishPanel, "frame/equipment_panel/unique"), slot2:isUnique())
 	updateEquipment(slot0:findTF("frame/equipment_panel/equiptpl", slot0.finishPanel), slot2)
-	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/view/content", slot0.finishPanel), slot1, slot2, true)
+	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/view/content", slot0.finishPanel), slot1, slot2)
 end
 
 function slot0.willExit(slot0)

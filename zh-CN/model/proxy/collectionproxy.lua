@@ -17,9 +17,7 @@ function slot0.register(slot0)
 		uv0.shipGroups = {}
 
 		for slot4, slot5 in ipairs(slot0.ship_info_list) do
-			if slot5.id < 99999 or slot5.id > 999999 then
-				uv0.shipGroups[slot5.id] = ShipGroup.New(slot5)
-			end
+			uv0.shipGroups[slot5.id] = ShipGroup.New(slot5)
 		end
 
 		for slot4, slot5 in ipairs(slot0.transform_list) do

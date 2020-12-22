@@ -10,6 +10,7 @@ function slot0.OnLoaded(slot0)
 	slot0.cvContainer = slot0:findTF("bg/lines_panel/lines_list/Grid")
 	slot0.cvTpl = slot0:getTpl("bg/lines_panel/lines_list/Grid/lines_tpl")
 	slot0.weddingReview = slot0:findTF("bg/wedding")
+	slot0.weddingReviewMeta = slot0:findTF("bg/wedding_meta")
 	slot0.voiceBtnCN = slot0:findTF("bg/language_change/btn_ch")
 	slot0.voiceBtnJP = slot0:findTF("bg/language_change/btn_jp")
 	slot0.profilePlayBtn = slot0:findTF("bg/prototype_panel/title/playButton")
@@ -18,6 +19,12 @@ end
 
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0.weddingReview, function ()
+		uv0:emit(ShipProfileScene.WEDDING_REVIEW, {
+			group = uv0.shipGroup,
+			skinID = uv0.skin.id
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.weddingReviewMeta, function ()
 		uv0:emit(ShipProfileScene.WEDDING_REVIEW, {
 			group = uv0.shipGroup,
 			skinID = uv0.skin.id
@@ -72,8 +79,10 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 
 	slot0.shipGroup = slot1
 	slot0.showTrans = slot2
+	slot4 = slot1:isMetaGroup()
 
-	setActive(slot0.weddingReview, slot1.married == 1)
+	setActive(slot0.weddingReview, slot1.married == 1 and not slot4)
+	setActive(slot0.weddingReviewMeta, slot1.married == 1 and slot4)
 
 	if slot3 then
 		slot3()

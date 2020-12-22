@@ -6145,10 +6145,12 @@ pg.furniture_data_template = {
 		},
 		spine = {
 			{
-				"doaqiu",
+				"feiqiuqianB",
 				"normal"
 			},
-			{},
+			{
+				"feiqiuqianT"
+			},
 			{
 				{
 					0,
@@ -6177,7 +6179,7 @@ pg.furniture_data_template = {
 		},
 		animator = {
 			{
-				"doaqiuCharControl"
+				"feiqiuqianCharControl"
 			}
 		},
 		interAction_group = {}
@@ -86712,6 +86714,1204 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[73001] = {
+		can_rotate = 0,
+		describe = "享受温馨暖和的平安夜吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/dibancs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "温暖圣夜地板",
+		advice = 0,
+		icon = "dibancs4icon",
+		id = 73001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73002] = {
+		can_rotate = 0,
+		describe = "享受温馨暖和的平安夜吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/qiangbics4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "温暖圣夜墙壁",
+		advice = 0,
+		icon = "qiangbics4icon",
+		id = 73002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73101] = {
+		can_rotate = 0,
+		describe = "美味的大餐已经准备好了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/1cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "圣诞餐桌",
+		advice = 0,
+		id = 73101,
+		icon = "1cs4icon",
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-117.4,
+					70.2
+				},
+				{
+					1,
+					1
+				},
+				"christmas4/1cs4_using"
+			},
+			{
+				"sit",
+				{
+					27.5,
+					77.4
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/1cs4_using"
+			},
+			{
+				"sit",
+				{
+					116.4,
+					32.9
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/1cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73102] = {
+		can_rotate = 0,
+		describe = "毛茸茸的大玩偶，让人忍不住想要扑上去",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/2cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "大号棕熊玩偶",
+		advice = 0,
+		icon = "2cs4icon",
+		id = 73102,
+		comfortable = 3,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73103] = {
+		can_rotate = 0,
+		describe = "在温暖的房间里来一局国际象棋啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/3cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "国际象棋啾",
+		advice = 0,
+		id = 73103,
+		icon = "3cs4icon",
+		comfortable = 3,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					68.4,
+					61.3
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/3cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73104] = {
+		can_rotate = 0,
+		describe = "能观测到流星就好了呢",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/4cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "天文望远镜",
+		advice = 0,
+		icon = "4cs4icon",
+		id = 73104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73105] = {
+		can_rotate = 0,
+		describe = "塞满了各种圣诞小物件",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/5cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣诞杂物架",
+		advice = 0,
+		icon = "5cs4icon",
+		id = 73105,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73106] = {
+		can_rotate = 0,
+		describe = "踩上去软乎乎的地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/6cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "咖色地毯",
+		advice = 0,
+		icon = "6cs4icon",
+		id = 73106,
+		comfortable = 2,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73107] = {
+		can_rotate = 0,
+		describe = "圣夜的温暖之源",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/7cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "柴火堆",
+		advice = 0,
+		icon = "7cs4icon",
+		id = 73107,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73108] = {
+		can_rotate = 0,
+		describe = "泡泡泉水缓解下疲劳啾…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/8cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "雪池麋鹿啾",
+		advice = 0,
+		id = 73108,
+		icon = "8cs4icon",
+		comfortable = 3,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					42.7,
+					-35.6
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/8cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73109] = {
+		can_rotate = 0,
+		describe = "能收到好多好多的礼物就好了",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/9cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "华丽的圣诞树",
+		advice = 0,
+		icon = "9cs4icon",
+		id = 73109,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73110] = {
+		can_rotate = 0,
+		describe = "刚刚是哪个熊孩子在这里玩耍？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/10cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "玩具堆",
+		advice = 0,
+		icon = "10cs4icon",
+		id = 73110,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73111] = {
+		can_rotate = 0,
+		describe = "散发着温馨暖色光的落地灯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/11cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣诞落地灯",
+		advice = 0,
+		icon = "11cs4icon",
+		id = 73111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73112] = {
+		can_rotate = 0,
+		describe = "布景十分精致的水晶球",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/12cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣诞水晶球",
+		advice = 0,
+		icon = "12cs4icon",
+		id = 73112,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73113] = {
+		can_rotate = 0,
+		describe = "沙发的诱惑，难以抵挡啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/13cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "沙发啾",
+		advice = 0,
+		icon = "13cs4icon",
+		id = 73113,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73114] = {
+		can_rotate = 0,
+		describe = "松松软软的沙发，上面铺了一层保暖的垫子",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/14cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "温暖沙发",
+		advice = 0,
+		id = 73114,
+		icon = "14cs4icon",
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					22,
+					10
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73115] = {
+		can_rotate = 0,
+		describe = "圣诞风格的大睡床，充满了安心感",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/15cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "温暖圣诞床",
+		advice = 0,
+		id = 73115,
+		icon = "15cs4icon",
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-23,
+					35
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73116] = {
+		can_rotate = 0,
+		describe = "只是个模型，并不能食用",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/16cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣诞大蛋糕",
+		advice = 0,
+		icon = "16cs4icon",
+		id = 73116,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73117] = {
+		can_rotate = 0,
+		describe = "心平气和，一起赞美圣夜啾~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/17cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣夜唱诗啾",
+		advice = 0,
+		icon = "17cs4icon",
+		id = 73117,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73118] = {
+		can_rotate = 0,
+		describe = "来一曲圣诞快乐的旋律吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/18cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣夜留声机",
+		advice = 0,
+		icon = "18cs4icon",
+		id = 73118,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73119] = {
+		can_rotate = 0,
+		describe = "弹奏一曲铃儿响叮当啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/19cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "钢琴啾",
+		advice = 0,
+		icon = "19cs4icon",
+		id = 73119,
+		comfortable = 2,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73120] = {
+		can_rotate = 1,
+		describe = "Merry Christmas！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/20cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣夜方地毯",
+		advice = 0,
+		icon = "20cs4icon",
+		id = 73120,
+		comfortable = 2,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73121] = {
+		can_rotate = 0,
+		describe = "暖洋洋的壁炉",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/21cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣诞壁炉",
+		advice = 0,
+		icon = "21cs4icon",
+		id = 73121,
+		comfortable = 2,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73122] = {
+		can_rotate = 0,
+		describe = "圣诞老人的专属坐骑…拉雪橇是不会输给麋鹿的啾！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 73,
+		icon = "Acs4icon",
+		count = 1,
+		name = "啾啾雪橇",
+		id = 73122,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Acs4B",
+				"normal"
+			},
+			{
+				"Acs4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"Acs4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[73301] = {
+		can_rotate = 0,
+		describe = "用木头雕刻而成的鹿头装饰",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/22cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "鹿头装饰",
+		advice = 0,
+		icon = "22cs4icon",
+		id = 73301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73302] = {
+		can_rotate = 0,
+		describe = "塞满神秘礼物的圣诞袜",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/23cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "圣诞袜",
+		advice = 0,
+		icon = "23cs4icon",
+		id = 73302,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73303] = {
+		can_rotate = 0,
+		describe = "装饰室内用的圣诞彩带",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/24cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 6,
+		name = "圣诞彩带",
+		advice = 0,
+		icon = "24cs4icon",
+		id = 73303,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73304] = {
+		can_rotate = 0,
+		describe = "能看到外面圣夜的冰雪。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/25cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 4,
+		name = "圣夜窗沿",
+		advice = 0,
+		icon = "25cs4icon",
+		id = 73304,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73305] = {
+		can_rotate = 0,
+		describe = "散发着温馨暖色光的挂灯",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/26cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "星星挂灯",
+		advice = 0,
+		icon = "26cs4icon",
+		id = 73305,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -88662,6 +89862,35 @@ pg.furniture_data_template = {
 		72122,
 		72123,
 		72124,
-		72125
+		72125,
+		73001,
+		73002,
+		73101,
+		73102,
+		73103,
+		73104,
+		73105,
+		73106,
+		73107,
+		73108,
+		73109,
+		73110,
+		73111,
+		73112,
+		73113,
+		73114,
+		73115,
+		73116,
+		73117,
+		73118,
+		73119,
+		73120,
+		73121,
+		73122,
+		73301,
+		73302,
+		73303,
+		73304,
+		73305
 	}
 }

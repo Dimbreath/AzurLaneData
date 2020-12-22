@@ -15,7 +15,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -39,7 +39,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -63,7 +63,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -87,7 +87,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -111,7 +111,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -135,7 +135,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -159,7 +159,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -183,7 +183,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -207,7 +207,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}
@@ -231,7 +231,7 @@ return {
 						},
 						arg_list = {
 							ship_tag_list = {
-								"tosa"
+								"Tosa"
 							}
 						}
 					}

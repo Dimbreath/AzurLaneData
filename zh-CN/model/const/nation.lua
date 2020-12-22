@@ -9,11 +9,16 @@ slot0.ITA = 6
 slot0.SN = 7
 slot0.FF = 8
 slot0.MNF = 9
+slot0.META = 97
 slot0.BURIN = 98
 slot0.LINK = 100
 
 function slot0.IsLinkType(slot0)
 	return uv0.LINK < slot0
+end
+
+function slot0.IsMeta(slot0)
+	return slot0 == uv0.META
 end
 
 function slot0.Nation2Print(slot0)
@@ -29,13 +34,14 @@ function slot0.Nation2Print(slot0)
 			"sn",
 			"ff",
 			"mnf",
-			[98.0] = "cm",
+			[97.0] = "meta",
 			[102.0] = "bili",
 			[104.0] = "um",
-			[101.0] = "np",
-			[106.0] = "um",
 			[103.0] = "um",
-			[105.0] = "um"
+			[98.0] = "cm",
+			[101.0] = "np",
+			[105.0] = "um",
+			[106.0] = "um"
 		}
 	end
 
@@ -55,13 +61,14 @@ function slot0.Nation2Side(slot0)
 			"West",
 			"West",
 			"West",
-			[98.0] = "West",
+			[97.0] = "Meta",
 			[102.0] = "Cn",
 			[104.0] = "West",
-			[101.0] = "Jp",
-			[106.0] = "Jp",
 			[103.0] = "Jp",
-			[105.0] = "Jp"
+			[98.0] = "West",
+			[101.0] = "Jp",
+			[105.0] = "Jp",
+			[106.0] = "Jp"
 		}
 	end
 
@@ -81,13 +88,14 @@ function slot0.Nation2BG(slot0)
 			"bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
-			[98.0] = "bg/bg_church",
+			[97.0] = "bg/bg_church_meta",
 			[102.0] = "bg/bg_church",
 			[104.0] = "bg/bg_church",
-			[101.0] = "bg/bg_church",
-			[106.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church",
-			[105.0] = "bg/bg_church"
+			[98.0] = "bg/bg_church",
+			[101.0] = "bg/bg_church",
+			[105.0] = "bg/bg_church",
+			[106.0] = "bg/bg_church"
 		}
 	end
 
@@ -107,6 +115,7 @@ function slot0.Nation2Name(slot0)
 			i18n("word_shipNation_beiLian"),
 			i18n("word_shipNation_ziyou"),
 			i18n("word_shipNation_weixi"),
+			[97] = i18n("word_shipNation_meta"),
 			[98] = i18n("word_shipNation_other"),
 			[101] = i18n("word_shipNation_np"),
 			[102] = i18n("word_shipNation_bili"),
@@ -133,6 +142,7 @@ function slot0.Nation2facionName(slot0)
 			i18n("guild_faction_blhx"),
 			i18n("guild_faction_blhx"),
 			i18n("guild_faction_cszz"),
+			[97] = i18n("guild_faction_meta"),
 			[98] = i18n("guild_faction_unknown"),
 			[101] = i18n("guild_faction_unknown"),
 			[102] = i18n("guild_faction_unknown"),

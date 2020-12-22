@@ -32,6 +32,7 @@ slot2 = {
 	SC_40004_SHIP_EXP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_40004_MVP_FIELD = slot0.FieldDescriptor(),
 	SC_40004_COMMANDER_EXP_FIELD = slot0.FieldDescriptor(),
+	SC_40004_HP_DROP_INFO_FIELD = slot0.FieldDescriptor(),
 	CS_40005_SYSTEM_FIELD = slot0.FieldDescriptor(),
 	SC_40006_RESULT_FIELD = slot0.FieldDescriptor(),
 	DROPPERFORMANCE_ENEMY_ID_FIELD = slot0.FieldDescriptor(),
@@ -50,7 +51,9 @@ slot2 = {
 	COMMANDER_EXP_EXP_FIELD = slot0.FieldDescriptor(),
 	ENEMYINFO_ENEMY_ID_FIELD = slot0.FieldDescriptor(),
 	ENEMYINFO_DAMAGE_TAKEN_FIELD = slot0.FieldDescriptor(),
-	ENEMYINFO_TOTAL_HP_FIELD = slot0.FieldDescriptor()
+	ENEMYINFO_TOTAL_HP_FIELD = slot0.FieldDescriptor(),
+	HPDROPINFO_HP_FIELD = slot0.FieldDescriptor(),
+	HPDROPINFO_DROP_INFO_FIELD = slot0.FieldDescriptor()
 }
 CS_40001 = slot0.Descriptor()
 SC_40002 = slot0.Descriptor()
@@ -63,6 +66,7 @@ STATISTICSINFO = slot0.Descriptor()
 SHIP_EXP = slot0.Descriptor()
 COMMANDER_EXP = slot0.Descriptor()
 ENEMYINFO = slot0.Descriptor()
+HPDROPINFO = slot0.Descriptor()
 slot2.CS_40001_SYSTEM_FIELD.name = "system"
 slot2.CS_40001_SYSTEM_FIELD.full_name = "p40.cs_40001.system"
 slot2.CS_40001_SYSTEM_FIELD.number = 1
@@ -367,6 +371,16 @@ slot2.SC_40004_COMMANDER_EXP_FIELD.default_value = {}
 slot2.SC_40004_COMMANDER_EXP_FIELD.message_type = COMMANDER_EXP
 slot2.SC_40004_COMMANDER_EXP_FIELD.type = 11
 slot2.SC_40004_COMMANDER_EXP_FIELD.cpp_type = 10
+slot2.SC_40004_HP_DROP_INFO_FIELD.name = "hp_drop_info"
+slot2.SC_40004_HP_DROP_INFO_FIELD.full_name = "p40.sc_40004.hp_drop_info"
+slot2.SC_40004_HP_DROP_INFO_FIELD.number = 8
+slot2.SC_40004_HP_DROP_INFO_FIELD.index = 7
+slot2.SC_40004_HP_DROP_INFO_FIELD.label = 3
+slot2.SC_40004_HP_DROP_INFO_FIELD.has_default_value = false
+slot2.SC_40004_HP_DROP_INFO_FIELD.default_value = {}
+slot2.SC_40004_HP_DROP_INFO_FIELD.message_type = HPDROPINFO
+slot2.SC_40004_HP_DROP_INFO_FIELD.type = 11
+slot2.SC_40004_HP_DROP_INFO_FIELD.cpp_type = 10
 SC_40004.name = "sc_40004"
 SC_40004.full_name = "p40.sc_40004"
 SC_40004.nested_types = {}
@@ -378,7 +392,8 @@ SC_40004.fields = {
 	slot2.SC_40004_PLAYER_EXP_FIELD,
 	slot2.SC_40004_SHIP_EXP_LIST_FIELD,
 	slot2.SC_40004_MVP_FIELD,
-	slot2.SC_40004_COMMANDER_EXP_FIELD
+	slot2.SC_40004_COMMANDER_EXP_FIELD,
+	slot2.SC_40004_HP_DROP_INFO_FIELD
 }
 SC_40004.is_extendable = false
 SC_40004.extensions = {}
@@ -628,12 +643,42 @@ ENEMYINFO.fields = {
 }
 ENEMYINFO.is_extendable = false
 ENEMYINFO.extensions = {}
+slot2.HPDROPINFO_HP_FIELD.name = "hp"
+slot2.HPDROPINFO_HP_FIELD.full_name = "p40.hpdropinfo.hp"
+slot2.HPDROPINFO_HP_FIELD.number = 1
+slot2.HPDROPINFO_HP_FIELD.index = 0
+slot2.HPDROPINFO_HP_FIELD.label = 2
+slot2.HPDROPINFO_HP_FIELD.has_default_value = false
+slot2.HPDROPINFO_HP_FIELD.default_value = 0
+slot2.HPDROPINFO_HP_FIELD.type = 13
+slot2.HPDROPINFO_HP_FIELD.cpp_type = 3
+slot2.HPDROPINFO_DROP_INFO_FIELD.name = "drop_info"
+slot2.HPDROPINFO_DROP_INFO_FIELD.full_name = "p40.hpdropinfo.drop_info"
+slot2.HPDROPINFO_DROP_INFO_FIELD.number = 2
+slot2.HPDROPINFO_DROP_INFO_FIELD.index = 1
+slot2.HPDROPINFO_DROP_INFO_FIELD.label = 3
+slot2.HPDROPINFO_DROP_INFO_FIELD.has_default_value = false
+slot2.HPDROPINFO_DROP_INFO_FIELD.default_value = {}
+slot2.HPDROPINFO_DROP_INFO_FIELD.message_type = slot1.DROPINFO
+slot2.HPDROPINFO_DROP_INFO_FIELD.type = 11
+slot2.HPDROPINFO_DROP_INFO_FIELD.cpp_type = 10
+HPDROPINFO.name = "hpdropinfo"
+HPDROPINFO.full_name = "p40.hpdropinfo"
+HPDROPINFO.nested_types = {}
+HPDROPINFO.enum_types = {}
+HPDROPINFO.fields = {
+	slot2.HPDROPINFO_HP_FIELD,
+	slot2.HPDROPINFO_DROP_INFO_FIELD
+}
+HPDROPINFO.is_extendable = false
+HPDROPINFO.extensions = {}
 commander_exp = slot0.Message(COMMANDER_EXP)
 cs_40001 = slot0.Message(CS_40001)
 cs_40003 = slot0.Message(CS_40003)
 cs_40005 = slot0.Message(CS_40005)
 dropperformance = slot0.Message(DROPPERFORMANCE)
 enemyinfo = slot0.Message(ENEMYINFO)
+hpdropinfo = slot0.Message(HPDROPINFO)
 sc_40002 = slot0.Message(SC_40002)
 sc_40004 = slot0.Message(SC_40004)
 sc_40006 = slot0.Message(SC_40006)

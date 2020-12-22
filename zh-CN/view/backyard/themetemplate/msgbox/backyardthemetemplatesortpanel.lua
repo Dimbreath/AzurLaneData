@@ -86,12 +86,12 @@ end
 
 function slot0.Show(slot0)
 	uv0.super.Show(slot0)
-	pg.UIMgr:GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)

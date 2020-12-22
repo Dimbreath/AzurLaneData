@@ -9,6 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0._tf = slot1.transform
 	slot0.goCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.asidePanel = slot0:findTF("aside_panel")
+	slot0.bgGlitch = slot0:findTF("bg_glitch")
 	slot0.bgPanel = slot0:findTF("bg")
 	slot0.bgPanelCg = slot0.bgPanel:GetComponent(typeof(CanvasGroup))
 	slot0.bgImage = slot0:findTF("image", slot0.bgPanel):GetComponent(typeof(Image))
@@ -23,7 +24,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.optionPrint = slot0:findTF("options_panel/bg")
 	slot0.optionsCg = slot0:findTF("options_panel"):GetComponent(typeof(CanvasGroup))
 	slot0.bgs = {}
-	slot0.isPlayBgm = false
 end
 
 function slot0.Play(slot0, slot1, slot2, slot3)
@@ -63,6 +63,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 	slot0.callback = slot3
 	slot5 = slot1:GetNextStep(slot2)
 	slot6 = slot1:GetPrevStep(slot2)
+	slot0.step = slot4
 
 	seriesAsync({
 		function (slot0)
@@ -129,6 +130,10 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			uv0:Clear(slot0)
 		end
 	}, slot3)
+end
+
+function slot0.CanSkip(slot0)
+	return slot0.step and not slot0.step:ExistOption()
 end
 
 function slot0.Next(slot0)
@@ -321,28 +326,37 @@ function slot0.flashin(slot0, slot1, slot2)
 end
 
 function slot0.UpdateBg(slot0, slot1)
-	if slot1:GetBgName() then
-		setActive(slot0.bgPanel, true)
+	if slot1:ShouldBgGlitchArt() then
+		slot0:SetBgGlitchArt(slot1)
+	else
+		if slot1:GetBgName() then
+			setActive(slot0.bgPanel, true)
 
-		slot0.bgPanelCg.alpha = 1
-		slot3 = slot0.bgImage
-		slot3.color = Color.New(1, 1, 1)
-		slot3.sprite = slot0:GetBg(slot2)
-	end
+			slot0.bgPanelCg.alpha = 1
+			slot3 = slot0.bgImage
+			slot3.color = Color.New(1, 1, 1)
+			slot3.sprite = slot0:GetBg(slot2)
+		end
 
-	if slot1:GetBgShadow() then
-		slot0:TweenValue(slot0.bgImage, slot3[1], slot3[2], slot3[3], 0, function (slot0)
-			uv0.color = Color.New(slot0, slot0, slot0)
-		end, nil)
-	end
+		if slot1:GetBgShadow() then
+			slot0:TweenValue(slot0.bgImage, slot3[1], slot3[2], slot3[3], 0, function (slot0)
+				uv0.color = Color.New(slot0, slot0, slot0)
+			end, nil)
+		end
 
-	if slot1:IsBlackBg() then
-		setActive(slot0.curtain, true)
+		if slot1:IsBlackBg() then
+			setActive(slot0.curtain, true)
 
-		slot0.curtainCg.alpha = 1
+			slot0.curtainCg.alpha = 1
+		end
 	end
 
 	slot0:OnBgUpdate(slot1)
+end
+
+function slot0.SetBgGlitchArt(slot0, slot1)
+	setActive(slot0.bgPanel, false)
+	setActive(slot0.bgGlitch, true)
 end
 
 function slot0.GetBg(slot0, slot1)
@@ -406,6 +420,42 @@ function slot0.PlaySoundEffect(slot0, slot1)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
 		end)
 	end
+
+	if slot1:ShouldPlayVoice() then
+		slot0:PlayVoice(slot1)
+	end
+end
+
+function slot0.PlayVoice(slot0, slot1)
+	if slot0.voiceDelayTimer then
+		slot0.voiceDelayTimer:Stop()
+
+		slot0.voiceDelayTimer = nil
+	end
+
+	if slot0.currentVoice then
+		slot0.currentVoice:Stop(true)
+
+		slot0.currentVoice = nil
+	end
+
+	slot2, slot3 = slot1:GetVoice()
+	slot4 = nil
+	slot0.voiceDelayTimer = slot0:CreateDelayTimer(slot3, function ()
+		if uv0 then
+			uv0:Stop()
+		end
+
+		if uv1.voiceDelayTimer then
+			uv1.voiceDelayTimer = nil
+		end
+
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv2, function (slot0)
+			if slot0 then
+				uv0.currentVoice = slot0.playback
+			end
+		end)
+	end)
 end
 
 function slot0.Reset(slot0, slot1, slot2)
@@ -415,6 +465,7 @@ function slot0.Reset(slot0, slot1, slot2)
 	setActive(slot0.curtain, false)
 	setActive(slot0.flash, false)
 	setActive(slot0.optionsCg.gameObject, false)
+	setActive(slot0.bgGlitch, false)
 
 	slot0.flashCg.alpha = 1
 	slot0.goCG.alpha = 1
@@ -440,8 +491,19 @@ function slot0.StoryStart(slot0)
 end
 
 function slot0.StoryEnd(slot0)
+	if slot0.voiceDelayTimer then
+		slot0.voiceDelayTimer:Stop()
+
+		slot0.voiceDelayTimer = nil
+	end
+
+	if slot0.currentVoice then
+		slot0.currentVoice:Stop(true)
+
+		slot0.currentVoice = nil
+	end
+
 	slot0:ClearEffects()
-	slot0:StopBgm()
 	slot0:Clear()
 	slot0:OnEnd()
 end
@@ -455,7 +517,7 @@ function slot0.PlayBgm(slot0, slot1)
 		slot2, slot3 = slot1:GetBgmData()
 
 		slot0:DelayCall(slot3, function ()
-			pg.CriMgr.GetInstance():PlayBGM(uv0, true)
+			pg.CriMgr.GetInstance():PlayBGM(uv0, "story")
 		end)
 	end
 end

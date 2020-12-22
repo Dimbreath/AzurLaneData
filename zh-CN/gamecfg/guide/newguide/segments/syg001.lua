@@ -33,7 +33,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/OverlayCamera/Overlay/UIMain/secondary_panel/frame/bg/backyard_btn",
+				path = "/OverlayCamera/Overlay/UIMain/MainUISecondaryPanel(Clone)/frame/bg/backyard_btn",
 				triggerType = {
 					1
 				},

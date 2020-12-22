@@ -18,22 +18,23 @@ end
 function slot8.InitBattle(slot0, slot1)
 	slot0.Update = slot0.updateInit
 
+	slot0:SetupCalculateDamage(uv0.CreateContextCalculateDamage(slot1.battleType == SYSTEM_WORLD or slot2 == SYSTEM_WORLD_BOSS))
 	slot0:SetupCalculateDamage(pg.SdkMgr.GetInstance():CheckPretest() and (PlayerPrefs.GetInt("stage_scratch") or 0) == 1 and GodenFnger or nil)
 	slot0:SetupDamageKamikazeAir()
 	slot0:SetupDamageKamikazeShip()
 	slot0:SetupDamageCrush()
-	uv0.Init()
+	uv1.Init()
 	slot0:InitData(slot1)
-	slot0:DispatchEvent(uv1.Event.New(uv2.STAGE_DATA_INIT_FINISH))
+	slot0:DispatchEvent(uv2.Event.New(uv3.STAGE_DATA_INIT_FINISH))
 	slot0._cameraUtil:Initialize()
 	slot0._cameraUtil:SetMapData(slot0:GetTotalBounds())
-	slot0:InitUserShipsData(slot0._battleInitData.MainUnitList, slot0._battleInitData.VanguardUnitList, uv3.FRIENDLY_CODE, slot0._battleInitData.SubUnitList)
+	slot0:InitUserShipsData(slot0._battleInitData.MainUnitList, slot0._battleInitData.VanguardUnitList, uv4.FRIENDLY_CODE, slot0._battleInitData.SubUnitList)
 	slot0:InitUserAidData()
 	slot0:SetSubmarinAidData()
-	slot0._cameraUtil:SetFocusFleet(slot0:GetFleetByIFF(uv3.FRIENDLY_CODE))
-	slot0:StatisticsInit(slot0._fleetList[uv3.FRIENDLY_CODE]:GetUnitList())
-	slot0:SetFlagShipID(slot0:GetFleetByIFF(uv3.FRIENDLY_CODE):GetFlagShip())
-	slot0:DispatchEvent(uv1.Event.New(uv2.COMMON_DATA_INIT_FINISH, {}))
+	slot0._cameraUtil:SetFocusFleet(slot0:GetFleetByIFF(uv4.FRIENDLY_CODE))
+	slot0:StatisticsInit(slot0._fleetList[uv4.FRIENDLY_CODE]:GetUnitList())
+	slot0:SetFlagShipID(slot0:GetFleetByIFF(uv4.FRIENDLY_CODE):GetFlagShip())
+	slot0:DispatchEvent(uv2.Event.New(uv3.COMMON_DATA_INIT_FINISH, {}))
 end
 
 function slot8.Start(slot0)
@@ -135,6 +136,7 @@ function slot8.InitData(slot0, slot1)
 	slot0._fleetList = {}
 	slot0._freeShipList = {}
 	slot0._teamList = {}
+	slot0._waveSummonList = {}
 	slot0._aidUnitList = {}
 	slot0._unitList = {}
 	slot0._unitCount = 0
@@ -157,27 +159,35 @@ function slot8.InitData(slot0, slot1)
 	slot0._expeditionID = slot1.StageTmpId
 	slot0._expeditionTmp = pg.expedition_data_template[slot0._expeditionID]
 
-	slot0:SetDungeonLevel(slot0._expeditionTmp.level)
+	slot0:SetDungeonLevel(slot1.WorldLevel or slot0._expeditionTmp.level)
 
 	slot0._dungeonID = slot0._expeditionTmp.dungeon_id
 	slot0._dungeonInfo = uv1.GetDungeonTmpDataByID(slot0._dungeonID)
-	slot0._mapId = slot0._expeditionTmp.map_id
+	slot0._mapId = slot1.WorldMapId or slot0._expeditionTmp.map_id
+	slot0._exposeSpeed = slot0._expeditionTmp.expose_speed
+	slot0._airExpose = slot0._expeditionTmp.aircraft_expose[1]
+	slot0._airExposeEX = slot0._expeditionTmp.aircraft_expose[2]
+	slot0._shipExpose = slot0._expeditionTmp.ship_expose[1]
+	slot0._shipExposeEX = slot0._expeditionTmp.ship_expose[2]
 	slot0._commander = slot1.CommanderList or {}
 	slot0._subCommander = slot1.SubCommanderList or {}
 	slot0._commanderBuff = slot0.initCommanderBuff(slot0._commander)
 	slot0._subCommanderBuff = slot0.initCommanderBuff(slot0._subCommander)
 
-	if slot0._battleInitData.battleType == SYSTEM_SCENARIO and slot0._battleInitData.RepressInfo then
+	if slot0._battleInitData.RepressInfo then
 		slot2 = slot0._battleInitData.RepressInfo
 
-		if slot2.repressMax <= slot2.repressCount then
-			slot0._completelyRepress = true
+		if slot0._battleInitData.battleType == SYSTEM_SCENARIO then
+			if slot2.repressMax <= slot2.repressCount then
+				slot0._completelyRepress = true
+			end
+
+			slot0._repressReduce = uv2.ChapterRepressReduce(slot2.repressReduce)
+			slot0._repressLevel = slot2.repressLevel
+			slot0._repressEnemyHpRant = slot2.repressEnemyHpRant
+		elseif slot0._battleInitData.battleType == SYSTEM_WORLD or slot0._battleInitData.battleType == SYSTEM_WORLD_BOSS then
+			slot0._repressEnemyHpRant = slot2.repressEnemyHpRant
 		end
-
-		slot0:SetRepressReduce(uv2.ChapterRepressReduce(slot2.repressReduce))
-
-		slot0._repressLevel = slot2.repressLevel
-		slot0._repressEnemyHpRant = slot2.repressEnemyHpRant
 	end
 
 	slot0._chapterWinningStreak = slot0._battleInitData.DefeatCount or 0
@@ -384,6 +394,16 @@ function slot8.InitUserShipsData(slot0, slot1, slot2, slot3, slot4)
 	else
 		slot5:SetSubUnitData(slot4)
 	end
+
+	if slot0._battleInitData.battleType == SYSTEM_DUEL then
+		for slot10, slot11 in ipairs(slot5:GetCloakList()) do
+			slot11:GetCloak():SetRecoverySpeed(0)
+		end
+	end
+
+	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_FLEET, {
+		fleetVO = slot5
+	}))
 end
 
 function slot8.InitUserAidData(slot0)
@@ -399,7 +419,7 @@ function slot8.InitUserAidData(slot0)
 			1,
 			1,
 			1
-		}, slot0._completelyRepress, slot0._repressReduce, nil, slot5.baseList, slot5.preloasList)
+		}, slot5.baseList, slot5.preloasList)
 		slot0._aidUnitList[slot9:GetUniqueID()] = slot9
 	end
 end
@@ -469,6 +489,7 @@ function slot8.GetFleetByIFF(slot0, slot1)
 
 		slot2:SetBound(slot0:GetFleetBoundByIFF(slot1))
 		slot2:SetTotalBound(slot0:GetTotalBounds())
+		slot2:SetExposeLine(slot0._expeditionTmp.horizon_line[slot1], slot0._expeditionTmp.expose_line[slot1])
 		slot2:CalcSubmarineBaseLine(slot0._battleInitData.battleType)
 	end
 
@@ -519,8 +540,8 @@ function slot8.IsCompletelyRepress(slot0)
 	return slot0._completelyRepress
 end
 
-function slot8.SetRepressReduce(slot0, slot1)
-	slot0._repressReduce = slot1
+function slot8.GetRepressReduce(slot0)
+	return slot0._repressReduce
 end
 
 function slot8.GetRepressLevel(slot0)
@@ -547,105 +568,143 @@ function slot8.updateLoop(slot0, slot1)
 	end
 
 	slot0.checkCld = not slot0.checkCld
+	slot2 = {
+		[uv0.FRIENDLY_CODE] = slot0._totalLeftBound,
+		[uv0.FOE_CODE] = slot0._totalRightBound
+	}
 
-	for slot5, slot6 in pairs(slot0._unitList) do
+	for slot6, slot7 in pairs(slot0._unitList) do
 		if slot0.checkCld then
-			slot0._cldSystem:UpdateShipCldTree(slot6)
+			slot0._cldSystem:UpdateShipCldTree(slot7)
 		end
 
-		if slot6:IsAlive() then
-			slot6:Update(slot1)
+		if slot7:IsAlive() then
+			slot7:Update(slot1)
+		end
+
+		if slot7:GetIFF() == uv0.FRIENDLY_CODE then
+			slot2[slot9] = math.max(slot2[slot9], slot7:GetPosition().x)
+		elseif slot9 == uv0.FOE_CODE then
+			slot2[slot9] = math.min(slot2[slot9], slot8)
 		end
 	end
 
-	for slot5, slot6 in pairs(slot0._bulletList) do
-		slot7 = slot6:GetSpeed()
-		slot8 = slot6:GetPosition()
-		slot9 = slot6:GetType()
+	slot3 = slot0._fleetList[uv0.FRIENDLY_CODE]
+	slot5 = slot3:GetFleetVisionLine()
 
-		if slot6:GetOutBound() and (slot0._bulletRightBound < slot8.x and slot7.x > 0 or slot8.z < slot0._bulletLowerBound and slot7.z < 0) then
-			slot0:RemoveBulletUnit(slot6:GetUniqueID())
-		elseif slot8.x < slot0._bulletLeftBound and slot7.x < 0 and slot9 ~= uv0.BulletType.BOMB then
-			slot0:RemoveBulletUnit(slot6:GetUniqueID())
+	if slot3:GetFleetExposeLine() and slot2[uv0.FOE_CODE] < slot4 then
+		slot3:CloakFatalExpose()
+	elseif slot6 < slot5 then
+		slot3:CloakInVision(slot0._exposeSpeed)
+	else
+		slot3:CloakOutVision()
+	end
+
+	if slot0._fleetList[uv0.FOE_CODE] then
+		slot7 = slot0._fleetList[uv0.FOE_CODE]
+		slot9 = slot7:GetFleetVisionLine()
+
+		if slot7:GetFleetExposeLine() and slot8 < slot2[uv0.FRIENDLY_CODE] then
+			slot7:CloakFatalExpose()
+		elseif slot9 < slot10 then
+			slot7:CloakInVision(slot0._exposeSpeed)
 		else
-			slot6:Update(slot1)
+			slot7:CloakOutVision()
+		end
+	end
 
-			if slot6.GetCurrentState and slot6:GetCurrentState() == uv1.Battle.BattleShrapnelBulletUnit.STATE_SPLIT then
+	for slot10, slot11 in pairs(slot0._bulletList) do
+		slot12 = slot11:GetSpeed()
+		slot13 = slot11:GetPosition()
+		slot14 = slot11:GetType()
+
+		if slot11:GetOutBound() == uv1.BulletOutBound.COMMON and (slot0._bulletRightBound < slot13.x and slot12.x > 0 or slot13.z < slot0._bulletLowerBound and slot12.z < 0) then
+			slot0:RemoveBulletUnit(slot11:GetUniqueID())
+		elseif slot13.x < slot0._bulletLeftBound and slot12.x < 0 and slot14 ~= uv1.BulletType.BOMB then
+			if slot15 == uv1.BulletOutBound.RANDOM and slot0._fleetList[uv0.FRIENDLY_CODE]:RandomMainVictim() then
+				slot0:HandleDamage(slot11, slot16)
+			end
+
+			slot0:RemoveBulletUnit(slot11:GetUniqueID())
+		else
+			slot11:Update(slot1)
+
+			if slot11.GetCurrentState and slot11:GetCurrentState() == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT then
 				-- Nothing
-			elseif slot10 and slot0._bulletUpperBound < slot8.z and slot7.z > 0 or slot6:IsOutRange(slot1) then
-				if slot6:GetExist() then
-					slot6:OutRange()
+			elseif slot15 == uv1.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
+				if slot11:GetExist() then
+					slot11:OutRange()
 				else
-					slot0:RemoveBulletUnit(slot6:GetUniqueID())
+					slot0:RemoveBulletUnit(slot11:GetUniqueID())
 				end
 			elseif slot0.checkCld then
-				slot0._cldSystem:UpdateBulletCld(slot6)
+				slot0._cldSystem:UpdateBulletCld(slot11)
 			end
 		end
 	end
 
-	for slot5, slot6 in pairs(slot0._aircraftList) do
-		slot6:Update(slot1)
+	for slot10, slot11 in pairs(slot0._aircraftList) do
+		slot11:Update(slot1)
 
-		slot7, slot8 = slot6:GetIFF()
+		slot12, slot13 = slot11:GetIFF()
 
-		if slot7 == uv2.FRIENDLY_CODE then
-			slot8 = slot0._totalRightBound
-		elseif slot7 == uv2.FOE_CODE then
-			slot8 = slot0._totalLeftBound
+		if slot12 == uv0.FRIENDLY_CODE then
+			slot13 = slot0._totalRightBound
+		elseif slot12 == uv0.FOE_CODE then
+			slot13 = slot0._totalLeftBound
 		end
 
-		if math.abs(slot8) < slot6:GetPosition().x * slot7 and slot6:GetSpeed().x * slot7 > 0 then
-			slot6:OutBound()
+		if math.abs(slot13) < slot11:GetPosition().x * slot12 and slot11:GetSpeed().x * slot12 > 0 then
+			slot11:OutBound()
 		else
-			slot0._cldSystem:UpdateAircraftCld(slot6)
+			slot0._cldSystem:UpdateAircraftCld(slot11)
 		end
 
-		if not slot6:IsAlive() then
-			slot0:KillAircraft(slot6:GetUniqueID())
-		end
-	end
-
-	for slot5, slot6 in pairs(slot0._AOEList) do
-		slot0._cldSystem:UpdateAOECld(slot6)
-		slot6:Settle()
-
-		if slot6:GetActiveFlag() == false then
-			slot6:SettleFinale()
-			slot0:RemoveAreaOfEffect(slot6:GetUniqueID())
+		if not slot11:IsAlive() then
+			slot0:KillAircraft(slot11:GetUniqueID())
 		end
 	end
 
-	for slot5, slot6 in pairs(slot0._environmentList) do
-		slot6:Update()
+	for slot10, slot11 in pairs(slot0._AOEList) do
+		slot0._cldSystem:UpdateAOECld(slot11)
+		slot11:Settle()
 
-		if slot6:IsExpire(slot1) then
-			slot0:RemoveEnvironment(slot6:GetUniqueID())
+		if slot11:GetActiveFlag() == false then
+			slot11:SettleFinale()
+			slot0:RemoveAreaOfEffect(slot11:GetUniqueID())
+		end
+	end
+
+	for slot10, slot11 in pairs(slot0._environmentList) do
+		slot11:Update()
+
+		if slot11:IsExpire(slot1) then
+			slot0:RemoveEnvironment(slot11:GetUniqueID())
 		end
 	end
 
 	if slot0.checkCld then
-		for slot5, slot6 in pairs(slot0._shelterList) do
-			if not slot6:IsWallActive() then
-				slot0:RemoveShelter(slot6:GetUniqueID())
+		for slot10, slot11 in pairs(slot0._shelterList) do
+			if not slot11:IsWallActive() then
+				slot0:RemoveShelter(slot11:GetUniqueID())
 			else
-				slot6:Update(slot1)
+				slot11:Update(slot1)
 			end
 		end
 
-		for slot5, slot6 in pairs(slot0._wallList) do
-			if slot6:IsActive() then
-				slot0._cldSystem:UpdateWallCld(slot6)
+		for slot10, slot11 in pairs(slot0._wallList) do
+			if slot11:IsActive() then
+				slot0._cldSystem:UpdateWallCld(slot11)
 			end
 		end
 	end
 
-	for slot5, slot6 in pairs(slot0._foeShipList) do
-		if slot6:GetPosition().x + slot6:GetBoxSize().x < slot0._leftZoneLeftBound then
-			slot6:SetDeathReason(uv0.UnitDeathReason.TOUCHDOWN)
-			slot6:DeadAction()
-			slot0:KillUnit(slot6:GetUniqueID())
-			slot0:HandleShipMissDamage(slot6, slot0._fleetList[uv2.FRIENDLY_CODE])
+	for slot10, slot11 in pairs(slot0._foeShipList) do
+		if slot11:GetPosition().x + slot11:GetBoxSize().x < slot0._leftZoneLeftBound then
+			slot11:SetDeathReason(uv1.UnitDeathReason.TOUCHDOWN)
+			slot11:DeadAction()
+			slot0:KillUnit(slot11:GetUniqueID())
+			slot0:HandleShipMissDamage(slot11, slot0._fleetList[uv0.FRIENDLY_CODE])
 		end
 	end
 end
@@ -694,38 +753,33 @@ end
 
 function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot0:GenerateUnitID()
-	slot8 = {}
 
 	for slot12, slot13 in ipairs(uv0.GetMonsterTmpDataFromID(slot1.monsterTemplateID).equipment_list) do
-		slot8[#slot8 + 1] = {
+		table.insert({}, {
 			id = slot13
-		}
+		})
 	end
 
-	slot10 = slot7.random_equipment_list
+	slot10 = slot7.random_nub
 
-	if slot7.random_nub ~= nil and slot10 ~= nil then
-		if slot9 > #slot10 then
-			for slot14, slot15 in ipairs(slot10) do
-				slot8[#slot8 + 1] = {
-					id = slot15
-				}
-			end
-		else
-			for slot14 = 1, slot9 do
-				slot15 = math.random(1, #slot10)
-				slot8[#slot8 + 1] = {
-					id = slot10[slot15]
-				}
+	for slot14, slot15 in ipairs(slot7.random_equipment_list) do
+		slot17 = Clone(slot15)
 
-				table.remove(slot10, slot15)
-			end
+		for slot21 = 1, slot10[slot14] do
+			slot22 = math.random(#slot17)
+
+			table.insert(slot8, {
+				id = slot17[slot22]
+			})
+			table.remove(slot17, slot22)
 		end
 	end
 
-	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, , slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, , slot1.level)
+	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, , , , slot1.level)
 
-	slot11:SetPosition(uv1.RandomPos(slot1.corrdinate))
+	uv1.MonsterAttrFixer(slot0._battleInitData.battleType, slot11)
+	slot11:SetCurrentHP(slot11:GetMaxHP() * slot0._repressEnemyHpRant)
+	slot11:SetPosition(uv2.RandomPos(slot1.corrdinate))
 	slot11:SetAI(slot1.pilotAITemplateID or slot7.pilot_ai_template_id)
 	slot0:setShipUnitBound(slot11)
 
@@ -738,10 +792,10 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._unitList[slot6] = slot11
 
 	slot0._cldSystem:InitShipCld(slot11)
-	slot11:SummonSickness(uv2.SUMMONING_SICKNESS_DURATION)
+	slot11:SummonSickness(uv3.SUMMONING_SICKNESS_DURATION)
 	slot11:SetMoveCast(slot1.moveCast == true)
 
-	if slot11:GetIFF() == uv3.FRIENDLY_CODE then
+	if slot11:GetIFF() == uv4.FRIENDLY_CODE then
 		slot0._friendlyShipList[slot6] = slot11
 	else
 		slot0._foeShipList[slot6] = slot11
@@ -762,33 +816,50 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	if slot1.phase then
-		uv4.Battle.BattleUnitPhaseSwitcher.New(slot11):SetTemplateData(slot1.phase)
+		uv5.Battle.BattleUnitPhaseSwitcher.New(slot11):SetTemplateData(slot1.phase)
 	end
 
 	if slot5 then
 		slot5(slot11)
 	end
 
-	slot0:DispatchEvent(uv4.Event.New(uv5.ADD_UNIT, {
+	slot0:DispatchEvent(uv5.Event.New(uv6.ADD_UNIT, {
 		type = slot3,
 		unit = slot11,
 		bossData = slot1.bossData,
 		extraInfo = slot1.extraInfo
 	}))
 
-	for slot18, slot19 in ipairs(slot1.buffList or {}) do
-		slot11:AddBuff(uv4.Battle.BattleBuffUnit.New(slot19))
-	end
+	function slot14(slot0)
+		for slot4, slot5 in ipairs(slot0) do
+			slot6, slot7 = nil
 
-	slot15 = slot0._battleInitData.AffixBuffList or {}
+			if type(slot5) == "number" then
+				slot7 = slot5
+				slot6 = 1
+			else
+				slot7 = slot5.ID
+				slot6 = slot5.LV or 1
+			end
 
-	if slot1.affix then
-		for slot19, slot20 in ipairs(slot15) do
-			slot11:AddBuff(uv4.Battle.BattleBuffUnit.New(slot20))
+			uv1:AddBuff(uv0.Battle.BattleBuffUnit.New(slot7, slot6, uv1))
 		end
 	end
 
+	slot14(slot11:GetTemplate().buff_list)
+	slot14(slot1.buffList or {})
+	slot14(slot0._battleInitData.AffixBuffList or {})
+
+	if slot1.summonWaveIndex then
+		slot0._waveSummonList[slot18] = slot0._waveSummonList[slot18] or {}
+		slot0._waveSummonList[slot18][slot11] = true
+	end
+
 	slot11:CheckWeaponInitial()
+
+	if slot0._battleInitData.CMDArgs and slot11:GetTemplateID() == slot0._battleInitData.CMDArgs then
+		slot0:InitSpecificEnemyStatistics(slot11)
+	end
 end
 
 function slot8.UpdateHostileSubmarine(slot0, slot1)
@@ -935,6 +1006,10 @@ function slot8.KillUnit(slot0, slot1)
 			if table.contains(TeamType.SubShipType, slot2:GetTemplate().type) then
 				slot0:UpdateHostileSubmarine(false)
 			end
+
+			if slot2:GetWaveIndex() and slot0._waveSummonList[slot7] then
+				slot0._waveSummonList[slot7][slot2] = nil
+			end
 		end
 	elseif slot4 == uv0.FRIENDLY_CODE then
 		slot0._friendlyShipList[slot1] = nil
@@ -976,6 +1051,16 @@ function slot8.KillAllAircraft(slot0)
 	end
 end
 
+function slot8.KillWaveSummonMonster(slot0, slot1)
+	if slot0._waveSummonList[slot1] then
+		for slot6, slot7 in pairs(slot2) do
+			slot0:KillUnit(slot6:GetUniqueID())
+		end
+	end
+
+	slot0._waveSummonList[slot1] = nil
+end
+
 function slot8.IsThereBoss(slot0)
 	for slot4, slot5 in pairs(slot0:GetUnitList()) do
 		if slot5:IsBoss() and slot5:IsAlive() then
@@ -1012,7 +1097,7 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 		slot8 = uv2.UnitType.CONST_UNIT
 	end
 
-	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.baseProperties, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList)
+	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.baseProperties, slot7, slot1.baseList, slot1.preloasList)
 
 	slot10:InitCurrentHP(slot1.initHPRate or 1)
 	slot10:SetRarity(slot1.rarity)
@@ -1029,11 +1114,19 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 		slot0._foeShipList[slot5] = slot10
 	end
 
+	if slot9 == SYSTEM_WORLD then
+		uv1.SetCurrent(slot10, "healingRate", uv4.WorldMapRewardHealingRate(slot0._battleInitData.EnemyMapRewards, slot0._battleInitData.FleetMapRewards))
+	end
+
 	slot10:SetPosition(slot3)
 	uv3.InitUnitSkill(slot1, slot10, slot9)
 	uv3.InitEquipSkill(slot1.equipment, slot10, slot9)
 	uv3.InitCommanderSkill(slot4, slot10, slot9)
 	slot10:SetGearScore(slot1.shipGS)
+
+	if slot1.deathMark then
+		slot10:SetWorldDeathMark()
+	end
 
 	return slot10
 end
@@ -1272,8 +1365,10 @@ function slot8.CreateBulletUnit(slot0, slot1, slot2, slot3, slot4)
 		slot0._cldSystem:InitBulletCld(slot6)
 	end
 
-	if slot3:GetFixBulletRange() then
-		slot6:FixRange(slot8)
+	slot8, slot9 = slot3:GetFixBulletRange()
+
+	if slot8 or slot9 then
+		slot6:FixRange(slot8, slot9)
 	end
 
 	slot0._bulletList[slot5] = slot6
@@ -1652,6 +1747,12 @@ function slot8.BlockManualCast(slot0, slot1)
 	for slot6, slot7 in pairs(slot0._fleetList) do
 		slot7:SetWeaponBlock(slot1 and 1 or -1)
 	end
+end
+
+function slot8.JamManualCast(slot0, slot1)
+	slot0:DispatchEvent(uv0.Event.New(uv1.JAMMING, {
+		jammingFlag = slot1
+	}))
 end
 
 function slot8.SubmarineStrike(slot0, slot1)

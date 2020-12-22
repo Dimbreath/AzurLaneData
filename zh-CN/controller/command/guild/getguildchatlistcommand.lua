@@ -2,7 +2,7 @@ slot0 = class("GetGuildChatListCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = Guild.CHAT_LOG_MAX_COUNT
+	slot3 = GuildConst.CHAT_LOG_MAX_COUNT
 
 	if not getProxy(GuildProxy):getData() then
 		return

@@ -1,6 +1,5 @@
 slot0 = class("ChatConst")
 slot0.CODE_BANED = 100
-slot0.CODE_GUILDBOSS_OPEN = 200
 slot0.CODE_ACTOBSS_MSG_WORD = 1000
 slot0.ChannelAll = 1
 slot0.ChannelWorld = 2

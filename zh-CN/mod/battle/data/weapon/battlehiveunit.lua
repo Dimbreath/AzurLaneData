@@ -52,6 +52,8 @@ function slot2.Fire(slot0)
 		slot0:DispatchFireEvent(nil, slot0._tmpData.action_index)
 	end
 
+	slot0._host:CloakExpose(slot0._tmpData.expose)
+
 	return true
 end
 
@@ -93,4 +95,6 @@ function slot2.SingleFire(slot0, slot1, slot2)
 		slot9:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
 		slot9:SetTimeScale(false)
 	end
+
+	slot0._host:CloakExpose(slot0._tmpData.expose)
 end

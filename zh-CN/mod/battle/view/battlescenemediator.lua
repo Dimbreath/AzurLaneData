@@ -30,6 +30,7 @@ function slot5.Init(slot0)
 
 	slot0._characterList = {}
 	slot0._bulletList = {}
+	slot0._particleBulletList = {}
 	slot0._aircraftList = {}
 	slot0._areaList = {}
 	slot0._shelterList = {}
@@ -392,6 +393,12 @@ function slot5.Pause(slot0)
 			slot6[slot10]:Pause()
 		end
 	end
+
+	for slot4, slot5 in pairs(slot0._particleBulletList) do
+		for slot10 = 0, slot4._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
+			slot6[slot10]:Pause()
+		end
+	end
 end
 
 function slot5.Resume(slot0)
@@ -405,6 +412,12 @@ function slot5.Resume(slot0)
 
 	for slot4, slot5 in ipairs(slot0._arcEffectList) do
 		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
+			slot6[slot10]:Play()
+		end
+	end
+
+	for slot4, slot5 in pairs(slot0._particleBulletList) do
+		for slot10 = 0, slot4._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
 			slot6[slot10]:Play()
 		end
 	end
@@ -463,10 +476,16 @@ end
 
 function slot5.AddBullet(slot0, slot1)
 	slot0._bulletList[slot1:GetBulletData():GetUniqueID()] = slot1
+
+	if slot1:GetGO() and slot2:GetComponent(typeof(ParticleSystem)) then
+		slot0._particleBulletList[slot1] = true
+	end
 end
 
 function slot5.RemoveBullet(slot0, slot1)
 	if slot0._bulletList[slot1] then
+		slot0._particleBulletList[slot2] = nil
+
 		slot2:GetFactory():RemoveBullet(slot2)
 	end
 

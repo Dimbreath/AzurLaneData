@@ -17,32 +17,45 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 	slot0.skin = slot2
 	slot0.voice = slot4
 	slot0.words = pg.ship_skin_words[slot0.skin.id]
-	slot5, slot6, slot7, slot8, slot9, slot10 = nil
+
+	if slot1:isMetaGroup() and table.contains({
+		"feeling1",
+		"feeling2",
+		"feeling3",
+		"feeling4",
+		"feeling5",
+		"propose"
+	}, slot0.voice.key) then
+		slot0.voice = Clone(slot4)
+		slot0.voice.voice_name = i18n("meta_voice_name_" .. slot0.voice.key)
+	end
+
+	slot7, slot8, slot9, slot10, slot11, slot12 = nil
 
 	if string.find(slot4.key, ShipWordHelper.WORD_TYPE_MAIN) then
-		slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, tonumber(string.gsub(slot11, ShipWordHelper.WORD_TYPE_MAIN, "")))
+		slot7, slot8, slot9 = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, tonumber(string.gsub(slot13, ShipWordHelper.WORD_TYPE_MAIN, "")))
 
 		if slot0.isLive2d then
-			slot9 = ShipWordHelper.GetL2dCvCalibrate(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, slot8)
-			slot10 = ShipWordHelper.GetL2dSoundEffect(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, slot8)
+			slot11 = ShipWordHelper.GetL2dCvCalibrate(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, slot10)
+			slot12 = ShipWordHelper.GetL2dSoundEffect(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, slot10)
 		end
 	else
-		slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0.skin.id, slot11)
+		slot7, slot8, slot9 = ShipWordHelper.GetWordAndCV(slot0.skin.id, slot13)
 
 		if slot0.isLive2d then
-			slot9 = ShipWordHelper.GetL2dCvCalibrate(slot0.skin.id, slot11)
-			slot10 = ShipWordHelper.GetL2dSoundEffect(slot0.skin.id, slot11)
+			slot11 = ShipWordHelper.GetL2dCvCalibrate(slot0.skin.id, slot13)
+			slot12 = ShipWordHelper.GetL2dSoundEffect(slot0.skin.id, slot13)
 		end
 	end
 
 	slot0.wordData = {
 		maxfavor = 0,
-		cvKey = slot5,
-		cvPath = slot6,
-		textContent = slot7,
-		mainIndex = slot8,
-		voiceCalibrate = slot9,
-		se = slot10
+		cvKey = slot7,
+		cvPath = slot8,
+		textContent = slot9,
+		mainIndex = slot10,
+		voiceCalibrate = slot11,
+		se = slot12
 	}
 end
 

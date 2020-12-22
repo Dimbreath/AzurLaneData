@@ -6,8 +6,6 @@ slot0.SHOP_TYPE_TIMELIMIT = 2
 slot0.PAGE_ALL = -1
 slot0.PAGE_TIME_LIMIT = -2
 slot0.MSGBOXNAME = "SkinShopMsgbox"
-slot0.EXSKINNAME = "ExSkinListUI"
-slot0.OVERDUENAME = "SkinOverDueUI"
 slot3 = {
 	{
 		"huanzhuangshagndian",
@@ -95,6 +93,7 @@ function slot0.init(slot0)
 	setActive(slot0.hideObjToggleTF, false)
 
 	slot0.hideObjToggle = GetComponent(slot0.hideObjToggleTF, typeof(Toggle))
+	slot0.switchCnt = 0
 end
 
 function slot0.didEnter(slot0)
@@ -187,6 +186,7 @@ function slot0.initSkinPage(slot0)
 
 		uv0:updateShipRect(0)
 		triggerToggle(uv0.skinPageToggles[slot0], true)
+		uv0:SwitchCntPlusPlus()
 	end
 
 	slot4 = {}
@@ -391,7 +391,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 	if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		onButton(slot0, slot0.timelimitBtn, function ()
 			if getProxy(ShipSkinProxy):getSkinById(uv0:getSkinId()) and not slot1:isExpireType() then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("already_have_the_skin"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("already_have_the_skin"))
 
 				return
 			end
@@ -422,7 +422,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 						slot2 = i18n("discount_coupon_tip", slot1, slot0:GetDiscountItem().name, HXSet.hxLan(uv2.name))
 					end
 
-					pg.MsgboxMgr:GetInstance():ShowMsgBox({
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = slot2,
 						onYes = function ()
 							if uv0 then
@@ -436,7 +436,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 					return
 				end
 
-				pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[9999])
+				pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[9999])
 
 				return
 			end
@@ -457,7 +457,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 					end
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_not_start"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
 			end
 		end, SFX_PANEL)
 	end
@@ -474,11 +474,11 @@ function slot0.showTimeLimitSkinWindow(slot0, slot1)
 	slot2 = slot1:getConfig("resource_num")
 	slot6, slot7, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot1:getConfig("time_second") * slot2)
 
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("exchange_limit_skin_tip", slot2, pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
 		onYes = function ()
 			if uv0.skinTicket < uv1 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 				return
 			end
@@ -524,7 +524,7 @@ function slot0.addShopTimer(slot0, slot1)
 		return
 	end
 
-	slot7 = pg.TimeMgr:GetInstance():Table2ServerTime(slot5)
+	slot7 = pg.TimeMgr.GetInstance():Table2ServerTime(slot5)
 	slot0.shopTimer = Timer.New(function ()
 		if uv1 < uv0:GetServerTime() then
 			uv2:removeShopTimer()
@@ -623,9 +623,9 @@ end
 
 function slot0.loadChar(slot0, slot1)
 	slot0:recycleChar()
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.modelTf = tf(slot0)
 		uv0.modelTf.localScale = Vector3(0.9, 0.9, 1)
@@ -683,6 +683,8 @@ function slot0.initShips(slot0)
 					uv0.index = slot3
 				end
 			end
+
+			uv0:SwitchCntPlusPlus()
 		end, SFX_PANEL)
 	end
 
@@ -707,6 +709,16 @@ function slot0.initShips(slot0)
 		end
 
 		setActive(uv0.mainPanel, slot0)
+	end
+end
+
+function slot0.SwitchCntPlusPlus(slot0)
+	slot0.switchCnt = slot0.switchCnt + 1
+
+	if slot0.switchCnt >= 8 then
+		gcAll()
+
+		slot0.switchCnt = 0
 	end
 end
 
@@ -887,6 +899,7 @@ function slot0.willExit(slot0)
 
 	slot0.skinTimer = nil
 	slot0.contextData.key = nil
+	slot0.switchCnt = nil
 end
 
 return slot0

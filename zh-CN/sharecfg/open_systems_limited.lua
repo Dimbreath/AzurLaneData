@@ -120,6 +120,38 @@ pg.open_systems_limited = {
 		mediator = "FragmentShop",
 		level = 30
 	},
+	[17] = {
+		scene = "MAINUI",
+		name = "meta研究室",
+		story_id = "",
+		id = 17,
+		mediator = "MetaCharacterMediator",
+		level = 1
+	},
+	[18] = {
+		scene = "MAINUI",
+		name = "装备改造",
+		story_id = "",
+		id = 18,
+		mediator = "EquipmentTransformTreeMediator",
+		level = 60
+	},
+	[19] = {
+		scene = "MAINUI",
+		name = "大型作战",
+		story_id = "",
+		id = 19,
+		mediator = "WorldMediator",
+		level = 60
+	},
+	[20] = {
+		scene = "MAINUI",
+		name = "大世界收藏",
+		story_id = "",
+		id = 20,
+		mediator = "WorldMediaCollectionRecordMediator",
+		level = 60
+	},
 	all = {
 		1,
 		2,
@@ -135,6 +167,10 @@ pg.open_systems_limited = {
 		12,
 		14,
 		15,
-		16
+		16,
+		17,
+		18,
+		19,
+		20
 	}
 }

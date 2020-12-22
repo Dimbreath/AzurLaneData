@@ -34,10 +34,6 @@ function slot1.ResetSize(slot0, slot1, slot2, slot3)
 	slot0._max.z = slot0._offsetZ + slot6
 end
 
-function slot1.GetCenterOffset(slot0, slot1)
-	return slot0._offset
-end
-
 function slot1.GetCldBox(slot0, slot1)
 	if slot1 then
 		slot0._cldData.LeftBound = slot1.x - math.abs(slot0._min.x)

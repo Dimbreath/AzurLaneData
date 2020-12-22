@@ -27,14 +27,14 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetTemplate",
 				hpUpperBound = 0.3,
 				skill_id = 11010,
-				targetTemplateIDList = {
-					105131,
-					105132,
-					105133,
-					105134
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Washington"
 				}
 			}
 		}

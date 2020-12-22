@@ -408,7 +408,7 @@ pg.activity_ins_ship_group_template = {
 	[10125] = {
 		ship_group = 10125,
 		name = "DD_Hammann",
-		sculpture = "haman"
+		sculpture = "haman_5"
 	},
 	[10117] = {
 		ship_group = 10117,
@@ -553,7 +553,7 @@ pg.activity_ins_ship_group_template = {
 	[30114] = {
 		ship_group = 30114,
 		name = "NikuSuki",
-		sculpture = "xili"
+		sculpture = "xili_5"
 	},
 	[40804] = {
 		ship_group = 40804,
@@ -940,6 +940,91 @@ pg.activity_ins_ship_group_template = {
 		name = "Nin_Kuroshio",
 		sculpture = "heichao"
 	},
+	[10124] = {
+		ship_group = 10124,
+		name = "Sims",
+		sculpture = "ximusi"
+	},
+	[10130] = {
+		ship_group = 10130,
+		name = "DD.Jenkins",
+		sculpture = "jiejinsi_3"
+	},
+	[10129] = {
+		ship_group = 10129,
+		name = "DD.Radford",
+		sculpture = "ladefute"
+	},
+	[10131] = {
+		ship_group = 10131,
+		name = "DD.Nick",
+		sculpture = "nigulasi_3"
+	},
+	[10144] = {
+		ship_group = 10144,
+		name = "BlackCat",
+		sculpture = "kubo_3"
+	},
+	[10227] = {
+		ship_group = 10227,
+		name = "Marblehead",
+		sculpture = "mabuerheide_3"
+	},
+	[10127] = {
+		ship_group = 10127,
+		name = "Rabbit.Bailey",
+		sculpture = "beili"
+	},
+	[10211] = {
+		ship_group = 10211,
+		name = "Richmond",
+		sculpture = "lishiman"
+	},
+	[10216] = {
+		ship_group = 10216,
+		name = "Memphis",
+		sculpture = "mengfeisi"
+	},
+	[10218] = {
+		ship_group = 10218,
+		name = "Sweet.Concord",
+		sculpture = "kangkede_3"
+	},
+	[30117] = {
+		ship_group = 30117,
+		name = "Kagerō",
+		sculpture = "yangyan"
+	},
+	[10313] = {
+		ship_group = 10313,
+		name = "Minnie.Hunter",
+		sculpture = "mingniabolisi_4"
+	},
+	[10309] = {
+		ship_group = 10309,
+		name = "Quincy",
+		sculpture = "kunxi"
+	},
+	[10310] = {
+		ship_group = 10310,
+		name = "Vincennes",
+		sculpture = "wensensi"
+	},
+	[20217] = {
+		ship_group = 20217,
+		name = "TheFightingJ",
+		sculpture = "yamaijia"
+	},
+	[10308] = {
+		ship_group = 10308,
+		name = "Nasty.Asty",
+		sculpture = "asituoliya"
+	},
+	[10111] = {
+		ship_group = 10111,
+		name = "L.B.Charles",
+		sculpture = "aosiben"
+	},
 	all = {
 		30701,
 		30702,
@@ -1128,6 +1213,23 @@ pg.activity_ins_ship_group_template = {
 		1060002,
 		1060003,
 		1060005,
-		30127
+		30127,
+		10124,
+		10130,
+		10129,
+		10131,
+		10144,
+		10227,
+		10127,
+		10211,
+		10216,
+		10218,
+		30117,
+		10313,
+		10309,
+		10310,
+		20217,
+		10308,
+		10111
 	}
 }

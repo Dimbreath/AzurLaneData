@@ -28,23 +28,18 @@ function slot0.init(slot0)
 	slot0.mask = slot0:findTF("mask")
 
 	SetActive(slot0.mask, false)
+
+	slot0.mainRedPage = NewGuildMainRedPage.New(slot0._tf, slot0.event)
+	slot0.mainBluePage = NewGuildMainBluePage.New(slot0._tf, slot0.event)
 end
 
 function slot0.didEnter(slot0)
-	slot0:select()
-end
-
-function slot0.startCreate(slot0)
-	setActive(slot0.createPanel, true)
-end
-
-function slot0.select(slot0)
 	slot0:startCreate()
 	onButton(slot0, slot0.createBtn, function ()
 		uv0:createGuild()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.joinBtn, function ()
-		uv0:joinGuild()
+		uv0:emit(NewGuildMediator.OPEN_GUILD_LIST)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.createPanel, function ()
 		uv0:emit(uv1.ON_BACK)
@@ -54,6 +49,10 @@ function slot0.select(slot0)
 			uv0:emit(uv1.ON_BACK)
 		end
 	end, SFX_CANCEL)
+end
+
+function slot0.startCreate(slot0)
+	setActive(slot0.createPanel, true)
 end
 
 function slot0.createGuild(slot0)
@@ -67,7 +66,7 @@ function slot0.createGuild(slot0)
 
 		uv0:selectFaction(slot0, uv0.createProcess)
 		coroutine.yield()
-		uv0:setDescInfo(slot0:getUIName(), slot0)
+		uv0:setDescInfo(slot0)
 	end)
 
 	slot0.createProcess()
@@ -100,16 +99,13 @@ function slot0.selectFaction(slot0, slot1, slot2)
 	slot5 = slot0.factionPanel:Find("panel")
 	slot6 = slot5:Find("blhx")
 	slot7 = slot5:Find("cszz")
-	slot8 = slot5:Find("bg")
 
 	if not slot0.isInitFaction then
-		function ()
-			setImageSprite(uv0, GetSpriteFromAtlas("commonbg/camp_bg", ""))
-			setImageSprite(uv1:Find("bg"), GetSpriteFromAtlas("clutter/blhx_icon", ""))
-			setImageSprite(uv2:Find("bg"), GetSpriteFromAtlas("clutter/cszz_icon", ""))
-			setActive(uv1:Find("bg"), false)
-			setActive(uv2:Find("bg"), false)
-		end()
+		setImageSprite(slot5:Find("bg"), GetSpriteFromAtlas("commonbg/camp_bg", ""))
+		setImageSprite(slot6:Find("bg"), GetSpriteFromAtlas("clutter/blhx_icon", ""))
+		setImageSprite(slot7:Find("bg"), GetSpriteFromAtlas("clutter/cszz_icon", ""))
+		setActive(slot6:Find("bg"), false)
+		setActive(slot7:Find("bg"), false)
 
 		slot0.isInitFaction = true
 	end
@@ -119,7 +115,7 @@ function slot0.selectFaction(slot0, slot1, slot2)
 			return
 		end
 
-		uv1:setFaction(Guild.FACTION_TYPE_BLHX)
+		uv1:setFaction(GuildConst.FACTION_TYPE_BLHX)
 
 		if uv2 then
 			uv2()
@@ -136,7 +132,7 @@ function slot0.selectFaction(slot0, slot1, slot2)
 			return
 		end
 
-		uv1:setFaction(Guild.FACTION_TYPE_CSZZ)
+		uv1:setFaction(GuildConst.FACTION_TYPE_CSZZ)
 
 		if uv2 then
 			uv2()
@@ -164,146 +160,34 @@ function slot0.selectFaction(slot0, slot1, slot2)
 	setActive(slot0.topPanel, true)
 end
 
-function slot0.setDescInfo(slot0, slot1, slot2)
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
-		setActive(uv0._playerResOb, true)
+function slot0.setDescInfo(slot0, slot1)
+	if slot1:getFaction() == GuildConst.FACTION_TYPE_BLHX then
+		slot0.mainPage = slot0.mainBluePage
+	elseif slot2 == GuildConst.FACTION_TYPE_CSZZ then
+		slot0.mainPage = slot0.mainRedPage
+	end
 
-		slot0.name = uv1
-		uv0.infoGameobject = slot0
-		slot1 = tf(slot0)
-
-		setParent(slot1, uv0._tf)
-		setActive(slot1, true)
-		setActive(uv0.topPanel, true)
-		uv0.topPanel:SetAsLastSibling()
-
-		slot4 = findTF(slot1, "bg/frame/policy_container/policy/relax")
-		findTF(slot1, "bg/frame/confirm_btn/print_container/Text"):GetComponent(typeof(Text)).text = pg.gameset.create_guild_cost.key_value
-
-		onInputChanged(uv0, findTF(slot1, "bg/frame/name_bg/input"):GetComponent(typeof(InputField)), function ()
-			slot1, slot2 = wordVer(getInputText(uv0), {
-				isReplace = true
-			})
-
-			if slot1 > 0 then
-				setInputText(uv0, slot2)
-			end
-		end)
-		onInputChanged(uv0, findTF(slot1, "bg/frame/policy_container/input_frame/input"):GetComponent(typeof(InputField)), function ()
-			slot1, slot2 = wordVer(getInputText(uv0), {
-				isReplace = true
-			})
-
-			if slot1 > 0 then
-				setInputText(uv0, slot2)
-			end
-		end)
-
-		function slot10()
-			uv1:setName(uv0.text)
-
-			slot1 = uv2.text
-			slot2 = wordVer(slot1)
-
-			uv1:setManifesto(slot1)
+	function slot3()
+		if not uv0.mainPage:GetLoaded() or uv0.mainPage:IsPlaying() then
+			return
 		end
 
-		onToggle(uv0, slot4, function (slot0)
-			if slot0 then
-				uv0:setPolicy(Guild.POLICY_TYPE_RELAXATION)
-			end
-		end, SFX_PANEL)
-		onToggle(uv0, findTF(slot1, "bg/frame/policy_container/policy/power"), function (slot0)
-			if slot0 then
-				uv0:setPolicy(Guild.POLICY_TYPE_POWER)
-			end
-		end, SFX_PANEL)
-		triggerToggle(slot4, true)
-		onButton(uv0, findTF(slot1, "bg/frame/cancel_btn"), function ()
-			uv0.createProcess = nil
+		uv0.createProcess = nil
 
-			uv0:createGuild()
-			PoolMgr.GetInstance():ReturnUI(uv1, uv0.infoGameobject)
-		end, SFX_CANCEL)
-		onButton(uv0, uv0.backBtn, function ()
-			if uv0.isPlaying then
-				return
-			end
+		uv0:createGuild()
+		uv0.mainPage:Hide()
+	end
 
-			uv0.createProcess = nil
-
-			uv0:createGuild()
-			PoolMgr.GetInstance():ReturnUI(uv1, uv0.infoGameobject)
-		end, SFX_CANCEL)
-		onButton(uv0, findTF(slot1, "bg/frame/confirm_btn"), function ()
-			slot0 = uv0()
-
-			if not uv1:getName() or slot1 == "" then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_noname"))
-
-				return
-			end
-
-			if not nameValidityCheck(slot1, 0, 20, {
-				"spece_illegal_tip",
-				"login_newPlayerScene_name_tooShort",
-				"login_newPlayerScene_name_tooLong",
-				"err_name_existOtherChar"
-			}) then
-				return
-			end
-
-			if not uv1:getFaction() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_nofaction"))
-
-				return
-			end
-
-			if not uv1:getPolicy() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_nopolicy"))
-
-				return
-			end
-
-			if not uv1:getManifesto() or slot2 == "" then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_nomanifesto"))
-
-				return
-			end
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("guild_create_confirm", uv2),
-				onYes = function ()
-					if uv0.playerVO:getTotalGem() < uv1 then
-						GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
-					else
-						uv0:emit(NewGuildMediator.CREATE, uv2)
-					end
-				end
-			})
-		end, SFX_CONFIRM)
-		pg.UIMgr.GetInstance():LoadingOff()
-
-		GetOrAddComponent(slot1, "CanvasGroup").alpha = 0
-		uv0.isPlaying = true
-
-		LeanTween.value(slot0, 0, 1, 0.6):setOnUpdate(System.Action_float(function (slot0)
-			uv0.alpha = slot0
-		end)):setOnComplete(System.Action(function ()
-			uv0.isPlaying = false
-
-			setActive(uv0.factionPanel, false)
-		end)):setDelay(0.5)
-	end)
+	slot0.mainPage:ExecuteAction("Show", slot1, slot0.playerVO, function ()
+		setActive(uv0.factionPanel, false)
+	end, slot3)
+	onButton(slot0, slot0.backBtn, slot3, SFX_CANCEL)
 end
 
-function slot0.closeInfoPanel(slot0)
-	PoolMgr.GetInstance():ReturnUI(uiName, slot0.infoGameobject)
-end
-
-function slot0.joinGuild(slot0)
-	slot0:emit(NewGuildMediator.OPEN_GUILD_LIST)
+function slot0.ClosePage(slot0)
+	if slot0.page and slot0.page:GetLoaded() and slot0.page:isShowing() then
+		slot0.page:Hide()
+	end
 end
 
 function slot0.onBackPressed(slot0)
@@ -320,6 +204,9 @@ function slot0.willExit(slot0)
 
 		slot0._resPanel = nil
 	end
+
+	slot0.mainRedPage:Destroy()
+	slot0.mainBluePage:Destroy()
 end
 
 return slot0

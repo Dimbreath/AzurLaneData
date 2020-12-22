@@ -110,6 +110,7 @@ function slot2.SetWaveData(slot0, slot1)
 	slot0._preWaveIDs = slot1.preWaves or {}
 	slot0._branchWaveIDs = slot1.conditionWaves or {}
 	slot0._blockFlags = slot1.blockFlags
+	slot0._type = slot1.triggerType
 	slot0._state = uv0.STATE_DEACTIVE
 end
 

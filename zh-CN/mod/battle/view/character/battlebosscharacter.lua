@@ -31,6 +31,12 @@ function slot2.Update(slot0)
 	if slot0._armor then
 		slot0:UpdateCastClock()
 	end
+
+	slot0:UpdateBarrierClockPosition()
+
+	if slot0._barrier then
+		slot0:updateBarrierClock()
+	end
 end
 
 function slot2.UpdateVigilantBarPosition(slot0)
@@ -61,9 +67,10 @@ function slot2.AddHPBar(slot0, slot1, slot2)
 	slot0:initBarComponent()
 	slot0:SetHPBarCountText()
 
-	slot0._cacheHP = slot0._unitData:GetCurrentHP()
+	slot0._cacheHP = slot0._unitData:GetMaxHP()
 
 	slot0:UpdateHpBar()
+	slot0:initBarrierBar()
 end
 
 function slot2.SetTemplateInfo(slot0)
@@ -73,7 +80,8 @@ function slot2.SetTemplateInfo(slot0)
 		slot2 = slot1.name
 	end
 
-	slot0._HPBarTf:Find("BossName"):GetComponent(typeof(Text)).text = slot2
+	changeToScrollText(slot0._HPBarTf:Find("BossName"), slot2)
+
 	slot0._HPBarTf:Find("BossLv"):GetComponent(typeof(Text)).text = "Lv." .. slot0._unitData:GetLevel()
 
 	setImageSprite(slot0._HPBarTf:Find("BossIcon/typeIcon/icon"), GetSpriteFromAtlas("shiptype", shipType2Battleprint(pg.enemy_data_by_type[slot1.type].type)), true)
@@ -84,9 +92,10 @@ function slot2.SetTemplateInfo(slot0)
 
 	SetActive(slot0._armorBar, false)
 
-	slot0._gizmos = slot0._HPBarTf:Find("gizmos")
+	slot0._barrierBar = slot0._HPBarTf:Find("ShieldBar")
+	slot0._barrierProgress = slot0._barrierBar:Find("shieldProgress"):GetComponent(typeof(Image))
 
-	SetActive(slot0._gizmos, true)
+	SetActive(slot0._barrierBar, false)
 end
 
 function slot2.SetBossData(slot0, slot1)
@@ -295,7 +304,6 @@ function slot2.onWeaponPrecastFinish(slot0, slot1)
 		slot0._armor = nil
 
 		SetActive(slot0._armorBar, false)
-		SetActive(slot0._gizmos, true)
 	end
 end
 
@@ -308,25 +316,32 @@ function slot2.initArmorBar(slot0, slot1)
 		slot0._armor = slot1
 		slot0._totalArmor = slot1
 
-		slot0:updateWeaponArmor(slot1)
+		slot0:updateWeaponArmor()
 		SetActive(slot0._armorBar, true)
-		SetActive(slot0._gizmos, false)
 	end
 end
 
 function slot2.OnUpdateHP(slot0, slot1)
+	slot2 = slot1.Data.preShieldHP
+
+	if slot0._barrier and slot2 < 0 then
+		slot0._barrier = slot0._barrier + slot2
+
+		slot0:updateBarrierBar()
+	end
+
 	uv0.super.OnUpdateHP(slot0, slot1)
 
-	slot2 = slot1.Data.dHP
+	slot3 = slot1.Data.dHP
 
-	if slot0._armor and slot2 < 0 then
-		slot0._armor = slot0._armor + slot2
+	if slot0._armor and slot3 < 0 then
+		slot0._armor = slot0._armor + slot3
 
-		slot0:updateWeaponArmor(slot0._armor)
+		slot0:updateWeaponArmor()
 	end
 end
 
-function slot2.updateWeaponArmor(slot0, slot1)
+function slot2.updateWeaponArmor(slot0)
 	slot0._armorProgress.fillAmount = slot0._armor / slot0._totalArmor
 end
 
@@ -344,4 +359,38 @@ end
 function slot2.updateComponentDiveInvisible(slot0)
 	uv0.super.updateComponentDiveInvisible(slot0)
 	SetActive(slot0._HPBarTf, true)
+end
+
+function slot2.initBarrierBar(slot0)
+	slot0._unitData:RegisterEventListener(slot0, uv0.BARRIER_STATE_CHANGE, slot0.onBarrierStateChange)
+end
+
+function slot2.onBarrierStateChange(slot0, slot1)
+	SetActive(slot0._barrierBar, slot1.Data.barrierDurability > 0)
+
+	if slot2 > 0 then
+		slot0._totalBarrier = slot2
+		slot0._barrier = slot2
+
+		slot0:initBarrierClock(slot1.Data.barrierDuration)
+		slot0:updateBarrierBar()
+		slot0:updateBarrierClock()
+	else
+		slot0._barrier = nil
+		slot0._totalBarrier = nil
+
+		slot0._barrierClock:Interrupt()
+	end
+end
+
+function slot2.updateBarrierBar(slot0)
+	slot0._barrierProgress.fillAmount = slot0._barrier / slot0._totalBarrier
+end
+
+function slot2.updateBarrierClock(slot0)
+	slot0._barrierClock:UpdateBarrierClockProgress()
+end
+
+function slot2.initBarrierClock(slot0, slot1)
+	slot0._barrierClock:Shielding(slot1)
 end

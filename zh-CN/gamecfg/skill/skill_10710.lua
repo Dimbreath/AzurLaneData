@@ -20,9 +20,26 @@ return {
 			targetAniEffect = "",
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
-			target_choise = "TargetSelf",
+			target_choise = {
+				"TargetSelf",
+				"TargetShipType"
+			},
 			arg_list = {
-				buff_id = 10711
+				buff_id = 10711,
+				ship_type_list = {
+					3
+				}
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetSelf"
+			},
+			arg_list = {
+				buff_id = 10714
 			}
 		}
 	}

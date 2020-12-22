@@ -3,7 +3,7 @@ slot0 = class("ChuixuePTRePage", import(".TemplatePage.PtTemplatePage"))
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
-	uv0.scrolltext = ScrollTxt:changeToScroll(slot0:findTF("name", slot0.awardTF))
+	uv0.scrolltext = slot0:findTF("name", slot0.awardTF)
 
 	onButton(slot0, slot0.battleBtn, function ()
 		uv0:emit(ActivityMediator.GO_SHOPS_LAYER_STEEET, {

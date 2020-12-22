@@ -1,19 +1,27 @@
 slot0 = class("GetWorldBossCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
+	slot3 = (slot1:getBody() or {}).callback
+	slot4 = nowWorld
 
-	pg.ConnectionMgr.GetInstance():Send(33501, {
+	pg.ConnectionMgr.GetInstance():Send(34501, {
 		type = 0
-	}, 33502, function (slot0)
-		if slot0.result == 0 then
-			slot3 = WorldBossProxy.New()
-			getProxy(WorldProxy):GetWorld().worldBossProxy = slot3
+	}, 34502, function (slot0)
+		slot1 = uv0.worldBossProxy
 
-			slot3:Setup(slot0)
-			uv0:sendNotification(GAME.WORLD_GET_BOSS_DONE)
-		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_activate_error_", slot0.result))
+		slot1:Setup(slot0)
+		uv1:sendNotification(GAME.WORLD_GET_BOSS_DONE)
+
+		if not slot1:IsOpen() and slot1:GetSelfBoss() ~= nil then
+			print("Notification : boss is overtime")
+			pg.ConnectionMgr.GetInstance():Send(34513, {
+				type = 0
+			}, 34514, function (slot0)
+			end)
+		end
+
+		if uv2 then
+			uv2()
 		end
 	end)
 end

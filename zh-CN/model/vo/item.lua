@@ -14,6 +14,8 @@ slot0.OIL_BOX_TYPE = 15
 slot0.EQUIPMENT_ASSIGNED_TYPE = 16
 slot0.GIFT_BOX = 17
 slot0.TEC_SPEEDUP_TYPE = 18
+slot0.SPECIAL_OPERATION_TICKET = 19
+slot0.GUILD_OPENABLE = 20
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
@@ -51,7 +53,7 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.CanOpen(slot0)
-	return slot0:getConfig("type") == uv0.EQUIPMENT_BOX_TYPE_5 or slot1 == uv0.EQUIPMENT_SKIN_BOX or slot1 == uv0.GOLD_BOX_TYPE or slot1 == uv0.OIL_BOX_TYPE or slot1 == uv0.GIFT_BOX
+	return slot0:getConfig("type") == uv0.EQUIPMENT_BOX_TYPE_5 or slot1 == uv0.EQUIPMENT_SKIN_BOX or slot1 == uv0.GOLD_BOX_TYPE or slot1 == uv0.OIL_BOX_TYPE or slot1 == uv0.GIFT_BOX or slot1 == uv0.GUILD_OPENABLE
 end
 
 function slot0.bindConfigTable(slot0)

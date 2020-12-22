@@ -28,7 +28,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not slot6 and getProxy(PlayerProxy):getData().ship_bag_max <= #getProxy(BayProxy):getShips() then
+	if not slot6 and getProxy(PlayerProxy):getData():getMaxShipBag() <= #getProxy(BayProxy):getShips() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
 		if slot5 then
@@ -47,9 +47,14 @@ function slot0.execute(slot0, slot1)
 				uv8(function ()
 					uv0:removeBuildShipByIndex(uv1)
 
-					slot0 = Ship.New(uv2.ship)
+					if Ship.New(uv2.ship):isMetaShip() and not slot0.virgin and Player.isMetaShipNeedToTrans(slot0.configId) then
+						if MetaCharacterConst.addReMetaTransItem(slot0) then
+							slot0:setReMetaSpecialItemVO(slot1)
+						end
+					else
+						uv3:addShip(slot0)
+					end
 
-					uv3:addShip(slot0)
 					uv0:setBuildShipState()
 
 					if slot0:getRarity() >= 4 and not getProxy(PlayerProxy):getData():GetCommonFlag(GAME_RESTOREVIEW_ALREADY) then

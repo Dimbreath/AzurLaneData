@@ -184,6 +184,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「无论现世亦或梦境，皆愿希望之光长存。」</color>\n「蝶海梦花」活动获取",
 		scene = {}
 	},
+	[312] = {
+		name = "铁血之器",
+		time_second = 0,
+		id = 312,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>等待后续活动获取</color>",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -240,6 +248,7 @@ pg.item_data_frame = {
 		308,
 		309,
 		311,
+		312,
 		401,
 		402,
 		404,

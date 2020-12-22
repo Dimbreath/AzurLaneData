@@ -39,7 +39,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/main/right_chapter/event_btns/event_container/btn_special",
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/main/right_chapter/event_btns/event_container/btn_task",
 				triggerType = {
 					1
 				},

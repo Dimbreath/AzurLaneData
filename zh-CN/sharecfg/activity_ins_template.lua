@@ -4161,6 +4161,78 @@ pg.activity_ins_template = {
 			1388
 		}
 	},
+	{
+		ship_group = 10227,
+		name = "Marblehead",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "mabuerheide_3",
+		id = 159,
+		group_id = 159,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10144,
+		name = "BlackCat",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "kubo_3",
+		id = 160,
+		group_id = 160,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10124,
+		name = "Sims",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "ximusi",
+		id = 161,
+		group_id = 161,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30114,
+		name = "NikuSuki",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "xili_5",
+		id = 162,
+		group_id = 162,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10313,
+		name = "Minnie.Hunter",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "mingniabolisi_4",
+		id = 163,
+		group_id = 163,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10130,
+		name = "DD.Jenkins",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "jiejinsi_3",
+		id = 164,
+		group_id = 164,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -4319,6 +4391,12 @@ pg.activity_ins_template = {
 		155,
 		156,
 		157,
-		158
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164
 	}
 }

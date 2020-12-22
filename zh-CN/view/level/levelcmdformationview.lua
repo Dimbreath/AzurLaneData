@@ -9,28 +9,36 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	slot0.onConfirm = nil
-	slot0.onCancel = nil
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 
+	slot0.callback = nil
+end
+
+function slot0.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	setActive(slot0._tf, true)
+end
+
+function slot0.Hide(slot0)
+	setActive(slot0._go, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
 end
 
 function slot0.InitUI(slot0)
-	slot0.descPanel = slot0:findTF("desc")
-	slot0.descFrameTF = slot0:findTF("desc/frame")
+	slot0.descFrameTF = slot0:findTF("frame")
 	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
 	slot0.descPos2 = slot0:findTF("commander2/frame/info", slot0.descFrameTF)
 	slot0.skillTFPos1 = slot0:findTF("commander1/skill_info", slot0.descFrameTF)
 	slot0.skillTFPos2 = slot0:findTF("commander2/skill_info", slot0.descFrameTF)
 	slot0.abilitysTF = UIItemList.New(slot0:findTF("atttr_panel/abilitys/mask/content", slot0.descFrameTF), slot0:findTF("atttr_panel/abilitys/mask/content/attr", slot0.descFrameTF))
 	slot0.talentsTF = UIItemList.New(slot0:findTF("atttr_panel/talents/mask/content", slot0.descFrameTF), slot0:findTF("atttr_panel/talents/mask/content/attr", slot0.descFrameTF))
-	slot0.abilityArr = slot0:findTF("desc/frame/atttr_panel/abilitys/arr")
-	slot0.talentsArr = slot0:findTF("desc/frame/atttr_panel/talents/arr")
-	slot0.animtion = slot0.descPanel:GetComponent("Animation")
-	slot0.animtionEvent = slot0:findTF("desc"):GetComponent(typeof(DftAniEvent))
+	slot0.abilityArr = slot0:findTF("frame/atttr_panel/abilitys/arr")
+	slot0.talentsArr = slot0:findTF("frame/atttr_panel/talents/arr")
 	slot0.restAllBtn = slot0:findTF("rest_all", slot0.descFrameTF)
 	slot0.quickBtn = slot0:findTF("quick_btn", slot0.descFrameTF)
-	slot0.recordPanel = slot0:findTF("desc/record_panel")
+	slot0.recordPanel = slot0:findTF("record_panel")
 	slot0.recordCommanders = {
 		slot0.recordPanel:Find("current/commanders/commander1/frame/info"),
 		slot0.recordPanel:Find("current/commanders/commander2/frame/info")
@@ -42,31 +50,26 @@ function slot0.InitUI(slot0)
 	slot0.recordList = UIItemList.New(slot0.recordPanel:Find("record/content"), slot0.recordPanel:Find("record/content/commanders"))
 
 	onButton(slot0, slot0.restAllBtn, function ()
-		if uv0.callback then
-			uv0.callback({
-				type = LevelUIConst.COMMANDER_OP_REST_ALL
-			})
-		end
+		uv0.callback({
+			type = LevelUIConst.COMMANDER_OP_REST_ALL
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.quickBtn, function ()
 		uv0:OpenRecordPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.recordPanel, function ()
+	onButton(slot0, slot0.recordPanel:Find("back"), function ()
 		uv0:CloseRecordPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf, function ()
-		uv0:close()
+	onButton(slot0, slot0._tf:Find("bg"), function ()
+		uv0:Hide()
 	end, SFX_PANEL)
 end
 
-function slot0.hidePrefabButtons(slot0)
-	setActive(slot0.restAllBtn, false)
-	setActive(slot0.quickBtn, false)
+function slot0.setCallback(slot0, slot1)
+	slot0.callback = slot1
 end
 
-function slot0.update(slot0, slot1, slot2, slot3)
-	slot0.callback = slot3
-
+function slot0.update(slot0, slot1, slot2)
 	slot0:updateFleet(slot1)
 	slot0:updatePrefabs(slot2)
 end
@@ -108,34 +111,28 @@ function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 	slot4 = slot2:Find("fleet_name")
 
 	onInputEndEdit(slot0, slot4, function ()
-		if uv1.callback then
-			uv1.callback({
-				type = LevelUIConst.COMMANDER_OP_RENAME,
-				id = uv2.id,
-				str = getInputText(uv0),
-				onFailed = function ()
-					setInputText(uv0, uv1)
-				end
-			})
-		end
+		uv1.callback({
+			type = LevelUIConst.COMMANDER_OP_RENAME,
+			id = uv2.id,
+			str = getInputText(uv0),
+			onFailed = function ()
+				setInputText(uv0, uv1)
+			end
+		})
 	end)
 	setInputText(slot4, slot1:getName())
 	onButton(slot0, slot2:Find("use_btn"), function ()
-		if uv0.callback then
-			uv0.callback({
-				type = LevelUIConst.COMMANDER_OP_USE_PREFAB,
-				id = uv1.id
-			})
-			uv0:CloseRecordPanel()
-		end
+		uv0.callback({
+			type = LevelUIConst.COMMANDER_OP_USE_PREFAB,
+			id = uv1.id
+		})
+		uv0:CloseRecordPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot2:Find("record_btn"), function ()
-		if uv0.callback then
-			uv0.callback({
-				type = LevelUIConst.COMMANDER_OP_RECORD_PREFAB,
-				id = uv1.id
-			})
-		end
+		uv0.callback({
+			type = LevelUIConst.COMMANDER_OP_RECORD_PREFAB,
+			id = uv1.id
+		})
 	end, SFX_PANEL)
 
 	for slot11, slot12 in ipairs({
@@ -152,27 +149,11 @@ function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.playAnim(slot0, slot1, slot2)
-	slot0.animtion:Play(slot1)
-end
-
-function slot0.open(slot0)
-	slot0:playAnim("cmdopen", callback)
-	setActive(slot0._go, true)
-	setParent(slot0._go, pg.UIMgr.GetInstance().OverlayMain)
-	slot0._tf:SetAsLastSibling()
-end
-
-function slot0.close(slot0)
-	slot0:playAnim("cmdclose", callback)
-	slot0:Destroy()
-end
-
 function slot0.updateDesc(slot0)
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
 		slot6 = slot0.fleet:getCommanders()[slot5]
 
-		slot0:updateCommander(slot0["descPos" .. slot5], slot5, slot6)
+		slot0:updateCommander(slot0["descPos" .. slot5], slot5, slot6, true)
 		slot0:updateSkillTF(slot6, slot0["skillTFPos" .. slot5])
 	end
 
@@ -217,43 +198,52 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 
 		GetImageSpriteFromAtlasAsync("CommanderSkillIcon/" .. slot3:getConfig("icon"), "", slot2:Find("icon"))
 		setText(slot2:Find("level"), "Lv." .. slot3:getLevel())
+		onButton(slot0, slot2, function ()
+			uv0.callback({
+				type = LevelUIConst.COMMANDER_OP_SHOW_SKILL,
+				skill = uv1
+			})
+		end, SFX_PANEL)
+
+		return
 	end
+
+	removeOnButton(slot2)
 end
 
-function slot0.updateCommander(slot0, slot1, slot2, slot3)
-	slot4 = slot1:Find("add")
-	slot5 = slot1:Find("info")
+function slot0.updateCommander(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot1:Find("add")
+	slot6 = slot1:Find("info")
 
 	if slot3 then
-		slot7 = slot1:Find("info/frame")
+		slot8 = slot1:Find("info/frame")
 
 		GetImageSpriteFromAtlasAsync("CommanderHrz/" .. slot3:getPainting(), "", slot1:Find("info/mask/icon"))
 
 		if slot1:Find("info/name") then
-			setText(slot8, slot3:getName())
+			setText(slot9, slot3:getName())
 		end
 
-		setImageSprite(slot7, GetSpriteFromAtlas("weaponframes", "commander_" .. Commander.rarity2Frame(slot3:getRarity())))
+		setImageSprite(slot8, GetSpriteFromAtlas("weaponframes", "commander_" .. Commander.rarity2Frame(slot3:getRarity())))
 	end
 
-	onButton(slot0, slot5, function ()
-		if uv0.callback then
+	if slot4 then
+		onButton(slot0, slot6, function ()
 			uv0.callback({
 				type = LevelUIConst.COMMANDER_OP_ADD,
 				pos = uv1
 			})
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot4, function ()
-		if uv0.callback then
+		end, SFX_PANEL)
+		onButton(slot0, slot5, function ()
 			uv0.callback({
 				type = LevelUIConst.COMMANDER_OP_ADD,
 				pos = uv1
 			})
-		end
-	end, SFX_PANEL)
-	setActive(slot4, not slot3)
-	setActive(slot5, slot3)
+		end, SFX_PANEL)
+	end
+
+	setActive(slot5, not slot3)
+	setActive(slot6, slot3)
 end
 
 function slot0.OpenRecordPanel(slot0)
@@ -264,15 +254,6 @@ end
 function slot0.CloseRecordPanel(slot0)
 	setActive(slot0.descFrameTF, true)
 	setActive(slot0.recordPanel, false)
-end
-
-function slot0.enable(slot0, slot1)
-	setActive(slot0._go, slot1)
-end
-
-function slot0.clear(slot0)
-	setActive(slot0._go, false)
-	setParent(slot0._go, slot0.parent.topPanel)
 end
 
 return slot0

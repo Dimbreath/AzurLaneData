@@ -28,6 +28,8 @@ MSGBOX_TYPE_OBTAIN = 9
 MSGBOX_TYPE_ITEMTIP = 10
 MSGBOX_TYPE_JUST_FOR_SHOW = 11
 MSGBOX_TYPE_MONTH_CARD_TIP = 12
+MSGBOX_TYPE_WORLD_RESET = 13
+MSGBOX_TYPE_WORLD_STAMINA_EXCHANGE = 14
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -40,7 +42,7 @@ function slot1.Init(slot0, slot1)
 
 		uv0._tf = uv0._go.transform
 
-		uv0._tf:SetParent(uv1.UIMgr.GetInstance().OverlayMain.transform, false)
+		uv0._tf:SetParent(uv1.UIMgr.GetInstance().OverlayMain, false)
 
 		uv0._window = uv0._tf:Find("window")
 
@@ -56,6 +58,9 @@ function slot1.Init(slot0, slot1)
 		uv0.contentText:AddSprite("diamond", uv0._res:Find("diamond"):GetComponent(typeof(Image)).sprite)
 		uv0.contentText:AddSprite("gold", uv0._res:Find("gold"):GetComponent(typeof(Image)).sprite)
 		uv0.contentText:AddSprite("oil", uv0._res:Find("oil"):GetComponent(typeof(Image)).sprite)
+		uv0.contentText:AddSprite("world_money", uv0._res:Find("world_money"):GetComponent(typeof(Image)).sprite)
+		uv0.contentText:AddSprite("port_money", uv0._res:Find("port_money"):GetComponent(typeof(Image)).sprite)
+		uv0.contentText:AddSprite("guildicon", uv0._res:Find("guildicon"):GetComponent(typeof(Image)).sprite)
 
 		uv0._exchangeShipPanel = uv0._window:Find("exchange_ship_panel")
 		uv0._itemPanel = uv0._window:Find("item_panel")
@@ -72,6 +77,9 @@ function slot1.Init(slot0, slot1)
 		uv0.singleItemIntroTF:AddSprite("diamond", uv0._res:Find("diamond"):GetComponent(typeof(Image)).sprite)
 		uv0.singleItemIntroTF:AddSprite("gold", uv0._res:Find("gold"):GetComponent(typeof(Image)).sprite)
 		uv0.singleItemIntroTF:AddSprite("oil", uv0._res:Find("oil"):GetComponent(typeof(Image)).sprite)
+		uv0.singleItemIntroTF:AddSprite("world_money", uv0._res:Find("world_money"):GetComponent(typeof(Image)).sprite)
+		uv0.singleItemIntroTF:AddSprite("port_money", uv0._res:Find("port_money"):GetComponent(typeof(Image)).sprite)
+		uv0.singleItemIntroTF:AddSprite("world_boss", uv0._res:Find("world_boss"):GetComponent(typeof(Image)).sprite)
 		table.insert(uv0.singleItemIntros, uv0.singleItemIntro)
 
 		uv0._inputPanel = uv0._window:Find("input_panel")
@@ -85,6 +93,8 @@ function slot1.Init(slot0, slot1)
 		uv0._helpBgTF = uv0._tf:Find("bg_help")
 		uv0._helpList = uv0._helpPanel:Find("list")
 		uv0._helpTpl = uv0._helpPanel:Find("list/help_tpl")
+		uv0._worldResetPanel = uv0._window:Find("world_reset_panel")
+		uv0._worldShopBtn = uv0._go.transform:Find("window/world_shop_btn")
 		uv0._obtainPanel = uv0._window:Find("obtain_panel")
 		uv0._otherPanel = uv0._window:Find("other_panel")
 		uv0._countSelect = uv0._window:Find("count_select")
@@ -128,13 +138,12 @@ function slot4(slot0, slot1)
 	slot0:commonSetting(slot1)
 	setActive(slot0._inputPanel, true)
 	setActive(slot0._btnContainer, false)
-	slot0._inputPanel:SetAsLastSibling()
 
 	slot0._inputTitle.text = slot1.title or ""
 	slot0._placeholderTF.text = slot1.placeholder or ""
 	slot0._inputField.characterLimit = slot1.limit or 0
 
-	setActive(slot0._inputCancelBtn, not slot1.onNo)
+	setActive(slot0._inputCancelBtn, not slot1.hideNo)
 	slot0:updateButton(slot0._inputCancelBtn, slot1.noText or uv0.TEXT_CANCEL)
 	slot0:updateButton(slot0._inputConfirmBtn, slot1.yesText or uv0.TEXT_CONFIRM)
 	onButton(slot0, slot0._inputCancelBtn, function ()
@@ -268,7 +277,7 @@ function slot8(slot0, slot1)
 	updateDrop(slot0._sigleItemPanel, slot1.drop)
 
 	if slot1.windowSize then
-		rtf(slot0._window).sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
+		slot0._window.sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
 	end
 
 	slot3 = 1
@@ -353,6 +362,11 @@ function slot8(slot0, slot1)
 		setText(slot2, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_WORLD_ITEM then
 		setText(slot2, HXSet.hxLan(slot1.drop.cfg.display))
+	elseif slot1.drop.type == DROP_TYPE_WORLD_COLLECTION then
+		slot9 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
+
+		setText(slot2, i18n("world_" .. slot9 .. "_desc", slot1.drop.cfg.name))
+		setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), i18n("world_" .. slot9 .. "_name", slot1.drop.cfg.name))
 	elseif slot1.drop.type == DROP_TYPE_ICON_FRAME then
 		setText(slot2, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_CHAT_FRAME then
@@ -392,15 +406,12 @@ function slot8(slot0, slot1)
 end
 
 function slot9(slot0, slot1)
-	slot1.hideNo = defaultValue(slot1.hideNo, true)
-	slot1.hideYes = defaultValue(slot1.hideYes, true)
-
 	slot0:commonSetting(slot1)
 	setActive(findTF(slot0._helpPanel, "bg"), not slot1.helps.pageMode)
 	setActive(slot0._helpBgTF, slot1.helps.pageMode)
 
 	if slot1.helps.helpSize then
-		rtf(slot0._helpPanel).sizeDelta = Vector2(slot1.helps.helpSize.x or slot0._defaultHelpSize.x, slot1.helps.helpSize.y or slot0._defaultHelpSize.y)
+		slot0._helpPanel.sizeDelta = Vector2(slot1.helps.helpSize.x or slot0._defaultHelpSize.x, slot1.helps.helpSize.y or slot0._defaultHelpSize.y)
 	end
 
 	if slot1.helps.helpPos then
@@ -411,11 +422,11 @@ function slot9(slot0, slot1)
 	end
 
 	if slot1.helps.windowSize then
-		rtf(slot0._window).sizeDelta = Vector2(slot1.helps.windowSize.x or slot0._defaultSize.x, slot1.helps.windowSize.y or slot0._defaultSize.y)
+		slot0._window.sizeDelta = Vector2(slot1.helps.windowSize.x or slot0._defaultSize.x, slot1.helps.windowSize.y or slot0._defaultSize.y)
 	end
 
 	if slot1.helps.windowPos then
-		rtf(slot0._window).sizeDelta = Vector2(slot1.helps.windowSize.x or slot0._defaultSize.x, slot1.helps.windowSize.y or slot0._defaultSize.y)
+		slot0._window.sizeDelta = Vector2(slot1.helps.windowSize.x or slot0._defaultSize.x, slot1.helps.windowSize.y or slot0._defaultSize.y)
 
 		setAnchoredPosition(slot0._window, {
 			x = slot1.helps.windowPos.x or 0,
@@ -461,7 +472,6 @@ function slot9(slot0, slot1)
 		slot8 = slot0._helpList:GetChild(slot6 - 1)
 
 		setActive(slot8, true)
-		setText(slot8, slot7.info or "")
 		setActive(slot8:Find("icon"), slot7.icon)
 		setActive(findTF(slot8, "line"), slot7.line)
 
@@ -482,6 +492,21 @@ function slot9(slot0, slot1)
 			})
 			setActive(slot9:Find("corner"), slot1.helps.pageMode)
 		end
+
+		slot10 = slot8:Find("richText"):GetComponent("RichText")
+
+		if slot7.rawIcon then
+			slot11 = slot7.rawIcon.name
+
+			slot10:AddSprite(slot11, GetSpriteFromAtlas(slot7.rawIcon.atlas, slot11))
+			setText(slot8, "")
+
+			slot10.text = string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, slot7.info or "")
+		else
+			setText(slot8, slot7.info or "")
+		end
+
+		setActive(slot10.gameObject, slot7.rawIcon)
 	end
 
 	slot0.helpPage = slot1.helps.defaultpage or 1
@@ -498,7 +523,7 @@ function slot10(slot0, slot1)
 	setActive(slot0._otherPanel, true)
 
 	slot2 = tf(slot1.secondaryUI)
-	rtf(slot0._window).sizeDelta = Vector2(960, slot0._defaultSize.y)
+	slot0._window.sizeDelta = Vector2(960, slot0._defaultSize.y)
 
 	setActive(slot2, true)
 
@@ -674,6 +699,127 @@ function slot11(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
+function slot12(slot0, slot1)
+	slot0:commonSetting(slot1)
+	setActive(slot0._worldResetPanel, true)
+	setActive(slot0._worldShopBtn, false)
+	setText(slot0._worldResetPanel:Find("content/Text"), slot1.tipWord)
+	setActive(slot0._worldResetPanel:Find("IconTpl"), false)
+	removeAllChildren(slot0._worldResetPanel:Find("content/item_list"))
+
+	for slot7, slot8 in ipairs(slot1.drops) do
+		slot9 = cloneTplTo(slot2, slot3)
+
+		updateDrop(slot9, slot8)
+
+		slot10 = findTF(slot9, "name")
+
+		changeToScrollText(slot10, getText(slot10))
+
+		if slot1.itemFunc then
+			onButton(slot0, slot9, function ()
+				uv0.itemFunc(uv1)
+			end, SFX_PANEL)
+		end
+	end
+
+	onButton(slot0, slot0._worldShopBtn, function ()
+		uv0:hide()
+
+		return existCall(uv1.goShop)
+	end, SFX_MAIN)
+	slot0:Loaded(slot1)
+end
+
+function slot13(slot0, slot1)
+	slot0:commonSetting(slot1)
+
+	slot0._window.sizeDelta = Vector2(slot0._defaultSize.x, 520)
+
+	setActive(slot0._obtainPanel, true)
+	setActive(slot0._btnContainer, false)
+	updateDrop(slot0._obtainPanel, {
+		type = DROP_TYPE_SHIP,
+		id = slot1.shipId
+	})
+
+	slot0.obtainSkipList = slot0.obtainSkipList or UIItemList.New(slot0._obtainPanel:Find("skipable_list"), slot0._obtainPanel:Find("skipable_list/tpl"))
+
+	slot0.obtainSkipList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0.list[slot1 + 1]
+			slot6 = slot3[3]
+
+			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(slot3[1])
+			setActive(slot2:Find("skip_btn"), slot3[2][1] ~= "" and slot5[1] ~= "COLLECTSHIP")
+
+			if slot5[1] ~= "" then
+				onButton(uv1, slot2:Find("skip_btn"), function ()
+					if uv0 and uv0 ~= 0 then
+						if not getProxy(ActivityProxy):getActivityById(uv0) or slot0:isEnd() then
+							uv1.TipsMgr.GetInstance():ShowTips(i18n("collection_way_is_unopen"))
+
+							return
+						end
+					elseif uv2[1] == "SHOP" and uv2[2].warp == NewShopsScene.TYPE_MILITARY_SHOP and not uv1.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "MilitaryExerciseMediator") then
+						uv1.TipsMgr.GetInstance():ShowTips(i18n("military_shop_no_open_tip"))
+
+						return
+					elseif uv2[1] == "LEVEL" and uv2[2] then
+						if getProxy(ChapterProxy):getChapterById(uv2[2].chapterid):isUnlock() then
+							if slot1:getActiveChapter() and slot3.id ~= slot0 then
+								uv3:ShowMsgBox({
+									content = i18n("collect_chapter_is_activation"),
+									onYes = function ()
+										uv0.m02:sendNotification(GAME.CHAPTER_OP, {
+											type = ChapterConst.OpRetreat
+										})
+									end
+								})
+
+								return
+							else
+								if slot2.active then
+									-- Nothing
+								else
+									slot4.openChapterId = slot0
+								end
+
+								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+									mapIdx = slot2:getConfig("map"),
+									chapterId = slot2.id
+								})
+							end
+						else
+							uv1.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
+
+							return
+						end
+					elseif uv2[1] == "COLLECTSHIP" then
+						if uv4.mediatorName == CollectionMediator.__cname then
+							uv1.m02:sendNotification(CollectionMediator.EVENT_OBTAIN_SKIP, {
+								toggle = 2,
+								displayGroupId = uv2[2].shipGroupId
+							})
+						else
+							uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.COLLECTSHIP, {
+								toggle = 2,
+								displayGroupId = uv2[2].shipGroupId
+							})
+						end
+					else
+						uv1.m02:sendNotification(GAME.GO_SCENE, SCENE[uv2[1]], uv2[2])
+					end
+
+					uv3:hide()
+				end, SFX_PANEL)
+			end
+		end
+	end)
+	slot0.obtainSkipList:align(#slot1.list)
+	slot0:Loaded(slot1)
+end
+
 function slot1.nextPage(slot0)
 	slot0.helpPage = slot0.helpPage + 1
 
@@ -721,6 +867,9 @@ function slot1.commonSetting(slot0, slot1)
 	setActive(slot0._sigleItemPanel, false)
 	setActive(slot0._inputPanel, false)
 	setActive(slot0._obtainPanel, false)
+	setActive(slot0._otherPanel, false)
+	setActive(slot0._worldResetPanel, false)
+	setActive(slot0._worldShopBtn, false)
 	setActive(slot0._otherPanel, false)
 	setActive(slot0._helpBgTF, false)
 	setActive(slot0._helpPanel, slot1.helps)
@@ -797,8 +946,15 @@ function slot1.commonSetting(slot0, slot1)
 			btnType = slot0.settings.yesBtnType or uv1.BUTTON_BLUE,
 			onCallback = slot0.settings.onYes or function ()
 			end,
-			sound = slot1.yesSound or SFX_CONFIRM
+			sound = slot1.yesSound or SFX_CONFIRM,
+			alignment = slot0.settings.yesSize and TextAnchor.MiddleCenter
 		})
+
+		if slot0.settings.yesSize then
+			slot12.sizeDelta = slot0.settings.yesSize
+		end
+
+		setGray(slot12, slot0.settings.yesGray, true)
 	end
 
 	if slot0.settings.yseBtnLetf then
@@ -867,71 +1023,73 @@ function slot1.commonSetting(slot0, slot1)
 end
 
 function slot1.createBtn(slot0, slot1)
-	slot3 = slot1.onCallback or function ()
-	end
-	slot4 = slot1.noQuit
-	slot6 = cloneTplTo(slot0._go.transform:Find("custom_btn_list/custom_button_" .. (slot1.btnType or uv0.BUTTON_BLUE)), slot0._btnContainer)
+	slot3 = slot1.noQuit
+	slot5 = cloneTplTo(slot0._go.transform:Find("custom_btn_list/custom_button_" .. (slot1.btnType or uv0.BUTTON_BLUE)), slot0._btnContainer)
 
 	if slot1.label then
-		go(slot6).name = slot1.label
+		go(slot5).name = slot1.label
 	end
 
-	SetActive(slot6, true)
+	SetActive(slot5, true)
 
 	if slot1.scale then
-		slot6.localScale = Vector2(slot1.scale.x or 1, slot1.scale.y or 1)
+		slot5.localScale = Vector2(slot1.scale.x or 1, slot1.scale.y or 1)
 	end
 
 	if slot2 == uv0.BUTTON_MEDAL then
-		setText(slot6:Find("text"), slot1.text)
+		setText(slot5:Find("text"), slot1.text)
 	elseif slot2 ~= uv0.BUTTON_RETREAT and slot2 ~= uv0.BUTTON_PREPAGE and slot2 ~= uv0.BUTTON_NEXTPAGE then
-		slot0:updateButton(slot6, slot1.text)
+		slot0:updateButton(slot5, slot1.text, slot1.alignment)
 	end
 
 	if slot2 == uv0.BUTTON_BLUE_WITH_ICON and slot1.iconName then
-		setImageSprite(slot6:Find("ticket/icon"), LoadSprite(slot1.iconName[1], slot1.iconName[2]))
+		setImageSprite(slot5:Find("ticket/icon"), LoadSprite(slot1.iconName[1], slot1.iconName[2]))
 	end
 
 	if not slot1.hideEvent then
-		onButton(slot0, slot6, function ()
+		onButton(slot0, slot5, function ()
 			if type(uv0) == "function" then
-				if not uv0() then
+				if uv0() then
+					return
+				else
 					SetActive(uv1._go, false)
 					uv1:Clear()
-				else
-					return
 				end
 			elseif not uv0 then
 				SetActive(uv1._go, false)
 				uv1:Clear()
 			end
 
-			uv2()
+			return existCall(uv2.onCallback)
 		end, slot1.sound or SFX_CONFIRM)
 	end
 
 	if slot1.sibling then
-		slot6:SetSiblingIndex(slot1.sibling)
+		slot5:SetSiblingIndex(slot1.sibling)
 	end
 
-	return slot6
+	return slot5
 end
 
-function slot1.updateButton(slot0, slot1, slot2)
-	slot3 = uv0[slot2]
+function slot1.updateButton(slot0, slot1, slot2, slot3)
+	slot4 = uv0[slot2]
 
 	if IsNil(slot1:Find("pic")) then
 		return
 	end
 
-	if slot3 then
-		setText(slot4, i18n(slot3))
+	if slot4 then
+		setText(slot5, i18n(slot4))
 	else
 		if string.len(slot2) > 12 then
-			GetComponent(slot4, typeof(Text)).resizeTextForBestFit = true
+			GetComponent(slot5, typeof(Text)).resizeTextForBestFit = true
 		end
 
-		setText(slot4, slot2)
+		setText(slot5, slot2)
+	end
+
+	if slot3 then
+		slot5:GetComponent(typeof(Text)).alignment = slot3
 	end
 end
 
@@ -1026,6 +1184,9 @@ function slot1.ShowMsgBox(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_ITEM_BOX then
 		uv5(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_HELP then
+		slot1.hideNo = defaultValue(slot1.hideNo, true)
+		slot1.hideYes = defaultValue(slot1.hideYes, true)
+
 		uv6(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_SECONDPWD then
 		PoolMgr.GetInstance():GetUI("Msgbox4SECPWD", true, function (slot0)
@@ -1040,10 +1201,12 @@ function slot1.ShowMsgBox(slot0, slot1)
 			SetParent(slot0, uv0._otherPanel, false)
 			uv2(uv0, uv1)
 		end)
+	elseif slot2 == MSGBOX_TYPE_WORLD_RESET then
+		uv8(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_OBTAIN then
-		slot1.title = slot1.title or uv8.TITLE_OBTAIN
+		slot1.title = slot1.title or uv9.TITLE_OBTAIN
 
-		uv9(slot0, slot1)
+		uv10(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_ITEMTIP then
 		slot0:GetPanel(ItemTipPanel).buffer:UpdateView(slot1)
 	elseif slot2 == MSGBOX_TYPE_JUST_FOR_SHOW then

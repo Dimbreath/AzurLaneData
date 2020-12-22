@@ -737,5 +737,8 @@ pg.activity_const = {
 	},
 	DOA_PT_ID = {
 		act_id = 779
+	},
+	ELITE_AWARD_ACTIVITY_ID = {
+		act_id = 40
 	}
 }

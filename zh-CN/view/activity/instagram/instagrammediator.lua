@@ -73,7 +73,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:SetProxy(getProxy(InstagramProxy))
 
 		if slot1:getBody().cmd == ActivityConst.INSTAGRAM_OP_SHARE then
-			pg.ShareMgr:GetInstance():Share(pg.ShareMgr.TypeInstagram)
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeInstagram)
 		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_LIKE then
 			slot4()
 			slot0.viewComponent:UpdateLikeBtn()

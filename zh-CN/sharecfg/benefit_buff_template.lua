@@ -8,7 +8,7 @@ pg.benefit_buff_template = {
 		desc = "后宅经验加成提高5%",
 		benefit_effect = "5",
 		id = 1,
-		icon = "Props/haijungali",
+		icon = "Props/christmas",
 		benefit_type = "dorm_exp"
 	},
 	{
@@ -37,7 +37,7 @@ pg.benefit_buff_template = {
 		name = "经验加成",
 		hide = 0,
 		max_time = 0,
-		desc = "指挥官等级小于30级时，在普通关卡、困难关卡、活动关卡、每日活动中获得的指挥官经验和角色经验提高100%",
+		desc = "指挥官等级小于60级时，在普通关卡、困难关卡、活动关卡、每日活动中获得的指挥官经验和角色经验提高100%",
 		benefit_effect = "100",
 		id = 4,
 		icon = "Props/xinshou",
@@ -45,10 +45,65 @@ pg.benefit_buff_template = {
 		benefit_condition = {
 			"lv",
 			"<",
-			30
+			60
 		}
 	},
-	[10] = {
+	{
+		name = "石油消耗增加",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "普通关卡、困难关卡、活动关卡的油耗增加200%",
+		benefit_effect = "100",
+		id = 5,
+		icon = "Props/xinshou",
+		benefit_type = "more_oil"
+	},
+	{
+		name = "指挥官经验加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "普通关卡、困难关卡、活动关卡的指挥官经验获取提高200%",
+		benefit_effect = "100",
+		id = 6,
+		icon = "Props/xinshou",
+		benefit_type = "user_battle_exp"
+	},
+	{
+		name = "舰娘经验加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "普通关卡、困难关卡、活动关卡的角色经验获取提高200%",
+		benefit_effect = "100",
+		id = 7,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp"
+	},
+	{
+		name = "掉落加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "普通关卡、困难关卡、活动关卡额外掉落一次",
+		benefit_effect = "1",
+		id = 8,
+		icon = "Props/xinshou",
+		benefit_type = "extra_drop"
+	},
+	{
+		name = "活动掉落加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "活动掉落额外掉落一次，不与每日首次掉落叠加",
+		benefit_effect = "1",
+		id = 9,
+		icon = "Props/xinshou",
+		benefit_type = "extra_activity_drop"
+	},
+	{
 		name = "学业",
 		hide = 0,
 		max_time = 86400,
@@ -59,7 +114,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_10",
 		benefit_type = "skill_learncost_up"
 	},
-	[11] = {
+	{
 		name = "事业",
 		hide = 0,
 		max_time = 86400,
@@ -70,7 +125,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_11",
 		benefit_type = "battle_buff"
 	},
-	[12] = {
+	{
 		name = "姻缘",
 		hide = 0,
 		max_time = 86400,
@@ -81,7 +136,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_12",
 		benefit_type = "intimacy_up_extra"
 	},
-	[13] = {
+	{
 		name = "舰娘经验加成1",
 		hide = 0,
 		max_time = 0,
@@ -99,7 +154,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[14] = {
+	{
 		name = "舰娘经验加成2",
 		hide = 0,
 		max_time = 0,
@@ -117,7 +172,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[15] = {
+	{
 		name = "舰娘经验加成3",
 		hide = 0,
 		max_time = 0,
@@ -135,7 +190,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[16] = {
+	{
 		name = "战斗伤害加成1",
 		hide = 0,
 		max_time = 0,
@@ -153,7 +208,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[17] = {
+	{
 		name = "战斗伤害加成2",
 		hide = 0,
 		max_time = 0,
@@ -171,7 +226,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[18] = {
+	{
 		name = "战斗伤害加成3",
 		hide = 0,
 		max_time = 0,
@@ -189,7 +244,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[19] = {
+	{
 		name = "战术学院学习时间缩短1",
 		hide = 0,
 		max_time = 0,
@@ -207,7 +262,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[20] = {
+	{
 		name = "战术学院学习时间缩短2",
 		hide = 0,
 		max_time = 0,
@@ -225,7 +280,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[21] = {
+	{
 		name = "战术学院学习时间缩短3",
 		hide = 0,
 		max_time = 0,
@@ -243,7 +298,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[22] = {
+	{
 		name = "后宅经验加成1",
 		hide = 0,
 		max_time = 0,
@@ -261,7 +316,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[23] = {
+	{
 		name = "后宅经验加成2",
 		hide = 0,
 		max_time = 0,
@@ -279,7 +334,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[24] = {
+	{
 		name = "后宅经验加成3",
 		hide = 0,
 		max_time = 0,
@@ -297,7 +352,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[25] = {
+	{
 		name = "活动关卡特装原型掉落加成",
 		hide = 0,
 		max_time = 0,
@@ -308,7 +363,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_urptup",
 		benefit_type = "urpt_drop_up"
 	},
-	[26] = {
+	{
 		name = "演唱力 ",
 		hide = 0,
 		max_time = 0,
@@ -323,7 +378,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[27] = {
+	{
 		name = "演唱力 ",
 		hide = 0,
 		max_time = 0,
@@ -338,7 +393,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[28] = {
+	{
 		name = "演唱力 ",
 		hide = 0,
 		max_time = 0,
@@ -353,7 +408,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[29] = {
+	{
 		name = "舞蹈力 ",
 		hide = 0,
 		max_time = 0,
@@ -368,7 +423,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[30] = {
+	{
 		name = "舞蹈力 ",
 		hide = 0,
 		max_time = 0,
@@ -383,7 +438,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[31] = {
+	{
 		name = "舞蹈力 ",
 		hide = 0,
 		max_time = 0,
@@ -398,7 +453,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[32] = {
+	{
 		name = "表演力 ",
 		hide = 0,
 		max_time = 0,
@@ -413,7 +468,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[33] = {
+	{
 		name = "表演力 ",
 		hide = 0,
 		max_time = 0,
@@ -428,7 +483,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[34] = {
+	{
 		name = "表演力 ",
 		hide = 0,
 		max_time = 0,
@@ -443,7 +498,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[35] = {
+	{
 		name = "<color=#ff5c5c>力量</color>LV.1：",
 		hide = 0,
 		max_time = 0,
@@ -458,7 +513,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[36] = {
+	{
 		name = "<color=#ff5c5c>力量</color>LV.2：",
 		hide = 0,
 		max_time = 0,
@@ -473,7 +528,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[37] = {
+	{
 		name = "<color=#ff5c5c>力量</color>MAX：",
 		hide = 0,
 		max_time = 0,
@@ -488,7 +543,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[38] = {
+	{
 		name = "<color=#00BFFF>技巧</color>LV.1：",
 		hide = 0,
 		max_time = 0,
@@ -503,7 +558,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[39] = {
+	{
 		name = "<color=#00BFFF>技巧</color>LV.2：",
 		hide = 0,
 		max_time = 0,
@@ -518,7 +573,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[40] = {
+	{
 		name = "<color=#00BFFF>技巧</color>MAX：",
 		hide = 0,
 		max_time = 0,
@@ -533,7 +588,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[41] = {
+	{
 		name = "<color=#ffde38>体力</color>LV.1：",
 		hide = 0,
 		max_time = 0,
@@ -548,7 +603,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[42] = {
+	{
 		name = "<color=#ffde38>体力</color>LV.2：",
 		hide = 0,
 		max_time = 0,
@@ -563,7 +618,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[43] = {
+	{
 		name = "<color=#ffde38>体力</color>MAX：",
 		hide = 0,
 		max_time = 0,
@@ -578,7 +633,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[44] = {
+	{
 		name = "<color=#FF69B4>魅力</color>LV.1：",
 		hide = 0,
 		max_time = 0,
@@ -593,7 +648,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[45] = {
+	{
 		name = "<color=#FF69B4>魅力</color>LV.2：",
 		hide = 0,
 		max_time = 0,
@@ -608,7 +663,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[46] = {
+	{
 		name = "<color=#FF69B4>魅力</color>MAX：",
 		hide = 0,
 		max_time = 0,
@@ -623,11 +678,38 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
+	{
+		name = "特殊作战加成描述",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "61001",
+		desc = "消耗2倍石油\n结算收益2倍",
+		benefit_effect = "0",
+		id = 47,
+		icon = "Props/xinshou",
+		benefit_type = "desc"
+	},
+	{
+		name = "特殊作战加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "好感度、心情值、指挥官经验、指挥喵经验、舰船经验加成",
+		benefit_effect = "100",
+		id = 48,
+		icon = "Props/xinshou",
+		benefit_type = "chapter_up"
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
+		5,
+		6,
+		7,
+		8,
+		9,
 		10,
 		11,
 		12,
@@ -664,6 +746,8 @@ pg.benefit_buff_template = {
 		43,
 		44,
 		45,
-		46
+		46,
+		47,
+		48
 	}
 }

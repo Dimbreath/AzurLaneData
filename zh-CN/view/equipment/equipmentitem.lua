@@ -18,6 +18,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.equiped = findTF(slot0.tr, "frame/bg/equip_flag")
 
 	setActive(slot0.equiped, false)
+
+	slot0.selectedMask = findTF(slot0.tr, "frame/bg/selected_transform")
+
+	if slot0.selectedMask then
+		setActive(slot0.selectedMask, false)
+	end
 end
 
 function slot0.update(slot0, slot1, slot2)
@@ -75,14 +81,15 @@ end
 function slot0.dispose(slot0)
 end
 
-function slot0.updateSelected(slot0, slot1, slot2)
-	setText(slot0.selectCount, slot2)
-
+function slot0.updateSelected(slot0, slot1, slot2, slot3)
 	slot0.selected = slot1
+	slot4 = slot0.selected
 
-	slot0.selectedGo:SetActive(slot0.selected)
+	slot0.selectedGo:SetActive(slot4)
 
-	if slot0.selected then
+	if slot4 then
+		setText(slot0.selectCount, slot2)
+
 		if not slot0.selectedTwId then
 			slot0.selectedTwId = LeanTween.alpha(slot0.selectedGo.transform, 1, uv0):setFrom(0):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId
 		end

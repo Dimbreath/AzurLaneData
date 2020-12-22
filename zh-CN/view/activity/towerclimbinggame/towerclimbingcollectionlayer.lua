@@ -102,7 +102,7 @@ function slot0.InitBooks(slot0)
 			if uv0 then
 				uv1:OpenBook(uv2)
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("towerclimbing_book_tip"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("towerclimbing_book_tip"))
 			end
 		end, SFX_PANEL)
 	end
@@ -144,7 +144,7 @@ function slot0.OpenBook(slot0, slot1)
 		uv0:emit(TowerClimbingCollectionMediator.ON_GET, uv1)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
-		pg.TipsMgr:GetInstance():ShowTips(i18n("towerclimbing_reward_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("towerclimbing_reward_tip"))
 	end, SFX_PANEL)
 	triggerButton(slot0.prevPageBtn, true)
 end

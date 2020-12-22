@@ -33,6 +33,13 @@ function slot0.InitDetail(slot0)
 	slot0.propertyIcons = slot0.detailPanel:Find("attrs/attrs/property/icons")
 	slot0.intimacyTF = slot0:findTF("intimacy")
 	slot0.intimacyHeart = slot0.intimacyTF:Find("heart")
+	slot0.intimacyHeartMeta = slot0.intimacyTF:Find("heart_meta")
+
+	setLocalScale(slot0.intimacyHeartMeta, {
+		x = 1.2,
+		y = 1.2
+	})
+
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
 	slot0.recordPanel = slot0.detailPanel:Find("record_panel")
 	slot0.unloadAllBtn = slot0.recordPanel:Find("frame/unload_all")
@@ -189,11 +196,13 @@ function slot0.UpdateIntimacy(slot0, slot1)
 	slot6 = 1
 
 	if slot3 <= slot4 and not slot1.propose then
-		setActive(slot0.intimacyHeart, true)
+		setActive(slot0.intimacyHeartMeta, slot1:isMetaShip())
+		setActive(slot0.intimacyHeart, not slot1:isMetaShip())
 
 		slot6 = 0
 	else
 		setActive(slot0.intimacyHeart, false)
+		setActive(slot0.intimacyHeartMeta, false)
 	end
 
 	slot0.intimacyTF:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, slot6)

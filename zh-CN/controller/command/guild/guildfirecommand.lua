@@ -13,11 +13,12 @@ function slot0.execute(slot0, slot1)
 		player_id = slot2
 	}, 60015, function (slot0)
 		if slot0.result == 0 then
-			uv0 = uv1:getData()
+			slot1 = uv0:getData()
+			slot1 = uv0:getData()
 
-			uv0:deleteMember(uv2)
-			uv1:updateGuild(uv0)
-			uv3:sendNotification(GAME.GUILD_FIRE_DONE)
+			slot1:deleteMember(uv1)
+			uv0:updateGuild(slot1)
+			uv2:sendNotification(GAME.GUILD_FIRE_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_fire_succeed"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_fire_erro", slot0.result))

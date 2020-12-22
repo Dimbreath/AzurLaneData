@@ -29,6 +29,18 @@ function slot1.SetWaveData(slot0, slot1)
 	slot0._round = slot0._param.round
 end
 
+function slot1.IsBossWave(slot0)
+	slot1 = false
+
+	for slot6, slot7 in ipairs(slot0._sapwnData) do
+		if slot7.bossData then
+			slot1 = true
+		end
+	end
+
+	return slot1
+end
+
 function slot1.DoWave(slot0)
 	uv0.super.DoWave(slot0)
 
@@ -266,7 +278,8 @@ function slot1.doPass(slot0)
 	slot0.clearTimerList(slot0._reinforceSpawnTimerList)
 	slot0:clearReinforceTimer()
 	slot0:clearReinforceDurationTimer()
-	uv0.super.doPass(slot0)
+	uv0.Battle.BattleDataProxy.GetInstance():KillWaveSummonMonster(slot0._index)
+	uv1.super.doPass(slot0)
 end
 
 function slot1.clearTimerList(slot0)

@@ -14,7 +14,13 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot5.type == 2 then
+	if slot5.type == DROP_TYPE_WORLD_ITEM and not nowWorld:IsActivate() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_shop_bag_unactivated"))
+
+		return
+	end
+
+	if slot5.type == DROP_TYPE_ITEM then
 		for slot15, slot16 in pairs(pg.item_data_statistics[slot5.effect_args[1]].display_icon) do
 			if slot16[1] == 1 then
 				if slot16[2] == 1 and slot7:GoldMax(slot16[3]) then
@@ -32,7 +38,7 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	if slot5.type == 1 then
+	if slot5.type == DROP_TYPE_RESOURCE then
 		if slot5.effect_args[1] == 1 and slot7:GoldMax(slot5.num * slot4) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
@@ -230,6 +236,13 @@ function slot0.execute(slot0, slot1)
 
 				slot4:getGoodsById(uv4):reduceBuyCount()
 				uv7:updateGuildShop(slot4)
+			elseif uv0.genre == ShopArgs.WorldShop then
+				nowWorld:UpdateWorldShopGoods({
+					{
+						goods_id = uv4,
+						count = uv3
+					}
+				})
 			end
 
 			if uv0.group > 0 then
@@ -299,13 +312,13 @@ function slot0.CheckGiftPackage(slot0, slot1)
 			end
 		end
 
-		if slot7 > 0 and slot9.equip_bag_max < getProxy(EquipmentProxy):getCapacity() + slot7 then
+		if slot7 > 0 and slot9:getMaxEquipmentBag() < getProxy(EquipmentProxy):getCapacity() + slot7 then
 			return false, function ()
 				NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 			end
 		end
 
-		if slot8 > 0 and slot9.ship_bag_max < getProxy(BayProxy):getShipCount() + slot8 then
+		if slot8 > 0 and slot9:getMaxShipBag() < getProxy(BayProxy):getShipCount() + slot8 then
 			return false, function ()
 				NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 			end

@@ -113,10 +113,9 @@ function slot0.UpdateFashion(slot0, slot1)
 				uv0:emit(ShipViewConst.LOAD_PAINTING, uv1.painting)
 
 				slot3 = uv0:GetShipVO():rarity2bgPrintForGet()
-				slot4 = uv0:GetShipVO()
-				slot4 = slot4.isBluePrintShip
+				slot4 = uv0:GetShipVO():isBluePrintShip()
 
-				uv0:emit(ShipViewConst.LOAD_PAINTING_BG, slot3, slot4(slot4))
+				uv0:emit(ShipViewConst.LOAD_PAINTING_BG, slot3, slot4, uv0:GetShipVO():isMetaShip())
 
 				for slot3, slot4 in ipairs(uv0.fashionSkins) do
 					slot6 = uv0.fashionCellMap[uv0.styleContainer:GetChild(slot3 - 1)]

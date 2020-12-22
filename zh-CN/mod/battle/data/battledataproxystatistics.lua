@@ -15,6 +15,7 @@ function slot0.StatisticsInit(slot0, slot1)
 		_deadCount = 0,
 		_boss_destruct = 0,
 		_botPercentage = 0,
+		_maxBossHP = 0,
 		_enemyInfoList = {}
 	}
 
@@ -208,6 +209,16 @@ function slot0.CalcSingleDungeonScoreAtEnd(slot0, slot1)
 	end
 
 	slot0._statistics._timeout = slot0:isTimeOut()
+
+	if slot0._battleInitData.CMDArgs then
+		slot0:CalcSpecificEnemyInfo({
+			slot0._battleInitData.CMDArgs
+		})
+	end
+end
+
+function slot0.CalcMaxRestHPRateBossRate(slot0, slot1)
+	slot0._statistics._maxBossHP = slot1
 end
 
 function slot0.CalcDuelScoreAtTimesUp(slot0, slot1, slot2, slot3, slot4)
@@ -375,17 +386,28 @@ function slot0.CalcDodgemScore(slot0)
 	slot0._statistics.dodgemResult = slot0._dodgemStatistics
 end
 
+function slot0.CalcActBossDamageInfo(slot0, slot1)
+	slot0:CalcSpecificEnemyInfo(uv0.GetSpecificEnemyList(slot1, slot0._expeditionID))
+end
+
+function slot0.CalcWorldBossDamageInfo(slot0, slot1, slot2, slot3)
+	slot0:CalcSpecificEnemyInfo(uv0.GetSpecificWorldJointEnemyList(slot1, slot2, slot3))
+end
+
+function slot0.CalcGuildBossEnemyInfo(slot0, slot1)
+	slot0:CalcSpecificEnemyInfo(uv0.GetSpecificGuildBossEnemyList(slot1, slot0._expeditionID))
+end
+
 function slot0.CalcSpecificEnemyInfo(slot0, slot1)
 	slot0._statistics.specificDamage = 0
-	slot3 = {}
 
-	for slot7, slot8 in ipairs(uv0.GetSpecificEnemyList(slot1, slot0._expeditionID)) do
-		slot0._statistics.specificDamage = slot0._statistics.specificDamage + slot0._statistics["enemy_" .. slot8].damage
+	for slot5, slot6 in ipairs(slot1) do
+		slot0._statistics.specificDamage = slot0._statistics.specificDamage + slot0._statistics["enemy_" .. slot6].damage
 
 		table.insert(slot0._statistics._enemyInfoList, {
-			id = slot8,
-			damage = slot0._statistics["enemy_" .. slot8].damage,
-			totalHp = slot0._statistics["enemy_" .. slot8].max_hp
+			id = slot6,
+			damage = slot0._statistics["enemy_" .. slot6].damage,
+			totalHp = slot0._statistics["enemy_" .. slot6].max_hp
 		})
 	end
 end

@@ -16,4 +16,8 @@ function slot0.addCustomBtn(slot0, slot1, slot2)
 	onButton(slot0, slot3, slot2)
 end
 
+function slot0.hidePanel(slot0)
+	triggerButton(slot0.ctrls:Find("hide_button"))
+end
+
 return slot0

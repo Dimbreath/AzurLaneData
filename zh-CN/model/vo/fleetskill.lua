@@ -150,4 +150,64 @@ function slot0.MirrorFleetCheck(slot0, slot1, slot2)
 	end
 end
 
+function slot0.GuildBossTriggerSkill(slot0, slot1)
+	slot2 = _.filter(slot0:findSkills(slot1), function (slot0)
+		slot4 = uv0:GetShips()
+
+		return _.any(slot0:GetTriggers(), function (slot0)
+			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
+		end) == (uv0:getFleetType() == FleetType.Submarine) and _.all(slot0:GetTriggers(), function (slot0)
+			return uv0.GuildBossFleetCheck(uv1, uv2, uv3, slot0)
+		end)
+	end)
+
+	return _.reduce(slot2, nil, function (slot0, slot1)
+		if slot1:GetType() == FleetSkill.TypeBattleBuff then
+			slot0 = slot0 or {}
+
+			table.insert(slot0, slot1:GetArgs()[1])
+
+			return slot0
+		end
+	end), slot2
+end
+
+function slot0.GuildBossFleetCheck(slot0, slot1, slot2, slot3)
+	function slot5()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(uv0) do
+			if slot5.ship:getTeamType() == TeamType.Vanguard then
+				table.insert(slot0, slot6)
+			end
+		end
+
+		return slot0
+	end
+
+	if slot3[1] == FleetSkill.TriggerDDCount then
+		return slot3[2] <= #_.filter(slot1, function (slot0)
+			return slot0.ship:getShipType() == ShipType.QuZhu
+		end) and slot6 <= slot3[3]
+	elseif slot4 == FleetSkill.TriggerDDHead then
+		return #slot5() > 0 and slot6[1]:getShipType() == ShipType.QuZhu
+	elseif slot4 == FleetSkill.TriggerVanCount then
+		return slot3[2] <= #slot5() and #slot6 <= slot3[3]
+	elseif slot4 == FleetSkill.TriggerShipCount then
+		return slot3[3] <= #_.filter(slot1, function (slot0)
+			return table.contains(uv0[2], slot0.ship:getShipType())
+		end) and #slot6 <= slot3[4]
+	elseif slot4 == FleetSkill.TriggerNekoPos then
+		for slot10, slot11 in pairs(slot0:getCommanders()) do
+			if slot0:findCommanderBySkillId(slot2.id).id == slot11.id and slot10 == slot3[2] then
+				return true
+			end
+		end
+	elseif slot4 == FleetSkill.TriggerInSubTeam then
+		return true
+	else
+		return false
+	end
+end
+
 return slot0
