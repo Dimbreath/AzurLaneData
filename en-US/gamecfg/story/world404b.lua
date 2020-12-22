@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "欸，周围突然起雾了？......现在是会起海雾的天气么？",
+			say = "...Eh? Where’d all this fog come from?",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恐怕没这么简单。塞壬控制区内出现的任何变化现象都值得注意，更何况这么突如其来的雾气......大家提高警惕。",
+			say = "We’d be lucky if it was just that simple. Any sudden environmental change while we’re in Siren-controlled waters should be considered an anomaly. Stay vigilant, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔......设备的仪表盘开始乱转，各项读数突变......{namecode:91}，我们的电子设备被干扰了。",
+			say = "Ugh... My navigation instruments are spinning around like crazy and all the readings are going haywire... Akagi, we’re getting jammed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "————滋滋-——————滋————",
+			say = "BZZT————ZZZZZZZ——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊！！通讯器突然自己响起来了！",
+			say = "Hwuh?! Why’d the communicator start screeching?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦......通讯器里好像有说话的声音！但是......杂音太大了，{namecode:22}大人听不清里面在说什么.......",
+			say = "Someone’s trying to say something... But I can’t make it out through all the static...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不光是我们的通讯设备，就连铁血提供的新型通讯设备同样遭受了干扰，可以认定塞壬采取了比以往更强烈的干扰措施。",
+			say = "Even the anti-jamming communicator we got from the Iron Blood is acting up... Is it really impossible to overcome the Siren interference?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于从已失灵通讯器中传出的类似于说话声的杂音，我需要花时间稍微研究一下......",
+			say = "Also, what’s this voice-like noise coming from the communicator? I really need to tinker this thing around thoroughly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然这片海雾是塞壬针对性的对我方舰队进行的某种干扰措施......恐怕接下来迎接我们的就是塞壬主力舰队了。",
+			say = "Anomalous weather and jammed communications... I’m afraid we’ve wandered into a Mirror Sea. Sooner or later, an armada of Sirens is going to show up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，情况异常，我们先减慢舰队速度观察一下情况会比较好。",
+			say = "Sister, the situational clearly is abnormal. We should slow down and survey the situation first... Sister?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这片海雾.........难道说....................",
+			say = "This fog... Could it be......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actorName = "{namecode:92}",
 			dir = 1,
 			side = 2,
-			say = "姐姐？！",
+			say = "Akagi, what’s happening to you?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不好意思走了一下神，你刚才说什么{namecode:92}？",
+			say = "Ah, sorry, I got lost in my thoughts. What were you saying?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...............................怎么人都不见了？",
+			say = "....Kaga? Where are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "{namecode:92}？！{namecode:39}？！......{namecode:37}！{namecode:22}！！！！",
+			say = "Kaga? Jintsuu?! ...Yuubari! Yukikaze!",
 			action = {
 				{
 					y = 30,
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到底是怎么回事..................？",
+			say = "...What in the world just happened...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

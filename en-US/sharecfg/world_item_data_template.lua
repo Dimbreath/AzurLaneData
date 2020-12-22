@@ -97,7 +97,7 @@ pg.world_item_data_template = {
 	},
 	[201] = {
 		rarity = 2,
-		display = "(Old) Can be used to restore 30% Max HP to 1 ship in your current fleet.(Current) Can be used to restore the HP of 1 ship in your current fleet by 1,000.",
+		display = "Can be used to restore the HP of 1 ship in your current fleet by 1,000.",
 		sort_priority = 5,
 		name = "Emergency Repair Pack",
 		expired_date = "",
@@ -123,7 +123,7 @@ pg.world_item_data_template = {
 	},
 	[202] = {
 		rarity = 2,
-		display = "(Old) Can be used to fully restore the HP of 1 ship in your current fleet.(Current) Can be used to restore the HP of 1 ship in your current fleet by 3,000.",
+		display = "Can be used to restore the HP of 1 ship in your current fleet by 3,000.",
 		sort_priority = 5,
 		name = "Complete Repair Pack",
 		expired_date = "",
@@ -148,7 +148,7 @@ pg.world_item_data_template = {
 	},
 	[203] = {
 		rarity = 2,
-		display = "(Old) Can be used to restore 15% Max HP to up to 3 ships in your current fleet.(Current) Can be used to restore the HP of up to 3 ships in your current fleet by 500.",
+		display = "Can be used to restore the HP of up to 3 ships in your current fleet by 500.",
 		sort_priority = 5,
 		name = "Triple Emergency Repair Pack",
 		expired_date = "",
@@ -174,7 +174,7 @@ pg.world_item_data_template = {
 	},
 	[204] = {
 		rarity = 2,
-		display = "(Old) Can be used to restore 50% Max HP to up to 3 ships in your current fleet.(Current) Can be used to restore the HP of up to 3 ships in your current fleet by 1,500.",
+		display = "Can be used to restore the HP of up to 3 ships in your current fleet by 1,500.",
 		sort_priority = 5,
 		name = "Triple Complete Repair Pack",
 		expired_date = "",

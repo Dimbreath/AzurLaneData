@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "完全没有命中的手感......{namecode:96}，你那边的情况呢？",
+			say = "I don’t think I’m landing a single hit... Zuikaku, what about you?",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很奇怪，不论鱼雷还是航弹，明明应该准确无误命中目标才对，却总是每次都差了一点点......",
+			say = "Same here, sis! Just when my torpedoes and bombs are about to hit, it’s as if there’s something else in the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果远距离攻击无法命中的话，就拉近距离。我们把{namecode:91}成功护送回来了哦，接下来也让我们加入战斗吧。",
+			say = "Everyone, Akagi’s starting to wake up! Zuikaku, Shoukaku, fall back! We’ll take this fight another time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶....这是何等的失态......啊，真是火大！那个塞壬就是整出这些事的元凶是吧，我要炸碎了它！",
+			say = "Damnit... This Siren’s going to burn... for making a fool out of me!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有这个必要了，姐姐......目标刚刚已经从海面上消失了。",
+			say = "Akagi, look... The Siren’s already gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬主动撤退了么......？",
+			say = "Did it decide to retreat...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然看起来是撤退了，不过海雾可没有随之一起消失哦。",
+			say = "The fog isn’t receding though. If anything, it’s getting even thicker. We have to get out of here quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不但没有消失，反而开始变得越来越浓厚，而且颜色...是不是也开始发生变化了？",
+			say = "Yukikaze, do you still remember the direction you went in to leave this—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOM————————!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊！迷雾中有新的塞壬出现了哦！",
+			say = "Woahhhh!! Everyone, there’s another Siren over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬舰队也开始增援了么......{namecode:91}，敌暗我明，继续战斗下去对我方不利。",
+			say = "Akagi... We can’t advance any further... We need to pull back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看到了吧，这就是塞壬的危险性，它们是绝不会随着你的计划而起舞的，快停手吧，{namecode:91}前辈。",
+			say = "This is a reminder as to why the Sirens are so dangerous... They’ll never allow themselves to be pawns in your plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明距离海域中心只有一步之遥了......五航战，和我一起并肩战斗吧！",
+			say = "We’re almost there... If we work together, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，至少现在不行......",
+			say = "I refuse, Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连续数场战斗下来，我们的体力和弹药都已经消耗殆尽，现在敌方数量众多，战斗能力也不明，贸然前进的话舰队可能会遭遇到重大损失。",
+			say = "We used up all our ammo back there fighting the other Siren. There’s no way we’d be able to deal with all the enemies that lurk ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且对于这片重新变得厚重的海雾，除了颜色之外，你们没感受到其他的异常么...比如舰装的操控性上.....",
+			say = "Besides, there’s something else about this fog... Look, it’s already happening. You can feel the fog eating into your rigging, can’t you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "哎？我们的舰装...正在被这片海雾高速腐蚀？怎么会出现这种荒唐的事！？",
+			say = "Yuubari just told me, this fog also has corrosive qualities!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "继续推进已经不可能了，{namecode:91}前辈，保住现有成果，暂且先撤回达咯尔港进行修整吧。",
+			say = "We’re going to get annihilated at this rate, Akagi. We already got the Siren sample we came for, so let’s head back to Dakar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欲速则不达。姐姐，鉴于现状，我赞同{namecode:96}的提议。",
+			say = "Live to fight another day, huh? Sister, Zuikaku is right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好吧..........尽快摆脱塞壬的纠缠向达咯尔方向撤退........等到休整完毕之后，我们再来！",
+			say = "Very well... Turn back and head towards Dakar... But heed my words, Siren, we’ll be back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,23 +409,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>碧色号角奏于大洋</size>",
+					"<size=51>The azure horn sounds across the ocean.\t</size>",
 					1
 				},
 				{
-					"<size=51>赤红之影迷离虚妄</size>",
+					"<size=51>To which the crimson shadow dances deliriously.\t</size>",
 					2
 				},
 				{
-					"<size=51>海妖之暗，燃烬之灰，四方势力于此汇聚</size>",
+					"<size=51>Four blades point towards darkness, lit by ember and ash.\t</size>",
 					3
 				},
 				{
-					"<size=51>仲裁机关的目的，风暴中心的秘密</size> ",
+					"<size=51>Who programs those who arbitrate beneath the maelstrom of secrecy?\t</size> ",
 					4
 				},
 				{
-					"<size=51>海域之中隐藏的一切，静待揭晓——</size>",
+					"<size=51>For all that the surface conceals shall be laid before the abyss.\t</size>",
 					5
 				},
 				{

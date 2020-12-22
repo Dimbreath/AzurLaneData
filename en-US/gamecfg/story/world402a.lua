@@ -14,7 +14,7 @@ return {
 			bgm = "bsm-7",
 			actor = 307020,
 			nameColor = "#a9f548",
-			say = "前方就是达咯尔港.......？听说这里是维希教廷在阿非利加的一处重要军事港口，怎么会如此冷清......",
+			say = "Is that Dakar up ahead? I heard that this one of the Vichya Dominion’s most important ports, but it looks rather deserted...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不但没有看到铁血为作战而集结的舰队，连维希教廷的驻港舰队都没有看到。",
+			say = "That’s true. I don’t see any ships here from either the Vichya or the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...好吧，也不是完全没有。前方有一艘驱逐舰正在向我们接近.......应该是铁血派来迎接我们的吧。",
+			say = "Or rather, I shouldn’t say that there aren’t any. I think that’s destroyer coming towards us is a messenger from the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_port_dakaer",
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "欢迎来到达咯尔港，我是驱逐舰Z2，根据铁血司令部的命令在此等候各位的到来。",
+			say = "Welcome to Dakar. I am the destroyer, Z2, and I have been assigned to wait for your arrival.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			nameColor = "#a9f548",
-			say = "欸？达喀尔港只有你一个人在吗？",
+			say = "Huh? You’re our entire welcoming committee?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，目前停留在港口中的只有我，不过各位来这里也不是为了检阅铁血舰队吧。",
+			say = "Yes, I’m the only one here right now at Dakar. But, you’re not here to inspect the Iron Blood fleet, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "我们就简洁高效一些，直奔正题好了。各位请跟我来。",
+			say = "Let’s talk business. This way, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不愧是铁血的效率，那我就稍微期待一下了~",
+			say = "That’s the Iron Blood efficiency I want to see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			nameColor = "#a9f548",
-			say = "铁血正在进行的实验路线，居然与我们完全不一样.......",
+			say = "Woah, is this an Iron Blood research lab? Now this piques my interest!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是这样么....铁血对于心智魔方的研究确实非常有趣。",
+			say = "I see, this is a more reductionist view of the Wisdom Cube. Purely empirical, unlike the more metaphysical approach we take in our research.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "模块式要塞的心智魔方供能化尝试，生物学和机械相结合的舰装技术，以及全新的设备升级方向......",
+			say = "(A modular, large-scale dock. Energy absorption devices. Adaptive bioengineered rigging. Communication equipment resistant to EM attacks. Even “imitations” of Mirror Seas...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甚至还有试图解析镜面海域的实验.....呵呵，回去之后我们也根据铁血提供的资料改善我们的研究吧。",
+			say = "Yuubari, do you think there’s anything here you’d be able to use?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题。利用这些资料，我们很快就能开始设计类似的实验了。",
+			say = "You bet! I have plenty of ideas I’m dying to try out as soon as we get back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（铁血看来从塞壬那边收获颇丰....可是重樱这边.....）",
+			say = "(The Iron Blood seems to have successfully extracted much from the Sirens... But us, on the other hand...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "（呵，果然要取得真正有用的东西还是要靠自己的行动......）",
+			say = "(Nay... If there’s something you want, you must seize it yourself...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

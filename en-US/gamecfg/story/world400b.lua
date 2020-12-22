@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然和它们分歧这么多，没想到在对待塞壬战争这样的大局问题上倒是难得保持了一致看法。",
+			say = "After all, we have just launched a historic attack against the Sirens, the collective enemy of humanity. Isn’t it only natural to seek a treaty that would put aside our differences?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵，谁知道它们到底是怎么盘算呢。单纯只是为了全人类的生存而战这样正义的目的，还是背地里也在觊觎着战斗中的收获......",
+			say = "Indeed, Littorio, it’s just as you say. This war will determine the factions that have the right to live.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "缴获的塞壬设备、回收的塞壬科技，我可不信它们真的不动心。",
+			say = "The very essence, the beating heart of Siren technology will soon be laid bare before us. Is there any human selfless enough to forego such power?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个嘛~反正一会皇家的伊丽莎白就要带人来了，不如你直接当面问问她？",
+			say = "About that... Well, it seems that the Queen of the Royal Navy is about to arrive. Perhaps that is a question you’d like to ask her personally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有趣的建议，我会认真考虑一下的。",
+			say = "An interesting suggestion. I’ll consider it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们呢？真的就打算一直带着舰队留在陆间海么，是不是有点太无欲无求了？",
+			say = "And what about you, Littorio? Would the Sirens’ technology not bear rich fruit for the people of Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "取得陆间海的完全控制权，就是我们撒丁帝国的追求啊~",
+			say = "We wish to reclaim our birthright, the Méditerranée, in its entirety. That’s the reason we’re still in the Crimson Axis.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉...也是。你们按兵不动的话，不但能够确保补给线，还能牵制碧蓝航线的大量舰队，倒也不错。",
+			say = "Heh, an understandable sentiment. But enough about us — let’s talk about the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，我这一路过来的时候还见到了不少塞壬呢。虽说都只是碍眼的杂鱼级别，不过这是你们作为管理者的失格哟。",
+			say = "We came across quite a few Sirens on our way, as you may know. Weak as they were, what does Sardegna plan to do about this show of... negligence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我听说以前的陆间海好像很少有塞壬染指，是最近塞壬对于陆间海的方针发生变化了么？",
+			say = "I always thought the Sirens had little interest in the Méditerranée. Have their plans changed recently?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，与其说是塞壬的方针发生变化，不如说是现在的局势发生变化了。",
+			say = "I wouldn’t say that their plans have changed, but rather, the situation has changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "陆间海是一片相对封闭的海洋，只要牢牢守住两端的出入口，塞壬就很难派遣大部队进入，这也是过去陆间海中塞壬较少的原因。",
+			say = "The Méditerranée is naturally well-protected, making a large-scale Siren invasion extremely difficult as long as the points of entry are guarded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "不过现在嘛，一头的苏彝士运河如你们所见，因为公约的关系谁也不能带领舰队进行直接封锁。",
+			say = "As for the ones responsible for this defense, from the perspective of the Royal Navy, they are in charge of defending the western entrance while Sardegna is in charge of the east.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "至于另一头，皇家原本建立了一条严密的封锁线，除了试图阻止我们出去之外，也间接阻挡了塞壬的进攻。",
+			say = "Since the announcement of Operation Siren, the Royal Navy’s fleets have thinned out, allowing more stray Sirens through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "现在为了显示出签订停火协议的诚意，皇家主动撤销了封锁线，自然也就没人替我们守门咯。",
+			say = "As a sign of goodwill, the Royal Navy lifted their blockade - but in that process, also let more Sirens through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们已经在安排舰队进行清理了，这点问题很快就能解决，感谢你们的关心~",
+			say = "Of course, there is little to be worried about. I have personally formed a fleet to eliminate the stragglers, as they are not welcome in these waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "接下来舰队将会直接前往塔兰托港，我在塔兰托准备了美酒佳肴为各位接风，其他话就让我们留到宴会上畅谈吧~",
+			say = "But let us tarry here no longer, my beautiful Signorinas. The fine wine and delicacies of Taranto await.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

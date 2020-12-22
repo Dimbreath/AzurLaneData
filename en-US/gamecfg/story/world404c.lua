@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "空气中有硝烟的味道......这个无比熟悉的感觉……这里是AF作战的战场？",
+			say = "The smell of gunpowder in the air... I’ve been here before... Mid...way...?",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对........没错，没错！现在就是在AF作战的战场上！！！那个灰色幽灵就在这里！！！！",
+			say = "Yes... Yes... It is! I remember, this is Operation AF! That Grey Ghost is here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶......如果AF作战顺利的话，白鹰原本会彻底失去在帕克菲克洋与我们交手的实力...都是那个灰色幽灵.........！",
+			say = "Damnit... Had it not been for you, the Eagle Union would have been powerless to stop us in the Pacific... It’s all your fault, Grey Ghost...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这场由我亲自带领的作战，居然会以惨败而结束.........",
+			say = "Because of you... I, Akagi... was ignobly defeated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就连姐姐的护符也在最后..........................",
+			say = "Soryuu... Hiryuu... Kaga... Even the memories of my sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个可是姐姐留给我的.........",
+			say = "It’s your fault... You took everything from me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能原谅，不能原谅，不能原谅......只有那个灰色幽灵，绝对不能原谅！",
+			say = "I won’t forgive you... I’ll never forgive you... Grey Ghost! Damn you...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +143,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900296,
-			actorName = "企业？",
-			say = "能让重樱的{namecode:91}大人记到现在，还真是我的荣幸啊。",
+			actorName = "Enterprise?",
+			say = "You still remember me. I’m honored.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,8 +160,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900297,
-			actorName = "大黄蜂？",
-			say = "那次可真是一场畅快的战斗，你的指挥非常的出色哦~",
+			actorName = "Hornet?",
+			say = "That was a damn exciting battle! Your leadership was top notch!~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,8 +177,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900295,
-			actorName = "约克城？",
-			say = "呵呵，如果想要复仇的话，我们随时随地，都可以与你再来一场AF作战哦。",
+			actorName = "Yorktown?",
+			say = "Indeed. You still want to take your revenge on us, right? Then come and fight us, forevermore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,8 +194,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900296,
-			actorName = "企业？",
-			say = "回去之后你们好像将那次失败归结于命运的五分钟吧，其实就算再给你五十分钟你又能做到些什么呢？",
+			actorName = "Enterprise?",
+			say = "Even after you returned, you seemed to blame everything on the Five Minutes of Fate. But given five days, five years, five eternities... What could you possibly do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,8 +211,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900297,
-			actorName = "大黄蜂？",
-			say = "啊，上次你好像连{namecode:161}姐姐留给你的护符都弄坏了吧，明明已经再也不能拿到新的了，真是可惜~",
+			actorName = "Hornet?",
+			say = "You cannot escape fate... the fate engraved upon your hull. Fate is not so fragile, unlike that little amulet your sister gave you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都给我闭嘴.............呵呵呵呵呵，我本来正要找你们呢，你们反而自己送上门来了！",
+			say = "Shut up! Shut up! You’ve all come before me to die... And I’ve been waiting to send you all to hell! Ahahahaha!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,8 +253,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900296,
-			actorName = "企业？",
-			say = "上次是因为塞壬的搅局才让你们侥幸逃生的，要是想再打一场的话，我们随时奉陪哦。",
+			actorName = "Enterprise?",
+			say = "Come, Akagi... This time, nobody will keep you from your revenge. Not the Sirens. Not the Sakura Empire. Not the Eagle Union. And not Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".................呵，求之不得！你们以为我是没有任何成长就能走到今天这一步的么？以为我是什么准备都没做就来到这里的么！",
+			say = "I’ll run you through for underestimating me, Grey Ghost! My entire life, I’ve lived for this moment... The chance to sink you myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "弱肉强食，优胜劣汰，此乃世间万物之理......",
+			say = "The strong devour the weak... The fit survive... Such is the nature of... this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307010,
-			say = "我已经不是曾经那个只能躲在姐姐身后的{namecode:91}了！！！！！",
+			say = "—————That voice... Shoukaku... Zuikaku...?",
 			effects = {
 				{
 					active = true,

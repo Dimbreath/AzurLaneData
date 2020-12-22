@@ -14,7 +14,7 @@ return {
 			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "前方就是塔兰托港了，嗯？这些在港口里飘荡的旗帜......皇家的舰队居然已经先到了么。",
+			say = "Behold, the wondrous port of Taranto. ...Ah, did the Royal Navy arrive before us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			bgName = "bg_port_talantuo",
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "这还真是...没想到女王陛下已经先到了，接待不周还请恕罪。",
+			say = "My sincerest apologies for being absent to greet Her Majesty’s arrival.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "没事，没事~陆间海我可是很熟的，就算闭着眼睛都能带着舰队开到塔兰托，不需要有什么多余的担心。",
+			say = "There’s no need for formalities. I know the Méditerranée like the back of my hand, and I could easily sail to Taranto blindfolded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "陛下您的心情好像不是很好啊，路上发生什么不愉快的事了么？",
+			say = "I see... You don’t look like you came from sightseeing though. Did something happen on the way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#ffff4d",
-			say = "发生了什么不愉快的事么...........？！你还真问得出来啊！我可是从皇家本岛出发之后，一路先到了圣彼得伯格，然后到了霍尔斯坦，然后到了土伦港，最后才来到你们塔兰托港的！",
+			say = "Oh, nothing out of the ordinary. Just the usual stuff with the Crimson Axis ports not allowing me to enter. It definitely wasn’t a waste of my time at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈......这还真是趟辛苦的旅程啊~不过重樱舰队也是经历了漫长的旅途才到这里的哟。",
+			say = "I am sorry to hear that. Even for a purpose that is supposed to transcend allegiances and factions, to think that there still are those who will not open their ports...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "重樱舰队也已经到了么....领头的是......嗯？",
+			say = "I see the Sakura Empire is here as well. Will Akagi be the representative?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "原来是{namecode:161}的妹妹{namecode:91}啊。本以为机会难得，能见一见你们那艘神秘的总旗舰{namecode:83}呢，或者至少也是{namecode:74}、{namecode:82}之类的。",
+			say = "(Well, Akagi would be the one negotiating even if Nagato was here. I must say, I was hoping to see Yamato though...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "签订停火协议这么重要的事，你能做这个决定么？",
+			say = "Good day, Akagi. Have the leaders of the Sakura Empire given you full authority to conduct these negotiations?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像听到一阵吵得要命的噪音，究竟是从哪里发出来的......",
+			say = "Hmm... I seem to hear someone calling my name, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，原来如此，是皇家的小不点女王啊，没能在第一时间注意到您的存在是我的疏忽，实在抱歉。",
+			say = "Oh, it’s the little queen of the Royal Navy. I apologize for not noticing you given your... stature, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于您刚才问出来的问题，也难怪皇家之前被铁血整的那么惨，你们的情报能力真是下降了不少啊。",
+			say = "As for the question you asked earlier... surely the Royal Navy’s intelligence-gathering capabilities have not sunk to such pitiable levels if we are to take on the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#ffff4d",
-			say = "你......！",
+			say = "Why you...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#ffff4d",
-			say = "感谢{namecode:91}阁下指出我们的不足之处，我们一定会着手进行改进，争取让类似白鹰获悉AF详情那样精彩的情报战再发生几次。",
+			say = "Our resources have indeed been a bit strained... but we will rectify our shortcomings. Perhaps we should consult the Eagle Union, since you said that about them as well before the events of Operation AF.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵............",
+			say = "Heh, you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "唉...你们都冷静一点~这次大家不是都抱有和平的意愿才会齐聚塔兰托的嘛，就不要像这样针锋相对了。",
+			say = "Now now, everyone, let’s calm down~ We’re all here for the sake of peace, so why don’t we set this aside for now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			blackBg = true,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "腓特烈大帝的也在赶来这里的路上，在那之前请各位放宽身心，尽情享受一下撒丁风情吧~",
+			say = "We’ll begin the negotiations when the Iron Blood arrives. Until then, please enjoy everything Taranto has to offer.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

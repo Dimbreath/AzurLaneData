@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸福的范式\n\n<size=45>四 临海的摩托之旅</size>",
+					"Paradigm of Happiness\n\n<size=45>Chapter 4 - Seaside Ride</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "不久前",
+			say = "Not long ago...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "因为某些紧急的公务，不得不与希佩尔分头前往不同的地方办事。而返回的路上，顺便陪她绕了下路。",
+			say = "Because of some emergency orders, I had to head somewhere else for work. And on the way back, I accompanied her on a detour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,8 +61,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "哈啊~偶尔像这样骑骑车还是挺舒服的嘛！…正好也有点累了，休息下吧。我要在前面停一下了哦。",
+			actorName = "Admiral Hipper",
+			say = "Whew... It feels really nice to drive around like this every once in a while. I'm getting a bit tired though, so let's take a break. I'll pull over right ahead over there, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +88,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "呼~风景不错~可以看到一望无际的大海呢。和出击时看到的海不同…像这样才更能感受到大海的美丽啊~",
+			actorName = "Admiral Hipper",
+			say = "Mm... The scenery's not bad over here~ You can see the endless sea stretching all the way across the horizon. It's so different from when we're on those very waters, fighting... But from here, you can really appreciate how beautiful it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,8 +105,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "像这样沿海一路骑来，还是挺爽快的~",
+			actorName = "Admiral Hipper",
+			say = "It really was worth coming down along the coastline!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "不知是不是因为一路狂飙，希佩尔感觉比往日更加情绪高涨。",
+			say = "I'm not sure if the strong winds along the way had gotten to her, but Hipper seemed more excitable than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,8 +132,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "秘书舰可真是辛苦啊，一天到晚尽是这些累人的活，肩膀都僵硬了。",
+			actorName = "Admiral Hipper",
+			say = "Being the secretary is hard work, you know? My shoulders are all stiff from mindlessly pushing papers all day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,8 +165,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "回到港区以后得好好休息休息转换下心情才是。说起来，之前维希的几个小伙伴还要我教她们弹乐器呢。",
+			actorName = "Admiral Hipper",
+			say = "After we get back to port, let's rest up and reset. By the way, not too long ago, a few friends from the Vichya Dominion asked me to teach them to play an instrument.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +182,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "…怎么？你也想听啊？可以啊，下次弹给你听听也无妨？",
+			actorName = "Admiral Hipper",
+			say = "...What, you want to hear me play too? Sure, I suppose there's no harm in that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,24 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "不知道是不是因为兴致正浓，感觉希佩尔比平时柔和了许多。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "star_level_bg_105",
-			dir = 1,
-			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "不过，指挥官意外地该做事的时候还是能做好的嘛。明明平时看上去只要秘书舰不在就什么都干不好的样子…",
+			say = "For whatever reason, Hipper felt a lot kinder than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,8 +213,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "要是平时一直都这么能干的话，身为秘书舰的我就轻松多啦。不过…算了，今天就好好表扬表扬你吧，辛苦啦~",
+			actorName = "Admiral Hipper",
+			say = "I have to say though, you really impressed me today. Though you normally act like you're completely useless without your secretary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,8 +230,25 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "……喂，你有没有在听啊？",
+			actorName = "Admiral Hipper",
+			say = "If you were half as diligent as you were today, my life would be so much easier. But, it's whatever... Just for today, you've earned your praise. Good work, Commander~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "star_level_bg_105",
+			dir = 1,
+			actor = 403010,
+			actorName = "Admiral Hipper",
+			say = "...Hey, are you even listening?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			},
 			options = {
 				{
-					content = "听入迷了",
+					content = "\"You had me captivated there.\"",
 					flag = 1
 				}
 			}
@@ -270,8 +270,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "哦……笨、笨蛋！突然之间说什么傻话啊！真是的！",
+			actorName = "Admiral Hipper",
+			say = "Eh... Y-you idiot! What a stupid thing to say all of a sudden! Geez!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,8 +297,8 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "我，我才没有害羞呢！还不都是因为你乱说话…！",
+			actorName = "Admiral Hipper",
+			say = "And I'm not acting bashful at all! It's all because you went and said that weird thing earlier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "希佩尔那比平时还要红好几倍的脸，确实让人印象深刻…",
+			say = "Admiral Hipper’s face was several shades redder than I had ever seen it. Quite impressive, really...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

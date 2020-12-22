@@ -116,7 +116,7 @@ return {
 				"intraduce"
 			},
 			style = {
-				text = "The zones highlighted in red advance the story. Make your way to the target zone and size control over minor zones along the way.",
+				text = "The zones highlighted in red advance the story. Make your way to the target zone and seize control over minor zones along the way.",
 				mode = 2,
 				dir = -1,
 				char = "1",

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "{namecode:91}，我们是不是冲的太深入了一些。",
+			say = "Akagi, don’t you think we’ve rushed in a bit too deep?",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然到目前为止作战都很顺利，但是在刚才的战斗中，塞壬舰队的强度明显增加了。",
+			say = "We haven’t encountered significant resistance from the Sirens yet, but the intensity of their counterattacks is gradually increasing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "依此推算，中心区域中肯定集结了大量塞壬防御舰队。就连碧蓝航线也没有贸然开始进攻，我们是不是也先等一下五航战的舰队比较好？",
+			say = "If this trend continues, we can expect to run into a large Siren defensive force ahead. Even the Azur Lane has stopped pushing forward and is now focusing on establishing forward bases. Should we wait for the 5th CarDiv before continuing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在可是争分夺秒进行的时刻，正是因为碧蓝航线还没有发动进攻，我们才有机会抢在她们前面冲进去！",
+			say = "No, we press forth precisely because the Azur Lane has stopped attacking. As I said, this is a race against time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才的敌人虽然强了一些，也只是稍微强了一些而已，我们甚至连镜面海域都没有遇到。",
+			say = "Even if the enemies are a bit tougher, it’s nothing we can’t handle. We haven’t even encountered a Mirror Sea so far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种情况下没有任何停下来浪费时间的理由。风险一向与收益并存，畏首畏尾的话，只会让来之不易的机会白白流失！",
+			say = "What sets us apart from the Azur Lane is our decisiveness. No risk, no reward. Those who are afraid to take the initiative will also see their opportunities snatched away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少和她们联络一下怎么样？同步一下发起进攻的位置，然后命令她们配合我们的行动。",
+			say = "Point taken, but how about contacting them at least? Why not decide on a point of attack, and have them cooperate with our advance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果作战顺利的话可以依靠她们进行第二波打击扩大战果，就算作战不顺利也可以依靠她们进行接应。",
+			say = "Once we join up, we’ll be able to push even farther into Siren territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "随你便了......反正五航战她们也是在{namecode:182}的强烈要求下才派出的舰队，如果她们能赶得上的话就过来吧。",
+			say = "So be it. If they are worthy of their names, they will be here anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我现在就进行联络。",
+			say = "Very well, I’ll get in touch with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家不要管溃逃的杂鱼，舰队保持阵型，继续向海域中心进发！",
+			say = "All units, stay in formation and advance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

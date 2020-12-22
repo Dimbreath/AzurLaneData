@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸福的范式\n\n<size=45>三 线索之所在</size>",
+					"Paradigm of Happiness\n\n<size=45>Chapter 3 - Getting A Clue</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·学院",
+			say = "Port - Academy",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,8 +51,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "你是骑着这孩子去哪了啊？都说了要小心点温柔对待它了！",
+			actorName = "Admiral Hipper",
+			say = "Why were you taking Great Shark out for a joyride again? Take better care of your stuff, will you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "呜呜，都怪我害大鱼出问题了。抱歉！",
+			say = "Ugh... It's my fault this happened to Great Shark... I'm sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "走路经过学院时，听到了希佩尔和U101的声音。",
+			say = "I heard the voices of Hipper and U-101 as I was walking past the Academy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,8 +105,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "嘿咻…好了。再来把这里的螺丝拧紧就OK了。",
+			actorName = "Admiral Hipper",
+			say = "C'mon... Here. Just tighten these bolts up and you'll be fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "哦哦！感觉大鱼也很开心的样子！这下能飙得更快了~我能先试骑一下吗？",
+			say = "Woah! Great Shark feels brand-spankin'-new! This bad boy might go even faster now! Can I give 'im a shot?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,8 +149,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "哈啊？不是刚刚才说要对这孩子温柔点吗？……算了，这孩子看起来也想闹腾一下的样子，随你吧。不过，可得看好路啊！",
+			actorName = "Admiral Hipper",
+			say = "Excuse me? What did we literally just talk about? ...You know what, whatever. That one has a mind of its own anyway. Just be careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "好耶！嘿咻，出发啦大鱼！",
+			say = "You got it! All righty, Great Shark! Let's hit the sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "伴随着引擎的轰鸣，有什么东西猛地冲了过来。",
+			say = "There was the loud roaring of an engine, followed by something whizzing past me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			},
 			options = {
 				{
-					content = "仓促回避",
+					content = "Leap out of harm's way",
 					flag = 1
 				}
 			}
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "哇哇！差点就撞上了…指挥官！突然跳出来很危险的哦？欸？突然跳出来的是我？啊哈哈哈……",
+			say = "Woah! That was a close call... Commander! Don't just run in the way like that! Huh? I was the one who wasn't watching where I was going? Ahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,8 +241,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "等，等等！U-101，没撞上吧！抱歉，也怪我不注意…啊，怎怎怎怎么是你！？",
+			actorName = "Admiral Hipper",
+			say = "Hey! U-101, please don't tell me you ran someone over! Hey, we're so sorry! This all happened because I– Geh... Wh-wh-wh-why are you here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "不过好厉害啊！多亏了希佩尔的维护，大鱼的刹车超灵的！指挥官，要是没有希佩尔，只怕你已经变成大鱼的养分了啊，哈哈~",
+			say = "But I'm telling you, he's super amazing! Thanks to Hipper's maintenance, Great Shark's brakes are so responsive! Commander, if it wasn't for Hipper's maintenance, you would've been fish food now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,8 +285,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "都是因为你骑车太乱来才对吧！真是的！",
+			actorName = "Admiral Hipper",
+			say = "You mean, none of this would've happened if you weren't riding around like a maniac! Geez!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "指挥官指挥官，告诉你哦，希佩尔真的超会修车的~所以我请让她帮忙对大鱼进行调整呢！~",
+			say = "Commander, Commander, I'm serious! Hipper's super good at repairing stuff! So I had her work on Great Shark!~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "的确，要是没有希佩尔就要酿成悲剧了。",
+			say = "Indeed, had it not been for Hipper, this story would've ended in tragedy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "指挥官也想骑吗？嘿嘿，要不要给你骑呢~我都还没骑够呢~！",
+			say = "Hey, Hipper, wanna take him out for a spin? Hehe, or we can double ride~ I've not had my daily fill of adrenaline yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,8 +356,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "你啊，才刚差点撞到人，居然还能一副没事的样子…下次要把你的大鱼调成只能安全驾驶了哦？",
+			actorName = "Admiral Hipper",
+			say = "Oh for– You almost ran someone over, and that's all you can think about? Do I need to modify it more so you can only drive safely?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "呜哇—！手下留情啊——！",
+			say = "Nooooooo! Don't underclock iiiiit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "不仅会插花，还会修摩托车，希佩尔还真是心灵手巧啊。",
+			say = "So, not only can she arrange flowers, but she can also fix bikes. Hipper really is more than meets the eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "得好好感谢希佩尔才是。",
+			say = "I expressed my heartfelt appreciation to Hipper for saving my life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "看来希佩尔做秘书舰的话，就算是需要非常注重细节的工作也能放心交给她。",
+			say = "By the looks of things, I would be able to entrust work to her that required extreme attentiveness to detail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +430,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "哈啊？啊，嗯，这样啊…——那什么…谢，谢谢……",
+			actorName = "Admiral Hipper",
+			say = "Huh? Oh, um, when you put it that way... Umm, th-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "哦？希佩尔怎么脸这么红？啊！难道…上次和指挥官出去的时候果然发生了什么吧！",
+			say = "Hm? Hipper, are you blushing? Ahh! I knew it... Something DID happen between you two last time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,8 +464,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "笨、笨笨笨笨蛋！那只是普通地因公外出而已！才不是什么约会呢！",
+			actorName = "Admiral Hipper",
+			say = "Sh-sh-sh-sh-shut up! That was just business as usual! It's not like we were going on a date or anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "又来了又来了，也不用那么害羞嘛~",
+			say = "There you go doing it again~ Besides, what's there to be embarrassed about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,8 +526,8 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403010,
-			actorName = "希佩尔海军上将",
-			say = "咕唔…！再乱说的话…要把限速器扭到底了哦！",
+			actorName = "Admiral Hipper",
+			say = "Ugh... One more word from you... and I'll make it so that you can only stay under the speed limit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			actorName = "U-101",
-			say = "快住手~！~",
+			say = "NOOOOOOOOOOO!~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "说起来，外出…确实有过这么一件事呢。",
+			say = "Huh. Come to think about it... We did do something like that, didn't we...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "抱起双手，慢慢回想起了那时的事情——",
+			say = "I stopped to think and slowly recollect the events of that day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

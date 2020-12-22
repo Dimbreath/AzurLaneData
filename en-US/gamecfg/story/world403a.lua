@@ -11,7 +11,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 301160,
 			nameColor = "#a9f548",
-			say = "周边区域的敌人已经肃清完毕啦！",
+			say = "Look at how these enemies crumble before Yukikaze the Great!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NA海域的塞壬战斗力也没有资料里记载的那么强呢。",
+			say = "The Sirens here are much weaker than what the data suggested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒不如说弱的离谱......我们现在已经驶入了海域的中部区域，却还没遇到什么像样的抵抗。",
+			say = "Yes, their lack of resistance is almost uncanny. If they’re consolidating their forces in one area, one would expect a tougher fight, yet we’ve already taken back so much territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊是啊，地图上明明还标注着这里非常危险，特意画了一个红叉呢！",
+			say = "Yeah, there’s even a big red danger mark on the map here. What gives?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，一定是{namecode:22}大人的强运带领大家绕过了危险吧~",
+			say = "Heh, I get it now! My luck has once again made the enemy completely miss us!~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬实验设施倒是很难得能一次性见到这么多......",
+			say = "That may be true... but we’ve never seen so many Siren research facilities packed so densely together before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且这里避开了碧蓝航线的作战范围，设施基本都完好无损，这次确实选了一条好的航线呢。",
+			say = "And because this zone lies just outside the Azur Lane’s operation range, these facilities are largely intact still. We truly did luck out this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，那是当然的。{namecode:37}，先抓紧时间回收所有能回收的东西，等回去之后我们有的是时间解析。",
+			say = "Indeed. Yuubari, collect a Siren sample to bring back home. Once we get back to the Sakura Empire, you can experiment with it as much as you’d like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰队不要在这里耽误太多的时间，前方还有更多有价值的收获在等着我们哦~",
+			say = "Make it quick though. There are greater rewards waiting for us ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

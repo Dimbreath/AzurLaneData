@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "感谢各位的搭救.....这片海雾中绝对存在有某种致幻成分，才会让误入其中的我们全都陷入幻觉中。",
+			say = "Thanks for rescuing me... According to my research, this sea fog definitely has a hallucinogenic component, which is responsible for giving us illusions.",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于为什么对于{namecode:22}和你们都没有生效，也许只是因为{namecode:22}运气好尽快离开了海雾，而在你们驶入的时候海雾的浓度又有所减弱吧......",
+			say = "As for why it didn’t affect Yukikaze... Maybe she was lucky enough to get out of it before it could affect her. Or maybe she doesn’t have enough going on in her head for the Sirens to toy with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析仪应该还能用...我立刻开始分析海雾的成分......",
+			say = "I definitely will have to look into this further...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不用着急！你才刚从幻觉中回复过来，先稍微休息一下吧。",
+			say = "Calm down, Yuubari! You only just came out of your hallucination, so rest up first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家注意~前方海域发现了{namecode:39}，{namecode:22}大人这去叫醒她！",
+			say = "Look up ahead, it’s Jintsuu! Yukikaze the Great is coming to rescue you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意安全，陷入幻觉的{namecode:39}可能会和{namecode:92}前辈一样突然对你发动攻击。",
+			say = "Safety first, Yukikaze! She might start attacking because of her hallucinations just like Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~放心交给{namecode:22}大人吧！",
+			say = "Heheh~ Just leave it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			actor = 302130,
 			nameColor = "#a9f548",
-			say = "..........{namecode:81}她现在还..........现在时机还不成熟......",
+			say = "...No, we shouldn’t talk of this plan any more. All we need to do is to focus and charge forward.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，我无法这么做.......！",
+			say = "I can’t accept that. I can’t do something like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是您这么说也........",
+			say = "I’m honored to hear you say that, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".......果然{namecode:39}也陷入奇怪的状态了。",
+			say = "...She doesn’t seem any different to me... W-woah, those flames definitely aren’t normal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在贸然靠过去可能会被{namecode:39}攻击......不如我来主动进攻过去！",
+			say = "They’re definitely going to come after me if I get too close... So, I’ll land the first blow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行不行...！万一误伤了{namecode:39}怎么办.......",
+			say = "Wait, wait... What am I going to do if I accidentally hit Jintsuu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...要不然就打歪一点，用声音提醒一下{namecode:39}？不过这样的话不如直接用广播喊话......",
+			say = "Maybe I’ll aim a bit to the side then... Hmm, maybe I should just call out to her with a loudspeaker or something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "信号弹好像也不错....啊不行，使用信号弹不就等于告诉塞壬{namecode:22}大人就在这里么......",
+			say = "What about a signal flare? ...That’s probably out. Wouldn’t want the Sirens to gather around here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔唔...决定了！就用广播喊话好了！",
+			say = "All right, I’ll go with the first plan! Loudspeaker it is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...............{namecode:22}，你一个人在这里转圈做什么？",
+			say = "...Yukikaze, what are you doing here alone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:39}———！你醒了么？！",
+			say = "J-Jintsuu! Y-you’re back to normal?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然刚刚发生的事都是幻觉啊......呜，头好疼.....怎么只有你在这里，其他人呢？",
+			say = "So everything that happened was an illusion after all... Ugh, my head hurts... Why are you the only one here? Where are the others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在除了{namecode:91}大人，其他同伴都已经和五航战的舰队成功汇合，我们也赶紧回去吧！",
+			say = "We’ve found everyone except Akagi! Let’s head back and look for her together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
