@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：指挥官，舰队周边海域正在燃烧，请尽快脱离危险区域。",
+			say = "Abnormal heat signatures have been detected in target sector. Using a different route is recommended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "战斗胜利，全体舰队的士气恢复了。",
+			say = "Win battles to restore the Resolve of your fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

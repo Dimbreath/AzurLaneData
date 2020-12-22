@@ -18,7 +18,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击打开装备研发界面",
+				text = "Tap to open the Gear R&D interface.",
 				mode = 1,
 				dir = 1,
 				posY = 0,
@@ -41,7 +41,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "可以查看不同类型装备的研发路线。",
+				text = "Here, you can view the R&D pathways for the various pieces of gear you have.",
 				mode = 1,
 				dir = -1,
 				posY = 0,
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			style = {
-				text = "拖动屏幕可查看研发路线的后续内容。",
+				text = "Drag the screen to view the possible products of each R&D pathway.",
 				mode = 1,
 				dir = 1,
 				posY = 0,
@@ -63,7 +63,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击查看所选装备的研发详情。",
+				text = "Drag the screen to view the possible products of each R&D pathway.",
 				mode = 1,
 				dir = 1,
 				posY = -253.44,
@@ -86,7 +86,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "目标研发装备需要使用所选装备作为素材。",
+				text = "Gear R&D will use a piece of gear as its base material.",
 				mode = 1,
 				dir = -1,
 				posY = -251.52,
@@ -99,7 +99,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "同时需要消耗物资和一定数量的研发素材，研发素材可在大型作战中获取。",
+				text = "It will also require Coins and a certain amount of Gear Mats which can be earned from Operation Siren.",
 				mode = 1,
 				dir = -1,
 				posY = 0,
@@ -112,7 +112,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "满足全部条件后点击改造按钮，即可完成装备研发，获取目标装备。",
+				text = "Once you have everything you need, tap the Develop button to create your new gear!",
 				mode = 1,
 				dir = 1,
 				posY = -215.3,

@@ -146,7 +146,7 @@ pg.open_systems_limited = {
 	},
 	[20] = {
 		scene = "MAINUI",
-		name = "大世界收藏",
+		name = "Collection ",
 		story_id = "",
 		id = 20,
 		mediator = "WorldMediaCollectionRecordMediator",

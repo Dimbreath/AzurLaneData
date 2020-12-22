@@ -17653,9 +17653,12 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"META Research Lab ",
+				"META Lab - Coordinate Analysis",
 				{
-					""
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707011
+					}
 				},
 				0
 			}

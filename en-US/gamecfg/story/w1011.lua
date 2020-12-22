@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "现在暂时不能离开当前海域……",
+			say = "You cannot retreat from this zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,7 +17,7 @@ return {
 			},
 			options = {
 				{
-					content = "……",
+					content = "Well then...",
 					flag = 0
 				}
 			}

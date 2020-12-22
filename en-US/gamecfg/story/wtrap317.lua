@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：指挥官，舰队进入了漩涡之中，行动能力受到限制。",
+			say = "The fleet is about to enter a whirlpool. Movement capabilities will be impaired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

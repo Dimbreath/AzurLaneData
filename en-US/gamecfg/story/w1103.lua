@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "破坏控制器后海雾散去了，海面上似乎有些新发现...",
+			say = "The Control Device was destroyed, clearing the haze in the area. Something else seems to have changed, too......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

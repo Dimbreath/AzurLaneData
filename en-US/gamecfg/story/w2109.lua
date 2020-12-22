@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "结果确认中：缺乏能源模块，设备供能不足，塞壬航线引导装置启动失败。",
+			say = "You lack the required energy supply. Guide Beacon cannot be activated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

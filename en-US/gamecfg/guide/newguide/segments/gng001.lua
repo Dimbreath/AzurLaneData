@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				text = "攻坚队可以协助大舰队成员进行首领战",
+				text = "Your Support Fleet can aid fellow Guild members during boss battles.",
 				mode = 2,
 				dir = 1,
 				posY = -223,
@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				text = "让我们试着派遣一名角色前往攻坚队吧！",
+				text = "Let's try adding a ship to your Support Fleet!",
 				mode = 2,
 				dir = 1,
 				posY = -223,
@@ -24,7 +24,7 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				text = "点击此处编辑攻坚队",
+				text = "Tap here to edit your Support Fleet.",
 				mode = 2,
 				dir = 1,
 				posY = -223,
@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.383,
 			style = {
-				text = "点击添加前往攻坚队的角色",
+				text = "Tap the ship you'd like to add to your Support Fleet.",
 				mode = 2,
 				dir = 1,
 				posY = 267.65,

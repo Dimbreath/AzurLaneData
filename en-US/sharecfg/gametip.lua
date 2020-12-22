@@ -2929,7 +2929,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "Zone is unavailable."
 	},
 	world_map_locked_border = {
-		tip = "The surrounding zone has not yet been secured. "
+		tip = "Secure Nearby Zones"
 	},
 	world_item_allocate_panel_fleet_info_text = {
 		tip = "得到了塞壬的祝福，舰娘的状态被强化了！"
@@ -11463,10 +11463,10 @@ you can earn.]]
 		tip = "The special beginners' PR1 Research Missions will be reset once. (These missions will not be reset if you've already completed them 2 times)"
 	},
 	guild_duty_is_too_low = {
-		tip = "见习成员无法领取奖励"
+		tip = "Complete missions and donate materials to get 100 Guild Tokens."
 	},
 	guild_trainee_duty_change_tip = {
-		tip = "见习成员无法变更职位"
+		tip = "This action requires you to have 100 Guild Tokens."
 	},
 	guild_not_exist_donate_task = {
 		tip = "This mission no longer exists."
@@ -11638,7 +11638,7 @@ you can earn.]]
 		tip = "Guild Roster Size +$1"
 	},
 	guild_tech_livness_no_enough = {
-		tip = "活跃度达到$1可学习"
+		tip = "Buildable at $1 Guild Tokens "
 	},
 	guild_ship_attr_desc = {
 		tip = "The Guild's $1 has $2 when $3 during operations."
@@ -11818,7 +11818,7 @@ you can earn.]]
 		tip = "Insufficient challenge attempts remaining."
 	},
 	guild_boss_fleet_cnt_invaild = {
-		tip = "编队不符合条件"
+		tip = "Error occurred while editing fleet composition. Please update your roster. "
 	},
 	guild_boss_formation_not_exist_self_ship = {
 		tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 of your own ships."
@@ -11914,161 +11914,226 @@ you can earn.]]
 			},
 			{
 				info = "5. When an Officer moves forward with a denunciation, and the current Guild Leader does not log in within <color=#92fc63>24</color> hours to overrule it, then at the end of the 24-hour period, leadership will be transferred to the member with <color=#92fc63>the most contributions to the Guild</color>."
+			},
+			{
+				info = "<color=#92fc63>6. - Trainee Members Info:</color>"
+			},
+			{
+				info = "When a member first joins a Guild, they start out as a Trainee."
+			},
+			{
+				info = "Trainee graduate to a full Guild member upon obtaining 100 Guild Tokens."
+			},
+			{
+				info = "Trainees cannot change the positions of other members, make use of the Guild facilities, or receive Guild Supplies."
+			},
+			{
+				info = "Trainees CAN participate in Guild Operations, but they cannot claim any of the rewards from a Guild Operation until they have earned full Guild member status. In the event that a Trainee is removed from a Guild, the rewards they earned during a Guild Operation will be sent to their in-game mailbox."
+			},
+			{
+				info = "Beyond the cases covered above, Trainees are generally treated as ordinary Guild members for all intents and purposes"
+			},
+			{
+				info = "<color=#92fc63>7. Guild Tokens Info:</color>"
+			},
+			{
+				info = "Guild Tokens are earned by completing missions or by participating in Guild activities. The following activities give Guild Tokens:"
+			},
+			{
+				info = "Completing a daily mission: <color=#92fc63>2</color>"
+			},
+			{
+				info = "Completing a weekly mission: <color=#92fc63>5</color>"
+			},
+			{
+				info = "Completing a Guild Mission (each one counts): <color=#92fc63>2</color>"
+			},
+			{
+				info = "Contributing materials to the Guild (each one counts): <color=#92fc63>10</color>"
+			},
+			{
+				info = "Participating in a Guild Event (each one counts): <color=#92fc63>1</color>"
+			},
+			{
+				info = "Participating in a Guild Operation and challenging the boss: <color=#92fc63>10</color>"
 			}
 		}
 	},
 	guild_tech_tip = {
-		tip = [[
-Guild Tech Info:
-1. Guild Tech Facilities:
-Guild Tech facilities are jointly managed by the entire Guild and grant a number of bonuses to its members.
-Members of the Guild can gain access to these bonuses by contributing Guild Tokens and Guild Funds.
-The facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger.
-Facility information and construction options can be found via the button in the top right corner on the Guild Tech screen.
-2. Facility Management:
-- The requirements to use or upgrade a facility can be found on the Guild Tech screen.
-- Facilities can be upgraded by spending Guild Tokens and Guild Funds.
-- A player must be in a Guild in order to benefit from Guild Tech facilities.
-- If a player leaves a Guild and joins another, their new facility level will be based on which is highest between their own facility level or the facility level of the new Guild. Either way, a player will not need to level up their facilities from scratch.
-3. Upgrading Facilities:
-To upgrade a facility, a Guild Leader or an Officer must go to the Guild Tech screen, enable Research Mode, and choose a facility to upgrade.
-Once a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up.
+		tip = {
+			{
+				info = "Guild Tech Info:"
+			},
+			{
+				info = "1. Guild Tech Facilities:"
+			},
+			{
+				info = "Guild Tech facilities are jointly managed by the entire Guild and grant a number of bonuses to its members.\nMembers of the Guild can gain access to these bonuses by contributing Guild Tokens and Guild Funds.\nThe facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger."
+			},
+			{
+				info = "Facility information and construction options can be found via the button in the top right corner on the Guild Tech screen."
+			},
+			{
+				info = "2. Facility Management:\n- The requirements to use or upgrade a facility can be found on the Guild Tech screen."
+			},
+			{
+				info = "- Facilities can be upgraded by spending Guild Tokens and Guild Funds.\n- A player must be in a Guild in order to benefit from Guild Tech facilities.\n- If a player leaves a Guild and joins another, their new facility level will be based on which is highest between their own facility level or the facility level of the new Guild. Either way, a player will not need to level up their facilities from scratch."
+			},
+			{
+				info = "3. Upgrading Facilities:\nTo upgrade a facility, a Guild Leader or an Officer must go to the Guild Tech screen, enable Research Mode, and choose a facility to upgrade.\nOnce a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up."
+			},
+			{
+				info = [[
 4. Contributing Materials:
 To donate items to your Guild, go to the Contributions screen and select the items you wish to give.
 Contributing will give your fellow members Guild Tokens, and also increase your Guild Funds and fill the Guild Tech progress bar.
 Note: the Guild can only change which facility it upgrades once every 24 hours. The default facility upgrade is the Guild Roster Expansion.]]
+			}
+		}
 	},
 	guild_office_tip = {
-		tip = [[
-Guild Funds, Guild Operations, and Guild Supplies Info:
-1. Guild Funds:
-Guild Funds are a resource that can be used to grant helpful bonuses to all members of the Guild.
-The Guild Leader and Officers decide how they are allocated, and can use them to do the following:
-- Purchase Guild Supplies which give resources to their members every day
-- Upgrade Guild Tech facilities which improves important port functions
-- Start Guild Operations
-2. How to Earn Guild Funds:
-There are 2 main ways to earn Guild Funds:
-- Contributing resources to the Guild
-Members can always contribute some of their own resources to the Guild. Doing so will also grant both Guild Tokens and Guild Funds.
-- Completing Guild Missions
-The Guild Leader or an Officer can issue Guild Missions through the Contributions menu, and ordinary members can take on these missions.
-Every individual member that completes the mission receives Guild Tokens, in addition to Guild Funds being automatically awarded.
-Furthermore, the missions can be repeated several times for additional rewards, adding to the Guild's total number of mission completions.
-If all Guild members complete the mission, even more Guild Funds will be awarded.
-3. Guild Supplies
-The Guild Leader or an Officer can use Guild Funds to purchase Guild Supplies. When Guild Supplies have been bought, all members of the Guild will receive a package every day for the next 14 days.
-If a player so desires, they can stockpile up to 3 days' worth of Guild Supplies.
-Lastly, a player who has just joined a Guild cannot claim Guild Supplies on their first day.]]
+		tip = {
+			{
+				info = "Guild Funds, Guild Operations, and Guild Supplies Info: "
+			},
+			{
+				info = "1. Guild Funds:"
+			},
+			{
+				info = "Guild Funds are a resource that can be used to grant helpful bonuses to all members of the Guild."
+			},
+			{
+				info = "The Guild Leader and Officers decide how they are allocated, and can use them to do the following:"
+			},
+			{
+				info = "- Purchase Guild Supplies which give resources to their members every day"
+			},
+			{
+				info = "- Upgrade Guild Tech facilities which improves important port functions"
+			},
+			{
+				info = "- Start Guild Operations"
+			},
+			{
+				info = "\n\n2. How to Earn Guild Funds:"
+			},
+			{
+				info = "There are 2 main ways to earn Guild Funds:"
+			},
+			{
+				info = "- Contributing resources to the Guild"
+			},
+			{
+				info = "Members can always contribute some of their own resources to the Guild. Doing so will also grant both Guild Tokens and Guild Funds."
+			},
+			{
+				info = "- Completing Guild Missions"
+			},
+			{
+				info = "The Guild Leader or an Officer can issue Guild Missions through the Contributions menu, and ordinary members can take on these missions."
+			},
+			{
+				info = "Every individual member that completes the mission receives Guild Tokens, in addition to Guild Funds being automatically awarded."
+			},
+			{
+				info = "Furthermore, the missions can be repeated several times for additional rewards, adding to the Guild's total number of mission completions."
+			},
+			{
+				info = "If all Guild members complete the mission, even more Guild Funds will be awarded."
+			},
+			{
+				info = "3. Guild Supplies"
+			},
+			{
+				info = "The Guild Leader or an Officer can use Guild Funds to purchase Guild Supplies. When Guild Supplies have been bought, all members of the Guild will receive a package every day for the next 14 days."
+			},
+			{
+				info = "If a player so desires, they can stockpile up to 3 days' worth of Guild Supplies."
+			},
+			{
+				info = "Lastly, a player who has just joined a Guild cannot claim Guild Supplies on their first day."
+			}
+		}
 	},
 	guild_event_help_tip = {
 		tip = {
 			{
-				info = "作战说明："
+				info = "Guild Operations Info:\n\n"
 			},
 			{
-				info = "1.大舰队作战(以下简称为<color=#92fc63>作战</color>)是需要大舰队成员共同完\n成的战役。"
+				info = "1. What Guild Operations are:"
 			},
 			{
-				info = "2.作战需要有大舰队<color=#92fc63>司令</color>或<color=#92fc63>副司令</color>开启，开启时需要消耗\n<color=#92fc63>大舰队资金</color>。"
+				info = "Guild Operations are large-scale missions open for all members of a Guild to participate in. Members who join a Guild Operation through the Guild Operations screen are then tasked with fighting off the enemy forces and defeating the boss that appears at the end."
 			},
 			{
-				info = "3.作战中有若干个事件，事件需要所有成员派遣舰船前往\n解决，<color=#92fc63>派遣的舰船越多，解决事件的速度越快</color>。"
+				info = "Players receive awards for both participating in Guild Events, and for defeating the boss.\n\n"
 			},
 			{
-				info = "3.1.事件类型如下"
+				info = "2. How to Start and Complete a Guild Operation:"
 			},
 			{
-				info = "遭遇战",
-				rawIcon = {
-					name = "1",
-					atlas = "GuildEventIcon"
-				}
+				info = "First, the Guild Leader or an Officer must use Guild Funds in order to initiate a Guild Operation."
 			},
 			{
-				info = "航空战",
-				rawIcon = {
-					name = "2",
-					atlas = "GuildEventIcon"
-				}
+				info = "Once that has been done, a Guild Operation notification will appear, and members of the Guild are able to assist by dispatching their own ships.\n\n"
 			},
 			{
-				info = "运输护卫",
-				rawIcon = {
-					name = "3",
-					atlas = "GuildEventIcon"
-				}
+				info = "The more ships the members dispatch, the quicker the Guild Operation will progress. Progress can be made even more quickly if certain conditions specific to the Guild Operation are fulfilled."
 			},
 			{
-				info = "运输破坏",
-				rawIcon = {
-					name = "4",
-					atlas = "GuildEventIcon"
-				}
+				info = "Rewards will be distributed to all participants based on their performance in the Guild Operation. Their reputation will also increase if they meet the optional conditions of the Guild Operation."
 			},
 			{
-				info = "占领据点",
-				rawIcon = {
-					name = "5",
-					atlas = "GuildEventIcon"
-				}
+				info = "Once enough Guild Events have been completed, a boss will appear. Prior to the boss appearing, members can create and send out a Support Fleet of ships that their fellow members can make use of during the boss battle.\n\n"
 			},
 			{
-				info = "据点防卫",
-				rawIcon = {
-					name = "6",
-					atlas = "GuildEventIcon"
-				}
+				info = "3. Boss Info:"
 			},
 			{
-				info = "侦查巡逻",
-				rawIcon = {
-					name = "7",
-					atlas = "GuildEventIcon"
-				}
+				info = "The boss appears at the end of a Guild Operation sequence. Its power level is dependent on the number of participants in a given Guild Operation and it can only be fought once a day."
 			},
 			{
-				info = "后勤维修",
-				rawIcon = {
-					name = "8",
-					atlas = "GuildEventIcon"
-				}
+				info = "Before you engage the boss, you will have the option of changing your fleet formation if desired. You can borrow up to 3 other ships from the Support Fleet formed by other members of your Guild. However, your Vanguard Fleet and Main Fleet must each contain at least 1 of your own ships."
 			},
 			{
-				info = "4.所有主线事件完成后，将会出现首领敌人。"
+				info = "When the boss has been defeated, the Guild Operation is complete.\n\n"
 			},
 			{
-				info = "5.首领敌人的血量由<color=#92fc63>当次作战参与事件的成员数量</color>决定。"
+				info = "4. Rewards:"
 			},
 			{
-				info = "6.每个成员每天只能挑战<color=#92fc63>1</color>次首领战。"
+				info = "Your Guild Operation participation rewards can be viewed and claimed from the Action Report menu."
 			},
 			{
-				info = "7.攻坚队：首领战事件可以使用攻坚队内的舰船协助作\n战，每位成员均可向攻坚队派遣<color=#92fc63>2</color>名角色。"
-			},
-			{
-				info = "8.向攻坚队派遣舰船后<color=#92fc63>30</color>分钟内无法修改，首领敌人出\n现状态下，无法修改攻坚队配置"
-			},
-			{
-				info = "9.首领战作战编组说明详见首领敌人作战编组界面。"
-			},
-			{
-				info = "10.击败首领敌人后，作战结束。"
-			},
-			{
-				info = "11.所有事件和首领敌人的奖励将会发放到<color=#92fc63>作战报告</color>内，\n作战报告有存储上限，请指挥官<color=#92fc63>及时领取</color>。"
+				info = "Be aware that these rewards will expire if not claimed within a certain period of time."
 			}
 		}
 	},
 	guild_mission_info_tip = {
-		tip = [[
-1. Completing a Guild Event:
-When a Guild Event occurs, every member of the Guild can create and send out a Dispatch Fleet consisting of 4 of their own ships.
-An additional Dispatch Fleet can be sent out every 6 hours after the start of the Guild Event. However, a single member can only send a maximum of 16 ships across 4 instances.
-The more ships that are sent, the quicker the Guild Event will progress. Progress will be made even faster if certain optional conditions are fulfilled.
-2. What the Guild Event Rating is:
-Additional rewards may be issued depending on the rating of the individual participants in the Guild Event. Furthermore, the more Guild members that participate, the greater the odds that their rating will increase. Their rating might also increase if they satisfy certain conditions.
-Rewards can be claimed via the Action Report screen after a Guild Event has concluded.]]
+		tip = {
+			{
+				info = "1. Completing a Guild Event:"
+			},
+			{
+				info = "When a Guild Event occurs, every member of the Guild can create and send out a Dispatch Fleet consisting of 4 of their own ships."
+			},
+			{
+				info = "An additional Dispatch Fleet can be sent out every 6 hours after the start of the Guild Event. However, a single member can only send a maximum of 16 ships across 4 instances."
+			},
+			{
+				info = "The more ships that are sent, the quicker the Guild Event will progress. Progress will be made even faster if certain optional conditions are fulfilled.\n\n"
+			},
+			{
+				info = "2. What the Guild Event Rating is:"
+			},
+			{
+				info = "Additional rewards may be issued depending on the rating of the individual participants in the Guild Event. Furthermore, the more Guild members that participate, the greater the odds that their rating will increase. Their rating might also increase if they satisfy certain conditions.\n\n"
+			},
+			{
+				info = "Rewards can be claimed via the Action Report screen after a Guild Event has concluded."
+			}
+		}
 	},
 	guild_boss_fleet_desc = {
 		tip = [[

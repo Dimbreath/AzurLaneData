@@ -42,17 +42,17 @@ pg.world_event_desc = {
 	},
 	[20274] = {
 		id = 20274,
-		hint = "Obtain Reserve Supplies.",
+		hint = "Retrieve the materials container.",
 		hint_pri = 1
 	},
 	[20275] = {
 		id = 20275,
-		hint = "Obtain Reserve Supplies.",
+		hint = "Retrieve the materials container.",
 		hint_pri = 1
 	},
 	[20276] = {
 		id = 20276,
-		hint = "Obtain Reserve Supplies.",
+		hint = "Retrieve the materials container.",
 		hint_pri = 1
 	},
 	[20280] = {
