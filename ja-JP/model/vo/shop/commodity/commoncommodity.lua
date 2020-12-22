@@ -7,7 +7,7 @@ end
 function slot0.canPurchase(slot0)
 	if slot0.type == Goods.TYPE_MILITARY then
 		return slot0.buyCount == 0
-	elseif slot0.type == Goods.TYPE_GIFT_PACKAGE or slot0.type == Goods.TYPE_SKIN then
+	elseif slot0.type == Goods.TYPE_GIFT_PACKAGE or slot0.type == Goods.TYPE_SKIN or slot0.type == Goods.TYPE_WORLD then
 		return slot0:getLimitCount() <= 0 or slot0.buyCount < slot1
 	else
 		return uv0.super.canPurchase(slot0)
@@ -91,6 +91,28 @@ function slot0.getSkinId(slot0)
 	if slot0.type == Goods.TYPE_SKIN then
 		return slot0:getConfig("effect_args")[1]
 	end
+end
+
+function slot0.getDropInfo(slot0)
+	slot1 = nil
+
+	return (slot0:getConfig("effect_args") ~= "ship_bag_size" or {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = Goods.SHIP_BAG_SIZE_ITEM
+	}) and (slot2 ~= "equip_bag_size" or {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = Goods.EQUIP_BAG_SIZE_ITEM
+	}) and (slot2 ~= "commander_bag_size" or {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = Goods.COMMANDER_BAG_SIZE_ITEM
+	}) and {
+		type = slot0:getConfig("type"),
+		id = slot2[1],
+		count = slot0:getConfig("num")
+	}
 end
 
 return slot0

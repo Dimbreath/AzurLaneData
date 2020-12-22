@@ -1304,10 +1304,11 @@ pg.backyard_theme_template = {
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 20,
+		discount = 0,
 		id = 37,
 		icon = "cr2themeicon",
 		comfortable = 0,
+		discount_time = "",
 		ids = {
 			37001,
 			37002,
@@ -1331,32 +1332,6 @@ pg.backyard_theme_template = {
 			37118,
 			37119,
 			37120
-		},
-		discount_time = {
-			{
-				{
-					2019,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[38] = {
@@ -2587,6 +2562,51 @@ pg.backyard_theme_template = {
 			72123
 		}
 	},
+	[73] = {
+		Cfg_1 = 5,
+		name = "ブラウンクリスマス",
+		desc = "今年のクリスマスはポカポカ暖かく！",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 73,
+		icon = "cs4themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			73001,
+			73002,
+			73101,
+			73102,
+			73103,
+			73104,
+			73105,
+			73106,
+			73107,
+			73108,
+			73109,
+			73110,
+			73111,
+			73112,
+			73113,
+			73114,
+			73115,
+			73116,
+			73117,
+			73118,
+			73119,
+			73120,
+			73121,
+			73301,
+			73302,
+			73303,
+			73304,
+			73305
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2644,6 +2664,7 @@ pg.backyard_theme_template = {
 		69,
 		70,
 		71,
-		72
+		72,
+		73
 	}
 }

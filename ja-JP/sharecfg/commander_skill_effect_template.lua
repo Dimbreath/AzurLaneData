@@ -1475,6 +1475,251 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[9100111] = {
+		id = 9100111,
+		name = "31节的正义",
+		effect_type = "battle_buff",
+		args = {
+			412220
+		},
+		condition = {
+			{
+				"count",
+				{
+					1
+				},
+				3,
+				3
+			}
+		}
+	},
+	[9100112] = {
+		id = 9100112,
+		name = "31节的正义",
+		effect_type = "battle_buff",
+		args = {
+			40320
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	},
+	[9100113] = {
+		id = 9100113,
+		name = "31节的正义",
+		effect_type = "battle_buff",
+		args = {
+			40325
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	},
+	[9110111] = {
+		id = 9110111,
+		name = "5英寸的勇气",
+		effect_type = "battle_buff",
+		args = {
+			411210
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	},
+	[9110212] = {
+		id = 9110212,
+		name = "幸运之翼",
+		effect_type = "battle_buff",
+		args = {
+			40330
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[9120121] = {
+		id = 9120121,
+		name = "雷达侦察",
+		effect_type = "battle_buff",
+		args = {
+			423910
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[9200112] = {
+		id = 9200112,
+		name = "尽忠职守",
+		effect_type = "battle_buff",
+		args = {
+			40340
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[9210213] = {
+		id = 9210213,
+		name = "斥候猎手",
+		effect_type = "battle_buff",
+		args = {
+			411910
+		},
+		condition = {
+			{
+				"around_enemy",
+				3,
+				{
+					1,
+					2,
+					3
+				}
+			}
+		}
+	},
+	[9210312] = {
+		id = 9210312,
+		name = "守望者",
+		effect_type = "battle_buff",
+		args = {
+			411910
+		},
+		condition = {
+			{
+				"around_enemy",
+				2,
+				{
+					1,
+					2,
+					3
+				}
+			}
+		}
+	},
+	[9210411] = {
+		id = 9210411,
+		name = "无畏的骑士",
+		effect_type = "battle_buff",
+		args = {
+			433910
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[9300112] = {
+		id = 9300112,
+		name = "反击的一拳",
+		effect_type = "battle_buff",
+		args = {
+			443910
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[9310113] = {
+		id = 9310113,
+		name = "必杀·三段击",
+		effect_type = "battle_buff",
+		args = {
+			40350
+		},
+		condition = {}
+	},
+	[9400112] = {
+		id = 9400112,
+		name = "静寂的狩猎者",
+		effect_type = "battle_buff",
+		args = {
+			40360
+		},
+		condition = {
+			{
+				"pos",
+				1
+			},
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[9400113] = {
+		id = 9400113,
+		name = "静寂的狩猎者",
+		effect_type = "battle_buff",
+		args = {
+			40370
+		},
+		condition = {
+			{
+				"pos",
+				1
+			},
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[9400212] = {
+		id = 9400212,
+		name = "不屈的意志",
+		effect_type = "battle_buff",
+		args = {
+			40380
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[9410213] = {
+		id = 9410213,
+		name = "海之勇者",
+		effect_type = "battle_buff",
+		args = {
+			40390
+		},
+		condition = {
+			{
+				"pos",
+				2
+			},
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1570,6 +1815,22 @@ pg.commander_skill_effect_template = {
 		420113,
 		420211,
 		420212,
-		420213
+		420213,
+		9100111,
+		9100112,
+		9100113,
+		9110111,
+		9110212,
+		9120121,
+		9200112,
+		9210213,
+		9210312,
+		9210411,
+		9300112,
+		9310113,
+		9400112,
+		9400113,
+		9400212,
+		9410213
 	}
 }

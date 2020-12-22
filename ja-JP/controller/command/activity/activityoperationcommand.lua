@@ -223,7 +223,6 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 					if table.contains(_.flatten({
 						slot15
 					}), slot8) then
-						slot3.data2 = slot8
 						slot3.data3 = slot14
 
 						break

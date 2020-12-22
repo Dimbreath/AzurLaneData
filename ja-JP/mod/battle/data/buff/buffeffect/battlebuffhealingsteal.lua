@@ -21,7 +21,7 @@ function slot1.onTakeHealing(slot0, slot1, slot2, slot3)
 		slot6 = math.ceil(slot4 * slot0._stealRate)
 		slot3.damage = slot4 - slot6
 
-		slot5:UpdateHP(math.ceil(slot6 * slot0._absorbRate), {
+		slot5:UpdateHP(math.ceil(slot5:GetAttrByName("healingRate") * slot6 * slot0._absorbRate), {
 			isMiss = false,
 			isCri = false,
 			isShare = false,

@@ -18,3 +18,7 @@ function slot0.MVC.Command.Dispose(slot0)
 	uv0.EventListener.DetachEventListener(slot0)
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
+
+function slot0.MVC.Command.GetState(slot0)
+	return slot0._state
+end

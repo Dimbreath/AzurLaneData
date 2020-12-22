@@ -1,54 +1,56 @@
 slot0 = class("MainUIMediator", import("..base.ContextMediator"))
-slot0.OPEN_LEVEL = "MainUIMediator:OPEN_LEVEL"
-slot0.OPEN_CHUANWUSTART = "MainUIMediator:OPEN_CHUANWUSTART"
-slot0.OPEN_EQUIPDEV = "MainUIMediator:OPEN_EQUIPDEV"
-slot0.OPEN_SETTINGS = "MainUIMediator:OPEN_SETTINGS"
-slot0.OPEN_TASK = "MainUIMediator:OPEN_TASK"
-slot0.OPEN_MAIL = "MainUIMediator:OPEN_MAIL"
-slot0.GETBOAT = "MainUIMediator:GETBOAT"
-slot0.OPEN_BIANDUI = "MainUIMediator:OPEN_BIANDUI"
-slot0.OPEN_EQUIPSYNTHESIS = "MainUIMediator:OPEN_EQUIPSYNTHESIS"
-slot0.OPEN_CHATVIEW = "MainUIMediator:OPEN_CHATVIEW"
-slot0.OPEN_EQUIPSCENE = "MainUIMediator:OPEN_EQUIPSCENE"
-slot0.OPEN_ARMORYSCENE = "MainUIMediator:OPEN_ARMORYSCENE"
-slot0.TEST1 = "MainUIMediator:TEST1"
-slot0.OPEN_SCHOOLSCENE = "MainUIMediator:OPEN_SCHOOLSCENE"
-slot0.OPEN_BACKYARD = "MainUIMediator:OPEN_BACKYARD"
-slot0.OPEN_PLAYER_INFO_LAYER = "MainUIMediator:OPEN_PLAYER_INFO_LAYER"
-slot0.ON_SHIP_DETAIL = "MainUIMediator:ON_SHIP_DETAIL"
-slot0.OPEN_COLLECT_SHIP = "MainUIMediator:OPEN_COLLECT_SHIP"
-slot0.OPEN_ACTIVITY_PANEL = "MainUIMediator:OPEN_ACTIVITY_PANEL"
-slot0.OPEN_EVENT = "MainUIMediator:OPEN_EVENT"
-slot0.GO_SCENE = "MainUIMediator:GO_SCENE"
+slot0.OPEN_LEVEL = "MainUIMediator.OPEN_LEVEL"
+slot0.OPEN_CHUANWUSTART = "MainUIMediator.OPEN_CHUANWUSTART"
+slot0.OPEN_EQUIPDEV = "MainUIMediator.OPEN_EQUIPDEV"
+slot0.OPEN_SETTINGS = "MainUIMediator.OPEN_SETTINGS"
+slot0.OPEN_TASK = "MainUIMediator.OPEN_TASK"
+slot0.OPEN_MAIL = "MainUIMediator.OPEN_MAIL"
+slot0.GETBOAT = "MainUIMediator.GETBOAT"
+slot0.OPEN_BIANDUI = "MainUIMediator.OPEN_BIANDUI"
+slot0.OPEN_EQUIPSYNTHESIS = "MainUIMediator.OPEN_EQUIPSYNTHESIS"
+slot0.OPEN_CHATVIEW = "MainUIMediator.OPEN_CHATVIEW"
+slot0.OPEN_EQUIPSCENE = "MainUIMediator.OPEN_EQUIPSCENE"
+slot0.OPEN_ARMORYSCENE = "MainUIMediator.OPEN_ARMORYSCENE"
+slot0.TEST1 = "MainUIMediator.TEST1"
+slot0.OPEN_SCHOOLSCENE = "MainUIMediator.OPEN_SCHOOLSCENE"
+slot0.OPEN_BACKYARD = "MainUIMediator.OPEN_BACKYARD"
+slot0.OPEN_PLAYER_INFO_LAYER = "MainUIMediator.OPEN_PLAYER_INFO_LAYER"
+slot0.ON_SHIP_DETAIL = "MainUIMediator.ON_SHIP_DETAIL"
+slot0.OPEN_COLLECT_SHIP = "MainUIMediator.OPEN_COLLECT_SHIP"
+slot0.OPEN_ACTIVITY_PANEL = "MainUIMediator.OPEN_ACTIVITY_PANEL"
+slot0.OPEN_EVENT = "MainUIMediator.OPEN_EVENT"
+slot0.GO_SCENE = "MainUIMediator.GO_SCENE"
 slot0.OPEN_FRIEND = "MainUIMediator.OPEN_FRIEND"
-slot0.GO_MALL = "MainUIMediator:GO_MALL"
-slot0.OPEN_COMMISSION_INFO = "MainUIMediator:OPEN_COMMISSION_INFO"
-slot0.OPEN_RANK = "MainUIMediator:OPEN_RANK"
-slot0.TMP_DEBUG = "MainUIMediator:TMP_DEBUG"
-slot0.OPEN_GUILD = "MainUIMediator:OPEN_GUILD"
-slot0.OPEN_MONTH_CARD_SET = "MainUIMediator:OPEN_MONTH_CARD_SET"
-slot0.OPEN_SHOP_LAYER = "MainUIMediator:OPEN_SHOP_LAYER"
-slot0.ON_ACTIVITY_MAP = "MainUIMediator:ON_ACTIVITY_MAP"
-slot0.ON_ACTIVITY_PT = "MainUIMediator:ON_ACTIVITY_PT"
-slot0.ON_VOTE = "MainUIMediator:ON_VOTE"
-slot0.ON_TOUCHSHIP = "MainUIMediator:ON_TOUCHSHIP"
-slot0.ON_LOTTERY = "MainUIMediator:ON_LOTTERY"
-slot0.OPEN_SCROLL = "MainUIMediator:OPEN_SCROLL"
-slot0.ON_TASK_OPEN = "MainUIMediator:ON_TASK_OPEN"
-slot0.ON_ANNIVERSARY = "MainUIMediator:ON_ANNIVERSARY"
-slot0.OPEN_SNAPSHOT = "MainUIMediator:OPEN_SNAPSHOT"
-slot0.OPEN_TRANINGCAMP = "MainUIMediator:OPEN_TRANINGCAMP"
-slot0.OPEN_COMMANDER = "MainUIMediator:OPEN_COMMANDER"
-slot0.OPEN_BULLETINBOARD = "MainUIMediator:OPEN_BULLETINBOARD"
+slot0.GO_MALL = "MainUIMediator.GO_MALL"
+slot0.OPEN_COMMISSION_INFO = "MainUIMediator.OPEN_COMMISSION_INFO"
+slot0.OPEN_RANK = "MainUIMediator.OPEN_RANK"
+slot0.TMP_DEBUG = "MainUIMediator.TMP_DEBUG"
+slot0.OPEN_GUILD = "MainUIMediator.OPEN_GUILD"
+slot0.OPEN_MONTH_CARD_SET = "MainUIMediator.OPEN_MONTH_CARD_SET"
+slot0.OPEN_SHOP_LAYER = "MainUIMediator.OPEN_SHOP_LAYER"
+slot0.ON_ACTIVITY_MAP = "MainUIMediator.ON_ACTIVITY_MAP"
+slot0.ON_ACTIVITY_PT = "MainUIMediator.ON_ACTIVITY_PT"
+slot0.ON_VOTE = "MainUIMediator.ON_VOTE"
+slot0.ON_TOUCHSHIP = "MainUIMediator.ON_TOUCHSHIP"
+slot0.ON_LOTTERY = "MainUIMediator.ON_LOTTERY"
+slot0.OPEN_SCROLL = "MainUIMediator.OPEN_SCROLL"
+slot0.ON_TASK_OPEN = "MainUIMediator.ON_TASK_OPEN"
+slot0.ON_ANNIVERSARY = "MainUIMediator.ON_ANNIVERSARY"
+slot0.OPEN_SNAPSHOT = "MainUIMediator.OPEN_SNAPSHOT"
+slot0.OPEN_TRANINGCAMP = "MainUIMediator.OPEN_TRANINGCAMP"
+slot0.OPEN_COMMANDER = "MainUIMediator.OPEN_COMMANDER"
+slot0.OPEN_BULLETINBOARD = "MainUIMediator.OPEN_BULLETINBOARD"
 slot0.OPEN_ESCORT = "event open escort"
 slot0.ON_VOTE_BOOK = "event on vote book"
 slot0.MINIGAME_OPERATION = "MINIGAME_OPERATION"
-slot0.OPEN_INS = "MainUIMediator:OPEN_INS"
-slot0.OPEN_TECHNOLOGY = "MainUIMediator:OPEN_TECHNOLOGY"
-slot0.ON_BOSS_BATTLE = "MainUIMediator:ON_BOSS_BATTLE"
-slot0.ON_MONOPOLY = "MainUIMediator:ON_MONOPOLY"
-slot0.ON_BLACKWHITE = "MainUIMediator:ON_BLACKWHITE"
-slot0.ON_MEMORYBOOK = "MainUIMediator:ON_MEMORYBOOK"
+slot0.ENTER_WORLD = "MainUIMediator.ENTER_WORLD"
+slot0.OPEN_MEMORY = "MainUIMediator OPEN_MEMORY"
+slot0.OPEN_INS = "MainUIMediator.OPEN_INS"
+slot0.OPEN_TECHNOLOGY = "MainUIMediator.OPEN_TECHNOLOGY"
+slot0.ON_BOSS_BATTLE = "MainUIMediator.ON_BOSS_BATTLE"
+slot0.ON_MONOPOLY = "MainUIMediator.ON_MONOPOLY"
+slot0.ON_BLACKWHITE = "MainUIMediator.ON_BLACKWHITE"
+slot0.ON_MEMORYBOOK = "MainUIMediator.ON_MEMORYBOOK"
 slot0.GO_MINI_GAME = "MainUIMediator.GO_MINI_GAME"
 slot0.GO_SINGLE_ACTIVITY = "MainUIMediator:GO_SINGLE_ACTIVITY"
 
@@ -94,10 +96,10 @@ function slot0.register(slot0)
 	slot0:updateBackYardNotices()
 	slot0:updateMailAttachmentNotices()
 	slot0:updateBuildNotices()
+	slot0:updateGuildNotices()
 	slot0:navalAcademyNotices()
 	slot0:updateAttireTip()
 	slot0:updateCollectNotices()
-	slot0:updateChat()
 	slot0:updateFriendNotification()
 	slot0:updateBanner()
 	slot0:updateEvent()
@@ -113,7 +115,8 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.OPEN_COMMANDER, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
-			fromMain = true
+			fromMain = true,
+			fleetType = CommandRoomScene.FLEET_TYPE_COMMON
 		})
 	end)
 	slot0.viewComponent:updateTraningCampBtn()
@@ -128,7 +131,7 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.GO_MINI_GAME, function (slot0, slot1)
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot1)
+		uv0:sendNotification(GAME.GO_MINI_GAME, slot1)
 	end)
 	slot0:bind(uv0.OPEN_TRANINGCAMP, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.TRAININGCAMP)
@@ -276,6 +279,9 @@ function slot0.register(slot0)
 			id = slot1
 		})
 	end)
+	slot0:bind(uv0.ENTER_WORLD, function (slot0)
+		uv0:sendNotification(GAME.ENTER_WORLD, {})
+	end)
 	slot0:bind(uv0.OPEN_FRIEND, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.FRIEND)
 	end)
@@ -388,15 +394,6 @@ function slot0.register(slot0)
 	end
 
 	pg.SystemOpenMgr.GetInstance():notification(slot4.level)
-
-	if getProxy(GuildProxy):getData() then
-		if (slot19:getDutyByMemberId(slot4.id) == GuildMember.DUTY_COMMANDER or slot20 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot18:getRequests() then
-			slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot19.id)
-		end
-
-		slot0:updateGuildNotices()
-	end
-
 	slot0:bind(uv0.MINIGAME_OPERATION, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot1,
@@ -436,11 +433,14 @@ function slot0.register(slot0)
 
 		uv0:escortHandler()
 	end)
+	slot0:bind(uv0.OPEN_MEMORY, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION)
+	end)
 
 	if getProxy(MailProxy).total >= 1000 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
-	elseif slot20.total >= 950 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot20.total))
+	elseif slot18.total >= 950 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot18.total))
 	end
 
 	slot0.viewComponent:updateVoteBtn(slot7:GetVoteActivity(), getProxy(VoteProxy):GetOrderBook())
@@ -511,9 +511,7 @@ function slot0.updateCommanderNotices(slot0, slot1)
 end
 
 function slot0.updateGuildNotices(slot0)
-	slot1 = getProxy(GuildProxy)
-
-	slot0.viewComponent:updateGuildNotices(slot1.eventTip or slot1:isNoticesApply())
+	slot0.viewComponent:updateGuildNotices(getProxy(GuildProxy):ShouldShowTip())
 end
 
 function slot0.updateCommissionNotices(slot0)
@@ -662,7 +660,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ON_OPEN_INS_LAYER,
 		PileGameConst.OPEN_PILEGAME,
 		ShopsProxy.CHARGED_LIST_UPDATED,
-		GAME.ZERO_HOUR_OP_DONE
+		GAME.ZERO_HOUR_OP_DONE,
+		GAME.GET_GUILD_INFO_DONE
 	}
 end
 
@@ -764,8 +763,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.CHAPTER_OP_DONE then
 		if slot3.items and #slot3.items > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3.items
-			}, slot0.retreateMapType == Map.ESCORT and AwardInfoLayer.TITLE.ESCORT or nil)
+				items = slot3.items,
+				title = slot0.retreateMapType == Map.ESCORT and AwardInfoLayer.TITLE.ESCORT or nil
+			})
 		end
 	elseif slot2 == CommanderProxy.COMMANDER_BOX_FINISHED then
 		slot0:updateCommanderNotices(true)
@@ -823,6 +823,16 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:UpdateMallBtnMonthcardTag()
 	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
 		slot0.viewComponent:UpdateActivityBtn("activity_map_btn")
+	elseif slot2 == GAME.GET_GUILD_INFO_DONE then
+		slot0:updateChat()
+
+		if getProxy(GuildProxy):getData() then
+			if (slot5:getDutyByMemberId(getProxy(PlayerProxy):getRawData().id) == GuildMember.DUTY_COMMANDER or slot7 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot4:getRequests() then
+				slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot5.id)
+			end
+
+			slot0:updateGuildNotices()
+		end
 	end
 end
 
@@ -924,6 +934,7 @@ function slot0.handleEnterMainUI(slot0)
 			uv0:onBluePrintNotify()
 			getProxy(TaskProxy):pushAutoSubmitTask()
 			uv0:handlingSpecialActs()
+			uv0:checkTimeLimitEquip()
 			uv0:handlingActivityBtn()
 			uv0:handleOverdueAttire()
 			uv0:updateExSkinOverDue()
@@ -1143,6 +1154,16 @@ end
 
 function slot0.handlingSpecialActs(slot0)
 	slot0:sendNotification(GAME.SPECIAL_ACT)
+end
+
+function slot0.checkTimeLimitEquip(slot0)
+	if #getProxy(EquipmentProxy):getTimeLimitShipList() > 0 then
+		slot0.viewComponent:emit(BaseUI.ON_DROP_LIST, {
+			item2Row = true,
+			itemList = slot1,
+			content = i18n("time_limit_equip_destroy_on_ship")
+		})
+	end
 end
 
 function slot0.handlingActivityBtn(slot0)

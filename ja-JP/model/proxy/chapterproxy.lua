@@ -731,29 +731,6 @@ function slot0.isClear(slot0, slot1)
 	return slot0:getChapterById(slot1):isClear()
 end
 
-function slot0.recordLastMap(slot0, slot1, slot2)
-	slot3 = false
-
-	if slot1 == uv0.LAST_MAP_FOR_ACTIVITY then
-		Map.lastMapForActivity = slot2
-		slot3 = true
-	elseif slot1 == uv0.LAST_MAP and slot2 ~= Map.lastMap then
-		Map.lastMap = slot2
-		slot3 = true
-	end
-
-	if slot3 then
-		PlayerPrefs.SetInt(slot1 .. getProxy(PlayerProxy):getRawData().id, slot2)
-		PlayerPrefs.Save()
-	end
-end
-
-function slot0.getLastMap(slot0, slot1)
-	if PlayerPrefs.GetInt(slot1 .. getProxy(PlayerProxy):getRawData().id) ~= 0 then
-		return slot3
-	end
-end
-
 function slot0.getEscortShop(slot0)
 	return Clone(slot0.escortShop)
 end

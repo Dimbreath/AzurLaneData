@@ -45,7 +45,7 @@ function slot11(slot0, slot1, slot2)
 		return
 	end
 
-	pg.OSSMgr:GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), false, uv3, uv4, function (slot0, slot1)
+	pg.OSSMgr.GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), false, uv3, uv4, function (slot0, slot1)
 		if slot0 and slot1 then
 			uv0(slot1)
 		else
@@ -61,7 +61,7 @@ function slot12(slot0, slot1, slot2)
 		return
 	end
 
-	pg.OSSMgr:GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), true, uv3, uv4, function (slot0, slot1)
+	pg.OSSMgr.GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), true, uv3, uv4, function (slot0, slot1)
 		if slot0 and slot1 and uv0 == uv1(uv2) then
 			uv3(slot1)
 		else
@@ -79,7 +79,7 @@ function slot13(slot0, slot1)
 
 	slot2 = uv1(slot0)
 
-	pg.OSSMgr:GetInstance():DeleteObject(uv2(slot0), slot1)
+	pg.OSSMgr.GetInstance():DeleteObject(uv2(slot0), slot1)
 end
 
 function slot14(slot0, slot1)
@@ -89,7 +89,7 @@ function slot14(slot0, slot1)
 		return
 	end
 
-	pg.OSSMgr:GetInstance():AsynUpdateLoad(uv2(slot0), uv1(slot0), slot1)
+	pg.OSSMgr.GetInstance():AsynUpdateLoad(uv2(slot0), uv1(slot0), slot1)
 end
 
 function slot15()

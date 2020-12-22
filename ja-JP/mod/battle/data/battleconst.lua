@@ -66,6 +66,8 @@ slot0.EquipmentType = {
 	REPEATER_ANTI_AIR = 26,
 	MANUAL_AAMISSILE = 28,
 	DISPOSABLE_TORPEDO = 27,
+	SPACE_LASER = 28,
+	MISSILE = 29,
 	PREVIEW_ARICRAFT = 99,
 	AIR_ASSIST = "airAssist"
 }
@@ -171,6 +173,8 @@ slot0.BulletType = {
 	SPACE_LASER = 14,
 	SCALE = 15,
 	TRIGGER_BOMB = 16,
+	MISSILE = 13,
+	SPACE_LASER = 14,
 	AAMissile = 17
 }
 slot0.BulletDamageType = {
@@ -182,6 +186,11 @@ slot0.BulletField = {
 	SURFACE = 1,
 	UNDER_WATER = 2,
 	AIR = 3
+}
+slot0.BulletOutBound = {
+	COMMON = 0,
+	EXIST = 1,
+	RANDOM = 2
 }
 slot0.AOEField = {
 	SURFACE = 1,
@@ -215,6 +224,8 @@ slot0.BuffEffectType = {
 	ON_REMOVE = "onRemove",
 	ON_STACK = "onStack",
 	ON_UPDATE = "onUpdate",
+	ON_BUFF_ADDED = "onBuffAdded",
+	ON_BUFF_REMOVED = "onBuffRemoved",
 	ON_BULLET_CREATE = "onBulletCreate",
 	ON_CHARGE_BULLET_CREATE = "onChargeWeaponBulletCreate",
 	ON_TORPEDO_BULLET_CREATE = "onTorpedoWeaponBulletCreate",
@@ -330,5 +341,20 @@ slot0.EnviroumentBehaviour = {
 	FORCE = 5,
 	SPAWN = 6,
 	PLAY_SFX = 7,
-	SHAKE_SCREEN = 8
+	SHAKE_SCREEN = 8,
+	SPAWN = 6
+}
+slot0.Difficulty = {
+	CASUAL = 1,
+	ELITE = 2,
+	RANDOM = 3,
+	WORLD = 4
+}
+slot0.FIRE_FX_TYPE = {
+	COMMON = 1,
+	LASTING = 2
+}
+slot0.DEATH_MARK_SKILL = {
+	IGNORE = 0,
+	DEACTIVE = 1
 }

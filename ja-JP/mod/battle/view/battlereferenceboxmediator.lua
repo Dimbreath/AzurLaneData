@@ -77,21 +77,21 @@ end
 function slot4.Update(slot0)
 	for slot4, slot5 in pairs(slot0._dataProxy:GetUnitList()) do
 		if slot0._unitBoxList[slot4] then
-			slot6.transform.localPosition = slot5:GetPosition() + slot5._cldComponent:GetCenterOffset()
+			slot6.transform.localPosition = slot5:GetPosition()
 		end
 	end
 
 	if slot0._bulletBoxActive then
 		for slot4, slot5 in pairs(slot0._dataProxy:GetBulletList()) do
 			slot6 = slot0._bulletBoxList[slot4] or slot0:createBulletBox(slot5)
-			slot6.transform.localPosition = slot5:GetPosition() + slot5._cldComponent:GetCenterOffset()
+			slot6.transform.localPosition = slot5:GetPosition()
 			slot6.transform.localEulerAngles = Vector3(0, -slot5:GetYAngle(), 0)
 			slot7 = slot5:GetBoxSize() * 2
 			slot6.transform.localScale = Vector3(slot7.x, slot7.y, slot7.z)
 		end
 
 		for slot4, slot5 in pairs(slot0._dataProxy:GetWallList()) do
-			(slot0._wallBoxList[slot4] or slot0:createWallBox(slot5)).transform.localPosition = slot5:GetPosition() + slot5._cldComponent:GetCenterOffset()
+			(slot0._wallBoxList[slot4] or slot0:createWallBox(slot5)).transform.localPosition = slot5:GetPosition()
 		end
 	end
 
@@ -126,14 +126,24 @@ function slot4.onAddUnit(slot0, slot1)
 end
 
 function slot4.createBox(slot0, slot1)
-	slot2 = nil
-	slot2 = (slot1:GetIFF() ~= 1 or slot0._sceneMediator:InstantiateCharacterComponent("Cube_friendly")) and slot0._sceneMediator:InstantiateCharacterComponent("Cube_foe")
+	slot2, slot3, slot4 = nil
+
+	if slot1:GetBoxSize().range then
+		slot2 = slot0._sceneMediator:InstantiateCharacterComponent("Cylinder" .. (slot1:GetIFF() == 1 and "_friendly" or "_foe"))
+	else
+		slot2 = slot0._sceneMediator:InstantiateCharacterComponent("Cube" .. slot3)
+		slot5 = slot5 * 2
+	end
 
 	slot2.transform:SetParent(slot0._boxContainer.transform)
 
 	slot2.layer = LayerMask.NameToLayer("Default")
-	slot3 = slot1:GetBoxSize() * 2
-	slot2.transform.localScale = Vector3(slot3.x, slot3.y, slot3.z)
+
+	if slot5.range then
+		slot2.transform.localScale = Vector3(slot5.range * 2, slot5.tickness * 2, slot5.range * 2)
+	else
+		slot2.transform.localScale = Vector3(slot5.x, slot5.y, slot5.z)
+	end
 
 	SetActive(slot2, true)
 
@@ -238,16 +248,7 @@ function slot4.createBulletBox(slot0, slot1)
 end
 
 function slot4.createWallBox(slot0, slot1)
-	slot2 = slot0._sceneMediator:InstantiateCharacterComponent("Cube_friendly")
-
-	slot2.transform:SetParent(slot0._boxContainer.transform)
-
-	slot2.layer = LayerMask.NameToLayer("Default")
-	slot3 = slot1:GetBoxSize() * 2
-	slot2.transform.localScale = Vector3(slot3.x, slot3.y, slot3.z)
-
-	SetActive(slot2, true)
-
+	slot2 = slot0:createBox(slot1)
 	slot0._wallBoxList[slot1:GetUniqueID()] = slot2
 
 	return slot2

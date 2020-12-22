@@ -5,7 +5,7 @@ function slot0.execute(slot0, slot1)
 	slot6 = getProxy(BagProxy):getData()
 	slot10 = pg.equip_data_statistics[pg.compose_data_template[slot2.id].equip_id]
 
-	if getProxy(PlayerProxy):getData().equip_bag_max < getProxy(EquipmentProxy):getCapacity() + slot2.count then
+	if getProxy(PlayerProxy):getData():getMaxEquipmentBag() < getProxy(EquipmentProxy):getCapacity() + slot2.count then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 
 		return

@@ -457,6 +457,9 @@ function slot6.GetLabelTag(slot0)
 	return {}
 end
 
+function slot6.CloakExpose(slot0)
+end
+
 function slot6.GetCurrentOxyState(slot0)
 	return nil
 end

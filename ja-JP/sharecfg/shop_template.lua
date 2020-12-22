@@ -15893,9 +15893,10 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
-		order = 11,
+		order = 7,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -15906,32 +15907,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			101312
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70127] = {
@@ -15942,9 +15917,10 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
-		order = 11,
+		order = 7,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -15955,32 +15931,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			205021
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70128] = {
@@ -15991,9 +15941,10 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
-		order = 11,
+		order = 7,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -16004,32 +15955,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			301591
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70129] = {
@@ -16040,9 +15965,10 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
-		order = 11,
+		order = 7,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -16053,32 +15979,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			102123
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70130] = {
@@ -23426,7 +23326,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 6,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -23442,8 +23342,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					12,
+					22
 				},
 				{
 					0,
@@ -23453,9 +23353,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					1,
+					13
 				},
 				{
 					23,
@@ -23475,7 +23375,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 6,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -23491,8 +23391,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					12,
+					22
 				},
 				{
 					0,
@@ -23502,9 +23402,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					1,
+					13
 				},
 				{
 					23,
@@ -23524,7 +23424,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 6,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -23540,8 +23440,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					12,
+					22
 				},
 				{
 					0,
@@ -23551,9 +23451,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					1,
+					13
 				},
 				{
 					23,
@@ -23573,7 +23473,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 6,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -23589,8 +23489,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					12,
+					22
 				},
 				{
 					0,
@@ -23600,9 +23500,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					1,
+					13
 				},
 				{
 					23,
@@ -23622,7 +23522,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 6,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -23638,8 +23538,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					12,
+					22
 				},
 				{
 					0,
@@ -23649,9 +23549,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					1,
+					13
 				},
 				{
 					23,
@@ -23671,7 +23571,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 6,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -23687,8 +23587,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					12,
+					22
 				},
 				{
 					0,
@@ -23698,9 +23598,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					1,
+					13
 				},
 				{
 					23,
@@ -23720,7 +23620,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 6,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -23736,8 +23636,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					9,
-					17
+					12,
+					22
 				},
 				{
 					0,
@@ -23747,9 +23647,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					1,
+					13
 				},
 				{
 					23,
@@ -31648,6 +31548,300 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70452] = {
+		group_type = 0,
+		resource_num = 900,
+		desc = "购买皮肤:夕立圣诞",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70452,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301144
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70453] = {
+		group_type = 0,
+		resource_num = 900,
+		desc = "购买皮肤:明尼阿波利斯圣诞",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70453,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103133
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70454] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:库珀圣诞",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 3,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70454,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101442
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70455] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤:杰金斯圣诞",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70455,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101301
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70456] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤:哈曼圣诞皮肤",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70456,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101254
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70457] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤:萨拉托加圣诞",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70457,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			107035
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -33325,6 +33519,209 @@ pg.shop_template = {
 			}
 		}
 	},
+	[100000] = {
+		group_type = 0,
+		resource_num = 5000,
+		desc = "大型作战信息记录仪",
+		type = 12,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 2,
+		id = 100000,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			102
+		}
+	},
+	[100001] = {
+		group_type = 0,
+		resource_num = 100,
+		desc = "資金",
+		type = 2,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 1,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3002,
+		id = 100001,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				30
+			}
+		},
+		effect_args = {
+			61001
+		}
+	},
+	[100002] = {
+		group_type = 0,
+		resource_num = 250,
+		desc = "大作戦指令書",
+		type = 1,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 2,
+		time = "always",
+		group = 0,
+		num = 1000,
+		discount = 0,
+		resource_type = 3002,
+		id = 100002,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				3
+			}
+		},
+		effect_args = {
+			1
+		}
+	},
+	[100003] = {
+		group_type = 0,
+		resource_num = 80,
+		desc = "混乱坐标仪LV5",
+		type = 12,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 3,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3002,
+		id = 100003,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				3
+			}
+		},
+		effect_args = {
+			2005
+		}
+	},
+	[100004] = {
+		group_type = 0,
+		resource_num = 160,
+		desc = "混乱坐标仪LV6",
+		type = 12,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 4,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3002,
+		id = 100004,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			2006
+		}
+	},
+	[100005] = {
+		group_type = 0,
+		resource_num = 400,
+		desc = "深渊坐标仪LV5",
+		type = 12,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 5,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3002,
+		id = 100005,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			2015
+		}
+	},
+	[100006] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "深渊坐标仪LV6",
+		type = 12,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 6,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3002,
+		id = 100006,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			2016
+		}
+	},
 	[90049] = {
 		group_type = 0,
 		resource_num = 1,
@@ -34935,6 +35332,12 @@ pg.shop_template = {
 		70449,
 		70450,
 		70451,
+		70452,
+		70453,
+		70454,
+		70455,
+		70456,
+		70457,
 		90001,
 		90002,
 		90003,
@@ -34983,6 +35386,13 @@ pg.shop_template = {
 		90046,
 		90047,
 		90048,
+		100000,
+		100001,
+		100002,
+		100003,
+		100004,
+		100005,
+		100006,
 		90049,
 		90050,
 		90051,

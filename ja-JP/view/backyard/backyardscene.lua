@@ -200,7 +200,7 @@ function slot0.UpdateThemetemplateBtn(slot0)
 	if LOCK_BACKYARD_TEMPLATE then
 		setActive(slot0.themeTemplateBtn, false)
 	else
-		pg.SystemGuideMgr:GetInstance():PlayBackYardThemeTemplate()
+		pg.SystemGuideMgr.GetInstance():PlayBackYardThemeTemplate()
 		setActive(slot0.themeTemplateBtn, not slot0.isVisitMode and slot0.dormVO:IsMaxLevel())
 	end
 end
@@ -410,9 +410,14 @@ function slot0.initLoading(slot0, slot1)
 	}
 
 	LoadImageSpriteAsync("helpbg/" .. slot2[math.clamp(math.random(#slot2) + 1, 1, #slot2)], slot0.loadingHelp)
-	setText(slot0.loadingHelpTx, pg.server_language[math.random(#pg.server_language)].content)
 
-	slot3 = 0
+	while pg.server_language[math.random(#pg.server_language)].limitation ~= -1 do
+		slot3 = pg.server_language[math.random(#pg.server_language)]
+	end
+
+	setText(slot0.loadingHelpTx, slot3.content)
+
+	slot4 = 0
 	slot0.loadingTimer = Timer.New(function ()
 		slot0 = uv0()
 		slot1 = math.lerp(uv1, slot0, 0.5)

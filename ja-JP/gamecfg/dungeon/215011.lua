@@ -1,9 +1,6 @@
 return {
-	lose_condition = 1,
-	win_condition = 1,
 	map_id = 10001,
-	type = 1,
-	id = 601230,
+	id = 215011,
 	stages = {
 		{
 			stageIndex = 1,
@@ -55,7 +52,7 @@ return {
 					waveIndex = 202,
 					preWaves = {},
 					triggerParams = {
-						timeout = 20
+						timeout = 30
 					}
 				},
 				{
@@ -63,31 +60,18 @@ return {
 					waveIndex = 203,
 					preWaves = {},
 					triggerParams = {
-						timeout = 40
+						timeout = 50
 					}
 				},
 				{
-					triggerType = 1,
+					triggerType = 5,
 					waveIndex = 204,
-					preWaves = {},
+					preWaves = {
+						102,
+						101
+					},
 					triggerParams = {
-						timeout = 60
-					}
-				},
-				{
-					triggerType = 1,
-					waveIndex = 205,
-					preWaves = {},
-					triggerParams = {
-						timeout = 45
-					}
-				},
-				{
-					triggerType = 1,
-					waveIndex = 206,
-					preWaves = {},
-					triggerParams = {
-						timeout = 60
+						bgm = "hunhe-boss"
 					}
 				},
 				{
@@ -101,12 +85,12 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 211001,
+							monsterTemplateID = 201202,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								0,
+								10,
 								0,
 								75
 							},
@@ -116,14 +100,14 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 211001,
+							monsterTemplateID = 201202,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								5,
+								-15,
 								0,
-								55
+								75
 							},
 							buffList = {
 								8001,
@@ -131,29 +115,78 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 212001,
+							monsterTemplateID = 212101,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								25,
+								-5,
 								0,
-								55
+								45
 							}
 						},
 						{
-							monsterTemplateID = 211001,
+							monsterTemplateID = 212212,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
+								-5,
 								0,
+								65
+							},
+							buffList = {
+								8050,
+								8051
+							}
+						},
+						{
+							monsterTemplateID = 201202,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-15,
 								0,
 								35
 							},
 							buffList = {
 								8001,
 								8007
+							}
+						},
+						{
+							monsterTemplateID = 201202,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								10,
+								0,
+								35
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						}
+					},
+					airFighter = {
+						{
+							interval = 10,
+							onceNumber = 6,
+							totalNumber = 6,
+							formation = 10006,
+							delay = 0,
+							templateID = 2200769,
+							score = 1,
+							weaponID = {
+								2020002
+							},
+							attr = {
+								airPower = 125,
+								maxHP = 900,
+								attackRating = 23
 							}
 						}
 					}
@@ -170,14 +203,14 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 211001,
+							monsterTemplateID = 201203,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								11,
+								-15,
 								0,
-								80
+								75
 							},
 							buffList = {
 								8001,
@@ -185,28 +218,59 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 213001,
+							monsterTemplateID = 201203,
 							score = 0,
-							reinforceDelay = 5,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
+								-15,
 								0,
+								35
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 212105,
+							score = 0,
+							reinforceDelay = 10,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-5,
 								0,
-								60
+								55
+							}
+						},
+						{
+							monsterTemplateID = 212109,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							reinforceDelay = 10,
+							corrdinate = {
+								-15,
+								0,
+								45
+							},
+							buffList = {
+								8050,
+								8051
 							}
 						}
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 211002,
+							monsterTemplateID = 209502,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								41,
+								35,
 								0,
-								50
+								55
 							},
 							buffList = {
 								8001,
@@ -214,14 +278,14 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 211002,
+							monsterTemplateID = 209502,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								30,
+								20,
 								0,
-								35
+								55
 							},
 							buffList = {
 								8001,
@@ -234,20 +298,69 @@ return {
 					triggerType = 0,
 					key = true,
 					waveIndex = 103,
-					conditionType = 1,
+					conditionType = 0,
 					preWaves = {
 						102,
-						203
+						101
 					},
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 211001,
+							monsterTemplateID = 212013,
+							score = 0,
+							reinforceDelay = 6,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								5,
+								0,
+								70
+							}
+						},
+						{
+							monsterTemplateID = 212014,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
+								5,
 								0,
+								40
+							},
+							buffList = {
+								8050,
+								8051
+							}
+						},
+						{
+							monsterTemplateID = 213010,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							affix = true,
+							corrdinate = {
+								10,
+								0,
+								55
+							},
+							bossData = {
+								hpBarNum = 50,
+								icon = "hailunna"
+							},
+							buffList = {
+								8050,
+								8051
+							}
+						}
+					},
+					reinforcement = {
+						{
+							monsterTemplateID = 201202,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-10,
 								0,
 								75
 							},
@@ -257,27 +370,12 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 212005,
-							score = 0,
-							delay = 0,
-							moveCast = true,
-							reinforceDelay = 5,
-							corrdinate = {
-								5,
-								0,
-								50
-							},
-							buffList = {
-								8030
-							}
-						},
-						{
-							monsterTemplateID = 211001,
+							monsterTemplateID = 201202,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								11,
+								-10,
 								0,
 								35
 							},
@@ -286,169 +384,13 @@ return {
 								8007
 							}
 						}
-					},
-					reinforcement = {
-						{
-							monsterTemplateID = 211002,
-							score = 0,
-							delay = 2,
-							moveCast = true,
-							corrdinate = {
-								33,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 211002,
-							score = 0,
-							delay = 1,
-							moveCast = true,
-							corrdinate = {
-								33,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						}
-					}
-				},
-				{
-					triggerType = 5,
-					waveIndex = 400,
-					preWaves = {
-						103,
-						102,
-						101
-					},
-					triggerParams = {
-						bgm = "battle-boss-1"
-					}
-				},
-				{
-					key = true,
-					triggerType = 0,
-					waveIndex = 104,
-					conditionType = 0,
-					preWaves = {
-						101,
-						102,
-						103
-					},
-					triggerParam = {},
-					spawn = {
-						{
-							monsterTemplateID = 212005,
-							score = 10,
-							reinforceDelay = 5,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								8,
-								0,
-								85
-							}
-						},
-						{
-							monsterTemplateID = 211001,
-							score = 10,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								11,
-								0,
-								55
-							},
-							buffList = {
-								8001,
-								8007
-							}
-						},
-						{
-							score = 50,
-							delay = 0,
-							moveCast = true,
-							reinforceDelay = 5,
-							monsterTemplateID = 214003,
-							corrdinate = {
-								8,
-								0,
-								55
-							},
-							bossData = {
-								hpBarNum = 40,
-								icon = "gelideli"
-							},
-							buffList = {
-								8030,
-								8031
-							}
-						}
-					},
-					reinforcement = {
-						{
-							monsterTemplateID = 211002,
-							score = 10,
-							delay = 3,
-							moveCast = true,
-							corrdinate = {
-								28,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 211002,
-							score = 10,
-							delay = 3,
-							moveCast = true,
-							corrdinate = {
-								28,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						}
-					},
-					airFighter = {
-						{
-							interval = 10,
-							onceNumber = 5,
-							totalNumber = 5,
-							formation = 10006,
-							delay = 0,
-							templateID = 316046,
-							score = 1,
-							weaponID = {
-								316508
-							},
-							attr = {
-								airPower = 125,
-								maxHP = 90,
-								attackRating = 23
-							}
-						}
 					}
 				},
 				{
 					triggerType = 8,
 					waveIndex = 900,
 					preWaves = {
-						105
+						103
 					},
 					triggerParams = {}
 				}

@@ -6,7 +6,7 @@ function slot0.register(slot0)
 		uv0.contextData.loadObs = slot1
 		uv0.contextData.prePause = uv0._prePauseBattle
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.BATTLE, uv0.contextData)
+		uv0:sendNotification(GAME.CHANGE_SCENE, SCENE.BATTLE, uv0.contextData)
 	end)
 end
 

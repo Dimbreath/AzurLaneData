@@ -12,6 +12,7 @@ slot0.ON_ITEM = "BaseUI:ON_ITEM"
 slot0.ON_SHIP = "BaseUI:ON_SHIP"
 slot0.ON_AWARD = "BaseUI:ON_AWARD"
 slot0.ON_ACHIEVE = "BaseUI:ON_ACHIEVE"
+slot0.ON_WORLD_ACHIEVE = "BaseUI:ON_WORLD_ACHIEVE"
 slot0.ON_EQUIPMENT = "BaseUI:ON_EQUIPMENT"
 slot0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 slot0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
@@ -130,7 +131,6 @@ slot0.optionsPath = {
 	"top/left_top/option",
 	"blur_container/top/title/option",
 	"blur_container/top/option",
-	"top/top_chapter/option",
 	"top/top/option",
 	"common/top/option",
 	"blur_panel/top/option",

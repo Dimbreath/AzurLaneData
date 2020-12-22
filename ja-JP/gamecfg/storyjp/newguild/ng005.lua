@@ -11,7 +11,7 @@ return {
 		{
 			action = {
 				ui = {
-					path = "/OverlayCamera/Overlay/UIMain/secondary_panel/frame/bg/commander_btn"
+					path = "/OverlayCamera/Overlay/UIMain/MainUISecondaryPanel(Clone)/frame/bg/commander_btn"
 				}
 			}
 		}

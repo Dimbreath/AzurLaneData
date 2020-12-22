@@ -23,6 +23,7 @@ function slot0.init(slot0)
 	setActive(slot0.helpUS, PLATFORM_CODE == PLATFORM_US)
 
 	slot0.repairMask = slot0:findTF("mask_repair")
+	slot0.msgBox = SettingsMsgBosPage.New(slot0._tf, slot0.event)
 
 	slot0:initSoundPanel(slot0:findTF("main/resources"))
 	slot0:initOptionsPanel(slot0:findTF("main/options"))
@@ -266,6 +267,13 @@ slot2 = {
 		title = i18n("words_battle_hide_bg"),
 		name = BATTLE_HIDE_BG,
 		desc = i18n("option_desc10")
+	},
+	{
+		default = 0,
+		alignment = 1,
+		title = i18n("words_battle_expose_line"),
+		name = BATTLE_EXPOSE_LINE,
+		desc = i18n("option_desc11")
 	}
 }
 slot3 = {
@@ -320,11 +328,7 @@ function slot0.initOptionsPanel(slot0, slot1)
 
 		setText(slot0:findTF("Text", slot15), slot14.title)
 		onButton(slot0, slot0:findTF("Text", slot15), function ()
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = true,
-				hideYes = true,
-				content = uv0.desc
-			})
+			uv0.msgBox:ExecuteAction("Show", uv1.desc, uv1.alignment)
 		end)
 		onToggle(slot0, slot15:Find("on"), function (slot0)
 			pg.PushNotificationMgr.GetInstance():setSwitch(uv0.id, slot0)
@@ -341,11 +345,7 @@ function slot0.initOptionsPanel(slot0, slot1)
 
 		setText(slot0:findTF("Text", slot15), slot14.title)
 		onButton(slot0, slot0:findTF("Text", slot15), function ()
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = true,
-				hideYes = true,
-				content = uv0.desc
-			})
+			uv0.msgBox:ExecuteAction("Show", uv1.desc, uv1.alignment)
 		end)
 
 		if slot13 == 1 then
@@ -375,6 +375,7 @@ function slot0.initOptionsPanel(slot0, slot1)
 	end
 
 	slot0:UpdateBackYardConfig()
+	setActive(slot0:findTF("scroll_view/Viewport/content/world_boss_notifications", slot1), false)
 end
 
 function slot0.UpdateBackYardConfig(slot0)
@@ -389,11 +390,7 @@ function slot0.UpdateBackYardConfig(slot0)
 
 			setText(slot0:findTF("Text", slot7), slot6.title)
 			onButton(slot0, slot0:findTF("Text", slot7), function ()
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					hideNo = true,
-					hideYes = true,
-					content = uv0.desc
-				})
+				uv0.msgBox:ExecuteAction("Show", uv1.desc, uv1.alignment)
 			end)
 			table.insert(slot0.backyardConfigToggles, {
 				value = slot6,
@@ -417,6 +414,28 @@ function slot0.InitOptionByPlayerFlag(slot0, slot1, slot2)
 	end, SFX_UI_TAG, SFX_UI_CANCEL)
 	triggerToggle(slot2:Find("on"), not slot5)
 	triggerToggle(slot2:Find("off"), slot5)
+end
+
+function slot0.InitWorldBossPanel(slot0, slot1)
+	for slot8, slot9 in ipairs({
+		i18n("world_word_world"),
+		i18n("world_word_friend"),
+		i18n("world_word_guild")
+	}) do
+		slot10 = cloneTplTo(slot0:findTF("scroll_view/Viewport/content/world_boss_notifications/options", slot1):Find("notify_tpl"), slot2)
+		slot11 = getProxy(SettingsProxy):GetWorldBossFlag(slot8)
+
+		setText(slot10:Find("Text"), slot9)
+		onToggle(slot0, slot10:Find("on"), function (slot0)
+			if uv0 ~= slot0 then
+				getProxy(SettingsProxy):SetWorldBossFlag(uv1, slot0)
+
+				uv0 = slot0
+			end
+		end, SFX_UI_TAG, SFX_UI_CANCEL)
+		triggerToggle(slot10:Find("on"), slot11)
+		triggerToggle(slot10:Find("off"), not slot11)
+	end
 end
 
 function slot0.initInterfacePreference(slot0, slot1)
@@ -1139,7 +1158,23 @@ function slot0.initOtherPanel(slot0)
 		end
 	end
 
+	slot0:UpdateAgreementPanel()
 	slot0:updateOtherPanel()
+end
+
+function slot0.UpdateAgreementPanel(slot0)
+	slot2 = PLATFORM_CODE == PLATFORM_CH and CSharpVersion > 40
+
+	setActive(slot0:findTF("agreement", slot0.otherContent), slot2)
+
+	if slot2 then
+		onButton(slot0, slot1:Find("private"), function ()
+			pg.SdkMgr.GetInstance():ShowPrivate()
+		end, SFX_PANEL)
+		onButton(slot0, slot1:Find("licence"), function ()
+			pg.SdkMgr.GetInstance():ShowLicence()
+		end, SFX_PANEL)
+	end
 end
 
 function slot0.updateOtherPanel(slot0)
@@ -1289,6 +1324,10 @@ function slot0.willExit(slot0)
 
 	slot0.musicDownloadTimer = nil
 	slot0.userProxy = nil
+
+	slot0.msgBox:Destroy()
+
+	slot0.msgBox = nil
 end
 
 function slot0.initJPAccountPanel(slot0, slot1)

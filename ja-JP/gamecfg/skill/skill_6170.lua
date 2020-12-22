@@ -12,30 +12,14 @@ return {
 			targetAniEffect = "",
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
-			target_choise = "TargetSelf",
+			target_choise = {
+				"TargetSelf",
+				"TargetShipTag"
+			},
 			arg_list = {
 				buff_id = 6171,
-				effectFilter = {
-					{
-						"TargetID",
-						"=",
-						312011
-					},
-					{
-						"TargetID",
-						"=",
-						312012
-					},
-					{
-						"TargetID",
-						"=",
-						312013
-					},
-					{
-						"TargetID",
-						"=",
-						312014
-					}
+				ship_tag_list = {
+					"Akashi"
 				}
 			}
 		}

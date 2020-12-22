@@ -377,11 +377,11 @@ pg.voice_actor_CN = {
 		code = 94
 	},
 	{
-		actor_name = "春村奈々 ",
+		actor_name = "春村奈々",
 		code = 95
 	},
 	{
-		actor_name = "新名彩乃 ",
+		actor_name = "新名彩乃",
 		code = 96
 	},
 	{

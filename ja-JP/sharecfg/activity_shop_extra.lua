@@ -1734,7 +1734,7 @@ pg.activity_shop_extra = {
 		num = 1,
 		commodity_id = 401237,
 		id = 63,
-		order = 1,
+		order = 8,
 		scene = {
 			"scene coloring",
 			{}
@@ -1757,6 +1757,78 @@ pg.activity_shop_extra = {
 					2020,
 					12,
 					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[64] = {
+		num_limit = 1,
+		activity = 815,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 102272,
+		scene = "",
+		id = 64,
+		order = 7,
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[65] = {
+		num_limit = 1,
+		activity = 814,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301231,
+		scene = "",
+		id = 65,
+		order = 7,
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					5
 				},
 				{
 					23,
@@ -1821,6 +1893,8 @@ pg.activity_shop_extra = {
 		60,
 		61,
 		62,
-		63
+		63,
+		64,
+		65
 	}
 }

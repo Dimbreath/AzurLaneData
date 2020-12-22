@@ -23,7 +23,7 @@ function slot0.init(slot0)
 	slot0.commonTpl = slot0:findTF("content/commom_tpl", slot0.list)
 	slot0.iconType = findTF(slot0.head, "content/main_bg/type_mask/type_icon"):GetComponent(typeof(Image))
 	slot0.imageBg = findTF(slot0.head, "content/icon_bg"):GetComponent(typeof(Image))
-	slot0.imageFrame = findTF(slot0.head, "content/main_bg")
+	slot0.imageFrame = findTF(slot0.head, "content/main_bg/frame")
 	slot0.iconShip = findTF(slot0.head, "content/icon"):GetComponent(typeof(Image))
 	slot0.labelName = findTF(slot0.head, "content/main_bg/name_mask/name"):GetComponent(typeof(Text))
 	slot0.stars = findTF(slot0.head, "content/main_bg/stars")
@@ -92,9 +92,10 @@ end
 
 function slot0.flushShip(slot0)
 	slot1 = slot0.shipGroup.shipConfig
+	slot4 = shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, slot0.shipGroup:isBluePrintGroup(), slot0.shipGroup:isMetaGroup())
 
-	setShipCardFrame(slot0.imageFrame, shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans)), nil)
-	LoadImageSpriteAsync("bg/star_level_card_" .. (slot0.shipGroup:isBluePrintGroup() and "0" or "") .. slot4, slot0.imageBg)
+	setShipCardFrame(slot0.imageFrame, slot4, nil)
+	LoadImageSpriteAsync("bg/star_level_card_" .. slot4, slot0.imageBg)
 
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 

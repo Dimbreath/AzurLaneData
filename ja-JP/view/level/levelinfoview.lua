@@ -6,16 +6,25 @@ end
 
 function slot0.OnInit(slot0)
 	slot0:InitUI()
+end
+
+function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
+
+	slot0.onConfirm = nil
+	slot0.onCancel = nil
+end
+
+function slot0.Show(slot0)
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.OnDestroy(slot0)
+function slot0.Hide(slot0)
 	slot0:clear()
-
-	slot0.onConfirm = nil
-	slot0.onCancel = nil
-
+	setActive(slot0._tf, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
 end
 
@@ -208,7 +217,7 @@ function slot0.set(slot0, slot1, slot2)
 			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
-	onButton(slot0, slot0._tf, function ()
+	onButton(slot0, slot0._tf:Find("bg"), function ()
 		if uv0.onCancel then
 			uv0.onCancel()
 		end

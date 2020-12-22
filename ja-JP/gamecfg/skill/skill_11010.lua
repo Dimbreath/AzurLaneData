@@ -29,30 +29,14 @@ return {
 			targetAniEffect = "",
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
-			target_choise = "TargetAllHelp",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipTag"
+			},
 			arg_list = {
 				buff_id = 11013,
-				effectFilter = {
-					{
-						"TargetID",
-						"=",
-						105141
-					},
-					{
-						"TargetID",
-						"=",
-						105142
-					},
-					{
-						"TargetID",
-						"=",
-						105143
-					},
-					{
-						"TargetID",
-						"=",
-						105144
-					}
+				ship_tag_list = {
+					"South Dakota"
 				}
 			}
 		},
@@ -60,30 +44,14 @@ return {
 			targetAniEffect = "",
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
-			target_choise = "TargetAllHelp",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipTag"
+			},
 			arg_list = {
 				buff_id = 11014,
-				effectFilter = {
-					{
-						"TargetID",
-						"=",
-						105141
-					},
-					{
-						"TargetID",
-						"=",
-						105142
-					},
-					{
-						"TargetID",
-						"=",
-						105143
-					},
-					{
-						"TargetID",
-						"=",
-						105144
-					}
+				ship_tag_list = {
+					"South Dakota"
 				}
 			}
 		}

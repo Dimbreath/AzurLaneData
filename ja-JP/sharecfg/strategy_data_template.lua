@@ -73,6 +73,15 @@ pg.strategy_data_template = {
 			1.1
 		}
 	},
+	[47] = {
+		buff_id = 0,
+		name = "作戦効率化",
+		type = 10,
+		id = 47,
+		icon = "tebiezuozhan",
+		desc = "戦闘時消費する燃料が100%アップし、指揮官・艦船・オフニャ経験値、信頼度の入手が100%アップ。戦闘終了時のアイテム・報酬入手回数が2回になる",
+		arg = {}
+	},
 	[90] = {
 		buff_id = 90,
 		name = "危機発生",
@@ -289,6 +298,7 @@ pg.strategy_data_template = {
 		9,
 		10,
 		11,
+		47,
 		90,
 		91,
 		92,

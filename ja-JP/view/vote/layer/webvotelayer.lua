@@ -95,7 +95,7 @@ end
 
 function slot0.initRanks(slot0)
 	slot0.ranks:ExecuteAction("Update", slot0.voteGroup)
-	slot0.ranks:AddLoadedCallback(function ()
+	slot0.ranks:CallbackInvoke(function ()
 		setActive(uv0.ranks.webBtn, false)
 	end)
 end

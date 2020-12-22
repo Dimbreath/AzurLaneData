@@ -150,11 +150,19 @@ function slot0.initAll(slot0, slot1)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			uv0:initTargetArrow()
 			uv0:InitDestinationMark()
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			for slot4 = 0, ChapterConst.MaxRow - 1 do
 				for slot8 = 0, ChapterConst.MaxColumn - 1 do
 					uv0:initCell(slot4, slot8)
@@ -165,6 +173,10 @@ function slot0.initAll(slot0, slot1)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			uv0:AddEdgePool("SubmarineHunting", "ui/commonUI_atlas", "white_dot", {
 				1,
 				0,
@@ -177,11 +189,19 @@ function slot0.initAll(slot0, slot1)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			uv0:initFleets()
 			uv0:initChampions()
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			if uv0.contextData.chapterVO:existOni() then
 				uv0:displayEscapeGrid()
 			end

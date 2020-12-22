@@ -7,11 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.05,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.2,
+					attr = "cri"
 				}
 			}
 		}
@@ -24,11 +21,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.061,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.216,
+					attr = "cri"
 				}
 			}
 		}
@@ -41,11 +35,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.072,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.232,
+					attr = "cri"
 				}
 			}
 		}
@@ -58,11 +49,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.083,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.248,
+					attr = "cri"
 				}
 			}
 		}
@@ -75,11 +63,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.094,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.264,
+					attr = "cri"
 				}
 			}
 		}
@@ -92,11 +77,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.105,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.28,
+					attr = "cri"
 				}
 			}
 		}
@@ -109,11 +91,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.116,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.296,
+					attr = "cri"
 				}
 			}
 		}
@@ -126,11 +105,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.127,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.314,
+					attr = "cri"
 				}
 			}
 		}
@@ -143,11 +119,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.138,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.332,
+					attr = "cri"
 				}
 			}
 		}
@@ -160,11 +133,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.15,
-					attr = "cri",
-					index = {
-						1
-					}
+					number = 0.35,
+					attr = "cri"
 				}
 			}
 		}

@@ -31,7 +31,7 @@ return {
 		{
 			alpha = 0.485,
 			style = {
-				text = "<color=#ff7d36>军事委託</color>をタップするのよ",
+				text = "<color=#ff7d36>軍事委託</color>をタップするのよ",
 				mode = 2,
 				dir = 1,
 				posY = 0,
@@ -39,7 +39,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/main/right_chapter/event_btns/event_container/btn_special",
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/main/right_chapter/event_btns/event_container/btn_task",
 				triggerType = {
 					1
 				},

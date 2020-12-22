@@ -3,110 +3,154 @@ pg.skill_data_template = {
 	{
 		desc_get = "",
 		name = "战列底座用",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 1,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	{
 		desc_get = "",
 		name = "战列底座用",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 2,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[10] = {
 		desc_get = "",
 		name = "僚艦修理Lv1",
-		desc = "5秒ごと耐久が6回復。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "5秒ごと耐久が6回復。同じ種類の効果は最大値のみ適用される",
 		id = 10,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[11] = {
 		desc_get = "",
 		name = "僚艦修理Lv2",
-		desc = "5秒ごと耐久が10回復。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "5秒ごと耐久が10回復。同じ種類の効果は最大値のみ適用される",
 		id = 11,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[12] = {
 		desc_get = "",
 		name = "僚艦修理Lv3",
-		desc = "5秒ごと耐久が15回復。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "5秒ごと耐久が15回復。同じ種類の効果は最大値のみ適用される",
 		id = 12,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[13] = {
 		desc_get = "",
 		name = "维修Lv4",
-		desc = "每5秒回复20点耐久，同类效果取最大值，不可叠加",
 		type = 0,
 		max_level = 0,
+		desc = "每5秒回复20点耐久，同类效果取最大值，不可叠加",
 		id = 13,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[14] = {
 		desc_get = "",
 		name = "改造娘",
-		desc = "Sレア以下の艦の限界突破素材として使用可能",
 		type = 3,
 		max_level = 1,
+		desc = "Sレア以下の艦の限界突破素材として使用可能",
 		id = 14,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[15] = {
 		desc_get = "",
 		name = "改造娘MKⅡ",
-		desc = "SSレアの艦の限界突破素材として使用可能",
 		type = 3,
 		max_level = 1,
+		desc = "SSレアの艦の限界突破素材として使用可能",
 		id = 15,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[16] = {
 		desc_get = "",
 		name = "改造娘MKⅢ",
-		desc = "UR艦船の限界突破素材として使用可能",
 		type = 3,
 		max_level = 1,
+		desc = "UR艦船の限界突破素材として使用可能",
 		id = 16,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[340] = {
+		desc_get = "",
+		name = "航母空袭降低隐蔽恢复速率",
+		type = 0,
+		max_level = 0,
+		desc = "空袭后12秒内，隐蔽速率恢复速度降低3点/秒",
+		id = 340,
+		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[1001] = {
 		desc_get = "",
 		name = "砲術指揮・駆逐艦",
-		desc = "戦闘中、駆逐艦の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、駆逐艦の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -160,11 +204,14 @@ pg.skill_data_template = {
 	[1002] = {
 		desc_get = "",
 		name = "砲術指揮・巡洋艦",
-		desc = "戦闘中、巡洋艦の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、巡洋艦の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1002,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -218,11 +265,14 @@ pg.skill_data_template = {
 	[1003] = {
 		desc_get = "",
 		name = "砲術指揮・戦艦",
-		desc = "戦闘中、戦艦の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、戦艦の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1003,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -276,11 +326,14 @@ pg.skill_data_template = {
 	[1004] = {
 		desc_get = "",
 		name = "砲術指揮・前衛",
-		desc = "戦闘中、前衛艦隊の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、前衛艦隊の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1004,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -334,11 +387,14 @@ pg.skill_data_template = {
 	[1005] = {
 		desc_get = "",
 		name = "砲術指揮・主力",
-		desc = "戦闘中、主力艦隊の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、主力艦隊の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1005,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -392,11 +448,14 @@ pg.skill_data_template = {
 	[1006] = {
 		desc_get = "",
 		name = "砲術指揮・全艦",
-		desc = "戦闘中、全艦の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、全艦の火力値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1006,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -450,11 +509,14 @@ pg.skill_data_template = {
 	[1011] = {
 		desc_get = "",
 		name = "雷撃指揮・駆逐艦",
-		desc = "戦闘中、駆逐艦の雷撃値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、駆逐艦の雷撃値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -508,11 +570,14 @@ pg.skill_data_template = {
 	[1012] = {
 		desc_get = "",
 		name = "雷撃指揮・巡洋艦",
-		desc = "戦闘中、巡洋艦の雷撃値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、巡洋艦の雷撃値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -566,11 +631,14 @@ pg.skill_data_template = {
 	[1013] = {
 		desc_get = "",
 		name = "雷撃指揮・前衛",
-		desc = "戦闘中、前衛艦隊の雷撃値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、前衛艦隊の雷撃値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1013,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -624,11 +692,14 @@ pg.skill_data_template = {
 	[1021] = {
 		desc_get = "",
 		name = "航空指揮・全艦",
-		desc = "戦闘中、全艦の航空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、全艦の航空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -682,11 +753,14 @@ pg.skill_data_template = {
 	[1031] = {
 		desc_get = "",
 		name = "装填指揮・駆逐艦",
-		desc = "戦闘中、駆逐艦の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、駆逐艦の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -740,11 +814,14 @@ pg.skill_data_template = {
 	[1032] = {
 		desc_get = "",
 		name = "装填指揮・巡洋艦",
-		desc = "戦闘中、巡洋艦の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、巡洋艦の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -798,11 +875,14 @@ pg.skill_data_template = {
 	[1033] = {
 		desc_get = "",
 		name = "装填指揮・戦艦",
-		desc = "戦闘中、戦艦の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、戦艦の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1033,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -856,11 +936,14 @@ pg.skill_data_template = {
 	[1034] = {
 		desc_get = "",
 		name = "装填指揮・前衛",
-		desc = "戦闘中、前衛艦隊の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、前衛艦隊の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1034,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -914,11 +997,14 @@ pg.skill_data_template = {
 	[1035] = {
 		desc_get = "",
 		name = "装填指揮・主力",
-		desc = "戦闘中、主力艦隊の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、主力艦隊の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1035,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -972,11 +1058,14 @@ pg.skill_data_template = {
 	[1036] = {
 		desc_get = "",
 		name = "装填指揮・全艦",
-		desc = "戦闘中、全艦の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、全艦の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1036,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1030,11 +1119,14 @@ pg.skill_data_template = {
 	[1037] = {
 		desc_get = "",
 		name = "装填指揮・軽母",
-		desc = "戦闘中、軽空母の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、軽空母の装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1037,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1088,11 +1180,14 @@ pg.skill_data_template = {
 	[1041] = {
 		desc_get = "",
 		name = "対空指揮・駆逐艦",
-		desc = "戦闘中、駆逐艦の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、駆逐艦の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1146,11 +1241,14 @@ pg.skill_data_template = {
 	[1042] = {
 		desc_get = "",
 		name = "対空指揮・巡洋艦",
-		desc = "戦闘中、巡洋艦の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、巡洋艦の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1204,11 +1302,14 @@ pg.skill_data_template = {
 	[1043] = {
 		desc_get = "",
 		name = "対空指揮・戦艦",
-		desc = "戦闘中、戦艦の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、戦艦の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1043,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1262,11 +1363,14 @@ pg.skill_data_template = {
 	[1044] = {
 		desc_get = "",
 		name = "対空指揮・前衛",
-		desc = "戦闘中、前衛艦隊の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、前衛艦隊の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1044,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1320,11 +1424,14 @@ pg.skill_data_template = {
 	[1045] = {
 		desc_get = "",
 		name = "対空指揮・主力",
-		desc = "戦闘中、主力艦隊の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、主力艦隊の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1045,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1378,11 +1485,14 @@ pg.skill_data_template = {
 	[1046] = {
 		desc_get = "",
 		name = "対空指揮・全員",
-		desc = "戦闘中、全艦の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、全艦の対空値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1046,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1436,11 +1546,14 @@ pg.skill_data_template = {
 	[1051] = {
 		desc_get = "",
 		name = "戦術指揮・駆逐艦",
-		desc = "戦闘中、駆逐艦の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、駆逐艦の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1494,11 +1607,14 @@ pg.skill_data_template = {
 	[1052] = {
 		desc_get = "",
 		name = "戦術指揮・巡洋艦",
-		desc = "戦闘中、巡洋艦の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、巡洋艦の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1552,11 +1668,14 @@ pg.skill_data_template = {
 	[1053] = {
 		desc_get = "",
 		name = "戦術指揮・戦艦",
-		desc = "戦闘中、戦艦の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、戦艦の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1053,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1610,11 +1729,14 @@ pg.skill_data_template = {
 	[1054] = {
 		desc_get = "",
 		name = "戦術指揮・前衛",
-		desc = "戦闘中、前衛艦隊の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、前衛艦隊の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1054,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1668,11 +1790,14 @@ pg.skill_data_template = {
 	[1055] = {
 		desc_get = "",
 		name = "戦術指揮・主力",
-		desc = "戦闘中、主力艦隊の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、主力艦隊の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1055,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1726,11 +1851,14 @@ pg.skill_data_template = {
 	[1056] = {
 		desc_get = "",
 		name = "戦術指揮・全員",
-		desc = "戦闘中、全艦の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、全艦の火力、雷撃、装填値が$1アップ。同じ種類のスキルの効果は重複しない",
 		id = 1056,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1784,11 +1912,14 @@ pg.skill_data_template = {
 	[1061] = {
 		desc_get = "",
 		name = "側面援護",
-		desc = "この艦が戦闘可能である限り、主力艦隊が受けるダメージを$1軽減する。同じスキルの効果は重複しない",
 		type = 2,
 		max_level = 10,
+		desc = "この艦が戦闘可能である限り、主力艦隊が受けるダメージを$1軽減する。同じスキルの効果は重複しない",
 		id = 1061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1842,11 +1973,14 @@ pg.skill_data_template = {
 	[1071] = {
 		desc_get = "",
 		name = "戦域偵察",
-		desc = "この艦が戦闘可能である限り、戦艦、巡戦、砲艦の与えるダメージが$1アップ。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "この艦が戦闘可能である限り、戦艦、巡戦、砲艦の与えるダメージが$1アップ。同じスキルの効果は重複しない",
 		id = 1071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1900,11 +2034,14 @@ pg.skill_data_template = {
 	[1081] = {
 		desc_get = "",
 		name = "空襲先導",
-		desc = "この艦が戦闘可能である限り、軽母、空母の航空攻撃ダメージが$1アップ。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "この艦が戦闘可能である限り、軽母、空母の航空攻撃ダメージが$1アップ。同じスキルの効果は重複しない",
 		id = 1081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1958,11 +2095,14 @@ pg.skill_data_template = {
 	[1091] = {
 		desc_get = "",
 		name = "水雷戦隊",
-		desc = "この艦が戦闘可能である限り、同じ艦隊の駆逐・軽巡の雷装・装填が$1アップ。",
 		type = 3,
 		max_level = 10,
+		desc = "この艦が戦闘可能である限り、同じ艦隊の駆逐・軽巡の雷装・装填が$1アップ。",
 		id = 1091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.0%",
@@ -2016,11 +2156,14 @@ pg.skill_data_template = {
 	[2001] = {
 		desc_get = "",
 		name = "快速装填",
-		desc = "20秒毎$1で発動。10秒間自身の装填が$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎$1で発動。10秒間自身の装填が$2アップ",
 		id = 2001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -2119,11 +2262,14 @@ pg.skill_data_template = {
 	[2011] = {
 		desc_get = "",
 		name = "火力全開",
-		desc = "20秒毎$1で発動。10秒間自身の火力値が$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎$1で発動。10秒間自身の火力値が$2アップ",
 		id = 2011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -2222,11 +2368,14 @@ pg.skill_data_template = {
 	[2021] = {
 		desc_get = "",
 		name = "装填指令",
-		desc = "20秒毎25%で発動。8秒間全艦の装填値が$1アップ。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎25%で発動。8秒間全艦の装填値が$1アップ。同じスキルの効果は重複しない",
 		id = 2021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -2280,11 +2429,14 @@ pg.skill_data_template = {
 	[2031] = {
 		desc_get = "",
 		name = "強襲指令",
-		desc = "20秒毎25%で発動。8秒間全艦の与えるダメージが$1アップ。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎25%で発動。8秒間全艦の与えるダメージが$1アップ。同じスキルの効果は重複しない",
 		id = 2031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -2338,11 +2490,14 @@ pg.skill_data_template = {
 	[2041] = {
 		desc_get = "",
 		name = "集中攻撃",
-		desc = "主砲発射時$1で発動。一回だけ主砲によるダメージが2倍になる",
 		type = 1,
 		max_level = 10,
+		desc = "主砲発射時$1で発動。一回だけ主砲によるダメージが2倍になる",
 		id = 2041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -2396,11 +2551,14 @@ pg.skill_data_template = {
 	[2051] = {
 		desc_get = "",
 		name = "次発装填",
-		desc = "魚雷発射時$1で2回発射する",
 		type = 1,
 		max_level = 10,
+		desc = "魚雷発射時$1で2回発射する",
 		id = 2051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -2454,11 +2612,14 @@ pg.skill_data_template = {
 	[2061] = {
 		desc_get = "",
 		name = "主砲連射",
-		desc = "主砲発射時$1で2回発射する",
 		type = 1,
 		max_level = 10,
+		desc = "主砲発射時$1で2回発射する",
 		id = 2061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -2512,11 +2673,14 @@ pg.skill_data_template = {
 	[2071] = {
 		desc_get = "",
 		name = "砲火制圧",
-		desc = "戦闘中、自身の火力値が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の火力値が$1アップ",
 		id = 2071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -2570,11 +2734,14 @@ pg.skill_data_template = {
 	[2081] = {
 		desc_get = "",
 		name = "徹甲弾専門",
-		desc = "徹甲弾ダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "徹甲弾ダメージが$1アップ",
 		id = 2081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -2628,11 +2795,14 @@ pg.skill_data_template = {
 	[2091] = {
 		desc_get = "35秒（最短15秒）毎、敵を追尾する磁気魚雷を4発発射する(威力はスキルレベルによる)。",
 		name = "磁気魚雷",
-		desc = "$1秒毎、敵を追尾する磁気魚雷を4発発射する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "$1秒毎、敵を追尾する磁気魚雷を4発発射する(威力はスキルレベルによる)",
 		id = 2091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -2681,11 +2851,14 @@ pg.skill_data_template = {
 	[2101] = {
 		desc_get = "35秒（最短20秒）秒毎、前方に魚雷を3発発射する(威力はスキルレベルによる)。",
 		name = "魚雷発射",
-		desc = "$1秒毎、前方に魚雷を3発発射する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "$1秒毎、前方に魚雷を3発発射する(威力はスキルレベルによる)",
 		id = 2101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -2734,11 +2907,14 @@ pg.skill_data_template = {
 	[2111] = {
 		desc_get = "自身の自爆ボート、魚雷ボート、輸送艦へのダメージが10%(最大25%)アップ",
 		name = "攪乱作戦",
-		desc = "自身の自爆ボート、魚雷ボート、輸送艦へのダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の自爆ボート、魚雷ボート、輸送艦へのダメージが$1アップ",
 		id = 2111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -2787,11 +2963,14 @@ pg.skill_data_template = {
 	[2121] = {
 		desc_get = "",
 		name = "目標指示・魚雷",
-		desc = "自身の魚雷命中時、$1で目標指示を発動し、8秒間、対象となる敵艦に与える魚雷ダメージが$2アップ（効果は重複しない）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の魚雷命中時、$1で目標指示を発動し、8秒間、対象となる敵艦に与える魚雷ダメージが$2アップ（効果は重複しない）",
 		id = 2121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"7.0%",
@@ -2890,11 +3069,14 @@ pg.skill_data_template = {
 	[2131] = {
 		desc_get = "",
 		name = "対空支援",
-		desc = "対空攻撃範囲内で敵艦載機が撃墜された場合、8秒間、自身の火力・対空が$1アップ。効果適用中に更に同じスキルが発動した場合、効果は加算されず持続時間のみ上書きされる",
 		type = 1,
 		max_level = 10,
+		desc = "対空攻撃範囲内で敵艦載機が撃墜された場合、8秒間、自身の火力・対空が$1アップ。効果適用中に更に同じスキルが発動した場合、効果は加算されず持続時間のみ上書きされる",
 		id = 2131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -2948,11 +3130,14 @@ pg.skill_data_template = {
 	[2141] = {
 		desc_get = "",
 		name = "対駆逐艦戦法",
-		desc = "自身の敵駆逐艦への命中率が$1アップ。また、自身への敵駆逐艦による雷撃ダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "自身の敵駆逐艦への命中率が$1アップ。また、自身への敵駆逐艦による雷撃ダメージを$1軽減する",
 		id = 2141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -3006,11 +3191,14 @@ pg.skill_data_template = {
 	[2151] = {
 		desc_get = "",
 		name = "斬り込み雷撃",
-		desc = "自身の魚雷攻撃のダメージは相手の装甲タイプに影響されない。自身の魚雷攻撃のダメージが$1になる",
 		type = 3,
 		max_level = 10,
+		desc = "自身の魚雷攻撃のダメージは相手の装甲タイプに影響されない。自身の魚雷攻撃のダメージが$1になる",
 		id = 2151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"100.0%",
@@ -3064,11 +3252,14 @@ pg.skill_data_template = {
 	[2161] = {
 		desc_get = "",
 		name = "雷撃戦再突入",
-		desc = "戦闘開始10秒後、魚雷攻撃を一回行う。その後20秒ごとに$1で発動し、魚雷攻撃を一回行う（魚雷弾幕は自身が装備している魚雷兵装による）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始10秒後、魚雷攻撃を一回行う。その後20秒ごとに$1で発動し、魚雷攻撃を一回行う（魚雷弾幕は自身が装備している魚雷兵装による）",
 		id = 2161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -3122,11 +3313,14 @@ pg.skill_data_template = {
 	[2171] = {
 		desc_get = "",
 		name = "対空警戒",
-		desc = "自身の対空が$1アップ",
 		type = 2,
 		max_level = 10,
+		desc = "自身の対空が$1アップ",
 		id = 2171,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3180,11 +3374,14 @@ pg.skill_data_template = {
 	[2181] = {
 		desc_get = "",
 		name = "全面警戒",
-		desc = "戦闘開始時と戦闘開始後30秒ごとに発動。20秒間自身の対空・対潜が$1アップ ",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時と戦闘開始後30秒ごとに発動。20秒間自身の対空・対潜が$1アップ ",
 		id = 2181,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3238,11 +3435,14 @@ pg.skill_data_template = {
 	[2191] = {
 		desc_get = "",
 		name = "予備弾薬",
-		desc = "自身が所属している艦隊の弾薬切れ状態によるダメージ減少効果を$1軽減する ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が所属している艦隊の弾薬切れ状態によるダメージ減少効果を$1軽減する ",
 		id = 2191,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3296,11 +3496,14 @@ pg.skill_data_template = {
 	[2201] = {
 		desc_get = "",
 		name = "両用兵装-127mm連装両用砲MK12",
-		desc = "「127mm連装両用砲MK12」を装備している場合、自身の対空が$1アップし、火力が$2ダウン；装備していない場合、自身の火力が$1アップし、対空が$2ダウン ",
 		type = 2,
 		max_level = 10,
+		desc = "「127mm連装両用砲MK12」を装備している場合、自身の対空が$1アップし、火力が$2ダウン；装備していない場合、自身の火力が$1アップし、対空が$2ダウン ",
 		id = 2201,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3399,11 +3602,14 @@ pg.skill_data_template = {
 	[3001] = {
 		desc_get = "",
 		name = "スクランブル",
-		desc = "自身の航空攻撃時$1で発動。航空攻撃をすぐに再使用可能にする",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃時$1で発動。航空攻撃をすぐに再使用可能にする",
 		id = 3001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3457,11 +3663,14 @@ pg.skill_data_template = {
 	[3011] = {
 		desc_get = "",
 		name = "強襲空母",
-		desc = "自身の航空攻撃時$1で発動。10秒間自身の与えるダメージを2倍にする（効果は重複しない）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃時$1で発動。10秒間自身の与えるダメージを2倍にする（効果は重複しない）",
 		id = 3011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -3515,11 +3724,14 @@ pg.skill_data_template = {
 	[3021] = {
 		desc_get = "",
 		name = "編隊空母",
-		desc = "自身の航空攻撃後、8秒間前衛艦隊の与えるダメージが$1アップ。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "自身の航空攻撃後、8秒間前衛艦隊の与えるダメージが$1アップ。同じスキルの効果は重複しない",
 		id = 3021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3573,11 +3785,14 @@ pg.skill_data_template = {
 	[3031] = {
 		desc_get = "",
 		name = "支援空母",
-		desc = "自身の航空攻撃後、前衛艦隊の耐久を$1回復する",
 		type = 3,
 		max_level = 10,
+		desc = "自身の航空攻撃後、前衛艦隊の耐久を$1回復する",
 		id = 3031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -3631,11 +3846,14 @@ pg.skill_data_template = {
 	[3041] = {
 		desc_get = "",
 		name = "制空支援",
-		desc = "自身の航空攻撃後、8秒間自身以外の航空母艦の航空値が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の航空攻撃後、8秒間自身以外の航空母艦の航空値が$1アップ",
 		id = 3041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3689,11 +3907,14 @@ pg.skill_data_template = {
 	[3051] = {
 		desc_get = "",
 		name = "航空援護",
-		desc = "自身の航空攻撃後、8秒間味方前衛艦隊が受けるダメージを$1軽減する。",
 		type = 2,
 		max_level = 10,
+		desc = "自身の航空攻撃後、8秒間味方前衛艦隊が受けるダメージを$1軽減する。",
 		id = 3051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3747,12 +3968,15 @@ pg.skill_data_template = {
 	[3511] = {
 		desc_get = "",
 		name = "酸素生成装置",
-		desc = "自身の潜航力が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の潜航力が$1アップ",
 		id = 3511,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -3807,12 +4031,15 @@ pg.skill_data_template = {
 	[3521] = {
 		desc_get = "",
 		name = "浮上戦闘",
-		desc = "浮上状態での戦闘時間が$1アップ",
 		type = 2,
 		max_level = 10,
+		desc = "浮上状態での戦闘時間が$1アップ",
 		id = 3521,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -3867,12 +4094,15 @@ pg.skill_data_template = {
 	[3531] = {
 		desc_get = "",
 		name = "低速魚雷",
-		desc = "自身の魚雷の速度が遅くなり、ダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の魚雷の速度が遅くなり、ダメージが$1アップ",
 		id = 3531,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -3927,12 +4157,15 @@ pg.skill_data_template = {
 	[3571] = {
 		desc_get = "",
 		name = "軽巡ハンター",
-		desc = "自身の軽巡洋艦へのダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の軽巡洋艦へのダメージが$1アップ",
 		id = 3571,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -3987,12 +4220,15 @@ pg.skill_data_template = {
 	[3581] = {
 		desc_get = "",
 		name = "重巡ハンター",
-		desc = "自身の重巡洋艦へのダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の重巡洋艦へのダメージが$1アップ",
 		id = 3581,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4047,12 +4283,15 @@ pg.skill_data_template = {
 	[3591] = {
 		desc_get = "",
 		name = "空母ハンター",
-		desc = "自身の空母へのダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の空母へのダメージが$1アップ",
 		id = 3591,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4107,12 +4346,15 @@ pg.skill_data_template = {
 	[3611] = {
 		desc_get = "",
 		name = "ウルフパック",
-		desc = "出撃時、艦隊に鉄血潜水艦が一隻につき、自身の雷装・命中・装填が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "出撃時、艦隊に鉄血潜水艦が一隻につき、自身の雷装・命中・装填が$1アップ",
 		id = 3611,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4167,12 +4409,15 @@ pg.skill_data_template = {
 	[3621] = {
 		desc_get = "",
 		name = "空域確認",
-		desc = "戦闘中、制空権状態が「制空権劣勢」「制空権喪失」以外の場合、自身の火力・雷装・装填が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、制空権状態が「制空権劣勢」「制空権喪失」以外の場合、自身の火力・雷装・装填が$1アップ",
 		id = 3621,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4227,12 +4472,15 @@ pg.skill_data_template = {
 	[3631] = {
 		desc_get = "",
 		name = "外洋支援",
-		desc = "自身の潜航力が$1アップ；自身が戦闘可能である限り、交戦艦隊が潜水艦隊の支援範囲外でも一回の出撃に一度だけ、潜水支援を行える ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の潜航力が$1アップ；自身が戦闘可能である限り、交戦艦隊が潜水艦隊の支援範囲外でも一回の出撃に一度だけ、潜水支援を行える ",
 		id = 3631,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4287,11 +4535,14 @@ pg.skill_data_template = {
 	[4001] = {
 		desc_get = "",
 		name = "防御態勢",
-		desc = "20秒毎$1で発動。8秒間自身の受けるダメージが$2軽減",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎$1で発動。8秒間自身の受けるダメージが$2軽減",
 		id = 4001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -4390,11 +4641,14 @@ pg.skill_data_template = {
 	[4011] = {
 		desc_get = "",
 		name = "防御指令",
-		desc = "20秒毎25%で発動。8秒間全艦の受けるダメージが$1軽減。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎25%で発動。8秒間全艦の受けるダメージが$1軽減。同じスキルの効果は重複しない",
 		id = 4011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -4448,11 +4702,14 @@ pg.skill_data_template = {
 	[4021] = {
 		desc_get = "",
 		name = "All or Nothing",
-		desc = "攻撃された時$1でこのダメージを50%軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "攻撃された時$1でこのダメージを50%軽減する",
 		id = 4021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -4506,11 +4763,14 @@ pg.skill_data_template = {
 	[4031] = {
 		desc_get = "",
 		name = "応急修理",
-		desc = "25秒毎、自身の耐久を$１回復する",
 		type = 2,
 		max_level = 10,
+		desc = "25秒毎、自身の耐久を$１回復する",
 		id = 4031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -4564,11 +4824,14 @@ pg.skill_data_template = {
 	[4041] = {
 		desc_get = "",
 		name = "我が身を盾に",
-		desc = "20秒毎$1で発動。8秒間前衛が受けるダメージの50%を引き受ける。同じスキルの効果は重複しない",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎$1で発動。8秒間前衛が受けるダメージの50%を引き受ける。同じスキルの効果は重複しない",
 		id = 4041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -4622,11 +4885,14 @@ pg.skill_data_template = {
 	[4051] = {
 		desc_get = "ダメージを受けた時15％で発動。5秒（最大15秒）間、正面に敵弾を12回まで無効できる回転シールドを生成する。",
 		name = "正面装甲",
-		desc = "攻撃された時15%で発動。$1秒間、前方に敵弾を12回まで無効できるシールドを生成する",
 		type = 2,
 		max_level = 10,
+		desc = "攻撃された時15%で発動。$1秒間、前方に敵弾を12回まで無効できるシールドを生成する",
 		id = 4051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -4675,11 +4941,14 @@ pg.skill_data_template = {
 	[4061] = {
 		desc_get = "ダメージを受けた時15％で発動。5秒（最大15秒）間、側面に敵弾を6回まで無効できる回転シールドを生成する。",
 		name = "側面装甲",
-		desc = "攻撃された時15%で発動。$1秒間、側面に敵弾を6回まで無効できるシールドを2枚生成する",
 		type = 2,
 		max_level = 10,
+		desc = "攻撃された時15%で発動。$1秒間、側面に敵弾を6回まで無効できるシールドを2枚生成する",
 		id = 4061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -4728,11 +4997,14 @@ pg.skill_data_template = {
 	[4071] = {
 		desc_get = "",
 		name = "緊急回避",
-		desc = "20秒毎$1で発動。6秒間、自身が全ての攻撃を回避する",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎$1で発動。6秒間、自身が全ての攻撃を回避する",
 		id = 4071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -4786,11 +5058,14 @@ pg.skill_data_template = {
 	[4081] = {
 		desc_get = "",
 		name = "煙幕散布",
-		desc = "戦闘開始時と開始後15秒毎$1で煙幕を散布。5秒間、煙幕の中の艦の回避率が$2上昇。同じスキルの効果は重複しない",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時と開始後15秒毎$1で煙幕を散布。5秒間、煙幕の中の艦の回避率が$2上昇。同じスキルの効果は重複しない",
 		id = 4081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -4889,11 +5164,14 @@ pg.skill_data_template = {
 	[4091] = {
 		desc_get = "",
 		name = "対空配置",
-		desc = "対空射撃時25%で発動。3秒間自身の対空値が$1アップし、火力値が$2ダウンする",
 		type = 2,
 		max_level = 10,
+		desc = "対空射撃時25%で発動。3秒間自身の対空値が$1アップし、火力値が$2ダウンする",
 		id = 4091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -4992,11 +5270,14 @@ pg.skill_data_template = {
 	[4101] = {
 		desc_get = "",
 		name = "煙幕散布・軽巡",
-		desc = "開始10秒後と20秒毎20%で煙幕を散布。10秒間、煙幕の中の艦の回避率が$1上昇、空襲ダメージ$2軽減。同じスキルの効果は重複しない",
 		type = 2,
 		max_level = 10,
+		desc = "開始10秒後と20秒毎20%で煙幕を散布。10秒間、煙幕の中の艦の回避率が$1上昇、空襲ダメージ$2軽減。同じスキルの効果は重複しない",
 		id = 4101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -5095,11 +5376,14 @@ pg.skill_data_template = {
 	[4111] = {
 		desc_get = "",
 		name = "徹甲弾防御",
-		desc = "自身が受ける徹甲弾属性のダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "自身が受ける徹甲弾属性のダメージを$1軽減する",
 		id = 4111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -5153,11 +5437,14 @@ pg.skill_data_template = {
 	[4121] = {
 		desc_get = "",
 		name = "防護装甲",
-		desc = "敵駆逐・軽巡より受けた砲撃ダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "敵駆逐・軽巡より受けた砲撃ダメージを$1軽減する",
 		id = 4121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -5211,11 +5498,14 @@ pg.skill_data_template = {
 	[4131] = {
 		desc_get = "",
 		name = "衝突禁止",
-		desc = "味方前衛艦隊が敵艦隊と接触したときに受けるダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "味方前衛艦隊が敵艦隊と接触したときに受けるダメージを$1軽減する",
 		id = 4131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -5269,11 +5559,14 @@ pg.skill_data_template = {
 	[4141] = {
 		desc_get = "",
 		name = "機動艦隊護衛",
-		desc = "自身が戦闘可能状態である限り、同艦隊の主力艦隊が受けるダメージを$1軽減し、自身が受ける駆逐艦・軽巡洋艦による砲撃・雷撃ダメージを$2軽減する。同じスキルの効果は重複しない",
 		type = 2,
 		max_level = 10,
+		desc = "自身が戦闘可能状態である限り、同艦隊の主力艦隊が受けるダメージを$1軽減し、自身が受ける駆逐艦・軽巡洋艦による砲撃・雷撃ダメージを$2軽減する。同じスキルの効果は重複しない",
 		id = 4141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -5372,11 +5665,14 @@ pg.skill_data_template = {
 	[4151] = {
 		desc_get = "",
 		name = "機動制圧",
-		desc = "戦闘中、自身が受ける駆逐艦の砲撃・雷撃ダメージを$1軽減する；20秒毎に発動し、10秒間自身の速力が5、火力が$2アップする",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中、自身が受ける駆逐艦の砲撃・雷撃ダメージを$1軽減する；20秒毎に発動し、10秒間自身の速力が5、火力が$2アップする",
 		id = 4151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -5475,11 +5771,14 @@ pg.skill_data_template = {
 	[4161] = {
 		desc_get = "",
 		name = "航空戦力支援",
-		desc = "自身が戦闘可能な限り下記の効果を適用する（同じスキル名の効果は最大値のみ適用される）：①自身が所属している艦隊の戦闘開始時、味方空母・軽空母の航空が$1・装填が$2アップし、自身の最初の航空攻撃の準備時間を$3短縮する；②自身が所属していない艦隊の戦闘開始時、味方空母・軽空母の航空・装填が$4アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能な限り下記の効果を適用する（同じスキル名の効果は最大値のみ適用される）：①自身が所属している艦隊の戦闘開始時、味方空母・軽空母の航空が$1・装填が$2アップし、自身の最初の航空攻撃の準備時間を$3短縮する；②自身が所属していない艦隊の戦闘開始時、味方空母・軽空母の航空・装填が$4アップ",
 		id = 4161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -5668,22 +5967,30 @@ pg.skill_data_template = {
 	[4171] = {
 		desc_get = "",
 		name = "空域辅助-共通效果占用id",
-		desc = "",
 		type = 3,
 		max_level = 10,
+		desc = "",
 		id = 4171,
-		system_transform = {},
+		system_transform = {
+			[51.0] = 4176
+		},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[5001] = {
 		desc_get = "20秒毎25%で発動。5秒間（最大10秒）ランダムで敵一体（人型優先）の攻撃速度と攻撃力をダウンさせる。同じスキルの効果は重複しない。",
 		name = "かく乱射撃",
-		desc = "20秒毎25%で発動。$1秒間ランダムで敵一体（人型優先）の攻撃速度と攻撃力をダウンさせる。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎25%で発動。$1秒間ランダムで敵一体（人型優先）の攻撃速度と攻撃力をダウンさせる。同じスキルの効果は重複しない",
 		id = 5001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -5732,11 +6039,14 @@ pg.skill_data_template = {
 	[5011] = {
 		desc_get = "20秒毎25%で発動。5秒間（最大15秒）ランダムで敵一体（人型優先）の受けるダメージを20%アップさせる。同じスキルの効果は重複しない。",
 		name = "弱点分析",
-		desc = "20秒毎25%で発動。$1秒間ランダムで敵一体（人型優先）の受けるダメージを20%アップさせる。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎25%で発動。$1秒間ランダムで敵一体（人型優先）の受けるダメージを20%アップさせる。同じスキルの効果は重複しない",
 		id = 5011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -5785,11 +6095,14 @@ pg.skill_data_template = {
 	[5021] = {
 		desc_get = "",
 		name = "随伴空母",
-		desc = "自身が戦闘可能である限り、軽空母、空母の受けるダメージを$1軽減する。同じスキルの効果は重複しない",
 		type = 2,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、軽空母、空母の受けるダメージを$1軽減する。同じスキルの効果は重複しない",
 		id = 5021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -5843,11 +6156,14 @@ pg.skill_data_template = {
 	[5031] = {
 		desc_get = "",
 		name = "戦艦護衛",
-		desc = "自身が戦闘可能である限り、巡洋戦艦、戦艦が受けるダメージを$1軽減する。同じ効果のスキルは重複しない",
 		type = 2,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、巡洋戦艦、戦艦が受けるダメージを$1軽減する。同じ効果のスキルは重複しない",
 		id = 5031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -5901,11 +6217,14 @@ pg.skill_data_template = {
 	[5041] = {
 		desc_get = "",
 		name = "照明弾",
-		desc = "戦闘開始10秒後と20秒毎に$1で10秒間、効果範囲内にいる敵の回避率を25%ダウンさせる照明弾を使用する。同じスキルの効果は重複しない。（照明弾は一番近い敵へ優先して発射する）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始10秒後と20秒毎に$1で10秒間、効果範囲内にいる敵の回避率を25%ダウンさせる照明弾を使用する。同じスキルの効果は重複しない。（照明弾は一番近い敵へ優先して発射する）",
 		id = 5041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -5959,11 +6278,14 @@ pg.skill_data_template = {
 	[5051] = {
 		desc_get = "",
 		name = "旗艦随伴",
-		desc = "自身が戦闘可能である限り、旗艦の受けるダメージを$1軽減",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、旗艦の受けるダメージを$1軽減",
 		id = 5051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -6017,11 +6339,14 @@ pg.skill_data_template = {
 	[5061] = {
 		desc_get = "",
 		name = "駆逐戦隊",
-		desc = "戦闘開始時、前衛艦隊が自身と駆逐艦のみで編成されている場合、自身の速力が4上昇し、駆逐艦と軽巡洋艦へのダメージが$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、前衛艦隊が自身と駆逐艦のみで編成されている場合、自身の速力が4上昇し、駆逐艦と軽巡洋艦へのダメージが$1アップ",
 		id = 5061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -6075,11 +6400,14 @@ pg.skill_data_template = {
 	[5071] = {
 		desc_get = "",
 		name = "シュヴァリエブクリエ",
-		desc = "前衛艦隊がアイリス・ヴィシア所属艦のみで編成されている場合、20秒毎50%で発動する。8秒間、味方が受けるダメージを$1軽減する。同じスキルの効果は重複しない。",
 		type = 2,
 		max_level = 10,
+		desc = "前衛艦隊がアイリス・ヴィシア所属艦のみで編成されている場合、20秒毎50%で発動する。8秒間、味方が受けるダメージを$1軽減する。同じスキルの効果は重複しない。",
 		id = 5071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -6133,11 +6461,14 @@ pg.skill_data_template = {
 	[5081] = {
 		desc_get = "",
 		name = "シュヴァリエサーベル",
-		desc = "前衛艦隊がアイリス・ヴィシア所属艦のみで編成されている場合、20秒毎50%で発動する。8秒間、味方の与えるダメージを$1上昇する。同じ効果は重複しない。",
 		type = 1,
 		max_level = 10,
+		desc = "前衛艦隊がアイリス・ヴィシア所属艦のみで編成されている場合、20秒毎50%で発動する。8秒間、味方の与えるダメージを$1上昇する。同じ効果は重複しない。",
 		id = 5081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -6191,11 +6522,14 @@ pg.skill_data_template = {
 	[5101] = {
 		desc_get = "",
 		name = "即応態勢",
-		desc = "出撃時、自身の火力・雷装が$1アップ。12秒毎、自身の火力・雷装が$2ダウン（最大三回まで）",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、自身の火力・雷装が$1アップ。12秒毎、自身の火力・雷装が$2ダウン（最大三回まで）",
 		id = 5101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"9%",
@@ -6294,11 +6628,14 @@ pg.skill_data_template = {
 	[5111] = {
 		desc_get = "",
 		name = "航空サポート",
-		desc = "僚艦として出撃した場合、戦闘中自身以外の味方軽空母・空母の装填が$1、味方主力艦隊メンバーの対空が$2アップ ",
 		type = 3,
 		max_level = 10,
+		desc = "僚艦として出撃した場合、戦闘中自身以外の味方軽空母・空母の装填が$1、味方主力艦隊メンバーの対空が$2アップ ",
 		id = 5111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -6397,903 +6734,1191 @@ pg.skill_data_template = {
 	[6000] = {
 		desc_get = "",
 		name = "ビーバーズ隊",
-		desc = "艦隊速力が20％アップ",
 		type = 0,
 		max_level = 0,
+		desc = "艦隊速力が20％アップ",
 		id = 6000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6010] = {
 		desc_get = "",
 		name = "雷撃防御T1",
-		desc = "魚雷ダメージを10％軽減する。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "魚雷ダメージを10％軽減する。同じ種類の効果は最大値のみ適用される",
 		id = 6010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6020] = {
 		desc_get = "",
 		name = "雷撃防御T2",
-		desc = "魚雷ダメージを20％軽減する。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "魚雷ダメージを20％軽減する。同じ種類の効果は最大値のみ適用される",
 		id = 6020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6030] = {
 		desc_get = "",
 		name = "雷撃防御T3",
-		desc = "魚雷ダメージを30％軽減する。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "魚雷ダメージを30％軽減する。同じ種類の効果は最大値のみ適用される",
 		id = 6030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6040] = {
 		desc_get = "",
 		name = "SG索敵T1",
-		desc = "待ち伏せ率が5%低減、回避成功率が5％上昇。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "待ち伏せ率が5%低減、回避成功率が5％上昇。同じ種類の効果は最大値のみ適用される",
 		id = 6040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6050] = {
 		desc_get = "",
 		name = "SG索敵T2",
-		desc = "待ち伏せ率が8%低減、回避成功率が8％上昇。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "待ち伏せ率が8%低減、回避成功率が8％上昇。同じ種類の効果は最大値のみ適用される",
 		id = 6050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6060] = {
 		desc_get = "",
 		name = "SG索敵T3",
-		desc = "待ち伏せ率が12%低減、回避成功率が12％上昇。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "待ち伏せ率が12%低減、回避成功率が12％上昇。同じ種類の効果は最大値のみ適用される",
 		id = 6060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6070] = {
 		desc_get = "",
 		name = "耐弾強化T1",
-		desc = "艦載機HPが50アップ。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "艦載機HPが50アップ。同じ種類の効果は最大値のみ適用される",
 		id = 6070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6080] = {
 		desc_get = "",
 		name = "耐弾強化T2",
-		desc = "艦載機HPが80アップ。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "艦載機HPが80アップ。同じ種類の効果は最大値のみ適用される",
 		id = 6080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6090] = {
 		desc_get = "",
 		name = "耐弾強化T3",
-		desc = "艦載機HPが120アップ。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "艦載機HPが120アップ。同じ種類の効果は最大値のみ適用される",
 		id = 6090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6100] = {
 		desc_get = "",
 		name = "応急修理T1",
-		desc = "15秒ごと耐久が最大値の0.3％回復。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "15秒ごと耐久が最大値の0.3％回復。同じ種類の効果は最大値のみ適用される",
 		id = 6100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6110] = {
 		desc_get = "",
 		name = "応急修理T2",
-		desc = "15秒ごと耐久が最大値の0.6％回復。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "15秒ごと耐久が最大値の0.6％回復。同じ種類の効果は最大値のみ適用される",
 		id = 6110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6120] = {
 		desc_get = "",
 		name = "応急修理T3",
-		desc = "15秒ごと耐久が最大値の1.0％回復。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "15秒ごと耐久が最大値の1.0％回復。同じ種類の効果は最大値のみ適用される",
 		id = 6120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6130] = {
 		desc_get = "",
 		name = "真珠の涙",
-		desc = "戦闘不能になった時、他の艦の耐久が最大値の10％回復する",
 		type = 0,
 		max_level = 0,
+		desc = "戦闘不能になった時、他の艦の耐久が最大値の10％回復する",
 		id = 6130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6140] = {
 		desc_get = "",
 		name = "火災対策T1",
-		desc = "火災被害を10％、発生率を10％下げる。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "火災被害を10％、発生率を10％下げる。同じ種類の効果は最大値のみ適用される",
 		id = 6140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6150] = {
 		desc_get = "",
 		name = "火災対策T2",
-		desc = "火災被害を15％、発生率を20％下げ、時間を3秒短縮。同じ種類の効果は最大値のみ適用",
 		type = 0,
 		max_level = 0,
+		desc = "火災被害を15％、発生率を20％下げ、時間を3秒短縮。同じ種類の効果は最大値のみ適用",
 		id = 6150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6160] = {
 		desc_get = "",
 		name = "火災対策T3",
-		desc = "火災被害を20％、発生率を30％下げ、時間を6秒短縮。同じ種類の効果は最大値のみ適用",
 		type = 0,
 		max_level = 0,
+		desc = "火災被害を20％、発生率を30％下げ、時間を6秒短縮。同じ種類の効果は最大値のみ適用",
 		id = 6160,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6170] = {
 		desc_get = "",
 		name = "ネコリペア",
-		desc = "（明石装備時）耐久回復効果の回復量が20％アップ",
 		type = 0,
 		max_level = 0,
+		desc = "（明石装備時）耐久回復効果の回復量が20％アップ",
 		id = 6170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6190] = {
 		desc_get = "",
 		name = "九一式徹甲弾",
-		desc = "主砲のクリティカルダメージが15％アップ",
 		type = 0,
 		max_level = 0,
+		desc = "主砲のクリティカルダメージが15％アップ",
 		id = 6190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6200] = {
 		desc_get = "",
 		name = "一式徹甲弾",
-		desc = "主砲のクリティカルダメージが25％アップ",
 		type = 0,
 		max_level = 0,
+		desc = "主砲のクリティカルダメージが25％アップ",
 		id = 6200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6210] = {
 		desc_get = "",
 		name = "SHS徹甲弾",
-		desc = "主砲のクリティカル率が8％アップ",
 		type = 0,
 		max_level = 0,
+		desc = "主砲のクリティカル率が8％アップ",
 		id = 6210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6220] = {
 		desc_get = "",
 		name = "ソードフィッシュ（818中隊）",
-		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
 		type = 0,
 		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
 		id = 6220,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6230] = {
 		desc_get = "",
 		name = "Z旗",
-		desc = "クリティカル率が5%アップ。特定の艦に装備すると…？",
 		type = 0,
 		max_level = 0,
+		desc = "クリティカル率が5%アップ。特定の艦に装備すると…？",
 		id = 6230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6240] = {
 		desc_get = "",
 		name = "精密爆撃",
-		desc = "航空攻撃時、自身の艦載機が敵軽空母・正規空母へのダメージが5.0%アップ",
 		type = 0,
 		max_level = 0,
+		desc = "航空攻撃時、自身の艦載機が敵軽空母・正規空母へのダメージが5.0%アップ",
 		id = 6240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6250] = {
 		desc_get = "",
 		name = "Jolly Rogers",
-		desc = "航空攻撃時、8秒間味方艦隊の対空が5.0%アップ",
 		type = 0,
 		max_level = 0,
+		desc = "航空攻撃時、8秒間味方艦隊の対空が5.0%アップ",
 		id = 6250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6260] = {
 		desc_get = "",
 		name = "精密照準",
-		desc = "主砲攻撃1回目の準備時間が15%短縮",
 		type = 0,
 		max_level = 0,
+		desc = "主砲攻撃1回目の準備時間が15%短縮",
 		id = 6260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6270] = {
 		desc_get = "",
 		name = "機動回避",
-		desc = "20秒毎に30％で発動する。2秒間全ての攻撃を回避する。",
 		type = 0,
 		max_level = 0,
+		desc = "20秒毎に30％で発動する。2秒間全ての攻撃を回避する。",
 		id = 6270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6280] = {
 		desc_get = "",
 		name = "対空捜索",
-		desc = "待ち伏せ率が12%低減。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "待ち伏せ率が12%低減。同じ種類の効果は最大値のみ適用される",
 		id = 6280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6290] = {
 		desc_get = "",
 		name = "補助電源Ⅰ",
-		desc = "自身の支援範囲Lv＋1（+10まで強化した場合、効果が「支援範囲Lv＋2」になる）",
 		type = 0,
 		max_level = 0,
+		desc = "自身の支援範囲Lv＋1（+10まで強化した場合、効果が「支援範囲Lv＋2」になる）",
 		id = 6290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6291] = {
 		desc_get = "",
 		name = "補助電源Ⅱ",
-		desc = "自身の支援範囲Lv＋2",
 		type = 0,
 		max_level = 0,
+		desc = "自身の支援範囲Lv＋2",
 		id = 6291,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6300] = {
 		desc_get = "",
 		name = "ハイオクタン燃料",
-		desc = "艦載機の移動速度を上昇させる、艦載機HPが140アップ。同じ種類の効果は最大値のみ適用",
 		type = 0,
 		max_level = 0,
+		desc = "艦載機の移動速度を上昇させる、艦載機HPが140アップ。同じ種類の効果は最大値のみ適用",
 		id = 6300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6310] = {
 		desc_get = "",
 		name = "着艦補助",
-		desc = "航空攻撃の装填時間が4%短縮",
 		type = 0,
 		max_level = 0,
+		desc = "航空攻撃の装填時間が4%短縮",
 		id = 6310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6320] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6321] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6321,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6322] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6322,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6323] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6323,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6324] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6324,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6325] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6325,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6326] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6326,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6327] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6327,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6328] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6328,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6329] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6329,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6330] = {
 		desc_get = "",
 		name = "転機の幕開け",
-		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		type = 0,
 		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
 		id = 6330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6331] = {
+		desc_get = "",
+		name = "転機の幕開け",
+		type = 0,
+		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
+		id = 6331,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6332] = {
+		desc_get = "",
+		name = "転機の幕開け",
+		type = 0,
+		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
+		id = 6332,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6333] = {
+		desc_get = "",
+		name = "転機の幕開け",
+		type = 0,
+		max_level = 0,
+		desc = "自身の2回目以降の航空攻撃ではTBD（VT-8中隊）の代わりにTBF（VT-8中隊）で攻撃を行う",
+		id = 6333,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6360] = {
 		desc_get = "",
 		name = "遅延射撃",
-		desc = "自身が装備中の主砲の拡散範囲を2収束させる。",
 		type = 0,
 		max_level = 0,
+		desc = "自身が装備中の主砲の拡散範囲を2収束させる。",
 		id = 6360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6370] = {
 		desc_get = "",
 		name = "潜水空母搭載",
-		desc = "潜水空母に装備されている場合、与える航空攻撃ダメージが60%アップ",
 		type = 0,
 		max_level = 0,
+		desc = "潜水空母に装備されている場合、与える航空攻撃ダメージが60%アップ",
 		id = 6370,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6380] = {
 		desc_get = "",
 		name = "ワード生成",
-		desc = "キズナアイが装備している場合、戦闘開始時、主兵装の装備外装をランダムに変更する。",
 		type = 0,
 		max_level = 0,
+		desc = "キズナアイが装備している場合、戦闘開始時、主兵装の装備外装をランダムに変更する。",
 		id = 6380,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6390] = {
 		desc_get = "",
 		name = "ぴょこぴょこ",
-		desc = "装備キャラが「キズナアイ」としても扱われる",
 		type = 0,
 		max_level = 0,
+		desc = "装備キャラが「キズナアイ」としても扱われる",
 		id = 6390,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6400] = {
 		desc_get = "",
 		name = "プラグイン",
-		desc = "<color=#a2a2a2>コラボイベント終了に付き、特殊効果が無効になりました</color>",
 		type = 0,
 		max_level = 0,
+		desc = "<color=#a2a2a2>コラボイベント終了に付き、特殊効果が無効になりました</color>",
 		id = 6400,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6410] = {
 		desc_get = "",
 		name = "果たされた約束",
-		desc = "U-556が装備している場合、自身の水面戦闘時間が4秒延長し、支援範囲+1；ビスマルクが装備している場合、主力艦隊の弾薬切れ状態によるダメージ減少効果を軽減する",
 		type = 0,
 		max_level = 1,
+		desc = "U-556が装備している場合、自身の水面戦闘時間が4秒延長し、支援範囲+1；ビスマルクが装備している場合、主力艦隊の弾薬切れ状態によるダメージ減少効果を軽減する",
 		id = 6410,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6411] = {
 		desc_get = "",
 		name = "果たされた約束",
-		desc = "U-556が装備している場合、自身の水面戦闘時間が4秒延長し、支援範囲+1；ビスマルクが装備している場合、主力艦隊の弾薬切れ状態によるダメージ減少効果を軽減する",
 		type = 0,
 		max_level = 1,
+		desc = "U-556が装備している場合、自身の水面戦闘時間が4秒延長し、支援範囲+1；ビスマルクが装備している場合、主力艦隊の弾薬切れ状態によるダメージ減少効果を軽減する",
 		id = 6411,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6415] = {
 		desc_get = "",
 		name = "果たされた約束",
-		desc = "U-556が装備している場合、自身の水面戦闘時間が4秒延長し、支援範囲+1；ビスマルクが装備している場合、主力艦隊の弾薬切れ状態によるダメージ減少効果を軽減する",
 		type = 0,
 		max_level = 1,
+		desc = "U-556が装備している場合、自身の水面戦闘時間が4秒延長し、支援範囲+1；ビスマルクが装備している場合、主力艦隊の弾薬切れ状態によるダメージ減少効果を軽減する",
 		id = 6415,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6420] = {
 		desc_get = "",
 		name = "徹甲航空爆弾",
-		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
 		type = 0,
 		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
 		id = 6420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6430] = {
 		desc_get = "",
 		name = "サッチウィーブ",
-		desc = "味方艦隊の戦闘機の威力補正が4%アップ 。同じ種類の効果は最大値のみ適用",
 		type = 0,
 		max_level = 0,
+		desc = "味方艦隊の戦闘機の威力補正が4%アップ 。同じ種類の効果は最大値のみ適用",
 		id = 6430,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6440] = {
 		desc_get = "",
 		name = "対セイレーン防御戦術I",
-		desc = "装備されている艦船が受けるセイレーンからのダメージを6%軽減する。同じ系統のスキルは効果が一番高いものしか適用されない ",
 		type = 0,
 		max_level = 0,
+		desc = "装備されている艦船が受けるセイレーンからのダメージを6%軽減する。同じ系統のスキルは効果が一番高いものしか適用されない ",
 		id = 6440,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6450] = {
 		desc_get = "",
 		name = "オーバーヒート",
-		desc = "装備時、自身の主砲攻撃が与えるダメージが10%アップし、二回主砲攻撃を行うたびに、主砲の装填時間が30％延長し、その次の主砲攻撃後もとに戻る ",
 		type = 0,
 		max_level = 0,
+		desc = "装備時、自身の主砲攻撃が与えるダメージが10%アップし、二回主砲攻撃を行うたびに、主砲の装填時間が30％延長し、その次の主砲攻撃後もとに戻る ",
 		id = 6450,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6460] = {
 		desc_get = "",
 		name = "VH鋼",
-		desc = "装甲タイプが重装甲の艦船が装備している場合、戦闘中自身が受ける徹甲弾のダメージを6%、榴弾・通常弾のダメージを3%軽減する。装甲タイプが重装甲以外の艦船が装備している場合、装甲タイプが重装甲になる ",
 		type = 0,
 		max_level = 0,
+		desc = "装甲タイプが重装甲の艦船が装備している場合、戦闘中自身が受ける徹甲弾のダメージを6%、榴弾・通常弾のダメージを3%軽減する。装甲タイプが重装甲以外の艦船が装備している場合、装甲タイプが重装甲になる ",
 		id = 6460,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6470] = {
 		desc_get = "",
 		name = "VC鋼",
-		desc = "重装甲艦船が装備している場合、戦闘中自身が受ける徹甲弾のダメージを4%、榴弾・通常弾のダメージを2%軽減する ",
 		type = 0,
 		max_level = 0,
+		desc = "重装甲艦船が装備している場合、戦闘中自身が受ける徹甲弾のダメージを4%、榴弾・通常弾のダメージを2%軽減する ",
 		id = 6470,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6480] = {
 		desc_get = "",
 		name = "四神の紋章",
-		desc = "鞍山級が装備している場合、戦闘中自身の主砲攻撃の与えるダメージが16%アップし、自身の全弾発射スキルを強化する",
 		type = 0,
 		max_level = 0,
+		desc = "鞍山級が装備している場合、戦闘中自身の主砲攻撃の与えるダメージが16%アップし、自身の全弾発射スキルを強化する",
 		id = 6480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6490] = {
 		desc_get = "",
 		name = "チームエンブレム",
-		desc = "元々ホロライブ陣営のキャラが装備している場合、戦闘中自身が与えるダメージが3%アップ ",
 		type = 0,
 		max_level = 0,
+		desc = "元々ホロライブ陣営のキャラが装備している場合、戦闘中自身が与えるダメージが3%アップ ",
 		id = 6490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6500] = {
 		desc_get = "",
 		name = "ゲーマーズの証",
-		desc = "装備しているキャラがホロライブキャラとしても扱われる",
 		type = 0,
 		max_level = 0,
+		desc = "装備しているキャラがホロライブキャラとしても扱われる",
 		id = 6500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6510] = {
 		desc_get = "",
 		name = "トウモロコシの灯篭",
-		desc = "元々ホロライブ陣営のキャラが装備している場合、戦闘中自身が受けるダメージを4%軽減させる",
 		type = 0,
 		max_level = 0,
+		desc = "元々ホロライブ陣営のキャラが装備している場合、戦闘中自身が受けるダメージを4%軽減させる",
 		id = 6510,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6520] = {
 		desc_get = "",
 		name = "あん肝",
-		desc = "装備キャラが戦闘に参加した場合、戦闘BGMを変更させるかもしれない",
 		type = 0,
 		max_level = 0,
+		desc = "装備キャラが戦闘に参加した場合、戦闘BGMを変更させるかもしれない",
 		id = 6520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6530] = {
 		desc_get = "",
 		name = "空中偵察PBY",
-		desc = "PBYカタリナによる空中偵察支援。待ち伏せ遭遇率が10%ダウンし、待ち伏せ回避率が10%アップする（同系統の効果とは重複しない）",
 		type = 0,
 		max_level = 0,
+		desc = "PBYカタリナによる空中偵察支援。待ち伏せ遭遇率が10%ダウンし、待ち伏せ回避率が10%アップする（同系統の効果とは重複しない）",
 		id = 6530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6540] = {
 		desc_get = "",
 		name = "戦艦攻撃隊",
-		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
 		type = 0,
 		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
 		id = 6540,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6550] = {
 		desc_get = "",
 		name = "！？",
-		desc = "",
 		type = 0,
 		max_level = 1,
+		desc = "",
 		id = 6550,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6560] = {
 		desc_get = "",
 		name = "改良型耐圧殻",
-		desc = "改良された耐圧殻により、自身の速力が20%アップし、戦闘時の攻撃位置がさらに8前進する",
 		type = 0,
 		max_level = 0,
+		desc = "改良された耐圧殻により、自身の速力が20%アップし、戦闘時の攻撃位置がさらに8前進する",
 		id = 6560,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6570] = {
 		desc_get = "",
 		name = "磁気魚雷・戦闘配備",
-		desc = "戦闘中、自身の一回目の魚雷攻撃の弾薬が磁気魚雷になり、敵に与えるダメージが5%アップ",
 		type = 0,
 		max_level = 0,
+		desc = "戦闘中、自身の一回目の魚雷攻撃の弾薬が磁気魚雷になり、敵に与えるダメージが5%アップ",
 		id = 6570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6580] = {
 		desc_get = "",
 		name = "主砲、届けに来ました！",
-		desc = "",
 		type = 0,
 		max_level = 1,
+		desc = "",
 		id = 6580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6590] = {
 		desc_get = "",
 		name = "九四式四十糎砲(積載)",
-		desc = "樫野に装備されている場合、味方主力艦隊・超巡の火力を10%アップさせる",
 		type = 0,
 		max_level = 0,
+		desc = "樫野に装備されている場合、味方主力艦隊・超巡の火力を10%アップさせる",
 		id = 6590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6620] = {
 		desc_get = "",
 		name = "従来型ソナーT3",
-		desc = "探知済状態の敵潜水艦の命中が3%ダウン（同じタイプの効果は最大値のみ適用される）",
 		type = 0,
 		max_level = 0,
+		desc = "探知済状態の敵潜水艦の命中が3%ダウン（同じタイプの効果は最大値のみ適用される）",
 		id = 6620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6650] = {
 		desc_get = "",
 		name = "改良型ソナーT3",
-		desc = "探知済状態の敵潜水艦の雷装が5%ダウン（同じタイプの効果は最大値のみ適用される）",
 		type = 0,
 		max_level = 0,
+		desc = "探知済状態の敵潜水艦の雷装が5%ダウン（同じタイプの効果は最大値のみ適用される）",
 		id = 6650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6660] = {
 		desc_get = "",
 		name = "航空戦資材(積載)",
-		desc = "運送艦に装備されている場合、所属艦隊の艦船の航空を8%アップさせる",
 		type = 0,
 		max_level = 0,
+		desc = "運送艦に装備されている場合、所属艦隊の艦船の航空を8%アップさせる",
 		id = 6660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6670] = {
 		desc_get = "",
 		name = "小口径主砲砲戦資材(積載)",
-		desc = "運送艦に装備されている場合、所属艦隊の前衛艦隊艦船の火力を8%アップさせる（超巡を除く）",
 		type = 0,
 		max_level = 0,
+		desc = "運送艦に装備されている場合、所属艦隊の前衛艦隊艦船の火力を8%アップさせる（超巡を除く）",
 		id = 6670,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6680] = {
 		desc_get = "",
 		name = "雷撃戦資材(積載)",
-		desc = "運送艦に装備されている場合、所属艦隊艦船の雷装を8%アップさせる",
 		type = 0,
 		max_level = 0,
+		desc = "運送艦に装備されている場合、所属艦隊艦船の雷装を8%アップさせる",
 		id = 6680,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6690] = {
 		desc_get = "",
 		name = "グラヴィティシューズ",
-		desc = "装備艦船は「μ兵装」としても扱われます",
 		type = 0,
 		max_level = 0,
+		desc = "装備艦船は「μ兵装」としても扱われます",
 		id = 6690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6700] = {
 		desc_get = "",
 		name = "ネビュラドレス",
-		desc = "装備艦船は「μ兵装」としても扱われます",
 		type = 0,
 		max_level = 0,
+		desc = "装備艦船は「μ兵装」としても扱われます",
 		id = 6700,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6710] = {
 		desc_get = "",
 		name = "熱愛のフィリンエッター",
-		desc = "装備艦船の戦闘中のBGMが「艦上 LOYALTY」になります。BGM変更系兵装が複数装備されている場合、ランダムなBGMに変更されます",
 		type = 0,
 		max_level = 0,
+		desc = "装備艦船の戦闘中のBGMが「艦上 LOYALTY」になります。BGM変更系兵装が複数装備されている場合、ランダムなBGMに変更されます",
 		id = 6710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6711] = {
 		desc_get = "",
 		name = "神聖なるリュミエール",
-		desc = "装備艦船の戦闘中のBGMが「祈りノウタ」になります。BGM変更系兵装が複数装備されている場合、ランダムなBGMに変更されます",
 		type = 0,
 		max_level = 0,
+		desc = "装備艦船の戦闘中のBGMが「祈りノウタ」になります。BGM変更系兵装が複数装備されている場合、ランダムなBGMに変更されます",
 		id = 6711,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6712] = {
 		desc_get = "",
 		name = "輝けるアストラム",
-		desc = "装備艦船の戦闘中のBGMが「Blue Spirit」になります。BGM変更系兵装が複数装備されている場合、ランダムなBGMに変更されます",
 		type = 0,
 		max_level = 0,
+		desc = "装備艦船の戦闘中のBGMが「Blue Spirit」になります。BGM変更系兵装が複数装備されている場合、ランダムなBGMに変更されます",
 		id = 6712,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6720] = {
 		desc_get = "",
 		name = "ヴィーナス覚醒ジェム",
-		desc = "ヴィーナスバケーション陣営のキャラが装備している場合、戦闘中自身が与えるダメージが3%アップする",
 		type = 0,
 		max_level = 0,
+		desc = "ヴィーナスバケーション陣営のキャラが装備している場合、戦闘中自身が与えるダメージが3%アップする",
 		id = 6720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6730] = {
 		desc_get = "",
 		name = "ココロの鍵",
-		desc = "装備キャラが戦闘に参加した場合、戦闘BGMを変更させるかもしれない",
 		type = 0,
 		max_level = 0,
+		desc = "装備キャラが戦闘に参加した場合、戦闘BGMを変更させるかもしれない",
 		id = 6730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6740] = {
 		desc_get = "",
 		name = "フロンティアメダル",
-		desc = "【演習効果】旗艦が装備している場合、お互いの空母・軽空母が与えるダメージが10％アップし、戦艦・巡洋戦艦が与えるダメージが10％ダウンする",
 		type = 0,
 		max_level = 0,
+		desc = "【演習効果】旗艦が装備している場合、お互いの空母・軽空母が与えるダメージが10％アップし、戦艦・巡洋戦艦が与えるダメージが10％ダウンする",
 		id = 6740,
 		system_transform = {
 			[3.0] = 6741
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -7301,23 +7926,29 @@ pg.skill_data_template = {
 	[6750] = {
 		desc_get = "",
 		name = "精鋭ダメコン饅頭(ユニオン)",
-		desc = "ユニオン艦船が装備し、耐久が0になるようなダメージを受ける場合、8秒間耐久が0にならず全ての攻撃を回避する。8秒後、自身の耐久が0になる",
 		type = 0,
 		max_level = 0,
+		desc = "ユニオン艦船が装備し、耐久が0になるようなダメージを受ける場合、8秒間耐久が0にならず全ての攻撃を回避する。8秒後、自身の耐久が0になる",
 		id = 6750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6760] = {
 		desc_get = "",
 		name = "海軍条約文書",
-		desc = "【演習効果】旗艦が装備している場合、お互いの全ての艦船が敵に与えるダメージが15％ダウンする",
 		type = 0,
 		max_level = 0,
+		desc = "【演習効果】旗艦が装備している場合、お互いの全ての艦船が敵に与えるダメージが15％ダウンする",
 		id = 6760,
 		system_transform = {
 			[3.0] = 6761
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -7325,77 +7956,686 @@ pg.skill_data_template = {
 	[6770] = {
 		desc_get = "",
 		name = "サイン・オブ・ビクトリー",
-		desc = "戦闘開始後6秒間、前衛艦隊が受けるダメージの24%を自身が肩代わりする",
 		type = 0,
 		max_level = 0,
+		desc = "戦闘開始後6秒間、前衛艦隊が受けるダメージの24%を自身が肩代わりする",
 		id = 6770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6790] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6790,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6791] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6791,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6792] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6792,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6793] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6793,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6794] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6794,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6795] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6795,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6796] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6796,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6797] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6797,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6798] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6798,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6799] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6799,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6800] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6800,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6801] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6801,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6802] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6802,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6803] = {
+		desc_get = "",
+		name = "戦艦攻撃隊",
+		type = 0,
+		max_level = 0,
+		desc = "自身の敵戦艦・巡洋戦艦に与えるダメージが3.0%アップ；この艦載機が敵戦艦・巡洋戦艦・航空戦艦に攻撃を命中させた時に60％、敵艦を9秒間進水状態にする（進水によるダメージは装備キャラの航空ステータスによる）",
+		id = 6803,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6810] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6811] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6811,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6812] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6812,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6813] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6813,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6814] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6814,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6815] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6815,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6816] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6816,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6817] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6817,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6818] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6818,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6819] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6819,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6820] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6820,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6821] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6821,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6822] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6822,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6823] = {
+		desc_get = "",
+		name = "ソードフィッシュ（818中隊）",
+		type = 0,
+		max_level = 0,
+		desc = "自身の航空攻撃が命中した敵のスピードを8秒間60％ダウンする",
+		id = 6823,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6830] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6830,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6831] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6831,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6832] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6832,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6833] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6833,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6834] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6834,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6835] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6835,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6836] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6836,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6837] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6837,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6838] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6838,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6839] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6839,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6840] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6840,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6841] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6841,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6842] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6842,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6843] = {
+		desc_get = "",
+		name = "徹甲航空爆弾",
+		type = 0,
+		max_level = 0,
+		desc = "この艦載機の爆弾が敵艦に命中したとき、24％で徹甲弾同様の装甲破壊効果を与える。同じ種類の効果は最大値のみ適用される",
+		id = 6843,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[7000] = {
 		desc_get = "",
 		name = "ライン演習",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 7000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9030] = {
 		desc_get = "",
 		name = "ブリ は スキル を つかった!",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 9030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9031] = {
 		desc_get = "",
 		name = "しかし なに も おきなかった",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 9031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9033] = {
 		desc_get = "",
 		name = "ブリ は スキル を つかった!",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 9033,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9034] = {
 		desc_get = "",
 		name = "しかし なに も おきなかった",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 9034,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9050] = {
 		desc_get = "",
 		name = "LuckyE",
-		desc = "自身の航空攻撃時$1で発動。航空攻撃によるダメージを一度だけ2倍にし、8秒間全ての攻撃を回避できるステルス状態になる",
 		type = 1,
 		max_level = 9,
+		desc = "自身の航空攻撃時$1で発動。航空攻撃によるダメージを一度だけ2倍にし、8秒間全ての攻撃を回避できるステルス状態になる",
 		id = 9050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -7449,11 +8689,14 @@ pg.skill_data_template = {
 	[9061] = {
 		desc_get = "",
 		name = "火力全開",
-		desc = "20秒毎$1で発動。10秒間自身の火力値が$2アップ",
 		type = 1,
 		max_level = 8,
+		desc = "20秒毎$1で発動。10秒間自身の火力値が$2アップ",
 		id = 9061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -7552,11 +8795,14 @@ pg.skill_data_template = {
 	[9071] = {
 		desc_get = "",
 		name = "対空配置",
-		desc = "対空射撃時25%で発動。3秒間自身の対空値が$1アップし、火力値が$2ダウンする",
 		type = 2,
 		max_level = 8,
+		desc = "対空射撃時25%で発動。3秒間自身の対空値が$1アップし、火力値が$2ダウンする",
 		id = 9071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -7655,11 +8901,14 @@ pg.skill_data_template = {
 	[9081] = {
 		desc_get = "",
 		name = "旗艦随伴",
-		desc = "自身が戦闘可能である限り、旗艦の受けるダメージを$1軽減",
 		type = 3,
 		max_level = 8,
+		desc = "自身が戦闘可能である限り、旗艦の受けるダメージを$1軽減",
 		id = 9081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -7713,11 +8962,14 @@ pg.skill_data_template = {
 	[9090] = {
 		desc_get = "",
 		name = "ソロモンの伝説",
-		desc = "20秒毎に$1で発動、8秒間、同艦隊の巡洋艦の命中・火力を$2アップ、攻撃された時、受けるダメージを$3軽減する",
 		type = 3,
 		max_level = 8,
+		desc = "20秒毎に$1で発動、8秒間、同艦隊の巡洋艦の命中・火力を$2アップ、攻撃された時、受けるダメージを$3軽減する",
 		id = 9090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -7861,11 +9113,14 @@ pg.skill_data_template = {
 	[9101] = {
 		desc_get = "",
 		name = "強襲指令",
-		desc = "20秒毎25%で発動。8秒間全艦の与えるダメージが$1アップ。同じスキルの効果は重複しない",
 		type = 3,
 		max_level = 9,
+		desc = "20秒毎25%で発動。8秒間全艦の与えるダメージが$1アップ。同じスキルの効果は重複しない",
 		id = 9101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -7919,11 +9174,14 @@ pg.skill_data_template = {
 	[9110] = {
 		desc_get = "",
 		name = "対空配置",
-		desc = "対空射撃時25%で発動。3秒間自身の対空値が$1アップし、火力値が$2ダウンする",
 		type = 2,
 		max_level = 9,
+		desc = "対空射撃時25%で発動。3秒間自身の対空値が$1アップし、火力値が$2ダウンする",
 		id = 9110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -8022,11 +9280,14 @@ pg.skill_data_template = {
 	[10010] = {
 		desc_get = "",
 		name = "Recommissioned",
-		desc = "自身の耐久が20%以下になった時、耐久を$1回復する。一度の戦闘で一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "自身の耐久が20%以下になった時、耐久を$1回復する。一度の戦闘で一回しか発動できない",
 		id = 10010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -8080,11 +9341,14 @@ pg.skill_data_template = {
 	[10020] = {
 		desc_get = "",
 		name = "海上最速",
-		desc = "10秒毎$1で発動。8秒間自身の回避が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "10秒毎$1で発動。8秒間自身の回避が$2アップ",
 		id = 10020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -8183,11 +9447,14 @@ pg.skill_data_template = {
 	[10030] = {
 		desc_get = "",
 		name = "お姉さん気質",
-		desc = "戦闘中、フレッチャー級駆逐艦の火力、回避が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、フレッチャー級駆逐艦の火力、回避が$1アップ",
 		id = 10030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -8241,11 +9508,14 @@ pg.skill_data_template = {
 	[10040] = {
 		desc_get = "",
 		name = "31ノット・バーク",
-		desc = "攻撃時4%で発動。8秒間、全艦の移動速度が上昇し、さらに前衛艦隊回避が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "攻撃時4%で発動。8秒間、全艦の移動速度が上昇し、さらに前衛艦隊回避が$1アップ",
 		id = 10040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -8299,11 +9569,14 @@ pg.skill_data_template = {
 	[10050] = {
 		desc_get = "攻撃された時15％で発動。5秒（最大10秒）間前衛艦隊が全ての攻撃を回避する。",
 		name = "レインボー・プラン",
-		desc = "攻撃された時15%で発動。$1秒間前衛艦隊が全ての攻撃を回避する",
 		type = 2,
 		max_level = 10,
+		desc = "攻撃された時15%で発動。$1秒間前衛艦隊が全ての攻撃を回避する",
 		id = 10050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -8352,11 +9625,14 @@ pg.skill_data_template = {
 	[10060] = {
 		desc_get = "",
 		name = "真紅の不死鳥",
-		desc = "自身の耐久が20%以下になった時、耐久を$1回復し、15秒間火力値を30%アップする。一度の戦闘で一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "自身の耐久が20%以下になった時、耐久を$1回復し、15秒間火力値を30%アップする。一度の戦闘で一回しか発動できない",
 		id = 10060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -8410,11 +9686,14 @@ pg.skill_data_template = {
 	[10070] = {
 		desc_get = "",
 		name = "レーダー探知",
-		desc = "20秒毎$1で発動。10秒間敵の受けるダメージが$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎$1で発動。10秒間敵の受けるダメージが$2アップ",
 		id = 10070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -8513,11 +9792,14 @@ pg.skill_data_template = {
 	[10080] = {
 		desc_get = "",
 		name = "戦争の悲劇",
-		desc = "戦闘不能になった時、他の艦の耐久を$1回復する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘不能になった時、他の艦の耐久を$1回復する",
 		id = 10080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -8571,11 +9853,14 @@ pg.skill_data_template = {
 	[10090] = {
 		desc_get = "",
 		name = "私はNo.1！",
-		desc = "対空射撃時15％で発動。8秒間全艦の対空値が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "対空射撃時15％で発動。8秒間全艦の対空値が$1アップ",
 		id = 10090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -8629,11 +9914,14 @@ pg.skill_data_template = {
 	[10100] = {
 		desc_get = "",
 		name = "疾駆する幻影",
-		desc = "主砲攻撃時20%で発動。15秒間自身の回避が$1アップ",
 		type = 2,
 		max_level = 10,
+		desc = "主砲攻撃時20%で発動。15秒間自身の回避が$1アップ",
 		id = 10100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"60%",
@@ -8687,11 +9975,14 @@ pg.skill_data_template = {
 	[10110] = {
 		desc_get = "",
 		name = "妹サイコー！",
-		desc = "インディアナポリスと一緒に出撃する時、自身の火力、対空、装填値が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "インディアナポリスと一緒に出撃する時、自身の火力、対空、装填値が$1アップ",
 		id = 10110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -8745,11 +10036,14 @@ pg.skill_data_template = {
 	[10120] = {
 		desc_get = "30秒毎発動。5秒（最大15秒）間、敵弾を8回まで無効化できる回転シールドを2枚生成する。シールドが破れた時、周囲の敵にダメージを与える",
 		name = "パンドラボックス",
-		desc = "30秒毎発動。$1秒間、敵弾を8回まで無効化できる回転シールドを2枚生成する。シールドが破れた時、周囲の敵にダメージを与える",
 		type = 2,
 		max_level = 10,
+		desc = "30秒毎発動。$1秒間、敵弾を8回まで無効化できる回転シールドを2枚生成する。シールドが破れた時、周囲の敵にダメージを与える",
 		id = 10120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -8798,12 +10092,15 @@ pg.skill_data_template = {
 	[10130] = {
 		desc_get = "",
 		name = "ペン姉さん！",
-		desc = "20秒毎$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		id = 10130,
 		system_transform = {
 			[3.0] = 10131
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -8858,11 +10155,14 @@ pg.skill_data_template = {
 	[10140] = {
 		desc_get = "",
 		name = "白鷲の黒い涙",
-		desc = "主砲発射時50%で前衛艦隊の耐久を$1回復する。――「今度こそ、守ってみせます…！」",
 		type = 3,
 		max_level = 10,
+		desc = "主砲発射時50%で前衛艦隊の耐久を$1回復する。――「今度こそ、守ってみせます…！」",
 		id = 10140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4%",
@@ -8916,11 +10216,14 @@ pg.skill_data_template = {
 	[10150] = {
 		desc_get = "",
 		name = "古強者の威圧",
-		desc = "30秒毎で発動。8秒間敵の与えるダメージを$1ダウンさせる",
 		type = 3,
 		max_level = 10,
+		desc = "30秒毎で発動。8秒間敵の与えるダメージを$1ダウンさせる",
 		id = 10150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -8974,15 +10277,22 @@ pg.skill_data_template = {
 	[10160] = {
 		desc_get = "",
 		name = "最強の盾",
-		desc = "30秒毎で発動。8秒間主力艦隊が受けるダメージの50%を身代わりする。その後受けたダメージの$1の耐久を回復する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始15秒後に一回・その後25秒毎に発動。10秒間、主力艦隊が受けるダメージの50%を身代わりする。その後受けたダメージの$1の耐久を回復し、さらに自身の火力を$2アップする（火力アップ効果は最大3回まで加算可能）",
 		id = 10160,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
 				"50.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
 			}
 		},
 		desc_add = {
@@ -9026,17 +10336,61 @@ pg.skill_data_template = {
 				{
 					"50.0%"
 				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
 			}
 		}
 	},
 	[10170] = {
 		desc_get = "",
 		name = "初期正規空母",
-		desc = "戦闘後、航空母艦が貰える経験値が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘後、航空母艦が貰える経験値が$1アップ",
 		id = 10170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -9090,11 +10444,14 @@ pg.skill_data_template = {
 	[10180] = {
 		desc_get = "20秒（最短10秒）毎、重巡級の援護砲撃を発動する(威力はスキルレベルによる)。",
 		name = "支援砲撃",
-		desc = "$1秒毎重巡級の援護火力を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "$1秒毎重巡級の援護火力を発動する(威力はスキルレベルによる)",
 		id = 10180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -9143,11 +10500,14 @@ pg.skill_data_template = {
 	[10190] = {
 		desc_get = "",
 		name = "最後のワルツ",
-		desc = "一度の戦闘で一回だけ、自身の耐久が20%以下になった時、耐久を上限の$1を回復する。また、自身がダメージを受けた時に、航空攻撃（弾幕はスキルレベルによる）を行う。この航空攻撃は20秒に一度しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "一度の戦闘で一回だけ、自身の耐久が20%以下になった時、耐久を上限の$1を回復する。また、自身がダメージを受けた時に、航空攻撃（弾幕はスキルレベルによる）を行う。この航空攻撃は20秒に一度しか発動できない",
 		id = 10190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -9201,11 +10561,14 @@ pg.skill_data_template = {
 	[10200] = {
 		desc_get = "",
 		name = "LuckyE",
-		desc = "自身の航空攻撃時$1で発動。航空攻撃によるダメージを一度だけ2倍にし、8秒間全ての攻撃を回避できるステルス状態になる",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃時$1で発動。航空攻撃によるダメージを一度だけ2倍にし、8秒間全ての攻撃を回避できるステルス状態になる",
 		id = 10200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -9259,11 +10622,14 @@ pg.skill_data_template = {
 	[10210] = {
 		desc_get = "",
 		name = "ドゥーリットル空襲",
-		desc = "航空攻撃時、$1で発動する。B#25で航空攻撃をもう一度行う",
 		type = 1,
 		max_level = 10,
+		desc = "航空攻撃時、$1で発動する。B#25で航空攻撃をもう一度行う",
 		id = 10210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -9317,11 +10683,14 @@ pg.skill_data_template = {
 	[10220] = {
 		desc_get = "",
 		name = "応急修理",
-		desc = "味方艦のHPが20%以下の時、対象の耐久を$1回復。エンタープライズの場合、効果50%アップ。一度の戦闘で一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "味方艦のHPが20%以下の時、対象の耐久を$1回復。エンタープライズの場合、効果50%アップ。一度の戦闘で一回しか発動できない",
 		id = 10220,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -9375,11 +10744,14 @@ pg.skill_data_template = {
 	[10230] = {
 		desc_get = "",
 		name = "プロトタイプ・駆逐",
-		desc = "戦闘後、駆逐艦が貰える経験値が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘後、駆逐艦が貰える経験値が$1アップ",
 		id = 10230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"6%",
@@ -9433,11 +10805,14 @@ pg.skill_data_template = {
 	[10240] = {
 		desc_get = "",
 		name = "コメットヘッドスマッシュ",
-		desc = "前衛艦隊が敵とぶつかる時、敵が受ける接触ダメージが$1アップする。同時に前衛艦隊が受ける接触ダメージを$2軽減する",
 		type = 1,
 		max_level = 10,
+		desc = "前衛艦隊が敵とぶつかる時、敵が受ける接触ダメージが$1アップする。同時に前衛艦隊が受ける接触ダメージを$2軽減する",
 		id = 10240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50%",
@@ -9536,11 +10911,14 @@ pg.skill_data_template = {
 	[10250] = {
 		desc_get = "",
 		name = "ジャベリン突撃",
-		desc = "発砲時5%で発動。8秒間自身の回避が$1アップ",
 		type = 2,
 		max_level = 10,
+		desc = "発砲時5%で発動。8秒間自身の回避が$1アップ",
 		id = 10250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -9594,11 +10972,14 @@ pg.skill_data_template = {
 	[10260] = {
 		desc_get = "",
 		name = "魔砲・アルマゲドン！",
-		desc = "攻撃する時20%で発動。8秒間自身の火力値が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "攻撃する時20%で発動。8秒間自身の火力値が$1アップ",
 		id = 10260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -9652,11 +11033,14 @@ pg.skill_data_template = {
 	[10270] = {
 		desc_get = "",
 		name = "最後の栄光",
-		desc = "主砲火力を行う度、次の主砲によるダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "主砲火力を行う度、次の主砲によるダメージが$1アップ",
 		id = 10270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -9710,11 +11094,14 @@ pg.skill_data_template = {
 	[10280] = {
 		desc_get = "",
 		name = "「逆襲のZ」",
-		desc = "攻撃された時、8秒間自身の装填が$1アップ。効果は重複しない",
 		type = 3,
 		max_level = 10,
+		desc = "攻撃された時、8秒間自身の装填が$1アップ。効果は重複しない",
 		id = 10280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -9768,12 +11155,15 @@ pg.skill_data_template = {
 	[10290] = {
 		desc_get = "",
 		name = "グロリー・オブ・ロイヤル",
-		desc = "主砲攻撃時$1で特殊弾幕を発動(威力はスキルレベルによる)し、8秒間主力艦隊の装填値を$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "主砲攻撃時$1で特殊弾幕を発動(威力はスキルレベルによる)し、8秒間主力艦隊の装填値を$2アップ",
 		id = 10290,
 		system_transform = {
 			[3.0] = 10291
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -9873,11 +11263,14 @@ pg.skill_data_template = {
 	[10300] = {
 		desc_get = "",
 		name = "女王号令",
-		desc = "戦闘中、ロイヤル陣営の艦の火力、雷撃、航空、対空、装填、回避が$1アップ。――「女王さまは永遠に11歳よ！」",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、ロイヤル陣営の艦の火力、雷撃、航空、対空、装填、回避が$1アップ。――「女王さまは永遠に11歳よ！」",
 		id = 10300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -9931,11 +11324,14 @@ pg.skill_data_template = {
 	[10310] = {
 		desc_get = "35秒（最短15秒）毎、一番離れた敵に特殊弾幕を発動する(威力、弾薬属性はスキルレベルによる)。この弾幕は必ずクリティカルする。",
 		name = "絶対命中のオールドレディ",
-		desc = "$1秒毎、一番離れた敵に特殊$2砲撃を発動する(威力はスキルレベルによる)。この弾幕は必ずクリティカルする",
 		type = 1,
 		max_level = 10,
+		desc = "$1秒毎、一番離れた敵に特殊$2砲撃を発動する(威力はスキルレベルによる)。この弾幕は必ずクリティカルする",
 		id = 10310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -10016,11 +11412,14 @@ pg.skill_data_template = {
 	[10320] = {
 		desc_get = "",
 		name = "BIG SEVEN",
-		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		id = 10320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10074,11 +11473,14 @@ pg.skill_data_template = {
 	[10330] = {
 		desc_get = "",
 		name = "ソードフィッシュ発進！",
-		desc = "航空攻撃時、ソードフィッシュで航空攻撃$1を行い、8秒間敵の移動速度を$2ダウンさせる",
 		type = 1,
 		max_level = 10,
+		desc = "航空攻撃時、ソードフィッシュで航空攻撃$1を行い、8秒間敵の移動速度を$2ダウンさせる",
 		id = 10330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"",
@@ -10168,11 +11570,14 @@ pg.skill_data_template = {
 	[10340] = {
 		desc_get = "",
 		name = "装甲空母",
-		desc = "自身の航空攻撃後、前衛艦隊にシールドを付与する。8秒間、自身の耐久の$1のダメージを無効できる",
 		type = 3,
 		max_level = 10,
+		desc = "自身の航空攻撃後、前衛艦隊にシールドを付与する。8秒間、自身の耐久の$1のダメージを無効できる",
 		id = 10340,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -10226,11 +11631,14 @@ pg.skill_data_template = {
 	[10350] = {
 		desc_get = "",
 		name = "魂凍ル氷闇ノ深淵",
-		desc = "20秒毎$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		id = 10350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -10284,11 +11692,14 @@ pg.skill_data_template = {
 	[10360] = {
 		desc_get = "",
 		name = "ソロモンの悪夢",
-		desc = "主砲攻撃時6%で発動。8秒間自身の火力、雷撃、装填、回避が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "主砲攻撃時6%で発動。8秒間自身の火力、雷撃、装填、回避が$1アップ",
 		id = 10360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10342,11 +11753,14 @@ pg.skill_data_template = {
 	[10370] = {
 		desc_get = "",
 		name = "佐世保の時雨",
-		desc = "主砲攻撃時5%で発動。8秒間自身の回避が$1アップ",
 		type = 2,
 		max_level = 10,
+		desc = "主砲攻撃時5%で発動。8秒間自身の回避が$1アップ",
 		id = 10370,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -10400,11 +11814,14 @@ pg.skill_data_template = {
 	[10380] = {
 		desc_get = "",
 		name = "Zの系譜",
-		desc = "戦闘中、Zクラス駆逐艦の火力、回避が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、Zクラス駆逐艦の火力、回避が$1アップ",
 		id = 10380,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10458,11 +11875,14 @@ pg.skill_data_template = {
 	[10390] = {
 		desc_get = "",
 		name = "破られぬ盾",
-		desc = "20秒毎$1で発動。10秒間、敵弾を10回まで無効できる回転シールドを3枚生成する",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎$1で発動。10秒間、敵弾を10回まで無効できる回転シールドを3枚生成する",
 		id = 10390,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -10516,11 +11936,14 @@ pg.skill_data_template = {
 	[10400] = {
 		desc_get = "",
 		name = "旗艦随伴",
-		desc = "自身が戦闘可能である限り、旗艦の受けるダメージを$1軽減",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、旗艦の受けるダメージを$1軽減",
 		id = 10400,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -10574,11 +11997,14 @@ pg.skill_data_template = {
 	[10410] = {
 		desc_get = "",
 		name = "ソロモンの戦神",
-		desc = "発砲時5%で発動。8秒間自身の火力、装填、回避が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "発砲時5%で発動。8秒間自身の火力、装填、回避が$1アップ",
 		id = 10410,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10632,11 +12058,14 @@ pg.skill_data_template = {
 	[10420] = {
 		desc_get = "",
 		name = "先手必勝！",
-		desc = "戦闘中、自身の一回目の航空攻撃の装填時間を$1ダウン",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の一回目の航空攻撃の装填時間を$1ダウン",
 		id = 10420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10690,11 +12119,14 @@ pg.skill_data_template = {
 	[10430] = {
 		desc_get = "",
 		name = "一航戦",
-		desc = "加賀と一緒に出撃する時、自身の航空性能が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "加賀と一緒に出撃する時、自身の航空性能が$1アップ",
 		id = 10430,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -10748,11 +12180,14 @@ pg.skill_data_template = {
 	[10440] = {
 		desc_get = "",
 		name = "一航戦",
-		desc = "赤城と一緒に出撃する時、自身の航空性能が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "赤城と一緒に出撃する時、自身の航空性能が$1アップ",
 		id = 10440,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -10806,11 +12241,14 @@ pg.skill_data_template = {
 	[10450] = {
 		desc_get = "致命傷を受ける時、戦闘不能にならず5秒（最大15秒）間攻撃を回避し、航空攻撃を一回発動する。一度の戦闘で一回しか発動できない",
 		name = "飛龍ハ健在ナリ",
-		desc = "致命傷を受ける時、戦闘不能にならず$1秒間攻撃を回避し、航空攻撃を一回発動する。一度の戦闘で一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "致命傷を受ける時、戦闘不能にならず$1秒間攻撃を回避し、航空攻撃を一回発動する。一度の戦闘で一回しか発動できない",
 		id = 10450,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -10859,11 +12297,14 @@ pg.skill_data_template = {
 	[10460] = {
 		desc_get = "",
 		name = "二航戦",
-		desc = "飛龍と一緒に出撃する時、自身の航空性能が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "飛龍と一緒に出撃する時、自身の航空性能が$1アップ",
 		id = 10460,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -10917,11 +12358,14 @@ pg.skill_data_template = {
 	[10470] = {
 		desc_get = "",
 		name = "二航戦",
-		desc = "蒼龍と一緒に出撃する時、自身の航空性能が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "蒼龍と一緒に出撃する時、自身の航空性能が$1アップ",
 		id = 10470,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -10975,11 +12419,14 @@ pg.skill_data_template = {
 	[10480] = {
 		desc_get = "",
 		name = "姉妹の絆",
-		desc = "平海と一緒に出撃する時、自身の火力性能が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "平海と一緒に出撃する時、自身の火力性能が$1アップ",
 		id = 10480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11033,11 +12480,14 @@ pg.skill_data_template = {
 	[10490] = {
 		desc_get = "",
 		name = "姉妹の絆",
-		desc = "寧海と一緒に出撃する時、自身の火力性能が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "寧海と一緒に出撃する時、自身の火力性能が$1アップ",
 		id = 10490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11091,11 +12541,14 @@ pg.skill_data_template = {
 	[10500] = {
 		desc_get = "",
 		name = "東煌のために",
-		desc = "重桜陣営のキャラに与えるダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "重桜陣営のキャラに与えるダメージが$1アップ",
 		id = 10500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -11149,11 +12602,14 @@ pg.skill_data_template = {
 	[10510] = {
 		desc_get = "",
 		name = "レヴァリューツィヤ",
-		desc = "戦闘中、前衛艦隊の与えるダメージが$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、前衛艦隊の与えるダメージが$1アップ",
 		id = 10510,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11207,44 +12663,56 @@ pg.skill_data_template = {
 	[10520] = {
 		desc_get = "",
 		name = "定期メンテ",
-		desc = "出撃後、緊急補修が1回使用可能（強化不可）",
 		type = 2,
 		max_level = 1,
+		desc = "出撃後、緊急補修が1回使用可能（強化不可）",
 		id = 10520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[10521] = {
 		desc_get = "",
 		name = "定期メンテ",
-		desc = "出撃後、緊急補修が2回使用可能（強化不可）",
 		type = 2,
 		max_level = 1,
+		desc = "出撃後、緊急補修が2回使用可能（強化不可）",
 		id = 10521,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[10522] = {
 		desc_get = "",
 		name = "定期メンテ",
-		desc = "出撃後、緊急補修が3回使用可能（強化不可）",
 		type = 2,
 		max_level = 1,
+		desc = "出撃後、緊急補修が3回使用可能（強化不可）",
 		id = 10522,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[10530] = {
 		desc_get = "",
 		name = "鉄血先鋭",
-		desc = "発砲時5%で発動。8秒間自身の火力値が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "発砲時5%で発動。8秒間自身の火力値が$1アップ",
 		id = 10530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -11298,57 +12766,150 @@ pg.skill_data_template = {
 	[10540] = {
 		desc_get = "",
 		name = "王家同盟",
-		desc = "戦闘中、味方にユニオンの艦が一隻ごとに、自身の火力、対空、装填、回避が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊にユニオン艦船が一隻につき、自身の火力・対空・装填・回避が$1アップ（最大3隻分まで加算可能）。味方艦隊にユニオン艦船が3隻以上いる場合、さらに自身の1回目の砲撃準備時間を85%短縮し、前衛艦隊ユニオン艦船の火力・対空が$2アップし、主力艦隊ユニオン艦船の航空・対空が$3アップする",
 		id = 10540,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"1.0%",
-				"5.0%"
+				"2.0%",
+				"10.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
 			}
 		},
 		desc_add = {
 			{
 				{
-					"1.0%",
-					"+0.4%"
+					"2.0%",
+					"+0.8%"
 				},
 				{
-					"1.4%",
-					"+0.4%"
+					"2.8%",
+					"+0.8%"
 				},
 				{
-					"1.8%",
-					"+0.4%"
+					"3.6%",
+					"+0.8%"
 				},
 				{
-					"2.2%",
-					"+0.4%"
+					"4.4%",
+					"+0.8%"
 				},
 				{
-					"2.6%",
-					"+0.4%"
+					"5.2%",
+					"+0.8%"
 				},
 				{
-					"3.0%",
-					"+0.5%"
+					"6.0%",
+					"+1.0%"
 				},
 				{
-					"3.5%",
-					"+0.5%"
+					"7.0%",
+					"+1.0%"
 				},
 				{
-					"4.0%",
-					"+0.5%"
+					"8.0%",
+					"+1.0%"
 				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
 				{
 					"4.5%",
-					"+0.5%"
+					"+0.8%"
 				},
 				{
-					"5.0%"
+					"5.3%",
+					"+0.8%"
+				},
+				{
+					"6.1%",
+					"+0.9%"
+				},
+				{
+					"7.0%",
+					"+0.8%"
+				},
+				{
+					"7.8%",
+					"+0.8%"
+				},
+				{
+					"8.6%",
+					"+0.9%"
+				},
+				{
+					"9.5%",
+					"+0.8%"
+				},
+				{
+					"10.3%",
+					"+0.8%"
+				},
+				{
+					"11.1%",
+					"+0.9%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.8%"
+				},
+				{
+					"5.3%",
+					"+0.8%"
+				},
+				{
+					"6.1%",
+					"+0.9%"
+				},
+				{
+					"7.0%",
+					"+0.8%"
+				},
+				{
+					"7.8%",
+					"+0.8%"
+				},
+				{
+					"8.6%",
+					"+0.9%"
+				},
+				{
+					"9.5%",
+					"+0.8%"
+				},
+				{
+					"10.3%",
+					"+0.8%"
+				},
+				{
+					"11.1%",
+					"+0.9%"
+				},
+				{
+					"12.0%"
 				}
 			}
 		}
@@ -11356,11 +12917,14 @@ pg.skill_data_template = {
 	[10550] = {
 		desc_get = "",
 		name = "泊地修理",
-		desc = "35秒毎、全艦の耐久を明石の耐久の$1を回復する",
 		type = 2,
 		max_level = 10,
+		desc = "35秒毎、全艦の耐久を明石の耐久の$1を回復する",
 		id = 10550,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1%",
@@ -11414,11 +12978,14 @@ pg.skill_data_template = {
 	[10560] = {
 		desc_get = "",
 		name = "旅の終焉",
-		desc = "魚雷のクリティカル率が$1アップ。クリティカルによるダメージが50%アップ",
 		type = 1,
 		max_level = 10,
+		desc = "魚雷のクリティカル率が$1アップ。クリティカルによるダメージが50%アップ",
 		id = 10560,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -11472,11 +13039,14 @@ pg.skill_data_template = {
 	[10570] = {
 		desc_get = "",
 		name = "爆炎開放",
-		desc = "榴弾による砲撃ダメージが$3アップ。榴弾による炎上発生率が$1アップ。炎上ダメージが$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "榴弾による砲撃ダメージが$3アップ。榴弾による炎上発生率が$1アップ。炎上ダメージが$2アップ",
 		id = 10570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -11620,11 +13190,14 @@ pg.skill_data_template = {
 	[10580] = {
 		desc_get = "35秒（最短25秒）毎、特殊魚雷を3発発射する。与えたダメージの20.0％ 分で自身の耐久を回復する。",
 		name = "吸血鬼の口づけ",
-		desc = "$1秒毎、特殊魚雷を3発発射する。与えたダメージの20.0％ 分で自身の耐久を回復する",
 		type = 2,
 		max_level = 10,
+		desc = "$1秒毎、特殊魚雷を3発発射する。与えたダメージの20.0％ 分で自身の耐久を回復する",
 		id = 10580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -11673,11 +13246,14 @@ pg.skill_data_template = {
 	[10590] = {
 		desc_get = "",
 		name = "プロトタイプ・巡洋",
-		desc = "戦闘後、巡洋艦が貰える経験値が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘後、巡洋艦が貰える経験値が$1アップ",
 		id = 10590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -11731,11 +13307,14 @@ pg.skill_data_template = {
 	[10600] = {
 		desc_get = "",
 		name = "魔夜・三十三天",
-		desc = "自身の装填値が$1アップ。魚雷発射時、$2で2回発射する",
 		type = 1,
 		max_level = 10,
+		desc = "自身の装填値が$1アップ。魚雷発射時、$2で2回発射する",
 		id = 10600,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11834,11 +13413,14 @@ pg.skill_data_template = {
 	[10610] = {
 		desc_get = "",
 		name = "榴弾強化",
-		desc = "榴弾によるダメージが$1アップ。炎上の発生率が$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "榴弾によるダメージが$1アップ。炎上の発生率が$2アップ",
 		id = 10610,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -11937,11 +13519,14 @@ pg.skill_data_template = {
 	[10620] = {
 		desc_get = "",
 		name = "第六駆逐隊・雷",
-		desc = "暁、響、電と一緒に出撃する時、自身の火力、雷撃、装填値が$1アップ。効果は重複しない",
 		type = 1,
 		max_level = 10,
+		desc = "暁、響、電と一緒に出撃する時、自身の火力、雷撃、装填値が$1アップ。効果は重複しない",
 		id = 10620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -11995,11 +13580,14 @@ pg.skill_data_template = {
 	[10630] = {
 		desc_get = "",
 		name = "第六駆逐隊・電",
-		desc = "暁、響、雷と一緒に出撃する時、自身の火力、雷撃、装填値が$1アップ。効果は重複しない",
 		type = 1,
 		max_level = 10,
+		desc = "暁、響、雷と一緒に出撃する時、自身の火力、雷撃、装填値が$1アップ。効果は重複しない",
 		id = 10630,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -12053,11 +13641,14 @@ pg.skill_data_template = {
 	[10640] = {
 		desc_get = "",
 		name = "折れた鋼翼",
-		desc = "対空攻撃範囲内で敵艦載機が撃墜された場合、8秒間、自身の火力に自身の基本対空（基本ステータス＋装備）の$1分を加算する。効果適用中にさらに同じスキルが発動した場合、効果は加算されず持続時間のみ上書きされる。",
 		type = 1,
 		max_level = 10,
+		desc = "対空攻撃範囲内で敵艦載機が撃墜された場合、8秒間、自身の火力に自身の基本対空（基本ステータス＋装備）の$1分を加算する。効果適用中にさらに同じスキルが発動した場合、効果は加算されず持続時間のみ上書きされる。",
 		id = 10640,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -12111,11 +13702,14 @@ pg.skill_data_template = {
 	[10650] = {
 		desc_get = "",
 		name = "ポケット戦艦",
-		desc = "駆逐艦と軽巡洋艦に与えるダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "駆逐艦と軽巡洋艦に与えるダメージが$1アップ",
 		id = 10650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -12169,11 +13763,14 @@ pg.skill_data_template = {
 	[10660] = {
 		desc_get = "35秒（最短15秒）毎、ランダムで敵一体に特殊砲撃を発動する(威力、弾薬属性はスキルレベルによる)。この弾幕は必ずクリティカルする。",
 		name = "狙撃手",
-		desc = "$1秒毎、ランダムで敵一体に特殊$2砲撃を発動する(威力はスキルレベルによる)。この弾幕は必ずクリティカルする。",
 		type = 1,
 		max_level = 10,
+		desc = "$1秒毎、ランダムで敵一体に特殊$2砲撃を発動する(威力はスキルレベルによる)。この弾幕は必ずクリティカルする。",
 		id = 10660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -12254,11 +13851,14 @@ pg.skill_data_template = {
 	[10670] = {
 		desc_get = "",
 		name = "孤高なる北の女王",
-		desc = "主力艦隊の戦艦、巡戦がティルピッツだけの場合、自分の与えるダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "主力艦隊の戦艦、巡戦がティルピッツだけの場合、自分の与えるダメージが$1アップ",
 		id = 10670,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -12312,15 +13912,22 @@ pg.skill_data_template = {
 	[10680] = {
 		desc_get = "",
 		name = "鉄血の翼",
-		desc = "鉄血陣営の艦が受けるダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "鉄血陣営の艦が受けるダメージを$1軽減する。味方艦隊の鉄血艦船が1隻につき、自身の航空が$2アップ（最大3回加算可能）",
 		id = 10680,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
 				"15%"
+			},
+			{
+				"1.0%",
+				"5.0%"
 			}
 		},
 		desc_add = {
@@ -12364,17 +13971,61 @@ pg.skill_data_template = {
 				{
 					"15.0%"
 				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
 			}
 		}
 	},
 	[10690] = {
 		desc_get = "",
 		name = "鉄血の鷹",
-		desc = "クラップ製艦載機（ BF-#109T、ME-#155A、JU-#87Cなど）を装備している時、それぞれの威力補正が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身が鉄血艦載機を1枠以上装備している場合、自身の全ての艦載機枠の威力補正が$1アップ",
 		id = 10690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -12428,11 +14079,14 @@ pg.skill_data_template = {
 	[10700] = {
 		desc_get = "",
 		name = "通商破壊",
-		desc = "自身の火力値が$1アップ。――通商破壊作戦を多数遂行した経験から",
 		type = 1,
 		max_level = 10,
+		desc = "自身の火力値が$1アップ。――通商破壊作戦を多数遂行した経験から",
 		id = 10700,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -12486,15 +14140,30 @@ pg.skill_data_template = {
 	[10710] = {
 		desc_get = "",
 		name = "大物狩り",
-		desc = "重巡に与えるダメージが$1アップ。――グラーフ・シュペーを撃沈した戦歴か",
 		type = 1,
 		max_level = 10,
+		desc = "自身の回避・雷装が$2アップし、自身が中装甲の敵に与えるダメージが$1アップ。自身が重巡洋艦である場合、自身の主砲攻撃が同じ敵に4回命中した場合、その敵の速力を5秒間$3ダウンさせる（この効果は敵の速力ダウンしている間再度適用されない）",
 		id = 10710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
 				"25%"
+			},
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
 			}
 		},
 		desc_add = {
@@ -12538,17 +14207,143 @@ pg.skill_data_template = {
 				{
 					"25.0%"
 				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
 			}
 		}
 	},
 	[10720] = {
 		desc_get = "30秒毎発動。5秒（最大15秒）間、敵弾を10回まで無効できる回転シールドを2枚生成する。",
 		name = "守護の盾",
-		desc = "30秒毎発動。$1秒間、敵弾を10回まで無効できる回転シールドを2枚生成する",
 		type = 2,
 		max_level = 10,
+		desc = "30秒毎発動。$1秒間、敵弾を10回まで無効できる回転シールドを2枚生成する",
 		id = 10720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -12597,11 +14392,14 @@ pg.skill_data_template = {
 	[10730] = {
 		desc_get = "",
 		name = "鬼神",
-		desc = "発砲時5%で発動。12秒間自身の雷撃が$1アップ。",
 		type = 1,
 		max_level = 10,
+		desc = "発砲時5%で発動。12秒間自身の雷撃が$1アップ。",
 		id = 10730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -12655,11 +14453,14 @@ pg.skill_data_template = {
 	[10740] = {
 		desc_get = "",
 		name = "暦戦の躯",
-		desc = "発砲時4%で発動。8秒間自身の回避が$1アップ。",
 		type = 2,
 		max_level = 10,
+		desc = "発砲時4%で発動。8秒間自身の回避が$1アップ。",
 		id = 10740,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -12713,11 +14514,14 @@ pg.skill_data_template = {
 	[10750] = {
 		desc_get = "",
 		name = "The Nick",
-		desc = "発砲時5%で発動。8秒間自身の回避が$1アップ、空襲ダメージ$2軽減。",
 		type = 2,
 		max_level = 10,
+		desc = "発砲時5%で発動。8秒間自身の回避が$1アップ、空襲ダメージ$2軽減。",
 		id = 10750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"16.0%",
@@ -12816,11 +14620,14 @@ pg.skill_data_template = {
 	[10760] = {
 		desc_get = "",
 		name = "東煌の絆",
-		desc = "寧海・平海と同じ艦隊で出撃した時、味方の逸仙・寧海・平海が受けるダメージを$1軽減し、回避率を$2上昇させる",
 		type = 3,
 		max_level = 10,
+		desc = "寧海・平海と同じ艦隊で出撃した時、味方の逸仙・寧海・平海が受けるダメージを$1軽減し、回避率を$2上昇させる",
 		id = 10760,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -12919,11 +14726,14 @@ pg.skill_data_template = {
 	[10770] = {
 		desc_get = "",
 		name = "第六駆逐隊・暁",
-		desc = "響、雷、電と一緒に出撃する時、自身の火力、雷撃、装填値が$1アップ。効果は重複しない",
 		type = 1,
 		max_level = 10,
+		desc = "響、雷、電と一緒に出撃する時、自身の火力、雷撃、装填値が$1アップ。効果は重複しない",
 		id = 10770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -12977,11 +14787,14 @@ pg.skill_data_template = {
 	[10780] = {
 		desc_get = "20秒毎に発動。5秒（最大10秒）間ランダムの強化効果を自身に付与する",
 		name = "幸運艦？",
-		desc = "20秒毎に発動。$1秒間ランダムの強化効果を自身に付与する",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎に発動。$1秒間ランダムの強化効果を自身に付与する",
 		id = 10780,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5",
@@ -13035,11 +14848,14 @@ pg.skill_data_template = {
 	[10790] = {
 		desc_get = "",
 		name = "五航戦",
-		desc = "瑞鶴と一緒に出撃する時、自身の航空性能が$1アップ、受けるダメージが5%アップ",
 		type = 3,
 		max_level = 10,
+		desc = "瑞鶴と一緒に出撃する時、自身の航空性能が$1アップ、受けるダメージが5%アップ",
 		id = 10790,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"12.0%",
@@ -13093,11 +14909,14 @@ pg.skill_data_template = {
 	[10800] = {
 		desc_get = "",
 		name = "五航戦",
-		desc = "翔鶴と一緒に出撃する時、自身の航空性能が$1アップ、受けるダメージが$2ダウン",
 		type = 3,
 		max_level = 10,
+		desc = "翔鶴と一緒に出撃する時、自身の航空性能が$1アップ、受けるダメージが$2ダウン",
 		id = 10800,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -13196,11 +15015,14 @@ pg.skill_data_template = {
 	[10810] = {
 		desc_get = "",
 		name = "守護の鶴",
-		desc = "航空攻撃後、12秒間味方の与えるダメージが$1アップ、受けるダメージが$2ダウン",
 		type = 2,
 		max_level = 10,
+		desc = "自身の航空攻撃時に発動。12秒間味方が敵に与えるダメージが$1アップし、敵より受けるダメージが$2軽減する",
 		id = 10810,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -13299,11 +15121,14 @@ pg.skill_data_template = {
 	[10820] = {
 		desc_get = "",
 		name = "奮進の鶴",
-		desc = "航空攻撃後、次回の航空攻撃のダメージが$1アップ、最大3回まで累積可能",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、味方重桜艦船が3隻以上いる場合、自身の航空攻撃ダメージが$1アップ；自分の航空攻撃時、次回の自身の航空攻撃が敵に与えるダメージを$1アップさせる（このスキルの効果は最大3回まで加算可能）",
 		id = 10820,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -13357,11 +15182,14 @@ pg.skill_data_template = {
 	[10830] = {
 		desc_get = "航空攻撃後、航空弾幕をもう一回発動する（威力はスキルレベルによる）。1度のバトル中に1回しか発動できない",
 		name = "予備攻撃隊",
-		desc = "航空攻撃後、航空弾幕$1を発動する。1度の戦闘中に1回しか発動できない",
 		type = 1,
 		max_level = 10,
+		desc = "航空攻撃後、航空弾幕$1を発動する。1度の戦闘中に1回しか発動できない",
 		id = 10830,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -13401,11 +15229,14 @@ pg.skill_data_template = {
 	[10840] = {
 		desc_get = "",
 		name = "捨て身の突貫",
-		desc = "戦闘中、前衛艦隊で自身が最後の一隻になった時、与えるダメージが$1、受けるダメージが$2アップする。",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、前衛艦隊で自身が最後の一隻になった時、与えるダメージが$1、受けるダメージが$2アップする。",
 		id = 10840,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -13504,11 +15335,14 @@ pg.skill_data_template = {
 	[10850] = {
 		desc_get = "",
 		name = "不運の運命",
-		desc = "戦闘開始時、自身以外のJクラス駆逐艦が存在している場合のみ発動する。自身以外のJクラス駆逐艦が受けるダメージを$1軽減し、自身が受けるダメージが$2上昇する",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身以外のJクラス駆逐艦が存在している場合のみ発動する。自身以外のJクラス駆逐艦が受けるダメージを$1軽減し、自身が受けるダメージが$2上昇する",
 		id = 10850,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -13605,13 +15439,16 @@ pg.skill_data_template = {
 		}
 	},
 	[10860] = {
-		desc_get = "20秒毎に40%（スキルLv最大70%）で発動。強襲形態・EX状態になり、強力な弾幕を放ち（威力はスキルLvによる）、5秒間自身雷撃が30%アップする",
+		desc_get = "20秒毎に40%（スキルLv最大70%）で発動。強襲形態・EX状態になり、強力な弾幕を放ち（威力はスキルLvによる）、8秒間自身雷撃が30%アップする",
 		name = "強襲形態・EX",
-		desc = "20秒毎に$1で発動。強襲形態・EX状態になり、強力な弾幕を放ち、5秒間自身雷撃が30%アップする",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎に$1で発動。強襲形態・EX状態になり、強力な弾幕を放ち、8秒間自身雷撃が30%アップする",
 		id = 10860,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -13665,11 +15502,14 @@ pg.skill_data_template = {
 	[10870] = {
 		desc_get = "",
 		name = "華の二水戦",
-		desc = "自身が戦闘不能にならない限り、同じ艦隊の軽巡・駆逐の雷装と装填が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘不能にならない限り、同じ艦隊の軽巡・駆逐の雷装と装填が$1アップ",
 		id = 10870,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -13723,11 +15563,14 @@ pg.skill_data_template = {
 	[10880] = {
 		desc_get = "",
 		name = "ラッキールー",
-		desc = "20秒毎$1で発動。8秒間自身の火力、装填、回避が$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎$1で発動。8秒間自身の火力、装填、回避が$2アップ",
 		id = 10880,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -13826,11 +15669,14 @@ pg.skill_data_template = {
 	[10890] = {
 		desc_get = "自身の受けるダメージが20.0%軽減。戦闘不能にならない限り、同艦隊の駆逐艦・軽巡洋艦の魚雷攻撃クリティカル率が4.0%(最大10.0%、クリティカルダメージが最大30.0%)アップ",
 		name = "不屈の神通",
-		desc = "自身の受けるダメージが20.0%軽減。戦闘不能にならない限り、同艦隊の駆逐艦・軽巡洋艦の魚雷攻撃クリティカル率が$1$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の受けるダメージが20.0%軽減。戦闘不能にならない限り、同艦隊の駆逐艦・軽巡洋艦の魚雷攻撃クリティカル率が$1$2アップ",
 		id = 10890,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -13916,11 +15762,14 @@ pg.skill_data_template = {
 	[10900] = {
 		desc_get = "",
 		name = "救助活動",
-		desc = "味方艦が戦闘不能になった時$1で発動。自身耐久が$2回復し、同艦隊の他の艦の耐久が$3回復する",
 		type = 2,
 		max_level = 10,
+		desc = "味方艦が戦闘不能になった時$1で発動。自身耐久が$2回復し、同艦隊の他の艦の耐久が$3回復する",
 		id = 10900,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -14064,11 +15913,14 @@ pg.skill_data_template = {
 	[10910] = {
 		desc_get = "",
 		name = "新生連合艦隊旗艦",
-		desc = "自身の受けるダメージを$1で50%軽減する。旗艦として出撃する場合、同艦隊の重桜艦火力、装填が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の受けるダメージを$1で50%軽減する。旗艦として出撃する場合、同艦隊の重桜艦火力、装填が$2アップ",
 		id = 10910,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -14167,11 +16019,14 @@ pg.skill_data_template = {
 	[10920] = {
 		desc_get = "自身の主砲攻撃時30.0%（60.0%）で発動。8秒間味方艦隊の巡洋戦艦、戦艦の与えるダメージが5.0%（20.0%）アップ",
 		name = "丁字戦法",
-		desc = "自身の主砲攻撃時$1で発動。8秒間味方艦隊の巡洋戦艦、戦艦の与えるダメージが$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の主砲攻撃時$1で発動。8秒間味方艦隊の巡洋戦艦、戦艦の与えるダメージが$2アップ",
 		id = 10920,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -14270,11 +16125,14 @@ pg.skill_data_template = {
 	[10930] = {
 		desc_get = "",
 		name = "威光烈し御召艦",
-		desc = "戦闘開始10秒後・それ以降20秒毎に20%で発動する。8秒間、味方主力艦隊の受けるダメージの$1を身代わりし、ランダムの敵一体に与えるダメージを$2アップさせる",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始10秒後・それ以降20秒毎に20%で発動する。8秒間、味方主力艦隊の受けるダメージの$1を身代わりし、ランダムの敵一体に与えるダメージを$2アップさせる",
 		id = 10930,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -14373,11 +16231,14 @@ pg.skill_data_template = {
 	[10940] = {
 		desc_get = "20秒毎に40.0%(最大レベルで70％)で発動、キシンモードになり、強力な弾幕を放ち、5秒間自身回避が30％アップする",
 		name = "鬼神演舞",
-		desc = "20秒毎に$1で発動、キシンモードになり、強力な弾幕を放ち、5秒間自身回避が30％アップする",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎に$1で発動、キシンモードになり、強力な弾幕を放ち、5秒間自身回避が30％アップする",
 		id = 10940,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -14426,11 +16287,14 @@ pg.skill_data_template = {
 	[10950] = {
 		desc_get = "速力が3（最大8）アップし、火力が15.0％アップする",
 		name = "尚武の魂",
-		desc = "速力が$1アップし、火力が$2アップする",
 		type = 1,
 		max_level = 10,
+		desc = "速力が$1アップし、火力が$2アップする",
 		id = 10950,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -14520,11 +16384,14 @@ pg.skill_data_template = {
 	[10960] = {
 		desc_get = "出撃中、所属艦隊の特型駆逐艦の火力・回避が15.0%（30%）、雷装が4%（10%）アップする",
 		name = "特型ネームシップ！",
-		desc = "出撃中、所属艦隊の特型駆逐艦の火力・回避が$1、雷装が$2アップする",
 		type = 3,
 		max_level = 10,
+		desc = "出撃中、所属艦隊の特型駆逐艦の火力・回避が$1、雷装が$2アップする",
 		id = 10960,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -14623,11 +16490,14 @@ pg.skill_data_template = {
 	[10970] = {
 		desc_get = "",
 		name = "ファイティングメリー",
-		desc = "自身の耐久が$1を下回る場合、耐久が低ければ低いほど敵に与えるダメージが上昇。最大$2上昇可能",
 		type = 1,
 		max_level = 10,
+		desc = "自身の耐久が$1を下回る場合、耐久が低ければ低いほど敵に与えるダメージが上昇。最大$2上昇可能",
 		id = 10970,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -14726,11 +16596,14 @@ pg.skill_data_template = {
 	[10980] = {
 		desc_get = "",
 		name = "対空火力援護",
-		desc = "自身が戦闘可能の状態である限り、主力艦隊の受ける航空攻撃ダメージを$1軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能の状態である限り、主力艦隊の受ける航空攻撃ダメージを$1軽減する",
 		id = 10980,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -14784,11 +16657,14 @@ pg.skill_data_template = {
 	[10990] = {
 		desc_get = "",
 		name = "対空火力転用",
-		desc = "出撃時、自身の火力が基礎対空ステータス（基本ステータス＋装備ステータス）の$1分上昇する",
 		type = 1,
 		max_level = 10,
+		desc = "出撃時、自身の火力が基礎対空ステータス（基本ステータス＋装備ステータス）の$1分上昇する",
 		id = 10990,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -14842,12 +16718,15 @@ pg.skill_data_template = {
 	[11000] = {
 		desc_get = "20秒毎40%（最大70%）で発動。強力な弾幕を発射する（弾幕はスキルレベルによる）",
 		name = "勇敢なる砲撃",
-		desc = "20秒毎$1で発動。強力な弾幕を発射する",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎$1で発動。強力な弾幕を発射する",
 		id = 11000,
 		system_transform = {
 			[3.0] = 11001
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {
@@ -14897,11 +16776,14 @@ pg.skill_data_template = {
 	[11010] = {
 		desc_get = "",
 		name = "アイアンボトムナイト",
-		desc = "味方のサウスダコタの耐久が30%を下回った場合に発動する。自身が与えるダメージが$1アップし、サウスダコタの受けるダメージ（スキル「最強の盾」が身代わりするダメージを除く）の30%を身代わりし、サウスダコタが5秒間戦闘不能にならない。一度の戦闘に一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "味方のサウスダコタの耐久が30%を下回った場合に発動する。自身が与えるダメージが$1アップし、サウスダコタの受けるダメージ（スキル「最強の盾」が身代わりするダメージを除く）の30%を身代わりし、サウスダコタが5秒間戦闘不能にならない。一度の戦闘に一回しか発動できない",
 		id = 11010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -14955,11 +16837,14 @@ pg.skill_data_template = {
 	[11020] = {
 		desc_get = "",
 		name = "二度刺しのワスプ",
-		desc = "主力艦隊にロイヤル艦船がいる場合、自身の航空攻撃時$1で発動、シーファイアによる航空攻撃を追加で行う",
 		type = 1,
 		max_level = 10,
+		desc = "主力艦隊にロイヤル艦船がいる場合、自身の航空攻撃時$1で発動、シーファイアによる航空攻撃を追加で行う",
 		id = 11020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -15013,11 +16898,14 @@ pg.skill_data_template = {
 	[11030] = {
 		desc_get = "",
 		name = "奇跡の風",
-		desc = "前衛艦隊に戦闘可能な艦が谷風しか存在しない場合、回避が$1アップし、自身が受ける航空攻撃ダメージを$2軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "前衛艦隊に戦闘可能な艦が谷風しか存在しない場合、回避が$1アップし、自身が受ける航空攻撃ダメージを$2軽減する",
 		id = 11030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -15116,11 +17004,14 @@ pg.skill_data_template = {
 	[11040] = {
 		desc_get = "",
 		name = "鞍山型ネームシップ",
-		desc = "出撃時、鞍山級の命中・火力を$1、回避を$2上げる",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、鞍山級の命中・火力を$1、回避を$2上げる",
 		id = 11040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -15219,11 +17110,14 @@ pg.skill_data_template = {
 	[11050] = {
 		desc_get = "",
 		name = "レースキイ突撃",
-		desc = "自身の主砲のクリティカル率が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲のクリティカル率が$1アップ",
 		id = 11050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -15277,11 +17171,14 @@ pg.skill_data_template = {
 	[11060] = {
 		desc_get = "",
 		name = "相互援助同盟",
-		desc = "戦闘開始時、自身も含めて北方連合及び東煌所属の前衛艦隊のメンバーの火力・装填・命中が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身も含めて北方連合及び東煌所属の前衛艦隊のメンバーの火力・装填・命中が$1アップ",
 		id = 11060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -15335,11 +17232,14 @@ pg.skill_data_template = {
 	[11070] = {
 		desc_get = "",
 		name = "団結一致",
-		desc = "出撃時、自身の艦隊メンバーが6隻である場合、自身の火力・装填が$1、回避が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、自身の艦隊メンバーが6隻である場合、自身の火力・装填が$1、回避が$2アップ",
 		id = 11070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -15438,11 +17338,14 @@ pg.skill_data_template = {
 	[11080] = {
 		desc_get = "",
 		name = "シルバーファントム",
-		desc = "自身の駆逐艦・輸送艦・魚雷艇・自爆ボートへのダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の駆逐艦・輸送艦・魚雷艇・自爆ボートへのダメージが$1アップ",
 		id = 11080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -15496,11 +17399,14 @@ pg.skill_data_template = {
 	[11090] = {
 		desc_get = "",
 		name = "暁の光",
-		desc = "自身が戦闘可能である限り、敵の駆逐艦・軽巡洋艦の回避率が$1ダウン",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、敵の駆逐艦・軽巡洋艦の回避率が$1ダウン",
 		id = 11090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -15554,11 +17460,14 @@ pg.skill_data_template = {
 	[11100] = {
 		desc_get = "40秒（最短20秒）毎に発動する。支援砲撃を1回行い、命中した敵を6秒間40%減速させる",
 		name = "血煙の協奏曲",
-		desc = "$1秒毎に発動する。支援砲撃を1回行い、命中した敵を6秒間40%減速させる",
 		type = 1,
 		max_level = 10,
+		desc = "$1秒毎に発動する。支援砲撃を1回行い、命中した敵を6秒間40%減速させる",
 		id = 11100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -15607,11 +17516,14 @@ pg.skill_data_template = {
 	[11110] = {
 		desc_get = "",
 		name = "滅亡の悲嘆調",
-		desc = "戦闘中、自身の1回目の主砲攻撃によるダメージが$1アップ。自身の主砲攻撃が命中した敵は8秒間、受けるダメージが$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、自身の1回目の主砲攻撃によるダメージが$1アップ。自身の主砲攻撃が命中した敵は8秒間、受けるダメージが$2アップ",
 		id = 11110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -15710,15 +17622,22 @@ pg.skill_data_template = {
 	[11120] = {
 		desc_get = "",
 		name = "勝利の歌",
-		desc = "自身の戦艦へのダメージが$1アップし、受ける投射ダメージを$1軽減する",
 		type = 1,
 		max_level = 10,
+		desc = "自身の戦艦へのダメージが$1アップし、受ける投射ダメージを$1軽減する；所属艦隊空母・軽空母の戦艦へのダメージが$2アップする",
 		id = 11120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"10%",
-				"20%"
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
 			}
 		},
 		desc_add = {
@@ -15762,17 +17681,61 @@ pg.skill_data_template = {
 				{
 					"20.0%"
 				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
 			}
 		}
 	},
 	[11130] = {
 		desc_get = "",
 		name = "第一駆逐艦",
-		desc = "魚雷攻撃を受けた時$1で発動する。受けた魚雷ダメージを$2軽減し、自身の雷装が4秒間$2アップする",
 		type = 1,
 		max_level = 10,
+		desc = "魚雷攻撃を受けた時$1で発動する。受けた魚雷ダメージを$2軽減し、自身の雷装が4秒間$2アップする",
 		id = 11130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -15871,11 +17834,14 @@ pg.skill_data_template = {
 	[11140] = {
 		desc_get = "",
 		name = "シャイニーシェフ",
-		desc = "戦闘開始時に自分より耐久が低い味方艦は戦闘中、攻撃を受けた時に$1で発動。受けるダメージを$2軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時に自分より耐久が低い味方艦は戦闘中、攻撃を受けた時に$1で発動。受けるダメージを$2軽減する",
 		id = 11140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -15974,11 +17940,14 @@ pg.skill_data_template = {
 	[11150] = {
 		desc_get = "",
 		name = "バレンツ海の逆襲",
-		desc = "自身の主砲のクリティカル率が$1アップし、クリティカルダメージが30%アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲のクリティカル率が$1アップし、クリティカルダメージが30%アップ",
 		id = 11150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -16032,11 +18001,14 @@ pg.skill_data_template = {
 	[11160] = {
 		desc_get = "",
 		name = "クレタの黒雲",
-		desc = "20秒毎に発動する。6秒間、自身の対空が$2アップし、味方が受けるダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎に発動する。6秒間、自身の対空が$2アップし、味方が受けるダメージを$1軽減する",
 		id = 11160,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -16135,11 +18107,14 @@ pg.skill_data_template = {
 	[11170] = {
 		desc_get = "",
 		name = "正義の仲間たち",
-		desc = "シェフィールドと同じ艦隊で出撃した場合、自身の火力・雷装が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "シェフィールドと同じ艦隊で出撃した場合、自身の火力・雷装が$1アップ",
 		id = 11170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -16193,11 +18168,14 @@ pg.skill_data_template = {
 	[11180] = {
 		desc_get = "",
 		name = "偏差修正射撃",
-		desc = "20秒毎に、自分の与える魚雷ダメージを$1アップさせる（最大8回）",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎に、自分の与える魚雷ダメージを$1アップさせる（最大8回）",
 		id = 11180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -16251,11 +18229,14 @@ pg.skill_data_template = {
 	[11190] = {
 		desc_get = "",
 		name = "相伴の風",
-		desc = "浜風と同じ艦隊で編成された場合、自身の火力・雷装・装填・対空が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "浜風と同じ艦隊で編成された場合、自身の火力・雷装・装填・対空が$1アップ",
 		id = 11190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -16309,11 +18290,14 @@ pg.skill_data_template = {
 	[11200] = {
 		desc_get = "",
 		name = "ソロモンの伝説",
-		desc = "20秒毎に$1で発動、8秒間、同艦隊の巡洋艦の命中・火力を$2アップ、攻撃された時、受けるダメージを$3軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎に$1で発動、8秒間、同艦隊の巡洋艦の命中・火力を$2アップ、攻撃された時、受けるダメージを$3軽減する",
 		id = 11200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -16457,11 +18441,14 @@ pg.skill_data_template = {
 	[11210] = {
 		desc_get = "",
 		name = "殲滅形態",
-		desc = "20秒毎に$1で発動、殲滅形態になり、強力な弾幕を放ち、10秒間自身の装填が200%アップする",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎に$1で発動、殲滅形態になり、強力な弾幕を放ち、10秒間自身の装填が200%アップする",
 		id = 11210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -16515,11 +18502,14 @@ pg.skill_data_template = {
 	[11220] = {
 		desc_get = "",
 		name = "制圧射撃",
-		desc = "自身の魚雷が5回命中するたびに、自身の火力を$1上げる。最大3回まで加算可能",
 		type = 1,
 		max_level = 10,
+		desc = "自身の魚雷が5回命中するたびに、自身の火力を$1上げる。最大3回まで加算可能",
 		id = 11220,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -16573,11 +18563,14 @@ pg.skill_data_template = {
 	[11230] = {
 		desc_get = "",
 		name = "呉の雪風",
-		desc = "自身が戦闘可能である限り、主力艦隊の受けるダメージを$1軽減する。1回の戦闘につき1度だけ、主力艦隊の艦がダメージで耐久が20％以下になった時、その艦の耐久を$2回復させる。",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、主力艦隊の受けるダメージを$1軽減する。1回の戦闘につき1度だけ、主力艦隊の艦がダメージで耐久が20％以下になった時、その艦の耐久を$2回復させる。",
 		id = 11230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -16676,11 +18669,14 @@ pg.skill_data_template = {
 	[11240] = {
 		desc_get = "",
 		name = "沈まぬ幸運艦",
-		desc = "自身がダメージを受ける時$1で発動する。そのダメージを1にする。幸運を誇る武勲艦――「雪風は…決して沈まない！！」",
 		type = 2,
 		max_level = 10,
+		desc = "自身がダメージを受ける時$1で発動する。そのダメージを1にする。幸運を誇る武勲艦――「雪風は…決して沈まない！！」",
 		id = 11240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -16734,11 +18730,14 @@ pg.skill_data_template = {
 	[11250] = {
 		desc_get = "",
 		name = "ガ島強襲",
-		desc = "自身の砲撃が$3アップ。20秒毎に$1で発動し、味方の巡洋艦の火力・雷装を10秒間、$2アップさせる",
 		type = 3,
 		max_level = 10,
+		desc = "自身の砲撃が$3アップ。20秒毎に$1で発動し、味方の巡洋艦の火力・雷装を10秒間、$2アップさせる",
 		id = 11250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -16882,11 +18881,14 @@ pg.skill_data_template = {
 	[11260] = {
 		desc_get = "戦闘中、自身の二回目までの航空攻撃に特殊航空攻撃を追加する（威力はスキルレベルによる）",
 		name = "鷹の急襲",
-		desc = "戦闘中、自身の二回目までの航空攻撃に特殊航空攻撃（$1）を追加する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の二回目までの航空攻撃に特殊航空攻撃（$1）を追加する",
 		id = 11260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -16926,12 +18928,15 @@ pg.skill_data_template = {
 	[11270] = {
 		desc_get = "",
 		name = "烈光輝く主力艦",
-		desc = "自身の戦艦へのダメージが$1アップ。自身の主砲攻撃時$2で発動、特殊弾幕（三式弾）を発動する。",
 		type = 1,
 		max_level = 10,
+		desc = "自身の戦艦へのダメージが$1アップ。自身の主砲攻撃時$2で発動、特殊弾幕（三式弾）を発動する。",
 		id = 11270,
 		system_transform = {
 			[3.0] = 11271
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -17031,11 +19036,14 @@ pg.skill_data_template = {
 	[11280] = {
 		desc_get = "自身の速力が3（最大8）、回避が13%（最大25%）アップ。――体が小さいと動きやすいし、被弾面積も安心ですね！",
 		name = "カンペキなめいどちょー",
-		desc = "自身の速力が$1、回避が$2アップ。――体が小さいと動きやすいし、被弾面積も安心ですね！",
 		type = 2,
 		max_level = 10,
+		desc = "自身の速力が$1、回避が$2アップ。――体が小さいと動きやすいし、被弾面積も安心ですね！",
 		id = 11280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -17125,11 +19133,14 @@ pg.skill_data_template = {
 	[11290] = {
 		desc_get = "",
 		name = "レディたちのお茶会",
-		desc = "戦闘開始時、自身の耐久上限の$1分だけ、味方艦隊の耐久を回復する。――戦闘前にお茶会は欠かせません！",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、自身の耐久上限の$1分だけ、味方艦隊の耐久を回復する。――戦闘前にお茶会は欠かせません！",
 		id = 11290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -17183,11 +19194,14 @@ pg.skill_data_template = {
 	[11300] = {
 		desc_get = "",
 		name = "重砲斉射",
-		desc = "戦闘開始15秒後に$1、その後20秒毎に$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始15秒後に$1、その後20秒毎に$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		id = 11300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -17241,11 +19255,14 @@ pg.skill_data_template = {
 	[11310] = {
 		desc_get = "",
 		name = "四代目連合艦隊旗艦",
-		desc = "旗艦として出撃時、同艦隊重桜所属の艦の火力が$2、装填・命中が$1アップ。重桜所属空母が敵に与えるダメージが$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "旗艦として出撃時、同艦隊重桜所属の艦の火力が$2、装填・命中が$1アップ。重桜所属空母が敵に与えるダメージが$1アップ",
 		id = 11310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -17344,11 +19361,14 @@ pg.skill_data_template = {
 	[11320] = {
 		desc_get = "",
 		name = "重装形態",
-		desc = "20秒毎$1で発動。強力な弾幕を展開すると同時に、敵弾を5回無効化できるシールド（10秒間持続）を2枚生成し、10秒間、自身の主砲攻撃を100%クリティカルさせる",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎$1で発動。強力な弾幕を展開すると同時に、敵弾を5回無効化できるシールド（10秒間持続）を2枚生成し、10秒間、自身の主砲攻撃を100%クリティカルさせる",
 		id = 11320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -17402,11 +19422,14 @@ pg.skill_data_template = {
 	[11330] = {
 		desc_get = "",
 		name = "栄光轟く一番艦",
-		desc = "自身が戦闘不能にならない限り、同艦隊の金剛型の火力、命中が$1アップ、回避が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘不能にならない限り、同艦隊の金剛型の火力、命中が$1アップ、回避が$2アップ",
 		id = 11330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -17505,11 +19528,14 @@ pg.skill_data_template = {
 	[11340] = {
 		desc_get = "",
 		name = "暁光煌く武勲艦",
-		desc = "主砲攻撃を行う度、自身の火力、対空が$1アップ。（最大4回まで加算可能）",
 		type = 1,
 		max_level = 10,
+		desc = "主砲攻撃を行う度、自身の火力、対空が$1アップ。（最大4回まで加算可能）",
 		id = 11340,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -17563,11 +19589,14 @@ pg.skill_data_template = {
 	[11350] = {
 		desc_get = "",
 		name = "第八駆逐隊",
-		desc = "出撃時、同艦隊の朝潮・大潮・満潮・荒潮の火力、装填が$1、雷装が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、同艦隊の朝潮・大潮・満潮・荒潮の火力、装填が$1、雷装が$2アップ",
 		id = 11350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -17666,11 +19695,14 @@ pg.skill_data_template = {
 	[11360] = {
 		desc_get = "",
 		name = "ルンガ沖強襲",
-		desc = "出撃時、同艦隊重桜所属の駆逐艦による巡洋艦へのダメージが$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、同艦隊重桜所属の駆逐艦による巡洋艦へのダメージが$1アップ",
 		id = 11360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -17724,12 +19756,15 @@ pg.skill_data_template = {
 	[11370] = {
 		desc_get = "潜水艦支援発動8秒後、敵を一回貫通する魚雷弾幕（威力と弾幕はスキルレベルによる）を発動する。貫通した敵にもダメージを与える",
 		name = "貫通攻撃",
-		desc = "潜水艦が戦場に到達して8秒後、敵を一回貫通する魚雷弾幕$1（威力と弾幕はスキルレベルによる）を発動する。貫通した敵にもダメージを与える",
 		type = 1,
 		max_level = 10,
+		desc = "潜水艦が戦場に到達して8秒後、敵を一回貫通する魚雷弾幕$1（威力と弾幕はスキルレベルによる）を発動する。貫通した敵にもダメージを与える",
 		id = 11370,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {
@@ -17779,12 +19814,15 @@ pg.skill_data_template = {
 	[11380] = {
 		desc_get = "",
 		name = "底力の一撃",
-		desc = "自身の重巡洋艦へのダメージが$1アップ。支援攻撃終了（戦場から離脱）時、魚雷攻撃を一回行う（威力と弾幕はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の重巡洋艦へのダメージが$1アップ。支援攻撃終了（戦場から離脱）時、魚雷攻撃を一回行う（威力と弾幕はスキルレベルによる）",
 		id = 11380,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -17839,12 +19877,15 @@ pg.skill_data_template = {
 	[11390] = {
 		desc_get = "",
 		name = "海中の狩人",
-		desc = "自身の空母へのダメージが$2アップ；自身の魚雷が敵に命中した時、$1で敵を24秒間浸水状態にし、3秒毎にダメージを与える（ダメージは自身の雷装による）。効果適用中に再度発動した場合、浸水状態の持続時間をリセットする",
 		type = 1,
 		max_level = 10,
+		desc = "自身の空母へのダメージが$2アップ；自身の魚雷が敵に命中した時、$1で敵を24秒間浸水状態にし、3秒毎にダメージを与える（ダメージは自身の雷装による）。効果適用中に再度発動した場合、浸水状態の持続時間をリセットする",
 		id = 11390,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -17944,11 +19985,14 @@ pg.skill_data_template = {
 	[11400] = {
 		desc_get = "",
 		name = "魔女っ子のイタズラ",
-		desc = "自身の航空攻撃発動時、$1で追加の航空攻撃を行う。追加の航空攻撃が命中した敵を炎上・浸水させる（炎上と浸水のダメージは自身の航空による）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃発動時、$1で追加の航空攻撃を行う。追加の航空攻撃が命中した敵を炎上・浸水させる（炎上と浸水のダメージは自身の航空による）",
 		id = 11400,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -18002,12 +20046,15 @@ pg.skill_data_template = {
 	[11410] = {
 		desc_get = "",
 		name = "ウルフパック-U-81",
-		desc = "自身の回避が$2アップ。出撃時、同じ艦隊に鉄血艦が一隻につき、自身の雷装・装填・命中が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の回避が$2アップ。出撃時、同じ艦隊に鉄血艦が一隻につき、自身の雷装・装填・命中が$1アップ",
 		id = 11410,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -18107,11 +20154,14 @@ pg.skill_data_template = {
 	[11420] = {
 		desc_get = "",
 		name = "BIG SEVEN-桜",
-		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		id = 11420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -18165,11 +20215,14 @@ pg.skill_data_template = {
 	[11430] = {
 		desc_get = "",
 		name = "BIG SEVEN-桜",
-		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		id = 11430,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -18223,12 +20276,15 @@ pg.skill_data_template = {
 	[11440] = {
 		desc_get = "",
 		name = "スカパ・フロー急襲",
-		desc = "自身の魚雷が命中した敵は5秒間、再度自身の魚雷によるダメージを受けた場合、受けるダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の魚雷が命中した敵は5秒間、再度自身の魚雷によるダメージを受けた場合、受けるダメージが$1アップ",
 		id = 11440,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -18283,11 +20339,14 @@ pg.skill_data_template = {
 	[11450] = {
 		desc_get = "",
 		name = "オーバーファイア",
-		desc = "20秒毎に$1で発動。10秒間、自身の火力が$2、装填が$3アップ；その後、3秒間、自身の装填が100%ダウン",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎に$1で発動。10秒間、自身の火力が$2、装填が$3アップ；その後、3秒間、自身の装填が100%ダウン",
 		id = 11450,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -18431,12 +20490,15 @@ pg.skill_data_template = {
 	[11460] = {
 		desc_get = "",
 		name = "孤影の狼",
-		desc = "潜水艦隊が自身一隻のみの場合、戦艦（巡洋戦艦・航空戦艦除く）へのダメージが$1アップし、支援範囲＋1、弾薬量＋2",
 		type = 3,
 		max_level = 10,
+		desc = "潜水艦隊が自身一隻のみの場合、戦艦（巡洋戦艦・航空戦艦除く）へのダメージが$1アップし、支援範囲＋1、弾薬量＋2",
 		id = 11460,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -18491,12 +20553,15 @@ pg.skill_data_template = {
 	[11461] = {
 		desc_get = "",
 		name = "孤影の狼",
-		desc = "潜水艦隊が自身一隻のみの場合、戦艦（巡洋戦艦・航空戦艦除く）へのダメージが$1アップし、支援範囲＋1、弾薬量＋2",
 		type = 3,
 		max_level = 10,
+		desc = "潜水艦隊が自身一隻のみの場合、戦艦（巡洋戦艦・航空戦艦除く）へのダメージが$1アップし、支援範囲＋1、弾薬量＋2",
 		id = 11461,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -18551,11 +20616,14 @@ pg.skill_data_template = {
 	[11470] = {
 		desc_get = "",
 		name = "Nasty Asty",
-		desc = "同じ艦隊に自分以外のニューオリンズ級の艦がいる状態で出撃時、ニューオリンズ級の艦の火力が$1、対空・命中が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "同じ艦隊に自分以外のニューオリンズ級の艦がいる状態で出撃時、ニューオリンズ級の艦の火力が$1、対空・命中が$2アップ",
 		id = 11470,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -18654,11 +20722,14 @@ pg.skill_data_template = {
 	[11480] = {
 		desc_get = "",
 		name = "クラ湾夜戦",
-		desc = "20秒毎$1で発動する。10秒間火力・雷装・装填が$2アップ。また、一回の戦闘で一度のみ、他の前衛艦隊の艦が敵の攻撃により耐久が20％を切った場合、戦闘終了時までその艦の受けるダメージを$3軽減する（その艦がヘレナである場合、さらに耐久を8%回復させる）",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎$1で発動する。10秒間火力・雷装・装填が$2アップ。また、一回の戦闘で一度のみ、他の前衛艦隊の艦が敵の攻撃により耐久が20％を切った場合、戦闘終了時までその艦の受けるダメージを$3軽減する（その艦がヘレナである場合、さらに耐久を8%回復させる）",
 		id = 11480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40%",
@@ -18802,11 +20873,14 @@ pg.skill_data_template = {
 	[11490] = {
 		desc_get = "",
 		name = "正面火力投射",
-		desc = "自身の主砲攻撃時、$1で特殊弾幕を発動する（威力や弾幕はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時、$1で特殊弾幕を発動する（威力や弾幕はスキルレベルによる）",
 		id = 11490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -18860,11 +20934,14 @@ pg.skill_data_template = {
 	[11500] = {
 		desc_get = "",
 		name = "輝くアイリス",
-		desc = "自身の主砲攻撃が前回の主砲攻撃と同じ目標に連続命中した場合（一度の砲撃で複数体命中した場合、命中した目標全てが判定対象になる）、自身の装填が$1アップ（1秒毎に1回まで・最大4回まで加算可能）。異なる敵に命中した場合、装填上昇効果がリセットされる。",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃が前回の主砲攻撃と同じ目標に連続命中した場合（一度の砲撃で複数体命中した場合、命中した目標全てが判定対象になる）、自身の装填が$1アップ（1秒毎に1回まで・最大4回まで加算可能）。異なる敵に命中した場合、装填上昇効果がリセットされる。",
 		id = 11500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -18918,11 +20995,14 @@ pg.skill_data_template = {
 	[11510] = {
 		desc_get = "",
 		name = "攻守変更",
-		desc = "戦闘開始時、自身が前衛艦隊の先頭にいる場合、主砲の威力補正が$1上昇し、対空兵装の威力補正が30%低下する",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身が前衛艦隊の先頭にいる場合、主砲の威力補正が$1上昇し、対空兵装の威力補正が30%低下する",
 		id = 11510,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -18976,11 +21056,14 @@ pg.skill_data_template = {
 	[11520] = {
 		desc_get = "",
 		name = "アイリスの心",
-		desc = "戦闘開始時、味方艦隊のアイリス・ヴィシア陣営駆逐艦の火力・雷装・命中が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊のアイリス・ヴィシア陣営駆逐艦の火力・雷装・命中が$1アップ",
 		id = 11520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -19034,11 +21117,14 @@ pg.skill_data_template = {
 	[11530] = {
 		desc_get = "",
 		name = "パイレーツソウル",
-		desc = "自身の主砲攻撃時、毎回一巡目の主砲ダメージが$1アップ。手動照準による威力強化効果が$1になる。",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時、毎回一巡目の主砲ダメージが$1アップ。手動照準による威力強化効果が$1になる。",
 		id = 11530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -19092,11 +21178,14 @@ pg.skill_data_template = {
 	[11540] = {
 		desc_get = "",
 		name = "ラストファイア",
-		desc = "自身が【380mm四連装主砲Mle1935】を装備している場合、自身の主砲攻撃クリティカル率が$2、クリティカルダメージが$1アップする",
 		type = 1,
 		max_level = 10,
+		desc = "自身が【380mm四連装主砲Mle1935】を装備している場合、自身の主砲攻撃クリティカル率が$2、クリティカルダメージが$1アップする",
 		id = 11540,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -19195,43 +21284,22 @@ pg.skill_data_template = {
 	[11550] = {
 		desc_get = "",
 		name = "Big Mamie",
-		desc = "戦闘開始時、味方艦隊の自身以外のユニオン重巡・戦艦が1隻につき、自身の火力・対空・回避が$1アップ（最大3隻分まで加算可能）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊のユニオン重巡・戦艦が1隻につき、自身の火力・対空・回避が$1アップ（最大3隻分まで加算可能）",
 		id = 11550,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"1.0%",
-				"5.0%"
+				"3.5%",
+				"8.0%"
 			}
 		},
 		desc_add = {
 			{
-				{
-					"1.0%",
-					"+0.4%"
-				},
-				{
-					"1.4%",
-					"+0.4%"
-				},
-				{
-					"1.8%",
-					"+0.4%"
-				},
-				{
-					"2.2%",
-					"+0.4%"
-				},
-				{
-					"2.6%",
-					"+0.4%"
-				},
-				{
-					"3.0%",
-					"+0.5%"
-				},
 				{
 					"3.5%",
 					"+0.5%"
@@ -19245,7 +21313,31 @@ pg.skill_data_template = {
 					"+0.5%"
 				},
 				{
-					"5.0%"
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
 				}
 			}
 		}
@@ -19253,18 +21345,66 @@ pg.skill_data_template = {
 	[11560] = {
 		desc_get = "",
 		name = "2700ポンドの正義",
-		desc = "主砲攻撃の属性が「徹甲超重弾」になる。目標に命中した時、命中した砲弾の飛行距離によって威力が上昇。最大$1上昇可能。",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃が敵に命中した時、命中した砲弾の飛距離によって威力が上昇（最大$1上昇可能・副砲枠にユニオン兵装が装備されている場合、最大$2上昇可能、さらに主砲攻撃の属性が「徹甲超重弾」になる）",
 		id = 11560,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
 			{
 				"15.0%",
 				"30.0%"
 			}
 		},
 		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
 			{
 				{
 					"15.0%",
@@ -19311,11 +21451,14 @@ pg.skill_data_template = {
 	[11570] = {
 		desc_get = "",
 		name = "偵察支援",
-		desc = "戦闘開始時、20秒間味方前衛艦隊の命中が$1アップ。",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、20秒間味方前衛艦隊の命中が$1アップ。",
 		id = 11570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -19369,11 +21512,14 @@ pg.skill_data_template = {
 	[11580] = {
 		desc_get = "航空攻撃時、ソードフィッシュで航空攻撃（威力+）を行い、命中した敵の移動速度を6秒間40%ダウンさせる。自身の戦艦（巡洋戦艦・航空戦艦を除く）へのダメージが4%（最大10%）アップ",
 		name = "ソードフィッシュ発進！改",
-		desc = "航空攻撃時、ソードフィッシュで航空攻撃（威力はスキルレベルに拠る）を行い、命中した敵の移動速度を6秒間40%ダウンさせる。自身の戦艦（巡洋戦艦・航空戦艦を除く）へのダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "航空攻撃時、ソードフィッシュで航空攻撃（威力はスキルレベルに拠る）を行い、命中した敵の移動速度を6秒間40%ダウンさせる。自身の戦艦（巡洋戦艦・航空戦艦を除く）へのダメージが$1アップ",
 		id = 11580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4%",
@@ -19463,11 +21609,14 @@ pg.skill_data_template = {
 	[11590] = {
 		desc_get = "",
 		name = "制空権確保",
-		desc = "自身が航空攻撃を行う度に、8秒間、主力艦隊の航空が$1、火力が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が航空攻撃を行う度に、8秒間、主力艦隊の航空が$1、火力が$2アップ",
 		id = 11590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -19566,11 +21715,14 @@ pg.skill_data_template = {
 	[11600] = {
 		desc_get = "",
 		name = "格闘砲術",
-		desc = "開始10秒後以降発動可能。敵が一定範囲内に入った時、特殊弾幕$1を発動する。10秒内に一回しか発動できない",
 		type = 1,
 		max_level = 10,
+		desc = "開始10秒後以降発動可能。敵が一定範囲内に入った時、特殊弾幕$1を発動する。10秒内に一回しか発動できない",
 		id = 11600,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -19619,11 +21771,14 @@ pg.skill_data_template = {
 	[11610] = {
 		desc_get = "戦闘開始時に発動。自身の航空攻撃は2回目まで装填時間が5%（最大25%）ダウンし、彗星（威力+）が追加される。（自身の艦隊で空母・軽空母が戦闘に参加した場合、2回目以降でも効果が適用される）",
 		name = "航空戦隊",
-		desc = "戦闘開始時に発動。自身の航空攻撃は2回目まで装填時間が$1ダウンし、彗星$2が追加される。（自身の艦隊で空母・軽空母が戦闘に参加した場合、2回目以降でも効果が適用される）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時に発動。自身の航空攻撃は2回目まで装填時間が$1ダウンし、彗星$2が追加される。（自身の艦隊で空母・軽空母が戦闘に参加した場合、2回目以降でも効果が適用される）",
 		id = 11610,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -19713,57 +21868,60 @@ pg.skill_data_template = {
 	[11620] = {
 		desc_get = "",
 		name = "航空連携",
-		desc = "自身の航空攻撃の装填が完了した時、流星・彗星・彩雲の攻撃隊による航空攻撃をそれぞれ$1の確率で行う（彩雲は敵を攻撃せず、発進時から8秒間、味方主力艦隊の与えるダメージを10%アップさせる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃の装填が完了した時、流星・彗星・彩雲のいずれか1種類の攻撃隊による航空攻撃を行い、更に残りの2種類がそれぞれ$1の確率で航空攻撃を行う（彩雲は敵を攻撃せず、発進時から8秒間、味方主力艦隊の与えるダメージを10%アップさせる）",
 		id = 11620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"20.0%",
-				"40.0%"
+				"10.0%",
+				"25.0%"
 			}
 		},
 		desc_add = {
 			{
 				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
 					"20.0%",
-					"+2.2%"
+					"+1.6%"
 				},
 				{
-					"22.2%",
-					"+2.2%"
+					"21.6%",
+					"+1.6%"
 				},
 				{
-					"24.4%",
-					"+2.2%"
+					"23.2%",
+					"+1.8%"
 				},
 				{
-					"26.6%",
-					"+2.2%"
-				},
-				{
-					"28.8%",
-					"+2.2%"
-				},
-				{
-					"31.0%",
-					"+2.2%"
-				},
-				{
-					"33.2%",
-					"+2.2%"
-				},
-				{
-					"35.4%",
-					"+2.2%"
-				},
-				{
-					"37.6%",
-					"+2.4%"
-				},
-				{
-					"40.0%"
+					"25.0%"
 				}
 			}
 		}
@@ -19771,11 +21929,14 @@ pg.skill_data_template = {
 	[11630] = {
 		desc_get = "",
 		name = "重防御装甲",
-		desc = "自身が受ける榴弾と航空攻撃のダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "自身が受ける榴弾と航空攻撃のダメージを$1軽減する",
 		id = 11630,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -19829,11 +21990,14 @@ pg.skill_data_template = {
 	[11640] = {
 		desc_get = "",
 		name = "善戦のファーストライン",
-		desc = "自身の航空攻撃時、TBFアベンジャーで航空攻撃$2を行い、アベンジャーの魚雷が命中した敵を浸水状態にしスリップダメージを与える（ダメージは航空ステータスとスキルレベルによる）。さらに、自身の戦艦（巡戦、航戦を除く）へのダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃時、TBFアベンジャーで航空攻撃$2を行い、アベンジャーの魚雷が命中した敵を浸水状態にしスリップダメージを与える（ダメージは航空ステータスとスキルレベルによる）。さらに、自身の戦艦（巡戦、航戦を除く）へのダメージが$1アップ",
 		id = 11640,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4%",
@@ -19923,11 +22087,14 @@ pg.skill_data_template = {
 	[11650] = {
 		desc_get = "",
 		name = "直掩配置",
-		desc = "出撃時、味方艦隊にユニオン空母・軽空母が一隻につき、自身の航空・対空が$1アップ。自身の艦載機が敵艦載機を撃墜した時、自身の航空が$2アップ（最大5回まで上乗せ可能）",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、味方艦隊にユニオン空母・軽空母が一隻につき、自身の航空・対空が$1アップ。自身の艦載機が敵艦載機を撃墜した時、自身の航空が$2アップ（最大5回まで上乗せ可能）",
 		id = 11650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -20026,11 +22193,14 @@ pg.skill_data_template = {
 	[11660] = {
 		desc_get = "",
 		name = "絶対回避",
-		desc = "出撃時、味方艦隊のユニオン所属の艦が4隻以上ある場合、この戦闘中、味方が敵攻撃機と爆撃機から受けるダメージを$1で1にする",
 		type = 2,
 		max_level = 10,
+		desc = "出撃時、味方艦隊のユニオン所属の艦が4隻以上ある場合、この戦闘中、味方が敵攻撃機と爆撃機から受けるダメージを$1で1にする",
 		id = 11660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -20084,12 +22254,15 @@ pg.skill_data_template = {
 	[11670] = {
 		desc_get = "自身が浮上した/戦場から離脱した際に、特殊魚雷攻撃を行う（威力はスキルレベルによる）、魚雷が命中した敵を70%で炎上状態にする（炎上ダメージは雷撃ステータスによる）",
 		name = "サプラ～イズ！",
-		desc = "自身が浮上した/戦場から離脱した際に、特殊魚雷攻撃$1を行う（威力はスキルレベルによる）、魚雷が命中した敵を70%で炎上状態にする（炎上ダメージは雷撃ステータスによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が浮上した/戦場から離脱した際に、特殊魚雷攻撃$1を行う（威力はスキルレベルによる）、魚雷が命中した敵を70%で炎上状態にする（炎上ダメージは雷撃ステータスによる）",
 		id = 11670,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {
@@ -20130,12 +22303,15 @@ pg.skill_data_template = {
 	[11680] = {
 		desc_get = "",
 		name = "熟練ハンター",
-		desc = "自身の駆逐艦・軽巡洋艦・航空母艦に与えるダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の駆逐艦・軽巡洋艦・航空母艦に与えるダメージが$1アップ",
 		id = 11680,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -20190,11 +22366,14 @@ pg.skill_data_template = {
 	[11690] = {
 		desc_get = "",
 		name = "水都の猛き戦士",
-		desc = "自身が敵艦を撃破した場合、12秒間、自身の火力が$1・装填が$2アップ（1秒間に一度しか発動できず、効果は同時に一回分しか適用されない）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が敵艦を撃破した場合、12秒間、自身の火力が$1・装填が$2アップ（1秒間に一度しか発動できず、効果は同時に一回分しか適用されない）",
 		id = 11690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -20293,11 +22472,14 @@ pg.skill_data_template = {
 	[11700] = {
 		desc_get = "",
 		name = "大胆不敵",
-		desc = "前衛艦隊の先頭として出撃時、自身の対空が40%、命中が$1ダウンし、速力が3、回避が$2、火力が$3アップ",
 		type = 3,
 		max_level = 10,
+		desc = "前衛艦隊の先頭として出撃時、自身の対空が40%、命中が$1ダウンし、速力が3、回避が$2、火力が$3アップ",
 		id = 11700,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20%",
@@ -20441,11 +22623,14 @@ pg.skill_data_template = {
 	[11710] = {
 		desc_get = "",
 		name = "デュラハンクルーザー",
-		desc = "戦闘中、自身の耐久がダメージで30%を下回った場合、この戦闘で自身が受けるダメージを$2軽減する。16秒間、速力が2ダウンし、3秒ごとに耐久上限の$1回復する。一度の戦闘では一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中、自身の耐久がダメージで30%を下回った場合、この戦闘で自身が受けるダメージを$2軽減する。16秒間、速力が2ダウンし、3秒ごとに耐久上限の$1回復する。一度の戦闘では一回しか発動できない",
 		id = 11710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -20544,11 +22729,14 @@ pg.skill_data_template = {
 	[11720] = {
 		desc_get = "",
 		name = "輝け☆バトルスター！",
-		desc = "自身の対空が$2アップ；20秒毎、$1で特殊弾幕を展開する",
 		type = 1,
 		max_level = 10,
+		desc = "自身の対空が$2アップ；20秒毎、$1で特殊弾幕を展開する",
 		id = 11720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50%",
@@ -20647,11 +22835,14 @@ pg.skill_data_template = {
 	[11730] = {
 		desc_get = "",
 		name = "リトルスター",
-		desc = "戦闘開始から15秒で発動。味方艦隊の火力・装填・回避が20秒間$1アップする",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始から15秒で発動。味方艦隊の火力・装填・回避が20秒間$1アップする",
 		id = 11730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -20705,11 +22896,14 @@ pg.skill_data_template = {
 	[11740] = {
 		desc_get = "",
 		name = "クリアプロテクション",
-		desc = "自身魚雷発射時、$1で発動。5秒間全ての攻撃を回避する",
 		type = 2,
 		max_level = 10,
+		desc = "自身魚雷発射時、$1で発動。5秒間全ての攻撃を回避する",
 		id = 11740,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -20763,11 +22957,14 @@ pg.skill_data_template = {
 	[11750] = {
 		desc_get = "",
 		name = "軽空母コンボ",
-		desc = "自身が航空攻撃を行う度に$1で発動。8秒間自身の航空と味方軽空母の装填が$2アップし、味方空母・軽空母が受けるダメージを$2軽減する",
 		type = 1,
 		max_level = 10,
+		desc = "自身が航空攻撃を行う度に$1で発動。8秒間自身の航空と味方軽空母の装填が$2アップし、味方空母・軽空母が受けるダメージを$2軽減する",
 		id = 11750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -20866,11 +23063,14 @@ pg.skill_data_template = {
 	[11760] = {
 		desc_get = "",
 		name = "空襲シンゴウ",
-		desc = "自身の空襲準備完了5秒後、艦爆隊による航空攻撃（$1）を行う。一度の戦闘で最大2回までしか発動できない",
 		type = 1,
 		max_level = 10,
+		desc = "自身の空襲準備完了5秒後、艦爆隊による航空攻撃（$1）を行う。一度の戦闘で最大2回までしか発動できない",
 		id = 11760,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -20924,11 +23124,14 @@ pg.skill_data_template = {
 	[11770] = {
 		desc_get = "",
 		name = "†ダークネスフィールド†",
-		desc = "自身が受ける炎上と自爆ボートによるダメージを$2、榴弾によるダメージを$3軽減する。また、自身の副砲のクリティカル率が$1上昇し、ダメージがスキルレベルに応じて上昇し、敵の装甲種類に影響されなくなる",
 		type = 3,
 		max_level = 10,
+		desc = "自身が受ける炎上と自爆ボートによるダメージを$2、榴弾によるダメージを$3軽減する。また、自身の副砲のクリティカル率が$1上昇し、ダメージがスキルレベルに応じて上昇し、敵の装甲種類に影響されなくなる",
 		id = 11770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40%",
@@ -21072,11 +23275,14 @@ pg.skill_data_template = {
 	[11780] = {
 		desc_get = "",
 		name = "鳳羽撃けば金烏を翳らし",
-		desc = "自身が戦闘可能である限り、すべての敵の火力・雷装・航空が$1ダウン",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、すべての敵の火力・雷装・航空が$1ダウン",
 		id = 11780,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.0%",
@@ -21130,11 +23336,14 @@ pg.skill_data_template = {
 	[11790] = {
 		desc_get = "",
 		name = "謀り運らせば千里を決す",
-		desc = "自身が戦闘可能である限り、味方主力艦隊が受ける炎上ダメージを$1軽減し、回避率が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、味方主力艦隊が受ける炎上ダメージを$1軽減し、回避率が$2アップ",
 		id = 11790,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -21233,11 +23442,14 @@ pg.skill_data_template = {
 	[11800] = {
 		desc_get = "",
 		name = "砲身轟かせば機先を制す",
-		desc = "自身の主砲攻撃時、$1で前方に特殊弾幕を展開する（威力はスキルレベルによる）。味方艦隊に重桜艦船が4隻以上編成されている場合、自身の一回目の主砲攻撃の装填時間が$2短縮",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時、$1で前方に特殊弾幕を展開する（威力はスキルレベルによる）。味方艦隊に重桜艦船が4隻以上編成されている場合、自身の一回目の主砲攻撃の装填時間が$2短縮",
 		id = 11800,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -21336,12 +23548,15 @@ pg.skill_data_template = {
 	[11810] = {
 		desc_get = "",
 		name = "戦えば勝つ！",
-		desc = "自身の主砲攻撃時、$1で前方に特殊弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時、$1で前方に特殊弾幕を展開する（威力はスキルレベルによる）",
 		id = 11810,
 		system_transform = {
 			[3.0] = 11811
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -21396,11 +23611,14 @@ pg.skill_data_template = {
 	[11820] = {
 		desc_get = "戦闘開始10秒後、魚雷弾幕を展開する。その後、40秒（スキルレベル最大で20秒）毎に魚雷弾幕を展開する（威力はスキルレベルによる）",
 		name = "征けば獲る！",
-		desc = "戦闘開始10秒後、魚雷弾幕を展開する。その後、$1秒毎に魚雷弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始10秒後、魚雷弾幕を展開する。その後、$1秒毎に魚雷弾幕を展開する（威力はスキルレベルによる）",
 		id = 11820,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21449,11 +23667,14 @@ pg.skill_data_template = {
 	[11830] = {
 		desc_get = "戦闘開始15秒後に一回、その後20秒毎にランダムな特殊航空攻撃を行う（威力は「役」とスキルレベルによる）",
 		name = "式機花札",
-		desc = "戦闘開始15秒後に一回、その後20秒毎にランダムな特殊航空攻撃を行う$1（威力は「役」とスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始15秒後に一回、その後20秒毎にランダムな特殊航空攻撃を行う$1（威力は「役」とスキルレベルによる）",
 		id = 11830,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21503,11 +23724,14 @@ pg.skill_data_template = {
 	[11840] = {
 		desc_get = "戦闘開始10秒後に一回、その後20秒毎にランダムな特殊航空攻撃を行う（威力は「役」とスキルレベルによる）",
 		name = "式機花札",
-		desc = "戦闘開始10秒後に一回、その後20秒毎にランダムな特殊航空攻撃を行う$1（威力は「役」とスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始10秒後に一回、その後20秒毎にランダムな特殊航空攻撃を行う$1（威力は「役」とスキルレベルによる）",
 		id = 11840,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21557,11 +23781,14 @@ pg.skill_data_template = {
 	[11850] = {
 		desc_get = "",
 		name = "スラバヤに閃く刃",
-		desc = "20秒毎$1で発動。特殊弾幕を展開し、10秒間自身の火力が$2、軽巡・重巡に与えるダメージが$2上昇する",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎$1で発動。特殊弾幕を展開し、10秒間自身の火力が$2、軽巡・重巡に与えるダメージが$2上昇する",
 		id = 11850,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -21660,11 +23887,14 @@ pg.skill_data_template = {
 	[11860] = {
 		desc_get = "",
 		name = "誇らしき青星の印",
-		desc = "出撃時、同じ艦隊の軽空母・正規空母の航空が$1、敵駆逐・軽巡・重巡への命中率が$1アップ；出撃時、同じ艦隊の軽空母・正規空母が一隻につき、自身の火力・雷装・装填が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、同じ艦隊の軽空母・正規空母の航空が$1、敵駆逐・軽巡・重巡への命中率が$1アップ；出撃時、同じ艦隊の軽空母・正規空母が一隻につき、自身の火力・雷装・装填が$2アップ",
 		id = 11860,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -21763,11 +23993,14 @@ pg.skill_data_template = {
 	[11870] = {
 		desc_get = "戦闘開始10秒後とその後35秒毎(最大レベルで15秒毎)に、一番離れた敵一体に特殊弾幕を展開し、味方ロイヤル主力艦が自動で主砲攻撃を行う際、その敵に照準を定める確率が上昇する。一回目の特殊弾幕のダメージが80%（最大レベルで130%）上昇する",
 		name = "絶対命中のオールドレディ・改",
-		desc = "戦闘開始10秒後とその後$1秒毎に、一番離れた敵一体に特殊弾幕（$2弾幕・威力スキルレベルによる）を展開する、味方ロイヤル主力艦が自動で主砲攻撃を行う際、その敵に照準を定める確率が上昇する。一回目の特殊弾幕のダメージが$3上昇する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始10秒後とその後$1秒毎に、一番離れた敵一体に特殊弾幕（$2弾幕・威力スキルレベルによる）を展開する、味方ロイヤル主力艦が自動で主砲攻撃を行う際、その敵に照準を定める確率が上昇する。一回目の特殊弾幕のダメージが$3上昇する",
 		id = 11870,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21889,11 +24122,14 @@ pg.skill_data_template = {
 	[11880] = {
 		desc_get = "自身が装備中の主砲の拡散範囲を0.5（最大レベルで5）収束させる。自身の火力が3%（最大レベルで15%）アップし、駆逐艦に対する命中率が3%（最大レベルで15%）アップする",
 		name = "レジェンドオブロイヤル",
-		desc = "自身が装備中の主砲の拡散範囲を$1収束させる。自身の火力が$2アップし、駆逐艦に対する命中率が$2アップする",
 		type = 3,
 		max_level = 10,
+		desc = "自身が装備中の主砲の拡散範囲を$1収束させる。自身の火力が$2アップし、駆逐艦に対する命中率が$2アップする",
 		id = 11880,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21983,11 +24219,14 @@ pg.skill_data_template = {
 	[11890] = {
 		desc_get = "自身が受ける炎上ダメージが5%（レベル最大で15%）軽減し、炎上持続時間が3秒間短縮する。一度の戦闘中に一回だけ、受けたダメージで自身の耐久が最大値の25%を下回った場合、10秒間自身の回避率が10%（最大レベルで30%）アップ",
 		name = "光焔の中の奇跡",
-		desc = "自身が受ける炎上ダメージを$1軽減し、炎上持続時間を3秒間短縮させる。一度の戦闘中に一回だけ、ダメージを受けて自身の耐久が最大値の25%を下回った場合、10秒間自身の回避率が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "自身が受ける炎上ダメージを$1軽減し、炎上持続時間を3秒間短縮させる。一度の戦闘中に一回だけ、ダメージを受けて自身の耐久が最大値の25%を下回った場合、10秒間自身の回避率が$2アップ",
 		id = 11890,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -22086,11 +24325,14 @@ pg.skill_data_template = {
 	[11900] = {
 		desc_get = "",
 		name = "北極航路の守り手",
-		desc = "自分が航空攻撃を行う度に、敵潜水艦を$1秒間探知済み状態にし速力を40%低下させ、ソードフィッシュによる対潜/魚雷攻撃を行う（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自分が航空攻撃を行う度に、敵潜水艦を$1秒間探知済み状態にし速力を40%低下させ、ソードフィッシュによる対潜/魚雷攻撃を行う（威力はスキルレベルによる）",
 		id = 11900,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5",
@@ -22144,11 +24386,14 @@ pg.skill_data_template = {
 	[11910] = {
 		desc_get = "",
 		name = "大空を撃つ白鷹",
-		desc = "自身がクロキッド艦載機を装備している場合、同艦載機枠の装備補正が$1上昇する",
 		type = 1,
 		max_level = 10,
+		desc = "自身がクロキッド艦載機を装備している場合、同艦載機枠の装備補正が$1上昇する",
 		id = 11910,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -22202,11 +24447,14 @@ pg.skill_data_template = {
 	[11920] = {
 		desc_get = "",
 		name = "大空の騎士団",
-		desc = "自身が航空攻撃を行う時、TBFによる追加攻撃を行う$1（威力はスキルレベルによる）。出撃時、同じ艦隊にクリーブランド級の艦が編成されている場合、クリーブランド級の火力が$3、自身の航空・命中が$2アップし、スキルのTBF追加攻撃を強化する",
 		type = 3,
 		max_level = 10,
+		desc = "自身が航空攻撃を行う時、TBFによる追加攻撃を行う$1（威力はスキルレベルによる）。出撃時、同じ艦隊にクリーブランド級の艦が編成されている場合、クリーブランド級の火力が$3、自身の航空・命中が$2アップし、スキルのTBF追加攻撃を強化する",
 		id = 11920,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -22350,11 +24598,14 @@ pg.skill_data_template = {
 	[11930] = {
 		desc_get = "",
 		name = "理想郷より発つ",
-		desc = "航空攻撃時、$1で発動する。B25で航空攻撃をもう一度行う",
 		type = 1,
 		max_level = 10,
+		desc = "航空攻撃時、$1で発動する。B25で航空攻撃をもう一度行う",
 		id = 11930,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -22408,11 +24659,14 @@ pg.skill_data_template = {
 	[11940] = {
 		desc_get = "",
 		name = "空と海の観測者",
-		desc = "戦闘開始10秒後、F6F観測機を配置させ、8秒毎に自身の命中が$2、ダメージが$1上昇させる（最大5回まで加算可能）。観測機が撃墜された時、特殊航空攻撃（威力はスキルレベルによる）を行う。",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始10秒後、F6F観測機を配置させ、8秒毎に自身の命中が$2、ダメージが$1上昇させる（最大5回まで加算可能）。観測機が撃墜された時、特殊航空攻撃（威力はスキルレベルによる）を行う。",
 		id = 11940,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"2.5%",
@@ -22511,11 +24765,14 @@ pg.skill_data_template = {
 	[11950] = {
 		desc_get = "",
 		name = "不凍港の協奏曲",
-		desc = "出撃時、自身の魚雷攻撃クリティカル率が$1、自身の駆逐艦に与えるダメージが$2、味方ロイヤル駆逐艦の雷装が$3アップ",
 		type = 1,
 		max_level = 10,
+		desc = "出撃時、自身の魚雷攻撃クリティカル率が$1、自身の駆逐艦に与えるダメージが$2、味方ロイヤル駆逐艦の雷装が$3アップ",
 		id = 11950,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -22659,11 +24916,14 @@ pg.skill_data_template = {
 	[11960] = {
 		desc_get = "",
 		name = "輝ける峡湾の星",
-		desc = "戦闘中、自身の一回目の魚雷攻撃時、特殊弾幕$1を行う（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の一回目の魚雷攻撃時、特殊弾幕$1を行う（威力はスキルレベルによる）",
 		id = 11960,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -22717,11 +24977,14 @@ pg.skill_data_template = {
 	[11970] = {
 		desc_get = "",
 		name = "士気上昇",
-		desc = "自身の主砲が10回攻撃するたびに、自身の装填が$1、全弾発射スキルによるダメージが$2アップ（最大四回まで加算可能）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲が10回攻撃するたびに、自身の装填が$1、全弾発射スキルによるダメージが$2アップ（最大四回まで加算可能）",
 		id = 11970,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -22820,11 +25083,14 @@ pg.skill_data_template = {
 	[11980] = {
 		desc_get = "",
 		name = "タスクグループ",
-		desc = "自身の航空が$1アップ；旗艦として出撃時、同じ艦隊のユニオン戦艦の火力が$1アップ；僚艦として出撃時、同じ艦隊のユニオン駆逐艦の火力・対空が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の航空が$1アップ；旗艦として出撃時、同じ艦隊のユニオン戦艦の火力が$1アップ；僚艦として出撃時、同じ艦隊のユニオン駆逐艦の火力・対空が$1アップ",
 		id = 11980,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -22878,11 +25144,14 @@ pg.skill_data_template = {
 	[11990] = {
 		desc_get = "",
 		name = "堅忍不抜",
-		desc = "所属艦隊の軽空母・正規空母が自身のみの場合、主力艦隊の対空が$2アップ；自身の航空攻撃時、特殊航空攻撃$1を行う（威力はスキルレベルによる；攻撃隊構成は所属艦隊の軽空母・正規空母数による）",
 		type = 1,
 		max_level = 10,
+		desc = "所属艦隊の軽空母・正規空母が自身のみの場合、主力艦隊の対空が$2アップ；自身の航空攻撃時、特殊航空攻撃$1を行う（威力はスキルレベルによる；攻撃隊構成は所属艦隊の軽空母・正規空母数による）",
 		id = 11990,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -22981,11 +25250,14 @@ pg.skill_data_template = {
 	[12000] = {
 		desc_get = "",
 		name = "推し仲間",
-		desc = "自身が戦闘可能である限り、味方の軽空母・正規空母が受けるダメージを$1軽減する；グリッドレイと一緒に出撃した場合、自身の火力が$2、グリッドレイの火力・装填が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、味方の軽空母・正規空母が受けるダメージを$1軽減する；グリッドレイと一緒に出撃した場合、自身の火力が$2、グリッドレイの火力・装填が$2アップ",
 		id = 12000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -23084,12 +25356,15 @@ pg.skill_data_template = {
 	[12010] = {
 		desc_get = "",
 		name = "彩雲を呼ぶ光",
-		desc = "戦場に到達した時、偵察機彩雲を1機発艦させ、10秒間味方主力艦の与えるダメージが$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦場に到達した時、偵察機彩雲を1機発艦させ、10秒間味方主力艦の与えるダメージが$1アップ",
 		id = 12010,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -23144,22 +25419,28 @@ pg.skill_data_template = {
 	[12020] = {
 		desc_get = "",
 		name = "潜母飞机用",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 12020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[12030] = {
 		desc_get = "",
 		name = "夜闇を払う焔",
-		desc = "自身の主砲が8回命中するごとに、自身の火力が$1・装填が$2アップ（最大3回）；効果が3回適用された後、自身の全弾発射スキルを強化する",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲が8回命中するごとに、自身の火力が$1・装填が$2アップ（最大3回）；効果が3回適用された後、自身の全弾発射スキルを強化する",
 		id = 12030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -23258,11 +25539,14 @@ pg.skill_data_template = {
 	[12040] = {
 		desc_get = "",
 		name = "気まぐれの技術者",
-		desc = "戦闘中、12秒毎に特殊装備$1を1回使用する（特殊装備の効果はスキルレベルによる）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、12秒毎に特殊装備$1を1回使用する（特殊装備の効果はスキルレベルによる）",
 		id = 12040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -23316,11 +25600,14 @@ pg.skill_data_template = {
 	[12050] = {
 		desc_get = "",
 		name = "魚雷発射よーい！",
-		desc = "$1秒毎に発動。魚雷弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "$1秒毎に発動。魚雷弾幕を展開する（威力はスキルレベルによる）",
 		id = 12050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"35.0",
@@ -23374,11 +25661,14 @@ pg.skill_data_template = {
 	[12060] = {
 		desc_get = "",
 		name = "微光暖める新造艦",
-		desc = "20秒毎に発動。8秒間、味方主力艦隊の受ける炎上ダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "20秒毎に発動。8秒間、味方主力艦隊の受ける炎上ダメージを$1軽減する",
 		id = 12060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -23432,11 +25722,14 @@ pg.skill_data_template = {
 	[12070] = {
 		desc_get = "",
 		name = "先んずれば制す！",
-		desc = "戦闘開始時、味方艦隊の重桜所属艦が3隻以上いる場合、12秒後特殊航空攻撃$1を行う",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊の重桜所属艦が3隻以上いる場合、12秒後特殊航空攻撃$1を行う",
 		id = 12070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -23490,11 +25783,14 @@ pg.skill_data_template = {
 	[12080] = {
 		desc_get = "",
 		name = "紅きカミの加護",
-		desc = "自身の航空攻撃時、味方前衛艦隊の内「現在の耐久が最大値に対して占める割合が一番低い艦」は$1秒間、すべての攻撃を回避する",
 		type = 3,
 		max_level = 10,
+		desc = "自身の航空攻撃時、味方前衛艦隊の内「現在の耐久が最大値に対して占める割合が一番低い艦」は$1秒間、すべての攻撃を回避する",
 		id = 12080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"2.0",
@@ -23548,11 +25844,14 @@ pg.skill_data_template = {
 	[12090] = {
 		desc_get = "",
 		name = "これでもくらえ！",
-		desc = "8秒毎に、自身の火力が$1アップし、3回アップすると、特殊弾幕を展開し、火力強化効果と強化回数をリセットする。副砲を装備している場合、このスキルで展開する特殊弾幕を強化する",
 		type = 1,
 		max_level = 10,
+		desc = "8秒毎に、自身の火力が$1アップし、3回アップすると、特殊弾幕を展開し、火力強化効果と強化回数をリセットする。副砲を装備している場合、このスキルで展開する特殊弾幕を強化する",
 		id = 12090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20",
@@ -23606,11 +25905,14 @@ pg.skill_data_template = {
 	[12100] = {
 		desc_get = "",
 		name = "鉄血のヒナ鷹",
-		desc = "戦闘開始時、味方艦隊の鉄血艦の数だけ、自身の航空・対空・装填が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊の鉄血艦の数だけ、自身の航空・対空・装填が$1アップ",
 		id = 12100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -23664,11 +25966,14 @@ pg.skill_data_template = {
 	[12110] = {
 		desc_get = "",
 		name = "ヘルメスドロー！",
-		desc = "戦闘中20秒毎に特殊効果をランダムで発動（$1）（一部特殊効果の強さはスキルレベルによる）；戦闘中、ダメージを受けたことにより自分の耐久が最大値の30%以下になった場合、運が7アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中20秒毎に特殊効果をランダムで発動（$1）（一部特殊効果の強さはスキルレベルによる）；戦闘中、ダメージを受けたことにより自分の耐久が最大値の30%以下になった場合、運が7アップ",
 		id = 12110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -23722,11 +26027,14 @@ pg.skill_data_template = {
 	[12120] = {
 		desc_get = "",
 		name = "Wahrheit",
-		desc = "自身の主砲攻撃時の一撃目は必ずクリティカルになる；自身の副砲枠に軽巡主砲適用の兵装を装備している場合、自身の副砲の索敵範囲と射程は$1になり、与えるダメージが35%ダウンする",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時の一撃目は必ずクリティカルになる；自身の副砲枠に軽巡主砲適用の兵装を装備している場合、自身の副砲の索敵範囲と射程は$1になり、与えるダメージが35%ダウンする",
 		id = 12120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"65",
@@ -23825,12 +26133,15 @@ pg.skill_data_template = {
 	[12130] = {
 		desc_get = "",
 		name = "不屈の力",
-		desc = "旗艦として出撃する場合、自身の主砲攻撃時$1で発動。特殊弾幕を展開する。また、味方の鉄血所属空母の与えるダメージが$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "旗艦として出撃する場合、自身の主砲攻撃時$1で発動。特殊弾幕を展開する。また、味方の鉄血所属空母の与えるダメージが$2アップ",
 		id = 12130,
 		system_transform = {
 			[3.0] = 12135
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -23930,11 +26241,14 @@ pg.skill_data_template = {
 	[12140] = {
 		desc_get = "",
 		name = "鉄血艦隊の指導者",
-		desc = "出撃時、味方鉄血艦船の砲撃・雷撃・航空攻撃のクリティカル率が$2アップし、装填が$1アップ；ティルピッツの与えるダメージが$3アップ",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、味方鉄血艦船の砲撃・雷撃・航空攻撃のクリティカル率が$2アップし、装填が$1アップ；ティルピッツの与えるダメージが$3アップ",
 		id = 12140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -24078,12 +26392,15 @@ pg.skill_data_template = {
 	[12150] = {
 		desc_get = "",
 		name = "兵装最適化",
-		desc = "戦闘中、24秒ごとに$3で発動、特殊弾幕を展開する；自身が四連装356mm主砲を装備している場合、自身の主砲攻撃1回目の準備時間を$1短縮、主砲クリティカル率が$2アップ、主砲拡散範囲を2収束させ、このスキルの特殊弾幕を強化する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、24秒ごとに$3で発動、特殊弾幕を展開する；自身が四連装356mm主砲を装備している場合、自身の主砲攻撃1回目の準備時間を$1短縮、主砲クリティカル率が$2アップ、主砲拡散範囲を2収束させ、このスキルの特殊弾幕を強化する",
 		id = 12150,
 		system_transform = {
 			[3.0] = 12170
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -24228,11 +26545,14 @@ pg.skill_data_template = {
 	[12160] = {
 		desc_get = "",
 		name = "沈まぬ太陽の威光",
-		desc = "自身の重桜、鉄血、サディア所属艦船とセイレーンに与えるダメージが$1アップ；味方艦隊に自身を除いたロイヤル所属の艦船が3隻以上いる場合、自身の火力・装填・回避・対空が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の重桜、鉄血、サディア所属艦船とセイレーンに与えるダメージが$1アップ；味方艦隊に自身を除いたロイヤル所属の艦船が3隻以上いる場合、自身の火力・装填・回避・対空が$2アップ",
 		id = 12160,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -24331,12 +26651,15 @@ pg.skill_data_template = {
 	[12180] = {
 		desc_get = "",
 		name = "誓いの光",
-		desc = "自身が潜水支援で戦場に駆けつけている限り、味方の他の艦船がダメージで耐久が20%を下回った場合、特殊魚雷弾幕を一回展開する(1戦闘につき1回のみ展開)；味方艦隊にビスマルクがいる場合、特殊弾幕を強化する",
 		type = 1,
 		max_level = 10,
+		desc = "自身が潜水支援で戦場に駆けつけている限り、味方の他の艦船がダメージで耐久が20%を下回った場合、特殊魚雷弾幕を一回展開する(1戦闘につき1回のみ展開)；味方艦隊にビスマルクがいる場合、特殊弾幕を強化する",
 		id = 12180,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -24344,11 +26667,14 @@ pg.skill_data_template = {
 	[12190] = {
 		desc_get = "",
 		name = "デビルストライク",
-		desc = "戦闘開始時と、戦闘開始後20秒毎に発動。特殊弾幕を展開し、自身の火力・雷撃が$1アップする。このスキルによる強化効果は20秒以内に0になるまで減少し続ける。",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時と、戦闘開始後20秒毎に発動。特殊弾幕を展開し、自身の火力・雷撃が$1アップする。このスキルによる強化効果は20秒以内に0になるまで減少し続ける。",
 		id = 12190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"9.0%",
@@ -24402,11 +26728,14 @@ pg.skill_data_template = {
 	[12210] = {
 		desc_get = "",
 		name = "コリブリアサルト",
-		desc = "Fl-282を装備時、戦闘開始10秒後に発動、その後は30秒毎に発動。Fl-282を1機発進させ、10秒間敵潜水艦を探知済状態にし回避を$1低下させ、味方全員の敵潜水艦へのダメージがアップする$1",
 		type = 1,
 		max_level = 10,
+		desc = "Fl-282を装備時、戦闘開始10秒後に発動、その後は30秒毎に発動。Fl-282を1機発進させ、10秒間敵潜水艦を探知済状態にし回避を$1低下させ、味方全員の敵潜水艦へのダメージがアップする$1",
 		id = 12210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -24460,11 +26789,14 @@ pg.skill_data_template = {
 	[12220] = {
 		desc_get = "",
 		name = "幼き光",
-		desc = "20秒毎に$1で発動。10秒間、敵の火力・雷装・航空が$2ダウン",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎に$1で発動。10秒間、敵の火力・雷装・航空が$2ダウン",
 		id = 12220,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -24563,11 +26895,14 @@ pg.skill_data_template = {
 	[12230] = {
 		desc_get = "",
 		name = "ガールズサポート",
-		desc = "味方の対空射撃時に30%で発動、5秒間、自身の対空が$1アップ。また、一回の戦闘で一度だけ、「リトル・サンディエゴ」か「リトル・クリーブランド」がダメージを受けて耐久が40%を下回った場合に発動、15秒間自身の火力、命中が$1アップ",
 		type = 2,
 		max_level = 10,
+		desc = "味方の対空射撃時に30%で発動、5秒間、自身の対空が$1アップ。また、一回の戦闘で一度だけ、「リトル・サンディエゴ」か「リトル・クリーブランド」がダメージを受けて耐久が40%を下回った場合に発動、15秒間自身の火力、命中が$1アップ",
 		id = 12230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -24621,11 +26956,14 @@ pg.skill_data_template = {
 	[12240] = {
 		desc_get = "",
 		name = "キャリバーズハート",
-		desc = "クリーブランド級と一緒に出撃した場合、自身の対空が$1、命中が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "クリーブランド級と一緒に出撃した場合、自身の対空が$1、命中が$2アップ",
 		id = 12240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -24724,11 +27062,14 @@ pg.skill_data_template = {
 	[12250] = {
 		desc_get = "",
 		name = "キャリバーズキャリア",
-		desc = "前衛艦隊の先頭で出撃した場合、自身が受けるダメージを$1軽減する；戦闘中、「リトル・サンディエゴ」「リトル・ヘレナ」が受ける砲撃ダメージを8%軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "前衛艦隊の先頭で出撃した場合、自身が受けるダメージを$1軽減する；戦闘中、「リトル・サンディエゴ」「リトル・ヘレナ」が受ける砲撃ダメージを8%軽減する",
 		id = 12250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -24827,11 +27168,14 @@ pg.skill_data_template = {
 	[12260] = {
 		desc_get = "",
 		name = "スター☆エントリー",
-		desc = "戦闘開始1秒後に発動。30秒間、自身の火力・雷装・対潜が$1アップし、味方艦隊の受ける航空ダメージを$2軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始1秒後に発動。30秒間、自身の火力・雷装・対潜が$1アップし、味方艦隊の受ける航空ダメージを$2軽減する",
 		id = 12260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -24930,11 +27274,14 @@ pg.skill_data_template = {
 	[12270] = {
 		desc_get = "",
 		name = "スター☆スパーク",
-		desc = "戦闘中、14秒毎$1で発動。特殊弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、14秒毎$1で発動。特殊弾幕を展開する（威力はスキルレベルによる）",
 		id = 12270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -24988,11 +27335,14 @@ pg.skill_data_template = {
 	[12280] = {
 		desc_get = "",
 		name = "重装形態・プロトタイプ",
-		desc = "20秒毎、$1で発動。強力な弾幕を展開し、10秒間自身の与えるクリティカルダメージが$2アップし、前衛艦隊の受ける航空攻撃によるダメージを$3軽減する",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎、$1で発動。強力な弾幕を展開し、10秒間自身の与えるクリティカルダメージが$2アップし、前衛艦隊の受ける航空攻撃によるダメージを$3軽減する",
 		id = 12280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -25136,11 +27486,14 @@ pg.skill_data_template = {
 	[12290] = {
 		desc_get = "",
 		name = "安全第一！",
-		desc = "自分が戦闘可能である限り、味方前衛艦隊の速力が3アップし、敵との接触ダメージを$1軽減する；戦闘中、自分がダメージを受けて耐久度が最大値の30%を下回った場合に一度だけ発動、自身の与えるダメージを$2アップし、$3秒間自身がすべての攻撃を回避する",
 		type = 2,
 		max_level = 10,
+		desc = "自分が戦闘可能である限り、味方前衛艦隊の速力が3アップし、敵との接触ダメージを$1軽減する；戦闘中、自分がダメージを受けて耐久度が最大値の30%を下回った場合に一度だけ発動、自身の与えるダメージを$2アップし、$3秒間自身がすべての攻撃を回避する",
 		id = 12290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -25284,11 +27637,14 @@ pg.skill_data_template = {
 	[12300] = {
 		desc_get = "",
 		name = "スウィフトシュート",
-		desc = "対空攻撃時に$1で発動、10秒間味方前衛艦隊の対空が$1アップ；味方対空射撃範囲内で敵機が5機撃墜されるたびに、自身の火力が1%アップし、味方主力艦隊の受ける航空攻撃ダメージを1%軽減する（最大$2回まで加算可能）",
 		type = 2,
 		max_level = 10,
+		desc = "対空攻撃時に$1で発動、10秒間味方前衛艦隊の対空が$1アップ；味方対空射撃範囲内で敵機が5機撃墜されるたびに、自身の火力が1%アップし、味方主力艦隊の受ける航空攻撃ダメージを1%軽減する（最大$2回まで加算可能）",
 		id = 12300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -25383,11 +27739,14 @@ pg.skill_data_template = {
 	[12310] = {
 		desc_get = "",
 		name = "スウィフトアナライズ",
-		desc = "戦闘中、自身のクリティカル率が$1、自身の駆逐艦・軽巡洋艦への命中率が$2アップ；自身の主砲攻撃が敵に命中したときに10%で発動、6秒間その敵の回避率が$2ダウンする",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身のクリティカル率が$1、自身の駆逐艦・軽巡洋艦への命中率が$2アップ；自身の主砲攻撃が敵に命中したときに10%で発動、6秒間その敵の回避率が$2ダウンする",
 		id = 12310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -25486,11 +27845,14 @@ pg.skill_data_template = {
 	[12320] = {
 		desc_get = "",
 		name = "Poison Croix",
-		desc = "自身の主砲が同じ敵に10回命中した場合、5秒間その敵が受ける駆逐艦による砲撃・雷撃ダメージが$1アップ；自身が戦闘中敵艦を撃破した場合、戦闘終了まで自身の火力が$2アップ（最大10回加算可能）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲が同じ敵に10回命中した場合、5秒間その敵が受ける駆逐艦による砲撃・雷撃ダメージが$1アップ；自身が戦闘中敵艦を撃破した場合、戦闘終了まで自身の火力が$2アップ（最大10回加算可能）",
 		id = 12320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -25589,11 +27951,14 @@ pg.skill_data_template = {
 	[12330] = {
 		desc_get = "",
 		name = "鼓動のヴィシア",
-		desc = "自身の回避・雷装が$1アップ。戦闘開始30秒後、このスキルによる強化効果は20秒以内に0になるまで減少し続ける。",
 		type = 2,
 		max_level = 10,
+		desc = "自身の回避・雷装が$1アップ。戦闘開始30秒後、このスキルによる強化効果は20秒以内に0になるまで減少し続ける。",
 		id = 12330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -25647,11 +28012,14 @@ pg.skill_data_template = {
 	[12350] = {
 		desc_get = "",
 		name = "冷静なマホウツカイ",
-		desc = "自身の耐久が上限値の80%以下の場合、自身の耐久値の現在値に応じて火力・雷装がアップ（最大$2）；自身の耐久が上限値の30％を下回った場合1回だけ発動、戦闘終了まで自身の対空が$1アップ。",
 		type = 1,
 		max_level = 10,
+		desc = "自身の耐久が上限値の80%以下の場合、自身の耐久値の現在値に応じて火力・雷装がアップ（最大$2）；自身の耐久が上限値の30％を下回った場合1回だけ発動、戦闘終了まで自身の対空が$1アップ。",
 		id = 12350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"6%",
@@ -25750,11 +28118,14 @@ pg.skill_data_template = {
 	[12360] = {
 		desc_get = "",
 		name = "ロマンチック・メッセージ",
-		desc = "駆逐艦と一緒に出撃した場合、自身の対空・火力・命中が$1アップ；味方の駆逐艦がダメージを受けて耐久値が上限の50％を下回った場合に一度だけ、特殊弾幕を展開する",
 		type = 1,
 		max_level = 10,
+		desc = "駆逐艦と一緒に出撃した場合、自身の対空・火力・命中が$1アップ；味方の駆逐艦がダメージを受けて耐久値が上限の50％を下回った場合に一度だけ、特殊弾幕を展開する",
 		id = 12360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -25808,12 +28179,15 @@ pg.skill_data_template = {
 	[12370] = {
 		desc_get = "",
 		name = "強襲のGlen",
-		desc = "潜水艦が戦場に到達した場合、零式小型水上偵察機を1機発進させ航空攻撃を行い（威力は雷装とスキルレベルによる）、味方潜水艦・潜水母艦の命中が$1アップ ",
 		type = 1,
 		max_level = 10,
+		desc = "潜水艦が戦場に到達した場合、零式小型水上偵察機を1機発進させ航空攻撃を行い（威力は雷装とスキルレベルによる）、味方潜水艦・潜水母艦の命中が$1アップ ",
 		id = 12370,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -25868,12 +28242,15 @@ pg.skill_data_template = {
 	[12380] = {
 		desc_get = "",
 		name = "センベツ砲撃",
-		desc = "自身浮上時、砲撃弾幕を展開する（威力はスキルレベルによる）；自身の特殊弾幕と砲撃が敵に命中した場合に$1で発動、その敵の命中・装填が15秒間$2ダウンする ",
 		type = 1,
 		max_level = 10,
+		desc = "自身浮上時、砲撃弾幕を展開する（威力はスキルレベルによる）；自身の特殊弾幕と砲撃が敵に命中した場合に$1で発動、その敵の命中・装填が15秒間$2ダウンする ",
 		id = 12380,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -25973,12 +28350,15 @@ pg.skill_data_template = {
 	[12390] = {
 		desc_get = "",
 		name = "返り討ちよ！",
-		desc = "自身の航空母艦に与えるダメージが$1アップ；自身浮上時、必ずクリティカルになる特殊魚雷弾幕を展開する（威力はスキルレベルによる） ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空母艦に与えるダメージが$1アップ；自身浮上時、必ずクリティカルになる特殊魚雷弾幕を展開する（威力はスキルレベルによる） ",
 		id = 12390,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26033,12 +28413,15 @@ pg.skill_data_template = {
 	[12400] = {
 		desc_get = "",
 		name = "大ザメ攻撃",
-		desc = "戦闘中、自身の命中が$1アップ；僚艦として編成されている場合、攻撃位置到達後でも前進し続け、18秒経過した後元の位置に戻る ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、自身の命中が$1アップ；僚艦として編成されている場合、攻撃位置到達後でも前進し続け、18秒経過した後元の位置に戻る ",
 		id = 12400,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26093,12 +28476,15 @@ pg.skill_data_template = {
 	[12410] = {
 		desc_get = "",
 		name = "ウルフパック-U101",
-		desc = "出撃時、味方鉄血所属潜水艦の回避率が$1、駆逐・軽巡に与えるダメージが$1アップし、味方艦隊の鉄血潜水艦が1隻につき、自身の雷装・装填が$2アップ ",
 		type = 2,
 		max_level = 10,
+		desc = "出撃時、味方鉄血所属潜水艦の回避率が$1、駆逐・軽巡に与えるダメージが$1アップし、味方艦隊の鉄血潜水艦が1隻につき、自身の雷装・装填が$2アップ ",
 		id = 12410,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26198,11 +28584,14 @@ pg.skill_data_template = {
 	[12420] = {
 		desc_get = "",
 		name = "ロンディニウムショット",
-		desc = "自身の主砲攻撃は$1で与えるダメージが倍になる；自身が戦闘中敵を撃破した場合、自身の命中が$2アップ（最大8回まで加算可能）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃は$1で与えるダメージが倍になる；自身が戦闘中敵を撃破した場合、自身の命中が$2アップ（最大8回まで加算可能）",
 		id = 12420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -26302,12 +28691,15 @@ pg.skill_data_template = {
 	[12430] = {
 		desc_get = "",
 		name = "ラッキーA",
-		desc = "自身が戦闘可能である限り、自身の回避が$1アップし、受ける雷撃ダメージを$2軽減する；20秒毎に$3で発動し、強力な特殊弾幕を展開する（威力はスキルレベルによる） ",
 		type = 1,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、自身の回避が$1アップし、受ける雷撃ダメージを$2軽減する；20秒毎に$3で発動し、強力な特殊弾幕を展開する（威力はスキルレベルによる） ",
 		id = 12430,
 		system_transform = {
 			[3.0] = 12435
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26452,11 +28844,14 @@ pg.skill_data_template = {
 	[12440] = {
 		desc_get = "",
 		name = "ウォーミングアップ",
-		desc = "海域マップで自身の所属艦隊が敵艦隊を撃破した度に、戦闘中自身の火力が$1アップする；また戦闘中自身が敵を撃破したたび、自身の火力は戦闘終了時まで$1アップ（このスキルは自身の火力を最大$3まで強化可能）。所属艦隊が敵艦隊を5つ以上撃破した場合、戦闘中、味方主力艦隊の受けるダメージを$2軽減する",
 		type = 1,
 		max_level = 10,
+		desc = "海域マップで自身の所属艦隊が敵艦隊を撃破した度に、戦闘中自身の火力が$1アップする；また戦闘中自身が敵を撃破したたび、自身の火力は戦闘終了時まで$1アップ（このスキルは自身の火力を最大$3まで強化可能）。所属艦隊が敵艦隊を5つ以上撃破した場合、戦闘中、味方主力艦隊の受けるダメージを$2軽減する",
 		id = 12440,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -26600,12 +28995,15 @@ pg.skill_data_template = {
 	[12460] = {
 		desc_get = "",
 		name = "お守り魚",
-		desc = "味方の潜水艦・潜水空母の受けるダメージを$1軽減する；戦場から離脱時、自身の耐久値が上限の$2回復する",
 		type = 2,
 		max_level = 10,
+		desc = "味方の潜水艦・潜水空母の受けるダメージを$1軽減する；戦場から離脱時、自身の耐久値が上限の$2回復する",
 		id = 12460,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26705,12 +29103,15 @@ pg.skill_data_template = {
 	[12470] = {
 		desc_get = "",
 		name = "ダブルガトー",
-		desc = "自身の空母に与えるダメージが$1アップ；戦闘中、自身浮上時及び戦場より離脱時、特殊魚雷弾幕$2（威力はスキルレベルによる）を展開する；味方艦隊にアルバコアがいる場合、このスキルによる魚雷攻撃のダメージが$3アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の空母に与えるダメージが$1アップ；戦闘中、自身浮上時及び戦場より離脱時、特殊魚雷弾幕$2（威力はスキルレベルによる）を展開する；味方艦隊にアルバコアがいる場合、このスキルによる魚雷攻撃のダメージが$3アップ",
 		id = 12470,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26855,11 +29256,14 @@ pg.skill_data_template = {
 	[12480] = {
 		desc_get = "",
 		name = "Final-AP-Ride",
-		desc = "自身の主砲弾薬タイプは特殊徹甲弾$1になる（ダメージ増加効果はスキルレベルによって強化される）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲弾薬タイプは特殊徹甲弾$1になる（ダメージ増加効果はスキルレベルによって強化される）",
 		id = 12480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -26913,11 +29317,14 @@ pg.skill_data_template = {
 	[12490] = {
 		desc_get = "",
 		name = "マルチプルタクティクス",
-		desc = "出撃時、所属艦隊にユニオン軽空母・正規空母が存在している場合、味方艦船の対空が$1アップし、味方ユニオン軽空母・空母の航空が$2アップ；所属艦隊にユニオン軽空母・空母が存在しない場合、自身の火力が$3、回避が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、所属艦隊にユニオン軽空母・正規空母が存在している場合、味方艦船の対空が$1アップし、味方ユニオン軽空母・空母の航空が$2アップ；所属艦隊にユニオン軽空母・空母が存在しない場合、自身の火力が$3、回避が$2アップ",
 		id = 12490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"2.5%",
@@ -27061,11 +29468,14 @@ pg.skill_data_template = {
 	[12500] = {
 		desc_get = "",
 		name = "チャレンジキャット",
-		desc = "自身がF6Fヘルキャットを装備している場合、戦闘機枠の兵装補正が$1アップし、自身の航空攻撃時$2でF6Fによる追加航空攻撃を行う",
 		type = 1,
 		max_level = 10,
+		desc = "自身がF6Fヘルキャットを装備している場合、戦闘機枠の兵装補正が$1アップし、自身の航空攻撃時$2でF6Fによる追加航空攻撃を行う",
 		id = 12500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -27209,11 +29619,14 @@ pg.skill_data_template = {
 	[12520] = {
 		desc_get = "",
 		name = "海上騎士の奮戦",
-		desc = "自身が戦闘可能である限り、旗艦と自身の炎上時間が3秒間短縮する；味方の対空攻撃範囲内で敵機が撃墜された場合、8秒間自身の火力・対空が$1アップ（重複して適用はされない）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、旗艦と自身の炎上時間が3秒間短縮する；味方の対空攻撃範囲内で敵機が撃墜された場合、8秒間自身の火力・対空が$1アップ（重複して適用はされない）",
 		id = 12520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -27267,11 +29680,14 @@ pg.skill_data_template = {
 	[12530] = {
 		desc_get = "",
 		name = "海上騎士の覚悟",
-		desc = "自身がダメージを受けた場合$1で発動、5秒間自身の回避が$2アップ（この効果は8秒間に1回しか発動できない）；戦闘中ダメージにより自身の耐久が上限の30％を下回った場合に一度だけ、5秒間すべての攻撃を回避する",
 		type = 2,
 		max_level = 10,
+		desc = "自身がダメージを受けた場合$1で発動、5秒間自身の回避が$2アップ（この効果は8秒間に1回しか発動できない）；戦闘中ダメージにより自身の耐久が上限の30％を下回った場合に一度だけ、5秒間すべての攻撃を回避する",
 		id = 12530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -27370,11 +29786,14 @@ pg.skill_data_template = {
 	[12540] = {
 		desc_get = "",
 		name = "私がやるわ！",
-		desc = "対空攻撃時25%で発動、5秒間味方ユニオン所属艦船の対空が$1アップ；自身の主砲が敵に13回命中するたびに、自身の火力が$2アップ（最大3回加算する）",
 		type = 3,
 		max_level = 10,
+		desc = "対空攻撃時25%で発動、5秒間味方ユニオン所属艦船の対空が$1アップ；自身の主砲が敵に13回命中するたびに、自身の火力が$2アップ（最大3回加算する）",
 		id = 12540,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -27473,11 +29892,14 @@ pg.skill_data_template = {
 	[12550] = {
 		desc_get = "",
 		name = "王弓ウッドストック",
-		desc = "ユニオンの艦船と一緒に出撃した場合、自身の主砲クリティカル率が$1、自身の火力・雷装が$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "ユニオンの艦船と一緒に出撃した場合、自身の主砲クリティカル率が$1、自身の火力・雷装が$2アップ",
 		id = 12550,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -27576,11 +29998,14 @@ pg.skill_data_template = {
 	[12560] = {
 		desc_get = "",
 		name = "バッチ・インザスカイ",
-		desc = "自身が受ける航空攻撃ダメージを$1軽減する。味方対空砲攻撃時、25%で発動し、8秒間自身の対空が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "自身が受ける航空攻撃ダメージを$1軽減する。味方対空砲攻撃時、25%で発動し、8秒間自身の対空が$2アップ",
 		id = 12560,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -27679,11 +30104,14 @@ pg.skill_data_template = {
 	[12570] = {
 		desc_get = "",
 		name = "フォロワーウィング",
-		desc = "自身の航空が$2アップする。自身が「フェアリーアルバコア」を装備している場合、下記の効果が適用される：①「フェアリーアルバコア」を装備している兵装枠の威力補正が$1アップする；⓶自身が航空攻撃を行う場合に$3で発動し、フェアリーアルバコアによる特殊航空攻撃を展開し、命中した敵を80%で9秒間浸水させ浸水ダメージを与える（特殊航空攻撃と浸水のダメージは自身の航空ステータス・スキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空が$2アップする。自身が「フェアリーアルバコア」を装備している場合、下記の効果が適用される：①「フェアリーアルバコア」を装備している兵装枠の威力補正が$1アップする；⓶自身が航空攻撃を行う場合に$3で発動し、フェアリーアルバコアによる特殊航空攻撃を展開し、命中した敵を80%で9秒間浸水させ浸水ダメージを与える（特殊航空攻撃と浸水のダメージは自身の航空ステータス・スキルレベルによる）",
 		id = 12570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -27827,11 +30255,14 @@ pg.skill_data_template = {
 	[12580] = {
 		desc_get = "",
 		name = "じっとしてなさい！",
-		desc = "自身が航空攻撃を行うときに$1で発動。$2秒間全ての敵の速力を0にする。その後、このスキルの効果は2.5秒間で無効になるまで減衰し続ける(このスキルは戦闘開始1回目の航空攻撃時に必ず発動する)",
 		type = 3,
 		max_level = 10,
+		desc = "自身が航空攻撃を行うときに$1で発動。$2秒間全ての敵の速力を0にする。その後、このスキルの効果は2.5秒間で無効になるまで減衰し続ける(このスキルは戦闘開始1回目の航空攻撃時に必ず発動する)",
 		id = 12580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -27930,11 +30361,14 @@ pg.skill_data_template = {
 	[12590] = {
 		desc_get = "",
 		name = "ボックスハンガー",
-		desc = "自身の受けるダメージを$1軽減する；自身が航空攻撃を行う場合、10秒間、自身以外の味方主力艦隊の受けるダメージを$2軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "自身の受けるダメージを$1軽減する；自身が航空攻撃を行う場合、10秒間、自身以外の味方主力艦隊の受けるダメージを$2軽減する",
 		id = 12590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -28033,12 +30467,15 @@ pg.skill_data_template = {
 	[12600] = {
 		desc_get = "",
 		name = "ローザ・ボンバルダメント",
-		desc = "自身の主砲攻撃時$1で発動、特殊弾幕を展開する（威力はスキルレベルによる）；自身が「381mm三連装砲Model1934」を装備している場合、特殊弾幕を強化し、発動確率を10%上昇させる",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時$1で発動、特殊弾幕を展開する（威力はスキルレベルによる）；自身が「381mm三連装砲Model1934」を装備している場合、特殊弾幕を強化し、発動確率を10%上昇させる",
 		id = 12600,
 		system_transform = {
 			[3.0] = 12605
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -28093,11 +30530,14 @@ pg.skill_data_template = {
 	[12610] = {
 		desc_get = "",
 		name = "サディアの矜持",
-		desc = "戦闘開始時、自身と前衛艦隊先頭艦に魚雷を$1回まで無効できる盾をそれぞれ2つ生成する；海域に出撃した場合、自身が所属する艦隊の3回目の戦闘まで、自身の火力が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身と前衛艦隊先頭艦に魚雷を$1回まで無効できる盾をそれぞれ2つ生成する；海域に出撃した場合、自身が所属する艦隊の3回目の戦闘まで、自身の火力が$2アップ",
 		id = 12610,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1",
@@ -28187,11 +30627,14 @@ pg.skill_data_template = {
 	[12620] = {
 		desc_get = "",
 		name = "テルニシールド",
-		desc = "自身がダメージを受けた場合$1で発動、12秒間、敵弾を10回まで無効できる盾を2つ生成する。",
 		type = 2,
 		max_level = 10,
+		desc = "自身がダメージを受けた場合$1で発動、12秒間、敵弾を10回まで無効できる盾を2つ生成する。",
 		id = 12620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -28245,11 +30688,14 @@ pg.skill_data_template = {
 	[12630] = {
 		desc_get = "",
 		name = "半徹甲高爆榴弾",
-		desc = "自身が榴弾・SAP弾属性主砲を装備している場合、敵を炎上させる効果が無くなる代わりに与えるダメージを$1増加する；徹甲弾属性主砲を装備している場合、主砲攻撃が敵に命中した時に$2で発動：10秒間自身がその敵に与えるダメージが$3アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身が榴弾・SAP弾属性主砲を装備している場合、敵を炎上させる効果が無くなる代わりに与えるダメージを$1増加する；徹甲弾属性主砲を装備している場合、主砲攻撃が敵に命中した時に$2で発動：10秒間自身がその敵に与えるダメージが$3アップ",
 		id = 12630,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -28393,11 +30839,14 @@ pg.skill_data_template = {
 	[12640] = {
 		desc_get = "",
 		name = "サディアの威圧",
-		desc = "自身の主砲攻撃時$1で発動。特殊弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時$1で発動。特殊弾幕を展開する（威力はスキルレベルによる）",
 		id = 12640,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -28451,11 +30900,14 @@ pg.skill_data_template = {
 	[12650] = {
 		desc_get = "",
 		name = "栄光、流れる記憶",
-		desc = "戦闘開始10秒後魚雷弾幕$3を展開する（威力は雷装ステータスとスキルレベルによる）。自身の1回目の主砲攻撃5秒後、戦闘終了時まで自身の火力が$1、軽巡に与えるダメージが$2アップし、雷装ステータスが0になる",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始10秒後魚雷弾幕$3を展開する（威力は雷装ステータスとスキルレベルによる）。自身の1回目の主砲攻撃5秒後、戦闘終了時まで自身の火力が$1、軽巡に与えるダメージが$2アップし、雷装ステータスが0になる",
 		id = 12650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -28599,11 +31051,14 @@ pg.skill_data_template = {
 	[12660] = {
 		desc_get = "",
 		name = "Ricarica！",
-		desc = "戦闘中、自身の魚雷攻撃は3回目まで敵に与えるダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の魚雷攻撃は3回目まで敵に与えるダメージが$1アップ",
 		id = 12660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -28657,11 +31112,14 @@ pg.skill_data_template = {
 	[12670] = {
 		desc_get = "",
 		name = "Fuoco di Copertura！",
-		desc = "自身が前衛艦隊の最後尾（前衛艦隊戦闘可能艦が2隻以上）にいる場合、20秒毎に$1で発動。10秒間、自身の与えるダメージが$2アップし、味方前衛艦隊先頭の艦船が与えるダメージが$3アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が前衛艦隊の最後尾（前衛艦隊戦闘可能艦が2隻以上）にいる場合、20秒毎に$1で発動。10秒間、自身の与えるダメージが$2アップし、味方前衛艦隊先頭の艦船が与えるダメージが$3アップ",
 		id = 12670,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -28805,11 +31263,14 @@ pg.skill_data_template = {
 	[12680] = {
 		desc_get = "",
 		name = "仲間思いの幸運艦",
-		desc = "戦闘開始時、艦隊に戦闘可能な「雪風」がいる場合、下記の効果を適用する【自身の雷装が$1アップし、20秒毎に$2で強力な弾幕を展開する】；戦闘可能な「雪風」がいない場合、下記の効果を適用する【自身が戦闘可能である限り、自身以外の味方艦船が受けるダメージを$3軽減し、自身以外の味方艦船がダメージを受け耐久が最大値の20%を下回った場合に一度だけ、その艦の耐久を$4回復する】 ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、艦隊に戦闘可能な「雪風」がいる場合、下記の効果を適用する【自身の雷装が$1アップし、20秒毎に$2で強力な弾幕を展開する】；戦闘可能な「雪風」がいない場合、下記の効果を適用する【自身が戦闘可能である限り、自身以外の味方艦船が受けるダメージを$3軽減し、自身以外の味方艦船がダメージを受け耐久が最大値の20%を下回った場合に一度だけ、その艦の耐久を$4回復する】 ",
 		id = 12680,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -28998,11 +31459,14 @@ pg.skill_data_template = {
 	[12690] = {
 		desc_get = "",
 		name = "暗号当てゲーム",
-		desc = "戦闘開始時、ランダムで鉄血艦隊に一種類の強化効果$1を付与する。この強化効果は戦闘終了時まで持続する",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、ランダムで鉄血艦隊に一種類の強化効果$1を付与する。この強化効果は戦闘終了時まで持続する",
 		id = 12690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29047,11 +31511,14 @@ pg.skill_data_template = {
 	[12700] = {
 		desc_get = "",
 		name = "誘導弾スピリチュアルμ",
-		desc = "戦闘中、15秒毎に1度発動。8秒間自身の主砲弾薬を「μ兵装仕様（パープル）」に変更させる",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、15秒毎に1度発動。8秒間自身の主砲弾薬を「μ兵装仕様（パープル）」に変更させる",
 		id = 12700,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29096,11 +31563,14 @@ pg.skill_data_template = {
 	[12710] = {
 		desc_get = "",
 		name = "パッション・テンポ",
-		desc = "味方対空砲で敵機を撃墜した場合、8秒間自身の対空が$1アップ（最大4回まで加算可能）",
 		type = 2,
 		max_level = 10,
+		desc = "味方対空砲で敵機を撃墜した場合、8秒間自身の対空が$1アップ（最大4回まで加算可能）",
 		id = 12710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -29154,11 +31624,14 @@ pg.skill_data_template = {
 	[12720] = {
 		desc_get = "",
 		name = "貫通弾アローμ",
-		desc = "戦闘中、自身の主砲攻撃を3回行うたびに、次回の自身の主砲攻撃弾薬を「μ兵装仕様（ブルー）」に変更させる",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の主砲攻撃を3回行うたびに、次回の自身の主砲攻撃弾薬を「μ兵装仕様（ブルー）」に変更させる",
 		id = 12720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29203,11 +31676,14 @@ pg.skill_data_template = {
 	[12730] = {
 		desc_get = "",
 		name = "シャンニング・ステップ",
-		desc = "戦闘開始時、自身が前衛艦隊最後尾で、前衛艦隊で戦闘可能な艦船が2隻以上存在する場合、この戦闘中前衛艦隊の艦船が攻撃を受けた場合、$1で受けるダメージを$2軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、自身が前衛艦隊最後尾で、前衛艦隊で戦闘可能な艦船が2隻以上存在する場合、この戦闘中前衛艦隊の艦船が攻撃を受けた場合、$1で受けるダメージを$2軽減する",
 		id = 12730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"9.0%",
@@ -29306,11 +31782,14 @@ pg.skill_data_template = {
 	[12740] = {
 		desc_get = "",
 		name = "連携機デュアリズムμ",
-		desc = "戦闘開始時、味方艦隊で「μ兵装」の艦船数が奇数の場合、一回目の自身の航空攻撃10秒後、爆撃機による特殊航空攻撃$1を行う；味方艦隊で「μ兵装」の艦船数が偶数の場合、一回目の自身の航空攻撃10秒後、攻撃機による特殊航空攻撃$1を行う",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊で「μ兵装」の艦船数が奇数の場合、一回目の自身の航空攻撃10秒後、爆撃機による特殊航空攻撃$1を行う；味方艦隊で「μ兵装」の艦船数が偶数の場合、一回目の自身の航空攻撃10秒後、攻撃機による特殊航空攻撃$1を行う",
 		id = 12740,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29355,11 +31834,14 @@ pg.skill_data_template = {
 	[12750] = {
 		desc_get = "",
 		name = "クリムゾン・オーバーチュア",
-		desc = "戦闘開始時、自身の1回目の航空攻撃の装填時間を$1短縮する；味方艦隊に「μ兵装」艦船が存在する場合、1隻につき自身の航空が$2アップする（最大4回まで加算可能）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身の1回目の航空攻撃の装填時間を$1短縮する；味方艦隊に「μ兵装」艦船が存在する場合、1隻につき自身の航空が$2アップする（最大4回まで加算可能）",
 		id = 12750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -29458,11 +31940,14 @@ pg.skill_data_template = {
 	[12760] = {
 		desc_get = "",
 		name = "速射榴弾フィーバーμ",
-		desc = "戦闘中20秒毎に発動、$1で12秒間自身の主砲弾薬を「μ兵装仕様（レッド）」に変更させる。戦闘開始後12秒間、自身の主砲弾薬を「μ兵装仕様（レッド）」に変更させる",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中20秒毎に発動、$1で12秒間自身の主砲弾薬を「μ兵装仕様（レッド）」に変更させる。戦闘開始後12秒間、自身の主砲弾薬を「μ兵装仕様（レッド）」に変更させる",
 		id = 12760,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -29552,11 +32037,14 @@ pg.skill_data_template = {
 	[12770] = {
 		desc_get = "30秒毎に、自身の周りに敵弾を10発まで無効化でき、<color=#92fc63FF>5</color>秒間（最大<color=#92fc63FF>15</color>秒）持続する回転シールドを2枚生成する。戦闘開始時、自身が前衛艦隊の先頭にいる場合、このシールド生成効果を発動する",
 		name = "カーム・シールド",
-		desc = "30秒毎に、自身の周りに敵弾を10発まで無効化でき、$1秒間持続する回転シールドを2枚生成する。戦闘開始時、自身が前衛艦隊の先頭にいる場合、このシールド生成効果を発動する",
 		type = 2,
 		max_level = 10,
+		desc = "30秒毎に、自身の周りに敵弾を10発まで無効化でき、$1秒間持続する回転シールドを2枚生成する。戦闘開始時、自身が前衛艦隊の先頭にいる場合、このシールド生成効果を発動する",
 		id = 12770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0",
@@ -29610,11 +32098,14 @@ pg.skill_data_template = {
 	[12780] = {
 		desc_get = "",
 		name = "Cœur Battant 「μ」",
-		desc = "1回の主砲攻撃での斉射数は1になる；戦闘中、自身が主砲攻撃するたびに、主砲弾薬を「μ兵装仕様（レッド）」「μ兵装仕様（ブルー）」に切り替える。自身「μ兵装仕様」弾薬$1のダメージをスキルレベルに応じて上昇させる；自身最初の主砲攻撃の装填時間を$2短縮する",
 		type = 1,
 		max_level = 10,
+		desc = "1回の主砲攻撃での斉射数は1になる；戦闘中、自身が主砲攻撃するたびに、主砲弾薬を「μ兵装仕様（レッド）」「μ兵装仕様（ブルー）」に切り替える。自身「μ兵装仕様」弾薬$1のダメージをスキルレベルに応じて上昇させる；自身最初の主砲攻撃の装填時間を$2短縮する",
 		id = 12780,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29704,11 +32195,14 @@ pg.skill_data_template = {
 	[12790] = {
 		desc_get = "",
 		name = "ポラリスプロトコル",
-		desc = "戦闘開始時、味方艦隊で「μ兵装」の艦船数が奇数の場合、自身の与えるダメージが$1アップ；味方艦隊で「μ兵装」の艦船数が偶数の場合、自身の受けるダメージを$2軽減する；自身の主砲攻撃後10秒間、味方艦隊の「μ兵装」艦船の火力・雷装・航空が$3アップ（最大2回まで加算可能）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊で「μ兵装」の艦船数が奇数の場合、自身の与えるダメージが$1アップ；味方艦隊で「μ兵装」の艦船数が偶数の場合、自身の受けるダメージを$2軽減する；自身の主砲攻撃後10秒間、味方艦隊の「μ兵装」艦船の火力・雷装・航空が$3アップ（最大2回まで加算可能）",
 		id = 12790,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -29852,12 +32346,15 @@ pg.skill_data_template = {
 	[12810] = {
 		desc_get = "",
 		name = "駿河艦隊・戦術解放！",
-		desc = "20秒毎、$1で発動。特殊弾幕を展開する（威力はスキルレベルによる）。演習戦闘の場合、この特殊弾幕を強化する",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎、$1で発動。特殊弾幕を展開する（威力はスキルレベルによる）。演習戦闘の場合、この特殊弾幕を強化する",
 		id = 12810,
 		system_transform = {
 			[3.0] = 12800
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -29912,11 +32409,14 @@ pg.skill_data_template = {
 	[12820] = {
 		desc_get = "",
 		name = "不滅の盾",
-		desc = "自身が戦闘可能である限り、味方主力艦隊の艦船がダメージを受けた場合に$1で発動し、15秒間味方主力艦隊の受けるダメージを$2軽減させる（この効果は20秒間に一度しか発動できない）；戦闘中、自身の耐久が最大値の20%を下回った場合一度だけ、自分の耐久を最大値の10%回復する",
 		type = 2,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、味方主力艦隊の艦船がダメージを受けた場合に$1で発動し、15秒間味方主力艦隊の受けるダメージを$2軽減させる（この効果は20秒間に一度しか発動できない）；戦闘中、自身の耐久が最大値の20%を下回った場合一度だけ、自分の耐久を最大値の10%回復する",
 		id = 12820,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -30015,11 +32515,14 @@ pg.skill_data_template = {
 	[12830] = {
 		desc_get = "",
 		name = "氷風の能代",
-		desc = "自身が戦闘可能である限り、自身の回避率が$1アップし、味方前衛艦隊が受ける雷撃ダメージを$2軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、自身の回避率が$1アップし、味方前衛艦隊が受ける雷撃ダメージを$2軽減する",
 		id = 12830,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30118,11 +32621,14 @@ pg.skill_data_template = {
 	[12840] = {
 		desc_get = "自身が軽空母・空母に与えるダメージが5%(最大20.0%）アップ；自身が戦闘可能である限り、味方前衛艦隊の雷装が5%(最大20.0%、クリティカル率が最大5.0%)アップ",
 		name = "天征す刃",
-		desc = "自身が軽空母・空母に与えるダメージが$1アップ；自身が戦闘可能である限り、味方前衛艦隊の雷装が$2$3アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が軽空母・空母に与えるダメージが$1アップ；自身が戦闘可能である限り、味方前衛艦隊の雷装が$2$3アップ",
 		id = 12840,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30257,11 +32763,14 @@ pg.skill_data_template = {
 	[12850] = {
 		desc_get = "",
 		name = "水鬼雷戦刃",
-		desc = "戦闘開始時、自身の火力・対空・対潜が$1アップ；自身が戦闘可能である限り、味方潜水艦・潜水空母が受けるダメージを$2軽減させる",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、自身の火力・対空・対潜が$1アップ；自身が戦闘可能である限り、味方潜水艦・潜水空母が受けるダメージを$2軽減させる",
 		id = 12850,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30360,11 +32869,14 @@ pg.skill_data_template = {
 	[12860] = {
 		desc_get = "",
 		name = "波舞う龍鳳",
-		desc = "戦闘中自身の三回目の航空攻撃発動まで、【現在耐久が最大値に対して占める割合が一番低い味方水上艦】の耐久を3回回復する。回復量は龍鳳の耐久最大値の$1になる（戦闘開始時、味方主力艦隊の艦船が3隻存在する場合、回復量を2倍にする）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中自身の三回目の航空攻撃発動まで、【現在耐久が最大値に対して占める割合が一番低い味方水上艦】の耐久を3回回復する。回復量は龍鳳の耐久最大値の$1になる（戦闘開始時、味方主力艦隊の艦船が3隻存在する場合、回復量を2倍にする）",
 		id = 12860,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.2%",
@@ -30418,11 +32930,14 @@ pg.skill_data_template = {
 	[12870] = {
 		desc_get = "",
 		name = "世話焼きクジラ",
-		desc = "自身が戦闘可能である限り、前衛艦隊の受ける潜水艦の魚雷攻撃ダメージを$2軽減する；味方潜水艦が戦場に到達した場合、潜水艦の耐久を$1回復する；味方潜水艦が敵艦を撃破し場合、戦闘終了まで自身の与えるダメージが$3アップ（最大6回加算可能）",
 		type = 2,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、前衛艦隊の受ける潜水艦の魚雷攻撃ダメージを$2軽減する；味方潜水艦が戦場に到達した場合、潜水艦の耐久を$1回復する；味方潜水艦が敵艦を撃破し場合、戦闘終了まで自身の与えるダメージが$3アップ（最大6回加算可能）",
 		id = 12870,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -30566,11 +33081,14 @@ pg.skill_data_template = {
 	[12880] = {
 		desc_get = "",
 		name = "水鬼雷装衝",
-		desc = "自身の魚雷によるダメージが$1アップ；魚雷発射時$2で2回発射する",
 		type = 1,
 		max_level = 10,
+		desc = "自身の魚雷によるダメージが$1アップ；魚雷発射時$2で2回発射する",
 		id = 12880,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30669,11 +33187,14 @@ pg.skill_data_template = {
 	[12890] = {
 		desc_get = "",
 		name = "ふわりんと仲間たちと",
-		desc = "戦闘開始時、前衛艦隊の霞の仲間が2以上の場合、前衛艦隊の重桜所属艦船の雷装が$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、前衛艦隊の霞の仲間が2以上の場合、前衛艦隊の重桜所属艦船の雷装が$1アップ",
 		id = 12890,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30727,11 +33248,14 @@ pg.skill_data_template = {
 	[12900] = {
 		desc_get = "",
 		name = "フェニックスフェザー！",
-		desc = "魚雷発射時$1で2回発射する；戦闘中自身がダメージを受けて耐久が最大値の20%を下回った場合に一度だけ、最大値の$2の耐久を回復する",
 		type = 1,
 		max_level = 10,
+		desc = "魚雷発射時$1で2回発射する；戦闘中自身がダメージを受けて耐久が最大値の20%を下回った場合に一度だけ、最大値の$2の耐久を回復する",
 		id = 12900,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -30830,11 +33354,14 @@ pg.skill_data_template = {
 	[12910] = {
 		desc_get = "",
 		name = "第六駆逐隊・響",
-		desc = "暁、雷、電と一緒に出撃する時、自身の火力、雷撃、装填値が$1アップ。効果は重複しない",
 		type = 1,
 		max_level = 10,
+		desc = "暁、雷、電と一緒に出撃する時、自身の火力、雷撃、装填値が$1アップ。効果は重複しない",
 		id = 12910,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30888,11 +33415,14 @@ pg.skill_data_template = {
 	[12930] = {
 		desc_get = "",
 		name = "Arias of Dido",
-		desc = "味方ダイドー級巡洋艦の火力・雷装・対空が$1アップ；戦闘開始後30秒間、自身の対空・回避・命中が$1アップ ",
 		type = 3,
 		max_level = 10,
+		desc = "味方ダイドー級巡洋艦の火力・雷装・対空が$1アップ；戦闘開始後30秒間、自身の対空・回避・命中が$1アップ ",
 		id = 12930,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30946,11 +33476,14 @@ pg.skill_data_template = {
 	[12940] = {
 		desc_get = "",
 		name = "陛下のために",
-		desc = "戦闘開始時、味方艦隊のロイヤル所属艦が1隻につき、自身の火力・対空・装填が$1アップ（最大4回まで加算可能）；「クイーン・エリザベス」と共に出撃する場合、「クイーン・エリザベス」の火力・命中・装填・回避が$2アップし、主砲のクリティカル率が$3上昇する ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊のロイヤル所属艦が1隻につき、自身の火力・対空・装填が$1アップ（最大4回まで加算可能）；「クイーン・エリザベス」と共に出撃する場合、「クイーン・エリザベス」の火力・命中・装填・回避が$2アップし、主砲のクリティカル率が$3上昇する ",
 		id = 12940,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -31094,11 +33627,14 @@ pg.skill_data_template = {
 	[12950] = {
 		desc_get = "",
 		name = "The FightingG",
-		desc = "自身の火力・命中が5%アップ。自身が戦闘中に敵を撃破する度、自身の火力・命中が$1アップ（一度の戦闘では最大5回まで加算可能） ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の火力・命中が5%アップ。自身が戦闘中に敵を撃破する度、自身の火力・命中が$1アップ（一度の戦闘では最大5回まで加算可能） ",
 		id = 12950,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -31152,11 +33688,14 @@ pg.skill_data_template = {
 	[12960] = {
 		desc_get = "",
 		name = "守りの炎",
-		desc = "戦闘中に一度だけ、味方艦がダメージを受けて耐久が最大値の50%を下回った場合、12秒間その艦が受けるダメージを$1軽減し、自身の対空が$1アップ ",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中に一度だけ、味方艦がダメージを受けて耐久が最大値の50%を下回った場合、12秒間その艦が受けるダメージを$1軽減し、自身の対空が$1アップ ",
 		id = 12960,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -31210,11 +33749,14 @@ pg.skill_data_template = {
 	[12970] = {
 		desc_get = "",
 		name = "実技指導",
-		desc = "戦闘開始後80秒間、自身の受けるダメージを$1軽減し、与えるダメージが$2アップし、自身以外の味方駆逐艦が受けるダメージを$3軽減する ",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始後80秒間、自身の受けるダメージを$1軽減し、与えるダメージが$2アップし、自身以外の味方駆逐艦が受けるダメージを$3軽減する ",
 		id = 12970,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -31358,11 +33900,14 @@ pg.skill_data_template = {
 	[12980] = {
 		desc_get = "",
 		name = "空色の氷結兵装",
-		desc = "戦闘開始時、自身の火力が$1アップし、敵の速力を低下させる弾幕を発射するオプション「特殊氷結兵装・スネジーンカ」を呼び出す。オプションは$2秒間存在する（弾幕ダメージと持続時間はスキルレベルによる）。自身が戦闘で敵を撃破した場合、自身の火力が$3アップ（最大5回まで）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、自身の火力が$1アップし、敵の速力を低下させる弾幕を発射するオプション「特殊氷結兵装・スネジーンカ」を呼び出す。オプションは$2秒間存在する（弾幕ダメージと持続時間はスキルレベルによる）。自身が戦闘で敵を撃破した場合、自身の火力が$3アップ（最大5回まで）",
 		id = 12980,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -31506,11 +34051,14 @@ pg.skill_data_template = {
 	[12990] = {
 		desc_get = "",
 		name = "火力投射指示",
-		desc = "戦闘開始時、北方連合主砲を装備している北方連合所属駆逐艦の主砲枠・装備補正が$1アップし、命中が$2アップする",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、北方連合主砲を装備している北方連合所属駆逐艦の主砲枠・装備補正が$1アップし、命中が$2アップする",
 		id = 12990,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -31609,11 +34157,14 @@ pg.skill_data_template = {
 	[13000] = {
 		desc_get = "",
 		name = "虚空の白騎兵",
-		desc = "15秒毎$1で発動。特殊弾幕を展開し、命中した敵に6秒間、「氷炎」による炎上ダメージを与える（弾幕の威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "15秒毎$1で発動。特殊弾幕を展開し、命中した敵に6秒間、「氷炎」による炎上ダメージを与える（弾幕の威力はスキルレベルによる）",
 		id = 13000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -31667,11 +34218,14 @@ pg.skill_data_template = {
 	[13010] = {
 		desc_get = "",
 		name = "白騎兵の目利き",
-		desc = "戦闘中、自身のクリティカル率が$1、自身の駆逐艦に与えるダメージが$2、自身の主砲砲弾の飛行速度が15％それぞれアップする；敵の駆逐艦の回避率が$3ダウンする",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、自身のクリティカル率が$1、自身の駆逐艦に与えるダメージが$2、自身の主砲砲弾の飛行速度が15％それぞれアップする；敵の駆逐艦の回避率が$3ダウンする",
 		id = 13010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -31815,12 +34369,15 @@ pg.skill_data_template = {
 	[13020] = {
 		desc_get = "",
 		name = "リオート・オブストレル",
-		desc = "自身の主砲攻撃時$1で発動、特殊弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時$1で発動、特殊弾幕を展開する（威力はスキルレベルによる）",
 		id = 13020,
 		system_transform = {
 			[3.0] = 13025
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -31875,11 +34432,14 @@ pg.skill_data_template = {
 	[13030] = {
 		desc_get = "",
 		name = "北方連合の気迫",
-		desc = "自身所属の艦隊で北方連合・東煌の艦船が1隻につき、自身の火力・命中が$1アップ（最大4隻分まで加算可能）。このスキルは出撃時、所属艦隊の2回目の戦闘まで適用される",
 		type = 1,
 		max_level = 10,
+		desc = "自身所属の艦隊で北方連合・東煌の艦船が1隻につき、自身の火力・命中が$1アップ（最大4隻分まで加算可能）。このスキルは出撃時、所属艦隊の2回目の戦闘まで適用される",
 		id = 13030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -31933,11 +34493,14 @@ pg.skill_data_template = {
 	[13040] = {
 		desc_get = "",
 		name = "メルクーリイへ思い出を込めて",
-		desc = "自身が戦艦・重巡洋艦に与えるダメージが$1アップ；自身がダメージを受けた場合15%で発動、$2秒間全ての攻撃を回避する（この効果は20秒間1回しか発動できない）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が戦艦・重巡洋艦に与えるダメージが$1アップ；自身がダメージを受けた場合15%で発動、$2秒間全ての攻撃を回避する（この効果は20秒間1回しか発動できない）",
 		id = 13040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -32036,11 +34599,14 @@ pg.skill_data_template = {
 	[13050] = {
 		desc_get = "",
 		name = "革命に祝福よッ！",
-		desc = "自身の主砲攻撃時、10秒間味方の北方連合艦船の火力・雷装・対空・装填が$1アップ；自身が【305mm三連装砲Model1907】を装備している場合、主砲枠の装備補正が$2アップし、自身の4回目までの主砲攻撃の装填時間を$3短縮させる",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時、10秒間味方の北方連合艦船の火力・雷装・対空・装填が$1アップ；自身が【305mm三連装砲Model1907】を装備している場合、主砲枠の装備補正が$2アップし、自身の4回目までの主砲攻撃の装填時間を$3短縮させる",
 		id = 13050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -32184,11 +34750,14 @@ pg.skill_data_template = {
 	[13060] = {
 		desc_get = "",
 		name = "氷結巡航",
-		desc = "戦闘中、受けたダメージにより自身の耐久が上限の30%を下回った時に一度だけ発動。戦闘終了まで、自身が受けるダメージを$1、味方の駆逐艦が受けるダメージを$2軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中、受けたダメージにより自身の耐久が上限の30%を下回った時に一度だけ発動。戦闘終了まで、自身が受けるダメージを$1、味方の駆逐艦が受けるダメージを$2軽減する",
 		id = 13060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -32287,11 +34856,14 @@ pg.skill_data_template = {
 	[13070] = {
 		desc_get = "",
 		name = "空駆ける銀翼",
-		desc = "自身の航空攻撃準備完了時に、SB2Cヘルダイバーによる特殊攻撃を行う$1（威力はスキルレベルによる）。この特殊攻撃が命中した敵戦艦・巡洋戦艦・航空戦艦に装甲破壊効果を与える（同じ種類の効果は最大値のみ適用される）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃準備完了時に、SB2Cヘルダイバーによる特殊攻撃を行う$1（威力はスキルレベルによる）。この特殊攻撃が命中した敵戦艦・巡洋戦艦・航空戦艦に装甲破壊効果を与える（同じ種類の効果は最大値のみ適用される）",
 		id = 13070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -32336,11 +34908,14 @@ pg.skill_data_template = {
 	[13080] = {
 		desc_get = "",
 		name = "ツイン・ドライ",
-		desc = "自身が所属している艦隊の1・3・5回目の戦闘では、自身の航空が$1アップ；2・4・6回目の戦闘では、自身の受けるダメージを$2軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "自身が所属している艦隊の1・3・5回目の戦闘では、自身の航空が$1アップ；2・4・6回目の戦闘では、自身の受けるダメージを$2軽減する",
 		id = 13080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -32439,11 +35014,14 @@ pg.skill_data_template = {
 	[13090] = {
 		desc_get = "",
 		name = "恐れなきFighting I",
-		desc = "戦闘中、ダメージを受けたことにより自身の耐久値が最大値の20%を下回った場合、下記の効果を一度だけ発動する：①20秒間、自身の受けるダメージを$1軽減する；②30秒間、自身の受ける炎上ダメージが0になる",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中、ダメージを受けたことにより自身の耐久値が最大値の20%を下回った場合、下記の効果を一度だけ発動する：①20秒間、自身の受けるダメージを$1軽減する；②30秒間、自身の受ける炎上ダメージが0になる",
 		id = 13090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -32497,11 +35075,14 @@ pg.skill_data_template = {
 	[13100] = {
 		desc_get = "",
 		name = "Flame-HEAT-Wing",
-		desc = "①自身の主砲攻撃時に$1で発動、3秒間自身の主砲によるダメージが130%になる（この効果は5秒間に一度しか発動できない）；②自身の主砲攻撃時$2で発動し、榴弾属性の特殊弾幕を展開する（威力はスキルレベルによる・この効果は10秒間に一度しか発動できない）",
 		type = 1,
 		max_level = 10,
+		desc = "①自身の主砲攻撃時に$1で発動、3秒間自身の主砲によるダメージが130%になる（この効果は5秒間に一度しか発動できない）；②自身の主砲攻撃時$2で発動し、榴弾属性の特殊弾幕を展開する（威力はスキルレベルによる・この効果は10秒間に一度しか発動できない）",
 		id = 13100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -32600,11 +35181,14 @@ pg.skill_data_template = {
 	[13110] = {
 		desc_get = "",
 		name = "相談屋の献身",
-		desc = "戦闘開始時、自身が前衛艦隊の先頭にいる場合、30秒間自身が受けるダメージを$1軽減する；自身が前衛艦隊の先頭にいない場合、戦闘終了時まで自身の対空が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、自身が前衛艦隊の先頭にいる場合、30秒間自身が受けるダメージを$1軽減する；自身が前衛艦隊の先頭にいない場合、戦闘終了時まで自身の対空が$2アップ",
 		id = 13110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -32703,19 +35287,22 @@ pg.skill_data_template = {
 	[13120] = {
 		desc_get = "",
 		name = "ヴィジランテサポーター",
-		desc = "戦闘開始時、味方艦隊に軽空母・空母が戦闘可能状態で存在している場合、自身のクリティカル率が$1アップ；軽空母・空母が1隻につき、自身の駆逐・軽巡に与えるダメージが$2アップ（最大3回まで加算可能）。自身が所属する艦隊の1・2回目の戦闘で味方軽空母・空母が受けるダメージを$3軽減する ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊に軽空母・空母が戦闘可能状態で存在している場合、自身のクリティカル率が$1アップ；軽空母・空母が1隻につき、自身の駆逐・軽巡に与えるダメージが$2アップ（最大3回まで加算可能）。自身が所属する艦隊の4回目までの戦闘で、自身と味方軽空母・空母が受けるダメージを$3軽減する ",
 		id = 13120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"5.0%",
-				"15.0%"
+				"20.0%",
+				"35.0%"
 			},
 			{
-				"1.5%",
-				"6.0%"
+				"4.0%",
+				"10.0%"
 			},
 			{
 				"5.0%",
@@ -32725,84 +35312,84 @@ pg.skill_data_template = {
 		desc_add = {
 			{
 				{
-					"5.0%",
-					"+1.1%"
+					"20.0%",
+					"+1.6%"
 				},
 				{
-					"6.1%",
-					"+1.1%"
+					"21.6%",
+					"+1.6%"
 				},
 				{
-					"7.2%",
-					"+1.1%"
+					"23.2%",
+					"+1.6%"
 				},
 				{
-					"8.3%",
-					"+1.1%"
+					"24.8%",
+					"+1.6%"
 				},
 				{
-					"9.4%",
-					"+1.1%"
+					"26.4%",
+					"+1.6%"
 				},
 				{
-					"10.5%",
-					"+1.1%"
+					"28.0%",
+					"+1.6%"
 				},
 				{
-					"11.6%",
-					"+1.1%"
+					"29.6%",
+					"+1.8%"
 				},
 				{
-					"12.7%",
-					"+1.1%"
+					"31.4%",
+					"+1.8%"
 				},
 				{
-					"13.8%",
-					"+1.2%"
+					"33.2%",
+					"+1.8%"
 				},
 				{
-					"15.0%"
+					"35.0%"
 				}
 			},
 			{
 				{
-					"1.5%",
-					"+0.5%"
-				},
-				{
-					"2.0%",
-					"+0.5%"
-				},
-				{
-					"2.5%",
-					"+0.5%"
-				},
-				{
-					"3.0%",
-					"+0.5%"
-				},
-				{
-					"3.5%",
-					"+0.5%"
-				},
-				{
 					"4.0%",
-					"+0.5%"
+					"+0.6%"
 				},
 				{
-					"4.5%",
-					"+0.5%"
+					"4.6%",
+					"+0.6%"
 				},
 				{
-					"5.0%",
-					"+0.5%"
+					"5.2%",
+					"+0.8%"
 				},
 				{
-					"5.5%",
-					"+0.5%"
+					"6.0%",
+					"+0.6%"
 				},
 				{
-					"6.0%"
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
 				}
 			},
 			{
@@ -32851,11 +35438,14 @@ pg.skill_data_template = {
 	[13130] = {
 		desc_get = "",
 		name = "サイクロンブラックキャット",
-		desc = "①戦闘開始後20秒毎に発動。10秒間自身の火力が$2アップし、敵潜水艦を10秒間探知済み状態にし受けるダメージ$3上昇させ、さらに一回攻撃する水上機を呼び出す$1。②自身が【PBY-5Aカタリナ】を装備している場合、自身の耐久が最大値の40％を下回った場合に一度だけ発動。水上機による特殊航空攻撃を行う（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "①戦闘開始後20秒毎に発動。10秒間自身の火力が$2アップし、敵潜水艦を10秒間探知済み状態にし受けるダメージ$3上昇させ、さらに一回攻撃する水上機を呼び出す$1。②自身が【PBY-5Aカタリナ】を装備している場合、自身の耐久が最大値の40％を下回った場合に一度だけ発動。水上機による特殊航空攻撃を行う（威力はスキルレベルによる）",
 		id = 13130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -32990,19 +35580,22 @@ pg.skill_data_template = {
 	[13140] = {
 		desc_get = "",
 		name = "リノリアクター",
-		desc = "戦闘開始時、自身の対空が$1、火力が$2アップ；戦闘中味方の主力艦が3回ダメージを受けるたびに、戦闘終了時まで自身の対空・火力$3アップ（最大2回まで加算可能）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身の対空が$1、火力が$2アップ；戦闘中自身以外の味方艦船が2回ダメージを受けるたびに、戦闘終了時まで自身の対空・火力$3アップ（最大2回まで加算可能）",
 		id = 13140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
 				"15.0%"
 			},
 			{
-				"4.5%",
-				"12.0%"
+				"5.0%",
+				"15.0%"
 			},
 			{
 				"1.5%",
@@ -33053,43 +35646,43 @@ pg.skill_data_template = {
 			},
 			{
 				{
-					"4.5%",
-					"+0.7%"
+					"5.0%",
+					"+1.1%"
 				},
 				{
-					"5.2%",
-					"+0.8%"
+					"6.1%",
+					"+1.1%"
 				},
 				{
-					"6.0%",
-					"+1.0%"
+					"7.2%",
+					"+1.1%"
 				},
 				{
-					"7.0%",
-					"+0.7%"
+					"8.3%",
+					"+1.1%"
 				},
 				{
-					"7.7%",
-					"+0.8%"
+					"9.4%",
+					"+1.1%"
 				},
 				{
-					"8.5%",
-					"+1.0%"
+					"10.5%",
+					"+1.1%"
 				},
 				{
-					"9.5%",
-					"+0.7%"
+					"11.6%",
+					"+1.1%"
 				},
 				{
-					"10.2%",
-					"+0.8%"
+					"12.7%",
+					"+1.1%"
 				},
 				{
-					"11.0%",
-					"+1.0%"
+					"13.8%",
+					"+1.2%"
 				},
 				{
-					"12.0%"
+					"15.0%"
 				}
 			},
 			{
@@ -33138,12 +35731,15 @@ pg.skill_data_template = {
 	[13150] = {
 		desc_get = "",
 		name = "ブルーハンター",
-		desc = "自身の駆逐艦・軽巡洋艦に与えるダメージが$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の駆逐艦・軽巡洋艦に与えるダメージが$1アップ",
 		id = 13150,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -33198,12 +35794,15 @@ pg.skill_data_template = {
 	[13160] = {
 		desc_get = "",
 		name = "奮えば成す！",
-		desc = "自身の主砲攻撃時$1で発動。自身の配置位置に影響されない特殊弾幕を展開する$2（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時$1で発動。自身の配置位置に影響されない特殊弾幕を展開する$2（威力はスキルレベルによる）",
 		id = 13160,
 		system_transform = {
 			[3.0] = 13165
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -33294,11 +35893,14 @@ pg.skill_data_template = {
 	[13170] = {
 		desc_get = "",
 		name = "凌げば討つ！",
-		desc = "①自身が所属している艦隊以外で、かつ旗艦が戦艦の艦隊が行った戦闘のみで数えて3・4・5回目の戦闘開始20秒後、自身が戦闘可能である限り、【土佐】による特殊支援弾幕を展開する；②自身が所属している艦隊の戦闘中、自身がダメージを受けるか、敵が一定範囲内に入った時、特殊弾幕$1（威力はスキルレベルによる）を展開する。②は15秒に一回しか発動できない",
 		type = 3,
 		max_level = 10,
+		desc = "①自身が所属している艦隊以外で、かつ旗艦が戦艦の艦隊が行った戦闘のみで数えて3・4・5回目の戦闘開始20秒後、自身が戦闘可能である限り、【土佐】による特殊支援弾幕を展開する；②自身が所属している艦隊の戦闘中、自身がダメージを受けるか、敵が一定範囲内に入った時、特殊弾幕$1（威力はスキルレベルによる）を展開する。②は15秒に一回しか発動できない",
 		id = 13170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -33343,11 +35945,14 @@ pg.skill_data_template = {
 	[13180] = {
 		desc_get = "",
 		name = "ルンガ沖突貫",
-		desc = "戦闘開始時、前衛艦隊が3隻戦闘可能かつ自身が中間の位置にいる場合、前衛艦隊の軽巡洋艦・駆逐艦の雷装が$1、魚雷攻撃クリティカル率が$2アップし、駆逐艦の回避が$3アップする",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、前衛艦隊が3隻戦闘可能かつ自身が中間の位置にいる場合、前衛艦隊の軽巡洋艦・駆逐艦の雷装が$1、魚雷攻撃クリティカル率が$2アップし、駆逐艦の回避が$3アップする",
 		id = 13180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -33491,11 +36096,14 @@ pg.skill_data_template = {
 	[13190] = {
 		desc_get = "",
 		name = "怖くないからね！",
-		desc = "自身が重桜主砲を装備している場合、戦闘で受けるダメージを$1軽減する；他の陣営の主砲を装備している場合、戦闘開始時自身の対空砲補正が50%ダウン、主兵装補正が$2・魚雷補正が$3アップし、さらに全弾発射スキル発動時に特殊魚雷弾幕を展開する$4(威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が重桜主砲を装備している場合、戦闘で受けるダメージを$1軽減する；他の陣営の主砲を装備している場合、戦闘開始時自身の対空砲補正が50%ダウン、主兵装補正が$2・魚雷補正が$3アップし、さらに全弾発射スキル発動時に特殊魚雷弾幕を展開する$4(威力はスキルレベルによる）",
 		id = 13190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -33675,11 +36283,14 @@ pg.skill_data_template = {
 	[13200] = {
 		desc_get = "",
 		name = "騎士隊の射撃訓練",
-		desc = "戦闘中、自身の3回目までの主砲攻撃の装填時間を40%短縮し、与えるダメージが40%・$1・$2になる。四回目以降の自身の主砲攻撃で与えるダメージが$2になる",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の3回目までの主砲攻撃の装填時間を40%短縮し、与えるダメージが40%・$1・$2になる。四回目以降の自身の主砲攻撃で与えるダメージが$2になる",
 		id = 13200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"60.0%",
@@ -33778,11 +36389,14 @@ pg.skill_data_template = {
 	[13210] = {
 		desc_get = "",
 		name = "騎士隊の陣形訓練",
-		desc = "戦闘開始時、味方のロイヤル艦船が一隻につき、自身の火力・命中・装填が$1アップ（最大4回まで加算可能）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方のロイヤル艦船が一隻につき、自身の火力・命中・装填が$1アップ（最大4回まで加算可能）",
 		id = 13210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -33836,22 +36450,30 @@ pg.skill_data_template = {
 	[13220] = {
 		desc_get = "",
 		name = "凌げば討つ！",
-		desc = "",
 		type = 1,
 		max_level = 10,
+		desc = "",
 		id = 13220,
-		system_transform = {},
+		system_transform = {
+			[51.0] = 13225
+		},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[13230] = {
 		desc_get = "",
 		name = "聖裁のZ",
-		desc = "戦闘開始時、味方艦隊でアイリス・ヴィシア所属の軽巡洋艦・重巡洋艦がいる場合、自身の火力・回避が$1アップし、味方のアイリス・ヴィシア所属の軽巡洋艦・重巡洋艦の火力・対空が$2アップ ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊でアイリス・ヴィシア所属の軽巡洋艦・重巡洋艦がいる場合、自身の火力・回避が$1アップし、味方のアイリス・ヴィシア所属の軽巡洋艦・重巡洋艦の火力・対空が$2アップ ",
 		id = 13230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -33950,11 +36572,14 @@ pg.skill_data_template = {
 	[13240] = {
 		desc_get = "",
 		name = "アイリスの旗印",
-		desc = "自身が旗艦として出撃する場合、味方アイリス・ヴィシア所属の艦船の火力・雷装・命中・装填が$1アップ、アイリス艦船が敵に与えるダメージが$2アップし、ヴィシア艦船が敵から受けるダメージを$2軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "自身が旗艦として出撃する場合、味方アイリス・ヴィシア所属の艦船の火力・雷装・命中・装填が$1アップ、アイリス艦船が敵に与えるダメージが$2アップし、ヴィシア艦船が敵から受けるダメージを$2軽減する",
 		id = 13240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34053,12 +36678,15 @@ pg.skill_data_template = {
 	[13250] = {
 		desc_get = "",
 		name = "アイリスの聖炎",
-		desc = "自身の主砲攻撃時$1発動、特殊弾幕$2を展開する（威力はスキルレベルによる）。この弾幕が命中した敵は70%の確率で特殊炎上状態になり（炎上によるダメージは119/回）、30秒間火力・雷装・航空が5%ダウンする",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時$1発動、特殊弾幕$2を展開する（威力はスキルレベルによる）。この弾幕が命中した敵は70%の確率で特殊炎上状態になり（炎上によるダメージは119/回）、30秒間火力・雷装・航空が5%ダウンする",
 		id = 13250,
 		system_transform = {
 			[3.0] = 13255
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -34149,11 +36777,14 @@ pg.skill_data_template = {
 	[13260] = {
 		desc_get = "",
 		name = "アイリスの激憤",
-		desc = "自身が装備している主砲の弾薬属性が榴弾である場合、戦闘中主砲によるダメージが$1アップする。手動で主砲攻撃を行う場合1回目の砲撃が必ずクリティカルになる",
 		type = 1,
 		max_level = 10,
+		desc = "自身が装備している主砲の弾薬属性が榴弾である場合、戦闘中主砲によるダメージが$1アップする。手動で主砲攻撃を行う場合1回目の砲撃が必ずクリティカルになる",
 		id = 13260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -34207,11 +36838,14 @@ pg.skill_data_template = {
 	[13270] = {
 		desc_get = "",
 		name = "熱風の轟炎",
-		desc = "自身が炎上状態の敵艦に与えるダメージが$1アップ；戦闘開始時20秒後、または自身の主砲攻撃時$3で発動し、確率で命中した敵を炎上状態にする特殊弾幕$2を展開する（威力はスキルレベルによる・主砲攻撃時に発動した場合、10秒に一度しか発動できない）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が炎上状態の敵艦に与えるダメージが$1アップ；戦闘開始時20秒後、または自身の主砲攻撃時$3で発動し、確率で命中した敵を炎上状態にする特殊弾幕$2を展開する（威力はスキルレベルによる・主砲攻撃時に発動した場合、10秒に一度しか発動できない）",
 		id = 13270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34346,11 +36980,14 @@ pg.skill_data_template = {
 	[13280] = {
 		desc_get = "",
 		name = "神穹の盾",
-		desc = "戦闘開始時、また戦闘開始後30秒毎に発動し、魚雷攻撃を5回無効化する最大20秒持続する盾を展開する。この盾が存在している限り、自身の火力が$1アップし、駆逐艦・戦艦に与えるダメージが$2アップ。マニュアルモード状態に移行して5秒後、自身の回避が$3・速力が8アップ（オートモードだと無効になる）",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、また戦闘開始後30秒毎に発動し、魚雷攻撃を5回無効化する最大20秒持続する盾を展開する。この盾が存在している限り、自身の火力が$1アップし、駆逐艦・戦艦に与えるダメージが$2アップ。マニュアルモード状態に移行して5秒後、自身の回避が$3・速力が8アップ（オートモードだと無効になる）",
 		id = 13280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34494,11 +37131,14 @@ pg.skill_data_template = {
 	[13290] = {
 		desc_get = "",
 		name = "La Pucelle",
-		desc = "自身のロイヤル艦船に与えるダメージが$1アップ。戦闘開始時発動し、30秒間自身が3秒ごとに8ダメージを受ける炎上状態になり、また自身が炎上以外のダメージを受けるたびに10％で再度発動する；自身が炎上状態である限り、自身の火力・雷装・対空・回避が$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身のロイヤル艦船に与えるダメージが$1アップ。戦闘開始時発動し、30秒間自身が3秒ごとに8ダメージを受ける炎上状態になり、また自身が炎上以外のダメージを受けるたびに10％で再度発動する；自身が炎上状態である限り、自身の火力・雷装・対空・回避が$2アップ",
 		id = 13290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -34597,11 +37237,14 @@ pg.skill_data_template = {
 	[13300] = {
 		desc_get = "",
 		name = "神聖なる祈り",
-		desc = "戦闘開始10秒後、その後20秒ごとに、前衛艦隊にジャンヌ・ダルクの耐久値上限の$1までダメージを吸収する、8秒間持続する盾を展開する。この盾はダメージを最大まで吸収して消滅した場合、その艦船は2秒間全ての攻撃を回避する；この盾が持続時間が経過し消滅した場合、その艦船の耐久を70回復する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始10秒後、その後20秒ごとに、前衛艦隊にジャンヌ・ダルクの耐久値上限の$1までダメージを吸収する、8秒間持続する盾を展開する。この盾はダメージを最大まで吸収して消滅した場合、その艦船は2秒間全ての攻撃を回避する；この盾が持続時間が経過し消滅した場合、その艦船の耐久を70回復する",
 		id = 13300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -34655,11 +37298,14 @@ pg.skill_data_template = {
 	[13310] = {
 		desc_get = "",
 		name = "バイタルパート防御",
-		desc = "自身が受ける軽巡・駆逐艦による砲撃のダメージを$1軽減する；出撃時、前衛艦隊が重巡・軽巡のみの場合、自身の速力が4、回避が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が受ける軽巡・駆逐艦による砲撃のダメージを$1軽減する；出撃時、前衛艦隊が重巡・軽巡のみの場合、自身の速力が4、回避が$1アップ",
 		id = 13310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34713,11 +37359,14 @@ pg.skill_data_template = {
 	[13320] = {
 		desc_get = "",
 		name = "インクァズ弾",
-		desc = "戦闘開始時、自身の火力・雷装が$1アップ；自身が主砲攻撃を$2回行う度に、自身との距離が一番近い敵に向けて特殊弾幕を展開する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、自身の火力・雷装が$1アップ；自身が主砲攻撃を$2回行う度に、自身との距離が一番近い敵に向けて特殊弾幕を展開する",
 		id = 13320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -34852,11 +37501,14 @@ pg.skill_data_template = {
 	[13330] = {
 		desc_get = "",
 		name = "Sonnez la charge!",
-		desc = "戦闘開始時、ヴォークラン級駆逐艦の雷装・回避が$1アップし、30秒間自身の火力・対空・命中が$2アップする",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、ヴォークラン級駆逐艦の雷装・回避が$1アップし、30秒間自身の火力・対空・命中が$2アップする",
 		id = 13330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34955,11 +37607,14 @@ pg.skill_data_template = {
 	[13340] = {
 		desc_get = "",
 		name = "秘蹟・聖装砲撃",
-		desc = "自身の副兵装枠に主砲が装備されている場合、【副兵装枠の威力補正が$1アップし、装備されている主砲の索敵範囲と射程が80になり、戦闘中24秒毎に特殊弾幕を展開する】を得る；爆撃機が装備されている場合、自身の1回目の航空攻撃の準備時間を$2短縮させる",
 		type = 1,
 		max_level = 10,
+		desc = "自身の副兵装枠に主砲が装備されている場合、【副兵装枠の威力補正が$1アップし、装備されている主砲の索敵範囲と射程が80になり、戦闘中24秒毎に特殊弾幕を展開する】を得る；爆撃機が装備されている場合、自身の1回目の航空攻撃の準備時間を$2短縮させる",
 		id = 13340,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"25.0%",
@@ -35058,11 +37713,14 @@ pg.skill_data_template = {
 	[13350] = {
 		desc_get = "",
 		name = "秘蹟・聖翼積装",
-		desc = "自身の航空攻撃準備完了5秒後、一度だけ魚雷弾幕＋特殊航空攻撃$1を行う（威力はスキルレベルによる）。この効果は一度の戦闘で3回までしか発動できない",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃準備完了5秒後、一度だけ魚雷弾幕＋特殊航空攻撃$1を行う（威力はスキルレベルによる）。この効果は一度の戦闘で3回までしか発動できない",
 		id = 13350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -35107,11 +37765,14 @@ pg.skill_data_template = {
 	[13360] = {
 		desc_get = "",
 		name = "艦載機発進よーい！",
-		desc = "自身の航空攻撃時$1で発動。ソードフィッシュによる特殊航空攻撃$2を行う（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃時$1で発動。ソードフィッシュによる特殊航空攻撃$2を行う（威力はスキルレベルによる）",
 		id = 13360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -35201,11 +37862,14 @@ pg.skill_data_template = {
 	[13370] = {
 		desc_get = "",
 		name = "愛と平和への願いを",
-		desc = "戦闘開始後12秒、またその後20秒毎は$2で発動。特殊攻撃を行う艦載機を召喚し、命中した敵の命中率を30％ダウンさせる特殊航空攻撃$1を行う（威力はスキルレベルによる）。この命中低下効果は4秒間0まで減少し続ける",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始後12秒、またその後20秒毎は$2で発動。特殊攻撃を行う艦載機を召喚し、命中した敵の命中率を30％ダウンさせる特殊航空攻撃$1を行う（威力はスキルレベルによる）。この命中低下効果は4秒間0まで減少し続ける",
 		id = 13370,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -35295,11 +37959,14 @@ pg.skill_data_template = {
 	[13380] = {
 		desc_get = "",
 		name = "クラ湾の夢",
-		desc = "戦闘中、自身が受ける魚雷ダメージを$1軽減する；戦闘開始時、味方前衛艦隊の艦船が3隻存在し、かつ最後尾は自身以外のユニオン艦船である場合、その艦船の回避が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、自身が受ける魚雷ダメージを$1軽減する；戦闘開始時、味方前衛艦隊の艦船が3隻存在し、かつ最後尾は自身以外のユニオン艦船である場合、その艦船の回避が$2アップ",
 		id = 13380,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -35398,11 +38065,14 @@ pg.skill_data_template = {
 	[13390] = {
 		desc_get = "",
 		name = "エスキモー、アタック！",
-		desc = "30秒毎$1で特殊弾幕を展開する（威力はスキルレベルによる）；戦闘中に1度だけ、ダメージを受けることにより自身の耐久が最大値の30％を下回った場合、自身の耐久を最大値の10％回復し、特殊弾幕を展開する",
 		type = 1,
 		max_level = 10,
+		desc = "30秒毎$1で特殊弾幕を展開する（威力はスキルレベルによる）；戦闘中に1度だけ、ダメージを受けることにより自身の耐久が最大値の30％を下回った場合、自身の耐久を最大値の10％回復し、特殊弾幕を展開する",
 		id = 13390,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -35456,11 +38126,14 @@ pg.skill_data_template = {
 	[13400] = {
 		desc_get = "",
 		name = "レーダー探知・改",
-		desc = "20秒毎$1で発動。10秒間敵の受けるダメージが$2アップ。自身がSGレーダーを装備している場合、回避が$3アップし、このスキルの1回目の発動判定が20秒→16秒に短縮される",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎$1で発動。10秒間敵の受けるダメージが$2アップ。自身がSGレーダーを装備している場合、回避が$3アップし、このスキルの1回目の発動判定が20秒→16秒に短縮される",
 		id = 13400,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -35604,11 +38277,14 @@ pg.skill_data_template = {
 	[13410] = {
 		desc_get = "",
 		name = "ニュム・スクランブラー",
-		desc = "戦闘開始時、自身の$1回の航空攻撃準備を完了させる；戦闘中、自身の艦載機の航空攻撃の準備時間が90%長くなり、自身の航空攻撃が行われる度に前衛艦隊の耐久が$2、主力艦隊の耐久が$3回復する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、自身の$1回の航空攻撃準備を完了させる；戦闘中、自身の艦載機の航空攻撃の準備時間が90%長くなり、自身の航空攻撃が行われる度に前衛艦隊の耐久が$2、主力艦隊の耐久が$3回復する",
 		id = 13410,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1",
@@ -35743,11 +38419,14 @@ pg.skill_data_template = {
 	[13420] = {
 		desc_get = "",
 		name = "アテネ・カタパルト",
-		desc = "戦闘開始後12秒毎に、シーホーネット/TBFアベンジャー/ファイアフライからランダムに1種類で編成された攻撃隊による特殊航空攻撃を行う$1",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後12秒毎に、シーホーネット/TBFアベンジャー/ファイアフライからランダムに1種類で編成された攻撃隊による特殊航空攻撃を行う$1",
 		id = 13420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -35792,11 +38471,14 @@ pg.skill_data_template = {
 	[13430] = {
 		desc_get = "",
 		name = "ハデス・リペアラー",
-		desc = "自身の攻撃隊上限が3になり、戦闘中$2秒毎に所属艦隊の艦船の耐久が1.0%回復する；自身が所属している艦隊以外の艦隊の戦闘開始時、【自身が戦闘可能である限り、戦闘開始20秒後、戦闘中の前衛艦隊の耐久を$1回復する】効果を展開",
 		type = 3,
 		max_level = 10,
+		desc = "自身の攻撃隊上限が3になり、戦闘中$2秒毎に所属艦隊の艦船の耐久が1.0%回復する；自身が所属している艦隊以外の艦隊の戦闘開始時、【自身が戦闘可能である限り、戦闘開始20秒後、戦闘中の前衛艦隊の耐久を$1回復する】効果を展開",
 		id = 13430,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -35895,11 +38577,14 @@ pg.skill_data_template = {
 	[13440] = {
 		desc_get = "",
 		name = "射撃シンクロナイズ",
-		desc = "戦闘開始後$1秒毎に、ランダムな敵に対して特殊弾幕攻撃$2を行い（威力はスキルレベルによる）、8秒間味方主力艦隊の戦艦・巡洋戦艦・航空戦艦の命中・装填が$3アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後$1秒毎に、ランダムな敵に対して特殊弾幕攻撃$2を行い（威力はスキルレベルによる）、8秒間味方主力艦隊の戦艦・巡洋戦艦・航空戦艦の命中・装填が$3アップ",
 		id = 13440,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"35",
@@ -36034,11 +38719,14 @@ pg.skill_data_template = {
 	[13450] = {
 		desc_get = "",
 		name = "朽ちぬ騎士の結束",
-		desc = "戦闘開始時、自身の火力・装填が$1アップ；キングジョージ級の戦艦かモナークと同じ艦隊に編成されている、もしくは所属艦隊でロイヤル所属の艦船が3隻以上いる場合、自身の火力・対空が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身の火力・装填が$1アップ；キングジョージ級の戦艦かモナークと同じ艦隊に編成されている、もしくは所属艦隊でロイヤル所属の艦船が3隻以上いる場合、自身の火力・対空が$1アップ",
 		id = 13450,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -36092,11 +38780,14 @@ pg.skill_data_template = {
 	[13460] = {
 		desc_get = "",
 		name = "ブラスト・ジェミニオ",
-		desc = "戦闘開始後15秒毎に特殊弾幕$1を展開する；このスキルによる特殊弾幕を展開時、自身の半径距離30以内に敵が存在しない場合、さらに特殊投射弾幕$1を展開する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後15秒毎に特殊弾幕$1を展開する；このスキルによる特殊弾幕を展開時、自身の半径距離30以内に敵が存在しない場合、さらに特殊投射弾幕$1を展開する",
 		id = 13460,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36141,11 +38832,14 @@ pg.skill_data_template = {
 	[13470] = {
 		desc_get = "",
 		name = "縁の下の応援",
-		desc = "戦闘開始時、自身が前衛艦隊の先頭にいない場合、自身の火力・雷装・対空・装填が$1アップ；味方艦隊に自身以外のロイヤル艦船がいる場合、自身が敵に与えるダメージが$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身が前衛艦隊の先頭にいない場合、自身の火力・雷装・対空・装填が$1アップ；味方艦隊に自身以外のロイヤル艦船がいる場合、自身が敵に与えるダメージが$2アップ",
 		id = 13470,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -36244,11 +38938,14 @@ pg.skill_data_template = {
 	[13480] = {
 		desc_get = "",
 		name = "全弾発射・火力制圧です！",
-		desc = "戦闘開始5秒後、特殊弾幕$1を展開する（威力はスキルレベルによる；戦闘開始後30秒毎に、$2でこの特殊弾幕を再度展開する）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始5秒後、特殊弾幕$1を展開する（威力はスキルレベルによる；戦闘開始後30秒毎に、$2でこの特殊弾幕を再度展開する）",
 		id = 13480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36338,11 +39035,14 @@ pg.skill_data_template = {
 	[13490] = {
 		desc_get = "",
 		name = "雷撃集中…ですね！",
-		desc = "戦闘開始時及び戦闘開始後20秒毎に発動。10秒間、自身が受ける魚雷ダメージを$1軽減し、自身の魚雷弾幕を変更する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時及び戦闘開始後20秒毎に発動。10秒間、自身が受ける魚雷ダメージを$1軽減し、自身の魚雷弾幕を変更する",
 		id = 13490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"6.0%",
@@ -36396,11 +39096,14 @@ pg.skill_data_template = {
 	[13500] = {
 		desc_get = "",
 		name = "カリスマ・ワンショット",
-		desc = "自身の主砲攻撃10秒後、特殊弾幕$1を展開し、この特殊弾幕が命中した敵を10秒間装甲貫通破壊効果を与える（威力はスキルレベルによる）",
 		type = 3,
 		max_level = 10,
+		desc = "自身の主砲攻撃10秒後、特殊弾幕$1を展開し、この特殊弾幕が命中した敵を10秒間装甲貫通破壊効果を与える（威力はスキルレベルによる）",
 		id = 13500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36445,11 +39148,14 @@ pg.skill_data_template = {
 	[13510] = {
 		desc_get = "",
 		name = "カリスマ・フルチャージ",
-		desc = "自身の主砲攻撃時、$1で前方に特殊弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時、$1で前方に特殊弾幕を展開する（威力はスキルレベルによる）",
 		id = 13510,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -36503,11 +39209,14 @@ pg.skill_data_template = {
 	[13520] = {
 		desc_get = "",
 		name = "王家技術・騎装爆撃",
-		desc = "自身の副兵装枠に主砲が装備されている場合、【副兵装枠の威力補正が$1アップし、装備されている主砲の索敵範囲と射程が80になり、戦闘中24秒毎に特殊弾幕を展開する】効果を得る;爆撃機が装備されている場合、自身の1回目の航空攻撃の準備時間を$2短縮させる",
 		type = 1,
 		max_level = 10,
+		desc = "自身の副兵装枠に主砲が装備されている場合、【副兵装枠の威力補正が$1アップし、装備されている主砲の索敵範囲と射程が80になり、戦闘中24秒毎に特殊弾幕を展開する】効果を得る;爆撃機が装備されている場合、自身の1回目の航空攻撃の準備時間を$2短縮させる",
 		id = 13520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"25.0%",
@@ -36606,11 +39315,14 @@ pg.skill_data_template = {
 	[13530] = {
 		desc_get = "",
 		name = "王家技術・鷹翼積装",
-		desc = "自身の航空攻撃時、ソードフィッシュによる航空雷撃攻撃$1を追加で行う",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃時、ソードフィッシュによる航空雷撃攻撃$1を追加で行う",
 		id = 13530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36655,23 +39367,31 @@ pg.skill_data_template = {
 	[13540] = {
 		desc_get = "",
 		name = "ハデス・リペアラー",
-		desc = "支援效果ID占位",
 		type = 2,
 		max_level = 10,
+		desc = "支援效果ID占位",
 		id = 13540,
-		system_transform = {},
+		system_transform = {
+			[51.0] = 13545
+		},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[13550] = {
 		desc_get = "",
 		name = "ノコギリはクールに微笑む",
-		desc = "戦闘中、自身による魚雷攻撃のクリティカル率が$1アップ；戦闘開始時、特殊魚雷攻撃$2を行う（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身による魚雷攻撃のクリティカル率が$1アップ；戦闘開始時、特殊魚雷攻撃$2を行う（威力はスキルレベルによる）",
 		id = 13550,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -36762,12 +39482,15 @@ pg.skill_data_template = {
 	[13560] = {
 		desc_get = "",
 		name = "ウルフパック-U96",
-		desc = "出撃時、味方鉄血潜水艦の命中が$1・クリティカルダメージが$2アップ；出撃時、味方潜水艦1隻につき、自身の命中・装填・回避が$3アップ",
 		type = 1,
 		max_level = 10,
+		desc = "出撃時、味方鉄血潜水艦の命中が$1・クリティカルダメージが$2アップ；出撃時、味方潜水艦1隻につき、自身の命中・装填・回避が$3アップ",
 		id = 13560,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -36912,11 +39635,14 @@ pg.skill_data_template = {
 	[13570] = {
 		desc_get = "",
 		name = "魚雷反射シールド、です！",
-		desc = "戦闘開始10秒後、20秒間持続する・魚雷攻撃を3回無効できるシールドを1枚生成する；この効果で生成されたシールドが消滅した場合、下記の効果を発揮する【特殊魚雷攻撃$1を発動し、30秒後シールドを再度生成する】",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始10秒後、20秒間持続する・魚雷攻撃を3回無効できるシールドを1枚生成する；この効果で生成されたシールドが消滅した場合、下記の効果を発揮する【特殊魚雷攻撃$1を発動し、30秒後シールドを再度生成する】",
 		id = 13570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36961,11 +39687,14 @@ pg.skill_data_template = {
 	[13580] = {
 		desc_get = "",
 		name = "幾望の嵐",
-		desc = "戦闘開始3秒後、彩雲による航空偵察を行う；自身が航空攻撃を行う場合、試製紫電改二・流星・彩雲による特殊航空攻撃を行う$1（彩雲は敵を攻撃せず、ランダムの敵1体の火力・雷装・対空を戦闘終了まで3%ダウンさせ、さらに受けるダメージを3%アップさせる；この効果は人型の敵を優先とし、最大3回まで加算できる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始3秒後、彩雲による航空偵察を行う；自身が航空攻撃を行う場合、試製紫電改二・流星・彩雲による特殊航空攻撃を行う$1（彩雲は敵を攻撃せず、ランダムの敵1体の火力・雷装・対空を戦闘終了まで3%ダウンさせ、さらに受けるダメージを3%アップさせる；この効果は人型の敵を優先とし、最大3回まで加算できる）",
 		id = 13580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -37010,11 +39739,14 @@ pg.skill_data_template = {
 	[13590] = {
 		desc_get = "",
 		name = "弓張りの夢蝶",
-		desc = "戦闘中15秒毎、特殊弾幕攻撃を展開する$2；自身の艦隊が海域で行った1・2回目の戦闘開始時、自身の航空が$1アップ；自身が所属している艦隊以外の艦隊が行った戦闘のみで数えて3・4・5回目の戦闘開始15秒後、特殊弾幕を1回だけ展開する$2（威力はスキルレベルによる）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中15秒毎、特殊弾幕攻撃を展開する$2；自身の艦隊が海域で行った1・2回目の戦闘開始時、自身の航空が$1アップ；自身が所属している艦隊以外の艦隊が行った戦闘のみで数えて3・4・5回目の戦闘開始15秒後、特殊弾幕を1回だけ展開する$2（威力はスキルレベルによる）",
 		id = 13590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -37104,11 +39836,14 @@ pg.skill_data_template = {
 	[13600] = {
 		desc_get = "",
 		name = "朔月の守り",
-		desc = "戦闘開始時、自身が戦闘可能である限り、駆逐艦の火力・回避・対潜が$1アップ；味方艦隊で重桜艦船が3隻以上いる場合、自身が受ける砲撃・航空攻撃ダメージを$2軽減し、味方重桜空母の航空・命中が$1アップ",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、自身が戦闘可能である限り、駆逐艦の火力・回避・対潜が$1アップ；味方艦隊で重桜艦船が3隻以上いる場合、自身が受ける砲撃・航空攻撃ダメージを$2軽減し、味方重桜空母の航空・命中が$1アップ",
 		id = 13600,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -37207,12 +39942,15 @@ pg.skill_data_template = {
 	[13610] = {
 		desc_get = "",
 		name = "紀伊艦隊・戦術解放！",
-		desc = "戦闘開始後20秒毎$1で発動。特殊弾幕$2を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後20秒毎$1で発動。特殊弾幕$2を展開する（威力はスキルレベルによる）",
 		id = 13610,
 		system_transform = {
 			[3.0] = 13615
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -37303,11 +40041,14 @@ pg.skill_data_template = {
 	[13620] = {
 		desc_get = "",
 		name = "大活躍の奮進敢闘",
-		desc = "自身が戦闘可能である限り、所属主力艦隊の重桜艦船の対空が$1アップ；戦闘開始時、所属艦隊の重桜艦船が3隻以上いる場合、自身の火力が$2アップし、前衛艦隊の艦船の雷装が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦闘可能である限り、所属主力艦隊の重桜艦船の対空が$1アップ；戦闘開始時、所属艦隊の重桜艦船が3隻以上いる場合、自身の火力が$2アップし、前衛艦隊の艦船の雷装が$2アップ",
 		id = 13620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -37406,11 +40147,14 @@ pg.skill_data_template = {
 	[13630] = {
 		desc_get = "",
 		name = "涼月、突貫致す！",
-		desc = "戦闘開始時、自身が所属している艦隊での重桜艦船の数だけ自身の火力・対空が$1アップし、さらに対空範囲内で敵艦載機が2機撃墜される度にこの効果を1回適用する（この効果は最大6回=6隻分まで加算できる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、自身が所属している艦隊での重桜艦船の数だけ自身の火力・対空が$1アップし、さらに対空範囲内で敵艦載機が2機撃墜される度にこの効果を1回適用する（この効果は最大6回=6隻分まで加算できる）",
 		id = 13630,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -37464,11 +40208,14 @@ pg.skill_data_template = {
 	[13640] = {
 		desc_get = "",
 		name = "涼月、かく乱致す！",
-		desc = "戦闘開始3秒後とその後15秒毎、特殊弾幕を1回展開し、5秒間煙幕の中の味方艦船の回避率を$1上昇させる煙幕を$2で展開する（弾幕の威力はスキルレベルによる・1回目の特殊弾幕発動時、煙幕を100%展開する）；戦闘中、自身がダメージを受けたことにより耐久が上限の20%を下回った場合に一度だけ、自身の耐久を$3回復する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始3秒後とその後15秒毎、特殊弾幕を1回展開し、5秒間煙幕の中の味方艦船の回避率を$1上昇させる煙幕を$2で展開する（弾幕の威力はスキルレベルによる・1回目の特殊弾幕発動時、煙幕を100%展開する）；戦闘中、自身がダメージを受けたことにより耐久が上限の20%を下回った場合に一度だけ、自身の耐久を$3回復する",
 		id = 13640,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -37612,11 +40359,14 @@ pg.skill_data_template = {
 	[13650] = {
 		desc_get = "",
 		name = "堅牢な運び手",
-		desc = "自身が所属している艦隊の海域における3回目の戦闘まで、自身が受ける砲撃ダメージを$1軽減する；戦闘開始時、味方艦隊に所属している重桜艦船が2隻以上いる場合、自身の速力が10アップ",
 		type = 2,
 		max_level = 10,
+		desc = "自身が所属している艦隊の海域における3回目の戦闘まで、自身が受ける砲撃ダメージを$1軽減する；戦闘開始時、味方艦隊に所属している重桜艦船が2隻以上いる場合、自身の速力が10アップ",
 		id = 13650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -37670,11 +40420,14 @@ pg.skill_data_template = {
 	[13660] = {
 		desc_get = "",
 		name = "積載消防対策",
-		desc = "積載を装備している場合、自身が受ける炎上ダメージを$1軽減し、炎上持続時間を$2秒短縮させる",
 		type = 2,
 		max_level = 10,
+		desc = "積載を装備している場合、自身が受ける炎上ダメージを$1軽減し、炎上持続時間を$2秒短縮させる",
 		id = 13660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -37764,11 +40517,14 @@ pg.skill_data_template = {
 	[13670] = {
 		desc_get = "",
 		name = "朝明隠す帷",
-		desc = "戦闘中、自身が3回目のダメージを受けた場合、戦闘終了まで「自身が受けるダメージを$1軽減させる」効果を得る；戦闘開始時、自身が所属している艦隊が行った戦闘のみで数えて2・4・6回目の戦闘開始60秒後、自身の耐久を$2回復する；戦闘開始時、味方艦隊に重桜艦船が2隻以上いる場合、自身の全弾発射弾幕を強化する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中、自身が3回目のダメージを受けた場合、戦闘終了まで「自身が受けるダメージを$1軽減させる」効果を得る；戦闘開始時、自身が所属している艦隊が行った戦闘のみで数えて2・4・6回目の戦闘開始60秒後、自身の耐久を$2回復する；戦闘開始時、味方艦隊に重桜艦船が2隻以上いる場合、自身の全弾発射弾幕を強化する",
 		id = 13670,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -37867,11 +40623,14 @@ pg.skill_data_template = {
 	[13680] = {
 		desc_get = "",
 		name = "攻撃隊、絡み付け…！",
-		desc = "戦闘中、自身の1回目の航空攻撃を行う際、水上機による特殊航空攻撃を行う$1；自身の2回目以降の航空攻撃を行う際、$2で雷撃機による特殊航空攻撃を行う（威力はスキルレベルによる・戦闘開始時所属艦隊に他の重桜軽空母がいる場合、自身の特殊航空攻撃が強化される）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の1回目の航空攻撃を行う際、水上機による特殊航空攻撃を行う$1；自身の2回目以降の航空攻撃を行う際、$2で雷撃機による特殊航空攻撃を行う（威力はスキルレベルによる・戦闘開始時所属艦隊に他の重桜軽空母がいる場合、自身の特殊航空攻撃が強化される）",
 		id = 13680,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -37961,11 +40720,14 @@ pg.skill_data_template = {
 	[13690] = {
 		desc_get = "",
 		name = "千代田の独擅場？",
-		desc = "戦闘中、自身の1回目の航空攻撃を行う際、水上機による特殊航空攻撃を行う$1；自身の2回目以降の航空攻撃を行う際、$2で雷撃機による特殊航空攻撃を行う（威力はスキルレベルによる・戦闘開始時所属艦隊に他の重桜軽空母がいる場合、自身の特殊航空攻撃が強化される）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の1回目の航空攻撃を行う際、水上機による特殊航空攻撃を行う$1；自身の2回目以降の航空攻撃を行う際、$2で雷撃機による特殊航空攻撃を行う（威力はスキルレベルによる・戦闘開始時所属艦隊に他の重桜軽空母がいる場合、自身の特殊航空攻撃が強化される）",
 		id = 13690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -38055,22 +40817,30 @@ pg.skill_data_template = {
 	[13700] = {
 		desc_get = "",
 		name = "弓張りの夢蝶",
-		desc = "守护之樱全图支援效果",
 		type = 2,
 		max_level = 10,
+		desc = "守护之樱全图支援效果",
 		id = 13700,
-		system_transform = {},
+		system_transform = {
+			[51.0] = 13705
+		},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[13710] = {
 		desc_get = "",
 		name = "クラウド・イヴェイジョン",
-		desc = "自身が航空攻撃（特殊航空攻撃を除く）を行う度に発動し、8秒間自身が受ける航空攻撃ダメージを$1軽減する。この効果の持続時間終了時、$1でTBFアベンジャーによる特殊航空攻撃$2を行う（威力はスキルレベルによる）",
 		type = 2,
 		max_level = 10,
+		desc = "自身が航空攻撃（特殊航空攻撃を除く）を行う度に発動し、8秒間自身が受ける航空攻撃ダメージを$1軽減する。この効果の持続時間終了時、$1でTBFアベンジャーによる特殊航空攻撃$2を行う（威力はスキルレベルによる）",
 		id = 13710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -38160,11 +40930,14 @@ pg.skill_data_template = {
 	[13720] = {
 		desc_get = "",
 		name = "クール・エクスティンクション",
-		desc = "出撃時、味方艦隊にバーミンガム、もしくはユニオン所属艦船が3隻以上いる場合、戦闘終了時まで前衛艦隊が受ける炎上ダメージを$1軽減し、自身の炎上持続時間を$2秒短縮し、自身が旗艦である場合さらに前衛艦隊の炎上持続時間を$2秒短縮する",
 		type = 3,
 		max_level = 10,
+		desc = "出撃時、味方艦隊にバーミンガム、もしくはユニオン所属艦船が3隻以上いる場合、戦闘終了時まで前衛艦隊が受ける炎上ダメージを$1軽減し、自身の炎上持続時間を$2秒短縮し、自身が旗艦である場合さらに前衛艦隊の炎上持続時間を$2秒短縮する",
 		id = 13720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -38254,11 +41027,14 @@ pg.skill_data_template = {
 	[13730] = {
 		desc_get = "",
 		name = "ファイエル・アンコールμ",
-		desc = "戦闘開始後15秒毎に、特殊弾幕「μ兵装複合仕様」$1を展開し、この弾幕が命中した敵を6秒間、受けるダメージが10%上昇させる；また、この弾幕が命中した敵が1隻の場合、さらに3秒間その敵の速力を0にし、特殊魚雷攻撃を行う（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後15秒毎に、特殊弾幕「μ兵装複合仕様」$1を展開し、この弾幕が命中した敵を6秒間、受けるダメージが10%上昇させる；また、この弾幕が命中した敵が1隻の場合、さらに3秒間その敵の速力を0にし、特殊魚雷攻撃を行う（威力はスキルレベルによる）",
 		id = 13730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -38303,11 +41079,14 @@ pg.skill_data_template = {
 	[13740] = {
 		desc_get = "",
 		name = "デュアル・アカンパニメント",
-		desc = "戦闘開始時と戦闘開始後30秒毎、$1秒持続する、「敵弾を8回無効にする青シールド」と「敵と接触すると敵にダメージを8回まで与える赤シールド」を両方生成する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時と戦闘開始後30秒毎、$1秒持続する、「敵弾を8回無効にする青シールド」と「敵と接触すると敵にダメージを8回まで与える赤シールド」を両方生成する",
 		id = 13740,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5",
@@ -38361,11 +41140,14 @@ pg.skill_data_template = {
 	[13750] = {
 		desc_get = "",
 		name = "強化機構スカーレットμ",
-		desc = "自身が航空攻撃を行う場合、特殊航空攻撃$1を行う（弾幕威力はスキルレベルによる・特殊攻撃が発動時自身の耐久が最大値の45%を上回っている場合、自身の耐久を200減少し、弾幕威力を強化する）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が航空攻撃を行う場合、特殊航空攻撃$1を行う（弾幕威力はスキルレベルによる・特殊攻撃が発動時自身の耐久が最大値の45%を上回っている場合、自身の耐久を200減少し、弾幕威力を強化する）",
 		id = 13750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -38410,11 +41192,14 @@ pg.skill_data_template = {
 	[13760] = {
 		desc_get = "",
 		name = "赤く刻むロイヤリティ",
-		desc = "戦闘開始時、味方艦隊にほかの「μ兵装」艦船がいる場合、艦隊の「μ兵装」艦船の数だけ自身の航空が$1アップする（最大4隻分まで加算可能）；戦闘中、敵の攻撃により自身の耐久度が最大値の35%を下回った場合一度だけ特殊弾幕$2を展開し、その特殊弾幕が敵に与えたダメージの8%だけ自身の耐久を回復する（弾幕はスキルレベルによる・発動後自身の次の航空攻撃の装填時間を$3短縮させる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊にほかの「μ兵装」艦船がいる場合、艦隊の「μ兵装」艦船の数だけ自身の航空が$1アップする（最大4隻分まで加算可能）；戦闘中、敵の攻撃により自身の耐久度が最大値の35%を下回った場合一度だけ特殊弾幕$2を展開し、その特殊弾幕が敵に与えたダメージの8%だけ自身の耐久を回復する（弾幕はスキルレベルによる・発動後自身の次の航空攻撃の装填時間を$3短縮させる）",
 		id = 13760,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -38549,11 +41334,14 @@ pg.skill_data_template = {
 	[13770] = {
 		desc_get = "",
 		name = "アンジュルミエールμ",
-		desc = "戦闘開始時20秒毎発動。自身の移動を3秒間停止し、「アイリス饅頭天使隊」を召喚し航空攻撃を行う$1（航空攻撃の威力は自身の雷装とスキルレベルによる）。このスキルが発動時に50%の確率で自身の耐久を最大値の3%回復する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時20秒毎発動。自身の移動を3秒間停止し、「アイリス饅頭天使隊」を召喚し航空攻撃を行う$1（航空攻撃の威力は自身の雷装とスキルレベルによる）。このスキルが発動時に50%の確率で自身の耐久を最大値の3%回復する",
 		id = 13770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -38598,11 +41386,14 @@ pg.skill_data_template = {
 	[13780] = {
 		desc_get = "",
 		name = "アンジュラントモン",
-		desc = "戦闘開始時、自身の火力が$1アップ；戦闘中自身が敵艦を撃破した場合、自身の火力が3%アップ（最大3回まで加算可能）；戦闘中自身が受けるダメージを5%軽減する；戦闘中25秒毎、味方艦隊のすべての駆逐艦の耐久を$2回復する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、自身の火力が$1アップ；戦闘中自身が敵艦を撃破した場合、自身の火力が3%アップ（最大3回まで加算可能）；戦闘中自身が受けるダメージを5%軽減する；戦闘中25秒毎、味方艦隊のすべての駆逐艦の耐久を$2回復する",
 		id = 13780,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -38701,11 +41492,14 @@ pg.skill_data_template = {
 	[13790] = {
 		desc_get = "",
 		name = "走査機オースペクスμ",
-		desc = "自身の航空攻撃が装填完了する毎に、すべての敵艦の速力を4秒間$1低減し、更に以下の効果からランダムで一つを適用する：①敵艦の回避を10秒間$2ダウンする；②10秒間、味方前衛艦隊が与えるダメージを$4アップさせ、味方主力艦隊が受けるダメージを$3軽減させる；③10秒間；味方主力艦隊が与えるダメージを$3アップさせ、味方前衛艦隊が受けるダメージを$3軽減させる",
 		type = 3,
 		max_level = 10,
+		desc = "自身の航空攻撃が装填完了する毎に、すべての敵艦の速力を4秒間$1低減し、更に以下の効果からランダムで一つを適用する：①敵艦の回避を10秒間$2ダウンする；②10秒間、味方前衛艦隊が与えるダメージを$4アップさせ、味方主力艦隊が受けるダメージを$3軽減させる；③10秒間；味方主力艦隊が与えるダメージを$3アップさせ、味方前衛艦隊が受けるダメージを$3軽減させる",
 		id = 13790,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -38894,11 +41688,14 @@ pg.skill_data_template = {
 	[13800] = {
 		desc_get = "",
 		name = "ソング・オブ・ブルースピリット",
-		desc = "自身の航空攻撃発動時、$1で追加特殊航空攻撃を行う（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃発動時、$1で追加特殊航空攻撃を行う（威力はスキルレベルによる）",
 		id = 13800,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -38952,11 +41749,14 @@ pg.skill_data_template = {
 	[13810] = {
 		desc_get = "",
 		name = "支援奉仕リリカルμ",
-		desc = "戦闘開始時、前衛艦隊に自分しかいない場合、下記の効果を適用する【20秒毎に特殊弾幕を展開する$2；味方旗艦の対空が$1アップ】；前衛艦隊に自分以外の艦船がいる場合、【20秒毎に強力な特殊弾幕を展開する$2；味方前衛艦隊の速力が3アップし、命中・対空が$3アップする】（特殊弾幕の威力はスキルレベルによる）",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、前衛艦隊に自分しかいない場合、下記の効果を適用する【20秒毎に特殊弾幕を展開する$2；味方旗艦の対空が$1アップ】；前衛艦隊に自分以外の艦船がいる場合、【20秒毎に強力な特殊弾幕を展開する$2；味方前衛艦隊の速力が3アップし、命中・対空が$3アップする】（特殊弾幕の威力はスキルレベルによる）",
 		id = 13810,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -39091,11 +41891,14 @@ pg.skill_data_template = {
 	[13820] = {
 		desc_get = "",
 		name = "練習曲は仲間のために",
-		desc = "戦闘開始後60秒間、自身の回避が$1アップ；自身が戦闘中敵艦を2隻撃破する度に、自身の対空が$2アップ（最大3回まで加算可能）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始後60秒間、自身の回避が$1アップ；自身が戦闘中敵艦を2隻撃破する度に、自身の対空が$2アップ（最大3回まで加算可能）",
 		id = 13820,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -39194,11 +41997,14 @@ pg.skill_data_template = {
 	[13830] = {
 		desc_get = "",
 		name = "音華の氷結兵装μ",
-		desc = "戦闘開始時、特殊弾幕を発射し、10回命中した敵を【受ける航空ダメージを5%アップ】にするオプション・「特殊音響兵装・スネジーンカμ」を呼び出す。このオプションは$1秒間存在する（弾幕ダメージと持続時間はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、特殊弾幕を発射し、10回命中した敵を【受ける航空ダメージを5%アップ】にするオプション・「特殊音響兵装・スネジーンカμ」を呼び出す。このオプションは$1秒間存在する（弾幕ダメージと持続時間はスキルレベルによる）",
 		id = 13830,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20",
@@ -39252,11 +42058,14 @@ pg.skill_data_template = {
 	[13840] = {
 		desc_get = "",
 		name = "紫紺の粘り強さ",
-		desc = "自身が所属している艦隊が行った戦闘のみで数えて1・2・3回目戦闘開始時、自身の火力が戦闘終了時まで$1アップ；4回目以降の戦闘開始時、自身の対空が戦闘終了時まで$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が所属している艦隊が行った戦闘のみで数えて1・2・3回目戦闘開始時、自身の火力が戦闘終了時まで$1アップ；4回目以降の戦闘開始時、自身の対空が戦闘終了時まで$1アップ",
 		id = 13840,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -39310,12 +42119,15 @@ pg.skill_data_template = {
 	[13850] = {
 		desc_get = "",
 		name = "ユニバース・サプライズ！",
-		desc = "自身の潜航力が$1アップ；自身が浮上した場合、敵を70%の確率で装甲破壊効果にする特殊魚雷攻撃$2を展開する；自身が戦場から離脱した場合、敵を70%の確率で炎上効果にする特殊魚雷攻撃$2を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の潜航力が$1アップ；自身が浮上した場合、敵を70%の確率で装甲破壊効果にする特殊魚雷攻撃$2を展開する；自身が戦場から離脱した場合、敵を70%の確率で炎上効果にする特殊魚雷攻撃$2を展開する（威力はスキルレベルによる）",
 		id = 13850,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -39406,11 +42218,14 @@ pg.skill_data_template = {
 	[13860] = {
 		desc_get = "",
 		name = "対甲弾ハイパーチャージμ",
-		desc = "戦闘開始時に100%、そして戦闘開始後20秒毎に$1で発動、10秒間自身の主砲弾薬を特殊弾薬$2にする",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時に100%、そして戦闘開始後20秒毎に$1で発動、10秒間自身の主砲弾薬を特殊弾薬$2にする",
 		id = 13860,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -39500,11 +42315,14 @@ pg.skill_data_template = {
 	[13870] = {
 		desc_get = "",
 		name = "火の風のコレオグラフィ",
-		desc = "戦闘開始時、味方艦隊に自身以外の「μ兵装」艦船もしくは軽空母・正規空母がいる場合、自身の回避が$1、前衛艦隊全員の対空が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊に自身以外の「μ兵装」艦船もしくは軽空母・正規空母がいる場合、自身の回避が$1、前衛艦隊全員の対空が$2アップ",
 		id = 13870,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -39603,11 +42421,14 @@ pg.skill_data_template = {
 	[18010] = {
 		desc_get = "",
 		name = "MKV徹甲弾 +",
-		desc = "自身の徹甲弾属性砲撃ダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の徹甲弾属性砲撃ダメージが$1アップ",
 		id = 18010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -39661,11 +42482,14 @@ pg.skill_data_template = {
 	[18040] = {
 		desc_get = "",
 		name = "力戦奮闘 +",
-		desc = "耐久が1％下がるごとに装填が$1アップ；耐久が20％以下になった時、10秒間、上限の15%回復する。一度の戦闘では一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "耐久が1％下がるごとに装填が$1アップ；耐久が20％以下になった時、10秒間、上限の15%回復する。一度の戦闘では一回しか発動できない",
 		id = 18040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"0.6",
@@ -39719,11 +42543,14 @@ pg.skill_data_template = {
 	[18050] = {
 		desc_get = "",
 		name = "心舷合一 +",
-		desc = "自身の魚雷攻撃のクリティカル率が$1アップし、また、自身の魚雷攻撃のクリティカルダメージが65％アップ；さらに、自身の魚雷攻撃時、6秒間自身の回避が$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の魚雷攻撃のクリティカル率が$1アップし、また、自身の魚雷攻撃のクリティカルダメージが65％アップ；さらに、自身の魚雷攻撃時、6秒間自身の回避が$2アップ",
 		id = 18050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -39822,12 +42649,15 @@ pg.skill_data_template = {
 	[18070] = {
 		desc_get = "",
 		name = "神話伝承 +",
-		desc = "主砲発射時$1で特殊弾幕改を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "主砲発射時$1で特殊弾幕改を発動する(威力はスキルレベルによる)",
 		id = 18070,
 		system_transform = {
 			[3.0] = 18071
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -39882,11 +42712,14 @@ pg.skill_data_template = {
 	[18100] = {
 		desc_get = "戦闘開始直後、敵弾を8回まで無効できる、持続時間<color=#92fc63FF>5</color>秒（最大<color=#92fc63FF>15</color>秒）の回転シールドを4枚生成する。このスキルは30秒毎に一回発動する",
 		name = "全方位装甲 +",
-		desc = "戦闘開始直後、敵弾を8回まで無効できる、持続時間$1秒の回転シールドを4枚生成する。このスキルは30秒毎に一回発動する",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始直後、敵弾を8回まで無効できる、持続時間$1秒の回転シールドを4枚生成する。このスキルは30秒毎に一回発動する",
 		id = 18100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -39935,11 +42768,14 @@ pg.skill_data_template = {
 	[18120] = {
 		desc_get = "速力が<color=#92fc63FF>3</color>（最大<color=#92fc63FF>8</color>）上昇する。戦闘開始時、50秒間、回避が<color=#92fc63FF>15%</color>（最大<color=#92fc63FF>35%</color>）アップ",
 		name = "エンジンブースト +",
-		desc = "速力が$1上昇する。戦闘開始時、50秒間、回避が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "速力が$1上昇する。戦闘開始時、50秒間、回避が$2アップ",
 		id = 18120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -40029,11 +42865,14 @@ pg.skill_data_template = {
 	[18130] = {
 		desc_get = "",
 		name = "フライングはNG！+",
-		desc = "対空範囲内で敵艦載機が撃墜された場合、8秒間、自身の火力・対空が$1アップ；この効果は海域の制空権状態が「拮抗」以上の場合、【戦闘開始時に1度だけ発動し、戦闘終了時まで自身の火力・対空が$1アップ】となる。さらに戦闘中、味方艦隊が敵艦載機を15機以上撃墜した場合、自身の火力・装填が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "対空範囲内で敵艦載機が撃墜された場合、8秒間、自身の火力・対空が$1アップ；この効果は海域の制空権状態が「拮抗」以上の場合、【戦闘開始時に1度だけ発動し、戦闘終了時まで自身の火力・対空が$1アップ】となる。さらに戦闘中、味方艦隊が敵艦載機を15機以上撃墜した場合、自身の火力・装填が$2アップ",
 		id = 18130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -40132,11 +42971,14 @@ pg.skill_data_template = {
 	[18150] = {
 		desc_get = "",
 		name = "アイアンサイト・キャリバー+",
-		desc = "自身が装備する主砲の投射範囲を3収束させる。自身の重巡・超甲巡・巡洋戦艦・戦艦・航空戦艦へのダメージが$1アップし、軽空母・正規空母へのダメージが$2アップする",
 		type = 3,
 		max_level = 10,
+		desc = "自身が装備する主砲の投射範囲を3収束させる。自身の重巡・超甲巡・巡洋戦艦・戦艦・航空戦艦へのダメージが$1アップし、軽空母・正規空母へのダメージが$2アップする",
 		id = 18150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -40235,11 +43077,14 @@ pg.skill_data_template = {
 	[18180] = {
 		desc_get = "",
 		name = "北風流・魚雷ロクレン弾+",
-		desc = "戦闘開始から10秒後発動、特殊魚雷弾幕を1回展開し（$1）、50秒間自身の受けるダメージを$2軽減する。自身の魚雷（スキルによる魚雷を除く）が8本命中する度に、特殊魚雷弾幕を1回展開する。",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始から10秒後発動、特殊魚雷弾幕を1回展開し（$1）、50秒間自身の受けるダメージを$2軽減する。自身の魚雷（スキルによる魚雷を除く）が8本命中する度に、特殊魚雷弾幕を1回展開する。",
 		id = 18180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -40329,11 +43174,14 @@ pg.skill_data_template = {
 	[18250] = {
 		desc_get = "",
 		name = "感情抑制モジュール+",
-		desc = "戦闘開始時、自身の耐久度が最大値の50％を上回った場合、自身の対空が$2アップし、【精密射撃プロトコル】の特殊弾幕を強化する；戦闘中、自身の耐久が最大値の50%を下回った場合、自身の回避が$1アップし、8秒間自身の耐久を8%回復する（この効果は1回の戦闘で最大2回発動可能）",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始時、自身の耐久度が最大値の50％を上回った場合、自身の対空が$2アップし、【精密射撃プロトコル】の特殊弾幕を強化する；戦闘中、自身の耐久が最大値の50%を下回った場合、自身の回避が$1アップし、8秒間自身の耐久を8%回復する（この効果は1回の戦闘で最大2回発動可能）",
 		id = 18250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -40432,44 +43280,56 @@ pg.skill_data_template = {
 	[19000] = {
 		desc_get = "",
 		name = "対セイレーン特化改修Ⅰ",
-		desc = "自身のセイレーンへのダメージが5%アップ",
 		type = 1,
 		max_level = 1,
+		desc = "自身のセイレーンへのダメージが5%アップ",
 		id = 19000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[19001] = {
 		desc_get = "",
 		name = "対セイレーン特化改修Ⅱ",
-		desc = "自身のセイレーンへのダメージが10%アップ",
 		type = 1,
 		max_level = 1,
+		desc = "自身のセイレーンへのダメージが10%アップ",
 		id = 19001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[19002] = {
 		desc_get = "",
 		name = "対セイレーン特化改修Ⅲ",
-		desc = "自身のセイレーンへのダメージが15%アップ",
 		type = 1,
 		max_level = 1,
+		desc = "自身のセイレーンへのダメージが15%アップ",
 		id = 19002,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[19010] = {
 		desc_get = "",
 		name = "MKV徹甲弾",
-		desc = "自身の徹甲弾属性砲撃ダメージが$1アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の徹甲弾属性砲撃ダメージが$1アップ",
 		id = 19010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -40523,11 +43383,14 @@ pg.skill_data_template = {
 	[19020] = {
 		desc_get = "",
 		name = "蒼海の女神",
-		desc = "耐久が20%以下になった時、耐久を上限の$1回復する。その後、戦闘終了まで自身の装填が30％アップ。一度の戦闘で一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "耐久が20%以下になった時、耐久を上限の$1回復する。その後、戦闘終了まで自身の装填が30％アップ。一度の戦闘で一回しか発動できない",
 		id = 19020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -40581,12 +43444,15 @@ pg.skill_data_template = {
 	[19030] = {
 		desc_get = "",
 		name = "帝王の威圧",
-		desc = "主砲発射時$1で特殊弾幕を発動し(威力はスキルレベルによる)、命中した敵を6秒間、$2減速させる",
 		type = 1,
 		max_level = 10,
+		desc = "主砲発射時$1で特殊弾幕を発動し(威力はスキルレベルによる)、命中した敵を6秒間、$2減速させる",
 		id = 19030,
 		system_transform = {
 			[3.0] = 19031
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -40686,11 +43552,14 @@ pg.skill_data_template = {
 	[19040] = {
 		desc_get = "",
 		name = "力戦奮闘",
-		desc = "耐久が1％下がるごとに装填が$1アップ；耐久が20％以下になった時、8秒間、2秒毎上限の3%回復する。一度の戦闘では一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "耐久が1％下がるごとに装填が$1アップ；耐久が20％以下になった時、8秒間、2秒毎上限の3%回復する。一度の戦闘では一回しか発動できない",
 		id = 19040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"0.6",
@@ -40744,11 +43613,14 @@ pg.skill_data_template = {
 	[19050] = {
 		desc_get = "",
 		name = "心舷合一",
-		desc = "自身の魚雷攻撃のクリティカル率が$1アップし、また、自身の魚雷攻撃のクリティカルダメージが65％アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の魚雷攻撃のクリティカル率が$1アップし、また、自身の魚雷攻撃のクリティカルダメージが65％アップ",
 		id = 19050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -40802,11 +43674,14 @@ pg.skill_data_template = {
 	[19060] = {
 		desc_get = "",
 		name = "雷刃一閃",
-		desc = "魚雷発射時$1で特殊魚雷弾幕を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "魚雷発射時$1で特殊魚雷弾幕を発動する(威力はスキルレベルによる)",
 		id = 19060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -40860,11 +43735,14 @@ pg.skill_data_template = {
 	[19070] = {
 		desc_get = "",
 		name = "神話伝承",
-		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		type = 1,
 		max_level = 10,
+		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる)",
 		id = 19070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -40918,11 +43796,14 @@ pg.skill_data_template = {
 	[19080] = {
 		desc_get = "",
 		name = "特殊装甲",
-		desc = "自身が炎上する確率が少し上昇(攻撃の主砲口径によって上昇値が変動する。最大6%)、炎上持続時間が3秒増加。自身が受ける徹甲弾ダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "自身が炎上する確率が少し上昇(攻撃の主砲口径によって上昇値が変動する。最大6%)、炎上持続時間が3秒増加。自身が受ける徹甲弾ダメージを$1軽減する",
 		id = 19080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -40976,11 +43857,14 @@ pg.skill_data_template = {
 	[19090] = {
 		desc_get = "",
 		name = "熟練装填要員",
-		desc = "自身の主砲攻撃の属性が榴弾になる。主砲攻撃を行う度、装填が$1上昇（最大12回まで上昇可能）。主砲攻撃を2回行う度、主兵装の攻撃属性を異なる属性（榴弾か徹甲弾）に変更する",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃の属性が榴弾になる。主砲攻撃を行う度、装填が$1上昇（最大12回まで上昇可能）。主砲攻撃を2回行う度、主兵装の攻撃属性を異なる属性（榴弾か徹甲弾）に変更する",
 		id = 19090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -41034,11 +43918,14 @@ pg.skill_data_template = {
 	[19100] = {
 		desc_get = "30秒毎に発動する。敵弾を8回まで無効できる、持続時間5秒（最大15秒）の回転シールドを4枚生成する",
 		name = "全方位装甲",
-		desc = "30秒毎に発動する。敵弾を8回まで無効できる、持続時間$1秒の回転シールドを4枚生成する",
 		type = 2,
 		max_level = 10,
+		desc = "30秒毎に発動する。敵弾を8回まで無効できる、持続時間$1秒の回転シールドを4枚生成する",
 		id = 19100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -41087,11 +43974,14 @@ pg.skill_data_template = {
 	[19110] = {
 		desc_get = "",
 		name = "徹甲加工榴弾",
-		desc = "自身の榴弾の砲撃ダメージが$1アップし、炎上発生率が3%ダウン",
 		type = 1,
 		max_level = 10,
+		desc = "自身の榴弾の砲撃ダメージが$1アップし、炎上発生率が3%ダウン",
 		id = 19110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -41145,11 +44035,14 @@ pg.skill_data_template = {
 	[19120] = {
 		desc_get = "速力が3（最大8）上昇する。戦闘開始時、40秒間、回避が15%（最大35%）アップ",
 		name = "エンジンブースト",
-		desc = "速力が$1上昇する。戦闘開始時、40秒間、回避が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "速力が$1上昇する。戦闘開始時、40秒間、回避が$2アップ",
 		id = 19120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -41239,11 +44132,14 @@ pg.skill_data_template = {
 	[19130] = {
 		desc_get = "",
 		name = "フライングはNG！",
-		desc = "対空範囲内で敵艦載機が撃墜された場合、8秒間、自身の火力・対空が$1アップ。戦闘中、味方艦隊が敵艦載機を15機以上撃墜した場合、自身の火力が$1、装填が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "対空範囲内で敵艦載機が撃墜された場合、8秒間、自身の火力・対空が$1アップ。戦闘中、味方艦隊が敵艦載機を15機以上撃墜した場合、自身の火力が$1、装填が$2アップ",
 		id = 19130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -41342,11 +44238,14 @@ pg.skill_data_template = {
 	[19140] = {
 		desc_get = "",
 		name = "弓の弦は二筋！",
-		desc = "自身の副兵装枠で主砲が装備されている場合、自身の対空砲枠の装備補正が$1；対空砲が装備されている場合、自身の主砲枠の装備補正が$2アップ。自身が前衛艦隊の最後尾にいる限り、受けるダメージを$3軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "自身の副兵装枠で主砲が装備されている場合、自身の対空砲枠の装備補正が$1；対空砲が装備されている場合、自身の主砲枠の装備補正が$2アップ。自身が前衛艦隊の最後尾にいる限り、受けるダメージを$3軽減する",
 		id = 19140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -41490,11 +44389,14 @@ pg.skill_data_template = {
 	[19150] = {
 		desc_get = "",
 		name = "アイアンサイト・キャリバー",
-		desc = "自身が装備する主砲の拡散範囲を3収束させる。自身の重巡・超甲巡・巡洋戦艦・戦艦・航空戦艦へのダメージが$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が装備する主砲の拡散範囲を3収束させる。自身の重巡・超甲巡・巡洋戦艦・戦艦・航空戦艦へのダメージが$1アップ",
 		id = 19150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -41548,12 +44450,15 @@ pg.skill_data_template = {
 	[19160] = {
 		desc_get = "",
 		name = "ヘビーバレル・バスター",
-		desc = "自身の主砲攻撃時、$1で発動。特殊弾幕を展開する",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲攻撃時、$1で発動。特殊弾幕を展開する",
 		id = 19160,
 		system_transform = {
 			[3.0] = 19161
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -41608,11 +44513,14 @@ pg.skill_data_template = {
 	[19170] = {
 		desc_get = "",
 		name = "北風流・イッチ文字斬り",
-		desc = "自身の主砲のダメージが敵の装甲の種類に影響されなくなり、威力がスキルレベルに応じて上昇する（$1）；重桜主砲を装備している場合、主砲枠の装備補正が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身の主砲のダメージが敵の装甲の種類に影響されなくなり、威力がスキルレベルに応じて上昇する（$1）；重桜主砲を装備している場合、主砲枠の装備補正が$2アップ",
 		id = 19170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -41702,11 +44610,14 @@ pg.skill_data_template = {
 	[19180] = {
 		desc_get = "",
 		name = "北風流・魚雷ロクレン弾",
-		desc = "戦闘開始時、自身が前衛艦隊の先頭にいる場合、10秒後特殊魚雷弾幕を1回展開する（$1）。自身の魚雷（スキルによる魚雷を除く）が10本命中するたびに、特殊魚雷弾幕を1回展開する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、自身が前衛艦隊の先頭にいる場合、10秒後特殊魚雷弾幕を1回展開する（$1）。自身の魚雷（スキルによる魚雷を除く）が10本命中するたびに、特殊魚雷弾幕を1回展開する",
 		id = 19180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -41751,11 +44662,14 @@ pg.skill_data_template = {
 	[19190] = {
 		desc_get = "",
 		name = "轟火連嶺",
-		desc = "280mm以上の口径の主砲を装備している場合、主砲攻撃によるダメージが砲弾の飛行距離に応じてダメージが上昇（最大$1）する。自身の与える炎上ダメージが$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "280mm以上の口径の主砲を装備している場合、主砲攻撃によるダメージが砲弾の飛行距離に応じてダメージが上昇（最大$1）する。自身の与える炎上ダメージが$2アップ",
 		id = 19190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -41899,11 +44813,14 @@ pg.skill_data_template = {
 	[19200] = {
 		desc_get = "",
 		name = "ミズホの直感",
-		desc = "戦闘開始後20秒毎に$1で発動。12秒間、自身の回避が$2、命中が$3アップ",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始後20秒毎に$1で発動。12秒間、自身の回避が$2、命中が$3アップ",
 		id = 19200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -42047,11 +44964,14 @@ pg.skill_data_template = {
 	[19210] = {
 		desc_get = "",
 		name = "特殊砲術操典",
-		desc = "自身が主砲攻撃を8回行う度に、特殊弾幕を1回展開する；試作型三連装310mm砲を装備している場合、主兵装の装備補正が$1アップし、特殊弾幕展開に必要な主砲攻撃回数が4になり、特殊弾幕を強化する",
 		type = 1,
 		max_level = 10,
+		desc = "自身が主砲攻撃を8回行う度に、特殊弾幕を1回展開する；試作型三連装310mm砲を装備している場合、主兵装の装備補正が$1アップし、特殊弾幕展開に必要な主砲攻撃回数が4になり、特殊弾幕を強化する",
 		id = 19210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -42105,12 +45025,15 @@ pg.skill_data_template = {
 	[19220] = {
 		desc_get = "",
 		name = "破壊のSinfonie",
-		desc = "自身がダメージを受けるか敵が一定範囲内に入った時、装甲種類を無視する特殊副砲弾幕$1を発動する（威力はスキルレベルによる）。15秒に1回しか発動しない",
 		type = 1,
 		max_level = 10,
+		desc = "自身がダメージを受けるか敵が一定範囲内に入った時、装甲種類を無視する特殊副砲弾幕$1を発動する（威力はスキルレベルによる）。15秒に1回しか発動しない",
 		id = 19220,
 		system_transform = {
 			[3.0] = 19221
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -42156,11 +45079,14 @@ pg.skill_data_template = {
 	[19230] = {
 		desc_get = "",
 		name = "混沌のSonate",
-		desc = "戦闘中、奇数回の自身の主砲攻撃時、次の自身の主砲攻撃まで装填が$1・自身が与えるダメージが$2アップ、偶数回の自身の主砲攻撃時、自身の次の主砲攻撃までクリティカル率が$2、クリティカルダメージが$1上昇する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、奇数回の自身の主砲攻撃時、次の自身の主砲攻撃まで装填が$1・自身が与えるダメージが$2アップ、偶数回の自身の主砲攻撃時、自身の次の主砲攻撃までクリティカル率が$2、クリティカルダメージが$1上昇する",
 		id = 19230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -42259,11 +45185,14 @@ pg.skill_data_template = {
 	[19240] = {
 		desc_get = "",
 		name = "闇黒のRhapsodie",
-		desc = "戦闘中、自身の耐久が最大値の70-100%である場合、火力が$1アップ；30-70%である場合、火力が$2アップし、自身が受けるダメージを$2軽減する；30%以下である場合、自身が受けるダメージを$3軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、自身の耐久が最大値の70-100%である場合、火力が$1アップ；30-70%である場合、火力が$2アップし、自身が受けるダメージを$2軽減する；30%以下である場合、自身が受けるダメージを$3軽減する",
 		id = 19240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				{
@@ -42413,11 +45342,14 @@ pg.skill_data_template = {
 	[19250] = {
 		desc_get = "",
 		name = "感情抑制モジュール",
-		desc = "戦闘中、自身の耐久が最大値の50%を下回った場合、自身の回避が$1アップし、8秒間自身の耐久を8%回復する。1回の戦闘で最大2回発動可能",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中、自身の耐久が最大値の50%を下回った場合、自身の回避が$1アップし、8秒間自身の耐久を8%回復する。1回の戦闘で最大2回発動可能",
 		id = 19250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -42471,12 +45403,15 @@ pg.skill_data_template = {
 	[19260] = {
 		desc_get = "",
 		name = "精密射撃プロトコル",
-		desc = "1回の装填での主砲攻撃回数が2になり、1回の主砲攻撃での斉射数は1になる。手動照準による威力強化効果が$2になる。戦闘開始20秒毎に、$1で発動、強力な弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "1回の装填での主砲攻撃回数が2になり、1回の主砲攻撃での斉射数は1になる。手動照準による威力強化効果が$2になる。戦闘開始20秒毎に、$1で発動、強力な弾幕を展開する（威力はスキルレベルによる）",
 		id = 19260,
 		system_transform = {
 			[3.0] = 19261
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -42576,11 +45511,14 @@ pg.skill_data_template = {
 	[19270] = {
 		desc_get = "",
 		name = "チェシャーがやるよ！",
-		desc = "戦闘中、自身の1回目の魚雷攻撃準備時間を$1短縮させる；自身が攻撃を受けた場合15％で発動、戦闘終了時まで自身の砲撃・回避・対空が$2アップ（最大3回まで加算可能）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、自身の1回目の魚雷攻撃準備時間を$1短縮させる；自身が攻撃を受けた場合15％で発動、戦闘終了時まで自身の砲撃・回避・対空が$2アップ（最大3回まで加算可能）",
 		id = 19270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -42679,11 +45617,14 @@ pg.skill_data_template = {
 	[19280] = {
 		desc_get = "",
 		name = "グリンしてファイア！",
-		desc = "戦闘中、自身が受けるダメージを$1軽減する；戦闘開始後12秒毎に、$2で特殊弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身が受けるダメージを$1軽減する；戦闘開始後12秒毎に、$2で特殊弾幕を展開する（威力はスキルレベルによる）",
 		id = 19280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -42782,11 +45723,14 @@ pg.skill_data_template = {
 	[19290] = {
 		desc_get = "",
 		name = "勇闘のプライベーティア",
-		desc = "自身の副砲攻撃のクリティカル率が$2アップし、副砲弾薬を強化する；通常弾もしくは榴弾属性の主砲を装備している場合、主砲攻撃の弾薬種類は専用榴弾になり$1、命中した敵に確率で特殊炎上効果を与える（ダメージ増加効果はスキルレベルによって強化される)",
 		type = 1,
 		max_level = 10,
+		desc = "自身の副砲攻撃のクリティカル率が$2アップし、副砲弾薬を強化する；通常弾もしくは榴弾属性の主砲を装備している場合、主砲攻撃の弾薬種類は専用榴弾になり$1、命中した敵に確率で特殊炎上効果を与える（ダメージ増加効果はスキルレベルによって強化される)",
 		id = 19290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -42876,11 +45820,14 @@ pg.skill_data_template = {
 	[19300] = {
 		desc_get = "",
 		name = "フリントバースト",
-		desc = "戦闘中$1秒毎にシールドを貫通できる特殊弾幕を展開し、与えたダメージ値の15％だけ自身の耐久を回復する（弾幕威力はスキルレベルによる）；自身が敵艦を撃破した場合、戦闘終了時まで自身の火力・回避が$2、装填が$3アップ（最大3回まで加算可能・戦闘開始時自身が前衛艦隊の一番前にいる場合、この効果を3回加算する）",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中$1秒毎にシールドを貫通できる特殊弾幕を展開し、与えたダメージ値の15％だけ自身の耐久を回復する（弾幕威力はスキルレベルによる）；自身が敵艦を撃破した場合、戦闘終了時まで自身の火力・回避が$2、装填が$3アップ（最大3回まで加算可能・戦闘開始時自身が前衛艦隊の一番前にいる場合、この効果を3回加算する）",
 		id = 19300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30",
@@ -43024,11 +45971,14 @@ pg.skill_data_template = {
 	[19310] = {
 		desc_get = "",
 		name = "撃ち返しの盾",
-		desc = "戦闘中15秒毎に自身の前に8秒間持続する、敵弾を最大6回無効化できるシールドを展開する；自身のシールドが持続時間内に破壊された場合、反撃弾幕を展開し、戦闘終了まで自身の火力・命中が$1アップ（ステータス上昇効果は最大2回まで加算可能）",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中15秒毎に自身の前に8秒間持続する、敵弾を最大6回無効化できるシールドを展開する；自身のシールドが持続時間内に破壊された場合、反撃弾幕を展開し、戦闘終了まで自身の火力・命中が$1アップ（ステータス上昇効果は最大2回まで加算可能）",
 		id = 19310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -43082,11 +46032,14 @@ pg.skill_data_template = {
 	[19320] = {
 		desc_get = "",
 		name = "「アオスゲヴォーゲン」",
-		desc = "戦闘開始時、自身が前衛艦隊の先頭にいる場合、戦闘終了時まで自身の速力が5、回避が$1アップし、30秒間自身の受けるダメージを$2軽減する；自身が先頭にいない場合、戦闘中自身のクリティカルダメージが$3アップし、【15秒毎に$4で特殊弾幕を展開する（威力はスキルレベルによる）】効果を得る",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、自身が前衛艦隊の先頭にいる場合、戦闘終了時まで自身の速力が5、回避が$1アップし、30秒間自身の受けるダメージを$2軽減する；自身が先頭にいない場合、戦闘中自身のクリティカルダメージが$3アップし、【15秒毎に$4で特殊弾幕を展開する（威力はスキルレベルによる）】効果を得る",
 		id = 19320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -43275,11 +46228,14 @@ pg.skill_data_template = {
 	[19330] = {
 		desc_get = "",
 		name = "ミーミルの賢眼",
-		desc = "戦闘中、自身の配置位置を変更し、自身が受けるダメージを$1軽減する；15秒毎に発動し、敵潜水艦を$2秒間探知済状態にするソナースキャンを行い、$2秒間味方前衛艦隊が受ける雷撃ダメージを$3軽減し、敵潜水艦の命中率を$4ダウンさせる",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘中、自身の配置位置を変更し、自身が受けるダメージを$1軽減する；15秒毎に発動し、敵潜水艦を$2秒間探知済状態にするソナースキャンを行い、$2秒間味方前衛艦隊が受ける雷撃ダメージを$3軽減し、敵潜水艦の命中率を$4ダウンさせる",
 		id = 19330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -43468,11 +46424,14 @@ pg.skill_data_template = {
 	[19340] = {
 		desc_get = "",
 		name = "ヘルテイトの轟雷",
-		desc = "18秒毎に、$1でシールドを貫通できる雷電を含む特殊弾幕を展開する（威力はスキルレベルによる）；自身の魚雷攻撃の発射角度を変更する",
 		type = 1,
 		max_level = 10,
+		desc = "18秒毎に、$1でシールドを貫通できる雷電を含む特殊弾幕を展開する（威力はスキルレベルによる）；自身の魚雷攻撃の発射角度を変更する",
 		id = 19340,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"45.0%",
@@ -43526,11 +46485,14 @@ pg.skill_data_template = {
 	[19350] = {
 		desc_get = "",
 		name = "補助機構ゼッツアプリンシパル",
-		desc = "戦闘中、自身の主砲攻撃の装填時間を$1短縮し、自身の主砲攻撃時に追加の弾幕攻撃$2を行う；20秒毎に、特殊弾幕$2を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の主砲攻撃の装填時間を$1短縮し、自身の主砲攻撃時に追加の弾幕攻撃$2を行う；20秒毎に、特殊弾幕$2を展開する（威力はスキルレベルによる）",
 		id = 19350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -43620,11 +46582,14 @@ pg.skill_data_template = {
 	[19360] = {
 		desc_get = "",
 		name = "代行機構エグリーズサリブル",
-		desc = "自身が榴弾属性の主砲を装備している場合、自身の火力が$4、対空が$1アップし、自身の榴弾主砲による敵重装甲へのダメージ補正が$1アップ；自身が徹甲弾属性の主砲を装備している場合、自身の火力が$4、装填が$1アップし、クリティカル率が$2アップする；戦闘中、自身の耐久が最大値の75%を上回っている場合、味方旗艦が受けるダメージの50％を肩代わりする（自身が旗艦の場合適用されない）、最大値の75％を下回っている場合、自身の回避・命中が$3アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が榴弾属性の主砲を装備している場合、自身の火力が$4、対空が$1アップし、自身の榴弾主砲による敵重装甲へのダメージ補正が$1アップ；自身が徹甲弾属性の主砲を装備している場合、自身の火力が$4、装填が$1アップし、クリティカル率が$2アップする；戦闘中、自身の耐久が最大値の75%を上回っている場合、味方旗艦が受けるダメージの50％を肩代わりする（自身が旗艦の場合適用されない）、最大値の75％を下回っている場合、自身の回避・命中が$3アップ",
 		id = 19360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -43813,2762 +46778,3515 @@ pg.skill_data_template = {
 	[19370] = {
 		desc_get = "",
 		name = "奥丁更换鱼雷弹幕形态效果ID占位",
-		desc = "奥丁更换鱼雷弹幕形态用占位",
 		type = 1,
 		max_level = 1,
+		desc = "奥丁更换鱼雷弹幕形态用占位",
 		id = 19370,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20011] = {
 		desc_get = "",
 		name = "全弾発射-ファラガット級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ファラガット級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ファラガット級Ⅰを行う",
 		id = 20011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20012] = {
 		desc_get = "",
 		name = "全弾発射-ファラガット級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ファラガット級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ファラガット級Ⅱを行う",
 		id = 20012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20021] = {
 		desc_get = "",
 		name = "全弾発射-マハン級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-マハン級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-マハン級Ⅰを行う",
 		id = 20021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20022] = {
 		desc_get = "",
 		name = "全弾発射-マハン級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-マハン級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-マハン級Ⅱを行う",
 		id = 20022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20031] = {
 		desc_get = "",
 		name = "全弾発射-グリッドレイ級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-グリッドレイ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-グリッドレイ級Ⅰを行う",
 		id = 20031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20032] = {
 		desc_get = "",
 		name = "全弾発射-グリッドレイ級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-グリッドレイ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-グリッドレイ級Ⅱを行う",
 		id = 20032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20041] = {
 		desc_get = "",
 		name = "全弾発射-フレッチャー級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-フレッチャー級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-フレッチャー級Ⅰを行う",
 		id = 20041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20042] = {
 		desc_get = "",
 		name = "全弾発射-フレッチャー級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-フレッチャー級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-フレッチャー級Ⅱを行う",
 		id = 20042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20051] = {
 		desc_get = "",
 		name = "全弾発射-シムス級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-シムス級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-シムス級Ⅰを行う",
 		id = 20051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20052] = {
 		desc_get = "",
 		name = "全弾発射-シムス級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-シムス級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-シムス級Ⅱを行う",
 		id = 20052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20061] = {
 		desc_get = "",
 		name = "全弾発射-ベンソン級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ベンソン級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ベンソン級Ⅰを行う",
 		id = 20061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20062] = {
 		desc_get = "",
 		name = "全弾発射-ベンソン級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ベンソン級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ベンソン級Ⅱを行う",
 		id = 20062,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20071] = {
 		desc_get = "",
 		name = "全弾発射-ギアリング級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ギアリング級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ギアリング級Ⅰを行う",
 		id = 20071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20072] = {
 		desc_get = "",
 		name = "全弾発射-ギアリング級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ギアリング級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ギアリング級Ⅱを行う",
 		id = 20072,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20081] = {
 		desc_get = "",
 		name = "全弾発射-アレン・M・サムナー級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-アレン・M・サムナー級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-アレン・M・サムナー級Ⅰを行う",
 		id = 20081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20082] = {
 		desc_get = "",
 		name = "全弾発射-アレン・M・サムナー級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-アレン・M・サムナー級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-アレン・M・サムナー級Ⅱを行う",
 		id = 20082,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20111] = {
 		desc_get = "",
 		name = "全弾発射-オマハ級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-オマハ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-オマハ級Ⅰを行う",
 		id = 20111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20112] = {
 		desc_get = "",
 		name = "全弾発射-オマハ級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-オマハ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-オマハ級Ⅱを行う",
 		id = 20112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20121] = {
 		desc_get = "",
 		name = "全弾発射-ブルックリン級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ブルックリン級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ブルックリン級Ⅰを行う",
 		id = 20121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20122] = {
 		desc_get = "",
 		name = "全弾発射-ブルックリン級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ブルックリン級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ブルックリン級Ⅱを行う",
 		id = 20122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20131] = {
 		desc_get = "",
 		name = "全弾発射-アトランタ級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-アトランタ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-アトランタ級Ⅰを行う",
 		id = 20131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20132] = {
 		desc_get = "",
 		name = "全弾発射-アトランタ級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-アトランタ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-アトランタ級Ⅱを行う",
 		id = 20132,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20141] = {
 		desc_get = "",
 		name = "全弾発射-クリーブランド級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-クリーブランド級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-クリーブランド級Ⅰを行う",
 		id = 20141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20142] = {
 		desc_get = "",
 		name = "全弾発射-クリーブランド級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-クリーブランド級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-クリーブランド級Ⅱを行う",
 		id = 20142,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20211] = {
 		desc_get = "",
 		name = "全弾発射-ペンサコーラ級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ペンサコーラ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ペンサコーラ級Ⅰを行う",
 		id = 20211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20212] = {
 		desc_get = "",
 		name = "全弾発射-ペンサコーラ級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ペンサコーラ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ペンサコーラ級Ⅱを行う",
 		id = 20212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20221] = {
 		desc_get = "",
 		name = "全弾発射-ノーザンプトン級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ノーザンプトン級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ノーザンプトン級Ⅰを行う",
 		id = 20221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20222] = {
 		desc_get = "",
 		name = "全弾発射-ノーザンプトン級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ノーザンプトン級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ノーザンプトン級Ⅱを行う",
 		id = 20222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20231] = {
 		desc_get = "",
 		name = "全弾発射-ポートランド級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ポートランド級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ポートランド級Ⅰを行う",
 		id = 20231,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20232] = {
 		desc_get = "",
 		name = "全弾発射-ポートランド級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ポートランド級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ポートランド級Ⅱを行う",
 		id = 20232,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20241] = {
 		desc_get = "",
 		name = "全弾発射-ニューオーリンズ級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ニューオーリンズ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ニューオーリンズ級Ⅰを行う",
 		id = 20241,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20242] = {
 		desc_get = "",
 		name = "全弾発射-ニューオーリンズ級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ニューオーリンズ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ニューオーリンズ級Ⅱを行う",
 		id = 20242,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20251] = {
 		desc_get = "",
 		name = "全弾発射-ウィチタⅠ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ウィチタⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ウィチタⅠを行う",
 		id = 20251,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20252] = {
 		desc_get = "",
 		name = "全弾発射-ウィチタⅡ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ウィチタⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ウィチタⅡを行う",
 		id = 20252,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20261] = {
 		desc_get = "",
 		name = "全弾発射-ボルチモア級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ボルチモア級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ボルチモア級Ⅰを行う",
 		id = 20261,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20262] = {
 		desc_get = "",
 		name = "全弾発射-ボルチモア級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ボルチモア級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ボルチモア級Ⅱを行う",
 		id = 20262,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20271] = {
 		desc_get = "",
 		name = "全弾発射-デモイン級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-デモイン級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-デモイン級Ⅰを行う",
 		id = 20271,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20272] = {
 		desc_get = "",
 		name = "全弾発射-デモイン級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-デモイン級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-デモイン級Ⅱを行う",
 		id = 20272,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20311] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ",
-		desc = "戦闘開始時、特殊弾幕ガトー級Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕ガトー級Ⅰを発動する",
 		id = 20311,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20312] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
-		desc = "戦闘開始時、特殊弾幕ガトー級Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕ガトー級Ⅱを発動する",
 		id = 20312,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21011] = {
 		desc_get = "",
 		name = "全弾発射-A級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-A級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-A級Ⅰを行う",
 		id = 21011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21012] = {
 		desc_get = "",
 		name = "全弾発射-A級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-A級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-A級Ⅱを行う",
 		id = 21012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21016] = {
 		desc_get = "",
 		name = "全弾発射-トライバル級Ⅰ",
-		desc = "自身の主砲で24回攻撃する度に、全弾発射-トライバル級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で24回攻撃する度に、全弾発射-トライバル級Ⅰを行う",
 		id = 21016,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21017] = {
 		desc_get = "",
 		name = "全弾発射-トライバル級Ⅱ",
-		desc = "自身の主砲で16回攻撃する度に、全弾発射-トライバル級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で16回攻撃する度に、全弾発射-トライバル級Ⅱを行う",
 		id = 21017,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21021] = {
 		desc_get = "",
 		name = "全弾発射-B級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-B級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-B級Ⅰを行う",
 		id = 21021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21022] = {
 		desc_get = "",
 		name = "全弾発射-B級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-B級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-B級Ⅱを行う",
 		id = 21022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21026] = {
 		desc_get = "",
 		name = "全弾発射-I級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-I級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-I級Ⅰを行う",
 		id = 21026,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21027] = {
 		desc_get = "",
 		name = "全弾発射-I級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-I級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-I級Ⅱを行う",
 		id = 21027,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21031] = {
 		desc_get = "",
 		name = "全弾発射-C級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-C級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-C級Ⅰを行う",
 		id = 21031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21032] = {
 		desc_get = "",
 		name = "全弾発射-C級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-C級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-C級Ⅱを行う",
 		id = 21032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21041] = {
 		desc_get = "",
 		name = "全弾発射-F級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-F級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-F級Ⅰを行う",
 		id = 21041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21042] = {
 		desc_get = "",
 		name = "全弾発射-F級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-F級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-F級Ⅱを行う",
 		id = 21042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21051] = {
 		desc_get = "",
 		name = "全弾発射-G級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-G級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-G級Ⅰを行う",
 		id = 21051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21052] = {
 		desc_get = "",
 		name = "全弾発射-G級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-G級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-G級Ⅱを行う",
 		id = 21052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21061] = {
 		desc_get = "",
 		name = "全弾発射-H級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-H級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-H級Ⅰを行う",
 		id = 21061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21062] = {
 		desc_get = "",
 		name = "全弾発射-H級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-H級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-H級Ⅱを行う",
 		id = 21062,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21071] = {
 		desc_get = "",
 		name = "全弾発射-J級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-J級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-J級Ⅰを行う",
 		id = 21071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21072] = {
 		desc_get = "",
 		name = "全弾発射-J級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-J級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-J級Ⅱを行う",
 		id = 21072,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21081] = {
 		desc_get = "",
 		name = "全弾発射-M級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-M級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-M級Ⅰを行う",
 		id = 21081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21082] = {
 		desc_get = "",
 		name = "全弾発射-M級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-M級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-M級Ⅱを行う",
 		id = 21082,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21091] = {
 		desc_get = "",
 		name = "全弾発射-E級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-E級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-E級Ⅰを行う",
 		id = 21091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21092] = {
 		desc_get = "",
 		name = "全弾発射-E級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-E級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-E級Ⅱを行う",
 		id = 21092,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21111] = {
 		desc_get = "",
 		name = "全弾発射-リアンダー級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-リアンダー級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-リアンダー級Ⅰを行う",
 		id = 21111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21112] = {
 		desc_get = "",
 		name = "全弾発射-リアンダー級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-リアンダー級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-リアンダー級Ⅱを行う",
 		id = 21112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21121] = {
 		desc_get = "",
 		name = "全弾発射-ダイドー級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ダイドー級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ダイドー級Ⅰを行う",
 		id = 21121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21122] = {
 		desc_get = "",
 		name = "全弾発射-ダイドー級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ダイドー級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ダイドー級Ⅱを行う",
 		id = 21122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21131] = {
 		desc_get = "",
 		name = "全弾発射-アリシューザ級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-アリシューザ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-アリシューザ級Ⅰを行う",
 		id = 21131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21132] = {
 		desc_get = "",
 		name = "全弾発射-アリシューザ級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-アリシューザ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-アリシューザ級Ⅱを行う",
 		id = 21132,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21141] = {
 		desc_get = "",
 		name = "全弾発射-エディンバラ級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-エディンバラ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-エディンバラ級Ⅰを行う",
 		id = 21141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21142] = {
 		desc_get = "",
 		name = "全弾発射-エディンバラ級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-エディンバラ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-エディンバラ級Ⅱを行う",
 		id = 21142,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21151] = {
 		desc_get = "",
 		name = "全弾発射-サウサンプトン級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-サウサンプトンⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-サウサンプトンⅠを行う",
 		id = 21151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21152] = {
 		desc_get = "",
 		name = "全弾発射-サウサンプトン級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-サウサンプトン級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-サウサンプトン級Ⅱを行う",
 		id = 21152,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21161] = {
 		desc_get = "",
 		name = "全弾発射-フィジーⅠ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-フィジーⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-フィジーⅠを行う",
 		id = 21161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21162] = {
 		desc_get = "",
 		name = "全弾発射-フィジー級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-フィジー級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-フィジー級Ⅱを行う",
 		id = 21162,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21171] = {
 		desc_get = "",
 		name = "全弾発射-シアリーズ級Ⅰ",
-		desc = "自身の主砲で24回攻撃する度に、全弾発射-シアリーズ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で24回攻撃する度に、全弾発射-シアリーズ級Ⅰを行う",
 		id = 21171,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21172] = {
 		desc_get = "",
 		name = "全弾発射-シアリーズ級Ⅱ",
-		desc = "自身の主砲で16回攻撃する度に、全弾発射-シアリーズ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で16回攻撃する度に、全弾発射-シアリーズ級Ⅱを行う",
 		id = 21172,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21181] = {
 		desc_get = "",
 		name = "全弾発射-グロスター級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-グロスター級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-グロスター級Ⅰを行う",
 		id = 21181,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21182] = {
 		desc_get = "",
 		name = "全弾発射-グロスター級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-グロスター級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-グロスター級Ⅱを行う",
 		id = 21182,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21211] = {
 		desc_get = "",
 		name = "全弾発射-ロンドン級Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-ロンドン級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-ロンドン級Ⅰを行う",
 		id = 21211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21212] = {
 		desc_get = "",
 		name = "全弾発射-ロンドン級Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-ロンドン級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-ロンドン級Ⅱを行う",
 		id = 21212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21221] = {
 		desc_get = "",
 		name = "全弾発射-ケント級Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-ケント級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-ケント級Ⅰを行う",
 		id = 21221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21222] = {
 		desc_get = "",
 		name = "全弾発射-ケント級Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-ケント級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-ケント級Ⅱを行う",
 		id = 21222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21231] = {
 		desc_get = "",
 		name = "全弾発射-ノーフォーク級Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-ノーフォーク級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-ノーフォーク級Ⅰを行う",
 		id = 21231,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21232] = {
 		desc_get = "",
 		name = "全弾発射-ノーフォーク級Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-ノーフォーク級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-ノーフォーク級Ⅱを行う",
 		id = 21232,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21241] = {
 		desc_get = "",
 		name = "全弾発射-ヨーク級Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-ヨーク級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-ヨーク級Ⅰを行う",
 		id = 21241,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21242] = {
 		desc_get = "",
 		name = "全弾発射-ヨーク級Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-ヨーク級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-ヨーク級Ⅱを行う",
 		id = 21242,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22011] = {
 		desc_get = "",
 		name = "全弾発射-睦月型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-睦月型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-睦月型Ⅰを行う",
 		id = 22011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22012] = {
 		desc_get = "",
 		name = "全弾発射-睦月型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-睦月型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-睦月型Ⅱを行う",
 		id = 22012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22021] = {
 		desc_get = "",
 		name = "全弾発射-吹雪型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-吹雪型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-吹雪型Ⅰを行う",
 		id = 22021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22022] = {
 		desc_get = "",
 		name = "全弾発射-吹雪型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-吹雪型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-吹雪型Ⅱを行う",
 		id = 22022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22031] = {
 		desc_get = "",
 		name = "全弾発射-白露型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-白露型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-白露型Ⅰを行う",
 		id = 22031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22032] = {
 		desc_get = "",
 		name = "全弾発射-白露型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-白露型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-白露型Ⅱを行う",
 		id = 22032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22041] = {
 		desc_get = "",
 		name = "全弾発射-初春型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-初春型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-初春型Ⅰを行う",
 		id = 22041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22042] = {
 		desc_get = "",
 		name = "全弾発射-初春型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-初春型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-初春型Ⅱを行う",
 		id = 22042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22051] = {
 		desc_get = "",
 		name = "全弾発射-陽炎型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-陽炎型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-陽炎型Ⅰを行う",
 		id = 22051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22052] = {
 		desc_get = "",
 		name = "全弾発射-陽炎型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-陽炎型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-陽炎型Ⅱを行う",
 		id = 22052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22056] = {
 		desc_get = "",
 		name = "全弾発射-夕雲型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-夕雲型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-夕雲型Ⅰを行う",
 		id = 22056,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22057] = {
 		desc_get = "",
 		name = "全弾発射-夕雲型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-夕雲型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-夕雲型Ⅱを行う",
 		id = 22057,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22061] = {
 		desc_get = "",
 		name = "全弾発射-秋月型Ⅰ",
-		desc = "自身の主砲で24回攻撃する度に、全弾発射-秋月型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で24回攻撃する度に、全弾発射-秋月型Ⅰを行う",
 		id = 22061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22062] = {
 		desc_get = "",
 		name = "全弾発射-秋月型Ⅱ",
-		desc = "自身の主砲で16回攻撃する度に、全弾発射-秋月型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で16回攻撃する度に、全弾発射-秋月型Ⅱを行う",
 		id = 22062,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22071] = {
 		desc_get = "",
 		name = "全弾発射-暁型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-暁型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-暁型Ⅰを行う",
 		id = 22071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22072] = {
 		desc_get = "",
 		name = "全弾発射-暁型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-暁型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-暁型Ⅱを行う",
 		id = 22072,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22081] = {
 		desc_get = "",
 		name = "全弾発射-神風型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-神風型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-神風型Ⅰを行う",
 		id = 22081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22082] = {
 		desc_get = "",
 		name = "全弾発射-神風型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-神風型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-神風型Ⅱを行う",
 		id = 22082,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22091] = {
 		desc_get = "",
 		name = "全弾発射-朝潮型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-朝潮型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-朝潮型Ⅰを行う",
 		id = 22091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22092] = {
 		desc_get = "",
 		name = "全弾発射-朝潮型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-朝潮型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-朝潮型Ⅱを行う",
 		id = 22092,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22111] = {
 		desc_get = "",
 		name = "全弾発射-天龍型Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-天龍型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-天龍型Ⅰを行う",
 		id = 22111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22112] = {
 		desc_get = "",
 		name = "全弾発射-天龍型Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-天龍型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-天龍型Ⅱを行う",
 		id = 22112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22121] = {
 		desc_get = "",
 		name = "全弾発射-球磨型Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-球磨型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-球磨型Ⅰを行う",
 		id = 22121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22122] = {
 		desc_get = "",
 		name = "全弾発射-球磨型Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-球磨型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-球磨型Ⅱを行う",
 		id = 22122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22131] = {
 		desc_get = "",
 		name = "全弾発射-川内型Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-川内型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-川内型Ⅰを行う",
 		id = 22131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22132] = {
 		desc_get = "",
 		name = "全弾発射-川内型Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-川内型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-川内型Ⅱを行う",
 		id = 22132,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22141] = {
 		desc_get = "",
 		name = "全弾発射-長良型Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-長良型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-長良型Ⅰを行う",
 		id = 22141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22142] = {
 		desc_get = "",
 		name = "全弾発射-長良型Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-長良型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-長良型Ⅱを行う",
 		id = 22142,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22151] = {
 		desc_get = "",
 		name = "全弾発射-阿賀野型Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-阿賀野型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-阿賀野型Ⅰを行う",
 		id = 22151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22152] = {
 		desc_get = "",
 		name = "全弾発射-阿賀野型Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-阿賀野型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-阿賀野型Ⅱを行う",
 		id = 22152,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22161] = {
 		desc_get = "",
 		name = "全弾発射-夕張型Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-夕張型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-夕張型Ⅰを行う",
 		id = 22161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22162] = {
 		desc_get = "",
 		name = "全弾発射-夕張型Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-夕張型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-夕張型Ⅱを行う",
 		id = 22162,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22211] = {
 		desc_get = "",
 		name = "全弾発射-古鷹型Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-古鷹型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-古鷹型Ⅰを行う",
 		id = 22211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22212] = {
 		desc_get = "",
 		name = "全弾発射-古鷹型Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-古鷹型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-古鷹型Ⅱを行う",
 		id = 22212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22221] = {
 		desc_get = "",
 		name = "全弾発射-青葉型Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-青葉型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-青葉型Ⅰを行う",
 		id = 22221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22222] = {
 		desc_get = "",
 		name = "全弾発射-青葉型Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-青葉型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-青葉型Ⅱを行う",
 		id = 22222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22231] = {
 		desc_get = "",
 		name = "全弾発射-妙高型Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-妙高型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-妙高型Ⅰを行う",
 		id = 22231,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22232] = {
 		desc_get = "",
 		name = "全弾発射-妙高型Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-妙高型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-妙高型Ⅱを行う",
 		id = 22232,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22241] = {
 		desc_get = "",
 		name = "全弾発射-利根型Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-利根型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-利根型Ⅰを行う",
 		id = 22241,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22242] = {
 		desc_get = "",
 		name = "全弾発射-利根型Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-利根型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-利根型Ⅱを行う",
 		id = 22242,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22251] = {
 		desc_get = "",
 		name = "全弾発射-最上型Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-最上型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-最上型Ⅰを行う",
 		id = 22251,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22252] = {
 		desc_get = "",
 		name = "全弾発射-最上型Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-最上型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-最上型Ⅱを行う",
 		id = 22252,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22253] = {
 		desc_get = "",
 		name = "全弾発射-最上型改",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-最上型改を行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-最上型改を行う",
 		id = 22253,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22254] = {
 		desc_get = "",
 		name = "全弾発射-鈴谷型Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-鈴谷型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-鈴谷型Ⅰを行う",
 		id = 22254,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22255] = {
 		desc_get = "",
 		name = "全弾発射-鈴谷型Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-鈴谷型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-鈴谷型Ⅱを行う",
 		id = 22255,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22261] = {
 		desc_get = "",
 		name = "全弾発射-高雄型Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-高雄型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-高雄型Ⅰを行う；戦闘中自身の全弾発射が発動する際に1度だけ、戦闘終了時まで自身の回避率が10%アップする",
 		id = 22261,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22262] = {
 		desc_get = "",
 		name = "全弾発射-高雄型Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-高雄型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で4回攻撃する度に、全弾発射-高雄型Ⅰを行う；戦闘中自身の全弾発射が発動する際に1度だけ、戦闘終了時まで自身の回避率が10%アップする",
 		id = 22262,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22311] = {
 		desc_get = "",
 		name = "全弾発射-伊号潜水艦Ⅰ",
-		desc = "戦闘開始時、全弾発射-伊号潜水艦Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-伊号潜水艦Ⅰを発動する",
 		id = 22311,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22312] = {
 		desc_get = "",
 		name = "全弾発射-伊号潜水艦Ⅱ",
-		desc = "戦闘開始時、全弾発射-伊号潜水艦Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-伊号潜水艦Ⅱを発動する",
 		id = 22312,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22411] = {
 		desc_get = "",
 		name = "全弾発射-樫野Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-樫野Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-樫野Ⅰを行う",
 		id = 22411,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22412] = {
 		desc_get = "",
 		name = "全弾発射-樫野Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-樫野Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-樫野Ⅱを行う",
 		id = 22412,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23011] = {
 		desc_get = "",
 		name = "全弾発射-1934型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-1934型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-1934型Ⅰを行う",
 		id = 23011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23012] = {
 		desc_get = "",
 		name = "全弾発射-1934型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-1934型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-1934型Ⅱを行う",
 		id = 23012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23031] = {
 		desc_get = "",
 		name = "全弾発射-1936型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-1936型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-1936型Ⅰを行う",
 		id = 23031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23032] = {
 		desc_get = "",
 		name = "全弾発射-1936型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-1936型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-1936型Ⅱを行う",
 		id = 23032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23041] = {
 		desc_get = "",
 		name = "全弾発射-1936A型I",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-1936A型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-1936A型Ⅰを行う",
 		id = 23041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23042] = {
 		desc_get = "",
 		name = "全弾発射-1936A型II",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-1936A型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-1936A型Ⅱを行う",
 		id = 23042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23051] = {
 		desc_get = "",
 		name = "全弾発射-1936B型I",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-1936B型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-1936B型Ⅰを行う",
 		id = 23051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23052] = {
 		desc_get = "",
 		name = "全弾発射--1936B型II",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-1936B型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-1936B型Ⅱを行う",
 		id = 23052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23111] = {
 		desc_get = "",
 		name = "全弾発射-ケーニヒスベルク型Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ケーニヒスベルク型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ケーニヒスベルク型Ⅰを行う",
 		id = 23111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23112] = {
 		desc_get = "",
 		name = "全弾発射-ケーニヒスベルク型Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ケーニヒスベルク型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ケーニヒスベルク型Ⅱを行う",
 		id = 23112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23121] = {
 		desc_get = "",
 		name = "全弾発射-ライプツィヒⅠ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ライプツィヒⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ライプツィヒⅠを行う",
 		id = 23121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23122] = {
 		desc_get = "",
 		name = "全弾発射-ライプツィヒⅡ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ライプツィヒⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ライプツィヒⅡを行う",
 		id = 23122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23211] = {
 		desc_get = "",
 		name = "全弾発射-アドミラル・ヒッパー級Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-アドミラル・ヒッパー級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-アドミラル・ヒッパー級Ⅰを行う",
 		id = 23211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23212] = {
 		desc_get = "",
 		name = "全弾発射-アドミラル・ヒッパー級Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-アドミラル・ヒッパー級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-アドミラル・ヒッパー級Ⅱを行う",
 		id = 23212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23221] = {
 		desc_get = "",
 		name = "全弾発射-ドイッチュラント級Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-ドイッチュラント級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-ドイッチュラント級Ⅰを行う",
 		id = 23221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23222] = {
 		desc_get = "",
 		name = "全弾発射-ドイッチュラント級Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-ドイッチュラント級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-ドイッチュラント級Ⅱを行う",
 		id = 23222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23311] = {
 		desc_get = "",
 		name = "全弾発射-Type VIIC型I",
-		desc = "戦闘開始時、全弾発射-Type VIIC型Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-Type VIIC型Ⅰを発動する",
 		id = 23311,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23312] = {
 		desc_get = "",
 		name = "全弾発射-Type VIIC型II",
-		desc = "戦闘開始時、全弾発射-Type VIIC型Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-Type VIIC型Ⅱを発動する",
 		id = 23312,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23321] = {
 		desc_get = "",
 		name = "全弾発射-Type IXB型I",
-		desc = "戦闘開始時、全弾発射-Type IXB型Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-Type IXB型Ⅰを発動する",
 		id = 23321,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23322] = {
 		desc_get = "",
 		name = "全弾発射-Type IXB型II",
-		desc = "戦闘開始時、全弾発射-Type IXB型Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-Type IXB型Ⅱを発動する",
 		id = 23322,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23411] = {
 		desc_get = "",
 		name = "全弾発射-Type VIIB型I",
-		desc = "戦闘開始時、全弾発射-Type VIIB型Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-Type VIIB型Ⅰを発動する",
 		id = 23411,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23412] = {
 		desc_get = "",
 		name = "全弾発射-Type VIIB型II",
-		desc = "戦闘開始時、全弾発射-Type VIIB型Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-Type VIIB型Ⅱを発動する",
 		id = 23412,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23511] = {
 		desc_get = "",
 		name = "全弾発射-Type IXC型I",
-		desc = "戦闘開始時、全弾発射-Type IXC型Iを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-Type IXC型Iを発動する",
 		id = 23511,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23512] = {
 		desc_get = "",
 		name = "全弾発射-Type IXC型II",
-		desc = "戦闘開始時、全弾発射-Type IXC型IIを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、全弾発射-Type IXC型IIを発動する",
 		id = 23512,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24011] = {
 		desc_get = "",
 		name = "全弾発射-アンシャン型Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-アンシャン型Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-アンシャン型Ⅰを行う",
 		id = 24011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24012] = {
 		desc_get = "",
 		name = "全弾発射-アンシャン型Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-アンシャン型Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-アンシャン型Ⅱを行う",
 		id = 24012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24111] = {
 		desc_get = "",
 		name = "全弾発射-寧海級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-寧海級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-寧海級Ⅰを行う",
 		id = 24111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24112] = {
 		desc_get = "",
 		name = "全弾発射-寧海級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-寧海級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-寧海級Ⅱを行う",
 		id = 24112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24121] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ",
-		desc = "自身の主砲で18回攻撃する度に、全弾発射Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で18回攻撃する度に、全弾発射Ⅰを行う",
 		id = 24121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24122] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射Ⅱを行う",
 		id = 24122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25011] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ソルダティ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ソルダティ級Ⅰを行う",
 		id = 25011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25012] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ソルダティ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ソルダティ級Ⅱを行う",
 		id = 25012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25211] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-トレント 級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-トレント 級Ⅰを行う",
 		id = 25211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25212] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-トレント 級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-トレント 級Ⅱを行う",
 		id = 25212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25221] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ザラ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ザラ級Ⅰを行う",
 		id = 25221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25222] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ザラ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ザラ級Ⅱを行う",
 		id = 25222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26011] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-グネフヌイ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-グネフヌイ級Ⅰを行う",
 		id = 26011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26012] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-グネフヌイ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-グネフヌイ級Ⅱを行う",
 		id = 26012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26021] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-レニングラード級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-レニングラード級Ⅰを行う",
 		id = 26021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26022] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-レニングラード級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-レニングラード級Ⅱを行う",
 		id = 26022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26111] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ボガトィーリ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ボガトィーリ級Ⅰを行う",
 		id = 26111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26112] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ボガトィーリ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ボガトィーリ級Ⅱを行う",
 		id = 26112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28011] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ-ラドロア級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ラドロア級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ラドロア級Ⅰを行う",
 		id = 28011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28012] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ-ラドロア級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ラドロア級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ラドロア級Ⅱを行う",
 		id = 28012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28021] = {
 		desc_get = "",
 		name = "全弾発射-ル・アルディ級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ル・アルディ級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ル・アルディ級Ⅰを行う",
 		id = 28021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28022] = {
 		desc_get = "",
 		name = "全弾発射-ル・アルディ級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ル・アルディ級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ル・アルディ級Ⅱを行う",
 		id = 28022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28031] = {
 		desc_get = "",
 		name = "全弾発射-ヴォークラン級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、全弾発射-ヴォークラン級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、全弾発射-ヴォークラン級Ⅰを行う",
 		id = 28031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28032] = {
 		desc_get = "",
 		name = "全弾発射-ヴォークラン級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、全弾発射-ヴォークラン級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、全弾発射-ヴォークラン級Ⅱを行う",
 		id = 28032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28111] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ-エミール・ベルタンⅠ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-エミール・ベルタンⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-エミール・ベルタンⅠを行う",
 		id = 28111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28112] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ-エミール・ベルタンⅡ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-エミール・ベルタンⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-エミール・ベルタンⅡを行う",
 		id = 28112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28121] = {
 		desc_get = "",
 		name = "全弾発射-ラ・ガリソニエール級Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、全弾発射-ラ・ガリソニエール級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、全弾発射-ラ・ガリソニエール級Ⅰを行う",
 		id = 28121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28122] = {
 		desc_get = "",
 		name = "全弾発射-ラ・ガリソニエール級Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、全弾発射-ラ・ガリソニエール級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、全弾発射-ラ・ガリソニエール級Ⅱを行う",
 		id = 28122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28211] = {
 		desc_get = "",
 		name = "全弾発射-アルジェリーⅠ",
-		desc = "自身の主砲で9回攻撃する度に、全弾発射-アルジェリーⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、全弾発射-アルジェリーⅠを行う",
 		id = 28211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28212] = {
 		desc_get = "",
 		name = "全弾発射-アルジェリーⅡ",
-		desc = "自身の主砲で6回攻撃する度に、全弾発射-アルジェリーⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、全弾発射-アルジェリーⅡを行う",
 		id = 28212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29011] = {
 		desc_get = "",
 		name = "特殊弾幕-イングランド級Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-イングランド級Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-イングランド級Ⅰを行う",
 		id = 29011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29012] = {
 		desc_get = "",
 		name = "特殊弾幕-イングランド級Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-イングランド級Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-イングランド級Ⅱを行う",
 		id = 29012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29021] = {
 		desc_get = "",
 		name = "特殊弾幕-エルドリッジⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-エルドリッジⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-エルドリッジⅠを行う",
 		id = 29021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29022] = {
 		desc_get = "",
 		name = "特殊弾幕-エルドリッジⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-エルドリッジⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-エルドリッジⅡを行う",
 		id = 29022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29031] = {
 		desc_get = "",
 		name = "特殊弾幕-ウィリアム·D·ポーターⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ウィリアム・D・ポーターⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ウィリアム・D・ポーターⅠを行う",
 		id = 29031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29032] = {
 		desc_get = "",
 		name = "特殊弾幕-ウィリアム·D·ポーターⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ウィリアム・D・ポーターⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ウィリアム・D・ポーターⅡを行う",
 		id = 29032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29041] = {
 		desc_get = "",
 		name = "特殊弾幕-ジョンストンⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ジョンストンⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ジョンストンⅠを行う",
 		id = 29041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29042] = {
 		desc_get = "",
 		name = "特殊弾幕-ジョンストンⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ジョンストンⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ジョンストンⅡを行う",
 		id = 29042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29051] = {
 		desc_get = "",
 		name = "特殊弾幕-ラフィーⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ラフィーⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ラフィーⅠを行う",
 		id = 29051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29052] = {
 		desc_get = "",
 		name = "特殊弾幕-ラフィーⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ラフィーⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ラフィーⅡを行う",
 		id = 29052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29061] = {
 		desc_get = "",
 		name = "特殊弾幕-グローウォームⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-グローウォームⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-グローウォームⅠを行う",
 		id = 29061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29062] = {
 		desc_get = "",
 		name = "特殊弾幕-グローウォームⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-グローウォームⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-グローウォームⅡを行う",
 		id = 29062,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29071] = {
 		desc_get = "",
 		name = "特殊弾幕-アカスタⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-アカスタⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-アカスタⅠを行う",
 		id = 29071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29072] = {
 		desc_get = "",
 		name = "特殊弾幕-アカスタⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-アカスタⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-アカスタⅡを行う",
 		id = 29072,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29081] = {
 		desc_get = "",
 		name = "特殊弾幕-ジャベリンⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ジャベリンⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ジャベリンⅠを行う",
 		id = 29081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29082] = {
 		desc_get = "",
 		name = "特殊弾幕-ジャベリンⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ジャベリンⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ジャベリンⅡを行う",
 		id = 29082,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29091] = {
 		desc_get = "",
 		name = "特殊弾幕-ヴァンパイアⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ヴァンパイアⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ヴァンパイアⅠを行う",
 		id = 29091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29092] = {
 		desc_get = "",
 		name = "特殊弾幕-ヴァンパイアⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ヴァンパイアⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ヴァンパイアⅡを行う",
 		id = 29092,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29101] = {
 		desc_get = "",
 		name = "特殊弾幕-ベルファストⅠ",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ベルファストⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ベルファストⅠを行う",
 		id = 29101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29102] = {
 		desc_get = "",
 		name = "特殊弾幕-ベルファストⅡ",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ベルファストⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ベルファストⅡを行う",
 		id = 29102,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29111] = {
 		desc_get = "",
 		name = "特殊弾幕-綾波Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-綾波Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-綾波Ⅰを行う",
 		id = 29111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29112] = {
 		desc_get = "",
 		name = "特殊弾幕-綾波Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-綾波Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-綾波Ⅱを行う",
 		id = 29112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29121] = {
 		desc_get = "",
 		name = "特殊弾幕-夕立Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-夕立Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-夕立Ⅰを行う",
 		id = 29121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29122] = {
 		desc_get = "",
 		name = "特殊弾幕-夕立Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-夕立Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-夕立Ⅱを行う",
 		id = 29122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29131] = {
 		desc_get = "",
 		name = "特殊弾幕-雪風Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-雪風Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-雪風Ⅰを行う",
 		id = 29131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29132] = {
 		desc_get = "",
 		name = "特殊弾幕-雪風Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-雪風Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-雪風Ⅱを行う",
 		id = 29132,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29141] = {
 		desc_get = "",
 		name = "特殊弾幕-島風Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-島風Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-島風Ⅰを行う",
 		id = 29141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29142] = {
 		desc_get = "",
 		name = "特殊弾幕-島風Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-島風Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-島風Ⅱを行う",
 		id = 29142,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29151] = {
 		desc_get = "",
 		name = "特殊弾幕-北上Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-北上Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-北上Ⅰを行う",
 		id = 29151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29152] = {
 		desc_get = "",
 		name = "特殊弾幕-北上Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-北上Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-北上Ⅱを行う",
 		id = 29152,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29161] = {
 		desc_get = "",
 		name = "特殊弾幕-大井Ⅰ",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-大井Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-大井Ⅰを行う",
 		id = 29161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29162] = {
 		desc_get = "",
 		name = "特殊弾幕-大井Ⅱ",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-大井Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-大井Ⅱを行う",
 		id = 29162,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29171] = {
 		desc_get = "",
 		name = "特殊弾幕-Z1Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-Z1Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-Z1Ⅰを行う",
 		id = 29171,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29172] = {
 		desc_get = "",
 		name = "特殊弾幕-Z1Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-Z1Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-Z1Ⅱを行う",
 		id = 29172,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29181] = {
 		desc_get = "",
 		name = "特殊弾幕-アンシャンⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-アンシャンⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-アンシャンⅠを行う",
 		id = 29181,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29182] = {
 		desc_get = "",
 		name = "特殊弾幕-アンシャンⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-アンシャンⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-アンシャンⅡを行う",
 		id = 29182,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29191] = {
 		desc_get = "",
 		name = "特殊弾幕-アヴローラⅠ",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-アヴローラⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-アヴローラⅠを行う",
 		id = 29191,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29192] = {
 		desc_get = "",
 		name = "特殊弾幕-アヴローラⅡ",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-アヴローラⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-アヴローラⅡを行う",
 		id = 29192,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29201] = {
 		desc_get = "",
 		name = "特殊弾幕-Z23Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-Z23Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-Z23Ⅰを行う",
 		id = 29201,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29202] = {
 		desc_get = "",
 		name = "特殊弾幕-Z23Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-Z23Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-Z23Ⅱを行う",
 		id = 29202,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29211] = {
 		desc_get = "",
 		name = "特殊弾幕-Z46Ⅰ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-Z46Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-Z46Ⅰを行う",
 		id = 29211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29212] = {
 		desc_get = "",
 		name = "特殊弾幕-Z46Ⅱ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-Z46Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-Z46Ⅱを行う",
 		id = 29212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29221] = {
 		desc_get = "",
 		name = "特殊弾幕-伊吹I",
-		desc = "自身の主砲で9回攻撃する度に、特殊弾幕-伊吹Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、特殊弾幕-伊吹Ⅰを行う",
 		id = 29221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29222] = {
 		desc_get = "",
 		name = "特殊弾幕-伊吹II",
-		desc = "自身の主砲で6回攻撃する度に、特殊弾幕-伊吹Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、特殊弾幕-伊吹Ⅱを行う",
 		id = 29222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29231] = {
 		desc_get = "",
 		name = "特殊弾幕-ネプチューンI",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ネプチューンⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ネプチューンⅠを行う",
 		id = 29231,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29232] = {
 		desc_get = "",
 		name = "特殊弾幕-ネプチューンII",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ネプチューンⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ネプチューンⅡを行う",
 		id = 29232,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29241] = {
 		desc_get = "",
 		name = "特殊弾幕-ローンI",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ローンⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ローンⅠを行う",
 		id = 29241,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29242] = {
 		desc_get = "",
 		name = "特殊弾幕-ローンII",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ローンⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ローンⅡを行う",
 		id = 29242,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29251] = {
 		desc_get = "",
 		name = "特殊弾幕-サン·ルイI",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-サン・ルイⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-サン・ルイⅠを行う",
 		id = 29251,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29252] = {
 		desc_get = "",
 		name = "特殊弾幕-サン·ルイII",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-サン・ルイⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-サン・ルイⅡを行う",
 		id = 29252,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29261] = {
 		desc_get = "",
 		name = "特殊弾幕-伊-19Ⅰ",
-		desc = "戦闘開始時、特殊弾幕伊-19Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕伊-19Ⅰを発動する",
 		id = 29261,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29262] = {
 		desc_get = "",
 		name = "特殊弾幕-伊-19Ⅱ",
-		desc = "戦闘開始時、特殊弾幕伊-19Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕伊-19Ⅱを発動する",
 		id = 29262,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29271] = {
 		desc_get = "",
 		name = "特殊弾幕-U-81Ⅰ",
-		desc = "戦闘開始時、特殊弾幕U-81Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕U-81Ⅰを発動する",
 		id = 29271,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29272] = {
 		desc_get = "",
 		name = "特殊弾幕-U-81Ⅱ",
-		desc = "戦闘開始時、特殊弾幕U-81Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕U-81Ⅱを発動する",
 		id = 29272,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29281] = {
 		desc_get = "",
 		name = "特殊弾幕-江風I",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-江風Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-江風Ⅰを行う",
 		id = 29281,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29282] = {
 		desc_get = "",
 		name = "特殊弾幕-江風II",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-江風Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-江風Ⅱを行う",
 		id = 29282,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29311] = {
 		desc_get = "",
 		name = "特殊弾幕U-47Ⅰ",
-		desc = "戦闘開始時、特殊弾幕U-47Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕U-47Ⅰを発動する",
 		id = 29311,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29312] = {
 		desc_get = "",
 		name = "特殊弾幕U-47Ⅱ",
-		desc = "戦闘開始時、特殊弾幕U-47Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕U-47Ⅱを発動する",
 		id = 29312,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29321] = {
 		desc_get = "",
 		name = "特殊弾幕-シュルクーフI",
-		desc = "潜航から浮上した際に、特殊弾幕-シュルクーフⅠを発動する。",
 		type = 1,
 		max_level = 1,
+		desc = "潜航から浮上した際に、特殊弾幕-シュルクーフⅠを発動する。",
 		id = 29321,
 		system_transform = {
 			[11.0] = 29323
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -46576,12 +50294,15 @@ pg.skill_data_template = {
 	[29322] = {
 		desc_get = "",
 		name = "特殊弾幕-シュルクーフII",
-		desc = "潜航から浮上した際に、特殊弾幕-シュルクーフⅡを発動する。",
 		type = 1,
 		max_level = 1,
+		desc = "潜航から浮上した際に、特殊弾幕-シュルクーフⅡを発動する。",
 		id = 29322,
 		system_transform = {
 			[11.0] = 29324
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -46589,551 +50310,701 @@ pg.skill_data_template = {
 	[29331] = {
 		desc_get = "",
 		name = "特殊弾幕-ル·トリオンファンI",
-		desc = "自身の主砲で15回攻撃する度に、ル・トリオンファンⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、ル・トリオンファンⅠを行う",
 		id = 29331,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29332] = {
 		desc_get = "",
 		name = "特殊弾幕-ル·トリオンファンII",
-		desc = "自身の主砲で10回攻撃する度に、ル・トリオンファンⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、ル・トリオンファンⅡを行う",
 		id = 29332,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29341] = {
 		desc_get = "",
 		name = "特殊弾幕-アルバコアI",
-		desc = "戦闘開始時、特殊弾幕アルバコアⅠを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕アルバコアⅠを発動する",
 		id = 29341,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29342] = {
 		desc_get = "",
 		name = "特殊弾幕-アルバコアII",
-		desc = "戦闘開始時、特殊弾幕アルバコアⅡを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕アルバコアⅡを発動する",
 		id = 29342,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29351] = {
 		desc_get = "",
 		name = "特殊弾幕-サンディエゴI",
-		desc = "自身の主砲で16回攻撃する度に、特殊弾幕-サンディエゴを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で16回攻撃する度に、特殊弾幕-サンディエゴを行う",
 		id = 29351,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29361] = {
 		desc_get = "",
 		name = "特殊弾幕-シリアスI",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-シリアスを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-シリアスを行う",
 		id = 29361,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29362] = {
 		desc_get = "",
 		name = "特殊弾幕-シリアスII",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-シリアスを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-シリアスを行う",
 		id = 29362,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29371] = {
 		desc_get = "",
 		name = "特殊弾幕-伊13I",
-		desc = "戦闘開始時、特殊弾幕伊-13Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕伊-13Ⅰを発動する",
 		id = 29371,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29372] = {
 		desc_get = "",
 		name = "特殊弾幕-伊13II",
-		desc = "戦闘開始時、特殊弾幕伊-13Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕伊-13Ⅱを発動する",
 		id = 29372,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29381] = {
 		desc_get = "",
 		name = "特殊弾幕-北風I",
-		desc = "自身の主砲で24回攻撃する度に、特殊弾幕-北風Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で24回攻撃する度に、特殊弾幕-北風Ⅰを行う",
 		id = 29381,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29382] = {
 		desc_get = "",
 		name = "特殊弾幕-北風II",
-		desc = "自身の主砲で16回攻撃する度に、特殊弾幕-北風Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で16回攻撃する度に、特殊弾幕-北風Ⅱを行う",
 		id = 29382,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29391] = {
 		desc_get = "",
 		name = "特殊弾幕-シアトルI",
-		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-シアトルⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-シアトルⅠを行う",
 		id = 29391,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29392] = {
 		desc_get = "",
 		name = "特殊弾幕-シアトルII",
-		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-シアトルⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-シアトルⅡを行う",
 		id = 29392,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29401] = {
 		desc_get = "",
 		name = "特殊弾幕-スウィフトシュアI",
-		desc = "自身の主兵装で12回攻撃する度に、特殊弾幕-スウィフトシュアⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で12回攻撃する度に、特殊弾幕-スウィフトシュアⅠを行う",
 		id = 29401,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29402] = {
 		desc_get = "",
 		name = "特殊弾幕-スウィフトシュアII",
-		desc = "自身の主兵装で8回攻撃する度に、特殊弾幕-スウィフトシュアⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で8回攻撃する度に、特殊弾幕-スウィフトシュアⅡを行う",
 		id = 29402,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29411] = {
 		desc_get = "",
 		name = "特殊弾幕-ル·マランI",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ル・マランⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ル・マランⅠを行う",
 		id = 29411,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29412] = {
 		desc_get = "",
 		name = "特殊弾幕-ル·マランII",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ル・マランⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ル・マランⅡを行う",
 		id = 29412,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29421] = {
 		desc_get = "",
 		name = "特殊弾幕-伊168I",
-		desc = "戦闘開始時、特殊弾幕-伊168Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕-伊168Ⅰを発動する",
 		id = 29421,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29422] = {
 		desc_get = "",
 		name = "特殊弾幕-伊168II",
-		desc = "戦闘開始時、特殊弾幕-伊168Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕-伊168Ⅱを発動する",
 		id = 29422,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29431] = {
 		desc_get = "",
 		name = "特殊弾幕-U101I",
-		desc = "戦闘開始時、特殊弾幕-U101Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕-U101Ⅰを発動する",
 		id = 29431,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29432] = {
 		desc_get = "",
 		name = "特殊弾幕-U101II",
-		desc = "戦闘開始時、特殊弾幕-U101Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕-U101Ⅱを発動する",
 		id = 29432,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29441] = {
 		desc_get = "",
 		name = "特殊弾幕-カヴァラI",
-		desc = "戦闘開始時、特殊弾幕-カヴァラⅠを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕-カヴァラⅠを発動する",
 		id = 29441,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29442] = {
 		desc_get = "",
 		name = "特殊弾幕-カヴァラII",
-		desc = "戦闘開始時、特殊弾幕カヴァラⅡを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕カヴァラⅡを発動する",
 		id = 29442,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29451] = {
 		desc_get = "",
 		name = "特殊弾幕-クリーブランド（μ兵装）I",
-		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-クリーブランド（μ兵装）Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-クリーブランド（μ兵装）Ⅰを行う",
 		id = 29451,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29452] = {
 		desc_get = "",
 		name = "特殊弾幕-クリーブランド（μ兵装）II",
-		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-クリーブランド（μ兵装）Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-クリーブランド（μ兵装）Ⅱを行う",
 		id = 29452,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29461] = {
 		desc_get = "",
 		name = "特殊弾幕-シェフィールド（μ兵装）I",
-		desc = "自身の主兵装で12回攻撃する度に、特殊弾幕-シェフィールド（μ兵装）Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で12回攻撃する度に、特殊弾幕-シェフィールド（μ兵装）Ⅰを行う",
 		id = 29461,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29462] = {
 		desc_get = "",
 		name = "特殊弾幕-シェフィールド（μ兵装）II",
-		desc = "自身の主兵装で8回攻撃する度に、特殊弾幕-シェフィールド（μ兵装）Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で8回攻撃する度に、特殊弾幕-シェフィールド（μ兵装）Ⅱを行う",
 		id = 29462,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29471] = {
 		desc_get = "",
 		name = "特殊弾幕-アドミラル·ヒッパー（μ兵装）I",
-		desc = "自身の主兵装で9回攻撃する度に、特殊弾幕-アドミラル·ヒッパー（μ兵装）Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で9回攻撃する度に、特殊弾幕-アドミラル·ヒッパー（μ兵装）Ⅰを行う",
 		id = 29471,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29472] = {
 		desc_get = "",
 		name = "特殊弾幕-アドミラル·ヒッパー（μ兵装）II",
-		desc = "自身の主兵装で6回攻撃する度に、特殊弾幕-アドミラル·ヒッパー（μ兵装）Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で6回攻撃する度に、特殊弾幕-アドミラル·ヒッパー（μ兵装）Ⅱを行う",
 		id = 29472,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29481] = {
 		desc_get = "",
 		name = "特殊弾幕-能代I",
-		desc = "自身の主兵装で12回攻撃する度に、特殊弾幕-能代Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で12回攻撃する度に、特殊弾幕-能代Ⅰを行う",
 		id = 29481,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29482] = {
 		desc_get = "",
 		name = "特殊弾幕-能代II",
-		desc = "自身の主兵装で8回攻撃する度に、特殊弾幕-能代Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で8回攻撃する度に、特殊弾幕-能代Ⅱを行う",
 		id = 29482,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29491] = {
 		desc_get = "",
 		name = "特殊弾幕-ダイドーⅠ",
-		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-ダイドーⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-ダイドーⅠを行う",
 		id = 29491,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29492] = {
 		desc_get = "",
 		name = "特殊弾幕-ダイドーⅡ",
-		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-ダイドーⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-ダイドーⅡを行う",
 		id = 29492,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29501] = {
 		desc_get = "",
 		name = "特殊弾幕-タシュケントI",
-		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-タシュケントⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-タシュケントⅠを行う",
 		id = 29501,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29502] = {
 		desc_get = "",
 		name = "特殊弾幕-タシュケントII",
-		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-タシュケントⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-タシュケントⅡを行う",
 		id = 29502,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29511] = {
 		desc_get = "",
 		name = "特殊弾幕-チャパエフI",
-		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-チャパエフⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-チャパエフⅠを行う",
 		id = 29511,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29512] = {
 		desc_get = "",
 		name = "特殊弾幕-チャパエフII",
-		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-チャパエフⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-チャパエフⅡを行う",
 		id = 29512,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29521] = {
 		desc_get = "",
 		name = "特殊弾幕-リノⅠ",
-		desc = "駆逐艦主砲を装備している場合、自身の主兵装枠威力補正が10%アップする。15回（軽巡主砲を装備している場合は12回）主砲攻撃を行うたびに、特殊弾幕-リノⅠを展開する",
 		type = 1,
 		max_level = 1,
+		desc = "駆逐艦主砲を装備している場合、自身の主兵装枠威力補正が10%アップする。15回（軽巡主砲を装備している場合は12回）主砲攻撃を行うたびに、特殊弾幕-リノⅠを展開する",
 		id = 29521,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29531] = {
 		desc_get = "",
 		name = "特殊弾幕-リノⅡ",
-		desc = "駆逐艦主砲を装備している場合、自身の主兵装枠威力補正が10%アップする。10回（軽巡主砲を装備している場合は8回）主砲攻撃を行うたびに、特殊弾幕-リノⅡを展開する",
 		type = 1,
 		max_level = 1,
+		desc = "駆逐艦主砲を装備している場合、自身の主兵装枠威力補正が10%アップする。10回（軽巡主砲を装備している場合は8回）主砲攻撃を行うたびに、特殊弾幕-リノⅡを展開する",
 		id = 29531,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29541] = {
 		desc_get = "",
 		name = "特殊弾幕-ジャンヌ・ダルクⅠ",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ジャンヌ・ダルクⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ジャンヌ・ダルクⅠを行う",
 		id = 29541,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29542] = {
 		desc_get = "",
 		name = "特殊弾幕-ジャンヌ・ダルクⅡ",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ジャンヌ・ダルクⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ジャンヌ・ダルクⅡを行う",
 		id = 29542,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29551] = {
 		desc_get = "",
 		name = "特殊弾幕-チェシャーⅠ",
-		desc = "自身の主砲で9回攻撃する度に、特殊弾幕-チェシャーⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で9回攻撃する度に、特殊弾幕-チェシャーⅠを行う",
 		id = 29551,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29552] = {
 		desc_get = "",
 		name = "特殊弾幕-チェシャーⅡ",
-		desc = "自身の主砲で6回攻撃する度に、特殊弾幕-チェシャーⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で6回攻撃する度に、特殊弾幕-チェシャーⅡを行う",
 		id = 29552,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29561] = {
 		desc_get = "",
 		name = "特殊弾幕-ドレイクⅠ",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ドレイクⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ドレイクⅠを行う",
 		id = 29561,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29562] = {
 		desc_get = "",
 		name = "特殊弾幕-ドレイクⅡ",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ドレイクⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ドレイクⅡを行う",
 		id = 29562,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29571] = {
 		desc_get = "",
 		name = "特殊弾幕-マインツⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-マインツⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-マインツⅠを行う",
 		id = 29571,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29572] = {
 		desc_get = "",
 		name = "特殊弾幕-マインツⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-マインツⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-マインツⅡを行う",
 		id = 29572,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29581] = {
 		desc_get = "",
 		name = "特殊弾幕-ハーマイオニーⅠ",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ハーマイオニーⅠを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ハーマイオニーⅠを行う",
 		id = 29581,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29582] = {
 		desc_get = "",
 		name = "特殊弾幕-ハーマイオニーⅡ",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ハーマイオニーⅡを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ハーマイオニーⅡを行う",
 		id = 29582,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29591] = {
 		desc_get = "",
 		name = "特殊弾幕U-96Ⅰ",
-		desc = "浮上時、特殊弾幕U-96Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "浮上時、特殊弾幕U-96Ⅰを発動する",
 		id = 29591,
 		system_transform = {
 			[11.0] = 29593
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -47141,12 +51012,15 @@ pg.skill_data_template = {
 	[29592] = {
 		desc_get = "",
 		name = "特殊弾幕U-96Ⅱ",
-		desc = "浮上時、特殊弾幕U-96Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "浮上時、特殊弾幕U-96Ⅱを発動する",
 		id = 29592,
 		system_transform = {
 			[11.0] = 29594
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -47154,165 +51028,210 @@ pg.skill_data_template = {
 	[29601] = {
 		desc_get = "",
 		name = "特殊弾幕-涼月Ⅰ",
-		desc = "自身の主砲で24回攻撃する度に、特殊弾幕-涼月Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で24回攻撃する度に、特殊弾幕-涼月Ⅰを行う",
 		id = 29601,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29602] = {
 		desc_get = "",
 		name = "特殊弾幕-涼月Ⅱ",
-		desc = "自身の主砲で16回攻撃する度に、特殊弾幕-涼月Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で16回攻撃する度に、特殊弾幕-涼月Ⅱを行う",
 		id = 29602,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29611] = {
 		desc_get = "",
 		name = "特殊弾幕-ローン（μ兵装）I",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ローン（μ兵装）Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ローン（μ兵装）Ⅰを行う",
 		id = 29611,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29612] = {
 		desc_get = "",
 		name = "特殊弾幕-ローン（μ兵装）II",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ローン（μ兵装）Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ローン（μ兵装）Ⅱを行う",
 		id = 29612,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29621] = {
 		desc_get = "",
 		name = "特殊弾幕-ル・マラン（μ兵装）I",
-		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ル・マラン（μ兵装）Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で15回攻撃する度に、特殊弾幕-ル・マラン（μ兵装）Ⅰを行う",
 		id = 29621,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29622] = {
 		desc_get = "",
 		name = "特殊弾幕-ル・マラン（μ兵装）II",
-		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ル・マラン（μ兵装）Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で10回攻撃する度に、特殊弾幕-ル・マラン（μ兵装）Ⅱを行う",
 		id = 29622,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29631] = {
 		desc_get = "",
 		name = "特殊弾幕-ダイドー（μ兵装）I",
-		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-ダイドー（μ兵装）Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-ダイドー（μ兵装）Ⅰを行う",
 		id = 29631,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29632] = {
 		desc_get = "",
 		name = "特殊弾幕-ダイドー（μ兵装）II",
-		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-ダイドー（μ兵装）Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-ダイドー（μ兵装）Ⅱを行う",
 		id = 29632,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29641] = {
 		desc_get = "",
 		name = "特殊弾幕-タシュケント（μ兵装）I",
-		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-タシュケント（μ兵装）Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で15回攻撃する度に、特殊弾幕-タシュケント（μ兵装）Ⅰを行う",
 		id = 29641,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29642] = {
 		desc_get = "",
 		name = "特殊弾幕-タシュケント（μ兵装）II",
-		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-タシュケント（μ兵装）Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主兵装で10回攻撃する度に、特殊弾幕-タシュケント（μ兵装）Ⅱを行う",
 		id = 29642,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29651] = {
 		desc_get = "",
 		name = "特殊弾幕-アルバコア（μ兵装）I",
-		desc = "戦闘開始時、特殊弾幕-アルバコア（μ兵装）Ⅰを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕-アルバコア（μ兵装）Ⅰを発動する",
 		id = 29651,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29652] = {
 		desc_get = "",
 		name = "特殊弾幕-アルバコア（μ兵装）II",
-		desc = "戦闘開始時、特殊弾幕-アルバコア（μ兵装）Ⅱを発動する",
 		type = 1,
 		max_level = 1,
+		desc = "戦闘開始時、特殊弾幕-アルバコア（μ兵装）Ⅱを発動する",
 		id = 29652,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29661] = {
 		desc_get = "",
 		name = "特殊弾幕-ボルチモア（μ兵装）I",
-		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ボルチモア（μ兵装）Ⅰを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で12回攻撃する度に、特殊弾幕-ボルチモア（μ兵装）Ⅰを行う",
 		id = 29661,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29662] = {
 		desc_get = "",
 		name = "特殊弾幕-ボルチモア（μ兵装）II",
-		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ボルチモア（μ兵装）Ⅱを行う",
 		type = 1,
 		max_level = 1,
+		desc = "自身の主砲で8回攻撃する度に、特殊弾幕-ボルチモア（μ兵装）Ⅱを行う",
 		id = 29662,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[101010] = {
 		desc_get = "",
 		name = "主人公補正",
-		desc = "出撃艦隊に自身以外のネプテューヌコラボのキャラがいる場合、自身の与ダメージが$1増、被ダメージが6.0%減。さらに、コラボキャラ（自身除く）の人数分だけ、与ダメージが$2増、被ダメージが1.0%減。",
 		type = 3,
 		max_level = 10,
+		desc = "出撃艦隊に自身以外のネプテューヌコラボのキャラがいる場合、自身の与ダメージが$1増、被ダメージが6.0%減。さらに、コラボキャラ（自身除く）の人数分だけ、与ダメージが$2増、被ダメージが1.0%減。",
 		id = 101010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.0%",
@@ -47411,11 +51330,14 @@ pg.skill_data_template = {
 	[101020] = {
 		desc_get = "",
 		name = "メディステーション･S",
-		desc = "攻撃された時$1で発動。8秒間自身の与えるダメージが$2アップする。",
 		type = 1,
 		max_level = 10,
+		desc = "攻撃された時$1で発動。8秒間自身の与えるダメージが$2アップする。",
 		id = 101020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -47514,11 +51436,14 @@ pg.skill_data_template = {
 	[101030] = {
 		desc_get = "",
 		name = "シルトブレイク",
-		desc = "ベール/グリーンハートが出撃艦隊にいる場合、自身の与ダメージが$1、被ダメージが$2増加。いない場合、自身の被ダメージが$3、与ダメージが$4減少。",
 		type = 3,
 		max_level = 10,
+		desc = "ベール/グリーンハートが出撃艦隊にいる場合、自身の与ダメージが$1、被ダメージが$2増加。いない場合、自身の被ダメージが$3、与ダメージが$4減少。",
 		id = 101030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -47707,11 +51632,14 @@ pg.skill_data_template = {
 	[101040] = {
 		desc_get = "",
 		name = "アッサムリンク",
-		desc = "出撃艦隊の駆逐艦が一体につき、自身が受ける砲撃ダメージを$1軽減し、自身の装填を$2上昇させる。",
 		type = 2,
 		max_level = 10,
+		desc = "出撃艦隊の駆逐艦が一体につき、自身が受ける砲撃ダメージを$1軽減し、自身の装填を$2上昇させる。",
 		id = 101040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -47810,11 +51738,14 @@ pg.skill_data_template = {
 	[101050] = {
 		desc_get = "",
 		name = "クロスコンビネーション",
-		desc = "主砲攻撃$1回ごとに発動する。自身の次の主砲攻撃が必ずクリティカルする。",
 		type = 1,
 		max_level = 10,
+		desc = "主砲攻撃$1回ごとに発動する。自身の次の主砲攻撃が必ずクリティカルする。",
 		id = 101050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15",
@@ -47868,11 +51799,14 @@ pg.skill_data_template = {
 	[101060] = {
 		desc_get = "戦闘開始後115秒時に発動。超強力な弾幕(威力はスキルレベルによる)を展開する。1回の戦闘では1回しか発動しない。",
 		name = "ビクトリィースラッシュ",
-		desc = "戦闘開始後115秒時に発動。超強力な弾幕【$1】を展開する。1回の戦闘では1回しか発動しない。",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後115秒時に発動。超強力な弾幕【$1】を展開する。1回の戦闘では1回しか発動しない。",
 		id = 101060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -47921,11 +51855,14 @@ pg.skill_data_template = {
 	[101070] = {
 		desc_get = "20秒毎に、20.0%(40.0%)で発動する。強力な弾幕(威力はスキルレベルによる)を展開し命中した敵を低確率で12秒間炎上させる。",
 		name = "ブレイズブレイク",
-		desc = "20秒毎に、$1で発動する。強力な弾幕【$2】を展開し命中した敵を低確率で12秒間炎上させる。",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎に、$1で発動する。強力な弾幕【$2】を展開し命中した敵を低確率で12秒間炎上させる。",
 		id = 101070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48015,22 +51952,28 @@ pg.skill_data_template = {
 	[101080] = {
 		desc_get = "",
 		name = "トリコロールオーダー",
-		desc = "自身の主砲のダメージが敵の装甲の種類に影響されなくなる。さらに、スキルレベルが上昇すると、自身の主砲のダメージも上昇する。",
 		type = 3,
 		max_level = 10,
+		desc = "自身の主砲のダメージが敵の装甲の種類に影響されなくなる。さらに、スキルレベルが上昇すると、自身の主砲のダメージも上昇する。",
 		id = 101080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[101090] = {
 		desc_get = "20秒毎に、20.0%(40.0%)で発動する。強力な弾幕(威力はスキルレベルによる)を展開する。",
 		name = "レイシーズダンス",
-		desc = "20秒毎に、$1で発動する。強力な弾幕【$2】を展開する。",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎に、$1で発動する。強力な弾幕【$2】を展開する。",
 		id = 101090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48120,11 +52063,14 @@ pg.skill_data_template = {
 	[101100] = {
 		desc_get = "",
 		name = "テンツェリントロンペ",
-		desc = "自身の主砲が攻撃する度に、自身の魚雷のクリティカル率を$1上昇させる。（最大20回まで。魚雷攻撃を行うと上昇値がリセットされる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の主砲が攻撃する度に、自身の魚雷のクリティカル率を$1上昇させる。（最大20回まで。魚雷攻撃を行うと上昇値がリセットされる）",
 		id = 101100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"0.6%",
@@ -48178,11 +52124,14 @@ pg.skill_data_template = {
 	[101110] = {
 		desc_get = "20秒毎に、20.0%(40.0%)で発動する。強力な弾幕(威力はスキルレベルによる)を展開し命中した敵を低確率で8秒間減速させる。",
 		name = "ゲッターラヴィーネ",
-		desc = "20秒毎に、$1で発動する。強力な弾幕【$2】を展開し命中した敵を低確率で8秒間減速させる。",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎に、$1で発動する。強力な弾幕【$2】を展開し命中した敵を低確率で8秒間減速させる。",
 		id = 101110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48272,11 +52221,14 @@ pg.skill_data_template = {
 	[101120] = {
 		desc_get = "",
 		name = "ダージリンローテ",
-		desc = "15秒毎に適用される効果が切り替わる：①自身の被ダメージを$1軽減。②自身の与えるダメージが$2アップ。③3秒ごとに自身の耐久を$3回復する。",
 		type = 3,
 		max_level = 10,
+		desc = "15秒毎に適用される効果が切り替わる：①自身の被ダメージを$1軽減。②自身の与えるダメージが$2アップ。③3秒ごとに自身の耐久を$3回復する。",
 		id = 101120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"6.0%",
@@ -48420,11 +52372,14 @@ pg.skill_data_template = {
 	[101130] = {
 		desc_get = "20秒毎に、20.0%(40.0%)で発動する。専用艦載機による特殊航空攻撃を行う。",
 		name = "レイニーラトナビュラ",
-		desc = "20秒毎に、$1で発動する。専用艦載機による特殊航空攻撃を行う。",
 		type = 1,
 		max_level = 10,
+		desc = "20秒毎に、$1で発動する。専用艦載機による特殊航空攻撃を行う。",
 		id = 101130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48514,11 +52469,14 @@ pg.skill_data_template = {
 	[103010] = {
 		desc_get = "",
 		name = "四神変転",
-		desc = "装備している主砲の弾薬タイプと同じタイプの攻撃が与えるダメージが$1アップし、受けるダメージを$1軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "装備している主砲の弾薬タイプと同じタイプの攻撃が与えるダメージが$1アップし、受けるダメージを$1軽減する",
 		id = 103010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -48572,11 +52530,14 @@ pg.skill_data_template = {
 	[103020] = {
 		desc_get = "",
 		name = "十姉妹",
-		desc = "自身が攻撃を受けた時、$1で特殊弾幕を発動する。発動後5秒間はスキルが発動しない。一度の戦闘で最大6回しか発動できない（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が攻撃を受けた時、$1で特殊弾幕を発動する。発動後5秒間はスキルが発動しない。一度の戦闘で最大6回しか発動できない（威力はスキルレベルによる）",
 		id = 103020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -48630,11 +52591,14 @@ pg.skill_data_template = {
 	[103030] = {
 		desc_get = "",
 		name = "白虹",
-		desc = "戦闘開始後100秒で発動。前衛艦隊の回避が$1アップし、耐久をネコネの耐久上限の$2回復する。一度の戦闘で一回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘開始後100秒で発動。前衛艦隊の回避が$1アップし、耐久をネコネの耐久上限の$2回復する。一度の戦闘で一回しか発動できない",
 		id = 103030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -48733,11 +52697,14 @@ pg.skill_data_template = {
 	[103040] = {
 		desc_get = "",
 		name = "夕星",
-		desc = "10秒ごとに$1で発動する。炎上効果を持つ特殊弾幕を発動する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "10秒ごとに$1で発動する。炎上効果を持つ特殊弾幕を発動する（威力はスキルレベルによる）",
 		id = 103040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -48791,11 +52758,14 @@ pg.skill_data_template = {
 	[103050] = {
 		desc_get = "",
 		name = "生命の鼓動",
-		desc = "10秒ごとに$1で発動する。自身の耐久を最大時の2%回復する。一度の戦闘では最大6回しか発動できない",
 		type = 2,
 		max_level = 10,
+		desc = "10秒ごとに$1で発動する。自身の耐久を最大時の2%回復する。一度の戦闘では最大6回しか発動できない",
 		id = 103050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -48849,11 +52819,14 @@ pg.skill_data_template = {
 	[103060] = {
 		desc_get = "",
 		name = "百合根",
-		desc = "戦闘開始後22秒毎に特殊弾幕を発動する（$1）。特殊弾幕は戦闘中発動するたびに強化されていき、一度の戦闘で最大4回しか発動できない（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後22秒毎に特殊弾幕を発動する（$1）。特殊弾幕は戦闘中発動するたびに強化されていき、一度の戦闘で最大4回しか発動できない（威力はスキルレベルによる）",
 		id = 103060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48893,11 +52866,14 @@ pg.skill_data_template = {
 	[103070] = {
 		desc_get = "",
 		name = "鎖の巫",
-		desc = "サラァナと同じ艦隊に編成されている場合、自身の航空が$1、装填・命中が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "サラァナと同じ艦隊に編成されている場合、自身の航空が$1、装填・命中が$2アップ",
 		id = 103070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -48996,11 +52972,14 @@ pg.skill_data_template = {
 	[103080] = {
 		desc_get = "",
 		name = "双影無双",
-		desc = "サラァナと同じ艦隊に編成されている場合、戦闘開始後55秒毎に特殊弾幕を発動する（$1）。一度の戦闘で最大2回しか発動できない（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "サラァナと同じ艦隊に編成されている場合、戦闘開始後55秒毎に特殊弾幕を発動する（$1）。一度の戦闘で最大2回しか発動できない（威力はスキルレベルによる）",
 		id = 103080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -49040,11 +53019,14 @@ pg.skill_data_template = {
 	[103090] = {
 		desc_get = "",
 		name = "鎖の巫",
-		desc = "ウルゥルと同じ艦隊に編成されている場合、自身の航空が$1、装填・命中が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "ウルゥルと同じ艦隊に編成されている場合、自身の航空が$1、装填・命中が$2アップ",
 		id = 103090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -49143,11 +53125,14 @@ pg.skill_data_template = {
 	[103100] = {
 		desc_get = "",
 		name = "双影無双",
-		desc = "ウルゥルと同じ艦隊に編成されている場合、戦闘開始後55秒毎に特殊弾幕を発動する（$1）。一度の戦闘で最大2回しか発動できない（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "ウルゥルと同じ艦隊に編成されている場合、戦闘開始後55秒毎に特殊弾幕を発動する（$1）。一度の戦闘で最大2回しか発動できない（威力はスキルレベルによる）",
 		id = 103100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -49187,11 +53172,14 @@ pg.skill_data_template = {
 	[103110] = {
 		desc_get = "",
 		name = "百華蜜",
-		desc = "自身の航空攻撃時、$1で発動。戦闘可能な耐久が一番低い味方艦船の耐久を、その艦船の最大耐久の$2回復させる",
 		type = 2,
 		max_level = 10,
+		desc = "自身の航空攻撃時、$1で発動。戦闘可能な耐久が一番低い味方艦船の耐久を、その艦船の最大耐久の$2回復させる",
 		id = 103110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -49290,11 +53278,14 @@ pg.skill_data_template = {
 	[103120] = {
 		desc_get = "戦闘開始20秒（MAX10秒）後、特殊弾幕を展開する。その後、30秒（MAX20秒）毎に特殊弾幕を展開する（威力や弾幕はスキルレベルによる）",
 		name = "蜜月",
-		desc = "戦闘開始$1秒後、特殊弾幕を展開する。その後、$2秒毎に特殊弾幕を展開する（威力や弾幕はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始$1秒後、特殊弾幕を展開する。その後、$2秒毎に特殊弾幕を展開する（威力や弾幕はスキルレベルによる）",
 		id = 103120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20",
@@ -49393,11 +53384,14 @@ pg.skill_data_template = {
 	[104010] = {
 		desc_get = "",
 		name = "あいた〜んビーム！",
-		desc = "戦闘開始後20秒毎に、スーパーAIによるハッキングで敵の火力・雷装・航空を高確率で8秒間ダウンさせる（最大$1）。……低確率で敵の能力を上昇させてしまう",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始後20秒毎に、スーパーAIによるハッキングで敵の火力・雷装・航空を高確率で8秒間ダウンさせる（最大$1）。……低確率で敵の能力を上昇させてしまう",
 		id = 104010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -49442,11 +53436,14 @@ pg.skill_data_template = {
 	[104020] = {
 		desc_get = "",
 		name = "危機回避～！",
-		desc = "自身がダメージを受ける時、$1で下記の効果を発動する：①特殊魚雷弾幕を展開する（戦闘中3回まで発動可能）；②3秒間あらゆる攻撃を回避し、その後、3秒間自分の回避が$2アップする",
 		type = 2,
 		max_level = 10,
+		desc = "自身がダメージを受ける時、$1で下記の効果を発動する：①特殊魚雷弾幕を展開する（戦闘中3回まで発動可能）；②3秒間あらゆる攻撃を回避し、その後、3秒間自分の回避が$2アップする",
 		id = 104020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -49545,11 +53542,14 @@ pg.skill_data_template = {
 	[104030] = {
 		desc_get = "",
 		name = "繋がるキズナ",
-		desc = "戦闘開始後、味方艦隊に自身を除く「キズナアイ」がいる場合、キズナアイの人数分だけ自身の火力を$1アップ（最大4人分強化可能）；「キズナアイ」がいない場合、戦闘開始後30秒間、自身が受けるダメージを$2軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始後、味方艦隊に自身を除く「キズナアイ」がいる場合、キズナアイの人数分だけ自身の火力を$1アップ（最大4人分強化可能）；「キズナアイ」がいない場合、戦闘開始後30秒間、自身が受けるダメージを$2軽減する",
 		id = 104030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -49648,11 +53648,14 @@ pg.skill_data_template = {
 	[104040] = {
 		desc_get = "",
 		name = "絶対清楚宣言",
-		desc = "自身の炎上時間を3秒間短縮し、自身が受ける榴弾ダメージを$1軽減する",
 		type = 2,
 		max_level = 10,
+		desc = "自身の炎上時間を3秒間短縮し、自身が受ける榴弾ダメージを$1軽減する",
 		id = 104040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -49706,11 +53709,14 @@ pg.skill_data_template = {
 	[104050] = {
 		desc_get = "",
 		name = "Future Base",
-		desc = "戦闘開始30秒・45秒・60秒後に一回ずつ特殊航空攻撃（$1）を行う（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始30秒・45秒・60秒後に一回ずつ特殊航空攻撃（$1）を行う（威力はスキルレベルによる）",
 		id = 104050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -49755,11 +53761,14 @@ pg.skill_data_template = {
 	[104060] = {
 		desc_get = "",
 		name = "Melty World",
-		desc = "キズナアイと一緒に出撃した場合、自身の航空攻撃時$1で発動。自身の航空攻撃が与えるダメージが8秒間100%アップ",
 		type = 1,
 		max_level = 10,
+		desc = "キズナアイと一緒に出撃した場合、自身の航空攻撃時$1で発動。自身の航空攻撃が与えるダメージが8秒間100%アップ",
 		id = 104060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -49813,11 +53822,14 @@ pg.skill_data_template = {
 	[104070] = {
 		desc_get = "",
 		name = "スーパーエイム補正",
-		desc = "自身が装備している主砲の拡散範囲が1拡大し、主砲攻撃のクリティカル率が$1アップ；戦闘開始後16秒毎に、$2で特殊弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が装備している主砲の拡散範囲が1拡大し、主砲攻撃のクリティカル率が$1アップ；戦闘開始後16秒毎に、$2で特殊弾幕を展開する（威力はスキルレベルによる）",
 		id = 104070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -49916,11 +53928,14 @@ pg.skill_data_template = {
 	[104080] = {
 		desc_get = "",
 		name = "強制アシストモード",
-		desc = "スーパーAIの優れたトラッキング能力により、自分の命中・回避が$1アップする",
 		type = 2,
 		max_level = 10,
+		desc = "スーパーAIの優れたトラッキング能力により、自分の命中・回避が$1アップする",
 		id = 104080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -49974,11 +53989,14 @@ pg.skill_data_template = {
 	[105010] = {
 		desc_get = "",
 		name = "マッハ2.42の華",
-		desc = "3つ目の装備枠は爆撃機枠に変更。ただし装備された爆撃機の外装は「マッハ2.42おるやんけ」になり、航空攻撃準備時間が100％アップ。戦闘中20秒毎に、特殊航空攻撃$1を行う（威力は自身の雷装・スキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "3つ目の装備枠は爆撃機枠に変更。ただし装備された爆撃機の外装は「マッハ2.42おるやんけ」になり、航空攻撃準備時間が100％アップ。戦闘中20秒毎に、特殊航空攻撃$1を行う（威力は自身の雷装・スキルレベルによる）",
 		id = 105010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -50023,11 +54041,14 @@ pg.skill_data_template = {
 	[105020] = {
 		desc_get = "",
 		name = "表裏の狐",
-		desc = "戦闘開始時、自身の火力が$1アップ；同じ海域で自身が所属する艦隊が敵艦隊を3回撃破した場合、更に雷装が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、自身の火力が$1アップ；同じ海域で自身が所属する艦隊が敵艦隊を3回撃破した場合、更に雷装が$2アップ",
 		id = 105020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -50126,11 +54147,14 @@ pg.skill_data_template = {
 	[105030] = {
 		desc_get = "",
 		name = "Dream☆Story",
-		desc = "自身が航空攻撃を行う場合$1で発動、敵に炎上効果を与える特殊弾幕$2を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身が航空攻撃を行う場合$1で発動、敵に炎上効果を与える特殊弾幕$2を展開する（威力はスキルレベルによる）",
 		id = 105030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"70.0%",
@@ -50220,11 +54244,14 @@ pg.skill_data_template = {
 	[105040] = {
 		desc_get = "",
 		name = "海より深い空の下",
-		desc = "自身が戦場にいる場合、ホロライブキャラの受けるダメージを$2軽減させる；戦闘開始後20秒毎に発動、8秒間、発動時に存在する敵の速力が$1ダウンし、味方の全ての艦船の命中が$1アップし、味方のホロライブキャラの速力が$1アップする",
 		type = 2,
 		max_level = 10,
+		desc = "自身が戦場にいる場合、ホロライブキャラの受けるダメージを$2軽減させる；戦闘開始後20秒毎に発動、8秒間、発動時に存在する敵の速力が$1ダウンし、味方の全ての艦船の命中が$1アップし、味方のホロライブキャラの速力が$1アップする",
 		id = 105040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -50323,12 +54350,15 @@ pg.skill_data_template = {
 	[105050] = {
 		desc_get = "",
 		name = "インドア系メイド",
-		desc = "自身の潜航力が$1ダウンする。戦闘開始後20秒間、自身の与えるダメージが$2アップする。離脱時、自身の速力が100%アップ",
 		type = 1,
 		max_level = 10,
+		desc = "自身の潜航力が$1ダウンする。戦闘開始後20秒間、自身の与えるダメージが$2アップする。離脱時、自身の速力が100%アップ",
 		id = 105050,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -50428,12 +54458,15 @@ pg.skill_data_template = {
 	[105060] = {
 		desc_get = "",
 		name = "ダメ天使",
-		desc = "戦闘開始時、味方艦隊にランダムな強化を1つ付与する；ホロライブキャラを強化する場合、受ける強化の効果が1.5倍になる",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊にランダムな強化を1つ付与する；ホロライブキャラを強化する場合、受ける強化の効果が1.5倍になる",
 		id = 105060,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -50479,12 +54512,15 @@ pg.skill_data_template = {
 	[105070] = {
 		desc_get = "",
 		name = "ひまわりの約束",
-		desc = "戦闘開始時、必ずクリティカルする特殊弾幕$1を展開する；味方艦隊にホロライブキャラが3人以上いる場合、特殊弾幕を強化する",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、必ずクリティカルする特殊弾幕$1を展開する；味方艦隊にホロライブキャラが3人以上いる場合、特殊弾幕を強化する",
 		id = 105070,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -50530,11 +54566,14 @@ pg.skill_data_template = {
 	[105080] = {
 		desc_get = "",
 		name = "君と眺める夏の花",
-		desc = "25秒毎に発動する。$1で特殊弾幕$2を展開する",
 		type = 1,
 		max_level = 10,
+		desc = "25秒毎に発動する。$1で特殊弾幕$2を展開する",
 		id = 105080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -50624,11 +54663,14 @@ pg.skill_data_template = {
 	[105090] = {
 		desc_get = "",
 		name = "3日目の浮気",
-		desc = "戦闘開始時、味方艦隊のホロライブキャラが奇数の場合、自身が装備中の主砲で与えるダメージが$1アップ；偶数の場合、自身が受ける砲撃ダメージを$2軽減する。戦闘開始後20秒毎にランダムで味方キャラ一名を対象に発動し、10秒間そのキャラが受けるダメージを$2軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時、味方艦隊のホロライブキャラが奇数の場合、自身が装備中の主砲で与えるダメージが$1アップ；偶数の場合、自身が受ける砲撃ダメージを$2軽減する。戦闘開始後20秒毎にランダムで味方キャラ一名を対象に発動し、10秒間そのキャラが受けるダメージを$2軽減する",
 		id = 105090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -50727,11 +54769,14 @@ pg.skill_data_template = {
 	[105100] = {
 		desc_get = "",
 		name = "鬼神☆百鬼",
-		desc = "20秒毎、式神で自身の強化を行う（成功率$2）。強化に成功した場合、この戦闘中自身の与えるダメージが$1アップ（強化効果は最大3回まで加算可能）",
 		type = 3,
 		max_level = 10,
+		desc = "20秒毎、式神で自身の強化を行う（成功率$2）。強化に成功した場合、この戦闘中自身の与えるダメージが$1アップ（強化効果は最大3回まで加算可能）",
 		id = 105100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -50830,11 +54875,14 @@ pg.skill_data_template = {
 	[105110] = {
 		desc_get = "",
 		name = "阿修羅修羅刹鬼神斬り",
-		desc = "$1秒毎、阿修羅修羅刹鬼神斬り$2を発動し、命中した敵を50％で6秒間装甲破壊（受ける砲撃ダメージが上昇する）効果を与える。斬撃の威力はスキルレベルによる",
 		type = 1,
 		max_level = 10,
+		desc = "$1秒毎、阿修羅修羅刹鬼神斬り$2を発動し、命中した敵を50％で6秒間装甲破壊（受ける砲撃ダメージが上昇する）効果を与える。斬撃の威力はスキルレベルによる",
 		id = 105110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20",
@@ -50924,11 +54972,14 @@ pg.skill_data_template = {
 	[105120] = {
 		desc_get = "",
 		name = "いい夢を見ろの「WAVE」",
-		desc = "自身の航空攻撃時に$1で発動。光の波動で8秒間、敵が与えてくるダメージを$2下げる",
 		type = 3,
 		max_level = 10,
+		desc = "自身の航空攻撃時に$1で発動。光の波動で8秒間、敵が与えてくるダメージを$2下げる",
 		id = 105120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"70.0%",
@@ -51027,11 +55078,14 @@ pg.skill_data_template = {
 	[105130] = {
 		desc_get = "",
 		name = "MPクリアの「EXPLOSION」",
-		desc = "戦闘中、8秒毎に自身のMP（魔力）を1溜める。MPが3まで溜まると、特殊弾幕$1を展開し、自身のMPを0にする",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、8秒毎に自身のMP（魔力）を1溜める。MPが3まで溜まると、特殊弾幕$1を展開し、自身のMPを0にする",
 		id = 105130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -51076,11 +55130,14 @@ pg.skill_data_template = {
 	[105140] = {
 		desc_get = "",
 		name = "野性デュアリズム",
-		desc = "戦闘中、自身の奇数回目の航空攻撃時、攻撃機による特殊航空攻撃を行う$1；偶数回目の航空攻撃時、爆撃機による特殊航空攻撃を行う$1（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身の奇数回目の航空攻撃時、攻撃機による特殊航空攻撃を行う$1；偶数回目の航空攻撃時、爆撃機による特殊航空攻撃を行う$1（威力はスキルレベルによる）",
 		id = 105140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -51125,11 +55182,14 @@ pg.skill_data_template = {
 	[105150] = {
 		desc_get = "",
 		name = "タロット占い師",
-		desc = "戦闘開始時に占いを行い、ランダムで自身に強化効果を与える$1",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始時に占いを行い、ランダムで自身に強化効果を与える$1",
 		id = 105150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -51174,11 +55234,14 @@ pg.skill_data_template = {
 	[106010] = {
 		desc_get = "",
 		name = "サイドローズ ",
-		desc = "戦闘中、自身が攻撃を受ける場合、$1で必ずクリティカルになる特殊弾幕$2を展開する（威力はスキルレベルによる・この効果は10秒間に1度しか発動できない）；戦闘開始後60秒間、自身の火力・雷装が$3アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘中、自身が攻撃を受ける場合、$1で必ずクリティカルになる特殊弾幕$2を展開する（威力はスキルレベルによる・この効果は10秒間に1度しか発動できない）；戦闘開始後60秒間、自身の火力・雷装が$3アップ",
 		id = 106010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -51313,11 +55376,14 @@ pg.skill_data_template = {
 	[106020] = {
 		desc_get = "",
 		name = "ヴィブランテ・メヌエット",
-		desc = "戦闘中、自身が装備している魚雷兵装による3回目までの攻撃で敵に与えるダメージが$1アップ；自身が魚雷攻撃を行う度に8秒間、前衛艦隊の速力が3アップし、前衛艦隊先頭艦の回避が$2アップ",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中、自身が装備している魚雷兵装による3回目までの攻撃で敵に与えるダメージが$1アップ；自身が魚雷攻撃を行う度に8秒間、前衛艦隊の速力が3アップし、前衛艦隊先頭艦の回避が$2アップ",
 		id = 106020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -51416,11 +55482,14 @@ pg.skill_data_template = {
 	[106030] = {
 		desc_get = "",
 		name = "必殺☆じゃんけん",
-		desc = "戦闘開始時、自身の火力が$1アップ、軽装甲タイプの敵に与えるダメージが$3アップ；戦闘中自身が主砲攻撃を行った5秒後、ランダムな特殊弾による弾幕攻撃を行う$2",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始時、自身の火力が$1アップ、軽装甲タイプの敵に与えるダメージが$3アップ；戦闘中自身が主砲攻撃を行った5秒後、ランダムな特殊弾による弾幕攻撃を行う$2",
 		id = 106030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -51555,12 +55624,15 @@ pg.skill_data_template = {
 	[106040] = {
 		desc_get = "",
 		name = "必殺☆大爆発",
-		desc = "自身の主砲攻撃時、味方艦隊のランダム2隻の耐久を上限の5%回復し、さらに$1で特殊弾幕$2を行う（威力はスキルレベルによる）",
 		type = 2,
 		max_level = 10,
+		desc = "自身の主砲攻撃時、味方艦隊のランダム2隻の耐久を上限の5%回復し、さらに$1で特殊弾幕$2を行う（威力はスキルレベルによる）",
 		id = 106040,
 		system_transform = {
 			[3.0] = 106045
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -51651,11 +55723,14 @@ pg.skill_data_template = {
 	[106050] = {
 		desc_get = "",
 		name = "桜花天舞襲",
-		desc = "戦闘開始後15秒毎、特殊弾幕$1を展開する；更に自身の魚雷が敵に6回命中する度に、特殊弾幕を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後15秒毎、特殊弾幕$1を展開する；更に自身の魚雷が敵に6回命中する度に、特殊弾幕を展開する（威力はスキルレベルによる）",
 		id = 106050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -51700,11 +55775,14 @@ pg.skill_data_template = {
 	[106060] = {
 		desc_get = "",
 		name = "霞鏡花",
-		desc = "自身が敵艦を撃破する度、自身の火力・装填が$1アップ（最大3回まで加算可能）；自身が敵艦を3隻撃破した場合1度だけ、戦闘終了まで自身の命中が$2アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が敵艦を撃破する度、自身の火力・装填が$1アップ（最大3回まで加算可能）；自身が敵艦を3隻撃破した場合1度だけ、戦闘終了まで自身の命中が$2アップ",
 		id = 106060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -51803,11 +55881,14 @@ pg.skill_data_template = {
 	[106070] = {
 		desc_get = "",
 		name = "恥ずかしがり屋のサポーター",
-		desc = "戦闘開始後60秒間、自身の火力・自身が軽装甲タイプの敵に与えるダメージが$1アップ；戦闘開始時、味方艦隊に自身以外のヴィーナスバケーション陣営の艦船がいる場合、自身の対空が$2アップし、受ける砲撃ダメージを$3軽減する",
 		type = 3,
 		max_level = 10,
+		desc = "戦闘開始後60秒間、自身の火力・自身が軽装甲タイプの敵に与えるダメージが$1アップ；戦闘開始時、味方艦隊に自身以外のヴィーナスバケーション陣営の艦船がいる場合、自身の対空が$2アップし、受ける砲撃ダメージを$3軽減する",
 		id = 106070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -51951,11 +56032,14 @@ pg.skill_data_template = {
 	[106080] = {
 		desc_get = "",
 		name = "ヴィーナスフレンズ",
-		desc = "戦闘開始後20秒毎に、特殊弾幕$1を展開する（威力はスキルレベルによる）。この弾幕が命中した敵は8秒間、ヴィーナスバケーション陣営の艦船から受けるダメージが$2アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後20秒毎に、特殊弾幕$1を展開する（威力はスキルレベルによる）。この弾幕が命中した敵は8秒間、ヴィーナスバケーション陣営の艦船から受けるダメージが$2アップ",
 		id = 106080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -52045,11 +56129,14 @@ pg.skill_data_template = {
 	[106090] = {
 		desc_get = "",
 		name = "優しい？お姉ちゃん",
-		desc = "戦闘開始後18秒毎に$1で発動、特殊弾幕$2を展開する（威力はスキルレベルによる）。この弾幕が命中した敵は8秒間、「みさき」「なぎさ」から受けるダメージが$3アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後18秒毎に$1で発動、特殊弾幕$2を展開する（威力はスキルレベルによる）。この弾幕が命中した敵は8秒間、「みさき」「なぎさ」から受けるダメージが$3アップ",
 		id = 106090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -52184,11 +56271,14 @@ pg.skill_data_template = {
 	[106100] = {
 		desc_get = "",
 		name = "ミステリーヴィーナス",
-		desc = "戦闘中、自身が受けるダメージを$1軽減する（威力はスキルレベルによる）。自身の主砲攻撃時、ランダムな敵1体の速力を8秒間$2ダウンさせる",
 		type = 2,
 		max_level = 10,
+		desc = "戦闘中、自身が受けるダメージを$1軽減する（威力はスキルレベルによる）。自身の主砲攻撃時、ランダムな敵1体の速力を8秒間$2ダウンさせる",
 		id = 106100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -52287,11 +56377,14 @@ pg.skill_data_template = {
 	[106110] = {
 		desc_get = "",
 		name = "ジョーカー・ゲーム",
-		desc = "戦闘開始後15秒毎に、「ポーカー弾」と「特殊弾」を含む特殊弾幕$1を展開する（威力はスキルレベルによる）。この弾幕の「特殊弾」が命中した敵は6秒間、受けるダメージが10％アップ",
 		type = 1,
 		max_level = 10,
+		desc = "戦闘開始後15秒毎に、「ポーカー弾」と「特殊弾」を含む特殊弾幕$1を展開する（威力はスキルレベルによる）。この弾幕の「特殊弾」が命中した敵は6秒間、受けるダメージが10％アップ",
 		id = 106110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -52336,11 +56429,14 @@ pg.skill_data_template = {
 	[106120] = {
 		desc_get = "",
 		name = "ロイヤル・フラッシュ",
-		desc = "自身が装備している主砲砲弾の飛行速度が10%アップ；味方対空範囲内で敵機を5機撃墜する度に、自身の雷装・対空が$1アップ",
 		type = 3,
 		max_level = 10,
+		desc = "自身が装備している主砲砲弾の飛行速度が10%アップ；味方対空範囲内で敵機を5機撃墜する度に、自身の雷装・対空が$1アップ",
 		id = 106120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -52394,11 +56490,14 @@ pg.skill_data_template = {
 	[106130] = {
 		desc_get = "",
 		name = "飛天の舞い",
-		desc = "自身の航空攻撃準備完了5秒後、特殊航空攻撃$1を展開する（威力はスキルレベルによる）",
 		type = 1,
 		max_level = 10,
+		desc = "自身の航空攻撃準備完了5秒後、特殊航空攻撃$1を展開する（威力はスキルレベルによる）",
 		id = 106130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -52443,11 +56542,14 @@ pg.skill_data_template = {
 	[106140] = {
 		desc_get = "",
 		name = "花神楽",
-		desc = "自身が戦艦に与えるダメージが$1アップ。自身の航空攻撃時に$2で発動、前衛艦隊のランダムな艦船1隻は8秒間、敵から受けるダメージが$3軽減される",
 		type = 3,
 		max_level = 10,
+		desc = "自身が戦艦に与えるダメージが$1アップ。自身の航空攻撃時に$2で発動、前衛艦隊のランダムな艦船1隻は8秒間、敵から受けるダメージが$3軽減される",
 		id = 106140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -52588,6 +56690,455 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[800040] = {
+		desc_get = "",
+		name = "炬火の刃",
+		type = 1,
+		max_level = 10,
+		desc = "戦闘開始10秒後に一回・その後20秒毎に発動。斬撃攻撃$1を行い、この斬撃が命中した敵は15秒間、飛龍(META)より受けるダメージが$2アップする（斬撃威力はスキルレベルによる）",
+		id = 800040,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[800050] = {
+		desc_get = "",
+		name = "赤青五光雨",
+		type = 2,
+		max_level = 10,
+		desc = "戦闘開始時、自身の航空が$2アップ。戦闘中20秒毎に、ランダムな特殊航空攻撃を行う(威力は「役」とスキルレベルによる)",
+		id = 800050,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[800060] = {
+		desc_get = "",
+		name = "今ヨリ戦ノ指揮ヲ執ル",
+		type = 3,
+		max_level = 10,
+		desc = "自身が重桜艦載機を装備している場合、戦闘中15秒毎に特殊航空攻撃を展開する$1（威力はスキルレベルによる）；重桜艦載機を装備していない場合、下記の効果を発揮する【自身が$2回まで受けるダメージを$3軽減する；$2回以上ダメージを受けた場合、戦闘終了まで自身が受けるダメージを$4軽減し、回避が$5アップ】",
+		id = 800060,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"2",
+				"4"
+			},
+			{
+				"15.0%",
+				"35.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"4"
+				},
+				{
+					"4"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.5%"
+				},
+				{
+					"16.5%",
+					"+1.5%"
+				},
+				{
+					"18.0%",
+					"+1.5%"
+				},
+				{
+					"19.5%",
+					"+2.0%"
+				},
+				{
+					"21.5%",
+					"+2.0%"
+				},
+				{
+					"23.5%",
+					"+2.5%"
+				},
+				{
+					"26.0%",
+					"+2.5%"
+				},
+				{
+					"28.5%",
+					"+3.0%"
+				},
+				{
+					"31.5%",
+					"+3.5%"
+				},
+				{
+					"35.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[800071] = {
+		desc_get = "",
+		name = "炬火の力・飛龍",
+		type = 1,
+		max_level = 10,
+		desc = "【セイレーン作戦】\n人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が敵に与えるダメージが3%アップ",
+		id = 800071,
+		system_transform = {
+			[51.0] = 800075
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800072] = {
+		desc_get = "",
+		name = "炬火の力・飛龍",
+		type = 1,
+		max_level = 10,
+		desc = "【セイレーン作戦】\n人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が敵に与えるダメージが8%アップ",
+		id = 800072,
+		system_transform = {
+			[51.0] = 800077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -52598,6 +57149,7 @@ pg.skill_data_template = {
 		14,
 		15,
 		16,
+		340,
 		1001,
 		1002,
 		1003,
@@ -52739,6 +57291,9 @@ pg.skill_data_template = {
 		6328,
 		6329,
 		6330,
+		6331,
+		6332,
+		6333,
 		6360,
 		6370,
 		6380,
@@ -52781,6 +57336,48 @@ pg.skill_data_template = {
 		6750,
 		6760,
 		6770,
+		6790,
+		6791,
+		6792,
+		6793,
+		6794,
+		6795,
+		6796,
+		6797,
+		6798,
+		6799,
+		6800,
+		6801,
+		6802,
+		6803,
+		6810,
+		6811,
+		6812,
+		6813,
+		6814,
+		6815,
+		6816,
+		6817,
+		6818,
+		6819,
+		6820,
+		6821,
+		6822,
+		6823,
+		6830,
+		6831,
+		6832,
+		6833,
+		6834,
+		6835,
+		6836,
+		6837,
+		6838,
+		6839,
+		6840,
+		6841,
+		6842,
+		6843,
 		7000,
 		9030,
 		9031,
@@ -53603,6 +58200,11 @@ pg.skill_data_template = {
 		106110,
 		106120,
 		106130,
-		106140
+		106140,
+		800040,
+		800050,
+		800060,
+		800071,
+		800072
 	}
 }

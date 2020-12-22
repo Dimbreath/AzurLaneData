@@ -7,8 +7,16 @@ slot0.ON_UPGRADE = "CommanderInfoMediator:ON_UPGRADE"
 slot0.ON_NEXT = "CommanderInfoMediator:ON_NEXT"
 slot0.ON_PREV = "CommanderInfoMediator:ON_PREV"
 slot0.ON_RENAME = "CommanderInfoMediator:ON_RENAME"
+slot0.ON_CLOSE_PANEL = "CommanderInfoMediator:ON_CLOSE_PANEL"
+slot0.ON_CLOSE_PANEL_SElF = "CommanderInfoMediator:ON_CLOSE_PANEL_SElF"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_CLOSE_PANEL_SElF, function (slot0)
+		uv0.viewComponent:ClosePanelSelf()
+	end)
+	slot0:bind(uv0.ON_CLOSE_PANEL, function (slot0)
+		uv0.viewComponent:ClosePanel()
+	end)
 	slot0:bind(CommandRoomMediator.OPEN_RENAME_PANEL, function (slot0, slot1)
 		uv0.viewComponent:opeRenamePanel(slot1)
 	end)
@@ -21,7 +29,7 @@ function slot0.register(slot0)
 	slot0:bind(CommandRoomMediator.ON_CMD_SKILL, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = CommanderSkillMediator,
-			viewComponent = CommanderSkillLayer,
+			viewComponent = NewCommanderSkillLayer,
 			data = {
 				skill = slot1
 			}
@@ -106,52 +114,53 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 10,
 			mode = CommandRoomScene.MODE_SELECT,
+			fleetType = CommandRoomScene.FLEET_TYPE_COMMON,
 			activeCommander = slot1,
 			activeGroupId = slot1.groupId,
 			selectedIds = uv0.contextData.materialIds,
 			ignoredIds = slot3,
 			onCommander = function (slot0, slot1, slot2, slot3)
-				slot4 = nil
+				if nowWorld:CheckCommanderInFleet(slot0.id) then
+					return false, i18n("commander_is_in_bigworld")
+				end
 
-				return function ()
-					if uv0:isMaxLevel() and not uv0:isSameGroup(uv1.groupId) then
-						return false, i18n("commander_select_matiral_erro")
-					end
+				if uv0:isMaxLevel() and not uv0:isSameGroup(slot0.groupId) then
+					return false, i18n("commander_select_matiral_erro")
+				end
 
-					if _.detect(uv2, function (slot0)
-						return uv0.id == slot0.commanderId
-					end) then
-						uv3:openMsgBox({
-							content = i18n("commander_material_is_in_fleet_tip"),
-							onYes = function ()
-								uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
-									commanderId = 0,
-									fleetId = uv1.fleetId,
-									pos = uv1.pos,
-									callback = function ()
-										uv0 = uv1:getCommanders()
+				if _.detect(uv1, function (slot0)
+					return uv0.id == slot0.commanderId
+				end) then
+					slot3:openMsgBox({
+						content = i18n("commander_material_is_in_fleet_tip"),
+						onYes = function ()
+							uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+								commanderId = 0,
+								fleetId = uv1.fleetId,
+								pos = uv1.pos,
+								callback = function ()
+									uv0 = uv1:getCommanders()
 
-										if uv2 then
-											uv2()
-										end
+									if uv2 then
+										uv2()
 									end
-								})
-							end,
-							onNo = function ()
-								if uv0 then
-									uv0()
 								end
-							end,
-							onClose = function ()
-								if uv0 then
-									uv0()
-								end
+							})
+						end,
+						onNo = function ()
+							if uv0 then
+								uv0()
 							end
-						})
-					end
+						end,
+						onClose = function ()
+							if uv0 then
+								uv0()
+							end
+						end
+					})
+				end
 
-					return true
-				end()
+				return true
 			end,
 			onSelected = function (slot0, slot1)
 				uv0.contextData.materialIds = slot0

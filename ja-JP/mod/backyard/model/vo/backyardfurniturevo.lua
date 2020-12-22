@@ -944,4 +944,18 @@ function slot0.GetFollowerInterActionData(slot0)
 	return slot0:getConfig("spine")[3]
 end
 
+function slot0.ExistFollowBoneNode(slot0)
+	return slot0:getConfig("followBone") ~= nil
+end
+
+function slot0.GetFollowBone(slot0)
+	slot1 = slot0:getConfig("followBone")
+
+	return slot1[1], slot1[2] or 1
+end
+
+function slot0.HasFollower(slot0)
+	return slot0:hasAnimator() or slot0:ExistFollowBoneNode()
+end
+
 return slot0

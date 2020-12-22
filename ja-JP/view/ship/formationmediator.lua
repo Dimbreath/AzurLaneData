@@ -30,16 +30,12 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetFleets(slot3)
 	slot0.viewComponent:setCommanderPrefabFleet(getProxy(CommanderProxy):getPrefabFleet())
 	slot0:bind(uv0.ON_CMD_SKILL, function (slot0, slot1)
-		uv0.viewComponent.commanderFormationPanel:Hide()
 		uv0:addSubLayers(Context.New({
 			mediator = CommanderSkillMediator,
 			viewComponent = CommanderSkillLayer,
 			data = {
 				skill = slot1
-			},
-			onRemoved = function ()
-				uv0.viewComponent.commanderFormationPanel:Show()
-			end
+			}
 		}))
 	end)
 	slot0:bind(uv0.COMMIT_FLEET, function (slot0, slot1)
@@ -155,6 +151,7 @@ function slot0.onSelectCommander(slot0, slot1)
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 		maxCount = 1,
 		mode = CommandRoomScene.MODE_SELECT,
+		fleetType = CommandRoomScene.FLEET_TYPE_COMMON,
 		activeCommander = slot4,
 		ignoredIds = slot5,
 		onCommander = function (slot0)

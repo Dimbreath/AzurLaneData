@@ -1489,7 +1489,7 @@ function slot0.locadScoreView(slot0)
 		end,
 		function (slot0)
 			slot1 = nil
-			slot3 = pg.StoryMgr.GetInstance()
+			slot3 = pg.NewStoryMgr.GetInstance()
 			slot5 = uv0:GetMGData():getConfig("simple_config_data").story[uv0:GetMGHubData().usedtime + 1] and slot4[slot2.usedtime + 1][1] or nil
 
 			if slot2.count > 0 and slot5 and not slot3:IsPlayed(slot5) and uv0.score_blist[uv1][uv2] <= uv0.score_number then

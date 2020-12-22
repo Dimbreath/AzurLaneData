@@ -23,6 +23,7 @@ function slot1.CreateCharacter(slot0, slot1)
 	slot3:SetBossData(slot1.bossData)
 	slot0:MakeModel(slot3)
 	slot0:MakeCastClock(slot3)
+	slot0:MakeBarrierClock(slot3)
 
 	return slot3
 end

@@ -252,7 +252,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.preBtn, function ()
 		if uv0.curMidddleIndex == 1 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("res_music_no_pre_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("res_music_no_pre_tip"))
 		elseif not uv0.isPlayingAni then
 			uv0:setAniState(true)
 			uv0:closePlateAni(uv0.plateTFList[uv0.curMidddleIndex])
@@ -261,7 +261,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.nextBtn, function ()
 		if uv0.curMidddleIndex == #uv0.musicForShowConfigList then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("res_music_no_next_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("res_music_no_next_tip"))
 		elseif not uv0.isPlayingAni then
 			uv0:setAniState(true)
 			uv0:closePlateAni(uv0.plateTFList[uv0.curMidddleIndex])

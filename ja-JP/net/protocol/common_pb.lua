@@ -26,11 +26,15 @@ slot1 = {
 	SHIPINFO_BLUE_PRINT_FLAG_FIELD = slot0.FieldDescriptor(),
 	SHIPINFO_COMMON_FLAG_FIELD = slot0.FieldDescriptor(),
 	SHIPINFO_ACTIVITY_NPC_FIELD = slot0.FieldDescriptor(),
+	SHIPINFO_META_REPAIR_LIST_FIELD = slot0.FieldDescriptor(),
+	SHIPINFO_CORE_LIST_FIELD = slot0.FieldDescriptor(),
 	SHIPSTATE_STATE_FIELD = slot0.FieldDescriptor(),
 	SHIPSTATE_STATE_INFO_1_FIELD = slot0.FieldDescriptor(),
 	SHIPSTATE_STATE_INFO_2_FIELD = slot0.FieldDescriptor(),
 	SHIPSTATE_STATE_INFO_3_FIELD = slot0.FieldDescriptor(),
 	SHIPSTATE_STATE_INFO_4_FIELD = slot0.FieldDescriptor(),
+	ATTRINFO_LEVEL_FIELD = slot0.FieldDescriptor(),
+	ATTRINFO_EXP_FIELD = slot0.FieldDescriptor(),
 	EQUIPINFO_ID_FIELD = slot0.FieldDescriptor(),
 	EQUIPINFO_SKINID_FIELD = slot0.FieldDescriptor(),
 	SHIPSKILL_SKILL_ID_FIELD = slot0.FieldDescriptor(),
@@ -86,10 +90,19 @@ slot1 = {
 	TASKINFO_ID_FIELD = slot0.FieldDescriptor(),
 	TASKINFO_PROGRESS_FIELD = slot0.FieldDescriptor(),
 	TASKINFO_ACCEPT_TIME_FIELD = slot0.FieldDescriptor(),
-	TASKINFO_SUBMIT_TIME_FIELD = slot0.FieldDescriptor()
+	TASKINFO_SUBMIT_TIME_FIELD = slot0.FieldDescriptor(),
+	SHIPCOREINFO_ID_FIELD = slot0.FieldDescriptor(),
+	SHIPCOREINFO_EXP_FIELD = slot0.FieldDescriptor(),
+	SHIPCOREINFO_MODEL_LIST_FIELD = slot0.FieldDescriptor(),
+	SHIPMODELINFO_POS_FIELD = slot0.FieldDescriptor(),
+	SHIPMODELINFO_ID_FIELD = slot0.FieldDescriptor(),
+	FLEETINFO_ID_FIELD = slot0.FieldDescriptor(),
+	FLEETINFO_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
+	FLEETINFO_COMMANDERS_FIELD = slot0.FieldDescriptor()
 }
 SHIPINFO = slot0.Descriptor()
 SHIPSTATE = slot0.Descriptor()
+ATTRINFO = slot0.Descriptor()
 EQUIPINFO = slot0.Descriptor()
 SHIPSKILL = slot0.Descriptor()
 STRENGTH_INFO = slot0.Descriptor()
@@ -105,6 +118,9 @@ APPRECIATIONINFO = slot0.Descriptor()
 BUILDINFO = slot0.Descriptor()
 COLLECTIONINFO = slot0.Descriptor()
 TASKINFO = slot0.Descriptor()
+SHIPCOREINFO = slot0.Descriptor()
+SHIPMODELINFO = slot0.Descriptor()
+FLEETINFO = slot0.Descriptor()
 slot1.SHIPINFO_ID_FIELD.name = "id"
 slot1.SHIPINFO_ID_FIELD.full_name = "common.shipinfo.id"
 slot1.SHIPINFO_ID_FIELD.number = 1
@@ -317,6 +333,25 @@ slot1.SHIPINFO_ACTIVITY_NPC_FIELD.has_default_value = false
 slot1.SHIPINFO_ACTIVITY_NPC_FIELD.default_value = 0
 slot1.SHIPINFO_ACTIVITY_NPC_FIELD.type = 13
 slot1.SHIPINFO_ACTIVITY_NPC_FIELD.cpp_type = 3
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.name = "meta_repair_list"
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.full_name = "common.shipinfo.meta_repair_list"
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.number = 24
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.index = 23
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.label = 3
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.has_default_value = false
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.default_value = {}
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.type = 13
+slot1.SHIPINFO_META_REPAIR_LIST_FIELD.cpp_type = 3
+slot1.SHIPINFO_CORE_LIST_FIELD.name = "core_list"
+slot1.SHIPINFO_CORE_LIST_FIELD.full_name = "common.shipinfo.core_list"
+slot1.SHIPINFO_CORE_LIST_FIELD.number = 25
+slot1.SHIPINFO_CORE_LIST_FIELD.index = 24
+slot1.SHIPINFO_CORE_LIST_FIELD.label = 3
+slot1.SHIPINFO_CORE_LIST_FIELD.has_default_value = false
+slot1.SHIPINFO_CORE_LIST_FIELD.default_value = {}
+slot1.SHIPINFO_CORE_LIST_FIELD.message_type = SHIPCOREINFO
+slot1.SHIPINFO_CORE_LIST_FIELD.type = 11
+slot1.SHIPINFO_CORE_LIST_FIELD.cpp_type = 10
 SHIPINFO.name = "shipinfo"
 SHIPINFO.full_name = "common.shipinfo"
 SHIPINFO.nested_types = {}
@@ -344,7 +379,9 @@ SHIPINFO.fields = {
 	slot1.SHIPINFO_MAX_LEVEL_FIELD,
 	slot1.SHIPINFO_BLUE_PRINT_FLAG_FIELD,
 	slot1.SHIPINFO_COMMON_FLAG_FIELD,
-	slot1.SHIPINFO_ACTIVITY_NPC_FIELD
+	slot1.SHIPINFO_ACTIVITY_NPC_FIELD,
+	slot1.SHIPINFO_META_REPAIR_LIST_FIELD,
+	slot1.SHIPINFO_CORE_LIST_FIELD
 }
 SHIPINFO.is_extendable = false
 SHIPINFO.extensions = {}
@@ -406,6 +443,34 @@ SHIPSTATE.fields = {
 }
 SHIPSTATE.is_extendable = false
 SHIPSTATE.extensions = {}
+slot1.ATTRINFO_LEVEL_FIELD.name = "level"
+slot1.ATTRINFO_LEVEL_FIELD.full_name = "common.attrinfo.level"
+slot1.ATTRINFO_LEVEL_FIELD.number = 1
+slot1.ATTRINFO_LEVEL_FIELD.index = 0
+slot1.ATTRINFO_LEVEL_FIELD.label = 2
+slot1.ATTRINFO_LEVEL_FIELD.has_default_value = false
+slot1.ATTRINFO_LEVEL_FIELD.default_value = 0
+slot1.ATTRINFO_LEVEL_FIELD.type = 13
+slot1.ATTRINFO_LEVEL_FIELD.cpp_type = 3
+slot1.ATTRINFO_EXP_FIELD.name = "exp"
+slot1.ATTRINFO_EXP_FIELD.full_name = "common.attrinfo.exp"
+slot1.ATTRINFO_EXP_FIELD.number = 2
+slot1.ATTRINFO_EXP_FIELD.index = 1
+slot1.ATTRINFO_EXP_FIELD.label = 2
+slot1.ATTRINFO_EXP_FIELD.has_default_value = false
+slot1.ATTRINFO_EXP_FIELD.default_value = 0
+slot1.ATTRINFO_EXP_FIELD.type = 13
+slot1.ATTRINFO_EXP_FIELD.cpp_type = 3
+ATTRINFO.name = "attrinfo"
+ATTRINFO.full_name = "common.attrinfo"
+ATTRINFO.nested_types = {}
+ATTRINFO.enum_types = {}
+ATTRINFO.fields = {
+	slot1.ATTRINFO_LEVEL_FIELD,
+	slot1.ATTRINFO_EXP_FIELD
+}
+ATTRINFO.is_extendable = false
+ATTRINFO.extensions = {}
 slot1.EQUIPINFO_ID_FIELD.name = "id"
 slot1.EQUIPINFO_ID_FIELD.full_name = "common.equipinfo.id"
 slot1.EQUIPINFO_ID_FIELD.number = 1
@@ -1001,6 +1066,15 @@ slot1.COLLECTIONINFO_ID_FIELD.has_default_value = false
 slot1.COLLECTIONINFO_ID_FIELD.default_value = 0
 slot1.COLLECTIONINFO_ID_FIELD.type = 13
 slot1.COLLECTIONINFO_ID_FIELD.cpp_type = 3
+slot1.SHIPCOREINFO_ID_FIELD.name = "id"
+slot1.SHIPCOREINFO_ID_FIELD.full_name = "common.shipcoreinfo.id"
+slot1.SHIPCOREINFO_ID_FIELD.number = 1
+slot1.SHIPCOREINFO_ID_FIELD.index = 0
+slot1.SHIPCOREINFO_ID_FIELD.label = 2
+slot1.SHIPCOREINFO_ID_FIELD.has_default_value = false
+slot1.SHIPCOREINFO_ID_FIELD.default_value = 0
+slot1.SHIPCOREINFO_ID_FIELD.type = 13
+slot1.SHIPCOREINFO_ID_FIELD.cpp_type = 3
 slot1.COLLECTIONINFO_FINISH_TIME_FIELD.name = "finish_time"
 slot1.COLLECTIONINFO_FINISH_TIME_FIELD.full_name = "common.collectioninfo.finish_time"
 slot1.COLLECTIONINFO_FINISH_TIME_FIELD.number = 2
@@ -1088,7 +1162,105 @@ TASKINFO.fields = {
 }
 TASKINFO.is_extendable = false
 TASKINFO.extensions = {}
+slot1.SHIPCOREINFO_EXP_FIELD.name = "exp"
+slot1.SHIPCOREINFO_EXP_FIELD.full_name = "common.shipcoreinfo.exp"
+slot1.SHIPCOREINFO_EXP_FIELD.number = 2
+slot1.SHIPCOREINFO_EXP_FIELD.index = 1
+slot1.SHIPCOREINFO_EXP_FIELD.label = 2
+slot1.SHIPCOREINFO_EXP_FIELD.has_default_value = false
+slot1.SHIPCOREINFO_EXP_FIELD.default_value = 0
+slot1.SHIPCOREINFO_EXP_FIELD.type = 13
+slot1.SHIPCOREINFO_EXP_FIELD.cpp_type = 3
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.name = "model_list"
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.full_name = "common.shipcoreinfo.model_list"
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.number = 3
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.index = 2
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.label = 3
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.has_default_value = false
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.default_value = {}
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.message_type = SHIPMODELINFO
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.type = 11
+slot1.SHIPCOREINFO_MODEL_LIST_FIELD.cpp_type = 10
+SHIPCOREINFO.name = "shipcoreinfo"
+SHIPCOREINFO.full_name = "common.shipcoreinfo"
+SHIPCOREINFO.nested_types = {}
+SHIPCOREINFO.enum_types = {}
+SHIPCOREINFO.fields = {
+	slot1.SHIPCOREINFO_ID_FIELD,
+	slot1.SHIPCOREINFO_EXP_FIELD,
+	slot1.SHIPCOREINFO_MODEL_LIST_FIELD
+}
+SHIPCOREINFO.is_extendable = false
+SHIPCOREINFO.extensions = {}
+slot1.SHIPMODELINFO_POS_FIELD.name = "pos"
+slot1.SHIPMODELINFO_POS_FIELD.full_name = "common.shipmodelinfo.pos"
+slot1.SHIPMODELINFO_POS_FIELD.number = 1
+slot1.SHIPMODELINFO_POS_FIELD.index = 0
+slot1.SHIPMODELINFO_POS_FIELD.label = 2
+slot1.SHIPMODELINFO_POS_FIELD.has_default_value = false
+slot1.SHIPMODELINFO_POS_FIELD.default_value = 0
+slot1.SHIPMODELINFO_POS_FIELD.type = 13
+slot1.SHIPMODELINFO_POS_FIELD.cpp_type = 3
+slot1.SHIPMODELINFO_ID_FIELD.name = "id"
+slot1.SHIPMODELINFO_ID_FIELD.full_name = "common.shipmodelinfo.id"
+slot1.SHIPMODELINFO_ID_FIELD.number = 2
+slot1.SHIPMODELINFO_ID_FIELD.index = 1
+slot1.SHIPMODELINFO_ID_FIELD.label = 2
+slot1.SHIPMODELINFO_ID_FIELD.has_default_value = false
+slot1.SHIPMODELINFO_ID_FIELD.default_value = 0
+slot1.SHIPMODELINFO_ID_FIELD.type = 13
+slot1.SHIPMODELINFO_ID_FIELD.cpp_type = 3
+SHIPMODELINFO.name = "shipmodelinfo"
+SHIPMODELINFO.full_name = "common.shipmodelinfo"
+SHIPMODELINFO.nested_types = {}
+SHIPMODELINFO.enum_types = {}
+SHIPMODELINFO.fields = {
+	slot1.SHIPMODELINFO_POS_FIELD,
+	slot1.SHIPMODELINFO_ID_FIELD
+}
+SHIPMODELINFO.is_extendable = false
+SHIPMODELINFO.extensions = {}
+slot1.FLEETINFO_ID_FIELD.name = "id"
+slot1.FLEETINFO_ID_FIELD.full_name = "common.fleetinfo.id"
+slot1.FLEETINFO_ID_FIELD.number = 1
+slot1.FLEETINFO_ID_FIELD.index = 0
+slot1.FLEETINFO_ID_FIELD.label = 2
+slot1.FLEETINFO_ID_FIELD.has_default_value = false
+slot1.FLEETINFO_ID_FIELD.default_value = 0
+slot1.FLEETINFO_ID_FIELD.type = 13
+slot1.FLEETINFO_ID_FIELD.cpp_type = 3
+slot1.FLEETINFO_SHIP_LIST_FIELD.name = "ship_list"
+slot1.FLEETINFO_SHIP_LIST_FIELD.full_name = "common.fleetinfo.ship_list"
+slot1.FLEETINFO_SHIP_LIST_FIELD.number = 2
+slot1.FLEETINFO_SHIP_LIST_FIELD.index = 1
+slot1.FLEETINFO_SHIP_LIST_FIELD.label = 3
+slot1.FLEETINFO_SHIP_LIST_FIELD.has_default_value = false
+slot1.FLEETINFO_SHIP_LIST_FIELD.default_value = {}
+slot1.FLEETINFO_SHIP_LIST_FIELD.type = 13
+slot1.FLEETINFO_SHIP_LIST_FIELD.cpp_type = 3
+slot1.FLEETINFO_COMMANDERS_FIELD.name = "commanders"
+slot1.FLEETINFO_COMMANDERS_FIELD.full_name = "common.fleetinfo.commanders"
+slot1.FLEETINFO_COMMANDERS_FIELD.number = 3
+slot1.FLEETINFO_COMMANDERS_FIELD.index = 2
+slot1.FLEETINFO_COMMANDERS_FIELD.label = 3
+slot1.FLEETINFO_COMMANDERS_FIELD.has_default_value = false
+slot1.FLEETINFO_COMMANDERS_FIELD.default_value = {}
+slot1.FLEETINFO_COMMANDERS_FIELD.message_type = COMMANDERSINFO
+slot1.FLEETINFO_COMMANDERS_FIELD.type = 11
+slot1.FLEETINFO_COMMANDERS_FIELD.cpp_type = 10
+FLEETINFO.name = "fleetinfo"
+FLEETINFO.full_name = "common.fleetinfo"
+FLEETINFO.nested_types = {}
+FLEETINFO.enum_types = {}
+FLEETINFO.fields = {
+	slot1.FLEETINFO_ID_FIELD,
+	slot1.FLEETINFO_SHIP_LIST_FIELD,
+	slot1.FLEETINFO_COMMANDERS_FIELD
+}
+FLEETINFO.is_extendable = false
+FLEETINFO.extensions = {}
 appreciationinfo = slot0.Message(APPRECIATIONINFO)
+attrinfo = slot0.Message(ATTRINFO)
 buildinfo = slot0.Message(BUILDINFO)
 collectioninfo = slot0.Message(COLLECTIONINFO)
 commanderinfo = slot0.Message(COMMANDERINFO)
@@ -1096,8 +1268,11 @@ commandersinfo = slot0.Message(COMMANDERSINFO)
 displayinfo = slot0.Message(DISPLAYINFO)
 dropinfo = slot0.Message(DROPINFO)
 equipinfo = slot0.Message(EQUIPINFO)
+fleetinfo = slot0.Message(FLEETINFO)
 idtimeinfo = slot0.Message(IDTIMEINFO)
+shipcoreinfo = slot0.Message(SHIPCOREINFO)
 shipinfo = slot0.Message(SHIPINFO)
+shipmodelinfo = slot0.Message(SHIPMODELINFO)
 shipskill = slot0.Message(SHIPSKILL)
 shipstate = slot0.Message(SHIPSTATE)
 skillinfo = slot0.Message(SKILLINFO)

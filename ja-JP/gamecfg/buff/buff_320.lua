@@ -18,6 +18,8 @@ return {
 				k = 0.3,
 				attr = "airPower",
 				time = 3,
+				cloakExpose = 36,
+				exposeGroup = 1,
 				dotType = 1,
 				number = 5
 			}

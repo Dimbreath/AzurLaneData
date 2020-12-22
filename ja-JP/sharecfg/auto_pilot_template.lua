@@ -7814,5 +7814,233 @@ pg.auto_pilot_template = {
 				}
 			}
 		}
+	},
+	[100000] = {
+		id = 100000,
+		name = "大世界通用_回到中点",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -10,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[100010] = {
+		id = 100010,
+		name = "仲裁者天帕岚斯_回到中点",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -3,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[100011] = {
+		id = 100011,
+		name = "仲裁者天帕岚斯_大水母随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 70,
+					moveCount = 240,
+					Z1 = 40,
+					duration = -1,
+					X1 = -32,
+					X2 = -15
+				}
+			}
+		}
+	},
+	[100012] = {
+		id = 100012,
+		name = "仲裁者天帕岚斯_二阶段随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -15,
+					X2 = 0
+				}
+			}
+		}
+	},
+	[100020] = {
+		id = 100020,
+		name = "仲裁者赫米忒_入场接随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
+	[100100] = {
+		id = 10001,
+		name = "游弋者后半场移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -10,
+					X2 = 5
+				}
+			}
+		}
+	},
+	[100101] = {
+		id = 100100,
+		name = "游弋者中场移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -35,
+					X2 = -10
+				}
+			}
+		}
+	},
+	[100110] = {
+		id = 100110,
+		name = "破坏者靠下方移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 45,
+					moveCount = 240,
+					Z1 = 25,
+					duration = -1,
+					X1 = -15,
+					X2 = 5
+				}
+			}
+		}
+	},
+	[100120] = {
+		id = 100010,
+		name = "防卫者回到后方",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = 0,
+					z = 57
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[100121] = {
+		id = 10001,
+		name = "防卫者后半场移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -10,
+					X2 = 5
+				}
+			}
+		}
 	}
 }

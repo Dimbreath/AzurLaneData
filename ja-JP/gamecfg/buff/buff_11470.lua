@@ -27,23 +27,15 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
 				minTargetNumber = 1,
 				skill_id = 11470,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					103091,
-					103092,
-					103093,
-					103094,
-					103101,
-					103102,
-					103103,
-					103104,
-					103131,
-					103132,
-					103133,
-					103134
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Astoria-Class"
 				}
 			}
 		}

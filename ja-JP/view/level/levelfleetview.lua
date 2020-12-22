@@ -11,13 +11,35 @@ end
 
 function slot0.OnInit(slot0)
 	slot0:InitUI()
-	setActive(slot0._tf, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
+
 	slot0.onConfirm = nil
 	slot0.onCancel = nil
+end
+
+function slot0.Show(slot0)
+	if type(slot0.chapter:getConfig("special_operation_list")) == "table" and #slot1 > 0 and not slot0.chapter:GetDailyBonusQuota() then
+		slot0:initSPOPView()
+		setActive(slot0.btnSp, true)
+	else
+		setActive(slot0.btnSp, false)
+	end
+
+	setActive(slot0._tf, true)
+	triggerToggle(slot0.contextData.EditingCommander and slot0.commanderToggle or slot0.formationToggle, true)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+end
+
+function slot0.Hide(slot0)
+	setActive(slot0.btnSp, false)
+	setActive(slot0._tf, false)
+
+	slot0.spItemID = nil
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
 end
@@ -109,8 +131,34 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	setActive(slot0.tfLimitTips, false)
 	setActive(slot0.tfLimit, true)
 	onButton(slot0, slot0.btnGo, function ()
-		if uv0.onConfirm then
-			uv0.onConfirm(uv0:getSelectIds())
+		function slot1()
+			if uv0.onConfirm then
+				uv0.onConfirm(uv0:getSelectIds(), uv1)
+			end
+		end
+
+		if uv0:getSPItem() and slot0 ~= 0 then
+			if PlayerPrefs.GetInt("SPOPItemReminder") ~= 1 then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					type = MSGBOX_TYPE_SINGLE_ITEM,
+					drop = {
+						count = 1,
+						type = DROP_TYPE_ITEM,
+						id = slot0
+					},
+					intro = i18n("levelScene_select_SP_OP_reminder", pg.item_data_statistics[slot0].name, pg.benefit_buff_template[Chapter.GetSPBuffByItem(slot0)].desc),
+					onYes = function ()
+						PlayerPrefs.SetInt("SPOPItemReminder", 1)
+						PlayerPrefs.Save()
+						uv0()
+					end,
+					weight = LayerWeightConst.TOP_LAYER
+				})
+			else
+				slot1()
+			end
+		else
+			slot1()
 		end
 	end, SFX_UI_WEIGHANCHOR_GO)
 	onButton(slot0, slot0.btnASHelp, function ()
@@ -124,7 +172,7 @@ function slot0.set(slot0, slot1, slot2, slot3)
 			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
-	onButton(slot0, slot0._tf, function ()
+	onButton(slot0, slot0._tf:Find("bg"), function ()
 		if uv0.onCancel then
 			uv0.onCancel()
 		end
@@ -532,6 +580,8 @@ function slot0.setOnHard(slot0, slot1)
 		slot0, slot1 = uv1.chapter:IsEliteFleetLegal()
 
 		if slot0 then
+			slot2 = uv1:getSPItem()
+
 			if slot1 then
 				uv1:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
 					modal = true,
@@ -539,17 +589,19 @@ function slot0.setOnHard(slot0, slot1)
 					onYes = function ()
 						uv0.onCancelHard()
 						uv0:emit(LevelUIConst.TRACK_CHAPTER, uv0.chapter, function ()
-							uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv0.chapter.id, uv0.chapter.loopFlag)
+							uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv0.chapter.id, uv0.chapter.loopFlag, uv1)
 						end)
 						pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_BATTLE)
 					end
 				})
 			else
-				slot2()
+				slot3()
 			end
-		else
-			pg.TipsMgr.GetInstance():ShowTips(slot1)
+
+			return
 		end
+
+		pg.TipsMgr.GetInstance():ShowTips(slot1)
 	end, SFX_UI_WEIGHANCHOR_GO)
 	onButton(slot0, slot0.btnASHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -560,7 +612,7 @@ function slot0.setOnHard(slot0, slot1)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0.onCancelHard(uv0.chapter)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0._tf, function ()
+	onButton(slot0, slot0._tf:Find("bg"), function ()
 		uv0.onCancelHard(uv0.chapter)
 	end, SFX_CANCEL)
 	onToggle(slot0, slot0.commanderToggle, function (slot0)
@@ -577,7 +629,6 @@ function slot0.setOnHard(slot0, slot1)
 			uv0:flush()
 		end
 	end, SFX_PANEL)
-	triggerToggle(slot0.contextData.EditingCommander and slot0.commanderToggle or slot0.formationToggle, true)
 	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
 	slot0:flush()
 end
@@ -930,6 +981,125 @@ function slot0.initCommander(slot0, slot1, slot2, slot3)
 			uv0:emit(LevelUIConst.OPEN_COMMANDER_PANEL, uv1, uv2, uv3)
 		end, SFX_PANEL)
 	end
+end
+
+function slot0.updateSpecialOperationTickets(slot0, slot1)
+	slot0.spOPTicketItems = slot1 or {}
+end
+
+function slot0.initSPOPView(slot0)
+	slot0.spPanel = slot0.btnSp:Find("sp_panel")
+	slot0.spItem = slot0.btnSp:Find("item")
+	slot0.spDesc = slot0.btnSp:Find("desc")
+	slot0.spTpl = slot0.spPanel:Find("sp_tpl")
+	slot0.spItemEmpty = slot0.spPanel:Find("empty_tpl")
+	slot0.spContainer = slot0.spPanel:Find("sp_container")
+
+	removeAllChildren(slot0.spContainer)
+
+	for slot5, slot6 in pairs(pg.benefit_buff_template) do
+		if slot6.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
+			table.insert({}, slot6)
+		end
+	end
+
+	if #slot0.spOPTicketItems == 0 then
+		slot2 = cloneTplTo(slot0.spItemEmpty, slot0.spContainer)
+	else
+		for slot5, slot6 in ipairs(slot1) do
+			slot7 = cloneTplTo(slot0.spTpl, slot0.spContainer)
+
+			setText(slot7:Find("desc"), slot6.desc)
+			slot0:setTicketInfo(slot7, slot6.benefit_condition)
+
+			if table.contains(slot0.chapter:getConfig("special_operation_list"), slot6.id) then
+				setActive(slot7:Find("block"), false)
+				onButton(slot0, slot7, function ()
+					uv0:setSPBuffSelected(uv1.id)
+					setActive(uv0.spPanel, false)
+				end)
+			else
+				setActive(slot7:Find("block"), true)
+			end
+		end
+	end
+
+	setText(slot0.spDesc, i18n("levelScene_select_SP_OP"))
+	onButton(slot0, slot0.btnSp, function ()
+		if uv0.spPanel.gameObject.activeSelf then
+			uv0:clearSPBuff()
+			PlayerPrefs.SetInt(Chapter.GetSPOperationItemCacheKey(uv0.chapter.id), 0)
+			setActive(uv0.spPanel, false)
+		else
+			setActive(uv0.spPanel, true)
+			setActive(uv0.btnSp:Find("item"), false)
+			setText(uv0.spDesc, i18n("levelScene_unselect_SP_OP"))
+		end
+	end)
+
+	if PlayerPrefs.GetInt(Chapter.GetSPOperationItemCacheKey(slot0.chapter.id), 0) ~= 0 and #slot0.spOPTicketItems > 0 then
+		slot4 = nil
+
+		for slot8, slot9 in ipairs(slot0.spOPTicketItems) do
+			if slot3 == slot9.configId and slot9.count > 0 then
+				slot4 = true
+
+				break
+			end
+		end
+
+		if slot4 then
+			slot0:setSPBuffSelected(Chapter.GetSPBuffByItem(slot3))
+		else
+			slot0:clearSPBuff()
+		end
+	else
+		slot0:clearSPBuff()
+	end
+
+	setActive(slot0.spPanel, false)
+end
+
+function slot0.setSPBuffSelected(slot0, slot1)
+	slot2 = pg.benefit_buff_template[slot1]
+	slot0.spItemID = tonumber(slot2.benefit_condition)
+
+	slot0:setTicketInfo(slot0.btnSp, slot0.spItemID)
+	setText(slot0.spDesc, slot2.desc)
+	PlayerPrefs.SetInt(Chapter.GetSPOperationItemCacheKey(slot0.chapter.id), slot0.spItemID)
+end
+
+function slot0.clearSPBuff(slot0)
+	slot0.spItemID = nil
+
+	setActive(slot0.btnSp:Find("item"), false)
+	setText(slot0.spDesc, i18n("levelScene_select_SP_OP"))
+end
+
+function slot0.setTicketInfo(slot0, slot1, slot2)
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(slot0.spOPTicketItems) do
+		if tonumber(slot2) == slot8.configId then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	if slot3 then
+		setText(slot1:Find("item/count"), slot3.count)
+		GetImageSpriteFromAtlasAsync(slot3:getConfig("icon"), "", slot1:Find("item/icon"))
+	else
+		setText(slot1:Find("item/count"), 0)
+		GetImageSpriteFromAtlasAsync(Item.GetIcon(DROP_TYPE_ITEM, slot2), "", slot1:Find("item/icon"))
+	end
+
+	setActive(slot1:Find("item"), true)
+end
+
+function slot0.getSPItem(slot0)
+	return slot0.spItemID
 end
 
 return slot0

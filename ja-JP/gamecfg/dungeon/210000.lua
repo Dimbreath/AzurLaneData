@@ -3,12 +3,12 @@ return {
 	win_condition = 1,
 	map_id = 10001,
 	type = 1,
-	id = 1091001,
+	id = 210000,
 	stages = {
 		{
 			stageIndex = 1,
 			failCondition = 1,
-			timeCount = 600,
+			timeCount = 180,
 			backGroundStageID = 1,
 			passCondition = 1,
 			totalArea = {
@@ -57,7 +57,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 211000,
+							monsterTemplateID = 295001,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -66,54 +66,70 @@ return {
 								0,
 								55
 							},
-							buffList = {
-								8001,
-								8007
+							bossData = {
+								hpBarNum = 100,
+								icon = "unknown3"
 							},
 							phase = {
 								{
+									index = 0,
+									setAI = 10001,
+									addWeapon = {
+										2960100
+									},
+									switchType = {
+										1,
+										2
+									},
+									switchParam = {
+										80,
+										0.2
+									},
+									switchTo = {
+										1,
+										3
+									}
+								},
+								{
 									switchType = 1,
 									switchTo = 1,
-									index = 0,
-									switchParam = 20,
-									addWeapon = {
-										2130031
-									}
-								},
-								{
-									switchType = 1,
-									switchTo = 2,
 									index = 1,
-									switchParam = 1,
-									removeWeapon = {
-										2130031
+									switchParam = 200,
+									addBuff = {
+										30000003
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 15,
 									switchTo = 3,
 									index = 2,
-									switchParam = 20,
+									switchType = 1,
+									removeWeapon = {
+										2004201
+									},
 									addWeapon = {
-										2130036
+										2004202,
+										2004260
 									}
 								},
 								{
 									switchType = 1,
 									switchTo = 4,
 									index = 3,
-									switchParam = 1,
-									removeWeapon = {
-										2130036
+									switchParam = 80,
+									addBuff = {
+										79012
 									}
 								},
 								{
 									switchType = 1,
 									switchTo = 5,
 									index = 4,
-									switchParam = 20,
-									addWeapon = {
-										2140018
+									switchParam = 100,
+									addBuff = {
+										79001,
+										8050,
+										8051
 									}
 								},
 								{
@@ -193,6 +209,24 @@ return {
 										2130035
 									}
 								}
+							}
+						}
+					},
+					airFighter = {
+						{
+							interval = 128,
+							onceNumber = 6,
+							formation = 10006,
+							templateID = 2031010,
+							delay = 0,
+							totalNumber = 12,
+							weaponID = {
+								1000848
+							},
+							attr = {
+								airPower = 40,
+								maxHP = 15,
+								attackRating = 23
 							}
 						}
 					}

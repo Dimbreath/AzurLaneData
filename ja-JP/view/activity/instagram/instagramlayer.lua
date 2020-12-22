@@ -166,7 +166,7 @@ function slot0.EnterDetail(slot0, slot1)
 
 	slot0.inDetail = true
 
-	pg.SystemGuideMgr:GetInstance():Play(slot0)
+	pg.SystemGuideMgr.GetInstance():Play(slot0)
 	slot0:RefreshInstagram()
 	scrollTo(slot0.scroll, 0, 1)
 end

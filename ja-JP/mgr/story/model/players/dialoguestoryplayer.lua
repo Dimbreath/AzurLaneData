@@ -20,7 +20,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.subActorMiddle = UIItemList.New(slot0:findTF("actor_middle/sub", slot0.actorPanel), slot0:findTF("actor_middle/sub/tpl", slot0.actorPanel))
 	slot0.subActorRgiht = UIItemList.New(slot0:findTF("actor_right/sub", slot0.actorPanel), slot0:findTF("actor_right/sub/tpl", slot0.actorPanel))
 	slot0.subActorLeft = UIItemList.New(slot0:findTF("actor_left/sub", slot0.actorPanel), slot0:findTF("actor_left/sub/tpl", slot0.actorPanel))
-	slot0.glitchArtMaterial = slot0:findTF("material1"):GetComponent(typeof(Image)).material
+	slot0.glitchArtMaterial = slot0:findTF("resource/material1"):GetComponent(typeof(Image)).material
+	slot0.maskMaterial = slot0:findTF("resource/material2"):GetComponent(typeof(Image)).material
+	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
 end
 
 function slot0.OnReset(slot0, slot1, slot2)
@@ -175,7 +177,7 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 		slot0:UpdateActorPostion(slot4, slot1)
 		slot0:UpdateExpression(slot10, slot1)
 		slot0:StartPatiningActions(slot4, slot1)
-		slot0:AddGlitchArtEffectForPating(slot4, slot1)
+		slot0:AddGlitchArtEffectForPating(slot4, slot10, slot1)
 		slot0:InitSubPainting(slot7, slot1)
 		slot4:SetAsLastSibling()
 
@@ -415,33 +417,24 @@ function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
 	end, slot3)
 end
 
-function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2)
-	if slot2:ShouldAddGlitchArtEffect() then
-		for slot7 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			slot8 = slot3[slot7]
-			slot8.material = slot0.glitchArtMaterial
+function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
+	if slot3:ShouldAddGlitchArtEffect() and slot3:GetExPression() ~= nil then
+		slot5 = slot2:Find("face")
 
-			slot8.material:SetFloat("_LineDensity", 7)
-			slot0:TweenValueLoop(slot8.gameObject, 0, 2, 2, 0, function (slot0)
-				if slot0 >= 1.2 then
-					uv0.material:SetFloat("_LineGray", 0.3)
-				elseif slot0 >= 1.1 then
-					uv0.material:SetFloat("_LineGray", 0.45)
-				elseif slot0 >= 1.03 then
-					uv0.material:SetFloat("_TearDistance", 0)
-				elseif slot0 >= 1 then
-					uv0.material:SetFloat("_TearDistance", 0.3)
-				elseif slot0 >= 0.35 then
-					uv0.material:SetFloat("_LineGray", 0.3)
-				elseif slot0 >= 0.3 then
-					uv0.material:SetFloat("_LineGray", 0.4)
-				elseif slot0 >= 0.25 then
-					uv0.material:SetFloat("_LineGray", 0.3)
-				elseif slot0 >= 0.2 then
-					uv0.material:SetFloat("_LineGray", 0.4)
-				end
-			end, function ()
-			end)
+		cloneTplTo(slot5, slot5.parent, "temp_mask"):SetAsFirstSibling()
+
+		for slot11 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+			if slot7[slot11].gameObject.name == "temp_mask" then
+				slot12.material = slot0.maskMaterial
+			elseif slot12.gameObject.name == slot2.name then
+				slot12.material = slot0.glitchArtMaterialForPainting
+			else
+				slot12.material = slot0.glitchArtMaterial
+			end
+		end
+	elseif slot4 then
+		for slot9 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+			slot5[slot9].material = slot0.glitchArtMaterial
 		end
 	end
 end
@@ -505,6 +498,10 @@ function slot0.RecyclePainting(slot0, slot1)
 
 			setGray(slot0, false, true)
 			retPaintingPrefab(slot0, slot1.name)
+
+			if slot1:Find("temp_mask") then
+				Destroy(slot3)
+			end
 		end
 	end
 

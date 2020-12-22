@@ -32,12 +32,6 @@ function slot0.init(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
 	slot0.indexBtn = slot0:findTF("buttons/index_button", slot0.topPanel)
-	slot0.indexPanel = slot0:findTF("index", slot0.topItems)
-	slot0.indexContain = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
-	slot0.indexTpl = slot0:findTF("tpl", slot0.indexContain)
-
-	setActive(slot0.indexTpl, false)
-
 	slot0.sortBtn = slot0:findTF("buttons/sort_button", slot0.topPanel)
 	slot0.sortPanel = slot0:findTF("sort", slot0.topItems)
 	slot0.sortContain = slot0:findTF("adapt/mask/panel", slot0.sortPanel)
@@ -47,7 +41,7 @@ function slot0.init(slot0)
 
 	slot0.equipSkinFilteBtn = slot0:findTF("buttons/EquipSkinFilteBtn", slot0.topPanel)
 	slot0.itemView = slot0:findTF("item_scrollview")
-	slot2 = false
+	slot2 = nil
 	slot2 = (NotchAdapt.CheckNotchRatio == 2 or not getProxy(SettingsProxy):CheckLargeScreen()) and slot0.itemView.rect.width > 2000 or NotchAdapt.CheckNotchRatio >= 2
 	slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot2 and 8 or 7
 	slot0.itemView:Find("item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot2 and 8 or 7
@@ -95,12 +89,16 @@ function slot0.init(slot0)
 		y = -124
 	})
 
-	slot0.selectEnabled = false
+	slot0.selectTransformPanel = slot0:findTF("select_transform_panel", slot0.topItems)
+
+	setActive(slot0.selectTransformPanel, false)
+
 	slot0.listEmptyTF = slot0:findTF("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
 	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.isEquipingOn = false
 end
 
 function slot0.setEquipment(slot0, slot1)
@@ -167,10 +165,13 @@ function slot0.setEquipmentSkin(slot0, slot1)
 	end
 end
 
-function slot0.didEnter(slot0)
+function slot0.OnMediatorRegister(slot0)
 	slot0.warp = slot0.contextData.warp or StoreHouseConst.WARP_TO_MATERIAL
 	slot0.contextData.warp = nil
+	slot0.mode = slot0.contextData.mode or StoreHouseConst.OVERVIEW
+end
 
+function slot0.didEnter(slot0)
 	setText(slot0:findTF("tip", slot0.selectPanel), i18n("equipment_select_device_destroy_tip"))
 	setActive(slot0:findTF("stamp", slot0.topItems), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 	onButton(slot0, slot0:findTF("stamp", slot0.topItems), function ()
@@ -214,7 +215,7 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
-		if uv0.selectEnabled then
+		if uv0.mode == StoreHouseConst.DESTROY then
 			triggerButton(uv0.BatchDisposeBtn)
 
 			return
@@ -238,19 +239,157 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.sortPanel, function ()
 		triggerToggle(uv0.sortBtn, false)
 	end, SFX_PANEL)
-	onToggle(slot0, slot0.indexBtn, function (slot0)
-		if slot0 then
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.indexPanel, {
-				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-			})
-			setActive(uv0.indexPanel, true)
-		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.indexPanel, uv0.topItems)
-			setActive(uv0.indexPanel, false)
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.indexPanel, function ()
-		triggerToggle(uv0.indexBtn, false)
+	onButton(slot0, slot0.indexBtn, function ()
+		uv0:emit(EquipmentMediator.OPEN_EQUIPMENT_INDEX, {
+			indexDatas = Clone(uv0.contextData.indexDatas),
+			customPanels = {
+				minHeight = 650,
+				typeIndex = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipmentTypeIndexs,
+					names = IndexConst.EquipmentTypeNames
+				},
+				equipPropertyIndex = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipPropertyIndexs,
+					names = IndexConst.EquipPropertyNames
+				},
+				equipPropertyIndex2 = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipPropertyIndexs,
+					names = IndexConst.EquipPropertyNames
+				},
+				equipAmmoIndex1 = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipAmmoIndexs_1,
+					names = IndexConst.EquipAmmoIndexs_1_Names
+				},
+				equipAmmoIndex2 = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipAmmoIndexs_2,
+					names = IndexConst.EquipAmmoIndexs_2_Names
+				},
+				equipCampIndex = {
+					mode = CustomIndexLayer.Mode.AND,
+					options = IndexConst.EquipCampIndexs,
+					names = IndexConst.EquipCampNames
+				},
+				rarityIndex = {
+					mode = CustomIndexLayer.Mode.AND,
+					options = IndexConst.EquipmentRarityIndexs,
+					names = IndexConst.RarityNames
+				},
+				extraIndex = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipmentExtraIndexs,
+					names = IndexConst.EquipmentExtraNames
+				}
+			},
+			groupList = {
+				{
+					dropdown = false,
+					titleENTxt = "indexsort_typeeng",
+					titleTxt = "indexsort_type",
+					tags = {
+						"typeIndex"
+					}
+				},
+				{
+					dropdown = true,
+					titleENTxt = "indexsort_indexeng",
+					titleTxt = "indexsort_index",
+					tags = {
+						"equipPropertyIndex",
+						"equipPropertyIndex2",
+						"equipAmmoIndex1",
+						"equipAmmoIndex2"
+					}
+				},
+				{
+					dropdown = false,
+					titleENTxt = "indexsort_campeng",
+					titleTxt = "indexsort_camp",
+					tags = {
+						"equipCampIndex"
+					}
+				},
+				{
+					dropdown = false,
+					titleENTxt = "indexsort_rarityeng",
+					titleTxt = "indexsort_rarity",
+					tags = {
+						"rarityIndex"
+					}
+				},
+				{
+					dropdown = false,
+					titleENTxt = "indexsort_indexeng",
+					titleTxt = "indexsort_extraindex",
+					tags = {
+						"extraIndex"
+					}
+				}
+			},
+			dropdownLimit = {
+				equipPropertyIndex = {
+					include = {
+						typeIndex = IndexConst.EquipmentTypeAll
+					},
+					exclude = {}
+				},
+				equipPropertyIndex2 = {
+					include = {
+						typeIndex = IndexConst.EquipmentTypeEquip
+					},
+					exclude = {
+						typeIndex = IndexConst.EquipmentTypeAll
+					}
+				},
+				equipAmmoIndex1 = {
+					include = {
+						typeIndex = IndexConst.BitAll({
+							IndexConst.EquipmentTypeSmallCannon,
+							IndexConst.EquipmentTypeMediumCannon,
+							IndexConst.EquipmentTypeBigCannon
+						})
+					},
+					exclude = {
+						typeIndex = IndexConst.EquipmentTypeAll
+					}
+				},
+				equipAmmoIndex2 = {
+					include = {
+						typeIndex = IndexConst.BitAll({
+							IndexConst.EquipmentTypeWarshipTorpedo,
+							IndexConst.EquipmentTypeSubmaraineTorpedo
+						})
+					},
+					exclude = {
+						typeIndex = IndexConst.EquipmentTypeAll
+					}
+				}
+			},
+			callback = function (slot0)
+				uv0.contextData.indexDatas.typeIndex = slot0.typeIndex
+				uv0.contextData.indexDatas.equipPropertyIndex = slot0.equipPropertyIndex
+				uv0.contextData.indexDatas.equipPropertyIndex2 = slot0.equipPropertyIndex2
+				uv0.contextData.indexDatas.equipAmmoIndex1 = slot0.equipAmmoIndex1
+				uv0.contextData.indexDatas.equipAmmoIndex2 = slot0.equipAmmoIndex2
+				uv0.contextData.indexDatas.equipCampIndex = slot0.equipCampIndex
+				uv0.contextData.indexDatas.rarityIndex = slot0.rarityIndex
+				uv0.contextData.indexDatas.extraIndex = slot0.extraIndex
+
+				if uv0.filterBusyToggle:GetComponent(typeof(Toggle)) then
+					if bit.band(slot0.extraIndex, IndexConst.EquipmentExtraEquiping) > 0 then
+						uv0:SetShowBusyFlag(true)
+					end
+
+					triggerToggle(uv0.filterBusyToggle, uv0:GetShowBusyFlag())
+				else
+					uv0:filterEquipment()
+				end
+			end
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.equipSkinFilteBtn, function ()
 		uv0:emit(EquipmentMediator.OPEN_EQUIPSKIN_INDEX_LAYER, {
@@ -281,18 +420,15 @@ function slot0.didEnter(slot0)
 	slot0:initItems()
 	slot0:initEquipments()
 
-	if not slot0.contextData.indexData then
-		slot0.contextData.indexData = uv3.index[1]
-	end
-
 	slot0.asc = slot0.contextData.asc or false
 
 	if not slot0.contextData.sortData then
 		slot0.contextData.sortData = uv3.sort[1]
 	end
 
+	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
+
 	slot0:initSort()
-	slot0:initEquipmentIndex()
 	setActive(slot0.itemView, false)
 	setActive(slot0.equipmentView, false)
 	onToggle(slot0, slot0.materialToggle, function (slot0)
@@ -347,7 +483,7 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.filterBusyToggle, function (slot0)
-		uv0.showBusyEquip = slot0
+		uv0:SetShowBusyFlag(slot0)
 
 		if uv0.afterFirstTrigger then
 			uv0:filterEquipment()
@@ -363,27 +499,30 @@ function slot0.didEnter(slot0)
 		triggerToggle(slot0.materialToggle, true)
 	elseif slot0.warp == StoreHouseConst.WARP_TO_WEAPON then
 		triggerToggle(slot0.weaponToggle, true)
+
+		slot0.equipmentRect.isStart = true
+
+		slot0.equipmentRect:EndLayout()
 	end
 
 	onButton(slot0, slot0.BatchDisposeBtn, function ()
-		uv0.selectEnabled = not uv0.selectEnabled
+		uv0.mode = uv0.mode ~= StoreHouseConst.DESTROY and StoreHouseConst.DESTROY or StoreHouseConst.OVERVIEW
 
-		if uv0.selectEnabled then
-			uv0.filterImportance = uv0.asc
+		if uv0.mode == StoreHouseConst.DESTROY then
+			uv0.lastasc = uv0.asc
+			uv0.filterImportance = true
+			uv0.asc = true
 
 			shiftPanel(uv0.bottomBack, nil, -124, nil, 0, true, true)
 			shiftPanel(uv0.selectPanel, nil, 0, nil, 0, true, true)
 
-			uv0.asc = true
 			uv0.contextData.asc = uv0.asc
 			uv0.contextData.sortData = uv1.sort[1]
 
 			uv0:filterEquipment()
-
-			uv0.mode = StoreHouseConst.DESTORY
-		else
-			uv0.mode = StoreHouseConst.OVERVIEW
-			uv0.asc = uv0.filterImportance
+		elseif uv0.mode == StoreHouseConst.OVERVIEW then
+			uv0.asc = uv0.lastasc
+			uv0.lastasc = nil
 			uv0.filterImportance = nil
 
 			shiftPanel(uv0.bottomBack, nil, 0, nil, 0, true, true)
@@ -391,11 +530,11 @@ function slot0.didEnter(slot0)
 			uv0:filterEquipment()
 		end
 
-		setActive(uv0.filterBusyToggle, not uv0.selectEnabled)
+		setActive(uv0.filterBusyToggle, uv0.mode == StoreHouseConst.OVERVIEW)
 		setActive(uv0.equipmentBtn.parent, uv0.mode == StoreHouseConst.OVERVIEW)
 	end, SFX_PANEL)
 
-	if slot0.warp == StoreHouseConst.WARP_TO_WEAPON and slot0.mode == StoreHouseConst.DESTORY then
+	if slot0.warp == StoreHouseConst.WARP_TO_WEAPON and slot0.mode == StoreHouseConst.DESTROY then
 		triggerButton(slot0.BatchDisposeBtn)
 	end
 
@@ -430,10 +569,13 @@ function slot0.didEnter(slot0)
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 	})
 	setActive(slot0.equipmentBtn.parent, slot0.mode == StoreHouseConst.OVERVIEW and slot0.warp == StoreHouseConst.WARP_TO_WEAPON)
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", sortData and sortData.spr or "sort_rarity"), true)
-	setImageSprite(slot0:findTF("Image", slot0.indexBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", indexData and indexData.spr or "index_all"), true)
+	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot0.contextData.sortData and slot1.spr or "sort_rarity"), true)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
+
+	if slot0.contextData.equipScrollPos then
+		slot0:ScrollEquipPos(slot0.contextData.equipScrollPos.y)
+	end
 
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60031, slot0.topItems)
 end
@@ -491,7 +633,7 @@ function slot0.updateCapacity(slot0)
 	end
 
 	setText(slot0.tip, "")
-	setText(slot0.capacityTF, slot0.capacity .. "/" .. slot0.player.equip_bag_max)
+	setText(slot0.capacityTF, slot0.capacity .. "/" .. slot0.player:getMaxEquipmentBag())
 end
 
 function slot0.setCapacity(slot0, slot1)
@@ -499,7 +641,6 @@ function slot0.setCapacity(slot0, slot1)
 end
 
 function slot0.setShip(slot0, slot1)
-	slot0.mode = slot0.contextData.mode or StoreHouseConst.OVERVIEW
 	slot0.shipVO = slot1
 
 	if slot1 then
@@ -553,43 +694,9 @@ function slot0.initSort(slot0)
 
 		slot0.sortButtons[slot4] = slot6
 	end
-
-	slot0.contextData.sortData = uv0.sort[1]
-end
-
-function slot0.initEquipmentIndex(slot0)
-	slot0.indexButtons = {}
-
-	eachChild(slot0.indexContain, function (slot0)
-		setActive(slot0, false)
-	end)
-
-	for slot4, slot5 in ipairs(uv0.index) do
-		slot6 = slot4 <= slot0.indexContain.childCount and slot0.indexContain:GetChild(slot4 - 1) or cloneTplTo(slot0.indexTpl, slot0.indexContain)
-
-		setActive(slot6, true)
-		setImageSprite(findTF(slot6, "Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot5.spr), true)
-		onToggle(slot0, slot6, function (slot0)
-			if slot0 then
-				uv0.contextData.indexData = uv1
-
-				uv0:filterEquipment()
-				triggerToggle(uv0.indexBtn, false)
-			end
-		end, SFX_PANEL)
-
-		slot0.indexButtons[slot4] = slot6
-	end
-
-	slot0.contextData.indexData = uv0.index[1]
 end
 
 function slot0.updatePageFilterButtons(slot0, slot1)
-	for slot5, slot6 in ipairs(uv0.index) do
-		triggerToggle(slot0.indexButtons[slot5], false)
-		setActive(slot0.indexButtons[slot5], table.contains(slot6.pages, slot1))
-	end
-
 	for slot5, slot6 in ipairs(uv0.sort) do
 		triggerToggle(slot0.sortButtons[slot5], false)
 		setActive(slot0.sortButtons[slot5], table.contains(slot6.pages, slot1))
@@ -627,46 +734,50 @@ function slot0.initEquipment(slot0, slot1)
 	slot2 = EquipmentItem.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
-		if uv0.equipmentVO == nil then
+		if uv0.equipmentRect.GetContentAnchoredPositionOriginal then
+			uv0.contextData.equipScrollPos = uv0.equipmentRect:GetContentAnchoredPositionOriginal()
+		end
+
+		if uv1.equipmentVO == nil then
 			return
 		end
 
-		if uv0.equipmentVO.isSkin then
-			if not uv0.equipmentVO.shipId then
-				uv1:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, uv0.equipmentVO.id, uv1.contextData.pos)
+		if uv1.equipmentVO.isSkin then
+			if not uv1.equipmentVO.shipId then
+				uv0:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, uv1.equipmentVO.id, uv0.contextData.pos)
 			else
-				uv1:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, uv0.equipmentVO.id, uv1.contextData.pos, {
-					id = uv0.equipmentVO.shipId,
-					pos = uv0.equipmentVO.shipPos
+				uv0:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, uv1.equipmentVO.id, uv0.contextData.pos, {
+					id = uv1.equipmentVO.shipId,
+					pos = uv1.equipmentVO.shipPos
 				})
 			end
 		else
-			if uv0.equipmentVO.mask then
+			if uv1.equipmentVO.mask then
 				return
 			end
 
-			if uv1.selectEnabled then
-				uv1:selectEquip(uv0.equipmentVO, uv0.equipmentVO.count)
+			if uv0.mode == StoreHouseConst.DESTROY then
+				uv0:selectEquip(uv1.equipmentVO, uv1.equipmentVO.count)
 
 				return
 			end
 
-			uv1:emit(uv2.ON_EQUIPMENT, uv1.shipVO and {
+			uv0:emit(uv2.ON_EQUIPMENT, uv0.shipVO and {
 				type = EquipmentInfoMediator.TYPE_REPLACE,
-				equipmentId = uv0.equipmentVO.id,
-				shipId = uv1.contextData.shipId,
-				pos = uv1.contextData.pos,
-				oldShipId = uv0.equipmentVO.shipId,
-				oldPos = uv0.equipmentVO.shipPos
-			} or uv0.equipmentVO.shipId and {
+				equipmentId = uv1.equipmentVO.id,
+				shipId = uv0.contextData.shipId,
+				pos = uv0.contextData.pos,
+				oldShipId = uv1.equipmentVO.shipId,
+				oldPos = uv1.equipmentVO.shipPos
+			} or uv1.equipmentVO.shipId and {
 				type = EquipmentInfoMediator.TYPE_DISPLAY,
-				equipmentId = uv0.equipmentVO.id,
-				shipId = uv0.equipmentVO.shipId,
-				pos = uv0.equipmentVO.shipPos
+				equipmentId = uv1.equipmentVO.id,
+				shipId = uv1.equipmentVO.shipId,
+				pos = uv1.equipmentVO.shipPos
 			} or {
 				destroy = true,
 				type = EquipmentInfoMediator.TYPE_DEFAULT,
-				equipmentId = uv0.equipmentVO.id
+				equipmentId = uv1.equipmentVO.id
 			})
 		end
 	end, SFX_PANEL)
@@ -726,54 +837,23 @@ function slot0.filterEquipment(slot0)
 		return
 	end
 
-	slot2 = slot0.contextData.indexData.types
-	slot4 = slot0.contextData.sortData
-	slot0.pageEquipments = {}
+	slot1 = slot0.page
+	slot2 = slot0.contextData.sortData
+	slot3 = {}
 	slot0.loadEquipmentVOs = {}
 
-	if slot0.page == uv0 then
-		for slot8, slot9 in pairs(slot0.equipmentVOs) do
-			if slot9.isSkin and slot9.count > 0 then
-				table.insert(slot0.pageEquipments, slot9)
-			end
-		end
-	elseif slot3 == uv1 then
-		for slot8, slot9 in pairs(slot0.equipmentVOs) do
-			if not slot9.isSkin then
-				table.insert(slot0.pageEquipments, slot9)
-			end
+	for slot7, slot8 in pairs(slot0.equipmentVOs) do
+		if not slot8.isSkin then
+			table.insert(slot3, slot8)
 		end
 	end
 
-	if slot2 then
-		if slot3 == uv0 then
-			for slot10, slot11 in pairs(slot0.pageEquipments) do
-				if slot11.count > 0 and slot11.isSkin and function (slot0, slot1)
-					for slot5, slot6 in pairs(slot0) do
-						if _.any(slot1, function (slot0)
-							return slot0 == uv0
-						end) then
-							return true
-						end
-					end
-
-					return false
-				end(pg.equip_skin_template[slot11.id].equip_type, slot2) and slot0:checkFitBusyCondition(slot11) then
-					table.insert(slot0.loadEquipmentVOs, slot11)
-				end
-			end
-		elseif slot3 == uv1 then
-			for slot8, slot9 in pairs(slot0.pageEquipments) do
-				if (slot9.count > 0 or slot9.shipId) and not slot9.isSkin and table.contains(slot2, slot9.config.type) and slot0:checkFitBusyCondition(slot9) then
-					table.insert(slot0.loadEquipmentVOs, slot9)
-				end
-			end
-		end
-	else
-		for slot8, slot9 in pairs(slot0.pageEquipments) do
-			if (slot9.count > 0 or slot9.shipId) and slot0:checkFitBusyCondition(slot9) then
-				table.insert(slot0.loadEquipmentVOs, slot9)
-			end
+	for slot8, slot9 in pairs(slot3) do
+		if (slot9.count > 0 or slot9.shipId) and slot0:checkFitBusyCondition(slot9) and IndexConst.filterEquipByType(slot9, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot9, table.mergeArray({}, {
+			slot0.contextData.indexDatas.equipPropertyIndex,
+			slot0.contextData.indexDatas.equipPropertyIndex2
+		}, true)) and IndexConst.filterEquipAmmo1(slot9, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot9, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot9, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot9, slot0.contextData.indexDatas.rarityIndex) and IndexConst.filterEquipByExtra(slot9, slot0.contextData.indexDatas.extraIndex, slot0:GetShowBusyFlag()) then
+			table.insert(slot0.loadEquipmentVOs, slot9)
 		end
 	end
 
@@ -785,7 +865,7 @@ function slot0.filterEquipment(slot0)
 		end
 	end
 
-	if slot4 then
+	if slot2 then
 		slot5 = slot0.asc
 
 		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
@@ -805,8 +885,7 @@ function slot0.filterEquipment(slot0)
 
 	slot0:updateSelected()
 	slot0:updateEquipmentCount()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot4.spr), true)
-	setImageSprite(slot0:findTF("Image", slot0.indexBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot1.spr), true)
+	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot2.spr), true)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 end
@@ -815,39 +894,35 @@ function slot0.filterEquipSkin(slot0, slot1)
 	slot2 = slot0.equipSkinIndex
 	slot3 = slot0.equipSkinTheme
 	slot5 = slot0.contextData.sortData
-	slot0.pageEquipments = {}
+	slot6 = {}
 	slot0.loadEquipmentVOs = {}
 
-	if slot0.page == uv0 then
-		for slot9, slot10 in pairs(slot0.equipmentVOs) do
-			if slot10.isSkin and slot10.count > 0 then
-				table.insert(slot0.pageEquipments, slot10)
-			end
-		end
-	elseif slot4 == uv1 then
+	if slot0.page ~= uv0 then
 		-- Nothing
 	end
 
-	if slot4 == uv0 then
-		for slot9, slot10 in pairs(slot0.pageEquipments) do
-			if IndexConst.filterEquipSkinByIndex(slot10, slot2) and IndexConst.filterEquipSkinByTheme(slot10, slot3) and slot0:checkFitBusyCondition(slot10) then
-				table.insert(slot0.loadEquipmentVOs, slot10)
-			end
+	for slot10, slot11 in pairs(slot0.equipmentVOs) do
+		if slot11.isSkin and slot11.count > 0 then
+			table.insert(slot6, slot11)
 		end
-	elseif slot4 == uv1 then
-		-- Nothing
+	end
+
+	for slot10, slot11 in pairs(slot6) do
+		if IndexConst.filterEquipSkinByIndex(slot11, slot2) and IndexConst.filterEquipSkinByTheme(slot11, slot3) and slot0:checkFitBusyCondition(slot11) then
+			table.insert(slot0.loadEquipmentVOs, slot11)
+		end
 	end
 
 	if slot0.filterImportance ~= nil then
-		for slot9 = #slot0.loadEquipmentVOs, 1, -1 do
-			if slot0.loadEquipmentVOs[slot9].isSkin or not slot10.isSkin and slot10:isImportance() then
-				table.remove(slot0.loadEquipmentVOs, slot9)
+		for slot10 = #slot0.loadEquipmentVOs, 1, -1 do
+			if slot0.loadEquipmentVOs[slot10].isSkin or not slot11.isSkin and slot11:isImportance() then
+				table.remove(slot0.loadEquipmentVOs, slot10)
 			end
 		end
 	end
 
 	if slot5 then
-		slot6 = slot0.asc
+		slot7 = slot0.asc
 
 		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
 			return uv0.sortFunc(slot0, slot1, uv1, uv2)
@@ -870,8 +945,38 @@ function slot0.filterEquipSkin(slot0, slot1)
 	setActive(slot0.sortImgDec, not slot0.asc)
 end
 
+function slot0.GetShowBusyFlag(slot0)
+	return slot0.isEquipingOn
+end
+
+function slot0.SetShowBusyFlag(slot0, slot1)
+	slot0.isEquipingOn = slot1
+end
+
+function slot0.Scroll2Equip(slot0, slot1)
+	if slot0.contextData.warp ~= StoreHouseConst.WARP_TO_WEAPON and slot0.page ~= uv0 then
+		return
+	end
+
+	for slot5, slot6 in ipairs(slot0.loadEquipmentVOs) do
+		if EquipmentTransformLayer.SameEquip(slot6, slot1) then
+			slot7 = slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup))
+
+			slot0:ScrollEquipPos((slot7.cellSize.y + slot7.spacing.y) * math.floor((slot5 - 1) / slot7.constraintCount) + slot0.equipmentRect.paddingFront + slot0.equipmentView.rect.height * 0.5 - slot0.equipmentRect.paddingFront)
+
+			break
+		end
+	end
+end
+
+function slot0.ScrollEquipPos(slot0, slot1)
+	slot2 = slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup))
+
+	slot0.equipmentRect:ScrollTo((slot1 - slot0.equipmentView.rect.height * 0.5) / ((slot2.cellSize.y + slot2.spacing.y) * math.ceil(#slot0.loadEquipmentVOs / slot2.constraintCount) - slot2.spacing.y + slot0.equipmentRect.paddingFront + slot0.equipmentRect.paddingEnd - slot0.equipmentView.rect.height > 0 and slot5 or slot4))
+end
+
 function slot0.checkFitBusyCondition(slot0, slot1)
-	return not slot0.selectEnabled and slot0.showBusyEquip or not slot1.shipId
+	return slot0.mode ~= StoreHouseConst.DESTROY and slot0:GetShowBusyFlag() or not slot1.shipId
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
@@ -978,7 +1083,7 @@ function slot0.selectEquip(slot0, slot1, slot2)
 		return
 	end
 
-	if slot0.selectEnabled then
+	if slot0.mode == StoreHouseConst.DESTROY then
 		slot3 = false
 		slot4 = nil
 		slot5 = 0
@@ -1086,23 +1191,25 @@ function slot0.updateSelected(slot0)
 		end
 	end
 
-	if slot0.selectedMax == 0 then
-		setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), slot0:selectCount())
-	else
-		setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), slot1 .. "/" .. slot0.selectedMax)
-	end
+	if slot0.mode == StoreHouseConst.DESTROY then
+		if slot0.selectedMax == 0 then
+			setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), slot0:selectCount())
+		else
+			setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), slot1 .. "/" .. slot0.selectedMax)
+		end
 
-	if #slot0.selectedIds < slot0.selectedMin then
-		setActive(findTF(slot0.selectPanel, "confirm_button/mask"), true)
-	else
-		setActive(findTF(slot0.selectPanel, "confirm_button/mask"), false)
+		if #slot0.selectedIds < slot0.selectedMin then
+			setActive(findTF(slot0.selectPanel, "confirm_button/mask"), true)
+		else
+			setActive(findTF(slot0.selectPanel, "confirm_button/mask"), false)
+		end
 	end
 end
 
 function slot0.SwitchToDestroy(slot0)
 	triggerToggle(slot0.weaponToggle, true)
 
-	slot0.selectEnabled = false
+	slot0.mode = StoreHouseConst.OVERVIEW
 
 	triggerButton(slot0.BatchDisposeBtn)
 end

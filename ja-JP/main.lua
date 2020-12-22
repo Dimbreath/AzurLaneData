@@ -148,6 +148,12 @@ function OnApplicationExit()
 		pg.goldExchangeMgr:willExit()
 	end
 
+	if nowWorld.staminaMgr:IsShowing() then
+		nowWorld.staminaMgr:Hide()
+
+		return
+	end
+
 	slot11:onBackPressed()
 end
 
@@ -207,6 +213,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.ToastMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.WorldToastMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.SecondaryPWDMgr.GetInstance():Init(slot0)

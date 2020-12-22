@@ -1,9 +1,6 @@
 return {
-	lose_condition = 1,
-	win_condition = 1,
 	map_id = 10001,
-	type = 1,
-	id = 1091001,
+	id = 240015,
 	stages = {
 		{
 			stageIndex = 1,
@@ -24,6 +21,18 @@ return {
 				68
 			},
 			enemyArea = {},
+			mainUnitPosition = {
+				{
+					Vector3(-105, 0, 58),
+					Vector3(-105, 0, 78),
+					Vector3(-105, 0, 38)
+				},
+				[-1] = {
+					Vector3(15, 0, 58),
+					Vector3(15, 0, 78),
+					Vector3(15, 0, 38)
+				}
+			},
 			fleetCorrdinate = {
 				-80,
 				0,
@@ -43,7 +52,15 @@ return {
 					waveIndex = 202,
 					preWaves = {},
 					triggerParams = {
-						timeout = 20
+						timeout = 15
+					}
+				},
+				{
+					triggerType = 1,
+					waveIndex = 203,
+					preWaves = {},
+					triggerParams = {
+						timeout = 30
 					}
 				},
 				{
@@ -58,11 +75,10 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 204101,
-							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								10,
+								-10,
 								0,
 								75
 							},
@@ -72,14 +88,13 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 204105,
-							score = 0,
+							monsterTemplateID = 204211,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
+								5,
 								0,
-								0,
-								55
+								65
 							},
 							buffList = {
 								8001,
@@ -88,13 +103,26 @@ return {
 						},
 						{
 							monsterTemplateID = 204101,
-							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								10,
+								-10,
 								0,
 								35
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 204101,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								5,
+								0,
+								45
 							},
 							buffList = {
 								8001,
@@ -115,14 +143,37 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 204101,
-							score = 0,
+							monsterTemplateID = 242004,
+							reinforceDelay = 6,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								20,
+								-15,
 								0,
-								80
+								55
+							}
+						},
+						{
+							monsterTemplateID = 242002,
+							reinforceDelay = 6,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-15,
+								0,
+								35
+							}
+						}
+					},
+					reinforcement = {
+						{
+							monsterTemplateID = 204101,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								10,
+								0,
+								70
 							},
 							buffList = {
 								8001,
@@ -131,11 +182,50 @@ return {
 						},
 						{
 							monsterTemplateID = 204101,
-							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
+								10,
 								0,
+								25
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						}
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 103,
+					conditionType = 0,
+					preWaves = {
+						102,
+						101
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 242105,
+							reinforceDelay = 6,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-15,
+								0,
+								50
+							}
+						}
+					},
+					reinforcement = {
+						{
+							monsterTemplateID = 204101,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								10,
 								0,
 								75
 							},
@@ -145,29 +235,27 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 204101,
-							score = 0,
-							delay = 0,
+							monsterTemplateID = 209502,
+							delay = 1,
 							moveCast = true,
 							corrdinate = {
+								30,
 								0,
-								0,
-								35
+								55
 							},
 							buffList = {
 								8001,
-								8007
+								8002
 							}
 						},
 						{
 							monsterTemplateID = 204101,
-							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								20,
+								10,
 								0,
-								30
+								35
 							},
 							buffList = {
 								8001,

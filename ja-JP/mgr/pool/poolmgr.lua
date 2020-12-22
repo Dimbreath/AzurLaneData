@@ -236,10 +236,12 @@ function slot0.IsSpineSkelCached(slot0, slot1)
 end
 
 slot6 = {
-	"ResPanel"
+	"ResPanel",
+	"WorldResPanel"
 }
 slot7 = {
 	"ResPanel",
+	"WorldResPanel",
 	"MainUI",
 	"DockyardUI",
 	"AwardInfoUI",
@@ -250,9 +252,12 @@ slot7 = {
 	"ToastUI",
 	"MsgBox",
 	"TipPanel",
-	"Loading"
+	"Loading",
+	"WorldUI"
 }
-slot8 = {}
+slot8 = {
+	"WorldAllocateUI"
+}
 
 function slot0.GetUI(slot0, slot1, slot2, slot3)
 	slot0:FromPlural("ui/" .. slot1, slot1, slot2, table.contains(uv0, slot1) and 3 or 1, function (slot0)

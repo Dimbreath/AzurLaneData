@@ -691,15 +691,28 @@ function slot0.displayFleetInfo(slot0)
 
 	slot8, slot9 = slot0.chapter:GetExtraCostRate()
 
-	setActive(slot0._extraCostMark, slot8 > 1)
 	setActive(slot0._extraCostBuffIcon, #slot9 > 0)
 
-	if #slot9 > 0 then
-		setImageSprite(slot0._extraCostBuffIcon, GetSpriteFromAtlas(slot9[1].icon, ""), true)
-		onButton(slot0, slot0._extraCostBuffIcon, function ()
-			setActive(uv0._operaionBuffTips, not uv0._operaionBuffTips.gameObject.activeSelf)
-			setText(uv0._operaionBuffTips:Find("Text"), uv0.chapter:GetOperationDesc())
-		end)
+	for slot13, slot14 in ipairs(slot9) do
+		if slot14.benefit_type == Chapter.OPERATION_BUFF_TYPE_COST then
+			setText(slot0._extraCostBuffIcon:Find("text_cost"), tonumber(slot14.benefit_effect) * 0.01 + 1)
+		elseif slot14.benefit_type == Chapter.OPERATION_BUFF_TYPE_EXP then
+			setText(slot0._extraCostBuffIcon:Find("text_reward"), tonumber(slot14.benefit_effect) * 0.01 + 1)
+		elseif slot14.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
+			onButton(slot0, slot0._extraCostBuffIcon, function ()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					hideNo = true,
+					type = MSGBOX_TYPE_SINGLE_ITEM,
+					drop = {
+						count = 1,
+						type = DROP_TYPE_ITEM,
+						id = tonumber(uv0.benefit_condition)
+					},
+					intro = pg.strategy_data_template[uv0.id].desc,
+					weight = LayerWeightConst.TOP_LAYER
+				})
+			end)
+		end
 	end
 
 	setActive(slot0:findTF("middle/gear_score/vanguard"):Find("SonarActive"), ChapterFleet.StaticTransformChapterFleet2Fleet(slot1):GetFleetSonarRange() > 0)

@@ -24,6 +24,23 @@ return {
 			arg_list = {
 				buff_id = 11121
 			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipType"
+			},
+			arg_list = {
+				buff_id = 11123,
+				exceptCaster = true,
+				ship_type_list = {
+					6,
+					7
+				}
+			}
 		}
 	}
 }

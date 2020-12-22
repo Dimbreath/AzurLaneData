@@ -1,10 +1,17 @@
 slot0 = class("HarvestResourceCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot3 = id2res(slot1:getBody())
-	slot5 = getProxy(PlayerProxy):getData()
+	slot2 = slot1:getBody()
+	slot3 = id2res(slot2)
+	slot6 = nil
 
-	if pg.user_level[slot5.level]["max_" .. slot3] <= slot5[slot3] then
+	if slot2 == 1 then
+		slot6 = getProxy(PlayerProxy):getData():getLevelMaxGold()
+	elseif slot2 == 2 then
+		slot6 = slot5:getLevelMaxOil()
+	end
+
+	if slot6 <= slot5[slot3] then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
 
 		return

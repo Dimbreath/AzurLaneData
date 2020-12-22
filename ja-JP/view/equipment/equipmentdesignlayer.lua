@@ -143,7 +143,9 @@ function slot2(slot0, slot1)
 		setActive(slot0, false)
 	end)
 
-	slot4 = slot1:GetPropertiesInfo().attrs
+	slot4 = underscore.filter(slot1:GetPropertiesInfo().attrs, function (slot0)
+		return not slot0.type or slot0.type ~= AttributeType.AntiSiren
+	end)
 
 	for slot10, slot11 in ipairs(slot3.skill_id[1] and slot1:isDevice() and {
 		1,
@@ -409,7 +411,7 @@ function slot0.showDesignDesc(slot0, slot1)
 			return
 		end
 
-		uv0 = math.max(math.min(uv1, uv2.player.equip_bag_max - uv2.capacity), 1)
+		uv0 = math.max(math.min(uv1, uv2.player:getMaxEquipmentBag() - uv2.capacity), 1)
 
 		uv3(uv0)
 	end, SFX_PANEL)

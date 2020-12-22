@@ -15,6 +15,8 @@ function slot0.OnInit(slot0)
 	slot0.msgBoxConfirmBtn = slot0.customMsgbox:Find("frame/btns/confirm_btn")
 	slot0.msgBoxContent = slot0.customMsgbox:Find("frame/bg/content")
 	slot0.msgBtnBack = slot0.customMsgbox:Find("frame/top/btnBack")
+	slot0.msgBoxTitle = slot0.customMsgbox:Find("frame/top/title_list/infomation/title")
+	slot0.msgBoxTitleEn = slot0.customMsgbox:Find("frame/top/title_list/infomation/title_en")
 
 	SetActive(slot0.customMsgbox, false)
 
@@ -90,6 +92,11 @@ function slot0.showCustomMsgBox(slot0, slot1)
 		setText(slot0.msgBoxItemContent1, slot1.content1 or "")
 	else
 		setText(slot0.msgBoxContent, slot1.content or "")
+	end
+
+	if slot1.title then
+		setText(slot0.msgBoxTitle, slot1.title.title)
+		setText(slot0.msgBoxTitleEn, slot1.title.titleEn or "")
 	end
 end
 

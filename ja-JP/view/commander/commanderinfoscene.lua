@@ -72,7 +72,7 @@ function slot0.init(slot0)
 	slot0.renamePanel = CommanderRenamePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 	slot0.detailPage = CommanderDetailPage.New(slot0:findTF("blur_panel/main"), slot0.event, slot0.contextData)
 
-	slot0.detailPage:AddLoadedCallback(function ()
+	slot0.detailPage:CallbackInvoke(function ()
 		uv0.detailPage:ActionInvoke("HideExp")
 	end)
 
@@ -98,7 +98,7 @@ function slot0.opeRenamePanel(slot0, slot1)
 		end()
 	else
 		slot0.renamePanel:Load()
-		slot0.renamePanel:AddLoadedCallback(slot3)
+		slot0.renamePanel:CallbackInvoke(slot3)
 	end
 end
 
@@ -115,7 +115,7 @@ function slot0.openMsgBox(slot0, slot1)
 		end()
 	else
 		slot0.msgboxPage:Load()
-		slot0.msgboxPage:AddLoadedCallback(slot2)
+		slot0.msgboxPage:CallbackInvoke(slot2)
 	end
 end
 
@@ -181,6 +181,19 @@ function slot0.didEnter(slot0)
 	end, function ()
 		uv0:emit(CommanderInfoMediator.ON_NEXT)
 	end)
+end
+
+function slot0.ClosePanel(slot0)
+	triggerToggle(slot0.detailPage.skillBtn, false)
+	triggerToggle(slot0.detailPage.additionBtn, false)
+end
+
+function slot0.ClosePanelSelf(slot0)
+	for slot4, slot5 in ipairs(slot0.panels) do
+		if slot5.ClosePanel then
+			slot5:ClosePanel()
+		end
+	end
 end
 
 function slot0.checkFirstHelp(slot0)
@@ -271,7 +284,7 @@ function slot0.openTreePanel(slot0, slot1)
 		end()
 	else
 		slot0.treePanel:Load()
-		slot0.treePanel:AddLoadedCallback(slot2)
+		slot0.treePanel:CallbackInvoke(slot2)
 	end
 end
 

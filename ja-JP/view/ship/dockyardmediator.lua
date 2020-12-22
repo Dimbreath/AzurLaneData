@@ -20,7 +20,9 @@ function slot0.register(slot0)
 	elseif slot0.contextData.mode == DockyardScene.MODE_WORLD then
 		slot0.shipsById = {}
 
-		slot0.viewComponent:setWorld(getProxy(WorldProxy):GetWorld())
+		for slot5, slot6 in ipairs(nowWorld:GetShipVOs()) do
+			slot0.shipsById[slot6.id] = slot6
+		end
 	else
 		slot0.shipsById = {}
 
@@ -64,7 +66,6 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_WORLD_FORMATION, function ()
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_FORMATION, getProxy(WorldProxy):GetWorld():GetActiveMap():ConstructFormationData())
 	end)
 	slot0:bind(uv0.ON_SHIP_REPAIR, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.WORLD_SHIP_REPAIR, {
@@ -83,7 +84,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CANCEL_LEARN_TACTICS_DONE,
 		PlayerProxy.UPDATED,
 		GAME.WORLD_SHIP_REPAIR_DONE,
-		GAME.UPDATE_LOCK_DONE
+		GAME.UPDATE_LOCK_DONE,
+		GAME.WORLD_FLEET_REDEPLOY_DONE
 	}
 end
 
@@ -104,24 +106,26 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateSelected()
 		slot0.viewComponent:updateDestroyRes()
 		slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-			items = slot3.bonus
-		}, AwardInfoLayer.TITLE.ITEM, function ()
-			if table.getCount(uv0.equipments) > 0 then
-				slot0 = {}
+			items = slot3.bonus,
+			title = AwardInfoLayer.TITLE.ITEM,
+			removeFunc = function ()
+				if table.getCount(uv0.equipments) > 0 then
+					slot0 = {}
 
-				for slot4, slot5 in pairs(uv0.equipments) do
-					table.insert(slot0, slot5)
+					for slot4, slot5 in pairs(uv0.equipments) do
+						table.insert(slot0, slot5)
+					end
+
+					uv1:addSubLayers(Context.New({
+						viewComponent = ResolveEquipmentLayer,
+						mediator = ResolveEquipmentMediator,
+						data = {
+							Equipments = slot0
+						}
+					}))
 				end
-
-				uv1:addSubLayers(Context.New({
-					viewComponent = ResolveEquipmentLayer,
-					mediator = ResolveEquipmentMediator,
-					data = {
-						Equipments = slot0
-					}
-				}))
 			end
-		end)
+		})
 		slot0.viewComponent:closeDestroyPanel()
 	elseif slot2 == FleetProxy.FLEET_UPDATED then
 		slot0.fleetShipIds = slot0.fleetProxy:getAllShipIds()
@@ -184,6 +188,8 @@ function slot0.handleNotification(slot0, slot1)
 		_.each(slot3.shipIds, function (slot0)
 			uv0.viewComponent:updateShipStatusById(slot0)
 		end)
+	elseif slot2 == GAME.WORLD_FLEET_REDEPLOY_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_BACK)
 	end
 end
 
