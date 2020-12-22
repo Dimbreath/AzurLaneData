@@ -61,6 +61,10 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.ranTypeTF, function ()
 		uv0.ranType = (uv0.ranType + 1) % 3
 
+		uv1()
+	end, SFX_PANEL)
+	slot0:InitTags()
+	function ()
 		if uv0.pageId then
 			uv0:SwitchPage(uv0.pageId)
 		end
@@ -68,8 +72,7 @@ function slot0.OnInit(slot0)
 		uv0.ranTypeTF:Find("month"):GetComponent(typeof(Image)).enabled = uv0.ranType == 0
 		uv0.ranTypeTF:Find("total"):GetComponent(typeof(Image)).enabled = uv0.ranType == 2
 		uv0.ranTypeTF:GetComponent(typeof(Image)).enabled = uv0.ranType == 1
-	end, SFX_PANEL)
-	slot0:InitTags()
+	end()
 end
 
 function slot0.InitTags(slot0)
@@ -85,10 +88,10 @@ end
 function slot0.Flush(slot0, slot1)
 	slot0.ranks = slot1
 
-	triggerToggle(slot0.tabContainer:Find("commit"), true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:Show()
 	slot0._tf:SetAsLastSibling()
+	triggerToggle(slot0.tabContainer:Find("commit"), true)
 end
 
 function slot0.SwitchPage(slot0, slot1)

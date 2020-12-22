@@ -547,6 +547,9 @@ end
 
 function slot0.ClearSlots(slot0)
 	for slot4, slot5 in pairs(slot0.shipGos) do
+		tf(slot5).pivot = Vector2(0.5, 0.5)
+
+		GetOrAddComponent(slot5, "EventTriggerListener"):RemovePointClickFunc()
 		slot5:GetComponent(typeof(SpineAnimUI)):SetActionCallBack(nil)
 		PoolMgr.GetInstance():ReturnSpineChar(slot5.name, slot5)
 	end

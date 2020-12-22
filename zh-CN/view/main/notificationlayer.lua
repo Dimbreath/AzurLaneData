@@ -100,6 +100,7 @@ function slot0.init(slot0)
 	slot0.prefabPublic:SetActive(false)
 
 	slot0.bubbleCards = {}
+	slot0.worldBossCards = {}
 	slot0.poolBubble = {
 		self = {},
 		public = {},
@@ -422,6 +423,14 @@ function slot0.removeAllBubble(slot0)
 	end
 
 	slot0.bubbleCards = {}
+
+	for slot4, slot5 in pairs(slot0.worldBossCards) do
+		if not IsNil(slot5.tf) then
+			Destroy(slot5.tf)
+		end
+	end
+
+	slot0.worldBossCards = {}
 end
 
 function slot0.updateAll(slot0)
@@ -500,16 +509,19 @@ function slot0.appendPublic(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot1.id == 4 then
-		slot3 = ChatBubbleWorldBoss.New(cloneTplTo(slot0.prefabWorldBoss, slot0.content))
-	elseif #slot0.poolBubble.public > 0 then
-		setActive(slot4[1].tf, true)
-		table.remove(slot4, 1)
+		table.insert(slot0.worldBossCards, ChatBubbleWorldBoss.New(cloneTplTo(slot0.prefabWorldBoss, slot0.content)))
 	else
-		slot3 = ChatBubblePublic.New(cloneTplTo(slot0.prefabPublic, slot0.content))
+		if #slot0.poolBubble.public > 0 then
+			setActive(slot4[1].tf, true)
+			table.remove(slot4, 1)
+		else
+			slot3 = ChatBubblePublic.New(cloneTplTo(slot0.prefabPublic, slot0.content))
+		end
+
+		table.insert(slot0.bubbleCards, slot3)
 	end
 
 	slot3.tf:SetSiblingIndex(slot2)
-	table.insert(slot0.bubbleCards, slot3)
 	slot3:update(slot1)
 end
 
@@ -586,6 +598,12 @@ function slot0.willExit(slot0)
 	for slot4, slot5 in ipairs(slot0.bubbleCards or {}) do
 		slot5:dispose()
 	end
+
+	for slot4, slot5 in ipairs(slot0.worldBossCards or {}) do
+		slot5:dispose()
+	end
+
+	slot0.worldBossCards = nil
 
 	for slot4, slot5 in pairs(slot0.poolBubble) do
 		for slot9, slot10 in ipairs(slot5) do

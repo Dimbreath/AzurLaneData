@@ -848,7 +848,10 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	slot14(slot11:GetTemplate().buff_list)
 	slot14(slot1.buffList or {})
-	slot14(slot0._battleInitData.AffixBuffList or {})
+
+	if slot1.affix then
+		slot14(slot0._battleInitData.AffixBuffList or {})
+	end
 
 	if slot1.summonWaveIndex then
 		slot0._waveSummonList[slot18] = slot0._waveSummonList[slot18] or {}

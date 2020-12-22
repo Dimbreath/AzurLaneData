@@ -461,7 +461,7 @@ pg.world_chapter_colormask = {
 			-42
 		},
 		map_transfer = {
-			21,
+			23,
 			32,
 			85
 		}
@@ -609,8 +609,7 @@ pg.world_chapter_colormask = {
 			43,
 			81,
 			83,
-			105,
-			103
+			105
 		}
 	},
 	[42] = {
@@ -897,7 +896,6 @@ pg.world_chapter_colormask = {
 		map_transfer = {
 			52,
 			54,
-			61,
 			64,
 			65,
 			66
@@ -1437,7 +1435,6 @@ pg.world_chapter_colormask = {
 			-36
 		},
 		map_transfer = {
-			41,
 			101,
 			104
 		}
@@ -1808,7 +1805,6 @@ pg.world_chapter_colormask = {
 		},
 		map_transfer = {
 			93,
-			94,
 			133,
 			134,
 			141
@@ -1987,7 +1983,6 @@ pg.world_chapter_colormask = {
 			-28
 		},
 		map_transfer = {
-			132,
 			141,
 			143,
 			144

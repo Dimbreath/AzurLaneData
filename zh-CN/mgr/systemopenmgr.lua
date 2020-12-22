@@ -50,6 +50,10 @@ function slot4(slot0)
 end
 
 function slot0.isOpenSystem(slot0, slot1, slot2)
+	if slot2 == "EquipmentTransformTreeMediator" and LOCK_EQUIPMENT_TRANSFORM then
+		return false
+	end
+
 	if slot2 == "CommandRoomMediator" then
 		return uv0(slot1)
 	else

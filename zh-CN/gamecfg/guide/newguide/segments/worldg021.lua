@@ -96,6 +96,7 @@ return {
 			}
 		},
 		{
+			delay = 2,
 			alpha = 0,
 			code = {
 				"selectMap"

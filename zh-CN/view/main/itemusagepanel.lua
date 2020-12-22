@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._parent = slot2
 	slot0.backBtn = findTF(slot0._go, "window/top/btnBack")
 	slot0.itemTF = findTF(slot0._go, "window/panel/item")
-	slot0.itemIntro = findTF(slot0.itemTF, "display_panel/desc")
+	slot0.itemIntro = findTF(slot0.itemTF, "display_panel/desc/Text")
 	slot0.itemName = findTF(slot0.itemTF, "display_panel/name_container/name")
 	slot0.resetBtn = findTF(slot0.itemTF, "reset_btn")
 	slot0.useBtn = findTF(slot0._go, "window/panel/actions/use_one_button")

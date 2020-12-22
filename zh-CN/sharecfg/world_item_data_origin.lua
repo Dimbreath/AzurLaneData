@@ -7,7 +7,7 @@ pg.world_item_data_origin = {
 		origin_text = "剧情道具"
 	},
 	{
-		origin_text = "战斗掉落"
+		origin_text = "大型作战战斗掉落"
 	},
 	{
 		origin_text = "资源点拾取"
@@ -40,7 +40,7 @@ pg.world_item_data_origin = {
 		origin_text = "重置商店兑换"
 	},
 	[201] = {
-		origin_text = "日常任务奖励"
+		origin_text = "港口日常任务奖励"
 	},
 	[202] = {
 		origin_text = "指挥喵搜寻获取"

@@ -544,7 +544,7 @@ pg.gameset = {
 	},
 	world_mapbuff_tips = {
 		description = "",
-		key_value = 8000
+		key_value = 7000
 	},
 	world_difficult_value = {
 		key_value = 0,
@@ -671,7 +671,7 @@ pg.gameset = {
 	},
 	world_target_obtain = {
 		description = "",
-		key_value = 5
+		key_value = 3
 	},
 	attr_world_damage_fix = {
 		description = "",
@@ -956,7 +956,7 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			500,
-			800
+			1000
 		}
 	},
 	world_instruction_submarine = {
@@ -985,7 +985,7 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			50,
-			21600,
+			28800,
 			310
 		}
 	},
@@ -1086,6 +1086,11 @@ pg.gameset = {
 				0
 			},
 			{
+				2,
+				18126,
+				0
+			},
+			{
 				12,
 				2103,
 				0
@@ -1113,6 +1118,11 @@ pg.gameset = {
 			{
 				12,
 				2005,
+				0
+			},
+			{
+				2,
+				18125,
 				0
 			},
 			{
