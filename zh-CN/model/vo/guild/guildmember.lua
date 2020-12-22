@@ -30,6 +30,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.externalAssaultFleet = GuildAssaultFleet.New({
 		user_id = slot0.id
 	})
+
+	if slot0.icon == 1 then
+		slot0.icon = 101171
+	end
 end
 
 function slot0.GetLiveness(slot0)

@@ -1508,13 +1508,19 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 	end
 
 	if slot3:CheckAttachmentTransport() then
-		pg.NewStoryMgr.GetInstance():Play(pg.gameset.world_transfer_eventstory.description[1], nil, true)
+		slot5 = pg.gameset.world_transfer_eventstory.description[1]
 
-		return
+		table.insert({}, function (slot0)
+			pg.NewStoryMgr.GetInstance():Play(uv0, function (slot0, slot1)
+				if slot1 == 1 then
+					uv0()
+				end
+			end, true)
+		end)
 	end
 
 	if nowWorld:IsSubmarineSupporting() and slot3:GetSubmarineFleet():GetAmmo() > 0 then
-		table.insert({}, function (slot0)
+		table.insert(slot4, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("world_instruction_submarine_6"),
 				onYes = slot0
@@ -1548,8 +1554,6 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 			uv0:Play(uv1, function (slot0, slot1)
 				if slot1 == 1 then
 					uv0()
-				else
-					print("carry item limit switch map")
 				end
 			end, true)
 		end)

@@ -22,6 +22,10 @@ return {
 				{
 					content = "确认",
 					flag = 0
+				},
+				{
+					content = "<color=#ff5c5c>离开(将会失去压制奖励)</color>",
+					flag = 1
 				}
 			}
 		}

@@ -36,8 +36,8 @@ function slot3.SetRecycle(slot0, slot1)
 end
 
 function slot3.SetBubbleTemplate(slot0, slot1, slot2)
-	slot0._bubbleInitial = slot1
-	slot0._bubbleInterval = slot2
+	slot0._bubbleInitial = slot1 or 0
+	slot0._bubbleInterval = slot2 or 0
 	slot0._bubbleTimpStamp = nil
 end
 

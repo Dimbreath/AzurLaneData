@@ -28,7 +28,11 @@ function slot0.GetShipAttrAddition(slot0, slot1, slot2)
 end
 
 function slot0.GetTargetLivness(slot0)
-	return slot0:getConfig("need_guild_active")
+	if slot0:GetNextLevelId() == 0 then
+		return 0
+	else
+		return pg.guild_technology_template[slot1].need_guild_active
+	end
 end
 
 function slot0.ReachTargetLiveness(slot0, slot1)

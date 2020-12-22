@@ -310,7 +310,8 @@ function slot0.OnStart(slot0)
 			parent = rtf(uv0._tf),
 			canvasOrder = GetComponent(uv0._go, typeof(Canvas)).sortingOrder + 1,
 			content = i18n("story_skip_confirm"),
-			onYes = uv1
+			onYes = uv1,
+			weight = LayerWeightConst.TOP_LAYER
 		})
 	end, SFX_PANEL)
 end

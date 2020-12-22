@@ -234,7 +234,7 @@ function slot0.UpdateAreaLock(slot0)
 		setActive(slot0.tfAreaScene:Find("lock_layer/" .. slot4), not slot5)
 		setActive(slot0.tfMapScene:Find("mask_layer/" .. slot4), slot5)
 
-		if not slot5 and slot0.areaLockPressingAward[slot4] then
+		if slot5 and slot0.areaLockPressingAward[slot4] then
 			for slot9, slot10 in ipairs(slot0.areaLockPressingAward[slot4]) do
 				slot0.entranceTplDic[slot10]:UpdatePressingAward()
 			end

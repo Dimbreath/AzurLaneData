@@ -130998,10 +130998,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -131033,10 +131033,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -131068,10 +131068,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -131103,10 +131103,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -132270,7 +132270,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -132532,10 +132532,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				9,
-				16
+				5,
+				5,
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -132567,10 +132567,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				9,
-				16
+				5,
+				5,
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -132602,10 +132602,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				10,
-				17
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -132637,10 +132637,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				10,
-				17
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -133804,7 +133804,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -134066,10 +134066,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				9,
-				16
+				5,
+				5,
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -134101,10 +134101,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				9,
-				16
+				5,
+				5,
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -134136,10 +134136,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				10,
-				17
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -134171,10 +134171,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				10,
-				17
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -135338,7 +135338,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -136837,7 +136837,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -137099,10 +137099,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -137134,10 +137134,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138066,7 +138066,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -138328,10 +138328,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				3,
+				3,
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -138363,10 +138363,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				3,
+				3,
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139295,7 +139295,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -139557,10 +139557,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -139592,10 +139592,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140524,7 +140524,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -140786,10 +140786,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				3,
+				3,
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -140821,10 +140821,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				3,
+				3,
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141753,7 +141753,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -142015,10 +142015,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -142050,10 +142050,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143135,7 +143135,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -143397,10 +143397,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143432,10 +143432,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144364,7 +144364,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -144626,10 +144626,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -144661,10 +144661,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145746,7 +145746,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -146008,10 +146008,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146043,10 +146043,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147128,7 +147128,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -147390,10 +147390,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147425,10 +147425,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148510,7 +148510,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -149892,7 +149892,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -150154,10 +150154,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				19,
-				6
+				4,
+				4,
+				18,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150189,10 +150189,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				19,
-				6
+				4,
+				4,
+				18,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -151391,7 +151391,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -151653,10 +151653,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -151688,10 +151688,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -152620,7 +152620,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -152882,10 +152882,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				3,
+				3,
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -152917,10 +152917,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				3,
+				3,
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -153849,7 +153849,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -155348,7 +155348,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -156847,7 +156847,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -158346,7 +158346,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -159845,7 +159845,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -161344,7 +161344,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -161606,10 +161606,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161641,10 +161641,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162726,7 +162726,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -164225,7 +164225,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -165724,7 +165724,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -165986,10 +165986,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -166021,10 +166021,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -167106,7 +167106,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -167368,10 +167368,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -167403,10 +167403,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168488,7 +168488,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -168750,10 +168750,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				9,
-				16
+				5,
+				5,
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -168785,10 +168785,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				9,
-				16
+				5,
+				5,
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -168820,10 +168820,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				10,
-				17
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -168855,10 +168855,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				10,
-				17
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -170022,7 +170022,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -170284,10 +170284,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				16,
-				9
+				5,
+				5,
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -170319,10 +170319,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				16,
-				9
+				5,
+				5,
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -170354,10 +170354,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				17,
-				10
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -170389,10 +170389,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				17,
-				10
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -171556,7 +171556,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -171818,10 +171818,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				7,
-				22
+				5,
+				5,
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -171853,10 +171853,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				7,
-				22
+				5,
+				5,
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -171888,10 +171888,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				7,
-				22
+				4,
+				4,
+				6,
+				21
 			}
 		},
 		slg_bufflist = {},
@@ -171923,10 +171923,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				7,
-				22
+				4,
+				4,
+				6,
+				21
 			}
 		},
 		slg_bufflist = {},
@@ -173090,7 +173090,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -173352,10 +173352,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				3,
+				3,
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -173387,10 +173387,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				3,
+				3,
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -174319,7 +174319,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -175818,7 +175818,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -176080,10 +176080,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -176115,10 +176115,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -177047,7 +177047,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -177309,10 +177309,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -177344,10 +177344,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178276,7 +178276,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -179775,7 +179775,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -181274,7 +181274,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -181536,10 +181536,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -181571,10 +181571,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -182503,7 +182503,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -182765,10 +182765,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -182800,10 +182800,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -183732,7 +183732,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -183994,10 +183994,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -184029,10 +184029,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -185114,7 +185114,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -185376,10 +185376,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -185411,10 +185411,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186496,7 +186496,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -186758,10 +186758,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				22,
-				7
+				5,
+				5,
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -186793,10 +186793,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				22,
-				7
+				5,
+				5,
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -186828,10 +186828,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				22,
-				7
+				4,
+				4,
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -186863,10 +186863,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				22,
-				7
+				4,
+				4,
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -188030,7 +188030,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -188292,10 +188292,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				16,
-				9
+				5,
+				5,
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -188327,10 +188327,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				16,
-				9
+				5,
+				5,
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -188362,10 +188362,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				17,
-				10
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188397,10 +188397,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				17,
-				10
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -189564,7 +189564,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -189826,10 +189826,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				6,
-				19
+				4,
+				4,
+				5,
+				18
 			}
 		},
 		slg_bufflist = {},
@@ -189861,10 +189861,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				6,
-				19
+				4,
+				4,
+				5,
+				18
 			}
 		},
 		slg_bufflist = {},
@@ -191063,7 +191063,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -192562,7 +192562,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -192824,10 +192824,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -192859,10 +192859,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -193944,7 +193944,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -194206,10 +194206,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				9,
-				16
+				5,
+				5,
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -194241,10 +194241,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				9,
-				16
+				5,
+				5,
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -194276,10 +194276,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				10,
-				17
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -194311,10 +194311,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				10,
-				17
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -195478,7 +195478,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -195740,10 +195740,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195775,10 +195775,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196860,7 +196860,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -197122,10 +197122,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				3,
+				3,
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -197157,10 +197157,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				3,
+				3,
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -198089,7 +198089,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -198351,10 +198351,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -198386,10 +198386,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -199471,7 +199471,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -199733,10 +199733,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				13
+				3,
+				3,
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -199768,10 +199768,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				13
+				3,
+				3,
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -200853,7 +200853,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -201115,10 +201115,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				16,
-				9
+				5,
+				5,
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -201150,10 +201150,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				16,
-				9
+				5,
+				5,
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -201185,10 +201185,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				17,
-				10
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -201220,10 +201220,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				17,
-				10
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -202387,7 +202387,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -202649,10 +202649,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -202684,10 +202684,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -203616,7 +203616,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -203878,10 +203878,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -203913,10 +203913,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -204998,7 +204998,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -205260,10 +205260,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				7,
-				22
+				5,
+				5,
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -205295,10 +205295,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				7,
-				22
+				5,
+				5,
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -205330,10 +205330,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				7,
-				22
+				4,
+				4,
+				6,
+				21
 			}
 		},
 		slg_bufflist = {},
@@ -205365,10 +205365,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				7,
-				22
+				4,
+				4,
+				6,
+				21
 			}
 		},
 		slg_bufflist = {},
@@ -206532,7 +206532,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -206794,10 +206794,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206829,10 +206829,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				3,
+				3,
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207914,7 +207914,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -208176,10 +208176,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -208211,10 +208211,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -209143,7 +209143,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -209405,10 +209405,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				3,
+				3,
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -209440,10 +209440,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				3,
+				3,
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -210372,7 +210372,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -210634,10 +210634,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -210669,10 +210669,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -211754,7 +211754,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -212016,10 +212016,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -212051,10 +212051,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				3,
+				3,
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -212983,7 +212983,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -213245,10 +213245,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -213280,10 +213280,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				3,
+				3,
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214365,7 +214365,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -215747,7 +215747,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -217246,7 +217246,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -218628,7 +218628,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -218890,10 +218890,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				22,
-				7
+				5,
+				5,
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218925,10 +218925,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				22,
-				7
+				5,
+				5,
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218960,10 +218960,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				22,
-				7
+				4,
+				4,
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -218995,10 +218995,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				22,
-				7
+				4,
+				4,
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -220162,7 +220162,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -220424,10 +220424,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -220459,10 +220459,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -220494,10 +220494,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -220529,10 +220529,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -221696,7 +221696,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -221958,10 +221958,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -221993,10 +221993,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -222028,10 +222028,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -222063,10 +222063,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -223230,7 +223230,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -223492,10 +223492,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -223527,10 +223527,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -223562,10 +223562,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -223597,10 +223597,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -224764,7 +224764,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -225096,10 +225096,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				17,
-				17
+				4,
+				4,
+				16,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -225131,10 +225131,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				17,
-				17
+				4,
+				4,
+				16,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -226017,7 +226017,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -226279,10 +226279,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -226314,10 +226314,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -226349,10 +226349,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -226384,10 +226384,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -227551,7 +227551,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -227813,10 +227813,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -227848,10 +227848,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -227883,10 +227883,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -227918,10 +227918,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -229085,7 +229085,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -229347,10 +229347,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -229382,10 +229382,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -229417,10 +229417,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -229452,10 +229452,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -230619,7 +230619,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -230881,10 +230881,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -230916,10 +230916,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -230951,10 +230951,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -230986,10 +230986,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -232153,7 +232153,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,
@@ -232415,10 +232415,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -232450,10 +232450,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				4,
-				4,
-				12,
-				12
+				5,
+				5,
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -232485,10 +232485,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -232520,10 +232520,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				3,
-				3,
-				13,
-				13
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -233687,7 +233687,7 @@ pg.world_event_data = {
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
 		infection_value = 0,
-		compass_index = 0,
+		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
 		is_guide = 0,

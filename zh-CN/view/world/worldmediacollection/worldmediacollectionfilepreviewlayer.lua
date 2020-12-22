@@ -32,11 +32,6 @@ function slot0.didEnter(slot0)
 
 	slot0:SetDocument(slot1)
 	setActive(slot0.animBar, true)
-	onButton(slot0, slot0.animBar:Find("Button"), function ()
-		setActive(uv0.animBar, false)
-		setActive(uv0.document, true)
-		setActive(uv0.tipTF, true)
-	end, SFX_PANEL)
 
 	slot3 = slot0.animBar:Find("Anim/Frame/Mask/Name")
 	slot4 = slot3:GetComponent(typeof(Text))
@@ -51,30 +46,41 @@ function slot0.didEnter(slot0)
 	removeOnButton(slot0._tf)
 
 	if slot0.animBar:GetComponent(typeof(DftAniEvent)) then
-		slot7:SetEndEvent(function (slot0)
-			onButton(uv0, uv0._tf, function ()
-				uv0:closeView()
-
-				if uv0.contextData.callback then
-					slot0()
-				end
-			end)
-
-			if uv2 < uv1.preferredWidth then
-				uv3.pivot = Vector2(0.5, 0.5)
-				uv3.anchorMin = Vector2(0.5, 0.5)
-				uv3.anchorMax = Vector2(0.5, 0.5)
-				uv4.enabled = true
+		slot9:SetTriggerEvent(function ()
+			if uv1 < uv0.preferredWidth then
+				uv2.pivot = Vector2(0.5, 0.5)
+				uv2.anchorMin = Vector2(0.5, 0.5)
+				uv2.anchorMax = Vector2(0.5, 0.5)
+				uv3.enabled = true
 			end
 		end)
+		slot9:SetEndEvent(function ()
+			onButton(uv0, uv0._tf, function ()
+				uv0:closeView()
+			end)
+		end)
+	else
+		slot8()
+		slot7()
 	end
 
+	onButton(slot0, slot0.animBar:Find("Button"), function ()
+		setActive(uv0.animBar, false)
+		setActive(uv0.document, true)
+		setActive(uv0.tipTF, true)
+		uv1()
+	end, SFX_PANEL)
 	setImageSprite(slot0.animBar:Find("Anim/Icon"), LoadSprite("ui/WorldMediaCollectionFilePreviewUI_atlas", WorldCollectionProxy.GetCollectionFileGroupTemplate(WorldCollectionProxy.GetCollectionGroup(slot1.id)).type))
 end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.loader:Clear()
+
+	if slot0.contextData.callback then
+		slot1()
+	end
+
 	uv0.super.willExit(slot0)
 end
 

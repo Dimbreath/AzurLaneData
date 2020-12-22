@@ -630,7 +630,11 @@ end
 
 function slot10.InitSpeed(slot0, slot1)
 	if slot0._yAngle == nil then
-		slot0._yAngle = (slot1 or slot0._baseAngle) + slot0._barrageAngle
+		if slot0._targetPos ~= nil then
+			slot0._yAngle = slot1 + slot0._barrageAngle
+		else
+			slot0._yAngle = slot0._baseAngle + slot0._barrageAngle
+		end
 	end
 
 	slot0:calcSpeed()

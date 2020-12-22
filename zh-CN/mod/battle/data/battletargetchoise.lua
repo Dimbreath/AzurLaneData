@@ -327,7 +327,7 @@ function slot2.TargetFoeUncloak(slot0, slot1, slot2)
 
 	if slot4 then
 		for slot10, slot11 in pairs(slot4) do
-			if slot11:IsAlive() and slot11:GetPosition().x < slot6 and not uv1.IsCloak(slot11) then
+			if slot11:IsAlive() and slot11:GetPosition().x < slot6 and not uv1.IsCloak(slot11) and slot11:GetCurrentOxyState() ~= ys.Battle.BattleConst.OXY_STATE.DIVE then
 				slot3[#slot3 + 1] = slot11
 			end
 		end
@@ -624,4 +624,8 @@ function slot2.TargetPlayerAidUnit(slot0, slot1)
 	end
 
 	return slot3
+end
+
+function slot2.TargetLinkUnit(slot0, slot1, slot2)
+	slot3 = slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()
 end
