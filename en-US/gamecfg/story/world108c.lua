@@ -12,7 +12,7 @@ return {
 			bgm = "bsm-1",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "指挥官~I flew right over ‘em, aaand... nothing!",
+			say = "I flew right over ‘em, aaand... nothing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
