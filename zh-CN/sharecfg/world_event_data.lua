@@ -6130,10 +6130,10 @@ pg.world_event_data = {
 		is_guide = 0,
 		id = 5401,
 		object_icon = {
-			"cell_yellow",
+			"cell_number_2",
 			1,
 			100,
-			0
+			60
 		},
 		event_op = {},
 		effect = {
@@ -6188,10 +6188,10 @@ pg.world_event_data = {
 		is_guide = 0,
 		id = 5402,
 		object_icon = {
-			"cell_yellow",
+			"cell_number_2",
 			1,
 			100,
-			0
+			60
 		},
 		event_op = {},
 		effect = {
@@ -6240,10 +6240,10 @@ pg.world_event_data = {
 		is_guide = 0,
 		id = 5403,
 		object_icon = {
-			"cell_yellow",
+			"cell_number_2",
 			1,
 			100,
-			0
+			60
 		},
 		event_op = {},
 		effect = {
@@ -131410,10 +131410,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -131486,10 +131483,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -131562,10 +131556,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -131705,7 +131696,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -132944,10 +132935,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -133020,10 +133008,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -133096,10 +133081,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -133239,7 +133221,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -134478,10 +134460,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -134554,10 +134533,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -134630,10 +134606,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -134773,7 +134746,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -135977,10 +135950,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -136053,10 +136023,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -136129,10 +136096,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -136272,7 +136236,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -137406,10 +137370,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -137482,10 +137443,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -137558,10 +137516,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -138635,10 +138590,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -138711,10 +138663,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -138787,10 +138736,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -139864,10 +139810,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -139940,10 +139883,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -140016,10 +139956,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -141093,10 +141030,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -141169,10 +141103,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -141245,10 +141176,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -142357,10 +142285,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -142433,10 +142358,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -142509,10 +142431,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -142652,7 +142571,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -143704,10 +143623,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -143780,10 +143696,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -143856,10 +143769,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -144968,10 +144878,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -145044,10 +144951,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -145120,10 +145024,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -145263,7 +145164,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -146350,10 +146251,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -146426,10 +146324,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -146502,10 +146397,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -146645,7 +146537,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -147732,10 +147624,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -147808,10 +147697,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -147884,10 +147770,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -148027,7 +147910,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -149114,10 +148997,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -149190,10 +149070,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -149266,10 +149143,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -149409,7 +149283,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -150531,10 +150405,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -150607,10 +150478,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -150683,10 +150551,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -150826,7 +150691,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -151960,10 +151825,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -152036,10 +151898,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -152112,10 +151971,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -153189,10 +153045,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -153265,10 +153118,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -153341,10 +153191,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -154488,10 +154335,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -154564,10 +154408,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -154640,10 +154481,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -154783,7 +154621,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -155987,10 +155825,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -156063,10 +155898,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -156139,10 +155971,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -156282,7 +156111,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -157486,10 +157315,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -157562,10 +157388,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -157638,10 +157461,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -157781,7 +157601,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -158985,10 +158805,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -159061,10 +158878,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -159137,10 +158951,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -159280,7 +159091,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -160484,10 +160295,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -160560,10 +160368,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -160636,10 +160441,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -160779,7 +160581,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -161948,10 +161750,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -162024,10 +161823,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -162100,10 +161896,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -162243,7 +162036,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -163365,10 +163158,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -163441,10 +163231,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -163517,10 +163304,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -163660,7 +163444,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -164864,10 +164648,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -164940,10 +164721,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -165016,10 +164794,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -165159,7 +164934,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -166328,10 +166103,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -166404,10 +166176,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -166480,10 +166249,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -166623,7 +166389,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -167710,10 +167476,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -167786,10 +167549,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -167862,10 +167622,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -168005,7 +167762,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -169162,10 +168919,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -169238,10 +168992,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -169314,10 +169065,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -169457,7 +169205,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -170696,10 +170444,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -170772,10 +170517,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -170848,10 +170590,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -170991,7 +170730,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -172230,10 +171969,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -172306,10 +172042,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -172382,10 +172115,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -172525,7 +172255,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -173659,10 +173389,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -173735,10 +173462,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -173811,10 +173535,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -174958,10 +174679,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -175034,10 +174752,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -175110,10 +174825,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -175253,7 +174965,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -176387,10 +176099,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -176463,10 +176172,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -176539,10 +176245,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -177616,10 +177319,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -177692,10 +177392,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -177768,10 +177465,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -178915,10 +178609,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -178991,10 +178682,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -179067,10 +178755,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -179210,7 +178895,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -180414,10 +180099,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -180490,10 +180172,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -180566,10 +180245,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -180709,7 +180385,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -181843,10 +181519,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -181919,10 +181592,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -181995,10 +181665,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -183072,10 +182739,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -183148,10 +182812,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -183224,10 +182885,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -184336,10 +183994,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -184412,10 +184067,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -184488,10 +184140,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -184631,7 +184280,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -185718,10 +185367,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -185794,10 +185440,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -185870,10 +185513,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -186013,7 +185653,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -187170,10 +186810,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -187246,10 +186883,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -187322,10 +186956,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -187465,7 +187096,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -188704,10 +188335,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -188780,10 +188408,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -188856,10 +188481,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -188999,7 +188621,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -190203,10 +189825,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -190279,10 +189898,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -190355,10 +189971,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -190498,7 +190111,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -191702,10 +191315,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -191778,10 +191388,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -191854,10 +191461,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -191997,7 +191601,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -193166,10 +192770,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -193242,10 +192843,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -193318,10 +192916,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -193461,7 +193056,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -194618,10 +194213,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -194694,10 +194286,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -194770,10 +194359,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -194913,7 +194499,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -196082,10 +195668,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -196158,10 +195741,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -196234,10 +195814,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -196377,7 +195954,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -197429,10 +197006,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -197505,10 +197079,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -197581,10 +197152,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -198693,10 +198261,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -198769,10 +198334,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -198845,10 +198407,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -198988,7 +198547,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -200075,10 +199634,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -200151,10 +199707,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -200227,10 +199780,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -200370,7 +199920,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -201527,10 +201077,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -201603,10 +201150,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -201679,10 +201223,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -201822,7 +201363,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -202956,10 +202497,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -203032,10 +202570,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -203108,10 +202643,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -204220,10 +203752,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -204296,10 +203825,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -204372,10 +203898,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -204515,7 +204038,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -205672,10 +205195,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -205748,10 +205268,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -205824,10 +205341,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -205967,7 +205481,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -207136,10 +206650,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -207212,10 +206723,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -207288,10 +206796,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -207431,7 +206936,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -208483,10 +207988,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -208559,10 +208061,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -208635,10 +208134,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -209712,10 +209208,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -209788,10 +209281,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -209864,10 +209354,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -210976,10 +210463,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -211052,10 +210536,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -211128,10 +210609,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -211271,7 +210749,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -212323,10 +211801,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -212399,10 +211874,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -212475,10 +211947,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -213587,10 +213056,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -213663,10 +213129,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -213739,10 +213202,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -213882,7 +213342,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -214969,10 +214429,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -215045,10 +214502,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -215121,10 +214575,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -215264,7 +214715,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -216386,10 +215837,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -216462,10 +215910,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -216538,10 +215983,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -216681,7 +216123,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -217850,10 +217292,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -217926,10 +217365,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -218002,10 +217438,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -218145,7 +217578,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -219302,10 +218735,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -219378,10 +218808,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -219454,10 +218881,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -219597,7 +219021,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -220836,10 +220260,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -220912,10 +220333,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -220988,10 +220406,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -221131,7 +220546,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -222370,10 +221785,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -222446,10 +221858,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -222522,10 +221931,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -222665,7 +222071,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -223904,10 +223310,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -223980,10 +223383,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -224056,10 +223456,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -224199,7 +223596,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -225403,10 +224800,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -225479,10 +224873,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -225555,10 +224946,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -225698,7 +225086,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -226691,10 +226079,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -226767,10 +226152,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -226843,10 +226225,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -226986,7 +226365,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -228225,10 +227604,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -228301,10 +227677,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -228377,10 +227750,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -228520,7 +227890,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -229759,10 +229129,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -229835,10 +229202,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -229911,10 +229275,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -230054,7 +229415,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -231293,10 +230654,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -231369,10 +230727,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -231445,10 +230800,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -231588,7 +230940,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -232827,10 +232179,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -232903,10 +232252,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -232979,10 +232325,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -233122,7 +232465,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,

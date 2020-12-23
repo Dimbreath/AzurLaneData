@@ -198,7 +198,10 @@ function slot0.InitBattleSea(slot0)
 
 	if slot0.mission:GetMyFlagShip() then
 		for slot11 = 1, 4 do
-			for slot17, slot18 in ipairs(pg.ship_data_breakout[tonumber(math.floor(getProxy(BayProxy):getShipById(slot3).configId / 10) .. slot11)] and slot12.weapon_ids or {}) do
+			for slot17, slot18 in ipairs(pg.ship_data_breakout[tonumber(math.floor((getProxy(BayProxy):getShipById(slot3) or Ship.New({
+				id = 9999,
+				configId = 101171
+			})).configId / 10) .. slot11)] and slot12.weapon_ids or {}) do
 				if not table.contains(slot5, slot18) then
 					table.insert(slot5, slot18)
 				end

@@ -11832,7 +11832,10 @@ BUFF加成也会增加
 		tip = "确认兑换该商品"
 	},
 	guild_shop_label_1 = {
-		tip = "请选择需要兑换的商品："
+		tip = "请选择想要兑换的商品："
+	},
+	guild_shop_label_5 = {
+		tip = "请选择需要兑换的舰娘："
 	},
 	guild_shop_label_2 = {
 		tip = "可兑换上限"
@@ -11842,6 +11845,9 @@ BUFF加成也会增加
 	},
 	guild_shop_label_4 = {
 		tip = "消耗"
+	},
+	guild_shop_label_5 = {
+		tip = "请选择想要兑换的角色："
 	},
 	guild_shop_must_select_goods = {
 		tip = "请选择需要兑换的商品："

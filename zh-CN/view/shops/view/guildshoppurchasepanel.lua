@@ -9,8 +9,8 @@ function slot0.OnLoaded(slot0)
 	slot0.confirmBtn = slot0:findTF("confirm")
 	slot0.exchagneCnt = slot0:findTF("got/top/exchange/Text"):GetComponent(typeof(Text))
 	slot0.consumeCnt = slot0:findTF("confirm/consume/Text"):GetComponent(typeof(Text))
+	slot0.title = slot0:findTF("got/top/title")
 
-	setText(slot0:findTF("got/top/title"), i18n("guild_shop_label_1"))
 	setText(slot0:findTF("got/top/exchange/label"), i18n("guild_shop_label_2"))
 	setText(slot0:findTF("confirm/Text"), i18n("guild_shop_label_3"))
 	setText(slot0:findTF("confirm/consume/label"), i18n("guild_shop_label_4"))
@@ -42,6 +42,12 @@ function slot0.Show(slot0, slot1)
 
 	slot0:InitList()
 	slot0:UpdateValue()
+
+	if slot1:getConfig("type") == 4 then
+		setText(slot0.title, i18n("guild_shop_label_5"))
+	else
+		setText(slot0.title, i18n("guild_shop_label_1"))
+	end
 end
 
 function slot0.UpdateValue(slot0)

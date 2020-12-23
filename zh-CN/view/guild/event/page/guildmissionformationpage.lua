@@ -76,7 +76,6 @@ function slot0.OnInit(slot0)
 	function slot1()
 		if uv0.contextData.index > 1 then
 			triggerToggle(uv0.pageFooter[uv0.contextData.index - 1], true)
-			uv0:UpdateSwitchBtns()
 		end
 	end
 
@@ -84,10 +83,8 @@ function slot0.OnInit(slot0)
 		if uv0.contextData.index < uv0.mission:GetMaxFleet() then
 			if uv0.mission:GetFleetCnt() < uv0.contextData.index + 1 then
 				triggerToggle(uv0.pageFooterAdd, true)
-				uv0:UpdateSwitchBtns()
 			else
 				triggerToggle(uv0.pageFooter[slot0], true)
-				uv0:UpdateSwitchBtns()
 			end
 		end
 	end
@@ -160,7 +157,6 @@ function slot0.OnShow(slot0)
 	slot0:Flush(slot0.extraData.mission)
 	slot0:UpdatePageFooter()
 	slot0:AddNextFormationTimer()
-	slot0:UpdateSwitchBtns()
 end
 
 function slot0.UpdatePageFooter(slot0)
@@ -173,6 +169,7 @@ function slot0.UpdatePageFooter(slot0)
 		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
 				uv0:UpdateFleet(uv1)
+				uv0:UpdateSwitchBtns()
 			end
 		end, SFX_PANEL)
 	end
@@ -193,7 +190,7 @@ end
 
 function slot0.UpdateSwitchBtns(slot0)
 	setActive(slot0.prevBtn, slot0.contextData.index ~= 1)
-	setActive(slot0.nextBtn, slot3 < slot0.mission:GetCanFormationIndex())
+	setActive(slot0.nextBtn, slot3 < slot0.mission:GetMaxFleet())
 end
 
 function slot0.AddNextFormationTimer(slot0)

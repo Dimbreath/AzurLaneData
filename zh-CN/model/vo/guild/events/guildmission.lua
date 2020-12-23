@@ -171,10 +171,20 @@ function slot0.CanFormation(slot0)
 end
 
 function slot0.GetNextFormationTime(slot0)
-	if slot0.formationTime < GetZeroTime() - 86400 then
-		return slot1
+	slot2 = GetZeroTime()
+
+	if _.detect(_.map(pg.guildset.operation_member_dispatch_reset.key_args, function (slot0)
+		return uv0 + slot0 * 3600
+	end), function (slot0)
+		return uv0 < slot0
+	end) then
+		if slot0.formationTime < GetZeroTime() - 86400 - 86400 + slot4[4] * 3600 then
+			return pg.TimeMgr.GetInstance():GetServerTime()
+		else
+			return slot6
+		end
 	else
-		return GuildConst.FORMATION_CD_TIME * math.ceil((slot0.formationTime - slot1) / GuildConst.FORMATION_CD_TIME) + slot1
+		return slot2 + slot4[1] * 3600
 	end
 end
 
@@ -389,21 +399,23 @@ function slot0.GetSquadronRatio(slot0)
 end
 
 function slot0.GetOtherShips(slot0)
-	slot1 = getProxy(GuildProxy):getRawData()
+	slot2 = {}
 
-	return _.map(slot0.ships, function (slot0)
-		slot1 = uv0:getMemberById(slot0.userId)
+	for slot6, slot7 in pairs(slot0.ships) do
+		if getProxy(GuildProxy):getRawData():getMemberById(slot7.userId) then
+			if slot7.skin == 0 then
+				slot9 = pg.ship_data_statistics[slot7.configId].skin_id
+			end
 
-		if slot0.skin == 0 then
-			slot2 = pg.ship_data_statistics[slot0.configId].skin_id
+			table.insert(slot2, {
+				id = slot7.configId,
+				skin = slot9,
+				name = slot8 and slot8.name or ""
+			})
 		end
+	end
 
-		return {
-			id = slot0.configId,
-			skin = slot2,
-			name = slot1 and slot1.name or ""
-		}
-	end)
+	return slot2
 end
 
 function slot0.CompareRecommendShip(slot0, slot1, slot2)
