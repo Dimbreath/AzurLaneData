@@ -26,7 +26,7 @@ return {
 			},
 			options = {
 				{
-					content = "确定",
+					content = "わかった。",
 					flag = 0
 				}
 			}
