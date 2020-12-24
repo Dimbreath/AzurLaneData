@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "使用舰队指令模块-舰队部署，可以部署潜艇编队进入NA海域。",
+			say = "Use the Fleet Deployment command to set up a sub fleet that you will be able to call in later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,7 +17,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Confirm",
 					flag = 0
 				}
 			}

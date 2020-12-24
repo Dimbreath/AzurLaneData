@@ -381,8 +381,9 @@ return {
 		},
 		{
 			mode = 1,
-			stopbgm = true,
+			bgmdelay = 1,
 			blackBg = true,
+			bgm = "Beverly_short_eng",
 			effects = {
 				{
 					active = false,

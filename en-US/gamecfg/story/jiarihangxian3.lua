@@ -15,7 +15,7 @@ return {
 			actor = 900300,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_106",
-			say = "啊，霞回来了！",
+			say = "Oh, Kasumi, were you out until now? Welcome back!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "我回来了~",
+			say = "Thanks, Marie. I'm back, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 900300,
 			actorName = "？？？",
-			say = "嗯？人好像变多了…？",
+			say = "Hmm? It looks like more people have joined our entourage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "啊哈哈，我先介绍一下好了，这几位是刚才我出去探索时遇到的，Z23、标枪、{namecode:6}，以及拉菲。",
+			say = "Let me introduce these guys, the group of people I just made contact with – Z23, Javelin, Ayanami, and Laffey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "这边就是和我一起被带到这里的几位同伴——",
+			say = "And the people over there are my friends... The ones who came from the Venus Islands with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 900300,
 			nameColor = "#a9f548",
-			say = "我是玛莉萝丝，叫我玛莉就可以了！",
+			say = "My name is Marie Rose! But you can just call me Marie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 900301,
 			nameColor = "#a9f548",
-			say = "初次见面，我是穗香，总之…请多指教！",
+			say = "It's nice to meet you. I'm Honoka! Um... let's be friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们好~我是海咲~",
+			say = "Hey there! I'm Misaki. Nice to meet you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是凪咲，是海咲的姐姐哦。",
+			say = "Hello there. I'm Nagisa, Misaki's big sister. I'm not sure how to feel about this sudden meeting, but... it's nice to meet you all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "见习荷官，莫妮卡~请多指教啦，呵呵~",
+			say = "I'm the dealer, Monica! ...Well, dealer-in-training, to be specific. It's nice to meet you all, heheh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 900305,
 			nameColor = "#a9f548",
-			say = "我乃女天狗，汝等似乎带着挺有趣的东西嘛~？",
+			say = "Nyotengu is my name. What an interesting presence you all possess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "star_level_bg_106",
 			side = 2,
 			dir = 1,
-			say = "……",
+			say = "...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "经过一番交流，双方都大致了解了彼此目前的状况。",
+			say = "Some time later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，汝等是为了对抗未知的敌人“塞壬”而生的“舰船”，汝等身上这些有趣的小玩意儿叫做“舰装”，是对抗塞壬的杀手锏么。",
+			say = "Now I see. You are shipgirls, are you? And the things you're donning are... riggings, intended for use against Sirens. How very interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而前不久收到了异常报告而奉“指挥官”之命前来调查，正好碰上了霞…是这样吧。",
+			say = "So you received a request from the Commander, which resulted in your meeting with Kasumi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "霞小姐几位原本正在参加一个名为“维纳斯挑战赛”的祭典活动，前两天一睡醒便突然发现来到了这个岛上…",
+			say = "All we know about you is that you all are participating in an event called the Venus Festival. We received an advance notice a few days ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 900300,
 			nameColor = "#a9f548",
-			say = "没错，一开始还真是有点慌了呢！还好岛上应有的设施和物资都很齐全…",
+			say = "At that time, we were quite shocked! ...But we had food and a place to stay, so it wasn't too bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甚至还有泳池、沙滩排球场什么的…某种程度上跟维纳斯群岛还挺像的呢……",
+			say = "There was even a pool and a court for beach volleyball... I thought they were quite similar to the Venus Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			actor = 900303,
 			nameColor = "#a9f548",
-			say = "然后便是这封内容奇怪的信……",
+			say = "Also, we found this strange letter while looking around...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "跟送到指挥官那里的信一样…",
+			say = "It's the same as the one that the Commander received...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来是早就安排好的啊…那么，这个的线索应该也……",
+			say = "It looks like we were both set up by someone... I wonder by whom...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是…通讯终端的说？",
+			say = "This is... some kind of communication device?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照这上面的说法，应该是“指令终端”吧？",
+			say = "There's a screen, so it feels sort of like a tablet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！上面好像有文字呢……",
+			say = "Ooh! It looks like something's written on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,8 +455,8 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actorName = "终端",
-			say = "「远方的女神<Venus>们，欢迎来到度假之岛！」",
+			actorName = "Terminal",
+			say = "\"Venuses who have arrived from far away, welcome to Vacation Island!\"",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actorName = "终端",
+			actorName = "Terminal",
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「无须担心，无需困惑，只要诸位在享受“假期”之余，依照本终端之提示完成相应的“指令”，通往故乡的道路自然会再次开启。」",
+			say = "\"Have no fear. During your pleasant stay at the Vacation Islands, if you complete the missions that are bestowed upon you, the road back home will reveal itself.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			actorName = "终端",
+			actorName = "Terminal",
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「主指令：以符合这个世界的方式，举办特别的《维纳斯挑战赛》，与碧波的少女们一共绽放光彩，为祭典带来最华丽精彩的表现。」",
+			say = "\"Main Mission: Participate in this world's Special Venus Festival, and show off your exquisite selves in a competition against the girls of the azure sea.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,12 +504,12 @@ return {
 			}
 		},
 		{
-			actorName = "终端",
+			actorName = "Terminal",
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「子指令：(已完成)寻找绿色猫娘的愉快伙伴们」",
+			say = "\"Secondary mission: Seek the joyful company of the friends of the green cat (Complete)\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "愉快…",
+			say = "Joyful company of the friends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…总有种被耍了的感觉……",
+			say = "Huh... I feel like I'm completely out of the loop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "啊哈哈…正好岛上有小艇，我就准备在岛附近转转看看情况，然后就遇到了你们。",
+			say = "Hahaha... And there ended up being an inflatable boat around here, so I figured I'd check out the surroundings... And that's when I met with you guys.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "嗯？似乎又有新的“指令”出现了…",
+			say = "Hmm? It looks like we've received another message.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,12 +586,12 @@ return {
 			}
 		},
 		{
-			actorName = "终端",
+			actorName = "Terminal",
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「子指令：前往“港区”，自绿色猫娘处获取“舰装之力”」",
+			say = "\"Secondary mission: Head to the port, and acquire the power of riggings from the green cat.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…总觉得，是让人感觉有些熟悉的展开呢…",
+			say = "I'm getting serious deja vu here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			blackBg = true,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "总、总之就先请维纳斯…？的诸位和我们一起回港区一趟吧！也得跟指挥官报告这边的事情才行！",
+			say = "F-for now... Denizens of the... Venus Islands? Please come to the port! We'll need to report the ongoing events to the Commander as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

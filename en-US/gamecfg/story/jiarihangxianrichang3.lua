@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"假日航线-日常篇\n\n<size=45>三 魅惑的扑克练习</size>",
+					"Vacation Lane - Cozy Days\n\n<size=45>3 Luck of the Draw</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "doa_story1",
-			say = "被莫妮卡以练习为由带到了休息室。",
+			say = "Monica asked me to come with her, saying she had something she wanted to do together.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这次也是扑克的对决吗？还是…",
+			say = "What could it be? Poker? Roulette? Or something else entirely?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉占用你的时间了呢，指挥官。",
+			say = "Thank you for letting me have some of your precious time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "接下来要进行的是一个小小的测试。不是正式的胜负，所以不用太认真~",
+			say = "I'm working on one of my important dealer skills, and I need someone to assist. The stakes are higher than ever! Or, I wish I could say that, but just pretend a lot is on the line, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "我的手上有两张牌，分别是红心A和鬼牌。指挥官，能看清楚吧？",
+			say = "Now, have a look here. There is one ace of hearts, and one joker card. You see them, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示看清楚了",
+					content = "Yep",
 					flag = 1
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "规则很简单。指挥官只要抽到这两张牌中的红心A就算赢。相反，如果抽到鬼牌的话，就是我的胜利~",
+			say = "Good! There's only one rule: if you pick out the ace of hearts, you win!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "两张牌在不做任何记号的前提下，抽到指定一张的概率为50%。是个比运气的游戏么。",
+			say = "I guess I just need to get lucky. It's a fifty-fifty chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "那么，由于指挥官已经看过这两张牌了。我现在要把它们打乱顺序，就麻烦指挥官先闭一下眼睛啦~",
+			say = "Okay, now I will shuffle the cards. Would you mind closing your eyes, Commander? And no peeking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "照着莫妮卡说的闭上了眼睛。",
+			say = "I do as she asks and cover up my eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "好了~指挥官，可以睁开眼睛了！",
+			say = "All right, you can open your eyes now.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "睁开眼睛，只莫妮卡左手拿着一张背面朝着这边的扑克，看不出里面的花色。",
+			say = "When I open my eyes, I see Monica has one of the cards held between her fingers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "原本的扑克应该有两张，那么剩下的一张应该在——",
+			say = "Where's the other? Did she hide it somewhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "在这里哦~",
+			say = "The other? Heheh, why, it's right HERE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "？！",
+			say = "Gulp...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "冷不防地，莫妮卡将胸口凑了过来。那张扑克正不偏不倚地埋没在山谷之中…",
+			say = "She has the other card between her breasts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "那么，要选择哪边呢，指挥官大人~？",
+			say = "Well~? Which card do you choose, Commander~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,11 +304,11 @@ return {
 			},
 			options = {
 				{
-					content = "胸口中间的。",
+					content = "The one between her breasts",
 					flag = 1
 				},
 				{
-					content = "手上的。",
+					content = "The one between her fingers",
 					flag = 2
 				}
 			}
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "莫妮卡将放在胸口的牌慢慢拿了出来，将正面朝向这边，上面的图案是——「小丑」。",
+			say = "I reach for the card between her breasts, take it out, and flip it over... It's the joker card.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			optionFlag = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "呼呼，指挥官，你输了哦~",
+			say = "Hehe~ You lose, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			optionFlag = 1,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "还真是容易被别人牵着走啊~港区里可爱性感的女孩子有这么多，指挥官平时要怎么办才好呢~",
+			say = "Tsk-tsk, Commander. You shouldn't let your base instincts take over like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "莫妮卡将手上的牌缓缓地转了过来。上面的花色是——「红心A」",
+			say = "I pull out the card between her fingers and reveal its face... It's the ace of hearts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			optionFlag = 2,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "恭喜，这次是指挥官赢了~",
+			say = "Hehe~ You win, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			optionFlag = 2,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "唔，我还以为一定会对指挥官有效的。果然是港区可爱性感的女孩子太多，指挥官已经处变不惊了吗~？",
+			say = "Dang, I was sure that trick was gonna work on you... Oh well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			blackBg = true,
 			actor = 900306,
 			nameColor = "#a9f548",
-			say = "呵呵~期待和指挥官的下次对决哦~",
+			say = "That's all for now! We'll see each other sooner or later, I promise~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

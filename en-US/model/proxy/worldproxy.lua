@@ -143,32 +143,15 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 	if slot1.map_id > 0 and _.detect(slot1.chapter_list, function (slot0)
 		return slot0.random_id == uv0.map_id
 	end) then
-		slot7 = slot4:GetEntrance(slot1.enter_map_id)
+		slot10 = slot4:GetMap(slot5.random_id)
 
-		if slot4:GetActiveEntrance() and slot6.id ~= slot7.id then
-			slot6:UpdateActive(false)
-		end
+		slot4:GetEntrance(slot1.enter_map_id):UpdateActive(true)
+		slot10:UpdateGridId(slot5.template_id)
+		slot10:BindFleets(slot4.fleets)
 
-		slot7:UpdateActive(true)
+		slot10.findex = table.indexof(slot4.fleets, slot4:GetFleet(slot1.group_list[1].id))
 
-		slot9 = slot5.random_id
-		slot11 = slot4:GetMap(slot9)
-
-		print("world active map: " .. slot9 .. ", " .. slot5.template_id)
-
-		if slot4:GetActiveMap() and slot8.id ~= slot11.id then
-			slot8:UpdateActive(false)
-			slot8:UnbindFleets()
-
-			slot8.findex = nil
-		end
-
-		slot11:UpdateGridId(slot10)
-		slot11:BindFleets(slot4.fleets)
-
-		slot11.findex = 1
-
-		slot11:UpdateActive(true)
+		slot10:UpdateActive(true)
 	end
 
 	slot4:SetPortShips(slot0:NetBuildPortShipList(slot1.ship_in_port))
@@ -209,52 +192,54 @@ function slot0.NetUpdateWorldDefaultFleets(slot0, slot1)
 end
 
 function slot0.NetUpdateWorldAchievements(slot0, slot1, slot2)
-	slot3 = nowWorld
-	slot3.achievements = {}
+	nowWorld.achievements = {}
 
 	slot0:NetUpdateAchievements(slot1)
 
-	slot3.achieveMapStar = {}
+	nowWorld.achieveMapStar = {}
 
 	_.each(slot2, function (slot0)
 		table.foreachi(slot0.star_list, function (slot0, slot1)
-			uv0:SetMapAchieveSuccess(uv1.id, slot1)
+			nowWorld:SetMapAchieveSuccess(uv0.id, slot1)
 		end)
 	end)
 end
 
 function slot0.NetUpdateWorldCountInfo(slot0, slot1)
-	slot2 = nowWorld
-	slot2.stepCount = slot1.step_count
-	slot2.treasureCount = slot1.treasure_count
-	slot2.activateCount = slot1.activate_count
+	nowWorld.stepCount = slot1.step_count
+	nowWorld.treasureCount = slot1.treasure_count
+	nowWorld.activateCount = slot1.activate_count
 
 	nowWorld:GetCollectionProxy():Setup(slot1.collection_list)
-	slot2:UpdateProgress(slot1.task_progress)
+	nowWorld:UpdateProgress(slot1.task_progress)
 end
 
 function slot0.NetUpdateActiveMap(slot0, slot1, slot2, slot3)
-	slot4 = nowWorld
+	slot4 = nowWorld:GetActiveEntrance()
 
-	if slot1 and slot4:GetActiveEntrance().id ~= slot4:GetEntrance(slot1).id then
-		slot5:UpdateActive(false)
+	if nowWorld:GetActiveMap():NeedClear() and slot4:GetBaseMap().becomeSairen and slot6:GetSairenMapId() == slot5.id then
+		nowWorld:GetAtlas():RemoveSairenEntrance(slot4)
+	end
+
+	if slot4.id ~= nowWorld:GetEntrance(slot1).id then
+		slot4:UpdateActive(false)
 		slot6:UpdateActive(true)
 	end
 
-	if slot4:GetActiveMap().id ~= slot4:GetMap(slot2).id then
+	if slot5.id ~= nowWorld:GetMap(slot2).id then
 		slot5:UpdateActive(false)
 		slot5:RemoveFleetsCarries()
 		slot5:UnbindFleets()
 
-		slot6.findex = slot5.findex
+		slot7.findex = slot5.findex
 		slot5.findex = nil
 
-		slot6:UpdateGridId(slot3)
-		slot6:BindFleets(slot4.fleets)
-		slot6:UpdateActive(true)
+		slot7:UpdateGridId(slot3)
+		slot7:BindFleets(nowWorld.fleets)
+		slot7:UpdateActive(true)
 	end
 
-	slot4:OnSwitchMap()
+	nowWorld:OnSwitchMap()
 end
 
 function slot0.NetUpdateMap(slot0, slot1)
@@ -528,24 +513,22 @@ function slot0.NetUpdateWorldMapPressing(slot0, slot1)
 end
 
 function slot0.NetUpdateWorldShopGoods(slot0, slot1)
-	slot2 = nowWorld
-
-	slot2:InitWorldShopGoods()
-	slot2:UpdateWorldShopGoods(slot1)
+	nowWorld:InitWorldShopGoods()
+	nowWorld:UpdateWorldShopGoods(slot1)
 end
 
 function slot0.NetUpdateWorldPressingAward(slot0, slot1)
-	slot3 = nowWorld:GetAtlas()
+	slot2 = nowWorld:GetAtlas()
 
 	_.each(slot1, function (slot0)
 		slot2 = {
 			id = slot0.award,
 			flag = slot0.flag == 1
 		}
-		uv0.pressingAwardDic[slot0.id] = slot2
+		nowWorld.pressingAwardDic[slot0.id] = slot2
 
 		if not slot2.flag then
-			uv1:MarkMapTransport(slot1)
+			uv0:MarkMapTransport(slot1)
 		end
 	end)
 end

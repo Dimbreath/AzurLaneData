@@ -94,7 +94,7 @@ function slot0.update(slot0, slot1)
 			return
 		end
 
-		pg.WorldBossTipMgr.GetInstance():OnClick("", uv2, function ()
+		pg.WorldBossTipMgr.GetInstance():OnClick("", uv2, uv0.args.lastTime, function ()
 			uv0:SetGray()
 		end)
 	end, SFX_PANEL)

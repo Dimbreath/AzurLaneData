@@ -21,7 +21,7 @@ function slot0.OnChatFrameLoaded(slot0, slot1)
 	if slot0.data.isSelf then
 		slot2.color = Color.New(0, 0, 0, 1)
 	else
-		slot2.color = Color.New(1, 1, 1, 1)
+		slot2.color = Color.New(0, 0, 0, 1)
 	end
 
 	slot0.charFrameTxt = slot2

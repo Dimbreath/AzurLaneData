@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			actor = 900232,
 			nameColor = "#ff5c5c",
-			say = "哼哼，姑且算是记录到了不太一样的数据吧。",
+			say = "Hahah, we've gotten the data we need for now.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,8 +46,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "不过…通过像这样“游戏”一般的战斗，真的能得到什么有意义的数据吗？",
+			actorName = "Tester",
+			say = "I must ask... Do we really get any meaningful data out of playing around like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "与“异类”的接触，总归是能带来一些“变化”的，况且，“仪式化”的战斗，在某些情况下也许能带来比一般战斗更特别的“结果”呢…",
+			say = "Contact with different beings will inevitably cause some kind of change. Who knows, perhaps we will discover something interesting this way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "啊啊~没劲，没有出击的机会，只能默默等待数据的感觉真是太没劲了~",
+			say = "Hey, has anyone seen my mind? I think I lost it somewhere while waiting for some action. All data collection and no play makes Purifier a dull girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,8 +96,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "……",
+			actorName = "Tester",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "不过，沙滩排球…真的那么有意思吗？",
+			say = "So what did we learn? Beach volleyball? Is it really that fun?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "你想试试吗？",
+			say = "Care to give it a try?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "……还是算了吧。",
+			say = "...Never mind I asked. I think I'll stick to twiddling my thumbs for fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

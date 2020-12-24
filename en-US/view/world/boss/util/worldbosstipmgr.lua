@@ -27,9 +27,6 @@ function slot0.Init(slot0, slot1)
 
 		uv0.richText = uv0.tipTF:Find("Text"):GetComponent("RichText")
 
-		uv0.richText:AddListener(function (slot0, slot1)
-			uv0:OnClick(slot0, slot1)
-		end)
 		setActive(uv0.tipTF, false)
 
 		if uv1 then
@@ -81,7 +78,8 @@ function slot0.Show(slot0, slot1)
 				playerName = slot2,
 				bossName = slot1.config.name,
 				level = slot1.level,
-				wordBossId = slot1.id
+				wordBossId = slot1.id,
+				lastTime = slot1.lastTime
 			},
 			player = slot1:GetPlayer() or getProxy(PlayerProxy):getData(),
 			uniqueId = slot1.id
@@ -144,19 +142,20 @@ function slot4(slot0, slot1)
 	return true
 end
 
-function slot0.OnClick(slot0, slot1, slot2, slot3)
+function slot0.OnClick(slot0, slot1, slot2, slot3, slot4)
 	if not nowWorld then
 		return
 	end
 
-	if not slot4:GetBossProxy() then
+	if not slot5:GetBossProxy() then
 		return
 	end
 
-	function slot6(slot0)
+	function slot7(slot0)
 		function slot3()
 			pg.m02:sendNotification(GAME.CHECK_WORLD_BOSS_STATE, {
 				bossId = tonumber(uv2),
+				time = uv3,
 				callback = function ()
 					uv0 = uv1:getCurrentContext()
 
@@ -173,7 +172,7 @@ function slot0.OnClick(slot0, slot1, slot2, slot3)
 						worldBossId = tonumber(uv2)
 					})
 				end,
-				failedCallback = uv3
+				failedCallback = uv4
 			})
 		end
 
@@ -190,21 +189,21 @@ function slot0.OnClick(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	if slot5.isSetup then
-		if not slot5:GetBossById(tonumber(slot2)) or slot7:isDeath() then
-			for slot13, slot14 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(tonumber(slot2))) do
-				slot14.args.isDeath = true
+	if slot6.isSetup then
+		if not slot6:GetBossById(tonumber(slot2)) or slot8:isDeath() then
+			for slot14, slot15 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(tonumber(slot2))) do
+				slot15.args.isDeath = true
 
-				slot8:UpdateMsg(slot14)
+				slot9:UpdateMsg(slot15)
 			end
 
-			slot3()
+			slot4()
 			pg.TipsMgr:GetInstance():ShowTips(i18n("world_boss_none"))
 
 			return
 		end
 
-		slot6()
+		slot7()
 	end
 end
 

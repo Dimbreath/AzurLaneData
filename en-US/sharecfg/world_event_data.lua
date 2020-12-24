@@ -277,7 +277,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 1,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "event2",
@@ -317,7 +317,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 1,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "event2",
@@ -1044,7 +1044,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -1079,7 +1079,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -5567,7 +5567,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "塞壬用于改变实验环境而设置的特殊调节装置。",
+		scan_desc = "An experimental Siren device installed to control the weather in the waters around a Siren Research Facility. ",
 		obstacle = 2,
 		event_sight = -1,
 		icon = "qihouzhuangzhi_ganran",
@@ -6130,10 +6130,10 @@ pg.world_event_data = {
 		is_guide = 0,
 		id = 5401,
 		object_icon = {
-			"cell_yellow",
+			"cell_number_2",
 			1,
 			100,
-			0
+			60
 		},
 		event_op = {},
 		effect = {
@@ -6188,10 +6188,10 @@ pg.world_event_data = {
 		is_guide = 0,
 		id = 5402,
 		object_icon = {
-			"cell_yellow",
+			"cell_number_2",
 			1,
 			100,
-			0
+			60
 		},
 		event_op = {},
 		effect = {
@@ -6240,10 +6240,10 @@ pg.world_event_data = {
 		is_guide = 0,
 		id = 5403,
 		object_icon = {
-			"cell_yellow",
+			"cell_number_2",
 			1,
 			100,
-			0
+			60
 		},
 		event_op = {},
 		effect = {
@@ -33311,7 +33311,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -96819,7 +96819,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 1,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "event2",
@@ -96854,7 +96854,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 1,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "",
@@ -97044,7 +97044,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 1,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "",
@@ -97234,7 +97234,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 1,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "",
@@ -97424,7 +97424,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 1,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "",
@@ -101378,7 +101378,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101419,7 +101419,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101472,7 +101472,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101525,7 +101525,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101572,7 +101572,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101607,7 +101607,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101642,7 +101642,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101677,7 +101677,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101712,7 +101712,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -101747,7 +101747,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "shanguang01",
@@ -108004,7 +108004,7 @@ pg.world_event_data = {
 		visuality = 0,
 		is_scanevent = 1,
 		icontype = 2,
-		scan_desc = "海洋中遗落的军事物资……",
+		scan_desc = "Valuable supplies which can be recovered.",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "sairenbaoxiang",
@@ -131410,10 +131410,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -131486,10 +131483,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -131562,10 +131556,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -131693,6 +131684,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10110151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10110151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10110102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -131705,7 +131731,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -131716,6 +131742,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10110152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10110152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -132328,7 +132390,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			101100400,
-			101100100,
+			101100150,
 			101100250,
 			101100350
 		},
@@ -132944,10 +133006,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -133020,10 +133079,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -133096,10 +133152,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -133227,6 +133280,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10120151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10120151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10120102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -133239,7 +133327,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -133250,6 +133338,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10120152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10120152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -133862,7 +133986,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			101200400,
-			101200100,
+			101200150,
 			101200250,
 			101200350
 		},
@@ -134478,10 +134602,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -134554,10 +134675,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -134630,10 +134748,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -134761,6 +134876,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10130151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10130151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10130102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -134773,7 +134923,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -134784,6 +134934,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10130152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10130152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -135396,7 +135582,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			101300400,
-			101300100,
+			101300150,
 			101300250,
 			101300350
 		},
@@ -135977,10 +136163,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -136053,10 +136236,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -136129,10 +136309,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -136260,6 +136437,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10140151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10140151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				15
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10140102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -136272,7 +136484,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -136283,6 +136495,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				15
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10140152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10140152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -136895,7 +137143,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			101400400,
-			101400100,
+			101400150,
 			101400250,
 			101400350
 		},
@@ -137406,10 +137654,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -137482,10 +137727,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -137558,10 +137800,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -137676,6 +137915,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10210151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10210151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -138124,7 +138398,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			102100400,
-			102100100,
+			102100150,
 			102100250,
 			102100350
 		},
@@ -138635,10 +138909,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -138711,10 +138982,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -138787,10 +139055,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -138905,6 +139170,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				6
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10220151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10220151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -139353,7 +139653,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			102200400,
-			102200100,
+			102200150,
 			102200250,
 			102200350
 		},
@@ -139864,10 +140164,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -139940,10 +140237,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -140016,10 +140310,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -140134,6 +140425,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10230151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10230151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -140582,7 +140908,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			102300400,
-			102300100,
+			102300150,
 			102300250,
 			102300350
 		},
@@ -141093,10 +141419,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -141169,10 +141492,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -141245,10 +141565,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -141363,6 +141680,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				6,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10240151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10240151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -141811,7 +142163,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			102400400,
-			102400100,
+			102400150,
 			102400250,
 			102400350
 		},
@@ -142357,10 +142709,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -142433,10 +142782,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -142509,10 +142855,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -142640,6 +142983,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10250151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10250151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10250102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -142652,7 +143030,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -142663,6 +143041,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10250152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10250152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -143193,7 +143607,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			102500400,
-			102500100,
+			102500150,
 			102500250,
 			102500350
 		},
@@ -143704,10 +144118,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -143780,10 +144191,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -143856,10 +144264,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -143974,6 +144379,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10310151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10310151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -144422,7 +144862,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			103100400,
-			103100100,
+			103100150,
 			103100250,
 			103100350
 		},
@@ -144968,10 +145408,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -145044,10 +145481,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -145120,10 +145554,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -145251,6 +145682,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10320151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10320151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10320102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -145263,7 +145729,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -145274,6 +145740,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10320152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10320152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -145804,7 +146306,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			103200400,
-			103200100,
+			103200150,
 			103200250,
 			103200350
 		},
@@ -146350,10 +146852,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -146426,10 +146925,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -146502,10 +146998,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -146633,6 +147126,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10330151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10330151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10330102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -146645,7 +147173,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -146656,6 +147184,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10330152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10330152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -147186,7 +147750,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			103300400,
-			103300100,
+			103300150,
 			103300250,
 			103300350
 		},
@@ -147732,10 +148296,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -147808,10 +148369,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -147884,10 +148442,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -148015,6 +148570,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10340151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10340151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10340102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -148027,7 +148617,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -148038,6 +148628,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10340152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10340152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -148568,7 +149194,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			103400400,
-			103400100,
+			103400150,
 			103400250,
 			103400350
 		},
@@ -149114,10 +149740,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -149190,10 +149813,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -149266,10 +149886,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -149397,6 +150014,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10410151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10410151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				16,
+				6
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10410102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -149409,7 +150061,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -149420,6 +150072,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				16,
+				6
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10410152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10410152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -149950,7 +150638,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			104100400,
-			104100100,
+			104100150,
 			104100250,
 			104100350
 		},
@@ -150531,10 +151219,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -150607,10 +151292,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -150683,10 +151365,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -150814,6 +151493,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10420151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10420151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				20,
+				7
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10420102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -150826,7 +151540,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -150837,6 +151551,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				20,
+				7
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10420152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10420152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -151449,7 +152199,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			104200400,
-			104200100,
+			104200150,
 			104200250,
 			104200350
 		},
@@ -151960,10 +152710,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -152036,10 +152783,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -152112,10 +152856,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -152230,6 +152971,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10430151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10430151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -152678,7 +153454,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			104300400,
-			104300100,
+			104300150,
 			104300250,
 			104300350
 		},
@@ -153189,10 +153965,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -153265,10 +154038,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -153341,10 +154111,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -153459,6 +154226,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				6
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10440151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10440151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -153907,7 +154709,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			104400400,
-			104400100,
+			104400150,
 			104400250,
 			104400350
 		},
@@ -154488,10 +155290,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -154564,10 +155363,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -154640,10 +155436,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -154771,6 +155564,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10510151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10510151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10510102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -154783,7 +155611,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -154794,6 +155622,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10510152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10510152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -155406,7 +156270,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			105100400,
-			105100100,
+			105100150,
 			105100250,
 			105100350
 		},
@@ -155987,10 +156851,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -156063,10 +156924,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -156139,10 +156997,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -156270,6 +157125,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10520151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10520151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10520102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -156282,7 +157172,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -156293,6 +157183,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10520152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10520152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -156905,7 +157831,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			105200400,
-			105200100,
+			105200150,
 			105200250,
 			105200350
 		},
@@ -157486,10 +158412,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -157562,10 +158485,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -157638,10 +158558,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -157769,6 +158686,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10530151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10530151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10530102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -157781,7 +158733,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -157792,6 +158744,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10530152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10530152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -158404,7 +159392,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			105300400,
-			105300100,
+			105300150,
 			105300250,
 			105300350
 		},
@@ -158985,10 +159973,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -159061,10 +160046,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -159137,10 +160119,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -159268,6 +160247,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10540151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10540151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10540102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -159280,7 +160294,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -159291,6 +160305,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10540152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10540152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -159903,7 +160953,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			105400400,
-			105400100,
+			105400150,
 			105400250,
 			105400350
 		},
@@ -160484,10 +161534,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -160560,10 +161607,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -160636,10 +161680,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -160767,6 +161808,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10610151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10610151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				15,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10610102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -160779,7 +161855,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -160790,6 +161866,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				15,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10610152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10610152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -161402,7 +162514,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			106100400,
-			106100100,
+			106100150,
 			106100250,
 			106100350
 		},
@@ -161948,10 +163060,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -162024,10 +163133,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -162100,10 +163206,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -162231,6 +163334,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10620151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10620151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10620102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -162243,7 +163381,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -162254,6 +163392,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10620152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10620152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -162784,7 +163958,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			106200400,
-			106200100,
+			106200150,
 			106200250,
 			106200350
 		},
@@ -163365,10 +164539,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -163441,10 +164612,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -163517,10 +164685,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -163648,6 +164813,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10630151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10630151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				15,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10630102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -163660,7 +164860,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -163671,6 +164871,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				15,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10630152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10630152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -164283,7 +165519,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			106300400,
-			106300100,
+			106300150,
 			106300250,
 			106300350
 		},
@@ -164864,10 +166100,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -164940,10 +166173,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -165016,10 +166246,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -165147,6 +166374,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10640151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10640151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10640102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -165159,7 +166421,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -165170,6 +166432,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10640152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10640152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -165782,7 +167080,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			106400400,
-			106400100,
+			106400150,
 			106400250,
 			106400350
 		},
@@ -166328,10 +167626,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -166404,10 +167699,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -166480,10 +167772,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -166611,6 +167900,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10650151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10650151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10650102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -166623,7 +167947,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -166634,6 +167958,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10650152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10650152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -167164,7 +168524,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			106500400,
-			106500100,
+			106500150,
 			106500250,
 			106500350
 		},
@@ -167710,10 +169070,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -167786,10 +169143,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -167862,10 +169216,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -167993,6 +169344,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10660151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10660151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10660102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -168005,7 +169391,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -168016,6 +169402,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10660152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10660152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -168546,7 +169968,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			106600400,
-			106600100,
+			106600150,
 			106600250,
 			106600350
 		},
@@ -169162,10 +170584,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -169238,10 +170657,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -169314,10 +170730,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -169445,6 +170858,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10710151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10710151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10710102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -169457,7 +170905,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -169468,6 +170916,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10710152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10710152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -170080,7 +171564,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			107100400,
-			107100100,
+			107100150,
 			107100250,
 			107100350
 		},
@@ -170696,10 +172180,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -170772,10 +172253,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -170848,10 +172326,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -170979,6 +172454,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10720151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10720151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				18,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10720102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -170991,7 +172501,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -171002,6 +172512,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				18,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10720152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10720152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -171614,7 +173160,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			107200400,
-			107200100,
+			107200150,
 			107200250,
 			107200350
 		},
@@ -172230,10 +173776,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -172306,10 +173849,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -172382,10 +173922,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -172513,6 +174050,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10730151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10730151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				23
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10730102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -172525,7 +174097,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -172536,6 +174108,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				23
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10730152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10730152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -173148,7 +174756,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			107300400,
-			107300100,
+			107300150,
 			107300250,
 			107300350
 		},
@@ -173659,10 +175267,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -173735,10 +175340,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -173811,10 +175413,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -173929,6 +175528,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				6,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10810151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10810151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -174377,7 +176011,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			108100400,
-			108100100,
+			108100150,
 			108100250,
 			108100350
 		},
@@ -174958,10 +176592,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -175034,10 +176665,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -175110,10 +176738,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -175241,6 +176866,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10820151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10820151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10820102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -175253,7 +176913,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -175264,6 +176924,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10820152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10820152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -175876,7 +177572,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			108200400,
-			108200100,
+			108200150,
 			108200250,
 			108200350
 		},
@@ -176387,10 +178083,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -176463,10 +178156,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -176539,10 +178229,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -176657,6 +178344,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10830151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10830151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -177105,7 +178827,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			108300400,
-			108300100,
+			108300150,
 			108300250,
 			108300350
 		},
@@ -177616,10 +179338,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -177692,10 +179411,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -177768,10 +179484,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -177886,6 +179599,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10840151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10840151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -178334,7 +180082,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			108400400,
-			108400100,
+			108400150,
 			108400250,
 			108400350
 		},
@@ -178915,10 +180663,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -178991,10 +180736,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -179067,10 +180809,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -179198,6 +180937,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10850151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10850151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				15,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10850102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -179210,7 +180984,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -179221,6 +180995,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				15,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10850152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10850152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -179833,7 +181643,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			108500400,
-			108500100,
+			108500150,
 			108500250,
 			108500350
 		},
@@ -180414,10 +182224,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -180490,10 +182297,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -180566,10 +182370,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -180697,6 +182498,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10910151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10910151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10910102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -180709,7 +182545,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -180720,6 +182556,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				12,
+				12
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10910152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10910152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -181332,7 +183204,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			109100400,
-			109100100,
+			109100150,
 			109100250,
 			109100350
 		},
@@ -181843,10 +183715,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -181919,10 +183788,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -181995,10 +183861,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -182113,6 +183976,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10920151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10920151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -182561,7 +184459,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			109200400,
-			109200100,
+			109200150,
 			109200250,
 			109200350
 		},
@@ -183072,10 +184970,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -183148,10 +185043,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -183224,10 +185116,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -183342,6 +185231,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10930151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10930151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -183790,7 +185714,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			109300400,
-			109300100,
+			109300150,
 			109300250,
 			109300350
 		},
@@ -184336,10 +186260,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -184412,10 +186333,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -184488,10 +186406,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -184619,6 +186534,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10940151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10940151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10940102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -184631,7 +186581,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -184642,6 +186592,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10940152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10940152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -185172,7 +187158,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			109400400,
-			109400100,
+			109400150,
 			109400250,
 			109400350
 		},
@@ -185718,10 +187704,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -185794,10 +187777,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -185870,10 +187850,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -186001,6 +187978,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[10950151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10950151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[10950102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -186013,7 +188025,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -186024,6 +188036,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[10950152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 10950152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -186554,7 +188602,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			109500400,
-			109500100,
+			109500150,
 			109500250,
 			109500350
 		},
@@ -187170,10 +189218,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -187246,10 +189291,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -187322,10 +189364,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -187453,6 +189492,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11010151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11010151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				23,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11010102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -187465,7 +189539,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -187476,6 +189550,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				23,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11010152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11010152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -188088,7 +190198,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			110100400,
-			110100100,
+			110100150,
 			110100250,
 			110100350
 		},
@@ -188704,10 +190814,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -188780,10 +190887,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -188856,10 +190960,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -188987,6 +191088,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11020151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11020151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				18,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11020102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -188999,7 +191135,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -189010,6 +191146,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				18,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11020152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11020152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -189622,7 +191794,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			110200400,
-			110200100,
+			110200150,
 			110200250,
 			110200350
 		},
@@ -190203,10 +192375,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -190279,10 +192448,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -190355,10 +192521,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -190486,6 +192649,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11030151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11030151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				7,
+				20
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11030102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -190498,7 +192696,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -190509,6 +192707,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				7,
+				20
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11030152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11030152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -191121,7 +193355,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			110300400,
-			110300100,
+			110300150,
 			110300250,
 			110300350
 		},
@@ -191702,10 +193936,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -191778,10 +194009,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -191854,10 +194082,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -191985,6 +194210,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11040151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11040151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				15,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11040102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -191997,7 +194257,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -192008,6 +194268,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				15,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11040152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11040152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -192620,7 +194916,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			110400400,
-			110400100,
+			110400150,
 			110400250,
 			110400350
 		},
@@ -193166,10 +195462,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -193242,10 +195535,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -193318,10 +195608,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -193449,6 +195736,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11050151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11050151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11050102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -193461,7 +195783,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -193472,6 +195794,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11050152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11050152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -194002,7 +196360,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			110500400,
-			110500100,
+			110500150,
 			110500250,
 			110500350
 		},
@@ -194618,10 +196976,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -194694,10 +197049,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -194770,10 +197122,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -194901,6 +197250,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11060151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11060151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11060102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -194913,7 +197297,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -194924,6 +197308,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11060152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11060152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -195536,7 +197956,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			110600400,
-			110600100,
+			110600150,
 			110600250,
 			110600350
 		},
@@ -196082,10 +198502,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -196158,10 +198575,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -196234,10 +198648,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -196365,6 +198776,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11110151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11110151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11110102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -196377,7 +198823,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -196388,6 +198834,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11110152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11110152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -196918,7 +199400,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			111100400,
-			111100100,
+			111100150,
 			111100250,
 			111100350
 		},
@@ -197429,10 +199911,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -197505,10 +199984,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -197581,10 +200057,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -197699,6 +200172,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				11,
+				6
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11120151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11120151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -198147,7 +200655,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			111200400,
-			111200100,
+			111200150,
 			111200250,
 			111200350
 		},
@@ -198693,10 +201201,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -198769,10 +201274,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -198845,10 +201347,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -198976,6 +201475,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11130151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11130151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11130102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -198988,7 +201522,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -198999,6 +201533,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11130152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11130152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -199529,7 +202099,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			111300400,
-			111300100,
+			111300150,
 			111300250,
 			111300350
 		},
@@ -200075,10 +202645,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -200151,10 +202718,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -200227,10 +202791,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -200358,6 +202919,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11140151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11140151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				13
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11140102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -200370,7 +202966,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -200381,6 +202977,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				13
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11140152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11140152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -200911,7 +203543,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			111400400,
-			111400100,
+			111400150,
 			111400250,
 			111400350
 		},
@@ -201527,10 +204159,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -201603,10 +204232,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -201679,10 +204305,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -201810,6 +204433,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11210151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11210151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				18,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11210102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -201822,7 +204480,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -201833,6 +204491,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				18,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11210152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11210152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -202445,7 +205139,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			112100400,
-			112100100,
+			112100150,
 			112100250,
 			112100350
 		},
@@ -202956,10 +205650,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -203032,10 +205723,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -203108,10 +205796,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -203226,6 +205911,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11220151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11220151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -203674,7 +206394,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			112200400,
-			112200100,
+			112200150,
 			112200250,
 			112200350
 		},
@@ -204220,10 +206940,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -204296,10 +207013,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -204372,10 +207086,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -204503,6 +207214,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11230151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11230151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11230102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -204515,7 +207261,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -204526,6 +207272,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11230152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11230152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -205056,7 +207838,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			112300400,
-			112300100,
+			112300150,
 			112300250,
 			112300350
 		},
@@ -205672,10 +208454,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -205748,10 +208527,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -205824,10 +208600,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -205955,6 +208728,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11240151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11240151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				23
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11240102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -205967,7 +208775,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -205978,6 +208786,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				23
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11240152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11240152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -206590,7 +209434,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			112400400,
-			112400100,
+			112400150,
 			112400250,
 			112400350
 		},
@@ -207136,10 +209980,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -207212,10 +210053,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -207288,10 +210126,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -207419,6 +210254,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11250151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11250151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11250102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -207431,7 +210301,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -207442,6 +210312,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				13,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11250152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11250152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -207972,7 +210878,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			112500400,
-			112500100,
+			112500150,
 			112500250,
 			112500350
 		},
@@ -208483,10 +211389,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -208559,10 +211462,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -208635,10 +211535,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -208753,6 +211650,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11310151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11310151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -209201,7 +212133,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			113100400,
-			113100100,
+			113100150,
 			113100250,
 			113100350
 		},
@@ -209712,10 +212644,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -209788,10 +212717,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -209864,10 +212790,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -209982,6 +212905,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				6,
+				11
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11320151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11320151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -210430,7 +213388,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			113200400,
-			113200100,
+			113200150,
 			113200250,
 			113200350
 		},
@@ -210976,10 +213934,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -211052,10 +214007,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -211128,10 +214080,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -211259,6 +214208,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11330151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11330151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11330102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -211271,7 +214255,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -211282,6 +214266,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11330152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11330152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -211812,7 +214832,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			113300400,
-			113300100,
+			113300150,
 			113300250,
 			113300350
 		},
@@ -212323,10 +215343,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -212399,10 +215416,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -212475,10 +215489,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -212593,6 +215604,41 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				8,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11340151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11340151,
+		event_op = {},
+		effect = {
+			10006
 		},
 		grid = {
 			{
@@ -213041,7 +216087,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			113400400,
-			113400100,
+			113400150,
 			113400250,
 			113400350
 		},
@@ -213587,10 +216633,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -213663,10 +216706,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -213739,10 +216779,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -213870,6 +216907,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11350151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11350151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11350102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -213882,7 +216954,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -213893,6 +216965,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				10
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11350152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11350152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -214423,7 +217531,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			113500400,
-			113500100,
+			113500150,
 			113500250,
 			113500350
 		},
@@ -214969,10 +218077,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -215045,10 +218150,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -215121,10 +218223,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -215252,6 +218351,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11410151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11410151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				16,
+				6
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11410102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -215264,7 +218398,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -215275,6 +218409,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				16,
+				6
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11410152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11410152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -215805,7 +218975,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			114100400,
-			114100100,
+			114100150,
 			114100250,
 			114100350
 		},
@@ -216386,10 +219556,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -216462,10 +219629,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -216538,10 +219702,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -216669,6 +219830,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11420151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11420151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				15
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11420102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -216681,7 +219877,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -216692,6 +219888,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				10,
+				15
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11420152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11420152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -217304,7 +220536,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			114200400,
-			114200100,
+			114200150,
 			114200250,
 			114200350
 		},
@@ -217850,10 +221082,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -217926,10 +221155,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -218002,10 +221228,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -218133,6 +221356,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11430151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11430151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				6,
+				16
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11430102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -218145,7 +221403,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -218156,6 +221414,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				6,
+				16
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11430152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11430152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -218686,7 +221980,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			114300400,
-			114300100,
+			114300150,
 			114300250,
 			114300350
 		},
@@ -219302,10 +222596,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -219378,10 +222669,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -219454,10 +222742,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -219585,6 +222870,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11440151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11440151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				23,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11440102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -219597,7 +222917,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -219608,6 +222928,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				23,
+				8
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11440152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11440152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -220220,7 +223576,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			114400400,
-			114400100,
+			114400150,
 			114400250,
 			114400350
 		},
@@ -220836,10 +224192,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -220912,10 +224265,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -220988,10 +224338,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -221119,6 +224466,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11510151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11510151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11510102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -221131,7 +224513,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -221142,6 +224524,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11510152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11510152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -221754,7 +225172,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115100400,
-			115100100,
+			115100150,
 			115100250,
 			115100350
 		},
@@ -222370,10 +225788,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -222446,10 +225861,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -222522,10 +225934,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -222653,6 +226062,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11520151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11520151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11520102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -222665,7 +226109,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -222676,6 +226120,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11520152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11520152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -223288,7 +226768,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115200400,
-			115200100,
+			115200150,
 			115200250,
 			115200350
 		},
@@ -223904,10 +227384,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -223980,10 +227457,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -224056,10 +227530,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -224187,6 +227658,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11530151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11530151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11530102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -224199,7 +227705,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -224210,6 +227716,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11530152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11530152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -224822,7 +228364,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115300400,
-			115300100,
+			115300150,
 			115300250,
 			115300350
 		},
@@ -225403,10 +228945,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -225479,10 +229018,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -225555,10 +229091,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -225686,6 +229219,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11540151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11540151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				18,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11540102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -225698,7 +229266,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -225709,6 +229277,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				18,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11540152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11540152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -226075,7 +229679,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115400400,
-			115400100,
+			115400150,
 			115400250,
 			115400350
 		},
@@ -226691,10 +230295,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -226767,10 +230368,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -226843,10 +230441,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -226974,6 +230569,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11550151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11550151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11550102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -226986,7 +230616,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -226997,6 +230627,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11550152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11550152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -227609,7 +231275,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115500400,
-			115500100,
+			115500150,
 			115500250,
 			115500350
 		},
@@ -228225,10 +231891,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -228301,10 +231964,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -228377,10 +232037,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -228508,6 +232165,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11560151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11560151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11560102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -228520,7 +232212,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -228531,6 +232223,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11560152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11560152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -229143,7 +232871,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115600400,
-			115600100,
+			115600150,
 			115600250,
 			115600350
 		},
@@ -229759,10 +233487,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -229835,10 +233560,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -229911,10 +233633,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -230042,6 +233761,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11570151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11570151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11570102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -230054,7 +233808,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -230065,6 +233819,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11570152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11570152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -230677,7 +234467,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115700400,
-			115700100,
+			115700150,
 			115700250,
 			115700350
 		},
@@ -231293,10 +235083,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -231369,10 +235156,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -231445,10 +235229,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -231576,6 +235357,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11580151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11580151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11580102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -231588,7 +235404,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -231599,6 +235415,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11580152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11580152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -232211,7 +236063,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115800400,
-			115800100,
+			115800150,
 			115800250,
 			115800350
 		},
@@ -232827,10 +236679,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -232903,10 +236752,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -232979,10 +236825,7 @@ pg.world_event_data = {
 			{
 				1110,
 				1120,
-				1130,
-				1210,
-				1220,
-				1230
+				1130
 			},
 			{
 				1410,
@@ -233110,6 +236953,41 @@ pg.world_event_data = {
 		slg_buffnum = {},
 		deviation = {}
 	},
+	[11590151] = {
+		enemyicon = 0,
+		name = "Resource Node",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "Investigating this node may yield a few rewards.",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "putongbaoxiang",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11590151,
+		event_op = {},
+		effect = {
+			10006
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
 	[11590102] = {
 		enemyicon = 0,
 		name = "Hidden Resource Node",
@@ -233122,7 +237000,7 @@ pg.world_event_data = {
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
-		infection_value = 1,
+		infection_value = 0,
 		compass_index = 2,
 		discover_type = 2,
 		expedition_icon = 0,
@@ -233133,6 +237011,42 @@ pg.world_event_data = {
 		effect = {
 			106,
 			10000
+		},
+		grid = {
+			{
+				2,
+				2,
+				14,
+				14
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[11590152] = {
+		enemyicon = 0,
+		name = "Hidden Cache",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 1,
+		icontype = 2,
+		scan_desc = "A hidden resource node that can be salvaged for supplies.",
+		obstacle = 1,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 11590152,
+		event_op = {},
+		effect = {
+			106,
+			10006
 		},
 		grid = {
 			{
@@ -233745,7 +237659,7 @@ pg.world_event_data = {
 		event_op = {},
 		effect = {
 			115900400,
-			115900100,
+			115900150,
 			115900250,
 			115900350
 		},
@@ -236709,7 +240623,9 @@ pg.world_event_data = {
 		10110060,
 		10110061,
 		10110101,
+		10110151,
 		10110102,
+		10110152,
 		10110201,
 		10110251,
 		10110202,
@@ -236746,7 +240662,9 @@ pg.world_event_data = {
 		10120060,
 		10120061,
 		10120101,
+		10120151,
 		10120102,
+		10120152,
 		10120201,
 		10120251,
 		10120202,
@@ -236783,7 +240701,9 @@ pg.world_event_data = {
 		10130060,
 		10130061,
 		10130101,
+		10130151,
 		10130102,
+		10130152,
 		10130201,
 		10130251,
 		10130202,
@@ -236819,7 +240739,9 @@ pg.world_event_data = {
 		10140060,
 		10140061,
 		10140101,
+		10140151,
 		10140102,
+		10140152,
 		10140201,
 		10140251,
 		10140202,
@@ -236853,6 +240775,7 @@ pg.world_event_data = {
 		10210060,
 		10210061,
 		10210101,
+		10210151,
 		10210201,
 		10210251,
 		10210202,
@@ -236882,6 +240805,7 @@ pg.world_event_data = {
 		10220060,
 		10220061,
 		10220101,
+		10220151,
 		10220201,
 		10220251,
 		10220202,
@@ -236911,6 +240835,7 @@ pg.world_event_data = {
 		10230060,
 		10230061,
 		10230101,
+		10230151,
 		10230201,
 		10230251,
 		10230202,
@@ -236940,6 +240865,7 @@ pg.world_event_data = {
 		10240060,
 		10240061,
 		10240101,
+		10240151,
 		10240201,
 		10240251,
 		10240202,
@@ -236970,7 +240896,9 @@ pg.world_event_data = {
 		10250060,
 		10250061,
 		10250101,
+		10250151,
 		10250102,
+		10250152,
 		10250201,
 		10250251,
 		10250202,
@@ -237002,6 +240930,7 @@ pg.world_event_data = {
 		10310060,
 		10310061,
 		10310101,
+		10310151,
 		10310201,
 		10310251,
 		10310202,
@@ -237032,7 +240961,9 @@ pg.world_event_data = {
 		10320060,
 		10320061,
 		10320101,
+		10320151,
 		10320102,
+		10320152,
 		10320201,
 		10320251,
 		10320202,
@@ -237065,7 +240996,9 @@ pg.world_event_data = {
 		10330060,
 		10330061,
 		10330101,
+		10330151,
 		10330102,
+		10330152,
 		10330201,
 		10330251,
 		10330202,
@@ -237098,7 +241031,9 @@ pg.world_event_data = {
 		10340060,
 		10340061,
 		10340101,
+		10340151,
 		10340102,
+		10340152,
 		10340201,
 		10340251,
 		10340202,
@@ -237131,7 +241066,9 @@ pg.world_event_data = {
 		10410060,
 		10410061,
 		10410101,
+		10410151,
 		10410102,
+		10410152,
 		10410201,
 		10410251,
 		10410202,
@@ -237165,7 +241102,9 @@ pg.world_event_data = {
 		10420060,
 		10420061,
 		10420101,
+		10420151,
 		10420102,
+		10420152,
 		10420201,
 		10420251,
 		10420202,
@@ -237199,6 +241138,7 @@ pg.world_event_data = {
 		10430060,
 		10430061,
 		10430101,
+		10430151,
 		10430201,
 		10430251,
 		10430202,
@@ -237228,6 +241168,7 @@ pg.world_event_data = {
 		10440060,
 		10440061,
 		10440101,
+		10440151,
 		10440201,
 		10440251,
 		10440202,
@@ -237259,7 +241200,9 @@ pg.world_event_data = {
 		10510060,
 		10510061,
 		10510101,
+		10510151,
 		10510102,
+		10510152,
 		10510201,
 		10510251,
 		10510202,
@@ -237295,7 +241238,9 @@ pg.world_event_data = {
 		10520060,
 		10520061,
 		10520101,
+		10520151,
 		10520102,
+		10520152,
 		10520201,
 		10520251,
 		10520202,
@@ -237331,7 +241276,9 @@ pg.world_event_data = {
 		10530060,
 		10530061,
 		10530101,
+		10530151,
 		10530102,
+		10530152,
 		10530201,
 		10530251,
 		10530202,
@@ -237367,7 +241314,9 @@ pg.world_event_data = {
 		10540060,
 		10540061,
 		10540101,
+		10540151,
 		10540102,
+		10540152,
 		10540201,
 		10540251,
 		10540202,
@@ -237403,7 +241352,9 @@ pg.world_event_data = {
 		10610060,
 		10610061,
 		10610101,
+		10610151,
 		10610102,
+		10610152,
 		10610201,
 		10610251,
 		10610202,
@@ -237438,7 +241389,9 @@ pg.world_event_data = {
 		10620060,
 		10620061,
 		10620101,
+		10620151,
 		10620102,
+		10620152,
 		10620201,
 		10620251,
 		10620202,
@@ -237472,7 +241425,9 @@ pg.world_event_data = {
 		10630060,
 		10630061,
 		10630101,
+		10630151,
 		10630102,
+		10630152,
 		10630201,
 		10630251,
 		10630202,
@@ -237508,7 +241463,9 @@ pg.world_event_data = {
 		10640060,
 		10640061,
 		10640101,
+		10640151,
 		10640102,
+		10640152,
 		10640201,
 		10640251,
 		10640202,
@@ -237543,7 +241500,9 @@ pg.world_event_data = {
 		10650060,
 		10650061,
 		10650101,
+		10650151,
 		10650102,
+		10650152,
 		10650201,
 		10650251,
 		10650202,
@@ -237576,7 +241535,9 @@ pg.world_event_data = {
 		10660060,
 		10660061,
 		10660101,
+		10660151,
 		10660102,
+		10660152,
 		10660201,
 		10660251,
 		10660202,
@@ -237611,7 +241572,9 @@ pg.world_event_data = {
 		10710060,
 		10710061,
 		10710101,
+		10710151,
 		10710102,
+		10710152,
 		10710201,
 		10710251,
 		10710202,
@@ -237648,7 +241611,9 @@ pg.world_event_data = {
 		10720060,
 		10720061,
 		10720101,
+		10720151,
 		10720102,
+		10720152,
 		10720201,
 		10720251,
 		10720202,
@@ -237685,7 +241650,9 @@ pg.world_event_data = {
 		10730060,
 		10730061,
 		10730101,
+		10730151,
 		10730102,
+		10730152,
 		10730201,
 		10730251,
 		10730202,
@@ -237719,6 +241686,7 @@ pg.world_event_data = {
 		10810060,
 		10810061,
 		10810101,
+		10810151,
 		10810201,
 		10810251,
 		10810202,
@@ -237750,7 +241718,9 @@ pg.world_event_data = {
 		10820060,
 		10820061,
 		10820101,
+		10820151,
 		10820102,
+		10820152,
 		10820201,
 		10820251,
 		10820202,
@@ -237784,6 +241754,7 @@ pg.world_event_data = {
 		10830060,
 		10830061,
 		10830101,
+		10830151,
 		10830201,
 		10830251,
 		10830202,
@@ -237813,6 +241784,7 @@ pg.world_event_data = {
 		10840060,
 		10840061,
 		10840101,
+		10840151,
 		10840201,
 		10840251,
 		10840202,
@@ -237844,7 +241816,9 @@ pg.world_event_data = {
 		10850060,
 		10850061,
 		10850101,
+		10850151,
 		10850102,
+		10850152,
 		10850201,
 		10850251,
 		10850202,
@@ -237880,7 +241854,9 @@ pg.world_event_data = {
 		10910060,
 		10910061,
 		10910101,
+		10910151,
 		10910102,
+		10910152,
 		10910201,
 		10910251,
 		10910202,
@@ -237914,6 +241890,7 @@ pg.world_event_data = {
 		10920060,
 		10920061,
 		10920101,
+		10920151,
 		10920201,
 		10920251,
 		10920202,
@@ -237943,6 +241920,7 @@ pg.world_event_data = {
 		10930060,
 		10930061,
 		10930101,
+		10930151,
 		10930201,
 		10930251,
 		10930202,
@@ -237973,7 +241951,9 @@ pg.world_event_data = {
 		10940060,
 		10940061,
 		10940101,
+		10940151,
 		10940102,
+		10940152,
 		10940201,
 		10940251,
 		10940202,
@@ -238006,7 +241986,9 @@ pg.world_event_data = {
 		10950060,
 		10950061,
 		10950101,
+		10950151,
 		10950102,
+		10950152,
 		10950201,
 		10950251,
 		10950202,
@@ -238041,7 +242023,9 @@ pg.world_event_data = {
 		11010060,
 		11010061,
 		11010101,
+		11010151,
 		11010102,
+		11010152,
 		11010201,
 		11010251,
 		11010202,
@@ -238078,7 +242062,9 @@ pg.world_event_data = {
 		11020060,
 		11020061,
 		11020101,
+		11020151,
 		11020102,
+		11020152,
 		11020201,
 		11020251,
 		11020202,
@@ -238114,7 +242100,9 @@ pg.world_event_data = {
 		11030060,
 		11030061,
 		11030101,
+		11030151,
 		11030102,
+		11030152,
 		11030201,
 		11030251,
 		11030202,
@@ -238150,7 +242138,9 @@ pg.world_event_data = {
 		11040060,
 		11040061,
 		11040101,
+		11040151,
 		11040102,
+		11040152,
 		11040201,
 		11040251,
 		11040202,
@@ -238185,7 +242175,9 @@ pg.world_event_data = {
 		11050060,
 		11050061,
 		11050101,
+		11050151,
 		11050102,
+		11050152,
 		11050201,
 		11050251,
 		11050202,
@@ -238220,7 +242212,9 @@ pg.world_event_data = {
 		11060060,
 		11060061,
 		11060101,
+		11060151,
 		11060102,
+		11060152,
 		11060201,
 		11060251,
 		11060202,
@@ -238255,7 +242249,9 @@ pg.world_event_data = {
 		11110060,
 		11110061,
 		11110101,
+		11110151,
 		11110102,
+		11110152,
 		11110201,
 		11110251,
 		11110202,
@@ -238287,6 +242283,7 @@ pg.world_event_data = {
 		11120060,
 		11120061,
 		11120101,
+		11120151,
 		11120201,
 		11120251,
 		11120202,
@@ -238317,7 +242314,9 @@ pg.world_event_data = {
 		11130060,
 		11130061,
 		11130101,
+		11130151,
 		11130102,
+		11130152,
 		11130201,
 		11130251,
 		11130202,
@@ -238350,7 +242349,9 @@ pg.world_event_data = {
 		11140060,
 		11140061,
 		11140101,
+		11140151,
 		11140102,
+		11140152,
 		11140201,
 		11140251,
 		11140202,
@@ -238385,7 +242386,9 @@ pg.world_event_data = {
 		11210060,
 		11210061,
 		11210101,
+		11210151,
 		11210102,
+		11210152,
 		11210201,
 		11210251,
 		11210202,
@@ -238419,6 +242422,7 @@ pg.world_event_data = {
 		11220060,
 		11220061,
 		11220101,
+		11220151,
 		11220201,
 		11220251,
 		11220202,
@@ -238449,7 +242453,9 @@ pg.world_event_data = {
 		11230060,
 		11230061,
 		11230101,
+		11230151,
 		11230102,
+		11230152,
 		11230201,
 		11230251,
 		11230202,
@@ -238484,7 +242490,9 @@ pg.world_event_data = {
 		11240060,
 		11240061,
 		11240101,
+		11240151,
 		11240102,
+		11240152,
 		11240201,
 		11240251,
 		11240202,
@@ -238519,7 +242527,9 @@ pg.world_event_data = {
 		11250060,
 		11250061,
 		11250101,
+		11250151,
 		11250102,
+		11250152,
 		11250201,
 		11250251,
 		11250202,
@@ -238551,6 +242561,7 @@ pg.world_event_data = {
 		11310060,
 		11310061,
 		11310101,
+		11310151,
 		11310201,
 		11310251,
 		11310202,
@@ -238580,6 +242591,7 @@ pg.world_event_data = {
 		11320060,
 		11320061,
 		11320101,
+		11320151,
 		11320201,
 		11320251,
 		11320202,
@@ -238610,7 +242622,9 @@ pg.world_event_data = {
 		11330060,
 		11330061,
 		11330101,
+		11330151,
 		11330102,
+		11330152,
 		11330201,
 		11330251,
 		11330202,
@@ -238642,6 +242656,7 @@ pg.world_event_data = {
 		11340060,
 		11340061,
 		11340101,
+		11340151,
 		11340201,
 		11340251,
 		11340202,
@@ -238672,7 +242687,9 @@ pg.world_event_data = {
 		11350060,
 		11350061,
 		11350101,
+		11350151,
 		11350102,
+		11350152,
 		11350201,
 		11350251,
 		11350202,
@@ -238705,7 +242722,9 @@ pg.world_event_data = {
 		11410060,
 		11410061,
 		11410101,
+		11410151,
 		11410102,
+		11410152,
 		11410201,
 		11410251,
 		11410202,
@@ -238739,7 +242758,9 @@ pg.world_event_data = {
 		11420060,
 		11420061,
 		11420101,
+		11420151,
 		11420102,
+		11420152,
 		11420201,
 		11420251,
 		11420202,
@@ -238774,7 +242795,9 @@ pg.world_event_data = {
 		11430060,
 		11430061,
 		11430101,
+		11430151,
 		11430102,
+		11430152,
 		11430201,
 		11430251,
 		11430202,
@@ -238809,7 +242832,9 @@ pg.world_event_data = {
 		11440060,
 		11440061,
 		11440101,
+		11440151,
 		11440102,
+		11440152,
 		11440201,
 		11440251,
 		11440202,
@@ -238846,7 +242871,9 @@ pg.world_event_data = {
 		11510060,
 		11510061,
 		11510101,
+		11510151,
 		11510102,
+		11510152,
 		11510201,
 		11510251,
 		11510202,
@@ -238883,7 +242910,9 @@ pg.world_event_data = {
 		11520060,
 		11520061,
 		11520101,
+		11520151,
 		11520102,
+		11520152,
 		11520201,
 		11520251,
 		11520202,
@@ -238920,7 +242949,9 @@ pg.world_event_data = {
 		11530060,
 		11530061,
 		11530101,
+		11530151,
 		11530102,
+		11530152,
 		11530201,
 		11530251,
 		11530202,
@@ -238956,7 +242987,9 @@ pg.world_event_data = {
 		11540060,
 		11540061,
 		11540101,
+		11540151,
 		11540102,
+		11540152,
 		11540201,
 		11540251,
 		11540202,
@@ -238987,7 +243020,9 @@ pg.world_event_data = {
 		11550060,
 		11550061,
 		11550101,
+		11550151,
 		11550102,
+		11550152,
 		11550201,
 		11550251,
 		11550202,
@@ -239024,7 +243059,9 @@ pg.world_event_data = {
 		11560060,
 		11560061,
 		11560101,
+		11560151,
 		11560102,
+		11560152,
 		11560201,
 		11560251,
 		11560202,
@@ -239061,7 +243098,9 @@ pg.world_event_data = {
 		11570060,
 		11570061,
 		11570101,
+		11570151,
 		11570102,
+		11570152,
 		11570201,
 		11570251,
 		11570202,
@@ -239098,7 +243137,9 @@ pg.world_event_data = {
 		11580060,
 		11580061,
 		11580101,
+		11580151,
 		11580102,
+		11580152,
 		11580201,
 		11580251,
 		11580202,
@@ -239135,7 +243176,9 @@ pg.world_event_data = {
 		11590060,
 		11590061,
 		11590101,
+		11590151,
 		11590102,
+		11590152,
 		11590201,
 		11590251,
 		11590202,

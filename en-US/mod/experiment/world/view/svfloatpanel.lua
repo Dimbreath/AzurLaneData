@@ -97,7 +97,7 @@ end
 
 function slot0.UpdatePanel(slot0, slot1)
 	slot2 = nowWorld
-	slot6 = nowWorld:ReplacementMapType(slot0.entrance:GetBaseMap(), slot0.destMap) == "complete_chapter" and "safe" or WorldConst.GetMapIconState(slot4.config.entrance_ui)
+	slot6 = World.ReplacementMapType(slot0.entrance, slot0.destMap) == "complete_chapter" and "safe" or WorldConst.GetMapIconState(slot4.config.entrance_ui)
 
 	setImageSprite(slot0.rtBasePoint, getImageSprite(slot0.rtRes:Find(slot0.rtBasePoint.name .. "/" .. slot6)), true)
 	setImageSprite(slot0.rtInfoPanel, getImageSprite(slot0.rtRes:Find(slot0.rtInfoPanel.name .. "/" .. slot6)))
@@ -108,7 +108,7 @@ function slot0.UpdatePanel(slot0, slot1)
 	setActive(slot0.rtPressingMark, slot5 == "complete_chapter" or slot4.isPressing)
 	setActive(slot0.rtInfoPanel:Find("sairen"), slot5 == "sairen_chapter")
 	setText(slot0.rtInfoPanel:Find("danger_text"), slot4:IsMapOpen() and slot4:GetDanger() or "?")
-	changeToScrollText(slot0.rtInfoPanel:Find("title/name"), slot4:GetName(slot3))
+	changeToScrollText(slot0.rtInfoPanel:Find("title/name"), slot4:GetName(slot0.entrance:GetBaseMap()))
 
 	slot9, slot10, slot11 = slot2:CountAchievements(slot0.entrance)
 

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "不愧是历战的“舰船”…不过，我也不会轻易示弱！就是现在！看我的！",
+			say = "I wasn't expecting an easy fight against a renowned shipgirl... but I refuse to lose! Now's my chance to deliver the decisive strike!",
 			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "不会让你得逞的，哈啊啊啊啊啊！",
+			say = "Not so fast! Hi-yaaaaah!",
 			flashin = {
 				delay = 0.2,
 				dur = 0.2,
@@ -47,7 +47,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "两人进行了一段堪称绝妙的攻防，让人忍不住为之拍手叫好。",
+			say = "The crowd breaks into a cheer at the display of perfect offense and defense.",
 			flashin = {
 				delay = 0.2,
 				dur = 0.2,
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到此为止喵！双方都表现得非常精彩喵！",
+			say = "Aaaand stop! Both teams put on an equally stunning performance, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "承让了！虽然听说霞小姐和莫妮卡小姐原本是在参加类似选美大赛一般的活动…没想到居然有如此的战斗能力，之前多少有点小看你们了，果然我还是太不成熟了…",
+			say = "Simply amazing! I would've never expected you two to be so powerful, Kasumi and Monica... It looks as if I still have a long way to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600030,
-			say = "呵呵~{namecode:66}小姐才是，虽然穿着这么可爱的泳装，攻势却相当凌厉呢~",
+			say = "Heheh, you're pretty good too! Not only are you super cute, but you've also got some serious skill to boot~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，我也没有那么……",
+			say = "N-no, you flatter me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600070,
-			say = "呵呵~感觉{namecode:66}小姐应该也很适合参加原本的“维纳斯挑战赛”呢~",
+			say = "Heheh~ How about participating in the Venus Festival along with us, Takao?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸、欸？！",
+			say = "P-pardon?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600070,
-			say = "下次让我们不以战斗，而是以其他的方式“一决胜负”吧~比如沙滩排球什么的~？",
+			say = "No, I mean it! Come on, how about playing us in a serious match of beach volleyball?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉是个不错的主意呢~",
+			say = "Sounds like a great idea~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，总而言之，第一场比赛到此结束喵！大家可以自由活动喵！无论要玩沙还是打排球都可以喵！让我们第二场比赛再见喵！",
+			say = "That about does it for the first round, nya! Everyone, we're going into an intermission! I'll see you all for round two, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

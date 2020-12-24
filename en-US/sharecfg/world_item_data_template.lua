@@ -868,9 +868,9 @@ pg.world_item_data_template = {
 	},
 	[2120] = {
 		rarity = 4,
-		display = "Blueprints for the development of a UR-rarity torpedo. Used in the Gear Lab.",
+		display = "Can be used to obtain a SR Gear Design Plan from the included options. ",
 		sort_priority = 2,
-		name = "UR Torpedo Design Plans",
+		name = "SR Gear Design Plans ",
 		expired_date = "",
 		item_transform_resource_num = 400,
 		grid_num = 1,
@@ -907,9 +907,9 @@ pg.world_item_data_template = {
 	},
 	[2121] = {
 		rarity = 5,
-		display = "Blueprints for the development of a UR-rarity aircraft. Used in the Gear Lab.",
+		display = "Can be used to obtain a UR Gear Design Plan from the included options.",
 		sort_priority = 2,
-		name = "UR Aircraft Design Plans",
+		name = "UR Gear Design Plans ",
 		expired_date = "",
 		item_transform_resource_num = 800,
 		grid_num = 1,

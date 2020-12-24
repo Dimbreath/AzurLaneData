@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "经过一番准备，万众期待的“祭典”终于要开始了——",
+			say = "Now that the preparations are complete, the long-awaited festival finally begins.",
 			side = 2,
 			dir = 1,
 			bgm = "doa_boss",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼~既然决定要做，就要做到最好喵！特别演习活动~维纳斯挑战赛，马上就要开始了喵！惯例由本人{namecode:98}进行解说喵！",
+			say = "Hehe~ I made sure to make this quite the show! The special training exercise, Special Venus Festival, starts now, nya! Leave the casting to me, the annyauncer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本次演习由红方-维纳斯，对蓝方-指挥官指派的舰船喵！与平常的演习不同，大家不用在意胜负，各自做出最“华丽”的战斗表现就好喵！",
+			say = "In this exercise, the red team of Venuses will compete against the blue team under the Commander, nya! Win or lose, show us your exquisite forms in this battle, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，各位的舰装弹药也经过了特殊的处理，并不会造成真正的杀伤力喵！请尽情地进行战斗喵！",
+			say = "By the way, you're using special ammo, so nobody will be hurt in this battle, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事不宜迟喵！第一回合战斗马上开始喵！首先让我们介绍红方选手！",
+			say = "Now let's begin, nya! First, we'll introduce the red team!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "温柔与强大并存，爱好占卜的大姐姐，霞喵！以及魅惑与睿智同在，见习荷官大姐姐，莫妮卡喵！",
+			say = "The beauty who tells fortunes in her free time, Kasumi, and the dealer-in-training, Monica! Nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600030,
-			say = "呼呼，最先是由我们上场啊，我会加油的！",
+			say = "Heheh, we're up first, it seems! Let's go get 'em!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 10600040,
 			nameColor = "#a9f548",
-			say = "霞~莫妮卡~加油！我们都在这里为你应援哦！",
+			say = "Kasumi! Monica! We're all cheering you on, so do your best~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600070,
-			say = "哎呀？对手也是相当可爱的女孩子们呢~",
+			say = "Oh? The enemy appears to be... a group of super cute girls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来是蓝方选手！手持木刀的武士！纯白的沙滩狂想曲，{namecode:66}喵！以及热情的大姐姐，和煦的盛夏进行曲，{namecode:67}喵！",
+			say = "Next up is the blue team, nya! The one with the wooden sword is Takao, and the beaut with overflowing passion, that's Atago, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕呜…虽然得到指挥官信任，担任前锋是很荣幸的事情，不过…为什么一定要穿着泳装上场啊！？",
+			say = "It's an honor to be relied upon by the Commander, but... why are we in swimsuits?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟是“维纳斯挑战赛”，这样的穿着也更符合“美”的主题嘛~呵呵~",
+			say = "That's because it's the Special Venus Festival! Don't you think swimsuits fit the atmosphere better? Hehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600070,
-			say = "{namecode:66}小姐的泳装，非常可爱哦！",
+			say = "Takao, your swimsuit is way too cute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咿~谢、谢谢……",
+			say = "Ugh... Th-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 10600030,
 			nameColor = "#a9f548",
-			say = "让我们各自尽最大的努力，来一场最棒的比赛吧！",
+			say = "Well, let's get started! Best of luck to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳…啊啊，尽管来吧！一决胜负！",
+			say = "Indeed... May the best duelist win!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 312010,
-			say = "那就…比赛开始喵！",
+			say = "Well then... Begin, nya!",
 			effects = {
 				{
 					active = true,

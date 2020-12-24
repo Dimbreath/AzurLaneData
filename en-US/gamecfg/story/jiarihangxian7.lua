@@ -11,7 +11,7 @@ return {
 			bgm = "doa_daozhong",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "指挥官！终端的进度更新了喵！",
+			say = "Commander, there's a change in the terminal, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "终端的显示屏上，原本显示为0%的数字，变成了28.5%。不知道通讯溯源的结果如何？",
+			say = "It said 0% progress before, but now it's at 28.5%. How is it keeping track of what's happening?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵…还没能搜寻到信号源喵…",
+			say = "Who knows... I still haven't pinpointed the originator, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "唔，看来只能继续观察状况了……",
+			say = "It looks like we'll just have to keep an eye on it as we proceed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

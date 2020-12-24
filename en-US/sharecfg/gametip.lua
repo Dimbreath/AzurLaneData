@@ -2908,7 +2908,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "*If you have less than 100 AP, you will regenerate <color=#92fc63>1</color> AP every <color=#92fc63>10 minutes</color>. "
 	},
 	world_stamina_text = {
-		tip = "Spend <color=#92fc63>$1</color> Oil to refill <color=#92fc63>$2</color> AP? (Daily refills available: <color=#92fc63>$3/$4</color>)"
+		tip = "Spend <color=#92fc63>$1</color> Oil to refill <color=#92fc63>$2</color> AP? (weekly refills available: <color=#92fc63>$3/$4</color>)"
 	},
 	world_stamina_text2 = {
 		tip = "Spent <color=#92fc63>$1</color> Oil to recover <color=#92fc63>$2</color> AP."
@@ -3266,6 +3266,9 @@ Are you sure you want to cancel the item retrieval?
 	},
 	world_map_level = {
 		tip = "Operation Level:\nYour current Operation Level is <color=#92fc63>$1</color>. Please consider challenging stages with an equal or lower Corrosion Level. "
+	},
+	world_movelimit_event_text = {
+		tip = "Can't leave now due to unfinished missions in this zone"
 	},
 	task_notfound_error = {
 		tip = "Unable to find mission config. Update may be required. Error ID: "
@@ -12798,7 +12801,7 @@ to see the bonuses provided by each stat level.]]
 		tip = "HE"
 	},
 	equip_ammo_type_3 = {
-		tip = "Normal"
+		tip = "Cannon"
 	},
 	equip_ammo_type_4 = {
 		tip = "Magnetic "
@@ -12839,7 +12842,7 @@ to see the bonuses provided by each stat level.]]
 				info = "- Claim rewards from accumulating Sync Points"
 			},
 			{
-				info = "- Carry out Rigging Fortification, and Tactical Research, and Somatic Activation/n/n"
+				info = "- Carry out Rigging Fortification, and Tactical Research, and Somatic Activation"
 			},
 			{
 				info = "1. About Sync Points:"
@@ -12848,7 +12851,7 @@ to see the bonuses provided by each stat level.]]
 				info = "Sync Points obtained through Ashes Showdown in Operation Siren can be used to recruit certain META ships."
 			},
 			{
-				info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship./n/n"
+				info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship."
 			},
 			{
 				info = "2. About Rigging Fortification:"
@@ -12860,7 +12863,7 @@ to see the bonuses provided by each stat level.]]
 				info = "Enhancing these stats past a certain threshold grants you access to additional bonus stat boosts."
 			},
 			{
-				info = "The process of fortifying riggings requires specific materials./n/n"
+				info = "The process of fortifying riggings requires specific materials."
 			},
 			{
 				info = "3. About Somatic Activation:"
@@ -12869,7 +12872,7 @@ to see the bonuses provided by each stat level.]]
 				info = "Much like ordinary ships, META ships can be upgraded and have their star rating increase. However, instead of Bulins, META ships require their own item called META Crystals."
 			},
 			{
-				info = "For more information, consult the tips on ordinary Limit Breaking./n/n"
+				info = "For more information, consult the tips on ordinary Limit Breaking."
 			},
 			{
 				info = "4. About Tactical Research:"

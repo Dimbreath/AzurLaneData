@@ -166,12 +166,16 @@ function slot0.AddShip(slot0, slot1, slot2)
 
 	slot5:Lock()
 	PoolMgr.GetInstance():GetSpineChar(slot4, true, function (slot0)
-		slot0.name = uv0
+		if IsNil(uv0.nameTF) then
+			return
+		end
 
-		cloneTplTo(uv1.nameTF, slot0.transform, "name")
+		slot0.name = uv1
+
+		cloneTplTo(uv0.nameTF, slot0.transform, "name")
 
 		if uv2.isCommander then
-			cloneTplTo(uv1.commanderTag, slot0.transform, "tag")
+			cloneTplTo(uv0.commanderTag, slot0.transform, "tag")
 		end
 
 		uv3(uv2, uv4, slot0, uv5)

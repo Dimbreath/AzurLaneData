@@ -9,9 +9,12 @@ function slot0.execute(slot0, slot1)
 		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0.donate_tasks) do
-			table.insert(slot1, GuildDonateTask.New({
+			slot7 = GuildDonateTask.New({
 				id = slot6
-			}))
+			})
+
+			table.insert(slot1, slot7)
+			print("donate id : ", slot7.id)
 		end
 
 		slot2 = getProxy(GuildProxy)

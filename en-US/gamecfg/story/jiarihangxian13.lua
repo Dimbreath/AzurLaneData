@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "经历了前面几场激动人心的比赛，终于喵！我们终于迎来了最后的比赛喵！",
+			say = "We've had a wonderful show so far, haven't we, nya? Now it's time to close it off... with the final round, nya!",
 			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是身为主持的{namecode:98}，也多少有些激动和不舍喵！",
+			say = "It's unfortunate that the show is almost over, but all good things must come to an end, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "闲话不多说喵！马上就来介绍最后一战的双方喵！",
+			say = "Anyway! Allow me to introduce the last contestants, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 312010,
-			say = "红方！传说中的大妖怪一族，黑色的大天狗·女天狗喵！",
+			say = "The red team! The demon of legend, Nyotengu!",
 			effects = {
 				{
 					active = true,
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 10600060,
 			nameColor = "#a9f548",
-			say = "呼呼，我很期待今天的比赛哦~",
+			say = "Hehehe, I've been waiting for this moment.",
 			effects = {
 				{
 					active = false,
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蓝方指挥官派出的是…喵喵！？竟然是重樱的新星，五航战的姐妹·{namecode:95}&{namecode:96}喵！！",
+			say = "The blue team, chosen by the Commander, is none other than... Oh my, nya! The rising stars of the Sakura Empire, Shoukaku and Zuikaku, of the 5th Carrier Divison!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "加油啊~我很看好你们哦，{namecode:95},{namecode:96}！",
+			say = "Shoukaku, Zuikaku, this is your moment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦！传说中的“大妖怪”吗…作为对手来说没有比这个更让人兴奋的了！请多指教！女天狗前辈！",
+			say = "Oh, nice! So this is the demon of legend, Nyotengu... Nothing we can't handle, though! It's nice to meet you, Miss Nyotengu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10600060,
-			say = "嚯~挺有精神的嘛，看来不会辜负我的期待了~",
+			say = "Hoh, what a lively one. Let us see if you live up to my expectations, hehehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能亲自上阵着实有些可惜，交给你们了，加油干吧，五航战。",
+			say = "Shame that we're not the ones on stage, but we'll leave it to you. Don't let us down, 5th.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然不派{namecode:91}，而选了五航的毛头小鬼…指挥官还真是顽皮呀~回头得跟指挥官好~好交流一番了呢❤",
+			say = "To think I was passed over for them... Oh, Commander, you can be such a prankster sometimes~ Expect lots and lots of love and cuddles as my form of payback.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您就在那好好看着我们为重樱争光吧~{namecode:91}·前·辈~",
+			say = "Hah! I promise we won't let you down, great and honorable Akagi~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵~虽然我来自遥远的他乡，却对汝等“重樱”有种莫名的熟悉感呢，这也算是一种缘分~放马过来吧，要好好让我开心一下哦！",
+			say = "Hehehe. The sight of you Sakura Empire lasses brings me such nostalgia. Perhaps there is a bond that connects us. Now, entertain me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:96}&{namecode:95}",
-			say = "是！",
+			say = "Let's go!",
 			effects = {
 				{
 					active = true,
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 312010,
-			say = "喵喵喵！比、比赛开始喵！",
+			say = "Oh boy... Um, final round, start, nya!",
 			effects = {
 				{
 					active = false,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"假日航线-日常篇\n\n<size=45>四 重樱的闲谈</size>",
+					"Vacation Lane - Cozy Days\n\n<size=45>4 Tales from the Sakura Empire</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "doa_story1",
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "不管怎么说，想到传说中的“大天狗”就活生生的在眼前，还是很让人激动啊~",
+			say = "Holy smokes, the legends were real after all! We're talking to a real-life greater tengu!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}，虽然很理解你激动的心情，不过在前辈们面前太失礼可不行哦~",
+			say = "Shh, Zuikaku. I share your amazement, but it's rude to address someone like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 900305,
 			nameColor = "#a9f548",
-			say = "无妨，年轻一辈就该有年轻一辈的活力~",
+			say = "I do not mind. I've lived for far too long to fuss over inconsequential details such as that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "不过，“重樱”的方方面面，确实都给人一种十分熟悉的感觉呢。",
+			say = "I must say, so much of the Sakura Empire feels so pleasantly familiar to the place that I'm from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "之前跟几位重樱的小小“忍者”们，也进行了一番有趣的交流~",
+			say = "I even ran into some girls who claimed to be ninjas! It was so much fun chatting with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，几位客人能喜欢这里就再好不过了~！",
+			say = "Hahah. I'm pleased to hear you are enjoying your stay here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "茶泡好了哦，几位请~",
+			say = "I've brought some tea. Would anyone like a cup?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "“茶道”…啊，啊哈哈，确实就像是在原本的故乡一样呀~",
+			say = "I do not mind. I've lived for far too long to fuss over inconsequential details such as that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有供奉神明的“神社”，和巫女~",
+			say = "They have temples where they worship the gods, and shrine maidens that tend to them. Where, I wonder, do the similarities end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "是呢，穗香好像在跟巫女们学习神乐舞，似乎已经跳得有模有样的了~",
+			say = "Not there, at least. I heard Honoka learned this world's customary shrine maiden dance from the girls at one of the temples.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这小姑娘，还是一如既往地学习能力惊人啊。",
+			say = "Always eager to learn new things, that lass. Ah-haha.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 900305,
 			nameColor = "#a9f548",
-			say = "这边还是有些独特的东西，比如这个能让人在海上航行，发挥战力的“舰装”。",
+			say = "Truly, this place is teeming with novel and fascinating things. Not least of all, these \"riggings\" as they call them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过几位都很快适应了呢，看来诸位平时都对战斗很熟悉的样子啊~",
+			say = "You seemed to adapt to them quickly, almost as though battling comes second nature to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "女天狗前辈真的很厉害啊，演习的时候也是，和{namecode:95}姐两个人都差点被前辈的气势压倒了呢！",
+			say = "You could say that again... Nyotengu was THIS close to beating us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 900305,
 			nameColor = "#a9f548",
-			say = "我也玩得很尽兴哦，呵呵，你们俩还是挺不错的~",
+			say = "Ah-haha. You put up a fierce fight, though. I had my share of fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，毕竟是我值得骄傲的后辈嘛~",
+			say = "Hahaha! I taught you juniors well! Clearly, you've not yet met your match.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "虽然来到这里是意外，不过最后还是度过了一段快乐的时间呢，无论是演习比赛也好，沙滩排球也好~",
+			say = "When we first arrived here, I was really worried about how we'd fare... But it turns out I got worked up over nothing. We've all had so much fun already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还泡到了不错的温泉呐~",
+			say = "The hot springs weren't so bad either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说到温泉，感觉最近肩膀又开始酸了呢…",
+			say = "It might be time I visit one again soon... My shoulders have been aching terribly of late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，前辈，要我帮你锤锤肩吗？",
+			say = "Oh, they have? Want me to give you a massage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			actor = 900302,
 			nameColor = "#a9f548",
-			say = "重樱的各位关系果然都很好呢~",
+			say = "Hehe. It's heartwarming, seeing everyone get along like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			actor = 900305,
 			nameColor = "#a9f548",
-			say = "呵呵，不妨再同去享受一回温泉吧~？",
+			say = "Well, I am pining for a hot spring visit. Will you any of you join me? Your company would be more amusing than that of some wild simians~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "因女神<Venus>们的到来而产生的波澜终将告一段落，而港区的生活，还将继续下去——",
+			say = "The port's newest recruits bring not only their skills to the table, but a smile to everyone's face. And so, the Venus girls' vacation continues.",
 			flashout = {
 				dur = 0.5,
 				black = true,

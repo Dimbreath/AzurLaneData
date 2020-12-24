@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"假日航线-日常篇\n\n<size=45>二 突然的沙雕大会</size>",
+					"Vacation Lane - Cozy Days\n\n<size=45>2 Sandcastle Showdown</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "doa_story3",
 			actor = 900300,
 			nameColor = "#a9f548",
-			say = "好~！玛莉和穗香的组合是绝对不会输给任何人的！",
+			say = "Hey, Honoka! We're building a sandcastle! Come on!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦~一起加油吧，玛莉~",
+			say = "Sounds good to me! Let's get to it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已加载多套“沙雕建筑”预备方案，随时准备实行…！",
+			say = "Fetching sandcastle blueprints from database. Proceeding to construction phase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然之前的沙堡最后还是没能赢过Sis Sara，不过，经过一番苦练，这次一定会表现得更好！",
+			say = "Now 'tis time to prove myself! I mustn't let my training have been for naught!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有意思~汝等会造出什么有趣的沙雕作品呢，真让人期待啊~",
+			say = "Fancy ourselves beachside architects, do we? Well, I shall be waiting to see your finalized creations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都挺兴致勃勃的呢~加油哦~",
+			say = "Ooh, are we all making sandcastles? That sounds like fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 900301,
 			nameColor = "#a9f548",
-			say = "评委的工作就麻烦你了哦~指挥官~",
+			say = "We need a judge to determine whose is best, though... Oh, I know! Let's have the Commander decide!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "因为种种原因，最后变成了这样的“港区沙雕大赛”……",
+			say = "Seemingly out of the blue, a competition to see who can build the best sandcastle began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_106",
 			side = 2,
 			dir = 1,
-			say = "经过一段时间的奋战，少女们各自的作品也差不多完成了——",
+			say = "After a lot of digging, sculpting, and molding, everyone's sandcastles were finally complete.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 900300,
 			nameColor = "#a9f548",
-			say = "锵锵~玛莉和穗香这次挑战的是~~~~这个~！",
+			say = "What did we make? Well, have a look... Ta-daaaah!",
 			effects = {
 				{
 					active = true,
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "体型巨大的圆球，水手服的领结还有海军帽……这是……",
+			say = "Marie and Honoka's creation is a giant sphere, donned with a necktie and a navy cap. It looks a lot like...",
 			effects = {
 				{
 					active = false,
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 900305,
 			nameColor = "#a9f548",
-			say = "呼呼，圆滚滚的，看起来就像馒头一样美味啊♪",
+			say = "Hmm. Nice and round, almost like a delectable manjuu~ Though, it bears more resemblance to a cat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨大的…指挥喵？！好可爱……不、不过我的也不会输的！",
+			say = "It appears to be a massive... Meowfficer? Charming, I must confess... However! Mine has its own merits!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			actor = 900305,
 			nameColor = "#a9f548",
-			say = "嚯…这是…“天守”吗，把气势很好地还原出来了嘛~",
+			say = "Ah, this is a traditional Sakura Empire castle, is it not? We mayhaps share aesthetic tastes, you and I.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~不亏是{namecode:66}小姐，真厉害~",
+			say = "Whoooaa! That's amazing, Takao!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "而加斯科涅则是……",
+			say = "Let's see what our resident champion, Gascogne, came up with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 900300,
 			nameColor = "#a9f548",
-			say = "好、好气派的拱门！门柱上居然还有浮雕的样式！？",
+			say = "Oh my gosh... It's some kind of arch with fancy patterns etched into it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简直像是把哪里的奇观搬过来了一样呢……",
+			say = "Why, it looks like it came straight out of a museum!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是代表胜利的拱门…！",
+			say = "Analysis: this sandcastle was constructed in the likeness of the Arc de Triomphe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			actor = 900305,
 			nameColor = "#a9f548",
-			say = "哈哈哈，真是太有趣了，果然没有白期待啊~",
+			say = "Ah-haha! This certainly is beyond my expectations! Fantastic!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			actor = 900300,
 			nameColor = "#a9f548",
-			say = "指挥官！接下来就是你的任务了！",
+			say = "So, Commander, which do you think is the best? You're the judge!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			actor = 900301,
 			nameColor = "#a9f548",
-			say = "嘻嘻，还是请指挥官作为大会的裁判做出决定吧~",
+			say = "Whichever it is you like the most, you can only choose one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，来吧！说出你认为的冠军作品吧！",
+			say = "Let your heart guide your choice, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等待…最终评测……",
+			say = "Requesting Master's assessment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "大家都各自堆出了很棒的沙雕作品呢…那么，究竟该选哪一个呢——",
+			say = "It's not easy to choose when they're all so good... Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

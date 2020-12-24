@@ -9,23 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "Successfully gathered data on the Siren enhancement modules.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 900284,
-			say = "Rigging successfully augmented based on analysis of Siren enhancement module.",
+			say = "Successfully gathered data on the Siren enhancement modules. Rigging successfully augmented based on analysis of Siren enhancement module.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

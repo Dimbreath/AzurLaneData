@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "呵呵呵~再来！还可以更尽兴一些！",
+			say = "Hehehe, that's not enough! That much won't do!",
 			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "不愧是大天狗前辈啊…居然还有这么多的余力…！",
+			say = "The legends of her power were true after all... And she still isn't going all-out on us...",
 			flashN = {
 				color = {
 					1,
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，我们也还能再拼一把！",
+			say = "Maybe not, but we haven't exhausted our bag of tricks just yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 10600060,
-			say = "不错！看来{namecode:82}说得没错，确实是值得期待的后辈！",
+			say = "Ooh, majestic... Just as Mikasa said, you young'uns don't disappoint!",
 			flashN = {
 				color = {
 					1,
@@ -114,7 +114,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:96}&{namecode:95}",
-			say = "哈啊啊啊啊啊啊啊啊啊啊！！！",
+			say = "Hiii-yaaaaaahhhhh!",
 			effects = {
 				{
 					active = true,
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到此为止喵！！没想到以重重限制的武装还能战斗到这个地步喵……",
+			say = "Aaand, stop!",
 			flashin = {
 				delay = 0.2,
 				dur = 0.2,
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，干得不错❤是一场让人心潮澎湃的战斗♪",
+			say = "Hehe, you two did well. That battle made my heart dance with joy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可是已经累坏了呢…呼……",
+			say = "I feel as though I'm about to keel over and die... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈，我也是，不过…感觉很充实！",
+			say = "Ahaha, yeah, I'm dead tired. But... somehow, that felt refreshing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "女天狗似乎打得十分尽兴，{namecode:96}和{namecode:95}也从战斗中有所收获得样子，看来这次是选对人了，要感谢{namecode:82}才是。",
+			say = "Nyotengu appears content, and Shoukaku and Zuikaku seem to have learned something from this battle. I'll have to thank Mikasa for her great advice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本次的特别演习活动~维纳斯挑战赛到此就结束了喵！无论是维纳斯的各位，还是港区的各位，都表现得非常棒喵！敬请期待下次的演习活动喵！",
+			say = "And that marks the end of our Special Venus Festival, nya! Everyone, great work, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

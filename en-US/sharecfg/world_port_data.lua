@@ -1424,7 +1424,7 @@ pg.world_port_data = {
 		port_bg = "port_chuanwu1",
 		goods_num = 6,
 		port_camp = 0,
-		goods_refresh_time = 86400,
+		goods_refresh_time = 5184000,
 		open_condition = {
 			{
 				1,

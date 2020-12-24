@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			say = "新伙伴的到来，也给港区带来了不太一样的欢乐氛围，以下，便是点缀在《维纳斯挑战赛》期间的几段愉快插曲——",
+			say = "With that chance encounter came exciting new vibes to the port. Now that the Venus girls have time for a vacation, how will they spend it?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -42,7 +42,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日航线-日常篇\n\n<size=45>一 要来一点可丽饼吗？</size>",
+					"Vacation Lane - Cozy Days\n\n<size=45>1 Care for a Crepe?</size>",
 					1
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			bgm = "doa_story1",
 			actor = 900303,
 			nameColor = "#a9f548",
-			say = "期间限定{namecode:98}甜品摊绝赞开张中~有各种口味的可丽饼哦~走过路过不要错过~",
+			say = "Come one, come all to Akashi's Crepe Stand! We've got more flavors than you can shake a stick at! You name it, we have it!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵~卖得不错喵~今天也是大丰收喵~",
+			say = "Woo, we're really raking in the money today, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 900303,
 			nameColor = "#a9f548",
-			say = "做可丽饼的主意能派上用场，真是太好了呢，{namecode:98}~",
+			say = "Heck yeah we are! I didn't expect them to be such a smash hit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海咲有做生意的天赋喵~是可以赚大钱的孩子喵~",
+			say = "Well, it was, and you came up with it, nya. You've got the makings of an entrepreneur, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻~也没有那么厉害啦~",
+			say = "Hehehe~ Please, it was just a stroke of luck~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎光临喵！呼喵？是指挥官喵？今天没有和标枪她们一起喵？",
+			say = "Oh, we have another customer! Welcome, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 900303,
 			nameColor = "#a9f548",
-			say = "欢迎光临！咦？姐姐和指挥官在一起？",
+			say = "Hey! What can I ge– Oh, hi, big sis! And the Commander, too! Fancy seeing you two together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 900304,
 			nameColor = "#a9f548",
-			say = "只、只是碰巧而已！",
+			say = "W-we just... ran into each other, that's all! Nothing more to it!",
 			effects = {
 				{
 					active = true,
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "没错，今天和凪咲一起来到了{namecode:98}和海咲的露天小摊，至于个中缘由——",
+			say = "Here I am, with Nagisa, at her sister's crepe stand. You're probably wondering how I ended up in this situation.",
 			effects = {
 				{
 					active = false,
@@ -240,7 +240,7 @@ return {
 			blackBg = true,
 			actor = 900304,
 			nameColor = "#a9f548",
-			say = "笨狗，要不要吃可丽饼？",
+			say = "Hey, why don't we go for some crepes?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "……？",
+			say = "Why crepes, in particular?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "就是那个…{namecode:98}不是开了个期间限定的甜品摊位吗？海咲也在那里打工…",
+			say = "Well... Akashi opened a crepe stand, remember? And Misaki is working there, part-time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			blackBg = true,
 			actor = 900304,
 			nameColor = "#a9f548",
-			say = "咳…就是突然想吃她们的可丽饼了！一句话，你去还是不去啦！",
+			say = "A-anyway! I'm in the mood for one! So, do you want to go, or not? I don't have all day... silly dog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "原来如此，果然是关心妹妹的姐姐呢。",
+			say = "Ah, so she wants to check on Misaki. What a considerate big sister she has.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "如此这般，最后和凪咲来到了这里。",
+			say = "...And the rest is history.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -387,7 +387,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来得正好喵！现在有活动喵！一次买两个有优惠喵！",
+			say = "Lucky for you, we have a special offer for you today! Buy one crepe, get one free, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			actor = 900303,
 			nameColor = "#a9f548",
-			say = "每个口味都很好吃哦~不过，我的个人推荐还是香草芒果味呢~",
+			say = "Whichever you order, I promise they're all delicious! My personal favorite might be the mango vanilla, though~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "那个确实是很好吃…",
+			say = "That sounds pretty good, actually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			actor = 900304,
 			nameColor = "#a9f548",
-			say = "既、既然海咲都这么强力推荐了……",
+			say = "Well, if you think it's good, then I guess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "看来只能选这个了呢——",
+			say = "We pretty much have to go for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			},
 			options = {
 				{
-					content = "买两个香草芒果味可丽饼",
+					content = "We'll have two mango vanilla crepes.",
 					flag = 1
 				}
 			}
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			actor = 900303,
 			nameColor = "#a9f548",
-			say = "嘿嘿~感谢支持~嗯~？姐姐？我脸上有什么东西吗？",
+			say = "Coming right up! ...Hey, something you wanna say, big sis? Is there something on my face?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…没什么，可丽饼很好吃哦，这个是海咲的主意吧？",
+			say = "N-no, it's nothing! But on another note: it was your idea to set up a crepe stand, wasn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想把好吃的东西也分享给大家嘛~嘻嘻，也希望姐姐“约会”愉快哦~",
+			say = "Yup! I wanted to share these tasty treats with the whole world! Oh, and big sis, I'm sure you and the Commander will find your crepes are tastier if you eat them together~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			actor = 900304,
 			nameColor = "#a9f548",
-			say = "都说了只是碰巧啦！打工要加油哦！走了啦，笨狗！",
+			say = "I told you! We simply ran into each other... Come here now, silly dog. We're leaving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢惠顾喵~",
+			say = "Thank you for your patronyage~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,40 +561,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "告别了海咲她们，与凪咲又稍微同行了一段路——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_106",
-			dir = 1,
-			actor = 900304,
-			nameColor = "#a9f548",
-			say = "虽说没遇上什么太险峻的情况，不过突然来到陌生的地方，本来还有点担心…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900304,
-			side = 2,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "看到海咲这么有精神地在打工，看来是没什么问题了呢……",
+			say = "Nagisa and I bid farewell to them and go for a brief walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +578,40 @@ return {
 			dir = 1,
 			actor = 900304,
 			nameColor = "#a9f548",
-			say = "干嘛又露出那副恶心的笑容看着我啦！笨狗！",
+			say = "Listen... I was so worried if Misaki would be okay when we first arrived here...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900304,
+			side = 2,
+			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "But now that I know she's safe and doing perfectly fine, my worries have eased up a little.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 900304,
+			nameColor = "#a9f548",
+			say = "...What? What are you grinning for, you silly dog?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "果然，是一位关心妹妹的好姐姐啊。",
+			say = "Ah, what a considerate big sister she is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

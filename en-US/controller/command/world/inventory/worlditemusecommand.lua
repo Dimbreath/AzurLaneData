@@ -29,7 +29,7 @@ function slot0.execute(slot0, slot1)
 					slot2:GetShip(slot11):RegenerateValue(slot4:getItemRegenerate() * slot4.count)
 				end
 			elseif slot5 == WorldItem.UsageRecoverAp then
-				slot2.staminaMgr:ExchangeStamina(slot4:getItemStaminaRecover() * slot4.count * uv1)
+				slot2.staminaMgr:ExchangeStamina(slot4:getItemStaminaRecover() * slot4.count)
 				uv3:sendNotification(GAME.WORLD_STAMINA_EXCHANGE_DONE)
 			elseif slot5 == WorldItem.UsageDrop or slot5 == WorldItem.UsageWorldItem or slot5 == WorldItem.UsageLoot or slot5 == WorldItem.UsageWorldClean or slot5 == WorldItem.UsageWorldBuff or slot5 == WorldItem.UsageDropAppointed then
 				for slot9, slot10 in ipairs(slot0.drop_list) do

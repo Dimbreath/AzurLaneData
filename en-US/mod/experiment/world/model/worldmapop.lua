@@ -159,10 +159,6 @@ function slot0.Apply(slot0)
 
 		slot2:FlagMapPressingAward(slot4)
 		slot2:GetAtlas():AddPressingMap(slot4)
-
-		if slot2:GetActiveEntrance():GetBaseMap().becomeSairen and slot7:GetSairenMapId() == slot4 then
-			slot5:RemoveSairenEntrance(slot6)
-		end
 	elseif slot0.op == WorldConst.OpReqReturn then
 		slot1:NetUpdateActiveMap(slot0.entranceId, slot0.destMapId, slot0.destGridId)
 
