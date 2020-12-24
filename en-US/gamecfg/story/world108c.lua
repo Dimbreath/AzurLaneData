@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "we've got word from Elizabeth! Friedrich finally managed to get the Iron Blood to agree to a ceasefire. That ought to smooth over talks with the Crimson Axis, too!",
+			say = "We've got word from Elizabeth! Friedrich finally managed to get the Iron Blood to agree to a ceasefire. That ought to smooth over talks with the Crimson Axis, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -129,7 +129,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "The plan is to establish 4 forwarded bases spread out across the NA Ocean. Once that’s been done, we can mount an offensive on the central sector.",
+			say = "The plan is to establish 4 forward bases spread out across the NA Ocean. Once that’s been done, we can mount an offensive on the central sector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

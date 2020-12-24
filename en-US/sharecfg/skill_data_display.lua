@@ -1486,7 +1486,7 @@ pg.skill_data_display = {
 	},
 	[11561] = {
 		id = 11561,
-		name = "2700磅的正义"
+		name = "2,700 Pounds of Justice"
 	},
 	[11570] = {
 		id = 11570,
@@ -1538,15 +1538,15 @@ pg.skill_data_display = {
 	},
 	[11626] = {
 		id = 11626,
-		name = "群星之怒"
+		name = "Ryuusei's Descent"
 	},
 	[11627] = {
 		id = 11627,
-		name = "多彩祥云"
+		name = "Saiun's Foresight"
 	},
 	[11628] = {
 		id = 11628,
-		name = "复仇怨火"
+		name = "Suisei's Coruscation"
 	},
 	[11630] = {
 		id = 11630,
