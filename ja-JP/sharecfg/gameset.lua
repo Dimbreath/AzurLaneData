@@ -1239,6 +1239,15 @@ pg.gameset = {
 		description = "",
 		key_value = 333
 	},
+	world_movelimit_event = {
+		key_value = 0,
+		description = {
+			20740,
+			20745,
+			21530,
+			22520
+		}
+	},
 	commander_exp_a = {
 		description = "",
 		key_value = 7000

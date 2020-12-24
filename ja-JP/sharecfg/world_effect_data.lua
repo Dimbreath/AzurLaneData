@@ -19009,7 +19009,7 @@ pg.world_effect_data = {
 	[15501] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15501,
 		autoactivate = 0,
 		log_text = "",
@@ -19021,7 +19021,7 @@ pg.world_effect_data = {
 	[15502] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15502,
 		autoactivate = 0,
 		log_text = "",
@@ -19033,7 +19033,7 @@ pg.world_effect_data = {
 	[15503] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15503,
 		autoactivate = 0,
 		log_text = "",
@@ -19045,7 +19045,7 @@ pg.world_effect_data = {
 	[15504] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15504,
 		autoactivate = 0,
 		log_text = "",
@@ -19057,7 +19057,7 @@ pg.world_effect_data = {
 	[15505] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15505,
 		autoactivate = 0,
 		log_text = "",
@@ -19069,7 +19069,7 @@ pg.world_effect_data = {
 	[15506] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15506,
 		autoactivate = 0,
 		log_text = "",
@@ -19081,7 +19081,7 @@ pg.world_effect_data = {
 	[15507] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15507,
 		autoactivate = 0,
 		log_text = "",
@@ -19093,7 +19093,7 @@ pg.world_effect_data = {
 	[15508] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15508,
 		autoactivate = 0,
 		log_text = "",
@@ -19105,7 +19105,7 @@ pg.world_effect_data = {
 	[15509] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15509,
 		autoactivate = 0,
 		log_text = "",
@@ -19117,7 +19117,7 @@ pg.world_effect_data = {
 	[15510] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 14,
+		effect_type = 7,
 		id = 15510,
 		autoactivate = 0,
 		log_text = "",
@@ -162111,6 +162111,24 @@ pg.world_effect_data = {
 			10110102
 		}
 	},
+	[101100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 101100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10110151,
+			10110151,
+			10110151,
+			10110151,
+			10110151,
+			10110151,
+			10110152
+		}
+	},
 	[101100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -162303,15 +162321,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10110251,
 			10110252,
-			10110253,
-			10110253,
 			10110254,
-			10110254,
-			10110255,
-			10110255,
-			10110256,
 			10110256
 		}
 	},
@@ -163154,6 +163165,24 @@ pg.world_effect_data = {
 			10120102
 		}
 	},
+	[101200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 101200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10120151,
+			10120151,
+			10120151,
+			10120151,
+			10120151,
+			10120151,
+			10120152
+		}
+	},
 	[101200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -163346,15 +163375,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10120251,
 			10120252,
-			10120253,
-			10120253,
 			10120254,
-			10120254,
-			10120255,
-			10120255,
-			10120256,
 			10120256
 		}
 	},
@@ -164165,6 +164187,24 @@ pg.world_effect_data = {
 			10130102
 		}
 	},
+	[101300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 101300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10130151,
+			10130151,
+			10130151,
+			10130151,
+			10130151,
+			10130151,
+			10130152
+		}
+	},
 	[101300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -164357,15 +164397,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10130251,
 			10130252,
-			10130253,
-			10130253,
 			10130254,
-			10130254,
-			10130255,
-			10130255,
-			10130256,
 			10130256
 		}
 	},
@@ -165146,6 +165179,22 @@ pg.world_effect_data = {
 			10140102
 		}
 	},
+	[101400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 101400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10140151,
+			10140151,
+			10140151,
+			10140151,
+			10140152
+		}
+	},
 	[101400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -165336,13 +165385,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10140251,
 			10140252,
-			10140253,
 			10140254,
-			10140254,
-			10140255,
-			10140256,
 			10140256
 		}
 	},
@@ -165952,6 +165996,19 @@ pg.world_effect_data = {
 			10210101
 		}
 	},
+	[102100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 102100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10210151,
+			10210151
+		}
+	},
 	[102100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -166093,9 +166150,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10210251,
-			10210252,
-			10210253,
-			10210254
+			10210252
 		}
 	},
 	[102100301] = {
@@ -166704,6 +166759,19 @@ pg.world_effect_data = {
 			10220101
 		}
 	},
+	[102200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 102200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10220151,
+			10220151
+		}
+	},
 	[102200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -166845,9 +166913,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10220251,
-			10220252,
-			10220253,
-			10220254
+			10220252
 		}
 	},
 	[102200301] = {
@@ -167452,6 +167518,19 @@ pg.world_effect_data = {
 			10230101
 		}
 	},
+	[102300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 102300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10230151,
+			10230151
+		}
+	},
 	[102300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -167593,9 +167672,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10230251,
-			10230252,
-			10230253,
-			10230254
+			10230252
 		}
 	},
 	[102300301] = {
@@ -168240,6 +168317,19 @@ pg.world_effect_data = {
 			10240101
 		}
 	},
+	[102400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 102400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10240151,
+			10240151
+		}
+	},
 	[102400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -168381,9 +168471,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10240251,
-			10240252,
-			10240253,
-			10240254
+			10240252
 		}
 	},
 	[102400301] = {
@@ -169043,6 +169131,20 @@ pg.world_effect_data = {
 			10250102
 		}
 	},
+	[102500150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 102500150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10250151,
+			10250151,
+			10250151
+		}
+	},
 	[102500201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -169203,9 +169305,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10250251,
-			10250252,
-			10250253,
 			10250254,
 			10250255
 		}
@@ -169814,6 +169913,19 @@ pg.world_effect_data = {
 			10310101
 		}
 	},
+	[103100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 103100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10310151,
+			10310151
+		}
+	},
 	[103100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -169955,9 +170067,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10310251,
-			10310252,
-			10310253,
-			10310254
+			10310252
 		}
 	},
 	[103100301] = {
@@ -170611,6 +170721,20 @@ pg.world_effect_data = {
 			10320102
 		}
 	},
+	[103200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 103200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10320151,
+			10320151,
+			10320151
+		}
+	},
 	[103200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -170771,9 +170895,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10320251,
-			10320252,
-			10320253,
 			10320254,
 			10320255
 		}
@@ -171467,6 +171588,20 @@ pg.world_effect_data = {
 			10330102
 		}
 	},
+	[103300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 103300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10330151,
+			10330151,
+			10330151
+		}
+	},
 	[103300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -171627,9 +171762,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10330251,
-			10330252,
-			10330253,
 			10330254,
 			10330255
 		}
@@ -172323,6 +172455,20 @@ pg.world_effect_data = {
 			10340102
 		}
 	},
+	[103400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 103400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10340151,
+			10340151,
+			10340151
+		}
+	},
 	[103400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -172483,9 +172629,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10340251,
-			10340252,
-			10340253,
 			10340254,
 			10340255
 		}
@@ -173127,6 +173270,20 @@ pg.world_effect_data = {
 			10410102
 		}
 	},
+	[104100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 104100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10410151,
+			10410151,
+			10410151
+		}
+	},
 	[104100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -173287,9 +173444,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10410251,
-			10410252,
-			10410253,
 			10410254,
 			10410255
 		}
@@ -174009,6 +174163,22 @@ pg.world_effect_data = {
 			10420102
 		}
 	},
+	[104200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 104200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10420151,
+			10420151,
+			10420151,
+			10420151,
+			10420152
+		}
+	},
 	[104200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -174199,13 +174369,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10420251,
 			10420252,
-			10420253,
 			10420254,
-			10420254,
-			10420255,
-			10420256,
 			10420256
 		}
 	},
@@ -174799,6 +174964,19 @@ pg.world_effect_data = {
 			10430101
 		}
 	},
+	[104300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 104300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10430151,
+			10430151
+		}
+	},
 	[104300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -174940,9 +175118,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10430251,
-			10430252,
-			10430253,
-			10430254
+			10430252
 		}
 	},
 	[104300301] = {
@@ -175551,6 +175727,19 @@ pg.world_effect_data = {
 			10440101
 		}
 	},
+	[104400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 104400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10440151,
+			10440151
+		}
+	},
 	[104400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -175692,9 +175881,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10440251,
-			10440252,
-			10440253,
-			10440254
+			10440252
 		}
 	},
 	[104400301] = {
@@ -176424,6 +176611,22 @@ pg.world_effect_data = {
 			10510102
 		}
 	},
+	[105100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 105100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10510151,
+			10510151,
+			10510151,
+			10510151,
+			10510152
+		}
+	},
 	[105100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -176614,13 +176817,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10510251,
 			10510252,
-			10510253,
 			10510254,
-			10510254,
-			10510255,
-			10510256,
 			10510256
 		}
 	},
@@ -177355,6 +177553,22 @@ pg.world_effect_data = {
 			10520102
 		}
 	},
+	[105200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 105200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10520151,
+			10520151,
+			10520151,
+			10520151,
+			10520152
+		}
+	},
 	[105200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -177545,13 +177759,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10520251,
 			10520252,
-			10520253,
 			10520254,
-			10520254,
-			10520255,
-			10520256,
 			10520256
 		}
 	},
@@ -178322,6 +178531,22 @@ pg.world_effect_data = {
 			10530102
 		}
 	},
+	[105300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 105300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10530151,
+			10530151,
+			10530151,
+			10530151,
+			10530152
+		}
+	},
 	[105300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -178512,13 +178737,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10530251,
 			10530252,
-			10530253,
 			10530254,
-			10530254,
-			10530255,
-			10530256,
 			10530256
 		}
 	},
@@ -179257,6 +179477,22 @@ pg.world_effect_data = {
 			10540102
 		}
 	},
+	[105400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 105400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10540151,
+			10540151,
+			10540151,
+			10540151,
+			10540152
+		}
+	},
 	[105400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -179447,13 +179683,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10540251,
 			10540252,
-			10540253,
 			10540254,
-			10540254,
-			10540255,
-			10540256,
 			10540256
 		}
 	},
@@ -180196,6 +180427,22 @@ pg.world_effect_data = {
 			10610102
 		}
 	},
+	[106100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 106100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10610151,
+			10610151,
+			10610151,
+			10610151,
+			10610152
+		}
+	},
 	[106100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -180386,13 +180633,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10610251,
 			10610252,
-			10610253,
 			10610254,
-			10610254,
-			10610255,
-			10610256,
 			10610256
 		}
 	},
@@ -181035,6 +181277,20 @@ pg.world_effect_data = {
 			10620102
 		}
 	},
+	[106200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 106200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10620151,
+			10620151,
+			10620151
+		}
+	},
 	[106200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -181195,9 +181451,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10620251,
-			10620252,
-			10620253,
 			10620254,
 			10620255
 		}
@@ -181923,6 +182176,22 @@ pg.world_effect_data = {
 			10630102
 		}
 	},
+	[106300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 106300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10630151,
+			10630151,
+			10630151,
+			10630151,
+			10630152
+		}
+	},
 	[106300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -182113,13 +182382,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10630251,
 			10630252,
-			10630253,
 			10630254,
-			10630254,
-			10630255,
-			10630256,
 			10630256
 		}
 	},
@@ -182858,6 +183122,22 @@ pg.world_effect_data = {
 			10640102
 		}
 	},
+	[106400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 106400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10640151,
+			10640151,
+			10640151,
+			10640151,
+			10640152
+		}
+	},
 	[106400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -183048,13 +183328,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10640251,
 			10640252,
-			10640253,
 			10640254,
-			10640254,
-			10640255,
-			10640256,
 			10640256
 		}
 	},
@@ -183719,6 +183994,20 @@ pg.world_effect_data = {
 			10650102
 		}
 	},
+	[106500150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 106500150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10650151,
+			10650151,
+			10650151
+		}
+	},
 	[106500201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -183879,9 +184168,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10650251,
-			10650252,
-			10650253,
 			10650254,
 			10650255
 		}
@@ -184529,6 +184815,20 @@ pg.world_effect_data = {
 			10660102
 		}
 	},
+	[106600150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 106600150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10660151,
+			10660151,
+			10660151
+		}
+	},
 	[106600201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -184689,9 +184989,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10660251,
-			10660252,
-			10660253,
 			10660254,
 			10660255
 		}
@@ -185527,6 +185824,24 @@ pg.world_effect_data = {
 			10710102
 		}
 	},
+	[107100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 107100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10710151,
+			10710151,
+			10710151,
+			10710151,
+			10710151,
+			10710151,
+			10710152
+		}
+	},
 	[107100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -185719,15 +186034,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10710251,
 			10710252,
-			10710253,
-			10710253,
 			10710254,
-			10710254,
-			10710255,
-			10710255,
-			10710256,
 			10710256
 		}
 	},
@@ -186534,6 +186842,24 @@ pg.world_effect_data = {
 			10720102
 		}
 	},
+	[107200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 107200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10720151,
+			10720151,
+			10720151,
+			10720151,
+			10720151,
+			10720151,
+			10720152
+		}
+	},
 	[107200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -186726,15 +187052,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10720251,
 			10720252,
-			10720253,
-			10720253,
 			10720254,
-			10720254,
-			10720255,
-			10720255,
-			10720256,
 			10720256
 		}
 	},
@@ -187563,6 +187882,24 @@ pg.world_effect_data = {
 			10730102
 		}
 	},
+	[107300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 107300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10730151,
+			10730151,
+			10730151,
+			10730151,
+			10730151,
+			10730151,
+			10730152
+		}
+	},
 	[107300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -187755,15 +188092,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10730251,
 			10730252,
-			10730253,
-			10730253,
 			10730254,
-			10730254,
-			10730255,
-			10730255,
-			10730256,
 			10730256
 		}
 	},
@@ -188379,6 +188709,19 @@ pg.world_effect_data = {
 			10810101
 		}
 	},
+	[108100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 108100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10810151,
+			10810151
+		}
+	},
 	[108100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -188520,9 +188863,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10810251,
-			10810252,
-			10810253,
-			10810254
+			10810252
 		}
 	},
 	[108100301] = {
@@ -189252,6 +189593,22 @@ pg.world_effect_data = {
 			10820102
 		}
 	},
+	[108200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 108200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10820151,
+			10820151,
+			10820151,
+			10820151,
+			10820152
+		}
+	},
 	[108200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -189442,13 +189799,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10820251,
 			10820252,
-			10820253,
 			10820254,
-			10820254,
-			10820255,
-			10820256,
 			10820256
 		}
 	},
@@ -190058,6 +190410,19 @@ pg.world_effect_data = {
 			10830101
 		}
 	},
+	[108300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 108300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10830151,
+			10830151
+		}
+	},
 	[108300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -190199,9 +190564,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10830251,
-			10830252,
-			10830253,
-			10830254
+			10830252
 		}
 	},
 	[108300301] = {
@@ -190806,6 +191169,19 @@ pg.world_effect_data = {
 			10840101
 		}
 	},
+	[108400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 108400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10840151,
+			10840151
+		}
+	},
 	[108400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -190947,9 +191323,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10840251,
-			10840252,
-			10840253,
-			10840254
+			10840252
 		}
 	},
 	[108400301] = {
@@ -191687,6 +192061,22 @@ pg.world_effect_data = {
 			10850102
 		}
 	},
+	[108500150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 108500150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10850151,
+			10850151,
+			10850151,
+			10850151,
+			10850152
+		}
+	},
 	[108500201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -191877,13 +192267,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10850251,
 			10850252,
-			10850253,
 			10850254,
-			10850254,
-			10850255,
-			10850256,
 			10850256
 		}
 	},
@@ -192618,6 +193003,22 @@ pg.world_effect_data = {
 			10910102
 		}
 	},
+	[109100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 109100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10910151,
+			10910151,
+			10910151,
+			10910151,
+			10910152
+		}
+	},
 	[109100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -192820,13 +193221,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10910251,
 			10910252,
-			10910253,
 			10910254,
-			10910254,
-			10910255,
-			10910256,
 			10910256
 		}
 	},
@@ -193432,6 +193828,19 @@ pg.world_effect_data = {
 			10920101
 		}
 	},
+	[109200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 109200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10920151,
+			10920151
+		}
+	},
 	[109200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -193573,9 +193982,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10920251,
-			10920252,
-			10920253,
-			10920254
+			10920252
 		}
 	},
 	[109200301] = {
@@ -194176,6 +194583,19 @@ pg.world_effect_data = {
 			10930101
 		}
 	},
+	[109300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 109300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10930151,
+			10930151
+		}
+	},
 	[109300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -194317,9 +194737,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			10930251,
-			10930252,
-			10930253,
-			10930254
+			10930252
 		}
 	},
 	[109300301] = {
@@ -195001,6 +195419,20 @@ pg.world_effect_data = {
 			10940102
 		}
 	},
+	[109400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 109400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10940151,
+			10940151,
+			10940151
+		}
+	},
 	[109400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -195169,9 +195601,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10940251,
-			10940252,
-			10940253,
 			10940254,
 			10940255
 		}
@@ -195825,6 +196254,20 @@ pg.world_effect_data = {
 			10950102
 		}
 	},
+	[109500150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 109500150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			10950151,
+			10950151,
+			10950151
+		}
+	},
 	[109500201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -195993,9 +196436,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			10950251,
-			10950252,
-			10950253,
 			10950254,
 			10950255
 		}
@@ -196821,6 +197261,24 @@ pg.world_effect_data = {
 			11010102
 		}
 	},
+	[110100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 110100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11010151,
+			11010151,
+			11010151,
+			11010151,
+			11010151,
+			11010151,
+			11010152
+		}
+	},
 	[110100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -197025,15 +197483,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11010251,
 			11010252,
-			11010253,
-			11010253,
 			11010254,
-			11010254,
-			11010255,
-			11010255,
-			11010256,
 			11010256
 		}
 	},
@@ -197840,6 +198291,24 @@ pg.world_effect_data = {
 			11020102
 		}
 	},
+	[110200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 110200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11020151,
+			11020151,
+			11020151,
+			11020151,
+			11020151,
+			11020151,
+			11020152
+		}
+	},
 	[110200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -198044,15 +198513,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11020251,
 			11020252,
-			11020253,
-			11020253,
 			11020254,
-			11020254,
-			11020255,
-			11020255,
-			11020256,
 			11020256
 		}
 	},
@@ -198823,6 +199285,22 @@ pg.world_effect_data = {
 			11030102
 		}
 	},
+	[110300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 110300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11030151,
+			11030151,
+			11030151,
+			11030151,
+			11030152
+		}
+	},
 	[110300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -199025,13 +199503,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11030251,
 			11030252,
-			11030253,
 			11030254,
-			11030254,
-			11030255,
-			11030256,
 			11030256
 		}
 	},
@@ -199806,6 +200279,22 @@ pg.world_effect_data = {
 			11040102
 		}
 	},
+	[110400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 110400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11040151,
+			11040151,
+			11040151,
+			11040151,
+			11040152
+		}
+	},
 	[110400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -200008,13 +200497,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11040251,
 			11040252,
-			11040253,
 			11040254,
-			11040254,
-			11040255,
-			11040256,
 			11040256
 		}
 	},
@@ -200669,6 +201153,20 @@ pg.world_effect_data = {
 			11050102
 		}
 	},
+	[110500150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 110500150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11050151,
+			11050151,
+			11050151
+		}
+	},
 	[110500201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -200837,9 +201335,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11050251,
-			11050252,
-			11050253,
 			11050254,
 			11050255
 		}
@@ -201643,6 +202138,24 @@ pg.world_effect_data = {
 			11060102
 		}
 	},
+	[110600150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 110600150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11060151,
+			11060151,
+			11060151,
+			11060151,
+			11060151,
+			11060151,
+			11060152
+		}
+	},
 	[110600201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -201847,15 +202360,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11060251,
 			11060252,
-			11060253,
-			11060253,
 			11060254,
-			11060254,
-			11060255,
-			11060255,
-			11060256,
 			11060256
 		}
 	},
@@ -202516,6 +203022,20 @@ pg.world_effect_data = {
 			11110102
 		}
 	},
+	[111100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 111100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11110151,
+			11110151,
+			11110151
+		}
+	},
 	[111100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -202664,9 +203184,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11110251,
-			11110252,
-			11110253,
 			11110254,
 			11110255
 		}
@@ -203263,6 +203780,19 @@ pg.world_effect_data = {
 			11120101
 		}
 	},
+	[111200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 111200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11120151,
+			11120151
+		}
+	},
 	[111200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -203392,9 +203922,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			11120251,
-			11120252,
-			11120253,
-			11120254
+			11120252
 		}
 	},
 	[111200301] = {
@@ -204054,6 +204582,20 @@ pg.world_effect_data = {
 			11130102
 		}
 	},
+	[111300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 111300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11130151,
+			11130151,
+			11130151
+		}
+	},
 	[111300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -204202,9 +204744,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11130251,
-			11130252,
-			11130253,
 			11130254,
 			11130255
 		}
@@ -204852,6 +205391,20 @@ pg.world_effect_data = {
 			11140102
 		}
 	},
+	[111400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 111400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11140151,
+			11140151,
+			11140151
+		}
+	},
 	[111400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -205000,9 +205553,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11140251,
-			11140252,
-			11140253,
 			11140254,
 			11140255
 		}
@@ -205786,6 +206336,24 @@ pg.world_effect_data = {
 			11210102
 		}
 	},
+	[112100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 112100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11210151,
+			11210151,
+			11210151,
+			11210151,
+			11210151,
+			11210151,
+			11210152
+		}
+	},
 	[112100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -205990,15 +206558,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11210251,
 			11210252,
-			11210253,
-			11210253,
 			11210254,
-			11210254,
-			11210255,
-			11210255,
-			11210256,
 			11210256
 		}
 	},
@@ -206594,6 +207155,19 @@ pg.world_effect_data = {
 			11220101
 		}
 	},
+	[112200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 112200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11220151,
+			11220151
+		}
+	},
 	[112200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -206723,9 +207297,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			11220251,
-			11220252,
-			11220253,
-			11220254
+			11220252
 		}
 	},
 	[112200301] = {
@@ -207369,6 +207941,20 @@ pg.world_effect_data = {
 			11230102
 		}
 	},
+	[112300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 112300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11230151,
+			11230151,
+			11230151
+		}
+	},
 	[112300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -207517,9 +208103,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11230251,
-			11230252,
-			11230253,
 			11230254,
 			11230255
 		}
@@ -208297,6 +208880,24 @@ pg.world_effect_data = {
 			11240102
 		}
 	},
+	[112400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 112400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11240151,
+			11240151,
+			11240151,
+			11240151,
+			11240151,
+			11240151,
+			11240152
+		}
+	},
 	[112400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -208485,15 +209086,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11240251,
 			11240252,
-			11240253,
-			11240253,
 			11240254,
-			11240254,
-			11240255,
-			11240255,
-			11240256,
 			11240256
 		}
 	},
@@ -209144,6 +209738,20 @@ pg.world_effect_data = {
 			11250102
 		}
 	},
+	[112500150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 112500150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11250151,
+			11250151,
+			11250151
+		}
+	},
 	[112500201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -209292,9 +209900,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11250251,
-			11250252,
-			11250253,
 			11250254,
 			11250255
 		}
@@ -209883,6 +210488,19 @@ pg.world_effect_data = {
 			11310101
 		}
 	},
+	[113100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 113100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11310151,
+			11310151
+		}
+	},
 	[113100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -210024,9 +210642,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			11310251,
-			11310252,
-			11310253,
-			11310254
+			11310252
 		}
 	},
 	[113100301] = {
@@ -210615,6 +211231,19 @@ pg.world_effect_data = {
 			11320101
 		}
 	},
+	[113200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 113200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11320151,
+			11320151
+		}
+	},
 	[113200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -210756,9 +211385,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			11320251,
-			11320252,
-			11320253,
-			11320254
+			11320252
 		}
 	},
 	[113200301] = {
@@ -211408,6 +212035,20 @@ pg.world_effect_data = {
 			11330102
 		}
 	},
+	[113300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 113300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11330151,
+			11330151,
+			11330151
+		}
+	},
 	[113300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -211576,9 +212217,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11330251,
-			11330252,
-			11330253,
 			11330254,
 			11330255
 		}
@@ -212167,6 +212805,19 @@ pg.world_effect_data = {
 			11340101
 		}
 	},
+	[113400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 113400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11340151,
+			11340151
+		}
+	},
 	[113400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -212308,9 +212959,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			11340251,
-			11340252,
-			11340253,
-			11340254
+			11340252
 		}
 	},
 	[113400301] = {
@@ -212964,6 +213613,20 @@ pg.world_effect_data = {
 			11350102
 		}
 	},
+	[113500150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 113500150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11350151,
+			11350151,
+			11350151
+		}
+	},
 	[113500201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -213112,9 +213775,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11350251,
-			11350252,
-			11350253,
 			11350254,
 			11350255
 		}
@@ -213800,6 +214460,20 @@ pg.world_effect_data = {
 			11410102
 		}
 	},
+	[114100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 114100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11410151,
+			11410151,
+			11410151
+		}
+	},
 	[114100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -213968,9 +214642,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11410251,
-			11410252,
-			11410253,
 			11410254,
 			11410255
 		}
@@ -214708,6 +215379,22 @@ pg.world_effect_data = {
 			11420102
 		}
 	},
+	[114200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 114200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11420151,
+			11420151,
+			11420151,
+			11420151,
+			11420152
+		}
+	},
 	[114200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -214910,13 +215597,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11420251,
 			11420252,
-			11420253,
 			11420254,
-			11420254,
-			11420255,
-			11420256,
 			11420256
 		}
 	},
@@ -215571,6 +216253,20 @@ pg.world_effect_data = {
 			11430102
 		}
 	},
+	[114300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 114300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11430151,
+			11430151,
+			11430151
+		}
+	},
 	[114300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -215739,9 +216435,6 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11430251,
-			11430252,
-			11430253,
 			11430254,
 			11430255
 		}
@@ -216515,6 +217208,24 @@ pg.world_effect_data = {
 			11440102
 		}
 	},
+	[114400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 114400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11440151,
+			11440151,
+			11440151,
+			11440151,
+			11440151,
+			11440151,
+			11440152
+		}
+	},
 	[114400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -216719,15 +217430,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11440251,
 			11440252,
-			11440253,
-			11440253,
 			11440254,
-			11440254,
-			11440255,
-			11440255,
-			11440256,
 			11440256
 		}
 	},
@@ -217470,6 +218174,24 @@ pg.world_effect_data = {
 			11510102
 		}
 	},
+	[115100150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115100150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11510151,
+			11510151,
+			11510151,
+			11510151,
+			11510151,
+			11510151,
+			11510152
+		}
+	},
 	[115100201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -217686,15 +218408,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11510251,
 			11510252,
-			11510253,
-			11510253,
 			11510254,
-			11510254,
-			11510255,
-			11510255,
-			11510256,
 			11510256
 		}
 	},
@@ -218437,6 +219152,24 @@ pg.world_effect_data = {
 			11520102
 		}
 	},
+	[115200150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115200150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11520151,
+			11520151,
+			11520151,
+			11520151,
+			11520151,
+			11520151,
+			11520152
+		}
+	},
 	[115200201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -218653,15 +219386,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11520251,
 			11520252,
-			11520253,
-			11520253,
 			11520254,
-			11520254,
-			11520255,
-			11520255,
-			11520256,
 			11520256
 		}
 	},
@@ -219404,6 +220130,24 @@ pg.world_effect_data = {
 			11530102
 		}
 	},
+	[115300150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115300150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11530151,
+			11530151,
+			11530151,
+			11530151,
+			11530151,
+			11530151,
+			11530152
+		}
+	},
 	[115300201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -219620,15 +220364,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11530251,
 			11530252,
-			11530253,
-			11530253,
 			11530254,
-			11530254,
-			11530255,
-			11530255,
-			11530256,
 			11530256
 		}
 	},
@@ -220521,6 +221258,24 @@ pg.world_effect_data = {
 			11540102
 		}
 	},
+	[115400150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115400150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11540151,
+			11540151,
+			11540151,
+			11540151,
+			11540151,
+			11540151,
+			11540152
+		}
+	},
 	[115400201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -220648,17 +221403,7 @@ pg.world_effect_data = {
 		sound_effects = "",
 		effect_paramater = {
 			11540251,
-			11540251,
-			11540251,
 			11540252,
-			11540252,
-			11540252,
-			11540252,
-			11540252,
-			11540253,
-			11540253,
-			11540253,
-			11540253,
 			11540253
 		}
 	},
@@ -221403,6 +222148,24 @@ pg.world_effect_data = {
 			11550102
 		}
 	},
+	[115500150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115500150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11550151,
+			11550151,
+			11550151,
+			11550151,
+			11550151,
+			11550151,
+			11550152
+		}
+	},
 	[115500201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -221619,15 +222382,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11550251,
 			11550252,
-			11550253,
-			11550253,
 			11550254,
-			11550254,
-			11550255,
-			11550255,
-			11550256,
 			11550256
 		}
 	},
@@ -222370,6 +223126,24 @@ pg.world_effect_data = {
 			11560102
 		}
 	},
+	[115600150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115600150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11560151,
+			11560151,
+			11560151,
+			11560151,
+			11560151,
+			11560151,
+			11560152
+		}
+	},
 	[115600201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -222586,15 +223360,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11560251,
 			11560252,
-			11560253,
-			11560253,
 			11560254,
-			11560254,
-			11560255,
-			11560255,
-			11560256,
 			11560256
 		}
 	},
@@ -223337,6 +224104,24 @@ pg.world_effect_data = {
 			11570102
 		}
 	},
+	[115700150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115700150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11570151,
+			11570151,
+			11570151,
+			11570151,
+			11570151,
+			11570151,
+			11570152
+		}
+	},
 	[115700201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -223553,15 +224338,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11570251,
 			11570252,
-			11570253,
-			11570253,
 			11570254,
-			11570254,
-			11570255,
-			11570255,
-			11570256,
 			11570256
 		}
 	},
@@ -224304,6 +225082,24 @@ pg.world_effect_data = {
 			11580102
 		}
 	},
+	[115800150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115800150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11580151,
+			11580151,
+			11580151,
+			11580151,
+			11580151,
+			11580151,
+			11580152
+		}
+	},
 	[115800201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -224520,15 +225316,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11580251,
 			11580252,
-			11580253,
-			11580253,
 			11580254,
-			11580254,
-			11580255,
-			11580255,
-			11580256,
 			11580256
 		}
 	},
@@ -225271,6 +226060,24 @@ pg.world_effect_data = {
 			11590102
 		}
 	},
+	[115900150] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 9,
+		id = 115900150,
+		autoactivate = 2,
+		log_text = "",
+		sound_effects = "",
+		effect_paramater = {
+			11590151,
+			11590151,
+			11590151,
+			11590151,
+			11590151,
+			11590151,
+			11590152
+		}
+	},
 	[115900201] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -225487,15 +226294,8 @@ pg.world_effect_data = {
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
-			11590251,
 			11590252,
-			11590253,
-			11590253,
 			11590254,
-			11590254,
-			11590255,
-			11590255,
-			11590256,
 			11590256
 		}
 	},
@@ -233942,6 +234742,7 @@ pg.world_effect_data = {
 		101100046,
 		101100060,
 		101100100,
+		101100150,
 		101100201,
 		101100202,
 		101100203,
@@ -233987,6 +234788,7 @@ pg.world_effect_data = {
 		101200046,
 		101200060,
 		101200100,
+		101200150,
 		101200201,
 		101200202,
 		101200203,
@@ -234030,6 +234832,7 @@ pg.world_effect_data = {
 		101300046,
 		101300060,
 		101300100,
+		101300150,
 		101300201,
 		101300202,
 		101300203,
@@ -234075,6 +234878,7 @@ pg.world_effect_data = {
 		101400046,
 		101400060,
 		101400100,
+		101400150,
 		101400201,
 		101400202,
 		101400203,
@@ -234117,6 +234921,7 @@ pg.world_effect_data = {
 		102100046,
 		102100060,
 		102100100,
+		102100150,
 		102100201,
 		102100202,
 		102100203,
@@ -234157,6 +234962,7 @@ pg.world_effect_data = {
 		102200046,
 		102200060,
 		102200100,
+		102200150,
 		102200201,
 		102200202,
 		102200203,
@@ -234197,6 +235003,7 @@ pg.world_effect_data = {
 		102300046,
 		102300060,
 		102300100,
+		102300150,
 		102300201,
 		102300202,
 		102300203,
@@ -234239,6 +235046,7 @@ pg.world_effect_data = {
 		102400046,
 		102400060,
 		102400100,
+		102400150,
 		102400201,
 		102400202,
 		102400203,
@@ -234279,6 +235087,7 @@ pg.world_effect_data = {
 		102500046,
 		102500060,
 		102500100,
+		102500150,
 		102500201,
 		102500202,
 		102500203,
@@ -234320,6 +235129,7 @@ pg.world_effect_data = {
 		103100046,
 		103100060,
 		103100100,
+		103100150,
 		103100201,
 		103100202,
 		103100203,
@@ -234360,6 +235170,7 @@ pg.world_effect_data = {
 		103200046,
 		103200060,
 		103200100,
+		103200150,
 		103200201,
 		103200202,
 		103200203,
@@ -234403,6 +235214,7 @@ pg.world_effect_data = {
 		103300046,
 		103300060,
 		103300100,
+		103300150,
 		103300201,
 		103300202,
 		103300203,
@@ -234446,6 +235258,7 @@ pg.world_effect_data = {
 		103400046,
 		103400060,
 		103400100,
+		103400150,
 		103400201,
 		103400202,
 		103400203,
@@ -234486,6 +235299,7 @@ pg.world_effect_data = {
 		104100046,
 		104100060,
 		104100100,
+		104100150,
 		104100201,
 		104100202,
 		104100203,
@@ -234527,6 +235341,7 @@ pg.world_effect_data = {
 		104200046,
 		104200060,
 		104200100,
+		104200150,
 		104200201,
 		104200202,
 		104200203,
@@ -234568,6 +235383,7 @@ pg.world_effect_data = {
 		104300046,
 		104300060,
 		104300100,
+		104300150,
 		104300201,
 		104300202,
 		104300203,
@@ -234608,6 +235424,7 @@ pg.world_effect_data = {
 		104400046,
 		104400060,
 		104400100,
+		104400150,
 		104400201,
 		104400202,
 		104400203,
@@ -234649,6 +235466,7 @@ pg.world_effect_data = {
 		105100046,
 		105100060,
 		105100100,
+		105100150,
 		105100201,
 		105100202,
 		105100203,
@@ -234692,6 +235510,7 @@ pg.world_effect_data = {
 		105200046,
 		105200060,
 		105200100,
+		105200150,
 		105200201,
 		105200202,
 		105200203,
@@ -234737,6 +235556,7 @@ pg.world_effect_data = {
 		105300046,
 		105300060,
 		105300100,
+		105300150,
 		105300201,
 		105300202,
 		105300203,
@@ -234780,6 +235600,7 @@ pg.world_effect_data = {
 		105400046,
 		105400060,
 		105400100,
+		105400150,
 		105400201,
 		105400202,
 		105400203,
@@ -234823,6 +235644,7 @@ pg.world_effect_data = {
 		106100046,
 		106100060,
 		106100100,
+		106100150,
 		106100201,
 		106100202,
 		106100203,
@@ -234864,6 +235686,7 @@ pg.world_effect_data = {
 		106200046,
 		106200060,
 		106200100,
+		106200150,
 		106200201,
 		106200202,
 		106200203,
@@ -234905,6 +235728,7 @@ pg.world_effect_data = {
 		106300046,
 		106300060,
 		106300100,
+		106300150,
 		106300201,
 		106300202,
 		106300203,
@@ -234948,6 +235772,7 @@ pg.world_effect_data = {
 		106400046,
 		106400060,
 		106400100,
+		106400150,
 		106400201,
 		106400202,
 		106400203,
@@ -234990,6 +235815,7 @@ pg.world_effect_data = {
 		106500046,
 		106500060,
 		106500100,
+		106500150,
 		106500201,
 		106500202,
 		106500203,
@@ -235030,6 +235856,7 @@ pg.world_effect_data = {
 		106600046,
 		106600060,
 		106600100,
+		106600150,
 		106600201,
 		106600202,
 		106600203,
@@ -235074,6 +235901,7 @@ pg.world_effect_data = {
 		107100046,
 		107100060,
 		107100100,
+		107100150,
 		107100201,
 		107100202,
 		107100203,
@@ -235117,6 +235945,7 @@ pg.world_effect_data = {
 		107200046,
 		107200060,
 		107200100,
+		107200150,
 		107200201,
 		107200202,
 		107200203,
@@ -235162,6 +235991,7 @@ pg.world_effect_data = {
 		107300046,
 		107300060,
 		107300100,
+		107300150,
 		107300201,
 		107300202,
 		107300203,
@@ -235204,6 +236034,7 @@ pg.world_effect_data = {
 		108100046,
 		108100060,
 		108100100,
+		108100150,
 		108100201,
 		108100202,
 		108100203,
@@ -235245,6 +236076,7 @@ pg.world_effect_data = {
 		108200046,
 		108200060,
 		108200100,
+		108200150,
 		108200201,
 		108200202,
 		108200203,
@@ -235287,6 +236119,7 @@ pg.world_effect_data = {
 		108300046,
 		108300060,
 		108300100,
+		108300150,
 		108300201,
 		108300202,
 		108300203,
@@ -235327,6 +236160,7 @@ pg.world_effect_data = {
 		108400046,
 		108400060,
 		108400100,
+		108400150,
 		108400201,
 		108400202,
 		108400203,
@@ -235368,6 +236202,7 @@ pg.world_effect_data = {
 		108500046,
 		108500060,
 		108500100,
+		108500150,
 		108500201,
 		108500202,
 		108500203,
@@ -235411,6 +236246,7 @@ pg.world_effect_data = {
 		109100046,
 		109100060,
 		109100100,
+		109100150,
 		109100201,
 		109100202,
 		109100203,
@@ -235453,6 +236289,7 @@ pg.world_effect_data = {
 		109200046,
 		109200060,
 		109200100,
+		109200150,
 		109200201,
 		109200202,
 		109200203,
@@ -235493,6 +236330,7 @@ pg.world_effect_data = {
 		109300046,
 		109300060,
 		109300100,
+		109300150,
 		109300201,
 		109300202,
 		109300203,
@@ -235535,6 +236373,7 @@ pg.world_effect_data = {
 		109400046,
 		109400060,
 		109400100,
+		109400150,
 		109400201,
 		109400202,
 		109400203,
@@ -235576,6 +236415,7 @@ pg.world_effect_data = {
 		109500046,
 		109500060,
 		109500100,
+		109500150,
 		109500201,
 		109500202,
 		109500203,
@@ -235620,6 +236460,7 @@ pg.world_effect_data = {
 		110100046,
 		110100060,
 		110100100,
+		110100150,
 		110100201,
 		110100202,
 		110100203,
@@ -235663,6 +236504,7 @@ pg.world_effect_data = {
 		110200046,
 		110200060,
 		110200100,
+		110200150,
 		110200201,
 		110200202,
 		110200203,
@@ -235708,6 +236550,7 @@ pg.world_effect_data = {
 		110300046,
 		110300060,
 		110300100,
+		110300150,
 		110300201,
 		110300202,
 		110300203,
@@ -235753,6 +236596,7 @@ pg.world_effect_data = {
 		110400046,
 		110400060,
 		110400100,
+		110400150,
 		110400201,
 		110400202,
 		110400203,
@@ -235795,6 +236639,7 @@ pg.world_effect_data = {
 		110500046,
 		110500060,
 		110500100,
+		110500150,
 		110500201,
 		110500202,
 		110500203,
@@ -235837,6 +236682,7 @@ pg.world_effect_data = {
 		110600046,
 		110600060,
 		110600100,
+		110600150,
 		110600201,
 		110600202,
 		110600203,
@@ -235879,6 +236725,7 @@ pg.world_effect_data = {
 		111100046,
 		111100060,
 		111100100,
+		111100150,
 		111100201,
 		111100202,
 		111100203,
@@ -235919,6 +236766,7 @@ pg.world_effect_data = {
 		111200046,
 		111200060,
 		111200100,
+		111200150,
 		111200201,
 		111200202,
 		111200203,
@@ -235959,6 +236807,7 @@ pg.world_effect_data = {
 		111300046,
 		111300060,
 		111300100,
+		111300150,
 		111300201,
 		111300202,
 		111300203,
@@ -235999,6 +236848,7 @@ pg.world_effect_data = {
 		111400046,
 		111400060,
 		111400100,
+		111400150,
 		111400201,
 		111400202,
 		111400203,
@@ -236040,6 +236890,7 @@ pg.world_effect_data = {
 		112100046,
 		112100060,
 		112100100,
+		112100150,
 		112100201,
 		112100202,
 		112100203,
@@ -236081,6 +236932,7 @@ pg.world_effect_data = {
 		112200046,
 		112200060,
 		112200100,
+		112200150,
 		112200201,
 		112200202,
 		112200203,
@@ -236120,6 +236972,7 @@ pg.world_effect_data = {
 		112300046,
 		112300060,
 		112300100,
+		112300150,
 		112300201,
 		112300202,
 		112300203,
@@ -236161,6 +237014,7 @@ pg.world_effect_data = {
 		112400046,
 		112400060,
 		112400100,
+		112400150,
 		112400201,
 		112400202,
 		112400203,
@@ -236202,6 +237056,7 @@ pg.world_effect_data = {
 		112500046,
 		112500060,
 		112500100,
+		112500150,
 		112500201,
 		112500202,
 		112500203,
@@ -236242,6 +237097,7 @@ pg.world_effect_data = {
 		113100046,
 		113100060,
 		113100100,
+		113100150,
 		113100201,
 		113100202,
 		113100203,
@@ -236281,6 +237137,7 @@ pg.world_effect_data = {
 		113200046,
 		113200060,
 		113200100,
+		113200150,
 		113200201,
 		113200202,
 		113200203,
@@ -236321,6 +237178,7 @@ pg.world_effect_data = {
 		113300046,
 		113300060,
 		113300100,
+		113300150,
 		113300201,
 		113300202,
 		113300203,
@@ -236361,6 +237219,7 @@ pg.world_effect_data = {
 		113400046,
 		113400060,
 		113400100,
+		113400150,
 		113400201,
 		113400202,
 		113400203,
@@ -236401,6 +237260,7 @@ pg.world_effect_data = {
 		113500046,
 		113500060,
 		113500100,
+		113500150,
 		113500201,
 		113500202,
 		113500203,
@@ -236444,6 +237304,7 @@ pg.world_effect_data = {
 		114100046,
 		114100060,
 		114100100,
+		114100150,
 		114100201,
 		114100202,
 		114100203,
@@ -236486,6 +237347,7 @@ pg.world_effect_data = {
 		114200046,
 		114200060,
 		114200100,
+		114200150,
 		114200201,
 		114200202,
 		114200203,
@@ -236528,6 +237390,7 @@ pg.world_effect_data = {
 		114300046,
 		114300060,
 		114300100,
+		114300150,
 		114300201,
 		114300202,
 		114300203,
@@ -236569,6 +237432,7 @@ pg.world_effect_data = {
 		114400046,
 		114400060,
 		114400100,
+		114400150,
 		114400201,
 		114400202,
 		114400203,
@@ -236610,6 +237474,7 @@ pg.world_effect_data = {
 		115100046,
 		115100060,
 		115100100,
+		115100150,
 		115100201,
 		115100202,
 		115100203,
@@ -236651,6 +237516,7 @@ pg.world_effect_data = {
 		115200046,
 		115200060,
 		115200100,
+		115200150,
 		115200201,
 		115200202,
 		115200203,
@@ -236692,6 +237558,7 @@ pg.world_effect_data = {
 		115300046,
 		115300060,
 		115300100,
+		115300150,
 		115300201,
 		115300202,
 		115300203,
@@ -236733,6 +237600,7 @@ pg.world_effect_data = {
 		115400046,
 		115400060,
 		115400100,
+		115400150,
 		115400201,
 		115400202,
 		115400203,
@@ -236771,6 +237639,7 @@ pg.world_effect_data = {
 		115500046,
 		115500060,
 		115500100,
+		115500150,
 		115500201,
 		115500202,
 		115500203,
@@ -236812,6 +237681,7 @@ pg.world_effect_data = {
 		115600046,
 		115600060,
 		115600100,
+		115600150,
 		115600201,
 		115600202,
 		115600203,
@@ -236853,6 +237723,7 @@ pg.world_effect_data = {
 		115700046,
 		115700060,
 		115700100,
+		115700150,
 		115700201,
 		115700202,
 		115700203,
@@ -236894,6 +237765,7 @@ pg.world_effect_data = {
 		115800046,
 		115800060,
 		115800100,
+		115800150,
 		115800201,
 		115800202,
 		115800203,
@@ -236935,6 +237807,7 @@ pg.world_effect_data = {
 		115900046,
 		115900060,
 		115900100,
+		115900150,
 		115900201,
 		115900202,
 		115900203,

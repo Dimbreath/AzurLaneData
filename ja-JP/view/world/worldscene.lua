@@ -1435,7 +1435,7 @@ end
 
 function slot0.OnSelectFleet(slot0, slot1, slot2, slot3)
 	if slot3 ~= nowWorld:GetActiveMap():GetFleet() then
-		slot0:Op("OpSwitchFleet", slot3)
+		slot0:Op("OpReqSwitchFleet", slot3)
 	end
 end
 
@@ -1443,7 +1443,7 @@ function slot0.OnClickCell(slot0, slot1)
 	slot2 = nowWorld:GetActiveMap()
 
 	if slot2:FindFleet(slot1.row, slot1.column) and slot4 ~= slot2:GetFleet() then
-		slot0:Op("OpSwitchFleet", slot4)
+		slot0:Op("OpReqSwitchFleet", slot4)
 	elseif slot2:CheckInteractive() then
 		slot0:Op("OpInteractive")
 	elseif slot2:IsSign(slot1.row, slot1.column) and ManhattonDist({
@@ -1488,6 +1488,12 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		return
 	end
 
+	if slot3:CheckAttachmentTransport() == "block" then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_movelimit_event_text"))
+
+		return
+	end
+
 	if not slot1 and not nowWorld:GetActiveEntrance():IsPressing() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_transport_locked"))
 
@@ -1507,8 +1513,8 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		return
 	end
 
-	if slot3:CheckAttachmentTransport() then
-		slot5 = pg.gameset.world_transfer_eventstory.description[1]
+	if slot4 == "story" then
+		slot6 = pg.gameset.world_transfer_eventstory.description[1]
 
 		table.insert({}, function (slot0)
 			pg.NewStoryMgr.GetInstance():Play(uv0, function (slot0, slot1)
@@ -1520,7 +1526,7 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 	end
 
 	if nowWorld:IsSubmarineSupporting() and slot3:GetSubmarineFleet():GetAmmo() > 0 then
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("world_instruction_submarine_6"),
 				onYes = slot0
@@ -1529,7 +1535,7 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 	end
 
 	if slot3:CheckFleetSalvage(true) then
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("world_catsearch_leavemap"),
 				onYes = slot0
@@ -1537,20 +1543,20 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		end)
 	end
 
-	slot5 = nil
+	slot6 = nil
 
-	for slot9, slot10 in ipairs(slot3:GetNormalFleets()) do
-		for slot14, slot15 in ipairs(slot10:GetCarries()) do
-			if slot15.config.out_story ~= "" then
-				slot5 = slot15.config.out_story
+	for slot10, slot11 in ipairs(slot3:GetNormalFleets()) do
+		for slot15, slot16 in ipairs(slot11:GetCarries()) do
+			if slot16.config.out_story ~= "" then
+				slot6 = slot16.config.out_story
 			end
 		end
 	end
 
-	if slot5 then
-		slot6 = pg.NewStoryMgr.GetInstance()
+	if slot6 then
+		slot7 = pg.NewStoryMgr.GetInstance()
 
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			uv0:Play(uv1, function (slot0, slot1)
 				if slot1 == 1 then
 					uv0()
@@ -1559,7 +1565,7 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		end)
 	end
 
-	seriesAsync(slot4, function ()
+	seriesAsync(slot5, function ()
 		uv0:EnterTransportWorld()
 	end)
 end

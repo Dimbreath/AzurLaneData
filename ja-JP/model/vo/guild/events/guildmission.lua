@@ -362,9 +362,10 @@ function slot0.CalcMyEffect(slot0)
 	end
 
 	for slot7, slot8 in ipairs(slot0) do
-		slot9 = getProxy(BayProxy):getShipById(slot8)
-		slot2 = slot9.level + 0
-		slot3 = 0 + slot9:getShipCombatPower({})
+		if getProxy(BayProxy):getShipById(slot8) then
+			slot2 = slot9.level + 0
+			slot3 = 0 + slot9:getShipCombatPower({})
+		end
 	end
 
 	return math.floor((20 + math.pow(slot2, 0.7)) * (1 + slot3 / (slot3 + 12500)))

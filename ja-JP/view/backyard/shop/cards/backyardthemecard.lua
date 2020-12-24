@@ -37,7 +37,7 @@ function slot0.Update(slot0, slot1, slot2)
 
 	setActive(slot0.hotTF, slot5 and not slot2)
 	setActive(slot0.newTF, slot6 and not slot2)
-	setActive(slot0.label, not slot5 and not slot6 and not slot4 or slot2)
+	setActive(slot0.label, not slot5 and not slot6 and not slot4 or slot2 and not slot4)
 	setActive(slot0.maskPurchased, slot2)
 end
 

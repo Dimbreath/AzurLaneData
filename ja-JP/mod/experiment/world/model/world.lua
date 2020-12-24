@@ -492,30 +492,30 @@ function slot0.EntranceToReplacementMap(slot0, slot1)
 	return slot2
 end
 
-function slot0.ReplacementMapType(slot0, slot1, slot2)
-	if slot1.config.sairen_chapter[1] == slot2.id then
-		return "sairen_chapter"
-	end
-
-	for slot6, slot7 in ipairs(slot1.config.stage_chapter) do
-		if slot7[3] == slot2.id then
+function slot0.ReplacementMapType(slot0, slot1)
+	for slot6, slot7 in ipairs(slot0:GetBaseMap().config.stage_chapter) do
+		if slot7[3] == slot1.id then
 			return "stage_chapter"
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot1.config.task_chapter) do
-		if slot7[2] == slot2.id then
+	for slot6, slot7 in ipairs(slot2.config.task_chapter) do
+		if slot7[2] == slot1.id then
 			return "task_chapter"
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot1.config.teasure_chapter) do
-		if slot7[2] == slot2.id then
+	for slot6, slot7 in ipairs(slot2.config.teasure_chapter) do
+		if slot7[2] == slot1.id then
 			return "teasure_chapter"
 		end
 	end
 
-	if slot1.config.complete_chapter[1] == slot2.id then
+	if slot2.config.sairen_chapter[1] == slot1.id then
+		return "sairen_chapter"
+	end
+
+	if slot2.config.complete_chapter[1] == slot1.id then
 		return "complete_chapter"
 	end
 end

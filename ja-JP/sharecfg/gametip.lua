@@ -2928,7 +2928,7 @@ No.7 z23の着せ替え
 		tip = "※行動力が100を下回った場合、 <color=#92fc63>10分</color> 毎に行動力が<color=#92fc63>1</color>回復します"
 	},
 	world_stamina_text = {
-		tip = "燃料を<color=#92fc63>$1</color>消費し行動力を<color=#92fc63>$2</color>回復します（本日回復可能回数$3/$4回）"
+		tip = "燃料を<color=#92fc63>$1</color>消費し行動力を<color=#92fc63>$2</color>回復します（今週回復可能回数$3/$4回）"
 	},
 	world_stamina_text2 = {
 		tip = "<color=#92fc63>$1</color>を消費し行動力を<color=#92fc63>$2</color>回復しました"
@@ -3306,6 +3306,9 @@ No.7 z23の着せ替え
 	},
 	world_map_level = {
 		tip = "艦隊作戦レベル：<color=#92fc63>$1</color> \n艦隊戦力レベルと同じレベル以下のエリアの攻略をオススメします。（艦隊作戦レベルは戦力・適応調整によって影響されます）"
+	},
+	world_movelimit_event_text = {
+		tip = "エリアに未完了の任務が存在しているため、エリカ移動を行えません"
 	},
 	task_notfound_error = {
 		tip = "ステージ情報が見つかりませんでした。エラーid:"

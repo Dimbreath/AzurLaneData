@@ -84,6 +84,7 @@ slot0.ReqName = {
 	"OpReqJumpOut",
 	"OpReqEnterPort",
 	"OpReqCatSalvage",
+	"OpReqSwitchFleet",
 	[99.0] = "OpReqSkipBattle"
 }
 
@@ -473,6 +474,18 @@ function slot0.GetAreaFocusPos(slot0)
 end
 
 function slot0.GetTransportBlockEvent()
+	if not uv0.blockEventDic then
+		uv0.blockEventDic = {}
+
+		for slot3, slot4 in ipairs(pg.gameset.world_movelimit_event.description) do
+			uv0.blockEventDic[slot4] = true
+		end
+	end
+
+	return uv0.blockEventDic
+end
+
+function slot0.GetTransportStoryEvent()
 	if not uv0.blockEventDic then
 		uv0.blockEventDic = {}
 

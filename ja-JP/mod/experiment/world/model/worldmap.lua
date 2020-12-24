@@ -330,8 +330,8 @@ function slot0.GetBattleFleets(slot0)
 	end)
 end
 
-function slot0.UpdateFleetIndex(slot0, slot1, slot2)
-	if slot2 or slot0.findex ~= slot1 then
+function slot0.UpdateFleetIndex(slot0, slot1)
+	if slot0.findex ~= slot1 then
 		slot0.findex = slot1
 
 		slot0:UpdateFOV()
@@ -352,7 +352,7 @@ function slot0.UpdateActive(slot0, slot1)
 			slot0.isCost = true
 
 			slot2:UpdateCostMap(slot0.id, slot0.isCost)
-		elseif slot0.clearFlag or slot0.config.is_clear > 0 then
+		elseif slot0:NeedClear() then
 			slot0:RemoveAllCellDiscovered()
 
 			slot0.clearFlag = false
@@ -386,11 +386,15 @@ end
 function slot0.CheckAttachmentTransport(slot0)
 	for slot6, slot7 in ipairs(slot0:FindAttachments(WorldMapAttachment.TypeEvent)) do
 		if slot7:IsAlive() and WorldConst.GetTransportBlockEvent()[slot7.id] then
-			return true
+			return "block"
 		end
 	end
 
-	return false
+	for slot7, slot8 in ipairs(slot2) do
+		if slot8:IsAlive() and WorldConst.GetTransportStoryEvent()[slot8.id] then
+			return "story"
+		end
+	end
 end
 
 function slot0.GetPort(slot0, slot1)
@@ -1511,6 +1515,12 @@ end
 
 function slot0.GetBGM(slot0)
 	return slot0.config.bgm
+end
+
+function slot0.NeedClear(slot0)
+	slot1, slot2 = slot0:GetEventPoisonRate()
+
+	return slot2 > 0 and slot1 == 0 or slot0.clearFlag or slot0.config.is_clear > 0
 end
 
 return slot0

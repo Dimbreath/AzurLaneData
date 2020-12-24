@@ -26,6 +26,7 @@ slot2 = {
 	CS_34513_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_34514_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_34515_BOSS_ID_FIELD = slot0.FieldDescriptor(),
+	CS_34515_LAST_TIME_FIELD = slot0.FieldDescriptor(),
 	SC_34516_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_34517_BOSS_ID_FIELD = slot0.FieldDescriptor(),
 	SC_34518_LIST_FIELD = slot0.FieldDescriptor(),
@@ -407,12 +408,22 @@ slot2.CS_34515_BOSS_ID_FIELD.has_default_value = false
 slot2.CS_34515_BOSS_ID_FIELD.default_value = 0
 slot2.CS_34515_BOSS_ID_FIELD.type = 13
 slot2.CS_34515_BOSS_ID_FIELD.cpp_type = 3
+slot2.CS_34515_LAST_TIME_FIELD.name = "last_time"
+slot2.CS_34515_LAST_TIME_FIELD.full_name = "p34.cs_34515.last_time"
+slot2.CS_34515_LAST_TIME_FIELD.number = 2
+slot2.CS_34515_LAST_TIME_FIELD.index = 1
+slot2.CS_34515_LAST_TIME_FIELD.label = 1
+slot2.CS_34515_LAST_TIME_FIELD.has_default_value = false
+slot2.CS_34515_LAST_TIME_FIELD.default_value = 0
+slot2.CS_34515_LAST_TIME_FIELD.type = 13
+slot2.CS_34515_LAST_TIME_FIELD.cpp_type = 3
 CS_34515.name = "cs_34515"
 CS_34515.full_name = "p34.cs_34515"
 CS_34515.nested_types = {}
 CS_34515.enum_types = {}
 CS_34515.fields = {
-	slot2.CS_34515_BOSS_ID_FIELD
+	slot2.CS_34515_BOSS_ID_FIELD,
+	slot2.CS_34515_LAST_TIME_FIELD
 }
 CS_34515.is_extendable = false
 CS_34515.extensions = {}
