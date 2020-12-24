@@ -12,15 +12,17 @@ function slot0.execute(slot0, slot1)
 
 			slot3:UnbindFleets()
 			slot3:BindFleets(slot2.fleets)
-			slot3:UpdateFleetIndex(1, true)
+
+			slot3.findex = table.indexof(slot2.fleets, slot2:GetFleet(slot0.group_list[1].id))
+
 			slot2.staminaMgr:ConsumeStamina(nowWorld:CalcOrderCost(WorldConst.OpReqRedeploy))
 			slot2:SetReqCDTime(WorldConst.OpReqRedeploy, pg.TimeMgr.GetInstance():GetServerTime())
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_2"))
 
-			slot5 = slot2:GetBossProxy()
+			slot6 = slot2:GetBossProxy()
 
-			slot5:ClearCacheShips()
-			slot5:GenFleet()
+			slot6:ClearCacheShips()
+			slot6:GenFleet()
 			uv0:sendNotification(GAME.WORLD_FLEET_REDEPLOY_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_fleet_redeploy_error_", slot0.result))

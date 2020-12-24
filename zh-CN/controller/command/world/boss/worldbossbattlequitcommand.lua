@@ -8,7 +8,9 @@ function slot0.execute(slot0, slot1)
 	if nowWorld:GetBossProxy():GetBossById(slot3) and not slot5:IsSelfBoss(slot6) then
 		slot5:RemoveCacheBoss(slot3)
 
-		for slot12, slot13 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(slot3)) do
+		slot12 = slot6.lastTime
+
+		for slot12, slot13 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(slot3 .. "_" .. slot12)) do
 			slot13.args.isDeath = true
 
 			slot7:UpdateMsg(slot13)

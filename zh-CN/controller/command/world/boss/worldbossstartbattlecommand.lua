@@ -20,6 +20,7 @@ function slot0.execute(slot0, slot1)
 
 	slot0:sendNotification(GAME.CHECK_WORLD_BOSS_STATE, {
 		bossId = slot3,
+		time = slot9.lastTime,
 		callback = function ()
 			pg.m02:retrieveMediator(getProxy(ContextProxy):getCurrentContext().mediator.__cname):addSubLayers(Context.New({
 				mediator = WorldBossFormationMediator,

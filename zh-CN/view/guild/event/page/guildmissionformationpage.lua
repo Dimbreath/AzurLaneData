@@ -326,31 +326,33 @@ function slot0.UpdateShipSlot(slot0, slot1, slot2, slot3, slot4)
 	slot7 = slot2:Find("Image")
 
 	if slot3[slot1] then
-		slot10 = getProxy(BayProxy):getShipById(slot6)
+		if getProxy(BayProxy):getShipById(slot6) then
+			PoolMgr.GetInstance():GetSpineChar(slot10:getPrefab(), true, function (slot0)
+				slot0.name = uv0
+				tf(slot0).pivot = Vector2(0.5, 0)
+				tf(slot0).sizeDelta = Vector2(200, 300)
 
-		PoolMgr.GetInstance():GetSpineChar(slot10:getPrefab(), true, function (slot0)
-			slot0.name = uv0
-			tf(slot0).pivot = Vector2(0.5, 0)
-			tf(slot0).sizeDelta = Vector2(200, 300)
+				SetParent(slot0, uv1)
 
-			SetParent(slot0, uv1)
+				tf(slot0).localPosition = Vector3(0, 0, 0)
+				tf(slot0).localScale = Vector3(0.6, 0.6, 0.6)
 
-			tf(slot0).localPosition = Vector3(0, 0, 0)
-			tf(slot0).localScale = Vector3(0.6, 0.6, 0.6)
+				SetAction(slot0, "stand")
+				GetOrAddComponent(slot0, "EventTriggerListener"):AddPointClickFunc(function (slot0, slot1)
+					uv0:emit(GuildEventMediator.ON_SELECT_MISSION_SHIP, uv1.id, uv2, uv3, index)
+				end)
 
-			SetAction(slot0, "stand")
-			GetOrAddComponent(slot0, "EventTriggerListener"):AddPointClickFunc(function (slot0, slot1)
-				uv0:emit(GuildEventMediator.ON_SELECT_MISSION_SHIP, uv1.id, uv2, uv3, index)
+				uv2.shipGos[uv6] = slot0
+
+				if uv7 then
+					uv7()
+				end
 			end)
-
-			uv2.shipGos[uv6] = slot0
-
-			if uv7 then
-				uv7()
-			end
-		end)
-		setActive(slot2:Find("effect"), slot0:HasEffectAddition(slot10))
-		setActive(slot2:Find("score"), slot0:HasScoreAddition(slot10))
+			setActive(slot2:Find("effect"), slot0:HasEffectAddition(slot10))
+			setActive(slot2:Find("score"), slot0:HasScoreAddition(slot10))
+		elseif slot4 then
+			slot4()
+		end
 	else
 		onButton(slot0, slot7, function ()
 			uv0:emit(GuildEventMediator.ON_SELECT_MISSION_SHIP, uv1.id, uv2, uv3)
@@ -431,7 +433,7 @@ end
 
 function slot0.GetTagShipCnt(slot0, slot1)
 	for slot9, slot10 in ipairs(slot1) do
-		if getProxy(BayProxy):getShipById(slot10):IsTagShip(slot0.mission:GetSquadron()) then
+		if getProxy(BayProxy):getShipById(slot10) and slot11:IsTagShip(slot0.mission:GetSquadron()) then
 			slot4 = 0 + 1
 		end
 	end
@@ -444,20 +446,25 @@ function slot0.CalcScoreAddition(slot0, slot1)
 	slot3 = slot2:GetAttrCntAcc()
 	slot4 = slot2:GetAttrAcc()
 	slot5 = pg.attribute_info_by_type
+	slot6 = 0
 	slot7 = {}
 	slot8 = {}
 
 	for slot13, slot14 in ipairs(slot1) do
-		slot15 = getProxy(BayProxy):getShipById(slot14)
+		slot16 = nil
 
-		if _.detect(slot2:getConfig("ship_camp_effect"), function (slot0)
-			return slot0[1] == uv0:getNation()
-		end) then
-			slot6 = 0 + slot16[2]
+		if getProxy(BayProxy):getShipById(slot14) then
+			slot16 = _.detect(slot2:getConfig("ship_camp_effect"), function (slot0)
+				return slot0[1] == uv0:getNation()
+			end)
+		end
+
+		if slot16 then
+			slot6 = slot6 + slot16[2]
 		end
 
 		for slot21, slot22 in pairs(slot3) do
-			if slot22.total <= (slot15:getProperties()[slot5[slot21].name] or 0) then
+			if slot22.total <= ((slot15 and slot15:getProperties() or {})[slot5[slot21].name] or 0) then
 				slot7[slot21] = (slot7[slot21] or 0) + 1
 			end
 		end
@@ -492,14 +499,19 @@ end
 
 function slot0.CalcEffectAddition(slot0, slot1)
 	slot2 = slot0.mission
+	slot3 = GuildMission.CalcMyEffect(slot1)
 
 	for slot8, slot9 in ipairs(slot1) do
-		slot10 = getProxy(BayProxy):getShipById(slot9)
+		slot11 = nil
 
-		if _.detect(slot2:getConfig("ship_type_effect"), function (slot0)
-			return slot0[1] == uv0:getShipType()
-		end) then
-			slot3 = GuildMission.CalcMyEffect(slot1) + slot11[2]
+		if getProxy(BayProxy):getShipById(slot9) then
+			slot11 = _.detect(slot2:getConfig("ship_type_effect"), function (slot0)
+				return slot0[1] == uv0:getShipType()
+			end)
+		end
+
+		if slot11 then
+			slot3 = slot3 + slot11[2]
 		end
 	end
 

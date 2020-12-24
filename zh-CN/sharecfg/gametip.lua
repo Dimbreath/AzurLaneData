@@ -3008,6 +3008,9 @@ pg.gametip = {
 	world_map_level = {
 		tip = "作战强度等级：\n指挥官当前的作战强度等级为<color=#92fc63>$1</color>，建议攻略该侵蚀等级及以下的海域。"
 	},
+	world_movelimit_event_text = {
+		tip = "当前海域存在尚未完成的任务，目前无法离开"
+	},
 	task_notfound_error = {
 		tip = "缺少任务配置，请检查是否需要热更新，id:"
 	},
@@ -11833,9 +11836,6 @@ BUFF加成也会增加
 	},
 	guild_shop_label_1 = {
 		tip = "请选择想要兑换的商品："
-	},
-	guild_shop_label_5 = {
-		tip = "请选择需要兑换的舰娘："
 	},
 	guild_shop_label_2 = {
 		tip = "可兑换上限"

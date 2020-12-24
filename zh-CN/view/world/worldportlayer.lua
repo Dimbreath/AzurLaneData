@@ -96,7 +96,7 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		if uv0.contextData.tempPage or uv0.page == uv1.PageMain then
+		if uv0.port:IsTempPort() or uv0.page == uv1.PageMain then
 			uv0:EaseOutUI(function ()
 				uv0:closeView()
 			end)
@@ -123,7 +123,9 @@ function slot0.didEnter(slot0)
 	slot0:UpdateTaskTip()
 	slot0:UpdateCDTip()
 
-	if slot0.contextData.page == WorldPortLayer.PageDockyard then
+	if slot0.port:IsTempPort() then
+		slot0.contextData.page = WorldPortLayer.PageShop
+	elseif slot0.contextData.page == WorldPortLayer.PageDockyard then
 		slot0.contextData.page = nil
 	end
 
@@ -179,7 +181,7 @@ function slot0.willExit(slot0)
 end
 
 function slot0.GetPaintingInfo(slot0)
-	if slot0.port.config.port_camp == 0 then
+	if slot0.port:IsTempPort() then
 		return "mingshi", false
 	else
 		return "tbniang", true
@@ -573,7 +575,7 @@ function slot0.UpdateRefreshTime(slot0, slot1)
 end
 
 function slot0.UpdateCDTip(slot0)
-	setActive(slot0.cdTF, #slot0.port.goods > 0)
+	setActive(slot0.cdTF, #slot0.port.goods > 0 and not slot0.port:IsTempPort())
 	setActive(slot0.emptyTF, #slot0.port.goods == 0)
 end
 

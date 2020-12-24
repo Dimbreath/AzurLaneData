@@ -2,23 +2,29 @@ slot0 = class("CheckWorldBossStateCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.bossId
 	slot4 = slot2.callback
-	slot5 = slot2.failedCallback
+	slot5 = tonumber(slot2.time or 0)
+	slot6 = slot2.failedCallback
 
-	function slot6()
-		for slot5, slot6 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(uv0)) do
+	function slot7()
+		slot5 = uv1
+
+		for slot5, slot6 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(uv0 .. "_" .. slot5)) do
 			slot6.args.isDeath = true
 
 			slot0:UpdateMsg(slot6)
 		end
 
-		if uv1 then
-			uv1()
+		if uv2 then
+			uv2()
 		end
 	end
 
+	print("boss id", slot3, " time:", slot5)
 	pg.ConnectionMgr.GetInstance():Send(34515, {
-		boss_id = slot2.bossId
+		boss_id = slot3,
+		last_time = slot5
 	}, 34516, function (slot0)
 		if slot0.result == 0 then
 			if uv0 then

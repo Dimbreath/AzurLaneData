@@ -2,15 +2,6 @@ return {
 	id = "WorldG123",
 	events = {
 		{
-			alpha = 0,
-			code = {
-				"playStory"
-			},
-			stories = {
-				"GWORLDX123A"
-			}
-		},
-		{
 			alpha = 0.3,
 			code = {
 				"ClickOrder"

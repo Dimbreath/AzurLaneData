@@ -73,4 +73,8 @@ function slot0.IsOpen(slot0, slot1, slot2)
 	return false
 end
 
+function slot0.IsTempPort(slot0)
+	return slot0.config.port_camp == 0
+end
+
 return slot0
