@@ -407,6 +407,13 @@ end
 function slot2._pause(slot0)
 	slot0:Deactive()
 	slot0._sceneMediator:Pause()
+
+	if slot0._timeScale ~= 1 then
+		slot0:CacheTimescaler(slot0._timeScale)
+		slot0:ScaleTimer(1)
+	end
+
+	uv0.Battle.BattleCameraUtil.GetInstance():PauseCameraTween()
 end
 
 function slot2.Resume(slot0)
@@ -427,6 +434,13 @@ end
 function slot2._resume(slot0)
 	slot0._sceneMediator:Resume()
 	slot0:Active()
+
+	if slot0._timescalerCache then
+		slot0:ScaleTimer(slot0._timescalerCache)
+		slot0:CacheTimescaler()
+	end
+
+	uv0.Battle.BattleCameraUtil.GetInstance():ResumeCameraTween()
 end
 
 function slot2.ScaleTimer(slot0, slot1)
@@ -439,6 +453,10 @@ end
 
 function slot2.GetTimeScaleRate(slot0)
 	return slot0._timeScale or 1
+end
+
+function slot2.CacheTimescaler(slot0, slot1)
+	slot0._timescalerCache = slot1
 end
 
 function slot0.Battle.PlayBattleSFX(slot0)

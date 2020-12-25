@@ -25,7 +25,7 @@ function slot2.ResetFocus(slot0)
 
 		slot1:FocusCharacter(nil, uv1.CAST_CAM_ZOOM_OUT_DURATION_CANNON, uv1.CAST_CAM_ZOOM_OUT_EXTRA_DELAY_CANNON)
 		slot1:ZoomCamara(uv1.CAST_CAM_ZOOM_SIZE, uv1.CAST_CAM_OVERLOOK_SIZE, uv1.CAST_CAM_ZOOM_OUT_DURATION_CANNON)
-		LeanTween.delayedCall(uv1.CAST_CAM_ZOOM_OUT_DURATION_CANNON + uv1.CAST_CAM_ZOOM_OUT_EXTRA_DELAY_CANNON, System.Action(function ()
+		LeanTween.delayedCall(go(slot1:GetCamera()), uv1.CAST_CAM_ZOOM_OUT_DURATION_CANNON + uv1.CAST_CAM_ZOOM_OUT_EXTRA_DELAY_CANNON, System.Action(function ()
 			uv0._focus = false
 
 			uv1:BulletTime(uv2.SPEED_FACTOR_FOCUS_CHARACTER, nil)

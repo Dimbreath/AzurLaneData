@@ -66415,10 +66415,10 @@ pg.world_event_data = {
 		is_guide = 0,
 		id = 1001002,
 		object_icon = {
-			"cell_yellow",
+			"cell_number_2",
 			1,
 			100,
-			0
+			60
 		},
 		event_op = {},
 		effect = {
