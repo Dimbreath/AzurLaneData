@@ -82,7 +82,7 @@ function slot0.Show(slot0, slot1)
 				lastTime = slot1.lastTime
 			},
 			player = slot1:GetPlayer() or getProxy(PlayerProxy):getData(),
-			uniqueId = slot1.id
+			uniqueId = slot1.id .. "_" .. slot1.lastTime
 		}))
 	end
 end
@@ -191,10 +191,13 @@ function slot0.OnClick(slot0, slot1, slot2, slot3, slot4)
 
 	if slot6.isSetup then
 		if not slot6:GetBossById(tonumber(slot2)) or slot8:isDeath() then
-			for slot14, slot15 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(tonumber(slot2))) do
-				slot15.args.isDeath = true
+			slot9 = getProxy(ChatProxy)
+			slot15 = slot8 and slot8.lastTime or "0"
 
-				slot9:UpdateMsg(slot15)
+			for slot15, slot16 in ipairs(slot9:GetMessagesByUniqueId(tonumber(slot2) .. "_" .. slot15)) do
+				slot16.args.isDeath = true
+
+				slot9:UpdateMsg(slot16)
 			end
 
 			slot4()

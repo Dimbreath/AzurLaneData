@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "结果确认中：指挥官，与塞壬海域守卫作战取得了阶段性胜利。",
+			say = "Confirming results: Commander, you've made partial progress with your victory against the defenses of this Abyssal Zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

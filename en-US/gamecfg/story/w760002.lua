@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "结果确认中：指挥官，能源矩阵已经成功安装至预定位置。",
+			say = "Confirming results: Commander, the Energy Matrix has been successfully returned to its original location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

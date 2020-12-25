@@ -8,14 +8,16 @@ function slot0.execute(slot0, slot1)
 	slot6 = slot2.failedCallback
 
 	function slot7()
-		for slot5, slot6 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(uv0)) do
+		slot5 = uv1
+
+		for slot5, slot6 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(uv0 .. "_" .. slot5)) do
 			slot6.args.isDeath = true
 
 			slot0:UpdateMsg(slot6)
 		end
 
-		if uv1 then
-			uv1()
+		if uv2 then
+			uv2()
 		end
 	end
 
