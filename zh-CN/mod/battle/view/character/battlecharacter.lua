@@ -915,7 +915,6 @@ function slot5.onUpdateCloakConfig(slot0, slot1)
 end
 
 function slot5.onUpdateCloakLock(slot0, slot1)
-	print("uuuuuu")
 	slot0._cloakBar:UpdateCloakLock()
 end
 
@@ -1112,6 +1111,10 @@ function slot5.SwitchShader(slot0, slot1, slot2)
 	else
 		slot0._animator:ClearOverrideMaterial()
 	end
+end
+
+function slot5.PauseActionAnimation(slot0, slot1)
+	ReflectionHelp.RefSetProperty(typeof("Spine.AnimationState"), "TimeScale", ReflectionHelp.RefGetField(typeof("SpineAnim"), "spineAnimationState", slot0._animator), slot1 and 0 or 1)
 end
 
 function slot5.GetFactory(slot0)
