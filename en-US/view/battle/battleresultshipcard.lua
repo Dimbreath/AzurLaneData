@@ -50,7 +50,7 @@ function slot0.ConfigCallback(slot0, slot1)
 end
 
 function slot0.setShipInfo(slot0)
-	setScrollText(slot0._oldShipVO:getName())
+	setScrollText(slot0._nameTxt, slot0._oldShipVO:getName())
 	setActive(findTF(slot0._expContent, "mvp"), slot0._isMVP)
 	SetActive(slot0._expBuff, slot0._buffName ~= nil)
 	setText(slot0._expBuff, slot0._buffName or "")
