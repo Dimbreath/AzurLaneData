@@ -50638,10 +50638,10 @@ pg.skill_data_template = {
 	},
 	[23231] = {
 		desc_get = "",
-		name = "全弹发射I",
+		name = "All Out Assault Ⅰ",
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行9次攻击，触发全弹发射-P级I",
+		desc = "Activates All Out Assault Ⅰ: P-Class once every 12 times the Main Guns are fired.",
 		id = 23231,
 		system_transform = {},
 		world_death_mark = {
@@ -50652,10 +50652,10 @@ pg.skill_data_template = {
 	},
 	[23232] = {
 		desc_get = "",
-		name = "全弹发射II",
+		name = "All Out Assault Ⅱ",
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行6次攻击，触发全弹发射-P级II",
+		desc = "Activates All Out Assault Ⅱ: P-Class once every 8 times the Main Guns are fired.",
 		id = 23232,
 		system_transform = {},
 		world_death_mark = {

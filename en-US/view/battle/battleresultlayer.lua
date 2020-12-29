@@ -909,11 +909,14 @@ function slot0.skip(slot0)
 	elseif slot0._stateFlag == uv0.STATE_REWARD then
 		-- Nothing
 	elseif slot0._stateFlag == uv0.STATE_DISPLAY then
-		for slot4, slot5 in ipairs(slot0._skipExp) do
-			slot5()
+		if slot0._skipExp then
+			for slot4, slot5 in ipairs(slot0._skipExp) do
+				slot5()
+			end
+
+			slot0._skipExp = nil
 		end
 
-		slot0._skipExp = nil
 		slot0._stateFlag = uv0.STATE_DISPLAYED
 
 		setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())

@@ -13050,7 +13050,7 @@ next character that appears on-screen.
 		tip = "Insufficient Ashes Coordinates. "
 	},
 	special_transform_limit_reach = {
-		tip = "已经拥有该改造道具或对应的改造后舰船，无法兑换"
+		tip = "Unable to exchange; you already have all the retrofit items or the corresponding retrofitted ships. "
 	},
 	meta_pt_notenough = {
 		tip = "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"

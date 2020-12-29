@@ -7018,7 +7018,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10055,
 		resource_num = 500,
-		order = 0
+		order = 3
 	},
 	[11001] = {
 		commodity_id = 42000,
