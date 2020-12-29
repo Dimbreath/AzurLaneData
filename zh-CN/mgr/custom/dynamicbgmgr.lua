@@ -17,8 +17,6 @@ function this.LoadBg(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 				if slot0:GetComponent(typeof(CriManaEffectUI)) then
 					slot1:Pause(false)
-				elseif slot0:GetComponent(typeof(CriManaCpkUI)) and slot1.cpkPlayOnStart then
-					slot1:PlayCpk()
 				end
 
 				setActive(uv2, false)
@@ -56,8 +54,6 @@ function this.ClearBg(slot0, slot1)
 
 			if slot6.dyBg:GetComponent(typeof(CriManaEffectUI)) then
 				slot9:Pause(true)
-			elseif slot8:GetComponent(typeof(CriManaCpkUI)) then
-				slot9:Stop()
 			end
 
 			PoolMgr.GetInstance():ReturnPrefab(slot7, "", slot8)
