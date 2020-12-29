@@ -4079,7 +4079,7 @@ pg.furniture_data_template = {
 		tag = 6,
 		spine_extra = "",
 		level = 1,
-		rarity = 4,
+		rarity = 5,
 		spine_action_replace = "",
 		belong = 1,
 		canputon = 0,
@@ -4111,6 +4111,49 @@ pg.furniture_data_template = {
 					"doa_qifenhe",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[189] = {
+		can_rotate = 0,
+		describe = "鉄血浮島要塞中央制御施設のミニチュア。――「虚畳なりし限象」に参加した指揮官に贈る",
+		gain_by = "虚畳なりし限象",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "象限の記念賞",
+		advice = 0,
+		id = 189,
+		icon = "tiexue_v3icon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tiexue_v3",
+				"normal"
 			}
 		},
 		interAction_group = {}
@@ -5585,6 +5628,82 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"doaqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100022] = {
+		can_rotate = 0,
+		describe = "「あーはっはっ！これでどこでもブランコで遊べるのだ！」",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "feiqiuqianicon",
+		count = 1,
+		name = "どこでもブランコ",
+		id = 100022,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feiqiuqianB",
+				"normal"
+			},
+			{
+				"feiqiuqianT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"feiqiuqianCharControl"
 			}
 		},
 		interAction_group = {}
@@ -79646,6 +79765,871 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[74001] = {
+		can_rotate = 0,
+		describe = "雪小町タイル風の床。風情を感じる",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/dibanmh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "雪小町の床",
+		advice = 0,
+		icon = "dibanmh3icon",
+		id = 74001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74002] = {
+		can_rotate = 0,
+		describe = "雪小町風の壁。風情を感じる",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/qiangbimh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "雪小町の壁",
+		advice = 0,
+		icon = "qiangbimh3icon",
+		id = 74002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74101] = {
+		can_rotate = 1,
+		describe = "冬場なのにスシを補給してくれる饅頭。魚はどこで仕入れただろう…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/1mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "スシ職人饅頭",
+		advice = 0,
+		icon = "1mh3icon",
+		id = 74101,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74102] = {
+		can_rotate = 0,
+		describe = "ただの雪だるまのようだが、大人気につき写真を撮らせたい饅頭は後をたたない",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/2mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ゲイシャ饅頭…？",
+		advice = 0,
+		icon = "2mh3icon",
+		id = 74102,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74103] = {
+		can_rotate = 0,
+		describe = "芸者風に着込んだ饅頭。ピンク塗りがバッチリ決まっている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/3mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ゲイシャ饅頭A",
+		advice = 0,
+		icon = "3mh3icon",
+		id = 74103,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74104] = {
+		can_rotate = 0,
+		describe = "芸者風に着込んだ饅頭。アピールタレントとして活躍していないようだ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/4mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ゲイシャ饅頭B",
+		advice = 0,
+		icon = "4mh3icon",
+		id = 74104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74105] = {
+		can_rotate = 0,
+		describe = "小町への案内板。まれに天気予報も書かれたりする",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/5mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "小町案内板",
+		advice = 0,
+		icon = "5mh3icon",
+		id = 74105,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74106] = {
+		can_rotate = 0,
+		describe = "小町の回覧板。お正月のゴミ出し日には気をつけて！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/6mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "小町回覧板",
+		advice = 0,
+		icon = "6mh3icon",
+		id = 74106,
+		comfortable = 2,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74107] = {
+		can_rotate = 1,
+		describe = "小さい賽銭箱。「今年はご利益もりもりでお願いにゃ！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/7mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "小町賽銭箱",
+		advice = 0,
+		icon = "7mh3icon",
+		id = 74107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74108] = {
+		can_rotate = 0,
+		describe = "ちょっと季節外れの提灯。観光地仕様かな？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/8mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "季節外れの提灯",
+		advice = 0,
+		icon = "8mh3icon",
+		id = 74108,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74109] = {
+		can_rotate = 0,
+		describe = "「指揮官さま！春月と宵月の舞を…ぜひ見に来てくださいっ！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/9mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "小町シュライン",
+		advice = 0,
+		icon = "9mh3icon",
+		id = 74109,
+		comfortable = 3,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74110] = {
+		can_rotate = 0,
+		describe = "「総力戦だマインツ、鉄血屋台の焼きそばは貫徹で仕込んでもらう」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/10mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "小町の街灯",
+		advice = 0,
+		icon = "10mh3icon",
+		id = 74110,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74111] = {
+		can_rotate = 0,
+		describe = "外に置けば露天風呂（？）になる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/11mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		name = "桶風呂饅頭",
+		advice = 0,
+		id = 74111,
+		icon = "11mh3icon",
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-38,
+					-42
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/11mh3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74112] = {
+		can_rotate = 1,
+		describe = "年賀状の〆はいつだろう？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/12mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "郵便箱",
+		advice = 0,
+		icon = "12mh3icon",
+		id = 74112,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74113] = {
+		can_rotate = 0,
+		describe = "「モータルよ、一つ聞かせてもらう。…に、ニーミ姉さんが来ていないよね！？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/13mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "小町の草むら",
+		advice = 0,
+		icon = "13mh3icon",
+		id = 74113,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74114] = {
+		can_rotate = 0,
+		describe = "「長い…クーちゃん疲れちゃった……」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/14mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		name = "参道の階段",
+		advice = 0,
+		id = 74114,
+		icon = "14mh3icon",
+		comfortable = 3,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					86,
+					136
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/14mh3_using1"
+			},
+			{
+				"stand2",
+				{
+					-98,
+					-170
+				},
+				{
+					1,
+					1
+				},
+				"mh3/14mh3_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74115] = {
+		can_rotate = 0,
+		describe = "「待つのには慣れているわ。…ええ、一人ででも、こうして皆に囲まれてでも」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/15mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		name = "小町の橋",
+		advice = 0,
+		id = 74115,
+		icon = "15mh3icon",
+		comfortable = 3,
+		size = {
+			3,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					19,
+					11
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/15mh3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74116] = {
+		can_rotate = 0,
+		describe = "「ほーら、駿河はお茶ばかり飲んでないで注文してよ～！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/16mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "饅頭菓子店",
+		advice = 0,
+		icon = "16mh3icon",
+		id = 74116,
+		comfortable = 3,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74117] = {
+		can_rotate = 0,
+		describe = "「門松って松じゃないのですね」「そうでない場合もございます。枢機卿さま」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/17mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "小町の木",
+		advice = 0,
+		icon = "17mh3icon",
+		id = 74117,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74118] = {
+		can_rotate = 0,
+		describe = "小町を縦断する川。冬なのに凍っていないのはもしかして温泉脈が…？",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/18mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "小町の川",
+		advice = 0,
+		icon = "18mh3icon",
+		id = 74118,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74119] = {
+		can_rotate = 0,
+		describe = "一日饅頭車長、運転中だピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 74,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "Amh3icon",
+		count = 1,
+		name = "饅頭てつ1号",
+		advice = 0,
+		id = 74119,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			20,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Amh3B",
+				"normal"
+			},
+			{
+				"Amh3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -79732,6 +80716,7 @@ pg.furniture_data_template = {
 		186,
 		187,
 		188,
+		189,
 		100002,
 		100003,
 		100004,
@@ -79752,6 +80737,7 @@ pg.furniture_data_template = {
 		100019,
 		100020,
 		100021,
+		100022,
 		1001,
 		1002,
 		1101,
@@ -81434,6 +82420,27 @@ pg.furniture_data_template = {
 		73302,
 		73303,
 		73304,
-		73305
+		73305,
+		74001,
+		74002,
+		74101,
+		74102,
+		74103,
+		74104,
+		74105,
+		74106,
+		74107,
+		74108,
+		74109,
+		74110,
+		74111,
+		74112,
+		74113,
+		74114,
+		74115,
+		74116,
+		74117,
+		74118,
+		74119
 	}
 }

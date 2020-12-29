@@ -23,6 +23,7 @@ slot0.Fields = {
 slot0.EventUpdateProgress = "WorldAtlas.EventUpdateProgress"
 slot0.EventUpdateActiveEntrance = "WorldAtlas.EventUpdateActiveEntrance"
 slot0.EventUpdateActiveMap = "WorldAtlas.EventUpdateActiveMap"
+slot0.EventAddPressingMap = "WorldAtlas.EventAddPressingMap"
 slot0.EventAddPressingEntrance = "WorldAtlas.EventAddPressingEntrance"
 slot0.EventUpdatePortTaskMark = "WorldAtlas.EventUpdatePortTaskMark"
 slot0.ScaleShrink = 1
@@ -364,6 +365,8 @@ function slot0.AddPressingMap(slot0, slot1)
 				[slot2.id] = true
 			})
 		end
+
+		slot0:DispatchEvent(uv0.EventAddPressingMap, slot1)
 	end
 end
 

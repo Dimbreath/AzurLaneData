@@ -815,25 +815,15 @@ function slot0.getFleetStgIds(slot0, slot1)
 		table.insert(slot2, ChapterConst.Status2StgBuff[slot9])
 	end
 
-	for slot9 = #slot2, 1, -1 do
-		if not pg.strategy_data_template[slot2[slot9]] or pg.strategy_data_template[slot2[slot9]].buff_id == 0 then
-			table.remove(slot2, slot9)
-		end
-	end
-
 	if slot0:getOperationBuffDescStg() then
-		table.insert(slot2, slot6)
+		table.insert(slot2, slot5)
 	end
 
 	return slot2
 end
 
 function slot0.GetShowingStartegies(slot0)
-	for slot6, slot7 in ipairs(slot0:getExtraFlags()) do
-		if pg.strategy_data_template[ChapterConst.Status2StgBuff[slot7]].buff_id == 0 then
-			table.insert(slot0:getFleetStgIds(slot0.fleet), slot8)
-		end
-	end
+	slot2 = slot0:getFleetStgIds(slot0.fleet)
 
 	if slot0:getPlayType() == ChapterConst.TypeDOALink and pg.gameset.doa_fever_count.key_value <= slot0.defeatEnemies then
 		table.insert(slot2, pg.gameset.doa_fever_strategy.key_value)

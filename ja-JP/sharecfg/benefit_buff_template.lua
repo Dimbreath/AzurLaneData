@@ -111,7 +111,7 @@ pg.benefit_buff_template = {
 		desc = "戦術教室でスキルを新たに強化する場合、所要時間が少し短縮\n残り時間:$1",
 		benefit_effect = "300",
 		id = 10,
-		icon = "Props/buff_minigame_10",
+		icon = "Props/buff_qiaozhong_10",
 		benefit_type = "skill_learncost_up"
 	},
 	{
@@ -122,7 +122,7 @@ pg.benefit_buff_template = {
 		desc = "メイン海域及び作戦履歴海域戦闘時、味方が与えるダメージが微増\n残り時間:$1",
 		benefit_effect = "504",
 		id = 11,
-		icon = "Props/buff_minigame_11",
+		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
 	},
 	{
@@ -133,7 +133,7 @@ pg.benefit_buff_template = {
 		desc = "秘書艦の親密度上昇スピードがアップ\n残り時間:$1",
 		benefit_effect = "1",
 		id = 12,
-		icon = "Props/buff_minigame_12",
+		icon = "Props/buff_qiaozhong_12",
 		benefit_type = "intimacy_up_extra"
 	},
 	{

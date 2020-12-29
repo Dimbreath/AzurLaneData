@@ -70,6 +70,8 @@ function slot0.register(slot0)
 			})
 		end
 	end)
+
+	slot0.storyList = {}
 end
 
 function slot0.remove(slot0)
@@ -506,6 +508,10 @@ function slot0.ApplyShipUpdate(slot0, slot1)
 	end)
 end
 
+function slot0.NetUpdateWorldSairenChapter(slot0, slot1)
+	nowWorld:GetAtlas():SetSairenMapList(_.rest(slot1, 1))
+end
+
 function slot0.NetUpdateWorldMapPressing(slot0, slot1)
 	nowWorld:GetAtlas():SetPressingMarkList(_.rest(slot1, 1))
 end
@@ -549,6 +555,14 @@ function slot0.ApplySalvageUpdate(slot0, slot1)
 	_.each(slot1, function (slot0)
 		nowWorld:GetFleet(slot0.id):UpdateCatSalvage(slot0.step, slot0.list, slot0.mapId)
 	end)
+end
+
+function slot0.CheckStoryPlayed(slot0, slot1)
+	return slot0.storyList[slot1]
+end
+
+function slot0.SetStoryPlayed(slot0, slot1)
+	slot0.storyList[slot1] = true
 end
 
 return slot0

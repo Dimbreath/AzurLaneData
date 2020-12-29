@@ -37,10 +37,7 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.flush(slot0)
-	setAnchoredPosition(slot0.lvTxt.gameObject, {
-		x = slot0.shipVO:isBluePrintShip() and -18 or -7.5
-	})
-
+	slot1 = slot0.shipVO
 	slot0.lvTxt.text = "Lv." .. slot1.level
 	slot3 = slot1:getStar()
 

@@ -1,7 +1,8 @@
 return {
-	id = "GWORLDX123A",
 	mode = 2,
 	once = true,
+	id = "GWORLDX123A",
+	skipTip = false,
 	scripts = {
 		{
 			side = 2,

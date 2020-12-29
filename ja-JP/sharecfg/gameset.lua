@@ -338,8 +338,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "DOA活动PT",
-		key_value = 177
+		description = "德系V3活动PT",
+		key_value = 180
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -471,7 +471,7 @@ pg.gameset = {
 	},
 	world_resetting_sairen_chapter = {
 		description = "",
-		key_value = 2
+		key_value = 1
 	},
 	world_resetting_story = {
 		key_value = 0,
@@ -806,7 +806,7 @@ pg.gameset = {
 	},
 	world_movepower_maxvalue = {
 		description = "",
-		key_value = 100
+		key_value = 200
 	},
 	world_cell_cost_movepower = {
 		description = "",
@@ -1248,6 +1248,94 @@ pg.gameset = {
 			22520
 		}
 	},
+	world_quickmode_skiplua = {
+		key_value = 0,
+		description = {
+			"W1202",
+			"W1203",
+			"W610000",
+			"W610001",
+			"W610002",
+			"W610003",
+			"W610004",
+			"W610005",
+			"W610006",
+			"W610007",
+			"W610008",
+			"W610010",
+			"W610020",
+			"W610021",
+			"W610200",
+			"W610201",
+			"W610202",
+			"W610203",
+			"W610300",
+			"W610301",
+			"W610305",
+			"W610306",
+			"W612001",
+			"W2100",
+			"W2101",
+			"W2102",
+			"W2103",
+			"W2104",
+			"W2105",
+			"W2106",
+			"W2001",
+			"W2002",
+			"W2009",
+			"W2008",
+			"W2012",
+			"W2012B",
+			"W2015",
+			"W2016",
+			"W2017",
+			"W2029",
+			"W2032",
+			"W2033",
+			"W2034",
+			"W2036",
+			"W1041",
+			"W1042",
+			"W400000",
+			"W400001",
+			"W1200",
+			"W1201",
+			"W1202",
+			"W1203",
+			"W1024",
+			"W1001",
+			"W1002",
+			"W1003",
+			"W1100",
+			"W1101",
+			"W1104",
+			"W1105",
+			"W1110",
+			"W1111",
+			"W1113",
+			"W1114",
+			"W1115",
+			"W1117",
+			"W1118",
+			"W1120",
+			"W1121",
+			"W1123",
+			"W1126",
+			"W1123",
+			"W1125",
+			"W1130",
+			"W1131",
+			"W1132",
+			"W1133",
+			"W1134",
+			"W1135",
+			"W1136",
+			"W1137",
+			"W1138",
+			"W1141"
+		}
+	},
 	commander_exp_a = {
 		description = "",
 		key_value = 7000
@@ -1460,7 +1548,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 178
+		key_value = 181
 	},
 	order_pt_max = {
 		key_value = 0,

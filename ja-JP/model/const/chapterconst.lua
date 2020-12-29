@@ -68,10 +68,12 @@ slot0.BoxSupply = 6
 slot0.BoxTorpedo = 7
 slot0.BoxBanaiDamage = 8
 slot0.BoxLavaDamage = 9
+slot0.LBIdle = 0
 slot0.LBCoastalGun = 1
 slot0.LBHarbor = 2
 slot0.LBDock = 3
 slot0.LBAntiAir = 4
+slot0.LBIDAirport = 13
 slot0.RoundPlayer = 0
 slot0.RoundEnemy = 1
 slot0.AIEasy = 1
@@ -94,12 +96,6 @@ slot0.StrategySonarDetect = 12
 slot0.StrategyRepair = 4
 slot0.StrategyPresents = {
 	4
-}
-slot0.Status2StgBuff = {
-	90,
-	91,
-	93,
-	92
 }
 slot0.StgDtRepair = "healthy"
 slot0.StgDtAirPrepare = "air"
@@ -242,6 +238,16 @@ slot0.KizunaJammingEngage = 1
 slot0.KizunaJammingDodge = 2
 slot0.StatusDay = 3
 slot0.StatusNight = 4
+slot0.StatusAirportOutControl = 5
+slot0.StatusAirportUnderControl = 6
+slot0.Status2StgBuff = {
+	[slot0.KizunaJammingEngage] = 90,
+	[slot0.KizunaJammingDodge] = 91,
+	[slot0.StatusDay] = 93,
+	[slot0.StatusNight] = 92,
+	[slot0.StatusAirportOutControl] = 8801,
+	[slot0.StatusAirportUnderControl] = 8802
+}
 slot0.HpGreen = 3000
 
 function slot0.GetAmbushDisplay(slot0)

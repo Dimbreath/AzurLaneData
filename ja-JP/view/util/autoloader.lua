@@ -9,8 +9,8 @@ slot7 = import("view.util.RequestPackages.GetSpriteRequestPackage")
 slot8 = import("view.util.RequestPackages.ReturnPrefabRequestPackage")
 slot9 = import("view.util.RequestPackages.ReturnSpineRequestPackage")
 slot10 = import("view.util.RequestPackages.DestroyAtlasPoolRequestPackage")
-slot0.PartLoading = 1
-slot0.PartLoaded = 2
+slot0.PartLoading = bit.lshift(1, 0)
+slot0.PartLoaded = bit.lshift(1, 1)
 
 function slot0.Ctor(slot0)
 	slot0._loadingRequest = {}

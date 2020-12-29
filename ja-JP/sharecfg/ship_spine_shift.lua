@@ -62,5 +62,19 @@ pg.ship_spine_shift = {
 			0,
 			13
 		}
+	},
+	U37 = {
+		spine = "U37",
+		mainui_shift = {
+			-30,
+			-20
+		}
+	},
+	U110_5 = {
+		spine = "U110_5",
+		mainui_shift = {
+			-6,
+			10
+		}
 	}
 }

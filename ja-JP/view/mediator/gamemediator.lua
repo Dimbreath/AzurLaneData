@@ -23,23 +23,26 @@ function slot0.handleNotification(slot0, slot1)
 			context = slot4
 		})
 	elseif slot2 == GAME.GO_MINI_GAME then
-		slot5 = slot3
-		slot6 = slot1:getType()
 		slot4 = Context.New()
+		slot5 = slot3
 
 		slot4:extendData({
 			miniGameId = slot5
 		})
 
-		slot7 = pg.mini_game[slot5]
-		slot4.mediator = require("view.miniGame.gameMediator." .. slot7.mediator_name)
-		slot4.viewComponent = require("view.miniGame.gameView." .. slot7.view_name)
-		slot4.scene = slot7.view_name
+		slot6 = pg.mini_game[slot5]
+		slot4.mediator = require("view.miniGame.gameMediator." .. slot6.mediator_name)
+		slot4.viewComponent = require("view.miniGame.gameView." .. slot6.view_name)
+		slot4.scene = slot6.view_name
 
-		print("load minigame: " .. slot7.view_name)
-		slot0:sendNotification(GAME.LOAD_SCENE, {
+		print("load minigame: " .. slot6.view_name)
+
+		slot9 = {
 			context = slot4
-		})
+		}
+
+		table.merge(slot9, slot1:getType())
+		slot0:sendNotification(GAME.LOAD_SCENE, slot9)
 	elseif slot2 == GAME.LOAD_SCENE_DONE then
 		print("scene loaded: ", slot3)
 

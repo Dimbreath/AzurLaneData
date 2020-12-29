@@ -258,16 +258,20 @@ function slot0.GetWindScale(slot0)
 	return slot0 and uv0.WindScale[slot0] or 1
 end
 
+slot0.BaseMoveDuration = 0.35
+
 function slot0.GetTerrainMoveStepDuration(slot0)
-	return ({
-		[WorldMapCell.TerrainNone] = 0.5,
-		[WorldMapCell.TerrainWind] = 0.25,
-		[WorldMapCell.TerrainStream] = 0.25,
-		[WorldMapCell.TerrainIce] = 0.25,
-		[WorldMapCell.TerrainFog] = 0.5,
-		[WorldMapCell.TerrainFire] = 0.5,
-		[WorldMapCell.TerrainPoison] = 0.5
-	})[slot0]
+	uv0.MoveStepDuration = uv0.MoveStepDuration or {
+		[WorldMapCell.TerrainNone] = uv0.BaseMoveDuration,
+		[WorldMapCell.TerrainWind] = uv0.BaseMoveDuration / 2,
+		[WorldMapCell.TerrainStream] = uv0.BaseMoveDuration / 2,
+		[WorldMapCell.TerrainIce] = uv0.BaseMoveDuration / 2,
+		[WorldMapCell.TerrainFog] = uv0.BaseMoveDuration,
+		[WorldMapCell.TerrainFire] = uv0.BaseMoveDuration,
+		[WorldMapCell.TerrainPoison] = uv0.BaseMoveDuration
+	}
+
+	return uv0.MoveStepDuration[slot0]
 end
 
 slot0.UIEaseDuration = 0.5
@@ -486,15 +490,15 @@ function slot0.GetTransportBlockEvent()
 end
 
 function slot0.GetTransportStoryEvent()
-	if not uv0.blockEventDic then
-		uv0.blockEventDic = {}
+	if not uv0.blockStoryDic then
+		uv0.blockStoryDic = {}
 
 		for slot3, slot4 in ipairs(pg.gameset.world_transfer_eventlist.description) do
-			uv0.blockEventDic[slot4] = true
+			uv0.blockStoryDic[slot4] = true
 		end
 	end
 
-	return uv0.blockEventDic
+	return uv0.blockStoryDic
 end
 
 function slot0.IsWorldHelpNew(slot0, slot1)

@@ -483,8 +483,8 @@ function slot0.CalcTransportPos(slot0, slot1, slot2)
 	return slot6
 end
 
-function slot0.HasFleetInEdge(slot0)
-	return slot0.active and _.any(slot0:GetFleets(), function (slot0)
+function slot0.AnyFleetInEdge(slot0)
+	return slot0.active and _.any(slot0:GetNormalFleets(), function (slot0)
 		return slot0.row == uv0.top or slot0.row == uv0.bottom or slot0.column == uv0.left or slot0.column == uv0.right
 	end)
 end

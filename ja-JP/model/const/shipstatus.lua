@@ -324,8 +324,7 @@ slot1 = {
 		inEvent = 2,
 		inPvP = 1,
 		inFleet = 1,
-		isActivityNpc = 2,
-		inWorld = 2
+		isActivityNpc = 2
 	},
 	inClass = {
 		isActivityNpc = 2,
@@ -339,9 +338,7 @@ slot1 = {
 		inClass = 2,
 		isActivityNpc = 2
 	},
-	inWorld = {
-		inEvent = 2
-	},
+	inWorld = {},
 	onPropose = {
 		inEvent = 2,
 		inChapter = 2

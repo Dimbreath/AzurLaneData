@@ -2763,6 +2763,43 @@ pg.equip_data_statistics = {
 			"MG"
 		}
 	},
+	[436] = {
+		name = "P1突破后自带150mm副炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 1,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		damage = "21 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 436,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			436
+		},
+		skill_id = {},
+		part_main = {
+			3
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
 	[500] = {
 		name = "ビーバーズエムブレム",
 		tech = 0,
@@ -93886,6 +93923,102 @@ pg.equip_data_statistics = {
 			60563
 		}
 	},
+	[60591] = {
+		name = "航空攻击展示-威悉I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60591,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60591
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60592] = {
+		name = "航空攻击展示-威悉II",
+		base = 60591,
+		id = 60592,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60592
+		}
+	},
+	[60593] = {
+		name = "航空攻击展示-威悉III",
+		base = 60591,
+		id = 60593,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60593
+		}
+	},
+	[60601] = {
+		name = "航空攻击展示-彼得史特拉塞I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60601,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60601
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60602] = {
+		name = "航空攻击展示-彼得史特拉塞II",
+		base = 60601,
+		id = 60602,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60602
+		}
+	},
+	[60603] = {
+		name = "航空攻击展示-彼得史特拉塞III",
+		base = 60601,
+		id = 60603,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60603
+		}
+	},
 	[61007] = {
 		name = "0",
 		tech = 1,
@@ -98088,6 +98221,55 @@ pg.equip_data_statistics = {
 			73222
 		}
 	},
+	[73231] = {
+		name = "全弹发射-P级I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 73231,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			73231
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[73232] = {
+		name = "全弹发射-P级II",
+		base = 73231,
+		id = 73232,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			73232
+		}
+	},
 	[73311] = {
 		name = "0",
 		tech = 1,
@@ -102011,6 +102193,54 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {
 			79662
+		}
+	},
+	[79671] = {
+		name = "专属弹幕-U37I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79671,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79671
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79672] = {
+		name = "专属弹幕-U37II",
+		base = 79671,
+		id = 79672,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79672
 		}
 	},
 	[85000] = {
@@ -114453,6 +114683,7 @@ pg.equip_data_statistics = {
 		433,
 		434,
 		435,
+		436,
 		500,
 		501,
 		502,
@@ -119825,6 +120056,12 @@ pg.equip_data_statistics = {
 		60561,
 		60562,
 		60563,
+		60591,
+		60592,
+		60593,
+		60601,
+		60602,
+		60603,
 		61007,
 		61008,
 		61009,
@@ -119997,6 +120234,8 @@ pg.equip_data_statistics = {
 		73212,
 		73221,
 		73222,
+		73231,
+		73232,
 		73311,
 		73312,
 		73321,
@@ -120159,6 +120398,8 @@ pg.equip_data_statistics = {
 		79652,
 		79661,
 		79662,
+		79671,
+		79672,
 		85000,
 		85001,
 		85002,

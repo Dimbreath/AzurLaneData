@@ -128,7 +128,7 @@ function slot0.updateEquipment(slot0)
 	slot0.contextData.equipmentId = slot1.id
 
 	slot0:updateAttrs(slot0.equipmentPanel:Find("view/content"), slot1, slot1.config.next > 0 and slot1:MigrateTo(slot1.config.next) or nil)
-	setText(findTF(slot0.equipmentPanel, "name_container"), slot1.config.name)
+	changeToScrollText(slot0.equipmentPanel:Find("name_container"), slot1.config.name)
 	setActive(findTF(slot0.equipmentPanel, "unique"), slot1:isUnique())
 	updateEquipment(slot0:findTF("equiptpl", slot0.equipmentPanel), slot1)
 end
@@ -313,7 +313,7 @@ function slot0.upgradeFinish(slot0, slot1, slot2)
 		setActive(uv0.mainPanel, true)
 		setActive(uv0.finishPanel, false)
 	end, SFX_CANCEL)
-	setText(findTF(slot0.finishPanel, "frame/equipment_panel/name_container"), slot2.config.name)
+	changeToScrollText(slot0.finishPanel:Find("frame/equipment_panel/name_container"), slot2.config.name)
 	setActive(findTF(slot0.finishPanel, "frame/equipment_panel/unique"), slot2:isUnique())
 	updateEquipment(slot0:findTF("frame/equipment_panel/equiptpl", slot0.finishPanel), slot2)
 	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/view/content", slot0.finishPanel), slot1, slot2)

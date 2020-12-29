@@ -130,6 +130,7 @@ function slot0.InitChatWindow(slot0)
 	slot0.chatContent = slot0.chatPanel:Find("bottom/list/content")
 	slot0.prefabOthers = slot0.chatPanel:Find("bottom/list/popo_other")
 	slot0.prefabSelf = slot0.chatPanel:Find("bottom/list/popo_self")
+	slot0.prefabWorldboss = slot0.chatPanel:Find("bottom/list/popo_worldboss")
 	slot0.sendBtn = slot0.chatPanel:Find("bottom/bottom/send")
 	slot0.msgInput = slot0.chatPanel:Find("bottom/bottom/input"):GetComponent(typeof(InputField))
 	slot0.emojiBtn = slot0.chatPanel:Find("bottom/bottom/emoji")
@@ -272,6 +273,8 @@ function slot0.Append(slot0, slot1, slot2, slot3)
 
 	if slot0.chatContent.childCount >= GuildConst.CHAT_LOG_MAX_COUNT * 2 then
 		slot0:emit(GuildMainMediator.REBUILD_ALL)
+	elseif slot1.id and slot1.id == 4 then
+		slot0:AddWorldBossMsg(slot1, slot2, slot3)
 	else
 		slot0:AppendWorld(slot1, slot2, slot3)
 	end
@@ -283,6 +286,23 @@ end
 
 function slot0.ClearChatTip(slot0)
 	setActive(slot0.newMsgTip, false)
+end
+
+function slot0.AddWorldBossMsg(slot0, slot1, slot2, slot3)
+	slot5 = Clone(slot1).player
+
+	if not slot3 then
+		slot0:ShowChatTip()
+	end
+
+	slot7 = ChatBubbleWorldBoss.New(cloneTplTo(slot0.prefabWorldboss, slot0.chatContent))
+
+	if slot2 >= 0 then
+		slot7.tf:SetSiblingIndex(slot2)
+	end
+
+	slot7:update(slot4)
+	table.insert(slot0.chatBubbles, slot7)
 end
 
 function slot0.AppendWorld(slot0, slot1, slot2, slot3)

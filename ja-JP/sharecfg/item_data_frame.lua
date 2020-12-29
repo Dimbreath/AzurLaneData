@@ -189,7 +189,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 312,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>冷徹なる鋳型に、赤き我が血潮を流し込もう――</color>――「虚畳なりし限象」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

@@ -82,17 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>マリー・ローズ</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>プリンツ・ハインリヒ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>ほのか</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ペーター・シュトラッサー</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>かすみ</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>U-37</color>：0.5%",
 			" ",
-			"<color=#ffde38>みさき</color>：0.5%",
+			"<color=#d797ff>ニュルンベルク</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>なぎさ</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>モニカ</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>ヴェーザー</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

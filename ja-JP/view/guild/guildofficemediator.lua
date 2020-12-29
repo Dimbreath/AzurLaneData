@@ -69,13 +69,6 @@ function slot0.handleNotification(slot0, slot1)
 		if slot2 == GAME.GUILD_COMMIT_DONATE_DONE then
 			if slot3.awards and #slot3.awards > 0 then
 				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
-					pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_addition_capital_tip", uv0.capital))
-
-					if _.any(getProxy(GuildProxy):getRawData():getTechnologyGroups(), function (slot0)
-						return slot0:GetState() == GuildTechnologyGroup.STATE_START
-					end) then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_addition_techpoint_tip", uv0.techPoint))
-					end
 				end)
 			else
 				slot4()

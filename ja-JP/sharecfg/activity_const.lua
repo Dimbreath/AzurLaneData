@@ -448,7 +448,10 @@ pg.activity_const = {
 		act_id = 459
 	},
 	NEWYEAR_SHRINE_PAGE_ID = {
-		act_id = 460
+		act_id = 830
+	},
+	NEWYEAR_SNACK_PAGE_ID = {
+		act_id = 835
 	},
 	NEWYEAR_ACTIVITY = {
 		act_id = 461
@@ -728,5 +731,11 @@ pg.activity_const = {
 	},
 	ELITE_AWARD_ACTIVITY_ID = {
 		act_id = 40
+	},
+	NEWYEAR_SNACKSTREET_MINIGAME = {
+		act_id = 831
+	},
+	NEWYEAR_SNOWBALL_FIGHT = {
+		act_id = 829
 	}
 }

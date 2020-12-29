@@ -300,7 +300,7 @@ function slot0.OnStart(slot0)
 			return
 		end
 
-		if uv0:IsReView() or uv0.storyScript:IsPlayed() then
+		if uv0:IsReView() or uv0.storyScript:IsPlayed() or not uv0.storyScript:ShowSkipTip() then
 			uv1()
 
 			return

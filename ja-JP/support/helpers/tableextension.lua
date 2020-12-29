@@ -202,6 +202,10 @@ function table.getCount(slot0)
 end
 
 function table.merge(slot0, slot1)
+	if not slot1 or not slot0 then
+		return
+	end
+
 	for slot5, slot6 in pairs(slot1) do
 		slot0[slot5] = slot6
 	end
@@ -232,4 +236,18 @@ function table.clean(slot0)
 	for slot4 = #slot0, 1, -1 do
 		table.remove(slot0, slot4)
 	end
+end
+
+function table.shallowCopy(slot0)
+	if type(slot0) ~= "table" then
+		return slot0
+	end
+
+	for slot5, slot6 in pairs(slot0) do
+		-- Nothing
+	end
+
+	return {
+		[slot5] = slot6
+	}
 end

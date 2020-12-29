@@ -43,6 +43,8 @@ function slot0.LoadScene(slot0, slot1)
 
 		uv0.tfCamera = uv0.transform:Find("Main Camera")
 
+		CameraFittingSettin(uv0.tfCamera)
+
 		return existCall(uv1)
 	end)
 end

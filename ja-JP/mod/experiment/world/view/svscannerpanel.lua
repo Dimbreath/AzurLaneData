@@ -158,16 +158,17 @@ function slot0.OnUpdate(slot0)
 		end
 	elseif slot2.type == WorldMapAttachment.TypeTrap then
 		slot5 = true
-		slot6 = false
-		slot4 = {
-			slot2.config.buff_id
-		}
+		slot6 = true
+
+		setActive(slot0.rtInfo:Find("Image"), true)
+		GetImageSpriteFromAtlasAsync("world/buff/" .. WorldBuff.GetTemplate(slot2.config.buff_id).icon, "", slot0.rtInfo:Find("Image"))
+		setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.desc))
 	elseif slot2.type == WorldMapAttachment.TypePort then
 		slot5 = slot2.config.port_camp > 0 and slot8 ~= nowWorld.realm
 		slot6 = true
 
 		setActive(slot0.rtInfo:Find("Image"), false)
-		setText(slot0.rtInfo:Find("context/Text"), HXSet.hxLan(slot2.config.scan_desc))
+		setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.scan_desc))
 	elseif slot2.type == WorldMapAttachment.TypeEvent then
 		slot4 = slot2:GetBuffList()
 
@@ -176,14 +177,14 @@ function slot0.OnUpdate(slot0)
 			slot6 = true
 
 			setActive(slot0.rtInfo:Find("Image"), false)
-			setText(slot0.rtInfo:Find("context/Text"), HXSet.hxLan(slot2.config.scan_desc))
+			setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.scan_desc))
 		elseif slot8 == 2 or slot8 == 4 then
 			slot5 = slot8 == 4
 			slot6 = true
 
 			setActive(slot0.rtInfo:Find("Image"), true)
 			GetImageSpriteFromAtlasAsync("icondesc/" .. slot2.config.icon, "", slot0.rtInfo:Find("Image"))
-			setText(slot0.rtInfo:Find("context/Text"), HXSet.hxLan(slot2.config.scan_desc))
+			setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.scan_desc))
 		end
 	end
 

@@ -1,7 +1,8 @@
 return {
-	id = "WTask310C",
 	mode = 2,
 	once = true,
+	id = "WTask310C",
+	skipTip = false,
 	scripts = {
 		{
 			side = 2,

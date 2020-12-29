@@ -56,10 +56,7 @@ function slot0.flush(slot0)
 	if slot1 == uv0 then
 		-- Nothing
 	elseif slot1 == uv1 then
-		setAnchoredPosition(slot0.lvTxtTF, {
-			x = slot0.shipVO:isBluePrintShip() and -18 or -7.5
-		})
-
+		slot2 = slot0.shipVO
 		slot0.lvTxt.text = "Lv." .. slot2.level
 		slot4 = slot2:getStar()
 

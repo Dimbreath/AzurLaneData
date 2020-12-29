@@ -25,6 +25,9 @@ slot3 = {
 	SC_62017_ID_FIELD = slot0.FieldDescriptor(),
 	SC_62018_ID_FIELD = slot0.FieldDescriptor(),
 	SC_62019_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62019_USER_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62019_HAS_CAPITAL_FIELD = slot0.FieldDescriptor(),
+	SC_62019_HAS_TECH_POINT_FIELD = slot0.FieldDescriptor(),
 	CS_62020_ID_FIELD = slot0.FieldDescriptor(),
 	SC_62021_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_62022_TYPE_FIELD = slot0.FieldDescriptor(),
@@ -420,12 +423,42 @@ slot3.SC_62019_ID_FIELD.has_default_value = false
 slot3.SC_62019_ID_FIELD.default_value = 0
 slot3.SC_62019_ID_FIELD.type = 13
 slot3.SC_62019_ID_FIELD.cpp_type = 3
+slot3.SC_62019_USER_ID_FIELD.name = "user_id"
+slot3.SC_62019_USER_ID_FIELD.full_name = "p62.sc_62019.user_id"
+slot3.SC_62019_USER_ID_FIELD.number = 2
+slot3.SC_62019_USER_ID_FIELD.index = 1
+slot3.SC_62019_USER_ID_FIELD.label = 2
+slot3.SC_62019_USER_ID_FIELD.has_default_value = false
+slot3.SC_62019_USER_ID_FIELD.default_value = 0
+slot3.SC_62019_USER_ID_FIELD.type = 13
+slot3.SC_62019_USER_ID_FIELD.cpp_type = 3
+slot3.SC_62019_HAS_CAPITAL_FIELD.name = "has_capital"
+slot3.SC_62019_HAS_CAPITAL_FIELD.full_name = "p62.sc_62019.has_capital"
+slot3.SC_62019_HAS_CAPITAL_FIELD.number = 3
+slot3.SC_62019_HAS_CAPITAL_FIELD.index = 2
+slot3.SC_62019_HAS_CAPITAL_FIELD.label = 2
+slot3.SC_62019_HAS_CAPITAL_FIELD.has_default_value = false
+slot3.SC_62019_HAS_CAPITAL_FIELD.default_value = 0
+slot3.SC_62019_HAS_CAPITAL_FIELD.type = 13
+slot3.SC_62019_HAS_CAPITAL_FIELD.cpp_type = 3
+slot3.SC_62019_HAS_TECH_POINT_FIELD.name = "has_tech_point"
+slot3.SC_62019_HAS_TECH_POINT_FIELD.full_name = "p62.sc_62019.has_tech_point"
+slot3.SC_62019_HAS_TECH_POINT_FIELD.number = 4
+slot3.SC_62019_HAS_TECH_POINT_FIELD.index = 3
+slot3.SC_62019_HAS_TECH_POINT_FIELD.label = 2
+slot3.SC_62019_HAS_TECH_POINT_FIELD.has_default_value = false
+slot3.SC_62019_HAS_TECH_POINT_FIELD.default_value = 0
+slot3.SC_62019_HAS_TECH_POINT_FIELD.type = 13
+slot3.SC_62019_HAS_TECH_POINT_FIELD.cpp_type = 3
 SC_62019.name = "sc_62019"
 SC_62019.full_name = "p62.sc_62019"
 SC_62019.nested_types = {}
 SC_62019.enum_types = {}
 SC_62019.fields = {
-	slot3.SC_62019_ID_FIELD
+	slot3.SC_62019_ID_FIELD,
+	slot3.SC_62019_USER_ID_FIELD,
+	slot3.SC_62019_HAS_CAPITAL_FIELD,
+	slot3.SC_62019_HAS_TECH_POINT_FIELD
 }
 SC_62019.is_extendable = false
 SC_62019.extensions = {}

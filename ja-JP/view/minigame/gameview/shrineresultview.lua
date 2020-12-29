@@ -23,6 +23,7 @@ end
 
 function slot0.initUI(slot0)
 	slot0.bg = slot0:findTF("BGImg")
+	slot0.dft = GetComponent(slot0._tf, "DftAniEvent")
 	slot0.text_buff = slot0:findTF("Main/MainBox/Text_Buff")
 	slot0.text_nobuff = slot0:findTF("Main/MainBox/Text_NoBuff")
 	slot0.buffImg_1 = slot0:findTF("Main/MainBox/Buff_1")
@@ -32,6 +33,12 @@ function slot0.initUI(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:Destroy()
 	end, SFX_CANCEL)
+	slot0.dft:SetStartEvent(function ()
+		setButtonEnabled(uv0.bg, false)
+	end)
+	slot0.dft:SetEndEvent(function ()
+		setButtonEnabled(uv0.bg, true)
+	end)
 end
 
 function slot0.updateView(slot0, slot1, slot2)

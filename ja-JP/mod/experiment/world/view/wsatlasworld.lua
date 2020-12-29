@@ -335,7 +335,7 @@ function slot0.FocusPos(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	slot3 = slot3 or 0
-	slot2 = slot2 or slot0.tfEntity.localEulerAngles.y
+	slot2 = 0
 
 	if not slot1 then
 		slot6 = math.rad(-slot2)
@@ -507,7 +507,7 @@ function slot0.BreathRotate(slot0, slot1)
 end
 
 function slot0.CheckIsTweening(slot0)
-	return slot0.isTransAnim or #slot0.twFocusIds > 0 and _.any(slot0.twFocusIds, function (slot0)
+	return slot0.isTransAnim or #slot0.twFocusIds > 0 and _.any(underscore.values(slot0.twFocusIds), function (slot0)
 		return LeanTween.isTweening(slot0)
 	end)
 end

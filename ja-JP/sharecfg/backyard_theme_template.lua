@@ -1301,7 +1301,7 @@ pg.backyard_theme_template = {
 		desc = "雪の商店街でクリスマスを楽しもう！",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -1340,13 +1340,14 @@ pg.backyard_theme_template = {
 		desc = "（※都合によりイノシシがボアに改名しました）",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 20,
+		discount = 0,
 		id = 38,
 		icon = "yzthemeicon",
 		comfortable = 0,
+		discount_time = "",
 		ids = {
 			38001,
 			38002,
@@ -1389,32 +1390,6 @@ pg.backyard_theme_template = {
 			38303,
 			38304,
 			38305
-		},
-		discount_time = {
-			{
-				{
-					2019,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[39] = {
@@ -2567,7 +2542,7 @@ pg.backyard_theme_template = {
 		name = "ブラウンクリスマス",
 		desc = "今年のクリスマスはポカポカ暖かく！",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -2605,6 +2580,43 @@ pg.backyard_theme_template = {
 			73303,
 			73304,
 			73305
+		}
+	},
+	[74] = {
+		Cfg_1 = 5,
+		name = "正月小町",
+		desc = "正月の雪は幸運の兆し…？",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 74,
+		icon = "mh3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			74001,
+			74002,
+			74101,
+			74102,
+			74103,
+			74104,
+			74105,
+			74106,
+			74107,
+			74108,
+			74109,
+			74110,
+			74111,
+			74112,
+			74113,
+			74114,
+			74115,
+			74116,
+			74117,
+			74118
 		}
 	},
 	all = {
@@ -2665,6 +2677,7 @@ pg.backyard_theme_template = {
 		70,
 		71,
 		72,
-		73
+		73,
+		74
 	}
 }

@@ -82,8 +82,8 @@ function slot0.UpdateStamina(slot0)
 	if math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot0.staminaLastRecoverTime) / pg.gameset.world_movepower_recovery_interval.key_value) > 0 then
 		slot0.staminaLastRecoverTime = slot0.staminaLastRecoverTime + slot3 * slot1
 
-		if slot0.stamina ~= math.min(slot0.stamina + slot3, slot0:GetMaxStamina()) then
-			slot0.stamina = slot4
+		if slot0.stamina < slot0:GetMaxStamina() then
+			slot0.stamina = math.min(slot0.stamina + slot3, slot0:GetMaxStamina())
 
 			slot0:DispatchEvent(uv0.EventUpdateStamina)
 		end
@@ -285,7 +285,7 @@ function slot0.GetExchangeItems(slot0)
 end
 
 function slot0.ExchangeStamina(slot0, slot1, slot2)
-	slot0.staminaExtra = slot0.staminaExtra + slot1
+	slot0.stamina = slot0.stamina + slot1
 
 	if slot2 then
 		slot0.staminaExchangeTimes = slot0.staminaExchangeTimes + 1

@@ -1154,6 +1154,146 @@ pg.skill_benefit_template = {
 		},
 		world_extra_effect = {}
 	},
+	[1397001] = {
+		lv = 1,
+		type = 1,
+		id = 1397001,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.01
+		},
+		world_extra_effect = {}
+	},
+	[1397002] = {
+		lv = 2,
+		type = 1,
+		id = 1397002,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.02
+		},
+		world_extra_effect = {}
+	},
+	[1397003] = {
+		lv = 3,
+		type = 1,
+		id = 1397003,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.03
+		},
+		world_extra_effect = {}
+	},
+	[1397004] = {
+		lv = 4,
+		type = 1,
+		id = 1397004,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.04
+		},
+		world_extra_effect = {}
+	},
+	[1397005] = {
+		lv = 5,
+		type = 1,
+		id = 1397005,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.05
+		},
+		world_extra_effect = {}
+	},
+	[1397006] = {
+		lv = 6,
+		type = 1,
+		id = 1397006,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.06
+		},
+		world_extra_effect = {}
+	},
+	[1397007] = {
+		lv = 7,
+		type = 1,
+		id = 1397007,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.07
+		},
+		world_extra_effect = {}
+	},
+	[1397008] = {
+		lv = 8,
+		type = 1,
+		id = 1397008,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.08
+		},
+		world_extra_effect = {}
+	},
+	[1397009] = {
+		lv = 9,
+		type = 1,
+		id = 1397009,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.09
+		},
+		world_extra_effect = {}
+	},
+	[1397010] = {
+		lv = 10,
+		type = 1,
+		id = 1397010,
+		skill_id = 13970,
+		limit = {
+			8,
+			17
+		},
+		effect = {
+			0.1
+		},
+		world_extra_effect = {}
+	},
 	all = {
 		363101,
 		363102,
@@ -1245,6 +1385,16 @@ pg.skill_benefit_template = {
 		1359007,
 		1359008,
 		1359009,
-		1359010
+		1359010,
+		1397001,
+		1397002,
+		1397003,
+		1397004,
+		1397005,
+		1397006,
+		1397007,
+		1397008,
+		1397009,
+		1397010
 	}
 }

@@ -6735,6 +6735,370 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70126] = {
+		id = 70126,
+		name = "回中心点偏下位置",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -5,
+					z = 45
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70127] = {
+		id = 70127,
+		name = "2020德系活动构建者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = 15,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 13
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 155
+				}
+			}
+		}
+	},
+	[70128] = {
+		id = 70128,
+		name = "2020德系活动构建者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = -25,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 13
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = -120
+				}
+			}
+		}
+	},
+	[70129] = {
+		id = 70129,
+		name = "2020德系活动EX构建者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = 15,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 12
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 155
+				}
+			}
+		}
+	},
+	[70130] = {
+		id = 70130,
+		name = "2020德系活动EX构建者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = -25,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 12
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = -120
+				}
+			}
+		}
+	},
+	[70131] = {
+		id = 70131,
+		name = "2020德系活动EX构建者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 10,
+					z = 25,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 155
+				}
+			}
+		}
+	},
+	[70132] = {
+		id = 70132,
+		name = "2020德系活动EX构建者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 10,
+					z = 11,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 155
+				}
+			}
+		}
+	},
+	[70133] = {
+		id = 70133,
+		name = "2020德系活动EX构建者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 10,
+					z = -3,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 155
+				}
+			}
+		}
+	},
+	[70134] = {
+		id = 70134,
+		name = "2020德系活动EX构建者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 10,
+					z = -17,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = -120
+				}
+			}
+		}
+	},
+	[70135] = {
+		id = 70135,
+		name = "2020德系活动EX构建者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 10,
+					z = -31,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = -120
+				}
+			}
+		}
+	},
+	[70136] = {
+		id = 70136,
+		name = "2020德系活动EX构建者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 10,
+					z = -45,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = -120
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

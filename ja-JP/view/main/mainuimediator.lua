@@ -813,11 +813,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
 		slot0.viewComponent:updateVoteBookBtn(slot3)
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then
-		slot4 = slot3.argList
+		slot5 = slot3.argList[2]
 
-		if slot4[1] == 3 and slot4[2] == 1 then
-			slot0.viewComponent:UpdateActivityBtn("activity_newyear")
-		end
+		slot0:getViewComponent():HandleMiniGameBtns()
 	elseif slot2 == ShopsProxy.CHARGED_LIST_UPDATED then
 		slot0.viewComponent:updateMallBtnSellTag(slot3)
 		slot0.viewComponent:UpdateMallBtnMonthcardTag()

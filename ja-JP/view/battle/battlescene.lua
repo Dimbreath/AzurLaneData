@@ -449,6 +449,9 @@ function slot0.initPauseWindow(slot0)
 		slot1(false, slot0:findTF("window/van", slot0.pauseWindow), slot0._vanShipVOs)
 	end
 
+	slot0.continueBtn = slot0:findTF("window/button_container/continue", slot0.pauseWindow)
+	slot0.leaveBtn = slot0:findTF("window/button_container/leave", slot0.pauseWindow)
+
 	if ys.Battle.BattleState.GetInstance():GetBattleType() == SYSTEM_SCENARIO then
 		slot6 = slot0._chapter:getConfigTable()
 
@@ -467,17 +470,18 @@ function slot0.initPauseWindow(slot0)
 	elseif slot5 == SYSTEM_WORLD_BOSS or slot5 == SYSTEM_WORLD then
 		setText(slot3, i18n("world_battle_pause"))
 		setText(slot4, i18n("world_battle_pause2"))
+
+		if slot5 == SYSTEM_WORLD_BOSS then
+			setActive(slot0.leaveBtn, false)
+		end
 	elseif slot5 == SYSTEM_GUILD then
 		setText(slot3, "BOSS")
 		setText(slot4, pg.guild_boss_event[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().ActID] and slot7.name or "")
 	end
 
-	onButton(slot0, slot0:findTF("window/button_container/leave", slot0.pauseWindow), function ()
+	onButton(slot0, slot0.leaveBtn, function ()
 		uv0:emit(BattleMediator.ON_LEAVE)
 	end)
-
-	slot0.continueBtn = slot0:findTF("window/button_container/continue", slot0.pauseWindow)
-
 	onButton(slot0, slot0.continueBtn, function ()
 		setActive(uv0.pauseWindow, false)
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)

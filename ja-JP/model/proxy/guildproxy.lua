@@ -102,10 +102,7 @@ function slot0.register(slot0)
 	end)
 	slot0:on(60008, function (slot0)
 		if uv0.data:warpChatInfo(slot0.chat) then
-			uv0.newChatMsgCnt = uv0.newChatMsgCnt + 1
-
-			uv0:addMsg(slot2)
-			uv0:sendNotification(uv1.NEW_MSG_ADDED, slot2)
+			uv0:AddNewMsg(slot2)
 		end
 	end)
 	slot0:on(62004, function (slot0)
@@ -138,23 +135,47 @@ function slot0.register(slot0)
 		uv0:sendNotification(uv1.TECHNOLOGY_START)
 	end)
 	slot0:on(62019, function (slot0)
-		slot3 = uv0:getData()
+		slot3 = slot0.has_tech_point == 1
+		slot6 = uv0:getData()
 
-		slot3:updateCapital(slot3:getCapital() + GuildDonateTask.New({
-			id = slot0.id
-		}):getCapital())
+		if slot0.has_capital == 1 then
+			slot6:updateCapital(slot6:getCapital() + GuildDonateTask.New({
+				id = slot0.id
+			}):getCapital())
 
-		if slot3:getActiveTechnologyGroup() then
-			slot5:AddProgress(slot1:getConfig("award_tech_exp"))
-
-			if slot5.pid ~= slot5.pid and slot5:GuildMemberCntType() then
-				slot3:getTechnologyById(slot5.id):Update(slot7, slot5)
+			if getProxy(PlayerProxy):getRawData().id == slot0.user_id then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_addition_capital_tip", slot7))
 			end
 		end
 
-		uv0:updateGuild(slot3)
-		uv0:sendNotification(uv1.DONATE_UPDTAE)
-		uv0:sendNotification(uv1.CAPITAL_UPDATED)
+		if slot3 and slot6:getActiveTechnologyGroup() then
+			slot7:AddProgress(slot1:getConfig("award_tech_exp"))
+
+			if slot7.pid ~= slot7.pid and slot7:GuildMemberCntType() then
+				slot6:getTechnologyById(slot7.id):Update(slot10, slot7)
+			end
+
+			if slot5 == slot4 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_addition_techpoint_tip", slot9))
+			end
+		end
+
+		if slot2 or slot3 then
+			uv0:updateGuild(slot6)
+			uv0:sendNotification(uv1.DONATE_UPDTAE)
+		end
+
+		if slot2 then
+			uv0:sendNotification(uv1.CAPITAL_UPDATED)
+		end
+
+		if not slot2 and slot4 == slot5 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_capital_toplimit"))
+		end
+
+		if not slot3 and slot4 == slot5 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_techpoint_toplimit"))
+		end
 	end)
 	slot0:on(61021, function (slot0)
 		uv0.refreshActivationEventTime = 0
@@ -189,6 +210,13 @@ function slot0.Init(slot0)
 		0,
 		0
 	}
+end
+
+function slot0.AddNewMsg(slot0, slot1)
+	slot0.newChatMsgCnt = slot0.newChatMsgCnt + 1
+
+	slot0:addMsg(slot1)
+	slot0:sendNotification(uv0.NEW_MSG_ADDED, slot1)
 end
 
 function slot0.ResetRequestCount(slot0)
@@ -274,6 +302,20 @@ end
 
 function slot0.getChatMsgs(slot0)
 	return slot0.chatMsgs
+end
+
+function slot0.GetMessagesByUniqueId(slot0, slot1)
+	return _.select(slot0.chatMsgs, function (slot0)
+		return slot0.uniqueId == uv0
+	end)
+end
+
+function slot0.UpdateMsg(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.chatMsgs) do
+		if slot6:IsSame(slot1.uniqueId) then
+			slot0.data[slot5] = slot1
+		end
+	end
 end
 
 function slot0.ShouldFetchActivationEvent(slot0)

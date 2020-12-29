@@ -52,10 +52,13 @@ function slot0.OnInit(slot0)
 
 		if WorldConst.HasDangerConfirm(uv0.destMap.config.entrance_ui) then
 			table.insert(slot0, function (slot0)
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("world_map_dangerous_confirm"),
-					onYes = slot0
-				})
+				uv0:emit(WorldScene.SceneOp, "OpCall", function (slot0)
+					slot0()
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("world_map_dangerous_confirm"),
+						onYes = uv0
+					})
+				end)
 			end)
 		end
 

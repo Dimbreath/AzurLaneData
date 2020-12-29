@@ -131,6 +131,7 @@ function slot0.register(slot0)
 	slot0.comboHistoryBuffer = {}
 	slot0.justClearChapters = {}
 	slot0.outStageHPChanges = {}
+	slot0.chaptersExtend = {}
 
 	slot0:buildMaps()
 end
@@ -407,26 +408,45 @@ function slot0.getLastUnlockMap(slot0)
 	return slot1
 end
 
-function slot0.updateExtraFlag(slot0, slot1, slot2, slot3)
-	if not slot1:updateExtraFlags(slot2, slot3) then
+function slot0.updateExtraFlag(slot0, slot1, slot2, slot3, slot4)
+	if not slot4 and not slot1:updateExtraFlags(slot2, slot3) then
 		return
 	end
 
-	slot5 = {}
+	slot6 = {}
 
-	for slot9, slot10 in ipairs(slot2) do
-		table.insert(slot5, slot10)
+	for slot10, slot11 in ipairs(slot2) do
+		table.insert(slot6, slot11)
 	end
 
-	slot0.extraFlagUpdate = true
+	slot0.chaptersExtend[slot1.id] = slot0.chaptersExtend[slot1.id] or {}
+	slot0.chaptersExtend[slot1.id].extraFlagUpdate = slot6
 
-	slot0.facade:sendNotification(uv0.CHAPTER_EXTAR_FLAG_UPDATED, slot5)
+	slot0.facade:sendNotification(uv0.CHAPTER_EXTAR_FLAG_UPDATED, slot6)
 
 	return true
 end
 
-function slot0.extraFlagUpdated(slot0)
-	slot0.extraFlagUpdate = false
+function slot0.extraFlagUpdated(slot0, slot1)
+	slot0:removeExtendChapterData(slot1, "extraFlagUpdate")
+end
+
+function slot0.getUpdatedExtraFlags(slot0, slot1)
+	return slot0.chaptersExtend[slot1] and slot0.chaptersExtend[slot1].extraFlagUpdate
+end
+
+function slot0.removeExtendChapterData(slot0, slot1, slot2)
+	if not slot0.chaptersExtend[slot1] then
+		return
+	end
+
+	slot0.chaptersExtend[slot1][slot2] = nil
+
+	if next(slot0.chaptersExtend[slot1]) then
+		return
+	end
+
+	slot0.chaptersExtend[slot1] = nil
 end
 
 function slot0.duplicateEliteFleet(slot0, slot1, slot2)
