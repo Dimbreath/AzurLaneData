@@ -111,7 +111,7 @@ pg.benefit_buff_template = {
 		desc = "战术学院技能学习时间略微减少\n剩余时间:$1",
 		benefit_effect = "300",
 		id = 10,
-		icon = "Props/buff_minigame_10",
+		icon = "Props/buff_qiaozhong_10",
 		benefit_type = "skill_learncost_up"
 	},
 	{
@@ -122,7 +122,7 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、作战档案关卡中，我方战斗内造成的伤害略微提高\n剩余时间:$1",
 		benefit_effect = "504",
 		id = 11,
-		icon = "Props/buff_minigame_11",
+		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
 	},
 	{
@@ -133,7 +133,7 @@ pg.benefit_buff_template = {
 		desc = "秘书舰好感度提高速度加快\n剩余时间:$1",
 		benefit_effect = "1",
 		id = 12,
-		icon = "Props/buff_minigame_12",
+		icon = "Props/buff_qiaozhong_12",
 		benefit_type = "intimacy_up_extra"
 	},
 	{

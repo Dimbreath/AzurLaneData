@@ -722,6 +722,9 @@ function slot0.NewAtlasRight(slot0, slot1, slot2)
 	slot3.transform = slot1
 
 	slot3:Setup()
+	onButton(slot0, slot3.btnSettings, function ()
+		uv0:Op("OpOpenScene", SCENE.SETTINGS)
+	end, SFX_PANEL)
 
 	return slot3
 end
@@ -963,7 +966,6 @@ function slot0.InitMap(slot0)
 		slot5:AddListener(WSMapFleet.EventUpdateSelected, slot0.onFleetSelected)
 	end
 
-	slot0.wsMap:AddListener(WSMap.EventClickTransport, slot0.onClickTransport)
 	slot0.wsMap:AddListener(WSMap.EventUpdateEventTips, slot0.onUpdateEventTips)
 
 	slot1 = slot0.wsDragProxy.dragTrigger
@@ -1457,7 +1459,6 @@ function slot0.OnClickCell(slot0, slot1)
 	elseif slot2:IsUnlockFleetMode() and not slot3:HasTrapBuff() then
 		slot0:Op("OpLongMoveFleet", slot2:GetFleet(), slot1.row, slot1.column)
 	else
-		slot0:ClearMoveQueue()
 		slot0:Op("OpReqMoveFleet", slot2:GetFleet(), slot1.row, slot1.column)
 	end
 end
@@ -1494,7 +1495,7 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		return
 	end
 
-	if not slot1 and not nowWorld:GetActiveEntrance():IsPressing() then
+	if not nowWorld:GetActiveEntrance():IsPressing() and not slot3:AnyFleetInEdge() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_transport_locked"))
 
 		return
@@ -1581,6 +1582,11 @@ function slot0.OnUpdateEventTips(slot0, slot1, slot2)
 end
 
 function slot0.OnClickMap(slot0, slot1, slot2)
+	if #slot0.moveQueue > 0 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_fleet_stop"))
+		slot0:ClearMoveQueue()
+	end
+
 	slot3 = slot0.wsMap.map
 
 	if slot1 < slot3.top or slot3.bottom < slot1 or slot2 < slot3.left or slot3.right < slot2 then

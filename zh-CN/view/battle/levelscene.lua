@@ -552,7 +552,7 @@ function slot0.didEnter(slot0)
 		end)
 
 		if slot1[1]:getConfig("config_client").entrance_bg then
-			GetImageSpriteFromAtlasAsync(slot2, "", slot0.entranceLayer:Find("enters/enter_ready/activity"))
+			GetImageSpriteFromAtlasAsync(slot2, "", slot0.entranceLayer:Find("enters/enter_ready/activity"), true)
 		end
 	end
 
@@ -1106,6 +1106,7 @@ function slot0.updateActivityBtns(slot0)
 		setImageSprite(slot0.activityBtn, slot9 and LoadSprite("ui/mainui_atlas", "event_map_" .. slot8.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
 	end
 
+	setActive(slot0.activityBtn, slot10)
 	setActive(slot0.signalBtn, getProxy(ChapterProxy):getChapterById(304):isClear() and (slot6 == Map.SCENARIO or slot6 == Map.ELITE))
 
 	if slot1 and slot2 then
@@ -1938,6 +1939,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				uv0.levelStageView:updateStageBarrier()
 				uv0.levelStageView:updateBombPanel()
 				uv0.levelStageView:UpdateDefenseStatus()
+				uv0.levelStageView:PopBar()
 				onNextTick(slot0)
 			end,
 			function (slot0)

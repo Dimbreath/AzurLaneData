@@ -20428,6 +20428,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5551] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5401,
+		type = 5,
+		name = "肯特选手，冲刺！",
+		count_inherit = 0,
+		desc = "提交3个《鱼雷天妇罗》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "kente",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5552",
+		visibility = 1,
+		story_id = "KENTE1",
+		target_id_for_client = 50003,
+		id = 5551,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5552] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5402,
+		type = 5,
+		name = "肯特选手毫无防备！ ",
+		count_inherit = 0,
+		desc = "强化任意角色10次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5553",
+		visibility = 1,
+		story_id = "KENTE2",
+		target_id_for_client = 0,
+		id = 5552,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5553] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5403,
+		type = 5,
+		name = "感激的心",
+		count_inherit = 0,
+		desc = "肯特上阵出击(关卡)胜利20次'",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5554",
+		visibility = 1,
+		story_id = "KENTE3",
+		target_id_for_client = 20303,
+		id = 5553,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5554] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5404,
+		type = 5,
+		name = "意外遭遇！ ",
+		count_inherit = 0,
+		desc = "肯特上阵完成3次每日挑战'",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5555",
+		visibility = 1,
+		story_id = "KENTE4",
+		target_id_for_client = 20303,
+		id = 5554,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5555] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5405,
+		type = 5,
+		name = "肯特选手的秘密！",
+		count_inherit = 0,
+		desc = "肯特好感度达到100'",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5556",
+		visibility = 1,
+		story_id = "KENTE5",
+		target_id_for_client = 20303,
+		id = 5555,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5556] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5406,
+		type = 5,
+		name = "黑夜里的光！",
+		count_inherit = 0,
+		desc = "肯特突破至满星'",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5557",
+		visibility = 1,
+		story_id = "KENTE6",
+		target_id_for_client = 203034,
+		id = 5556,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "203034",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5557] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5407,
+		type = 5,
+		name = "永远在一起！",
+		count_inherit = 0,
+		desc = "肯特等级达到100'",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "KENTE7",
+		target_id_for_client = 20303,
+		id = 5557,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -118226,6 +118489,1168 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16155] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94190,
+		type = 6,
+		name = "『德系V3』角色收集：彼得·史特拉塞",
+		count_inherit = 0,
+		desc = "[彼得·史特拉塞]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 407034,
+		id = 16155,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "407034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				680
+			}
+		}
+	},
+	[16156] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94191,
+		type = 6,
+		name = "『德系V3』角色收集：P1：海因里希亲王",
+		count_inherit = 0,
+		desc = "[海因里希亲王]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 403094,
+		id = 16156,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "403094",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				680
+			}
+		}
+	},
+	[16157] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94192,
+		type = 6,
+		name = "『德系V3』角色收集：U37",
+		count_inherit = 0,
+		desc = "[U37]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 408104,
+		id = 16157,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "408104",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				680
+			}
+		}
+	},
+	[16158] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94193,
+		type = 6,
+		name = "『德系V3』角色收集：纽伦堡",
+		count_inherit = 0,
+		desc = "[纽伦堡]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 402054,
+		id = 16158,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "402054",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				460
+			}
+		}
+	},
+	[16159] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94194,
+		type = 6,
+		name = "『德系V3』角色收集：威悉",
+		count_inherit = 0,
+		desc = "[Z24]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 406014,
+		id = 16159,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "406014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				460
+			}
+		}
+	},
+	[16160] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94195,
+		type = 6,
+		name = "『德系V3』角色收集：Z24",
+		count_inherit = 0,
+		desc = "[威悉]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 401244,
+		id = 16160,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "401244",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				460
+			}
+		}
+	},
+	[16163] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94198,
+		type = 6,
+		name = "『德系V3』角色刷关：山城",
+		count_inherit = 0,
+		desc = "使用满星鲼击败A2或C2敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16163,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1490113,
+			1492113
+		},
+		target_id_2 = {
+			305024,
+			310024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16164] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94199,
+		type = 6,
+		name = "『德系V3』角色刷关：金刚",
+		count_inherit = 0,
+		desc = "使用满星鲤击败A3或C3敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16164,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1490213,
+			1492213
+		},
+		target_id_2 = {
+			304014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16165] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94200,
+		type = 6,
+		name = "『德系V3』角色刷关：欧根亲王",
+		count_inherit = 0,
+		desc = "使用满星欧根亲王击败B2或D2敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16165,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1491113,
+			1493113
+		},
+		target_id_2 = {
+			403034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16166] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94201,
+		type = 6,
+		name = "『德系V3』角色刷关：Z46",
+		count_inherit = 0,
+		desc = "使用满星Z46击败B3或D3敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16166,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1491213,
+			1493213
+		},
+		target_id_2 = {
+			401464
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16201] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94252,
+		type = 36,
+		name = "『德系V3』-日常建造",
+		count_inherit = 0,
+		desc = "建造舰船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16201,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				300
+			}
+		}
+	},
+	[16202] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94253,
+		type = 36,
+		name = "『德系V3』-日常出击",
+		count_inherit = 0,
+		desc = "舰队出征，获得15次胜利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16202,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				300
+			}
+		}
+	},
+	[16203] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94254,
+		type = 36,
+		name = "『德系V3』-日常困难本",
+		count_inherit = 0,
+		desc = "通关1次任意困难关卡 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16203,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				150
+			}
+		}
+	},
+	[16204] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94255,
+		type = 6,
+		name = "『德系V3』通关A1/C1",
+		count_inherit = 0,
+		desc = "通关A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16205",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16204,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460001,
+			1460021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16205] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94256,
+		type = 6,
+		name = "『德系V3』通关A2/C2",
+		count_inherit = 0,
+		desc = "通关A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16206",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16205,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460002,
+			1460022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16206] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94257,
+		type = 6,
+		name = "『德系V3』通关A3/C3",
+		count_inherit = 0,
+		desc = "通关A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16207",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16206,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460003,
+			1460023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59192,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16207] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94258,
+		type = 6,
+		name = "『德系V3』通关B1/D1",
+		count_inherit = 0,
+		desc = "通关B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16208",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16207,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460004,
+			1460024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16208] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94259,
+		type = 6,
+		name = "『德系V3』通关B2/D2",
+		count_inherit = 0,
+		desc = "通关B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16209",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16208,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460005,
+			1460025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16209] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94260,
+		type = 6,
+		name = "『德系V3』通关B3/D3",
+		count_inherit = 0,
+		desc = "通关B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16210",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16209,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460006,
+			1460026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59192,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16210] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94261,
+		type = 6,
+		name = "『德系V3』通关SP",
+		count_inherit = 0,
+		desc = "通关SP",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1460041,
+		id = 16210,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1460041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16211] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94262,
+		type = 6,
+		name = "『德系V3』通关EX",
+		count_inherit = 0,
+		desc = "通关EX",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1460051,
+		id = 16211,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1460051",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16212] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94263,
+		type = 6,
+		name = "『德系V3』通关D3",
+		count_inherit = 0,
+		desc = "通关D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1460026,
+		id = 16212,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1460026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				189,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16213] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94264,
+		type = 6,
+		name = "『德系V3』A1/C1的3星",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16214",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16213,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460001,
+			1460021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16214] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94265,
+		type = 6,
+		name = "『德系V3』A2/C2的3星",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16215",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16214,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460002,
+			1460022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16215] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94266,
+		type = 6,
+		name = "『德系V3』A3/C3的3星",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16216",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16215,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460003,
+			1460023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16216] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94267,
+		type = 6,
+		name = "『德系V3』B1/D1的3星",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16217",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16216,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460004,
+			1460024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16217] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94268,
+		type = 6,
+		name = "『德系V3』B2/D2的3星",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16218",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16217,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460005,
+			1460025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16218] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94269,
+		type = 6,
+		name = "『德系V3』B3/D3的3星",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16218,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460006,
+			1460026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16219] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94251,
+		type = 6,
+		name = "『德系V3』1229登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16219,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				181,
+				2
+			}
+		}
+	},
 	[30101] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -129318,6 +130743,13 @@ pg.task_data_template = {
 		5545,
 		5546,
 		5547,
+		5551,
+		5552,
+		5553,
+		5554,
+		5555,
+		5556,
+		5557,
 		6001,
 		6002,
 		6003,
@@ -131911,6 +133343,35 @@ pg.task_data_template = {
 		16152,
 		16153,
 		16154,
+		16155,
+		16156,
+		16157,
+		16158,
+		16159,
+		16160,
+		16163,
+		16164,
+		16165,
+		16166,
+		16201,
+		16202,
+		16203,
+		16204,
+		16205,
+		16206,
+		16207,
+		16208,
+		16209,
+		16210,
+		16211,
+		16212,
+		16213,
+		16214,
+		16215,
+		16216,
+		16217,
+		16218,
+		16219,
 		30101,
 		30102,
 		30103,

@@ -1,7 +1,8 @@
 return {
-	id = "W400003",
 	mode = 2,
 	once = true,
+	id = "W400003",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,

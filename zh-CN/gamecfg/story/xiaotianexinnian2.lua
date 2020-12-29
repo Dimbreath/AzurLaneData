@@ -93,7 +93,7 @@ return {
 			dir = -1,
 			actor = 301141,
 			nameColor = "#a9f548",
-			say = "哦哦哦！！是雪！下雪了诶！！{namecode:16}我们去打雪仗吧！",
+			say = "哦哦哦！！是雪！下雪了诶！！{namecode:17}我们去打雪仗吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

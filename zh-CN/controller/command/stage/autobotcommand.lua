@@ -82,8 +82,8 @@ function slot0.activeBotHelp(slot0)
 end
 
 function slot0.GetAutoBotMark(slot0)
-	if slot0 == SYSTEM_WORLD then
-		return "_" .. slot0
+	if slot0 == SYSTEM_WORLD or slot0 == SYSTEM_WORLD_BOSS then
+		return "_" .. SYSTEM_WORLD
 	else
 		return ""
 	end

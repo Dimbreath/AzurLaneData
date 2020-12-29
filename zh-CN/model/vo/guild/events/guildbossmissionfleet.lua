@@ -165,6 +165,16 @@ function slot0.GetOtherMemberShipCnt(slot0, slot1)
 	return slot2
 end
 
+function slot0.ExistSameKindShip(slot0, slot1)
+	for slot6, slot7 in pairs(slot0:GetShips()) do
+		if slot7.ship:isSameKind(slot1) then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot0.IsLegal(slot0)
 	slot3 = 0
 	slot4 = 0
@@ -190,6 +200,10 @@ function slot0.IsLegal(slot0)
 			if slot13.member.id == slot8 then
 				slot7 = slot7 + 1
 			end
+		end
+
+		if pg.ShipFlagMgr.GetInstance():GetShipFlag(GuildAssaultFleet.GetRealId(slot13.ship.id), "inEvent") then
+			return false, i18n("guild_boss_formation_exist_event_ship", slot13.ship:getConfig("name"))
 		end
 	end
 

@@ -1,7 +1,8 @@
 return {
-	id = "WTrap315",
 	mode = 2,
 	once = true,
+	id = "WTrap315",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,

@@ -425,6 +425,16 @@ pg.player_resource = {
 		name = "dexiv3framept",
 		itemid = 59191
 	},
+	[180] = {
+		id = 180,
+		name = "dexiv3_pt",
+		itemid = 59192
+	},
+	[181] = {
+		id = 181,
+		name = "skinTicket12",
+		itemid = 59193
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -455,6 +465,16 @@ pg.player_resource = {
 		name = "nvpu_ticket",
 		itemid = 59968
 	},
+	[3001] = {
+		id = 3001,
+		name = "synchronize_ark",
+		itemid = 21901
+	},
+	[3002] = {
+		id = 3002,
+		name = "dashijiechongzhi",
+		itemid = 110002
+	},
 	[2006] = {
 		id = 2006,
 		name = "contribution_worldboss624",
@@ -469,16 +489,6 @@ pg.player_resource = {
 		id = 3000,
 		name = "guild_boss_damage",
 		itemid = 69000
-	},
-	[3001] = {
-		id = 3001,
-		name = "synchronize_ark",
-		itemid = 21901
-	},
-	[3002] = {
-		id = 3002,
-		name = "dashijiechongzhi",
-		itemid = 110002
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -736,6 +746,12 @@ pg.player_resource = {
 		dexiv3framept = {
 			179
 		},
+		dexiv3_pt = {
+			180
+		},
+		skinTicket12 = {
+			181
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -754,6 +770,12 @@ pg.player_resource = {
 		nvpu_ticket = {
 			2005
 		},
+		synchronize_ark = {
+			3001
+		},
+		dashijiechongzhi = {
+			3002
+		},
 		contribution_worldboss624 = {
 			2006
 		},
@@ -762,12 +784,6 @@ pg.player_resource = {
 		},
 		guild_boss_damage = {
 			3000
-		},
-		synchronize_ark = {
-			3001
-		},
-		dashijiechongzhi = {
-			3002
 		}
 	},
 	all = {
@@ -856,16 +872,18 @@ pg.player_resource = {
 		177,
 		178,
 		179,
+		180,
+		181,
 		1001,
 		2001,
 		2002,
 		2003,
 		2004,
 		2005,
+		3001,
+		3002,
 		2006,
 		2007,
-		3000,
-		3001,
-		3002
+		3000
 	}
 }

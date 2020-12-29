@@ -32,8 +32,11 @@ function slot0.Update(slot0, slot1, slot2)
 		slot0.discountTxt.text = slot1:GetDiscount() .. "%"
 	end
 
-	slot5 = slot1:getConfig("hot") > 0
-	slot6 = slot1:getConfig("new") > 0
+	slot5 = false
+
+	if not (slot1:getConfig("new") > 0) then
+		slot5 = slot1:getConfig("hot") > 0
+	end
 
 	setActive(slot0.hotTF, slot5 and not slot2)
 	setActive(slot0.newTF, slot6 and not slot2)

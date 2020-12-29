@@ -189,7 +189,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 312,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>等待后续活动获取</color>",
+		desc = "<color=#ffffff>「以冷彻之器，重铸赤红的铁血意志。」</color>\n「负象限作战」活动获取",
 		scene = {}
 	},
 	[401] = {

@@ -57,6 +57,7 @@ slot2 = {
 	SC_33113_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_33113_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_33113_TIME_FIELD = slot0.FieldDescriptor(),
+	SC_33113_SAIREN_CHAPTER_FIELD = slot0.FieldDescriptor(),
 	ELITEFLEETINFO_SHIP_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	ELITEFLEETINFO_COMMANDERS_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_MAP_ID_FIELD = slot0.FieldDescriptor(),
@@ -942,6 +943,15 @@ slot2.SC_33113_TIME_FIELD.has_default_value = false
 slot2.SC_33113_TIME_FIELD.default_value = 0
 slot2.SC_33113_TIME_FIELD.type = 13
 slot2.SC_33113_TIME_FIELD.cpp_type = 3
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.name = "sairen_chapter"
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.full_name = "p33.sc_33113.sairen_chapter"
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.number = 4
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.index = 3
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.label = 3
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.has_default_value = false
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.default_value = {}
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.type = 13
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.cpp_type = 3
 SC_33113.name = "sc_33113"
 SC_33113.full_name = "p33.sc_33113"
 SC_33113.nested_types = {}
@@ -949,7 +959,8 @@ SC_33113.enum_types = {}
 SC_33113.fields = {
 	slot2.SC_33113_RESULT_FIELD,
 	slot2.SC_33113_DROP_LIST_FIELD,
-	slot2.SC_33113_TIME_FIELD
+	slot2.SC_33113_TIME_FIELD,
+	slot2.SC_33113_SAIREN_CHAPTER_FIELD
 }
 SC_33113.is_extendable = false
 SC_33113.extensions = {}

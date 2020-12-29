@@ -13,12 +13,12 @@ slot0.Listeners = {
 	onUpdateDisplayMarks = "OnUpdateDisplayMarks"
 }
 slot0.DisplayOrder = {
-	"sairen",
 	"step",
 	"task_main",
 	"task",
 	"treasure_sairen",
 	"treasure",
+	"sairen",
 	"task_following_main",
 	"task_following"
 }

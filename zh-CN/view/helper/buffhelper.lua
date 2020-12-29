@@ -95,6 +95,18 @@ function slot0.GetBuffsForMainUI()
 		end
 	end
 
+	slot7 = nil
+
+	for slot11, slot12 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
+		if table.indexof(getProxy(MiniGameProxy):GetMiniGameData(MiniGameDataCreator.NewYearShrineGameID):getConfig("config_data")[2], slot12.id, 1) then
+			if pg.TimeMgr.GetInstance():GetServerTime() < slot12.timestamp and ActivityBuff.New(slot3, slot12.id, slot12.timestamp):checkShow() then
+				table.insert(slot1, slot15)
+			end
+
+			break
+		end
+	end
+
 	return slot1
 end
 

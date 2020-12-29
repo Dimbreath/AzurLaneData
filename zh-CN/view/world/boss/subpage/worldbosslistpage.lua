@@ -50,6 +50,7 @@ function slot0.OnInit(slot0)
 	slot0.rankBtn = slot0.mainPanel:Find("rank_btn")
 	slot0.startBtn = slot0.mainPanel:Find("start_btn")
 	slot0.refreshBtn = slot0:findTF("list_panel/frame/filter/refresh_btn")
+	slot0.refreshBtnGray = slot0:findTF("list_panel/frame/filter/refresh_btn_gray")
 	slot0.cdTime = 0
 
 	onButton(slot0, slot0.refreshBtn, function ()
@@ -60,10 +61,16 @@ function slot0.OnInit(slot0)
 				uv0:OnCacheBossUpdated()
 			end)
 
-			uv0.cdTime = pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.world_boss_resfresh.key_value
+			slot0 = pg.gameset.world_boss_resfresh.key_value
+			uv0.cdTime = pg.TimeMgr.GetInstance():GetServerTime() + slot0
+
+			uv0:RotateRefreshBtn(slot0)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_not_refresh_frequently"))
 		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.refreshBtnGray, function ()
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_not_refresh_frequently"))
 	end, SFX_PANEL)
 
 	function slot1()
@@ -102,6 +109,28 @@ function slot0.OnInit(slot0)
 		uv0:UpdateNonProcessList()
 	end, SFX_PANEL)
 	setPaintingPrefabAsync(slot0.painting, "heilong", "lihuisha")
+end
+
+function slot0.RotateRefreshBtn(slot0, slot1)
+	LeanTween.rotate(rtf(slot0.refreshBtn), -360, 0.5):setOnComplete(System.Action(function ()
+		uv0.refreshBtn.localEulerAngles = Vector3(0, 0, 0)
+
+		setActive(uv0.refreshBtnGray, false)
+		setActive(uv0.refreshBtnGray, true)
+	end))
+
+	if slot0.refreshtimer then
+		slot0.refreshtimer:Stop()
+
+		slot0.refreshtimer = nil
+	end
+
+	slot0.refreshtimer = Timer.New(function ()
+		setActive(uv0.refreshBtnGray, true)
+		setActive(uv0.refreshBtnGray, false)
+	end, slot1, 1)
+
+	slot0.refreshtimer:Start()
 end
 
 function slot0.AddListeners(slot0, slot1)
@@ -308,6 +337,12 @@ function slot0.OnDestroy(slot0)
 	slot0.scrollRect:Dispose()
 	slot0.awardPage:Destroy()
 	slot0.rankPage:Destroy()
+
+	if slot0.refreshtimer then
+		slot0.refreshtimer:Stop()
+
+		slot0.refreshtimer = nil
+	end
 end
 
 return slot0

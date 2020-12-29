@@ -2867,3 +2867,10 @@ function CreateShell(slot0)
 		__index = slot0
 	}, slot0))
 end
+
+function CameraFittingSettin(slot0)
+	if 1.7777777777777777 > Screen.width / Screen.height then
+		slot4 = slot3 / slot2
+		GetComponent(slot0, typeof(Camera)).rect = uv0.Rect.New(0, (1 - slot4) / 2, 1, slot4)
+	end
+end

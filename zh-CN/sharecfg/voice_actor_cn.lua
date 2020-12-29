@@ -1011,5 +1011,29 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "佐藤朱",
 		code = 253
+	},
+	{
+		actor_name = "原由实",
+		code = 254
+	},
+	{
+		actor_name = "新田日和",
+		code = 255
+	},
+	{
+		actor_name = "七濑彩夏",
+		code = 256
+	},
+	{
+		actor_name = "木村千咲",
+		code = 257
+	},
+	{
+		actor_name = "远野光",
+		code = 258
+	},
+	{
+		actor_name = "西本里美",
+		code = 259
 	}
 }

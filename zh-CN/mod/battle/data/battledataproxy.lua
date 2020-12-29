@@ -18,8 +18,7 @@ end
 function slot8.InitBattle(slot0, slot1)
 	slot0.Update = slot0.updateInit
 
-	slot0:SetupCalculateDamage(uv0.CreateContextCalculateDamage(slot1.battleType == SYSTEM_WORLD or slot2 == SYSTEM_WORLD_BOSS))
-	slot0:SetupCalculateDamage(pg.SdkMgr.GetInstance():CheckPretest() and (PlayerPrefs.GetInt("stage_scratch") or 0) == 1 and GodenFnger or nil)
+	slot0:SetupCalculateDamage(pg.SdkMgr.GetInstance():CheckPretest() and (PlayerPrefs.GetInt("stage_scratch") or 0) == 1 and GodenFnger or uv0.CreateContextCalculateDamage(slot1.battleType == SYSTEM_WORLD or slot2 == SYSTEM_WORLD_BOSS))
 	slot0:SetupDamageKamikazeAir()
 	slot0:SetupDamageKamikazeShip()
 	slot0:SetupDamageCrush()
@@ -191,6 +190,7 @@ function slot8.InitData(slot0, slot1)
 	end
 
 	slot0._chapterWinningStreak = slot0._battleInitData.DefeatCount or 0
+	slot0._waveFlags = table.shallowCopy(slot1.StageWaveFlags) or {}
 
 	slot0:InitStageData()
 
@@ -778,7 +778,12 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, , , , slot1.level)
 
 	uv1.MonsterAttrFixer(slot0._battleInitData.battleType, slot11)
-	slot11:SetCurrentHP(slot11:GetMaxHP() * slot0._repressEnemyHpRant)
+
+	if slot11:GetMaxHP() * slot0._repressEnemyHpRant <= 0 then
+		slot12 = 1
+	end
+
+	slot11:SetCurrentHP(slot12)
 	slot11:SetPosition(uv2.RandomPos(slot1.corrdinate))
 	slot11:SetAI(slot1.pilotAITemplateID or slot7.pilot_ai_template_id)
 	slot0:setShipUnitBound(slot11)
@@ -830,7 +835,7 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		extraInfo = slot1.extraInfo
 	}))
 
-	function slot14(slot0)
+	function slot15(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6, slot7 = nil
 
@@ -846,16 +851,16 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 
-	slot14(slot11:GetTemplate().buff_list)
-	slot14(slot1.buffList or {})
+	slot15(slot11:GetTemplate().buff_list)
+	slot15(slot1.buffList or {})
 
 	if slot1.affix then
-		slot14(slot0._battleInitData.AffixBuffList or {})
+		slot15(slot0._battleInitData.AffixBuffList or {})
 	end
 
 	if slot1.summonWaveIndex then
-		slot0._waveSummonList[slot18] = slot0._waveSummonList[slot18] or {}
-		slot0._waveSummonList[slot18][slot11] = true
+		slot0._waveSummonList[slot19] = slot0._waveSummonList[slot19] or {}
+		slot0._waveSummonList[slot19][slot11] = true
 	end
 
 	slot11:CheckWeaponInitial()
@@ -1782,4 +1787,32 @@ function slot8.SubmarineStrike(slot0, slot1)
 	slot5 = slot4[1]
 
 	slot2:GetSubAidVO():Cast()
+end
+
+function slot8.GetWaveFlags(slot0)
+	return slot0._waveFlags
+end
+
+function slot8.AddWaveFlag(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	if table.contains(slot0:GetWaveFlags(), slot1) then
+		return
+	end
+
+	table.insert(slot2, slot1)
+end
+
+function slot8.RemoveFlag(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	if not table.contains(slot0:GetWaveFlags(), slot1) then
+		return
+	end
+
+	table.removebyvalue(slot2, slot1)
 end

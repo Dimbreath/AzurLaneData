@@ -1,11 +1,12 @@
 slot0 = class("WSAtlasRight", import("...BaseEntity"))
 slot0.Fields = {
-	isDisplay = "boolean",
+	btnSettings = "userdata",
 	rtNameBg = "userdata",
 	rtDisplayIcon = "userdata",
 	transform = "userdata",
-	world = "table",
+	isDisplay = "boolean",
 	rtDisplayPanel = "userdata",
+	world = "table",
 	wsWorldInfo = "table",
 	rtMapInfo = "userdata",
 	rtBg = "userdata",
@@ -30,6 +31,7 @@ function slot0.Init(slot0)
 	slot0.rtDisplayIcon = slot1:Find("line/display_icon")
 	slot0.rtDisplayPanel = slot1:Find("line/display_panel")
 	slot0.rtWorldInfo = slot0.rtDisplayPanel:Find("world_info")
+	slot0.btnSettings = slot0.rtDisplayPanel:Find("settings_btn")
 	slot0.wsWorldInfo = WSWorldInfo.New()
 	slot0.wsWorldInfo.transform = slot0.rtWorldInfo
 

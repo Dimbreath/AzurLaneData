@@ -82,7 +82,8 @@ ITEM_ID_FUDAIS = {
 	40908,
 	40909,
 	40910,
-	40911
+	40911,
+	40912
 }
 ITEM_ID_MULTI_NORMAL = {
 	70051
@@ -233,8 +234,24 @@ DEFAULT_SEVOLUME = 0.8
 HIDE_CHAT_FLAG = "HideChat"
 SPECIAL_DATE = {
 	{
-		"20201031",
-		"loginbg_1031"
+		"20210101",
+		"login_newyear"
+	},
+	{
+		"20210102",
+		"login_newyear"
+	},
+	{
+		"20210103",
+		"login_newyear"
+	},
+	{
+		"20210104",
+		"login_newyear"
+	},
+	{
+		"20210105",
+		"login_newyear"
 	}
 }
 SPECIAL_PROPOSE = {}
@@ -243,8 +260,8 @@ OPEN_ESCORT = false
 OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true
 AUTO_LINKLINK = false
-PLAY_OPENING = false
-OP_VERSION = "20201126"
+PLAY_OPENING = true
+OP_VERSION = "20201229"
 OPEN_TEC_TREE_SYSTEM = true
 SECRETARY_POS = true
 ADAPT_MIN = 1.8

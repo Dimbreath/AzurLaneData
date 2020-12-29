@@ -376,6 +376,14 @@ function slot0.initOptionsPanel(slot0, slot1)
 
 	slot0:UpdateBackYardConfig()
 	setActive(slot0:findTF("scroll_view/Viewport/content/world_boss_notifications", slot1), false)
+
+	slot10, slot11 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "WorldMediator")
+
+	setActive(slot1:Find("scroll_view/Viewport/content/world_settings"), slot10)
+
+	if slot10 then
+		slot0:InitWorldPanel(slot1)
+	end
 end
 
 function slot0.UpdateBackYardConfig(slot0)
@@ -436,6 +444,31 @@ function slot0.InitWorldBossPanel(slot0, slot1)
 		triggerToggle(slot10:Find("on"), slot11)
 		triggerToggle(slot10:Find("off"), not slot11)
 	end
+end
+
+function slot0.InitWorldPanel(slot0, slot1)
+	for slot8, slot9 in pairs({
+		story_tips = i18n("world_setting_quickmode")
+	}) do
+		slot10 = cloneTplTo(slot1:Find("scroll_view/Viewport/content/world_settings/options"):Find("notify_tpl"), slot2)
+		slot11 = getProxy(SettingsProxy):GetWorldFlag(slot8)
+
+		setText(slot10:Find("Text"), slot9)
+		onButton(slot0, slot10:Find("Text"), function ()
+			uv0.msgBox:ExecuteAction("Show", i18n("world_setting_quickmodetip"))
+		end)
+		onToggle(slot0, slot10:Find("on"), function (slot0)
+			if uv0 ~= slot0 then
+				getProxy(SettingsProxy):SetWorldFlag(uv1, slot0)
+
+				uv0 = slot0
+			end
+		end, SFX_UI_TAG, SFX_UI_CANCEL)
+		triggerToggle(slot10:Find("on"), slot11)
+		triggerToggle(slot10:Find("off"), not slot11)
+	end
+
+	setText(slot1:Find("scroll_view/Viewport/content/world_settings/title"), i18n("world_setting_title"))
 end
 
 function slot0.initInterfacePreference(slot0, slot1)

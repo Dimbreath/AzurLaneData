@@ -264,24 +264,44 @@ function slot0.RecommShipsForBossBattle(slot0, slot1)
 	slot0.contextData.editBossFleet[slot1]:RemoveAll()
 
 	for slot15, slot16 in pairs(getProxy(BayProxy):getData()) do
-		slot16.id = GuildAssaultFleet.GetVirtualId(slot6.id, slot16.id)
+		if not pg.ShipFlagMgr.GetInstance():GetShipFlag(slot16.id, "inEvent") then
+			slot16.id = GuildAssaultFleet.GetVirtualId(slot6.id, slot16.id)
 
-		function (slot0, slot1)
-			if slot0 == TeamType.Main then
-				table.insert(uv0, slot1)
-			elseif slot0 == TeamType.Vanguard then
-				table.insert(uv1, slot1)
-			elseif slot0 == TeamType.Submarine then
-				table.insert(uv2, slot1)
-			end
-		end(slot16:getTeamType(), {
-			power = slot16:getShipCombatPower(),
-			id = slot16.id
-		})
+			function (slot0, slot1)
+				if slot0 == TeamType.Main then
+					table.insert(uv0, slot1)
+				elseif slot0 == TeamType.Vanguard then
+					table.insert(uv1, slot1)
+				elseif slot0 == TeamType.Submarine then
+					table.insert(uv2, slot1)
+				end
+			end(slot16:getTeamType(), {
+				power = slot16:getShipCombatPower(),
+				id = slot16.id
+			})
+		end
 	end
 
-	function slot12(slot0)
-		uv0:AddUserShip(GuildAssaultFleet.GetUserId(slot0), GuildAssaultFleet.GetRealId(slot0))
+	slot12 = 0
+	slot13 = 0
+	slot14 = 0
+
+	function slot15(slot0, slot1)
+		if not uv1:ExistSameKindShip(uv0[GuildAssaultFleet.GetRealId(slot0)]) then
+			uv1:AddUserShip(GuildAssaultFleet.GetUserId(slot0), slot2)
+
+			if slot1 == TeamType.Main then
+				uv2 = uv2 + 1
+			end
+
+			if slot1 == TeamType.Vanguard then
+				uv3 = uv3 + 1
+			end
+
+			if slot1 == TeamType.Submarine then
+				uv4 = uv4 + 1
+			end
+		end
 	end
 
 	if slot9:IsMainFleet() then
@@ -292,31 +312,37 @@ function slot0.RecommShipsForBossBattle(slot0, slot1)
 			return slot1.power < slot0.power
 		end)
 
-		slot16 = 3
+		for slot19 = 1, #slot2 do
+			if slot12 == 3 then
+				break
+			end
 
-		for slot16 = 1, math.min(#slot2, slot16) do
-			slot12(slot2[slot16].id)
+			slot15(slot2[slot19].id, TeamType.Main)
 		end
 
-		slot16 = 3
+		for slot19 = 1, #slot3 do
+			if slot13 == 3 then
+				break
+			end
 
-		for slot16 = 1, math.min(#slot3, slot16) do
-			slot12(slot3[slot16].id)
+			slot15(slot3[slot19].id, TeamType.Vanguard)
 		end
 	else
 		table.sort(slot4, function (slot0, slot1)
 			return slot1.power < slot0.power
 		end)
 
-		slot16 = 3
+		for slot19 = 1, #slot4 do
+			if slot14 == 3 then
+				break
+			end
 
-		for slot16 = 1, math.min(#slot4, slot16) do
-			slot12(slot4[slot16].id)
+			slot15(slot4[slot19].id, TeamType.Submarine)
 		end
 	end
 
-	if slot0.viewComponent.missBossForamtionPage and slot13:GetLoaded() then
-		slot13:UpdateFleet(slot1)
+	if slot0.viewComponent.missBossForamtionPage and slot16:GetLoaded() then
+		slot16:UpdateFleet(slot1)
 	end
 end
 

@@ -17,10 +17,12 @@ slot0.Listeners = {
 function slot0.Build(slot0)
 	pg.DelegateInfo.New(slot0)
 	nowWorld:AddListener(World.EventUpdateGlobalBuff, slot0.onUpdate)
+	nowWorld:GetAtlas():AddListener(WorldAtlas.EventAddPressingMap, slot0.onUpdate)
 end
 
 function slot0.Dispose(slot0)
 	nowWorld:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdate)
+	nowWorld:GetAtlas():RemoveListener(WorldAtlas.EventAddPressingMap, slot0.onUpdate)
 	slot0:Clear()
 	pg.DelegateInfo.Dispose(slot0)
 end

@@ -213,19 +213,19 @@ function slot0.didEnter(slot0)
 					slot1:SetCollectionHelpFlag(true)
 				end
 
-				if uv1 ~= 6 then
+				if uv1 ~= 5 then
 					if uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
 						uv0.musicView:tryPauseMusic()
 						uv0.musicView:closeSongListPanel()
 					end
 
 					pg.CriMgr.GetInstance():ResumeLastNormalBGM()
-				elseif uv1 == 6 and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
+				elseif uv1 == 5 and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
 					pg.CriMgr.GetInstance():StopBGM()
 					uv0.musicView:tryPlayMusic()
 				end
 
-				if uv1 ~= 5 and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then
+				if uv1 ~= 4 and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then
 					uv0.galleryView:closePicPanel()
 				end
 			end

@@ -78,7 +78,7 @@ function slot0.Entrance(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
 			function ()
 				uv0:RemoveCacheBoss(uv1.id)
-				self:sendNotification(GAME.WORLD_BOSS_START_BATTLE_FIALED)
+				pg.m02:sendNotification(GAME.WORLD_BOSS_START_BATTLE_FIALED)
 			end()
 		elseif slot0.result == 3 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
@@ -88,6 +88,9 @@ function slot0.Entrance(slot0, slot1)
 			slot1()
 		elseif slot0.result == 20 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
+			slot1()
+		elseif slot0.result == 9997 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_maintenance"))
 			slot1()
 		else
 			uv2:RequestFailStandardProcess(slot0)

@@ -1,19 +1,16 @@
 return {
-	id = "W1040",
 	mode = 2,
 	once = true,
+	id = "W1040",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			nameColor = "#a9f548",
 			say = "检测到塞壬的特殊资源补给。因为能源枯竭，已经无法正常开启了。不过，就算强行破坏也能回收一定材料。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
 			painting = {
 				alpha = 0.3,
 				time = 1

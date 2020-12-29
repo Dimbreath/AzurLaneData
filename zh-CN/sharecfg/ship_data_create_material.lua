@@ -82,17 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>玛莉萝丝</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>海因里希亲王</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>穗香</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>彼得·史特拉塞</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>霞</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>U-37</color>：0.5%",
 			" ",
-			"<color=#ffde38>海咲</color>：0.5%",
+			"<color=#d797ff>纽伦堡</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>凪咲</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>莫妮卡</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>威悉</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

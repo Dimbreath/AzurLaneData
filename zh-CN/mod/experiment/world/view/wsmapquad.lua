@@ -78,7 +78,8 @@ function slot0.Init(slot0)
 	slot0.rtWalkQuad = slot2:Find("walk_quad") or cloneTplTo(slot0.rtQuad, slot0.rtQuad.parent, "walk_quad")
 
 	slot0.rtWalkQuad:SetSiblingIndex(slot0.rtQuad:GetSiblingIndex())
-	setActive(slot0.rtWalkQuad, false)
+	setActive(slot0.rtWalkQuad, true)
+	setImageAlpha(slot0.rtWalkQuad, 0)
 	GetImageSpriteFromAtlasAsync(WorldConst.QuadSpriteAtlas, WorldConst.QuadSpriteWhite, slot0.rtWalkQuad)
 	slot0:Update()
 end

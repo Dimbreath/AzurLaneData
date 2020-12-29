@@ -35,6 +35,19 @@ function slot0.execute(slot0, slot1)
 				end
 			end)
 		end)
+	elseif nowWorld:CheckResetProgress() then
+		table.insert(slot3, function (slot0)
+			pg.ConnectionMgr.GetInstance():Send(33112, {
+				type = 2
+			}, 33113, function (slot0)
+				if slot0.result == 0 then
+					uv0:NetUpdateWorldSairenChapter(slot0.sairen_chapter)
+					uv1()
+				else
+					pg.TipsMgr.GetInstance():ShowTips(errorTip("world_reset_error_", slot0.result))
+				end
+			end)
+		end)
 	end
 
 	if not pg.NewStoryMgr.GetInstance():IsPlayed(pg.gameset.world_starting_story.description[1]) then

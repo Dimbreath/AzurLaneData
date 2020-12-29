@@ -19,6 +19,7 @@ function slot0.onRegister(slot0)
 	slot0._isShowCollectionHelp = PlayerPrefs.GetInt("collection_Help", 0) > 0
 	slot0.lastRequestVersionTime = nil
 	slot0.worldBossFlag = {}
+	slot0.worldFlag = {}
 end
 
 function slot0.SetWorldBossFlag(slot0, slot1, slot2)
@@ -36,6 +37,23 @@ function slot0.GetWorldBossFlag(slot0, slot1)
 	end
 
 	return slot0.worldBossFlag[slot1]
+end
+
+function slot0.SetWorldFlag(slot0, slot1, slot2)
+	if slot0.worldFlag[slot1] ~= slot2 then
+		slot0.worldFlag[slot1] = slot2
+
+		PlayerPrefs.SetInt("world_flag_" .. slot1, slot2 and 1 or 0)
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.GetWorldFlag(slot0, slot1, slot2)
+	if not slot0.worldFlag[slot1] then
+		slot0.worldFlag[slot1] = PlayerPrefs.GetInt("world_flag_" .. slot1) > 0
+	end
+
+	return slot0.worldFlag[slot1]
 end
 
 function slot0.Reset(slot0)

@@ -1,7 +1,8 @@
 return {
-	id = "W820010",
 	mode = 2,
 	once = true,
+	id = "W820010",
+	skipTip = false,
 	scripts = {
 		{
 			voice = "event:/tb/16/tb-16",

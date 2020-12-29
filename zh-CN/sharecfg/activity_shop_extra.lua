@@ -1923,7 +1923,7 @@ pg.activity_shop_extra = {
 		commodity_id = 102272,
 		scene = "",
 		id = 64,
-		order = 7,
+		order = 15,
 		time = {
 			{
 				{
@@ -1959,7 +1959,7 @@ pg.activity_shop_extra = {
 		commodity_id = 301231,
 		scene = "",
 		id = 65,
-		order = 7,
+		order = 15,
 		time = {
 			{
 				{
@@ -1978,6 +1978,47 @@ pg.activity_shop_extra = {
 					2021,
 					1,
 					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[66] = {
+		num_limit = 1,
+		activity = 829,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301571,
+		id = 66,
+		order = 6,
+		scene = {
+			"scene NEWYEAR BACKHILL",
+			{
+				miniGameID = 18
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
 				},
 				{
 					23,
@@ -2048,6 +2089,7 @@ pg.activity_shop_extra = {
 		62,
 		63,
 		64,
-		65
+		65,
+		66
 	}
 }
