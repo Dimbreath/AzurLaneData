@@ -66,6 +66,7 @@ SCENE = {
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	ATTIRE = "scene attire",
 	BIANDUI = "scene biandui",
+	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
 	WORLD_FLEET_SELECT = "world fleet select",
 	COLORING = "scene coloring",
 	NAVALTACTICS = "naval tactics",
@@ -342,6 +343,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.DOA_MEDAL_COLLECTION_SCENE then
 		slot0.mediator = IdolMedalCollectionMediator
 		slot0.viewComponent = DoaMedalCollectionView
+	elseif slot1 == SCENE.NEWYEAR_BACKHILL then
+		slot0.mediator = NewYearFestivalMediator
+		slot0.viewComponent = NewYearFestivalScene2
 	end
 
 	slot0.scene = slot1

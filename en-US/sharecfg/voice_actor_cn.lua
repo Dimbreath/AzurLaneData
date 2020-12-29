@@ -1011,5 +1011,29 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Akemi Sato",
 		code = 253
+	},
+	{
+		actor_name = "Hara Yumi ",
+		code = 254
+	},
+	{
+		actor_name = "Nitta Hiyori ",
+		code = 255
+	},
+	{
+		actor_name = "Nanase Ayaka ",
+		code = 256
+	},
+	{
+		actor_name = "Kimura Chisa ",
+		code = 257
+	},
+	{
+		actor_name = "Tono Hikaru ",
+		code = 258
+	},
+	{
+		actor_name = "Nishimoto Rimi",
+		code = 259
 	}
 }

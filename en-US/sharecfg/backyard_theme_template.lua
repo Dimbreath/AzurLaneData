@@ -1058,7 +1058,7 @@ pg.backyard_theme_template = {
 		desc = "Enjoy Christmas in this snowy shopping district!",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 20,
@@ -1122,7 +1122,7 @@ pg.backyard_theme_template = {
 		desc = "You'll never be BOARed with furniture like this! ",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 20,
@@ -2413,7 +2413,7 @@ pg.backyard_theme_template = {
 		name = "Cozy Christmas",
 		desc = "Gather 'round, m'dear, for the coziest time of year is here!",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -2451,6 +2451,43 @@ pg.backyard_theme_template = {
 			73303,
 			73304,
 			73305
+		}
+	},
+	[74] = {
+		Cfg_1 = 5,
+		name = "Snowy New Year Street ",
+		desc = "Snow on the streets bodes a year full of glee. ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 74,
+		icon = "mh3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			74001,
+			74002,
+			74101,
+			74102,
+			74103,
+			74104,
+			74105,
+			74106,
+			74107,
+			74108,
+			74109,
+			74110,
+			74111,
+			74112,
+			74113,
+			74114,
+			74115,
+			74116,
+			74117,
+			74118
 		}
 	},
 	all = {
@@ -2506,6 +2543,7 @@ pg.backyard_theme_template = {
 		70,
 		71,
 		72,
-		73
+		73,
+		74
 	}
 }

@@ -16,6 +16,14 @@ function slot0.execute(slot0, slot1)
 			slot0:UpdateMsg(slot6)
 		end
 
+		slot7 = uv1
+
+		for slot7, slot8 in ipairs(getProxy(GuildProxy):GetMessagesByUniqueId(uv0 .. "_" .. slot7)) do
+			slot8.args.isDeath = true
+
+			slot2:UpdateMsg(slot8)
+		end
+
 		if uv2 then
 			uv2()
 		end

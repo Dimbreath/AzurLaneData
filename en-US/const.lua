@@ -83,6 +83,7 @@ ITEM_ID_FUDAIS = {
 	40909,
 	40910,
 	40911,
+	40912,
 	40951,
 	40952,
 	40953,
@@ -253,15 +254,36 @@ DEFAULT_CVVOLUME = 0.8
 DEFAULT_BGMVOLUME = 0.8
 DEFAULT_SEVOLUME = 0.8
 HIDE_CHAT_FLAG = "HideChat"
-SPECIAL_DATE = {}
+SPECIAL_DATE = {
+	{
+		"20210101",
+		"login_newyear"
+	},
+	{
+		"20210102",
+		"login_newyear"
+	},
+	{
+		"20210103",
+		"login_newyear"
+	},
+	{
+		"20210104",
+		"login_newyear"
+	},
+	{
+		"20210105",
+		"login_newyear"
+	}
+}
 SPECIAL_PROPOSE = {}
-CRI_BG_FLAG = true
+CRI_BG_FLAG = false
 OPEN_ESCORT = false
 OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true
 AUTO_LINKLINK = false
-PLAY_OPENING = false
-OP_VERSION = "20201126"
+PLAY_OPENING = true
+OP_VERSION = "20201229"
 OPEN_TEC_TREE_SYSTEM = true
 SECRETARY_POS = true
 OPEN_AIR_DOMINANCE = true

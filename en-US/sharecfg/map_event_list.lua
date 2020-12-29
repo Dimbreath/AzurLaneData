@@ -1122,6 +1122,175 @@ pg.map_event_list = {
 			"helpbg/battle_doa"
 		}
 	},
+	[1460001] = {
+		help_open = 1,
+		chapter_id = 1460001,
+		event_list = {
+			410,
+			411
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460002] = {
+		help_open = 0,
+		chapter_id = 1460002,
+		event_list = {
+			412,
+			413
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460003] = {
+		help_open = 0,
+		chapter_id = 1460003,
+		event_list = {
+			414,
+			415
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460004] = {
+		help_open = 0,
+		chapter_id = 1460004,
+		event_list = {
+			416,
+			417
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460005] = {
+		help_open = 0,
+		chapter_id = 1460005,
+		event_list = {
+			418,
+			419
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460006] = {
+		help_open = 0,
+		chapter_id = 1460006,
+		event_list = {
+			420,
+			421
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460021] = {
+		help_open = 1,
+		chapter_id = 1460021,
+		event_list = {
+			422,
+			423
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460022] = {
+		help_open = 0,
+		chapter_id = 1460022,
+		event_list = {
+			424,
+			425
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460023] = {
+		help_open = 0,
+		chapter_id = 1460023,
+		event_list = {
+			426,
+			427
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460024] = {
+		help_open = 0,
+		chapter_id = 1460024,
+		event_list = {
+			428,
+			429
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460025] = {
+		help_open = 0,
+		chapter_id = 1460025,
+		event_list = {
+			430,
+			431
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460026] = {
+		help_open = 0,
+		chapter_id = 1460026,
+		event_list = {
+			432,
+			433
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
+	[1460041] = {
+		help_open = 0,
+		chapter_id = 1460041,
+		event_list = {
+			434,
+			435
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_dexiv3_1",
+			"helpbg/battle_dexiv3_2"
+		}
+	},
 	all = {
 		1220001,
 		1220002,
@@ -1188,6 +1357,19 @@ pg.map_event_list = {
 		1450002,
 		1450003,
 		1450004,
-		1450041
+		1450041,
+		1460001,
+		1460002,
+		1460003,
+		1460004,
+		1460005,
+		1460006,
+		1460021,
+		1460022,
+		1460023,
+		1460024,
+		1460025,
+		1460026,
+		1460041
 	}
 }

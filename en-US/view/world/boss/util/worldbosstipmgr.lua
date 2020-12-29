@@ -69,22 +69,40 @@ function slot0.Show(slot0, slot1)
 			slot5 = i18n("world_word_guild_player")
 		end
 
-		getProxy(ChatProxy):addNewMsg(ChatMsg.New(slot4, {
-			id = 4,
-			timestamp = pg.TimeMgr.GetInstance():GetServerTime(),
-			args = {
-				isDeath = false,
-				supportType = slot5,
-				playerName = slot2,
-				bossName = slot1.config.name,
-				level = slot1.level,
-				wordBossId = slot1.id,
-				lastTime = slot1.lastTime
-			},
-			player = slot1:GetPlayer() or getProxy(PlayerProxy):getData(),
-			uniqueId = slot1.id .. "_" .. slot1.lastTime
-		}))
+		if slot4 == ChatConst.ChannelGuild then
+			slot0:AddGuildMsg(slot4, {
+				id = 4,
+				timestamp = pg.TimeMgr.GetInstance():GetServerTime(),
+				args = {
+					isDeath = false,
+					supportType = slot5,
+					playerName = slot2,
+					bossName = slot1.config.name,
+					level = slot1.level,
+					wordBossId = slot1.id,
+					lastTime = slot1.lastTime
+				},
+				player = slot1:GetPlayer() or getProxy(PlayerProxy):getData(),
+				uniqueId = slot1.id .. "_" .. slot1.lastTime
+			})
+		else
+			getProxy(ChatProxy):addNewMsg(ChatMsg.New(slot4, slot8))
+		end
 	end
+end
+
+function slot0.AddGuildMsg(slot0, slot1, slot2)
+	if not getProxy(GuildProxy):getRawData() then
+		return
+	end
+
+	if not slot3:getMemberById(slot2.player.id) then
+		return
+	end
+
+	slot2.player = slot4
+
+	getProxy(GuildProxy):AddNewMsg(ChatMsg.New(slot1, slot2))
 end
 
 function slot0.IsEnableNotify(slot0, slot1)
@@ -198,6 +216,14 @@ function slot0.OnClick(slot0, slot1, slot2, slot3, slot4)
 				slot16.args.isDeath = true
 
 				slot9:UpdateMsg(slot16)
+			end
+
+			slot17 = slot10
+
+			for slot17, slot18 in ipairs(getProxy(GuildProxy):GetMessagesByUniqueId(tonumber(slot2) .. "_" .. slot17)) do
+				slot18.args.isDeath = true
+
+				slot12:UpdateMsg(slot18)
 			end
 
 			slot4()

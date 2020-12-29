@@ -264,35 +264,25 @@ function slot0.SetEnemyAttr(slot0, slot1)
 end
 
 function slot0.SetEnemyWorldEnhance(slot0)
-	slot3 = slot0._attr.level
+	slot2 = slot0._attr
+	slot3 = slot2.level
 	slot5 = slot0._tmpData.world_enhancement
-	slot6 = {
-		_attr = {}
-	}
-	slot7 = ys.Battle.BattleFormulas
-
-	uv0.Increase(slot6, "maxHP", slot7.WorldEnemyAttrEnhance(slot5[1], slot3) - 1)
-	uv0.Increase(slot6, "cannonPower", slot7.WorldEnemyAttrEnhance(slot5[2], slot3) - 1)
-	uv0.Increase(slot6, "torpedoPower", slot7.WorldEnemyAttrEnhance(slot5[3], slot3) - 1)
-	uv0.Increase(slot6, "antiAirPower", slot7.WorldEnemyAttrEnhance(slot5[4], slot3) - 1)
-	uv0.Increase(slot6, "airPower", slot7.WorldEnemyAttrEnhance(slot5[5], slot3) - 1)
-	uv0.Increase(slot6, "attackRating", slot7.WorldEnemyAttrEnhance(slot5[6], slot3) - 1)
-	uv0.Increase(slot6, "dodgeRate", slot7.WorldEnemyAttrEnhance(slot5[7], slot3) - 1)
-
-	slot8 = ys.Battle.BattleDataProxy.GetInstance():GetInitData()
-	slot9, slot10, slot15 = slot7.WorldMapRewardAttrEnhance(slot8.EnemyMapRewards, slot8.FleetMapRewards)
-
-	uv0.Increase(slot6, "cannonPower", slot9)
-	uv0.Increase(slot6, "torpedoPower", slot9)
-	uv0.Increase(slot6, "airPower", slot9)
-	uv0.Increase(slot6, "antiAirPower", slot9)
-	uv0.Increase(slot6, "antiSubPower", slot9)
-	uv0.Increase(slot6, "maxHP", slot10)
-	uv0.Increase(slot6, "worldBuffResistance", slot15)
-
-	for slot15, slot16 in pairs(slot6._attr) do
-		uv0.SetCurrent(slot0, slot15, uv0.GetCurrent(slot0, slot15) * (1 + slot16))
-	end
+	slot6 = ys.Battle.BattleFormulas
+	slot2.maxHP = slot2.maxHP * slot6.WorldEnemyAttrEnhance(slot5[1], slot3)
+	slot2.cannonPower = slot2.cannonPower * slot6.WorldEnemyAttrEnhance(slot5[2], slot3)
+	slot2.torpedoPower = slot2.torpedoPower * slot6.WorldEnemyAttrEnhance(slot5[3], slot3)
+	slot2.antiAirPower = slot2.antiAirPower * slot6.WorldEnemyAttrEnhance(slot5[4], slot3)
+	slot2.airPower = slot2.airPower * slot6.WorldEnemyAttrEnhance(slot5[5], slot3)
+	slot2.attackRating = slot2.attackRating * slot6.WorldEnemyAttrEnhance(slot5[6], slot3)
+	slot2.dodgeRate = slot2.dodgeRate * slot6.WorldEnemyAttrEnhance(slot5[7], slot3)
+	slot7 = ys.Battle.BattleDataProxy.GetInstance():GetInitData()
+	slot8, slot9, slot2.worldBuffResistance = slot6.WorldMapRewardAttrEnhance(slot7.EnemyMapRewards, slot7.FleetMapRewards)
+	slot2.cannonPower = slot2.cannonPower * (1 + slot8)
+	slot2.torpedoPower = slot2.torpedoPower * (1 + slot8)
+	slot2.airPower = slot2.airPower * (1 + slot8)
+	slot2.antiAirPower = slot2.antiAirPower * (1 + slot8)
+	slot2.antiSubPower = slot2.antiSubPower * (1 + slot8)
+	slot2.maxHP = slot2.maxHP * (1 + slot9)
 
 	uv0.SetBaseAttr(slot0)
 end

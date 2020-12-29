@@ -183,6 +183,69 @@ pg.strategy_data_template = {
 		desc = "Under the effect of a searchlight.",
 		arg = {}
 	},
+	[8801] = {
+		buff_id = 8801,
+		name = "Control Lost",
+		type = 10,
+		id = 8801,
+		icon = "8801",
+		desc = "You've lost control of the Floating Fortress! During battle, enemy forces will be reinforced by additional aircraft!",
+		arg = {}
+	},
+	[8802] = {
+		buff_id = 8802,
+		name = "Secured Control",
+		type = 10,
+		id = 8802,
+		icon = "8802",
+		desc = "You've secured the Floating Fortress! During battle, allied aircraft will arrive to attack the enemies!",
+		arg = {}
+	},
+	[8803] = {
+		buff_id = 8803,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8803,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
+	[8806] = {
+		buff_id = 8806,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8806,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
+	[8809] = {
+		buff_id = 8809,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8809,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
+	[8812] = {
+		buff_id = 8812,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8812,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
+	[8815] = {
+		buff_id = 8815,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8815,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
 	[9500] = {
 		buff_id = 9500,
 		name = "Wisdom Cube Reactivity",
@@ -321,6 +384,13 @@ pg.strategy_data_template = {
 		8745,
 		8746,
 		8750,
+		8801,
+		8802,
+		8803,
+		8806,
+		8809,
+		8812,
+		8815,
 		9500,
 		9502,
 		9505,

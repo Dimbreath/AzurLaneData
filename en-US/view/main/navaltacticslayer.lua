@@ -55,6 +55,7 @@ function slot0.init(slot0)
 	slot0.lessonSelBtn = slot0:findTF("confirm_btn", slot0.lessonPanel)
 	slot0.lessonCancelBtn = slot0:findTF("cancel_btn", slot0.lessonPanel)
 	slot0.lessonContent = slot0:findTF("bg/lessons/content", slot0.lessonPanel)
+	slot0.tpl = slot0:getTpl("student", slot0.studentContain)
 	slot0.UIMain = GameObject.Find("/OverlayCamera/Overlay/UIMain")
 	slot0.nameTxts = {}
 	slot0.deleteStuentQueue = {}
@@ -96,25 +97,28 @@ end
 function slot0.initStudents(slot0)
 	slot0.studentTFs = {}
 
-	for slot4 = 1, 4 do
-		slot0.studentTFs[slot4] = slot0.studentContain:GetChild(slot4 - 1)
+	removeAllChildren(slot0.studentContain)
 
-		if slot4 <= NavalAcademyProxy.MAX_SKILL_CLASS_NUM then
-			setActive(slot0.studentTFs[slot4], true)
+	for slot5 = 1, NavalAcademyProxy.MAX_SKILL_CLASS_NUM do
+		slot0.studentTFs[slot5] = cloneTplTo(slot0.tpl, slot0.studentContain, slot5)
 
-			if slot4 <= slot0.skillClassNum then
-				slot0:updateLockStudentPos(slot4, true)
+		if slot5 <= NavalAcademyProxy.MAX_SKILL_CLASS_NUM then
+			setActive(slot0.studentTFs[slot5], true)
+
+			if slot5 <= slot0.skillClassNum then
+				slot0:updateLockStudentPos(slot5, true)
 			else
-				slot0:updateLockStudentPos(slot4, false)
+				slot0:updateLockStudentPos(slot5, false)
 			end
 		else
-			setActive(slot0.studentTFs[slot4], false)
+			setActive(slot0.studentTFs[slot5], false)
 		end
 	end
 end
 
 slot0.NUM2SHOPID = {
-	21
+	21,
+	22
 }
 
 function slot0.updateLockStudentPos(slot0, slot1, slot2)
@@ -275,19 +279,15 @@ function slot0.updateStudentTF(slot0, slot1, slot2)
 	if slot2 then
 		slot0:updateShipInfo(slot4, slot2)
 		slot0:updateSkillInfo(slot4, slot2)
-
-		slot7 = slot0:findTF("start_btn", slot4)
-
 		setButtonEnabled(slot0:findTF("cancel_btn", slot4), true)
 
 		if slot2:getState() == Student.ATTEND then
 			slot0:addLeasonOverTimer(slot2)
 		elseif slot2:getState() == Student.WAIT then
 			setActive(slot6, false)
-			setActive(slot7, true)
 		end
 
-		slot8 = slot0.shipVOs[slot2.shipId].configId
+		slot7 = slot0.shipVOs[slot2.shipId].configId
 
 		onButton(slot0, slot6, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -487,10 +487,7 @@ function slot0.goDockYard(slot0, slot1, slot2)
 end
 
 function slot0.addLeasonOverTimer(slot0, slot1)
-	slot2 = slot0.studentTFs[slot1.id]
-
-	setActive(slot0:findTF("infoPanel/cancel_btn", slot2), true)
-	setActive(slot0:findTF("infoPanel/start_btn", slot2), false)
+	setActive(slot0:findTF("infoPanel/cancel_btn", slot0.studentTFs[slot1.id]), true)
 
 	function slot3()
 		if uv0.flag then
@@ -520,32 +517,20 @@ function slot0.addLeasonOverTimer(slot0, slot1)
 end
 
 function slot0.updateSkillDesc(slot0, slot1, slot2, slot3, slot4)
-	setText(findTF(slot1, "name"), slot2.name)
+	setText(findTF(slot1, "name/Text"), slot2.name)
 	setText(findTF(slot1, "level_contain/level"), slot2.level)
-	setText(findTF(slot1, "descView/Viewport/desc"), Student.getSkillDesc(slot2.id, slot2.level))
-
-	if 26 - math.floor((#findTF(slot1, "descView/Viewport/desc"):GetComponent(typeof(Text)).text - 160) / 40) < 26 then
-		slot6 = 26
-	end
-
-	if slot6 > 28 then
-		slot6 = 28
-	end
-
-	slot5.fontSize = slot6
-
 	LoadImageSpriteAsync("skillicon/" .. slot2.icon, findTF(slot1, "icon"))
 
-	slot9 = getConfigFromLevel1(pg.skill_need_exp, slot2.level)
+	slot7 = getConfigFromLevel1(pg.skill_need_exp, slot2.level)
 
 	if slot2.level == pg.skill_data_template[slot2.id].max_level then
 		setText(slot0:findTF("next_contain/Text", slot1), "MAX")
 	elseif slot3 then
-		slot0:leanTweenValue(slot8, slot4 and tonumber(string.sub(getText(slot8), 1, string.find(getText(slot8), "/") - 1)) or 0, slot2.exp, uv0, 0, function (slot0)
+		slot0:leanTweenValue(slot6, slot4 and tonumber(string.sub(getText(slot6), 1, string.find(getText(slot6), "/") - 1)) or 0, slot2.exp, uv0, 0, function (slot0)
 			setText(uv0, math.floor(slot0) .. "/" .. uv1.exp)
 		end)
 	else
-		setText(slot8, slot2.exp .. "/" .. slot9.exp)
+		setText(slot6, slot2.exp .. "/" .. slot7.exp)
 	end
 end
 
@@ -567,6 +552,8 @@ function slot0.updateSkillInfo(slot0, slot1, slot2)
 
 	onButton(slot0, slot5, function ()
 		if uv0.studentVOs[uv1.id]:getState() == Student.ATTEND then
+			uv0:emit(NavalTacticsMediator.ON_SKILL, uv2.id, uv3)
+
 			return
 		end
 

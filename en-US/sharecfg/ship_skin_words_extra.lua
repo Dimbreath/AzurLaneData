@@ -3147,6 +3147,291 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[407030] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 407030,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Focus solely on your work. I don't want to see my time nor your time squandered."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I don't meant to disturb your train of thought, but do keep an eye on the clock. The next thing on our schedule is less than a minute away.|Kaga fights very much like a beast. I quite like how she looks when doing it.|I consider not just Graf Zeppelin to be my ally, but you as well, Officer. Do you think I would give you my precious time if I didn't?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh, what a thrill it is to do this with you, Officer. Heheh."
+			}
+		}
+	},
+	[403090] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		main_extra = "",
+		mission = "",
+		id = 403090,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Welcome back! Let's get this show on the road, Commander!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"All right, so, you either have to send me on a sortie, or hang out with me! Time to choose, Commander!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Whoa, whoa, you need to hold still, Eisen! Otherwise I'll mess up the sticker placement! Hey, Commander, gimme a hand here~!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"What have we here? The paperwork you're looking for? Hahahah, see? I told you you could count on my intuition!|Whoa, it's like a party in here! What're you all chatting about? \"What if I'd actually been built\"? Hey, as long as I could still come see you, I'm fine with any kind of past~|Come at me then, Miss Spiritual Leader! Let's see if you're hot stuff or not! ...Oh, it's a video game rivalry thing."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I see you yawning there, Commander. What do you say to taking a refreshing little stroll outside?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"I sent the commission team off to the dorm! You said I could I do that, remember?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"You're a meanie, making me do this office work which I'm no good at! ...We'll go claim the rewards together in just a bit? Fine, I'll hang in there for now..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Whuah?! Geesh, Commander, I know who you are, okay?"
+			}
+		}
+	},
+	[401240] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		touch2 = "",
+		id = 401240,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"You've got some guts to keep me waiting, foolish mortal! I have been toiling away at being an excellent secretary ship!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Ehehehe... Ahahahahaha!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good, human, you've returned. I'm tired... Hey, don't run away! Come hither and give me a back rub!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"...Hmph! (Strikes pose) Ahahaha! How's this? Terrifying, yeah? Does it make your knees weak? ...Hmm, I see. Judging from reaction, it still needs some work..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hurry up and finish your work already, you fool! Stop... slacking... off... or I'll scratch you!|Studying...? Wh-why do I have to stoop to doing the same stuff as Z25 and the others? Don't wanna! Stop throwing homework at me!"
+			}
+		}
+	},
+	[402050] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		id = 402050,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Come on, Commander, let's do our best in service of the fleet today! I'll be right there at your side!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I'm number one! Ehehe... Wh-what's wrong with gloating every now and then?!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Commander, your orders please...!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hyah?! H-how many times have I told you not to suddenly pat my head! You're going to give me weird ideas... Hwaaah?! I, I didn't say anything!!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"The brötchen...? No, it's not ready yet! I don't care who it is, you'll have to wait two more minutes!|nil|Slacking off again? Looks like I'll have to give you some p-punishment... Hauu..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ngh... This is just... accidental contact... There's no deeper meaning to this...!"
+			}
+		}
+	},
+	[301630] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		touch2 = "",
+		id = 301630,
+		feeling1 = "",
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Welcome back, Commander. Let's take things nice and slow."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I feel safest when I'm with you and the others. Don't you think so too, Commander?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Michishio is here at this port, and you are too, Commander. I want to stay here forever."
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|Did you sleep well and have enough to eat? Good, good, that's what I want to hear. Pat, pat...|Zzzzz... Commander...? Can I stay like this a little longer...? Good night, Commander... Zzzzz...|Would you like to have a tea party with Michishio and the others? ...Commander, I want us to go together."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Would you like to have a tea party with Michishio and the others? ...Commander, I want us to go together."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I'll protect you, Commander."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Commander, there's a new mission... Let's do our best, together."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"The mission rewards... Let's bring some along for Ooshio."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"New mail... Should I try singing it aloud like Michishio does?"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -3199,6 +3484,11 @@ pg.ship_skin_words_extra = {
 		408090,
 		201320,
 		901120,
-		107230
+		107230,
+		407030,
+		403090,
+		401240,
+		402050,
+		301630
 	}
 }

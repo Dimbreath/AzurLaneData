@@ -108,10 +108,7 @@ function slot0.execute(slot0, slot1)
 			end
 
 			uv7:sendNotification(GAME.TRACKING_DONE, uv0)
-
-			getProxy(ChapterProxy).extraFlagUpdate = true
-
-			uv7:sendNotification(ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED, uv0.extraFlagList)
+			getProxy(ChapterProxy):updateExtraFlag(uv0, uv0.extraFlagList, {}, true)
 		elseif slot0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_retry"))
 			uv7:sendNotification(GAME.CHAPTER_OP, {

@@ -173,7 +173,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 312,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Available at a later date.</color> ",
+		desc = "<color=#ffffff>\"May my red blood flow into the frigid mold of war.\" Awarded to commanders who participated in the \"Inverted Orthant\" event.</color> ",
 		scene = {}
 	},
 	all = {

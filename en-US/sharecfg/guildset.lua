@@ -53,6 +53,11 @@ pg.guildset = {
 		key = "contribution_task_num",
 		key_value = 3
 	},
+	contribution_limit_count = {
+		key_args = "",
+		key = "contribution_limit_count",
+		key_value = 0
+	},
 	base_contribution = {
 		key_args = "",
 		key = "base_contribution",
@@ -209,6 +214,7 @@ pg.guildset = {
 		store_reset_time,
 		store_reset_cost,
 		contribution_task_num,
+		contribution_limit_count,
 		base_contribution,
 		base_capital,
 		guild_tech_default,

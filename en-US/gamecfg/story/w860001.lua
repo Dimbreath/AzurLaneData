@@ -1,7 +1,8 @@
 return {
-	id = "W860001",
 	mode = 2,
 	once = true,
+	id = "W860001",
+	skipTip = false,
 	scripts = {
 		{
 			nameColor = "#a9f548",

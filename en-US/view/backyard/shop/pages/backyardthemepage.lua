@@ -106,14 +106,14 @@ function slot0.GetData(slot0)
 	slot6 = pg.backyard_theme_template
 
 	table.sort(slot1, function (slot0, slot1)
-		if uv0[slot0.id].new == uv0[slot1.id].new then
-			if (uv1[slot0.id] and 1 or 0) == (uv1[slot1.id] and 1 or 0) then
+		if (uv0[slot0.id] and 1 or 0) == (uv0[slot1.id] and 1 or 0) then
+			if uv1[slot0.id].new == uv1[slot1.id].new then
 				return slot1.id < slot0.id
 			else
-				return slot2 < slot3
+				return uv1[slot1.id].new < uv1[slot0.id].new
 			end
 		else
-			return uv0[slot1.id].new < uv0[slot0.id].new
+			return slot2 < slot3
 		end
 	end)
 

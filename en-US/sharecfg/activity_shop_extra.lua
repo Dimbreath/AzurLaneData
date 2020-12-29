@@ -1268,6 +1268,47 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[66] = {
+		num_limit = 1,
+		activity = 829,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301571,
+		id = 66,
+		order = 8884,
+		scene = {
+			"scene NEWYEAR BACKHILL",
+			{
+				miniGameID = 18
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		5,
 		7,
@@ -1303,6 +1344,7 @@ pg.activity_shop_extra = {
 		61,
 		62,
 		64,
-		65
+		65,
+		66
 	}
 }

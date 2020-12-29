@@ -174,31 +174,9 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		seriesAsync({
-			function (slot0)
-				if uv0 then
-					slot1 = nowWorld:GetWorldMapDifficultyBuffLevel()
-
-					if ys.Battle.BattleAttr.IsWorldMapRewardAttrWarning({
-						slot1[1] * (1 + uv1.expedition_sairenvalueA / 10000),
-						slot1[2] * (1 + uv1.expedition_sairenvalueB / 10000),
-						slot1[3] * (1 + uv1.expedition_sairenvalueC / 10000)
-					}, nowWorld:GetWorldMapBuffLevel()) then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("world_dangerbattle_confirm"),
-							onYes = slot0
-						})
-
-						return
-					end
-				end
-
-				slot0()
-			end,
-			function (slot0)
-				uv0:emit(WorldPreCombatMediator.OnStartBattle, uv1:GetBattleStageId())
-			end
-		})
+		seriesAsync({}, function ()
+			uv0:emit(WorldPreCombatMediator.OnStartBattle, uv1:GetBattleStageId())
+		end)
 	end, SFX_UI_WEIGHANCHOR)
 end
 

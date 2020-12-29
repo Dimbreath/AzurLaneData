@@ -748,6 +748,50 @@ pg.skill_data_display = {
 		id = 8760,
 		name = "Fever Mode "
 	},
+	[8790] = {
+		id = 8790,
+		name = "Barrier Charger "
+	},
+	[8804] = {
+		id = 8804,
+		name = "Floating Fortress Support "
+	},
+	[8807] = {
+		id = 8807,
+		name = "Floating Fortress Support "
+	},
+	[8810] = {
+		id = 8810,
+		name = "Floating Fortress Support "
+	},
+	[8813] = {
+		id = 8813,
+		name = "Floating Fortress Support "
+	},
+	[8816] = {
+		id = 8816,
+		name = "Floating Fortress Support "
+	},
+	[8818] = {
+		id = 8818,
+		name = "五航战支援"
+	},
+	[8819] = {
+		id = 8819,
+		name = "五航战支援"
+	},
+	[8820] = {
+		id = 8820,
+		name = "五航战支援"
+	},
+	[8821] = {
+		id = 8821,
+		name = "Compiled Barrier "
+	},
+	[8824] = {
+		id = 8824,
+		name = "Emergency Procedures "
+	},
 	[9010] = {
 		id = 9010,
 		name = "Eastern Bonds"
@@ -3244,6 +3288,110 @@ pg.skill_data_display = {
 		id = 13870,
 		name = "Blazing Choreography"
 	},
+	[13880] = {
+		id = 13880,
+		name = "Iron Blood Falcon "
+	},
+	[13890] = {
+		id = 13890,
+		name = "Paralyzing Advance "
+	},
+	[13891] = {
+		id = 13891,
+		name = "Paralyzing Advance "
+	},
+	[13900] = {
+		id = 13900,
+		name = "Iron Wings, Blood Pinions "
+	},
+	[13901] = {
+		id = 13901,
+		name = "Iron Wings, Blood Pinions "
+	},
+	[13910] = {
+		id = 13910,
+		name = "Sic 'em, Eisen! "
+	},
+	[13911] = {
+		id = 13911,
+		name = "Sic 'em, Eisen! "
+	},
+	[13920] = {
+		id = 13920,
+		name = "Heinrich's Hunch Punch "
+	},
+	[13930] = {
+		id = 13930,
+		name = "Westward Trident "
+	},
+	[13931] = {
+		id = 13931,
+		name = "Westward Trident "
+	},
+	[13940] = {
+		id = 13940,
+		name = "Wolf Pack Formation - U-37 "
+	},
+	[13951] = {
+		id = 13951,
+		name = "The Lonesome Lookout "
+	},
+	[13952] = {
+		id = 13952,
+		name = "The Lonesome Lookout "
+	},
+	[13953] = {
+		id = 13953,
+		name = "The Lonesome Lookout "
+	},
+	[13955] = {
+		id = 13955,
+		name = "The Lonesome Lookout "
+	},
+	[13960] = {
+		id = 13960,
+		name = "Galvanizing Shield "
+	},
+	[14010] = {
+		id = 14010,
+		name = "I Love My Sisters!"
+	},
+	[14020] = {
+		id = 14020,
+		name = "I'll Protect the Vanguard!"
+	},
+	[13971] = {
+		id = 13971,
+		name = "Follow My Lead... Please! "
+	},
+	[13972] = {
+		id = 13972,
+		name = "Follow My Lead... Please! "
+	},
+	[13980] = {
+		id = 13980,
+		name = "No Strange Ideas, Please! "
+	},
+	[13981] = {
+		id = 13981,
+		name = "No Strange Ideas, Please! "
+	},
+	[13990] = {
+		id = 13990,
+		name = "Boon of Crimson Darkness "
+	},
+	[13993] = {
+		id = 13993,
+		name = "Boon of Crimson Darkness"
+	},
+	[14001] = {
+		id = 14001,
+		name = "Fiendish Rampage"
+	},
+	[14002] = {
+		id = 14002,
+		name = "Fiendish Rampage"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5420,6 +5568,17 @@ pg.skill_data_display = {
 		8737,
 		8740,
 		8760,
+		8790,
+		8804,
+		8807,
+		8810,
+		8813,
+		8816,
+		8818,
+		8819,
+		8820,
+		8821,
+		8824,
 		9010,
 		9020,
 		9030,
@@ -6044,6 +6203,32 @@ pg.skill_data_display = {
 		13852,
 		13860,
 		13870,
+		13880,
+		13890,
+		13891,
+		13900,
+		13901,
+		13910,
+		13911,
+		13920,
+		13930,
+		13931,
+		13940,
+		13951,
+		13952,
+		13953,
+		13955,
+		13960,
+		14010,
+		14020,
+		13971,
+		13972,
+		13980,
+		13981,
+		13990,
+		13993,
+		14001,
+		14002,
 		18010,
 		18040,
 		18041,

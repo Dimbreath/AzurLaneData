@@ -3583,7 +3583,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		is_get_time_note = 0,
 		belong = 1,
-		rarity = 4,
+		rarity = 5,
 		is_3d_obj = 0,
 		tag = 6,
 		icon = "doaxunzhangicon",
@@ -3621,6 +3621,49 @@ pg.furniture_data_template = {
 					"doa_qifenhe",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[189] = {
+		can_rotate = 0,
+		name = "Inverted Orthant Commemoration ",
+		gain_by = "负象限作战",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "tiexue_v3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "A miniature model of the central command facility of the Iron Blood's Floating Fortress. ——Awarded to commanders who displayed excellence during the \"Inverted Orthant\" event. ",
+		advice = 0,
+		id = 189,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tiexue_v3",
+				"normal"
 			}
 		},
 		interAction_group = {}
@@ -70789,6 +70832,871 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[74001] = {
+		can_rotate = 0,
+		name = "Snowy Street Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanmh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/dibanmh3",
+		canputon = 0,
+		count = 1,
+		describe = "The streets are cold and damp. Which is to say: yay, snow!",
+		advice = 0,
+		deblocking = 1,
+		id = 74001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74002] = {
+		can_rotate = 0,
+		name = "Snowy Street Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbimh3icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/qiangbimh3",
+		canputon = 0,
+		count = 1,
+		describe = "Countless snowflakes, frozen in time.",
+		advice = 0,
+		deblocking = 1,
+		id = 74002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74101] = {
+		can_rotate = 1,
+		name = "Sushi Shop Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/1mh3",
+		canputon = 0,
+		count = 1,
+		describe = "Raw deals, raw experiences, raw fish.",
+		advice = 0,
+		deblocking = 1,
+		id = 74101,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74102] = {
+		can_rotate = 0,
+		name = "Geisha Snowmanjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/2mh3",
+		canputon = 0,
+		count = 1,
+		describe = "Because beauty really is transient. Enjoy it while it lasts.",
+		advice = 0,
+		deblocking = 1,
+		id = 74102,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74103] = {
+		can_rotate = 0,
+		name = "Geisha Manjuu 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/3mh3",
+		canputon = 0,
+		count = 1,
+		describe = "On her way to a stage play.",
+		advice = 0,
+		deblocking = 1,
+		id = 74103,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74104] = {
+		can_rotate = 0,
+		name = "Geisha Manjuu 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/4mh3",
+		canputon = 0,
+		count = 1,
+		describe = "Just a lady out and about, taking in the town vistas.",
+		advice = 0,
+		deblocking = 1,
+		id = 74104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74105] = {
+		can_rotate = 0,
+		name = "Snowy Street Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/5mh3",
+		canputon = 0,
+		count = 1,
+		describe = "No one is quite sure what these symbols really mean.",
+		advice = 0,
+		deblocking = 1,
+		id = 74105,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74106] = {
+		can_rotate = 0,
+		name = "Snowy Street Billboard",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/6mh3",
+		canputon = 0,
+		count = 1,
+		describe = "Has a couple of hand-drawn ads for the local businesses.",
+		advice = 0,
+		deblocking = 1,
+		id = 74106,
+		comfortable = 2,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74107] = {
+		can_rotate = 1,
+		name = "Donation Box",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/7mh3",
+		canputon = 0,
+		count = 1,
+		describe = "Most of these have been replaced by websites with a 5% commission fee.",
+		advice = 0,
+		deblocking = 1,
+		id = 74107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74108] = {
+		can_rotate = 0,
+		name = "Out-of-season Lantern",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/8mh3",
+		canputon = 0,
+		count = 2,
+		describe = "It's for the tourists. They like these.",
+		advice = 0,
+		deblocking = 1,
+		id = 74108,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74109] = {
+		can_rotate = 0,
+		name = "Snowy Street Shrine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/9mh3",
+		canputon = 0,
+		count = 1,
+		describe = "Might feel oddly positioned, but it's actually the city that grew around it.",
+		advice = 0,
+		deblocking = 1,
+		id = 74109,
+		comfortable = 3,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74110] = {
+		can_rotate = 0,
+		name = "Snowy Street Light",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/10mh3",
+		canputon = 0,
+		count = 4,
+		describe = "Electric, but camouflaged really well.",
+		advice = 0,
+		deblocking = 1,
+		id = 74110,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74111] = {
+		can_rotate = 0,
+		name = "Wooden Bathtub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "mh3/11mh3",
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		describe = "Does an outdoor bathtub qualify as an open-air bath?",
+		advice = 0,
+		id = 74111,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-38,
+					-42
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/11mh3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74112] = {
+		can_rotate = 1,
+		name = "Red Mailbox",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/12mh3",
+		canputon = 0,
+		count = 1,
+		describe = "One of the few things here that isn't made of wood or stone.",
+		advice = 0,
+		deblocking = 1,
+		id = 74112,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74113] = {
+		can_rotate = 0,
+		name = "Snowy Street Bush",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/13mh3",
+		canputon = 0,
+		count = 2,
+		describe = "Just wants a little shake. Won't you indulge it?",
+		advice = 0,
+		deblocking = 1,
+		id = 74113,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74114] = {
+		can_rotate = 0,
+		name = "Shrine Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "mh3/14mh3",
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		describe = "Entry on the left side, exit on the right.",
+		advice = 0,
+		id = 74114,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					86,
+					136
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/14mh3_using1"
+			},
+			{
+				"stand2",
+				{
+					-98,
+					-170
+				},
+				{
+					1,
+					1
+				},
+				"mh3/14mh3_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74115] = {
+		can_rotate = 0,
+		name = "Snowy Street Bridge",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "mh3/15mh3",
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		describe = "Not quite tall enough to let boats pass under it.",
+		advice = 0,
+		id = 74115,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			3,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					19,
+					11
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/15mh3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74116] = {
+		can_rotate = 0,
+		name = "Manjuu Confectionery",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/16mh3",
+		canputon = 0,
+		count = 1,
+		describe = "Made the very same way as it was 400 years ago.",
+		advice = 0,
+		deblocking = 1,
+		id = 74116,
+		comfortable = 3,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74117] = {
+		can_rotate = 0,
+		name = "Snowy Street Pine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "17mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/17mh3",
+		canputon = 0,
+		count = 1,
+		describe = "Of no relation to the actor who played Kirk.",
+		advice = 0,
+		deblocking = 1,
+		id = 74117,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74118] = {
+		can_rotate = 0,
+		name = "Snowy Street River",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "18mh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 74,
+		spine_action_replace = "",
+		picture = "mh3/18mh3",
+		canputon = 0,
+		count = 3,
+		describe = "It's lovely and all, but how has it not frozen yet?",
+		advice = 0,
+		deblocking = 1,
+		id = 74118,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74119] = {
+		can_rotate = 0,
+		name = "Manjuu Local Express",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 74,
+		icon = "Amh3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "As retro as transport gets without involving horses.",
+		advice = 0,
+		id = 74119,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			20,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Amh3B",
+				"normal"
+			},
+			{
+				"Amh3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -70866,6 +71774,7 @@ pg.furniture_data_template = {
 		185,
 		187,
 		188,
+		189,
 		100002,
 		100003,
 		100004,
@@ -72389,6 +73298,27 @@ pg.furniture_data_template = {
 		73302,
 		73303,
 		73304,
-		73305
+		73305,
+		74001,
+		74002,
+		74101,
+		74102,
+		74103,
+		74104,
+		74105,
+		74106,
+		74107,
+		74108,
+		74109,
+		74110,
+		74111,
+		74112,
+		74113,
+		74114,
+		74115,
+		74116,
+		74117,
+		74118,
+		74119
 	}
 }

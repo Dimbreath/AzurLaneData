@@ -15,6 +15,14 @@ function slot0.execute(slot0, slot1)
 
 			slot7:UpdateMsg(slot13)
 		end
+
+		slot14 = slot6.lastTime
+
+		for slot14, slot15 in ipairs(getProxy(GuildProxy):GetMessagesByUniqueId(slot3 .. "_" .. slot14)) do
+			slot15.args.isDeath = true
+
+			slot9:UpdateMsg(slot15)
+		end
 	end
 end
 

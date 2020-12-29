@@ -45,7 +45,6 @@ slot0.Listeners = {
 	onUpdateSelectedFleet = "OnUpdateSelectedFleet"
 }
 slot0.EventUpdateEventTips = "WSMap.EventUpdateEventTips"
-slot0.EventClickTransport = "WSMap.EventClickTransport"
 
 function slot0.Setup(slot0, slot1)
 	slot0.map = slot1
@@ -718,10 +717,7 @@ function slot0.DisplayMoveRange(slot0)
 				return
 			end
 
-			slot1 = uv1:GetQuad(slot0.row, slot0.column)
-
-			setActive(slot1.rtWalkQuad, true)
-			setImageAlpha(slot1.rtWalkQuad, math.pow(0.75, slot0.stay and slot0.stay - 1 or 0))
+			setImageAlpha(uv1:GetQuad(slot0.row, slot0.column).rtWalkQuad, math.pow(0.75, slot0.stay and slot0.stay - 1 or 0))
 			setLocalScale(slot1.rtWalkQuad, Vector3.zero)
 
 			slot2 = {
@@ -752,7 +748,6 @@ function slot0.HideMoveRange(slot0)
 		slot1 = slot0.line
 		slot2 = uv0:GetQuad(slot1.row, slot1.column)
 
-		setActive(slot2.rtWalkQuad, false)
 		setImageAlpha(slot2.rtWalkQuad, 0)
 		setLocalScale(slot2.rtWalkQuad, Vector3.one)
 	end)
@@ -776,9 +771,8 @@ function slot0.MovePath(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot11[1]:UpdateStatic(true)
 		_.each(slot11, function (slot0)
 			LeanTween.cancel(slot0.rtWalkQuad)
-			setActive(slot0.rtWalkQuad, true)
 			setLocalScale(slot0.rtWalkQuad, Vector3.one)
-			setImageAlpha(slot0.rtWalkQuad, 0.01)
+			setImageAlpha(slot0.rtWalkQuad, 0)
 			LeanTween.alpha(slot0.rtWalkQuad, 1, uv0):setDelay(uv1)
 
 			uv1 = uv1 + uv2
@@ -791,11 +785,7 @@ function slot0.MovePath(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				LeanTween.cancel(slot0.rtWalkQuad)
 				setImageAlpha(slot0.rtWalkQuad, 1)
-				LeanTween.alpha(slot0.rtWalkQuad, 0.01, uv2):setOnComplete(System.Action(function ()
-					if uv0.rtWalkQuad then
-						setActive(uv0.rtWalkQuad, false)
-					end
-				end))
+				LeanTween.alpha(slot0.rtWalkQuad, 0, uv2)
 			end
 		end()
 
@@ -921,15 +911,12 @@ function slot0.FlushTransportVisibleByFleet(slot0)
 							slot12 = uv0:NewTransport(slot6.row, slot6.column, slot10)
 							uv0.wsMapTransports[slot11] = slot12
 
-							onButton(uv0, slot12.rtClick, function ()
-								uv0:DispatchEvent(uv1.EventClickTransport, uv2)
-							end)
+							setActive(slot12.rtClick, false)
 						end
 
 						slot12:UpdateAlpha(_.any(uv0.wsMapFleets, function (slot0)
 							return slot0.fleet.row == uv0.row and slot0.fleet.column == uv0.column
 						end) and 1 or 0)
-						setActive(slot12.rtClick, slot13)
 						setActive(slot12.rtForbid, uv0.map.config.is_transfer == 0)
 					end
 				end

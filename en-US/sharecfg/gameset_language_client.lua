@@ -5012,5 +5012,212 @@ pg.gameset_language_client = {
 	},
 	op_reply_158_1_2 = {
 		value = "There's a few things you need to know, but it's not much more demanding than, say, fishing!"
+	},
+	ins_159 = {
+		value = "Literally setting up the christmas tree with the girls, pretty good if I do say so myself"
+	},
+	ins_discuss_159_1 = {
+		value = "Wow! Nothing says \"Christmas\" like a huge Christmas tree! Nice job, everyone!"
+	},
+	ins_reply_159_1_1 = {
+		value = "Sorry, what? I'm planting the star while you're taking a selfie!"
+	},
+	ins_reply_159_1_2 = {
+		value = "Okay that's a fair point. Christmas only comes once a year though, gotta make some memories you know?"
+	},
+	ins_discuss_159_2 = {
+		value = "and there's the obligatory marblehead selfie. I was WAITING for it."
+	},
+	ins_reply_159_2_1 = {
+		value = "With me in the background about to lose my balance because SOMEONE isn't holding the ladder..."
+	},
+	ins_reply_159_2_2 = {
+		value = "Omg I'm really sorry. If I take a slapping pic of you in your dress will that make up for it?"
+	},
+	ins_reply_159_2_3 = {
+		value = "I'll pass. To be fair, you did the most work with the tree anyway. Just next time, hold the ladder, please..."
+	},
+	ins_discuss_159_3 = {
+		value = "You know what this tree is missing? Candy canes!"
+	},
+	ins_reply_159_3_1 = {
+		value = "You know what else it could use? Gingerbread cookies!"
+	},
+	ins_reply_159_3_2 = {
+		value = "Is it a bird? Is it a plane? No, it's the rocket decorations that this tree needs!"
+	},
+	ins_reply_159_3_3 = {
+		value = "Gonna be more decoration than tree by the time y'all done with it lol"
+	},
+	ins_op_159_1_1 = {
+		value = "Strong contender for Christmas tree of the year."
+	},
+	op_reply_159_1_1 = {
+		value = "Hey thanks. Everyone in the Eagle Union dorm worked their butts off on this thing, and it shows."
+	},
+	ins_160 = {
+		value = "I was just wrapping presents when this little guy jumped into the box!"
+	},
+	ins_discuss_160_1 = {
+		value = "They can be a real handful sometimes... It didn't ruin your present, did it?"
+	},
+	ins_reply_160_1_1 = {
+		value = "Nope, luckily! Wonder what made it hop inside... Maybe it was pining for its time inside a cat box?"
+	},
+	ins_reply_160_1_2 = {
+		value = "Whatever it is, it's not normal. You should have Akashi examine it."
+	},
+	ins_reply_160_1_3 = {
+		value = "Not happening now that it's skittered off! I'm sure the little guy is fine anyway."
+	},
+	ins_discuss_160_2 = {
+		value = "Adorbs. Classic meowfie. How's your presents btw? Coming along gud?"
+	},
+	ins_reply_160_2_1 = {
+		value = "Yup, got done with wrapping just after I finished playing with officer meow-meow here!"
+	},
+	ins_reply_160_2_2 = {
+		value = "You're not gifting someone a cat for Christmas, are you?"
+	},
+	ins_reply_160_2_3 = {
+		value = "Hahahaha! If only! Everyone I know already has a meowfficer!"
+	},
+	ins_op_160_1_1 = {
+		value = "One might say you were wrapping... PURR-esents."
+	},
+	op_reply_160_1_1 = {
+		value = "Yeowch! Now that's an oof-inducing sucker PUNch!"
+	},
+	ins_161 = {
+		value = "Look what I found. A Christmas ham in its natural habitat!"
+	},
+	ins_discuss_161_1 = {
+		value = "WTF! I told you not to upload this! UGH!!"
+	},
+	ins_reply_161_1_1 = {
+		value = "Aww, but you were so into it! \"Ho-ho-ho! You'd best not be on Hammann's perverted idiot list, or you're getting a scolding for Christmas!\""
+	},
+	ins_reply_161_1_2 = {
+		value = "Enough already! Delete this or Santa really will put you on his naughty list!"
+	},
+	ins_reply_161_1_3 = {
+		value = "Lmao! Sister, I was born on the naughty list – molded by it!"
+	},
+	ins_discuss_161_2 = {
+		value = "You're volunteering to be Santa this year? Aww, what a diligent girl you are~"
+	},
+	ins_reply_161_2_1 = {
+		value = "Just trying it on, that's all... Just wondering: how do I look? Not too bad I hope..."
+	},
+	ins_reply_161_2_2 = {
+		value = "No, not at all. It fits you perfectly!"
+	},
+	ins_reply_161_2_3 = {
+		value = "You really think so?? Oh thank goodness! Thanks!!"
+	},
+	ins_op_161_1_1 = {
+		value = "You look to be in the holiday mood too, Sims."
+	},
+	op_reply_161_1_1 = {
+		value = "Call me Santa's little prankster!"
+	},
+	ins_op_161_1_2 = {
+		value = "That's the prettiest ham I've ever seen."
+	},
+	op_reply_161_1_2 = {
+		value = "What kind of compliment is that?? It definitely doesn't make me happy! Nuh-uh!"
+	},
+	ins_162 = {
+		value = "Dear santa: here are milk and cookies, now gib steak and drumsticks! Good night!"
+	},
+	ins_discuss_162_1 = {
+		value = "Did you seriously draw and put up a picture of a drumstick? Is meat all you ever think about?"
+	},
+	ins_reply_162_1_1 = {
+		value = "Father Christmas will surely get a laugh out of it! I certainly did!"
+	},
+	ins_reply_162_1_2 = {
+		value = "I have a feeling like Yuudachi's wish will come true. Let's wait and see."
+	},
+	ins_discuss_162_2 = {
+		value = "GUESS WHAT! Just found a nice fat drumstick in my stocking! Suck on that, non-santa believers!"
+	},
+	ins_reply_162_2_1 = {
+		value = "Santa Claus always rewards girls and boys who have been good throughout the year."
+	},
+	ins_reply_162_2_2 = {
+		value = "I'm gonna be a good dogger next year too if there'll be a reward waiting for me!!"
+	},
+	ins_op_162_1_1 = {
+		value = "Being good pays off."
+	},
+	op_reply_162_1_1 = {
+		value = "Indeed it does. What about you, Commander? Have you been good this year?"
+	},
+	ins_163 = {
+		value = "Oh what fun it is to ride on a one-hundred horse-power sleigh! ♪♬♪"
+	},
+	ins_discuss_163_1 = {
+		value = "Delivering presents in mad style!"
+	},
+	ins_reply_163_1_1 = {
+		value = "It's a shame to see the reindeer go, but this upgraded sleigh is stunning in its own right."
+	},
+	ins_reply_163_1_2 = {
+		value = "Dashing through the snow... I'd probably be laughing all the way too."
+	},
+	ins_reply_163_1_3 = {
+		value = "Reindeer just don't cut it anymore! If you wanna meet the present quota, you gotta go real fast!"
+	},
+	ins_discuss_163_2 = {
+		value = "Blazing across snow-topped banks under the moonlight... This gives me inspiration."
+	},
+	ins_reply_163_2_1 = {
+		value = "It's a bumpy ride on this bad boy, but it can traverse just about anything! Perfect for my needs!"
+	},
+	ins_reply_163_2_2 = {
+		value = "Sounds like my tinkering did the trick. Stellar."
+	},
+	ins_reply_163_2_3 = {
+		value = "Sure did! You've got a magic touch with these things."
+	},
+	ins_op_163_1_1 = {
+		value = "Houston, we have liftoff..."
+	},
+	op_reply_163_1_1 = {
+		value = "Briefly, just went over a bump. I'm 8-ish reindeer short of a sleigh that can actually fly."
+	},
+	ins_op_163_1_2 = {
+		value = "Aren't you freezing, wearing just that?"
+	},
+	op_reply_163_1_2 = {
+		value = "The temperature is cold, but my outfit is hot, so it balances out."
+	},
+	ins_164 = {
+		value = "Candy canes, lollipops, gingerbread! Christmas candy is the sweetest! (≧▽≦)"
+	},
+	ins_discuss_164_1 = {
+		value = "Don't forget Christmas cake, milk and cookies, and pecan pie! We're only scratching the surface of the candy iceberg!"
+	},
+	ins_reply_164_1_1 = {
+		value = "Oh boy, I'm starting to feel a sugar crash coming on..."
+	},
+	ins_reply_164_1_2 = {
+		value = "Tell me about it... Someone else play the role of Saint Nicholas while I take a nap..."
+	},
+	ins_discuss_164_2 = {
+		value = "Remember: brush your teeth after eating candy, or the Plaqinator will send his cavity creeps after you!"
+	},
+	ins_reply_164_2_1 = {
+		value = "Eep! You're right... Wouldn't want my sweet tooth to develop into a rotten tooth!"
+	},
+	ins_reply_164_2_2 = {
+		value = "Lamest supervillain ever..."
+	},
+	ins_op_164_1_1 = {
+		value = "Now you've got me craving sweets."
+	},
+	op_reply_164_1_1 = {
+		value = "Well... We're out of candy, but if you wanna eat something sweet, there's always me..."
 	}
 }

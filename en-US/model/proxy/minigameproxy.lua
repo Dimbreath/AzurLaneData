@@ -54,7 +54,7 @@ function slot0.RequestInitData(slot0, slot1, slot2)
 	end
 
 	if slot3:CheckInTime() then
-		if slot3:getConfig("type") == MiniGameConst.MG_TYPE_2 and not slot3:GetRuntimeData("fetchData") then
+		if (slot3:getConfig("type") == MiniGameConst.MG_TYPE_2 or slot6 == MiniGameConst.MG_TYPE_3) and not slot3:GetRuntimeData("fetchData") then
 			slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
 				hubid = slot0:GetHubByGameId(slot1).id,
 				cmd = MiniGameOPCommand.CMD_SPECIAL_GAME,

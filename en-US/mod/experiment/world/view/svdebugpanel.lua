@@ -26,251 +26,200 @@ function slot0.OnInit(slot0)
 	slot5 = UIItemList.New(slot2, slot2:Find("button"))
 
 	slot5:make(function (slot0, slot1, slot2)
-		setText(slot2:Find("Text"), uv0[slot1 + 1])
+		slot1 = slot1 + 1
+
+		if slot0 == UIItemList.EventUpdate then
+			setText(slot2:Find("Text"), uv0[slot1].name)
+			onButton(uv1, slot2, uv0[slot1].func)
+		end
 	end)
 	slot5:align(#{
-		"清理打印",
-		"地图信息",
-		"事件信息",
-		"任务信息",
-		"重置地形",
-		"全屏黑雾",
-		"随机洋流",
-		"随机吹风",
-		"全屏冰面",
-		"开场事件",
-		"舰队信息",
-		"敌人信息",
-		"陷阱信息",
-		"entity缓存",
-		"感染事件",
-		"场景物件",
-		"一键压制"
+		{
+			name = "清理打印",
+			func = function ()
+				for slot3 = uv0.rtContent.childCount - 1, 0, -1 do
+					Destroy(uv0.rtContent:GetChild(slot3))
+				end
+			end
+		},
+		{
+			name = "entity缓存",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("打印entity缓存信息：")
+
+				slot0 = {}
+
+				for slot4, slot5 in pairs(WPool.pools) do
+					table.insert(slot0, slot4.__cname .. " : " .. #slot5)
+				end
+
+				table.sort(slot0)
+
+				for slot4, slot5 in ipairs(slot0) do
+					uv0:AppendText(slot5)
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "开场事件",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("强制触发开场事件：")
+
+				if nowWorld:GetActiveMap() and slot0:IsValid() then
+					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
+						if #slot0.config.event_op > 0 then
+							slot0:UpdateDataOp(#slot0.config.event_op)
+						end
+					end)
+					uv0:AppendText("修改成功")
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "地图信息",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("当前大世界进度：")
+				uv0:AppendText(tostring(nowWorld:GetProgress()))
+				uv0:AppendText("")
+				uv0:AppendText("当前所在入口信息：")
+
+				if nowWorld:GetActiveEntrance() then
+					uv0:AppendText(slot0:DebugPrint())
+				end
+
+				uv0:AppendText("")
+				uv0:AppendText("当前所在地图信息：")
+
+				if nowWorld:GetActiveMap() then
+					uv0:AppendText(slot1:DebugPrint())
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "事件信息",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("当前所在地图事件信息：")
+
+				if nowWorld:GetActiveMap() then
+					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
+						uv0:AppendText(slot0:DebugPrint())
+					end)
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "感染事件",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("当前所在地图感染事件信息：")
+
+				if nowWorld:GetActiveMap() then
+					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
+						if slot0.config.infection_value > 0 then
+							uv0:AppendText(slot0:DebugPrint())
+						end
+					end)
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "任务信息",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("大世界任务信息：")
+
+				for slot5, slot6 in pairs(nowWorld:GetTaskProxy():getTasks()) do
+					uv0:AppendText(slot6:DebugPrint())
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "舰队信息",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("打印舰队信息：")
+				_.each(nowWorld:GetFleets(), function (slot0)
+					uv0:AppendText(slot0:DebugPrint())
+				end)
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "敌人信息",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("打印敌人信息：")
+
+				if nowWorld:GetActiveMap() then
+					_.each(slot0:FindAttachments(), function (slot0)
+						if WorldMapAttachment.IsEnemyType(slot0.type) then
+							uv0:AppendText(slot0:DebugPrint())
+						end
+					end)
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "陷阱信息",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("打印陷阱信息：")
+
+				if nowWorld:GetActiveMap() then
+					_.each(slot0:FindAttachments(WorldMapAttachment.TypeTrap), function (slot0)
+						uv0:AppendText(slot0:DebugPrint())
+					end)
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "场景物件",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("当前所在地图场景物件信息：")
+
+				if nowWorld:GetActiveMap() then
+					_.each(slot0:FindAttachments(WorldMapAttachment.TypeArtifact), function (slot0)
+						uv0:AppendText(slot0:DebugPrint())
+					end)
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
+			name = "一键压制",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("当前地图压制啦")
+
+				slot0 = nowWorld:GetAtlas()
+
+				slot0:AddPressingMap(slot0.activeMapId)
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		}
 	})
-	onButton(slot0, slot2:GetChild(0), function ()
-		for slot3 = uv0.rtContent.childCount - 1, 0, -1 do
-			Destroy(uv0.rtContent:GetChild(slot3))
-		end
-	end)
-	onButton(slot0, slot2:GetChild(1), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("当前大世界进度：")
-		uv0:AppendText(tostring(nowWorld:GetProgress()))
-		uv0:AppendText("")
-		uv0:AppendText("当前所在入口信息：")
-
-		if nowWorld:GetActiveEntrance() then
-			uv0:AppendText(slot0:DebugPrint())
-		end
-
-		uv0:AppendText("")
-		uv0:AppendText("当前所在地图信息：")
-
-		if nowWorld:GetActiveMap() then
-			uv0:AppendText(slot1:DebugPrint())
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(2), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("当前所在地图事件信息：")
-
-		if nowWorld:GetActiveMap() then
-			_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
-				uv0:AppendText(slot0:DebugPrint())
-			end)
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(3), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("大世界任务信息：")
-
-		for slot5, slot6 in pairs(nowWorld:GetTaskProxy():getTasks()) do
-			uv0:AppendText(slot6:DebugPrint())
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(4), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("重置地形：")
-
-		if nowWorld:GetActiveMap() and slot0:IsValid() then
-			for slot4, slot5 in pairs(slot0.cells) do
-				slot5:UpdateTerrain(nil)
-			end
-
-			slot0:UpdateFOV()
-			uv0:AppendText("修改成功。")
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(5), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("全屏黑雾：")
-
-		if nowWorld:GetActiveMap() and slot0:IsValid() then
-			for slot4, slot5 in pairs(slot0.cells) do
-				slot5:UpdateTerrain(WorldMapCell.TerrainFog, nil, 1)
-			end
-
-			slot0:UpdateFOV()
-			uv0:AppendText("修改成功。")
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(6), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("随机洋流：")
-
-		if nowWorld:GetActiveMap() and slot0:IsValid() then
-			for slot4, slot5 in pairs(slot0.cells) do
-				slot5:UpdateTerrain(WorldMapCell.TerrainStream, math.clamp(math.floor(math.random() * 4) + 1, 1, 4))
-			end
-
-			slot0:UpdateFOV()
-			uv0:AppendText("修改成功。")
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(7), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("随机吹风：")
-
-		if nowWorld:GetActiveMap() and slot0:IsValid() then
-			for slot4, slot5 in pairs(slot0.cells) do
-				slot5:UpdateTerrain(WorldMapCell.TerrainWind, math.clamp(math.floor(math.random() * 4) + 1, 1, 4), 1)
-			end
-
-			slot0:UpdateFOV()
-			uv0:AppendText("修改成功。")
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(8), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("全屏冰面：")
-
-		if nowWorld:GetActiveMap() and slot0:IsValid() then
-			for slot4, slot5 in pairs(slot0.cells) do
-				slot5:UpdateTerrain(WorldMapCell.TerrainIce)
-			end
-
-			slot0:UpdateFOV()
-			uv0:AppendText("修改成功。")
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(9), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("强制触发开场事件：")
-
-		if nowWorld:GetActiveMap() and slot0:IsValid() then
-			_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
-				if #slot0.config.event_op > 0 then
-					slot0:UpdateDataOp(#slot0.config.event_op)
-				end
-			end)
-			uv0:AppendText("修改成功")
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(10), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("打印舰队信息：")
-		_.each(nowWorld:GetFleets(), function (slot0)
-			uv0:AppendText(slot0:DebugPrint())
-		end)
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(11), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("打印敌人信息：")
-
-		if nowWorld:GetActiveMap() then
-			_.each(slot0:FindAttachments(), function (slot0)
-				if WorldMapAttachment.IsEnemyType(slot0.type) then
-					uv0:AppendText(slot0:DebugPrint())
-				end
-			end)
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(12), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("打印陷阱信息：")
-
-		if nowWorld:GetActiveMap() then
-			_.each(slot0:FindAttachments(WorldMapAttachment.TypeTrap), function (slot0)
-				uv0:AppendText(slot0:DebugPrint())
-			end)
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(13), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("打印entity缓存信息：")
-
-		slot0 = {}
-
-		for slot4, slot5 in pairs(WPool.pools) do
-			table.insert(slot0, slot4.__cname .. " : " .. #slot5)
-		end
-
-		table.sort(slot0)
-
-		for slot4, slot5 in ipairs(slot0) do
-			uv0:AppendText(slot5)
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(14), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("当前所在地图感染事件信息：")
-
-		if nowWorld:GetActiveMap() then
-			_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
-				if slot0.config.infection_value > 0 then
-					uv0:AppendText(slot0:DebugPrint())
-				end
-			end)
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(15), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("当前所在地图场景物件信息：")
-
-		if nowWorld:GetActiveMap() then
-			_.each(slot0:FindAttachments(WorldMapAttachment.TypeArtifact), function (slot0)
-				uv0:AppendText(slot0:DebugPrint())
-			end)
-		end
-
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
-	onButton(slot0, slot2:GetChild(16), function ()
-		uv0:AppendText("-------------------------------------------------------------------------")
-		uv0:AppendText("当前地图压制啦")
-
-		slot0 = nowWorld:GetAtlas()
-
-		slot0:AddPressingMap(slot0.activeMapId)
-		uv0:AppendText("-------------------------------------------------------------------------")
-	end)
 end
 
 function slot0.OnDestroy(slot0)

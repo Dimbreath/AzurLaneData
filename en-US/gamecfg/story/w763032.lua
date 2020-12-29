@@ -1,7 +1,8 @@
 return {
-	id = "W763032",
 	mode = 2,
 	once = true,
+	id = "W763032",
+	skipTip = false,
 	scripts = {
 		{
 			actorName = "路过的蛮啾",

@@ -28,7 +28,7 @@ function slot2.IsFlagsPass(slot0)
 		return true
 	end
 
-	if not uv0.Battle.BattleDataProxy.GetInstance():GetInitData().StageWaveFlags or not next(slot2) then
+	if not uv0.Battle.BattleDataProxy.GetInstance():GetWaveFlags() or not next(slot2) then
 		return false
 	end
 

@@ -1,7 +1,8 @@
 return {
-	id = "W610354",
 	mode = 2,
 	once = true,
+	id = "W610354",
+	skipTip = false,
 	scripts = {
 		{
 			actor = 207030,

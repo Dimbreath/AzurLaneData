@@ -2887,7 +2887,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "A fleet is currently in combat. Unable to leave this zone. "
 	},
 	world_transport_locked = {
-		tip = "The current zone has not been secured yet. You will only be able to move to adjacent zones from the edges of this zone. "
+		tip = "The current zone has not been secured yet. Please move a fleet to the edge of the map to enter an adjacent zone. "
 	},
 	world_target_count = {
 		tip = "$1 available reward(s) "
@@ -2905,7 +2905,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "Insufficient AP."
 	},
 	world_stamina_recover = {
-		tip = "*If you have less than 100 AP, you will regenerate <color=#92fc63>1</color> AP every <color=#92fc63>10 minutes</color>. "
+		tip = "*If you have less than 200 AP, you will regenerate <color=#92fc63>1</color> AP every <color=#92fc63>10 minutes</color>. "
 	},
 	world_stamina_text = {
 		tip = "Spend <color=#92fc63>$1</color> Oil to refill <color=#92fc63>$2</color> AP? (weekly refills available: <color=#92fc63>$3/$4</color>)"
@@ -3030,6 +3030,9 @@ Morale drain and Affection gain are also increased by 100%. ]]
 	},
 	world_instruction_redeploy_2 = {
 		tip = "The fleet has been redeployed. HP and Resolve have been restored. "
+	},
+	world_instruction_redeploy_3 = {
+		tip = "You are carrying an Energy Matrix and are unable to redeploy your fleet. "
 	},
 	world_instruction_morale_1 = {
 		tip = "Would you like to spend $1 AP to restore the HP and Resolve of your fleet and remove the “Tolls of War” effect? (Current AP: $2; After using this command, you will not be able to use it again for a period of time.) "
@@ -3169,37 +3172,69 @@ Morale drain and Affection gain are also increased by 100%. ]]
 	world_boss_help_meta = {
 		tip = {
 			{
-				info = "- About Ashes Showdowns:"
-			},
-			{
-				info = "Ashes Showdowns put you and other players up against members of Ashes. Participating in one rewards you with a myriad of items, including Sync Points."
-			},
-			{
-				info = "An Ashes Showdown consists of 2 parts: analyzing Ashes Coordinates to locate the Ashes member, and then the actual fight with the Ashes member in question."
-			},
-			{
-				info = "This mode is unlocked after sufficiently advancing the story in Operation Siren./n/n"
-			},
-			{
-				info = "1. About Ashes Coordinates Analysis:"
-			},
-			{
-				info = "Ashes Coordinates are obtained through battles in Operation Siren. Your number of gathered coordinates is shown in the top right corner of the operation map. At the 100, 150, and 200 Coordinates increments, you gain one opportunity to challenge a member of Ashes. To do this, you must break down all your existing Ashes Coordinates."
-			},
-			{
-				info = "A maximum of 3 Ashes Showdowns can be initiated in one day. Your number of attempts refreshes every day at midnight, and if you have an excess number of Ashes Coordinates, then these will be wiped as well."
-			},
-			{
-				info = "Once an Ashes Showdown has been initiated, it remains open for 24 hours./n/n"
-			},
-			{
-				info = "2. Initiating an Ashes Showdown:"
-			},
-			{
-				info = "Navigate to the bottom right corner of the Operation Siren sector map and tap the Ashes Showdown button to challenge a member of Ashes."
-			},
-			{
-				info = "You will need to create a special fleet for the battle against the Ashes member."
+				info = [[
+About Ashes Showdown:
+
+1. From <color=#92fc63>12/22/20 to 3/18/21</color>, challenge Hiryuu META
+to earn Sync Points. Sync Points can be used
+to obtain the limited character, <color=#92fc63>Hiryuu META</color> as well
+as other great rewards.
+ <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>
+
+2. Acquiring and Analyzing Ashes Coordinates
+-Ashes Coordinates can be earned by playing Operation Siren.
+Sufficient amounts of Ashes Coordinates
+can be analyzed to begin an Ashes Showdown.
+-You may perform Analysis <color=#92fc63>2 times</color> per day,
+resetting every day at midnight. Unused
+Ashes Coordinates will be retained.
+-You need <color=#92fc63>100</color> Ashes Coordinates to begin 
+an Ashes Showdown.
+
+3. Fighting Your Bosses
+-Your first time challenging an Ashes boss that you
+spawned will not require Oil. From the second
+attempt onwards, each attempt will cost <color=#92fc63>40</color> Oil.
+(Will not consume a challenge attempt)
+-When an Ashes Showdown boss reaches 0 HP,
+it will be defeated. Participants will be able to collect
+rewards, including a large amount of Sync Points.
+-Each Ashes Showdown will only last for <color=#92fc63>24 hours</color>,
+after which it will disappear.
+Use Request Support if you need help.
+-After defeating an Ashes boss, the difficulty
+of subsequent Ashes Showdowns will increase by
+1 level, up to a maximum of 15.
+
+4. Fight Others’ Bosses
+-In the Boss List menu, you can see requests that
+other commanders have sent.
+When fighting another commander’s boss, you
+will immediately gan Sync Points based
+upon the <color=#92fc63>amount of DMG</color> you dealt.
+-Each attempt uses 1 Challenge Attempt, but
+uses no Oil.
+-You can have up to <color=#92fc63>3</color> Challenge attempts,
+resetting each day at midnight.
+Each Ashes Showdown can have up to 30 participants.
+
+5. Combat Instructions
+Only ships participating in Operation Siren can
+participate in Ashes Showdowns. You also cannot
+bring Meowfficers or submarines.
+-At the end of battle, no EXP is gained, and Morale
+will not be affected.
+-You cannot quit during an Ashes Showdown.
+If connection is lost due to unstable network
+conditions, the following will occur:
+a. If challenging a boss you discovered, you will
+spend 40 Oil (the first battle is still free), and
+any damage done will not count.
+b. If challenging someone else's boss,
+a challenge attempt will be used, but no rewards
+will be granted.
+<color=#92fc63>Please make sure your network conditions are stable
+before attempting an Ashes Showdown!</color>]]
 			}
 		}
 	},
@@ -6557,7 +6592,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>11.26-12.9</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>12.29-1.13</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7180,7 +7215,7 @@ Combat Details:
 		tip = "The Submarine Fleet is now in Attack Mode."
 	},
 	activity_shop_lable = {
-		tip = "*Available During: $1 "
+		tip = "*Available During:<color=#FFCF81>$1</color>"
 	},
 	word_bilibili = {
 		tip = "bili小电池"
@@ -7559,7 +7594,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Increased build rates for Marie Rose, Honoka, Kasumi, and more! "
+		tip = "Rate UP for Prinz Heinrich, Peter Strasser, and more! "
 	},
 	buildship_heavy_tip = {
 		tip = "Mikasa and Hiei are added to standard build pool!"
@@ -11554,6 +11589,12 @@ you can earn.]]
 	guild_donate_addition_techpoint_tip = {
 		tip = "Guild Contribution Level increased by $1."
 	},
+	guild_donate_capital_toplimit = {
+		tip = "You are unable to contribute any more Guild Funds today. "
+	},
+	guild_donate_techpoint_toplimit = {
+		tip = "You are unable to contribute any more Tech Points today. "
+	},
 	guild_supply_no_open = {
 		tip = "Guild Supplies currently unavailable."
 	},
@@ -11867,6 +11908,9 @@ you can earn.]]
 	guild_boss_formation_not_exist_self_ship = {
 		tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 of your own ships."
 	},
+	guild_boss_formation_exist_event_ship = {
+		tip = "$1 is out on a commission and cannot join the boss battle. "
+	},
 	guild_fleet_is_legal = {
 		tip = "The Vanguard Fleet and the Main Fleet must each contain at least 1 ship."
 	},
@@ -12038,64 +12082,52 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 	guild_office_tip = {
 		tip = {
 			{
-				info = "Guild Funds, Guild Operations, and Guild Supplies Info: "
+				info = "About Guild Logistics:"
 			},
 			{
-				info = "1. Guild Funds:"
+				info = "1. The Guild Leader and Officers can issue Guild Missions\n and purchase Guild Supplies."
 			},
 			{
-				info = "Guild Funds are a resource that can be used to grant helpful bonuses to all members of the Guild."
+				info = "2. All Guild members can accept and carry out Guild missions\nat the Logistics office, make Contributions, and receive\nGuild Supplies."
 			},
 			{
-				info = "The Guild Leader and Officers decide how they are allocated, and can use them to do the following:"
+				info = "3. Guild Missions: Complete <color=#92fc63>Guild-wide</color> Missions to receive Guild Funds."
 			},
 			{
-				info = "- Purchase Guild Supplies which give resources to their members every day"
+				info = "4. You may only collect the individual rewards for your Guild Mission\n<color=#92fc63>once</color> per week, but the missions can be repeated and will count towards the <color=#92fc63>Guild-wide</color> Mission requirement."
 			},
 			{
-				info = "- Upgrade Guild Tech facilities which improves important port functions"
+				info = "5. The results of the Guild Mission is calculated weekly, and rewards are distributed based upon the total <color=#92fc63>individual mission completions</color>."
 			},
 			{
-				info = "- Start Guild Operations"
+				info = "6. Guild Contributions: All Guild members are able to receive Guild Tokens\nby donating certain amounts of resources."
 			},
 			{
-				info = "\n\n2. How to Earn Guild Funds:"
+				info = "7. Each Guild member may make <color=#92fc63>3</color> donations per day."
 			},
 			{
-				info = "There are 2 main ways to earn Guild Funds:"
+				info = "8. In addition to individual rewards, making contributions \ncan also provide a certain amount of Guild Funds."
 			},
 			{
-				info = "- Contributing resources to the Guild"
+				info = "9. Each contribution will make the <color=#92fc63>preparation progress</color> of the current Fleet Tech research <color=#92fc63>move forward</color>."
 			},
 			{
-				info = "Members can always contribute some of their own resources to the Guild. Doing so will also grant both Guild Tokens and Guild Funds."
+				info = "10. The <color=#92fc63>Guild Funds</color> and <color=#92fc63>preparation progress</color> that can be granted through Contributions is capped daily.\nAfter reaching the daily cap, you will no longer be able to gain <color=#92fc63>Guild Funds</color> or\n<color=#92fc63>preparation progress</color>, but you will still be eligible to earn <color=#92fc63>Guild Tokens</color>."
 			},
 			{
-				info = "- Completing Guild Missions"
+				info = "11. The max number of contributions that can be made <color=#92fc63>daily</color> is three times the number of Guild members."
 			},
 			{
-				info = "The Guild Leader or an Officer can issue Guild Missions through the Contributions menu, and ordinary members can take on these missions."
+				info = "12. Guild Supply: The Guild Leader or Officers can spend \nGuild Funds to purchase supplies for all members."
 			},
 			{
-				info = "Every individual member that completes the mission receives Guild Tokens, in addition to Guild Funds being automatically awarded."
+				info = "13. When purchased, Guild Supplies will last for <color=#92fc63>14</color> days, and each member will be able to collect it <color=#92fc63>once</color> per day."
 			},
 			{
-				info = "Furthermore, the missions can be repeated several times for additional rewards, adding to the Guild's total number of mission completions."
+				info = "14. After joining a Guild, new members will not be able to collect the Guild Supply for <color=#92fc63>one</color> day (assuming the Guild Supply has been purchased)."
 			},
 			{
-				info = "If all Guild members complete the mission, even more Guild Funds will be awarded."
-			},
-			{
-				info = "3. Guild Supplies"
-			},
-			{
-				info = "The Guild Leader or an Officer can use Guild Funds to purchase Guild Supplies. When Guild Supplies have been bought, all members of the Guild will receive a package every day for the next 14 days."
-			},
-			{
-				info = "If a player so desires, they can stockpile up to 3 days' worth of Guild Supplies."
-			},
-			{
-				info = "Lastly, a player who has just joined a Guild cannot claim Guild Supplies on their first day."
+				info = "15. A single member can hold up to <color=#92fc63>3</color> Guild Supply packs. If more than <color=#92fc63>3</color> are held, you will not be able to obtain any more Guild Supplies."
 			}
 		}
 	},
@@ -12550,6 +12582,126 @@ to see the bonuses provided by each stat level.]]
 	doa_meili = {
 		tip = "APL"
 	},
+	snowball_help = {
+		tip = {
+			{
+				info = [[
+Event Rules:
+1. Until <color=#92fc63>1/4/21</color>, <color=#92fc63>1</color> new match will become available every day at midnight, for a total of <color=#92fc63>7</color> rounds.
+Complete all 7 rounds to get <color=#92fc63>Harutsuki’s</color> limited outfit, <color=#92fc63>"A Dance for the Coming Spring."</color>
+2. For each match completed, you will receive 2 attempts to make donations at the Shrine.
+<color=#ff5c5c>You may make up to 14 donations at the shrine</color>. Each donation will cost Coins and confer different blessings.
+Game Rules:
+1. Tap the button on the left to control your character up and down
+ to avoid your opponent’s snowballs.
+Getting hit by a snowball will cause your health to decrease.
+The game ends when your health reaches 0.
+2. Tap on the opponents to throw snowballs at them.
+Hitting different enemies will give different point values.
+Warning: Points will be deducted if you hit innocent passers-by
+that will randomly enter the playing field!
+Scoring Rules:
+ Hitting Kisaragi, Mutsuki, Uzuki, Fumizuki, Yuudachi, or Yukikaze <color=#92fc63>+100 points</color>
+Hitting Ark Royal <color=#92fc63>+200 points</color>
+Hitting Digging Manjuu or Shiratsuyu <color=#ff5c5c>-50 points</color>
+3. The support gauge on the right side of the screen will fill up over time.
+When the gauge is full, tap on the gauge to call in airstrike support.
+Airstrike support will clear the field of enemy snowballs and pelt all enemies with snowballs.
+4.The game ends when the commander’s health is exhausted.
+If you manually exit the game or quit through any other means,
+the game will not count towards completing a match.]]
+			}
+		}
+	},
+	help_xinnian2021_feast = {
+		tip = {
+			{
+				info = [[
+Event Duration:<color=#92fc63>12/29/20 - 1/14/21</color>
+Featured Events:
+Manjuu Snowdown: Play this minigame to get the limited
+outfit, "A Dance to the Coming Spring."
+Food Festival: Play this minigame to get the limited character, Z28.
+Shrine Visit: Play this minigame to get the "New Year’s Invitation" item.
+Outfit Store: Purchas limited New Year-themed outfits.
+Limited Construction: Build brand new limited ships.]]
+			}
+		}
+	},
+	help_xinnian2021__qiaozhong = {
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>Game Tips:
+Making an offering with no shrine visit attempts will consume Coins but not grant any buff effects.</color></size>
+1. During the event, each time you complete a <color=#92fc63>Manjuu Snowdown</color> match,
+you will earn <color=#92fc63>2</color>shrine visit attempts, up to a maximum of <color=#ff5c5c>14</color>.
+2. While having shrine visit attempts, you can spend 5 Coins
+to make an offering for various buff effects.
+Possible wishes and their effects are as follows:
+Academic Success: Slightly reduced learning time in the Tactical Class
+Career Success: Your fleets deal slightly increased damage in Main Campaign, Hard Mode, and War Archives stages.
+Marital Bliss: Increases the rate your secretary ship gains Affection. 
+All these buffs last for one day.
+3. When obtaining the Academic Success buff, any classes
+currently in session will not have their time reduced, nor will
+the learning time increase if the buff wears off while a class
+is in session.
+4. If you make an offering while already having a buff effect,
+the newly obtained buff will overwrite your previous one,
+and the buff duration will be reset.
+5. Only one buff effect can be active at a time.]]
+			}
+		}
+	},
+	help_xinnian2021__meishiyemian = {
+		tip = {
+			{
+				info = [[
+Event Rules:
+1. During the event, you will gain <color=#92fc63>1</color> rewarded attempt every day
+up to a maximum of <color=#92fc63>7</color> attempts.
+2. Play the Food Festival minigame while having <color=#92fc63>rewarded attempts</color> to use an attempt
+and gain event rewards. Collect 7 event rewards
+to get the limited character, Z28.
+3. If you play the minigame while not having any rewarded attempts,
+you will not receive any event items.
+4. Quitting the minigame or exiting for any other reason will
+not consume the rewarded attempt, and you will
+not receive any rewards.]]
+			}
+		}
+	},
+	help_xinnian2021__meishi = {
+		tip = {
+			{
+				info = [[
+Minigame Rules:
+1. Tap "Order" to begin the game. The three types of
+foods you want will appear above the
+character to the left. After thinking for 5 seconds,
+the food icons above the character’s head disappear.
+The player will need to select the right foods from a selection of
+9 foods from memory, with a time limit of 10 seconds.
+2. The food must be selected in the correct order, from left to right.
+3. Tap the food item to make a selection. Tap it again to cancel
+the selection. Results will automatically be submitted
+after selecting three food items.
+4. If time has not run out, choosing three food items
+will enter the results screen. Selecting the right foods will
+increase your score and the remaining time.
+The rules for scoring and gaining more time are as follows:
+3 correct foods selected: +5s time, +5 pts.
+2 correct foods selected: +2s time, +2 pts.
+1 correct food selected: +1s time, +1 pt.
+No correct food selected: +0s, 0 points.
+5. If you choose to continue the game, you will keep your
+remaining time and score, and continue to select food for the
+next character that appears on-screen.
+6. The game ends if you run out of time or quit the game manually.]]
+			}
+		}
+	},
 	help_act_event = {
 		tip = {
 			{
@@ -12897,6 +13049,9 @@ to see the bonuses provided by each stat level.]]
 	world_boss_not_reach_target = {
 		tip = "Insufficient Ashes Coordinates. "
 	},
+	special_transform_limit_reach = {
+		tip = "已经拥有该改造道具或对应的改造后舰船，无法兑换"
+	},
 	meta_pt_notenough = {
 		tip = "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"
 	},
@@ -12938,6 +13093,21 @@ to see the bonuses provided by each stat level.]]
 	},
 	world_collection_back = {
 		tip = "Tap to return "
+	},
+	world_fleet_stop = {
+		tip = "Your fleet has stopped moving. "
+	},
+	world_setting_title = {
+		tip = "Operation Siren Settings "
+	},
+	world_setting_quickmode = {
+		tip = "Reduce TB Guidance "
+	},
+	world_setting_quickmodetip = {
+		tip = "Disable TB's repeated instruction dialogue "
+	},
+	world_boss_maintenance = {
+		tip = "You are unable to begin an Ashes Showdown immediately before server maintenance. "
 	},
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"

@@ -3,6 +3,7 @@ return {
 	mode = 2,
 	once = true,
 	id = "GWORLD104B",
+	skipTip = false,
 	fadein = 1.5,
 	scripts = {
 		{
