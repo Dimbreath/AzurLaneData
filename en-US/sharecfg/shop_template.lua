@@ -19544,7 +19544,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -19571,7 +19571,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -19593,7 +19593,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -19620,7 +19620,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -19642,7 +19642,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -19669,7 +19669,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -19691,7 +19691,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -19718,7 +19718,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -19740,7 +19740,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -19792,7 +19792,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -19912,7 +19912,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -19939,7 +19939,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -19961,7 +19961,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -19988,7 +19988,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -20010,7 +20010,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20037,7 +20037,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -20059,7 +20059,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20086,7 +20086,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -20108,7 +20108,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20135,7 +20135,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -20157,7 +20157,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8882,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20184,7 +20184,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -20206,7 +20206,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8881,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20233,7 +20233,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -20255,7 +20255,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8881,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20282,7 +20282,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},
@@ -20304,7 +20304,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8881,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20331,7 +20331,7 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
+					2021,
 					1,
 					13
 				},

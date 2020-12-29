@@ -727,7 +727,7 @@ pg.activity_template = {
 					30
 				},
 				{
-					0,
+					12,
 					0,
 					0
 				}

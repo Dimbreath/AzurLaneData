@@ -133868,110 +133868,6 @@ pg.ship_skin_template = {
 			}
 		}
 	},
-	[399032] = {
-		name = "北风和服",
-		ship_group = 39903,
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "北风和服",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "beifeng_3",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		skin_type = 0,
-		id = 399032,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "beifeng_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70464,
-		voice_actor = 33,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.133,
-					1.233,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.111,
-					1.358,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.48,
-							2.389,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
 	[399040] = {
 		name = "Azuma",
 		ship_group = 39904,
@@ -138124,8 +138020,7 @@ pg.ship_skin_template = {
 		},
 		[39903] = {
 			399030,
-			399031,
-			399032
+			399031
 		},
 		[39904] = {
 			399040,
@@ -139382,7 +139277,6 @@ pg.ship_skin_template = {
 		199023,
 		399030,
 		399031,
-		399032,
 		399040,
 		399041,
 		499020,
