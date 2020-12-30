@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？·？？？",
+			say = "???",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -30,12 +30,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "………………………………",
+			say = "………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……………………",
+			say = "Right, Friedrich. You used to play chess with Strasser quite often, isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,44 +62,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "………………………………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "最近………………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "通讯器",
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "………………………………",
+			say = "………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +83,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呵，一下子反而不知道该说什么了……",
+			say = "That's why you were able to recognize right away that it was her plan. I know I wouldn't have been able to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,44 +94,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "………………………………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "这里，对你来说还真是一处最合适的休息之所啊……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "通讯器",
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "………………………………",
+			say = "………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……………………",
+			say = "I can't believe she tried to capture a Siren by using a Mirror Sea. Though, in the end, it was your plan to get rid of that Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,28 +126,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "………………………………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "好久不见，我的朋友……",
+			say = "………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +147,87 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "Eisen und Blut über alles……",
+			say = "Don't be like that~ You're the one in the enviable position here. Not having to get your hands dirty, while being free to dream without any disturbances.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Communicator",
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "………………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "Oh by the way, did you want a souvenir? I'll have 556 or Tirpitz bring you something next time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Communicator",
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "………………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "There's one thing I forgot to ask about. It's about the Sirens... no, rather, about the cubes. I just figured you'd be the most knowledgeable one on the subject.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "What do you know about \"META?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

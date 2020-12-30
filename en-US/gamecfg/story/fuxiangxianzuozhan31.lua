@@ -14,7 +14,7 @@ return {
 			bgm = "bsm-2",
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "到此为止了构建者，此·路·不·通！",
+			say = "Stop right there, Compiler! It's time for a showdown, you and me!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			actor = 900230,
 			nameColor = "#ff5c5c",
-			say = "伏击……",
+			say = "...An ambush.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "真是看不出来啊，你这么大的体积居然在水中能保持这么快的移动速度！",
+			say = "Never thought that you'd be able to move so quickly with that giant rigging of yours...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "不过，你需要花多久才能跑出我的鱼雷射程呢？",
+			say = "But do you think you can outrun my torpedo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900230,
-			say = "装甲————",
+			say = "Armor is incapable of withstanding a direct hit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			stopbgm = true,
-			say = "哈喽~这次难得被摆了一道呢！",
+			say = "Oooh, I think you've been had, you subprogram, you~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我现在还在任务中，能不能不要突然使用紧急频道。",
+			say = "Don't listen in on the emergency channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "啊、抱歉抱歉！不过不用担心，观察者让我来接应你了。「样本」已经回收完毕了么？",
+			say = "Ah, don't be such a buzzkill, you! Just so you know, I'm here at Observer's behest to come get you. Were you able to get your hands on the sample?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "当然。不是为了这样麻烦的事我也不用亲自跑一趟……",
+			say = "Yes. It was very troublesome to do so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "太好了~那你再坚持一会儿，我马上就帮你断后！",
+			say = "One heck of a job you did there~ You can leave the rest to me, all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			blackBg = true,
 			actor = 900230,
 			nameColor = "#ff5c5c",
-			say = "算了，既然由你来接应，你就干脆帮我把东西送回去吧。好累……",
+			say = "I'm tired. Thanks for delivering the sample for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "哎？！！！！不、不会吧……",
+			say = "Wait, you little!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "「样本」内置有特殊标记，之后记得回收。",
+			say = "It's fragile, so be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			blackBg = true,
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			say = "可恶……本以为能大闹一场呢，结果还是苦力活啊！！！！！",
+			say = "Hmph! I can't believe I don't get to fight, ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_underwater",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -336,7 +336,7 @@ return {
 			bgm = "bsm-2",
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "啊，啊咧？我还没有发射鱼雷、塞壬怎么就爆炸了……",
+			say = "Huhhh?! The Siren exploded...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "难道说，这样就结束了？我大显身手的机会呢？！",
+			say = "But I didn't even get to land a single torpedo yet, damnit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			blackBg = true,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "…………啊，啊咧？——————————啊咧！！！！！！",
+			say = "Daaaaamn it———!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

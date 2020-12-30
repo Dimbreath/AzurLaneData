@@ -12,7 +12,7 @@ return {
 			bgm = "battle-seiren-theme",
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "海蟑螂发现！你就是今天来把基地搅得一团乱的人吧！",
+			say = "I've spotted some kind of cockroach Siren! You're the one who ruined the research facility, aren't you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "…………构建者，我的型号是构建者。",
+			say = "...I have a name, you know. It's Compiler.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "goujianzhe……？怎么看都是海蟑螂嘛！",
+			say = "Yeah, but you look like a giant sea cockroach!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "如果你是指参考原型的话，机体在设计之初取用了一部分深海大王具足虫的要素，并非海蟑螂。",
+			say = "If you're talking about the design of my rigging, it is modeled upon the noble trilobyte.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403090,
-			say = "又是好长的名字…………大王……具足……虫————啊！！",
+			say = "Try... Trylo-what...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "转移我的注意力趁机逃跑可不行哦！你已经被包围了，投降或者被轰成碎片二选一吧！",
+			say = "You can try to confuse me with big words, but I won't let you get away! Make your choice! Give up, or suffer defeat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "解决你们的联合舰队确实会有些麻烦，但是，只是你一个人的话……",
+			say = "Taking on all of them at once is impossible. Taking on one should be simple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "机体锚定，防御模块启动，移动模块功率下调，炮击模块准备————",
+			say = "Anchoring frame. Rebooting defense module. Calibrating output strength. Booting up bombardment module.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于要抵抗了么！很好，就用你来检验一下我长久以来的训练成果，海因里希亲王，参上！",
+			say = "If you're going to put up a fight, come at me! Eisen and I'll take you on any day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

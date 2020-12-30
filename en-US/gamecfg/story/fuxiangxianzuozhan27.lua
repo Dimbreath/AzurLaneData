@@ -12,7 +12,7 @@ return {
 			bgm = "battle-executor-type1",
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "欧根，诱导作战辛苦了！！你没受伤吧！",
+			say = "Eugen! Are you okay? Break any fingernails?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来是做好了受伤打算的，不过如你所见，还算完好无损。",
+			say = "I'm fine. But it's a shame. Had that Compiler been any slower, she would've been in the range of Strasser's airstrike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了~！真是的，平时你看起来这么稳重，偶尔也会做这么激进的事啊。",
+			say = "Don't do that! You're gonna make Hipper worry about you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "故地重游，一时兴起罢了……果然这种事还是不太适合我么？",
+			say = "It's alright. If anything, you're usually the one we all worry about, so make sure you take the necessary precautions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然咯，这种冲到第一线痛扁敌人的任务还是放心交给我吧~！",
+			say = "Hahaha! I guess I made Eisen worry about me. Sorry about that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，那第一线就拜托你了~我们会掩护你的，尽情战斗吧。",
+			say = "Now, we go in pursuit of Compiler... That's the plan, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403090,
-			say = "小铁快加速，别让敌人跑掉了，我们冲哦哦哦哦哦哦~！！！！！",
+			say = "Yeah! Alriiight, Prinz Heinrich, heading out~!",
 			effects = {
 				{
 					active = true,
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到你们居然隐藏了这么一支王牌舰队……你这么爽快就把头功让出去没关系么？",
+			say = "What a shock... To think that the Iron Blood had such an amazing facility, just tucked away like this...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就连作战指挥权都……在铁血里的职位应该是你比较高吧。",
+			say = "Also, there was that ship... the second ship of the Graf Zeppelin-class... I wonder how Akagi will react to this information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无妨无妨~史特拉塞才是此处基地的舰队总指挥，在这里的战斗自然要听她的。",
+			say = "Strasser's been exclusively responsible for overseeing this secret base. Obviously, you all in the Sakura Empire wouldn't have heard of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是铁血的纪律的感觉么……真好啊，重樱如果在作战的事上也能做到这么简单明晰就好了……",
+			say = "(Now that I think about it, the secret area in the Sakura Empire... I think Akagi called it the Sanctuary? I heard that was some kind of Mirror Sea as well.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧罗巴那边的其他阵营也是这样的感觉么？",
+			say = "(But this place gives off completely different vibes, and the Pawns there were made with some mysterious device in some kind of sculpting room, or whatever... I really don't know what to make of this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个嘛，只能说各自有各自的风格吧。对吧金刚，你之前不是在皇家呆过一阵子么？",
+			say = "By the way, I never expected the Sakura Empire to find their way into this research facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 304010,
-			say = "皇家那边……那边其实有些地方和重樱这边的感觉差不多……",
+			say = "We ended up here because were sent the long away around, en route to NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对吧？大家其实各自有独特的优势，也有各自的问题，我们应该相互取长补短，而不是憧憬什么哦。",
+			say = "That's... quite the detour. You must be quite exhausted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，说的也是~",
+			say = "(Quite the detour? Was Kongou right? That this place is far off course from the route we were supposed to take?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在说起来也许有些早，战斗结束之后我会开放基地的后勤浮岛给你们，重樱舰队可以在此自由进行补给。",
+			say = "Well, in the end, it doesn't really matter why you're here. Since you're our allies, feel free to stock up on supplies from our base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除了战斗中消耗的份，把来这里路上消耗的份也一起补充了吧~",
+			say = "It'll be quite some time before you make it back on course, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "十分慷慨地提议，非常感谢。",
+			say = "Thank you for your assistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来机会难得，其实还想多留你们几天一起参观一下的，不过看起来你们应该很赶时间？",
+			say = "Normally, I'd have invited you all to stay for a few days to show you the advances we've made with our technology, but unfortunately, I guess that's out of the question right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实如此……击破塞壬之后我们会在补给之后立刻离开。有作战任务在身无法久留，十分抱歉。",
+			say = "We appreciate your sentiment! But you're right, we've still got things to take care of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完全理解。不过就像之前说的那样，特制通讯设备就当成送给你们的礼物，干扰设备请留下来哦。",
+			say = "Alright then. Like I said before, keep that communicator with you at all times.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题………",
+			say = "Thanks! We'll be able to communicate while in the Mirror Sea with these, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，消沉都写在脸上了。那就当做额外赠送部分，再送你们一句忠告好了。",
+			say = "Mhm, that's right. Also, there's one more thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 304010,
-			say = "忠告……？请说。",
+			say = "Hm...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好了，“不论它们进行了什么许诺，绝对不要让{namecode:91}带着那东西进入NA海域的中心旋涡。”",
+			say = "\"That thing should never make its way into the center of the Sirens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请问……那个东西是……{namecode:91}进去之后会发生什么么？",
+			say = "That thing...? Center? Will something happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾，我能说的与我知道的只有这么多了。",
+			say = "Who knows? I don't know myself, so that's all I can really say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊……来自盟友的忠告，我们会谨记的！",
+			say = "I see... thanks! We owe you one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好。那么闲聊环节到此结束，我们还有一个构建者要处理呢~",
+			say = "It's none of my concern whether or not you listen to what I just told you, but I would prefer if you took that warning to heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

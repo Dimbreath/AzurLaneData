@@ -15,7 +15,7 @@ return {
 			bgm = "bsm-10",
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "呼叫呼叫，这里是{namecode:96}！额…这个通讯器是这么用的吧……你能听到么，欧根亲王？",
+			say = "Testing, testing. One, two, three... Eugen, do you copy?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "这里是欧根，听得很清楚哦~请就这样继续使用我带来的特制通讯器进行后续联络。",
+			say = "Mhm, loud and clear. Stick with that communications equipment from here on out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "{namecode:96}了解。重樱舰队现在已经抵达指定区域，你那个设备真的很神奇啊！我们居然在自己的雷达上发现不了自己的身影了…",
+			say = "Got it! anyway, the Sakura fleet is in position!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "这可是铁血科技的结晶，做到这种程度是理所当然的哦~再次感谢你们愿意参与这场情况混乱的突发作战。",
+			say = "Great, thanks for keeping me informed. While I'm at it, what do you think about our own custom-made communicators?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "作为盟友这种程度的帮助是理所应当的~不过作为回报…你的这些机械可以让我们带回去么？",
+			say = "It's amazing, honestly. Are you sure we can have it? It can't have been cheap to develop equipment that works in a Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "啊哈哈，通讯装置倒是无所谓，不过那个被带走的话我就麻烦了，请允许我郑重拒绝。",
+			say = "Don't worry about the cost. Think of it as a little gift.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过等行动结束之后，铁血一定会为你们准备应得的谢礼的。",
+			say = "Oh, and we'll pay you back at some point for helping us out in our time of need.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "那我们就稍微期待一下咯~{namecode:96}通讯结束。",
+			say = "No problem! I'll remember that you owe us one, though! Hahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "很好…重樱舰队部署完毕，其他部分也应该差不多了……",
+			say = "...There, that should do it for the Sakura fleet. Now, as you were saying?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "欧根，你猜的不错，中央控制岛周边果然有塞壬执行者混进来了。",
+			say = "Sure enough, you were right, Eugen. The Mirror Sea's crawlin' with humanoid Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "没有惊动它们吧？",
+			say = "They haven't discovered you, have they?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "怎么可能~那些塞壬就像木头人一样，我很轻松就混进去了！现在正在控制装置周边待机中。",
+			say = "Pfft! Who do ya take me for, some newbie diver with a scuba kit? I'm lookin' right at the Mirror Sea generator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "很好，继续保持潜伏，等待我的重启信号。",
+			say = "Well, well, I'm impressed. Hold it there and wait for my signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "了解~安静的…潜伏…就像空气一样…U37通讯结束。",
+			say = "Gotcha. Just gonna chill out right here, pretend I'm doin' commerce raiding...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 401280,
 			nameColor = "#a9f548",
-			say = "欧根，任务成功进展顺利哟~航空浮岛A1、A2重启完毕，所有控制权限均已夺回。",
+			say = "Things are progressing well on our end too, Eugen. We've managed to reclaim control over some parts of the airfield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "很好，就保持这个节奏连A3浮岛也一起夺回来吧~",
+			say = "Good. Keep going and reclaim control over the remaining Platforms. Strasser needs them for her plan to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 401280,
 			nameColor = "#a9f548",
-			say = "收到！正在向A3航空浮岛移动，Z28通讯结束！",
+			say = "Understood! We'll proceed over to the next airfield, then~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "欧根亲王，我这边已经全部结束了。按照你给的方法，B1浮岛至B3浮岛全部重启完毕。",
+			say = "Miss Eugen, I've reclaimed administrative control over one of the airfields, just as you instructed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "好快啊！到底是维内托的护卫，比我预想中的效率还高…",
+			say = "You have? Great. Being able to make such swift progress on your first try must be why you're the Eternal Flagship's retainer, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "如果没有真本事的话，可保护不了维内托大人的安全哦！",
+			say = "Why, but of course! I will do everything in my power to further Sardegna's goals and spread the glory of her name!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "就是没想到真的会遇到塞壬进攻，就连防御这么严密的铁血基地都不能避免被塞壬渗透么……",
+			say = "I must say though, a training scenario centered around reclaiming control over a facility seized by Sirens? You must be preparing for just about everything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "关于这一点，请接接受我的诚挚歉意。这次明明是应我们的邀请而来，结果不但让您陷入危险，甚至到了不得不拜托您亲自出手的状况，。",
+			say = "Well, not exactly. It's not a scenario, the Sirens really did seize the facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且因为事情过于突然，也请您原谅我没有在第一时间向您说明真相的事，真是非常抱歉。",
+			say = "We're in a bit of a tight situation right now, so we need whatever help we can get, even if that means involving you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "没关系，没关系！塞壬进攻的规律谁都预测不了啦…",
+			say = "...Wait, WHAT?! ARE YOU SERIOUS?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "而且我刚才也多少感觉到是不是真的出事了…能如实相告我很开心！",
+			say = "Err, I mean... I don't mind! You couldn't have foreseen the Sirens would invade, and if anything, I'm honored to get to see all the bits and bobs behind the scenes like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "不但是盟友的拜托又是对抗塞壬的战斗，我十分乐意出手相助！",
+			say = "And, uhh... We are allies, after all! Not to mention fellow shipgirls! It goes without saying that I would offer my assistance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "那本次战斗中就拜托了。塞壬可能已经察觉了控制权限的变更，接下来大概会重新派遣占领舰队，一定要坚守住。",
+			say = "Well, it's great that you're so reliable. Anyway, we're in trouble if the Sirens found out we took back control of that airfield, so could you remain there and wait for my signal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "既然是接下的作战任务，我一定会全力以赴完成，尽管放心！龙骑兵通讯结束。",
+			say = "Absolutely! I will be on my guard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "控制部署就位，海因里希也带领铁血舰队开始潜伏。接下来只要史特拉塞发起进攻……",
+			say = "Now we just need Strasser to do her part. Victory is ours, assuming she manages to reclaim control over the research facility's mainframe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对，还缺一个携带干扰器冲到敌人面前的诱饵啊……",
+			say = "...Actually, not quite. Someone needs to lure out any Sirens in hiding that might try to sabotage us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵，这个诱饵的人选…………当然非我莫属吧。",
+			say = "Which will have to be me, I suppose. Not many other candidates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天，在此地，以你的名字起誓，一定要让这些塞壬感受一下失败与挫折的滋味！",
+			say = "It's time to make them pay for the damage they did to us using that black Wisdom Cube...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "Eisen und Blut über alles……",
+			say = "They've eluded punishment up to now... but that's about to change. Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

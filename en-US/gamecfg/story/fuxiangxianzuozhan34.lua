@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
-			say = "铁血浮岛要塞群·某处 数日前 ",
+			say = "Floating Fortress - Day of the Siren attack ",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "大家注意，发现一艘铁血舰船正在接近！",
+			say = "It's the Iron Blood fleet... The communication we received was from Prinz Eugen, wasn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海域中的棋子么，居然那个方向也有……真是紧追不舍啊，准备战斗！",
+			say = "This isn't a Pawn, is it? This entire zone is full of Pawns flying the colors of just about every faction, I can't tell who's real.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，大家稍等。姐姐，目标的样子好像有点奇怪！",
+			say = "I think it's the real deal this time...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "我记得你是………………",
+			say = "Heavy cruiser Prinz Eugen... right?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在下铁血所属重巡洋舰，欧根亲王。自从上次华丽的祭典上相遇之后，没想到又能在这里相遇啊~",
+			say = "That's right. And you're Zuikaku of the Sakura Empire's 5th CarDiv, am I right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没想到在这里还能遇到真货。你是在这里干什么的，这里是塞壬控制区吧？",
+			say = "That you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然是友军的话，就先按照惯例发联络来呀，差点就把你当棋子攻击了……",
+			say = "Was the Iron Blood caught up in the Mirror Sea like we were?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我已经发了哦，不过你们没有收到吧。",
+			say = "I suppose you could say that. To be exact, it wasn't our fleet that got caught up by the Mirror Sea, but rather our facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！我完全没收到……现在进行通讯测试，喂喂，{namecode:95}姐，能听得到么？",
+			say = "What a hassle... While we were sailing, some mysterious fog suddenly appeared, and by the time we knew it, we were stuck in the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，听得很清楚。看来不是我们的通讯器故障哦？",
+			say = "And even though we were right next to each other, it became harder and harder to contact each other. It was so hard for us to move anywhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的是这样么~那你们来呼叫我试试呢？",
+			say = "I'm aware. I also wasn't able to get in touch with anyone until I got this new communicator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在呼叫中………………咦，你那里没有反应？",
+			say = "Isn't there something bothering you about this whole situation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此，我们所有人在进入这片区域后都遭受了某种极其精密的电子干扰。",
+			say = "Naturally. Up until now, we've been able to contact each other at this distance with no issues. It's as if they were jamming our signals on purpose in order to make us fight each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无法和海域中遭遇到的其他舰船通讯，这种情况还是第一次见。源头是塞壬镜面海域的某种设施么？",
+			say = "...Make us fight each other...? How would they pull that off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个说起来有些复杂……不过这里其实是铁血控制区。",
+			say = "It's simple. Make a lot of Pawns of various shapes and sizes, and make it so that we can't contact each other from tactical distances.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "位于帕克菲克洋的铁血控制区……看来刚刚看到的火山没有错，没想到只是进入了海雾一会儿，居然偏离了这么多……",
+			say = "So basically, what you're saying is, they made it so we couldn't tell if the thing approaching us was an ally or a Pawn. The more cautious both sides are, the less receptive they would be of communication from the other side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "这里不是早就被塞壬占领了么，你们是什么时候夺回来的？",
+			say = "In short, they wanted us to take each other out in a massive bout of \"accidental\" friendly fire... What a despicable plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这又是个不适合在此处详细说明的复杂故事啊……",
+			say = "Fortunately for us, we still had an additional way to communicate despite their best efforts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，你说你们来到这里是因为遭遇到了海雾……？",
+			say = "If you use this, we can make sure we don't attack each other. The real problem is finding out the mastermind behind this plot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，原来如此………呵呵呵。这样一来我就都明白了。",
+			say = "We've got a plan to find out who it is, but would you mind working with us to solve the mystery?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "从刚刚开始就一直在说谜语……什么说不清楚，你又明白什么了啊，请认真解释一下，欧根亲王！",
+			say = "Our goal's the same, so our answer should be obvious! Let's beat up the Sirens and get out of here already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心放心，我一定会解释清楚的，不要着急嘛~",
+			say = "Good. Thank you for your cooperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "总之，虽然事发突然，诸位要不要来参加一场斩首塞壬的联合行动呢？",
+			say = "First, there's someone in the Sakura Empire who I'd like you to give this communicator to——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

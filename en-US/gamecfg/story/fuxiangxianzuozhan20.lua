@@ -15,7 +15,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "哈啊……你们这群冒牌货，虽然打的不准，跑的倒是够快……再吃我一轮炮击！",
+			say = "For being Pawns, you sure are evasive... Eisen, fire another shot!",
 			flashN = {
 				color = {
 					1,
@@ -70,7 +70,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "库库库……居然有被冒牌货叫冒牌货的一天，世界要到毁灭之日了么！",
+			say = "An impostor, calling ME a Pawn? How rich! Try hitting me, foolish mortal!",
 			flashN = {
 				color = {
 					1,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都到此为止了，你们所有人立即停火！",
+			say = "Are you all done playing cat and mouse yet? Good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "………咦？欧根？！你怎么会在这里？！",
+			say = "Wait, Eugen?! What are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没收到么……真头大。",
+			say = "I've been trying to reach you this entire time, but I suppose our comms network is down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "欧根，我们按照要求把它拖过来了，现在可以说明究竟发生什么事了吧？",
+			say = "*pant*... *pant*... Why did you two continue fighting when we were trying to communicate with you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简而言之，我们不是棋子，海因里希也不是棋子，所有人都被耍了。",
+			say = "Who knows... Once they get into the mood, they get tunnel vision. Or tunnel hearing, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "咦？！！！！！！！我明明还专门确认过了，看你们没回复通讯才动手的啊！",
+			say = "You didn't answer my call in the first place, so I just assumed you were Pawns...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "我们这边也一样。没收到回复才判定攻击的对象为棋子……",
+			say = "Well, Z24 assumed the same of you. She was insistent that you were a Pawn after you didn't respond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "奇怪，我们彼此之间的通讯明明是正常的…？只有对其他舰队的外部联络被干扰了么……！",
+			say = "...Hang on, on that note, how are we even chatting right now? Weren't the comms down up until just a minute ago?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……看来判定流程有必要优化一下了。",
+			say = "Perhaps a certain someone is jamming us, but the jamming stops being effective once we're in close enough proximity to each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "怎、怎么会这样……非常抱歉！我这就跟彼得联系，让她停止接下来的攻击行动！",
+			say = "Err, in any case, I'm sorry for shooting at you! I'll get in touch with Strasser and tell her not to launch an attack on this place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来的攻击行动……？等一下，海因里希，彼得给你的作战命令是什么？",
+			say = "Wait, come again? What was that about Strasser attacking this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "将异常的铁血舰队向重樱舰队的方向进行驱赶，然后等待下一步指令。",
+			say = "The Pawns and mass-produced ships around the research facility have run amok, and we're trying to round them up to defeat them all in one fell swoop, basically.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？原来如此…不过这样的话……海因里希！先不要跟彼得进行联络。",
+			say = "Is that so? Now I get the full picture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家继续动起来~纽伦堡带领舰队在前，海因里希带领舰队在后，营造出继续被追逐假象的继续向重樱舰队方向移动！",
+			say = "Well, we have a plan of our own. You don't need to call Strasser, we'll just take it from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "呵呵呵，每次都被塞壬玩弄于股掌之中，也是时候来一次计划之外的反击了……",
+			say = "However, you should get in touch with those Sakura Empire girls. Simply tell them we're not Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

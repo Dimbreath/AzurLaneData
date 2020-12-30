@@ -12,7 +12,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "构建者护盾，确认击破。",
+			say = "The barrier's been destroyed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "很好，接下来给它最后一击————",
+			say = "The time for your destruction has come, Compiler!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 900230,
 			nameColor = "#ff5c5c",
-			say = "外层护盾回收完毕。内层护盾，启动——————",
+			say = "Emergency detected. Rebooting shield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "这是作弊了吧~~~~！！！！大家注意，海蟑螂的护盾重新出现了！！！！！",
+			say = "Huh?! The barrier's coming back?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "这股力量是…………",
+			say = "Even after all that trouble we just went through...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "刚刚的战斗造成的损伤都完全无效的意思么，怎么会这样……！",
+			say = "And the main body is still unscathed... How...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "诸位铁血和撒丁帝国的盟友们，看来你们需要一点小小的帮助呢。",
+			say = "My friends, it seems like you need a bit of extra firepower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "现在放弃还太早了！继续保持包围，这一轮护盾由我们来打破！姐姐，准备好了么？",
+			say = "It's too early to give up, guys! We'll back you up with our firepower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "呵呵，早就已经进入目标上空瞄准好了哦，本来不想抢走诸位的战功，不过看上去不是能保留实力的情况了。",
+			say = "It would be a stain upon our honor if we just helped ourselves to your supplies while ignoring you in your time of need.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "我也准备好了……大家一起上！",
+			say = "I'll help out too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "护盾的最后一击，就由我收下了！",
+			say = "The barrier's down! Now's our chance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "护盾击破确认~！我的直觉告诉我就是现在，铁甲舰冲锋！",
+			say = "Eisen! Don't hold back! Fire!!!",
 			action = {
 				{
 					y = 0,
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "移动模块充能完毕，准备进行移动——",
+			say = "Movement module at max. Underwater mode—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "休想，你已经跑不掉了————哎哎哎哎？！！",
+			say = "HUUUH?! Um, I mean, WHAAAAAT?!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "发生什么事了，海因里希，我这边突然搜索不到目标了！",
+			say = "What happened, Heinrich! We can't detect Compiler's location anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "下潜了……构建者突然快速潜入水面之下消失了！明明拥有那么巨大的体积！",
+			say = "Compiler, uh... she went under water just like a submarine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "咦？！不是说好移动模块的么，怎么变成下潜了！！！！",
+			say = "Are you saying she has rigging for both surface combat and underwater mobility?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,8 +509,8 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			actorName = "构建者",
-			say = "正在进行中的准备，为什么要如实汇报出来…那么，再见了。",
+			actorName = "Compiler",
+			say = "Farewell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "你个狡猾的海蟑螂，给我站住！！！！",
+			say = "We'll lose track of her at this rate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "果然最后会选择水下逃跑啊，构建者……呵呵。U37，你已经到达伏击位置了吧，准备拦截！",
+			say = "U-37, looks like the rest is up to you. Do you think you can stop her in her tracks?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -588,7 +588,7 @@ return {
 			blackBg = true,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "U37收到，嘿嘿，水下的战斗就交给我吧~！",
+			say = "I'm already in position! Heheh~ Time to show off what a deep-sea hunter is capable of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
-			say = "塔兰托港 数日后",
+			say = "Taranto Harbor",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "以上，就是本次访问的全部经过。",
+			say = "Over. That's the end of my report of my observations during my stay with the Iron Blood, Lady Littorio.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "辛苦了，龙骑兵，十分详细的记录。",
+			say = "Good work. You've been a great help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "利托里奥大人，关于铁血延长访问期限的请求，请问我应该如何答复？",
+			say = "Lady Littorio, concerning the demonstration of the Iron Blood's new weapons and technology. How would you like for me to respond to their request for me to stay a bit longer to see them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "这个啊~最近陆间海局势平和，既然铁血盛情邀约，我们也没有拒绝的必要，就辛苦你再待一段时间吧。",
+			say = "If they're going to that length to show us what they've accomplished, it'd be rude to turn them down. Sorry, but would you mind staying there a bit longer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "是，保证完成任务，龙骑兵通讯结束。",
+			say = "Yes ma'am! For the glory of the Sardegna Empire, I will undertake any mission!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "…………………………居然会有这种事。",
+			say = "(The facility that was built in the Mirror Sea was attacked by the Sirens... Hmm)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "铁血居然隐藏了这等规模的舰队和要塞群，这还真是……………………",
+			say = "(I'm really curious to hear about the incident in person, but... I'm rather in shock over how overwhelming the Iron Blood's strength actually is.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "唔，接下来怎么办好呢………………",
+			say = "(Mmmn... As the guiding voice of the Sardegna Empire, what should I do about this situation...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 605050,
 			nameColor = "#a9f548",
-			say = "利托里奥，重樱舰队正在通过苏彝士运河，预计将在本日午间进入陆间海。",
+			say = "Littorio, the delegation has arrived. Which one of you will head out to greet them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了，按照预定方案进行迎接。",
+			say = "I'll head out. Make sure to let Veneto know as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 605050,
 			nameColor = "#a9f548",
-			say = "收到，加富尔伯爵通讯结束。",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "………………唉，算了。麻烦的事等麻烦的时候再想。",
+			say = "(Well, whatever. I can think about the more troublesome issues later.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			blackBg = true,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "今天是属于宴会的时间，是时候去迎接远道而来的客人了~",
+			say = "(After all, today's a promising day. I'll have to greet the guest from far away properly.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

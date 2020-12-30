@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
-			say = "铁血浮岛要塞群·D12防御模块周边",
+			say = "Floating Fortress - D12 defense line",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "我这边准备工作结束了，前线情况怎么样？",
+			say = "Everything is ready on our end. How's it going with the Pawns in D13?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "“铁血”舰队与“重樱”舰队汇合，两支舰队之间果然没有相互攻击。",
+			say = "The Iron Blood and Sakura Empire clone fleets have joined forces. Doesn't seem there's any hope of getting them to take each other out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "不过舰队在汇合之后行动发生了变化，现在正在D13防御模块的火力网中调整航向，也许是要前往X区…",
+			say = "...Wait a minute. This is weird... One of the fleets of mass-produced ships just started moving. They're headed towards the Fortress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "什么……强行转向前往X区？！",
+			say = "The Fortress...? They're moving towards our top-secret facility?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "我们正在尽力拖延，敌舰目前依然处于指定区域内，不会影响打击行动。",
+			say = "Seems so. I can deploy some reserve mass-produced units to try to stall them. It should keep them occupied, at least for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "很好……对方的真实意图终于暴露出来了啊。原来弄了这么多障眼法，真实意图是X区……",
+			say = "...It just so happens I managed to regain control over the mainframe. If they're after our top-secret info, I'll send them to the bottom of the ocean in no time. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "X区里究竟隐藏了什么秘密才能让塞壬这么感兴趣…？",
+			say = "And the control over the airfields? Are we still good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "不知道，X区域一直不在我的负责范围内。不过…塞壬就算是来观光的，也不能让它们目的得逞不是么？",
+			say = "No problem there. By regaining control of the mainframe, I also regained control over all the airfields. We have all the firepower we could possibly need.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "航空浮岛A1、A2、A3、B1、B2、B3打击指令设定完毕。",
+			say = "Let us put them to the test... Command to airfields A1 through B3: scramble all aircraft, including support wings!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "倒计时，5……4……3……2……1…确认中——完成。",
+			say = "Target: the Pawns and mass-produced ships in D13 that have run amok!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "打击行动开始，给这些不速之客一个印象深刻的教训吧！",
+			say = "Fly! Fly, and leave not a single atom of those malfunctioning machines!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
-			say = "铁血浮岛要塞群·C4海域探索设施周边",
+			say = "Floating Fortress C4",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "居、居然真的隐藏了一座这么宏伟的基地……这种异样感觉，是利用塞壬镜面海域的技术实现的么？！",
+			say = "H-how did you conceal a base this massive?! Unless... Are you using Siren technology to create a Mirror Sea?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~这处基地本身就是我们研究的进展之一哦。",
+			say = "We are. It's our own private Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "大家看那边正在天上飞的那些……是不是舰载机？",
+			say = "What are those...? Planes produced by the Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "让我用远视之瞳看一下……唔嗯，看起来是重樱的舰载机。",
+			say = "Out of the way, mortal. I shall use my all-seeing eyes to verify... Yes, these are Sakura Empire aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "那些大概不是真的啦。为了模拟多种环境，有些时候盟友的舰队也会作为“敌人”在训练中登场。",
+			say = "They're just planes launched by some mass-produced Pawns. We use 'em all the time for practice purposes, you see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那些利用镜面海域装置制作出的量产型……不光是重樱舰队、连撒丁帝国舰队也会有么？",
+			say = "Meaning, they're the same as what the Sirens have created... You must have Sardegnian Pawns too, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "嗯啊~啊、这些训练单纯是为了进行武器验证和数据收集而已！",
+			say = "Hey, we just use 'em as sparring partners, that's all! No funny business, promise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就连我们自己的舰队也会经常在训练中作为“敌方”出现，绝对不是特意针对你们的意思哦！",
+			say = "I mean, we fight our own mass-produced ships too. No big deal with fighting a couple of Sardegnian lookalikes while we're at it, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "居然连自己的舰队都……好、好厉害的训练……",
+			say = "Hmm... You make a good point! And, given that this is a Mirror Sea, the copies created are very accurate to their originals! I'm impressed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "不过那边演习的烈度，看起来好逼真啊……",
+			say = "Speaking of the copies... They certainly are fighting fiercely. To an outsider, it looks more like a real battle than a training program...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "确实如此，好奇怪……平时的话应该不会进行拟真程度这么高的训练才对……",
+			say = "Right? Pretty sweet, huh? Hang on a sec... Do we usually use practice rounds this big? Doesn't look–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			actor = 401280,
 			nameColor = "#a9f548",
-			say = "咦？！刚刚防御设施是不是向我们开火了？！",
+			say = "Eek! I think they fired that one at us on purpose!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "怎么会有这么蠢的事，那些可是吾等的眷族——————",
+			say = "What?! Those shapeshifting hunks of scrap would DARE threaten me, the Crimson Fiend? Why, I ought to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊！真开火了？！！！",
+			say = "Aaahh! Th-they really are shooting at us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "请问，是不是出现了什么意外状况？",
+			say = "D-does Iron Blood take their training THIS seriously?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有的事，一切都在计划之中。刚刚的袭击应该是为了增加演习逼真度的一环。",
+			say = "Of course we do. Those shots were just feints meant to make the training more realistic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重要的是真实，必须要真实一些演习才有意义吧~",
+			say = "If we wouldn't go this far, how could we prepare for a real battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#a9f548",
-			say = "确、确实如此……在下受教了。",
+			say = "Very interesting! I can't help but admire your dedication!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "（虽然我是第一次来，但是现在的情况绝对哪里有问题……）",
+			say = "(Goodness, Eugen really has a pokerface like nobody else does...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（大、大概吧……）",
+			say = "(And Carabiniere bought her lie without a moment's hesitation...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳……U37，你带领客人和Z28绕过D13防御模块，经过B7浮岛使用应急路线直接前往E2浮岛休息。",
+			say = "U-37, take Z28 with you and lead our guest here to the Floating Fortress through the D13 backdoor route.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			actor = 408100,
 			nameColor = "#a9f548",
-			say = "哇啊，欧根你明明一次都没来过是怎么知道这条路的！我平时为了省事其实一直走的都是这条秘密路线……",
+			say = "Hang on a sec! How come you know about the backdoor route, huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是预习了充分资料而已哦，总之先带客人先过去。",
+			say = "I read the briefing, that's how. Now, could you do as I told you to? It's rude to keep our guest waiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来今天的训练作战也差不多该结束了……Z24，纽伦堡，跟我一起行动。",
+			say = "The training should be wrapping up by now. Z24, Nürnberg, you'll come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "总之，让我们想想办法终止这场逼真的训练吧~",
+			say = "Now, let's see how high we can score on this training program they've got.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

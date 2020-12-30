@@ -12,7 +12,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "遭到敌舰攻击！这个威力……明显不是演习用的训练弹啊！",
+			say = "Enemy cannon fire! These don't seem to be ordinary practice rounds!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "……要么是这里的人在进行传说中的实兵实弹演习，要么就是————",
+			say = "What are they doing? They can't be using live ammunition in– Eeeek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "要么就是塞壬使奴的棋子是吧！总之，以眼还眼，以牙还牙！",
+			say = "How foolish these Pawns are! Soon they shall learn why any and all that dare oppose me swiftly cease to be!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "这里可是我们重兵防守的要塞区，怎么会有被塞壬突破到这种地步……和驻防舰队的联络怎么样？",
+			say = "C-calm down now, Z24! They're just practice dummies; they wouldn't use live ammo, and they've never attacked anyone out of nowhere before!",
 			flashN = {
 				color = {
 					1,
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "完全沉寂！喂，欧根，你带我们来的这处基地到底是怎么回事啊！",
+			say = "Then how do you explain them doing exactly that? Eugen, I demand an explanation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "…………欧根！！！！",
+			say = "Eugen, where are you? Answer me!",
 			effects = {
 				{
 					active = true,
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "啊，稍微有点走神……你刚刚说什么？",
+			say = "I thought I heard someone calling for me. What is it?",
 			effects = {
 				{
 					active = false,
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "咦……？什么时候拉开这么远距离的……",
+			say = "Eugen? When did you get so far away?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "这种时候你在乱跑什么啊欧根！",
+			say = "What is going on in this place? These \"practice dummies\" just fired at us using live ammunition!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "我去稍微监听了一下旁边重樱舰队的状况哦，看来这里正在发生一些很有趣的事啊~",
+			say = "Sorry, I need a bit more time on my end. I just got word from a Sakura fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "哈啊？你在说什么……“重樱”舰队不都是吾等训练用的祭品么？",
+			say = "What...? There are Sakura ships here in the base that aren't just Pawns?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "总之先和你们前面的海因里希纠缠着，我还需要点时间。",
+			say = "Look, just keep doing evasive maneuvers for now. They won't hit you as long as you keep your distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "纠缠……对面可是正在一边开火，一边向我们直冲过来啊！",
+			say = "D-did you hear her? They're using live ammunition!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "主要以回避为主，仅做象征性的反击，你们把海因里希吸引到我的位置来。",
+			say = "Fine, lead them to my location then. I'll figure something out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "这又是要干嘛…？！到底是怎么回事啊欧根，对面的海因里希不是塞壬的棋子么？",
+			say = "\"Figure something out\"? What is that supposed to mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "解释起来比较复杂，一会你们就知道了。现在时间紧急，立刻执行命令。",
+			say = "Just do as I say, okay? Focus on not getting hit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			blackBg = true,
 			actor = 402050,
 			nameColor = "#a9f548",
-			say = "是，我们明白了。现在开始执行诱导行动！",
+			say = "Leipzig would've keeled over if she was in my shoes... Anyway, understood! We'll do our best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

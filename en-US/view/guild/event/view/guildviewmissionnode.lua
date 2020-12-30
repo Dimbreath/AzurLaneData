@@ -55,8 +55,24 @@ function slot0.ParentIFinish(slot0)
 	return slot0.parent:IsFinish()
 end
 
+function slot0.ParentIsFinishByServer(slot0)
+	if not slot0.parent then
+		return false
+	end
+
+	return slot0.parent.data:IsFinishedByServer()
+end
+
 function slot0.IsActive(slot0)
 	return slot0.data:IsActive()
+end
+
+function slot0.GetParentId(slot0)
+	if not slot0.parent then
+		return 0
+	end
+
+	return slot0.parent.data.id
 end
 
 function slot0.UpdateData(slot0, slot1)

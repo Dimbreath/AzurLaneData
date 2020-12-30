@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
-			say = "铁血浮岛要塞群·D12防御模块周边",
+			say = "Floating Fortress - D12 defense line",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "海因里希作战顺利，“重樱”舰队也在向预定位置接近，很快两支舰队将会在D13防御模块附近汇合。",
+			say = "The Sakura Empire and Iron Blood clone fleets have been rounded up at D13... Heinrich's done her part well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "接下来就是彼得那边……",
+			say = "Wonder how Strasser's doing... Let's give her a call.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是威悉。彼得，你那边的准备工作怎么样？",
+			say = "Strasser, do you copy? How are things progressing on your end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "沿途陆续遇到了些敌人，虽然实力很弱，但是距离抵达操作装置还需要时间。",
+			say = "I've broken up the enemy forces and I'm headed to the control unit. I'm afraid I won't get there at the agreed-upon time, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "了解，我们会继续拖延时间，保证目标始终停留在指定区域内的。",
+			say = "I understand, that's fine. The plan is still the same though, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "不过……不光是舰队，就当成要塞航空战斗能力的测试，用全部浮岛机场来一次饱和打击也不错吧？",
+			say = "As in: lead the Pawns and mass-produced ships to the designated area, launch the research facility's entire airwing, and take them all out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "好主意…这种机会确实难得。就当实际部署前的预演，来一场华丽的测试吧！",
+			say = "Yes, the plan is still the same. This way, we'll see just what these airfield facilities is truly capable of. Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
-			say = "铁血浮岛要塞群·D12防御模块至D13防御模块之间",
+			say = "Floating Fortress - D12 defense line",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家注意，非常事态发生……！",
+			say = "Look! The Mirror Sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "彼得，镜面海域正在解除，你之前做了什么？！！",
+			say = "It's... going away?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "哎？那个是中央模块控制的，我什么都没……是中央控制岛的镜面海域生成器出问题了么？！可是为什么在这种时候……",
+			say = "Oh, Eugen, what have you done... I never told you to destroy the generator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "…侦察情报有变，区域内的“铁血”舰队和“重樱”舰队全部消失。",
+			say = "Strasser, the identification signal's changed. The Sakura and Iron Blood shipgirls have all made it out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在目标区域中仅剩下了欧根亲王与另一个高强度塞壬目标…………推测为塞壬人型指挥，构建者。",
+			say = "The readings I'm getting say the only ones still in the combat area are Eugen and a Siren... Compiler.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "能够迷惑侦察机的幻影舰队应该是我们的技术……",
+			say = "Them, plus additional stragglers in the form of some mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "由欧根亲王携带装置伪造了铁血舰队与重樱舰队行动的假象……所以欧根亲王是真的。",
+			say = "I am amazed. We lost control over our facilities due to the Sirens' jamming, and they then caused our stationed mass-produced units to go berserk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以之前看到的铁血、重樱以及撒丁帝国的舰队应该也是真的……",
+			say = "But then we turned the tables on them while they were still under the impression that we thought our own allies were Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "原来如此……这样就说得通了。很厉害啊欧根，居然能在这种局面下完成这样的协作……",
+			say = "We managed to reclaim control over the airfields and lead them into a carefully coordinated ambush to take them all out in one fell swoop...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，你们已经都明白了么？究竟是怎么回事……",
+			say = "The truth was hidden amongst falsehoods. You devised a brilliant plan in a very short amount of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本日出现的短时通信故障就是一切的开端，恐怕欧根亲王原本今天就会带领舰队前来，重樱舰队大概也是如此。",
+			say = "When you're short on time, you must make effective use of what little you have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "而我们根本就没有收到这些消息，依然按照预定计划开始了进行训练。当然，侵入了我们系统的塞壬肯定很清楚这些计划。",
+			say = "The unexplained communications anomaly, our inability to radio back to Europa, those mass-produced ships going haywire, and the Sakura fleet appearing from nowhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以才造成了这样的误会与混乱……既然是这样，欧根在进入海域之后直接联系我们就好了吧？",
+			say = "Those are all proof of the Sirens pulling strings behind the scenes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "恐怕已经尝试过了……我们的通讯系统应该只是被塞壬伪造成了消除故障的假象，其实一直在塞壬的控制之下。",
+			say = "They manipulated our comms and radar, too. We couldn't tell friend from foe or Pawn from the real deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "所以意识到这些的欧根就将计就计伪装成异常的棋子诱导我们的行动，然后在最后攻击波抵达前暴露出塞壬主谋的真正位置……",
+			say = "And if we hadn't realized sooner, we might have actually fallen for the Sirens' scheme. But the stalling that kept them at D13 allowed us to launch an attack just in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "欧根也真是厉害……我只是猜到今天肯定有塞壬在捣鬼，没想到居然会这么复杂……",
+			say = "It was all thanks to the antics of one person that the Sirens were sure they had us fooled up to the last minute...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "不过等等……外部接入的通讯姑且不论，我们舰队之间的通讯一直都是正常的。",
+			say = "...It was thanks to Heinrich.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "去追欧根的是海因里希，然后就一直留在了那边……那她岂不是早就知道了？",
+			say = "I wonder if she actually knows how much she contributed, or if she even knows what happened at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "呵呵…看来是呢………我们的打击区域也是海因里希告诉欧根的吧。",
+			say = "Believe me, she's not as foolish as you may think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个谨慎的塞壬之所以一直停留在海域里就是确信我们依然按照它的算计相互战斗着。",
+			say = "As for Compiler, she must be the brains behind this whole operation. She must've stayed in hiding and hoped that we would annihilate each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "如果情报通过被干扰的通讯器而被塞壬截获，这个谨慎的塞壬恐怕会立刻潜伏起来，那时候再找起来就麻烦了。",
+			say = "It's possible that the only reason she hasn't scurried off already is because Heinrich upheld the illusion that we've turned on each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要想骗过敌人，首先要骗过自己人。",
+			say = "\"To fool your foes, you must first fool your allies.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "那这次海因里希绝对算出色地完成了任务，之前汇报追击进度的时候我居然没能发现任何违和感……",
+			say = "Well, she played us like a fiddle, if that was her intention. Personally, I find it hard to believe that her brain is that galactic...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			actor = 406010,
 			nameColor = "#a9f548",
-			say = "等等……情况有变！构建者在暴露之后没有选择战斗，反而正在向要塞外部方向移动。塞壬正在逃跑……？",
+			say = "...I'm picking up movements... Huh. The Siren's headed toward us, rather than trying to flee?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "保密等级最高的铁血基地出现了如此严重的入侵事件……如果再让入侵者毫发无损的离开，铁血将会颜面何存！",
+			say = "Toward the secret facility?! She must be stopped at any cost! Weser, if our comms are back online, then connect me to Eugen and everyone else in the area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,8 +462,8 @@ return {
 			dir = 1,
 			bgName = "bg_fuxiangxian_4",
 			bgm = "bsm-9",
-			actorName = "彼得·史特拉塞",
-			say = "现在向海域中的所有铁血战士，以及作为盟友的重樱与撒丁帝国战士进行广播通告：",
+			actorName = "Peter Strasser",
+			say = "Attention, all ships! This is Iron Blood carrier Peter Strasser! I request the assistance of all Iron Blood, Sardegna, and Sakura Empire forces in the area!",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -491,12 +491,12 @@ return {
 			}
 		},
 		{
-			actorName = "彼得·史特拉塞",
+			actorName = "Peter Strasser",
 			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是铁血第二主力舰队旗舰，本处铁血基地的负责人之一，彼得·史特拉塞。",
+			say = "Our research facility has been targeted by a Siren attack, and we fear that both mass-produced and humanoid Sirens are advancing toward us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,12 +507,12 @@ return {
 			}
 		},
 		{
-			actorName = "彼得·史特拉塞",
+			actorName = "Peter Strasser",
 			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在要塞群正遭受来自塞壬构建者的入侵。在大约三分钟前，入侵的主谋已经从隐匿中现身，暴露了其真正的位置。",
+			say = "The assets and research data we have at this facility are of immense value not just to Iron Blood, but to the Crimson Axis as a whole, and we cannot under any circumstances let them fall into Siren hands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,12 +523,12 @@ return {
 			}
 		},
 		{
-			actorName = "彼得·史特拉塞",
+			actorName = "Peter Strasser",
 			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据赤色中轴同盟条约，任何对于成员的任何攻击行为均视为对于整个赤色中轴全体成员的攻击行为。",
+			say = "Our fleet will now move out to intercept the Sirens and stop their operation dead in its tracks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,12 +539,12 @@ return {
 			}
 		},
 		{
-			actorName = "彼得·史特拉塞",
+			actorName = "Peter Strasser",
 			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "盟友们，让我们并肩作战，消灭入侵之敌！ ",
+			say = "To that end, we request the assistance of our allies... Scratch that, of all fellow shipgirls! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,13 +555,13 @@ return {
 			}
 		},
 		{
-			actorName = "彼得·史特拉塞",
+			actorName = "Peter Strasser",
 			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "——————彼得·史特拉塞通话结束。",
+			say = "Stop and destroy the Siren mastermind – Compiler!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
