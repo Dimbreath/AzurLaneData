@@ -199,8 +199,10 @@ function slot0.EnterActiveNode(slot0)
 end
 
 function slot0.CheckBossNode(slot0)
-	if slot0.nodes[#slot0.nodes]:ParentIFinish() and not slot1:IsActive() then
+	if slot0.nodes[#slot0.nodes]:ParentIsFinishByServer() and not slot1:IsActive() then
 		slot0:emit(GuildEventMediator.ON_GET_BOSS_INFO)
+	elseif slot1:ParentIFinish() and not slot1:IsActive() then
+		slot0:emit(GuildEventMediator.REFRESH_MISSION, slot1:GetParentId())
 	end
 end
 

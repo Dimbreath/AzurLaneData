@@ -5,6 +5,7 @@ function slot0.CompleteData2FullData(slot0)
 
 	return {
 		efficiency = 0,
+		server_finish = true,
 		event_id = slot0.event_id,
 		position = slot0.position,
 		join_number = slot0.join_number,
@@ -22,6 +23,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.event_id
 	slot0.configId = slot0.id
 	slot0.position = slot1.position
+	slot0.serverFinish = slot1.server_finish
 	slot0.myFleets = {}
 	slot0.myShips = {}
 	slot0.nodeAnimPosistion = 0
@@ -120,6 +122,10 @@ function slot0.Flush(slot0, slot1, slot2)
 			table.insert(slot0.nodeLogs, slot14)
 		end
 	end
+end
+
+function slot0.IsFinishedByServer(slot0)
+	return slot0.serverFinish
 end
 
 function slot0.GetTotalTimeCost(slot0)

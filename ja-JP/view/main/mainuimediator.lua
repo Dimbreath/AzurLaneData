@@ -661,7 +661,8 @@ function slot0.listNotificationInterests(slot0)
 		PileGameConst.OPEN_PILEGAME,
 		ShopsProxy.CHARGED_LIST_UPDATED,
 		GAME.ZERO_HOUR_OP_DONE,
-		GAME.GET_GUILD_INFO_DONE
+		GAME.GET_GUILD_INFO_DONE,
+		GAME.GUILD_GET_USER_INFO_DONE
 	}
 end
 
@@ -831,6 +832,8 @@ function slot0.handleNotification(slot0, slot1)
 
 			slot0:updateGuildNotices()
 		end
+	elseif slot2 == GAME.GUILD_GET_USER_INFO_DONE then
+		slot0.viewComponent:updatePlayerInfo(getProxy(PlayerProxy):getData())
 	end
 end
 

@@ -173,4 +173,14 @@ function slot0.CanFormation(slot0)
 	return false
 end
 
+function slot0.ExistCommander(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.fleets) do
+		if slot6:ExistCommander(slot1) then
+			return true
+		end
+	end
+
+	return false
+end
+
 return slot0

@@ -112523,7 +112523,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{
@@ -113823,7 +113823,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{
@@ -114043,7 +114043,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{

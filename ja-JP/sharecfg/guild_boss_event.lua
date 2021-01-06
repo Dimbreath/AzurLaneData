@@ -1,14 +1,13 @@
 pg = pg or {}
 pg.guild_boss_event = {
 	[90001] = {
-		painting = "",
+		id = 90001,
 		name = "北方海域の敵影",
-		submarine_num = 1,
+		report = "セイレーンが撃破され、海域の脅威がついに去った。この戦いもまたセイレーンの実験の一つだろうか？",
 		main_num = 1,
 		pic = "b1_1",
-		report = "セイレーンが撃破され、海域の脅威がついに去った。この戦いもまたセイレーンの実験の一つだろうか？",
-		hp = 350,
-		id = 90001,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70001,
 			{
@@ -16,14 +15,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -50,14 +49,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90002] = {
-		painting = "",
+		id = 90002,
 		name = "環礁を脅かす異変",
-		submarine_num = 1,
+		report = "跋扈する特殊兵装のセイレーン個体が撃破され、脅かされていた碧き航路は再び人類の手に戻った。",
 		main_num = 1,
 		pic = "b1_1",
-		report = "跋扈する特殊兵装のセイレーン個体が撃破され、脅かされていた碧き航路は再び人類の手に戻った。",
-		hp = 450,
-		id = 90002,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70002,
 			{
@@ -65,14 +63,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -99,14 +97,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90003] = {
-		painting = "",
+		id = 90003,
 		name = "NA海域の幽霊",
-		submarine_num = 1,
+		report = "「幽霊」の正体が改造されたセイレーンだった。人々は再び「幽霊」を恐れる必要はないだろう。",
 		main_num = 1,
 		pic = "b2_1",
-		report = "「幽霊」の正体が改造されたセイレーンだった。人々は再び「幽霊」を恐れる必要はないだろう。",
-		hp = 400,
-		id = 90003,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70011,
 			{
@@ -114,14 +111,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -148,14 +145,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90004] = {
-		painting = "",
+		id = 90004,
 		name = "氷海の巨獣",
-		submarine_num = 1,
+		report = "自由航行こそできないものの、航路の安全はほぼ確保したと言えよう。",
 		main_num = 1,
 		pic = "b2_1",
-		report = "自由航行こそできないものの、航路の安全はほぼ確保したと言えよう。",
-		hp = 500,
-		id = 90004,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70012,
 			{
@@ -163,14 +159,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -197,14 +193,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90005] = {
-		painting = "guild_event_boss_2",
+		id = 90005,
 		name = "北方航路の襲撃者",
-		submarine_num = 1,
+		report = "撃破されたセイレーンは自我意識を持たず、より上位な個体への模倣…いや、量産型？だった模様。",
 		main_num = 1,
 		pic = "b2_1",
-		report = "撃破されたセイレーンは自我意識を持たず、より上位な個体への模倣…いや、量産型？だった模様。",
-		hp = 600,
-		id = 90005,
+		painting = "guild_event_boss_2",
+		submarine_num = 1,
 		expedition_id = {
 			70013,
 			{
@@ -212,14 +207,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -246,14 +241,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90006] = {
-		painting = "",
+		id = 90006,
 		name = "峡湾の氷像",
-		submarine_num = 1,
+		report = "セイレーンはどうやら艦隊と交戦するつもりはなく、何かを探しているように見えた…",
 		main_num = 1,
 		pic = "b3_1",
-		report = "セイレーンはどうやら艦隊と交戦するつもりはなく、何かを探しているように見えた…",
-		hp = 500,
-		id = 90006,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70021,
 			{
@@ -261,14 +255,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -295,14 +289,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90007] = {
-		painting = "",
+		id = 90007,
 		name = "王家海域の海魔",
-		submarine_num = 1,
+		report = "港を包囲したセイレーン艦隊を駆除し、海上輸送の拠点の確保に成功。敵の奇襲に備え、次の戦いへ",
 		main_num = 1,
 		pic = "b3_1",
-		report = "港を包囲したセイレーン艦隊を駆除し、海上輸送の拠点の確保に成功。敵の奇襲に備え、次の戦いへ",
-		hp = 650,
-		id = 90007,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70022,
 			{
@@ -310,14 +303,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -344,14 +337,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90008] = {
-		painting = "guild_event_boss_3",
+		id = 90008,
 		name = "白海の亡霊",
-		submarine_num = 1,
+		report = "撃破されたセイレーンは自我意識を持たず、より上位な個体への模倣…いや、量産型？だった模様。",
 		main_num = 1,
 		pic = "b3_1",
-		report = "撃破されたセイレーンは自我意識を持たず、より上位な個体への模倣…いや、量産型？だった模様。",
-		hp = 800,
-		id = 90008,
+		painting = "guild_event_boss_3",
+		submarine_num = 1,
 		expedition_id = {
 			70023,
 			{
@@ -359,14 +351,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -393,14 +385,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90009] = {
-		painting = "",
+		id = 90009,
 		name = "離島北部の夜戦",
-		submarine_num = 1,
+		report = "艦隊は巡回中に密かに接近してきたセイレーンを撃破した。近海は再び平和に戻った。",
 		main_num = 1,
 		pic = "b4_1",
-		report = "艦隊は巡回中に密かに接近してきたセイレーンを撃破した。近海は再び平和に戻った。",
-		hp = 600,
-		id = 90009,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70031,
 			{
@@ -408,14 +399,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -442,14 +433,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90010] = {
-		painting = "",
+		id = 90010,
 		name = "離島湾岸強襲戦",
-		submarine_num = 1,
+		report = "離島周辺のセイレーン艦隊を撃破。これにより離島周辺海域の作戦はまた一歩前進した。",
 		main_num = 1,
 		pic = "b4_1",
-		report = "離島周辺のセイレーン艦隊を撃破。これにより離島周辺海域の作戦はまた一歩前進した。",
-		hp = 800,
-		id = 90010,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70032,
 			{
@@ -457,14 +447,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -491,14 +481,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90011] = {
-		painting = "guild_event_boss_4",
+		id = 90011,
 		name = "鉄底海峡防衛戦",
-		submarine_num = 1,
+		report = "セイレーンによる反撃の大攻勢を撃退した。次なる陰謀の手がかりが見つかることを願うばかりだ。",
 		main_num = 1,
 		pic = "b4_1",
-		report = "セイレーンによる反撃の大攻勢を撃退した。次なる陰謀の手がかりが見つかることを願うばかりだ。",
-		hp = 1000,
-		id = 90011,
+		painting = "guild_event_boss_4",
+		submarine_num = 1,
 		expedition_id = {
 			70033,
 			{
@@ -506,14 +495,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {

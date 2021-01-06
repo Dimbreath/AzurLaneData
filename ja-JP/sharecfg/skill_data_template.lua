@@ -58924,6 +58924,38 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800075] = {
+		desc_get = "",
+		name = "炬火の力・飛龍",
+		type = 1,
+		max_level = 10,
+		desc = "【セイレーン作戦】\n人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が敵に与えるダメージが3%アップ",
+		id = 800075,
+		system_transform = {
+			[51.0] = 800075
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800077] = {
+		desc_get = "",
+		name = "炬火の力・飛龍",
+		type = 1,
+		max_level = 10,
+		desc = "【セイレーン作戦】\n人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が敵に与えるダメージが8%アップ",
+		id = 800077,
+		system_transform = {
+			[51.0] = 800077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -60009,6 +60041,8 @@ pg.skill_data_template = {
 		800050,
 		800060,
 		800071,
-		800072
+		800072,
+		800075,
+		800077
 	}
 }

@@ -809,4 +809,12 @@ function slot0.GetAllEventShip(slot0)
 	return slot1
 end
 
+function slot0.ExistCommander(slot0, slot1)
+	if slot0:GetActiveEvent() then
+		return slot2:GetBossMission():ExistCommander(slot1)
+	end
+
+	return false
+end
+
 return slot0
