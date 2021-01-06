@@ -774,15 +774,15 @@ pg.skill_data_display = {
 	},
 	[8818] = {
 		id = 8818,
-		name = "五航战支援"
+		name = "5th CarDiv Support "
 	},
 	[8819] = {
 		id = 8819,
-		name = "五航战支援"
+		name = "5th CarDiv Support "
 	},
 	[8820] = {
 		id = 8820,
-		name = "五航战支援"
+		name = "5th CarDiv Support "
 	},
 	[8821] = {
 		id = 8821,

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.guild_mission_template = {
 	{
 		id = 1,
-		name = "Guild members completed Siren Subjugation I (defeat 60 enemies) a total of 100+ times.",
+		name = "Complete Siren Subjugation I (defeat 60 enemies) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,
@@ -12,7 +12,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 2,
-		name = "Guild members completed Siren Subjugation II (defeat 180 enemies) a total of 100+ times.",
+		name = "Complete Siren Subjugation II (defeat 180 enemies) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 25,
 		task_scale = 2,
@@ -22,7 +22,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 3,
-		name = "Guild members completed Siren Subjugation III (defeat 300 enemies) a total of 100+ times.",
+		name = "Complete Siren Subjugation III (defeat 300 enemies) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 35,
 		task_scale = 3,
@@ -32,7 +32,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 4,
-		name = "Guild members completed Sea Sector Sweep I (obtain 15 victories) a total of 100+ times.",
+		name = "Complete Sea Sector Sweep I (obtain 15 victories) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,
@@ -42,7 +42,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 5,
-		name = "Guild members completed Sea Sector Sweep II (obtain 45 victories) a total of 100+ times.",
+		name = "Complete Sea Sector Sweep II (obtain 45 victories) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 25,
 		task_scale = 2,
@@ -52,7 +52,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 6,
-		name = "Guild members completed Sea Sector Sweep III (obtain 75 victories) a total of 100+ times.",
+		name = "Complete Sea Sector Sweep III (obtain 75 victories) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 35,
 		task_scale = 3,
@@ -62,7 +62,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 7,
-		name = "Guild members completed Sea Sector Sweep III (obtain 75 victories) a total of 100+ times.",
+		name = "Complete Materials Contribution II (contribute materials 3 times) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,
@@ -72,7 +72,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 8,
-		name = "Guild members completed Materials Contribution II (contribute materials 9 times) a total of 100+ times.",
+		name = "Complete Materials Contribution II (contribute materials 9 times) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 25,
 		task_scale = 2,
@@ -82,7 +82,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 9,
-		name = "Guild members completed Materials Contribution III (contribute materials 15 times) a total of 100+ times.",
+		name = "Complete Materials Contribution III (contribute materials 15 times) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 35,
 		task_scale = 3,
@@ -92,7 +92,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 10,
-		name = "Guild members completed Guild Operation I (participate in 1 Guild Event) a total of 100+ times.",
+		name = "Complete Guild Operation I (participate in 1 Guild Event) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,
@@ -102,7 +102,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 11,
-		name = "Guild members completed Guild Operation II (participate in 3 Guild Events) a total of 100+ times.",
+		name = "Complete Guild Operation II (participate in 3 Guild Events) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 25,
 		task_scale = 2,
@@ -112,7 +112,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 12,
-		name = "Guild members completed Guild Operation III (participate in 5 Guild Events) a total of 100+ times.",
+		name = "Complete Guild Operation III (participate in 5 Guild Events) a total of 100+ times。",
 		max_num = 100,
 		award_capital_display = 35,
 		task_scale = 3,

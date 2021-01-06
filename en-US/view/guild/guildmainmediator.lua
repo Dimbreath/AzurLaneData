@@ -174,7 +174,8 @@ function slot0.listNotificationInterests(slot0)
 		GuildTechnologyMediator.ON_OPEN_OFFICE,
 		GAME.OPEN_MSGBOX_DONE,
 		GuildProxy.TECHNOLOGY_START,
-		GAME.GO_WORLD_BOSS_SCENE
+		GAME.GO_WORLD_BOSS_SCENE,
+		GAME.GUILD_START_TECH_DONE
 	}
 end
 
@@ -224,6 +225,9 @@ function slot0.handleNotification(slot0, slot1)
 		pg.GuildLayerMgr:GetInstance():OnShowMsgBox()
 	elseif slot2 == GuildProxy.TECHNOLOGY_START then
 		slot0.viewComponent:UpdateNotices(GuildMainScene.NOTIFY_TYPE_TECH)
+	elseif slot2 == GAME.GUILD_START_TECH_DONE then
+		slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
+		slot0.viewComponent:UpdateRes()
 	elseif slot2 == GAME.GO_WORLD_BOSS_SCENE then
 		slot0.contextData.page = nil
 	end

@@ -3155,6 +3155,7 @@ pg.buffCfg = {
 	buff_8821 = require("GameCfg.buff.buff_8821"),
 	buff_8822 = require("GameCfg.buff.buff_8822"),
 	buff_8824 = require("GameCfg.buff.buff_8824"),
+	buff_8830 = require("GameCfg.buff.buff_8830"),
 	buff_9 = require("GameCfg.buff.buff_9"),
 	buff_90 = require("GameCfg.buff.buff_90"),
 	buff_900000 = require("GameCfg.buff.buff_900000"),

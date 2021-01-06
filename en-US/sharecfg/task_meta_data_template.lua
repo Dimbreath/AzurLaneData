@@ -102,7 +102,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 200,
 		target_num = 1,
-		desc = "Win 1 battle with Hiryuu META in your fleet."
+		desc = "Win 1 battle in Operation Siren with Hiryuu META in your fleet."
 	},
 	[201] = {
 		target_id = "70",
@@ -110,7 +110,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 201,
 		target_num = 1,
-		desc = "Defeat a Lv. 30+ fleet with Hiryuu META in your fleet."
+		desc = "Defeat a Lv. 70+ fleet with Hiryuu META in your fleet."
 	},
 	[202] = {
 		target_id = "90",
@@ -118,7 +118,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 202,
 		target_num = 1,
-		desc = "Win 1 Operation Siren battle with Hiryuu META in your fleet."
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Hiryuu META in your fleet."
 	},
 	[203] = {
 		target_id = "100",
@@ -126,7 +126,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 203,
 		target_num = 1,
-		desc = "Defeat a Lv. 70+ enemy in Operation Siren with Hiryuu META in your fleet."
+		desc = "Defeat a Lv. 100+ enemy in Operation Siren with Hiryuu META in your fleet."
 	},
 	[301] = {
 		target_id = "0",

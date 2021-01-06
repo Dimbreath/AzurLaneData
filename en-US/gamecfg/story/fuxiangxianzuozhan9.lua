@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actorName = "英王乔治五世？",
+			actorName = "King George V?",
 			side = 1,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#ff5c5c",

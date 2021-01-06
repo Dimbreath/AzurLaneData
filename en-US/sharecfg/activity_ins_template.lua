@@ -4536,7 +4536,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 30184,
-		name = "Puuta",
+		name = "Pooky",
 		message_persist = "",
 		picture_persist = "",
 		is_active = 1,

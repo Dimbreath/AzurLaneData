@@ -43825,7 +43825,7 @@ pg.skill_data_template = {
 		name = "Fiendish Rampage",
 		type = 1,
 		max_level = 10,
-		desc = "At the start of the battle and every 20s after that: fires a special barrage (DMG is based on the skill's level). Whenever this ship sinks an enemy: increases this ship's FP and TRP by $1 until the end of the battle (can be stacked up to 5 times).",
+		desc = "At the start of the battle and every 20s after that: fires a special barrage (DMG is based on the skill's level). Whenever this ship sinks an enemy: increases this ship's FP and TRP by $2 until the end of the battle (can be stacked up to 5 times).",
 		id = 14000,
 		system_transform = {},
 		world_death_mark = {
@@ -58208,6 +58208,38 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800075] = {
+		desc_get = "",
+		name = "Scorched Blade ",
+		type = 1,
+		max_level = 10,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 3% more DMG. ",
+		id = 800075,
+		system_transform = {
+			[51.0] = 800075
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800077] = {
+		desc_get = "",
+		name = "Scorched Blade ",
+		type = 1,
+		max_level = 10,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG. ",
+		id = 800077,
+		system_transform = {
+			[51.0] = 800077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -59290,6 +59322,8 @@ pg.skill_data_template = {
 		800050,
 		800060,
 		800071,
-		800072
+		800072,
+		800075,
+		800077
 	}
 }

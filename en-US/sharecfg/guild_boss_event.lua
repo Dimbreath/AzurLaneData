@@ -1,14 +1,13 @@
 pg = pg or {}
 pg.guild_boss_event = {
 	[90001] = {
-		painting = "",
+		id = 90001,
 		name = "Shadow Over the North Sea",
-		submarine_num = 1,
+		report = "With the Siren defeated, the threat to these waters has been eliminated. Was this battle, too, another one of their experiments? \nReceived Rewards:",
 		main_num = 1,
 		pic = "b1_1",
-		report = "With the Siren defeated, the threat to these waters has been eliminated. Was this battle, too, another one of their experiments? \nReceived Rewards:",
-		hp = 350,
-		id = 90001,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70001,
 			{
@@ -16,14 +15,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -50,14 +49,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90002] = {
-		painting = "",
+		id = 90002,
 		name = "Looming Threat to the Atoll",
-		submarine_num = 1,
+		report = "The Siren armed with unusual weaponry has been put a stop to. These azure lanes are in the hands of humanity once more. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b1_1",
-		report = "The Siren armed with unusual weaponry has been put a stop to. These azure lanes are in the hands of humanity once more. \nReceived Rewards:",
-		hp = 450,
-		id = 90002,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70002,
 			{
@@ -65,14 +63,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -99,14 +97,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90003] = {
-		painting = "",
+		id = 90003,
 		name = "Specter in the North Atlantic",
-		submarine_num = 1,
+		report = "The scourge known as the “Specter” turned out to be a Siren. Its days of scaring seafarers are over, now that it has been dispelled. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b2_1",
-		report = "The scourge known as the “Specter” turned out to be a Siren. Its days of scaring seafarers are over, now that it has been dispelled. \nReceived Rewards:",
-		hp = 400,
-		id = 90003,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70011,
 			{
@@ -114,14 +111,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -148,14 +145,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90004] = {
-		painting = "",
+		id = 90004,
 		name = "Behemoth from the Icy Deep",
-		submarine_num = 1,
+		report = "Although no voyage is without risk, this route has become significantly safer now that the commerce raiding Siren in this region has been dealt with. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b2_1",
-		report = "Although no voyage is without risk, this route has become significantly safer now that the commerce raiding Siren in this region has been dealt with. \nReceived Rewards:",
-		hp = 500,
-		id = 90004,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70012,
 			{
@@ -163,14 +159,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -197,14 +193,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90005] = {
-		painting = "guild_event_boss_2",
+		id = 90005,
 		name = "Ambusher upon the North Routes",
-		submarine_num = 1,
+		report = "It appears that the Siren that wreaked such havoc was not sentient... it was merely imitating the behavior of a more advanced entity. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b2_1",
-		report = "It appears that the Siren that wreaked such havoc was not sentient... it was merely imitating the behavior of a more advanced entity. \nReceived Rewards:",
-		hp = 600,
-		id = 90005,
+		painting = "guild_event_boss_2",
+		submarine_num = 1,
 		expedition_id = {
 			70013,
 			{
@@ -212,14 +207,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -246,14 +241,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90006] = {
-		painting = "",
+		id = 90006,
 		name = "Crystalline Beast of the Fjord",
-		submarine_num = 1,
+		report = "The Siren presence in these waters has been eliminated. Somehow, it felt less like they were on the offensive and more like they were searching for something... \nReceived Rewards:",
 		main_num = 1,
 		pic = "b3_1",
-		report = "The Siren presence in these waters has been eliminated. Somehow, it felt less like they were on the offensive and more like they were searching for something... \nReceived Rewards:",
-		hp = 500,
-		id = 90006,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70021,
 			{
@@ -261,14 +255,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -295,14 +289,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90007] = {
-		painting = "",
+		id = 90007,
 		name = "Horror from the Royal Channel",
-		submarine_num = 1,
+		report = "The Sirens’ siege on the crucial commerce harbor in this region was been thwarted. They will surely try again someday, for which we must be prepared. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b3_1",
-		report = "The Sirens’ siege on the crucial commerce harbor in this region was been thwarted. They will surely try again someday, for which we must be prepared. \nReceived Rewards:",
-		hp = 650,
-		id = 90007,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70022,
 			{
@@ -310,14 +303,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -344,14 +337,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90008] = {
-		painting = "guild_event_boss_3",
+		id = 90008,
 		name = "Ghost of the White Sea",
-		submarine_num = 1,
+		report = "It appears that the Siren that wreaked such havoc was not sentient... it was merely imitating the behavior of a more advanced entity. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b3_1",
-		report = "It appears that the Siren that wreaked such havoc was not sentient... it was merely imitating the behavior of a more advanced entity. \nReceived Rewards:",
-		hp = 800,
-		id = 90008,
+		painting = "guild_event_boss_3",
+		submarine_num = 1,
 		expedition_id = {
 			70023,
 			{
@@ -359,14 +351,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -393,14 +385,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90009] = {
-		painting = "",
+		id = 90009,
 		name = "Northern Island Night Battle",
-		submarine_num = 1,
+		report = "Whilst on a patrol, the fleet discovered the prowling force of Sirens and eliminated them. These waters are once more at peace. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b4_1",
-		report = "Whilst on a patrol, the fleet discovered the prowling force of Sirens and eliminated them. These waters are once more at peace. \nReceived Rewards:",
-		hp = 600,
-		id = 90009,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70031,
 			{
@@ -408,14 +399,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -442,14 +433,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90010] = {
-		painting = "",
+		id = 90010,
 		name = "Remote Island Coastal Offensive",
-		submarine_num = 1,
+		report = "The Sirens’ attack on this remote region has been repelled. Humanity draws one step closer to victory on this front. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b4_1",
-		report = "The Sirens’ attack on this remote region has been repelled. Humanity draws one step closer to victory on this front. \nReceived Rewards:",
-		hp = 800,
-		id = 90010,
+		painting = "",
+		submarine_num = 1,
 		expedition_id = {
 			70032,
 			{
@@ -457,14 +447,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {
@@ -491,14 +481,13 @@ pg.guild_boss_event = {
 		}
 	},
 	[90011] = {
-		painting = "guild_event_boss_4",
+		id = 90011,
 		name = "Ironbottom Maritime Defense",
-		submarine_num = 1,
+		report = "In spite of their fierce counterattack, we managed to defend against the Sirens. Naval command hopes their analysis will uncover a clue as to the Sirens’ next move. \nReceived Rewards:",
 		main_num = 1,
 		pic = "b4_1",
-		report = "In spite of their fierce counterattack, we managed to defend against the Sirens. Naval command hopes their analysis will uncover a clue as to the Sirens’ next move. \nReceived Rewards:",
-		hp = 1000,
-		id = 90011,
+		painting = "guild_event_boss_4",
+		submarine_num = 1,
 		expedition_id = {
 			70033,
 			{
@@ -506,14 +495,14 @@ pg.guild_boss_event = {
 			}
 		},
 		formula = {
-			10,
-			5,
-			2,
-			60,
-			0.016,
-			0.68,
-			1.3,
-			11.7,
+			150,
+			0,
+			0,
+			0,
+			3.8e-05,
+			1.1,
+			0,
+			0,
 			1
 		},
 		award = {

@@ -237,49 +237,58 @@ function slot0.updateMaterials(slot0)
 	slot4 = slot2.config.trans_use_gold
 	slot3 = defaultValue(slot2.config.trans_use_item, {})
 	slot5 = nil
+	slot6 = 0
 
-	for slot9 = 1, 3 do
-		slot10 = slot0.materialsContain:GetChild(slot9 - 1)
+	for slot10 = 1, 3 do
+		slot11 = slot0.materialsContain:GetChild(slot10 - 1)
 
-		setActive(findTF(slot10, "off"), not slot3[slot9])
-		setActive(findTF(slot10, "equiptpl"), slot3[slot9])
+		setActive(findTF(slot11, "off"), not slot3[slot10])
+		setActive(findTF(slot11, "equiptpl"), slot3[slot10])
 
-		if slot3[slot9] then
-			slot11 = slot3[slot9][1]
-			slot12 = findTF(slot10, "equiptpl")
+		if slot3[slot10] then
+			slot12 = slot3[slot10][1]
+			slot13 = findTF(slot11, "equiptpl")
 
-			updateItem(slot12, Item.New({
-				id = slot11
+			updateItem(slot13, Item.New({
+				id = slot12
 			}))
-			onButton(slot0, slot12, function ()
+			onButton(slot0, slot13, function ()
 				uv0:emit(EquipUpgradeMediator.ON_ITEM, uv1)
 			end, SFX_PANEL)
 
-			slot13 = defaultValue(slot0.itemVOs[slot11], {
+			slot14 = defaultValue(slot0.itemVOs[slot12], {
 				count = 0
 			})
-			slot14 = slot13.count .. "/" .. slot3[slot9][2]
+			slot15 = slot14.count .. "/" .. slot3[slot10][2]
 
-			if slot13.count < slot3[slot9][2] then
-				slot14 = setColorStr(slot13.count, COLOR_RED) .. "/" .. slot3[slot9][2]
+			if slot14.count < slot3[slot10][2] then
+				slot15 = setColorStr(slot14.count, COLOR_RED) .. "/" .. slot3[slot10][2]
 				slot1 = false
-				slot5 = slot3[slot9]
+				slot5 = slot3[slot10]
 			end
 
-			slot15 = findTF(slot12, "icon_bg/count")
+			slot16 = findTF(slot13, "icon_bg/count")
 
-			setActive(slot15, true)
-			setText(slot15, slot14)
+			setActive(slot16, true)
+			setText(slot16, slot15)
+			onButton(slot0, slot13:Find("click"), function ()
+				setActive(uv0:Find("click"), false)
+
+				uv1 = uv1 - 1
+			end, SFX_PANEL)
+			setActive(slot13:Find("click"), slot2.config.level > 10)
+
+			slot6 = slot6 + (slot2.config.level > 10 and 1 or 0)
 		end
 	end
 
 	setText(slot0:findTF("cost/consume", slot0.materialPanel), slot4)
 	setActive(slot0.startBtn, slot3)
 
-	slot6 = Equipment.canUpgrade(slot2.configId)
+	slot7 = Equipment.canUpgrade(slot2.configId)
 
-	setActive(slot0.materialsContain, slot6)
-	setActive(slot0.overLimit, not slot6)
+	setActive(slot0.materialsContain, slot7)
+	setActive(slot0.overLimit, not slot7)
 	onButton(slot0, slot0.startBtn, function ()
 		if not uv0 then
 			if not ItemTipPanel.ShowItemTipbyID(uv1[1]) then
@@ -289,21 +298,27 @@ function slot0.updateMaterials(slot0)
 			return
 		end
 
-		if uv2.playerVO.gold < uv3 then
+		if uv2 > 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_costcheck_error"))
+
+			return
+		end
+
+		if uv3.playerVO.gold < uv4 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 				{
 					59001,
-					uv3 - uv2.playerVO.gold,
-					uv3
+					uv4 - uv3.playerVO.gold,
+					uv4
 				}
 			})
 
 			return
 		end
 
-		uv2:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE)
+		uv3:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE)
 	end, SFX_UI_DOCKYARD_REINFORCE)
-	setButtonEnabled(slot0.startBtn, slot6)
+	setButtonEnabled(slot0.startBtn, slot7)
 end
 
 function slot0.upgradeFinish(slot0, slot1, slot2)

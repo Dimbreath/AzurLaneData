@@ -29,7 +29,7 @@ function slot0.Entrance(slot0, slot1)
 	slot18 = slot17:GetStageID()
 
 	if slot16:IsSelfBoss(slot17) and slot17:GetSelfFightCnt() > 0 then
-		slot9 = pg.gameset.joint_boss_oil_consume.key_value
+		slot9 = slot17:GetOilConsume()
 	end
 
 	if slot6 and slot14.oil < slot9 then

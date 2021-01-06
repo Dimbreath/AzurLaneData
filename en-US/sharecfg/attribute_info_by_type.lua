@@ -3,62 +3,62 @@ pg.attribute_info_by_type = {
 	{
 		id = 1,
 		name = "durability",
-		condition = "耐久"
+		condition = "HP"
 	},
 	{
 		id = 2,
 		name = "cannon",
-		condition = "炮击"
+		condition = "FP"
 	},
 	{
 		id = 3,
 		name = "torpedo",
-		condition = "雷击"
+		condition = "TRP"
 	},
 	{
 		id = 4,
 		name = "antiaircraft",
-		condition = "防空"
+		condition = "AA"
 	},
 	{
 		id = 5,
 		name = "air",
-		condition = "航空"
+		condition = "AVI"
 	},
 	{
 		id = 6,
 		name = "reload",
-		condition = "装填"
+		condition = "RLD"
 	},
 	{
 		id = 7,
 		name = "armor",
-		condition = "装甲"
+		condition = "Armor"
 	},
 	{
 		id = 8,
 		name = "hit",
-		condition = "命中"
+		condition = "ACC"
 	},
 	{
 		id = 9,
 		name = "dodge",
-		condition = "机动"
+		condition = "EVA"
 	},
 	{
 		id = 10,
 		name = "speed",
-		condition = "航速"
+		condition = "Speed"
 	},
 	{
 		id = 11,
 		name = "luck",
-		condition = "幸运"
+		condition = "LCK"
 	},
 	{
 		id = 12,
 		name = "antisub",
-		condition = "反潜"
+		condition = "ASW"
 	},
 	all = {
 		1,

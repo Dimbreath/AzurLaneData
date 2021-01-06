@@ -1534,6 +1534,9 @@ Current expansions: <color=#92fc63>$3</color>
 	equipment_max_level = {
 		tip = "Gear level cap"
 	},
+	equipment_upgrade_costcheck_error = {
+		tip = "Please confirm the amount of material will be spend for upgrading "
+	},
 	exercise_count_insufficient = {
 		tip = "<color=#92fc63>You don't have enough exercises.</color>"
 	},
@@ -12225,7 +12228,7 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 		tip = "<color=red>Unclaimed</color>"
 	},
 	word_shipState_guild_event = {
-		tip = "This ship is participating in Operation Siren and cannot be retired. "
+		tip = "This ship is participating in Guild Operation and cannot be retired."
 	},
 	us_error_download_painting = {
 		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
@@ -13009,7 +13012,7 @@ next character that appears on-screen.
 				info = "2. About Rigging Fortification:"
 			},
 			{
-				info = "Recruited META ships can be enhanced via the Rigging Fortification menu. Fortifying a META ship's rigging lets you upgrade theirfirepower, torpedoes, aviation, and reload stats."
+				info = "Recruited META ships can be enhanced via the Rigging Fortification menu. Fortifying a META ship's rigging lets you upgrade their fire power, torpedoes, aviation, and reload stats."
 			},
 			{
 				info = "Enhancing these stats past a certain threshold grants you access to additional bonus stat boosts."
@@ -13050,7 +13053,7 @@ next character that appears on-screen.
 		tip = "Insufficient Ashes Coordinates. "
 	},
 	special_transform_limit_reach = {
-		tip = "Unable to exchange; you already have all the retrofit items or the corresponding retrofitted ships. "
+		tip = "Unable to obtain more copies of this retrofit item "
 	},
 	meta_pt_notenough = {
 		tip = "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"
@@ -13108,6 +13111,9 @@ next character that appears on-screen.
 	},
 	world_boss_maintenance = {
 		tip = "You are unable to begin an Ashes Showdown immediately before server maintenance. "
+	},
+	commander_is_in_guild = {
+		tip = "The Meowfficer is currently in Guild Operation "
 	},
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"

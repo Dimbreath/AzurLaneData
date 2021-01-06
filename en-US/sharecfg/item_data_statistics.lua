@@ -3916,8 +3916,8 @@ pg.item_data_statistics = {
 	},
 	[10121] = {
 		drop_gold_max = 0,
-		name = "潜艇用Mark VIII鱼雷T3设计图",
-		display = "潜艇用Mark VIII鱼雷T3设计图",
+		name = "Submarine-only Mark VIII Torpedo T3 Design ",
+		display = "Submarine-only Mark VIII Torpedo T3 Design ",
 		type = 9,
 		is_world = 0,
 		shop_id = -1,
@@ -105182,7 +105182,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{
@@ -106482,7 +106482,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{
@@ -106702,7 +106702,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{

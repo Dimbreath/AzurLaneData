@@ -231,7 +231,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "You're going nowhere, bitch.",
+			say = "You're going nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

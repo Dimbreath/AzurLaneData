@@ -802,7 +802,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30184] = {
 		ship_group = 30184,
-		name = "Puuta",
+		name = "Pooky",
 		sculpture = "liangyue_3"
 	},
 	[10311] = {
