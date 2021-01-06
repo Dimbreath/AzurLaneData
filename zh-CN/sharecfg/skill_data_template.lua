@@ -59124,6 +59124,38 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800075] = {
+		desc_get = "",
+		name = "破敌之炬",
+		type = 1,
+		max_level = 10,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+		id = 800075,
+		system_transform = {
+			[51.0] = 800075
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800077] = {
+		desc_get = "",
+		name = "破敌之炬",
+		type = 1,
+		max_level = 10,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
+		id = 800077,
+		system_transform = {
+			[51.0] = 800077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -60218,6 +60250,8 @@ pg.skill_data_template = {
 		800050,
 		800060,
 		800071,
-		800072
+		800072,
+		800075,
+		800077
 	}
 }

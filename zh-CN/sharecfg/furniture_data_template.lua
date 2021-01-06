@@ -6229,30 +6229,30 @@ pg.furniture_data_template = {
 	},
 	[100023] = {
 		can_rotate = 0,
-		describe = "占坑",
+		describe = "来点热闹的节庆氛围吧~",
 		gain_by = "",
 		type = 11,
 		dir = 0,
 		dorm_id = 0,
-		effect = "",
-		is_get_time_note = 0,
 		picture = "",
-		belong = 1,
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
 		is_3d_obj = 0,
 		tag = 6,
 		spine_extra = "",
 		level = 1,
 		rarity = 5,
-		spine_action_replace = "",
-		canputon = 0,
 		themeId = 0,
-		icon = "feiqiuqianicon",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
 		count = 1,
-		name = "1月签到家具占坑",
-		id = 100023,
+		name = "节庆的烟花",
 		advice = 0,
+		icon = "yanhuadanicon",
+		id = 100023,
 		comfortable = 0,
-		deblocking = 1,
 		size = {
 			2,
 			2
@@ -6261,45 +6261,6 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
-		},
-		spine = {
-			{
-				"feiqiuqianB",
-				"normal"
-			},
-			{
-				"feiqiuqianT"
-			},
-			{
-				{
-					0,
-					0
-				},
-				{
-					{
-						"sit"
-					}
-				},
-				{},
-				{
-					1
-				}
-			},
-			{},
-			{
-				0,
-				0
-			},
-			{
-				1,
-				1
-			},
-			0.5
-		},
-		animator = {
-			{
-				"feiqiuqianCharControl"
-			}
 		},
 		interAction_group = {}
 	},

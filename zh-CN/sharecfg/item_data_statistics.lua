@@ -114371,7 +114371,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{
@@ -115671,7 +115671,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{
@@ -115891,7 +115891,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				4,
-				408102,
+				408101,
 				1
 			},
 			{
@@ -124961,7 +124961,7 @@ pg.item_data_statistics = {
 （<color=#92fc63>5.0%</color>）香槟换装  初梦蓝彩；
 （<color=#92fc63>5.0%</color>）贝尔法斯特换装  倾城之华扇；
 （<color=#92fc63>5.0%</color>）佐治亚换装  雅色彩华；
-（<color=#92fc63>5.0%</color>）{namecode:27}换装  新年羽板球大战！；
+（<color=#92fc63>5.0%</color>）{namecode:27}换装  新年板羽球大战！；
 （<color=#92fc63>5.0%</color>）海因里希亲王换装  花火烂漫的春绘卷；
 （<color=#92fc63>5.0%</color>）U-37换装  轻弹浅唱正月时；
 （<color=#92fc63>4.5%</color>）纽伦堡换装  正月的漫游；

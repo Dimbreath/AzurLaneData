@@ -705,7 +705,7 @@ function slot0.displayFleetInfo(slot0)
 	slot4 = 0
 
 	if slot0.boss and slot0.boss:IsSelf() and slot0.boss:GetSelfFightCnt() > 0 then
-		slot4 = pg.gameset.joint_boss_oil_consume.key_value
+		slot4 = slot0.boss:GetOilConsume()
 	end
 
 	setActive(slot0._popup, slot0.contextData.system ~= SYSTEM_DUEL)

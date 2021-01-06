@@ -77,6 +77,16 @@ function slot0.GetSelfFightCnt(slot0)
 	return slot0.fightCount
 end
 
+function slot0.GetOilConsume(slot0)
+	if not slot0:IsSelf() then
+		return 0
+	end
+
+	slot2 = pg.gameset.joint_boss_oil_consume.description
+
+	return slot2[math.min(slot0.fightCount + 1, #slot2)]
+end
+
 function slot0.SetRankCnt(slot0, slot1)
 	slot0.rankCount = slot1
 end

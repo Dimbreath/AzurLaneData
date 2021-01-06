@@ -63831,7 +63831,7 @@ pg.ship_skin_template = {
 		bg_sp = "1102",
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "朝潮和服",
+		desc = "新年快乐，我是正在与指挥官共度新年的{namecode:145}。指挥官，{namecode:145}想要从这里下来了，能稍微接一下我吗？",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zhaochao_4",
@@ -65867,7 +65867,7 @@ pg.ship_skin_template = {
 	},
 	[301842] = {
 		ship_group = 30184,
-		name = "新年羽板球大战！",
+		name = "新年板羽球大战！",
 		bg_sp = "",
 		group_index = 2,
 		illustrator2 = -1,

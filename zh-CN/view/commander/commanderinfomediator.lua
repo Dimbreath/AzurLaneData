@@ -120,6 +120,10 @@ function slot0.register(slot0)
 			selectedIds = uv0.contextData.materialIds,
 			ignoredIds = slot3,
 			onCommander = function (slot0, slot1, slot2, slot3)
+				if getProxy(GuildProxy):getRawData() and slot4:ExistCommander(slot0.id) then
+					return false, i18n("commander_is_in_guild")
+				end
+
 				if nowWorld:CheckCommanderInFleet(slot0.id) then
 					return false, i18n("commander_is_in_bigworld")
 				end

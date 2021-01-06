@@ -310,7 +310,11 @@ function slot0.SetAircraftAttFromMother(slot0, slot1)
 	slot0._attr = slot2
 	slot2.battleUID = slot0:GetUniqueID()
 	slot2.hostUID = slot1:GetUniqueID()
-	slot2.id = slot1._attr.id
+
+	if not type(slot1._attr.id) == "string" or string.find(slot1._attr.id, "enemy_") == nil then
+		slot2.id = slot1._attr.id
+	end
+
 	slot3 = uv0.GetAttr(slot1)
 
 	for slot7, slot8 in ipairs(uv0.AttrListInheritance) do

@@ -276,7 +276,7 @@ function slot1(slot0, slot1, slot2, slot3)
 
 	slot8 = false
 
-	if (slot0 == SYSTEM_WORLD_BOSS or slot0 == SYSTEM_WORLD) and WorldConst.FetchWorldShip(slot1.id) then
+	if slot0 == SYSTEM_WORLD and WorldConst.FetchWorldShip(slot1.id) then
 		slot8 = slot9:IsBroken()
 	end
 

@@ -1513,6 +1513,11 @@ end
 function slot0.usePlayerSkill(slot0)
 	Time.timeScale = 0.05
 
+	LeanTween.delayedCall(go(slot0.specialTf), 3, System.Action(function ()
+		if Time.timeScale ~= 1 then
+			Time.timeScale = 1
+		end
+	end))
 	slot0.player:skill()
 	slot0.snowballController:clearEnemySnowball()
 	setActive(slot0.specialTf, true)
@@ -1651,6 +1656,10 @@ function slot0.willExit(slot0)
 		LeanTween.cancel(go(slot0._tf))
 	end
 
+	if slot0.specialTf and LeanTween.isTweening(go(slot0.specialTf)) then
+		LeanTween.cancel(go(slot0.specialTf))
+	end
+
 	if slot0.specialEffect and LeanTween.isTweening(go(slot0.specialEffect)) then
 		LeanTween.cancel(go(slot0.specialEffect))
 	end
@@ -1659,6 +1668,7 @@ function slot0.willExit(slot0)
 		slot0.timer:Stop()
 	end
 
+	Time.timeScale = 1
 	slot0.timer = nil
 end
 

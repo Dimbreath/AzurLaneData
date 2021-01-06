@@ -555,7 +555,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是预习了充分资料而已哦，总之先带客人先过去。",
+			say = "只是充分预习了资料而已哦，总之带客人先过去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

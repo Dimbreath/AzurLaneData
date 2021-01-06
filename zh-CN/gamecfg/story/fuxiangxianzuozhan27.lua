@@ -241,7 +241,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个嘛，只能说各自有各自的风格吧。对吧金刚，你之前不是在皇家呆过一阵子么？",
+			say = "这个嘛，只能说各自有各自的风格吧。对吧{namecode:70}，你之前不是在皇家呆过一阵子么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

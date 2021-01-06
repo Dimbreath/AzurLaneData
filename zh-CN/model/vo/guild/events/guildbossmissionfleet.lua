@@ -346,4 +346,14 @@ function slot0.BuildBattleBuffList(slot0)
 	return slot1
 end
 
+function slot0.ExistCommander(slot0, slot1)
+	for slot6, slot7 in pairs(slot0:getCommanders()) do
+		if slot7.id == slot1 then
+			return true
+		end
+	end
+
+	return false
+end
+
 return slot0

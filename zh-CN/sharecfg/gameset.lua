@@ -1643,8 +1643,26 @@ pg.gameset = {
 		key_value = 23
 	},
 	joint_boss_oil_consume = {
-		description = "",
-		key_value = 40
+		key_value = 0,
+		description = {
+			0,
+			40,
+			20,
+			20,
+			10,
+			10,
+			10,
+			10,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			1
+		}
 	},
 	joint_boss_ap_recove_cnt_pre_day = {
 		description = "",
@@ -1676,5 +1694,9 @@ pg.gameset = {
 			100,
 			100
 		}
+	},
+	world_boss_joindamage = {
+		description = "",
+		key_value = 200
 	}
 }
