@@ -795,6 +795,9 @@ pg.gametip = {
 	word_equipment_intensify = {
 		tip = "強化"
 	},
+	word_equipment_special = {
+		tip = "その他"
+	},
 	word_primary_weapons = {
 		tip = "主兵装"
 	},
@@ -11714,6 +11717,26 @@ GET!
 	equipment_upgrade_initial_node = {
 		tip = "この兵装は兵装開発では入手出来ません"
 	},
+	pizzahut_help = {
+		tip = {
+			{
+				info = [[
+■概要
+「饅頭ピザ屋」とは、「饅頭の食材」を集め、報酬を
+入手できるミニイベントになります。
+
+■遊び方
+・3章以降のメイン海域（ノーマル）か、イベント「虚
+畳なりし限象」海域（EX除く）の敵中枢艦隊を撃破
+すると、「饅頭の食材」を入手可能
+・「饅頭の食材」累計入手数に応じて、イベント画面で
+吹雪の限定着せ替えなど、様々な報酬を入手可能
+・「饅頭の食材」累計獲得数報酬を全部入手すると、画
+面左の「饅頭ピザ」をタップすることで、オリジナル
+の饅頭ピザを表示させることが可能！]]
+			}
+		}
+	},
 	towerclimbing_gametip = {
 		tip = {
 			{
@@ -12403,7 +12426,7 @@ GET!
 		tip = "$1の大作戦が発令中のため、大作戦を選択できません"
 	},
 	guild_join_event_cnt_label = {
-		tip = "参加可能回数："
+		tip = "今月参加可能回数："
 	},
 	guild_join_event_max_cnt_tip = {
 		tip = "参加可能回数が不足しています"
@@ -12421,7 +12444,7 @@ GET!
 		tip = "艦隊を編集できません"
 	},
 	guild_fleet_exist_same_kind_ship = {
-		tip = "同名艦を選択できません"
+		tip = "すでに支援派遣として大艦隊作戦に参加しています"
 	},
 	guild_event_exist_same_kind_ship = {
 		tip = "同名艦が存在しているため、艦隊編成を行えません"
@@ -12581,6 +12604,9 @@ GET!
 	},
 	guild_battle_log = {
 		tip = "[$1] $2 は大艦隊資金$3 を消費し、大艦隊作戦を発令しました"
+	},
+	guild_tech_change_log = {
+		tip = "[$1] $2 は大艦隊兵站・開発項目を$3に変更"
 	},
 	guild_use_donateitem_success = {
 		tip = "資源拠出可能回数が+$1回復しました"
@@ -12828,7 +12854,9 @@ GET!
 ることで作戦を完了させることが出来ます。
 「作戦事件を参加する」「敵強敵を撃破する」と、報酬
 を受け取ることが出来ます。
-]]
+
+大艦隊作戦は毎月2回まで参加できます（大艦隊作戦の
+作戦事件の参加は無制限です）。]]
 			},
 			{
 				info = [[
@@ -12930,6 +12958,45 @@ GET!
 	},
 	word_shipState_guild_event = {
 		tip = "大艦隊作戦に参加しているため、退役できません"
+	},
+	commander_is_in_guild = {
+		tip = "大艦隊強敵戦に編成されています"
+	},
+	guild_assult_ship_recommend = {
+		tip = "大艦隊作戦・支援派遣の優先枠に設定しました"
+	},
+	guild_cancel_assult_ship_recommend = {
+		tip = "大艦隊作戦・支援派遣の通常枠に設定しました"
+	},
+	guild_assult_ship_recommend_conflict = {
+		tip = "大艦隊作戦・支援派遣の優先枠に設定されています"
+	},
+	guild_recommend_limit = {
+		tip = "大艦隊作戦・支援派遣の優先枠はすでに9隻が設定されています"
+	},
+	guild_cancel_assult_ship_recommend_conflict = {
+		tip = "大艦隊作戦・支援派遣の通常枠に設定されています"
+	},
+	guild_mission_complate = {
+		tip = "大艦隊任務完了：$1"
+	},
+	guild_operation_event_occurrence = {
+		tip = "大艦隊作戦で新しい作戦事件が発生中です。確認しますか？"
+	},
+	guild_transfer_president_confirm = {
+		tip = "「艦隊司令」権限を$1に委譲すると、指揮官は「一般メンバー」になります。委譲を行いますか？"
+	},
+	guild_damage_ranking = {
+		tip = "順位"
+	},
+	guild_total_damage = {
+		tip = "ダメージ"
+	},
+	guild_donate_list_updated = {
+		tip = "物資拠出回数がリセットされました"
+	},
+	guild_donate_list_update_failed = {
+		tip = "物資拠出回数がリセットされませんました"
 	},
 	help_rollingBallGame = {
 		tip = {
@@ -14032,7 +14099,7 @@ META」艦船に対応する「解析Pt」を入手することが
 	world_boss_maintenance = {
 		tip = "メンテナンス開始直前のため、挑戦できません"
 	},
-	commander_is_in_guild = {
-		tip = "大艦隊強敵戦に編成されています"
+	world_boss_inbattle = {
+		tip = "余燼との戦闘中のため、新たに余燼戦を開始できません"
 	}
 }

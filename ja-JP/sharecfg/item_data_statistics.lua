@@ -10444,8 +10444,8 @@ pg.item_data_statistics = {
 	},
 	[30914] = {
 		drop_gold_max = 0,
-		name = "定向·研发图纸SSR型",
-		display = "使用后可从T3部件中任意选择一种获得1个",
+		name = "開発用兵装設計図SSR",
+		display = "レアリティSSRの「兵装開発図」を選択して入手可能。兵装開発に使用可能",
 		type = 13,
 		is_world = 0,
 		shop_id = -1,
@@ -10484,8 +10484,8 @@ pg.item_data_statistics = {
 	},
 	[30915] = {
 		drop_gold_max = 0,
-		name = "定向·研发图纸UR型",
-		display = "使用后可从T3部件中任意选择一种获得1个",
+		name = "開発用兵装設計図UR",
+		display = "レアリティURの「兵装開発図」を選択して入手可能。兵装開発に使用可能",
 		type = 13,
 		is_world = 0,
 		shop_id = -1,
@@ -10500,7 +10500,17 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
+				18118,
+				1
+			},
+			{
+				2,
 				18120,
+				1
+			},
+			{
+				2,
+				18122,
 				1
 			},
 			{
@@ -32142,14 +32152,14 @@ pg.item_data_statistics = {
 	},
 	[50004] = {
 		drop_gold_max = 0,
-		name = "キャンディケイン",
-		display = "美味しくて面白い形をしたクリスマスキャンディ<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		name = "海軍カレー",
+		display = "甘口？辛口？好みは人それぞれ…<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		type = 3,
 		is_world = 0,
 		shop_id = 50007,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/christmas",
+		icon = "Props/haijungali",
 		rarity = 2,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -115452,6 +115462,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59163] = {
+		drop_gold_max = 0,
+		name = "饅頭の食材",
+		display = "集めると、オリジナル饅頭ピザが製作可能に…？イベント終了後に削除されます",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/bishengke_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59163,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59164] = {
 		drop_gold_max = 0,
 		name = "祝祭広場・店舗増築材",
@@ -116018,6 +116047,25 @@ pg.item_data_statistics = {
 		shiptrans_id = 0,
 		virtual_type = 0,
 		id = 59191,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59195] = {
+		drop_gold_max = 0,
+		name = "訓練Pt",
+		display = "「帝国の先触れ」報酬交換用アイテム。イベント終了後に削除される。",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59195,
 		display_icon = {},
 		price = {},
 		index = {}
@@ -127197,6 +127245,7 @@ pg.item_data_statistics = {
 		59159,
 		59160,
 		59162,
+		59163,
 		59164,
 		59165,
 		59167,
@@ -127227,6 +127276,7 @@ pg.item_data_statistics = {
 		59193,
 		59194,
 		59191,
+		59195,
 		59601,
 		59602,
 		59603,

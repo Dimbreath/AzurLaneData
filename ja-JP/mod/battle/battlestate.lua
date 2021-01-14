@@ -194,57 +194,9 @@ function slot2.Update(slot0)
 end
 
 function slot2.GenerateVertifyData(slot0)
-	slot1 = nil
-
-	for slot5 = 1, (slot0 ~= nil or #uv0.BattleVertifyTable) and slot0 do
-		uv0.BattleVertifyTable[BVCurIndex].hash = GetDataValue(uv0.BattleVertifyTable[BVCurIndex].data)
-		BVCurIndex = BVCurIndex % #uv0.BattleVertifyTable + 1
-	end
-
-	BattleVertify = BattleVertify or {}
-	slot2 = GetSpeNum()
-	BattleVertify.configDataVertify = slot2(uv0.Battle.BattleConfig, 0)
-	BattleVertify.constDataVertify = slot2(pg.bfConsts, 0)
 end
 
 function slot2.Vertify()
-	if not BattleVertify then
-		return false, CC_TYPE_0
-	end
-
-	for slot3 = 1, #uv0.BattleVertifyTable do
-		if uv0.BattleVertifyTable[slot3].hash ~= uv0.BattleVertifyTable[slot3].hashCheck then
-			return false, slot3
-		end
-	end
-
-	if BattleVertify.configDataVertify ~= uv0.BattleConfigVertify then
-		return false, CC_TYPE_6
-	end
-
-	if BattleVertify.constDataVertify ~= uv0.BattleConstVertify then
-		return false, CC_TYPE_7
-	end
-
-	if BattleVertify.playerShipVertifyFail then
-		return false, CC_TYPE_8
-	end
-
-	if uv0.Battle.BattleState.GetInstance():GetBattleType() ~= SYSTEM_DUEL then
-		RivalLevelVertiry = nil
-	end
-
-	if RivalLevelVertiry and RivalLevelVertiry ~= BattleVertify.rivalLevel then
-		return false, CC_TYPE_9
-	end
-
-	if BattleVertify.cloneShipVertiry then
-		return false, CC_TYPE_10
-	end
-
-	RivalLevelVertiry = nil
-	BattleVertify = nil
-
 	return true, -1
 end
 
@@ -299,6 +251,7 @@ function slot2.BattleTimeUp(slot0)
 end
 
 function slot2.DoResult(slot0)
+	slot0._sceneMediator:PauseCharacterAction(true)
 	slot0._dataProxy:BotPercentage(slot0._weaponCommand:GetBotActiveDuration())
 	slot0._dataProxy:HPRatioStatistics()
 	slot0._endFunc(slot0._dataProxy:GetStatistics())
@@ -361,6 +314,7 @@ function slot2.disableCommon(slot0)
 	slot0._sceneMediator:AllBulletNeutralize()
 	slot0._sceneMediator:AllCharAnimAutoCalcComplex(false)
 	uv0.Battle.BattleCameraUtil.GetInstance():StopShake()
+	uv0.Battle.BattleCameraUtil.GetInstance():Deactive()
 	slot0._uiMediator:DisableComponent()
 	slot0:Deactive()
 end

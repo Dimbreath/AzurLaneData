@@ -183,6 +183,7 @@ function slot0.didEnter(slot0)
 
 						uv0:uiExitAnimating()
 						LeanTween.delayedCall(0.3, System.Action(function ()
+							nowWorld:GetBossProxy():UnlockCacheBoss()
 							uv0:emit(uv1.ON_CLOSE)
 						end))
 					end)
@@ -192,6 +193,7 @@ function slot0.didEnter(slot0)
 
 					uv0:uiExitAnimating()
 					LeanTween.delayedCall(0.3, System.Action(function ()
+						nowWorld:GetBossProxy():UnlockCacheBoss()
 						uv0:emit(uv1.ON_CLOSE)
 					end))
 				end
@@ -201,6 +203,7 @@ function slot0.didEnter(slot0)
 
 			uv0:uiExitAnimating()
 			LeanTween.delayedCall(0.3, System.Action(function ()
+				nowWorld:GetBossProxy():UnlockCacheBoss()
 				uv0:emit(uv1.ON_CLOSE)
 			end))
 		end
@@ -269,6 +272,10 @@ function slot0.didEnter(slot0)
 			setParent(slot0, uv0._tf)
 			slot0.transform:SetAsFirstSibling()
 		end)
+	end
+
+	if slot0._currentForm == uv0.FORM_PREVIEW and slot0._currentFleetVO:isLegalToFight() ~= true then
+		triggerButton(slot0._checkBtn)
 	end
 end
 
@@ -476,8 +483,10 @@ function slot0.loadAllCharacter(slot0)
 	end
 
 	function slot3(slot0, slot1)
-		for slot5, slot6 in ipairs(slot0) do
-			slot7 = uv0._shipVOs[slot6]:getPrefab()
+		slot5 = 3
+
+		for slot5 = 1, math.min(#slot0, slot5) do
+			slot7 = uv0._shipVOs[slot0[slot5]]:getPrefab()
 
 			table.insert(uv1, function (slot0)
 				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)

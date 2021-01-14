@@ -49,7 +49,7 @@ function slot0.GeneralPackage(slot0, slot1)
 		end
 	end
 
-	slot8, slot9 = GetBattleCheckResult(slot7, slot0.token, slot0.statistics._totalTime)()
+	slot8, slot9 = GetBattleCheckResult(slot7, slot0.token, slot0.statistics._totalTime)
 
 	return {
 		system = slot4,

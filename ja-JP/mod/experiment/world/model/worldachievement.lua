@@ -8,20 +8,21 @@ slot0.Fields = {
 function slot0.Setup(slot0, slot1)
 	slot0.id = slot1
 	slot0.config = pg.world_target_data[slot0.id]
+	slot2 = {}
 
-	table.foreachi(slot0.config.condition, function (slot0, slot1)
-		slot2 = WorldTrigger.New()
+	for slot6, slot7 in ipairs(slot0.config.condition) do
+		slot8 = WorldTrigger.New()
 
-		slot2:Setup(slot1[1])
+		slot8:Setup(slot7[1])
 
-		slot2.progress = 0
-		slot2.maxProgress = slot1[2]
-		slot2.desc = uv0.config.condition_text[slot0]
+		slot8.progress = 0
+		slot8.maxProgress = slot7[2]
+		slot8.desc = slot0.config.condition_text[slot6]
 
-		table.insert(uv1, slot2)
-	end)
+		table.insert(slot2, slot8)
+	end
 
-	slot0.triggers = {}
+	slot0.triggers = slot2
 end
 
 function slot0.NetUpdate(slot0, slot1)

@@ -7,8 +7,14 @@ slot0.ON_SUBMIT_TASK = "GuildOfficeMediator:ON_SUBMIT_TASK"
 slot0.UPDATE_WEEKLY_TASK = "GuildOfficeMediator:UPDATE_WEEKLY_TASK"
 slot0.ON_PURCHASE_SUPPLY = "GuildOfficeMediator:ON_PURCHASE_SUPPLY"
 slot0.GET_SUPPLY_AWARD = "GuildOfficeMediator:GET_SUPPLY_AWARD"
+slot0.REFRES_DONATE_LIST = "GuildOfficeMediator:REFRES_DONATE_LIST"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.REFRES_DONATE_LIST, function (slot0, slot1)
+		uv0:sendNotification(GAME.GUILD_DONATE_LIST_UPDATE, {
+			callback = slot1
+		})
+	end)
 	slot0:bind(uv0.UPDATE_WEEKLY_TASK, function (slot0)
 		uv0:sendNotification(GAME.GUILD_WEEKLY_TASK_PROGREE_UPDATE)
 	end)

@@ -59,16 +59,16 @@ function slot0.Update(slot0, slot1)
 	slot2 = slot1
 	slot3 = nil
 
-	if slot1:getConfig("item_transform_num") > 0 then
+	if slot1:getConfig("item_transform_item_type") > 0 then
 		slot2 = {
 			type = slot1.type,
 			id = slot1.id,
 			count = slot1:getConfig("item_transform_num")
 		}
 		slot3 = {
-			type = DROP_TYPE_RESOURCE,
-			id = slot1:getConfig("item_transform_resource"),
-			count = slot1:getConfig("item_transform_resource_num")
+			type = slot1:getConfig("item_transform_item_type"),
+			id = slot1:getConfig("item_transform_item_id"),
+			count = slot1:getConfig("item_transform_item_number")
 		}
 	end
 

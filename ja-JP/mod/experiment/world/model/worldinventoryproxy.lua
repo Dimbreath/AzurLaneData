@@ -68,8 +68,13 @@ function slot0.CalcResetExchangeResource(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
-		if slot6:getConfig("item_transform_resource") > 0 then
-			slot1[slot7] = defaultValue(slot1[slot7], 0) + math.floor(slot6.count / slot6:getConfig("item_transform_num")) * slot6:getConfig("item_transform_resource_num")
+		if ({
+			type = slot6:getConfig("item_transform_item_type"),
+			id = slot6:getConfig("item_transform_item_id"),
+			count = slot6:getConfig("item_transform_item_number")
+		}).type > 0 then
+			slot1[slot7.type] = slot1[slot7.type] or {}
+			slot1[slot7.type][slot7.id] = defaultValue(slot1[slot7.type][slot7.id], 0) + math.floor(slot6.count / slot6:getConfig("item_transform_num")) * slot7.count
 		end
 	end
 

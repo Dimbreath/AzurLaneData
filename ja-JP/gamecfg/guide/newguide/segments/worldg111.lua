@@ -47,7 +47,7 @@ return {
 					}
 				},
 				clickUI = {
-					path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/exit_button"
+					path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/exit_button"
 				}
 			}
 		}

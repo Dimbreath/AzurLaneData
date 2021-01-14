@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "――――！！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",

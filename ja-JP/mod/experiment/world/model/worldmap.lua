@@ -2,7 +2,7 @@ slot0 = class("WorldMap", import("...BaseEntity"))
 slot0.Fields = {
 	config = "table",
 	valid = "boolean",
-	active = "boolean",
+	clearFlag = "boolean",
 	cells = "table",
 	gid = "number",
 	findex = "number",
@@ -12,6 +12,7 @@ slot0.Fields = {
 	isPressing = "boolean",
 	becomeSairen = "boolean",
 	visionFlag = "boolean",
+	isLoss = "boolean",
 	bottom = "number",
 	centerCellFOV = "table",
 	skipFleetLocationUpdate = "boolean",
@@ -22,7 +23,7 @@ slot0.Fields = {
 	left = "number",
 	ports = "table",
 	id = "number",
-	clearFlag = "boolean",
+	active = "boolean",
 	right = "number"
 }
 slot0.Listeners = {
@@ -875,17 +876,19 @@ function slot0.GetLongMoveRange(slot0, slot1)
 		until slot11 and not slot11.isObstacle
 	end
 
-	table.foreachi(slot6, function (slot0, slot1)
-		if slot1.dp[0] then
-			table.insert(uv0, {
-				row = slot1.row,
-				column = slot1.column,
-				stay = slot1.dp[0]
+	slot12 = {}
+
+	for slot16, slot17 in ipairs(slot6) do
+		if slot17.dp[0] then
+			table.insert(slot12, {
+				row = slot17.row,
+				column = slot17.column,
+				stay = slot17.dp[0]
 			})
 		end
-	end)
+	end
 
-	return {}, slot5
+	return slot12, slot5
 end
 
 function slot0.IsStayPoint(slot0, slot1, slot2)
@@ -1044,7 +1047,7 @@ function slot0.WriteBack(slot0, slot1, slot2)
 			})
 		end
 	else
-		slot3.lossFlag = 1
+		slot0.isLoss = true
 
 		slot3:IncDamageLevel(slot6)
 
@@ -1126,12 +1129,6 @@ function slot0.TriggerEventEffectKeys(slot0, slot1)
 		if uv0:GetCell(slot0.row, slot0.column):GetAliveAttachment() and slot2.type == WorldMapAttachment.TypeEvent and slot2:GetEventEffect() == uv1 then
 			slot2:UpdateData(slot2.data - 1)
 		end
-	end)
-end
-
-function slot0.GetLossFleet(slot0)
-	return _.detect(slot0:GetFleets(), function (slot0)
-		return slot0.lossFlag == 1
 	end)
 end
 

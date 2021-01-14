@@ -9,10 +9,16 @@ function slot0.Ctor(slot0, slot1)
 	slot0.userNameTxt = findTF(slot0._tr, "info/username"):GetComponent(typeof(Text))
 	slot0.levelTxt = findTF(slot0._tr, "info/lv/Text"):GetComponent(typeof(Text))
 	slot0.startList = UIItemList.New(findTF(slot0._tr, "info/stars"), findTF(slot0._tr, "info/stars/star_tpl"))
+	slot0.recommendBtn = findTF(slot0._tr, "info/recom_btn")
+	slot0.recommendBtnMark = slot0.recommendBtn:Find("mark")
+	slot0.viewEquipmentBtn = findTF(slot0._tr, "info/view_equipment")
+	slot0.tag = findTF(slot0._tr, "tag")
 end
 
 function slot0.Flush(slot0, slot1, slot2)
 	slot0.shipNameTxt.text = slot2.name
+	slot0.ship = slot2
+	slot0.member = slot1
 	slot0.levelTxt.text = slot2.level
 	slot4 = slot2:getStar()
 
@@ -38,6 +44,10 @@ function slot0.Flush(slot0, slot1, slot2)
 	end
 
 	slot0.mask.sprite = GetSpriteFromAtlas("ui/GuildBossAssultUI_atlas", slot5)
+
+	setActive(slot0.recommendBtnMark, slot2.guildRecommand)
+	setActive(slot0.tag, slot2.guildRecommand)
+	setActive(slot0.recommendBtn, GuildMember.IsAdministrator(getProxy(GuildProxy):getRawData():getSelfDuty()))
 end
 
 function slot0.Dispose(slot0)

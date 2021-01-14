@@ -240,11 +240,7 @@ end
 function slot0.initItem(slot0)
 	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[slot0.itemID].icon, "", slot0.itemIcon)
 	setText(slot0.itemCountText, slot0.bagProxy:getItemCountById(slot0.itemID))
-
-	slot2 = pg.item_data_statistics[slot0.itemID].name
-
-	print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", slot2)
-	setText(slot0.itemNameText, slot2)
+	setText(slot0.itemNameText, pg.item_data_statistics[slot0.itemID].name)
 end
 
 function slot0.isExpOverFlow(slot0)

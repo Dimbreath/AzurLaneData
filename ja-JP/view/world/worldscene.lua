@@ -118,7 +118,24 @@ function slot0.init(slot0)
 	slot0.wsDragProxy.transform = slot0.rtDragLayer
 	slot0.wsDragProxy.wsTimer = slot0.wsTimer
 
-	slot0.wsDragProxy:Setup()
+	slot0.wsDragProxy:Setup({
+		clickCall = function (slot0, slot1)
+			if uv0.svScannerPanel:isShowing() then
+				slot2, slot3 = uv0:CheckScannerEnable(uv0:ScreenPos2MapPos(slot1.position))
+
+				if slot2 then
+					uv0.svScannerPanel:ActionInvoke("DisplayWindow", slot2, slot3)
+				else
+					uv0.svScannerPanel:ActionInvoke("HideWindow")
+				end
+			else
+				uv0:OnClickMap(uv0:ScreenPos2MapPos(slot1.position))
+			end
+		end,
+		longPressCall = function ()
+			uv0:OnLongPressMap(uv0:ScreenPos2MapPos(Vector3(Input.mousePosition.x, Input.mousePosition.y)))
+		end
+	})
 
 	slot0.wsMapCamera = WSMapCamera.New()
 	slot0.wsMapCamera.camera = slot0.camera
@@ -450,7 +467,7 @@ function slot0.SetInMap(slot0, slot1, slot2)
 					if nowWorld:GetRound() == WorldConst.RoundElse then
 						uv0:Op("OpReqRound")
 					else
-						uv0:Op("OpInteractive", true)
+						uv0:Op("OpInteractive")
 					end
 				end)
 			end
@@ -781,9 +798,11 @@ function slot0.NewAtlasBottom(slot0, slot1)
 		}))
 	end, SFX_PANEL)
 	onButton(slot0, slot2.btnCollection, function ()
-		uv0:Op("OpOpenScene", SCENE.WORLD_COLLECTION, {
-			page = WorldMediaCollectionScene.PAGE_RECORD
-		})
+		WorldConst.ReqWorldCheck(function ()
+			uv0:Op("OpOpenScene", SCENE.WORLD_COLLECTION, {
+				page = WorldMediaCollectionScene.PAGE_RECORD
+			})
+		end)
 	end, SFX_PANEL)
 
 	return slot2
@@ -967,72 +986,15 @@ function slot0.InitMap(slot0)
 	end
 
 	slot0.wsMap:AddListener(WSMap.EventUpdateEventTips, slot0.onUpdateEventTips)
+	nowWorld:AddListener(World.EventUpdateRound, slot0.onUpdateRound)
+	nowWorld:AddListener(World.EventUpdateSubmarineSupport, slot0.onUpdateSubmarineSupport)
+	nowWorld:AddListener(World.EventAchieved, slot0.onAchievementAchieved)
 
-	slot1 = slot0.wsDragProxy.dragTrigger
-	slot2, slot3, slot4, slot5 = nil
+	slot1 = slot0.wsMap.map
 
-	slot1:AddPointDownFunc(function (slot0, slot1)
-		if uv0 then
-			uv1.wsTimer:RemoveInMapTimer(uv0)
-		end
-
-		uv0 = nil
-		uv3 = Vector3(slot1.position.x, slot1.position.y)
-		uv2 = 8
-		uv0 = uv1.wsTimer:AddInMapTimer(function ()
-			if ((Application.platform == PLATFORM_ANDROID or Application.platform == PLATFORM_IPHONEPLAYER) and Input.touchCount > 0 and Input.GetTouch(0).position or Input.mousePosition) and Vector3.Distance(uv0, slot0) < 1 then
-				uv1 = uv1 - 1
-
-				if uv1 <= 0 then
-					uv2:OnLongPressMap(uv2:ScreenPos2MapPos(uv0))
-					uv2.wsTimer:RemoveInMapTimer(uv3)
-
-					uv4 = true
-				end
-			else
-				uv2.wsTimer:RemoveInMapTimer(uv3)
-			end
-		end, 0.1, -1)
-
-		uv0:Start()
-	end)
-	slot1:AddPointUpFunc(function (slot0, slot1)
-		if uv0 then
-			uv1.wsTimer:RemoveInMapTimer(uv0)
-		end
-	end)
-	slot1:AddPointExitFunc(function (slot0, slot1)
-		if uv0 then
-			uv1.wsTimer:RemoveInMapTimer(uv0)
-		end
-	end)
-	slot1:AddPointClickFunc(function (slot0, slot1)
-		if Vector2.Distance(slot1.position, slot1.pressPosition) < 2 and not uv0 then
-			if uv1.svScannerPanel:isShowing() then
-				slot2, slot3 = uv1:CheckScannerEnable(uv1:ScreenPos2MapPos(slot1.position))
-
-				if slot2 then
-					uv1.svScannerPanel:ActionInvoke("DisplayWindow", slot2, slot3)
-				else
-					uv1.svScannerPanel:ActionInvoke("HideWindow")
-				end
-			else
-				uv1:OnClickMap(uv1:ScreenPos2MapPos(slot1.position))
-			end
-		end
-
-		uv0 = false
-	end)
-
-	slot6 = nowWorld
-	slot7 = slot0.wsMap.map
-
-	slot6:AddListener(World.EventUpdateRound, slot0.onUpdateRound)
-	slot6:AddListener(World.EventUpdateSubmarineSupport, slot0.onUpdateSubmarineSupport)
-	slot6:AddListener(World.EventAchieved, slot0.onAchievementAchieved)
-	slot0.wsDragProxy:UpdateMap(slot7)
+	slot0.wsDragProxy:UpdateMap(slot1)
 	slot0.wsDragProxy:Focus(slot0.wsMap:GetFleet().transform.position)
-	slot0.wsMapCamera:UpdateMap(slot7)
+	slot0.wsMapCamera:UpdateMap(slot1)
 	slot0:OnUpdateSubmarineSupport()
 	slot0:DoSubmitAutoCompleteTaskByMapLoaded()
 end
@@ -1061,7 +1023,6 @@ function slot0.DisposeMap(slot0)
 		slot1:RemoveListener(World.EventUpdateSubmarineSupport, slot0.onUpdateSubmarineSupport)
 		slot1:RemoveListener(World.EventAchieved, slot0.onAchievementAchieved)
 		slot0.wsMap.map:RemoveListener(WorldMap.EventUpdateActive, slot0.onDisposeMap)
-		slot0.wsDragProxy.dragTrigger:RemovePointClickFunc()
 		slot0.wsMap:Dispose()
 
 		slot0.wsMap = nil
@@ -1417,7 +1378,7 @@ function slot0.OnUpdateRound(slot0, slot1)
 	elseif slot2:GetRound() == WorldConst.RoundElse then
 		slot0:Op("OpReqRound")
 	else
-		slot0:Op("OpInteractive")
+		slot0:Op("OpInteractive", true)
 	end
 end
 
@@ -1436,7 +1397,9 @@ function slot0.OnFleetSelected(slot0, slot1, slot2)
 end
 
 function slot0.OnSelectFleet(slot0, slot1, slot2, slot3)
-	if slot3 ~= nowWorld:GetActiveMap():GetFleet() then
+	if slot3 == nowWorld:GetActiveMap():GetFleet() then
+		slot0:Op("OpMoveCamera", 0, 0.1)
+	else
 		slot0:Op("OpReqSwitchFleet", slot3)
 	end
 end
@@ -1447,7 +1410,7 @@ function slot0.OnClickCell(slot0, slot1)
 	if slot2:FindFleet(slot1.row, slot1.column) and slot4 ~= slot2:GetFleet() then
 		slot0:Op("OpReqSwitchFleet", slot4)
 	elseif slot2:CheckInteractive() then
-		slot0:Op("OpInteractive")
+		slot0:Op("OpInteractive", true)
 	elseif slot2:IsSign(slot1.row, slot1.column) and ManhattonDist({
 		row = slot3.row,
 		column = slot3.column
@@ -1896,9 +1859,9 @@ function slot0.CheckMoveQueue(slot0, slot1)
 	elseif slot0.moveQueue[#slot1].row ~= slot1[#slot1].row or slot0.moveQueue[#slot1].column ~= slot2.column then
 		slot0:ClearMoveQueue()
 	else
-		table.foreachi(slot1, function (slot0, slot1)
-			table.remove(uv0.moveQueue, 1)
-		end)
+		for slot6 = 1, #slot1 do
+			table.remove(slot0.moveQueue, 1)
+		end
 
 		if #slot0.moveQueue == 0 then
 			slot0.moveQueueInteractive = true

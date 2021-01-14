@@ -8916,6 +8916,36 @@ pg.activity_event_pt = {
 			0
 		}
 	},
+	[841] = {
+		link_id = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 1,
+		buff_group = "",
+		pic_list = "",
+		pt_list = "",
+		id_2 = 841,
+		id = 841,
+		pt = 182,
+		drop_display = "",
+		buff_time = "",
+		target = {
+			3000
+		},
+		drop_client = {
+			{
+				14,
+				304,
+				1
+			}
+		},
+		allplayer = {
+			0.1
+		},
+		day_unlock = {
+			0
+		}
+	},
 	[1020] = {
 		link_id = 0,
 		unlock_story = "",
@@ -11654,6 +11684,7 @@ pg.activity_event_pt = {
 		811,
 		815,
 		826,
+		841,
 		1020,
 		1021,
 		1022,

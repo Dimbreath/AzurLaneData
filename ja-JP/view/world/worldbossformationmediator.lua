@@ -19,6 +19,7 @@ function slot0.register(slot0)
 	slot3 = nowWorld:GetBossProxy()
 
 	slot0.viewComponent:SetBossProxy(slot3, slot0.contextData.bossId)
+	slot3:LockCacheBoss(slot0.contextData.bossId)
 	slot0.viewComponent:SetCurrentFleet(slot3:GetFleet())
 	slot0.viewComponent:SetPlayerInfo(getProxy(PlayerProxy):getData())
 	slot0:bind(uv0.REMOVE_SHIP, function (slot0, slot1, slot2)
@@ -54,14 +55,23 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_COMMIT_EDIT, function (slot0, slot1)
-		uv1:UpdateFleet(uv0.viewComponent._currentFleetVO)
+		slot2 = uv0.viewComponent._currentFleetVO
+
+		uv1:UpdateFleet(slot2)
+		uv1:SavaCacheShips(slot2)
 		slot1()
 	end)
 	slot0:bind(uv0.ON_AUTO, function (slot0, slot1)
 		uv0:onAutoBtn(slot1)
 	end)
 	slot0:bind(uv0.ON_START, function (slot0)
-		if uv0.contextData.isOther and uv1:GetPt() <= 0 then
+		if uv0.fleet:isLegalToFight() ~= true then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+
+			return
+		end
+
+		if uv1.contextData.isOther and uv0:GetPt() <= 0 then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
 
 			return
@@ -71,15 +81,14 @@ function slot0.register(slot0)
 			return
 		end
 
-		if uv0.contextData.isOther then
-			WorldBossScene.inOtherBossBattle = uv0.contextData.bossId
+		if uv1.contextData.isOther then
+			WorldBossScene.inOtherBossBattle = uv1.contextData.bossId
 		end
 
-		uv1:SavaCacheShips(uv0.viewComponent._currentFleetVO)
-		uv0:sendNotification(GAME.BEGIN_STAGE, {
-			bossId = uv0.contextData.bossId,
+		uv1:sendNotification(GAME.BEGIN_STAGE, {
+			bossId = uv1.contextData.bossId,
 			system = SYSTEM_WORLD_BOSS,
-			actID = slot1.id
+			actID = slot2.id
 		})
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)

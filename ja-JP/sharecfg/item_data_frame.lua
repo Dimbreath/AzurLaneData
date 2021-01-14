@@ -216,6 +216,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2019」殿堂入りページで入手可能",
 		scene = {}
 	},
+	[501] = {
+		name = "饅頭ピザ屋記念枠",
+		time_second = 0,
+		id = 501,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>美味しいピザを食べるピョ！</color>\n――コラボキャンペーン参加で入手可能",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -243,6 +251,7 @@ pg.item_data_frame = {
 		312,
 		401,
 		402,
-		403
+		403,
+		501
 	}
 }

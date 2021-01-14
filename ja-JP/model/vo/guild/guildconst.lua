@@ -25,7 +25,7 @@ slot0.TYPE_DONATE = 1
 slot0.TYPE_SUPPLY = 2
 slot0.WEEKLY_TASK = 3
 slot0.START_BATTLE = 4
-slot0.END_BATTLE = 5
+slot0.SWITCH_TOGGLE = 5
 slot0.TECHNOLOGY = 6
 slot0.TECHNOLOGY_OVER = 7
 slot0.CMD_TYPE_JOIN = 1
@@ -61,6 +61,8 @@ slot0.REQUEST_FORMATION_CD = 5
 slot0.MISSION_MAX_SHIP_CNT = 4
 slot0.FORMATION_CD_TIME = 21600
 slot0.MISSION_MAX_FLEET_CNT = 4
+slot0.RECOMMAND_SHIP = 0
+slot0.CANCEL_RECOMMAND_SHIP = 1
 
 function slot0.MISSION_BOSS_MAX_CNT()
 	return pg.guildset.operation_daily_boss_count.key_value

@@ -24117,6 +24117,100 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107072] = {
+		ship_group = 10707,
+		name = "デリシャス·ラブ！",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "ふーふー…焼き立てピザ、やっぱり最高！ほら、指揮官もこれ食べてみない？今度エンプラ姉にもオススメしよう！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "dahuangfeng_3",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 107072,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "dahuangfeng_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70479,
+		voice_actor = 24,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.536,
+					1.01,
+					0
+				}
+			},
+			plane = {
+				{
+					1.552,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.601,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107080] = {
 		ship_group = 10708,
 		name = "ワスプ",
@@ -36132,6 +36226,114 @@ pg.ship_skin_template = {
 				{
 					-0.009,
 					0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.148,
+					1.146,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.423,
+							2.327,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202125] = {
+		ship_group = 20212,
+		name = "完璧すぎる代理店長",
+		bg_sp = "",
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "いらっしゃいませ。お一人様ですか？かしこまりました、席にご案内致します――あら、どうかしましたか？はぁ…今は店長代理を務めておりますので、ご主人様ではなく「お客様」としておもてなししておりますが？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "beierfasite_7",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 202125,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beierfasite_7",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70364,
+		voice_actor = 39,
+		air_bomb_skin = "",
+		illustrator = 20,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			-11,
+			-170,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.119,
+					1.106,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.104,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
 					0
 				}
 			},
@@ -51479,6 +51681,114 @@ pg.ship_skin_template = {
 				{
 					0.996,
 					0.997,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301015] = {
+		ship_group = 30101,
+		name = "ドタバタウェイトレス",
+		bg_sp = "",
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "いらっしゃいませ！あ、指揮官！実は今ここでバイトしてるんだけどまだ実習中だから――わわ！？ふぅ…あ、危なかった……",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "chuixue_6",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 301015,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chuixue_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 116,
+		air_bomb_skin = "",
+		illustrator = 2,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.317,
+					1.201,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.244,
+					1.157,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.283,
+					1.129,
 					0
 				}
 			}
@@ -93359,6 +93669,7 @@ pg.ship_skin_template = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
+		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			4
@@ -93435,9 +93746,6 @@ pg.ship_skin_template = {
 			"touch_body",
 			"touch_special",
 			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
 		}
 	},
 	[408010] = {
@@ -136092,7 +136400,8 @@ pg.ship_skin_template = {
 		},
 		[10707] = {
 			107070,
-			107071
+			107071,
+			107072
 		},
 		[10708] = {
 			107080
@@ -136299,6 +136608,7 @@ pg.ship_skin_template = {
 			202122,
 			202123,
 			202124,
+			202125,
 			202126,
 			202128
 		},
@@ -136546,7 +136856,8 @@ pg.ship_skin_template = {
 			301011,
 			301012,
 			301013,
-			301014
+			301014,
+			301015
 		},
 		[30105] = {
 			301050,
@@ -138390,6 +138701,7 @@ pg.ship_skin_template = {
 		107068,
 		107070,
 		107071,
+		107072,
 		107080,
 		107090,
 		107091,
@@ -138502,6 +138814,7 @@ pg.ship_skin_template = {
 		202122,
 		202123,
 		202124,
+		202125,
 		202126,
 		202128,
 		202130,
@@ -138640,6 +138953,7 @@ pg.ship_skin_template = {
 		301012,
 		301013,
 		301014,
+		301015,
 		301050,
 		301051,
 		301052,

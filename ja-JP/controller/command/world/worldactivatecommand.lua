@@ -13,10 +13,7 @@ function slot0.execute(slot0, slot1)
 				slot2:GetAtlas():AddPortTransportDic()
 			end
 
-			slot3 = slot2:GetBossProxy()
-
-			slot3:ClearCacheShips()
-			slot3:GenFleet()
+			slot2:GetBossProxy():GenFleet()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_activate_error_", slot0.result))
 		end

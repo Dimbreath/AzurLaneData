@@ -576,4 +576,24 @@ function slot0.FetchRawShipVO(slot0)
 	return getProxy(BayProxy):getRawData()[slot0]
 end
 
+function slot0.ReqWorldCheck(slot0)
+	slot1 = {}
+
+	if nowWorld.type == World.TypeBase then
+		table.insert(slot1, function (slot0)
+			pg.ConnectionMgr.GetInstance():Send(33000, {
+				type = 0
+			}, 33001, function (slot0)
+				slot1 = getProxy(WorldProxy)
+
+				slot1:BuildWorld(World.TypeFull)
+				slot1:NetFullUpdate(slot0)
+				uv0()
+			end)
+		end)
+	end
+
+	seriesAsync(slot1, slot0)
+end
+
 return slot0

@@ -157,8 +157,11 @@ function slot0.onUILoaded(slot0, slot1)
 	pg.SeriesGuideMgr.GetInstance():dispatch({
 		view = slot0.__cname
 	})
+
+	slot5 = slot0.__cname
+
 	pg.NewStoryMgr.GetInstance():OnSceneEnter({
-		view = slot0.__cname
+		view = slot5
 	})
 
 	slot0._isLoaded = true
@@ -167,9 +170,10 @@ function slot0.onUILoaded(slot0, slot1)
 
 	slot0.optionBtns = {}
 
-	table.foreachi(slot0.optionsPath, function (slot0, slot1)
-		table.insert(uv0.optionBtns, uv0:findTF(slot1))
-	end)
+	for slot5, slot6 in ipairs(slot0.optionsPath) do
+		table.insert(slot0.optionBtns, slot0:findTF(slot6))
+	end
+
 	slot0:init()
 	setActive(slot0._tf, not slot0.event:chectConnect(uv0.LOADED))
 	slot0:emit(uv0.LOADED)

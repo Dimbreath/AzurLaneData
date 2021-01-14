@@ -32,6 +32,9 @@ end
 function slot1.AddVictoryState(slot0, slot1, slot2)
 end
 
+function slot1.AddVictorySwimState(slot0, slot1, slot2)
+end
+
 function slot1.AddStandState(slot0, slot1, slot2)
 end
 

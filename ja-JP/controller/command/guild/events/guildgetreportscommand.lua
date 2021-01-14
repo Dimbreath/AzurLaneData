@@ -18,10 +18,8 @@ function slot0.execute(slot0, slot1)
 
 		for slot5, slot6 in ipairs(slot0.reports) do
 			slot7 = nil
-			slot7 = (slot6.event_type ~= GuildConst.REPORT_TYPE_BOSS or GuildBossReport.New(slot6)) and GuildReport.New(slot6)
 
-			print("report: ", slot7.id, ":", slot7.state)
-			uv0:AddReport(slot7)
+			uv0:AddReport((slot6.event_type ~= GuildConst.REPORT_TYPE_BOSS or GuildBossReport.New(slot6)) and GuildReport.New(slot6))
 		end
 
 		if uv1 then

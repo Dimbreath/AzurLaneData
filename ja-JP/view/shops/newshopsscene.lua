@@ -353,4 +353,38 @@ function slot0.willExit(slot0)
 	slot0.shopBtns = nil
 end
 
+slot0.openPagesLevelData = {
+	[slot0.TYPE_ACTIVITY] = 1,
+	[slot0.TYPE_SHOP_STREET] = 1,
+	[slot0.TYPE_MILITARY_SHOP] = "MilitaryExerciseMediator",
+	[slot0.TYPE_GUILD] = 1,
+	[slot0.TYPE_SHAM_SHOP] = "ShamShop",
+	[slot0.TYPE_FRAGMENT] = "FragmentShop"
+}
+
+function slot0.getSceneOpen(slot0, slot1)
+	if type(slot1) == "string" then
+		if table.indexof({
+			"activity",
+			"shopstreet",
+			"supplies",
+			"sham",
+			"fragment",
+			"guild"
+		}, slot1) then
+			slot1 = slot3
+		end
+
+		if not slot3 then
+			slot1 = uv0.TYPE_ACTIVITY
+		end
+	end
+
+	if NewShopsScene.openPagesLevelData[slot1] and NewShopsScene.openPagesLevelData[slot1] ~= 1 then
+		return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0, NewShopsScene.openPagesLevelData[slot1])
+	end
+
+	return true
+end
+
 return slot0

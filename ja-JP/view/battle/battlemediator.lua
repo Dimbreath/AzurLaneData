@@ -580,9 +580,15 @@ function slot0.GenBattleData(slot0)
 		slot8 = getProxy(BayProxy)
 
 		if slot6:GetBossById(slot0.contextData.bossId):GetHP() then
-			slot1.RepressInfo = {
-				repressEnemyHpRant = 1
-			}
+			if slot10:IsSelf() then
+				slot1.RepressInfo = {
+					repressEnemyHpRant = slot11 / slot10:GetMaxHp()
+				}
+			else
+				slot1.RepressInfo = {
+					repressEnemyHpRant = 1
+				}
+			end
 		end
 
 		slot12 = _.values(slot7:getCommanders())
@@ -834,6 +840,7 @@ function slot0.GenBattleData(slot0)
 				level = slot13.level,
 				equipment = slot14,
 				properties = slot13.properties,
+				baseProperties = slot13.properties,
 				proficiency = {
 					1,
 					1,
@@ -862,6 +869,7 @@ function slot0.GenBattleData(slot0)
 				level = slot13.level,
 				equipment = slot14,
 				properties = slot13.properties,
+				baseProperties = slot13.properties,
 				proficiency = {
 					1,
 					1,
@@ -890,6 +898,7 @@ function slot0.GenBattleData(slot0)
 				level = slot13.level,
 				equipment = slot14,
 				properties = slot13.properties,
+				baseProperties = slot13.properties,
 				proficiency = {
 					1,
 					1,

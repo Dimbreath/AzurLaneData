@@ -238,11 +238,11 @@ function slot0.UpdateStaticMark(slot0, slot1)
 end
 
 function slot0.OnUpdatePressingAward(slot0, slot1, slot2, slot3)
-	table.foreach(slot3 or slot0.atlas.transportDic, function (slot0, slot1)
-		if slot1 then
-			uv0:UpdateEntranceMask(uv0.atlas:GetEntrance(slot0))
+	for slot7, slot8 in pairs(slot3 or slot0.atlas.transportDic) do
+		if slot8 then
+			slot0:UpdateEntranceMask(slot0.atlas:GetEntrance(slot7))
 		end
-	end)
+	end
 end
 
 return slot0

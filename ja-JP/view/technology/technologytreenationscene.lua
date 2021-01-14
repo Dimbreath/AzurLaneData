@@ -207,11 +207,11 @@ function slot0.updateTecItem(slot0, slot1)
 				uv0.preferredWidth = slot0
 
 				if uv1 == #pg.fleet_tech_group.all then
-					uv2.scrollRectCom.horizontalNormalizedPosition = 1.1
+					uv2.scrollRectCom.horizontalNormalizedPosition = 1
 				end
 			end)):setOnComplete(System.Action(function ()
 				if uv0 == #pg.fleet_tech_group.all then
-					uv1.scrollRectCom.horizontalNormalizedPosition = 1.1
+					uv1.scrollRectCom.horizontalNormalizedPosition = 1
 				end
 			end))
 		else

@@ -761,7 +761,7 @@ pg.voice_actor_CN = {
 		code = 190
 	},
 	{
-		actor_name = "高橋未奈美",
+		actor_name = "高橋ミナミ",
 		code = 191
 	},
 	{

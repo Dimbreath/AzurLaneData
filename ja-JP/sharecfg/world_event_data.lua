@@ -4106,8 +4106,8 @@ pg.world_event_data = {
 			{
 				0,
 				0,
-				24,
-				24
+				0,
+				0
 			}
 		},
 		slg_bufflist = {},
@@ -5312,16 +5312,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				-1,
-				-1,
-				-1,
-				-1
-			},
-			{
-				1,
-				-1,
-				1,
-				-1
+				0,
+				0,
+				0,
+				0
 			}
 		},
 		slg_bufflist = {},
@@ -5354,16 +5348,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				-1,
-				1,
-				-1,
-				1
-			},
-			{
-				1,
-				1,
-				1,
-				1
+				0,
+				0,
+				0,
+				0
 			}
 		},
 		slg_bufflist = {},
@@ -62773,7 +62761,6 @@ pg.world_event_data = {
 		id = 1000004,
 		event_op = {},
 		effect = {
-			10000040,
 			10000041,
 			10000042
 		},
@@ -62932,6 +62919,41 @@ pg.world_event_data = {
 				0,
 				0,
 				0,
+				0
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[1000008] = {
+		enemyicon = 0,
+		name = "",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 0,
+		icontype = 2,
+		scan_desc = "",
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 0,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 1000008,
+		event_op = {},
+		effect = {
+			10000040
+		},
+		grid = {
+			{
+				8,
+				0,
+				8,
 				0
 			}
 		},
@@ -65109,7 +65131,7 @@ pg.world_event_data = {
 		name = "巨大浮氷",
 		scale = 0,
 		visuality = 0,
-		is_scanevent = 1,
+		is_scanevent = 0,
 		icontype = 2,
 		scan_desc = "航路を阻む巨大な浮氷",
 		obstacle = 3,
@@ -67576,7 +67598,7 @@ pg.world_event_data = {
 		name = "",
 		scale = 0,
 		visuality = 0,
-		is_scanevent = 0,
+		is_scanevent = 1,
 		icontype = 2,
 		scan_desc = "",
 		obstacle = 0,
@@ -68081,16 +68103,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				-1,
-				-1,
-				-1,
-				-1
-			},
-			{
-				1,
-				-1,
-				1,
-				-1
+				0,
+				0,
+				0,
+				0
 			}
 		},
 		slg_bufflist = {},
@@ -68123,16 +68139,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				-1,
-				1,
-				-1,
-				1
-			},
-			{
-				1,
-				1,
-				1,
-				1
+				0,
+				0,
+				0,
+				0
 			}
 		},
 		slg_bufflist = {},
@@ -68257,6 +68267,100 @@ pg.world_event_data = {
 				0,
 				0,
 				0,
+				0
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[1002006] = {
+		enemyicon = 0,
+		name = "",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 0,
+		icontype = 2,
+		scan_desc = "",
+		obstacle = 2,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 0,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 1002006,
+		event_op = {},
+		effect = {
+			10020013
+		},
+		grid = {
+			{
+				-1,
+				0,
+				-1,
+				1
+			},
+			{
+				0,
+				1,
+				0,
+				1
+			},
+			{
+				1,
+				0,
+				1,
+				1
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		deviation = {}
+	},
+	[1002007] = {
+		enemyicon = 0,
+		name = "",
+		scale = 0,
+		visuality = 0,
+		is_scanevent = 0,
+		icontype = 2,
+		scan_desc = "",
+		obstacle = 2,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 0,
+		discover_type = 2,
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 1002007,
+		event_op = {},
+		effect = {
+			10020013
+		},
+		grid = {
+			{
+				-1,
+				-1,
+				-1,
+				0
+			},
+			{
+				0,
+				-1,
+				0,
+				-1
+			},
+			{
+				1,
+				-1,
+				1,
 				0
 			}
 		},
@@ -68831,26 +68935,26 @@ pg.world_event_data = {
 			{
 				-2,
 				-2,
-				-1,
+				-2,
+				1
+			},
+			{
+				-2,
+				2,
+				1,
 				2
 			},
 			{
-				1,
-				-2,
+				2,
+				-1,
 				2,
 				2
 			},
 			{
-				0,
+				-1,
 				-2,
-				0,
-				-1
-			},
-			{
-				0,
-				1,
-				0,
-				2
+				2,
+				-2
 			}
 		},
 		slg_bufflist = {},
@@ -69072,7 +69176,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002208] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -69107,7 +69211,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002209] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -69142,7 +69246,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002210] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -69177,7 +69281,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002211] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -69212,7 +69316,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002212] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -69247,7 +69351,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002213] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -70047,7 +70151,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002229] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -70084,7 +70188,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002230] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -70510,7 +70614,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[1002301] = {
-		enemyicon = 4,
+		enemyicon = 0,
 		name = "",
 		scale = 0,
 		visuality = 0,
@@ -71101,7 +71205,7 @@ pg.world_event_data = {
 		deviation = {}
 	},
 	[2000001] = {
-		enemyicon = 0,
+		enemyicon = 4,
 		name = "",
 		scale = 90,
 		visuality = 0,
@@ -71155,7 +71259,7 @@ pg.world_event_data = {
 		}
 	},
 	[2000002] = {
-		enemyicon = 0,
+		enemyicon = 4,
 		name = "",
 		scale = 90,
 		visuality = 0,
@@ -71209,7 +71313,7 @@ pg.world_event_data = {
 		}
 	},
 	[2000003] = {
-		enemyicon = 0,
+		enemyicon = 5,
 		name = "",
 		scale = 90,
 		visuality = 0,
@@ -71287,7 +71391,7 @@ pg.world_event_data = {
 		}
 	},
 	[2000004] = {
-		enemyicon = 0,
+		enemyicon = 5,
 		name = "",
 		scale = 90,
 		visuality = 0,
@@ -71365,7 +71469,7 @@ pg.world_event_data = {
 		}
 	},
 	[2000005] = {
-		enemyicon = 0,
+		enemyicon = 4,
 		name = "",
 		scale = 90,
 		visuality = 0,
@@ -71419,7 +71523,7 @@ pg.world_event_data = {
 		}
 	},
 	[2000006] = {
-		enemyicon = 0,
+		enemyicon = 4,
 		name = "",
 		scale = 90,
 		visuality = 0,
@@ -132289,10 +132393,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -133885,10 +133989,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				18
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -135481,10 +135585,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				18
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -137042,10 +137146,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				15
+				4,
+				4,
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -138297,10 +138401,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -139552,10 +139656,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				4,
+				4,
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -140807,10 +140911,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -142062,10 +142166,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				4,
+				4,
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -143506,10 +143610,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				4,
+				4,
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -144761,10 +144865,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -146205,10 +146309,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -147649,10 +147753,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -149093,10 +149197,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -150537,10 +150641,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				16,
-				6
+				4,
+				4,
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -151104,10 +151208,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				20,
-				7
+				3,
+				3,
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152098,10 +152202,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				20,
-				7
+				4,
+				4,
+				18,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -153353,10 +153457,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -154608,10 +154712,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				4,
+				4,
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -156169,10 +156273,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				12,
-				12
+				4,
+				4,
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -157730,10 +157834,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				12,
-				12
+				4,
+				4,
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -159291,10 +159395,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				12,
-				12
+				4,
+				4,
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -160852,10 +160956,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				12,
-				12
+				4,
+				4,
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -162413,10 +162517,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				15,
-				10
+				4,
+				4,
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -163857,10 +163961,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -165418,10 +165522,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				15,
-				10
+				4,
+				4,
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -166979,10 +167083,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				12,
-				12
+				4,
+				4,
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -168423,10 +168527,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				4,
+				4,
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -169867,10 +169971,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				4,
+				4,
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -171463,10 +171567,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				18
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -173059,10 +173163,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				18,
-				11
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -174655,10 +174759,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				23
+				4,
+				4,
+				6,
+				21
 			}
 		},
 		slg_bufflist = {},
@@ -175910,10 +176014,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				4,
+				4,
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -177471,10 +177575,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				12,
-				12
+				4,
+				4,
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -178726,10 +178830,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -179981,10 +180085,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -181542,10 +181646,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				15,
-				10
+				4,
+				4,
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -183103,10 +183207,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				12,
-				12
+				4,
+				4,
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -184358,10 +184462,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -185613,10 +185717,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -187057,10 +187161,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -188501,10 +188605,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -189068,10 +189172,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				23,
-				8
+				3,
+				3,
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190097,10 +190201,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				23,
-				8
+				4,
+				4,
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -191693,10 +191797,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				18,
-				11
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -193254,10 +193358,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				7,
-				20
+				4,
+				4,
+				5,
+				18
 			}
 		},
 		slg_bufflist = {},
@@ -194815,10 +194919,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				15,
-				10
+				4,
+				4,
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -196259,10 +196363,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -197855,10 +197959,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				18
+				4,
+				4,
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -199299,10 +199403,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -200554,10 +200658,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				11,
-				6
+				4,
+				4,
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -201998,10 +202102,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				4,
+				4,
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -203442,10 +203546,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				13
+				4,
+				4,
+				6,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -205038,10 +205142,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				18,
-				11
+				4,
+				4,
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -206293,10 +206397,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -207737,10 +207841,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				4,
+				4,
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -209333,10 +209437,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				23
+				4,
+				4,
+				6,
+				21
 			}
 		},
 		slg_bufflist = {},
@@ -210777,10 +210881,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				13,
-				8
+				4,
+				4,
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -212032,10 +212136,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -213287,10 +213391,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				11
+				4,
+				4,
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214731,10 +214835,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -215986,10 +216090,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				8,
-				8
+				4,
+				4,
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -217430,10 +217534,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				10
+				4,
+				4,
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -218874,10 +218978,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				16,
-				6
+				4,
+				4,
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -220435,10 +220539,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				10,
-				15
+				4,
+				4,
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -221879,10 +221983,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				6,
-				16
+				4,
+				4,
+				4,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -222446,10 +222550,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				23,
-				8
+				3,
+				3,
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223475,10 +223579,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				23,
-				8
+				4,
+				4,
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -225071,10 +225175,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -226667,10 +226771,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -228263,10 +228367,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -229578,10 +229682,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				18,
-				18
+				4,
+				4,
+				16,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -231174,10 +231278,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -232770,10 +232874,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -234366,10 +234470,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -235962,10 +236066,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -237558,10 +237662,10 @@ pg.world_event_data = {
 		},
 		grid = {
 			{
-				2,
-				2,
-				14,
-				14
+				4,
+				4,
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -239329,6 +239433,7 @@ pg.world_event_data = {
 		1000005,
 		1000006,
 		1000007,
+		1000008,
 		1000010,
 		1000011,
 		1000012,
@@ -239412,6 +239517,8 @@ pg.world_event_data = {
 		1002003,
 		1002004,
 		1002005,
+		1002006,
+		1002007,
 		1002100,
 		1002101,
 		1002102,

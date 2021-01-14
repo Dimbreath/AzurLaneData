@@ -57,6 +57,10 @@ function slot0.OnInit(slot0)
 		end
 
 		uv0:emit(BackYardDecorationMediator.APPLY_THEME, uv0.theme, function (slot0, slot1)
+			uv0.contextData.applyCnt = ((uv0.contextData.applyCnt or 0) + 1) % 5
+
+			gcAll(uv0.contextData.applyCnt == 0)
+
 			if slot0 then
 				uv0:emit(BackYardDecorationMediator.ADD_FURNITURES, uv0.theme.id, slot1, uv1)
 				uv0:Hide()

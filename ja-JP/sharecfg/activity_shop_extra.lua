@@ -1470,6 +1470,42 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[53] = {
+		num_limit = 1,
+		activity = 588,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301015,
+		scene = "",
+		id = 53,
+		order = 7,
+		time = {
+			{
+				{
+					2021,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[54] = {
 		num_limit = 1,
 		activity = 606,
@@ -1845,7 +1881,7 @@ pg.activity_shop_extra = {
 		num = 1,
 		commodity_id = 301571,
 		id = 66,
-		order = 6,
+		order = 7,
 		scene = {
 			"scene NEWYEAR BACKHILL",
 			{
@@ -1925,6 +1961,7 @@ pg.activity_shop_extra = {
 		48,
 		51,
 		52,
+		53,
 		54,
 		55,
 		56,

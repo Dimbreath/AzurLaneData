@@ -156,19 +156,6 @@ function slot0.OnUpdate(slot0)
 		else
 			slot7 = slot7 .. " LV." .. slot2.config.level
 		end
-	elseif slot2.type == WorldMapAttachment.TypeTrap then
-		slot5 = true
-		slot6 = true
-
-		setActive(slot0.rtInfo:Find("Image"), true)
-		GetImageSpriteFromAtlasAsync("world/buff/" .. WorldBuff.GetTemplate(slot2.config.buff_id).icon, "", slot0.rtInfo:Find("Image"))
-		setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.desc))
-	elseif slot2.type == WorldMapAttachment.TypePort then
-		slot5 = slot2.config.port_camp > 0 and slot8 ~= nowWorld.realm
-		slot6 = true
-
-		setActive(slot0.rtInfo:Find("Image"), false)
-		setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.scan_desc))
 	elseif slot2.type == WorldMapAttachment.TypeEvent then
 		slot4 = slot2:GetBuffList()
 
@@ -186,21 +173,34 @@ function slot0.OnUpdate(slot0)
 			GetImageSpriteFromAtlasAsync("icondesc/" .. slot2.config.icon, "", slot0.rtInfo:Find("Image"))
 			setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.scan_desc))
 		end
+	elseif slot2.type == WorldMapAttachment.TypeTrap then
+		slot5 = true
+		slot6 = true
+
+		setActive(slot0.rtInfo:Find("Image"), true)
+		GetImageSpriteFromAtlasAsync("world/buff/" .. WorldBuff.GetTemplate(slot2.config.buff_id).icon, "", slot0.rtInfo:Find("Image"))
+		setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.desc))
+	elseif slot2.type == WorldMapAttachment.TypePort then
+		slot5 = slot2.config.port_camp > 0 and slot8 ~= nowWorld.realm
+		slot6 = true
+
+		setActive(slot0.rtInfo:Find("Image"), false)
+		setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.scan_desc))
 	end
 
 	setText(slot3, HXSet.hxLan(slot7))
 
-	slot8 = slot2:GetWeaknessBuff()
 	slot0.buffList = {}
 	slot0.weaknessList = {}
 
-	table.foreachi(slot4, function (slot0, slot1)
-		if slot1 == uv0 then
-			table.insert(uv1.weaknessList, slot1)
+	for slot12, slot13 in ipairs(slot4) do
+		if slot13 == slot2:GetWeaknessBuff() then
+			table.insert(slot0.weaknessList, slot13)
 		else
-			table.insert(uv1.buffList, slot1)
+			table.insert(slot0.buffList, slot13)
 		end
-	end)
+	end
+
 	slot0.buffUIItemList:align(#slot0.buffList)
 	slot0.weaknessUIItemList:align(#slot0.weaknessList)
 	setActive(slot0.rtInfo, slot6)

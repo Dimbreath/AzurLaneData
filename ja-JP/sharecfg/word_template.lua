@@ -2,9 +2,23 @@ pg = pg or {}
 slot0 = pg
 slot0.word_template = {}
 slot1 = slot0.word_template
-slot2 = nil
 
-function ()
+function temp()
+	uv0["屏"] = {
+		["蔽"] = {
+			["词"] = {
+				this = true
+			},
+			["?"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0.A = {
 		N = {
 			A = {
@@ -35,8 +49,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.B = {
 		I = {
 			T = {
@@ -76,9 +93,23 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.C = {
+		a = {
+			s = {
+				i = {
+					n = {
+						o = {
+							this = true
+						}
+					}
+				}
+			}
+		},
 		H = {
 			I = {
 				N = {
@@ -141,12 +172,20 @@ function ()
 					this = true
 				}
 			}
-		},
-		a = {
-			s = {
-				i = {
-					n = {
-						o = {
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.c = {
+		h = {
+			i = {
+				n = {
+					k = {
+						this = true,
+						s = {
 							this = true
 						}
 					}
@@ -154,8 +193,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.D = {
 		I = {
 			C = {
@@ -188,8 +230,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.F = {
 		["."] = {
 			U = {
@@ -234,8 +279,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.H = {
 		A = {
 			N = {
@@ -269,8 +317,23 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["Ｊ"] = {
+		["Ａ"] = {
+			["Ｐ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0.J = {
 		A = {
 			P = {
@@ -290,8 +353,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.K = {
 		A = {
 			F = {
@@ -312,8 +378,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.L = {
 		E = {
 			S = {
@@ -325,8 +394,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.M = {
 		A = {
 			N = {
@@ -366,8 +438,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.N = {
 		A = {
 			Z = {
@@ -397,8 +472,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.P = {
 		A = {
 			E = {
@@ -485,8 +563,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.Q = {
 		U = {
 			E = {
@@ -507,8 +588,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.R = {
 		A = {
 			P = {
@@ -531,8 +615,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.S = {
 		C = {
 			R = {
@@ -602,8 +689,23 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["Ｓ"] = {
+		["Ｅ"] = {
+			["Ｘ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0.T = {
 		I = {
 			T = {
@@ -620,8 +722,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.V = {
 		A = {
 			G = {
@@ -644,8 +749,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.W = {
 		A = {
 			N = {
@@ -688,469 +796,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0.c = {
-		h = {
-			i = {
-				n = {
-					k = {
-						this = true,
-						s = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["い"] = {
-		["て"] = {
-			["ま"] = {
-				["う"] = {
-					["ぞ"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["ん"] = {
-			["ぽ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["う"] = {
-		["ん"] = {
-			["こ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["え"] = {
-		["っ"] = {
-			["ち"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["お"] = {
-		["ま"] = {
-			["と"] = {
-				["め"] = {
-					["ロ"] = {
-						["ー"] = {
-							["ン"] = {
-								this = true
-							}
-						}
-					}
-				}
-			},
-			["ん"] = {
-				["こ"] = {
-					this = true
-				}
-			}
-		},
-		["花"] = {
-			["畑"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["か"] = {
-		["た"] = {
-			["わ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["き"] = {
-		["ょ"] = {
-			["う"] = {
-				["じ"] = {
-					["ん"] = {
-						["（"] = {
-							["狂"] = {
-								["人"] = {
-									["）"] = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["く"] = {
-		["ろ"] = {
-			["ん"] = {
-				["ぼ"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["し"] = {
-		["ね"] = {
-			this = true
-		},
-		["ん"] = {
-			["へ"] = {
-				["い"] = {
-					["み"] = {
-						["ん"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["じ"] = {
-		["ゃ"] = {
-			["っ"] = {
-				["ぷ"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["す"] = {
-		["か"] = {
-			["と"] = {
-				["ろ"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["せ"] = {
-		["む"] = {
-			["し"] = {
-				this = true
-			}
-		},
-		["る"] = {
-			["ふ"] = {
-				["ぬ"] = {
-					["ー"] = {
-						["ど"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["ん"] = {
-			["ず"] = {
-				["り"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["ぜ"] = {
-		["ん"] = {
-			["ら"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["ち"] = {
-		["え"] = {
-			["お"] = {
-				["く"] = {
-					["れ"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["じ"] = {
-			["ょ"] = {
-				this = true
-			}
-		},
-		["ゃ"] = {
-			["ん"] = {
-				["こ"] = {
-					["ろ"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["ん"] = {
-			["か"] = {
-				["す"] = {
-					this = true
-				}
-			},
-			["こ"] = {
-				this = true
-			},
-			["ち"] = {
-				["ん"] = {
-					this = true
-				}
-			},
-			["ば"] = {
-				this = true
-			},
-			["ぽ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["つ"] = {
-		["ん"] = {
-			["ぼ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["と"] = {
-		["さ"] = {
-			["つ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["ど"] = {
-		["か"] = {
-			["た"] = {
-				this = true
-			}
-		},
-		["も"] = {
-			["り"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["に"] = {
-		["ぐ"] = {
-			["ろ"] = {
-				this = true
-			}
-		},
-		["ん"] = {
-			["ぴ"] = {
-				["に"] = {
-					["ん"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["は"] = {
-		["く"] = {
-			["ち"] = {
-				this = true
-			}
-		},
-		["め"] = {
-			["ど"] = {
-				["り"] = {
-					this = true
-				}
-			},
-			["撮"] = {
-				["り"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["ひ"] = {
-		["に"] = {
-			["ん"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["び"] = {
-		["っ"] = {
-			["こ"] = {
-				this = true
-			},
-			["ち"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["ふ"] = {
-		["ぇ"] = {
-			["ら"] = {
-				this = true,
-				["ち"] = {
-					["お"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["ろ"] = {
-			["う"] = {
-				["し"] = {
-					["ゃ"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["ぶ"] = {
-		["っ"] = {
-			["か"] = {
-				["け"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["ぺ"] = {
-		["に"] = {
-			["す"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["ぽ"] = {
-		["ん"] = {
-			["び"] = {
-				["き"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["ま"] = {
-		["ん"] = {
-			["こ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["め"] = {
-		["く"] = {
-			["ら"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["や"] = {
-		["り"] = {
-			["ま"] = {
-				["ん"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["よ"] = {
-		["り"] = {
-			["め"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["り"] = {
-		["ょ"] = {
-			["う"] = {
-				["じ"] = {
-					["ょ"] = {
-						["く"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["れ"] = {
-		["い"] = {
-			["ぷ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["わ"] = {
-		["き"] = {
-			["が"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["ア"] = {
 		["ダ"] = {
 			["ル"] = {
@@ -1211,8 +861,32 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["い"] = {
+		["て"] = {
+			["ま"] = {
+				["う"] = {
+					["ぞ"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["ん"] = {
+			["ぽ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["イ"] = {
 		["ラ"] = {
 			["マ"] = {
@@ -1229,15 +903,33 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["ウ"] = {
 		["リ"] = {
 			this = true
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["う"] = {
+		["ん"] = {
+			["こ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["エ"] = {
 		["イ"] = {
 			["ズ"] = {
@@ -1280,8 +972,23 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["え"] = {
+		["っ"] = {
+			["ち"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["オ"] = {
 		["ナ"] = {
 			["ニ"] = {
@@ -1307,8 +1014,53 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["お"] = {
+		["ま"] = {
+			["と"] = {
+				["め"] = {
+					["ロ"] = {
+						["ー"] = {
+							["ン"] = {
+								this = true
+							}
+						}
+					}
+				}
+			},
+			["ん"] = {
+				["こ"] = {
+					this = true
+				}
+			}
+		},
+		["花"] = {
+			["畑"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ガ"] = {
+		["イ"] = {
+			["ジ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["カ"] = {
 		["ジ"] = {
 			["ノ"] = {
@@ -1319,17 +1071,23 @@ function ()
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["ガ"] = {
-		["イ"] = {
-			["ジ"] = {
+end
+
+temp()
+
+function temp()
+	uv0["か"] = {
+		["た"] = {
+			["わ"] = {
 				this = true
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["キ"] = {
 		["チ"] = {
 			["ガ"] = {
@@ -1355,8 +1113,35 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["き"] = {
+		["ょ"] = {
+			["う"] = {
+				["じ"] = {
+					["ん"] = {
+						["（"] = {
+							["狂"] = {
+								["人"] = {
+									["）"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ク"] = {
 		["ソ"] = {
 			this = true
@@ -1385,8 +1170,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["グ"] = {
 		["ラ"] = {
 			["ビ"] = {
@@ -1396,15 +1184,35 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["く"] = {
+		["ろ"] = {
+			["ん"] = {
+				["ぼ"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ゲ"] = {
 		["ス"] = {
 			this = true
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["コ"] = {
 		["ス"] = {
 			["メ"] = {
@@ -1412,8 +1220,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["サ"] = {
 		["イ"] = {
 			["ト"] = {
@@ -1440,8 +1251,32 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["し"] = {
+		["ね"] = {
+			this = true
+		},
+		["ん"] = {
+			["へ"] = {
+				["い"] = {
+					["み"] = {
+						["ん"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ジ"] = {
 		["ャ"] = {
 			["ッ"] = {
@@ -1451,8 +1286,25 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["じ"] = {
+		["ゃ"] = {
+			["っ"] = {
+				["ぷ"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ス"] = {
 		["カ"] = {
 			["ト"] = {
@@ -1507,8 +1359,25 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["す"] = {
+		["か"] = {
+			["と"] = {
+				["ろ"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["セ"] = {
 		["ッ"] = {
 			["ク"] = {
@@ -1534,8 +1403,41 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["せ"] = {
+		["む"] = {
+			["し"] = {
+				this = true
+			}
+		},
+		["る"] = {
+			["ふ"] = {
+				["ぬ"] = {
+					["ー"] = {
+						["ど"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["ん"] = {
+			["ず"] = {
+				["り"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ゼ"] = {
 		["ン"] = {
 			["ラ"] = {
@@ -1543,8 +1445,74 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["ぜ"] = {
+		["ん"] = {
+			["ら"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ち"] = {
+		["え"] = {
+			["お"] = {
+				["く"] = {
+					["れ"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["じ"] = {
+			["ょ"] = {
+				this = true
+			}
+		},
+		["ゃ"] = {
+			["ん"] = {
+				["こ"] = {
+					["ろ"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["ん"] = {
+			["か"] = {
+				["す"] = {
+					this = true
+				}
+			},
+			["こ"] = {
+				this = true
+			},
+			["ち"] = {
+				["ん"] = {
+					this = true
+				}
+			},
+			["ば"] = {
+				this = true
+			},
+			["ぽ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["チ"] = {
 		["ェ"] = {
 			["ン"] = {
@@ -1559,15 +1527,15 @@ function ()
 			}
 		},
 		["ャ"] = {
+			["Ｈ"] = {
+				this = true
+			},
 			["ン"] = {
 				["コ"] = {
 					["ロ"] = {
 						this = true
 					}
 				}
-			},
-			["Ｈ"] = {
-				this = true
 			}
 		},
 		["ョ"] = {
@@ -1596,8 +1564,23 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["つ"] = {
+		["ん"] = {
+			["ぼ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["テ"] = {
 		["ク"] = {
 			["ノ"] = {
@@ -1624,8 +1607,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["デ"] = {
 		["ブ"] = {
 			this = true
@@ -1638,8 +1624,40 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["ど"] = {
+		["か"] = {
+			["た"] = {
+				this = true
+			}
+		},
+		["も"] = {
+			["り"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["と"] = {
+		["さ"] = {
+			["つ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ナ"] = {
 		["ン"] = {
 			["パ"] = {
@@ -1647,8 +1665,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["ニ"] = {
 		["ガ"] = {
 			["ー"] = {
@@ -1664,8 +1685,87 @@ function ()
 			this = true
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["に"] = {
+		["ぐ"] = {
+			["ろ"] = {
+				this = true
+			}
+		},
+		["ん"] = {
+			["ぴ"] = {
+				["に"] = {
+					["ん"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["バ"] = {
+		["イ"] = {
+			["ブ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["は"] = {
+		["く"] = {
+			["ち"] = {
+				this = true
+			}
+		},
+		["め"] = {
+			["ど"] = {
+				["り"] = {
+					this = true
+				}
+			},
+			["撮"] = {
+				["り"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["パ"] = {
+		["チ"] = {
+			["ス"] = {
+				["ロ"] = {
+					this = true
+				}
+			},
+			["ン"] = {
+				["コ"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ハ"] = {
 		["ッ"] = {
 			["ピ"] = {
@@ -1707,33 +1807,26 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["バ"] = {
-		["イ"] = {
-			["ブ"] = {
+end
+
+temp()
+
+function temp()
+	uv0["び"] = {
+		["っ"] = {
+			["こ"] = {
+				this = true
+			},
+			["ち"] = {
 				this = true
 			}
 		}
 	}
-end()
-function ()
-	uv0["パ"] = {
-		["チ"] = {
-			["ス"] = {
-				["ロ"] = {
-					this = true
-				}
-			},
-			["ン"] = {
-				["コ"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["ビ"] = {
 		["ッ"] = {
 			["チ"] = {
@@ -1750,8 +1843,23 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["ひ"] = {
+		["に"] = {
+			["ん"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["フ"] = {
 		["ァ"] = {
 			["シ"] = {
@@ -1783,8 +1891,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["ブ"] = {
 		["ウ"] = {
 			["ヨ"] = {
@@ -1802,8 +1913,51 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["ふ"] = {
+		["ぇ"] = {
+			["ら"] = {
+				this = true,
+				["ち"] = {
+					["お"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["ろ"] = {
+			["う"] = {
+				["し"] = {
+					["ゃ"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ぶ"] = {
+		["っ"] = {
+			["か"] = {
+				["け"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["プ"] = {
 		["レ"] = {
 			["ゼ"] = {
@@ -1813,36 +1967,35 @@ function ()
 			}
 		},
 		["ロ"] = {
-			["奴"] = {
-				["隷"] = {
-					this = true
-				}
-			},
 			["市"] = {
 				["民"] = {
 					this = true
 				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["ホ"] = {
-		["ス"] = {
-			["ト"] = {
-				this = true
-			}
-		},
-		["テ"] = {
-			["ヘ"] = {
-				["ル"] = {
+			},
+			["奴"] = {
+				["隷"] = {
 					this = true
 				}
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["ぺ"] = {
+		["に"] = {
+			["す"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ボ"] = {
 		["ケ"] = {
 			this = true
@@ -1857,8 +2010,30 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["ホ"] = {
+		["ス"] = {
+			["ト"] = {
+				this = true
+			}
+		},
+		["テ"] = {
+			["ヘ"] = {
+				["ル"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ポ"] = {
 		["ル"] = {
 			["ノ"] = {
@@ -1873,8 +2048,25 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["ぽ"] = {
+		["ん"] = {
+			["び"] = {
+				["き"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["マ"] = {
 		["イ"] = {
 			["ミ"] = {
@@ -1905,8 +2097,35 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["ま"] = {
+		["ん"] = {
+			["こ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["め"] = {
+		["く"] = {
+			["ら"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["メ"] = {
 		["ル"] = {
 			["友"] = {
@@ -1914,8 +2133,37 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["や"] = {
+		["り"] = {
+			["ま"] = {
+				["ん"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["よ"] = {
+		["り"] = {
+			["め"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ラ"] = {
 		["ブ"] = {
 			["ホ"] = {
@@ -1923,8 +2171,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["リ"] = {
 		["ア"] = {
 			["友"] = {
@@ -1932,8 +2183,29 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["り"] = {
+		["ょ"] = {
+			["う"] = {
+				["じ"] = {
+					["ょ"] = {
+						["く"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["レ"] = {
 		["イ"] = {
 			["ジ"] = {
@@ -1947,6 +2219,9 @@ function ()
 				this = true
 			}
 		},
+		["ズ"] = {
+			this = true
+		},
 		["ス"] = {
 			["を"] = {
 				["コ"] = {
@@ -1955,13 +2230,25 @@ function ()
 					}
 				}
 			}
-		},
-		["ズ"] = {
-			this = true
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["れ"] = {
+		["い"] = {
+			["ぷ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["ロ"] = {
 		["ー"] = {
 			["シ"] = {
@@ -1973,99 +2260,205 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["万"] = {
-		["円"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["三"] = {
-		["国"] = {
-			["人"] = {
+end
+
+temp()
+
+function temp()
+	uv0["わ"] = {
+		["き"] = {
+			["が"] = {
 				this = true
 			}
 		}
 	}
-end()
-function ()
-	uv0["下"] = {
-		["流"] = {
+end
+
+temp()
+
+function temp()
+	uv0["阿"] = {
+		["片"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["愛"] = {
+		["液"] = {
 			this = true
 		},
-		["着"] = {
+		["人"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["不"] = {
-		["可"] = {
-			["触"] = {
-				["民"] = {
-					this = true
-				},
-				["賎"] = {
-					["民"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["中"] = {
-		["出"] = {
-			["し"] = {
+end
+
+temp()
+
+function temp()
+	uv0["慰"] = {
+		["安"] = {
+			["?"] = {
+				this = true
+			},
+			["婦"] = {
 				this = true
 			}
 		}
 	}
-end()
-function ()
-	uv0["九"] = {
-		["評"] = {
-			["論"] = {
-				["共"] = {
-					["産"] = {
-						["黨"] = {
-							this = true
-						}
-					}
-				}
+end
+
+temp()
+
+function temp()
+	uv0["淫"] = {
+		this = {
+			this = true
+		},
+		["語"] = {
+			this = true
+		},
+		["売"] = {
+			this = true
+		},
+		["乱"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["隠"] = {
+		["坊"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["英"] = {
+		["会"] = {
+			["話"] = {
+				this = true
 			}
 		}
 	}
-end()
-function ()
-	uv0["乱"] = {
-		["交"] = {
+end
+
+temp()
+
+function temp()
+	uv0["円"] = {
+		["光"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["交"] = {
-		["際"] = {
+end
+
+temp()
+
+function temp()
+	uv0["援"] = {
+		["助"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["人"] = {
-		["體"] = {
-			["實"] = {
-				["驗"] = {
+end
+
+temp()
+
+function temp()
+	uv0["王"] = {
+		["丹"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["億"] = {
+		["万"] = {
+			["長"] = {
+				["者"] = {
 					this = true
 				}
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["下"] = {
+		["着"] = {
+			this = true
+		},
+		["流"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["家"] = {
+		["出"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["火"] = {
+		["病"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["稼"] = {
+		["い"] = {
+			this = true
+		},
+		["ぐ"] = {
+			this = true
+		},
+		["げ"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["花"] = {
+		["粉"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["会"] = {
 		["え"] = {
 			["る"] = {
@@ -2080,305 +2473,88 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["低"] = {
-		["学"] = {
-			["歴"] = {
-				this = true
-			}
-		},
-		["脳"] = {
+end
+
+temp()
+
+function temp()
+	uv0["海"] = {
+		["豹"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["便"] = {
-		["秘"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["倭"] = {
-		["人"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["健"] = {
-		["康"] = {
-			["器"] = {
-				["具"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["傴"] = {
-		["僂"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["億"] = {
-		["万"] = {
-			["長"] = {
-				["者"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["儲"] = {
-		["か"] = {
+end
+
+temp()
+
+function temp()
+	uv0["姦"] = {
+		this = {
 			this = true
 		},
-		["け"] = {
+		["通"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["六"] = {
-		["合"] = {
-			["彩"] = {
-				this = true
-			}
-		},
-		["四"] = {
+end
+
+temp()
+
+function temp()
+	uv0["官"] = {
+		["能"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["円"] = {
-		["光"] = {
+end
+
+temp()
+
+function temp()
+	uv0["感"] = {
+		["染"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["処"] = {
-		["女"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["出"] = {
-		["会"] = {
-			this = true
-		},
-		["版"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["分"] = {
-		["際"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["刷"] = {
-		this = true
-	}
-end()
-function ()
-	uv0["副"] = {
-		["収"] = {
-			["入"] = {
-				this = true
-			}
-		},
-		["業"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["包"] = {
-		["茎"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["北"] = {
-		["京"] = {
-			["之"] = {
-				["春"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["南"] = {
-		["京"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["占"] = {
-		["?"] = {
-			this = true
-		},
-		["い"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["即"] = {
+end
+
+temp()
+
+function temp()
+	uv0["換"] = {
 		["金"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["友"] = {
-		["達"] = {
-			["紹"] = {
-				["介"] = {
+end
+
+temp()
+
+function temp()
+	uv0["還"] = {
+		["政"] = {
+			["於"] = {
+				["民"] = {
 					this = true
 				}
 			}
 		}
 	}
-end()
-function ()
-	uv0["合"] = {
-		["法"] = {
+end
+
+temp()
+
+function temp()
+	uv0["顔"] = {
+		["射"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["告"] = {
-		["ら"] = {
-			["れ"] = {
-				["レ"] = {
-					["ス"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["和"] = {
-		["平"] = {
-			["演"] = {
-				["變"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["咥"] = {
-		this = true
-	}
-end()
-function ()
-	uv0["商"] = {
-		["材"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["喘"] = {
-		["ぎ"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["国"] = {
-		["服"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["在"] = {
-		["宅"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["売"] = {
-		["女"] = {
-			this = true
-		},
-		["春"] = {
-			["婦"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["多"] = {
-		["重"] = {
-			["債"] = {
-				["務"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["大"] = {
-		["?"] = {
-			this = true
-		},
-		["法"] = {
-			["弟"] = {
-				["子"] = {
-					this = true
-				}
-			}
-		},
-		["紀"] = {
-			["元"] = {
-				["時"] = {
-					["報"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["天"] = {
-		["安"] = {
-			["門"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["奇"] = {
 		["形"] = {
 			["児"] = {
@@ -2386,49 +2562,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["姦"] = {
-		this = true,
-		["通"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["子"] = {
-		["大"] = {
-			this = true
-		},
-		["校"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["官"] = {
-		["能"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["宝"] = {
-		["く"] = {
-			["じ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["家"] = {
-		["出"] = {
-			this = true
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["寄"] = {
 		["生"] = {
 			["虫"] = {
@@ -2436,64 +2574,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["射"] = {
-		["精"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["專"] = {
-		["制"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["小"] = {
-		["児"] = {
-			["病"] = {
-				this = true
-			}
-		},
-		["日"] = {
-			["本"] = {
-				this = true
-			}
-		},
-		["遣"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["尻"] = {
-		["軽"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["屏"] = {
-		["蔽"] = {
-			["?"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["工"] = {
-		["作"] = {
-			["員"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["帰"] = {
 		["化"] = {
 			["人"] = {
@@ -2501,9 +2586,35 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["逆"] = {
+		["援"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["競"] = {
+		["馬"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["強"] = {
+		["姦"] = {
+			this = true
+		},
 		["制"] = {
 			["堕"] = {
 				["胎"] = {
@@ -2515,148 +2626,51 @@ function ()
 					this = true
 				}
 			}
-		},
-		["姦"] = {
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["矯"] = {
+		["正"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["彼"] = {
-		["女"] = {
-			["募"] = {
-				["集"] = {
-					this = true
+end
+
+temp()
+
+function temp()
+	uv0["驚"] = {
+		["異"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["九"] = {
+		["評"] = {
+			["論"] = {
+				["共"] = {
+					["産"] = {
+						["黨"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
 	}
-end()
-function ()
-	uv0["待"] = {
-		["ち"] = {
-			["合"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["心"] = {
-		["障"] = {
-			["児"] = {
-				this = true
-			},
-			["者"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["性"] = {
-		["交"] = {
-			this = true
-		},
-		["器"] = {
-			this = true
-		},
-		["感"] = {
-			this = true
-		},
-		["病"] = {
-			this = true
-		},
-		["癖"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["情"] = {
-		["報"] = {
-			["商"] = {
-				["材"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["愛"] = {
-		["人"] = {
-			this = true
-		},
-		["液"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["感"] = {
-		["染"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["慰"] = {
-		["安"] = {
-			["?"] = {
-				this = true
-			},
-			["婦"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["手"] = {
-		["淫"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["指"] = {
-		["マ"] = {
-			["ン"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["接"] = {
-		["写"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["提"] = {
-		["携"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["換"] = {
-		["金"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["援"] = {
-		["助"] = {
-			this = true
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["携"] = {
 		["帯"] = {
 			["サ"] = {
@@ -2668,202 +2682,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["操"] = {
-		this = true
-	}
-end()
-function ()
-	uv0["支"] = {
-		["那"] = {
-			this = true,
-			["人"] = {
-				this = true
-			},
-			["料"] = {
-				["理"] = {
-					this = true
-				}
-			},
-			["竹"] = {
-				this = true
-			},
-			["蕎"] = {
-				["麦"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["整"] = {
-		["体"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["文"] = {
-		["盲"] = {
-			this = true
-		},
-		["通"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["族"] = {
-		["淨"] = {
-			["化"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["日"] = {
-		["和"] = {
-			["見"] = {
-				this = true
-			}
-		},
-		["服"] = {
-			this = true
-		},
-		["給"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["春"] = {
-		["畫"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["月"] = {
-		["収"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["本"] = {
-		["番"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["李"] = {
-		["洪"] = {
-			["志"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["歯"] = {
-		["科"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["死"] = {
-		["ね"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["殺"] = {
-		["す"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["毒"] = {
-		["品"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["毛"] = {
-		["唐"] = {
-			["人"] = {
-				this = true
-			}
-		},
-		["髪"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["池"] = {
-		["沼"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["法"] = {
-		["輪"] = {
-			["功"] = {
-				this = true
-			},
-			["大"] = {
-				["法"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["海"] = {
-		["豹"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["消"] = {
-		["費"] = {
-			["者"] = {
-				["金"] = {
-					["融"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["淫"] = {
-		this = true,
-		["乱"] = {
-			this = true
-		},
-		["売"] = {
-			this = true
-		},
-		["語"] = {
-			this = true
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["激"] = {
 		["流"] = {
 			["中"] = {
@@ -2873,52 +2696,35 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["火"] = {
-		["病"] = {
+end
+
+temp()
+
+function temp()
+	uv0["月"] = {
+		["収"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["無"] = {
-		["修"] = {
-			["正"] = {
-				this = true
-			}
-		},
-		["料"] = {
-			["動"] = {
-				["画"] = {
-					this = true
-				}
-			}
-		},
-		["理"] = {
-			["や"] = {
-				["り"] = {
+end
+
+temp()
+
+function temp()
+	uv0["健"] = {
+		["康"] = {
+			["器"] = {
+				["具"] = {
 					this = true
 				}
 			}
 		}
 	}
-end()
-function ()
-	uv0["爆"] = {
-		["乳"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["特"] = {
-		["亜"] = {
-			this = true
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["犬"] = {
 		["食"] = {
 			["い"] = {
@@ -2926,184 +2732,33 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["王"] = {
-		["丹"] = {
-			this = true
+end
+
+temp()
+
+function temp()
+	uv0["見"] = {
+		["放"] = {
+			["題"] = {
+				this = true
+			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["現"] = {
 		["金"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["痴"] = {
-		this = true
-	}
-end()
-function ()
-	uv0["癩"] = {
-		["病"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["白"] = {
-		["痴"] = {
-			this = true
-		},
-		["豚"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["盗"] = {
-		["撮"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["着"] = {
-		["エ"] = {
-			["ロ"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["知"] = {
-		["障"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["矯"] = {
-		["正"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["破"] = {
-		["産"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["社"] = {
-		["會"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["稼"] = {
-		["い"] = {
-			this = true
-		},
-		["ぐ"] = {
-			this = true
-		},
-		["げ"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["穢"] = {
-		["多"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["童"] = {
-		["貞"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["競"] = {
-		["馬"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["精"] = {
-		["力"] = {
-			this = true
-		},
-		["液"] = {
-			this = true
-		},
-		["神"] = {
-			["分"] = {
-				["裂"] = {
-					this = true
-				}
-			},
-			["異"] = {
-				["常"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["糞"] = {
-		["尿"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["美"] = {
-		["容"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["老"] = {
-		["害"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["聊"] = {
-		this = true
-	}
-end()
-function ()
-	uv0["肅"] = {
-		["清"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["肉"] = {
-		["棒"] = {
-			this = true
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["胡"] = {
 		["耀"] = {
 			["邦"] = {
@@ -3111,27 +2766,192 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["脱"] = {
-		["毛"] = {
+end
+
+temp()
+
+function temp()
+	uv0["交"] = {
+		["際"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["腋"] = {
-		["臭"] = {
+end
+
+temp()
+
+function temp()
+	uv0["工"] = {
+		["作"] = {
+			["員"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["高"] = {
+		["額"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["膣"] = {
-		this = true
+end
+
+temp()
+
+function temp()
+	uv0["合"] = {
+		["法"] = {
+			this = true
+		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["告"] = {
+		["ら"] = {
+			["れ"] = {
+				["レ"] = {
+					["ス"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["国"] = {
+		["服"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["在"] = {
+		["宅"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["刷"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["殺"] = {
+		["す"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["三"] = {
+		["国"] = {
+			["人"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["子"] = {
+		["校"] = {
+			this = true
+		},
+		["大"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["指"] = {
+		["マ"] = {
+			["ン"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["支"] = {
+		["那"] = {
+			this = true,
+			["蕎"] = {
+				["麦"] = {
+					this = true
+				}
+			},
+			["人"] = {
+				this = true
+			},
+			["竹"] = {
+				this = true
+			},
+			["料"] = {
+				["理"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["死"] = {
+		["ね"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["歯"] = {
+		["科"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["自"] = {
 		["動"] = {
 			["相"] = {
@@ -3148,36 +2968,1015 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["舐"] = {
-		this = true
-	}
-end()
-function ()
-	uv0["花"] = {
-		["粉"] = {
+end
+
+temp()
+
+function temp()
+	uv0["射"] = {
+		["精"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["英"] = {
+end
+
+temp()
+
+function temp()
+	uv0["社"] = {
+		["會"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["謝"] = {
+		["礼"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["手"] = {
+		["淫"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["出"] = {
 		["会"] = {
-			["話"] = {
+			this = true
+		},
+		["版"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["春"] = {
+		["畫"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["処"] = {
+		["女"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["商"] = {
+		["材"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["小"] = {
+		["遣"] = {
+			this = true
+		},
+		["児"] = {
+			["病"] = {
+				this = true
+			}
+		},
+		["日"] = {
+			["本"] = {
 				this = true
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["消"] = {
+		["費"] = {
+			["者"] = {
+				["金"] = {
+					["融"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["証"] = {
+		["拠"] = {
+			["金"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["情"] = {
+		["報"] = {
+			["商"] = {
+				["材"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["辱"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["尻"] = {
+		["軽"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["心"] = {
+		["障"] = {
+			["児"] = {
+				this = true
+			},
+			["者"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["人"] = {
+		["體"] = {
+			["實"] = {
+				["驗"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["性"] = {
+		["感"] = {
+			this = true
+		},
+		["器"] = {
+			this = true
+		},
+		["交"] = {
+			this = true
+		},
+		["病"] = {
+			this = true
+		},
+		["癖"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["整"] = {
+		["体"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["赤"] = {
+		["→"] = {
+			["あ"] = {
+				["な"] = {
+					["た"] = {
+						["が"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["接"] = {
+		["写"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["占"] = {
+		["?"] = {
+			this = true
+		},
+		["い"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["賎"] = {
+		["民"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鮮"] = {
+		["人"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["操"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["走"] = {
+		["私"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["即"] = {
+		["金"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["族"] = {
+		["淨"] = {
+			["化"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["多"] = {
+		["重"] = {
+			["債"] = {
+				["務"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["待"] = {
+		["ち"] = {
+			["合"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["退"] = {
+		["党"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["大"] = {
+		["?"] = {
+			this = true
+		},
+		["紀"] = {
+			["元"] = {
+				["時"] = {
+					["報"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["法"] = {
+			["弟"] = {
+				["子"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["脱"] = {
+		["毛"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["知"] = {
+		["障"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["池"] = {
+		["沼"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["痴"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["着"] = {
+		["エ"] = {
+			["ロ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["中"] = {
+		["出"] = {
+			["し"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["低"] = {
+		["学"] = {
+			["歴"] = {
+				this = true
+			}
+		},
+		["脳"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["提"] = {
+		["携"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["天"] = {
+		["安"] = {
+			["門"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["賭"] = {
+		["博"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["盗"] = {
+		["撮"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["頭"] = {
+		["お"] = {
+			["か"] = {
+				["し"] = {
+					["い"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["童"] = {
+		["貞"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["特"] = {
+		["亜"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["毒"] = {
+		["品"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["南"] = {
+		["京"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["肉"] = {
+		["棒"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["日"] = {
+		["給"] = {
+			this = true
+		},
+		["和"] = {
+			["見"] = {
+				this = true
+			}
+		},
+		["服"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["破"] = {
+		["産"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["馬"] = {
+		["鹿"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["買"] = {
+		["賣"] = {
+			["人"] = {
+				["口"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["売"] = {
+		["春"] = {
+			["婦"] = {
+				this = true
+			}
+		},
+		["女"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["白"] = {
+		["痴"] = {
+			this = true
+		},
+		["豚"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["爆"] = {
+		["乳"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["蛮"] = {
 		["啾"] = {
 			this = true
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["彼"] = {
+		["女"] = {
+			["募"] = {
+				["集"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["非"] = {
+		["洲"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["美"] = {
+		["容"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["不"] = {
+		["可"] = {
+			["触"] = {
+				["賎"] = {
+					["民"] = {
+						this = true
+					}
+				},
+				["民"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["風"] = {
+		["俗"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["副"] = {
+		["業"] = {
+			this = true
+		},
+		["収"] = {
+			["入"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["分"] = {
+		["際"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["糞"] = {
+		["尿"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["文"] = {
+		["通"] = {
+			this = true
+		},
+		["盲"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["便"] = {
+		["秘"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["包"] = {
+		["茎"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["宝"] = {
+		["く"] = {
+			["じ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["法"] = {
+		["輪"] = {
+			["功"] = {
+				this = true
+			},
+			["大"] = {
+				["法"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["北"] = {
+		["京"] = {
+			["之"] = {
+				["春"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["本"] = {
+		["番"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["万"] = {
+		["円"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["無"] = {
+		["修"] = {
+			["正"] = {
+				this = true
+			}
+		},
+		["理"] = {
+			["や"] = {
+				["り"] = {
+					this = true
+				}
+			}
+		},
+		["料"] = {
+			["動"] = {
+				["画"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["毛"] = {
+		["唐"] = {
+			["人"] = {
+				this = true
+			}
+		},
+		["髪"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["儲"] = {
+		["か"] = {
+			this = true
+		},
+		["け"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["訳"] = {
+		["あ"] = {
+			["り"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["友"] = {
+		["達"] = {
+			["紹"] = {
+				["介"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["誘"] = {
+		["拐"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["遊"] = {
+		["進"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["裸"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["乱"] = {
+		["交"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["李"] = {
+		["洪"] = {
+			["志"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["裏"] = {
 		["ビ"] = {
 			["デ"] = {
@@ -3197,108 +3996,200 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["裸"] = {
-		this = true
-	}
-end()
-function ()
-	uv0["見"] = {
-		["放"] = {
-			["題"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["訳"] = {
-		["あ"] = {
-			["り"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["証"] = {
-		["拠"] = {
-			["金"] = {
-				this = true
-			}
-		}
-	}
-end()
-function ()
-	uv0["誘"] = {
-		["拐"] = {
+end
+
+temp()
+
+function temp()
+	uv0["陵"] = {
+		["辱"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["謝"] = {
-		["礼"] = {
+end
+
+temp()
+
+function temp()
+	uv0["露"] = {
+		["出"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["買"] = {
-		["賣"] = {
-			["人"] = {
-				["口"] = {
+end
+
+temp()
+
+function temp()
+	uv0["老"] = {
+		["害"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["六"] = {
+		["合"] = {
+			["彩"] = {
+				this = true
+			}
+		},
+		["四"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["倭"] = {
+		["人"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["和"] = {
+		["平"] = {
+			["演"] = {
+				["變"] = {
 					this = true
 				}
 			}
 		}
 	}
-end()
-function ()
-	uv0["賎"] = {
-		["民"] = {
+end
+
+temp()
+
+function temp()
+	uv0["傴"] = {
+		["僂"] = {
 			this = true
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0["咥"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["喘"] = {
+		["ぎ"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["專"] = {
+		["制"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["癩"] = {
+		["病"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["穢"] = {
+		["多"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["聊"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["肅"] = {
+		["清"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["腋"] = {
+		["臭"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["膣"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["舐"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["賣"] = {
 		["淫"] = {
 			this = true
 		}
 	}
-end()
-function ()
-	uv0["賭"] = {
-		["博"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["赤"] = {
-		["→"] = {
-			["あ"] = {
-				["な"] = {
-					["た"] = {
-						["が"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["走"] = {
-		["私"] = {
-			this = true
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["趙"] = {
 		["紫"] = {
 			["陽"] = {
@@ -3306,128 +4197,11 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["辱"] = {
-		this = true
-	}
-end()
-function ()
-	uv0["退"] = {
-		["党"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["逆"] = {
-		["援"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["遊"] = {
-		["進"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["還"] = {
-		["政"] = {
-			["於"] = {
-				["民"] = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["阿"] = {
-		["片"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["陵"] = {
-		["辱"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["隠"] = {
-		["坊"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["露"] = {
-		["出"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["非"] = {
-		["洲"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["頭"] = {
-		["お"] = {
-			["か"] = {
-				["し"] = {
-					["い"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end()
-function ()
-	uv0["顔"] = {
-		["射"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["風"] = {
-		["俗"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["馬"] = {
-		["鹿"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["驚"] = {
-		["異"] = {
-			this = true
-		}
-	}
-end()
-function ()
-	uv0["高"] = {
-		["額"] = {
-			this = true
-		}
-	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0["魏"] = {
 		["京"] = {
 			["生"] = {
@@ -3435,29 +4209,31 @@ function ()
 			}
 		}
 	}
-end()
-function ()
-	uv0["鮮"] = {
-		["人"] = {
+end
+
+temp()
+
+function temp()
+	uv0["精"] = {
+		["液"] = {
 			this = true
-		}
-	}
-end()
-function ()
-	uv0["Ｊ"] = {
-		["Ａ"] = {
-			["Ｐ"] = {
-				this = true
+		},
+		["力"] = {
+			this = true
+		},
+		["神"] = {
+			["異"] = {
+				["常"] = {
+					this = true
+				}
+			},
+			["分"] = {
+				["裂"] = {
+					this = true
+				}
 			}
 		}
 	}
-end()
-function ()
-	uv0["Ｓ"] = {
-		["Ｅ"] = {
-			["Ｘ"] = {
-				this = true
-			}
-		}
-	}
-end()
+end
+
+temp()

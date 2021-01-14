@@ -165,20 +165,6 @@ function slot6.InitAirFightScoreBar(slot0)
 	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui:findTF("AirFightCountBar"))
 end
 
-function slot6.InitKizunaJamming(slot0)
-	slot2 = uv0.Battle.BattleResourceManager.GetInstance():InstKizunaJamming()
-
-	setParent(slot2, slot0._ui.uiCanvas, false)
-
-	slot0._jammingView = uv0.Battle.BattleKizunaJammingView.New(slot2)
-
-	slot0._jammingView:ConfigCallback(function ()
-		uv0._dataProxy:KizunaJammingEliminate()
-		SetActive(uv1, false)
-	end)
-	slot0._jammingView:Active()
-end
-
 function slot6.InitAutoBtn(slot0)
 	slot0._autoBtn = slot0._ui:findTF("AutoBtn")
 	slot1 = uv0.AUTO_DEFAULT_PREFERENCE
@@ -255,7 +241,6 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING, slot0.onUpdateEnvironmentWarning)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
-	slot0._dataProxy:RegisterEventListener(slot0, uv0.KIZUNA_JAMMING, slot0.onJamming)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UI_FX, slot0.OnAddUIFX)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.JAMMING, slot0.onJamming)
 end
@@ -425,48 +410,8 @@ end
 function slot6.onAddUnit(slot0, slot1)
 	slot2 = slot1.Data.type
 
-	if slot1.Data.unit.IsBoss and slot3:IsBoss() then
-		if slot0._hasAppearEffect then
-			return
-		end
-
-		slot0._hasAppearEffect = true
-
-		slot0._dataProxy:BlockManualCast(true)
-		LoadAndInstantiateAsync("UI", "MonsterAppearUI", function (slot0)
-			if not uv0._seaView then
-				uv0._hasAppearEffect = nil
-
-				Destroy(slot0)
-
-				return
-			end
-
-			uv0._state:SetTakeoverProcess({
-				Pause = function ()
-					uv0.speed = 0
-				end,
-				Resume = function ()
-					uv0.speed = 1
-				end
-			})
-
-			uv0._appearEffect = slot0
-			slot0:GetComponent(typeof(Animator)).speed = 1 / uv0._state:GetTimeScaleRate()
-
-			slot0.transform:SetParent(uv0._uiMGR.UIMain.transform, false)
-			slot0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
-				uv0._userFleet:CoupleEncourage()
-				uv0._dataProxy:BlockManualCast(false)
-				uv0._state:ClearTakeoverProcess()
-
-				uv0._appearEffect = nil
-				uv0._hasAppearEffect = nil
-
-				Destroy(uv1)
-			end)
-			SetActive(slot0, true)
-		end)
+	if slot1.Data.unit:IsBoss() and slot0._dataProxy:GetActiveBossCount() == 1 then
+		slot0:AddBossWarningUI()
 	elseif slot2 == uv0.UnitType.ENEMY_UNIT then
 		slot0:registerUnitEvent(slot3)
 	elseif slot2 == uv0.UnitType.NPC_UNIT and slot3:GetIFF() == uv1.FOE_CODE then
@@ -500,10 +445,6 @@ end
 
 function slot6.onUpdateCountDown(slot0, slot1)
 	slot0._timerView:SetCountDownText(slot0._dataProxy:GetCountDown())
-end
-
-function slot6.onJamming(slot0, slot1)
-	slot0._skillView:JamSkillButton(slot1.Data.jammingFlag)
 end
 
 function slot6.onUpdateDodgemScore(slot0, slot1)
@@ -629,6 +570,34 @@ function slot6.AddUIFX(slot0, slot1, slot2, slot3, slot4)
 	slot5.transform.localScale = Vector3(slot4 / slot7.x, slot4 / slot7.y, slot4 / slot7.z)
 
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot3, true)
+end
+
+function slot6.AddBossWarningUI(slot0)
+	slot0._dataProxy:BlockManualCast(true)
+
+	slot0._appearEffect = uv0.Battle.BattleResourceManager.GetInstance():InstBossWarningUI()
+
+	slot0._state:SetTakeoverProcess({
+		Pause = function ()
+			uv0.speed = 0
+		end,
+		Resume = function ()
+			uv0.speed = 1
+		end
+	})
+
+	slot0._appearEffect:GetComponent(typeof(Animator)).speed = 1 / slot0._state:GetTimeScaleRate()
+
+	setParent(slot0._appearEffect, slot0._ui.uiCanvas, false)
+	slot0._appearEffect:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+		uv0._userFleet:CoupleEncourage()
+		uv0._dataProxy:BlockManualCast(false)
+		uv0._state:ClearTakeoverProcess()
+		uv1:DestroyOb(uv0._appearEffect)
+
+		uv0._appearEffect = nil
+	end)
+	SetActive(slot0._appearEffect, true)
 end
 
 function slot6.registerUnitEvent(slot0, slot1)
