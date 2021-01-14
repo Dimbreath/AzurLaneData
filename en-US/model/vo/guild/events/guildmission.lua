@@ -530,4 +530,8 @@ function slot0.ShouldShowFormationTip(slot0)
 	return slot0.formationTipIndex < slot0:GetCanFormationIndex()
 end
 
+function slot0.FirstFleetCanFormation(slot0)
+	return slot0:GetFleetCnt() == 0
+end
+
 return slot0

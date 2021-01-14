@@ -7,9 +7,10 @@ function slot1.Init(slot0, slot1)
 	slot0.flagDic = {}
 	slot0.extraInfo = {}
 
-	table.foreachi(ShipStatus.flagList, function (slot0, slot1)
-		uv0.flagDic[slot1] = {}
-	end)
+	for slot5, slot6 in ipairs(ShipStatus.flagList) do
+		slot0.flagDic[slot6] = {}
+	end
+
 	print("initializing ShipFlagMgr manager...")
 	slot1()
 end
@@ -75,9 +76,13 @@ slot2 = {
 		return getProxy(PlayerProxy):getRawData().characters
 	end,
 	inWorld = function ()
-		return _.map(nowWorld:GetShips(), function (slot0)
-			return slot0.id
-		end)
+		if nowWorld.type == World.TypeBase then
+			return underscore.rest(nowWorld.baseShipIds, 1)
+		else
+			return _.map(nowWorld:GetShips(), function (slot0)
+				return slot0.id
+			end)
+		end
 	end,
 	isActivityNpc = function ()
 		return getProxy(BayProxy).activityNpcShipIds

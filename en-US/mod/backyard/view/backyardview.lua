@@ -172,8 +172,6 @@ function slot0.OnDidEnter(slot0)
 		end
 	end, SFX_CANCEL)
 	slot0:initHouse()
-	pg.BackYardSortMgr.GetInstance():InitUISortingOrder(slot0.scrollView, slot0.bg)
-	pg.BackYardSortMgr.GetInstance():Init(slot0.sortGroup, slot0.floorContain, slot0.furnitureModals, slot0.shipsView.shipModels, slot0.map)
 end
 
 function slot0.save(slot0)
@@ -188,6 +186,8 @@ function slot0.initHouse(slot0)
 	slot0.maps = {}
 	slot0.map = slot0:createMap(slot0.houseVO.endX + 1, slot0.houseVO.endY + 1)
 
+	pg.BackYardSortMgr.GetInstance():InitUISortingOrder(slot0.scrollView, slot0.bg)
+	pg.BackYardSortMgr.GetInstance():Init(slot0.sortGroup, slot0.floorContain, slot0.furnitureModals, slot0.shipsView.shipModels, slot0.map)
 	slot0:updateHouseArea(slot0.houseVO.level)
 	slot0:initFurnitures()
 	slot0:emit(BackyardMainMediator.ON_CHECK_EFFECT)

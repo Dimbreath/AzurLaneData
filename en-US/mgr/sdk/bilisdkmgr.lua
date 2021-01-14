@@ -1,6 +1,10 @@
 slot1 = BilibiliSdkMgr.inst
 slot2 = "BLHX3hZ20200514"
 slot3 = "FTBLHX20190524WW"
+slot4 = 1
+slot5 = 2
+slot6 = 3
+slot7 = 4
 
 function StartSdkLogin()
 	Timer.New(function ()
@@ -211,10 +215,26 @@ return {
 		uv0:onBackPressed()
 	end,
 	ShowPrivate = function ()
-		uv0:ShowPrivate()
+		slot0 = LuaHelper.GetCHPackageType()
+
+		print(slot0)
+
+		if slot0 == uv0 or slot0 == uv1 then
+			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&privacyProtocol=1")
+		elseif slot0 ~= uv2 then
+			uv3:ShowPrivate()
+		end
 	end,
 	ShowLicence = function ()
-		uv0:ShowLicence()
+		slot0 = LuaHelper.GetCHPackageType()
+
+		print(slot0)
+
+		if slot0 == uv0 or slot0 == uv1 then
+			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&userProtocol=1")
+		elseif slot0 ~= uv2 then
+			uv3:ShowLicence()
+		end
 	end,
 	GetBiliServerId = function ()
 		slot0 = uv0.serverId

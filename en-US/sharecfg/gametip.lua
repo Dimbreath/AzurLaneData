@@ -795,6 +795,9 @@ pg.gametip = {
 	word_equipment_intensify = {
 		tip = "Enhance"
 	},
+	word_equipment_special = {
+		tip = "Other "
+	},
 	word_primary_weapons = {
 		tip = "Main Weapon"
 	},
@@ -11018,18 +11021,15 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 		tip = {
 			{
 				info = [[
-通关下列指定关卡会获得不同数量<color=#92fc63>「比萨研发物资」</color>
-1.三章及以后的普通主线海域
-2.活动关卡「穹顶下的圣咏曲」（EX关卡除外）
-活动规则：
-1.活动期间指挥官获得<color=#92fc63>「比萨研发物资」</color>后可以在活动页
-面投入研发，当研发进度到达特殊阶段时会出现食材选择
-界面，指挥官需要选择研发比萨的食材
-2.当完成所有特殊阶段的研发后，会解锁自由组合模式，
-指挥官可以在该模式中自由组合各种食材，研发自己喜欢
-的比萨
-3.研发完成后，可以点击分享按钮将自己研发的比萨与其
-他指挥官分享]]
+Earn <color=#92fc63>“Pizza Ingredients”</color> the following ways:
+1. Clear Campaign stages, Chapter 3 onwards.
+2. Clear “Empyreal Tragicomedy” event stages (excluding EX stage)
+Event Instructions:
+1. During the event, collect <color=#92fc63>“Pizza Ingredients”</color> and head to the event page to build original pizzas.
+Collect enough ingredients to craft various pizzas.
+2. After making enough original pizzas, Build-Your-Own mode will be unlocked.
+In this mode, you will be able to use any combination of ingredients.
+3. Once you’ve finished crafting your pizza, click the Share button to show off your masterpiece!]]
 			}
 		}
 	},
@@ -11798,10 +11798,10 @@ you can earn.]]
 		tip = "The current operation cannot be changed because $1 is in progress."
 	},
 	guild_join_event_cnt_label = {
-		tip = "Eligible Participants:"
+		tip = "Monthly Attempts Available:"
 	},
 	guild_join_event_max_cnt_tip = {
-		tip = "Insufficient number of participants."
+		tip = "Insufficient number of attempts."
 	},
 	guild_join_event_progress_label = {
 		tip = "Progress:"
@@ -11816,7 +11816,7 @@ you can earn.]]
 		tip = "Guild Fleet composition cannot be changed."
 	},
 	guild_fleet_exist_same_kind_ship = {
-		tip = "You cannot select 2 of the same ship."
+		tip = "This ship is already supporting this Guild Operation. "
 	},
 	guild_event_exist_same_kind_ship = {
 		tip = "Guild Fleet composition cannot be changed as there are 2 of the same ship."
@@ -11976,6 +11976,9 @@ you can earn.]]
 	},
 	guild_battle_log = {
 		tip = "$1 $2 spent $3 Guild Funds and commenced a Guild Battle."
+	},
+	guild_tech_change_log = {
+		tip = "[$1] $2 has changed Guild Tech development to $3. "
 	},
 	guild_use_donateitem_success = {
 		tip = "Contribution attempts restored by +$1."
@@ -12182,6 +12185,9 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 				info = "4. Rewards:"
 			},
 			{
+				info = "Each player may only participate in a maximum of 2 Guild Operations each month.\nOne attempt will be deducted upon entering a Guild Operation."
+			},
+			{
 				info = "Your Guild Operation participation rewards can be viewed and claimed from the Action Report menu."
 			},
 			{
@@ -12229,6 +12235,51 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 	},
 	word_shipState_guild_event = {
 		tip = "This ship is participating in Guild Operation and cannot be retired."
+	},
+	commander_is_in_guild = {
+		tip = "The Meowfficer is currently in Guild Operation "
+	},
+	guild_assult_ship_recommend = {
+		tip = "Successfully set recommended support ship."
+	},
+	guild_cancel_assult_ship_recommend = {
+		tip = "Recommended support ship cleared."
+	},
+	guild_assult_ship_recommend_conflict = {
+		tip = "This ship has already been set as recommended."
+	},
+	guild_recommend_limit = {
+		tip = "You've already reached your limit of 9 recommended ships."
+	},
+	guild_cancel_assult_ship_recommend_conflict = {
+		tip = "The recommended status of this ship has already been cleared."
+	},
+	guild_mission_complate = {
+		tip = "Guild mission completed:"
+	},
+	guild_operation_event_occurrence = {
+		tip = "A new event has started in the guild operation. Would you like to check it?"
+	},
+	guild_transfer_president_confirm = {
+		tip = "The Guild Master rank will be transferred to $1. After this transfer, you will be demoted to a normal member. Continue with this transfer?"
+	},
+	guild_damage_ranking = {
+		tip = "Rank"
+	},
+	guild_total_damage = {
+		tip = "Damage"
+	},
+	guild_donate_list_updated = {
+		tip = "Available contribution attempts have been refreshed."
+	},
+	guild_donate_list_update_failed = {
+		tip = "Unable to refresh available contribution attempts."
+	},
+	multiple_ship_energy_low_desc = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
+	},
+	multiple_ship_energy_low_warn = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
 	},
 	us_error_download_painting = {
 		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
@@ -13112,13 +13163,7 @@ next character that appears on-screen.
 	world_boss_maintenance = {
 		tip = "You are unable to begin an Ashes Showdown immediately before server maintenance. "
 	},
-	commander_is_in_guild = {
-		tip = "The Meowfficer is currently in Guild Operation "
-	},
-	multiple_ship_energy_low_desc = {
-		tip = "Exhausted\nAffinity will be reduced if you attack"
-	},
-	multiple_ship_energy_low_warn = {
-		tip = "Exhausted\nAffinity will be reduced if you attack"
+	world_boss_inbattle = {
+		tip = "You are currently in an Ashes Showdown, and are unable to begin another one. "
 	}
 }

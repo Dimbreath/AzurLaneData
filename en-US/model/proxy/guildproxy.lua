@@ -210,6 +210,7 @@ function slot0.Init(slot0)
 		0,
 		0
 	}
+	slot0.refreshDonateListFailed = false
 end
 
 function slot0.AddNewMsg(slot0, slot1)
@@ -475,11 +476,15 @@ function slot0.GetRecommendShipsForMission(slot0, slot1)
 end
 
 function slot0.ShouldShowApplyTip(slot0)
-	if not slot0.requests then
-		return slot0.requestCount > 0
+	if slot0.data and GuildMember.IsAdministrator(slot0.data:getSelfDuty()) then
+		if not slot0.requests then
+			return slot0.requestCount > 0
+		end
+
+		return table.getCount(slot0.requests) + slot0.requestCount > 0
 	end
 
-	return table.getCount(slot0.requests) + slot0.requestCount > 0
+	return false
 end
 
 function slot0.ShouldShowBattleTip(slot0)
@@ -525,7 +530,9 @@ end
 function slot0.ShouldShowMainTip(slot0)
 	return _.any(slot0.reports or {}, function (slot0)
 		return slot0:CanSubmit()
-	end)
+	end) and not function ()
+		return uv0.data:getMemberById(getProxy(PlayerProxy):getRawData().id):IsRecruit()
+	end()
 end
 
 function slot0.ShouldShowTip(slot0)

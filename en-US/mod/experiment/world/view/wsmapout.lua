@@ -11,7 +11,6 @@ slot0.Listeners = {
 	onUpdateFleetEmotion = "OnUpdateFleetEmotion",
 	onUpdateSelectedFleet = "OnUpdateSelectedFleet"
 }
-slot0.EventSelectFleet = "WSMapLeft.EventSelectFleet"
 
 function slot0.Build(slot0)
 end

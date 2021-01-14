@@ -435,6 +435,11 @@ pg.player_resource = {
 		name = "skinTicket12",
 		itemid = 59193
 	},
+	[182] = {
+		id = 182,
+		name = "yidalifukeframept",
+		itemid = 59195
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -757,6 +762,9 @@ pg.player_resource = {
 		skinTicket12 = {
 			181
 		},
+		yidalifukeframept = {
+			182
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -882,6 +890,7 @@ pg.player_resource = {
 		179,
 		180,
 		181,
+		182,
 		950,
 		1001,
 		2001,

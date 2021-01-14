@@ -770,6 +770,7 @@ function slot0.initEquipment(slot0, slot1)
 				oldShipId = uv1.equipmentVO.shipId,
 				oldPos = uv1.equipmentVO.shipPos
 			} or uv1.equipmentVO.shipId and {
+				showTransformTip = true,
 				type = EquipmentInfoMediator.TYPE_DISPLAY,
 				equipmentId = uv1.equipmentVO.id,
 				shipId = uv1.equipmentVO.shipId,

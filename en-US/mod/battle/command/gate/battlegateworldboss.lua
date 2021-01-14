@@ -60,12 +60,13 @@ function slot0.Entrance(slot0, slot1)
 			uv6:IncreaseFightCnt()
 		else
 			uv5:reducePt()
+			uv5:LockCacheBoss(uv7)
 		end
 
-		uv7:updatePlayer(uv1)
+		uv8:updatePlayer(uv1)
 		uv11:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = {},
-			bossId = uv8,
+			bossId = uv7,
 			actId = uv9,
 			stageId = uv10,
 			system = SYSTEM_WORLD_BOSS,
@@ -77,6 +78,7 @@ function slot0.Entrance(slot0, slot1)
 		if slot0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
 			function ()
+				uv0:UnlockCacheBoss()
 				uv0:RemoveCacheBoss(uv1.id)
 				pg.m02:sendNotification(GAME.WORLD_BOSS_START_BATTLE_FIALED)
 			end()
@@ -156,6 +158,7 @@ function slot0.Exit(slot0, slot1)
 			bossId = uv2.bossId,
 			name = slot5:GetName()
 		})
+		slot4:UnlockCacheBoss()
 	end)
 end
 

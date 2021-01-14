@@ -3,26 +3,29 @@ slot0.Fields = {
 	achieveMapStar = "table",
 	stepCount = "number",
 	cdTimeList = "table",
-	progress = "number",
+	type = "number",
 	atlas = "table",
 	portShips = "table",
-	realm = "number",
+	progress = "number",
 	globalBuffDic = "table",
 	roundIndex = "number",
+	realm = "number",
 	resetAward = "table",
-	resetLimitTip = "boolean",
 	activateCount = "number",
-	staminaMgr = "table",
+	resetLimitTip = "boolean",
 	achievements = "table",
 	treasureCount = "number",
 	collectionProxy = "table",
 	defaultFleets = "table",
 	goodDic = "table",
-	inventoryProxy = "table",
+	taskProxy = "table",
 	nowEntrance = "number",
 	fleets = "table",
-	taskProxy = "table",
+	inventoryProxy = "table",
+	staminaMgr = "table",
 	worldBossProxy = "table",
+	baseShipIds = "table",
+	baseCmdIds = "table",
 	colorDic = "table",
 	expiredTime = "number",
 	pressingAwardDic = "table",
@@ -41,10 +44,27 @@ slot0.Listeners = {
 	onUpdateItem = "OnUpdateItem",
 	onUpdateTask = "OnUpdateTask"
 }
+slot0.TypeBase = 0
+slot0.TypeFull = 1
+slot0.TypeReset = 2
+slot0.InheritNameList = {
+	staminaMgr = function ()
+		return WorldStaminaManager.New()
+	end,
+	collectionProxy = function ()
+		return WorldCollectionProxy.New()
+	end,
+	worldBossProxy = function ()
+		return WorldBossProxy.New()
+	end
+}
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0)
-	slot0:InheritReset(slot1)
+
+	slot0.type = slot1
+
+	slot0:InheritReset(slot2)
 end
 
 function slot0.Build(slot0)
@@ -77,14 +97,23 @@ function slot0.Build(slot0)
 	slot0.taskProxy = WorldTaskProxy.New()
 
 	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateTask)
+
+	slot0.baseShipIds = {}
+	slot0.baseCmdIds = {}
 end
 
 function slot0.Dispose(slot0, slot1)
-	slot2 = nil
+	slot2 = {}
 
-	if slot1 then
-		slot0.staminaMgr:Reset()
-
+	if slot1 == uv0.TypeBase then
+		slot2 = {
+			worldBossProxy = slot0.worldBossProxy
+		}
+	elseif slot1 == uv0.TypeFull then
+		slot2 = {
+			worldBossProxy = slot0.worldBossProxy
+		}
+	elseif slot1 == uv0.TypeReset then
 		slot2 = {
 			realm = slot0.realm,
 			defaultFleets = slot0.defaultFleets,
@@ -97,10 +126,12 @@ function slot0.Dispose(slot0, slot1)
 			collectionProxy = slot0.collectionProxy,
 			worldBossProxy = slot0.worldBossProxy
 		}
-	else
-		slot0.staminaMgr:Dispose()
-		slot0.collectionProxy:Dispose()
-		slot0.worldBossProxy:Dispose()
+	end
+
+	for slot6 in pairs(uv0.InheritNameList) do
+		if not slot2[slot6] then
+			slot0[slot6]:Dispose()
+		end
 	end
 
 	slot0.inventoryProxy:RemoveListener(WorldInventoryProxy.EventUpdateItem, slot0.onUpdateItem)
@@ -114,14 +145,14 @@ function slot0.Dispose(slot0, slot1)
 end
 
 function slot0.InheritReset(slot0, slot1)
-	if slot1 then
-		for slot5, slot6 in pairs(slot1) do
-			slot0[slot5] = slot6
+	for slot5, slot6 in pairs(slot1 or {}) do
+		slot0[slot5] = slot6
+	end
+
+	for slot5, slot6 in pairs(uv0.InheritNameList) do
+		if not slot1[slot5] then
+			slot0[slot5] = slot6()
 		end
-	else
-		slot0.worldBossProxy = WorldBossProxy.New()
-		slot0.staminaMgr = WorldStaminaManager.New()
-		slot0.collectionProxy = WorldCollectionProxy.New()
 	end
 end
 
@@ -136,7 +167,11 @@ function slot0.IsReseted(slot0)
 end
 
 function slot0.IsActivate(slot0)
-	return tobool(slot0:GetActiveMap())
+	if slot0.type == World.TypeBase then
+		return #slot0.baseShipIds > 0
+	else
+		return tobool(slot0:GetActiveMap())
+	end
 end
 
 function slot0.CheckResetProgress(slot0)
@@ -294,9 +329,15 @@ function slot0.GetShips(slot0)
 end
 
 function slot0.GetShipVOs(slot0)
-	return _.map(slot0:GetShips(), function (slot0)
-		return WorldConst.FetchShipVO(slot0.id)
-	end)
+	if slot0.type == World.TypeBase then
+		return underscore.map(slot0.baseShipIds, function (slot0)
+			return WorldConst.FetchShipVO(slot0)
+		end)
+	else
+		return _.map(slot0:GetShips(), function (slot0)
+			return WorldConst.FetchShipVO(slot0.id)
+		end)
+	end
 end
 
 function slot0.GetShip(slot0, slot1)
@@ -591,48 +632,54 @@ function slot0.AnyUnachievedAchievement(slot0, slot1)
 end
 
 function slot0.GetFinishAchievements(slot0, slot1)
-	table.foreachi(slot1 and {
-		slot1
-	} or slot0.atlas:GetAchEntranceList(), function (slot0, slot1)
-		slot2, slot3 = uv0:CountAchievements(slot1)
-		slot4 = slot1:GetBaseMap()
-		slot6 = {}
+	slot2 = {}
+	slot3 = {}
 
-		for slot10, slot11 in ipairs(slot4:GetAchievementAwards()) do
-			if not uv0:GetMapAchieveStarDic(slot4.id)[slot11.star] and slot11.star <= slot2 + slot3 then
-				table.insert(slot6, slot11.star)
+	for slot8, slot9 in ipairs(slot1 and {
+		slot1
+	} or slot0.atlas:GetAchEntranceList()) do
+		slot10, slot11 = slot0:CountAchievements(slot9)
+		slot12 = slot9:GetBaseMap()
+		slot14 = {}
+
+		for slot18, slot19 in ipairs(slot12:GetAchievementAwards()) do
+			if not slot0:GetMapAchieveStarDic(slot12.id)[slot19.star] and slot19.star <= slot10 + slot11 then
+				table.insert(slot14, slot19.star)
 			end
 		end
 
-		if #slot6 > 0 then
-			table.insert(uv1, {
-				id = slot1:GetBaseMapId(),
-				star_list = slot6
+		if #slot14 > 0 then
+			table.insert(slot2, {
+				id = slot9:GetBaseMapId(),
+				star_list = slot14
 			})
-			table.insert(uv2, slot1.id)
+			table.insert(slot3, slot9.id)
 		end
-	end)
+	end
 
-	return {}, {}
+	return slot2, slot3
 end
 
 function slot0.CountAchievements(slot0, slot1)
-	table.foreachi(slot1 and {
+	slot2 = 0
+	slot3 = 0
+	slot4 = 0
+
+	for slot9, slot10 in ipairs(slot1 and {
 		slot1
-	} or slot0.atlas:GetAchEntranceList(), function (slot0, slot1)
-		slot2 = slot1:GetBaseMap()
+	} or slot0.atlas:GetAchEntranceList()) do
+		for slot15, slot16 in ipairs(slot10:GetBaseMap().config.normal_target) do
+			slot2 = slot2 + (slot0.achievements[slot16] and slot0.achievements[slot16]:IsAchieved() and 1 or 0)
+		end
 
-		table.foreachi(slot2.config.normal_target, function (slot0, slot1)
-			uv0 = uv0 + (uv1.achievements[slot1] and uv1.achievements[slot1]:IsAchieved() and 1 or 0)
-		end)
-		table.foreachi(slot2.config.cryptic_target, function (slot0, slot1)
-			uv0 = uv0 + (uv1.achievements[slot1] and uv1.achievements[slot1]:IsAchieved() and 1 or 0)
-		end)
+		for slot15, slot16 in ipairs(slot11.config.cryptic_target) do
+			slot3 = slot3 + (slot0.achievements[slot16] and slot0.achievements[slot16]:IsAchieved() and 1 or 0)
+		end
 
-		uv3 = uv3 + #slot2.config.normal_target + #slot2.config.cryptic_target
-	end)
+		slot4 = slot4 + #slot11.config.normal_target + #slot11.config.cryptic_target
+	end
 
-	return 0, 0, 0
+	return slot2, slot3, slot4
 end
 
 function slot1()
@@ -1011,23 +1058,29 @@ function slot0.CalcOrderCost(slot0, slot1)
 end
 
 function slot0.GetDisplayPressingCount(slot0)
-	table.foreachi(slot0.atlas.pressingMapList, function (slot0, slot1)
-		if uv0.atlas:GetMap(slot1):CheckMapPressingDisplay() then
-			uv1 = uv1 + 1
-		end
-	end)
-
-	return 0
-end
-
-function slot0.CheckCommanderInFleet(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.fleets) do
-		if slot6:HasCommander(slot1) then
-			return true
+	for slot5, slot6 in ipairs(slot0.atlas.pressingMapList) do
+		if slot0.atlas:GetMap(slot6):CheckMapPressingDisplay() then
+			slot1 = 0 + 1
 		end
 	end
 
-	return false
+	return slot1
+end
+
+function slot0.CheckCommanderInFleet(slot0, slot1)
+	if slot0.type == World.TypeBase then
+		return underscore.any(slot0.baseCmdIds, function (slot0)
+			return slot0 == uv0
+		end)
+	else
+		for slot5, slot6 in ipairs(slot0.fleets) do
+			if slot6:HasCommander(slot1) then
+				return true
+			end
+		end
+
+		return false
+	end
 end
 
 function slot0.CheckSkipBattle(slot0)

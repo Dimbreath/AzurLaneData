@@ -8,7 +8,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/port_button",
+				path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
 				triggerType = {
 					1
 				},

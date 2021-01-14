@@ -318,9 +318,9 @@ function slot0.BuildTransportDic(slot0)
 		if slot5:GetBaseMap().isPressing then
 			slot0.transportDic[slot4] = true
 
-			table.foreach(slot5.transportDic, function (slot0)
-				uv0.transportDic[slot0] = true
-			end)
+			for slot9 in pairs(slot5.transportDic) do
+				slot0.transportDic[slot9] = true
+			end
 		end
 	end
 
@@ -330,11 +330,11 @@ function slot0.BuildTransportDic(slot0)
 end
 
 function slot0.AddPortTransportDic(slot0)
-	table.foreach(slot0.portEntranceList, function (slot0, slot1)
-		table.foreachi(slot1, function (slot0, slot1)
-			uv0.transportDic[slot1] = true
-		end)
-	end)
+	for slot4, slot5 in pairs(slot0.portEntranceList) do
+		for slot9, slot10 in ipairs(slot5) do
+			slot0.transportDic[slot10] = true
+		end
+	end
 end
 
 function slot0.MarkMapTransport(slot0, slot1)
@@ -355,14 +355,15 @@ function slot0.AddPressingMap(slot0, slot1)
 		if slot0.mapEntrance[slot1] then
 			slot0.transportDic[slot2.id] = true
 
-			table.foreach(slot2.transportDic, function (slot0)
-				if not uv0.transportDic[slot0] then
-					uv0.transportDic[slot0] = true
-					uv1[slot0] = true
+			for slot7 in pairs(slot2.transportDic) do
+				if not slot0.transportDic[slot7] then
+					slot0.transportDic[slot7] = true
 				end
-			end)
+			end
+
 			slot0:DispatchEvent(uv0.EventAddPressingEntrance, {
-				[slot2.id] = true
+				[slot2.id] = true,
+				[slot7] = true
 			})
 		end
 
@@ -404,9 +405,9 @@ function slot0.RemoveSairenEntrance(slot0, slot1)
 end
 
 function slot0.SetCostMapList(slot0, slot1)
-	table.foreach(slot0.costMapDic, function (slot0)
-		uv0:GetMap(slot0).isCost = false
-	end)
+	for slot5 in pairs(slot0.costMapDic) do
+		slot0:GetMap(slot5).isCost = false
+	end
 
 	slot0.costMapDic = {}
 
@@ -427,19 +428,22 @@ end
 function slot0.SetPortTaskList(slot0, slot1)
 	slot0.taskPortDic = {}
 
-	table.foreachi(slot1, function (slot0)
-		uv0.taskPortDic[slot0] = true
-	end)
+	for slot5, slot6 in ipairs(slot1) do
+		slot0.taskPortDic[slot6] = true
+	end
 end
 
 function slot0.UpdatePortTaskMark(slot0, slot1, slot2)
 	if tobool(slot0.taskPortDic[slot1]) ~= slot2 then
 		slot0.taskPortDic[slot1] = slot2
 
-		table.foreachi(slot0.portEntranceList[slot1], function (slot0, slot1)
-			uv0[slot1] = true
-		end)
-		slot0:DispatchEvent(uv0.EventUpdatePortTaskMark, {})
+		for slot7, slot8 in ipairs(slot0.portEntranceList[slot1]) do
+			-- Nothing
+		end
+
+		slot0:DispatchEvent(uv0.EventUpdatePortTaskMark, {
+			[slot8] = true
+		})
 	end
 end
 

@@ -134,11 +134,9 @@ function slot0.OnRefresh(slot0, slot1)
 	UIItemList.StaticAlign(slot0.list, slot0.tpl, #slot1.descriptions, function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
+			slot4 = slot3[1]
 			slot5 = slot3[2]
 			slot8 = slot5[3]
-
-			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(slot3[1])
-
 			slot9 = slot2:Find("skip_btn")
 
 			if slot3[3] and slot6 ~= 0 then
@@ -211,7 +209,7 @@ function slot0.OnRefresh(slot0, slot1)
 						end
 
 						if slot0.chapterId then
-							if maps[slot1:getChapterById(slot0.chapterId):getConfig("map")] and slot5:getMapType() == Map.ELITE and not getProxy(DailyLevelProxy):IsEliteEnabled() then
+							if slot1:getMapById(slot1:getChapterById(slot0.chapterId):getConfig("map")) and slot5:getMapType() == Map.ELITE and not getProxy(DailyLevelProxy):IsEliteEnabled() then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
 
 								return
@@ -285,16 +283,39 @@ function slot0.OnRefresh(slot0, slot1)
 
 							return
 						end
-					elseif uv1 == SCENE.MILITARYEXERCISE and not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
+					elseif uv1 == SCENE.MILITARYEXERCISE then
+						if not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
 
-						return
+							return
+						end
+					elseif uv1 == SCENE.SHOP then
+						slot3, slot4 = NewShopsScene.getSceneOpen(getProxy(PlayerProxy).data.level, slot0.warp)
+
+						if not slot3 then
+							uv3.viewParent:hide()
+							pg.m02:sendNotification(GAME.GO_SCENE, uv1, {
+								warp = NewShopsScene.TYPE_SHOP_STREET
+							})
+							pg.TipsMgr.GetInstance():ShowTips(slot4)
+
+							return
+						end
 					end
 
 					uv3.viewParent:hide()
 					pg.m02:sendNotification(GAME.GO_SCENE, uv1, slot0)
 				end, SFX_PANEL)
 			end
+
+			slot11 = slot2:Find("mask/title"):GetComponent("ScrollText")
+			slot11.enabled = false
+
+			Canvas.ForceUpdateCanvases()
+
+			slot11.enabled = true
+
+			slot11:SetText(slot4)
 		end
 	end)
 end

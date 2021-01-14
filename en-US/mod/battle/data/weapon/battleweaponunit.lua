@@ -76,7 +76,7 @@ end
 
 function slot7.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot8 = uv2.Battle[slot3 or uv0.EMITTER_NORMAL].New(slot4 or function (slot0, slot1, slot2, slot3, slot4)
-		slot6 = uv0:Spawn(uv0._bulletList[uv1], slot4, uv2.INTERNAL)
+		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4, uv2.INTERNAL)
 
 		slot6:SetOffsetPriority(slot3)
 		slot6:SetShiftInfo(slot0, slot1)
@@ -577,6 +577,7 @@ function slot7.DoAttack(slot0, slot1)
 	slot2 = slot0:GetDirection()
 	slot3 = slot0:GetAttackAngle()
 
+	slot0:cacheBulletID()
 	slot0:TriggerBuffOnSteday()
 
 	for slot7, slot8 in ipairs(slot0._majorEmitterList) do
@@ -832,6 +833,10 @@ function slot7.RevertBullet(slot0)
 	slot0._bulletList = slot0._tmpData.bullet_ID
 end
 
+function slot7.cacheBulletID(slot0)
+	slot0._emitBulletIDList = slot0._bulletList
+end
+
 function slot7.ShiftBarrage(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._majorEmitterList) do
 		table.insert(slot0._dumpedEmittersList, slot6)
@@ -860,7 +865,7 @@ function slot7.RevertBarrage(slot0)
 end
 
 function slot7.GetPrimalAmmoType(slot0)
-	return uv0.GetBulletTmpDataFromID(slot0._bulletList[1]).ammo_type
+	return uv0.GetBulletTmpDataFromID(slot0._tmpData.bullet_ID[1]).ammo_type
 end
 
 function slot7.TriggerBuffWhenSpawn(slot0, slot1, slot2)

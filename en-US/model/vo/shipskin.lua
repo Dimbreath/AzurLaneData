@@ -32,6 +32,15 @@ function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.endTime = slot1.end_time or slot1.time or 0
+	slot0.isNew = true
+end
+
+function slot0.HasNewFlag(slot0)
+	return slot0.isNew
+end
+
+function slot0.SetIsNew(slot0, slot1)
+	slot0.isNew = slot1
 end
 
 function slot0.bindConfigTable(slot0)

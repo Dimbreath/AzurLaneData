@@ -176,6 +176,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"May my red blood flow into the frigid mold of war.\" Awarded to commanders who participated in the \"Inverted Orthant\" event.</color> ",
 		scene = {}
 	},
+	[501] = {
+		name = "Manjuu Pizzeria Frame ",
+		time_second = 0,
+		id = 501,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Let your love for delicious pizza be known by all!</color>\n―Obtained in the \"Manjuu Pizzeria\" event. ",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -198,6 +206,7 @@ pg.item_data_frame = {
 		309,
 		310,
 		311,
-		312
+		312,
+		501
 	}
 }

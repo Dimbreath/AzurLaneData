@@ -67,6 +67,8 @@ function slot4.DoAttack(slot0, slot1)
 
 	slot0._attackStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
+	slot0:cacheBulletID()
+
 	for slot5, slot6 in ipairs(slot0._beamList) do
 		slot6:ChangeBeamState(slot6.BEAM_STATE_READY)
 

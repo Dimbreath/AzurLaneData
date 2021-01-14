@@ -120,7 +120,8 @@ function slot0.execute(slot0, slot1)
 		return slot2, slot3, slot4
 	end
 
-	slot15, slot16, slot17 = nil
+	slot15 = slot7
+	slot16, slot17, slot18 = nil
 
 	table.eachAsync(slot6, function (slot0, slot1, slot2)
 		seriesAsync({
@@ -180,7 +181,7 @@ function slot0.execute(slot0, slot1)
 			mediator = EquipmentTransformInfoMediator,
 			viewComponent = EquipmentTransformInfoLayer,
 			data = {
-				equipVO = uv4
+				equipVO = uv6
 			},
 			onRemoved = function ()
 				if getProxy(ContextProxy):getCurrentContext():getContextByMediator(EquipmentInfoMediator) then

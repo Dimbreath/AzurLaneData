@@ -103,11 +103,11 @@ function slot0.Apply(slot0)
 		elseif slot6 == WorldMapAttachment.EffectEventMapClearFlag then
 			slot3:UpdateClearFlag(slot7[1] == 1)
 		elseif slot6 == WorldMapAttachment.EffectEventBrokenClean then
-			table.foreachi(slot2:GetShips(), function (slot0, slot1)
-				if slot1:IsBroken() then
-					slot1:RemoveBuff(WorldConst.BrokenBuffId)
+			for slot11, slot12 in ipairs(slot2:GetShips()) do
+				if slot12:IsBroken() then
+					slot12:RemoveBuff(WorldConst.BrokenBuffId)
 				end
-			end)
+			end
 		elseif slot6 == WorldMapAttachment.EffectEventCatSalvage then
 			-- Nothing
 		elseif slot6 == WorldMapAttachment.EffectEventAddWorldBossFreeCount and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot9:isEnd() then
@@ -142,12 +142,6 @@ function slot0.Apply(slot0)
 
 		if slot2:TreasureMap2ItemId(slot0.destMapId, slot0.entranceId) then
 			slot2:GetInventoryProxy():RemoveItem(slot4, 1)
-		end
-	elseif slot0.op == WorldConst.OpReqRetreat then
-		if slot3:GetFleet(slot0.id).lossFlag == 1 then
-			slot4.lossFlag = 0
-		else
-			slot0.attachment:UpdateData(slot0.attachment.data - 1)
 		end
 	elseif slot0.op == WorldConst.OpReqSub then
 		slot2:ResetSubmarine()

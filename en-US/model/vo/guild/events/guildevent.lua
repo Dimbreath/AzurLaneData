@@ -257,7 +257,7 @@ function slot0.GetMissionFinishCnt(slot0)
 	return slot1
 end
 
-function slot0.AnyMissionCanFormation(slot0)
+function slot0.GetCanFormationMisstions(slot0)
 	function slot1(slot0)
 		if slot0:IsFinish() then
 			return false
@@ -276,15 +276,47 @@ function slot0.AnyMissionCanFormation(slot0)
 		return false
 	end
 
-	for slot5, slot6 in pairs(slot0.missions) do
-		for slot10, slot11 in ipairs(slot6) do
-			if slot1(slot11) and slot11:CanFormation() and not slot11:IsFinish() then
-				return true
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.missions) do
+		for slot11, slot12 in ipairs(slot7) do
+			if slot1(slot12) and slot12:CanFormation() and not slot12:IsFinish() then
+				table.insert(slot2, slot12)
 			end
 		end
 	end
 
-	return false
+	return slot2
+end
+
+function slot0.AnyMissionCanFormation(slot0)
+	return #slot0:GetCanFormationMisstions() > 0
+end
+
+function slot0.AnyMissionFirstFleetCanFroamtion(slot0)
+	return _.detect(slot0:GetCanFormationMisstions(), function (slot0)
+		return slot0:FirstFleetCanFormation() or slot0:IsFinish() and not slot0:IsFinishedByServer()
+	end) ~= nil, slot2
+end
+
+function slot0.GetUnlockMission(slot0)
+	slot1 = 0
+
+	for slot5, slot6 in pairs(slot0.missions) do
+		for slot10, slot11 in ipairs(slot6) do
+			if slot11:IsMain() and (slot11:IsFinishedByServer() or slot11:IsFinish()) then
+				slot1 = slot5
+			end
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot0.missions[slot1 + 1] or {}) do
+		if slot7:IsMain() then
+			return slot7
+		end
+	end
+
+	return nil
 end
 
 return slot0

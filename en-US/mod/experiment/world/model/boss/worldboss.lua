@@ -32,7 +32,7 @@ function slot0.Setup(slot0, slot1, slot2)
 	slot0.level = slot1.lv
 	slot0.owner = slot1.owner
 	slot0.lastTime = slot1.last_time
-	slot0.guildSupport = slot1.guild_support or 0
+	slot0.guildSupport = 0
 	slot0.friendSupport = slot1.friend_support or 0
 	slot0.worldSupport = slot1.world_support or 0
 	slot0.killTime = slot1.kill_time or 0

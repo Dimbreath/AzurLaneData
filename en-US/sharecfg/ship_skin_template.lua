@@ -36403,6 +36403,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202125] = {
+		name = "Piping-Hot Perfection",
+		ship_group = 20212,
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "Welcome, table for one? Of course, right this way. Oh? What is it? Ah... I'm filling in for the manager at the moment, so that makes you my customer rather than my master, no?",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "beierfasite_7",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 202125,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beierfasite_7",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70364,
+		voice_actor = 39,
+		air_bomb_skin = "",
+		illustrator = 20,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			-11,
+			-170,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.119,
+					1.106,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.104,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.148,
+					1.146,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.423,
+							2.327,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202126] = {
 		name = "Folded Fascination",
 		ship_group = 20212,
@@ -51845,6 +51954,115 @@ pg.ship_skin_template = {
 				{
 					0.996,
 					0.997,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301015] = {
+		name = "Stormy Waitress-in-Training!",
+		ship_group = 30101,
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "Welcome, welcome! Oh, Commander! I've actually started working here part-time, but I'm still learning— Wooah?! Phew... Th-that was a close one...",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "chuixue_6",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 301015,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chuixue_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 116,
+		air_bomb_skin = "",
+		illustrator = 2,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.317,
+					1.201,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.244,
+					1.157,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.283,
+					1.129,
 					0
 				}
 			}
@@ -93921,6 +94139,7 @@ pg.ship_skin_template = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
+		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			4
@@ -93996,9 +94215,6 @@ pg.ship_skin_template = {
 			"mail",
 			"touch_body",
 			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
 		}
 	},
 	[408010] = {
@@ -136210,6 +136426,7 @@ pg.ship_skin_template = {
 			202122,
 			202123,
 			202124,
+			202125,
 			202126,
 			202128
 		},
@@ -136457,7 +136674,8 @@ pg.ship_skin_template = {
 			301011,
 			301012,
 			301013,
-			301014
+			301014,
+			301015
 		},
 		[30105] = {
 			301050,
@@ -138390,6 +138608,7 @@ pg.ship_skin_template = {
 		202122,
 		202123,
 		202124,
+		202125,
 		202126,
 		202128,
 		202130,
@@ -138528,6 +138747,7 @@ pg.ship_skin_template = {
 		301012,
 		301013,
 		301014,
+		301015,
 		301050,
 		301051,
 		301053,

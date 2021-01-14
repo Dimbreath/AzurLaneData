@@ -7,6 +7,7 @@ slot0.ON_READED = "InstagramMediator:ON_READED"
 slot0.ON_COMMENT_LIST_UPDATE = "InstagramMediator:ON_COMMENT_LIST_UPDATE"
 
 function slot0.register(slot0)
+	getProxy(InstagramProxy):InitLocalConfigs()
 	slot0:bind(uv0.ON_READED, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
 			arg2 = 0,

@@ -1,7 +1,8 @@
 slot0 = class("ChatBubbleWorldBoss")
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.tf = tf(slot1)
+	slot0.interactable = defaultValue(slot2, true)
 	slot0.nameTF = findTF(slot0.tf, "desc/name"):GetComponent("Text")
 	slot0.face = findTF(slot0.tf, "face/content")
 	slot0.circle = findTF(slot0.tf, "shipicon/frame")
@@ -87,14 +88,20 @@ function slot0.update(slot0, slot1)
 	slot12 = slot1.args.wordBossId
 
 	onButton(nil, slot0.chatframe, function ()
-		if uv0.args.isDeath then
-			uv1:SetGray()
+		if not uv0.interactable then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_inbattle"))
+
+			return
+		end
+
+		if uv1.args.isDeath then
+			uv0:SetGray()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
 
 			return
 		end
 
-		pg.WorldBossTipMgr.GetInstance():OnClick("", uv2, uv0.args.lastTime, function ()
+		pg.WorldBossTipMgr.GetInstance():OnClick("", uv2, uv1.args.lastTime, function ()
 			uv0:SetGray()
 		end)
 	end, SFX_PANEL)

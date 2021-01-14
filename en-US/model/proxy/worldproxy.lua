@@ -5,18 +5,15 @@ function slot0.register(slot0)
 	WBank = BaseEntityBank.New()
 
 	slot0:BuildTestFunc()
-	slot0:on(33001, function (slot0)
-		uv0.isProtoLock = slot0.is_world_open == 0
+	slot0:on(33114, function (slot0)
+		uv0:BuildWorld(World.TypeBase)
 
-		uv0:BuildWorld(false, slot0.count_info.task_progress)
-		uv0:NetUpdateWorld(slot0.world, slot0.vision_list, slot0.camp)
-		uv0:NetUpdateWorldDefaultFleets(slot0.fleet_list)
-		uv0:NetUpdateWorldAchievements(slot0.target_list, slot0.target_fetch_list)
-		uv0:NetUpdateWorldCountInfo(slot0.count_info)
-		uv0:NetUpdateWorldMapPressing(slot0.clean_chapter)
-		uv0:NetUpdateWorldShopGoods(slot0.out_shop_buy_list)
-		uv0:NetUpdateWorldPressingAward(slot0.chapter_award)
-		uv0:NetUpdateWorldPortTaskMark(slot0.port_list)
+		uv0.isProtoLock = slot0.is_world_open == 0
+		nowWorld.baseShipIds = underscore.rest(slot0.ship_id_list, 1)
+		nowWorld.baseCmdIds = underscore.rest(slot0.cmd_id_list, 1)
+
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
+		uv0:sendNotification(GAME.WORLD_GET_BOSS)
 	end)
 	slot0:on(33105, function (slot0)
 		uv0:UpdateMapAttachmentCells(nowWorld:GetActiveMap().id, uv0:NetBuildMapAttachmentCells(slot0.pos_list))
@@ -115,12 +112,24 @@ function slot0.BuildTestFunc(slot0)
 	end
 end
 
-function slot0.BuildWorld(slot0, slot1, slot2)
-	nowWorld = World.New(nowWorld and nowWorld:Dispose(slot1))
+function slot0.BuildWorld(slot0, slot1)
+	nowWorld = World.New(slot1, nowWorld and nowWorld:Dispose(slot1))
 
-	nowWorld:NewAtlas(WorldConst.GetProgressAtlas(slot2 or nowWorld:GetProgress()))
+	nowWorld:NewAtlas(WorldConst.DefaultAtlas)
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
-	slot0:sendNotification(GAME.WORLD_GET_BOSS)
+end
+
+function slot0.NetFullUpdate(slot0, slot1)
+	slot0.isProtoLock = slot1.is_world_open == 0
+
+	slot0:NetUpdateWorld(slot1.world, slot1.vision_list, slot1.camp)
+	slot0:NetUpdateWorldDefaultFleets(slot1.fleet_list)
+	slot0:NetUpdateWorldAchievements(slot1.target_list, slot1.target_fetch_list)
+	slot0:NetUpdateWorldCountInfo(slot1.count_info)
+	slot0:NetUpdateWorldMapPressing(slot1.clean_chapter)
+	slot0:NetUpdateWorldShopGoods(slot1.out_shop_buy_list)
+	slot0:NetUpdateWorldPressingAward(slot1.chapter_award)
+	slot0:NetUpdateWorldPortTaskMark(slot1.port_list)
 end
 
 function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
@@ -201,9 +210,9 @@ function slot0.NetUpdateWorldAchievements(slot0, slot1, slot2)
 	nowWorld.achieveMapStar = {}
 
 	_.each(slot2, function (slot0)
-		table.foreachi(slot0.star_list, function (slot0, slot1)
-			nowWorld:SetMapAchieveSuccess(uv0.id, slot1)
-		end)
+		for slot4, slot5 in ipairs(slot0.star_list) do
+			nowWorld:SetMapAchieveSuccess(slot0.id, slot5)
+		end
 	end)
 end
 

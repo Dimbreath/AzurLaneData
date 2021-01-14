@@ -6,6 +6,7 @@ slot0.OPEN_MISSION_FORAMTION = "GuildEventLayer:OPEN_MISSION_FORAMTION"
 slot0.ON_OPEN_BOSS = "GuildEventLayer:ON_OPEN_BOSS"
 slot0.ON_OPEN_BOSS_FORMATION = "GuildEventLayer:ON_OPEN_BOSS_FORMATION"
 slot0.OPEN_BOSS_ASSULT = "GuildEventLayer:OPEN_BOSS_ASSULT"
+slot0.SHOW_SHIP_EQUIPMENTS = "GuildEventLayer:SHOW_SHIP_EQUIPMENTS"
 
 function slot0.getUIName(slot0)
 	return "GuildEmptyUI"
@@ -78,6 +79,10 @@ function slot0.UpdateGuild(slot0, slot1)
 
 	if slot0.eventInfoPage and slot0.eventInfoPage:GetLoaded() and slot0.eventInfoPage:isShowing() then
 		slot0.eventInfoPage:Refresh(slot1, slot0.player)
+	end
+
+	if slot0.showAssultShipPage and slot0.showAssultShipPage:GetLoaded() and slot0.showAssultShipPage:isShowing() then
+		slot0:OnMemberAssultFleetUpdate()
 	end
 end
 
@@ -163,6 +168,18 @@ function slot0.OnMemberDeleted(slot0)
 	end
 end
 
+function slot0.OnAssultShipBeRecommanded(slot0, slot1)
+	if slot0.showAssultShipPage and slot0.showAssultShipPage:GetLoaded() then
+		slot0.showAssultShipPage:OnAssultShipBeRecommanded(slot1)
+	end
+end
+
+function slot0.OnRefreshAllAssultShipRecommandState(slot0)
+	if slot0.showAssultShipPage and slot0.showAssultShipPage:GetLoaded() then
+		slot0.showAssultShipPage:OnRefreshAll()
+	end
+end
+
 function slot0.init(slot0)
 	slot0:bind(uv0.OPEN_EVENT_INFO, function (slot0, slot1)
 		uv0.eventInfoPage:ExecuteAction("Show", uv0.guildVO, uv0.player, {
@@ -196,6 +213,9 @@ function slot0.init(slot0)
 	slot0:bind(uv0.OPEN_BOSS_ASSULT, function ()
 		uv0.showAssultShipPage:ExecuteAction("Show", uv0.guildVO, uv0.player)
 	end)
+	slot0:bind(uv0.SHOW_SHIP_EQUIPMENTS, function (slot0, slot1, slot2, slot3)
+		uv0.shipEquipmentsPage:ExecuteAction("Show", slot1, slot2, slot3)
+	end)
 
 	slot0.eventPage = GuildEventPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.eventInfoPage = GuildEventInfoPage.New(slot0._tf, slot0.event, slot0.contextData)
@@ -205,6 +225,7 @@ function slot0.init(slot0)
 	slot0.missionBossPage = GuildMissionBossPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.missBossForamtionPage = GuildMissionBossFormationPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.showAssultShipPage = GuildShowAssultShipPage.New(slot0._tf, slot0.event, slot0.contextData)
+	slot0.shipEquipmentsPage = GuildShipEquipmentsPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.helpBtn = slot0:findTF("frame/help")
 end
 
@@ -266,6 +287,7 @@ function slot0.willExit(slot0)
 	slot0.missionInfoPage:Destroy()
 	slot0.showAssultShipPage:Destroy()
 	slot0.eventPage:Destroy()
+	slot0.shipEquipmentsPage:Destroy()
 
 	if slot0.missionBossPage then
 		slot0.missionBossPage:Destroy()

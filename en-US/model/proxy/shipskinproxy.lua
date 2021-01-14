@@ -6,7 +6,6 @@ slot0.FORBIDDEN_TYPE_SHOW = 1
 
 function slot0.register(slot0)
 	slot0.skins = {}
-	slot0.oldSkins = {}
 	slot0.cacheSkins = {}
 	slot0.timers = {}
 	slot0.forbiddenSkinList = {}
@@ -52,15 +51,13 @@ function slot0.getSkinList(slot0)
 	end)
 end
 
-function slot0.getOldSkinList(slot0)
-	return _.map(_.values(slot0.oldSkins), function (slot0)
-		return slot0.id
-	end)
-end
-
 function slot0.addSkin(slot0, slot1)
-	slot0.oldSkins = Clone(slot0.skins)
+	if slot0.prevNewSkin then
+		slot0.prevNewSkin:SetIsNew(false)
+	end
+
 	slot0.skins[slot1.id] = slot1
+	slot0.prevNewSkin = slot1
 
 	slot0:addExpireTimer(slot1)
 	slot0.facade:sendNotification(uv0.SHIP_SKINS_UPDATE)
@@ -120,12 +117,8 @@ function slot0.hasNonLimitSkin(slot0, slot1)
 	return slot0.skins[slot1] ~= nil and not slot2:isExpireType()
 end
 
-function slot0.hasOldSkin(slot0, slot1)
-	return slot0.oldSkins[slot1] ~= nil
-end
-
 function slot0.hasOldNonLimitSkin(slot0, slot1)
-	return slot0.oldSkins[slot1] and not slot2:isExpireType()
+	return slot0.skins[slot1] and not slot2:HasNewFlag() and not slot2:isExpireType()
 end
 
 function slot0.getSkinCountById(slot0, slot1)

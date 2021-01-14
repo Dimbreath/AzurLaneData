@@ -18,8 +18,21 @@ slot0.ON_SELECT_COMMANDER = "GuildEventMediator:ON_SELECT_COMMANDER"
 slot0.FORCE_REFRESH_MISSION = "GuildEventMediator:FORCE_REFRESH_MISSION"
 slot0.ON_SAVE_FORMATION = "GuildEventMediator:ON_SAVE_FORMATION"
 slot0.ON_JOIN_EVENT = "GuildEventMediator:ON_JOIN_EVENT"
+slot0.ON_RECOMM_ASSULT_SHIP = "GuildEventMediator:ON_RECOMM_ASSULT_SHIP"
+slot0.REFRESH_RECOMMAND_SHIPS = "GuildEventMediator:REFRESH_RECOMMAND_SHIPS"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.REFRESH_RECOMMAND_SHIPS, function (slot0, slot1)
+		uv0:sendNotification(GAME.REFRESH_ALL_ASSULT_SHIP_RECOMMAND_STATE, {
+			callback = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_RECOMM_ASSULT_SHIP, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.GUILD_RECOMMAND_ASSULT_SHIP, {
+			shipId = slot1,
+			cmd = slot2
+		})
+	end)
 	slot0:bind(uv0.ON_JOIN_EVENT, function ()
 		uv0:sendNotification(GAME.ON_GUILD_JOIN_EVENT)
 	end)
@@ -367,25 +380,34 @@ function slot0.SelectBossBattleShip(slot0, slot1, slot2, slot3)
 	slot10 = getProxy(PlayerProxy):getRawData()
 	slot11 = 0
 	slot11 = (not slot9:IsMainFleet() or (slot0.contextData.editBossFleet[GuildBossMission.SUB_FLEET_ID] or slot7:GetFleetByIndex(GuildBossMission.SUB_FLEET_ID)):GetOtherMemberShipCnt(slot10.id)) and (slot0.contextData.editBossFleet[GuildBossMission.MAIN_FLEET_ID] or slot7:GetFleetByIndex(GuildBossMission.MAIN_FLEET_ID)):GetOtherMemberShipCnt(slot10.id)
+	slot12 = nil
 
-	for slot15, slot16 in pairs(slot5.member) do
-		if slot10.id ~= slot16.id then
-			for slot22, slot23 in pairs(slot16:GetAssaultFleet():GetShipList()) do
-				if slot23:getTeamType() == slot1 then
-					slot23.user = slot16
+	for slot16, slot17 in pairs(slot5.member) do
+		slot18 = slot17:GetAssaultFleet()
 
-					table.insert(slot4, slot23)
+		if slot10.id ~= slot17.id then
+			for slot23, slot24 in pairs(slot18:GetShipList()) do
+				if slot24:getTeamType() == slot1 then
+					slot24.user = slot17
+
+					table.insert(slot4, slot24)
 				end
 			end
+		else
+			slot12 = slot18
 		end
 	end
 
-	for slot16, slot17 in pairs(getProxy(BayProxy):getData()) do
-		if slot17:getTeamType() == slot1 then
-			slot17.user = slot10
-			slot17.id = GuildAssaultFleet.GetVirtualId(slot10.id, slot17.id)
+	for slot17, slot18 in pairs(getProxy(BayProxy):getData()) do
+		if slot18:getTeamType() == slot1 then
+			slot18.user = slot10
+			slot18.id = GuildAssaultFleet.GetVirtualId(slot10.id, slot18.id)
 
-			table.insert(slot4, slot17)
+			if slot12:GetShipByRealId(slot10.id, slot18.id) then
+				slot18.guildRecommand = slot19.guildRecommand
+			end
+
+			table.insert(slot4, slot18)
 		end
 	end
 
@@ -393,19 +415,19 @@ function slot0.SelectBossBattleShip(slot0, slot1, slot2, slot3)
 		table.insert({}, slot3.ship.id)
 	end
 
-	for slot18, slot19 in ipairs(slot9:GetShipIds()) do
-		if slot19 and not table.contains(slot13, GuildAssaultFleet.GetVirtualId(slot19.uid, slot19.id)) then
-			table.insert(slot13, slot20)
+	for slot19, slot20 in ipairs(slot9:GetShipIds()) do
+		if slot20 and not table.contains(slot14, GuildAssaultFleet.GetVirtualId(slot20.uid, slot20.id)) then
+			table.insert(slot14, slot21)
 		end
 	end
 
-	slot15 = slot9:GetShips()
+	slot16 = slot9:GetShips()
 
 	slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 		selectedMin = 1,
 		selectedMax = 1,
 		quitTeam = slot3,
-		ignoredIds = slot13,
+		ignoredIds = slot14,
 		shipVOs = slot4,
 		mode = DockyardScene.MODE_GUILD_BOSS,
 		hideTagFlags = ShipStatus.TAG_HIDE_CHALLENGE,
@@ -455,12 +477,10 @@ function slot0.OnSelectShips(slot0, slot1, slot2, slot3)
 		selectedMax = 1,
 		ignoredIds = slot7,
 		onShip = function (slot0, slot1, slot2)
-			if _.any(uv0, function (slot0)
-				return slot0:isSameKind(uv0) or GuildAssaultFleet.GetRealId(slot0.id) == uv0.id
-			end) then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_fleet_exist_same_kind_ship"))
-
-				return false
+			for slot6, slot7 in pairs(uv0) do
+				if slot6 ~= uv1 and GuildAssaultFleet.GetRealId(slot7.id) == slot0.id then
+					return false, i18n("guild_fleet_exist_same_kind_ship")
+				end
 			end
 
 			return true
@@ -567,7 +587,10 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SUBMIT_GUILD_REPORT_DONE,
 		GAME.ON_GUILD_JOIN_EVENT_DONE,
 		GAME.GUILD_END_BATTLE,
-		GuildProxy.ON_EXIST_DELETED_MEMBER
+		GuildProxy.ON_EXIST_DELETED_MEMBER,
+		GAME.GUILD_RECOMMAND_ASSULT_SHIP_DONE,
+		GAME.REFRESH_ALL_ASSULT_SHIP_RECOMMAND_STATE_DONE,
+		TaskProxy.TASK_PROGRESS_UPDATE
 	}
 end
 
@@ -640,6 +663,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:EnterEvent()
 	elseif slot2 == GuildProxy.ON_EXIST_DELETED_MEMBER then
 		slot0.viewComponent:OnMemberDeleted()
+	elseif slot2 == GAME.GUILD_RECOMMAND_ASSULT_SHIP_DONE then
+		slot0.viewComponent:OnAssultShipBeRecommanded(slot3.shipId)
+	elseif slot2 == GAME.REFRESH_ALL_ASSULT_SHIP_RECOMMAND_STATE_DONE then
+		slot0.viewComponent:OnRefreshAllAssultShipRecommandState()
+	elseif slot2 == TaskProxy.TASK_PROGRESS_UPDATE then
+		pg.GuildMsgBoxMgr.GetInstance():NotificationForGuildEvent(slot3)
 	end
 end
 

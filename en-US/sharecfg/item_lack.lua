@@ -631,6 +631,16 @@ pg.item_lack = {
 					""
 				},
 				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 5
+					}
+				},
+				0
 			}
 		}
 	},
@@ -645,6 +655,16 @@ pg.item_lack = {
 				"\"Sparkling Battle Star\" Event Reward",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 5
+					}
 				},
 				0
 			}

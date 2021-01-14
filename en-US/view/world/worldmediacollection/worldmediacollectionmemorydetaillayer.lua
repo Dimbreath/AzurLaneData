@@ -89,20 +89,10 @@ function slot0.PlayMemory(slot0, slot1)
 			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then
-		slot3 = 0
-
-		for slot7, slot8 in pairs(pg.NewStoryMgr.GetInstance():GetStoryByName("index")) do
-			if slot1.story == slot8 then
-				slot3 = slot7
-
-				break
-			end
-		end
-
-		slot0:emit(uv0.BEGIN_STAGE, {
+		slot0:emit(WorldMediaCollectionMediator.BEGIN_STAGE, {
 			memory = true,
 			system = SYSTEM_PERFORM,
-			stageId = slot3
+			stageId = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot1.story)
 		})
 	end
 end

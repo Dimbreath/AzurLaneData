@@ -23136,6 +23136,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70364] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤:贝尔法斯特必胜客",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8779,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70364,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202125
+		},
+		time = {
+			{
+				{
+					2021,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70365] = {
 		group_type = 0,
 		resource_num = 780,
@@ -27654,7 +27703,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 8779,
+		order = 8778,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -27703,7 +27752,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 8779,
+		order = 8778,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -27752,7 +27801,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 8779,
+		order = 8778,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -33778,6 +33827,7 @@ pg.shop_template = {
 		70361,
 		70362,
 		70363,
+		70364,
 		70365,
 		70366,
 		70367,

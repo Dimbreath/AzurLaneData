@@ -4,26 +4,58 @@ slot0.Fields = {
 	gid = "number",
 	topExtend = "number",
 	transform = "userdata",
-	bottomExtend = "number",
+	longPressTrigger = "userdata",
 	leftExtend = "number",
 	twFocusId = "number",
 	dragTrigger = "userdata",
 	wsTimer = "table",
 	onDragFunction = "function",
+	isDraging = "boolean",
+	bottomExtend = "number",
+	callInfo = "table",
 	rightExtend = "number"
 }
 
-function slot0.Setup(slot0)
-	slot0.dragTrigger = GetOrAddComponent(slot0.transform, "EventTriggerListener")
+function slot0.Setup(slot0, slot1)
+	slot0.callInfo = slot1
+	slot0.dragTrigger = GetOrAddComponent(slot0.transform, typeof(EventTriggerListener))
+
+	slot0.dragTrigger:AddBeginDragFunc(function ()
+		uv0.isDraging = true
+	end)
+	slot0.dragTrigger:AddDragEndFunc(function ()
+		uv0.isDraging = false
+	end)
+	slot0.dragTrigger:AddPointClickFunc(function (slot0, slot1)
+		if not uv0.isDraging then
+			uv0.callInfo.clickCall(slot0, slot1)
+		end
+	end)
+
 	slot0.dragTrigger.enabled = true
+	slot0.longPressTrigger = GetOrAddComponent(slot0.transform, typeof(UILongPressTrigger))
+
+	slot0.longPressTrigger.onLongPressed:AddListener(slot0.callInfo.longPressCall)
+
+	slot0.longPressTrigger.enabled = true
 end
 
 function slot0.Dispose(slot0)
 	slot0.transform.localPosition = Vector3.zero
 
-	ClearEventTrigger(slot0.dragTrigger)
+	if slot0.map then
+		slot0.dragTrigger:RemoveDragFunc()
+	end
+
+	slot0.dragTrigger:RemoveBeginDragFunc()
+	slot0.dragTrigger:RemoveDragEndFunc()
+	slot0.dragTrigger:RemovePointClickFunc()
 
 	slot0.dragTrigger.enabled = true
+
+	slot0.longPressTrigger.onLongPressed:RemoveListener(slot0.callInfo.longPressCall)
+
+	slot0.longPressTrigger.enabled = true
 
 	slot0:Clear()
 end
@@ -44,6 +76,7 @@ function slot0.Focus(slot0, slot1, slot2, slot3)
 	if slot2 then
 		table.insert({}, function (slot0)
 			uv0.dragTrigger.enabled = false
+			uv0.longPressTrigger.enabled = false
 			uv0.twFocusId = LeanTween.moveLocal(uv0.transform.gameObject, uv1, (uv0.transform.localPosition - uv1).magnitude > 0 and slot1 / (40 * math.sqrt(slot1)) or 0):setEase(uv2 == 1 and LeanTweenType.linear or LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot0)).uniqueId
 
 			uv0.wsTimer:AddInMapTween(uv0.twFocusId)
@@ -54,6 +87,7 @@ function slot0.Focus(slot0, slot1, slot2, slot3)
 
 	seriesAsync(slot7, function ()
 		uv0.dragTrigger.enabled = true
+		uv0.longPressTrigger.enabled = true
 
 		if uv1 then
 			uv1()
@@ -81,6 +115,7 @@ function slot0.UpdateDrag(slot0)
 	slot0.leftExtend, slot0.rightExtend, slot0.topExtend, slot0.bottomExtend = slot0:GetDragExtend(slot2, slot3)
 	slot0.transform.sizeDelta = Vector2(slot2 + math.max(slot0.leftExtend, slot0.rightExtend) * 2, slot3 + math.max(slot0.topExtend, slot0.bottomExtend) * 2)
 
+	slot0.dragTrigger:RemoveDragFunc()
 	slot0.dragTrigger:AddDragFunc(function (slot0, slot1)
 		if uv0.onDragFunction then
 			uv0.onDragFunction()
@@ -130,11 +165,13 @@ function slot0.ShakePlane(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot12 = slot11 * slot3 * 0.5
 	slot13 = slot11 * slot3
 	slot0.dragTrigger.enabled = false
+	slot0.longPressTrigger.enabled = false
 
 	slot0.wsTimer:AddInMapTween(LeanTween.moveLocal(slot0.transform.gameObject, slot8 + slot7, slot12).uniqueId)
 	slot0.wsTimer:AddInMapTween(LeanTween.moveLocal(slot0.transform.gameObject, slot8 - slot7, slot13):setDelay(slot12):setLoopPingPong(slot4).uniqueId)
 	slot0.wsTimer:AddInMapTween(LeanTween.moveLocal(slot0.transform.gameObject, slot8, slot11 * slot3 * 0.5):setDelay(slot12 + slot13 * slot4 * 2):setOnComplete(System.Action(function ()
 		uv0.dragTrigger.enabled = true
+		uv0.longPressTrigger.enabled = true
 
 		uv1()
 	end)).uniqueId)

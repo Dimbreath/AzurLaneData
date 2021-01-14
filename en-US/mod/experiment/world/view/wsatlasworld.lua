@@ -265,28 +265,29 @@ end
 function slot0.OnUpdatePressingAward(slot0, slot1, slot2, slot3)
 	slot3 = slot3 or slot0.atlas.transportDic
 
-	table.foreach(slot3, function (slot0, slot1)
-		if slot1 then
-			if nowWorld:CheckAreaUnlock(uv0.atlas:GetEntrance(slot0):GetAreaId()) then
-				uv0.entranceTplDic[slot0]:UpdatePressingAward()
+	for slot7, slot8 in pairs(slot3) do
+		if slot8 then
+			if nowWorld:CheckAreaUnlock(slot0.atlas:GetEntrance(slot7):GetAreaId()) then
+				slot0.entranceTplDic[slot7]:UpdatePressingAward()
 			else
-				uv0.areaLockPressingAward[slot2] = uv0.areaLockPressingAward[slot2] or {}
+				slot0.areaLockPressingAward[slot9] = slot0.areaLockPressingAward[slot9] or {}
 
-				table.insert(uv0.areaLockPressingAward[slot2], slot0)
+				table.insert(slot0.areaLockPressingAward[slot9], slot7)
 			end
 		end
-	end)
+	end
+
 	uv0.super.OnUpdatePressingAward(slot0, slot1, slot2, slot3)
 end
 
 function slot0.OnUpdatePortTaskMark(slot0, slot1, slot2, slot3)
-	table.foreach(slot3, function (slot0, slot1)
-		if slot1 then
-			slot2 = uv0.atlas:GetEntrance(slot0)
+	for slot7, slot8 in pairs(slot3) do
+		if slot8 then
+			slot9 = slot0.atlas:GetEntrance(slot7)
 
-			uv0.entranceTplDic[slot0]:UpdatePort(uv0.atlas.transportDic[slot2.id], uv0.atlas.taskPortDic[slot2.config.port_map_icon])
+			slot0.entranceTplDic[slot7]:UpdatePort(slot0.atlas.transportDic[slot9.id], slot0.atlas.taskPortDic[slot9.config.port_map_icon])
 		end
-	end)
+	end
 end
 
 function slot0.NewEntranceTplDic(slot0)

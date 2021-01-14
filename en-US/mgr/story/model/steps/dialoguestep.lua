@@ -16,6 +16,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actor = slot1.actor
 	slot0.nameColor = slot1.nameColor
 	slot0.actorName = slot1.actorName
+	slot0.withoutActorName = slot1.withoutActorName
 	slot0.say = slot1.say
 	slot0.side = slot1.side
 	slot0.dir = slot1.dir
@@ -116,7 +117,7 @@ function slot0.GetContent(slot0)
 end
 
 function slot0.GetNameWithColor(slot0)
-	if (not slot0.actorName or not slot0.actorName) and not slot0:GetPaintingAndName() and not "" or slot1 == "" then
+	if (not slot0.actorName or not slot0.actorName) and not slot0:GetPaintingAndName() and not "" or slot1 == "" or slot0.withoutActorName then
 		return nil
 	end
 

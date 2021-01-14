@@ -36,6 +36,7 @@ function slot0.init(slot0)
 	slot0._shipType = slot0._dialogue:Find("type"):GetComponent(typeof(Text))
 	slot0._dialogueText = slot0._dialogue:Find("desc/Text")
 	slot0._left = slot0._shake:Find("ForNotch/left_panel")
+	slot0._lockTF = slot0._left:Find("lock")
 	slot0._lockBtn = slot0._left:Find("lock/lock")
 	slot0._unlockBtn = slot0._left:Find("lock/unlock_btn")
 	slot0._viewBtn = slot0._left:Find("view_btn")
@@ -174,8 +175,9 @@ function slot0.setShip(slot0, slot1)
 		end
 	else
 		setActive(slot0.newTF, false)
+		slot0:updateLockTF(slot1:getReMetaSpecialItemVO() ~= nil)
 
-		if slot1:getReMetaSpecialItemVO() then
+		if slot4 then
 			slot5 = slot0:findTF("Icon", slot0.metaRepeatTF)
 
 			setImageSprite(slot5, LoadSprite(slot4:getConfig("icon")))
@@ -399,6 +401,10 @@ end
 function slot0.UpdateLockButton(slot0, slot1)
 	setActive(slot0._lockBtn, slot1 ~= Ship.LOCK_STATE_LOCK)
 	setActive(slot0._unlockBtn, slot1 ~= Ship.LOCK_STATE_UNLOCK)
+end
+
+function slot0.updateLockTF(slot0, slot1)
+	setActive(slot0._lockTF, not slot1)
 end
 
 function slot0.didEnter(slot0)

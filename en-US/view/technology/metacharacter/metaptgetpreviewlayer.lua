@@ -48,7 +48,9 @@ function slot0.addListener(slot0)
 		getProxy(ContextProxy):getContextByMediator(MetaCharacterMediator).data.lastPageIndex = pg.m02:retrieveMediator("MetaCharacterMediator").viewComponent.curPageIndex
 
 		uv0:closeView()
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
+		pg.m02:sendNotification(GAME.ENTER_WORLD, {
+			inWorldBoss = true
+		})
 
 		if getProxy(ContextProxy):getContextByMediator(MetaCharacterSynMediator) then
 			slot0:removeChild(slot2)

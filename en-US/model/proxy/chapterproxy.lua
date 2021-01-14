@@ -803,10 +803,11 @@ function slot0.getSubAidFlag(slot0)
 		slot6 = getProxy(PlayerProxy):getRawData()
 		slot7, slot8 = slot0:getFleetCost(slot2)
 		slot9, slot10 = slot0:getFleetAmmo(slot4)
+		slot11 = slot4:getSummonCost() * slot0:GetExtraCostRate()
 
 		if slot10 <= 0 then
 			return slot1.AMMO_EMPTY
-		elseif slot6.oil < slot4:getSummonCost() + slot8.oil then
+		elseif slot6.oil < slot11 + slot8.oil then
 			return slot1.OIL_EMPTY
 		else
 			return true, slot4

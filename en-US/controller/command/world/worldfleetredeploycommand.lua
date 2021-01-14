@@ -18,11 +18,7 @@ function slot0.execute(slot0, slot1)
 			slot2.staminaMgr:ConsumeStamina(nowWorld:CalcOrderCost(WorldConst.OpReqRedeploy))
 			slot2:SetReqCDTime(WorldConst.OpReqRedeploy, pg.TimeMgr.GetInstance():GetServerTime())
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_2"))
-
-			slot6 = slot2:GetBossProxy()
-
-			slot6:ClearCacheShips()
-			slot6:GenFleet()
+			slot2:GetBossProxy():GenFleet()
 			uv0:sendNotification(GAME.WORLD_FLEET_REDEPLOY_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_fleet_redeploy_error_", slot0.result))

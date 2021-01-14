@@ -64,6 +64,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 		slot0.levelTF = findTF(slot0.tr, "content/dockyard/lv")
 	end
 
+	slot0.tagRecommand = findTF(slot0.tr, "content/recommand")
 	slot0.palyerId = getProxy(PlayerProxy):getRawData().id
 end
 
@@ -341,6 +342,14 @@ function slot0.flushDetail(slot0)
 
 	if slot0.userTF then
 		slot0:UpdateUser(slot1)
+	end
+
+	slot0:UpdateRecommandTag(slot1)
+end
+
+function slot0.UpdateRecommandTag(slot0, slot1)
+	if slot1 and slot0.tagRecommand then
+		setActive(slot0.tagRecommand, defaultValue(slot1.guildRecommand, false))
 	end
 end
 

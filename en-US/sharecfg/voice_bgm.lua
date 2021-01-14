@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		bgm = "main-newyear"
+		bgm = "main"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		bgm = "holo-fff-inst"
@@ -52,7 +52,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	MainUI = {
-		bgm = "main-newyear"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		bgm = "holo-fff-inst"

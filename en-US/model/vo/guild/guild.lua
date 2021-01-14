@@ -711,7 +711,9 @@ function slot0.ShouldShowTechTip(slot0)
 end
 
 function slot0.ShouldShowSupplyTip(slot0)
-	return slot0:isOpenedSupply() and slot0:getSupplyCnt() > 0
+	return slot0:isOpenedSupply() and slot0:getSupplyCnt() > 0 and function ()
+		return not uv0:getMemberById(getProxy(PlayerProxy):getRawData().id):IsRecruit() and not slot1:isNewMember()
+	end()
 end
 
 function slot0.GetMembers(slot0)

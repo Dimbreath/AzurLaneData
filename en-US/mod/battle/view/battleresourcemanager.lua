@@ -304,8 +304,8 @@ function slot5.InstSkillPaintingUI(slot0)
 	return slot2
 end
 
-function slot5.InstKizunaJamming(slot0)
-	slot1 = slot0._allPool["UI/KizunaJamming"]
+function slot5.InstBossWarningUI(slot0)
+	slot1 = slot0._allPool["UI/MonsterAppearUI"]
 	slot2 = slot1:GetObject()
 	slot0._ob2Pool[slot2] = slot1
 
@@ -621,7 +621,7 @@ function slot5.InitPool(slot0, slot1, slot2)
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 3, 20, false, false):InitSize()
 	elseif slot1 == "UI/SkillPainting" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
-	elseif slot1 == "UI/KizunaJamming" then
+	elseif slot1 == "UI/MonsterAppearUI" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/CombatHPBar" then
 		uv1.Battle.BattleHPBarManager.GetInstance():Init(slot2, slot3)
@@ -658,10 +658,9 @@ function slot5.GetCommonResource()
 		uv0.GetFXPath("qianting_chushui"),
 		uv0.GetFXPath(uv2.PLAYER_SUB_BUBBLE_FX),
 		uv0.GetUIPath("SkillPainting"),
+		uv0.GetUIPath("MonsterAppearUI"),
 		uv0.GetUIPath("CombatHPBar"),
-		uv0.GetUIPath("CombatHPPop"),
-		uv0.GetBulletPath("zimudan"),
-		uv0.GetBulletPath("hwxgz_1")
+		uv0.GetUIPath("CombatHPPop")
 	}
 end
 
@@ -1078,10 +1077,6 @@ function slot5.GetMonsterRes(slot0)
 	end
 
 	return slot1
-end
-
-function slot5.GetKizunaJammingUI()
-	return uv0.GetUIPath("KizunaJamming")
 end
 
 function slot5.GetEquipSkinPreviewRes(slot0)

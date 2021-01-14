@@ -3,6 +3,7 @@ slot0.TASK_ADDED = "task added"
 slot0.TASK_UPDATED = "task updated"
 slot0.TASK_REMOVED = "task removed"
 slot0.TASK_FINISH = "task finish"
+slot0.TASK_PROGRESS_UPDATE = "task TASK_PROGRESS_UPDATE"
 mingshiTriggerId = 1
 mingshiActivityId = 21
 changdaoActivityId = 10006
@@ -37,6 +38,10 @@ function slot0.register(slot0)
 				slot6.progress = slot5.progress
 
 				uv0:updateTask(slot6)
+
+				if not slot6:isFinish() then
+					uv0:sendNotification(uv1.TASK_PROGRESS_UPDATE, slot6:clone())
+				end
 			end
 		end
 	end)

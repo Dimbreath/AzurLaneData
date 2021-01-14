@@ -84,7 +84,6 @@ function slot0.Setup(slot0, slot1)
 	slot0.row = slot1.pos.row
 	slot0.column = slot1.pos.column
 	slot0.ammo = slot1.bullet
-	slot0.lossFlag = slot1.loss_flag
 	slot0.damageLevel = math.clamp(slot1.damage_level, 0, #WorldConst.DamageBuffList)
 
 	_.each(slot1.attach_list, function (slot0)

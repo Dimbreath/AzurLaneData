@@ -658,14 +658,6 @@ return {
 		{
 			dir = 1,
 			parent = 0,
-			y = 8,
-			id = 63305,
-			x = 24,
-			child = {}
-		},
-		{
-			dir = 1,
-			parent = 0,
 			y = 1,
 			id = 63115,
 			x = 1,
