@@ -41,6 +41,9 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:updateMainSelectPanel()
 	setActive(slot0.openBtn, slot0:isFinished())
 	setActive(slot0.shareBtn, slot0:isFinished())
+	onButton(slot0, slot0.battleBtn, function ()
+		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+	end, SFX_PANEL)
 end
 
 function slot0.OnDestroy(slot0)
@@ -164,14 +167,26 @@ function slot0.addListener(slot0)
 		if table.indexof(uv0.specialPhaseList, slot0, 1) then
 			uv0:openMainPanel(slot3)
 		else
-			slot4, slot5 = uv0.ptData:GetResProgress()
+			slot4 = {}
 
-			uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
-				cmd = 1,
-				arg2 = 0,
-				activity_id = uv0.ptData:GetId(),
-				arg1 = slot5
-			})
+			if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot5.id == PlayerConst.ResGold and getProxy(PlayerProxy):getData():GoldMax(slot5.count) then
+				table.insert(slot4, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),
+						onYes = slot0
+					})
+				end)
+			end
+
+			seriesAsync(slot4, function ()
+				slot0, slot1 = uv0.ptData:GetResProgress()
+
+				uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+					cmd = 1,
+					activity_id = uv0.ptData:GetId(),
+					arg1 = slot1
+				})
+			end)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.openBtn, function ()

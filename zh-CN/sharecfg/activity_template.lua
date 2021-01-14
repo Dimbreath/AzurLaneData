@@ -2771,6 +2771,7 @@ pg.activity_template = {
 	},
 	[814] = {
 		mark = 20201222,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -2807,33 +2808,6 @@ pg.activity_template = {
 				16154
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "WakabaChrisSkinPage",
 			ui_name = "WakabaChrisSkinPage"
@@ -2862,6 +2836,7 @@ pg.activity_template = {
 	},
 	[815] = {
 		mark = 20201222,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 815,
@@ -2870,33 +2845,6 @@ pg.activity_template = {
 		title_res_tag = "mabuerheidepifu",
 		id = 815,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MabuerheideshengdanPage",
 			ui_name = "mabuerheideshengdanpage"
@@ -2990,6 +2938,7 @@ pg.activity_template = {
 	[823] = {
 		mark = 20201229,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3016,37 +2965,11 @@ pg.activity_template = {
 			16216,
 			16217,
 			16218
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[824] = {
 		mark = 20201229,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -3061,33 +2984,6 @@ pg.activity_template = {
 			1460022,
 			1460023
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "DexiV3MainPage",
 			ui_name = "DexiV3MainPage"
@@ -3099,6 +2995,7 @@ pg.activity_template = {
 	[825] = {
 		mark = 20201229,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -3114,33 +3011,6 @@ pg.activity_template = {
 			1460026,
 			1460041,
 			1460051
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					30
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -3269,6 +3139,7 @@ pg.activity_template = {
 	[828] = {
 		mark = 20201229,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -3276,37 +3147,11 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 828,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[829] = {
 		mark = 20201229,
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 14,
@@ -3315,33 +3160,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 829,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SnowballPage",
 			ui_name = "SnowballPage"
@@ -3349,6 +3167,7 @@ pg.activity_template = {
 	},
 	[830] = {
 		mark = 20201229,
+		time = "stop",
 		type = 63,
 		login_pop = 0,
 		config_id = 2,
@@ -3356,33 +3175,6 @@ pg.activity_template = {
 		title_res_tag = "hsxuyuan",
 		id = 830,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewYearShrinePage",
 			ui_name = "NewYearShrinePage"
@@ -3402,6 +3194,7 @@ pg.activity_template = {
 	[831] = {
 		mark = 20201229,
 		page_info = "",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 15,
@@ -3409,33 +3202,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 831,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"shitelasai_2",
@@ -3454,6 +3220,7 @@ pg.activity_template = {
 	[832] = {
 		mark = 20201229,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3463,38 +3230,12 @@ pg.activity_template = {
 		id = 832,
 		config_data = {
 			16219
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[833] = {
 		mark = 20201229,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -3502,37 +3243,11 @@ pg.activity_template = {
 		config_data = "[{31977,100}]",
 		config_client = "",
 		title_res_tag = "",
-		id = 833,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 833
 	},
 	[834] = {
 		mark = 20201229,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3541,33 +3256,6 @@ pg.activity_template = {
 		title_res_tag = "sanzhounianhuizong",
 		id = 834,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewYearSkinShowPage",
 			ui_name = "NewYearSkinShowPage"
@@ -3575,6 +3263,7 @@ pg.activity_template = {
 	},
 	[835] = {
 		mark = 20201229,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3582,33 +3271,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 835,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewYearSnackPage",
 			ui_name = "NewYearSnackPage"
@@ -3668,6 +3330,113 @@ pg.activity_template = {
 					2021,
 					1,
 					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[840] = {
+		mark = 20210114,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 9,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		title_res_tag = "",
+		id = 840,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					1,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[841] = {
+		mark = 20210114,
+		type = 54,
+		login_pop = 0,
+		config_id = 841,
+		is_show = 16,
+		title_res_tag = "xunliandianshu",
+		id = 841,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					1,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShenshengxvmuPage",
+			ui_name = "shenshengxvmupage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					10
 				},
 				{
 					23,
@@ -4672,6 +4441,8 @@ pg.activity_template = {
 		834,
 		835,
 		836,
+		840,
+		841,
 		2001,
 		2002,
 		2003,

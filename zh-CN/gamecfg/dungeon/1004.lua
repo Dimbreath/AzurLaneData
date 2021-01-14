@@ -801,7 +801,17 @@ return {
 								8007
 							}
 						}
+					}
+				},
+				{
+					triggerType = 0,
+					waveIndex = 202,
+					conditionType = 1,
+					preWaves = {
+						200
 					},
+					triggerParam = {},
+					spawn = {},
 					reinforcement = {
 						{
 							monsterTemplateID = 845,
@@ -967,7 +977,9 @@ return {
 								8007,
 								8102
 							}
-						}
+						},
+						reinforceDuration = 180,
+						reinforceDelay = 15
 					}
 				},
 				{

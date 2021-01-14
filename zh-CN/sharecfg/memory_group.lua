@@ -2647,7 +2647,7 @@ pg.memory_group = {
 		}
 	},
 	[552] = {
-		title = "幸福的范例",
+		title = "幸福的范式",
 		type = 3,
 		id = 552,
 		icon = "title_chara_xipeier",

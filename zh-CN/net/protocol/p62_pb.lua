@@ -39,6 +39,7 @@ slot3 = {
 	CS_62029_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_62030_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_62031_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_62032_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_62032_DONATE_TASKS_FIELD = slot0.FieldDescriptor(),
 	RANK_INFO_PERIOD_FIELD = slot0.FieldDescriptor(),
 	RANK_INFO_RANKUSERINFO_FIELD = slot0.FieldDescriptor(),
@@ -645,10 +646,19 @@ CS_62031.fields = {
 }
 CS_62031.is_extendable = false
 CS_62031.extensions = {}
+slot3.SC_62032_RESULT_FIELD.name = "result"
+slot3.SC_62032_RESULT_FIELD.full_name = "p62.sc_62032.result"
+slot3.SC_62032_RESULT_FIELD.number = 1
+slot3.SC_62032_RESULT_FIELD.index = 0
+slot3.SC_62032_RESULT_FIELD.label = 2
+slot3.SC_62032_RESULT_FIELD.has_default_value = false
+slot3.SC_62032_RESULT_FIELD.default_value = 0
+slot3.SC_62032_RESULT_FIELD.type = 13
+slot3.SC_62032_RESULT_FIELD.cpp_type = 3
 slot3.SC_62032_DONATE_TASKS_FIELD.name = "donate_tasks"
 slot3.SC_62032_DONATE_TASKS_FIELD.full_name = "p62.sc_62032.donate_tasks"
-slot3.SC_62032_DONATE_TASKS_FIELD.number = 1
-slot3.SC_62032_DONATE_TASKS_FIELD.index = 0
+slot3.SC_62032_DONATE_TASKS_FIELD.number = 2
+slot3.SC_62032_DONATE_TASKS_FIELD.index = 1
 slot3.SC_62032_DONATE_TASKS_FIELD.label = 3
 slot3.SC_62032_DONATE_TASKS_FIELD.has_default_value = false
 slot3.SC_62032_DONATE_TASKS_FIELD.default_value = {}
@@ -659,6 +669,7 @@ SC_62032.full_name = "p62.sc_62032"
 SC_62032.nested_types = {}
 SC_62032.enum_types = {}
 SC_62032.fields = {
+	slot3.SC_62032_RESULT_FIELD,
 	slot3.SC_62032_DONATE_TASKS_FIELD
 }
 SC_62032.is_extendable = false

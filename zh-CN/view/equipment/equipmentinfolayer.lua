@@ -231,6 +231,21 @@ function slot0.initAndSetBtn(slot0, slot1)
 	elseif slot1 == EquipmentInfoMediator.TYPE_DISPLAY then
 		slot0.displayEquipTF = slot0:findTF("equipment", slot0.displayPanel) or slot0:cloneSampleTo(slot0.displayPanel, uv0.Middle, "equipment")
 		slot0.displayMoveBtn = slot0:findTF("actions/move_button", slot0.displayPanel)
+		slot0.defaultTransformTipBar = slot0:findTF("transform_tip", slot0.displayEquipTF)
+
+		if slot0.contextData.showTransformTip and not slot0.defaultTransformTipBar then
+			slot2 = slot0.defaultPanel:Find("transform_tip")
+
+			setParent(slot2, slot0.displayEquipTF)
+
+			slot3 = slot2.sizeDelta
+			slot3.y = 0
+			slot2.sizeDelta = slot3
+
+			setAnchoredPosition(slot2, Vector2.zero)
+
+			slot0.defaultTransformTipBar = slot2
+		end
 
 		onButton(slot0, slot0.displayMoveBtn, function ()
 			uv0:emit(EquipmentInfoMediator.ON_MOVE, uv0.shipVO.id)
@@ -298,40 +313,7 @@ function slot0.updateOperation1(slot0)
 	setActive(slot0.defaultReplaceBtn, false)
 	setActive(slot0.defaultUnloadBtn, false)
 	setActive(slot0.defaultDestroyBtn, slot0.contextData.destroy and slot0.equipmentVO.count > 0)
-	setActive(slot0.defaultTransformTipBar, not LOCK_EQUIPMENT_TRANSFORM and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "EquipmentTransformTreeMediator") and #EquipmentProxy.GetTransformTargets(Equipment.GetEquipRootStatic(slot0.equipmentVO.id)) > 0)
-
-	if isActive(slot0.defaultTransformTipBar) then
-		slot3 = pg.equip_upgrade_data
-
-		UIItemList.StaticAlign(slot0.defaultTransformTipBar:Find("list"), slot0.defaultTransformTipBar:Find("list/transformTarget"), #slot2, function (slot0, slot1, slot2)
-			if slot0 == UIItemList.EventUpdate then
-				setActive(slot2:Find("link"), slot1 > 0)
-
-				if not (uv0[uv1[slot1 + 1]] and slot3.target_id) then
-					setActive(slot2, false)
-
-					return
-				end
-
-				updateDrop(slot2:Find("item"), {
-					type = DROP_TYPE_EQUIP,
-					id = slot4
-				})
-				onButton(uv2, slot2:Find("item"), function ()
-					uv0:emit(EquipmentInfoMediator.OPEN_LAYER, Context.New({
-						mediator = EquipmentTransformMediator,
-						viewComponent = EquipmentTransformLayer,
-						data = {
-							fromStoreHouse = true,
-							formulaId = uv1[uv2 + 1],
-							sourceEquipmentInstance = uv0.equipmentVO
-						}
-					}))
-				end, SFX_PANEL)
-				slot2:Find("mask/name"):GetComponent("ScrollText"):SetText(pg.equip_data_statistics[slot4].name)
-			end
-		end)
-	end
+	slot0:UpdateTransformTipBar(slot0.equipmentVO)
 end
 
 function slot0.updateOperation2(slot0)
@@ -386,6 +368,8 @@ function slot0.updateOperation4(slot0)
 	if slot0.shipVO then
 		setImageSprite(findTF(slot1, "Image"), LoadSprite("qicon/" .. slot0.shipVO:getPainting()))
 	end
+
+	slot0:UpdateTransformTipBar(slot0.equipmentVO)
 end
 
 function slot0.updateRevertPanel(slot0)
@@ -526,6 +510,47 @@ function slot0.closeDestoryMsgbox(slot0)
 
 	setActive(slot0.destroyMsgBox, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyMsgBox, slot0._tf)
+end
+
+function slot0.UpdateTransformTipBar(slot0, slot1)
+	if not slot0.defaultTransformTipBar then
+		return
+	end
+
+	setActive(slot0.defaultTransformTipBar, not LOCK_EQUIPMENT_TRANSFORM and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "EquipmentTransformTreeMediator") and #EquipmentProxy.GetTransformTargets(Equipment.GetEquipRootStatic(slot1.id)) > 0)
+
+	if isActive(slot0.defaultTransformTipBar) then
+		slot4 = pg.equip_upgrade_data
+
+		UIItemList.StaticAlign(slot0.defaultTransformTipBar:Find("list"), slot0.defaultTransformTipBar:Find("list/transformTarget"), #slot3, function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventUpdate then
+				setActive(slot2:Find("link"), slot1 > 0)
+
+				if not (uv0[uv1[slot1 + 1]] and slot3.target_id) then
+					setActive(slot2, false)
+
+					return
+				end
+
+				updateDrop(slot2:Find("item"), {
+					type = DROP_TYPE_EQUIP,
+					id = slot4
+				})
+				onButton(uv2, slot2:Find("item"), function ()
+					uv0:emit(EquipmentInfoMediator.OPEN_LAYER, Context.New({
+						mediator = EquipmentTransformMediator,
+						viewComponent = EquipmentTransformLayer,
+						data = {
+							fromStoreHouse = true,
+							formulaId = uv1[uv2 + 1],
+							sourceEquipmentInstance = uv3
+						}
+					}))
+				end, SFX_PANEL)
+				slot2:Find("mask/name"):GetComponent("ScrollText"):SetText(pg.equip_data_statistics[slot4].name)
+			end
+		end)
+	end
 end
 
 function slot0.cloneSampleTo(slot0, slot1, slot2, slot3, slot4)

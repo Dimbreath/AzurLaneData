@@ -122,6 +122,10 @@ function slot6.GetOxyState(slot0)
 	return nil
 end
 
+function slot6.IsBoss(slot0)
+	return nil
+end
+
 function slot6.HandleDamageToDeath(slot0)
 	slot0:UpdateHP(-slot0._currentHP, {
 		isMiss = false,

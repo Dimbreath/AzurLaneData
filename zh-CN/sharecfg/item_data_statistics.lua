@@ -10757,8 +10757,8 @@ pg.item_data_statistics = {
 	},
 	[30914] = {
 		drop_gold_max = 0,
-		name = "定向·研发图纸SSR型",
-		display = "使用后可从T3部件中任意选择一种获得1个",
+		name = "装备研发图纸SSR型",
+		display = "使用后可从以下[装备研发图纸SSR型]中任意选择一种获得1个",
 		type = 13,
 		is_world = 0,
 		shop_id = -1,
@@ -10797,8 +10797,8 @@ pg.item_data_statistics = {
 	},
 	[30915] = {
 		drop_gold_max = 0,
-		name = "定向·研发图纸UR型",
-		display = "使用后可从T3部件中任意选择一种获得1个",
+		name = "装备研发图纸UR型",
+		display = "使用后可从以下[装备研发图纸UR型]中任意选择一种获得1个",
 		type = 13,
 		is_world = 0,
 		shop_id = -1,
@@ -10813,7 +10813,17 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
+				18118,
+				1
+			},
+			{
+				2,
 				18120,
+				1
+			},
+			{
+				2,
+				18122,
 				1
 			},
 			{
@@ -32495,14 +32505,14 @@ pg.item_data_statistics = {
 	},
 	[50004] = {
 		drop_gold_max = 0,
-		name = "拐杖糖",
-		display = "据说最原始的拐杖糖是白色的呢。 <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		name = "海军咖喱",
+		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		type = 3,
 		is_world = 0,
 		shop_id = 50007,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/christmas",
+		icon = "Props/haijungali",
 		rarity = 2,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -117965,6 +117975,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59195] = {
+		drop_gold_max = 0,
+		name = "训练点数",
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59195,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "船模-茳",
@@ -129268,6 +129297,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		59193,
 		59194,
 		59191,
+		59195,
 		59601,
 		59602,
 		59603,

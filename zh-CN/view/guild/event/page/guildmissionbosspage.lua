@@ -18,6 +18,10 @@ function slot0.OnLoaded(slot0)
 	slot0.rankList = UIItemList.New(slot0:findTF("rank/content"), slot0:findTF("rank/content/tpl"))
 	slot0.paintingTF = slot0:findTF("painting")
 	slot0.prefabTF = slot0:findTF("prefab")
+	slot0.viewAllBtn = slot0:findTF("rank/view_all")
+	slot0.allRankPage = GuildBossRankPage.New(slot0._parentTf, slot0._event)
+
+	setActive(slot0.viewAllBtn, PLATFORM_CODE ~= PLATFORM_JP)
 end
 
 function slot0.OnInit(slot0)
@@ -189,7 +193,10 @@ function slot0.UpdateRank(slot0)
 			setText(slot2:Find("Text"), slot3.damage)
 		end
 	end)
-	slot0.rankList:align(#slot1)
+	slot0.rankList:align(math.min(3, #slot1))
+	onButton(slot0, slot0.viewAllBtn, function ()
+		uv0.allRankPage:ExecuteAction("Show", uv1)
+	end, SFX_PANEL)
 end
 
 function slot0.ExistActiveEvent(slot0)
@@ -245,6 +252,8 @@ function slot0.OnDestroy(slot0)
 
 		slot0.bossTimer = nil
 	end
+
+	slot0.allRankPage:Destroy()
 end
 
 return slot0

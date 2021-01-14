@@ -71,9 +71,17 @@ end
 function slot0.ClearInvaildShip(slot0)
 	slot0.invaildShips = {}
 
-	for slot4 = #slot0.userShips, 1, -1 do
-		if not slot0:ExistMember(slot0.userShips[slot4].uid) then
-			table.remove(slot0.userShips, slot4)
+	for slot5 = #slot0.userShips, 1, -1 do
+		if not slot0:ExistMember(slot0.userShips[slot5].uid) or not function (slot0)
+			slot1 = getProxy(GuildProxy):getRawData()
+
+			if getProxy(PlayerProxy):getRawData().id == slot0.uid then
+				return true
+			end
+
+			return slot1:getMemberById(slot0.uid):GetAssaultFleet():ExistShip(GuildAssaultFleet.GetVirtualId(slot0.uid, slot0.id))
+		end(slot6) then
+			table.remove(slot0.userShips, slot5)
 		end
 	end
 end

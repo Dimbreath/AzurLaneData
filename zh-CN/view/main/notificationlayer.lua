@@ -83,7 +83,8 @@ function slot0.init(slot0)
 		ChatConst.ChannelWorld,
 		ChatConst.ChannelPublic,
 		ChatConst.ChannelFriend,
-		ChatConst.ChannelGuild
+		ChatConst.ChannelGuild,
+		ChatConst.ChannelWorldBoss
 	}) do
 		slot8 = ChatConst.GetChannelSprite(slot6)
 		slot0.textSprites[slot6] = slot0:findTF("text_" .. slot8, slot0.resource):GetComponent(typeof(Image)).sprite
@@ -509,7 +510,7 @@ function slot0.appendPublic(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot1.id == 4 then
-		table.insert(slot0.worldBossCards, ChatBubbleWorldBoss.New(cloneTplTo(slot0.prefabWorldBoss, slot0.content)))
+		table.insert(slot0.worldBossCards, ChatBubbleWorldBoss.New(cloneTplTo(slot0.prefabWorldBoss, slot0.content), slot0.currentForm ~= uv0.FORM_BATTLE))
 	else
 		if #slot0.poolBubble.public > 0 then
 			setActive(slot4[1].tf, true)

@@ -1,20 +1,21 @@
 slot0 = class("WSMapRight", import("...BaseEntity"))
 slot0.Fields = {
 	map = "table",
-	onOpenScanner = "function",
-	rtTipWord = "userdata",
-	btnHelp = "userdata",
+	btnInventory = "userdata",
 	btnPort = "userdata",
+	btnHelp = "userdata",
+	rtTipWord = "userdata",
 	btnDetail = "userdata",
 	tipEventPri = "number",
 	btnScan = "userdata",
-	taskProxy = "table",
-	btnInventory = "userdata",
-	btnInformation = "userdata",
-	gid = "number",
-	fleet = "table",
-	entrance = "table",
+	toggleSkipPrecombat = "userdata",
 	world = "table",
+	btnInformation = "userdata",
+	onOpenOrder = "function",
+	gid = "number",
+	entrance = "table",
+	fleet = "table",
+	taskProxy = "table",
 	wsPool = "table",
 	btnDefeat = "userdata",
 	btnExit = "userdata",
@@ -23,7 +24,7 @@ slot0.Fields = {
 	btnOrder = "userdata",
 	rtCompassPanel = "userdata",
 	wsTimer = "table",
-	onOpenOrder = "function"
+	onOpenScanner = "function"
 }
 slot0.Listeners = {
 	onUpdateFleetBuff = "OnUpdateFleetBuff",
@@ -73,14 +74,23 @@ function slot0.Init(slot0)
 		end
 	end, SFX_PANEL)
 
+	slot0.toggleSkipPrecombat = slot1:Find("btn_list/lock_fleet")
+
+	onToggle(slot0, slot0.toggleSkipPrecombat, function (slot0)
+		PlayerPrefs.SetInt("world_skip_precombat", slot0 and 1 or 0)
+	end, SFX_PANEL)
+	triggerToggle(slot0.toggleSkipPrecombat, PlayerPrefs.GetInt("world_skip_precombat", 0) == 1)
+
 	slot0.btnInventory = slot1:Find("btn_list/dock/inventory_button")
 	slot0.btnInformation = slot1:Find("btn_list/dock/information_button")
 	slot0.btnDetail = slot1:Find("btn_list/dock/detail_button")
 	slot0.btnHelp = slot1:Find("btn_list/dock/help_button")
-	slot0.btnPort = slot1:Find("btn_list/port_button")
-	slot0.btnExit = slot1:Find("btn_list/exit_button")
+	slot0.btnPort = slot1:Find("btn_list/dock/port_button")
 
 	setActive(slot0.btnPort, false)
+
+	slot0.btnExit = slot1:Find("btn_list/dock/exit_button")
+
 	setActive(slot0.btnExit, false)
 
 	slot0.wsCompass = WSCompass.New()

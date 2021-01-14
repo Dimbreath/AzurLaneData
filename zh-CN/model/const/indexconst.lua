@@ -237,6 +237,7 @@ slot0.EquipmentTypeFighter = bit.lshift(1, 6)
 slot0.EquipmentTypeBomber = bit.lshift(1, 7)
 slot0.EquipmentTypeTorpedoBomber = bit.lshift(1, 8)
 slot0.EquipmentTypeEquip = bit.lshift(1, 9)
+slot0.EquipmentTypeOther = bit.lshift(1, 10)
 slot0.EquipmentTypeIndexs = {
 	slot0.EquipmentTypeSmallCannon,
 	slot0.EquipmentTypeMediumCannon,
@@ -247,7 +248,8 @@ slot0.EquipmentTypeIndexs = {
 	slot0.EquipmentTypeFighter,
 	slot0.EquipmentTypeBomber,
 	slot0.EquipmentTypeTorpedoBomber,
-	slot0.EquipmentTypeEquip
+	slot0.EquipmentTypeEquip,
+	slot0.EquipmentTypeOther
 }
 slot0.EquipmentTypeAll = slot0.BitAll(slot0.EquipmentTypeIndexs)
 
@@ -278,7 +280,8 @@ slot0.EquipmentTypeNames = {
 	"word_equipment_fighter",
 	"word_equipment_bomber",
 	"word_equipment_torpedo_bomber",
-	"word_equipment_equip"
+	"word_equipment_equip",
+	"word_equipment_special"
 }
 slot0.EquipCampUS = bit.lshift(1, 0)
 slot0.EquipCampEN = bit.lshift(1, 1)
@@ -449,7 +452,7 @@ slot0.EquipAmmoIndexs_1_Names = {
 }
 
 function slot0.filterEquipAmmo1(slot0, slot1)
-	if not slot1 or slot1 == uv0.EquipAmmoAll_2 then
+	if not slot1 or slot1 == uv0.EquipAmmoAll_1 then
 		return true
 	end
 
@@ -616,12 +619,12 @@ function slot0.filterEquipSkinByIndex(slot0, slot1)
 		1,
 		2,
 		3,
-		5
+		4
 	}
 
 	for slot7, slot8 in ipairs(uv0.EquipSkinIndexTypes) do
 		if bit.band(slot1, bit.lshift(1, slot8)) > 0 then
-			for slot14, slot15 in ipairs(EquipmentSortCfg.index[slot3[slot8]].types) do
+			for slot14, slot15 in ipairs(EquipmentSortCfg.skinIndex[slot3[slot8]].types) do
 				table.insert(slot2, slot15)
 			end
 		end

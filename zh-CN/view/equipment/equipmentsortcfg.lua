@@ -2,19 +2,11 @@ return {
 	index = {
 		{
 			spr = "index_all",
-			tag = i18n("word_equipment_all"),
-			pages = {
-				0,
-				1
-			}
+			tag = i18n("word_equipment_all")
 		},
 		{
 			spr = "index_cannon",
 			tag = i18n("word_equipment_small_cannon"),
-			pages = {
-				0,
-				1
-			},
 			types = {
 				EquipType.CannonQuZhu
 			}
@@ -22,10 +14,6 @@ return {
 		{
 			spr = "index_cannon",
 			tag = i18n("word_equipment_medium_cannon"),
-			pages = {
-				0,
-				1
-			},
 			types = {
 				EquipType.CannonQingXun,
 				EquipType.CannonZhongXun
@@ -34,10 +22,6 @@ return {
 		{
 			spr = "index_cannon",
 			tag = i18n("word_equipment_big_cannon"),
-			pages = {
-				0,
-				1
-			},
 			types = {
 				EquipType.CannonZhanlie,
 				EquipType.CannonZhongXun2
@@ -46,10 +30,6 @@ return {
 		{
 			spr = "index_tarpedo",
 			tag = i18n("word_equipment_warship_torpedo"),
-			pages = {
-				0,
-				1
-			},
 			types = {
 				EquipType.Torpedo
 			}
@@ -57,10 +37,6 @@ return {
 		{
 			spr = "index_tarpedo",
 			tag = i18n("word_equipment_submarine_torpedo"),
-			pages = {
-				0,
-				1
-			},
 			types = {
 				EquipType.SubmarineTorpedo
 			}
@@ -68,9 +44,6 @@ return {
 		{
 			spr = "index_antiaircraft",
 			tag = i18n("word_equipment_antiaircraft"),
-			pages = {
-				0
-			},
 			types = {
 				EquipType.AntiAircraft
 			}
@@ -78,10 +51,6 @@ return {
 		{
 			spr = "index_aircraft",
 			tag = i18n("word_equipment_fighter"),
-			pages = {
-				0,
-				1
-			},
 			types = {
 				EquipType.FighterAircraft
 			}
@@ -89,10 +58,6 @@ return {
 		{
 			spr = "index_aircraft",
 			tag = i18n("word_equipment_bomber"),
-			pages = {
-				0,
-				1
-			},
 			types = {
 				EquipType.BomberAircraft
 			}
@@ -100,10 +65,6 @@ return {
 		{
 			spr = "index_aircraft",
 			tag = i18n("word_equipment_torpedo_bomber"),
-			pages = {
-				0,
-				1
-			},
 			types = {
 				EquipType.TorpedoAircraft
 			}
@@ -111,15 +72,47 @@ return {
 		{
 			spr = "index_equip",
 			tag = i18n("word_equipment_equip"),
-			pages = {
-				0
-			},
 			types = {
 				EquipType.Equipment,
 				EquipType.AntiSubAircraft,
 				EquipType.Sonar,
 				EquipType.Helicopter,
 				EquipType.Goods
+			}
+		},
+		{
+			spr = "index_equip",
+			tag = i18n("word_equipment_special"),
+			types = {
+				EquipType.SeaPlane
+			}
+		}
+	},
+	skinIndex = {
+		{
+			types = {}
+		},
+		{
+			types = {
+				EquipType.CannonQuZhu,
+				EquipType.CannonQingXun,
+				EquipType.CannonZhongXun,
+				EquipType.CannonZhanlie,
+				EquipType.CannonZhongXun2
+			}
+		},
+		{
+			types = {
+				EquipType.Torpedo,
+				EquipType.SubmarineTorpedo
+			}
+		},
+		{
+			types = {
+				EquipType.FighterAircraft,
+				EquipType.TorpedoAircraft,
+				EquipType.BomberAircraft,
+				EquipType.SeaPlane
 			}
 		}
 	},

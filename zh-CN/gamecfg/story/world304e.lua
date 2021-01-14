@@ -56,7 +56,7 @@ return {
 			blackBg = true,
 			actor = 900286,
 			nameColor = "#ff5c5c",
-			say = "终于抓到了么......代行者XIV「Purification」，隐匿。",
+			say = "终于抓到了么......代行者XIV「Equilibrium」，隐匿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

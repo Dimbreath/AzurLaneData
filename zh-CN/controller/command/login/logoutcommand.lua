@@ -43,6 +43,7 @@ function slot0.execute(slot0, slot1)
 	pg.SeriesGuideMgr.GetInstance():dispose()
 	pg.GuideMgr.GetInstance():endGuider()
 	PoolMgr.GetInstance():DestroyAllPrefab()
+	pg.GuildMsgBoxMgr.GetInstance():Hide()
 
 	if getProxy(UserProxy) then
 		if slot6:getRawData() then

@@ -182,9 +182,15 @@ function slot0.register(slot0)
 		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
 
 		if not slot1 or not slot0:getMapById(slot1):isUnlock() then
+			slot1 = getProxy(ChapterProxy):getActiveChapter() and slot4:getConfig("map")
+
+			if not slot4 then
+				slot1 = (not Map.lastMap or not slot3:getMapById(Map.lastMap) or not slot5:isUnlock() or Map.lastMap) and slot3:getLastUnlockMap().id
+			end
+
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-				chapterId = getProxy(ChapterProxy):getActiveChapter() and slot4.id,
-				mapIdx = slot4 and slot4:getConfig("map")
+				chapterId = slot4 and slot4.id,
+				mapIdx = slot1
 			})
 		else
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {

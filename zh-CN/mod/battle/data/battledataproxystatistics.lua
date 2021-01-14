@@ -57,6 +57,7 @@ function slot0.InitSpecificEnemyStatistics(slot0, slot1)
 		kill_count = 0,
 		bp = 0,
 		max_hp = slot1:GetAttrByName("maxHP"),
+		init_hp = slot1:GetCurrentHP(),
 		maxDamageOnce = 0,
 		gearScore = slot1:GetGearScore()
 	}
@@ -402,11 +403,17 @@ function slot0.CalcSpecificEnemyInfo(slot0, slot1)
 	slot0._statistics.specificDamage = 0
 
 	for slot5, slot6 in ipairs(slot1) do
-		slot0._statistics.specificDamage = slot0._statistics.specificDamage + slot0._statistics["enemy_" .. slot6].damage
+		slot7 = slot0._statistics["enemy_" .. slot6].damage
+
+		if table.contains(slot0._statistics.kill_id_list, slot6) then
+			slot7 = slot0._statistics["enemy_" .. slot6].init_hp
+		end
+
+		slot0._statistics.specificDamage = slot0._statistics.specificDamage + slot7
 
 		table.insert(slot0._statistics._enemyInfoList, {
 			id = slot6,
-			damage = slot0._statistics["enemy_" .. slot6].damage,
+			damage = slot7,
 			totalHp = slot0._statistics["enemy_" .. slot6].max_hp
 		})
 	end

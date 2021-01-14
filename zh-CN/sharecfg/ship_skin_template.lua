@@ -94161,6 +94161,7 @@ pg.ship_skin_template = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
+		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			4
@@ -94236,9 +94237,6 @@ pg.ship_skin_template = {
 			"mail",
 			"touch_body",
 			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
 		}
 	},
 	[408010] = {

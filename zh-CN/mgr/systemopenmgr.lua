@@ -30,6 +30,14 @@ function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 		})
 	end
 
+	if slot1 == GAME.BEGIN_STAGE then
+		pg.GuildMsgBoxMgr.GetInstance():OnBeginBattle()
+	end
+
+	if slot1 == GAME.FINISH_STAGE_DONE then
+		pg.GuildMsgBoxMgr.GetInstance():OnFinishBattle(slot2)
+	end
+
 	uv1(slot0, slot1, slot2, slot3)
 end
 

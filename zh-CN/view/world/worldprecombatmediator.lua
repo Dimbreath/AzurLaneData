@@ -19,23 +19,29 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OnMapOp, function (slot0, slot1)
 		uv0:sendNotification(GAME.WORLD_MAP_OP, slot1)
 	end)
-	slot0:bind(uv0.OnStartBattle, function (slot0, slot1)
-		seriesAsync({
-			function (slot0)
-				slot1 = uv0.viewComponent:getCurrentFleet()
+	slot0:bind(uv0.OnStartBattle, function (slot0, slot1, slot2, slot3)
+		if slot3:GetLimitDamageLevel() < slot2.damageLevel then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideYes = true,
+				content = i18n("world_low_morale")
+			})
+		else
+			slot4 = {}
 
-				Fleet.EnergyCheck(slot1:GetShipVOs(true), slot1:GetDefaultName(), function (slot0)
+			table.insert(slot4, function (slot0)
+				Fleet.EnergyCheck(uv0:GetShipVOs(true), uv0:GetDefaultName(), function (slot0)
 					if slot0 then
 						uv0()
 					end
 				end)
-			end
-		}, function ()
-			uv0:sendNotification(GAME.BEGIN_STAGE, {
-				system = SYSTEM_WORLD,
-				stageId = uv1
-			})
-		end)
+			end)
+			seriesAsync(slot4, function ()
+				uv0:sendNotification(GAME.BEGIN_STAGE, {
+					system = SYSTEM_WORLD,
+					stageId = uv1
+				})
+			end)
+		end
 	end)
 	slot0:bind(uv0.OnOpenSublayer, function (slot0, slot1, slot2, slot3)
 		uv0:addSubLayers(slot1, slot2, slot3)
@@ -64,8 +70,7 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED,
-		GAME.WORLD_MAP_OP_DONE,
-		GAME.BEGIN_STAGE_DONE
+		GAME.WORLD_MAP_OP_DONE
 	}
 end
 
@@ -76,8 +81,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setPlayerInfo(getProxy(PlayerProxy):getRawData())
 	elseif slot2 == GAME.WORLD_MAP_OP_DONE then
 		-- Nothing
-	elseif slot2 == GAME.BEGIN_STAGE_DONE then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	end
 end
 

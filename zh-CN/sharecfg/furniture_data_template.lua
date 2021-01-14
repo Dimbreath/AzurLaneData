@@ -6231,7 +6231,7 @@ pg.furniture_data_template = {
 		can_rotate = 0,
 		describe = "来点热闹的节庆氛围吧~",
 		gain_by = "",
-		type = 11,
+		type = 7,
 		dir = 0,
 		dorm_id = 0,
 		picture = "",
@@ -6243,15 +6243,15 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		level = 1,
 		rarity = 5,
-		themeId = 0,
 		spine_action_replace = "",
 		belong = 1,
 		canputon = 0,
+		themeId = 0,
 		count = 1,
 		name = "节庆的烟花",
 		advice = 0,
-		icon = "yanhuadanicon",
 		id = 100023,
+		icon = "yanhuadanicon",
 		comfortable = 0,
 		size = {
 			2,
@@ -6261,6 +6261,19 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine = {
+			{
+				"yanhuadan",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_yanhua"
+				}
+			}
 		},
 		interAction_group = {}
 	},

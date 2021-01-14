@@ -3,7 +3,7 @@ slot0.Fields = {
 	map = "table",
 	rtShip = "userdata",
 	rtArrow = "userdata",
-	gid = "number",
+	delayCallFuncs = "table",
 	toggles = "table",
 	rtFleet = "userdata",
 	rtAmmo = "userdata",
@@ -14,14 +14,13 @@ slot0.Fields = {
 	rtFleetBar = "userdata",
 	toggleMask = "userdata",
 	rtBG = "userdata",
-	transform = "userdata",
 	fleet = "table",
-	delayCallFuncs = "table",
+	transform = "userdata",
 	onAgonyClickEnabled = "boolean",
+	world = "table",
 	rtVanguard = "userdata",
 	rtSalvageList = "userdata",
 	toggleList = "userdata",
-	world = "table",
 	onLongPress = "function",
 	onClickSalvage = "function",
 	rtMain = "userdata"
@@ -121,17 +120,14 @@ function slot0.RemoveWorldListener(slot0)
 end
 
 function slot0.UpdateMap(slot0, slot1)
-	if slot0.map ~= slot1 or slot0.gid ~= slot1.gid then
-		slot0:RemoveMapListener()
+	slot0:RemoveMapListener()
 
-		slot0.map = slot1
-		slot0.gid = slot1.gid
+	slot0.map = slot1
 
-		slot0:AddMapListener()
-		slot0:HideToggleMask()
-		slot0:OnUpdateSelectedFleet()
-		slot0:OnUpdateSubmarineSupport()
-	end
+	slot0:AddMapListener()
+	slot0:HideToggleMask()
+	slot0:OnUpdateSelectedFleet()
+	slot0:OnUpdateSubmarineSupport()
 end
 
 function slot0.AddMapListener(slot0)
@@ -168,7 +164,6 @@ end
 
 function slot0.OnUpdateSelectedFleet(slot0)
 	if slot0.fleet ~= slot0.map:GetFleet() then
-		slot0:HideToggleMask()
 		slot0:RemoveFleetListener(slot0.fleet)
 
 		slot0.fleet = slot1
@@ -365,7 +360,8 @@ function slot0.ShowToggleMask(slot0, slot1)
 			setActive(slot7:Find("text"), not slot9)
 			setActive(slot7:Find("text_selected"), slot9)
 			onButton(slot0, slot7, function ()
-				uv0(uv1)
+				uv0:HideToggleMask()
+				uv1(uv2)
 			end, SFX_UI_TAG)
 		end
 	end

@@ -13,20 +13,18 @@ function slot0.execute(slot0, slot1)
 			for slot6, slot7 in ipairs(uv1.list) do
 				slot8 = nowWorld:GetMap(slot7.id)
 
-				table.foreachi(slot7.star_list, function (slot0, slot1)
-					uv0:SetMapAchieveSuccess(uv1.id, slot1)
-				end)
+				for slot12, slot13 in ipairs(slot7.star_list) do
+					slot2:SetMapAchieveSuccess(slot7.id, slot13)
+				end
 			end
 
 			uv0:sendNotification(GAME.WORLD_ACHIEVE_DONE, {
 				list = uv1.list,
 				drops = slot1
 			})
-
-			return
+		else
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_achieve_error_", slot0.result))
 		end
-
-		pg.TipsMgr.GetInstance():ShowTips(errorTip("world_achieve_error_", slot0.result))
 	end)
 end
 

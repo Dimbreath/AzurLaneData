@@ -546,6 +546,9 @@ pg.gametip = {
 	word_equipment_intensify = {
 		tip = "强化"
 	},
+	word_equipment_special = {
+		tip = "其他"
+	},
 	word_primary_weapons = {
 		tip = "主武器"
 	},
@@ -11992,7 +11995,7 @@ BUFF加成也会增加
 		tip = "正在进行$1，无法选择该作战"
 	},
 	guild_join_event_cnt_label = {
-		tip = "可参与次数:"
+		tip = "本月参与次数:"
 	},
 	guild_join_event_max_cnt_tip = {
 		tip = "参与次数不足，无法参加作战"
@@ -12010,7 +12013,7 @@ BUFF加成也会增加
 		tip = "当前舰队不可编辑"
 	},
 	guild_fleet_exist_same_kind_ship = {
-		tip = "无法选择多个同名的舰船"
+		tip = "该舰船已经在攻坚队内，无法重复选择"
 	},
 	guild_event_exist_same_kind_ship = {
 		tip = "不能存在多个同名的舰船"
@@ -12170,6 +12173,9 @@ BUFF加成也会增加
 	},
 	guild_battle_log = {
 		tip = "[$1] $2 消耗大舰队资金$3 开启大舰队作战"
+	},
+	guild_tech_change_log = {
+		tip = "[$1] $2 将科技研发切换为$3"
 	},
 	guild_use_donateitem_success = {
 		tip = "使用成功，军需筹备次数+$1"
@@ -12443,7 +12449,10 @@ BUFF加成也会增加
 				info = "10.击败首领敌人后，作战结束。"
 			},
 			{
-				info = "11.所有事件和首领敌人的奖励将会发放到<color=#92fc63>作战报告</color>内，\n作战报告有存储上限，请指挥官<color=#92fc63>及时领取</color>。"
+				info = "11.每名玩家每月只能参与2次大舰队作战，进入大舰队\n作战后会立即扣除次数。"
+			},
+			{
+				info = "12.所有事件和首领敌人的奖励将会发放到<color=#92fc63>作战报告</color>内，\n作战报告有存储上限，请指挥官<color=#92fc63>及时领取</color>。"
 			}
 		}
 	},
@@ -12492,6 +12501,45 @@ BUFF加成也会增加
 	},
 	word_shipState_guild_event = {
 		tip = "角色正在参与大舰队作战，无法退役"
+	},
+	commander_is_in_guild = {
+		tip = "该指挥喵在大舰队编队中"
+	},
+	guild_assult_ship_recommend = {
+		tip = "推荐状态更新成功，推荐攻坚队角色设置成功"
+	},
+	guild_cancel_assult_ship_recommend = {
+		tip = "推荐状态更新成功，推荐攻坚队角色取消成功"
+	},
+	guild_assult_ship_recommend_conflict = {
+		tip = "推荐状态更新成功，该角色已经是推荐攻坚队角色"
+	},
+	guild_recommend_limit = {
+		tip = "推荐攻坚队角色已经达到9个，无法继续设置"
+	},
+	guild_cancel_assult_ship_recommend_conflict = {
+		tip = "推荐状态更新成功，该角色推荐状态已被其他管理员取消"
+	},
+	guild_mission_complate = {
+		tip = "完成大舰队任务：$1"
+	},
+	guild_operation_event_occurrence = {
+		tip = "大舰队作战中有新的事件可以派遣，请前往确认"
+	},
+	guild_transfer_president_confirm = {
+		tip = "正在将舰队司令转让给$1，转让后您将降级为普通成员，是否确定执行此操作？"
+	},
+	guild_damage_ranking = {
+		tip = "名次"
+	},
+	guild_total_damage = {
+		tip = "总伤害"
+	},
+	guild_donate_list_updated = {
+		tip = "军需筹备项目已刷新"
+	},
+	guild_donate_list_update_failed = {
+		tip = "军需筹备项目刷新失败"
 	},
 	help_rollingBallGame = {
 		tip = {
@@ -13466,7 +13514,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	world_boss_maintenance = {
 		tip = "服务器即将维护,无法进行信标·烬作战"
 	},
-	commander_is_in_guild = {
-		tip = "该指挥喵在大舰队编队中"
+	world_boss_inbattle = {
+		tip = "当前处于信标·烬作战中，不可前往"
 	}
 }

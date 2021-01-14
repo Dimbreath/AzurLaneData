@@ -380,9 +380,7 @@ function slot5.UpdateEscapeOnly(slot0, slot1)
 end
 
 function slot5.Pause(slot0)
-	for slot4, slot5 in pairs(slot0._characterList) do
-		slot5:PauseActionAnimation(true)
-	end
+	slot0:PauseCharacterAction(true)
 
 	for slot4, slot5 in pairs(slot0._areaList) do
 		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
@@ -406,9 +404,7 @@ function slot5.Pause(slot0)
 end
 
 function slot5.Resume(slot0)
-	for slot4, slot5 in pairs(slot0._characterList) do
-		slot5:PauseActionAnimation(false)
-	end
+	slot0:PauseCharacterAction(false)
 
 	for slot4, slot5 in pairs(slot0._areaList) do
 		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
@@ -542,6 +538,12 @@ end
 
 function slot5.GetPopNumPool(slot0)
 	return slot0._popNumPool
+end
+
+function slot5.PauseCharacterAction(slot0, slot1)
+	for slot5, slot6 in pairs(slot0._characterList) do
+		slot6:PauseActionAnimation(slot1)
+	end
 end
 
 function slot5.GetCharacter(slot0, slot1)

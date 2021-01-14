@@ -1698,5 +1698,14 @@ pg.gameset = {
 	world_boss_joindamage = {
 		description = "",
 		key_value = 200
+	},
+	boss_cnt_limit = {
+		key_value = 0,
+		description = {
+			30,
+			10,
+			10,
+			10
+		}
 	}
 }

@@ -3,12 +3,13 @@ slot0.CacheKey = "WorldbossFleet"
 slot0.INFINITY = 9999999999.0
 slot0.Fields = {
 	refreshBossesTime = "number",
-	pt = "number",
+	cacheLock = "number",
 	otherBosses = "table",
 	boss = "table",
 	isSetup = "boolean",
 	ptTime = "number",
 	isFetched = "boolean",
+	pt = "number",
 	ranks = "table",
 	cacheBosses = "table",
 	fleet = "table",
@@ -61,22 +62,10 @@ end
 function slot0.GetCacheShips(slot0)
 	slot3 = {}
 
-	if not string.split(PlayerPrefs.GetString(uv0.CacheKey .. getProxy(PlayerProxy):getRawData().id), "|") or #slot2 == 0 or #slot2 == 1 and slot2[1] == "" then
-		if nowWorld.fleets[1] then
-			slot7 = slot5[TeamType.Vanguard] or {}
-
-			for slot11, slot12 in ipairs(slot5[TeamType.Main] or {}) do
-				table.insert(slot3, slot12.id)
-			end
-
-			for slot11, slot12 in ipairs(slot7) do
-				table.insert(slot3, slot12.id)
-			end
-		end
-	else
-		for slot8, slot9 in ipairs(slot2) do
-			if slot4:GetShip(tonumber(slot9)) then
-				table.insert(slot3, slot10)
+	if string.split(PlayerPrefs.GetString(uv0.CacheKey .. getProxy(PlayerProxy):getRawData().id), "|") and #slot2 > 0 and (#slot2 ~= 1 or slot2[1] ~= "") then
+		for slot7, slot8 in ipairs(slot2) do
+			if pg.ShipFlagMgr.GetInstance():GetShipFlag(tonumber(slot8), "inWorld") then
+				table.insert(slot3, slot9)
 			end
 		end
 	end
@@ -111,6 +100,72 @@ function slot0.UpdateCacheBoss(slot0, slot1)
 		slot0:UpdateSelfBoss(slot1)
 	else
 		slot0.cacheBosses[slot1.id] = slot1
+
+		slot0:BalanceMaxBossCnt()
+	end
+end
+
+function slot0.BalanceMaxBossCnt(slot0)
+	if table.getCount(slot0.cacheBosses) < pg.gameset.boss_cnt_limit.description[1] then
+		return
+	end
+
+	slot2 = {}
+	slot3 = {}
+	slot4 = {}
+
+	for slot9, slot10 in pairs(slot0.cacheBosses) do
+		slot11 = slot10:GetType()
+
+		if slot10:isDeath() or slot10:IsExpired() then
+			table.insert({}, slot10)
+		elseif slot11 == WorldBoss.BOSS_TYPE_FRIEND then
+			table.insert(slot4, slot10)
+		elseif slot11 == WorldBoss.BOSS_TYPE_GUILD then
+			table.insert(slot3, slot10)
+		elseif slot11 == WorldBoss.BOSS_TYPE_WORLD then
+			table.insert(slot2, slot10)
+		end
+	end
+
+	if slot1[2] < #slot2 then
+		table.sort(slot2, function (slot0, slot1)
+			return slot0:GetJoinTime() < slot1:GetJoinTime()
+		end)
+
+		if slot2[1] then
+			table.insert(slot5, slot2[1])
+		end
+	end
+
+	if slot1[3] < #slot3 then
+		table.sort(slot3, function (slot0, slot1)
+			return slot0:GetJoinTime() < slot1:GetJoinTime()
+		end)
+
+		if slot3[1] then
+			table.insert(slot5, slot3[1])
+		end
+	end
+
+	if slot1[4] < #slot4 then
+		table.sort(slot4, function (slot0, slot1)
+			return slot0:GetJoinTime() < slot1:GetJoinTime()
+		end)
+
+		if slot4[1] then
+			table.insert(slot5, slot4[1])
+		end
+	end
+
+	if #slot5 > 0 then
+		for slot9, slot10 in ipairs(slot5) do
+			if slot0.cacheBosses[slot10.id] and slot10.id ~= slot0.cacheLock then
+				slot0.cacheBosses[slot10.id] = nil
+			end
+		end
+
+		slot0:DispatchEvent(uv0.EventCacheBossListUpdated)
 	end
 end
 
@@ -124,6 +179,14 @@ end
 
 function slot0.GetCacheBoss(slot0, slot1)
 	return slot0.cacheBosses[slot1]
+end
+
+function slot0.LockCacheBoss(slot0, slot1)
+	slot0.cacheLock = slot1
+end
+
+function slot0.UnlockCacheBoss(slot0)
+	slot0.cacheLock = nil
 end
 
 function slot0.canGetSelfAward(slot0)

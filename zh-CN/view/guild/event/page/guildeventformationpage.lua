@@ -8,6 +8,7 @@ function slot0.OnLoaded(slot0)
 	slot0.tpl = slot0._go:GetComponent("ItemList").prefabItem[0]
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.sendBtn = slot0:findTF("frame/btn")
+	slot0.sendBtnGray = slot0:findTF("frame/btn/gray")
 	slot0.slots = {
 		slot0:findTF("frame/ship1"),
 		slot0:findTF("frame/ship2")
@@ -27,15 +28,6 @@ function slot0.OnInit(slot0)
 
 		uv0.contextData.editFleet = nil
 	end, SFX_PANEL)
-	onButton(slot0, slot0.sendBtn, function ()
-		if uv0.existBossBattle then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
-
-			return
-		end
-
-		uv0:emit(GuildEventMediator.UPDATE_FORMATION)
-	end, SFX_PANEL)
 end
 
 function slot0.OnFleetUpdated(slot0, slot1)
@@ -48,6 +40,8 @@ function slot0.OnFleetFormationDone(slot0)
 	for slot4, slot5 in ipairs(slot0.slots) do
 		slot0:RefreshCdTimer(slot4)
 	end
+
+	slot0:UpdateSendBtn()
 end
 
 function slot0.OnShow(slot0)
@@ -56,6 +50,30 @@ function slot0.OnShow(slot0)
 	else
 		slot0:UpdateSlots()
 	end
+
+	slot0:UpdateSendBtn()
+end
+
+function slot0.UpdateSendBtn(slot0)
+	slot1 = not slot0.contextData.editFleet or slot0.contextData.editFleet and not slot0.extraData.fleet:AnyShipChanged(slot0.contextData.editFleet)
+
+	setActive(slot0.sendBtnGray, slot1)
+
+	if slot1 then
+		removeOnButton(slot0.sendBtn)
+
+		return
+	end
+
+	onButton(slot0, slot0.sendBtn, function ()
+		if uv0.existBossBattle then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
+
+			return
+		end
+
+		uv0:emit(GuildEventMediator.UPDATE_FORMATION)
+	end, SFX_PANEL)
 end
 
 function slot0.UpdateSlots(slot0)
@@ -98,7 +116,7 @@ function slot0.UpdateSlot(slot0, slot1, slot2, slot3)
 		setActive(slot6, false)
 	end
 
-	onButton(slot0, slot5 or slot2, function ()
+	onButton(slot0, slot3 and slot5 or slot2, function ()
 		if not getProxy(GuildProxy):CanFormationPos(uv0) then
 			return
 		end

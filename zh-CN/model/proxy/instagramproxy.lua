@@ -1,14 +1,30 @@
 slot0 = class("InstagramProxy", import(".NetProxy"))
 
 function slot0.register(slot0)
+	slot0.caches = {}
 	slot0.messages = {}
 
 	slot0:on(11700, function (slot0)
 		for slot4, slot5 in ipairs(slot0.ins_message_list) do
-			slot6 = Instagram.New(slot5)
-			uv0.messages[slot6.id] = slot6
+			if pg.activity_ins_template[slot5.id].is_active == 1 then
+				slot6 = Instagram.New(slot5)
+				uv0.messages[slot6.id] = slot6
+			else
+				table.insert(uv0.caches, slot5)
+			end
 		end
 	end)
+end
+
+function slot0.InitLocalConfigs(slot0)
+	if #slot0.caches > 0 then
+		for slot4, slot5 in ipairs(slot0.caches) do
+			slot6 = Instagram.New(slot5)
+			slot0.messages[slot6.id] = slot6
+		end
+	end
+
+	slot0.caches = {}
 end
 
 function slot0.GetMessages(slot0)
@@ -52,7 +68,7 @@ function slot0.ShouldShowTip(slot0)
 end
 
 function slot0.ExistMsg(slot0)
-	return slot0.messages and table.getCount(slot0.messages) > 0
+	return slot0.messages and table.getCount(slot0.messages) > 0 or slot0.caches and #slot0.caches > 0
 end
 
 function slot0.ExistGroup(slot0, slot1)

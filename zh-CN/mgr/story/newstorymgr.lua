@@ -374,9 +374,9 @@ function slot0.OnSceneExit(slot0, slot1)
 end
 
 function slot0.IsReView(slot0)
-	slot1 = getProxy(ContextProxy):GetPrevContext(2)
+	slot1 = getProxy(ContextProxy):GetPrevContext(1)
 
-	return slot0.scenes[CollectionScene.__cname] == true or slot1 and slot1.mediator == CollectionMediator
+	return slot0.scenes[WorldMediaCollectionScene.__cname] == true or slot1 and slot1.mediator == WorldMediaCollectionMediator
 end
 
 function slot0.IsRunning(slot0)
