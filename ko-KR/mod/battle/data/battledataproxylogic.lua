@@ -8,7 +8,7 @@ slot6 = ys.Battle.BattleAttr
 slot7 = ys.Battle.BattleVariable
 
 function slot0.SetupCalculateDamage(slot0, slot1)
-	slot0._calculateDamage = slot1 or uv0.CalculateDamage
+	slot0._calculateDamage = slot1 or uv0.CreateContextCalculateDamage()
 end
 
 function slot0.SetupDamageKamikazeAir(slot0, slot1)
@@ -168,7 +168,7 @@ function slot0.obituary(slot0, slot1, slot2, slot3)
 						unit = slot1,
 						killer = slot3
 					})
-				else
+				elseif not slot1:GetWorldDeathMark() then
 					slot8:TriggerBuff(uv0.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
 						unit = slot1,
 						killer = slot3
@@ -194,18 +194,18 @@ function slot0.HandleAircraftMissDamage(slot0, slot1, slot2)
 		return
 	end
 
-	slot4 = {}
-
-	for slot8, slot9 in ipairs(slot2:GetMainList()) do
-		if uv0.GetCurrent(slot9, "immuneDirectHit") ~= 1 then
-			slot4[#slot4 + 1] = slot9
-		end
+	for slot7, slot8 in ipairs(slot2:GetCloakList()) do
+		slot8:CloakExpose(slot0._airExpose)
 	end
 
-	if #slot4 > 0 then
-		slot6 = slot4[math.random(#slot4)]
+	if slot2:NearestUnitByType(slot1:GetPosition(), ShipType.CloakShipTypeList) then
+		slot5:CloakExpose(slot0._airExposeEX)
+	end
 
-		slot6:TriggerBuff(uv1.BuffEffectType.ON_BE_HIT, {})
+	if slot2:RandomMainVictim({
+		"immuneDirectHit"
+	}) then
+		slot6:TriggerBuff(uv0.BuffEffectType.ON_BE_HIT, {})
 		slot0:HandleDirectDamage(slot6, slot0._calculateDamageKamikazeAir(slot1, slot6), slot1)
 	end
 end
@@ -215,27 +215,27 @@ function slot0.HandleShipMissDamage(slot0, slot1, slot2)
 		return
 	end
 
-	slot4 = {}
-
-	for slot8, slot9 in ipairs(slot2:GetMainList()) do
-		if uv0.GetCurrent(slot9, "immuneDirectHit") ~= 1 then
-			slot4[#slot4 + 1] = slot9
-		end
+	for slot7, slot8 in ipairs(slot2:GetCloakList()) do
+		slot8:CloakExpose(slot0._shipExpose)
 	end
 
-	if #slot4 > 0 then
-		slot6 = slot4[math.random(#slot4)]
+	if slot2:NearestUnitByType(slot1:GetPosition(), ShipType.CloakShipTypeList) then
+		slot5:CloakExpose(slot0._shipExposeEX)
+	end
 
+	if slot2:RandomMainVictim({
+		"immuneDirectHit"
+	}) then
 		if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
-			slot6:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, {})
-			slot0:HandleDirectDamage(slot6, uv1.CalculateDamageFromSubmarinToMainShip(slot1, slot6), slot1)
+			slot6:TriggerBuff(uv1.BuffEffectType.ON_BE_HIT, {})
+			slot0:HandleDirectDamage(slot6, uv0.CalculateDamageFromSubmarinToMainShip(slot1, slot6), slot1)
 
-			if slot6:IsAlive() and uv1.RollSubmarineDualDice(slot1) then
-				slot6:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, {})
-				slot0:HandleDirectDamage(slot6, uv1.CalculateDamageFromSubmarinToMainShip(slot1, slot6), slot1)
+			if slot6:IsAlive() and uv0.RollSubmarineDualDice(slot1) then
+				slot6:TriggerBuff(uv1.BuffEffectType.ON_BE_HIT, {})
+				slot0:HandleDirectDamage(slot6, uv0.CalculateDamageFromSubmarinToMainShip(slot1, slot6), slot1)
 			end
 		else
-			slot6:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, {})
+			slot6:TriggerBuff(uv1.BuffEffectType.ON_BE_HIT, {})
 			slot0:HandleDirectDamage(slot6, slot0._calculateDamageKamikazeShip(slot1, slot6), slot1)
 		end
 	end

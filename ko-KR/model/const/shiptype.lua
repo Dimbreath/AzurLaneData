@@ -165,4 +165,13 @@ function slot0.BundleType2CNLabel(slot0)
 	return uv0.bundleLabel[slot0]
 end
 
+slot0.CloakShipTypeList = {
+	slot0.QingHang,
+	slot0.ZhengHang
+}
+
+function slot0.CloakShipType(slot0)
+	return table.contains(uv0.CloakShipTypeList, slot0)
+end
+
 return slot0

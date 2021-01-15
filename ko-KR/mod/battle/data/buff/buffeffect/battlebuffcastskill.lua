@@ -24,7 +24,6 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._target = slot3.target or "TargetSelf"
 	slot0._check_target = slot3.check_target
 	slot0._check_weapon = slot3.check_weapon
-	slot0._targetMaxHPRatio = slot3.targetMaxHPRatio
 	slot0._time = slot3.time or 0
 	slot0._nextEffectTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._time
 	slot0._minTargetNumber = slot3.minTargetNumber or 0
@@ -33,6 +32,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._maxWeaponNumber = slot3.maxWeaponNumber or 10000
 	slot0._rant = slot3.rant or 10000
 	slot0._streak = slot3.streakRange
+	slot0._dungeonTypeList = slot3.dungeonTypeList
 	slot0._effectAttachData = slot3.effectAttachData
 	slot0._group = slot3.group
 end
@@ -99,6 +99,10 @@ function slot1.castSkill(slot0, slot1, slot2, slot3)
 	end
 
 	if slot0._streak and not uv1.GetWinningStreak(slot0._streak) then
+		return "check"
+	end
+
+	if slot0._dungeonTypeList and not uv1.GetDungeonType(slot0._dungeonTypeList) then
 		return "check"
 	end
 
@@ -195,6 +199,10 @@ end
 
 function slot1.GetWinningStreak(slot0)
 	return slot0[1] <= uv0.Battle.BattleDataProxy.GetInstance():GetWinningStreak() and slot1 < slot0[2]
+end
+
+function slot1.GetDungeonType(slot0)
+	return table.contains(slot0, pg.expedition_data_template[uv0.Battle.BattleDataProxy.GetInstance():GetInitData().StageTmpId].type)
 end
 
 function slot1.GetEquipmentList(slot0, slot1)

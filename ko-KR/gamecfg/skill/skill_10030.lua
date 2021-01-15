@@ -24,7 +24,7 @@ return {
 			arg_list = {
 				buff_id = 10031,
 				ship_tag_list = {
-					"Fletcher"
+					"Fletcher-Class"
 				}
 			}
 		}

@@ -34,7 +34,7 @@ function slot0.InjectPublic(slot0, slot1, slot2)
 				end
 			end
 		else
-			slot9 = (slot8.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeItemId or pg.item_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeNums or slot8.int) and slot8.string
+			slot9 = (slot8.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeItemId or pg.item_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeNums or slot8.int) and (slot8.type ~= PublicArg.TypeWorldBoss or slot8.string) and slot8.string
 		end
 
 		slot3 = string.gsub(slot3, "$" .. slot7, slot9)
@@ -47,8 +47,6 @@ function slot0.register(slot0)
 	slot0:on(50101, function (slot0)
 		if slot0.type == ChatConst.CODE_BANED then
 			pg.TipsMgr.GetInstance():ShowTips(slot0.content)
-		elseif slot0.type == ChatConst.CODE_GUILDBOSS_OPEN then
-			uv0:sendNotification(GAME.BOSS_EVENT_START)
 		elseif slot0.type == ChatConst.CODE_ACTOBSS_MSG_WORD then
 			slot1 = {
 				name = slot0.player.name,
@@ -122,6 +120,20 @@ function slot0.addNewMsg(slot0, slot1)
 	end
 
 	slot0:sendNotification(uv0.NEW_MSG, slot1)
+end
+
+function slot0.UpdateMsg(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.data) do
+		if slot6:IsSame(slot1.uniqueId) then
+			slot0.data[slot5] = slot1
+		end
+	end
+end
+
+function slot0.GetMessagesByUniqueId(slot0, slot1)
+	return _.select(slot0.data, function (slot0)
+		return slot0.uniqueId == uv0
+	end)
 end
 
 function slot0.clearMsg(slot0)

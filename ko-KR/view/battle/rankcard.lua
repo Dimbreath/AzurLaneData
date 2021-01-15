@@ -1,13 +1,13 @@
 slot0 = class("RankCard")
 slot0.TYPE_SELF = 1
 slot0.TYPE_OTHER = 2
-slot1 = {
+slot0.COLORS = {
 	"#ffde5c",
 	"#95b0f9",
 	"#cfc1ba",
 	"#797d81"
 }
-slot2 = {
+slot1 = {
 	{
 		1,
 		0.8705882352941177,
@@ -64,7 +64,7 @@ function slot0.update(slot0, slot1, slot2)
 	if slot0._type == uv1.TYPE_OTHER then
 		setActive(slot0.numberTF, slot4 >= 4)
 
-		slot0.scoreTF.text = setColorStr(slot1:getPowerTxt(), uv2[slot4])
+		slot0.scoreTF.text = setColorStr(slot1:getPowerTxt(), uv1.COLORS[slot4])
 	elseif slot0._type == uv1.TYPE_SELF then
 		setActive(slot0.numberTF, slot3 ~= 0 and slot4 >= 4)
 		setActive(slot0.notonlistTF, slot3 == 0)
@@ -79,9 +79,7 @@ function slot0.update(slot0, slot1, slot2)
 	if slot6 then
 		if slot1.type == PowerRank.TYPE_PT then
 			if slot2 then
-				setImageSprite(slot0.scoreIconTF, LoadSprite(pg.item_data_statistics[id2ItemId(getProxy(ActivityProxy):getActivityById(getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_client").linkPTActID):getDataConfig("pt"))].icon))
-			else
-				setActive(slot0.scoreIconTF, false)
+				setImageSprite(slot0.scoreIconTF, LoadSprite(pg.item_data_statistics[id2ItemId(getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id"))].icon))
 			end
 		else
 			setImageSprite(slot0.scoreIconTF, GetSpriteFromAtlas(slot6[1], slot6[2]), true)

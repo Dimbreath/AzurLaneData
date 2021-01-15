@@ -15,7 +15,7 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	if getProxy(PlayerProxy):getData().equip_bag_max < getProxy(EquipmentProxy):getCapacity() + slot7 then
+	if getProxy(PlayerProxy):getData():getMaxEquipmentBag() < getProxy(EquipmentProxy):getCapacity() + slot7 then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 
 		return
@@ -27,6 +27,7 @@ end
 function slot0.fun(slot0, slot1, slot2, slot3)
 	if slot3 < slot2 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequip_all_success"))
+		slot0:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, slot1)
 
 		return
 	end

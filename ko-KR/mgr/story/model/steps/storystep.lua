@@ -6,6 +6,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgName = slot1.bgName
 	slot0.bgShadow = slot1.bgShadow
 	slot0.blackBg = slot1.blackBg
+	slot0.bgGlitchArt = slot1.bgNoise
 	slot0.bgm = slot1.bgm
 	slot0.bgmDelay = slot1.bgmDelay or 0
 	slot0.stopbgm = slot1.stopbgm
@@ -14,9 +15,15 @@ function slot0.Ctor(slot0, slot1)
 	slot0.blinkWithColor = slot1.flashN
 	slot0.soundeffect = slot1.soundeffect
 	slot0.seDelay = slot1.seDelay or 0
+	slot0.voice = slot1.voice
+	slot0.voiceDelay = slot1.voiceDelay or 0
 	slot0.options = slot1.options
 	slot0.branchCode = slot1.optionFlag
 	slot0.nextScriptName = slot1.jumpto
+end
+
+function slot0.ShouldBgGlitchArt(slot0)
+	return slot0.bgGlitchArt
 end
 
 function slot0.IsSameBranch(slot0, slot1)
@@ -92,6 +99,14 @@ end
 
 function slot0.GetSoundeffect(slot0)
 	return slot0.soundeffect, slot0.seDelay
+end
+
+function slot0.ShouldPlayVoice(slot0)
+	return slot0.voice ~= nil
+end
+
+function slot0.GetVoice(slot0)
+	return slot0.voice, slot0.voiceDelay
 end
 
 function slot0.ExistOption(slot0)

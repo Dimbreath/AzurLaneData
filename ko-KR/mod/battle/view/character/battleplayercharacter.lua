@@ -77,6 +77,15 @@ function slot4.Update(slot0)
 	if slot0._unitData:GetOxyState() then
 		slot0:UpdateOxygenBar()
 	end
+
+	if slot0._cloakBar then
+		slot0._cloakBar:UpdateCloakProgress()
+		slot0._hpCloakBar:UpdateCloakProgress()
+
+		if not slot0._inViewArea or not slot0._alwaysHideArrow then
+			slot0:UpdateCloakBarPosition()
+		end
+	end
 end
 
 function slot4.UpdateOxygenBar(slot0)
@@ -248,6 +257,27 @@ function slot4.AddTorpedoTrack(slot0, slot1)
 	slot0._torpedoTrack = uv0.Battle.BossSkillAlert.New(slot1)
 
 	slot0._torpedoTrack:SetActive(false)
+end
+
+function slot4.AddCloakBar(slot0, slot1)
+	uv0.super.AddCloakBar(slot0, slot1)
+
+	slot2 = slot0._HPBarTf:Find("cloakBar")
+	slot0._hpCloakBar = uv1.Battle.BattleCloakBar.New(slot2, uv1.Battle.BattleCloakBar.FORM_BAR)
+
+	slot0._hpCloakBar:ConfigCloak(slot0._unitData:GetCloak())
+	slot0._hpCloakBar:UpdateCloakProgress()
+	SetActive(slot2, true)
+end
+
+function slot4.onUpdateCloakConfig(slot0, slot1)
+	uv0.super.onUpdateCloakConfig(slot0, slot1)
+	slot0._hpCloakBar:UpdateCloakConfig()
+end
+
+function slot4.onUpdateCloakLock(slot0, slot1)
+	uv0.super.onUpdateCloakLock(slot0, slot1)
+	slot0._hpCloakBar:UpdateCloakLock()
 end
 
 function slot4.InitChargeWeapon(slot0, slot1)

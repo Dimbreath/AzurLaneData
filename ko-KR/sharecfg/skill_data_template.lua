@@ -3,110 +3,154 @@ pg.skill_data_template = {
 	{
 		desc_get = "",
 		name = "战列底座用",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 1,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	{
 		desc_get = "",
 		name = "战列底座用",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 2,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[10] = {
 		desc_get = "",
 		name = "함선 수리 Lv.1",
-		desc = "5초마다 내구 수치가 6씩 회복. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "5초마다 내구 수치가 6씩 회복. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 10,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[11] = {
 		desc_get = "",
 		name = "함선 수리 Lv.2",
-		desc = "5초마다 내구 수치가 10씩 회복. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "5초마다 내구 수치가 10씩 회복. 동일 종류의 효과는 최대치만 적용된다.",
 		desc_add = "[}",
 		id = 11,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {}
 	},
 	[12] = {
 		desc_get = "",
 		name = "함선 수리 Lv.3",
-		desc = "5초마다 내구 수치가 15씩 회복. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "5초마다 내구 수치가 15씩 회복. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 12,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[13] = {
 		desc_get = "",
 		name = "维修Lv4",
-		desc = "每5秒回复20点耐久，同类效果取最大值，不可叠加",
 		type = 0,
 		max_level = 0,
+		desc = "每5秒回复20点耐久，同类效果取最大值，不可叠加",
 		id = 13,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[14] = {
 		desc_get = "",
 		name = "개조 소녀",
-		desc = "S Rare 이하 함선의 한계 돌파 재료로 사용 가능",
 		type = 3,
 		max_level = 1,
+		desc = "S Rare 이하 함선의 한계 돌파 재료로 사용 가능",
 		id = 14,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[15] = {
 		desc_get = "",
 		name = "개조 소녀 MKⅡ",
-		desc = "SS Rare 함선의 한계 돌파 재료로 사용 가능",
 		type = 3,
 		max_level = 1,
+		desc = "SS Rare 함선의 한계 돌파 재료로 사용 가능",
 		id = 15,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[16] = {
 		desc_get = "",
 		name = "개조 소녀 MKIII",
-		desc = "UR 함선의 한계 돌파 재료로 사용 가능",
 		type = 3,
 		max_level = 1,
+		desc = "UR 함선의 한계 돌파 재료로 사용 가능",
 		id = 16,
 		system_transform = {},
+		world_death_mark = {
+			0
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[340] = {
+		desc_get = "",
+		name = "航母空袭降低隐蔽恢复速率",
+		type = 0,
+		max_level = 0,
+		desc = "空袭后12秒内，隐蔽速率恢复速度降低3点/秒",
+		id = 340,
+		system_transform = {},
+		world_death_mark = {
+			0
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[1001] = {
 		desc_get = "",
 		name = "포술 지휘·구축함",
-		desc = "전투 중, 함대에 편성된 모든 구축함의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 함대에 편성된 모든 구축함의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -160,11 +204,14 @@ pg.skill_data_template = {
 	[1002] = {
 		desc_get = "",
 		name = "포술 지휘·순양함",
-		desc = "전투 중, 순양함의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 순양함의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1002,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -218,11 +265,14 @@ pg.skill_data_template = {
 	[1003] = {
 		desc_get = "",
 		name = "포술 지휘·전함",
-		desc = "전투 중, 전함의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전함의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1003,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -276,11 +326,14 @@ pg.skill_data_template = {
 	[1004] = {
 		desc_get = "",
 		name = "포술 지휘·선봉",
-		desc = "전투 중, 선봉함대의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 선봉함대의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1004,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -334,11 +387,14 @@ pg.skill_data_template = {
 	[1005] = {
 		desc_get = "",
 		name = "포술 지휘·주력",
-		desc = "전투 중, 주력함대의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 주력함대의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1005,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -392,11 +448,14 @@ pg.skill_data_template = {
 	[1006] = {
 		desc_get = "",
 		name = "포술 지휘·전 함선",
-		desc = "전투 중, 전 함선의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전 함선의 포격 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1006,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -450,11 +509,14 @@ pg.skill_data_template = {
 	[1011] = {
 		desc_get = "",
 		name = "뇌격 지휘·구축함",
-		desc = "전투 중, 함대에 편성된 모든 구축함의 뇌장 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 함대에 편성된 모든 구축함의 뇌장 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -508,11 +570,14 @@ pg.skill_data_template = {
 	[1012] = {
 		desc_get = "",
 		name = "뇌격 지휘·순양함",
-		desc = "전투 중, 순양함의 뇌장 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 순양함의 뇌장 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -566,11 +631,14 @@ pg.skill_data_template = {
 	[1013] = {
 		desc_get = "",
 		name = "뇌격 지휘·선봉",
-		desc = "전투 중, 선봉함대의 뇌장 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 선봉함대의 뇌장 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1013,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -624,11 +692,14 @@ pg.skill_data_template = {
 	[1021] = {
 		desc_get = "",
 		name = "항공 지휘·전 함선",
-		desc = "전투 중, 전 함선의 항공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전 함선의 항공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -682,11 +753,14 @@ pg.skill_data_template = {
 	[1031] = {
 		desc_get = "",
 		name = "장전 지휘·구축함",
-		desc = "전투 중, 구축함의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 구축함의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -740,11 +814,14 @@ pg.skill_data_template = {
 	[1032] = {
 		desc_get = "",
 		name = "장전 지휘·순양함",
-		desc = "전투 중, 순양함의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 순양함의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -798,11 +875,14 @@ pg.skill_data_template = {
 	[1033] = {
 		desc_get = "",
 		name = "장전 지휘·전함",
-		desc = "전투 중, 전함의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전함의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1033,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -856,11 +936,14 @@ pg.skill_data_template = {
 	[1034] = {
 		desc_get = "",
 		name = "장전 지휘·선봉",
-		desc = "전투 중, 선봉함대의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 선봉함대의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1034,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -914,11 +997,14 @@ pg.skill_data_template = {
 	[1035] = {
 		desc_get = "",
 		name = "장전 지휘·주력",
-		desc = "전투 중, 주력함대의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 주력함대의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1035,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -972,11 +1058,14 @@ pg.skill_data_template = {
 	[1036] = {
 		desc_get = "",
 		name = "장전 지휘·전 함선",
-		desc = "전투 중, 전 함선의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전 함선의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1036,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1030,11 +1119,14 @@ pg.skill_data_template = {
 	[1037] = {
 		desc_get = "",
 		name = "장전 지휘·경항모",
-		desc = "전투 중, 경항모의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 경항모의 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1037,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1088,11 +1180,14 @@ pg.skill_data_template = {
 	[1041] = {
 		desc_get = "",
 		name = "대공 지휘·구축함",
-		desc = "전투 중, 구축함의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 구축함의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1146,11 +1241,14 @@ pg.skill_data_template = {
 	[1042] = {
 		desc_get = "",
 		name = "대공 지휘·순양함",
-		desc = "전투 중, 순양함의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 순양함의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1204,11 +1302,14 @@ pg.skill_data_template = {
 	[1043] = {
 		desc_get = "",
 		name = "대공 지휘·전함",
-		desc = "전투 중, 전함의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전함의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1043,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1262,11 +1363,14 @@ pg.skill_data_template = {
 	[1044] = {
 		desc_get = "",
 		name = "대공 지휘·선봉",
-		desc = "전투 중, 선봉함대의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 선봉함대의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1044,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1320,11 +1424,14 @@ pg.skill_data_template = {
 	[1045] = {
 		desc_get = "",
 		name = "대공 지휘·주력",
-		desc = "전투 중, 주력함대의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 주력함대의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1045,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1378,11 +1485,14 @@ pg.skill_data_template = {
 	[1046] = {
 		desc_get = "",
 		name = "대공 지휘·전 함선",
-		desc = "전투 중, 전 함선의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전 함선의 대공 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1046,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1436,11 +1546,14 @@ pg.skill_data_template = {
 	[1051] = {
 		desc_get = "",
 		name = "전술 지휘·구축함",
-		desc = "전투 중, 구축함의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 구축함의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1494,11 +1607,14 @@ pg.skill_data_template = {
 	[1052] = {
 		desc_get = "",
 		name = "전술 지휘·순양함",
-		desc = "전투 중, 순양함의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 순양함의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1552,11 +1668,14 @@ pg.skill_data_template = {
 	[1053] = {
 		desc_get = "",
 		name = "전술 지휘·전함",
-		desc = "전투 중, 전함의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전함의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1053,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1610,11 +1729,14 @@ pg.skill_data_template = {
 	[1054] = {
 		desc_get = "",
 		name = "전술 지휘·선봉",
-		desc = "전투 중, 선봉함대의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 선봉함대의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1054,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1668,11 +1790,14 @@ pg.skill_data_template = {
 	[1055] = {
 		desc_get = "",
 		name = "전술 지휘·주력",
-		desc = "전투 중, 주력함대의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 주력함대의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1055,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1726,11 +1851,14 @@ pg.skill_data_template = {
 	[1056] = {
 		desc_get = "",
 		name = "전술 지휘·전 함선",
-		desc = "전투 중, 전 함선의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 전 함선의 포격, 뇌장, 장전 수치가 $1 상승. 동일 종류의 스킬 효과는 중첩되지 않는다.",
 		id = 1056,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1784,11 +1912,14 @@ pg.skill_data_template = {
 	[1061] = {
 		desc_get = "",
 		name = "측면엄호",
-		desc = "이 함선이 생존해 있는 동안, 주력함대의 받는 대미지가 $1 감소한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 2,
 		max_level = 10,
+		desc = "이 함선이 생존해 있는 동안, 주력함대의 받는 대미지가 $1 감소한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 1061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1842,11 +1973,14 @@ pg.skill_data_template = {
 	[1071] = {
 		desc_get = "",
 		name = "구역정찰",
-		desc = "이 함선이 생존해 있는 동안, 전함, 순양전함, 모니터함의 대미지가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "이 함선이 생존해 있는 동안, 전함, 순양전함, 모니터함의 대미지가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 1071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1900,11 +2034,14 @@ pg.skill_data_template = {
 	[1081] = {
 		desc_get = "",
 		name = "공습 선도",
-		desc = "이 함선이 생존해 있는 동안, 항모, 경항모의 공중지원 대미지가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "이 함선이 생존해 있는 동안, 항모, 경항모의 공중지원 대미지가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 1081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -1958,11 +2095,14 @@ pg.skill_data_template = {
 	[1091] = {
 		desc_get = "",
 		name = "수뢰전대",
-		desc = "자신이 전투불능이 되지 않는 한, 함대의 경순양함 및 구축함의 뇌격과 장전 수치가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 전투불능이 되지 않는 한, 함대의 경순양함 및 구축함의 뇌격과 장전 수치가 $1 상승한다.",
 		id = 1091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.0%",
@@ -2016,11 +2156,14 @@ pg.skill_data_template = {
 	[2001] = {
 		desc_get = "",
 		name = "쾌속 장전",
-		desc = "20초마다 $1 확률로 발동. 10초 동안 자신의 장전 수치가 $2 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동. 10초 동안 자신의 장전 수치가 $2 상승한다.",
 		id = 2001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -2119,11 +2262,14 @@ pg.skill_data_template = {
 	[2011] = {
 		desc_get = "",
 		name = "화력전개",
-		desc = "20초마다 $1 확률로 발동. 10초 동안 자신의 포격 수치가 $2 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동. 10초 동안 자신의 포격 수치가 $2 상승한다.",
 		id = 2011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -2222,11 +2368,14 @@ pg.skill_data_template = {
 	[2021] = {
 		desc_get = "",
 		name = "장전 지령",
-		desc = "20초마다 25% 확률로 발동. 8초 동안 전 함선의 장전 수치가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 25% 확률로 발동. 8초 동안 전 함선의 장전 수치가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 2021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -2280,11 +2429,14 @@ pg.skill_data_template = {
 	[2031] = {
 		desc_get = "",
 		name = "강습 지령",
-		desc = "20초마다 25% 확률로 발동. 8초 동안 전 함선의 대미지가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 25% 확률로 발동. 8초 동안 전 함선의 대미지가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 2031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -2338,11 +2490,14 @@ pg.skill_data_template = {
 	[2041] = {
 		desc_get = "",
 		name = "집중포화",
-		desc = "주포 발사 시 $1 확률로 발동. 1회에 한하여 주포로 입히는 대미지가 2배가 된다.",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1 확률로 발동. 1회에 한하여 주포로 입히는 대미지가 2배가 된다.",
 		id = 2041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -2396,11 +2551,14 @@ pg.skill_data_template = {
 	[2051] = {
 		desc_get = "",
 		name = "어뢰 연사",
-		desc = "어뢰 발사 시 $1 확률로 2회 발사한다.",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰 발사 시 $1 확률로 2회 발사한다.",
 		id = 2051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -2454,11 +2612,14 @@ pg.skill_data_template = {
 	[2061] = {
 		desc_get = "",
 		name = "주포 연사",
-		desc = "주포 발사 시 $1 확률로 2회 발사한다.",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1 확률로 2회 발사한다.",
 		id = 2061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -2512,11 +2673,14 @@ pg.skill_data_template = {
 	[2071] = {
 		desc_get = "",
 		name = "포화제압",
-		desc = "전투 중, 자신의 포격 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 자신의 포격 수치가 $1 상승한다.",
 		id = 2071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -2570,11 +2734,14 @@ pg.skill_data_template = {
 	[2081] = {
 		desc_get = "",
 		name = "철갑탄 강화",
-		desc = "철갑탄의 대미지가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "철갑탄의 대미지가 $1 상승한다.",
 		id = 2081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -2628,11 +2795,14 @@ pg.skill_data_template = {
 	[2091] = {
 		desc_get = "35초(Max Lv : 15초)마다, 적을 추격하는 자성 어뢰를 4발 발사한다. (위력은 스킬 레벨에 비례)",
 		name = "자성 어뢰",
-		desc = "$1초마다, 적을 추격하는 자기 어뢰를 4발 발사한다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "$1초마다, 적을 추격하는 자기 어뢰를 4발 발사한다. (위력은 스킬 레벨에 비례)",
 		id = 2091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -2681,11 +2851,14 @@ pg.skill_data_template = {
 	[2101] = {
 		desc_get = "35초(Max Lv : 20초)마다, 어뢰를 3발 발사한다. (위력은 스킬 레벨에 비례)",
 		name = "어뢰 발사",
-		desc = "$1초마다, 어뢰를 3발 발사한다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "$1초마다, 어뢰를 3발 발사한다. (위력은 스킬 레벨에 비례)",
 		id = 2101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -2734,11 +2907,14 @@ pg.skill_data_template = {
 	[2111] = {
 		desc_get = "자폭선, 어뢰선, 수송선에게 주는 대미지가 10% (최대 레벨 25%) 상승한다.",
 		name = "교란 작전",
-		desc = "자폭선, 어뢰선, 수송선에게 주는 대미지가 $1 상승한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "자폭선, 어뢰선, 수송선에게 주는 대미지가 $1 상승한다. ",
 		id = 2111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -2792,11 +2968,14 @@ pg.skill_data_template = {
 	[2121] = {
 		desc_get = "",
 		name = "목표 지시·어뢰",
-		desc = "자신의 어뢰가 적에게 명중할 때 $1의 확률로 목표 지시·어뢰가 발동되어, 8초 간 대상이 되는 적군이 받는 어뢰의 대미지가 $2 상승한다. (효과는 중첩되지 않는다)",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 어뢰가 적에게 명중할 때 $1의 확률로 목표 지시·어뢰가 발동되어, 8초 간 대상이 되는 적군이 받는 어뢰의 대미지가 $2 상승한다. (효과는 중첩되지 않는다)",
 		id = 2121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"7.0%",
@@ -2895,11 +3074,14 @@ pg.skill_data_template = {
 	[2131] = {
 		desc_get = "",
 		name = "대공지원 ",
-		desc = "대공 공격 범위 내에서 적 함재기가 격추되었을 때, 8초 간 자신의 포격 및 대공 수치가 $1 상승한다. 효과 적용 중에 다시 같은 스킬이 발동한 경우, 효과는 중첩되지 않고 지속시간만 갱신된다. ",
 		type = 1,
 		max_level = 10,
+		desc = "대공 공격 범위 내에서 적 함재기가 격추되었을 때, 8초 간 자신의 포격 및 대공 수치가 $1 상승한다. 효과 적용 중에 다시 같은 스킬이 발동한 경우, 효과는 중첩되지 않고 지속시간만 갱신된다. ",
 		id = 2131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -2953,11 +3135,14 @@ pg.skill_data_template = {
 	[2141] = {
 		desc_get = "",
 		name = "대 구축함 전법 ",
-		desc = "자신의 적 구축함에 대한 명중률이 $1 상승한다. 또한, 자신에 대한 적 구축함의 뇌장 대미지가 $1 감소한다. ",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 적 구축함에 대한 명중률이 $1 상승한다. 또한, 자신에 대한 적 구축함의 뇌장 대미지가 $1 감소한다. ",
 		id = 2141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -3011,11 +3196,14 @@ pg.skill_data_template = {
 	[2151] = {
 		desc_get = "",
 		name = "돌격 뇌격 ",
-		desc = "자신의 어뢰 공격 대미지가 상대의 장갑 유형에 영향받지 않게 되고, 자신의 어뢰 공격 대미지가 $1이 된다. ",
 		type = 3,
 		max_level = 10,
+		desc = "자신의 어뢰 공격 대미지가 상대의 장갑 유형에 영향받지 않게 되고, 자신의 어뢰 공격 대미지가 $1이 된다. ",
 		id = 2151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"100.0%",
@@ -3069,11 +3257,14 @@ pg.skill_data_template = {
 	[2161] = {
 		desc_get = "",
 		name = "뇌격예비",
-		desc = "전투 개시 10초 후, 어뢰탄막을 전개한다. 이후 20초마다 $1 확률로 어뢰탄막을 추가 전개한다.(주동 발사한 어뢰탄막과 동일)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 10초 후, 어뢰탄막을 전개한다. 이후 20초마다 $1 확률로 어뢰탄막을 추가 전개한다.(주동 발사한 어뢰탄막과 동일)",
 		id = 2161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -3127,11 +3318,14 @@ pg.skill_data_template = {
 	[2171] = {
 		desc_get = "",
 		name = "대공 경계",
-		desc = "자신의 대공 수치가 $1 증가",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 대공 수치가 $1 증가",
 		id = 2171,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3185,11 +3379,14 @@ pg.skill_data_template = {
 	[2181] = {
 		desc_get = "",
 		name = "전면 경계",
-		desc = "전투 개시 및 이후 30초 마다 발동, 20초 동안 자신의 대공, 대잠 $1 상승",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 및 이후 30초 마다 발동, 20초 동안 자신의 대공, 대잠 $1 상승",
 		id = 2181,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3243,11 +3440,14 @@ pg.skill_data_template = {
 	[2191] = {
 		desc_get = "",
 		name = "예비 탄약",
-		desc = "아군 함대의 탄약 부족 상태 영향력 감소(탄약 부족 상태의 대미지 $1 상승)",
 		type = 3,
 		max_level = 10,
+		desc = "아군 함대의 탄약 부족 상태 영향력 감소(탄약 부족 상태의 대미지 $1 상승)",
 		id = 2191,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3301,11 +3501,14 @@ pg.skill_data_template = {
 	[2201] = {
 		desc_get = "",
 		name = "공해 전환",
-		desc = "[127Mm 연장 양용포 MK12] 장비 시, 자신의 대공 $1 상승, 자신의 포격 $2 감소. 장비하지 않았을 시, 자신의 포격 $1 상승, 자신의 대공 $2 감소",
 		type = 2,
 		max_level = 10,
+		desc = "[127Mm 연장 양용포 MK12] 장비 시, 자신의 대공 $1 상승, 자신의 포격 $2 감소. 장비하지 않았을 시, 자신의 포격 $1 상승, 자신의 대공 $2 감소",
 		id = 2201,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3404,11 +3607,14 @@ pg.skill_data_template = {
 	[3001] = {
 		desc_get = "",
 		name = "스크램블",
-		desc = "공중지원 발동 시 $1 확률로 발동. 공중지원의 쿨타임이 초기화된다.",
 		type = 1,
 		max_level = 10,
+		desc = "공중지원 발동 시 $1 확률로 발동. 공중지원의 쿨타임이 초기화된다.",
 		id = 3001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3462,11 +3668,14 @@ pg.skill_data_template = {
 	[3011] = {
 		desc_get = "",
 		name = "강습항모",
-		desc = "공중지원 발동 시 $1 확률로 발동하며 10초 내 자신이 입히는 대미지가 2배가 된다. ",
 		type = 1,
 		max_level = 10,
+		desc = "공중지원 발동 시 $1 확률로 발동하며 10초 내 자신이 입히는 대미지가 2배가 된다. ",
 		id = 3011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -3520,11 +3729,14 @@ pg.skill_data_template = {
 	[3021] = {
 		desc_get = "",
 		name = "편대항모",
-		desc = "공중지원 발동 후, 8초 동안 선봉함대의 대미지를 $1 상승시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "공중지원 발동 후, 8초 동안 선봉함대의 대미지를 $1 상승시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 3021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3578,11 +3790,14 @@ pg.skill_data_template = {
 	[3031] = {
 		desc_get = "",
 		name = "지원항모",
-		desc = "공중지원 발동 후, 선봉함대의 내구 수치를 $1 회복시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "공중지원 발동 후, 선봉함대의 내구 수치를 $1 회복시킨다.",
 		id = 3031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -3636,11 +3851,14 @@ pg.skill_data_template = {
 	[3041] = {
 		desc_get = "",
 		name = "제공지원",
-		desc = "공중지원 발동 후, 8초 동안 자신을 제외한 다른 항공모함의 항공 수치를 $1 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "공중지원 발동 후, 8초 동안 자신을 제외한 다른 항공모함의 항공 수치를 $1 상승시킨다.",
 		id = 3041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3694,11 +3912,14 @@ pg.skill_data_template = {
 	[3051] = {
 		desc_get = "",
 		name = "항공지원",
-		desc = "공중지원 발동 후, 8초 동안 선봉함대의 받는 대미지를 $1 감소시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "공중지원 발동 후, 8초 동안 선봉함대의 받는 대미지를 $1 감소시킨다.",
 		id = 3051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3752,12 +3973,15 @@ pg.skill_data_template = {
 	[3511] = {
 		desc_get = "",
 		name = "산소 생성 장치",
-		desc = "자신의 잠항력이 $1 상승.",
 		type = 3,
 		max_level = 10,
+		desc = "자신의 잠항력이 $1 상승.",
 		id = 3511,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -3812,12 +4036,15 @@ pg.skill_data_template = {
 	[3521] = {
 		desc_get = "",
 		name = "부상 전투",
-		desc = "수면 위로 떠오른 상태에서의 전투 시간이 $1 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "수면 위로 떠오른 상태에서의 전투 시간이 $1 상승한다.",
 		id = 3521,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -3872,12 +4099,15 @@ pg.skill_data_template = {
 	[3531] = {
 		desc_get = "",
 		name = "저속 어뢰 ",
-		desc = "어뢰의 속도가 1 감소하고, 대미지가 $1 상승한다",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰의 속도가 1 감소하고, 대미지가 $1 상승한다",
 		id = 3531,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -3932,12 +4162,15 @@ pg.skill_data_template = {
 	[3571] = {
 		desc_get = "",
 		name = "경순 헌터",
-		desc = "경순양함에 대한 피해가 $1 증가한다",
 		type = 1,
 		max_level = 10,
+		desc = "경순양함에 대한 피해가 $1 증가한다",
 		id = 3571,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -3992,12 +4225,15 @@ pg.skill_data_template = {
 	[3581] = {
 		desc_get = "",
 		name = "중순양함 헌터",
-		desc = "중순양함、초갑순양함에게 주는 대미지가 $1 상승 ",
 		type = 1,
 		max_level = 10,
+		desc = "중순양함、초갑순양함에게 주는 대미지가 $1 상승 ",
 		id = 3581,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4052,12 +4288,15 @@ pg.skill_data_template = {
 	[3591] = {
 		desc_get = "",
 		name = "항공모함 헌터",
-		desc = "항공모함에게 주는 대미지가 $1 상승",
 		type = 1,
 		max_level = 10,
+		desc = "항공모함에게 주는 대미지가 $1 상승",
 		id = 3591,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4112,12 +4351,15 @@ pg.skill_data_template = {
 	[3611] = {
 		desc_get = "",
 		name = "울프팩",
-		desc = "출격 시 함대에 메탈 블러드 잠수함이 편성되어 있을 경우, 메탈 블러드 잠수함 1대당 자신의 뇌장, 명중, 장전 수치가 $1 상승한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시 함대에 메탈 블러드 잠수함이 편성되어 있을 경우, 메탈 블러드 잠수함 1대당 자신의 뇌장, 명중, 장전 수치가 $1 상승한다. ",
 		id = 3611,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4172,12 +4414,15 @@ pg.skill_data_template = {
 	[3621] = {
 		desc_get = "",
 		name = "공중 확인",
-		desc = "전투 중 제공 상태: 공역 쟁탈이 없고 제공권의 우세를 점했거나 제공권을 확보한 상황에서 자신의 포격, 뇌장, 장전이 $1 증가",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중 제공 상태: 공역 쟁탈이 없고 제공권의 우세를 점했거나 제공권을 확보한 상황에서 자신의 포격, 뇌장, 장전이 $1 증가",
 		id = 3621,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4232,12 +4477,15 @@ pg.skill_data_template = {
 	[3631] = {
 		desc_get = "",
 		name = "원거리 지원",
-		desc = "자신의 잠항력이 $1 상승. 잠수함대에 배치 시, 잠수함대의 지원범위 밖에서도 전투 중 잠수지원이 1회 가능하다. ",
 		type = 3,
 		max_level = 10,
+		desc = "자신의 잠항력이 $1 상승. 잠수함대에 배치 시, 잠수함대의 지원범위 밖에서도 전투 중 잠수지원이 1회 가능하다. ",
 		id = 3631,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -4292,11 +4540,14 @@ pg.skill_data_template = {
 	[4001] = {
 		desc_get = "",
 		name = "방어태세",
-		desc = "20초마다 $1 확률로 발동. 8초 동안 받는 대미지가 $2 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동. 8초 동안 받는 대미지가 $2 감소한다.",
 		id = 4001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -4395,11 +4646,14 @@ pg.skill_data_template = {
 	[4011] = {
 		desc_get = "",
 		name = "방어 지령",
-		desc = "20초마다 25% 확률로 발동. 8초 동안 전 함선의 받는 대미지를 $1 감소시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 25% 확률로 발동. 8초 동안 전 함선의 받는 대미지를 $1 감소시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 4011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -4453,11 +4707,14 @@ pg.skill_data_template = {
 	[4021] = {
 		desc_get = "",
 		name = "All or Nothing",
-		desc = "피격 시 $1 확률로 받은 대미지를 50% 감소시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "피격 시 $1 확률로 받은 대미지를 50% 감소시킨다.",
 		id = 4021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -4511,11 +4768,14 @@ pg.skill_data_template = {
 	[4031] = {
 		desc_get = "",
 		name = "응급 수리",
-		desc = "25초마다 자신의 내구 수치가 $1 회복된다.",
 		type = 2,
 		max_level = 10,
+		desc = "25초마다 자신의 내구 수치가 $1 회복된다.",
 		id = 4031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -4569,11 +4829,14 @@ pg.skill_data_template = {
 	[4041] = {
 		desc_get = "",
 		name = "내 몸을 방패로",
-		desc = "20초마다 $1 확률로 발동. 8초 동안 선봉함대가 받는 대미지의 50%를 대신 받는다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 2,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동. 8초 동안 선봉함대가 받는 대미지의 50%를 대신 받는다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 4041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -4627,11 +4890,14 @@ pg.skill_data_template = {
 	[4051] = {
 		desc_get = "피격 시 15% 확률로 발동. 5초(Max Lv : 15초) 동안, 전방에서 오는 적의 탄환을 12회까지 막아주는 실드가 생성된다.",
 		name = "정면장갑",
-		desc = "피격 시 15% 확률로 발동. $1초 동안, 전방에서 오는 적의 탄환을 12회까지 막아주는 실드가 생성된다.",
 		type = 2,
 		max_level = 10,
+		desc = "피격 시 15% 확률로 발동. $1초 동안, 전방에서 오는 적의 탄환을 12회까지 막아주는 실드가 생성된다.",
 		id = 4051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -4680,11 +4946,14 @@ pg.skill_data_template = {
 	[4061] = {
 		desc_get = "피격 시 15% 확률로 발동. 5초(Max Lv : 15초) 동안, 측면에서 오는 적의 탄환을 6회까지 막아주는 실드가 2장 생성된다.",
 		name = "측면장갑",
-		desc = "피격 시 15% 확률로 발동. $1초 동안, 측면에서 오는 적의 탄환을 6회까지 막아주는 실드가 2장 생성된다.",
 		type = 2,
 		max_level = 10,
+		desc = "피격 시 15% 확률로 발동. $1초 동안, 측면에서 오는 적의 탄환을 6회까지 막아주는 실드가 2장 생성된다.",
 		id = 4061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -4733,11 +5002,14 @@ pg.skill_data_template = {
 	[4071] = {
 		desc_get = "",
 		name = "긴급회피",
-		desc = "20초마다 $1 확률로 발동. 6초 동안, 자신이 받는 모든 공격을 회피한다.",
 		type = 2,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동. 6초 동안, 자신이 받는 모든 공격을 회피한다.",
 		id = 4071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -4791,11 +5063,14 @@ pg.skill_data_template = {
 	[4081] = {
 		desc_get = "",
 		name = "연막살포",
-		desc = "전투 개시 직후 연막을 살포하고, 이후 15초마다 $1 확률로 연막을 추가 살포한다. 5초 동안, 연막 범위 내에 있는 함선의 회피율이 $2 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 직후 연막을 살포하고, 이후 15초마다 $1 확률로 연막을 추가 살포한다. 5초 동안, 연막 범위 내에 있는 함선의 회피율이 $2 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 4081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -4894,11 +5169,14 @@ pg.skill_data_template = {
 	[4091] = {
 		desc_get = "",
 		name = "대공 배치",
-		desc = "대공 사격 시 25% 확률로 발동. 3초 동안 자신의 대공 수치가 $1 상승하고, 포격 수치가 $2 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "대공 사격 시 25% 확률로 발동. 3초 동안 자신의 대공 수치가 $1 상승하고, 포격 수치가 $2 감소한다.",
 		id = 4091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -4997,11 +5275,14 @@ pg.skill_data_template = {
 	[4101] = {
 		desc_get = "",
 		name = "연막살포·경순",
-		desc = "전투 개시 10초 후 연막을 살포하고, 이후 20초마다 20% 확률로 연막을 추가 살포한다. 10초 동안, 연막 범위 내에 있는 함선의 회피율이 $2 상승하고, 받는 항공 대미지가 $2 감소한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 10초 후 연막을 살포하고, 이후 20초마다 20% 확률로 연막을 추가 살포한다. 10초 동안, 연막 범위 내에 있는 함선의 회피율이 $2 상승하고, 받는 항공 대미지가 $2 감소한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 4101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -5100,11 +5381,14 @@ pg.skill_data_template = {
 	[4111] = {
 		desc_get = "",
 		name = "철갑 방어 ",
-		desc = "받는 철갑탄 대미지 $1감소 ",
 		type = 2,
 		max_level = 10,
+		desc = "받는 철갑탄 대미지 $1감소 ",
 		id = 4111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -5158,11 +5442,14 @@ pg.skill_data_template = {
 	[4121] = {
 		desc_get = "",
 		name = "보호 장갑",
-		desc = "구축함, 경순양함으로 부터 받는 포격 대미지가 $1 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "구축함, 경순양함으로 부터 받는 포격 대미지가 $1 감소한다.",
 		id = 4121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -5216,11 +5503,14 @@ pg.skill_data_template = {
 	[4131] = {
 		desc_get = "",
 		name = "충돌금지",
-		desc = "아군 선봉함대가 적 함대와 접촉했을 때 받는 대미지가 $1 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "아군 선봉함대가 적 함대와 접촉했을 때 받는 대미지가 $1 감소한다.",
 		id = 4131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -5274,11 +5564,14 @@ pg.skill_data_template = {
 	[4141] = {
 		desc_get = "",
 		name = "기동 호위",
-		desc = "스테이지 내 생존해 있을 시, 주력함대가 받는 대미지를 $1감소시키고, 경순양함과 구축함이 자신에게 주는 포격과 뇌격 대미지를 $2 감소시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "스테이지 내 생존해 있을 시, 주력함대가 받는 대미지를 $1감소시키고, 경순양함과 구축함이 자신에게 주는 포격과 뇌격 대미지를 $2 감소시킨다.",
 		id = 4141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -5377,11 +5670,14 @@ pg.skill_data_template = {
 	[4151] = {
 		desc_get = "",
 		name = "기동 제압 ",
-		desc = "전투 중 자신이 구축함에게 받는 포격, 뇌장 피해가 $1 감소. 20초마다 10초간 자신의 기동이 5, 포격이 $2 증가 ",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중 자신이 구축함에게 받는 포격, 뇌장 피해가 $1 감소. 20초마다 10초간 자신의 기동이 5, 포격이 $2 증가 ",
 		id = 4151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -5480,11 +5776,14 @@ pg.skill_data_template = {
 	[4161] = {
 		desc_get = "",
 		name = "하늘의 서포터 ",
-		desc = "소속된 함대가 전투 진입 시, 자신이 생존해 있다면 함대의 모든 항공모함, 경항공모함의 항공이 $1, 장전이 $2 증가하고 자신의 함재기 첫 공중 지원 쿨타임이 $3 감소. 해역 내 다른 함대가 전투 진입 시, 자신이 생존해 있다면 해당 함대의 모든 항공모함, 경항공모함의 항공이 $4, 장전이 $4 증가",
 		type = 3,
 		max_level = 10,
+		desc = "소속된 함대가 전투 진입 시, 자신이 생존해 있다면 함대의 모든 항공모함, 경항공모함의 항공이 $1, 장전이 $2 증가하고 자신의 함재기 첫 공중 지원 쿨타임이 $3 감소. 해역 내 다른 함대가 전투 진입 시, 자신이 생존해 있다면 해당 함대의 모든 항공모함, 경항공모함의 항공이 $4, 장전이 $4 증가",
 		id = 4161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -5673,22 +5972,30 @@ pg.skill_data_template = {
 	[4171] = {
 		desc_get = "",
 		name = "空域辅助-共通效果占用id",
-		desc = "",
 		type = 3,
 		max_level = 10,
+		desc = "",
 		id = 4171,
-		system_transform = {},
+		system_transform = {
+			[51.0] = 4176
+		},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[5001] = {
 		desc_get = "20초마다 25% 확률로 발동. 5초(Max Lv : 10초) 동안 랜덤한 적 1기(적 함선 소녀 우선)의 사속과 대미지를 크게 감소시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		name = "교란 사격",
-		desc = "20초마다 25% 확률로 발동. $1초 동안 랜덤한 적 1기 (적 함선 소녀 우선) 의 사속과 대미지를 크게 감소 시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 25% 확률로 발동. $1초 동안 랜덤한 적 1기 (적 함선 소녀 우선) 의 사속과 대미지를 크게 감소 시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 5001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -5737,11 +6044,14 @@ pg.skill_data_template = {
 	[5011] = {
 		desc_get = "20초마다 25% 확률로 발동. 5초(Max Lv : 15초) 동안 랜덤한 적 1기(적 함선 소녀 우선)의 받는 대미지를 20% 상승시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		name = "약점분석",
-		desc = "20초마다 25% 확률로 발동. $1초 동안 랜덤한 적 1기(적 함선 소녀 우선)의 받는 대미지를 20% 상승시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 25% 확률로 발동. $1초 동안 랜덤한 적 1기(적 함선 소녀 우선)의 받는 대미지를 20% 상승시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 5011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -5790,11 +6100,14 @@ pg.skill_data_template = {
 	[5021] = {
 		desc_get = "",
 		name = "항모 호위",
-		desc = "이 함선이 생존해 있는 동안, 경항모, 항모의 받는 대미지가 $1 감소한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 2,
 		max_level = 10,
+		desc = "이 함선이 생존해 있는 동안, 경항모, 항모의 받는 대미지가 $1 감소한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 5021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -5848,11 +6161,14 @@ pg.skill_data_template = {
 	[5031] = {
 		desc_get = "",
 		name = "전함 호위",
-		desc = "이 함선이 생존해 있는 동안, 순양전함, 전함의 받는 대미지가 $1 감소한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 2,
 		max_level = 10,
+		desc = "이 함선이 생존해 있는 동안, 순양전함, 전함의 받는 대미지가 $1 감소한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 5031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -5906,11 +6222,14 @@ pg.skill_data_template = {
 	[5041] = {
 		desc_get = "",
 		name = "조명탄",
-		desc = "전투 시작 후 10초 뒤에 조명탄을 사용, 매 20초 마다 $1의 확률로 조명탄을 사용한다. 조명은 10초 간 지속되며, 조명 효과 내의 캐릭터는 회피율이 25% 감소한다. 같은 스킬의 효과는 중첩되지 않는다. (조명탄은 가장 가까운 적에게 우선적으로 발사된다.)",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 후 10초 뒤에 조명탄을 사용, 매 20초 마다 $1의 확률로 조명탄을 사용한다. 조명은 10초 간 지속되며, 조명 효과 내의 캐릭터는 회피율이 25% 감소한다. 같은 스킬의 효과는 중첩되지 않는다. (조명탄은 가장 가까운 적에게 우선적으로 발사된다.)",
 		id = 5041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -5964,11 +6283,14 @@ pg.skill_data_template = {
 	[5051] = {
 		desc_get = "",
 		name = "기함엄호",
-		desc = "전투 중, 기함이 받는 대미지가 $1 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 기함이 받는 대미지가 $1 감소한다.",
 		id = 5051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -6022,11 +6344,14 @@ pg.skill_data_template = {
 	[5061] = {
 		desc_get = "",
 		name = "구축전대",
-		desc = "전투 개시 시, 선봉함대가 자신과 구축함만으로 편성되어있을 경우, 자신의 항속이 4 상승하고 구축함과 경순양함에게 주는 대미지가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 선봉함대가 자신과 구축함만으로 편성되어있을 경우, 자신의 항속이 4 상승하고 구축함과 경순양함에게 주는 대미지가 $1 상승한다.",
 		id = 5061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -6080,11 +6405,14 @@ pg.skill_data_template = {
 	[5071] = {
 		desc_get = "",
 		name = "슈발리에 부클리예",
-		desc = "선봉함대가 아이리스 리브레, 비시아 큐리아 소속함만으로 편성되어있을 경우, 20초마다 50% 확률로 발동. 8초 동안 아군이 받는 대미지가 $1 감소한다. 같은 스킬의 효과는 중첩되지 않는다.",
 		type = 2,
 		max_level = 10,
+		desc = "선봉함대가 아이리스 리브레, 비시아 큐리아 소속함만으로 편성되어있을 경우, 20초마다 50% 확률로 발동. 8초 동안 아군이 받는 대미지가 $1 감소한다. 같은 스킬의 효과는 중첩되지 않는다.",
 		id = 5071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -6138,11 +6466,14 @@ pg.skill_data_template = {
 	[5081] = {
 		desc_get = "",
 		name = "슈발리에 사브르",
-		desc = "선봉함대가 아이리스 리브레, 비시아 큐리아 소속함만으로 편성되어있을 경우, 20초마다 50% 확률로 발동. 8초 동안 아군의 대미지가 $1 상승한다. 같은 스킬의 효과는 중첩되지 않는다.",
 		type = 1,
 		max_level = 10,
+		desc = "선봉함대가 아이리스 리브레, 비시아 큐리아 소속함만으로 편성되어있을 경우, 20초마다 50% 확률로 발동. 8초 동안 아군의 대미지가 $1 상승한다. 같은 스킬의 효과는 중첩되지 않는다.",
 		id = 5081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -6196,11 +6527,14 @@ pg.skill_data_template = {
 	[5101] = {
 		desc_get = "",
 		name = "긴급태세",
-		desc = "출격 시, 자체 포격 , 뇌장 속성이 $1 상승하고, 12초 마다 포격, 뇌장 속성이 $2 감소하며, 속성 감소는 매 전투마다 3회 발동된다.",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 자체 포격 , 뇌장 속성이 $1 상승하고, 12초 마다 포격, 뇌장 속성이 $2 감소하며, 속성 감소는 매 전투마다 3회 발동된다.",
 		id = 5101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"9%",
@@ -6299,11 +6633,14 @@ pg.skill_data_template = {
 	[5111] = {
 		desc_get = "",
 		name = "항공보조 ",
-		desc = "출격 시 기함이 아니라면, 자신을 제외한 편성중인 경항공모함, 항공모함의 장전 $1, 주력함대 대공 $2 증가",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시 기함이 아니라면, 자신을 제외한 편성중인 경항공모함, 항공모함의 장전 $1, 주력함대 대공 $2 증가",
 		id = 5111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -6402,892 +6739,1177 @@ pg.skill_data_template = {
 	[6000] = {
 		desc_get = "",
 		name = "비버즈 함대",
-		desc = "함대의 항속이 20% 상승한다.",
 		type = 0,
 		max_level = 0,
+		desc = "함대의 항속이 20% 상승한다.",
 		id = 6000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6010] = {
 		desc_get = "",
 		name = "뇌격보호 T1",
-		desc = "어뢰에 의한 받는 대미지가 10% 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "어뢰에 의한 받는 대미지가 10% 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6020] = {
 		desc_get = "",
 		name = "뇌격보호 T2",
-		desc = "어뢰에 의한 받는 대미지가 20% 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "어뢰에 의한 받는 대미지가 20% 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6030] = {
 		desc_get = "",
 		name = "뇌격보호 T3",
-		desc = "어뢰에 의한 받는 대미지가 30% 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "어뢰에 의한 받는 대미지가 30% 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6040] = {
 		desc_get = "",
 		name = "SG 색적 T1",
-		desc = "우수한 탐지 기능 덕분에 매복 조우 확률이 5% 감소하며, 회피 성공률이 5% 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "우수한 탐지 기능 덕분에 매복 조우 확률이 5% 감소하며, 회피 성공률이 5% 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6050] = {
 		desc_get = "",
 		name = "SG 색적 T2",
-		desc = "우수한 탐지 기능 덕분에 매복 조우 확률이 8% 감소하며, 회피 성공률이 8% 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "우수한 탐지 기능 덕분에 매복 조우 확률이 8% 감소하며, 회피 성공률이 8% 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6060] = {
 		desc_get = "",
 		name = "SG 색적 T3",
-		desc = "우수한 탐지 기능 덕분에 매복 조우 확률이 12% 감소하며, 회피 성공률이 12% 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "우수한 탐지 기능 덕분에 매복 조우 확률이 12% 감소하며, 회피 성공률이 12% 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6070] = {
 		desc_get = "",
 		name = "내탄강화 T1",
-		desc = "함재기의 HP가 50 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "함재기의 HP가 50 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6080] = {
 		desc_get = "",
 		name = "내탄강화 T2",
-		desc = "함재기의 HP가 80 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "함재기의 HP가 80 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6090] = {
 		desc_get = "",
 		name = "내탄강화 T3",
-		desc = "함재기의 HP가 120 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "함재기의 HP가 120 상승한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6100] = {
 		desc_get = "",
 		name = "응급수리 T1",
-		desc = "15초마다 최대 내구 수치의 0.3%씩 내구 수치가 회복된다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "15초마다 최대 내구 수치의 0.3%씩 내구 수치가 회복된다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6110] = {
 		desc_get = "",
 		name = "응급수리 T2",
-		desc = "15초마다 최대 내구 수치의 0.6%씩 내구 수치가 회복된다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "15초마다 최대 내구 수치의 0.6%씩 내구 수치가 회복된다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6120] = {
 		desc_get = "",
 		name = "응급수리 T3",
-		desc = "15초마다 최대 내구 수치의 1.0%씩 내구 수치가 회복된다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "15초마다 최대 내구 수치의 1.0%씩 내구 수치가 회복된다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6130] = {
 		desc_get = "",
 		name = "진주의 눈물",
-		desc = "전투 불능 상태가 될 때, 다른 함선의 내구 수치가 최대치의 10%만큼 회복된다.",
 		type = 0,
 		max_level = 0,
+		desc = "전투 불능 상태가 될 때, 다른 함선의 내구 수치가 최대치의 10%만큼 회복된다.",
 		id = 6130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6140] = {
 		desc_get = "",
 		name = "화재대책 T1",
-		desc = "연소 피해가 10%, 연소 발생률이 10% 낮아진다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "연소 피해가 10%, 연소 발생률이 10% 낮아진다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6150] = {
 		desc_get = "",
 		name = "화재대책 T2",
-		desc = "연소 피해가 15%, 연소 발생률이 20% 낮아지며, 연소 지속시간이 3초 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "연소 피해가 15%, 연소 발생률이 20% 낮아지며, 연소 지속시간이 3초 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6160] = {
 		desc_get = "",
 		name = "화재대책 T3",
-		desc = "연소 피해가 20%, 연소 발생률이 30% 낮아지며, 연소 지속시간이 6초 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		type = 0,
 		max_level = 0,
+		desc = "연소 피해가 20%, 연소 발생률이 30% 낮아지며, 연소 지속시간이 6초 감소한다. 동일 종류의 효과는 최대치만 적용된다.",
 		id = 6160,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6170] = {
 		desc_get = "",
 		name = "냥냥수리",
-		desc = "(아카시가 장비할 경우) 내구 수치 회복 효과의 회복량이 20% 상승한다.",
 		type = 0,
 		max_level = 0,
+		desc = "(아카시가 장비할 경우) 내구 수치 회복 효과의 회복량이 20% 상승한다.",
 		id = 6170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6190] = {
 		desc_get = "",
 		name = "91식 철갑탄",
-		desc = "주포의 크리티컬 대미지가 15% 상승한다.",
 		type = 0,
 		max_level = 0,
+		desc = "주포의 크리티컬 대미지가 15% 상승한다.",
 		id = 6190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6200] = {
 		desc_get = "",
 		name = "1식 철갑탄",
-		desc = "주포의 크리티컬 대미지가 25% 상승한다.",
 		type = 0,
 		max_level = 0,
+		desc = "주포의 크리티컬 대미지가 25% 상승한다.",
 		id = 6200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6210] = {
 		desc_get = "",
 		name = "초중량탄 (SHS) ",
-		desc = "주포의 크리티컬 확률이 8% 상승한다. ",
 		type = 0,
 		max_level = 0,
+		desc = "주포의 크리티컬 확률이 8% 상승한다. ",
 		id = 6210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6220] = {
 		desc_get = "",
 		name = "소드 피쉬 (818중대)",
-		desc = "자신의 공중지원에 명중한 모든 적의 스피드를 8초 동안 60% 감소시킨다.",
 		type = 0,
 		max_level = 0,
+		desc = "자신의 공중지원에 명중한 모든 적의 스피드를 8초 동안 60% 감소시킨다.",
 		id = 6220,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6230] = {
 		desc_get = "",
 		name = "수호의 깃발",
-		desc = "자신의 크리티컬 확률을 5% 증가시킨다. 특정 캐릭터가 장비할 시 추가 효과를 얻는다.",
 		type = 0,
 		max_level = 0,
+		desc = "자신의 크리티컬 확률을 5% 증가시킨다. 특정 캐릭터가 장비할 시 추가 효과를 얻는다.",
 		id = 6230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6240] = {
 		desc_get = "",
 		name = "정밀 폭격",
-		desc = "항공 공격 시, 자신의 함재기가 적 경항공모함 및 항공모함에 주는 대미지가 5% 상승",
 		type = 0,
 		max_level = 0,
+		desc = "항공 공격 시, 자신의 함재기가 적 경항공모함 및 항공모함에 주는 대미지가 5% 상승",
 		id = 6240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6250] = {
 		desc_get = "",
 		name = "졸리 로저스",
-		desc = "공중 지원 시 전 함대원의 대공 수치가 8초 간 5.0% 상승한다.",
 		type = 0,
 		max_level = 0,
+		desc = "공중 지원 시 전 함대원의 대공 수치가 8초 간 5.0% 상승한다.",
 		id = 6250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6260] = {
 		desc_get = "",
 		name = "정확 조준",
-		desc = "첫 번째 주포 준비 시간이 15% 감소한다.",
 		type = 0,
 		max_level = 0,
+		desc = "첫 번째 주포 준비 시간이 15% 감소한다.",
 		id = 6260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6270] = {
 		desc_get = "",
 		name = "기동 회피",
-		desc = "20초 마다 30% 확률로 발동되며, 2초 간 모든 공격을 회피한다. (자폭선이나 연소 상태시의 대미지는 미포함)",
 		type = 0,
 		max_level = 0,
+		desc = "20초 마다 30% 확률로 발동되며, 2초 간 모든 공격을 회피한다. (자폭선이나 연소 상태시의 대미지는 미포함)",
 		id = 6270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6280] = {
 		desc_get = "",
 		name = "대공 탐색",
-		desc = "우수한 대공 탐색 능력을 통해 매복 조우 확률이 12% 감소한다. (같은 종류의 효과가 존재할 시 가장 높은 효과만 적용된다)",
 		type = 0,
 		max_level = 0,
+		desc = "우수한 대공 탐색 능력을 통해 매복 조우 확률이 12% 감소한다. (같은 종류의 효과가 존재할 시 가장 높은 효과만 적용된다)",
 		id = 6280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6290] = {
 		desc_get = "",
 		name = "보조 전원Ⅰ",
-		desc = "자신의 지원 범위 Lv + 1\n(+10까지 강화하면 효과가 '지원 범위 Lv + 2' 로 상승한다)",
 		type = 0,
 		max_level = 0,
+		desc = "자신의 지원 범위 Lv + 1\n(+10까지 강화하면 효과가 '지원 범위 Lv + 2' 로 상승한다)",
 		id = 6290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6291] = {
 		desc_get = "",
 		name = "보조 전원Ⅱ",
-		desc = "자신의 지원 범위 Lv + 2",
 		type = 0,
 		max_level = 0,
+		desc = "자신의 지원 범위 Lv + 2",
 		id = 6291,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6300] = {
 		desc_get = "",
 		name = "고효율 연료 ",
-		desc = "함재기의 순항 속도를 상승시키며, 내구도를 140 증가시킨다. 동일 효과 중 최대치, 중첩 불가. ",
 		type = 0,
 		max_level = 0,
+		desc = "함재기의 순항 속도를 상승시키며, 내구도를 140 증가시킨다. 동일 효과 중 최대치, 중첩 불가. ",
 		id = 6300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6310] = {
 		desc_get = "",
 		name = "귀항 가이드 ",
-		desc = "공중 지원 딜레이 시간 4% 단축 ",
 		type = 0,
 		max_level = 0,
+		desc = "공중 지원 딜레이 시간 4% 단축 ",
 		id = 6310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6320] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6321] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6321,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6322] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6322,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6323] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6323,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6324] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6324,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6325] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6325,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6326] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6326,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6327] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6327,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6328] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6328,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6329] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6329,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6330] = {
 		desc_get = "",
 		name = "폐막과개막",
-		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자체 2차 공습부터 이 함재기는 TBD 데버스테이터(VT-8중대)에서 TBF 어벤져(VT-8중대)로 교체된다.",
 		id = 6330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6331] = {
+		desc_get = "",
+		name = "落幕与揭幕",
+		type = 0,
+		max_level = 0,
+		desc = "自身第二轮空袭开始，该舰载机由TBD蹂躏者(VT-8中队)更换为TBF复仇者(VT-8中队)",
+		id = 6331,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6332] = {
+		desc_get = "",
+		name = "落幕与揭幕",
+		type = 0,
+		max_level = 0,
+		desc = "自身第二轮空袭开始，该舰载机由TBD蹂躏者(VT-8中队)更换为TBF复仇者(VT-8中队)",
+		id = 6332,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6333] = {
+		desc_get = "",
+		name = "落幕与揭幕",
+		type = 0,
+		max_level = 0,
+		desc = "自身第二轮空袭开始，该舰载机由TBD蹂躏者(VT-8中队)更换为TBF复仇者(VT-8中队)",
+		id = 6333,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6360] = {
 		desc_get = "",
 		name = "연시 사격",
-		desc = "자신의 장비의 주포 살포 범위가 2만큼 감소된다.",
 		type = 0,
 		max_level = 0,
+		desc = "자신의 장비의 주포 살포 범위가 2만큼 감소된다.",
 		id = 6360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6370] = {
 		desc_get = "",
 		name = "잠수항모 특공",
-		desc = "잠수항모 장비 시, 공습 피해 60% 추가 상승",
 		type = 0,
 		max_level = 0,
+		desc = "잠수항모 장비 시, 공습 피해 60% 추가 상승",
 		id = 6370,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6380] = {
 		desc_get = "",
 		name = "랜덤 워드 생성기",
-		desc = "임의의 키즈나 아이가 랜덤 워드 생성기를 장착하면, 전투 시작 시 주 무기의 장비 외관이 변경된다.",
 		type = 0,
 		max_level = 0,
+		desc = "임의의 키즈나 아이가 랜덤 워드 생성기를 장착하면, 전투 시작 시 주 무기의 장비 외관이 변경된다.",
 		id = 6380,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6390] = {
 		desc_get = "",
 		name = "표코표코",
-		desc = "장비 장착후, 키즈나 아이 진영의 캐릭터로 보여진다. (원래 진영도 같은 효과를 받음)",
 		type = 0,
 		max_level = 0,
+		desc = "장비 장착후, 키즈나 아이 진영의 캐릭터로 보여진다. (원래 진영도 같은 효과를 받음)",
 		id = 6390,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6400] = {
 		desc_get = "",
 		name = "인텔리젼트 칩",
-		desc = "임의의 키즈나 아이가 인텔리젼트 칩 장착 시, 전투중 자율모드 궤적이 변경된다. 연습 전투 중에는 발생하지 않는다. (키즈나 아이 컬래버레이션 이벤트가 종료된 후 장비 효과는 사라진다.)",
 		type = 0,
 		max_level = 0,
+		desc = "임의의 키즈나 아이가 인텔리젼트 칩 장착 시, 전투중 자율모드 궤적이 변경된다. 연습 전투 중에는 발생하지 않는다. (키즈나 아이 컬래버레이션 이벤트가 종료된 후 장비 효과는 사라진다.)",
 		id = 6400,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6410] = {
 		desc_get = "",
 		name = "듣지 못한 대답 ",
-		desc = "U556이 해당 장비를 장착하면 자신의 수면 위에 전투 지속시간이 4초 상승하고, 자신의 사냥 범위 레벨이 1 상승한다. 비스마르크가 해당 장비를 장착하면 주력 함대가 받는 탄약 부족 상태로 인한 영향이 감소한다. ",
 		type = 0,
 		max_level = 1,
+		desc = "U556이 해당 장비를 장착하면 자신의 수면 위에 전투 지속시간이 4초 상승하고, 자신의 사냥 범위 레벨이 1 상승한다. 비스마르크가 해당 장비를 장착하면 주력 함대가 받는 탄약 부족 상태로 인한 영향이 감소한다. ",
 		id = 6410,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6411] = {
 		desc_get = "",
 		name = "듣지 못한 대답 ",
-		desc = "U556이 해당 장비를 장착하면 자신의 수면 위에 전투 지속시간이 4초 상승하고, 자신의 사냥 범위 레벨이 1 상승한다. 비스마르크가 해당 장비를 장착하면 주력 함대가 받는 탄약 부족 상태로 인한 영향이 감소한다. ",
 		type = 0,
 		max_level = 1,
+		desc = "U556이 해당 장비를 장착하면 자신의 수면 위에 전투 지속시간이 4초 상승하고, 자신의 사냥 범위 레벨이 1 상승한다. 비스마르크가 해당 장비를 장착하면 주력 함대가 받는 탄약 부족 상태로 인한 영향이 감소한다. ",
 		id = 6411,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6415] = {
 		desc_get = "",
 		name = "듣지 못한 대답 ",
-		desc = "U556이 해당 장비를 장착하면 자신의 수면 위에 전투 지속시간이 4초 상승하고, 자신의 사냥 범위 레벨이 1 상승한다. 비스마르크가 해당 장비를 장착하면 주력 함대가 받는 탄약 부족 상태로 인한 영향이 감소한다. ",
 		type = 0,
 		max_level = 1,
+		desc = "U556이 해당 장비를 장착하면 자신의 수면 위에 전투 지속시간이 4초 상승하고, 자신의 사냥 범위 레벨이 1 상승한다. 비스마르크가 해당 장비를 장착하면 주력 함대가 받는 탄약 부족 상태로 인한 영향이 감소한다. ",
 		id = 6415,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6420] = {
 		desc_get = "",
-		name = "철갑 폭탄 ",
-		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가) ",
+		name = "철갑 폭탄",
 		type = 0,
 		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가) ",
 		id = 6420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6430] = {
 		desc_get = "",
 		name = "타치 위브 ",
-		desc = "착용 시 편대의 모든 전투기 무기 효율을 4% 향상시킨다. 동종 효과 최대치.(중첩 불가) ",
 		type = 0,
 		max_level = 0,
+		desc = "착용 시 편대의 모든 전투기 무기 효율을 4% 향상시킨다. 동종 효과 최대치.(중첩 불가) ",
 		id = 6430,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6440] = {
 		desc_get = "",
 		name = "세이렌 방어 전술I ",
-		desc = "장비 시, 세이렌 진영의 적으로 부터 받는 피해량이 6% 감소한다. (동일 효과 중 최대치. 중복 불가능.) ",
 		type = 0,
 		max_level = 0,
+		desc = "장비 시, 세이렌 진영의 적으로 부터 받는 피해량이 6% 감소한다. (동일 효과 중 최대치. 중복 불가능.) ",
 		id = 6440,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6450] = {
 		desc_get = "",
 		name = "오버 히트",
-		desc = "장비 시 자신의 주포 공격력이 10% 증가, 2회 포격 이후 주포의 장전 시간이 30% 증가, 다음 주포 발사 후 장전 시간은 원래대로 돌아오며, 주포 사격 계수가 초기화",
 		type = 0,
 		max_level = 0,
+		desc = "장비 시 자신의 주포 공격력이 10% 증가, 2회 포격 이후 주포의 장전 시간이 30% 증가, 다음 주포 발사 후 장전 시간은 원래대로 돌아오며, 주포 사격 계수가 초기화",
 		id = 6450,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6460] = {
 		desc_get = "",
 		name = "VH 장갑 강판",
-		desc = "중장갑 캐릭터 장비 시, 전투 중에 받는 철갑탄의 데미지를 6%, 고폭탄과 통상탄의 데미지를 3% 감소시킨다. 그 외 캐릭터 장비 시, 전투 시작 후 자신의 장갑을 중장갑으로 변경 ",
 		type = 0,
 		max_level = 0,
+		desc = "중장갑 캐릭터 장비 시, 전투 중에 받는 철갑탄의 데미지를 6%, 고폭탄과 통상탄의 데미지를 3% 감소시킨다. 그 외 캐릭터 장비 시, 전투 시작 후 자신의 장갑을 중장갑으로 변경 ",
 		id = 6460,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6470] = {
 		desc_get = "",
 		name = "VC 장갑 강판",
-		desc = "중장갑 캐릭터 장비 시, 전투 중에 받는 철갑탄의 데미지를 4%, 고폭탄과 통상탄의 데미지를 2% 감소시킨다. ",
 		type = 0,
 		max_level = 0,
+		desc = "중장갑 캐릭터 장비 시, 전투 중에 받는 철갑탄의 데미지를 4%, 고폭탄과 통상탄의 데미지를 2% 감소시킨다. ",
 		id = 6470,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6480] = {
 		desc_get = "",
 		name = "사신의 힘 ",
-		desc = "안샨급 구축함이 장비하면 전투 중 주포 화력이 16% 상승하며 자신의 전탄발사가 강화된다. ",
 		type = 0,
 		max_level = 0,
+		desc = "안샨급 구축함이 장비하면 전투 중 주포 화력이 16% 상승하며 자신의 전탄발사가 강화된다. ",
 		id = 6480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6490] = {
 		desc_get = "",
 		name = "팀 엠블렘",
-		desc = "hololive 콜라보 캐릭터가 착용 시, 전투 상대에게 입히는 데미지 +3%",
 		type = 0,
 		max_level = 0,
+		desc = "hololive 콜라보 캐릭터가 착용 시, 전투 상대에게 입히는 데미지 +3%",
 		id = 6490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6500] = {
 		desc_get = "",
 		name = "게이머의 증명",
-		desc = "착용 후 hololive 진영으로 취급된다. (기존 진영에서도 효력 발생)",
 		type = 0,
 		max_level = 0,
+		desc = "착용 후 hololive 진영으로 취급된다. (기존 진영에서도 효력 발생)",
 		id = 6500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6510] = {
 		desc_get = "",
 		name = "옥수수 등",
-		desc = "hololive 콜라보 캐릭터가 착용 시, 전투 중 입는 데미지 -4%",
 		type = 0,
 		max_level = 0,
+		desc = "hololive 콜라보 캐릭터가 착용 시, 전투 중 입는 데미지 -4%",
 		id = 6510,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6520] = {
 		desc_get = "",
 		name = "안키모",
-		desc = "착용하고 있으면 전투 BGM이 바뀔지도?",
 		type = 0,
 		max_level = 0,
+		desc = "착용하고 있으면 전투 BGM이 바뀔지도?",
 		id = 6520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6530] = {
 		desc_get = "",
 		name = "공중 정찰 ",
-		desc = "PBY-5A 카탈리나 수상기로 정찰을 지원한다. 매복을 당할 확률이 10% 감소, 매복 회피 확률 10% 증가(중첩 불가) ",
 		type = 0,
 		max_level = 0,
+		desc = "PBY-5A 카탈리나 수상기로 정찰을 지원한다. 매복을 당할 확률이 10% 감소, 매복 회피 확률 10% 증가(중첩 불가) ",
 		id = 6530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6540] = {
 		desc_get = "",
 		name = "전함 헌터 ",
-		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
 		type = 0,
 		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
 		id = 6540,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6550] = {
 		desc_get = "",
 		name = "！？",
-		desc = "",
 		type = 0,
 		max_level = 1,
+		desc = "",
 		id = 6550,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6570] = {
 		desc_get = "",
 		name = "자성 어뢰 ",
-		desc = "장착 후, 전투 중 자신의 첫 번째 어뢰 무기 발사 시 탄약이 자성 어뢰로 변경되며, 대미지가 5% 증가한다. ",
 		type = 0,
 		max_level = 0,
+		desc = "장착 후, 전투 중 자신의 첫 번째 어뢰 무기 발사 시 탄약이 자성 어뢰로 변경되며, 대미지가 5% 증가한다. ",
 		id = 6570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6580] = {
 		desc_get = "",
 		name = "\"주포\"... 발사!",
-		desc = "",
 		type = 0,
 		max_level = 1,
+		desc = "",
 		id = 6580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6590] = {
 		desc_get = "",
 		name = "\"94식 40cm 포\" ",
-		desc = "{namecode:188}가 장비 시, 편대의 후열 함대와 초갑순양함 캐릭터의 화력이 10% 상승한다.",
 		type = 0,
 		max_level = 0,
+		desc = "카시노가 장비 시 편대 중의 주력함대 및 초갑순양함 캐릭터의 포격이 10% 상승한다.",
 		id = 6590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6620] = {
 		desc_get = "",
 		name = "기본 소나 T3",
-		desc = "장비 후, 전투 중 추가 탐지 효과: 적 잠수함 노출 시, 명중을 3% 감소시킨다(같은 탐지 효과 중첩 불가).",
 		type = 0,
 		max_level = 0,
+		desc = "장비 후, 전투 중 추가 탐지 효과: 적 잠수함 노출 시, 명중을 3% 감소시킨다(같은 탐지 효과 중첩 불가).",
 		id = 6620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6650] = {
 		desc_get = "",
 		name = "개량 소나 T3",
-		desc = "장비 후, 전투 중 추가 탐지 효과: 적 잠수함 노출 시, 뇌장을 5% 감소시킨다(같은 탐지 효과 중첩 불가).",
 		type = 0,
 		max_level = 0,
+		desc = "장비 후, 전투 중 추가 탐지 효과: 적 잠수함 노출 시, 뇌장을 5% 감소시킨다(같은 탐지 효과 중첩 불가).",
 		id = 6650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6660] = {
 		desc_get = "",
 		name = "항공 군장 보급",
-		desc = "운송함이 장비 시, 편대의 모든 함선의 항공이 8% 상승한다.",
 		type = 0,
 		max_level = 0,
+		desc = "운송함이 장비 시, 편대의 모든 함선의 항공이 8% 상승한다.",
 		id = 6660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6670] = {
 		desc_get = "",
 		name = "중소구경 군장 보급",
-		desc = "운송함이 장비 시, 전열 함대 함선의 화력이 8% 상승한다(초갑순양함 제외).",
 		type = 0,
 		max_level = 0,
+		desc = "운송함이 장비 시, 전열 함대 함선의 화력이 8% 상승한다(초갑순양함 제외).",
 		id = 6670,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6680] = {
 		desc_get = "",
 		name = "어뢰 군장 보급 ",
-		desc = "운송함이 장비 시, 편대의 모든 함선의 뇌장이 8% 상승한다. ",
 		type = 0,
 		max_level = 0,
+		desc = "운송함이 장비 시, 편대의 모든 함선의 뇌장이 8% 상승한다. ",
 		id = 6680,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6690] = {
 		desc_get = "",
 		name = "댄싱 슈즈",
-		desc = "착용 후, 전투 중 해당 캐릭터는 μ장비 함선으로 간주된다.",
 		type = 0,
 		max_level = 0,
+		desc = "착용 후, 전투 중 해당 캐릭터는 μ장비 함선으로 간주된다.",
 		id = 6690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6700] = {
 		desc_get = "",
 		name = "댄스 스커트",
-		desc = "착용 후, 전투 중 해당 캐릭터는 μ장비 함선으로 간주된다.",
 		type = 0,
 		max_level = 0,
+		desc = "착용 후, 전투 중 해당 캐릭터는 μ장비 함선으로 간주된다.",
 		id = 6700,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6710] = {
 		desc_get = "",
 		name = "치열의 노래",
-		desc = "착용 후, 전투 BGM이 「함상 LOYALTY」로 변경된다. (동시에 여러 BGM 변경 장비를 착용 시, 랜덤으로 재생)",
 		type = 0,
 		max_level = 0,
+		desc = "착용 후, 전투 BGM이 「함상 LOYALTY」로 변경된다. (동시에 여러 BGM 변경 장비를 착용 시, 랜덤으로 재생)",
 		id = 6710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6711] = {
 		desc_get = "",
 		name = "활력의 노래",
-		desc = "착용 후, 전투 BGM이 「소원의 노래」로 변경된다. (동시에 여러 BGM 변경 장비를 착용 시, 랜덤으로 재생)",
 		type = 0,
 		max_level = 0,
+		desc = "착용 후, 전투 BGM이 「소원의 노래」로 변경된다. (동시에 여러 BGM 변경 장비를 착용 시, 랜덤으로 재생)",
 		id = 6711,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6712] = {
 		desc_get = "",
 		name = "빛나는 노래",
-		desc = "착용 후, 전투 BGM이 「Blue spirit」으로 변경된다. (동시에 여러 BGM 변경 장비를 착용 시, 랜덤으로 재생)",
 		type = 0,
 		max_level = 0,
+		desc = "착용 후, 전투 BGM이 「Blue spirit」으로 변경된다. (동시에 여러 BGM 변경 장비를 착용 시, 랜덤으로 재생)",
 		id = 6712,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6720] = {
 		desc_get = "",
 		name = "각성 구슬",
-		desc = "DOA 콜라보 캐릭터가 장비 시, 전투 중 대미지가 3% 상승한다.",
 		type = 0,
 		max_level = 0,
+		desc = "DOA 콜라보 캐릭터가 장비 시, 전투 중 대미지가 3% 상승한다.",
 		id = 6720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6730] = {
 		desc_get = "",
 		name = "마음의 열쇠",
-		desc = "장비 후, 전투 BGM 변경 가능(BGM 변경 장비를 동시에 여러개 장비 시, 그중 한 가지 임의 재생)",
 		type = 0,
 		max_level = 0,
+		desc = "장비 후, 전투 BGM 변경 가능(BGM 변경 장비를 동시에 여러개 장비 시, 그중 한 가지 임의 재생)",
 		id = 6730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6740] = {
 		desc_get = "",
 		name = "개척자 휘장",
-		desc = "[연습전 특수 효과] 기함 캐릭터가 장비 시, 양측 항공모함, 경항공모함의 대미지 10% 상승, 양측 전함, 순양전함 대미지 10% 감소(연습전 특수 효과 장비는 동시에 1가지만 장비 가능)",
 		type = 0,
 		max_level = 0,
+		desc = "[연습전 특수 효과] 기함 캐릭터가 장비 시, 양측 항공모함, 경항공모함의 대미지 10% 상승, 양측 전함, 순양전함 대미지 10% 감소(연습전 특수 효과 장비는 동시에 1가지만 장비 가능)",
 		id = 6740,
 		system_transform = {
 			[3.0] = 6741
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -7295,23 +7917,29 @@ pg.skill_data_template = {
 	[6750] = {
 		desc_get = "",
 		name = "엘리트 응급 수리(유니온)",
-		desc = "이글 유니온 진영 캐릭터가 장비 시, 치명상을 입을 경우 사망하지 않으며, 8초 동안 모든 피해를 회피하고, 8초 후 사망한다.",
 		type = 0,
 		max_level = 0,
+		desc = "이글 유니온 진영 캐릭터가 장비 시, 치명상을 입을 경우 사망하지 않으며, 8초 동안 모든 피해를 회피하고, 8초 후 사망한다.",
 		id = 6750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[6760] = {
 		desc_get = "",
 		name = "워싱턴 해군 조약",
-		desc = "[연습전 특수 효과] 기함 캐릭터가 장비 시, 양측의 대미지 15% 감소(연습전 특수 효과 장비는 동시에 1가지만 장비 가능)",
 		type = 0,
 		max_level = 0,
+		desc = "[연습전 특수 효과] 기함 캐릭터가 장비 시, 양측의 대미지 15% 감소(연습전 특수 효과 장비는 동시에 1가지만 장비 가능)",
 		id = 6760,
 		system_transform = {
 			[3.0] = 6761
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -7319,77 +7947,686 @@ pg.skill_data_template = {
 	[6770] = {
 		desc_get = "",
 		name = "넬슨의 수기 신호",
-		desc = "전투 개시 시 발동되며, 6초 동안, 전열 함대가 받는 대미지의 24%를 막아준다.",
 		type = 0,
 		max_level = 0,
+		desc = "전투 개시 시 발동되며, 6초 동안, 전열 함대가 받는 대미지의 24%를 막아준다.",
 		id = 6770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6790] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6790,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6791] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6791,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6792] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6792,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6793] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6793,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6794] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6794,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6795] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6795,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6796] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6796,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6797] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6797,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6798] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6798,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6799] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6799,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6800] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6800,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6801] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6801,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6802] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6802,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6803] = {
+		desc_get = "",
+		name = "전함 헌터",
+		type = 0,
+		max_level = 0,
+		desc = "장비 시 자신이 적 전함, 순양전함에게 주는 대미지가 3.0% 증가. 함재기 편대가 적 전함, 순양전함, 항공전함 공격 시 60%의 확률로 9초간 진수 효과를 부여(진후 대미지는 항공 스탯에 영향을 받음) ",
+		id = 6803,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6810] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6811] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6811,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6812] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6812,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6813] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6813,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6814] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6814,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6815] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6815,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6816] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6816,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6817] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6817,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6818] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6818,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6819] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6819,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6820] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6820,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6821] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6821,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6822] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6822,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6823] = {
+		desc_get = "",
+		name = "소드 피쉬 (818중대)",
+		type = 0,
+		max_level = 0,
+		desc = "공중 지원 시 공격 받은 모든 적에게 속도 60% 감소, 8초 지속",
+		id = 6823,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6830] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6830,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6831] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6831,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6832] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6832,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6833] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6833,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6834] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6834,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6835] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6835,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6836] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6836,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6837] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6837,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6838] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6838,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6839] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6839,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6840] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6840,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6841] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6841,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6842] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6842,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6843] = {
+		desc_get = "",
+		name = "철갑 폭탄",
+		type = 0,
+		max_level = 0,
+		desc = "이 함재기가 투하하는 폭탄에 명중당할 시 24%의 확률로 파갑 효과 획득, 동종 효과 최대치.(중첩 불가)",
+		id = 6843,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[7000] = {
 		desc_get = "",
 		name = "라인 연습",
-		desc = "0",
 		type = 0,
 		max_level = 0,
+		desc = "0",
 		id = 7000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9030] = {
 		desc_get = "",
 		name = "부린은 스킬을 사용했다!",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 9030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9031] = {
 		desc_get = "",
 		name = "그러나 아무 일도 일어나지 않았다!",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 9031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9033] = {
 		desc_get = "",
 		name = "부린은 스킬을 사용했다!",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 9033,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9034] = {
 		desc_get = "",
 		name = "그러나 아무 일도 일어나지 않았다!",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 9034,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[9050] = {
 		desc_get = "",
 		name = "LuckyE",
-		desc = "空中支援时，有$1概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
 		type = 1,
 		max_level = 9,
+		desc = "空中支援时，有$1概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
 		id = 9050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -7443,11 +8680,14 @@ pg.skill_data_template = {
 	[9061] = {
 		desc_get = "",
 		name = "화력전개",
-		desc = "20초마다 $1 확률로 발동. 10초 동안 자신의 포격 수치가 $2 상승한다.",
 		type = 1,
 		max_level = 8,
+		desc = "20초마다 $1 확률로 발동. 10초 동안 자신의 포격 수치가 $2 상승한다.",
 		id = 9061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -7546,11 +8786,14 @@ pg.skill_data_template = {
 	[9071] = {
 		desc_get = "",
 		name = "대공 배치",
-		desc = "대공 사격 시 25% 확률로 발동. 3초 동안 자신의 대공 수치가 $1 상승하고, 포격 수치가 $2 감소한다.",
 		type = 2,
 		max_level = 8,
+		desc = "대공 사격 시 25% 확률로 발동. 3초 동안 자신의 대공 수치가 $1 상승하고, 포격 수치가 $2 감소한다.",
 		id = 9071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -7649,11 +8892,14 @@ pg.skill_data_template = {
 	[9081] = {
 		desc_get = "",
 		name = "기함엄호",
-		desc = "전투 중, 기함이 받는 대미지가 $1 감소한다.",
 		type = 3,
 		max_level = 8,
+		desc = "전투 중, 기함이 받는 대미지가 $1 감소한다.",
 		id = 9081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -7707,11 +8953,14 @@ pg.skill_data_template = {
 	[9090] = {
 		desc_get = "",
 		name = "솔로몬의 전설 ",
-		desc = "20초마다 $1 확률로 발동되며, 8초 간 아군 순양함의 포격 및 명중 수치가 $2 상승하고, 피격 시 받는 대미지를 $3 감소된다. ",
 		type = 3,
 		max_level = 8,
+		desc = "20초마다 $1 확률로 발동되며, 8초 간 아군 순양함의 포격 및 명중 수치가 $2 상승하고, 피격 시 받는 대미지를 $3 감소된다. ",
 		id = 9090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -7855,11 +9104,14 @@ pg.skill_data_template = {
 	[9101] = {
 		desc_get = "",
 		name = "강습 지령",
-		desc = "20초마다 25% 확률로 발동. 8초 동안 전 함선의 대미지가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 9,
+		desc = "20초마다 25% 확률로 발동. 8초 동안 전 함선의 대미지가 $1 상승한다. 동일한 스킬 효과는 중첩되지 않는다.",
 		id = 9101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -7913,11 +9165,14 @@ pg.skill_data_template = {
 	[9110] = {
 		desc_get = "",
 		name = "대공 배치",
-		desc = "대공 사격 시 25% 확률로 발동. 3초 동안 자신의 대공 수치가 $1 상승하고, 포격 수치가 $2 감소한다.",
 		type = 2,
 		max_level = 9,
+		desc = "대공 사격 시 25% 확률로 발동. 3초 동안 자신의 대공 수치가 $1 상승하고, 포격 수치가 $2 감소한다.",
 		id = 9110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -8016,11 +9271,14 @@ pg.skill_data_template = {
 	[10010] = {
 		desc_get = "",
 		name = "Recommissioned",
-		desc = "자신의 내구 수치가 최대치의 20% 이하로 내려간 경우, 내구 수치가 $1 회복된다. 1회의 전투에서 한 번만 발동된다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 내구 수치가 최대치의 20% 이하로 내려간 경우, 내구 수치가 $1 회복된다. 1회의 전투에서 한 번만 발동된다.",
 		id = 10010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -8074,11 +9332,14 @@ pg.skill_data_template = {
 	[10020] = {
 		desc_get = "",
 		name = "해상최속",
-		desc = "10초마다 $1 확률로 발동. 8초 동안 자신의 기동 수치가 $2 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "10초마다 $1 확률로 발동. 8초 동안 자신의 기동 수치가 $2 상승한다.",
 		id = 10020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -8177,11 +9438,14 @@ pg.skill_data_template = {
 	[10030] = {
 		desc_get = "",
 		name = "언니의 기품",
-		desc = "전투 중, 플레처급 구축함의 포격, 기동 수치를 $1 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 플레처급 구축함의 포격, 기동 수치를 $1 상승시킨다.",
 		id = 10030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -8235,11 +9499,14 @@ pg.skill_data_template = {
 	[10040] = {
 		desc_get = "",
 		name = "31노트·바크",
-		desc = "공격 시 4% 확률로 발동되며, 8초 동안 모든 함선의 이동속도가 상승하고, 전열 함선의 기동 수치가 $1 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "공격 시 4% 확률로 발동되며, 8초 동안 모든 함선의 이동속도가 상승하고, 전열 함선의 기동 수치가 $1 상승한다. ",
 		id = 10040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -8293,11 +9560,14 @@ pg.skill_data_template = {
 	[10050] = {
 		desc_get = "피격 시 15% 확률로 발동. 5.0초(Max Lv : 10.0초) 동안 선봉함대가 받는 모든 공격을 회피하게 된다.",
 		name = "레인보우 프로젝트",
-		desc = "피격 시 15% 확률로 발동. $1초 동안 선봉함대가 받는 모든 공격을 회피하게 된다.",
 		type = 2,
 		max_level = 10,
+		desc = "피격 시 15% 확률로 발동. $1초 동안 선봉함대가 받는 모든 공격을 회피하게 된다.",
 		id = 10050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -8346,11 +9616,14 @@ pg.skill_data_template = {
 	[10060] = {
 		desc_get = "",
 		name = "진홍의 불사조",
-		desc = "자신의 내구 수치가 최대치의 20% 이하로 내려간 경우, 내구 수치가 $1 회복되고 15초 동안 포격 수치가 30% 상승한다. 1회의 전투에서 한 번만 발동된다",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 내구 수치가 최대치의 20% 이하로 내려간 경우, 내구 수치가 $1 회복되고 15초 동안 포격 수치가 30% 상승한다. 1회의 전투에서 한 번만 발동된다",
 		id = 10060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -8404,11 +9677,14 @@ pg.skill_data_template = {
 	[10070] = {
 		desc_get = "",
 		name = "레이더 탐지",
-		desc = "20초마다 $1 확률로 발동. 10초 동안 적의 받는 대미지를 $2 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동. 10초 동안 적의 받는 대미지를 $2 상승시킨다.",
 		id = 10070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -8507,11 +9783,14 @@ pg.skill_data_template = {
 	[10080] = {
 		desc_get = "",
 		name = "전쟁의 비극",
-		desc = "전투 불능 상태가 될 때, 다른 함선의 내구 수치를 $1만큼 회복시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 불능 상태가 될 때, 다른 함선의 내구 수치를 $1만큼 회복시킨다.",
 		id = 10080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -8565,11 +9844,14 @@ pg.skill_data_template = {
 	[10090] = {
 		desc_get = "",
 		name = "나는야 No.1!",
-		desc = "대공포가 발사될 때 15% 확률로 함대 전원의 대공 수치가 8초 간 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "대공포가 발사될 때 15% 확률로 함대 전원의 대공 수치가 8초 간 $1 상승한다.",
 		id = 10090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -8623,11 +9905,14 @@ pg.skill_data_template = {
 	[10100] = {
 		desc_get = "",
 		name = "질주하는 환영",
-		desc = "주포 공격 시 20% 확률로 발동. 15초 동안 자신의 기동 수치가 $1 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "주포 공격 시 20% 확률로 발동. 15초 동안 자신의 기동 수치가 $1 상승한다.",
 		id = 10100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"60%",
@@ -8681,11 +9966,14 @@ pg.skill_data_template = {
 	[10110] = {
 		desc_get = "",
 		name = "여동생 최고!",
-		desc = "인디애나폴리스와 함께 출격할 경우, 자신의 포격, 대공, 장전 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "인디애나폴리스와 함께 출격할 경우, 자신의 포격, 대공, 장전 수치가 $1 상승한다.",
 		id = 10110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -8739,11 +10027,14 @@ pg.skill_data_template = {
 	[10120] = {
 		desc_get = "30초마다 발동. 5초(Max Lv : 15초) 동안, 8회까지 적의 탄환을 막아주는 회전 실드가 2장 생성된다. 실드가 파괴될 때, 주변의 적에게 대미지를 입힌다.",
 		name = "판도라의 상자",
-		desc = "30초마다 발동. $1초 동안, 8회까지 적의 탄환을 막아주는 회전 실드가 2장 생성된다. 실드가 파괴될 때, 주변의 적에게 대미지를 입힌다.",
 		type = 2,
 		max_level = 10,
+		desc = "30초마다 발동. $1초 동안, 8회까지 적의 탄환을 막아주는 회전 실드가 2장 생성된다. 실드가 파괴될 때, 주변의 적에게 대미지를 입힌다.",
 		id = 10120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -8792,12 +10083,15 @@ pg.skill_data_template = {
 	[10130] = {
 		desc_get = "",
 		name = "펜 언니!",
-		desc = "20초마다 $1 확률로 특수탄막을 전개한다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 특수탄막을 전개한다. (위력은 스킬 레벨에 비례)",
 		id = 10130,
 		system_transform = {
 			[3.0] = 10131
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -8852,11 +10146,14 @@ pg.skill_data_template = {
 	[10140] = {
 		desc_get = "",
 		name = "이글 유니온의 검은 눈물",
-		desc = "주포 발사 시 50% 확률로 선봉함대의 내구 수치를 $1 회복시킨다. ――「이번에야말로, 지켜내 보이겠습니다...!」",
 		type = 3,
 		max_level = 10,
+		desc = "주포 발사 시 50% 확률로 선봉함대의 내구 수치를 $1 회복시킨다. ――「이번에야말로, 지켜내 보이겠습니다...!」",
 		id = 10140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4%",
@@ -8910,11 +10207,14 @@ pg.skill_data_template = {
 	[10150] = {
 		desc_get = "",
 		name = "베테랑의 위엄",
-		desc = "30초마다 발동. 8초 동안 적의 대미지를 $1 감소시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "30초마다 발동. 8초 동안 적의 대미지를 $1 감소시킨다.",
 		id = 10150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -8968,15 +10268,22 @@ pg.skill_data_template = {
 	[10160] = {
 		desc_get = "",
 		name = "최강의 방패",
-		desc = "30초마다 발동. 8초 동안 주력함대가 받는 대미지의 50%를 대신 받는다. 그 후 받은 대미지의 $1의 내구 수치를 회복한다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 시작 15 후 발동되며, 25초마다 재발동. 10초 동안 주력 함대가 받는 대미지의 50%를 자신이 대신 받은 후, 해당 받은 대미지의 $1를 회복하고, 자신의 화력이 $2 상승한다. 스탯 상승 효과는 최대 3회 중첩되며 전투 종료까지 지속된다.",
 		id = 10160,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
 				"50.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
 			}
 		},
 		desc_add = {
@@ -9020,17 +10327,61 @@ pg.skill_data_template = {
 				{
 					"50.0%"
 				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
 			}
 		}
 	},
 	[10170] = {
 		desc_get = "",
 		name = "항공의 선구자",
-		desc = "전투 후, 항공모함이 받는 경험치가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 후, 항공모함이 받는 경험치가 $1 상승한다.",
 		id = 10170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -9084,11 +10435,14 @@ pg.skill_data_template = {
 	[10180] = {
 		desc_get = "20초(Max Lv : 10초)마다 중순양함급의 엄호 포격을 발동한다. (위력은 스킬 레벨에 비례)",
 		name = "엄호포격",
-		desc = "$1초마다 중순양함급의 엄호 포격을 발동한다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "$1초마다 중순양함급의 엄호 포격을 발동한다. (위력은 스킬 레벨에 비례)",
 		id = 10180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -9137,11 +10491,14 @@ pg.skill_data_template = {
 	[10190] = {
 		desc_get = "",
 		name = "최후의 왈츠",
-		desc = "내구도가 20% 이하로 떨어질 시 내구도를 $1 회복한다(매 전장에서 1번 만 발동 가능). 대미지를 입을 시, 공중지원을 1회 전개한다. (위력은 스킬 레벨에 비례, 쿨타임 20초)",
 		type = 2,
 		max_level = 10,
+		desc = "내구도가 20% 이하로 떨어질 시 내구도를 $1 회복한다(매 전장에서 1번 만 발동 가능). 대미지를 입을 시, 공중지원을 1회 전개한다. (위력은 스킬 레벨에 비례, 쿨타임 20초)",
 		id = 10190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -9231,11 +10588,14 @@ pg.skill_data_template = {
 	[10200] = {
 		desc_get = "",
 		name = "LuckyE",
-		desc = "공중지원 시, $1 확률로 발동. 공중지원으로 입히는 대미지가 2배가 되며, 8초 동안 모든 공격을 회피하는 스텔스 상태가 된다",
 		type = 1,
 		max_level = 10,
+		desc = "공중지원 시, $1 확률로 발동. 공중지원으로 입히는 대미지가 2배가 되며, 8초 동안 모든 공격을 회피하는 스텔스 상태가 된다",
 		id = 10200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -9289,11 +10649,14 @@ pg.skill_data_template = {
 	[10210] = {
 		desc_get = "",
 		name = "둘리틀 공습",
-		desc = "공중지원 시 $1 확률로 발동. B#25로 추가 공중지원을 전개한다.",
 		type = 1,
 		max_level = 10,
+		desc = "공중지원 시 $1 확률로 발동. B#25로 추가 공중지원을 전개한다.",
 		id = 10210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -9347,11 +10710,14 @@ pg.skill_data_template = {
 	[10220] = {
 		desc_get = "",
 		name = "응급 수리",
-		desc = "아군 함의 HP가 최대치의 20% 이하로 내려갔을 때, 대상의 내구 수치를 $1 회복시킨다. 대상이 엔터프라이즈일 경우 효과 50% 상승. 1회의 전투에서 한 번만 발동된다.",
 		type = 2,
 		max_level = 10,
+		desc = "아군 함의 HP가 최대치의 20% 이하로 내려갔을 때, 대상의 내구 수치를 $1 회복시킨다. 대상이 엔터프라이즈일 경우 효과 50% 상승. 1회의 전투에서 한 번만 발동된다.",
 		id = 10220,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -9405,11 +10771,14 @@ pg.skill_data_template = {
 	[10230] = {
 		desc_get = "",
 		name = "프로토타입",
-		desc = "전투 후, 구축함이 받는 경험치가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 후, 구축함이 받는 경험치가 $1 상승한다.",
 		id = 10230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"6%",
@@ -9463,11 +10832,14 @@ pg.skill_data_template = {
 	[10240] = {
 		desc_get = "",
 		name = "코멧 헤드 스매시",
-		desc = "선봉함대가 적과 충돌할 시, 적이 받는 접촉 대미지가 $1 상승한다. 동시에 선봉함대가 받는 접촉 대미지를 $2 감소시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "선봉함대가 적과 충돌할 시, 적이 받는 접촉 대미지가 $1 상승한다. 동시에 선봉함대가 받는 접촉 대미지를 $2 감소시킨다.",
 		id = 10240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50%",
@@ -9566,11 +10938,14 @@ pg.skill_data_template = {
 	[10250] = {
 		desc_get = "",
 		name = "재블린 돌격",
-		desc = "발포 시 5% 확률로 발동. 8초 동안 자신의 기동이 $1 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "발포 시 5% 확률로 발동. 8초 동안 자신의 기동이 $1 상승한다.",
 		id = 10250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -9624,11 +10999,14 @@ pg.skill_data_template = {
 	[10260] = {
 		desc_get = "",
 		name = "매지컬 캐넌·아마겟돈!",
-		desc = "공격 시 20% 확률로 발동. 8초 동안 자신의 포격 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "공격 시 20% 확률로 발동. 8초 동안 자신의 포격 수치가 $1 상승한다.",
 		id = 10260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -9682,11 +11060,14 @@ pg.skill_data_template = {
 	[10270] = {
 		desc_get = "",
 		name = "최후의 영광",
-		desc = "매 주포 전개 시, 다음 주포에 의한 대미지가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "매 주포 전개 시, 다음 주포에 의한 대미지가 $1 상승한다.",
 		id = 10270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -9740,11 +11121,14 @@ pg.skill_data_template = {
 	[10280] = {
 		desc_get = "",
 		name = "「역습의 Z」",
-		desc = "피격 시, 8초 동안 자신의 장전 수치가 $1 상승한다. 효과는 중첩되지 않는다.",
 		type = 3,
 		max_level = 10,
+		desc = "피격 시, 8초 동안 자신의 장전 수치가 $1 상승한다. 효과는 중첩되지 않는다.",
 		id = 10280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -9798,12 +11182,15 @@ pg.skill_data_template = {
 	[10290] = {
 		desc_get = "",
 		name = "로열 네이비의 영광",
-		desc = "주포 공격 시 $1 확률로 특수탄막을 전개(위력은 스킬 레벨에 비례)하고, 8초 동안 주력함대의 장전 수치를 $2 상승시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "주포 공격 시 $1 확률로 특수탄막을 전개(위력은 스킬 레벨에 비례)하고, 8초 동안 주력함대의 장전 수치를 $2 상승시킨다.",
 		id = 10290,
 		system_transform = {
 			[3.0] = 10291
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -9903,11 +11290,14 @@ pg.skill_data_template = {
 	[10300] = {
 		desc_get = "",
 		name = "여왕의 명령",
-		desc = "전투 중, 로열 네이비(HMS) 진영 함선의 포격, 뇌장, 항공, 대공, 장전, 기동 수치가 $1 상승한다. ────「여왕님은 영원히 11세라구!」",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 로열 네이비(HMS) 진영 함선의 포격, 뇌장, 항공, 대공, 장전, 기동 수치가 $1 상승한다. ────「여왕님은 영원히 11세라구!」",
 		id = 10300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -9961,11 +11351,14 @@ pg.skill_data_template = {
 	[10310] = {
 		desc_get = "35초(Max Lv : 15초)마다, 가장 멀리 있는 적에게 특수한 포격을 전개한다. (위력은 스킬 레벨에 비례) 이 공격은 반드시 크리티컬이 발생한다.",
 		name = "절대 명중의 숙녀",
-		desc = "$1초마다, 가장 멀리 있는 적에게 특수한 $2 포격을 전개한다. (위력은 스킬 레벨에 비례) 이 공격은 반드시 크리티컬이 발생한다.",
 		type = 1,
 		max_level = 10,
+		desc = "$1초마다, 가장 멀리 있는 적에게 특수한 $2 포격을 전개한다. (위력은 스킬 레벨에 비례) 이 공격은 반드시 크리티컬이 발생한다.",
 		id = 10310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -10046,11 +11439,14 @@ pg.skill_data_template = {
 	[10320] = {
 		desc_get = "",
 		name = "BIG SEVEN",
-		desc = "주포 발사 시 $1 확률로 특수탄막을 전개한다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1 확률로 특수탄막을 전개한다. (위력은 스킬 레벨에 비례)",
 		id = 10320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10104,11 +11500,14 @@ pg.skill_data_template = {
 	[10330] = {
 		desc_get = "",
 		name = "소드 피쉬 발진!",
-		desc = "공중지원 시, 소드 피쉬로 공중 지원 $1을 전개하고, 8초 동안 적의 이동 속도를 $2 감소시킨다. ",
 		type = 1,
 		max_level = 10,
+		desc = "공중지원 시, 소드 피쉬로 공중 지원 $1을 전개하고, 8초 동안 적의 이동 속도를 $2 감소시킨다. ",
 		id = 10330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"",
@@ -10198,11 +11597,14 @@ pg.skill_data_template = {
 	[10340] = {
 		desc_get = "",
 		name = "장갑항모",
-		desc = "공중지원 발동 후, 선봉함대에 8초 동안 자신의 내구 수치의 $1만큼의 대미지를 막아주는 실드를 부여한다.",
 		type = 3,
 		max_level = 10,
+		desc = "공중지원 발동 후, 선봉함대에 8초 동안 자신의 내구 수치의 $1만큼의 대미지를 막아주는 실드를 부여한다.",
 		id = 10340,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -10256,11 +11658,14 @@ pg.skill_data_template = {
 	[10350] = {
 		desc_get = "",
 		name = "얼어붙은 혼돈의 심연",
-		desc = "20초마다 $1 확률로 특수탄막을 전개한다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 특수탄막을 전개한다. (위력은 스킬 레벨에 비례)",
 		id = 10350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -10314,11 +11719,14 @@ pg.skill_data_template = {
 	[10360] = {
 		desc_get = "",
 		name = "솔로몬의 악몽",
-		desc = "주포 공격 시 6% 확률로 발동. 8초 동안 자신의 포격, 뇌장, 장전, 기동 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "주포 공격 시 6% 확률로 발동. 8초 동안 자신의 포격, 뇌장, 장전, 기동 수치가 $1 상승한다.",
 		id = 10360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10372,11 +11780,14 @@ pg.skill_data_template = {
 	[10370] = {
 		desc_get = "",
 		name = "사세보의 시구레",
-		desc = "주포 공격 시 5% 확률로 발동. 8초 동안 자신의 기동 수치가 $1 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "주포 공격 시 5% 확률로 발동. 8초 동안 자신의 기동 수치가 $1 상승한다.",
 		id = 10370,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -10430,11 +11841,14 @@ pg.skill_data_template = {
 	[10380] = {
 		desc_get = "",
 		name = "Z의 계보",
-		desc = "전투 중, Z 계열 구축함의 포격, 기동 수치를 $1 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, Z 계열 구축함의 포격, 기동 수치를 $1 상승시킨다.",
 		id = 10380,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10488,11 +11902,14 @@ pg.skill_data_template = {
 	[10390] = {
 		desc_get = "",
 		name = "깨지지 않는 방패",
-		desc = "20초마다 $1 확률로 발동. 10초 동안, 적의 탄환을 10회까지 막아주는 실드가 3장 생성된다.",
 		type = 2,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동. 10초 동안, 적의 탄환을 10회까지 막아주는 실드가 3장 생성된다.",
 		id = 10390,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -10546,11 +11963,14 @@ pg.skill_data_template = {
 	[10400] = {
 		desc_get = "",
 		name = "기함엄호",
-		desc = "전투 중, 기함이 받는 대미지가 $1 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 기함이 받는 대미지가 $1 감소한다.",
 		id = 10400,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -10604,11 +12024,14 @@ pg.skill_data_template = {
 	[10410] = {
 		desc_get = "",
 		name = "솔로몬 전쟁의 신",
-		desc = "발포 시 5% 확률로 발동. 8초 동안 자신의 포격, 장전, 기동 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "발포 시 5% 확률로 발동. 8초 동안 자신의 포격, 장전, 기동 수치가 $1 상승한다.",
 		id = 10410,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10662,11 +12085,14 @@ pg.skill_data_template = {
 	[10420] = {
 		desc_get = "",
 		name = "선수 필승!",
-		desc = "전투 중, 자신의 첫 번째 공중지원의 장전 시간이 $1 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 자신의 첫 번째 공중지원의 장전 시간이 $1 감소한다.",
 		id = 10420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -10720,11 +12146,14 @@ pg.skill_data_template = {
 	[10430] = {
 		desc_get = "",
 		name = "1항전",
-		desc = "카가와 함께 출격할 경우, 자신의 항공 성능이 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "카가와 함께 출격할 경우, 자신의 항공 성능이 $1 상승한다.",
 		id = 10430,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -10778,11 +12207,14 @@ pg.skill_data_template = {
 	[10440] = {
 		desc_get = "",
 		name = "1항전",
-		desc = "아카기와 함께 출격할 경우, 자신의 항공 성능이 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "아카기와 함께 출격할 경우, 자신의 항공 성능이 $1 상승한다.",
 		id = 10440,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -10836,11 +12268,14 @@ pg.skill_data_template = {
 	[10450] = {
 		desc_get = "치명상을 입을 경우, 전투 불능 상태가 되지 않고 5초(Max Lv : 15초) 동안 공격을 회피하며 공중지원을 전개한다. 1회의 전투에서 한 번만 발동된다.",
 		name = "히류는 건재하다",
-		desc = "치명상을 입을 경우, 전투 불능 상태가 되지 않고 $1초 동안 공격을 회피하며 공중지원을 전개한다. 1회의 전투에서 한 번만 발동된다.",
 		type = 2,
 		max_level = 10,
+		desc = "치명상을 입을 경우, 전투 불능 상태가 되지 않고 $1초 동안 공격을 회피하며 공중지원을 전개한다. 1회의 전투에서 한 번만 발동된다.",
 		id = 10450,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -10889,11 +12324,14 @@ pg.skill_data_template = {
 	[10460] = {
 		desc_get = "",
 		name = "2항전",
-		desc = "히류와 함께 출격할 경우, 자신의 항공 성능이 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "히류와 함께 출격할 경우, 자신의 항공 성능이 $1 상승한다.",
 		id = 10460,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -10947,11 +12385,14 @@ pg.skill_data_template = {
 	[10470] = {
 		desc_get = "",
 		name = "2항전",
-		desc = "소류와 함께 출격할 경우, 자신의 항공 성능이 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "소류와 함께 출격할 경우, 자신의 항공 성능이 $1 상승한다.",
 		id = 10470,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11005,11 +12446,14 @@ pg.skill_data_template = {
 	[10480] = {
 		desc_get = "",
 		name = "자매의 연",
-		desc = "핑하이와 함께 출격할 경우, 자신의 포격 성능이 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "핑하이와 함께 출격할 경우, 자신의 포격 성능이 $1 상승한다.",
 		id = 10480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11063,11 +12507,14 @@ pg.skill_data_template = {
 	[10490] = {
 		desc_get = "",
 		name = "자매의 연",
-		desc = "닝하이와 함께 출격할 경우, 자신의 포격 성능이 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "닝하이와 함께 출격할 경우, 자신의 포격 성능이 $1 상승한다.",
 		id = 10490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11121,11 +12568,14 @@ pg.skill_data_template = {
 	[10500] = {
 		desc_get = "",
 		name = "이스트 글림을 위하여",
-		desc = "사쿠라 엠파이어(IJN) 진영의 캐릭터에게 입히는 대미지가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "사쿠라 엠파이어(IJN) 진영의 캐릭터에게 입히는 대미지가 $1 상승한다.",
 		id = 10500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -11179,11 +12629,14 @@ pg.skill_data_template = {
 	[10510] = {
 		desc_get = "",
 		name = "Революция(혁명)",
-		desc = "전투 중, 선봉함대의 대미지가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 선봉함대의 대미지가 $1 상승한다.",
 		id = 10510,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11237,44 +12690,56 @@ pg.skill_data_template = {
 	[10520] = {
 		desc_get = "",
 		name = "정기유지보수",
-		desc = "출격 후, 긴급 수리를 1회 사용할 수 있다. (강화 불가)",
 		type = 2,
 		max_level = 1,
+		desc = "출격 후, 긴급 수리를 1회 사용할 수 있다. (강화 불가)",
 		id = 10520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[10521] = {
 		desc_get = "",
 		name = "정기유지보수",
-		desc = "출격 후, 긴급 수리를 2회 사용할 수 있다. (강화 불가)",
 		type = 2,
 		max_level = 1,
+		desc = "출격 후, 긴급 수리를 2회 사용할 수 있다. (강화 불가)",
 		id = 10521,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[10522] = {
 		desc_get = "",
 		name = "정기유지보수",
-		desc = "출격 후, 긴급 수리를 3회 사용할 수 있다. (강화 불가)",
 		type = 2,
 		max_level = 1,
+		desc = "출격 후, 긴급 수리를 3회 사용할 수 있다. (강화 불가)",
 		id = 10522,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[10530] = {
 		desc_get = "",
 		name = "전쟁의 선봉",
-		desc = "발포 시 5% 확률로 발동. 8초 동안 자신의 포격 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "발포 시 5% 확률로 발동. 8초 동안 자신의 포격 수치가 $1 상승한다.",
 		id = 10530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -11328,57 +12793,150 @@ pg.skill_data_template = {
 	[10540] = {
 		desc_get = "",
 		name = "로열 네이비의 동맹",
-		desc = "전투 중, 같은 함대의 이글 유니온(USS) 함선 한 척당, 자신의 포격, 대공, 장전, 기동 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시, 아군 함대 내 이글 유니온 함선 1척당 자신의 화력, 대공, 장전, 회피가 $1 상승한다. 최대 3회 중첩. 이글 유니온 함선이 3척 이상일 경우, 자신의 첫 주포 장전 시간이 85% 감소하며, 모든 선봉 함대 이글 유니온 함선의 화력, 대공이 $2 상승하고, 주력 함대 이글 유니온 함선의 항공, 대공이 $3 상승한다.",
 		id = 10540,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"1.0%",
-				"5.0%"
+				"2.0%",
+				"10.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
 			}
 		},
 		desc_add = {
 			{
 				{
-					"1.0%",
-					"+0.4%"
+					"2.0%",
+					"+0.8%"
 				},
 				{
-					"1.4%",
-					"+0.4%"
+					"2.8%",
+					"+0.8%"
 				},
 				{
-					"1.8%",
-					"+0.4%"
+					"3.6%",
+					"+0.8%"
 				},
 				{
-					"2.2%",
-					"+0.4%"
+					"4.4%",
+					"+0.8%"
 				},
 				{
-					"2.6%",
-					"+0.4%"
+					"5.2%",
+					"+0.8%"
 				},
 				{
-					"3.0%",
-					"+0.5%"
+					"6.0%",
+					"+1.0%"
 				},
 				{
-					"3.5%",
-					"+0.5%"
+					"7.0%",
+					"+1.0%"
 				},
 				{
-					"4.0%",
-					"+0.5%"
+					"8.0%",
+					"+1.0%"
 				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
 				{
 					"4.5%",
-					"+0.5%"
+					"+0.8%"
 				},
 				{
-					"5.0%"
+					"5.3%",
+					"+0.8%"
+				},
+				{
+					"6.1%",
+					"+0.9%"
+				},
+				{
+					"7.0%",
+					"+0.8%"
+				},
+				{
+					"7.8%",
+					"+0.8%"
+				},
+				{
+					"8.6%",
+					"+0.9%"
+				},
+				{
+					"9.5%",
+					"+0.8%"
+				},
+				{
+					"10.3%",
+					"+0.8%"
+				},
+				{
+					"11.1%",
+					"+0.9%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.8%"
+				},
+				{
+					"5.3%",
+					"+0.8%"
+				},
+				{
+					"6.1%",
+					"+0.9%"
+				},
+				{
+					"7.0%",
+					"+0.8%"
+				},
+				{
+					"7.8%",
+					"+0.8%"
+				},
+				{
+					"8.6%",
+					"+0.9%"
+				},
+				{
+					"9.5%",
+					"+0.8%"
+				},
+				{
+					"10.3%",
+					"+0.8%"
+				},
+				{
+					"11.1%",
+					"+0.9%"
+				},
+				{
+					"12.0%"
 				}
 			}
 		}
@@ -11386,11 +12944,14 @@ pg.skill_data_template = {
 	[10550] = {
 		desc_get = "",
 		name = "박지수리",
-		desc = "35초마다, 전 함선의 내구 수치를 아카시의 내구 수치의 $1 만큼 회복시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "35초마다, 전 함선의 내구 수치를 아카시의 내구 수치의 $1 만큼 회복시킨다.",
 		id = 10550,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1%",
@@ -11444,11 +13005,14 @@ pg.skill_data_template = {
 	[10560] = {
 		desc_get = "",
 		name = "여정의 증표",
-		desc = "어뢰의 크리티컬 확률이 $1 상승하며 크리티컬 대미지가 50% 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰의 크리티컬 확률이 $1 상승하며 크리티컬 대미지가 50% 상승한다.",
 		id = 10560,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -11502,11 +13066,14 @@ pg.skill_data_template = {
 	[10570] = {
 		desc_get = "",
 		name = "폭염전개",
-		desc = "고폭탄 무기 대미지 $3 상승, 연소 발생률이 $1 상승하고 연소 대미지가 $2 상승한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "고폭탄 무기 대미지 $3 상승, 연소 발생률이 $1 상승하고 연소 대미지가 $2 상승한다. ",
 		id = 10570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -11650,11 +13217,14 @@ pg.skill_data_template = {
 	[10580] = {
 		desc_get = "35초(Max Lv : 25초)마다, 특수한 어뢰를 3발 발사하여, 입힌 대미지의 20.0%만큼 자신의 내구 수치를 회복한다.",
 		name = "흡혈귀의 입맞춤",
-		desc = "$1초마다, 특수한 어뢰를 3발 발사하여, 입힌 대미지의 20.0%만큼 자신의 내구 수치를 회복한다.",
 		type = 2,
 		max_level = 10,
+		desc = "$1초마다, 특수한 어뢰를 3발 발사하여, 입힌 대미지의 20.0%만큼 자신의 내구 수치를 회복한다.",
 		id = 10580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -11703,11 +13273,14 @@ pg.skill_data_template = {
 	[10590] = {
 		desc_get = "",
 		name = "프로토타입·순양함",
-		desc = "전투 후, 경순양함、중순양함、초갑순양함이 받는 경험치가 $1 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 후, 경순양함、중순양함、초갑순양함이 받는 경험치가 $1 상승한다. ",
 		id = 10590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -11761,11 +13334,14 @@ pg.skill_data_template = {
 	[10600] = {
 		desc_get = "",
 		name = "마야·33일",
-		desc = "자신의 장전 수치가 $1 상승하며, 어뢰 발사 시 $2 확률로 2회 발사한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 장전 수치가 $1 상승하며, 어뢰 발사 시 $2 확률로 2회 발사한다.",
 		id = 10600,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -11864,11 +13440,14 @@ pg.skill_data_template = {
 	[10610] = {
 		desc_get = "",
 		name = "고폭탄 강화",
-		desc = "고폭탄의 대미지가 $1 상승하며, 연소 발생률이 $2 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "고폭탄의 대미지가 $1 상승하며, 연소 발생률이 $2 상승한다.",
 		id = 10610,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -11967,11 +13546,14 @@ pg.skill_data_template = {
 	[10620] = {
 		desc_get = "",
 		name = "제6 구축대·이카즈치",
-		desc = "아카츠키, 히비키, 이나즈마와 함께 출격할 경우, 자신의 포격, 뇌장, 장전 수치가 $1 상승한다. 효과는 중첩되지 않는다.",
 		type = 1,
 		max_level = 10,
+		desc = "아카츠키, 히비키, 이나즈마와 함께 출격할 경우, 자신의 포격, 뇌장, 장전 수치가 $1 상승한다. 효과는 중첩되지 않는다.",
 		id = 10620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -12025,11 +13607,14 @@ pg.skill_data_template = {
 	[10630] = {
 		desc_get = "",
 		name = "제6 구축대·이나즈마",
-		desc = "아카츠키, 히비키, 이카즈치와 함께 출격할 경우, 자신의 포격, 뇌장, 장전 수치가 $1 상승한다. 효과는 중첩되지 않는다.",
 		type = 1,
 		max_level = 10,
+		desc = "아카츠키, 히비키, 이카즈치와 함께 출격할 경우, 자신의 포격, 뇌장, 장전 수치가 $1 상승한다. 효과는 중첩되지 않는다.",
 		id = 10630,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -12083,11 +13668,14 @@ pg.skill_data_template = {
 	[10640] = {
 		desc_get = "",
 		name = "부러진 강철 날개",
-		desc = "대공 공격 범위 내에 적 함재기가 격추된 경우, 포격 수치가 8초 간 자신의 기초(스탯+장비) 대공 수치의 $1 만큼 증가한다. 스킬이 중복 발동 되는 경우, 효과는 중첩되지 않으며 지속 시간만 갱신 된다. ",
 		type = 1,
 		max_level = 10,
+		desc = "대공 공격 범위 내에 적 함재기가 격추된 경우, 포격 수치가 8초 간 자신의 기초(스탯+장비) 대공 수치의 $1 만큼 증가한다. 스킬이 중복 발동 되는 경우, 효과는 중첩되지 않으며 지속 시간만 갱신 된다. ",
 		id = 10640,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -12141,11 +13729,14 @@ pg.skill_data_template = {
 	[10650] = {
 		desc_get = "",
 		name = "포켓 전함",
-		desc = "구축함과 경순양함에게 입히는 대미지를 $1 상승시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "구축함과 경순양함에게 입히는 대미지를 $1 상승시킨다.",
 		id = 10650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -12199,11 +13790,14 @@ pg.skill_data_template = {
 	[10660] = {
 		desc_get = "35초(Max Lv : 15초)마다, 랜덤한 적 1기를 향해 특수한 포격을 전개한다. (위력은 스킬 레벨에 비례) 이 공격은 반드시 크리티컬이 발생한다.",
 		name = "저격수",
-		desc = "$1초마다, 랜덤한 적 1기를 향해 특수한 $2 포격을 전개한다. (위력은 스킬 레벨에 비례) 이 공격은 반드시 크리티컬이 발생한다.",
 		type = 1,
 		max_level = 10,
+		desc = "$1초마다, 랜덤한 적 1기를 향해 특수한 $2 포격을 전개한다. (위력은 스킬 레벨에 비례) 이 공격은 반드시 크리티컬이 발생한다.",
 		id = 10660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -12284,11 +13878,14 @@ pg.skill_data_template = {
 	[10670] = {
 		desc_get = "",
 		name = "북해의 고독한 여왕",
-		desc = "주력함대에 자신 이외에 다른 전함/순양전함이 존재하지 않는 경우, 대미지가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "주력함대에 자신 이외에 다른 전함/순양전함이 존재하지 않는 경우, 대미지가 $1 상승한다.",
 		id = 10670,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -12342,15 +13939,22 @@ pg.skill_data_template = {
 	[10680] = {
 		desc_get = "",
 		name = "메탈 블러드의 날개",
-		desc = "메탈 블러드(KMS) 진영 함선의 받는 대미지를 $1 감소시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "함대 내 모든 메탈 블러드 함선이 받는 대미지가 $1 감소한다. 아군 함대 내 메탈 블러드 함선 1척당 자신의 항공이 $2 상승한다. 최대 3회 중첩.",
 		id = 10680,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
 				"15%"
+			},
+			{
+				"1.0%",
+				"5.0%"
 			}
 		},
 		desc_add = {
@@ -12394,17 +13998,61 @@ pg.skill_data_template = {
 				{
 					"15.0%"
 				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
 			}
 		}
 	},
 	[10690] = {
 		desc_get = "",
 		name = "메탈 블러드의 매",
-		desc = "크라프제 함재기(BF-#109T, ME-#155A, JU-#87C 등)를 장비하고 있는 경우, 장비의 효율이 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "크라프제 함재기(BF-#109T, ME-#155A, JU-#87C 등)를 장비하고 있는 경우, 모든 함재기 장비의 효율이 $1 상승한다.",
 		id = 10690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -12458,11 +14106,14 @@ pg.skill_data_template = {
 	[10700] = {
 		desc_get = "",
 		name = "보급선 파괴",
-		desc = "보급선 파괴 작전을 수행하며 쌓은 풍부한 경험이 누적되어 자신의 포격 수치가 $1 상승했다.",
 		type = 1,
 		max_level = 10,
+		desc = "보급선 파괴 작전을 수행하며 쌓은 풍부한 경험이 누적되어 자신의 포격 수치가 $1 상승했다.",
 		id = 10700,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -12516,15 +14167,30 @@ pg.skill_data_template = {
 	[10710] = {
 		desc_get = "",
 		name = "몬스터 헌터",
-		desc = "그라프 슈피 추격전에 참가해 중순, 초갑순에게 입히는 데미지가 $1 증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 후, 자신의 회피, 뇌장이 $2 상승하며, 중형 장갑의 적에 대한 대미지가 $1 상승한다. 주포로 동일한 적을 4회 명중할 경우 5초 동안 $3 감속시키며, 감속 효과 종료 후 다음 주포 카운트.",
 		id = 10710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
 				"25%"
+			},
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
 			}
 		},
 		desc_add = {
@@ -12568,17 +14234,143 @@ pg.skill_data_template = {
 				{
 					"25.0%"
 				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
 			}
 		}
 	},
 	[10720] = {
 		desc_get = "30초마다 발동. 5초(Max Lv : 15초) 동안, 10회까지 적의 탄환을 막아주는 회전 실드가 2장 생성된다.",
 		name = "수호의 방패",
-		desc = "30초마다 발동. $1초 동안, 10회까지 적의 탄환을 막아주는 회전 실드가 2장 생성된다.",
 		type = 2,
 		max_level = 10,
+		desc = "30초마다 발동. $1초 동안, 10회까지 적의 탄환을 막아주는 회전 실드가 2장 생성된다.",
 		id = 10720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -12627,11 +14419,14 @@ pg.skill_data_template = {
 	[10730] = {
 		desc_get = "",
 		name = "귀신",
-		desc = "발포 시 5% 확률로 발동. 12초 동안 자신의 뇌장 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "발포 시 5% 확률로 발동. 12초 동안 자신의 뇌장 수치가 $1 상승한다.",
 		id = 10730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -12685,11 +14480,14 @@ pg.skill_data_template = {
 	[10740] = {
 		desc_get = "",
 		name = "역사적인 전투의 잔해",
-		desc = "발포 시 4% 확률로 발동. 12초 동안 자신의 기동 수치가 $1 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "발포 시 4% 확률로 발동. 12초 동안 자신의 기동 수치가 $1 상승한다.",
 		id = 10740,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -12743,11 +14541,14 @@ pg.skill_data_template = {
 	[10750] = {
 		desc_get = "",
 		name = "The Nick",
-		desc = "발포 시 5% 확률로 발동. 8초 동안 자신의 기동 수치가 $1 상승하고, 받는 항공 대미지가 $2 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "발포 시 5% 확률로 발동. 8초 동안 자신의 기동 수치가 $1 상승하고, 받는 항공 대미지가 $2 감소한다.",
 		id = 10750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"16.0%",
@@ -12846,11 +14647,14 @@ pg.skill_data_template = {
 	[10760] = {
 		desc_get = "",
 		name = "이스트 글림의 연",
-		desc = "닝하이, 핑하이와 함께 출격할 경우, 얏센과 닝하이, 핑하이의 받는 대미지가 $1 감소하고, 회피율이 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "닝하이, 핑하이와 함께 출격할 경우, 얏센과 닝하이, 핑하이의 받는 대미지가 $1 감소하고, 회피율이 $2 상승한다.",
 		id = 10760,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -12949,11 +14753,14 @@ pg.skill_data_template = {
 	[10770] = {
 		desc_get = "",
 		name = "제6 구축대·아카츠키",
-		desc = "히비키, 이카즈치, 이나즈마와 함께 출격할 경우, 자신의 포격, 뇌장, 장전 수치가 $1 상승한다. 효과는 중첩되지 않는다.",
 		type = 1,
 		max_level = 10,
+		desc = "히비키, 이카즈치, 이나즈마와 함께 출격할 경우, 자신의 포격, 뇌장, 장전 수치가 $1 상승한다. 효과는 중첩되지 않는다.",
 		id = 10770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -13007,11 +14814,14 @@ pg.skill_data_template = {
 	[10780] = {
 		desc_get = "20초마다 발동. 5초(Max Lv : 10초) 동안 랜덤한 강화 효과를 자신에게 부여한다.",
 		name = "행운함?",
-		desc = "20초마다 발동. $1초 동안 랜덤한 강화 효과를 자신에게 부여한다.",
 		type = 2,
 		max_level = 10,
+		desc = "20초마다 발동. $1초 동안 랜덤한 강화 효과를 자신에게 부여한다.",
 		id = 10780,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -13060,11 +14870,14 @@ pg.skill_data_template = {
 	[10790] = {
 		desc_get = "",
 		name = "5항전",
-		desc = "즈이카쿠와 함께 출격할 경우, 자신의 항공 성능이 $1 상승하고, 받는 대미지가 5% 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "즈이카쿠와 함께 출격할 경우, 자신의 항공 성능이 $1 상승하고, 받는 대미지가 5% 상승한다.",
 		id = 10790,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"12.0%",
@@ -13118,11 +14931,14 @@ pg.skill_data_template = {
 	[10800] = {
 		desc_get = "",
 		name = "5항전",
-		desc = "쇼카쿠와 함께 출격할 경우, 자신의 항공 성능이 $1 상승하고, 받는 대미지가 $2 감소한다",
 		type = 3,
 		max_level = 10,
+		desc = "쇼카쿠와 함께 출격할 경우, 자신의 항공 성능이 $1 상승하고, 받는 대미지가 $2 감소한다",
 		id = 10800,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -13221,11 +15037,14 @@ pg.skill_data_template = {
 	[10810] = {
 		desc_get = "",
 		name = "수호의 학",
-		desc = "공중지원 후, 12초 동안 아군 함선의 대미지를 $1 상승시키고, 받는 대미지를 $2 감소시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "공중 지원 시, 12초 동안 아군 전원의 대미지가 $1 상승하며, 받는 대미지는 $2 감소한다.",
 		id = 10810,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -13324,11 +15143,14 @@ pg.skill_data_template = {
 	[10820] = {
 		desc_get = "",
 		name = "진격의 학",
-		desc = "공중지원 후, 다음 공중지원의 대미지가 $1 상승한다. 최대 3회까지 누적 가능",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 시, 아군 함대 내 사쿠라 엠파이어 함선이 3척 이상일 경우, 공중 지원 대미지가 $1 상승하며, 공중 지원 시마다 다음 공중 지원의 대미지가 $1 추가로 증가한다. 공중 지원 대미지 상승 효과는 최대 3회 중첩.",
 		id = 10820,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -13382,11 +15204,14 @@ pg.skill_data_template = {
 	[10830] = {
 		desc_get = "첫 번째 공중지원 시, 추가 항공 탄막 공격을 전개한다(위력은 스킬 레벨에 비례). 1회의 전투에서 한 번만 발동된다.",
 		name = "예비 항공대",
-		desc = "첫 번째 공중지원 시, 추가 항공 탄막 공격 $1을 전개한다. 1회의 전투에서 한 번만 발동된다.",
 		type = 1,
 		max_level = 10,
+		desc = "첫 번째 공중지원 시, 추가 항공 탄막 공격 $1을 전개한다. 1회의 전투에서 한 번만 발동된다.",
 		id = 10830,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -13426,11 +15251,14 @@ pg.skill_data_template = {
 	[10840] = {
 		desc_get = "",
 		name = "결사의 급습",
-		desc = "전투를 거치며 인원이 줄어 선봉함대에 자신만 남은 경우, 자신의 대미지가 $1 상승하며, 받는 대미지가 $2 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투를 거치며 인원이 줄어 선봉함대에 자신만 남은 경우, 자신의 대미지가 $1 상승하며, 받는 대미지가 $2 감소한다.",
 		id = 10840,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -13529,11 +15357,14 @@ pg.skill_data_template = {
 	[10850] = {
 		desc_get = "",
 		name = "운명의 이면",
-		desc = "다른 J 계열 구축함과 동시에 출격할 시, 다른 J 계열 구축함의 받는 대미지를 $1 감소시키고, 자신의 받는 대미지가 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "다른 J 계열 구축함과 동시에 출격할 시, 다른 J 계열 구축함의 받는 대미지를 $1 감소시키고, 자신의 받는 대미지가 $2 상승한다.",
 		id = 10850,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -13630,13 +15461,16 @@ pg.skill_data_template = {
 		}
 	},
 	[10860] = {
-		desc_get = "20초마다 40.0%(Max Lv : 70.0%) 확률로 발동. 강습형태·EX 상태가 되어, 강력한 탄막을 전개하고 5초 동안 자신의 뇌장 수치가 30% 상승한다. (위력은 스킬 레벨에 비례)",
+		desc_get = "20초마다 40.0%(Max Lv : 70.0%) 확률로 발동. 강습형태·EX 상태가 되어, 강력한 탄막을 전개하고 8초 동안 자신의 뇌장 수치가 30% 상승한다. (위력은 스킬 레벨에 비례)",
 		name = "강습형태·EX",
-		desc = "20초마다 $1 확률로 발동. 강습형태·EX 상태가 되어, 강력한 탄막을 전개하고 5초 동안 자신의 뇌장 수치가 30% 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다, $1 확률로 강습태세·EX를 발동하여 8초 동안 뇌장이 30.0% 상승하고, 특수 탄막을 발사한다.",
 		id = 10860,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -13685,11 +15519,14 @@ pg.skill_data_template = {
 	[10870] = {
 		desc_get = "",
 		name = "꽃의 2 수뢰전대",
-		desc = "자신이 전투불능이 되지 않는 한, 함대의 경순양함 및 구축함의 뇌격과 장전 수치가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 전투불능이 되지 않는 한, 함대의 경순양함 및 구축함의 뇌격과 장전 수치가 $1 상승한다.",
 		id = 10870,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -13743,11 +15580,14 @@ pg.skill_data_template = {
 	[10880] = {
 		desc_get = "",
 		name = "럭키 루",
-		desc = "20초마다 $1 확률로 발동. 8초 동안 자신의 포격, 장전, 기동 수치가 $2 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동. 8초 동안 자신의 포격, 장전, 기동 수치가 $2 상승한다.",
 		id = 10880,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -13846,11 +15686,14 @@ pg.skill_data_template = {
 	[10890] = {
 		desc_get = "자신이 받는 대미지가 20% 감소한다. 전투불능이 되지 않는 한, 아군 함대의 구축함 및 경순양함의 어뢰 공격 크리티컬 확률이 4% (최대 레벨 시 10%, 크리티컬 대미지 최대 30%) 상승한다.",
 		name = "불굴의 진츠",
-		desc = "자신이 받는 대미지가 20% 감소한다. 전투불능이 되지 않는 한, 아군 함대의 구축함 및 경순양함의 어뢰 공격 크리티컬 확률이 $1$2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 받는 대미지가 20% 감소한다. 전투불능이 되지 않는 한, 아군 함대의 구축함 및 경순양함의 어뢰 공격 크리티컬 확률이 $1$2 상승한다.",
 		id = 10890,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -13936,11 +15779,14 @@ pg.skill_data_template = {
 	[10900] = {
 		desc_get = "",
 		name = "구조활동",
-		desc = "아군 함선이 전투 불능이 되는 경우 $1 확률로 발동, 자신의 내구를 $2 회복하고, 다른 생존 함선의 내구를 $3 회복시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "아군 함선이 전투 불능이 되는 경우 $1 확률로 발동, 자신의 내구를 $2 회복하고, 다른 생존 함선의 내구를 $3 회복시킨다.",
 		id = 10900,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -14084,11 +15930,14 @@ pg.skill_data_template = {
 	[10910] = {
 		desc_get = "",
 		name = "신생 사쿠라 엠파이어 연합",
-		desc = "자신이 받는 대미지를 $1 확률로 50.0% 대미지를 감소시키고, 기함으로 출격 시엔 아군 사쿠라 엠파이어 함선의 포격과 장전 수치를 $2 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 받는 대미지를 $1 확률로 50.0% 대미지를 감소시키고, 기함으로 출격 시엔 아군 사쿠라 엠파이어 함선의 포격과 장전 수치를 $2 상승시킨다.",
 		id = 10910,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -14187,11 +16036,14 @@ pg.skill_data_template = {
 	[10920] = {
 		desc_get = "주포 공격 시 30.0% (최대 60.0%) 확률로 발동되어, 8초 간 함대 내 순양전함 및 전함의 대미지를 5.0% (최대 20.0%) 상승시킨다.",
 		name = "T자 전법",
-		desc = "주포 공격 시 $1 확률로 발동되어, 8초 간 함대 내 순양전함 및 전함의 대미지를 $2 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "주포 공격 시 $1 확률로 발동되어, 8초 간 함대 내 순양전함 및 전함의 대미지를 $2 상승시킨다.",
 		id = 10920,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -14290,11 +16142,14 @@ pg.skill_data_template = {
 	[10930] = {
 		desc_get = "",
 		name = "위엄 넘치는 왕실 함선",
-		desc = "전투 개시 10초 후, 그로부터 20초 마다 20% 확률로 발동되어 8초 간 아군 주력 함대가 받는 대미지를 $1 대신 받고, 랜덤으로 적 1기에게 주는 대미지를 $2 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 10초 후, 그로부터 20초 마다 20% 확률로 발동되어 8초 간 아군 주력 함대가 받는 대미지를 $1 대신 받고, 랜덤으로 적 1기에게 주는 대미지를 $2 상승시킨다.",
 		id = 10930,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -14393,11 +16248,14 @@ pg.skill_data_template = {
 	[10940] = {
 		desc_get = "20초 마다, 40% (최대 레벨 70%) 확률로 귀신 모드가 되어 5초간 기동이 30% 증가하고, 강력한 탄막을 발사한다.",
 		name = "귀신연무",
-		desc = "20초 마다 $1확률로 귀신 모드가 되어 5초간 기동이 30% 증가하고, 강력한 탄막을 발사한다.",
 		type = 2,
 		max_level = 10,
+		desc = "20초 마다 $1확률로 귀신 모드가 되어 5초간 기동이 30% 증가하고, 강력한 탄막을 발사한다.",
 		id = 10940,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -14446,11 +16304,14 @@ pg.skill_data_template = {
 	[10950] = {
 		desc_get = "항속이 3(최고 레벨 시 8) 증가하고, 포격 수치가 15.0% 상승한다.",
 		name = "상무의 혼 ",
-		desc = "항속이 $1 증가하고, 포격 수치가 $2 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "항속이 $1 증가하고, 포격 수치가 $2 상승한다.",
 		id = 10950,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -14540,11 +16401,14 @@ pg.skill_data_template = {
 	[10960] = {
 		desc_get = "출격 시 아군 함대 특형 구축함의 포격 및 기동 15% (MAX 30%), 뇌장 4%(MAX 10%) 상승",
 		name = "특형 네임쉽!",
-		desc = "출격 시 아군 함대 특형 구축함의 포격 및 기동 $1 상승, 뇌장 $2 상승",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시 아군 함대 특형 구축함의 포격 및 기동 $1 상승, 뇌장 $2 상승",
 		id = 10960,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -14643,11 +16507,14 @@ pg.skill_data_template = {
 	[10970] = {
 		desc_get = "",
 		name = "파이팅 메리",
-		desc = "자신의 내구 수치가 $1 이하로 떨어졌을 때, 내구 수치가 낮으면 낮을 수록 적에게 주는 대미지가 상승한다. (최대 $2까지 상승 가능)",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 내구 수치가 $1 이하로 떨어졌을 때, 내구 수치가 낮으면 낮을 수록 적에게 주는 대미지가 상승한다. (최대 $2까지 상승 가능)",
 		id = 10970,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -14746,11 +16613,14 @@ pg.skill_data_template = {
 	[10980] = {
 		desc_get = "",
 		name = "대공 엄호",
-		desc = "자신이 전투 가능 상태일 때에 한해, 주력함대가 받는 항공 공격 대미지를 $1 감소시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 전투 가능 상태일 때에 한해, 주력함대가 받는 항공 공격 대미지를 $1 감소시킨다.",
 		id = 10980,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -14804,11 +16674,14 @@ pg.skill_data_template = {
 	[10990] = {
 		desc_get = "",
 		name = "대공 화력",
-		desc = "출격 시 자신의 포격 수치가 기초 대공 스테이터스(기본 스탯 + 장비 스탯) $1 만큼 상승한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시 자신의 포격 수치가 기초 대공 스테이터스(기본 스탯 + 장비 스탯) $1 만큼 상승한다. ",
 		id = 10990,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -14862,12 +16735,15 @@ pg.skill_data_template = {
 	[11000] = {
 		desc_get = "매 20초 마다 40%(최대 70%) 확률로 강력한 탄막을 전개한다. (위력은 스킬 레벨에 비례)",
 		name = "용감한 포격",
-		desc = "매 20초 마다 $1 확률로 강력한 탄막을 전개한다.",
 		type = 1,
 		max_level = 10,
+		desc = "매 20초 마다 $1 확률로 강력한 탄막을 전개한다.",
 		id = 11000,
 		system_transform = {
 			[3.0] = 11001
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {
@@ -14917,11 +16793,14 @@ pg.skill_data_template = {
 	[11010] = {
 		desc_get = "",
 		name = "아이언 바텀 나이트",
-		desc = "아군 사우스다코타의 내구 수치가 30% 이하로 떨어지는 경우, 자신이 주는 대미지가 $1 상승하고, 사우스다코타가 받는 대미지(스킬 [최강의 방패]가 대신 받는 대미지는 제외)의 30%를 대신 받아주며, 사우스다코타가 5초 간 전투 불능이 되지 않는다. 한 번의 전투에서 한 번만 발동 가능하다.",
 		type = 2,
 		max_level = 10,
+		desc = "아군 사우스다코타의 내구 수치가 30% 이하로 떨어지는 경우, 자신이 주는 대미지가 $1 상승하고, 사우스다코타가 받는 대미지(스킬 [최강의 방패]가 대신 받는 대미지는 제외)의 30%를 대신 받아주며, 사우스다코타가 5초 간 전투 불능이 되지 않는다. 한 번의 전투에서 한 번만 발동 가능하다.",
 		id = 11010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -14975,11 +16854,14 @@ pg.skill_data_template = {
 	[11020] = {
 		desc_get = "",
 		name = "말벌은 두 번 찌른다",
-		desc = "주력함대에 로열 네이비 진영 캐릭터가 있으면, 공습 시 $1 확률로 시파이어로 한 번 더 항공공격을 진행한다.",
 		type = 1,
 		max_level = 10,
+		desc = "주력함대에 로열 네이비 진영 캐릭터가 있으면, 공습 시 $1 확률로 시파이어로 한 번 더 항공공격을 진행한다.",
 		id = 11020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -15033,11 +16915,14 @@ pg.skill_data_template = {
 	[11030] = {
 		desc_get = "",
 		name = "기적의 바람",
-		desc = "선봉함대에 전투 가능한 함선이 타니카제 밖에 없는 경우, 기동 수치가 $1 상승하고, 자신이 받는 항공 공격 대미지가 $2 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "선봉함대에 전투 가능한 함선이 타니카제 밖에 없는 경우, 기동 수치가 $1 상승하고, 자신이 받는 항공 공격 대미지가 $2 감소한다.",
 		id = 11030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -15136,11 +17021,14 @@ pg.skill_data_template = {
 	[11040] = {
 		desc_get = "",
 		name = "안샨급 네임쉽",
-		desc = "출격 시, 안샨급의 명중 및 포격 수치가 $1, 기동 수치가 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 안샨급의 명중 및 포격 수치가 $1, 기동 수치가 $2 상승한다.",
 		id = 11040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -15239,11 +17127,14 @@ pg.skill_data_template = {
 	[11050] = {
 		desc_get = "",
 		name = "레스키 돌격",
-		desc = "자신의 주포의 크리티컬 확률이 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 주포의 크리티컬 확률이 $1 상승한다.",
 		id = 11050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -15297,11 +17188,14 @@ pg.skill_data_template = {
 	[11060] = {
 		desc_get = "",
 		name = "상호원조동맹",
-		desc = "전투 개시 시, 자신을 포함한 노스 유니온 및 이스트 글림 소속의 선봉함대 멤버의 포격, 장전, 명중 수치가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 자신을 포함한 노스 유니온 및 이스트 글림 소속의 선봉함대 멤버의 포격, 장전, 명중 수치가 $1 상승한다.",
 		id = 11060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -15355,11 +17249,14 @@ pg.skill_data_template = {
 	[11070] = {
 		desc_get = "",
 		name = "일치단결",
-		desc = "출격 시, 자신의 함대 멤버가 6척일 경우, 자신의 포격 및 장전 수치가 $1, 기동 수치가 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 자신의 함대 멤버가 6척일 경우, 자신의 포격 및 장전 수치가 $1, 기동 수치가 $2 상승한다.",
 		id = 11070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -15458,11 +17355,14 @@ pg.skill_data_template = {
 	[11080] = {
 		desc_get = "",
 		name = "실버 팬텀",
-		desc = "자신이 구축함, 수송선, 어뢰정, 자폭선에게 가하는 대미지가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 구축함, 수송선, 어뢰정, 자폭선에게 가하는 대미지가 $1 상승한다.",
 		id = 11080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -15516,11 +17416,14 @@ pg.skill_data_template = {
 	[11090] = {
 		desc_get = "",
 		name = "새벽의 빛",
-		desc = "자신이 생존해 있는 동안 적의 구축함 및 경순양함의 회피율이 $1 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 생존해 있는 동안 적의 구축함 및 경순양함의 회피율이 $1 감소한다.",
 		id = 11090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10%",
@@ -15574,11 +17477,14 @@ pg.skill_data_template = {
 	[11100] = {
 		desc_get = "40초(최단 20초) 마다 지원 포격을 1회 발사하고, 명중시킨 적을 6초간 40% 감속시킨다.",
 		name = "핏빛안개의 콘체르토",
-		desc = "$1 초 마다 지원 포격을 1회 발사하고, 명중시킨 적을 6초간 40% 감속시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "$1 초 마다 지원 포격을 1회 발사하고, 명중시킨 적을 6초간 40% 감속시킨다.",
 		id = 11100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -15627,11 +17533,14 @@ pg.skill_data_template = {
 	[11110] = {
 		desc_get = "",
 		name = "멸망의 비탄조",
-		desc = "전투 중, 자신의 첫 번째 주포 포격 대미지가 $1 증가하고, 자신의 주포 공격에 명중된 적이 8초 간 받는 대미지가 $2 증가한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 자신의 첫 번째 주포 포격 대미지가 $1 증가하고, 자신의 주포 공격에 명중된 적이 8초 간 받는 대미지가 $2 증가한다.",
 		id = 11110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -15730,15 +17639,22 @@ pg.skill_data_template = {
 	[11120] = {
 		desc_get = "",
 		name = "승리의 노래",
-		desc = "자신이 전함에게 주는 대미지가 $1 증가하고, 받는 투사 대미지가 $1 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전함에 대한 대미지가 $1 상승하고, 투사형 공격에 받는 대미지가 $1 감소한다. 아군 함대 내 다른 항공모함, 경항공모함의 전함에 대한 대미지가 $2 상승한다.",
 		id = 11120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"10%",
-				"20%"
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
 			}
 		},
 		desc_add = {
@@ -15782,17 +17698,61 @@ pg.skill_data_template = {
 				{
 					"20.0%"
 				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
 			}
 		}
 	},
 	[11130] = {
 		desc_get = "",
 		name = "제1구축함",
-		desc = "어뢰 공격을 받을 때 $1 의 확률로 받는 어뢰 대미지가 $2 감소하고, 자신의 뇌장 수치가 4초 간 $2 증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰 공격을 받을 때 $1 의 확률로 받는 어뢰 대미지가 $2 감소하고, 자신의 뇌장 수치가 4초 간 $2 증가한다.",
 		id = 11130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -15891,11 +17851,14 @@ pg.skill_data_template = {
 	[11140] = {
 		desc_get = "",
 		name = "샤이니 셰피",
-		desc = "전투 개시 시 자신보다 내구도가 낮은 아군 함선이 전투 중 피격되었을 때, $1 확률로 받는 대미지가 $2 감소한다. (전투 중 입은 대미지로 인한 내구도 변화는 스킬 발동 조건에 포함되지 않는다) ",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 시 자신보다 내구도가 낮은 아군 함선이 전투 중 피격되었을 때, $1 확률로 받는 대미지가 $2 감소한다. (전투 중 입은 대미지로 인한 내구도 변화는 스킬 발동 조건에 포함되지 않는다) ",
 		id = 11140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -15994,11 +17957,14 @@ pg.skill_data_template = {
 	[11150] = {
 		desc_get = "",
 		name = "바렌츠해의 역습",
-		desc = "자신의 주포 크리티컬 확률이 $1 증가하고, 크리티컬 대미지가 30% 증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 주포 크리티컬 확률이 $1 증가하고, 크리티컬 대미지가 30% 증가한다.",
 		id = 11150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -16052,11 +18018,14 @@ pg.skill_data_template = {
 	[11160] = {
 		desc_get = "",
 		name = "크레타섬의 검은 구름",
-		desc = "20초 마다 발동된다.  6초 간 자신의 대공 수치가 $2 증가하고, 받는 대미지가 $1 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "20초 마다 발동된다.  6초 간 자신의 대공 수치가 $2 증가하고, 받는 대미지가 $1 감소한다.",
 		id = 11160,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -16155,11 +18124,14 @@ pg.skill_data_template = {
 	[11170] = {
 		desc_get = "",
 		name = "정의의 동료들",
-		desc = "셰필드와 함께 출격 시, 자신의 화력 및 뇌장 수치가 $1 증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "셰필드와 함께 출격 시, 자신의 화력 및 뇌장 수치가 $1 증가한다.",
 		id = 11170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -16213,11 +18185,14 @@ pg.skill_data_template = {
 	[11180] = {
 		desc_get = "",
 		name = "편차 수정 사격",
-		desc = "20초 마다, 자신의 어뢰 대미지가 $1 증가한다. (최대 8회 중첩)",
 		type = 1,
 		max_level = 10,
+		desc = "20초 마다, 자신의 어뢰 대미지가 $1 증가한다. (최대 8회 중첩)",
 		id = 11180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -16271,11 +18246,14 @@ pg.skill_data_template = {
 	[11190] = {
 		desc_get = "",
 		name = "반려의 바람 ",
-		desc = "하마카제와 같은 함대에 있을 시 포격, 뇌장, 장전, 대공 수치가 $1 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "하마카제와 같은 함대에 있을 시 포격, 뇌장, 장전, 대공 수치가 $1 상승한다. ",
 		id = 11190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -16329,11 +18307,14 @@ pg.skill_data_template = {
 	[11200] = {
 		desc_get = "",
 		name = "솔로몬의 전설 ",
-		desc = "20초마다 $1 확률로 발동되며, 8초 간 아군 순양함의 포격 및 명중 수치가 $2 상승하고, 피격 시 받는 대미지를 $3 감소된다. ",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동되며, 8초 간 아군 순양함의 포격 및 명중 수치가 $2 상승하고, 피격 시 받는 대미지를 $3 감소된다. ",
 		id = 11200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -16477,11 +18458,14 @@ pg.skill_data_template = {
 	[11210] = {
 		desc_get = "",
 		name = "섬멸형태",
-		desc = "20초 마다 $1 확률로 섬멸형태가 되어, 장전 수치가 10초 간 200% 상승하고, 강력한 탄막을 전개한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초 마다 $1 확률로 섬멸형태가 되어, 장전 수치가 10초 간 200% 상승하고, 강력한 탄막을 전개한다.",
 		id = 11210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -16535,11 +18519,14 @@ pg.skill_data_template = {
 	[11220] = {
 		desc_get = "",
 		name = "지속 타격 ",
-		desc = "어뢰로 적 5회 적중 시마다 자신의 포격 $1증가, 최대 3단계까지 중첩 ",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰로 적 5회 적중 시마다 자신의 포격 $1증가, 최대 3단계까지 중첩 ",
 		id = 11220,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -16593,11 +18580,14 @@ pg.skill_data_template = {
 	[11230] = {
 		desc_get = "",
 		name = "구레의 유키카제 ",
-		desc = "생존 시, 주력 함대의 받는 피해를 $1 감소시킨다. 주력 함대가 피해를 입어 내구도가 20% 이하로 내려갈 시, $2 내구도를 회복한다. 전투마다 1회 적용.",
 		type = 3,
 		max_level = 10,
+		desc = "생존 시, 주력 함대의 받는 피해를 $1 감소시킨다. 주력 함대가 피해를 입어 내구도가 20% 이하로 내려갈 시, $2 내구도를 회복한다. 전투마다 1회 적용.",
 		id = 11230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -16696,11 +18686,14 @@ pg.skill_data_template = {
 	[11240] = {
 		desc_get = "",
 		name = "불침한 행운함",
-		desc = "자신이 피해를 입을 시, $1의 확률로 해당 피해를 1로 감소시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 피해를 입을 시, $1의 확률로 해당 피해를 1로 감소시킨다.",
 		id = 11240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -16754,11 +18747,14 @@ pg.skill_data_template = {
 	[11250] = {
 		desc_get = "",
 		name = "과달카날 섬 강습",
-		desc = "자신의 포격이 $3 상승. 20초마다 $1 확률로 발동되며, 아군 순양함의 포격 및 뇌장 수치를 10초 동안 $2 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신의 포격이 $3 상승. 20초마다 $1 확률로 발동되며, 아군 순양함의 포격 및 뇌장 수치를 10초 동안 $2 상승시킨다.",
 		id = 11250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -16902,11 +18898,14 @@ pg.skill_data_template = {
 	[11260] = {
 		desc_get = "전투 중 자신의 두 번째 공중지원까지 추가적으로 함재기 편대가 공격을 진행한다. (위력은 스킬 레벨에 비례)",
 		name = "매의 급습",
-		desc = "전투 중 자신의 두 번째 공중지원까지 추가적으로 함재기 편대가 공격($1)을 진행한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 자신의 두 번째 공중지원까지 추가적으로 함재기 편대가 공격($1)을 진행한다.",
 		id = 11260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -16946,12 +18945,15 @@ pg.skill_data_template = {
 	[11270] = {
 		desc_get = "",
 		name = "뜨겁게 빛나는 주력함",
-		desc = "전함에 주는 대미지 $1증가, 주포 발사 시 $2 확률로 특수 탄막 (삼식탄) 을 발사한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전함에 주는 대미지 $1증가, 주포 발사 시 $2 확률로 특수 탄막 (삼식탄) 을 발사한다.",
 		id = 11270,
 		system_transform = {
 			[3.0] = 11271
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -17051,11 +19053,14 @@ pg.skill_data_template = {
 	[11280] = {
 		desc_get = "자신의 속력이 3 (최대 8), 기동이 13% (최대 25%) 상승. (몸이 작으면 움직이기도 편하고, 탄환에 맞을 걱정도 없어요!)",
 		name = "완벽한 꼬마 메이드",
-		desc = "자신의 속력이 $1, 기동이 $2 상승. (몸이 작으면 움직이기도 편하고, 탄환에 맞을 걱정도 없어요!)",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 속력이 $1, 기동이 $2 상승. (몸이 작으면 움직이기도 편하고, 탄환에 맞을 걱정도 없어요!)",
 		id = 11280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -17145,11 +19150,14 @@ pg.skill_data_template = {
 	[11290] = {
 		desc_get = "",
 		name = "레이디들의 다과회",
-		desc = "전투 개시 시 자신의 내구 최대치의 $1 만큼 아군의 내구를 회복한다. (전투 전엔 당연히 티타임이에요!)",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 시 자신의 내구 최대치의 $1 만큼 아군의 내구를 회복한다. (전투 전엔 당연히 티타임이에요!)",
 		id = 11290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -17203,11 +19211,14 @@ pg.skill_data_template = {
 	[11300] = {
 		desc_get = "",
 		name = "중포 일제 사격",
-		desc = "전투 개시 15초 후에 $1 확률로 특수 탄막을 전개하고, 그 뒤 20초마다 $1 확률로 특수 탄막을 전개한다. (특수 탄막 형태 및 위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 15초 후에 $1 확률로 특수 탄막을 전개하고, 그 뒤 20초마다 $1 확률로 특수 탄막을 전개한다. (특수 탄막 형태 및 위력은 스킬 레벨에 비례)",
 		id = 11300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -17261,11 +19272,14 @@ pg.skill_data_template = {
 	[11310] = {
 		desc_get = "",
 		name = "4대 연합함대 기함",
-		desc = "기함으로서 출격 시, 같은 함대 사쿠라 엠파이어 소속함의 포격 수치가 $2, 장전 및 명중 수치가 $1 상승한다. 사쿠라 엠파이어 소속 항공모함이 적에게 입히는 대미지가 $1 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "기함으로서 출격 시, 같은 함대 사쿠라 엠파이어 소속함의 포격 수치가 $2, 장전 및 명중 수치가 $1 상승한다. 사쿠라 엠파이어 소속 항공모함이 적에게 입히는 대미지가 $1 상승한다. ",
 		id = 11310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -17364,11 +19378,14 @@ pg.skill_data_template = {
 	[11320] = {
 		desc_get = "",
 		name = "중장형태 ",
-		desc = "20초마다 $1 확률로 강력한 탄막을 전개함과 동시에, 적탄을 5번 무효화할 수 있는 실드(10초간 지속)를 2장 생성하고, 10초간 자신의 주포 공격은 100% 크리티컬이 적용된다. ",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 강력한 탄막을 전개함과 동시에, 적탄을 5번 무효화할 수 있는 실드(10초간 지속)를 2장 생성하고, 10초간 자신의 주포 공격은 100% 크리티컬이 적용된다. ",
 		id = 11320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -17422,11 +19439,14 @@ pg.skill_data_template = {
 	[11330] = {
 		desc_get = "",
 		name = "영광 드높은 1번함 ",
-		desc = "자신이 전투 불능이 되지 않는 한, 같은 함대 콘고급의 포격 및 명중 수치가 $1 상승하고, 회피가 $2 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 전투 불능이 되지 않는 한, 같은 함대 콘고급의 포격 및 명중 수치가 $1 상승하고, 회피가 $2 상승한다. ",
 		id = 11330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -17525,11 +19545,14 @@ pg.skill_data_template = {
 	[11340] = {
 		desc_get = "",
 		name = "새벽빛 찬란한 무훈함 ",
-		desc = "주포 공격을 할 때마다, 자신의 포격 및 대공 수치가 $1 상승한다. (최대 4회까지 중첩 가능) ",
 		type = 1,
 		max_level = 10,
+		desc = "주포 공격을 할 때마다, 자신의 포격 및 대공 수치가 $1 상승한다. (최대 4회까지 중첩 가능) ",
 		id = 11340,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -17583,11 +19606,14 @@ pg.skill_data_template = {
 	[11350] = {
 		desc_get = "",
 		name = "제8 구축대 ",
-		desc = "출격 시, 같은 함대의 아사시오, 오오시오, 미치시오, 아라시오의 포격 및 장전 수치가 $1, 뇌장 수치가 $2 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 같은 함대의 아사시오, 오오시오, 미치시오, 아라시오의 포격 및 장전 수치가 $1, 뇌장 수치가 $2 상승한다. ",
 		id = 11350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -17686,11 +19712,14 @@ pg.skill_data_template = {
 	[11360] = {
 		desc_get = "",
 		name = "룽가곶 강습 ",
-		desc = "출격 시, 같은 함대 사쿠라 엠파이어 소속의 구축함이 순양함에 가하는 대미지가 $1 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 같은 함대 사쿠라 엠파이어 소속의 구축함이 순양함에 가하는 대미지가 $1 상승한다. ",
 		id = 11360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -17744,12 +19773,15 @@ pg.skill_data_template = {
 	[11370] = {
 		desc_get = "잠수함이 전장에 도착하고 8초 후에, 적을 한 바퀴 관통하여 적에게 대미지를 주는 어뢰 탄막이 전개된다. 어뢰는 첫 번째로 적중한 적을 관통한 후에도 계속 전진하여 그 다음 적에게도 대미지를 줄 수 있다. (위력은 스킬 레벨에 비례)",
 		name = "관통 공격",
-		desc = "잠수함이 전장에 도착하고 8초 후에, 적을 한 바퀴 관통하여 적에게 대미지를 주는 어뢰 탄막 $1이 전개된다. 어뢰는 첫 번째로 적중한 적을 관통한 후에도 계속 전진하여 그 다음 적에게도 대미지를 줄 수 있다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "잠수함이 전장에 도착하고 8초 후에, 적을 한 바퀴 관통하여 적에게 대미지를 주는 어뢰 탄막 $1이 전개된다. 어뢰는 첫 번째로 적중한 적을 관통한 후에도 계속 전진하여 그 다음 적에게도 대미지를 줄 수 있다. (위력은 스킬 레벨에 비례)",
 		id = 11370,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {
@@ -17799,12 +19831,15 @@ pg.skill_data_template = {
 	[11380] = {
 		desc_get = "",
 		name = "저력의 일격",
-		desc = "중순양함、초갑순양함에게 주는 대미지가 $1 상승. 지원 공격 종료 후 전장에서 이탈할 때, 어뢰 공격을 1회 전개한다. (위력은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "중순양함、초갑순양함에게 주는 대미지가 $1 상승. 지원 공격 종료 후 전장에서 이탈할 때, 어뢰 공격을 1회 전개한다. (위력은 스킬 레벨에 비례) ",
 		id = 11380,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -17859,12 +19894,15 @@ pg.skill_data_template = {
 	[11390] = {
 		desc_get = "",
 		name = "바다의 사냥꾼",
-		desc = "항공모함에게 주는 대미지가 $2 상승. 자신의 어뢰가 적에게 명중할 때, $1 확률로 적을 24초 동안 침수 상태에 빠뜨리고, 매 3초 마다 대미지를 준다. (위력은 자신의 뇌장 수치에 비례) 스킬 중복 적용 시 효과는 중첩되지 않으며, 스킬 지속 시간만 리셋된다.",
 		type = 1,
 		max_level = 10,
+		desc = "항공모함에게 주는 대미지가 $2 상승. 자신의 어뢰가 적에게 명중할 때, $1 확률로 적을 24초 동안 침수 상태에 빠뜨리고, 매 3초 마다 대미지를 준다. (위력은 자신의 뇌장 수치에 비례) 스킬 중복 적용 시 효과는 중첩되지 않으며, 스킬 지속 시간만 리셋된다.",
 		id = 11390,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -17964,11 +20002,14 @@ pg.skill_data_template = {
 	[11400] = {
 		desc_get = "",
 		name = "마법 소녀의 장난",
-		desc = "공중 지원 시 $1 확률로 추가적인 항공 공격을 진행한다. 추가 항공 공격이 명중한 적은 연소 및 침수 상태가 된다. (이 때의 대미지는 항공 스탯과 스킬 등급에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "공중 지원 시 $1 확률로 추가적인 항공 공격을 진행한다. 추가 항공 공격이 명중한 적은 연소 및 침수 상태가 된다. (이 때의 대미지는 항공 스탯과 스킬 등급에 비례)",
 		id = 11400,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -18022,12 +20063,15 @@ pg.skill_data_template = {
 	[11410] = {
 		desc_get = "",
 		name = "울프팩 U-81",
-		desc = "회피 능력을 올려주는 기동 수치가 $2 상승. 출격 시 함대에 메탈 블러드 잠수함이 편성되어 있을 경우, 메탈 블러드 잠수함 1대당 자신의 뇌장, 장전, 명중 수치가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "회피 능력을 올려주는 기동 수치가 $2 상승. 출격 시 함대에 메탈 블러드 잠수함이 편성되어 있을 경우, 메탈 블러드 잠수함 1대당 자신의 뇌장, 장전, 명중 수치가 $1 상승한다.",
 		id = 11410,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -18127,11 +20171,14 @@ pg.skill_data_template = {
 	[11420] = {
 		desc_get = "",
 		name = "BIG SEVEN - 사쿠라",
-		desc = "주포 발사 시 $1 확률로 특수 탄막을 발동한다. (위력은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1 확률로 특수 탄막을 발동한다. (위력은 스킬 레벨에 비례) ",
 		id = 11420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -18185,11 +20232,14 @@ pg.skill_data_template = {
 	[11430] = {
 		desc_get = "",
 		name = "BIG SEVEN - 사쿠라",
-		desc = "주포 발사 시 $1 확률로 특수 탄막을 발동한다. (위력은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1 확률로 특수 탄막을 발동한다. (위력은 스킬 레벨에 비례) ",
 		id = 11430,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -18243,12 +20293,15 @@ pg.skill_data_template = {
 	[11440] = {
 		desc_get = "",
 		name = "스캐퍼플로의 황소",
-		desc = "어뢰로 적 명중 후, 해당 적에게 5초 내에 또 한번 자신의 어뢰로 피해를 입힐 경우 피해 $1 증가",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰로 적 명중 후, 해당 적에게 5초 내에 또 한번 자신의 어뢰로 피해를 입힐 경우 피해 $1 증가",
 		id = 11440,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -18303,11 +20356,14 @@ pg.skill_data_template = {
 	[11450] = {
 		desc_get = "",
 		name = "오버 파이어",
-		desc = "20초마다 $1 확률로 발동된 뒤 자신의 포격($2), 장전($3) 수치를 10초 간 상승시키며, 버프 효과가 끝난 뒤 자신의 장전 수치가 3초간 100% 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동된 뒤 자신의 포격($2), 장전($3) 수치를 10초 간 상승시키며, 버프 효과가 끝난 뒤 자신의 장전 수치가 3초간 100% 감소한다.",
 		id = 11450,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -18451,12 +20507,15 @@ pg.skill_data_template = {
 	[11460] = {
 		desc_get = "",
 		name = "외로운 늑대",
-		desc = "출격 시, 함대에 자신 외의 잠수함이 없을 경우 전함(순양전함, 항전 제외)에게 입히는 피해 $1 증가, 사냥범위 레벨+1, 탄약량+2",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 함대에 자신 외의 잠수함이 없을 경우 전함(순양전함, 항전 제외)에게 입히는 피해 $1 증가, 사냥범위 레벨+1, 탄약량+2",
 		id = 11460,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -18511,12 +20570,15 @@ pg.skill_data_template = {
 	[11461] = {
 		desc_get = "",
 		name = "외로운 늑대",
-		desc = "출격 시, 함대에 자신 외의 잠수함이 없을 경우 전함(순양전함, 항전 제외)에게 입히는 피해 $1 증가, 사냥범위 레벨+1, 탄약량+2",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 함대에 자신 외의 잠수함이 없을 경우 전함(순양전함, 항전 제외)에게 입히는 피해 $1 증가, 사냥범위 레벨+1, 탄약량+2",
 		id = 11461,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -18571,11 +20633,14 @@ pg.skill_data_template = {
 	[11470] = {
 		desc_get = "",
 		name = "Nasty Asty",
-		desc = "뉴올리언스급 함선 소녀와 함께 출격할 시, 뉴올리언스급 함선 소녀의 포격 수치가 $1 상승하고, 대공 및 명중 수치가 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "뉴올리언스급 함선 소녀와 함께 출격할 시, 뉴올리언스급 함선 소녀의 포격 수치가 $1 상승하고, 대공 및 명중 수치가 $2 상승한다.",
 		id = 11470,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -18674,11 +20739,14 @@ pg.skill_data_template = {
 	[11480] = {
 		desc_get = "",
 		name = "쿨라만 야전 ",
-		desc = "매 20초마다 $1 확률로 10초 간 포격, 뇌장, 장전 수치가 $2 상승한다. 또한 한 전투에 한 번, 다른 선봉함대 함선의 내구도가 적의 공격으로 인해 20% 이하로 내려가는 경우, 전투가 끝날 때 까지 해당 함선이 받는 대미지를 $3 감소시켜준다. (해당 함선이 헬레나인 경우, 추가적으로 내구도가 8% 회복된다.) ",
 		type = 2,
 		max_level = 10,
+		desc = "매 20초마다 $1 확률로 10초 간 포격, 뇌장, 장전 수치가 $2 상승한다. 또한 한 전투에 한 번, 다른 선봉함대 함선의 내구도가 적의 공격으로 인해 20% 이하로 내려가는 경우, 전투가 끝날 때 까지 해당 함선이 받는 대미지를 $3 감소시켜준다. (해당 함선이 헬레나인 경우, 추가적으로 내구도가 8% 회복된다.) ",
 		id = 11480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40%",
@@ -18822,11 +20890,14 @@ pg.skill_data_template = {
 	[11490] = {
 		desc_get = "",
 		name = "정면 화력 투사",
-		desc = "주포 공격 시, $1 확률로 특수탄막을 발사한다.(위력이나 탄막은 스킬 레벨에 비례함) ",
 		type = 1,
 		max_level = 10,
+		desc = "주포 공격 시, $1 확률로 특수탄막을 발사한다.(위력이나 탄막은 스킬 레벨에 비례함) ",
 		id = 11490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -18880,11 +20951,14 @@ pg.skill_data_template = {
 	[11500] = {
 		desc_get = "",
 		name = "빛나는 아이리스 리브레",
-		desc = "자신의 주포 공격이 이전 주포 공격과 동일한 목표에 연속 명중한 경우(한 번의 포격으로 여러 대상을 명중시킨 경우, 명중한 목표 전체가 판정 대상이 된다), 자신의 장전 수치가 $1 상승한다(1초마다 1번씩, 최대 4번까지 중첩 가능). 다른 적에게 명중한 경우, 장전 상승 효과가 초기화된다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 주포 공격이 이전 주포 공격과 동일한 목표에 연속 명중한 경우(한 번의 포격으로 여러 대상을 명중시킨 경우, 명중한 목표 전체가 판정 대상이 된다), 자신의 장전 수치가 $1 상승한다(1초마다 1번씩, 최대 4번까지 중첩 가능). 다른 적에게 명중한 경우, 장전 상승 효과가 초기화된다.",
 		id = 11500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -18938,11 +21012,14 @@ pg.skill_data_template = {
 	[11510] = {
 		desc_get = "",
 		name = "공수 변경",
-		desc = "전투 개시 시, 자신이 선봉함대의 선두에 있을 경우, 주포의 위력 보정이 $1 상승하며 대공 장비의 위력 보정이 30% 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 자신이 선봉함대의 선두에 있을 경우, 주포의 위력 보정이 $1 상승하며 대공 장비의 위력 보정이 30% 감소한다.",
 		id = 11510,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -18996,11 +21073,14 @@ pg.skill_data_template = {
 	[11520] = {
 		desc_get = "",
 		name = "아이리스의 마음",
-		desc = "전투 개시 시, 아군 함대의 아이리스 리브레, 비시아 큐리아 진영 구축함의 포격, 뇌장, 명중 수치가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 아군 함대의 아이리스 리브레, 비시아 큐리아 진영 구축함의 포격, 뇌장, 명중 수치가 $1 상승한다.",
 		id = 11520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -19054,11 +21134,14 @@ pg.skill_data_template = {
 	[11530] = {
 		desc_get = "",
 		name = "파이러츠 소울",
-		desc = "자신의 매 주포 공격마다 초탄의 주포 대미지가 $1 상승하며, 수동 조준에 의한 위력 강화 효과가 $1이 된다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 매 주포 공격마다 초탄의 주포 대미지가 $1 상승하며, 수동 조준에 의한 위력 강화 효과가 $1이 된다.",
 		id = 11530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -19112,11 +21195,14 @@ pg.skill_data_template = {
 	[11540] = {
 		desc_get = "",
 		name = "라스트 파이어",
-		desc = "자신이 【380mm 4연장포 Mle1935】를 장비하고 있을 경우, 자신의 주포 공격의 크리티컬 확률이 $2, 크리티컬 대미지가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 【380mm 4연장포 Mle1935】를 장비하고 있을 경우, 자신의 주포 공격의 크리티컬 확률이 $2, 크리티컬 대미지가 $1 상승한다.",
 		id = 11540,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -19215,43 +21301,22 @@ pg.skill_data_template = {
 	[11550] = {
 		desc_get = "",
 		name = "Big Mamie",
-		desc = "전투 개시 시, 아군 함대에 자신 이외의 이글 유니온 소속 중순양함이나 전함이 있을 경우, 한 척마다 자신의 포격, 대공, 기동 수치가 $1 상승한다(최대 3척까지 중첩).",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시, 아군 함대 내 이글 유니온 중순양함 또는 전함 1척당 자신의 화력, 대공, 회피가 $1 상승한다. 최대 3회 중첩.",
 		id = 11550,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"1.0%",
-				"5.0%"
+				"3.5%",
+				"8.0%"
 			}
 		},
 		desc_add = {
 			{
-				{
-					"1.0%",
-					"+0.4%"
-				},
-				{
-					"1.4%",
-					"+0.4%"
-				},
-				{
-					"1.8%",
-					"+0.4%"
-				},
-				{
-					"2.2%",
-					"+0.4%"
-				},
-				{
-					"2.6%",
-					"+0.4%"
-				},
-				{
-					"3.0%",
-					"+0.5%"
-				},
 				{
 					"3.5%",
 					"+0.5%"
@@ -19265,7 +21330,31 @@ pg.skill_data_template = {
 					"+0.5%"
 				},
 				{
-					"5.0%"
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
 				}
 			}
 		}
@@ -19273,18 +21362,66 @@ pg.skill_data_template = {
 	[11560] = {
 		desc_get = "",
 		name = "2700파운드의 정의",
-		desc = "주포 공격의 속성이 '초중철갑탄'으로 변한다. 목표에 명중했을 때, 명중한 포탄의 비행 거리에 따라 위력이 상승한다. 최대 $1까지 상승 가능.",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 장비한 주포로 목표 명중 시, 비행 거리에 따라 포탄 대미지가 최대 $1 상승한다. 부포 슬롯에 이글 유니온 무기 장비 시, 해당 주포 포탄 대미지의 상승폭이 $2로 증가하며, 주포의 탄약 종류가 초중철갑탄으로 변경된다.",
 		id = 11560,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
 			{
 				"15.0%",
 				"30.0%"
 			}
 		},
 		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
 			{
 				{
 					"15.0%",
@@ -19331,11 +21468,14 @@ pg.skill_data_template = {
 	[11570] = {
 		desc_get = "",
 		name = "정찰 지원",
-		desc = "전투 개시 시, 20초간 아군 선봉함대의 명중 수치가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 20초간 아군 선봉함대의 명중 수치가 $1 상승한다.",
 		id = 11570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -19389,11 +21529,14 @@ pg.skill_data_template = {
 	[11580] = {
 		desc_get = "공중 지원 시 추가적으로 소드 피쉬 편대를 출격시켜 항공 어뢰 공격을 진행하고(위력은 스킬 레벨과 비례), 공격당한 적을 6초 간 40% 감속시킨다. 자신은 전함(순양전함, 항공 전항 미포함)에게 주는 대미지가 4% 상승한다(최고 레벨 시 10%).",
 		name = "소드 피쉬 출격·改",
-		desc = "공중 지원 시 추가적으로 소드 피쉬 편대를 출격시켜 항공 어뢰 공격을 진행, $2 대미지를 주고, 공격당한 적을 6초 간 40% 감속시킨다. 자신은 전함(순양전함, 항공전함 미포함)에게 주는 대미지가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "공중 지원 시 추가적으로 소드 피쉬 편대를 출격시켜 항공 어뢰 공격을 진행, $2 대미지를 주고, 공격당한 적을 6초 간 40% 감속시킨다. 자신은 전함(순양전함, 항공전함 미포함)에게 주는 대미지가 $1 상승한다.",
 		id = 11580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4%",
@@ -19483,11 +21626,14 @@ pg.skill_data_template = {
 	[11590] = {
 		desc_get = "",
 		name = "공역 제어",
-		desc = "공습을 진행한 후마다, 8초 간 아군 후열 캐릭터의 항공 수치를 $1 상승시키고, 포격 수치를 $2 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "공습을 진행한 후마다, 8초 간 아군 후열 캐릭터의 항공 수치를 $1 상승시키고, 포격 수치를 $2 상승시킨다.",
 		id = 11590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -19586,11 +21732,14 @@ pg.skill_data_template = {
 	[11600] = {
 		desc_get = "전투 시작 10초 후, 적이 일정 범위 내에 진입했을 때 특수 탄막을 발동한다. (위력은 스킬 레벨에 비례) 발동 후 10초의 쿨다운을 갖는다.",
 		name = "격투 포술",
-		desc = "전투 시작 10초 후, 적이 일정 범위 내에 진입했을 때 특수 탄막 $1 을 발동한다. 발동 후 10초의 쿨다운을 갖는다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 10초 후, 적이 일정 범위 내에 진입했을 때 특수 탄막 $1 을 발동한다. 발동 후 10초의 쿨다운을 갖는다.",
 		id = 11600,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -19639,11 +21788,14 @@ pg.skill_data_template = {
 	[11610] = {
 		desc_get = "전투 개시 시 첫 번째와 두 번째 공중지원 함재 시간을 5%(최대 25%) 감소시키고, 추가적으로 함재기 '스이세이' 을 사용하여 공격한다(위력은 스킬 레벨에 비례). 임의의 항공모함 혹은 경항공모함과 출격 시엔 효과의 횟수 제한이 없어진다.",
 		name = "항공전대",
-		desc = "전투 개시 시 첫 번째와 두 번째 공중지원의 함재 시간을 $1 감소시키고, 추가적으로 함재기 '스이세이' 을 사용하여 $2의 피해를 준다. 임의의 항공모함 혹은 경항공모함과 출격 시엔 효과의 횟수 제한이 없어진다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 시 첫 번째와 두 번째 공중지원의 함재 시간을 $1 감소시키고, 추가적으로 함재기 '스이세이' 을 사용하여 $2의 피해를 준다. 임의의 항공모함 혹은 경항공모함과 출격 시엔 효과의 횟수 제한이 없어진다.",
 		id = 11610,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -19733,57 +21885,60 @@ pg.skill_data_template = {
 	[11620] = {
 		desc_get = "",
 		name = "운명의 주사위",
-		desc = "공중지원 준비가 완료 되었을 때, $1의 확률로 류세이 / 스이세이 / 사이운 편대로 추가 공격을 진행한다. 이 세 종류의 편대는 각자의 확률을 가지고 있어 동시에 발동될 수도 있다.(사이운 편대는 탄약을 소지하지 않으며, 발동 시 주력함대의 대미지를 8초 간 10% 증가시킨다.)",
 		type = 1,
 		max_level = 10,
+		desc = "공중 지원 준비 완료 시, 류세이/스이세이/사이운 중 한 종류의 편대로 공격을 진행한다. 나머지 두 편대는 각각 $1의 독립된 확률로 공격을 발동한다.(사이운 편대는 탄약을 소지하지 않으며, 발동 시 주력 함대의 대미지를 8초 간 10% 증가시킨다.)",
 		id = 11620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"20.0%",
-				"40.0%"
+				"10.0%",
+				"25.0%"
 			}
 		},
 		desc_add = {
 			{
 				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
 					"20.0%",
-					"+2.2%"
+					"+1.6%"
 				},
 				{
-					"22.2%",
-					"+2.2%"
+					"21.6%",
+					"+1.6%"
 				},
 				{
-					"24.4%",
-					"+2.2%"
+					"23.2%",
+					"+1.8%"
 				},
 				{
-					"26.6%",
-					"+2.2%"
-				},
-				{
-					"28.8%",
-					"+2.2%"
-				},
-				{
-					"31.0%",
-					"+2.2%"
-				},
-				{
-					"33.2%",
-					"+2.2%"
-				},
-				{
-					"35.4%",
-					"+2.2%"
-				},
-				{
-					"37.6%",
-					"+2.4%"
-				},
-				{
-					"40.0%"
+					"25.0%"
 				}
 			}
 		}
@@ -19791,11 +21946,14 @@ pg.skill_data_template = {
 	[11630] = {
 		desc_get = "",
 		name = "사쿠라 엠파이어 장갑항모",
-		desc = "자신이 받는 고폭탄의 대미지가 $1 감소되고, 자신이 받는 항공 대미지가 $1 감소된다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 받는 고폭탄의 대미지가 $1 감소되고, 자신이 받는 항공 대미지가 $1 감소된다.",
 		id = 11630,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -19849,11 +22007,14 @@ pg.skill_data_template = {
 	[11640] = {
 		desc_get = "",
 		name = "선전의 함",
-		desc = "공중지원 시, 추가적으로 $2레벨의 TBF 어벤져 편대를 사용해 1회 공격한다. 해당 편대의 어뢰는 명중된 적함에게 지속적인 침수 대미지를 입힌다(대미지는 항공 수치와 스킬 레벨에 비례). 자신이 전함에 입히는 대미지가 $1 증가한다. (순양전함, 항공전함 제외) ",
 		type = 1,
 		max_level = 10,
+		desc = "공중지원 시, 추가적으로 $2레벨의 TBF 어벤져 편대를 사용해 1회 공격한다. 해당 편대의 어뢰는 명중된 적함에게 지속적인 침수 대미지를 입힌다(대미지는 항공 수치와 스킬 레벨에 비례). 자신이 전함에 입히는 대미지가 $1 증가한다. (순양전함, 항공전함 제외) ",
 		id = 11640,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4%",
@@ -19943,11 +22104,14 @@ pg.skill_data_template = {
 	[11650] = {
 		desc_get = "",
 		name = "항공 진열",
-		desc = "출격 시, 함대 중 한 명의 이글 유니온 항공모함 혹은 경항모마다 자신의 항공, 대공 수치가 $1 증가한다. 자신의 함재기가 적 비행기를 격추하였을 시, 자신의 항공 수치를 $2 증가시킨다.(최대 5회 중첩 가능)",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 함대 중 한 명의 이글 유니온 항공모함 혹은 경항모마다 자신의 항공, 대공 수치가 $1 증가한다. 자신의 함재기가 적 비행기를 격추하였을 시, 자신의 항공 수치를 $2 증가시킨다.(최대 5회 중첩 가능)",
 		id = 11650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -20046,11 +22210,14 @@ pg.skill_data_template = {
 	[11660] = {
 		desc_get = "",
 		name = "절대 회피",
-		desc = "출격 시 함대 중 4명 이상의 이글 유니온 캐릭터가 있으면, 모든 함대원이 함재기의 어뢰 혹은 폭격 공격을 받았을 때 $1의 확률로 피해를 1로 감소시킬 수 있다.",
 		type = 2,
 		max_level = 10,
+		desc = "출격 시 함대 중 4명 이상의 이글 유니온 캐릭터가 있으면, 모든 함대원이 함재기의 어뢰 혹은 폭격 공격을 받았을 때 $1의 확률로 피해를 1로 감소시킬 수 있다.",
 		id = 11660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -20104,12 +22271,15 @@ pg.skill_data_template = {
 	[11670] = {
 		desc_get = "잠수함이 산소 부족으로 수면에 나타나거나 전장에서 퇴각할 때마다, 스킬로써 어뢰를 1회 발사한다(위력은 스킬 레벨에 비례). 어뢰는 70%의 확률로 명중된 적에게 화재를 일으킨다.(연소 대미지는 뇌격 속성에 비례)",
 		name = "서프라이즈 선물",
-		desc = "잠수함이 산소 부족으로 수면에 나타나거나 전장에서 퇴각할 때마다, 스킬로써 $1 레벨의 어뢰를 1회 발사한다(위력은 스킬 레벨에 비례). 어뢰는 70%의 확률로 명중된 적에게 화재를 일으킨다.(연소 대미지는 뇌격 속성에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "잠수함이 산소 부족으로 수면에 나타나거나 전장에서 퇴각할 때마다, 스킬로써 $1 레벨의 어뢰를 1회 발사한다(위력은 스킬 레벨에 비례). 어뢰는 70%의 확률로 명중된 적에게 화재를 일으킨다.(연소 대미지는 뇌격 속성에 비례)",
 		id = 11670,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {
@@ -20150,12 +22320,15 @@ pg.skill_data_template = {
 	[11680] = {
 		desc_get = "",
 		name = "숙련된 사냥꾼",
-		desc = "구축함, 경순양함, 항공모함에게 주는 대미지 $1 증가",
 		type = 1,
 		max_level = 10,
+		desc = "구축함, 경순양함, 항공모함에게 주는 대미지 $1 증가",
 		id = 11680,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -20210,11 +22383,14 @@ pg.skill_data_template = {
 	[11690] = {
 		desc_get = "",
 		name = "수도의 용맹스러운 전사",
-		desc = "자신이 적함을 격파했을 때, 12초간 자신의 포격 수치가 $1, 장전 수치가 $2 상승한다. (매초 당 최대 1번만 발동되고, 중첩되지 않으며, 지속시간 내 발동 시엔 지속시간이 초기화 된다.)",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 적함을 격파했을 때, 12초간 자신의 포격 수치가 $1, 장전 수치가 $2 상승한다. (매초 당 최대 1번만 발동되고, 중첩되지 않으며, 지속시간 내 발동 시엔 지속시간이 초기화 된다.)",
 		id = 11690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -20313,11 +22489,14 @@ pg.skill_data_template = {
 	[11700] = {
 		desc_get = "",
 		name = "대담무쌍",
-		desc = "선봉함대의 선두로써 출격 시 대공 수치가 40% 감소, 명중률 $1 감소, 기동 $2 상승, 포격 $3 상승, 항속 3 상승.",
 		type = 3,
 		max_level = 10,
+		desc = "선봉함대의 선두로써 출격 시 대공 수치가 40% 감소, 명중률 $1 감소, 기동 $2 상승, 포격 $3 상승, 항속 3 상승.",
 		id = 11700,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20%",
@@ -20461,11 +22640,14 @@ pg.skill_data_template = {
 	[11710] = {
 		desc_get = "",
 		name = "듀라한",
-		desc = "전투 중 피해를 입어 자신의 전투 수치가 30% 이하로 떨어지면 자신이 받는 대미지가 $2 감소하고, 16초 간 속력이 2 감소, 3초 마다 최대 내구 수치의 $1을 회복한다. 매 전투 당 1번만 발동 가능.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중 피해를 입어 자신의 전투 수치가 30% 이하로 떨어지면 자신이 받는 대미지가 $2 감소하고, 16초 간 속력이 2 감소, 3초 마다 최대 내구 수치의 $1을 회복한다. 매 전투 당 1번만 발동 가능.",
 		id = 11710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -20564,11 +22746,14 @@ pg.skill_data_template = {
 	[11720] = {
 		desc_get = "",
 		name = "별의 노래",
-		desc = "자신의 대공 수치가 $2 상승하고, 20초 마다 $1 확률로 강력한 탄막을 전개한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 대공 수치가 $2 상승하고, 20초 마다 $1 확률로 강력한 탄막을 전개한다.",
 		id = 11720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50%",
@@ -20667,11 +22852,14 @@ pg.skill_data_template = {
 	[11730] = {
 		desc_get = "",
 		name = "리틀 스타",
-		desc = "전투 개시 후 15초 뒤 발동된다. 아군 함대의 포격, 장전, 기동 수치를 20초 간 $1 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 후 15초 뒤 발동된다. 아군 함대의 포격, 장전, 기동 수치를 20초 간 $1 상승시킨다.",
 		id = 11730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -20725,11 +22913,14 @@ pg.skill_data_template = {
 	[11740] = {
 		desc_get = "",
 		name = "바람의 가호",
-		desc = "자신의 어뢰가 발사될 때 $1 확률로 발동된다. 5초 간 모든 공격을 회피한다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 어뢰가 발사될 때 $1 확률로 발동된다. 5초 간 모든 공격을 회피한다.",
 		id = 11740,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -20783,11 +22974,14 @@ pg.skill_data_template = {
 	[11750] = {
 		desc_get = "",
 		name = "경항모 콤보",
-		desc = "공습을 진행할 때 마다, $1 확률로 8초 간 자신의 항공 수치와 아군 경항공모함의 장전 수치가 $2 상승하고, 아군 항공모함 및 경항공모함이 받는 대미지가 $2 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "공습을 진행할 때 마다, $1 확률로 8초 간 자신의 항공 수치와 아군 경항공모함의 장전 수치가 $2 상승하고, 아군 항공모함 및 경항공모함이 받는 대미지가 $2 감소한다.",
 		id = 11750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -20886,11 +23080,14 @@ pg.skill_data_template = {
 	[11760] = {
 		desc_get = "",
 		name = "공습신호",
-		desc = "자신의 공습 준비가 완료되고 5초 뒤, 추가적으로 함상폭격대($1)를 통해 공격을 진행한다. 매 전투마다 최대 2번까지 발동 가능.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 공습 준비가 완료되고 5초 뒤, 추가적으로 함상폭격대($1)를 통해 공격을 진행한다. 매 전투마다 최대 2번까지 발동 가능.",
 		id = 11760,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -20944,11 +23141,14 @@ pg.skill_data_template = {
 	[11770] = {
 		desc_get = "",
 		name = "Terror Field",
-		desc = "점화, 자폭선의 자폭 피해가 $2 감소, 고폭탄 피해가 $3 감소. 부포 크리티컬 확률 $1 증가, 부포의 탄약은 장갑 유형의 영향을 받지 않으며, 대미지는 스킬 레벨에 따라 상승",
 		type = 3,
 		max_level = 10,
+		desc = "점화, 자폭선의 자폭 피해가 $2 감소, 고폭탄 피해가 $3 감소. 부포 크리티컬 확률 $1 증가, 부포의 탄약은 장갑 유형의 영향을 받지 않으며, 대미지는 스킬 레벨에 따라 상승",
 		id = 11770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40%",
@@ -21092,11 +23292,14 @@ pg.skill_data_template = {
 	[11780] = {
 		desc_get = "",
 		name = "봉황의 날개짓은 태양을 가리우니",
-		desc = "자신이 생존해 있는 동안 모든 적의 포격, 뇌장, 항공 수치가 $1 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 생존해 있는 동안 모든 적의 포격, 뇌장, 항공 수치가 $1 감소한다.",
 		id = 11780,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.0%",
@@ -21150,11 +23353,14 @@ pg.skill_data_template = {
 	[11790] = {
 		desc_get = "",
 		name = "모략에 능한 자 천리를 거머쥐리라",
-		desc = "자신이 생존해 있는 동안, 아군 주력함대가 받는 연소 대미지가 $1 감소하며, 회피율이 $2 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 생존해 있는 동안, 아군 주력함대가 받는 연소 대미지가 $1 감소하며, 회피율이 $2 상승한다.",
 		id = 11790,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -21253,11 +23459,14 @@ pg.skill_data_template = {
 	[11800] = {
 		desc_get = "",
 		name = "포신을 울려 기선을 제압한다 ",
-		desc = "주포 공격 시, $1 확률로 전방에 특수탄막을 전개한다(위력은 스킬 레벨에 비례). 아군 함대에 사쿠라 엠파이어 소속 함선이 4척 이상 편성되어있는 경우, 자신의 첫 번째 주포 공격의 장전 시간이 $2 감소한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "주포 공격 시, $1 확률로 전방에 특수탄막을 전개한다(위력은 스킬 레벨에 비례). 아군 함대에 사쿠라 엠파이어 소속 함선이 4척 이상 편성되어있는 경우, 자신의 첫 번째 주포 공격의 장전 시간이 $2 감소한다. ",
 		id = 11800,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -21356,12 +23565,15 @@ pg.skill_data_template = {
 	[11810] = {
 		desc_get = "",
 		name = "임전필승 ",
-		desc = "주포 공격 시, $1 확률로 전방에 특수탄막을 전개한다(위력은 스킬 레벨에 비례). ",
 		type = 1,
 		max_level = 10,
+		desc = "주포 공격 시, $1 확률로 전방에 특수탄막을 전개한다(위력은 스킬 레벨에 비례). ",
 		id = 11810,
 		system_transform = {
 			[3.0] = 11811
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -21416,11 +23628,14 @@ pg.skill_data_template = {
 	[11820] = {
 		desc_get = "전투 개시 10초 후, 어뢰탄막을 전개한다. 이후 40초(스킬 레벨 최대일 경우 20초)마다 어뢰탄막을 추가 전개한다(위력은 스킬 레벨에 비례).",
 		name = "백전불태 ",
-		desc = "전투 개시 10초 후, 어뢰탄막을 전개한다. 이후 $1초마다 어뢰탄막을 추가 전개한다(위력은 스킬 레벨에 비례).",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 10초 후, 어뢰탄막을 전개한다. 이후 $1초마다 어뢰탄막을 추가 전개한다(위력은 스킬 레벨에 비례).",
 		id = 11820,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21469,11 +23684,14 @@ pg.skill_data_template = {
 	[11830] = {
 		desc_get = "전투 개시 15초 후 한 번, 이후 20초마다 공중지원을 발동한다. [오광 / 고도리 / 청단 / 열끗] 중 랜덤으로 뽑히는 하나의 패에 따라, 그리고 스킬 레벨에 따라 공중지원의 위력이 달라진다. (패는 전부 뽑힐 확률이 다르다)",
 		name = "화투 ",
-		desc = "전투 개시 15초 후 한 번, 이후 20초마다 공중지원을 발동한다. [오광 / 고도리 / 청단 / 열끗] 중 랜덤으로 뽑히는 하나의 패에 따라, 그리고 스킬 레벨에 따라 공중지원의 위력이 상승한다. $1 (패는 전부 뽑힐 확률이 다르다)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 15초 후 한 번, 이후 20초마다 공중지원을 발동한다. [오광 / 고도리 / 청단 / 열끗] 중 랜덤으로 뽑히는 하나의 패에 따라, 그리고 스킬 레벨에 따라 공중지원의 위력이 상승한다. $1 (패는 전부 뽑힐 확률이 다르다)",
 		id = 11830,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21523,11 +23741,14 @@ pg.skill_data_template = {
 	[11840] = {
 		desc_get = "전투 개시 10초 후 한 번, 이후 20초마다 공중지원을 발동한다. [오광 / 비삼광 / 홍단 / 피] 중 랜덤으로 뽑히는 하나의 패에 따라, 그리고 스킬 레벨에 따라 공중지원의 위력이 달라진다. (패는 전부 뽑힐 확률이 다르다)",
 		name = "화투 ",
-		desc = "전투 개시 10초 후 한 번, 이후 20초마다 공중지원을 발동한다. [오광 / 비삼광 / 홍단 / 피] 중 랜덤으로 뽑히는 하나의 패에 따라, 그리고 스킬 레벨에 따라 공중지원의 위력이 상승한다. $1 (패는 전부 뽑힐 확률이 다르다)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 10초 후 한 번, 이후 20초마다 공중지원을 발동한다. [오광 / 비삼광 / 홍단 / 피] 중 랜덤으로 뽑히는 하나의 패에 따라, 그리고 스킬 레벨에 따라 공중지원의 위력이 상승한다. $1 (패는 전부 뽑힐 확률이 다르다)",
 		id = 11840,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21577,11 +23798,14 @@ pg.skill_data_template = {
 	[11850] = {
 		desc_get = "",
 		name = "수라바야의 굶주린 늑대",
-		desc = "20초마다 $1 확률로 특수탄막을 전개하며, 10초 동안 자신의 포격 수치가 $2, 경순양함、중순양함、초갑순양함에 입히는 대미지가 $2 상승한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 특수탄막을 전개하며, 10초 동안 자신의 포격 수치가 $2, 경순양함、중순양함、초갑순양함에 입히는 대미지가 $2 상승한다. ",
 		id = 11850,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -21680,11 +23904,14 @@ pg.skill_data_template = {
 	[11860] = {
 		desc_get = "",
 		name = "천랑의 인",
-		desc = "출격 시 같은 함대 경항모·정규항모의 항공이 $1, 적 구축·경순·중순·초갑순에 대한 명중률이 $1 증가한다.출격 시 같은 함대의 경항모·정규항모 1대당 자신의 포격·뇌장·장전이 $2 증가한다. 최대 3회 중첩 가능",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시 같은 함대 경항모·정규항모의 항공이 $1, 적 구축·경순·중순·초갑순에 대한 명중률이 $1 증가한다.출격 시 같은 함대의 경항모·정규항모 1대당 자신의 포격·뇌장·장전이 $2 증가한다. 최대 3회 중첩 가능",
 		id = 11860,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -21783,11 +24010,14 @@ pg.skill_data_template = {
 	[11870] = {
 		desc_get = "전투 개시 10초 후부터 35초(최대 레벨 시 15초)마다, 가장 떨어진 적 1체에 특수 탄막을 전개하여, 아군 로열 네이비 주력함이 자동으로 주포공격을 행할 때 그 적에게 조준할 확률이 한 번만 상승하고, 첫 번째 특수 탄막의 대미지가 80%(최대 레벨 시 130%) 상승한다.",
 		name = "절대 명중의 숙녀·改",
-		desc = "전투 개시 10초 후부터 $1초마다, 가장 떨어진 적 1체에 특수 탄막($2 탄막, 위력은 스킬 레벨에 비례)을 전개하여, 아군 로열 네이비 주력함이 자동으로 주포공격을 행할 때 그 적에게 조준할 확률이 한 번만 상승하고, 첫 번째 특수 탄막의 대미지가 $3 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 10초 후부터 $1초마다, 가장 떨어진 적 1체에 특수 탄막($2 탄막, 위력은 스킬 레벨에 비례)을 전개하여, 아군 로열 네이비 주력함이 자동으로 주포공격을 행할 때 그 적에게 조준할 확률이 한 번만 상승하고, 첫 번째 특수 탄막의 대미지가 $3 상승한다.",
 		id = 11870,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -21909,11 +24139,14 @@ pg.skill_data_template = {
 	[11880] = {
 		desc_get = "자신이 장비 중인 주포의 확산 범위를 0.5(최대 레벨 시 5) 집중시킨다. 자신의 포격 수치가 3%(최대 레벨 시 15%) 상승하고, 구축함에 대한 명중률이 3%(최대 레벨에서 15%) 상승한다.",
 		name = "레전드 오브 로열 네이비",
-		desc = "자신이 장비 중인 주포의 확산 범위를 $1 집중시킨다. 자신의 포격 수치가 $2 상승하고, 구축함에 대한 명중률이 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 장비 중인 주포의 확산 범위를 $1 집중시킨다. 자신의 포격 수치가 $2 상승하고, 구축함에 대한 명중률이 $2 상승한다.",
 		id = 11880,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -22003,11 +24236,14 @@ pg.skill_data_template = {
 	[11890] = {
 		desc_get = "자신이 받는 연소 대미지가 5%(최대 레벨 시 15%) 감소하고, 연소 지속 시간을 3초간 단축한다. 전투 중 대미지를 입어 자신의 내구 수치가 최대치의 25% 아래로 내려간 경우, 1회에 한해 10초간 자신의 회피율이 10%(최대 레벨 시 30%) 상승한다.",
 		name = "광염 속의 기적",
-		desc = "자신이 받는 연소 대미지가 $1 감소하고, 연소 지속 시간을 3초간 단축한다. 전투 중 대미지를 입어 자신의 내구 수치가 최대치의 25% 아래로 내려간 경우, 1회에 한해 10초간 자신의 회피율이 $2 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 받는 연소 대미지가 $1 감소하고, 연소 지속 시간을 3초간 단축한다. 전투 중 대미지를 입어 자신의 내구 수치가 최대치의 25% 아래로 내려간 경우, 1회에 한해 10초간 자신의 회피율이 $2 상승한다.",
 		id = 11890,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -22106,11 +24342,14 @@ pg.skill_data_template = {
 	[11900] = {
 		desc_get = "",
 		name = "북극 항로의 수호자",
-		desc = "항공 공격 시마다 대잠수함 수색을 실시하여 전장 내 적 잠수함을 $1초간 노출시키고, 소드피쉬 816 중대로 대잠 및 어뢰 공격하여 $1초 동안 전장 내 모든 적 잠수함의 속력을 40% 감소시킨다(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "항공 공격 시마다 대잠수함 수색을 실시하여 전장 내 적 잠수함을 $1초간 노출시키고, 소드피쉬 816 중대로 대잠 및 어뢰 공격하여 $1초 동안 전장 내 모든 적 잠수함의 속력을 40% 감소시킨다(위력은 스킬 레벨에 비례)",
 		id = 11900,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5",
@@ -22164,11 +24403,14 @@ pg.skill_data_template = {
 	[11910] = {
 		desc_get = "",
 		name = "창공에 높이 솟는 매 ",
-		desc = "크록히드의 함재기를 사용하면 추가로 $1의 장비 효율을 얻는다.",
 		type = 1,
 		max_level = 10,
+		desc = "크록히드의 함재기를 사용하면 추가로 $1의 장비 효율을 얻는다.",
 		id = 11910,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -22222,11 +24464,14 @@ pg.skill_data_template = {
 	[11920] = {
 		desc_get = "",
 		name = "하늘의기사",
-		desc = "자체 공습 시 TBF 어벤져 편대를 추가로 사용하여 1회 공격 $1(위력 기능 등급에 따라 상승), 출격 시 팀에 클리브랜드급 함선소녀가 포함되어 있다면, 해당 포격 속성 $3 상승, 자체 항공 업그레이드, 명중 $2 상승, TBF 어벤져 편대 탄막 양식이 강화된다.",
 		type = 3,
 		max_level = 10,
+		desc = "자체 공습 시 TBF 어벤져 편대를 추가로 사용하여 1회 공격 $1(위력 기능 등급에 따라 상승), 출격 시 팀에 클리브랜드급 함선소녀가 포함되어 있다면, 해당 포격 속성 $3 상승, 자체 항공 업그레이드, 명중 $2 상승, TBF 어벤져 편대 탄막 양식이 강화된다.",
 		id = 11920,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -22370,11 +24615,14 @@ pg.skill_data_template = {
 	[11930] = {
 		desc_get = "",
 		name = "둘리틀 공습·改 ",
-		desc = "공습시 $1 확률로 발동, B#25을 사용하여 1회의 항공 탄막공격을 추가로 실시한다.",
 		type = 1,
 		max_level = 10,
+		desc = "공습시 $1 확률로 발동, B#25을 사용하여 1회의 항공 탄막공격을 추가로 실시한다.",
 		id = 11930,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -22428,11 +24676,14 @@ pg.skill_data_template = {
 	[11940] = {
 		desc_get = "",
 		name = "하늘과바다의 관측자",
-		desc = "전투 개시 10초 동안 F6F 핼켓 1대를 띄우며, 전투기가 격추당할 시 항공탄막(위력은 레벨에 비례)을 발사한다. 전투기를 띄우고 8초마다 자신의 명중이 $2 상승, 자신의 대미지가 $1 상승(최대 5회 중첩)한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 10초 동안 F6F 핼켓 1대를 띄우며, 전투기가 격추당할 시 항공탄막(위력은 레벨에 비례)을 발사한다. 전투기를 띄우고 8초마다 자신의 명중이 $2 상승, 자신의 대미지가 $1 상승(최대 5회 중첩)한다. ",
 		id = 11940,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"2.5%",
@@ -22531,11 +24782,14 @@ pg.skill_data_template = {
 	[11950] = {
 		desc_get = "",
 		name = "부동항의 협주곡",
-		desc = "출격 시, 자체 어뢰 크리티컬 확률이 $1 상승, 구축함에 대한 피해가 $2 상승하며, 아군 로열 네이비 구축함의 뇌장 속성 $3만큼 상승시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시, 자체 어뢰 크리티컬 확률이 $1 상승, 구축함에 대한 피해가 $2 상승하며, 아군 로열 네이비 구축함의 뇌장 속성 $3만큼 상승시킨다.",
 		id = 11950,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -22679,11 +24933,14 @@ pg.skill_data_template = {
 	[11960] = {
 		desc_get = "",
 		name = "피오르드의 별",
-		desc = "전투 중, 첫 번째 어뢰 발사 시 특수 연막탄 $1(위력은 레벨에 비례) 발사한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 첫 번째 어뢰 발사 시 특수 연막탄 $1(위력은 레벨에 비례) 발사한다.",
 		id = 11960,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -22737,11 +24994,14 @@ pg.skill_data_template = {
 	[11970] = {
 		desc_get = "",
 		name = "전의상승",
-		desc = "주포로 10회 공격 시, 자체 장전이 $1 상승하고, 전탄발사 피해량이 $2 상승한다, 최대 4회 중첩 .",
 		type = 1,
 		max_level = 10,
+		desc = "주포로 10회 공격 시, 자체 장전이 $1 상승하고, 전탄발사 피해량이 $2 상승한다, 최대 4회 중첩 .",
 		id = 11970,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -22840,11 +25100,14 @@ pg.skill_data_template = {
 	[11980] = {
 		desc_get = "",
 		name = "특혼분대 기함",
-		desc = "자체 항공 $1 상승, 기함으로 출격 시, 편성중인 이글 유니온 전함의 포격이 $1 상승한다. 요함으로 출격시, 편성중인 이글 유니온 구축함의 포격과 대공이 $1 상승 한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자체 항공 $1 상승, 기함으로 출격 시, 편성중인 이글 유니온 전함의 포격이 $1 상승한다. 요함으로 출격시, 편성중인 이글 유니온 구축함의 포격과 대공이 $1 상승 한다.",
 		id = 11980,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -22898,11 +25161,14 @@ pg.skill_data_template = {
 	[11990] = {
 		desc_get = "",
 		name = "임무충실",
-		desc = "함대 내 다른 경항공모함과 항공모함 부재 시, 주력함대의 대공이 $2 상승한다. 공습 시, 항공 탄막 $1(항공 탄막 유형은 함대 내 경항공모함, 항공모함의 총수량에 따라 변경되며, 위력은 스킬 레벨에 비례)을 발사한다.",
 		type = 1,
 		max_level = 10,
+		desc = "함대 내 다른 경항공모함과 항공모함 부재 시, 주력함대의 대공이 $2 상승한다. 공습 시, 항공 탄막 $1(항공 탄막 유형은 함대 내 경항공모함, 항공모함의 총수량에 따라 변경되며, 위력은 스킬 레벨에 비례)을 발사한다.",
 		id = 11990,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -23001,11 +25267,14 @@ pg.skill_data_template = {
 	[12000] = {
 		desc_get = "",
 		name = "극동의 속박",
-		desc = "함대 내 (생존)시, 경항공모함, 항공모함이 받는 대미지가 $1 감소한다. 그리들리와 동시 출격시, 자체 포격이 $2 상승, 그리들리의 포격, 장전이 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "함대 내 (생존)시, 경항공모함, 항공모함이 받는 대미지가 $1 감소한다. 그리들리와 동시 출격시, 자체 포격이 $2 상승, 그리들리의 포격, 장전이 $2 상승한다.",
 		id = 12000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -23104,12 +25373,15 @@ pg.skill_data_template = {
 	[12010] = {
 		desc_get = "",
 		name = "Code:Hikari",
-		desc = "출격 시, 사이운 함재기 1대를 내보낸다. 다음 10초 동안, 주력 함대의 대미지가 $1 증가한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 사이운 함재기 1대를 내보낸다. 다음 10초 동안, 주력 함대의 대미지가 $1 증가한다. ",
 		id = 12010,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -23164,22 +25436,28 @@ pg.skill_data_template = {
 	[12020] = {
 		desc_get = "",
 		name = "潜母飞机用",
-		desc = "",
 		type = 0,
 		max_level = 0,
+		desc = "",
 		id = 12020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[12030] = {
 		desc_get = "",
 		name = "밤하늘을 가르는 불꽃 ",
-		desc = "주포로 적 8회 명중 시마다, 자신의 포격 $1, 장전 $2 증가. 최대 3회 중첩. 3중첩 후, 탄막 형식의 강화 전탄을 발사한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "주포로 적 8회 명중 시마다, 자신의 포격 $1, 장전 $2 증가. 최대 3회 중첩. 3중첩 후, 탄막 형식의 강화 전탄을 발사한다. ",
 		id = 12030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -23278,11 +25556,14 @@ pg.skill_data_template = {
 	[12040] = {
 		desc_get = "",
 		name = "변덕스러운 기술자",
-		desc = "전투 중, 12초마다 개발중인 특수 장비 $1을 1회 사용한다. (특수 장비의 효과는 스킬 레벨에 비례)",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 12초마다 개발중인 특수 장비 $1을 1회 사용한다. (특수 장비의 효과는 스킬 레벨에 비례)",
 		id = 12040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -23336,11 +25617,14 @@ pg.skill_data_template = {
 	[12050] = {
 		desc_get = "35초(최대 레벨 20초) 마다 전방에 탄막 어뢰를 발사한다(위력은 스킬 레벨에 비례함)",
 		name = "어뢰, 발사!",
-		desc = "$1초 마다 전방에 탄막 어뢰를 발사한다(위력은 스킬 레벨에 비례함)",
 		type = 1,
 		max_level = 10,
+		desc = "$1초 마다 전방에 탄막 어뢰를 발사한다(위력은 스킬 레벨에 비례함)",
 		id = 12050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"35.0",
@@ -23394,11 +25678,14 @@ pg.skill_data_template = {
 	[12060] = {
 		desc_get = "",
 		name = "성산의 작은 마녀",
-		desc = "전투 중 20초마다 발동한다. 아군이 받는 점화 피해량이 $1 감소한다. (8초간 지속)",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중 20초마다 발동한다. 아군이 받는 점화 피해량이 $1 감소한다. (8초간 지속)",
 		id = 12060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30%",
@@ -23452,11 +25739,14 @@ pg.skill_data_template = {
 	[12070] = {
 		desc_get = "",
 		name = "기선 제압",
-		desc = "출격 시 만약 함대에 사쿠라 엠파이어 캐릭터 수가 3보다 많으면 12초마다 $1의 항공 탄막을 발사한다.",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시 만약 함대에 사쿠라 엠파이어 캐릭터 수가 3보다 많으면 12초마다 $1의 항공 탄막을 발사한다.",
 		id = 12070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -23510,11 +25800,14 @@ pg.skill_data_template = {
 	[12080] = {
 		desc_get = "",
 		name = "적홍색의 가호",
-		desc = "자신 공습 시, 선봉함대의 현재 내구 수치가 가장 낮은 캐릭터에게 $1초 동안 모든 공격을 회피하는 능력을 부여한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신 공습 시, 선봉함대의 현재 내구 수치가 가장 낮은 캐릭터에게 $1초 동안 모든 공격을 회피하는 능력을 부여한다.",
 		id = 12080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"2.0",
@@ -23568,11 +25861,14 @@ pg.skill_data_template = {
 	[12090] = {
 		desc_get = "",
 		name = "나의 포를 받아라！",
-		desc = "전투 중 8초마다 자신의 포격이 $1 포인트 상승한다. 효과가 3번 중첩될 때 마다 특수 탄막을 발사하고 해당 효과가 제거된다. 부포 장비 장착 시, 특수 탄막이 강화된다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 8초마다 자신의 포격이 $1 포인트 상승한다. 효과가 3번 중첩될 때 마다 특수 탄막을 발사하고 해당 효과가 제거된다. 부포 장비 장착 시, 특수 탄막이 강화된다.",
 		id = 12090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20",
@@ -23626,11 +25922,14 @@ pg.skill_data_template = {
 	[12100] = {
 		desc_get = "",
 		name = "메탈 블러드 제 1항모！",
-		desc = "출격 시 아군에 메탈 블러드 캐릭터가 있을 때 자신의 항공, 대공, 장전 수치가 $1 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시 아군에 메탈 블러드 캐릭터가 있을 때 자신의 항공, 대공, 장전 수치가 $1 상승한다.",
 		id = 12100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -23684,11 +25983,14 @@ pg.skill_data_template = {
 	[12110] = {
 		desc_get = "",
 		name = "Destiny Draw！",
-		desc = "전투 시 20초 마다 특수 효과를 랜덤으로 발동($1)(일부 특수 효과의 위력은 스킬 레벨에 따른다). 전투에서 대미지를 받아 자신의 내구도가 최대치의 30% 이하가 된 경우, 행운이 7포인트 상승한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시 20초 마다 특수 효과를 랜덤으로 발동($1)(일부 특수 효과의 위력은 스킬 레벨에 따른다). 전투에서 대미지를 받아 자신의 내구도가 최대치의 30% 이하가 된 경우, 행운이 7포인트 상승한다. ",
 		id = 12110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -23742,11 +26044,14 @@ pg.skill_data_template = {
 	[12120] = {
 		desc_get = "",
 		name = "Wahrheit",
-		desc = "매 회 자신의 주포 포격의 첫 발사가 무조건 크리티컬 대미지로 적용된다. 부포 위치에 경순양함 주포를 장착하면 자신의 부포의 적 탐색 및 공격 사거리가 $1만큼 상승하며, 입히는 대미지가 35% 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "매 회 자신의 주포 포격의 첫 발사가 무조건 크리티컬 대미지로 적용된다. 부포 위치에 경순양함 주포를 장착하면 자신의 부포의 적 탐색 및 공격 사거리가 $1만큼 상승하며, 입히는 대미지가 35% 감소한다.",
 		id = 12120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"65",
@@ -23845,12 +26150,15 @@ pg.skill_data_template = {
 	[12130] = {
 		desc_get = "",
 		name = "굴복하지 않는 힘",
-		desc = "기함으로 출격 시, 자신의 주포 사격에 $1확률로 탄막을 발사하고, 메탈 블러드 소속 항공모함의 입히는 대미지가 $2만큼 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "기함으로 출격 시, 자신의 주포 사격에 $1확률로 탄막을 발사하고, 메탈 블러드 소속 항공모함의 입히는 대미지가 $2만큼 상승한다.",
 		id = 12130,
 		system_transform = {
 			[3.0] = 12135
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -23950,11 +26258,14 @@ pg.skill_data_template = {
 	[12140] = {
 		desc_get = "",
 		name = "메탈 블러드의 의지",
-		desc = "출격 중, 함대 내 메탈 블러드 소속 함선의 포격, 뇌격, 항공 장비의 크리티컬 확률이 $2만큼, 장전이 $1만큼 상승한다. 티르피츠의 입히는 대미지가 $3만큼 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "출격 중, 함대 내 메탈 블러드 소속 함선의 포격, 뇌격, 항공 장비의 크리티컬 확률이 $2만큼, 장전이 $1만큼 상승한다. 티르피츠의 입히는 대미지가 $3만큼 상승한다. ",
 		id = 12140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -24098,12 +26409,15 @@ pg.skill_data_template = {
 	[12150] = {
 		desc_get = "",
 		name = "최적화 무장",
-		desc = "전투 중, 24초마다 $3의 확률로 탄막을 발사한다. 4연장 356mm 주포를 장착하면 자신의 첫 포격의 장전 시간이 $1만큼 감소하고, 주포의 크리티컬 확률이 $2만큼 상승, 확산범위가 2만큼 감소 및 탄막이 강화한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 24초마다 $3의 확률로 탄막을 발사한다. 4연장 356mm 주포를 장착하면 자신의 첫 포격의 장전 시간이 $1만큼 감소하고, 주포의 크리티컬 확률이 $2만큼 상승, 확산범위가 2만큼 감소 및 탄막이 강화한다. ",
 		id = 12150,
 		system_transform = {
 			[3.0] = 12170
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -24248,11 +26562,14 @@ pg.skill_data_template = {
 	[12160] = {
 		desc_get = "",
 		name = "태양이 지지않는 영광",
-		desc = "사쿠라 엠파이어, 메탈 블러드, 사르데냐 엠파이어, 세이렌 소속 함선에 대해 데미지가 $1 만큼 상승한다. 함대에 편성된 로열 네이비 소속 캐릭터가 3명 이상일 경우 자신의 포격, 장전, 기동, 대공 속성이 $2 만큼 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "사쿠라 엠파이어, 메탈 블러드, 사르데냐 엠파이어, 세이렌 소속 함선에 대해 데미지가 $1 만큼 상승한다. 함대에 편성된 로열 네이비 소속 캐릭터가 3명 이상일 경우 자신의 포격, 장전, 기동, 대공 속성이 $2 만큼 상승한다. ",
 		id = 12160,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -24351,12 +26668,15 @@ pg.skill_data_template = {
 	[12180] = {
 		desc_get = "",
 		name = "맹세의 빛",
-		desc = "출격 중, 동료의 남은 내구도가 20% 미만일 시, 즉시 어뢰탄막을 발사한다(전투마다 1회만 발동됨). 함대 내 비스마르크가 있으면 탄막이 강화된다.",
 		type = 1,
 		max_level = 10,
+		desc = "출격 중, 동료의 남은 내구도가 20% 미만일 시, 즉시 어뢰탄막을 발사한다(전투마다 1회만 발동됨). 함대 내 비스마르크가 있으면 탄막이 강화된다.",
 		id = 12180,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -24364,11 +26684,14 @@ pg.skill_data_template = {
 	[12190] = {
 		desc_get = "",
 		name = "마력 강타",
-		desc = "자신의 포격, 뇌격 속성이 $1만큼 상승하고 특수탄막을 1회 발사한다. 전투 시작 시 발동된 후 20초마다 발동되며, 20초 동안 0%까지 지속적으로 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 포격, 뇌격 속성이 $1만큼 상승하고 특수탄막을 1회 발사한다. 전투 시작 시 발동된 후 20초마다 발동되며, 20초 동안 0%까지 지속적으로 감소한다.",
 		id = 12190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"9.0%",
@@ -24422,11 +26745,14 @@ pg.skill_data_template = {
 	[12210] = {
 		desc_get = "",
 		name = "벌새의 침략",
-		desc = "Fl-282 장비 시, 전투 개시 10초 후 Fl-282 헬리콥터를 내보내며, 이후 30초마다 헬리콥터를 내보낸다. 헬리콥터는 적 잠수함을 10초 동안 노출시키며, 전장 내 모든 적 잠수함의 회피가 $1 감소하고, 모든 아군의 대잠 대미지가 $1 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "Fl-282 장비 시, 전투 개시 10초 후 Fl-282 헬리콥터를 내보내며, 이후 30초마다 헬리콥터를 내보낸다. 헬리콥터는 적 잠수함을 10초 동안 노출시키며, 전장 내 모든 적 잠수함의 회피가 $1 감소하고, 모든 아군의 대잠 대미지가 $1 상승한다.",
 		id = 12210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -24480,11 +26806,14 @@ pg.skill_data_template = {
 	[12220] = {
 		desc_get = "",
 		name = "순결한 빛",
-		desc = "20초마다 $1 확률로 발동, 10초 동안 적군의 포격, 뇌격, 항공 수치를 $2 감소시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 발동, 10초 동안 적군의 포격, 뇌격, 항공 수치를 $2 감소시킨다.",
 		id = 12220,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -24583,11 +26912,14 @@ pg.skill_data_template = {
 	[12230] = {
 		desc_get = "",
 		name = "천진난만의 소녀",
-		desc = "대공 사격 시 30% 확률로 발동, 5초 동안 자신의 대공 수치가 $1 상승한다, 전투 중 꼬마 샌디에이고, 꼬마 클리블랜드가 피해를 입어 내구도가 40% 이하로 떨어지면 발동, 15초 동안 자신의 포격, 명중 수치가 $1 상승한다, 매 전투 당 1번만 발동 가능. ",
 		type = 2,
 		max_level = 10,
+		desc = "대공 사격 시 30% 확률로 발동, 5초 동안 자신의 대공 수치가 $1 상승한다, 전투 중 꼬마 샌디에이고, 꼬마 클리블랜드가 피해를 입어 내구도가 40% 이하로 떨어지면 발동, 15초 동안 자신의 포격, 명중 수치가 $1 상승한다, 매 전투 당 1번만 발동 가능. ",
 		id = 12230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -24641,11 +26973,14 @@ pg.skill_data_template = {
 	[12240] = {
 		desc_get = "",
 		name = "기사의 마음",
-		desc = "임의의 클리블랜드급 함선과 함께 출격 시 자신의 방공 수치가 $1 상승하고, 명중 수치가 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "임의의 클리블랜드급 함선과 함께 출격 시 자신의 방공 수치가 $1 상승하고, 명중 수치가 $2 상승한다.",
 		id = 12240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -24744,11 +27079,14 @@ pg.skill_data_template = {
 	[12250] = {
 		desc_get = "",
 		name = "단련되지 않은 기사",
-		desc = "선봉 기함으로 출격 시 자신이 받는 대미지가 $1 감소하며, 전투 중 꼬마 헬레나, 꼬마 샌디에이고가 받는 포격 대미지가 $2 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "선봉 기함으로 출격 시 자신이 받는 대미지가 $1 감소하며, 전투 중 꼬마 헬레나, 꼬마 샌디에이고가 받는 포격 대미지가 $2 감소한다.",
 		id = 12250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -24847,11 +27185,14 @@ pg.skill_data_template = {
 	[12260] = {
 		desc_get = "",
 		name = "반짝반짝 등장",
-		desc = "전투 시작 1초 후 발동, 자신의 포격, 뇌격, 대잠 수치가 $1 상승하고, 30초 동안 전 함선의 받는 대미지를 $2 감소시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 1초 후 발동, 자신의 포격, 뇌격, 대잠 수치가 $1 상승하고, 30초 동안 전 함선의 받는 대미지를 $2 감소시킨다.",
 		id = 12260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -24950,11 +27291,14 @@ pg.skill_data_template = {
 	[12270] = {
 		desc_get = "",
 		name = "Star Spark！",
-		desc = "전투 중, 14초 마다 스타형 탄막 공격 $1을 1회 발사한다.(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 14초 마다 스타형 탄막 공격 $1을 1회 발사한다.(위력은 스킬 레벨에 비례)",
 		id = 12270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -25008,11 +27352,14 @@ pg.skill_data_template = {
 	[12280] = {
 		desc_get = "",
 		name = "디스트로이 모드·오리지널 ",
-		desc = "20초마다 $1확률로 디스트로이 모드·오리지널이 개방되어, 10초 간 자신의 치명타 피해량이 $2 상승하고, 선봉함대가 받는 항공 피해가 $3 감소합니다. 동시에 전탄 발사 1번 발동. ",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1확률로 디스트로이 모드·오리지널이 개방되어, 10초 간 자신의 치명타 피해량이 $2 상승하고, 선봉함대가 받는 항공 피해가 $3 감소합니다. 동시에 전탄 발사 1번 발동. ",
 		id = 12280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -25156,11 +27503,14 @@ pg.skill_data_template = {
 	[12290] = {
 		desc_get = "",
 		name = "안전제일! ",
-		desc = "필드에서 선봉함대의 항속이 3 상승하며, 선봉함대와 적이 충돌할 시, 아군이 받는 피해가 $1 감소됩니다. 또한 전투 중 자신의 HP가 30% 이하로 떨어질 시 다음과 같은 효과 적용: $3초 동안 모든 공격을 회피하며, 자신의 피해량 $2 상승, 전투 종료 시까지 효력이 발생합니다. (매 전투마다 단 1회만 적용.) ",
 		type = 2,
 		max_level = 10,
+		desc = "필드에서 선봉함대의 항속이 3 상승하며, 선봉함대와 적이 충돌할 시, 아군이 받는 피해가 $1 감소됩니다. 또한 전투 중 자신의 HP가 30% 이하로 떨어질 시 다음과 같은 효과 적용: $3초 동안 모든 공격을 회피하며, 자신의 피해량 $2 상승, 전투 종료 시까지 효력이 발생합니다. (매 전투마다 단 1회만 적용.) ",
 		id = 12290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -25304,11 +27654,14 @@ pg.skill_data_template = {
 	[12300] = {
 		desc_get = "",
 		name = "대공지령",
-		desc = "대공 사격 시, $1 확률로 발동. 아군 전열 함대의 대공이 10초 간 $1 증가. 대공 사격 범위 내에서 적 전투기 5대 격추 시마다 자신의 포격 스탯 1% 증가, 주력 함대가 받는 항공 데미지 1% 감소. 최대 $2회 중첩.",
 		type = 2,
 		max_level = 10,
+		desc = "대공 사격 시, $1 확률로 발동. 아군 전열 함대의 대공이 10초 간 $1 증가. 대공 사격 범위 내에서 적 전투기 5대 격추 시마다 자신의 포격 스탯 1% 증가, 주력 함대가 받는 항공 데미지 1% 감소. 최대 $2회 중첩.",
 		id = 12300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -25403,11 +27756,14 @@ pg.skill_data_template = {
 	[12310] = {
 		desc_get = "",
 		name = "파이어 컨트롤 시스템",
-		desc = "전투 중, 자신의 크리티컬 확률 $1 증가, 구축함, 경순양함에 대한 명중률 $2 증가. 자신의 주포에 명중당한 적에게 10% 확률로 6초 간 회피율을 $2 감소시킴.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 자신의 크리티컬 확률 $1 증가, 구축함, 경순양함에 대한 명중률 $2 증가. 자신의 주포에 명중당한 적에게 10% 확률로 6초 간 회피율을 $2 감소시킴.",
 		id = 12310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -25506,11 +27862,14 @@ pg.skill_data_template = {
 	[12320] = {
 		desc_get = "",
 		name = "Gassing Breath",
-		desc = "주포로 동일한 적 10회 명중 시, 해당 적이 구축함으로부터 받는 포격, 뇌장 피해가 $1만큼 상승, 5초간 지속. 전투 중 적함 격파 시마다, 자신의 포격 스탯이 $2 상승, 최대 10회 중첩.",
 		type = 1,
 		max_level = 10,
+		desc = "주포로 동일한 적 10회 명중 시, 해당 적이 구축함으로부터 받는 포격, 뇌장 피해가 $1만큼 상승, 5초간 지속. 전투 중 적함 격파 시마다, 자신의 포격 스탯이 $2 상승, 최대 10회 중첩.",
 		id = 12320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -25609,11 +27968,14 @@ pg.skill_data_template = {
 	[12330] = {
 		desc_get = "",
 		name = "흥분의 독 ",
-		desc = "전투 시작 시, 회피, 뇌장 스탯 $1 상승. 전투 개시 30초 후, 해당 버프가 20초에 걸쳐 0%까지 점차 감소",
 		type = 2,
 		max_level = 10,
+		desc = "전투 시작 시, 회피, 뇌장 스탯 $1 상승. 전투 개시 30초 후, 해당 버프가 20초에 걸쳐 0%까지 점차 감소",
 		id = 12330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -25667,11 +28029,14 @@ pg.skill_data_template = {
 	[12350] = {
 		desc_get = "",
 		name = "불굴의 마녀 ",
-		desc = "내구력 80% 이하일 시, 잃은 내구력 백분율에 따라 자신의 포격, 뇌장이 최고 $2까지 상승. 내구력 30% 이하일 시, 자신의 방공 $1 상승, 전투 종료까지 지속됨.",
 		type = 1,
 		max_level = 10,
+		desc = "내구력 80% 이하일 시, 잃은 내구력 백분율에 따라 자신의 포격, 뇌장이 최고 $2까지 상승. 내구력 30% 이하일 시, 자신의 방공 $1 상승, 전투 종료까지 지속됨.",
 		id = 12350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"6%",
@@ -25770,11 +28135,14 @@ pg.skill_data_template = {
 	[12360] = {
 		desc_get = "",
 		name = "사랑의 사도 ",
-		desc = "기타 구축함과 동시 출격 시, 자신의 방공, 포격, 명중 $1 상승. 구축함의 체력이 50% 이하일 시, 특수 탄막 1회 발동(한 전투 당 1회만 발동)",
 		type = 1,
 		max_level = 10,
+		desc = "기타 구축함과 동시 출격 시, 자신의 방공, 포격, 명중 $1 상승. 구축함의 체력이 50% 이하일 시, 특수 탄막 1회 발동(한 전투 당 1회만 발동)",
 		id = 12360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -25828,12 +28196,15 @@ pg.skill_data_template = {
 	[12370] = {
 		desc_get = "",
 		name = "글렌의 안부인사",
-		desc = "출격 시 제로식 소형 수상 정찰기를 보내 공격하고(위력은 뇌장 속성에 비례), 이번 전투의 팀 내의 모든 잠수함, 잠항모의 명중이 $1증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시 제로식 소형 수상 정찰기를 보내 공격하고(위력은 뇌장 속성에 비례), 이번 전투의 팀 내의 모든 잠수함, 잠항모의 명중이 $1증가한다.",
 		id = 12370,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -25888,12 +28259,15 @@ pg.skill_data_template = {
 	[12380] = {
 		desc_get = "",
 		name = "이별의 선물",
-		desc = "잠수함의 산소가 부족해 부상 시 전탄을 발사한다(위력은 스킬 레벨에 비례). 전탄 발사 및 자신의 포격 명중 시 $1의 확률로 명중당한 적의 포격, 뇌장, 항공이 $2하락한다. 10초동안 지속.",
 		type = 1,
 		max_level = 10,
+		desc = "잠수함의 산소가 부족해 부상 시 전탄을 발사한다(위력은 스킬 레벨에 비례). 전탄 발사 및 자신의 포격 명중 시 $1의 확률로 명중당한 적의 포격, 뇌장, 항공이 $2하락한다. 10초동안 지속.",
 		id = 12380,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -25993,12 +28367,15 @@ pg.skill_data_template = {
 	[12390] = {
 		desc_get = "",
 		name = "복수의 칼날",
-		desc = "항공모함에 입히는 데미지가 $1증가한다. 전투 중 자신의 산소가 부족해 부상 시 반드시 치명타가 발동되는 어뢰를 발사한다.(위력과 양식은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "항공모함에 입히는 데미지가 $1증가한다. 전투 중 자신의 산소가 부족해 부상 시 반드시 치명타가 발동되는 어뢰를 발사한다.(위력과 양식은 스킬 레벨에 비례)",
 		id = 12390,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26053,12 +28430,15 @@ pg.skill_data_template = {
 	[12400] = {
 		desc_get = "",
 		name = "대어 돌격 ",
-		desc = "전투 중, 자신의 명중 속성이 $1 증가한다. 잠수함 편대의 기함이 아닌 위치에 있을 시 전투 중 작전 위치가 전방으로 이동하며, 작전 진입 18초 후 원 위치로 후퇴한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중, 자신의 명중 속성이 $1 증가한다. 잠수함 편대의 기함이 아닌 위치에 있을 시 전투 중 작전 위치가 전방으로 이동하며, 작전 진입 18초 후 원 위치로 후퇴한다.",
 		id = 12400,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26113,12 +28493,15 @@ pg.skill_data_template = {
 	[12410] = {
 		desc_get = "",
 		name = "울프팩-U101",
-		desc = "출격 시 철혈 진영의 잠수함 캐릭터의 회피율이 $1 증가하고 구축, 경순함에게 입히는 데미지가 $1 증가한다. 출격 시 함대에 메탈 블러드 잠수함이 편성되어 있을 경우, 메탈 블러드 잠수함 1대당 자신의 뇌장, 장전 수치가 $2 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "출격 시 철혈 진영의 잠수함 캐릭터의 회피율이 $1 증가하고 구축, 경순함에게 입히는 데미지가 $1 증가한다. 출격 시 함대에 메탈 블러드 잠수함이 편성되어 있을 경우, 메탈 블러드 잠수함 1대당 자신의 뇌장, 장전 수치가 $2 상승한다.",
 		id = 12410,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26218,11 +28601,14 @@ pg.skill_data_template = {
 	[12420] = {
 		desc_get = "",
 		name = "Londinium",
-		desc = "주포 사격시 $1의 확률로 2배의 데미지를 입힌다. 전투 중 자신이 적 함선 격파 시 자신의 명중 속성이 $2증가하며, 최대 8회 중첩된다. ",
 		type = 1,
 		max_level = 10,
+		desc = "주포 사격시 $1의 확률로 2배의 데미지를 입힌다. 전투 중 자신이 적 함선 격파 시 자신의 명중 속성이 $2증가하며, 최대 8회 중첩된다. ",
 		id = 12420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -26322,12 +28708,15 @@ pg.skill_data_template = {
 	[12430] = {
 		desc_get = "",
 		name = "Lucky A",
-		desc = "전투 중 자신의 기동 $1 증가, 뇌격 피해 $2 감소. 매 20초 마다 $3의 확률로 강력한 탄막(위력과 패턴은 스킬 레벨에 비례) 전개",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 자신의 기동 $1 증가, 뇌격 피해 $2 감소. 매 20초 마다 $3의 확률로 강력한 탄막(위력과 패턴은 스킬 레벨에 비례) 전개",
 		id = 12430,
 		system_transform = {
 			[3.0] = 12435
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26472,11 +28861,14 @@ pg.skill_data_template = {
 	[12440] = {
 		desc_get = "",
 		name = "평화로 향하는 전사",
-		desc = "스테이지 출격 중 자신의 소속 편대가 적 편대 격파 시, 전투 중 자신의 포격 $1 증가. 적 5회 격파시 전투중 아군 주력편대의 피해 $2 감소. 전투 중 자신이 적함을 격파 시, 포격 $1 증가(포격 최대 7회 중첩)",
 		type = 1,
 		max_level = 10,
+		desc = "스테이지 출격 중 자신의 소속 편대가 적 편대 격파 시, 전투 중 자신의 포격 $1 증가. 적 5회 격파시 전투중 아군 주력편대의 피해 $2 감소. 전투 중 자신이 적함을 격파 시, 포격 $1 증가(포격 최대 7회 중첩)",
 		id = 12440,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -26575,12 +28967,15 @@ pg.skill_data_template = {
 	[12460] = {
 		desc_get = "",
 		name = "물고기 수호",
-		desc = "아군 잠수함, 잠수항모가 전투 중에 받는 피해 $1 감소, 전장에서 퇴각 시 $2의 HP 회복",
 		type = 2,
 		max_level = 10,
+		desc = "아군 잠수함, 잠수항모가 전투 중에 받는 피해 $1 감소, 전장에서 퇴각 시 $2의 HP 회복",
 		id = 12460,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26680,12 +29075,15 @@ pg.skill_data_template = {
 	[12470] = {
 		desc_get = "",
 		name = "날개 잃은 상어",
-		desc = "항공모함에 주는 피해 $1 증가, 전투 중 산소 부족으로 떠오르거나 퇴각 시 어뢰탄막 $2 발사(위력과 패턴은 스킬 레벨에 비례). 알바코어와 같은 편대에 편성 시, 스킬과 어뢰의 피해량 $3 증가",
 		type = 1,
 		max_level = 10,
+		desc = "항공모함에 주는 피해 $1 증가, 전투 중 산소 부족으로 떠오르거나 퇴각 시 어뢰탄막 $2 발사(위력과 패턴은 스킬 레벨에 비례). 알바코어와 같은 편대에 편성 시, 스킬과 어뢰의 피해량 $3 증가",
 		id = 12470,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -26830,11 +29228,14 @@ pg.skill_data_template = {
 	[12480] = {
 		desc_get = "",
 		name = "Final-AP-Ride",
-		desc = "주포의 탄약종류를 전용 장비탄 $1로 변경. 장갑 피해량은 스킬 레벨에 따라 증가",
 		type = 1,
 		max_level = 10,
+		desc = "주포의 탄약종류를 전용 장비탄 $1로 변경. 장갑 피해량은 스킬 레벨에 따라 증가",
 		id = 12480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -26888,11 +29289,14 @@ pg.skill_data_template = {
 	[12490] = {
 		desc_get = "",
 		name = "올 라운더",
-		desc = "이글 유니온 소속 경항공모함, 항공모함과 함께 출격 시, 전체 대공 $1 증가, 함대 내의 이글 유니온 소속 경항공모함, 항공모함 항공 $2 증가. 함대 내에 해당 함선이 없을 시 자신의 포격 $3, 기동 $2 증가 ",
 		type = 3,
 		max_level = 10,
+		desc = "이글 유니온 소속 경항공모함, 항공모함과 함께 출격 시, 전체 대공 $1 증가, 함대 내의 이글 유니온 소속 경항공모함, 항공모함 항공 $2 증가. 함대 내에 해당 함선이 없을 시 자신의 포격 $3, 기동 $2 증가 ",
 		id = 12490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"2.5%",
@@ -27036,11 +29440,14 @@ pg.skill_data_template = {
 	[12500] = {
 		desc_get = "",
 		name = "도전자의 포효",
-		desc = " F6F 헬캣 장비 시, 전투기 효율 $1 증가, 공습 시 $2의 확률로  F6F 헬캣을 사용해 $3 폭격",
 		type = 1,
 		max_level = 10,
+		desc = " F6F 헬캣 장비 시, 전투기 효율 $1 증가, 공습 시 $2의 확률로  F6F 헬캣을 사용해 $3 폭격",
 		id = 12500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -27184,11 +29591,14 @@ pg.skill_data_template = {
 	[12520] = {
 		desc_get = "",
 		name = "분전하는 수호자",
-		desc = "자신이 전투에 참여 시, 기함과 자신의 화재 지속 시간 3초 감소. 대공권 내에서 적 비행기가 격추되었을 시, 자신의 포격, 대공 $1 증가. 지속시간 8초, 중첩 불가",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 전투에 참여 시, 기함과 자신의 화재 지속 시간 3초 감소. 대공권 내에서 적 비행기가 격추되었을 시, 자신의 포격, 대공 $1 증가. 지속시간 8초, 중첩 불가",
 		id = 12520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -27242,11 +29652,14 @@ pg.skill_data_template = {
 	[12530] = {
 		desc_get = "",
 		name = "해상기사의 각오",
-		desc = "자신이 피해를 입었을 시 $1의 확률로 발동, 자신의 기동 $2 증가, 지속시간 5초, 발동 후 쿨타임 8초. 전투 중 피격으로 HP가 30% 미만이 될 시, 5초 내로 자신에 대한 모든 공격을 완전 회피. 완전 회피 효과는 매 전투당 1회 발동",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 피해를 입었을 시 $1의 확률로 발동, 자신의 기동 $2 증가, 지속시간 5초, 발동 후 쿨타임 8초. 전투 중 피격으로 HP가 30% 미만이 될 시, 5초 내로 자신에 대한 모든 공격을 완전 회피. 완전 회피 효과는 매 전투당 1회 발동",
 		id = 12530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -27345,11 +29758,14 @@ pg.skill_data_template = {
 	[12540] = {
 		desc_get = "",
 		name = "항행금지 경고",
-		desc = "대공포 발사 시 25% 확률로 발동, 함대 내 이글 유니온 소속 함선의 대공 $1 증가, 지속시간 5초. 주포가 적 함선을 13회 명중 할 때 마다 자신의 포격 $2 증가, 최대 3중첩",
 		type = 3,
 		max_level = 10,
+		desc = "대공포 발사 시 25% 확률로 발동, 함대 내 이글 유니온 소속 함선의 대공 $1 증가, 지속시간 5초. 주포가 적 함선을 13회 명중 할 때 마다 자신의 포격 $2 증가, 최대 3중첩",
 		id = 12540,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -27448,11 +29864,14 @@ pg.skill_data_template = {
 	[12550] = {
 		desc_get = "",
 		name = "우드스톡의 장궁",
-		desc = "이글 유니온의 유닛과 함께 출격 시, 자신의 주포 크리티컬 확률 $1 증가, 자신의 포격, 뇌격 $2 증가",
 		type = 1,
 		max_level = 10,
+		desc = "이글 유니온의 유닛과 함께 출격 시, 자신의 주포 크리티컬 확률 $1 증가, 자신의 포격, 뇌격 $2 증가",
 		id = 12550,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -27551,11 +29970,14 @@ pg.skill_data_template = {
 	[12560] = {
 		desc_get = "",
 		name = "배시 인 더 스카이",
-		desc = "자신이 받는 항공 데미지 $1 감소, 대공포 사격시 25% 확률로 발동. 8초 동안 자신의 대공 $2 증가",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 받는 항공 데미지 $1 감소, 대공포 사격시 25% 확률로 발동. 8초 동안 자신의 대공 $2 증가",
 		id = 12560,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -27654,11 +30076,14 @@ pg.skill_data_template = {
 	[12570] = {
 		desc_get = "",
 		name = "팔로워 윙",
-		desc = "자신의 항공이 $2 증가, 페어리 알바코어를 탑재 시, 무기 슬롯의 무기 효율이 $1증가. 공습 발동 시, $3의 확률로 알바코어 편대가 추가로 공격. 알바코어 편대의 공격은 적 명중 시 80% 확률로 9초간 침수 피해를 입힘.(대미지는 항공 스탯과 스킬 레벨에 따름)",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 항공이 $2 증가, 페어리 알바코어를 탑재 시, 무기 슬롯의 무기 효율이 $1증가. 공습 발동 시, $3의 확률로 알바코어 편대가 추가로 공격. 알바코어 편대의 공격은 적 명중 시 80% 확률로 9초간 침수 피해를 입힘.(대미지는 항공 스탯과 스킬 레벨에 따름)",
 		id = 12570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -27802,11 +30227,14 @@ pg.skill_data_template = {
 	[12580] = {
 		desc_get = "",
 		name = "기관 금지",
-		desc = "공습 시 $1의 확률로 발동(매 전투의 첫번째 공습에 발동), 모든 적의 항속이 $2초간 0으로 변하며, 이후 2.5초간 지속적으로 스킬의 효과가 무효화",
 		type = 3,
 		max_level = 10,
+		desc = "공습 시 $1의 확률로 발동(매 전투의 첫번째 공습에 발동), 모든 적의 항속이 $2초간 0으로 변하며, 이후 2.5초간 지속적으로 스킬의 효과가 무효화",
 		id = 12580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -27905,11 +30333,14 @@ pg.skill_data_template = {
 	[12590] = {
 		desc_get = "",
 		name = "박스 행거",
-		desc = "자신의 피격 대미지를 $1 감소, 자신이 공습 발동 시, 10초 동안 자신 외의 주력 함대 멤버의 피격 대미지를 $2 감소",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 피격 대미지를 $1 감소, 자신이 공습 발동 시, 10초 동안 자신 외의 주력 함대 멤버의 피격 대미지를 $2 감소",
 		id = 12590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -28008,12 +30439,15 @@ pg.skill_data_template = {
 	[12600] = {
 		desc_get = "",
 		name = "Rose Bombardamento",
-		desc = "주포 발사 시, $1의 확률로 특수 탄막(위력은 스킬 레벨에 비례) 발사. [381Mm 3연장포 Model1934] 장착 시, 탄막이 강화되며 발사 확률이 10% 증가",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시, $1의 확률로 특수 탄막(위력은 스킬 레벨에 비례) 발사. [381Mm 3연장포 Model1934] 장착 시, 탄막이 강화되며 발사 확률이 10% 증가",
 		id = 12600,
 		system_transform = {
 			[3.0] = 12605
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -28068,11 +30502,14 @@ pg.skill_data_template = {
 	[12610] = {
 		desc_get = "",
 		name = "사르데냐의 자긍심",
-		desc = "전투 개시 시 자신과 선봉 함대에 실드 2개를 생성, 실드는 $1개의 어뢰를 막을 수 있음. 출격 시, 3회까지 자신이 포함된 함대의 포격이 $2 증가",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시 자신과 선봉 함대에 실드 2개를 생성, 실드는 $1개의 어뢰를 막을 수 있음. 출격 시, 3회까지 자신이 포함된 함대의 포격이 $2 증가",
 		id = 12610,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1",
@@ -28162,11 +30599,14 @@ pg.skill_data_template = {
 	[12620] = {
 		desc_get = "",
 		name = "테르니의 방패",
-		desc = "자신이 피격 시, $1의 확률로 실드 2개를 생성, 매 실드는 10개의 탄약을 막을 수 있음. 지속 시간 12초",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 피격 시, $1의 확률로 실드 2개를 생성, 매 실드는 10개의 탄약을 막을 수 있음. 지속 시간 12초",
 		id = 12620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -28220,11 +30660,14 @@ pg.skill_data_template = {
 	[12630] = {
 		desc_get = "",
 		name = "탄약 특성 강화",
-		desc = "고폭탄과 반철갑탄(SAP탄) 주포에 장착 시, 화재 발생률이 0이 되지만 주포의 대미지가 $1 증가. 철갑탄 장착 시, 주포가 적을 명중하면 $2의 확률로 발동, 10초간 해당 적에게 가하는 대미지 $3 증가",
 		type = 1,
 		max_level = 10,
+		desc = "고폭탄과 반철갑탄(SAP탄) 주포에 장착 시, 화재 발생률이 0이 되지만 주포의 대미지가 $1 증가. 철갑탄 장착 시, 주포가 적을 명중하면 $2의 확률로 발동, 10초간 해당 적에게 가하는 대미지 $3 증가",
 		id = 12630,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -28368,11 +30811,14 @@ pg.skill_data_template = {
 	[12640] = {
 		desc_get = "",
 		name = "사르데냐의 위압",
-		desc = "주포 발사 시, $1의 확률로 탄막 발사(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시, $1의 확률로 탄막 발사(위력은 스킬 레벨에 비례)",
 		id = 12640,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -28426,11 +30872,14 @@ pg.skill_data_template = {
 	[12650] = {
 		desc_get = "",
 		name = "변하는 기억",
-		desc = "전투 개시 10초 후 어뢰 탄막 $3 발사(위력은 뇌격 스탯과 스킬 레벨에 비례), 첫 번째 주포 발사 5초 후 자신의 포격이 $1 증가, 경순양함에 주는 대미지 $2 증가. 뇌장 스탯 0으로 변화. 전투 종료까지 지속",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 10초 후 어뢰 탄막 $3 발사(위력은 뇌격 스탯과 스킬 레벨에 비례), 첫 번째 주포 발사 5초 후 자신의 포격이 $1 증가, 경순양함에 주는 대미지 $2 증가. 뇌장 스탯 0으로 변화. 전투 종료까지 지속",
 		id = 12650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -28574,11 +31023,14 @@ pg.skill_data_template = {
 	[12660] = {
 		desc_get = "",
 		name = "Ricarica！",
-		desc = "전투 중, 3회까지의 어뢰 대미지가 $1 증가",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 3회까지의 어뢰 대미지가 $1 증가",
 		id = 12660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -28632,11 +31084,14 @@ pg.skill_data_template = {
 	[12670] = {
 		desc_get = "",
 		name = "Fuoco di Copertura！",
-		desc = "전투 개시 시, 자신이 선봉 함대의 끝에 있고 선봉 함대의 인원이 1명이 아닐 경우, 매 20초마다 $1의 확률로 발동. 10초동안 자신의 대미지 $2 증가, 선봉 함대의 대미지 $3 증가",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 자신이 선봉 함대의 끝에 있고 선봉 함대의 인원이 1명이 아닐 경우, 매 20초마다 $1의 확률로 발동. 10초동안 자신의 대미지 $2 증가, 선봉 함대의 대미지 $3 증가",
 		id = 12670,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -28780,11 +31235,14 @@ pg.skill_data_template = {
 	[12680] = {
 		desc_get = "",
 		name = "비바람의 춤",
-		desc = "전투 개시 시, 함대에 {namecode:22}가 있을 경우 자신의 뇌장 속성이 $1 증가하며, 전투 중 20초마다 $2의 확률로 강력 탄막을 발사한다. 함대에 {namecode:22}가 없을 경우 자신이 사망 전까지 자신을 제외한 모든 함대원이 받는 피해가 $3 감소한다. 또한, 자신을 제외한 함대원의 내구도가 20% 미만일 시 $4의 내구도를 회복하며, 회복 효과는 전투마다 1회 발동.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 함대에 {namecode:22}가 있을 경우 자신의 뇌장 속성이 $1 증가하며, 전투 중 20초마다 $2의 확률로 강력 탄막을 발사한다. 함대에 {namecode:22}가 없을 경우 자신이 사망 전까지 자신을 제외한 모든 함대원이 받는 피해가 $3 감소한다. 또한, 자신을 제외한 함대원의 내구도가 20% 미만일 시 $4의 내구도를 회복하며, 회복 효과는 전투마다 1회 발동.",
 		id = 12680,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -28973,11 +31431,14 @@ pg.skill_data_template = {
 	[12690] = {
 		desc_get = "",
 		name = "Enigma",
-		desc = "전투 진입 시, 랜덤으로 전장의 모든 아군 메탈 블러드 진영 캐릭터에게 $1 버프 제공, 전투 종료 시까지 지속 ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 진입 시, 랜덤으로 전장의 모든 아군 메탈 블러드 진영 캐릭터에게 $1 버프 제공, 전투 종료 시까지 지속 ",
 		id = 12690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29022,11 +31483,14 @@ pg.skill_data_template = {
 	[12700] = {
 		desc_get = "",
 		name = "유도의 Spiritual",
-		desc = "전투 중 15초 마다 1회 발동. 8초간 자신의 주포 포탄을 퍼플 음표 $1로 변경한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 15초 마다 1회 발동. 8초간 자신의 주포 포탄을 퍼플 음표 $1로 변경한다.",
 		id = 12700,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29071,11 +31535,14 @@ pg.skill_data_template = {
 	[12710] = {
 		desc_get = "",
 		name = "열정 템포",
-		desc = "아군 대공포로 적기를 격추했을 경우, 자신의 대공이 8초간 $1 증가한다. 최대 4회 중첩",
 		type = 2,
 		max_level = 10,
+		desc = "아군 대공포로 적기를 격추했을 경우, 자신의 대공이 8초간 $1 증가한다. 최대 4회 중첩",
 		id = 12710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -29129,11 +31596,14 @@ pg.skill_data_template = {
 	[12720] = {
 		desc_get = "",
 		name = "관통탄 애로우",
-		desc = "전투 중, 자신의 주포 3회 발사 시, 다음 포격의 포탄을 파랑 음표 $1로 변경한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 자신의 주포 3회 발사 시, 다음 포격의 포탄을 파랑 음표 $1로 변경한다.",
 		id = 12720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29178,11 +31648,14 @@ pg.skill_data_template = {
 	[12730] = {
 		desc_get = "",
 		name = "샤이닝 스탭",
-		desc = "전투 진입 시 자신이 선봉 함대의 끝에 위치하고 함대의 인원수가 1이 아닌 경우, 선봉 함대의 함선이 피격 시, $1의 확률로 피해를 $2 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 진입 시 자신이 선봉 함대의 끝에 위치하고 함대의 인원수가 1이 아닌 경우, 선봉 함대의 함선이 피격 시, $1의 확률로 피해를 $2 감소한다.",
 		id = 12730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"9.0%",
@@ -29281,11 +31754,14 @@ pg.skill_data_template = {
 	[12740] = {
 		desc_get = "",
 		name = "Dualism",
-		desc = "전투 진입 시, 함대에 μ장비 함선 수가 홀수인 경우, 자신의 첫 번째 공중 지원 10초 후 폭격기 공습 $1을 1회 실시한다. 함대에 μ장비 함선 수가 짝수인 경우, 자신의 첫 번째 공중 지원 10초 후 뇌격기 공습 $1을 1회 실시한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 진입 시, 함대에 μ장비 함선 수가 홀수인 경우, 자신의 첫 번째 공중 지원 10초 후 폭격기 공습 $1을 1회 실시한다. 함대에 μ장비 함선 수가 짝수인 경우, 자신의 첫 번째 공중 지원 10초 후 뇌격기 공습 $1을 1회 실시한다.",
 		id = 12740,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29330,11 +31806,14 @@ pg.skill_data_template = {
 	[12750] = {
 		desc_get = "",
 		name = "Overture",
-		desc = "출격 시, 함재기의 첫 번째 공중 지원의 대기 시간을 $1 단축한다. 전투 개시 시, 함대의 μ장비 함선 수에 따라 자신의 항공이 $2 증가한다. 최대 4회 중첩",
 		type = 3,
 		max_level = 10,
+		desc = "출격 시, 함재기의 첫 번째 공중 지원의 대기 시간을 $1 단축한다. 전투 개시 시, 함대의 μ장비 함선 수에 따라 자신의 항공이 $2 증가한다. 최대 4회 중첩",
 		id = 12750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -29433,11 +31912,14 @@ pg.skill_data_template = {
 	[12760] = {
 		desc_get = "",
 		name = "속사류탄 피버",
-		desc = "20초마다 $1의 확률로 12초간 자신의 주포 포탄을 빨강 음표 $2로 변경한다. 전투 개시 시, 즉시 1회 발동한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1의 확률로 12초간 자신의 주포 포탄을 빨강 음표 $2로 변경한다. 전투 개시 시, 즉시 1회 발동한다.",
 		id = 12760,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -29527,11 +32009,14 @@ pg.skill_data_template = {
 	[12770] = {
 		desc_get = "30초 마다 자신의 주위에 적탄 10개를 무효화하는 회전하는 실드 2개를 생성한다. <color=#92fc63FF>5</color>초간 지속.(최고 레벨 달성 시 <color=#92fc63FF>15</color>초) 전투 개시 시, 자신이 선봉 함대에 위치해 있다면 즉시 실드를 발동한다.",
 		name = "캄 다운 실드",
-		desc = "30초 마다 자신의 주위에 $1초간 지속되며 적탄 10개를 무효화하는 회전하는 실드 2개를 생성한다. 전투 개시 시, 자신이 선봉 함대에 위치해 있다면 즉시 실드를 발동한다.",
 		type = 2,
 		max_level = 10,
+		desc = "30초 마다 자신의 주위에 $1초간 지속되며 적탄 10개를 무효화하는 회전하는 실드 2개를 생성한다. 전투 개시 시, 자신이 선봉 함대에 위치해 있다면 즉시 실드를 발동한다.",
 		id = 12770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0",
@@ -29585,11 +32070,14 @@ pg.skill_data_template = {
 	[12780] = {
 		desc_get = "",
 		name = "Cœur Battant",
-		desc = "전투 중, 주포의 포탄이 음표 포탄 $1으로 교체되며 주포 1회 포격 이후, 주포 포탄의 종류가 변경된다.(빨강 음표와 파랑 음표로 교환할 수 있으며, 포탄 피해는 스킬 레벨에 따라 증가) 자신의 최초 주포 장전 시간이 $2 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 주포의 포탄이 음표 포탄 $1으로 교체되며 주포 1회 포격 이후, 주포 포탄의 종류가 변경된다.(빨강 음표와 파랑 음표로 교환할 수 있으며, 포탄 피해는 스킬 레벨에 따라 증가) 자신의 최초 주포 장전 시간이 $2 감소한다.",
 		id = 12780,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -29679,11 +32167,14 @@ pg.skill_data_template = {
 	[12790] = {
 		desc_get = "",
 		name = "폴라리스 리더",
-		desc = "전투 개시 시, 함대에 μ장비 함선 수가 홀수인 경우, 자신의 피해가 $1 증가, 그렇지 않은 경우, 자신이 받는 피해가 $2 감소한다. 자신의 주포를 발사한 뒤 10초 내 함대의 μ장비 함선의 포격, 뇌장, 항공이 $3 증가한다. 최대 2회 중첩",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 함대에 μ장비 함선 수가 홀수인 경우, 자신의 피해가 $1 증가, 그렇지 않은 경우, 자신이 받는 피해가 $2 감소한다. 자신의 주포를 발사한 뒤 10초 내 함대의 μ장비 함선의 포격, 뇌장, 항공이 $3 증가한다. 최대 2회 중첩",
 		id = 12790,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -29827,12 +32318,15 @@ pg.skill_data_template = {
 	[12810] = {
 		desc_get = "",
 		name = "전술 해방",
-		desc = "출격 시 20초마다 $1의 확률로 전탄 발사를 전개(위력은 스킬 레벨에 비례). 연습전의 경우 해당 전탄 발사를 강화.",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시 20초마다 $1의 확률로 전탄 발사를 전개(위력은 스킬 레벨에 비례). 연습전의 경우 해당 전탄 발사를 강화.",
 		id = 12810,
 		system_transform = {
 			[3.0] = 12800
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -29887,11 +32381,14 @@ pg.skill_data_template = {
 	[12820] = {
 		desc_get = "",
 		name = "불멸의 방패",
-		desc = "자신이 전장에 있을 경우, 주력 함대의 함선이 데미지를 받았을 때 $1의 확률로 발동. 15초 동안 주력 함대의 함선이 받는 데미지가 $2 감소. 쿨타임 20초. 자신의 내구도가 20% 이하일 경우, 자신의 내구도를 10% 회복. 전투 중 1회 발동.",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 전장에 있을 경우, 주력 함대의 함선이 데미지를 받았을 때 $1의 확률로 발동. 15초 동안 주력 함대의 함선이 받는 데미지가 $2 감소. 쿨타임 20초. 자신의 내구도가 20% 이하일 경우, 자신의 내구도를 10% 회복. 전투 중 1회 발동.",
 		id = 12820,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -29990,11 +32487,14 @@ pg.skill_data_template = {
 	[12830] = {
 		desc_get = "",
 		name = "냉정",
-		desc = "자신이 전투 가능 상태인 경우, 자신의 회피율 $1 상승. 전열 함대가 받는 뇌장 데미지 $2 감소.",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 전투 가능 상태인 경우, 자신의 회피율 $1 상승. 전열 함대가 받는 뇌장 데미지 $2 감소.",
 		id = 12830,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30093,11 +32593,14 @@ pg.skill_data_template = {
 	[12840] = {
 		desc_get = "자신의 경항공모함, 항공모함에 가하는 데미지 <color=#92fc63FF>5.0%</color> 상승(최대 <color=#92fc63FF>20.0</color>%). 자신이 전투 가능 상태인 경우, 모든 전열 함대의 뇌장 속성 <color=#92fc63FF>5.0%</color> 상승(최대 <color=#92fc63FF>20.0%</color>. 추가로 크리티컬 확률 <color=#92fc63FF>5.0%</color> 상승)",
 		name = "신예의 칼날",
-		desc = "경항공모함, 항공모함에 가하는 데미지 $1 상승. 자신이 전투 가능 상태인 경우 모든 전열 함대의 뇌장 속성 $2$3 상승.",
 		type = 3,
 		max_level = 10,
+		desc = "경항공모함, 항공모함에 가하는 데미지 $1 상승. 자신이 전투 가능 상태인 경우 모든 전열 함대의 뇌장 속성 $2$3 상승.",
 		id = 12840,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30232,11 +32735,14 @@ pg.skill_data_template = {
 	[12850] = {
 		desc_get = "",
 		name = "분노의 검",
-		desc = "전투 개시 시, 자신의 포격, 대공, 대잠 속성이 $1 상승. 자신이 전투 가능 상태인 경우, 잠수함과 잠수항모가 받는 데미지 $2 감소.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 시, 자신의 포격, 대공, 대잠 속성이 $1 상승. 자신이 전투 가능 상태인 경우, 잠수함과 잠수항모가 받는 데미지 $2 감소.",
 		id = 12850,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30335,11 +32841,14 @@ pg.skill_data_template = {
 	[12860] = {
 		desc_get = "",
 		name = "벚나무에 핀 봉화",
-		desc = "전투 중 자신의 3번째 공습까지 내구도가 가장 낮은 아군 수상함의 내구도를 3회 회복. 회복량은 {namecode:179}의 전체 내구도의 $1. 전투 개시 시 주력 함대의 함선이 3척인 경우, 회복량 100% 증가.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중 자신의 3번째 공습까지 내구도가 가장 낮은 아군 수상함의 내구도를 3회 회복. 회복량은 {namecode:179}의 전체 내구도의 $1. 전투 개시 시 주력 함대의 함선이 3척인 경우, 회복량 100% 증가.",
 		id = 12860,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.2%",
@@ -30393,11 +32902,14 @@ pg.skill_data_template = {
 	[12870] = {
 		desc_get = "",
 		name = "고래의 춤",
-		desc = "자신이 전투 가능 상태인 경우, 전열 함대가 받는 잠수함 뇌격 데미지가 $2 감소. 아군 잠수함 전투 개시 시, 잠수함의 내구를 $1 회복. 아군 잠수함이 적함을 격파했을 경우, {namecode:179}의 데미지가 $3 상승, 최대 6회 중첩 가능.",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 전투 가능 상태인 경우, 전열 함대가 받는 잠수함 뇌격 데미지가 $2 감소. 아군 잠수함 전투 개시 시, 잠수함의 내구를 $1 회복. 아군 잠수함이 적함을 격파했을 경우, {namecode:179}의 데미지가 $3 상승, 최대 6회 중첩 가능.",
 		id = 12870,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -30541,11 +33053,14 @@ pg.skill_data_template = {
 	[12880] = {
 		desc_get = "",
 		name = "귀신의 소원",
-		desc = "자신의 어뢰 데미지 $1 상승. 어뢰 발사 시, $2의 확률로 2회 발사.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 어뢰 데미지 $1 상승. 어뢰 발사 시, $2의 확률로 2회 발사.",
 		id = 12880,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30644,11 +33159,14 @@ pg.skill_data_template = {
 	[12890] = {
 		desc_get = "",
 		name = "노을의 굴레",
-		desc = "전투 개시 시, 전열 함대에 자신을 제외한 동료가 2명 이상인 경우, 아군 전열 함대의 사쿠라 엠파이어 함선의 뇌장 속성이 $1 상승.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 시, 전열 함대에 자신을 제외한 동료가 2명 이상인 경우, 아군 전열 함대의 사쿠라 엠파이어 함선의 뇌장 속성이 $1 상승.",
 		id = 12890,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30702,11 +33220,14 @@ pg.skill_data_template = {
 	[12900] = {
 		desc_get = "",
 		name = "불사조의 깃털",
-		desc = "어뢰 발사 시, $1의 확률로 2회 발사. 전투 중 내구도가 20% 이하인 경우, 전체 내구도의 $2를 회복. 전투 중 1회 발동.",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰 발사 시, $1의 확률로 2회 발사. 전투 중 내구도가 20% 이하인 경우, 전체 내구도의 $2를 회복. 전투 중 1회 발동.",
 		id = 12900,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -30805,11 +33326,14 @@ pg.skill_data_template = {
 	[12910] = {
 		desc_get = "",
 		name = "제6구축대·{namecode:12}",
-		desc = "제6구축대의 {namecode:11}, {namecode:13}, {namecode:14}와 동시에 출격할 경우, 포격, 뇌장, 장전이 $1 증가. 중첩되지 않음.",
 		type = 1,
 		max_level = 10,
+		desc = "제6구축대의 {namecode:11}, {namecode:13}, {namecode:14}와 동시에 출격할 경우, 포격, 뇌장, 장전이 $1 증가. 중첩되지 않음.",
 		id = 12910,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30863,11 +33387,14 @@ pg.skill_data_template = {
 	[12930] = {
 		desc_get = "",
 		name = "Arias of Dido",
-		desc = "같은 함대의 다이도급 순양함의 포격, 뇌격, 대공 $1 증가. 전투 시작 후 30초간 자신의 대공, 기동, 명중 $1 상승",
 		type = 3,
 		max_level = 10,
+		desc = "같은 함대의 다이도급 순양함의 포격, 뇌격, 대공 $1 증가. 전투 시작 후 30초간 자신의 대공, 기동, 명중 $1 상승",
 		id = 12930,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -30921,11 +33448,14 @@ pg.skill_data_template = {
 	[12940] = {
 		desc_get = "",
 		name = "For The Queen",
-		desc = "전투 시작 시, 아군 함대의 로열 네이비 소속 함선 1척 당 자신의 포격, 대공, 장전 스탯 $1 상승(최대 4회 중첩). 퀸 엘리자베스와 함께 출격 시, 퀸 엘리자베스의 포격, 명중, 장전, 기동이 $2, 크리티컬 확률 $3 상승",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 시, 아군 함대의 로열 네이비 소속 함선 1척 당 자신의 포격, 대공, 장전 스탯 $1 상승(최대 4회 중첩). 퀸 엘리자베스와 함께 출격 시, 퀸 엘리자베스의 포격, 명중, 장전, 기동이 $2, 크리티컬 확률 $3 상승",
 		id = 12940,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -31069,11 +33599,14 @@ pg.skill_data_template = {
 	[12950] = {
 		desc_get = "",
 		name = "The Fighting G",
-		desc = "자신의 포격, 명중이 5% 상승. 전투 중 자신이 적함을 격파할 경우, 추가로 자신의 포격과 명중이 $1 상승. 전투당 최대 5회 발동",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 포격, 명중이 5% 상승. 전투 중 자신이 적함을 격파할 경우, 추가로 자신의 포격과 명중이 $1 상승. 전투당 최대 5회 발동",
 		id = 12950,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -31127,11 +33660,14 @@ pg.skill_data_template = {
 	[12960] = {
 		desc_get = "",
 		name = "보호의 불꽃",
-		desc = "전투 중, 아군 함대의 캐릭터가 대미지를 입어 내구도가 50% 이하인 경우 12초동안 자신의 대공이 $1 상승, 해당 함선이 받는 대미지가 $1 감소. 전투당 1회 발동",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중, 아군 함대의 캐릭터가 대미지를 입어 내구도가 50% 이하인 경우 12초동안 자신의 대공이 $1 상승, 해당 함선이 받는 대미지가 $1 감소. 전투당 1회 발동",
 		id = 12960,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -31185,11 +33721,14 @@ pg.skill_data_template = {
 	[12970] = {
 		desc_get = "",
 		name = "실전 지도",
-		desc = "전투 개시 후 80초간 자신의 피격 대미지 $1 감소, 자신의 대미지 $2 상승. 아군 구축함의 피격 대미지 $3 감소",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 후 80초간 자신의 피격 대미지 $1 감소, 자신의 대미지 $2 상승. 아군 구축함의 피격 대미지 $3 감소",
 		id = 12970,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -31333,11 +33872,14 @@ pg.skill_data_template = {
 	[12980] = {
 		desc_get = "",
 		name = "하늘색 순양함",
-		desc = "전투 개시 시, 자신의 포격이 $1 증가하며 감속 전탄 발사를 사용하는 [특수 에너지 병기: 얼음의 요정]을 소환($2초간 지속, 탄막 피해와 지속 시간은 스킬 레벨에 비례). 적함 처치 시 자신의 포격 스탯이 $3 증가, 최대 5회 중첩",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 시, 자신의 포격이 $1 증가하며 감속 전탄 발사를 사용하는 [특수 에너지 병기: 얼음의 요정]을 소환($2초간 지속, 탄막 피해와 지속 시간은 스킬 레벨에 비례). 적함 처치 시 자신의 포격 스탯이 $3 증가, 최대 5회 중첩",
 		id = 12980,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -31481,11 +34023,14 @@ pg.skill_data_template = {
 	[12990] = {
 		desc_get = "",
 		name = "화력 발사 지도",
-		desc = "전투 개시 시, 함대에 노스 유니온 진영의 주포를 장착한 노스 유니온 구축함의 포격 효율 $1, 명중 $1 증가",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 함대에 노스 유니온 진영의 주포를 장착한 노스 유니온 구축함의 포격 효율 $1, 명중 $1 증가",
 		id = 12990,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -31584,11 +34129,14 @@ pg.skill_data_template = {
 	[13000] = {
 		desc_get = "",
 		name = "공허한 백기병",
-		desc = "15초마다 $1의 확률로 6초간 적에게 화재 효과를 주는 특수 전탄 발사 (위력과 스타일은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "15초마다 $1의 확률로 6초간 적에게 화재 효과를 주는 특수 전탄 발사 (위력과 스타일은 스킬 레벨에 비례)",
 		id = 13000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -31642,11 +34190,14 @@ pg.skill_data_template = {
 	[13010] = {
 		desc_get = "",
 		name = "정확한 유도",
-		desc = "전투 중 자신의 크리티컬 확률이 $1 증가, 구축함에 대한 대미지가 $2 증가. 주포 발사 속도 15% 증가. 적 구축함 회피 확률 $3 감소",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중 자신의 크리티컬 확률이 $1 증가, 구축함에 대한 대미지가 $2 증가. 주포 발사 속도 15% 증가. 적 구축함 회피 확률 $3 감소",
 		id = 13010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -31790,12 +34341,15 @@ pg.skill_data_template = {
 	[13020] = {
 		desc_get = "",
 		name = "얼어붙은 칼날",
-		desc = "주포 발사 시 $1의 확률로 전탄 발사를 전개(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1의 확률로 전탄 발사를 전개(위력은 스킬 레벨에 비례)",
 		id = 13020,
 		system_transform = {
 			[3.0] = 13025
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -31850,11 +34404,14 @@ pg.skill_data_template = {
 	[13030] = {
 		desc_get = "",
 		name = "노스 유니온의 망나니",
-		desc = "자신이 속한 함대의 노스 유니온 혹은 이스트 글림 캐릭터 1명 당 자신의 주포, 명중 스탯이 $1 증가, 최대 4중첩(스킬 효과는 첫 2회 전투에서만 발동)",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 속한 함대의 노스 유니온 혹은 이스트 글림 캐릭터 1명 당 자신의 주포, 명중 스탯이 $1 증가, 최대 4중첩(스킬 효과는 첫 2회 전투에서만 발동)",
 		id = 13030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -31908,11 +34465,14 @@ pg.skill_data_template = {
 	[13040] = {
 		desc_get = "",
 		name = "Mercury Memorial",
-		desc = "자신의 전함, 중순양함에 대한 대미지가 $1 증가, 자신이 대미지를 입으면 15%의 확률로 $2초간 모든 공격을 완전 회피. 완전 회피는 20초에 1회 발동",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 전함, 중순양함에 대한 대미지가 $1 증가, 자신이 대미지를 입으면 15%의 확률로 $2초간 모든 공격을 완전 회피. 완전 회피는 20초에 1회 발동",
 		id = 13040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -32011,11 +34571,14 @@ pg.skill_data_template = {
 	[13050] = {
 		desc_get = "",
 		name = "혁명에 축복을",
-		desc = "주포 발사 시, 함대 내 노스 유니온 캐릭터 전원의 주포, 뇌장, 대공, 장전 스탯이 10초간 $1 증가. [3연장 305mm 주포 Model1907] 장착 시, 자신의 주포 효율이 $2 증가, 매 전투 시 4회까지의 주포 장전 시간 $3 감소",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시, 함대 내 노스 유니온 캐릭터 전원의 주포, 뇌장, 대공, 장전 스탯이 10초간 $1 증가. [3연장 305mm 주포 Model1907] 장착 시, 자신의 주포 효율이 $2 증가, 매 전투 시 4회까지의 주포 장전 시간 $3 감소",
 		id = 13050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"8.0%",
@@ -32159,11 +34722,14 @@ pg.skill_data_template = {
 	[13060] = {
 		desc_get = "",
 		name = "쇄빙 이동",
-		desc = "전투 중 자신의 HP가 30% 이하일 때, 자신이 받는 대미지가 $1 감소. 함대의 구축함이 받는 대미지가 $2 감소. 최대 1회 발동",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중 자신의 HP가 30% 이하일 때, 자신이 받는 대미지가 $1 감소. 함대의 구축함이 받는 대미지가 $2 감소. 최대 1회 발동",
 		id = 13060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -32262,11 +34828,14 @@ pg.skill_data_template = {
 	[13070] = {
 		desc_get = "",
 		name = "비상하는 전사",
-		desc = "자신의 공습이 준비 되었을 때, SB2C 헬다이버 편대로 항공 공격 $1(위력은 스킬 레벨에 비례)을 가함. 해당 편대의 공격이 적 전함, 순양전함, 항공전함에 명중하면 파갑 효과를 부여(동일한 효과는 중첩되지 않음)",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 공습이 준비 되었을 때, SB2C 헬다이버 편대로 항공 공격 $1(위력은 스킬 레벨에 비례)을 가함. 해당 편대의 공격이 적 전함, 순양전함, 항공전함에 명중하면 파갑 효과를 부여(동일한 효과는 중첩되지 않음)",
 		id = 13070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -32311,11 +34880,14 @@ pg.skill_data_template = {
 	[13080] = {
 		desc_get = "",
 		name = "이중 전투 모드",
-		desc = "스테이지 출격 시, 자신의 소속 함대의 1, 3, 5번째 전투에서 자신의 항공이 $1 증가, 2, 4, 6번째 전투에서 자신이 받는 대미지가 $2 감소",
 		type = 3,
 		max_level = 10,
+		desc = "스테이지 출격 시, 자신의 소속 함대의 1, 3, 5번째 전투에서 자신의 항공이 $1 증가, 2, 4, 6번째 전투에서 자신이 받는 대미지가 $2 감소",
 		id = 13080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -32414,11 +34986,14 @@ pg.skill_data_template = {
 	[13090] = {
 		desc_get = "",
 		name = "용감한 인트레피드",
-		desc = "전투 중 자신의 HP가 20% 이하일 때, 자신이 받는 대미지가 20초간 $1 감소. 30초간 자신이 받는 화재 피해가 0으로 감소. 최대 1회 발동",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중 자신의 HP가 20% 이하일 때, 자신이 받는 대미지가 20초간 $1 감소. 30초간 자신이 받는 화재 피해가 0으로 감소. 최대 1회 발동",
 		id = 13090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -32472,11 +35047,14 @@ pg.skill_data_template = {
 	[13100] = {
 		desc_get = "",
 		name = "Flame-HEAT-Wing",
-		desc = "주포 사격 시 $1의 확률로 발동, 3초간 자신의 주포 공격 대미지가 1.3배 증가, 쿨타임 5초. 주포 사격 시 $2의 확률로 특수 전탄 발사(위력은 스킬 레벨에 비례), 쿨타임 10초",
 		type = 1,
 		max_level = 10,
+		desc = "주포 사격 시 $1의 확률로 발동, 3초간 자신의 주포 공격 대미지가 1.3배 증가, 쿨타임 5초. 주포 사격 시 $2의 확률로 특수 전탄 발사(위력은 스킬 레벨에 비례), 쿨타임 10초",
 		id = 13100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -32575,11 +35153,14 @@ pg.skill_data_template = {
 	[13110] = {
 		desc_get = "",
 		name = "Stand by Me",
-		desc = "전투 개시 시, 자신이 전열 함대의 선봉일 경우 30초간 자신이 받는 대미지가 $1 감소. 선봉이 아닐 경우 전투가 끝날 때까지 자신의 대공이 $2 증가",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 시, 자신이 전열 함대의 선봉일 경우 30초간 자신이 받는 대미지가 $1 감소. 선봉이 아닐 경우 전투가 끝날 때까지 자신의 대공이 $2 증가",
 		id = 13110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -32678,19 +35259,22 @@ pg.skill_data_template = {
 	[13120] = {
 		desc_get = "",
 		name = "예리한 서포터",
-		desc = "전투 개시 시, 함대에 경항공모함 혹은 항공모함이 있을 경우 자신의 크리티컬 확률이 $1 증가. 주력 함대의 경항공모험과 항공모함의 수에 따라 구축함, 경순양함에 주는 대미지가 $2 증가(최대 3회 중첩). 소속 함대 출격 후 2번째 전투까지 함대의 경항공모함, 항공모함이 받는 대미지가 $3 감소",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 시, 아군 함대 내 항공모함, 경항공모함이 전투 가능 상태일 시, 자신의 크리티컬 확률이 $1 상승한다. 주력 함대 내 항공모함, 경항공모함 1척당 자신의 구축함, 경순양함에 대한 대미지가 $2 상승한다. 최대 3회 중첩. 한 스테이지 내 자신이 속한 편대의 1~4번째 전투에서, 아군의 항공모함, 경항공모함이 받는 대미지가 $3 감소한다.",
 		id = 13120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
-				"5.0%",
-				"15.0%"
+				"20.0%",
+				"35.0%"
 			},
 			{
-				"1.5%",
-				"6.0%"
+				"4.0%",
+				"10.0%"
 			},
 			{
 				"5.0%",
@@ -32700,84 +35284,84 @@ pg.skill_data_template = {
 		desc_add = {
 			{
 				{
-					"5.0%",
-					"+1.1%"
+					"20.0%",
+					"+1.6%"
 				},
 				{
-					"6.1%",
-					"+1.1%"
+					"21.6%",
+					"+1.6%"
 				},
 				{
-					"7.2%",
-					"+1.1%"
+					"23.2%",
+					"+1.6%"
 				},
 				{
-					"8.3%",
-					"+1.1%"
+					"24.8%",
+					"+1.6%"
 				},
 				{
-					"9.4%",
-					"+1.1%"
+					"26.4%",
+					"+1.6%"
 				},
 				{
-					"10.5%",
-					"+1.1%"
+					"28.0%",
+					"+1.6%"
 				},
 				{
-					"11.6%",
-					"+1.1%"
+					"29.6%",
+					"+1.8%"
 				},
 				{
-					"12.7%",
-					"+1.1%"
+					"31.4%",
+					"+1.8%"
 				},
 				{
-					"13.8%",
-					"+1.2%"
+					"33.2%",
+					"+1.8%"
 				},
 				{
-					"15.0%"
+					"35.0%"
 				}
 			},
 			{
 				{
-					"1.5%",
-					"+0.5%"
-				},
-				{
-					"2.0%",
-					"+0.5%"
-				},
-				{
-					"2.5%",
-					"+0.5%"
-				},
-				{
-					"3.0%",
-					"+0.5%"
-				},
-				{
-					"3.5%",
-					"+0.5%"
-				},
-				{
 					"4.0%",
-					"+0.5%"
+					"+0.6%"
 				},
 				{
-					"4.5%",
-					"+0.5%"
+					"4.6%",
+					"+0.6%"
 				},
 				{
-					"5.0%",
-					"+0.5%"
+					"5.2%",
+					"+0.8%"
 				},
 				{
-					"5.5%",
-					"+0.5%"
+					"6.0%",
+					"+0.6%"
 				},
 				{
-					"6.0%"
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
 				}
 			},
 			{
@@ -32826,11 +35410,14 @@ pg.skill_data_template = {
 	[13130] = {
 		desc_get = "",
 		name = "CHANGE NEKO!",
-		desc = "전투 중 20초마다 발동. 10초 동안 자신의 화력이 $2 상승하고, PBY 카탈리나 수상기를 소환한다. 수상기 등장 후, 적 잠수함이 10초 동안 노출되며 대잠수함 폭탄 $1 1회 투하하고, 10초 동안 전장 내 모든 적 잠수함이 받는 대미지가 $3 증가한다. [PBY-5A카탈리나] 장비 시, 전투 중 대미지를 입어 내구도가 40% 이하로 떨어질 경우, 즉시 PBY 카탈리나를 소환하여 항공 폭격 $1을 가한다. 항공 폭격은 한 전투당 1회만 발동(대잠수함 폭탄 투하 및 항공 폭격 위력은 스킬 레벨에 비례).",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 20초마다 발동. 10초 동안 자신의 화력이 $2 상승하고, PBY 카탈리나 수상기를 소환한다. 수상기 등장 후, 적 잠수함이 10초 동안 노출되며 대잠수함 폭탄 $1 1회 투하하고, 10초 동안 전장 내 모든 적 잠수함이 받는 대미지가 $3 증가한다. [PBY-5A카탈리나] 장비 시, 전투 중 대미지를 입어 내구도가 40% 이하로 떨어질 경우, 즉시 PBY 카탈리나를 소환하여 항공 폭격 $1을 가한다. 항공 폭격은 한 전투당 1회만 발동(대잠수함 폭탄 투하 및 항공 폭격 위력은 스킬 레벨에 비례).",
 		id = 13130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -32839,6 +35426,10 @@ pg.skill_data_template = {
 			{
 				"5.0%",
 				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
 			}
 		},
 		desc_add = {
@@ -32914,25 +35505,69 @@ pg.skill_data_template = {
 				{
 					"15.0%"
 				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
 			}
 		}
 	},
 	[13140] = {
 		desc_get = "",
 		name = "I AM RENO!",
-		desc = "전투 개시 시, 자신의 대공 $1, 포격 $2 증가. 전투 중 주력 함대가 3회 대미지를 입을 때마다 자신의 대공, 포격 $3 증가. 전투 종료까지 최대 2회 중첩",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 시, 자신의 대공 $1, 화력 $2 상승. 전투 중 전투 도중 자신 외의 아군이 대미지를 2회 받을 때마다, 자신의 대공, 화력 $3 증가. 해당 효과는 매 전투당 최대 2회 중첩되며, 전투 종료까지 지속.",
 		id = 13140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
 				"15.0%"
 			},
 			{
-				"4.5%",
-				"12.0%"
+				"5.0%",
+				"15.0%"
 			},
 			{
 				"1.5%",
@@ -32983,43 +35618,43 @@ pg.skill_data_template = {
 			},
 			{
 				{
-					"4.5%",
-					"+0.7%"
+					"5.0%",
+					"+1.1%"
 				},
 				{
-					"5.2%",
-					"+0.8%"
+					"6.1%",
+					"+1.1%"
 				},
 				{
-					"6.0%",
-					"+1.0%"
+					"7.2%",
+					"+1.1%"
 				},
 				{
-					"7.0%",
-					"+0.7%"
+					"8.3%",
+					"+1.1%"
 				},
 				{
-					"7.7%",
-					"+0.8%"
+					"9.4%",
+					"+1.1%"
 				},
 				{
-					"8.5%",
-					"+1.0%"
+					"10.5%",
+					"+1.1%"
 				},
 				{
-					"9.5%",
-					"+0.7%"
+					"11.6%",
+					"+1.1%"
 				},
 				{
-					"10.2%",
-					"+0.8%"
+					"12.7%",
+					"+1.1%"
 				},
 				{
-					"11.0%",
-					"+1.0%"
+					"13.8%",
+					"+1.2%"
 				},
 				{
-					"12.0%"
+					"15.0%"
 				}
 			},
 			{
@@ -33068,12 +35703,15 @@ pg.skill_data_template = {
 	[13150] = {
 		desc_get = "",
 		name = "비정한 포식자",
-		desc = "자신의 구축함, 경순양함에 주는 대미지 $1 증가",
 		type = 3,
 		max_level = 10,
+		desc = "자신의 구축함, 경순양함에 주는 대미지 $1 증가",
 		id = 13150,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -33128,12 +35766,15 @@ pg.skill_data_template = {
 	[13160] = {
 		desc_get = "",
 		name = "용감무쌍",
-		desc = "주포로 공격 시, $1 확률로 사정거리가 자신의 위치에 영향을 받지 않는 특수 탄막 $2을 발사한다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "주포로 공격 시, $1 확률로 사정거리가 자신의 위치에 영향을 받지 않는 특수 탄막 $2을 발사한다. (위력은 스킬 레벨에 비례)",
 		id = 13160,
 		system_transform = {
 			[3.0] = 13165
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -33224,11 +35865,14 @@ pg.skill_data_template = {
 	[13170] = {
 		desc_get = "",
 		name = "무적불패",
-		desc = "자신이 대미지를 입거나 적이 방위 사정거리 내에 진입 시, 특수 탄막$1을 발사한다. (위력은 스킬 레벨에 비례) 쿨타임 15초; 전함이 기함인 다른 편대로 3, 4, 5번째 전투 입장 시, 자신이 생존해 있을 경우, 전투 시작 후 20초간 지원 탄막 $1을 발동한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 대미지를 입거나 적이 방위 사정거리 내에 진입 시, 특수 탄막$1을 발사한다. (위력은 스킬 레벨에 비례) 쿨타임 15초; 전함이 기함인 다른 편대로 3, 4, 5번째 전투 입장 시, 자신이 생존해 있을 경우, 전투 시작 후 20초간 지원 탄막 $1을 발동한다.",
 		id = 13170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -33273,11 +35917,14 @@ pg.skill_data_template = {
 	[13180] = {
 		desc_get = "",
 		name = "룽가곶 관통 ",
-		desc = "전투 시작 시, 전열 함대가 3척이며 자신이 그 중간에 위치할 경우, 전열 함대의 모든 경순양함, 구축함의 뇌장 $1, 어뢰 크리티컬 확률 $2 상승. 모든 구축함 회피 $3 상승. ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 시, 전열 함대가 3척이며 자신이 그 중간에 위치할 경우, 전열 함대의 모든 경순양함, 구축함의 뇌장 $1, 어뢰 크리티컬 확률 $2 상승. 모든 구축함 회피 $3 상승. ",
 		id = 13180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -33421,11 +36068,14 @@ pg.skill_data_template = {
 	[13190] = {
 		desc_get = "",
 		name = "자유 공방 ",
-		desc = "자신이 사쿠라 엠파이어 진영 주포 장착 시, 전투 중 받는 대미지 $1 감소; 다른 진영의 주포 장착 시, 전투 시작 시 자신의 대공포 보정 50% 감소, 주포 보정 $2, 어뢰 보정 $3 상승. 전탄 발사 시 어뢰 탄막 $4 추가 발사. (위력은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 사쿠라 엠파이어 진영 주포 장착 시, 전투 중 받는 대미지 $1 감소; 다른 진영의 주포 장착 시, 전투 시작 시 자신의 대공포 보정 50% 감소, 주포 보정 $2, 어뢰 보정 $3 상승. 전탄 발사 시 어뢰 탄막 $4 추가 발사. (위력은 스킬 레벨에 비례) ",
 		id = 13190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -33605,11 +36255,14 @@ pg.skill_data_template = {
 	[13200] = {
 		desc_get = "",
 		name = "꼬마 기사의 사격 훈련",
-		desc = "전투마다 처음 세 전투에서 주포 딜레이 시간이 40% 단축된다. 또한 처음 세 전투에서 주포 사격 시 각각 40%, $1, $2의 대미지를 입힌다. 네 번째 전투부터 주포 사격 시 $2의 대미지를 입힌다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투마다 처음 세 전투에서 주포 딜레이 시간이 40% 단축된다. 또한 처음 세 전투에서 주포 사격 시 각각 40%, $1, $2의 대미지를 입힌다. 네 번째 전투부터 주포 사격 시 $2의 대미지를 입힌다.",
 		id = 13200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"60.0%",
@@ -33708,11 +36361,14 @@ pg.skill_data_template = {
 	[13210] = {
 		desc_get = "",
 		name = "꼬마 기사의 팀전 연습",
-		desc = "전투 진입 시, 편대의 로열 네이비 진영 캐릭터 1명당 자신의 주포, 명중, 장전 스탯이 $1 상승한다. 최대 4회 중첩.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 진입 시, 편대의 로열 네이비 진영 캐릭터 1명당 자신의 주포, 명중, 장전 스탯이 $1 상승한다. 최대 4회 중첩.",
 		id = 13210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -33766,22 +36422,30 @@ pg.skill_data_template = {
 	[13220] = {
 		desc_get = "",
 		name = "무적불패 ",
-		desc = "13220支援效果占位",
 		type = 1,
 		max_level = 10,
+		desc = "13220支援效果占位",
 		id = 13220,
-		system_transform = {},
+		system_transform = {
+			[51.0] = 13225
+		},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[13230] = {
 		desc_get = "",
 		name = "성재의 Z ",
-		desc = "전투 개시 시, 아군 함대에 아이리스 리브레, 비시아 성좌 소속 경순양함, 중순양함이 있을 경우 자신의 화력, 회피가 $1 증가, 함대의 아이리스 리브레, 비시아 성좌의 경순양함, 중순양함의 화력, 대공이 $2 증가 ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 아군 함대에 아이리스 리브레, 비시아 성좌 소속 경순양함, 중순양함이 있을 경우 자신의 화력, 회피가 $1 증가, 함대의 아이리스 리브레, 비시아 성좌의 경순양함, 중순양함의 화력, 대공이 $2 증가 ",
 		id = 13230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -33880,11 +36544,14 @@ pg.skill_data_template = {
 	[13240] = {
 		desc_get = "",
 		name = "아이리스의 깃발",
-		desc = "기함으로 출격 시, 아군 아이리스 리브레 소속 함선의 화력, 뇌장, 명중, 장전 $1 상승하며 전투 중 대미지 $2 상승. 아군 비시아 성좌 소속 함선의 화력, 뇌장, 명중, 장전 $1 상승하며, 전투 중 받는 대미지 $2 감소.",
 		type = 3,
 		max_level = 10,
+		desc = "기함으로 출격 시, 아군 아이리스 리브레 소속 함선의 화력, 뇌장, 명중, 장전 $1 상승하며 전투 중 대미지 $2 상승. 아군 비시아 성좌 소속 함선의 화력, 뇌장, 명중, 장전 $1 상승하며, 전투 중 받는 대미지 $2 감소.",
 		id = 13240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -33983,12 +36650,15 @@ pg.skill_data_template = {
 	[13250] = {
 		desc_get = "",
 		name = "아이리스의 불꽃",
-		desc = "\"주포 발사 시, $1 확률로 특수 탄막 $2 전개(위력은 스킬 레벨에 비례). 특수 탄막으로 적 명중 시, 70% 확률로 특수 점화 효과(1회당 대미지 119)를 부여하고, 30초간 화력, 뇌장, 항공 스탯을 5% 감소시킨다.\"",
 		type = 1,
 		max_level = 10,
+		desc = "\"주포 발사 시, $1 확률로 특수 탄막 $2 전개(위력은 스킬 레벨에 비례). 특수 탄막으로 적 명중 시, 70% 확률로 특수 점화 효과(1회당 대미지 119)를 부여하고, 30초간 화력, 뇌장, 항공 스탯을 5% 감소시킨다.\"",
 		id = 13250,
 		system_transform = {
 			[3.0] = 13255
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -34079,11 +36749,14 @@ pg.skill_data_template = {
 	[13260] = {
 		desc_get = "",
 		name = "아이리스의 분노",
-		desc = "장비에 고폭탄을 주포로 착용 시, 전투 중 주포 대미지 $1 상승. 전투마다 첫 번째 수동 포격 시, 무조건 크리티컬 발동.",
 		type = 1,
 		max_level = 10,
+		desc = "장비에 고폭탄을 주포로 착용 시, 전투 중 주포 대미지 $1 상승. 전투마다 첫 번째 수동 포격 시, 무조건 크리티컬 발동.",
 		id = 13260,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -34137,11 +36810,14 @@ pg.skill_data_template = {
 	[13270] = {
 		desc_get = "",
 		name = "열풍의 굉염",
-		desc = "점화 상태인 적 함선에 대해 대미지가 $1 상승한다. 전투 진입 20초 후, 확률적으로 점화 효과를 부여하는 특수 탄막 $2(위력은 스킬 레벨에 비례) 발동. 주포 사격 시, 10초에 1번씩 $3 확률로 특수 탄막 발동.",
 		type = 1,
 		max_level = 10,
+		desc = "점화 상태인 적 함선에 대해 대미지가 $1 상승한다. 전투 진입 20초 후, 확률적으로 점화 효과를 부여하는 특수 탄막 $2(위력은 스킬 레벨에 비례) 발동. 주포 사격 시, 10초에 1번씩 $3 확률로 특수 탄막 발동.",
 		id = 13270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34276,11 +36952,14 @@ pg.skill_data_template = {
 	[13280] = {
 		desc_get = "",
 		name = "신궁의 방패",
-		desc = "전투 시작 시 20초간 지속되는 쉴드를 생성하며, 이후 30초마다 재생성한다. 쉴드는 어뢰 공격을 5회 막아준다. 이 쉴드의 존재 기간 동안 자신의 화력이 $1 상승하며, 구축함, 전함에 대한 대미지가 $2 상승한다. 전투 중 수동 모드로 전환하면 5초 후, 자신의 회피 $3, 항속 8 상승. 자동 모드로 재전환 시 효과 발동 무효.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 시작 시 20초간 지속되는 쉴드를 생성하며, 이후 30초마다 재생성한다. 쉴드는 어뢰 공격을 5회 막아준다. 이 쉴드의 존재 기간 동안 자신의 화력이 $1 상승하며, 구축함, 전함에 대한 대미지가 $2 상승한다. 전투 중 수동 모드로 전환하면 5초 후, 자신의 회피 $3, 항속 8 상승. 자동 모드로 재전환 시 효과 발동 무효.",
 		id = 13280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34424,11 +37103,14 @@ pg.skill_data_template = {
 	[13290] = {
 		desc_get = "",
 		name = "La Pucelle",
-		desc = "자신의 로열 네이비 소속 함선에 대한 대미지 $1 상승. 전투 진입 시, 자신이 점화 상태가 되어 30초 동안 3초마다 8의 대미지를 입는다. 피해를 입을 시, 10% 확률로 다시 점화 상태가 된다. 점화 상태에서 화력, 뇌장, 대공, 회피 $2 상승",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 로열 네이비 소속 함선에 대한 대미지 $1 상승. 전투 진입 시, 자신이 점화 상태가 되어 30초 동안 3초마다 8의 대미지를 입는다. 피해를 입을 시, 10% 확률로 다시 점화 상태가 된다. 점화 상태에서 화력, 뇌장, 대공, 회피 $2 상승",
 		id = 13290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -34527,11 +37209,14 @@ pg.skill_data_template = {
 	[13300] = {
 		desc_get = "",
 		name = "성녀의 기도",
-		desc = "전투 시작 10초 후, 전열함대에게 쉴드를 부여한다. 20초마다 쉴드는 재생성된다. 쉴드는 자신의 내구력의 $1만큼의 대미지를 흡수한다. 8초간 지속. 쉴드가 8초 내 격파당할 경우, 그 함선은 2초 동안 모든 공격을 회피한다. 쉴드가 지속 시간을 초과하여 사라질 경우, 그 함선은 내구력이 70 회복된다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 시작 10초 후, 전열함대에게 쉴드를 부여한다. 20초마다 쉴드는 재생성된다. 쉴드는 자신의 내구력의 $1만큼의 대미지를 흡수한다. 8초간 지속. 쉴드가 8초 내 격파당할 경우, 그 함선은 2초 동안 모든 공격을 회피한다. 쉴드가 지속 시간을 초과하여 사라질 경우, 그 함선은 내구력이 70 회복된다.",
 		id = 13300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -34585,11 +37270,14 @@ pg.skill_data_template = {
 	[13310] = {
 		desc_get = "",
 		name = "바이탈파트 방어",
-		desc = "자신이 경순양함, 구축함으로부터 받는 화력 대미지 $1 감소. 출격 시, 전열함대에 경순양함, 중순양함 이외의 기타 함종이 없을 경우, 자신의 항속 4, 회피 $1 상승",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 경순양함, 구축함으로부터 받는 화력 대미지 $1 감소. 출격 시, 전열함대에 경순양함, 중순양함 이외의 기타 함종이 없을 경우, 자신의 항속 4, 회피 $1 상승",
 		id = 13310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34643,11 +37331,14 @@ pg.skill_data_template = {
 	[13320] = {
 		desc_get = "",
 		name = "심판의 탄",
-		desc = "전투 진입 시, 자신의 화력, 뇌장 스탯 $1 상승. 주포로 $2회 사격 시마다, 자신과 가장 가까운 적에게 특수 탄막으로 1회 추가 공격(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 진입 시, 자신의 화력, 뇌장 스탯 $1 상승. 주포로 $2회 사격 시마다, 자신과 가장 가까운 적에게 특수 탄막으로 1회 추가 공격(위력은 스킬 레벨에 비례)",
 		id = 13320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -34782,11 +37473,14 @@ pg.skill_data_template = {
 	[13330] = {
 		desc_get = "",
 		name = "Sonnez la charge!",
-		desc = "전투 시작 시, 편대의 모든 보클랭급 구축함의 뇌장, 회피 $1 상승. 전투 진입 후 30초 동안, 자신의 화력, 대공, 명중 $2 상승 ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 시, 편대의 모든 보클랭급 구축함의 뇌장, 회피 $1 상승. 전투 진입 후 30초 동안, 자신의 화력, 대공, 명중 $2 상승 ",
 		id = 13330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -34885,11 +37579,14 @@ pg.skill_data_template = {
 	[13340] = {
 		desc_get = "",
 		name = "변천의 비밀",
-		desc = "부무장 슬롯에 주포 장비 시, 부무장의 위력 보정 $1 상승, 주포의 색적 범위 및 사정거리 80으로 증가, 전투 중 24초마다 특수 탄막 1회 발동. 부무장 슬롯에 폭격기 장비 시, 자신의 함재기 첫 번째 공중 지원 준비 시간 $2 단축",
 		type = 1,
 		max_level = 10,
+		desc = "부무장 슬롯에 주포 장비 시, 부무장의 위력 보정 $1 상승, 주포의 색적 범위 및 사정거리 80으로 증가, 전투 중 24초마다 특수 탄막 1회 발동. 부무장 슬롯에 폭격기 장비 시, 자신의 함재기 첫 번째 공중 지원 준비 시간 $2 단축",
 		id = 13340,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"25.0%",
@@ -34988,11 +37685,14 @@ pg.skill_data_template = {
 	[13350] = {
 		desc_get = "",
 		name = "예비 무장",
-		desc = "자신의 항공 공격이 준비 완료된지 5초 후, 어뢰 탄막 및 함재기 편대 $1 추가 발동(위력은 스킬 레벨에 비례), 한 전투 내에 최대 3회 발동",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 항공 공격이 준비 완료된지 5초 후, 어뢰 탄막 및 함재기 편대 $1 추가 발동(위력은 스킬 레벨에 비례), 한 전투 내에 최대 3회 발동",
 		id = 13350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -35037,11 +37737,14 @@ pg.skill_data_template = {
 	[13360] = {
 		desc_get = "",
 		name = "함재기, 출격!",
-		desc = "공습 시 $1 확률로 발동, 소드피쉬로 추가로 항공 전탄 발사 공격 $2(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "공습 시 $1 확률로 발동, 소드피쉬로 추가로 항공 전탄 발사 공격 $2(위력은 스킬 레벨에 비례)",
 		id = 13360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -35131,11 +37834,14 @@ pg.skill_data_template = {
 	[13370] = {
 		desc_get = "",
 		name = "성스러운 빛의 소원",
-		desc = "전투 시작 12초 후 성스러운 빛의 힘으로 1회 공격 $1(위력은 스킬 레벨에 비례), 이후 20초마다 $2의 확률로 다시 공격. 빛에 명중당한 적은 명중률 30% 감소, 스킬 효과는 4초 후 점점 줄어들어 사라짐",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 12초 후 성스러운 빛의 힘으로 1회 공격 $1(위력은 스킬 레벨에 비례), 이후 20초마다 $2의 확률로 다시 공격. 빛에 명중당한 적은 명중률 30% 감소, 스킬 효과는 4초 후 점점 줄어들어 사라짐",
 		id = 13370,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -35225,11 +37931,14 @@ pg.skill_data_template = {
 	[13380] = {
 		desc_get = "",
 		name = "쿨라 만의 꿈",
-		desc = "자신이 전투 중 어뢰로 받는 대미지가 $1 감소한다. 전투 시작 시, 전열에 3명이 있고 최후미가 자신이 아닌 이글 유니온 진영의 함선일 경우, 그 함선은 회피 $2 상승.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 전투 중 어뢰로 받는 대미지가 $1 감소한다. 전투 시작 시, 전열에 3명이 있고 최후미가 자신이 아닌 이글 유니온 진영의 함선일 경우, 그 함선은 회피 $2 상승.",
 		id = 13380,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -35328,11 +38037,14 @@ pg.skill_data_template = {
 	[13390] = {
 		desc_get = "",
 		name = "이거나 먹어라!",
-		desc = "30초마다, $1의 확률로 특수 탄막을 전개한다(위력은 스킬 레벨에 비례). 전투 중 내구도가 30% 미만이 될 경우, 자신의 내구도를 10% 회복하며 특수 탄막을 즉시 발동한다(이 효과는 매 전투마다 1회만 발동).",
 		type = 1,
 		max_level = 10,
+		desc = "30초마다, $1의 확률로 특수 탄막을 전개한다(위력은 스킬 레벨에 비례). 전투 중 내구도가 30% 미만이 될 경우, 자신의 내구도를 10% 회복하며 특수 탄막을 즉시 발동한다(이 효과는 매 전투마다 1회만 발동).",
 		id = 13390,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -35386,11 +38098,14 @@ pg.skill_data_template = {
 	[13400] = {
 		desc_get = "",
 		name = "레이더 탐지·改",
-		desc = "20초마다 $1의 확률로 발동하며, 모든 적이 받는 대미지가 10초간 $2 상승한다. 자신이 SG 레이더 착용 시, 자신의 회피가 $3 상승하며, 매 전투마다 첫 번째 레이더 탐지의 판정 시간이 16초로 단축.",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 $1의 확률로 발동하며, 모든 적이 받는 대미지가 10초간 $2 상승한다. 자신이 SG 레이더 착용 시, 자신의 회피가 $3 상승하며, 매 전투마다 첫 번째 레이더 탐지의 판정 시간이 16초로 단축.",
 		id = 13400,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -35534,11 +38249,14 @@ pg.skill_data_template = {
 	[13410] = {
 		desc_get = "",
 		name = "비상의 Talaria",
-		desc = "전투 개시 시, 공중 지원 준비가 $1회 즉시 완료되며 공중 지원 준비에 필요한 시간이 90% 증가한다. 매번 공습 후, 선봉 함대의 내구도 $2, 주력 함대의 내구도가 $3 회복된다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 시, 공중 지원 준비가 $1회 즉시 완료되며 공중 지원 준비에 필요한 시간이 90% 증가한다. 매번 공습 후, 선봉 함대의 내구도 $2, 주력 함대의 내구도가 $3 회복된다.",
 		id = 13410,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1",
@@ -35673,11 +38391,14 @@ pg.skill_data_template = {
 	[13420] = {
 		desc_get = "",
 		name = "이륙 발사 테스트",
-		desc = "전투 개시 후 12초마다 시 호넷, TBF, 파이어플라이 세 함재기 중 한 가지를 랜덤으로 편성하여 항공 공격 $1을 진행한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 후 12초마다 시 호넷, TBF, 파이어플라이 세 함재기 중 한 가지를 랜덤으로 편성하여 항공 공격 $1을 진행한다.",
 		id = 13420,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -35722,11 +38443,14 @@ pg.skill_data_template = {
 	[13430] = {
 		desc_get = "",
 		name = "광역 함선 수리",
-		desc = "자신의 격납고 용량이 3으로 확충되며, 전투 중 자신이 속한 편대의 모든 함선들의 내구도가 $2초마다 1.0% 회복된다. 스테이지 해역 내 기타 편대가 전투 진입 시, 자신이 전투 가능 상태일 경우, 전투 개시 20초 후,해당 편대의 선봉 함대의 내구도가 $1 회복된다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신의 격납고 용량이 3으로 확충되며, 전투 중 자신이 속한 편대의 모든 함선들의 내구도가 $2초마다 1.0% 회복된다. 스테이지 해역 내 기타 편대가 전투 진입 시, 자신이 전투 가능 상태일 경우, 전투 개시 20초 후,해당 편대의 선봉 함대의 내구도가 $1 회복된다.",
 		id = 13430,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -35825,11 +38549,14 @@ pg.skill_data_template = {
 	[13460] = {
 		desc_get = "",
 		name = "Blast Geminio",
-		desc = "전투 개시 후 15초마다 특수 탄막 $1을 전개하고, 전개 시 자신의 반경 30 이내에 적이 없다면 고정 특수 탄막$1을 추가로 전개한다. (탄막의 위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 후 15초마다 특수 탄막 $1을 전개하고, 전개 시 자신의 반경 30 이내에 적이 없다면 고정 특수 탄막$1을 추가로 전개한다. (탄막의 위력은 스킬 레벨에 비례)",
 		id = 13460,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -35874,11 +38601,14 @@ pg.skill_data_template = {
 	[13470] = {
 		desc_get = "",
 		name = "역경에 굴하지 않는 응원",
-		desc = "전투 개시 시, 자신이 선봉 함대가 아닐 경우, 자신의 화력, 뇌격, 대공, 장전이 $1 증가한다. 아군 중 기타 로열 진영 함선이 포함되어 있을 경우, 자신의 대미지가 $2 증가한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 자신이 선봉 함대가 아닐 경우, 자신의 화력, 뇌격, 대공, 장전이 $1 증가한다. 아군 중 기타 로열 진영 함선이 포함되어 있을 경우, 자신의 대미지가 $2 증가한다.",
 		id = 13470,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -35977,11 +38707,14 @@ pg.skill_data_template = {
 	[13480] = {
 		desc_get = "",
 		name = "전탄 제압 사격",
-		desc = "전투 개시 5초 후, 특수 탄막 $1을 전개한다(위력과 형식은 스킬 레벨에 비례). 전투 개시 후 30초마다 $2 확률로 특수 탄막을 재차 전개한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 5초 후, 특수 탄막 $1을 전개한다(위력과 형식은 스킬 레벨에 비례). 전투 개시 후 30초마다 $2 확률로 특수 탄막을 재차 전개한다.",
 		id = 13480,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36071,11 +38804,14 @@ pg.skill_data_template = {
 	[13490] = {
 		desc_get = "",
 		name = "뇌격 집중 모드",
-		desc = "전투 개시 시 및 전투 개시 후 20초마다 발동하며, 10초 동안 자신이 받는 어뢰 피해가 $1 감소하고 자신이 장착한 어뢰 무기의 발사 형태가 변경된다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 시 및 전투 개시 후 20초마다 발동하며, 10초 동안 자신이 받는 어뢰 피해가 $1 감소하고 자신이 장착한 어뢰 무기의 발사 형태가 변경된다.",
 		id = 13490,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"6.0%",
@@ -36129,11 +38865,14 @@ pg.skill_data_template = {
 	[13500] = {
 		desc_get = "",
 		name = "카리스마 일격",
-		desc = "자신의 주포 공격 10초 후, 특수 탄막 $1을 전개한다. 특수 탄막에 명중한 적은 20초 동안 관통 효과가 부여된다.(위력은 스킬 레벨에 비례)",
 		type = 3,
 		max_level = 10,
+		desc = "자신의 주포 공격 10초 후, 특수 탄막 $1을 전개한다. 특수 탄막에 명중한 적은 20초 동안 관통 효과가 부여된다.(위력은 스킬 레벨에 비례)",
 		id = 13500,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36178,11 +38917,14 @@ pg.skill_data_template = {
 	[13510] = {
 		desc_get = "",
 		name = "정면 돌파",
-		desc = "자신의 주포 공격 시, $1의 확률로 전방을 향해 특수 탄막을 전개한다.(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 주포 공격 시, $1의 확률로 전방을 향해 특수 탄막을 전개한다.(위력은 스킬 레벨에 비례)",
 		id = 13510,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -36236,11 +38978,14 @@ pg.skill_data_template = {
 	[13520] = {
 		desc_get = "",
 		name = "변천의 비밀",
-		desc = "부무장 슬롯에 주포 무기 장착 시, 부무장 슬롯의 무기 효율이 $1 증가한다. 해당 주포의 색적 범위와 사거리가 80까지 증가하며, 전투 중 24초마다 특수 탄막을 전개한다. 부무장 슬롯에 폭격기 장착 시, 자신 함재기의 첫 번째 공중 지원 준비 시간이 $2 단축된다.",
 		type = 1,
 		max_level = 10,
+		desc = "부무장 슬롯에 주포 무기 장착 시, 부무장 슬롯의 무기 효율이 $1 증가한다. 해당 주포의 색적 범위와 사거리가 80까지 증가하며, 전투 중 24초마다 특수 탄막을 전개한다. 부무장 슬롯에 폭격기 장착 시, 자신 함재기의 첫 번째 공중 지원 준비 시간이 $2 단축된다.",
 		id = 13520,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"25.0%",
@@ -36339,11 +39084,14 @@ pg.skill_data_template = {
 	[13530] = {
 		desc_get = "",
 		name = "비상하는 독수리의 검",
-		desc = "공중 지원 발동 시, 전용 소드피쉬 편대로 항공 어뢰 공격 $1을 추가로 진행한다.",
 		type = 1,
 		max_level = 10,
+		desc = "공중 지원 발동 시, 전용 소드피쉬 편대로 항공 어뢰 공격 $1을 추가로 진행한다.",
 		id = 13530,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36388,23 +39136,31 @@ pg.skill_data_template = {
 	[13540] = {
 		desc_get = "",
 		name = "광역 함선 수리",
-		desc = "지원 효과 ID 위치",
 		type = 2,
 		max_level = 10,
+		desc = "지원 효과 ID 위치",
 		id = 13540,
-		system_transform = {},
+		system_transform = {
+			[51.0] = 13545
+		},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[13550] = {
 		desc_get = "",
 		name = "스마일 헌터 ",
-		desc = "전투 중, 자신이 발사하는 어뢰의 크리티컬율 $1 증가. 전투 진입 시, 어뢰 탄막 $2 스킬 발사(위력과 탄막 형태는 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 자신이 발사하는 어뢰의 크리티컬율 $1 증가. 전투 진입 시, 어뢰 탄막 $2 스킬 발사(위력과 탄막 형태는 스킬 레벨에 비례) ",
 		id = 13550,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -36495,12 +39251,15 @@ pg.skill_data_template = {
 	[13560] = {
 		desc_get = "",
 		name = "울프팩 – U96",
-		desc = "출격 시, 편대 내 메탈 블러드 잠수함의 명중 $1 증가, 크리티컬 피해 $2 증가. 출격 시, 편대에 포함된 메탈 블러드 잠수함 1명 당 자신의 명중, 장전, 회피 $3씩 증가 ",
 		type = 1,
 		max_level = 10,
+		desc = "출격 시, 편대 내 메탈 블러드 잠수함의 명중 $1 증가, 크리티컬 피해 $2 증가. 출격 시, 편대에 포함된 메탈 블러드 잠수함 1명 당 자신의 명중, 장전, 회피 $3씩 증가 ",
 		id = 13560,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -36645,11 +39404,14 @@ pg.skill_data_template = {
 	[13570] = {
 		desc_get = "",
 		name = "AntiTorpedoField",
-		desc = "전투 시작 10초 후, 20초 지속되는 실드를 생성하여 3회의 어뢰 공격을 막는다. 실드가 격파되거나 20초 후 사라질 때, 어뢰 탄막 $1을 발동한다. 탄막 발동 30초 후 실드가 재생성된다. ",
 		type = 2,
 		max_level = 10,
+		desc = "전투 시작 10초 후, 20초 지속되는 실드를 생성하여 3회의 어뢰 공격을 막는다. 실드가 격파되거나 20초 후 사라질 때, 어뢰 탄막 $1을 발동한다. 탄막 발동 30초 후 실드가 재생성된다. ",
 		id = 13570,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36694,11 +39456,14 @@ pg.skill_data_template = {
 	[13580] = {
 		desc_get = "",
 		name = "성야의 구름",
-		desc = "전투 개시 3초 후 사이운 함재기로 정찰을 진행한다. 자신이 항공 공격 시, 시덴改二, 류세이, 사이운으로 구성된 편대로 $1 추가 공격한다.(사이운은 적 1유닛의 화력, 뇌장, 대공을 3% 감소시키며 받는 대미지를 3% 증가시킨다. 효과는 우선적으로 인간형 적에게 적용되며, 최대 3회 중첩된다. 전투 종료까지 지속.)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 3초 후 사이운 함재기로 정찰을 진행한다. 자신이 항공 공격 시, 시덴改二, 류세이, 사이운으로 구성된 편대로 $1 추가 공격한다.(사이운은 적 1유닛의 화력, 뇌장, 대공을 3% 감소시키며 받는 대미지를 3% 증가시킨다. 효과는 우선적으로 인간형 적에게 적용되며, 최대 3회 중첩된다. 전투 종료까지 지속.)",
 		id = 13580,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -36743,11 +39508,14 @@ pg.skill_data_template = {
 	[13590] = {
 		desc_get = "",
 		name = "나비의 꿈",
-		desc = "한 스테이지에 출격 중, 자신이 속한 함대가 진입하는 첫 2번의 전투에서 자신의 항공이 $1 증가한다. 전투 중 15초마다, 특수 탄막을 발동하여 $2 공격한다. 자신이 속하지 않은 함대의 3, 4, 5번째 전투 시, 자신이 생존해 있을 경우, 전투 개시 15초 후 지원 탄막 $2을 발동한다(탄막의 위력은 항공 스탯 및 스킬 레벨에 비례).",
 		type = 3,
 		max_level = 10,
+		desc = "한 스테이지에 출격 중, 자신이 속한 함대가 진입하는 첫 2번의 전투에서 자신의 항공이 $1 증가한다. 전투 중 15초마다, 특수 탄막을 발동하여 $2 공격한다. 자신이 속하지 않은 함대의 3, 4, 5번째 전투 시, 자신이 생존해 있을 경우, 전투 개시 15초 후 지원 탄막 $2을 발동한다(탄막의 위력은 항공 스탯 및 스킬 레벨에 비례).",
 		id = 13590,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -36837,11 +39605,14 @@ pg.skill_data_template = {
 	[13600] = {
 		desc_get = "",
 		name = "수호의 벚나무",
-		desc = "전투 개시 시, 자신이 생존해 있을 경우, 구축함의 화력, 회피, 대잠이 $1 상승한다. 전투 개시 시, 함대에 사쿠라 엠파이어 함선이 3척 이상 생존해 있을 경우, 자신이 받는 포격, 항공 대미지가 $2 감소하고, 사쿠라 엠파이어 경항공모함, 항공모함의 항공, 명중이 $1 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 시, 자신이 생존해 있을 경우, 구축함의 화력, 회피, 대잠이 $1 상승한다. 전투 개시 시, 함대에 사쿠라 엠파이어 함선이 3척 이상 생존해 있을 경우, 자신이 받는 포격, 항공 대미지가 $2 감소하고, 사쿠라 엠파이어 경항공모함, 항공모함의 항공, 명중이 $1 상승한다.",
 		id = 13600,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -36940,12 +39711,15 @@ pg.skill_data_template = {
 	[13610] = {
 		desc_get = "",
 		name = "전술 해방·{namecode:80}",
-		desc = "전투 개시 후 20초마다 $1 확률로 특수 탄막 $2을 전개한다(탄막의 위력 및 양식은 스킬 레벨에 비례).",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 후 20초마다 $1 확률로 특수 탄막 $2을 전개한다(탄막의 위력 및 양식은 스킬 레벨에 비례).",
 		id = 13610,
 		system_transform = {
 			[3.0] = 13615
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -37036,11 +39810,14 @@ pg.skill_data_template = {
 	[13620] = {
 		desc_get = "",
 		name = "용감히 전진",
-		desc = "자신이 전장에 있을 경우, 후열 함대 사쿠라 엠파이어 함선의 대공이 $1 상승한다. 전투 개시 시, 함대에 사쿠라 엠파이어 함선이 3척 이상 생존해 있을 경우, 자신의 화력이 $2 상승하고, 전열 함대 함선의 뇌장이 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 전장에 있을 경우, 후열 함대 사쿠라 엠파이어 함선의 대공이 $1 상승한다. 전투 개시 시, 함대에 사쿠라 엠파이어 함선이 3척 이상 생존해 있을 경우, 자신의 화력이 $2 상승하고, 전열 함대 함선의 뇌장이 $2 상승한다.",
 		id = 13620,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -37139,11 +39916,14 @@ pg.skill_data_template = {
 	[13630] = {
 		desc_get = "",
 		name = "돌격의 {namecode:27}",
-		desc = "전투 개시 시, 함대의 사쿠라 엠파이어 함선 1명당 자신의 화력, 대공이 $1 상승하고, 대공 범위 내에서 적 함재기가 2대 격추될 때마다, 동일한 효과가 1회 추가 중첩된다. 최대 6회 중첩 가능.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 시, 함대의 사쿠라 엠파이어 함선 1명당 자신의 화력, 대공이 $1 상승하고, 대공 범위 내에서 적 함재기가 2대 격추될 때마다, 동일한 효과가 1회 추가 중첩된다. 최대 6회 중첩 가능.",
 		id = 13630,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -37197,11 +39977,14 @@ pg.skill_data_template = {
 	[13640] = {
 		desc_get = "",
 		name = "수비의 {namecode:27}",
-		desc = "전투 개시 3초 후 연막탄 사용 및 특수 탄막 전개하여 연막 속의 함선의 회피율을 5초 동안 $1 증가시킨다. 전투 개시 후 15초마다 특수 탄막을 전개하고, $2 확률로 연막탄을 사용한다. 전투 중 대미지를 입어 내구도가 20% 이하로 떨어질 경우, 즉시 내구도를 $3 회복한다. 한 전투마다 1회만 발동.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 3초 후 연막탄 사용 및 특수 탄막 전개하여 연막 속의 함선의 회피율을 5초 동안 $1 증가시킨다. 전투 개시 후 15초마다 특수 탄막을 전개하고, $2 확률로 연막탄을 사용한다. 전투 중 대미지를 입어 내구도가 20% 이하로 떨어질 경우, 즉시 내구도를 $3 회복한다. 한 전투마다 1회만 발동.",
 		id = 13640,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -37345,11 +40128,14 @@ pg.skill_data_template = {
 	[13650] = {
 		desc_get = "",
 		name = "손실 방비",
-		desc = "자신이 소속된 함대가 출격한 스테이지에서 첫 3번의 전투 중, 자신이 받는 포격 대미지가 $1 감소한다. 전투 개시 시, 함대에 사쿠라 엠파이어 함선이 2척 이상 생존해 있을 경우, 자신의 속력이 10 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 소속된 함대가 출격한 스테이지에서 첫 3번의 전투 중, 자신이 받는 포격 대미지가 $1 감소한다. 전투 개시 시, 함대에 사쿠라 엠파이어 함선이 2척 이상 생존해 있을 경우, 자신의 속력이 10 상승한다.",
 		id = 13650,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -37403,11 +40189,14 @@ pg.skill_data_template = {
 	[13660] = {
 		desc_get = "",
 		name = "불조심!",
-		desc = "적재 장비 시, 자신이 받는 화재 대미지가 $1 감소하고, 화재 지속 시간이 $2초 단축된다.",
 		type = 2,
 		max_level = 10,
+		desc = "적재 장비 시, 자신이 받는 화재 대미지가 $1 감소하고, 화재 지속 시간이 $2초 단축된다.",
 		id = 13660,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -37497,11 +40286,14 @@ pg.skill_data_template = {
 	[13670] = {
 		desc_get = "",
 		name = "실수는 없다!",
-		desc = "한 전투에서 3회 대미지를 입은 후, 자신이 받는 대미지가 $1 감소한다. 전투 종료까지 지속. 전투 개시 시, 함대에 사쿠라 엠파이어 함선이 2척 이상 생존해 있을 경우, 전탄 발사 탄막이 강화된다. 자신이 속한 함대의 2, 4, 6번째 전투에서 전투 시작 60초 후, 자신의 내구도를 $2 회복한다.",
 		type = 2,
 		max_level = 10,
+		desc = "한 전투에서 3회 대미지를 입은 후, 자신이 받는 대미지가 $1 감소한다. 전투 종료까지 지속. 전투 개시 시, 함대에 사쿠라 엠파이어 함선이 2척 이상 생존해 있을 경우, 전탄 발사 탄막이 강화된다. 자신이 속한 함대의 2, 4, 6번째 전투에서 전투 시작 60초 후, 자신의 내구도를 $2 회복한다.",
 		id = 13670,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -37600,11 +40392,14 @@ pg.skill_data_template = {
 	[13680] = {
 		desc_get = "",
 		name = "천의 날개",
-		desc = "전투 중 자신의 첫 번째 항공 지원 시, 수상기 편대로 $1 추가 공격한다. 자신의 두 번째 항공 지원부터 $2의 확률로 뇌격기 편대로 $1 추가 공격한다(위력은 스킬 레벨에 비례, 다른 사쿠라 엠파이어 경항공모함과 함께 출격 시 추가 공격 강화)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 자신의 첫 번째 항공 지원 시, 수상기 편대로 $1 추가 공격한다. 자신의 두 번째 항공 지원부터 $2의 확률로 뇌격기 편대로 $1 추가 공격한다(위력은 스킬 레벨에 비례, 다른 사쿠라 엠파이어 경항공모함과 함께 출격 시 추가 공격 강화)",
 		id = 13680,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -37694,11 +40489,14 @@ pg.skill_data_template = {
 	[13690] = {
 		desc_get = "",
 		name = "천의 날개",
-		desc = "전투 중 자신의 첫 번째 항공 지원 시, 수상기 편대로 $1 추가 공격한다. 자신의 두 번째 항공 지원부터 $2의 확률로 뇌격기 편대로 $1 추가 공격한다(위력은 스킬 레벨에 비례, 다른 사쿠라 엠파이어 경항공모함과 함께 출격 시 추가 공격 강화)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 자신의 첫 번째 항공 지원 시, 수상기 편대로 $1 추가 공격한다. 자신의 두 번째 항공 지원부터 $2의 확률로 뇌격기 편대로 $1 추가 공격한다(위력은 스킬 레벨에 비례, 다른 사쿠라 엠파이어 경항공모함과 함께 출격 시 추가 공격 강화)",
 		id = 13690,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -37788,22 +40586,30 @@ pg.skill_data_template = {
 	[13700] = {
 		desc_get = "",
 		name = "수호의 벚나무",
-		desc = "수호의 벚나무 맵 전체 지원 효과",
 		type = 2,
 		max_level = 10,
+		desc = "수호의 벚나무 맵 전체 지원 효과",
 		id = 13700,
-		system_transform = {},
+		system_transform = {
+			[51.0] = 13705
+		},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[13710] = {
 		desc_get = "",
 		name = "비구름 속으로",
-		desc = "매번 항공 공격 시마다 8초 동안 자신이 받는 항공 대미지가 $1 감소한다. 항공 대미지 감소 효과 종료 후 $1의 확률로 TBF 어벤저를 사용하여 $2 공격한다. (위력과 형식은 스킬 레벨레 비례)",
 		type = 2,
 		max_level = 10,
+		desc = "매번 항공 공격 시마다 8초 동안 자신이 받는 항공 대미지가 $1 감소한다. 항공 대미지 감소 효과 종료 후 $1의 확률로 TBF 어벤저를 사용하여 $2 공격한다. (위력과 형식은 스킬 레벨레 비례)",
 		id = 13710,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -37893,11 +40699,14 @@ pg.skill_data_template = {
 	[13720] = {
 		desc_get = "",
 		name = "연소 금지령",
-		desc = "버밍햄과 동시 출격 또는 편대에 3척 이상의 이글 유니온 진영 함선이 존재할 경우, 전열 함대가 받는 화재 대미지가 $1 감소하며, 자신이 받는 화재 지속 시간이 $2초 감소한다. 이때 자신이 기함일 경우, 전열 함대가 받는 화재 지속 시간이 $2초 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "버밍햄과 동시 출격 또는 편대에 3척 이상의 이글 유니온 진영 함선이 존재할 경우, 전열 함대가 받는 화재 대미지가 $1 감소하며, 자신이 받는 화재 지속 시간이 $2초 감소한다. 이때 자신이 기함일 경우, 전열 함대가 받는 화재 지속 시간이 $2초 감소한다.",
 		id = 13720,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -37987,11 +40796,14 @@ pg.skill_data_template = {
 	[13730] = {
 		desc_get = "",
 		name = "파멸의 Encore",
-		desc = "전투 개시 후 15초마다 음표 탄막 $1 발동. 탄막에 명중당한 적은 6초 동안 받는 대미지가 10% 상승한다. 탄막으로 단 1명의 적만 명중할 경우, 해당 적에게 어뢰 탄막을 추가로 발사하며 속도를 3초 동안 0까지 감소시킨다. (탄막의 위력과 형태는 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 후 15초마다 음표 탄막 $1 발동. 탄막에 명중당한 적은 6초 동안 받는 대미지가 10% 상승한다. 탄막으로 단 1명의 적만 명중할 경우, 해당 적에게 어뢰 탄막을 추가로 발사하며 속도를 3초 동안 0까지 감소시킨다. (탄막의 위력과 형태는 스킬 레벨에 비례)",
 		id = 13730,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -38036,11 +40848,14 @@ pg.skill_data_template = {
 	[13740] = {
 		desc_get = "",
 		name = "감도는 Melody",
-		desc = "전투 개시 후, 2가지 회전 실드를 생성한다. 푸른색 실드는 총알을 8회 막을 수 있고, 붉은색 실드는 부딪히며 8회 대미지를 입힐 수 있다. 실드는 $1초 동안 지속되며, 30초 간격으로 재생성된다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 후, 2가지 회전 실드를 생성한다. 푸른색 실드는 총알을 8회 막을 수 있고, 붉은색 실드는 부딪히며 8회 대미지를 입힐 수 있다. 실드는 $1초 동안 지속되며, 30초 간격으로 재생성된다.",
 		id = 13740,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5",
@@ -38094,11 +40909,14 @@ pg.skill_data_template = {
 	[13750] = {
 		desc_get = "",
 		name = "선홍빛 Waltz",
-		desc = "자신이 공중 지원 발동 시, 항공 탄막 $1을 추가 발동한다. 이 때 자신의 내구도가 45% 이상일 경우, 200의 내구도를 소모하면서 항공 탄막의 형태를 강화한다. (탄막 위력과 형태는 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 공중 지원 발동 시, 항공 탄막 $1을 추가 발동한다. 이 때 자신의 내구도가 45% 이상일 경우, 200의 내구도를 소모하면서 항공 탄막의 형태를 강화한다. (탄막 위력과 형태는 스킬 레벨에 비례)",
 		id = 13750,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -38143,11 +40961,14 @@ pg.skill_data_template = {
 	[13760] = {
 		desc_get = "",
 		name = "파멸의 Opening",
-		desc = "전투 시작 시, 함대에 다른 μ장비 함선이 있을 경우, μ장비 함선 수에 따라 자신의 $1 항공 증가, 최대 4회 중첩. 전투 중 피해를 입어 내구도가 35% 이하로 떨어질 경우, 특수 탄막 $2을 발동하며, 대미지의 8.0%만큼 내구도를 회복한다. (탄막 위력은 스킬 레벨에 비례, 한 전투 당 1회만 발동), 특수 탄막 발동 후, 자신의 공중 지원 대기 시간이 $3 감소한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 시, 함대에 다른 μ장비 함선이 있을 경우, μ장비 함선 수에 따라 자신의 $1 항공 증가, 최대 4회 중첩. 전투 중 피해를 입어 내구도가 35% 이하로 떨어질 경우, 특수 탄막 $2을 발동하며, 대미지의 8.0%만큼 내구도를 회복한다. (탄막 위력은 스킬 레벨에 비례, 한 전투 당 1회만 발동), 특수 탄막 발동 후, 자신의 공중 지원 대기 시간이 $3 감소한다.",
 		id = 13760,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -38282,11 +41103,14 @@ pg.skill_data_template = {
 	[13770] = {
 		desc_get = "",
 		name = "Lumière des Anges",
-		desc = "전투 개시 후 20초마다, 3초 동안 정지하며, 신성한 천사쥬를 소환해 공습 $1을 진행한다. (공습 탄막 위력은 뇌장 스탯과 스킬 레벨에 비례). 또한 50% 확률로 자신의 내구도를 3% 회복한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 후 20초마다, 3초 동안 정지하며, 신성한 천사쥬를 소환해 공습 $1을 진행한다. (공습 탄막 위력은 뇌장 스탯과 스킬 레벨에 비례). 또한 50% 확률로 자신의 내구도를 3% 회복한다.",
 		id = 13770,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -38331,11 +41155,14 @@ pg.skill_data_template = {
 	[13780] = {
 		desc_get = "",
 		name = "나태한 천사",
-		desc = "전투 개시 후, 자신의 화력이 $1 증가한다. 자신이 적함을 격파할 경우, 화력 스탯이 3% 추가로 증가한다. 최대 3회 중첩. 또한, 전투 중 자신이 받는 대미지가 5% 감소하며 25초마다 모든 아군 구축함의 내구도를 $2 회복시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 후, 자신의 화력이 $1 증가한다. 자신이 적함을 격파할 경우, 화력 스탯이 3% 추가로 증가한다. 최대 3회 중첩. 또한, 전투 중 자신이 받는 대미지가 5% 감소하며 25초마다 모든 아군 구축함의 내구도를 $2 회복시킨다.",
 		id = 13780,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -38434,11 +41261,14 @@ pg.skill_data_template = {
 	[13790] = {
 		desc_get = "",
 		name = "성점의 노래",
-		desc = "공중 지원 준비 완료 시, 전장 내 적들의 속도가 4초 동안 $1 감소하며, 다음 3가지 효과 중 하나를 랜덤 발동한다: ①전장 내 적의 기동이 10초 동안 $2 감소. ②10초 동안 전열 함대의 대미지 $4 증가, 후열 함대의 받는 대미지 $3 감소. ③10초 동안 후열 함대의 대미지 $3증가, 전열 함대의 받는 대미지 $3 감소.",
 		type = 3,
 		max_level = 10,
+		desc = "공중 지원 준비 완료 시, 전장 내 적들의 속도가 4초 동안 $1 감소하며, 다음 3가지 효과 중 하나를 랜덤 발동한다: ①전장 내 적의 기동이 10초 동안 $2 감소. ②10초 동안 전열 함대의 대미지 $4 증가, 후열 함대의 받는 대미지 $3 감소. ③10초 동안 후열 함대의 대미지 $3증가, 전열 함대의 받는 대미지 $3 감소.",
 		id = 13790,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -38627,11 +41457,14 @@ pg.skill_data_template = {
 	[13800] = {
 		desc_get = "",
 		name = "떨어지는 별의 빛",
-		desc = "자신이 공중 지원 발동 시, $1 확률로 특수 항공 탄막을 추가로 발동한다. (항공 탄막 위력과 형태는 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 공중 지원 발동 시, $1 확률로 특수 항공 탄막을 추가로 발동한다. (항공 탄막 위력과 형태는 스킬 레벨에 비례)",
 		id = 13800,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -38685,11 +41518,14 @@ pg.skill_data_template = {
 	[13810] = {
 		desc_get = "",
 		name = "발라드 합주",
-		desc = "전투 시작 시, 전열 함대에 자신만 있을 경우, 기함의 대공 스탯이 $1 증가하며, 전투 중 20초마다 특수 탄막 $2을 발동한다. 전투 시작 시, 전열 함대에 다른 함선이 있을 경우, 전열 함대 전원의 항속 3, 명중, 대공 $3 증가하며, 전투 중 20초마다 강화형 특수 탄막 $2을 발동한다. (탄막 위력은 스킬 레벨에 비례)",
 		type = 2,
 		max_level = 10,
+		desc = "전투 시작 시, 전열 함대에 자신만 있을 경우, 기함의 대공 스탯이 $1 증가하며, 전투 중 20초마다 특수 탄막 $2을 발동한다. 전투 시작 시, 전열 함대에 다른 함선이 있을 경우, 전열 함대 전원의 항속 3, 명중, 대공 $3 증가하며, 전투 중 20초마다 강화형 특수 탄막 $2을 발동한다. (탄막 위력은 스킬 레벨에 비례)",
 		id = 13810,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -38824,11 +41660,14 @@ pg.skill_data_template = {
 	[13820] = {
 		desc_get = "",
 		name = "빛나는 연습곡",
-		desc = "전투 개시 후 60초 동안 자신의 기동이 $1 증가한다. 자신이 전투 중 적함 2척을 격파할 때마다, 대공이 $2 증가한다. 최대 3회 중첩. 전투 종료까지 지속.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 후 60초 동안 자신의 기동이 $1 증가한다. 자신이 전투 중 적함 2척을 격파할 때마다, 대공이 $2 증가한다. 최대 3회 중첩. 전투 종료까지 지속.",
 		id = 13820,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -38927,11 +41766,14 @@ pg.skill_data_template = {
 	[13830] = {
 		desc_get = "",
 		name = "얼음 결정의 기억",
-		desc = "전투 시작 시, 특수 탄막을 발사하는 [특수 에너지 장비: 얼음 요정·μ]을 소환한다. [얼음 요정·μ]은 $1초 동안 지속되며, 공격을 10회 명중한 적에게 특수 파갑 효과를 부여하고, 받는 항공 대미지를 5% 증가시킨다. 전투 종료까지 지속(탄막 대미지와 지속 시간은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 시, 특수 탄막을 발사하는 [특수 에너지 장비: 얼음 요정·μ]을 소환한다. [얼음 요정·μ]은 $1초 동안 지속되며, 공격을 10회 명중한 적에게 특수 파갑 효과를 부여하고, 받는 항공 대미지를 5% 증가시킨다. 전투 종료까지 지속(탄막 대미지와 지속 시간은 스킬 레벨에 비례)",
 		id = 13830,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20",
@@ -38985,11 +41827,14 @@ pg.skill_data_template = {
 	[13840] = {
 		desc_get = "",
 		name = "γpa！",
-		desc = "한 스테이지에 출격 시, 자신이 속한 편대의 첫 세 번의 전투 동안 자신의 화력이 $1 증가한다. 4번째 전투부터는 자신의 대공이 $1 증가한다.",
 		type = 3,
 		max_level = 10,
+		desc = "한 스테이지에 출격 시, 자신이 속한 편대의 첫 세 번의 전투 동안 자신의 화력이 $1 증가한다. 4번째 전투부터는 자신의 대공이 $1 증가한다.",
 		id = 13840,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -39043,12 +41888,15 @@ pg.skill_data_template = {
 	[13850] = {
 		desc_get = "",
 		name = "세계의 선물",
-		desc = "자신의 산소 저장량이 추가로 $1 증가한다. 산소 부족으로 떠오를 경우, 70% 확률로 명중한 적에게 파갑 효과를 부여하는 어뢰 $2를 발사한다. 자신이 전장에서 철수 시, 70% 확률로 명중한 적에게 점화 효과를 입히는 어뢰 $2를 발사한다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 산소 저장량이 추가로 $1 증가한다. 산소 부족으로 떠오를 경우, 70% 확률로 명중한 적에게 파갑 효과를 부여하는 어뢰 $2를 발사한다. 자신이 전장에서 철수 시, 70% 확률로 명중한 적에게 점화 효과를 입히는 어뢰 $2를 발사한다. (위력은 스킬 레벨에 비례)",
 		id = 13850,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -39139,11 +41987,14 @@ pg.skill_data_template = {
 	[13860] = {
 		desc_get = "",
 		name = "슈퍼 에너지 충전",
-		desc = "20초 간격으로 $1 확률로 자신의 주포 탄약을 특수 탄약 $2으로 변경한다. 10초 지속. 전투 시작 시, 해당 효과를 즉시 발동한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초 간격으로 $1 확률로 자신의 주포 탄약을 특수 탄약 $2으로 변경한다. 10초 지속. 전투 시작 시, 해당 효과를 즉시 발동한다.",
 		id = 13860,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -39233,11 +42084,14 @@ pg.skill_data_template = {
 	[13870] = {
 		desc_get = "",
 		name = "별의 안무가",
-		desc = "전투 시작 시, 함대에 자신을 제외한 μ장비 함선 또는 경항공모함, 항공모함이 있을 경우, 자신의 기동 $1 증가, 전열 함대 전원의 대공 $2 증가.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 시, 함대에 자신을 제외한 μ장비 함선 또는 경항공모함, 항공모함이 있을 경우, 자신의 기동 $1 증가, 전열 함대 전원의 대공 $2 증가.",
 		id = 13870,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -39333,14 +42187,1746 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[13880] = {
+		desc_get = "",
+		name = "철의 날개",
+		type = 1,
+		max_level = 10,
+		desc = "자신이 공중 지원 발동 시 $1 확률로 전용 뇌격기로 추가 공습(공습 탄막 위력과 형식은 스킬 레벨에 비례)",
+		id = 13880,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			}
+		}
+	},
+	[13890] = {
+		desc_get = "",
+		name = "침공의 시간",
+		type = 1,
+		max_level = 10,
+		desc = "전투 중, 모든 적에게 8% 감속 효과를 준다. 전투 중 매초당 1회 판정하며, $1 확률로 모든 적의 항속을 3초 동안 0으로 만든다. 발동 후 쿨타임 7초.",
+		id = 13890,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13900] = {
+		desc_get = "",
+		name = "혈익지맹",
+		type = 3,
+		max_level = 10,
+		desc = "아군 함대에 메탈 블러드 함선 1척당 자신의 항공이 $1 증가한다. 최대 3회 중첩. 아군 함대에 메탈 블러드 함선이 4척 이상일 경우, 모든 아군 메탈 블러드 항공모함, 경항공모함의 1, 2, 3번째 공중 지원 준비 시간이 $2 감소한다.",
+		id = 13900,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13910] = {
+		desc_get = "",
+		name = "Eisen Bite",
+		type = 1,
+		max_level = 10,
+		desc = "주포로 공격 시 $1 확률로 발동. 3초 동안 자신이 주포로 입히는 대미지가 25% 증가한다. 발동 후 쿨타임 7초. 전투 시작 시, 아군 함대에 메탈 블러드 함선이 있을 경우, 자신의 장전, 기동이 $2 증가한다.",
+		id = 13910,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.3%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13920] = {
+		desc_get = "",
+		name = "직감의 권",
+		type = 2,
+		max_level = 10,
+		desc = "전투 시작 후 20초마다, 특수 탄막 $1을 전개한다(탄막 위력은 스킬 레벨에 비례). 또한 랜덤으로 전방에 어뢰 2발 또는 총알 10발을 막아줄 수 있는 쉴드를 생성한다. $2초 지속.",
+		id = 13920,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5",
+				"10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5",
+					"+0.5"
+				},
+				{
+					"5.5",
+					"+0.5"
+				},
+				{
+					"6",
+					"+0.5"
+				},
+				{
+					"6.5",
+					"+0.5"
+				},
+				{
+					"7",
+					"+0.5"
+				},
+				{
+					"7.5",
+					"+0.5"
+				},
+				{
+					"8",
+					"+0.5"
+				},
+				{
+					"8.5",
+					"+0.5"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10"
+				}
+			}
+		}
+	},
+	[13930] = {
+		desc_get = "",
+		name = "서진의 창",
+		type = 1,
+		max_level = 10,
+		desc = "자신의 산소 저장량이 추가로 $1 증가한다. 경장갑 적에 대한 대미지가 $2 증가하며, 산소가 부족해 수면으로 떠오를 시, 특수 탄막 $3을 발사한다(탄막 위력은 스킬 레벨에 비례).",
+		id = 13930,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"2",
+				"20"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2",
+					"+2"
+				},
+				{
+					"4",
+					"+2"
+				},
+				{
+					"6",
+					"+2"
+				},
+				{
+					"8",
+					"+2"
+				},
+				{
+					"10",
+					"+2"
+				},
+				{
+					"12",
+					"+2"
+				},
+				{
+					"14",
+					"+2"
+				},
+				{
+					"16",
+					"+2"
+				},
+				{
+					"18",
+					"+2"
+				},
+				{
+					"20"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13940] = {
+		desc_get = "",
+		name = "울프팩-U37",
+		type = 1,
+		max_level = 10,
+		desc = "자신의 항속이 3, 장전이 $1 증가한다. 출격 시, 편대에 메탈 블러드 잠수함 1척당, 자신의 뇌장, 명중, 기동이 $2 증가한다.",
+		id = 13940,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"8.0%",
+				"18.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[13950] = {
+		desc_get = "",
+		name = "고성의 감시자",
+		type = 1,
+		max_level = 10,
+		desc = "전투 중, 자신이 공중 지원 발동 후 $1 확률로 공중 폭격 탄막을 발동한다. 전투 시작 시, 아군 함대에 메탈 블러드 함선이 3척 이상일 경우, 자신의 크리티컬 대미지가 $2 증가한다. 전투 시작 시, 주력 함대에 메탈 블러드 함선이 1척 뿐이라면, 자신의 장전이 $3, 항공이 $4 증가하고, 항공 탄막이 강화되며 30% 확률로 발동한다(탄막 위력은 스킬 레벨에 비례)",
+		id = 13950,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.2%"
+				},
+				{
+					"6.2%",
+					"+1.2%"
+				},
+				{
+					"7.4%",
+					"+1.6%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13960] = {
+		desc_get = "",
+		name = "철혈의 방패",
+		type = 2,
+		max_level = 10,
+		desc = "전투 진입 후 20초마다, 선봉 함대의 랜덤 1명에게 양면 회전 쉴드를 부여한다. 각 쉴드는 총알 6발을 막아준다. $1초 지속. 쉴드를 얻은 함선이 메탈 블러드 소속이라면, 자신의 내구도를 $3 회복하며 해당 함선의 화력이 $2 증가한다. 8초 지속.",
+		id = 13960,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"6",
+				"8"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"7"
+				},
+				{
+					"7"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				},
+				{
+					"8"
+				},
+				{
+					"8"
+				},
+				{
+					"8"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[13970] = {
+		desc_get = "",
+		name = "완벽한 훈련",
+		type = 3,
+		max_level = 10,
+		desc = "전투 시작 후 15초 마다 탄막 사격 $1을 발동한다(탄막 위력은 스킬 레벨에 비례). 전투 후, 아군에 잠수함, 잠수항모가 얻는 경험치가 $2 증가한다.",
+		id = 13970,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13980] = {
+		desc_get = "",
+		name = "하늘의 수호",
+		type = 1,
+		max_level = 10,
+		desc = "전투 시작 시 자신의 뇌장이 $1 증가하며, 아군 메탈 블러드 함선의 대공이 $2 증가한다. 대공 범위 내에 적기 3대가 격추될 때마다 자신의 대공이 $3 추가로 증가한다. 최대 3회 중첩.",
+		id = 13980,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[13990] = {
+		desc_get = "",
+		name = "마왕의 가호",
+		type = 2,
+		max_level = 10,
+		desc = "자신이 구축함, 경순양함에게 입히는 대미지가 $1 증가한다. 전투 중, 아군 함대에 다른 Z 구축함의 내구도가 30% 이하일 시 발동되며, 해당 함선이 받는 대미지를 30% 감소시킨다. 동시에 자신의 화력, 뇌장, 장전이 $2 증가한다. 스탯 증가 효과는 전투당 1회만 발동.",
+		id = 13990,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[14000] = {
+		desc_get = "",
+		name = "마왕의 분노",
+		type = 1,
+		max_level = 10,
+		desc = "전투 시작 시 탄막 $1을 발동한다(탄막 위력은 스킬 레벨에 비례). 이후 20초마다 해당 탄막을 재발동한다. 전투 중, 자신이 적함을 격파할 때마다 자신의 화력, 뇌장이 $2 증가한다. 최대 5회 중첩.",
+		id = 14000,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"4.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.3%"
+				},
+				{
+					"1.3%",
+					"+0.3%"
+				},
+				{
+					"1.6%",
+					"+0.4%"
+				},
+				{
+					"2.0%",
+					"+0.3%"
+				},
+				{
+					"2.3%",
+					"+0.3%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.3%"
+				},
+				{
+					"3.3%",
+					"+0.3%"
+				},
+				{
+					"3.6%",
+					"+0.4%"
+				},
+				{
+					"4.0%"
+				}
+			}
+		}
+	},
+	[14010] = {
+		desc_get = "",
+		name = "Z 파일럿",
+		type = 3,
+		max_level = 10,
+		desc = "출격 시, Z 구축함의 화력 $1, 명중 $1, 대공 $2 증가. 아군 함대에 자신을 제외한 Z 구축함이 포함되어 있을 경우, 자신의 화력 $1, 뇌장 $1, 대잠 $2 증가.",
+		id = 14010,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[14020] = {
+		desc_get = "",
+		name = "호위 엘리트",
+		type = 2,
+		max_level = 10,
+		desc = "전투 시작 시, 연막탄을 사용하며 특수 탄막을 발동한다. 이후 15초마다 $1 확률로 연막탄을 사용하며, 연막 속 함선의 회피율 $2 증가. 5초 지속(회피율 증가 효과와 [연막탄] 스킬은 중첩되지 않음). 기함이 대미지를 입을 때마다, $3 확률로 특수 탄막이 재발동되며, 해당 효과는 20초마다 1회만 발동된다(탄막 위력은 스킬 레벨에 비례).",
+		id = 14020,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV 철갑탄 +",
-		desc = "철갑탄 포격 대미지가 $1 증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "철갑탄 포격 대미지가 $1 증가한다.",
 		id = 18010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -39394,11 +43980,14 @@ pg.skill_data_template = {
 	[18040] = {
 		desc_get = "",
 		name = "역전분투 +",
-		desc = "내구도가 1% 감소할 때 마다 장전 수치가 $1 증가한다. 내구도가 20% 이하일 시, 10초 동안 자신 최대 내구도의 15%를 회복한다.(매 전투마다 한 번만 발동)",
 		type = 2,
 		max_level = 10,
+		desc = "내구도가 1% 감소할 때 마다 장전 수치가 $1 증가한다. 내구도가 20% 이하일 시, 10초 동안 자신 최대 내구도의 15%를 회복한다.(매 전투마다 한 번만 발동)",
 		id = 18040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"0.6",
@@ -39452,11 +44041,14 @@ pg.skill_data_template = {
 	[18050] = {
 		desc_get = "",
 		name = "심현합일 +",
-		desc = "자신의 어뢰 크리티컬 확률이 $1, 크리티컬 대미지가 65% 증가한다. 어뢰 발사 시 6초 동안 기동 수치를 $2 증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 어뢰 크리티컬 확률이 $1, 크리티컬 대미지가 65% 증가한다. 어뢰 발사 시 6초 동안 기동 수치를 $2 증가한다.",
 		id = 18050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -39555,12 +44147,15 @@ pg.skill_data_template = {
 	[18070] = {
 		desc_get = "",
 		name = "신화전승 +",
-		desc = "주포 발사 시 $1의 확률로 특수 탄막을 발동한다(위력은 스킬 레벨에 비례).",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1의 확률로 특수 탄막을 발동한다(위력은 스킬 레벨에 비례).",
 		id = 18070,
 		system_transform = {
 			[3.0] = 18071
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -39615,11 +44210,14 @@ pg.skill_data_template = {
 	[18100] = {
 		desc_get = "전투 시작 시 30초 마다 적의 탄환을 8회 막아주고 <color=#92fc63FF>5</color>초 간(최대 <color=#92fc63FF>15</color>초) 지속되는 회전 실드를 4장 생성한다.",
 		name = "전방위 장갑 +",
-		desc = "전투 시작 시 30초 마다 적의 탄환을 8회 막아주고 $1초 간 지속되는 회전 실드를 4장 생성한다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 시작 시 30초 마다 적의 탄환을 8회 막아주고 $1초 간 지속되는 회전 실드를 4장 생성한다.",
 		id = 18100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -39668,11 +44266,14 @@ pg.skill_data_template = {
 	[18120] = {
 		desc_get = "항속을 <color=#92fc63FF>3</color>(최대 <color=#92fc63FF>8</color>) 증가시키고, 전투 시작 시 50초 동안 기동을 <color=#92fc63FF>15%</color>(최대 <color=#92fc63FF>35%</color>) 증가시킨다.",
 		name = "엔진 부스트 +",
-		desc = "항속을 $1 증가시키고, 전투 시작 시 50초 동안 기동 수치를 $2 증가시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "항속을 $1 증가시키고, 전투 시작 시 50초 동안 기동 수치를 $2 증가시킨다.",
 		id = 18120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -39762,11 +44363,14 @@ pg.skill_data_template = {
 	[18130] = {
 		desc_get = "",
 		name = "비행 NG!+",
-		desc = "방공권에서 적 전투기 격추 시 자신의 화력, 대공 $1 증가, 8초간 지속, 중첩 불가. 제공 상태에서 열세나 제공권 상실이 아닐 경우, 해당 효과는 전투 시작 후 즉시 발동. 전투기 15대 격추 시, 추가로 자신의 화력, 장전 $2 증가",
 		type = 2,
 		max_level = 10,
+		desc = "방공권에서 적 전투기 격추 시 자신의 화력, 대공 $1 증가, 8초간 지속, 중첩 불가. 제공 상태에서 열세나 제공권 상실이 아닐 경우, 해당 효과는 전투 시작 후 즉시 발동. 전투기 15대 격추 시, 추가로 자신의 화력, 장전 $2 증가",
 		id = 18130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -39865,11 +44469,14 @@ pg.skill_data_template = {
 	[18150] = {
 		desc_get = "",
 		name = "Iron Sight Caliber +",
-		desc = "자신이 장비한 주포의 범위가 3 감소하며, 중순양함, 초갑순양함, 순양전함, 전함, 항전에게 주는 피해 추가로 $1 상승, 경항공모함, 항공모함에게 주는 피해 $2 상승",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 장비한 주포의 범위가 3 감소하며, 중순양함, 초갑순양함, 순양전함, 전함, 항전에게 주는 피해 추가로 $1 상승, 경항공모함, 항공모함에게 주는 피해 $2 상승",
 		id = 18150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -39968,11 +44575,14 @@ pg.skill_data_template = {
 	[18180] = {
 		desc_get = "",
 		name = "{namecode:164}류·6연뢰 +",
-		desc = "전투 시작 10초 후 자신이 받는 피해 $2 감소, 50초간 지속. 강력한 특수 전탄 발사-($1)로 어뢰 8개 명중 시 추가로 전탄 발사",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 10초 후 자신이 받는 피해 $2 감소, 50초간 지속. 강력한 특수 전탄 발사-($1)로 어뢰 8개 명중 시 추가로 전탄 발사",
 		id = 18180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -40062,11 +44672,14 @@ pg.skill_data_template = {
 	[18250] = {
 		desc_get = "",
 		name = "감지 제어 모듈 + ",
-		desc = "전투 진입 시 잔여 HP가 50% 이상일 때 대공 $2 증가, 해당 전투의 [정밀조작협의] 스킬이 전탄 발사. 부상을 입어 HP 50% 미만일 시, 자신의 회피 $1 상승, 8초간 HP 8% 회복, 최대 2회 발동",
 		type = 2,
 		max_level = 10,
+		desc = "전투 진입 시 잔여 HP가 50% 이상일 때 대공 $2 증가, 해당 전투의 [정밀조작협의] 스킬이 전탄 발사. 부상을 입어 HP 50% 미만일 시, 자신의 회피 $1 상승, 8초간 HP 8% 회복, 최대 2회 발동",
 		id = 18250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -40165,44 +44778,56 @@ pg.skill_data_template = {
 	[19000] = {
 		desc_get = "",
 		name = "안티 세이렌Ⅰ",
-		desc = "자신이 세이렌에게 입히는 대미지 5% 증가",
 		type = 1,
 		max_level = 1,
+		desc = "자신이 세이렌에게 입히는 대미지 5% 증가",
 		id = 19000,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[19001] = {
 		desc_get = "",
 		name = "안티 세이렌Ⅱ",
-		desc = "자신이 세이렌에게 입히는 대미지 10% 증가",
 		type = 1,
 		max_level = 1,
+		desc = "자신이 세이렌에게 입히는 대미지 10% 증가",
 		id = 19001,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[19002] = {
 		desc_get = "",
 		name = "안티 세이렌Ⅲ",
-		desc = "자신이 세이렌에게 입히는 대미지 15% 증가",
 		type = 1,
 		max_level = 1,
+		desc = "자신이 세이렌에게 입히는 대미지 15% 증가",
 		id = 19002,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[19010] = {
 		desc_get = "",
 		name = "MKV 철갑탄",
-		desc = "철갑탄 포격 대미지 $1증가",
 		type = 1,
 		max_level = 10,
+		desc = "철갑탄 포격 대미지 $1증가",
 		id = 19010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -40256,11 +44881,14 @@ pg.skill_data_template = {
 	[19020] = {
 		desc_get = "",
 		name = "푸른 바다의 여신",
-		desc = "내구도가 20% 이하로 떨어지면, 내구도의 $1을 회복한다. 스킬 발동 후 전투가 끝나기 전까지 자신의 장전 수치가 30% 증가한다.(매 전투마다 한 번만 발동)",
 		type = 2,
 		max_level = 10,
+		desc = "내구도가 20% 이하로 떨어지면, 내구도의 $1을 회복한다. 스킬 발동 후 전투가 끝나기 전까지 자신의 장전 수치가 30% 증가한다.(매 전투마다 한 번만 발동)",
 		id = 19020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -40314,12 +44942,15 @@ pg.skill_data_template = {
 	[19030] = {
 		desc_get = "",
 		name = "제왕의 위압",
-		desc = "주포 발사 시 $1의 확률로 특수 탄막을 발동하여(위력은 스킬의 레벨에 비례 ), 명중된 적을 6초 동안 $2 감속시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1의 확률로 특수 탄막을 발동하여(위력은 스킬의 레벨에 비례 ), 명중된 적을 6초 동안 $2 감속시킨다.",
 		id = 19030,
 		system_transform = {
 			[3.0] = 19031
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -40419,11 +45050,14 @@ pg.skill_data_template = {
 	[19040] = {
 		desc_get = "",
 		name = "역전분투",
-		desc = "내구도가 1% 감소할 때 마다 장전 수치가 $1 증가한다. 내구도가 20% 이하일 시, 8초 동안 매 2초 마다 총 내구도의 3%를 회복한다.(매 전투마다 한 번만 발동)",
 		type = 2,
 		max_level = 10,
+		desc = "내구도가 1% 감소할 때 마다 장전 수치가 $1 증가한다. 내구도가 20% 이하일 시, 8초 동안 매 2초 마다 총 내구도의 3%를 회복한다.(매 전투마다 한 번만 발동)",
 		id = 19040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"0.6",
@@ -40477,11 +45111,14 @@ pg.skill_data_template = {
 	[19050] = {
 		desc_get = "",
 		name = "심현합일",
-		desc = "자신의 어뢰 크리티컬 확률이 $1, 크리티컬 대미지가 65% 증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 어뢰 크리티컬 확률이 $1, 크리티컬 대미지가 65% 증가한다.",
 		id = 19050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -40535,11 +45172,14 @@ pg.skill_data_template = {
 	[19060] = {
 		desc_get = "",
 		name = "뇌인일섬",
-		desc = "어뢰 발사 시 $1의 확률로 특수 어뢰 탄막을 발동한다(위력은 스킬 레벨에 비례).",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰 발사 시 $1의 확률로 특수 어뢰 탄막을 발동한다(위력은 스킬 레벨에 비례).",
 		id = 19060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -40593,11 +45233,14 @@ pg.skill_data_template = {
 	[19070] = {
 		desc_get = "",
 		name = "신화전승",
-		desc = "주포 발사 시 $1의 확률로 특수 탄막을 발동한다(위력은 스킬 레벨에 비례).",
 		type = 1,
 		max_level = 10,
+		desc = "주포 발사 시 $1의 확률로 특수 탄막을 발동한다(위력은 스킬 레벨에 비례).",
 		id = 19070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -40651,11 +45294,14 @@ pg.skill_data_template = {
 	[19080] = {
 		desc_get = "",
 		name = "특수 장갑",
-		desc = "자신의 연소 발생률을 조금 증가시키고(주포의 구경에 비례, 최대 6%), 연소 시간이 3% 증가된다. 자신이 받는 철갑탄 대미지가 $1감소된다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 연소 발생률을 조금 증가시키고(주포의 구경에 비례, 최대 6%), 연소 시간이 3% 증가된다. 자신이 받는 철갑탄 대미지가 $1감소된다.",
 		id = 19080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15%",
@@ -40709,11 +45355,14 @@ pg.skill_data_template = {
 	[19090] = {
 		desc_get = "",
 		name = "숙련 장전 요원",
-		desc = "주포 공격 속성이 유탄으로 변경되고, 주포 공격 시 마다 장전 수치가 $1증가한다(최대 12회 중첩). 주포가 2회 공격할 때마다 주포의 탄약 유형이 변경된다(유탄 /  철갑탄).",
 		type = 1,
 		max_level = 10,
+		desc = "주포 공격 속성이 유탄으로 변경되고, 주포 공격 시 마다 장전 수치가 $1증가한다(최대 12회 중첩). 주포가 2회 공격할 때마다 주포의 탄약 유형이 변경된다(유탄 /  철갑탄).",
 		id = 19090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -40767,11 +45416,14 @@ pg.skill_data_template = {
 	[19100] = {
 		desc_get = "30초 마다 적의 탄환을 8회 막아주고 5초 간(최대 15초) 지속되는 회전 실드를 4장 생성한다.",
 		name = "전방위 장갑",
-		desc = "30초 마다 적의 탄환을 8회 막아주고 $1초 간 지속되는 회전 실드를 4장 생성한다.",
 		type = 2,
 		max_level = 10,
+		desc = "30초 마다 적의 탄환을 8회 막아주고 $1초 간 지속되는 회전 실드를 4장 생성한다.",
 		id = 19100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -40820,11 +45472,14 @@ pg.skill_data_template = {
 	[19110] = {
 		desc_get = "",
 		name = "철갑 가공 유탄",
-		desc = "유탄 주포 대미지가 $1증가하고, 연소 발생률을 3% 감소시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "유탄 주포 대미지가 $1증가하고, 연소 발생률을 3% 감소시킨다.",
 		id = 19110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -40878,11 +45533,14 @@ pg.skill_data_template = {
 	[19120] = {
 		desc_get = "항속을 3(최대 8) 증가시키고, 전투 시작 시 40초 동안 회피를 15%(최대 35%) 증가시킨다.",
 		name = "엔진 부스트",
-		desc = "항속을 $1 증가시키고, 전투 시작 시 40초 동안 기동 수치를 $2 증가시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "항속을 $1 증가시키고, 전투 시작 시 40초 동안 기동 수치를 $2 증가시킨다.",
 		id = 19120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -40972,11 +45630,14 @@ pg.skill_data_template = {
 	[19130] = {
 		desc_get = "",
 		name = "비행NG!",
-		desc = "대공 범위 내 적군의 함재기가 격추당할 시 8초 동안 자신의 포격, 대공이 $1 상승한다. (중첩 안 됨) 격추시킨 함재기 15대 도달 시, 자신의 포격이 $1, 장전이 $2 상승한다. ",
 		type = 2,
 		max_level = 10,
+		desc = "대공 범위 내 적군의 함재기가 격추당할 시 8초 동안 자신의 포격, 대공이 $1 상승한다. (중첩 안 됨) 격추시킨 함재기 15대 도달 시, 자신의 포격이 $1, 장전이 $2 상승한다. ",
 		id = 19130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -41075,11 +45736,14 @@ pg.skill_data_template = {
 	[19140] = {
 		desc_get = "",
 		name = "철저한 준비",
-		desc = "보조무기 칸에 주포를 장착할 시 대공 수치가 $1 상승하고, 대공포를 장착할 시 주포 수치가 $2 상승한다. 선봉함대 맨뒤 위치에 편성될 시 받는 대미지가 $3 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "보조무기 칸에 주포를 장착할 시 대공 수치가 $1 상승하고, 대공포를 장착할 시 주포 수치가 $2 상승한다. 선봉함대 맨뒤 위치에 편성될 시 받는 대미지가 $3 감소한다.",
 		id = 19140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -41223,11 +45887,14 @@ pg.skill_data_template = {
 	[19150] = {
 		desc_get = "",
 		name = "아이언 사이트 캘리버",
-		desc = "장착한 주포의 산탄범위가 3점 감소하며, 중순, 초갑순, 순전, 전함, 항전에 대한 대미지가 $1 상승한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "장착한 주포의 산탄범위가 3점 감소하며, 중순, 초갑순, 순전, 전함, 항전에 대한 대미지가 $1 상승한다. ",
 		id = 19150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -41281,12 +45948,15 @@ pg.skill_data_template = {
 	[19160] = {
 		desc_get = "",
 		name = "헤비 배럴 블래스터",
-		desc = "주포가 발사할 시 $1의 확률로 특수탄막을 발사한다. (위력은 스킬 레벨에 비례) 이 공격은 무조건 크리티컬이 발생한다.",
 		type = 1,
 		max_level = 10,
+		desc = "주포가 발사할 시 $1의 확률로 특수탄막을 발사한다. (위력은 스킬 레벨에 비례) 이 공격은 무조건 크리티컬이 발생한다.",
 		id = 19160,
 		system_transform = {
 			[3.0] = 19161
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -41341,11 +46011,14 @@ pg.skill_data_template = {
 	[19170] = {
 		desc_get = "",
 		name = "키타카제류·일절참",
-		desc = "모든 탄약은 장갑 유형의 영향을 받지 않는다. (주포만 해당) 주포의 탄약 대미지($1)는 스킬 레벨에 비례하여 상승한다. 사쿠라 엠파이어 구축 주포를 장착할 시 주포 효율이 추가로 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "모든 탄약은 장갑 유형의 영향을 받지 않는다. (주포만 해당) 주포의 탄약 대미지($1)는 스킬 레벨에 비례하여 상승한다. 사쿠라 엠파이어 구축 주포를 장착할 시 주포 효율이 추가로 $2 상승한다.",
 		id = 19170,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -41435,11 +46108,14 @@ pg.skill_data_template = {
 	[19180] = {
 		desc_get = "",
 		name = "키타카제류·6연뇌",
-		desc = "선봉함대 리더로 출격할 시 전투 시작 10초 후 $1의 특수 어뢰탄막 1회를 발사한다. 자신의 어뢰를 10회 명중시킬 때마다 추가로 $1의 특수 어뢰탄막을 1회 발사한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "선봉함대 리더로 출격할 시 전투 시작 10초 후 $1의 특수 어뢰탄막 1회를 발사한다. 자신의 어뢰를 10회 명중시킬 때마다 추가로 $1의 특수 어뢰탄막을 1회 발사한다. ",
 		id = 19180,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -41484,11 +46160,14 @@ pg.skill_data_template = {
 	[19190] = {
 		desc_get = "",
 		name = "산의 분노",
-		desc = "자신이 대구경 중순주포를 장착하고 목표를 명중할 시 비행 거리에 비례하여 고폭탄 대미지가 최대 $1 상승, 화재 대미지가 $2 상승한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 대구경 중순주포를 장착하고 목표를 명중할 시 비행 거리에 비례하여 고폭탄 대미지가 최대 $1 상승, 화재 대미지가 $2 상승한다. ",
 		id = 19190,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -41587,11 +46266,14 @@ pg.skill_data_template = {
 	[19200] = {
 		desc_get = "",
 		name = "전장 감각",
-		desc = "20초 마다 $1의 확률로 발동. 12초 동안 자신의 기동이 $2, 명중이 $3 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "20초 마다 $1의 확률로 발동. 12초 동안 자신의 기동이 $2, 명중이 $3 상승한다.",
 		id = 19200,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -41735,11 +46417,14 @@ pg.skill_data_template = {
 	[19210] = {
 		desc_get = "",
 		name = "특수포격훈련",
-		desc = "주포 8회 발사 마다 특수탄막 발동. 시제형 3연장 310mm 주포 장착 시 주포 효율이 $1 상승하고, 주포 발사 4회마다 강화된 특수탄막을 발사한다. ",
 		type = 1,
 		max_level = 10,
+		desc = "주포 8회 발사 마다 특수탄막 발동. 시제형 3연장 310mm 주포 장착 시 주포 효율이 $1 상승하고, 주포 발사 4회마다 강화된 특수탄막을 발사한다. ",
 		id = 19210,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -41793,12 +46478,15 @@ pg.skill_data_template = {
 	[19220] = {
 		desc_get = "",
 		name = "파괴의 교향곡",
-		desc = "자신이 대미지를 받거나 적군이 방위 사거리에 진입할 시 $1의 방어무시 부포 탄막을 1회 발사한다. (위력은 스킬 레벨에 비례, 쿨타임 15초) ",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 대미지를 받거나 적군이 방위 사거리에 진입할 시 $1의 방어무시 부포 탄막을 1회 발사한다. (위력은 스킬 레벨에 비례, 쿨타임 15초) ",
 		id = 19220,
 		system_transform = {
 			[3.0] = 19221
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -41844,11 +46532,14 @@ pg.skill_data_template = {
 	[19230] = {
 		desc_get = "",
 		name = "혼돈의 소나타",
-		desc = "전투 중 주포의 홀수 발사 마다 자신의 장전이 $1, 대미지가 $2 상승하고, 짝수 발사 마다 자신의 크리티컬 확률이 $2, 크리티컬 대미지가 $1 상승한다. (해당 효과는 매 회 발사를 기준으로 부여)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 주포의 홀수 발사 마다 자신의 장전이 $1, 대미지가 $2 상승하고, 짝수 발사 마다 자신의 크리티컬 확률이 $2, 크리티컬 대미지가 $1 상승한다. (해당 효과는 매 회 발사를 기준으로 부여)",
 		id = 19230,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -41947,11 +46638,14 @@ pg.skill_data_template = {
 	[19240] = {
 		desc_get = "",
 		name = "암흑의 광상곡",
-		desc = "전투 중 내구도가 70~100%일 시 자신의 포격이 $1 상승한다. 내구도가 30~70%일 시 자신의 포격이 $1 상승하며 받는 대미지가 $2 감소한다. 내구도가 30% 미만일 시 받는 대미지가 $3 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중 내구도가 70~100%일 시 자신의 포격이 $1 상승한다. 내구도가 30~70%일 시 자신의 포격이 $1 상승하며 받는 대미지가 $2 감소한다. 내구도가 30% 미만일 시 받는 대미지가 $3 감소한다.",
 		id = 19240,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -42095,11 +46789,14 @@ pg.skill_data_template = {
 	[19250] = {
 		desc_get = "",
 		name = "서프레션 모듈 감지",
-		desc = "전투 중 대미지를 받아 내구도가 50% 미만으로 도달할 시 자신의 기동이 $1 상승하며 8초 마다 8%의 내구를 회복한다. (최대 2회 발동)",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중 대미지를 받아 내구도가 50% 미만으로 도달할 시 자신의 기동이 $1 상승하며 8초 마다 8%의 내구를 회복한다. (최대 2회 발동)",
 		id = 19250,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -42153,12 +46850,15 @@ pg.skill_data_template = {
 	[19260] = {
 		desc_get = "",
 		name = "세밀한 조작 협의",
-		desc = "매회 주포 발사 시 자동 조준하며, 수동으로 조준할 때 대미지가 $2 상승한다. 전투 시작 후 20초 마다 $1의 확률로 특수탄막을 발사한다. (위력은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "매회 주포 발사 시 자동 조준하며, 수동으로 조준할 때 대미지가 $2 상승한다. 전투 시작 후 20초 마다 $1의 확률로 특수탄막을 발사한다. (위력은 스킬 레벨에 비례) ",
 		id = 19260,
 		system_transform = {
 			[3.0] = 19261
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -42258,11 +46958,14 @@ pg.skill_data_template = {
 	[19270] = {
 		desc_get = "",
 		name = "체셔 파워 업!",
-		desc = "전투 중 자신의 첫 번째 어뢰 공격 시간 $1 감소, 피격 시 15% 확률로 발동, 자신의 화력, 회피, 대공 $2 상승(최대 3회 중첩)",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중 자신의 첫 번째 어뢰 공격 시간 $1 감소, 피격 시 15% 확률로 발동, 자신의 화력, 회피, 대공 $2 상승(최대 3회 중첩)",
 		id = 19270,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -42361,11 +47064,14 @@ pg.skill_data_template = {
 	[19280] = {
 		desc_get = "",
 		name = "Grin and fire!",
-		desc = "전투 중 자신이 받는 피해 $1 감소, 전투 시작 후 12초마다 $2 확률로 특수 전탄발사 전개(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 자신이 받는 피해 $1 감소, 전투 시작 후 12초마다 $2 확률로 특수 전탄발사 전개(위력은 스킬 레벨에 비례)",
 		id = 19280,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -42464,11 +47170,14 @@ pg.skill_data_template = {
 	[19290] = {
 		desc_get = "",
 		name = "용감한 Privateer",
-		desc = "자신의 부포 공격의 크리티컬 확률이 $2 증가, 부포 탄약 강화. 통상탄 혹은 고폭탄을 장비했을 경우 주포의 탄약이 전용 고폭탄 $1로 변경, 피해 비율은 해당 스킬 레벨에 따라 상승.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 부포 공격의 크리티컬 확률이 $2 증가, 부포 탄약 강화. 통상탄 혹은 고폭탄을 장비했을 경우 주포의 탄약이 전용 고폭탄 $1로 변경, 피해 비율은 해당 스킬 레벨에 따라 상승.",
 		id = 19290,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -42558,11 +47267,14 @@ pg.skill_data_template = {
 	[19300] = {
 		desc_get = "",
 		name = "단죄의 불꽃",
-		desc = "$1초마다 실드를 무시하고 관통하는 특수 탄막을 전개한다. 특수 탄막 대미지의 15.0%만큼 자신의 내구도 회복(탄막의 위력은 스킬 레벨에 비례). 전투 중 적함 격파 시 전투 종료까지 자신의 화력, 회피 $2 , 장전 $3 상승(스탯 상승 효과는 최대 3회 중첩되며, 전투 진입 시, 자신이 전열 함대 선두일 경우, 전투 시작부터 종료까지 3중첩)",
 		type = 3,
 		max_level = 10,
+		desc = "$1초마다 실드를 무시하고 관통하는 특수 탄막을 전개한다. 특수 탄막 대미지의 15.0%만큼 자신의 내구도 회복(탄막의 위력은 스킬 레벨에 비례). 전투 중 적함 격파 시 전투 종료까지 자신의 화력, 회피 $2 , 장전 $3 상승(스탯 상승 효과는 최대 3회 중첩되며, 전투 진입 시, 자신이 전열 함대 선두일 경우, 전투 시작부터 종료까지 3중첩)",
 		id = 19300,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30",
@@ -42706,11 +47418,14 @@ pg.skill_data_template = {
 	[19310] = {
 		desc_get = "",
 		name = "반격의 방패",
-		desc = "전투 중 15초마다 자신의 전방에 최대 6회 적탄을 무효화하는 실드를 8초간 전개, 실드가 지속 시간 동안 파괴되었을 경우, 즉시 전탄 발사를 발동하며 자신의 화력, 명중 $1 상증(스탯 상승 효과 최대 2회 중첩)",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중 15초마다 자신의 전방에 최대 6회 적탄을 무효화하는 실드를 8초간 전개, 실드가 지속 시간 동안 파괴되었을 경우, 즉시 전탄 발사를 발동하며 자신의 화력, 명중 $1 상증(스탯 상승 효과 최대 2회 중첩)",
 		id = 19310,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -42764,11 +47479,14 @@ pg.skill_data_template = {
 	[19320] = {
 		desc_get = "",
 		name = "「Ausgewogen」",
-		desc = "자신이 전열 함대의 선두에 있을 경우, 항속 5 증가, 회피 $1 증가. 30초 내 받는 피해 $2 감소. 선두가 아닐 경우, 자신의 크리티컬 $3 증가, 15초마다 $4 확률로 특수 전탄발사 전개(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 전열 함대의 선두에 있을 경우, 항속 5 증가, 회피 $1 증가. 30초 내 받는 피해 $2 감소. 선두가 아닐 경우, 자신의 크리티컬 $3 증가, 15초마다 $4 확률로 특수 전탄발사 전개(위력은 스킬 레벨에 비례)",
 		id = 19320,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -42957,11 +47675,14 @@ pg.skill_data_template = {
 	[19330] = {
 		desc_get = "",
 		name = "탐구자의 현안",
-		desc = "전투 중 특수한 위치에 배치될 경우, 자신이 받는 대미지가 $1 감소한다. 15초마다 적 잠수함을 드러내주는 소나 스캔을 $2초간 시전한다. 지속 시간 동안 아군 전열 함대 함선이 받는 어뢰 대미지가 $3 감소하며, 적 잠수함의 명중이 $4 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 중 특수한 위치에 배치될 경우, 자신이 받는 대미지가 $1 감소한다. 15초마다 적 잠수함을 드러내주는 소나 스캔을 $2초간 시전한다. 지속 시간 동안 아군 전열 함대 함선이 받는 어뢰 대미지가 $3 감소하며, 적 잠수함의 명중이 $4 감소한다.",
 		id = 19330,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -42974,6 +47695,10 @@ pg.skill_data_template = {
 			{
 				"5.0%",
 				"15.0%"
+			},
+			{
+				"15.0%",
+				"25.0%"
 			}
 		},
 		desc_add = {
@@ -43099,17 +47824,61 @@ pg.skill_data_template = {
 				{
 					"15.0%"
 				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
 			}
 		}
 	},
 	[19340] = {
 		desc_get = "",
 		name = "꿰뚫는 번개",
-		desc = "어뢰 발사의 최적화 형태로 변해 전투 시작 후 18초마다 $1 확률로 특수 탄막 발동(탄막 중 뇌전은 실드를 무시하고 관통, 탄막의 위력은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "어뢰 발사의 최적화 형태로 변해 전투 시작 후 18초마다 $1 확률로 특수 탄막 발동(탄막 중 뇌전은 실드를 무시하고 관통, 탄막의 위력은 스킬 레벨에 비례) ",
 		id = 19340,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"45.0%",
@@ -43163,11 +47932,14 @@ pg.skill_data_template = {
 	[19350] = {
 		desc_get = "",
 		name = "보조 기구 「S.P.」",
-		desc = "전투 중 주포 장전 속도가 $1 감소, 주포 발사 시 추가로 전탄 발사 $2 발동. 전투 중 20초마다 특수 전탄 발사 $2 전개(위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 주포 장전 속도가 $1 감소, 주포 발사 시 추가로 전탄 발사 $2 발동. 전투 중 20초마다 특수 전탄 발사 $2 전개(위력은 스킬 레벨에 비례)",
 		id = 19350,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -43257,11 +48029,14 @@ pg.skill_data_template = {
 	[19360] = {
 		desc_get = "",
 		name = "대행 기구 「E.E.」",
-		desc = "고폭탄 주포 장착 시, 자신의 화력 $4, 대공 $1 상승. 고폭탄 주포로 적 중장갑에 입히는 피해 비율 $1 증가, 철갑탄 주포 장착 시 자신의 화력 $4, 장전 $1, 크리티컬 확률 $2 상승. 전투 중 HP가 75% 이상일 때 기함이 받는 피해 50%를 대신 받으며, HP 75% 미만일 때 기동, 명중 $3 상승",
 		type = 3,
 		max_level = 10,
+		desc = "고폭탄 주포 장착 시, 자신의 화력 $4, 대공 $1 상승. 고폭탄 주포로 적 중장갑에 입히는 피해 비율 $1 증가, 철갑탄 주포 장착 시 자신의 화력 $4, 장전 $1, 크리티컬 확률 $2 상승. 전투 중 HP가 75% 이상일 때 기함이 받는 피해 50%를 대신 받으며, HP 75% 미만일 때 기동, 명중 $3 상승",
 		id = 19360,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -43450,2762 +48225,3543 @@ pg.skill_data_template = {
 	[19370] = {
 		desc_get = "",
 		name = "奥丁更换鱼雷弹幕形态效果ID占位",
-		desc = "奥丁更换鱼雷弹幕形态用占位",
 		type = 1,
 		max_level = 1,
+		desc = "奥丁更换鱼雷弹幕形态用占位",
 		id = 19370,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20011] = {
 		desc_get = "",
 		name = "전탄 발사 - 패러것급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(패러것급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(패러것급Ⅰ)를 전개한다.",
 		id = 20011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20012] = {
 		desc_get = "",
 		name = "전탄 발사 - 패러것급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(패러것급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(패러것급Ⅱ)를 전개한다.",
 		id = 20012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20021] = {
 		desc_get = "",
 		name = "전탄 발사 - 머핸급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(머핸급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(머핸급Ⅰ)를 전개한다.",
 		id = 20021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20022] = {
 		desc_get = "",
 		name = "전탄 발사 - 머핸급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(머핸급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(머핸급Ⅱ)를 전개한다.",
 		id = 20022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20031] = {
 		desc_get = "",
 		name = "전탄 발사 - 그리들리급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(그리들리급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(그리들리급Ⅰ)를 전개한다.",
 		id = 20031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20032] = {
 		desc_get = "",
 		name = "전탄 발사 - 그리들리급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(그리들리급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(그리들리급Ⅱ)를 전개한다.",
 		id = 20032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20041] = {
 		desc_get = "",
 		name = "전탄 발사 - 플레처급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(플레처급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(플레처급Ⅰ)를 전개한다.",
 		id = 20041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20042] = {
 		desc_get = "",
 		name = "전탄 발사 - 플레처급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(플레처급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(플레처급Ⅱ)를 전개한다.",
 		id = 20042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20051] = {
 		desc_get = "",
 		name = "전탄 발사 - 심즈급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(심즈급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(심즈급Ⅰ)를 전개한다.",
 		id = 20051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20052] = {
 		desc_get = "",
 		name = "전탄 발사 - 심즈급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(심즈급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(심즈급Ⅱ)를 전개한다.",
 		id = 20052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20061] = {
 		desc_get = "",
 		name = "전탄 발사 - 벤슨급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(벤슨급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(벤슨급Ⅰ)를 전개한다.",
 		id = 20061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20062] = {
 		desc_get = "",
 		name = "전탄 발사 - 벤슨급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(벤슨급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(벤슨급Ⅱ)를 전개한다.",
 		id = 20062,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20071] = {
 		desc_get = "",
 		name = "전탄 발사 - 기어링급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(기어링급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(기어링급Ⅰ)를 전개한다.",
 		id = 20071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20072] = {
 		desc_get = "",
 		name = "전탄 발사 - 기어링급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(기어링급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(기어링급Ⅱ)를 전개한다.",
 		id = 20072,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20081] = {
 		desc_get = "",
 		name = "전탄발사I",
-		desc = "자신의 주포 15회 발사할 때마다, 특수 탄막-알렌 M. 섬너급I을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 15회 발사할 때마다, 특수 탄막-알렌 M. 섬너급I을 발사한다.",
 		id = 20081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20082] = {
 		desc_get = "",
 		name = "전탄발사II",
-		desc = "자신의 주포 10회 발사할 때마다, 특수 탄막-알렌 M. 섬너급II을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 10회 발사할 때마다, 특수 탄막-알렌 M. 섬너급II을 발사한다.",
 		id = 20082,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20111] = {
 		desc_get = "",
 		name = "전탄 발사 - 오마하급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(오마하급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(오마하급Ⅰ)를 전개한다.",
 		id = 20111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20112] = {
 		desc_get = "",
 		name = "전탄 발사 - 오마하급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(오마하급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(오마하급Ⅱ)를 전개한다.",
 		id = 20112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20121] = {
 		desc_get = "",
 		name = "전탄 발사 - 브루클린급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(브루클린급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(브루클린급Ⅰ)를 전개한다.",
 		id = 20121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20122] = {
 		desc_get = "",
 		name = "전탄 발사 - 브루클린급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(브루클린급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(브루클린급Ⅱ)를 전개한다.",
 		id = 20122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20131] = {
 		desc_get = "",
 		name = "전탄 발사 - 애틀란타급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(애틀란타급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(애틀란타급Ⅰ)를 전개한다.",
 		id = 20131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20132] = {
 		desc_get = "",
 		name = "전탄 발사 - 애틀란타급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(애틀란타급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(애틀란타급Ⅱ)를 전개한다.",
 		id = 20132,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20141] = {
 		desc_get = "",
 		name = "전탄 발사 - 클리블랜드급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(클리블랜드급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(클리블랜드급Ⅰ)를 전개한다.",
 		id = 20141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20142] = {
 		desc_get = "",
 		name = "전탄 발사 - 클리블랜드급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(클리블랜드급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(클리블랜드급Ⅱ)를 전개한다.",
 		id = 20142,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20211] = {
 		desc_get = "",
 		name = "전탄 발사 - 펜사콜라급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(펜사콜라급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(펜사콜라급Ⅰ)를 전개한다.",
 		id = 20211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20212] = {
 		desc_get = "",
 		name = "전탄 발사 - 펜사콜라급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(펜사콜라급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(펜사콜라급Ⅱ)를 전개한다.",
 		id = 20212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20221] = {
 		desc_get = "",
 		name = "전탄 발사 - 노샘프턴급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(노샘프턴급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(노샘프턴급Ⅰ)를 전개한다.",
 		id = 20221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20222] = {
 		desc_get = "",
 		name = "전탄 발사 - 노샘프턴급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(노샘프턴급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(노샘프턴급Ⅱ)를 전개한다.",
 		id = 20222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20231] = {
 		desc_get = "",
 		name = "전탄 발사 - 포틀랜드급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(포틀랜드급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(포틀랜드급Ⅰ)를 전개한다.",
 		id = 20231,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20232] = {
 		desc_get = "",
 		name = "전탄 발사 - 포틀랜드급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(포틀랜드급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(포틀랜드급Ⅱ)를 전개한다.",
 		id = 20232,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20241] = {
 		desc_get = "",
 		name = "전탄 발사 - 뉴올리언스급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(뉴올리언스급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(뉴올리언스급Ⅰ)를 전개한다.",
 		id = 20241,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20242] = {
 		desc_get = "",
 		name = "전탄 발사 - 뉴올리언스급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(뉴올리언스급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(뉴올리언스급Ⅱ)를 전개한다.",
 		id = 20242,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20251] = {
 		desc_get = "",
 		name = "전탄 발사 - 위치타Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(위치타Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(위치타Ⅰ)를 전개한다.",
 		id = 20251,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20252] = {
 		desc_get = "",
 		name = "전탄 발사 - 위치타Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(위치타Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(위치타Ⅱ)를 전개한다.",
 		id = 20252,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20261] = {
 		desc_get = "",
 		name = "전탄 발사 - 볼티모어급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(볼티모어급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(볼티모어급Ⅰ)를 전개한다.",
 		id = 20261,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20262] = {
 		desc_get = "",
 		name = "전탄 발사 - 볼티모어급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(볼티모어급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(볼티모어급Ⅱ)를 전개한다.",
 		id = 20262,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20271] = {
 		desc_get = "",
 		name = "전탄 발사 - 디모인급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(디모인급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(디모인급Ⅰ)를 전개한다.",
 		id = 20271,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20272] = {
 		desc_get = "",
 		name = "전탄 발사 - 디모인급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(디모인급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(디모인급Ⅱ)를 전개한다.",
 		id = 20272,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20311] = {
 		desc_get = "",
 		name = "전탄 발사Ⅰ",
-		desc = "전투 개시 시 '특수 탄막 가토급Ⅰ'을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 가토급Ⅰ'을 전개한다.",
 		id = 20311,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[20312] = {
 		desc_get = "",
 		name = "전탄 발사Ⅱ",
-		desc = "전투 개시 시 '특수 탄막 가토급Ⅱ'를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 가토급Ⅱ'를 전개한다.",
 		id = 20312,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21011] = {
 		desc_get = "",
 		name = "전탄 발사 - A급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(A급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(A급Ⅰ)를 전개한다.",
 		id = 21011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21012] = {
 		desc_get = "",
 		name = "전탄 발사 - A급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(A급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(A급Ⅱ)를 전개한다.",
 		id = 21012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21016] = {
 		desc_get = "",
 		name = "전탄 발사I",
-		desc = "자신의 주포로 24회 공격할 때마다, 전탄 발사(트라이벌급I)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 24회 공격할 때마다, 전탄 발사(트라이벌급I)를 전개한다.",
 		id = 21016,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21017] = {
 		desc_get = "",
 		name = "전탄 발사II",
-		desc = "자신의 주포로 16회 공격할 때마다, 전탄 발사(트라이벌급II)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 16회 공격할 때마다, 전탄 발사(트라이벌급II)를 전개한다.",
 		id = 21017,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21021] = {
 		desc_get = "",
 		name = "전탄 발사 - B급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(B급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(B급Ⅰ)를 전개한다.",
 		id = 21021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21022] = {
 		desc_get = "",
 		name = "전탄 발사 - B급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(B급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(B급Ⅱ)를 전개한다.",
 		id = 21022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21026] = {
 		desc_get = "",
 		name = "전탄 발사I",
-		desc = "주포로 15회 공격 시마다, 전탄 발사-I급I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 15회 공격 시마다, 전탄 발사-I급I 발동",
 		id = 21026,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21027] = {
 		desc_get = "",
 		name = "전탄 발사II",
-		desc = "주포로 10회 공격 시마다, 전탄 발사-I급II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 10회 공격 시마다, 전탄 발사-I급II 발동",
 		id = 21027,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21031] = {
 		desc_get = "",
 		name = "전탄 발사 - C급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(C급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(C급Ⅰ)를 전개한다.",
 		id = 21031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21032] = {
 		desc_get = "",
 		name = "전탄 발사 - C급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(C급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(C급Ⅱ)를 전개한다.",
 		id = 21032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21041] = {
 		desc_get = "",
 		name = "전탄 발사 - F급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(F급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(F급Ⅰ)를 전개한다.",
 		id = 21041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21042] = {
 		desc_get = "",
 		name = "전탄 발사 - F급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(F급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(F급Ⅱ)를 전개한다.",
 		id = 21042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21051] = {
 		desc_get = "",
 		name = "전탄 발사 - G급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(G급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(G급Ⅰ)를 전개한다.",
 		id = 21051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21052] = {
 		desc_get = "",
 		name = "전탄 발사 - G급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(G급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(G급Ⅱ)를 전개한다.",
 		id = 21052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21061] = {
 		desc_get = "",
 		name = "전탄 발사 - H급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(H급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(H급Ⅰ)를 전개한다.",
 		id = 21061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21062] = {
 		desc_get = "",
 		name = "전탄 발사 - H급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(H급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(H급Ⅱ)를 전개한다.",
 		id = 21062,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21071] = {
 		desc_get = "",
 		name = "전탄 발사 - J급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(J급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(J급Ⅰ)를 전개한다.",
 		id = 21071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21072] = {
 		desc_get = "",
 		name = "전탄 발사 - J급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(J급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(J급Ⅱ)를 전개한다.",
 		id = 21072,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21081] = {
 		desc_get = "",
 		name = "전탄 발사 – M급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(M급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(M급Ⅰ)를 전개한다.",
 		id = 21081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21082] = {
 		desc_get = "",
 		name = "전탄 발사 – M급Ⅱ",
-		desc = "자신의 주포로 10회 공격 시 마다, '전탄 발사 - M급Ⅱ'를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격 시 마다, '전탄 발사 - M급Ⅱ'를 전개한다.",
 		id = 21082,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21091] = {
 		desc_get = "",
 		name = "전탄 발사 – E급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(E급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(E급Ⅰ)를 전개한다.",
 		id = 21091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21092] = {
 		desc_get = "",
 		name = "전탄 발사 – E급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(E급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(E급Ⅱ)를 전개한다.",
 		id = 21092,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21111] = {
 		desc_get = "",
 		name = "전탄 발사 - 리엔더급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(리엔더급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(리엔더급Ⅰ)를 전개한다.",
 		id = 21111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21112] = {
 		desc_get = "",
 		name = "전탄 발사 - 리엔더급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(리엔더급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(리엔더급Ⅱ)를 전개한다.",
 		id = 21112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21121] = {
 		desc_get = "",
 		name = "전탄 발사 - 다이도급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(다이도급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(다이도급Ⅰ)를 전개한다.",
 		id = 21121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21122] = {
 		desc_get = "",
 		name = "전탄 발사 - 다이도급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(다이도급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(다이도급Ⅱ)를 전개한다.",
 		id = 21122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21131] = {
 		desc_get = "",
 		name = "전탄 발사 – 아레투사Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(아레투사Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(아레투사Ⅰ)를 전개한다.",
 		id = 21131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21132] = {
 		desc_get = "",
 		name = "전탄 발사 – 아레투사Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(아레투사Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(아레투사Ⅱ)를 전개한다.",
 		id = 21132,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21141] = {
 		desc_get = "",
 		name = "전탄 발사 - 에든버러급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(에든버러급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(에든버러급Ⅰ)를 전개한다.",
 		id = 21141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21142] = {
 		desc_get = "",
 		name = "전탄 발사 - 에든버러급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(에든버러급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(에든버러급Ⅱ)를 전개한다.",
 		id = 21142,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21151] = {
 		desc_get = "",
 		name = "전탄 발사 - 사우스햄튼급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사 - 사우스햄튼급 I을 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사 - 사우스햄튼급 I을 발동한다.",
 		id = 21151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21152] = {
 		desc_get = "",
 		name = "전탄 발사 - 사우스햄튼급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사 - 사우스햄튼급 II를 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사 - 사우스햄튼급 II를 발동한다.",
 		id = 21152,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21161] = {
 		desc_get = "",
 		name = "전탄 발사 - 피지급 I",
-		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사 - 피지급 I을 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사 - 피지급 I을 발동한다.",
 		id = 21161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21162] = {
 		desc_get = "",
 		name = "전탄 발사 - 피지급 II",
-		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사 - 피지급 II를 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사 - 피지급 II를 발동한다.",
 		id = 21162,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21171] = {
 		desc_get = "",
 		name = "전탄발사 - 세레스급Ⅰ",
-		desc = "자신의 주포로 24회 공격할 때마다 전탄 발사(세레스급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 24회 공격할 때마다 전탄 발사(세레스급Ⅰ)를 전개한다.",
 		id = 21171,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21172] = {
 		desc_get = "",
 		name = "전탄발사 - 세레스급Ⅱ",
-		desc = "자신의 주포로 16회 공격할 때마다 전탄 발사(세레스급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 16회 공격할 때마다 전탄 발사(세레스급Ⅱ)를 전개한다.",
 		id = 21172,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21181] = {
 		desc_get = "",
 		name = "전탄발사I",
-		desc = "자신의 주포 12회 발사 시, 특수 탄막-글로스터급I을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 12회 발사 시, 특수 탄막-글로스터급I을 발사한다.",
 		id = 21181,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21182] = {
 		desc_get = "",
 		name = "전탄발사II",
-		desc = "자신의 주포 8회 발사 시, 특수 탄막-글로스터급II을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 8회 발사 시, 특수 탄막-글로스터급II을 발사한다.",
 		id = 21182,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21211] = {
 		desc_get = "",
 		name = "전탄 발사 - 런던급Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(런던급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(런던급Ⅰ)를 전개한다.",
 		id = 21211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21212] = {
 		desc_get = "",
 		name = "전탄 발사 - 런던급Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(런던급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(런던급Ⅱ)를 전개한다.",
 		id = 21212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21221] = {
 		desc_get = "",
 		name = "전탄 발사 - 켄트급Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(켄트급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(켄트급Ⅰ)를 전개한다.",
 		id = 21221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21222] = {
 		desc_get = "",
 		name = "전탄 발사 - 켄트급Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(켄트급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(켄트급Ⅱ)를 전개한다.",
 		id = 21222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21231] = {
 		desc_get = "",
 		name = "전탄 발사 - 노포크급Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(노포크급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(노포크급Ⅰ)를 전개한다.",
 		id = 21231,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21232] = {
 		desc_get = "",
 		name = "전탄 발사 - 노포크급Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(노포크급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(노포크급Ⅱ)를 전개한다.",
 		id = 21232,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21241] = {
 		desc_get = "",
 		name = "전탄 발사 - 요크급Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(요크급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(요크급Ⅰ)를 전개한다.",
 		id = 21241,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[21242] = {
 		desc_get = "",
 		name = "전탄 발사 - 요크급Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(요크급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(요크급Ⅱ)를 전개한다.",
 		id = 21242,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22011] = {
 		desc_get = "",
 		name = "전탄 발사 - 무츠키형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(무츠키형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(무츠키형Ⅰ)를 전개한다.",
 		id = 22011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22012] = {
 		desc_get = "",
 		name = "전탄 발사 - 무츠키형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(무츠키형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(무츠키형Ⅱ)를 전개한다.",
 		id = 22012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22021] = {
 		desc_get = "",
 		name = "전탄 발사 - 후부키형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(후부키형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(후부키형Ⅰ)를 전개한다.",
 		id = 22021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22022] = {
 		desc_get = "",
 		name = "전탄 발사 - 후부키형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(후부키형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(후부키형Ⅱ)를 전개한다.",
 		id = 22022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22031] = {
 		desc_get = "",
 		name = "전탄 발사 - 시라츠유형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(시라츠유형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(시라츠유형Ⅰ)를 전개한다.",
 		id = 22031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22032] = {
 		desc_get = "",
 		name = "전탄 발사 - 시라츠유형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(시라츠유형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(시라츠유형Ⅱ)를 전개한다.",
 		id = 22032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22041] = {
 		desc_get = "",
 		name = "전탄 발사 - 하츠하루형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(하츠하루형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(하츠하루형Ⅰ)를 전개한다.",
 		id = 22041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22042] = {
 		desc_get = "",
 		name = "전탄 발사 - 하츠하루형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(하츠하루형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(하츠하루형Ⅱ)를 전개한다.",
 		id = 22042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22051] = {
 		desc_get = "",
 		name = "전탄 발사 - 카게로형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(카게로형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(카게로형Ⅰ)를 전개한다.",
 		id = 22051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22052] = {
 		desc_get = "",
 		name = "전탄 발사 - 카게로형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(카게로형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(카게로형Ⅱ)를 전개한다.",
 		id = 22052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22056] = {
 		desc_get = "",
 		name = "전탄 발사 - 유구모형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(유구모형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(유구모형Ⅰ)를 전개한다.",
 		id = 22056,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22057] = {
 		desc_get = "",
 		name = "전탄 발사 - 유구모형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(유구모형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(유구모형Ⅱ)를 전개한다.",
 		id = 22057,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22061] = {
 		desc_get = "",
 		name = "전탄 발사 - 아키즈키형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아키즈키형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아키즈키형Ⅰ)를 전개한다.",
 		id = 22061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22062] = {
 		desc_get = "",
 		name = "전탄 발사 - 아키즈키형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아키즈키형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아키즈키형Ⅱ)를 전개한다.",
 		id = 22062,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22071] = {
 		desc_get = "",
 		name = "전탄 발사 - 아카츠키형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아카츠키형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아카츠키형Ⅰ)를 전개한다.",
 		id = 22071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22072] = {
 		desc_get = "",
 		name = "전탄 발사 - 아카츠키형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아카츠키형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아카츠키형Ⅱ)를 전개한다.",
 		id = 22072,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22081] = {
 		desc_get = "",
 		name = "전탄 발사 - 카미카제형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(카미카제형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(카미카제형Ⅰ)를 전개한다.",
 		id = 22081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22082] = {
 		desc_get = "",
 		name = "전탄 발사 - 카미카제형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(카미카제형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(카미카제형Ⅱ)를 전개한다.",
 		id = 22082,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22091] = {
 		desc_get = "",
 		name = "전탄 발사 - 아사시오형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아사시오형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아사시오형Ⅰ)를 전개한다.",
 		id = 22091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22092] = {
 		desc_get = "",
 		name = "전탄 발사 - 아사시오형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아사시오형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아사시오형Ⅱ)를 전개한다.",
 		id = 22092,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22111] = {
 		desc_get = "",
 		name = "전탄 발사 - 텐류형Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(텐류형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(텐류형Ⅰ)를 전개한다.",
 		id = 22111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22112] = {
 		desc_get = "",
 		name = "전탄 발사 - 텐류형Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(텐류형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(텐류형Ⅱ)를 전개한다.",
 		id = 22112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22121] = {
 		desc_get = "",
 		name = "전탄 발사 - 쿠마형Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(쿠마형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(쿠마형Ⅰ)를 전개한다.",
 		id = 22121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22122] = {
 		desc_get = "",
 		name = "전탄 발사 - 쿠마형Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(쿠마형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(쿠마형Ⅱ)를 전개한다.",
 		id = 22122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22131] = {
 		desc_get = "",
 		name = "전탄 발사 - 센다이형Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(센다이형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(센다이형Ⅰ)를 전개한다.",
 		id = 22131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22132] = {
 		desc_get = "",
 		name = "전탄 발사 - 센다이형Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(센다이형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(센다이형Ⅱ)를 전개한다.",
 		id = 22132,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22141] = {
 		desc_get = "",
 		name = "전탄 발사 - 나가라형Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(나가라형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(나가라형Ⅰ)를 전개한다.",
 		id = 22141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22142] = {
 		desc_get = "",
 		name = "전탄 발사 - 나가라형Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(나가라형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(나가라형Ⅱ)를 전개한다.",
 		id = 22142,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22151] = {
 		desc_get = "",
 		name = "전탄 발사 - 아가노형Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(아가노형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(아가노형Ⅰ)를 전개한다.",
 		id = 22151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22152] = {
 		desc_get = "",
 		name = "전탄 발사 - 아가노형Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(아가노형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(아가노형Ⅱ)를 전개한다.",
 		id = 22152,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22161] = {
 		desc_get = "",
 		name = "전탄 발사 - 유바리형Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(유바리형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(유바리형Ⅰ)를 전개한다.",
 		id = 22161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22162] = {
 		desc_get = "",
 		name = "전탄 발사 - 유바리형Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(유바리형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(유바리형Ⅱ)를 전개한다.",
 		id = 22162,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22211] = {
 		desc_get = "",
 		name = "전탄 발사 - 후루타카형Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(후루타카형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(후루타카형Ⅰ)를 전개한다.",
 		id = 22211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22212] = {
 		desc_get = "",
 		name = "전탄 발사 - 후루타카형Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(후루타카형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(후루타카형Ⅱ)를 전개한다.",
 		id = 22212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22221] = {
 		desc_get = "",
 		name = "전탄 발사 - 아오바형Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(아오바형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(아오바형Ⅰ)를 전개한다.",
 		id = 22221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22222] = {
 		desc_get = "",
 		name = "전탄 발사 - 아오바형Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(아오바형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(아오바형Ⅱ)를 전개한다.",
 		id = 22222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22231] = {
 		desc_get = "",
 		name = "전탄 발사 - 묘코형Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(묘코형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(묘코형Ⅰ)를 전개한다.",
 		id = 22231,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22232] = {
 		desc_get = "",
 		name = "전탄 발사 - 묘코형Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(묘코형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(묘코형Ⅱ)를 전개한다.",
 		id = 22232,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22241] = {
 		desc_get = "",
 		name = "전탄 발사 - 토네형Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(토네형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(토네형Ⅰ)를 전개한다.",
 		id = 22241,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22242] = {
 		desc_get = "",
 		name = "전탄 발사 - 토네형Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(토네형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(토네형Ⅱ)를 전개한다.",
 		id = 22242,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22251] = {
 		desc_get = "",
 		name = "전탄 발사 - 모가미형Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(모가미형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(모가미형Ⅰ)를 전개한다.",
 		id = 22251,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22252] = {
 		desc_get = "",
 		name = "전탄 발사 - 모가미형Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(모가미형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(모가미형Ⅱ)를 전개한다.",
 		id = 22252,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22253] = {
 		desc_get = "",
 		name = "전탄 발사 – 改",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(모가미-改)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(모가미-改)를 전개한다.",
 		id = 22253,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22254] = {
 		desc_get = "",
 		name = "전탄발사Ⅰ",
-		desc = "주포로 9회 공격 시마다, 전탄발사-{namecode:57}급 {namecode:59}형Ⅰ 발동 ",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 9회 공격 시마다, 전탄발사-{namecode:57}급 {namecode:59}형Ⅰ 발동 ",
 		id = 22254,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22255] = {
 		desc_get = "",
 		name = "전탄발사Ⅱ",
-		desc = "주포로 6회 공격 시마다, 전탄발사-{namecode:57}급 {namecode:59}형Ⅱ 발동 ",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 6회 공격 시마다, 전탄발사-{namecode:57}급 {namecode:59}형Ⅱ 발동 ",
 		id = 22255,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22261] = {
 		desc_get = "",
 		name = "전탄 발사 - 타카오형Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(타카오형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 6회 공격 시마다, 전탄 발사-{namecode:66}급I 발동. 전투 중 첫 번째 전탄 발사 발동 후, 자신의 회피율 10% 상승. (1회 한정)",
 		id = 22261,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22262] = {
 		desc_get = "",
 		name = "전탄 발사 - 타카오형Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(타카오형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 4회 공격 시마다, 전탄 발사-{namecode:66}급II 발동. 전투 중 첫 번째 전탄 발사 발동 후, 자신의 회피율 10% 상승. (1회 한정)",
 		id = 22262,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22311] = {
 		desc_get = "",
 		name = "전탄 발사Ⅰ",
-		desc = "전투 개시 시 '특수 탄막 이호 잠수함Ⅰ'을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 이호 잠수함Ⅰ'을 전개한다.",
 		id = 22311,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22312] = {
 		desc_get = "",
 		name = "전탄 발사Ⅱ",
-		desc = "전투 개시 시 '특수 탄막 이호 잠수함Ⅱ'를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 이호 잠수함Ⅱ'를 전개한다.",
 		id = 22312,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22411] = {
 		desc_get = "",
 		name = "전탄 발사I",
-		desc = "주포로 15회 공격 시마다, 전탄 발사-{namecode:188}I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 15회 공격 시마다, 전탄 발사-{namecode:188}I 발동",
 		id = 22411,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[22412] = {
 		desc_get = "",
 		name = "전탄 발사II",
-		desc = "주포로 10회 공격 시마다, 전탄 발사-{namecode:188}II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 10회 공격 시마다, 전탄 발사-{namecode:188}II 발동",
 		id = 22412,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23011] = {
 		desc_get = "",
 		name = "전탄 발사 - 1934년형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(1934년형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(1934년형Ⅰ)를 전개한다.",
 		id = 23011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23012] = {
 		desc_get = "",
 		name = "전탄 발사 - 1934년형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(1934년형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(1934년형Ⅱ)를 전개한다.",
 		id = 23012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23031] = {
 		desc_get = "",
 		name = "전탄 발사 - 1936년형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(1936년형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(1936년형Ⅰ)를 전개한다.",
 		id = 23031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23032] = {
 		desc_get = "",
 		name = "전탄 발사 - 1936년형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(1936년형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(1936년형Ⅱ)를 전개한다.",
 		id = 23032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23041] = {
 		desc_get = "",
 		name = "전탄 발사 – 1936A년형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(1936A년형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(1936A년형Ⅰ)를 전개한다.",
 		id = 23041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23042] = {
 		desc_get = "",
 		name = "전탄 발사 – 1936A년형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(1936A년형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(1936A년형Ⅱ)를 전개한다.",
 		id = 23042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23051] = {
 		desc_get = "",
 		name = "전탄 발사 – 1936B년형Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(1936B년형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(1936B년형Ⅰ)를 전개한다.",
 		id = 23051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23052] = {
 		desc_get = "",
 		name = "전탄 발사 – 1936B년형Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(1936B년형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(1936B년형Ⅱ)를 전개한다.",
 		id = 23052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23111] = {
 		desc_get = "",
 		name = "전탄 발사 - 쾨니히스베르크형Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(쾨니히스베르크형Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(쾨니히스베르크형Ⅰ)를 전개한다.",
 		id = 23111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23112] = {
 		desc_get = "",
 		name = "전탄 발사 - 쾨니히스베르크형Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(쾨니히스베르크형Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(쾨니히스베르크형Ⅱ)를 전개한다.",
 		id = 23112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23121] = {
 		desc_get = "",
 		name = "전탄 발사 - 라이프치히Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(라이프치히Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(라이프치히Ⅰ)를 전개한다.",
 		id = 23121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23122] = {
 		desc_get = "",
 		name = "전탄 발사 - 라이프치히Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(라이프치히Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(라이프치히Ⅱ)를 전개한다.",
 		id = 23122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23211] = {
 		desc_get = "",
 		name = "전탄 발사 - 아드미랄 히퍼급Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(아드미랄 히퍼급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(아드미랄 히퍼급Ⅰ)를 전개한다.",
 		id = 23211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23212] = {
 		desc_get = "",
 		name = "전탄 발사 - 아드미랄 히퍼급Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(아드미랄 히퍼급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(아드미랄 히퍼급Ⅱ)를 전개한다.",
 		id = 23212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23221] = {
 		desc_get = "",
 		name = "전탄 발사 - 도이칠란트급Ⅰ",
-		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(도이칠란트급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(도이칠란트급Ⅰ)를 전개한다.",
 		id = 23221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23222] = {
 		desc_get = "",
 		name = "전탄 발사 - 도이칠란트급Ⅱ",
-		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(도이칠란트급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(도이칠란트급Ⅱ)를 전개한다.",
 		id = 23222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23231] = {
+		desc_get = "",
+		name = "전탄 발사I",
+		type = 1,
+		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다 전탄 발사(P급Ⅰ)를 전개한다.",
+		id = 23231,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23232] = {
+		desc_get = "",
+		name = "전탄 발사II",
+		type = 1,
+		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다 전탄 발사(P급Ⅱ)를 전개한다.",
+		id = 23232,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23311] = {
 		desc_get = "",
 		name = "전탄 발사 - Type VIIC형Ⅰ",
-		desc = "전투 개시 시 '전탄 발사 - Type VIIC형Ⅰ'을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '전탄 발사 - Type VIIC형Ⅰ'을 전개한다.",
 		id = 23311,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23312] = {
 		desc_get = "",
 		name = "전탄 발사 - Type VIIC형Ⅱ",
-		desc = "전투 개시 시 '전탄 발사 - Type VIIC형Ⅱ'을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '전탄 발사 - Type VIIC형Ⅱ'을 전개한다.",
 		id = 23312,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23321] = {
 		desc_get = "",
 		name = "전탄 발사 - Type IXB형I",
-		desc = "전투 진입 시, 전탄 발사(Type IXB형I)를 전개한다",
 		type = 1,
 		max_level = 1,
+		desc = "전투 진입 시, 전탄 발사(Type IXB형I)를 전개한다",
 		id = 23321,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23322] = {
 		desc_get = "",
 		name = "전탄 발사 - Type IXB형II",
-		desc = "전투 진입 시, 전탄 발사(Type IXB형II)를 전개한다",
 		type = 1,
 		max_level = 1,
+		desc = "전투 진입 시, 전탄 발사(Type IXB형II)를 전개한다",
 		id = 23322,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23411] = {
 		desc_get = "",
 		name = "전탄 발사 - Type VIIB형Ⅰ",
-		desc = "전투 개시 시 '전탄 발사 - Type VIIB형Ⅰ'을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '전탄 발사 - Type VIIB형Ⅰ'을 전개한다.",
 		id = 23411,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23412] = {
 		desc_get = "",
 		name = "전탄 발사 - Type VIIB형Ⅱ",
-		desc = "전투 개시 시 '전탄 발사 - Type VIIB형Ⅱ'을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '전탄 발사 - Type VIIB형Ⅱ'을 전개한다.",
 		id = 23412,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23511] = {
 		desc_get = "",
 		name = "전탄 발사 - Type IXC형Ⅰ",
-		desc = "전투 개시 시 '전탄 발사 - Type IXC형 I '를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '전탄 발사 - Type IXC형 I '를 전개한다.",
 		id = 23511,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[23512] = {
 		desc_get = "",
 		name = "전탄 발사 - Type IXC형Ⅱ",
-		desc = "전투 개시 시 '전탄 발사 – Type IXC형 II '를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '전탄 발사 – Type IXC형 II '를 전개한다.",
 		id = 23512,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24011] = {
 		desc_get = "",
 		name = "전탄 발사 - 안샨급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(안샨급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(안샨급Ⅰ)를 전개한다.",
 		id = 24011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24012] = {
 		desc_get = "",
 		name = "전탄 발사 - 안샨급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(안샨급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(안샨급Ⅱ)를 전개한다.",
 		id = 24012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24111] = {
 		desc_get = "",
 		name = "전탄 발사 - 닝하이급Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(닝하이급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(닝하이급Ⅰ)를 전개한다.",
 		id = 24111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24112] = {
 		desc_get = "",
 		name = "전탄 발사 - 닝하이급Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(닝하이급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(닝하이급Ⅱ)를 전개한다.",
 		id = 24112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24121] = {
 		desc_get = "",
 		name = "전탄발사Ⅰ",
-		desc = "자신의 주포로 18회 공격할 때마다 전탄 발사Ⅰ를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 18회 공격할 때마다 전탄 발사Ⅰ를 전개한다.",
 		id = 24121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[24122] = {
 		desc_get = "",
 		name = "전탄발사Ⅱ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사Ⅱ를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사Ⅱ를 전개한다.",
 		id = 24122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25011] = {
 		desc_get = "",
 		name = "전탄 발사 – 솔타디Ⅰ",
-		desc = "주포가 15회 공격 할 때 마다 전탄 발사(솔타디급I) 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포가 15회 공격 할 때 마다 전탄 발사(솔타디급I) 발동",
 		id = 25011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25012] = {
 		desc_get = "",
 		name = "전탄 발사 – 솔타디Ⅱ",
-		desc = "주포가 10회 공격 할 때 마다 전탄 발사(솔타디급ll) 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포가 10회 공격 할 때 마다 전탄 발사(솔타디급ll) 발동",
 		id = 25012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25211] = {
 		desc_get = "",
 		name = "전탄 발사 – 트렌토Ⅰ",
-		desc = "주포가 9회 공격 할 때 마다 전탄 발사(트렌토급l) 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포가 9회 공격 할 때 마다 전탄 발사(트렌토급l) 발동",
 		id = 25211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25212] = {
 		desc_get = "",
 		name = "전탄 발사 – 트렌토Ⅱ",
-		desc = "주포가 6회 공격 할 때 마다 전탄 발사(트렌토급ll) 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포가 6회 공격 할 때 마다 전탄 발사(트렌토급ll) 발동",
 		id = 25212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25221] = {
 		desc_get = "",
 		name = "전탄 발사 – 차라급Ⅰ",
-		desc = "주포가 12회 공격 할 때 마다 전탄 발사(차라급l) 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포가 12회 공격 할 때 마다 전탄 발사(차라급l) 발동",
 		id = 25221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[25222] = {
 		desc_get = "",
 		name = "전탄 발사 – 차라급Ⅱ",
-		desc = "주포가 8회 공격 할 때 마다 전탄 발사(차라급ll) 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포가 8회 공격 할 때 마다 전탄 발사(차라급ll) 발동",
 		id = 25222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26011] = {
 		desc_get = "",
 		name = "전탄발사I",
-		desc = "자신의 주포 15회 발사 시, 특수 탄막-그녜브니급I을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 15회 발사 시, 특수 탄막-그녜브니급I을 발사한다.",
 		id = 26011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26012] = {
 		desc_get = "",
 		name = "전탄발사II",
-		desc = "자신의 주포 10회 발사 시, 특수 탄막-그녜브니급II을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 10회 발사 시, 특수 탄막-그녜브니급II을 발사한다.",
 		id = 26012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26021] = {
 		desc_get = "",
 		name = "전탄발사I",
-		desc = "자신의 주포 15회 발사 시, 특수 탄막-레닌그라드급I을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 15회 발사 시, 특수 탄막-레닌그라드급I을 발사한다.",
 		id = 26021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26022] = {
 		desc_get = "",
 		name = "전탄발사II",
-		desc = "자신의 주포 10회 발사 시, 특수 탄막-레닌그라드급II을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 10회 발사 시, 특수 탄막-레닌그라드급II을 발사한다.",
 		id = 26022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26111] = {
 		desc_get = "",
 		name = "전탄발사I",
-		desc = "자신의 주포 12회 발사 시, 특수 탄막-바가티르급I을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 12회 발사 시, 특수 탄막-바가티르급I을 발사한다.",
 		id = 26111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[26112] = {
 		desc_get = "",
 		name = "전탄발사II",
-		desc = "자신의 주포 8회 발사 시, 특수 탄막-바가티르급II을 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 8회 발사 시, 특수 탄막-바가티르급II을 발사한다.",
 		id = 26112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28011] = {
 		desc_get = "",
 		name = "전탄 발사 - 라드루아급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(라드루아급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(라드루아급Ⅰ)를 전개한다.",
 		id = 28011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28012] = {
 		desc_get = "",
 		name = "전탄 발사Ⅱ - 라드루아급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(라드루아급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(라드루아급Ⅱ)를 전개한다.",
 		id = 28012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28021] = {
 		desc_get = "",
 		name = "전탄 발사 - 랑트레피드급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(랑트레피드급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(랑트레피드급Ⅰ)를 전개한다.",
 		id = 28021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28022] = {
 		desc_get = "",
 		name = "전탄 발사 - 랑트레피드급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(랑트레피드급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(랑트레피드급Ⅱ)를 전개한다.",
 		id = 28022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28031] = {
 		desc_get = "",
 		name = "전탄발사I",
-		desc = "주포 15회 발사 시 전탄발사-보클랭급I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포 15회 발사 시 전탄발사-보클랭급I 발동",
 		id = 28031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28032] = {
 		desc_get = "",
 		name = "전탄발사II",
-		desc = "주포 10회 발사 시 전탄발사-보클랭급I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포 10회 발사 시 전탄발사-보클랭급I 발동",
 		id = 28032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28111] = {
 		desc_get = "",
 		name = "전탄 발사 - 에밀 베르탱Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(에밀 베르탱Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(에밀 베르탱Ⅰ)를 전개한다.",
 		id = 28111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28112] = {
 		desc_get = "",
 		name = "전탄 발사Ⅱ - 에밀 베르탱Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(에밀 베르탱Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(에밀 베르탱Ⅱ)를 전개한다.",
 		id = 28112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28121] = {
 		desc_get = "",
 		name = "전탄 발사I",
-		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사(라 갈리소니에르I)를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사(라 갈리소니에르I)를 전개한다. ",
 		id = 28121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28122] = {
 		desc_get = "",
 		name = "전탄 발사II",
-		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사(라 갈리소니에르II)를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사(라 갈리소니에르II)를 전개한다. ",
 		id = 28122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28211] = {
 		desc_get = "",
 		name = "전탄 발사I",
-		desc = "자신의 주포로 9회 공격할 때마다, 전탄 발사(알제리I)를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다, 전탄 발사(알제리I)를 전개한다. ",
 		id = 28211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[28212] = {
 		desc_get = "",
 		name = "전탄 발사II",
-		desc = "자신의 주포로 6회 공격할 때마다, 전탄 발사(알제리II)를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다, 전탄 발사(알제리II)를 전개한다. ",
 		id = 28212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29011] = {
 		desc_get = "",
 		name = "전탄 발사 - 잉글랜드급Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(잉글랜드급Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(잉글랜드급Ⅰ)를 전개한다.",
 		id = 29011,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29012] = {
 		desc_get = "",
 		name = "전탄 발사 - 잉글랜드급Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(잉글랜드급Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(잉글랜드급Ⅱ)를 전개한다.",
 		id = 29012,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29021] = {
 		desc_get = "",
 		name = "전탄 발사 - 엘드릿지Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(엘드릿지Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(엘드릿지Ⅰ)를 전개한다.",
 		id = 29021,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29022] = {
 		desc_get = "",
 		name = "전탄 발사 - 엘드릿지Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(엘드릿지Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(엘드릿지Ⅱ)를 전개한다.",
 		id = 29022,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29031] = {
 		desc_get = "",
 		name = "전탄 발사 - 윌리엄·D·포터Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(윌리엄·D·포터Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(윌리엄·D·포터Ⅰ)를 전개한다.",
 		id = 29031,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29032] = {
 		desc_get = "",
 		name = "전탄 발사 - 윌리엄·D·포터Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(윌리엄·D·포터Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(윌리엄·D·포터Ⅱ)를 전개한다.",
 		id = 29032,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29041] = {
 		desc_get = "",
 		name = "전탄 발사 - 존스톤Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(존스톤Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(존스톤Ⅰ)를 전개한다.",
 		id = 29041,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29042] = {
 		desc_get = "",
 		name = "전탄 발사 - 존스톤Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(존스톤Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(존스톤Ⅱ)를 전개한다.",
 		id = 29042,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29051] = {
 		desc_get = "",
 		name = "전탄 발사 - 라피Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(라피Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(라피Ⅰ)를 전개한다.",
 		id = 29051,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29052] = {
 		desc_get = "",
 		name = "전탄 발사 - 라피Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(라피Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(라피Ⅱ)를 전개한다.",
 		id = 29052,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29061] = {
 		desc_get = "",
 		name = "전탄 발사 - 글로우웜Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(글로우웜Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(글로우웜Ⅰ)를 전개한다.",
 		id = 29061,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29062] = {
 		desc_get = "",
 		name = "전탄 발사 - 글로우웜Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(글로우웜Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(글로우웜Ⅱ)를 전개한다.",
 		id = 29062,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29071] = {
 		desc_get = "",
 		name = "전탄 발사 - 아카스타Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아카스타Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아카스타Ⅰ)를 전개한다.",
 		id = 29071,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29072] = {
 		desc_get = "",
 		name = "전탄 발사 - 아카스타Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아카스타Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아카스타Ⅱ)를 전개한다.",
 		id = 29072,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29081] = {
 		desc_get = "",
 		name = "전탄 발사 - 재블린Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(재블린Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(재블린Ⅰ)를 전개한다.",
 		id = 29081,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29082] = {
 		desc_get = "",
 		name = "전탄 발사 - 재블린Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(재블린Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(재블린Ⅱ)를 전개한다.",
 		id = 29082,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29091] = {
 		desc_get = "",
 		name = "전탄 발사 - 뱀파이어Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(뱀파이어Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(뱀파이어Ⅰ)를 전개한다.",
 		id = 29091,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29092] = {
 		desc_get = "",
 		name = "전탄 발사 - 뱀파이어Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(뱀파이어Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(뱀파이어Ⅱ)를 전개한다.",
 		id = 29092,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29101] = {
 		desc_get = "",
 		name = "전탄 발사 - 벨파스트Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(벨파스트Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(벨파스트Ⅰ)를 전개한다.",
 		id = 29101,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29102] = {
 		desc_get = "",
 		name = "전탄 발사 - 벨파스트Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(벨파스트Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(벨파스트Ⅱ)를 전개한다.",
 		id = 29102,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29111] = {
 		desc_get = "",
 		name = "전탄 발사 - 아야나미Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아야나미Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(아야나미Ⅰ)를 전개한다.",
 		id = 29111,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29112] = {
 		desc_get = "",
 		name = "전탄 발사 - 아야나미Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아야나미Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(아야나미Ⅱ)를 전개한다.",
 		id = 29112,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29121] = {
 		desc_get = "",
 		name = "전탄 발사 - 유다치Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(유다치Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(유다치Ⅰ)를 전개한다.",
 		id = 29121,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29122] = {
 		desc_get = "",
 		name = "전탄 발사 - 유다치Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(유다치Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(유다치Ⅱ)를 전개한다.",
 		id = 29122,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29131] = {
 		desc_get = "",
 		name = "전탄 발사 - 유키카제Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(유키카제Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(유키카제Ⅰ)를 전개한다.",
 		id = 29131,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29132] = {
 		desc_get = "",
 		name = "전탄 발사 - 유키카제Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(유키카제Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(유키카제Ⅱ)를 전개한다.",
 		id = 29132,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29141] = {
 		desc_get = "",
 		name = "전탄 발사 - 시마카제Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(시마카제Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(시마카제Ⅰ)를 전개한다.",
 		id = 29141,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29142] = {
 		desc_get = "",
 		name = "전탄 발사 - 시마카제Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(시마카제Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(시마카제Ⅱ)를 전개한다.",
 		id = 29142,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29151] = {
 		desc_get = "",
 		name = "전탄 발사 - 키타카미Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(키타카미Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(키타카미Ⅰ)를 전개한다.",
 		id = 29151,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29152] = {
 		desc_get = "",
 		name = "전탄 발사 - 키타카미Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(키타카미Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(키타카미Ⅱ)를 전개한다.",
 		id = 29152,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29161] = {
 		desc_get = "",
 		name = "전탄 발사 - 오오이Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(오오이Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(오오이Ⅰ)를 전개한다.",
 		id = 29161,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29162] = {
 		desc_get = "",
 		name = "전탄 발사 - 오오이Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(오오이Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(오오이Ⅱ)를 전개한다.",
 		id = 29162,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29171] = {
 		desc_get = "",
 		name = "전탄 발사 - Z1Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(Z1Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(Z1Ⅰ)를 전개한다.",
 		id = 29171,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29172] = {
 		desc_get = "",
 		name = "전탄 발사 - Z1Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(Z1Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(Z1Ⅱ)를 전개한다.",
 		id = 29172,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29181] = {
 		desc_get = "",
 		name = "전탄 발사 - 안산Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(안산Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(안산Ⅰ)를 전개한다.",
 		id = 29181,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29182] = {
 		desc_get = "",
 		name = "전탄 발사 - 안산Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(안산Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(안산Ⅱ)를 전개한다.",
 		id = 29182,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29191] = {
 		desc_get = "",
 		name = "전탄 발사 - 아브로라 Ⅰ",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(아브로라Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사(아브로라Ⅰ)를 전개한다.",
 		id = 29191,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29192] = {
 		desc_get = "",
 		name = "전탄 발사 - 아브로라 Ⅱ",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(아브로라Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(아브로라Ⅱ)를 전개한다.",
 		id = 29192,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29201] = {
 		desc_get = "",
 		name = "전탄 발사 - Z23Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(Z23Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(Z23Ⅰ)를 전개한다.",
 		id = 29201,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29202] = {
 		desc_get = "",
 		name = "전탄 발사 - Z23Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(Z23Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(Z23Ⅱ)를 전개한다.",
 		id = 29202,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29211] = {
 		desc_get = "",
 		name = "전탄 발사 – Z46Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(Z46Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(Z46Ⅰ)를 전개한다.",
 		id = 29211,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29212] = {
 		desc_get = "",
 		name = "전탄 발사 - Z46Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(Z46Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(Z46Ⅱ)를 전개한다.",
 		id = 29212,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29221] = {
 		desc_get = "",
 		name = "전탄 발사 - 이부키 I",
-		desc = "자신의 주포로 9회 공격할 때마다, 전탄 발사 - 이부키 I을 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 9회 공격할 때마다, 전탄 발사 - 이부키 I을 발동한다.",
 		id = 29221,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29222] = {
 		desc_get = "",
 		name = "전탄 발사 - 이부키 II",
-		desc = "자신의 주포로 6회 공격할 때마다, 전탄 발사 - 이부키 II를 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 6회 공격할 때마다, 전탄 발사 - 이부키 II를 발동한다.",
 		id = 29222,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29231] = {
 		desc_get = "",
 		name = "전탄 발사 - 넵튠 I",
-		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사 - 넵튠 I을 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사 - 넵튠 I을 발동한다.",
 		id = 29231,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29232] = {
 		desc_get = "",
 		name = "전탄 발사 - 넵튠 II",
-		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사 - 넵튠 II를 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사 - 넵튠 II를 발동한다.",
 		id = 29232,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29241] = {
 		desc_get = "",
 		name = "전탄 발사 - 론 I",
-		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사 - 론 I을 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다, 전탄 발사 - 론 I을 발동한다.",
 		id = 29241,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29242] = {
 		desc_get = "",
 		name = "전탄 발사 - 론 II",
-		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사 - 론 II를 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다, 전탄 발사 - 론 II를 발동한다.",
 		id = 29242,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29251] = {
 		desc_get = "",
 		name = "전탄 발사 - 생 루이 I",
-		desc = "자신의 주포가 12회 공격할 때마다, 전탄 발사 - 생 루이 I을 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포가 12회 공격할 때마다, 전탄 발사 - 생 루이 I을 발동한다.",
 		id = 29251,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29252] = {
 		desc_get = "",
 		name = "전탄 발사 - 생 루이 II",
-		desc = "자신의 주포가 8회 공격할 때마다, 전탄 발사 - 생 루이 II를 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포가 8회 공격할 때마다, 전탄 발사 - 생 루이 II를 발동한다.",
 		id = 29252,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29261] = {
 		desc_get = "",
 		name = "특수 탄막 이19Ⅰ",
-		desc = "전투 개시 시 '특수 탄막 이19Ⅰ'을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 이19Ⅰ'을 전개한다.",
 		id = 29261,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29262] = {
 		desc_get = "",
 		name = "특수 탄막 이19Ⅱ",
-		desc = "전투 개시 시 '특수 탄막 이19Ⅱ'를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 이19Ⅱ'를 전개한다.",
 		id = 29262,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29271] = {
 		desc_get = "",
 		name = "특수 탄막 U-81Ⅰ",
-		desc = "전투 개시 시 '특수 탄막 U-81Ⅰ'을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 U-81Ⅰ'을 전개한다.",
 		id = 29271,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29272] = {
 		desc_get = "",
 		name = "특수 탄막 U-81Ⅱ",
-		desc = "전투 개시 시 '특수 탄막 U-81Ⅱ'를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 U-81Ⅱ'를 전개한다.",
 		id = 29272,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29281] = {
 		desc_get = "",
 		name = "전탄발사-카와카제I",
-		desc = "자신의 주포로 15회 공격할 때마다, 전탄발사(카와카제I)를 전개한다",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다, 전탄발사(카와카제I)를 전개한다",
 		id = 29281,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29282] = {
 		desc_get = "",
 		name = "전탄발사-카와카제II",
-		desc = "자신의 주포로 10회 공격할 때마다, 전탄발사(카와카제II)를 전개한다",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다, 전탄발사(카와카제II)를 전개한다",
 		id = 29282,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29311] = {
 		desc_get = "",
 		name = "특수탄막-U47I",
-		desc = "전투 돌입 시 특수탄막-U47I을 전개한다",
 		type = 1,
 		max_level = 1,
+		desc = "전투 돌입 시 특수탄막-U47I을 전개한다",
 		id = 29311,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29312] = {
 		desc_get = "",
 		name = "특수탄막-U47II",
-		desc = "전투 돌입 시 특수탄막-U47II을 전개한다",
 		type = 1,
 		max_level = 1,
+		desc = "전투 돌입 시 특수탄막-U47II을 전개한다",
 		id = 29312,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29321] = {
 		desc_get = "",
 		name = "특수 탄막 - 쉬르쿠프Ⅰ",
-		desc = "잠항 상태에서 부상할 때, 특수 탄막 - 쉬르쿠프Ⅰ를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "잠항 상태에서 부상할 때, 특수 탄막 - 쉬르쿠프Ⅰ를 전개한다.",
 		id = 29321,
 		system_transform = {
 			[11.0] = 29323
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -46213,12 +51769,15 @@ pg.skill_data_template = {
 	[29322] = {
 		desc_get = "",
 		name = "특수 탄막 - 쉬르쿠프Ⅱ",
-		desc = "잠항 상태에서 부상할 때, 특수 탄막 - 쉬르쿠프Ⅱ를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "잠항 상태에서 부상할 때, 특수 탄막 - 쉬르쿠프Ⅱ를 전개한다.",
 		id = 29322,
 		system_transform = {
 			[11.0] = 29324
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -46226,551 +51785,701 @@ pg.skill_data_template = {
 	[29331] = {
 		desc_get = "",
 		name = "전탄 발사 - 르 트리옹팡Ⅰ",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(르 트리옹팡Ⅰ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사(르 트리옹팡Ⅰ)를 전개한다.",
 		id = 29331,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29332] = {
 		desc_get = "",
 		name = "전탄 발사 - 르 트리옹팡Ⅱ",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(르 트리옹팡Ⅱ)를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사(르 트리옹팡Ⅱ)를 전개한다.",
 		id = 29332,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29341] = {
 		desc_get = "",
 		name = "특수탄막 - 알바코어Ⅰ",
-		desc = "전투 돌입 시 특수탄막(알바코어Ⅰ)을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 돌입 시 특수탄막(알바코어Ⅰ)을 전개한다.",
 		id = 29341,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29342] = {
 		desc_get = "",
 		name = "특수탄막 - 알바코어Ⅱ",
-		desc = "전투 돌입 시 특수탄막(알바코어Ⅱ)을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 돌입 시 특수탄막(알바코어Ⅱ)을 전개한다.",
 		id = 29342,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29351] = {
 		desc_get = "",
 		name = "특수 탄막 – 샌디에이고Ⅰ",
-		desc = "자신의 주포로 16회 공격할 때마다 특수 탄막 - 샌디에이고 I를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 16회 공격할 때마다 특수 탄막 - 샌디에이고 I를 전개한다.",
 		id = 29351,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29361] = {
 		desc_get = "",
 		name = "전탄발사 - 시리우스 I",
-		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사 (시리우스I)를 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 15회 공격할 때마다 전탄 발사 (시리우스I)를 발동한다.",
 		id = 29361,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29362] = {
 		desc_get = "",
 		name = "전탄발사 - 시리우스 II",
-		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사 (시리우스II)를 발동한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 10회 공격할 때마다 전탄 발사 (시리우스II)를 발동한다.",
 		id = 29362,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29371] = {
 		desc_get = "",
 		name = "전용 탄막-{namecode:163}I ",
-		desc = "전투 출격 시, 전용 탄막-I13I 발동 ",
 		type = 1,
 		max_level = 1,
+		desc = "전투 출격 시, 전용 탄막-I13I 발동 ",
 		id = 29371,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29372] = {
 		desc_get = "",
 		name = "전용 탄막-{namecode:163}II ",
-		desc = "전투 출격 시, 전용 탄막-I13II 발동 ",
 		type = 1,
 		max_level = 1,
+		desc = "전투 출격 시, 전용 탄막-I13II 발동 ",
 		id = 29372,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29381] = {
 		desc_get = "",
 		name = "전탄 발사 – 키타카제Ⅰ",
-		desc = "자신의 주포로 24회 공격할 때마다 전탄 발사(키타카제Ⅰ)를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 24회 공격할 때마다 전탄 발사(키타카제Ⅰ)를 전개한다. ",
 		id = 29381,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29382] = {
 		desc_get = "",
 		name = "전탄 발사 – 키타카제Ⅱ",
-		desc = "자신의 주포로 16회 공격할 때마다 전탄 발사(키타카제Ⅱ)를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 16회 공격할 때마다 전탄 발사(키타카제Ⅱ)를 전개한다. ",
 		id = 29382,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29391] = {
 		desc_get = "",
 		name = "전탄 발사 – 시애틀Ⅰ",
-		desc = "자신의 주무기로 15회 공격할 때마다 전탄 발사(시애틀Ⅰ)를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주무기로 15회 공격할 때마다 전탄 발사(시애틀Ⅰ)를 전개한다. ",
 		id = 29391,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29392] = {
 		desc_get = "",
 		name = "전탄 발사 – 시애틀Ⅱ",
-		desc = "자신의 주무기로 10회 공격할 때마다 전탄 발사(시애틀Ⅱ)를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주무기로 10회 공격할 때마다 전탄 발사(시애틀Ⅱ)를 전개한다. ",
 		id = 29392,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29401] = {
 		desc_get = "",
 		name = "전탄 발사-스위프트슈어I",
-		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사-스위프트슈어I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다 전탄 발사-스위프트슈어I 발동",
 		id = 29401,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29402] = {
 		desc_get = "",
 		name = "전탄 발사-스위프트슈어II",
-		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사-스위프트슈어II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사-스위프트슈어II 발동",
 		id = 29402,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29411] = {
 		desc_get = "",
 		name = "전탄 발사-르 말랭I",
-		desc = "주포로 15회 공격할 때마다 전탄 발사-르 말랭I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 15회 공격할 때마다 전탄 발사-르 말랭I 발동",
 		id = 29411,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29412] = {
 		desc_get = "",
 		name = "전탄 발사-르 말랭II",
-		desc = "주포로 10회 공격할 때마다 전탄 발사-르 말랭II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 10회 공격할 때마다 전탄 발사-르 말랭II 발동",
 		id = 29412,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29421] = {
 		desc_get = "",
 		name = "특수 탄막 이168 I",
-		desc = "전투 개시 시 '특수 탄막 이168 I '를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 이168 I '를 전개한다.",
 		id = 29421,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29422] = {
 		desc_get = "",
 		name = "특수 탄막 이168 II",
-		desc = "전투 개시 시 '특수 탄막 이168 II '를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 이168 II '를 전개한다.",
 		id = 29422,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29431] = {
 		desc_get = "",
 		name = "특수 탄막 U101 I",
-		desc = "전투 개시 시 '특수 탄막 U101 I '를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 U101 I '를 전개한다.",
 		id = 29431,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29432] = {
 		desc_get = "",
 		name = "특수 탄막 U101 II",
-		desc = "전투 개시 시 '특수 탄막 U101 II '를 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 개시 시 '특수 탄막 U101 II '를 전개한다.",
 		id = 29432,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29441] = {
 		desc_get = "",
 		name = "특수탄막-카발라I",
-		desc = "전투 돌입 시 특수탄막-카발라I을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 돌입 시 특수탄막-카발라I을 전개한다.",
 		id = 29441,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29442] = {
 		desc_get = "",
 		name = "특수탄막-카발라II",
-		desc = "전투 돌입 시 특수탄막-카발라II을 전개한다.",
 		type = 1,
 		max_level = 1,
+		desc = "전투 돌입 시 특수탄막-카발라II을 전개한다.",
 		id = 29442,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29451] = {
 		desc_get = "",
 		name = "특수 탄막 - 클리블랜드(μ장비)I",
-		desc = "자신의 주포 15회 발사 시, 특수 탄막 - 클리블랜드(μ장비)I를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 15회 발사 시, 특수 탄막 - 클리블랜드(μ장비)I를 발사한다.",
 		id = 29451,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29452] = {
 		desc_get = "",
 		name = "특수 탄막 - 클리블랜드(μ장비)I",
-		desc = "자신의 주포 10회 발사 시, 특수 탄막 - 클리블랜드(μ장비)II를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 10회 발사 시, 특수 탄막 - 클리블랜드(μ장비)II를 발사한다.",
 		id = 29452,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29461] = {
 		desc_get = "",
 		name = "특수 탄막 - 셰필드(μ장비)I",
-		desc = "자신의 주포 12회 발사 시, 특수 탄막 - 셰필드(μ장비)I를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 12회 발사 시, 특수 탄막 - 셰필드(μ장비)I를 발사한다.",
 		id = 29461,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29462] = {
 		desc_get = "",
 		name = "특수 탄막 - 셰필드(μ장비)II",
-		desc = "자신의 주포 8회 발사 시, 특수 탄막 - 셰필드(μ장비)II를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 8회 발사 시, 특수 탄막 - 셰필드(μ장비)II를 발사한다.",
 		id = 29462,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29471] = {
 		desc_get = "",
 		name = "특수 탄막 - 아드미랄 히퍼(μ장비)I",
-		desc = "자신의 주포 9회 발사 시, 특수 탄막 - 아드미랄 히퍼(μ장비)I를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 9회 발사 시, 특수 탄막 - 아드미랄 히퍼(μ장비)I를 발사한다.",
 		id = 29471,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29472] = {
 		desc_get = "",
 		name = "특수 탄막 - 아드미랄 히퍼(μ장비)II",
-		desc = "자신의 주포 6회 발사 시, 특수 탄막 - 아드미랄 히퍼(μ장비)II를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 6회 발사 시, 특수 탄막 - 아드미랄 히퍼(μ장비)II를 발사한다.",
 		id = 29472,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29481] = {
 		desc_get = "",
 		name = "특수 탄막-{namecode:50}I",
-		desc = "자신의 주포 12회 발사 시, 특수 탄막- {namecode:50}I를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 12회 발사 시, 특수 탄막- {namecode:50}I를 발사한다.",
 		id = 29481,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29482] = {
 		desc_get = "",
 		name = "특수 탄막-{namecode:50}II",
-		desc = "자신의 주포 8회 발사 시, 특수 탄막- {namecode:50}II를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 8회 발사 시, 특수 탄막- {namecode:50}II를 발사한다.",
 		id = 29482,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29491] = {
 		desc_get = "",
 		name = "전탄 발사-다이도I",
-		desc = "자신의 주포 15회 발사 시, 특수 탄막-다이도I를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 15회 발사 시, 특수 탄막-다이도I를 발사한다.",
 		id = 29491,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29492] = {
 		desc_get = "",
 		name = "전탄 발사-다이도II",
-		desc = "자신의 주포 10회 발사 시, 특수 탄막-다이도II를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 10회 발사 시, 특수 탄막-다이도II를 발사한다.",
 		id = 29492,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29501] = {
 		desc_get = "",
 		name = "전탄 발사-타슈켄트I",
-		desc = "자신의 주포 15회 발사 시, 특수 탄막-타슈켄트I를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 15회 발사 시, 특수 탄막-타슈켄트I를 발사한다.",
 		id = 29501,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29502] = {
 		desc_get = "",
 		name = "전탄 발사-타슈켄트II",
-		desc = "자신의 주포 10회 발사 시, 특수 탄막-타슈켄트II를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 10회 발사 시, 특수 탄막-타슈켄트II를 발사한다.",
 		id = 29502,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29511] = {
 		desc_get = "",
 		name = "전탄 발사-차파예프I",
-		desc = "자신의 주포 15회 발사 시, 특수 탄막-차파예프I를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 15회 발사 시, 특수 탄막-차파예프I를 발사한다.",
 		id = 29511,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29512] = {
 		desc_get = "",
 		name = "전탄 발사-차파예프II",
-		desc = "자신의 주포 10회 발사 시, 특수 탄막-차파예프II를 발사한다.",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포 10회 발사 시, 특수 탄막-차파예프II를 발사한다.",
 		id = 29512,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29521] = {
 		desc_get = "",
 		name = "전탄 발사-리노I",
-		desc = "구축함 주포 사용 시, 자신의 주포 효율이 10% 증가, 주포 발사 15회 마다 전탄 발사-리노I 발동. 경순양함 주포 사용 시, 전탄 발사 발동까지 필요한 포격 회수가 12회로 감소",
 		type = 1,
 		max_level = 1,
+		desc = "구축함 주포 사용 시, 자신의 주포 효율이 10% 증가, 주포 발사 15회 마다 전탄 발사-리노I 발동. 경순양함 주포 사용 시, 전탄 발사 발동까지 필요한 포격 회수가 12회로 감소",
 		id = 29521,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29531] = {
 		desc_get = "",
 		name = "전탄 발사-리노II",
-		desc = "구축함 주포 사용 시, 자신의 주포 효율이 10% 증가, 주포 발사 10회 마다 전탄 발사-리노II 발동. 경순양함 주포 사용 시, 전탄 발사 발동까지 필요한 포격 회수가 8회로 감소",
 		type = 1,
 		max_level = 1,
+		desc = "구축함 주포 사용 시, 자신의 주포 효율이 10% 증가, 주포 발사 10회 마다 전탄 발사-리노II 발동. 경순양함 주포 사용 시, 전탄 발사 발동까지 필요한 포격 회수가 8회로 감소",
 		id = 29531,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29541] = {
 		desc_get = "",
 		name = "특수 탄막-잔 다르크I",
-		desc = "자신의 주포로 12회 공격할 때마다, 특수 탄막-잔 다르크I를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 12회 공격할 때마다, 특수 탄막-잔 다르크I를 전개한다. ",
 		id = 29541,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29542] = {
 		desc_get = "",
 		name = "특수 탄막-잔 다르크II",
-		desc = "자신의 주포로 8회 공격할 때마다, 특수 탄막-잔 다르크II를 전개한다. ",
 		type = 1,
 		max_level = 1,
+		desc = "자신의 주포로 8회 공격할 때마다, 특수 탄막-잔 다르크II를 전개한다. ",
 		id = 29542,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29551] = {
 		desc_get = "",
 		name = "전탄 발사-체셔I",
-		desc = "주포로 9회 공격 시마다, 전탄 발사-체셔I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 9회 공격 시마다, 전탄 발사-체셔I 발동",
 		id = 29551,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29552] = {
 		desc_get = "",
 		name = "전탄 발사-체셔II",
-		desc = "주포로 6회 공격 시마다, 전탄 발사-체셔II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 6회 공격 시마다, 전탄 발사-체셔II 발동",
 		id = 29552,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29561] = {
 		desc_get = "",
 		name = "전탄 발사-드레이크I",
-		desc = "주포로 12회 공격 시마다, 전탄 발사-드레이크I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 12회 공격 시마다, 전탄 발사-드레이크I 발동",
 		id = 29561,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29562] = {
 		desc_get = "",
 		name = "전탄 발사-드레이크II",
-		desc = "주포로 8회 공격 시마다, 전탄 발사-드레이크II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 8회 공격 시마다, 전탄 발사-드레이크II 발동",
 		id = 29562,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29571] = {
 		desc_get = "",
 		name = "전탄 발사-마인츠I",
-		desc = "주포로 15회 공격 시마다, 전탄 발사-마인츠I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 15회 공격 시마다, 전탄 발사-마인츠I 발동",
 		id = 29571,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29572] = {
 		desc_get = "",
 		name = "전탄 발사-마인츠II",
-		desc = "주포로 10회 공격 시마다, 전탄 발사-마인츠II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 10회 공격 시마다, 전탄 발사-마인츠II 발동",
 		id = 29572,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29581] = {
 		desc_get = "",
 		name = "특수 탄막-허마이오니I",
-		desc = "주포로 15회 공격 시마다, 특수 탄막-허마이오니I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 15회 공격 시마다, 특수 탄막-허마이오니I 발동",
 		id = 29581,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29582] = {
 		desc_get = "",
 		name = "특수 탄막-허마이오니II",
-		desc = "주포로 10회 공격 시마다, 특수 탄막-허마이오니II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 10회 공격 시마다, 특수 탄막-허마이오니II 발동",
 		id = 29582,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29591] = {
 		desc_get = "",
 		name = "특수 탄막-U96I ",
-		desc = "산소 부족으로 수면에 떠오를 시, 특수 탄막-U96I 발동 ",
 		type = 1,
 		max_level = 1,
+		desc = "산소 부족으로 수면에 떠오를 시, 특수 탄막-U96I 발동 ",
 		id = 29591,
 		system_transform = {
 			[11.0] = 29593
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -46778,12 +52487,15 @@ pg.skill_data_template = {
 	[29592] = {
 		desc_get = "",
 		name = "특수 탄막-U96II ",
-		desc = "산소 부족으로 수면에 떠오를 시, 특수 탄막-U96II 발동 ",
 		type = 1,
 		max_level = 1,
+		desc = "산소 부족으로 수면에 떠오를 시, 특수 탄막-U96II 발동 ",
 		id = 29592,
 		system_transform = {
 			[11.0] = 29594
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {},
 		desc_add = {}
@@ -46791,165 +52503,238 @@ pg.skill_data_template = {
 	[29601] = {
 		desc_get = "",
 		name = "특수 탄막-{namecode:27}I",
-		desc = "주포로 24회 공격 시마다, 특수 탄막-{namecode:27}I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 24회 공격 시마다, 특수 탄막-{namecode:27}I 발동",
 		id = 29601,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29602] = {
 		desc_get = "",
 		name = "특수 탄막-{namecode:27}II",
-		desc = "주포로 16회 공격 시마다, 특수 탄막-{namecode:27}II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 16회 공격 시마다, 특수 탄막-{namecode:27}II 발동",
 		id = 29602,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29611] = {
 		desc_get = "",
 		name = "특수 탄막-론(μ장비)I",
-		desc = "주포로 12회 공격 시마다, 특수 탄막-론(μ장비)I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 12회 공격 시마다, 특수 탄막-론(μ장비)I 발동",
 		id = 29611,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29612] = {
 		desc_get = "",
 		name = "특수 탄막-론(μ장비)II",
-		desc = "주포로 8회 공격 시마다, 특수 탄막-론(μ장비)II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 8회 공격 시마다, 특수 탄막-론(μ장비)II 발동",
 		id = 29612,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29621] = {
 		desc_get = "",
 		name = "특수 탄막-르 말랭(μ장비)I",
-		desc = "주포로 15회 공격 시마다, 특수 탄막-르 말랭(μ장비)I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 15회 공격 시마다, 특수 탄막-르 말랭(μ장비)I 발동",
 		id = 29621,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29622] = {
 		desc_get = "",
 		name = "특수 탄막-르 말랭(μ장비)II",
-		desc = "주포로 10회 공격 시마다, 특수 탄막-르 말랭(μ장비)II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 10회 공격 시마다, 특수 탄막-르 말랭(μ장비)II 발동",
 		id = 29622,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29631] = {
 		desc_get = "",
 		name = "특수 탄막-다이도(μ장비)I",
-		desc = "주포로 15회 공격 시마다, 특수 탄막-다이도(μ장비)I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 15회 공격 시마다, 특수 탄막-다이도(μ장비)I 발동",
 		id = 29631,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29632] = {
 		desc_get = "",
 		name = "특수 탄막-다이도(μ장비)III",
-		desc = "주포로 10회 공격 시마다, 특수 탄막-다이도(μ장비)II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 10회 공격 시마다, 특수 탄막-다이도(μ장비)II 발동",
 		id = 29632,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29641] = {
 		desc_get = "",
 		name = "특수 탄막-타슈켄트(μ장비)I",
-		desc = "주포로 15회 공격 시마다, 특수 탄막-타슈켄트(μ장비)I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 15회 공격 시마다, 특수 탄막-타슈켄트(μ장비)I 발동",
 		id = 29641,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29642] = {
 		desc_get = "",
 		name = "특수 탄막-타슈켄트(μ장비)II",
-		desc = "주포로 10회 공격 시마다, 특수 탄막-타슈켄트(μ장비)II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 10회 공격 시마다, 특수 탄막-타슈켄트(μ장비)II 발동",
 		id = 29642,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29651] = {
 		desc_get = "",
 		name = "특수 탄막-알바코어(μ장비)I",
-		desc = "전투 진입 시, 특수 탄막-알바코어(μ장비)I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "전투 진입 시, 특수 탄막-알바코어(μ장비)I 발동",
 		id = 29651,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29652] = {
 		desc_get = "",
 		name = "특수 탄막-알바코어(μ장비)II",
-		desc = "전투 진입 시, 특수 탄막-알바코어(μ장비)II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "전투 진입 시, 특수 탄막-알바코어(μ장비)II 발동",
 		id = 29652,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29661] = {
 		desc_get = "",
 		name = "특수 탄막-볼티모어(μ장비)I",
-		desc = "주포로 12회 공격 시마다, 특수 탄막-볼티모어(μ장비)I 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 12회 공격 시마다, 특수 탄막-볼티모어(μ장비)I 발동",
 		id = 29661,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[29662] = {
 		desc_get = "",
 		name = "특수 탄막-볼티모어(μ장비)II",
-		desc = "주포로 8회 공격 시마다, 특수 탄막-볼티모어(μ장비)II 발동",
 		type = 1,
 		max_level = 1,
+		desc = "주포로 8회 공격 시마다, 특수 탄막-볼티모어(μ장비)II 발동",
 		id = 29662,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29671] = {
+		desc_get = "",
+		name = "특수 탄막-U37I ",
+		type = 1,
+		max_level = 1,
+		desc = "산소 부족으로 수면에 떠오를 시, 특수 탄막-U37I 발동 ",
+		id = 29671,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29672] = {
+		desc_get = "",
+		name = "특수 탄막-U37II ",
+		type = 1,
+		max_level = 1,
+		desc = "산소 부족으로 수면에 떠오를 시, 특수 탄막-U37II 발동 ",
+		id = 29672,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[101010] = {
 		desc_get = "",
 		name = "주인공 보정",
-		desc = "자신 이외의 넵튠 콜라보레이션 캐릭터와 함께 출격할 경우, 자신의 대미지가 $1 증가하고, 받는 대미지가 6.0% 감소한다. 자신 이외의 넵튠 콜라보레이션 캐릭터 한 명당 자신의 대미지가 $2 추가 상승하고, 받는 대미지가 1.0% 추가 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "자신 이외의 넵튠 콜라보레이션 캐릭터와 함께 출격할 경우, 자신의 대미지가 $1 증가하고, 받는 대미지가 6.0% 감소한다. 자신 이외의 넵튠 콜라보레이션 캐릭터 한 명당 자신의 대미지가 $2 추가 상승하고, 받는 대미지가 1.0% 추가 감소한다.",
 		id = 101010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.0%",
@@ -47048,11 +52833,14 @@ pg.skill_data_template = {
 	[101020] = {
 		desc_get = "",
 		name = "메디스테이션·S",
-		desc = "피격 시 $1 확률로 8초 동안 자신의 대미지가 $2 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "피격 시 $1 확률로 8초 동안 자신의 대미지가 $2 상승한다.",
 		id = 101020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -47151,11 +52939,14 @@ pg.skill_data_template = {
 	[101030] = {
 		desc_get = "",
 		name = "실트 브레이크",
-		desc = "벨 & 그린 하트와 함께 출격할 경우, 자신의 대미지가 $1 증가하고, 받는 대미지가 $2 증가한다. 벨 & 그린 하트와 함께 출격하지 않을 경우, 자신의 대미지가 $4 감소하고, 받는 대미지가 $3 감소한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "벨 & 그린 하트와 함께 출격할 경우, 자신의 대미지가 $1 증가하고, 받는 대미지가 $2 증가한다. 벨 & 그린 하트와 함께 출격하지 않을 경우, 자신의 대미지가 $4 감소하고, 받는 대미지가 $3 감소한다. ",
 		id = 101030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -47344,11 +53135,14 @@ pg.skill_data_template = {
 	[101040] = {
 		desc_get = "",
 		name = "아삼 링크",
-		desc = "함대 내의 구축함 한 척당 받는 대미지가 $1 감소하고, 장전 수치가 $2 증가한다.",
 		type = 2,
 		max_level = 10,
+		desc = "함대 내의 구축함 한 척당 받는 대미지가 $1 감소하고, 장전 수치가 $2 증가한다.",
 		id = 101040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -47447,11 +53241,14 @@ pg.skill_data_template = {
 	[101050] = {
 		desc_get = "",
 		name = "크로스 콤비네이션",
-		desc = "자신의 주포를 $1 회 발사 후, 그다음 주포 공격에 반드시 크리티컬이 발생한다.",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 주포를 $1 회 발사 후, 그다음 주포 공격에 반드시 크리티컬이 발생한다.",
 		id = 101050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15",
@@ -47505,11 +53302,14 @@ pg.skill_data_template = {
 	[101060] = {
 		desc_get = "전투 개시 115초 후, 초강력 탄막(위력은 스킬 레벨에 비례)을 전개한다. 한 전투에 한 번만 발동된다.",
 		name = "빅토리 슬래시",
-		desc = "전투 개시 115초 후, 초강력 탄막($1)을 전개한다. 한 전투에 한 번만 발동된다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 115초 후, 초강력 탄막($1)을 전개한다. 한 전투에 한 번만 발동된다.",
 		id = 101060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -47558,11 +53358,14 @@ pg.skill_data_template = {
 	[101070] = {
 		desc_get = "20초마다 20.0%(최대 레벨 40.0%) 확률로 강력한 탄막(위력은 스킬 레벨에 비례)을 전개한다. 명중당한 적은 12초간 연소 상태가 된다. ",
 		name = "블레이즈 브레이크",
-		desc = "20초마다 $1 확률로 강력한 탄막($2)을 전개한다. 명중당한 적은 12초간 연소 상태가 된다. ",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 강력한 탄막($2)을 전개한다. 명중당한 적은 12초간 연소 상태가 된다. ",
 		id = 101070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -47652,22 +53455,28 @@ pg.skill_data_template = {
 	[101080] = {
 		desc_get = "",
 		name = "트리콜로르 오더",
-		desc = "모든 주포 공격이 적의 장갑 종류의 영향을 받지 않으며, 주포의 모든 대미지가 스킬 레벨에 따라 증가한다. ",
 		type = 3,
 		max_level = 10,
+		desc = "모든 주포 공격이 적의 장갑 종류의 영향을 받지 않으며, 주포의 모든 대미지가 스킬 레벨에 따라 증가한다. ",
 		id = 101080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[101090] = {
 		desc_get = "20초마다 20.0%(최대 레벨 40.0%) 확률로 강력한 탄막(위력은 스킬 레벨에 비례)을 전개한다.",
 		name = "레이시즈 댄스",
-		desc = "20초마다 $1 확률로 강력한 탄막($2)을 전개한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 강력한 탄막($2)을 전개한다.",
 		id = 101090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -47757,11 +53566,14 @@ pg.skill_data_template = {
 	[101100] = {
 		desc_get = "",
 		name = "텐체린 트롬페",
-		desc = "매 포격마다 어뢰의 크리티컬 확률이 $1 상승하는 버프가 중첩된다. 버프는 총 20회까지 중첩 가능하며, 어뢰 발사 뒤엔 중첩 횟수가 초기화된다.",
 		type = 1,
 		max_level = 10,
+		desc = "매 포격마다 어뢰의 크리티컬 확률이 $1 상승하는 버프가 중첩된다. 버프는 총 20회까지 중첩 가능하며, 어뢰 발사 뒤엔 중첩 횟수가 초기화된다.",
 		id = 101100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"0.6%",
@@ -47815,11 +53627,14 @@ pg.skill_data_template = {
 	[101110] = {
 		desc_get = "20초마다 20.0%(최대 레벨 40.0%) 확률로 강력한 탄막(위력은 스킬 레벨에 비례)을 전개하여, 명중시킨 적을 낮은 확률로 8초 동안 감속시킨다.",
 		name = "게페아 리히슈테른",
-		desc = "20초마다 $1 확률로 강력한 탄막($2)을 전개하여, 명중시킨 적을 낮은 확률로 8초 동안 감속시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 강력한 탄막($2)을 전개하여, 명중시킨 적을 낮은 확률로 8초 동안 감속시킨다.",
 		id = 101110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -47909,11 +53724,14 @@ pg.skill_data_template = {
 	[101120] = {
 		desc_get = "",
 		name = "다즐링 로테",
-		desc = "15초마다 다음과 같은 버프가 순차적으로 적용된다 : 자신이 받는 대미지 $1 감소 / 자신의 대미지 $2 증가 / 3초마다 자신의 내구를 $3 회복",
 		type = 3,
 		max_level = 10,
+		desc = "15초마다 다음과 같은 버프가 순차적으로 적용된다 : 자신이 받는 대미지 $1 감소 / 자신의 대미지 $2 증가 / 3초마다 자신의 내구를 $3 회복",
 		id = 101120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"6.0%",
@@ -48057,11 +53875,14 @@ pg.skill_data_template = {
 	[101130] = {
 		desc_get = "20초마다 20.0%(최대 레벨 40.0%) 확률로 특수 항모 탄막을(위력은 스킬 레벨에 비례) 전개한다.",
 		name = "레이니 라트나퓨라",
-		desc = "20초마다 $1 확률로 특수 항모 탄막을($2) 전개한다.",
 		type = 1,
 		max_level = 10,
+		desc = "20초마다 $1 확률로 특수 항모 탄막을($2) 전개한다.",
 		id = 101130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48151,11 +53972,14 @@ pg.skill_data_template = {
 	[103010] = {
 		desc_get = "",
 		name = "사신변전",
-		desc = "장비하고 있는 주포의 탄약 타입과 같은 타입의 공격이 주는 대미지가 $1 상승하고, 받는 대미지가 $1 감소한다.",
 		type = 3,
 		max_level = 10,
+		desc = "장비하고 있는 주포의 탄약 타입과 같은 타입의 공격이 주는 대미지가 $1 상승하고, 받는 대미지가 $1 감소한다.",
 		id = 103010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -48209,11 +54033,14 @@ pg.skill_data_template = {
 	[103020] = {
 		desc_get = "",
 		name = "십자매",
-		desc = "자신이 공격 받았을 때, $1로 특수 탄막을 전개한다. 발동 후 10초 간은 스킬이 발동되지 않으며, 한 번의 전투에서 최대 6번 까지만 발동 가능하다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "자신이 공격 받았을 때, $1로 특수 탄막을 전개한다. 발동 후 10초 간은 스킬이 발동되지 않으며, 한 번의 전투에서 최대 6번 까지만 발동 가능하다. (위력은 스킬 레벨에 비례)",
 		id = 103020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -48267,11 +54094,14 @@ pg.skill_data_template = {
 	[103030] = {
 		desc_get = "",
 		name = "하얀 무지개",
-		desc = "전투 개시 후 100초 뒤, 선봉함대의 기동 수치를 $1 상승시키고, 내구 수치를 네코네의 최대 내구 수치의 $2만큼 회복시킨다. 한 번의 전투에서 한 번만 발동할 수 있다.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 개시 후 100초 뒤, 선봉함대의 기동 수치를 $1 상승시키고, 내구 수치를 네코네의 최대 내구 수치의 $2만큼 회복시킨다. 한 번의 전투에서 한 번만 발동할 수 있다.",
 		id = 103030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -48370,11 +54200,14 @@ pg.skill_data_template = {
 	[103040] = {
 		desc_get = "",
 		name = "저녁별",
-		desc = "10초 마다 $1로 연소 효과를 가진 특수 탄막을 발동시킨다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "10초 마다 $1로 연소 효과를 가진 특수 탄막을 발동시킨다. (위력은 스킬 레벨에 비례)",
 		id = 103040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"50.0%",
@@ -48428,11 +54261,14 @@ pg.skill_data_template = {
 	[103050] = {
 		desc_get = "",
 		name = "생명의 고동",
-		desc = "10초 마다 $1로 자신의 내구 수치를 최대 내구 수치의 2% 만큼 회복한다. 한 번에 전투에서 최대 6번까지만 발동 가능.",
 		type = 2,
 		max_level = 10,
+		desc = "10초 마다 $1로 자신의 내구 수치를 최대 내구 수치의 2% 만큼 회복한다. 한 번에 전투에서 최대 6번까지만 발동 가능.",
 		id = 103050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -48486,11 +54322,14 @@ pg.skill_data_template = {
 	[103060] = {
 		desc_get = "",
 		name = "백합 뿌리",
-		desc = "전투 개시 후 22초 마다 특수 탄막을 전개한다($1). 특수 탄막은 전투 중 전개될 때 마다 강화되며, 한 번의 전투에서 최대 4번 까지만 발동 가능하다. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 후 22초 마다 특수 탄막을 전개한다($1). 특수 탄막은 전투 중 전개될 때 마다 강화되며, 한 번의 전투에서 최대 4번 까지만 발동 가능하다. (위력은 스킬 레벨에 비례)",
 		id = 103060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48530,11 +54369,14 @@ pg.skill_data_template = {
 	[103070] = {
 		desc_get = "",
 		name = "사슬의 무녀",
-		desc = "사라나와 같은 함대에 편성되어 있는 경우, 자신의 항공 수치가 $1, 장전 및 명중 수치가 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "사라나와 같은 함대에 편성되어 있는 경우, 자신의 항공 수치가 $1, 장전 및 명중 수치가 $2 상승한다.",
 		id = 103070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -48633,11 +54475,14 @@ pg.skill_data_template = {
 	[103080] = {
 		desc_get = "",
 		name = "쌍영무쌍",
-		desc = "사라나와 같은 함선에 편성되어 있는 경우, 전투 개시 후 55초 뒤 특수 탄막을 전개한다($1). 한 번에 전투에서 두 번까지 사용 가능. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "사라나와 같은 함선에 편성되어 있는 경우, 전투 개시 후 55초 뒤 특수 탄막을 전개한다($1). 한 번에 전투에서 두 번까지 사용 가능. (위력은 스킬 레벨에 비례)",
 		id = 103080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48677,11 +54522,14 @@ pg.skill_data_template = {
 	[103090] = {
 		desc_get = "",
 		name = "사슬의 무녀",
-		desc = "우루루와 같은 함대에 편성되어 있는 경우, 자신의 항공 수치가 $1, 장전 및 명중 수치가 $2 상승한다.",
 		type = 3,
 		max_level = 10,
+		desc = "우루루와 같은 함대에 편성되어 있는 경우, 자신의 항공 수치가 $1, 장전 및 명중 수치가 $2 상승한다.",
 		id = 103090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -48780,11 +54628,14 @@ pg.skill_data_template = {
 	[103100] = {
 		desc_get = "",
 		name = "쌍영무쌍",
-		desc = "우루루와 같은 함선에 편성되어 있는 경우, 전투 개시 후 55초 뒤 특수 탄막을 전개한다($1). 한 번에 전투에서 두 번까지 사용 가능. (위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "우루루와 같은 함선에 편성되어 있는 경우, 전투 개시 후 55초 뒤 특수 탄막을 전개한다($1). 한 번에 전투에서 두 번까지 사용 가능. (위력은 스킬 레벨에 비례)",
 		id = 103100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -48824,11 +54675,14 @@ pg.skill_data_template = {
 	[103110] = {
 		desc_get = "",
 		name = "백화밀",
-		desc = "자신의 공중지원 시 $1로 발동. 전투 가능한 아군 중 내구 수치가 가장 낮은 함선의 내구 수치를 최대 내구의 $2만큼 회복시킨다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 공중지원 시 $1로 발동. 전투 가능한 아군 중 내구 수치가 가장 낮은 함선의 내구 수치를 최대 내구의 $2만큼 회복시킨다.",
 		id = 103110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -48927,11 +54781,14 @@ pg.skill_data_template = {
 	[103120] = {
 		desc_get = "전투 개시 25초(최대 레벨 시 15초) 후, 특수 탄막을 전개한다. 그 후, 30초(최대 레벨 시 20초)마다 특수 탄막을 전개한다. (위력 및 탄막은 스킬 레벨에 비례)",
 		name = "밀월",
-		desc = "전투 개시 $1초 후, 특수 탄막을 전개한다. 그 후, $2초마다 특수 탄막을 전개한다. (위력 및 탄막은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 $1초 후, 특수 탄막을 전개한다. 그 후, $2초마다 특수 탄막을 전개한다. (위력 및 탄막은 스킬 레벨에 비례)",
 		id = 103120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20",
@@ -49030,11 +54887,14 @@ pg.skill_data_template = {
 	[104010] = {
 		desc_get = "",
 		name = "아이쨩 광선!",
-		desc = "전투 시작후 20초 마다 수퍼 인공지능의 능력으로 적의 전자 시스템에 침입한다. 침입 결과에 따라 랜덤으로 적의 포격, 뇌장, 항공 성능이 감소한다(최고 $1 감소) , 8초간 지속. 침입 할때 적은 확률로 적의 속성을 상승시킨다.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작후 20초 마다 수퍼 인공지능의 능력으로 적의 전자 시스템에 침입한다. 침입 결과에 따라 랜덤으로 적의 포격, 뇌장, 항공 성능이 감소한다(최고 $1 감소) , 8초간 지속. 침입 할때 적은 확률로 적의 속성을 상승시킨다.",
 		id = 104010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -49079,11 +54939,14 @@ pg.skill_data_template = {
 	[104020] = {
 		desc_get = "",
 		name = "위기회피!",
-		desc = "자신이 피해 받을 시, $1의 확률로 발동된다. 어뢰 탄막을 발사하고 3초 동안 모든 공격을 회피한다. 모든 회피 효과 종료 후 3초 동안 자신의 기동이 $2 상승한다. (전투마다 최대 3회 어뢰 탄막 발사)",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 피해 받을 시, $1의 확률로 발동된다. 어뢰 탄막을 발사하고 3초 동안 모든 공격을 회피한다. 모든 회피 효과 종료 후 3초 동안 자신의 기동이 $2 상승한다. (전투마다 최대 3회 어뢰 탄막 발사)",
 		id = 104020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -49182,11 +55045,14 @@ pg.skill_data_template = {
 	[104030] = {
 		desc_get = "",
 		name = "연결고리의 속박",
-		desc = "전투 시작 시 함대에 키즈나 아이가 편성되어 있으면, 키즈나 아이 캐릭터 갯수에 따라 자신의 포격이 $1 상승한다. (최대 4회 중첩) 만약 함대에 키즈나 아이가 편성되어 있지 않으면 전투 시작 시 자신의 받는 피해량 $2 감소한다. (30초간 지속)",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 시 함대에 키즈나 아이가 편성되어 있으면, 키즈나 아이 캐릭터 갯수에 따라 자신의 포격이 $1 상승한다. (최대 4회 중첩) 만약 함대에 키즈나 아이가 편성되어 있지 않으면 전투 시작 시 자신의 받는 피해량 $2 감소한다. (30초간 지속)",
 		id = 104030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -49285,11 +55151,14 @@ pg.skill_data_template = {
 	[104040] = {
 		desc_get = "",
 		name = "절대적인 선언",
-		desc = "자신의 점화되는 시간이 3초 감소한다. 폭탄으로 받는 피해가 $1 감소한다.",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 점화되는 시간이 3초 감소한다. 폭탄으로 받는 피해가 $1 감소한다.",
 		id = 104040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -49343,11 +55212,14 @@ pg.skill_data_template = {
 	[104050] = {
 		desc_get = "",
 		name = "Future Base",
-		desc = "전투 시작후 30초, 45초, 60초에 $1의 항공 탄막을 발사한다. (탄막의 위력은 스킬 레벨에 비례함)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작후 30초, 45초, 60초에 $1의 항공 탄막을 발사한다. (탄막의 위력은 스킬 레벨에 비례함)",
 		id = 104050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -49392,11 +55264,14 @@ pg.skill_data_template = {
 	[104060] = {
 		desc_get = "",
 		name = "Melty World",
-		desc = "임의의 키즈나 아이와 동시에 출격 시, 자신이 공습할 때 $1 확률로 발동된다. 8초 동안 자신이 사용한 공습의 피해량이 100% 상승한다.",
 		type = 1,
 		max_level = 10,
+		desc = "임의의 키즈나 아이와 동시에 출격 시, 자신이 공습할 때 $1 확률로 발동된다. 8초 동안 자신이 사용한 공습의 피해량이 100% 상승한다.",
 		id = 104060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -49450,11 +55325,14 @@ pg.skill_data_template = {
 	[104070] = {
 		desc_get = "",
 		name = "길찾기 마스터",
-		desc = "자신 장비의 주포의 포격 범위가 1포인트 증가한다. 주포 포격률이 $1 상승한다. 전투 개시 16초 마다 $2의 확률로 탄막이 발동된다.(탄막의 위력은 스킬 레벨에 비례함)",
 		type = 1,
 		max_level = 10,
+		desc = "자신 장비의 주포의 포격 범위가 1포인트 증가한다. 주포 포격률이 $1 상승한다. 전투 개시 16초 마다 $2의 확률로 탄막이 발동된다.(탄막의 위력은 스킬 레벨에 비례함)",
 		id = 104070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"15.0%",
@@ -49553,11 +55431,14 @@ pg.skill_data_template = {
 	[104080] = {
 		desc_get = "",
 		name = "네비게이션 시스템",
-		desc = "슈퍼 인공지능의 네비게이션 능력을 사용한다. 자신의 명중, 기동 속성이 $1 상승한다.",
 		type = 2,
 		max_level = 10,
+		desc = "슈퍼 인공지능의 네비게이션 능력을 사용한다. 자신의 명중, 기동 속성이 $1 상승한다.",
 		id = 104080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"10.0%",
@@ -49611,11 +55492,14 @@ pg.skill_data_template = {
 	[105010] = {
 		desc_get = "",
 		name = "2.25 마하의 꽃 ",
-		desc = "3번째 장비 슬롯이 폭격기 슬롯으로 변경되며, 장비 스킨을[2.25 마하 여우 죽순]으로 교체. 익숙하지 않은 소환 방식에 공습 준비 시간이 100% 증가. 전투 중, 20초 간격으로 추가 항공 지원 $1 소환 (지원 위력은 뇌격 스탯과 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "3번째 장비 슬롯이 폭격기 슬롯으로 변경되며, 장비 스킨을[2.25 마하 여우 죽순]으로 교체. 익숙하지 않은 소환 방식에 공습 준비 시간이 100% 증가. 전투 중, 20초 간격으로 추가 항공 지원 $1 소환 (지원 위력은 뇌격 스탯과 스킬 레벨에 비례) ",
 		id = 105010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -49660,11 +55544,14 @@ pg.skill_data_template = {
 	[105020] = {
 		desc_get = "",
 		name = "이중 존재의 여우 ",
-		desc = "전투 시작 시, 자신의 포격 스탯이 $1 상승. 출격 시, 자신이 소속된 함대가 적 함대를 3회 격파했을 경우, 추가로 뇌격 스탯이 $2 상승 ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 시, 자신의 포격 스탯이 $1 상승. 출격 시, 자신이 소속된 함대가 적 함대를 3회 격파했을 경우, 추가로 뇌격 스탯이 $2 상승 ",
 		id = 105020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -49763,11 +55650,14 @@ pg.skill_data_template = {
 	[105030] = {
 		desc_get = "",
 		name = "Dream☆Story",
-		desc = "자신의 공습 발동 시, $1의 확률로 특수 전탄 $2 발동, 특수 전탄은 적에게 점화 효과를 줌 (위력과 스타일은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 공습 발동 시, $1의 확률로 특수 전탄 $2 발동, 특수 전탄은 적에게 점화 효과를 줌 (위력과 스타일은 스킬 레벨에 비례) ",
 		id = 105030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"70.0%",
@@ -49857,11 +55747,14 @@ pg.skill_data_template = {
 	[105040] = {
 		desc_get = "",
 		name = "바다보다 깊은 하늘 아래 ",
-		desc = "자신이 전장에 있을 경우, 모든 hololive 진영 캐릭터가 받는 데미지가 $1 감소. 전투 개시 후 20초마다 전장에 있는 적 유닛의 항속 $1 감소, 아군 캐릭터의 명중률 $1 증가. 아군 hololive 진영 캐릭터의 항속을 8초간 $1 증가 ",
 		type = 2,
 		max_level = 10,
+		desc = "자신이 전장에 있을 경우, 모든 hololive 진영 캐릭터가 받는 데미지가 $1 감소. 전투 개시 후 20초마다 전장에 있는 적 유닛의 항속 $1 감소, 아군 캐릭터의 명중률 $1 증가. 아군 hololive 진영 캐릭터의 항속을 8초간 $1 증가 ",
 		id = 105040,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -49960,12 +55853,15 @@ pg.skill_data_template = {
 	[105050] = {
 		desc_get = "",
 		name = "인도어계 메이드 ",
-		desc = "자신의 잠항력이 $1 감소. 전투 진입 후 20초간 자신의 데미지가 $2 증가. 이탈 시 항속 100% 증가 ",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 잠항력이 $1 감소. 전투 진입 후 20초간 자신의 데미지가 $2 증가. 이탈 시 항속 100% 증가 ",
 		id = 105050,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -50065,12 +55961,15 @@ pg.skill_data_template = {
 	[105060] = {
 		desc_get = "",
 		name = "쓸모없는 천사 ",
-		desc = "전투 개시 시, 전장의 모든 캐릭터에게 랜덤으로 버프 $1 부여. hololive 진영의 캐릭터는 1.5배의 버프 효과 부여 ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시, 전장의 모든 캐릭터에게 랜덤으로 버프 $1 부여. hololive 진영의 캐릭터는 1.5배의 버프 효과 부여 ",
 		id = 105060,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -50116,12 +56015,15 @@ pg.skill_data_template = {
 	[105070] = {
 		desc_get = "",
 		name = "해바라기의 약속 ",
-		desc = "전투 개시 시, 반드시 크리티컬로 명중하는 특수 전탄 발사 $1 발동. 아군 함대에 hololive 캐릭터가 3인 이상 있을 경우, 특수 전탄 발사 강화 ",
 		type = 1,
 		max_level = 10,
+		desc = "전투 개시 시, 반드시 크리티컬로 명중하는 특수 전탄 발사 $1 발동. 아군 함대에 hololive 캐릭터가 3인 이상 있을 경우, 특수 전탄 발사 강화 ",
 		id = 105070,
 		system_transform = {
 			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -50167,11 +56069,14 @@ pg.skill_data_template = {
 	[105080] = {
 		desc_get = "",
 		name = "그대와 함께 보는 여름의 꽃 ",
-		desc = "25초마다 $1의 확률로 특수 전탄 발사 $2 발동 ",
 		type = 1,
 		max_level = 10,
+		desc = "25초마다 $1의 확률로 특수 전탄 발사 $2 발동 ",
 		id = 105080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -50261,11 +56166,14 @@ pg.skill_data_template = {
 	[105090] = {
 		desc_get = "",
 		name = "3일의 변덕 ",
-		desc = "전투 시작 시, 아군 함대에 hololive 진영 함선 수가 홀수인 경우 자신의 주포 데미지가 $1 증가. 짝수의 경우 자신이 받는 포격 데미지가 $2 감소. 전투 시작 후 20초마다 랜덤한 아군 캐릭터의 10초 동안 받는 데미지가 $2 감소 ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 시작 시, 아군 함대에 hololive 진영 함선 수가 홀수인 경우 자신의 주포 데미지가 $1 증가. 짝수의 경우 자신이 받는 포격 데미지가 $2 감소. 전투 시작 후 20초마다 랜덤한 아군 캐릭터의 10초 동안 받는 데미지가 $2 감소 ",
 		id = 105090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -50364,11 +56272,14 @@ pg.skill_data_template = {
 	[105100] = {
 		desc_get = "",
 		name = "귀신☆나키리 ",
-		desc = "20초마다 $2의 성공률로 시키가미를 통해 자신을 강화. 강화 성공 후, 자신이 전투 중에 가하는 데미지가 $1 증가, 강화 효과는 최대 3회 중첩 가능 ",
 		type = 3,
 		max_level = 10,
+		desc = "20초마다 $2의 성공률로 시키가미를 통해 자신을 강화. 강화 성공 후, 자신이 전투 중에 가하는 데미지가 $1 증가, 강화 효과는 최대 3회 중첩 가능 ",
 		id = 105100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"3.5%",
@@ -50467,11 +56378,14 @@ pg.skill_data_template = {
 	[105110] = {
 		desc_get = "",
 		name = "아수라수라찰 귀신베기 ",
-		desc = "$1초마다 아수라수라찰 귀신베기 $2를 발동, 50%의 확률로 명중한 적에게 6초간 갑옷 무력화 부여 (참격의 위력은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "$1초마다 아수라수라찰 귀신베기 $2를 발동, 50%의 확률로 명중한 적에게 6초간 갑옷 무력화 부여 (참격의 위력은 스킬 레벨에 비례) ",
 		id = 105110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"20",
@@ -50561,11 +56475,14 @@ pg.skill_data_template = {
 	[105120] = {
 		desc_get = "",
 		name = "좋은 꿈 꿔 [WAVE] ",
-		desc = "자신의 공습 발동 시, $1의 확률로 발동. 선봉 함대의 빛의 파동으로 8초간 그 자리에 있던 적이 가하는 데미지를 $2 감소 ",
 		type = 3,
 		max_level = 10,
+		desc = "자신의 공습 발동 시, $1의 확률로 발동. 선봉 함대의 빛의 파동으로 8초간 그 자리에 있던 적이 가하는 데미지를 $2 감소 ",
 		id = 105120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"70.0%",
@@ -50664,11 +56581,14 @@ pg.skill_data_template = {
 	[105130] = {
 		desc_get = "",
 		name = "MP 리셋의 익스플로전 ",
-		desc = "전투 중 8초마다 자신의 MP를 1 회복. MP가 3까지 모이면 자신의 MP를 리셋해 특수 전탄 발사 $1을 발동 ",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 8초마다 자신의 MP를 1 회복. MP가 3까지 모이면 자신의 MP를 리셋해 특수 전탄 발사 $1을 발동 ",
 		id = 105130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -50713,11 +56633,14 @@ pg.skill_data_template = {
 	[105140] = {
 		desc_get = "",
 		name = "야성의 이원론 ",
-		desc = "전투 중 자신의 홀수 째 공습의 추가로 뇌격기를 사용해 $1 공격, 짝수 째 공습의 추가로 폭격기를 사용해 $1 공격 (위력은 스킬 레벨에 비례) ",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중 자신의 홀수 째 공습의 추가로 뇌격기를 사용해 $1 공격, 짝수 째 공습의 추가로 폭격기를 사용해 $1 공격 (위력은 스킬 레벨에 비례) ",
 		id = 105140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -50762,11 +56685,14 @@ pg.skill_data_template = {
 	[105150] = {
 		desc_get = "",
 		name = "타로 점술사 ",
-		desc = "전투 개시 시 점을 보며 점괘에 따라 자신에게 $1의 버프를 부여 ",
 		type = 3,
 		max_level = 10,
+		desc = "전투 개시 시 점을 보며 점괘에 따라 자신에게 $1의 버프를 부여 ",
 		id = 105150,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -50811,11 +56737,14 @@ pg.skill_data_template = {
 	[106010] = {
 		desc_get = "",
 		name = "장미 가시",
-		desc = "전투 중, 공격 받을 시, $1 확률로 무조건 크리티컬이 발동되는 특수 탄막 $2을 발사한다.(위력은 스킬 레벨에 비례, 발동 후 10초 쿨타임), 전투 진입 후 60초 동안, 자신의 화력, 뇌장 스탯이 $3 증가한다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 중, 공격 받을 시, $1 확률로 무조건 크리티컬이 발동되는 특수 탄막 $2을 발사한다.(위력은 스킬 레벨에 비례, 발동 후 10초 쿨타임), 전투 진입 후 60초 동안, 자신의 화력, 뇌장 스탯이 $3 증가한다.",
 		id = 106010,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -50950,11 +56879,14 @@ pg.skill_data_template = {
 	[106020] = {
 		desc_get = "",
 		name = "명랑한 미뉴에트",
-		desc = "전투 중, 자신이 장비한 어뢰 무기의 첫3회 대미지가 $1 상승한다. 어뢰 무기 발사 시, 8초 내 전열 함대의 항속이 3증가하고, 전열 리더함 회피 $2 증가.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중, 자신이 장비한 어뢰 무기의 첫3회 대미지가 $1 상승한다. 어뢰 무기 발사 시, 8초 내 전열 함대의 항속이 3증가하고, 전열 리더함 회피 $2 증가.",
 		id = 106020,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"30.0%",
@@ -51053,11 +56985,14 @@ pg.skill_data_template = {
 	[106030] = {
 		desc_get = "",
 		name = "필살☆묵찌빠",
-		desc = "전투 시작 시, 자신의 화력 스탯 $1 증가. 전투 중 자신의 주포 발사 5초 후 랜덤 탄막 $2으로 1회 공격. ",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 시, 자신의 화력 스탯 $1 증가, 경잡갑 적에게 대미지 $3증가; 전투 중 자신의 주포로 공격 후 5초 내에 랜덤 탄막 $2으로 1회 공격. ",
 		id = 106030,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -51066,6 +57001,10 @@ pg.skill_data_template = {
 			{
 				"Lv.1",
 				"Lv.10"
+			},
+			{
+				"4.5%",
+				"12.0%"
 			}
 		},
 		desc_add = {
@@ -51141,18 +57080,62 @@ pg.skill_data_template = {
 				{
 					"Lv.10"
 				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
 			}
 		}
 	},
 	[106040] = {
 		desc_get = "",
 		name = "필살☆대폭발",
-		desc = "자신의 주포 무기로 공격 시, $1 확률로 특수 탄막 $2 발동하며, 편대의 무작위 2명의 내구도를 5% 회복(탄막 위력은 스킬 레벨에 비례)",
 		type = 2,
 		max_level = 10,
+		desc = "자신의 주포 무기로 공격 시, $1 확률로 특수 탄막 $2 발동하며, 편대의 무작위 2명의 내구도를 5% 회복(탄막 위력은 스킬 레벨에 비례)",
 		id = 106040,
 		system_transform = {
 			[3.0] = 106045
+		},
+		world_death_mark = {
+			1
 		},
 		desc_get_add = {
 			{
@@ -51243,11 +57226,14 @@ pg.skill_data_template = {
 	[106050] = {
 		desc_get = "",
 		name = "벚꽃천무",
-		desc = "전투 시작 후 15초마다, 벚꽃 탄막 $1 발동. 자신이 장비한 어뢰 무기가 적을 6회 명중 시마다, 벚꽃 탄막 1회 추가 발동(특수 탄막 위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 후 15초마다, 벚꽃 탄막 $1 발동. 자신이 장비한 어뢰 무기가 적을 6회 명중 시마다, 벚꽃 탄막 1회 추가 발동(특수 탄막 위력은 스킬 레벨에 비례)",
 		id = 106050,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -51292,11 +57278,14 @@ pg.skill_data_template = {
 	[106060] = {
 		desc_get = "",
 		name = "노을꽃",
-		desc = "자신이 적함 격파 시, 화력, 장전 스탯이 $1 증가, 최대 3회 중첩. 적함 3척을 격파 후, 자신의 명중 $2 추가 증가. 한 전투 당 1회만 발동 가능(스탯 증가 효과는 전투 종료까지 지속)",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 적함 격파 시, 화력, 장전 스탯이 $1 증가, 최대 3회 중첩. 적함 3척을 격파 후, 자신의 명중 $2 추가 증가. 한 전투 당 1회만 발동 가능(스탯 증가 효과는 전투 종료까지 지속)",
 		id = 106060,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -51395,11 +57384,14 @@ pg.skill_data_template = {
 	[106070] = {
 		desc_get = "",
 		name = "수줍은 보조 소녀",
-		desc = "전투 진입 후 60초 내, 자신의 화력 증가 및 경장갑 적에 대한 대미지 $1 증가. 전투 진입 시, 편대에 다른 비너스 휴가 진영 함선이 존재할 경우, 자신의 대공 스탯 $2 증가. 포격에 입는 피해 $3 감소.",
 		type = 3,
 		max_level = 10,
+		desc = "전투 진입 후 60초 내, 자신의 화력 증가 및 경장갑 적에 대한 대미지 $1 증가. 전투 진입 시, 편대에 다른 비너스 휴가 진영 함선이 존재할 경우, 자신의 대공 스탯 $2 증가. 포격에 입는 피해 $3 감소.",
 		id = 106070,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -51543,11 +57535,14 @@ pg.skill_data_template = {
 	[106080] = {
 		desc_get = "",
 		name = "비너스의 친구",
-		desc = "전투 시작 후 20초마다, 특수 탄막 $1 발동. 특수 탄막에 명중당한 적은 8초 동안 비너스 휴가 진영 함선으로부터 받는 대미지 $2 증가(특수 탄막 위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 후 20초마다, 특수 탄막 $1 발동. 특수 탄막에 명중당한 적은 8초 동안 비너스 휴가 진영 함선으로부터 받는 대미지 $2 증가(특수 탄막 위력은 스킬 레벨에 비례)",
 		id = 106080,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -51637,11 +57632,14 @@ pg.skill_data_template = {
 	[106090] = {
 		desc_get = "",
 		name = "부드러운? 언니",
-		desc = "전투 시작 후 18초마다, $1 확률로 탄막 $2 발동. 특수 탄막에 명중당한 적은 8초 동안 미사키, 나기사로부터 받는 대미지 $3 증가(특수 탄막 위력은 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 후 18초마다, $1 확률로 탄막 $2 발동. 특수 탄막에 명중당한 적은 8초 동안 미사키, 나기사로부터 받는 대미지 $3 증가(특수 탄막 위력은 스킬 레벨에 비례)",
 		id = 106090,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"40.0%",
@@ -51776,11 +57774,14 @@ pg.skill_data_template = {
 	[106100] = {
 		desc_get = "",
 		name = "신비의 비너스",
-		desc = "전투 중, 자신이 받는 대미지 $1 감소. 주포 공격 시, 랜덤한 적 1명의 속도를 $2 감소시킨다. 8초 지속.",
 		type = 2,
 		max_level = 10,
+		desc = "전투 중, 자신이 받는 대미지 $1 감소. 주포 공격 시, 랜덤한 적 1명의 속도를 $2 감소시킨다. 8초 지속.",
 		id = 106100,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -51879,11 +57880,14 @@ pg.skill_data_template = {
 	[106110] = {
 		desc_get = "",
 		name = "조커 게임",
-		desc = "전투 시작 후 15초마다, 포커 카드 총알과 특수 총알로 이루어진 특수 탄막 $1 발사(특수 탄막 위력은 스킬 레벨에 비례). 특수 총알은 명중한 적의 받는 피해를 6초 동안 10% 증가시킨다.",
 		type = 1,
 		max_level = 10,
+		desc = "전투 시작 후 15초마다, 포커 카드 총알과 특수 총알로 이루어진 특수 탄막 $1 발사(특수 탄막 위력은 스킬 레벨에 비례). 특수 총알은 명중한 적의 받는 피해를 6초 동안 10% 증가시킨다.",
 		id = 106110,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -51928,11 +57932,14 @@ pg.skill_data_template = {
 	[106120] = {
 		desc_get = "",
 		name = "로얄 스트레이트 플러쉬",
-		desc = "자신이 장비한 주포 포탄의 비행 속도 10% 증가. 대공 범위 내, 적 전투기 5기 격추 시, 자신의 뇌장, 대공 $1 증가. 전투 종료까지 지속.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 장비한 주포 포탄의 비행 속도 10% 증가. 대공 범위 내, 적 전투기 5기 격추 시, 자신의 뇌장, 대공 $1 증가. 전투 종료까지 지속.",
 		id = 106120,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -51986,11 +57993,14 @@ pg.skill_data_template = {
 	[106130] = {
 		desc_get = "",
 		name = "비천의 무",
-		desc = "자신의 공습 준비 완료 후 5초 내, 항공 탄막으로 $1 1회 추가 공격(항공 탄막 위력과 형태는 스킬 레벨에 비례)",
 		type = 1,
 		max_level = 10,
+		desc = "자신의 공습 준비 완료 후 5초 내, 항공 탄막으로 $1 1회 추가 공격(항공 탄막 위력과 형태는 스킬 레벨에 비례)",
 		id = 106130,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -52035,11 +58045,14 @@ pg.skill_data_template = {
 	[106140] = {
 		desc_get = "",
 		name = "꽃의 신령",
-		desc = "자신이 전함에게 입히는 대미지 $1 증가. 공습 발동 시, $2 확률로 전열 함대 1명에게 8초 동안 받는 피해 $3 감소 효과 부여.",
 		type = 3,
 		max_level = 10,
+		desc = "자신이 전함에게 입히는 대미지 $1 증가. 공습 발동 시, $2 확률로 전열 함대 1명에게 8초 동안 받는 피해 $3 감소 효과 부여.",
 		id = 106140,
 		system_transform = {},
+		world_death_mark = {
+			1
+		},
 		desc_get_add = {
 			{
 				"4.0%",
@@ -52180,6 +58193,487 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[800040] = {
+		desc_get = "",
+		name = "烬火之刃",
+		type = 1,
+		max_level = 10,
+		desc = "战斗开始10秒及随后每20秒，向身前发动多次斩击$1，被斩击命中的敌方单位受到自身造成的伤害提高$2，持续15秒（弹幕威力及样式依据技能等级）",
+		id = 800040,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[800050] = {
+		desc_get = "",
+		name = "光暗花札",
+		type = 2,
+		max_level = 10,
+		desc = "战斗开始时，提升自身航空属性$2，战斗中每20秒，使用花牌进行一次弹幕射击$1（花牌攻击的样式随机，威力依据技能等级）",
+		id = 800050,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[800060] = {
+		desc_get = "",
+		name = "战忆之樱",
+		type = 3,
+		max_level = 10,
+		desc = "战斗开始时，若自身装备有任意重樱阵营舰载机武器，战斗中每15秒，释放一轮航空弹幕$1（弹幕威力及样式依据技能等级）；若未装备任何重樱阵营舰载机武器，本场战斗自身前$2次受到的伤害降低$3，受伤达到$2次后，自身受到的伤害降低$4，机动提高$5，持续至战斗结束",
+		id = 800060,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"2",
+				"4"
+			},
+			{
+				"15.0%",
+				"35.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"4"
+				},
+				{
+					"4"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.5%"
+				},
+				{
+					"16.5%",
+					"+1.5%"
+				},
+				{
+					"18.0%",
+					"+1.5%"
+				},
+				{
+					"19.5%",
+					"+2.0%"
+				},
+				{
+					"21.5%",
+					"+2.0%"
+				},
+				{
+					"23.5%",
+					"+2.5%"
+				},
+				{
+					"26.0%",
+					"+2.5%"
+				},
+				{
+					"28.5%",
+					"+3.0%"
+				},
+				{
+					"31.5%",
+					"+3.5%"
+				},
+				{
+					"35.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[800071] = {
+		desc_get = "",
+		name = "破敌之炬",
+		type = 1,
+		max_level = 10,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+		id = 800071,
+		system_transform = {
+			[51.0] = 800075
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800072] = {
+		desc_get = "",
+		name = "破敌之炬",
+		type = 1,
+		max_level = 10,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
+		id = 800072,
+		system_transform = {
+			[51.0] = 800077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800075] = {
+		desc_get = "",
+		name = "破敌之炬",
+		type = 1,
+		max_level = 10,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+		id = 800075,
+		system_transform = {
+			[51.0] = 800075
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800077] = {
+		desc_get = "",
+		name = "破敌之炬",
+		type = 1,
+		max_level = 10,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
+		id = 800077,
+		system_transform = {
+			[51.0] = 800077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -52190,6 +58684,7 @@ pg.skill_data_template = {
 		14,
 		15,
 		16,
+		340,
 		1001,
 		1002,
 		1003,
@@ -52331,6 +58826,9 @@ pg.skill_data_template = {
 		6328,
 		6329,
 		6330,
+		6331,
+		6332,
+		6333,
 		6360,
 		6370,
 		6380,
@@ -52372,6 +58870,48 @@ pg.skill_data_template = {
 		6750,
 		6760,
 		6770,
+		6790,
+		6791,
+		6792,
+		6793,
+		6794,
+		6795,
+		6796,
+		6797,
+		6798,
+		6799,
+		6800,
+		6801,
+		6802,
+		6803,
+		6810,
+		6811,
+		6812,
+		6813,
+		6814,
+		6815,
+		6816,
+		6817,
+		6818,
+		6819,
+		6820,
+		6821,
+		6822,
+		6823,
+		6830,
+		6831,
+		6832,
+		6833,
+		6834,
+		6835,
+		6836,
+		6837,
+		6838,
+		6839,
+		6840,
+		6841,
+		6842,
+		6843,
 		7000,
 		9030,
 		9031,
@@ -52765,6 +59305,21 @@ pg.skill_data_template = {
 		13850,
 		13860,
 		13870,
+		13880,
+		13890,
+		13900,
+		13910,
+		13920,
+		13930,
+		13940,
+		13950,
+		13960,
+		13970,
+		13980,
+		13990,
+		14000,
+		14010,
+		14020,
 		18010,
 		18040,
 		18050,
@@ -52968,6 +59523,8 @@ pg.skill_data_template = {
 		23212,
 		23221,
 		23222,
+		23231,
+		23232,
 		23311,
 		23312,
 		23321,
@@ -53131,6 +59688,8 @@ pg.skill_data_template = {
 		29652,
 		29661,
 		29662,
+		29671,
+		29672,
 		101010,
 		101020,
 		101030,
@@ -53192,6 +59751,13 @@ pg.skill_data_template = {
 		106110,
 		106120,
 		106130,
-		106140
+		106140,
+		800040,
+		800050,
+		800060,
+		800071,
+		800072,
+		800075,
+		800077
 	}
 }

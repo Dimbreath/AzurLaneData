@@ -48,6 +48,7 @@ function slot0.init(slot0)
 	slot0.sample = slot0:findTF("sample")
 
 	setActive(slot0.sample, false)
+	setActive(slot0.defaultPanel:Find("transform_tip"), false)
 end
 
 function slot0.setEquipment(slot0, slot1)
@@ -128,6 +129,21 @@ function slot0.initAndSetBtn(slot0, slot1)
 		slot0.defaultEnhanceBtn = slot0:findTF("actions/action_button_2", slot0.defaultPanel)
 		slot0.defaultUnloadBtn = slot0:findTF("actions/action_button_4", slot0.defaultPanel)
 		slot0.defaultRevertBtn = slot0:findTF("info/equip/revert_btn", slot0.defaultEquipTF)
+		slot0.defaultTransformTipBar = slot0:findTF("transform_tip", slot0.defaultEquipTF)
+
+		if slot1 == EquipmentInfoMediator.TYPE_DEFAULT and not slot0.defaultTransformTipBar then
+			slot2 = slot0.defaultPanel:Find("transform_tip")
+
+			setParent(slot2, slot0.defaultEquipTF)
+
+			slot3 = slot2.sizeDelta
+			slot3.y = 0
+			slot2.sizeDelta = slot3
+
+			setAnchoredPosition(slot2, Vector2.zero)
+
+			slot0.defaultTransformTipBar = slot2
+		end
 
 		onButton(slot0, slot0.defaultReplaceBtn, function ()
 			slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
@@ -282,6 +298,40 @@ function slot0.updateOperation1(slot0)
 	setActive(slot0.defaultReplaceBtn, false)
 	setActive(slot0.defaultUnloadBtn, false)
 	setActive(slot0.defaultDestroyBtn, slot0.contextData.destroy and slot0.equipmentVO.count > 0)
+	setActive(slot0.defaultTransformTipBar, not LOCK_EQUIPMENT_TRANSFORM and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "EquipmentTransformTreeMediator") and #EquipmentProxy.GetTransformTargets(Equipment.GetEquipRootStatic(slot0.equipmentVO.id)) > 0)
+
+	if isActive(slot0.defaultTransformTipBar) then
+		slot3 = pg.equip_upgrade_data
+
+		UIItemList.StaticAlign(slot0.defaultTransformTipBar:Find("list"), slot0.defaultTransformTipBar:Find("list/transformTarget"), #slot2, function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventUpdate then
+				setActive(slot2:Find("link"), slot1 > 0)
+
+				if not (uv0[uv1[slot1 + 1]] and slot3.target_id) then
+					setActive(slot2, false)
+
+					return
+				end
+
+				updateDrop(slot2:Find("item"), {
+					type = DROP_TYPE_EQUIP,
+					id = slot4
+				})
+				onButton(uv2, slot2:Find("item"), function ()
+					uv0:emit(EquipmentInfoMediator.OPEN_LAYER, Context.New({
+						mediator = EquipmentTransformMediator,
+						viewComponent = EquipmentTransformLayer,
+						data = {
+							fromStoreHouse = true,
+							formulaId = uv1[uv2 + 1],
+							sourceEquipmentInstance = uv0.equipmentVO
+						}
+					}))
+				end, SFX_PANEL)
+				slot2:Find("mask/name"):GetComponent("ScrollText"):SetText(pg.equip_data_statistics[slot4].name)
+			end
+		end)
+	end
 end
 
 function slot0.updateOperation2(slot0)
@@ -295,6 +345,10 @@ function slot0.updateOperation2(slot0)
 
 	if slot0.shipVO then
 		setImageSprite(findTF(slot1, "Image"), LoadSprite("qicon/" .. slot0.shipVO:getPainting()))
+	end
+
+	if slot0.defaultTransformTipBar then
+		setActive(slot0.defaultTransformTipBar, false)
 	end
 end
 

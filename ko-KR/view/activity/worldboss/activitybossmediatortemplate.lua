@@ -10,6 +10,8 @@ slot0.ON_OPEN_DOCK = "ActivityBossMediatorTemplate ON_OPEN_DOCK"
 slot0.ON_FLEET_SHIPINFO = "ActivityBossMediatorTemplate ON_FLEET_SHIPINFO"
 slot0.ON_SELECT_COMMANDER = "ActivityBossMediatorTemplate ON_SELECT_COMMANDER"
 slot0.ON_PERFORM_COMBAT = "ActivityBossMediatorTemplate ON_PERFORM_COMBAT"
+slot0.COMMANDER_FORMATION_OP = "ActivityBossMediatorTemplate COMMANDER_FORMATION_OP"
+slot0.ON_COMMANDER_SKILL = "ActivityBossMediatorTemplate ON_COMMANDER_SKILL"
 slot1 = {
 	"word_easy",
 	"word_normal_junhe",
@@ -308,22 +310,26 @@ function slot0.BindEvent(slot0)
 			shipVOs = slot1.shipVOs
 		})
 	end)
+	slot0:bind(uv0.COMMANDER_FORMATION_OP, function (slot0, slot1)
+		uv0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
+			data = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_COMMANDER_SKILL, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = CommanderSkillMediator,
+			viewComponent = CommanderSkillLayer,
+			data = {
+				skill = slot1
+			}
+		}))
+	end)
 	slot0:bind(uv0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2)
-		slot5 = slot1 < Fleet.SUBMARINE_FLEET_ID and slot1 or slot1 - 10
-		slot6 = {
-			[slot5] = slot3[slot5],
-			[slot5 + 10] = slot3[slot5 + 10]
-		}
-		slot8 = nil
-
-		if uv0:getActivityFleets()[uv1.id][slot1]:getCommanders()[slot2] then
-			slot8 = slot7[slot2]
-		end
-
 		uv2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 1,
 			mode = CommandRoomScene.MODE_SELECT,
-			activeCommander = slot8,
+			activeCommander = uv0:getActivityFleets()[uv1.id][slot1]:getCommanders()[slot2],
+			fleetType = CommandRoomScene.FLEET_TYPE_ACTBOSS,
 			ignoredIds = {},
 			onCommander = function (slot0)
 				return true
@@ -382,7 +388,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.BEGIN_STAGE_DONE,
 		GAME.ACT_NEW_PT_DONE,
 		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
-		GAME.GET_POWERRANK_DONE
+		GAME.GET_POWERRANK_DONE,
+		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE
 	}
 end
 
@@ -450,6 +457,11 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.ACT_NEW_PT_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+	elseif slot2 == GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE then
+		slot0.contextData.actFleets = actFleets
+
+		slot0.viewComponent:updateEditPanel()
+		slot0.viewComponent:updateCommanderFleet(getProxy(FleetProxy):getActivityFleets()[slot3.actId][slot3.fleetId])
 	end
 end
 

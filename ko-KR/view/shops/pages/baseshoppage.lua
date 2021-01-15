@@ -62,7 +62,7 @@ end
 
 function slot0.UpdateShop(slot0, slot1)
 	slot0:SetShop(slot1)
-	pg.MsgboxMgr:GetInstance():hide()
+	pg.MsgboxMgr.GetInstance():hide()
 	slot0.contextData.singleWindow:ExecuteAction("Close")
 	slot0.contextData.multiWindow:ExecuteAction("Close")
 	slot0:OnUpdateAll()
@@ -109,13 +109,25 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 						end
 					end
 				})
-			elseif uv1(slot0, slot1) then
+			elseif uv0:getSpecialRule(slot0) and uv1(slot0, slot1) then
 				uv2(slot0, slot1)
 			end
 		end)
 	else
 		slot0.contextData.multiWindow:ExecuteAction("Open", slot1, slot4)
 	end
+end
+
+function slot0.getSpecialRule(slot0, slot1)
+	if slot1:getConfig("commodity_type") == 2 and slot0.shop.type == ShopArgs.ShopFragment and pg.item_data_statistics[slot1:getConfig("commodity_id")] and slot3.type == 7 and slot3.shiptrans_id ~= 0 then
+		if getProxy(BagProxy):getItemById(slot2) or getProxy(BayProxy):getConfigShipCount(slot3.shiptrans_id) > 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("special_transform_limit_reach"))
+
+			return false
+		end
+	end
+
+	return true
 end
 
 function slot0.CanOpen(slot0, slot1, slot2)

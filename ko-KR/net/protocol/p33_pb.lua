@@ -5,15 +5,24 @@ module("p33_pb")
 
 slot2 = {
 	SC_33001_WORLD_FIELD = slot0.FieldDescriptor(),
-	SC_33001_VISION_LIST_FIELD = slot0.FieldDescriptor(),
-	SC_33001_COLLECTION_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33001_IS_WORLD_OPEN_FIELD = slot0.FieldDescriptor(),
+	SC_33001_PORT_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_33001_CAMP_FIELD = slot0.FieldDescriptor(),
+	SC_33001_TARGET_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33001_TARGET_FETCH_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33001_COUNT_INFO_FIELD = slot0.FieldDescriptor(),
+	SC_33001_OUT_SHOP_BUY_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33001_CLEAN_CHAPTER_FIELD = slot0.FieldDescriptor(),
+	SC_33001_CHAPTER_AWARD_FIELD = slot0.FieldDescriptor(),
+	SC_33001_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_33101_ID_FIELD = slot0.FieldDescriptor(),
-	CS_33101_GROUP_ID_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_33101_ENTER_MAP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_33101_ELITE_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_33101_CAMP_FIELD = slot0.FieldDescriptor(),
 	SC_33102_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_33102_WORLD_FIELD = slot0.FieldDescriptor(),
+	SC_33102_CHAPTER_AWARD_FIELD = slot0.FieldDescriptor(),
+	SC_33102_COUNT_INFO_FIELD = slot0.FieldDescriptor(),
 	CS_33103_ACT_FIELD = slot0.FieldDescriptor(),
 	CS_33103_GROUP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_33103_ACT_ARG_1_FIELD = slot0.FieldDescriptor(),
@@ -22,19 +31,35 @@ slot2 = {
 	SC_33104_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_33104_MOVE_PATH_FIELD = slot0.FieldDescriptor(),
 	SC_33104_DROP_LIST_FIELD = slot0.FieldDescriptor(),
-	SC_33104_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33104_ENTER_MAP_ID_FIELD = slot0.FieldDescriptor(),
 	SC_33104_SHIP_UPDATE_FIELD = slot0.FieldDescriptor(),
 	SC_33104_AI_ACT_LIST_FIELD = slot0.FieldDescriptor(),
-	SC_33104_FLEET_ACT_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_33104_ID_FIELD = slot0.FieldDescriptor(),
 	SC_33104_LAND_LIST_FIELD = slot0.FieldDescriptor(),
-	SC_33105_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33104_GROUP_UPDATE_FIELD = slot0.FieldDescriptor(),
+	SC_33104_EVENT_ID_FIELD = slot0.FieldDescriptor(),
+	SC_33104_POS_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33104_ACTION_POWER_FIELD = slot0.FieldDescriptor(),
+	SC_33104_ACTION_POWER_EXTRA_FIELD = slot0.FieldDescriptor(),
+	SC_33104_TARGET_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33104_CMD_COLLECTION_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33105_POS_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_33106_ID_FIELD = slot0.FieldDescriptor(),
 	SC_33107_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_33107_MAP_FIELD = slot0.FieldDescriptor(),
+	SC_33107_IS_RESET_FIELD = slot0.FieldDescriptor(),
 	CS_33108_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_33109_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_33110_TYPE_FIELD = slot0.FieldDescriptor(),
+	CS_33110_DATA_FIELD = slot0.FieldDescriptor(),
+	SC_33111_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_33112_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_33113_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_33113_DROP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33113_TIME_FIELD = slot0.FieldDescriptor(),
+	SC_33113_SAIREN_CHAPTER_FIELD = slot0.FieldDescriptor(),
 	ELITEFLEETINFO_SHIP_ID_LIST_FIELD = slot0.FieldDescriptor(),
+	ELITEFLEETINFO_COMMANDERS_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_MAP_ID_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_TIME_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_GROUP_LIST_FIELD = slot0.FieldDescriptor(),
@@ -43,25 +68,29 @@ slot2 = {
 	WORLDINFO_TASK_LIST_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_SUBMARINE_STATE_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
-	WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD = slot0.FieldDescriptor(),
-	WORLDINFO_SUBMARINE_CD_ROUND_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_SHIP_IN_PORT_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_ACTION_POWER_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_ACTION_POWER_EXTRA_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_ENTER_MAP_ID_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_CD_LIST_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_CHAPTER_LIST_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_SAIREN_CHAPTER_FIELD = slot0.FieldDescriptor(),
+	COUNTINFO_STEP_COUNT_FIELD = slot0.FieldDescriptor(),
+	COUNTINFO_TREASURE_COUNT_FIELD = slot0.FieldDescriptor(),
+	COUNTINFO_TASK_PROGRESS_FIELD = slot0.FieldDescriptor(),
+	COUNTINFO_ACTIVATE_COUNT_FIELD = slot0.FieldDescriptor(),
+	COUNTINFO_COLLECTION_LIST_FIELD = slot0.FieldDescriptor(),
 	MAPINFO_ID_FIELD = slot0.FieldDescriptor(),
 	MAPINFO_CELL_LIST_FIELD = slot0.FieldDescriptor(),
-	MAPINFO_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
+	MAPINFO_STATE_FLAG_FIELD = slot0.FieldDescriptor(),
 	MAPINFO_LAND_LIST_FIELD = slot0.FieldDescriptor(),
+	MAPINFO_POS_LIST_FIELD = slot0.FieldDescriptor(),
 	CHAPTERCELLINFO_POS_FIELD = slot0.FieldDescriptor(),
 	CHAPTERCELLINFO_DISCOVERED_FIELD = slot0.FieldDescriptor(),
-	CHAPTERITEMINFO_POS_FIELD = slot0.FieldDescriptor(),
-	CHAPTERITEMINFO_ITEM_TYPE_FIELD = slot0.FieldDescriptor(),
-	CHAPTERITEMINFO_ITEM_ID_FIELD = slot0.FieldDescriptor(),
-	CHAPTERITEMINFO_ITEM_FLAG_FIELD = slot0.FieldDescriptor(),
-	CHAPTERITEMINFO_ITEM_DATA_FIELD = slot0.FieldDescriptor(),
-	CHAPTERITEMINFO_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
-	CHAPTERITEMINFO_BOSS_HP_FIELD = slot0.FieldDescriptor(),
 	CHAPTERCELLPOS_ROW_FIELD = slot0.FieldDescriptor(),
 	CHAPTERCELLPOS_COLUMN_FIELD = slot0.FieldDescriptor(),
 	LANDINFO_POS_FIELD = slot0.FieldDescriptor(),
@@ -78,24 +107,49 @@ slot2 = {
 	GROUPINCHAPTER_BULLET_FIELD = slot0.FieldDescriptor(),
 	GROUPINCHAPTER_START_POS_FIELD = slot0.FieldDescriptor(),
 	GROUPINCHAPTER_ATTACH_LIST_FIELD = slot0.FieldDescriptor(),
+	GROUPINCHAPTER_DAMAGE_LEVEL_FIELD = slot0.FieldDescriptor(),
+	GROUPINCHAPTER_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
+	GROUPINCHAPTER_COMMANDER_LIST_FIELD = slot0.FieldDescriptor(),
+	GROUPINCHAPTER_KILL_COUNT_FIELD = slot0.FieldDescriptor(),
+	GROUPINCHAPTER_CMD_COLLECTION_FIELD = slot0.FieldDescriptor(),
 	SHIPINCHAPTER_ID_FIELD = slot0.FieldDescriptor(),
 	SHIPINCHAPTER_HP_RANT_FIELD = slot0.FieldDescriptor(),
 	SHIPINCHAPTER_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
 	STRATEGYINFO_ID_FIELD = slot0.FieldDescriptor(),
 	STRATEGYINFO_COUNT_FIELD = slot0.FieldDescriptor(),
+	CHAPTERAWARDINFO_ID_FIELD = slot0.FieldDescriptor(),
+	CHAPTERAWARDINFO_AWARD_FIELD = slot0.FieldDescriptor(),
+	CHAPTERAWARDINFO_FLAG_FIELD = slot0.FieldDescriptor(),
+	GROUPINFOUPDATE_ID_FIELD = slot0.FieldDescriptor(),
+	GROUPINFOUPDATE_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
 	AI_ACT_AI_POS_FIELD = slot0.FieldDescriptor(),
 	AI_ACT_STRATEGY_ID_FIELD = slot0.FieldDescriptor(),
 	AI_ACT_TARGET_POS_FIELD = slot0.FieldDescriptor(),
 	AI_ACT_MOVE_PATH_FIELD = slot0.FieldDescriptor(),
-	AI_ACT_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
 	AI_ACT_SHIP_UPDATE_FIELD = slot0.FieldDescriptor(),
+	AI_ACT_TYPE_FIELD = slot0.FieldDescriptor(),
+	AI_ACT_POS_LIST_FIELD = slot0.FieldDescriptor(),
 	MAP_VISION_MAP_ID_FIELD = slot0.FieldDescriptor(),
 	MAP_VISION_VISION_LIST_FIELD = slot0.FieldDescriptor(),
+	WORLDPOSINFO_POS_FIELD = slot0.FieldDescriptor(),
+	WORLDPOSINFO_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
+	WORLDITEMINFO_ITEM_TYPE_FIELD = slot0.FieldDescriptor(),
+	WORLDITEMINFO_ITEM_ID_FIELD = slot0.FieldDescriptor(),
+	WORLDITEMINFO_ITEM_FLAG_FIELD = slot0.FieldDescriptor(),
+	WORLDITEMINFO_ITEM_DATA_FIELD = slot0.FieldDescriptor(),
+	WORLDITEMINFO_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
+	WORLDITEMINFO_BOSS_HP_FIELD = slot0.FieldDescriptor(),
+	WORLDMAPID_RANDOM_ID_FIELD = slot0.FieldDescriptor(),
+	WORLDMAPID_TEMPLATE_ID_FIELD = slot0.FieldDescriptor(),
+	GROUPCMDCOLLECTION_GROUP_ID_FIELD = slot0.FieldDescriptor(),
+	GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD = slot0.FieldDescriptor(),
+	CMDCOLLECTION_PROGRESS_FIELD = slot0.FieldDescriptor(),
+	CMDCOLLECTION_PROGRESS_LIST_FIELD = slot0.FieldDescriptor(),
+	CMDCOLLECTION_RANDOM_ID_FIELD = slot0.FieldDescriptor(),
 	SC_33202_APPEND_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_33203_UPDATE_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_33204_DELETE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_33205_TASKID_FIELD = slot0.FieldDescriptor(),
-	CS_33205_FLEET_ID_FIELD = slot0.FieldDescriptor(),
 	SC_33206_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_33206_TASK_FIELD = slot0.FieldDescriptor(),
 	CS_33207_TASKID_FIELD = slot0.FieldDescriptor(),
@@ -107,7 +161,7 @@ slot2 = {
 	TASK_INFO_PROGRESS_FIELD = slot0.FieldDescriptor(),
 	TASK_INFO_ACCEPT_TIME_FIELD = slot0.FieldDescriptor(),
 	TASK_INFO_SUBMITE_TIME_FIELD = slot0.FieldDescriptor(),
-	TASK_INFO_FLEET_ID_LIST_FIELD = slot0.FieldDescriptor(),
+	TASK_INFO_EVENT_MAP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_33301_ID_FIELD = slot0.FieldDescriptor(),
 	CS_33301_COUNT_FIELD = slot0.FieldDescriptor(),
 	CS_33301_ARG_FIELD = slot0.FieldDescriptor(),
@@ -124,11 +178,13 @@ slot2 = {
 	SC_33406_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_33407_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_33408_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_33409_ELITE_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33410_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_33410_GROUP_LIST_FIELD = slot0.FieldDescriptor(),
 	PORT_INFO_PORT_ID_FIELD = slot0.FieldDescriptor(),
 	PORT_INFO_TASK_LIST_FIELD = slot0.FieldDescriptor(),
 	PORT_INFO_GOODS_LIST_FIELD = slot0.FieldDescriptor(),
 	PORT_INFO_NEXT_REFRESH_TIME_FIELD = slot0.FieldDescriptor(),
-	PORT_INFO_SHIP_IN_PORT_FIELD = slot0.FieldDescriptor(),
 	GOODS_INFO_GOODS_ID_FIELD = slot0.FieldDescriptor(),
 	GOODS_INFO_COUNT_FIELD = slot0.FieldDescriptor(),
 	FLEET_CHANGE_GROUP_ID_FIELD = slot0.FieldDescriptor(),
@@ -136,18 +192,22 @@ slot2 = {
 	BUFF_INFO_ID_FIELD = slot0.FieldDescriptor(),
 	BUFF_INFO_STACK_FIELD = slot0.FieldDescriptor(),
 	BUFF_INFO_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
-	CS_33501_TYPE_FIELD = slot0.FieldDescriptor(),
-	SC_33502_FIGHT_COUNT_FIELD = slot0.FieldDescriptor(),
-	SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD = slot0.FieldDescriptor(),
-	SC_33502_SELF_BOSS_FIELD = slot0.FieldDescriptor(),
-	SC_33502_OTHER_BOSS_FIELD = slot0.FieldDescriptor(),
-	CS_33503_USER_ID_LIST_FIELD = slot0.FieldDescriptor(),
-	SC_33504_BOSS_LIST_FIELD = slot0.FieldDescriptor(),
-	CS_33505_BOSS_ID_FIELD = slot0.FieldDescriptor(),
-	SC_33506_RANK_LIST_FIELD = slot0.FieldDescriptor(),
-	SC_33507_BOSS_INFO_FIELD = slot0.FieldDescriptor(),
+	BUFF_INFO_ROUND_FIELD = slot0.FieldDescriptor(),
+	BUFF_INFO_STEP_FIELD = slot0.FieldDescriptor(),
+	SC_33601_TARGET_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_33602_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33603_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_33603_DROPS_FIELD = slot0.FieldDescriptor(),
+	WORLDTARGET_ID_FIELD = slot0.FieldDescriptor(),
+	WORLDTARGET_PROCESS_LIST_FIELD = slot0.FieldDescriptor(),
+	WORLDTARGET_PROCESS_TRIGGER_ID_FIELD = slot0.FieldDescriptor(),
+	WORLDTARGET_PROCESS_COUNT_FIELD = slot0.FieldDescriptor(),
+	WORLDTARGET_FETCH_ID_FIELD = slot0.FieldDescriptor(),
+	WORLDTARGET_FETCH_STAR_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_33508_BOSS_ID_FIELD = slot0.FieldDescriptor(),
 	SC_33508_HP_FIELD = slot0.FieldDescriptor(),
+	CS_33509_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_33510_RESULT_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_ID_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_TEMPLATE_ID_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_LV_FIELD = slot0.FieldDescriptor(),
@@ -168,18 +228,29 @@ CS_33106 = slot0.Descriptor()
 SC_33107 = slot0.Descriptor()
 CS_33108 = slot0.Descriptor()
 SC_33109 = slot0.Descriptor()
+CS_33110 = slot0.Descriptor()
+SC_33111 = slot0.Descriptor()
+CS_33112 = slot0.Descriptor()
+SC_33113 = slot0.Descriptor()
 ELITEFLEETINFO = slot0.Descriptor()
 WORLDINFO = slot0.Descriptor()
+COUNTINFO = slot0.Descriptor()
 MAPINFO = slot0.Descriptor()
 CHAPTERCELLINFO = slot0.Descriptor()
-CHAPTERITEMINFO = slot0.Descriptor()
 CHAPTERCELLPOS = slot0.Descriptor()
 LANDINFO = slot0.Descriptor()
 GROUPINCHAPTER = slot0.Descriptor()
 SHIPINCHAPTER = slot0.Descriptor()
 STRATEGYINFO = slot0.Descriptor()
+CHAPTERAWARDINFO = slot0.Descriptor()
+GROUPINFOUPDATE = slot0.Descriptor()
 AI_ACT = slot0.Descriptor()
 MAP_VISION = slot0.Descriptor()
+WORLDPOSINFO = slot0.Descriptor()
+WORLDITEMINFO = slot0.Descriptor()
+WORLDMAPID = slot0.Descriptor()
+GROUPCMDCOLLECTION = slot0.Descriptor()
+CMDCOLLECTION = slot0.Descriptor()
 SC_33202 = slot0.Descriptor()
 SC_33203 = slot0.Descriptor()
 SC_33204 = slot0.Descriptor()
@@ -199,18 +270,21 @@ CS_33405 = slot0.Descriptor()
 SC_33406 = slot0.Descriptor()
 CS_33407 = slot0.Descriptor()
 SC_33408 = slot0.Descriptor()
+CS_33409 = slot0.Descriptor()
+SC_33410 = slot0.Descriptor()
 PORT_INFO = slot0.Descriptor()
 GOODS_INFO = slot0.Descriptor()
 FLEET_CHANGE = slot0.Descriptor()
 BUFF_INFO = slot0.Descriptor()
-CS_33501 = slot0.Descriptor()
-SC_33502 = slot0.Descriptor()
-CS_33503 = slot0.Descriptor()
-SC_33504 = slot0.Descriptor()
-CS_33505 = slot0.Descriptor()
-SC_33506 = slot0.Descriptor()
-SC_33507 = slot0.Descriptor()
+SC_33601 = slot0.Descriptor()
+CS_33602 = slot0.Descriptor()
+SC_33603 = slot0.Descriptor()
+WORLDTARGET = slot0.Descriptor()
+WORLDTARGET_PROCESS = slot0.Descriptor()
+WORLDTARGET_FETCH = slot0.Descriptor()
 SC_33508 = slot0.Descriptor()
+CS_33509 = slot0.Descriptor()
+SC_33510 = slot0.Descriptor()
 WORLDBOSS_INFO = slot0.Descriptor()
 WORLDBOSS_RANK = slot0.Descriptor()
 slot2.SC_33001_WORLD_FIELD.name = "world"
@@ -223,25 +297,24 @@ slot2.SC_33001_WORLD_FIELD.default_value = nil
 slot2.SC_33001_WORLD_FIELD.message_type = WORLDINFO
 slot2.SC_33001_WORLD_FIELD.type = 11
 slot2.SC_33001_WORLD_FIELD.cpp_type = 10
-slot2.SC_33001_VISION_LIST_FIELD.name = "vision_list"
-slot2.SC_33001_VISION_LIST_FIELD.full_name = "p33.sc_33001.vision_list"
-slot2.SC_33001_VISION_LIST_FIELD.number = 2
-slot2.SC_33001_VISION_LIST_FIELD.index = 1
-slot2.SC_33001_VISION_LIST_FIELD.label = 3
-slot2.SC_33001_VISION_LIST_FIELD.has_default_value = false
-slot2.SC_33001_VISION_LIST_FIELD.default_value = {}
-slot2.SC_33001_VISION_LIST_FIELD.message_type = MAP_VISION
-slot2.SC_33001_VISION_LIST_FIELD.type = 11
-slot2.SC_33001_VISION_LIST_FIELD.cpp_type = 10
-slot2.SC_33001_COLLECTION_LIST_FIELD.name = "collection_list"
-slot2.SC_33001_COLLECTION_LIST_FIELD.full_name = "p33.sc_33001.collection_list"
-slot2.SC_33001_COLLECTION_LIST_FIELD.number = 3
-slot2.SC_33001_COLLECTION_LIST_FIELD.index = 2
-slot2.SC_33001_COLLECTION_LIST_FIELD.label = 3
-slot2.SC_33001_COLLECTION_LIST_FIELD.has_default_value = false
-slot2.SC_33001_COLLECTION_LIST_FIELD.default_value = {}
-slot2.SC_33001_COLLECTION_LIST_FIELD.type = 13
-slot2.SC_33001_COLLECTION_LIST_FIELD.cpp_type = 3
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.name = "is_world_open"
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.full_name = "p33.sc_33001.is_world_open"
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.number = 2
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.index = 1
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.label = 2
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.has_default_value = false
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.default_value = 0
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.type = 13
+slot2.SC_33001_IS_WORLD_OPEN_FIELD.cpp_type = 3
+slot2.SC_33001_PORT_LIST_FIELD.name = "port_list"
+slot2.SC_33001_PORT_LIST_FIELD.full_name = "p33.sc_33001.port_list"
+slot2.SC_33001_PORT_LIST_FIELD.number = 3
+slot2.SC_33001_PORT_LIST_FIELD.index = 2
+slot2.SC_33001_PORT_LIST_FIELD.label = 3
+slot2.SC_33001_PORT_LIST_FIELD.has_default_value = false
+slot2.SC_33001_PORT_LIST_FIELD.default_value = {}
+slot2.SC_33001_PORT_LIST_FIELD.type = 13
+slot2.SC_33001_PORT_LIST_FIELD.cpp_type = 3
 slot2.SC_33001_CAMP_FIELD.name = "camp"
 slot2.SC_33001_CAMP_FIELD.full_name = "p33.sc_33001.camp"
 slot2.SC_33001_CAMP_FIELD.number = 4
@@ -251,15 +324,91 @@ slot2.SC_33001_CAMP_FIELD.has_default_value = false
 slot2.SC_33001_CAMP_FIELD.default_value = 0
 slot2.SC_33001_CAMP_FIELD.type = 13
 slot2.SC_33001_CAMP_FIELD.cpp_type = 3
+slot2.SC_33001_TARGET_LIST_FIELD.name = "target_list"
+slot2.SC_33001_TARGET_LIST_FIELD.full_name = "p33.sc_33001.target_list"
+slot2.SC_33001_TARGET_LIST_FIELD.number = 5
+slot2.SC_33001_TARGET_LIST_FIELD.index = 4
+slot2.SC_33001_TARGET_LIST_FIELD.label = 3
+slot2.SC_33001_TARGET_LIST_FIELD.has_default_value = false
+slot2.SC_33001_TARGET_LIST_FIELD.default_value = {}
+slot2.SC_33001_TARGET_LIST_FIELD.message_type = WORLDTARGET
+slot2.SC_33001_TARGET_LIST_FIELD.type = 11
+slot2.SC_33001_TARGET_LIST_FIELD.cpp_type = 10
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.name = "target_fetch_list"
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.full_name = "p33.sc_33001.target_fetch_list"
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.number = 6
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.index = 5
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.label = 3
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.has_default_value = false
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.default_value = {}
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.message_type = WORLDTARGET_FETCH
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.type = 11
+slot2.SC_33001_TARGET_FETCH_LIST_FIELD.cpp_type = 10
+slot2.SC_33001_COUNT_INFO_FIELD.name = "count_info"
+slot2.SC_33001_COUNT_INFO_FIELD.full_name = "p33.sc_33001.count_info"
+slot2.SC_33001_COUNT_INFO_FIELD.number = 7
+slot2.SC_33001_COUNT_INFO_FIELD.index = 6
+slot2.SC_33001_COUNT_INFO_FIELD.label = 2
+slot2.SC_33001_COUNT_INFO_FIELD.has_default_value = false
+slot2.SC_33001_COUNT_INFO_FIELD.default_value = nil
+slot2.SC_33001_COUNT_INFO_FIELD.message_type = COUNTINFO
+slot2.SC_33001_COUNT_INFO_FIELD.type = 11
+slot2.SC_33001_COUNT_INFO_FIELD.cpp_type = 10
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.name = "out_shop_buy_list"
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.full_name = "p33.sc_33001.out_shop_buy_list"
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.number = 8
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.index = 7
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.label = 3
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.has_default_value = false
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.default_value = {}
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.message_type = GOODS_INFO
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.type = 11
+slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD.cpp_type = 10
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.name = "clean_chapter"
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.full_name = "p33.sc_33001.clean_chapter"
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.number = 9
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.index = 8
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.label = 3
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.has_default_value = false
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.default_value = {}
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.type = 13
+slot2.SC_33001_CLEAN_CHAPTER_FIELD.cpp_type = 3
+slot2.SC_33001_CHAPTER_AWARD_FIELD.name = "chapter_award"
+slot2.SC_33001_CHAPTER_AWARD_FIELD.full_name = "p33.sc_33001.chapter_award"
+slot2.SC_33001_CHAPTER_AWARD_FIELD.number = 10
+slot2.SC_33001_CHAPTER_AWARD_FIELD.index = 9
+slot2.SC_33001_CHAPTER_AWARD_FIELD.label = 3
+slot2.SC_33001_CHAPTER_AWARD_FIELD.has_default_value = false
+slot2.SC_33001_CHAPTER_AWARD_FIELD.default_value = {}
+slot2.SC_33001_CHAPTER_AWARD_FIELD.message_type = CHAPTERAWARDINFO
+slot2.SC_33001_CHAPTER_AWARD_FIELD.type = 11
+slot2.SC_33001_CHAPTER_AWARD_FIELD.cpp_type = 10
+slot2.SC_33001_FLEET_LIST_FIELD.name = "fleet_list"
+slot2.SC_33001_FLEET_LIST_FIELD.full_name = "p33.sc_33001.fleet_list"
+slot2.SC_33001_FLEET_LIST_FIELD.number = 11
+slot2.SC_33001_FLEET_LIST_FIELD.index = 10
+slot2.SC_33001_FLEET_LIST_FIELD.label = 3
+slot2.SC_33001_FLEET_LIST_FIELD.has_default_value = false
+slot2.SC_33001_FLEET_LIST_FIELD.default_value = {}
+slot2.SC_33001_FLEET_LIST_FIELD.message_type = slot1.FLEETINFO
+slot2.SC_33001_FLEET_LIST_FIELD.type = 11
+slot2.SC_33001_FLEET_LIST_FIELD.cpp_type = 10
 SC_33001.name = "sc_33001"
 SC_33001.full_name = "p33.sc_33001"
 SC_33001.nested_types = {}
 SC_33001.enum_types = {}
 SC_33001.fields = {
 	slot2.SC_33001_WORLD_FIELD,
-	slot2.SC_33001_VISION_LIST_FIELD,
-	slot2.SC_33001_COLLECTION_LIST_FIELD,
-	slot2.SC_33001_CAMP_FIELD
+	slot2.SC_33001_IS_WORLD_OPEN_FIELD,
+	slot2.SC_33001_PORT_LIST_FIELD,
+	slot2.SC_33001_CAMP_FIELD,
+	slot2.SC_33001_TARGET_LIST_FIELD,
+	slot2.SC_33001_TARGET_FETCH_LIST_FIELD,
+	slot2.SC_33001_COUNT_INFO_FIELD,
+	slot2.SC_33001_OUT_SHOP_BUY_LIST_FIELD,
+	slot2.SC_33001_CLEAN_CHAPTER_FIELD,
+	slot2.SC_33001_CHAPTER_AWARD_FIELD,
+	slot2.SC_33001_FLEET_LIST_FIELD
 }
 SC_33001.is_extendable = false
 SC_33001.extensions = {}
@@ -272,15 +421,15 @@ slot2.CS_33101_ID_FIELD.has_default_value = false
 slot2.CS_33101_ID_FIELD.default_value = 0
 slot2.CS_33101_ID_FIELD.type = 13
 slot2.CS_33101_ID_FIELD.cpp_type = 3
-slot2.CS_33101_GROUP_ID_LIST_FIELD.name = "group_id_list"
-slot2.CS_33101_GROUP_ID_LIST_FIELD.full_name = "p33.cs_33101.group_id_list"
-slot2.CS_33101_GROUP_ID_LIST_FIELD.number = 2
-slot2.CS_33101_GROUP_ID_LIST_FIELD.index = 1
-slot2.CS_33101_GROUP_ID_LIST_FIELD.label = 3
-slot2.CS_33101_GROUP_ID_LIST_FIELD.has_default_value = false
-slot2.CS_33101_GROUP_ID_LIST_FIELD.default_value = {}
-slot2.CS_33101_GROUP_ID_LIST_FIELD.type = 13
-slot2.CS_33101_GROUP_ID_LIST_FIELD.cpp_type = 3
+slot2.CS_33101_ENTER_MAP_ID_FIELD.name = "enter_map_id"
+slot2.CS_33101_ENTER_MAP_ID_FIELD.full_name = "p33.cs_33101.enter_map_id"
+slot2.CS_33101_ENTER_MAP_ID_FIELD.number = 2
+slot2.CS_33101_ENTER_MAP_ID_FIELD.index = 1
+slot2.CS_33101_ENTER_MAP_ID_FIELD.label = 2
+slot2.CS_33101_ENTER_MAP_ID_FIELD.has_default_value = false
+slot2.CS_33101_ENTER_MAP_ID_FIELD.default_value = 0
+slot2.CS_33101_ENTER_MAP_ID_FIELD.type = 13
+slot2.CS_33101_ENTER_MAP_ID_FIELD.cpp_type = 3
 slot2.CS_33101_ELITE_FLEET_LIST_FIELD.name = "elite_fleet_list"
 slot2.CS_33101_ELITE_FLEET_LIST_FIELD.full_name = "p33.cs_33101.elite_fleet_list"
 slot2.CS_33101_ELITE_FLEET_LIST_FIELD.number = 3
@@ -306,7 +455,7 @@ CS_33101.nested_types = {}
 CS_33101.enum_types = {}
 CS_33101.fields = {
 	slot2.CS_33101_ID_FIELD,
-	slot2.CS_33101_GROUP_ID_LIST_FIELD,
+	slot2.CS_33101_ENTER_MAP_ID_FIELD,
 	slot2.CS_33101_ELITE_FLEET_LIST_FIELD,
 	slot2.CS_33101_CAMP_FIELD
 }
@@ -331,13 +480,35 @@ slot2.SC_33102_WORLD_FIELD.default_value = nil
 slot2.SC_33102_WORLD_FIELD.message_type = WORLDINFO
 slot2.SC_33102_WORLD_FIELD.type = 11
 slot2.SC_33102_WORLD_FIELD.cpp_type = 10
+slot2.SC_33102_CHAPTER_AWARD_FIELD.name = "chapter_award"
+slot2.SC_33102_CHAPTER_AWARD_FIELD.full_name = "p33.sc_33102.chapter_award"
+slot2.SC_33102_CHAPTER_AWARD_FIELD.number = 3
+slot2.SC_33102_CHAPTER_AWARD_FIELD.index = 2
+slot2.SC_33102_CHAPTER_AWARD_FIELD.label = 3
+slot2.SC_33102_CHAPTER_AWARD_FIELD.has_default_value = false
+slot2.SC_33102_CHAPTER_AWARD_FIELD.default_value = {}
+slot2.SC_33102_CHAPTER_AWARD_FIELD.message_type = CHAPTERAWARDINFO
+slot2.SC_33102_CHAPTER_AWARD_FIELD.type = 11
+slot2.SC_33102_CHAPTER_AWARD_FIELD.cpp_type = 10
+slot2.SC_33102_COUNT_INFO_FIELD.name = "count_info"
+slot2.SC_33102_COUNT_INFO_FIELD.full_name = "p33.sc_33102.count_info"
+slot2.SC_33102_COUNT_INFO_FIELD.number = 4
+slot2.SC_33102_COUNT_INFO_FIELD.index = 3
+slot2.SC_33102_COUNT_INFO_FIELD.label = 2
+slot2.SC_33102_COUNT_INFO_FIELD.has_default_value = false
+slot2.SC_33102_COUNT_INFO_FIELD.default_value = nil
+slot2.SC_33102_COUNT_INFO_FIELD.message_type = COUNTINFO
+slot2.SC_33102_COUNT_INFO_FIELD.type = 11
+slot2.SC_33102_COUNT_INFO_FIELD.cpp_type = 10
 SC_33102.name = "sc_33102"
 SC_33102.full_name = "p33.sc_33102"
 SC_33102.nested_types = {}
 SC_33102.enum_types = {}
 SC_33102.fields = {
 	slot2.SC_33102_RESULT_FIELD,
-	slot2.SC_33102_WORLD_FIELD
+	slot2.SC_33102_WORLD_FIELD,
+	slot2.SC_33102_CHAPTER_AWARD_FIELD,
+	slot2.SC_33102_COUNT_INFO_FIELD
 }
 SC_33102.is_extendable = false
 SC_33102.extensions = {}
@@ -429,16 +600,15 @@ slot2.SC_33104_DROP_LIST_FIELD.default_value = {}
 slot2.SC_33104_DROP_LIST_FIELD.message_type = slot1.DROPINFO
 slot2.SC_33104_DROP_LIST_FIELD.type = 11
 slot2.SC_33104_DROP_LIST_FIELD.cpp_type = 10
-slot2.SC_33104_ITEM_LIST_FIELD.name = "item_list"
-slot2.SC_33104_ITEM_LIST_FIELD.full_name = "p33.sc_33104.item_list"
-slot2.SC_33104_ITEM_LIST_FIELD.number = 4
-slot2.SC_33104_ITEM_LIST_FIELD.index = 3
-slot2.SC_33104_ITEM_LIST_FIELD.label = 3
-slot2.SC_33104_ITEM_LIST_FIELD.has_default_value = false
-slot2.SC_33104_ITEM_LIST_FIELD.default_value = {}
-slot2.SC_33104_ITEM_LIST_FIELD.message_type = CHAPTERITEMINFO
-slot2.SC_33104_ITEM_LIST_FIELD.type = 11
-slot2.SC_33104_ITEM_LIST_FIELD.cpp_type = 10
+slot2.SC_33104_ENTER_MAP_ID_FIELD.name = "enter_map_id"
+slot2.SC_33104_ENTER_MAP_ID_FIELD.full_name = "p33.sc_33104.enter_map_id"
+slot2.SC_33104_ENTER_MAP_ID_FIELD.number = 4
+slot2.SC_33104_ENTER_MAP_ID_FIELD.index = 3
+slot2.SC_33104_ENTER_MAP_ID_FIELD.label = 1
+slot2.SC_33104_ENTER_MAP_ID_FIELD.has_default_value = false
+slot2.SC_33104_ENTER_MAP_ID_FIELD.default_value = 0
+slot2.SC_33104_ENTER_MAP_ID_FIELD.type = 13
+slot2.SC_33104_ENTER_MAP_ID_FIELD.cpp_type = 3
 slot2.SC_33104_SHIP_UPDATE_FIELD.name = "ship_update"
 slot2.SC_33104_SHIP_UPDATE_FIELD.full_name = "p33.sc_33104.ship_update"
 slot2.SC_33104_SHIP_UPDATE_FIELD.number = 5
@@ -451,7 +621,7 @@ slot2.SC_33104_SHIP_UPDATE_FIELD.type = 11
 slot2.SC_33104_SHIP_UPDATE_FIELD.cpp_type = 10
 slot2.SC_33104_AI_ACT_LIST_FIELD.name = "ai_act_list"
 slot2.SC_33104_AI_ACT_LIST_FIELD.full_name = "p33.sc_33104.ai_act_list"
-slot2.SC_33104_AI_ACT_LIST_FIELD.number = 7
+slot2.SC_33104_AI_ACT_LIST_FIELD.number = 6
 slot2.SC_33104_AI_ACT_LIST_FIELD.index = 5
 slot2.SC_33104_AI_ACT_LIST_FIELD.label = 3
 slot2.SC_33104_AI_ACT_LIST_FIELD.has_default_value = false
@@ -459,35 +629,93 @@ slot2.SC_33104_AI_ACT_LIST_FIELD.default_value = {}
 slot2.SC_33104_AI_ACT_LIST_FIELD.message_type = AI_ACT
 slot2.SC_33104_AI_ACT_LIST_FIELD.type = 11
 slot2.SC_33104_AI_ACT_LIST_FIELD.cpp_type = 10
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.name = "fleet_act_list"
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.full_name = "p33.sc_33104.fleet_act_list"
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.number = 8
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.index = 6
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.label = 3
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.has_default_value = false
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.default_value = {}
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.message_type = AI_ACT
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.type = 11
-slot2.SC_33104_FLEET_ACT_LIST_FIELD.cpp_type = 10
 slot2.SC_33104_ID_FIELD.name = "id"
 slot2.SC_33104_ID_FIELD.full_name = "p33.sc_33104.id"
-slot2.SC_33104_ID_FIELD.number = 9
-slot2.SC_33104_ID_FIELD.index = 7
+slot2.SC_33104_ID_FIELD.number = 7
+slot2.SC_33104_ID_FIELD.index = 6
 slot2.SC_33104_ID_FIELD.label = 1
 slot2.SC_33104_ID_FIELD.has_default_value = false
-slot2.SC_33104_ID_FIELD.default_value = 0
-slot2.SC_33104_ID_FIELD.type = 13
-slot2.SC_33104_ID_FIELD.cpp_type = 3
+slot2.SC_33104_ID_FIELD.default_value = nil
+slot2.SC_33104_ID_FIELD.message_type = WORLDMAPID
+slot2.SC_33104_ID_FIELD.type = 11
+slot2.SC_33104_ID_FIELD.cpp_type = 10
 slot2.SC_33104_LAND_LIST_FIELD.name = "land_list"
 slot2.SC_33104_LAND_LIST_FIELD.full_name = "p33.sc_33104.land_list"
-slot2.SC_33104_LAND_LIST_FIELD.number = 10
-slot2.SC_33104_LAND_LIST_FIELD.index = 8
+slot2.SC_33104_LAND_LIST_FIELD.number = 8
+slot2.SC_33104_LAND_LIST_FIELD.index = 7
 slot2.SC_33104_LAND_LIST_FIELD.label = 3
 slot2.SC_33104_LAND_LIST_FIELD.has_default_value = false
 slot2.SC_33104_LAND_LIST_FIELD.default_value = {}
 slot2.SC_33104_LAND_LIST_FIELD.message_type = LANDINFO
 slot2.SC_33104_LAND_LIST_FIELD.type = 11
 slot2.SC_33104_LAND_LIST_FIELD.cpp_type = 10
+slot2.SC_33104_GROUP_UPDATE_FIELD.name = "group_update"
+slot2.SC_33104_GROUP_UPDATE_FIELD.full_name = "p33.sc_33104.group_update"
+slot2.SC_33104_GROUP_UPDATE_FIELD.number = 9
+slot2.SC_33104_GROUP_UPDATE_FIELD.index = 8
+slot2.SC_33104_GROUP_UPDATE_FIELD.label = 3
+slot2.SC_33104_GROUP_UPDATE_FIELD.has_default_value = false
+slot2.SC_33104_GROUP_UPDATE_FIELD.default_value = {}
+slot2.SC_33104_GROUP_UPDATE_FIELD.message_type = GROUPINFOUPDATE
+slot2.SC_33104_GROUP_UPDATE_FIELD.type = 11
+slot2.SC_33104_GROUP_UPDATE_FIELD.cpp_type = 10
+slot2.SC_33104_EVENT_ID_FIELD.name = "event_id"
+slot2.SC_33104_EVENT_ID_FIELD.full_name = "p33.sc_33104.event_id"
+slot2.SC_33104_EVENT_ID_FIELD.number = 10
+slot2.SC_33104_EVENT_ID_FIELD.index = 9
+slot2.SC_33104_EVENT_ID_FIELD.label = 2
+slot2.SC_33104_EVENT_ID_FIELD.has_default_value = false
+slot2.SC_33104_EVENT_ID_FIELD.default_value = 0
+slot2.SC_33104_EVENT_ID_FIELD.type = 13
+slot2.SC_33104_EVENT_ID_FIELD.cpp_type = 3
+slot2.SC_33104_POS_LIST_FIELD.name = "pos_list"
+slot2.SC_33104_POS_LIST_FIELD.full_name = "p33.sc_33104.pos_list"
+slot2.SC_33104_POS_LIST_FIELD.number = 11
+slot2.SC_33104_POS_LIST_FIELD.index = 10
+slot2.SC_33104_POS_LIST_FIELD.label = 3
+slot2.SC_33104_POS_LIST_FIELD.has_default_value = false
+slot2.SC_33104_POS_LIST_FIELD.default_value = {}
+slot2.SC_33104_POS_LIST_FIELD.message_type = WORLDPOSINFO
+slot2.SC_33104_POS_LIST_FIELD.type = 11
+slot2.SC_33104_POS_LIST_FIELD.cpp_type = 10
+slot2.SC_33104_ACTION_POWER_FIELD.name = "action_power"
+slot2.SC_33104_ACTION_POWER_FIELD.full_name = "p33.sc_33104.action_power"
+slot2.SC_33104_ACTION_POWER_FIELD.number = 12
+slot2.SC_33104_ACTION_POWER_FIELD.index = 11
+slot2.SC_33104_ACTION_POWER_FIELD.label = 1
+slot2.SC_33104_ACTION_POWER_FIELD.has_default_value = false
+slot2.SC_33104_ACTION_POWER_FIELD.default_value = 0
+slot2.SC_33104_ACTION_POWER_FIELD.type = 13
+slot2.SC_33104_ACTION_POWER_FIELD.cpp_type = 3
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.name = "action_power_extra"
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.full_name = "p33.sc_33104.action_power_extra"
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.number = 13
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.index = 12
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.label = 1
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.has_default_value = false
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.default_value = 0
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.type = 13
+slot2.SC_33104_ACTION_POWER_EXTRA_FIELD.cpp_type = 3
+slot2.SC_33104_TARGET_LIST_FIELD.name = "target_list"
+slot2.SC_33104_TARGET_LIST_FIELD.full_name = "p33.sc_33104.target_list"
+slot2.SC_33104_TARGET_LIST_FIELD.number = 14
+slot2.SC_33104_TARGET_LIST_FIELD.index = 13
+slot2.SC_33104_TARGET_LIST_FIELD.label = 3
+slot2.SC_33104_TARGET_LIST_FIELD.has_default_value = false
+slot2.SC_33104_TARGET_LIST_FIELD.default_value = {}
+slot2.SC_33104_TARGET_LIST_FIELD.message_type = WORLDTARGET
+slot2.SC_33104_TARGET_LIST_FIELD.type = 11
+slot2.SC_33104_TARGET_LIST_FIELD.cpp_type = 10
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.name = "cmd_collection_list"
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.full_name = "p33.sc_33104.cmd_collection_list"
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.number = 15
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.index = 14
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.label = 3
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.has_default_value = false
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.default_value = {}
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.message_type = GROUPCMDCOLLECTION
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.type = 11
+slot2.SC_33104_CMD_COLLECTION_LIST_FIELD.cpp_type = 10
 SC_33104.name = "sc_33104"
 SC_33104.full_name = "p33.sc_33104"
 SC_33104.nested_types = {}
@@ -496,31 +724,37 @@ SC_33104.fields = {
 	slot2.SC_33104_RESULT_FIELD,
 	slot2.SC_33104_MOVE_PATH_FIELD,
 	slot2.SC_33104_DROP_LIST_FIELD,
-	slot2.SC_33104_ITEM_LIST_FIELD,
+	slot2.SC_33104_ENTER_MAP_ID_FIELD,
 	slot2.SC_33104_SHIP_UPDATE_FIELD,
 	slot2.SC_33104_AI_ACT_LIST_FIELD,
-	slot2.SC_33104_FLEET_ACT_LIST_FIELD,
 	slot2.SC_33104_ID_FIELD,
-	slot2.SC_33104_LAND_LIST_FIELD
+	slot2.SC_33104_LAND_LIST_FIELD,
+	slot2.SC_33104_GROUP_UPDATE_FIELD,
+	slot2.SC_33104_EVENT_ID_FIELD,
+	slot2.SC_33104_POS_LIST_FIELD,
+	slot2.SC_33104_ACTION_POWER_FIELD,
+	slot2.SC_33104_ACTION_POWER_EXTRA_FIELD,
+	slot2.SC_33104_TARGET_LIST_FIELD,
+	slot2.SC_33104_CMD_COLLECTION_LIST_FIELD
 }
 SC_33104.is_extendable = false
 SC_33104.extensions = {}
-slot2.SC_33105_ITEM_LIST_FIELD.name = "item_list"
-slot2.SC_33105_ITEM_LIST_FIELD.full_name = "p33.sc_33105.item_list"
-slot2.SC_33105_ITEM_LIST_FIELD.number = 1
-slot2.SC_33105_ITEM_LIST_FIELD.index = 0
-slot2.SC_33105_ITEM_LIST_FIELD.label = 3
-slot2.SC_33105_ITEM_LIST_FIELD.has_default_value = false
-slot2.SC_33105_ITEM_LIST_FIELD.default_value = {}
-slot2.SC_33105_ITEM_LIST_FIELD.message_type = CHAPTERITEMINFO
-slot2.SC_33105_ITEM_LIST_FIELD.type = 11
-slot2.SC_33105_ITEM_LIST_FIELD.cpp_type = 10
+slot2.SC_33105_POS_LIST_FIELD.name = "pos_list"
+slot2.SC_33105_POS_LIST_FIELD.full_name = "p33.sc_33105.pos_list"
+slot2.SC_33105_POS_LIST_FIELD.number = 1
+slot2.SC_33105_POS_LIST_FIELD.index = 0
+slot2.SC_33105_POS_LIST_FIELD.label = 3
+slot2.SC_33105_POS_LIST_FIELD.has_default_value = false
+slot2.SC_33105_POS_LIST_FIELD.default_value = {}
+slot2.SC_33105_POS_LIST_FIELD.message_type = WORLDPOSINFO
+slot2.SC_33105_POS_LIST_FIELD.type = 11
+slot2.SC_33105_POS_LIST_FIELD.cpp_type = 10
 SC_33105.name = "sc_33105"
 SC_33105.full_name = "p33.sc_33105"
 SC_33105.nested_types = {}
 SC_33105.enum_types = {}
 SC_33105.fields = {
-	slot2.SC_33105_ITEM_LIST_FIELD
+	slot2.SC_33105_POS_LIST_FIELD
 }
 SC_33105.is_extendable = false
 SC_33105.extensions = {}
@@ -561,13 +795,23 @@ slot2.SC_33107_MAP_FIELD.default_value = nil
 slot2.SC_33107_MAP_FIELD.message_type = MAPINFO
 slot2.SC_33107_MAP_FIELD.type = 11
 slot2.SC_33107_MAP_FIELD.cpp_type = 10
+slot2.SC_33107_IS_RESET_FIELD.name = "is_reset"
+slot2.SC_33107_IS_RESET_FIELD.full_name = "p33.sc_33107.is_reset"
+slot2.SC_33107_IS_RESET_FIELD.number = 3
+slot2.SC_33107_IS_RESET_FIELD.index = 2
+slot2.SC_33107_IS_RESET_FIELD.label = 1
+slot2.SC_33107_IS_RESET_FIELD.has_default_value = false
+slot2.SC_33107_IS_RESET_FIELD.default_value = 0
+slot2.SC_33107_IS_RESET_FIELD.type = 13
+slot2.SC_33107_IS_RESET_FIELD.cpp_type = 3
 SC_33107.name = "sc_33107"
 SC_33107.full_name = "p33.sc_33107"
 SC_33107.nested_types = {}
 SC_33107.enum_types = {}
 SC_33107.fields = {
 	slot2.SC_33107_RESULT_FIELD,
-	slot2.SC_33107_MAP_FIELD
+	slot2.SC_33107_MAP_FIELD,
+	slot2.SC_33107_IS_RESET_FIELD
 }
 SC_33107.is_extendable = false
 SC_33107.extensions = {}
@@ -607,6 +851,119 @@ SC_33109.fields = {
 }
 SC_33109.is_extendable = false
 SC_33109.extensions = {}
+slot2.CS_33110_TYPE_FIELD.name = "type"
+slot2.CS_33110_TYPE_FIELD.full_name = "p33.cs_33110.type"
+slot2.CS_33110_TYPE_FIELD.number = 1
+slot2.CS_33110_TYPE_FIELD.index = 0
+slot2.CS_33110_TYPE_FIELD.label = 2
+slot2.CS_33110_TYPE_FIELD.has_default_value = false
+slot2.CS_33110_TYPE_FIELD.default_value = 0
+slot2.CS_33110_TYPE_FIELD.type = 13
+slot2.CS_33110_TYPE_FIELD.cpp_type = 3
+slot2.CS_33110_DATA_FIELD.name = "data"
+slot2.CS_33110_DATA_FIELD.full_name = "p33.cs_33110.data"
+slot2.CS_33110_DATA_FIELD.number = 2
+slot2.CS_33110_DATA_FIELD.index = 1
+slot2.CS_33110_DATA_FIELD.label = 2
+slot2.CS_33110_DATA_FIELD.has_default_value = false
+slot2.CS_33110_DATA_FIELD.default_value = 0
+slot2.CS_33110_DATA_FIELD.type = 13
+slot2.CS_33110_DATA_FIELD.cpp_type = 3
+CS_33110.name = "cs_33110"
+CS_33110.full_name = "p33.cs_33110"
+CS_33110.nested_types = {}
+CS_33110.enum_types = {}
+CS_33110.fields = {
+	slot2.CS_33110_TYPE_FIELD,
+	slot2.CS_33110_DATA_FIELD
+}
+CS_33110.is_extendable = false
+CS_33110.extensions = {}
+slot2.SC_33111_RESULT_FIELD.name = "result"
+slot2.SC_33111_RESULT_FIELD.full_name = "p33.sc_33111.result"
+slot2.SC_33111_RESULT_FIELD.number = 1
+slot2.SC_33111_RESULT_FIELD.index = 0
+slot2.SC_33111_RESULT_FIELD.label = 2
+slot2.SC_33111_RESULT_FIELD.has_default_value = false
+slot2.SC_33111_RESULT_FIELD.default_value = 0
+slot2.SC_33111_RESULT_FIELD.type = 13
+slot2.SC_33111_RESULT_FIELD.cpp_type = 3
+SC_33111.name = "sc_33111"
+SC_33111.full_name = "p33.sc_33111"
+SC_33111.nested_types = {}
+SC_33111.enum_types = {}
+SC_33111.fields = {
+	slot2.SC_33111_RESULT_FIELD
+}
+SC_33111.is_extendable = false
+SC_33111.extensions = {}
+slot2.CS_33112_TYPE_FIELD.name = "type"
+slot2.CS_33112_TYPE_FIELD.full_name = "p33.cs_33112.type"
+slot2.CS_33112_TYPE_FIELD.number = 1
+slot2.CS_33112_TYPE_FIELD.index = 0
+slot2.CS_33112_TYPE_FIELD.label = 2
+slot2.CS_33112_TYPE_FIELD.has_default_value = false
+slot2.CS_33112_TYPE_FIELD.default_value = 0
+slot2.CS_33112_TYPE_FIELD.type = 13
+slot2.CS_33112_TYPE_FIELD.cpp_type = 3
+CS_33112.name = "cs_33112"
+CS_33112.full_name = "p33.cs_33112"
+CS_33112.nested_types = {}
+CS_33112.enum_types = {}
+CS_33112.fields = {
+	slot2.CS_33112_TYPE_FIELD
+}
+CS_33112.is_extendable = false
+CS_33112.extensions = {}
+slot2.SC_33113_RESULT_FIELD.name = "result"
+slot2.SC_33113_RESULT_FIELD.full_name = "p33.sc_33113.result"
+slot2.SC_33113_RESULT_FIELD.number = 1
+slot2.SC_33113_RESULT_FIELD.index = 0
+slot2.SC_33113_RESULT_FIELD.label = 2
+slot2.SC_33113_RESULT_FIELD.has_default_value = false
+slot2.SC_33113_RESULT_FIELD.default_value = 0
+slot2.SC_33113_RESULT_FIELD.type = 13
+slot2.SC_33113_RESULT_FIELD.cpp_type = 3
+slot2.SC_33113_DROP_LIST_FIELD.name = "drop_list"
+slot2.SC_33113_DROP_LIST_FIELD.full_name = "p33.sc_33113.drop_list"
+slot2.SC_33113_DROP_LIST_FIELD.number = 2
+slot2.SC_33113_DROP_LIST_FIELD.index = 1
+slot2.SC_33113_DROP_LIST_FIELD.label = 3
+slot2.SC_33113_DROP_LIST_FIELD.has_default_value = false
+slot2.SC_33113_DROP_LIST_FIELD.default_value = {}
+slot2.SC_33113_DROP_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.SC_33113_DROP_LIST_FIELD.type = 11
+slot2.SC_33113_DROP_LIST_FIELD.cpp_type = 10
+slot2.SC_33113_TIME_FIELD.name = "time"
+slot2.SC_33113_TIME_FIELD.full_name = "p33.sc_33113.time"
+slot2.SC_33113_TIME_FIELD.number = 3
+slot2.SC_33113_TIME_FIELD.index = 2
+slot2.SC_33113_TIME_FIELD.label = 2
+slot2.SC_33113_TIME_FIELD.has_default_value = false
+slot2.SC_33113_TIME_FIELD.default_value = 0
+slot2.SC_33113_TIME_FIELD.type = 13
+slot2.SC_33113_TIME_FIELD.cpp_type = 3
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.name = "sairen_chapter"
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.full_name = "p33.sc_33113.sairen_chapter"
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.number = 4
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.index = 3
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.label = 3
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.has_default_value = false
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.default_value = {}
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.type = 13
+slot2.SC_33113_SAIREN_CHAPTER_FIELD.cpp_type = 3
+SC_33113.name = "sc_33113"
+SC_33113.full_name = "p33.sc_33113"
+SC_33113.nested_types = {}
+SC_33113.enum_types = {}
+SC_33113.fields = {
+	slot2.SC_33113_RESULT_FIELD,
+	slot2.SC_33113_DROP_LIST_FIELD,
+	slot2.SC_33113_TIME_FIELD,
+	slot2.SC_33113_SAIREN_CHAPTER_FIELD
+}
+SC_33113.is_extendable = false
+SC_33113.extensions = {}
 slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD.name = "ship_id_list"
 slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD.full_name = "p33.elitefleetinfo.ship_id_list"
 slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD.number = 1
@@ -616,12 +973,23 @@ slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD.has_default_value = false
 slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD.default_value = {}
 slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD.type = 13
 slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD.cpp_type = 3
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.name = "commanders"
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.full_name = "p33.elitefleetinfo.commanders"
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.number = 2
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.index = 1
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.label = 3
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.has_default_value = false
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.default_value = {}
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.message_type = slot1.COMMANDERSINFO
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.type = 11
+slot2.ELITEFLEETINFO_COMMANDERS_FIELD.cpp_type = 10
 ELITEFLEETINFO.name = "elitefleetinfo"
 ELITEFLEETINFO.full_name = "p33.elitefleetinfo"
 ELITEFLEETINFO.nested_types = {}
 ELITEFLEETINFO.enum_types = {}
 ELITEFLEETINFO.fields = {
-	slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD
+	slot2.ELITEFLEETINFO_SHIP_ID_LIST_FIELD,
+	slot2.ELITEFLEETINFO_COMMANDERS_FIELD
 }
 ELITEFLEETINFO.is_extendable = false
 ELITEFLEETINFO.extensions = {}
@@ -700,28 +1068,20 @@ slot2.WORLDINFO_ITEM_LIST_FIELD.default_value = {}
 slot2.WORLDINFO_ITEM_LIST_FIELD.message_type = WORLD_ITEM_INFO
 slot2.WORLDINFO_ITEM_LIST_FIELD.type = 11
 slot2.WORLDINFO_ITEM_LIST_FIELD.cpp_type = 10
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.name = "submarine_active_round"
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.full_name = "p33.worldinfo.submarine_active_round"
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.number = 9
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.index = 8
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.label = 2
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.has_default_value = false
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.default_value = 0
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.type = 13
-slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD.cpp_type = 3
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.name = "submarine_cd_round"
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.full_name = "p33.worldinfo.submarine_cd_round"
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.number = 10
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.index = 9
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.label = 2
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.has_default_value = false
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.default_value = 0
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.type = 13
-slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD.cpp_type = 3
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.name = "ship_in_port"
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.full_name = "p33.worldinfo.ship_in_port"
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.number = 9
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.index = 8
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.label = 3
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.has_default_value = false
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.default_value = {}
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.message_type = SHIPINCHAPTER
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.type = 11
+slot2.WORLDINFO_SHIP_IN_PORT_FIELD.cpp_type = 10
 slot2.WORLDINFO_ACTION_POWER_FIELD.name = "action_power"
 slot2.WORLDINFO_ACTION_POWER_FIELD.full_name = "p33.worldinfo.action_power"
 slot2.WORLDINFO_ACTION_POWER_FIELD.number = 11
-slot2.WORLDINFO_ACTION_POWER_FIELD.index = 10
+slot2.WORLDINFO_ACTION_POWER_FIELD.index = 9
 slot2.WORLDINFO_ACTION_POWER_FIELD.label = 2
 slot2.WORLDINFO_ACTION_POWER_FIELD.has_default_value = false
 slot2.WORLDINFO_ACTION_POWER_FIELD.default_value = 0
@@ -730,7 +1090,7 @@ slot2.WORLDINFO_ACTION_POWER_FIELD.cpp_type = 3
 slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.name = "action_power_extra"
 slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.full_name = "p33.worldinfo.action_power_extra"
 slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.number = 12
-slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.index = 11
+slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.index = 10
 slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.label = 2
 slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.has_default_value = false
 slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.default_value = 0
@@ -739,7 +1099,7 @@ slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD.cpp_type = 3
 slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.name = "last_recover_timestamp"
 slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.full_name = "p33.worldinfo.last_recover_timestamp"
 slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.number = 13
-slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.index = 12
+slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.index = 11
 slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.label = 2
 slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.has_default_value = false
 slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.default_value = 0
@@ -748,12 +1108,69 @@ slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD.cpp_type = 3
 slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.name = "action_power_fetch_count"
 slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.full_name = "p33.worldinfo.action_power_fetch_count"
 slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.number = 14
-slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.index = 13
+slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.index = 12
 slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.label = 2
 slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.has_default_value = false
 slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.default_value = 0
 slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.type = 13
 slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD.cpp_type = 3
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.name = "last_change_group_timestamp"
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.full_name = "p33.worldinfo.last_change_group_timestamp"
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.number = 15
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.index = 13
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.label = 2
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.has_default_value = false
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.default_value = 0
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.type = 13
+slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD.cpp_type = 3
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.name = "enter_map_id"
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.full_name = "p33.worldinfo.enter_map_id"
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.number = 16
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.index = 14
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.label = 2
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.has_default_value = false
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.default_value = 0
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.type = 13
+slot2.WORLDINFO_ENTER_MAP_ID_FIELD.cpp_type = 3
+slot2.WORLDINFO_CD_LIST_FIELD.name = "cd_list"
+slot2.WORLDINFO_CD_LIST_FIELD.full_name = "p33.worldinfo.cd_list"
+slot2.WORLDINFO_CD_LIST_FIELD.number = 17
+slot2.WORLDINFO_CD_LIST_FIELD.index = 15
+slot2.WORLDINFO_CD_LIST_FIELD.label = 3
+slot2.WORLDINFO_CD_LIST_FIELD.has_default_value = false
+slot2.WORLDINFO_CD_LIST_FIELD.default_value = {}
+slot2.WORLDINFO_CD_LIST_FIELD.message_type = slot1.IDTIMEINFO
+slot2.WORLDINFO_CD_LIST_FIELD.type = 11
+slot2.WORLDINFO_CD_LIST_FIELD.cpp_type = 10
+slot2.WORLDINFO_BUFF_LIST_FIELD.name = "buff_list"
+slot2.WORLDINFO_BUFF_LIST_FIELD.full_name = "p33.worldinfo.buff_list"
+slot2.WORLDINFO_BUFF_LIST_FIELD.number = 18
+slot2.WORLDINFO_BUFF_LIST_FIELD.index = 16
+slot2.WORLDINFO_BUFF_LIST_FIELD.label = 3
+slot2.WORLDINFO_BUFF_LIST_FIELD.has_default_value = false
+slot2.WORLDINFO_BUFF_LIST_FIELD.default_value = {}
+slot2.WORLDINFO_BUFF_LIST_FIELD.message_type = BUFF_INFO
+slot2.WORLDINFO_BUFF_LIST_FIELD.type = 11
+slot2.WORLDINFO_BUFF_LIST_FIELD.cpp_type = 10
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.name = "chapter_list"
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.full_name = "p33.worldinfo.chapter_list"
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.number = 19
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.index = 17
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.label = 3
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.has_default_value = false
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.default_value = {}
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.message_type = WORLDMAPID
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.type = 11
+slot2.WORLDINFO_CHAPTER_LIST_FIELD.cpp_type = 10
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.name = "sairen_chapter"
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.full_name = "p33.worldinfo.sairen_chapter"
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.number = 20
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.index = 18
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.label = 3
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.has_default_value = false
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.default_value = {}
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.type = 13
+slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.cpp_type = 3
 WORLDINFO.name = "worldinfo"
 WORLDINFO.full_name = "p33.worldinfo"
 WORLDINFO.nested_types = {}
@@ -767,24 +1184,88 @@ WORLDINFO.fields = {
 	slot2.WORLDINFO_TASK_LIST_FIELD,
 	slot2.WORLDINFO_SUBMARINE_STATE_FIELD,
 	slot2.WORLDINFO_ITEM_LIST_FIELD,
-	slot2.WORLDINFO_SUBMARINE_ACTIVE_ROUND_FIELD,
-	slot2.WORLDINFO_SUBMARINE_CD_ROUND_FIELD,
+	slot2.WORLDINFO_SHIP_IN_PORT_FIELD,
 	slot2.WORLDINFO_ACTION_POWER_FIELD,
 	slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD,
 	slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD,
-	slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD
+	slot2.WORLDINFO_ACTION_POWER_FETCH_COUNT_FIELD,
+	slot2.WORLDINFO_LAST_CHANGE_GROUP_TIMESTAMP_FIELD,
+	slot2.WORLDINFO_ENTER_MAP_ID_FIELD,
+	slot2.WORLDINFO_CD_LIST_FIELD,
+	slot2.WORLDINFO_BUFF_LIST_FIELD,
+	slot2.WORLDINFO_CHAPTER_LIST_FIELD,
+	slot2.WORLDINFO_SAIREN_CHAPTER_FIELD
 }
 WORLDINFO.is_extendable = false
 WORLDINFO.extensions = {}
+slot2.COUNTINFO_STEP_COUNT_FIELD.name = "step_count"
+slot2.COUNTINFO_STEP_COUNT_FIELD.full_name = "p33.countinfo.step_count"
+slot2.COUNTINFO_STEP_COUNT_FIELD.number = 1
+slot2.COUNTINFO_STEP_COUNT_FIELD.index = 0
+slot2.COUNTINFO_STEP_COUNT_FIELD.label = 2
+slot2.COUNTINFO_STEP_COUNT_FIELD.has_default_value = false
+slot2.COUNTINFO_STEP_COUNT_FIELD.default_value = 0
+slot2.COUNTINFO_STEP_COUNT_FIELD.type = 13
+slot2.COUNTINFO_STEP_COUNT_FIELD.cpp_type = 3
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.name = "treasure_count"
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.full_name = "p33.countinfo.treasure_count"
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.number = 2
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.index = 1
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.label = 2
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.has_default_value = false
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.default_value = 0
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.type = 13
+slot2.COUNTINFO_TREASURE_COUNT_FIELD.cpp_type = 3
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.name = "task_progress"
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.full_name = "p33.countinfo.task_progress"
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.number = 3
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.index = 2
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.label = 2
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.has_default_value = false
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.default_value = 0
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.type = 13
+slot2.COUNTINFO_TASK_PROGRESS_FIELD.cpp_type = 3
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.name = "activate_count"
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.full_name = "p33.countinfo.activate_count"
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.number = 4
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.index = 3
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.label = 2
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.has_default_value = false
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.default_value = 0
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.type = 13
+slot2.COUNTINFO_ACTIVATE_COUNT_FIELD.cpp_type = 3
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.name = "collection_list"
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.full_name = "p33.countinfo.collection_list"
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.number = 5
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.index = 4
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.label = 3
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.has_default_value = false
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.default_value = {}
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.type = 13
+slot2.COUNTINFO_COLLECTION_LIST_FIELD.cpp_type = 3
+COUNTINFO.name = "countinfo"
+COUNTINFO.full_name = "p33.countinfo"
+COUNTINFO.nested_types = {}
+COUNTINFO.enum_types = {}
+COUNTINFO.fields = {
+	slot2.COUNTINFO_STEP_COUNT_FIELD,
+	slot2.COUNTINFO_TREASURE_COUNT_FIELD,
+	slot2.COUNTINFO_TASK_PROGRESS_FIELD,
+	slot2.COUNTINFO_ACTIVATE_COUNT_FIELD,
+	slot2.COUNTINFO_COLLECTION_LIST_FIELD
+}
+COUNTINFO.is_extendable = false
+COUNTINFO.extensions = {}
 slot2.MAPINFO_ID_FIELD.name = "id"
 slot2.MAPINFO_ID_FIELD.full_name = "p33.mapinfo.id"
 slot2.MAPINFO_ID_FIELD.number = 1
 slot2.MAPINFO_ID_FIELD.index = 0
 slot2.MAPINFO_ID_FIELD.label = 2
 slot2.MAPINFO_ID_FIELD.has_default_value = false
-slot2.MAPINFO_ID_FIELD.default_value = 0
-slot2.MAPINFO_ID_FIELD.type = 13
-slot2.MAPINFO_ID_FIELD.cpp_type = 3
+slot2.MAPINFO_ID_FIELD.default_value = nil
+slot2.MAPINFO_ID_FIELD.message_type = WORLDMAPID
+slot2.MAPINFO_ID_FIELD.type = 11
+slot2.MAPINFO_ID_FIELD.cpp_type = 10
 slot2.MAPINFO_CELL_LIST_FIELD.name = "cell_list"
 slot2.MAPINFO_CELL_LIST_FIELD.full_name = "p33.mapinfo.cell_list"
 slot2.MAPINFO_CELL_LIST_FIELD.number = 2
@@ -795,16 +1276,15 @@ slot2.MAPINFO_CELL_LIST_FIELD.default_value = {}
 slot2.MAPINFO_CELL_LIST_FIELD.message_type = CHAPTERCELLINFO
 slot2.MAPINFO_CELL_LIST_FIELD.type = 11
 slot2.MAPINFO_CELL_LIST_FIELD.cpp_type = 10
-slot2.MAPINFO_ITEM_LIST_FIELD.name = "item_list"
-slot2.MAPINFO_ITEM_LIST_FIELD.full_name = "p33.mapinfo.item_list"
-slot2.MAPINFO_ITEM_LIST_FIELD.number = 3
-slot2.MAPINFO_ITEM_LIST_FIELD.index = 2
-slot2.MAPINFO_ITEM_LIST_FIELD.label = 3
-slot2.MAPINFO_ITEM_LIST_FIELD.has_default_value = false
-slot2.MAPINFO_ITEM_LIST_FIELD.default_value = {}
-slot2.MAPINFO_ITEM_LIST_FIELD.message_type = CHAPTERITEMINFO
-slot2.MAPINFO_ITEM_LIST_FIELD.type = 11
-slot2.MAPINFO_ITEM_LIST_FIELD.cpp_type = 10
+slot2.MAPINFO_STATE_FLAG_FIELD.name = "state_flag"
+slot2.MAPINFO_STATE_FLAG_FIELD.full_name = "p33.mapinfo.state_flag"
+slot2.MAPINFO_STATE_FLAG_FIELD.number = 3
+slot2.MAPINFO_STATE_FLAG_FIELD.index = 2
+slot2.MAPINFO_STATE_FLAG_FIELD.label = 3
+slot2.MAPINFO_STATE_FLAG_FIELD.has_default_value = false
+slot2.MAPINFO_STATE_FLAG_FIELD.default_value = {}
+slot2.MAPINFO_STATE_FLAG_FIELD.type = 13
+slot2.MAPINFO_STATE_FLAG_FIELD.cpp_type = 3
 slot2.MAPINFO_LAND_LIST_FIELD.name = "land_list"
 slot2.MAPINFO_LAND_LIST_FIELD.full_name = "p33.mapinfo.land_list"
 slot2.MAPINFO_LAND_LIST_FIELD.number = 4
@@ -815,6 +1295,16 @@ slot2.MAPINFO_LAND_LIST_FIELD.default_value = {}
 slot2.MAPINFO_LAND_LIST_FIELD.message_type = LANDINFO
 slot2.MAPINFO_LAND_LIST_FIELD.type = 11
 slot2.MAPINFO_LAND_LIST_FIELD.cpp_type = 10
+slot2.MAPINFO_POS_LIST_FIELD.name = "pos_list"
+slot2.MAPINFO_POS_LIST_FIELD.full_name = "p33.mapinfo.pos_list"
+slot2.MAPINFO_POS_LIST_FIELD.number = 5
+slot2.MAPINFO_POS_LIST_FIELD.index = 4
+slot2.MAPINFO_POS_LIST_FIELD.label = 3
+slot2.MAPINFO_POS_LIST_FIELD.has_default_value = false
+slot2.MAPINFO_POS_LIST_FIELD.default_value = {}
+slot2.MAPINFO_POS_LIST_FIELD.message_type = WORLDPOSINFO
+slot2.MAPINFO_POS_LIST_FIELD.type = 11
+slot2.MAPINFO_POS_LIST_FIELD.cpp_type = 10
 MAPINFO.name = "mapinfo"
 MAPINFO.full_name = "p33.mapinfo"
 MAPINFO.nested_types = {}
@@ -822,8 +1312,9 @@ MAPINFO.enum_types = {}
 MAPINFO.fields = {
 	slot2.MAPINFO_ID_FIELD,
 	slot2.MAPINFO_CELL_LIST_FIELD,
-	slot2.MAPINFO_ITEM_LIST_FIELD,
-	slot2.MAPINFO_LAND_LIST_FIELD
+	slot2.MAPINFO_STATE_FLAG_FIELD,
+	slot2.MAPINFO_LAND_LIST_FIELD,
+	slot2.MAPINFO_POS_LIST_FIELD
 }
 MAPINFO.is_extendable = false
 MAPINFO.extensions = {}
@@ -856,85 +1347,6 @@ CHAPTERCELLINFO.fields = {
 }
 CHAPTERCELLINFO.is_extendable = false
 CHAPTERCELLINFO.extensions = {}
-slot2.CHAPTERITEMINFO_POS_FIELD.name = "pos"
-slot2.CHAPTERITEMINFO_POS_FIELD.full_name = "p33.chapteriteminfo.pos"
-slot2.CHAPTERITEMINFO_POS_FIELD.number = 1
-slot2.CHAPTERITEMINFO_POS_FIELD.index = 0
-slot2.CHAPTERITEMINFO_POS_FIELD.label = 2
-slot2.CHAPTERITEMINFO_POS_FIELD.has_default_value = false
-slot2.CHAPTERITEMINFO_POS_FIELD.default_value = nil
-slot2.CHAPTERITEMINFO_POS_FIELD.message_type = CHAPTERCELLPOS
-slot2.CHAPTERITEMINFO_POS_FIELD.type = 11
-slot2.CHAPTERITEMINFO_POS_FIELD.cpp_type = 10
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.name = "item_type"
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.full_name = "p33.chapteriteminfo.item_type"
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.number = 2
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.index = 1
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.label = 2
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.has_default_value = false
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.default_value = 0
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.type = 13
-slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD.cpp_type = 3
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.name = "item_id"
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.full_name = "p33.chapteriteminfo.item_id"
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.number = 3
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.index = 2
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.label = 1
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.has_default_value = false
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.default_value = 0
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.type = 13
-slot2.CHAPTERITEMINFO_ITEM_ID_FIELD.cpp_type = 3
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.name = "item_flag"
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.full_name = "p33.chapteriteminfo.item_flag"
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.number = 4
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.index = 3
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.label = 1
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.has_default_value = false
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.default_value = 0
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.type = 13
-slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD.cpp_type = 3
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.name = "item_data"
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.full_name = "p33.chapteriteminfo.item_data"
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.number = 5
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.index = 4
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.label = 1
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.has_default_value = false
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.default_value = 0
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.type = 13
-slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD.cpp_type = 3
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.name = "buff_list"
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.full_name = "p33.chapteriteminfo.buff_list"
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.number = 6
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.index = 5
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.label = 3
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.has_default_value = false
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.default_value = {}
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.type = 13
-slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD.cpp_type = 3
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.name = "boss_hp"
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.full_name = "p33.chapteriteminfo.boss_hp"
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.number = 7
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.index = 6
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.label = 1
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.has_default_value = false
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.default_value = 0
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.type = 13
-slot2.CHAPTERITEMINFO_BOSS_HP_FIELD.cpp_type = 3
-CHAPTERITEMINFO.name = "chapteriteminfo"
-CHAPTERITEMINFO.full_name = "p33.chapteriteminfo"
-CHAPTERITEMINFO.nested_types = {}
-CHAPTERITEMINFO.enum_types = {}
-CHAPTERITEMINFO.fields = {
-	slot2.CHAPTERITEMINFO_POS_FIELD,
-	slot2.CHAPTERITEMINFO_ITEM_TYPE_FIELD,
-	slot2.CHAPTERITEMINFO_ITEM_ID_FIELD,
-	slot2.CHAPTERITEMINFO_ITEM_FLAG_FIELD,
-	slot2.CHAPTERITEMINFO_ITEM_DATA_FIELD,
-	slot2.CHAPTERITEMINFO_BUFF_LIST_FIELD,
-	slot2.CHAPTERITEMINFO_BOSS_HP_FIELD
-}
-CHAPTERITEMINFO.is_extendable = false
-CHAPTERITEMINFO.extensions = {}
 slot2.CHAPTERCELLPOS_ROW_FIELD.name = "row"
 slot2.CHAPTERCELLPOS_ROW_FIELD.full_name = "p33.chaptercellpos.row"
 slot2.CHAPTERCELLPOS_ROW_FIELD.number = 1
@@ -1108,6 +1520,54 @@ slot2.GROUPINCHAPTER_ATTACH_LIST_FIELD.has_default_value = false
 slot2.GROUPINCHAPTER_ATTACH_LIST_FIELD.default_value = {}
 slot2.GROUPINCHAPTER_ATTACH_LIST_FIELD.type = 13
 slot2.GROUPINCHAPTER_ATTACH_LIST_FIELD.cpp_type = 3
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.name = "damage_level"
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.full_name = "p33.groupinchapter.damage_level"
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.number = 11
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.index = 10
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.label = 2
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.has_default_value = false
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.default_value = 0
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.type = 13
+slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD.cpp_type = 3
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.name = "buff_list"
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.full_name = "p33.groupinchapter.buff_list"
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.number = 12
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.index = 11
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.label = 3
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.has_default_value = false
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.default_value = {}
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.message_type = BUFF_INFO
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.type = 11
+slot2.GROUPINCHAPTER_BUFF_LIST_FIELD.cpp_type = 10
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.name = "commander_list"
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.full_name = "p33.groupinchapter.commander_list"
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.number = 13
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.index = 12
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.label = 3
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.has_default_value = false
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.default_value = {}
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.message_type = slot1.COMMANDERSINFO
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.type = 11
+slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD.cpp_type = 10
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.name = "kill_count"
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.full_name = "p33.groupinchapter.kill_count"
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.number = 14
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.index = 13
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.label = 2
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.has_default_value = false
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.default_value = 0
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.type = 13
+slot2.GROUPINCHAPTER_KILL_COUNT_FIELD.cpp_type = 3
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.name = "cmd_collection"
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.full_name = "p33.groupinchapter.cmd_collection"
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.number = 15
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.index = 14
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.label = 1
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.has_default_value = false
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.default_value = nil
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.message_type = CMDCOLLECTION
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.type = 11
+slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD.cpp_type = 10
 GROUPINCHAPTER.name = "groupinchapter"
 GROUPINCHAPTER.full_name = "p33.groupinchapter"
 GROUPINCHAPTER.nested_types = {}
@@ -1122,7 +1582,12 @@ GROUPINCHAPTER.fields = {
 	slot2.GROUPINCHAPTER_STRATEGY_IDS_FIELD,
 	slot2.GROUPINCHAPTER_BULLET_FIELD,
 	slot2.GROUPINCHAPTER_START_POS_FIELD,
-	slot2.GROUPINCHAPTER_ATTACH_LIST_FIELD
+	slot2.GROUPINCHAPTER_ATTACH_LIST_FIELD,
+	slot2.GROUPINCHAPTER_DAMAGE_LEVEL_FIELD,
+	slot2.GROUPINCHAPTER_BUFF_LIST_FIELD,
+	slot2.GROUPINCHAPTER_COMMANDER_LIST_FIELD,
+	slot2.GROUPINCHAPTER_KILL_COUNT_FIELD,
+	slot2.GROUPINCHAPTER_CMD_COLLECTION_FIELD
 }
 GROUPINCHAPTER.is_extendable = false
 GROUPINCHAPTER.extensions = {}
@@ -1176,7 +1641,7 @@ slot2.STRATEGYINFO_ID_FIELD.type = 13
 slot2.STRATEGYINFO_ID_FIELD.cpp_type = 3
 slot2.STRATEGYINFO_COUNT_FIELD.name = "count"
 slot2.STRATEGYINFO_COUNT_FIELD.full_name = "p33.strategyinfo.count"
-slot2.STRATEGYINFO_COUNT_FIELD.number = 3
+slot2.STRATEGYINFO_COUNT_FIELD.number = 2
 slot2.STRATEGYINFO_COUNT_FIELD.index = 1
 slot2.STRATEGYINFO_COUNT_FIELD.label = 2
 slot2.STRATEGYINFO_COUNT_FIELD.has_default_value = false
@@ -1193,6 +1658,73 @@ STRATEGYINFO.fields = {
 }
 STRATEGYINFO.is_extendable = false
 STRATEGYINFO.extensions = {}
+slot2.CHAPTERAWARDINFO_ID_FIELD.name = "id"
+slot2.CHAPTERAWARDINFO_ID_FIELD.full_name = "p33.chapterawardinfo.id"
+slot2.CHAPTERAWARDINFO_ID_FIELD.number = 1
+slot2.CHAPTERAWARDINFO_ID_FIELD.index = 0
+slot2.CHAPTERAWARDINFO_ID_FIELD.label = 2
+slot2.CHAPTERAWARDINFO_ID_FIELD.has_default_value = false
+slot2.CHAPTERAWARDINFO_ID_FIELD.default_value = 0
+slot2.CHAPTERAWARDINFO_ID_FIELD.type = 13
+slot2.CHAPTERAWARDINFO_ID_FIELD.cpp_type = 3
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.name = "award"
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.full_name = "p33.chapterawardinfo.award"
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.number = 2
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.index = 1
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.label = 2
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.has_default_value = false
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.default_value = 0
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.type = 13
+slot2.CHAPTERAWARDINFO_AWARD_FIELD.cpp_type = 3
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.name = "flag"
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.full_name = "p33.chapterawardinfo.flag"
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.number = 3
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.index = 2
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.label = 2
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.has_default_value = false
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.default_value = 0
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.type = 13
+slot2.CHAPTERAWARDINFO_FLAG_FIELD.cpp_type = 3
+CHAPTERAWARDINFO.name = "chapterawardinfo"
+CHAPTERAWARDINFO.full_name = "p33.chapterawardinfo"
+CHAPTERAWARDINFO.nested_types = {}
+CHAPTERAWARDINFO.enum_types = {}
+CHAPTERAWARDINFO.fields = {
+	slot2.CHAPTERAWARDINFO_ID_FIELD,
+	slot2.CHAPTERAWARDINFO_AWARD_FIELD,
+	slot2.CHAPTERAWARDINFO_FLAG_FIELD
+}
+CHAPTERAWARDINFO.is_extendable = false
+CHAPTERAWARDINFO.extensions = {}
+slot2.GROUPINFOUPDATE_ID_FIELD.name = "id"
+slot2.GROUPINFOUPDATE_ID_FIELD.full_name = "p33.groupinfoupdate.id"
+slot2.GROUPINFOUPDATE_ID_FIELD.number = 1
+slot2.GROUPINFOUPDATE_ID_FIELD.index = 0
+slot2.GROUPINFOUPDATE_ID_FIELD.label = 2
+slot2.GROUPINFOUPDATE_ID_FIELD.has_default_value = false
+slot2.GROUPINFOUPDATE_ID_FIELD.default_value = 0
+slot2.GROUPINFOUPDATE_ID_FIELD.type = 13
+slot2.GROUPINFOUPDATE_ID_FIELD.cpp_type = 3
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.name = "buff_list"
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.full_name = "p33.groupinfoupdate.buff_list"
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.number = 2
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.index = 1
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.label = 3
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.has_default_value = false
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.default_value = {}
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.message_type = BUFF_INFO
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.type = 11
+slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD.cpp_type = 10
+GROUPINFOUPDATE.name = "groupinfoupdate"
+GROUPINFOUPDATE.full_name = "p33.groupinfoupdate"
+GROUPINFOUPDATE.nested_types = {}
+GROUPINFOUPDATE.enum_types = {}
+GROUPINFOUPDATE.fields = {
+	slot2.GROUPINFOUPDATE_ID_FIELD,
+	slot2.GROUPINFOUPDATE_BUFF_LIST_FIELD
+}
+GROUPINFOUPDATE.is_extendable = false
+GROUPINFOUPDATE.extensions = {}
 slot2.AI_ACT_AI_POS_FIELD.name = "ai_pos"
 slot2.AI_ACT_AI_POS_FIELD.full_name = "p33.ai_act.ai_pos"
 slot2.AI_ACT_AI_POS_FIELD.number = 1
@@ -1232,26 +1764,35 @@ slot2.AI_ACT_MOVE_PATH_FIELD.default_value = {}
 slot2.AI_ACT_MOVE_PATH_FIELD.message_type = CHAPTERCELLPOS
 slot2.AI_ACT_MOVE_PATH_FIELD.type = 11
 slot2.AI_ACT_MOVE_PATH_FIELD.cpp_type = 10
-slot2.AI_ACT_ITEM_LIST_FIELD.name = "item_list"
-slot2.AI_ACT_ITEM_LIST_FIELD.full_name = "p33.ai_act.item_list"
-slot2.AI_ACT_ITEM_LIST_FIELD.number = 5
-slot2.AI_ACT_ITEM_LIST_FIELD.index = 4
-slot2.AI_ACT_ITEM_LIST_FIELD.label = 3
-slot2.AI_ACT_ITEM_LIST_FIELD.has_default_value = false
-slot2.AI_ACT_ITEM_LIST_FIELD.default_value = {}
-slot2.AI_ACT_ITEM_LIST_FIELD.message_type = CHAPTERITEMINFO
-slot2.AI_ACT_ITEM_LIST_FIELD.type = 11
-slot2.AI_ACT_ITEM_LIST_FIELD.cpp_type = 10
 slot2.AI_ACT_SHIP_UPDATE_FIELD.name = "ship_update"
 slot2.AI_ACT_SHIP_UPDATE_FIELD.full_name = "p33.ai_act.ship_update"
 slot2.AI_ACT_SHIP_UPDATE_FIELD.number = 6
-slot2.AI_ACT_SHIP_UPDATE_FIELD.index = 5
+slot2.AI_ACT_SHIP_UPDATE_FIELD.index = 4
 slot2.AI_ACT_SHIP_UPDATE_FIELD.label = 3
 slot2.AI_ACT_SHIP_UPDATE_FIELD.has_default_value = false
 slot2.AI_ACT_SHIP_UPDATE_FIELD.default_value = {}
 slot2.AI_ACT_SHIP_UPDATE_FIELD.message_type = SHIPINCHAPTER
 slot2.AI_ACT_SHIP_UPDATE_FIELD.type = 11
 slot2.AI_ACT_SHIP_UPDATE_FIELD.cpp_type = 10
+slot2.AI_ACT_TYPE_FIELD.name = "type"
+slot2.AI_ACT_TYPE_FIELD.full_name = "p33.ai_act.type"
+slot2.AI_ACT_TYPE_FIELD.number = 7
+slot2.AI_ACT_TYPE_FIELD.index = 5
+slot2.AI_ACT_TYPE_FIELD.label = 2
+slot2.AI_ACT_TYPE_FIELD.has_default_value = false
+slot2.AI_ACT_TYPE_FIELD.default_value = 0
+slot2.AI_ACT_TYPE_FIELD.type = 13
+slot2.AI_ACT_TYPE_FIELD.cpp_type = 3
+slot2.AI_ACT_POS_LIST_FIELD.name = "pos_list"
+slot2.AI_ACT_POS_LIST_FIELD.full_name = "p33.ai_act.pos_list"
+slot2.AI_ACT_POS_LIST_FIELD.number = 8
+slot2.AI_ACT_POS_LIST_FIELD.index = 6
+slot2.AI_ACT_POS_LIST_FIELD.label = 3
+slot2.AI_ACT_POS_LIST_FIELD.has_default_value = false
+slot2.AI_ACT_POS_LIST_FIELD.default_value = {}
+slot2.AI_ACT_POS_LIST_FIELD.message_type = WORLDPOSINFO
+slot2.AI_ACT_POS_LIST_FIELD.type = 11
+slot2.AI_ACT_POS_LIST_FIELD.cpp_type = 10
 AI_ACT.name = "ai_act"
 AI_ACT.full_name = "p33.ai_act"
 AI_ACT.nested_types = {}
@@ -1261,8 +1802,9 @@ AI_ACT.fields = {
 	slot2.AI_ACT_STRATEGY_ID_FIELD,
 	slot2.AI_ACT_TARGET_POS_FIELD,
 	slot2.AI_ACT_MOVE_PATH_FIELD,
-	slot2.AI_ACT_ITEM_LIST_FIELD,
-	slot2.AI_ACT_SHIP_UPDATE_FIELD
+	slot2.AI_ACT_SHIP_UPDATE_FIELD,
+	slot2.AI_ACT_TYPE_FIELD,
+	slot2.AI_ACT_POS_LIST_FIELD
 }
 AI_ACT.is_extendable = false
 AI_ACT.extensions = {}
@@ -1295,6 +1837,199 @@ MAP_VISION.fields = {
 }
 MAP_VISION.is_extendable = false
 MAP_VISION.extensions = {}
+slot2.WORLDPOSINFO_POS_FIELD.name = "pos"
+slot2.WORLDPOSINFO_POS_FIELD.full_name = "p33.worldposinfo.pos"
+slot2.WORLDPOSINFO_POS_FIELD.number = 1
+slot2.WORLDPOSINFO_POS_FIELD.index = 0
+slot2.WORLDPOSINFO_POS_FIELD.label = 2
+slot2.WORLDPOSINFO_POS_FIELD.has_default_value = false
+slot2.WORLDPOSINFO_POS_FIELD.default_value = nil
+slot2.WORLDPOSINFO_POS_FIELD.message_type = CHAPTERCELLPOS
+slot2.WORLDPOSINFO_POS_FIELD.type = 11
+slot2.WORLDPOSINFO_POS_FIELD.cpp_type = 10
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.name = "item_list"
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.full_name = "p33.worldposinfo.item_list"
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.number = 2
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.index = 1
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.label = 3
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.has_default_value = false
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.default_value = {}
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.message_type = WORLDITEMINFO
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.type = 11
+slot2.WORLDPOSINFO_ITEM_LIST_FIELD.cpp_type = 10
+WORLDPOSINFO.name = "worldposinfo"
+WORLDPOSINFO.full_name = "p33.worldposinfo"
+WORLDPOSINFO.nested_types = {}
+WORLDPOSINFO.enum_types = {}
+WORLDPOSINFO.fields = {
+	slot2.WORLDPOSINFO_POS_FIELD,
+	slot2.WORLDPOSINFO_ITEM_LIST_FIELD
+}
+WORLDPOSINFO.is_extendable = false
+WORLDPOSINFO.extensions = {}
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.name = "item_type"
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.full_name = "p33.worlditeminfo.item_type"
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.number = 1
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.index = 0
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.label = 2
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.has_default_value = false
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.default_value = 0
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.type = 13
+slot2.WORLDITEMINFO_ITEM_TYPE_FIELD.cpp_type = 3
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.name = "item_id"
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.full_name = "p33.worlditeminfo.item_id"
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.number = 2
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.index = 1
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.label = 1
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.has_default_value = false
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.default_value = 0
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.type = 13
+slot2.WORLDITEMINFO_ITEM_ID_FIELD.cpp_type = 3
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.name = "item_flag"
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.full_name = "p33.worlditeminfo.item_flag"
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.number = 3
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.index = 2
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.label = 1
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.has_default_value = false
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.default_value = 0
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.type = 13
+slot2.WORLDITEMINFO_ITEM_FLAG_FIELD.cpp_type = 3
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.name = "item_data"
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.full_name = "p33.worlditeminfo.item_data"
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.number = 4
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.index = 3
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.label = 1
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.has_default_value = false
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.default_value = 0
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.type = 13
+slot2.WORLDITEMINFO_ITEM_DATA_FIELD.cpp_type = 3
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.name = "buff_list"
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.full_name = "p33.worlditeminfo.buff_list"
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.number = 5
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.index = 4
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.label = 3
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.has_default_value = false
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.default_value = {}
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.type = 13
+slot2.WORLDITEMINFO_BUFF_LIST_FIELD.cpp_type = 3
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.name = "boss_hp"
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.full_name = "p33.worlditeminfo.boss_hp"
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.number = 6
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.index = 5
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.label = 1
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.has_default_value = false
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.default_value = 0
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.type = 13
+slot2.WORLDITEMINFO_BOSS_HP_FIELD.cpp_type = 3
+WORLDITEMINFO.name = "worlditeminfo"
+WORLDITEMINFO.full_name = "p33.worlditeminfo"
+WORLDITEMINFO.nested_types = {}
+WORLDITEMINFO.enum_types = {}
+WORLDITEMINFO.fields = {
+	slot2.WORLDITEMINFO_ITEM_TYPE_FIELD,
+	slot2.WORLDITEMINFO_ITEM_ID_FIELD,
+	slot2.WORLDITEMINFO_ITEM_FLAG_FIELD,
+	slot2.WORLDITEMINFO_ITEM_DATA_FIELD,
+	slot2.WORLDITEMINFO_BUFF_LIST_FIELD,
+	slot2.WORLDITEMINFO_BOSS_HP_FIELD
+}
+WORLDITEMINFO.is_extendable = false
+WORLDITEMINFO.extensions = {}
+slot2.WORLDMAPID_RANDOM_ID_FIELD.name = "random_id"
+slot2.WORLDMAPID_RANDOM_ID_FIELD.full_name = "p33.worldmapid.random_id"
+slot2.WORLDMAPID_RANDOM_ID_FIELD.number = 1
+slot2.WORLDMAPID_RANDOM_ID_FIELD.index = 0
+slot2.WORLDMAPID_RANDOM_ID_FIELD.label = 2
+slot2.WORLDMAPID_RANDOM_ID_FIELD.has_default_value = false
+slot2.WORLDMAPID_RANDOM_ID_FIELD.default_value = 0
+slot2.WORLDMAPID_RANDOM_ID_FIELD.type = 13
+slot2.WORLDMAPID_RANDOM_ID_FIELD.cpp_type = 3
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.name = "template_id"
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.full_name = "p33.worldmapid.template_id"
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.number = 2
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.index = 1
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.label = 2
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.has_default_value = false
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.default_value = 0
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.type = 13
+slot2.WORLDMAPID_TEMPLATE_ID_FIELD.cpp_type = 3
+WORLDMAPID.name = "worldmapid"
+WORLDMAPID.full_name = "p33.worldmapid"
+WORLDMAPID.nested_types = {}
+WORLDMAPID.enum_types = {}
+WORLDMAPID.fields = {
+	slot2.WORLDMAPID_RANDOM_ID_FIELD,
+	slot2.WORLDMAPID_TEMPLATE_ID_FIELD
+}
+WORLDMAPID.is_extendable = false
+WORLDMAPID.extensions = {}
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.name = "group_id"
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.full_name = "p33.groupcmdcollection.group_id"
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.number = 1
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.index = 0
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.label = 2
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.has_default_value = false
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.default_value = 0
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.type = 13
+slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD.cpp_type = 3
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.name = "cmd_collection"
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.full_name = "p33.groupcmdcollection.cmd_collection"
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.number = 2
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.index = 1
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.label = 2
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.has_default_value = false
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.default_value = nil
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.message_type = CMDCOLLECTION
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.type = 11
+slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD.cpp_type = 10
+GROUPCMDCOLLECTION.name = "groupcmdcollection"
+GROUPCMDCOLLECTION.full_name = "p33.groupcmdcollection"
+GROUPCMDCOLLECTION.nested_types = {}
+GROUPCMDCOLLECTION.enum_types = {}
+GROUPCMDCOLLECTION.fields = {
+	slot2.GROUPCMDCOLLECTION_GROUP_ID_FIELD,
+	slot2.GROUPCMDCOLLECTION_CMD_COLLECTION_FIELD
+}
+GROUPCMDCOLLECTION.is_extendable = false
+GROUPCMDCOLLECTION.extensions = {}
+slot2.CMDCOLLECTION_PROGRESS_FIELD.name = "progress"
+slot2.CMDCOLLECTION_PROGRESS_FIELD.full_name = "p33.cmdcollection.progress"
+slot2.CMDCOLLECTION_PROGRESS_FIELD.number = 1
+slot2.CMDCOLLECTION_PROGRESS_FIELD.index = 0
+slot2.CMDCOLLECTION_PROGRESS_FIELD.label = 2
+slot2.CMDCOLLECTION_PROGRESS_FIELD.has_default_value = false
+slot2.CMDCOLLECTION_PROGRESS_FIELD.default_value = 0
+slot2.CMDCOLLECTION_PROGRESS_FIELD.type = 13
+slot2.CMDCOLLECTION_PROGRESS_FIELD.cpp_type = 3
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.name = "progress_list"
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.full_name = "p33.cmdcollection.progress_list"
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.number = 2
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.index = 1
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.label = 3
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.has_default_value = false
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.default_value = {}
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.type = 13
+slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD.cpp_type = 3
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.name = "random_id"
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.full_name = "p33.cmdcollection.random_id"
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.number = 3
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.index = 2
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.label = 2
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.has_default_value = false
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.default_value = 0
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.type = 13
+slot2.CMDCOLLECTION_RANDOM_ID_FIELD.cpp_type = 3
+CMDCOLLECTION.name = "cmdcollection"
+CMDCOLLECTION.full_name = "p33.cmdcollection"
+CMDCOLLECTION.nested_types = {}
+CMDCOLLECTION.enum_types = {}
+CMDCOLLECTION.fields = {
+	slot2.CMDCOLLECTION_PROGRESS_FIELD,
+	slot2.CMDCOLLECTION_PROGRESS_LIST_FIELD,
+	slot2.CMDCOLLECTION_RANDOM_ID_FIELD
+}
+CMDCOLLECTION.is_extendable = false
+CMDCOLLECTION.extensions = {}
 slot2.SC_33202_APPEND_LIST_FIELD.name = "append_list"
 slot2.SC_33202_APPEND_LIST_FIELD.full_name = "p33.sc_33202.append_list"
 slot2.SC_33202_APPEND_LIST_FIELD.number = 1
@@ -1359,22 +2094,12 @@ slot2.CS_33205_TASKID_FIELD.has_default_value = false
 slot2.CS_33205_TASKID_FIELD.default_value = 0
 slot2.CS_33205_TASKID_FIELD.type = 13
 slot2.CS_33205_TASKID_FIELD.cpp_type = 3
-slot2.CS_33205_FLEET_ID_FIELD.name = "fleet_id"
-slot2.CS_33205_FLEET_ID_FIELD.full_name = "p33.cs_33205.fleet_id"
-slot2.CS_33205_FLEET_ID_FIELD.number = 2
-slot2.CS_33205_FLEET_ID_FIELD.index = 1
-slot2.CS_33205_FLEET_ID_FIELD.label = 2
-slot2.CS_33205_FLEET_ID_FIELD.has_default_value = false
-slot2.CS_33205_FLEET_ID_FIELD.default_value = 0
-slot2.CS_33205_FLEET_ID_FIELD.type = 13
-slot2.CS_33205_FLEET_ID_FIELD.cpp_type = 3
 CS_33205.name = "cs_33205"
 CS_33205.full_name = "p33.cs_33205"
 CS_33205.nested_types = {}
 CS_33205.enum_types = {}
 CS_33205.fields = {
-	slot2.CS_33205_TASKID_FIELD,
-	slot2.CS_33205_FLEET_ID_FIELD
+	slot2.CS_33205_TASKID_FIELD
 }
 CS_33205.is_extendable = false
 CS_33205.extensions = {}
@@ -1510,15 +2235,15 @@ slot2.TASK_INFO_SUBMITE_TIME_FIELD.has_default_value = false
 slot2.TASK_INFO_SUBMITE_TIME_FIELD.default_value = 0
 slot2.TASK_INFO_SUBMITE_TIME_FIELD.type = 13
 slot2.TASK_INFO_SUBMITE_TIME_FIELD.cpp_type = 3
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.name = "fleet_id_list"
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.full_name = "p33.task_info.fleet_id_list"
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.number = 5
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.index = 4
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.label = 3
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.has_default_value = false
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.default_value = {}
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.type = 13
-slot2.TASK_INFO_FLEET_ID_LIST_FIELD.cpp_type = 3
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.name = "event_map_id"
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.full_name = "p33.task_info.event_map_id"
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.number = 5
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.index = 4
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.label = 2
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.has_default_value = false
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.default_value = 0
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.type = 13
+slot2.TASK_INFO_EVENT_MAP_ID_FIELD.cpp_type = 3
 TASK_INFO.name = "task_info"
 TASK_INFO.full_name = "p33.task_info"
 TASK_INFO.nested_types = {}
@@ -1528,7 +2253,7 @@ TASK_INFO.fields = {
 	slot2.TASK_INFO_PROGRESS_FIELD,
 	slot2.TASK_INFO_ACCEPT_TIME_FIELD,
 	slot2.TASK_INFO_SUBMITE_TIME_FIELD,
-	slot2.TASK_INFO_FLEET_ID_LIST_FIELD
+	slot2.TASK_INFO_EVENT_MAP_ID_FIELD
 }
 TASK_INFO.is_extendable = false
 TASK_INFO.extensions = {}
@@ -1784,6 +2509,54 @@ SC_33408.fields = {
 }
 SC_33408.is_extendable = false
 SC_33408.extensions = {}
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.name = "elite_fleet_list"
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.full_name = "p33.cs_33409.elite_fleet_list"
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.number = 1
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.index = 0
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.label = 3
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.has_default_value = false
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.default_value = {}
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.message_type = ELITEFLEETINFO
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.type = 11
+slot2.CS_33409_ELITE_FLEET_LIST_FIELD.cpp_type = 10
+CS_33409.name = "cs_33409"
+CS_33409.full_name = "p33.cs_33409"
+CS_33409.nested_types = {}
+CS_33409.enum_types = {}
+CS_33409.fields = {
+	slot2.CS_33409_ELITE_FLEET_LIST_FIELD
+}
+CS_33409.is_extendable = false
+CS_33409.extensions = {}
+slot2.SC_33410_RESULT_FIELD.name = "result"
+slot2.SC_33410_RESULT_FIELD.full_name = "p33.sc_33410.result"
+slot2.SC_33410_RESULT_FIELD.number = 1
+slot2.SC_33410_RESULT_FIELD.index = 0
+slot2.SC_33410_RESULT_FIELD.label = 2
+slot2.SC_33410_RESULT_FIELD.has_default_value = false
+slot2.SC_33410_RESULT_FIELD.default_value = 0
+slot2.SC_33410_RESULT_FIELD.type = 13
+slot2.SC_33410_RESULT_FIELD.cpp_type = 3
+slot2.SC_33410_GROUP_LIST_FIELD.name = "group_list"
+slot2.SC_33410_GROUP_LIST_FIELD.full_name = "p33.sc_33410.group_list"
+slot2.SC_33410_GROUP_LIST_FIELD.number = 3
+slot2.SC_33410_GROUP_LIST_FIELD.index = 1
+slot2.SC_33410_GROUP_LIST_FIELD.label = 3
+slot2.SC_33410_GROUP_LIST_FIELD.has_default_value = false
+slot2.SC_33410_GROUP_LIST_FIELD.default_value = {}
+slot2.SC_33410_GROUP_LIST_FIELD.message_type = GROUPINCHAPTER
+slot2.SC_33410_GROUP_LIST_FIELD.type = 11
+slot2.SC_33410_GROUP_LIST_FIELD.cpp_type = 10
+SC_33410.name = "sc_33410"
+SC_33410.full_name = "p33.sc_33410"
+SC_33410.nested_types = {}
+SC_33410.enum_types = {}
+SC_33410.fields = {
+	slot2.SC_33410_RESULT_FIELD,
+	slot2.SC_33410_GROUP_LIST_FIELD
+}
+SC_33410.is_extendable = false
+SC_33410.extensions = {}
 slot2.PORT_INFO_PORT_ID_FIELD.name = "port_id"
 slot2.PORT_INFO_PORT_ID_FIELD.full_name = "p33.port_info.port_id"
 slot2.PORT_INFO_PORT_ID_FIELD.number = 1
@@ -1821,16 +2594,6 @@ slot2.PORT_INFO_NEXT_REFRESH_TIME_FIELD.has_default_value = false
 slot2.PORT_INFO_NEXT_REFRESH_TIME_FIELD.default_value = 0
 slot2.PORT_INFO_NEXT_REFRESH_TIME_FIELD.type = 13
 slot2.PORT_INFO_NEXT_REFRESH_TIME_FIELD.cpp_type = 3
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.name = "ship_in_port"
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.full_name = "p33.port_info.ship_in_port"
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.number = 5
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.index = 4
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.label = 3
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.has_default_value = false
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.default_value = {}
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.message_type = SHIPINCHAPTER
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.type = 11
-slot2.PORT_INFO_SHIP_IN_PORT_FIELD.cpp_type = 10
 PORT_INFO.name = "port_info"
 PORT_INFO.full_name = "p33.port_info"
 PORT_INFO.nested_types = {}
@@ -1839,8 +2602,7 @@ PORT_INFO.fields = {
 	slot2.PORT_INFO_PORT_ID_FIELD,
 	slot2.PORT_INFO_TASK_LIST_FIELD,
 	slot2.PORT_INFO_GOODS_LIST_FIELD,
-	slot2.PORT_INFO_NEXT_REFRESH_TIME_FIELD,
-	slot2.PORT_INFO_SHIP_IN_PORT_FIELD
+	slot2.PORT_INFO_NEXT_REFRESH_TIME_FIELD
 }
 PORT_INFO.is_extendable = false
 PORT_INFO.extensions = {}
@@ -1927,6 +2689,24 @@ slot2.BUFF_INFO_TIMESTAMP_FIELD.has_default_value = false
 slot2.BUFF_INFO_TIMESTAMP_FIELD.default_value = 0
 slot2.BUFF_INFO_TIMESTAMP_FIELD.type = 13
 slot2.BUFF_INFO_TIMESTAMP_FIELD.cpp_type = 3
+slot2.BUFF_INFO_ROUND_FIELD.name = "round"
+slot2.BUFF_INFO_ROUND_FIELD.full_name = "p33.buff_info.round"
+slot2.BUFF_INFO_ROUND_FIELD.number = 4
+slot2.BUFF_INFO_ROUND_FIELD.index = 3
+slot2.BUFF_INFO_ROUND_FIELD.label = 2
+slot2.BUFF_INFO_ROUND_FIELD.has_default_value = false
+slot2.BUFF_INFO_ROUND_FIELD.default_value = 0
+slot2.BUFF_INFO_ROUND_FIELD.type = 13
+slot2.BUFF_INFO_ROUND_FIELD.cpp_type = 3
+slot2.BUFF_INFO_STEP_FIELD.name = "step"
+slot2.BUFF_INFO_STEP_FIELD.full_name = "p33.buff_info.step"
+slot2.BUFF_INFO_STEP_FIELD.number = 5
+slot2.BUFF_INFO_STEP_FIELD.index = 4
+slot2.BUFF_INFO_STEP_FIELD.label = 2
+slot2.BUFF_INFO_STEP_FIELD.has_default_value = false
+slot2.BUFF_INFO_STEP_FIELD.default_value = 0
+slot2.BUFF_INFO_STEP_FIELD.type = 13
+slot2.BUFF_INFO_STEP_FIELD.cpp_type = 3
 BUFF_INFO.name = "buff_info"
 BUFF_INFO.full_name = "p33.buff_info"
 BUFF_INFO.nested_types = {}
@@ -1934,171 +2714,164 @@ BUFF_INFO.enum_types = {}
 BUFF_INFO.fields = {
 	slot2.BUFF_INFO_ID_FIELD,
 	slot2.BUFF_INFO_STACK_FIELD,
-	slot2.BUFF_INFO_TIMESTAMP_FIELD
+	slot2.BUFF_INFO_TIMESTAMP_FIELD,
+	slot2.BUFF_INFO_ROUND_FIELD,
+	slot2.BUFF_INFO_STEP_FIELD
 }
 BUFF_INFO.is_extendable = false
 BUFF_INFO.extensions = {}
-slot2.CS_33501_TYPE_FIELD.name = "type"
-slot2.CS_33501_TYPE_FIELD.full_name = "p33.cs_33501.type"
-slot2.CS_33501_TYPE_FIELD.number = 1
-slot2.CS_33501_TYPE_FIELD.index = 0
-slot2.CS_33501_TYPE_FIELD.label = 2
-slot2.CS_33501_TYPE_FIELD.has_default_value = false
-slot2.CS_33501_TYPE_FIELD.default_value = 0
-slot2.CS_33501_TYPE_FIELD.type = 13
-slot2.CS_33501_TYPE_FIELD.cpp_type = 3
-CS_33501.name = "cs_33501"
-CS_33501.full_name = "p33.cs_33501"
-CS_33501.nested_types = {}
-CS_33501.enum_types = {}
-CS_33501.fields = {
-	slot2.CS_33501_TYPE_FIELD
+slot2.SC_33601_TARGET_LIST_FIELD.name = "target_list"
+slot2.SC_33601_TARGET_LIST_FIELD.full_name = "p33.sc_33601.target_list"
+slot2.SC_33601_TARGET_LIST_FIELD.number = 1
+slot2.SC_33601_TARGET_LIST_FIELD.index = 0
+slot2.SC_33601_TARGET_LIST_FIELD.label = 3
+slot2.SC_33601_TARGET_LIST_FIELD.has_default_value = false
+slot2.SC_33601_TARGET_LIST_FIELD.default_value = {}
+slot2.SC_33601_TARGET_LIST_FIELD.message_type = WORLDTARGET
+slot2.SC_33601_TARGET_LIST_FIELD.type = 11
+slot2.SC_33601_TARGET_LIST_FIELD.cpp_type = 10
+SC_33601.name = "sc_33601"
+SC_33601.full_name = "p33.sc_33601"
+SC_33601.nested_types = {}
+SC_33601.enum_types = {}
+SC_33601.fields = {
+	slot2.SC_33601_TARGET_LIST_FIELD
 }
-CS_33501.is_extendable = false
-CS_33501.extensions = {}
-slot2.SC_33502_FIGHT_COUNT_FIELD.name = "fight_count"
-slot2.SC_33502_FIGHT_COUNT_FIELD.full_name = "p33.sc_33502.fight_count"
-slot2.SC_33502_FIGHT_COUNT_FIELD.number = 1
-slot2.SC_33502_FIGHT_COUNT_FIELD.index = 0
-slot2.SC_33502_FIGHT_COUNT_FIELD.label = 2
-slot2.SC_33502_FIGHT_COUNT_FIELD.has_default_value = false
-slot2.SC_33502_FIGHT_COUNT_FIELD.default_value = 0
-slot2.SC_33502_FIGHT_COUNT_FIELD.type = 13
-slot2.SC_33502_FIGHT_COUNT_FIELD.cpp_type = 3
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.name = "fight_count_update_time"
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.full_name = "p33.sc_33502.fight_count_update_time"
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.number = 2
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.index = 1
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.label = 2
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.has_default_value = false
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.default_value = 0
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.type = 13
-slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD.cpp_type = 3
-slot2.SC_33502_SELF_BOSS_FIELD.name = "self_boss"
-slot2.SC_33502_SELF_BOSS_FIELD.full_name = "p33.sc_33502.self_boss"
-slot2.SC_33502_SELF_BOSS_FIELD.number = 3
-slot2.SC_33502_SELF_BOSS_FIELD.index = 2
-slot2.SC_33502_SELF_BOSS_FIELD.label = 1
-slot2.SC_33502_SELF_BOSS_FIELD.has_default_value = false
-slot2.SC_33502_SELF_BOSS_FIELD.default_value = nil
-slot2.SC_33502_SELF_BOSS_FIELD.message_type = WORLDBOSS_INFO
-slot2.SC_33502_SELF_BOSS_FIELD.type = 11
-slot2.SC_33502_SELF_BOSS_FIELD.cpp_type = 10
-slot2.SC_33502_OTHER_BOSS_FIELD.name = "other_boss"
-slot2.SC_33502_OTHER_BOSS_FIELD.full_name = "p33.sc_33502.other_boss"
-slot2.SC_33502_OTHER_BOSS_FIELD.number = 4
-slot2.SC_33502_OTHER_BOSS_FIELD.index = 3
-slot2.SC_33502_OTHER_BOSS_FIELD.label = 3
-slot2.SC_33502_OTHER_BOSS_FIELD.has_default_value = false
-slot2.SC_33502_OTHER_BOSS_FIELD.default_value = {}
-slot2.SC_33502_OTHER_BOSS_FIELD.message_type = WORLDBOSS_INFO
-slot2.SC_33502_OTHER_BOSS_FIELD.type = 11
-slot2.SC_33502_OTHER_BOSS_FIELD.cpp_type = 10
-SC_33502.name = "sc_33502"
-SC_33502.full_name = "p33.sc_33502"
-SC_33502.nested_types = {}
-SC_33502.enum_types = {}
-SC_33502.fields = {
-	slot2.SC_33502_FIGHT_COUNT_FIELD,
-	slot2.SC_33502_FIGHT_COUNT_UPDATE_TIME_FIELD,
-	slot2.SC_33502_SELF_BOSS_FIELD,
-	slot2.SC_33502_OTHER_BOSS_FIELD
+SC_33601.is_extendable = false
+SC_33601.extensions = {}
+slot2.CS_33602_LIST_FIELD.name = "list"
+slot2.CS_33602_LIST_FIELD.full_name = "p33.cs_33602.list"
+slot2.CS_33602_LIST_FIELD.number = 1
+slot2.CS_33602_LIST_FIELD.index = 0
+slot2.CS_33602_LIST_FIELD.label = 3
+slot2.CS_33602_LIST_FIELD.has_default_value = false
+slot2.CS_33602_LIST_FIELD.default_value = {}
+slot2.CS_33602_LIST_FIELD.message_type = WORLDTARGET_FETCH
+slot2.CS_33602_LIST_FIELD.type = 11
+slot2.CS_33602_LIST_FIELD.cpp_type = 10
+CS_33602.name = "cs_33602"
+CS_33602.full_name = "p33.cs_33602"
+CS_33602.nested_types = {}
+CS_33602.enum_types = {}
+CS_33602.fields = {
+	slot2.CS_33602_LIST_FIELD
 }
-SC_33502.is_extendable = false
-SC_33502.extensions = {}
-slot2.CS_33503_USER_ID_LIST_FIELD.name = "user_id_list"
-slot2.CS_33503_USER_ID_LIST_FIELD.full_name = "p33.cs_33503.user_id_list"
-slot2.CS_33503_USER_ID_LIST_FIELD.number = 1
-slot2.CS_33503_USER_ID_LIST_FIELD.index = 0
-slot2.CS_33503_USER_ID_LIST_FIELD.label = 3
-slot2.CS_33503_USER_ID_LIST_FIELD.has_default_value = false
-slot2.CS_33503_USER_ID_LIST_FIELD.default_value = {}
-slot2.CS_33503_USER_ID_LIST_FIELD.type = 13
-slot2.CS_33503_USER_ID_LIST_FIELD.cpp_type = 3
-CS_33503.name = "cs_33503"
-CS_33503.full_name = "p33.cs_33503"
-CS_33503.nested_types = {}
-CS_33503.enum_types = {}
-CS_33503.fields = {
-	slot2.CS_33503_USER_ID_LIST_FIELD
+CS_33602.is_extendable = false
+CS_33602.extensions = {}
+slot2.SC_33603_RESULT_FIELD.name = "result"
+slot2.SC_33603_RESULT_FIELD.full_name = "p33.sc_33603.result"
+slot2.SC_33603_RESULT_FIELD.number = 1
+slot2.SC_33603_RESULT_FIELD.index = 0
+slot2.SC_33603_RESULT_FIELD.label = 2
+slot2.SC_33603_RESULT_FIELD.has_default_value = false
+slot2.SC_33603_RESULT_FIELD.default_value = 0
+slot2.SC_33603_RESULT_FIELD.type = 13
+slot2.SC_33603_RESULT_FIELD.cpp_type = 3
+slot2.SC_33603_DROPS_FIELD.name = "drops"
+slot2.SC_33603_DROPS_FIELD.full_name = "p33.sc_33603.drops"
+slot2.SC_33603_DROPS_FIELD.number = 2
+slot2.SC_33603_DROPS_FIELD.index = 1
+slot2.SC_33603_DROPS_FIELD.label = 3
+slot2.SC_33603_DROPS_FIELD.has_default_value = false
+slot2.SC_33603_DROPS_FIELD.default_value = {}
+slot2.SC_33603_DROPS_FIELD.message_type = slot1.DROPINFO
+slot2.SC_33603_DROPS_FIELD.type = 11
+slot2.SC_33603_DROPS_FIELD.cpp_type = 10
+SC_33603.name = "sc_33603"
+SC_33603.full_name = "p33.sc_33603"
+SC_33603.nested_types = {}
+SC_33603.enum_types = {}
+SC_33603.fields = {
+	slot2.SC_33603_RESULT_FIELD,
+	slot2.SC_33603_DROPS_FIELD
 }
-CS_33503.is_extendable = false
-CS_33503.extensions = {}
-slot2.SC_33504_BOSS_LIST_FIELD.name = "boss_list"
-slot2.SC_33504_BOSS_LIST_FIELD.full_name = "p33.sc_33504.boss_list"
-slot2.SC_33504_BOSS_LIST_FIELD.number = 1
-slot2.SC_33504_BOSS_LIST_FIELD.index = 0
-slot2.SC_33504_BOSS_LIST_FIELD.label = 3
-slot2.SC_33504_BOSS_LIST_FIELD.has_default_value = false
-slot2.SC_33504_BOSS_LIST_FIELD.default_value = {}
-slot2.SC_33504_BOSS_LIST_FIELD.message_type = WORLDBOSS_INFO
-slot2.SC_33504_BOSS_LIST_FIELD.type = 11
-slot2.SC_33504_BOSS_LIST_FIELD.cpp_type = 10
-SC_33504.name = "sc_33504"
-SC_33504.full_name = "p33.sc_33504"
-SC_33504.nested_types = {}
-SC_33504.enum_types = {}
-SC_33504.fields = {
-	slot2.SC_33504_BOSS_LIST_FIELD
+SC_33603.is_extendable = false
+SC_33603.extensions = {}
+slot2.WORLDTARGET_ID_FIELD.name = "id"
+slot2.WORLDTARGET_ID_FIELD.full_name = "p33.worldtarget.id"
+slot2.WORLDTARGET_ID_FIELD.number = 1
+slot2.WORLDTARGET_ID_FIELD.index = 0
+slot2.WORLDTARGET_ID_FIELD.label = 2
+slot2.WORLDTARGET_ID_FIELD.has_default_value = false
+slot2.WORLDTARGET_ID_FIELD.default_value = 0
+slot2.WORLDTARGET_ID_FIELD.type = 13
+slot2.WORLDTARGET_ID_FIELD.cpp_type = 3
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.name = "process_list"
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.full_name = "p33.worldtarget.process_list"
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.number = 2
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.index = 1
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.label = 3
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.has_default_value = false
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.default_value = {}
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.message_type = WORLDTARGET_PROCESS
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.type = 11
+slot2.WORLDTARGET_PROCESS_LIST_FIELD.cpp_type = 10
+WORLDTARGET.name = "worldtarget"
+WORLDTARGET.full_name = "p33.worldtarget"
+WORLDTARGET.nested_types = {}
+WORLDTARGET.enum_types = {}
+WORLDTARGET.fields = {
+	slot2.WORLDTARGET_ID_FIELD,
+	slot2.WORLDTARGET_PROCESS_LIST_FIELD
 }
-SC_33504.is_extendable = false
-SC_33504.extensions = {}
-slot2.CS_33505_BOSS_ID_FIELD.name = "boss_id"
-slot2.CS_33505_BOSS_ID_FIELD.full_name = "p33.cs_33505.boss_id"
-slot2.CS_33505_BOSS_ID_FIELD.number = 1
-slot2.CS_33505_BOSS_ID_FIELD.index = 0
-slot2.CS_33505_BOSS_ID_FIELD.label = 2
-slot2.CS_33505_BOSS_ID_FIELD.has_default_value = false
-slot2.CS_33505_BOSS_ID_FIELD.default_value = 0
-slot2.CS_33505_BOSS_ID_FIELD.type = 13
-slot2.CS_33505_BOSS_ID_FIELD.cpp_type = 3
-CS_33505.name = "cs_33505"
-CS_33505.full_name = "p33.cs_33505"
-CS_33505.nested_types = {}
-CS_33505.enum_types = {}
-CS_33505.fields = {
-	slot2.CS_33505_BOSS_ID_FIELD
+WORLDTARGET.is_extendable = false
+WORLDTARGET.extensions = {}
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.name = "trigger_id"
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.full_name = "p33.worldtarget_process.trigger_id"
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.number = 1
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.index = 0
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.label = 2
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.has_default_value = false
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.default_value = 0
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.type = 13
+slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD.cpp_type = 3
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.name = "count"
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.full_name = "p33.worldtarget_process.count"
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.number = 2
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.index = 1
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.label = 2
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.has_default_value = false
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.default_value = 0
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.type = 13
+slot2.WORLDTARGET_PROCESS_COUNT_FIELD.cpp_type = 3
+WORLDTARGET_PROCESS.name = "worldtarget_process"
+WORLDTARGET_PROCESS.full_name = "p33.worldtarget_process"
+WORLDTARGET_PROCESS.nested_types = {}
+WORLDTARGET_PROCESS.enum_types = {}
+WORLDTARGET_PROCESS.fields = {
+	slot2.WORLDTARGET_PROCESS_TRIGGER_ID_FIELD,
+	slot2.WORLDTARGET_PROCESS_COUNT_FIELD
 }
-CS_33505.is_extendable = false
-CS_33505.extensions = {}
-slot2.SC_33506_RANK_LIST_FIELD.name = "rank_list"
-slot2.SC_33506_RANK_LIST_FIELD.full_name = "p33.sc_33506.rank_list"
-slot2.SC_33506_RANK_LIST_FIELD.number = 1
-slot2.SC_33506_RANK_LIST_FIELD.index = 0
-slot2.SC_33506_RANK_LIST_FIELD.label = 3
-slot2.SC_33506_RANK_LIST_FIELD.has_default_value = false
-slot2.SC_33506_RANK_LIST_FIELD.default_value = {}
-slot2.SC_33506_RANK_LIST_FIELD.message_type = WORLDBOSS_RANK
-slot2.SC_33506_RANK_LIST_FIELD.type = 11
-slot2.SC_33506_RANK_LIST_FIELD.cpp_type = 10
-SC_33506.name = "sc_33506"
-SC_33506.full_name = "p33.sc_33506"
-SC_33506.nested_types = {}
-SC_33506.enum_types = {}
-SC_33506.fields = {
-	slot2.SC_33506_RANK_LIST_FIELD
+WORLDTARGET_PROCESS.is_extendable = false
+WORLDTARGET_PROCESS.extensions = {}
+slot2.WORLDTARGET_FETCH_ID_FIELD.name = "id"
+slot2.WORLDTARGET_FETCH_ID_FIELD.full_name = "p33.worldtarget_fetch.id"
+slot2.WORLDTARGET_FETCH_ID_FIELD.number = 1
+slot2.WORLDTARGET_FETCH_ID_FIELD.index = 0
+slot2.WORLDTARGET_FETCH_ID_FIELD.label = 2
+slot2.WORLDTARGET_FETCH_ID_FIELD.has_default_value = false
+slot2.WORLDTARGET_FETCH_ID_FIELD.default_value = 0
+slot2.WORLDTARGET_FETCH_ID_FIELD.type = 13
+slot2.WORLDTARGET_FETCH_ID_FIELD.cpp_type = 3
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.name = "star_list"
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.full_name = "p33.worldtarget_fetch.star_list"
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.number = 2
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.index = 1
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.label = 3
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.has_default_value = false
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.default_value = {}
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.type = 13
+slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD.cpp_type = 3
+WORLDTARGET_FETCH.name = "worldtarget_fetch"
+WORLDTARGET_FETCH.full_name = "p33.worldtarget_fetch"
+WORLDTARGET_FETCH.nested_types = {}
+WORLDTARGET_FETCH.enum_types = {}
+WORLDTARGET_FETCH.fields = {
+	slot2.WORLDTARGET_FETCH_ID_FIELD,
+	slot2.WORLDTARGET_FETCH_STAR_LIST_FIELD
 }
-SC_33506.is_extendable = false
-SC_33506.extensions = {}
-slot2.SC_33507_BOSS_INFO_FIELD.name = "boss_info"
-slot2.SC_33507_BOSS_INFO_FIELD.full_name = "p33.sc_33507.boss_info"
-slot2.SC_33507_BOSS_INFO_FIELD.number = 1
-slot2.SC_33507_BOSS_INFO_FIELD.index = 0
-slot2.SC_33507_BOSS_INFO_FIELD.label = 2
-slot2.SC_33507_BOSS_INFO_FIELD.has_default_value = false
-slot2.SC_33507_BOSS_INFO_FIELD.default_value = nil
-slot2.SC_33507_BOSS_INFO_FIELD.message_type = WORLDBOSS_INFO
-slot2.SC_33507_BOSS_INFO_FIELD.type = 11
-slot2.SC_33507_BOSS_INFO_FIELD.cpp_type = 10
-SC_33507.name = "sc_33507"
-SC_33507.full_name = "p33.sc_33507"
-SC_33507.nested_types = {}
-SC_33507.enum_types = {}
-SC_33507.fields = {
-	slot2.SC_33507_BOSS_INFO_FIELD
-}
-SC_33507.is_extendable = false
-SC_33507.extensions = {}
+WORLDTARGET_FETCH.is_extendable = false
+WORLDTARGET_FETCH.extensions = {}
 slot2.SC_33508_BOSS_ID_FIELD.name = "boss_id"
 slot2.SC_33508_BOSS_ID_FIELD.full_name = "p33.sc_33508.boss_id"
 slot2.SC_33508_BOSS_ID_FIELD.number = 1
@@ -2127,6 +2900,42 @@ SC_33508.fields = {
 }
 SC_33508.is_extendable = false
 SC_33508.extensions = {}
+slot2.CS_33509_TYPE_FIELD.name = "type"
+slot2.CS_33509_TYPE_FIELD.full_name = "p33.cs_33509.type"
+slot2.CS_33509_TYPE_FIELD.number = 1
+slot2.CS_33509_TYPE_FIELD.index = 0
+slot2.CS_33509_TYPE_FIELD.label = 2
+slot2.CS_33509_TYPE_FIELD.has_default_value = false
+slot2.CS_33509_TYPE_FIELD.default_value = 0
+slot2.CS_33509_TYPE_FIELD.type = 13
+slot2.CS_33509_TYPE_FIELD.cpp_type = 3
+CS_33509.name = "cs_33509"
+CS_33509.full_name = "p33.cs_33509"
+CS_33509.nested_types = {}
+CS_33509.enum_types = {}
+CS_33509.fields = {
+	slot2.CS_33509_TYPE_FIELD
+}
+CS_33509.is_extendable = false
+CS_33509.extensions = {}
+slot2.SC_33510_RESULT_FIELD.name = "result"
+slot2.SC_33510_RESULT_FIELD.full_name = "p33.sc_33510.result"
+slot2.SC_33510_RESULT_FIELD.number = 1
+slot2.SC_33510_RESULT_FIELD.index = 0
+slot2.SC_33510_RESULT_FIELD.label = 2
+slot2.SC_33510_RESULT_FIELD.has_default_value = false
+slot2.SC_33510_RESULT_FIELD.default_value = 0
+slot2.SC_33510_RESULT_FIELD.type = 13
+slot2.SC_33510_RESULT_FIELD.cpp_type = 3
+SC_33510.name = "sc_33510"
+SC_33510.full_name = "p33.sc_33510"
+SC_33510.nested_types = {}
+SC_33510.enum_types = {}
+SC_33510.fields = {
+	slot2.SC_33510_RESULT_FIELD
+}
+SC_33510.is_extendable = false
+SC_33510.extensions = {}
 slot2.WORLDBOSS_INFO_ID_FIELD.name = "id"
 slot2.WORLDBOSS_INFO_ID_FIELD.full_name = "p33.worldboss_info.id"
 slot2.WORLDBOSS_INFO_ID_FIELD.number = 1
@@ -2235,13 +3044,17 @@ WORLDBOSS_RANK.is_extendable = false
 WORLDBOSS_RANK.extensions = {}
 ai_act = slot0.Message(AI_ACT)
 buff_info = slot0.Message(BUFF_INFO)
+chapterawardinfo = slot0.Message(CHAPTERAWARDINFO)
 chaptercellinfo = slot0.Message(CHAPTERCELLINFO)
 chaptercellpos = slot0.Message(CHAPTERCELLPOS)
-chapteriteminfo = slot0.Message(CHAPTERITEMINFO)
+cmdcollection = slot0.Message(CMDCOLLECTION)
+countinfo = slot0.Message(COUNTINFO)
 cs_33101 = slot0.Message(CS_33101)
 cs_33103 = slot0.Message(CS_33103)
 cs_33106 = slot0.Message(CS_33106)
 cs_33108 = slot0.Message(CS_33108)
+cs_33110 = slot0.Message(CS_33110)
+cs_33112 = slot0.Message(CS_33112)
 cs_33205 = slot0.Message(CS_33205)
 cs_33207 = slot0.Message(CS_33207)
 cs_33301 = slot0.Message(CS_33301)
@@ -2249,13 +3062,15 @@ cs_33401 = slot0.Message(CS_33401)
 cs_33403 = slot0.Message(CS_33403)
 cs_33405 = slot0.Message(CS_33405)
 cs_33407 = slot0.Message(CS_33407)
-cs_33501 = slot0.Message(CS_33501)
-cs_33503 = slot0.Message(CS_33503)
-cs_33505 = slot0.Message(CS_33505)
+cs_33409 = slot0.Message(CS_33409)
+cs_33509 = slot0.Message(CS_33509)
+cs_33602 = slot0.Message(CS_33602)
 elitefleetinfo = slot0.Message(ELITEFLEETINFO)
 fleet_change = slot0.Message(FLEET_CHANGE)
 goods_info = slot0.Message(GOODS_INFO)
+groupcmdcollection = slot0.Message(GROUPCMDCOLLECTION)
 groupinchapter = slot0.Message(GROUPINCHAPTER)
+groupinfoupdate = slot0.Message(GROUPINFOUPDATE)
 landinfo = slot0.Message(LANDINFO)
 map_vision = slot0.Message(MAP_VISION)
 mapinfo = slot0.Message(MAPINFO)
@@ -2266,6 +3081,8 @@ sc_33104 = slot0.Message(SC_33104)
 sc_33105 = slot0.Message(SC_33105)
 sc_33107 = slot0.Message(SC_33107)
 sc_33109 = slot0.Message(SC_33109)
+sc_33111 = slot0.Message(SC_33111)
+sc_33113 = slot0.Message(SC_33113)
 sc_33202 = slot0.Message(SC_33202)
 sc_33203 = slot0.Message(SC_33203)
 sc_33204 = slot0.Message(SC_33204)
@@ -2276,11 +3093,11 @@ sc_33402 = slot0.Message(SC_33402)
 sc_33404 = slot0.Message(SC_33404)
 sc_33406 = slot0.Message(SC_33406)
 sc_33408 = slot0.Message(SC_33408)
-sc_33502 = slot0.Message(SC_33502)
-sc_33504 = slot0.Message(SC_33504)
-sc_33506 = slot0.Message(SC_33506)
-sc_33507 = slot0.Message(SC_33507)
+sc_33410 = slot0.Message(SC_33410)
 sc_33508 = slot0.Message(SC_33508)
+sc_33510 = slot0.Message(SC_33510)
+sc_33601 = slot0.Message(SC_33601)
+sc_33603 = slot0.Message(SC_33603)
 shipinchapter = slot0.Message(SHIPINCHAPTER)
 strategyinfo = slot0.Message(STRATEGYINFO)
 task_info = slot0.Message(TASK_INFO)
@@ -2288,3 +3105,9 @@ world_item_info = slot0.Message(WORLD_ITEM_INFO)
 worldboss_info = slot0.Message(WORLDBOSS_INFO)
 worldboss_rank = slot0.Message(WORLDBOSS_RANK)
 worldinfo = slot0.Message(WORLDINFO)
+worlditeminfo = slot0.Message(WORLDITEMINFO)
+worldmapid = slot0.Message(WORLDMAPID)
+worldposinfo = slot0.Message(WORLDPOSINFO)
+worldtarget = slot0.Message(WORLDTARGET)
+worldtarget_fetch = slot0.Message(WORLDTARGET_FETCH)
+worldtarget_process = slot0.Message(WORLDTARGET_PROCESS)

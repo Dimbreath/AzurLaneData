@@ -9,8 +9,8 @@ slot7 = import("view.util.RequestPackages.GetSpriteRequestPackage")
 slot8 = import("view.util.RequestPackages.ReturnPrefabRequestPackage")
 slot9 = import("view.util.RequestPackages.ReturnSpineRequestPackage")
 slot10 = import("view.util.RequestPackages.DestroyAtlasPoolRequestPackage")
-slot0.PartLoading = 1
-slot0.PartLoaded = 2
+slot0.PartLoading = bit.lshift(1, 0)
+slot0.PartLoaded = bit.lshift(1, 1)
 
 function slot0.Ctor(slot0)
 	slot0._loadingRequest = {}
@@ -90,28 +90,14 @@ end
 function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 	slot3:GetComponent(typeof(Image)).enabled = false
 
-	slot0:ClearRequest(tf(slot3))
+	slot0:GetSpriteDirect(slot1, slot2 or "", function (slot0)
+		uv0.enabled = true
+		uv0.sprite = slot0
 
-	slot7 = nil
-	slot7 = uv0.New(slot1, slot2 or "", function (slot0)
-		uv0._loadingRequest[uv1] = nil
-		uv2.enabled = true
-		uv2.sprite = slot0
-
-		if uv3 then
-			uv2:SetNativeSize()
+		if uv1 then
+			uv0:SetNativeSize()
 		end
-	end)
-
-	if uv1 then
-		print("AutoLoader Loading Atlas: " .. slot1 .. " Name: " .. slot2 .. " ;")
-	end
-
-	slot0._loadingRequest[slot6] = slot7
-
-	slot7:Start()
-
-	slot0._returnRequest[slot1] = uv2.New(slot1)
+	end, tf(slot3))
 end
 
 function slot0.GetSpriteDirect(slot0, slot1, slot2, slot3, slot4)

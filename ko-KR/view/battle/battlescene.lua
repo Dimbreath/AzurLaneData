@@ -27,7 +27,18 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return pg.expedition_data_template[slot0.contextData.stageId].bgm ~= "" and slot1.bgm or uv0.super.getBGM(slot0)
+	table.insert({}, slot0.contextData.system == SYSTEM_WORLD and checkExist(pg.world_expedition_data[slot0.contextData.stageId], {
+		"bgm"
+	}) or "")
+	table.insert(slot1, pg.expedition_data_template[slot0.contextData.stageId].bgm)
+
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6 ~= "" then
+			return slot6
+		end
+	end
+
+	return uv0.super.getBGM(slot0)
 end
 
 function slot0.init(slot0)
@@ -303,12 +314,15 @@ function slot0.didEnter(slot0)
 		setActive(uv1, false)
 	end)
 	onToggle(slot0, slot0:findTF("AutoBtn"), function (slot0)
-		uv0:emit(BattleMediator.ON_AUTO, {
+		slot1 = uv0:GetBattleType()
+
+		uv1:emit(BattleMediator.ON_AUTO, {
 			isOn = not slot0,
-			toggle = uv0:findTF("AutoBtn")
+			toggle = uv1:findTF("AutoBtn"),
+			system = slot1
 		})
-		uv1:ActiveBot(ys.Battle.BattleState.IsAutoBotActive())
-		setActive(uv2, uv1:ChatUseable())
+		uv0:ActiveBot(ys.Battle.BattleState.IsAutoBotActive(slot1))
+		setActive(uv2, uv0:ChatUseable())
 	end, SFX_PANEL, SFX_PANEL)
 	slot1:ConfigBattleEndFunc(function (slot0)
 		uv0:clear()
@@ -436,6 +450,9 @@ function slot0.initPauseWindow(slot0)
 		slot1(false, slot0:findTF("window/van", slot0.pauseWindow), slot0._vanShipVOs)
 	end
 
+	slot0.continueBtn = slot0:findTF("window/button_container/continue", slot0.pauseWindow)
+	slot0.leaveBtn = slot0:findTF("window/button_container/leave", slot0.pauseWindow)
+
 	if ys.Battle.BattleState.GetInstance():GetBattleType() == SYSTEM_SCENARIO then
 		slot6 = slot0._chapter:getConfigTable()
 
@@ -451,14 +468,21 @@ function slot0.initPauseWindow(slot0)
 		setText(slot3, "SP")
 		setText(slot4, slot0._chapter:getNextExpedition().chapter_name[2])
 		setActive(slot0.LeftTimeContainer, true)
+	elseif slot5 == SYSTEM_WORLD_BOSS or slot5 == SYSTEM_WORLD then
+		setText(slot3, i18n("world_battle_pause"))
+		setText(slot4, i18n("world_battle_pause2"))
+
+		if slot5 == SYSTEM_WORLD_BOSS then
+			setActive(slot0.leaveBtn, false)
+		end
+	elseif slot5 == SYSTEM_GUILD then
+		setText(slot3, "BOSS")
+		setText(slot4, pg.guild_boss_event[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().ActID] and slot7.name or "")
 	end
 
-	onButton(slot0, slot0:findTF("window/button_container/leave", slot0.pauseWindow), function ()
+	onButton(slot0, slot0.leaveBtn, function ()
 		uv0:emit(BattleMediator.ON_LEAVE)
 	end)
-
-	slot0.continueBtn = slot0:findTF("window/button_container/continue", slot0.pauseWindow)
-
 	onButton(slot0, slot0.continueBtn, function ()
 		setActive(uv0.pauseWindow, false)
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)

@@ -126,7 +126,6 @@ function slot0.Ctor(slot0)
 end
 
 function slot0.init(slot0)
-	slot0._guiderLoaded = true
 	slot0._leftPanel = slot0:findTF("toTop/frame/leftPanel")
 	slot0._hideBtn = slot0:findTF("toTop/frame/leftPanel/hideButton")
 	slot0._cameraBtn = slot0:findTF("toTop/frame/leftPanel/cameraButton")
@@ -150,6 +149,7 @@ function slot0.init(slot0)
 	slot0._settingBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/settingButton")
 	slot0._rankBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/rankButton")
 	slot0._collectionBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/collectionButton")
+	slot0._memoryBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/memoryButton")
 	slot0._monopolyBtn = slot0:findTF("rightPanel/linkBtns/monopoly_btn")
 	slot0._blackWhitBtn = slot0:findTF("rightPanel/linkBtns/blackwhite_btn")
 	slot0._memoryBookBtn = slot0:findTF("rightPanel/linkBtns/memorybook_btn")
@@ -249,7 +249,10 @@ function slot0.init(slot0)
 	slot0._chat.localScale = Vector3(0, 0)
 	slot0._paintingOffset = 0
 	slot0.toTopPanel = slot0:findTF("toTop")
-	slot0.skinTimers = {}
+	slot0.skinExpireDisplayPage = SkinExpireDisplayPage.New(slot0.toTopPanel, slot0.event)
+	slot0.attireExpireDisplayPage = AttireExpireDisplayPage.New(slot0.toTopPanel, slot0.event)
+	slot0.skinExperienceDiplayPage = SkinExperienceDiplayPage.New(slot0.toTopPanel, slot0.event)
+	slot0.secondaryPage = MainUISecondaryPage.New(slot0._tf, slot0.event)
 end
 
 function slot0.uiEnterAnim(slot0)
@@ -333,63 +336,8 @@ function slot0.uiEnterAnim(slot0)
 	})
 end
 
-function slot0.openSecondaryPanel(slot0, slot1)
-	function slot2()
-		SetActive(uv0._academyBtn:Find("tip"), uv0.schoolTip)
-		SetActive(uv0:findTF("tip", uv0._commanderBtn), uv0.commanderTip)
-		SetActive(uv0:findTF("tip", uv0._haremBtn), uv0.backyardTip)
-
-		uv0.isOpenSecondary = true
-
-		pg.UIMgr.GetInstance():BlurPanel(uv0._secondaryPanel, true, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
-		setActive(uv0._secondaryPanel, true)
-	end
-
-	if not slot0._secondaryPanel then
-		PoolMgr.GetInstance():GetUI("MainUISecondaryPanel", true, function (slot0)
-			slot0.name = "secondary_panel"
-			uv0._secondaryPanel = tf(slot0)
-
-			SetActive(uv0._secondaryPanel, false)
-
-			slot1 = uv0:findTF("frame/bg", uv0._secondaryPanel)
-			uv0._academyBtn = uv0:findTF("school_btn", slot1)
-			uv0._haremBtn = uv0:findTF("backyard_btn", slot1)
-			uv0._commanderBtn = uv0:findTF("commander_btn", slot1)
-
-			uv0._secondaryPanel:SetParent(uv0._tf, false)
-
-			if not pg.SystemOpenMgr.GetInstance():isOpenSystem(uv0._player.level, "CommandRoomMediator") then
-				uv0._commanderBtn:GetComponent(typeof(Image)).color = Color(0.3, 0.3, 0.3, 1)
-			else
-				uv0._commanderBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
-			end
-
-			if not pg.SystemOpenMgr:GetInstance():isOpenSystem(uv0._player.level, "BackYardMediator") then
-				uv0._haremBtn:GetComponent(typeof(Image)).color = Color(0.3, 0.3, 0.3, 1)
-			else
-				uv0._haremBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
-			end
-
-			onButton(uv0, uv0._commanderBtn, function ()
-				uv0:emit(MainUIMediator.OPEN_COMMANDER)
-			end, SFX_MAIN)
-			onButton(uv0, uv0._haremBtn, function ()
-				uv0:emit(MainUIMediator.OPEN_BACKYARD)
-			end, SFX_MAIN)
-			onButton(uv0, uv0._academyBtn, function ()
-				uv0:emit(MainUIMediator.OPEN_SCHOOLSCENE)
-			end, SFX_MAIN)
-			onButton(uv0, uv0._secondaryPanel, function ()
-				uv0:closeSecondaryPanel(true)
-			end)
-			uv1()
-		end)
-	else
-		slot2()
-	end
+function slot0.openSecondaryPanel(slot0)
+	slot0.secondaryPage:ExecuteAction("Show", slot0._player, slot0.schoolTip, slot0.commanderTip, slot0.backyardTip)
 end
 
 function slot0.closeSecondaryPanel(slot0, slot1)
@@ -397,10 +345,9 @@ function slot0.closeSecondaryPanel(slot0, slot1)
 		slot0:enablePartialBlur()
 	end
 
-	slot0.isOpenSecondary = nil
-
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._secondaryPanel, slot0._tf)
-	setActive(slot0._secondaryPanel, false)
+	if slot0.secondaryPage and slot0.secondaryPage:GetLoaded() then
+		slot0.secondaryPage:Hide()
+	end
 end
 
 function slot0.disableTraningCampAndRefluxTip(slot0)
@@ -835,6 +782,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._collectionBtn, function ()
 		uv0:emit(MainUIMediator.OPEN_COLLECT_SHIP)
 	end, SFX_UI_MENU)
+	onButton(slot0, slot0._memoryBtn, function ()
+		uv0:emit(MainUIMediator.OPEN_MEMORY)
+	end, SFX_UI_MENU)
 
 	if LOCK_SECONDARY then
 		onButton(slot0, slot0._haremBtn, function ()
@@ -844,7 +794,7 @@ function slot0.didEnter(slot0)
 			uv0:emit(MainUIMediator.OPEN_SCHOOLSCENE)
 		end, SFX_MAIN)
 
-		if not pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0._player.level, "BackYardMediator") then
+		if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0._player.level, "BackYardMediator") then
 			setActive(slot0:findTF("lock", slot0._haremBtn), true)
 
 			slot0._haremBtn:GetComponent(typeof(Image)).color = Color(0.3, 0.3, 0.3, 1)
@@ -1020,8 +970,8 @@ end
 function slot0.onBackPressed(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	if slot0.isOpenSecondary then
-		slot0:closeSecondaryPanel(true)
+	if slot0.secondaryPage and slot0.secondaryPage:GetLoaded() and slot0.secondaryPage:isShowing() then
+		slot0:closeSecondaryPanel()
 
 		return
 	end
@@ -1191,6 +1141,18 @@ function slot0.RemoveVoteBookTimer(slot0)
 		slot0.voteBookTimer:Stop()
 
 		slot0.voteBookTimer = nil
+	end
+end
+
+function slot0.updateLotteryBtn(slot0, slot1)
+	slot2 = slot1 and not slot1:isEnd()
+
+	setActive(slot0._lotteryBtn, slot2)
+
+	if slot2 then
+		onButton(slot0, slot0._lotteryBtn, function ()
+			uv0:emit(MainUIMediator.ON_LOTTERY, uv1.id)
+		end, SFX_PANEL)
 	end
 end
 
@@ -2032,11 +1994,8 @@ function slot0.notifyActivitySummary(slot0, slot1, slot2)
 	end
 
 	onButton(slot0, slot0._activitySummaryBtn, function ()
-		uv0:emit(MainUIMediator.GO_SCENE, {
-			SCENE.ACTIVITY,
-			{
-				id = uv1 and uv1.id
-			}
+		uv0:emit(MainUIMediator.OPEN_ACTIVITY_PANEL, {
+			id = uv1 and uv1.id
 		})
 	end, SFX_PANEL)
 end
@@ -2073,6 +2032,9 @@ function slot0.updateChat(slot0, slot1)
 			slot10.supportRichText = true
 
 			ChatProxy.InjectPublic(slot10, slot7, true)
+		elseif slot7:IsWorldBossNotify() then
+			slot10.supportRichText = true
+			slot10.text = i18n("ad_4", slot7.args.supportType, slot7.args.playerName, slot7.args.bossName, slot7.args.level)
 		else
 			slot10.supportRichText = slot7.emojiId ~= nil
 			slot11 = false
@@ -2138,6 +2100,8 @@ function slot0.updateBanner(slot0, slot1)
 				uv1:emit(MainUIMediator.OPEN_TECHNOLOGY)
 			elseif uv0.type == 7 then
 				uv1:emit(MainUIMediator.GO_MINI_GAME, uv0.param[1])
+			elseif uv0.type == 8 then
+				uv1:emit(MainUIMediator.OPEN_GUILD)
 			end
 		end, SFX_MAIN)
 		setActive(findTF(slot12, "red"), false)
@@ -2179,112 +2143,11 @@ function slot0.updateExSkinBtn(slot0, slot1)
 end
 
 function slot0.showExSkinWindow(slot0, slot1)
-	function slot2(slot0)
-		setActive(slot0, true)
-
-		slot1 = UIItemList.New(slot0:Find("window/list/content"), slot0:Find("window/list/content/tpl"))
-
-		slot1:make(function (slot0, slot1, slot2)
-			if slot0 == UIItemList.EventUpdate then
-				slot3 = uv0[slot1 + 1]
-
-				setText(slot2:Find("name/Text"), slot3:getConfig("name"))
-
-				if uv1.skinTimers[slot3.id] then
-					uv1.skinTimers[slot3.id]:Stop()
-				end
-
-				uv1.skinTimers[slot3.id] = Timer.New(function ()
-					setText(uv1:Find("time/Text"), skinTimeStamp(uv0:getRemainTime()))
-				end, 1, -1)
-
-				uv1.skinTimers[slot3.id]:Start()
-				uv1.skinTimers[slot3.id].func()
-
-				slot4 = slot2:Find("icon_bg/icon")
-
-				LoadSpriteAsync("qicon/" .. slot3:getIcon(), function (slot0)
-					if not IsNil(uv0._tf) then
-						uv1:GetComponent(typeof(Image)).sprite = slot0
-					end
-				end)
-			end
-		end)
-		slot1:align(#uv0)
-		onButton(uv1, slot0:Find("window/top/btnBack"), function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-		onButton(uv1, slot0, function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-		onButton(uv1, slot0:Find("window/button_container/confirm_btn"), function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-	end
-
-	if not slot0:findTF(SkinShopScene.EXSKINNAME, slot0.toTopPanel) then
-		PoolMgr.GetInstance():GetUI(SkinShopScene.EXSKINNAME, true, function (slot0)
-			if uv0.exited then
-				return
-			end
-
-			setParent(slot0, uv0.toTopPanel)
-			uv1(slot0.transform)
-
-			slot0.name = SkinShopScene.EXSKINNAME
-		end)
-	else
-		slot2(slot3)
-	end
+	slot0.skinExperienceDiplayPage:ExecuteAction("Show", slot1)
 end
 
 function slot0.showOverDueExSkins(slot0, slot1)
-	function slot2(slot0)
-		setActive(slot0, true)
-
-		slot1 = UIItemList.New(slot0:Find("window/list/scrollrect/content"), slot0:Find("window/list/scrollrect/content/tpl"))
-
-		slot1:make(function (slot0, slot1, slot2)
-			if slot0 == UIItemList.EventUpdate then
-				slot3 = uv0[slot1 + 1]
-
-				setText(slot2:Find("name/Text"), slot3:getConfig("name"))
-
-				slot4 = slot2:Find("icon_bg/icon")
-
-				LoadSpriteAsync("qicon/" .. slot3:getIcon(), function (slot0)
-					if not IsNil(uv0._tf) then
-						uv1:GetComponent(typeof(Image)).sprite = slot0
-					end
-				end)
-			end
-		end)
-		slot1:align(#uv0)
-		onButton(uv1, slot0:Find("window/button_container/confirm_btn"), function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-		onButton(uv1, slot0, function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-		onButton(uv1, slot0:Find("window/top/btnBack"), function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-	end
-
-	if not slot0:findTF(SkinShopScene.OVERDUENAME, slot0.toTopPanel) then
-		PoolMgr.GetInstance():GetUI(SkinShopScene.OVERDUENAME, true, function (slot0)
-			if uv0.exited then
-				return
-			end
-
-			setParent(slot0, uv0.toTopPanel)
-			uv1(slot0.transform)
-
-			slot0.name = SkinShopScene.OVERDUENAME
-		end)
-	else
-		slot2(slot3)
-	end
+	slot0.skinExpireDisplayPage:ExecuteAction("Show", slot1)
 end
 
 function slot0.resumePaitingState(slot0)
@@ -2388,23 +2251,22 @@ function slot0.willExit(slot0)
 		slot0._buffTimeCountDownTimer = nil
 	end
 
-	if slot0.isOpenSecondary then
-		slot0:closeSecondaryPanel(false)
-	end
-
-	if slot0._secondaryPanel then
-		PoolMgr.GetInstance():ReturnUI("MainUISecondaryPanel", go(slot0._secondaryPanel))
-
-		slot0._secondaryPanel = nil
-	end
-
-	for slot4, slot5 in pairs(slot0.skinTimers) do
-		slot5:Stop()
-	end
-
-	slot0.skinTimers = nil
-
 	slot0:recycleSpineChar()
+	slot0.skinExpireDisplayPage:Destroy()
+
+	slot0.skinExpireDisplayPage = nil
+
+	slot0.attireExpireDisplayPage:Destroy()
+
+	slot0.attireExpireDisplayPage = nil
+
+	slot0.skinExperienceDiplayPage:Destroy()
+
+	slot0.skinExperienceDiplayPage = nil
+
+	slot0.secondaryPage:Destroy()
+
+	slot0.secondaryPage = nil
 end
 
 function slot0.sethideChatBtn(slot0)
@@ -2422,48 +2284,7 @@ function slot0.sethideChatBtn(slot0)
 end
 
 function slot0.showOverDueAttire(slot0, slot1)
-	function slot2(slot0)
-		setActive(slot0, true)
-
-		slot1 = UIItemList.New(slot0:Find("window/sliders/scrollrect/content"), slot0:Find("window/sliders/scrollrect/content/tpl"))
-
-		slot1:make(function (slot0, slot1, slot2)
-			if slot0 == UIItemList.EventUpdate then
-				slot3 = uv0[slot1 + 1]
-
-				updateDrop(slot2, {
-					count = 1,
-					id = slot3:getConfig("id"),
-					type = slot3:getDropType()
-				})
-			end
-		end)
-		slot1:align(#uv0)
-		onButton(uv1, slot0:Find("window/confirm_btn"), function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-		onButton(uv1, slot0, function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-		onButton(uv1, slot0:Find("window/top/btnBack"), function ()
-			setActive(uv0, false)
-		end, SFX_CANCEL)
-	end
-
-	if not slot0:findTF(AttireConst.OverDueWindowName, slot0.toTopPanel) then
-		PoolMgr.GetInstance():GetUI(AttireConst.OverDueWindowName, true, function (slot0)
-			if uv0.exited then
-				return
-			end
-
-			setParent(slot0, uv0.toTopPanel)
-			uv1(slot0.transform)
-
-			slot0.name = AttireConst.OverDueWindowName
-		end)
-	else
-		slot2(slot3)
-	end
+	slot0.attireExpireDisplayPage:ExecuteAction("Show", slot1)
 end
 
 function slot0.loadChar(slot0, slot1)

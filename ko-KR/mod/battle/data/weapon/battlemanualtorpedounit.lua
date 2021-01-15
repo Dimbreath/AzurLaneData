@@ -66,7 +66,7 @@ function slot2.handleCoolDown(slot0)
 end
 
 function slot2.FlushReloadRequire(slot0)
-	if slot0.super.FlushReloadRequire(slot0) then
+	if uv0.super.FlushReloadRequire(slot0) then
 		return true
 	end
 

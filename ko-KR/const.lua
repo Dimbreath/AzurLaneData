@@ -57,6 +57,7 @@ SFX_STEP_PILE_SUCCESS = "event:/ui/ddlpengzhuang"
 SFX_FIGHTER_SWITCH = "event:/ui/fighterplane_click"
 SFX_FIGHTER_BATTLE = "event:/ui/fighterplane_start"
 PIXEL_PER_UNIT = 100
+WHITE_DOT_SIZE = 4
 ITEM_ID_CUBE = 20001
 ITEM_ID_SILVER_HOOK = 15001
 ITEM_ID_GOLD_HOOK = 15002
@@ -81,7 +82,8 @@ ITEM_ID_FUDAIS = {
 	40908,
 	40909,
 	40910,
-	40911
+	40911,
+	40912
 }
 ITEM_ID_MULTI_NORMAL = {
 	70051
@@ -105,6 +107,7 @@ DROP_TYPE_VITEM = 8
 DROP_TYPE_EQUIPMENT_SKIN = 9
 DROP_TYPE_NPC_SHIP = 10
 DROP_TYPE_WORLD_ITEM = 12
+DROP_TYPE_WORLD_COLLECTION = 13
 DROP_TYPE_ICON_FRAME = 14
 DROP_TYPE_CHAT_FRAME = 15
 DROP_TYPE_EMOJI = 17
@@ -194,6 +197,7 @@ DISPLAY_SHIP_GET_EFFECT = "display_ship_get_effect"
 SHOW_TOUCH_EFFECT = "show_touch_effect"
 BG_FIT_MODE = "bgFitMode"
 BATTLE_HIDE_BG = "battleHideBg"
+BATTLE_EXPOSE_LINE = "battleExposeLine"
 ALLOW_FIREND_VISIT_BACKYARD = "allow_friend_visit_backyard"
 SHOW_FIREND_BACKYARD_SHIP = "show_friend_backyard_ship"
 SHOW_MY_BACKYARD_SHIP = "show_my_backyard_ship"
@@ -218,19 +222,36 @@ LOCK_SKIN_SORT = false
 LOCK_COMMANDER = false
 LOCK_CLEAR_ACCOUNT = true
 LOCK_COMMANDER_TALENT_TIP = false
-LOCK_GUILD_SHOP = true
+LOCK_GUILD_SHOP = false
 LOCK_DESTROY_GUIDE = true
 LOCK_BACKYARD_TEMPLATE = true
 LOCK_TOWERCLIMBING_AWARD = false
 LOCK_UR_SHIP = false
+LOCK_GUILD_BATTLE = false
 DEFAULT_CVVOLUME = 0.8
 DEFAULT_BGMVOLUME = 0.8
 DEFAULT_SEVOLUME = 0.8
 HIDE_CHAT_FLAG = "HideChat"
 SPECIAL_DATE = {
 	{
-		"20201031",
-		"loginbg_1031"
+		"20210101",
+		"login_newyear"
+	},
+	{
+		"20210102",
+		"login_newyear"
+	},
+	{
+		"20210103",
+		"login_newyear"
+	},
+	{
+		"20210104",
+		"login_newyear"
+	},
+	{
+		"20210105",
+		"login_newyear"
 	}
 }
 SPECIAL_PROPOSE = {}
@@ -240,7 +261,7 @@ OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true
 AUTO_LINKLINK = false
 PLAY_OPENING = true
-OP_VERSION = "20201203"
+OP_VERSION = "20201231"
 OPEN_TEC_TREE_SYSTEM = true
 SECRETARY_POS = true
 ADAPT_MIN = 1.8
@@ -261,3 +282,9 @@ CC_TYPE_8 = 8
 CC_TYPE_9 = 9
 CC_TYPE_10 = 10
 CC_TYPE_99 = 99
+isOpenNewCheck = false
+CAMERA_MOVE_OPEN = false
+WORLD_ENTER_LOCK = true
+LOCK_META = true
+LOCK_WORLD_COLLECTION = true
+LOCK_EQUIPMENT_TRANSFORM = true

@@ -13,12 +13,12 @@ function slot3.Ctor(slot0, slot1, slot2)
 end
 
 function slot3.InitSpeed(slot0)
-	slot0.super.InitSpeed(slot0, math.rad2Deg * math.atan2(slot0._explodePos.z - slot0._spawnPos.z, slot0._explodePos.x - slot0._spawnPos.x))
+	uv0.super.InitSpeed(slot0, math.rad2Deg * math.atan2(slot0._explodePos.z - slot0._spawnPos.z, slot0._explodePos.x - slot0._spawnPos.x))
 end
 
 function slot3.Update(slot0)
 	if slot0._exist then
-		slot0.super.Update(slot0)
+		uv0.super.Update(slot0)
 	end
 end
 
@@ -79,7 +79,7 @@ function slot3.SetExplodePosition(slot0, slot1)
 end
 
 function slot3.SetTemplateData(slot0, slot1)
-	slot0.super.SetTemplateData(slot0, slot1)
+	uv0.super.SetTemplateData(slot0, slot1)
 
 	slot2 = slot0:GetTemplate().extra_param
 	slot0._barragePriority = slot2.barragePriority
@@ -112,7 +112,7 @@ function slot3.SetTemplateData(slot0, slot1)
 		slot0._explodeTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot2.timeToExplode
 	end
 
-	slot0._gravity = slot2.gravity or uv0.Battle.BattleConfig.GRAVITY
+	slot0._gravity = slot2.gravity or uv1.Battle.BattleConfig.GRAVITY
 end
 
 function slot3.GetExplodePostion(slot0)

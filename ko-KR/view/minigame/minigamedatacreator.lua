@@ -2,13 +2,14 @@ slot0 = class("MiniGameDataCreator")
 slot0.ShrineGameID = 3
 slot0.FireWorkGameID = 4
 slot0.TowerClimbingGameID = 13
+slot0.NewYearShrineGameID = 20
 
 function slot0.DataCreateFunc(slot0, slot1, slot2, slot3)
 	if slot0 == MiniGameOPCommand.CMD_SPECIAL_GAME then
 		slot4 = slot1[1]
 		slot7 = getProxy(MiniGameProxy):GetMiniGameData(slot4)
 
-		if slot4 == uv0.ShrineGameID then
+		if slot4 == uv0.ShrineGameID or slot4 == uv0.NewYearShrineGameID then
 			if slot1[2] == 1 then
 				-- Nothing
 			elseif slot5 == 2 then

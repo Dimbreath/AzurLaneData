@@ -57,7 +57,7 @@ function slot0.getSkillClassNum(slot0)
 	return slot0.skillClassNum
 end
 
-slot0.MAX_SKILL_CLASS_NUM = 3
+slot0.MAX_SKILL_CLASS_NUM = 4
 
 function slot0.inCreaseKillClassNum(slot0)
 	slot0.skillClassNum = math.min(slot0.skillClassNum + 1, uv0.MAX_SKILL_CLASS_NUM)

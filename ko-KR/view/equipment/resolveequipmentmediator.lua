@@ -26,10 +26,12 @@ function slot0.handleNotification(slot0, slot1)
 
 		if table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3
-			}, AwardInfoLayer.TITLE.ITEM, function ()
-				uv0.viewComponent:emit(BaseUI.ON_CLOSE)
-			end)
+				items = slot3,
+				title = AwardInfoLayer.TITLE.ITEM,
+				removeFunc = function ()
+					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+				end
+			})
 		end
 	elseif slot2 == GAME.CANCEL_LIMITED_OPERATION then
 		-- Nothing

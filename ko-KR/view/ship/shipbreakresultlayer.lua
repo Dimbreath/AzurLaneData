@@ -110,12 +110,17 @@ function slot0.updateStatistics(slot0)
 		uv0:voice(uv1)
 	end)).id
 	slot22 = slot1
+	slot24 = slot22:isMetaShip()
 
 	GetSpriteFromAtlasAsync("newshipbg/bg_" .. slot22:rarity2bgPrintForGet(), "", function (slot0)
 		setImageSprite(uv0._bg, slot0)
 	end)
 
 	if slot22:isBluePrintShip() then
+		if slot0.metaBg then
+			setActive(slot0.metaBg, false)
+		end
+
 		if slot0.designBg and slot0.designName ~= "raritydesign" .. slot22:getRarity() then
 			PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 
@@ -138,8 +143,41 @@ function slot0.updateStatistics(slot0)
 		else
 			setActive(slot0.designBg, true)
 		end
-	elseif slot0.designBg then
-		setActive(slot0.designBg, false)
+	elseif slot24 then
+		if slot0.designBg then
+			setActive(slot0.designBg, false)
+		end
+
+		if slot0.metaBg and slot0.metaName ~= "raritymeta" .. slot22:getRarity() then
+			PoolMgr.GetInstance():ReturnUI(slot0.metaName, slot0.metaBg)
+
+			slot0.metaBg = nil
+		end
+
+		if not slot0.metaBg then
+			PoolMgr.GetInstance():GetUI("raritymeta" .. slot22:getRarity(), true, function (slot0)
+				uv0.metaBg = slot0
+				uv0.metaName = "raritymeta" .. uv1:getRarity()
+
+				slot0.transform:SetParent(uv0._shake, false)
+
+				slot0.transform.localPosition = Vector3(1, 1, 1)
+				slot0.transform.localScale = Vector3(1, 1, 1)
+
+				slot0.transform:SetSiblingIndex(1)
+				setActive(slot0, true)
+			end)
+		else
+			setActive(slot0.metaBg, true)
+		end
+	else
+		if slot0.designBg then
+			setActive(slot0.designBg, false)
+		end
+
+		if slot0.metaBg then
+			setActive(slot0.metaBg, false)
+		end
 	end
 
 	PoolMgr.GetInstance():GetUI("tupo_" .. slot22:getRarity(), true, function (slot0)
@@ -151,7 +189,7 @@ function slot0.updateStatistics(slot0)
 		slot0.transform:SetSiblingIndex(4)
 		setActive(slot0, true)
 	end)
-	PoolMgr.GetInstance():GetUI("tupo", true, function (slot0)
+	PoolMgr.GetInstance():GetUI(slot22:isMetaShip() and "tupo_meta" or "tupo", true, function (slot0)
 		slot0.transform:SetParent(uv0._tf, false)
 
 		slot0.transform.localPosition = Vector3(1, 1, 1)
@@ -199,6 +237,10 @@ function slot0.willExit(slot0)
 
 	if slot0.designBg then
 		PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+	end
+
+	if slot0.metaBg then
+		PoolMgr.GetInstance():ReturnUI(slot0.metaName, slot0.metaBg)
 	end
 
 	slot0:stopVoice()

@@ -157,3 +157,7 @@ function slot0.PlayCommander(slot0)
 
 	seriesAsync(slot3)
 end
+
+function slot0.PlayGuildAssaultFleet(slot0, slot1)
+	slot0:PlayByGuideId("GNG001", {}, callback)
+end

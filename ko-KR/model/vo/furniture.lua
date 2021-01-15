@@ -228,9 +228,9 @@ function slot0.isMatchSearchKey(slot0, slot1)
 		return true
 	end
 
-	slot3 = slot0:getConfig("describe")
+	slot3 = string.lower(slot0:getConfig("describe"))
 
-	if string.find(slot0:getConfig("name"), slot1) or string.find(slot2, slot1) then
+	if string.find(string.lower(slot0:getConfig("name")), string.lower(slot1)) or string.find(slot2, slot1) then
 		return true
 	end
 

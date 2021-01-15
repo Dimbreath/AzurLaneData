@@ -132,6 +132,10 @@ function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	if uv0.GetShipMetaFromDataTemplate(slot0) then
+		slot8(slot6.buff_list_display)
+	end
+
 	return slot4
 end
 
@@ -242,6 +246,12 @@ function slot3.GetBulletResFromSkill(slot0, slot1, slot2)
 			if slot5.arg_list.effect then
 				uv1[#uv1 + 1] = uv0.Battle.BattleResourceManager.GetFXPath(slot8)
 			end
+
+			if slot5.arg_list.spawnData then
+				for slot14, slot15 in ipairs(uv0.Battle.BattleResourceManager.GetMonsterRes(slot9)) do
+					uv1[#uv1 + 1] = slot15
+				end
+			end
 		end
 	end
 
@@ -348,4 +358,12 @@ function slot3.SortFleetList(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot3.GetLimitAttributeRange(slot0, slot1)
+	if pg.battle_attribute_range[slot0] then
+		return math.clamp(slot1, pg.battle_attribute_range[slot0].min / 10000, pg.battle_attribute_range[slot0].max / 10000)
+	end
+
+	return slot1
 end

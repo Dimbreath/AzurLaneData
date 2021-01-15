@@ -38,9 +38,7 @@ function slot0.OnInit(slot0)
 	slot0.recordList = UIItemList.New(slot0.recordPanel:Find("record/content"), slot0.recordPanel:Find("record/content/commanders"))
 
 	onButton(slot0, slot0.samllTF, function ()
-		uv0:openDescPanel(0.2, function ()
-			uv0:updateDesc()
-		end)
+		uv0:openDescPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.descPanel, function ()
 		uv0:closeDescPanel()
@@ -57,7 +55,7 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.quickBtn, function ()
 		uv0:OpenRecordPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.recordPanel, function ()
+	onButton(slot0, slot0.recordPanel:Find("back"), function ()
 		uv0:CloseRecordPanel()
 	end, SFX_PANEL)
 end
@@ -70,17 +68,12 @@ function slot0.Update(slot0, slot1, slot2)
 		slot0:updateCommander(slot0["pos" .. slot7], slot7, slot0.fleet:getCommanders()[slot7])
 	end
 
-	if slot0.contextData.inDescPage then
-		slot0:openDescPanel(0, function ()
-			uv0:updateDesc()
-		end)
-	end
-
+	slot0:updateDesc()
 	slot0:updateRecordPanel()
 end
 
-function slot0.openDescPanel(slot0, slot1, slot2)
-	slot3 = slot1 or 0.2
+function slot0.openDescPanel(slot0, slot1)
+	slot2 = slot1 or 0.2
 
 	if LeanTween.isTweening(go(slot0.samllTF)) or LeanTween.isTweening(go(slot0.descFrameTF)) then
 		return
@@ -89,12 +82,13 @@ function slot0.openDescPanel(slot0, slot1, slot2)
 	setAnchoredPosition(slot0.samllTF, {
 		x = 0
 	})
-	LeanTween.moveX(slot0.samllTF, 800, slot3):setOnComplete(System.Action(function ()
+	LeanTween.moveX(slot0.samllTF, 800, slot2):setOnComplete(System.Action(function ()
 		setActive(uv0.descPanel, true)
+		pg.UIMgr.GetInstance():OverlayPanel(uv0._tf)
 		setAnchoredPosition(uv0.descFrameTF, {
 			x = 800
 		})
-		LeanTween.moveX(uv0.descFrameTF, 0, uv1):setOnComplete(System.Action(uv2))
+		LeanTween.moveX(uv0.descFrameTF, 0, uv1)
 	end))
 
 	slot0.contextData.inDescPage = true
@@ -114,6 +108,7 @@ function slot0.closeDescPanel(slot0, slot1)
 	})
 	LeanTween.moveX(slot0.descFrameTF, 800, slot2):setOnComplete(System.Action(function ()
 		setActive(uv0.descPanel, false)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
 		setAnchoredPosition(uv0.samllTF, {
 			x = 800
 		})
@@ -292,19 +287,14 @@ function slot0.CloseRecordPanel(slot0)
 	setActive(slot0.recordPanel, false)
 end
 
-function slot0.Show(slot0)
-	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
-end
-
-function slot0.Hide(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
-	uv0.super.Hide(slot0)
-end
-
 function slot0.OnDestroy(slot0)
 	if slot0:isShowing() then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+		LeanTween.cancel(go(slot0.samllTF))
+		LeanTween.cancel(go(slot0.descFrameTF))
+
+		if isActive(slot0.descPanel) then
+			pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+		end
 	end
 end
 

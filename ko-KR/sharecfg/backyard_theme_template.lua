@@ -1204,13 +1204,14 @@ pg.backyard_theme_template = {
 		desc = "눈 내린 상점가에서 크리스마스를 즐기자!",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 20,
+		discount = 0,
 		id = 37,
 		icon = "cr2themeicon",
 		comfortable = 0,
+		discount_time = "",
 		ids = {
 			37001,
 			37002,
@@ -1234,32 +1235,6 @@ pg.backyard_theme_template = {
 			37118,
 			37119,
 			37120
-		},
-		discount_time = {
-			{
-				{
-					2019,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[38] = {
@@ -1268,7 +1243,7 @@ pg.backyard_theme_template = {
 		desc = "2019년 한 해는 멧돼지처럼 힘차게 고고고~!",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -2507,6 +2482,88 @@ pg.backyard_theme_template = {
 			72123
 		}
 	},
+	[73] = {
+		Cfg_1 = 5,
+		name = "따뜻한 성야",
+		desc = "따스하고 포근한 크리스마스 이브를 즐겨요~",
+		deblocking = 1,
+		new = 0,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 73,
+		icon = "cs4themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			73001,
+			73002,
+			73101,
+			73102,
+			73103,
+			73104,
+			73105,
+			73106,
+			73107,
+			73108,
+			73109,
+			73110,
+			73111,
+			73112,
+			73113,
+			73114,
+			73115,
+			73116,
+			73117,
+			73118,
+			73119,
+			73120,
+			73121,
+			73301,
+			73302,
+			73303,
+			73304,
+			73305
+		}
+	},
+	[74] = {
+		Cfg_1 = 5,
+		name = "새해의 눈길",
+		desc = "말하자면... 서설은 풍년이 징조다?",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 74,
+		icon = "mh3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			74001,
+			74002,
+			74101,
+			74102,
+			74103,
+			74104,
+			74105,
+			74106,
+			74107,
+			74108,
+			74109,
+			74110,
+			74111,
+			74112,
+			74113,
+			74114,
+			74115,
+			74116,
+			74117,
+			74118
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2562,6 +2619,8 @@ pg.backyard_theme_template = {
 		69,
 		70,
 		71,
-		72
+		72,
+		73,
+		74
 	}
 }

@@ -28,7 +28,7 @@ function slot2.IsFlagsPass(slot0)
 		return true
 	end
 
-	if not uv0.Battle.BattleDataProxy.GetInstance():GetInitData().StageWaveFlags or not next(slot2) then
+	if not uv0.Battle.BattleDataProxy.GetInstance():GetWaveFlags() or not next(slot2) then
 		return false
 	end
 
@@ -110,6 +110,7 @@ function slot2.SetWaveData(slot0, slot1)
 	slot0._preWaveIDs = slot1.preWaves or {}
 	slot0._branchWaveIDs = slot1.conditionWaves or {}
 	slot0._blockFlags = slot1.blockFlags
+	slot0._type = slot1.triggerType
 	slot0._state = uv0.STATE_DEACTIVE
 end
 

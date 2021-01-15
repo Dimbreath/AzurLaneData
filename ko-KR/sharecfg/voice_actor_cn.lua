@@ -1011,5 +1011,29 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "사토 아케미",
 		code = 253
+	},
+	{
+		actor_name = "하라 유미",
+		code = 254
+	},
+	{
+		actor_name = "닛타 히요리",
+		code = 255
+	},
+	{
+		actor_name = "나나세 아야카",
+		code = 256
+	},
+	{
+		actor_name = "키무라 치사",
+		code = 257
+	},
+	{
+		actor_name = "토오노 히카루",
+		code = 258
+	},
+	{
+		actor_name = "니시모토 리미",
+		code = 259
 	}
 }

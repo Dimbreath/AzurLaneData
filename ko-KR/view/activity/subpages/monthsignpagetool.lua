@@ -35,7 +35,7 @@ function slot0.onAcheve(slot0, slot1, slot2)
 
 				uv1._event:emit(BaseUI.ON_AWARD, {
 					items = uv0,
-					onYes = uv3
+					removeFunc = uv3
 				})
 			end
 

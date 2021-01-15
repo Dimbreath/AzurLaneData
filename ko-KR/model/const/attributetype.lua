@@ -25,6 +25,8 @@ slot0.Scatter = "scatter"
 slot0.Ammo = "ammo"
 slot0.HuntingRange = "hunting_range"
 slot0.AirDurability = "AirDurability"
+slot0.AntiSiren = "anti_siren"
+slot0.Corrected = "corrected"
 slot0.OxyMax = "oxy_max"
 slot0.OxyCost = "oxy_cost"
 slot0.OxyRecovery = "oxy_recovery"
@@ -33,6 +35,7 @@ slot0.OxyAttackDuration = "attack_duration"
 slot0.OxyRaidDistance = "raid_distance"
 slot0.SonarRange = "sonarRange"
 slot0.Tactics = "tactics"
+slot0.WorldPower = "world_power"
 
 function slot0.Type2Name(slot0)
 	return i18n("attribute_" .. slot0)

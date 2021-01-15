@@ -8,12 +8,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.goods = {}
 
 	for slot5, slot6 in ipairs(slot1.good_list) do
-		slot7 = Goods.Create(slot6, Goods.TYPE_GUILD)
+		slot7 = GuildGoods.New(slot6)
 		slot0.goods[slot7.id] = slot7
 	end
 
 	slot0.refreshCount = slot1.refresh_count
-	slot0.nextRefreshTime = slot1.next_refresh_time
+	slot0.nextTime = slot1.next_refresh_time
 	slot0.type = ShopArgs.ShopGUILD
 end
 
@@ -29,11 +29,12 @@ function slot0.GetCommodities(slot0)
 	return slot0:getSortGoods()
 end
 
-function slot0.bindConfigTable(slot0)
+function slot0.updateNextRefreshTime(slot0, slot1)
+	slot0.nextTime = slot1
 end
 
-function slot0.updateNextRefreshTime(slot0, slot1)
-	slot0.nextRefreshTime = slot1
+function slot0.CanRefresh(slot0)
+	return slot0.refreshCount <= 0
 end
 
 function slot0.getSortGoods(slot0)
@@ -43,11 +44,23 @@ function slot0.getSortGoods(slot0)
 		table.insert(slot1, slot6)
 	end
 
+	table.sort(slot1, function (slot0, slot1)
+		return slot1:getConfig("ensure") < slot0:getConfig("ensure")
+	end)
+
 	return slot1
 end
 
 function slot0.getGoodsById(slot0, slot1)
 	return slot0.goods[slot1]
+end
+
+function slot0.GetResetConsume(slot0)
+	return pg.guildset.store_reset_cost.key_value
+end
+
+function slot0.UpdateGoodsCnt(slot0, slot1, slot2)
+	slot0:getGoodsById(slot1):UpdateCnt(slot2)
 end
 
 return slot0

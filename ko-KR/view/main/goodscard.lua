@@ -63,56 +63,18 @@ function slot0.update(slot0, slot1)
 	slot0.goodsVO = slot1
 
 	setActive(slot0.mask, not slot0.goodsVO:canPurchase())
-
-	slot3 = slot1:getConfig("type")
-
 	setActive(slot0.stars, false)
+
+	slot3 = slot1:getDropInfo()
+
+	updateDrop(slot0.itemTF, slot3)
+	setText(slot0.nameTxt, shortenString(slot3.cfg.name or "", 6))
 
 	slot5 = ""
 
-	if slot1:getConfig("effect_args") == "ship_bag_size" then
-		updateDrop(slot0.itemTF, {
-			count = 1,
-			type = DROP_TYPE_ITEM,
-			id = Goods.SHIP_BAG_SIZE_ITEM
-		})
-
-		slot5 = pg.item_data_statistics[Goods.SHIP_BAG_SIZE_ITEM].name or "??"
-	elseif slot4 == "equip_bag_size" then
-		updateDrop(slot0.itemTF, {
-			count = 1,
-			type = DROP_TYPE_ITEM,
-			id = Goods.EQUIP_BAG_SIZE_ITEM
-		})
-
-		slot5 = pg.item_data_statistics[Goods.EQUIP_BAG_SIZE_ITEM].name or "??"
-	elseif slot4 == "commander_bag_size" then
-		updateDrop(slot0.itemTF, {
-			count = 1,
-			type = DROP_TYPE_ITEM,
-			id = Goods.COMMANDER_BAG_SIZE_ITEM
-		})
-
-		slot5 = pg.item_data_statistics[Goods.COMMANDER_BAG_SIZE_ITEM].name or "??"
-	else
-		slot6 = {
-			type = slot1:getConfig("type"),
-			id = slot4[1],
-			count = slot1:getConfig("num")
-		}
-
-		updateDrop(slot0.itemTF, slot6)
-
-		slot5 = slot6.cfg.name or "??"
-	end
-
-	setText(slot0.nameTxt, shortenString(slot5, 6))
-
-	slot6 = ""
-
 	if slot1:getConfig("genre") == ShopArgs.ShoppingStreetLimit then
-		slot6 = 100 - slot1.discount .. "%OFF"
-		slot7 = slot1:getConfig("resource_num") * slot1.discount / 100
+		slot5 = 100 - slot1.discount .. "%OFF"
+		slot6 = slot1:getConfig("resource_num") * slot1.discount / 100
 	end
 
 	setActive(slot0.discountTF, false)
@@ -122,8 +84,8 @@ function slot0.update(slot0, slot1)
 
 	setActive(slot0.discountTF, slot1:hasDiscount())
 
-	slot0.discountTextTF.text = slot6
-	slot0.countTF.text = math.ceil(slot7)
+	slot0.discountTextTF.text = slot5
+	slot0.countTF.text = math.ceil(slot6)
 
 	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "", tf(slot0.resIconTF))
 end

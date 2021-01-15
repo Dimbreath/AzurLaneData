@@ -64,20 +64,21 @@ function slot0.CalcWeanponCD(slot0, slot1)
 end
 
 function slot0.GetInfoTrans(slot0, slot1)
-	slot2 = slot0.name or AttributeType.Type2Name(slot0.type)
-	slot3 = slot0.value or ""
+	slot3 = slot0.value
 
 	if slot0.type == AttributeType.CD then
 		if not slot1 then
-			slot2 = i18n("cd_normal")
+			slot2 = slot0.name or i18n("cd_normal")
 		end
 
-		slot3 = uv0.CalcWeanponCD(slot0.value, slot1) .. "s" .. i18n("word_secondseach")
+		slot3 = uv0.CalcWeanponCD(slot3, slot1) .. "s" .. i18n("word_secondseach")
 	elseif slot0.type == AttributeType.AirDurability then
-		slot3 = math.floor((slot3[1] + slot3[2] * (slot1 and slot1.level or 100)) / 1000)
+		slot3 = math.floor((slot3[1] + slot3[2] * ((slot1 and slot1.level or 100) - 1)) / 1000)
+	elseif slot0.type == AttributeType.AntiSiren then
+		slot3 = (math.floor(slot3 / 100) > 0 and "+" or slot3 < 0 and "-" or "") .. slot3 .. "%"
 	end
 
-	return slot2, slot3
+	return slot2 or AttributeType.Type2Name(slot0.type), slot3 or ""
 end
 
 function slot1(slot0)
@@ -188,6 +189,13 @@ function slot0.GetPropertiesInfo(slot0)
 		end
 	end
 
+	if slot0:GetAntiSirenPower() then
+		table.insert(slot2.attrs, {
+			type = AttributeType.AntiSiren,
+			value = slot0:GetAntiSirenPower()
+		})
+	end
+
 	if slot0:GetSonarProperty() then
 		table.insert(slot2.attrs, {
 			type = AttributeType.SonarRange,
@@ -244,7 +252,7 @@ function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 
 	if slot1 == 1 then
 		return {
-			name = slot0.config[AttributeType.Ammo]
+			name = i18n("equip_ammo_type_" .. slot0.config[AttributeType.Ammo])
 		}
 	elseif slot1 == 2 then
 		return {
@@ -310,12 +318,26 @@ function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 	end
 end
 
+slot2 = {
+	nil,
+	nil,
+	true,
+	true,
+	true
+}
+
 function slot0.GetEquipAttrPageInfo(slot0, slot1)
+	slot2, slot3 = nil
+
 	if type(slot1) == "table" then
-		return slot0:GetEquipAttrInfo(slot1[1], slot1[2])
+		slot3 = slot1[2]
+		slot2 = slot1[1]
 	else
-		return slot0:GetEquipAttrInfo(slot1, slot0.config.weapon_id[1])
+		slot3 = slot0.config.weapon_id[1]
+		slot2 = slot1
 	end
+
+	return slot0:GetEquipAttrInfo(slot2, slot3)
 end
 
 function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
@@ -372,6 +394,44 @@ function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
 			name = i18n("equip_info_22"),
 			value = pg.aircraft_template[slot0.id].dodge_limit
 		}
+	elseif slot1 == 10 then
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			return {
+				name = i18n("equip_info_28"),
+				type = AttributeType.Corrected,
+				value = EquipmentRarity.Rarity2CorrectedLevel(slot0.config.rarity, slot0.config.level)
+			}
+		else
+			return {
+				name = i18n("equip_info_28"),
+				type = AttributeType.Corrected,
+				value = pg.weapon_property[slot2].corrected .. "%"
+			}
+		end
+	elseif slot1 == 11 then
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			return nil
+		else
+			return {
+				name = i18n("equip_info_29"),
+				value = AttributeType.Type2Name(({
+					AttributeType.Cannon,
+					AttributeType.Torpedo,
+					AttributeType.AntiAircraft,
+					AttributeType.Air,
+					AttributeType.AntiSub
+				})[pg.weapon_property[slot2].attack_attribute])
+			}
+		end
+	elseif slot1 == 12 then
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			return nil
+		else
+			return {
+				name = i18n("equip_info_30"),
+				value = pg.weapon_property[slot2].attack_attribute_ratio .. "%"
+			}
+		end
 	end
 end
 
@@ -392,7 +452,7 @@ function slot0.GetSkill(slot0)
 end
 
 function slot0.GetWeaponID(slot0)
-	return config.weapon_id
+	return slot0.config.weapon_id
 end
 
 function slot0.GetSonarProperty(slot0)
@@ -403,6 +463,10 @@ function slot0.GetSonarProperty(slot0)
 	else
 		return nil
 	end
+end
+
+function slot0.GetAntiSirenPower(slot0)
+	return slot0.config.anti_siren
 end
 
 function slot0.canUpgrade(slot0)
@@ -485,6 +549,14 @@ function slot0.isDevice(slot0)
 	end)
 end
 
+function slot0.isAircraft(slot0)
+	slot1 = pg.equip_data_template[slot0.configId].type
+
+	return underscore.any(EquipType.AirEquipTypes, function (slot0)
+		return slot0 == uv0
+	end)
+end
+
 function slot0.isAircraftExtend(slot0)
 	slot1 = pg.equip_data_template[slot0.configId].type
 
@@ -514,6 +586,47 @@ function slot0.GetRootEquipment(slot0)
 	slot3.count = 1
 
 	return slot3
+end
+
+function slot0.getNation(slot0)
+	return slot0.config.nationality
+end
+
+function slot0.getConfig(slot0, slot1)
+	return slot0.config[slot1]
+end
+
+function slot0.GetEquipRootStatic(slot0)
+	slot1 = pg.equip_data_template
+
+	while slot1[slot0] and slot1[slot0].prev ~= 0 do
+		slot0 = slot1[slot0].prev
+	end
+
+	return slot0
+end
+
+function slot0.GetRevertRewardsStatic(slot0)
+	slot1 = pg.equip_data_template
+	slot2 = {}
+
+	while slot1[slot0] and slot1[slot0].prev ~= 0 do
+		if slot1[slot1[slot0].prev] then
+			for slot7, slot8 in ipairs(slot3.trans_use_item) do
+				slot2[slot8[1]] = (slot2[slot8[1]] or 0) + slot8[2]
+			end
+
+			slot2.gold = (slot2.gold or 0) + slot3.trans_use_gold
+		end
+	end
+
+	return slot2
+end
+
+function slot0.GetEquipReloadStatic(slot0)
+	if pg.equip_data_statistics[slot0].weapon_id and #slot2 > 0 and pg.weapon_property[slot2[1]] then
+		return slot3.reload_max
+	end
 end
 
 return slot0

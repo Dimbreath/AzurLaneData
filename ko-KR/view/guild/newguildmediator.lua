@@ -28,12 +28,11 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GuildProxy.NEW_GUILD_ADDED then
-		slot0.viewComponent:emit(BaseUI.ON_BACK)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.GUILD)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.CREATE_GUILD_DONE then
-		slot0.viewComponent:closeInfoPanel()
+		slot0.viewComponent:ClosePage()
 	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == JoinGuildMediator then
 		slot0.viewComponent:startCreate()
 	end

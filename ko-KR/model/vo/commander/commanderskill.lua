@@ -44,12 +44,37 @@ function slot0.getTacticSkill(slot0)
 	return slot0:getConfig("effect_tactic")
 end
 
-function slot0.getDesc(slot0)
-	slot2 = slot0:getLevel()
+function slot0.GetTacticSkillForWorld(slot0)
+	return slot0:getConfig("effect_tactic_world")
+end
 
-	for slot7, slot8 in ipairs(slot0:getConfig("desc")) do
-		slot1 = "" .. (slot2 < slot8[1] and "<color=#a3a2a2>Lv." or "Lv.") .. slot8[1] .. "：" .. slot8[2] .. (slot2 < slot8[1] and "</color>" or "") .. "\n"
+function slot0.GetSkillGroup(slot0)
+	slot1 = {}
+	slot2 = slot0:getConfig("prev_id")
+
+	while slot2 and slot2 ~= 0 do
+		slot3 = pg.commander_skill_template[slot2]
+
+		table.insert(slot1, slot3)
+
+		slot2 = slot3.prev_id
 	end
+
+	table.insert(slot1, pg.commander_skill_template[slot0.configId])
+
+	slot3 = slot0:getConfig("next_id")
+
+	while slot3 and slot3 ~= 0 do
+		slot4 = pg.commander_skill_template[slot3]
+
+		table.insert(slot1, slot4)
+
+		slot3 = slot4.next_id
+	end
+
+	table.sort(slot1, function (slot0, slot1)
+		return slot0.lv < slot1.lv
+	end)
 
 	return slot1
 end

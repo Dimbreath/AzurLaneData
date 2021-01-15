@@ -8,6 +8,7 @@ function slot0.execute(slot0, slot1)
 			getProxy(TaskProxy):addTask(Task.New({
 				id = uv0
 			}))
+			uv1:sendNotification(GAME.TRIGGER_TASK_DONE)
 		end
 	end)
 end

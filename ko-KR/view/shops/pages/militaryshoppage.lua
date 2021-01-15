@@ -64,7 +64,26 @@ function slot0.OnUpdateCommodity(slot0, slot1)
 end
 
 function slot0.InitCommodities(slot0)
-	function slot1(slot0)
+	slot0.cards = {}
+
+	slot0.uilist:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			uv1:UpdateCard(slot2, uv0[slot1 + 1])
+		end
+	end)
+	slot0.uilist:align(#slot0.shop:GetCommodities())
+end
+
+function slot0.UpdateCard(slot0, slot1, slot2)
+	slot3 = GoodsCard.New(slot1)
+
+	slot3:update(slot2)
+
+	slot0.cards[slot2.id] = slot3
+
+	onButton(slot0, slot3.itemTF, function ()
+		slot0 = uv0.goodsVO
+
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			showOwned = true,
 			hideLine = true,
@@ -84,25 +103,7 @@ function slot0.InitCommodities(slot0)
 				uv1:emit(NewShopsMediator.ON_SHOPPING, uv0.id, 1)
 			end
 		})
-	end
-
-	slot0.cards = {}
-
-	slot0.uilist:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-			slot4 = GoodsCard.New(slot2)
-
-			slot4:update(slot3)
-
-			uv1.cards[slot3.id] = slot4
-
-			onButton(uv1, slot4.itemTF, function ()
-				uv0(uv1.goodsVO)
-			end, SFX_PANEL)
-		end
-	end)
-	slot0.uilist:align(#slot0.shop:GetCommodities())
+	end, SFX_PANEL)
 end
 
 function slot0.AddTimer(slot0)
@@ -110,7 +111,7 @@ function slot0.AddTimer(slot0)
 	slot0.timer = Timer.New(function ()
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 			uv1:RemoveTimer()
-			uv1:emit(NewShopsMediator.REFRESH_MILITARY_SHOP)
+			uv1:OnTimeOut()
 		else
 			uv1.timerTF.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 		end
@@ -118,6 +119,10 @@ function slot0.AddTimer(slot0)
 
 	slot0.timer:Start()
 	slot0.timer.func()
+end
+
+function slot0.OnTimeOut(slot0)
+	slot0:emit(NewShopsMediator.REFRESH_MILITARY_SHOP)
 end
 
 function slot0.RemoveTimer(slot0)

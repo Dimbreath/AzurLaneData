@@ -69,6 +69,13 @@ pg.land_based_template = {
 			3
 		}
 	},
+	[13] = {
+		name = "机场",
+		prefab = "",
+		type = 0,
+		id = 13,
+		function_args = ""
+	},
 	all = {
 		1,
 		2,
@@ -76,6 +83,7 @@ pg.land_based_template = {
 		4,
 		10,
 		11,
-		12
+		12,
+		13
 	}
 }

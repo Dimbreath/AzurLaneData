@@ -20,50 +20,14 @@ return {
 			targetAniEffect = "",
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
-			target_choise = "TargetAllHelp",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipTag"
+			},
 			arg_list = {
 				buff_id = 102021,
-				effectFilter = {
-					{
-						"TargetID",
-						"=",
-						10200011
-					},
-					{
-						"TargetID",
-						"=",
-						10200012
-					},
-					{
-						"TargetID",
-						"=",
-						10200013
-					},
-					{
-						"TargetID",
-						"=",
-						10200014
-					},
-					{
-						"TargetID",
-						"=",
-						10200021
-					},
-					{
-						"TargetID",
-						"=",
-						10200022
-					},
-					{
-						"TargetID",
-						"=",
-						10200023
-					},
-					{
-						"TargetID",
-						"=",
-						10200024
-					}
+				ship_tag_list = {
+					"Bilibili"
 				}
 			}
 		}

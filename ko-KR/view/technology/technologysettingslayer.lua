@@ -397,9 +397,10 @@ function slot0.initActCatchupPage(slot0)
 			uv0.actCatchupProgressText = uv0:findTF("Progress", uv0.actCatchupTF)
 
 			setActive(uv0:findTF("GoBtn", uv0.actCatchupTF), false)
+			setActive(uv0:findTF("FinishBtn", uv0.actCatchupTF), false)
 
-			slot2 = uv0.actCatchup.data1
-			slot4 = pg.activity_event_blueprint_catchup[uv0.actCatchup:getConfig("config_id")].obtain_max
+			slot3 = uv0.actCatchup.data1
+			slot5 = pg.activity_event_blueprint_catchup[uv0.actCatchup:getConfig("config_id")].obtain_max
 
 			updateDrop(uv0.actCatchupItemTF, {
 				count = 1,
@@ -409,8 +410,8 @@ function slot0.initActCatchupPage(slot0)
 			onButton(uv0, uv0.actCatchupItemTF, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setSlider(uv0.actCatchupSliderTF, 0, slot4, slot2)
-			setText(uv0.actCatchupProgressText, slot2 .. "/" .. slot4)
+			setSlider(uv0.actCatchupSliderTF, 0, slot5, slot3)
+			setText(uv0.actCatchupProgressText, slot3 .. "/" .. slot5)
 			setActive(slot0, true)
 		end)
 	end

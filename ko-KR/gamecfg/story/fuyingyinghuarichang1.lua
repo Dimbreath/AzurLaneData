@@ -418,7 +418,7 @@ return {
 			blackBg = true,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "오오… 하네츠키! 나도…… 아, 흠흠. 재미있는 새해가 되었으면 좋겠구나.",
+			say = "오오... 하네츠키! 나도...——아, 크흠, 너희 모두 의미있는 신년을 보내길 바랄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

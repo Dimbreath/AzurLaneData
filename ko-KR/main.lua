@@ -37,7 +37,16 @@ if (PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM 
 	pg.SdkMgr.GetInstance():InitSDK()
 end
 
-print("AgeRating:<color=#ff0000>" .. LuaHelper.GetAgeRating() .. "</color>")
+if PLATFORM_CODE == PLATFORM_JP then
+	slot0 = tf(GameObject.Find("LevelCamera/Canvas/UIMain/LevelGrid"))
+
+	RemoveComponent(slot0, typeof(Image))
+
+	slot0.offsetMin = Vector2(-200, -200)
+	slot0.offsetMax = Vector2(200, 200)
+
+	setActive(slot0:Find("DragLayer"), true)
+end
 
 GetComponent(tf(GameObject.Find("OverlayCamera/Overlay/UIDebug/logs")), "Text").supportRichText = false
 
@@ -135,8 +144,10 @@ function OnApplicationExit()
 		return
 	end
 
-	if pg.goldExchangeMgr then
-		pg.goldExchangeMgr:willExit()
+	if nowWorld.staminaMgr:IsShowing() then
+		nowWorld.staminaMgr:Hide()
+
+		return
 	end
 
 	slot11:onBackPressed()
@@ -156,7 +167,6 @@ function PressBack()
 	end
 end
 
-pg.goldExchangeMgr = nil
 slot2 = os.clock()
 
 seriesAsync({
@@ -200,6 +210,9 @@ seriesAsync({
 				pg.ToastMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
+				pg.WorldToastMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
 				pg.SecondaryPWDMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
@@ -239,7 +252,6 @@ seriesAsync({
 	pg.m02:registerCommand(GAME.STARTUP, StartupCommand)
 	pg.m02:sendNotification(GAME.STARTUP)
 	pg.SdkMgr.GetInstance():GoSDkLoginScene()
-	SetHXConfig()
 
 	if Application.isEditor then
 		pg.UIMgr.GetInstance():AddDebugButton("QATool", function ()
@@ -251,19 +263,3 @@ seriesAsync({
 		getProxy(TechnologyNationProxy):printNationPointLog()
 	end)
 end)
-
-function SetHXConfig()
-	if HXSet.isHx() then
-		for slot3, slot4 in ipairs(pg.ship_skin_template.all) do
-			if pg.ship_skin_template[slot4].painting_hx ~= "" then
-				pg.ship_skin_template[slot4].prefab = pg.ship_skin_template[slot4].painting_hx
-			end
-		end
-
-		if PLATFORM == PLATFORM_IPHONEPLAYER and LuaHelper.GetAgeRating() == 12 then
-			for slot3, slot4 in ipairs(pg.pay_data_display.all) do
-				pg.pay_data_display[slot4].id_str = pg.pay_data_display[slot4].id_str_r12
-			end
-		end
-	end
-end

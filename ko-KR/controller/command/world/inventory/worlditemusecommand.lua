@@ -11,31 +11,38 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = {}
 
-			getProxy(WorldProxy):GetWorld():getInventoryProxy():RemoveItem(uv0, uv1)
+			nowWorld:GetInventoryProxy():RemoveItem(uv0, uv1)
 
-			if pg.world_item_data_template[uv0].usage == WorldItem.UsageBuff then
-				for slot11, slot12 in ipairs(uv2) do
-					slot3:GetShip(slot12):AddBuff(WorldItem.getItemBuffID(uv0), 1)
+			if WorldItem.New({
+				id = uv0,
+				count = uv1
+			}):getWorldItemType() == WorldItem.UsageBuff then
+				for slot10, slot11 in ipairs(uv2) do
+					slot2:GetShip(slot11):AddBuff(slot4:getItemBuffID(), slot4.count)
 				end
-			elseif slot6 == WorldItem.UsageHPRegenerate then
-				for slot11, slot12 in ipairs(uv2) do
-					slot3:GetShip(slot12):Regenerate(WorldItem.getItemRegenerate(uv0))
+			elseif slot5 == WorldItem.UsageHPRegenerate then
+				for slot10, slot11 in ipairs(uv2) do
+					slot2:GetShip(slot11):Regenerate(slot4:getItemRegenerate() * slot4.count)
 				end
-			elseif slot6 == WorldItem.UsageDrop or slot6 == WorldItem.UsageLoot then
-				for slot10, slot11 in ipairs(slot0.drop_list) do
-					slot12 = Item.New(slot11)
+			elseif slot5 == WorldItem.UsageHPRegenerateValue then
+				for slot10, slot11 in ipairs(uv2) do
+					slot2:GetShip(slot11):RegenerateValue(slot4:getItemRegenerate() * slot4.count)
+				end
+			elseif slot5 == WorldItem.UsageRecoverAp then
+				slot2.staminaMgr:ExchangeStamina(slot4:getItemStaminaRecover() * slot4.count)
+				uv3:sendNotification(GAME.WORLD_STAMINA_EXCHANGE_DONE)
+			elseif slot5 == WorldItem.UsageDrop or slot5 == WorldItem.UsageWorldItem or slot5 == WorldItem.UsageLoot or slot5 == WorldItem.UsageWorldClean or slot5 == WorldItem.UsageWorldBuff or slot5 == WorldItem.UsageDropAppointed then
+				for slot9, slot10 in ipairs(slot0.drop_list) do
+					slot11 = Item.New(slot10)
 
-					table.insert(slot1, slot12)
-					uv3:sendNotification(GAME.ADD_ITEM, slot12)
+					table.insert(slot1, slot11)
+					uv3:sendNotification(GAME.ADD_ITEM, slot11)
 				end
 			end
 
-			slot3:AddLog(WorldLog.TypeItemUsage, {
-				item = uv0
-			})
 			uv3:sendNotification(GAME.WORLD_ITEM_USE_DONE, {
 				drops = slot1,
-				item = uv0
+				item = slot4
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n1("大世界物品使用失败：" .. slot0.result))

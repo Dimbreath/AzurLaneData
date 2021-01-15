@@ -7,11 +7,11 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot3.moneyItem.type == DROP_TYPE_RESOURCE and getProxy(PlayerProxy):getRawData()[id2res(slot4.id)] < slot4.count then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot4.id)].name))
+	if slot3.moneyItem.type == DROP_TYPE_RESOURCE and getProxy(PlayerProxy):getRawData()[id2res(slot5.id)] < slot5.count then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot5.id)].name))
 	end
 
-	if getProxy(WorldProxy):GetWorld():getInventoryProxy():GetItemCount(WorldItem.MoneyId) < slot4.count then
+	if nowWorld:GetInventoryProxy():GetItemCount(slot5.id) < slot5.count then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
@@ -31,14 +31,16 @@ function slot0.execute(slot0, slot1)
 
 			if uv3.type == DROP_TYPE_RESOURCE then
 				slot5 = id2ItemId(uv3.id)
+				slot6 = uv4:getData()
+
+				slot6:consume({
+					[id2res(shopCfg.resource_type)] = uv3.count
+				})
+				uv4:updatePlayer(slot6)
+			elseif uv3.type == DROP_TYPE_WORLD_ITEM then
+				uv5:RemoveItem(uv3.id, uv3.count)
 			end
 
-			uv2:AddLog(WorldLog.TypePurchase, {
-				fleet = slot3.id,
-				port = slot4.id,
-				item = slot5
-			})
-			uv4:RemoveItem(WorldItem.MoneyId, uv3.count)
 			uv1:sendNotification(GAME.WORLD_PORT_SHOPPING_DONE, {
 				drops = slot1
 			})

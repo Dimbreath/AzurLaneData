@@ -48,6 +48,35 @@ function slot0.execute(slot0, slot1)
 				slot3:updatePlayer(slot4)
 			end
 
+			if uv0:IsGuildAddLivnessType() then
+				slot3 = 0
+				slot4 = false
+
+				if getProxy(GuildProxy):getData() and uv0:isGuildTask() then
+					slot2:setWeeklyTaskFlag(1)
+
+					if slot2:getWeeklyTask() then
+						slot3 = slot5:GetLivenessAddition()
+					end
+
+					slot4 = true
+				elseif uv0:IsRoutineType() then
+					slot3 = pg.guildset.daily_task_guild_active.key_value
+				elseif uv0:IsWeeklyType() then
+					slot3 = pg.guildset.weekly_task_guild_active.key_value
+				end
+
+				if slot2 and slot3 and slot3 > 0 then
+					slot2:getMemberById(getProxy(PlayerProxy):getRawData().id):AddLiveness(slot3)
+
+					slot4 = true
+				end
+
+				if slot4 then
+					slot1:updateGuild(slot2)
+				end
+			end
+
 			for slot5 = #PlayerConst.addTranDrop(slot0.award_list), 1, -1 do
 				if slot1[slot5].type == DROP_TYPE_VITEM and pg.item_data_statistics[slot6.id].virtual_type == 6 then
 					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then

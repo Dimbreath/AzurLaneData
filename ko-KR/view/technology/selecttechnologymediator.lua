@@ -1,6 +1,8 @@
 slot0 = class("SelectTechnologyMediator", import("..base.ContextMediator"))
 slot0.ON_BLUEPRINT = "SelectTechnologyMediator:ON_BLUEPRINT"
 slot0.ON_TECHNOLOGY = "SelectTechnologyMediator:ON_TECHNOLOGY"
+slot0.ON_TRANSFORM_EQUIPMENT = "SelectTechnologyMediator:ON_TRANSFORM_EQUIPMENT"
+slot0.ON_META = "SelectTechnologyMediator:ON_META"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_TECHNOLOGY, function ()
@@ -12,10 +14,17 @@ function slot0.register(slot0)
 	slot0:bind(TechnologyConst.OPEN_TECHNOLOGY_TREE_SCENE, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.TECHNOLOGY_TREE_SCENE)
 	end)
+	slot0:bind(uv0.ON_TRANSFORM_EQUIPMENT, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.EQUIPMENT_TRANSFORM)
+	end)
+	slot0:bind(uv0.ON_META, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER)
+	end)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 	slot0.viewComponent:notifyTechnology(uv0.onTechnologyNotify())
 	slot0.viewComponent:notifyBlueprint(uv0.onBlueprintNotify())
 	slot0.viewComponent:notifyFleet(getProxy(TechnologyNationProxy):getShowRedPointTag())
+	slot0.viewComponent:notifyMeta(MetaCharacterConst.isAnyMetaRedPoint())
 end
 
 function slot0.onTechnologyNotify()

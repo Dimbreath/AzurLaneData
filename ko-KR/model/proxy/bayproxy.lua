@@ -36,17 +36,27 @@ function slot0.register(slot0)
 		uv0:addEnergyListener(uv0.energyRecoverTime - pg.TimeMgr.GetInstance():GetServerTime())
 	end)
 	slot0:on(12010, function (slot0)
+		slot2 = getProxy(PlayerProxy):getInited()
+		slot3 = 0
 		uv0.newShipList = {}
 
 		for slot7, slot8 in ipairs(slot0.ship_list) do
 			if Ship.New(slot8):getConfigTable() then
-				uv0:addShip(slot9, false)
+				if slot9:isMetaShip() and not slot9.virgin and Player.isMetaShipNeedToTrans(slot9.configId) then
+					if MetaCharacterConst.addReMetaTransItem(slot9) then
+						slot9:setReMetaSpecialItemVO(slot10)
+					end
 
-				if getProxy(PlayerProxy):getInited() then
-					slot3 = 0 + 1
+					uv0.newShipList[#uv0.newShipList + 1] = slot9
+				else
+					uv0:addShip(slot9, false)
+
+					if slot2 then
+						slot3 = slot3 + 1
+					end
+
+					uv0.newShipList[#uv0.newShipList + 1] = slot9
 				end
-
-				uv0.newShipList[#uv0.newShipList + 1] = slot9
 			else
 				warning("不存在的角色: " .. slot9.id)
 			end
@@ -264,6 +274,18 @@ function slot0.getShipsByStatus(slot0, slot1)
 	return slot2
 end
 
+function slot0.getShipsByTeamType(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot7:getTeamType() == slot1 then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
 function slot0.getConfigShipCount(slot0, slot1)
 	for slot6, slot7 in pairs(slot0.data) do
 		if slot7.configId == slot1 then
@@ -291,6 +313,14 @@ end
 function slot0.getShipById(slot0, slot1)
 	if slot0.data[slot1] ~= nil then
 		return slot0.data[slot1]:clone()
+	end
+end
+
+function slot0.getMetaShipByGroupId(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6:isMetaShip() and slot6.metaCharacter.id == slot1 then
+			return slot6
+		end
 	end
 end
 
@@ -416,6 +446,28 @@ function slot0.getEquipsInShips(slot0, slot1, slot2)
 	end
 
 	return slot4
+end
+
+function slot0.GetEquipsInShipsRaw(slot0)
+	function slot1(slot0, slot1, slot2)
+		slot3 = CreateShell(slot0)
+		slot3.shipId = slot1
+		slot3.shipPos = slot2
+
+		return slot3
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		for slot11, slot12 in pairs(slot7.equipments) do
+			if slot12 then
+				table.insert(slot2, slot1(slot12, slot7.id, slot11))
+			end
+		end
+	end
+
+	return slot2
 end
 
 function slot0.getEquipmentSkinInShips(slot0, slot1, slot2)
@@ -636,6 +688,43 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 	end
 
 	return slot9
+end
+
+function slot0.getWorldRecommendShip(slot0, slot1, slot2)
+	slot4 = {
+		[slot9] = slot9:getShipCombatPower()
+	}
+
+	for slot8, slot9 in ipairs(slot0:getShipsByTeamType(slot1)) do
+		-- Nothing
+	end
+
+	table.sort(slot3, function (slot0, slot1)
+		return uv0[slot0] < uv0[slot1]
+	end)
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot2) do
+		slot5[#slot5 + 1] = slot0.data[slot10]:getGroupId()
+	end
+
+	slot6 = #slot3
+	slot7 = nil
+
+	while slot6 > 0 do
+		slot8 = slot3[slot6]
+
+		if not table.contains(slot2, slot8.id) and not table.contains(slot5, slot8:getGroupId()) and ShipStatus.ShipStatusCheck("inWorld", slot8) then
+			slot7 = slot8
+
+			break
+		else
+			slot6 = slot6 - 1
+		end
+	end
+
+	return slot7
 end
 
 return slot0

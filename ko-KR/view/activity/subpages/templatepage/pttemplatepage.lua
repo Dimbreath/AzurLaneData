@@ -43,7 +43,7 @@ function slot0.OnFirstFlush(slot0)
 		elseif slot1 and not slot1:isEnd() then
 			uv0:emit(ActivityMediator.BATTLE_OPERA)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()

@@ -36,7 +36,11 @@ function slot0.getBoxComsume(slot0)
 		end
 	end
 
-	return slot1 or uv0[#uv0][1]
+	if getProxy(GuildProxy):getRawData() then
+		slot1 = (slot1 or uv0[#uv0][1]) - slot2:getCatBoxGoldAddition()
+	end
+
+	return math.max(slot1, 0)
 end
 
 slot0.MAX_GETBOX_CNT = 0

@@ -37,25 +37,44 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(30004, {
-		id = {
-			slot4.id
-		}
-	}, 30005, function (slot0)
-		if uv0.readFlag == 0 then
-			uv1:removeMail(uv0)
-		else
-			uv0.readFlag = 2
-			uv0.attachFlag = uv0.ATTACHMENT_TAKEN
+	slot16 = {}
 
-			uv1:updateMail(uv0)
+	if slot4:hasAttachmentsType(DROP_TYPE_WORLD_ITEM) then
+		if not nowWorld:IsActivate() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_noWorld"))
+
+			return
+		elseif slot17:CheckReset() then
+			table.insert(slot16, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("mail_takeAttachment_error_reWorld"),
+					onYes = slot0
+				})
+			end)
 		end
+	end
 
-		uv1:unpdateExistAttachment(uv1:GetAttachmentCount() - 1)
-		uv2:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
-			items = PlayerConst.addTranDrop(slot0.attachment_list)
-		})
-		uv2:sendNotification(GAME.TAKE_ATTACHMENT_DONE)
+	seriesAsync(slot16, function ()
+		pg.ConnectionMgr.GetInstance():Send(30004, {
+			id = {
+				uv0.id
+			}
+		}, 30005, function (slot0)
+			if uv0.readFlag == 0 then
+				uv1:removeMail(uv0)
+			else
+				uv0.readFlag = 2
+				uv0.attachFlag = uv0.ATTACHMENT_TAKEN
+
+				uv1:updateMail(uv0)
+			end
+
+			uv1:unpdateExistAttachment(uv1:GetAttachmentCount() - 1)
+			uv2:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
+				items = PlayerConst.addTranDrop(slot0.attachment_list)
+			})
+			uv2:sendNotification(GAME.TAKE_ATTACHMENT_DONE)
+		end)
 	end)
 end
 

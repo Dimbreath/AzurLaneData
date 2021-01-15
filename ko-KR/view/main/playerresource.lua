@@ -103,11 +103,10 @@ end
 
 function slot0.setResources(slot0, slot1, slot2)
 	slot0.player = slot1
-	slot3 = slot1.level
 
-	setText(slot0.goldMax, "MAX: " .. pg.user_level[slot3].max_gold)
+	setText(slot0.goldMax, "MAX: " .. slot1:getLevelMaxGold())
 	setText(slot0.goldValue, slot1.gold)
-	setText(slot0.oilMax, "MAX: " .. pg.user_level[slot3].max_oil)
+	setText(slot0.oilMax, "MAX: " .. slot1:getLevelMaxOil())
 	setText(slot0.oilValue, slot1.oil)
 	setText(slot0.gemValue, slot1:getTotalGem())
 

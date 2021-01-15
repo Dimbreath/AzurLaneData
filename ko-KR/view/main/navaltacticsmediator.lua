@@ -3,6 +3,7 @@ slot0.OPEN_DOCKYARD = "NavalTacticsMediator:OPEN_DOCKYARD"
 slot0.ON_START = "NavalTacticsMediator:ON_START"
 slot0.ON_CANCEL = "NavalTacticsMediator:ON_CANCEL"
 slot0.ON_SHOPPING = "NavalTacticsMediator:ON_SHOPPING"
+slot0.ON_SKILL = "NavalTacticsMediator:ON_SKILL"
 slot1 = 10
 
 function slot0.register(slot0)
@@ -39,6 +40,15 @@ function slot0.register(slot0)
 			prevPage = uv0.__cname,
 			hideTagFlags = ShipStatus.TAG_HIDE_TACTICES,
 			onShip = function (slot0, slot1, slot2)
+				if slot0:isMetaShip() then
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
+						autoOpenTactics = true,
+						autoOpenShipConfigID = slot0.configId
+					})
+
+					return
+				end
+
 				slot3, slot4 = ShipStatus.ShipStatusCheck("inTactics", slot0, slot1)
 
 				if not slot3 then
@@ -77,6 +87,16 @@ function slot0.register(slot0)
 			count = 1,
 			id = slot1
 		})
+	end)
+	slot0:bind(uv1.ON_SKILL, function (slot0, slot1, slot2, slot3)
+		uv0:addSubLayers(Context.New({
+			mediator = SkillInfoMediator,
+			viewComponent = NavalTacticsSkillInfoLayer,
+			data = {
+				skillOnShip = slot2,
+				skillId = slot1
+			}
+		}))
 	end)
 
 	if slot0.contextData.shipToLesson then

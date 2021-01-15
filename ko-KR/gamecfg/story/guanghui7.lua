@@ -248,7 +248,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "사람의 마음을 안정시키는 평화로운 풍경이다.",
+			say = "사람의 마음을 안정시키는 평화로운 풍경이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

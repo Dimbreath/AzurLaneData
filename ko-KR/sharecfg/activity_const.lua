@@ -268,10 +268,10 @@ pg.activity_const = {
 		act_id = 20226
 	},
 	ACTIVITY_ID_CHALLENGE_RANK = {
-		act_id = 20484
+		act_id = 20617
 	},
 	ACTIVITY_ID_CHALLENGE = {
-		act_id = 20485
+		act_id = 20618
 	},
 	FRANCE_RE_BUILD = {
 		act_id = 0
@@ -460,7 +460,10 @@ pg.activity_const = {
 		act_id = 20359
 	},
 	NEWYEAR_SHRINE_PAGE_ID = {
-		act_id = 20360
+		act_id = 20645
+	},
+	NEWYEAR_SNACK_PAGE_ID = {
+		act_id = 20650
 	},
 	NEWYEAR_ACTIVITY = {
 		act_id = 20361
@@ -737,5 +740,14 @@ pg.activity_const = {
 	},
 	DOA_PT_ID = {
 		act_id = 20606
+	},
+	ELITE_AWARD_ACTIVITY_ID = {
+		act_id = 20135
+	},
+	NEWYEAR_SNACKSTREET_MINIGAME = {
+		act_id = 20646
+	},
+	NEWYEAR_SNOWBALL_FIGHT = {
+		act_id = 20644
 	}
 }

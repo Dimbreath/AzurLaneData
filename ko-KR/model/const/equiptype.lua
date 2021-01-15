@@ -16,6 +16,16 @@ slot0.Sonar = 14
 slot0.AntiSubAircraft = 15
 slot0.Helicopter = 17
 slot0.Goods = 18
+slot0.AmmoType_1 = 1
+slot0.AmmoType_2 = 2
+slot0.AmmoType_3 = 3
+slot0.AmmoType_4 = 4
+slot0.AmmoType_5 = 5
+slot0.AmmoType_6 = 6
+slot0.AmmoType_7 = 7
+slot0.AmmoType_8 = 8
+slot0.AmmoType_8 = 9
+slot0.AmmoType_8 = 10
 slot0.CannonEquipTypes = {
 	slot0.CannonQuZhu,
 	slot0.CannonQingXun,
@@ -170,7 +180,8 @@ slot3 = {
 slot4 = {
 	7,
 	8,
-	9
+	9,
+	12
 }
 slot5 = {
 	1,

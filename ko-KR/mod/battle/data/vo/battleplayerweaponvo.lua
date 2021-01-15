@@ -156,7 +156,7 @@ end
 
 function slot3.resetCurrent(slot0)
 	slot0._current = 0
-	slot0._reloadStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
+	slot0._reloadStartTime = slot0._jammingStarTime or pg.TimeMgr.GetInstance():GetCombatTime()
 end
 
 function slot3.SetMax(slot0, slot1)
@@ -301,6 +301,8 @@ function slot3.DispatchCountChange(slot0)
 end
 
 function slot3.StartJamming(slot0)
+	slot0._jammingStarTime = pg.TimeMgr.GetInstance():GetCombatTime()
+
 	for slot4, slot5 in ipairs(slot0._chargingList) do
 		slot5:StartJamming()
 	end
@@ -311,7 +313,19 @@ function slot3.JammingEliminate(slot0)
 		slot5:JammingEliminate()
 	end
 
-	slot0:RefreshCD()
+	if slot0._reloadStartTime then
+		slot1 = pg.TimeMgr.GetInstance():GetCombatTime()
+
+		if #slot0._readyList ~= 0 then
+			slot0._max = slot0._GCD
+		else
+			slot0._max = slot0:GetNextTimeStamp() - slot1 + slot0._current
+		end
+
+		slot0._reloadStartTime = slot0._reloadStartTime + slot1 - slot0._jammingStarTime
+	end
+
+	slot0._jammingStarTime = nil
 end
 
 function slot3.Dispose(slot0)

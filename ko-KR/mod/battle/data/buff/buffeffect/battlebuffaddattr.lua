@@ -52,6 +52,10 @@ function slot1.UpdateAttr(slot0, slot1)
 	else
 		slot0:UpdateAttrAdd(slot1)
 	end
+
+	if slot0._attr == "cloakExpose" or slot0._attr == "cloakRestore" or slot0._attr == "cloakRecovery" then
+		slot1:UpdateCloakConfig()
+	end
 end
 
 function slot1.CheckWeapon(slot0)

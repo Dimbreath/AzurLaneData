@@ -83,7 +83,7 @@ function slot0.updateLogic(slot0)
 			slot2 = uv1.x < uv2.x and 1 or -1
 
 			if uv1.id == uv2.id then
-				slot2 = math.random(0, 2) > 1 and 1 or -1
+				slot2 = math.random(0, 1) == 1 and 1 or -1
 			end
 
 			slot1.x = math.abs(slot1.x) * slot2

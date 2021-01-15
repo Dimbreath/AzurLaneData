@@ -1,11 +1,12 @@
 ys = ys or {}
 slot0 = ys
-slot1 = slot0.Battle.BattleUnitEvent
+slot1 = slot0.Battle.BattleFormulas
+slot2 = slot0.Battle.BattleUnitEvent
 slot0.Battle.BattleSkillEffect = class("BattleSkillEffect")
 slot0.Battle.BattleSkillEffect.__name = "BattleSkillEffect"
-slot2 = slot0.Battle.BattleSkillEffect
+slot3 = slot0.Battle.BattleSkillEffect
 
-function slot2.Ctor(slot0, slot1, slot2)
+function slot3.Ctor(slot0, slot1, slot2)
 	slot0._tempData = slot1
 	slot0._type = slot0._tempData.type
 	slot0._targetChoise = slot0._tempData.target_choise or "TargetNull"
@@ -18,11 +19,11 @@ function slot2.Ctor(slot0, slot1, slot2)
 	slot0._level = slot2
 end
 
-function slot2.SetCommander(slot0, slot1)
+function slot3.SetCommander(slot0, slot1)
 	slot0._commander = slot1
 end
 
-function slot2.Effect(slot0, slot1, slot2, slot3)
+function slot3.Effect(slot0, slot1, slot2, slot3)
 	if slot2 and #slot2 > 0 then
 		for slot7, slot8 in ipairs(slot2) do
 			slot0:AniEffect(slot1, slot8)
@@ -33,7 +34,7 @@ function slot2.Effect(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.AniEffect(slot0, slot1, slot2)
+function slot3.AniEffect(slot0, slot1, slot2)
 	slot3 = slot2:GetPosition()
 	slot4 = slot1:GetPosition()
 
@@ -70,7 +71,7 @@ function slot2.AniEffect(slot0, slot1, slot2)
 	end
 end
 
-function slot2.DataEffect(slot0, slot1, slot2, slot3)
+function slot3.DataEffect(slot0, slot1, slot2, slot3)
 	if slot0._delay > 0 then
 		slot4 = nil
 		slot5 = slot0._timerIndex + 1
@@ -91,10 +92,10 @@ function slot2.DataEffect(slot0, slot1, slot2, slot3)
 	slot0:DoDataEffect(slot1, slot2, slot3)
 end
 
-function slot2.DoDataEffect(slot0, slot1, slot2, slot3)
+function slot3.DoDataEffect(slot0, slot1, slot2, slot3)
 end
 
-function slot2.DataEffectWithoutTarget(slot0, slot1, slot2)
+function slot3.DataEffectWithoutTarget(slot0, slot1, slot2)
 	if slot0._delay > 0 then
 		slot3 = nil
 		slot4 = slot0._timerIndex + 1
@@ -115,10 +116,10 @@ function slot2.DataEffectWithoutTarget(slot0, slot1, slot2)
 	slot0:DoDataEffectWithoutTarget(slot1, slot2)
 end
 
-function slot2.DoDataEffectWithoutTarget(slot0, slot1, slot2)
+function slot3.DoDataEffectWithoutTarget(slot0, slot1, slot2)
 end
 
-function slot2.IsFilterTarget(slot0, slot1, slot2)
+function slot3.IsFilterTarget(slot0, slot1, slot2)
 	slot4 = true
 
 	for slot8, slot9 in ipairs(slot0._tempData.arg_list.effectFilter or {}) do
@@ -142,7 +143,7 @@ function slot2.IsFilterTarget(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.GetTarget(slot0, slot1, slot2)
+function slot3.GetTarget(slot0, slot1, slot2)
 	if type(slot0._targetChoise) == "string" then
 		if slot0._targetChoise == "TargetSameToLastEffect" then
 			return slot2._lastEffectTarget
@@ -158,7 +159,7 @@ function slot2.GetTarget(slot0, slot1, slot2)
 	end
 end
 
-function slot2.Clear(slot0)
+function slot3.Clear(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot5)
 
@@ -168,20 +169,21 @@ function slot2.Clear(slot0)
 	slot0._commander = nil
 end
 
-function slot2.calcCorrdinate(slot0, slot1, slot2)
+function slot3.calcCorrdinate(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot0.absoulteCorrdinate then
 		slot3 = Vector3(slot0.absoulteCorrdinate.x, 0, slot0.absoulteCorrdinate.z)
 	elseif slot0.absoulteRandom then
-		slot3 = formula.RandomPos(slot0.absoulteRandom)
+		slot3 = uv0.RandomPos(slot0.absoulteRandom)
 	elseif slot0.casterRelativeCorrdinate then
+		slot4 = slot1:GetIFF()
 		slot5 = slot1:GetPosition()
-		slot3 = Vector3(slot1:GetIFF() * slot0.casterRelativeCorrdinate.hrz + slot5.x, 0, slot0.casterRelativeCorrdinate.vrt + slot5.z)
+		slot3 = Vector3(slot4 * slot0.casterRelativeCorrdinate.hrz + slot5.x, 0, slot4 * slot0.casterRelativeCorrdinate.vrt + slot5.z)
 	elseif slot0.casterRelativeRandom then
 		slot4 = slot1:GetIFF()
 		slot5 = slot1:GetPosition()
-		slot3 = formula.RandomPos({
+		slot3 = uv0.RandomPos({
 			X1 = slot4 * slot0.casterRelativeRandom.front + slot5.x,
 			X2 = slot4 * slot0.casterRelativeRandom.rear + slot5.x,
 			Z1 = slot0.casterRelativeRandom.upper + slot5.z,
@@ -189,13 +191,14 @@ function slot2.calcCorrdinate(slot0, slot1, slot2)
 		})
 	elseif slot0.targetRelativeCorrdinate then
 		if slot2 then
+			slot4 = slot2:GetIFF()
 			slot5 = slot2:GetPosition()
-			slot3 = Vector3(slot2:GetIFF() * slot0.targetRelativeCorrdinate.hrz + slot5.x, 0, slot0.targetRelativeCorrdinate.vrt + slot5.z)
+			slot3 = Vector3(slot4 * slot0.targetRelativeCorrdinate.hrz + slot5.x, 0, slot4 * slot0.targetRelativeCorrdinate.vrt + slot5.z)
 		end
 	elseif slot0.targetRelativeRandom and slot2 then
 		slot4 = slot2:GetIFF()
 		slot5 = slot2:GetPosition()
-		slot3 = formula.RandomPos({
+		slot3 = uv0.RandomPos({
 			X1 = slot4 * slot0.targetRelativeRandom.front + slot5.x,
 			X2 = slot4 * slot0.targetRelativeRandom.rear + slot5.x,
 			Z1 = slot0.targetRelativeRandom.upper + slot5.z,

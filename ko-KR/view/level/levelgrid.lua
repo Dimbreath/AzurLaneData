@@ -150,11 +150,19 @@ function slot0.initAll(slot0, slot1)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			uv0:initTargetArrow()
 			uv0:InitDestinationMark()
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			for slot4 = 0, ChapterConst.MaxRow - 1 do
 				for slot8 = 0, ChapterConst.MaxColumn - 1 do
 					uv0:initCell(slot4, slot8)
@@ -165,6 +173,10 @@ function slot0.initAll(slot0, slot1)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			uv0:AddEdgePool("SubmarineHunting", "ui/commonUI_atlas", "white_dot", {
 				1,
 				0,
@@ -177,11 +189,19 @@ function slot0.initAll(slot0, slot1)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			uv0:initFleets()
 			uv0:initChampions()
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			if uv0.contextData.chapterVO:existOni() then
 				uv0:displayEscapeGrid()
 			end
@@ -1543,6 +1563,9 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 					slot10.info = slot4
 					slot10.chapter = slot3
 					slot10.grid = slot0
+				elseif slot11.type == ChapterConst.LBIdle and slot4.attachmentId == ChapterConst.LBIDAirport then
+					slot9 = AttachmentLBAirport
+					slot10.extraFlagList = slot3:getExtraFlags()
 				end
 			elseif slot4.attachment == ChapterConst.AttachBarrier then
 				slot9 = AttachmentBarrierCell

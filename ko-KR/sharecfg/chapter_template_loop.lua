@@ -1,17 +1,17 @@
 pg = pg or {}
 pg.chapter_template_loop = {
 	[101] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 1,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 101,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 1,
 		enter_story_limit = "",
@@ -161,22 +161,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[102] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 2,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 102,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 1,
 		enter_story_limit = "",
@@ -431,22 +435,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[103] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 2,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 103,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 1,
 		enter_story_limit = "",
@@ -737,22 +745,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[104] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 104,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 1,
 		enter_story_limit = "",
@@ -1125,22 +1137,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[201] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 2,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 201,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -1607,22 +1623,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[202] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 202,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -2142,22 +2162,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[203] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 203,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -2654,22 +2678,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[204] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 204,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -3136,22 +3164,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[301] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 301,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -3638,22 +3670,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[302] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 302,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -4164,22 +4200,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[303] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 303,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -4685,22 +4725,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[304] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 304,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -5192,22 +5236,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[401] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 401,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -5618,22 +5666,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[402] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 402,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -6037,22 +6089,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[403] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 403,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -6401,22 +6457,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[404] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 404,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -6902,22 +6962,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[501] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 501,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -7408,22 +7472,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[502] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 502,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -7852,22 +7920,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[503] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 503,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -8266,22 +8338,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[504] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 504,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -8705,22 +8781,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[601] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 601,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -9182,22 +9262,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[602] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 602,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -9715,22 +9799,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[603] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 603,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -10172,22 +10260,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[604] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 604,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -10673,22 +10765,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[701] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 701,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -10997,22 +11093,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[702] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 702,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -11424,22 +11524,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[703] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 703,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -11921,22 +12025,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[704] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 704,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -12403,22 +12511,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[801] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 801,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -12749,22 +12861,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[802] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 802,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -13181,22 +13297,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[803] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 803,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -13676,22 +13796,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[804] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 804,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -14234,22 +14358,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[901] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 901,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -14674,22 +14802,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[902] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 902,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -15152,22 +15284,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[903] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 903,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -15654,22 +15790,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[904] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 904,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -16178,22 +16318,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1001] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -16636,22 +16780,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1002] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -17151,22 +17299,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1003] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -17683,22 +17835,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1004] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1004,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -18229,22 +18385,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1101] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1101,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -18736,22 +18896,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1102] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1102,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -19359,22 +19523,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1103] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1103,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -19951,22 +20119,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1104] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1104,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -20653,22 +20825,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1201] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1201,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -21139,22 +21315,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1202] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1202,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -21737,22 +21917,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1203] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1203,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -22371,22 +22555,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1204] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1204,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -23121,22 +23309,27 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[10101] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10101,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 1,
 		enter_story_limit = "",
@@ -23303,17 +23496,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10102] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10102,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 1,
 		enter_story_limit = "",
@@ -23554,17 +23748,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10103] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10103,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 1,
 		enter_story_limit = "",
@@ -23826,17 +24021,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10104] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10104,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 1,
 		enter_story_limit = "",
@@ -24115,17 +24311,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10201] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10201,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -24454,17 +24651,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10202] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10202,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -24845,17 +25043,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10203] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10203,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -25213,17 +25412,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10204] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10204,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -25551,17 +25751,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10301] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10301,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -25909,17 +26110,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10302] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10302,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -26291,17 +26493,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10303] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10303,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -26668,17 +26871,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10304] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10304,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -27031,17 +27235,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10401] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10401,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -27431,17 +27636,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10402] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10402,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -27824,17 +28030,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10403] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10403,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -28162,17 +28369,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10404] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10404,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -28636,17 +28844,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10501] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10501,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -29115,17 +29324,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10502] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10502,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -29532,17 +29742,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10503] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10503,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -29919,17 +30130,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10504] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10504,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -30331,17 +30543,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10601] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10601,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -30782,17 +30995,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10602] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10602,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -31289,17 +31503,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10603] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10603,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -31720,17 +31935,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10604] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10604,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -32195,17 +32411,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10701] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10701,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -32508,17 +32725,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10702] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10702,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -32924,17 +33142,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10703] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10703,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -33410,17 +33629,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10704] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10704,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -33881,17 +34101,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10801] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10801,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -34216,17 +34437,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10802] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10802,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -34637,17 +34859,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10803] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10803,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -35121,17 +35344,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10804] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10804,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -35668,17 +35892,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10901] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10901,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -36095,17 +36320,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10902] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10902,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -36560,17 +36786,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10903] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10903,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -37049,17 +37276,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[10904] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 10904,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -37560,17 +37788,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[11001] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 11001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -38005,17 +38234,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[11002] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 11002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -38507,17 +38737,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[11003] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 11003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -39026,17 +39257,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[11004] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 11004,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -39559,17 +39791,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[11101] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 11101,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -40054,17 +40287,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[11102] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 11102,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -40664,17 +40898,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[11103] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 11103,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -41243,17 +41478,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[11104] = {
-		submarine_num = 0,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 0,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 11104,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -41932,17 +42168,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -42387,17 +42624,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -42948,17 +43186,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -43621,17 +43860,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -44088,17 +44328,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140007] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140007,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -44661,17 +44902,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140008] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140008,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -45363,17 +45605,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140011] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140011,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -45859,17 +46102,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140013] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140013,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -46461,17 +46705,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140014] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140014,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -47175,17 +47420,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140015] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140015,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -47685,17 +47931,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140017] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140017,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -48301,17 +48548,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1140018] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1140018,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -49039,17 +49287,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1200002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1200002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -49665,17 +49914,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1200003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1200003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -50300,17 +50550,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1200004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1200004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -50930,17 +51181,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1220001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1220001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -51388,17 +51640,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1220002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1220002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -52041,17 +52294,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1220003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1220003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -52714,17 +52968,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1220004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1220004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -53421,17 +53676,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -53892,17 +54148,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -54370,17 +54627,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -54933,17 +55191,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -55501,17 +55760,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -56112,17 +56372,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -56689,17 +56950,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230011] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230011,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -57202,17 +57464,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230012] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230012,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -57722,17 +57985,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230013] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230013,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -58327,17 +58591,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230014] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230014,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -58937,17 +59202,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230015] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230015,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -59592,17 +59858,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1230016] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1230016,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -60213,17 +60480,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -60664,17 +60932,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -61221,17 +61490,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240004,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -61890,17 +62160,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -62353,17 +62624,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240007] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240007,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -62922,17 +63194,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240008] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240008,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -63613,17 +63886,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240011] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240011,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -64105,17 +64379,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240013] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240013,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -64703,17 +64978,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240014] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240014,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -65413,17 +65689,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240015] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240015,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -65919,17 +66196,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240017] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240017,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -66531,17 +66809,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1240018] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1240018,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -67265,17 +67544,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -67749,17 +68029,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -68282,17 +68563,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -68912,17 +69194,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -69439,17 +69722,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -70009,17 +70293,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -70545,17 +70830,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250011] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250011,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -71071,17 +71357,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250012] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250012,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -71646,17 +71933,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250013] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250013,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -72313,17 +72601,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250014] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250014,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -72882,17 +73171,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250015] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250015,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -73496,17 +73786,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1250016] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1250016,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -74076,17 +74367,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -74554,17 +74846,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -75052,17 +75345,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -75640,17 +75934,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -76152,17 +76447,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260007] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260007,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -76706,17 +77002,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260008] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260008,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -77219,17 +77516,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260021] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260021,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -77739,17 +78037,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260022] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260022,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -78277,17 +78576,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260023] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260023,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -78906,17 +79206,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260026] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260026,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -79459,17 +79760,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260027] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260027,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -80057,17 +80359,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1260028] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1260028,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -80613,17 +80916,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1270001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1270001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -81089,17 +81393,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1270002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1270002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -81670,17 +81975,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1270003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1270003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -82210,17 +82516,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1280001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1280001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -82699,17 +83006,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1280002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1280002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -83280,17 +83588,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1280003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1280003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -83862,17 +84171,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1280004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1280004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -84445,17 +84755,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1280005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1280005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -85023,17 +85334,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1290002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1290002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -85526,17 +85838,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1290004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1290004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -86128,17 +86441,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1290006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1290006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -86725,17 +87039,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1290007] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1290007,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -87328,17 +87643,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1290009] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1290009,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -87875,17 +88191,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1290011] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1290011,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -88481,17 +88798,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -88959,17 +89277,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -89450,17 +89769,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -89964,17 +90284,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -90491,17 +90812,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -91067,17 +91389,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -91602,17 +91925,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300021] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300021,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -92122,17 +92446,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300022] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300022,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -92656,17 +92981,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300023] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300023,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -93213,17 +93539,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300024] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300024,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -93782,17 +94109,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300025] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300025,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -94402,17 +94730,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1300026] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1300026,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -94981,17 +95310,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -95470,17 +95800,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -95946,17 +96277,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -96460,17 +96792,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -96994,17 +97327,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -97473,17 +97807,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -98007,17 +98342,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310021] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310021,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -98539,17 +98875,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310022] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310022,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -99058,17 +99395,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310023] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310023,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -99614,17 +99952,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310024] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310024,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -100190,17 +100529,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310025] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310025,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -100713,17 +101053,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1310026] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1310026,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -101291,17 +101632,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1320001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1320001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -101725,17 +102067,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1320002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1320002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -102220,17 +102563,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1320003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1320003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -102754,17 +103098,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -103203,17 +103548,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -103681,17 +104027,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -104179,17 +104526,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -104714,17 +105062,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -105237,17 +105586,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -105828,17 +106178,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330021] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330021,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -106319,17 +106670,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330022] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330022,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -106839,17 +107191,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330023] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330023,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -107380,17 +107733,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330024] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330024,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -107957,17 +108311,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330025] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330025,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -108524,17 +108879,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1330026] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1330026,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -109159,17 +109515,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -109664,17 +110021,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -110140,17 +110498,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -110708,17 +111067,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -111282,17 +111642,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -111899,17 +112260,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -112482,17 +112844,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340011] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340011,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -113029,17 +113392,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340012] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340012,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -113547,17 +113911,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340013] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340013,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -114157,17 +114522,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340014] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340014,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -114773,17 +115139,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340015] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340015,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -115434,17 +115801,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1340016] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1340016,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -116061,17 +116429,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1350001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1350001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -116577,17 +116946,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1350002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1350002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -117153,17 +117523,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1350003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1350003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -117726,17 +118097,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -118213,17 +118585,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -118729,17 +119102,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -119257,17 +119631,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -119775,17 +120150,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -120595,17 +120971,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -122083,17 +122460,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360021] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360021,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -122612,17 +122990,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360022] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360022,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -123170,17 +123549,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360023] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360023,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -123741,17 +124121,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360024] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360024,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -124300,17 +124681,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360025] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360025,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -125163,17 +125545,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1360026] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1360026,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -126694,17 +127077,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1370001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1370001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -127343,17 +127727,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1370002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1370002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -127999,17 +128384,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1370003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1370003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -128650,17 +129036,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -129229,17 +129616,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -129792,17 +130180,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -130376,17 +130765,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -131017,17 +131407,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -131683,17 +132074,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -132443,17 +132835,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380021] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380021,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -133063,17 +133456,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380022] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380022,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -133667,17 +134061,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380023] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380023,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -134292,17 +134687,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380024] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380024,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -134974,17 +135370,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380025] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380025,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -135683,17 +136080,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1380026] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1380026,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -136486,17 +136884,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1390001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1390001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -136962,17 +137361,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1390002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1390002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -137543,17 +137943,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1390003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1390003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -138083,17 +138484,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -138553,17 +138955,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -139030,17 +139433,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -139592,17 +139996,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -140160,17 +140565,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -140771,17 +141177,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -141348,17 +141755,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400011] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400011,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -141860,17 +142268,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400012] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400012,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -142379,17 +142788,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400013] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400013,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -142983,17 +143393,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400014] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400014,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -143593,17 +144004,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400015] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400015,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -144248,17 +144660,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1400016] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1400016,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -144869,17 +145282,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410001,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -145561,17 +145975,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410002,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -146112,17 +146527,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410003,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -146813,17 +147229,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410004,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -147666,17 +148083,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410005,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -148397,17 +148815,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410006] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410006,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -149316,17 +149735,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410021] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410021,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -150049,17 +150469,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410022] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410022,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -150642,17 +151063,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410023] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410023,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -151385,17 +151807,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410024] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410024,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -152279,17 +152702,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410025] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410025,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -153053,17 +153477,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1410026] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1410026,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -154016,17 +154441,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1420001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1420001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -154521,17 +154947,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1420002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1420002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -155038,17 +155465,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1420003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1420003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -155552,17 +155980,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1430001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "LiveStart",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1430001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -156046,17 +156475,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1430002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "LiveStart",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1430002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -156625,17 +157055,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1430003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "LiveStart",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1430003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -157211,17 +157642,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1430004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "LiveStart",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1430004,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -157812,17 +158244,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1430005] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "LiveStart",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1430005,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -158625,17 +159058,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1440002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1440002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -159248,17 +159682,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1440003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1440003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -159887,17 +160322,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1440004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1440004,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -160514,17 +160950,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1450001] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1450001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -161039,17 +161476,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1450002] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1450002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -161620,17 +162058,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1450003] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1450003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -162202,17 +162641,18 @@ pg.chapter_template_loop = {
 		alarm_cell = {}
 	},
 	[1450004] = {
-		submarine_num = 1,
+		special_operation_list = "",
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 1450004,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -162860,18 +163300,8206 @@ pg.chapter_template_loop = {
 		chapter_buff = {},
 		alarm_cell = {}
 	},
+	[1460001] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 3,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460001,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 8,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1490001,
+				15,
+				0
+			},
+			{
+				1490002,
+				20,
+				0
+			},
+			{
+				1490003,
+				30,
+				1
+			},
+			{
+				1490004,
+				15,
+				0
+			},
+			{
+				1490005,
+				20,
+				0
+			},
+			{
+				1490006,
+				30,
+				1
+			},
+			{
+				1490007,
+				15,
+				0
+			},
+			{
+				1490008,
+				20,
+				0
+			},
+			{
+				1490009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1490005,
+			1490008
+		},
+		ai_expedition_list = {
+			1490301,
+			1490302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1490013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				8
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				12
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				7,
+				"dexiv3_2x2_3",
+				65,
+				-1
+			},
+			{
+				4,
+				3,
+				"dexiv3_3x1_2",
+				110,
+				29
+			},
+			{
+				4,
+				0,
+				"dexiv3_2x2_4",
+				41,
+				-15
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x1_3",
+				0,
+				21
+			},
+			{
+				0,
+				7,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-106,
+			-318,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8803,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460002] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460002,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 9,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1490101,
+				15,
+				0
+			},
+			{
+				1490102,
+				20,
+				0
+			},
+			{
+				1490103,
+				30,
+				1
+			},
+			{
+				1490104,
+				15,
+				0
+			},
+			{
+				1490105,
+				20,
+				0
+			},
+			{
+				1490106,
+				30,
+				1
+			},
+			{
+				1490107,
+				15,
+				0
+			},
+			{
+				1490108,
+				20,
+				0
+			},
+			{
+				1490109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1490105,
+			1490108
+		},
+		ai_expedition_list = {
+			1490303,
+			1490304,
+			1490305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1490113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				16
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				9,
+				"dexiv3_1x1_1",
+				0,
+				4
+			},
+			{
+				4,
+				2,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				3,
+				5,
+				"dexiv3_1x2_2",
+				0,
+				-26
+			},
+			{
+				2,
+				3,
+				"dexiv3_1x1_2",
+				0,
+				19
+			},
+			{
+				0,
+				8,
+				"dexiv3_2x2_3",
+				76,
+				-7
+			},
+			{
+				0,
+				6,
+				"dexiv3_1x1_1",
+				0,
+				10
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x2_1",
+				-2,
+				-18
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-195,
+			-371,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8803,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460003] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460003,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 10,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1490201,
+				15,
+				0
+			},
+			{
+				1490202,
+				20,
+				0
+			},
+			{
+				1490203,
+				30,
+				1
+			},
+			{
+				1490204,
+				15,
+				0
+			},
+			{
+				1490205,
+				20,
+				0
+			},
+			{
+				1490206,
+				30,
+				1
+			},
+			{
+				1490207,
+				15,
+				0
+			},
+			{
+				1490208,
+				20,
+				0
+			},
+			{
+				1490209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1490205,
+			1490208
+		},
+		ai_expedition_list = {
+			1490306,
+			1490307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1490213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				12
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				3,
+				"dexiv3_3x1_2",
+				106,
+				27
+			},
+			{
+				3,
+				7,
+				"dexiv3_2x2_3",
+				65,
+				-11
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x2_2",
+				0,
+				-27
+			},
+			{
+				1,
+				1,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				0,
+				7,
+				"dexiv3_3x1_1",
+				92,
+				26
+			},
+			{
+				0,
+				4,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-135,
+			-197,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8803,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460004] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460004,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 10,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1491001,
+				15,
+				0
+			},
+			{
+				1491002,
+				20,
+				0
+			},
+			{
+				1491003,
+				30,
+				1
+			},
+			{
+				1491004,
+				15,
+				0
+			},
+			{
+				1491005,
+				20,
+				0
+			},
+			{
+				1491006,
+				30,
+				1
+			},
+			{
+				1491007,
+				15,
+				0
+			},
+			{
+				1491008,
+				20,
+				0
+			},
+			{
+				1491009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1491005,
+			1491008
+		},
+		ai_expedition_list = {
+			1491301,
+			1491302,
+			1491303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1491013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				4,
+				"dexiv3_1x1_3",
+				0,
+				15
+			},
+			{
+				6,
+				0,
+				"dexiv3_1x2_2",
+				-10,
+				-24
+			},
+			{
+				5,
+				0,
+				"dexiv3_3x1_1",
+				94,
+				25
+			},
+			{
+				4,
+				6,
+				"dexiv3_2x2_4",
+				43,
+				-2
+			},
+			{
+				2,
+				4,
+				"dexiv3_1x1_2",
+				0,
+				19
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				1,
+				1,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				0,
+				6,
+				"dexiv3_3x1_2",
+				109,
+				29
+			},
+			{
+				0,
+				2,
+				"dexiv3_1x1_1",
+				0,
+				12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-200,
+			10,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8806,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460005] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460005,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 11,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1491101,
+				15,
+				0
+			},
+			{
+				1491102,
+				20,
+				0
+			},
+			{
+				1491103,
+				30,
+				1
+			},
+			{
+				1491104,
+				15,
+				0
+			},
+			{
+				1491105,
+				20,
+				0
+			},
+			{
+				1491106,
+				30,
+				1
+			},
+			{
+				1491107,
+				15,
+				0
+			},
+			{
+				1491108,
+				20,
+				0
+			},
+			{
+				1491109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1491105,
+			1491108
+		},
+		ai_expedition_list = {
+			1491304,
+			1491305,
+			1491306,
+			1491307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1491113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				12
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				10,
+				true,
+				4
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				8
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"dexiv3_3x1_1",
+				101,
+				23
+			},
+			{
+				5,
+				9,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				4,
+				2,
+				"dexiv3_2x2_3",
+				71,
+				-7
+			},
+			{
+				4,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				12
+			},
+			{
+				3,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				4
+			},
+			{
+				2,
+				6,
+				"dexiv3_1x1_1",
+				0,
+				6
+			},
+			{
+				1,
+				10,
+				"dexiv3_1x2_2",
+				0,
+				-22
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x2_2",
+				0,
+				-22
+			},
+			{
+				0,
+				8,
+				"dexiv3_3x1_1",
+				95,
+				23
+			},
+			{
+				0,
+				3,
+				"dexiv3_3x1_2",
+				109,
+				24
+			},
+			{
+				0,
+				1,
+				"dexiv3_1x1_3",
+				0,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-145,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8806,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460006] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460006,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 12,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1491201,
+				15,
+				0
+			},
+			{
+				1491202,
+				20,
+				0
+			},
+			{
+				1491203,
+				30,
+				1
+			},
+			{
+				1491204,
+				15,
+				0
+			},
+			{
+				1491205,
+				20,
+				0
+			},
+			{
+				1491206,
+				30,
+				1
+			},
+			{
+				1491207,
+				15,
+				0
+			},
+			{
+				1491208,
+				20,
+				0
+			},
+			{
+				1491209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1491205,
+			1491208
+		},
+		ai_expedition_list = {
+			1491308,
+			1491309,
+			1491310
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1491213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				false,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				1
+			},
+			{
+				9,
+				4,
+				true,
+				1
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				false,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				12
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				12
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"dexiv3_3x1_1",
+				98,
+				21
+			},
+			{
+				9,
+				1,
+				"dexiv3_3x1_2",
+				109,
+				22
+			},
+			{
+				7,
+				8,
+				"dexiv3_2x2_4",
+				42,
+				-13
+			},
+			{
+				7,
+				0,
+				"dexiv3_2x2_3",
+				63,
+				-8
+			},
+			{
+				5,
+				4,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				5,
+				0,
+				"dexiv3_1x2_2",
+				0,
+				51
+			},
+			{
+				4,
+				9,
+				"dexiv3_1x2_2",
+				0,
+				-18
+			},
+			{
+				3,
+				7,
+				"dexiv3_2x2_3",
+				68,
+				-4
+			},
+			{
+				3,
+				1,
+				"dexiv3_2x2_4",
+				42,
+				-10
+			},
+			{
+				2,
+				9,
+				"dexiv3_1x1_2",
+				0,
+				16
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				16
+			},
+			{
+				1,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				8
+			},
+			{
+				1,
+				2,
+				"dexiv3_1x1_1",
+				0,
+				5
+			},
+			{
+				0,
+				9,
+				"dexiv3_1x1_3",
+				0,
+				19
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x1_3",
+				0,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-291,
+			225,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8806,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460021] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460021,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 12,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					1,
+					2,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"antiaircraft",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1492001,
+				15,
+				0
+			},
+			{
+				1492002,
+				20,
+				0
+			},
+			{
+				1492003,
+				30,
+				1
+			},
+			{
+				1492004,
+				15,
+				0
+			},
+			{
+				1492005,
+				20,
+				0
+			},
+			{
+				1492006,
+				30,
+				1
+			},
+			{
+				1492007,
+				15,
+				0
+			},
+			{
+				1492008,
+				20,
+				0
+			},
+			{
+				1492009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1492005,
+			1492008
+		},
+		ai_expedition_list = {
+			1492301,
+			1492302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1492013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				8
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				12
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				7,
+				"dexiv3_2x2_3",
+				65,
+				-1
+			},
+			{
+				4,
+				3,
+				"dexiv3_3x1_2",
+				110,
+				29
+			},
+			{
+				4,
+				0,
+				"dexiv3_2x2_4",
+				41,
+				-15
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x1_3",
+				0,
+				21
+			},
+			{
+				0,
+				7,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-106,
+			-318,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8809,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460022] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460022,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 13,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					1,
+					2,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1492101,
+				15,
+				0
+			},
+			{
+				1492102,
+				20,
+				0
+			},
+			{
+				1492103,
+				30,
+				1
+			},
+			{
+				1492104,
+				15,
+				0
+			},
+			{
+				1492105,
+				20,
+				0
+			},
+			{
+				1492106,
+				30,
+				1
+			},
+			{
+				1492107,
+				15,
+				0
+			},
+			{
+				1492108,
+				20,
+				0
+			},
+			{
+				1492109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1492105,
+			1492108
+		},
+		ai_expedition_list = {
+			1492303,
+			1492304,
+			1492305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1492113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				16
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				9,
+				"dexiv3_1x1_1",
+				0,
+				4
+			},
+			{
+				4,
+				2,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				3,
+				5,
+				"dexiv3_1x2_2",
+				0,
+				-26
+			},
+			{
+				2,
+				3,
+				"dexiv3_1x1_2",
+				0,
+				19
+			},
+			{
+				0,
+				8,
+				"dexiv3_2x2_3",
+				76,
+				-7
+			},
+			{
+				0,
+				6,
+				"dexiv3_1x1_1",
+				0,
+				10
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x2_1",
+				-2,
+				-18
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-195,
+			-371,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8809,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460023] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460023,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 14,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					1,
+					2,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1492201,
+				15,
+				0
+			},
+			{
+				1492202,
+				20,
+				0
+			},
+			{
+				1492203,
+				30,
+				1
+			},
+			{
+				1492204,
+				15,
+				0
+			},
+			{
+				1492205,
+				20,
+				0
+			},
+			{
+				1492206,
+				30,
+				1
+			},
+			{
+				1492207,
+				15,
+				0
+			},
+			{
+				1492208,
+				20,
+				0
+			},
+			{
+				1492209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1492205,
+			1492208
+		},
+		ai_expedition_list = {
+			1492306,
+			1492307,
+			1492308,
+			1492309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1492213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				12
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				3,
+				"dexiv3_3x1_2",
+				106,
+				27
+			},
+			{
+				3,
+				7,
+				"dexiv3_2x2_3",
+				65,
+				-11
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x2_2",
+				0,
+				-27
+			},
+			{
+				1,
+				1,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				0,
+				7,
+				"dexiv3_3x1_1",
+				92,
+				26
+			},
+			{
+				0,
+				4,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-135,
+			-197,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8809,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460024] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460024,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 14,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"air",
+				1,
+				1200
+			},
+			{
+				"antisub",
+				1,
+				500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1493001,
+				15,
+				0
+			},
+			{
+				1493002,
+				20,
+				0
+			},
+			{
+				1493003,
+				30,
+				1
+			},
+			{
+				1493004,
+				15,
+				0
+			},
+			{
+				1493005,
+				20,
+				0
+			},
+			{
+				1493006,
+				30,
+				1
+			},
+			{
+				1493007,
+				15,
+				0
+			},
+			{
+				1493008,
+				20,
+				0
+			},
+			{
+				1493009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1493005,
+			1493008
+		},
+		ai_expedition_list = {
+			1493301,
+			1493302,
+			1493303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1493013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				4,
+				"dexiv3_1x1_3",
+				0,
+				15
+			},
+			{
+				6,
+				0,
+				"dexiv3_1x2_2",
+				-10,
+				-24
+			},
+			{
+				5,
+				0,
+				"dexiv3_3x1_1",
+				94,
+				25
+			},
+			{
+				4,
+				6,
+				"dexiv3_2x2_4",
+				43,
+				-2
+			},
+			{
+				2,
+				4,
+				"dexiv3_1x1_2",
+				0,
+				19
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				1,
+				1,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				0,
+				6,
+				"dexiv3_3x1_2",
+				109,
+				29
+			},
+			{
+				0,
+				2,
+				"dexiv3_1x1_1",
+				0,
+				12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_bisimai",
+			45,
+			20,
+			-200,
+			10,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8812,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460025] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460025,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 15,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1350
+			},
+			{
+				"dodge",
+				1,
+				650
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1493101,
+				15,
+				0
+			},
+			{
+				1493102,
+				20,
+				0
+			},
+			{
+				1493103,
+				30,
+				1
+			},
+			{
+				1493104,
+				15,
+				0
+			},
+			{
+				1493105,
+				20,
+				0
+			},
+			{
+				1493106,
+				30,
+				1
+			},
+			{
+				1493107,
+				15,
+				0
+			},
+			{
+				1493108,
+				20,
+				0
+			},
+			{
+				1493109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1493105,
+			1493108
+		},
+		ai_expedition_list = {
+			1493304,
+			1493305,
+			1493306,
+			1493307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1493113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				12
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				10,
+				true,
+				4
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				8
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"dexiv3_3x1_1",
+				101,
+				23
+			},
+			{
+				5,
+				9,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				4,
+				2,
+				"dexiv3_2x2_3",
+				71,
+				-7
+			},
+			{
+				4,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				12
+			},
+			{
+				3,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				4
+			},
+			{
+				2,
+				6,
+				"dexiv3_1x1_1",
+				0,
+				6
+			},
+			{
+				1,
+				10,
+				"dexiv3_1x2_2",
+				0,
+				-22
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x2_2",
+				0,
+				-22
+			},
+			{
+				0,
+				8,
+				"dexiv3_3x1_1",
+				95,
+				23
+			},
+			{
+				0,
+				3,
+				"dexiv3_3x1_2",
+				109,
+				24
+			},
+			{
+				0,
+				1,
+				"dexiv3_1x1_3",
+				0,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_bisimai",
+			45,
+			20,
+			-145,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8812,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460026] = {
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		is_limit_move = 0,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		submarine_num = 1,
+		air_dominance_loop_rate = 80,
+		is_ambush = 0,
+		id = 1460026,
+		is_air_attack = 0,
+		is_ai = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		avoid_ratio = 16,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"air",
+				1,
+				1700
+			},
+			{
+				"antiaircraft",
+				1,
+				2500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1493201,
+				15,
+				0
+			},
+			{
+				1493202,
+				20,
+				0
+			},
+			{
+				1493203,
+				30,
+				1
+			},
+			{
+				1493204,
+				15,
+				0
+			},
+			{
+				1493205,
+				20,
+				0
+			},
+			{
+				1493206,
+				30,
+				1
+			},
+			{
+				1493207,
+				15,
+				0
+			},
+			{
+				1493208,
+				20,
+				0
+			},
+			{
+				1493209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1493205,
+			1493208
+		},
+		ai_expedition_list = {
+			1493308,
+			1493309,
+			1493310
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1493213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				false,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				1
+			},
+			{
+				9,
+				4,
+				true,
+				1
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				false,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				12
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				12
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"dexiv3_3x1_1",
+				98,
+				21
+			},
+			{
+				9,
+				1,
+				"dexiv3_3x1_2",
+				109,
+				22
+			},
+			{
+				7,
+				8,
+				"dexiv3_2x2_4",
+				42,
+				-13
+			},
+			{
+				7,
+				0,
+				"dexiv3_2x2_3",
+				63,
+				-8
+			},
+			{
+				5,
+				4,
+				"dexiv3_2x2_1",
+				50,
+				-22
+			},
+			{
+				5,
+				0,
+				"dexiv3_1x2_2",
+				0,
+				51
+			},
+			{
+				4,
+				9,
+				"dexiv3_1x2_2",
+				0,
+				-18
+			},
+			{
+				3,
+				7,
+				"dexiv3_2x2_3",
+				68,
+				-4
+			},
+			{
+				3,
+				1,
+				"dexiv3_2x2_4",
+				42,
+				-10
+			},
+			{
+				2,
+				9,
+				"dexiv3_1x1_2",
+				0,
+				16
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				16
+			},
+			{
+				1,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				8
+			},
+			{
+				1,
+				2,
+				"dexiv3_1x1_1",
+				0,
+				5
+			},
+			{
+				0,
+				9,
+				"dexiv3_1x1_3",
+				0,
+				19
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x1_3",
+				0,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_bisimai",
+			45,
+			20,
+			-291,
+			225,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {
+			8812,
+			8802
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
 	[2100001] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING4",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -163302,22 +171930,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100002] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING7",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -163804,22 +172436,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100003] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING9",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -164374,22 +173010,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100004] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING12",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100004,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -164894,22 +173534,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100005] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING15",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100005,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -165516,22 +174160,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100006] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING18",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100006,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -166132,22 +174780,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100011] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING4",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100011,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -166619,22 +175271,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100012] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING6",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING7",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100012,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -167162,22 +175818,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100013] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING9",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100013,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -167774,22 +176434,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100014] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING12",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100014,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -168336,22 +177000,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100015] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING14",
 		boss_refresh = 7,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING15",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100015,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -169000,22 +177668,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100016] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		is_limit_move = 0,
 		story_refresh_boss = "GUOQING18",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100016,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -169657,22 +178329,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100021] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100021,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -170059,22 +178735,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100022] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100022,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -170523,22 +179203,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100023] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100023,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -171077,22 +179761,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100024] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100024,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -171654,22 +180342,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100025] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100025,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -172249,22 +180941,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100026] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100026,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -173019,22 +181715,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100031] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100031,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -173462,22 +182162,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100032] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100032,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -173967,22 +182671,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100033] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100033,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -174562,22 +183270,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100034] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100034,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -175180,22 +183892,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100035] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100035,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -175816,22 +184532,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100036] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100036,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -176627,22 +185347,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100041] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100041,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -177091,21 +185815,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100042] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "TACT20016",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100042,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -177694,21 +186422,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100043] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100043,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -178264,21 +186996,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100044] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100044,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -178952,21 +187688,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100045] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100045,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -179435,21 +188175,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100046] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100046,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -179926,21 +188670,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100047] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100047,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -180472,21 +189220,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100048] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100048,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -181174,21 +189926,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100051] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100051,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -181678,21 +190434,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100052] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "TACT20016",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100052,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -182324,21 +191084,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100053] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100053,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -182935,21 +191699,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100054] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100054,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -183664,21 +192432,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100055] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100055,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -184188,21 +192960,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100056] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100056,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -184720,21 +193496,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100057] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100057,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -185307,21 +194087,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100058] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100058,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -186050,21 +194834,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100061] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100061,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -186541,21 +195329,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100062] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100062,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -187093,21 +195885,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100063] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100063,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -187735,21 +196531,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100064] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100064,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -188316,21 +197116,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100065] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100065,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -189038,21 +197842,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100066] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100066,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -189932,21 +198740,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100071] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100071,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -190464,21 +199276,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100072] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100072,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -191057,21 +199873,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100073] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100073,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -191740,21 +200560,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100074] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100074,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -192362,21 +201186,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100075] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100075,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -193125,21 +201953,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100076] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100076,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -194060,21 +202892,25 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100081] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100081,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -194510,22 +203346,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100082] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100082,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -195067,22 +203907,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100083] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100083,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -195736,22 +204580,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100084] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100084,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -196199,22 +205047,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100085] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100085,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -196768,22 +205620,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100086] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100086,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -197459,22 +206315,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100091] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100091,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -197951,22 +206811,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100092] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100092,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -198549,22 +207413,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100093] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100093,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -199259,22 +208127,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100094] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100094,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -199765,22 +208637,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100095] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100095,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -200377,22 +209253,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100096] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100096,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -201111,22 +209991,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100101] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 3,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100101,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -201617,22 +210501,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100102] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100102,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -202087,22 +210975,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100103] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100103,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -202655,22 +211547,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100104] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100104,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -203223,22 +212119,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100105] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100105,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -203841,22 +212741,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100106] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100106,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -204520,22 +213424,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100111] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100111,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -205068,22 +213976,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100112] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100112,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -205580,22 +214492,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100113] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100113,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -206190,22 +215106,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100114] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100114,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -206800,22 +215720,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100115] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100115,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -207462,22 +216386,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2100116] = {
-		submarine_num = 1,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 6,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2100116,
+		is_air_attack = 0,
 		is_ai = 1,
 		group_num = 2,
 		enter_story_limit = "",
@@ -208185,22 +217113,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200001] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 2,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200001,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -208491,22 +217423,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200002] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200002,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -208880,22 +217816,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200003] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200003,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -209299,22 +218239,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200011] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200011,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -209792,22 +218736,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200012] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200012,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -210384,22 +219332,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200013] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200013,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -211034,22 +219986,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200021] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200021,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -211635,22 +220591,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200022] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 4,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200022,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -212251,22 +221211,26 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[2200023] = {
-		submarine_num = 0,
 		pop_pic = "",
 		enter_story = "",
 		boss_refresh = 5,
 		is_limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
+		submarine_num = 0,
 		air_dominance_loop_rate = 80,
 		is_ambush = 0,
-		is_air_attack = 0,
 		id = 2200023,
+		is_air_attack = 0,
 		is_ai = 0,
 		group_num = 2,
 		enter_story_limit = "",
@@ -212874,6 +221838,10 @@ pg.chapter_template_loop = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
@@ -213175,6 +222143,18 @@ pg.chapter_template_loop = {
 		1450002,
 		1450003,
 		1450004,
+		1460001,
+		1460002,
+		1460003,
+		1460004,
+		1460005,
+		1460006,
+		1460021,
+		1460022,
+		1460023,
+		1460024,
+		1460025,
+		1460026,
 		2100001,
 		2100002,
 		2100003,

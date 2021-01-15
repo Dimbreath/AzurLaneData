@@ -69,8 +69,11 @@ end
 
 function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
+
+	slot1 = slot0.itemVO:getConfig("display_icon")
+
 	slot0.ulist:each(function (slot0, slot1)
-		setText(slot1:Find("item/bg/icon_bg/count"), uv0.count)
+		setText(slot1:Find("item/bg/icon_bg/count"), uv1.count * uv0[slot0 + 1][3])
 	end)
 end
 

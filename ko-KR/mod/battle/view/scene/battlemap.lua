@@ -106,6 +106,27 @@ function slot1.UpdateBufferAlpha(slot0, slot1)
 	slot0._bufferRenderer.color = Color.New(1, 1, 1, slot1 * 0.1)
 end
 
+function slot1.SetExposeLine(slot0, slot1, slot2, slot3)
+	function instantiateLine(slot0, slot1)
+		slot2 = uv0.Battle.BattleResourceManager.GetInstance():InstMap(slot1)
+
+		setParent(slot2, uv1._go.transform:Find("seaLayer"), false)
+
+		slot4 = slot2:GetComponent("SpriteRenderer")
+		slot5 = slot4.bounds.extents.max
+		slot6 = tf(slot2).localScale
+		tf(slot2).localScale = Vector3.New(uv2 * slot6.x, slot6.y, slot6.z)
+		slot7 = tf(slot2).localPosition
+		tf(slot2).localPosition = Vector3.New(slot0 - slot4.bounds.extents.x * uv2, slot7.y, slot7.z)
+	end
+
+	instantiateLine(slot2, "visionLine")
+
+	if slot3 then
+		instantiateLine(slot3, "exposeLine")
+	end
+end
+
 function slot1.setSpeedScaler(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.mapLayerCtrls) do
 		slot6.speedScaler = slot1

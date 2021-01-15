@@ -56,7 +56,7 @@ pg.mini_game = {
 		config_csv = "",
 		id = 3,
 		hub_id = 4,
-		request_data = 0,
+		request_data = 1,
 		simple_config_data = {
 			target = 100000
 		},
@@ -728,6 +728,68 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		name = "2002啾啾雪合战小游戏",
+		view_name = "SnowballGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 18,
+		hub_id = 14,
+		request_data = 1
+	},
+	{
+		name = "2020小吃街小游戏",
+		view_name = "NewYearSnackView",
+		mediator_name = "MiniHubMediator",
+		type = 1,
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 19,
+		hub_id = 15,
+		request_data = 0,
+		simple_config_data = {
+			memory_time = 5,
+			select_time = 10,
+			correct_value = {
+				[0] = 0,
+				1,
+				2,
+				5
+			},
+			score_level = {
+				0,
+				5,
+				12,
+				20
+			}
+		}
+	},
+	{
+		name = "2020敲钟小游戏",
+		view_name = "NewYearShrineView",
+		mediator_name = "MiniHubMediator",
+		type = 3,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_csv = "",
+		id = 20,
+		hub_id = 14,
+		request_data = 1,
+		config_data = {
+			5,
+			{
+				10,
+				11,
+				12
+			},
+			2
+		}
+	},
 	all = {
 		1,
 		2,
@@ -745,6 +807,9 @@ pg.mini_game = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18,
+		19,
+		20
 	}
 }

@@ -12,7 +12,7 @@ slot0.GO_THEME_TEMPLATE = "BackYardMediator:GO_THEME_TEMPLATE"
 slot0.GO_CHARGE = "BackYardMediator:GO_CHARGE"
 
 function slot0.register(slot0)
-	pg.OSSMgr:GetInstance():Init()
+	pg.OSSMgr.GetInstance():Init()
 
 	if getProxy(ContextProxy):getContextByMediator(NewBackYardThemeTemplateMediator) then
 		slot1:cleanUntilMediator(MainUIMediator)

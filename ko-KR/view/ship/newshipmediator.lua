@@ -29,15 +29,15 @@ function slot0.register(slot0)
 			is_locked = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_SKILLINFO, function (slot0, slot1, slot2, slot3)
+	slot0:bind(uv0.ON_SKILLINFO, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
 			mediator = SkillInfoMediator,
 			viewComponent = SkillInfoLayer,
 			data = {
-				fromNewShip = 1,
-				skillOnShip = slot3,
+				fromNewShip = true,
+				skillOnShip = slot2,
 				skillId = slot1,
-				unlockTip = slot2
+				LayerWeightMgr_weight = uv0.viewComponent:getWeightFromData()
 			}
 		}))
 	end)

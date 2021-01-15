@@ -2832,6 +2832,53 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[168] = {
+		can_rotate = 1,
+		describe = "다음 번에도, 그 다음 번에도, 무수한 다음 번의 천일을 함께 하고 싶어~ 쥬!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "천일의 기념",
+		advice = 0,
+		id = 168,
+		icon = "fanshuicon",
+		comfortable = 5,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fanshu",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[169] = {
 		can_rotate = 1,
 		describe = "상상을 현실로! 쥬!",
@@ -3469,10 +3516,47 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[185] = {
+		can_rotate = 0,
+		describe = "「지휘관 무슨 책 찾아? 나에게 맡겨만 줘!」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/jiyiguowu",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "명품 책장",
+		advice = 0,
+		icon = "jiyiguowuicon",
+		id = 185,
+		comfortable = 5,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[187] = {
 		can_rotate = 0,
 		describe = "\"지휘관과, 그리고 모두와 함께 아주 즐거운 시간을 보냈어요~ 앞으로도 잘 부탁드릴게요~\" <color=#ffde38>——「휴일항로」 이벤트 기념</color>",
-		gain_by = "假日航线",
+		gain_by = "휴일항로",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -3525,7 +3609,7 @@ pg.furniture_data_template = {
 		tag = 6,
 		spine_extra = "",
 		level = 1,
-		rarity = 4,
+		rarity = 5,
 		spine_action_replace = "",
 		belong = 1,
 		canputon = 0,
@@ -3557,6 +3641,49 @@ pg.furniture_data_template = {
 					"doa_qifenhe",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[189] = {
+		can_rotate = 0,
+		describe = "메탈 블러드 부도 요새 중앙 통제실의 축소판 기념 모형——「부상한 작전」에서 우수한 성적을 거둔 이에게 수여하는 기념장.",
+		gain_by = "한정 이벤트",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "부상한 기념장",
+		advice = 0,
+		id = 189,
+		icon = "tiexue_v3icon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tiexue_v3",
+				"normal"
 			}
 		},
 		interAction_group = {}
@@ -5031,6 +5158,82 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"doaqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100022] = {
+		can_rotate = 0,
+		describe = "누구라도 “언제 어디서든 흔들리는 그네”를 체험할 수 있어요!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "feiqiuqianicon",
+		count = 1,
+		name = "하늘 그네",
+		id = 100022,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feiqiuqianB",
+				"normal"
+			},
+			{
+				"feiqiuqianT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"feiqiuqianCharControl"
 			}
 		},
 		interAction_group = {}
@@ -76341,6 +76544,2069 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[73001] = {
+		can_rotate = 0,
+		describe = "따스하고 포근한 크리스마스 이브를 즐겨요~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/dibancs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "따뜻한 성야 바닥",
+		advice = 0,
+		icon = "dibancs4icon",
+		id = 73001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73002] = {
+		can_rotate = 0,
+		describe = "따스하고 포근한 크리스마스 이브를 즐겨요~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/qiangbics4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "따뜻한 성야 벽지",
+		advice = 0,
+		icon = "qiangbics4icon",
+		id = 73002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73101] = {
+		can_rotate = 0,
+		describe = "맛있는 음식은 이미 준비 끝!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/1cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "크리스마스 식탁",
+		advice = 0,
+		id = 73101,
+		icon = "1cs4icon",
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-117.4,
+					70.2
+				},
+				{
+					1,
+					1
+				},
+				"christmas4/1cs4_using"
+			},
+			{
+				"sit",
+				{
+					27.5,
+					77.4
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/1cs4_using"
+			},
+			{
+				"sit",
+				{
+					116.4,
+					32.9
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/1cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73102] = {
+		can_rotate = 0,
+		describe = "보들보들한 큰 인형. 뛰어들고 싶은 마음을 못 참겠어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/2cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "대형 곰인형",
+		advice = 0,
+		icon = "2cs4icon",
+		id = 73102,
+		comfortable = 3,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73103] = {
+		can_rotate = 0,
+		describe = "따뜻한 방 안에서 체스 한 판 쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/3cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "체스쥬",
+		advice = 0,
+		id = 73103,
+		icon = "3cs4icon",
+		comfortable = 3,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					68.4,
+					61.3
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/3cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73104] = {
+		can_rotate = 0,
+		describe = "별똥별을 관측할 수 있으면 좋겠어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/4cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "천체 망원경",
+		advice = 0,
+		icon = "4cs4icon",
+		id = 73104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73105] = {
+		can_rotate = 0,
+		describe = "각종 크리스마스 소품들로 가득해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/5cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "크리스마스 잡동사니",
+		advice = 0,
+		icon = "5cs4icon",
+		id = 73105,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73106] = {
+		can_rotate = 0,
+		describe = "부드러운 카펫을 밟아봐요.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/6cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "커피색 카펫",
+		advice = 0,
+		icon = "6cs4icon",
+		id = 73106,
+		comfortable = 2,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73107] = {
+		can_rotate = 0,
+		describe = "성야를 따뜻하게 해줄 자원",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/7cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "장작 더미",
+		advice = 0,
+		icon = "7cs4icon",
+		id = 73107,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73108] = {
+		can_rotate = 0,
+		describe = "온천에 몸을 담구고 피로를 풀어보아쥬...",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/8cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "설원 사슴쥬",
+		advice = 0,
+		id = 73108,
+		icon = "8cs4icon",
+		comfortable = 3,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					42.7,
+					-35.6
+				},
+				{
+					-1,
+					1
+				},
+				"christmas4/8cs4_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73109] = {
+		can_rotate = 0,
+		describe = "아주 아주 많은 선물을 받을 수 있다면 좋겠어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/9cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "화려한 크리스마스 트리",
+		advice = 0,
+		icon = "9cs4icon",
+		id = 73109,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73110] = {
+		can_rotate = 0,
+		describe = "방금 어떤 아이가 여기서 놀고 갔나요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/10cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "장난감 더미",
+		advice = 0,
+		icon = "10cs4icon",
+		id = 73110,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73111] = {
+		can_rotate = 0,
+		describe = "따스한 온색의 빛을 발하는 스탠드",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/11cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "크리스마스 스탠드",
+		advice = 0,
+		icon = "11cs4icon",
+		id = 73111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73112] = {
+		can_rotate = 0,
+		describe = "매우 정교한 장치의 수정구",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/12cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "크리스마스 수정구",
+		advice = 0,
+		icon = "12cs4icon",
+		id = 73112,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73113] = {
+		can_rotate = 0,
+		describe = "소파의 유혹, 막기 어렵다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/13cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "소파쥬",
+		advice = 0,
+		icon = "13cs4icon",
+		id = 73113,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73114] = {
+		can_rotate = 0,
+		describe = "푹신푹신한 소파에 따뜻하게 해주는 담요를 깔았어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/14cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "따뜻한 소파",
+		advice = 0,
+		id = 73114,
+		icon = "14cs4icon",
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					22,
+					10
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73115] = {
+		can_rotate = 0,
+		describe = "크리스마스 스타일의 침대. 편안함이 가득해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/15cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 73,
+		count = 1,
+		name = "따뜻한 크리스마스 침대",
+		advice = 0,
+		id = 73115,
+		icon = "15cs4icon",
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-23,
+					35
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73116] = {
+		can_rotate = 0,
+		describe = "모형입니다. 먹지 마세요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/16cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "크리스마스 케이크",
+		advice = 0,
+		icon = "16cs4icon",
+		id = 73116,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73117] = {
+		can_rotate = 0,
+		describe = "마음을 평온히. 함께 성야를 찬미하자쥬~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/17cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "성야 찬미쥬",
+		advice = 0,
+		icon = "17cs4icon",
+		id = 73117,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73118] = {
+		can_rotate = 0,
+		describe = "크리스마스의 멜로디를 불러보세요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/18cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "성야 축음기",
+		advice = 0,
+		icon = "18cs4icon",
+		id = 73118,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73119] = {
+		can_rotate = 0,
+		describe = "징글벨 한 곡 연주해쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/19cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "피아노쥬",
+		advice = 0,
+		icon = "19cs4icon",
+		id = 73119,
+		comfortable = 2,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73120] = {
+		can_rotate = 1,
+		describe = "Merry Christmas!",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/20cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "성야 카펫",
+		advice = 0,
+		icon = "20cs4icon",
+		id = 73120,
+		comfortable = 2,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73121] = {
+		can_rotate = 0,
+		describe = "따뜻한 벽난로",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/21cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "크리스마스 벽난로",
+		advice = 0,
+		icon = "21cs4icon",
+		id = 73121,
+		comfortable = 2,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73122] = {
+		can_rotate = 0,
+		describe = "산타의 전용 썰매... 사슴한테 썰매끌기를 질 수 없다쥬!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 73,
+		icon = "Acs4icon",
+		count = 1,
+		name = "쥬쥬 썰매",
+		id = 73122,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Acs4B",
+				"normal"
+			},
+			{
+				"Acs4T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"Acs4CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[73301] = {
+		can_rotate = 0,
+		describe = "나무로 조각된 사슴 머리 장식",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/22cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "사슴 머리 장식",
+		advice = 0,
+		icon = "22cs4icon",
+		id = 73301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73302] = {
+		can_rotate = 0,
+		describe = "신비한 선물로 가득한 크리스마스 양말",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/23cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "크리스마스 양말",
+		advice = 0,
+		icon = "23cs4icon",
+		id = 73302,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73303] = {
+		can_rotate = 0,
+		describe = "실내 장식용 크리스마스 리본",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/24cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 6,
+		name = "크리스마스 리본",
+		advice = 0,
+		icon = "24cs4icon",
+		id = 73303,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73304] = {
+		can_rotate = 0,
+		describe = "바깥의 눈을 볼 수 있어요.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/25cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 4,
+		name = "성야 창문",
+		advice = 0,
+		icon = "25cs4icon",
+		id = 73304,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[73305] = {
+		can_rotate = 0,
+		describe = "따스한 온색의 빛을 발하는 샹들리에",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "christmas4/26cs4",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 73,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "별 샹들리에",
+		advice = 0,
+		icon = "26cs4icon",
+		id = 73305,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74001] = {
+		can_rotate = 0,
+		describe = "말하자면... 서설은 풍년이 징조다?",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/dibanmh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "눈길 바닥",
+		advice = 0,
+		icon = "dibanmh3icon",
+		id = 74001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74002] = {
+		can_rotate = 0,
+		describe = "말하자면... 서설은 풍년이 징조다?",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/qiangbimh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "눈길 벽지",
+		advice = 0,
+		icon = "qiangbimh3icon",
+		id = 74002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74101] = {
+		can_rotate = 1,
+		describe = "겨울 특별 제공 스시쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/1mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "스시장인쥬",
+		advice = 0,
+		icon = "1mh3icon",
+		id = 74101,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74102] = {
+		can_rotate = 0,
+		describe = "예기가 만든 눈사람(장식용 우산 추가)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/2mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "예기 눈사람쥬",
+		advice = 0,
+		icon = "2mh3icon",
+		id = 74102,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74103] = {
+		can_rotate = 0,
+		describe = "나의 공연을 감상해쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/3mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "예기쥬A",
+		advice = 0,
+		icon = "3mh3icon",
+		id = 74103,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74104] = {
+		can_rotate = 0,
+		describe = "나의 공연을 감상해쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/4mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "예기쥬B",
+		advice = 0,
+		icon = "4mh3icon",
+		id = 74104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74105] = {
+		can_rotate = 0,
+		describe = "가끔은 일기예보도 담당해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/5mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "눈길 표지판",
+		advice = 0,
+		icon = "5mh3icon",
+		id = 74105,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74106] = {
+		can_rotate = 0,
+		describe = "신년의 행사는 모두 여기에!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/6mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "눈길 안내판",
+		advice = 0,
+		icon = "6mh3icon",
+		id = 74106,
+		comfortable = 2,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74107] = {
+		can_rotate = 1,
+		describe = "「올해도 잘 부탁해냥!」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/7mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "눈길 새전함",
+		advice = 0,
+		icon = "7mh3icon",
+		id = 74107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74108] = {
+		can_rotate = 0,
+		describe = "거리를 장식하는 등롱.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/8mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "눈길 등롱",
+		advice = 0,
+		icon = "8mh3icon",
+		id = 74108,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74109] = {
+		can_rotate = 0,
+		describe = "하얀 눈이 덮인 도리이.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/9mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "눈길 도리이",
+		advice = 0,
+		icon = "9mh3icon",
+		id = 74109,
+		comfortable = 3,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74110] = {
+		can_rotate = 0,
+		describe = "동방 스타일의 가로등.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/10mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "눈길 가로등",
+		advice = 0,
+		icon = "10mh3icon",
+		id = 74110,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74111] = {
+		can_rotate = 0,
+		describe = "추위 속의 따스함을 만끽해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/11mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		name = "나무통 욕조",
+		advice = 0,
+		id = 74111,
+		icon = "11mh3icon",
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-38,
+					-42
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/11mh3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74112] = {
+		can_rotate = 1,
+		describe = "연하장이 언제 도착할까요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/12mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "눈길 우체통",
+		advice = 0,
+		icon = "12mh3icon",
+		id = 74112,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74113] = {
+		can_rotate = 0,
+		describe = "하얀 눈이 덮인 녹색 수풀.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/13mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "눈길 수풀",
+		advice = 0,
+		icon = "13mh3icon",
+		id = 74113,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74114] = {
+		can_rotate = 0,
+		describe = "후... 후... 조금만 더...!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/14mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		name = "산도 계단",
+		advice = 0,
+		id = 74114,
+		icon = "14mh3icon",
+		comfortable = 3,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					86,
+					136
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/14mh3_using1"
+			},
+			{
+				"stand2",
+				{
+					-98,
+					-170
+				},
+				{
+					1,
+					1
+				},
+				"mh3/14mh3_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74115] = {
+		can_rotate = 0,
+		describe = "구조가 견고하고 조형미가 아름다운 다리",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/15mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 74,
+		count = 1,
+		name = "눈길 다리",
+		advice = 0,
+		id = 74115,
+		icon = "15mh3icon",
+		comfortable = 3,
+		size = {
+			3,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					19,
+					11
+				},
+				{
+					-1,
+					1
+				},
+				"mh3/15mh3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74116] = {
+		can_rotate = 0,
+		describe = "차만 마시지 말고, 간식도 드세요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/16mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "쥬쥬 화과자 가게",
+		advice = 0,
+		icon = "16mh3icon",
+		id = 74116,
+		comfortable = 3,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74117] = {
+		can_rotate = 0,
+		describe = "하얀 눈이 덮인 녹색 가로수.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/17mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "눈길 겨울 나무",
+		advice = 0,
+		icon = "17mh3icon",
+		id = 74117,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74118] = {
+		can_rotate = 0,
+		describe = "겨울인데도 얼어붙은 수로가 없어요",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mh3/18mh3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 74,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "눈길 수로",
+		advice = 0,
+		icon = "18mh3icon",
+		id = 74118,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[74119] = {
+		can_rotate = 0,
+		describe = "정류장에 도착합니다, 다음 역은...",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 74,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "Amh3icon",
+		count = 1,
+		name = "쥬쥬 1호",
+		advice = 0,
+		id = 74119,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			20,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Amh3B",
+				"normal"
+			},
+			{
+				"Amh3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -76403,6 +78669,7 @@ pg.furniture_data_template = {
 		164,
 		165,
 		167,
+		168,
 		169,
 		171,
 		173,
@@ -76415,8 +78682,10 @@ pg.furniture_data_template = {
 		182,
 		183,
 		184,
+		185,
 		187,
 		188,
+		189,
 		100002,
 		100003,
 		100004,
@@ -76437,6 +78706,7 @@ pg.furniture_data_template = {
 		100019,
 		100020,
 		100021,
+		100022,
 		1001,
 		1002,
 		1101,
@@ -78057,6 +80327,56 @@ pg.furniture_data_template = {
 		72122,
 		72123,
 		72124,
-		72125
+		72125,
+		73001,
+		73002,
+		73101,
+		73102,
+		73103,
+		73104,
+		73105,
+		73106,
+		73107,
+		73108,
+		73109,
+		73110,
+		73111,
+		73112,
+		73113,
+		73114,
+		73115,
+		73116,
+		73117,
+		73118,
+		73119,
+		73120,
+		73121,
+		73122,
+		73301,
+		73302,
+		73303,
+		73304,
+		73305,
+		74001,
+		74002,
+		74101,
+		74102,
+		74103,
+		74104,
+		74105,
+		74106,
+		74107,
+		74108,
+		74109,
+		74110,
+		74111,
+		74112,
+		74113,
+		74114,
+		74115,
+		74116,
+		74117,
+		74118,
+		74119
 	}
 }

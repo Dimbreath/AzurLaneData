@@ -45,7 +45,7 @@ function slot0.execute(slot0, slot1)
 		slot4 = nil
 
 		for slot8 = 1, slot0 do
-			if uv2.ship_bag_max <= uv3 then
+			if uv2:getMaxShipBag() <= uv3 then
 				break
 			end
 
@@ -90,7 +90,8 @@ function slot0.execute(slot0, slot1)
 								type = DROP_TYPE_SHIP,
 								id = slot5.configId,
 								count = 1,
-								virgin = slot5.virgin
+								virgin = slot5.virgin,
+								reMetaSpecialItemVO = slot5:getReMetaSpecialItemVO()
 							}
 						end
 					end

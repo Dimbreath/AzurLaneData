@@ -133,7 +133,7 @@ function slot0.switchSubView(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.subViewList) do
 		if isa(slot6, BaseSubView) then
 			if table.contains(slot1, slot5) then
-				slot6:AddLoadedCallback(function ()
+				slot6:CallbackInvoke(function ()
 					uv0.repairBtn:SetAsLastSibling()
 				end)
 				slot6:Load()
@@ -688,7 +688,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 
 		uv0.cg.alpha = 1
 
-		pg.CriMgr.GetInstance():ResumeNormalBGM()
+		pg.CriMgr.GetInstance():ResumeLastNormalBGM()
 
 		uv0.onPlayingOP = false
 	end

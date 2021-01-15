@@ -2,7 +2,7 @@ return {
 	name = "强袭模式·EX",
 	init_effect = "jinengchufared",
 	id = 10862,
-	time = 5,
+	time = 8,
 	picture = "",
 	desc = "提高雷击属性",
 	stack = 1,

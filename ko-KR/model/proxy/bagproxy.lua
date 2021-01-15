@@ -83,6 +83,30 @@ function slot0.getItemsByType(slot0, slot1)
 	return Clone(slot2)
 end
 
+function slot0.GetItemsByCondition(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		slot8 = true
+
+		if slot1 then
+			for slot12, slot13 in pairs(slot1) do
+				if slot7:getConfig(slot12) ~= slot13 then
+					slot8 = false
+
+					break
+				end
+			end
+		end
+
+		if slot8 then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
 function slot0.getTempItemByType(slot0, slot1)
 	slot2 = {
 		[slot7] = true

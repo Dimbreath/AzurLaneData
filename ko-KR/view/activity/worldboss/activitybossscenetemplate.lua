@@ -4,12 +4,12 @@ function slot0.getUIName(slot0)
 	error("Need Complete")
 end
 
+slot0.optionsPath = {
+	"adapt/top/option"
+}
+
 function slot0.GetPTActivityID(slot0)
 	error("Need Complete")
-end
-
-function slot0.setContextData(slot0, slot1)
-	slot0.contextData = slot1
 end
 
 function slot0.init(slot0)
@@ -58,9 +58,6 @@ function slot0.init(slot0)
 
 	slot0.backBtn = slot0:findTF("back_button", slot0.top)
 
-	onButton(slot0, slot0.top:Find("option"), function ()
-		uv0:quickExitFunc()
-	end, SFX_PANEL)
 	setActive(slot0.top, false)
 	setAnchoredPosition(slot0.top, {
 		y = 1080
@@ -77,6 +74,7 @@ function slot0.init(slot0)
 	setAnchoredPosition(slot0.bottom, {
 		y = -1080
 	})
+	slot0:buildCommanderPanel()
 end
 
 function slot0.GetBonusWindow(slot0)
@@ -112,24 +110,6 @@ function slot0.DestroyFleetEditPanel(slot0)
 		slot0.fleetEditPanel:Destroy()
 
 		slot0.fleetEditPanel = nil
-	end
-end
-
-function slot0.GetCommanderFormationPanel(slot0)
-	if not slot0.commanderFormationPanel then
-		slot0.commanderFormationPanel = ActivityBossBattleCMDForamtionSubPanel.New(slot0)
-
-		slot0.commanderFormationPanel:Load()
-	end
-
-	return slot0.commanderFormationPanel
-end
-
-function slot0.DestroyCommanderFormationPanel(slot0)
-	if slot0.commanderFormationPanel then
-		slot0.commanderFormationPanel:Destroy()
-
-		slot0.commanderFormationPanel = nil
 	end
 end
 
@@ -363,15 +343,66 @@ function slot0.openShipInfo(slot0, slot1, slot2)
 	})
 end
 
-function slot0.openCommanderPanel(slot0, slot1)
-	slot2 = slot0:GetCommanderFormationPanel()
-
-	slot2.buffer:Open()
-	slot2.buffer:Update(slot1)
+function slot0.setCommanderPrefabs(slot0, slot1)
+	slot0.commanderPrefabs = slot1
 end
 
-function slot0.SelectCMD(slot0, slot1, slot2)
-	slot0:emit(slot0.contextData.mediatorClass.ON_SELECT_COMMANDER, slot1, slot2)
+function slot0.openCommanderPanel(slot0, slot1, slot2)
+	slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id
+
+	slot0.levelCMDFormationView:setCallback(function (slot0)
+		if slot0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
+			uv0:emit(ActivityBossMediatorTemplate.ON_COMMANDER_SKILL, slot0.skill)
+		elseif slot0.type == LevelUIConst.COMMANDER_OP_ADD then
+			uv0.contextData.eliteCommanderSelected = {
+				fleetIndex = uv1,
+				cmdPos = slot0.pos,
+				mode = uv0.curMode
+			}
+
+			uv0:emit(ActivityBossMediatorTemplate.ON_SELECT_COMMANDER, uv1, slot0.pos)
+			uv0:closeCommanderPanel()
+			uv0:hideFleetEdit()
+		else
+			uv0:emit(ActivityBossMediatorTemplate.COMMANDER_FORMATION_OP, {
+				FleetType = LevelUIConst.FLEET_TYPE_ACTIVITY,
+				data = slot0,
+				fleetId = uv2.id,
+				actId = uv3
+			})
+		end
+	end)
+	slot0.levelCMDFormationView:Load()
+	slot0.levelCMDFormationView:ActionInvoke("update", slot1, slot0.commanderPrefabs)
+	slot0.levelCMDFormationView:ActionInvoke("Show")
+end
+
+function slot0.updateCommanderFleet(slot0, slot1)
+	if slot0.levelCMDFormationView:isShowing() then
+		slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot1)
+	end
+end
+
+function slot0.updateCommanderPrefab(slot0)
+	if slot0.levelCMDFormationView:isShowing() then
+		slot0.levelCMDFormationView:ActionInvoke("updatePrefabs", slot0.commanderPrefabs)
+	end
+end
+
+function slot0.closeCommanderPanel(slot0)
+	if slot0.levelCMDFormationView:isShowing() then
+		slot0.levelCMDFormationView:ActionInvoke("Hide")
+	end
+end
+
+function slot0.buildCommanderPanel(slot0)
+	slot0.levelCMDFormationView = LevelCMDFormationView.New(slot0._tf, slot0.event, slot0.contextData)
+end
+
+function slot0.destroyCommanderPanel(slot0)
+	slot0.levelCMDFormationView:Destroy()
+
+	slot0.levelCMDFormationView = nil
 end
 
 function slot0.ShowAwards(slot0)
@@ -418,7 +449,7 @@ end
 function slot0.willExit(slot0)
 	slot0:DestroyBonusWindow()
 	slot0:DestroyFleetEditPanel()
-	slot0:DestroyCommanderFormationPanel()
+	slot0:destroyCommanderPanel()
 end
 
 return slot0

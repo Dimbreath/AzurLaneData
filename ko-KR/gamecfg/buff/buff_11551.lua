@@ -8,228 +8,6 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 100,
-					attr = "cannonPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 100,
-					attr = "antiAirPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 100,
-					attr = "dodgeRate"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 140,
-					attr = "cannonPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 140,
-					attr = "antiAirPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 140,
-					attr = "dodgeRate"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 180,
-					attr = "cannonPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 180,
-					attr = "antiAirPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 180,
-					attr = "dodgeRate"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 220,
-					attr = "cannonPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 220,
-					attr = "antiAirPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 220,
-					attr = "dodgeRate"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 260,
-					attr = "cannonPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 260,
-					attr = "antiAirPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 260,
-					attr = "dodgeRate"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 300,
-					attr = "cannonPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 300,
-					attr = "antiAirPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 300,
-					attr = "dodgeRate"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
 					number = 350,
 					attr = "cannonPower"
 				}
@@ -364,6 +142,228 @@ return {
 				},
 				arg_list = {
 					number = 500,
+					attr = "dodgeRate"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 550,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 550,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 550,
+					attr = "dodgeRate"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 600,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 600,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 600,
+					attr = "dodgeRate"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 650,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 650,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 650,
+					attr = "dodgeRate"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 700,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 700,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 700,
+					attr = "dodgeRate"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 750,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 750,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 750,
+					attr = "dodgeRate"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 800,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 800,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 800,
 					attr = "dodgeRate"
 				}
 			}
@@ -393,7 +393,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				number = 100,
+				number = 350,
 				attr = "cannonPower"
 			}
 		},
@@ -404,7 +404,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				number = 100,
+				number = 350,
 				attr = "antiAirPower"
 			}
 		},
@@ -415,7 +415,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				number = 100,
+				number = 350,
 				attr = "dodgeRate"
 			}
 		}

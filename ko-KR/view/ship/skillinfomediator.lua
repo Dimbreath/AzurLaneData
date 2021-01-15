@@ -1,5 +1,6 @@
 slot0 = class("SkillInfoMediator", import("..base.ContextMediator"))
 slot0.WARP_TO_TACTIC = "SkillInfoMediator:WARP_TO_TACTIC"
+slot0.WARP_TO_META_TACTICS = "SkillInfoMediator:WARP_TO_METATASK"
 slot1 = 10
 
 function slot0.register(slot0)
@@ -49,6 +50,13 @@ function slot0.register(slot0)
 				skillIndex = uv0.contextData.index,
 				index = slot4
 			}
+		})
+	end)
+	slot0:bind(uv0.WARP_TO_META_TACTICS, function (slot0, slot1)
+		uv0.viewComponent:close()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
+			autoOpenTactics = true,
+			autoOpenShipConfigID = slot1
 		})
 	end)
 end

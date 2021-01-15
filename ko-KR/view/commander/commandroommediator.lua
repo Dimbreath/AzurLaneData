@@ -41,7 +41,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_CMD_SKILL, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = CommanderSkillMediator,
-			viewComponent = CommanderSkillLayer,
+			viewComponent = NewCommanderSkillLayer,
 			data = {
 				skill = slot1
 			}
@@ -127,22 +127,73 @@ end
 
 function slot0.markFleet(slot0)
 	slot2 = getProxy(CommanderProxy):getData()
+	slot3 = getProxy(FleetProxy)
 
-	for slot8, slot9 in pairs(getProxy(FleetProxy):getData()) do
-		for slot13, slot14 in pairs(slot9:getCommanders()) do
-			slot15 = slot9.id
-
-			if slot9.id > 10 then
-				slot15 = slot9.id - 10
+	if CommandRoomScene.FLEET_TYPE_COMMON == slot0.contextData.fleetType then
+		for slot8, slot9 in pairs(slot3:getData()) do
+			for slot13, slot14 in pairs(slot9:getCommanders()) do
+				slot2[slot14.id].sub = slot9:isSubmarineFleet()
+				slot2[slot14.id].fleetId = slot9.id % 10
+				slot2[slot14.id].inFleet = true
 			end
+		end
+	elseif CommandRoomScene.FLEET_TYPE_ACTBOSS == slot0.contextData.fleetType then
+		for slot9, slot10 in pairs(slot3:getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id]) do
+			for slot16, slot17 in pairs(slot10:getCommanders()) do
+				slot2[slot17.id].sub = slot10:isSubmarineFleet()
+				slot2[slot17.id].fleetId = slot10.id % 10
+				slot2[slot17.id].inFleet = true
+			end
+		end
+	elseif CommandRoomScene.FLEET_TYPE_HARD_CHAPTER == slot0.contextData.fleetType then
+		for slot9, slot10 in pairs(getProxy(ChapterProxy):getChapterById(slot0.contextData.chapterId):getEliteFleetCommanders()) do
+			for slot14, slot15 in pairs(slot10) do
+				slot2[slot15].sub = false
+				slot2[slot15].fleetId = slot9
+				slot2[slot15].inFleet = true
+			end
+		end
+	elseif CommandRoomScene.FLEET_TYPE_CHALLENGE == slot0.contextData.fleetType then
+		for slot9, slot10 in pairs(slot3:getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id]) do
+			for slot16, slot17 in pairs(slot10:getCommanders()) do
+				slot2[slot17.id].sub = slot10:isSubmarineFleet()
+				slot2[slot17.id].fleetId = slot10.id % 10
+				slot2[slot17.id].inFleet = true
+			end
+		end
+	elseif CommandRoomScene.FLEET_TYPE_GUILDBOSS == slot0.contextData.fleetType then
+		for slot11, slot12 in pairs(getProxy(GuildProxy):getData():GetActiveEvent():GetBossMission():GetFleets()) do
+			for slot18, slot19 in pairs(slot13:getCommanders()) do
+				slot2[slot19.id].sub = not (slot0.contextData.fleets[slot11] or slot12):IsMainFleet()
+				slot2[slot19.id].fleetId = 1
+				slot2[slot19.id].inFleet = true
+			end
+		end
+	elseif CommandRoomScene.FLEET_TYPE_WORLD == slot0.contextData.fleetType then
+		slot4, slot5 = nowWorld:BuildFormationIds()
 
-			slot2[slot14.id].fleetId = slot15
-			slot2[slot14.id].inFleet = true
+		if slot0.contextData.fleets then
+			slot5 = slot0.contextData.fleets
+		end
+
+		for slot9, slot10 in pairs(slot5) do
+			slot11 = FleetType.Submarine == slot9
+
+			for slot15, slot16 in pairs(slot10) do
+				for slot21, slot22 in pairs(Fleet.New({
+					ship_list = {},
+					commanders = slot16.commanders
+				}):getCommanders()) do
+					slot2[slot22.id].sub = slot11
+					slot2[slot22.id].fleetId = slot15
+					slot2[slot22.id].inFleet = true
+				end
+			end
 		end
 	end
 
 	if getProxy(ChapterProxy):getActiveChapter() then
-		_.each(slot5.fleets, function (slot0)
+		_.each(slot4.fleets, function (slot0)
 			slot1 = slot0:getCommanders()
 
 			for slot5, slot6 in pairs(slot0:getCommanders()) do

@@ -24,7 +24,7 @@ return {
 			arg_list = {
 				buff_id = 12932,
 				ship_tag_list = {
-					"Dido_class"
+					"Dido-Class"
 				}
 			}
 		}

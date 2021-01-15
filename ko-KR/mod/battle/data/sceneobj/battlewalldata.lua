@@ -18,9 +18,13 @@ function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot2.InitCldComponent(slot0)
-	slot1 = slot0._cldBox
 	slot2 = slot0._cldOffset
-	slot0._cldComponent = uv0.Battle.BattleCubeCldComponent.New(slot1[1], slot1[2], slot1[3], slot2[1], slot2[3])
+
+	if slot0._cldBox.range then
+		slot0._cldComponent = uv0.Battle.BattleColumnCldComponent.New(slot1.range, 5, slot2[1], slot2[3])
+	else
+		slot0._cldComponent = uv0.Battle.BattleCubeCldComponent.New(slot1[1], slot1[2], slot1[3], slot2[1], slot2[3])
+	end
 
 	slot0._cldComponent:SetCldData({
 		type = uv1.CldType.WALL,

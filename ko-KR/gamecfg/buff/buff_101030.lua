@@ -29,17 +29,13 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				skill_id = 101030,
-				check_target = "TargetTemplate",
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					10100041,
-					10100042,
-					10100043,
-					10100044,
-					10100081,
-					10100082,
-					10100083,
-					10100084
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"VertGH"
 				}
 			}
 		},
@@ -49,19 +45,15 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
 				skill_id = 101031,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					10100041,
-					10100042,
-					10100043,
-					10100044,
-					10100081,
-					10100082,
-					10100083,
-					10100084
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"VertGH"
 				}
 			}
 		}

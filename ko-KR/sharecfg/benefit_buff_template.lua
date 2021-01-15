@@ -8,7 +8,7 @@ pg.benefit_buff_template = {
 		desc = "숙소 경험치 5% UP",
 		benefit_effect = "5",
 		id = 1,
-		icon = "Props/haijungali",
+		icon = "Props/christmas",
 		benefit_type = "dorm_exp"
 	},
 	{
@@ -48,7 +48,62 @@ pg.benefit_buff_template = {
 			30
 		}
 	},
-	[10] = {
+	{
+		name = "연료 소모 증가",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 소모하는 연료 200% 증가",
+		benefit_effect = "100",
+		id = 5,
+		icon = "Props/xinshou",
+		benefit_type = "more_oil"
+	},
+	{
+		name = "지휘관 경험치 보너스",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 얻는 지휘관 경험치 200% 증가",
+		benefit_effect = "100",
+		id = 6,
+		icon = "Props/xinshou",
+		benefit_type = "user_battle_exp"
+	},
+	{
+		name = "함선 경험치 보너스",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 얻는 함선 경험치 200% 증가",
+		benefit_effect = "100",
+		id = 7,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp"
+	},
+	{
+		name = "드랍 보너스",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "일반 스테이지, 어려움 스테이지, 이벤트 스테이지에서 드랍 1회 추가",
+		benefit_effect = "1",
+		id = 8,
+		icon = "Props/xinshou",
+		benefit_type = "extra_drop"
+	},
+	{
+		name = "이벤트 드랍 보너스",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "이벤트 드랍 1회 추가, 매일 첫 드랍과 중복되지 않음",
+		benefit_effect = "1",
+		id = 9,
+		icon = "Props/xinshou",
+		benefit_type = "extra_activity_drop"
+	},
+	{
 		name = "학업 ",
 		hide = 0,
 		max_time = 86400,
@@ -56,10 +111,10 @@ pg.benefit_buff_template = {
 		desc = "전술학원에서 스킬 강화 시 수업시간을 줄입니다.\n남은 시간:$1 ",
 		benefit_effect = "300",
 		id = 10,
-		icon = "Props/buff_minigame_10",
+		icon = "Props/buff_qiaozhong_10",
 		benefit_type = "skill_learncost_up"
 	},
-	[11] = {
+	{
 		name = "사업 ",
 		hide = 0,
 		max_time = 86400,
@@ -67,10 +122,10 @@ pg.benefit_buff_template = {
 		desc = "메인, 어려움, 작전문서 스테이지에서 전투 시 아군의 공격력을 소폭 증가시킵니다.\n남은 시간:$1 ",
 		benefit_effect = "504",
 		id = 11,
-		icon = "Props/buff_minigame_11",
+		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
 	},
-	[12] = {
+	{
 		name = "인연 ",
 		hide = 0,
 		max_time = 86400,
@@ -78,10 +133,10 @@ pg.benefit_buff_template = {
 		desc = "비서함의 호감도 증가 속도가 빨라집니다.\n남은 시간:$1 ",
 		benefit_effect = "1",
 		id = 12,
-		icon = "Props/buff_minigame_12",
+		icon = "Props/buff_qiaozhong_12",
 		benefit_type = "intimacy_up_extra"
 	},
-	[13] = {
+	{
 		name = "함선 경험치 보너스1",
 		hide = 0,
 		max_time = 0,
@@ -99,7 +154,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[14] = {
+	{
 		name = "함선 경험치 보너스2",
 		hide = 0,
 		max_time = 0,
@@ -117,7 +172,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[15] = {
+	{
 		name = "함선 경험치 보너스3",
 		hide = 0,
 		max_time = 0,
@@ -135,7 +190,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[16] = {
+	{
 		name = "전투 피해량 보너스1",
 		hide = 0,
 		max_time = 0,
@@ -153,7 +208,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[17] = {
+	{
 		name = "전투 피해량 보너스2",
 		hide = 0,
 		max_time = 0,
@@ -171,7 +226,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[18] = {
+	{
 		name = "전투 피해량 보너스3",
 		hide = 0,
 		max_time = 0,
@@ -189,7 +244,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[19] = {
+	{
 		name = "전술 학원 학습 시간 단축1",
 		hide = 0,
 		max_time = 0,
@@ -207,7 +262,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[20] = {
+	{
 		name = "전술 학원 학습 시간 단축2",
 		hide = 0,
 		max_time = 0,
@@ -225,7 +280,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[21] = {
+	{
 		name = "전술 학원 학습 시간 단축3",
 		hide = 0,
 		max_time = 0,
@@ -243,7 +298,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[22] = {
+	{
 		name = "숙소 경험치 보너스1",
 		hide = 0,
 		max_time = 0,
@@ -261,7 +316,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[23] = {
+	{
 		name = "숙소 경험치 보너스2",
 		hide = 0,
 		max_time = 0,
@@ -279,7 +334,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[24] = {
+	{
 		name = "숙소 경험치 보너스3",
 		hide = 0,
 		max_time = 0,
@@ -297,7 +352,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[25] = {
+	{
 		name = "이벤트 해역 특장원형 드랍 보너스",
 		hide = 0,
 		max_time = 0,
@@ -308,7 +363,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_urptup",
 		benefit_type = "urpt_drop_up"
 	},
-	[26] = {
+	{
 		name = "가창력",
 		hide = 0,
 		max_time = 0,
@@ -323,7 +378,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[27] = {
+	{
 		name = "가창력",
 		hide = 0,
 		max_time = 0,
@@ -338,7 +393,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[28] = {
+	{
 		name = "가창력",
 		hide = 0,
 		max_time = 0,
@@ -353,7 +408,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[29] = {
+	{
 		name = "안무력",
 		hide = 0,
 		max_time = 0,
@@ -368,7 +423,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[30] = {
+	{
 		name = "안무력",
 		hide = 0,
 		max_time = 0,
@@ -383,7 +438,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[31] = {
+	{
 		name = "안무력",
 		hide = 0,
 		max_time = 0,
@@ -398,7 +453,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[32] = {
+	{
 		name = "연기력",
 		hide = 0,
 		max_time = 0,
@@ -413,7 +468,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[33] = {
+	{
 		name = "연기력",
 		hide = 0,
 		max_time = 0,
@@ -428,7 +483,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[34] = {
+	{
 		name = "연기력",
 		hide = 0,
 		max_time = 0,
@@ -443,7 +498,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[35] = {
+	{
 		name = "<color=#ff5c5c>파워</color>LV.1：",
 		hide = 0,
 		max_time = 0,
@@ -458,7 +513,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[36] = {
+	{
 		name = "<color=#ff5c5c>파워</color>LV.2：",
 		hide = 0,
 		max_time = 0,
@@ -473,7 +528,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[37] = {
+	{
 		name = "<color=#ff5c5c>파워</color>MAX：",
 		hide = 0,
 		max_time = 0,
@@ -488,7 +543,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[38] = {
+	{
 		name = "<color=#00BFFF>테크닉</color>LV.1：",
 		hide = 0,
 		max_time = 0,
@@ -503,7 +558,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[39] = {
+	{
 		name = "<color=#00BFFF>테크닉</color>LV.2：",
 		hide = 0,
 		max_time = 0,
@@ -518,7 +573,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[40] = {
+	{
 		name = "<color=#00BFFF>테크닉</color>MAX：",
 		hide = 0,
 		max_time = 0,
@@ -533,7 +588,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[41] = {
+	{
 		name = "<color=#ffde38>체력</color>LV.1：",
 		hide = 0,
 		max_time = 0,
@@ -548,7 +603,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[42] = {
+	{
 		name = "<color=#ffde38>체력</color>LV.2：",
 		hide = 0,
 		max_time = 0,
@@ -563,7 +618,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[43] = {
+	{
 		name = "<color=#ffde38>체력</color>MAX：",
 		hide = 0,
 		max_time = 0,
@@ -578,7 +633,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[44] = {
+	{
 		name = "<color=#FF69B4>매력</color>LV.1：",
 		hide = 0,
 		max_time = 0,
@@ -593,7 +648,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[45] = {
+	{
 		name = "<color=#FF69B4>매력</color>LV.2：",
 		hide = 0,
 		max_time = 0,
@@ -608,7 +663,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[46] = {
+	{
 		name = "<color=#FF69B4>매력</color>MAX：",
 		hide = 0,
 		max_time = 0,
@@ -623,11 +678,38 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
+	{
+		name = "특수 작전 보너스 설명",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "61001",
+		desc = "연료 2배 소모\n결산 수익 2배",
+		benefit_effect = "0",
+		id = 47,
+		icon = "Props/xinshou",
+		benefit_type = "desc"
+	},
+	{
+		name = "특수 작전 보너스",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "호감도, 감정 수치, 지휘관 경험치, 지휘냥 경험치, 함선 경험치 보너스",
+		benefit_effect = "100",
+		id = 48,
+		icon = "Props/xinshou",
+		benefit_type = "chapter_up"
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
+		5,
+		6,
+		7,
+		8,
+		9,
 		10,
 		11,
 		12,
@@ -664,6 +746,8 @@ pg.benefit_buff_template = {
 		43,
 		44,
 		45,
-		46
+		46,
+		47,
+		48
 	}
 }

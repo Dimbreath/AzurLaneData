@@ -86,11 +86,11 @@ function slot0.IsFudaiAndFullCapcity(slot0)
 		return false, i18n("gold_max_tip_title")
 	end
 
-	if slot4 > 0 and slot6.equip_bag_max < slot4 + getProxy(EquipmentProxy):getCapacity() then
+	if slot4 > 0 and slot6:getMaxEquipmentBag() < slot4 + getProxy(EquipmentProxy):getCapacity() then
 		return false, i18n("mail_takeAttachment_error_magazine_full")
 	end
 
-	if slot5 > 0 and slot6.ship_bag_max < slot5 + getProxy(BayProxy):getShipCount() then
+	if slot5 > 0 and slot6:getMaxShipBag() < slot5 + getProxy(BayProxy):getShipCount() then
 		return false, i18n("mail_takeAttachment_error_dockYrad_full")
 	end
 

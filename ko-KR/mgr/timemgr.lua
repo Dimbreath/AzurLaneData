@@ -22,16 +22,19 @@ function slot1.Init(slot0)
 	slot0._Timer = TimeUtil.NewUnityTimer()
 
 	UpdateBeat:Add(slot0.Update, slot0)
+	UpdateBeat:Add(slot0.BattleUpdate, slot0)
 end
 
 function slot1.Update(slot0)
+	slot0._Timer:Schedule()
+end
+
+function slot1.BattleUpdate(slot0)
 	if slot0._stopCombatTime > 0 then
 		slot0._cobTime = slot0._stopCombatTime - slot0._waitTime
 	else
 		slot0._cobTime = Time.time - slot0._waitTime
 	end
-
-	slot0._Timer:Schedule()
 end
 
 function slot1.AddTimer(slot0, slot1, slot2, slot3, slot4)
@@ -128,12 +131,12 @@ function slot1.SetServerTime(slot0, slot1, slot2)
 	slot0._sAnchorTime = slot2 - (SERVER_DAYLIGHT_SAVEING_TIME and 3600 or 0)
 	slot0._AnchorDelta = slot2 - os.time({
 		hour = 0,
-		month = 1,
-		year = 1970,
+		month = 11,
+		year = 2020,
 		min = 0,
 		sec = 0,
 		isdst = false,
-		day = 5
+		day = 23
 	})
 end
 
@@ -193,11 +196,11 @@ function slot1.CurrentSTimeDesc(slot0, slot1, slot2)
 end
 
 function slot1.ChieseDescTime(slot0, slot1, slot2)
-	format = "%Y/%m/%d"
-	slot3 = nil
-	slot4 = split((not slot2 or os.date(format, slot1)) and os.date(format, slot1 - slot0._ServerUnitydelta + os.time() - slot0:RealtimeSinceStartup()), "/")
+	slot3 = "%Y/%m/%d"
+	slot4 = nil
+	slot5 = split((not slot2 or os.date(slot3, slot1)) and os.date(slot3, slot1 - slot0._ServerUnitydelta + os.time() - slot0:RealtimeSinceStartup()), "/")
 
-	return NumberToChinese(slot4[1], false) .. "年" .. NumberToChinese(slot4[2], true) .. "月" .. NumberToChinese(slot4[3], true) .. "日"
+	return NumberToChinese(slot5[1], false) .. "年" .. NumberToChinese(slot5[2], true) .. "月" .. NumberToChinese(slot5[3], true) .. "日"
 end
 
 function slot1.GetNextTime(slot0, slot1, slot2, slot3, slot4)
@@ -205,6 +208,12 @@ function slot1.GetNextTime(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot1 * uv1 + slot2 * 60 + slot3
 
 	return math.floor((slot0:GetServerTime() - (slot0._sAnchorTime + slot6)) / slot4 + 1) * slot4 + slot0._sAnchorTime + slot6
+end
+
+function slot1.GetNextTimeByTimeStamp(slot0, slot1)
+	slot2 = uv0
+
+	return math.floor((slot1 - slot0._sAnchorTime) / slot2) * slot2 + slot0._sAnchorTime
 end
 
 function slot1.GetNextWeekTime(slot0, slot1, slot2, slot3, slot4)

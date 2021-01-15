@@ -67,6 +67,7 @@ return {
 							reinforceDelay = 2,
 							delay = 0,
 							moveCast = true,
+							worldbuff = 1,
 							corrdinate = {
 								-10,
 								0,

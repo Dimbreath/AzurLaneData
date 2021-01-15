@@ -165,6 +165,22 @@ function slot0.Preload(slot0)
 
 				uv0.addCommanderBuffRes(slot8:buildBattleBuffList())
 			end
+		elseif slot0.contextData.system == SYSTEM_GUILD then
+			for slot13, slot14 in ipairs(getProxy(GuildProxy):getRawData():GetActiveEvent():GetBossMission():GetMainFleet():GetShips()) do
+				if slot14 and slot14.ship then
+					table.insert(slot3, slot14.ship)
+				end
+			end
+
+			uv0.addCommanderBuffRes(slot8:BuildBattleBuffList())
+
+			for slot15, slot16 in ipairs(slot7:GetSubFleet():GetShips()) do
+				if slot16 and slot16.ship then
+					table.insert(slot3, slot16.ship)
+				end
+			end
+
+			uv0.addCommanderBuffRes(slot10:BuildBattleBuffList())
 		elseif slot0.contextData.system == SYSTEM_CHALLENGE then
 			ships = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode):getRegularFleet():getShips(false)
 
@@ -181,6 +197,45 @@ function slot0.Preload(slot0)
 			end
 
 			uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
+		elseif slot0.contextData.system == SYSTEM_WORLD_BOSS then
+			for slot12, slot13 in ipairs(slot2:getSortShipsByFleet(nowWorld:GetBossProxy():GetFleet())) do
+				table.insert(slot3, slot13)
+			end
+		elseif slot0.contextData.system == SYSTEM_WORLD then
+			slot11 = true
+
+			for slot11, slot12 in ipairs(nowWorld:GetActiveMap():GetFleet():GetShipVOs(slot11)) do
+				table.insert(slot3, slot12)
+			end
+
+			slot8, slot9 = slot6:getFleetBattleBuffs(slot7)
+
+			uv0.addCommanderBuffRes(slot9)
+			uv0.addChapterBuffRes(slot8)
+			uv0.addChapterAuraRes(slot6:GetChapterAuraBuffs())
+
+			slot12 = {}
+
+			for slot16, slot17 in pairs(slot6:GetChapterAidBuffs()) do
+				for slot21, slot22 in ipairs(slot17) do
+					table.insert(slot12, slot22)
+				end
+			end
+
+			uv0.addChapterAuraRes(slot12)
+
+			if slot5:GetSubAidFlag() == true then
+				for slot19, slot20 in ipairs(slot6:GetSubmarineFleet():GetTeamShipVOs(TeamType.Submarine, false)) do
+					table.insert(slot3, slot20)
+				end
+
+				slot16, slot17 = slot6:getFleetBattleBuffs(slot14)
+
+				uv0.addCommanderBuffRes(slot17)
+				uv0.addChapterBuffRes(slot16)
+			end
+
+			uv0.addChapterBuffRes(slot6:GetCell(slot7.row, slot7.column):GetStageEnemy():GetBattleBuffList())
 		elseif slot0.contextData.mainFleetId then
 			for slot11, slot12 in ipairs(slot2:getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId))) do
 				table.insert(slot3, slot12)
@@ -315,22 +370,23 @@ function slot0.Preload(slot0)
 		end
 	end
 
-	slot5, slot6 = slot1.GetStageResource(pg.expedition_data_template[slot0.contextData.stageId].dungeon_id)
+	slot3 = pg.expedition_data_template[slot0.contextData.stageId]
+	slot4 = nil
 
-	slot1:AddPreloadResource(slot5)
+	slot1:AddPreloadResource(slot1.GetMapResource((slot0.contextData.system ~= SYSTEM_WORLD or slot3.difficulty ~= ys.Battle.BattleConst.Difficulty.WORLD or nowWorld:GetActiveMap().config.expedition_map_id) and slot3.map_id))
 
-	slot10 = pg.expedition_data_template[slot0.contextData.stageId].map_id
+	slot6, slot7 = slot1.GetStageResource(pg.expedition_data_template[slot0.contextData.stageId].dungeon_id)
 
-	slot1:AddPreloadResource(slot1.GetMapResource(slot10))
+	slot1:AddPreloadResource(slot6)
 	slot1:AddPreloadResource(slot1.GetCommonResource())
 	slot1:AddPreloadResource(slot1.GetBuffResource())
 
-	for slot10, slot11 in ipairs(slot6) do
-		slot1:AddPreloadCV(slot11)
+	for slot11, slot12 in ipairs(slot7) do
+		slot1:AddPreloadCV(slot12)
 	end
 
-	slot8 = 0
-	slot8 = slot1:StartPreload(function ()
+	slot9 = 0
+	slot9 = slot1:StartPreload(function ()
 		SetActive(uv0._loadingAnima, false)
 		SetActive(uv0._finishAnima, true)
 

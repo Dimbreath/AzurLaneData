@@ -10,6 +10,7 @@ slot0.TYPE_GUILD = 9
 slot0.TYPE_SHAM_BATTLE = 10
 slot0.TYPE_ESCORT = 11
 slot0.TYPE_FRAGMENT = 12
+slot0.TYPE_WORLD = 13
 slot0.GIFT_BOX = 1
 slot0.MONTH_CARD = 2
 slot0.GEM = 0
@@ -17,7 +18,7 @@ slot0.ITEM_BOX = 3
 slot0.EQUIP_BAG_SIZE_ITEM = 59100
 slot0.SHIP_BAG_SIZE_ITEM = 59101
 slot0.COMMANDER_BAG_SIZE_ITEM = 59114
-slot0.CUR_PACKET_ID = 23
+slot0.CUR_PACKET_ID = 25
 
 function slot0.Ctor(slot0)
 end

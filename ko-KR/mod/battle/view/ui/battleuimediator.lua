@@ -104,8 +104,6 @@ function slot6.OpeningEffect(slot0, slot1, slot2)
 		uv0._uiMGR:SetActive(true)
 		uv0:EnableComponent(true)
 
-		uv0._ui._go:GetComponent("DftAniEvent").enabled = false
-
 		if uv1 then
 			uv1()
 		end
@@ -247,6 +245,7 @@ end
 function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.STAGE_DATA_INIT_FINISH, slot0.onStageInit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.COMMON_DATA_INIT_FINISH, slot0.onCommonInit)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_FLEET, slot0.onAddFleet)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UNIT, slot0.onAddUnit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_UNIT, slot0.onRemoveUnit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.HIT_ENEMY, slot0.onEnemyHit)
@@ -263,6 +262,7 @@ end
 function slot6.RemoveUIEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.COMMON_DATA_INIT_FINISH)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.STAGE_DATA_INIT_FINISH)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_FLEET)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.HIT_ENEMY)
@@ -304,7 +304,7 @@ end
 
 function slot6.ShowAutoBtn(slot0)
 	SetActive(slot0._autoBtn.transform, true)
-	triggerToggle(slot0._autoBtn, uv0.Battle.BattleState.IsAutoBotActive())
+	triggerToggle(slot0._autoBtn, uv0.Battle.BattleState.IsAutoBotActive(slot0:GetState():GetBattleType()))
 end
 
 function slot6.ShowTimer(slot0)
@@ -317,6 +317,10 @@ end
 
 function slot6.ShowSimulationView(slot0)
 	slot0._simulationBuffCountView:SetActive(true)
+end
+
+function slot6.ShowPauseButton(slot0, slot1)
+	setActive(slot0._ui:findTF("PauseBtn"), slot1)
 end
 
 function slot6.ShowDodgemScoreBar(slot0)
@@ -405,6 +409,18 @@ function slot6.onCommonInit(slot0, slot1)
 	slot0._sightView:SetAreaBound(slot4, slot5)
 end
 
+function slot6.onAddFleet(slot0, slot1)
+	if PlayerPrefs.GetInt(BATTLE_EXPOSE_LINE, 1) == 1 then
+		slot0:SetFleetCloakLine(slot1.Data.fleetVO)
+	end
+end
+
+function slot6.SetFleetCloakLine(slot0, slot1)
+	if #slot1:GetCloakList() > 0 then
+		slot0._seaView:SetExposeLine(slot1:GetIFF(), slot1:GetFleetVisionLine(), slot1:GetFleetExposeLine())
+	end
+end
+
 function slot6.onAddUnit(slot0, slot1)
 	slot2 = slot1.Data.type
 
@@ -486,7 +502,7 @@ function slot6.onUpdateCountDown(slot0, slot1)
 end
 
 function slot6.onJamming(slot0, slot1)
-	slot0:InitKizunaJamming()
+	slot0._skillView:JamSkillButton(slot1.Data.jammingFlag)
 end
 
 function slot6.onUpdateDodgemScore(slot0, slot1)

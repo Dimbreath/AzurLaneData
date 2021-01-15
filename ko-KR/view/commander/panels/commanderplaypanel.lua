@@ -2,21 +2,54 @@ slot0 = class("CommanderPlayPanel", import("...base.BasePanel"))
 
 function slot0.init(slot0)
 	slot0.skillTF = slot0:findTF("skill/frame")
-	slot0.skillNameTxt = slot0:findTF("skill_desc/line/name", slot0.skillTF):GetComponent(typeof(Text))
-	slot0.skillDescTF = slot0:findTF("skill_desc/intro_view/Viewport/introTF", slot0.skillTF)
-	slot0.skillDescContent = slot0:findTF("skill_desc/intro_view/Viewport/content", slot0.skillTF)
-	slot0.skillIcon = slot0:findTF("skill_desc/icon/Image", slot0.skillTF)
-	slot0.skilllvTxt = slot0:findTF("skill_desc/line/level", slot0.skillTF):GetComponent(typeof(Text))
-	slot0.skillAdditionTxt = slot0:findTF("skill_desc/line/addition", slot0.skillTF):GetComponent(typeof(Text))
-	slot0.expTxt = slot0:findTF("skill_desc/line/exp/Text", slot0.skillTF):GetComponent(typeof(Text))
-	slot0.commanderLvTxt = slot0:findTF("exp_bg/level_bg/Text", slot0.skillTF):GetComponent(typeof(Text))
-	slot0.levelAdditonTxt = slot0:findTF("exp_bg/level_bg/addition", slot0.skillTF):GetComponent(typeof(Text))
-	slot0.preExpSlider = slot0:findTF("exp_bg/slider", slot0.skillTF):GetComponent(typeof(Slider))
-	slot0.expSlider = slot0:findTF("exp_bg/slider/exp", slot0.skillTF):GetComponent(typeof(Slider))
-	slot0.sliderExpTxt = slot0:findTF("exp_bg/slider/Text", slot0.skillTF):GetComponent(typeof(Text))
+	slot0.skillNameTxt = slot0:findTF("name", slot0.skillTF):GetComponent(typeof(Text))
+	slot0.skillIcon = slot0:findTF("icon/Image", slot0.skillTF)
+	slot0.skilllvTxt = slot0:findTF("level_container/level", slot0.skillTF):GetComponent(typeof(Text))
+	slot0.skillAdditionTxt = slot0:findTF("level_container/addition", slot0.skillTF):GetComponent(typeof(Text))
+	slot0.expTxt = slot0:findTF("exp/Text", slot0.skillTF):GetComponent(typeof(Text))
+	slot0.descBtn = slot0:findTF("skill/frame/desc")
+	slot0.descPage = slot0:findTF("skill_desc")
+	slot0.descToggle = slot0:findTF("tags", slot0.descPage)
+	slot0.descToggleMark = slot0.descToggle:Find("sel")
+	slot0.skillDescList = UIItemList.New(slot0:findTF("content/list", slot0.descPage), slot0:findTF("content/list/tpl", slot0.descPage))
+
+	setActive(slot0.descPage, false)
+
+	slot0.commanderLvTxt = slot0:findTF("select_panel/exp_bg/level_bg/Text"):GetComponent(typeof(Text))
+	slot0.levelAdditonTxt = slot0:findTF("select_panel/exp_bg/level_bg/addition"):GetComponent(typeof(Text))
+	slot0.preExpSlider = slot0:findTF("select_panel/exp_bg/slider"):GetComponent(typeof(Slider))
+	slot0.expSlider = slot0:findTF("select_panel/exp_bg/slider/exp"):GetComponent(typeof(Slider))
+	slot0.sliderExpTxt = slot0:findTF("select_panel/exp_bg/slider/Text"):GetComponent(typeof(Text))
 	slot0.uilist = UIItemList.New(slot0:findTF("select_panel/frame/list"), slot0:findTF("select_panel/frame/list/commandeTF"))
 	slot0.consumeTxt = slot0:findTF("select_panel/consume/Text"):GetComponent(typeof(Text))
 	slot0.confirmBtn = slot0:findTF("select_panel/confirm_btn")
+
+	onButton(nil, slot0.descBtn, function ()
+		if uv0.isOpenDescPage then
+			uv0:CloseDescPage()
+
+			uv0.isOpenDescPage = false
+		else
+			uv0.isOpenDescPage = true
+
+			uv0:UpdateDescPage()
+			uv0:emit(CommanderInfoMediator.ON_CLOSE_PANEL)
+		end
+
+		setActive(uv0.descBtn:Find("sel"), uv0.isOpenDescPage)
+	end, SFX_PANEL)
+	setActive(slot0.descBtn:Find("sel"), false)
+
+	slot0.commonFlag = true
+
+	onButton(nil, slot0.descToggle, function ()
+		uv0.commonFlag = not uv0.commonFlag
+
+		setAnchoredPosition(uv0.descToggleMark, {
+			x = uv0.commonFlag and 0 or uv0.descToggleMark.rect.width
+		})
+		uv0:UpdateDescPage()
+	end, SFX_PANEL)
 end
 
 function slot0.update(slot0, slot1, slot2)
@@ -24,6 +57,10 @@ function slot0.update(slot0, slot1, slot2)
 	slot0.detailPage = slot2
 
 	slot0:updateMatrtials(slot0.parent.contextData.materialIds or {}, skill)
+
+	if slot0.isOpenDescPage then
+		slot0:UpdateDescPage()
+	end
 end
 
 function slot0.updateMatrtials(slot0, slot1)
@@ -79,31 +116,36 @@ function slot0.getSkillExpAndCommanderExp(slot0, slot1)
 	return math.floor(slot4), math.floor(slot3)
 end
 
+function slot0.UpdateDescPage(slot0)
+	setActive(slot0.descPage, true)
+
+	slot2 = slot0.commanderVO:getSkills()[1]
+	slot4 = slot2:getConfig("lv")
+
+	slot0.skillDescList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
+			slot5 = slot3.lv <= uv2 and "#66472a" or "#a3a2a2"
+
+			setText(slot2, "<color=" .. slot5 .. ">" .. (uv1.commonFlag and slot3.desc or slot3.desc_world) .. "</color>" .. (uv2 < slot3.lv and "(Lv." .. slot3.lv .. i18n("word_take_effect") .. ")" or ""))
+			setText(slot2:Find("level"), "<color=" .. slot5 .. ">" .. "Lv." .. slot3.lv .. "</color>")
+		end
+	end)
+	slot0.skillDescList:align(#slot2:GetSkillGroup())
+end
+
+function slot0.CloseDescPage(slot0)
+	setActive(slot0.descPage, false)
+end
+
 function slot0.updateSkillTF(slot0, slot1)
 	slot4 = slot0.commanderVO:getSkills()[1]
+	slot5 = Clone(slot4)
 
-	Clone(slot4):addExp(slot1)
+	slot5:addExp(slot1)
 
 	slot6 = slot4:getConfig("lv")
-	slot10 = "name"
-	slot0.skillNameTxt.text = slot4:getConfig(slot10)
-
-	setActive(slot0.skillDescTF, false)
-
-	for slot10 = 0, slot0.skillDescContent.childCount - 1 do
-		setActive(slot0.skillDescContent:GetChild(slot10), false)
-	end
-
-	slot10 = "desc"
-
-	for slot10, slot11 in ipairs(slot4:getConfig(slot10)) do
-		slot12 = nil
-		slot12 = (slot10 > slot0.skillDescContent.childCount or slot0.skillDescContent:GetChild(slot10 - 1)) and cloneTplTo(slot0.skillDescTF, slot0.skillDescContent)
-
-		setActive(slot12, true)
-		setText(findTF(slot12, "Lv"), slot6 < slot11[1] and "<color=#a3a2a2>" .. "Lv." .. slot11[1] .. "</color>" or "Lv." .. slot11[1])
-		setText(findTF(slot12, "Desc"), slot6 < slot11[1] and "<color=#a3a2a2>" .. slot11[2] .. "</color>" or slot11[2])
-	end
+	slot0.skillNameTxt.text = slot4:getConfig("name")
 
 	GetImageSpriteFromAtlasAsync("CommanderSkillIcon/" .. slot4:getConfig("icon"), "", slot0.skillIcon)
 
@@ -281,7 +323,17 @@ function slot0.playAnim(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot0.ClosePanel(slot0)
+	if slot0.isOpenDescPage then
+		slot0:CloseDescPage()
+
+		slot0.isOpenDescPage = nil
+	end
+end
+
 function slot0.exit(slot0)
+	removeOnButton(slot0.descBtn)
+	removeOnButton(slot0.descToggle)
 end
 
 return slot0

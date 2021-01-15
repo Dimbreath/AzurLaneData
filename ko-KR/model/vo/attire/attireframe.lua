@@ -5,7 +5,11 @@ slot0.STATE_UNLOCK = 3
 
 function slot0.attireFrameRes(slot0, slot1, slot2, slot3)
 	if slot2 == AttireConst.TYPE_ICON_FRAME and slot0.attireInfo[slot2] == 0 and slot3 then
-		return "propose"
+		if pg.ship_data_template[slot0.icon] and ShipGroup.IsMetaGroup(slot5.group_type) then
+			return "meta_propose"
+		else
+			return "propose"
+		end
 	elseif slot2 == AttireConst.TYPE_CHAT_FRAME then
 		return slot1 and slot4 .. "_self" or slot4 .. "_other"
 	else

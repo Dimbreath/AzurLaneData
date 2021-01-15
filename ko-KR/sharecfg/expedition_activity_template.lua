@@ -3680,6 +3680,21 @@ pg.expedition_activity_template = {
 			}
 		}
 	},
+	[1430013] = {
+		id = 1430013,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1430033] = {
+		id = 1430033,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1430053] = {
+		id = 1430053,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
 	[1440013] = {
 		id = 1440013,
 		bonus_time = 1,
@@ -4019,6 +4034,136 @@ pg.expedition_activity_template = {
 			{
 				20604,
 				177
+			}
+		}
+	},
+	[1490013] = {
+		id = 1490013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				20639,
+				180
+			}
+		}
+	},
+	[1490113] = {
+		id = 1490113,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				20639,
+				180
+			}
+		}
+	},
+	[1490213] = {
+		id = 1490213,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				20639,
+				180
+			}
+		}
+	},
+	[1491013] = {
+		id = 1491013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				20640,
+				180
+			}
+		}
+	},
+	[1491113] = {
+		id = 1491113,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				20640,
+				180
+			}
+		}
+	},
+	[1491213] = {
+		id = 1491213,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				20640,
+				180
+			}
+		}
+	},
+	[1492013] = {
+		id = 1492013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20639,
+				180
+			}
+		}
+	},
+	[1492113] = {
+		id = 1492113,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20639,
+				180
+			}
+		}
+	},
+	[1492213] = {
+		id = 1492213,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20639,
+				180
+			}
+		}
+	},
+	[1493013] = {
+		id = 1493013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20640,
+				180
+			}
+		}
+	},
+	[1493113] = {
+		id = 1493113,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20640,
+				180
+			}
+		}
+	},
+	[1493213] = {
+		id = 1493213,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20640,
+				180
+			}
+		}
+	},
+	[1494013] = {
+		id = 1494013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				20640,
+				180
 			}
 		}
 	},
@@ -4670,6 +4815,9 @@ pg.expedition_activity_template = {
 		1423113,
 		1423213,
 		1424013,
+		1430013,
+		1430033,
+		1430053,
 		1440013,
 		1440113,
 		1440213,
@@ -4699,6 +4847,19 @@ pg.expedition_activity_template = {
 		1482013,
 		1483013,
 		1484013,
+		1490013,
+		1490113,
+		1490213,
+		1491013,
+		1491113,
+		1491213,
+		1492013,
+		1492113,
+		1492213,
+		1493013,
+		1493113,
+		1493213,
+		1494013,
 		3000013,
 		3000113,
 		3000213,

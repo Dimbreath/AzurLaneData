@@ -43,8 +43,8 @@ function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
 end
 
 function slot1.onRemove(slot0, slot1, slot2)
-	if slot2:GetCaster() and slot3:IsAlive() and slot0._restoreRate > 0 and slot3 ~= slot1 and math.floor(slot0._sumDMG * slot0._restoreRate) ~= 0 then
-		slot3:UpdateHP(slot4, {
+	if slot2:GetCaster() and slot3:IsAlive() and slot0._restoreRate > 0 and slot3 ~= slot1 and math.floor(slot0._sumDMG * slot0._restoreRate * slot3:GetAttrByName("healingRate")) ~= 0 then
+		slot3:UpdateHP(slot5, {
 			isMiss = false,
 			isCri = false,
 			isHeal = true

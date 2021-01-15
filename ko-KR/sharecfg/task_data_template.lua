@@ -20428,6 +20428,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5551] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5401,
+		type = 5,
+		name = "켄트 선수, 스퍼트!",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "kente",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5552",
+		visibility = 1,
+		story_id = "KENTE1",
+		target_id_for_client = 50003,
+		id = 5551,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5552] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5402,
+		type = 5,
+		name = "켄트 선수 무방비!",
+		count_inherit = 0,
+		desc = "임의의 함선소녀를 10회 강화한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5553",
+		visibility = 1,
+		story_id = "KENTE2",
+		target_id_for_client = 0,
+		id = 5552,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5553] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5403,
+		type = 5,
+		name = "고마운 마음",
+		count_inherit = 0,
+		desc = "켄트를 포함한 함대를 출격시켜\n20회 승리한다",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5554",
+		visibility = 1,
+		story_id = "KENTE3",
+		target_id_for_client = 20303,
+		id = 5553,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5554] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5404,
+		type = 5,
+		name = "뜻밖의 만남!",
+		count_inherit = 0,
+		desc = "켄트를 포함한 함대로 데일리 챌린지를\n3회 클리어한다",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5555",
+		visibility = 1,
+		story_id = "KENTE4",
+		target_id_for_client = 20303,
+		id = 5554,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5555] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5405,
+		type = 5,
+		name = "켄트 선수의 비밀!",
+		count_inherit = 0,
+		desc = "켄트의 호감도를 100까지 달성한다",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5556",
+		visibility = 1,
+		story_id = "KENTE5",
+		target_id_for_client = 20303,
+		id = 5555,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5556] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5406,
+		type = 5,
+		name = "어두운 밤의 빛!",
+		count_inherit = 0,
+		desc = "켄트의 한계돌파를 3회 진행한다",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5557",
+		visibility = 1,
+		story_id = "KENTE6",
+		target_id_for_client = 203034,
+		id = 5556,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "203034",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5557] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5407,
+		type = 5,
+		name = "영원히 함께!",
+		count_inherit = 0,
+		desc = "켄트의 레벨을 100까지 달성한다",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "kente",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "KENTE7",
+		target_id_for_client = 20303,
+		id = 5557,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -22286,6 +22549,11 @@ pg.task_data_template = {
 				2,
 				50001,
 				10
+			},
+			{
+				1,
+				8,
+				10
 			}
 		}
 	},
@@ -22319,6 +22587,11 @@ pg.task_data_template = {
 				1,
 				2,
 				30
+			},
+			{
+				2,
+				54001,
+				1
 			}
 		}
 	},
@@ -22468,6 +22741,11 @@ pg.task_data_template = {
 				2,
 				20011,
 				1
+			},
+			{
+				1,
+				8,
+				10
 			}
 		}
 	},
@@ -22501,6 +22779,11 @@ pg.task_data_template = {
 				2,
 				52004,
 				1
+			},
+			{
+				1,
+				8,
+				10
 			}
 		}
 	},
@@ -22650,9 +22933,9 @@ pg.task_data_template = {
 				1
 			},
 			{
-				2,
-				54001,
-				1
+				1,
+				8,
+				10
 			}
 		}
 	},
@@ -22724,6 +23007,11 @@ pg.task_data_template = {
 				2,
 				54001,
 				1
+			},
+			{
+				1,
+				8,
+				10
 			}
 		}
 	},
@@ -23134,6 +23422,11 @@ pg.task_data_template = {
 				1,
 				2,
 				150
+			},
+			{
+				2,
+				50005,
+				1
 			}
 		}
 	},
@@ -23205,6 +23498,11 @@ pg.task_data_template = {
 				1,
 				3,
 				300
+			},
+			{
+				2,
+				50005,
+				1
 			}
 		}
 	},
@@ -23638,9 +23936,9 @@ pg.task_data_template = {
 				1
 			},
 			{
-				2,
-				50005,
-				2
+				1,
+				8,
+				200
 			},
 			{
 				1,
@@ -23699,8 +23997,8 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {
 			{
-				2,
-				59010,
+				8,
+				59011,
 				100
 			},
 			{
@@ -23765,8 +24063,8 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {
 			{
-				2,
-				59010,
+				8,
+				59011,
 				300
 			},
 			{
@@ -65330,6 +65628,39 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14676] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91196,
+		type = 6,
+		name = "『限界挑战7』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14676,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				207,
+				1
+			}
+		}
+	},
 	[14730] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -83119,6 +83450,816 @@ pg.task_data_template = {
 		},
 		scene = {
 			"ACT_BOSS_SPF"
+		}
+	},
+	[15350] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92571,
+		type = 6,
+		name = "Z23画家填色累计耗油1",
+		count_inherit = 15351,
+		desc = "누적 소모 연료 500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15351",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15350,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59970,
+				60
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59972,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15351] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92572,
+		type = 6,
+		name = "Z23画家填色累计耗油2",
+		count_inherit = 15352,
+		desc = "누적 소모 연료 1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15352",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15351,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59973,
+				80
+			},
+			{
+				8,
+				59975,
+				60
+			},
+			{
+				8,
+				59976,
+				35
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15352] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92573,
+		type = 6,
+		name = "Z23画家填色累计耗油3",
+		count_inherit = 15353,
+		desc = "누적 소모 연료 1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15353",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15352,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59977,
+				30
+			},
+			{
+				8,
+				59974,
+				90
+			},
+			{
+				8,
+				59972,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15353] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92574,
+		type = 6,
+		name = "Z23画家填色累计耗油4",
+		count_inherit = 15354,
+		desc = "누적 소모 연료 2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15354",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15353,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59975,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15354] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92575,
+		type = 6,
+		name = "Z23画家填色累计耗油5",
+		count_inherit = 15355,
+		desc = "누적 소모 연료 2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15355",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15354,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59974,
+				75
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15355] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92576,
+		type = 6,
+		name = "Z23画家填色累计耗油6",
+		count_inherit = 15356,
+		desc = "누적 소모 연료 3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15356",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15355,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59976,
+				40
+			},
+			{
+				8,
+				59977,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15356] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92577,
+		type = 6,
+		name = "Z23画家填色累计耗油7",
+		count_inherit = 15357,
+		desc = "누적 소모 연료 4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15357",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15356,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59970,
+				90
+			},
+			{
+				8,
+				59975,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15357] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92578,
+		type = 6,
+		name = "Z23画家填色累计耗油8",
+		count_inherit = 15358,
+		desc = "누적 소모 연료 5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15358",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15357,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59972,
+				80
+			},
+			{
+				8,
+				59977,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15358] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92579,
+		type = 6,
+		name = "Z23画家填色累计耗油9",
+		count_inherit = 15359,
+		desc = "누적 소모 연료 6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15359",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15358,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59970,
+				55
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59975,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15359] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92580,
+		type = 6,
+		name = "Z23画家填色累计耗油10",
+		count_inherit = 15360,
+		desc = "누적 소모 연료 7000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15360",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15359,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				90
+			},
+			{
+				8,
+				59974,
+				75
+			},
+			{
+				8,
+				59977,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15360] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92581,
+		type = 6,
+		name = "Z23画家填色累计耗油11",
+		count_inherit = 15361,
+		desc = "누적 소모 연료 8000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15361",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15360,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				100
+			},
+			{
+				8,
+				59977,
+				70
+			},
+			{
+				8,
+				59978,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15361] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92582,
+		type = 6,
+		name = "Z23画家填色累计耗油12",
+		count_inherit = 15362,
+		desc = "누적 소모 연료 9000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15362",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15361,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				120
+			},
+			{
+				8,
+				59972,
+				100
+			},
+			{
+				8,
+				59978,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15362] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92583,
+		type = 6,
+		name = "Z23画家填色累计耗油13",
+		count_inherit = 15363,
+		desc = "누적 소모 연료 10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15363",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15362,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59975,
+				110
+			},
+			{
+				8,
+				59973,
+				25
+			},
+			{
+				8,
+				59977,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15363] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92584,
+		type = 6,
+		name = "Z23画家填色累计耗油14",
+		count_inherit = 15364,
+		desc = "누적 소모 연료 11000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15364",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15363,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59974,
+				30
+			},
+			{
+				8,
+				59976,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15364] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92585,
+		type = 6,
+		name = "Z23画家填色累计耗油15",
+		count_inherit = 15365,
+		desc = "누적 소모 연료 12000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15365",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15364,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59977,
+				85
+			},
+			{
+				8,
+				59978,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15365] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92586,
+		type = 6,
+		name = "Z23画家填色累计耗油16",
+		count_inherit = 15366,
+		desc = "누적 소모 연료 13000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15366",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15365,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59972,
+				92
+			},
+			{
+				8,
+				59973,
+				48
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15366] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92587,
+		type = 6,
+		name = "Z23画家填色累计耗油17",
+		count_inherit = 15367,
+		desc = "누적 소모 연료 14000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "15367",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15366,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59974,
+				45
+			},
+			{
+				8,
+				59975,
+				114
+			},
+			{
+				8,
+				59976,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15367] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92588,
+		type = 6,
+		name = "Z23画家填色累计耗油18",
+		count_inherit = 0,
+		desc = "누적 소모 연료 15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15367,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				75
+			},
+			{
+				8,
+				59977,
+				49
+			},
+			{
+				8,
+				59978,
+				44
+			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[15368] = {
@@ -104485,6 +105626,1630 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16141] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94176,
+		type = 26,
+		name = "若叶圣诞皮肤复刻1",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16141,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[16142] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94177,
+		type = 26,
+		name = "若叶圣诞皮肤复刻2",
+		count_inherit = 0,
+		desc = "게임 로그인하기",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16142,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16143] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94178,
+		type = 26,
+		name = "若叶圣诞皮肤复刻3",
+		count_inherit = 0,
+		desc = "데일리 챌린지를 3회 클리어 한다",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16143,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[16144] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94179,
+		type = 26,
+		name = "若叶圣诞皮肤复刻4",
+		count_inherit = 0,
+		desc = "함선을 2척 퇴역시킨다",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16144,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16145] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94180,
+		type = 26,
+		name = "若叶圣诞皮肤复刻5",
+		count_inherit = 0,
+		desc = "전술학원에서 전술훈련을 2번 수행한다",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16145,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54022,
+				3
+			}
+		}
+	},
+	[16146] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94181,
+		type = 26,
+		name = "若叶圣诞皮肤复刻6",
+		count_inherit = 0,
+		desc = "숙소에서 식량을 5회 보충한다",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16146,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16147] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94182,
+		type = 26,
+		name = "若叶圣诞皮肤复刻7",
+		count_inherit = 0,
+		desc = "임의의 적함을 20척 격파한다",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16147,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				3
+			}
+		}
+	},
+	[16148] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94183,
+		type = 26,
+		name = "若叶圣诞皮肤复刻8",
+		count_inherit = 0,
+		desc = "건조를 2회 수행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16148,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16149] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94184,
+		type = 26,
+		name = "若叶圣诞皮肤复刻9",
+		count_inherit = 0,
+		desc = "임의의 장비상자 1개 오픈한다",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16149,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54023,
+				1
+			}
+		}
+	},
+	[16150] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94185,
+		type = 26,
+		name = "若叶圣诞皮肤复刻10",
+		count_inherit = 0,
+		desc = "함선을 5번 강화한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16150,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16151] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94186,
+		type = 26,
+		name = "若叶圣诞皮肤复刻11",
+		count_inherit = 0,
+		desc = "군사의뢰를 2번 수행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16151,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			}
+		}
+	},
+	[16152] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94187,
+		type = 26,
+		name = "若叶圣诞皮肤复刻12",
+		count_inherit = 0,
+		desc = "연습을 2회 수행한다",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16152,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16153] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94188,
+		type = 26,
+		name = "若叶圣诞皮肤复刻13",
+		count_inherit = 0,
+		desc = "장비를 2번 강화한다",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16153,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54024,
+				1
+			}
+		}
+	},
+	[16154] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94189,
+		type = 26,
+		name = "若叶圣诞皮肤复刻14",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 10회 S평가로 승리하라!",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16154,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				301231,
+				1
+			}
+		}
+	},
+	[16155] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94190,
+		type = 6,
+		name = "『독일 V3』 캐릭터 수집: 페터 슈트라서",
+		count_inherit = 0,
+		desc = "[페터 슈트라서] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 407034,
+		id = 16155,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "407034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				680
+			}
+		}
+	},
+	[16156] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94191,
+		type = 6,
+		name = "『독일 V3』 캐릭터 수집: P1: 프린츠 하인리히",
+		count_inherit = 0,
+		desc = "[프린츠 하인리히] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 403094,
+		id = 16156,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "403094",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				680
+			}
+		}
+	},
+	[16157] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94192,
+		type = 6,
+		name = "『독일 V3』 캐릭터 수집: U37",
+		count_inherit = 0,
+		desc = "[U37] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 408104,
+		id = 16157,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "408104",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				680
+			}
+		}
+	},
+	[16158] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94193,
+		type = 6,
+		name = "『독일 V3』 캐릭터 수집: 뉘른베르크",
+		count_inherit = 0,
+		desc = "[뉘른베르크] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 402054,
+		id = 16158,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "402054",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				460
+			}
+		}
+	},
+	[16159] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94194,
+		type = 6,
+		name = "『독일 V3』 캐릭터 수집: 베저",
+		count_inherit = 0,
+		desc = "[베저] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 406014,
+		id = 16159,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "406014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				460
+			}
+		}
+	},
+	[16160] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94195,
+		type = 6,
+		name = "『독일 V3』 캐릭터 수집: Z24",
+		count_inherit = 0,
+		desc = "[Z24] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 401244,
+		id = 16160,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "401244",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				460
+			}
+		}
+	},
+	[16163] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94198,
+		type = 6,
+		name = "『독일 V3』 캐릭터 출격: 야마시로",
+		count_inherit = 0,
+		desc = "한계돌파 MAX 야마시로로 A2/C2에서 적 기함 10회 처치 및 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16163,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1490113,
+			1492113
+		},
+		target_id_2 = {
+			305024,
+			310024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16164] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94199,
+		type = 6,
+		name = "『독일 V3』 캐릭터 출격: 콘고",
+		count_inherit = 0,
+		desc = "한계돌파 MAX 콘고로 A3/C3에서 적 기함 10회 처치 및 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16164,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1490213,
+			1492213
+		},
+		target_id_2 = {
+			304014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16165] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94200,
+		type = 6,
+		name = "『독일 V3』 캐릭터 출격: 프린츠 오이겐",
+		count_inherit = 0,
+		desc = "한계돌파 MAX 프린츠 오이겐으로 B2/D2에서 적 기함 10회 처치 및 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16165,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1491113,
+			1493113
+		},
+		target_id_2 = {
+			403034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16166] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94201,
+		type = 6,
+		name = "『독일 V3』 캐릭터 출격: Z46",
+		count_inherit = 0,
+		desc = "한계돌파 MAX Z46으로 B3/D3에서 적 기함 10회 처치 및 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16166,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1491213,
+			1493213
+		},
+		target_id_2 = {
+			401464
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59191,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16201] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94252,
+		type = 36,
+		name = "『독일 V3』- 일상 건조",
+		count_inherit = 0,
+		desc = "함선을 3척 「건조」하라!",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16201,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				300
+			}
+		}
+	},
+	[16202] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94253,
+		type = 36,
+		name = "『독일V3』- 일상 출격",
+		count_inherit = 0,
+		desc = "전투에서 15번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16202,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				300
+			}
+		}
+	},
+	[16203] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94254,
+		type = 36,
+		name = "『독일V3』- 일상 어려움 모드",
+		count_inherit = 0,
+		desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16203,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59192,
+				150
+			}
+		}
+	},
+	[16204] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94255,
+		type = 6,
+		name = "『독일V3』 A1/C1 클리어",
+		count_inherit = 0,
+		desc = "A1 혹은 C1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16205",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16204,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460001,
+			1460021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16205] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94256,
+		type = 6,
+		name = "『독일V3』 A2/C2 클리어",
+		count_inherit = 0,
+		desc = "A2 혹은 C2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16206",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16205,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460002,
+			1460022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16206] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94257,
+		type = 6,
+		name = "『독일V3』 A3/C3 클리어",
+		count_inherit = 0,
+		desc = "A3 혹은 C3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16207",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16206,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460003,
+			1460023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59192,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16207] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94258,
+		type = 6,
+		name = "『독일V3』 B1/D1 클리어",
+		count_inherit = 0,
+		desc = "B1 혹은 D1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16208",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16207,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460004,
+			1460024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16208] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94259,
+		type = 6,
+		name = "『독일V3』 B2/D2 클리어",
+		count_inherit = 0,
+		desc = "B2 혹은 D2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16209",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16208,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460005,
+			1460025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59192,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16209] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94260,
+		type = 6,
+		name = "『독일V3』 B3/D3 클리어",
+		count_inherit = 0,
+		desc = "B3 혹은 D3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16210",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16209,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460006,
+			1460026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59192,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16210] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94261,
+		type = 6,
+		name = "『독일V3』 SP 클리어",
+		count_inherit = 0,
+		desc = "SP를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1460041,
+		id = 16210,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1460041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16211] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94262,
+		type = 6,
+		name = "『독일V3』 EX 클리어",
+		count_inherit = 0,
+		desc = "EX를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1460051,
+		id = 16211,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1460051",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16212] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94263,
+		type = 6,
+		name = "『독일V3』 D3 클리어",
+		count_inherit = 0,
+		desc = "D3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1460026,
+		id = 16212,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1460026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				189,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16213] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94264,
+		type = 6,
+		name = "『독일V3』A1/C1 3성",
+		count_inherit = 0,
+		desc = "A1 혹은 C1의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16214",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16213,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460001,
+			1460021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16214] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94265,
+		type = 6,
+		name = "『독일V3』A2/C2 3성",
+		count_inherit = 0,
+		desc = "A2 혹은 C2의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16215",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16214,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460002,
+			1460022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16215] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94266,
+		type = 6,
+		name = "『독일V3』A3/C3 3성",
+		count_inherit = 0,
+		desc = "A3 혹은 C3의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16216",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16215,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460003,
+			1460023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16216] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94267,
+		type = 6,
+		name = "『독일V3』B1/D1 3성",
+		count_inherit = 0,
+		desc = "B1 혹은 D1의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16217",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16216,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460004,
+			1460024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16217] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94268,
+		type = 6,
+		name = "『독일V3』B2/D2 3성",
+		count_inherit = 0,
+		desc = "B2 혹은 D2의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16218",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16217,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460005,
+			1460025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16218] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94269,
+		type = 6,
+		name = "『독일V3』B3/D3 3성",
+		count_inherit = 0,
+		desc = "B3 혹은 D3의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16218,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1460006,
+			1460026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16219] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94251,
+		type = 6,
+		name = "『독일V3』1229 로그인 스킨 체험권 증정",
+		count_inherit = 0,
+		desc = "게임 로그인하기",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16219,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				181,
+				2
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -113170,6 +115935,330 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[70001] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "임의의 적함 60척 격파",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70001,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70002] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "임의의 적함 180척 격파",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70002,
+		target_num = 180,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70003] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "임의의 적함 300척 격파",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70003,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70011] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "전투에서 15번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70011,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70012] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "전투에서 45번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70012,
+		target_num = 45,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70013] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "전투에서 75번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70013,
+		target_num = 75,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70021] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "군수 준비 임무 3회 클리어",
+		target_id_2 = "",
+		sub_type = 402,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70021,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70022] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "군수 준비 임무 9회 클리어",
+		target_id_2 = "",
+		sub_type = 402,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70022,
+		target_num = 9,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70023] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "군수 준비 임무 15회 클리어",
+		target_id_2 = "",
+		sub_type = 402,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70023,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70031] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "대함대 작전 이벤트에 1회 참가",
+		target_id_2 = "",
+		sub_type = 400,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70031,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70032] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "대함대 작전 이벤트에 3회 참가",
+		target_id_2 = "",
+		sub_type = 400,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70032,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[70033] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 12,
+		name = "개인 임무",
+		count_inherit = 0,
+		desc = "대함대 작전 이벤트에 5회 참가",
+		target_id_2 = "",
+		sub_type = 400,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 70033,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
 	[999933] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -118083,6 +121172,13 @@ pg.task_data_template = {
 		5545,
 		5546,
 		5547,
+		5551,
+		5552,
+		5553,
+		5554,
+		5555,
+		5556,
+		5557,
 		6001,
 		6002,
 		6003,
@@ -119307,6 +122403,7 @@ pg.task_data_template = {
 		14673,
 		14674,
 		14675,
+		14676,
 		14730,
 		14731,
 		14732,
@@ -119745,6 +122842,24 @@ pg.task_data_template = {
 		15344,
 		15345,
 		15346,
+		15350,
+		15351,
+		15352,
+		15353,
+		15354,
+		15355,
+		15356,
+		15357,
+		15358,
+		15359,
+		15360,
+		15361,
+		15362,
+		15363,
+		15364,
+		15365,
+		15366,
+		15367,
 		15368,
 		15369,
 		15370,
@@ -120305,6 +123420,49 @@ pg.task_data_template = {
 		16131,
 		16132,
 		16140,
+		16141,
+		16142,
+		16143,
+		16144,
+		16145,
+		16146,
+		16147,
+		16148,
+		16149,
+		16150,
+		16151,
+		16152,
+		16153,
+		16154,
+		16155,
+		16156,
+		16157,
+		16158,
+		16159,
+		16160,
+		16163,
+		16164,
+		16165,
+		16166,
+		16201,
+		16202,
+		16203,
+		16204,
+		16205,
+		16206,
+		16207,
+		16208,
+		16209,
+		16210,
+		16211,
+		16212,
+		16213,
+		16214,
+		16215,
+		16216,
+		16217,
+		16218,
+		16219,
 		30201,
 		30202,
 		30203,
@@ -120543,6 +123701,18 @@ pg.task_data_template = {
 		60177,
 		60178,
 		60179,
+		70001,
+		70002,
+		70003,
+		70011,
+		70012,
+		70013,
+		70021,
+		70022,
+		70023,
+		70031,
+		70032,
+		70033,
 		999933,
 		999934,
 		999935,

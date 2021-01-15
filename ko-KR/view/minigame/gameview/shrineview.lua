@@ -244,7 +244,7 @@ function slot0.updateBuff(slot0, slot1)
 
 		for slot8, slot9 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
 			if table.indexof(slot0:GetMGData():getConfig("config_data")[2], slot9.id, 1) then
-				if pg.TimeMgr:GetInstance():GetServerTime() < slot9.timestamp then
+				if pg.TimeMgr.GetInstance():GetServerTime() < slot9.timestamp then
 					setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/shrineui_atlas", "buff_type_" .. slot4, true))
 					setActive(slot0.buffImg, true)
 
@@ -286,7 +286,7 @@ function slot0.updateBuffDesc(slot0)
 
 	if slot1:getConfig("max_time") > 0 then
 		if slot1.timestamp then
-			setText(slot0.buffText:Find("Text"), string.gsub(slot1:getConfig("desc"), "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot6 - pg.TimeMgr:GetInstance():GetServerTime())))
+			setText(slot0.buffText:Find("Text"), string.gsub(slot1:getConfig("desc"), "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot6 - pg.TimeMgr.GetInstance():GetServerTime())))
 
 			slot0._buffTimeCountDownTimer = Timer.New(function ()
 				if uv0 > 0 then

@@ -102,7 +102,7 @@ function slot4.Dispose(slot0)
 	end
 
 	if slot0._trackFX then
-		resMgr.GetInstance():DestroyOb(slot0._trackFX)
+		slot0.resMgr.GetInstance():DestroyOb(slot0._trackFX)
 	end
 
 	slot0._go = nil

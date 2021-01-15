@@ -245,9 +245,8 @@ return {
 				end
 
 				slot3 = pg.TimeMgr.GetInstance()
-				slot5 = math.min((slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
 
-				return false
+				return slot1 < math.min((slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
 			end
 		end
 	},
@@ -262,6 +261,41 @@ return {
 		end,
 		isTip = function ()
 			return DoaMedalCollectionView.isHaveActivableMedal()
+		end
+	},
+	{
+		banner = "meta_entrance_970701",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.METACHARACTER,
+			{
+				autoOpenShipConfigID = 9707011
+			}
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(802) and not slot1:isEnd()
+		end,
+		isTip = function ()
+			slot0 = 970701
+			slot1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(970701)
+
+			slot1:setDataBeforeGet()
+
+			if slot1:isBuildType() then
+				return false
+			end
+
+			if not slot1:isShow() then
+				return false
+			end
+
+			slot2 = false
+
+			if slot1.metaPtData then
+				slot2 = slot1.metaPtData:CanGetAward()
+			end
+
+			return slot2
 		end
 	}
 }

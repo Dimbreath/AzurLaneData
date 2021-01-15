@@ -29,7 +29,10 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.modifyNameBtn, pg.gameset.commander_rename_open.key_value == 1)
 
+	slot0.line = slot0:findTF("line", slot0.commanderInfo)
+	slot0.fleetnums = slot0:findTF("line/numbers", slot0.commanderInfo)
 	slot0.fleetTF = slot0:findTF("line/fleet", slot0.commanderInfo)
+	slot0.subTF = slot0:findTF("line/sub_fleet", slot0.commanderInfo)
 	slot0.leisureTF = slot0:findTF("line/leisure", slot0.commanderInfo)
 	slot0.labelInBattleTF = slot0:findTF("line/inbattle", slot0.commanderInfo)
 	slot0.rarityImg = slot0:findTF("rarity", slot0.commanderInfo):GetComponent(typeof(Image))
@@ -44,6 +47,10 @@ function slot0.OnInit(slot0)
 		uv0.isOnSkill = slot0
 
 		uv0:Blur()
+
+		if slot0 then
+			uv0:emit(CommanderInfoMediator.ON_CLOSE_PANEL_SElF)
+		end
 	end, SFX_PANEL)
 
 	slot0.isOnAddition = false
@@ -53,6 +60,10 @@ function slot0.OnInit(slot0)
 		uv0.statement.localScale = slot0 and Vector3(1, 1, 1) or Vector3(1, 0, 1)
 
 		uv0:Blur()
+
+		if slot0 then
+			uv0:emit(CommanderInfoMediator.ON_CLOSE_PANEL_SElF)
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.modifyNameBtn, function ()
 		if not uv0.commanderVO:canModifyName() then
@@ -135,14 +146,15 @@ function slot0.UpdateInfo(slot0)
 	slot1 = slot0.commanderVO
 
 	LoadImageSpriteAsync("CommanderRarity/" .. Commander.rarity2Print(slot1:getRarity()), slot0.rarityImg, true)
+	eachChild(slot0.fleetnums, function (slot0)
+		setActive(slot0, go(slot0).name == tostring(uv0.fleetId or ""))
+	end)
 
-	if slot1.fleetId then
-		eachChild(slot0.fleetTF, function (slot0)
-			setActive(slot0, go(slot0).name == tostring(uv0.fleetId))
-		end)
-	end
+	slot3 = slot1.fleetId and not slot1.inBattle and slot1.sub
+	slot0.line.sizeDelta = Vector2(slot3 and 260 or 200, slot0.line.sizeDelta.y)
 
-	setActive(slot0.fleetTF, slot1.fleetId and not slot1.inBattle)
+	setActive(slot0.subTF, slot3)
+	setActive(slot0.fleetTF, slot1.fleetId and not slot1.inBattle and not slot1.sub)
 	setActive(slot0.leisureTF, not slot1.inFleet and not slot1.inBattle)
 	setActive(slot0.labelInBattleTF, slot1.inBattle)
 

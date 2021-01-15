@@ -34,7 +34,7 @@ return {
 					"TargetShipTag"
 				},
 				ship_tag_list = {
-					"shiranui"
+					"Shiranui"
 				}
 			}
 		},
@@ -51,7 +51,7 @@ return {
 					"TargetShipTag"
 				},
 				ship_tag_list = {
-					"shiranui"
+					"Shiranui"
 				}
 			}
 		}

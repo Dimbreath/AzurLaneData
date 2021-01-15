@@ -72,7 +72,6 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	PlayerPrefs.SetInt("extraOperationItemID", slot5)
 	pg.ConnectionMgr.GetInstance():Send(13101, {
 		id = slot3,
 		group_id_list = slot4,
@@ -81,39 +80,38 @@ function slot0.execute(slot0, slot1)
 		loop_flag = slot6
 	}, 13102, function (slot0)
 		if slot0.result == 0 then
-			slot4 = uv1
-
-			uv0:consume({
-				oil = slot4
+			uv0:update(slot0.current_chapter)
+			uv1:consume({
+				oil = uv2 * uv0:GetExtraCostRate()
 			})
-			uv2:updatePlayer(uv0)
-			uv3:update(slot0.current_chapter)
+			uv3:updatePlayer(uv1)
 
-			for slot4, slot5 in pairs(uv3.cells) do
+			if uv4 ~= 0 then
+				getProxy(BagProxy):removeItemById(uv4, 1)
+			end
+
+			for slot4, slot5 in pairs(uv0.cells) do
 				if ChapterConst.NeedMarkAsLurk(slot5) then
 					slot5.trait = ChapterConst.TraitLurk
 				end
 			end
 
-			for slot4, slot5 in ipairs(uv3.champions) do
+			for slot4, slot5 in ipairs(uv0.champions) do
 				slot5.trait = ChapterConst.TraitLurk
 			end
 
-			uv4:updateChapter(uv3)
+			uv5:updateChapter(uv0)
 
-			if uv5:getMapType() == Map.ESCORT then
+			if uv6:getMapType() == Map.ESCORT then
 				slot1 = getProxy(ChapterProxy)
 				slot1.escortChallengeTimes = slot1.escortChallengeTimes + 1
 			end
 
-			uv6:sendNotification(GAME.TRACKING_DONE, uv3)
-
-			getProxy(ChapterProxy).extraFlagUpdate = true
-
-			uv6:sendNotification(ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED, uv3.extraFlagList)
+			uv7:sendNotification(GAME.TRACKING_DONE, uv0)
+			getProxy(ChapterProxy):updateExtraFlag(uv0, uv0.extraFlagList, {}, true)
 		elseif slot0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_retry"))
-			uv6:sendNotification(GAME.CHAPTER_OP, {
+			uv7:sendNotification(GAME.CHAPTER_OP, {
 				type = ChapterConst.OpRetreat
 			})
 		elseif slot0.result == 3010 then

@@ -79,28 +79,53 @@ function slot5.onBuffAdd(slot0, slot1)
 end
 
 function slot5.DoWhenAddBuff(slot0, slot1)
-	if uv0.GetBuffTemplate(slot1.Data.buff_id).init_effect and slot3.init_effect ~= "" then
-		if slot3.skin_adapt then
-			slot4 = uv0.SkinAdaptFXID(slot3.init_effect, slot0._owner:GetUnitData():GetSkinID())
+	slot3 = slot1.Data.buff_level
+
+	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1.Data.buff_id).init_effect and slot4.init_effect ~= "" then
+		if slot4.skin_adapt then
+			slot5 = uv1.SkinAdaptFXID(slot4.init_effect, slot0._owner:GetUnitData():GetSkinID())
 		end
 
-		slot0._owner:AddFX(slot4)
+		slot0._owner:AddFX(slot5)
 	end
 
-	if slot3.last_effect ~= nil and slot3.last_effect ~= "" then
-		for slot8, slot9 in ipairs(type(slot3.last_effect) == "table" and slot3.last_effect or {
-			slot3.last_effect
-		}) do
-			slot10 = slot0._owner:AddFX(slot9)
-			slot0._buffLastEffects[slot2] = slot10
+	if slot4.last_effect ~= nil and slot4.last_effect ~= "" then
+		slot0._buffLastEffects[slot2] = slot0._owner:AddFX(slot4.last_effect)
 
-			slot10:SetActive(true)
+		if slot4.last_effect_cld_scale then
+			slot6 = nil
+
+			for slot11, slot12 in ipairs(slot4[slot3] or slot4.effect_list) do
+				if slot12.arg_list.cld_data then
+					slot6 = slot12
+
+					break
+				end
+			end
+
+			if slot6 then
+				slot9 = slot5.transform.localScale
+
+				if slot6.arg_list.cld_data.box.range then
+					slot9.x = slot9.x * slot8.range
+					slot9.y = slot9.y * slot8.range
+					slot9.z = slot9.z * slot8.range
+				else
+					slot9.x = slot9.x * slot8[1]
+					slot9.y = slot9.y * slot8[2]
+					slot9.z = slot9.z * slot8[3]
+				end
+
+				slot5.transform.localScale = slot9
+			end
 		end
+
+		slot5:SetActive(true)
 	end
 
-	if slot3.blink then
-		slot4 = slot3.blink
-		slot0._blinkIDList[slot2] = slot0._owner:AddBlink(slot4[1], slot4[2], slot4[3], slot4[4], slot4[5])
+	if slot4.blink then
+		slot5 = slot4.blink
+		slot0._blinkIDList[slot2] = slot0._owner:AddBlink(slot5[1], slot5[2], slot5[3], slot5[4], slot5[5])
 	end
 end
 

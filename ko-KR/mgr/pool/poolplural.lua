@@ -1,7 +1,12 @@
 slot0 = require("Mgr/Pool/PoolUtil")
 slot1 = class("PoolPlural")
+slot2 = "UnityEngine.GameObject"
 
 function slot1.Ctor(slot0, slot1, slot2)
+	if not getmetatable(slot1) or slot3[".name"] ~= uv0 then
+		warning("Poolplural should use gameobject as prefab not transform " .. (slot1 and slot1.name or "NIL"))
+	end
+
 	slot0.prefab = slot1
 	slot0.capacity = slot2
 	slot0.index = 0
@@ -14,8 +19,12 @@ function slot1.Enqueue(slot0, slot1, slot2)
 
 	if slot2 or slot0.capacity <= #slot0.items then
 		uv0.Destroy(slot1)
+
+		return true
 	else
 		table.insert(slot0.items, slot1)
+
+		return false
 	end
 end
 

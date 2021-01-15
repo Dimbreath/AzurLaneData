@@ -10,9 +10,12 @@ function slot0.execute(slot0, slot1)
 
 		for slot5, slot6 in ipairs(slot0.guild_list) do
 			slot7 = Guild.New(slot6)
+
+			slot7:SetMaxMemberCntAddition(slot6.tech_seat)
+
 			slot8 = GuildMember.New(slot6.leader)
 
-			slot8:setDuty(GuildMember.DUTY_COMMANDER)
+			slot8:setDuty(GuildConst.DUTY_COMMANDER)
 			slot7:addMember(slot8)
 			table.insert(slot1, slot7)
 		end

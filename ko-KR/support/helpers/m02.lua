@@ -462,6 +462,12 @@ slot4 = {
 		-8,
 		-8
 	},
+	frame_meta_4 = {
+		-8,
+		-8.5,
+		-8,
+		-8
+	},
 	frame6 = {
 		-16.5,
 		-2.5,
@@ -486,6 +492,12 @@ slot4 = {
 		-14,
 		-14
 	},
+	frame_prop_meta = {
+		-11,
+		-12,
+		-14,
+		-14
+	},
 	other = {
 		-2.5,
 		-4.5,
@@ -498,7 +510,14 @@ function setFrame(slot0, slot1, slot2)
 	setImageColor(slot0, Color(1, 1, 1, 1))
 	setImageSprite(slot0, GetSpriteFromAtlas("weaponframes", "frame"))
 
-	if slot2 or string.sub(slot1, 1, 1) == "0" or tonumber(slot1) > 5 then
+	if string.sub(slot1, 1, 4) == "meta" then
+		slot3 = findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame")
+		slot2 = slot2 or "frame_" .. slot1
+
+		uv0(slot3, uv1[slot2] or uv1.other)
+		setImageSprite(slot3, GetSpriteFromAtlas("weaponframes", slot2))
+		setActive(slot3, true)
+	elseif slot2 or string.sub(slot1, 1, 1) == "0" or tonumber(slot1) > 5 then
 		slot3 = findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame")
 		slot2 = slot2 or "frame" .. slot1
 
@@ -579,10 +598,10 @@ function slot6(slot0, slot1, slot2)
 	setActive(slot4, true)
 end
 
-function slot7(slot0, slot1, slot2)
+function slot7(slot0, slot1)
 	if not IsNil(findTF(slot0, "icon_bg/slv")) then
-		setActive(slot3, slot1 > 0)
-		setText(findTF(slot3, "Text"), slot1)
+		setActive(slot2, slot1 > 0)
+		setText(findTF(slot2, "Text"), slot1)
 	end
 end
 
@@ -619,7 +638,7 @@ function updateEquipment(slot0, slot1, slot2)
 	})
 	GetImageSpriteFromAtlasAsync("equips/" .. slot1.config.icon, "", slot4)
 	uv1(slot0, true, slot1.config.rarity)
-	uv2(slot0, slot1.config.level - 1, slot1.config.expired_date)
+	uv2(slot0, slot1.config.level - 1)
 	uv3(slot0, slot1.config.name, slot2)
 	uv4(slot0, slot1.count)
 	uv5(slot0, slot1.config.rarity, slot2)
@@ -640,11 +659,8 @@ function updateItem(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4, slot5)
 	GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
-	uv1(slot0, 0, checkExist(pg.item_data_template[slot1.id], {
-		"expired_date"
-	}))
-	uv2(slot0, HXSet.hxLan(slot3.name), slot2)
-	uv3(slot0, slot3.rarity + 1, slot2)
+	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv2(slot0, slot3.rarity + 1, slot2)
 end
 
 function updateWorldItem(slot0, slot1, slot2)
@@ -655,9 +671,41 @@ function updateWorldItem(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
 	GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
-	uv1(slot0, 0, slot3.expired_date)
-	uv2(slot0, HXSet.hxLan(slot3.name), slot2)
-	uv3(slot0, slot3.rarity + 1, slot2)
+	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv2(slot0, slot3.rarity + 1, slot2)
+end
+
+function updateWorldCollection(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+	slot5 = ItemRarity.Rarity2Print(4)
+
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot5))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot5)
+	GetImageSpriteFromAtlasAsync("props/" .. (WorldCollectionProxy.GetCollectionType(slot1.id) == WorldCollectionProxy.WorldCollectionType.FILE and "shoucangguangdie" or "shoucangjiaojuan"), "", findTF(slot0, "icon_bg/icon"))
+	uv0(slot0, false)
+	uv1(slot0, WorldCollectionProxy.GetCollectionTemplate(slot1.id).name, slot2)
+	uv2(slot0, slot4, slot2)
+end
+
+function updateWorldBuff(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+	slot4 = ItemRarity.Rarity2Print(ItemRarity.Gray)
+
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
+	GetImageSpriteFromAtlasAsync("world/buff/" .. pg.world_SLGbuff_data[slot1].icon, "", findTF(slot0, "icon_bg/icon"))
+
+	if not IsNil(slot0:Find("icon_bg/stars")) then
+		setActive(slot6, false)
+	end
+
+	if not IsNil(findTF(slot0, "name")) then
+		setText(slot7, HXSet.hxLan(slot3.name))
+	end
+
+	if not IsNil(findTF(slot0, "icon_bg/count")) then
+		SetActive(slot8, false)
+	end
 end
 
 function updateShip(slot0, slot1, slot2)
@@ -686,7 +734,11 @@ function updateShip(slot0, slot1, slot2)
 	if slot1.isNpc then
 		slot9 = "frame_npc"
 	elseif slot1.propose then
-		slot9 = "frame_prop"
+		if slot1:isMetaShip() then
+			slot9 = "frame_prop_meta"
+		else
+			slot9 = "frame_prop"
+		end
 	elseif slot2.isSkin then
 		slot9 = "frame7"
 	end
@@ -757,12 +809,12 @@ end
 
 function updateStrategy(slot0, slot1, slot2)
 	slot2 = slot2 or {}
-	slot3 = pg.strategy_data_template[slot1.id]
+	slot3 = slot2.isWorldBuff and pg.world_SLGbuff_data[slot1.id] or pg.strategy_data_template[slot1.id]
 	slot4 = ItemRarity.Rarity2Print(ItemRarity.Gray)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
-	GetImageSpriteFromAtlasAsync("strategyicon/" .. slot3.icon, "", findTF(slot0, "icon_bg/icon"))
+	GetImageSpriteFromAtlasAsync((slot2.isWorldBuff and "world/buff/" or "strategyicon/") .. slot3.icon, "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
 	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
 	uv2(slot0, 1, slot2)
@@ -945,7 +997,8 @@ function updateDrop(slot0, slot1, slot2)
 
 		updateFurniture(slot0, slot1.id, slot2)
 	elseif slot4 == DROP_TYPE_STRATEGY then
-		slot6 = pg.strategy_data_template[slot1.id].desc
+		slot6 = (slot1.isWorldBuff and pg.world_SLGbuff_data[slot1.id] or pg.strategy_data_template[slot1.id]).desc
+		slot2.isWorldBuff = slot1.isWorldBuff
 
 		updateStrategy(slot0, Item.New({
 			id = slot1.id
@@ -979,6 +1032,10 @@ function updateDrop(slot0, slot1, slot2)
 		updateWorldItem(slot0, WorldItem.New({
 			id = slot1.id
 		}), slot2)
+	elseif slot4 == DROP_TYPE_WORLD_COLLECTION then
+		slot6 = WorldCollectionProxy.GetCollectionTemplate(slot1.id).name
+
+		updateWorldCollection(slot0, slot1, slot2)
 	elseif slot4 == DROP_TYPE_CHAT_FRAME then
 		updateAttire(slot0, AttireConst.TYPE_CHAT_FRAME, pg.item_data_chat[slot1.id], slot2)
 	elseif slot4 == DROP_TYPE_ICON_FRAME then
@@ -987,7 +1044,7 @@ function updateDrop(slot0, slot1, slot2)
 		slot5 = pg.emoji_template[slot1.id]
 		slot6 = slot5.item_desc
 
-		updateEmoji(slot0, slot5)
+		updateEmoji(slot0, slot5, slot2)
 	end
 
 	slot1.cfg = slot5
@@ -1109,10 +1166,9 @@ function updateEquipmentSkin(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot3, "frame7")
 	GetImageSpriteFromAtlasAsync("equips/" .. slot1.icon, "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
-	uv1(slot0, 0, slot1.expired_date)
-	uv2(slot0, slot1.name, slot2)
-	uv3(slot0, slot1.count)
-	uv4(slot0, slot1.rarity, slot2)
+	uv1(slot0, slot1.name, slot2)
+	uv2(slot0, slot1.count)
+	uv3(slot0, slot1.rarity, slot2)
 end
 
 function getDropRarity(slot0)
@@ -1134,6 +1190,8 @@ function getDropRarity(slot0)
 		slot1 = 1
 	elseif slot2 == DROP_TYPE_SKIN then
 		slot1 = 5
+	elseif slot2 == DROP_TYPE_WORLD_ITEM then
+		slot1 = pg.world_item_data_template[slot0.id].rarity
 	end
 
 	return slot1
@@ -1393,33 +1451,49 @@ function GetNextHour(slot0)
 	return slot2 * 86400 + (slot3 + slot0) * 3600
 end
 
+function GetPerceptualSize(slot0)
+	if type(slot0) == "number" then
+		return function (slot0)
+			if not slot0 then
+				return 0, 1
+			elseif slot0 > 240 then
+				return 4, 1
+			elseif slot0 > 225 then
+				return 3, 1
+			elseif slot0 > 192 then
+				return 2, 1
+			elseif slot0 < 126 then
+				return 1, 0.5
+			else
+				return 1, 1
+			end
+		end(slot0)
+	end
+
+	slot2 = 1
+	slot3 = 0
+	slot4 = 0
+
+	while slot2 <= #slot0 do
+		slot7, slot8 = slot1(string.byte(slot0, slot2))
+		slot2 = slot2 + slot7
+		slot3 = slot3 + slot8
+	end
+
+	return slot3
+end
+
 function shortenString(slot0, slot1)
 	slot2 = 1
 	slot3 = 0
 	slot4 = 0
 	slot5 = #slot0
 
-	function slot6(slot0)
-		if not slot0 then
-			return 0, 1
-		elseif slot0 > 240 then
-			return 4, 1
-		elseif slot0 > 225 then
-			return 3, 1
-		elseif slot0 > 192 then
-			return 2, 1
-		elseif slot0 < 126 then
-			return 1, 0.5
-		else
-			return 1, 1
-		end
-	end
-
 	while slot2 <= slot5 do
-		slot8, slot9 = slot6(string.byte(slot0, slot2))
+		slot7, slot8 = GetPerceptualSize(string.byte(slot0, slot2))
 
-		if slot1 <= slot3 + slot9 then
-			slot4 = slot2 + slot8
+		if slot1 <= slot3 + slot8 then
+			slot4 = slot2 + slot7
 
 			break
 		end
@@ -1782,7 +1856,7 @@ end
 
 function getSkillConfig(slot0)
 	if not require("GameCfg.buff.buff_" .. slot0) then
-		warn("找不到技能配置: " .. slot0)
+		warning("找不到技能配置: " .. slot0)
 
 		return
 	end
@@ -1800,65 +1874,77 @@ function getSkillConfig(slot0)
 end
 
 function getSkillName(slot0)
-	if not pg.skill_data_template[slot0] and not pg.skill_data_display[slot0] then
+	if pg.skill_data_template[slot0] or pg.skill_data_display[slot0] then
+		return HXSet.hxLan(slot1.name)
+	else
 		return ""
 	end
-
-	return HXSet.hxLan(slot1.name)
 end
 
-function getSkillDescGet(slot0)
-	if not pg.skill_data_template[slot0] then
+function getSkillDescGet(slot0, slot1)
+	if not (slot1 and pg.skill_world_display[slot0] and setmetatable({}, {
+		__index = function (slot0, slot1)
+			return pg.skill_world_display[uv0][slot1] or pg.skill_data_template[uv0][slot1]
+		end
+	}) or pg.skill_data_template[slot0]) then
 		return ""
 	end
 
-	slot2 = slot1.desc_get ~= "" and slot1.desc_get or slot1.desc
+	slot3 = slot2.desc_get ~= "" and slot2.desc_get or slot2.desc
 
-	for slot6, slot7 in pairs(slot1.desc_get_add) do
-		if slot7[2] then
-			slot8 = setColorStr(slot7[1], COLOR_GREEN) .. specialGSub(i18n("word_skill_desc_get"), "$1", setColorStr(slot7[2], COLOR_GREEN))
+	for slot7, slot8 in pairs(slot2.desc_get_add) do
+		if slot8[2] then
+			slot9 = setColorStr(slot8[1], COLOR_GREEN) .. specialGSub(i18n("word_skill_desc_get"), "$1", setColorStr(slot8[2], COLOR_GREEN))
 		end
 
-		slot2 = specialGSub(slot2, "$" .. slot6, slot8)
-	end
-
-	return HXSet.hxLan(slot2)
-end
-
-function getSkillDescLearn(slot0, slot1)
-	if not pg.skill_data_template[slot0] then
-		return ""
-	end
-
-	if not slot2.desc_add then
-		return HXSet.hxLan(slot2.desc)
-	end
-
-	for slot7, slot8 in pairs(slot2.desc_add) do
-		if slot8[slot1][2] then
-			slot9 = slot8[slot1][1] .. specialGSub(i18n("word_skill_desc_learn"), "$1", slot8[slot1][2])
-		end
-
-		slot3 = specialGSub(slot3, "$" .. slot7, setColorStr(slot9, COLOR_YELLOW))
+		slot3 = specialGSub(slot3, "$" .. slot7, slot9)
 	end
 
 	return HXSet.hxLan(slot3)
 end
 
-function getSkillDesc(slot0, slot1)
-	if not pg.skill_data_template[slot0] then
+function getSkillDescLearn(slot0, slot1, slot2)
+	if not (slot2 and pg.skill_world_display[slot0] and setmetatable({}, {
+		__index = function (slot0, slot1)
+			return pg.skill_world_display[uv0][slot1] or pg.skill_data_template[uv0][slot1]
+		end
+	}) or pg.skill_data_template[slot0]) then
 		return ""
 	end
 
-	if not slot2.desc_add then
-		return HXSet.hxLan(slot2.desc)
+	if not slot3.desc_add then
+		return HXSet.hxLan(slot3.desc)
 	end
 
-	for slot7, slot8 in pairs(slot2.desc_add) do
-		slot3 = specialGSub(slot3, "$" .. slot7, setColorStr(slot8[slot1][1], COLOR_GREEN))
+	for slot8, slot9 in pairs(slot3.desc_add) do
+		if slot9[slot1][2] then
+			slot10 = slot9[slot1][1] .. specialGSub(i18n("word_skill_desc_learn"), "$1", slot9[slot1][2])
+		end
+
+		slot4 = specialGSub(slot4, "$" .. slot8, setColorStr(slot10, COLOR_YELLOW))
 	end
 
-	return HXSet.hxLan(slot3)
+	return HXSet.hxLan(slot4)
+end
+
+function getSkillDesc(slot0, slot1, slot2)
+	if not (slot2 and pg.skill_world_display[slot0] and setmetatable({}, {
+		__index = function (slot0, slot1)
+			return pg.skill_world_display[uv0][slot1] or pg.skill_data_template[uv0][slot1]
+		end
+	}) or pg.skill_data_template[slot0]) then
+		return ""
+	end
+
+	if not slot3.desc_add then
+		return HXSet.hxLan(slot3.desc)
+	end
+
+	for slot8, slot9 in pairs(slot3.desc_add) do
+		slot4 = specialGSub(slot4, "$" .. slot8, setColorStr(slot9[slot1][1], COLOR_GREEN))
+	end
+
+	return HXSet.hxLan(slot4)
 end
 
 function specialGSub(slot0, slot1, slot2)
@@ -1915,33 +2001,6 @@ function cancelTweens(slot0)
 			LeanTween.cancel(slot5)
 		end
 	end
-end
-
-function calcRelativeRectPos(slot0, slot1, slot2, slot3)
-	slot4 = slot2.x + slot1.width / 2
-	slot5 = slot2.x + slot2.width - slot1.width / 2
-	slot6 = slot2.y + slot1.height / 2
-	slot7 = slot2.y + slot2.height - slot1.height / 2
-	slot9 = 10
-
-	for slot14 = 360 / slot9, 1, -1 do
-		pos = slot0.center + Quaternion.Euler(0, 0, slot9) * slot3
-
-		if function (slot0)
-			return uv0 <= slot0.x and slot0.x <= uv1 and uv2 <= slot0.y and slot0.y <= uv3
-		end(pos) then
-			return pos
-		end
-	end
-
-	return _.min({
-		Vector2(slot4, slot6),
-		Vector2(slot4, slot7),
-		Vector2(slot5, slot7),
-		Vector2(slot5, slot6)
-	}, function (slot0)
-		return Vector2.Distance(slot0, uv0.center)
-	end)
 end
 
 function getOfflineTimeStamp(slot0)
@@ -2199,6 +2258,15 @@ function setShipCardFrame(slot0, slot1, slot2)
 	slot0.anchorMax = Vector2.one
 
 	setImageSprite(slot0, GetSpriteFromAtlas("shipframe", slot2 or slot1))
+
+	if pg.frame_resource[slot2 or slot1] then
+		slot4 = slot4.param
+		slot0.offsetMin = Vector2(slot4[1], slot4[2])
+		slot0.offsetMax = Vector2(slot4[3], slot4[4])
+	else
+		slot0.offsetMin = Vector2.zero
+		slot0.offsetMax = Vector2.zero
+	end
 end
 
 function setRectShipCardFrame(slot0, slot1, slot2)
@@ -2207,12 +2275,19 @@ function setRectShipCardFrame(slot0, slot1, slot2)
 	slot0.anchorMax = Vector2.one
 
 	setImageSprite(slot0, GetSpriteFromAtlas("shipframe", "b" .. (slot2 or slot1)))
+
+	if pg.frame_resource["b" .. (slot2 or slot1)] then
+		slot4 = slot4.param
+		slot0.offsetMin = Vector2(slot4[1], slot4[2])
+		slot0.offsetMax = Vector2(slot4[3], slot4[4])
+	else
+		slot0.offsetMin = Vector2.zero
+		slot0.offsetMax = Vector2.zero
+	end
 end
 
 function flushShipCard(slot0, slot1, slot2)
-	slot3 = slot1:rarity2bgPrint()
-
-	setImageSprite(findTF(slot0, "content/bg"), GetSpriteFromAtlas("bg/star_level_card_" .. slot3, ""))
+	setImageSprite(findTF(slot0, "content/bg"), GetSpriteFromAtlas("bg/star_level_card_" .. slot1:rarity2bgPrint(), ""))
 
 	findTF(slot0, "content/ship_icon"):GetComponent("Image").sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
@@ -2227,51 +2302,65 @@ function flushShipCard(slot0, slot1, slot2)
 	end)
 	setImageSprite(findTF(slot0, "content/info/top/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())))
 	setText(findTF(slot0, "content/dockyard/lv/Text"), defaultValue(slot1.level, 1))
-	setShipCardFrame(findTF(slot0, "content/front/frame"), slot3, slot1.propose and "prop" .. (slot1:isBluePrintShip() and slot3 or "") or nil)
 
-	slot9 = findTF(slot0, "content/front/stars")
+	slot9 = nil
 
-	setActive(slot9, true)
+	setShipCardFrame(findTF(slot0, "content/front/frame"), slot3, slot1.propose and "prop" .. ((slot1:isBluePrintShip() or slot1:isMetaShip()) and slot3 or "") or nil)
 
-	slot12 = slot1:getStar()
+	slot10 = findTF(slot0, "content/front/stars")
 
-	for slot17 = slot9.childCount, slot1:getMaxStar() - 1 do
-		cloneTplTo(findTF(slot9, "star_tpl"), slot9)
+	setActive(slot10, true)
+
+	slot13 = slot1:getStar()
+
+	for slot18 = slot10.childCount, slot1:getMaxStar() - 1 do
+		cloneTplTo(findTF(slot10, "star_tpl"), slot10)
 	end
 
-	for slot17 = 0, slot9.childCount - 1 do
-		slot9:GetChild(slot17).gameObject:SetActive(slot17 < slot13)
-		SetActive(slot18:Find("star_tpl"), slot17 < slot12)
-		SetActive(slot18:Find("star_empty_tpl"), slot12 <= slot17)
+	for slot18 = 0, slot10.childCount - 1 do
+		slot10:GetChild(slot18).gameObject:SetActive(slot18 < slot14)
+		SetActive(slot19:Find("star_tpl"), slot18 < slot13)
+		SetActive(slot19:Find("star_empty_tpl"), slot13 <= slot18)
 	end
 
-	slot14 = findTF(slot0, "content/front/bg_other")
-	slot15 = nil
-	slot16 = false
+	slot15 = findTF(slot0, "content/front/bg_other")
+	slot16 = nil
+	slot17 = false
 
 	if slot1.propose then
-		slot15 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "")
+		if slot1:isMetaShip() then
+			slot16 = "duang_meta_jiehun"
+		else
+			slot16 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "")
+		end
+	elseif slot1:isMetaShip() then
+		slot16 = "duang_meta"
 	elseif slot1:getRarity() == 6 then
-		slot15 = "duang_6"
+		slot16 = "duang_6"
 	end
 
-	if slot15 then
-		slot17 = slot15 .. "(Clone)"
+	if slot16 then
+		slot18 = slot16 .. "(Clone)"
 
-		eachChild(slot14, function (slot0)
+		eachChild(slot15, function (slot0)
 			setActive(slot0, slot0.name == uv0)
 
 			uv1 = uv1 or slot0.name == uv0
 		end)
 
-		if not slot16 then
-			PoolMgr.GetInstance():GetPrefab("effect/" .. slot15, "", true, function (slot0)
-				setParent(slot0, uv0)
+		if not slot17 then
+			LoadAndInstantiateAsync("effect", slot16, function (slot0)
+				if IsNil(uv0) or findTF(uv1, uv2) then
+					Object.Destroy(slot0)
+				else
+					setParent(slot0, uv1)
+					setActive(slot0, true)
+				end
 			end)
 		end
 	end
 
-	setActive(slot14, slot15)
+	setActive(slot15, slot16)
 end
 
 function TweenItemAlphaAndWhite(slot0)
@@ -2651,12 +2740,12 @@ function slot20(slot0, slot1, slot2)
 	slot4, slot5 = Equipment.GetInfoTrans(slot1, slot2)
 
 	if slot1.nextValue then
-		slot6, slot7 = Equipment.GetInfoTrans({
+		slot7, slot8 = Equipment.GetInfoTrans({
 			name = slot1.name,
 			type = slot1.type,
 			value = slot1.nextValue
 		}, slot2)
-		slot5 = slot5 .. setColorStr("   >   " .. slot7, COLOR_GREEN)
+		slot5 = slot5 .. setColorStr("   >   " .. slot8, COLOR_GREEN)
 	end
 
 	setText(slot3:Find("name"), slot4)
@@ -2766,5 +2855,52 @@ function updateEquipUpgradeInfo(slot0, slot1, slot2)
 		uv0(slot0:Find("weapon"), slot3, {
 			slot1.weapon
 		}, slot2)
+	end
+
+	setActive(slot0:Find("equip_info"), #slot1.equipInfo.sub > 0)
+
+	if #slot1.equipInfo.sub > 0 then
+		uv0(slot0:Find("equip_info"), slot3, {
+			slot1.equipInfo
+		}, slot2)
+	end
+end
+
+function setCanvasOverrideSorting(slot0, slot1)
+	slot0:SetParent(pg.LayerWeightMgr.GetInstance().uiOrigin, false)
+	setActive(slot0, true)
+
+	GetOrAddComponent(slot0, typeof(Canvas)).overrideSorting = slot1
+
+	slot0:SetParent(slot0.parent, false)
+	setActive(slot0, isActive(slot0))
+end
+
+function createNewGameObject(slot0, slot1)
+	slot2 = GameObject.New()
+
+	if slot0 then
+		slot2.name = "model"
+	end
+
+	slot2.layer = slot1 or Layer.UI
+
+	return GetOrAddComponent(slot2, "RectTransform")
+end
+
+function CreateShell(slot0)
+	if type(slot0) ~= "table" and type(slot0) ~= "userdata" then
+		return slot0
+	end
+
+	return setmetatable({}, setmetatable({
+		__index = slot0
+	}, slot0))
+end
+
+function CameraFittingSettin(slot0)
+	if 1.7777777777777777 > Screen.width / Screen.height then
+		slot4 = slot3 / slot2
+		GetComponent(slot0, typeof(Camera)).rect = uv0.Rect.New(0, (1 - slot4) / 2, 1, slot4)
 	end
 end

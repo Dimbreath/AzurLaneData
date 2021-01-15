@@ -8,6 +8,8 @@ slot1._pos = Vector3.zero
 slot1._isForceMove = false
 slot1._staticState = false
 slot1._speed = Vector3.zero
+slot1._additiveSpeedList = {}
+slot1._additiveSpeed = Vector3.zero
 slot1._corpsLimitSpeed = 0
 slot1._leftCorpsBound = 0
 slot1._rightCorpsBound = 0
@@ -62,7 +64,7 @@ function slot1.SetBorder(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot1.GetFinalSpeed(slot0)
-	return slot0:BorderLimit(slot0:getInitialSpeed())
+	return slot0:BorderLimit(slot0:AdditiveForce(slot0:getInitialSpeed()))
 end
 
 function slot1.CorpsAreaLimit(slot0, slot1)
@@ -202,4 +204,19 @@ function slot1.UpdateFleetInfo(slot0, slot1)
 	end
 
 	return (slot2:GetDirAngle() * slot1):Add(slot2:GetPos()):Sub(slot0._pos):Div(25):Add(slot3)
+end
+
+function slot1.AdditiveForce(slot0, slot1)
+	slot1.x = slot1.x + slot0._additiveSpeed.x
+	slot1.z = slot1.z + slot0._additiveSpeed.z
+
+	return slot1
+end
+
+function slot1.UpdateAdditiveSpeed(slot0, slot1)
+	slot0._additiveSpeed = slot1
+end
+
+function slot1.RemoveAdditiveSpeed(slot0)
+	slot0._additiveSpeed = Vector3.zero
 end

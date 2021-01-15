@@ -11,7 +11,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.scene = slot1.scene
 	slot0.onRemoved = slot1.onRemoved
 	slot0.cleanStack = defaultValue(slot1.cleanStack, false)
-	slot0.ignoreBack = defaultValue(slot1.ignoreBack, false)
 	slot0.data = slot1.data or {}
 	slot0.parent = slot1.parent
 	slot0.children = {}

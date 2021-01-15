@@ -480,7 +480,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Farragut-Class"
+		}
 	},
 	[101022] = {
 		oxy_max = 0,
@@ -602,7 +604,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Farragut-Class"
+		}
 	},
 	[101023] = {
 		oxy_max = 0,
@@ -724,7 +728,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Farragut-Class"
+		}
 	},
 	[101024] = {
 		oxy_max = 0,
@@ -846,7 +852,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Farragut-Class"
+		}
 	},
 	[101031] = {
 		oxy_max = 0,
@@ -968,7 +976,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mahan-Class"
+		}
 	},
 	[101032] = {
 		oxy_max = 0,
@@ -1090,7 +1100,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mahan-Class"
+		}
 	},
 	[101033] = {
 		oxy_max = 0,
@@ -1212,7 +1224,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mahan-Class"
+		}
 	},
 	[101034] = {
 		oxy_max = 0,
@@ -1334,7 +1348,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mahan-Class"
+		}
 	},
 	[101041] = {
 		oxy_max = 0,
@@ -1456,7 +1472,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mahan-Class"
+		}
 	},
 	[101042] = {
 		oxy_max = 0,
@@ -1578,7 +1596,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mahan-Class"
+		}
 	},
 	[101043] = {
 		oxy_max = 0,
@@ -1700,7 +1720,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mahan-Class"
+		}
 	},
 	[101044] = {
 		oxy_max = 0,
@@ -1822,7 +1844,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mahan-Class"
+		}
 	},
 	[101051] = {
 		oxy_max = 0,
@@ -1945,6 +1969,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Gridley-Class",
 			"Gridley"
 		}
 	},
@@ -2069,6 +2094,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Gridley-Class",
 			"Gridley"
 		}
 	},
@@ -2193,6 +2219,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Gridley-Class",
 			"Gridley"
 		}
 	},
@@ -2317,6 +2344,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Gridley-Class",
 			"Gridley"
 		}
 	},
@@ -2440,7 +2468,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101062] = {
 		oxy_max = 0,
@@ -2562,7 +2592,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101063] = {
 		oxy_max = 0,
@@ -2684,7 +2716,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101064] = {
 		oxy_max = 0,
@@ -2806,7 +2840,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101071] = {
 		oxy_max = 0,
@@ -2928,7 +2964,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101072] = {
 		oxy_max = 0,
@@ -3050,7 +3088,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101073] = {
 		oxy_max = 0,
@@ -3172,7 +3212,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101074] = {
 		oxy_max = 0,
@@ -3294,7 +3336,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101081] = {
 		oxy_max = 0,
@@ -3416,7 +3460,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101082] = {
 		oxy_max = 0,
@@ -3538,7 +3584,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101083] = {
 		oxy_max = 0,
@@ -3660,7 +3708,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101084] = {
 		oxy_max = 0,
@@ -3782,7 +3832,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gridley-Class"
+		}
 	},
 	[101091] = {
 		oxy_max = 0,
@@ -3905,7 +3957,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101092] = {
@@ -4029,7 +4081,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101093] = {
@@ -4153,7 +4205,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101094] = {
@@ -4277,7 +4329,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101111] = {
@@ -4401,7 +4453,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101112] = {
@@ -4525,7 +4577,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101113] = {
@@ -4649,7 +4701,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101114] = {
@@ -4773,7 +4825,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101121] = {
@@ -4897,7 +4949,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101122] = {
@@ -5021,7 +5073,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101123] = {
@@ -5145,7 +5197,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101124] = {
@@ -5269,7 +5321,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101131] = {
@@ -5393,7 +5445,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101132] = {
@@ -5517,7 +5569,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101133] = {
@@ -5641,7 +5693,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101134] = {
@@ -5765,7 +5817,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101141] = {
@@ -5889,7 +5941,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101142] = {
@@ -6013,7 +6065,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101143] = {
@@ -6137,7 +6189,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101144] = {
@@ -6261,7 +6313,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101151] = {
@@ -6385,7 +6437,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101152] = {
@@ -6509,7 +6561,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101153] = {
@@ -6633,7 +6685,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101154] = {
@@ -6757,7 +6809,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101161] = {
@@ -6880,7 +6932,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101162] = {
 		oxy_max = 0,
@@ -7002,7 +7056,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101163] = {
 		oxy_max = 0,
@@ -7124,7 +7180,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101164] = {
 		oxy_max = 0,
@@ -7246,7 +7304,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101171] = {
 		oxy_max = 0,
@@ -7368,7 +7428,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101172] = {
 		oxy_max = 0,
@@ -7490,7 +7552,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101173] = {
 		oxy_max = 0,
@@ -7612,7 +7676,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101174] = {
 		oxy_max = 0,
@@ -7734,7 +7800,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101241] = {
 		oxy_max = 0,
@@ -7856,7 +7924,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sims-Class"
+		}
 	},
 	[101242] = {
 		oxy_max = 0,
@@ -7978,7 +8048,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sims-Class"
+		}
 	},
 	[101243] = {
 		oxy_max = 0,
@@ -8100,7 +8172,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sims-Class"
+		}
 	},
 	[101244] = {
 		oxy_max = 0,
@@ -8222,7 +8296,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sims-Class"
+		}
 	},
 	[101251] = {
 		oxy_max = 0,
@@ -8344,7 +8420,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sims-Class"
+		}
 	},
 	[101252] = {
 		oxy_max = 0,
@@ -8466,7 +8544,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sims-Class"
+		}
 	},
 	[101253] = {
 		oxy_max = 0,
@@ -8588,7 +8668,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sims-Class"
+		}
 	},
 	[101254] = {
 		oxy_max = 0,
@@ -8710,7 +8792,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sims-Class"
+		}
 	},
 	[101261] = {
 		oxy_max = 0,
@@ -9320,7 +9404,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101272] = {
 		oxy_max = 0,
@@ -9442,7 +9528,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101273] = {
 		oxy_max = 0,
@@ -9564,7 +9652,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101274] = {
 		oxy_max = 0,
@@ -9686,7 +9776,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101291] = {
 		oxy_max = 0,
@@ -9809,7 +9901,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101292] = {
@@ -9933,7 +10025,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101293] = {
@@ -10057,7 +10149,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101294] = {
@@ -10181,7 +10273,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101301] = {
@@ -10305,7 +10397,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101302] = {
@@ -10429,7 +10521,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101303] = {
@@ -10553,7 +10645,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101304] = {
@@ -10677,7 +10769,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101311] = {
@@ -10801,7 +10893,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101312] = {
@@ -10925,7 +11017,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101313] = {
@@ -11049,7 +11141,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101314] = {
@@ -11173,7 +11265,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101331] = {
@@ -11297,7 +11389,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101332] = {
@@ -11421,7 +11513,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101333] = {
@@ -11545,7 +11637,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101334] = {
@@ -11669,7 +11761,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101341] = {
@@ -11793,7 +11885,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101342] = {
@@ -11917,7 +12009,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101343] = {
@@ -12041,7 +12133,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101344] = {
@@ -12165,7 +12257,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101351] = {
@@ -12289,7 +12381,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101352] = {
@@ -12413,7 +12505,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101353] = {
@@ -12537,7 +12629,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101354] = {
@@ -12661,7 +12753,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101361] = {
@@ -12784,7 +12876,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101362] = {
 		oxy_max = 0,
@@ -12906,7 +13000,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101363] = {
 		oxy_max = 0,
@@ -13028,7 +13124,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101364] = {
 		oxy_max = 0,
@@ -13150,7 +13248,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101371] = {
 		oxy_max = 0,
@@ -13272,7 +13372,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101372] = {
 		oxy_max = 0,
@@ -13394,7 +13496,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101373] = {
 		oxy_max = 0,
@@ -13516,7 +13620,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101374] = {
 		oxy_max = 0,
@@ -13638,7 +13744,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Benson-Class"
+		}
 	},
 	[101381] = {
 		oxy_max = 0,
@@ -13761,7 +13869,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101382] = {
@@ -13885,7 +13993,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101383] = {
@@ -14009,7 +14117,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101384] = {
@@ -14133,7 +14241,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101391] = {
@@ -14257,7 +14365,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101392] = {
@@ -14381,7 +14489,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101393] = {
@@ -14505,7 +14613,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101394] = {
@@ -14629,7 +14737,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101401] = {
@@ -14752,7 +14860,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Farragut-Class"
+		}
 	},
 	[101402] = {
 		oxy_max = 0,
@@ -14874,7 +14984,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Farragut-Class"
+		}
 	},
 	[101403] = {
 		oxy_max = 0,
@@ -14996,7 +15108,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Farragut-Class"
+		}
 	},
 	[101404] = {
 		oxy_max = 0,
@@ -15118,7 +15232,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Farragut-Class"
+		}
 	},
 	[101411] = {
 		oxy_max = 0,
@@ -15241,7 +15357,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101412] = {
@@ -15365,7 +15481,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101413] = {
@@ -15489,7 +15605,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101414] = {
@@ -15613,7 +15729,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101421] = {
@@ -15737,7 +15853,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101422] = {
@@ -15861,7 +15977,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101423] = {
@@ -15985,7 +16101,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101424] = {
@@ -16109,7 +16225,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101431] = {
@@ -16233,7 +16349,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101432] = {
@@ -16357,7 +16473,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101433] = {
@@ -16481,7 +16597,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101434] = {
@@ -16605,7 +16721,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Fletcher"
+			"Fletcher-Class"
 		}
 	},
 	[101441] = {
@@ -16728,7 +16844,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
 	},
 	[101442] = {
 		oxy_max = 0,
@@ -16850,7 +16968,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
 	},
 	[101443] = {
 		oxy_max = 0,
@@ -16972,7 +17092,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
 	},
 	[101444] = {
 		oxy_max = 0,
@@ -17094,7 +17216,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
 	},
 	[102011] = {
 		oxy_max = 0,
@@ -17219,7 +17343,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102012] = {
 		oxy_max = 0,
@@ -17344,7 +17470,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102013] = {
 		oxy_max = 0,
@@ -17469,7 +17597,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102014] = {
 		oxy_max = 0,
@@ -17594,7 +17724,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102021] = {
 		oxy_max = 0,
@@ -17719,7 +17851,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102022] = {
 		oxy_max = 0,
@@ -17844,7 +17978,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102023] = {
 		oxy_max = 0,
@@ -17969,7 +18105,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102024] = {
 		oxy_max = 0,
@@ -18094,7 +18232,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102031] = {
 		oxy_max = 0,
@@ -18217,7 +18357,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102032] = {
 		oxy_max = 0,
@@ -18340,7 +18482,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102033] = {
 		oxy_max = 0,
@@ -18463,7 +18607,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102034] = {
 		oxy_max = 0,
@@ -18586,7 +18732,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102041] = {
 		oxy_max = 0,
@@ -18709,7 +18857,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102042] = {
 		oxy_max = 0,
@@ -18832,7 +18982,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102043] = {
 		oxy_max = 0,
@@ -18955,7 +19107,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102044] = {
 		oxy_max = 0,
@@ -19078,7 +19232,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102051] = {
 		oxy_max = 0,
@@ -19202,6 +19358,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena"
 		}
 	},
@@ -19327,6 +19484,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena"
 		}
 	},
@@ -19452,6 +19610,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena"
 		}
 	},
@@ -19577,6 +19736,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena"
 		}
 	},
@@ -19703,7 +19863,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102062] = {
 		oxy_max = 0,
@@ -19828,7 +19990,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102063] = {
 		oxy_max = 0,
@@ -19953,7 +20117,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102064] = {
 		oxy_max = 0,
@@ -20078,7 +20244,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102071] = {
 		oxy_max = 0,
@@ -20203,7 +20371,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102072] = {
 		oxy_max = 0,
@@ -20328,7 +20498,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102073] = {
 		oxy_max = 0,
@@ -20453,7 +20625,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102074] = {
 		oxy_max = 0,
@@ -20578,7 +20752,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102081] = {
 		oxy_max = 0,
@@ -20703,7 +20879,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102082] = {
 		oxy_max = 0,
@@ -20828,7 +21006,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102083] = {
 		oxy_max = 0,
@@ -20953,7 +21133,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102084] = {
 		oxy_max = 0,
@@ -21078,7 +21260,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102091] = {
 		oxy_max = 0,
@@ -22203,7 +22387,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102112] = {
 		oxy_max = 0,
@@ -22328,7 +22514,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102113] = {
 		oxy_max = 0,
@@ -22453,7 +22641,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102114] = {
 		oxy_max = 0,
@@ -22578,7 +22768,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102121] = {
 		oxy_max = 0,
@@ -22701,7 +22893,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102122] = {
 		oxy_max = 0,
@@ -22824,7 +23018,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102123] = {
 		oxy_max = 0,
@@ -22947,7 +23143,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102124] = {
 		oxy_max = 0,
@@ -23070,7 +23268,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102131] = {
 		oxy_max = 0,
@@ -23193,7 +23393,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102132] = {
 		oxy_max = 0,
@@ -23316,7 +23518,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102133] = {
 		oxy_max = 0,
@@ -23439,7 +23643,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102134] = {
 		oxy_max = 0,
@@ -23562,7 +23768,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Brooklyn-Class"
+		}
 	},
 	[102141] = {
 		oxy_max = 0,
@@ -24687,7 +24895,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102162] = {
 		oxy_max = 0,
@@ -24812,7 +25022,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102163] = {
 		oxy_max = 0,
@@ -24937,7 +25149,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102164] = {
 		oxy_max = 0,
@@ -25062,7 +25276,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102174] = {
 		oxy_max = 0,
@@ -25187,7 +25403,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102181] = {
 		oxy_max = 0,
@@ -25312,7 +25530,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102182] = {
 		oxy_max = 0,
@@ -25437,7 +25657,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102183] = {
 		oxy_max = 0,
@@ -25562,7 +25784,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102184] = {
 		oxy_max = 0,
@@ -25687,7 +25911,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102191] = {
 		oxy_max = 0,
@@ -25811,6 +26037,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena-Chan",
 			"Helena",
 			"special"
@@ -25938,6 +26165,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena-Chan",
 			"Helena",
 			"special"
@@ -26065,6 +26293,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena-Chan",
 			"Helena",
 			"special"
@@ -26192,6 +26421,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena-Chan",
 			"Helena",
 			"special"
@@ -26829,6 +27059,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Atlanta-Class",
 			"Helena-Chan",
 			"Cleveland-Chan",
 			"special"
@@ -26958,6 +27189,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Atlanta-Class",
 			"Helena-Chan",
 			"Cleveland-Chan",
 			"special"
@@ -27087,6 +27319,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Atlanta-Class",
 			"Helena-Chan",
 			"Cleveland-Chan",
 			"special"
@@ -27216,6 +27449,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Atlanta-Class",
 			"Helena-Chan",
 			"Cleveland-Chan",
 			"special"
@@ -27344,7 +27578,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102222] = {
 		oxy_max = 0,
@@ -27469,7 +27705,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102223] = {
 		oxy_max = 0,
@@ -27594,7 +27832,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102224] = {
 		oxy_max = 0,
@@ -27719,7 +27959,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Atlanta-Class"
+		}
 	},
 	[102231] = {
 		oxy_max = 0,
@@ -29346,8 +29588,8 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.2,
-			1.3,
+			1.25,
+			1.35,
 			1.5,
 			0.3
 		},
@@ -29357,6 +29599,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Atlanta-Class",
 			"Reno"
 		}
 	},
@@ -29473,8 +29716,8 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.2,
-			1.3,
+			1.25,
+			1.35,
 			1.55,
 			0.3
 		},
@@ -29484,6 +29727,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Atlanta-Class",
 			"Reno"
 		}
 	},
@@ -29600,8 +29844,8 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.2,
-			1.3,
+			1.25,
+			1.35,
 			1.65,
 			0.3
 		},
@@ -29611,6 +29855,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Atlanta-Class",
 			"Reno"
 		}
 	},
@@ -29727,8 +29972,8 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.25,
-			1.35,
+			1.3,
+			1.4,
 			1.7,
 			0.3
 		},
@@ -29738,6 +29983,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Atlanta-Class",
 			"Reno"
 		}
 	},
@@ -29864,7 +30110,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102272] = {
 		oxy_max = 0,
@@ -29989,7 +30237,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102273] = {
 		oxy_max = 0,
@@ -30114,7 +30364,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102274] = {
 		oxy_max = 0,
@@ -30239,7 +30491,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Omaha-Class"
+		}
 	},
 	[102284] = {
 		oxy_max = 0,
@@ -30363,6 +30617,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Brooklyn-Class",
 			"Helena"
 		}
 	},
@@ -30486,7 +30741,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pensacola-Class"
+		}
 	},
 	[103012] = {
 		oxy_max = 0,
@@ -30608,7 +30865,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pensacola-Class"
+		}
 	},
 	[103013] = {
 		oxy_max = 0,
@@ -30730,7 +30989,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pensacola-Class"
+		}
 	},
 	[103014] = {
 		oxy_max = 0,
@@ -30852,7 +31113,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pensacola-Class"
+		}
 	},
 	[103021] = {
 		oxy_max = 0,
@@ -30974,7 +31237,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pensacola-Class"
+		}
 	},
 	[103022] = {
 		oxy_max = 0,
@@ -31096,7 +31361,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pensacola-Class"
+		}
 	},
 	[103023] = {
 		oxy_max = 0,
@@ -31218,7 +31485,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pensacola-Class"
+		}
 	},
 	[103024] = {
 		oxy_max = 0,
@@ -31340,7 +31609,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pensacola-Class"
+		}
 	},
 	[103031] = {
 		oxy_max = 0,
@@ -31462,7 +31733,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103032] = {
 		oxy_max = 0,
@@ -31584,7 +31857,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103033] = {
 		oxy_max = 0,
@@ -31706,7 +31981,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103034] = {
 		oxy_max = 0,
@@ -31828,7 +32105,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103041] = {
 		oxy_max = 0,
@@ -31950,7 +32229,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103042] = {
 		oxy_max = 0,
@@ -32072,7 +32353,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103043] = {
 		oxy_max = 0,
@@ -32194,7 +32477,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103044] = {
 		oxy_max = 0,
@@ -32316,7 +32601,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103051] = {
 		oxy_max = 0,
@@ -32438,7 +32725,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103052] = {
 		oxy_max = 0,
@@ -32560,7 +32849,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103053] = {
 		oxy_max = 0,
@@ -32682,7 +32973,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103054] = {
 		oxy_max = 0,
@@ -32804,7 +33097,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northampton-Class"
+		}
 	},
 	[103061] = {
 		oxy_max = 0,
@@ -32926,7 +33221,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Portland-Class"
+		}
 	},
 	[103062] = {
 		oxy_max = 0,
@@ -33048,7 +33345,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Portland-Class"
+		}
 	},
 	[103063] = {
 		oxy_max = 0,
@@ -33170,7 +33469,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Portland-Class"
+		}
 	},
 	[103064] = {
 		oxy_max = 0,
@@ -33292,7 +33593,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Portland-Class"
+		}
 	},
 	[103071] = {
 		oxy_max = 0,
@@ -33414,7 +33717,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Portland-Class",
+			"Indianapolis"
+		}
 	},
 	[103072] = {
 		oxy_max = 0,
@@ -33536,7 +33842,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Portland-Class",
+			"Indianapolis"
+		}
 	},
 	[103073] = {
 		oxy_max = 0,
@@ -33658,7 +33967,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Portland-Class",
+			"Indianapolis"
+		}
 	},
 	[103074] = {
 		oxy_max = 0,
@@ -33780,7 +34092,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Portland-Class",
+			"Indianapolis"
+		}
 	},
 	[103081] = {
 		oxy_max = 0,
@@ -36374,7 +36689,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baltimore-Class"
+		}
 	},
 	[103162] = {
 		oxy_max = 0,
@@ -36496,7 +36813,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baltimore-Class"
+		}
 	},
 	[103163] = {
 		oxy_max = 0,
@@ -36618,7 +36937,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baltimore-Class"
+		}
 	},
 	[103164] = {
 		oxy_max = 0,
@@ -36740,7 +37061,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baltimore-Class"
+		}
 	},
 	[103241] = {
 		oxy_max = 0,
@@ -36862,7 +37185,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baltimore-Class"
+		}
 	},
 	[103242] = {
 		oxy_max = 0,
@@ -36984,7 +37309,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baltimore-Class"
+		}
 	},
 	[103243] = {
 		oxy_max = 0,
@@ -37106,7 +37433,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baltimore-Class"
+		}
 	},
 	[103244] = {
 		oxy_max = 0,
@@ -37228,7 +37557,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baltimore-Class"
+		}
 	},
 	[103251] = {
 		oxy_max = 0,
@@ -37351,6 +37682,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Baltimore-Class",
 			"μ",
 			"special"
 		}
@@ -37476,6 +37808,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Baltimore-Class",
 			"μ",
 			"special"
 		}
@@ -37601,6 +37934,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Baltimore-Class",
 			"μ",
 			"special"
 		}
@@ -37726,6 +38060,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Baltimore-Class",
 			"μ",
 			"special"
 		}
@@ -37850,7 +38185,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nevada-Class"
+		}
 	},
 	[105012] = {
 		oxy_max = 0,
@@ -37972,7 +38309,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nevada-Class"
+		}
 	},
 	[105013] = {
 		oxy_max = 0,
@@ -38094,7 +38433,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nevada-Class"
+		}
 	},
 	[105014] = {
 		oxy_max = 0,
@@ -38216,7 +38557,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nevada-Class"
+		}
 	},
 	[105021] = {
 		oxy_max = 0,
@@ -38338,7 +38681,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nevada-Class"
+		}
 	},
 	[105022] = {
 		oxy_max = 0,
@@ -38460,7 +38805,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nevada-Class"
+		}
 	},
 	[105023] = {
 		oxy_max = 0,
@@ -38582,7 +38929,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nevada-Class"
+		}
 	},
 	[105024] = {
 		oxy_max = 0,
@@ -38704,7 +39053,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nevada-Class"
+		}
 	},
 	[105031] = {
 		oxy_max = 0,
@@ -38826,7 +39177,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pennsylvania-Class"
+		}
 	},
 	[105032] = {
 		oxy_max = 0,
@@ -38948,7 +39301,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pennsylvania-Class"
+		}
 	},
 	[105033] = {
 		oxy_max = 0,
@@ -39070,7 +39425,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pennsylvania-Class"
+		}
 	},
 	[105034] = {
 		oxy_max = 0,
@@ -39192,7 +39549,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pennsylvania-Class"
+		}
 	},
 	[105041] = {
 		oxy_max = 0,
@@ -39314,7 +39673,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pennsylvania-Class"
+		}
 	},
 	[105042] = {
 		oxy_max = 0,
@@ -39436,7 +39797,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pennsylvania-Class"
+		}
 	},
 	[105043] = {
 		oxy_max = 0,
@@ -39558,7 +39921,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pennsylvania-Class"
+		}
 	},
 	[105044] = {
 		oxy_max = 0,
@@ -39680,7 +40045,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Pennsylvania-Class"
+		}
 	},
 	[105071] = {
 		oxy_max = 0,
@@ -39802,7 +40169,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tennessee-Class"
+		}
 	},
 	[105072] = {
 		oxy_max = 0,
@@ -39924,7 +40293,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tennessee-Class"
+		}
 	},
 	[105073] = {
 		oxy_max = 0,
@@ -40046,7 +40417,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tennessee-Class"
+		}
 	},
 	[105074] = {
 		oxy_max = 0,
@@ -40168,7 +40541,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tennessee-Class"
+		}
 	},
 	[105081] = {
 		oxy_max = 0,
@@ -40290,7 +40665,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tennessee-Class"
+		}
 	},
 	[105082] = {
 		oxy_max = 0,
@@ -40412,7 +40789,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tennessee-Class"
+		}
 	},
 	[105083] = {
 		oxy_max = 0,
@@ -40534,7 +40913,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tennessee-Class"
+		}
 	},
 	[105084] = {
 		oxy_max = 0,
@@ -40656,7 +41037,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tennessee-Class"
+		}
 	},
 	[105091] = {
 		oxy_max = 0,
@@ -40778,7 +41161,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105092] = {
 		oxy_max = 0,
@@ -40900,7 +41286,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105093] = {
 		oxy_max = 0,
@@ -41022,7 +41411,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105094] = {
 		oxy_max = 0,
@@ -41144,7 +41536,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105101] = {
 		oxy_max = 0,
@@ -41266,7 +41661,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105102] = {
 		oxy_max = 0,
@@ -41388,7 +41786,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105103] = {
 		oxy_max = 0,
@@ -41510,7 +41911,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105104] = {
 		oxy_max = 0,
@@ -41632,7 +42036,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105111] = {
 		oxy_max = 0,
@@ -41754,7 +42161,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105112] = {
 		oxy_max = 0,
@@ -41876,7 +42286,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105113] = {
 		oxy_max = 0,
@@ -41998,7 +42411,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105114] = {
 		oxy_max = 0,
@@ -42120,7 +42536,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colorado-Class",
+			"Big Seven"
+		}
 	},
 	[105121] = {
 		oxy_max = 0,
@@ -42242,7 +42661,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"North Carolina-Class"
+		}
 	},
 	[105122] = {
 		oxy_max = 0,
@@ -42364,7 +42785,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"North Carolina-Class"
+		}
 	},
 	[105123] = {
 		oxy_max = 0,
@@ -42486,7 +42909,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"North Carolina-Class"
+		}
 	},
 	[105124] = {
 		oxy_max = 0,
@@ -42608,7 +43033,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"North Carolina-Class"
+		}
 	},
 	[105131] = {
 		oxy_max = 0,
@@ -42730,7 +43157,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"North Carolina-Class",
+			"Washington"
+		}
 	},
 	[105132] = {
 		oxy_max = 0,
@@ -42852,7 +43282,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"North Carolina-Class",
+			"Washington"
+		}
 	},
 	[105133] = {
 		oxy_max = 0,
@@ -42974,7 +43407,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"North Carolina-Class",
+			"Washington"
+		}
 	},
 	[105134] = {
 		oxy_max = 0,
@@ -43096,7 +43532,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"North Carolina-Class",
+			"Washington"
+		}
 	},
 	[105141] = {
 		oxy_max = 0,
@@ -43218,7 +43657,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class",
+			"South Dakota"
+		}
 	},
 	[105142] = {
 		oxy_max = 0,
@@ -43340,7 +43782,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class",
+			"South Dakota"
+		}
 	},
 	[105143] = {
 		oxy_max = 0,
@@ -43462,7 +43907,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class",
+			"South Dakota"
+		}
 	},
 	[105144] = {
 		oxy_max = 0,
@@ -43584,7 +44032,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class",
+			"South Dakota"
+		}
 	},
 	[105191] = {
 		oxy_max = 0,
@@ -43706,7 +44157,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class"
+		}
 	},
 	[105192] = {
 		oxy_max = 0,
@@ -43828,7 +44281,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class"
+		}
 	},
 	[105193] = {
 		oxy_max = 0,
@@ -43950,7 +44405,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class"
+		}
 	},
 	[105194] = {
 		oxy_max = 0,
@@ -44072,7 +44529,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class"
+		}
 	},
 	[105201] = {
 		oxy_max = 0,
@@ -44194,7 +44653,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class"
+		}
 	},
 	[105202] = {
 		oxy_max = 0,
@@ -44316,7 +44777,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class"
+		}
 	},
 	[105203] = {
 		oxy_max = 0,
@@ -44438,7 +44901,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class"
+		}
 	},
 	[105204] = {
 		oxy_max = 0,
@@ -44560,7 +45025,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"South Dakota-Class"
+		}
 	},
 	[106011] = {
 		oxy_max = 0,
@@ -44681,7 +45148,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Eagle Union-CVL"
+		}
 	},
 	[106012] = {
 		oxy_max = 0,
@@ -44802,7 +45271,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Eagle Union-CVL"
+		}
 	},
 	[106013] = {
 		oxy_max = 0,
@@ -44923,7 +45394,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Eagle Union-CVL"
+		}
 	},
 	[106014] = {
 		oxy_max = 0,
@@ -45044,7 +45517,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Eagle Union-CVL"
+		}
 	},
 	[106021] = {
 		oxy_max = 0,
@@ -45165,7 +45640,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bogue-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[106022] = {
 		oxy_max = 0,
@@ -45286,7 +45764,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bogue-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[106023] = {
 		oxy_max = 0,
@@ -45407,7 +45888,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bogue-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[106024] = {
 		oxy_max = 0,
@@ -45528,7 +46012,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bogue-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[106551] = {
 		oxy_max = 0,
@@ -45649,7 +46136,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Eagle Union-CVL"
+		}
 	},
 	[106552] = {
 		oxy_max = 0,
@@ -45770,7 +46259,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Eagle Union-CVL"
+		}
 	},
 	[106553] = {
 		oxy_max = 0,
@@ -45891,7 +46382,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Eagle Union-CVL"
+		}
 	},
 	[106554] = {
 		oxy_max = 0,
@@ -46012,7 +46505,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Eagle Union-CVL"
+		}
 	},
 	[107011] = {
 		oxy_max = 0,
@@ -46618,7 +47113,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Lexington-Class"
+		}
 	},
 	[107022] = {
 		oxy_max = 0,
@@ -46740,7 +47237,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Lexington-Class"
+		}
 	},
 	[107023] = {
 		oxy_max = 0,
@@ -46862,7 +47361,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Lexington-Class"
+		}
 	},
 	[107024] = {
 		oxy_max = 0,
@@ -46984,7 +47485,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Lexington-Class"
+		}
 	},
 	[107031] = {
 		oxy_max = 0,
@@ -47106,7 +47609,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Lexington-Class"
+		}
 	},
 	[107032] = {
 		oxy_max = 0,
@@ -47228,7 +47733,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Lexington-Class"
+		}
 	},
 	[107033] = {
 		oxy_max = 0,
@@ -47350,7 +47857,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Lexington-Class"
+		}
 	},
 	[107034] = {
 		oxy_max = 0,
@@ -47472,7 +47981,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Lexington-Class"
+		}
 	},
 	[107041] = {
 		oxy_max = 0,
@@ -48078,7 +48589,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class"
+		}
 	},
 	[107052] = {
 		oxy_max = 0,
@@ -48200,7 +48713,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class"
+		}
 	},
 	[107053] = {
 		oxy_max = 0,
@@ -48322,7 +48837,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class"
+		}
 	},
 	[107054] = {
 		oxy_max = 0,
@@ -48444,7 +48961,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class"
+		}
 	},
 	[107061] = {
 		oxy_max = 0,
@@ -48566,7 +49085,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class",
+			"Enterprize"
+		}
 	},
 	[107062] = {
 		oxy_max = 0,
@@ -48688,7 +49210,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class",
+			"Enterprize"
+		}
 	},
 	[107063] = {
 		oxy_max = 0,
@@ -48810,7 +49335,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class",
+			"Enterprize"
+		}
 	},
 	[107064] = {
 		oxy_max = 0,
@@ -48932,7 +49460,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class",
+			"Enterprize"
+		}
 	},
 	[107071] = {
 		oxy_max = 0,
@@ -49054,7 +49585,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class"
+		}
 	},
 	[107072] = {
 		oxy_max = 0,
@@ -49176,7 +49709,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class"
+		}
 	},
 	[107073] = {
 		oxy_max = 0,
@@ -49298,7 +49833,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class"
+		}
 	},
 	[107074] = {
 		oxy_max = 0,
@@ -49420,7 +49957,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yorktown-Class"
+		}
 	},
 	[107081] = {
 		oxy_max = 0,
@@ -50030,7 +50569,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107092] = {
 		oxy_max = 0,
@@ -50152,7 +50693,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107093] = {
 		oxy_max = 0,
@@ -50274,7 +50817,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107094] = {
 		oxy_max = 0,
@@ -50396,7 +50941,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107111] = {
 		oxy_max = 0,
@@ -50518,7 +51065,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107112] = {
 		oxy_max = 0,
@@ -50640,7 +51189,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107113] = {
 		oxy_max = 0,
@@ -50762,7 +51313,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107114] = {
 		oxy_max = 0,
@@ -50884,7 +51437,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107171] = {
 		oxy_max = 0,
@@ -51006,7 +51561,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107172] = {
 		oxy_max = 0,
@@ -51128,7 +51685,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107173] = {
 		oxy_max = 0,
@@ -51250,7 +51809,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107174] = {
 		oxy_max = 0,
@@ -51372,7 +51933,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107221] = {
 		oxy_max = 0,
@@ -51493,7 +52056,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107222] = {
 		oxy_max = 0,
@@ -51614,7 +52180,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107223] = {
 		oxy_max = 0,
@@ -51735,7 +52304,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107224] = {
 		oxy_max = 0,
@@ -51856,7 +52428,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107231] = {
 		oxy_max = 0,
@@ -51977,7 +52552,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107232] = {
 		oxy_max = 0,
@@ -52098,7 +52676,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107233] = {
 		oxy_max = 0,
@@ -52219,7 +52800,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107234] = {
 		oxy_max = 0,
@@ -52340,7 +52924,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107291] = {
 		oxy_max = 0,
@@ -52461,7 +53048,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107292] = {
 		oxy_max = 0,
@@ -52582,7 +53172,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107293] = {
 		oxy_max = 0,
@@ -52703,7 +53296,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107294] = {
 		oxy_max = 0,
@@ -52824,7 +53420,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
 	},
 	[107381] = {
 		oxy_max = 0,
@@ -52946,7 +53545,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107382] = {
 		oxy_max = 0,
@@ -53068,7 +53669,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107383] = {
 		oxy_max = 0,
@@ -53190,7 +53793,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[107384] = {
 		oxy_max = 0,
@@ -53312,7 +53917,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Essex-Class"
+		}
 	},
 	[108011] = {
 		oxy_max = 243,
@@ -53539,7 +54146,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108012] = {
 		oxy_max = 243,
@@ -53766,7 +54375,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108013] = {
 		oxy_max = 243,
@@ -53993,7 +54604,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108014] = {
 		oxy_max = 243,
@@ -54220,7 +54833,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108021] = {
 		oxy_max = 243,
@@ -54456,6 +55071,7 @@ pg.ship_data_statistics = {
 			}
 		},
 		tag_list = {
+			"Gato-Class",
 			"Albacore"
 		}
 	},
@@ -54693,6 +55309,7 @@ pg.ship_data_statistics = {
 			}
 		},
 		tag_list = {
+			"Gato-Class",
 			"Albacore"
 		}
 	},
@@ -54930,6 +55547,7 @@ pg.ship_data_statistics = {
 			}
 		},
 		tag_list = {
+			"Gato-Class",
 			"Albacore"
 		}
 	},
@@ -55167,6 +55785,7 @@ pg.ship_data_statistics = {
 			}
 		},
 		tag_list = {
+			"Gato-Class",
 			"Albacore"
 		}
 	},
@@ -55403,7 +56022,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108032] = {
 		oxy_max = 243,
@@ -55638,7 +56259,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108033] = {
 		oxy_max = 243,
@@ -55873,7 +56496,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108034] = {
 		oxy_max = 243,
@@ -56108,7 +56733,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108041] = {
 		oxy_max = 243,
@@ -56335,7 +56962,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108042] = {
 		oxy_max = 243,
@@ -56562,7 +57191,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108043] = {
 		oxy_max = 243,
@@ -56789,7 +57420,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108044] = {
 		oxy_max = 243,
@@ -57016,7 +57649,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gato-Class"
+		}
 	},
 	[108051] = {
 		oxy_max = 243,
@@ -57244,6 +57879,7 @@ pg.ship_data_statistics = {
 			}
 		},
 		tag_list = {
+			"Gato-Class",
 			"μ",
 			"Albacore",
 			"special"
@@ -57475,6 +58111,7 @@ pg.ship_data_statistics = {
 			}
 		},
 		tag_list = {
+			"Gato-Class",
 			"μ",
 			"Albacore",
 			"special"
@@ -57706,6 +58343,7 @@ pg.ship_data_statistics = {
 			}
 		},
 		tag_list = {
+			"Gato-Class",
 			"μ",
 			"Albacore",
 			"special"
@@ -57937,6 +58575,7 @@ pg.ship_data_statistics = {
 			}
 		},
 		tag_list = {
+			"Gato-Class",
 			"μ",
 			"Albacore",
 			"special"
@@ -59078,7 +59717,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"A-Class"
+		}
 	},
 	[201022] = {
 		oxy_max = 0,
@@ -59200,7 +59841,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"A-Class"
+		}
 	},
 	[201023] = {
 		oxy_max = 0,
@@ -59322,7 +59965,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"A-Class"
+		}
 	},
 	[201024] = {
 		oxy_max = 0,
@@ -59444,7 +60089,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"A-Class"
+		}
 	},
 	[201031] = {
 		oxy_max = 0,
@@ -59566,7 +60213,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"A-Class"
+		}
 	},
 	[201032] = {
 		oxy_max = 0,
@@ -59688,7 +60337,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"A-Class"
+		}
 	},
 	[201033] = {
 		oxy_max = 0,
@@ -59810,7 +60461,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"A-Class"
+		}
 	},
 	[201034] = {
 		oxy_max = 0,
@@ -59932,7 +60585,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"A-Class"
+		}
 	},
 	[201061] = {
 		oxy_max = 0,
@@ -60054,7 +60709,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"B-Class"
+		}
 	},
 	[201062] = {
 		oxy_max = 0,
@@ -60176,7 +60833,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"B-Class"
+		}
 	},
 	[201063] = {
 		oxy_max = 0,
@@ -60298,7 +60957,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"B-Class"
+		}
 	},
 	[201064] = {
 		oxy_max = 0,
@@ -60420,7 +61081,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"B-Class"
+		}
 	},
 	[201071] = {
 		oxy_max = 0,
@@ -60542,7 +61205,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"B-Class"
+		}
 	},
 	[201072] = {
 		oxy_max = 0,
@@ -60664,7 +61329,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"B-Class"
+		}
 	},
 	[201073] = {
 		oxy_max = 0,
@@ -60786,7 +61453,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"B-Class"
+		}
 	},
 	[201074] = {
 		oxy_max = 0,
@@ -60908,7 +61577,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"B-Class"
+		}
 	},
 	[201081] = {
 		oxy_max = 0,
@@ -61030,7 +61701,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201082] = {
 		oxy_max = 0,
@@ -61152,7 +61825,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201083] = {
 		oxy_max = 0,
@@ -61274,7 +61949,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201084] = {
 		oxy_max = 0,
@@ -61396,7 +62073,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201091] = {
 		oxy_max = 0,
@@ -61518,7 +62197,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201092] = {
 		oxy_max = 0,
@@ -61640,7 +62321,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201093] = {
 		oxy_max = 0,
@@ -61762,7 +62445,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201094] = {
 		oxy_max = 0,
@@ -61884,7 +62569,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201101] = {
 		oxy_max = 0,
@@ -62006,7 +62693,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201102] = {
 		oxy_max = 0,
@@ -62128,7 +62817,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201103] = {
 		oxy_max = 0,
@@ -62250,7 +62941,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201104] = {
 		oxy_max = 0,
@@ -62372,7 +63065,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"C-Class"
+		}
 	},
 	[201111] = {
 		oxy_max = 0,
@@ -62494,7 +63189,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"F-Class"
+		}
 	},
 	[201112] = {
 		oxy_max = 0,
@@ -62616,7 +63313,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"F-Class"
+		}
 	},
 	[201113] = {
 		oxy_max = 0,
@@ -62738,7 +63437,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"F-Class"
+		}
 	},
 	[201114] = {
 		oxy_max = 0,
@@ -62860,7 +63561,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"F-Class"
+		}
 	},
 	[201121] = {
 		oxy_max = 0,
@@ -62982,7 +63685,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"F-Class"
+		}
 	},
 	[201122] = {
 		oxy_max = 0,
@@ -63104,7 +63809,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"F-Class"
+		}
 	},
 	[201123] = {
 		oxy_max = 0,
@@ -63226,7 +63933,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"F-Class"
+		}
 	},
 	[201124] = {
 		oxy_max = 0,
@@ -63348,7 +64057,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"F-Class"
+		}
 	},
 	[201131] = {
 		oxy_max = 0,
@@ -63470,7 +64181,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"G-Class"
+		}
 	},
 	[201132] = {
 		oxy_max = 0,
@@ -63592,7 +64305,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"G-Class"
+		}
 	},
 	[201133] = {
 		oxy_max = 0,
@@ -63714,7 +64429,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"G-Class"
+		}
 	},
 	[201134] = {
 		oxy_max = 0,
@@ -63836,7 +64553,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"G-Class"
+		}
 	},
 	[201141] = {
 		oxy_max = 0,
@@ -63958,7 +64677,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"G-Class"
+		}
 	},
 	[201142] = {
 		oxy_max = 0,
@@ -64080,7 +64801,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"G-Class"
+		}
 	},
 	[201143] = {
 		oxy_max = 0,
@@ -64202,7 +64925,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"G-Class"
+		}
 	},
 	[201144] = {
 		oxy_max = 0,
@@ -64324,7 +65049,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"G-Class"
+		}
 	},
 	[201161] = {
 		oxy_max = 0,
@@ -64446,7 +65173,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"H-Class"
+		}
 	},
 	[201162] = {
 		oxy_max = 0,
@@ -64568,7 +65297,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"H-Class"
+		}
 	},
 	[201163] = {
 		oxy_max = 0,
@@ -64690,7 +65421,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"H-Class"
+		}
 	},
 	[201164] = {
 		oxy_max = 0,
@@ -64812,7 +65545,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"H-Class"
+		}
 	},
 	[201201] = {
 		oxy_max = 0,
@@ -64934,7 +65669,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"H-Class"
+		}
 	},
 	[201202] = {
 		oxy_max = 0,
@@ -65056,7 +65793,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"H-Class"
+		}
 	},
 	[201203] = {
 		oxy_max = 0,
@@ -65178,7 +65917,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"H-Class"
+		}
 	},
 	[201204] = {
 		oxy_max = 0,
@@ -65300,7 +66041,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"H-Class"
+		}
 	},
 	[201211] = {
 		oxy_max = 0,
@@ -65414,7 +66157,7 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1,
-			1.35,
+			1.45,
 			1
 		},
 		strategy_list = {},
@@ -65423,6 +66166,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -65538,7 +66282,7 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.05,
-			1.35,
+			1.45,
 			1
 		},
 		strategy_list = {},
@@ -65547,6 +66291,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -65662,7 +66407,7 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.15,
-			1.35,
+			1.45,
 			1
 		},
 		strategy_list = {},
@@ -65671,6 +66416,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -65786,7 +66532,7 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.2,
-			1.4,
+			1.5,
 			1.05
 		},
 		strategy_list = {},
@@ -65795,6 +66541,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -65919,6 +66666,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -66043,6 +66791,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -66167,6 +66916,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -66291,6 +67041,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -66414,7 +67165,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Old V-Class"
+		}
 	},
 	[201232] = {
 		oxy_max = 0,
@@ -66536,7 +67289,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Old V-Class"
+		}
 	},
 	[201233] = {
 		oxy_max = 0,
@@ -66658,7 +67413,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Old V-Class"
+		}
 	},
 	[201234] = {
 		oxy_max = 0,
@@ -66780,7 +67537,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Old V-Class"
+		}
 	},
 	[201241] = {
 		oxy_max = 0,
@@ -66903,6 +67662,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -67027,6 +67787,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -67151,6 +67912,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -67275,6 +68037,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"J-Class",
 			"Jersey Skill"
 		}
 	},
@@ -67398,7 +68161,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"J-Class"
+		}
 	},
 	[201252] = {
 		oxy_max = 0,
@@ -67520,7 +68285,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"J-Class"
+		}
 	},
 	[201253] = {
 		oxy_max = 0,
@@ -67642,7 +68409,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"J-Class"
+		}
 	},
 	[201254] = {
 		oxy_max = 0,
@@ -67764,7 +68533,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"J-Class"
+		}
 	},
 	[201261] = {
 		oxy_max = 0,
@@ -67886,7 +68657,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"M-Class"
+		}
 	},
 	[201262] = {
 		oxy_max = 0,
@@ -68008,7 +68781,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"M-Class"
+		}
 	},
 	[201263] = {
 		oxy_max = 0,
@@ -68130,7 +68905,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"M-Class"
+		}
 	},
 	[201264] = {
 		oxy_max = 0,
@@ -68252,7 +69029,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"M-Class"
+		}
 	},
 	[201271] = {
 		oxy_max = 0,
@@ -68374,7 +69153,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"M-Class"
+		}
 	},
 	[201272] = {
 		oxy_max = 0,
@@ -68496,7 +69277,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"M-Class"
+		}
 	},
 	[201273] = {
 		oxy_max = 0,
@@ -68618,7 +69401,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"M-Class"
+		}
 	},
 	[201274] = {
 		oxy_max = 0,
@@ -68740,7 +69525,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"M-Class"
+		}
 	},
 	[201291] = {
 		oxy_max = 0,
@@ -68862,7 +69649,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"E-Class"
+		}
 	},
 	[201292] = {
 		oxy_max = 0,
@@ -68984,7 +69773,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"E-Class"
+		}
 	},
 	[201293] = {
 		oxy_max = 0,
@@ -69106,7 +69897,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"E-Class"
+		}
 	},
 	[201294] = {
 		oxy_max = 0,
@@ -69228,7 +70021,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"E-Class"
+		}
 	},
 	[201321] = {
 		oxy_max = 0,
@@ -69350,7 +70145,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tribal-Class"
+		}
 	},
 	[201322] = {
 		oxy_max = 0,
@@ -69472,7 +70269,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tribal-Class"
+		}
 	},
 	[201323] = {
 		oxy_max = 0,
@@ -69594,7 +70393,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tribal-Class"
+		}
 	},
 	[201324] = {
 		oxy_max = 0,
@@ -69716,7 +70517,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tribal-Class"
+		}
 	},
 	[201331] = {
 		oxy_max = 0,
@@ -69838,7 +70641,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"I-Class"
+		}
 	},
 	[201332] = {
 		oxy_max = 0,
@@ -69960,7 +70765,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"I-Class"
+		}
 	},
 	[201333] = {
 		oxy_max = 0,
@@ -70082,7 +70889,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"I-Class"
+		}
 	},
 	[201334] = {
 		oxy_max = 0,
@@ -70204,7 +71013,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"I-Class"
+		}
 	},
 	[201514] = {
 		oxy_max = 0,
@@ -70451,7 +71262,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202012] = {
 		oxy_max = 0,
@@ -70576,7 +71389,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202013] = {
 		oxy_max = 0,
@@ -70701,7 +71516,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202014] = {
 		oxy_max = 0,
@@ -70826,7 +71643,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202021] = {
 		oxy_max = 0,
@@ -70951,7 +71770,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202022] = {
 		oxy_max = 0,
@@ -71076,7 +71897,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202023] = {
 		oxy_max = 0,
@@ -71201,7 +72024,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202024] = {
 		oxy_max = 0,
@@ -71326,7 +72151,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202031] = {
 		oxy_max = 0,
@@ -71451,7 +72278,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202032] = {
 		oxy_max = 0,
@@ -71576,7 +72405,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202033] = {
 		oxy_max = 0,
@@ -71701,7 +72532,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202034] = {
 		oxy_max = 0,
@@ -71826,7 +72659,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leander-Class"
+		}
 	},
 	[202041] = {
 		oxy_max = 0,
@@ -71952,7 +72787,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202042] = {
@@ -72079,7 +72914,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202043] = {
@@ -72206,7 +73041,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202044] = {
@@ -72333,7 +73168,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202071] = {
@@ -72459,7 +73294,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202072] = {
 		oxy_max = 0,
@@ -72584,7 +73421,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202073] = {
 		oxy_max = 0,
@@ -72709,7 +73548,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202074] = {
 		oxy_max = 0,
@@ -72834,7 +73675,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202081] = {
 		oxy_max = 0,
@@ -72959,7 +73802,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class",
+			"Sheffield"
+		}
 	},
 	[202082] = {
 		oxy_max = 0,
@@ -73084,7 +73930,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class",
+			"Sheffield"
+		}
 	},
 	[202083] = {
 		oxy_max = 0,
@@ -73209,7 +74058,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class",
+			"Sheffield"
+		}
 	},
 	[202084] = {
 		oxy_max = 0,
@@ -73334,7 +74186,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class",
+			"Sheffield"
+		}
 	},
 	[202101] = {
 		oxy_max = 0,
@@ -73459,7 +74314,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202102] = {
 		oxy_max = 0,
@@ -73584,7 +74441,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202103] = {
 		oxy_max = 0,
@@ -73709,7 +74568,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202104] = {
 		oxy_max = 0,
@@ -73834,7 +74695,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202111] = {
 		oxy_max = 0,
@@ -73959,7 +74822,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202112] = {
 		oxy_max = 0,
@@ -74084,7 +74949,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202113] = {
 		oxy_max = 0,
@@ -74209,7 +75076,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202114] = {
 		oxy_max = 0,
@@ -74334,7 +75203,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202121] = {
 		oxy_max = 0,
@@ -74459,7 +75330,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202122] = {
 		oxy_max = 0,
@@ -74584,7 +75457,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202123] = {
 		oxy_max = 0,
@@ -74709,7 +75584,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202124] = {
 		oxy_max = 0,
@@ -74834,7 +75711,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202131] = {
 		oxy_max = 0,
@@ -74959,7 +75838,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202132] = {
 		oxy_max = 0,
@@ -75084,7 +75965,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202133] = {
 		oxy_max = 0,
@@ -75209,7 +76092,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202134] = {
 		oxy_max = 0,
@@ -75334,7 +76219,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202141] = {
 		oxy_max = 0,
@@ -75459,7 +76346,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202142] = {
 		oxy_max = 0,
@@ -75584,7 +76473,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202143] = {
 		oxy_max = 0,
@@ -75709,7 +76600,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202144] = {
 		oxy_max = 0,
@@ -75834,7 +76727,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202151] = {
 		oxy_max = 0,
@@ -75959,7 +76854,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202152] = {
 		oxy_max = 0,
@@ -76084,7 +76981,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202153] = {
 		oxy_max = 0,
@@ -76209,7 +77108,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202154] = {
 		oxy_max = 0,
@@ -76334,7 +77235,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Arethusa-Class"
+		}
 	},
 	[202161] = {
 		oxy_max = 0,
@@ -76459,7 +77362,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Crown Colony-Class"
+		}
 	},
 	[202162] = {
 		oxy_max = 0,
@@ -76584,7 +77489,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Crown Colony-Class"
+		}
 	},
 	[202163] = {
 		oxy_max = 0,
@@ -76709,7 +77616,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Crown Colony-Class"
+		}
 	},
 	[202164] = {
 		oxy_max = 0,
@@ -76834,7 +77743,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Crown Colony-Class"
+		}
 	},
 	[202171] = {
 		oxy_max = 0,
@@ -76959,7 +77870,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Crown Colony-Class"
+		}
 	},
 	[202172] = {
 		oxy_max = 0,
@@ -77084,7 +77997,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Crown Colony-Class"
+		}
 	},
 	[202173] = {
 		oxy_max = 0,
@@ -77209,7 +78124,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Crown Colony-Class"
+		}
 	},
 	[202174] = {
 		oxy_max = 0,
@@ -77334,7 +78251,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Crown Colony-Class"
+		}
 	},
 	[202181] = {
 		oxy_max = 0,
@@ -77460,6 +78379,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Town-Class",
 			"special"
 		}
 	},
@@ -77587,6 +78507,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Town-Class",
 			"special"
 		}
 	},
@@ -77714,6 +78635,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Town-Class",
 			"special"
 		}
 	},
@@ -77841,6 +78763,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Town-Class",
 			"special"
 		}
 	},
@@ -77967,7 +78890,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202192] = {
 		oxy_max = 0,
@@ -78092,7 +79017,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202193] = {
 		oxy_max = 0,
@@ -78217,7 +79144,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202194] = {
 		oxy_max = 0,
@@ -78342,7 +79271,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202211] = {
 		oxy_max = 0,
@@ -78468,7 +79399,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ceres-Class"
+		}
 	},
 	[202212] = {
 		oxy_max = 0,
@@ -78594,7 +79527,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ceres-Class"
+		}
 	},
 	[202213] = {
 		oxy_max = 0,
@@ -78720,7 +79655,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ceres-Class"
+		}
 	},
 	[202214] = {
 		oxy_max = 0,
@@ -78846,7 +79783,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ceres-Class"
+		}
 	},
 	[202221] = {
 		oxy_max = 0,
@@ -78972,7 +79911,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ceres-Class"
+		}
 	},
 	[202222] = {
 		oxy_max = 0,
@@ -79098,7 +80039,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ceres-Class"
+		}
 	},
 	[202223] = {
 		oxy_max = 0,
@@ -79224,7 +80167,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ceres-Class"
+		}
 	},
 	[202224] = {
 		oxy_max = 0,
@@ -79350,7 +80295,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ceres-Class"
+		}
 	},
 	[202201] = {
 		oxy_max = 0,
@@ -79476,7 +80423,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202202] = {
@@ -79603,7 +80550,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202203] = {
@@ -79730,7 +80677,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202204] = {
@@ -79857,7 +80804,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202231] = {
@@ -79983,7 +80930,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Swiftsure-Class"
+		}
 	},
 	[202232] = {
 		oxy_max = 0,
@@ -80108,7 +81057,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Swiftsure-Class"
+		}
 	},
 	[202233] = {
 		oxy_max = 0,
@@ -80233,7 +81184,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Swiftsure-Class"
+		}
 	},
 	[202234] = {
 		oxy_max = 0,
@@ -80358,7 +81311,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Swiftsure-Class"
+		}
 	},
 	[202241] = {
 		oxy_max = 0,
@@ -80484,7 +81439,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202242] = {
@@ -80611,7 +81566,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202243] = {
@@ -80738,7 +81693,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202244] = {
@@ -80865,7 +81820,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202251] = {
@@ -80992,8 +81947,10 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Town-Class",
 			"μ",
-			"special"
+			"special",
+			"Sheffield"
 		}
 	},
 	[202252] = {
@@ -81120,8 +82077,10 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Town-Class",
 			"μ",
-			"special"
+			"special",
+			"Sheffield"
 		}
 	},
 	[202253] = {
@@ -81248,8 +82207,10 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Town-Class",
 			"μ",
-			"special"
+			"special",
+			"Sheffield"
 		}
 	},
 	[202254] = {
@@ -81376,8 +82337,10 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Town-Class",
 			"μ",
-			"special"
+			"special",
+			"Sheffield"
 		}
 	},
 	[202261] = {
@@ -81503,7 +82466,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202262] = {
 		oxy_max = 0,
@@ -81628,7 +82593,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202263] = {
 		oxy_max = 0,
@@ -81753,7 +82720,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202264] = {
 		oxy_max = 0,
@@ -81878,7 +82847,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Town-Class"
+		}
 	},
 	[202271] = {
 		oxy_max = 0,
@@ -82004,7 +82975,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202272] = {
@@ -82131,7 +83102,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202273] = {
@@ -82258,7 +83229,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202274] = {
@@ -82385,7 +83356,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class"
+			"Dido-Class"
 		}
 	},
 	[202281] = {
@@ -82512,7 +83483,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class",
+			"Dido-Class",
 			"μ",
 			"special"
 		}
@@ -82641,7 +83612,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class",
+			"Dido-Class",
 			"μ",
 			"special"
 		}
@@ -82770,7 +83741,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class",
+			"Dido-Class",
 			"μ",
 			"special"
 		}
@@ -82899,7 +83870,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Dido_class",
+			"Dido-Class",
 			"μ",
 			"special"
 		}
@@ -83026,7 +83997,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203012] = {
 		oxy_max = 0,
@@ -83150,7 +84123,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203013] = {
 		oxy_max = 0,
@@ -83274,7 +84249,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203014] = {
 		oxy_max = 0,
@@ -83398,7 +84375,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203114] = {
 		oxy_max = 0,
@@ -83522,7 +84501,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203021] = {
 		oxy_max = 0,
@@ -83646,7 +84627,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203022] = {
 		oxy_max = 0,
@@ -83770,7 +84753,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203023] = {
 		oxy_max = 0,
@@ -83894,7 +84879,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203024] = {
 		oxy_max = 0,
@@ -84018,7 +85005,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203031] = {
 		oxy_max = 0,
@@ -84142,7 +85131,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203032] = {
 		oxy_max = 0,
@@ -84266,7 +85257,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203033] = {
 		oxy_max = 0,
@@ -84390,7 +85383,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203034] = {
 		oxy_max = 0,
@@ -84514,7 +85509,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203041] = {
 		oxy_max = 0,
@@ -84638,7 +85635,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203042] = {
 		oxy_max = 0,
@@ -84762,7 +85761,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203043] = {
 		oxy_max = 0,
@@ -84886,7 +85887,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203044] = {
 		oxy_max = 0,
@@ -85010,7 +86013,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203051] = {
 		oxy_max = 0,
@@ -85134,7 +86139,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203052] = {
 		oxy_max = 0,
@@ -85258,7 +86265,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203053] = {
 		oxy_max = 0,
@@ -85382,7 +86391,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203054] = {
 		oxy_max = 0,
@@ -85506,7 +86517,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203061] = {
 		oxy_max = 0,
@@ -85630,7 +86643,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203062] = {
 		oxy_max = 0,
@@ -85754,7 +86769,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203063] = {
 		oxy_max = 0,
@@ -85878,7 +86895,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203064] = {
 		oxy_max = 0,
@@ -86002,7 +87021,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203071] = {
 		oxy_max = 0,
@@ -86126,7 +87147,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"York-Class"
+		}
 	},
 	[203072] = {
 		oxy_max = 0,
@@ -86250,7 +87273,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"York-Class"
+		}
 	},
 	[203073] = {
 		oxy_max = 0,
@@ -86374,7 +87399,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"York-Class"
+		}
 	},
 	[203074] = {
 		oxy_max = 0,
@@ -86498,7 +87525,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"York-Class"
+		}
 	},
 	[203081] = {
 		oxy_max = 0,
@@ -86612,8 +87641,8 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.25,
-			1.5,
+			1.3,
+			1.55,
 			1,
 			0.3
 		},
@@ -86622,7 +87651,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"York-Class"
+		}
 	},
 	[203082] = {
 		oxy_max = 0,
@@ -86736,8 +87767,8 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.3,
-			1.5,
+			1.35,
+			1.55,
 			1,
 			0.3
 		},
@@ -86746,7 +87777,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"York-Class"
+		}
 	},
 	[203083] = {
 		oxy_max = 0,
@@ -86860,8 +87893,8 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.4,
-			1.5,
+			1.45,
+			1.55,
 			1,
 			0.3
 		},
@@ -86870,7 +87903,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"York-Class"
+		}
 	},
 	[203084] = {
 		oxy_max = 0,
@@ -86984,8 +88019,8 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.4,
-			1.65,
+			1.45,
+			1.7,
 			1,
 			0.3
 		},
@@ -86994,7 +88029,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"York-Class"
+		}
 	},
 	[203091] = {
 		oxy_max = 0,
@@ -87118,7 +88155,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203092] = {
 		oxy_max = 0,
@@ -87242,7 +88281,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203093] = {
 		oxy_max = 0,
@@ -87366,7 +88407,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[203094] = {
 		oxy_max = 0,
@@ -87490,7 +88533,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"County-Class"
+		}
 	},
 	[204011] = {
 		oxy_max = 0,
@@ -87612,7 +88657,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Renown-Class"
+		}
 	},
 	[204012] = {
 		oxy_max = 0,
@@ -87734,7 +88781,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Renown-Class"
+		}
 	},
 	[204013] = {
 		oxy_max = 0,
@@ -87856,7 +88905,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Renown-Class"
+		}
 	},
 	[204014] = {
 		oxy_max = 0,
@@ -87978,7 +89029,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Renown-Class"
+		}
 	},
 	[204021] = {
 		oxy_max = 0,
@@ -88100,7 +89153,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Renown-Class"
+		}
 	},
 	[204022] = {
 		oxy_max = 0,
@@ -88222,7 +89277,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Renown-Class"
+		}
 	},
 	[204023] = {
 		oxy_max = 0,
@@ -88344,7 +89401,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Renown-Class"
+		}
 	},
 	[204024] = {
 		oxy_max = 0,
@@ -88466,7 +89525,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Renown-Class"
+		}
 	},
 	[204031] = {
 		oxy_max = 0,
@@ -89077,6 +90138,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Renown-Class",
 			"special"
 		}
 	},
@@ -89201,6 +90263,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Renown-Class",
 			"special"
 		}
 	},
@@ -89325,6 +90388,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Renown-Class",
 			"special"
 		}
 	},
@@ -89449,6 +90513,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Renown-Class",
 			"special"
 		}
 	},
@@ -89573,6 +90638,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"QE-Class",
 			"QE"
 		}
 	},
@@ -89697,6 +90763,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"QE-Class",
 			"QE"
 		}
 	},
@@ -89821,6 +90888,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"QE-Class",
 			"QE"
 		}
 	},
@@ -89945,6 +91013,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"QE-Class",
 			"QE"
 		}
 	},
@@ -90068,7 +91137,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[205022] = {
 		oxy_max = 0,
@@ -90190,7 +91261,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[205023] = {
 		oxy_max = 0,
@@ -90312,7 +91385,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[205024] = {
 		oxy_max = 0,
@@ -90434,7 +91509,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[205124] = {
 		oxy_max = 0,
@@ -90555,7 +91632,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[205031] = {
 		oxy_max = 0,
@@ -90677,7 +91756,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nelson-Class",
+			"Big Seven"
+		}
 	},
 	[205032] = {
 		oxy_max = 0,
@@ -90799,7 +91881,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nelson-Class",
+			"Big Seven"
+		}
 	},
 	[205033] = {
 		oxy_max = 0,
@@ -90921,7 +92006,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nelson-Class",
+			"Big Seven"
+		}
 	},
 	[205034] = {
 		oxy_max = 0,
@@ -91043,7 +92131,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nelson-Class",
+			"Big Seven"
+		}
 	},
 	[205041] = {
 		oxy_max = 0,
@@ -91165,7 +92256,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nelson-Class",
+			"Big Seven"
+		}
 	},
 	[205042] = {
 		oxy_max = 0,
@@ -91287,7 +92381,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nelson-Class",
+			"Big Seven"
+		}
 	},
 	[205043] = {
 		oxy_max = 0,
@@ -91409,7 +92506,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nelson-Class",
+			"Big Seven"
+		}
 	},
 	[205044] = {
 		oxy_max = 0,
@@ -91531,7 +92631,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nelson-Class",
+			"Big Seven"
+		}
 	},
 	[205051] = {
 		oxy_max = 0,
@@ -91654,7 +92757,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205052] = {
@@ -91778,7 +92881,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205053] = {
@@ -91902,7 +93005,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205054] = {
@@ -92026,7 +93129,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205061] = {
@@ -92150,7 +93253,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205062] = {
@@ -92274,7 +93377,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205063] = {
@@ -92398,7 +93501,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205064] = {
@@ -92522,7 +93625,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205071] = {
@@ -92646,7 +93749,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205072] = {
@@ -92770,7 +93873,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205073] = {
@@ -92894,7 +93997,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205074] = {
@@ -93018,7 +94121,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"KGV-Class"
 		}
 	},
 	[205101] = {
@@ -93141,7 +94244,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[205102] = {
 		oxy_max = 0,
@@ -93263,7 +94368,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[205103] = {
 		oxy_max = 0,
@@ -93385,7 +94492,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[205104] = {
 		oxy_max = 0,
@@ -93507,7 +94616,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE-Class"
+		}
 	},
 	[206011] = {
 		oxy_max = 0,
@@ -93628,7 +94739,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Royal Fleet-CVL"
+		}
 	},
 	[206012] = {
 		oxy_max = 0,
@@ -93749,7 +94862,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Royal Fleet-CVL"
+		}
 	},
 	[206013] = {
 		oxy_max = 0,
@@ -93870,7 +94985,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Royal Fleet-CVL"
+		}
 	},
 	[206014] = {
 		oxy_max = 0,
@@ -93991,7 +95108,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Royal Fleet-CVL"
+		}
 	},
 	[206031] = {
 		oxy_max = 0,
@@ -94112,7 +95231,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Royal Fleet-CVL"
+		}
 	},
 	[206032] = {
 		oxy_max = 0,
@@ -94233,7 +95354,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Royal Fleet-CVL"
+		}
 	},
 	[206033] = {
 		oxy_max = 0,
@@ -94354,7 +95477,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Royal Fleet-CVL"
+		}
 	},
 	[206034] = {
 		oxy_max = 0,
@@ -94475,7 +95600,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Royal Fleet-CVL"
+		}
 	},
 	[206041] = {
 		oxy_max = 0,
@@ -94596,7 +95723,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Centaur-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206042] = {
 		oxy_max = 0,
@@ -94717,7 +95847,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Centaur-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206043] = {
 		oxy_max = 0,
@@ -94838,7 +95971,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Centaur-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206044] = {
 		oxy_max = 0,
@@ -94959,7 +96095,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Centaur-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206051] = {
 		oxy_max = 0,
@@ -95080,7 +96219,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bogue-Class",
+			"Attacker-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206052] = {
 		oxy_max = 0,
@@ -95201,7 +96344,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bogue-Class",
+			"Attacker-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206053] = {
 		oxy_max = 0,
@@ -95322,7 +96469,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bogue-Class",
+			"Attacker-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206054] = {
 		oxy_max = 0,
@@ -95443,7 +96594,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bogue-Class",
+			"Attacker-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206061] = {
 		oxy_max = 0,
@@ -95564,7 +96719,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colossus-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206062] = {
 		oxy_max = 0,
@@ -95685,7 +96843,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colossus-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206063] = {
 		oxy_max = 0,
@@ -95806,7 +96967,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colossus-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[206064] = {
 		oxy_max = 0,
@@ -95927,7 +97091,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Colossus-Class",
+			"Royal Fleet-CVL"
+		}
 	},
 	[207011] = {
 		oxy_max = 0,
@@ -97021,7 +98188,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV"
+		}
 	},
 	[207032] = {
 		oxy_max = 0,
@@ -97143,7 +98313,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV"
+		}
 	},
 	[207033] = {
 		oxy_max = 0,
@@ -97265,7 +98438,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV"
+		}
 	},
 	[207034] = {
 		oxy_max = 0,
@@ -97387,7 +98563,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV"
+		}
 	},
 	[207041] = {
 		oxy_max = 0,
@@ -97509,7 +98688,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV"
+		}
 	},
 	[207042] = {
 		oxy_max = 0,
@@ -97631,7 +98813,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV"
+		}
 	},
 	[207043] = {
 		oxy_max = 0,
@@ -97753,7 +98938,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV"
+		}
 	},
 	[207044] = {
 		oxy_max = 0,
@@ -97875,7 +99063,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV"
+		}
 	},
 	[207051] = {
 		oxy_max = 0,
@@ -97998,6 +99189,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"Formidable"
 		}
 	},
@@ -98122,6 +99315,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"Formidable"
 		}
 	},
@@ -98246,6 +99441,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"Formidable"
 		}
 	},
@@ -98370,6 +99567,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"Formidable"
 		}
 	},
@@ -98493,7 +99692,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Courageous-Class"
+		}
 	},
 	[207062] = {
 		oxy_max = 0,
@@ -98615,7 +99816,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Courageous-Class"
+		}
 	},
 	[207063] = {
 		oxy_max = 0,
@@ -98737,7 +99940,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Courageous-Class"
+		}
 	},
 	[207064] = {
 		oxy_max = 0,
@@ -98859,7 +100064,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Courageous-Class"
+		}
 	},
 	[207091] = {
 		oxy_max = 0,
@@ -98982,6 +100189,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"special"
 		}
 	},
@@ -99106,6 +100315,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"special"
 		}
 	},
@@ -99230,6 +100441,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"special"
 		}
 	},
@@ -99354,6 +100567,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"special"
 		}
 	},
@@ -99478,6 +100693,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"μ",
 			"special"
 		}
@@ -99603,6 +100820,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"μ",
 			"special"
 		}
@@ -99728,6 +100947,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"μ",
 			"special"
 		}
@@ -99853,6 +101074,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Illustrious-Class",
+			"Armor-CV",
 			"μ",
 			"special"
 		}
@@ -99977,7 +101200,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Erebus-Class"
+		}
 	},
 	[213012] = {
 		oxy_max = 0,
@@ -100099,7 +101324,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Erebus-Class"
+		}
 	},
 	[213013] = {
 		oxy_max = 0,
@@ -100221,7 +101448,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Erebus-Class"
+		}
 	},
 	[213014] = {
 		oxy_max = 0,
@@ -100343,7 +101572,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Erebus-Class"
+		}
 	},
 	[213021] = {
 		oxy_max = 0,
@@ -100465,7 +101696,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Erebus-Class"
+		}
 	},
 	[213022] = {
 		oxy_max = 0,
@@ -100587,7 +101820,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Erebus-Class"
+		}
 	},
 	[213023] = {
 		oxy_max = 0,
@@ -100709,7 +101944,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Erebus-Class"
+		}
 	},
 	[213024] = {
 		oxy_max = 0,
@@ -100831,7 +102068,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Erebus-Class"
+		}
 	},
 	[213041] = {
 		oxy_max = 0,
@@ -100953,7 +102192,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Roberts-Class"
+		}
 	},
 	[213042] = {
 		oxy_max = 0,
@@ -101075,7 +102316,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Roberts-Class"
+		}
 	},
 	[213043] = {
 		oxy_max = 0,
@@ -101197,7 +102440,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Roberts-Class"
+		}
 	},
 	[213044] = {
 		oxy_max = 0,
@@ -101319,7 +102564,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Roberts-Class"
+		}
 	},
 	[301011] = {
 		oxy_max = 0,
@@ -102310,8 +103557,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Special Type",
-			"Division 6"
+			"Special Type"
 		}
 	},
 	[301091] = {
@@ -104434,7 +105680,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301132] = {
 		oxy_max = 0,
@@ -104556,7 +105804,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301133] = {
 		oxy_max = 0,
@@ -104678,7 +105928,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301134] = {
 		oxy_max = 0,
@@ -104800,7 +106052,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301141] = {
 		oxy_max = 0,
@@ -104922,7 +106176,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301142] = {
 		oxy_max = 0,
@@ -105044,7 +106300,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301143] = {
 		oxy_max = 0,
@@ -105166,7 +106424,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301144] = {
 		oxy_max = 0,
@@ -105288,7 +106548,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301151] = {
 		oxy_max = 0,
@@ -105410,7 +106672,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301152] = {
 		oxy_max = 0,
@@ -105532,7 +106796,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301153] = {
 		oxy_max = 0,
@@ -105654,7 +106920,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301154] = {
 		oxy_max = 0,
@@ -105776,7 +107044,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301161] = {
 		oxy_max = 0,
@@ -105899,6 +107169,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Kagero-Class",
 			"Yukikaze"
 		}
 	},
@@ -106023,6 +107294,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Kagero-Class",
 			"Yukikaze"
 		}
 	},
@@ -106147,6 +107419,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Kagero-Class",
 			"Yukikaze"
 		}
 	},
@@ -106271,6 +107544,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Kagero-Class",
 			"Yukikaze"
 		}
 	},
@@ -106394,7 +107668,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301172] = {
 		oxy_max = 0,
@@ -106516,7 +107792,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301173] = {
 		oxy_max = 0,
@@ -106638,7 +107916,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301174] = {
 		oxy_max = 0,
@@ -106760,7 +108040,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301181] = {
 		oxy_max = 0,
@@ -106883,7 +108165,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"shiranui"
+			"Kagero-Class",
+			"Shiranui"
 		}
 	},
 	[301182] = {
@@ -107007,7 +108290,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"shiranui"
+			"Kagero-Class",
+			"Shiranui"
 		}
 	},
 	[301183] = {
@@ -107131,7 +108415,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"shiranui"
+			"Kagero-Class",
+			"Shiranui"
 		}
 	},
 	[301184] = {
@@ -107255,7 +108540,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"shiranui"
+			"Kagero-Class",
+			"Shiranui"
 		}
 	},
 	[301201] = {
@@ -107378,7 +108664,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301202] = {
 		oxy_max = 0,
@@ -107500,7 +108788,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301203] = {
 		oxy_max = 0,
@@ -107622,7 +108912,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301204] = {
 		oxy_max = 0,
@@ -107744,7 +109036,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301211] = {
 		oxy_max = 0,
@@ -107866,7 +109160,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301212] = {
 		oxy_max = 0,
@@ -107988,7 +109284,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301213] = {
 		oxy_max = 0,
@@ -108110,7 +109408,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301214] = {
 		oxy_max = 0,
@@ -108232,7 +109532,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301231] = {
 		oxy_max = 0,
@@ -108354,7 +109656,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301232] = {
 		oxy_max = 0,
@@ -108476,7 +109780,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301233] = {
 		oxy_max = 0,
@@ -108598,7 +109904,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301234] = {
 		oxy_max = 0,
@@ -108720,7 +110028,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301241] = {
 		oxy_max = 0,
@@ -108842,7 +110152,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301242] = {
 		oxy_max = 0,
@@ -108964,7 +110276,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301243] = {
 		oxy_max = 0,
@@ -109086,7 +110400,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301244] = {
 		oxy_max = 0,
@@ -109208,7 +110524,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301251] = {
 		oxy_max = 0,
@@ -109330,7 +110648,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301252] = {
 		oxy_max = 0,
@@ -109452,7 +110772,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301253] = {
 		oxy_max = 0,
@@ -109574,7 +110896,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301254] = {
 		oxy_max = 0,
@@ -109696,7 +111020,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301261] = {
 		oxy_max = 0,
@@ -109818,7 +111144,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301262] = {
 		oxy_max = 0,
@@ -109940,7 +111268,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301263] = {
 		oxy_max = 0,
@@ -110062,7 +111392,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301264] = {
 		oxy_max = 0,
@@ -110184,7 +111516,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hatsuharu-Class"
+		}
 	},
 	[301271] = {
 		oxy_max = 0,
@@ -110306,7 +111640,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301272] = {
 		oxy_max = 0,
@@ -110428,7 +111764,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301273] = {
 		oxy_max = 0,
@@ -110550,7 +111888,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301274] = {
 		oxy_max = 0,
@@ -110672,7 +112012,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301281] = {
 		oxy_max = 0,
@@ -110794,7 +112136,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301282] = {
 		oxy_max = 0,
@@ -110916,7 +112260,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301283] = {
 		oxy_max = 0,
@@ -111038,7 +112384,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301284] = {
 		oxy_max = 0,
@@ -111160,7 +112508,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301301] = {
 		oxy_max = 0,
@@ -111282,7 +112632,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301302] = {
 		oxy_max = 0,
@@ -111404,7 +112756,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301303] = {
 		oxy_max = 0,
@@ -111526,7 +112880,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301304] = {
 		oxy_max = 0,
@@ -111648,7 +113004,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301311] = {
 		oxy_max = 0,
@@ -111770,7 +113128,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301312] = {
 		oxy_max = 0,
@@ -111892,7 +113252,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301313] = {
 		oxy_max = 0,
@@ -112014,7 +113376,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301314] = {
 		oxy_max = 0,
@@ -112136,7 +113500,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301321] = {
 		oxy_max = 0,
@@ -112258,7 +113624,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301322] = {
 		oxy_max = 0,
@@ -112380,7 +113748,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301323] = {
 		oxy_max = 0,
@@ -112502,7 +113872,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301324] = {
 		oxy_max = 0,
@@ -112624,7 +113996,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301331] = {
 		oxy_max = 0,
@@ -112746,7 +114120,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301332] = {
 		oxy_max = 0,
@@ -112868,7 +114244,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301333] = {
 		oxy_max = 0,
@@ -112990,7 +114368,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301334] = {
 		oxy_max = 0,
@@ -113112,7 +114492,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301351] = {
 		oxy_max = 0,
@@ -113234,7 +114616,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301352] = {
 		oxy_max = 0,
@@ -113356,7 +114740,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301353] = {
 		oxy_max = 0,
@@ -113478,7 +114864,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301354] = {
 		oxy_max = 0,
@@ -113600,7 +114988,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301371] = {
 		oxy_max = 0,
@@ -113722,7 +115112,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301372] = {
 		oxy_max = 0,
@@ -113844,7 +115236,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301373] = {
 		oxy_max = 0,
@@ -113966,7 +115360,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301374] = {
 		oxy_max = 0,
@@ -114088,7 +115484,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301381] = {
 		oxy_max = 0,
@@ -114210,7 +115608,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301382] = {
 		oxy_max = 0,
@@ -114332,7 +115732,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301383] = {
 		oxy_max = 0,
@@ -114454,7 +115856,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301384] = {
 		oxy_max = 0,
@@ -114576,7 +115980,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301391] = {
 		oxy_max = 0,
@@ -114698,7 +116104,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301392] = {
 		oxy_max = 0,
@@ -114820,7 +116228,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301393] = {
 		oxy_max = 0,
@@ -114942,7 +116352,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301394] = {
 		oxy_max = 0,
@@ -115064,7 +116476,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301411] = {
 		oxy_max = 0,
@@ -115186,7 +116600,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301412] = {
 		oxy_max = 0,
@@ -115308,7 +116724,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301413] = {
 		oxy_max = 0,
@@ -115430,7 +116848,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301414] = {
 		oxy_max = 0,
@@ -115552,7 +116972,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mutsuki-Class"
+		}
 	},
 	[301491] = {
 		oxy_max = 0,
@@ -115674,7 +117096,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301492] = {
 		oxy_max = 0,
@@ -115796,7 +117220,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301493] = {
 		oxy_max = 0,
@@ -115918,7 +117344,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301494] = {
 		oxy_max = 0,
@@ -116040,7 +117468,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
 	},
 	[301541] = {
 		oxy_max = 0,
@@ -116162,7 +117592,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301542] = {
 		oxy_max = 0,
@@ -116284,7 +117716,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301543] = {
 		oxy_max = 0,
@@ -116406,7 +117840,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301544] = {
 		oxy_max = 0,
@@ -116528,7 +117964,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301561] = {
 		oxy_max = 0,
@@ -116650,7 +118088,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301562] = {
 		oxy_max = 0,
@@ -116772,7 +118212,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301563] = {
 		oxy_max = 0,
@@ -116894,7 +118336,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301564] = {
 		oxy_max = 0,
@@ -117016,7 +118460,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301571] = {
 		oxy_max = 0,
@@ -117138,7 +118584,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301572] = {
 		oxy_max = 0,
@@ -117260,7 +118708,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301573] = {
 		oxy_max = 0,
@@ -117382,7 +118832,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301574] = {
 		oxy_max = 0,
@@ -117504,7 +118956,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301581] = {
 		oxy_max = 0,
@@ -117626,7 +119080,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301582] = {
 		oxy_max = 0,
@@ -117748,7 +119204,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301583] = {
 		oxy_max = 0,
@@ -117870,7 +119328,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301584] = {
 		oxy_max = 0,
@@ -117992,7 +119452,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301591] = {
 		oxy_max = 0,
@@ -118114,7 +119576,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301592] = {
 		oxy_max = 0,
@@ -118236,7 +119700,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301593] = {
 		oxy_max = 0,
@@ -118358,7 +119824,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301594] = {
 		oxy_max = 0,
@@ -118480,7 +119948,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301601] = {
 		oxy_max = 0,
@@ -118602,7 +120072,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301602] = {
 		oxy_max = 0,
@@ -118724,7 +120196,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301603] = {
 		oxy_max = 0,
@@ -118846,7 +120320,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301604] = {
 		oxy_max = 0,
@@ -118968,7 +120444,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301611] = {
 		oxy_max = 0,
@@ -119090,7 +120568,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class",
+			"Hamakaze"
+		}
 	},
 	[301612] = {
 		oxy_max = 0,
@@ -119212,7 +120693,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class",
+			"Hamakaze"
+		}
 	},
 	[301613] = {
 		oxy_max = 0,
@@ -119334,7 +120818,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class",
+			"Hamakaze"
+		}
 	},
 	[301614] = {
 		oxy_max = 0,
@@ -119456,7 +120943,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class",
+			"Hamakaze"
+		}
 	},
 	[301621] = {
 		oxy_max = 0,
@@ -119578,7 +121068,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301622] = {
 		oxy_max = 0,
@@ -119700,7 +121192,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301623] = {
 		oxy_max = 0,
@@ -119822,7 +121316,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301624] = {
 		oxy_max = 0,
@@ -119944,7 +121440,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kagero-Class"
+		}
 	},
 	[301631] = {
 		oxy_max = 0,
@@ -120067,6 +121565,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -120191,6 +121690,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -120315,6 +121815,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -120439,6 +121940,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -120563,6 +122065,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -120687,6 +122190,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -120811,6 +122315,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -120935,6 +122440,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -121059,6 +122565,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -121183,6 +122690,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -121307,6 +122815,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -121431,6 +122940,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -121555,6 +123065,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -121679,6 +123190,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -121803,6 +123315,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -121927,6 +123440,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"Division 8"
 		}
 	},
@@ -122546,7 +124060,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301792] = {
 		oxy_max = 0,
@@ -122668,7 +124184,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301793] = {
 		oxy_max = 0,
@@ -122790,7 +124308,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301794] = {
 		oxy_max = 0,
@@ -122912,7 +124432,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kamikaze-Class"
+		}
 	},
 	[301801] = {
 		oxy_max = 0,
@@ -123034,7 +124556,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301802] = {
 		oxy_max = 0,
@@ -123156,7 +124680,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301803] = {
 		oxy_max = 0,
@@ -123278,7 +124804,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301804] = {
 		oxy_max = 0,
@@ -123400,7 +124928,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301811] = {
 		oxy_max = 0,
@@ -123523,6 +125053,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"pupu"
 		}
 	},
@@ -123647,6 +125178,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"pupu"
 		}
 	},
@@ -123771,6 +125303,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"pupu"
 		}
 	},
@@ -123895,6 +125428,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Asashio-Class",
 			"pupu"
 		}
 	},
@@ -124018,7 +125552,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301822] = {
 		oxy_max = 0,
@@ -124140,7 +125676,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301823] = {
 		oxy_max = 0,
@@ -124262,7 +125800,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301824] = {
 		oxy_max = 0,
@@ -124384,7 +125924,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301831] = {
 		oxy_max = 0,
@@ -124506,7 +126048,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301832] = {
 		oxy_max = 0,
@@ -124628,7 +126172,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301833] = {
 		oxy_max = 0,
@@ -124750,7 +126296,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301834] = {
 		oxy_max = 0,
@@ -124872,7 +126420,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yugumo-Class"
+		}
 	},
 	[301841] = {
 		oxy_max = 0,
@@ -124994,7 +126544,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301842] = {
 		oxy_max = 0,
@@ -125116,7 +126668,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301843] = {
 		oxy_max = 0,
@@ -125238,7 +126792,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[301844] = {
 		oxy_max = 0,
@@ -125360,7 +126916,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akizuki-Class"
+		}
 	},
 	[302011] = {
 		oxy_max = 0,
@@ -125985,7 +127543,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302042] = {
 		oxy_max = 0,
@@ -126110,7 +127670,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302043] = {
 		oxy_max = 0,
@@ -126235,7 +127797,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302044] = {
 		oxy_max = 0,
@@ -126360,7 +127924,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302051] = {
 		oxy_max = 0,
@@ -126485,7 +128051,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302052] = {
 		oxy_max = 0,
@@ -126610,7 +128178,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302053] = {
 		oxy_max = 0,
@@ -126735,7 +128305,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302054] = {
 		oxy_max = 0,
@@ -126860,7 +128432,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302081] = {
 		oxy_max = 0,
@@ -126985,7 +128559,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302082] = {
 		oxy_max = 0,
@@ -127110,7 +128686,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302083] = {
 		oxy_max = 0,
@@ -127235,7 +128813,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302084] = {
 		oxy_max = 0,
@@ -127360,7 +128940,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302091] = {
 		oxy_max = 0,
@@ -127485,7 +129067,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302092] = {
 		oxy_max = 0,
@@ -127610,7 +129194,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302093] = {
 		oxy_max = 0,
@@ -127735,7 +129321,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302094] = {
 		oxy_max = 0,
@@ -127860,7 +129448,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagara-Class"
+		}
 	},
 	[302101] = {
 		oxy_max = 0,
@@ -127985,7 +129575,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[302102] = {
 		oxy_max = 0,
@@ -128110,7 +129702,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[302103] = {
 		oxy_max = 0,
@@ -128235,7 +129829,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[302104] = {
 		oxy_max = 0,
@@ -128360,7 +129956,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[302111] = {
 		oxy_max = 0,
@@ -128485,7 +130083,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[302112] = {
 		oxy_max = 0,
@@ -128610,7 +130210,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[302113] = {
 		oxy_max = 0,
@@ -128735,7 +130337,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[302114] = {
 		oxy_max = 0,
@@ -128860,7 +130464,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[302121] = {
 		oxy_max = 0,
@@ -128985,7 +130591,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302122] = {
 		oxy_max = 0,
@@ -129110,7 +130718,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302123] = {
 		oxy_max = 0,
@@ -129235,7 +130845,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302124] = {
 		oxy_max = 0,
@@ -129360,7 +130972,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302131] = {
 		oxy_max = 0,
@@ -129485,7 +131099,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302132] = {
 		oxy_max = 0,
@@ -129610,7 +131226,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302133] = {
 		oxy_max = 0,
@@ -129735,7 +131353,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302134] = {
 		oxy_max = 0,
@@ -129860,7 +131480,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302141] = {
 		oxy_max = 0,
@@ -129985,7 +131607,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302142] = {
 		oxy_max = 0,
@@ -130110,7 +131734,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302143] = {
 		oxy_max = 0,
@@ -130235,7 +131861,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302144] = {
 		oxy_max = 0,
@@ -130360,7 +131988,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sendai-Class"
+		}
 	},
 	[302201] = {
 		oxy_max = 0,
@@ -130485,7 +132115,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Agano-Class"
+		}
 	},
 	[302202] = {
 		oxy_max = 0,
@@ -130610,7 +132242,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Agano-Class"
+		}
 	},
 	[302203] = {
 		oxy_max = 0,
@@ -130735,7 +132369,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Agano-Class"
+		}
 	},
 	[302204] = {
 		oxy_max = 0,
@@ -130860,7 +132496,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Agano-Class"
+		}
 	},
 	[302211] = {
 		oxy_max = 0,
@@ -130985,7 +132623,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Agano-Class"
+		}
 	},
 	[302212] = {
 		oxy_max = 0,
@@ -131110,7 +132750,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Agano-Class"
+		}
 	},
 	[302213] = {
 		oxy_max = 0,
@@ -131235,7 +132877,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Agano-Class"
+		}
 	},
 	[302214] = {
 		oxy_max = 0,
@@ -131360,7 +133004,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Agano-Class"
+		}
 	},
 	[303011] = {
 		oxy_max = 0,
@@ -131484,7 +133130,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Furutaka-Class"
+		}
 	},
 	[303012] = {
 		oxy_max = 0,
@@ -131608,7 +133256,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Furutaka-Class"
+		}
 	},
 	[303013] = {
 		oxy_max = 0,
@@ -131732,7 +133382,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Furutaka-Class"
+		}
 	},
 	[303014] = {
 		oxy_max = 0,
@@ -131856,7 +133508,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Furutaka-Class"
+		}
 	},
 	[303021] = {
 		oxy_max = 0,
@@ -131980,7 +133634,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Furutaka-Class"
+		}
 	},
 	[303022] = {
 		oxy_max = 0,
@@ -132104,7 +133760,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Furutaka-Class"
+		}
 	},
 	[303023] = {
 		oxy_max = 0,
@@ -132228,7 +133886,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Furutaka-Class"
+		}
 	},
 	[303024] = {
 		oxy_max = 0,
@@ -132352,7 +134012,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Furutaka-Class"
+		}
 	},
 	[303031] = {
 		oxy_max = 0,
@@ -132476,7 +134138,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Aoba-Class"
+		}
 	},
 	[303032] = {
 		oxy_max = 0,
@@ -132600,7 +134264,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Aoba-Class"
+		}
 	},
 	[303033] = {
 		oxy_max = 0,
@@ -132724,7 +134390,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Aoba-Class"
+		}
 	},
 	[303034] = {
 		oxy_max = 0,
@@ -132848,7 +134516,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Aoba-Class"
+		}
 	},
 	[303041] = {
 		oxy_max = 0,
@@ -132972,7 +134642,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Aoba-Class"
+		}
 	},
 	[303042] = {
 		oxy_max = 0,
@@ -133096,7 +134768,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Aoba-Class"
+		}
 	},
 	[303043] = {
 		oxy_max = 0,
@@ -133220,7 +134894,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Aoba-Class"
+		}
 	},
 	[303044] = {
 		oxy_max = 0,
@@ -133344,7 +135020,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Aoba-Class"
+		}
 	},
 	[303071] = {
 		oxy_max = 0,
@@ -133468,7 +135146,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303072] = {
 		oxy_max = 0,
@@ -133592,7 +135272,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303073] = {
 		oxy_max = 0,
@@ -133716,7 +135398,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303074] = {
 		oxy_max = 0,
@@ -133840,7 +135524,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303081] = {
 		oxy_max = 0,
@@ -133964,7 +135650,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303082] = {
 		oxy_max = 0,
@@ -134088,7 +135776,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303083] = {
 		oxy_max = 0,
@@ -134212,7 +135902,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303084] = {
 		oxy_max = 0,
@@ -134336,7 +136028,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303091] = {
 		oxy_max = 0,
@@ -134460,7 +136154,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303092] = {
 		oxy_max = 0,
@@ -134584,7 +136280,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303093] = {
 		oxy_max = 0,
@@ -134708,7 +136406,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303094] = {
 		oxy_max = 0,
@@ -134832,7 +136532,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Myoko-Class"
+		}
 	},
 	[303111] = {
 		oxy_max = 0,
@@ -134956,7 +136658,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303112] = {
 		oxy_max = 0,
@@ -135080,7 +136784,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303113] = {
 		oxy_max = 0,
@@ -135204,7 +136910,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303114] = {
 		oxy_max = 0,
@@ -135328,7 +137036,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303121] = {
 		oxy_max = 0,
@@ -135452,7 +137162,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303122] = {
 		oxy_max = 0,
@@ -135576,7 +137288,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303123] = {
 		oxy_max = 0,
@@ -135700,7 +137414,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303124] = {
 		oxy_max = 0,
@@ -135824,7 +137540,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303131] = {
 		oxy_max = 0,
@@ -135948,7 +137666,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303132] = {
 		oxy_max = 0,
@@ -136072,7 +137792,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303133] = {
 		oxy_max = 0,
@@ -136196,7 +137918,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303134] = {
 		oxy_max = 0,
@@ -136320,7 +138044,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303141] = {
 		oxy_max = 0,
@@ -136444,7 +138170,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303142] = {
 		oxy_max = 0,
@@ -136568,7 +138296,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303143] = {
 		oxy_max = 0,
@@ -136692,7 +138422,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303144] = {
 		oxy_max = 0,
@@ -136816,7 +138548,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Takao-Class"
+		}
 	},
 	[303154] = {
 		oxy_max = 0,
@@ -136940,7 +138674,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[303171] = {
 		oxy_max = 0,
@@ -137064,7 +138800,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[303172] = {
 		oxy_max = 0,
@@ -137188,7 +138926,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[303173] = {
 		oxy_max = 0,
@@ -137312,7 +139052,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[303174] = {
 		oxy_max = 0,
@@ -137436,7 +139178,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[303181] = {
 		oxy_max = 0,
@@ -137560,7 +139304,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[303182] = {
 		oxy_max = 0,
@@ -137684,7 +139430,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[303183] = {
 		oxy_max = 0,
@@ -137808,7 +139556,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[303184] = {
 		oxy_max = 0,
@@ -137932,7 +139682,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mogami-Class"
+		}
 	},
 	[304011] = {
 		oxy_max = 0,
@@ -140037,7 +141789,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Amagi-Class"
+		}
 	},
 	[304052] = {
 		oxy_max = 0,
@@ -140158,7 +141912,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Amagi-Class"
+		}
 	},
 	[304053] = {
 		oxy_max = 0,
@@ -140279,7 +142035,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Amagi-Class"
+		}
 	},
 	[304054] = {
 		oxy_max = 0,
@@ -140400,7 +142158,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Amagi-Class"
+		}
 	},
 	[304061] = {
 		oxy_max = 0,
@@ -141018,7 +142778,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[305012] = {
 		oxy_max = 0,
@@ -141140,7 +142902,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[305013] = {
 		oxy_max = 0,
@@ -141262,7 +143026,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[305014] = {
 		oxy_max = 0,
@@ -141384,7 +143150,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[305021] = {
 		oxy_max = 0,
@@ -141506,7 +143274,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[305022] = {
 		oxy_max = 0,
@@ -141628,7 +143398,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[305023] = {
 		oxy_max = 0,
@@ -141750,7 +143522,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[305024] = {
 		oxy_max = 0,
@@ -141872,7 +143646,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[305031] = {
 		oxy_max = 0,
@@ -141994,7 +143770,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[305032] = {
 		oxy_max = 0,
@@ -142116,7 +143894,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[305033] = {
 		oxy_max = 0,
@@ -142238,7 +144018,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[305034] = {
 		oxy_max = 0,
@@ -142360,7 +144142,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[305041] = {
 		oxy_max = 0,
@@ -142482,7 +144266,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[305042] = {
 		oxy_max = 0,
@@ -142604,7 +144390,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[305043] = {
 		oxy_max = 0,
@@ -142726,7 +144514,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[305044] = {
 		oxy_max = 0,
@@ -142848,7 +144638,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[305051] = {
 		oxy_max = 0,
@@ -142970,7 +144762,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagato-Class",
+			"Big Seven"
+		}
 	},
 	[305052] = {
 		oxy_max = 0,
@@ -143092,7 +144887,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagato-Class",
+			"Big Seven"
+		}
 	},
 	[305053] = {
 		oxy_max = 0,
@@ -143214,7 +145012,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagato-Class",
+			"Big Seven"
+		}
 	},
 	[305054] = {
 		oxy_max = 0,
@@ -143336,7 +145137,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagato-Class",
+			"Big Seven"
+		}
 	},
 	[305061] = {
 		oxy_max = 0,
@@ -143458,7 +145262,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagato-Class",
+			"Big Seven"
+		}
 	},
 	[305062] = {
 		oxy_max = 0,
@@ -143580,7 +145387,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagato-Class",
+			"Big Seven"
+		}
 	},
 	[305063] = {
 		oxy_max = 0,
@@ -143702,7 +145512,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagato-Class",
+			"Big Seven"
+		}
 	},
 	[305064] = {
 		oxy_max = 0,
@@ -143824,7 +145637,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Nagato-Class",
+			"Big Seven"
+		}
 	},
 	[305071] = {
 		oxy_max = 0,
@@ -143945,7 +145761,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tosa-Class",
+			"Kaga"
+		}
 	},
 	[305072] = {
 		oxy_max = 0,
@@ -144066,7 +145885,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tosa-Class",
+			"Kaga"
+		}
 	},
 	[305073] = {
 		oxy_max = 0,
@@ -144187,7 +146009,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tosa-Class",
+			"Kaga"
+		}
 	},
 	[305074] = {
 		oxy_max = 0,
@@ -144308,7 +146133,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tosa-Class",
+			"Kaga"
+		}
 	},
 	[305081] = {
 		oxy_max = 0,
@@ -144430,7 +146258,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"tosa"
+			"Tosa-Class",
+			"Tosa"
 		}
 	},
 	[305082] = {
@@ -144553,7 +146382,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"tosa"
+			"Tosa-Class",
+			"Tosa"
 		}
 	},
 	[305083] = {
@@ -144676,7 +146506,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"tosa"
+			"Tosa-Class",
+			"Tosa"
 		}
 	},
 	[305084] = {
@@ -144799,7 +146630,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"tosa"
+			"Tosa-Class",
+			"Tosa"
 		}
 	},
 	[305111] = {
@@ -144922,7 +146754,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mikasa"
+		}
 	},
 	[305112] = {
 		oxy_max = 0,
@@ -145044,7 +146878,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mikasa"
+		}
 	},
 	[305113] = {
 		oxy_max = 0,
@@ -145166,7 +147002,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mikasa"
+		}
 	},
 	[305114] = {
 		oxy_max = 0,
@@ -145288,7 +147126,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Mikasa"
+		}
 	},
 	[305121] = {
 		oxy_max = 0,
@@ -145409,7 +147249,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kii-Class"
+		}
 	},
 	[305122] = {
 		oxy_max = 0,
@@ -145530,7 +147372,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kii-Class"
+		}
 	},
 	[305123] = {
 		oxy_max = 0,
@@ -145651,7 +147495,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kii-Class"
+		}
 	},
 	[305124] = {
 		oxy_max = 0,
@@ -145772,7 +147618,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kii-Class"
+		}
 	},
 	[305141] = {
 		oxy_max = 0,
@@ -145894,7 +147742,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"suruga"
+			"Kii-Class",
+			"Suruga"
 		}
 	},
 	[305142] = {
@@ -146017,7 +147866,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"suruga"
+			"Kii-Class",
+			"Suruga"
 		}
 	},
 	[305143] = {
@@ -146140,7 +147990,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"suruga"
+			"Kii-Class",
+			"Suruga"
 		}
 	},
 	[305144] = {
@@ -146263,7 +148114,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"suruga"
+			"Kii-Class",
+			"Suruga"
 		}
 	},
 	[306011] = {
@@ -146385,7 +148237,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hiyo-class"
+		}
 	},
 	[306012] = {
 		oxy_max = 0,
@@ -146506,7 +148360,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hiyo-class"
+		}
 	},
 	[306013] = {
 		oxy_max = 0,
@@ -146627,7 +148483,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hiyo-class"
+		}
 	},
 	[306014] = {
 		oxy_max = 0,
@@ -146748,7 +148606,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hiyo-class"
+		}
 	},
 	[306021] = {
 		oxy_max = 0,
@@ -146869,7 +148729,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hiyo-class"
+		}
 	},
 	[306022] = {
 		oxy_max = 0,
@@ -146990,7 +148852,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hiyo-class"
+		}
 	},
 	[306023] = {
 		oxy_max = 0,
@@ -147111,7 +148975,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hiyo-class"
+		}
 	},
 	[306024] = {
 		oxy_max = 0,
@@ -147232,7 +149098,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Hiyo-class"
+		}
 	},
 	[306031] = {
 		oxy_max = 0,
@@ -147837,7 +149705,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shouhou-Class"
+		}
 	},
 	[306052] = {
 		oxy_max = 0,
@@ -147958,7 +149828,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shouhou-Class"
+		}
 	},
 	[306053] = {
 		oxy_max = 0,
@@ -148079,7 +149951,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shouhou-Class"
+		}
 	},
 	[306054] = {
 		oxy_max = 0,
@@ -148200,7 +150074,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Shouhou-Class"
+		}
 	},
 	[306061] = {
 		oxy_max = 0,
@@ -148806,7 +150682,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"ryuhou"
+			"Ryuhou"
 		}
 	},
 	[306072] = {
@@ -148929,7 +150805,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"ryuhou"
+			"Ryuhou"
 		}
 	},
 	[306073] = {
@@ -149052,7 +150928,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"ryuhou"
+			"Ryuhou"
 		}
 	},
 	[306074] = {
@@ -149175,7 +151051,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"ryuhou"
+			"Ryuhou"
 		}
 	},
 	[306081] = {
@@ -149297,7 +151173,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zuihou-Class"
+		}
 	},
 	[306082] = {
 		oxy_max = 0,
@@ -149418,7 +151296,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zuihou-Class"
+		}
 	},
 	[306083] = {
 		oxy_max = 0,
@@ -149539,7 +151419,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zuihou-Class"
+		}
 	},
 	[306084] = {
 		oxy_max = 0,
@@ -149660,7 +151542,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zuihou-Class"
+		}
 	},
 	[306091] = {
 		oxy_max = 0,
@@ -149781,7 +151665,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zuihou-Class"
+		}
 	},
 	[306092] = {
 		oxy_max = 0,
@@ -149902,7 +151788,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zuihou-Class"
+		}
 	},
 	[306093] = {
 		oxy_max = 0,
@@ -150023,7 +151911,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zuihou-Class"
+		}
 	},
 	[306094] = {
 		oxy_max = 0,
@@ -150144,7 +152034,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zuihou-Class"
+		}
 	},
 	[307011] = {
 		oxy_max = 0,
@@ -150266,7 +152158,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Amagi-Class",
+			"1st-airfleet",
+			"Akagi"
+		}
 	},
 	[307012] = {
 		oxy_max = 0,
@@ -150388,7 +152284,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Amagi-Class",
+			"1st-airfleet",
+			"Akagi"
+		}
 	},
 	[307013] = {
 		oxy_max = 0,
@@ -150510,7 +152410,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Amagi-Class",
+			"1st-airfleet",
+			"Akagi"
+		}
 	},
 	[307014] = {
 		oxy_max = 0,
@@ -150632,7 +152536,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Amagi-Class",
+			"1st-airfleet",
+			"Akagi"
+		}
 	},
 	[307021] = {
 		oxy_max = 0,
@@ -150754,7 +152662,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tosa-Class",
+			"1st-airfleet",
+			"Kaga"
+		}
 	},
 	[307022] = {
 		oxy_max = 0,
@@ -150876,7 +152788,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tosa-Class",
+			"1st-airfleet",
+			"Kaga"
+		}
 	},
 	[307023] = {
 		oxy_max = 0,
@@ -150998,7 +152914,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tosa-Class",
+			"1st-airfleet",
+			"Kaga"
+		}
 	},
 	[307024] = {
 		oxy_max = 0,
@@ -151120,7 +153040,11 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Tosa-Class",
+			"1st-airfleet",
+			"Kaga"
+		}
 	},
 	[307031] = {
 		oxy_max = 0,
@@ -151242,7 +153166,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"2nd-airfleet",
+			"Souryu"
+		}
 	},
 	[307032] = {
 		oxy_max = 0,
@@ -151364,7 +153291,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"2nd-airfleet",
+			"Souryu"
+		}
 	},
 	[307033] = {
 		oxy_max = 0,
@@ -151486,7 +153416,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"2nd-airfleet",
+			"Souryu"
+		}
 	},
 	[307034] = {
 		oxy_max = 0,
@@ -151608,7 +153541,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"2nd-airfleet",
+			"Souryu"
+		}
 	},
 	[307041] = {
 		oxy_max = 0,
@@ -151730,7 +153666,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"2nd-airfleet",
+			"Hiryu"
+		}
 	},
 	[307042] = {
 		oxy_max = 0,
@@ -151852,7 +153791,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"2nd-airfleet",
+			"Hiryu"
+		}
 	},
 	[307043] = {
 		oxy_max = 0,
@@ -151974,7 +153916,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"2nd-airfleet",
+			"Hiryu"
+		}
 	},
 	[307044] = {
 		oxy_max = 0,
@@ -152096,7 +154041,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"2nd-airfleet",
+			"Hiryu"
+		}
 	},
 	[307051] = {
 		oxy_max = 0,
@@ -152218,7 +154166,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"5th-airfleet",
+			"Shokaku"
+		}
 	},
 	[307052] = {
 		oxy_max = 0,
@@ -152340,7 +154291,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"5th-airfleet",
+			"Shokaku"
+		}
 	},
 	[307053] = {
 		oxy_max = 0,
@@ -152462,7 +154416,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"5th-airfleet",
+			"Shokaku"
+		}
 	},
 	[307054] = {
 		oxy_max = 0,
@@ -152584,7 +154541,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"5th-airfleet",
+			"Shokaku"
+		}
 	},
 	[307061] = {
 		oxy_max = 0,
@@ -152706,7 +154666,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"5th-airfleet",
+			"Zuikaku"
+		}
 	},
 	[307062] = {
 		oxy_max = 0,
@@ -152828,7 +154791,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"5th-airfleet",
+			"Zuikaku"
+		}
 	},
 	[307063] = {
 		oxy_max = 0,
@@ -152950,7 +154916,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"5th-airfleet",
+			"Zuikaku"
+		}
 	},
 	[307064] = {
 		oxy_max = 0,
@@ -153072,7 +155041,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"5th-airfleet",
+			"Zuikaku"
+		}
 	},
 	[307071] = {
 		oxy_max = 0,
@@ -153194,7 +155166,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Armor-CV"
+		}
 	},
 	[307072] = {
 		oxy_max = 0,
@@ -153316,7 +155290,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Armor-CV"
+		}
 	},
 	[307073] = {
 		oxy_max = 0,
@@ -153438,7 +155414,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Armor-CV"
+		}
 	},
 	[307074] = {
 		oxy_max = 0,
@@ -153560,7 +155538,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Armor-CV"
+		}
 	},
 	[307081] = {
 		oxy_max = 0,
@@ -154179,7 +156159,10 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"special"
+			"Amagi-Class",
+			"1st-airfleet",
+			"special",
+			"Akagi"
 		}
 	},
 	[307092] = {
@@ -154303,7 +156286,10 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"special"
+			"Amagi-Class",
+			"1st-airfleet",
+			"special",
+			"Akagi"
 		}
 	},
 	[307093] = {
@@ -154427,7 +156413,10 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"special"
+			"Amagi-Class",
+			"1st-airfleet",
+			"special",
+			"Akagi"
 		}
 	},
 	[307094] = {
@@ -154551,7 +156540,10 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"special"
+			"Amagi-Class",
+			"1st-airfleet",
+			"special",
+			"Akagi"
 		}
 	},
 	[307101] = {
@@ -154675,8 +156667,11 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Amagi-Class",
+			"1st-airfleet",
 			"μ",
-			"special"
+			"special",
+			"Akagi"
 		}
 	},
 	[307102] = {
@@ -154800,8 +156795,11 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Amagi-Class",
+			"1st-airfleet",
 			"μ",
-			"special"
+			"special",
+			"Akagi"
 		}
 	},
 	[307103] = {
@@ -154925,8 +156923,11 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Amagi-Class",
+			"1st-airfleet",
 			"μ",
-			"special"
+			"special",
+			"Akagi"
 		}
 	},
 	[307104] = {
@@ -155050,8 +157051,11 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Amagi-Class",
+			"1st-airfleet",
 			"μ",
-			"special"
+			"special",
+			"Akagi"
 		}
 	},
 	[307111] = {
@@ -155175,6 +157179,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Armor-CV",
 			"μ",
 			"special"
 		}
@@ -155300,6 +157305,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Armor-CV",
 			"μ",
 			"special"
 		}
@@ -155425,6 +157431,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Armor-CV",
 			"μ",
 			"special"
 		}
@@ -155550,6 +157557,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Armor-CV",
 			"μ",
 			"special"
 		}
@@ -155791,7 +157799,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308012] = {
 		oxy_max = 200,
@@ -156030,7 +158040,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308013] = {
 		oxy_max = 200,
@@ -156269,7 +158281,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308014] = {
 		oxy_max = 200,
@@ -156508,7 +158522,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308021] = {
 		oxy_max = 218,
@@ -156739,7 +158755,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308022] = {
 		oxy_max = 218,
@@ -156970,7 +158988,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308023] = {
 		oxy_max = 218,
@@ -157201,7 +159221,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308024] = {
 		oxy_max = 218,
@@ -157432,7 +159454,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308031] = {
 		oxy_max = 268,
@@ -157667,7 +159691,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308032] = {
 		oxy_max = 268,
@@ -157902,7 +159928,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308033] = {
 		oxy_max = 268,
@@ -158137,7 +160165,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308034] = {
 		oxy_max = 268,
@@ -158372,7 +160402,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308041] = {
 		oxy_max = 218,
@@ -158603,7 +160635,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308042] = {
 		oxy_max = 218,
@@ -158834,7 +160868,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308043] = {
 		oxy_max = 218,
@@ -159065,7 +161101,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308044] = {
 		oxy_max = 218,
@@ -159296,7 +161334,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308051] = {
 		oxy_max = 248,
@@ -159531,7 +161571,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308052] = {
 		oxy_max = 248,
@@ -159766,7 +161808,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308053] = {
 		oxy_max = 248,
@@ -160001,7 +162045,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308054] = {
 		oxy_max = 248,
@@ -160236,7 +162282,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308061] = {
 		oxy_max = 195,
@@ -160475,7 +162523,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308062] = {
 		oxy_max = 195,
@@ -160714,7 +162764,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308063] = {
 		oxy_max = 195,
@@ -160953,7 +163005,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[308064] = {
 		oxy_max = 195,
@@ -161192,7 +163246,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[310014] = {
 		oxy_max = 0,
@@ -161313,7 +163369,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[310024] = {
 		oxy_max = 0,
@@ -161434,7 +163492,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Fuso-Class"
+		}
 	},
 	[310034] = {
 		oxy_max = 0,
@@ -161555,7 +163615,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[310044] = {
 		oxy_max = 0,
@@ -161676,7 +163738,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ise-Class"
+		}
 	},
 	[312011] = {
 		oxy_max = 0,
@@ -161808,7 +163872,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akashi"
+		}
 	},
 	[312012] = {
 		oxy_max = 0,
@@ -161940,7 +164006,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akashi"
+		}
 	},
 	[312013] = {
 		oxy_max = 0,
@@ -162072,7 +164140,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akashi"
+		}
 	},
 	[312014] = {
 		oxy_max = 0,
@@ -162204,7 +164274,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Akashi"
+		}
 	},
 	[317011] = {
 		oxy_max = 198,
@@ -162453,7 +164525,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[317012] = {
 		oxy_max = 198,
@@ -162702,7 +164776,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[317013] = {
 		oxy_max = 198,
@@ -162951,7 +165027,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[317014] = {
 		oxy_max = 198,
@@ -163200,7 +165278,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"I Type-submarine"
+		}
 	},
 	[319011] = {
 		oxy_max = 0,
@@ -167182,6 +169262,506 @@ pg.ship_data_statistics = {
 			"Z-Class"
 		}
 	},
+	[401241] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z24",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401241,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z24",
+		oxy_cost = 0,
+		skin_id = 401240,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			345,
+			22,
+			61,
+			28,
+			0,
+			73,
+			0,
+			64,
+			58,
+			43.2,
+			56,
+			49
+		},
+		attrs_growth = {
+			8425,
+			222,
+			608,
+			552,
+			0,
+			364,
+			0,
+			948,
+			864,
+			0,
+			0,
+			490
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class",
+			"Z24"
+		}
+	},
+	[401242] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z24",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401242,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z24",
+		oxy_cost = 0,
+		skin_id = 401240,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			429,
+			28,
+			76,
+			35,
+			0,
+			73,
+			0,
+			64,
+			58,
+			43.2,
+			56,
+			61
+		},
+		attrs_growth = {
+			8425,
+			222,
+			608,
+			552,
+			0,
+			364,
+			0,
+			948,
+			864,
+			0,
+			0,
+			490
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class",
+			"Z24"
+		}
+	},
+	[401243] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z24",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401243,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z24",
+		oxy_cost = 0,
+		skin_id = 401240,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			598,
+			39,
+			107,
+			49,
+			0,
+			73,
+			0,
+			64,
+			58,
+			43.2,
+			56,
+			86
+		},
+		attrs_growth = {
+			8425,
+			222,
+			608,
+			552,
+			0,
+			364,
+			0,
+			948,
+			864,
+			0,
+			0,
+			490
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class",
+			"Z24"
+		}
+	},
+	[401244] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z24",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401244,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z24",
+		oxy_cost = 0,
+		skin_id = 401240,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			851,
+			55,
+			152,
+			69,
+			0,
+			73,
+			0,
+			64,
+			58,
+			43.2,
+			56,
+			123
+		},
+		attrs_growth = {
+			8425,
+			222,
+			608,
+			552,
+			0,
+			364,
+			0,
+			948,
+			864,
+			0,
+			0,
+			490
+		},
+		attrs_growth_extra = {
+			7583,
+			513,
+			1190,
+			371,
+			0,
+			866,
+			0,
+			-556,
+			-607,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.2,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class",
+			"Z24"
+		}
+	},
 	[401251] = {
 		oxy_max = 0,
 		type = 1,
@@ -168172,6 +170752,506 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Z-Class"
+		}
+	},
+	[401281] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z28",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401281,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z28",
+		oxy_cost = 0,
+		skin_id = 401280,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			345,
+			14,
+			81,
+			27,
+			0,
+			76,
+			0,
+			61,
+			58,
+			43.2,
+			45,
+			48
+		},
+		attrs_growth = {
+			8420,
+			140,
+			800,
+			524,
+			0,
+			380,
+			0,
+			900,
+			852,
+			0,
+			0,
+			478
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class",
+			"Z28"
+		}
+	},
+	[401282] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z28",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401282,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z28",
+		oxy_cost = 0,
+		skin_id = 401280,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			429,
+			18,
+			101,
+			34,
+			0,
+			76,
+			0,
+			61,
+			58,
+			43.2,
+			45,
+			60
+		},
+		attrs_growth = {
+			8420,
+			140,
+			800,
+			524,
+			0,
+			380,
+			0,
+			900,
+			852,
+			0,
+			0,
+			478
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class",
+			"Z28"
+		}
+	},
+	[401283] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z28",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401283,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z28",
+		oxy_cost = 0,
+		skin_id = 401280,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			598,
+			25,
+			141,
+			47,
+			0,
+			76,
+			0,
+			61,
+			58,
+			43.2,
+			45,
+			84
+		},
+		attrs_growth = {
+			8420,
+			140,
+			800,
+			524,
+			0,
+			380,
+			0,
+			900,
+			852,
+			0,
+			0,
+			478
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class",
+			"Z28"
+		}
+	},
+	[401284] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Z28",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 401284,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Z28",
+		oxy_cost = 0,
+		skin_id = 401280,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			850,
+			35,
+			201,
+			66,
+			0,
+			76,
+			0,
+			61,
+			58,
+			43.2,
+			45,
+			120
+		},
+		attrs_growth = {
+			8420,
+			140,
+			800,
+			524,
+			0,
+			380,
+			0,
+			900,
+			852,
+			0,
+			0,
+			478
+		},
+		attrs_growth_extra = {
+			7569,
+			325,
+			1180,
+			354,
+			0,
+			895,
+			0,
+			-525,
+			-597,
+			0,
+			0,
+			449
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.2,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class",
+			"Z28"
 		}
 	},
 	[401351] = {
@@ -169785,7 +172865,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402012] = {
 		oxy_max = 0,
@@ -169910,7 +172992,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402013] = {
 		oxy_max = 0,
@@ -170035,7 +173119,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402014] = {
 		oxy_max = 0,
@@ -170160,7 +173246,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402021] = {
 		oxy_max = 0,
@@ -170285,7 +173373,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402022] = {
 		oxy_max = 0,
@@ -170410,7 +173500,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402023] = {
 		oxy_max = 0,
@@ -170535,7 +173627,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402024] = {
 		oxy_max = 0,
@@ -170660,7 +173754,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402031] = {
 		oxy_max = 0,
@@ -170785,7 +173881,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402032] = {
 		oxy_max = 0,
@@ -170910,7 +174008,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402033] = {
 		oxy_max = 0,
@@ -171035,7 +174135,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402034] = {
 		oxy_max = 0,
@@ -171160,7 +174262,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402134] = {
 		oxy_max = 0,
@@ -171285,7 +174389,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Konigsberg-Class"
+		}
 	},
 	[402041] = {
 		oxy_max = 0,
@@ -171410,7 +174516,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leipzig-Class"
+		}
 	},
 	[402042] = {
 		oxy_max = 0,
@@ -171535,7 +174643,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leipzig-Class"
+		}
 	},
 	[402043] = {
 		oxy_max = 0,
@@ -171660,7 +174770,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leipzig-Class"
+		}
 	},
 	[402044] = {
 		oxy_max = 0,
@@ -171785,7 +174897,517 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leipzig-Class"
+		}
+	},
+	[402051] = {
+		oxy_max = 0,
+		type = 2,
+		name = "뉘른베르크",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.23",
+		rarity = 4,
+		ammo = 0,
+		id = 402051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Nürnberg",
+		oxy_cost = 0,
+		skin_id = 402050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			655,
+			33,
+			57,
+			77,
+			0,
+			70,
+			0,
+			53,
+			28,
+			32,
+			80,
+			24
+		},
+		attrs_growth = {
+			15985,
+			322,
+			560,
+			1516,
+			0,
+			350,
+			0,
+			786,
+			408,
+			0,
+			0,
+			242
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			231
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.6,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Leipzig-Class"
+		}
+	},
+	[402052] = {
+		oxy_max = 0,
+		type = 2,
+		name = "뉘른베르크",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.23",
+		rarity = 4,
+		ammo = 0,
+		id = 402052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Nürnberg",
+		oxy_cost = 0,
+		skin_id = 402050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			815,
+			41,
+			71,
+			96,
+			0,
+			70,
+			0,
+			53,
+			28,
+			32,
+			80,
+			30
+		},
+		attrs_growth = {
+			15985,
+			322,
+			560,
+			1516,
+			0,
+			350,
+			0,
+			786,
+			408,
+			0,
+			0,
+			242
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			232
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.17,
+			1.62,
+			1.32,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Leipzig-Class"
+		}
+	},
+	[402053] = {
+		oxy_max = 0,
+		type = 2,
+		name = "뉘른베르크",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.23",
+		rarity = 4,
+		ammo = 0,
+		id = 402053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Nürnberg",
+		oxy_cost = 0,
+		skin_id = 402050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1135,
+			57,
+			99,
+			134,
+			0,
+			70,
+			0,
+			53,
+			28,
+			32,
+			80,
+			42
+		},
+		attrs_growth = {
+			15985,
+			322,
+			560,
+			1516,
+			0,
+			350,
+			0,
+			786,
+			408,
+			0,
+			0,
+			242
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			233
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Leipzig-Class"
+		}
+	},
+	[402054] = {
+		oxy_max = 0,
+		type = 2,
+		name = "뉘른베르크",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.23",
+		rarity = 4,
+		ammo = 0,
+		id = 402054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Nürnberg",
+		oxy_cost = 0,
+		skin_id = 402050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1614,
+			81,
+			141,
+			191,
+			0,
+			70,
+			0,
+			53,
+			28,
+			32,
+			80,
+			60
+		},
+		attrs_growth = {
+			15985,
+			322,
+			560,
+			1516,
+			0,
+			350,
+			0,
+			786,
+			408,
+			0,
+			0,
+			242
+		},
+		attrs_growth_extra = {
+			3994,
+			758,
+			1166,
+			440,
+			0,
+			828,
+			0,
+			164,
+			832,
+			0,
+			0,
+			335
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			234
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.7,
+			1.4,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Leipzig-Class"
+		}
 	},
 	[403011] = {
 		oxy_max = 0,
@@ -171909,7 +175531,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
 	},
 	[403012] = {
 		oxy_max = 0,
@@ -172033,7 +175657,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
 	},
 	[403013] = {
 		oxy_max = 0,
@@ -172157,7 +175783,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
 	},
 	[403014] = {
 		oxy_max = 0,
@@ -172281,7 +175909,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
 	},
 	[403031] = {
 		oxy_max = 0,
@@ -172405,7 +176035,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
 	},
 	[403032] = {
 		oxy_max = 0,
@@ -172529,7 +176161,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
 	},
 	[403033] = {
 		oxy_max = 0,
@@ -172653,7 +176287,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
 	},
 	[403034] = {
 		oxy_max = 0,
@@ -172777,7 +176413,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
 	},
 	[403041] = {
 		oxy_max = 0,
@@ -172901,7 +176539,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Deutschland-Class"
+		}
 	},
 	[403042] = {
 		oxy_max = 0,
@@ -173025,7 +176665,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Deutschland-Class"
+		}
 	},
 	[403043] = {
 		oxy_max = 0,
@@ -173149,7 +176791,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Deutschland-Class"
+		}
 	},
 	[403044] = {
 		oxy_max = 0,
@@ -173273,7 +176917,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Deutschland-Class"
+		}
 	},
 	[403051] = {
 		oxy_max = 0,
@@ -173397,7 +177043,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Deutschland-Class"
+		}
 	},
 	[403052] = {
 		oxy_max = 0,
@@ -173521,7 +177169,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Deutschland-Class"
+		}
 	},
 	[403053] = {
 		oxy_max = 0,
@@ -173645,7 +177295,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Deutschland-Class"
+		}
 	},
 	[403054] = {
 		oxy_max = 0,
@@ -173769,7 +177421,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Deutschland-Class"
+		}
 	},
 	[403071] = {
 		oxy_max = 0,
@@ -173894,6 +177548,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Admiral Hipper-Class",
 			"μ",
 			"special"
 		}
@@ -174021,6 +177676,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Admiral Hipper-Class",
 			"μ",
 			"special"
 		}
@@ -174148,6 +177804,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Admiral Hipper-Class",
 			"μ",
 			"special"
 		}
@@ -174275,6 +177932,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Admiral Hipper-Class",
 			"μ",
 			"special"
 		}
@@ -174403,7 +178061,7 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"roonμ",
+			"Roonμ",
 			"special"
 		}
 	},
@@ -174531,7 +178189,7 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"roonμ",
+			"Roonμ",
 			"special"
 		}
 	},
@@ -174659,7 +178317,7 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"roonμ",
+			"Roonμ",
 			"special"
 		}
 	},
@@ -174787,8 +178445,512 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"μ",
-			"roonμ",
+			"Roonμ",
 			"special"
+		}
+	},
+	[403091] = {
+		oxy_max = 0,
+		type = 3,
+		name = "프린츠 하인리히",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 403091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Prinz Heinrich",
+		oxy_cost = 0,
+		skin_id = 403090,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1022,
+			58,
+			45,
+			41,
+			0,
+			67,
+			0,
+			45,
+			11,
+			26.4,
+			50,
+			0
+		},
+		attrs_growth = {
+			24935,
+			572,
+			448,
+			796,
+			0,
+			334,
+			0,
+			672,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			331
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"P1"
+		}
+	},
+	[403092] = {
+		oxy_max = 0,
+		type = 3,
+		name = "프린츠 하인리히",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 403092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Prinz Heinrich",
+		oxy_cost = 0,
+		skin_id = 403090,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1271,
+			72,
+			56,
+			51,
+			0,
+			67,
+			0,
+			45,
+			11,
+			26.4,
+			50,
+			0
+		},
+		attrs_growth = {
+			24935,
+			572,
+			448,
+			796,
+			0,
+			334,
+			0,
+			672,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			436
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"P1"
+		}
+	},
+	[403093] = {
+		oxy_max = 0,
+		type = 3,
+		name = "프린츠 하인리히",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 403093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Prinz Heinrich",
+		oxy_cost = 0,
+		skin_id = 403090,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1770,
+			101,
+			79,
+			71,
+			0,
+			67,
+			0,
+			45,
+			11,
+			26.4,
+			50,
+			0
+		},
+		attrs_growth = {
+			24935,
+			572,
+			448,
+			796,
+			0,
+			334,
+			0,
+			672,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			436
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.3,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"P1"
+		}
+	},
+	[403094] = {
+		oxy_max = 0,
+		type = 3,
+		name = "프린츠 하인리히",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 403094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Prinz Heinrich",
+		oxy_cost = 0,
+		skin_id = 403090,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2518,
+			144,
+			112,
+			101,
+			0,
+			67,
+			0,
+			45,
+			11,
+			26.4,
+			50,
+			0
+		},
+		attrs_growth = {
+			24935,
+			572,
+			448,
+			796,
+			0,
+			334,
+			0,
+			672,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			6231,
+			1172,
+			1057,
+			547,
+			0,
+			791,
+			0,
+			-6,
+			1567,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			436
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.3,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"P1"
 		}
 	},
 	[404011] = {
@@ -174911,7 +179073,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Scharnhorst-Class"
+		}
 	},
 	[404012] = {
 		oxy_max = 0,
@@ -175033,7 +179197,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Scharnhorst-Class"
+		}
 	},
 	[404013] = {
 		oxy_max = 0,
@@ -175154,7 +179320,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Scharnhorst-Class"
+		}
 	},
 	[404014] = {
 		oxy_max = 0,
@@ -175275,7 +179443,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Scharnhorst-Class"
+		}
 	},
 	[404021] = {
 		oxy_max = 0,
@@ -175397,7 +179567,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Scharnhorst-Class"
+		}
 	},
 	[404022] = {
 		oxy_max = 0,
@@ -175519,7 +179691,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Scharnhorst-Class"
+		}
 	},
 	[404023] = {
 		oxy_max = 0,
@@ -175640,7 +179814,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Scharnhorst-Class"
+		}
 	},
 	[404024] = {
 		oxy_max = 0,
@@ -175761,7 +179937,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Scharnhorst-Class"
+		}
 	},
 	[405011] = {
 		oxy_max = 0,
@@ -175884,6 +180062,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Bismarck-Class",
 			"Bismarck"
 		}
 	},
@@ -176008,6 +180187,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Bismarck-Class",
 			"Bismarck"
 		}
 	},
@@ -176132,6 +180312,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Bismarck-Class",
 			"Bismarck"
 		}
 	},
@@ -176256,6 +180437,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Bismarck-Class",
 			"Bismarck"
 		}
 	},
@@ -176379,6 +180561,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Bismarck-Class",
 			"Tirpitz"
 		}
 	},
@@ -176502,6 +180685,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Bismarck-Class",
 			"Tirpitz"
 		}
 	},
@@ -176625,6 +180809,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Bismarck-Class",
 			"Tirpitz"
 		}
 	},
@@ -176748,7 +180933,500 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Bismarck-Class",
 			"Tirpitz"
+		}
+	},
+	[406011] = {
+		oxy_max = 0,
+		type = 6,
+		name = "베저",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 406011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Weser",
+		oxy_cost = 0,
+		skin_id = 406010,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			787,
+			0,
+			0,
+			49,
+			60,
+			66,
+			0,
+			29,
+			21,
+			32,
+			30,
+			17
+		},
+		attrs_growth = {
+			19190,
+			0,
+			0,
+			968,
+			598,
+			328,
+			0,
+			432,
+			312,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Weser"
+		}
+	},
+	[406012] = {
+		oxy_max = 0,
+		type = 6,
+		name = "베저",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 406012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Weser",
+		oxy_cost = 0,
+		skin_id = 406010,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			979,
+			0,
+			0,
+			61,
+			75,
+			66,
+			0,
+			29,
+			21,
+			32,
+			30,
+			21
+		},
+		attrs_growth = {
+			19190,
+			0,
+			0,
+			968,
+			598,
+			328,
+			0,
+			432,
+			312,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Weser"
+		}
+	},
+	[406013] = {
+		oxy_max = 0,
+		type = 6,
+		name = "베저",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 406013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Weser",
+		oxy_cost = 0,
+		skin_id = 406010,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1363,
+			0,
+			0,
+			85,
+			105,
+			66,
+			0,
+			29,
+			21,
+			32,
+			30,
+			30
+		},
+		attrs_growth = {
+			19190,
+			0,
+			0,
+			968,
+			598,
+			328,
+			0,
+			432,
+			312,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Weser"
+		}
+	},
+	[406014] = {
+		oxy_max = 0,
+		type = 6,
+		name = "베저",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 406014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Weser",
+		oxy_cost = 0,
+		skin_id = 406010,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1938,
+			0,
+			0,
+			122,
+			150,
+			66,
+			0,
+			29,
+			21,
+			32,
+			30,
+			43
+		},
+		attrs_growth = {
+			19190,
+			0,
+			0,
+			968,
+			598,
+			328,
+			0,
+			432,
+			312,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			13426,
+			0,
+			0,
+			613,
+			1187,
+			775,
+			0,
+			123,
+			643,
+			0,
+			0,
+			264
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Weser"
 		}
 	},
 	[407011] = {
@@ -176777,8 +181455,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			60,
-			76,
-			42,
+			81,
+			47,
 			0,
 			30,
 			14,
@@ -176791,8 +181469,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			1180,
-			752,
-			210,
+			798,
+			232,
 			0,
 			444,
 			204,
@@ -176871,7 +181549,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Graf Zeppelin-Class"
+		}
 	},
 	[407012] = {
 		oxy_max = 0,
@@ -176899,8 +181579,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			75,
-			95,
-			42,
+			101,
+			47,
 			0,
 			30,
 			14,
@@ -176913,8 +181593,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			1180,
-			752,
-			210,
+			798,
+			232,
 			0,
 			444,
 			204,
@@ -176993,7 +181673,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Graf Zeppelin-Class"
+		}
 	},
 	[407013] = {
 		oxy_max = 0,
@@ -177021,8 +181703,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			104,
-			132,
-			42,
+			141,
+			47,
 			0,
 			30,
 			14,
@@ -177035,8 +181717,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			1180,
-			752,
-			210,
+			798,
+			232,
 			0,
 			444,
 			204,
@@ -177115,7 +181797,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Graf Zeppelin-Class"
+		}
 	},
 	[407014] = {
 		oxy_max = 0,
@@ -177143,8 +181827,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			149,
-			189,
-			42,
+			201,
+			47,
 			0,
 			30,
 			14,
@@ -177157,8 +181841,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			1180,
-			752,
-			210,
+			798,
+			232,
 			0,
 			444,
 			204,
@@ -177171,8 +181855,8 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			592,
-			1200,
-			495,
+			1182,
+			548,
 			0,
 			0,
 			466,
@@ -177237,7 +181921,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Graf Zeppelin-Class"
+		}
 	},
 	[407021] = {
 		oxy_max = 0,
@@ -177359,6 +182045,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Graf Zeppelin-Class",
 			"special"
 		}
 	},
@@ -177482,6 +182169,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Graf Zeppelin-Class",
 			"special"
 		}
 	},
@@ -177605,6 +182293,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Graf Zeppelin-Class",
 			"special"
 		}
 	},
@@ -177728,7 +182417,504 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Graf Zeppelin-Class",
 			"special"
+		}
+	},
+	[407031] = {
+		oxy_max = 0,
+		type = 7,
+		name = "페터 슈트라서",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 407031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Peter Strasser",
+		oxy_cost = 0,
+		skin_id = 407030,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1317,
+			0,
+			0,
+			58,
+			81,
+			51,
+			0,
+			35,
+			14,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			32110,
+			0,
+			0,
+			1144,
+			798,
+			254,
+			0,
+			510,
+			204,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Graf Zeppelin-Class"
+		}
+	},
+	[407032] = {
+		oxy_max = 0,
+		type = 7,
+		name = "페터 슈트라서",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 407032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Peter Strasser",
+		oxy_cost = 0,
+		skin_id = 407030,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1638,
+			0,
+			0,
+			72,
+			101,
+			51,
+			0,
+			35,
+			14,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			32110,
+			0,
+			0,
+			1144,
+			798,
+			254,
+			0,
+			510,
+			204,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Graf Zeppelin-Class"
+		}
+	},
+	[407033] = {
+		oxy_max = 0,
+		type = 7,
+		name = "페터 슈트라서",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 407033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Peter Strasser",
+		oxy_cost = 0,
+		skin_id = 407030,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2280,
+			0,
+			0,
+			101,
+			141,
+			51,
+			0,
+			35,
+			14,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			32110,
+			0,
+			0,
+			1144,
+			798,
+			254,
+			0,
+			510,
+			204,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Graf Zeppelin-Class"
+		}
+	},
+	[407034] = {
+		oxy_max = 0,
+		type = 7,
+		name = "페터 슈트라서",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 407034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Peter Strasser",
+		oxy_cost = 0,
+		skin_id = 407030,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			3244,
+			0,
+			0,
+			144,
+			201,
+			51,
+			0,
+			35,
+			14,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			32110,
+			0,
+			0,
+			1144,
+			798,
+			254,
+			0,
+			510,
+			204,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			600,
+			1182,
+			601,
+			0,
+			-6,
+			466,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Graf Zeppelin-Class"
 		}
 	},
 	[408011] = {
@@ -177980,7 +183166,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408012] = {
 		oxy_max = 188,
@@ -178231,7 +183419,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408013] = {
 		oxy_max = 188,
@@ -178482,7 +183672,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408014] = {
 		oxy_max = 188,
@@ -178733,7 +183925,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408021] = {
 		oxy_max = 193,
@@ -178984,7 +184178,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408022] = {
 		oxy_max = 193,
@@ -179235,7 +184431,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408023] = {
 		oxy_max = 193,
@@ -179486,7 +184684,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408024] = {
 		oxy_max = 193,
@@ -179737,7 +184937,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408031] = {
 		oxy_max = 188,
@@ -179984,7 +185186,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408032] = {
 		oxy_max = 188,
@@ -180231,7 +185435,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408033] = {
 		oxy_max = 188,
@@ -180478,7 +185684,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408034] = {
 		oxy_max = 188,
@@ -180725,7 +185933,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408041] = {
 		oxy_max = 188,
@@ -180976,7 +186186,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408042] = {
 		oxy_max = 188,
@@ -181227,7 +186439,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408043] = {
 		oxy_max = 188,
@@ -181478,7 +186692,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408044] = {
 		oxy_max = 188,
@@ -181729,7 +186945,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408051] = {
 		oxy_max = 188,
@@ -181972,7 +187190,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408052] = {
 		oxy_max = 188,
@@ -182215,7 +187435,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408053] = {
 		oxy_max = 188,
@@ -182458,7 +187680,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408054] = {
 		oxy_max = 188,
@@ -182701,7 +187925,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408061] = {
 		oxy_max = 190,
@@ -182952,7 +188178,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408062] = {
 		oxy_max = 190,
@@ -183203,7 +188431,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408063] = {
 		oxy_max = 190,
@@ -183454,7 +188684,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408064] = {
 		oxy_max = 190,
@@ -183705,7 +188937,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408071] = {
 		oxy_max = 228,
@@ -183958,7 +189192,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408072] = {
 		oxy_max = 228,
@@ -184211,7 +189447,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408073] = {
 		oxy_max = 228,
@@ -184464,7 +189702,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408074] = {
 		oxy_max = 228,
@@ -184717,7 +189957,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408081] = {
 		oxy_max = 208,
@@ -184960,7 +190202,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408082] = {
 		oxy_max = 208,
@@ -185203,7 +190447,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408083] = {
 		oxy_max = 208,
@@ -185446,7 +190692,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408084] = {
 		oxy_max = 208,
@@ -185689,7 +190937,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408091] = {
 		oxy_max = 188,
@@ -185940,7 +191190,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408092] = {
 		oxy_max = 188,
@@ -186191,7 +191443,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408093] = {
 		oxy_max = 188,
@@ -186442,7 +191696,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[408094] = {
 		oxy_max = 188,
@@ -186693,7 +191949,1021 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"U-boat"
+		}
+	},
+	[408101] = {
+		oxy_max = 218,
+		type = 8,
+		name = "U-37",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 408101,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-37",
+		oxy_cost = 10,
+		skin_id = 408100,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			250,
+			8,
+			104,
+			0,
+			0,
+			41,
+			0,
+			61,
+			7,
+			14.4,
+			72,
+			0
+		},
+		attrs_growth = {
+			6105,
+			84,
+			1030,
+			0,
+			0,
+			202,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					0
+				},
+				{
+					-3,
+					2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"U-boat"
+		}
+	},
+	[408102] = {
+		oxy_max = 218,
+		type = 8,
+		name = "U-37",
+		huntingrange_level = 1,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 408102,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-37",
+		oxy_cost = 10,
+		skin_id = 408100,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			311,
+			10,
+			130,
+			0,
+			0,
+			41,
+			0,
+			61,
+			7,
+			14.4,
+			72,
+			0
+		},
+		attrs_growth = {
+			6105,
+			84,
+			1030,
+			0,
+			0,
+			202,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					0
+				},
+				{
+					-3,
+					2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"U-boat"
+		}
+	},
+	[408103] = {
+		oxy_max = 218,
+		type = 8,
+		name = "U-37",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 408103,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-37",
+		oxy_cost = 10,
+		skin_id = 408100,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			433,
+			14,
+			181,
+			0,
+			0,
+			41,
+			0,
+			61,
+			7,
+			14.4,
+			72,
+			0
+		},
+		attrs_growth = {
+			6105,
+			84,
+			1030,
+			0,
+			0,
+			202,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					0
+				},
+				{
+					-3,
+					2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"U-boat"
+		}
+	},
+	[408104] = {
+		oxy_max = 218,
+		type = 8,
+		name = "U-37",
+		huntingrange_level = 2,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 408104,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-37",
+		oxy_cost = 10,
+		skin_id = 408100,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			616,
+			21,
+			259,
+			0,
+			0,
+			41,
+			0,
+			61,
+			7,
+			14.4,
+			72,
+			0
+		},
+		attrs_growth = {
+			6105,
+			84,
+			1030,
+			0,
+			0,
+			202,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			6095,
+			194,
+			1285,
+			0,
+			0,
+			473,
+			0,
+			-1,
+			777,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					0
+				},
+				{
+					-3,
+					2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"U-boat"
+		}
 	},
 	[501011] = {
 		oxy_max = 0,
@@ -188816,7 +195086,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yat sen"
+		}
 	},
 	[502012] = {
 		oxy_max = 0,
@@ -188939,7 +195211,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yat sen"
+		}
 	},
 	[502013] = {
 		oxy_max = 0,
@@ -189062,7 +195336,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yat sen"
+		}
 	},
 	[502014] = {
 		oxy_max = 0,
@@ -189185,7 +195461,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yat sen"
+		}
 	},
 	[502021] = {
 		oxy_max = 0,
@@ -189310,7 +195588,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ning Hai-Class",
+			"Ning Hai"
+		}
 	},
 	[502022] = {
 		oxy_max = 0,
@@ -189435,7 +195716,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ning Hai-Class",
+			"Ning Hai"
+		}
 	},
 	[502023] = {
 		oxy_max = 0,
@@ -189560,7 +195844,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ning Hai-Class",
+			"Ning Hai"
+		}
 	},
 	[502024] = {
 		oxy_max = 0,
@@ -189685,7 +195972,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ning Hai-Class",
+			"Ning Hai"
+		}
 	},
 	[502031] = {
 		oxy_max = 0,
@@ -189810,7 +196100,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ning Hai-Class",
+			"Ping Hai"
+		}
 	},
 	[502032] = {
 		oxy_max = 0,
@@ -189935,7 +196228,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ning Hai-Class",
+			"Ping Hai"
+		}
 	},
 	[502033] = {
 		oxy_max = 0,
@@ -190060,7 +196356,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ning Hai-Class",
+			"Ping Hai"
+		}
 	},
 	[502034] = {
 		oxy_max = 0,
@@ -190185,7 +196484,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Ning Hai-Class",
+			"Ping Hai"
+		}
 	},
 	[601021] = {
 		oxy_max = 0,
@@ -190307,7 +196609,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Soldati-Class"
+		}
 	},
 	[601022] = {
 		oxy_max = 0,
@@ -190429,7 +196733,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Soldati-Class"
+		}
 	},
 	[601023] = {
 		oxy_max = 0,
@@ -190551,7 +196857,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Soldati-Class"
+		}
 	},
 	[601024] = {
 		oxy_max = 0,
@@ -190673,7 +196981,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Soldati-Class"
+		}
 	},
 	[603011] = {
 		oxy_max = 0,
@@ -190797,7 +197107,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Trento-Class"
+		}
 	},
 	[603012] = {
 		oxy_max = 0,
@@ -190921,7 +197233,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Trento-Class"
+		}
 	},
 	[603013] = {
 		oxy_max = 0,
@@ -191045,7 +197359,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Trento-Class"
+		}
 	},
 	[603014] = {
 		oxy_max = 0,
@@ -191169,7 +197485,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Trento-Class"
+		}
 	},
 	[603021] = {
 		oxy_max = 0,
@@ -191292,7 +197610,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Zara"
+			"Zara",
+			"Zara-Class"
 		}
 	},
 	[603022] = {
@@ -191416,7 +197735,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Zara"
+			"Zara",
+			"Zara-Class"
 		}
 	},
 	[603023] = {
@@ -191540,7 +197860,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Zara"
+			"Zara",
+			"Zara-Class"
 		}
 	},
 	[603024] = {
@@ -191664,7 +197985,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Zara"
+			"Zara",
+			"Zara-Class"
 		}
 	},
 	[605021] = {
@@ -191787,7 +198109,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Vittorio Veneto-Class"
+		}
 	},
 	[605022] = {
 		oxy_max = 0,
@@ -191909,7 +198233,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Vittorio Veneto-Class"
+		}
 	},
 	[605023] = {
 		oxy_max = 0,
@@ -192031,7 +198357,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Vittorio Veneto-Class"
+		}
 	},
 	[605024] = {
 		oxy_max = 0,
@@ -192153,7 +198481,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Vittorio Veneto-Class"
+		}
 	},
 	[605051] = {
 		oxy_max = 0,
@@ -192274,7 +198604,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Conte di Cavour-Class"
+		}
 	},
 	[605052] = {
 		oxy_max = 0,
@@ -192395,7 +198727,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Conte di Cavour-Class"
+		}
 	},
 	[605053] = {
 		oxy_max = 0,
@@ -192516,7 +198850,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Conte di Cavour-Class"
+		}
 	},
 	[605054] = {
 		oxy_max = 0,
@@ -192637,7 +198973,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Conte di Cavour-Class"
+		}
 	},
 	[605061] = {
 		oxy_max = 0,
@@ -192758,7 +199096,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Conte di Cavour-Class"
+		}
 	},
 	[605062] = {
 		oxy_max = 0,
@@ -192879,7 +199219,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Conte di Cavour-Class"
+		}
 	},
 	[605063] = {
 		oxy_max = 0,
@@ -193000,7 +199342,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Conte di Cavour-Class"
+		}
 	},
 	[605064] = {
 		oxy_max = 0,
@@ -193121,7 +199465,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Conte di Cavour-Class"
+		}
 	},
 	[701021] = {
 		oxy_max = 0,
@@ -193243,7 +199589,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
 	},
 	[701022] = {
 		oxy_max = 0,
@@ -193365,7 +199714,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
 	},
 	[701023] = {
 		oxy_max = 0,
@@ -193487,7 +199839,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
 	},
 	[701024] = {
 		oxy_max = 0,
@@ -193609,7 +199964,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
 	},
 	[701031] = {
 		oxy_max = 0,
@@ -193731,7 +200089,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leningrad-Class",
+			"Northern Union-DD"
+		}
 	},
 	[701032] = {
 		oxy_max = 0,
@@ -193853,7 +200214,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leningrad-Class",
+			"Northern Union-DD"
+		}
 	},
 	[701033] = {
 		oxy_max = 0,
@@ -193975,7 +200339,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leningrad-Class",
+			"Northern Union-DD"
+		}
 	},
 	[701034] = {
 		oxy_max = 0,
@@ -194097,7 +200464,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Leningrad-Class",
+			"Northern Union-DD"
+		}
 	},
 	[701041] = {
 		oxy_max = 0,
@@ -194220,7 +200590,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Tashkent"
+			"Tashkent",
+			"Northern Union-DD"
 		}
 	},
 	[701042] = {
@@ -194344,7 +200715,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Tashkent"
+			"Tashkent",
+			"Northern Union-DD"
 		}
 	},
 	[701043] = {
@@ -194468,7 +200840,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Tashkent"
+			"Tashkent",
+			"Northern Union-DD"
 		}
 	},
 	[701044] = {
@@ -194592,7 +200965,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Tashkent"
+			"Tashkent",
+			"Northern Union-DD"
 		}
 	},
 	[701051] = {
@@ -194717,6 +201091,7 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Tashkent",
+			"Northern Union-DD",
 			"μ",
 			"special"
 		}
@@ -194843,6 +201218,7 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Tashkent",
+			"Northern Union-DD",
 			"μ",
 			"special"
 		}
@@ -194969,6 +201345,7 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Tashkent",
+			"Northern Union-DD",
 			"μ",
 			"special"
 		}
@@ -195095,6 +201472,7 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Tashkent",
+			"Northern Union-DD",
 			"μ",
 			"special"
 		}
@@ -195222,7 +201600,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northern Union-CL"
+		}
 	},
 	[702012] = {
 		oxy_max = 0,
@@ -195347,7 +201727,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northern Union-CL"
+		}
 	},
 	[702013] = {
 		oxy_max = 0,
@@ -195472,7 +201854,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northern Union-CL"
+		}
 	},
 	[702014] = {
 		oxy_max = 0,
@@ -195597,7 +201981,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northern Union-CL"
+		}
 	},
 	[702021] = {
 		oxy_max = 0,
@@ -195722,7 +202108,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northern Union-CL"
+		}
 	},
 	[702022] = {
 		oxy_max = 0,
@@ -195847,7 +202235,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northern Union-CL"
+		}
 	},
 	[702023] = {
 		oxy_max = 0,
@@ -195972,7 +202362,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northern Union-CL"
+		}
 	},
 	[702024] = {
 		oxy_max = 0,
@@ -196097,7 +202489,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Northern Union-CL"
+		}
 	},
 	[702031] = {
 		oxy_max = 0,
@@ -196220,7 +202614,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Chapayev-Class",
+			"Northern Union-CL"
+		}
 	},
 	[702032] = {
 		oxy_max = 0,
@@ -196343,7 +202740,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Chapayev-Class",
+			"Northern Union-CL"
+		}
 	},
 	[702033] = {
 		oxy_max = 0,
@@ -196466,7 +202866,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Chapayev-Class",
+			"Northern Union-CL"
+		}
 	},
 	[702034] = {
 		oxy_max = 0,
@@ -196589,7 +202992,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Chapayev-Class",
+			"Northern Union-CL"
+		}
 	},
 	[705011] = {
 		oxy_max = 0,
@@ -196711,7 +203117,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gangut-Class",
+			"Northern Union-BB"
+		}
 	},
 	[705012] = {
 		oxy_max = 0,
@@ -196833,7 +203242,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gangut-Class",
+			"Northern Union-BB"
+		}
 	},
 	[705013] = {
 		oxy_max = 0,
@@ -196955,7 +203367,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gangut-Class",
+			"Northern Union-BB"
+		}
 	},
 	[705014] = {
 		oxy_max = 0,
@@ -197077,7 +203492,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Gangut-Class",
+			"Northern Union-BB"
+		}
 	},
 	[705051] = {
 		oxy_max = 0,
@@ -197199,7 +203617,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sovetsky Soyuz-Class",
+			"Northern Union-BB"
+		}
 	},
 	[705052] = {
 		oxy_max = 0,
@@ -197321,7 +203742,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sovetsky Soyuz-Class",
+			"Northern Union-BB"
+		}
 	},
 	[705053] = {
 		oxy_max = 0,
@@ -197443,7 +203867,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sovetsky Soyuz-Class",
+			"Northern Union-BB"
+		}
 	},
 	[705054] = {
 		oxy_max = 0,
@@ -197565,7 +203992,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Sovetsky Soyuz-Class",
+			"Northern Union-BB"
+		}
 	},
 	[801011] = {
 		oxy_max = 0,
@@ -197687,7 +204117,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Fantasque-Class"
+		}
 	},
 	[801012] = {
 		oxy_max = 0,
@@ -197809,7 +204241,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Fantasque-Class"
+		}
 	},
 	[801013] = {
 		oxy_max = 0,
@@ -197931,7 +204365,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Fantasque-Class"
+		}
 	},
 	[801014] = {
 		oxy_max = 0,
@@ -198053,7 +204489,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Fantasque-Class"
+		}
 	},
 	[801021] = {
 		oxy_max = 0,
@@ -198175,7 +204613,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"L'Adroit-Class"
+		}
 	},
 	[801022] = {
 		oxy_max = 0,
@@ -198297,7 +204737,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"L'Adroit-Class"
+		}
 	},
 	[801023] = {
 		oxy_max = 0,
@@ -198419,7 +204861,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"L'Adroit-Class"
+		}
 	},
 	[801024] = {
 		oxy_max = 0,
@@ -198541,7 +204985,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"L'Adroit-Class"
+		}
 	},
 	[801031] = {
 		oxy_max = 0,
@@ -198663,7 +205109,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Hardi-Class"
+		}
 	},
 	[801032] = {
 		oxy_max = 0,
@@ -198785,7 +205233,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Hardi-Class"
+		}
 	},
 	[801033] = {
 		oxy_max = 0,
@@ -198907,7 +205357,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Hardi-Class"
+		}
 	},
 	[801034] = {
 		oxy_max = 0,
@@ -199029,7 +205481,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Hardi-Class"
+		}
 	},
 	[801041] = {
 		oxy_max = 0,
@@ -199151,7 +205605,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Hardi-Class"
+		}
 	},
 	[801042] = {
 		oxy_max = 0,
@@ -199273,7 +205729,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Hardi-Class"
+		}
 	},
 	[801043] = {
 		oxy_max = 0,
@@ -199395,7 +205853,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Hardi-Class"
+		}
 	},
 	[801044] = {
 		oxy_max = 0,
@@ -199517,7 +205977,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Hardi-Class"
+		}
 	},
 	[802011] = {
 		oxy_max = 0,
@@ -200647,7 +207109,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Richelieu-Class"
+		}
 	},
 	[805012] = {
 		oxy_max = 0,
@@ -200769,7 +207233,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Richelieu-Class"
+		}
 	},
 	[805013] = {
 		oxy_max = 0,
@@ -200891,7 +207357,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Richelieu-Class"
+		}
 	},
 	[805014] = {
 		oxy_max = 0,
@@ -201013,7 +207481,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Richelieu-Class"
+		}
 	},
 	[807011] = {
 		oxy_max = 0,
@@ -202603,7 +209073,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"L'Adroit-Class"
+		}
 	},
 	[901012] = {
 		oxy_max = 0,
@@ -202725,7 +209197,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"L'Adroit-Class"
+		}
 	},
 	[901013] = {
 		oxy_max = 0,
@@ -202847,7 +209321,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"L'Adroit-Class"
+		}
 	},
 	[901014] = {
 		oxy_max = 0,
@@ -202969,7 +209445,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"L'Adroit-Class"
+		}
 	},
 	[901021] = {
 		oxy_max = 0,
@@ -203092,7 +209570,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"vauquelin-class"
+			"Vauquelin-Class"
 		}
 	},
 	[901022] = {
@@ -203216,7 +209694,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"vauquelin-class"
+			"Vauquelin-Class"
 		}
 	},
 	[901023] = {
@@ -203340,7 +209818,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"vauquelin-class"
+			"Vauquelin-Class"
 		}
 	},
 	[901024] = {
@@ -203464,7 +209942,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"vauquelin-class"
+			"Vauquelin-Class"
 		}
 	},
 	[901031] = {
@@ -203588,7 +210066,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"vauquelin-class"
+			"Vauquelin-Class"
 		}
 	},
 	[901032] = {
@@ -203712,7 +210190,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"vauquelin-class"
+			"Vauquelin-Class"
 		}
 	},
 	[901033] = {
@@ -203836,7 +210314,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"vauquelin-class"
+			"Vauquelin-Class"
 		}
 	},
 	[901034] = {
@@ -203960,7 +210438,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"vauquelin-class"
+			"Vauquelin-Class"
 		}
 	},
 	[901111] = {
@@ -204083,7 +210561,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Fantasque-Class"
+		}
 	},
 	[901112] = {
 		oxy_max = 0,
@@ -204205,7 +210685,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Fantasque-Class"
+		}
 	},
 	[901113] = {
 		oxy_max = 0,
@@ -204327,7 +210809,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Fantasque-Class"
+		}
 	},
 	[901114] = {
 		oxy_max = 0,
@@ -204449,7 +210933,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Le Fantasque-Class"
+		}
 	},
 	[901121] = {
 		oxy_max = 0,
@@ -204572,6 +211058,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Le Fantasque-Class",
 			"μ",
 			"special"
 		}
@@ -204697,6 +211184,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Le Fantasque-Class",
 			"μ",
 			"special"
 		}
@@ -204822,6 +211310,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Le Fantasque-Class",
 			"μ",
 			"special"
 		}
@@ -204947,6 +211436,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Le Fantasque-Class",
 			"μ",
 			"special"
 		}
@@ -205074,7 +211564,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"La Galissonnière-Class"
+		}
 	},
 	[902012] = {
 		oxy_max = 0,
@@ -205199,7 +211691,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"La Galissonnière-Class"
+		}
 	},
 	[902013] = {
 		oxy_max = 0,
@@ -205324,7 +211818,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"La Galissonnière-Class"
+		}
 	},
 	[902014] = {
 		oxy_max = 0,
@@ -205449,7 +211945,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"La Galissonnière-Class"
+		}
 	},
 	[903021] = {
 		oxy_max = 0,
@@ -206067,7 +212565,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dunkerque-Class"
+		}
 	},
 	[904012] = {
 		oxy_max = 0,
@@ -206189,7 +212689,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dunkerque-Class"
+		}
 	},
 	[904013] = {
 		oxy_max = 0,
@@ -206311,7 +212813,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dunkerque-Class"
+		}
 	},
 	[904014] = {
 		oxy_max = 0,
@@ -206433,7 +212937,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dunkerque-Class"
+		}
 	},
 	[905011] = {
 		oxy_max = 0,
@@ -206555,7 +213061,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Richelieu-Class"
+		}
 	},
 	[905012] = {
 		oxy_max = 0,
@@ -206677,7 +213185,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Richelieu-Class"
+		}
 	},
 	[905013] = {
 		oxy_max = 0,
@@ -206799,7 +213309,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Richelieu-Class"
+		}
 	},
 	[905014] = {
 		oxy_max = 0,
@@ -206921,7 +213433,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Richelieu-Class"
+		}
 	},
 	[905031] = {
 		oxy_max = 0,
@@ -207044,6 +213558,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Richelieu-Class",
 			"μ",
 			"special"
 		}
@@ -207169,6 +213684,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Richelieu-Class",
 			"μ",
 			"special"
 		}
@@ -207294,6 +213810,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Richelieu-Class",
 			"μ",
 			"special"
 		}
@@ -207419,6 +213936,7 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
+			"Richelieu-Class",
 			"μ",
 			"special"
 		}
@@ -231279,9 +237797,7 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {
-			"Jersey Skill"
-		}
+		tag_list = {}
 	},
 	[900242] = {
 		oxy_max = 0,
@@ -231403,9 +237919,7 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {
-			"Z-Class"
-		}
+		tag_list = {}
 	},
 	[900243] = {
 		oxy_max = 0,
@@ -231527,10 +238041,7 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {
-			"Special Type",
-			"Division 6"
-		}
+		tag_list = {}
 	},
 	[900244] = {
 		oxy_max = 0,
@@ -231651,9 +238162,7 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {
-			"Tirpitz"
-		}
+		tag_list = {}
 	},
 	[900245] = {
 		oxy_max = 0,
@@ -232749,9 +239258,7 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {
-			"KGV"
-		}
+		tag_list = {}
 	},
 	[900254] = {
 		oxy_max = 0,
@@ -233849,9 +240356,7 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {
-			"KGV"
-		}
+		tag_list = {}
 	},
 	[900263] = {
 		oxy_max = 0,
@@ -234217,9 +240722,7 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {
-			"Formidable"
-		}
+		tag_list = {}
 	},
 	[900266] = {
 		oxy_max = 0,
@@ -235187,6 +241690,128 @@ pg.ship_data_statistics = {
 			1.35,
 			1.4,
 			0.55
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900274] = {
+		oxy_max = 0,
+		type = 5,
+		name = "하우",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 900274,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Howe",
+		oxy_cost = 0,
+		skin_id = 205090,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1282100,
+			60,
+			0,
+			9999,
+			0,
+			13,
+			0,
+			28,
+			20,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			32540,
+			804,
+			0,
+			948,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17892,
+			877,
+			0,
+			610,
+			0,
+			685,
+			0,
+			240,
+			677,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			960008,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			1
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -240111,7 +246736,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"VertGH"
+		}
 	},
 	[10100042] = {
 		oxy_max = 0,
@@ -240233,7 +246860,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"VertGH"
+		}
 	},
 	[10100043] = {
 		oxy_max = 0,
@@ -240355,7 +246984,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"VertGH"
+		}
 	},
 	[10100044] = {
 		oxy_max = 0,
@@ -240477,7 +247108,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"VertGH"
+		}
 	},
 	[10100051] = {
 		oxy_max = 0,
@@ -242083,7 +248716,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"VertGH"
+		}
 	},
 	[10100082] = {
 		oxy_max = 0,
@@ -242205,7 +248840,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"VertGH"
+		}
 	},
 	[10100083] = {
 		oxy_max = 0,
@@ -242327,7 +248964,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"VertGH"
+		}
 	},
 	[10100084] = {
 		oxy_max = 0,
@@ -242449,7 +249088,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"VertGH"
+		}
 	},
 	[10300011] = {
 		oxy_max = 0,
@@ -244054,7 +250695,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Uruuru"
+		}
 	},
 	[10300042] = {
 		oxy_max = 0,
@@ -244175,7 +250818,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Uruuru"
+		}
 	},
 	[10300043] = {
 		oxy_max = 0,
@@ -244296,7 +250941,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Uruuru"
+		}
 	},
 	[10300044] = {
 		oxy_max = 0,
@@ -244417,7 +251064,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Uruuru"
+		}
 	},
 	[10300051] = {
 		oxy_max = 0,
@@ -244538,7 +251187,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Saraana"
+		}
 	},
 	[10300052] = {
 		oxy_max = 0,
@@ -244659,7 +251310,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Saraana"
+		}
 	},
 	[10300053] = {
 		oxy_max = 0,
@@ -244780,7 +251433,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Saraana"
+		}
 	},
 	[10300054] = {
 		oxy_max = 0,
@@ -244901,7 +251556,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Saraana"
+		}
 	},
 	[10300061] = {
 		oxy_max = 0,
@@ -254930,7 +261587,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299012] = {
 		oxy_max = 0,
@@ -255055,7 +261714,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299013] = {
 		oxy_max = 0,
@@ -255180,7 +261841,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299014] = {
 		oxy_max = 0,
@@ -255305,7 +261968,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299021] = {
 		oxy_max = 0,
@@ -255428,7 +262093,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"Plan-Class",
+			"KGV-Class"
 		}
 	},
 	[299022] = {
@@ -255552,7 +262218,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"Plan-Class",
+			"KGV-Class"
 		}
 	},
 	[299023] = {
@@ -255676,7 +262343,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"Plan-Class",
+			"KGV-Class"
 		}
 	},
 	[299024] = {
@@ -255800,7 +262468,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"KGV"
+			"Plan-Class",
+			"KGV-Class"
 		}
 	},
 	[399011] = {
@@ -255925,7 +262594,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399012] = {
 		oxy_max = 0,
@@ -256049,7 +262720,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399013] = {
 		oxy_max = 0,
@@ -256173,7 +262846,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399014] = {
 		oxy_max = 0,
@@ -256297,7 +262972,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399021] = {
 		oxy_max = 0,
@@ -256419,7 +263096,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399022] = {
 		oxy_max = 0,
@@ -256541,7 +263220,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399023] = {
 		oxy_max = 0,
@@ -256663,7 +263344,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399024] = {
 		oxy_max = 0,
@@ -256785,7 +263468,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499011] = {
 		oxy_max = 0,
@@ -256909,7 +263594,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499012] = {
 		oxy_max = 0,
@@ -257033,7 +263720,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499013] = {
 		oxy_max = 0,
@@ -257157,7 +263846,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499014] = {
 		oxy_max = 0,
@@ -257281,7 +263972,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[899011] = {
 		oxy_max = 0,
@@ -257405,7 +264098,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[899012] = {
 		oxy_max = 0,
@@ -257529,7 +264224,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[899013] = {
 		oxy_max = 0,
@@ -257653,7 +264350,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[899014] = {
 		oxy_max = 0,
@@ -257777,7 +264476,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[199011] = {
 		oxy_max = 0,
@@ -257903,7 +264604,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[199012] = {
 		oxy_max = 0,
@@ -258029,7 +264732,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[199013] = {
 		oxy_max = 0,
@@ -258155,7 +264860,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[199014] = {
 		oxy_max = 0,
@@ -258281,7 +264988,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[199021] = {
 		oxy_max = 0,
@@ -258403,7 +265112,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[199022] = {
 		oxy_max = 0,
@@ -258525,7 +265236,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[199023] = {
 		oxy_max = 0,
@@ -258647,7 +265360,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[199024] = {
 		oxy_max = 0,
@@ -258769,7 +265484,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399031] = {
 		oxy_max = 0,
@@ -258891,7 +265608,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399032] = {
 		oxy_max = 0,
@@ -259013,7 +265732,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399033] = {
 		oxy_max = 0,
@@ -259135,7 +265856,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399034] = {
 		oxy_max = 0,
@@ -259257,7 +265980,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399041] = {
 		oxy_max = 0,
@@ -259379,7 +266104,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399042] = {
 		oxy_max = 0,
@@ -259501,7 +266228,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399043] = {
 		oxy_max = 0,
@@ -259623,7 +266352,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[399044] = {
 		oxy_max = 0,
@@ -259745,7 +266476,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499021] = {
 		oxy_max = 0,
@@ -259867,7 +266600,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499022] = {
 		oxy_max = 0,
@@ -259989,7 +266724,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499023] = {
 		oxy_max = 0,
@@ -260111,7 +266848,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499024] = {
 		oxy_max = 0,
@@ -260233,7 +266972,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[999011] = {
 		oxy_max = 0,
@@ -260355,7 +267096,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class",
+			"Richelieu-Class"
+		}
 	},
 	[999012] = {
 		oxy_max = 0,
@@ -260477,7 +267221,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class",
+			"Richelieu-Class"
+		}
 	},
 	[999013] = {
 		oxy_max = 0,
@@ -260599,7 +267346,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class",
+			"Richelieu-Class"
+		}
 	},
 	[999014] = {
 		oxy_max = 0,
@@ -260721,7 +267471,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class",
+			"Richelieu-Class"
+		}
 	},
 	[299031] = {
 		oxy_max = 0,
@@ -260845,7 +267598,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299032] = {
 		oxy_max = 0,
@@ -260969,7 +267724,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299033] = {
 		oxy_max = 0,
@@ -261093,7 +267850,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299034] = {
 		oxy_max = 0,
@@ -261217,7 +267976,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299041] = {
 		oxy_max = 0,
@@ -261341,7 +268102,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299042] = {
 		oxy_max = 0,
@@ -261465,7 +268228,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299043] = {
 		oxy_max = 0,
@@ -261589,7 +268354,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[299044] = {
 		oxy_max = 0,
@@ -261713,7 +268480,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499031] = {
 		oxy_max = 0,
@@ -261836,7 +268605,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499032] = {
 		oxy_max = 0,
@@ -261959,7 +268730,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499033] = {
 		oxy_max = 0,
@@ -262082,7 +268855,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499034] = {
 		oxy_max = 0,
@@ -262205,7 +268980,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499041] = {
 		oxy_max = 0,
@@ -262328,7 +269105,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499042] = {
 		oxy_max = 0,
@@ -262454,7 +269233,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499043] = {
 		oxy_max = 0,
@@ -262580,7 +269361,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[499044] = {
 		oxy_max = 0,
@@ -262706,7 +269489,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[899021] = {
 		oxy_max = 0,
@@ -262828,7 +269613,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[899022] = {
 		oxy_max = 0,
@@ -262950,7 +269737,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[899023] = {
 		oxy_max = 0,
@@ -263072,7 +269861,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	[899024] = {
 		oxy_max = 0,
@@ -263194,7 +269985,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Plan-Class"
+		}
 	},
 	all = {
 		100001,
@@ -264510,6 +271303,10 @@ pg.ship_data_statistics = {
 		401232,
 		401233,
 		401234,
+		401241,
+		401242,
+		401243,
+		401244,
 		401251,
 		401252,
 		401253,
@@ -264518,6 +271315,10 @@ pg.ship_data_statistics = {
 		401262,
 		401263,
 		401264,
+		401281,
+		401282,
+		401283,
+		401284,
 		401351,
 		401352,
 		401353,
@@ -264547,6 +271348,10 @@ pg.ship_data_statistics = {
 		402042,
 		402043,
 		402044,
+		402051,
+		402052,
+		402053,
+		402054,
 		403011,
 		403012,
 		403013,
@@ -264571,6 +271376,10 @@ pg.ship_data_statistics = {
 		403082,
 		403083,
 		403084,
+		403091,
+		403092,
+		403093,
+		403094,
 		404011,
 		404012,
 		404013,
@@ -264587,6 +271396,10 @@ pg.ship_data_statistics = {
 		405022,
 		405023,
 		405024,
+		406011,
+		406012,
+		406013,
+		406014,
 		407011,
 		407012,
 		407013,
@@ -264595,6 +271408,10 @@ pg.ship_data_statistics = {
 		407022,
 		407023,
 		407024,
+		407031,
+		407032,
+		407033,
+		407034,
 		408011,
 		408012,
 		408013,
@@ -264631,6 +271448,10 @@ pg.ship_data_statistics = {
 		408092,
 		408093,
 		408094,
+		408101,
+		408102,
+		408103,
+		408104,
 		501011,
 		501012,
 		501013,
@@ -265021,6 +271842,7 @@ pg.ship_data_statistics = {
 		900271,
 		900272,
 		900273,
+		900274,
 		900275,
 		900276,
 		900277,

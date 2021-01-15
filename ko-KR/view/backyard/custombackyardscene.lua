@@ -102,9 +102,14 @@ function slot0.initLoading(slot0)
 	}
 
 	LoadImageSpriteAsync("helpbg/" .. slot1[math.clamp(math.random(#slot1) + 1, 1, #slot1)], slot0.loadingHelp)
-	setText(slot0.loadingHelpTx, pg.server_language[math.random(#pg.server_language)].content)
 
-	slot2 = 0
+	while pg.server_language[math.random(#pg.server_language)].limitation ~= -1 do
+		slot2 = pg.server_language[math.random(#pg.server_language)]
+	end
+
+	setText(slot0.loadingHelpTx, slot2.content)
+
+	slot3 = 0
 	slot0.loadingTimer = Timer.New(function ()
 		slot0 = uv0:getProgress()
 		slot1 = math.lerp(uv1, slot0, 0.5)

@@ -123,6 +123,20 @@ function slot0.DelayCall(slot0, slot1, slot2)
 	slot0.timers[slot2]:Start()
 end
 
+function slot0.CreateDelayTimer(slot0, slot1, slot2)
+	if slot1 == 0 then
+		slot2()
+
+		return nil
+	end
+
+	slot3 = Timer.New(slot2, slot1, 1)
+
+	slot3:Start()
+
+	return slot3
+end
+
 function slot0.ClearAllTween(slot0)
 	for slot4, slot5 in ipairs(slot0.tweens) do
 		if not IsNil(slot5) and slot0:IsTweening(slot5.gameObject) then

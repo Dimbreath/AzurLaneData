@@ -57,7 +57,7 @@ function slot3.updateCubeScale(slot0)
 		return
 	end
 
-	slot0._tf.localScale = Vector3(slot1, 0, slot2)
+	slot0._tf.localScale = Vector3(slot1, 1, slot2)
 	slot0._preWidth = slot1
 	slot0._preHeight = slot2
 end

@@ -51,13 +51,13 @@ pg.guild_data_level = {
 	{
 		exp = 48000,
 		assistant_commander = 4,
-		member_num = 36,
+		member_num = 37,
 		level = 9
 	},
 	{
 		exp = 60000,
 		assistant_commander = 4,
-		member_num = 38,
+		member_num = 40,
 		level = 10
 	},
 	all = {

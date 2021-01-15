@@ -22,8 +22,15 @@ return {
 			}
 		},
 		{
+			code = 1,
 			ui = {
 				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/main/right_chapter/btn_signal"
+			}
+		},
+		{
+			code = 2,
+			ui = {
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/right_panel/btn_signal"
 			}
 		},
 		{

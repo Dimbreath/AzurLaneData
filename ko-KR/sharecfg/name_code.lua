@@ -949,5 +949,10 @@ pg.name_code = {
 		id = 190,
 		name = "다이호(μ장비) ",
 		code = "다이호(μ장비) "
+	},
+	{
+		id = 191,
+		name = "히류·META",
+		code = "히류·META"
 	}
 }

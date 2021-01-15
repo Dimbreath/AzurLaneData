@@ -658,7 +658,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[125] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+569|대공+51|주포 효율+5%|도감 개방 :  터치2, HP 경고",
+		effect_desc = "내구도+596|대공+51|주포 효율+5%|도감 개방 :  터치2, HP 경고",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",

@@ -27,48 +27,17 @@ return {
 	{
 		Image = "event_minigame",
 		ButtonName = "activity_newyear",
-		Tip = "tip_1920",
 		Tag = "MiniGameHub",
-		CtorButton = function (slot0, slot1)
-			if getProxy(MiniGameProxy):GetMiniGameData(3) and not slot2:GetRuntimeData("isInited") then
-				slot0:emit(MainUIMediator.MINIGAME_OPERATION, 4, MiniGameOPCommand.CMD_SPECIAL_GAME, {
-					3,
-					1
-				})
-			end
-		end,
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
-			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot2:isEnd()
+			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_SNACKSTREET_MINIGAME) and not slot2:isEnd()
 
 			setActive(slot1, slot3)
 
 			if slot3 then
-				slot6 = getProxy(MiniGameProxy):GetHubByHubId(slot2:getConfig("config_id"))
-				slot11 = slot6.count > 0 or slot6:getConfig("reward_need") <= slot6.usedtime and slot6.ultimate == 0 or (function ()
-					if uv0:GetMiniGameData(3) then
-						return (slot0:GetRuntimeData("count") or 0) > 0 and NewYearShrinePage.IsTip()
-					end
-				end() or CygnetBathrobePage.IsTip())
-
-				setActive(slot1:Find("Tip"), slot11)
-
-				if slot11 then
-					slot12 = slot1:Find("Tip/Text")
-					slot13 = nil
-
-					if slot8 then
-						slot13 = "!"
-					elseif slot7 > 0 then
-						slot13 = slot7
-					elseif slot10 then
-						slot13 = "!"
-					end
-
-					setText(slot12, slot13 or "")
-				end
-
+				setActive(slot1:Find("Tip"), BackHillTemplate.IsMiniActNeedTip(ActivityConst.NEWYEAR_SNOWBALL_FIGHT) or NewYearSnackPage.IsTip() or NewYearShrineView.IsNeedShowTipWithoutActivityFinalReward())
 				onButton(slot0, slot1, function ()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.NEWYEAR_SQUARE)
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.NEWYEAR_BACKHILL)
 				end, SFX_PANEL)
 			end
 		end
@@ -398,7 +367,7 @@ return {
 		end
 	},
 	LayoutProperty = {
-		CellSize = Vector2(208, 205),
+		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
 		Padding = {
 			0,
@@ -413,6 +382,6 @@ return {
 		2,
 		5,
 		6,
-		15
+		3
 	}
 }

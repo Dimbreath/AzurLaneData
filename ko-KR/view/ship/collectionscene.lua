@@ -70,7 +70,6 @@ function slot0.init(slot0)
 		slot0:findTF("frame/tagRoot/card", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/display", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/trans", slot0.leftPanel),
-		slot0:findTF("frame/tagRoot/memory", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/gallery", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/music", slot0.leftPanel)
 	}
@@ -78,7 +77,6 @@ function slot0.init(slot0)
 		"initCardPanel",
 		"initDisplayPanel",
 		"initCardPanel",
-		"initMemoryPanel",
 		"initGalleryPanel",
 		"initMusicPanel"
 	}
@@ -103,7 +101,8 @@ function slot0.init(slot0)
 	slot0.cardToggles = {
 		slot0:findTF("char", slot0.cardToggleGroup),
 		slot0:findTF("link", slot0.cardToggleGroup),
-		slot0:findTF("blueprint", slot0.cardToggleGroup)
+		slot0:findTF("blueprint", slot0.cardToggleGroup),
+		slot0:findTF("meta", slot0.cardToggleGroup)
 	}
 	slot0.cardList.decelerationRate = 0.07
 	slot0.bonusPanel = slot0:findTF("bonus_panel")
@@ -166,11 +165,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0.contextData.cardScrollValue = 0
 
-		if uv0.toggles[4]:GetComponent(typeof(Toggle)).isOn and uv0.memories then
-			uv0:return2MemoryGroup()
-		else
-			uv0:emit(uv1.ON_BACK)
-		end
+		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.leftPanel)
@@ -198,44 +193,40 @@ function slot0.didEnter(slot0)
 	for slot5, slot6 in ipairs(slot0.toggles) do
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
-				if uv0 == 4 and uv1.memories then
-					uv1:return2MemoryGroup()
-				end
-
-				if uv1.contextData.toggle ~= uv0 then
-					if uv1.contextData.toggle == 1 and uv1.contextData.cardToggle == 1 then
-						uv1.contextData.cardScrollValue = uv1.cardList.value
+				if uv0.contextData.toggle ~= uv1 then
+					if uv0.contextData.toggle == 1 and uv0.contextData.cardToggle == 1 then
+						uv0.contextData.cardScrollValue = uv0.cardList.value
 					end
 
-					uv1.contextData.toggle = uv0
+					uv0.contextData.toggle = uv1
 
-					if uv1.toggleUpdates[uv0] then
-						uv1[uv1.toggleUpdates[uv0]](uv1)
-						uv1:calFavoriteRate()
+					if uv0.toggleUpdates[uv1] then
+						uv0[uv0.toggleUpdates[uv1]](uv0)
+						uv0:calFavoriteRate()
 					end
 				end
 
-				setActive(uv1.helpBtn, uv0 == 1)
+				setActive(uv0.helpBtn, uv1 == 1)
 
-				if uv0 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
-					triggerButton(uv1.helpBtn)
+				if uv1 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
+					triggerButton(uv0.helpBtn)
 					slot1:SetCollectionHelpFlag(true)
 				end
 
-				if uv0 ~= 6 then
-					if uv1.musicView and uv1.musicView:CheckState(BaseSubView.STATES.INITED) then
-						uv1.musicView:tryPauseMusic()
-						uv1.musicView:closeSongListPanel()
+				if uv1 ~= 5 then
+					if uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
+						uv0.musicView:tryPauseMusic()
+						uv0.musicView:closeSongListPanel()
 					end
 
-					pg.CriMgr:GetInstance():ResumeNormalBGM()
-				elseif uv0 == 6 and uv1.musicView and uv1.musicView:CheckState(BaseSubView.STATES.INITED) then
-					pg.CriMgr:GetInstance():StopBGM()
-					uv1.musicView:tryPlayMusic()
+					pg.CriMgr.GetInstance():ResumeLastNormalBGM()
+				elseif uv1 == 5 and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
+					pg.CriMgr.GetInstance():StopBGM()
+					uv0.musicView:tryPlayMusic()
 				end
 
-				if uv0 ~= 5 and uv1.galleryView and uv1.galleryView:CheckState(BaseSubView.STATES.INITED) then
-					uv1.galleryView:closePicPanel()
+				if uv1 ~= 4 and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then
+					uv0.galleryView:closePicPanel()
 				end
 			end
 		end, SFX_UI_TAG)
@@ -299,8 +290,8 @@ end
 
 function slot0.updateCollectNotices(slot0, slot1)
 	setActive(slot0.tip, slot1)
-	setActive(slot0:findTF("tip", slot0.toggles[5]), getProxy(AppreciateProxy):isGalleryHaveNewRes())
-	setActive(slot0:findTF("tip", slot0.toggles[6]), getProxy(AppreciateProxy):isMusicHaveNewRes())
+	setActive(slot0:findTF("tip", slot0.toggles[4]), getProxy(AppreciateProxy):isGalleryHaveNewRes())
+	setActive(slot0:findTF("tip", slot0.toggles[5]), getProxy(AppreciateProxy):isMusicHaveNewRes())
 end
 
 function slot0.calFavoriteRate(slot0)
@@ -444,7 +435,7 @@ function slot0.cardFilter(slot0)
 	for slot5, slot6 in ipairs(slot1) do
 		if IndexConst.filterByIndex(slot0.shipGroups[pg.ship_data_group[slot6].group_type] or ShipGroup.New({
 			id = slot7.group_type
-		}), uv0.ShipIndex.index) and (slot0.contextData.cardToggle == 2 or IndexConst.filterByCamp(slot8, uv0.ShipIndex.camp)) and IndexConst.filterByRarity(slot8, uv0.ShipIndex.rarity) and IndexConst.filterByExtra(slot8, uv0.ShipIndex.extra) then
+		}), uv0.ShipIndex.index) and (slot0.contextData.cardToggle == 2 or IndexConst.filterByCamp(slot8, uv0.ShipIndex.camp)) and slot0.contextData.cardToggle == 4 == Nation.IsMeta(ShipGroup.getDefaultShipConfig(slot7.group_type).nationality) and IndexConst.filterByRarity(slot8, uv0.ShipIndex.rarity) and IndexConst.filterByExtra(slot8, uv0.ShipIndex.extra) then
 			slot0.codeShips[#slot0.codeShips + 1] = {
 				showTrans = false,
 				id = slot6,
@@ -676,7 +667,7 @@ function slot0.return2MemoryGroup(slot0)
 
 		if slot3 >= 0 then
 			slot5 = slot0.memoriesGrid.cellSize.y + slot0.memoriesGrid.spacing.y
-			slot2 = Mathf.Clamp01((slot5 * math.floor((slot3 - 1) / uv0) + slot0.memoryList.paddingFront) / (slot5 * math.floor((#slot0.memoryGroups - 1) / uv0 + 1) - slot0.memoryViewport.rect.height))
+			slot2 = Mathf.Clamp01((slot5 * math.floor((slot3 - 1) / uv0) + slot0.memoryList.paddingFront) / (slot5 * math.ceil(#slot0.memoryGroups / uv0) - slot0.memoryViewport.rect.height))
 		end
 	end
 
@@ -854,7 +845,7 @@ function slot0.initMusicPanel(slot0)
 
 		slot0.musicView:Reset()
 		slot0.musicView:Load()
-		pg.CriMgr:GetInstance():StopBGM()
+		pg.CriMgr.GetInstance():StopBGM()
 	end
 end
 

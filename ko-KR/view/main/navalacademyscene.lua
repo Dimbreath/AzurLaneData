@@ -646,11 +646,15 @@ function slot0.sortStudents(slot0)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
-		return slot0.anchoredPosition.y < slot1.anchoredPosition.y
+		return slot1.anchoredPosition.y < slot0.anchoredPosition.y
 	end)
 
+	slot2 = 6
+
 	for slot6, slot7 in ipairs(slot1) do
-		slot7:SetSiblingIndex(6)
+		slot7:SetSiblingIndex(slot2)
+
+		slot2 = slot2 + 1
 	end
 end
 

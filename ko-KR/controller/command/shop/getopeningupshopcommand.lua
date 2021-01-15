@@ -65,10 +65,21 @@ function slot0.GetGuildShop(slot0, slot1)
 	if not LOCK_GUILD_SHOP then
 		slot0.shopList[NewShopsScene.TYPE_GUILD] = {}
 
-		table.insert(slot0.shopList[NewShopsScene.TYPE_GUILD], slot0.shopsProxy:getGuildShop())
-	end
+		if not slot0.shopsProxy:getGuildShop() then
+			slot0:sendNotification(GAME.GET_GUILD_SHOP, {
+				type = GuildConst.GET_SHOP,
+				callback = function (slot0)
+					if slot0 then
+						table.insert(uv0.shopList[NewShopsScene.TYPE_GUILD], slot0)
+					end
 
-	slot1()
+					uv1()
+				end
+			})
+		else
+			slot2(slot3)
+		end
+	end
 end
 
 function slot0.GetShamShop(slot0, slot1)

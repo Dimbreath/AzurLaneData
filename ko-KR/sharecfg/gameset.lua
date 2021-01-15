@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "DOA活动PT",
-		key_value = 177
+		key_value = 180
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -458,6 +458,813 @@ pg.gameset = {
 			20121,
 			10117,
 			30105
+		}
+	},
+	world_starting_story = {
+		key_value = 0,
+		description = {
+			"WORLD100A"
+		}
+	},
+	world_resetting_stage = {
+		description = "",
+		key_value = 100
+	},
+	world_resetting_sairen_chapter = {
+		description = "",
+		key_value = 1
+	},
+	world_resetting_story = {
+		key_value = 0,
+		description = {
+			"GWORLDS07"
+		}
+	},
+	world_default_entrance = {
+		key_value = 0,
+		description = {
+			{
+				200,
+				1
+			},
+			{
+				200,
+				1
+			}
+		}
+	},
+	world_currency_initial_num = {
+		description = "",
+		key_value = 2000
+	},
+	world_fleet_redeploy_cost = {
+		key_value = 0,
+		description = {
+			100,
+			86400
+		}
+	},
+	world_guide_enemy_id = {
+		key_value = 0,
+		description = {
+			314001,
+			314002
+		}
+	},
+	world_move_initial_step = {
+		description = "",
+		key_value = 3
+	},
+	world_move_initial_view = {
+		description = "",
+		key_value = 3
+	},
+	world_buff_morale = {
+		key_value = 0,
+		description = {
+			200,
+			201,
+			202
+		}
+	},
+	world_buff_morale_cost = {
+		key_value = 0,
+		description = {
+			5,
+			10,
+			15
+		}
+	},
+	world_mapbuff_list = {
+		key_value = 0,
+		description = {
+			401,
+			402,
+			403
+		}
+	},
+	world_mapbuff_tips = {
+		description = "",
+		key_value = 8000
+	},
+	world_difficult_value = {
+		key_value = 0,
+		description = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				10,
+				10,
+				10
+			},
+			{
+				20,
+				20,
+				20
+			},
+			{
+				40,
+				40,
+				40
+			},
+			{
+				60,
+				60,
+				60
+			},
+			{
+				90,
+				90,
+				90
+			},
+			{
+				120,
+				120,
+				120
+			}
+		}
+	},
+	world_transfer_eventlist = {
+		key_value = 0,
+		description = {
+			10110301,
+			10120301,
+			10130301,
+			10140301,
+			10210301,
+			10220301,
+			10230301,
+			10240301,
+			10250301,
+			10310301,
+			10320301,
+			10330301,
+			10340301,
+			10410301,
+			10420301,
+			10430301,
+			10440301,
+			10510301,
+			10520301,
+			10530301,
+			10540301,
+			10610301,
+			10620301,
+			10630301,
+			10640301,
+			10650301,
+			10660301,
+			10710301,
+			10720301,
+			10730301,
+			10810301,
+			10820301,
+			10830301,
+			10840301,
+			10850301,
+			10910301,
+			10920301,
+			10930301,
+			10940301,
+			10950301,
+			11010301,
+			11020301,
+			11030301,
+			11040301,
+			11050301,
+			11060301,
+			11110301,
+			11120301,
+			11130301,
+			11140301,
+			11210301,
+			11220301,
+			11230301,
+			11240301,
+			11310301,
+			11320301,
+			11330301,
+			11340301,
+			11350301,
+			11410301,
+			11420301,
+			11430301,
+			11440301,
+			11510301,
+			11520301,
+			11530301,
+			11540301,
+			11550301,
+			11560301,
+			11570301,
+			11580301,
+			11590301
+		}
+	},
+	world_transfer_eventstory = {
+		key_value = 0,
+		description = {
+			"W1014"
+		}
+	},
+	world_target_obtain = {
+		description = "",
+		key_value = 5
+	},
+	attr_world_damage_fix = {
+		description = "",
+		key_value = 1000
+	},
+	attr_world_value_X1 = {
+		description = "",
+		key_value = 7000
+	},
+	attr_world_value_X2 = {
+		description = "",
+		key_value = 13000
+	},
+	attr_world_value_Y1 = {
+		description = "",
+		key_value = 7000
+	},
+	attr_world_value_Y2 = {
+		description = "",
+		key_value = 13000
+	},
+	attr_world_value_Z1 = {
+		description = "",
+		key_value = 10000
+	},
+	attr_world_value_Z2 = {
+		description = "",
+		key_value = 10000
+	},
+	attr_world_value_H1 = {
+		description = "",
+		key_value = 7000
+	},
+	attr_world_value_H2 = {
+		description = "",
+		key_value = 10000
+	},
+	world_rank_min = {
+		key_value = 0,
+		description = {
+			0,
+			0,
+			60,
+			90,
+			150,
+			300,
+			750,
+			1500,
+			2400
+		}
+	},
+	world_rank_unlocked_expedition = {
+		key_value = 0,
+		description = {
+			10,
+			10,
+			10,
+			10,
+			10,
+			10,
+			10,
+			10,
+			10
+		}
+	},
+	world_port_service_1_interval = {
+		key_value = 0,
+		description = {
+			{
+				50,
+				0.5
+			},
+			{
+				100,
+				1
+			},
+			{
+				120,
+				1.2
+			},
+			{
+				999,
+				1.5
+			}
+		}
+	},
+	world_port_service_1_price = {
+		key_value = 0,
+		description = {
+			{
+				4000,
+				400
+			},
+			{
+				7000,
+				300
+			},
+			{
+				9000,
+				200
+			},
+			{
+				9500,
+				100
+			},
+			{
+				10000,
+				50
+			}
+		}
+	},
+	world_port_service_2_interval = {
+		key_value = 0,
+		description = {
+			{
+				100,
+				0.5
+			},
+			{
+				999,
+				1
+			}
+		}
+	},
+	world_port_service_2_price = {
+		description = "",
+		key_value = 600
+	},
+	world_port_taskmax = {
+		description = "",
+		key_value = 5
+	},
+	world_movepower_maxvalue = {
+		description = "",
+		key_value = 200
+	},
+	world_cell_cost_movepower = {
+		description = "",
+		key_value = 1
+	},
+	world_movepower_recovery_interval = {
+		description = "",
+		key_value = 600
+	},
+	world_supply_value = {
+		key_value = 0,
+		description = {
+			{
+				100
+			},
+			{
+				100
+			},
+			{
+				200
+			},
+			{
+				200
+			},
+			{
+				400
+			}
+		}
+	},
+	world_supply_price = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				1,
+				2,
+				2000
+			},
+			{
+				1,
+				2,
+				2000
+			},
+			{
+				1,
+				2,
+				4000
+			}
+		}
+	},
+	world_supply_itemlist = {
+		key_value = 0,
+		description = {
+			251,
+			252,
+			253
+		}
+	},
+	world_stage_help = {
+		key_value = 0,
+		description = {
+			{
+				0,
+				"helpbg/level_ui_help_1"
+			},
+			{
+				10,
+				"helpbg/level_ui_help_2"
+			},
+			{
+				100,
+				"helpbg/level_ui_help_3"
+			}
+		}
+	},
+	world_story_special_1 = {
+		key_value = 0,
+		description = {
+			"WNX01"
+		}
+	},
+	world_story_special_2 = {
+		key_value = 0,
+		description = {
+			"GWORLDS05"
+		}
+	},
+	world_story_recycle_item = {
+		key_value = 0,
+		description = {
+			"GWORLDS06"
+		}
+	},
+	world_expedition_level = {
+		key_value = 0,
+		description = {
+			{
+				{
+					1,
+					4,
+					7,
+					10
+				},
+				0
+			},
+			{
+				{
+					2,
+					5,
+					8,
+					11
+				},
+				2
+			},
+			{
+				{
+					3,
+					6,
+					9,
+					12,
+					98
+				},
+				4
+			},
+			{
+				{
+					99
+				},
+				8
+			}
+		}
+	},
+	world_log_max_count = {
+		description = "",
+		key_value = 100
+	},
+	world_infection_level = {
+		key_value = 0,
+		description = {
+			500,
+			800
+		}
+	},
+	world_instruction_submarine = {
+		key_value = 0,
+		description = {
+			40,
+			3600
+		}
+	},
+	world_instruction_detect = {
+		key_value = 0,
+		description = {
+			10,
+			1800
+		}
+	},
+	world_instruction_supply = {
+		key_value = 0,
+		description = {
+			20,
+			1800,
+			310
+		}
+	},
+	world_instruction_maintenance = {
+		key_value = 0,
+		description = {
+			50,
+			21600,
+			310
+		}
+	},
+	world_sairen_infection = {
+		key_value = 0,
+		description = {
+			40,
+			80
+		}
+	},
+	world_sairen_weekly = {
+		key_value = 0,
+		description = {
+			1,
+			1
+		}
+	},
+	world_sairen_max1 = {
+		description = "",
+		key_value = 1
+	},
+	world_sairen_max2 = {
+		description = "",
+		key_value = 3
+	},
+	world_sairen_openstage = {
+		description = "",
+		key_value = 100
+	},
+	world_death_buff = {
+		description = "",
+		key_value = 1
+	},
+	world_death_hpfix = {
+		description = "",
+		key_value = 1000
+	},
+	world_resource_max = {
+		description = "",
+		key_value = 1000000
+	},
+	world_catsearch_failure = {
+		key_value = 0,
+		description = {
+			"W1251"
+		}
+	},
+	world_catsearch_raritytip = {
+		key_value = 0,
+		description = {
+			"W1252"
+		}
+	},
+	world_catsearch_completed = {
+		key_value = 0,
+		description = {
+			"W1253",
+			"W1255"
+		}
+	},
+	world_catsearch_special = {
+		key_value = 0,
+		description = {
+			"W1254"
+		}
+	},
+	world_catsearchdrop_show = {
+		key_value = 0,
+		description = {
+			{
+				12,
+				2100015,
+				0
+			},
+			{
+				12,
+				2115,
+				0
+			},
+			{
+				12,
+				2016,
+				0
+			},
+			{
+				12,
+				2100014,
+				0
+			},
+			{
+				12,
+				2114,
+				0
+			},
+			{
+				12,
+				2113,
+				0
+			},
+			{
+				12,
+				2103,
+				0
+			},
+			{
+				2,
+				20013,
+				0
+			},
+			{
+				12,
+				2015,
+				0
+			},
+			{
+				12,
+				2014,
+				0
+			},
+			{
+				12,
+				2006,
+				0
+			},
+			{
+				12,
+				2005,
+				0
+			},
+			{
+				12,
+				2102,
+				0
+			},
+			{
+				2,
+				20012,
+				0
+			},
+			{
+				12,
+				101,
+				0
+			},
+			{
+				12,
+				2101,
+				0
+			},
+			{
+				12,
+				100,
+				0
+			},
+			{
+				1,
+				1,
+				0
+			}
+		}
+	},
+	world_catsearch_score = {
+		key_value = 0,
+		description = {
+			0,
+			29,
+			69
+		}
+	},
+	world_guide_event = {
+		key_value = 0,
+		description = {
+			{
+				21030,
+				"WorldG121"
+			},
+			{
+				22011,
+				"WorldG123"
+			},
+			{
+				4002016,
+				"WorldG110"
+			},
+			{
+				4002017,
+				"WorldG110"
+			},
+			{
+				4002018,
+				"WorldG110"
+			},
+			{
+				4002019,
+				"WorldG110"
+			},
+			{
+				4002020,
+				"WorldG110"
+			}
+		}
+	},
+	world_guide_map_list = {
+		key_value = 0,
+		description = {
+			200,
+			201,
+			202,
+			400,
+			401,
+			500
+		}
+	},
+	world_move_buff_desc = {
+		description = "",
+		key_value = 2
+	},
+	world_level_correct = {
+		key_value = 0,
+		description = {
+			1,
+			1,
+			0.3,
+			0.2,
+			0.5
+		}
+	},
+	world_suggest_level = {
+		key_value = 0,
+		description = {
+			0,
+			1980,
+			4400,
+			12100,
+			18975,
+			35640,
+			51840
+		}
+	},
+	world_strength_correct = {
+		description = "",
+		key_value = 333
+	},
+	world_movelimit_event = {
+		key_value = 0,
+		description = {
+			20740,
+			20745,
+			21530,
+			22520
+		}
+	},
+	world_quickmode_skiplua = {
+		key_value = 0,
+		description = {
+			"W1202",
+			"W1203",
+			"W610000",
+			"W610001",
+			"W610002",
+			"W610003",
+			"W610004",
+			"W610005",
+			"W610006",
+			"W610007",
+			"W610008",
+			"W610010",
+			"W610020",
+			"W610021",
+			"W610200",
+			"W610201",
+			"W610202",
+			"W610203",
+			"W610300",
+			"W610301",
+			"W610305",
+			"W610306",
+			"W612001"
 		}
 	},
 	commander_exp_a = {
@@ -590,6 +1397,14 @@ pg.gameset = {
 		description = "",
 		key_value = 86400
 	},
+	big_seven_old_skin_timestamp = {
+		description = "",
+		key_value = 1540396800
+	},
+	language_default = {
+		description = "",
+		key_value = 1
+	},
 	event_tips = {
 		description = "",
 		key_value = 1
@@ -660,7 +1475,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 178
+		key_value = 181
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -741,5 +1556,74 @@ pg.gameset = {
 	doa_fever_strategy = {
 		description = "",
 		key_value = 10021
+	},
+	meta_skill_exp_double = {
+		description = "",
+		key_value = 9000
+	},
+	meta_skill_exp_max = {
+		description = "",
+		key_value = 30000
+	},
+	world_boss_stage = {
+		description = "",
+		key_value = 23
+	},
+	joint_boss_oil_consume = {
+		key_value = 0,
+		description = {
+			0,
+			40,
+			20,
+			20,
+			10,
+			10,
+			10,
+			10,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			1
+		}
+	},
+	joint_boss_ap_recove_cnt_pre_day = {
+		description = "",
+		key_value = 3
+	},
+	world_boss_resfresh = {
+		description = "",
+		key_value = 5
+	},
+	joint_boss_ap_max = {
+		description = "",
+		key_value = 3
+	},
+	joint_boss_world_time = {
+		description = "",
+		key_value = 1800
+	},
+	joint_boss_bonus_time = {
+		description = "",
+		key_value = 86400
+	},
+	joint_boss_fighter_max = {
+		description = "",
+		key_value = 30
+	},
+	joint_boss_ticket = {
+		key_value = 0,
+		description = {
+			100,
+			100
+		}
+	},
+	world_boss_joindamage = {
+		description = "",
+		key_value = 200
 	}
 }

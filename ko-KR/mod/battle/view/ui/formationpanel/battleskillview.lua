@@ -27,6 +27,12 @@ function slot2.DisableWeapnButton(slot0)
 	end
 end
 
+function slot2.JamSkillButton(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._skillBtnList) do
+		slot6:SetJam(slot1)
+	end
+end
+
 function slot2.ShiftSubmarineManualButton(slot0, slot1)
 	if slot1 == uv0.Battle.OxyState.STATE_FREE_FLOAT then
 		slot0._diveBtn:SetActive(true)

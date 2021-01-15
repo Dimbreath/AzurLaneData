@@ -93,7 +93,7 @@ function slot3.initWaveModule(slot0)
 			return
 		end
 
-		uv0._dataProxy:CalcSingleDungeonScoreAtEnd(uv0._userFleet)
+		uv0:CalcStatistic()
 		uv0._state:BattleEnd()
 	end, function (slot0, slot1, slot2, slot3, slot4)
 		uv0._dataProxy:SpawnCubeArea(uv1.Battle.BattleConst.AOEField.SURFACE, -1, slot0, slot1, slot2, slot3, slot4)
@@ -169,14 +169,14 @@ function slot3.onPlayerShutDown(slot0, slot1)
 	end
 
 	if slot1.Data.unit == slot0._userFleet:GetFlagShip() and slot0._dataProxy:GetInitData().battleType ~= SYSTEM_PROLOGUE and slot0._dataProxy:GetInitData().battleType ~= SYSTEM_PERFORM then
-		slot0._dataProxy:CalcSingleDungeonScoreAtEnd(slot0._userFleet)
+		slot0:CalcStatistic()
 		slot0._state:BattleEnd()
 
 		return
 	end
 
 	if #slot0._userFleet:GetScoutList() == 0 then
-		slot0._dataProxy:CalcSingleDungeonScoreAtEnd(slot0._userFleet)
+		slot0:CalcStatistic()
 		slot0._state:BattleEnd()
 	end
 end
@@ -184,7 +184,7 @@ end
 function slot3.onUpdateCountDown(slot0, slot1)
 	if slot0._dataProxy:GetCountDown() <= 0 then
 		slot0._dataProxy:EnemyEscape()
-		slot0._dataProxy:CalcSingleDungeonScoreAtEnd(slot0._userFleet)
+		slot0:CalcStatistic()
 		slot0._state:BattleTimeUp()
 	end
 end
@@ -194,21 +194,46 @@ function slot3.onUnitDying(slot0, slot1)
 end
 
 function slot3.onWillDie(slot0, slot1)
-	if slot1.Dispatcher:GetDeathReason() ~= uv0.Battle.BattleConst.UnitDeathReason.LEAVE then
+	if slot1.Dispatcher:GetDeathReason() == uv0.Battle.BattleConst.UnitDeathReason.LEAVE then
+		if slot2:GetIFF() == uv0.Battle.BattleConfig.FRIENDLY_CODE then
+			slot0._dataProxy:CalcBPWhenPlayerLeave(slot2)
+		end
+	elseif slot4 == slot3.DESTRUCT then
 		slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
-	elseif slot2:GetIFF() == uv0.Battle.BattleConfig.FRIENDLY_CODE then
-		slot0._dataProxy:CalcBPWhenPlayerLeave(slot2)
+
+		if slot2:IsBoss() then
+			slot0._dataProxy:AddScoreWhenBossDestruct()
+		end
+	else
+		slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
 	end
 
 	if slot2:IsBoss() and not slot0._dataProxy:IsThereBoss() then
-		if slot3 == uv0.Battle.BattleConst.UnitDeathReason.DESTRUCT then
-			slot0._dataProxy:AddScoreWhenBossDestruct()
-		end
-
 		slot0._dataProxy:KillAllEnemy()
 	end
 end
 
 function slot3.onShutDownPlayer(slot0, slot1)
 	slot0._dataProxy:ShutdownPlayerUnit(slot1.Dispatcher:GetUniqueID())
+end
+
+function slot3.GetMaxRestHPRateBossRate(slot0)
+	for slot5, slot6 in ipairs(slot0._waveUpdater:GetAllBossWave()) do
+		if slot6:GetState() == slot6.STATE_DEACTIVE then
+			return 10000
+		end
+	end
+
+	for slot6, slot7 in pairs(slot0._dataProxy:GetUnitList()) do
+		if slot7:IsBoss() and slot7:IsAlive() then
+			slot2 = math.max(0, slot7:GetHPRate())
+		end
+	end
+
+	return slot2 * 10000
+end
+
+function slot3.CalcStatistic(slot0)
+	slot0._dataProxy:CalcSingleDungeonScoreAtEnd(slot0._userFleet)
+	slot0._dataProxy:CalcMaxRestHPRateBossRate(slot0:GetMaxRestHPRateBossRate())
 end

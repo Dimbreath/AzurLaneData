@@ -24,7 +24,7 @@ function slot3.initWaveModule(slot0)
 			return
 		end
 
-		uv0._dataProxy:CalcSingleDungeonScoreAtEnd(uv0._userFleet)
+		uv0:CalcStatistic()
 		uv0:calcDamageData()
 		uv0._state:BattleEnd()
 	end, function (slot0, slot1, slot2, slot3, slot4)
@@ -53,7 +53,7 @@ function slot3.onPlayerShutDown(slot0, slot1)
 	end
 
 	if slot1.Data.unit == slot0._userFleet:GetFlagShip() and slot0._dataProxy:GetInitData().battleType ~= SYSTEM_PROLOGUE and slot0._dataProxy:GetInitData().battleType ~= SYSTEM_PERFORM then
-		slot0._dataProxy:CalcSingleDungeonScoreAtEnd(slot0._userFleet)
+		slot0:CalcStatistic()
 		slot0:calcDamageData()
 		slot0._state:BattleEnd()
 
@@ -61,7 +61,7 @@ function slot3.onPlayerShutDown(slot0, slot1)
 	end
 
 	if #slot0._userFleet:GetScoutList() == 0 then
-		slot0._dataProxy:CalcSingleDungeonScoreAtEnd(slot0._userFleet)
+		slot0:CalcStatistic()
 		slot0:calcDamageData()
 		slot0._state:BattleEnd()
 	end
@@ -70,12 +70,12 @@ end
 function slot3.onUpdateCountDown(slot0, slot1)
 	if slot0._dataProxy:GetCountDown() <= 0 then
 		slot0._dataProxy:EnemyEscape()
-		slot0._dataProxy:CalcSingleDungeonScoreAtEnd(slot0._userFleet)
+		slot0:CalcStatistic()
 		slot0:calcDamageData()
 		slot0._state:BattleTimeUp()
 	end
 end
 
 function slot3.calcDamageData(slot0)
-	slot0._dataProxy:CalcSpecificEnemyInfo(slot0._dataProxy:GetInitData().ActID)
+	slot0._dataProxy:CalcActBossDamageInfo(slot0._dataProxy:GetInitData().ActID)
 end

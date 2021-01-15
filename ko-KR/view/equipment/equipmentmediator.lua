@@ -10,6 +10,7 @@ slot0.ON_USE_ITEM = "EquipmentMediator:ON_USE_ITEM"
 slot0.NO_UPDATE = "EquipmentMediator:NO_UPDATE"
 slot0.ITEM_GO_SCENE = "item go scene"
 slot0.OPEN_EQUIPSKIN_INDEX_LAYER = "EquipmentMediator:OPEN_EQUIPSKIN_INDEX_LAYER"
+slot0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
 
 function slot0.register(slot0)
 	if not slot0.contextData.warp then
@@ -85,13 +86,21 @@ function slot0.register(slot0)
 			data = slot1
 		}))
 	end)
+	slot0:bind(uv0.OPEN_EQUIPMENT_INDEX, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
+			data = slot1
+		}))
+	end)
 
 	slot0.canUpdate = true
 
+	slot0.viewComponent:OnMediatorRegister()
 	slot0.viewComponent:setShip(getProxy(BayProxy):getShipById(slot0.contextData.shipId))
 
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
-	slot3 = {}
+	slot3 = nil
 
 	if slot0.contextData.equipmentVOs then
 		slot3 = slot0.contextData.equipmentVOs
@@ -143,7 +152,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE,
 		GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE,
 		uv0.NO_UPDATE,
-		GAME.FRAG_SELL_DONE
+		GAME.FRAG_SELL_DONE,
+		GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED
 	}
 end
 
@@ -200,6 +210,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_BACK)
 	elseif slot2 == uv0.NO_UPDATE then
 		slot0.canUpdate = false
+	elseif slot2 == GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED then
+		slot0:getViewComponent():Scroll2Equip(slot3.newEquip)
 	end
 end
 

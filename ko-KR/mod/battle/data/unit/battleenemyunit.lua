@@ -76,13 +76,7 @@ function slot8.SetWaveIndex(slot0, slot1)
 end
 
 function slot8.SetAttr(slot0)
-	slot1 = nil
-
-	if slot0:GetRepress() then
-		slot1 = slot0._battleProxy:GetRepressLevel()
-	end
-
-	uv0.SetEnemyAttr(slot0, slot1)
+	uv0.SetEnemyAttr(slot0)
 	uv0.InitDOTAttr(slot0._attr, slot0._tmpData)
 	uv0.SetCurrent(slot0, "srcShipType", slot0._tmpData.type)
 end
@@ -127,7 +121,7 @@ function slot8.InitCldComponent(slot0)
 end
 
 function slot8.ConfigBubbleFX(slot0)
-	slot0._bubbleFX = slot0._tmpData.bubble_fx
+	slot0._bubbleFX = slot0._tmpData.bubble_fx[1]
 
-	slot0._oxyState:SetBubbleTemplate(slot0._tmpData.bubble_initial, slot0._tmpData.bubble_interval)
+	slot0._oxyState:SetBubbleTemplate(slot0._tmpData.bubble_fx[2], slot0._tmpData.bubble_fx[3])
 end

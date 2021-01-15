@@ -1034,6 +1034,50 @@ pg.effect_offset = {
 			-2.75
 		}
 	},
+	fengzhijiejie = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			2.36,
+			0.68
+		}
+	},
+	fengzhijiejie_ceshizhe = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.7,
+			0.68
+		}
+	},
+	Hedandaji_warning = {
+		mirror = false,
+		y_scale = true,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	Shield_enemy = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0.08,
+			1.24,
+			0
+		}
+	},
 	hudie_heise = {
 		mirror = false,
 		y_scale = false,

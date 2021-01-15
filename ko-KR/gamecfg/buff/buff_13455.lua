@@ -32,7 +32,7 @@ return {
 				skill_id = 13450,
 				target = "TargetSelf",
 				ship_tag_list = {
-					"KGV"
+					"KGV-Class"
 				}
 			}
 		}

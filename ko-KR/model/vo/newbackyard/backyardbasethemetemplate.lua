@@ -257,10 +257,10 @@ function slot0.GetUsableFurnituresForFloor(slot0, slot1, slot2)
 end
 
 function slot0.MatchSearchKey(slot0, slot1)
-	return not slot1 or slot1 == "" or function (slot0)
-		return string.find(uv0:GetName(), slot0)
+	return not string.lower(slot1 or "") or slot1 == "" or function (slot0)
+		return string.find(string.lower(uv0:GetName()), slot0)
 	end(slot1) or function (slot0)
-		return string.find(uv0:GetDesc(), slot0)
+		return string.find(string.lower(uv0:GetDesc()), slot0)
 	end(slot1)
 end
 

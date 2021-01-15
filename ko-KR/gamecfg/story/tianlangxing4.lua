@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "넬슨, 로드니, 부탁드릴게요.",
+			say = "넬슨님, 로드니님, 부탁드릴게요.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "넬슨 주인님, 정말 감사합니다!",
+			say = "넬슨님, 정말 감사합니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

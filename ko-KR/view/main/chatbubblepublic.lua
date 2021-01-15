@@ -19,7 +19,7 @@ function slot0.update(slot0, slot1)
 
 	ChatProxy.InjectPublic(slot0.richText, slot1)
 	slot0.richText:AddListener(function (slot0, slot1)
-		uv0:clickItem(slot0, uv1.args[tonumber(slot1)])
+		uv0:clickItem(slot0, slot1)
 	end)
 
 	if slot0.channel then
@@ -31,9 +31,9 @@ end
 
 function slot0.clickItem(slot0, slot1, slot2)
 	if slot1 == "clickPlayer" then
-		print("click player : " .. slot2.string)
+		print("click player : ")
 	elseif slot1 == "clickShip" then
-		print("click ship : " .. slot2.int)
+		print("click ship : ")
 	end
 end
 

@@ -37,10 +37,7 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.flush(slot0)
-	setAnchoredPosition(slot0.lvTxt.gameObject, {
-		x = slot0.shipVO:isBluePrintShip() and -18 or -7.5
-	})
-
+	slot1 = slot0.shipVO
 	slot0.lvTxt.text = "Lv." .. slot1.level
 	slot3 = slot1:getStar()
 
@@ -53,36 +50,46 @@ function slot0.flush(slot0)
 	setScrollText(slot0.nameTxt, slot1:getName())
 	slot0:updateProps({})
 	setPaintingPrefabAsync(slot0.paintingTr, slot1:getPainting(), "biandui")
-	setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), slot1.propose and "prop" .. (slot1:isBluePrintShip() and slot4 or "") or nil)
+
+	slot4 = slot0.shipVO:rarity2bgPrint()
+	slot5 = nil
+
+	setRectShipCardFrame(slot0.frame, slot4, slot1.propose and "prop" .. ((slot1:isBluePrintShip() or slot1:isMetaShip()) and slot4 or "") or nil)
 	GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", function (slot0)
 		uv0.bgImage.sprite = slot0
 	end)
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
 
-	slot6 = nil
-	slot7 = false
+	slot7 = nil
+	slot8 = false
 
 	if slot1.propose then
-		slot6 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "") .. "_1"
+		if slot1:isMetaShip() then
+			slot7 = "duang_meta_jiehun_1"
+		else
+			slot7 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "") .. "_1"
+		end
+	elseif slot1:isMetaShip() then
+		slot7 = "duang_meta_1"
 	elseif slot1:getRarity() == 6 then
-		slot6 = "duang_6_1"
+		slot7 = "duang_6_1"
 	end
 
-	if slot6 then
+	if slot7 then
 		eachChild(slot0.otherBg, function (slot0)
 			setActive(slot0, slot0.name == uv0 .. "(Clone)")
 
 			uv1 = uv1 or slot0.name == uv0 .. "(Clone)"
 		end)
 
-		if not slot7 then
-			PoolMgr.GetInstance():GetPrefab("effect/" .. slot6, "", true, function (slot0)
+		if not slot8 then
+			PoolMgr.GetInstance():GetPrefab("effect/" .. slot7, "", true, function (slot0)
 				setParent(slot0, uv0.otherBg)
 			end)
 		end
 	end
 
-	setActive(slot0.otherBg, slot6)
+	setActive(slot0.otherBg, slot7)
 end
 
 function slot0.updateProps(slot0, slot1)

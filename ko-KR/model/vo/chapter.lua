@@ -323,13 +323,20 @@ function slot0.update(slot0, slot1)
 	end
 
 	slot0.pathFinder = OrientedPathFinding.New({}, ChapterConst.MaxRow, ChapterConst.MaxColumn)
+	slot7 = slot0:getNpcShipByType()
+	slot0.operationBuffList = {}
+
+	for slot11, slot12 in ipairs(slot1.operation_buff) do
+		slot0.operationBuffList[#slot0.operationBuffList + 1] = slot12
+	end
+
 	slot0.fleets = {}
 
 	for slot11, slot12 in ipairs(slot1.group_list) do
 		slot13 = ChapterFleet.New()
 
 		slot13:setup(slot0)
-		slot13:updateNpcShipList(slot0:getNpcShipByType())
+		slot13:updateNpcShipList(slot7)
 		slot13:update(slot12)
 
 		slot0.fleets[slot11] = slot13
@@ -360,12 +367,6 @@ function slot0.update(slot0, slot1)
 	slot0.roundIndex = slot1.round
 	slot0.subAutoAttack = slot1.is_submarine_auto_attack
 	slot0.modelCount = slot1.model_act_count
-	slot0.operationBuffList = {}
-
-	for slot11, slot12 in ipairs(slot1.operation_buff) do
-		slot0.operationBuffList[#slot0.operationBuffList + 1] = slot12
-	end
-
 	slot0.airDominanceStatus = nil
 	slot0.extraFlagList = {}
 
@@ -814,21 +815,15 @@ function slot0.getFleetStgIds(slot0, slot1)
 		table.insert(slot2, ChapterConst.Status2StgBuff[slot9])
 	end
 
-	for slot9 = #slot2, 1, -1 do
-		if not pg.strategy_data_template[slot2[slot9]] or pg.strategy_data_template[slot2[slot9]].buff_id == 0 then
-			table.remove(slot2, slot9)
-		end
+	if slot0:getOperationBuffDescStg() then
+		table.insert(slot2, slot5)
 	end
 
 	return slot2
 end
 
 function slot0.GetShowingStartegies(slot0)
-	for slot6, slot7 in ipairs(slot0:getExtraFlags()) do
-		if pg.strategy_data_template[ChapterConst.Status2StgBuff[slot7]].buff_id == 0 then
-			table.insert(slot0:getFleetStgIds(slot0.fleet), slot8)
-		end
-	end
+	slot2 = slot0:getFleetStgIds(slot0.fleet)
 
 	if slot0:getPlayType() == ChapterConst.TypeDOALink and pg.gameset.doa_fever_count.key_value <= slot0.defeatEnemies then
 		table.insert(slot2, pg.gameset.doa_fever_strategy.key_value)
@@ -852,6 +847,14 @@ function slot0.getAirDominanceValue(slot0)
 	end
 
 	return slot1, calcAirDominanceStatus(slot1, slot0:getConfig("air_dominance"), slot2), slot0.airDominanceStatus
+end
+
+function slot0.getOperationBuffDescStg(slot0)
+	for slot4, slot5 in ipairs(slot0.operationBuffList) do
+		if pg.benefit_buff_template[slot5].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
+			return slot5
+		end
+	end
 end
 
 function slot0.setAirDominanceStatus(slot0, slot1)
@@ -896,7 +899,9 @@ function slot0.getFleetBattleBuffs(slot0, slot1)
 	slot2 = slot0.buff_list and Clone(slot0.buff_list) or {}
 
 	_.each(slot0:getFleetStgIds(slot1), function (slot0)
-		table.insert(uv0, pg.strategy_data_template[slot0].buff_id)
+		if pg.strategy_data_template[slot0].buff_id ~= 0 then
+			table.insert(uv0, slot1)
+		end
 	end)
 	table.insertto(slot2, slot0:GetFleetAttachmentConfig("attach_buff", slot1.line.row, slot1.line.column) or {})
 
@@ -2126,7 +2131,18 @@ function slot0.getStageExtraAwards(slot0)
 end
 
 function slot0.GetExtraCostRate(slot0)
-	return math.max(1, 1), {}
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0.operationBuffList) do
+		slot8 = pg.benefit_buff_template[slot7]
+		slot2[#slot2 + 1] = slot8
+
+		if slot8.benefit_type == uv0.OPERATION_BUFF_TYPE_COST then
+			slot1 = 1 + slot8.benefit_effect * 0.01
+		end
+	end
+
+	return math.max(1, slot1), slot2
 end
 
 function slot0.getFleetCost(slot0, slot1)
@@ -2814,6 +2830,55 @@ function slot0.enoughTimes2Start(slot0)
 	else
 		return true
 	end
+end
+
+function slot0.GetDailyBonusQuota(slot0)
+	for slot6, slot7 in ipairs(slot0:getConfig("boss_expedition_id")) do
+		slot2 = math.max(0, pg.expedition_activity_template[slot7] and slot8.bonus_time or 0)
+	end
+
+	if pg.chapter_defense[slot0.id] then
+		slot2 = math.max(slot2, slot3.bonus_time or 0)
+	end
+
+	return not getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isRemaster() and slot2 > 0 and math.max(slot2 - slot0.todayDefeatCount, 0) > 0
+end
+
+slot0.OPERATION_BUFF_TYPE_COST = "more_oil"
+slot0.OPERATION_BUFF_TYPE_REWARD = "extra_drop"
+slot0.OPERATION_BUFF_TYPE_EXP = "chapter_up"
+slot0.OPERATION_BUFF_TYPE_DESC = "desc"
+
+function slot0.GetSPOperationItemCacheKey(slot0)
+	return "specialOPItem_" .. slot0
+end
+
+function slot0.GetSPBuffByItem(slot0)
+	slot1 = pg.benefit_buff_template[buffID]
+
+	for slot5, slot6 in pairs(pg.benefit_buff_template) do
+		if tonumber(slot6.benefit_condition) == slot0 then
+			return slot6.id
+		end
+	end
+end
+
+function slot0.GetOperationDesc(slot0)
+	slot1 = ""
+
+	for slot5, slot6 in ipairs(slot0.operationBuffList) do
+		if pg.benefit_buff_template[slot6].benefit_type == uv0.OPERATION_BUFF_TYPE_DESC then
+			slot1 = slot7.desc
+
+			break
+		end
+	end
+
+	return slot1
+end
+
+function slot0.GetOperationBuffList(slot0)
+	return slot0.operationBuffList
 end
 
 return slot0

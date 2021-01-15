@@ -4,7 +4,7 @@ return {
 	init_effect = "",
 	picture = "",
 	desc = "",
-	stack = 1,
+	stack = 10,
 	id = 12321,
 	icon = 12321,
 	last_effect = "",

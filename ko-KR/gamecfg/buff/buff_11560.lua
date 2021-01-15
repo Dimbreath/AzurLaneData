@@ -27,8 +27,32 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				target = "TargetSelf",
+				minWeaponNumber = 1,
+				check_weapon = true,
 				skill_id = 11560,
-				target = "TargetSelf"
+				label = {
+					"USS",
+					"DD",
+					"MG"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				target = "TargetSelf",
+				maxWeaponNumber = 0,
+				check_weapon = true,
+				skill_id = 11561,
+				label = {
+					"USS",
+					"DD",
+					"MG"
+				}
 			}
 		}
 	}

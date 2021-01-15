@@ -21,13 +21,6 @@ function slot0.register(slot0)
 	slot0:on(22102, function (slot0)
 		getProxy(ShopsProxy):setShopStreet(ShoppingStreet.New(slot0.street))
 	end)
-	slot0:on(60034, function (slot0)
-		if uv0.guildShop then
-			uv0:updateGuildShop(GuildShop.New(slot0.info), true)
-		else
-			uv0:setGuildShop(slot1)
-		end
-	end)
 
 	slot0.shamShop = ShamBattleShop.New()
 	slot0.fragmentShop = FragmentShop.New()
@@ -236,34 +229,7 @@ end
 function slot0.setGuildShop(slot0, slot1)
 	slot0.guildShop = slot1
 
-	slot0:addGuildShopRefreshTimer()
 	slot0:sendNotification(uv0.GUILD_SHOP_ADDED, slot0.guildShop)
-end
-
-function slot0.addGuildShopRefreshTimer(slot0)
-	if slot0.guildShopTimer then
-		slot0.guildShopTimer:Stop()
-
-		slot0.guildShopTimer = nil
-	end
-
-	if slot0.guildShop.nextRefreshTime - pg.TimeMgr.GetInstance():GetServerTime() + 1 > 0 then
-		slot0.guildShopTimer = Timer.New(function ()
-			uv0.guildShopTimer:Stop()
-
-			uv0.guildShopTimer = nil
-
-			uv0:sendNotification(GAME.GET_GUILD_SHOP, {
-				type = GuildShop.AUTO_REFRESH
-			})
-		end, slot1, 1)
-	else
-		slot0:sendNotification(GAME.GET_GUILD_SHOP, {
-			type = GuildShop.AUTO_REFRESH
-		})
-	end
-
-	slot0.guildShopTimer:Start()
 end
 
 function slot0.getGuildShop(slot0)
@@ -313,12 +279,6 @@ function slot0.remove(slot0)
 	end
 
 	slot0.timers = nil
-
-	if slot0.guildShopTimer then
-		slot0.guildShopTimer:Stop()
-
-		slot0.guildShopTimer = nil
-	end
 
 	slot0:removeWaitTimer()
 end

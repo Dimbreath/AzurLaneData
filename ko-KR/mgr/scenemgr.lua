@@ -134,6 +134,40 @@ function slot1.removeLayer(slot0, slot1, slot2, slot3)
 	seriesAsync(slot6, slot3)
 end
 
+function slot1.removeLayerMediator(slot0, slot1, slot2, slot3)
+	slot4 = {
+		slot2
+	}
+	slot5 = {}
+
+	while #slot4 > 0 do
+		if table.remove(slot4, 1).mediator then
+			table.insert(slot5, slot6)
+		end
+
+		for slot10, slot11 in ipairs(slot6.children) do
+			table.insert(slot4, slot11)
+		end
+	end
+
+	if slot2.parent ~= nil then
+		slot2.parent:removeChild(slot2)
+	end
+
+	slot6 = {}
+
+	for slot10 = #slot5, 1, -1 do
+		if slot1:removeMediator(slot5[slot10].mediator.__cname) then
+			table.insert(slot6, {
+				mediator = slot12,
+				context = slot11
+			})
+		end
+	end
+
+	slot3(slot6)
+end
+
 function slot1.remove(slot0, slot1, slot2)
 	slot3 = nil
 

@@ -27,6 +27,8 @@ slot2 = "smoke"
 slot1.SMOKE_FX_NAME = slot2
 slot2 = "Bomb"
 slot1.BOMB_FX_NAME = slot2
+slot2 = "danchuanlanghuazhong2"
+slot1.DANCHUAN_MOVE_WAVE_FX_NAME = slot2
 
 function slot2(slot0)
 end
@@ -479,6 +481,21 @@ function slot2(slot0, slot1)
 	slot2 = slot0.GetSceneMediator
 	slot2 = slot2(slot3)
 	slot4 = slot1
+	slot3 = slot1.AddBarrierClock
+	slot6 = slot2
+	slot5 = slot2.InstantiateCharacterComponent
+	slot7 = "CastClockContainer/shieldClock"
+
+	slot3(slot4, slot5(slot6, slot7))
+end
+
+slot1.MakeBarrierClock = slot2
+
+function slot2(slot0, slot1)
+	slot3 = slot0
+	slot2 = slot0.GetSceneMediator
+	slot2 = slot2(slot3)
+	slot4 = slot1
 	slot3 = slot1.AddVigilantBar
 	slot6 = slot2
 	slot5 = slot2.InstantiateCharacterComponent
@@ -493,6 +510,26 @@ function slot2(slot0, slot1)
 end
 
 slot1.MakeVigilantBar = slot2
+
+function slot2(slot0, slot1)
+	slot3 = slot0
+	slot2 = slot0.GetSceneMediator
+	slot2 = slot2(slot3)
+	slot4 = slot1
+	slot3 = slot1.AddCloakBar
+	slot6 = slot2
+	slot5 = slot2.InstantiateCharacterComponent
+	slot7 = "CloakContainer/cloakMeter"
+
+	slot3(slot4, slot5(slot6, slot7))
+
+	slot4 = slot1
+	slot3 = slot1.UpdateCloakBarPosition
+
+	slot3(slot4)
+end
+
+slot1.MakeCloakBar = slot2
 
 function slot2(slot0, slot1, slot2)
 	if slot2 then

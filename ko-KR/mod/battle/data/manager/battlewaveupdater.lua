@@ -125,6 +125,18 @@ function slot2.onWaveFinish(slot0, slot1)
 	end
 end
 
+function slot2.GetAllBossWave(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0._waveInfoList) do
+		if slot6:GetType() == uv0.NORMAL and slot6:IsBossWave() then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	return slot1
+end
+
 function slot2.CheckAllKeyWave(slot0)
 	for slot4, slot5 in ipairs(slot0._keyList) do
 		if not slot5:IsFinish() then

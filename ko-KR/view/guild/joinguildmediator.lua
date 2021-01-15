@@ -39,7 +39,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:sortGuilds()
 		end
 	elseif slot2 == GAME.GUILD_APPLY_DONE then
-		slot0.viewComponent:closeApply()
+		slot0.viewComponent:CloseApply()
 	end
 end
 

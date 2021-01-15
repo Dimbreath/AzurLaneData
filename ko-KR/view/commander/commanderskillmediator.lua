@@ -1,6 +1,9 @@
 slot0 = class("CommanderSkillMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
+	if slot0.contextData.isWorld then
+		slot0.contextData.commonFlag = false
+	end
 end
 
 function slot0.listNotificationInterests(slot0)

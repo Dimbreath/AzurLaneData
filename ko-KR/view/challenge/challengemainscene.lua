@@ -38,6 +38,8 @@ function slot0.willExit(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 	end
+
+	slot0:destroyCommanderPanel()
 end
 
 function slot0.onBackPressed(slot0)
@@ -151,9 +153,7 @@ function slot0.findUI(slot0)
 		uv0:openShipInfo(slot0, slot1)
 	end
 
-	slot0.commanderFormationPanel = CmdLevelFormationPanel.New(slot0:findTF("commander_panel"))
-
-	slot0.commanderFormationPanel:attach(slot0)
+	slot0:buildCommanderPanel()
 end
 
 function slot0.tryPlayGuide(slot0)
@@ -829,36 +829,61 @@ function slot0.setCommanderPrefabs(slot0, slot1)
 end
 
 function slot0.openCommanderPanel(slot0, slot1, slot2)
-	slot0.levelCMDFormationView = LevelCMDFormationView.New(slot0.fleetSelect, slot0.event, slot0.contextData)
+	slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id
 
-	slot0.levelCMDFormationView:Load()
-	slot0.levelCMDFormationView:ActionInvoke("update", slot1, slot0.commanderPrefabs, function (slot0)
-		if slot0.type == LevelUIConst.COMMANDER_OP_ADD then
+	slot0.levelCMDFormationView:setCallback(function (slot0)
+		if slot0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
+			uv0:emit(ChallengeMainMediator.ON_COMMANDER_SKILL, slot0.skill)
+		elseif slot0.type == LevelUIConst.COMMANDER_OP_ADD then
 			uv0.contextData.eliteCommanderSelected = {
 				fleetIndex = uv1,
 				cmdPos = slot0.pos,
 				mode = uv0.curMode
 			}
 
-			uv0:emit(ChallengeMainMediator.ON_SELECT_ELITE_COMMANDER, uv1, slot0.pos, chapterId)
+			uv0:emit(ChallengeMainMediator.ON_SELECT_ELITE_COMMANDER, uv1, slot0.pos)
 			uv0:closeCommanderPanel()
 			uv0:hideFleetEdit()
+		else
+			uv0:emit(ChallengeMainMediator.COMMANDER_FORMATION_OP, {
+				FleetType = LevelUIConst.FLEET_TYPE_ACTIVITY,
+				data = slot0,
+				fleetId = uv2.id,
+				actId = uv3
+			})
 		end
 	end)
-	slot0.levelCMDFormationView:ActionInvoke("open")
-	slot0.levelCMDFormationView:ActionInvoke("hidePrefabButtons")
+	slot0.levelCMDFormationView:Load()
+	slot0.levelCMDFormationView:ActionInvoke("update", slot1, slot0.commanderPrefabs)
+	slot0.levelCMDFormationView:ActionInvoke("Show")
+end
+
+function slot0.closeCommanderPanel(slot0)
+	if slot0.levelCMDFormationView:isShowing() then
+		slot0.levelCMDFormationView:ActionInvoke("Hide")
+	end
+end
+
+function slot0.updateCommanderFleet(slot0, slot1)
+	if slot0.levelCMDFormationView:isShowing() then
+		slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot1)
+	end
 end
 
 function slot0.updateCommanderPrefab(slot0)
-	if slot0.levelCMDFormationView and slot0.levelCMDFormationView:GetLoaded() then
+	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("updatePrefabs", slot0.commanderPrefabs)
 	end
 end
 
-function slot0.closeCommanderPanel(slot0)
-	if slot0.levelCMDFormationView and slot0.levelCMDFormationView:GetLoaded() and not slot0.levelCMDFormationView:CheckState(BaseSubView.STATES.DESTROY) then
-		slot0.levelCMDFormationView:close()
-	end
+function slot0.buildCommanderPanel(slot0)
+	slot0.levelCMDFormationView = LevelCMDFormationView.New(slot0.fleetSelect, slot0.event, slot0.contextData)
+end
+
+function slot0.destroyCommanderPanel(slot0)
+	slot0.levelCMDFormationView:Destroy()
+
+	slot0.levelCMDFormationView = nil
 end
 
 return slot0

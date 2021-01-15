@@ -43,7 +43,10 @@ slot0.AttrListInheritance = {
 	"dropBombAccuracy",
 	"aircraftBooster",
 	"manualEnhancement",
-	"initialEnhancement"
+	"initialEnhancement",
+	"worldBuffResistance",
+	"airResistPierceActive",
+	"airResistPierce"
 }
 
 function slot0.InsertInheritedAttr(slot0)
@@ -91,10 +94,6 @@ end
 
 function slot0.Whosyourdaddy(slot0)
 	slot0._attr.isInvincible = (slot0._attr.isInvincible or 0) + 1
-end
-
-function slot0.Imyourson(slot0)
-	slot0._attr.isInvincible = (slot0._attr.isInvincible or 0) - 1
 end
 
 function slot0.AddImmuneAreaLimit(slot0, slot1)
@@ -155,6 +154,20 @@ function slot0.CancelStun(slot0)
 	slot0._attr.isStun = (slot0._attr.isStun or 0) - 1
 end
 
+function slot0.IsCloak(slot0)
+	return (slot0._attr.isCloak or 0) == 1
+end
+
+function slot0.Cloak(slot0)
+	slot0._attr.isCloak = 1
+	slot0._attr.airResistPierceActive = 1
+end
+
+function slot0.Uncloak(slot0)
+	slot0._attr.isCloak = 0
+	slot0._attr.airResistPierceActive = 0
+end
+
 function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3 = slot0._attr or {}
 	slot0._attr = slot3
@@ -175,7 +188,7 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.dodgeRate = slot1.dodge
 	slot3.velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot1.speed)
 	slot3.luck = slot1.luck
-	slot3.repressReduce = slot0:GetRepressReduce()
+	slot3.repressReduce = slot1.repressReduce or 1
 	slot3.oxyMax = slot1.oxy_max
 	slot3.oxyCost = slot1.oxy_cost
 	slot3.oxyRecovery = slot1.oxy_recovery
@@ -183,12 +196,26 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.oxyAtkDuration = slot1.attack_duration
 	slot3.raidDist = slot1.raid_distance
 	slot3.sonarRange = slot1.sonarRange or 0
-	slot3.sonarInterval = slot1.sonarInterval or 0
-	slot3.sonarDuration = slot1.sonarDuration or 0
+	slot3.cloakExpose = slot2 and math.max(slot2.dodge + ys.Battle.BattleConfig.CLOAK_EXPOSE_CONST, ys.Battle.BattleConfig.CLOAK_EXPOSE_MAX) or 0
+	slot3.cloakRestore = math.max(slot3.cloakExpose + ys.Battle.BattleConfig.CLOAK_BASE_RESTORE_DELTA, 0)
+	slot3.cloakRecovery = ys.Battle.BattleConfig.CLOAK_RECOVERY
+	slot3.cloakStrikeAdditive = ys.Battle.BattleConfig.CLOAK_STRIKE_ADDITIVE
+	slot3.airResistPierce = ys.Battle.BattleConfig.BASE_ARP
+	slot3.healingRate = 1
+	slot3.DMG_TAG_EHC_N_99 = slot1[AttributeType.AntiSiren] or 0
 	slot3.comboTag = "combo_" .. slot3.battleUID
 	slot3.labelTag = {}
 
 	uv0.SetBaseAttr(slot0)
+end
+
+function slot0.AttrFixer(slot0, slot1)
+	if slot0 == SYSTEM_SCENARIO then
+		slot1.repressReduce = ys.Battle.BattleDataProxy.GetInstance():GetRepressReduce()
+	elseif slot0 == SYSTEM_DUEL or slot0 == SYSTEM_SHAM then
+		slot4, slot5 = ys.Battle.BattleDataFunction.GetPlayerUnitDurabilityExtraAddition(slot0, slot1.level)
+		slot1.durability = slot1.durability * slot4 + slot5
+	end
 end
 
 function slot0.InitDOTAttr(slot0, slot1)
@@ -212,7 +239,7 @@ function slot0.SetEnemyAttr(slot0, slot1)
 	slot0._attr = slot4
 	slot4.battleUID = slot0:GetUniqueID()
 	slot4.level = slot3
-	slot4.formulaLevel = math.max(1, slot3 - (slot1 or 0))
+	slot4.formulaLevel = slot3
 	slot5 = (slot3 - 1) / 1000
 	slot4.maxHP = slot2.durability + slot2.durability_growth * slot5
 	slot4.cannonPower = slot2.cannon + slot2.cannon_growth * slot5
@@ -229,10 +256,53 @@ function slot0.SetEnemyAttr(slot0, slot1)
 	slot4.bulletSpeedRatio = 0
 	slot4.id = "enemy_" .. tostring(slot2.id)
 	slot4.repressReduce = 1
+	slot4.healingRate = 1
 	slot4.comboTag = "combo_" .. slot4.battleUID
 	slot4.labelTag = {}
 
 	uv0.SetBaseAttr(slot0)
+end
+
+function slot0.SetEnemyWorldEnhance(slot0)
+	slot2 = slot0._attr
+	slot3 = slot2.level
+	slot5 = slot0._tmpData.world_enhancement
+	slot6 = ys.Battle.BattleFormulas
+	slot2.maxHP = slot2.maxHP * slot6.WorldEnemyAttrEnhance(slot5[1], slot3)
+	slot2.cannonPower = slot2.cannonPower * slot6.WorldEnemyAttrEnhance(slot5[2], slot3)
+	slot2.torpedoPower = slot2.torpedoPower * slot6.WorldEnemyAttrEnhance(slot5[3], slot3)
+	slot2.antiAirPower = slot2.antiAirPower * slot6.WorldEnemyAttrEnhance(slot5[4], slot3)
+	slot2.airPower = slot2.airPower * slot6.WorldEnemyAttrEnhance(slot5[5], slot3)
+	slot2.attackRating = slot2.attackRating * slot6.WorldEnemyAttrEnhance(slot5[6], slot3)
+	slot2.dodgeRate = slot2.dodgeRate * slot6.WorldEnemyAttrEnhance(slot5[7], slot3)
+	slot7 = ys.Battle.BattleDataProxy.GetInstance():GetInitData()
+	slot8, slot9, slot2.worldBuffResistance = slot6.WorldMapRewardAttrEnhance(slot7.EnemyMapRewards, slot7.FleetMapRewards)
+	slot2.cannonPower = slot2.cannonPower * (1 + slot8)
+	slot2.torpedoPower = slot2.torpedoPower * (1 + slot8)
+	slot2.airPower = slot2.airPower * (1 + slot8)
+	slot2.antiAirPower = slot2.antiAirPower * (1 + slot8)
+	slot2.antiSubPower = slot2.antiSubPower * (1 + slot8)
+	slot2.maxHP = slot2.maxHP * (1 + slot9)
+
+	uv0.SetBaseAttr(slot0)
+end
+
+function slot0.IsWorldMapRewardAttrWarning(slot0, slot1)
+	for slot5 = 1, 3 do
+		if slot1[slot5] / (slot0[slot5] ~= 0 and slot0[slot5] or 1) < pg.gameset.world_mapbuff_tips.key_value / 10000 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.MonsterAttrFixer(slot0, slot1)
+	if slot0 == SYSTEM_SCENARIO then
+		uv0.SetCurrent(slot1, "formulaLevel", math.max(1, uv0.GetCurrent(slot1, "level") - (ys.Battle.BattleDataProxy.GetInstance():IsCompletelyRepress() and slot2:GetRepressLevel() or 0)))
+	elseif slot0 == SYSTEM_WORLD then
+		uv0.SetEnemyWorldEnhance(slot1)
+	end
 end
 
 function slot0.SetAircraftAttFromMother(slot0, slot1)
@@ -241,7 +311,7 @@ function slot0.SetAircraftAttFromMother(slot0, slot1)
 	slot2.battleUID = slot0:GetUniqueID()
 	slot2.hostUID = slot1:GetUniqueID()
 
-	if type(slot1._attr.id) == "number" then
+	if not type(slot1._attr.id) == "string" or string.find(slot1._attr.id, "enemy_") == nil then
 		slot2.id = slot1._attr.id
 	end
 
@@ -273,7 +343,7 @@ function slot0.SetAircraftAttFromTemp(slot0)
 	slot0._attr.dodgeLimit = slot0._tmpData.dodge_limit
 end
 
-function ys.Battle.BattleAttr.SetAirFighterAttr(slot0, slot1)
+function slot0.SetAirFighterAttr(slot0, slot1)
 	slot2 = slot0._attr or {}
 	slot0._attr = slot2
 	slot3 = ys.Battle.BattleDataProxy.GetInstance()
@@ -362,26 +432,32 @@ function slot0.RatioIncrease(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetTagAttr(slot0, slot1)
-	for slot7, slot8 in ipairs(slot1:GetLabelTag()) do
+function slot0.GetTagAttr(slot0, slot1, slot2)
+	for slot8, slot9 in ipairs(slot1:GetLabelTag()) do
 		-- Nothing
 	end
 
-	for slot8, slot9 in pairs({
-		[uv0.TAG_EHC_KEY .. slot8] = true
+	slot5 = 1
+
+	for slot9, slot10 in pairs({
+		[uv0.TAG_EHC_KEY .. slot9] = true
 	}) do
-		if uv0.GetCurrent(slot0, slot8) ~= 0 then
-			slot4 = 1 * (1 + slot10)
+		if uv0.GetCurrent(slot0, slot9) ~= 0 then
+			if slot2 then
+				slot11 = ys.Battle.BattleDataFunction.GetLimitAttributeRange(slot9, slot11)
+			end
+
+			slot5 = slot5 * (1 + slot11)
 		end
 	end
 
 	if uv0.GetCurrent(slot1, uv0.FROM_TAG_EHC_KEY) > 0 then
-		for slot12, slot13 in pairs(uv0.GetCurrentTags(slot0)) do
-			if slot13 > 0 and uv0.GetCurrent(slot1, uv0.FROM_TAG_EHC_KEY .. slot0:GetWeaponTempData().attack_attribute .. "_" .. slot12) ~= 0 then
-				slot4 = slot4 * (1 + slot15)
+		for slot13, slot14 in pairs(uv0.GetCurrentTags(slot0)) do
+			if slot14 > 0 and uv0.GetCurrent(slot1, uv0.FROM_TAG_EHC_KEY .. slot0:GetWeaponTempData().attack_attribute .. "_" .. slot13) ~= 0 then
+				slot5 = slot5 * (1 + slot16)
 			end
 		end
 	end
 
-	return slot4
+	return slot5
 end

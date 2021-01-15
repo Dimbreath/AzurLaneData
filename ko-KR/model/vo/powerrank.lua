@@ -6,7 +6,8 @@ slot0.TYPE_PLEDGE = 4
 slot0.TYPE_CHALLENGE = 5
 slot0.TYPE_EXTRA_CHAPTER = 6
 slot0.TYPE_ACT_BOSS_BATTLE = 7
-slot0.TYPE_MILITARY_RANK = 8
+slot0.TYPE_GUILD_BATTLE = 8
+slot0.TYPE_MILITARY_RANK = 9
 slot0.typeInfo = {
 	{
 		title_word = {
@@ -76,7 +77,7 @@ slot0.typeInfo = {
 		},
 		act_type = ActivityConst.ACTIVITY_TYPE_BOSS_RANK
 	},
-	{
+	[9] = {
 		title_word = {
 			5,
 			8,

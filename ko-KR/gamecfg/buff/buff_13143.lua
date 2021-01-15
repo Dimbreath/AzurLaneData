@@ -28,7 +28,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				countTarget = 3,
+				countTarget = 2,
 				countType = 13141
 			}
 		},
@@ -51,7 +51,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				countTarget = 6,
+				countTarget = 4,
 				countType = 13142
 			}
 		},

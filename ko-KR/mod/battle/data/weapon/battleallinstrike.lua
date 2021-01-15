@@ -124,6 +124,7 @@ function slot5.Fire(slot0)
 	end
 
 	slot0._skill:Cast(slot0._host)
+	slot0._host:StrikeExpose()
 	slot0._host:StateChange(uv0.Battle.UnitState.STATE_ATTACK, "attack")
 	slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_FIRE, {}))
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE, {})
@@ -139,6 +140,7 @@ function slot5.SingleFire(slot0)
 	end
 
 	slot0._skill:Cast(slot0._host)
+	slot0._host:StrikeExpose()
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE, {})
 end
 

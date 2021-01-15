@@ -38,14 +38,14 @@ function slot0.initSkills(slot0)
 
 		if slot0._shipVO.skills[slot8] then
 			onButton(slot0, cloneTplTo(slot0.skillTpl, slot0.skillContainer), function ()
-				uv0:emit(NewShipMediator.ON_SKILLINFO, uv1.id, "", uv2[uv3])
+				uv0:emit(NewShipMediator.ON_SKILLINFO, uv1.id, uv2[uv3])
 			end, SFX_PANEL)
 		else
 			slot11 = cloneTplTo(slot0.emptyTpl, slot0.skillContainer)
 
 			setActive(slot0:findTF("mask", slot11), true)
 			onButton(slot0, slot11, function ()
-				uv0:emit(NewShipMediator.ON_SKILLINFO, uv1.id, i18n("ship_skill_unlock_tip"))
+				uv0:emit(NewShipMediator.ON_SKILLINFO, uv1.id)
 			end, SFX_PANEL)
 		end
 

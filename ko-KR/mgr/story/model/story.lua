@@ -17,6 +17,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.once = slot1.once
 	slot0.fadeOut = slot1.fadeOut
 	slot0.hideSkip = slot1.hideSkip
+	slot0.skipTip = defaultValue(slot1.skipTip, true)
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
 	slot0.steps = {}
 
@@ -26,9 +27,14 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.branchCode = nil
 	slot0.force = slot2
+	slot0.isReview = slot3
 	slot0.isPlayed = pg.NewStoryMgr:GetInstance():IsPlayed(slot0.name)
 	slot0.nextScriptName = nil
 	slot0.skipAll = false
+end
+
+function slot0.ShowSkipTip(slot0)
+	return slot0.skipTip
 end
 
 function slot0.ShouldWaitFadeout(slot0)
@@ -40,7 +46,7 @@ function slot0.ShouldHideSkip(slot0)
 end
 
 function slot0.CanPlay(slot0)
-	return slot0.force or not slot0.isPlayed
+	return slot0.force or not slot0.isPlayed or slot0.isReview
 end
 
 function slot0.GetId(slot0)

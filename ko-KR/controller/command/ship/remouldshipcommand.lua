@@ -48,7 +48,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	for slot19, slot20 in ipairs(slot8.ship_id) do
-		if slot20[1] == slot11.configId and slot7.equip_bag_max <= getProxy(EquipmentProxy):getCapacity() then
+		if slot20[1] == slot11.configId and slot7:getMaxEquipmentBag() <= getProxy(EquipmentProxy):getCapacity() then
 			slot22 = Clone(slot11)
 			slot22.configId = slot20[2]
 

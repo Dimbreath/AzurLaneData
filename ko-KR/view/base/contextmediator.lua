@@ -27,6 +27,7 @@ function slot0.onRegister(slot0)
 	slot0:bind(BaseUI.ON_HOME, function (slot0)
 		if getProxy(ContextProxy):getCurrentContext():retriveLastChild() and slot3 ~= slot2 then
 			uv0:sendNotification(GAME.REMOVE_LAYERS, {
+				onHome = true,
 				context = slot3
 			})
 		end
@@ -103,93 +104,110 @@ function slot0.onRegister(slot0)
 			}
 		}))
 	end)
-	slot0:bind(BaseUI.ON_AWARD, function (slot0, slot1, slot2, slot3)
-		if _.all(slot1.items, function (slot0)
+	slot0:bind(BaseUI.ON_AWARD, function (slot0, slot1)
+		slot2 = {}
+
+		if not _.all(slot1.items, function (slot0)
 			return slot0.type == DROP_TYPE_ICON_FRAME or slot0.type == DROP_TYPE_CHAT_FRAME
 		end) then
-			if slot1.onYes then
-				onNextTick(slot1.onYes)
-			end
-
-			return
+			table.insert(slot2, function (slot0)
+				uv0:addSubLayers(Context.New({
+					mediator = AwardInfoMediator,
+					viewComponent = AwardInfoLayer,
+					data = setmetatable({
+						removeFunc = slot0
+					}, {
+						__index = uv1
+					})
+				}))
+			end)
 		end
 
-		uv0:addSubLayers(Context.New({
-			mediator = AwardInfoMediator,
-			viewComponent = AwardInfoLayer,
-			data = {
-				awards = slot1,
-				title = slot2,
-				removeFunc = slot3,
-				animation = slot1.animation
-			}
-		}))
+		seriesAsync(slot2, slot1.removeFunc)
 	end)
-	slot0:bind(BaseUI.ON_ACHIEVE, function (slot0, slot1, slot2)
-		slot3 = nil
-		slot3 = coroutine.create(function ()
-			if table.getCount(uv0) > 0 then
-				uv1.viewComponent:emit(BaseUI.ON_AWARD, {
-					items = uv0,
-					onYes = uv2
-				})
-				coroutine.yield()
 
-				slot1 = _.filter(uv0, function (slot0)
-					return slot0.type == DROP_TYPE_NPC_SHIP
-				end)
-				slot3 = getProxy(BayProxy):getNewShip(true)
+	function slot1(slot0, slot1)
+		slot3 = getProxy(BayProxy):getNewShip(true)
 
-				_.each(slot1, function (slot0)
-					table.insert(uv0, uv1:getShipById(slot0.id))
-				end)
-
-				if #_.filter(uv0, function (slot0)
-					return slot0.type == DROP_TYPE_SHIP
-				end) + #slot1 <= (pg.gameset.award_ship_limit and pg.gameset.award_ship_limit.key_value or 20) then
-					for slot8 = math.max(1, #slot3 - slot0 + 1), #slot3 do
-						uv1:addSubLayers(Context.New({
-							mediator = NewShipMediator,
-							viewComponent = NewShipLayer,
-							data = {
-								ship = slot3[slot8]
-							},
-							onRemoved = uv2
-						}))
-						coroutine.yield()
-					end
-				end
-
-				for slot8, slot9 in pairs(uv0) do
-					if slot9.type == DROP_TYPE_SKIN then
-						if pg.ship_skin_template[slot9.id].skin_type == ShipSkin.SKIN_TYPE_REMAKE then
-							-- Nothing
-						elseif not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot9.id) then
-							uv1:addSubLayers(Context.New({
-								mediator = NewSkinMediator,
-								viewComponent = NewSkinLayer,
-								data = {
-									skinId = slot9.id
-								},
-								onRemoved = uv2
-							}))
-						end
-
-						coroutine.yield()
-					end
-				end
-			end
-
-			if uv3 then
-				uv3()
+		underscore.each(slot0, function (slot0)
+			if slot0.type == DROP_TYPE_NPC_SHIP then
+				table.insert(uv0, uv1:getShipById(slot0.id))
+			elseif slot0.type == DROP_TYPE_SHIP then
+				uv2 = uv2 - 1
 			end
 		end)
 
-		function ()
-			if uv0 and coroutine.status(uv0) == "suspended" then
-				slot0, slot1 = coroutine.resume(uv0)
+		if (pg.gameset.award_ship_limit and pg.gameset.award_ship_limit.key_value or 20) >= #underscore.rest(slot3, #slot3 + 1) then
+			for slot9, slot10 in ipairs(slot3) do
+				table.insert(slot1, function (slot0)
+					uv0:addSubLayers(Context.New({
+						mediator = NewShipMediator,
+						viewComponent = NewShipLayer,
+						data = {
+							ship = uv1
+						},
+						onRemoved = slot0
+					}))
+				end)
 			end
-		end()
+		end
+	end
+
+	function slot2(slot0, slot1)
+		for slot5, slot6 in pairs(slot0) do
+			if slot6.type == DROP_TYPE_SKIN and pg.ship_skin_template[slot6.id].skin_type ~= ShipSkin.SKIN_TYPE_REMAKE and not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot6.id) then
+				table.insert(slot1, function (slot0)
+					uv0:addSubLayers(Context.New({
+						mediator = NewSkinMediator,
+						viewComponent = NewSkinLayer,
+						data = {
+							skinId = uv1.id
+						},
+						onRemoved = slot0
+					}))
+				end)
+			end
+		end
+	end
+
+	slot0:bind(BaseUI.ON_ACHIEVE, function (slot0, slot1, slot2)
+		slot3 = {}
+
+		if #slot1 > 0 then
+			table.insert(slot3, function (slot0)
+				uv0.viewComponent:emit(BaseUI.ON_AWARD, {
+					items = uv1,
+					removeFunc = slot0
+				})
+			end)
+			table.insert(slot3, function (slot0)
+				uv0(uv1, uv2)
+				uv3(uv1, uv2)
+				slot0()
+			end)
+		end
+
+		seriesAsyncExtend(slot3, slot2)
+	end)
+	slot0:bind(BaseUI.ON_WORLD_ACHIEVE, function (slot0, slot1)
+		slot2 = {}
+
+		if #slot1.items > 0 then
+			table.insert(slot2, function (slot0)
+				uv0.viewComponent:emit(BaseUI.ON_AWARD, setmetatable({
+					removeFunc = slot0
+				}, {
+					__index = uv1
+				}))
+			end)
+			table.insert(slot2, function (slot0)
+				uv0(uv1, uv2)
+				uv3(uv1, uv2)
+				slot0()
+			end)
+		end
+
+		seriesAsyncExtend(slot2, slot1.removeFunc)
 	end)
 	slot0:bind(BaseUI.ON_EQUIPMENT, function (slot0, slot1)
 		slot1.type = defaultValue(slot1.type, EquipmentInfoMediator.TYPE_DEFAULT)

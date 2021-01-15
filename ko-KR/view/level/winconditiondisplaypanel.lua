@@ -95,16 +95,6 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.Show(slot0)
-	pg.UIMgr.GetInstance():BlurCamera(pg.UIMgr.CameraLevel)
-	uv0.super.Show(slot0)
-end
-
-function slot0.Hide(slot0)
-	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurCamera(pg.UIMgr.CameraLevel)
-end
-
 function slot0.Enter(slot0, slot1)
 	setText(slot0.winCondDesc, i18n(slot1:getConfig("win_condition_display")))
 	setText(slot0.loseCondDesc, i18n(slot1:getConfig("lose_condition_display")))
@@ -147,8 +137,6 @@ function slot0.OnDestroy(slot0)
 	if slot0.ParentView then
 		slot0.ParentView.winCondPanel = nil
 	end
-
-	pg.UIMgr.GetInstance():UnblurCamera(pg.UIMgr.CameraLevel)
 end
 
 return slot0

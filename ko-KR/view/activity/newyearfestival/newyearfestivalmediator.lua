@@ -6,6 +6,12 @@ slot0.MINIGAME_OPERATION = "MINIGAME_OPERATION"
 slot0.ON_OPEN_PILE_SIGNED = "ON_OPEN_PILE_SIGNED"
 
 function slot0.register(slot0)
+	if slot0.contextData.miniGameID then
+		slot0.contextData.miniGameID = nil
+
+		slot0:sendNotification(GAME.GO_MINI_GAME, slot0.contextData.miniGameID)
+	end
+
 	slot0:BindEvent()
 end
 

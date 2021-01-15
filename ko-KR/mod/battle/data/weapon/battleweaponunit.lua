@@ -5,21 +5,22 @@ slot2 = slot0.Battle.BattleFormulas
 slot3 = slot1.WeaponSuppressType
 slot4 = slot1.WeaponSearchType
 slot5 = slot0.Battle.BattleDataFunction
-slot6 = class("BattleWeaponUnit")
-slot0.Battle.BattleWeaponUnit = slot6
-slot6.__name = "BattleWeaponUnit"
-slot6.INTERNAL = "internal"
-slot6.EXTERNAL = "external"
-slot6.EMITTER_NORMAL = "BattleBulletEmitter"
-slot6.EMITTER_SHOTGUN = "BattleShotgunEmitter"
-slot6.STATE_DISABLE = "DISABLE"
-slot6.STATE_READY = "READY"
-slot6.STATE_PRECAST = "PRECAST"
-slot6.STATE_PRECAST_FINISH = "STATE_PRECAST_FINISH"
-slot6.STATE_ATTACK = "ATTACK"
-slot6.STATE_OVER_HEAT = "OVER_HEAT"
+slot6 = slot0.Battle.BattleAttr
+slot7 = class("BattleWeaponUnit")
+slot0.Battle.BattleWeaponUnit = slot7
+slot7.__name = "BattleWeaponUnit"
+slot7.INTERNAL = "internal"
+slot7.EXTERNAL = "external"
+slot7.EMITTER_NORMAL = "BattleBulletEmitter"
+slot7.EMITTER_SHOTGUN = "BattleShotgunEmitter"
+slot7.STATE_DISABLE = "DISABLE"
+slot7.STATE_READY = "READY"
+slot7.STATE_PRECAST = "PRECAST"
+slot7.STATE_PRECAST_FINISH = "STATE_PRECAST_FINISH"
+slot7.STATE_ATTACK = "ATTACK"
+slot7.STATE_OVER_HEAT = "OVER_HEAT"
 
-function slot6.Ctor(slot0)
+function slot7.Ctor(slot0)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._currentState = slot0.STATE_READY
@@ -33,11 +34,11 @@ function slot6.Ctor(slot0)
 	slot0._jammingTime = 0
 end
 
-function slot6.HostOnEnemy(slot0)
+function slot7.HostOnEnemy(slot0)
 	slot0._hostOnEnemy = true
 end
 
-function slot6.SetPotentialFactor(slot0, slot1)
+function slot7.SetPotentialFactor(slot0, slot1)
 	slot0._potential = slot1
 
 	if slot0._correctedDMG then
@@ -45,15 +46,15 @@ function slot6.SetPotentialFactor(slot0, slot1)
 	end
 end
 
-function slot6.GetEquipmentLabel(slot0)
+function slot7.GetEquipmentLabel(slot0)
 	return slot0._equipmentLabelList or {}
 end
 
-function slot6.SetEquipmentLabel(slot0, slot1)
+function slot7.SetEquipmentLabel(slot0, slot1)
 	slot0._equipmentLabelList = slot1
 end
 
-function slot6.SetTemplateData(slot0, slot1)
+function slot7.SetTemplateData(slot0, slot1)
 	slot0._potential = slot0._potential or 1
 	slot0._tmpData = slot1
 	slot0._maxRangeSqr = slot1.range
@@ -73,7 +74,7 @@ function slot6.SetTemplateData(slot0, slot1)
 	slot0:FlushReloadMax(1)
 end
 
-function slot6.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot7.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot8 = uv2.Battle[slot3 or uv0.EMITTER_NORMAL].New(slot4 or function (slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv0:Spawn(uv0._bulletList[uv1], slot4, uv2.INTERNAL)
 
@@ -103,7 +104,7 @@ function slot6.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot8
 end
 
-function slot6.cacheSectorData(slot0)
+function slot7.cacheSectorData(slot0)
 	slot0._upperEdge = math.deg2Rad * slot0:GetAttackAngle() / 2
 	slot0._lowerEdge = -1 * slot0._upperEdge
 
@@ -119,33 +120,33 @@ function slot6.cacheSectorData(slot0)
 	slot0._negativeCircleNormalizeOffset = slot0._normalizeOffset + math.pi * 2
 end
 
-function slot6.cacheSquareData(slot0)
+function slot7.cacheSquareData(slot0)
 	slot0._frontRange = slot0._tmpData.angle
 	slot0._backRange = slot0._tmpData.axis_angle
 	slot0._upperRange = slot0._tmpData.min_range
 	slot0._lowerRange = slot0._tmpData.range
 end
 
-function slot6.SetModelID(slot0, slot1)
+function slot7.SetModelID(slot0, slot1)
 	slot0._modelID = slot1
 end
 
-function slot6.SetSkinData(slot0, slot1)
+function slot7.SetSkinData(slot0, slot1)
 	slot0._skinID = slot1
 
 	slot0:SetModelID(uv0.GetEquipSkin(slot0._skinID))
 end
 
-function slot6.SetDerivateSkin(slot0, slot1)
+function slot7.SetDerivateSkin(slot0, slot1)
 	slot0._derivateSkinID = slot1
 	slot2, slot0._derivateBullet, slot0._derivateTorpedo, slot0._derivateBoom = uv0.GetEquipSkin(slot0._derivateSkinID)
 end
 
-function slot6.GetSkinID(slot0)
+function slot7.GetSkinID(slot0)
 	return slot0._skinID
 end
 
-function slot6.setBulletSkin(slot0, slot1, slot2)
+function slot7.setBulletSkin(slot0, slot1, slot2)
 	if slot0._derivateSkinID then
 		if uv0.GetBulletTmpDataFromID(slot2).type == uv1.BulletType.BOMB then
 			slot1:SetModleID(slot0._derivateBoom)
@@ -159,15 +160,15 @@ function slot6.setBulletSkin(slot0, slot1, slot2)
 	end
 end
 
-function slot6.SetEquipmentIndex(slot0, slot1)
+function slot7.SetEquipmentIndex(slot0, slot1)
 	slot0._equipmentIndex = slot1
 end
 
-function slot6.GetEquipmentIndex(slot0)
+function slot7.GetEquipmentIndex(slot0)
 	return slot0._equipmentIndex
 end
 
-function slot6.SetHostData(slot0, slot1)
+function slot7.SetHostData(slot0, slot1)
 	slot0._host = slot1
 	slot0._hostUnitType = slot0._host:GetUnitType()
 	slot0._hostIFF = slot1:GetIFF()
@@ -191,39 +192,39 @@ function slot6.SetHostData(slot0, slot1)
 	end
 end
 
-function slot6.SetStandHost(slot0, slot1)
+function slot7.SetStandHost(slot0, slot1)
 	slot0._standHost = slot1
 end
 
-function slot6.OverrideGCD(slot0, slot1)
+function slot7.OverrideGCD(slot0, slot1)
 	slot0._GCD = slot1
 end
 
-function slot6.updateMovementInfo(slot0)
+function slot7.updateMovementInfo(slot0)
 	slot0._hostPos = slot0._host:GetPosition()
 end
 
-function slot6.GetWeaponId(slot0)
+function slot7.GetWeaponId(slot0)
 	return slot0._tmpData.id
 end
 
-function slot6.GetTemplateData(slot0)
+function slot7.GetTemplateData(slot0)
 	return slot0._tmpData
 end
 
-function slot6.GetType(slot0)
+function slot7.GetType(slot0)
 	return slot0._tmpData.type
 end
 
-function slot6.GetPotential(slot0)
+function slot7.GetPotential(slot0)
 	return slot0._potential or 1
 end
 
-function slot6.IsAttacking(slot0)
+function slot7.IsAttacking(slot0)
 	return slot0._currentState == uv0.STATE_ATTACK or slot0._currentState == slot0.STATE_PRECAST
 end
 
-function slot6.Update(slot0)
+function slot7.Update(slot0)
 	slot0:UpdateReload()
 
 	if not slot0._diveEnabled then
@@ -248,11 +249,11 @@ function slot6.Update(slot0)
 	end
 end
 
-function slot6.CheckReloadTimeStamp(slot0)
+function slot7.CheckReloadTimeStamp(slot0)
 	return slot0._CDstartTime and slot0:GetReloadFinishTimeStamp() <= pg.TimeMgr.GetInstance():GetCombatTime()
 end
 
-function slot6.UpdateReload(slot0)
+function slot7.UpdateReload(slot0)
 	if slot0._CDstartTime and not slot0._jammingStartTime then
 		if slot0:GetReloadFinishTimeStamp() <= pg.TimeMgr.GetInstance():GetCombatTime() then
 			slot0:handleCoolDown()
@@ -262,7 +263,7 @@ function slot6.UpdateReload(slot0)
 	end
 end
 
-function slot6.CheckPreCast(slot0)
+function slot7.CheckPreCast(slot0)
 	for slot4, slot5 in pairs(slot0:GetFilteredList()) do
 		return true
 	end
@@ -270,7 +271,7 @@ function slot6.CheckPreCast(slot0)
 	return false
 end
 
-function slot6.ChangeDiveState(slot0)
+function slot7.ChangeDiveState(slot0)
 	if slot0._host:GetOxyState() then
 		for slot5, slot6 in ipairs(slot0._oxyList) do
 			if table.contains(slot0._host:GetOxyState():GetWeaponType(), slot6) then
@@ -284,12 +285,12 @@ function slot6.ChangeDiveState(slot0)
 	end
 end
 
-function slot6.getTrackingHost(slot0)
+function slot7.getTrackingHost(slot0)
 	return slot0._host
 end
 
-function slot6.Tracking(slot0)
-	if uv0.Battle.BattleAttr.GetCurrent(slot0._host, "TargetChoise") == "farthest" then
+function slot7.Tracking(slot0)
+	if uv0.GetCurrent(slot0._host, "TargetChoise") == "farthest" then
 		return slot0:TrackingFarthest(slot0:GetFilteredList())
 	elseif slot1 == "leastHP" then
 		return slot0:TrackingLeastHP(slot0:GetFilteredList())
@@ -302,7 +303,7 @@ function slot6.Tracking(slot0)
 	end
 end
 
-function slot6.GetFilteredList(slot0)
+function slot7.GetFilteredList(slot0)
 	if slot0._tmpData.search_type == uv0.SECTOR then
 		slot1 = slot0:FilterAngle(slot0:FilterRange(slot0:FilterTarget()))
 	elseif slot0._tmpData.search_type == uv0.SQUARE then
@@ -312,17 +313,18 @@ function slot6.GetFilteredList(slot0)
 	return slot1
 end
 
-function slot6.FixWeaponRange(slot0, slot1, slot2, slot3)
+function slot7.FixWeaponRange(slot0, slot1, slot2, slot3, slot4)
 	slot0._maxRangeSqr = slot1 or slot0._tmpData.range
 	slot0._minRangeSqr = slot3 or slot0._tmpData.min_range
 	slot0._fixBulletRange = slot2
+	slot0._bulletRangeOffset = slot4
 end
 
-function slot6.GetFixBulletRange(slot0)
-	return slot0._fixBulletRange
+function slot7.GetFixBulletRange(slot0)
+	return slot0._fixBulletRange, slot0._bulletRangeOffset
 end
 
-function slot6.TrackingNearest(slot0, slot1)
+function slot7.TrackingNearest(slot0, slot1)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -335,7 +337,7 @@ function slot6.TrackingNearest(slot0, slot1)
 	return slot3
 end
 
-function slot6.TrackingFarthest(slot0, slot1)
+function slot7.TrackingFarthest(slot0, slot1)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -348,7 +350,7 @@ function slot6.TrackingFarthest(slot0, slot1)
 	return slot3
 end
 
-function slot6.TrackingLeastHP(slot0, slot1)
+function slot7.TrackingLeastHP(slot0, slot1)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -361,7 +363,7 @@ function slot6.TrackingLeastHP(slot0, slot1)
 	return slot3
 end
 
-function slot6.TrackingModelID(slot0, slot1, slot2)
+function slot7.TrackingModelID(slot0, slot1, slot2)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -373,7 +375,7 @@ function slot6.TrackingModelID(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot6.TrackingRandom(slot0, slot1)
+function slot7.TrackingRandom(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot1) do
@@ -389,7 +391,7 @@ function slot6.TrackingRandom(slot0, slot1)
 	end
 end
 
-function slot6.TrackingTag(slot0, slot1, slot2)
+function slot7.TrackingTag(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -407,22 +409,27 @@ function slot6.TrackingTag(slot0, slot1, slot2)
 	end
 end
 
-function slot6.FilterTarget(slot0)
+function slot7.FilterTarget(slot0)
 	slot1 = nil
 	slot2 = {}
 	slot3 = 1
+	slot4 = slot0._tmpData.search_condition
 
 	for slot8, slot9 in pairs((slot0._hostIFF ~= slot0._dataProxy:GetFriendlyCode() or slot0._dataProxy:GetFoeShipList()) and slot0._dataProxy:GetFriendlyShipList()) do
-		if table.contains(slot0._tmpData.search_condition, slot9:GetCurrentOxyState()) then
-			slot11 = true
+		slot10 = slot9:GetCurrentOxyState()
 
-			if slot10 == uv0.OXY_STATE.FLOAT then
+		if uv0.IsCloak(slot9) then
+			-- Nothing
+		elseif table.contains(slot4, slot10) then
+			slot12 = true
+
+			if slot10 == uv1.OXY_STATE.FLOAT then
 				-- Nothing
-			elseif slot10 == uv0.OXY_STATE.DIVE and not slot9:IsRunMode() and not slot9:GetDiveDetected() and slot9:GetDiveInvisible() then
-				slot11 = false
+			elseif slot10 == uv1.OXY_STATE.DIVE and not slot9:IsRunMode() and not slot9:GetDiveDetected() and slot9:GetDiveInvisible() then
+				slot12 = false
 			end
 
-			if slot11 then
+			if slot12 then
 				slot2[slot3] = slot9
 				slot3 = slot3 + 1
 			end
@@ -432,7 +439,7 @@ function slot6.FilterTarget(slot0)
 	return slot2
 end
 
-function slot6.FilterAngle(slot0, slot1)
+function slot7.FilterAngle(slot0, slot1)
 	if slot0:GetAttackAngle() >= 360 then
 		return slot1
 	end
@@ -446,7 +453,7 @@ function slot6.FilterAngle(slot0, slot1)
 	return slot1
 end
 
-function slot6.FilterRange(slot0, slot1)
+function slot7.FilterRange(slot0, slot1)
 	for slot5 = #slot1, 1, -1 do
 		if slot0:IsOutOfRange(slot1[slot5]) then
 			table.remove(slot1, slot5)
@@ -456,7 +463,7 @@ function slot6.FilterRange(slot0, slot1)
 	return slot1
 end
 
-function slot6.FilterSquare(slot0, slot1)
+function slot7.FilterSquare(slot0, slot1)
 	slot2 = slot0:GetDirection()
 	slot6 = uv0.Battle.BattleTargetChoise.TargetWeightiest(slot0._host, nil, uv0.Battle.BattleTargetChoise.TargetInsideArea(slot0._host, {
 		lineX = slot0._host:GetPosition().x + slot0._backRange * slot2 * -1,
@@ -478,11 +485,11 @@ function slot6.FilterSquare(slot0, slot1)
 	return slot1
 end
 
-function slot6.GetAttackAngle(slot0)
+function slot7.GetAttackAngle(slot0)
 	return slot0._tmpData.angle
 end
 
-function slot6.IsOutOfAngle(slot0, slot1)
+function slot7.IsOutOfAngle(slot0, slot1)
 	if slot0:GetAttackAngle() >= 360 then
 		return false
 	end
@@ -496,15 +503,15 @@ function slot6.IsOutOfAngle(slot0, slot1)
 	end
 end
 
-function slot6.IsOutOfRange(slot0, slot1)
+function slot7.IsOutOfRange(slot0, slot1)
 	return slot0._maxRangeSqr < slot0:getTrackingHost():GetDistance(slot1) or slot2 < slot0:GetMinimumRange()
 end
 
-function slot6.IsOutOfSector(slot0, slot1)
+function slot7.IsOutOfSector(slot0, slot1)
 	return slot0:IsOutOfRange(slot1) or slot0:IsOutOfAngle(slot1)
 end
 
-function slot6.IsOutOfSquare(slot0, slot1)
+function slot7.IsOutOfSquare(slot0, slot1)
 	slot3 = false
 	slot4 = (slot1:GetPosition().x - slot0._hostPos.x) * slot0:GetDirection()
 
@@ -523,19 +530,19 @@ function slot6.IsOutOfSquare(slot0, slot1)
 	end
 end
 
-function slot6.LockUnit(slot0, slot1)
+function slot7.LockUnit(slot0, slot1)
 	slot1:Tag(slot0)
 end
 
-function slot6.UnlockUnit(slot0, slot1)
+function slot7.UnlockUnit(slot0, slot1)
 	slot1:UnTag(slot0)
 end
 
-function slot6.GetLockRequiredTime(slot0)
+function slot7.GetLockRequiredTime(slot0)
 	return 0
 end
 
-function slot6.PreCast(slot0)
+function slot7.PreCast(slot0)
 	slot0._currentState = slot0.STATE_PRECAST
 
 	slot0:AddPreCastTimer()
@@ -548,7 +555,7 @@ function slot6.PreCast(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.WEAPON_PRE_CAST, slot0._preCastInfo))
 end
 
-function slot6.Fire(slot0, slot1)
+function slot7.Fire(slot0, slot1)
 	slot0:DispatchGCD()
 
 	slot0._currentState = slot0.STATE_ATTACK
@@ -562,7 +569,7 @@ function slot6.Fire(slot0, slot1)
 	return true
 end
 
-function slot6.DoAttack(slot0, slot1)
+function slot7.DoAttack(slot0, slot1)
 	if slot1 == nil or not slot1:IsAlive() or slot0:outOfFireRange(slot1) then
 		slot1 = nil
 	end
@@ -580,27 +587,28 @@ function slot6.DoAttack(slot0, slot1)
 		slot8:Fire(slot1, slot2, slot3)
 	end
 
+	slot0._host:CloakExpose(slot0._tmpData.expose)
 	uv0.Battle.PlayBattleSFX(slot0._tmpData.fire_sfx)
 	slot0:TriggerBuffOnFire()
 	slot0:CheckAndShake()
 end
 
-function slot6.TriggerBuffOnSteday(slot0)
+function slot7.TriggerBuffOnSteday(slot0)
 	slot0._host:TriggerBuff(uv0.BuffEffectType.ON_WEAPON_STEDAY, {
 		equipIndex = slot0._equipmentIndex
 	})
 end
 
-function slot6.TriggerBuffOnFire(slot0)
+function slot7.TriggerBuffOnFire(slot0)
 	slot0._host:TriggerBuff(uv0.BuffEffectType.ON_FIRE, {
 		equipIndex = slot0._equipmentIndex
 	})
 end
 
-function slot6.TriggerBuffOnReady(slot0)
+function slot7.TriggerBuffOnReady(slot0)
 end
 
-function slot6.UpdateCombo(slot0, slot1)
+function slot7.UpdateCombo(slot0, slot1)
 	if slot0._hostUnitType ~= uv0.UnitType.PLAYER_UNIT or not slot0._host:IsAlive() then
 		return
 	end
@@ -623,7 +631,7 @@ function slot6.UpdateCombo(slot0, slot1)
 	end
 end
 
-function slot6.SingleFire(slot0, slot1, slot2, slot3)
+function slot7.SingleFire(slot0, slot1, slot2, slot3)
 	slot0._tempEmittersList[#slot0._tempEmittersList + 1] = {}
 
 	if not slot1 or not slot1:IsAlive() then
@@ -679,30 +687,31 @@ function slot6.SingleFire(slot0, slot1, slot2, slot3)
 		slot9:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
 	end
 
+	slot0._host:CloakExpose(slot0._tmpData.expose)
 	slot0:CheckAndShake()
 end
 
-function slot6.SetModifyInitialCD(slot0)
+function slot7.SetModifyInitialCD(slot0)
 	slot0._modInitCD = true
 end
 
-function slot6.GetModifyInitialCD(slot0)
+function slot7.GetModifyInitialCD(slot0)
 	return slot0._modInitCD
 end
 
-function slot6.InitialCD(slot0)
+function slot7.InitialCD(slot0)
 	if slot0._tmpData.initial_over_heat == 1 then
 		slot0:AddCDTimer(slot0:GetReloadTime())
 	end
 end
 
-function slot6.EnterCoolDown(slot0)
+function slot7.EnterCoolDown(slot0)
 	slot0._fireFXFlag = slot0._tmpData.fire_fx_loop_type
 
 	slot0:AddCDTimer(slot0:GetReloadTime())
 end
 
-function slot6.UpdatePrecastArmor(slot0, slot1)
+function slot7.UpdatePrecastArmor(slot0, slot1)
 	if slot0._currentState ~= uv0.STATE_PRECAST or not slot0._precastArmor then
 		return
 	end
@@ -714,7 +723,7 @@ function slot6.UpdatePrecastArmor(slot0, slot1)
 	end
 end
 
-function slot6.Interrupt(slot0)
+function slot7.Interrupt(slot0)
 	slot1 = slot0._preCastInfo
 
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.WEAPON_PRE_CAST_FINISH, slot1))
@@ -723,13 +732,13 @@ function slot6.Interrupt(slot0)
 	slot0:EnterCoolDown()
 end
 
-function slot6.DispatchGCD(slot0)
+function slot7.DispatchGCD(slot0)
 	if slot0._GCD > 0 then
 		slot0._host:EnterGCD(slot0._GCD, slot0._tmpData.queue)
 	end
 end
 
-function slot6.Clear(slot0)
+function slot7.Clear(slot0)
 	slot0:RemovePrecastTimer()
 
 	if slot0._majorEmitterList then
@@ -751,30 +760,30 @@ function slot6.Clear(slot0)
 	end
 end
 
-function slot6.Dispose(slot0)
+function slot7.Dispose(slot0)
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 	slot0:RemovePrecastTimer()
 
 	slot0._dataProxy = nil
 end
 
-function slot6.AddCDTimer(slot0, slot1)
+function slot7.AddCDTimer(slot0, slot1)
 	slot0._currentState = slot0.STATE_OVER_HEAT
 	slot0._CDstartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0._reloadRequire = slot1
 end
 
-function slot6.handleCoolDown(slot0)
+function slot7.handleCoolDown(slot0)
 	slot0._currentState = slot0.STATE_READY
 	slot0._CDstartTime = nil
 	slot0._jammingTime = 0
 end
 
-function slot6.OverHeat(slot0)
+function slot7.OverHeat(slot0)
 	slot0._currentState = slot0.STATE_OVER_HEAT
 end
 
-function slot6.RemovePrecastTimer(slot0)
+function slot7.RemovePrecastTimer(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._precastTimer)
 	slot0._host:SetWeaponPreCastBound(false)
 
@@ -782,7 +791,7 @@ function slot6.RemovePrecastTimer(slot0)
 	slot0._precastTimer = nil
 end
 
-function slot6.AddPreCastTimer(slot0)
+function slot7.AddPreCastTimer(slot0)
 	slot0._precastTimer = pg.TimeMgr.GetInstance():AddBattleTimer("weaponPrecastTimer", 0, slot0._preCastInfo.time, function ()
 		uv0._currentState = uv0.STATE_PRECAST_FINISH
 
@@ -792,7 +801,7 @@ function slot6.AddPreCastTimer(slot0)
 	end, true)
 end
 
-function slot6.Spawn(slot0, slot1, slot2)
+function slot7.Spawn(slot0, slot1, slot2)
 	slot3 = nil
 	slot4 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot2 ~= nil or Vector3.zero) and slot2:GetPosition())
 
@@ -802,15 +811,15 @@ function slot6.Spawn(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot6.FixAmmo(slot0, slot1)
+function slot7.FixAmmo(slot0, slot1)
 	slot0._fixedAmmo = slot1
 end
 
-function slot6.GetFixAmmo(slot0)
+function slot7.GetFixAmmo(slot0)
 	return slot0._fixedAmmo
 end
 
-function slot6.ShiftBullet(slot0, slot1)
+function slot7.ShiftBullet(slot0, slot1)
 	for slot6 = 1, #slot0._bulletList do
 	end
 
@@ -819,11 +828,11 @@ function slot6.ShiftBullet(slot0, slot1)
 	}
 end
 
-function slot6.RevertBullet(slot0)
+function slot7.RevertBullet(slot0)
 	slot0._bulletList = slot0._tmpData.bullet_ID
 end
 
-function slot6.ShiftBarrage(slot0, slot1)
+function slot7.ShiftBarrage(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._majorEmitterList) do
 		table.insert(slot0._dumpedEmittersList, slot6)
 	end
@@ -846,27 +855,27 @@ function slot6.ShiftBarrage(slot0, slot1)
 	end
 end
 
-function slot6.RevertBarrage(slot0)
+function slot7.RevertBarrage(slot0)
 	slot0:ShiftBarrage(slot0._tmpData.barrage_ID)
 end
 
-function slot6.GetPrimalAmmoType(slot0)
+function slot7.GetPrimalAmmoType(slot0)
 	return uv0.GetBulletTmpDataFromID(slot0._bulletList[1]).ammo_type
 end
 
-function slot6.TriggerBuffWhenSpawn(slot0, slot1, slot2)
+function slot7.TriggerBuffWhenSpawn(slot0, slot1, slot2)
 	slot0._host:TriggerBuff(slot2 or uv0.BuffEffectType.ON_BULLET_CREATE, {
 		_bullet = slot1,
 		equipIndex = slot0._equipmentIndex
 	})
 end
 
-function slot6.DispatchBulletEvent(slot0, slot1)
-	slot2 = slot0._tmpData
-	slot3 = nil
+function slot7.DispatchBulletEvent(slot0, slot1, slot2)
+	slot3 = slot0._tmpData
+	slot4 = nil
 
 	if slot0._fireFXFlag ~= 0 then
-		slot3 = slot2.fire_fx
+		slot4 = slot3.fire_fx
 
 		if slot0._fireFXFlag ~= -1 then
 			slot0._fireFXFlag = slot0._fireFXFlag - 1
@@ -874,50 +883,51 @@ function slot6.DispatchBulletEvent(slot0, slot1)
 	end
 
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CREATE_BULLET, {
-		spawnBound = slot2.spawn_bound,
+		spawnBound = slot3.spawn_bound,
 		bullet = slot1,
-		fireFxID = slot3
+		fireFxID = slot4,
+		position = slot2
 	}))
 end
 
-function slot6.DispatchFireEvent(slot0, slot1, slot2)
+function slot7.DispatchFireEvent(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.FIRE, {
 		target = slot1,
 		actionIndex = slot2
 	}))
 end
 
-function slot6.CheckAndShake(slot0)
+function slot7.CheckAndShake(slot0)
 	if slot0._tmpData.shakescreen ~= 0 then
 		uv0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot0._tmpData.shakescreen])
 	end
 end
 
-function slot6.GetBaseAngle(slot0)
+function slot7.GetBaseAngle(slot0)
 	return slot0._baseAngle
 end
 
-function slot6.GetHost(slot0)
+function slot7.GetHost(slot0)
 	return slot0._host
 end
 
-function slot6.GetStandHost(slot0)
+function slot7.GetStandHost(slot0)
 	return slot0._standHost
 end
 
-function slot6.GetPosition(slot0)
+function slot7.GetPosition(slot0)
 	return slot0._hostPos
 end
 
-function slot6.GetDirection(slot0)
+function slot7.GetDirection(slot0)
 	return slot0._host:GetDirection()
 end
 
-function slot6.GetCurrentState(slot0)
+function slot7.GetCurrentState(slot0)
 	return slot0._currentState
 end
 
-function slot6.GetReloadTime(slot0)
+function slot7.GetReloadTime(slot0)
 	if slot0._reloadMax ~= slot0._cacheReloadMax or slot0._host:GetAttr().loadSpeed ~= slot0._cacheHostReload then
 		slot0._cacheReloadMax = slot0._reloadMax
 		slot0._cacheHostReload = slot0._host:GetAttr().loadSpeed
@@ -927,15 +937,15 @@ function slot6.GetReloadTime(slot0)
 	return slot0._cacheReloadTime
 end
 
-function slot6.GetReloadFinishTimeStamp(slot0)
+function slot7.GetReloadFinishTimeStamp(slot0)
 	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime
 end
 
-function slot6.StartJamming(slot0)
+function slot7.StartJamming(slot0)
 	slot0._jammingStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 end
 
-function slot6.JammingEliminate(slot0)
+function slot7.JammingEliminate(slot0)
 	if not slot0._jammingStartTime then
 		return
 	end
@@ -944,25 +954,25 @@ function slot6.JammingEliminate(slot0)
 	slot0._jammingStartTime = nil
 end
 
-function slot6.FlushReloadMax(slot0, slot1)
+function slot7.FlushReloadMax(slot0, slot1)
 	slot0._reloadMax = slot0._tmpData.reload_max * (slot1 or 1)
 end
 
-function slot6.AppendReloadFactor(slot0, slot1, slot2)
+function slot7.AppendReloadFactor(slot0, slot1, slot2)
 	slot0._reloadFacotrList[slot1] = slot2
 end
 
-function slot6.RemoveReloadFactor(slot0, slot1)
+function slot7.RemoveReloadFactor(slot0, slot1)
 	if slot0._reloadFacotrList[slot1] then
 		slot0._reloadFacotrList[slot1] = nil
 	end
 end
 
-function slot6.GetReloadFactorList(slot0)
+function slot7.GetReloadFactorList(slot0)
 	return slot0._reloadFacotrList
 end
 
-function slot6.FlushReloadRequire(slot0)
+function slot7.FlushReloadRequire(slot0)
 	if not slot0._CDstartTime then
 		return true
 	end
@@ -971,25 +981,25 @@ function slot6.FlushReloadRequire(slot0)
 	slot0._reloadRequire = slot2 + uv0.ReloadTime(slot0._reloadMax - uv0.CaclulateReloaded(slot2, uv0.CaclulateReloadAttr(slot0._reloadMax, slot0._reloadRequire)), slot0._host:GetAttr())
 end
 
-function slot6.GetMinimumRange(slot0)
+function slot7.GetMinimumRange(slot0)
 	return slot0._minRangeSqr
 end
 
-function slot6.GetCorrectedDMG(slot0)
+function slot7.GetCorrectedDMG(slot0)
 	return slot0._correctedDMG
 end
 
-function slot6.GetConvertedAtkAttr(slot0)
+function slot7.GetConvertedAtkAttr(slot0)
 	return slot0._convertedAtkAttr
 end
 
-function slot6.SetAtkAttrTrasnform(slot0, slot1, slot2, slot3)
+function slot7.SetAtkAttrTrasnform(slot0, slot1, slot2, slot3)
 	slot0._atkAttrTrans = slot1
 	slot0._atkAttrTransA = slot2
 	slot0._atkAttrTransB = slot3
 end
 
-function slot6.GetAtkAttrTrasnform(slot0, slot1)
+function slot7.GetAtkAttrTrasnform(slot0, slot1)
 	slot2 = nil
 
 	if slot0._atkAttrTrans then
@@ -999,6 +1009,6 @@ function slot6.GetAtkAttrTrasnform(slot0, slot1)
 	return slot2
 end
 
-function slot6.IsReady(slot0)
+function slot7.IsReady(slot0)
 	return slot0._currentState == slot0.STATE_READY
 end

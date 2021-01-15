@@ -122,7 +122,7 @@ function slot0.TaskSubmitCheck(slot0, slot1)
 			end
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("task_submitTask_error_client"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("task_submitTask_error_client"))
 
 		return false
 	end

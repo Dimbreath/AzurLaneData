@@ -43,7 +43,7 @@ return {
 					"TargetShipTag"
 				},
 				ship_tag_list = {
-					"Dido_class"
+					"Dido-Class"
 				}
 			}
 		}

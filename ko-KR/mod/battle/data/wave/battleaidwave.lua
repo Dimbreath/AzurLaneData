@@ -45,6 +45,7 @@ function slot2.DoWave(slot0)
 
 			slot8 = Clone(slot6)
 			slot8.equipment = slot7
+			slot8.baseProperties = slot6.properties
 			slot9 = slot1:SpawnVanguard(slot8, uv2.FRIENDLY_CODE)
 
 			slot1.InitUnitWeaponCD(slot9)
@@ -65,6 +66,7 @@ function slot2.DoWave(slot0)
 
 			slot8 = Clone(slot6)
 			slot8.equipment = slot7
+			slot8.baseProperties = slot6.properties
 			slot9 = slot1:SpawnMain(slot8, uv2.FRIENDLY_CODE)
 
 			slot1.InitUnitWeaponCD(slot9)

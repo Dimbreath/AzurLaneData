@@ -62,7 +62,7 @@ return {
 				target = "TargetSelf",
 				streakRange = {
 					0,
-					2
+					4
 				}
 			}
 		}

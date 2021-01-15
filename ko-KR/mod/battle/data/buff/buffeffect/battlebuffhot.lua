@@ -44,5 +44,5 @@ end
 function slot0.Battle.BattleBuffHOT.CalcNumber(slot0, slot1, slot2)
 	slot3, slot4 = slot1:GetHP()
 
-	return math.max(0, math.floor(slot3 * slot0._currentHPRatio + slot4 * slot0._maxHPRatio + slot0._number) * slot2._stack)
+	return math.floor(math.max(0, slot3 * slot0._currentHPRatio + slot4 * slot0._maxHPRatio + slot0._number) * slot2._stack * slot1:GetAttrByName("healingRate"))
 end

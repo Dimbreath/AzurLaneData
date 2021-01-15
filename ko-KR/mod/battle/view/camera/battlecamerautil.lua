@@ -340,3 +340,13 @@ function slot4.Add2Camera(slot0, slot1, slot2)
 
 	return slot0._cameraTF.localScale
 end
+
+function slot4.PauseCameraTween(slot0)
+	LeanTween.pause(go(slot0._camera))
+	LeanTween.pause(go(slot0._uiCamera))
+end
+
+function slot4.ResumeCameraTween(slot0)
+	LeanTween.resume(go(slot0._camera))
+	LeanTween.resume(go(slot0._uiCamera))
+end

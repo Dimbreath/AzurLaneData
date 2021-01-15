@@ -8,7 +8,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 100,
+					number = 200,
 					attr = "cannonPower"
 				}
 			},
@@ -19,7 +19,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 100,
+					number = 200,
 					attr = "antiAirPower"
 				}
 			},
@@ -30,7 +30,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 100,
+					number = 200,
 					attr = "loadSpeed"
 				}
 			},
@@ -41,7 +41,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 100,
+					number = 200,
 					attr = "dodgeRate"
 				}
 			}
@@ -56,7 +56,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 140,
+					number = 280,
 					attr = "cannonPower"
 				}
 			},
@@ -67,7 +67,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 140,
+					number = 280,
 					attr = "antiAirPower"
 				}
 			},
@@ -78,7 +78,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 140,
+					number = 280,
 					attr = "loadSpeed"
 				}
 			},
@@ -89,7 +89,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 140,
+					number = 280,
 					attr = "dodgeRate"
 				}
 			}
@@ -104,7 +104,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 180,
+					number = 360,
 					attr = "cannonPower"
 				}
 			},
@@ -115,7 +115,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 180,
+					number = 360,
 					attr = "antiAirPower"
 				}
 			},
@@ -126,7 +126,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 180,
+					number = 360,
 					attr = "loadSpeed"
 				}
 			},
@@ -137,7 +137,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 180,
+					number = 360,
 					attr = "dodgeRate"
 				}
 			}
@@ -152,7 +152,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 220,
+					number = 440,
 					attr = "cannonPower"
 				}
 			},
@@ -163,7 +163,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 220,
+					number = 440,
 					attr = "antiAirPower"
 				}
 			},
@@ -174,7 +174,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 220,
+					number = 440,
 					attr = "loadSpeed"
 				}
 			},
@@ -185,7 +185,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 220,
+					number = 440,
 					attr = "dodgeRate"
 				}
 			}
@@ -200,7 +200,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 260,
+					number = 520,
 					attr = "cannonPower"
 				}
 			},
@@ -211,7 +211,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 260,
+					number = 520,
 					attr = "antiAirPower"
 				}
 			},
@@ -222,7 +222,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 260,
+					number = 520,
 					attr = "loadSpeed"
 				}
 			},
@@ -233,7 +233,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 260,
+					number = 520,
 					attr = "dodgeRate"
 				}
 			}
@@ -248,7 +248,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 300,
+					number = 600,
 					attr = "cannonPower"
 				}
 			},
@@ -259,7 +259,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 300,
+					number = 600,
 					attr = "antiAirPower"
 				}
 			},
@@ -270,7 +270,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 300,
+					number = 600,
 					attr = "loadSpeed"
 				}
 			},
@@ -281,7 +281,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 300,
+					number = 600,
 					attr = "dodgeRate"
 				}
 			}
@@ -296,7 +296,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 350,
+					number = 700,
 					attr = "cannonPower"
 				}
 			},
@@ -307,7 +307,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 350,
+					number = 700,
 					attr = "antiAirPower"
 				}
 			},
@@ -318,7 +318,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 350,
+					number = 700,
 					attr = "loadSpeed"
 				}
 			},
@@ -329,7 +329,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 350,
+					number = 700,
 					attr = "dodgeRate"
 				}
 			}
@@ -344,7 +344,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 400,
+					number = 800,
 					attr = "cannonPower"
 				}
 			},
@@ -355,7 +355,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 400,
+					number = 800,
 					attr = "antiAirPower"
 				}
 			},
@@ -366,7 +366,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 400,
+					number = 800,
 					attr = "loadSpeed"
 				}
 			},
@@ -377,7 +377,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 400,
+					number = 800,
 					attr = "dodgeRate"
 				}
 			}
@@ -392,7 +392,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 450,
+					number = 900,
 					attr = "cannonPower"
 				}
 			},
@@ -403,7 +403,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 450,
+					number = 900,
 					attr = "antiAirPower"
 				}
 			},
@@ -414,7 +414,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 450,
+					number = 900,
 					attr = "loadSpeed"
 				}
 			},
@@ -425,7 +425,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 450,
+					number = 900,
 					attr = "dodgeRate"
 				}
 			}
@@ -440,7 +440,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 500,
+					number = 1000,
 					attr = "cannonPower"
 				}
 			},
@@ -451,7 +451,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 500,
+					number = 1000,
 					attr = "antiAirPower"
 				}
 			},
@@ -462,7 +462,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 500,
+					number = 1000,
 					attr = "loadSpeed"
 				}
 			},
@@ -473,7 +473,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 500,
+					number = 1000,
 					attr = "dodgeRate"
 				}
 			}
@@ -484,7 +484,7 @@ return {
 	time = 0,
 	picture = "",
 	desc = "属性提升",
-	stack = 5,
+	stack = 3,
 	id = 10541,
 	icon = 10540,
 	last_effect = "",
@@ -503,7 +503,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				number = 100,
+				number = 200,
 				attr = "cannonPower"
 			}
 		},
@@ -514,7 +514,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				number = 100,
+				number = 200,
 				attr = "antiAirPower"
 			}
 		},
@@ -525,7 +525,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				number = 100,
+				number = 200,
 				attr = "loadSpeed"
 			}
 		},
@@ -536,7 +536,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				number = 100,
+				number = 200,
 				attr = "dodgeRate"
 			}
 		}

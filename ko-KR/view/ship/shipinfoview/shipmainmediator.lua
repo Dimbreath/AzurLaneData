@@ -25,40 +25,29 @@ slot0.ON_SKIN_INFO = "ShipMainMediator:ON_SKIN_INFO"
 slot0.ON_UPGRADE_MAX_LEVEL = "ShipMainMediator:ON_UPGRADE_MAX_LEVEL"
 slot0.ON_TECHNOLOGY = "ShipMainMediator:ON_TECHNOLOGY"
 slot0.OPEN_SHIPPROFILE = "ShipMainMediator:OPEN_SHIPPROFILE"
+slot0.ON_META = "ShipMainMediator:ON_META"
 slot0.ON_SEL_COMMANDER = "ShipMainMediator:ON_SEL_COMMANDER"
 slot0.OPEN_EQUIP_UPGRADE = "ShipMainMediator:OPEN_EQUIP_UPGRADE"
 slot0.BUY_ITEM_BY_ACT = "ShipMainMediator:BUY_ITEM_BY_ACT"
 
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
-
-	if not slot0.contextData.shipVOs then
-		slot0.contextData.shipVOs = {}
-	end
+	slot0.contextData.shipVOs = slot0.contextData.shipVOs or {}
+	slot2 = slot0.bayProxy:getShipById(slot0.contextData.shipId)
+	slot0.contextData.index = _.detect(slot0.contextData.shipVOs, function (slot0)
+		return uv0.contextData.shipId == slot0.id
+	end) and table.indexof(slot0.contextData.shipVOs, slot1) or 1
 
 	slot0.viewComponent:setShipList(slot0.contextData.shipVOs)
 	slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
+	slot0.viewComponent:setShip(slot2)
 
-	slot1 = slot0.bayProxy:getShipById(slot0.contextData.shipId)
-	slot0.contextData.index = 1
-
-	for slot5 = 1, #slot0.contextData.shipVOs do
-		if slot0.contextData.shipId == slot0.contextData.shipVOs[slot5].id then
-			slot0.contextData.index = slot5
-			slot1.bindingData = slot0.contextData.shipVOs[slot5].bindingData
-
-			break
-		end
-	end
-
-	slot0.viewComponent:setShip(slot1)
-
-	slot0.showTrans = slot1:isRemoulded()
+	slot0.showTrans = slot2:isRemoulded()
 
 	slot0.bayProxy:setSelectShipId(slot0.contextData.shipId)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 
-	slot4 = getProxy(ContextProxy)
+	slot5 = getProxy(ContextProxy)
 
 	slot0:bind(uv0.BUY_ITEM_BY_ACT, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.SKIN_COUPON_SHOPPING, {
@@ -266,6 +255,11 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
+	slot0:bind(uv0.ON_META, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
+			autoOpenShipConfigID = uv1.configId
+		})
+	end)
 
 	if slot0.contextData.selectedId then
 		slot0:sendNotification(GAME.COMMANDER_EQUIP_TO_SHIP, {
@@ -339,7 +333,6 @@ function slot0.nextPage(slot0, slot1, slot2)
 
 	for slot10 = slot3, slot4, slot5 do
 		if slot0.contextData.shipVOs[slot10] and slot0.bayProxy:getShipById(slot11.id) then
-			slot6.bindingData = slot11.bindingData
 			slot0.contextData.index = slot10
 			slot0.contextData.shipId = slot6.id
 
@@ -352,10 +345,7 @@ function slot0.nextPage(slot0, slot1, slot2)
 			return
 		end
 
-		slot7 = slot0.contextData.shipVOs[slot0.contextData.index]
-		slot6 = slot0.bayProxy:getShipById(slot7.id)
-		slot6.bindingData = slot7.bindingData
-		slot0.contextData.shipId = slot6.id
+		slot0.contextData.shipId = slot0.bayProxy:getShipById(slot0.contextData.shipVOs[slot0.contextData.index].id).id
 	end
 
 	if slot6 then

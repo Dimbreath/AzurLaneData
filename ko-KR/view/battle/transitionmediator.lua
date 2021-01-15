@@ -20,7 +20,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.contextData.afterLoadFunc()
 		end
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+		slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.COMBATLOAD, slot3)
 	end
 end
 

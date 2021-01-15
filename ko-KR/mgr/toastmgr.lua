@@ -5,6 +5,7 @@ slot1 = require("Mgr/Pool/PoolPlural")
 slot0.TYPE_ATTIRE = "Attire"
 slot0.TYPE_TECPOINT = "Tecpoint"
 slot0.TYPE_TROPHY = "Trophy"
+slot0.TYPE_META = "Meta"
 slot0.ToastInfo = {
 	[slot0.TYPE_ATTIRE] = {
 		Attire = "attire_tpl"
@@ -15,6 +16,10 @@ slot0.ToastInfo = {
 	},
 	[slot0.TYPE_TROPHY] = {
 		Trophy = "trophy_tpl"
+	},
+	[slot0.TYPE_META] = {
+		MetaLevel = "meta_level_tpl",
+		MetaExp = "meta_exp_tpl"
 	}
 }
 
@@ -27,23 +32,28 @@ function slot0.Init(slot0, slot1)
 		uv0._tf = uv0._go.transform
 		uv0.container = uv0._tf:Find("container")
 
-		uv0._go.transform:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
+		uv0._go.transform:SetParent(pg.UIMgr.GetInstance().OverlayToast, false)
 
 		uv0.pools = {}
-		slot2 = {}
+		slot1 = {}
 
-		for slot6, slot7 in pairs(uv1.ToastInfo) do
-			for slot11, slot12 in pairs(slot7) do
-				slot2[slot11 .. "Tpl"] = slot12
+		for slot5, slot6 in pairs(uv1.ToastInfo) do
+			for slot10, slot11 in pairs(slot6) do
+				slot1[slot10 .. "Tpl"] = slot11
 			end
 		end
 
-		for slot6, slot7 in pairs(slot2) do
-			slot8 = uv0._tf:Find("resources/" .. slot7)
+		for slot5, slot6 in pairs(slot1) do
+			slot7 = uv0._tf:Find("resources/" .. slot6)
 
-			setActive(slot8, false)
+			if slot6 == "meta_exp_tpl" then
+				setText(slot7:Find("ExpFull/Tip"), i18n("meta_toast_fullexp"))
+				setText(slot7:Find("ExpAdd/Tip"), i18n("meta_toast_tactics"))
+			end
 
-			uv0.pools[slot6] = uv2.New(slot8.gameObject, 5)
+			setActive(slot7, false)
+
+			uv0.pools[slot5] = uv2.New(slot7.gameObject, 5)
 		end
 
 		uv0:ResetUIDandHistory()
@@ -266,6 +276,100 @@ function slot0.UpdateTrophy(slot0, slot1, slot2, slot3)
 
 	if slot2 then
 		slot2()
+	end
+end
+
+function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
+	slot4 = slot1.info
+	slot7 = slot0:GetAndSet("MetaExp", slot0.container)
+	slot8 = slot0:GetAndSet("MetaLevel", slot0.container)
+	slot10, slot11 = MetaCharacterConst.GetMetaCharacterToastPath(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot4.metaShipVO.configId))
+
+	setImageSprite(slot7.transform:Find("ShipImg"), LoadSprite(slot10, slot11))
+
+	slot13 = pg.gameset.meta_skill_exp_max.key_value
+	slot14 = slot4.newDayExp
+	slot15 = slot4.addDayExp
+
+	setSlider(slot7.transform:Find("Progress"), 0, slot13, slot14)
+
+	if slot13 <= slot14 then
+		setActive(slot7.transform:Find("ExpFull"), true)
+		setActive(slot7.transform:Find("ExpAdd"), false)
+	else
+		setText(slot7.transform:Find("ExpAdd/Value"), string.format("+%d", slot15))
+		setActive(slot16, false)
+		setActive(slot17, true)
+	end
+
+	slot21 = false
+
+	if slot5:getMetaSkillLevelBySkillID(slot4.curSkillID) < slot4.newSkillLevel then
+		slot21 = true
+
+		setImageSprite(slot8.transform:Find("Skill/Icon"), LoadSprite("skillicon/" .. getSkillConfig(slot18).icon))
+
+		if pg.skill_data_template[slot18].max_level <= slot20 then
+			setActive(slot8.transform:Find("LevelUp"), false)
+			setActive(slot8.transform:Find("LevelMax"), true)
+		else
+			setText(slot8.transform:Find("LevelUp/Value"), string.format("+%d", slot20 - slot19))
+			setActive(slot24, true)
+			setActive(slot25, false)
+		end
+	end
+
+	function slot22()
+		if uv0 then
+			uv0()
+		end
+
+		if uv1 then
+			uv1()
+		end
+	end
+
+	GetComponent(slot7, "CanvasGroup").alpha = 0
+	GetComponent(slot8, "CanvasGroup").alpha = 0
+
+	function slot26()
+		LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
+		LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
+			uv0.pools.MetaExpTpl:Enqueue(uv1)
+
+			if not uv2 then
+				uv0.pools.MetaLevelTpl:Enqueue(uv3)
+				uv4()
+			end
+		end))
+	end
+
+	LeanTween.value(slot7, 0, 1, uv0.FADE_TIME):setOnUpdate(System.Action_float(function (slot0)
+		uv0.alpha = slot0
+	end)):setOnComplete(System.Action(function ()
+		LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
+	end))
+
+	if slot21 then
+		function slot28(slot0)
+			uv0.alpha = slot0
+		end
+
+		function slot29()
+			LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
+			LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
+				uv0.pools.MetaLevelTpl:Enqueue(uv1)
+				uv2()
+			end))
+		end
+
+		function slot30()
+			LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
+		end
+
+		LeanTween.delayedCall(slot8, uv0.DELAY_TIME, System.Action(function ()
+			LeanTween.value(uv0, 0, 1, uv1.FADE_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(uv3))
+		end))
 	end
 end
 

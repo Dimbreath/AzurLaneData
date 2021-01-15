@@ -132,6 +132,14 @@ function slot0.CheckPretest(slot0)
 	return slot0:Get("CheckPretest")
 end
 
+function slot0.CheckWorldTest(slot0)
+	if PLATFORM_CODE == PLATFORM_CH then
+		return slot0:Get("CheckWorldTest")
+	else
+		return false
+	end
+end
+
 function slot0.AiriLoginSDK(slot0)
 	slot0:Call("AiriLogin")
 end
@@ -277,6 +285,14 @@ end
 
 function slot0.KRUserLevelUp(slot0, slot1, slot2)
 	slot0:Call("SdkLevelUp", slot1, slot2)
+end
+
+function slot0.ShowLicence(slot0)
+	slot0:Call("ShowLicence")
+end
+
+function slot0.ShowPrivate(slot0)
+	slot0:Call("ShowPrivate")
 end
 
 function slot0.GetDeviceId(slot0)

@@ -195,10 +195,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.SKIP_BATCH_DONE then
 		if #slot3 > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3
-			}, AwardInfoLayer.TITLE.SHIP, function ()
-				uv0:buildFinishComeback()
-			end)
+				items = slot3,
+				title = AwardInfoLayer.TITLE.SHIP,
+				removeFunc = function ()
+					uv0:buildFinishComeback()
+				end
+			})
 		else
 			slot0:buildFinishComeback()
 		end

@@ -65,7 +65,7 @@ function slot0.InitByConfig(slot0, slot1)
 	slot0.text = uv0[slot0:getConfig("message_persist")].value
 	slot0.picture = slot0:getConfig("picture_persist")
 	slot7 = "time_persist"
-	slot0.time = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0:getConfig(slot7))
+	slot0.time = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getConfig(slot7))
 	slot0.optionDiscuss = {}
 	slot0.discussList = {}
 	slot0.allReply = {}
@@ -83,7 +83,7 @@ function slot0.InitByConfig(slot0, slot1)
 
 			if uv0[slot0.message_persist] then
 				slot2 = uv0[slot0.message_persist].value
-				slot3 = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0.time_persist)
+				slot3 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.time_persist)
 			end
 
 			return {

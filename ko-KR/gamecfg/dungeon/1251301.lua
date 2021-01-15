@@ -1,6 +1,6 @@
 return {
 	id = 1221201,
-	bgm = "Battle-boss-italy",
+	bgm = "battle-boss-italy",
 	stages = {
 		{
 			stageIndex = 1,

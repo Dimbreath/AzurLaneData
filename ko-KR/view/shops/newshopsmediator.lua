@@ -9,23 +9,33 @@ slot0.SELL_BLUEPRINT = "NewShopsMediator:SELL_BLUEPRINT"
 slot0.GO_MALL = "NewShopsMediator:GO_MALL"
 slot0.ON_SKIN_SHOP = "NewShopsMediator:ON_SKIN_SHOP"
 slot0.SET_PLAYER_FLAG = "NewShopsMediator:SET_PLAYER_FLAG"
+slot0.ON_GUILD_SHOPPING = "NewShopsMediator:ON_GUILD_SHOPPING"
+slot0.REFRESH_GUILD_SHOP = "NewShopsMediator:REFRESH_GUILD_SHOP"
+slot0.ON_GUILD_PURCHASE = "NewShopsMediator:ON_GUILD_PURCHASE"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_GUILD_SHOPPING, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ON_GUILD_SHOP_PURCHASE, {
+			goodsId = slot1,
+			selectedId = slot2
+		})
+	end)
+	slot0:bind(uv0.REFRESH_GUILD_SHOP, function (slot0, slot1)
+		uv0:sendNotification(GAME.GET_GUILD_SHOP, {
+			type = slot1 and GuildConst.MANUAL_REFRESH or GuildConst.AUTO_REFRESH
+		})
+	end)
 	slot0:bind(uv0.ON_SKIN_SHOP, function (slot0, slot1)
-		getProxy(ContextProxy):getCurrentContext().ignoreBack = true
-
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+		uv0:sendNotification(GAME.CHANGE_SCENE, SCENE.SKINSHOP)
 	end)
 	slot0:bind(uv0.GO_MALL, function (slot0, slot1)
-		if uv0.contextData.fromCharge then
+		if uv0.contextData.fromMediatorName == ChargeMediator.__cname then
 			getProxy(ContextProxy):getContextByMediator(ChargeMediator):extendData({
 				wrap = slot1
 			})
 			uv0.viewComponent:closeView()
 		else
-			slot2:getCurrentContext().ignoreBack = true
-
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+			pg.m02:sendNotification(GAME.CHANGE_SCENE, SCENE.CHARGE, {
 				wrap = slot1
 			})
 		end
@@ -107,7 +117,9 @@ function slot0.listNotificationInterests(slot0)
 		ShopsProxy.ACTIVITY_SHOP_UPDATED,
 		GAME.FRAG_SELL_DONE,
 		ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS,
-		GAME.USE_ITEM_DONE
+		GAME.USE_ITEM_DONE,
+		GAME.ON_GUILD_SHOP_PURCHASE_DONE,
+		ShopsProxy.GUILD_SHOP_UPDATED
 	}
 end
 
@@ -171,6 +183,10 @@ function slot0.handleNotification(slot0, slot1)
 		if slot0.viewComponent.page == slot0.viewComponent.pages[NewShopsScene.TYPE_FRAGMENT] then
 			slot0.viewComponent.page:OnFragmentSellUpdate()
 		end
+	elseif slot2 == GAME.ON_GUILD_SHOP_PURCHASE_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+	elseif slot2 == ShopsProxy.GUILD_SHOP_UPDATED then
+		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_GUILD, slot3.shop)
 	end
 end
 

@@ -340,8 +340,8 @@ function slot0.getCost(slot0, slot1)
 	slot1 = slot1 or 1
 
 	_.each(slot0:getShips(false), function (slot0)
-		uv0.oil = uv0.oil + slot0:getStartBattleExpend()
-		uv1.oil = uv1.oil + slot0:getEndBattleExpend() * uv2 + slot0:getStartBattleExpend() * (uv2 - 1)
+		uv0.oil = uv0.oil + slot0:getStartBattleExpend() * uv1
+		uv2.oil = uv2.oil + slot0:getEndBattleExpend() * uv1
 	end)
 
 	return {

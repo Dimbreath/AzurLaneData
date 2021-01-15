@@ -235,7 +235,7 @@ return {
 						101
 					},
 					triggerParams = {
-						bgm = "Battle-boss-italy"
+						bgm = "battle-boss-italy"
 					}
 				},
 				{

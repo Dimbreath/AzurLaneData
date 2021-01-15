@@ -159,6 +159,7 @@ function slot0.update(slot0, slot1)
 				setParent(slot0, uv0.tf, false)
 				tf(slot0):SetAsFirstSibling()
 				Canvas.ForceUpdateCanvases()
+				uv0:OnChatFrameLoaded(slot0)
 			else
 				PoolMgr.GetInstance():ReturnPrefab("ChatFrame/" .. uv2, uv2, slot0)
 			end
@@ -190,6 +191,9 @@ function slot0.dispose(slot0)
 	end
 
 	slot0.data = nil
+end
+
+function slot0.OnChatFrameLoaded(slot0, slot1)
 end
 
 return slot0

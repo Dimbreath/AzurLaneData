@@ -8,8 +8,7 @@ function slot0.register(slot0)
 
 	if not slot1:getSortRequest() or slot1.requestCount > 0 then
 		slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot0.guild.id)
-
-		slot1.requestCount = 0
+		slot1:ResetRequestCount()
 	else
 		slot0.viewComponent:setRequest(slot2)
 		slot0.viewComponent:initRequests()
@@ -38,14 +37,15 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setRequest(slot3)
 
 		if not slot0.viewComponent.isInit then
+			slot0.viewComponent.isInit = true
+
 			slot0.viewComponent:initRequests()
 		else
-			slot0.viewComponent:sortRequest()
+			slot0.viewComponent:SetTotalCount()
 		end
 	elseif slot2 == GuildProxy.REQUEST_COUNT_UPDATED then
 		slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot0.guild.id)
-
-		getProxy(GuildProxy).requestCount = 0
+		getProxy(GuildProxy):ResetRequestCount()
 	end
 end
 

@@ -40,9 +40,11 @@ function slot0.register(slot0)
 					table.insert(slot1, slot6)
 				end
 
-				if Fleet.EnergyCheck(slot1, uv0.name, slot0) then
-					slot0()
-				end
+				Fleet.EnergyCheck(slot1, uv0.name, function (slot0)
+					if slot0 then
+						uv0()
+					end
+				end)
 			end,
 			function (slot0)
 				if getProxy(PlayerProxy):getRawData():GoldMax(1) then
@@ -54,14 +56,13 @@ function slot0.register(slot0)
 				else
 					slot0()
 				end
-			end,
-			function (slot0)
-				uv0:sendNotification(GAME.BEGIN_STAGE, {
-					system = SYSTEM_SCENARIO,
-					stageId = uv1
-				})
 			end
-		})
+		}, function ()
+			uv0:sendNotification(GAME.BEGIN_STAGE, {
+				system = SYSTEM_SCENARIO,
+				stageId = uv1
+			})
+		end)
 	end)
 	slot0:bind(uv0.ON_OP, function (slot0, slot1)
 		uv0:sendNotification(GAME.CHAPTER_OP, slot1)

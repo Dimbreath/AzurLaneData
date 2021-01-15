@@ -223,7 +223,7 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		return nil
 	end
 
-	slot0.storyScript = Story.New(slot6, slot3, slot4)
+	slot0.storyScript = Story.New(slot6, slot3, slot0:IsReView())
 
 	if not slot0:CheckState() then
 		uv0("story state error")
@@ -296,7 +296,11 @@ function slot0.OnStart(slot0)
 	end
 
 	onButton(slot0, slot0.skinBtn, function ()
-		if uv0:IsReView() then
+		if not uv0.currPlayer:CanSkip() then
+			return
+		end
+
+		if uv0:IsReView() or uv0.storyScript:IsPlayed() or not uv0.storyScript:ShowSkipTip() then
 			uv1()
 
 			return
@@ -306,7 +310,8 @@ function slot0.OnStart(slot0)
 			parent = rtf(uv0._tf),
 			canvasOrder = GetComponent(uv0._go, typeof(Canvas)).sortingOrder + 1,
 			content = i18n("story_skip_confirm"),
-			onYes = uv1
+			onYes = uv1,
+			weight = LayerWeightConst.TOP_LAYER
 		})
 	end, SFX_PANEL)
 end
@@ -326,9 +331,8 @@ function slot0.Clear(slot0)
 		slot5:StoryEnd()
 	end
 
-	pg.CriMgr.GetInstance():StopSE_V3()
-	pg.CriMgr.GetInstance():ResumeNormalBGM()
-	pg.m02:sendNotification(GAME.STORY_END, storyId)
+	pg.CriMgr.GetInstance():ResumeLastNormalBGM()
+	pg.m02:sendNotification(GAME.STORY_END)
 end
 
 function slot0.OnEnd(slot0, slot1)
@@ -370,7 +374,9 @@ function slot0.OnSceneExit(slot0, slot1)
 end
 
 function slot0.IsReView(slot0)
-	return slot0.scenes[CollectionScene.__cname] == true
+	slot1 = getProxy(ContextProxy):GetPrevContext(1)
+
+	return slot0.scenes[WorldMediaCollectionScene.__cname] == true or slot1 and slot1.mediator == WorldMediaCollectionMediator
 end
 
 function slot0.IsRunning(slot0)

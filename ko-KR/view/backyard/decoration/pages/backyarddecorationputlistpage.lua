@@ -124,7 +124,7 @@ function slot0.OnDisplayList(slot0)
 end
 
 function slot0.Show(slot0)
-	slot0.super.Show(slot0)
+	uv0.super.Show(slot0)
 	LeanTween.value(slot0._bg.gameObject, slot0._bg.anchoredPosition.x, 0, 0.4):setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0._bg, {
 			x = slot0
@@ -146,10 +146,10 @@ function slot0.Hide(slot0)
 			x = slot0
 		})
 	end)):setOnComplete(System.Action(function ()
-		uv0.super.Hide(uv0)
+		uv0.super.Hide(uv1)
 
-		if uv0.OnShow then
-			uv0.OnShow(false)
+		if uv1.OnShow then
+			uv1.OnShow(false)
 		end
 	end))
 end

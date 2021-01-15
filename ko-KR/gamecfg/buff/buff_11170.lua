@@ -27,19 +27,16 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
 				minTargetNumber = 1,
+				starget = "TargetSelf",
 				skill_id = 11170,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					202081,
-					202082,
-					202083,
-					202084,
-					202251,
-					202252,
-					202253,
-					202254
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Sheffield"
 				}
 			}
 		}

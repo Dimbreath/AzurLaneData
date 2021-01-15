@@ -140,6 +140,8 @@ function slot2.GetFactoryList()
 			[uv1.BulletType.BEAM] = uv2.Battle.BattleBeamBulletFactory.GetInstance(),
 			[uv1.BulletType.G_BULLET] = uv2.Battle.BattleGravitationBulletFactory.GetInstance(),
 			[uv1.BulletType.ELECTRIC_ARC] = uv2.Battle.BattleElectricArcBulletFactory.GetInstance(),
+			[uv1.BulletType.SPACE_LASER] = uv2.Battle.BattleSpaceLaserFactory.GetInstance(),
+			[uv1.BulletType.MISSILE] = uv2.Battle.BattleMissileFactory.GetInstance(),
 			[uv1.BulletType.SCALE] = uv2.Battle.BattleScaleBulletFactory.GetInstance(),
 			[uv1.BulletType.TRIGGER_BOMB] = uv2.Battle.BattleTriggerBulletFactory.GetInstance(),
 			[uv1.BulletType.AAMissile] = uv2.Battle.BattleAAMissileFactory.GetInstance()

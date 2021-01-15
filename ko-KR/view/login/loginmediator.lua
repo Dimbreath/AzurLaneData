@@ -61,6 +61,9 @@ function slot0.loginProcessHandler(slot0)
 			coroutine.yield()
 		end
 
+		uv0:CheckMaintain()
+		coroutine.yield()
+
 		if uv0.contextData.code then
 			if uv0.contextData.code ~= 0 then
 				if uv0.contextData.code ~= SDK_EXIT_CODE then
@@ -187,9 +190,13 @@ function slot0.handleNotification(slot0, slot1)
 		})
 	elseif slot2 == GAME.SERVER_LOGIN_SUCCESS then
 		if slot3.uid == 0 then
-			slot0:sendNotification(GAME.BEGIN_STAGE, {
-				system = SYSTEM_PROLOGUE
-			})
+			if EPILOGUE_SKIPPABLE then
+				slot0:sendNotification(GAME.GO_SCENE, SCENE.CREATE_PLAYER)
+			else
+				slot0:sendNotification(GAME.BEGIN_STAGE, {
+					system = SYSTEM_PROLOGUE
+				})
+			end
 		else
 			slot0.facade:sendNotification(GAME.LOAD_PLAYER_DATA, {
 				id = slot3.uid

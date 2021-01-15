@@ -46,9 +46,22 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end)
 	slot0.progressUIItemList:align(uv0.MAX_COUNT)
+	onButton(slot0, slot0.getBtn, function ()
+		if uv1.MAX_COUNT <= uv0.curDay and uv1.MAX_COUNT <= uv0.playCount and uv0.isAchieved <= 0 then
+			uv0:emit(ActivityMediator.EVENT_OPERATION, {
+				cmd = 1,
+				activity_id = uv0.activity.id
+			})
+		end
+	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.NEWYEAR_SQUARE, {
-			isOpenShrine = true
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, 20, {
+			callback = function ()
+				slot0 = Context.New()
+
+				SCENE.SetSceneInfo(slot0, SCENE.NEWYEAR_BACKHILL)
+				getProxy(ContextProxy):PushContext2Prev(slot0)
+			end
 		})
 	end, SFX_PANEL)
 
@@ -65,7 +78,6 @@ function slot0.OnFirstFlush(slot0)
 
 	seriesAsync(slot2, function ()
 		print("play story done,count:", #uv0)
-		uv1:emit(ActivityMainScene.UPDATE_ACTIVITY, uv1.activity)
 	end)
 end
 
@@ -75,14 +87,7 @@ function slot0.OnUpdateFlush(slot0)
 	if uv0.MAX_COUNT <= slot0.curDay and uv0.MAX_COUNT <= slot0.playCount and slot0.isAchieved <= 0 then
 		setActive(slot0.lockTF, false)
 		setActive(slot0.getBtn, true)
-		onButton(slot0, slot0.getBtn, function ()
-			if uv0.isAchieved <= 0 then
-				uv0:emit(ActivityMediator.EVENT_OPERATION, {
-					cmd = 1,
-					activity_id = uv0.activity.id
-				})
-			end
-		end, SFX_PANEL)
+		triggerButton(slot0.getBtn)
 	elseif slot0.isAchieved > 0 then
 		setActive(slot0.lockTF, false)
 		setActive(slot0.getBtn, true)
@@ -96,7 +101,7 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.IsTip()
-	if getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_SHRINE_PAGE_ID) and not slot0:isEnd() then
+	if getProxy(ActivityProxy):getActivityById(pg.activity_const.NEWYEAR_SHRINE_PAGE_ID.act_id) and not slot0:isEnd() then
 		return math.clamp(slot0.data2, 0, uv0.MAX_COUNT) < math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data3, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, uv0.MAX_COUNT)
 	end
 end

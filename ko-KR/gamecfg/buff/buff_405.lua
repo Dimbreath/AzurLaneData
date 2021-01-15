@@ -39,7 +39,7 @@ return {
 				buff_id = 406,
 				target = "TargetShipTag",
 				ship_tag_list = {
-					"roonμ"
+					"Roonμ"
 				}
 			}
 		}

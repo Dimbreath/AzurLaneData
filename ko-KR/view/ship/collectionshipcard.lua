@@ -18,6 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.labelName = findTF(slot0.content, "info/name_mask/name")
 	slot0.iconType = findTF(slot0.content, "info/top/type"):GetComponent(typeof(Image))
 	slot0.ringTF = findTF(slot0.content, "front/ring")
+	slot0.ringMetaTF = findTF(slot0.content, "front/ring_meta")
 	slot0.maskTF = findTF(slot0.content, "collection/mask")
 	slot0.heart = findTF(slot0.content, "collection/heart")
 	slot0.labelHeart = findTF(slot0.heart, "heart"):GetComponent(typeof(Text))
@@ -72,11 +73,20 @@ function slot0.flush(slot0)
 	setActive(slot0.content, slot0.state == ShipGroup.STATE_NOTGET or slot0.state == ShipGroup.STATE_UNLOCK)
 	setActive(slot0.imageUnknown, slot0.state == ShipGroup.STATE_LOCK)
 	setActive(slot0.maskTF, slot0.state == ShipGroup.STATE_NOTGET)
-	setActive(slot0.ringTF, slot0.propose)
+
+	if slot1 then
+		slot2 = slot1:isMetaGroup()
+
+		setActive(slot0.ringTF, slot0.propose and not slot2)
+		setActive(slot0.ringMetaTF, slot0.propose and slot2)
+	else
+		setActive(slot0.ringTF, false)
+		setActive(slot0.ringMetaTF, false)
+	end
 end
 
 function slot0.loadImage(slot0, slot1)
-	slot3 = (slot1:isBluePrintGroup() and "0" or "") .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans))
+	slot3 = shipRarity2bgPrint(slot1:getRarity(slot0.showTrans), nil, slot1:isBluePrintGroup(), slot1:isMetaGroup())
 	slot4 = slot1:getPainting(slot0.showTrans)
 	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. slot3, "")
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")

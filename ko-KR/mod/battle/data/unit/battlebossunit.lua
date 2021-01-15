@@ -20,6 +20,13 @@ function slot7.IsBoss(slot0)
 	return true
 end
 
+function slot7.BarrierStateChange(slot0, slot1, slot2)
+	slot0:DispatchEvent(uv0.Event.New(uv1.BARRIER_STATE_CHANGE, {
+		barrierDurability = slot1,
+		barrierDuration = slot2
+	}))
+end
+
 function slot7.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 	uv0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 

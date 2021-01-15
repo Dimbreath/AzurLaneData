@@ -199,6 +199,21 @@ function slot0.isAllChaptersAchieve(slot0)
 	return true
 end
 
+function slot0.getLastUnlockChapterName(slot0)
+	slot1 = nil
+	slot5 = true
+
+	for slot5, slot6 in ipairs(slot0:getChapters(slot5)) do
+		if slot6:getPlayType() == ChapterConst.TypeMainSub or not slot6:isUnlock() then
+			break
+		end
+
+		slot1 = slot6
+	end
+
+	return slot1:getConfig("chapter_name")
+end
+
 function slot0.isActivity(slot0)
 	if slot0:getMapType() == Map.EVENT then
 		return true, false

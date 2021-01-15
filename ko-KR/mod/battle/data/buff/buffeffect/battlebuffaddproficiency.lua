@@ -10,7 +10,7 @@ end
 
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._group = slot0._tempData.arg_list.group or slot2:GetID()
-	slot0._weaponLabelList = slot0._tempData.arg_list.label
+	slot0._weaponLabelList = slot0._tempData.arg_list.label or {}
 	slot0._weaponIndexList = slot0._tempData.arg_list.index
 	slot0._number = slot0._tempData.arg_list.number
 end

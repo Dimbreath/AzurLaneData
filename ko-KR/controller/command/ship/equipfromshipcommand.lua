@@ -13,7 +13,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot9:getEquip(slot5) and getProxy(PlayerProxy):getData().equip_bag_max <= getProxy(EquipmentProxy):getCapacity() then
+	if slot9:getEquip(slot5) and getProxy(PlayerProxy):getData():getMaxEquipmentBag() <= getProxy(EquipmentProxy):getCapacity() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 
 		return

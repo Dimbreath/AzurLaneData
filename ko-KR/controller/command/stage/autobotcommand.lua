@@ -4,10 +4,11 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.isActiveBot
 	slot4 = slot2.toggle
+	slot6 = uv0.GetAutoBotMark(slot2.system)
 
 	if uv0.autoBotSatisfied() then
-		if PlayerPrefs.GetInt("autoBotIsAcitve", 0) ~= not slot3 then
-			PlayerPrefs.SetInt("autoBotIsAcitve", not slot3 and 1 or 0)
+		if PlayerPrefs.GetInt("autoBotIsAcitve" .. slot6, 0) ~= not slot3 then
+			PlayerPrefs.SetInt("autoBotIsAcitve" .. slot6, not slot3 and 1 or 0)
 			uv0.activeBotHelp(not slot3)
 		end
 	elseif not slot3 then
@@ -22,7 +23,8 @@ function slot0.execute(slot0, slot1)
 
 	if slot3 then
 		slot0:sendNotification(GAME.AUTO_SUB, {
-			isActiveSub = true
+			isActiveSub = true,
+			system = slot5
 		})
 	end
 end
@@ -60,7 +62,7 @@ function slot0.activeBotHelp(slot0)
 					sound = SFX_CANCEL,
 					onCallback = function ()
 						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
-							getProxy(SettingsProxy):setAoutBattleTip()
+							getProxy(SettingsProxy):setAutoBattleTip()
 						end
 					end
 				}
@@ -69,7 +71,7 @@ function slot0.activeBotHelp(slot0)
 				uv0.autoBotHelp = false
 
 				if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
-					getProxy(SettingsProxy):setAoutBattleTip()
+					getProxy(SettingsProxy):setAutoBattleTip()
 				end
 			end,
 			weight = LayerWeightConst.TOP_LAYER
@@ -77,6 +79,14 @@ function slot0.activeBotHelp(slot0)
 	end
 
 	slot1.botHelp = true
+end
+
+function slot0.GetAutoBotMark(slot0)
+	if slot0 == SYSTEM_WORLD or slot0 == SYSTEM_WORLD_BOSS then
+		return "_" .. SYSTEM_WORLD
+	else
+		return ""
+	end
 end
 
 return slot0

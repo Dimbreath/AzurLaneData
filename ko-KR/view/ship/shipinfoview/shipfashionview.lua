@@ -106,38 +106,29 @@ function slot0.UpdateFashion(slot0, slot1)
 					return
 				end
 
+				uv0.clickCellTime = Time.realtimeSinceStartup
 				uv0.fashionSkinId = uv1.id
 
 				uv0:UpdateFashionDetail(uv1)
+				uv0:emit(ShipViewConst.LOAD_PAINTING, uv1.painting)
 
-				slot0 = uv1.painting
+				slot3 = uv0:GetShipVO():rarity2bgPrintForGet()
+				slot4 = uv0:GetShipVO():isBluePrintShip()
 
-				if HXSet.isHx() then
-					if uv1.isSwimsuit ~= 1 then
-						uv0:emit(ShipViewConst.LOAD_PAINTING, uv1.painting_hx ~= "" and uv1.painting_hx or uv1.painting)
-					end
-				else
-					uv0:emit(ShipViewConst.LOAD_PAINTING, slot0)
+				uv0:emit(ShipViewConst.LOAD_PAINTING_BG, slot3, slot4, uv0:GetShipVO():isMetaShip())
+
+				for slot3, slot4 in ipairs(uv0.fashionSkins) do
+					slot6 = uv0.fashionCellMap[uv0.styleContainer:GetChild(slot3 - 1)]
+
+					slot6:updateSelected(slot4.id == uv0.fashionSkinId)
+					slot6:updateUsing(uv0:GetShipVO().skinId == slot4.id)
 				end
 
-				slot4 = uv0:GetShipVO():rarity2bgPrintForGet()
-				slot5 = uv0:GetShipVO()
-				slot5 = slot5.isBluePrintShip
+				slot0 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv2.paintingName .. "_n"))
 
-				uv0:emit(ShipViewConst.LOAD_PAINTING_BG, slot4, slot5(slot5))
+				setActive(uv0.hideObjToggle, slot0)
 
-				for slot4, slot5 in ipairs(uv0.fashionSkins) do
-					slot7 = uv0.fashionCellMap[uv0.styleContainer:GetChild(slot4 - 1)]
-
-					slot7:updateSelected(slot5.id == uv0.fashionSkinId)
-					slot7:updateUsing(uv0:GetShipVO().skinId == slot5.id)
-				end
-
-				slot1 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv2.paintingName .. "_n"))
-
-				setActive(uv0.hideObjToggle, slot1)
-
-				if slot1 then
+				if slot0 then
 					uv0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. uv2.paintingName, 0) ~= 0
 
 					onToggle(uv0, uv0.hideObjToggleTF, function (slot0)
@@ -291,6 +282,10 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		end
 	end)
 	onButton(slot0, slot2.cancel, function ()
+		if uv0.clickCellTime and Time.realtimeSinceStartup - uv0.clickCellTime <= 0.35 then
+			return
+		end
+
 		uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.DETAIL)
 	end)
 end
