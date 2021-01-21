@@ -14,7 +14,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "数据同步中————",
+			say = "데이터 동기화 중————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			voice = "event:/tb/29/tb-29",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，现在向您传达一些本次大型作战中的注意事项。",
+			say = "지휘관님, 이번 대형 작전의 주의 사항에 대해 안내드립니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

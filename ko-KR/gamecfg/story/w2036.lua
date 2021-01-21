@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：周围海域出现了异常海况，请小心行动。",
+			say = "경고: 주위 해역에 이상 해황 발견. 조심히 움직이세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

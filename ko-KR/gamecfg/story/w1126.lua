@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "已成功使得塞壬增援装置停止运行。",
+			say = "세이렌 증원 장치의 작동이 중지되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

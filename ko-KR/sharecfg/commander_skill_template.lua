@@ -2,7 +2,7 @@ pg = pg or {}
 pg.commander_skill_template = {
 	[10011] = {
 		name = "31 노트의 정의",
-		desc_world = "미개방",
+		desc_world = "함대에 구축함이 3척 있을 경우, 모든 선봉 함대의 뇌장 수치를 상승시킨다. (중간 효과: 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 10012,
 		exp = 1,
 		prev_id = 0,
@@ -19,7 +19,7 @@ pg.commander_skill_template = {
 	},
 	[10012] = {
 		name = "31 노트의 정의",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 선봉 함대 가운데 위치가 구축함일 경우, 전투 진입 후 1회 한정으로 지휘냥 탄막Ⅰ을 발동한다.",
 		next_id = 10013,
 		exp = 3,
 		prev_id = 10011,
@@ -38,7 +38,7 @@ pg.commander_skill_template = {
 	},
 	[10013] = {
 		name = "31 노트의 정의",
-		desc_world = "미개방",
+		desc_world = "지휘냥 탄막Ⅰ을 지휘냥 탄막Ⅱ으로 강화한다.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 10012,
@@ -58,7 +58,7 @@ pg.commander_skill_template = {
 	},
 	[10021] = {
 		name = "최고의 사수",
-		desc_world = "미개방",
+		desc_world = "주력 함대 또는 정찰 함대와의 전투에서, 해당 함대의 전함, 순양전함, 항공 전함의 명중 수치를 상승시킨다. (큰 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 10022,
 		exp = 1,
 		prev_id = 0,
@@ -75,7 +75,7 @@ pg.commander_skill_template = {
 	},
 	[10022] = {
 		name = "최고의 사수",
-		desc_world = "미개방",
+		desc_world = "만약 편성된 기함이 전함, 순양전함 혹은 항공 전함일 시, 기함의 대미지를 상승시킨다. (효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 10023,
 		exp = 3,
 		prev_id = 10021,
@@ -94,7 +94,7 @@ pg.commander_skill_template = {
 	},
 	[10023] = {
 		name = "최고의 사수",
-		desc_world = "미개방",
+		desc_world = "해당 함대의 전함, 순양전함, 항공 전함의 기동, 대공 수치를 상승시킨다. (중간 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 10022,
@@ -115,7 +115,7 @@ pg.commander_skill_template = {
 	},
 	[11011] = {
 		name = "셀프 리미터",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 해당 함대의 구축함 뇌장 수치를 상승시킨다. (작은 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 11012,
 		exp = 1,
 		prev_id = 0,
@@ -132,7 +132,7 @@ pg.commander_skill_template = {
 	},
 	[11012] = {
 		name = "셀프 리미터",
-		desc_world = "미개방",
+		desc_world = "선봉 함대의 선두에 구축함이 있을 경우, 전투 중 적함에 접근했을 때, 1회 한정으로 지휘냥 탄막Ⅰ을 발동한다.",
 		next_id = 11013,
 		exp = 3,
 		prev_id = 11011,
@@ -151,7 +151,7 @@ pg.commander_skill_template = {
 	},
 	[11013] = {
 		name = "셀프 리미터",
-		desc_world = "미개방",
+		desc_world = "지휘냥 탄막Ⅰ을 지휘냥 탄막Ⅱ으로 강화한다.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 11012,
@@ -170,7 +170,7 @@ pg.commander_skill_template = {
 	},
 	[11021] = {
 		name = "행운의 파닥파닥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 장전 수치를 상승시킨다. (작은 효과: 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 11022,
 		exp = 1,
 		prev_id = 0,
@@ -187,7 +187,7 @@ pg.commander_skill_template = {
 	},
 	[11022] = {
 		name = "행운의 파닥파닥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 기동, 대공 수치를 상승시킨다. (작은 효과: 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 11023,
 		exp = 3,
 		prev_id = 11021,
@@ -206,7 +206,7 @@ pg.commander_skill_template = {
 	},
 	[11023] = {
 		name = "행운의 파닥파닥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 항공 수치를 상승시킨다. (중간 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 11022,
@@ -227,7 +227,7 @@ pg.commander_skill_template = {
 	},
 	[12011] = {
 		name = "항공모함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 장전 수치를 상승시킨다. (작은 효과: 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 12012,
 		exp = 1,
 		prev_id = 0,
@@ -244,7 +244,7 @@ pg.commander_skill_template = {
 	},
 	[12012] = {
 		name = "항공모함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 항공 수치를 상승시킨다. (작은 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 12013,
 		exp = 3,
 		prev_id = 12011,
@@ -263,7 +263,7 @@ pg.commander_skill_template = {
 	},
 	[12013] = {
 		name = "항공모함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 명중 수치를 상승시킨다. (작은 효과: 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 12012,
@@ -284,7 +284,7 @@ pg.commander_skill_template = {
 	},
 	[12021] = {
 		name = "레이더 정찰이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함, 초갑순양함의 기동 수치를 상승시킨다. (작은 효과: 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 12022,
 		exp = 1,
 		prev_id = 0,
@@ -301,7 +301,7 @@ pg.commander_skill_template = {
 	},
 	[12022] = {
 		name = "레이더 정찰이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 명중 수치를 상승시킨다. (작은 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 12023,
 		exp = 3,
 		prev_id = 12021,
@@ -320,7 +320,7 @@ pg.commander_skill_template = {
 	},
 	[12023] = {
 		name = "레이더 정찰이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 포격 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 12022,
@@ -341,7 +341,7 @@ pg.commander_skill_template = {
 	},
 	[20011] = {
 		name = "지극한 충성심",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 포격 및 대공 수치를 상승시킨다. (중간 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 20012,
 		exp = 1,
 		prev_id = 0,
@@ -358,7 +358,7 @@ pg.commander_skill_template = {
 	},
 	[20012] = {
 		name = "지극한 충성심",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 30초 동안 해당 함대 전원의 포격 수치를 상승시킨다. (중간 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 20013,
 		exp = 3,
 		prev_id = 20011,
@@ -377,7 +377,7 @@ pg.commander_skill_template = {
 	},
 	[20013] = {
 		name = "지극한 충성심",
-		desc_world = "미개방",
+		desc_world = "해당 함대 멤버의 전함, 순양전함, 항공전함에 대한 대미지를 상승시킨다. (효과는 전술 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 20012,
@@ -398,7 +398,7 @@ pg.commander_skill_template = {
 	},
 	[20021] = {
 		name = "교활한 관",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공 전함의 포격, 대공 수치를 상승시킨다. (중간 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 20022,
 		exp = 1,
 		prev_id = 0,
@@ -415,7 +415,7 @@ pg.commander_skill_template = {
 	},
 	[20022] = {
 		name = "교활한 관",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 로열 네이비 캐릭터 수가 4명 이상일 경우, 팀의 선봉 캐릭터가 받는 피해를 30초간 감소시킨다. (효과는 병참 보조 스테이터스에 비례)",
 		next_id = 20023,
 		exp = 3,
 		prev_id = 20021,
@@ -434,7 +434,7 @@ pg.commander_skill_template = {
 	},
 	[20023] = {
 		name = "교활한 관",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 로열 네이비 캐릭터의 기동 수치를 상승시킨다. (큰 효과: 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 20022,
@@ -455,7 +455,7 @@ pg.commander_skill_template = {
 	},
 	[21011] = {
 		name = "돈 내놔냥!",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 21012,
 		exp = 1,
 		prev_id = 0,
@@ -472,7 +472,7 @@ pg.commander_skill_template = {
 	},
 	[21012] = {
 		name = "돈 내놔냥!",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 수송 함대와의 전투에서 해당 함대의 경순양함, 중순양함 및 초갑순양함의 포격 수치를 상승시킨다. (큰 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 21013,
 		exp = 3,
 		prev_id = 21011,
@@ -491,7 +491,7 @@ pg.commander_skill_template = {
 	},
 	[21013] = {
 		name = "돈 내놔냥!",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함의 뇌장 수치를 상승시킨다. (중간 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 21012,
@@ -512,7 +512,7 @@ pg.commander_skill_template = {
 	},
 	[21021] = {
 		name = "냥스카우터",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 정찰 함대와의 전투에서 해당 함대의 구축함의 명중 수치를 상승시킨다. (중간 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 21022,
 		exp = 1,
 		prev_id = 0,
@@ -529,7 +529,7 @@ pg.commander_skill_template = {
 	},
 	[21022] = {
 		name = "냥스카우터",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 구축함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 21023,
 		exp = 3,
 		prev_id = 21021,
@@ -548,7 +548,7 @@ pg.commander_skill_template = {
 	},
 	[21023] = {
 		name = "냥스카우터",
-		desc_world = "미개방",
+		desc_world = "자신 주위 3칸 범위 내에 적군 정찰대가 존재하는 경우, 해당 함대의 구축함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 21022,
@@ -569,7 +569,7 @@ pg.commander_skill_template = {
 	},
 	[21031] = {
 		name = "파수꾼",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함, 항공모함의 명중 수치를 상승시킨다. (작은 효과: 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 21032,
 		exp = 1,
 		prev_id = 0,
@@ -586,7 +586,7 @@ pg.commander_skill_template = {
 	},
 	[21032] = {
 		name = "파수꾼",
-		desc_world = "미개방",
+		desc_world = "자신 주위 2칸 범위 내에 적군 정찰대가 존재하는 경우, 해당 함대의 구축함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 21033,
 		exp = 3,
 		prev_id = 21031,
@@ -605,7 +605,7 @@ pg.commander_skill_template = {
 	},
 	[21033] = {
 		name = "파수꾼",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함, 항공모함의 항공 수치를 상승시킨다. (중간 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 21032,
@@ -626,7 +626,7 @@ pg.commander_skill_template = {
 	},
 	[21041] = {
 		name = "용맹한 기사",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공 전함의 기동 수치를 상승시킨다.(작은 효과: 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 21042,
 		exp = 1,
 		prev_id = 0,
@@ -643,7 +643,7 @@ pg.commander_skill_template = {
 	},
 	[21042] = {
 		name = "용맹한 기사",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공 전함의 장전 수치를 상승시킨다.(작은 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 21043,
 		exp = 3,
 		prev_id = 21041,
@@ -662,7 +662,7 @@ pg.commander_skill_template = {
 	},
 	[21043] = {
 		name = "용맹한 기사",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 로열 네이비 캐릭터의 포격 수치를 상승시킨다. (작은 효과: 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 21042,
@@ -683,7 +683,7 @@ pg.commander_skill_template = {
 	},
 	[22011] = {
 		name = "전함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 장전 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 22012,
 		exp = 1,
 		prev_id = 0,
@@ -700,7 +700,7 @@ pg.commander_skill_template = {
 	},
 	[22012] = {
 		name = "전함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 명중 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 22013,
 		exp = 3,
 		prev_id = 22011,
@@ -719,7 +719,7 @@ pg.commander_skill_template = {
 	},
 	[22013] = {
 		name = "전함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 포격 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 22012,
@@ -740,7 +740,7 @@ pg.commander_skill_template = {
 	},
 	[22021] = {
 		name = "순양 전술이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 포격 수치를 상승시킨다. (작은 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 22022,
 		exp = 1,
 		prev_id = 0,
@@ -757,7 +757,7 @@ pg.commander_skill_template = {
 	},
 	[22022] = {
 		name = "순양 전술이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 명중 수치를 상승시킨다. (작은 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 22023,
 		exp = 3,
 		prev_id = 22021,
@@ -776,7 +776,7 @@ pg.commander_skill_template = {
 	},
 	[22023] = {
 		name = "순양 전술이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 22022,
@@ -797,7 +797,7 @@ pg.commander_skill_template = {
 	},
 	[30011] = {
 		name = "반격모구권",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 항공 및 장전 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 30012,
 		exp = 1,
 		prev_id = 0,
@@ -814,7 +814,7 @@ pg.commander_skill_template = {
 	},
 	[30012] = {
 		name = "반격모구권",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 30013,
 		exp = 3,
 		prev_id = 30011,
@@ -833,7 +833,7 @@ pg.commander_skill_template = {
 	},
 	[30013] = {
 		name = "반격모구권",
-		desc_world = "미개방",
+		desc_world = "전투 개시 시, 해당 부대의 주력 함대가 항공모함 혹은 경항공모함 1척만 있을 경우, 첫 항공 공격의 장전 속도가 8% 상승하고, 1회 한정으로 공습에 뇌격기가 추가된다.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 30012,
@@ -854,7 +854,7 @@ pg.commander_skill_template = {
 	},
 	[30021] = {
 		name = "선봉장",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 포격, 뇌장 수치를 상승시킨다. (중간 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 30022,
 		exp = 1,
 		prev_id = 0,
@@ -871,7 +871,7 @@ pg.commander_skill_template = {
 	},
 	[30022] = {
 		name = "선봉장",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 자신 주위 2칸 범위 내에 적 주력 함대가 존재하는 경우, 해당 함대의 기함이 받는 대미지를 감소시킨다.(효과는 지휘 보조 스테이터스에 비례)(2레벨 때 효력 발생)",
 		next_id = 30023,
 		exp = 3,
 		prev_id = 30021,
@@ -890,7 +890,7 @@ pg.commander_skill_template = {
 	},
 	[30023] = {
 		name = "선봉장",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 주력 함대와의 전투에서, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 명중, 기동 수치를 30초간 상승시킨다. (큰 효과: 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 30022,
@@ -911,7 +911,7 @@ pg.commander_skill_template = {
 	},
 	[31011] = {
 		name = "필살똥뱃살",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 명중 수치를 상승시킨다. (작은 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 31012,
 		exp = 1,
 		prev_id = 0,
@@ -928,7 +928,7 @@ pg.commander_skill_template = {
 	},
 	[31012] = {
 		name = "필살똥뱃살",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경항공모함 및 항공모함의 항공 수치를 상승시킨다. (중간 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 31013,
 		exp = 3,
 		prev_id = 31011,
@@ -947,7 +947,7 @@ pg.commander_skill_template = {
 	},
 	[31013] = {
 		name = "필살똥뱃살",
-		desc_world = "미개방",
+		desc_world = "항공모함 및 경항공모함이 기함으로 편성되어 있을 경우, 전투 개시 15초 후 함재기 편대의 공격이 추가된다.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 31012,
@@ -968,7 +968,7 @@ pg.commander_skill_template = {
 	},
 	[31021] = {
 		name = "야생의 본능",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 구축함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 31022,
 		exp = 1,
 		prev_id = 0,
@@ -985,7 +985,7 @@ pg.commander_skill_template = {
 	},
 	[31022] = {
 		name = "야생의 본능",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 구축함의 뇌장 수치를 상승시킨다. (중간 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 31023,
 		exp = 3,
 		prev_id = 31021,
@@ -1004,7 +1004,7 @@ pg.commander_skill_template = {
 	},
 	[31023] = {
 		name = "야생의 본능",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있고, 선봉함대가 구축함 1척 만으로만 편성되어 있을 경우, 해당 부대의 구축함의 뇌장 수치를 상승시킨다. (큰 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 31022,
@@ -1025,7 +1025,7 @@ pg.commander_skill_template = {
 	},
 	[32011] = {
 		name = "순양 지휘다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 포격 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 32012,
 		exp = 1,
 		prev_id = 0,
@@ -1042,7 +1042,7 @@ pg.commander_skill_template = {
 	},
 	[32012] = {
 		name = "순양 지휘다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함의 뇌장 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 32013,
 		exp = 3,
 		prev_id = 32011,
@@ -1061,7 +1061,7 @@ pg.commander_skill_template = {
 	},
 	[32013] = {
 		name = "순양 지휘다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함의 뇌장 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 32012,
@@ -1082,7 +1082,7 @@ pg.commander_skill_template = {
 	},
 	[32021] = {
 		name = "전함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 명중 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 32022,
 		exp = 1,
 		prev_id = 0,
@@ -1099,7 +1099,7 @@ pg.commander_skill_template = {
 	},
 	[32022] = {
 		name = "전함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 대공 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 32023,
 		exp = 3,
 		prev_id = 32021,
@@ -1118,7 +1118,7 @@ pg.commander_skill_template = {
 	},
 	[32023] = {
 		name = "전함 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 포격 수치를 상승시킨다. (작은 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 32022,
@@ -1139,7 +1139,7 @@ pg.commander_skill_template = {
 	},
 	[40011] = {
 		name = "조용한 사냥꾼",
-		desc_world = "미개방",
+		desc_world = "해당 부대의 잠수함 및 잠수항모의 뇌장 수치를 상승시킨다. (작은 효과 : 효과는 지휘 및 병참 보조 스테이터스에 비례)",
 		next_id = 40012,
 		exp = 1,
 		prev_id = 0,
@@ -1156,7 +1156,7 @@ pg.commander_skill_template = {
 	},
 	[40012] = {
 		name = "조용한 사냥꾼",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 해당 함대의 잠수함의 산소를 15 증가시킨다.",
 		next_id = 40013,
 		exp = 3,
 		prev_id = 40011,
@@ -1175,7 +1175,7 @@ pg.commander_skill_template = {
 	},
 	[40013] = {
 		name = "조용한 사냥꾼",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 전투 개시 시, 잠수함대 기함이 추가 어뢰 공격을 발동한다.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 40012,
@@ -1196,7 +1196,7 @@ pg.commander_skill_template = {
 	},
 	[40021] = {
 		name = "불굴의 의지",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함 및 항공전함의 포격, 명중 수치를 상승시킨다. (중간 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 40022,
 		exp = 1,
 		prev_id = 0,
@@ -1213,7 +1213,7 @@ pg.commander_skill_template = {
 	},
 	[40022] = {
 		name = "불굴의 의지",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 기함이 전함, 순양전함 또는 항공전함일 경우, 전투 개시 20초 후, 50% 확률로 탄막 사격을 발동한다.",
 		next_id = 40023,
 		exp = 3,
 		prev_id = 40021,
@@ -1232,7 +1232,7 @@ pg.commander_skill_template = {
 	},
 	[40023] = {
 		name = "불굴의 의지",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 주력 함대와의 전투에서, 해당 함대의 전함, 순양전함 및 항공전함이 받는 대미지를 감소시키고, 장전 수치를 상승시킨다. (중간 효과: 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 40022,
@@ -1253,7 +1253,7 @@ pg.commander_skill_template = {
 	},
 	[41011] = {
 		name = "바다의 기사",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 41012,
 		exp = 1,
 		prev_id = 0,
@@ -1270,7 +1270,7 @@ pg.commander_skill_template = {
 	},
 	[41012] = {
 		name = "바다의 기사",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 전함, 순양전함, 항공전함의 명중 수치를 상승시킨다. (중간 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 41013,
 		exp = 3,
 		prev_id = 41011,
@@ -1289,7 +1289,7 @@ pg.commander_skill_template = {
 	},
 	[41013] = {
 		name = "바다의 기사",
-		desc_world = "미개방",
+		desc_world = "적 주력 함대와 교전 시, 아군 기함이 받는 대미지를 감소시킨다. (효과는 전술 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 41012,
@@ -1310,7 +1310,7 @@ pg.commander_skill_template = {
 	},
 	[41021] = {
 		name = "바다의 용자",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 잠수함, 잠수항모의 뇌장 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 41022,
 		exp = 1,
 		prev_id = 0,
@@ -1327,7 +1327,7 @@ pg.commander_skill_template = {
 	},
 	[41022] = {
 		name = "바다의 용자",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 잠수함, 잠수항모의 명중 수치를 상승시킨다. (중간 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 41023,
 		exp = 3,
 		prev_id = 41021,
@@ -1346,7 +1346,7 @@ pg.commander_skill_template = {
 	},
 	[41023] = {
 		name = "바다의 용자",
-		desc_world = "미개방",
+		desc_world = "사령냥으로 배치되어 있을 때, 해당 함대의 잠수함의 산소를 5 증가시킨다.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 41022,
@@ -1367,7 +1367,7 @@ pg.commander_skill_template = {
 	},
 	[41031] = {
 		name = "수호의 마음",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 잠수함, 잠수항모의 뇌장 수치를 상승시킨다. (작은 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 41032,
 		exp = 1,
 		prev_id = 0,
@@ -1384,7 +1384,7 @@ pg.commander_skill_template = {
 	},
 	[41032] = {
 		name = "수호의 마음",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 잠수함, 잠수항모의 기동 수치를 상승시킨다. (중간 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 41033,
 		exp = 3,
 		prev_id = 41031,
@@ -1403,7 +1403,7 @@ pg.commander_skill_template = {
 	},
 	[41033] = {
 		name = "수호의 마음",
-		desc_world = "미개방",
+		desc_world = "잠수함대의 참모냥으로 배치되어 있을 때, 기함이 전함, 순양전함 또는 항공전함일 경우, 해당 함대의 잠수함, 잠수항모의 명중 수치를 상승시킨다. (중간 효과: 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 41032,
@@ -1424,7 +1424,7 @@ pg.commander_skill_template = {
 	},
 	[42011] = {
 		name = "순양 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 42012,
 		exp = 1,
 		prev_id = 0,
@@ -1441,7 +1441,7 @@ pg.commander_skill_template = {
 	},
 	[42012] = {
 		name = "순양 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 포격 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 42013,
 		exp = 3,
 		prev_id = 42011,
@@ -1460,7 +1460,7 @@ pg.commander_skill_template = {
 	},
 	[42013] = {
 		name = "순양 보급이다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 경순양함, 중순양함 및 초갑순양함의 포격 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 42012,
@@ -1481,7 +1481,7 @@ pg.commander_skill_template = {
 	},
 	[42021] = {
 		name = "구축 지휘다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 구축함의 기동 수치를 상승시킨다. (작은 효과 : 효과는 지휘 보조 스테이터스에 비례)",
 		next_id = 42022,
 		exp = 1,
 		prev_id = 0,
@@ -1498,7 +1498,7 @@ pg.commander_skill_template = {
 	},
 	[42022] = {
 		name = "구축 지휘다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 구축함의 명중 수치를 상승시킨다. (작은 효과 : 효과는 전술 보조 스테이터스에 비례)",
 		next_id = 42023,
 		exp = 3,
 		prev_id = 42021,
@@ -1517,7 +1517,7 @@ pg.commander_skill_template = {
 	},
 	[42023] = {
 		name = "구축 지휘다냥",
-		desc_world = "미개방",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 구축함의 뇌장 수치를 상승시킨다. (작은 효과 : 효과는 병참 보조 스테이터스에 비례)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 42022,

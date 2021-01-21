@@ -14,7 +14,7 @@ return {
 			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "前方就是塔兰托港了，嗯？这些在港口里飘荡的旗帜......皇家的舰队居然已经先到了么。",
+			say = "앞에 보이는 것이 타란토 항이야. 응? 저 깃발은... 로열 네이비가 먼저 와있었군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			bgName = "bg_port_talantuo",
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "这还真是...没想到女王陛下已经先到了，接待不周还请恕罪。",
+			say = "이건 정말... 여왕 폐하를 기다리게 하다니, 큰 죄를 저질렀군.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "没事，没事~陆间海我可是很熟的，就算闭着眼睛都能带着舰队开到塔兰托，不需要有什么多余的担心。",
+			say = "괜찮아~ 괜찮아. 지중해는 익숙하니까 여기까지 오는 건 식은 죽 먹기지. 걱정하지 않아도 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "陛下您的心情好像不是很好啊，路上发生什么不愉快的事了么？",
+			say = "기분이 안 좋아 보이는데, 오는 길에 무슨 일이라도 있었어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#ffff4d",
-			say = "发生了什么不愉快的事么...........？！你还真问得出来啊！我可是从皇家本岛出发之后，一路先到了圣彼得伯格，然后到了霍尔斯坦，然后到了土伦港，最后才来到你们塔兰托港的！",
+			say = "무슨 일...? 그걸 지금 말이라고 해? 로열 네이비 본섬에서 출발해서 산크트 페터를 들린 다음에, 켈, 그리고 툴롱, 마지막으로 타란토 항에 도착했다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈......这还真是趟辛苦的旅程啊~不过重樱舰队也是经历了漫长的旅途才到这里的哟。",
+			say = "아하하하... 꽤 고된 여정이었네. 하지만 사쿠라 엠파이어도 긴 항해 끝에 도착했는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "重樱舰队也已经到了么....领头的是......嗯？",
+			say = "사쿠라 엠파이어도 왔나, 수장은... 엥?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "原来是{namecode:161}的妹妹{namecode:91}啊。本以为机会难得，能见一见你们那艘神秘的总旗舰{namecode:83}呢，或者至少也是{namecode:74}、{namecode:82}之类的。",
+			say = "아마기의 동생 아카기인가. 모처럼의 기회라 너희의 기함인 야마토나 나가토, 미카사 중 하나가 올 줄 알았는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "签订停火协议这么重要的事，你能做这个决定么？",
+			say = "휴전 협정 같은 중요한 일을 네가 결정할 수 있겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像听到一阵吵得要命的噪音，究竟是从哪里发出来的......",
+			say = "대체 어디서 이렇게 시끄러운 소리가 나는지 모르겠네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，原来如此，是皇家的小不点女王啊，没能在第一时间注意到您的存在是我的疏忽，实在抱歉。",
+			say = "아, 로열 네이비의 덜렁이 여왕님이셨군요. 계시는 줄 몰랐답니다. 정말 죄송하군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于您刚才问出来的问题，也难怪皇家之前被铁血整的那么惨，你们的情报能力真是下降了不少啊。",
+			say = "방금 그 질문은... 왜 로열 네이비가 메탈 블러드에게 당했는지 알 수 있는 질문이었어요. 정보 능력이 정말 많이 떨어졌나 보네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#ffff4d",
-			say = "你......！",
+			say = "너...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#ffff4d",
-			say = "感谢{namecode:91}阁下指出我们的不足之处，我们一定会着手进行改进，争取让类似白鹰获悉AF详情那样精彩的情报战再发生几次。",
+			say = "부족한 점을 지적해 줘서 고마워. 이글 유니온이 AF에 대한 상황을 알게 된 것처럼 정보전을 펼칠 수 있도록 개선 작업을 진행하도록 하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵............",
+			say = "후후...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "唉...你们都冷静一点~这次大家不是都抱有和平的意愿才会齐聚塔兰托的嘛，就不要像这样针锋相对了。",
+			say = "윽... 다들 진정해. 싸우러 온 게 아니라 평화를 위해서 타란토에 모인 거잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			blackBg = true,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "腓特烈大帝的也在赶来这里的路上，在那之前请各位放宽身心，尽情享受一下撒丁风情吧~",
+			say = "프리드리히 데어 그로세도 오는 중이니까, 다들 기다리면서 사르데냐의 풍경을 즐겨줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

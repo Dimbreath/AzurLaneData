@@ -7,7 +7,7 @@ return {
 				"GuideDetail"
 			},
 			style = {
-				text = "点击详情界面，可以查看已接受的任务",
+				text = "상세 정보 화면을 터치하여, 접수한 임무 확인 가능",
 				mode = 2,
 				dir = 1,
 				posY = -54.13,

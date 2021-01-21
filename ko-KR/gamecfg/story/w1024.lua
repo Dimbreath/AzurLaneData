@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "情报修正添加成功，舰队的适应性提升了。",
+			say = "정보 수정 및 추가 성공. 함대 적응력 상승.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

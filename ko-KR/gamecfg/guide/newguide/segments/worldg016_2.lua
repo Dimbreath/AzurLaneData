@@ -32,7 +32,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "长按对象可以切换分析模式",
+				text = "대상을 길게 눌러 분석 모듈 전환 가능",
 				mode = 2,
 				dir = -1,
 				posY = -320,
@@ -87,7 +87,7 @@ return {
 				"explainDetail"
 			},
 			style = {
-				text = "玩家可以在分析仪模式下查看战斗对象的情报或者调查点的信息.",
+				text = "분석기 모듈에서 전투 대상 또는 조사 포인트의 정보 확인 가능.",
 				mode = 2,
 				dir = 1,
 				posY = -200,

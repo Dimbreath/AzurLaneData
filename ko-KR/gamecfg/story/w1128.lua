@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "提示：使用分析模块探索在海域中的隐藏资源吧。",
+			say = "알림: 분석 모듈을 사용하여 해역의 숨겨진 자원을 탐색하세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

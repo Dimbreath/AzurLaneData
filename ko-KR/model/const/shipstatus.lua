@@ -102,8 +102,6 @@ function slot0.ShipStatusToTag(slot0, slot1)
 			i18n("common_flag_ship")
 		}
 	elseif uv0.checkShipFlag(slot0, slot1, "inWorld") then
-		slot2 = WorldConst.FetchWorldShip(slot0.id)
-
 		return {
 			"shipstatus",
 			"red",
@@ -316,7 +314,6 @@ slot1 = {
 	inActivity = {
 		isActivityNpc = 2,
 		inEvent = 2,
-		inWorld = 2,
 		inActivity = 2
 	},
 	inEvent = {

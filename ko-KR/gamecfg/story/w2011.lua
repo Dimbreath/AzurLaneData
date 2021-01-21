@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "至少需要两个舰队同时进行激活……",
+			say = "최소 두 함대가 동시에 활성화를 진행해야 합니다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

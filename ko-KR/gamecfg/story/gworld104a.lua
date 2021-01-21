@@ -14,7 +14,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "在NY港等隶属于碧蓝航线的己方港口中，您可以使用G.M系统的舰队指令模块对参战舰队进行快捷管理。",
+			say = "NY항은 벽람항로에 속한 항구로, G.M 시스템의 함대 명령 모듈을 통행 참전 함대를 신속하게 관리할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "比如，您可以使用舰队部署指令在港口中对参与大型作战的舰队成员进行调整。",
+			say = "예를 들면, 함대 배치 명령을 통해 대형 작전에 참여 중인 항구의 함대 구성원을 조정할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -290,7 +290,14 @@ function slot0.initToggles(slot0)
 	end
 
 	setActive(slot0.contextData.toggles[uv3], slot0.guildVO:getDutyByMemberId(slot0.playerVO.id) == GuildConst.DUTY_COMMANDER or slot1 == GuildConst.DUTY_DEPUTY_COMMANDER)
+
+	slot0.contextData.page = nil
+
 	triggerToggle(slot0.contextData.toggles[slot0.contextData.page or uv1], true)
+end
+
+function slot0.TriggerOfficePage(slot0)
+	triggerToggle(slot0.contextData.toggles[uv0], true)
 end
 
 function slot0.openPage(slot0, slot1)

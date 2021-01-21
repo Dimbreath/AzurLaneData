@@ -122,7 +122,7 @@ pg.open_systems_limited = {
 	},
 	[17] = {
 		scene = "MAINUI",
-		name = "meta研究室",
+		name = "meta 연구실",
 		story_id = "",
 		id = 17,
 		mediator = "MetaCharacterMediator",
@@ -130,7 +130,7 @@ pg.open_systems_limited = {
 	},
 	[18] = {
 		scene = "MAINUI",
-		name = "装备改造",
+		name = "장비 개조",
 		story_id = "",
 		id = 18,
 		mediator = "EquipmentTransformTreeMediator",
@@ -138,15 +138,15 @@ pg.open_systems_limited = {
 	},
 	[19] = {
 		scene = "MAINUI",
-		name = "大型作战",
+		name = "대형 작전",
 		story_id = "",
 		id = 19,
 		mediator = "WorldMediator",
-		level = 999
+		level = 60
 	},
 	[20] = {
 		scene = "MAINUI",
-		name = "大世界收藏",
+		name = "월드 즐겨찾기",
 		story_id = "",
 		id = 20,
 		mediator = "WorldMediaCollectionRecordMediator",

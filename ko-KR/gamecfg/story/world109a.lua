@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-1",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：指挥官，舰队已到达NA海域核心区域外围。",
+			say = "명령 확인. 지휘관님, 함대가 NA 해역 핵심 구역 외곽에 도착했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			voice = "event:/tb/41/tb-41",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "为了确保前哨站的顺利部署，首先需要彻底清理这片海域中的敌人。",
+			say = "순조로운 전초 기지 건설을 위해 먼저 해역의 적을 제거하는 것을 추천합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "终于到总攻前的最后一步了......各舰注意，准备战斗！",
+			say = "드디어 마지막 단계인가... 모두 주목, 전투를 준비해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "META研究室中拥有<color=#ff5c5c>能量激活</color>、<color=#ff5c5c>舰装强化</color>、<color=#ff5c5c>战术养成</color>、<color=#ff5c5c>资讯同步</color>四个系统模块。",
+				text = "META 연구실에는 <color=#ff5c5c>에너지 활성화</color>, <color=#ff5c5c>함장 강화</color>, <color=#ff5c5c>전술 양성</color>, <color=#ff5c5c>정보 동기화</color> 네 가지 시스템 모듈이 있습니다.",
 				mode = 2,
 				dir = 1,
 				posY = -230.2,
@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "来看看META角色的战术养成吧。",
+				text = "META 캐릭터의 전술 양성을 보시죠.",
 				mode = 2,
 				dir = 1,
 				posY = -186.8,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "META角色的技能在进行升级之前首先需要解锁。",
+				text = "META 캐릭터의 스킬은 레벨업 진행 전 우선 해제를 해야합니다.",
 				mode = 2,
 				dir = 1,
 				posY = -133,
@@ -61,7 +61,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "需要消耗一定数量与技能类型相同的技能书进行解锁操作。",
+				text = "일정 수량의 스킬 유형에 맞는 스킬북을 소모하여 해제 가능",
 				mode = 2,
 				dir = -1,
 				posY = 0,

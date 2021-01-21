@@ -9,8 +9,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "神秘商人",
-			say = "这位客官，真是偶遇喵！",
+			actorName = "신비한 상인",
+			say = "손님, 정말 우연이다냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "神秘商人",
-			say = "走过路过，不能错过喵，来看看本次的全新商品喵？",
+			say = "놓치면 안된다냥. 이번에 새로 들어온 상품을 보겠냥?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,11 +37,11 @@ return {
 			},
 			options = {
 				{
-					content = "进入商店",
+					content = "상점 진입",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "이탈",
 					flag = 2
 				}
 			}
@@ -52,8 +52,8 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 312010,
-			actorName = "神秘商人",
-			say = "偶尔也会有这种时候喵…欢迎再次光临喵~！",
+			actorName = "신비한 상인",
+			say = "가끔은 이럴 때도 있는 거지냥... 다음에 또 와라냥~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

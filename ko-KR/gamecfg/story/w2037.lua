@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：指挥官，舰队正在遭受异常海况影响。",
+			say = "경고: 지휘관님, 함대가 이상 해황의 영향을 받았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

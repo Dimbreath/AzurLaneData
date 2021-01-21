@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你好~需要治疗的时候，请来到我身边就可以了哦",
+			say = "치료가 필요할 때, 절 찾아오시면 됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 			},
 			options = {
 				{
-					content = "知道了",
+					content = "알았어.",
 					flag = 1
 				}
 			}

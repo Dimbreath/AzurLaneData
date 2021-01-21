@@ -12,7 +12,7 @@ return {
 			bgm = "bsm-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "等、大家稍等一下！侦察机发现了一支行踪异常的舰队！",
+			say = "잠시만, 잠깐만 멈춰봐! 정찰기에 이상한 행동을 하는 함대 발견!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "........不会吧，侦察机在舰队中发现了提尔比茨的身影，是日前袭击了斯卡帕湾并突破皇家封锁的铁血主力舰队！",
+			say = "......설마, 티르피츠의 모습이 발견됐는데? 스캐퍼플로에서 로열 네이비의 포위망을 뚫었던 메탈 블러드의 주력 함대야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "航向呢？！",
+			say = "방향은요?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "与我们航线相反，正在向着百慕大海域方向前进。她们应该还没有注意到我们的存在。",
+			say = "우리와 정 반대야. 버뮤다 해역으로 전진하고 있어. 우리가 있는지 모르는 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "毕竟航空力量薄弱可是铁血舰队的特色之一呢。",
+			say = "대공 작전 능력이 약한 것은 메탈 블러드의 특징이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到袭击了皇家之后，现在又鬼鬼祟祟的向着我们的海岸线靠拢，意图已经再明显不过了......",
+			say = "로열 네이비를 습격한 이후에 이렇게 몰래 다가오다니, 대체 무슨 의도인 거지...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？指挥部不是正在与赤色中轴协商停火协议么！",
+			say = "엥? 지금 지휘부랑 적색중축은 휴전 협상 중 아니야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "问题就在这里。也许以停火协议为幌子的突然袭击，或者是想在停火协议的谈判桌上争取更多的利益么。",
+			say = "그게 문제예요. 휴전 협상을 빌미로 기습 공격을 한다던가, 협상 테이블에서 더 많은 이익을 얻으려는 것일 수도 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是哪种情况，指挥部现在应该还蒙在鼓里吧......",
+			say = "어쨌든 지휘부는 아직 모르고 있을 텐데요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			},
 			options = {
 				{
-					content = "立刻向指挥部进行汇报",
+					content = "당장 지휘부에 보고한다.",
 					flag = 1
 				}
 			}
@@ -167,7 +167,7 @@ return {
 			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：正在向指挥部发送情报中。",
+			say = "명령 확인. 지휘부에 정보를 발송합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办，指挥官？反正停火协议还没有正式签署，趁着铁血舰队还没发现我们先下手为强？",
+			say = "이제 어떻게 하지, 지휘관? 아직 휴전은 체결되지 않았어. 메탈 블러드가 우리를 발견하지 못한 사이에 먼저 공격할까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "NA海域中的局势已经非常复杂了，现在让冲突进一步升级和整体战役的方针相违背。",
+			say = "NA 해역의 상황은 이미 복잡해. 여기서 충돌한다면 지휘부의 방침에도 어긋나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,22 +208,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "百慕大海域中确实存在着异常现象，铁血舰队的目标也许只是在那里也说不定......",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "赞成，指挥部在作战之前也再三强调过不要与赤色中轴发生无谓的战斗。",
+			say = "버뮤다 해역에 이상 현상이 발생하고 있는 것은 사실이니까, 메탈 블러드 함대의 목적 역시 그것 일지도 모르지...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +223,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是...也不能就这样放着铁血舰队畅通无阻的向白鹰的海岸前进...",
+			say = "찬성이다. 작전 시작 전 지휘부에서도 적색중축과 충돌을 일으키지 말라고 신신당부했지.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "하지만... 이렇게 메탈 블러드 함대가 이글 유니온의 앞마당을 배회하게 둘 수는 없는데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "用舰载机掠过铁血舰队上空示警一下怎么样？",
+			say = "함재기를 보내 경고하는 건 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "舰队调整航向，同时从空中对铁血舰队发出警告。",
+			say = "항로 변경해. 그리고 메탈 블러드 함대에 경고한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			voice = "event:/tb/21/tb-21",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：目标设定为铁血舰队，正在规划最佳的交战航线————",
+			say = "명령 확인. 목표, 메탈 블러드 함대로 설정. 현재 최적의 교전 항로 설정 중————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，空中的事包在我身上~让我们给偷偷乱跑的铁血舰队一点小小的警告吧！",
+			say = "헤헤, 공중이라면 나에게 맡겨줘! 몰래 숨어 들어온 메탈 블러드에게 경고를 해볼까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

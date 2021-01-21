@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "设备运行中………………嗯？",
+			say = "설비 운행 중......... 응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "警告：发现了一支包含运输舰「COURIER」在内的塞壬隐藏舰队，也许含有某些高价值目标。",
+			say = "경고: 운송함 「COURIER」를 포함한 숨어 있는 세이렌 함대 발견. 높은 가치의 목표 내포 가능.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			},
 			options = {
 				{
-					content = "准备战斗",
+					content = "전투 준비",
 					flag = 0
 				}
 			}

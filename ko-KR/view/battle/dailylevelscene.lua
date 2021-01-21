@@ -84,6 +84,7 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0:tryPlayGuide()
+	slot0:ShowGuildTaskTip()
 end
 
 function slot0.initItems(slot0)
@@ -371,6 +372,10 @@ function slot0.tryPlayGuide(slot0)
 	pg.SystemGuideMgr.GetInstance():PlayDailyLevel(function ()
 		triggerButton(uv0:findTF("help_btn"))
 	end)
+end
+
+function slot0.ShowGuildTaskTip(slot0)
+	pg.GuildMsgBoxMgr.GetInstance():NotificationForDailyBattle()
 end
 
 function slot0.clearTween(slot0)

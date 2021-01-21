@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "需要将塞壬能源矩阵带到此处……",
+			say = "세이렌 에너지 매트릭스를 이곳까지 운반해야 합니다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

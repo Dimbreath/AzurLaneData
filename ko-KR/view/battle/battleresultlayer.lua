@@ -205,8 +205,9 @@ function slot0.didEnter(slot0)
 	slot1 = rtf(slot0._grade)
 	slot0._gradeUpperLeftPos = slot1.localPosition
 	slot1.localPosition = Vector3(0, 25, 0)
+	slot0.blurRt = pg.UIMgr.GetInstance():SetMainCamBlurTexture(GetComponent(slot0:findTF("blur_img", slot0._tf), "RawImage"))
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	setActive(slot0:findTF("blur_img", slot0._tf), true)
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)
 
@@ -913,7 +914,11 @@ function slot0.willExit(slot0)
 		slot0._rightTimer:Stop()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	ReflectionHelp.RefCallStaticMethod(typeof("UnityEngine.RenderTexture"), "ReleaseTemporary", {
+		typeof("UnityEngine.RenderTexture")
+	}, {
+		slot0.blurRt
+	})
 	slot0:stopVoice()
 end
 

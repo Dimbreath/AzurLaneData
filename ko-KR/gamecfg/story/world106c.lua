@@ -11,7 +11,7 @@ return {
 			bgm = "bsm-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "大家快看，前方那个是新形成的火山岛么？",
+			say = "봐봐! 앞에 저거, 새로 생긴 화산섬인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "岛上居然覆盖了还没完全融化的雪...？！这里可是百慕大海域哦！",
+			say = "섬에 눈이 녹지 않았다니?! 여긴 버뮤다 해역인데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			expression = 1,
 			side = 2,
 			dir = 1,
-			say = "反常的现象.....继续探索吧。",
+			say = "이상한 현상이다... 계속 탐색하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

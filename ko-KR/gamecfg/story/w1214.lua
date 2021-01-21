@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "随着空间崩碎，奇怪的物件增加了！",
+			say = "공간이 붕괴되면서, 이상한 물건들이 늘어났다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

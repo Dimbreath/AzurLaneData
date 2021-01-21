@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "战斗胜利，全体舰队的士气恢复了。",
+			say = "전투 승리, 모든 함대의 사기가 회복되었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

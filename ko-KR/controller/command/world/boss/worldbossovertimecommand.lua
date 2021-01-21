@@ -18,6 +18,7 @@ function slot0.execute(slot0, slot1)
 			end)
 		end
 
+		slot4:ClearRank(slot5.id)
 		slot4:RemoveSelfBoss()
 		slot0:sendNotification(GAME.WORLD_SELF_BOSS_OVERTIME_DONE)
 	end

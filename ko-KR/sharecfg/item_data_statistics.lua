@@ -6486,8 +6486,8 @@ pg.item_data_statistics = {
 	},
 	[18101] = {
 		drop_gold_max = 0,
-		name = "普通钢材",
-		display = "工艺简单大批量生产的钢材，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "일반 강재",
+		display = "공정이 단순하고 대량 생산된 강재. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6505,8 +6505,8 @@ pg.item_data_statistics = {
 	},
 	[18102] = {
 		drop_gold_max = 0,
-		name = "优质钢材",
-		display = "综合性能良好的钢材，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "고급 강재",
+		display = "종합 성능이 우수한 강재. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6524,8 +6524,8 @@ pg.item_data_statistics = {
 	},
 	[18103] = {
 		drop_gold_max = 0,
-		name = "特种钢材",
-		display = "生产困难拥有特殊性能的钢材，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "특수 강재",
+		display = "생산이 어렵고 특수한 성능을 가진 강재. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6543,8 +6543,8 @@ pg.item_data_statistics = {
 	},
 	[18104] = {
 		drop_gold_max = 0,
-		name = "通常电子元件",
-		display = "通常设备中使用的电子元件，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "일반 전자 부품",
+		display = "일반 설비에서 사용하는 전자 부품. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6562,8 +6562,8 @@ pg.item_data_statistics = {
 	},
 	[18105] = {
 		drop_gold_max = 0,
-		name = "工业级电子元件",
-		display = "工业设备中使用的电子元件，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "공업용 전자 부품",
+		display = "공업 설비에 사용되는 전자 부품. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6581,8 +6581,8 @@ pg.item_data_statistics = {
 	},
 	[18106] = {
 		drop_gold_max = 0,
-		name = "军工级电子元件",
-		display = "军事工业设备中使用的电子元件，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "군용 전자 부품",
+		display = "군사 공업 설비에 사용되는 전자 부품. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6600,8 +6600,8 @@ pg.item_data_statistics = {
 	},
 	[18107] = {
 		drop_gold_max = 0,
-		name = "常规炸药",
-		display = "性质稳定应用广泛的炸药，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "일반 폭약",
+		display = "안정적인 성질에 응용이 광범위한 폭약. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6619,8 +6619,8 @@ pg.item_data_statistics = {
 	},
 	[18108] = {
 		drop_gold_max = 0,
-		name = "B炸药",
-		display = "能量高可塑性强的混合炸药，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "B 폭약",
+		display = "에너지가 높고 가소성이 강한 혼합 폭약. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6638,8 +6638,8 @@ pg.item_data_statistics = {
 	},
 	[18109] = {
 		drop_gold_max = 0,
-		name = "HBX炸药",
-		display = "含有铝粉的高威力军用混合炸药，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "HBX 폭약",
+		display = "알루미늄 분말을 함유한 고위력 군용 혼합 폭약. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6657,8 +6657,8 @@ pg.item_data_statistics = {
 	},
 	[18110] = {
 		drop_gold_max = 0,
-		name = "天然橡胶",
-		display = "由橡胶树上采集加工而来的天然橡胶，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "천연 고무",
+		display = "고무나무에서 채집하여 가공한 천연 고무. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6676,8 +6676,8 @@ pg.item_data_statistics = {
 	},
 	[18111] = {
 		drop_gold_max = 0,
-		name = "通用合成橡胶",
-		display = "通过工业大规模生产的合成橡胶，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "범용 합성 고무",
+		display = "대규모 공업을 통해 생산한 합성 고무. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6695,8 +6695,8 @@ pg.item_data_statistics = {
 	},
 	[18112] = {
 		drop_gold_max = 0,
-		name = "氟橡胶",
-		display = "工艺复杂性能优异的合成橡胶，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "플루오린 고무",
+		display = "공정이 복잡하고 성능이 우수한 합성 고무. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6714,8 +6714,8 @@ pg.item_data_statistics = {
 	},
 	[18113] = {
 		drop_gold_max = 0,
-		name = "铜锭",
-		display = "经过提纯的金属铜，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "구리 주괴",
+		display = "정련된 금속 구리. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6733,8 +6733,8 @@ pg.item_data_statistics = {
 	},
 	[18114] = {
 		drop_gold_max = 0,
-		name = "超导铜",
-		display = "导电性能优异的合成铜，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "초전도 구리",
+		display = "전도성이 우수한 합성 구리. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6752,8 +6752,8 @@ pg.item_data_statistics = {
 	},
 	[18115] = {
 		drop_gold_max = 0,
-		name = "铝合金",
-		display = "在铝中加入了其它元素制成的合金，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "알루미늄 합금",
+		display = "알루미늄에 기타 원소를 넣어 만든 합금. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6771,8 +6771,8 @@ pg.item_data_statistics = {
 	},
 	[18116] = {
 		drop_gold_max = 0,
-		name = "钛合金",
-		display = "在钛中加入了其它元素制成的合金，拥有众多优异性能，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "타이타늄 합금",
+		display = "알루미늄에 기타 원소를 넣어 만든 합금. 성능 우수. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6790,8 +6790,8 @@ pg.item_data_statistics = {
 	},
 	[18117] = {
 		drop_gold_max = 0,
-		name = "舰炮研发图纸SSR型",
-		display = "进行SSR型主炮研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "함포 개발 도면 SSR형",
+		display = "SSR형 주포 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6809,8 +6809,8 @@ pg.item_data_statistics = {
 	},
 	[18118] = {
 		drop_gold_max = 0,
-		name = "舰炮研发图纸UR型",
-		display = "进行UR型主炮研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "함포 개발 도면 UR형",
+		display = "UR형 주포 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6828,8 +6828,8 @@ pg.item_data_statistics = {
 	},
 	[18119] = {
 		drop_gold_max = 0,
-		name = "鱼雷研发图纸SSR型",
-		display = "进行SSR型鱼雷研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "어뢰 개발 도면 SSR형",
+		display = "SSR형 어뢰 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6847,8 +6847,8 @@ pg.item_data_statistics = {
 	},
 	[18120] = {
 		drop_gold_max = 0,
-		name = "鱼雷研发图纸UR型",
-		display = "进行UR型鱼雷研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "어뢰 개발 도면 UR형",
+		display = "UR형 어뢰 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6866,8 +6866,8 @@ pg.item_data_statistics = {
 	},
 	[18121] = {
 		drop_gold_max = 0,
-		name = "防空炮研发图纸SSR型",
-		display = "进行SSR型防空炮研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "대공포 개발 도면 SSR형",
+		display = "SSR형 대공포 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6885,8 +6885,8 @@ pg.item_data_statistics = {
 	},
 	[18122] = {
 		drop_gold_max = 0,
-		name = "防空炮研发图纸UR型",
-		display = "进行UR型防空炮研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "대공포 개발 도면 UR형",
+		display = "UR형 대공포 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6904,8 +6904,8 @@ pg.item_data_statistics = {
 	},
 	[18123] = {
 		drop_gold_max = 0,
-		name = "舰载机研发图纸SSR型",
-		display = "进行SSR型舰载机研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "함재기 개발 도면 SSR형",
+		display = "SSR형 함재기 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6923,8 +6923,8 @@ pg.item_data_statistics = {
 	},
 	[18124] = {
 		drop_gold_max = 0,
-		name = "舰载机研发图纸UR型",
-		display = "进行UR型舰载机研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "함재기 개발 도면 UR형",
+		display = "UR형 함재기 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6942,8 +6942,8 @@ pg.item_data_statistics = {
 	},
 	[18125] = {
 		drop_gold_max = 0,
-		name = "常规实验计划",
-		display = "保密级别为普通的实验计划书，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "일반 실험 계획",
+		display = "보안 레벨 일반 실험 계획서. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6961,8 +6961,8 @@ pg.item_data_statistics = {
 	},
 	[18126] = {
 		drop_gold_max = 0,
-		name = "机密实验计划",
-		display = "保密级别为机密的实验计划书，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "기밀 실험 계획",
+		display = "보안 레벨 기밀 실험 계획서. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -6980,8 +6980,8 @@ pg.item_data_statistics = {
 	},
 	[18127] = {
 		drop_gold_max = 0,
-		name = "绝密实验计划",
-		display = "保密级别为绝密的实验计划书，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+		name = "극비 실험 계획",
+		display = "보안 레벨 극비 실험 계획서. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 		type = 2,
 		is_world = 1,
 		shop_id = -1,
@@ -7109,8 +7109,8 @@ pg.item_data_statistics = {
 	},
 	[21001] = {
 		drop_gold_max = 0,
-		name = "结晶：{namecode:191}",
-		display = "{namecode:191}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+		name = "결정: {namecode:191}",
+		display = "{namecode:191}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 		type = 4,
 		is_world = 0,
 		shop_id = -1,
@@ -7128,8 +7128,8 @@ pg.item_data_statistics = {
 	},
 	[21101] = {
 		drop_gold_max = 0,
-		name = "结晶化热强钢",
-		display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
+		name = "결정화 내열강",
+		display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 		type = 4,
 		is_world = 0,
 		shop_id = -1,
@@ -7147,8 +7147,8 @@ pg.item_data_statistics = {
 	},
 	[21111] = {
 		drop_gold_max = 0,
-		name = "纳米陶铝合金",
-		display = "用于提升舰装航空性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
+		name = "나노 알루미늄 합금",
+		display = "함장 항공 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 		type = 4,
 		is_world = 0,
 		shop_id = -1,
@@ -7166,8 +7166,8 @@ pg.item_data_statistics = {
 	},
 	[21121] = {
 		drop_gold_max = 0,
-		name = "可塑性机械臂",
-		display = "用于提升舰装装填性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
+		name = "가소성 기계 팔",
+		display = "함장 장전 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 		type = 4,
 		is_world = 0,
 		shop_id = -1,
@@ -7185,8 +7185,8 @@ pg.item_data_statistics = {
 	},
 	[21131] = {
 		drop_gold_max = 0,
-		name = "超空泡发生器",
-		display = "用于提升舰装雷击性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
+		name = "초공진기",
+		display = "함장 뇌장 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 		type = 4,
 		is_world = 0,
 		shop_id = -1,
@@ -7204,8 +7204,8 @@ pg.item_data_statistics = {
 	},
 	[21901] = {
 		drop_gold_max = 0,
-		name = "同步值：{namecode:191}",
-		display = "于「信标·烬」战斗中收集的数据，可以提升{namecode:191}同步率，活动结束后将会消失。",
+		name = "동기화 수치: {namecode:191}",
+		display = "「비콘·애쉬」 전투 중 수집한 데이터. {namecode:191} 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
 		type = 4,
 		is_world = 0,
 		shop_id = -1,
@@ -7822,12 +7822,12 @@ pg.item_data_statistics = {
 	},
 	[30201] = {
 		drop_gold_max = 0,
-		name = "event专属科技箱",
+		name = "이벤트 전용 과학 기술 상자",
 		display = [[
-包含一件本次活动的<color=#ffde38>限定装备</color>：
-极低几率获得<color=#ffde38>超稀有装备</color>
-较低几率获得<color=#d797ff>精锐装备</color>
-较高几率获得<color=#3dc6ff>稀有装备</color>]],
+이번 이벤트의 <color=#ffde38>한정 장비</color> 1개 획득:
+매우 낮은 확률 <color=#ffde38>SSR 장비</color>
+낮은 확률 <color=#d797ff>SR 장비</color>
+높은 확률 <color=#3dc6ff>R 장비</color>]],
 		type = 5,
 		is_world = 0,
 		shop_id = -1,
@@ -10651,7 +10651,7 @@ pg.item_data_statistics = {
 	},
 	[30914] = {
 		drop_gold_max = 0,
-		name = "지향형·개발 도면 SSR",
+		name = "장비 개발 도면 SSR형",
 		display = "사용 시 T3 부속 중 임의로 1가지를 선택하여 획득",
 		type = 13,
 		is_world = 0,
@@ -10691,7 +10691,7 @@ pg.item_data_statistics = {
 	},
 	[30915] = {
 		drop_gold_max = 0,
-		name = "지향형·개발 도면 UR",
+		name = "장비 개발 도면 UR형",
 		display = "사용 시 T3 부속 중 임의로 1가지를 선택하여 획득",
 		type = 13,
 		is_world = 0,
@@ -10707,7 +10707,17 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
+				18118,
+				1
+			},
+			{
+				2,
 				18120,
+				1
+			},
+			{
+				2,
+				18122,
 				1
 			},
 			{
@@ -25304,14 +25314,14 @@ pg.item_data_statistics = {
 	},
 	[50004] = {
 		drop_gold_max = 0,
-		name = "지팡이 사탕",
-		display = "최초의 지팡이 사탕은 하얀색이래요.<color=#6dd329>(경험치 보너스 5% 상승, 60분 지속)</color>",
+		name = "해군 카레",
+		display = "단맛? 매운맛? 취향은 사람마다 제각각... \n<color=#92fc63>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		type = 3,
 		is_world = 0,
 		shop_id = 50007,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/christmas",
+		icon = "Props/haijungali",
 		rarity = 2,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -109017,6 +109027,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59195] = {
+		drop_gold_max = 0,
+		name = "훈련 PT ",
+		display = "테두리 이벤트 교환용. 이벤트 종료 후 사라짐.",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59195,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "프라모델-카와카제",
@@ -116772,8 +116801,8 @@ pg.item_data_statistics = {
 	},
 	[100000] = {
 		drop_gold_max = 0,
-		name = "余烬信标数据",
-		display = "记录了余烬信标的数据，达到指定数据量后可在信标·烬界面对其进行解析。",
+		name = "애쉬 비콘 데이터",
+		display = "애쉬 비콘의 데이터가 기록되어 있다. 일정한 데이터량 달성 후 비콘·애쉬 화면에서 분석할 수 있다.",
 		type = 0,
 		is_world = 0,
 		shop_id = -1,
@@ -116791,12 +116820,12 @@ pg.item_data_statistics = {
 	},
 	[100001] = {
 		drop_gold_max = 0,
-		name = "余烬信标记录仪",
+		name = "애쉬 비콘 기록기",
 		display = [[
-用于记录在大型作战中收集到的「余烬信标数据」的装置，达到指定数据量后可据此数据进行解析，发现特定的余烬信标
-P.S.记录仪的记录容量有限，请务必及时前往解析
-今日解析次数:$1/$2
-数据记录量：$3]],
+대형 작전에서 수집한 「애쉬 비콘 데이터」를 기록하는 장치. 일정한 데이터량 달성 후 데이터에 따라 분석하여 특정한 애쉬 비콘을 발견 가능
+P.S. 기록기의 기록 용량은 한계가 있으니, 반드시 제때 분석하세요.
+금일 분석 횟수: $1/$2
+데이터 기록량: $3]],
 		type = 0,
 		is_world = 0,
 		shop_id = -1,
@@ -116814,8 +116843,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	[110000] = {
 		drop_gold_max = 0,
-		name = "作战补给凭证",
-		display = "在大型作战中用于兑换补给资源的凭证代币，在作战结束后会统一回收，请及时花光哦。",
+		name = "작전 보급 증빙",
+		display = "대형 작전 중 보급 자원 교환에 사용되는 증빙 토큰. 작전 종료 후 모두 회수되니, 제때 사용하세요.",
 		type = 0,
 		is_world = 0,
 		shop_id = -1,
@@ -116833,8 +116862,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	[110001] = {
 		drop_gold_max = 0,
-		name = "特别兑换凭证",
-		display = "在大型作战中用于兑换特殊资源的凭证代币，非常稀有，获得不易。作战结束后会统一回收，请及时花光哦。",
+		name = "특별 교환 증빙",
+		display = "대형 작전 중 특수 자원 교환에 사용되는 증빙 토큰. 매우 희귀하며, 얻기 어렵다. 작전 종료 후 모두 회수되니, 제때 사용하세요.",
 		type = 0,
 		is_world = 0,
 		shop_id = -1,
@@ -116852,8 +116881,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	[110002] = {
 		drop_gold_max = 0,
-		name = "战备物资兑换券",
-		display = "大型作战物资被回收后所发放的兑换凭证，可兑换用于普通作战或大型作战中的战备物品。",
+		name = "작전 준비 물자 교환권",
+		display = "대형 작전 물자 회수 후 지급하는 교환 증빙. 일반 작전 또는 대형 작전의 작전 준비 물자와 교환 가능.",
 		type = 98,
 		is_world = 0,
 		shop_id = -1,
@@ -116871,8 +116900,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	[150000] = {
 		drop_gold_max = 0,
-		name = "装备研发物资箱T1",
-		display = "包含若干个随机稀有品质的装备研发物资。",
+		name = "장비 개발 물자 상자 T1",
+		display = "랜덤한 R등급 장비 개발 물자가 포함되어 있다.",
 		type = 99,
 		is_world = 0,
 		shop_id = -1,
@@ -116911,8 +116940,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	[150001] = {
 		drop_gold_max = 0,
-		name = "装备研发物资箱T2",
-		display = "包含若干个随机精锐品质的装备研发物资。",
+		name = "장비 개발 물자 상자 T2",
+		display = "랜덤한 SR등급 장비 개발 물자가 포함되어 있다.",
 		type = 99,
 		is_world = 0,
 		shop_id = -1,
@@ -116961,8 +116990,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	[150002] = {
 		drop_gold_max = 0,
-		name = "装备研发物资箱T3",
-		display = "包含若干个随机超稀有品质的装备研发物资。",
+		name = "장비 개발 물자 상자 T3",
+		display = "랜덤한 SSR등급 장비 개발 물자가 포함되어 있다.",
 		type = 99,
 		is_world = 0,
 		shop_id = -1,
@@ -117011,8 +117040,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	[150003] = {
 		drop_gold_max = 0,
-		name = "未知装备研发图纸SSR型",
-		display = "有几率获得随机[装备研发图纸SSR型]，可用于进行装备研发。",
+		name = "랜덤 장비 개발 도면 SSR형",
+		display = "일정 확률로 [장비 개발 도면 SSR형] 랜덤 획득하여 장비 개발에 사용 가능.",
 		type = 99,
 		is_world = 0,
 		shop_id = -1,
@@ -119469,6 +119498,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		59193,
 		59194,
 		59191,
+		59195,
 		59601,
 		59602,
 		59603,

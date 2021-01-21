@@ -16,7 +16,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "点击打开仓库",
+				text = "터치하여 창고 열기",
 				mode = 2,
 				dir = 1,
 				posY = -229.8,

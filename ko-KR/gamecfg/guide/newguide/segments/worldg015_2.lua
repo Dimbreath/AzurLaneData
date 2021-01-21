@@ -21,7 +21,7 @@ return {
 				"showTransportTip"
 			},
 			style = {
-				text = "舰队访问地图边缘的虚拟单元格就可以跨地图移动",
+				text = "함대가 지도 가장자리의 가상 칸에 있을 때 지도 이동 가능",
 				mode = 2,
 				dir = -1,
 				posY = 296.05,
@@ -80,7 +80,7 @@ return {
 				"showDangerousTip"
 			},
 			style = {
-				text = "红色的虚拟单元格意味着当前的海域过于危险",
+				text = "붉은색 가상 칸은 현재 해역이 매우 위험함을 의미",
 				mode = 2,
 				dir = -1,
 				posY = 296.05,
@@ -139,7 +139,7 @@ return {
 				"showForbiddenTip"
 			},
 			style = {
-				text = "禁止标记则意味着当前海域无法进行边缘传送",
+				text = "금지 표시는 현재 해역은 가장자리 전송 불가를 의미",
 				mode = 2,
 				dir = -1,
 				posY = 296.05,
@@ -197,7 +197,7 @@ return {
 				"showForbiddenTip"
 			},
 			style = {
-				text = "好的，现在请按照罗经指示的方向开始移动到新水域吧",
+				text = "이제 나침반이 가리키는 방향을 따라 새로운 수역으로 이동하세요.",
 				mode = 2,
 				dir = -1,
 				posY = 296.05,

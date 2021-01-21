@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
-			say = "利维浦港·司令部会议室",
+			say = "리버풀항·사령부 회의실",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "那么指挥官，企业，胡德，我也要先返回司令部了，希望我们所有人的作战都能顺利进行！",
+			say = "그럼 지휘관, 엔터프라이즈, 후드! 나도 사령부로 돌아갈게. 순조로운 작전이 되기를!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "皇家舰队也将在几小时后开始正式作战，胡德通话结束。",
+			say = "로열 네이비도 몇 시간 뒤부터 본격적인 작전을 개시합니다. 후드, 통신 종료.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "呼......战役终于要正式开始了么。",
+			say = "후... 드디어 전투가 시작되는군요.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "真是激动人心的演讲，胡德，做得很好！",
+			say = "정말 감동적인 연설이었어, 후드. 잘 했어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "若是陛下亲自去的话，演讲效果一定会更好。",
+			say = "폐하께서 직접 하셨더라면 더 좋았을 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鼓舞前线将士的事，还是交给会亲临前线与他们并肩战斗的人吧。",
+			say = "전선의 장병들을 독려하는 일은 그들과 함께하는 이에게 맡겨야 하는 법이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，停战协定那边...您果然还是决定亲自去么，实在是太危险了。",
+			say = "폐하, 휴전 협정 쪽은... 직접 가시는 것은 너무 위험하지 않을까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，既然是对面主动提出来的，本王也没有多少选择余地，算是为了全局着想的必要风险吧。",
+			say = "흥, 상대가 먼저 말을 꺼낸 이상 나에게도 선택의 여지는 없어. 전반적인 상황을 위해서라면 위험을 감수해야겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说了...前几次被她整的那么惨，这次不扳回几分来的话让皇家的颜面何存！",
+			say = "그리고... 지금까지 이렇게 당했는데, 내빼면 로열 네이비의 체면이 말이 아니잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，我们也有“人质”在手里嘛。针对日前“失踪”铁血舰队的搜索正在逐步的缩小范围。这个节骨眼上料腓特烈也不敢把本王怎么样。",
+			say = "그리고 우리에게도 \"인질\"이 있으니까. 최근 실종된 메탈 블러드 함대의 수색 범위가 점점 줄어들고 있어. 그러니 이런 결정적인 시기에 프리드리히 데어 그로세도 나에게 뭐라 할 수 없겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次作战目标简单明了，本王不在倒也没什么问题，关键是...唔...",
+			say = "이번 작전의 목표는 간단해. 그러니까 나는 괜찮을 거야. 중요한 건... 음...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个时间点进行大型作战，对于局势来说也许是最好的选择，但是就内外部环境来说还有不少亟待解决的问题啊。",
+			say = "이런 시기에 대형 작전을 진행하는 것은 최선일 수 있겠지만, 내외부적으로 해결해야 할 문제가 많아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！腓特烈现在想方设法把我调离前线，我总觉得有怪。",
+			say = "맞아! 프리드리히 데어 그로세가 나를 전선에서 떼어놓으려고 하는데, 뭔가 이상해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次乔治五世会与我同行，光辉她们又在陆间海...",
+			say = "킹 조지 5세가 함께 하겠지만 일러스트리어스급은 지중해에 있고...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胡德、厌战，前线战况，以及指挥部和LD司令部内的各种事就全部交给你们了哦。",
+			say = "후드, 워스파이트. 전선의 상황과 지휘부, 그리고 LD 사령부의 일은 너희에게 맡길게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,8 +307,8 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 205020,
-			actorName = "厌战&胡德",
-			say = "遵命！",
+			actorName = "워스파이트&후드",
+			say = "네!",
 			subActors = {
 				{
 					actor = 204030,
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于女仆队的方面…贝法本王会一同带走，谢菲有其他任务。唔…纽卡斯尔继续留守LD司令部，爱丁堡跟随主力去前线好了！",
+			say = "메이드단은... 벨파스트, 나와 함께 가자. 셰피는 다른 임무가 있어. 음... 뉴캐슬은 계속 LD 사령부에 있고, 에든버러는 주력함대와 함께 전선으로 가!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遵命，我这就去安排。",
+			say = "네, 바로 이행하겠습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			actor = 205060,
 			nameColor = "#a9f548",
-			say = "陛下，我还有一个疑问。关于指挥部最新研发的领航员系统，指挥官与白鹰舰队都已经开始使用了吧，为什么我们没有使用呢？",
+			say = "폐하, 궁금한 점이 있습니다. 지휘부의 최신 기술이라는 네비게이터를 지휘관님과 이글 유니온 쪽에서는 이미 사용하고 있는데, 왜 우리는 사용하지 않고 있나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "TB啊......关于它本王还有些要查明的事，所以这次作战我们先不用。",
+			say = "TB 얘긴가... 조금 더 확인해보고 싶은 것이 있어서, 이번 작전에서는 사용하지 않기로 했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？开发领航员的「The Bridge」计划难道您没有参与么...？",
+			say = "음? 「The Bridge」 계획에 참여하지 않으신 겁니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能啊！正是因为参与了，所以才格外觉得有些不得不调查清楚的事...",
+			say = "그럴 리가! 참여했기 때문에 뭔가 짚고 넘어가야 할 일이 있다고 생각한 것뿐이야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，再说下去就复杂了，等本王有进一步结论之后再和你们说吧。",
+			say = "음, 더 말하며 복잡하니까 일단 결론을 내리고 나면 다시 얘기해 줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本王差不多要进行出行准备了，战前会议到此为止。",
+			say = "출발 준비가 거의 끝났으니 회의는 여기까지 하도록 할까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			blackBg = true,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "在此预祝你们作战顺利。胡德，带领舰队向世界展现皇家的威严吧！可不许让本王失望哦！",
+			say = "작전이 순조롭길 빌지. 후드, 전 세계에 로열 네이비의 위엄을 선보이도록 해! 절대 나를 실망하게 하지 마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -30,7 +30,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	{
-		name = "利维浦",
+		name = "리버풀",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "port2",
@@ -59,7 +59,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	{
-		name = "直布罗特",
+		name = "지브롤터",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "port3",
@@ -88,7 +88,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	{
-		name = "圣彼得伯格",
+		name = "상트페테르부르크",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "port4",
@@ -117,7 +117,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	{
-		name = "霍尔斯坦",
+		name = "홀슈타인",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "port5",
@@ -146,7 +146,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	{
-		name = "塔伦托",
+		name = "타란토",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "port6",
@@ -175,7 +175,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	{
-		name = "布勒斯特",
+		name = "브레스트",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "port7",
@@ -204,7 +204,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	{
-		name = "达咯尔",
+		name = "다카르",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "port8",
@@ -233,7 +233,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[11] = {
-		name = "卡利比安海A",
+		name = "카리브해A",
 		complete_effect = 2,
 		enter_cost = 80,
 		entrance_mapicon = "redaicaoyuan",
@@ -323,7 +323,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[12] = {
-		name = "卡利比安海B",
+		name = "카리브해B",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "redaicaoyuan",
@@ -413,7 +413,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[13] = {
-		name = "卡利比安海C",
+		name = "카리브해C",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "redaicaoyuan",
@@ -503,7 +503,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[14] = {
-		name = "卡利比安海D",
+		name = "카리브해D",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "redaicaoyuan",
@@ -593,7 +593,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[21] = {
-		name = "NA海域西南A",
+		name = "NA해역 사우스웨스트A",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -679,7 +679,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[22] = {
-		name = "NA海域西南B",
+		name = "NA해역 사우스웨스트B",
 		complete_effect = 2,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -765,7 +765,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[23] = {
-		name = "NA海域西南C",
+		name = "NA해역 사우스웨스트C",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -851,7 +851,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[24] = {
-		name = "NA海域西南D",
+		name = "NA해역 사우스웨스트D",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "redaicaoyuan",
@@ -942,7 +942,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[25] = {
-		name = "NA海域西南E",
+		name = "NA해역 사우스웨스트E",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -1028,7 +1028,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[31] = {
-		name = "西南洋脊A",
+		name = "사우스웨스트 해령A",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -1119,7 +1119,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[32] = {
-		name = "西南洋脊B",
+		name = "사우스웨스트 해령B",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -1210,7 +1210,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[33] = {
-		name = "西南洋脊C",
+		name = "사우스웨스트 해령C",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "redaicaoyuan",
@@ -1301,7 +1301,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[34] = {
-		name = "西南洋脊D",
+		name = "사우스웨스트 해령D",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "redaicaoyuan",
@@ -1387,7 +1387,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[41] = {
-		name = "西大陆架A",
+		name = "웨스트 대륙붕A",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -1478,7 +1478,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[42] = {
-		name = "西大陆架B",
+		name = "웨스트 대륙붕B",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -1568,7 +1568,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[43] = {
-		name = "西大陆架C",
+		name = "웨스트 대륙붕C",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -1654,7 +1654,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[44] = {
-		name = "西大陆架D",
+		name = "웨스트 대륙붕D",
 		complete_effect = 2,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -1735,7 +1735,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[51] = {
-		name = "东南洋脊A",
+		name = "사우스이스트 해령A",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -1825,7 +1825,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[52] = {
-		name = "东南洋脊B",
+		name = "사우스이스트 해령B",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -1920,7 +1920,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[53] = {
-		name = "东南洋脊C",
+		name = "사우스이스트 해령C",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "redaicaoyuan",
@@ -2010,7 +2010,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[54] = {
-		name = "东南洋脊D",
+		name = "사우스이스트 해령D",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "redaicaoyuan",
@@ -2105,7 +2105,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[61] = {
-		name = "NA海域东南A",
+		name = "NA해역 사우스이스트A",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -2200,7 +2200,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[62] = {
-		name = "NA海域东南B",
+		name = "NA해역 사우스이스트B",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -2286,7 +2286,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[63] = {
-		name = "NA海域东南C",
+		name = "NA해역 사우스이스트C",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -2376,7 +2376,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[64] = {
-		name = "NA海域东南D",
+		name = "NA해역 사우스이스트D",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "redaicaoyuan",
@@ -2466,7 +2466,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[65] = {
-		name = "NA海域东南E",
+		name = "NA해역 사우스이스트E",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -2552,7 +2552,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[66] = {
-		name = "NA海域东南F",
+		name = "NA해역 사우스이스트F",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -2638,7 +2638,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[71] = {
-		name = "陆间海A",
+		name = "지중해A",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "dizhonghai",
@@ -2728,7 +2728,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[72] = {
-		name = "陆间海B",
+		name = "지중해B",
 		complete_effect = 2,
 		enter_cost = 80,
 		entrance_mapicon = "dizhonghai",
@@ -2823,7 +2823,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[73] = {
-		name = "陆间海C",
+		name = "지중해C",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "dizhonghai",
@@ -2918,7 +2918,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[81] = {
-		name = "NA海域西A",
+		name = "NA해역 웨스트A",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -3009,7 +3009,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[82] = {
-		name = "NA海域西B",
+		name = "NA해역 웨스트B",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -3104,7 +3104,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[83] = {
-		name = "NA海域西C",
+		name = "NA해역 웨스트C",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -3190,7 +3190,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[84] = {
-		name = "NA海域西D",
+		name = "NA해역 웨스트D",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -3281,7 +3281,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[85] = {
-		name = "NA海域西E",
+		name = "NA해역 웨스트E",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -3371,7 +3371,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[91] = {
-		name = "NA海域西北A",
+		name = "NA해역 노스웨스트A",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "yahandai",
@@ -3466,7 +3466,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[92] = {
-		name = "NA海域西北B",
+		name = "NA해역 노스웨스트B",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "yahandai",
@@ -3552,7 +3552,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[93] = {
-		name = "NA海域西北C",
+		name = "NA해역 노스웨스트C",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "yahandai",
@@ -3638,7 +3638,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[94] = {
-		name = "NA海域西北D",
+		name = "NA해역 노스웨스트D",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "yahandai",
@@ -3724,7 +3724,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[95] = {
-		name = "NA海域西北E",
+		name = "NA해역 노스웨스트E",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "yahandai",
@@ -3810,7 +3810,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[101] = {
-		name = "西北航道A",
+		name = "노스웨스트 항로A",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "yahandai",
@@ -3900,7 +3900,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[102] = {
-		name = "西北航道B",
+		name = "노스웨스트 항로B",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "yahandai",
@@ -3990,7 +3990,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[103] = {
-		name = "西北航道C",
+		name = "노스웨스트 항로C",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "yahandai",
@@ -4080,7 +4080,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[104] = {
-		name = "西北航道D",
+		name = "노스웨스트 항로D",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "yahandai",
@@ -4170,7 +4170,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[105] = {
-		name = "西北航道E",
+		name = "노스웨스트 항로E",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "yahandai",
@@ -4261,7 +4261,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[106] = {
-		name = "西北航道F",
+		name = "노스웨스트 항로F",
 		complete_effect = 2,
 		enter_cost = 80,
 		entrance_mapicon = "yahandai",
@@ -4351,7 +4351,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[111] = {
-		name = "NA海域东A",
+		name = "NA해역 이스트A",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -4442,7 +4442,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[112] = {
-		name = "NA海域东B",
+		name = "NA해역 이스트B",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -4528,7 +4528,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[113] = {
-		name = "NA海域东C",
+		name = "NA해역 이스트C",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -4619,7 +4619,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[114] = {
-		name = "NA海域东D",
+		name = "NA해역 이스트D",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -4705,7 +4705,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[121] = {
-		name = "东大陆架A",
+		name = "이스트 대륙붕A",
 		complete_effect = 2,
 		enter_cost = 80,
 		entrance_mapicon = "wendaihaiyang",
@@ -4795,7 +4795,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[122] = {
-		name = "东大陆架B",
+		name = "이스트 대륙붕B",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -4881,7 +4881,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[123] = {
-		name = "东大陆架C",
+		name = "이스트 대륙붕C",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -4967,7 +4967,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[124] = {
-		name = "东大陆架D",
+		name = "이스트 대륙붕D",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "wendaihaiyang",
@@ -5057,7 +5057,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[125] = {
-		name = "东大陆架E",
+		name = "이스트 대륙붕E",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -5143,7 +5143,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[131] = {
-		name = "NA海域东北A",
+		name = "NA해역 노스이스트A",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -5229,7 +5229,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[132] = {
-		name = "NA海域东北B",
+		name = "NA해역 노스이스트B",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -5320,7 +5320,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[133] = {
-		name = "NA海域东北C",
+		name = "NA해역 노스이스트C",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -5406,7 +5406,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[134] = {
-		name = "NA海域东北D",
+		name = "NA해역 노스이스트D",
 		complete_effect = 2,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -5497,7 +5497,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[135] = {
-		name = "NA海域东北E",
+		name = "NA해역 노스이스트E",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -5588,7 +5588,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[141] = {
-		name = "东北航道A",
+		name = "노스이스트 항로A",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "yahandai",
@@ -5674,7 +5674,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[142] = {
-		name = "东北航道B",
+		name = "노스이스트 항로B",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -5764,7 +5764,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[143] = {
-		name = "东北航道C",
+		name = "노스이스트 항로C",
 		complete_effect = 2,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -5850,7 +5850,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[144] = {
-		name = "东北航道D",
+		name = "노스이스트 항로D",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "wendaihaiyang",
@@ -5940,7 +5940,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[151] = {
-		name = "NA海域深处A",
+		name = "NA해역 깊숙한 곳A",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "daxuanwo",
@@ -6028,7 +6028,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[152] = {
-		name = "NA海域深处B",
+		name = "NA해역 깊숙한 곳B",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "daxuanwo",
@@ -6116,7 +6116,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[153] = {
-		name = "NA海域深处C",
+		name = "NA해역 깊숙한 곳C",
 		complete_effect = 2,
 		enter_cost = 80,
 		entrance_mapicon = "daxuanwo",
@@ -6204,7 +6204,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[154] = {
-		name = "NA海域中心",
+		name = "NA해역 센터",
 		complete_effect = 2,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -6233,7 +6233,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[155] = {
-		name = "NA海域深处D",
+		name = "NA해역 깊숙한 곳D",
 		complete_effect = 2,
 		enter_cost = 80,
 		entrance_mapicon = "daxuanwo",
@@ -6321,7 +6321,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[156] = {
-		name = "NA海域深处E",
+		name = "NA해역 깊숙한 곳E",
 		complete_effect = 2,
 		enter_cost = 80,
 		entrance_mapicon = "daxuanwo",
@@ -6409,7 +6409,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[157] = {
-		name = "NA海域深处F",
+		name = "NA해역 깊숙한 곳F",
 		complete_effect = 2,
 		enter_cost = 80,
 		entrance_mapicon = "daxuanwo",
@@ -6497,7 +6497,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[158] = {
-		name = "NA海域深处G",
+		name = "NA해역 깊숙한 곳G",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "daxuanwo",
@@ -6585,7 +6585,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[159] = {
-		name = "NA海域深处H",
+		name = "NA해역 깊숙한 곳H",
 		complete_effect = 2,
 		enter_cost = 60,
 		entrance_mapicon = "daxuanwo",
@@ -6673,7 +6673,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[200] = {
-		name = "Chapter1-0-1 演习区域",
+		name = "Chapter1-0-1 연습 구역",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6702,7 +6702,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[201] = {
-		name = "Chapter1-1 起航",
+		name = "Chapter1-1 출항",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6731,7 +6731,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[202] = {
-		name = "Chapter1-1-1 演习区域",
+		name = "Chapter1-1-1 연습 구역",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6760,7 +6760,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[203] = {
-		name = "Chapter1-2 似曾相识",
+		name = "Chapter1-2 데자뷰",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6789,7 +6789,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[204] = {
-		name = "Chapter1-3 重返百慕大",
+		name = "Chapter1-3 버뮤다로 돌아가다",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6818,7 +6818,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[205] = {
-		name = "Chapter1-4 赤色之影",
+		name = "Chapter1-4 적색 그림자",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6847,7 +6847,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[206] = {
-		name = "Chapter1-5 停火协议",
+		name = "Chapter1-5 휴전 협의",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6876,7 +6876,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[207] = {
-		name = "Chapter1-6 前哨站",
+		name = "Chapter1-6 전초전",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6905,7 +6905,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[211] = {
-		name = "Chapter2-2 并肩作战",
+		name = "Chapter2-2 함께 싸우다",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6934,7 +6934,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[212] = {
-		name = "Chapter2-3 外围清扫",
+		name = "Chapter2-3 외곽 청소",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6963,7 +6963,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[213] = {
-		name = "Chapter2-4 救援信号",
+		name = "Chapter2-4 구조 신호",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -6992,7 +6992,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[214] = {
-		name = "Chapter2-5 女王的联络",
+		name = "Chapter2-5 퀸의 연락",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7021,7 +7021,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[215] = {
-		name = "Chapter2-6 强敌",
+		name = "Chapter2-6 강적",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7050,7 +7050,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[220] = {
-		name = "Chapter3-1 另一处攻击",
+		name = "Chapter3-1 또 다른 공격",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7079,7 +7079,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[221] = {
-		name = "Chapter3-2 TB系统",
+		name = "Chapter3-2 TB 시스템",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7108,7 +7108,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[222] = {
-		name = "Chapter3-3 友军信号",
+		name = "Chapter3-3 아군 신호",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7137,7 +7137,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[223] = {
-		name = "Chapter3-4 救援",
+		name = "Chapter3-4 구원",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "yahandai",
@@ -7166,7 +7166,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[224] = {
-		name = "Chapter3-5 残影",
+		name = "Chapter3-5 잔영",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "yahandai",
@@ -7195,7 +7195,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[225] = {
-		name = "Chapter3-6 一鼓作气",
+		name = "Chapter3-6 단칼",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7224,7 +7224,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[230] = {
-		name = "Chapter4-1 初临陆间海",
+		name = "Chapter4-1 처음 온 지중해",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7253,7 +7253,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[231] = {
-		name = "Chapter4-2 塔兰托港",
+		name = "Chapter4-2 타란토항",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7282,7 +7282,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[232] = {
-		name = "Chapter4-3 达咯尔港",
+		name = "Chapter4-3 다카르항",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7311,7 +7311,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[233] = {
-		name = "Chapter4-4 深入",
+		name = "Chapter4-4 침투",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7340,7 +7340,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[234] = {
-		name = "Chapter4-5 海雾",
+		name = "Chapter4-5 해무",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7369,7 +7369,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[235] = {
-		name = "Chapter4-6 战略调整",
+		name = "Chapter4-6 전략 조정",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "wendaihaiyang",
@@ -7398,7 +7398,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[301] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7427,7 +7427,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[400] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -7456,7 +7456,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[401] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -7485,7 +7485,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[410] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7514,7 +7514,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[411] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7543,7 +7543,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[412] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7572,7 +7572,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[413] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7601,7 +7601,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[414] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7630,7 +7630,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[415] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7659,7 +7659,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[416] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7688,7 +7688,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[417] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7717,7 +7717,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[418] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7746,7 +7746,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[419] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7775,7 +7775,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[420] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7804,7 +7804,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[500] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7833,7 +7833,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[510] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7862,7 +7862,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[511] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7891,7 +7891,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[512] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7920,7 +7920,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[513] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7949,7 +7949,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[514] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -7978,7 +7978,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[515] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8007,7 +8007,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[516] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8036,7 +8036,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[517] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8065,7 +8065,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[518] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8094,7 +8094,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[519] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8123,7 +8123,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[520] = {
-		name = "剧情海域(暂不使用）",
+		name = "스토리 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8152,7 +8152,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[541] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8181,7 +8181,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[544] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8210,7 +8210,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[547] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8239,7 +8239,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[550] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8268,7 +8268,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[553] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8297,7 +8297,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[601] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8326,7 +8326,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[602] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8355,7 +8355,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[610] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8384,7 +8384,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[620] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8413,7 +8413,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[630] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8442,7 +8442,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[631] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8471,7 +8471,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[632] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8500,7 +8500,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[640] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8529,7 +8529,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[650] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8558,7 +8558,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[660] = {
-		name = "异常空间（暂不使用）",
+		name = "비정상 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -8587,7 +8587,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[700] = {
-		name = "神秘海域（暂不使用）",
+		name = "비밀 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8616,7 +8616,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[701] = {
-		name = "神秘海域（暂不使用）",
+		name = "비밀 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8645,7 +8645,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[702] = {
-		name = "神秘海域（暂不使用）",
+		name = "비밀 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8674,7 +8674,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[703] = {
-		name = "神秘海域（暂不使用）",
+		name = "비밀 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8703,7 +8703,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[710] = {
-		name = "混乱之海（暂不使用）",
+		name = "혼란의 바다(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8732,7 +8732,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[711] = {
-		name = "意识之海（暂不使用）",
+		name = "의식의 바다(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8761,7 +8761,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[712] = {
-		name = "意识之海（暂不使用）",
+		name = "의식의 바다(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8790,7 +8790,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[713] = {
-		name = "混乱之海（暂不使用）",
+		name = "혼란의 바다(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8819,7 +8819,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[715] = {
-		name = "神秘海域（暂不使用）",
+		name = "비밀 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8848,7 +8848,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[720] = {
-		name = "精神空间（暂不使用）",
+		name = "정신적 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8877,7 +8877,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[721] = {
-		name = "精神空间（暂不使用）",
+		name = "정신적 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8906,7 +8906,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[722] = {
-		name = "精神空间（暂不使用）",
+		name = "정신적 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8935,7 +8935,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[723] = {
-		name = "精神空间（暂不使用）",
+		name = "정신적 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8964,7 +8964,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[730] = {
-		name = "精神空间（暂不使用）",
+		name = "정신적 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -8993,7 +8993,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[731] = {
-		name = "精神空间·深层（暂不使用）",
+		name = "정신적 공간·심층(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9022,7 +9022,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[740] = {
-		name = "图腾空间（暂不使用）",
+		name = "토템 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9051,7 +9051,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[741] = {
-		name = "图腾空间（暂不使用）",
+		name = "토템 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9080,7 +9080,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[742] = {
-		name = "图腾空间（暂不使用）",
+		name = "토템 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9109,7 +9109,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[743] = {
-		name = "图腾空间（暂不使用）",
+		name = "토템 공간(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9138,7 +9138,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[750] = {
-		name = "图腾空间·深层（暂不使用）",
+		name = "토템 공간·심층(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9167,7 +9167,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[760] = {
-		name = "春之幻境（暂不使用）",
+		name = "봄의 환상(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9196,7 +9196,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[761] = {
-		name = "夏之幻境（暂不使用）",
+		name = "여름의 환상(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9225,7 +9225,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[762] = {
-		name = "秋之幻境（暂不使用）",
+		name = "가을의 환상(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9254,7 +9254,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[763] = {
-		name = "冬之幻境（暂不使用）",
+		name = "겨울의 환상(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9283,7 +9283,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[770] = {
-		name = "季节幻境·深层（暂不使用）",
+		name = "계절 환상·심층(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9312,7 +9312,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[800] = {
-		name = "塞壬实验场NO.Q2A7L",
+		name = "세이렌 실험장 NO.Q2A7L",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9341,7 +9341,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[803] = {
-		name = "塞壬实验场NO.MY4BE",
+		name = "세이렌 실험장 NO.MY4BE",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9370,7 +9370,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[806] = {
-		name = "塞壬实验场NO.K8ALD",
+		name = "세이렌 실험장 NO.K8ALD",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9399,7 +9399,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[809] = {
-		name = "塞壬实验场NO.IKTJB",
+		name = "세이렌 실험장 NO.IKTJB",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9428,7 +9428,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[820] = {
-		name = "塞壬实验场NO.EMHOD",
+		name = "세이렌 실험장 NO.EMHOD",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9457,7 +9457,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[823] = {
-		name = "塞壬实验场NO.3PF6Z",
+		name = "세이렌 실험장 NO.3PF6Z",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9486,7 +9486,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[826] = {
-		name = "塞壬实验场NO.COU42",
+		name = "세이렌 실험장 NO.COU42",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9515,7 +9515,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[829] = {
-		name = "塞壬实验场NO.QK3RM",
+		name = "세이렌 실험장 NO.QK3RM",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9544,7 +9544,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[840] = {
-		name = "塞壬实验场NO.E8BIJ",
+		name = "세이렌 실험장 NO.E8BIJ",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9573,7 +9573,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[841] = {
-		name = "塞壬实验场NO.E8BIJ-II",
+		name = "세이렌 실험장 NO.E8BIJ-II",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9602,7 +9602,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[843] = {
-		name = "塞壬实验场NO.9RYH2",
+		name = "세이렌 실험장 NO.9RYH2",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9631,7 +9631,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[844] = {
-		name = "塞壬实验场NO.9RYH2-II",
+		name = "세이렌 실험장 NO.9RYH2-II",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9660,7 +9660,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[846] = {
-		name = "塞壬实验场NO.ZKT5G",
+		name = "세이렌 실험장 NO.ZKT5G",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9689,7 +9689,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[847] = {
-		name = "塞壬实验场NO.ZKT5G-II",
+		name = "세이렌 실험장 NO.ZKT5G-II",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9718,7 +9718,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[849] = {
-		name = "塞壬实验场NO.YH16W",
+		name = "세이렌 실험장 NO.YH16W",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9747,7 +9747,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[850] = {
-		name = "塞壬实验场NO.YH16W-II",
+		name = "세이렌 실험장 NO.YH16W-II",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9776,7 +9776,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[860] = {
-		name = "塞壬实验场NO.SLUIA",
+		name = "세이렌 실험장 NO.SLUIA",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9805,7 +9805,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[863] = {
-		name = "塞壬实验场NO.4KXZG",
+		name = "세이렌 실험장 NO.4KXZG",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9834,7 +9834,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[866] = {
-		name = "塞壬实验场NO.EC57Y",
+		name = "세이렌 실험장 NO.EC57Y",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9863,7 +9863,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[869] = {
-		name = "塞壬实验场NO.KAD7O",
+		name = "세이렌 실험장 NO.KAD7O",
 		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -9892,7 +9892,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[901] = {
-		name = "破碎的空间-I",
+		name = "조각난 공간-I",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -9987,7 +9987,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[902] = {
-		name = "破碎的空间-II",
+		name = "조각난 공간-II",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -10082,7 +10082,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[903] = {
-		name = "破碎的空间-III",
+		name = "조각난 공간-III",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -10177,7 +10177,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1011] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "redaicaoyuan",
@@ -10206,7 +10206,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1012] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "redaicaoyuan",
@@ -10235,7 +10235,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1013] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "redaicaoyuan",
@@ -10264,7 +10264,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1014] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "redaicaoyuan",
@@ -10293,7 +10293,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1021] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -10322,7 +10322,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1022] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 5,
 		entrance_mapicon = "wendaihaiyang",
@@ -10351,7 +10351,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1023] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -10380,7 +10380,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1024] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "redaicaoyuan",
@@ -10409,7 +10409,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1025] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -10438,7 +10438,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1031] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -10467,7 +10467,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1032] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -10496,7 +10496,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1033] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "redaicaoyuan",
@@ -10525,7 +10525,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1034] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "redaicaoyuan",
@@ -10554,7 +10554,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1041] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -10583,7 +10583,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1042] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -10612,7 +10612,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1043] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -10641,7 +10641,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1044] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 5,
 		entrance_mapicon = "wendaihaiyang",
@@ -10670,7 +10670,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1051] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -10699,7 +10699,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1052] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -10728,7 +10728,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1053] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "redaicaoyuan",
@@ -10757,7 +10757,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1054] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "redaicaoyuan",
@@ -10786,7 +10786,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1061] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -10815,7 +10815,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1062] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -10844,7 +10844,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1063] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -10873,7 +10873,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1064] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "redaicaoyuan",
@@ -10902,7 +10902,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1065] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -10931,7 +10931,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1066] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -10960,7 +10960,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1071] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "dizhonghai",
@@ -10989,7 +10989,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1072] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "dizhonghai",
@@ -11018,7 +11018,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1073] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "dizhonghai",
@@ -11047,7 +11047,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1081] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -11076,7 +11076,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1082] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -11105,7 +11105,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1083] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -11134,7 +11134,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1084] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -11163,7 +11163,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1085] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -11192,7 +11192,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1091] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "yahandai",
@@ -11221,7 +11221,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1092] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "yahandai",
@@ -11250,7 +11250,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1093] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "yahandai",
@@ -11279,7 +11279,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1094] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "yahandai",
@@ -11308,7 +11308,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1095] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "yahandai",
@@ -11337,7 +11337,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1101] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "yahandai",
@@ -11366,7 +11366,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1102] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "yahandai",
@@ -11395,7 +11395,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1103] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "yahandai",
@@ -11424,7 +11424,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1104] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "yahandai",
@@ -11453,7 +11453,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1105] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "yahandai",
@@ -11482,7 +11482,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1106] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "yahandai",
@@ -11511,7 +11511,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1111] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -11540,7 +11540,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1112] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -11569,7 +11569,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1113] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -11598,7 +11598,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1114] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -11627,7 +11627,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1121] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "wendaihaiyang",
@@ -11656,7 +11656,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1122] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -11685,7 +11685,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1123] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -11714,7 +11714,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1124] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -11743,7 +11743,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1125] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -11772,7 +11772,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1131] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -11801,7 +11801,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1132] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -11830,7 +11830,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1133] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -11859,7 +11859,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1134] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		entrance_mapicon = "wendaihaiyang",
@@ -11888,7 +11888,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1135] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -11917,7 +11917,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1141] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "yahandai",
@@ -11946,7 +11946,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1142] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		entrance_mapicon = "wendaihaiyang",
@@ -11975,7 +11975,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1143] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		entrance_mapicon = "wendaihaiyang",
@@ -12004,7 +12004,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1144] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "wendaihaiyang",
@@ -12033,7 +12033,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1151] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "daxuanwo",
@@ -12062,7 +12062,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1152] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "daxuanwo",
@@ -12091,7 +12091,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1153] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "daxuanwo",
@@ -12120,7 +12120,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1154] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "daxuanwo",
@@ -12149,7 +12149,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1155] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "daxuanwo",
@@ -12178,7 +12178,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1156] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "daxuanwo",
@@ -12207,7 +12207,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1157] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		entrance_mapicon = "daxuanwo",
@@ -12236,7 +12236,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1158] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "daxuanwo",
@@ -12265,7 +12265,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[1159] = {
-		name = "安全海域",
+		name = "안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		entrance_mapicon = "daxuanwo",
@@ -12294,7 +12294,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20001] = {
-		name = "隐秘海域",
+		name = "비밀 해역",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -12497,7 +12497,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20002] = {
-		name = "隐秘海域",
+		name = "비밀 해역",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -12700,7 +12700,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20003] = {
-		name = "隐秘海域",
+		name = "비밀 해역",
 		complete_effect = 0,
 		enter_cost = 20,
 		entrance_mapicon = "daxuanwo",
@@ -12903,7 +12903,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20004] = {
-		name = "隐秘海域",
+		name = "비밀 해역",
 		complete_effect = 0,
 		enter_cost = 20,
 		entrance_mapicon = "daxuanwo",
@@ -13106,7 +13106,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20005] = {
-		name = "隐秘海域",
+		name = "비밀 해역",
 		complete_effect = 0,
 		enter_cost = 40,
 		entrance_mapicon = "daxuanwo",
@@ -13309,7 +13309,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20006] = {
-		name = "隐秘海域",
+		name = "비밀 해역",
 		complete_effect = 0,
 		enter_cost = 40,
 		entrance_mapicon = "daxuanwo",
@@ -13512,7 +13512,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20013] = {
-		name = "深渊海域（暂不使用）",
+		name = "심연 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 80,
 		entrance_mapicon = "meixi",
@@ -13547,7 +13547,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20014] = {
-		name = "深渊海域",
+		name = "심연 해역",
 		complete_effect = 0,
 		enter_cost = 80,
 		entrance_mapicon = "meixi",
@@ -13576,7 +13576,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20015] = {
-		name = "深渊海域",
+		name = "심연 해역",
 		complete_effect = 0,
 		enter_cost = 100,
 		entrance_mapicon = "meixi",
@@ -13605,7 +13605,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20016] = {
-		name = "深渊海域",
+		name = "심연 해역",
 		complete_effect = 0,
 		enter_cost = 100,
 		entrance_mapicon = "meixi",
@@ -13634,7 +13634,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20017] = {
-		name = "深渊海域（暂不使用）",
+		name = "심연 해역(사용 안함)",
 		complete_effect = 0,
 		enter_cost = 100,
 		entrance_mapicon = "meixi",
@@ -13669,7 +13669,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20101] = {
-		name = "塞壬要塞海域（暂不使用）",
+		name = "세이렌 요새 해역(사용 안함)",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -13698,7 +13698,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20103] = {
-		name = "塞壬要塞海域（暂不使用）",
+		name = "세이렌 요새 해역(사용 안함)",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -13727,7 +13727,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20200] = {
-		name = "塞壬要塞海域（暂不使用）",
+		name = "세이렌 요새 해역(사용 안함)",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -13756,7 +13756,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20201] = {
-		name = "塞壬要塞海域（暂不使用）",
+		name = "세이렌 요새 해역(사용 안함)",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -13785,7 +13785,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20202] = {
-		name = "塞壬要塞海域（暂不使用）",
+		name = "세이렌 요새 해역(사용 안함)",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -13814,7 +13814,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20203] = {
-		name = "塞壬要塞海域（暂不使用）",
+		name = "세이렌 요새 해역(사용 안함)",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -13843,7 +13843,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[20204] = {
-		name = "塞壬要塞海域（暂不使用）",
+		name = "세이렌 요새 해역(사용 안함)",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
@@ -13872,7 +13872,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30001] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -13901,7 +13901,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30002] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -13930,7 +13930,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30003] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -13959,7 +13959,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30004] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -13988,7 +13988,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30005] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14017,7 +14017,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30006] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14046,7 +14046,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30007] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14075,7 +14075,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30008] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14104,7 +14104,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30009] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14133,7 +14133,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30010] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14162,7 +14162,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30011] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14191,7 +14191,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30012] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14220,7 +14220,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30013] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14249,7 +14249,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30014] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14278,7 +14278,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30015] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14307,7 +14307,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30016] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14336,7 +14336,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30017] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14365,7 +14365,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30018] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14394,7 +14394,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30019] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14423,7 +14423,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30020] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14452,7 +14452,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30021] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14481,7 +14481,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30022] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14510,7 +14510,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30023] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14539,7 +14539,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30024] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14568,7 +14568,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30025] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14597,7 +14597,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30026] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14626,7 +14626,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30027] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14655,7 +14655,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30028] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14684,7 +14684,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30029] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14713,7 +14713,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30030] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14742,7 +14742,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30031] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14771,7 +14771,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30032] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14800,7 +14800,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30033] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14829,7 +14829,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30034] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14858,7 +14858,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30035] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14887,7 +14887,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30036] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14916,7 +14916,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30037] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14945,7 +14945,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30038] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -14974,7 +14974,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30039] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15003,7 +15003,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30040] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15032,7 +15032,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30041] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15061,7 +15061,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30042] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15090,7 +15090,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30043] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15119,7 +15119,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30044] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15148,7 +15148,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30045] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15177,7 +15177,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30046] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15206,7 +15206,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30047] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15235,7 +15235,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30048] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15264,7 +15264,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30049] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15293,7 +15293,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30050] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15322,7 +15322,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30051] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15351,7 +15351,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30052] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15380,7 +15380,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30053] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15409,7 +15409,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30054] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15438,7 +15438,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30055] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15467,7 +15467,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30056] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15496,7 +15496,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30057] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15525,7 +15525,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30058] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15554,7 +15554,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30059] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15583,7 +15583,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30060] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15612,7 +15612,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30061] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15641,7 +15641,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30062] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15670,7 +15670,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30063] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15699,7 +15699,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30064] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15728,7 +15728,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30065] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15757,7 +15757,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30066] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15786,7 +15786,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30067] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15815,7 +15815,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30068] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15844,7 +15844,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30069] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15873,7 +15873,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30070] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15902,7 +15902,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30071] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15931,7 +15931,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[30072] = {
-		name = "塞壬要塞海域",
+		name = "세이렌 요새 해역",
 		complete_effect = 1,
 		enter_cost = 200,
 		entrance_mapicon = "daxuanwo",
@@ -15960,7 +15960,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[89003] = {
-		name = "测试用地图原819",
+		name = "테스트용 맵819",
 		complete_effect = 0,
 		enter_cost = 1000,
 		entrance_mapicon = "daxuanwo",
@@ -15989,7 +15989,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[89004] = {
-		name = "测试用地图原819",
+		name = "테스트용 맵819",
 		complete_effect = 0,
 		enter_cost = 1000,
 		entrance_mapicon = "daxuanwo",
@@ -16018,7 +16018,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[89014] = {
-		name = "被破坏的海域",
+		name = "파괴된 해역",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -16047,7 +16047,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[89015] = {
-		name = "被破坏的海域",
+		name = "파괴된 해역",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -16076,7 +16076,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[89016] = {
-		name = "被破坏的海域",
+		name = "파괴된 해역",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",
@@ -16105,7 +16105,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	[89017] = {
-		name = "被破坏的海域",
+		name = "파괴된 해역",
 		complete_effect = 0,
 		enter_cost = 10,
 		entrance_mapicon = "daxuanwo",

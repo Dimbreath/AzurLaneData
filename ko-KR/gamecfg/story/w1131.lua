@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "剩余的资源彻底沉入了水下，无法继续回收了……",
+			say = "남은 자원은 모두 물 속으로 가라앉아, 회수가 불가능해졌다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

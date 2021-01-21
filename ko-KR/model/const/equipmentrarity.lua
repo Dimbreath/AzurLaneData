@@ -35,7 +35,8 @@ slot0.correctedLevel = {
 	{
 		0,
 		11,
-		12
+		12,
+		13
 	},
 	{
 		0,

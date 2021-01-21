@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "同时，己方港口也可以提供补给购买、舰队维修的功能服务。",
+			say = "항구에서는 보급 구매, 함대 수리 등의 기능을 제공합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "司令部有时也会在港口中发布一些可选的任务委托，您也可以留意一下。",
+			say = "사령부 측에서 선택 가능한 임무나 의뢰를 할당할 수 있으니 유의하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "引导指令已确认：指挥官，NY司令部为作战准备了一批特别补给物资，请您带领舰队前去领取吧。",
+			say = "가이드 명령 확인. 지휘관님, NY 사령부에서 특별 보급 물자를 준비했습니다. 수령하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -505,7 +505,11 @@ function slot0.sortItems(slot0)
 end
 
 function slot0.updateResetExchange(slot0)
-	setText(slot0.exchangeTips:Find("capcity/Text"), defaultValue(slot0.inventoryProxy:CalcResetExchangeResource()[WorldConst.ResourceID], 0))
+	setText(slot0.exchangeTips:Find("capcity/Text"), defaultValue(checkExist(slot0.inventoryProxy:CalcResetExchangeResource(), {
+		DROP_TYPE_RESOURCE
+	}, {
+		WorldConst.ResourceID
+	}), 0))
 end
 
 function slot0.activeResetExchange(slot0, slot1)

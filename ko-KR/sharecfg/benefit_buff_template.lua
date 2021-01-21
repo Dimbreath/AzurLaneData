@@ -8,7 +8,7 @@ pg.benefit_buff_template = {
 		desc = "숙소 경험치 5% UP",
 		benefit_effect = "5",
 		id = 1,
-		icon = "Props/christmas",
+		icon = "Props/haijungali",
 		benefit_type = "dorm_exp"
 	},
 	{

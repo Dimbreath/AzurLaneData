@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "搜寻到海域中隐藏的物资！",
+			say = "해역의 숨겨진 자원을 발견했다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

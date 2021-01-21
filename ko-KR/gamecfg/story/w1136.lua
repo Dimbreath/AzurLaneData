@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "分析模块同步中：探测到了海域中塞壬隐藏的资源点。",
+			say = "분석 모듈 동기화 중: 해역에서 세이렌이 숨긴 자원 포인트 발견.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -352,7 +352,7 @@ pg.gametip = {
 		tip = "해당 함선은 출격 중입니다."
 	},
 	word_shipState_world = {
-		tip = "该角色正在大型作战中"
+		tip = "해당 캐릭터가 현재 대형 작전 중입니다."
 	},
 	word_shipState_rest = {
 		tip = "해당 함선은 숙소에서 휴식 중입니다."
@@ -1675,10 +1675,10 @@ pg.gametip = {
 		tip = "첨부 아이템을 수령하지 못했습니다."
 	},
 	mail_takeAttachment_error_noWorld = {
-		tip = "大型作战尚未开启，附件暂时不可领取。"
+		tip = "대형 작전 미개방. 부품을 수령할 수 없습니다."
 	},
 	mail_takeAttachment_error_reWorld = {
-		tip = "大型作战已经重置，领取的附件将被等比转化为战备物资兑换券。确认领取吗？"
+		tip = "대형 작전 초기화 완료. 수령한 부품은 작전 준비 물자 교환권으로 전환됩니다. 수령하시겠습니까?"
 	},
 	mail_count = {
 		tip = "첨부 아이템 $1건"
@@ -2691,113 +2691,113 @@ pg.gametip = {
 		tip = "더 이상 구조 임무를 진행할 수 없습니다."
 	},
 	world_battle_count = {
-		tip = "交战次数说明文本占坑"
+		tip = "교전 횟수"
 	},
 	world_fleetName1 = {
-		tip = "第 一 舰 队"
+		tip = "제 1 함 대"
 	},
 	world_fleetName2 = {
-		tip = "第 二 舰 队"
+		tip = "제 2 함 대"
 	},
 	world_fleetName3 = {
-		tip = "第 三 舰 队"
+		tip = "제 3 함 대"
 	},
 	world_fleetName4 = {
-		tip = "第 四 舰 队"
+		tip = "제 4 함 대"
 	},
 	world_fleetName5 = {
-		tip = "潜 艇 舰 队"
+		tip = "잠 수 함 대"
 	},
 	world_ship_repair_1 = {
-		tip = "常规维修$1需要：\n<icon name=world_money w=0.7 h=0.7/>*$2"
+		tip = "일반 수리 $1 필요: \n<icon name=world_money w=0.7 h=0.7/>*$2"
 	},
 	world_ship_repair_2 = {
-		tip = "彻底维修$1需要：\n<icon name=world_money w=0.7 h=0.7/>*$2"
+		tip = "완전 수리 $1 필요: \n<icon name=world_money w=0.7 h=0.7/>*$2"
 	},
 	world_ship_repair_all = {
-		tip = "修复所有舰船需要：\n<icon name=world_money w=0.7 h=0.7/>*$1"
+		tip = "모든 함선 수리 필요: \n<icon name=world_money w=0.7 h=0.7/>*$1"
 	},
 	world_ship_repair_no_need = {
-		tip = "没有舰船需要修理"
+		tip = "수리할 함선 없음"
 	},
 	world_event_teleport_alter = {
-		tip = "即将前往其他海域，当前交战中的舰队将会撤退"
+		tip = "기타 해역으로 이동합니다. 현재 교전 중인 함대는 철수합니다."
 	},
 	world_transport_battle_alter = {
-		tip = "存在正处于交战中的舰队，无法前往其他海域"
+		tip = "현재 교전 중인 함대가 존재하여, 기타 해역으로 이동할 수 없습니다."
 	},
 	world_transport_locked = {
-		tip = "当前海域尚未压制，请将舰队移动至海域边缘前往相邻区域"
+		tip = "현재 해역 미확보. 함대를 해역 가장자리로 이동시켜 인접한 해역으로 이동하세요."
 	},
 	world_target_count = {
-		tip = "当前可领取目标奖励$1个"
+		tip = "현재 목표 보상 $1개 수령 가능"
 	},
 	world_help_tip = {
 		tip = {
 			{
-				info = "\n大型作战说明：(未使用)"
+				info = "\n대형 작전 설명: (미사용)"
 			}
 		}
 	},
 	world_dangerbattle_confirm = {
-		tip = "敌方的攻击、耐久、作战效能都受到了极大强化！\n是否确认进行战斗？"
+		tip = "적의 공격, 내구, 작전 효율이 크게 강화되었습니다!\n전투를 진행하시겠습니까?"
 	},
 	world_stamina_exchange = {
-		tip = "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？"
+		tip = "행동력 부족. <icon name=oil w=0.7 h=0.7/>$1를 소비하여 행동력*$2으로 교환하시겠습니까?"
 	},
 	world_stamina_not_enough = {
-		tip = "行动力不足"
+		tip = "행동력 부족."
 	},
 	world_stamina_recover = {
-		tip = "※行动力小于200时，每 <color=#92fc63>10分钟</color> 恢复<color=#92fc63>1</color>点行动力"
+		tip = "※행동력이 200미만일 경우,  <color=#92fc63>10분</color>마다 <color=#92fc63>1</color> 행동력을 회복합니다."
 	},
 	world_stamina_text = {
-		tip = "花费<color=#92fc63>$1</color>石油购买行动力<color=#92fc63>$2</color>点，本周剩余<color=#92fc63>$3/$4</color>次"
+		tip = "<color=#92fc63>$1</color> 연료를 소비하여 <color=#92fc63>$2</color> 행동력 구매 가능. 이번주 잔여 횟수 <color=#92fc63>$3/$4</color>회"
 	},
 	world_stamina_text2 = {
-		tip = "使用<color=#92fc63>$1</color>后恢复行动力<color=#92fc63>$2</color>点"
+		tip = "<color=#92fc63>$1</color> 사용 후 <color=#92fc63>$2</color> 행동력 회복 가능"
 	},
 	world_stamina_resetwarning = {
-		tip = "注意：大型作战即将<color=#ff5c5c>重置</color>，重置后\n多于100的行动力<color=#ff5c5c>不会被保留</color>，\n指挥官请合理制定舰队作战策略！"
+		tip = "주의: 대형 작전이 곧 <color=#ff5c5c>초기화</color>됩니다. 초기화 후\n100 이상의 행동력은 <color=#ff5c5c>보류되지 않으니</color>,\n지휘관 여러분께서는 합리적으로 함대 작전 계획을 세워주세요!"
 	},
 	world_ship_healthy = {
-		tip = "所选目标无需修理！\n是否继续使用"
+		tip = "선택된 목표는 수리할 필요가 없습니다!\n계속 사용하시겠습니까?"
 	},
 	world_map_dangerous = {
-		tip = "未配置tip"
+		tip = "미배치tip"
 	},
 	world_map_not_open = {
-		tip = "海域尚未开放"
+		tip = "해역 미개방"
 	},
 	world_map_locked_stage = {
-		tip = "海域尚未开放"
+		tip = "해역 미개방"
 	},
 	world_map_locked_border = {
-		tip = "周边海域未压制"
+		tip = "주변 해역 미확보"
 	},
 	world_item_allocate_panel_fleet_info_text = {
-		tip = "未配置tip"
+		tip = "미배치tip"
 	},
 	world_redeploy_not_change = {
-		tip = "部署前后舰队成员没有发生变化，是否完成部署？"
+		tip = "배치 전과 후의 함대 멤버에 변화가 없습니다. 배치를 완료하시겠습니까?"
 	},
 	world_redeploy_warn = {
-		tip = "重新部署时，停留在港口的舰船将会返回港区船坞，是否继续？"
+		tip = "재배치 시, 모항에 남은 함선은 도크로 돌아갑니다. 계속하시겠습니까?"
 	},
 	world_redeploy_cost_tip = {
-		tip = "完成本次舰队部署需要消耗$1行动力，是否继续？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+		tip = "이번 함대 배치는 $1 행동력을 소모합니다. 계속하시겠습니까?\n(현재 행동력: $2. 지령 사용 간격이 짧을수록, 행동력 소모가 높아집니다.)"
 	},
 	world_redeploy_tip = {
-		tip = "尚未部署该舰队"
+		tip = "해당 함대 미배치"
 	},
 	world_fleet_choose = {
-		tip = "在大型作战中，战斗将不会影响心情与消耗石油"
+		tip = "대형 작전 중 전투는 감정 및 연료 소모에 영향을 주지 않습니다."
 	},
 	world_fleet_formation_not_valid = {
-		tip = "必须部署$1"
+		tip = "필수 배치 $1"
 	},
 	world_fleet_in_vortex = {
-		tip = "舰队进入水流湍急的漩涡之中，移动能力受限。"
+		tip = "함대가 거센 물살의 소용돌이에 빠져 이동 능력이 제한됩니다."
 	},
 	world_stage_help = {
 		tip = {
@@ -2818,252 +2818,251 @@ pg.gametip = {
 		}
 	},
 	world_transport_disable = {
-		tip = "当前海域无法通过边界区域离开"
+		tip = "현재 해역에서는 경계 구역을 통해 벗어날 수 없습니다."
 	},
 	world_resource_tip_1 = {
-		tip = "未资源提示1(未使用)"
+		tip = "비자원 알림1(미사용)"
 	},
 	world_resource_tip_2 = {
-		tip = "未资源提示1(未使用)"
+		tip = "비자원 알림1(미사용)"
 	},
 	world_instruction_all_1 = {
-		tip = "该功能未开启"
+		tip = "해당 기능 미개방"
 	},
 	world_instruction_help_1 = {
 		tip = {
 			{
 				info = [[
-  <color=#92fc63>舰队部署</color>
-   在己方港口海域，可以从港区船坞中重新部署参与
-大型作战的舰队，并为所有舰船恢复耐久与士气。 
+<color=#92fc63>함대 배치</color>
+아군 모항 해역 내에서는, 모항 도크에서 대형 작전에 참여할
+함대를 재배치할 수 있으며, 모든 함선의 내구도 및 사기를 회복할 수 있습니다.
 
-  <color=#92fc63>舰队维护</color>
-  为所有舰队恢复士气与耐久，并消除战损状态。
+<color=#92fc63>함대 수리</color>
+모든 함대의 사기 및 내구도를 회복하며, 전투 피해 상태를 제거합니다.
 
-  <color=#92fc63>空域侦查</color>
-  消耗行动力侦查当前海域的全部区域。
+<color=#92fc63>공역 정찰</color>
+행동력을 소모하여 현재 해역의 모든 구역을 정찰합니다.
 
-  <color=#92fc63>潜艇支援</color>
-  可以部署与呼叫潜艇编队支援，潜艇部队需要在港
-  口海域进行部署。
+<color=#92fc63>잠수함 지원</color>
+잠수함 편대를 배치 및 지원 호출할 수 있습니다. 잠수함대는 모항 해역에서 배치
+해야 합니다.
  ]]
 			}
 		}
 	},
 	world_instruction_redeploy_1 = {
-		tip = "当前海域无法进行舰队部署，请前往我方港口海域"
+		tip = "현재 해역에서 함대를 배치할 수 없습니다. 아군 모항 해역으로 이동하세요."
 	},
 	world_instruction_redeploy_2 = {
-		tip = "舰队部署已完成，所有舰船的耐久与士气都恢复了"
+		tip = "함대 배치 완료. 모든 함대의 내구도 및 사기가 회복되었습니다."
 	},
 	world_instruction_redeploy_3 = {
-		tip = "舰队正在运送特殊物件，无法进行部署，请先将特殊物件归位。"
+		tip = "함대가 특수 물품을 운송 중이므로 배치할 수 없습니다. 먼저 특수 물품을 위치로 이동시키세요."
 	},
 	world_instruction_morale_1 = {
-		tip = "是否消耗$1行动力为所有舰队恢复士气与耐久，并消除战损状态？(当前行动力：$2；指令使用后，一段时间内无法再次使用)"
+		tip = "$1 행동력을 소모하여 모든 함대의 사기와 내구도를 회복하고, 전투 피해 상태를 제거하시겠습니까?(현재 행동력: $2. 지령 사용 후, 일정 시간 동안 재사용 불가)"
 	},
 	world_instruction_morale_2 = {
-		tip = "各舰队士气高昂，无需进行士气恢复"
+		tip = "각 함대의 사기가 매우 높습니다. 사기를 회복할 필요가 없습니다."
 	},
 	world_instruction_morale_3 = {
-		tip = "所有舰队的士气恢复完毕"
+		tip = "모든 함대의 사기가 회복 완료되었습니다."
 	},
 	world_instruction_submarine_1 = {
-		tip = "当前海域无法使用该功能"
+		tip = "현재 해역에서는 해당 기능을 사용할 수 없습니다."
 	},
 	world_instruction_submarine_2 = {
-		tip = "是否消耗$1行动力向当前海域派遣潜艇舰队？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+		tip = "$1 행동력을 소모하여 현재 해역에 잠수함대를 파견하시겠습니까?\n(현재 행동력: $2. 지령 사용 간격이 짧을수록, 행동력 소모가 높아집니다.)"
 	},
 	world_instruction_submarine_3 = {
-		tip = "当前地图已部署有潜艇舰队"
+		tip = "현재 맵에는 잠수함대를 이미 배치하였습니다."
 	},
 	world_instruction_submarine_4 = {
-		tip = "尚未部署潜艇舰队，无法呼叫支援"
+		tip = "잠수함대를 배치하지 않아 지원을 호출할 수 없습니다."
 	},
 	world_instruction_submarine_5 = {
-		tip = "潜艇舰队已撤离"
+		tip = "잠수함대 철수 완료"
 	},
 	world_instruction_submarine_6 = {
-		tip = "离开当前海域后，潜艇舰队会自动返回我方港口待命，是否离开？"
+		tip = "현재 해역에서 벗어난 후, 잠수함대는 아군 모항으로 자동 귀항합니다. 벗어나시겠습니까?"
 	},
 	world_instruction_submarine_7 = {
-		tip = "当前海域部署的潜艇舰队弹药耗尽，是否消耗\n$1行动力为潜艇舰队补充弹药并恢复状态？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+		tip = "현재 해역에 배치한 잠수함대의 탄약이 소진되었습니다. $1 행동력을 소\n모하여 탄약을 보충하고 상태를 회복하시겠습니까?\n(현재 행동력: $2. 지령 사용 간격이 짧을수록, 행동력 소모가 높아집니다.)"
 	},
 	world_instruction_detect_1 = {
-		tip = "是否消耗$1行动力侦查当前海域的全部区域？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+		tip = "$1 행동력을 소모하여 현재 해역의 모든 구역을 정찰하시겠습니까?\n(현재 행동력: $2. 지령 사용 간격이 짧을수록, 행동력 소모가 높아집니다.)"
 	},
 	world_instruction_detect_2 = {
-		tip = "当前海域已侦查完毕"
+		tip = "현재 해역 정찰 완료"
 	},
 	world_instruction_supply_1 = {
-		tip = "是否消耗$1行动力申请一份基础补给？(当前行动力：$2)(未使用)"
+		tip = "$1 행동력을 소모히여 기초 보급을 신청하시겠습니까?(현재 행동력: $2)(미사용)"
 	},
 	world_instruction_supply_2 = {
-		tip = "$1后可再次进行舰队维护"
+		tip = "$1 후 함대 수리 가능"
 	},
 	world_item_recycle_1 = {
-		tip = "重置后道具将被转化"
+		tip = "초기화 후 아이템이 전환됩니다."
 	},
 	world_item_recycle_2 = {
-		tip = "重置后道具将会消失"
+		tip = "초기화 후 아이템이 사라집니다."
 	},
 	world_item_origin = {
-		tip = "该道具可由以下方式获取"
+		tip = "해당 아이템은 아래의 방식으로 획득할 수 있습니다."
 	},
 	world_shop_bag_unactivated = {
-		tip = "大型作战尚未激活，无法购买，请首先进入大型作战"
+		tip = "대형 작전 미활성화. 구매 불가. 우선 대형 작전에 진입하세요."
 	},
 	world_shop_preview_tip = {
-		tip = "重置后可购买商品预览"
+		tip = "초기화 후 구매 가능한 상품 미리보기"
 	},
 	world_map_title_tips_en = {
 		tip = "OPERATION INFO"
 	},
 	world_map_title_tips = {
-		tip = "作战情报"
+		tip = "작전 정보"
 	},
 	world_mapbuff_attrtxt_1 = {
-		tip = "攻击调整"
+		tip = "공격 조정"
 	},
 	world_mapbuff_attrtxt_2 = {
-		tip = "耐久调整"
+		tip = "내구 조정"
 	},
 	world_mapbuff_attrtxt_3 = {
-		tip = "恢复干扰"
+		tip = "회복 방해"
 	},
 	world_mapbuff_compare_txt = {
-		tip = "适应性压制"
+		tip = "적응력 확보"
 	},
 	world_wind_move = {
-		tip = "无法前往目标区域，请首先转移已位于目标区域中的舰队"
+		tip = "목표 구역으로 이동할 수 없습니다. 우선 이미 목표 구역에 위치하고 있는 함대를 이동시켜 주세요."
 	},
 	world_battle_pause = {
 		tip = "OPERATION"
 	},
 	world_battle_pause2 = {
-		tip = "大型作战"
+		tip = "대형 작전"
 	},
 	world_task_samemap = {
-		tip = "目标海域存在尚未完成的任务，无法接受该任务"
+		tip = "목표 해역에 미완성한 임무가 존재하여, 해당 임무를 접수할 수 없습니다."
 	},
 	world_task_maplock = {
-		tip = "当前海域存在尚未完成的任务，目前无法离开，请在<color=#ff5c5c>情报</color>中进行确认。"
+		tip = "현재 해역에 미완성한 임무가 존재하여, 벗어날 수 없습니다. <color=#ff5c5c>정보</color>에서 확인해 주세요."
 	},
 	world_task_goto0 = {
-		tip = "当前海域并非任务目标海域"
+		tip = "현재 임무 목표 해역이 아닙니다."
 	},
 	world_task_goto3 = {
-		tip = "舰队已位于任务目标海域"
+		tip = "함대가 이미 임무 목표 해역에 있습니다."
 	},
 	world_task_view1 = {
-		tip = "任务位置："
+		tip = "임무 위치:"
 	},
 	world_task_view2 = {
-		tip = "当前位置："
+		tip = "현재 위치:"
 	},
 	world_task_view3 = {
-		tip = "不明"
+		tip = "불확실"
 	},
 	world_task_refuse1 = {
-		tip = "任务已到达领取上限，请完成一些任务后再来领取吧"
+		tip = "임무 수령 최대치 도달. 우선 기존의 임무를 완료 후 다시 수령해 주세요."
 	},
 	world_sairen_title = {
-		tip = "塞壬控制力"
+		tip = "세이렌 통제력"
 	},
 	world_sairen_description1 = {
-		tip = "当前海域塞壬控制力为<color=#3dc6ff>$1%</color>"
+		tip = "현재 해역 세이렌 통제력 <color=#3dc6ff>$1%</color>"
 	},
 	world_sairen_description2 = {
-		tip = "当前海域塞壬控制力为<color=#ffde38>$1%</color>"
+		tip = "현재 해역 세이렌 통제력 <color=#ffde38>$1%</color>"
 	},
 	world_sairen_description3 = {
-		tip = "当前海域塞壬控制力为<color=#ff5c5c>$1%</color>"
+		tip = "현재 해역 세이렌 통제력 <color=#ff5c5c>$1%</color>"
 	},
 	world_low_morale = {
-		tip = "当前舰队士气过低，无法与强敌战斗！\n提示：取得任意战斗胜利均可恢复舰队的士气。"
+		tip = "현재 함대의 사기가 너무 낮아 강적과 싸울 수 없습니다!\n알림: 임의의 전투에서 승리를 획득하여 함대의 사기를 회복할 수 있습니다."
 	},
 	world_recycle_notice = {
-		tip = "「大型作战」将在退出后进行重置，是否继续退出？"
+		tip = "「대형 작전」은 퇴장 후 초기화됩니다. 퇴장하시겠습니까?"
 	},
 	world_recycle_item_transform = {
-		tip = "「大型作战」已经重置，尚未使用的作战物资已被转换为战备物资兑换券："
+		tip = "「대형 작전」 초기화 완료. 미사용한 작전 물자는 작전 준비 물자 교환권으로 전환되었습니다."
 	},
 	world_exit_tip = {
-		tip = "需要暂时离开大型作战么？"
+		tip = "대형 작전에서 잠시 이탈하시겠습니까?"
 	},
 	world_consume_carry_tips = {
-		tip = "未配置tip"
+		tip = "미배치tip"
 	},
 	world_boss_help_meta = {
 		tip = {
 			{
 				info = [[
-信标·烬功能说明
+비콘·애쉬 기능 설명
 
-1. <color=#92fc63>2020.12.22-2021.3.18</color>期间限时开放「龙·META」的
-挑战，在此期间指挥官可挑战「龙·META」累计其同步
-值获取<color=#92fc63>「龙·META」角色</color>及其他丰厚奖励
- <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
+1. <color=#92fc63>2021.1.21-2021.4.15</color>까지 「히류·META」의 도전이 한정
+개방됩니다. 「히류·META」에 도전해 동기화 수치를 누적하여
+<color=#92fc63>「히류·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
+ <color=#ff5c5c>주의: 동기화 수치는 기간 종료 후 사라집니다.</color>
 
-2.「余烬信标数据」获取与解析
-·指挥官可通过在大型作战中获取「余烬信标数据」，达
-到指定数据量后进行解析并发现特定余烬信标
-·每日最多可解析 <color=#92fc63>2次</color>，次数于每日0点重置，尚未使用
-的「余烬信标数据」将会保留。
-·每次解析「余烬信标数据」所需量为<color=#92fc63>100</color>点
+2. 「애쉬 비콘 데이터」 획득 및 분석
+·대형 작전을 통해 「애쉬 비콘 데이터」를 획득할 수 있으며, 지정
+데이터량 도달 후, 분석 및 특정 애쉬 비콘을 발견할 수 있습니다.
+·일일 최대 분석 가능 횟수는 <color=#92fc63>2회</color>이며, 0시마다 초기화됩니다. 사용하지 않은
+「애쉬 비콘 데이터」는 보류됩니다.
+·매번 분석 시 <color=#92fc63>100</color> 「애쉬 비콘 데이터」가 필요합니다.
 
-3.挑战自己解析的信标
-·第一次挑战自己解析的信标不会消耗石油，从第二次
-开始每次挑战消耗<color=#92fc63>40</color>点石油。(不会消耗挑战次数)
-·当信标HP归零后视为战斗胜利，指挥官可以领取大量
-角色同步值奖励。
-·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，
-记得向其他指挥官请求支援哦。
-·每次挑战成功后，信标的强度将会提升1阶段，总计15
-阶段。随着阶段提升，战斗奖励也会提升。
+3. 자신이 분석한 비콘 도전
+·자신이 분석한 비콘에 처음으로 도전 시 연료를 소모하지 않으며, 두번째 도전부터
+매번 <color=#92fc63>40</color> 연료를 소모합니다.(도전 횟수는 소모하지 않습니다.)
+·비콘의 HP가 0이 되면 전투에서 승리하며, 대량의 캐릭터
+동기화 수치 보상을 획득합니다.
+·분석한 비콘은 <color=#92fc63>24시간</color> 동안 유지되며, 이후 사라집니다.
+기타 지휘관들에게 지원을 요청하세요.
+·매번 도전 성공 후, 비콘의 난이도가 1단계씩, 총 15
+단계까지 상승하며, 단계에 따라 전투 보상도 증가합니다.
 
-4.挑战其他信标
-·在信标列表界面可以挑战其他指挥官发起求助的信标，
-参与其他指挥官发布的信标战斗结束后，将会根据造成
-的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。
-·每次挑战需要消耗1点挑战次数，不需要消耗石油
-·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置
-·同一个信标最多能允许累计30位指挥官进行挑战
+4. 기타 비콘 도전
+·비콘 목록 화면에서 다른 지휘관이 도움을 요청한 비콘에 도전할 수 있습니다.
+다른 지휘관의 비콘에 참여하면 전투 종료 후 입힌 대미지
+에 따라 <color=#92fc63>캐릭터 동기화 수치 보상을 획득합니다</color>.
+·매번 도전 시 도전 횟수 1회를 소모하며, 연료는 소모하지 않습니다.
+·매일 총 <color=#92fc63>3</color>회의 도전 횟수가 주어지며, 0시마다 초기화됩니다.
+·동일한 비콘에 최대 누적 30명의 지휘관이 도전할 수 있습니다.
 
-5.战斗说明
-·挑战信标·烬只能使用大型作战中的舰船，暂不可使用
-指挥喵与潜艇
-·战斗结算时不会获得经验值，不会影响舰船心情值
-·战斗中不可中途退出，如果出现网络波动导致掉线的
-情况：
-①挑战自己解析的信标时将会消耗40点石油(非第一次挑
-战)，且不会计算已造成的伤害
-②挑战信标列表中的信标时将会消耗挑战次数且无法获得
-任何奖励
-  <color=#92fc63>请在参与作战时保持网络环境畅通</color>]]
+5. 전투 설명
+·비콘·애쉬 도전은 대형 작전 중인 함선만 사용 가능하며, 지휘냥과 잠수함은
+사용할 수 없습니다.
+·전투 결산 시 경험치를 획득하지 않으며, 함선 감정 수치에 영향을 주지 않습니다.
+·전투 도중 퇴장할 수 없습니다. 만약 네트워크 이상으로 연결이 끊길 경우:
+①자신이 분석한 비콘에 도전 시 40 연료가 소모(첫 번째 도전 X)되며,
+이미 입힌 대미지가 집계되지 않습니다.
+②비콘 목록 중의 비콘에 도전 시 도전 횟수가 소모되며, 아무런 보상도
+획득할 수 없습니다.
+ <color=#92fc63>작전 참여 시 네트워크 환경을 원활히 유지해 주세요.</color>]]
 			}
 		}
 	},
 	world_close = {
-		tip = "大型作战已经关闭，暂时无法进入。"
+		tip = "대형 작전 폐쇄됨. 진입 불가."
 	},
 	world_catsearch_success = {
-		tip = "指挥喵已成功开始进行搜寻作业！"
+		tip = "지휘냥이 탐색 작업을 시작했습니다!"
 	},
 	world_catsearch_stop = {
-		tip = "是否中断搜寻作业，并召回指挥喵？"
+		tip = "탐색 작업을 중단하고 지휘냥을 불러오시겠습니까?"
 	},
 	world_catsearch_fleetcheck = {
-		tip = "正在进行搜寻作业的指挥喵将被强制召回。\n是否结束搜寻并重编舰队？"
+		tip = "현재 탐색 작업 중인 지휘냥이 강제로 돌아옵니다.\n탐색을 종료하고 함대를 재편성하시겠습니까?"
 	},
 	world_catsearch_leavemap = {
-		tip = "正在进行搜寻作业的指挥喵将被强制召回！\n是否结束搜寻并离开当前海域？"
+		tip = "현재 탐색 작업 중인 지휘냥이 강제로 돌아옵니다!\n탐색을 종료하고 현재 해역을 벗어나시겠습니까?"
 	},
 	world_catsearch_help_1 = {
-		tip = "搜寻进度会<color=#ffde38>随着舰队行动次数推进</color>，\n是否中断搜寻作业，并召回指挥喵？\n<color=#92fc63>（中断后将会立刻结算已获取的奖励）</color>"
+		tip = "탐색 진도는 <color=#ffde38>함대 행동 횟수에 따라 증가</color>합니다.\n탐색 작업을 중단하고 지휘냥을 불러오시겠습니까?\n<color=#92fc63>(중단 후 이미 획득한 보상이 즉시 결산됩니다.)</color>"
 	},
 	world_catsearch_help_2 = {
-		tip = "搜寻奖励查询"
+		tip = "보상 탐색"
 	},
 	world_catsearch_help_3 = {
 		tip = {
@@ -3090,22 +3089,22 @@ pg.gametip = {
 		}
 	},
 	world_catsearch_help_4 = {
-		tip = "搜寻中..."
+		tip = "탐색 중..."
 	},
 	world_catsearch_help_5 = {
-		tip = "指挥喵物资搜寻中，暂时无法为舰队提供加成"
+		tip = "지휘냥 물자 탐색 중. 함대에 버프를 제공할 수 없습니다."
 	},
 	world_catsearch_help_6 = {
-		tip = "搜寻过程中有几率获得以下奖励"
+		tip = "탐색 과정 중 확률적으로 아래의 보상을 획득합니다."
 	},
 	world_level_prefix = {
-		tip = "等级LV.$1"
+		tip = "레벨 LV.$1"
 	},
 	world_map_level = {
-		tip = "作战强度等级：\n指挥官当前的作战强度等级为<color=#92fc63>$1</color>，建议攻略该侵蚀等级及以下的海域。"
+		tip = "작전 난이도 레벨: \n현재 작전 난이도 레벨은 <color=#92fc63>$1</color>이며, 이 위험 등급 및 이하 해역을 공략할 것을 추천합니다."
 	},
 	world_movelimit_event_text = {
-		tip = "当前海域存在尚未完成的任务，目前无法离开"
+		tip = "현재 해역에 미완성한 임무가 존재하여 벗어날 수 없습니다."
 	},
 	task_notfound_error = {
 		tip = "스테이지 정보를 확인하지 못했습니다. 에러 ID："
@@ -6337,7 +6336,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "한계챌린지 "
 	},
 	word_status_world = {
-		tip = "大型作战中"
+		tip = "대형 작전 중"
 	},
 	challenge_rule = {
 		tip = {
@@ -6713,7 +6712,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "개발 레벨 $1 달성 후 개방"
 	},
 	ship_profile_voice_locked_meta = {
-		tip = "维修进度达到$1%后解锁(未使用)"
+		tip = "수리 진도 $1%후 해제(미사용)"
 	},
 	help_technolog0 = {
 		tip = {
@@ -7460,10 +7459,10 @@ B평가:<color=#92fc63>70</color>점
 		tip = "프린츠 하인리히, 페터 슈트라서 등 함선 건조 확률 UP!"
 	},
 	buildship_heavy_tip = {
-		tip = "미카사, 히에이 건조 추가!"
+		tip = "나가토 ,스즈야 건조 추가 "
 	},
 	buildship_light_tip = {
-		tip = "하마카제 건조 추가!"
+		tip = "헤이즐우드, {namecode:148} 건조 추가!"
 	},
 	buildship_special_tip = {
 		tip = "이13 건조 추가 "
@@ -10921,80 +10920,80 @@ TIPS:
 		tip = "편성 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다."
 	},
 	word_weakness = {
-		tip = "受损"
+		tip = "피해"
 	},
 	special_operation_tip1 = {
-		tip = "当前关卡无法使用"
+		tip = "현재 스테이지에서 사용 불가"
 	},
 	special_operation_tip2 = {
-		tip = "您没有特别作战道具"
+		tip = "특별 작전 아이템이 없습니다."
 	},
 	area_lock = {
-		tip = "该处海域尚未解锁"
+		tip = "해당 해역 미해제"
 	},
 	equipment_upgrade_equipped_tag = {
-		tip = "装备中："
+		tip = "장착 중:"
 	},
 	equipment_upgrade_spare_tag = {
-		tip = "仓库中："
+		tip = "창고:"
 	},
 	equipment_upgrade_help = {
 		tip = {
 			{
-				info = "<color=#ffde38>装备研发系统说明：</color>\n"
+				info = "<color=#ffde38>장비 개발 시스템 설명: </color>\n"
 			},
 			{
-				info = "· 装备研发是通过<color=#92fc63>消耗</color>研发素材与物资将特定装备转变\n为更高级装备的系统。"
+				info = "·장비 개발은 개발 재료와 물자를 <color=#92fc63>소모</color>하여 특정 장비를\n고급 장비로 변환시키는 시스템입니다."
 			},
 			{
-				info = "·点击选择想要研发的装备，即可进入对应的装备研发\n界面。"
+				info = "·개발을 원하는 장비를 선택하면, 해당 장비 개발 화면\n에 진입합니다."
 			},
 			{
-				info = "·当所选装备拥有多种研发途径获得时，可以使用切换\n方案按钮进行切换。"
+				info = "·선택된 장비의 다양한 개발 경로를 획득할 시, 전환 버튼을\n사용해 전환할 수 있습니다."
 			},
 			{
-				info = "·当素材装备也可通过研发获得时，可通过点击左侧的\n快速研发按钮进入对应研发界面。"
+				info = "·재료 장비를 개발을 통해 획득할 수 있을 경우, 좌측의 빠른 \n개발버튼을 통해 해당 화면에 진입할 수 있습니다."
 			},
 			{
-				info = "·正在装备中装备也可以作为素材装备，研发后的新装\n备将直接变为装备中状态。（若新装备的类型无法被\n原角色装备，则装备返回仓库）"
+				info = "·장착 중인 장비도 재료 장비가 될 수 있으며, 개발 후의 새로\n운 장비는 바로 장착됩니다.(새로운 장비의 유형을 기존 캐릭터\n가 장착할 수 없을 경우, 창고에 저장됩니다.)"
 			},
 			{
-				info = "·将拥有强化等级的装备作为研发素材时，将会按照\n装备拆解规则返还强化过程中消耗的<color=#92fc63>部分强化物资</color>，\n并返还<color=#92fc63>全部强化素材</color>。"
+				info = "·강화된 등급의 장비를 개발 소재로 사용할 경우, 장비 분해\n규칙에 따라 강화 과정 중에 소모된 <color=#92fc63>일부 강화 물자</color>, 및<color=#92fc63>모든 \n강화 재료</color>가반환됩니다."
 			}
 		}
 	},
 	equipment_upgrade_title = {
-		tip = "装备研发"
+		tip = "장비 개발"
 	},
 	equipment_upgrade_coin_consume = {
-		tip = "消耗物资"
+		tip = "물자 소모"
 	},
 	equipment_upgrade_quick_interface_source_chosen = {
-		tip = "请选择装备"
+		tip = "장비를 선택하세요."
 	},
 	equipment_upgrade_quick_interface_materials_consume = {
-		tip = "需要消耗如下材料"
+		tip = "다음 재료를 소모합니다."
 	},
 	equipment_upgrade_feedback_lack_of_materials = {
-		tip = "材料不足"
+		tip = "재료 부족"
 	},
 	equipment_upgrade_feedback_equipment_consume = {
-		tip = "此次研发将消耗<color=#92fc63>$1</color>装备中的<color=#92fc63>$2</color>"
+		tip = "이번 개발에서 <color=#92fc63>$1</color> 장착 중인 <color=#92fc63>$2</color>을(를) 소모합니다."
 	},
 	equipment_upgrade_feedback_equipment_can_be_produced = {
-		tip = "素材装备不足，素材装备可通过研发系统获取"
+		tip = "재료 장비 부족. 재료 장비는 개발 시스템을 통해 획득 가능합니다."
 	},
 	equipment_upgrade_quick_interface_feedback_source_chosen = {
-		tip = "请选择装备"
+		tip = "장비를 선택하세요."
 	},
 	equipment_upgrade_feedback_lack_of_equipment = {
-		tip = "素材装备不足"
+		tip = "재료 장비 부족"
 	},
 	equipment_upgrade_equipped_unavailable = {
-		tip = "<color=#92fc63>$1</color>无法装备<color=#92fc63>$2</color>，已进入仓库"
+		tip = "<color=#92fc63>$1</color>장착 불가<color=#92fc63>$2</color>, 창고에 저장되었습니다."
 	},
 	equipment_upgrade_initial_node = {
-		tip = "此装备不可由通过装备研发获取"
+		tip = "해당 장비는 장비 개발을 통해 획득할 수 없습니다."
 	},
 	discount_coupon_tip = {
 		tip = "<color=#92fc63FF>$1 다이아</color> 및 <color=#92fc63FF>$2 </color>를 사용하여 <color=#92fc63FF>$3</color>를 구매하시겠습니까?"
@@ -11713,7 +11712,7 @@ TIPS:
 		tip = "$1 진행 중, 해당 작전을 선택할 수 없습니다."
 	},
 	guild_join_event_cnt_label = {
-		tip = "참가 가능 횟수: "
+		tip = "이번달 참여 횟수:"
 	},
 	guild_join_event_max_cnt_tip = {
 		tip = "참가 가능한 횟수가 부족합니다."
@@ -11731,7 +11730,7 @@ TIPS:
 		tip = "함대를 편집할 수 없습니다."
 	},
 	guild_fleet_exist_same_kind_ship = {
-		tip = "동명의 함선을 중복 선택할 수 없습니다."
+		tip = "이미 지원파견 중. 중복 선택 불가"
 	},
 	guild_event_exist_same_kind_ship = {
 		tip = "동명의 함선은 중복으로 존재할 수 없습니다."
@@ -11891,6 +11890,9 @@ TIPS:
 	},
 	guild_battle_log = {
 		tip = "[$1] $2이(가) 대함대 자금 $3를 사용해 대함대 작전을 발령했습니다."
+	},
+	guild_tech_change_log = {
+		tip = "[$1] $2 과학 연구 $3(으)로 전환"
 	},
 	guild_use_donateitem_success = {
 		tip = "사용 성공, 군수 준비 횟수 +$1"
@@ -12168,7 +12170,10 @@ TIPS:
 				info = "10. 보스 격파 후, 작전은 종료됩니다."
 			},
 			{
-				info = "11. 모든 사건과 보스전 보상은 <color=#92fc63>작전 보고서</color>로 지급되며, \n작전 보고서는 저장 상한이 있으니, <color=#92fc63>제때 수령</color>해 주시기 \n바랍니다."
+				info = "11. 각 유저는 대함대 작전에 매월 2회만 참여 가능하며, 대함대 작전\n진입 즉시 횟수가 차감됩니다."
+			},
+			{
+				info = "12. 모든 사건과 보스전 보상은 <color=#92fc63>작전 보고서</color>로 지급되며, \n작전 보고서는 저장 상한이 있으니, <color=#92fc63>제때 수령</color>해 주시기 \n바랍니다."
 			}
 		}
 	},
@@ -12210,41 +12215,55 @@ TIPS:
 5. 지휘관은 하루에 <color=#92fc63>1</color>번만 보스와 교전할 수 있습니다.]]
 	},
 	guild_boss_formation_exist_invaild_ship = {
-		tip = "대함대 멤버의 지원 파견 편성이 변경되었으므로, 보스전 편성이 갱신되었습니다."
+		tip = "2. 보유한 함선에서 선봉 및 주력함대로 각각 <color=#92fc63>1</color>척 이상 선택해야 합니다.\n"
 	},
 	guild_exist_unreceived_supply_award = {
-		tip = "<color=red>미수령</color>"
+		tip = "3. 다른 대함대 멤버의 파견 지원 함선에서 최대 <color=#92fc63>3</color>척까지 선택할 수 있습니다.\n"
 	},
 	word_shipState_guild_event = {
-		tip = "캐릭터가 대함대 작전에 참여 중입니다. 퇴역 불가"
+		tip = "4. 보스의 HP가 0이 되면 대함대 작전이 종료됩니다.\n"
+	},
+	commander_is_in_guild = {
+		tip = "해당 지휘냥이 대함대 편대 중에 있습니다."
+	},
+	guild_assult_ship_recommend = {
+		tip = "추천 상태 갱신 성공. 지원파견 추천 캐릭터 설정 성공"
+	},
+	guild_cancel_assult_ship_recommend = {
+		tip = "추천 상태 갱신 성공. 지원파견 추천 캐릭터 취소 성공"
+	},
+	guild_assult_ship_recommend_conflict = {
+		tip = "추천 상태 갱신 성공. 해당 캐릭터는 지원파견 추천 캐릭터입니다."
+	},
+	guild_recommend_limit = {
+		tip = "지원파견 추천 캐릭터가 최대치입니다. 설정 불가."
+	},
+	guild_cancel_assult_ship_recommend_conflict = {
+		tip = "추천 상태 갱신 성공. 해당 캐릭터 추천 상태가 다른 관리원에 의해 최소되었습니다."
+	},
+	guild_mission_complate = {
+		tip = "완료한 대함대 임무: $1"
+	},
+	guild_operation_event_occurrence = {
+		tip = "대함대 작전에 파견 가능한 새로운 사건이 있습니다. 확인해 주세요."
+	},
+	guild_transfer_president_confirm = {
+		tip = "함대 사령을 $1에게 양도합니다. 양도 후 일반 멤버로 등급이 하락합니다. 계속하시겠습니까?"
+	},
+	guild_damage_ranking = {
+		tip = "랭킹"
+	},
+	guild_total_damage = {
+		tip = "총 대미지"
+	},
+	guild_donate_list_updated = {
+		tip = "군수 준비 항목 갱신됨"
+	},
+	guild_donate_list_update_failed = {
+		tip = "군수 준비 항목 갱신 실패"
 	},
 	help_rollingBallGame = {
-		tip = {
-			{
-				info = [[
-미니 게임 규칙:
-1. 구슬을 선택 후, 최대 7초의 이동 시간을 가진다. 이 7초의 
-이동 시간 내에 구슬을 상하좌우 거리에 상관없이 이동시킬 
-수 있다.
-2. 이동 과정에서 경로 상의 구슬과 위치가 교환되며, 7초가 
-지나거나 손을 떼면 제거 및 결산이 시작된다.
-3. 같은 색 구슬을 가로 또는 세로로 3개 이상 연결하면 제거할 
-수 있고, 한 번에 제거하는 구슬이 많을수록 고득점.
-이벤트 규칙:
-이벤트 기간 동안 매일 사용 가능 횟수를 얻으며, 최대 7회까지 
-얻을 수 있다.
-1. 사용 가능 횟수가 남아있는 상황에서 쥬쥬 롤링볼에 
-참여하면 횟수를 소모하며 출석 횟수를 얻는다. 출석 7회 시
-「축제 초대장」을 획득한다.
-2. 사용 가능 횟수는 축제 광장 화면 우측에서 확인할 수 있고, 
-출석 진도는축제 광장 화면의 「초대장」 버튼을 
-통해 확인할 수 있다.
-3. 사용 가능 횟수가 없을 경우 쥬쥬 롤링볼에 참여하면 출석 
-횟수를 얻지 못한다.
-4. 기타 원인으로 인해 중도 퇴장할 경우 사용 가능 횟수는 
-차감되지 않고 어떠한 보상도 얻지 못한다.]]
-			}
-		}
+		tip = "5. 지휘관은 하루에 <color=#92fc63>1</color>번만 보스와 교전할 수 있습니다."
 	},
 	rolling_ball_help = {
 		tip = {
@@ -12783,40 +12802,40 @@ miss. 리시브: miss 시 실점, good/perfect 시 리시브 성공
 		tip = "무제한"
 	},
 	meta_learn_skill = {
-		tip = "习得技能：$1(未使用)"
+		tip = "습득 스킬: $1(미사용)"
 	},
 	world_joint_boss_not_found = {
-		tip = "所选信标已消失，请尝试其他信标！"
+		tip = "선택한 비콘이 사라졌습니다. 다른 비콘을 선택하세요!"
 	},
 	world_joint_boss_is_death = {
-		tip = "所选信标已消失，请尝试其他信标！"
+		tip = "선택한 비콘이 사라졌습니다. 다른 비콘을 선택하세요!"
 	},
 	world_joint_whitout_guild = {
-		tip = "还没有加入大舰队哦"
+		tip = "대함대에 가입하지 않았습니다."
 	},
 	world_joint_whitout_friend = {
-		tip = "还没有任何战友哦"
+		tip = "전우가 없습니다."
 	},
 	world_joint_call_support_failed = {
-		tip = "请求支援失败！"
+		tip = "지원 요청 실패!"
 	},
 	world_joint_call_support_success = {
-		tip = "请求支援成功！"
+		tip = "지원 요청 성공!"
 	},
 	world_joint_call_friend_support_txt = {
-		tip = "战友$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+		tip = "전우 $1님이 $2 TIER.$3 도전 중, 긴급 지원 요청을 보냈습니다.(미사용)"
 	},
 	world_joint_call_guild_support_txt = {
-		tip = "大舰队成员$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+		tip = "대함대 멤버 $1님이 $2 TIER.$3 도전 중, 긴급 지원 요청을 보냈습니다.(미사용)"
 	},
 	world_joint_call_world_support_txt = {
-		tip = "指挥官$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+		tip = "지휘관 $1님이 $2 TIER.$3 도전 중, 긴급 지원 요청을 보냈습니다.(미사용)"
 	},
 	ad_4 = {
-		tip = "<material=underline c=#92fc63><color=#92fc63>$2</color></material> 邀请你挑战 <material=underline><color=#FFDE38FF>$3</color></material>"
+		tip = "<material=underline c=#92fc63><color=#92fc63>$2</color></material> 님이 <material=underline><color=#FFDE38FF>$3</color></material> 도전에 초대하였습니다."
 	},
 	world_word_expired = {
-		tip = "信标已过期"
+		tip = "비콘 기간 종료"
 	},
 	world_word_guild_member = {
 		tip = "대함대 멤버(미사용)"
@@ -12825,179 +12844,179 @@ miss. 리시브: miss 시 실점, good/perfect 시 리시브 성공
 		tip = "지휘관(미사용)"
 	},
 	world_joint_boss_award_expired = {
-		tip = "奖励领取失败"
+		tip = "보상 수령 실패"
 	},
 	world_joint_not_refresh_frequently = {
-		tip = "请勿频繁刷新"
+		tip = "새로고침이 너무 잦습니다."
 	},
 	world_joint_exit_battle_tip = {
-		tip = "是否中断当前战斗，前往余烬信标？"
+		tip = "현재 전투를 중단하고 애쉬 비콘으로 이동하시겠습니까?"
 	},
 	world_boss_get_item = {
-		tip = "当前已经收集到指定数据量的信标数据，是否立即对其进行解析？\n(<color=#ff5c5c>未解析的情况下，后续将不会继续获得信标数据</color>)"
+		tip = "비콘 데이터를 지정량만큼 수집하였습니다. 바로 분석하시겠습니까?\n(<color=#ff5c5c>분석하지 않을 시, 계속 이어서 비콘 데이터를 획득하지 않습니다</color>.)"
 	},
 	world_boss_ask_help = {
-		tip = "暂时无法向该频道呼叫支援"
+		tip = "해당 채널에서 지원을 호출할 수 없습니다."
 	},
 	world_joint_count_no_enough = {
-		tip = "当前挑战次数不足"
+		tip = "도전 횟수 부족"
 	},
 	world_boss_none = {
-		tip = "所选信标已变为不可挑战状态，请尝试其他信标！"
+		tip = "선택한 비콘이 도전 불가 상태입니다. 다른 비콘을 선택하세요!"
 	},
 	world_boss_fleet = {
-		tip = "余烬信标作战"
+		tip = "애쉬 비콘 작전"
 	},
 	world_max_challenge_cnt = {
-		tip = "所选信标挑战人数已满，请尝试其他信标！"
+		tip = "선택한 비콘의 도전 인원 수가 가득 찼습니다. 다른 비콘을 선택하세요!"
 	},
 	world_reset_success = {
-		tip = "大型作战已重置"
+		tip = "대형 작전 초기화 완료"
 	},
 	world_map_dangerous_confirm = {
-		tip = "深渊海域作战难度较高且不可重复进入，\n请确认舰队战备后前往作战"
+		tip = "심연 해역은 작전 난이도가 높으며 중복하여 진입이 불가합니다.\n함대의 작전 준비 상태를 확인 후 이동해주세요."
 	},
 	world_map_version = {
-		tip = "当前海域由于版本更新被重置"
+		tip = "현재 해역은 버전 업데이트로 인해 초기화되었습니다."
 	},
 	world_resource_fill = {
-		tip = "战备物资兑换券已达到收集上限。"
+		tip = "작전 준비 물자 교환권이 최대치에 도달했습니다."
 	},
 	meta_sys_lock_tip = {
-		tip = "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
+		tip = "META 연구실은 대형 작전의 비콘·애쉬 기능 개방 후 열립니다.(미사용)"
 	},
 	meta_story_lock = {
-		tip = "需要完成前置剧情才能进行资讯同步(未使用)"
+		tip = "이전 스토리를 완료해야 정보 동기화를 진행할 수 있습니다.(미사용)"
 	},
 	meta_acttime_limit = {
-		tip = "限时"
+		tip = "한정"
 	},
 	meta_pt_left = {
-		tip = "剩余$1天"
+		tip = "잔여 $1일"
 	},
 	meta_syn_rate = {
-		tip = "资讯同步率"
+		tip = "정보 동기화율"
 	},
 	meta_repair_rate = {
-		tip = "舰装强化率"
+		tip = "함장 강화율"
 	},
 	meta_story_tip_1 = {
-		tip = "解锁剧情(未使用)"
+		tip = "스토리 해제(미사용)"
 	},
 	meta_story_tip_2 = {
-		tip = "后开放(未使用)"
+		tip = "후 개방(미사용)"
 	},
 	meta_pt_get_way = {
-		tip = "可以通过以下方式获取同步值(未使用)"
+		tip = "아래 방식을 통해 동기화 수치를 얻을 수 있습니다.(미사용)"
 	},
 	meta_pt_point = {
-		tip = "同步值"
+		tip = "동기화 수치"
 	},
 	meta_award_get = {
-		tip = "可领取"
+		tip = "수령 가능"
 	},
 	meta_award_got = {
-		tip = "已领取"
+		tip = "수령함"
 	},
 	meta_repair = {
-		tip = "属性提升:"
+		tip = "속성 증가:"
 	},
 	meta_repair_success = {
-		tip = "舰装强化成功"
+		tip = "함장 강화 성공"
 	},
 	meta_repair_effect_unlock = {
-		tip = "强化率$1%后获得"
+		tip = "강화율 $1% 후 획득"
 	},
 	meta_repair_effect_special = {
-		tip = "强化率达到$1%，获得以下提升"
+		tip = "강화율 $1% 달성 시, 다음 버프 획득"
 	},
 	meta_energy_ship_level_need = {
-		tip = "舰船等级需求: $1/$2"
+		tip = "함선 레벨 요구: $1/$2"
 	},
 	meta_energy_ship_repairrate_need = {
-		tip = "舰船强化率需求: $1/$2"
+		tip = "함선 강화율 요구: $1/$2"
 	},
 	meta_energy_active_box_tip = {
-		tip = "是否对角色进行能量激活？(能量激活将会提升角色星级)"
+		tip = "캐릭터에게 에너지 활성화를 진행하시겠습니까?(에너지 활성화 시 캐릭터 성급 상승)"
 	},
 	meta_break = {
-		tip = "*激活之后将提升角色星级"
+		tip = "*활성화 후 캐릭터 성급 상승"
 	},
 	meta_energy_preview_title = {
-		tip = "最终默认本体属性如下"
+		tip = "최종 본체의 기본 속성은 아래와 같습니다."
 	},
 	meta_energy_preview_tip = {
-		tip = "*不包含好感度及誓约等额外加成"
+		tip = "*호감도 및 서약 등 추가 버프를 포함하지 않습니다."
 	},
 	meta_exp_per_day = {
-		tip = "每日经验"
+		tip = "일일 경험치"
 	},
 	meta_skill_unlock = {
-		tip = "请点击习得技能后进行研修"
+		tip = "스킬 습득을 터치한 후 연수를 진행하세요."
 	},
 	meta_unlock_skill_tip = {
-		tip = "习得$1的技能<color=#92fc63>$2</color>需要消耗以下技能书"
+		tip = "$1의 스킬 <color=#92fc63>$2</color> 습득은 아래의 스킬북을 소모합니다."
 	},
 	meta_unlock_skill_select = {
-		tip = "请先选择一种材料(未使用)"
+		tip = "먼저 한 가지 재료를 선택하세요.(미사용)"
 	},
 	meta_switch_skill_disable = {
-		tip = "当天研修次数已达上限\n次日零时恢复"
+		tip = "금일 연수 횟수가 최대치에 도달했습니다.\n다음날 0시에 회복됩니다."
 	},
 	meta_switch_skill_box_title = {
-		tip = "是否开始技能$1的研修？\n"
+		tip = "스킬 $1의 연수를 시작하시겠습니까?\n"
 	},
 	meta_cur_pt = {
-		tip = "当前同步值"
+		tip = "현재 동기화 수치"
 	},
 	meta_toast_fullexp = {
-		tip = "已达本日研修上限"
+		tip = "금일 연수 최대치 도달"
 	},
 	meta_toast_tactics = {
-		tip = "研修EXP"
+		tip = "연수 EXP"
 	},
 	meta_skillbtn_tactics = {
-		tip = "研 修"
+		tip = "연 수"
 	},
 	meta_destroy_tip = {
-		tip = "META角色不能被退役"
+		tip = "META 캐릭터는 퇴역시킬 수 없습니다."
 	},
 	meta_voice_name_feeling1 = {
-		tip = "未知"
+		tip = "미지"
 	},
 	meta_voice_name_feeling2 = {
-		tip = "调率"
+		tip = "낯섦"
 	},
 	meta_voice_name_feeling3 = {
-		tip = "理解"
+		tip = "이해"
 	},
 	meta_voice_name_feeling4 = {
-		tip = "同步"
+		tip = "동기화"
 	},
 	meta_voice_name_feeling5 = {
-		tip = "共鸣"
+		tip = "공감"
 	},
 	meta_voice_name_propose = {
-		tip = "誓约"
+		tip = "서약"
 	},
 	world_boss_ad = {
 		tip = "[$1]TIER.$2"
 	},
 	world_boss_drop_title = {
-		tip = "信标收集(未使用)"
+		tip = "비콘 수집(미사용)"
 	},
 	world_boss_pt_recove_desc = {
-		tip = "每天0点回复$1点挑战次数"
+		tip = "매일 0시마다 $1 도전 횟수 회복"
 	},
 	world_boss_progress_item_desc = {
 		tip = [[
-用于记录在大型作战中收集到的<color=#92fc63>「余烬信标数据」</color>的装置，达到指定数据量后可据此数据进行解析，发现余烬信标
-P.S.记录仪的记录容量有限，请务必及时前往解析
-今日解析次数:$1/$2
-数据记录量：$3]]
+대형 작전에서 수집한 <color=#92fc63>「애쉬 비콘 데이터」</color>를 기록하는 장치. 지정 데이터량 달성 후 데이터에 따라 분석하여 애쉬 비콘을 발견할 수 있다.
+P.S.기록기의 내용량은 상한이 있으니, 반드시 제때 분석하세요.
+금일 분석 횟수: $1/$2
+데이터 기록량: $3]]
 	},
 	world_joint_max_challenge_people_cnt = {
-		tip = "挑战人数已满，无法呼叫支援！"
+		tip = "도전 인원 수 최대치, 지원 호출 불가!"
 	},
 	equip_ammo_type_1 = {
 		tip = "철갑탄"
@@ -13030,134 +13049,144 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "없음"
 	},
 	common_daily_limit = {
-		tip = "每日上限(未使用)"
+		tip = "일일 최대치(미사용)"
 	},
 	meta_help = {
 		tip = {
 			{
-				info = "META研究室说明："
+				info = "META 연구실 설명:"
 			},
 			{
 				info = [[
-·META研究室是进行META角色获取、养成的专用系统
-·META角色拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研修」</color>、
-<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块
-·重复获取的META角色将会自动转换为1个对应的角色
-结晶，可用于在<color=#92fc63>「能量激活」</color>中使用。
+·META 연구실은 META 캐릭터 획득, 육성을 진행하는 전용 
+시스템입니다.
+·META 캐릭터는 <color=#92fc63>「에너지 활성화」</color>, <color=#92fc63>「전술 연수」</color>、
+<color=#92fc63>「함장 강화」</color>, <color=#92fc63>「정보 동기화」</color> 4개의 시스템 모듈을 
+보유하고 있습니다.
+·중복으로 획득한 META 캐릭터는 대응되는 캐릭터 
+1명으로 자동 전환됩니다.
+결정은 <color=#92fc63>「에너지 활성화」</color>에서 사용할 수 있습니다.
 ]]
 			},
 			{
 				info = [[
-1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2020.12.22-2021.3.18</color>期间限时开放「龙·META」的
-「资讯同步」，通过「信标·烬」战斗获取其同步值，
-达到一定同步值可以获取<color=#92fc63>「龙·META」角色</color>
-·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块
-在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「龙·META」的「资讯同步」将于时间结束后暂
-时关闭,已累计的同步值也会消失。</color>
+1. <color=#92fc63>정보 동기화</color>
+·<color=#92fc63>2021.1.21-2021.4.15</color>까지 「히류·META」의 「정보 동기
+화」가한정 개방됩니다. 「비콘·애쉬」 전투를 통해 동기화 
+수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「히류·META」 캐
+릭터</color>를 획득할 수 있습니다.
+·META 캐릭터 획득 후 캐릭터의 <color=#92fc63>「정보 동기화」</color> 모듈을 통
+해<color=#92fc63>기재된 시간</color> 동안 계속해서 육성 재료를 포함한 풍성한 보
+상을 획득할 수 있습니다.
+·주의:<color=#ff5c5c>「히류·META」의 「정보 동기화」는 기간 종료 후 
+잠시폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
 
-2.<color=#92fc63>能量激活</color>
-·META角色达到指定等级后可以使用对应的角色结晶进行
-激活。激活后可以提升角色星级
-·角色结晶可以通过「资讯同步」奖励获取
+2. <color=#92fc63>에너지 활성화</color>
+·META 캐릭터가 지정된 레벨에 도달하면 해당되는 캐릭터 
+결정을 사용해 활성화를 진행할 수 있습니다. 활성화 후 캐릭
+터의 성급이 상승합니다.
+·캐릭터 결정은 「정보 동기화」 보상을 통해 획득할 수 
+있습니다.
 ]]
 			},
 			{
 				info = [[
-3.<color=#92fc63>战术研修</color>
-·完成战术研修任务获得META角色的技能升级经验，部
-分任务可以重复完成
-·一名角色只能同时进行一项技能的战术研修任务，多名
-角色之间彼此独立，同时进行
-·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前
-<color=#92fc63>60%</color>的技能升级经验拥有双倍任务完成效率
-（剩余次数不满2次时不生效）
-·任务类型和可完成次数会随着技能等级升级而刷新
+3. <color=#92fc63>전술 연수</color>
+·전술 연수 임무를 완성하여 META 캐릭터의 스킬 레벨업 경
+험치를 획득할 수 있고, 일부 임무는 중복으로 완성할 수 있습
+니다.
+·1명의 캐릭터는 동시에 1가지 스킬의 전술 연수 임무만 진
+행할 수 있으며, 각 캐릭터간은 서로 독립되므로, 동시에 진행
+할 수 있습니다.
+·1명의 캐릭터는 매일 최대 <color=#92fc63>30000</color> 스킬 레벨업 경험치를 획득할 수 있고, 그중 먼저 획
+득하는<color=#92fc63>60%</color>는 2배의 임무 완성 효
+율을 가집니다.(잔여 횟수가 2회 미만일 시, 적용 안됨)
+·임무 유형과 완성 가능 횟수는 스킬 레벨에 따라 상승하고 
+갱신됩니다.
 ]]
 			},
 			{
 				info = [[
-4.<color=#92fc63>舰装强化</color>
-·META角色可以通过消耗舰装强化材料对「炮击」「雷
-击」「航空」「装填」4个属性中的若干个进行强化
-·强化会提升相应属性值，当强化进度达到一定数值后还
-可获得额外属性提升。
-·舰装强化材料可通过「资讯同步」奖励及大型作战内
-港口商店购买获取]]
+4. <color=#92fc63>함장 강화</color>
+·META 캐릭터는 함장 강화 재료 소모를 통해 「화력」, 「뇌
+장」, 「항공」, 「장전」 4개 속성을 강화시킬 수 있습니다.
+·강화는 해당 속성을 상승시키며 강화 진도가 일정 수치에 도
+달할 시 추가스탯 상승을 획득합니다.
+·함장 강화 재료는 「정보 동기화」 보상 및 대형 작전 내
+항구 상점에서 구매하여 획득할 수 있습니다.]]
 			}
 		}
 	},
 	world_boss_daily_limit = {
-		tip = "已达每日上限"
+		tip = "일일 최대치 초과"
 	},
 	common_go_to_analyze = {
-		tip = "前往解析"
+		tip = "분석하기"
 	},
 	world_boss_not_reach_target = {
-		tip = "未达到指定数据量"
+		tip = "지정 데이터량 미달성"
 	},
 	special_transform_limit_reach = {
 		tip = "해당 개조 아이템 또는 개조 후 함선을 이미 보유 중입니다. 교환 불가."
 	},
 	meta_pt_notenough = {
-		tip = "当前同步值不足，请前往<color=#92fc63>大型作战</color>中的信标·烬作战获取"
+		tip = "동기화 수치가 부족합니다. <color=#92fc63>대형 작전</color>의 비콘·애쉬 작전으로 이동하여 획득하세요."
 	},
 	meta_boss_unlock = {
-		tip = "通过<color=#92fc63>大型作战</color>第一章，解锁信标·烬功能后开启角色获取！"
+		tip = "<color=#92fc63>대형 작전</color> 제1장에서 비콘·애쉬 기능 해제 후 캐릭터 획득 오픈!"
 	},
 	word_take_effect = {
 		tip = "적용"
 	},
 	world_boss_challenge_cnt = {
-		tip = "挑战人数"
+		tip = "도전 인원 수"
 	},
 	word_shipNation_meta = {
 		tip = "???"
 	},
 	world_word_friend = {
-		tip = "战友"
+		tip = "전우"
 	},
 	world_word_world = {
-		tip = "世界"
+		tip = "월드"
 	},
 	world_word_guild = {
 		tip = "대함대"
 	},
 	world_collection_1 = {
-		tip = "收集进度"
+		tip = "수집 진도"
 	},
 	world_collection_2 = {
-		tip = "进度"
+		tip = "진도"
 	},
 	world_collection_3 = {
-		tip = "收集率"
+		tip = "수집률"
 	},
 	zero_hour_command_error = {
-		tip = "零点数据更新错误"
+		tip = "0시 데이터 갱신 오류"
 	},
 	commander_is_in_bigworld = {
-		tip = "该指挥喵在大型作战中"
+		tip = "해당 지휘냥 대형 작전 중"
 	},
 	world_collection_back = {
-		tip = "点击空白处返回"
+		tip = "빈 곳을 터치하여 돌아가기"
 	},
 	world_fleet_stop = {
-		tip = "舰队移动正在停止"
+		tip = "함대 이동 정지 중"
 	},
 	world_setting_title = {
-		tip = "大型作战设置"
+		tip = "대형 작전 설정"
 	},
 	world_setting_quickmode = {
-		tip = "减少TB引导"
+		tip = "TB 가이드 감소"
 	},
 	world_setting_quickmodetip = {
-		tip = "功能开启后，不再播放重复的TB引导说明"
+		tip = "기능 오픈 후, TB 가이드 설명을 중복 재생하지 않습니다."
 	},
 	world_boss_maintenance = {
-		tip = "服务器即将维护,无法进行信标·烬作战"
+		tip = "곧 서버 점검이 시작되어, 애쉬·비콘 작전을 진행할 수 없습니다."
 	},
-	commander_is_in_guild = {
-		tip = "해당 지휘냥이 대함대 편대 중에 있습니다."
+	world_boss_inbattle = {
+		tip = "현재 비콘·애쉬 작전 중. 이동 불가."
 	}
 }

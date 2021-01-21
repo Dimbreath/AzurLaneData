@@ -165,18 +165,7 @@ function slot0.didEnter(slot0)
 		end)
 	end)
 	onButton(slot0, slot0.startBtn, function ()
-		if uv1:GetLimitDamageLevel() < uv0:getCurrentFleet().damageLevel then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideYes = true,
-				content = i18n("world_low_morale")
-			})
-
-			return
-		end
-
-		seriesAsync({}, function ()
-			uv0:emit(WorldPreCombatMediator.OnStartBattle, uv1:GetBattleStageId())
-		end)
+		uv0:emit(WorldPreCombatMediator.OnStartBattle, uv1:GetBattleStageId(), uv0:getCurrentFleet(), uv1)
 	end, SFX_UI_WEIGHANCHOR)
 end
 

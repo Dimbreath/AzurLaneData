@@ -12,7 +12,7 @@ return {
 			bgm = "level02",
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "STOP！指挥官，到这里为止就不能继续前进了！",
+			say = "스톱! 지휘관, 이 이상 가게 둘 수는 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,11 +23,11 @@ return {
 			},
 			options = {
 				{
-					content = "「......大黄蜂？」",
+					content = "「...호넷?」",
 					flag = 1
 				},
 				{
-					content = "「没想到这么快就遇到敌人了...」",
+					content = "「이렇게 빨리 적을 만나게 될 줄이야...」",
 					flag = 2
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			optionFlag = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "嘿嘿，好久不见了指挥官~",
+			say = "하하, 오랜만이야 지휘관~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "全舰队准备————",
+			say = "전 함대 준비————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			optionFlag = 2,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊啊！等、等一下！突然和你开玩笑是我不对，我是真正的大黄蜂啦！",
+			say = "우와아아아! 잠, 잠깐만! 장난쳐서 미안해! 진짜 호넷이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "是这样的，因为海域中心的异常区域影响，整片NA海域的海况都发生了不少变化。",
+			say = "그러니까, 해역 중심에 있는 이상 구역의 영향으로 NA 해역 전체에 많은 변화가 생겼어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "为了安全起见，指挥部为每支参与作战的舰队都准备了一场特别演习，以帮助大家更好的进入战役状态。",
+			say = "보안상의 이유로 작전에 참여하는 각 함대의 원활한 전투를 위해서 모두 특별 연기를 하라는 지휘부의 명령이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "虽然我觉得指挥官肯定没问题啦，不过命令就是命令，首先来找到我的位置吧！",
+			say = "지휘관이라면 문제없다고 생각하지만, 명령은 명령이니까! 일단 내 위치를 찾아줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "演习指令已确认：请寻找海域中大黄蜂的位置。",
+			say = "훈련 명령 확인. 해역에 있는 호넷의 위치를 확인하세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

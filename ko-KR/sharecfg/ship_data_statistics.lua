@@ -245132,6 +245132,506 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[9707011] = {
+		oxy_max = 0,
+		type = 7,
+		name = "히류·META",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9707011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Hiryu.META",
+		oxy_cost = 0,
+		skin_id = 9707010,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			946,
+			0,
+			0,
+			59,
+			80,
+			49,
+			0,
+			23,
+			11,
+			34,
+			36,
+			0
+		},
+		attrs_growth = {
+			13752,
+			0,
+			0,
+			570,
+			788,
+			243,
+			0,
+			298,
+			143,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiryuMETA",
+			"Hiryu"
+		}
+	},
+	[9707012] = {
+		oxy_max = 0,
+		type = 7,
+		name = "히류·META",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9707012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Hiryu.META",
+		oxy_cost = 0,
+		skin_id = 9707010,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1177,
+			0,
+			0,
+			73,
+			100,
+			49,
+			0,
+			23,
+			11,
+			34,
+			36,
+			0
+		},
+		attrs_growth = {
+			13752,
+			0,
+			0,
+			570,
+			788,
+			243,
+			0,
+			298,
+			143,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiryuMETA",
+			"Hiryu"
+		}
+	},
+	[9707013] = {
+		oxy_max = 0,
+		type = 7,
+		name = "히류·META",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9707013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Hiryu.META",
+		oxy_cost = 0,
+		skin_id = 9707010,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1638,
+			0,
+			0,
+			102,
+			139,
+			49,
+			0,
+			23,
+			11,
+			34,
+			36,
+			0
+		},
+		attrs_growth = {
+			13752,
+			0,
+			0,
+			570,
+			788,
+			243,
+			0,
+			298,
+			143,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiryuMETA",
+			"Hiryu"
+		}
+	},
+	[9707014] = {
+		oxy_max = 0,
+		type = 7,
+		name = "히류·META",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9707014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Hiryu.META",
+		oxy_cost = 0,
+		skin_id = 9707010,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2331,
+			0,
+			0,
+			145,
+			198,
+			49,
+			0,
+			23,
+			11,
+			34,
+			36,
+			0
+		},
+		attrs_growth = {
+			13752,
+			0,
+			0,
+			570,
+			788,
+			243,
+			0,
+			298,
+			143,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			24322,
+			0,
+			0,
+			1181,
+			1467,
+			855,
+			0,
+			154,
+			837,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiryuMETA",
+			"Hiryu"
+		}
+	},
 	[10100011] = {
 		oxy_max = 0,
 		type = 2,
@@ -271869,6 +272369,10 @@ pg.ship_data_statistics = {
 		900915,
 		900916,
 		900917,
+		9707011,
+		9707012,
+		9707013,
+		9707014,
 		10100011,
 		10100012,
 		10100013,

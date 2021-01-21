@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "...........威尔士，好像有人在盯着我们。",
+			say = "......웨일즈, 누군가 지켜보고 있는 것 같아요.",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我也有这种感觉。",
+			say = "응, 나도 느꼈어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "哎？！雷达上除了我们之外没有看到其他人哦。",
+			say = "에?! 레이더에는 우리 말고 아무도 없는데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "那是因为，她们从雷达上是看不到的————在那个方向么！",
+			say = "그건 아마도... 레이더에서 보이지 않는———— 이쪽에 있으니까요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可畏，不要刺激她们！我们这次是来执行救援任务的，没有准备同余烬战斗的力量，一旦打起来我们会很被动！",
+			say = "포미더블, 자극하지 마! 우리는 구조 임무를 수행하러 온 거야. 지금으로서는 잔해와 맞설 수 없어. 싸우게 된다면 우리가 불리해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "我知道啦，只是想去一看她的真面目嘛...不过对面的反应很快，侦察机扑了个空。",
+			say = "알겠어요. 그저 진면목을 보고 싶었을 뿐이에요... 하지만 반응이 빠르네요. 정찰기가 허탕을 쳤어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "不过........嗯？等等，我发现了疑似白鹰舰队的遇难信号！",
+			say = "그래도...... 음? 잠시만요, 이글 유니온 함대의 구조 신호를 찾은 것 같아요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205060,
-			say = "居然真的有白鹰舰队在这里......太好了，从攻击中幸存了么。",
+			say = "정말로 이글 유니온의 함대가 있었던 건가... 다행이다, 공격에서 살아남았구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

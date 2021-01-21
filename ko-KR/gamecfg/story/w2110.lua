@@ -10,14 +10,14 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "结果确认中：指挥官，设备启动完毕，我已经取得了整片海域的详细情报。",
+			say = "결과 확인 중: 지휘관님, 설비가 가동되었습니다. 모든 해역의 상세 정보를 획득했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "很好",
+					content = "좋아.",
 					flag = 1
 				}
 			}

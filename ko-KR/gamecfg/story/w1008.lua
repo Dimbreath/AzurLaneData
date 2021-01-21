@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "设备运行中…………",
+			say = "설비 운행 중.........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "警告：发现了一支塞壬隐藏舰队。",
+			say = "경고: 숨어 있는 세이렌 함대 발견.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			},
 			options = {
 				{
-					content = "准备战斗",
+					content = "전투 준비",
 					flag = 0
 				}
 			}

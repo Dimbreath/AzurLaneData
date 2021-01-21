@@ -21,7 +21,7 @@ return {
 				"clickMemo"
 			},
 			style = {
-				text = "这边可以查看战斗日志哟~",
+				text = "이곳에서 전투 일지 확인 가능~",
 				mode = 2,
 				dir = 1,
 				posY = 115.27,
@@ -77,7 +77,7 @@ return {
 			delay = 2,
 			alpha = 0,
 			style = {
-				text = "点击模糊区域退出",
+				text = "흐릿한 부분을 터치하여 퇴장",
 				mode = 2,
 				dir = -1,
 				posY = 191.87,

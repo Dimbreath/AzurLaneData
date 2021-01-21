@@ -79,13 +79,13 @@ function slot0.SwitchPage(slot0)
 end
 
 function slot0.UpdateReportBtn(slot0)
-	slot2 = #_.select(_.values(slot0.reports), function (slot0)
+	slot3 = #_.select(_.values(slot0.reports), function (slot0)
 		return slot0:CanSubmit()
-	end) > 0
+	end) > 0 and not slot0.guildVO:getMemberById(slot0.player.id):IsRecruit()
 
-	setActive(slot0.reportTip, slot2)
+	setActive(slot0.reportTip, slot3)
 
-	if slot2 then
+	if slot3 then
 		slot0.reportTipTxt.text = #slot1
 	end
 end
@@ -334,28 +334,39 @@ function slot0.InitTree(slot0)
 		0,
 		0
 	}
+	slot2 = nil
 
-	for slot5, slot6 in ipairs(slot0.nodes) do
-		slot6:Init()
+	for slot6, slot7 in ipairs(slot0.nodes) do
+		slot7:Init()
 
-		slot7 = slot6._tf.anchoredPosition
-		slot9 = math.abs(slot7.y)
+		slot8 = slot7._tf.anchoredPosition
+		slot10 = math.abs(slot8.y)
 
-		if slot1[1] < math.abs(slot7.x) then
-			slot1[1] = slot8 + slot6._tf.sizeDelta.x
+		if slot1[1] < math.abs(slot8.x) then
+			slot1[1] = slot9 + slot7._tf.sizeDelta.x
 		end
 
-		if slot1[2] < slot9 then
-			slot1[2] = slot9 + slot6._tf.sizeDelta.y / 2
+		if slot1[2] < slot10 then
+			slot1[2] = slot10 + slot7._tf.sizeDelta.y / 2
+		end
+
+		if slot7:IsMain() and slot7:IsUnLock() then
+			slot2 = slot7
 		end
 	end
 
-	for slot5, slot6 in ipairs(slot0.nodes) do
-		slot0:CreateLinkLine(slot6)
-		slot6:UpdateLineStyle()
+	for slot6, slot7 in ipairs(slot0.nodes) do
+		slot0:CreateLinkLine(slot7)
+		slot7:UpdateLineStyle()
 	end
 
 	slot0:SetScrollRect(slot1)
+
+	if slot2 then
+		setAnchoredPosition(slot0.pathContains, {
+			x = math.max(-slot2._tf.localPosition.x, -slot0.pathContains.rect.width * 0.5)
+		})
+	end
 end
 
 function slot0.CreateLinkLine(slot0, slot1)

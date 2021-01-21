@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "使用筛选功能可以查看所有可以进行研发的装备。",
+			say = "필터 기능을 통해서 연구할 수 있는 모든 장비를 확인할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "集齐所需素材后，也可以在此功能模块内直接进行装备研发。",
+			say = "모든 재료를 모은 뒤 해당 기능 모듈에서 장비 연구를 진행할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

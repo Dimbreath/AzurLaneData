@@ -12,8 +12,8 @@ function slot5.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6, slot7, slot8 = nil
 	slot9 = 0
 
-	return uv0.super.createMajorEmitter(slot0, slot1, slot2, slot3, uv2.GetBulletTmpDataFromID(slot0._bulletList[slot2]).extra_param.aim_time and slot12 > 0 and function (slot0, slot1, slot2, slot3, slot4)
-		slot6 = uv0:Spawn(uv0._bulletList[uv1], slot4, uv2.INTERNAL)
+	return uv0.super.createMajorEmitter(slot0, slot1, slot2, slot3, uv2.GetBulletTmpDataFromID(slot0._emitBulletIDList[slot2]).extra_param.aim_time and slot12 > 0 and function (slot0, slot1, slot2, slot3, slot4)
+		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4, uv2.INTERNAL)
 		uv3 = uv3 + 1
 
 		slot6:setTrackingTarget(uv0._tmpData.aim_type == uv4.WeaponAimType.AIM and slot4 or nil)
@@ -41,7 +41,7 @@ function slot5.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		return slot6
 	end or function (slot0, slot1, slot2, slot3, slot4)
-		slot6 = uv0:Spawn(uv0._bulletList[uv1], slot4, uv2.INTERNAL)
+		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4, uv2.INTERNAL)
 		uv3 = uv3 + 1
 		slot4 = uv0._tmpData.aim_type == uv4.WeaponAimType.AIM and slot4 or nil
 

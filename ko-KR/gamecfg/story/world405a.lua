@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "感谢各位的搭救.....这片海雾中绝对存在有某种致幻成分，才会让误入其中的我们全都陷入幻觉中。",
+			say = "구해줘서 고마워... 이 안개에는 환각을 보여주는 성분이 있는 것 같아. 그래서 우리 모두가 환각에 빠져버렸어.",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于为什么对于{namecode:22}和你们都没有生效，也许只是因为{namecode:22}运气好尽快离开了海雾，而在你们驶入的时候海雾的浓度又有所减弱吧......",
+			say = "유키카제와 너희에게는 왜 효과가 없었을까. 어쩌면 유키카제는 운이 좋아서 빨리 탈출했고, 너희가 들어왔을 때는 안개가 약해졌던 것일지도 모르지...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析仪应该还能用...我立刻开始分析海雾的成分......",
+			say = "분석기는 아직 쓸 수 있으니까... 당장 분석해볼게...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不用着急！你才刚从幻觉中回复过来，先稍微休息一下吧。",
+			say = "아, 서두르지 마! 일단 환각에서 깨어난지 얼마 안 됐으니까 푹 쉬도록 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家注意~前方海域发现了{namecode:39}，{namecode:22}大人这去叫醒她！",
+			say = "자자~ 앞쪽에 진츠가 보여. 이 유키카제님이 깨우러 갈게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意安全，陷入幻觉的{namecode:39}可能会和{namecode:92}前辈一样突然对你发动攻击。",
+			say = "조심해. 환각에 빠진 진츠는 카가 선배처럼 공격할 수도 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~放心交给{namecode:22}大人吧！",
+			say = "흐흥, 이 유키카제님에게 맡겨줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			actor = 302130,
 			nameColor = "#a9f548",
-			say = "..........{namecode:81}她现在还..........现在时机还不成熟......",
+			say = "......토사가 아직..... 지금은 때가 아니에요......",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，我无法这么做.......！",
+			say = "아냐, 이래서는 안 되는데...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是您这么说也........",
+			say = "하지만 그렇게 말씀하신다면...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".......果然{namecode:39}也陷入奇怪的状态了。",
+			say = "...진츠도 역시 이상해졌네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在贸然靠过去可能会被{namecode:39}攻击......不如我来主动进攻过去！",
+			say = "지금 다가가면 진츠에게 공격받을 수도 있으니까... 내가 먼저 공격하자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行不行...！万一误伤了{namecode:39}怎么办.......",
+			say = "안돼, 안돼... 혹시 다치기라도 하면...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...要不然就打歪一点，用声音提醒一下{namecode:39}？不过这样的话不如直接用广播喊话......",
+			say = "음... 아니면 조금 진정하고 소리를 질러서 깨워볼까? 하지만 그럴 바에는 차라리 방송으로 소리를 지르는 게...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "信号弹好像也不错....啊不行，使用信号弹不就等于告诉塞壬{namecode:22}大人就在这里么......",
+			say = "신호탄도 나쁘지 않겠어... 아냐, 신호탄을 쏘면 세이렌에게 유키카제님이 여기에 있다고 광고를 하는 꼴이잖아...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔唔...决定了！就用广播喊话好了！",
+			say = "으으음... 결정했다! 소리를 지르자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...............{namecode:22}，你一个人在这里转圈做什么？",
+			say = "...............유키카제, 여기서 혼자 빙글빙글 뭐 하고 있어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:39}———！你醒了么？！",
+			say = "지지지지지진츠———! 깨어났어?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然刚刚发生的事都是幻觉啊......呜，头好疼.....怎么只有你在这里，其他人呢？",
+			say = "방금 있었던 건 모두 환각이었군요... 윽, 머리야... 왜 혼자 있죠? 다른 사람들은요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在除了{namecode:91}大人，其他同伴都已经和五航战的舰队成功汇合，我们也赶紧回去吧！",
+			say = "아카기를 뺀 나머지 동료들은 오항전과 합류했어. 우리도 돌아가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

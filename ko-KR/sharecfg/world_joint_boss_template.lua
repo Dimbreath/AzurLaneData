@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_joint_boss_template = {
 	{
-		name = "龙·META",
+		name = "히류·META",
 		item_id = 100000,
 		painting = "feilong",
 		boss_level_id = 1,

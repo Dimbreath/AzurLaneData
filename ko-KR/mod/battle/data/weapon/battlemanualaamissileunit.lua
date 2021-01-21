@@ -16,7 +16,7 @@ end
 
 function slot4.createMajorEmitter(slot0, slot1, slot2, slot3)
 	slot6 = uv2.Battle[slot3 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3, slot4)
-		slot6 = uv0:Spawn(uv0._bulletList[uv1], slot4, uv2.INTERNAL)
+		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4, uv2.INTERNAL)
 
 		slot6:SetOffsetPriority(slot3)
 		slot6:SetShiftInfo(slot0, slot1)

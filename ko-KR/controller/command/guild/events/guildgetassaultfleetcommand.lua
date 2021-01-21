@@ -16,10 +16,25 @@ function slot0.execute(slot0, slot1)
 	}, 61012, function (slot0)
 		if slot0.result == 0 then
 			slot1 = uv0:getData()
+			slot2 = {}
 
-			for slot5, slot6 in ipairs(slot0.ships) do
-				if slot1:getMemberById(slot6.user_id) then
-					slot8:UpdateAssaultFleet(GuildAssaultFleet.New(slot6))
+			for slot6, slot7 in ipairs(slot0.recommends or {}) do
+				if not slot2[slot7.user_id] then
+					slot2[slot7.user_id] = {}
+				end
+
+				table.insert(slot2[slot7.user_id], slot7.ship_id)
+			end
+
+			for slot6, slot7 in ipairs(slot0.ships) do
+				if slot1:getMemberById(slot7.user_id) then
+					slot10 = GuildAssaultFleet.New(slot7)
+
+					if slot2[slot9.id] then
+						slot10:SetRecommendList(slot11)
+					end
+
+					slot9:UpdateAssaultFleet(slot10)
 				end
 			end
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_story_newyork",
 			dir = 1,
-			say = "NY港·近海 舰队集结地",
+			say = "NY항·근해 함대 집결지",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			bgm = "level03",
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "诸位，感谢你们响应指挥部的号召从各地远道而来。",
+			say = "여러분, 지휘부의 소집에 응해 먼 길을 와 주셔서 감사합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "自从塞壬出现后，我们已经很久没有享受过这么舒爽的海风，我们的舰队也很久没有这样自由地驰骋在这片大海上了。",
+			say = "세이렌이 출몰한 이후, 우리는 오랫동안 상쾌한 바닷바람을 쐬지 못했고, 우리의 함대 역시 바다를 자유롭게 누비지 못했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "我们的战斗有过黑暗的时刻，我们失去了海洋，失去了至亲，失去了几乎所有的一切......",
+			say = "우리는 바다를 잃고, 친구를 잃고, 우리의 모든 것을 잃은 어둠의 시간 속에서 싸워왔습니다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "但是，多亏先烈们在至暗之时没有放弃希望，在至暗之时没有停止抵抗————",
+			say = "하지만, 우리의 선조들은 그런 시간 속에서도 희망을 잃지 않고 저항을 멈추지 않기에————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "我们才得以迎来今天这反击的时刻！",
+			say = "오늘과 같은 반격의 시기를 맞이할 수 있게 되었습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "现在，我们最强大的舰队集结于这片海面之上，而这支强大的舰队只有一个目标————",
+			say = "우리의 가장 강력한 함대가 이 해역에 모인 것은 단 한 가지 목표를 위함입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "夺回这片，属于我们的大海！",
+			say = "바로 우리의 바다를 되찾는 것!",
 			effects = {
 				{
 					active = true,
@@ -163,7 +163,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们已经沉寂太久，忍耐太久了————今天，就是我们对塞壬清算的开始！",
+			say = "우리는 오래 인내하고, 오래 기다렸습니다———— 이제 세이렌에게 복수를 할 때입니다!",
 			effects = {
 				{
 					active = false,
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "战斗吧！不论前路多么漫长、多么艰苦，我们都要取得胜利。唯有胜利，才能让我们赢得继续生存下去的权利！",
+			say = "싸웁시다! 앞길이 얼마나 멀고 험하더라도, 우리는 승리할 것입니다. 승리해야만 우리가 계속 살아나갈 권리를 얻을 수 있을 것입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "我知道诸位对于赤色中轴的看法，也知道我们与赤色中轴的恩怨。",
+			say = "여러분이 적색증축에 대해 가지고 있는 생각과, 그들과의 은원에 대해서도 잘 알고 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "但归根结底，塞壬才是我们真正的敌人。请诸位一定要避免无谓的冲突，严格按照作战计划执行。",
+			say = "하지만 우리의 진정한 적은 세이렌입니다. 쓸데없는 충돌은 피하고, 작전 계획을 엄수해 주십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "我谨代表碧蓝航线指挥部宣布，本次NA海域战役正式开始！",
+			say = "벽람항로 지휘부를 대표해서, 이번 NA 해역 작전의 시작을 선포합니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "祝诸位攻无不克，凯旋而归！",
+			say = "모두, 적에게 용감히 맞서 승리하고 돌아오십시오!",
 			effects = {
 				{
 					active = true,
@@ -288,7 +288,7 @@ return {
 			bgm = "story-richang",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "真是精彩的演说啊，胡德。我也感觉热血沸腾了...",
+			say = "정말 훌륭한 연설이었다, 후드. 나도 피가 끓어오르는군...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -322,7 +322,7 @@ return {
 			},
 			options = {
 				{
-					content = "赞同企业的看法",
+					content = "엔터프라이즈의 생각에 동의한다.",
 					flag = 1
 				}
 			}
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "呵呵，你们都过奖了。指挥官，本次作战中指挥部新引入的辅助AI用的还习惯么？",
+			say = "후후, 과찬이십니다. 지휘관님, 이번 작전에서 새로 투입된 AI 부관에는 익숙해지셨나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
-			say = "是指那个名字叫领航员-TB的联络官么————",
+			say = "네비게이터-TB라고 하는 연락책 얘기인가————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,11 +359,11 @@ return {
 			},
 			options = {
 				{
-					content = "「看起来有种熟悉的感觉」",
+					content = "「익숙한 느낌이 들어.」",
 					flag = 1
 				},
 				{
-					content = "「稍微有些不太习惯」",
+					content = "「아직 좀 어색해.」",
 					flag = 2
 				}
 			}
@@ -375,7 +375,7 @@ return {
 			optionFlag = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "毕竟TB造型设计上是可爱的女孩子嘛，指挥官有种熟悉的感觉也是正常的~",
+			say = "TB형도 귀여운 여자아이로 설계되었으니까, 지휘관이 익숙하게 느끼는 것도 이상하지 않지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			optionFlag = 2,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "果然会这样么...毕竟是一个全新的作战系统。指挥部也是考虑到这一点才将系统的虚拟形象设计成亲和力比较强的少女吧。",
+			say = "역시 그런가요... 확실히 새로운 시스템이니까요. 지휘부 역시 이런 점을 고려해서 시스템의 버추얼 이미지를 친화력이 강한 소녀로 설정했을 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			voice = "event:/tb/6/tb-6",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "本次作战中我将作为副官协助您更好的进行作战，请多关照。",
+			say = "부관으로서 원만한 작전 수행을 위해 최선을 다하겠습니다. 잘 부탁드립니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			},
 			options = {
 				{
-					content = "「请多关照」",
+					content = "「잘 부탁해.」",
 					flag = 1
 				}
 			}
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
-			say = "（AI，也就是机械编程设计出来的辅助程序么......不过这个形象和声音，果然还是很难单纯当成机械对待啊...）",
+			say = "(AI라... 기계로 만들어진 보조 프로그램이라니... 하지만 이런 이미지와 목소리라면 평범한 기계로 대하기는 힘들지.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作战计划和海域地图等众多情报已经记录在领航员小姐那里了，如果作战中有什么不清楚的地方，不用害羞，尽管向她提问吧~",
+			say = "작전 계획과 해역 지도와 같은 정보는 이미 네비게이터가 알고 있을 거야. 작전 중에 궁금한 점이 있으면 물어보도록 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "领航员小姐也会作为前线舰队和司令部之间的中转和联络官。这次我们加强了通讯系统，塞壬肯定没法像以前那样轻易干扰我们了！.........大概。",
+			say = "네비게이터도 전선과 사령부 사이의 연락책을 맡고 있으니까 통신 시스템이 강화된 셈이지. 그렇다면 세이렌도 예전처럼 쉽게 간섭할 수는 없을 거야! ......아마도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以要和领航员小姐好好相处哦~",
+			say = "그러니까 네비게이터랑 잘 지내~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			blackBg = true,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "那么指挥官，企业，胡德，我也要先返回司令部了，希望我们所有人的作战都能顺利进行！",
+			say = "그럼 지휘관, 엔터프라이즈, 후드! 나도 사령부로 돌아갈게. 순조로운 작전이 되기를!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

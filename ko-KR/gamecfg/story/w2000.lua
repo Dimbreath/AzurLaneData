@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "迅速封锁塞壬通道！压制不稳定海域！",
+			say = "신속히 세이렌 통로를 봉쇄하고 불안정한 해역을 확보하세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

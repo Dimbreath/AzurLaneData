@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "这是……塞壬在海域中设下的报警装置？",
+			say = "이건...... 세이렌이 해역에 설계한 경보 장치?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

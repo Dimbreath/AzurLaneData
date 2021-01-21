@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在海域里发现了塞壬的痕迹......",
+			say = "해역에서 세이렌의 흔적 발견...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

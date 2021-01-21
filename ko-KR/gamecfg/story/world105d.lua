@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "嗯？这些塞壬的残骸...这片区域除了我们之外还有其他舰队么？",
+			say = "응? 세이렌의 잔해다... 이 해역에 우리 말고 다른 함대도 있나?",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			voice = "event:/tb/49/tb-49",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "资料查询中：没有发现其他舰队在这片区域的作战记录，也没有发现其他舰队前来作战的规划。",
+			say = "자료 검색 중. 현재 해역에서 다른 함대가 작전을 수행한 기록은 없으며, 계획도 찾을 수 없습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "大家快看雷达，我发现了一些有趣的事哦。",
+			say = "레이더 좀 봐줘! 재밌는 걸 발견했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "雷达上密密麻麻的小点，代表着附近海域的敌方分布情况。然后每次刷新，小点的数量都会突然减少一些。",
+			say = "레이더에 점이 빽빽하게 찍혀 있었다. 인근 해역에 있는 적의 분포 상황이었다. 하지만 갱신할 때마다 그 점이 점차 줄어들고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方的塞壬舰队在，消失......?",
+			say = "세이렌 함대가, 사라지고 있어요...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "........难道真的是，「她们」。",
+			say = "......혹시 정말로 「그들」인가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我去前方侦查一下！",
+			say = "지휘관, 내가 직접 가보겠다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等、「她们」是谁啊？现在情况不明，你自己一个人冲过去太危险了！",
+			say = "잠시만, 「그들」이 누구야? 상황 파악이 되지 않았으니 너 혼자 가는 건 위험해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，企业！",
+			say = "이봐, 엔터프라이즈!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "唔...雷达上侦测不到信号，还能让企业姐这么激动...难道前方和塞壬战斗的是余烬？",
+			say = "음... 레이더에 신호가 잡히지 않아. 엔터프라이즈가 왜 저렇게 흥분한 거지? 설마 저 앞에서 세이렌과 싸우고 있는 게 잔해인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "......舰队调整队形，保持警戒跟随企业前进。但是没有命令，不要主动向余烬开火。",
+			say = "......전 함대, 경계 모드로 엔터프라이즈를 따라간다. 하지만 명령이 없으면 먼저 잔해를 공격하지 말도록 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

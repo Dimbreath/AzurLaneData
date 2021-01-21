@@ -157,11 +157,12 @@ end
 
 function slot0.ClearAttaches(slot0)
 	WPool:ReturnArray(slot0.attaches)
-	table.foreachi(_.map(slot0.attaches, function (slot0)
+
+	for slot5, slot6 in ipairs(_.map(slot0.attaches, function (slot0)
 		return slot0.transform
-	end), function (slot0, slot1)
-		Destroy(slot1)
-	end)
+	end)) do
+		Destroy(slot6)
+	end
 
 	slot0.attaches = {}
 end

@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "当前剧情章节剧情已结束。",
+			say = "현재 스토리 챕터 종료.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在开启下一章节剧情之前，指挥官首先需要在该片区域压制8处通常海域。",
+			say = "다음 챕터 시작 전, 우선 해당 구역에서 8곳의 일반 해역을 확보해야합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

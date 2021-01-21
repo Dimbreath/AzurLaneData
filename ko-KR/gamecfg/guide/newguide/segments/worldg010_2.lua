@@ -7,7 +7,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "点击一片地图外海域，就可以打开世界地图面板，查看对应地图位置",
+				text = "지도 외 해역을 터치하여 월드 맵을 열고 위치 확인 가능",
 				mode = 2,
 				dir = -1,
 				posY = 0,
@@ -63,7 +63,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "点击地图外任意区域，关闭地图",
+				text = "지도 외 부분을 터치하여 지도 닫기",
 				mode = 2,
 				dir = -1,
 				posY = 0,

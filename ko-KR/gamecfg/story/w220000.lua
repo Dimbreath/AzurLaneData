@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "前往港口。",
+			say = "항구로 이동.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

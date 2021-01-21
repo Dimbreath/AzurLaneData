@@ -93,15 +93,15 @@ function slot0.UpdateBattleBtn(slot0)
 	setActive(slot0.battleEvent, slot0.guildVO:GetActiveEvent() ~= nil)
 	setActive(slot0.battleEventTip, false)
 
-	slot3 = #_.select(_.values(getProxy(GuildProxy):GetReports()), function (slot0)
+	slot4 = #_.select(_.values(getProxy(GuildProxy):GetReports()), function (slot0)
 		return slot0:CanSubmit()
-	end) > 0
+	end) > 0 and not slot0.guildVO:getMemberById(slot0.playerVO.id):IsRecruit()
 
-	setActive(slot0.battleReport, slot3)
-	setActive(slot0.battleReportTip, slot3)
+	setActive(slot0.battleReport, slot4)
+	setActive(slot0.battleReportTip, slot4)
 
-	if slot3 then
-		slot0.battleReportCnt.text = #slot2
+	if slot4 then
+		slot0.battleReportCnt.text = #slot3
 	end
 end
 

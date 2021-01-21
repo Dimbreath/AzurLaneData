@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在残骸中找到了一些材料...",
+			say = "잔해 속에서 재료들을 발견했다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

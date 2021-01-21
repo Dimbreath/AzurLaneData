@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "破坏控制器后海雾散去了。海面上似乎有些新发现……",
+			say = "통제기 파괴 후 해무가 사라졌다.해수면 상에서 뭔가 새로 발견된 것 같다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "离开",
+					content = "이탈",
 					flag = 1
 				}
 			}

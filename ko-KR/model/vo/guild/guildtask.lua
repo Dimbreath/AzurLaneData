@@ -2,6 +2,13 @@ slot0 = class("GuildTask", import("..BaseVO"))
 slot0.STATE_EMPTY = 0
 slot0.STATE_ONGOING = 2
 slot0.STATE_FINISHED = 3
+slot0.PRIVATE_TASK_TYPE_EVENT = {
+	400
+}
+slot0.PRIVATE_TASK_TYPE_BATTLE = {
+	20,
+	11
+}
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id or 0
@@ -52,6 +59,10 @@ function slot0.GetPresonTaskId(slot0)
 	return slot0:getConfig("task_id")
 end
 
+function slot0.GetPrivateTaskName(slot0)
+	return pg.task_data_template[slot0:GetPresonTaskId()].desc
+end
+
 function slot0.IsSamePrivateTask(slot0, slot1)
 	return slot1 and slot1.id == slot0:GetPresonTaskId()
 end
@@ -86,6 +97,24 @@ end
 
 function slot0.GetCurrCaptailAward(slot0)
 	return slot0.progress * slot0:getConfig("award_capital_display")
+end
+
+function slot0.PrivateBeFinished(slot0)
+	if uv0.STATE_ONGOING == slot0:getState() then
+		slot3 = getProxy(TaskProxy):getTaskById(slot0:GetPresonTaskId()) or slot2:getFinishTaskById(slot1)
+
+		return slot3 and slot3:isFinish() and not slot3:isReceive()
+	end
+
+	return false
+end
+
+function slot0.SamePrivateTaskType(slot0, slot1)
+	slot3 = pg.task_data_template[slot0:GetPresonTaskId()].sub_type
+
+	return _.any(slot1, function (slot0)
+		return slot0 == uv0
+	end)
 end
 
 return slot0

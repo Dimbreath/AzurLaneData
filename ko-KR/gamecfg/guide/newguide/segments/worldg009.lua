@@ -21,7 +21,7 @@ return {
 				"openCompass"
 			},
 			style = {
-				text = "打开罗经",
+				text = "나침반 열기",
 				mode = 2,
 				dir = 1,
 				posY = 232,

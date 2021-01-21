@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "西南NA海域·前哨站",
+			say = "NA 해역 남서쪽·전초 기지",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊......我之前也只是见过设计图而已，居然真的这么快就建立完成了.....",
+			say = "우와... 설계도를 보기는 했지만, 이렇게 빨리 완성될 줄이야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "哼哼~这处前哨站的建立工作也有我出的一份力哦~不过一切的辛苦都是值得的！",
+			say = "흐흥~ 내가 힘을 좀 썼지~ 수고할 만한 일이었어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "呼哇~！享受啊......",
+			say = "후아~ 너무 좋아...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "萨拉托加......已经完全成为沙发的俘虏了.......",
+			say = "새러토가... 이미 소파에 붙잡혔네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可不只是有休息室而已哦！前哨站里设置有完整的休闲模块，不但有提供各类饮料点心的饮食区，还有设施齐全的休闲娱乐区。",
+			say = "휴게실이잖아! 전초 기지의 휴식 모듈은 각종 음료수와 간식을 제공하는 푸드코트는 물론이고, 레크레이션존도 완벽하다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如这里就恰好摆着一个咖啡机，大家要来杯咖啡么~？",
+			say = "여기에 있는 커피 머신이라던가~ 다들 커피 한 잔 할래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "真是太厉害了........请给我来一杯！",
+			say = "대단해... 한잔 줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题~埃塞克斯不来一杯么？",
+			say = "좋아~ 에식스는 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "那就......也请给我一杯。",
+			say = "그러면... 저도 한 잔 주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "这就对了，休息放松可是很重要的，这一点千万不要向你的企业前辈学习哦~",
+			say = "좋아, 휴식도 중요하다고. 이런 건 절대 너희 엔터프라이즈 선배를 배우면 안 된다?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "除了休闲模块之外，前哨站还设置有动力模块、居住模块、补给模块、维修模块、防御模块以及指挥模块。",
+			say = "휴식 모듈 외에도 동력 모듈, 거주 모듈, 보급 모듈, 수리 모듀르 방어 모듈, 지휘 모듈이 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为采用模块化结构设计，可以很方便的进行运输和组装。",
+			say = "모두 모듈화 구조로 설계됐기 때문에 운송과 조립이 간단하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "如果后续有需求的话也可以对前哨站进行进一步改装，要变成大洋中的半永久据点也不是不可能。",
+			say = "앞으로 필요하다면 조금의 개조를 거쳐서 바다 위의 영구 거점으로 삼는 것도 가능해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "除了厉害之外，我已经找不到其他的形容词了......",
+			say = "대단하다는 말 밖에는 할 수가 없네...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "哼哼哼~被塞壬打压了这么久，也该让塞壬见识一下我们的技术进步了。",
+			say = "흐흐흥~ 세이렌에게 당할 만큼 당했잖아? 이제는 우리의 기술이 더 낫다는 것을 보여주자고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			blackBg = true,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "在总攻开始之前，大家就在这里尽情的休整一番吧~！",
+			say = "총공격 전에 일단 푹 쉬도록 해~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

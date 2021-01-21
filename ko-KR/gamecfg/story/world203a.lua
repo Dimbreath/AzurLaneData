@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域东北·事故海域周边",
+			say = "NA 해역 북동쪽·사고 해역 주변",
 			side = 2,
 			dir = 1,
 			bgm = "story-french1",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "司令部收到的求救信号，就是从这片海域发出来的。",
+			say = "사령부에서 받은 구조 신호는 이 앞쪽 해역에서 온 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "远远看上去没什么特别的，和周围一样平静又阴森......",
+			say = "멀리서 보면 별로 특이하지는 않네요. 주변과 똑같이 평화롭고 음산해요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201130,
-			say = "可畏小姐和威尔士亲王正在赶来的路上，与她们汇合之前我们不要冒进，首先侦察一下附近的情况吧。",
+			say = "포미더블이과 프린스 오브 웨일즈가 오고 있어. 합류하기 전에는 들어가지 말고 주변 해역을 정찰하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801030,
-			say = "侦察任务是么！了解~！驱逐舰鲁莽，全速出发！",
+			say = "정찰 임무인가~! 알았어! 구축함 르 테메레르, 전속 출발!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

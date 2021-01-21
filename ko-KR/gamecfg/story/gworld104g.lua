@@ -14,7 +14,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "NA海域被指挥部根据海况和危险程度划分为数十个作战海域。",
+			say = "지휘부에서 NA 해역을 상황과 위험 정도에 따라 수십 개의 작전 해역으로 분류했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "通过不断探索和压制危险海域，可探索的区域也将进一步扩大。",
+			say = "위험 해역을 탐색하고 압박한다면 탐색할 수 있는 구역이 확장됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "G.M系统中搭载有区域移动模式，可以帮助您快速规划舰队航线。",
+			say = "G.M 시스템에 탑재된 구역 이동 모듈로 빠르게 항로를 확정할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "作战指令已确认：指挥官，大型作战海域已经正式向您开放，请前往司令部提供的第一处任务海域吧。",
+			say = "작전 명령 확인. 지휘관님, 대형 작전 해역이 개방되었습니다. 사령부에서 지정한 첫 번째 임무 해역으로 출발하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

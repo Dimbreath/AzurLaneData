@@ -3688,6 +3688,56 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[190] = {
+		can_rotate = 0,
+		describe = "계속 누워만 있다가 폐인이 되겠어—— ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/wsqj",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "「폐함」 제조쥬",
+		advice = 0,
+		id = 190,
+		icon = "wsqjicon",
+		comfortable = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					10.4,
+					18
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -78686,6 +78736,7 @@ pg.furniture_data_template = {
 		187,
 		188,
 		189,
+		190,
 		100002,
 		100003,
 		100004,

@@ -14,7 +14,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "线路接通，加密通讯已接入。",
+			say = "회선 연결, 암호화 통신 접속 완료.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			voice = "event:/tb/1/tb-1",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "初次见面，指挥官。",
+			say = "처음 뵙겠습니다, 지휘관님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			voice = "event:/tb/2/tb-2",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "我的名字是“领航员-TB”，是指挥部于「The Bridge」计划中设计的最新型辅助用智能人格。",
+			say = "저는 네비게이터-TB, 지휘부 「The Bridge」 계획에서 처음 선보이게 된 최신형 AI 서포터입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			voice = "event:/tb/3/tb-3",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "在与主机的连接正常时，我可以通过舰队的雷达系统、声呐系统进行各类情报整理与战术分析任务。",
+			say = "본체와 정상적으로 연결된 경우, 함대의 레이더 시스템, 음파 감지 시스템을 통해 각종 정보와 전술 분석을 진행할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			voice = "event:/tb/4/tb-4",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "当连接遭受干扰时，我会进入离线模式，该模式下运算能力受到限制，但是依然可以执行火控校准，数据整合以及航路规划等任务。",
+			say = "연결이 불안정할 경우, 오프라인 모드로 전환합니다. 해당 모드에서는 연산 능력이 제한을 받지만 화력 통제, 데이터 통합 및 항로 계획 등 임무를 수행할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			voice = "event:/tb/5/tb-5",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "接下来的行动中，我将作为您的副官协助您的战斗指挥",
+			say = "이후 계획에서 지휘관님의 부관으로 지휘에 도움을 드릴 예정입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，现在向您转达指挥部下达的机密指令：",
+			say = "지휘관님, 지휘부의 기밀 명령을 전달드립니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgm = "hunhe-story",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "近期，经过反复侦查，指挥部确信NA海域中塞壬部署于近海的作战舰队正在向海域深处撤离。",
+			say = "최근 정찰 결과, NA 해역의 세이렌이 근해에 배치한 작전 함대가 해역 깊은 곳으로 철수 중이라고 지휘부는 확신했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "发生这一异常现象的原因尚不明确，相关调查工作仍然在进行中。",
+			say = "이상 현상이 벌어진 이유는 알 수 없기 때문에, 관련 조사가 현재 진행 중입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "就结果而言，塞壬舰队的撤离使得近海区域威胁等级大幅下降，我方的行动范围也获得了相当程度扩展。",
+			say = "세이렌 함대가 철수하면서 근해 지역의 위험 등급이 크게 감소했고, 우리 측 행동 범위도 상당히 넓어졌습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "因此指挥部认为战役时机已经成熟。各辖区除保留必要的防御舰队之外，调动所有机动力量应当立刻前往NA海域集结，准备执行对塞壬大型作战。",
+			say = "지휘부에서는 전투에 알맞은 시기라고 생각하고 있습니다. 각 관할 구역의 최소 방어 함대만을 제외한 모든 기동 전력을 즉시 NA 해역에 집결하고, 대(對) 세이렌 작전을 준비해야 합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "本次战役各项行动将由NY司令部与LD司令部共同负责。战役目标为清理塞壬控制区域，突破塞壬防线，攻破海域中心的异常能量区域，最终夺回整片海域的控制权。",
+			say = "이번 작전은 NY 사령부와 LD 사령부가 공동으로 맡게 됩니다. 목표는 세이렌 통제 구역 정리, 방어선 돌파, 해역 중심부의 이상 에너지 구역을 공격해 최종적으로 해역 전체의 통제권을 되찾는 것입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥部将NA海域分为了四个战区，D战区因为赤色中轴的关系，很遗憾并不在我们的掌控范围之内。",
+			say = "지휘부는 NA 해역을 총 4개로 나누었지만, D 구역은 적색증축의 이유로 우리의 손에 들어오지 못한 것을 유감으로 생각합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "除了D战区之外，战役行动将从其余三个战区同时开始。在舰队集结完毕后，您将作为A战区的战区指挥带领舰队从NY港开始作战。",
+			say = "작전은 D 구역을 제외한 3개의 구역에서 동시에 진행됩니다. 함대 집결 이후, 지휘관님은 A 구역에서 함대를 이끌고 NY항을 향해 작전을 시작합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，您的任务是首先带领舰队夺回被塞壬重新控制的百慕大海域，然后进军至中心区域外建立两处海上前进基地。就地补给，等待后续总攻的命令。",
+			say = "지휘관님, 세이렌이 장악한 버뮤다 해역을 탈환한 뒤, 중심부 밖으로 진격해 해상 전진기지 두 곳을 건설해야 합니다. 이후, 보급을 하며 후속 명령을 대기하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			voice = "event:/tb/9/tb-9",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "预祝您战斗顺利，加密通讯结束，线路即将中断。",
+			say = "순조로운 작전이 되시길. 암호화 통신 종료, 회선 연결이 곧 중단됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

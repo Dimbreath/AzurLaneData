@@ -7,7 +7,7 @@ return {
 				"ClickOrder"
 			},
 			style = {
-				text = "点击G.M系统右下角的按钮可以进入分析模式。",
+				text = "G.M시스템 우측 하단의 버튼을 터치하여 분석 모드 진입 가능",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -163,7 +163,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击左上角按钮可以退出分析模式。",
+				text = "좌측 상단 버튼을 터치하여 분석기 모드 퇴장 가능",
 				mode = 2,
 				dir = -1,
 				char = "1",

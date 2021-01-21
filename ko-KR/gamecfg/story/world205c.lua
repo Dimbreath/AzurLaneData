@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "呜哇…肯特选手，要被这些奇奇怪怪的东西弄晕了...",
+			say = "우와... 켄트 선수, 이상한 물건 때문에 기절할 거 같아...",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不仅炮弹的落点难以预测，鱼雷的轨迹也受到了干扰…这，这样子好难命中敌人呀...",
+			say = "포탄의 낙하 지점을 예측하기 어려울 뿐 아니라, 어뢰의 궤적도 변화하고 있어요... 이, 이건 정말 명중시키기 힘드네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在贴近距离之后还是能够准确命中的，实在不行的话，大家就挥动手中的剑吧~",
+			say = "그래도 근거리에서는 명중시킬 수 있어요. 정 안 되겠으면 다들 손에 든 검을 휘둘러 보라고요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "厌战，我和爱丁堡发现了一个奇怪的塞壬哎，不论怎么攻击它，它都不还手！",
+			say = "워스파이트, 에든버러와 제가 이상한 세이렌을 발견했어요. 어떻게 공격해도 반격하지 않아요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是我们的火力也破坏不了它的装甲......就这么僵持下去实在太累了......大家快来帮忙啊！",
+			say = "하지만 우리의 화력으로는 장갑을 뚫을 수 없어요... 이렇게 버티면 너무 힘든데... 다들 도와주세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...打不还手的坚固塞壬？是因为指挥出现异常了么，还是...坚持住，我们这就去支援！",
+			say = "...반격하지 않는 세이렌? 지휘 시스템의 이상 때문인가? 아니면... 버텨! 곧 갈게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "哈啊......累死了，厌战你看，前面就是那个奇怪塞壬了。",
+			say = "하아... 힘들다. 워스파이트, 보세요. 앞에 있는 게 그 이상한 세이렌이에요.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在指挥部的资料上没有见过与之型号相符的塞壬，也许又是一个新型号吧...",
+			say = "지휘부의 자료에서 한 번도 본 적 없는 세이렌이에요. 어쩌면 신형일지도 모르겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 205040,
 			nameColor = "#a9f548",
-			say = "看我的——————",
+			say = "받아라——————",
 			flashN = {
 				color = {
 					1,
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是没有一点反应哎......",
+			say = "전혀 반응이 없네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "罗德尼...可能在你的位置看不清楚，你刚才打出去的炮弹，其实根本没有碰到那个塞壬的装甲......",
+			say = "로드니... 네 위치에서는 잘 보이지 않겠지만, 방금 네가 쏜 포탄은 저 세이렌에게 닿지도 않았어...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！！怎么会有这种事！是我打歪了么......",
+			say = "에?! 어떻게 이런 일이! 조준이 잘못됐나 봐요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，就算在这片重力异常的海域里，你刚刚的射击也十分准确。发生的事情只不过单纯是，你的炮弹在碰到它的装甲之前就消失了.....",
+			say = "아니, 중력 이상 때문이야. 네 조준은 완벽했어. 그리고 사실 굉장히 단순한 일이야. 네 포탄이 닿기 전에 사라졌거든...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额...我不是很理解。",
+			say = "윽... 이해가 안 돼요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也不是很理解.............",
+			say = "나도 잘 모르겠어...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205020,
-			say = "向司令部进行报告，然后大家立刻撤退，立刻远离这片海域！！！",
+			say = "사령부에 보고해! 그리고 모두, 즉시 이 해역에서 퇴각하도록 해!",
 			effects = {
 				{
 					active = true,
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎！？！！",
+			say = "에?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突突突突然发生了什么吗？！",
+			say = "가가가갑자기 무슨 일인가요?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家先不要问了，那个塞壬很危险，绝对不是我们能对付的......立刻执行命令，全速撤退！",
+			say = "일단 묻지 마. 저 세이렌은 위험해. 우리가 이길 수 있는 상대가 아니야... 명령이다, 모두 당장 퇴각해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 900285,
 			dir = 1,
 			actorName = "？？？",
-			say = "哼……………………",
+			say = "흥……………………",
 			effects = {
 				{
 					active = false,
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			actor = 203030,
 			nameColor = "#a9f548",
-			say = "异常塞壬，突然消失了......？",
+			say = "이상한 세이렌이, 갑자기 사라졌어...?",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这次又是怎么回事啊！从进来之后尽是些莫名其妙的状况，之后的报告要怎么写才好......",
+			say = "이, 이건 또 무슨 일인가요! 아까 전부터 이상한 일들의 연속이라 보고서에 어떻게 써야 할지 모르겠어요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "厌战，周边区域突然出现了数个高强度的塞壬信号，正在向我们的方向快速接近！",
+			say = "워스파이트, 주변에 갑자기 강력한 세이렌 신호가 나타났어요. 우리 쪽으로 빠르게 접근 중이에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".........看来必须要有一场恶战了。情况紧急，大家不要保留弹药，全力战斗，消灭敌人！",
+			say = "......아무래도 싸움을 피할 수 없을 모양인데. 긴급 상황이다, 모두 전력을 다해서 적을 섬멸해! 탄약을 아끼지 마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-1",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：发现疑似铁血舰载机群正在向我们接近，请做好对空作战准备。",
+			say = "분석 모듈 동기화 중. 메탈 블러드의 함재기로 추정되는 비행 물체가 접근하고 있습니다. 공중전을 준비하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我也注意到了，是铁血量产型航母的机群么，还是说...",
+			say = "음, 알고 있다. 메탈 블러드의 양산형 항공모함인가. 아니면...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂，再在对铁血舰队进行一次侦查，重点搜索铁血航母，看一看齐柏林伯爵有没有藏在铁血舰队中。",
+			say = "호넷, 메탈 블러드의 항공모함을 중심으로 다시 한번 정찰을 하도록 해. 그라프 체펠린이 함대에 포함되어 있는지 확인하도록.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "交给我吧~！",
+			say = "맡겨줘~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "战斗机群升空，准备迎战！",
+			say = "전투기, 산개! 적을 맞을 준비를 하라!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,

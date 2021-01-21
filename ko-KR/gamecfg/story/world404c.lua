@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "空气中有硝烟的味道......这个无比熟悉的感觉……这里是AF作战的战场？",
+			say = "매캐한 포연의 냄새... 이 익숙한 느낌은... AF 작전의 현장인가요...?",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对........没错，没错！现在就是在AF作战的战场上！！！那个灰色幽灵就在这里！！！！",
+			say = "그래...... 맞아, 맞아요! 여긴 바로 AF 작전의 현장, 그 회색 유령이 여기에 있는 것이 분명해요!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶......如果AF作战顺利的话，白鹰原本会彻底失去在帕克菲克洋与我们交手的实力...都是那个灰色幽灵.........！",
+			say = "젠장... AF 작전만 완벽했다면 이글 유니온은 파커피크 해에서 우리와 맞설 수 없게 됐을 텐데, 그 회색 유령이......!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这场由我亲自带领的作战，居然会以惨败而结束.........",
+			say = "제가 직접 지휘한 작전이, 그렇게 실패하다니...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就连姐姐的护符也在最后..........................",
+			say = "언니의 부적도 결국에는..........................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个可是姐姐留给我的.........",
+			say = "그건 언니가 남겨준 것이었는데.........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能原谅，不能原谅，不能原谅......只有那个灰色幽灵，绝对不能原谅！",
+			say = "용서 못 해, 용서 못 해, 용서 못 해...... 그 회색 유령은 절대 용서할 수 없어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +143,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900296,
-			actorName = "企业？",
-			say = "能让重樱的{namecode:91}大人记到现在，还真是我的荣幸啊。",
+			actorName = "엔터프라이즈?",
+			say = "사쿠라 엠파이어의 아카기가 지금까지 기억해 주다니, 영광인데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,8 +160,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900297,
-			actorName = "大黄蜂？",
-			say = "那次可真是一场畅快的战斗，你的指挥非常的出色哦~",
+			actorName = "호넷?",
+			say = "엄청난 전투였지. 네 지휘는 정말 훌륭했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,8 +177,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900295,
-			actorName = "约克城？",
-			say = "呵呵，如果想要复仇的话，我们随时随地，都可以与你再来一场AF作战哦。",
+			actorName = "요크타운?",
+			say = "후후, 복수를 원한다면 얼마든지. 언제든 AF 작전을 다시 펼쳐보도록 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,8 +194,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900296,
-			actorName = "企业？",
-			say = "回去之后你们好像将那次失败归结于命运的五分钟吧，其实就算再给你五十分钟你又能做到些什么呢？",
+			actorName = "엔터프라이즈?",
+			say = "실패하기 5분 전으로 돌려보내 줄 수도 있어. 사실 50분을 더 준다고 해도, 네가 뭘 더 할 수 있지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,8 +211,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900297,
-			actorName = "大黄蜂？",
-			say = "啊，上次你好像连{namecode:161}姐姐留给你的护符都弄坏了吧，明明已经再也不能拿到新的了，真是可惜~",
+			actorName = "호넷?",
+			say = "아, 아마기가 넘겨준 부적도 망가졌지? 새것을 받을 수 없을 텐데, 아깝네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都给我闭嘴.............呵呵呵呵呵，我本来正要找你们呢，你们反而自己送上门来了！",
+			say = "닥쳐...... 후후후후, 당신들을 찾으러 왔는데, 이렇게 직접 찾아오다니!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,8 +253,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900296,
-			actorName = "企业？",
-			say = "上次是因为塞壬的搅局才让你们侥幸逃生的，要是想再打一场的话，我们随时奉陪哦。",
+			actorName = "엔터프라이즈?",
+			say = "지난번에는 세이렌 때문에 탈출할 수 있었지만, 원한다면 언제든지 붙어주겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".................呵，求之不得！你们以为我是没有任何成长就能走到今天这一步的么？以为我是什么准备都没做就来到这里的么！",
+			say = ".................하, 원하는 바로군요! 내가 아무런 발전 없이 여기에 온 줄 아나요? 아무런 준비도 없이 왔다고 생각하나요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "弱肉强食，优胜劣汰，此乃世间万物之理......",
+			say = "약육강식, 약자도태, 그것은 세상의 진리...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307010,
-			say = "我已经不是曾经那个只能躲在姐姐身后的{namecode:91}了！！！！！",
+			say = "저는 더 이상 언니의 뒤에 숨어있던 아카기가 아니에요!!!!!",
 			effects = {
 				{
 					active = true,

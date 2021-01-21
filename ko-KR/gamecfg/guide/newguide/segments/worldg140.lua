@@ -7,7 +7,7 @@ return {
 				"ClickOrder"
 			},
 			style = {
-				text = "点击G.M系统右下角的按钮可以进入分析仪面板。",
+				text = "G.M시스템 우측 하단의 버튼을 터치하여 분석기 진입 가능",
 				mode = 1,
 				dir = 1,
 				char = "1",

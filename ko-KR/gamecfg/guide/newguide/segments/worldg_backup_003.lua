@@ -16,7 +16,7 @@ return {
 				"action"
 			},
 			style = {
-				text = "任务种类已更新完毕，请指挥官进行确认。",
+				text = "임무 종류 갱신 완료. 확인해 주세요.",
 				mode = 2,
 				dir = -1,
 				posY = 191.87,
@@ -41,7 +41,7 @@ return {
 				"accept"
 			},
 			style = {
-				text = "请点击接受按钮，接受任务",
+				text = "접수 버튼을 터치하여 임무를 접수하세요.",
 				mode = 2,
 				dir = -1,
 				posY = 191.87,

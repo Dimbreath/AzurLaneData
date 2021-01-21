@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "分析模块同步中：指挥官，开启设施被激活了。",
+			say = "분석 모듈 동기화 중: 지휘관님, 가동 설비가 활성화되었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

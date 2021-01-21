@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "设备已被破坏，正在对残余部分进行解析……",
+			say = "설비 파괴됨. 잔여 부분 분석 진행 중......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "警告:设备的警报装置已启动，塞壬舰队正在接近。",
+			say = "경고: 설비의 경보 장치 가동 완료. 세이렌 함대 접근 중.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,11 +37,11 @@ return {
 			},
 			options = {
 				{
-					content = "迎击",
+					content = "요격",
 					flag = 0
 				},
 				{
-					content = "离开",
+					content = "이탈",
 					flag = 1
 				}
 			}

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击进入储物仓。",
+				text = "터치하여 창고 진입",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击材料分页，查看在大型作战中获得的装备研发材料。",
+				text = "재료 페이지를 터치하여 대형 작전에서 확득한 장비 개발 재료 확인",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -70,7 +70,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击装备分页，查看仓库中的装备。",
+				text = "장비 페이지를 터치하여 창고 내의 장비 확인",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -95,7 +95,7 @@ return {
 			alpha = 0.3,
 			delay = 1,
 			style = {
-				text = "点击进行筛选。",
+				text = "터치하여 필터 열기",
 				mode = 2,
 				dir = 1,
 				char = "1",

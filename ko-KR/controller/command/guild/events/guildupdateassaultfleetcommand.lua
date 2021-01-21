@@ -28,9 +28,8 @@ function slot0.execute(slot0, slot1)
 	slot11 = {}
 
 	for slot16, slot17 in pairs(slot3:GetShipList()) do
-		if not slot10:GetShipByPos(slot16) or slot18.id ~= slot17.id then
+		if slot10:PositionIsChanged(slot3, slot16) then
 			table.insert(slot11, {
-				last_time = 0,
 				pos = slot16,
 				shipId = GuildAssaultFleet.GetRealId(slot17.id)
 			})

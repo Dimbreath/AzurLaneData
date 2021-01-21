@@ -12,7 +12,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "可以在此购买战役信息记录仪。",
+				text = "여기서 전역 정보 기록기 구매 가능",
 				mode = 2,
 				dir = 1,
 				char = "1",

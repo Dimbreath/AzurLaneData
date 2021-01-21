@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，海域中存在尚未回收的压制奖励，建议进行回收作业后再离开。",
+			say = "분석 모듈 동기화 중: 지휘관님, 해역에 회수하지 않은 확보 보상이 있습니다. 회수 작업 진행 후 이탈을 권장합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,11 +21,11 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "확인",
 					flag = 0
 				},
 				{
-					content = "<color=#ff5c5c>离开(将会失去压制奖励)</color>",
+					content = "<color=#ff5c5c>이탈(확보 보상 획득 불가)</color>",
 					flag = 1
 				}
 			}

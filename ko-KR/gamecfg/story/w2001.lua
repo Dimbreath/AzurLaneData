@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：遭遇了塞壬增援点的守备舰队，即将发生战斗。",
+			say = "경고: 세이렌 증원 포인트의 수비 함대 조우. 전투 준비.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

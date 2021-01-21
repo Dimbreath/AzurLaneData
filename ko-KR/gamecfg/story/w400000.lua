@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：指挥官，我无法通过侦察模块获取前方海域的任何信息。海域之中存在未知强敌的概率接近100%。",
+			say = "경고: 지휘관님, 정찰 모듈을 통해 전방 해역의 어떤한 정보도 획득할 수 없습니다. 해역에 미지의 강적이 존재할 확률이 100%에 근접합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "请确认是否解除塞壬区域封锁装置进入海域的深处？",
+			say = "세이렌 구역 봉쇄 장치를 제거하고 해역의 깊은 곳으로 이동하시겠습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,15 +37,15 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "확인",
 					flag = 1
 				},
 				{
-					content = "查阅作战说明",
+					content = "작전 설명 확인",
 					flag = 2
 				},
 				{
-					content = "离开",
+					content = "이탈",
 					flag = 3
 				}
 			}
@@ -57,7 +57,7 @@ return {
 			optionFlag = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：正在尝试解除塞壬区域封锁装置——————",
+			say = "지령 확인: 세이렌 구역 봉쇄 장치 제거 시도 중——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

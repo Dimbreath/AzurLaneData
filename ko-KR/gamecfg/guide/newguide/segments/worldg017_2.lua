@@ -65,7 +65,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击撤退",
+				text = "터치하여 후퇴",
 				mode = 2,
 				dir = -1,
 				posY = -239.55,

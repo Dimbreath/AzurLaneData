@@ -2,7 +2,7 @@ pg = pg or {}
 pg.world_help_data = {
 	{
 		id = 1,
-		name = "舰队",
+		name = "함대",
 		stage = 5,
 		stage_help = {
 			{
@@ -17,7 +17,7 @@ pg.world_help_data = {
 	},
 	{
 		id = 2,
-		name = "系统",
+		name = "시스템",
 		stage = 10,
 		stage_help = {
 			{
@@ -56,7 +56,7 @@ pg.world_help_data = {
 	},
 	{
 		id = 3,
-		name = "探索",
+		name = "탐색",
 		stage = 0,
 		stage_help = {
 			{
@@ -107,7 +107,7 @@ pg.world_help_data = {
 	},
 	{
 		id = 4,
-		name = "战斗",
+		name = "전투",
 		stage = 10,
 		stage_help = {
 			{

@@ -218,7 +218,7 @@ pg.formation_template = {
 	},
 	[10007] = {
 		id = 10007,
-		name = "梯形阵",
+		name = "제형진",
 		pos_offset = {
 			{
 				z = 5,
@@ -254,7 +254,7 @@ pg.formation_template = {
 	},
 	[10008] = {
 		id = 10008,
-		name = "X形阵",
+		name = "X형진",
 		pos_offset = {
 			{
 				z = 5,
@@ -290,7 +290,7 @@ pg.formation_template = {
 	},
 	[10009] = {
 		id = 10009,
-		name = "斜形阵",
+		name = "사형진",
 		pos_offset = {
 			{
 				z = -10,
@@ -326,7 +326,7 @@ pg.formation_template = {
 	},
 	[10010] = {
 		id = 10010,
-		name = "反斜形",
+		name = "반사형",
 		pos_offset = {
 			{
 				z = -10,
@@ -362,7 +362,7 @@ pg.formation_template = {
 	},
 	[10011] = {
 		id = 10011,
-		name = "箭形阵",
+		name = "전형진",
 		pos_offset = {
 			{
 				z = 0,
@@ -388,7 +388,7 @@ pg.formation_template = {
 	},
 	[10012] = {
 		id = 10012,
-		name = "横形阵",
+		name = "횡형진",
 		pos_offset = {
 			{
 				z = 4,
@@ -414,7 +414,7 @@ pg.formation_template = {
 	},
 	[10013] = {
 		id = 10013,
-		name = "蛇形阵",
+		name = "S형진",
 		pos_offset = {
 			{
 				z = 5,
@@ -445,7 +445,7 @@ pg.formation_template = {
 	},
 	[10014] = {
 		id = 10014,
-		name = "楔形阵",
+		name = "설형진",
 		pos_offset = {
 			{
 				z = 0,
@@ -471,7 +471,7 @@ pg.formation_template = {
 	},
 	[20001] = {
 		id = 20001,
-		name = "大世界_黑方舟飞机锥形阵",
+		name = "월드_흑화 아크 로열 항공기 원추형진",
 		pos_offset = {
 			{
 				z = 0,
@@ -527,7 +527,7 @@ pg.formation_template = {
 	},
 	[20002] = {
 		id = 20002,
-		name = "大世界_执棋者飞机阵",
+		name = "월드_컨덕터 항공기 진영",
 		pos_offset = {
 			{
 				z = 0,
@@ -583,7 +583,7 @@ pg.formation_template = {
 	},
 	[10015] = {
 		id = 10015,
-		name = "陆航轰炸编队",
+		name = "육군항공 폭격 편대",
 		pos_offset = {
 			{
 				z = 0,

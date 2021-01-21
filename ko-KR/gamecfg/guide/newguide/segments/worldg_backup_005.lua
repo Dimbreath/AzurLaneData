@@ -7,7 +7,7 @@ return {
 				"clickShopItem"
 			},
 			style = {
-				text = "点击购买商品",
+				text = "터치하여 상품 구매",
 				mode = 2,
 				dir = -1,
 				posY = 33.55,
@@ -54,7 +54,7 @@ return {
 			alpha = 0,
 			waitScene = "AwardInfoLayer",
 			style = {
-				text = "关闭奖励界面",
+				text = "보상 화면 닫기",
 				mode = 2,
 				dir = -1,
 				posY = 33.55,

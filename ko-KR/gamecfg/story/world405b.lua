@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "那个在前方高速行驶的目标是{namecode:91}前辈么？唔，雷达遭受了干扰，不能十分确定啊......",
+			say = "저기, 엄청나게 빠르게 움직이는 거... 아카기 선배 아냐? 윽, 레이더가 교란을 당해서 확실하지 않아...",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赤红的标志色，夸张的动作以及对着周围海面乱炸一气的气势，是{namecode:91}前辈没错了呢。",
+			say = "저 붉은빛, 그리고 과장된 행동, 주변을 가득 메우는 기세... 확실히 아카기 선배가 맞네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "......我在之前陷入幻觉的时候，在你们眼中就是这样的场面么？",
+			say = "...내가 환각에 빠졌을 때도 저렇게 보였었나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，正是如此......",
+			say = "맞아요, 똑같았죠...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是何等的失态.......",
+			say = "추태를 보였군...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哎？不对哦，大家快看！这次在{namecode:91}面前还有一个人！",
+			say = "어라? 저기 좀 보세요! 아카기 앞에 누군가가 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明已经到了面对面的距离，{namecode:91}就像完全没看到一样，只是自顾自的前进着......",
+			say = "분명히 볼 수 있는 거리인데, 아카기는 전혀 안 보이는 것 같이 계속 직진을 하고 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个舰装的颜色和款式......难道是塞壬？！",
+			say = "저 장비의 색깔과 모습은... 세이렌인가?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果是塞壬的话，恐怕是全新型号吧。它的外观和我见过的所有塞壬都不同......",
+			say = "세이렌이라면 신형이겠군. 지금까지 본 세이렌과 외형이 달라...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有发动攻击，只是与{namecode:91}面对面的在海面上倒退移动着.......全新的塞壬人型指挥者？",
+			say = "공격을 하지 않고 아카기의 앞에서 천천히 뒤로 물러나기만 하다니... 신형 세이렌 지휘자인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "总感觉让人很火大......面对面倒退着移动，这算什么行动方式啊...在挑衅么？！",
+			say = "뭔가 느낌이... 얼굴을 보면서 물러나기만 하다니, 도발을 하고 있는 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呵呵呵...你们觉得呢？",
+			say = "후후후... 너희 생각은?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？！！大家听到了么！声音直接从耳边出现了啊！",
+			say = "엑?! 다들 들려? 갑자기 귓가에 목소리가 들렸어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "声音是从耳边的海雾中直接出现的......",
+			say = "귓가의 안개에서 들려오는 소리네...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在确认无疑....那个绝对是塞壬的人型指挥者，而且已经注意到了我们的动向。",
+			say = "확인할 필요도 없겠네... 분명 세이렌의 지휘자야. 이미 우리의 움직임을 알아차렸어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这片海雾看来也是它的杰作...某种新型的作战手段么......",
+			say = "이 안개도 저 자의 작품이겠네요... 새로운 작전 수단일까요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在进行作战部署。舰队分成两队行动，航空编队与新型塞壬交战，将其从{namecode:91}前辈身边逼走。驱逐和轻巡编队趁机对其进行救援和护航。",
+			say = "작전을 시작하자. 두 개로 나뉘어서 항공전대는 신형 세이렌과 교전을 벌이면서 아카기 선배 곁에서 떼어내줘. 구축함과 경순양함은 지원과 호위를 부탁해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:92}前辈，这样部署没问题吧？",
+			say = "카가 선배, 괜찮지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题。小心不要误伤，准备战斗！",
+			say = "좋아. 다치지 말도록 해. 전투 준비!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

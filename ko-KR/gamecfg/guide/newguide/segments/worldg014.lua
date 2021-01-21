@@ -16,7 +16,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "点击打开仓库",
+				text = "터치하여 창고 열기",
 				mode = 2,
 				dir = 1,
 				posY = -229.8,
@@ -40,7 +40,7 @@ return {
 				"IntroduceEquip"
 			},
 			style = {
-				text = "介绍下装备页面",
+				text = "장비 화면 소개",
 				mode = 2,
 				dir = 1,
 				posY = -162.96,

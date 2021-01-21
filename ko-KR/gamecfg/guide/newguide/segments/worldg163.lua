@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "部分任务满足完成条件后需要手动提交。",
+				text = "일부 임무는 조건 달성 후 수동으로 제출해야 합니다.",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -28,7 +28,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击提交任务道具，领取奖励。",
+				text = "임무 제출 아이템을 터치하여 보상 수령.",
 				mode = 2,
 				dir = 1,
 				char = "1",

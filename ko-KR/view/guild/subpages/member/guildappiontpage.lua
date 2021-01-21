@@ -100,8 +100,17 @@ function slot0.OnShow(slot0)
 	slot0.levelTF.text = "Lv." .. slot2.level
 
 	onButton(slot0, slot0.confirmBtn, function ()
-		uv0:emit(GuildMemberMediator.SET_DUTY, uv1.id, uv2)
-		uv0:Hide()
+		if uv3 == GuildConst.DUTY_COMMANDER and uv2 == GuildConst.DUTY_COMMANDER then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("guild_transfer_president_confirm", uv1.name),
+				onYes = function ()
+					uv0:emit(GuildMemberMediator.SET_DUTY, uv1.id, uv2)
+					uv0:Hide()
+				end
+			})
+		else
+			slot0()
+		end
 	end, SFX_CONFIRM)
 end
 

@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "完全没有命中的手感......{namecode:96}，你那边的情况呢？",
+			say = "전혀 맞출 수가 없어요... 즈이카쿠, 그쪽은요?",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很奇怪，不论鱼雷还是航弹，明明应该准确无误命中目标才对，却总是每次都差了一点点......",
+			say = "이상해. 어뢰도 포탄도 정확히 조준했지만 계속 미묘하게 빗나가...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果远距离攻击无法命中的话，就拉近距离。我们把{namecode:91}成功护送回来了哦，接下来也让我们加入战斗吧。",
+			say = "원거리에서 맞출 수 없다면 가까이 가면 되죠. 아카기 호송에 성공했어요. 전투에 합류할게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶....这是何等的失态......啊，真是火大！那个塞壬就是整出这些事的元凶是吧，我要炸碎了它！",
+			say = "젠장... 이런 추태를... 아, 너무 화가 나요! 저 세이렌이 원흉이겠죠? 찢어버리겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有这个必要了，姐姐......目标刚刚已经从海面上消失了。",
+			say = "그럴 필요 없어, 언니... 이미 사라졌거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬主动撤退了么......？",
+			say = "세이렌이 알아서 물러나다니요...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然看起来是撤退了，不过海雾可没有随之一起消失哦。",
+			say = "후퇴한 것처럼 보이지만 바다안개는 여전히 남아있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不但没有消失，反而开始变得越来越浓厚，而且颜色...是不是也开始发生变化了？",
+			say = "게다가 점점 더 짙어지고 있네요. 이 색깔은... 뭔가 변화가 일어나는 것 아닐까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "펑————————!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊！迷雾中有新的塞壬出现了哦！",
+			say = "우와아아아! 안개에서 세이렌이 나왔어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬舰队也开始增援了么......{namecode:91}，敌暗我明，继续战斗下去对我方不利。",
+			say = "세이렌 지원 함대인가... 아카기, 우리 위치가 너무 드러났어요. 계속 싸우면 불리할 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看到了吧，这就是塞壬的危险性，它们是绝不会随着你的计划而起舞的，快停手吧，{namecode:91}前辈。",
+			say = "봤지? 이게 바로 세이렌의 위험성이야. 절대로 선배의 계획대로 움직이지 않는다니까? 그러니까 멈춰.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明距离海域中心只有一步之遥了......五航战，和我一起并肩战斗吧！",
+			say = "중심 해역까지 앞으로 한 발짝인데... 오항전, 함께 싸우도록 하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，至少现在不行......",
+			say = "아니, 적어도 지금은 안 돼...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连续数场战斗下来，我们的体力和弹药都已经消耗殆尽，现在敌方数量众多，战斗能力也不明，贸然前进的话舰队可能会遭遇到重大损失。",
+			say = "전투가 길어지면서 체력도, 탄약도 모두 바닥이 났어. 적이 많은 데다 전투력도 알 수 없으니 계속 전진하다가는 큰 피해를 입고 말 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且对于这片重新变得厚重的海雾，除了颜色之外，你们没感受到其他的异常么...比如舰装的操控性上.....",
+			say = "게다가 이 짙은 안개는... 색깔 말고 이상한 점을 못 느꼈어? 예를 들어서 장비라던가...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "哎？我们的舰装...正在被这片海雾高速腐蚀？怎么会出现这种荒唐的事！？",
+			say = "에? 장비가... 빠르게 부식되고 있어요! 대체 어떻게 이런 일이?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "继续推进已经不可能了，{namecode:91}前辈，保住现有成果，暂且先撤回达咯尔港进行修整吧。",
+			say = "더 나아갈 수는 없어, 아카기 선배. 일단 다카르 항으로 돌아가서 정비하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欲速则不达。姐姐，鉴于现状，我赞同{namecode:96}的提议。",
+			say = "서두르지 마. 언니, 나도 즈이카쿠의 의견에 동의해",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好吧..........尽快摆脱塞壬的纠缠向达咯尔方向撤退........等到休整完毕之后，我们再来！",
+			say = "좋아요... 일단 세이렌에게서 벗어나 다카르 항으로 퇴각하죠... 정비를 마친 뒤에 다시 오도록 해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,23 +410,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>碧色号角奏于大洋</size>",
+					"<size=51>바다에 울려 퍼지는 푸른 나팔,</size>",
 					1
 				},
 				{
-					"<size=51>赤红之影迷离虚妄</size>",
+					"<size=51>붉은 그림자가 허망하게 떠도는 이곳.</size>",
 					2
 				},
 				{
-					"<size=51>海妖之暗，燃烬之灰，四方势力于此汇聚</size>",
+					"<size=51>인어의 어둠, 불타는 재, 모든 세력이 모였다.</size>",
 					3
 				},
 				{
-					"<size=51>仲裁机关的目的，风暴中心的秘密</size> ",
+					"<size=51>중재 기관의 목적은 폭풍 속에 숨겨진 비밀.</size> ",
 					4
 				},
 				{
-					"<size=51>海域之中隐藏的一切，静待揭晓——</size>",
+					"<size=51>해역에 숨겨진 모든 것이, 조용히 때를 기다린다——</size>",
 					5
 				},
 				{

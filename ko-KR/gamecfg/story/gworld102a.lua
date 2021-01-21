@@ -14,7 +14,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "舰队已接近NY港近海，海域通行许可已确认。",
+			say = "항로 통행 허가 확인, NY항 근해에 도착했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			voice = "event:/tb/35/tb-35",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "请指挥官继续跟随航线前往港口停泊。",
+			say = "항로를 따라 항구에 정박하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

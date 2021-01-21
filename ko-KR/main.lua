@@ -37,7 +37,7 @@ if (PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM 
 	pg.SdkMgr.GetInstance():InitSDK()
 end
 
-if PLATFORM_CODE == PLATFORM_JP then
+if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_KR then
 	slot0 = tf(GameObject.Find("LevelCamera/Canvas/UIMain/LevelGrid"))
 
 	RemoveComponent(slot0, typeof(Image))

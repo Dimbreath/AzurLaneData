@@ -13,7 +13,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "大黄蜂已被判定“击沉”，演习结束。",
+			say = "호넷, 침몰 확인. 훈련을 종료합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "真是毫不留情的“攻击”啊...看到你们状态这么好我也放心了。",
+			say = "정말 자비 없는 공격이라니까... 그래도 안심했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "不过，在大型作战过程中，可能会遭遇极其危险的战斗。",
+			say = "하지만 대형 작전 중에서는 여러 위험한 상황을 만날 수 있으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在一时难以战胜敌人的情况下，不要恋战，果断撤退才是明智的选择哦。",
+			say = "이기기 힘든 적을 만났다면 계속 싸우지 말고 과감하게 후퇴하는 것도 한 가지 방법이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "比如像......这样~！",
+			say = "예를 들면... 이렇게~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "演习状态已修改：舰队即将遭遇到毁灭性打击。",
+			say = "훈련 상태 변경. 함대가 큰 타격을 입었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			},
 			options = {
 				{
-					content = "....这是作弊吧！",
+					content = "...이건 반칙이지!",
 					flag = 1
 				}
 			}

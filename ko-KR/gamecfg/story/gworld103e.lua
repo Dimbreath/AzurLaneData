@@ -14,7 +14,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，前方发现了一支战斗力较强的敌方舰队。",
+			say = "지휘관님, 전방에 강력한 적 함대를 발견했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "您可以使用G.M系统的分析模块，对海域中已经侦查到的敌方舰队或异常事件进行进一步分析。",
+			say = "G.M 시스템의 분석 모듈을 통해 이미 정찰한 해역의 적 함대 혹은 이상 사건을 다시 분석할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

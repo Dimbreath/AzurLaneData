@@ -7,13 +7,13 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "分析仪",
+			actorName = "분석기",
 			side = 2,
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "数据解析中————————————",
+			say = "데이터 분석 중————————————",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actorName = "分析仪",
+			actorName = "분석기",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "数据解析完毕————————————",
+			say = "데이터 분석 완료————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,12 +48,12 @@ return {
 			}
 		},
 		{
-			actorName = "分析仪",
+			actorName = "분석기",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "正在播放纪录————————————",
+			say = "기록 재생 중————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "会议开始，本日我们来探讨一下颇具争议的现象：「META」",
+			say = "회의를 시작한다. 오늘은 꽤 논란이 되는 현상: 「META」에 대한 토론을 진행한다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -104,7 +104,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "META，即「元」。",
+			say = "META, 즉 「원소」.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "根据我们的了解，META是一种趋势，也是一种性质。是变化的过程，也是变化的结果。",
+			say = "우리가 이해하는 바에 따르면, META는 일종의 추세이자, 일종의 성질이야. 변화의 과정이면서, 변화의 결과지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "当事物的性质向着META进行变化时，这一过程被称为META化。",
+			say = "사물의 성질이 META를 향해 변화를 진행할 때, 이 과정은 META화라고 불려.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "心智魔方可以META化。基于META化的心智魔方可以诞生出META化的舰船。",
+			say = "성정 큐브는 META화가 가능해. META화에 기초한 성정 큐브는 META화한 함선을 탄생시킬 수 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "舰船亦可以META化，基于自身心智魔方的META化转变为META化的舰船。",
+			say = "함선도 역시 META화할 수 있다. 성정 큐브의 META화가 META화한 함선으로 바뀌는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "基于META化心智魔方建造出的META化舰船，其META化程度是不可逆的，至少目前没有发现任何逆转的方式。",
+			say = "META화 성정 큐브로 META화 함선을 만들 수 있고, 그  META화 과정은 가역될 수 없어. 적어도 현재는 어떤 방법도 발견하지 못했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "基于舰船转化为的META化舰船，其META化在一定限度内是可逆的，目前拥有多种成熟的处理方式。",
+			say = "함선을 META화 함선으로 바꾸면, 그 META화는 일정 한도 내에서 가역이 돼. 이미 여러 숙달된 처리 방식을 보유했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "心智魔方META化的尽头，就是「元魔方」。",
+			say = "성정 큐브 META화의 마지막은, 바로 「원소 큐브」야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "而舰船META化的尽头，则是————",
+			say = "그리고 함선 META화의 끝은, 바로————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			blackBg = true,
 			actorName = "■■■",
 			bgNoise = true,
-			say = "嗯？外部干扰又出现了，这里应该是地下————",
+			say = "응? 또 외부 교란이... 여긴 지하인데————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "分析仪",
-			say = "数据解析异常————————————",
+			say = "데이터 분석 이상————————————",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "播放中断————————————",
+			say = "재생 중단————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

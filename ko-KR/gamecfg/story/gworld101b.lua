@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "嗯~指挥官的进展迅速啊！接下来尝试“击败”我吧！",
+			say = "아~ 지휘관, 역시 빠르네. 그러면 이제 나를 처치해봐!",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			voice = "event:/tb/22/tb-22",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "演习指令已确认：请击败海域内的大黄蜂。",
+			say = "훈련 명령 확인. 해역에 있는 호넷을 처치하세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

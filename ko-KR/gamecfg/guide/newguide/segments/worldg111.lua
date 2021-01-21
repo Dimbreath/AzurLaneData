@@ -7,7 +7,7 @@ return {
 				"TipsWord"
 			},
 			style = {
-				text = "每个编号塞壬实验场中都存在若干谜题，跟随文本提示可以一步步进行解谜。",
+				text = "세이렌 실험장에는 수수께끼가 있습니다. 텍스트 알림에 따라 한걸음씩 진행하세요.",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -32,7 +32,7 @@ return {
 				"ExitButton"
 			},
 			style = {
-				text = "点击退出按钮可以暂时离开塞壬实验场返回通常海域，不过再次进入后解密进度将恢复为初始状态。",
+				text = "퇴장 버튼을 터치하면 세이렌 실험장에서 이탈해 일반 해역으로 돌아갈 수 있지만, 재진입 시 해제 진도는 초기화됩니다.",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -47,7 +47,7 @@ return {
 					}
 				},
 				clickUI = {
-					path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/exit_button"
+					path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/exit_button"
 				}
 			}
 		}

@@ -1,48 +1,48 @@
 pg = pg or {}
 pg.world_item_data_origin = {
 	{
-		origin_text = "缺省配置提醒"
+		origin_text = "기본 배치 알림"
 	},
 	{
-		origin_text = "剧情道具"
+		origin_text = "스토리 아이템"
 	},
 	{
-		origin_text = "大型作战战斗掉落"
+		origin_text = "대형 작전 전투 드랍"
 	},
 	{
-		origin_text = "资源点拾取"
+		origin_text = "자원 포인트 획득"
 	},
 	{
-		origin_text = "异常海域调查"
+		origin_text = "비정상 해역 조사"
 	},
 	{
-		origin_text = "海域调查奖励"
+		origin_text = "해역 조사 보상"
 	},
 	{
-		origin_text = "海域压制奖励"
+		origin_text = "해역 확보 보상"
 	},
 	{
-		origin_text = "碎片海域通道封锁"
+		origin_text = "조각난 해역 항로 봉쇄"
 	},
 	{
-		origin_text = "碎片海域压制奖励"
+		origin_text = "조각난 해역 확보 보상"
 	},
 	{
-		origin_text = "塞壬试验场封锁奖励"
+		origin_text = "세이렌 실험장 봉쇄 보상"
 	},
 	{
-		origin_text = "深渊守卫战斗奖励"
+		origin_text = "심연 수비 전투 보상"
 	},
 	[100] = {
-		origin_text = "港口商店兑换"
+		origin_text = "항구 상점 교환"
 	},
 	[101] = {
-		origin_text = "重置商店兑换"
+		origin_text = "상점 교환 초기화"
 	},
 	[201] = {
-		origin_text = "港口日常任务奖励"
+		origin_text = "항구 데일리 임무 보상"
 	},
 	[202] = {
-		origin_text = "指挥喵搜寻获取"
+		origin_text = "지휘냥 탐색 획득"
 	}
 }

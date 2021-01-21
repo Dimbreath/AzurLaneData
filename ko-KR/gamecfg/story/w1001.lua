@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "分析模块同步中：发现了一处塞壬探测装置。",
+			say = "분석 모듈 동기화 중: 세이렌 탐지 장치 발견.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：检测到正在接近的塞壬舰队，请做好作战准备。",
+			say = "경고: 접근 중인 세이렌 함대 발견. 작전 준비.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

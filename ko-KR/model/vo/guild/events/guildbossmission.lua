@@ -69,8 +69,8 @@ function slot0.GetAllShipIds(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.fleets) do
-		for slot11, slot12 in ipairs(slot6:GetShipIds()) do
-			table.insert(slot1, slot12.id)
+		for slot11, slot12 in ipairs(slot6:GetShips()) do
+			table.insert(slot1, GuildAssaultFleet.GetRealId(slot12.ship.id))
 		end
 	end
 

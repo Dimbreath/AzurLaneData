@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "离开后将无法再次返回该处海域，是否确认离开？",
+			say = "이탈 후 해당 해역으로 되돌아올 수 없습니다. 이탈하시겠습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +18,11 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "확인",
 					flag = 1
 				},
 				{
-					content = "取消",
+					content = "취소",
 					flag = 2
 				}
 			}

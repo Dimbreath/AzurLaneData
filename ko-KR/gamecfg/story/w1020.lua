@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "检测到塞壬信号发生装置，因为能源枯竭，已经无法正常启动了。不过，就算强行破坏也能回收一定材料。",
+			say = "세이렌 신호 발생 장치를 발견했다. 에너지가 고갈되어 정상 운행은 불가능하지만, 부숴버린다면 약간의 재료를 회수할 수 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "启动设备需要消耗一个1个[塞壬能源存储器]，确定启动吗？",
+			say = "설비 가동 시 [세이렌 에너지 저장 장치] 1개를 소모합니다. 가동하시겠습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			},
 			options = {
 				{
-					content = "启动设备",
+					content = "설비 가동",
 					flag = 0
 				},
 				{
-					content = "破坏设备",
+					content = "설비 파괴",
 					flag = 1
 				},
 				{
-					content = "离开设备",
+					content = "설비 종료",
 					flag = 2
 				}
 			}

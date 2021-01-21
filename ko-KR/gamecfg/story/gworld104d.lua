@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "在道具分类中存放着所有大型作战过程所需的各类常规材料，比如维修道具，各类兑换凭证等。",
+			say = "아이템은 수리 아이템, 각종 교환 증표 등 대형 작전에 필요한 각종 재료가 들어 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

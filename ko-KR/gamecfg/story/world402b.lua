@@ -14,7 +14,7 @@ return {
 			bgm = "bsm-7",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "在这里转了这么久，铁血舰队也没有一点要来汇合的迹象。这究竟是怎么回事，腓特烈叫我们来的时候说的可是联合行动哟？",
+			say = "한참을 돌아봐도 메탈 블러드는 모일 기미가 보이지 않네요. 이게 어떻게 된 일이죠? 프리드리히 데어 그로세는 분명 연합 행동이라고 했는데요.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "腓特烈的计划我不是很清楚...不过现在我们的主力舰队也在NA海域中，大家在同一片海域中行动的话，应该也能叫做联合行动...?",
+			say = "프리드리히 데어 그로세의 계획은 저도 잘 모르지만, 우리 주력 함대는 지금 NA 해역에 있어요. 여러분도 같은 해역으로 향한다면 아마 연합 행동이 맞겠죠...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你们的主力舰队现在的具体位置在哪里，接下来的计划是什么？",
+			say = "주력 함대가 지금 어디에 있고, 앞으로는 뭘 할 생각이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如你们所见，我只是一艘被孤零零的派遣到这里留守驱逐舰，主力舰队的作战计划我一点都不知道哦。",
+			say = "보시다시피 저는 이곳을 혼자 지키고 있는 구축함이라서요. 주력 함대의 계획에 대해서는 아는 바가 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "如果欧根在的话倒是也许能问出点什么来...",
+			say = "오이겐이라면 뭔가 알고 있을 것 같지만...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不然你们直接去问腓特烈吧，她之前好像提到过要去撒丁参加宴会之类的，这段时间应该都会停在陆间海。",
+			say = "아니면 직접 프리드리히 데어 그로세에게 물어보세요. 사르데냐의 파티에 참석하느라 계속 지중해에 있을 예정이니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".........我们就是刚刚从塔兰托港过来的，难道现在让我们绕回去么？",
+			say = "......방금 그 타란토 항에서 오는 길인데, 다시 돌아가라고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊抱歉，当然，用通讯联络也行，这边的联络很通畅。我这就向铁血司令部发电报。",
+			say = "아, 죄송해요. 물론 통신으로도 가능해요. 꽤 원활하거든요. 메탈 블러드 사령부로 전보를 보낼게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "算了！作战行动依靠重樱本身的舰队足够了，既然你们不配合我的行动，我也对你们的行动没兴趣。",
+			say = "됐어요! 작전은 사쿠라 엠파이어 혼자서도 충분해요. 우리와 협력하지 않겠다면 당신들에게 별로 관심은 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请立刻提供补给，在补给完毕之后我们就出发。",
+			say = "보급을 요청하죠. 마치고 나면 즉시 떠나겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "大家同为赤色中轴的盟友，这些小事当然没问题。不过真的要这么着急的走么？原本明日还有预定一些浏览行程之类的...",
+			say = "모두 적색중축의 친구인걸요. 그 정도는 문제없죠. 그런데, 이렇게 급하게 가실 건가요? 내일 관광 스케줄도 이미 정해뒀는데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢铁血的好意，不过无需劳烦，我们不是来这里旅游的。",
+			say = "메탈 블러드의 호의는 고맙지만 우리는 여기에 관광을 하러 온 게 아니야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "这样啊...NA海域的情况复杂多变，我们又一直处于皇家的长期封锁中，因此无法为你们提供有效的情报支援。",
+			say = "그런가요... NA 해역의 상황이 복잡하고, 우리는 로열 네이비의 봉쇄에 막혀있으니까 원하는 만큼 정보를 지원해드리기는 어려워요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我会立刻把你们出发的消息向司令部汇报，如果上面有任何安排，或者主力舰队有联合作战的目标分享，我会第一时间联络你们。",
+			say = "하지만 여러분이 출발한다는 소식을 사령부에 전하면 뭔가 계획을 세울지도 모르죠. 주력 함대가 연합 작전을 세운다면 바로 여러분에게 연락할게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "对了，说到联络......在稍后补给的时候，请一起收下为你们准备的铁血最新型通讯设备。",
+			say = "아, 그러고 보니 연락... 보급을 하면서 여러분에게 메탈 블러드에서 만든 최신형 통신 설비를 드릴게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新型设备着重增强了在海域中对抗塞壬干扰的能力，应该会对你们有所帮助。",
+			say = "해역 내 세이렌의 교란에 잘 버틸 수 있을 테니 큰 도움이 될 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总算还是有点好消息，进入镜面海域就会立刻通讯中断的情况终于得到改善了么。",
+			say = "그건 좋은 소식이네요. 거울 해역에 들어가기만 하면 통신이 끊기는 일을 드디어 해결하게 됐군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些设备我们之后可以直接带回重樱么？",
+			say = "사쿠라 엠파이어로 가지고 가도 되나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "当然没问题，这些就是专门为你们准备的礼物。",
+			say = "물론이죠. 저희가 준비한 선물인걸요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常感谢。",
+			say = "고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			blackBg = true,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "补给维修区域在这个方向，各位请跟我来。",
+			say = "보급은 이쪽에서 할 수 있어요. 따라오세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

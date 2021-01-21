@@ -92701,6 +92701,7 @@ pg.ship_skin_template = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
+		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			4
@@ -92776,9 +92777,6 @@ pg.ship_skin_template = {
 			"mail",
 			"touch_body",
 			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
 		}
 	},
 	[408010] = {
@@ -112322,7 +112320,7 @@ pg.ship_skin_template = {
 	},
 	[900183] = {
 		ship_group = 900183,
-		name = "指挥喵",
+		name = "지휘냥",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -113198,7 +113196,7 @@ pg.ship_skin_template = {
 	},
 	[900191] = {
 		ship_group = 900191,
-		name = "仲裁者·恩普雷斯·III",
+		name = "아비터·엠프레스·III",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -114894,7 +114892,7 @@ pg.ship_skin_template = {
 	},
 	[900208] = {
 		ship_group = 900208,
-		name = "大黄蜂",
+		name = "호넷",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -115713,7 +115711,7 @@ pg.ship_skin_template = {
 	},
 	[900216] = {
 		ship_group = 900216,
-		name = "黛朵",
+		name = "다이도",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -117674,7 +117672,7 @@ pg.ship_skin_template = {
 	},
 	[900235] = {
 		ship_group = 900235,
-		name = "泛用型布里",
+		name = "범용형 부린",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -122925,7 +122923,7 @@ pg.ship_skin_template = {
 	},
 	[900284] = {
 		ship_group = 90284,
-		name = "领航员-TB",
+		name = "네비게이터-TB",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -123046,7 +123044,7 @@ pg.ship_skin_template = {
 	},
 	[900285] = {
 		ship_group = 90285,
-		name = "仲裁者·司特莲库斯·VIII",
+		name = "아비터·스트랭스·VIII",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -123167,7 +123165,7 @@ pg.ship_skin_template = {
 	},
 	[900286] = {
 		ship_group = 90286,
-		name = "仲裁者·天帕岚斯·XIV",
+		name = "아비터·템퍼런스·XIV",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -123288,7 +123286,7 @@ pg.ship_skin_template = {
 	},
 	[900287] = {
 		ship_group = 90287,
-		name = "仲裁者·赫米忒·IX",
+		name = "아비터·허밋·IX",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -123409,7 +123407,7 @@ pg.ship_skin_template = {
 	},
 	[900295] = {
 		ship_group = 90295,
-		name = "约克城",
+		name = "요크 타운",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -123521,7 +123519,7 @@ pg.ship_skin_template = {
 	},
 	[900296] = {
 		ship_group = 90296,
-		name = "企业",
+		name = "엔터프라이즈",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -123628,7 +123626,7 @@ pg.ship_skin_template = {
 	},
 	[900297] = {
 		ship_group = 90297,
-		name = "大黄蜂",
+		name = "호넷",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,

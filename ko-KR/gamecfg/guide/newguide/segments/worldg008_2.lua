@@ -16,7 +16,7 @@ return {
 				"clickCollection"
 			},
 			style = {
-				text = "可以切换多个舰队哟",
+				text = "여러 함대 전환 가능",
 				mode = 2,
 				dir = -1,
 				posY = -180.56,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "选择第一舰队",
+				text = "제1함대 선택",
 				mode = 2,
 				dir = -1,
 				posY = -103.1,

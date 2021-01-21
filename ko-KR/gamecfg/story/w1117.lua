@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "能源矩阵被成功激活，周边海域安全了。",
+			say = "에너지 매트릭스가 활성화 되었습니다. 주변 해역 안전.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

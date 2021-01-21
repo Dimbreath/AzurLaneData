@@ -16,7 +16,7 @@ return {
 				"chooseCamp"
 			},
 			style = {
-				text = "请选择要加入的阵营",
+				text = "가입할 진영을 선택하세요.",
 				mode = 2,
 				dir = -1,
 				posY = -189.51,

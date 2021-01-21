@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "欸，周围突然起雾了？......现在是会起海雾的天气么？",
+			say = "엑, 갑자기 안개가...? 바다 안개가 끼는 날씨인가?",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恐怕没这么简单。塞壬控制区内出现的任何变化现象都值得注意，更何况这么突如其来的雾气......大家提高警惕。",
+			say = "그런 간단한 문제가 아니에요. 세이렌 통제 구역에서 일어나는 변화는 주의해야 하는데, 이런 안개라니... 모두 조심하세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔......设备的仪表盘开始乱转，各项读数突变......{namecode:91}，我们的电子设备被干扰了。",
+			say = "음... 장비의 계기판이 흔들리고 있어. 결괏값도 이상해... 아카기, 장비가 교란당한 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "통신기",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "————滋滋-——————滋————",
+			say = "——지직——-——————지지직——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊！！通讯器突然自己响起来了！",
+			say = "으아악! 통신기가 갑자기 울린다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦......通讯器里好像有说话的声音！但是......杂音太大了，{namecode:22}大人听不清里面在说什么.......",
+			say = "엣... 통신기에서 목소리가 들려! 하지만... 잡음이 너무 커서 뭐라는지 들리지 않아...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不光是我们的通讯设备，就连铁血提供的新型通讯设备同样遭受了干扰，可以认定塞壬采取了比以往更强烈的干扰措施。",
+			say = "우리의 장비뿐 아니라 메탈 블러드가 준 신형 통신장비도 교란을 당했어. 세이렌이 강력한 조치를 취한 것 같네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于从已失灵通讯器中传出的类似于说话声的杂音，我需要花时间稍微研究一下......",
+			say = "먹통이 된 통신기에서 들려오는 잡음이라니... 제대로 한번 알아봐야겠는데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然这片海雾是塞壬针对性的对我方舰队进行的某种干扰措施......恐怕接下来迎接我们的就是塞壬主力舰队了。",
+			say = "역시 이 바다안개는 세이렌이 우리를 노리고 쓴 방해공작이에요... 다음번에는 주력 함대와 만나게 될 것 같네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，情况异常，我们先减慢舰队速度观察一下情况会比较好。",
+			say = "언니, 상황이 이상한데 일단 속도를 줄이고 상황을 알아보는 것이 어떨까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这片海雾.........难道说....................",
+			say = ".............................................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actorName = "{namecode:92}",
 			dir = 1,
 			side = 2,
-			say = "姐姐？！",
+			say = "언니?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不好意思走了一下神，你刚才说什么{namecode:92}？",
+			say = "아, 미안해요. 방금 뭐라고 했죠, 카가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...............................怎么人都不见了？",
+			say = "이 안개는...... 설마......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "{namecode:92}？！{namecode:39}？！......{namecode:37}！{namecode:22}！！！！",
+			say = "카가? 진츠? ......유바리! 유키카제!!!!",
 			action = {
 				{
 					y = 30,
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到底是怎么回事..................？",
+			say = "흥............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "设备看起来还可以继续使用……",
+			say = "설비를 계속 사용 가능한 것 같다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

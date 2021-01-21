@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：战斗结果已确认：敌方舰队肃清，但是在远方区域发现塞壬舰队的增援迹象，请不要放松警惕。",
+			say = "분석 모듈 동기화 중. 적 함대 소멸, 먼 곳에서 세이렌 증원 함대를 발견했습니다. 긴장을 풀지 마십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "唔，确实有种不同寻常的气息啊。这才刚进入百慕大海域边缘，塞壬就派舰队热情迎接我们了。",
+			say = "윽, 확실히 평소랑은 좀 다르네. 이제 막 버뮤다 해역에 들어왔는데, 이렇게 함대를 보내서 우리를 환영해 주다니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与整片NA海域外围塞壬普遍异常的行为模式不同，这里的塞壬舰队明显进行着有组织的反击。",
+			say = "NA 해역 외곽의 세이렌들이 이상하게 분포된 것과 다르게 이곳의 함대는 확실히 조직적으로 반격하고 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，敌人进攻的越猛烈，越说明我们前往百慕大深处一探究竟的必要性。想必海域里隐藏着不想被我们发现的秘密吧！",
+			say = "흥, 이렇게 맹렬하게 저항하는 것을 보니 꼭 버뮤다 안에 뭐가 숨겨져 있는지 확인해야 할 것 같잖아? 분명히 우리에게 들키고 싶지 않은 비밀이 숨겨져 있겠지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "百慕大中的秘密......",
+			say = "버뮤다의 비밀...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			bgName = "bg_banama_2",
-			say = "这些幻影，究竟是什么东西…？",
+			say = "이 환영은, 대체 뭐지…?",
 			effects = {
 				{
 					active = true,
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "记录。",
+			say = "기록.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "什么地方，什么时候的记录？",
+			say = "언제, 어디서의 기록이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "存在于彼方，又存在于此处。既是过去的刻印，又是未来的预兆。",
+			say = "이곳과 저곳. 그리고 과거의 각인이자 미래의 예지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "现在，也存在于你的心里了。",
+			say = "그리고 지금 네 마음속에도 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "记录是不会说谎的。",
+			say = "기록은 거짓말을 하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgm = "story-richang",
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "企业？你是想到了什么事情吗？",
+			say = "...엔터프라이즈, 무슨 생각 해?",
 			effects = {
 				{
 					active = false,
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么，大家继续前进吧。",
+			say = "아니, 계속 전진하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "G.M系统的详细使用方式已经整合进帮助模块中，如果您有不清楚的地方可以随时进行查看。",
+			say = "G.M 시스템의 자세한 사용 방법을 도움 모듈에 입력했습니다. 이해가 가지 않는다면 언제든지 찾아보실 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "引导指令已确认：指挥官，在正式出海作战之前，先返回NY港进行一下舰队补给吧。",
+			say = "가이드 명령 확인. 지휘관님, 작전 시작 전 먼저 NY항으로 돌아가 보급하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

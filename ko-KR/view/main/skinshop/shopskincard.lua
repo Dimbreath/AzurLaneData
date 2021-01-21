@@ -4,7 +4,8 @@ slot2 = pg.shop_template
 slot3 = pg.skin_page_template
 slot4 = pg.ship_skin_template
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
+	slot0.view = slot2
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0._content = slot0._tf:Find("ship/content")
@@ -28,6 +29,10 @@ function slot0.Ctor(slot0, slot1)
 		slot0._tf:Find("ship/content/top/tags/tag_limit"),
 		slot0._tf:Find("ship/content/top/tags/tag_timelimit")
 	}
+
+	onButton(nil, slot0._go, function ()
+		uv0.view:emit(SkinShopScene.EVENT_ON_CARD_CLICK, uv0)
+	end, SFX_PANEL)
 end
 
 function slot0.update(slot0, slot1)
@@ -84,6 +89,11 @@ function slot0.updateSelected(slot0, slot1)
 end
 
 function slot0.Dispose(slot0)
+	removeOnButton(slot0._go)
+
+	slot0._go = nil
+	slot0._tf = nil
+	slot0._tagTFs = nil
 end
 
 return slot0

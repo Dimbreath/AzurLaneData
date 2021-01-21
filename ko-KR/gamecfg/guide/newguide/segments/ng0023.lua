@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "进入科研界面",
+				text = "과학 연구 화면 진입",
 				mode = 2,
 				dir = 1,
 				posY = -308.7,
@@ -27,7 +27,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "现在解锁了META研究室功能",
+				text = "META 연구실 기능 해제됨",
 				mode = 1,
 				dir = 1,
 				posY = 0,
@@ -51,7 +51,7 @@ return {
 			alpha = 0.4,
 			waitScene = "MetaCharacterScene",
 			style = {
-				text = "通过与信标作战可以获取其同步值,累计同步值获取丰厚奖励",
+				text = "비콘 작전을 통해 동기화 수치 획득 가능. 동기화 수치 누적 시 보상 획득",
 				mode = 1,
 				dir = 1,
 				posY = -236.99,
@@ -61,7 +61,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "奖励领取存在时间限制，过期后将消失，请指挥官注意时间",
+				text = "보상 수령은 기한이 존재하며, 기한 만료 후 사라지니, 주의하세요.",
 				mode = 2,
 				dir = 1,
 				posY = -236.99,

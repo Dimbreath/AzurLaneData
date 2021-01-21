@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "喂————{namecode:91}、{namecode:37}！{namecode:39}、{namecode:22}！你们都去哪儿了？！",
+			say = "이봐———— 언니? 유바리! 진츠, 유키카제! 어디로 간 거야?",
 			effects = {
 				{
 					active = true,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			say = "奇怪.......怎么突然所有人都消失了。",
+			say = "이상한데... 갑자기 모두 사라지다니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			say = "没有塞壬趁机袭击过来总算是万幸，不过.......仪器大半失灵，海雾又这么浓厚，这是要迷航了啊。",
+			say = "세이렌이 공격해오지 않은 것은 다행인데... 하지만 기계가 전부 작동하지 않는데다 바다안개까지 이렇게 짙은 걸 보면 조난을 당했군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			say = "嗯？等等，我的舰装怎么变回战列舰了.......？",
+			say = "음? 잠시만, 장비가 왜 전함의 것이지...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 900298,
 			actorName = "{namecode:161}？",
-			say = "好久不见啊，{namecode:92}。看来你现在过得不错，已经能带领舰队前往远海作战了么？",
+			say = "오랜만이에요, 카가. 좋아 보이네요. 이제는 함대를 이끌고 먼 바다에서 작전을 수행할 수 있나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			say = "{namecode:161}....？",
+			say = "아마기...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 900298,
 			actorName = "{namecode:161}？",
-			say = "我的妹妹怎么样了，我曾经拜托你替我照顾好她，她现在还好么？",
+			say = "내 동생은 잘 지내나요? 잘 돌봐달라고 부탁했는데, 지금은 어떤가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她现在......",
+			say = "지금은...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			actor = 900298,
 			actorName = "{namecode:161}？",
-			say = "原本能有机会继续服役，与妹妹在一起的人是我，而不是你，{namecode:92}。",
+			say = "계속 동생의 곁을 지켜줄 수 있는 존재는 나였어요. 카가, 당신이 아니라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 900298,
 			actorName = "{namecode:161}？",
-			say = "变成今天这个样子并非我的本意。如果现在带领舰队的人是我而不是你，我的妹妹，以及整个重樱都会变得截然不同吧。",
+			say = "이렇게 된 것은 나도 원하지 않았답니다. 함대를 이끄는 것이 당신이 아니라 나였다면, 나의 동생과 사쿠라 엠파이어도 지금과 달라졌겠죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			say = "我.........",
+			say = "나는...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 900298,
 			actorName = "{namecode:161}？",
-			say = "你真是太令我失望了，{namecode:92}。",
+			say = "카가, 정말 실망이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "펑————————!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			say = "唔........！",
+			say = "윽...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			actor = 900298,
 			actorName = "{namecode:161}？",
-			say = "我要在这里消灭你，然后与我的妹妹团聚。",
+			say = "여기서 당신을 없애고 동생을 만나러 가겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			actor = 900298,
 			actorName = "{namecode:161}？",
-			say = "曾经那个不可一世实力至上的{namecode:92}怎么不见了，你在舰装上的主炮都是装饰物么？",
+			say = "그 대단한 실력을 자랑하던 카가는 어디로 갔죠? 당신의 주포는 장식인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			say = ".........不要太过分了！真正的{namecode:161}是不可能说出这种话来的！虽然不知道你是什么东西，但是我要在这里轰碎你！",
+			say = "......적당히 해둬! 진짜 아마기는 이런 말을 하지 않아! 뭔지는 모르겠지만, 산산조각 내주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 305070,
 			nameColor = "#a9f548",
-			say = "啊啊啊啊啊啊啊啊啊啊！",
+			say = "아아아아아아아!",
 			flashN = {
 				color = {
 					1,
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "펑————————!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊啊！！！！！怎么突然就打过来了？！！",
+			say = "으아아악! 왜 갑자기 공격하는 건데?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好危险，还好{namecode:22}大人没有跑的太靠前......",
+			say = "위험했다. 유키카제님이 가까이 가지 않아서 다행이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307020,
-			say = "哎？五航战......？",
+			say = "에? 오항전...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:161}怎么不见了......你们见到{namecode:161}了么！我明明刚刚对她开火......",
+			say = "아마기는... 아마기를 봤어? 분명 공격했는데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开火......？不对...我早就进行了航母化的舰装改造，{namecode:161}也早就已经......究竟是怎么回事？",
+			say = "공격? 아니, 난 한참 전에 항공모함으로 개조됐어. 아마기도... 이게 어떻게 된 일이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "究竟是怎么回事是我们想问的才对！",
+			say = "그건 우리가 할 말이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么{namecode:161}啊.....我们靠近的时候就看到你一个人在对着迷雾手舞足蹈。我们正想靠近你，你的舰载机就突然对我们开火了！",
+			say = "아마기는 무슨... 우리가 왔을 때는 혼자 안갯속에서 난리를 치고 있더라. 가까이 다가가니까 갑자기 공격을 하지 않나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道是想把我们骗到远洋，再用“意外事故”这样的理由解决掉我们么......这样的玩笑可不好笑哦，前辈。",
+			say = "설마 이 먼 곳에서 \"뜻밖의 사고\"로 우리를 해치울 생각은 아니었겠죠... 재미있는 장난은 아니에요, 선배.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，我绝对没这个意图。真奇怪啊.........对了，你们见到其他人了么？",
+			say = "아니, 그럴 생각은 없었어. 이상하네... 그래, 다른 사람들은?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们是在收到了{namecode:39}发来的联络之后火速赶来的。",
+			say = "진츠의 연락을 받고 달려온 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是在接近联络中给出的目标海域的时，发现整片海域已经被厚重的海雾覆盖了。",
+			say = "하지만 목표 해역에 도착하고 나니까 바다안개가 굉장히 짙게 껴 있더라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "直觉告诉我，这片海雾肯定超级不妙啦...与你们又一直无法取得联络。",
+			say = "이 바다안개는 조금 꺼림칙해서... 계속 연락이 닿지 않기도 했고요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在犹豫的时候，就看到{namecode:22}从海雾中驶出来了！",
+			say = "망설이고 있을 때 유키카제가 안갯속에서 나왔어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:22}你一个人脱离了这片海雾么...？",
+			say = "유키카제, 혼자 탈출한 거야...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:22}大人也不知道是怎么回事哦...本来大家正在列队行驶，可是你们都突然分头加速驶入了海雾之中！",
+			say = "어떻게 된 일인지 몰라서 일단 모두와 합류해야겠다고 생각했는데, 다들 각자 갈라져서 안갯속으로 전속 전진을 하잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想追上你们问问情况，结果不知不觉就驶出了海雾，还和{namecode:95}{namecode:96}的舰队汇合了......",
+			say = "어떻게 된 일인지 물어보고 싶었지만 나도 모르게 안개 밖으로 나와서 쇼카쿠, 즈이카쿠와 만나게 됐어...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".......................",
+			say = "대체 어떻게 된 일이죠.........?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们觉得这件事很奇怪，等了很久又没有见到其他人，所以我们才决定驶入海雾一探究竟。",
+			say = "우리도 이상하게 생각했지만 한참을 기다려도 다른 사람들이 나오지 않기에 안갯속으로 들어가서 확인을 해보려고 한 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 304010,
-			say = "刚才看到你一个人在海面上游荡，本来想去和你打个招呼，结果你就突然对我们发动攻击了哦。",
+			say = "혼자서 바다 위를 떠도는 것을 보고 말을 걸려고 했는데, 갑자기 우리를 공격하더군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常抱歉.....我完全没有袭击你们的记忆。我只记得好像变回了战列舰，然后遇到了一个很像{namecode:161}的人..........",
+			say = "미안... 전혀 기억이 없네. 전함 시절로 돌아가서 아마기와 비슷한 사람을 만난 기억만 남아있어...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔.......陷入了幻觉，与不存在的幻影战斗......难道这片海雾具有致幻的效果么？",
+			say = "음... 환각에 빠져 싸움을 했던 건가요... 혹시 이 안개, 환각을 보여주는 걸까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 304010,
-			say = "而且还连带有干扰电子效果......绝对不是单纯的自然现象呢。",
+			say = "게다가 전자 교란까지... 평범한 자연 현상은 아니네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，海面上虽然说常有迷雾，但是附加了这么多奇怪特性的海雾就另当别论了。",
+			say = "네, 바다에서 안개는 자주 있는 일이라지만 이런 이상한 일을 동반하면 평범하지 않죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "糟糕......！恐怕大家都陷入和{namecode:92}大人一样的奇怪状态了，得赶紧找到大家才行！",
+			say = "이런...! 다들 카가와 같은 일을 겪은 건가? 어서 찾아야 해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

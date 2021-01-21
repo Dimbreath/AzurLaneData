@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "控制装置激活，机关被解除了！",
+			say = "통제 장치 활성화, 기관이 제거되었습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

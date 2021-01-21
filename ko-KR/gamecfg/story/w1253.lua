@@ -10,14 +10,14 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "结果已确认：搜寻作业结束，指挥喵现在已结束搜寻并返回了舰队。",
+			say = "결과 확인: 탐색 작업 종료. 지휘냥이 탐색을 마치고 함대로 복귀했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "确定",
+					content = "확인",
 					flag = 0
 				}
 			}

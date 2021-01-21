@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "海域中的战争迷雾被消除，视野逐渐开阔。",
+			say = "해역의 해무가 사라졌다. 시야가 점점 넓어진다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

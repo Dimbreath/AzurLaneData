@@ -13,7 +13,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "海域侦查已完成，已将侦察情报同步整合至G.M系统中。",
+			say = "해역 정찰 완료, 데이터가 G.M 시스템에 동기화되었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "引导指令已确认：指挥官，接下来请与侦察到的敌方舰队交战吧。",
+			say = "가이드 명령 확인. 지휘관님, 이제 적 함대를 정찰하고 교전을 준비하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

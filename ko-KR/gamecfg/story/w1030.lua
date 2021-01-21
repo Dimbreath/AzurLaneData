@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "看起来似乎是一个通向未知海域的碎片入口...要去看一看吗？",
+			say = "미지의 해역 파편으로 향하는 입구 같아 보이는데... 들어가 볼까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +18,11 @@ return {
 			},
 			options = {
 				{
-					content = "进入",
+					content = "진입",
 					flag = 0
 				},
 				{
-					content = "不进入",
+					content = "돌아가기",
 					flag = 1
 				}
 			}

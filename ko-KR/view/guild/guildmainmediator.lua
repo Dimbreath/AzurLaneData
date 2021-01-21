@@ -22,6 +22,7 @@ slot0.ON_FETCH_CAPITAL_LOG = "GuildOfficeMediator:ON_FETCH_CAPITAL_LOG"
 slot0.OPEN_EVENT_REPORT = "GuildOfficeMediator:OPEN_EVENT_REPORT"
 slot0.OPEN_EVENT = "GuildOfficeMediator:OPEN_EVENT"
 slot0.OPEN_MAIN = "GuildOfficeMediator:OPEN_MAIN"
+slot0.SWITCH_TO_OFFICE = "GuildOfficeMediator:SWITCH_TO_OFFICE"
 
 function slot0.register(slot0)
 	if getProxy(ContextProxy):getCurrentContext().mediator == NewGuildMediator then
@@ -175,7 +176,11 @@ function slot0.listNotificationInterests(slot0)
 		GAME.OPEN_MSGBOX_DONE,
 		GuildProxy.TECHNOLOGY_START,
 		GAME.GO_WORLD_BOSS_SCENE,
-		GAME.GUILD_START_TECH_DONE
+		GAME.GUILD_START_TECH_DONE,
+		GuildMainMediator.SWITCH_TO_OFFICE,
+		GAME.ON_GUILD_JOIN_EVENT_DONE,
+		GAME.GUILD_JOIN_MISSION_DONE,
+		GAME.GUILD_GET_SUPPLY_AWARD_DONE
 	}
 end
 
@@ -199,9 +204,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayerVO(slot3)
 		slot0.viewComponent:UpdateRes()
-	elseif slot2 == GAME.GUILD_COMMIT_DONATE_DONE then
-		slot4 = getProxy(GuildProxy):getData()
-
+	elseif slot2 == GAME.GUILD_COMMIT_DONATE_DONE or slot2 == GAME.GUILD_GET_SUPPLY_AWARD_DONE then
 		slot0.viewComponent:UpdateNotices(GuildMainScene.NOTIFY_TYPE_OFFICE)
 	elseif GuildProxy.ON_DELETED_MEMBER == slot2 then
 		slot0.viewComponent:OnDeleteMember(slot3.member)
@@ -215,7 +218,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.SUBMIT_GUILD_REPORT_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 		slot0.viewComponent:OnReportUpdated()
-	elseif slot2 == GuildProxy.BATTLE_BTN_FLAG_CHANGE then
+		slot0.viewComponent:UpdateNotices(GuildMainScene.NOTIFY_TYPE_BATTLE)
+		slot0.viewComponent:UpdateNotices(GuildMainScene.NOTIFY_TYPE_MAIN)
+	elseif slot2 == GuildProxy.BATTLE_BTN_FLAG_CHANGE or slot2 == GAME.ON_GUILD_JOIN_EVENT_DONE or slot2 == GAME.GUILD_ACTIVE_EVENT_DONE or slot2 == GAME.GUILD_JOIN_MISSION_DONE then
 		slot0.viewComponent:UpdateNotices(GuildMainScene.NOTIFY_TYPE_BATTLE)
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
@@ -230,6 +235,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:UpdateRes()
 	elseif slot2 == GAME.GO_WORLD_BOSS_SCENE then
 		slot0.contextData.page = nil
+	elseif slot2 == GuildMainMediator.SWITCH_TO_OFFICE then
+		slot0.viewComponent:TriggerOfficePage()
 	end
 end
 

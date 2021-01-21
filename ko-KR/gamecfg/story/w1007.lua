@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "设备运行中………………嗯？",
+			say = "설비 운행 중......... 응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：探测到了海域中塞壬隐藏的稀有资源点。",
+			say = "분석 모듈 동기화 중: 해역에 세이렌이 숨긴 희귀 자원 포인트 발견.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			},
 			options = {
 				{
-					content = "了解",
+					content = "확인",
 					flag = 0
 				}
 			}

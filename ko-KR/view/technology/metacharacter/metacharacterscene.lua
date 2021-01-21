@@ -347,10 +347,7 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 			slot17 = Ship.New({
 				configId = pg.ship_strengthen_meta[slot1.configId].ship_id
 			})
-			slot18 = slot17:getMaxStar()
-
-			print("Star", tostring(slot18), tostring(slot17:getStar()))
-
+			slot19 = slot17:getStar()
 			slot22 = UIItemList.New(slot0:findTF("Empty/Stars", slot5), slot0:findTF("Empty/StarTpl", slot5))
 
 			slot22:make(function (slot0, slot1, slot2)
@@ -358,7 +355,7 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 					setActive(uv0:findTF("On", slot2), slot1 + 1 <= uv1)
 				end
 			end)
-			slot22:align(slot18)
+			slot22:align(slot17:getMaxStar())
 		else
 			slot12 = slot0:findTF("Active/ActType", slot5)
 			slot13 = slot0:findTF("Active/BuildType", slot5)

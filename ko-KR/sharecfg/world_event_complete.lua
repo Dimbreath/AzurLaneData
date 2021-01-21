@@ -5,7 +5,7 @@ pg.world_event_complete = {
 		map_icon = "buff_a2",
 		id = 1,
 		chapter_num = 6,
-		desc = "适应性-破坏增加",
+		desc = "적응력-파괴 증가",
 		tips_icon = {
 			{
 				12,
@@ -24,7 +24,7 @@ pg.world_event_complete = {
 		map_icon = "buff_h2",
 		id = 2,
 		chapter_num = 6,
-		desc = "适应性-装甲增加",
+		desc = "적응력-장갑 증가",
 		tips_icon = {
 			{
 				12,
@@ -43,7 +43,7 @@ pg.world_event_complete = {
 		map_icon = "buff_d2",
 		id = 3,
 		chapter_num = 6,
-		desc = "适应性-感应增加",
+		desc = "적응력-반응 증가",
 		tips_icon = {
 			{
 				12,
@@ -62,7 +62,7 @@ pg.world_event_complete = {
 		map_icon = "buff_a",
 		id = 4,
 		chapter_num = 6,
-		desc = "适应性-破坏大幅度增加",
+		desc = "적응력-파괴 대폭 증가",
 		tips_icon = {
 			{
 				12,
@@ -81,7 +81,7 @@ pg.world_event_complete = {
 		map_icon = "buff_h",
 		id = 5,
 		chapter_num = 6,
-		desc = "适应性-装甲大幅度增加",
+		desc = "적응력-장갑 대폭 증가",
 		tips_icon = {
 			{
 				12,
@@ -100,7 +100,7 @@ pg.world_event_complete = {
 		map_icon = "buff_d",
 		id = 6,
 		chapter_num = 6,
-		desc = "适应性-感应大幅度增加",
+		desc = "적응력-반응 대폭 증가",
 		tips_icon = {
 			{
 				12,
@@ -119,7 +119,7 @@ pg.world_event_complete = {
 		map_icon = "currency",
 		id = 7,
 		chapter_num = 12,
-		desc = "得到大量作战补给凭证",
+		desc = "작전 보급 증빙 대량 획득",
 		tips_icon = {
 			{
 				12,
@@ -141,7 +141,7 @@ pg.world_event_complete = {
 		map_icon = "currency",
 		id = 8,
 		chapter_num = 6,
-		desc = "得到大量作战补给凭证",
+		desc = "작전 보급 증빙 대량 획득",
 		tips_icon = {
 			{
 				12,
@@ -163,7 +163,7 @@ pg.world_event_complete = {
 		map_icon = "currency",
 		id = 9,
 		chapter_num = 9,
-		desc = "得到大量行动力补给道具",
+		desc = "행동력 보급 아이템 대량 획득",
 		tips_icon = {
 			{
 				12,
@@ -185,7 +185,7 @@ pg.world_event_complete = {
 		map_icon = "currency",
 		id = 10,
 		chapter_num = 9,
-		desc = "得到大量维修道具",
+		desc = "수리 아이템 대량 획득",
 		tips_icon = {
 			{
 				12,

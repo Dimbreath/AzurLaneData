@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在港口附近找到了补给。",
+			say = "항구 근처에서 보급을 발견했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -327,16 +327,50 @@ function slot1.UpdatePBEnable(slot0, slot1)
 end
 
 function slot1.BlurCamera(slot0, slot1, slot2)
+	slot3 = slot0.cameraBlurs[slot1][uv0.OptimizedBlur]
+
 	if slot2 then
-		slot0.cameraBlurs[slot1][uv0.OptimizedBlur].enabled = false
-		slot0.cameraBlurs[slot1][uv0.StaticBlur].enabled = true
-	else
-		slot4.enabled = false
 		slot3.enabled = true
+		slot3.staticBlur = true
+		slot0.cameraBlurs[slot1][uv0.StaticBlur].enabled = false
+	else
+		slot3.enabled = true
+		slot3.staticBlur = false
+		slot4.enabled = false
 	end
 end
 
 function slot1.UnblurCamera(slot0, slot1)
 	slot0.cameraBlurs[slot1][uv0.StaticBlur].enabled = false
 	slot0.cameraBlurs[slot1][uv0.OptimizedBlur].enabled = false
+end
+
+function slot1.SetMainCamBlurTexture(slot0, slot1)
+	slot2 = GameObject.Find("MainCamera"):GetComponent(typeof(Camera))
+	slot3 = ReflectionHelp.RefCallStaticMethod(typeof("UnityEngine.RenderTexture"), "GetTemporary", {
+		typeof("System.Int32"),
+		typeof("System.Int32"),
+		typeof("System.Int32")
+	}, {
+		Screen.width,
+		Screen.height,
+		0
+	})
+	slot2.targetTexture = slot3
+
+	slot2:Render()
+
+	slot4 = uv0.ShaderMgr.GetInstance():BlurTexture(slot3)
+	slot2.targetTexture = nil
+
+	ReflectionHelp.RefCallStaticMethod(typeof("UnityEngine.RenderTexture"), "ReleaseTemporary", {
+		typeof("UnityEngine.RenderTexture")
+	}, {
+		slot3
+	})
+
+	slot1.uvRect = slot2.rect
+	slot1.texture = slot4
+
+	return slot4
 end

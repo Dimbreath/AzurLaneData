@@ -22,9 +22,9 @@ function slot0.Setup(slot0, slot1, slot2)
 	slot0.atlas = slot2
 	slot0.transportDic = {}
 
-	table.foreachi(slot0.config.map_transfer, function (slot0, slot1)
-		uv0.transportDic[slot1] = true
-	end)
+	for slot6, slot7 in ipairs(slot0.config.map_transfer) do
+		slot0.transportDic[slot7] = true
+	end
 
 	slot0.marks = {
 		task_main = 0,

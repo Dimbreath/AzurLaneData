@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：塞壬的增援舰队已抵达。",
+			say = "경고: 세이렌 증원 함대 도착.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

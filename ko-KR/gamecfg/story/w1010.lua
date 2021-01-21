@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "设备能量耗尽，这里已经没有任何有价值的东西了。",
+			say = "설비 에너지가 소진되었다. 이제 이곳에는 쓸모 있는 것이 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			},
 			options = {
 				{
-					content = "离开",
+					content = "퇴장",
 					flag = 1
 				}
 			}

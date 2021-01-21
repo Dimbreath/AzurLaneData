@@ -7,7 +7,7 @@ return {
 				"ForceClick"
 			},
 			style = {
-				text = "您已经到达大型作战海域，请点击出发区域",
+				text = "대형 작전 해역에 도착했습니다. 출발 구역을 터치하세요.",
 				mode = 2,
 				dir = -1,
 				posY = -260,

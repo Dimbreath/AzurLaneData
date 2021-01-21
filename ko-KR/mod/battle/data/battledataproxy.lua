@@ -779,7 +779,7 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	uv1.MonsterAttrFixer(slot0._battleInitData.battleType, slot11)
 
-	if slot11:GetMaxHP() * slot0._repressEnemyHpRant <= 0 then
+	if math.ceil(slot11:GetMaxHP() * slot0._repressEnemyHpRant) <= 0 then
 		slot12 = 1
 	end
 
@@ -1070,13 +1070,17 @@ function slot8.KillWaveSummonMonster(slot0, slot1)
 end
 
 function slot8.IsThereBoss(slot0)
-	for slot4, slot5 in pairs(slot0:GetUnitList()) do
-		if slot5:IsBoss() and slot5:IsAlive() then
-			return true
+	return slot0:GetActiveBossCount() > 0
+end
+
+function slot8.GetActiveBossCount(slot0)
+	for slot5, slot6 in pairs(slot0:GetUnitList()) do
+		if slot6:IsBoss() and slot6:IsAlive() then
+			slot1 = 0 + 1
 		end
 	end
 
-	return false
+	return slot1
 end
 
 function slot8.setShipUnitBound(slot0, slot1)

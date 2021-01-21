@@ -65,7 +65,7 @@ function slot0.Show(slot0, slot1)
 			slot4 = ChatConst.ChannelGuild
 			slot5 = i18n("world_word_guild_member")
 		else
-			slot4 = ChatConst.ChannelWorld
+			slot4 = ChatConst.ChannelWorldBoss
 			slot5 = i18n("world_word_guild_player")
 		end
 
@@ -161,7 +161,7 @@ function slot4(slot0, slot1)
 end
 
 function slot0.OnClick(slot0, slot1, slot2, slot3, slot4)
-	if not nowWorld then
+	if not nowWorld or not slot5:IsActivate() then
 		return
 	end
 

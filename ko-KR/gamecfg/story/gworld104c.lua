@@ -13,7 +13,7 @@ return {
 			bgm = "story-richang",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，在大型作战过程中获得的材料都被放置在储物仓中。",
+			say = "지휘관님, 대형 작전 중 획득한 재료는 모두 저장 창고에 들어갑니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "引导指令已确认：指挥官，请查看一下储物仓吧。",
+			say = "가이드 명령 확인. 지휘관님, 저장 창고를 확인하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

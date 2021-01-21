@@ -7,7 +7,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "点击打开储物仓。",
+				text = "터치하여 창고 열기",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -35,7 +35,7 @@ return {
 				"openBox"
 			},
 			style = {
-				text = "点击战役信息记录仪。",
+				text = "전역 정보 기록기 터치",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -63,7 +63,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击使用。",
+				text = "터치하여 사용",
 				mode = 2,
 				dir = 1,
 				char = "1",
