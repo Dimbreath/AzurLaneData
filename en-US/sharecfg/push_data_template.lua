@@ -63,6 +63,13 @@ pg.push_data_template = {
 		content = "Meowfficer training has been completed, nya! Let's go greet our new little friend, nya!",
 		desc = "Enables push notifications for when a Meowfficer has finished training."
 	},
+	{
+		alignment = 0,
+		id = 10,
+		title = "Dispatch notification, nya! ",
+		content = "Another fleet can be dispatched on your Guild Operation, nya! Come check back and make sure your operation is a success, nya! ",
+		desc = "Enable push notifications for when Guild Event dispatch is refreshed"
+	},
 	all = {
 		1,
 		2,
@@ -72,6 +79,7 @@ pg.push_data_template = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

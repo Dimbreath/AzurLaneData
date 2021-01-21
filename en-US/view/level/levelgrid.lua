@@ -280,6 +280,8 @@ function slot0.clearAll(slot0)
 
 		slot0.dragTrigger = nil
 	end
+
+	LeanTween.cancel(slot0._tf)
 end
 
 slot5 = 640
@@ -848,6 +850,10 @@ function slot0.updateFleet(slot0, slot1)
 						uv1.material = uv0
 					end)):setOnComplete(System.Action(function ()
 						uv0.material = uv1
+
+						if uv2.exited then
+							return
+						end
 
 						uv2:unfrozen()
 					end))
@@ -2263,6 +2269,11 @@ function slot0.moveCellView(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 				slot3.localScale = Vector3.one
 			end
 		end)
+
+		if uv0.exited then
+			return
+		end
+
 		uv3:setAction(ChapterConst.ShipIdleAction)
 		uv8()
 		uv0:unfrozen()
@@ -2363,12 +2374,11 @@ function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
 			uv1.tfAmmo.anchoredPosition = Vector2.Lerp(uv2, uv3, slot0)
 		end
 	end)):setOnComplete(System.Action(function ()
-		uv0:unfrozen()
-
 		if uv0.exited then
 			return
 		end
 
+		uv0:unfrozen()
 		uv1:SetActiveModel(not uv2)
 
 		if uv3 then
@@ -2471,6 +2481,10 @@ function slot0.cameraFocus(slot0, slot1, slot2)
 
 	slot0.dragTrigger.enabled = false
 	slot7 = LeanTween.moveLocal(slot0._tf.gameObject, slot6, 0.4):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
+		if uv0.exited then
+			return
+		end
+
 		uv0.dragTrigger.enabled = true
 
 		uv0:unfrozen()
@@ -3146,14 +3160,18 @@ function slot0.AlignListContainer(slot0, slot1)
 	end
 end
 
-function slot0.frozen(slot0, slot1)
-	slot0.parent:frozen(slot1)
+function slot0.frozen(slot0)
+	slot0.forzenCount = (slot0.forzenCount or 0) + 1
+
+	slot0.parent:frozen()
 end
 
 function slot0.unfrozen(slot0)
 	if slot0.exited then
 		return
 	end
+
+	slot0.forzenCount = (slot0.forzenCount or 0) - 1
 
 	slot0.parent:unfrozen()
 end
@@ -3164,6 +3182,10 @@ end
 
 function slot0.clear(slot0)
 	slot0:clearAll()
+
+	if (slot0.forzenCount or 0) > 0 then
+		slot0.parent:unfrozen(slot0.forzenCount)
+	end
 end
 
 return slot0

@@ -99,9 +99,9 @@ slot0.COLLETION_EVENT_OP_GIVE_UP = 3
 slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
-			2020,
-			12,
-			29
+			2021,
+			1,
+			21
 		},
 		{
 			0,
@@ -112,8 +112,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2021,
-			1,
-			13
+			2,
+			3
 		},
 		{
 			23,

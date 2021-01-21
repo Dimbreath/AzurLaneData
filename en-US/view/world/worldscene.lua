@@ -1665,9 +1665,13 @@ function slot0.UpdateSystemOpen(slot0)
 		setActive(slot0.rtTopAtlas:Find("reset_coutdown"), slot6)
 
 		if slot6 then
-			setActive(slot5:Find("zero"), math.floor(nowWorld:GetResetWaitingTime() / 86400) == 0)
-			setActive(slot5:Find("over"), slot8 > 0)
-			setText(slot5:Find("over/Text"), slot8)
+			if math.floor(nowWorld:GetResetWaitingTime() / 86400) > 0 then
+				setText(slot5:Find("Text"), i18n("world_reset_1", string.format("  %d  ", slot8)))
+			elseif slot8 == 0 then
+				setText(slot5:Find("Text"), i18n("world_reset_2", string.format("  %d  ", 0)))
+			elseif slot8 < 0 then
+				setText(slot5:Find("Text"), i18n("world_reset_3"))
+			end
 		end
 
 		setActive(slot0.wsAtlasBottom.btnShop, nowWorld:IsSystemOpen(WorldConst.SystemResetShop))
@@ -1939,7 +1943,7 @@ function slot0.CheckGuideSLG(slot0, slot1, slot2)
 	table.insert(slot3, {
 		"WorldG007",
 		function ()
-			return uv0:InPort(uv1.id, nowWorld.realm)
+			return uv0:InPort(uv1.id, nowWorld:GetRealm())
 		end
 	})
 	table.insert(slot3, {

@@ -3392,6 +3392,30 @@ pg.skill_data_display = {
 		id = 14002,
 		name = "Fiendish Rampage"
 	},
+	[14030] = {
+		id = 14030,
+		name = "Ontological Rudder"
+	},
+	[14040] = {
+		id = 14040,
+		name = "Protologia of Illumination"
+	},
+	[14050] = {
+		id = 14050,
+		name = "Viola Spear"
+	},
+	[14051] = {
+		id = 14051,
+		name = "Viola Spear"
+	},
+	[14052] = {
+		id = 14052,
+		name = "Viola Spear"
+	},
+	[14060] = {
+		id = 14060,
+		name = "Audacious Challenger"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -4406,6 +4430,14 @@ pg.skill_data_display = {
 	},
 	[25012] = {
 		id = 25012,
+		name = "All Out Assault Ⅱ"
+	},
+	[25021] = {
+		id = 25021,
+		name = "All Out Assault Ⅰ"
+	},
+	[25022] = {
+		id = 25022,
 		name = "All Out Assault Ⅱ"
 	},
 	[25211] = {
@@ -6229,6 +6261,12 @@ pg.skill_data_display = {
 		13993,
 		14001,
 		14002,
+		14030,
+		14040,
+		14050,
+		14051,
+		14052,
+		14060,
 		18010,
 		18040,
 		18041,
@@ -6483,6 +6521,8 @@ pg.skill_data_display = {
 		24122,
 		25011,
 		25012,
+		25021,
+		25022,
 		25211,
 		25212,
 		25221,

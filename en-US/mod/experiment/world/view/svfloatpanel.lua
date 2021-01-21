@@ -11,11 +11,10 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot1 = slot0._tf
-	slot0.rtBasePoint = slot1:Find("point")
+	slot0.rtBasePoint = slot0._tf:Find("point")
 	slot0.rtInfoPanel = slot0.rtBasePoint:Find("line/bg")
-	slot0.rtPressingMark = slot0.rtInfoPanel:Find("icon/pressing")
-	slot0.rtRes = slot1:Find("res")
+	slot0.rtMarking = slot0.rtInfoPanel:Find("icon/marking")
+	slot0.rtRes = slot0._tf:Find("res")
 	slot0.awardItemList = UIItemList.New(slot0.rtInfoPanel:Find("pressing_award"), slot0.rtInfoPanel:Find("pressing_award/award_tpl"))
 
 	slot0.awardItemList:make(function (slot0, slot1, slot2)
@@ -30,18 +29,21 @@ function slot0.OnInit(slot0)
 			onButton(uv0, slot2:Find("IconTpl"), function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setActive(slot2:Find("is_pressing"), uv0.destMap.isPressing)
-			setActive(slot2:Find("IconTpl"), not uv0.destMap.isPressing)
+
+			slot5 = uv0.mapList[uv0.destIndex]
+
+			setActive(slot2:Find("is_pressing"), slot5.isPressing)
+			setActive(slot2:Find("IconTpl"), not slot5.isPressing)
 		end
 	end)
 
 	slot0.btnBack = slot0.rtInfoPanel:Find("back")
 
 	onButton(slot0, slot0.btnBack, function ()
-		if uv0.entrance.active then
+		if uv0.mapList[uv0.destIndex].active then
 			uv0:emit(WorldScene.SceneOp, "OpSetInMap", true)
 		else
-			uv0:emit(WorldScene.SceneOp, "OpTransport", uv0.entrance)
+			uv0:emit(WorldScene.SceneOp, "OpTransport", uv0.entrance, slot0)
 		end
 	end, SFX_CONFIRM)
 
@@ -50,7 +52,7 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.btnEnter, function ()
 		slot0 = {}
 
-		if WorldConst.HasDangerConfirm(uv0.destMap.config.entrance_ui) then
+		if WorldConst.HasDangerConfirm(uv0.mapList[uv0.destIndex].config.entrance_ui) then
 			table.insert(slot0, function (slot0)
 				uv0:emit(WorldScene.SceneOp, "OpCall", function (slot0)
 					slot0()
@@ -63,10 +65,10 @@ function slot0.OnInit(slot0)
 		end
 
 		seriesAsync(slot0, function ()
-			if not uv0.destMap.isCost and nowWorld.staminaMgr:GetTotalStamina() < uv0.destMap.config.enter_cost then
+			if not uv0.isCost and nowWorld.staminaMgr:GetTotalStamina() < uv0.config.enter_cost then
 				nowWorld.staminaMgr:Show()
 			else
-				uv0:emit(WorldScene.SceneOp, "OpTransport", uv0.entrance)
+				uv1:emit(WorldScene.SceneOp, "OpTransport", uv1.entrance, uv0)
 			end
 		end)
 	end, SFX_CONFIRM)
@@ -77,6 +79,48 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.btnReturn, function ()
 		uv0:emit(uv1.ReturnCall, uv0.entrance)
 	end, SFX_CONFIRM)
+
+	slot0.btnSwitch = slot0.rtInfoPanel:Find("switch")
+
+	onButton(slot0, slot0.btnSwitch, function ()
+		if uv0.isTweening then
+			return
+		end
+
+		uv0:ShowToggleMask()
+	end, SFX_PANEL)
+
+	slot0.rtSelectMask = slot0._tf:Find("select_mask")
+
+	onButton(slot0, slot0.rtSelectMask:Find("bg"), function ()
+		if uv0.isTweening then
+			return
+		end
+
+		uv0:HideToggleMask()
+	end, SFX_PANEL)
+
+	slot0.rtMaskMarking = slot0.rtSelectMask:Find("marking")
+	slot0.rtToggles = slot0.rtSelectMask:Find("toggles")
+	slot0.toggleItemList = UIItemList.New(slot0.rtToggles, slot0.rtToggles:Find("toggle"))
+
+	slot0.toggleItemList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot4, slot5 = World.ReplacementMapType(uv0.entrance, uv0.mapList[slot1 + 1])
+
+			setText(slot2:Find("Text"), slot5)
+			onToggle(uv0, slot2, function (slot0)
+				if slot0 then
+					uv0:HideToggleMask()
+
+					uv0.destIndex = uv1
+
+					uv0:UpdatePanel()
+				end
+			end, SFX_PANEL)
+			triggerToggle(slot2, false)
+		end
+	end)
 end
 
 function slot0.OnDestroy(slot0)
@@ -91,75 +135,123 @@ function slot0.Hide(slot0)
 end
 
 function slot0.Setup(slot0, slot1, slot2, slot3)
+	slot0.isTransport = slot3
 	slot0.entrance = slot1
-	slot0.destMap = nowWorld:EntranceToDisplayMap(slot1)
 
 	setAnchoredPosition(slot0.rtBasePoint, slot0._tf:InverseTransformPoint(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)):ScreenToWorldPoint(slot2:GetMapScreenPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])))))
-	slot0:UpdatePanel(slot3)
+
+	slot0.mapList = nowWorld:EntranceToReplacementMapList(slot1)
+
+	slot0.toggleItemList:align(#slot0.mapList)
+	triggerToggle(slot0.rtToggles:GetChild(0), true)
 end
 
-function slot0.UpdatePanel(slot0, slot1)
-	slot2 = nowWorld
-	slot6 = World.ReplacementMapType(slot0.entrance, slot0.destMap) == "complete_chapter" and "safe" or WorldConst.GetMapIconState(slot4.config.entrance_ui)
+function slot0.setColorfulImage(slot0, slot1, slot2, slot3)
+	setImageSprite(slot1, getImageSprite(slot0.rtRes:Find(slot1.name .. "/" .. slot2)), defaultValue(slot3, true))
+end
 
-	setImageSprite(slot0.rtBasePoint, getImageSprite(slot0.rtRes:Find(slot0.rtBasePoint.name .. "/" .. slot6)), true)
-	setImageSprite(slot0.rtInfoPanel, getImageSprite(slot0.rtRes:Find(slot0.rtInfoPanel.name .. "/" .. slot6)))
-	setImageSprite(slot0.rtInfoPanel:Find("icon"), GetSpriteFromAtlas("world/mapicon/" .. slot4.config.entrance_mapicon, ""))
-	setImageSprite(slot0.btnBack, getImageSprite(slot0.rtRes:Find(slot0.btnBack.name .. "/" .. slot6)), true)
-	setImageSprite(slot0.btnEnter, getImageSprite(slot0.rtRes:Find(slot0.btnEnter.name .. "/" .. slot6)), true)
-	setImageSprite(slot0.rtPressingMark, getImageSprite(slot0.rtRes:Find(slot0.rtPressingMark.name .. "/" .. slot6)), true)
-	setActive(slot0.rtPressingMark, slot5 == "complete_chapter" or slot4.isPressing)
-	setActive(slot0.rtInfoPanel:Find("sairen"), slot5 == "sairen_chapter")
-	setText(slot0.rtInfoPanel:Find("danger_text"), slot4:IsMapOpen() and slot4:GetDanger() or "?")
-	changeToScrollText(slot0.rtInfoPanel:Find("title/name"), slot4:GetName(slot0.entrance:GetBaseMap()))
+function slot0.UpdatePanel(slot0)
+	slot1 = nowWorld
+	slot4, slot5 = World.ReplacementMapType(slot0.entrance, slot0.mapList[slot0.destIndex])
+	slot6 = slot4 == "complete_chapter" and "safe" or WorldConst.GetMapIconState(slot3.config.entrance_ui)
+	slot8 = slot0.isTransport
 
-	slot9, slot10, slot11 = slot2:CountAchievements(slot0.entrance)
+	slot0:setColorfulImage(slot0.rtBasePoint, slot6)
+	slot0:setColorfulImage(slot0.rtInfoPanel, slot6, false)
+	setImageSprite(slot0.rtInfoPanel:Find("icon"), GetSpriteFromAtlas("world/mapicon/" .. slot3.config.entrance_mapicon, ""))
+	slot0:setColorfulImage(slot0.btnBack, slot6)
+	slot0:setColorfulImage(slot0.btnEnter, slot6)
+	slot0:setColorfulImage(slot0.rtMarking, slot6)
+	slot0:setColorfulImage(slot0.rtMarking:Find("mark_bg"), slot6)
+	slot0:setColorfulImage(slot0.rtMaskMarking, slot6)
+	slot0:setColorfulImage(slot0.rtMaskMarking:Find("mark_bg"), slot6)
+	setText(slot0.rtMarking:Find("Text"), slot5)
+	setText(slot0.rtMaskMarking:Find("Text"), slot5)
+	setActive(slot0.rtInfoPanel:Find("sairen"), slot4 == "sairen_chapter")
+	setText(slot0.rtInfoPanel:Find("sairen/Text"), i18n("area_yaosai_2"))
+	setText(slot0.rtInfoPanel:Find("danger_text"), slot3:IsMapOpen() and slot3:GetDanger() or "?")
+	changeToScrollText(slot0.rtInfoPanel:Find("title/name"), slot3:GetName(slot0.entrance:GetBaseMap()))
 
-	setText(slot0.rtInfoPanel:Find("title/achievement/number"), slot9 + slot10 .. "/" .. slot11)
-	setActive(slot0.rtInfoPanel:Find("pressing_award"), slot2:GetPressingAward(slot4.id) and slot12.flag)
+	slot10, slot11, slot12 = slot1:CountAchievements(slot0.entrance)
 
-	if slot12 and slot12.flag then
-		slot0.awardConfig = pg.world_event_complete[slot12.id].tips_icon
+	setText(slot0.rtInfoPanel:Find("title/achievement/number"), slot10 + slot11 .. "/" .. slot12)
+	setActive(slot0.rtInfoPanel:Find("pressing_award"), slot1:GetPressingAward(slot3.id) and slot13.flag)
+
+	if slot13 and slot13.flag then
+		slot0.awardConfig = pg.world_event_complete[slot13.id].tips_icon
 
 		slot0.awardItemList:align(#slot0.awardConfig)
 	end
 
 	slot0:UpdateCost()
 
-	slot14 = slot0.entrance
-
 	if slot7 then
-		if slot1 then
-			setActive(slot0.btnBack, nowWorld:GetAtlas():GetActiveEntrance() == slot14 or slot0.destMap.isCost)
-			setActive(slot0.btnEnter, not isActive(slot0.btnBack) and slot13.transportDic[slot14.id])
+		if slot8 then
+			setActive(slot0.btnBack, nowWorld:GetAtlas():GetActiveMap() == slot3 or slot3.isCost)
+			setActive(slot0.btnEnter, not isActive(slot0.btnBack) and slot14.transportDic[slot0.entrance.id])
 			setText(slot0.btnLock:Find("Text"), i18n("world_map_locked_border"))
 		else
-			setActive(slot0.btnBack, slot15 == slot14)
+			setActive(slot0.btnBack, slot16 == slot3)
 			setActive(slot0.btnEnter, false)
 		end
 
-		setActive(slot0.btnLock, slot1 and not isActive(slot0.btnBack) and not isActive(slot0.btnEnter))
-		setActive(slot0.btnReturn, not slot1 and not isActive(slot0.btnBack) and not isActive(slot0.btnEnter))
+		setActive(slot0.btnLock, slot8 and not isActive(slot0.btnBack) and not isActive(slot0.btnEnter))
+		setActive(slot0.btnReturn, not slot8 and not isActive(slot0.btnBack) and not isActive(slot0.btnEnter))
 	else
-		if slot1 then
+		if slot8 then
 			setText(slot0.btnLock:Find("Text"), i18n("world_map_locked_stage"))
 		end
 
 		setActive(slot0.btnBack, false)
 		setActive(slot0.btnEnter, false)
-		setActive(slot0.btnLock, slot1)
-		setActive(slot0.btnReturn, not slot1)
+		setActive(slot0.btnLock, slot8)
+		setActive(slot0.btnReturn, not slot8)
 	end
 end
 
 function slot0.UpdateCost(slot0)
-	slot1 = slot0.btnEnter:Find("cost")
+	slot1 = slot0.mapList[slot0.destIndex]
+	slot2 = slot0.btnEnter:Find("cost")
 
-	setActive(slot1, not slot0.destMap.isCost)
+	setActive(slot2, not slot1.isCost)
 
-	slot2 = nowWorld.staminaMgr:GetTotalStamina()
+	slot3 = nowWorld.staminaMgr:GetTotalStamina()
 
-	setText(slot1:Find("Text"), setColorStr(slot2, slot2 < slot0.destMap.config.enter_cost and COLOR_RED or COLOR_GREEN) .. "/" .. slot3)
+	setText(slot2:Find("Text"), setColorStr(slot3, slot3 < slot1.config.enter_cost and COLOR_RED or COLOR_GREEN) .. "/" .. slot4)
+end
+
+function slot0.ShowToggleMask(slot0)
+	slot0.isTweening = true
+
+	setActive(slot0.rtMarking, false)
+	setActive(slot0.rtSelectMask, true)
+	setActive(slot0.rtToggles, false)
+	setAnchoredPosition(slot0.rtMaskMarking, {
+		y = 87
+	})
+	LeanTween.moveY(slot0.rtMaskMarking, 230, 0.2):setOnComplete(System.Action(function ()
+		setActive(uv0.rtToggles, true)
+
+		uv0.isTweening = false
+	end))
+	setActive(slot0.btnSwitch, false)
+end
+
+function slot0.HideToggleMask(slot0)
+	slot0.isTweening = true
+
+	setActive(slot0.rtToggles, false)
+	setAnchoredPosition(slot0.rtMaskMarking, {
+		y = 230
+	})
+	LeanTween.moveY(slot0.rtMaskMarking, 87, 0.2):setOnComplete(System.Action(function ()
+		setActive(uv0.rtSelectMask, false)
+		setActive(uv0.rtMarking, true)
+
+		uv0.isTweening = false
+
+		setActive(uv0.btnSwitch, uv0.isTransport and #uv0.mapList > 1)
+	end))
 end
 
 return slot0

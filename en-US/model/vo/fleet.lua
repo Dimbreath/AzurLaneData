@@ -642,46 +642,51 @@ function slot0.clearFleet(slot0)
 	end
 end
 
-function slot0.EnergyCheck(slot0, slot1, slot2, slot3)
-	slot3 = slot3 or "ship_energy_low_warn"
-	slot4 = {}
+function slot0.EnergyCheck(slot0, slot1, slot2, slot3, slot4)
+	slot4 = slot4 or "ship_energy_low_warn"
+	slot5 = {}
 
-	for slot8, slot9 in ipairs(slot0) do
-		if slot9.energy == Ship.ENERGY_LOW then
-			table.insert(slot4, slot9)
+	for slot9, slot10 in ipairs(slot0) do
+		if slot10.energy == Ship.ENERGY_LOW then
+			table.insert(slot5, slot10)
 		end
 	end
 
-	if #slot4 > 0 then
-		slot5 = ""
-		slot4 = _.map(slot4, function (slot0)
+	if #slot5 > 0 then
+		slot6 = ""
+		slot5 = _.map(slot5, function (slot0)
 			return "「" .. slot0:getConfig("name") .. "」"
 		end)
 
-		if PLATFORM_CODE ~= PLATFORM_US or #slot4 == 1 then
-			slot3 = slot3 or "ship_energy_low_warn"
+		if PLATFORM_CODE ~= PLATFORM_US or #slot5 == 1 then
+			slot4 = slot4 or "ship_energy_low_warn"
 
-			for slot9, slot10 in ipairs(slot4) do
-				slot5 = slot5 .. slot10
+			for slot10, slot11 in ipairs(slot5) do
+				slot6 = slot6 .. slot11
 			end
 		else
-			slot3 = "multiple_" .. slot3
+			slot4 = "multiple_" .. slot4
 
-			for slot9 = 1, #slot4 - 2 do
-				slot5 = slot5 .. slot4[slot9] .. ", "
+			for slot10 = 1, #slot5 - 2 do
+				slot6 = slot6 .. slot5[slot10] .. ", "
 			end
 
-			slot5 = slot5 .. slot4[#slot4 - 1] .. " and " .. slot4[#slot4]
+			slot6 = slot6 .. slot5[#slot5 - 1] .. " and " .. slot5[#slot5]
 		end
 
+		existCall(slot3, false)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n(slot3, slot1, slot5),
+			content = i18n(slot4, slot1, slot6),
 			onYes = function ()
 				uv0(true)
+			end,
+			onNo = function ()
+				uv0(false)
 			end,
 			weight = LayerWeightConst.TOP_LAYER
 		})
 	else
+		existCall(slot3, true)
 		slot2(true)
 	end
 end

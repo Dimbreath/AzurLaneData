@@ -45,7 +45,7 @@ function slot0.register(slot0)
 			slot6.id = uv0.contextData.mapId
 			slot6.enter_map_id = uv0.contextData.entranceId
 			slot6.elite_fleet_list = slot1:FormationIds2NetIds(uv0.contextData.fleets)
-			slot6.camp = slot1.realm
+			slot6.camp = slot1:GetRealm()
 
 			uv0:sendNotification(GAME.WORLD_ACTIVATE, {})
 		else

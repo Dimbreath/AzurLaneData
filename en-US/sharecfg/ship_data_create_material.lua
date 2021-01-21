@@ -82,11 +82,12 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Prinz Heinrich</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Peter Strasser</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>U-37</color>：0.5%",
-			"<color=#d797ff>Nürnberg</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Weser</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Zara</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Pola</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Formidable</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Littorio</color>：0.5%",
+			"<color=#d797ff>Vincenzo Gioberti</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Giulio Cesare</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

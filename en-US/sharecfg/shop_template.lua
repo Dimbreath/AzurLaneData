@@ -8409,6 +8409,168 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60227] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给（意大利复刻）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60227,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60228] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给（意大利复刻）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60228,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60229] = {
+		group_type = 0,
+		resource_num = 500,
+		desc = "500钻石购买家具币礼包（意大利复刻）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60229,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40106
+		},
+		time = {
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -16996,7 +17158,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8778,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -17011,9 +17173,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					1,
+					21
 				},
 				{
 					0,
@@ -17023,9 +17185,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					2,
+					3
 				},
 				{
 					23,
@@ -17045,7 +17207,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8777,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -17060,9 +17222,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					1,
+					21
 				},
 				{
 					0,
@@ -17072,9 +17234,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					2,
+					3
 				},
 				{
 					23,
@@ -17094,7 +17256,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8778,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -17109,9 +17271,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					1,
+					21
 				},
 				{
 					0,
@@ -17121,9 +17283,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					2,
+					3
 				},
 				{
 					23,
@@ -17143,7 +17305,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8778,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -17158,9 +17320,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					1,
+					21
 				},
 				{
 					0,
@@ -17170,9 +17332,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					2,
+					3
 				},
 				{
 					23,
@@ -17192,7 +17354,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8778,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -17207,9 +17369,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					1,
+					21
 				},
 				{
 					0,
@@ -17219,9 +17381,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					2,
+					3
 				},
 				{
 					23,
@@ -17241,7 +17403,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8778,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -17256,9 +17418,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					1,
+					21
 				},
 				{
 					0,
@@ -17268,9 +17430,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					2,
+					3
 				},
 				{
 					23,
@@ -23146,7 +23308,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 8779,
+		order = 8776,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -28624,6 +28786,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70479] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤:大黄蜂必胜客",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8776,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70479,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			107072
+		},
+		time = {
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -30648,6 +30859,153 @@ pg.shop_template = {
 					2021,
 					1,
 					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90070] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：维托里奥·阿尔菲耶里皮肤",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 3,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 184,
+		id = 90070,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			605021
+		},
+		time = {
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90071] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：扎拉-泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 184,
+		id = 90071,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			603021
+		},
+		time = {
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90072] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：可畏",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 184,
+		id = 90072,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207051
+		},
+		time = {
+			{
+				{
+					2021,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					3
 				},
 				{
 					23,
@@ -33474,6 +33832,9 @@ pg.shop_template = {
 		60224,
 		60225,
 		60226,
+		60227,
+		60228,
+		60229,
 		61001,
 		61002,
 		61003,
@@ -33939,6 +34300,7 @@ pg.shop_template = {
 		70476,
 		70477,
 		70478,
+		70479,
 		90001,
 		90002,
 		90003,
@@ -33991,6 +34353,9 @@ pg.shop_template = {
 		90067,
 		90068,
 		90069,
+		90070,
+		90071,
+		90072,
 		99000,
 		99001,
 		99002,

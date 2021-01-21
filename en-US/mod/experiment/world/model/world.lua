@@ -186,12 +186,6 @@ function slot0.CheckReset(slot0, slot1)
 	return slot0:IsActivate() and (slot1 or slot0:CheckResetProgress()) and slot0:GetResetWaitingTime() < 0
 end
 
-function slot0.SetupRealm(slot0, slot1)
-	if slot0.realm ~= slot1 then
-		slot0.realm = slot1
-	end
-end
-
 function slot0.GetAtlas(slot0)
 	return slot0.atlas
 end
@@ -250,6 +244,16 @@ end
 
 function slot0.GetProgress(slot0)
 	return slot0.progress
+end
+
+function slot0.SetRealm(slot0, slot1)
+	if slot0.realm ~= slot1 then
+		slot0.realm = slot1
+	end
+end
+
+function slot0.GetRealm(slot0)
+	return 1
 end
 
 function slot0.GetCurrentProgress(slot0)
@@ -495,39 +499,40 @@ function slot0.IsRookie(slot0)
 	return slot0.activateCount == 0 and slot0.progress <= 0
 end
 
-function slot0.EntranceToDisplayMap(slot0, slot1)
+function slot0.EntranceToReplacementMapList(slot0, slot1)
+	for slot7, slot8 in ipairs(slot1:GetBaseMap().config.stage_chapter) do
+		if slot8[1] <= slot0:GetProgress() and slot0:GetProgress() <= slot8[2] then
+			table.insert({}, slot0:GetMap(slot8[3]))
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot3.config.task_chapter) do
+		if slot0.taskProxy:getTaskById(slot8[1]) and slot9:getState() == WorldTask.STATE_ONGOING then
+			table.insert(slot2, slot0:GetMap(slot8[2]))
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot3.config.teasure_chapter) do
+		if slot0.inventoryProxy:GetItemCount(slot8[1]) > 0 then
+			table.insert(slot2, slot0:GetMap(slot8[2]))
+		end
+	end
+
+	if slot3.becomeSairen then
+		table.insert(slot2, slot0:GetMap(slot3.config.sairen_chapter[1]))
+	end
+
+	if slot3.isPressing and #slot3.config.complete_chapter > 0 then
+		table.insert(slot2, slot0:GetMap(slot3.config.complete_chapter[1]))
+	end
+
+	table.insert(slot2, slot3)
+
 	if slot1.active then
-		return slot0:GetAtlas():GetActiveMap()
-	else
-		return slot0:EntranceToReplacementMap(slot1)
-	end
-end
+		slot4 = slot0:GetActiveMap()
 
-function slot0.EntranceToReplacementMap(slot0, slot1)
-	for slot6, slot7 in ipairs(slot1:GetBaseMap().config.stage_chapter) do
-		if slot7[1] <= slot0:GetProgress() and slot0:GetProgress() <= slot7[2] then
-			return slot0:GetMap(slot7[3])
-		end
-	end
-
-	for slot6, slot7 in ipairs(slot2.config.task_chapter) do
-		if slot0.taskProxy:getTaskById(slot7[1]) and slot8:getState() == WorldTask.STATE_ONGOING then
-			return slot0:GetMap(slot7[2])
-		end
-	end
-
-	for slot6, slot7 in ipairs(slot2.config.teasure_chapter) do
-		if slot0.inventoryProxy:GetItemCount(slot7[1]) > 0 then
-			return slot0:GetMap(slot7[2])
-		end
-	end
-
-	if slot2.becomeSairen then
-		return slot0:GetMap(slot2.config.sairen_chapter[1])
-	end
-
-	if slot2.isPressing and #slot2.config.complete_chapter > 0 then
-		return slot0:GetMap(slot2.config.complete_chapter[1])
+		table.removebyvalue(slot2, slot4)
+		table.insert(slot2, 1, slot4)
 	end
 
 	return slot2
@@ -536,29 +541,31 @@ end
 function slot0.ReplacementMapType(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0:GetBaseMap().config.stage_chapter) do
 		if slot7[3] == slot1.id then
-			return "stage_chapter"
+			return "stage_chapter", i18n("area_zhuxian")
 		end
 	end
 
 	for slot6, slot7 in ipairs(slot2.config.task_chapter) do
 		if slot7[2] == slot1.id then
-			return "task_chapter"
+			return "task_chapter", pg.world_task_data[slot7[1]].type == 0 and i18n("area_zhuxian") or i18n("area_renwu")
 		end
 	end
 
 	for slot6, slot7 in ipairs(slot2.config.teasure_chapter) do
 		if slot7[2] == slot1.id then
-			return "teasure_chapter"
+			return "teasure_chapter", pg.world_item_data_template[slot7[1]].usage_arg[1] == 1 and i18n("area_shenyuan") or i18n("area_yinmi")
 		end
 	end
 
 	if slot2.config.sairen_chapter[1] == slot1.id then
-		return "sairen_chapter"
+		return "sairen_chapter", i18n("area_yaosai")
 	end
 
 	if slot2.config.complete_chapter[1] == slot1.id then
-		return "complete_chapter"
+		return "complete_chapter", i18n("area_anquan")
 	end
+
+	return "base_chapter", i18n("area_putong")
 end
 
 function slot0.FindTreasureEntrance(slot0, slot1)
@@ -845,9 +852,9 @@ function slot0.CompareRedeploy(slot0, slot1)
 end
 
 function slot0.IsSystemOpen(slot0, slot1)
-	for slot5, slot6 in ipairs(pg.world_stage_template.all) do
-		if pg.world_stage_template[slot6].stage_ui[1] == slot1 and (slot7.stage_ui[2] == 0 or slot7.stage_ui[2] == slot0.realm) then
-			return slot7.stage_key <= slot0:GetProgress()
+	for slot6, slot7 in ipairs(pg.world_stage_template.all) do
+		if pg.world_stage_template[slot7].stage_ui[1] == slot1 and (slot8.stage_ui[2] == 0 or slot8.stage_ui[2] == slot0:GetRealm()) then
+			return slot8.stage_key <= slot0:GetProgress()
 		end
 	end
 

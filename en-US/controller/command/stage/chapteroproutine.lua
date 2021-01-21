@@ -155,24 +155,19 @@ end
 
 function slot0.doMove(slot0)
 	slot1 = slot0.op
-	slot4 = slot0.chapter.fleet
 	slot5 = nil
 
 	if #slot0.data.move_path > 0 then
-		slot5 = _.rest(slot2.move_path, 1)
-		slot7, slot8 = slot3:findPath(ChapterConst.SubjectPlayer, slot4.line, {
-			row = slot1.arg1,
-			column = slot1.arg2
-		})
-
-		if slot7 < PathFinding.PrioObstacle and #slot8 >= #slot2.move_path then
-			slot5 = slot8
-		end
-
-		slot9 = slot2.move_path[#slot2.move_path]
-		slot4.line = {
-			row = slot9.row,
-			column = slot9.column
+		slot5 = _.map(_.rest(slot2.move_path, 1), function (slot0)
+			return {
+				row = slot0.row,
+				column = slot0.column
+			}
+		end)
+		slot6 = slot2.move_path[#slot2.move_path]
+		slot0.chapter.fleet.line = {
+			row = slot6.row,
+			column = slot6.column
 		}
 	end
 

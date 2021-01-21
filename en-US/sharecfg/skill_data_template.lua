@@ -44174,6 +44174,340 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[14030] = {
+		desc_get = "",
+		name = "Ontological Rudder",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship takes DMG: increases this ship's FP and EVA by $1 (can be stacked up to 5 times). After reaching 5 stacks, this ship gains 5 Speed and fires a special barrage (30s cooldown when activated and DMG is based on the skill's level).",
+		id = 14030,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"3.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			}
+		}
+	},
+	[14040] = {
+		desc_get = "",
+		name = "Protologia of Illumination",
+		type = 3,
+		max_level = 10,
+		desc = "Every 15s: $1 chance to increase the Accuracy of your Vanguard by $2 for 10s.",
+		id = 14040,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[14050] = {
+		desc_get = "",
+		name = "Viola Spear",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage (10s cooldown when activated and DMG is based on the skill's level). When there are 2 or more Sardegnian ships in your fleet: increases this barrage's proc chance by 20.0%.",
+		id = 14050,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			}
+		}
+	},
+	[14060] = {
+		desc_get = "",
+		name = "Audacious Challenger",
+		type = 3,
+		max_level = 10,
+		desc = "45s after the battle starts: increases this ship's EVA by $2. While this ship is afloat: increases FP by $1 and AA by $2 for your Sardegnian Vanguard ships and also decreases DMG taken by your Zara-class ships by 6.0%.",
+		id = 14060,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -50881,6 +51215,34 @@ pg.skill_data_template = {
 		max_level = 1,
 		desc = "Activates All Out Assault Ⅱ: Soldati Class once every 10 times the Main Guns are fired.",
 		id = 25012,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25021] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All-Out Assault I: Alfredo Oriana-class every 15 times the Main Guns are fired.",
+		id = 25021,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25022] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All-Out Assault Ⅱ: Alfredo Oriana-class every 10 times the Main Guns are fired.",
+		id = 25022,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -58892,6 +59254,10 @@ pg.skill_data_template = {
 		14000,
 		14010,
 		14020,
+		14030,
+		14040,
+		14050,
+		14060,
 		18010,
 		18040,
 		18050,
@@ -59113,6 +59479,8 @@ pg.skill_data_template = {
 		24122,
 		25011,
 		25012,
+		25021,
+		25022,
 		25211,
 		25212,
 		25221,

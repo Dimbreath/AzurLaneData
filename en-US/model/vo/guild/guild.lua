@@ -405,6 +405,14 @@ function slot0.getWeeklyTask(slot0)
 	return slot0.weeklyTask
 end
 
+function slot0.GetActiveWeeklyTask(slot0)
+	if slot0.weeklyTask and slot0.weeklyTask.id ~= 0 then
+		return slot0.weeklyTask
+	end
+
+	return nil
+end
+
 function slot0.addCapital(slot0, slot1)
 	slot0:updateCapital(slot0.capital + slot1)
 end
@@ -782,18 +790,12 @@ function slot0.IsAdministrator(slot0)
 	return GuildMember.IsAdministrator(slot0:getSelfDuty())
 end
 
-function slot0.GetAllEventShip(slot0)
+function slot0.GetMissionAndAssultFleetShips(slot0)
 	slot1 = {}
 
 	if slot0:GetActiveEvent() and not slot2:IsExpired() then
-		slot4 = slot2:GetBossShipIds()
-
-		for slot8, slot9 in ipairs(slot2:GetJoinShips()) do
-			table.insert(slot1, slot9)
-		end
-
-		for slot8, slot9 in ipairs(slot4) do
-			table.insert(slot1, slot9)
+		for slot7, slot8 in ipairs(slot2:GetJoinShips()) do
+			table.insert(slot1, slot8)
 		end
 	end
 
@@ -811,9 +813,21 @@ function slot0.GetAllEventShip(slot0)
 	return slot1
 end
 
+function slot0.GetBossMissionShips(slot0)
+	slot1 = {}
+
+	if slot0:GetActiveEvent() and not slot2:IsExpired() then
+		for slot7, slot8 in ipairs(slot2:GetBossShipIds()) do
+			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
 function slot0.ExistCommander(slot0, slot1)
 	if slot0:GetActiveEvent() then
-		return slot2:GetBossMission():ExistCommander(slot1)
+		return slot2:GetBossMission():IsActive() and slot3:ExistCommander(slot1)
 	end
 
 	return false

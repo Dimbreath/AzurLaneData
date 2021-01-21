@@ -259,6 +259,10 @@ function slot0.rankAnimaFinish(slot0)
 		uv0._stateFlag = uv1.STATE_REPORTED
 
 		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+
+		if uv0.skipFlag then
+			uv0:skip()
+		end
 	end)).id)
 
 	slot0._stateFlag = uv0.STATE_REPORT
@@ -356,22 +360,29 @@ function slot0.showRewardInfo(slot0)
 		end
 
 		if table.getCount(PlayerConst.BonusItemMarker(slot0)) > 0 then
+			slot6 = uv0.skipFlag
+
+			if uv0.skipFlag and getProxy(ChapterProxy):getActiveChapter() then
+				getProxy(ChapterProxy):AddExtendChapterDataArray(slot7.id, "TotalDrops", slot3)
+			end
+
 			uv0:emit(BaseUI.ON_AWARD, {
 				items = slot3,
 				extraBonus = slot4,
-				removeFunc = uv1
+				removeFunc = uv1,
+				closeOnCompleted = slot6
 			})
 			coroutine.yield()
 
-			slot8 = getProxy(BayProxy):getNewShip(true)
+			slot9 = getProxy(BayProxy):getNewShip(true)
 
-			for slot12 = math.max(1, #slot8 - #_.filter(slot3, function (slot0)
+			for slot13 = math.max(1, #slot9 - #_.filter(slot3, function (slot0)
 				return slot0.type == DROP_TYPE_SHIP
-			end) + 1), #slot8 do
-				slot13 = slot8[slot12]
+			end) + 1), #slot9 do
+				slot14 = slot9[slot13]
 
-				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot13.virgin or ShipRarity.Purple <= slot13:getRarity() then
-					uv0:emit(BattleResultMediator.GET_NEW_SHIP, slot13, uv1)
+				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot14.virgin or ShipRarity.Purple <= slot14:getRarity() then
+					uv0:emit(BattleResultMediator.GET_NEW_SHIP, slot14, uv1, not slot14.virgin and 3 or nil)
 					coroutine.yield()
 				end
 			end
@@ -397,6 +408,10 @@ function slot0.displayBG(slot0)
 		uv0:displayerCommanders()
 
 		uv0._stateFlag = uv1.STATE_DISPLAY
+
+		if uv0.skipFlag then
+			uv0:skip()
+		end
 	end))
 	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
 end
@@ -905,6 +920,8 @@ function slot0.skip(slot0)
 		SetActive(slot0:findTF("jieuan01/tips", slot0._bg), true)
 
 		slot0._stateFlag = uv0.STATE_REPORTED
+
+		slot0:skip()
 	elseif slot0._stateFlag == uv0.STATE_REPORTED then
 		slot0:showRewardInfo()
 	elseif slot0._stateFlag == uv0.STATE_REWARD then
@@ -924,6 +941,8 @@ function slot0.skip(slot0)
 
 		if not slot0._subFirstExpTF then
 			slot0:playSubExEnter()
+		elseif slot0.skipFlag then
+			slot0:skip()
 		end
 	elseif slot0._stateFlag == uv0.STATE_DISPLAYED then
 		setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
@@ -935,6 +954,10 @@ function slot0.skip(slot0)
 
 		slot0._subSkipExp = nil
 		slot0._stateFlag = uv0.STATE_SUB_DISPLAYED
+
+		if slot0.skipFlag then
+			slot0:skip()
+		end
 	elseif slot0._stateFlag == uv0.STATE_SUB_DISPLAYED then
 		slot0:showRightBottomPanel()
 	end
@@ -948,6 +971,10 @@ function slot0.playSubExEnter(slot0)
 		setActive(slot0._subFirstExpTF, true)
 	else
 		slot0:showRightBottomPanel()
+	end
+
+	if slot0.skipFlag then
+		slot0:skip()
 	end
 end
 
@@ -963,14 +990,11 @@ function slot0.showRightBottomPanel(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0._confirmBtn, function ()
-		if uv0.contextData.system == SYSTEM_DUEL then
-			if uv0.failTag == true then
-				uv0:emit(BattleResultMediator.OPEN_FAIL_TIP_LAYER)
-			else
-				uv0:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
-			end
-		elseif uv0.failTag == true then
+		if uv0.failTag == true then
+			uv0:emit(BattleResultMediator.PRE_BATTLE_FAIL_EXIT)
 			uv0:emit(BattleResultMediator.OPEN_FAIL_TIP_LAYER)
+		elseif uv0.contextData.system == SYSTEM_DUEL then
+			uv0:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
 		else
 			uv0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
 		end
@@ -981,6 +1005,10 @@ function slot0.showRightBottomPanel(slot0)
 
 	slot0._stateFlag = nil
 	slot0._subFirstExpTF = nil
+
+	if slot0.skipFlag then
+		triggerButton(slot0._confirmBtn)
+	end
 end
 
 function slot0.showStatistics(slot0)
@@ -1022,6 +1050,10 @@ function slot0.PlayAnimation(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	LeanTween.value(slot1.gameObject, slot2, slot3, slot4):setDelay(slot5):setOnUpdate(System.Action_float(function (slot0)
 		uv0(slot0)
 	end))
+end
+
+function slot0.SetSkipFlag(slot0, slot1)
+	slot0.skipFlag = slot1
 end
 
 function slot0.onBackPressed(slot0)

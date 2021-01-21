@@ -1,4 +1,8 @@
 slot0 = class("ChapterFleet", import(".BaseVO"))
+slot0.DUTY_CLEANPATH = 1
+slot0.DUTY_KILLBOSS = 2
+slot0.DUTY_KILLALL = 3
+slot0.DUTY_IDLE = 4
 
 function slot0.Ctor(slot0)
 end

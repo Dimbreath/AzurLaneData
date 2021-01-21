@@ -83,7 +83,7 @@ function slot0.IsPressing(slot0)
 end
 
 function slot0.HasPort(slot0, slot1)
-	return slot0:GetPortId() > 0 and (not slot1 or pg.world_port_data[slot2].port_camp == nowWorld.realm)
+	return slot0:GetPortId() > 0 and (not slot1 or pg.world_port_data[slot2].port_camp == nowWorld:GetRealm())
 end
 
 function slot0.GetPortId(slot0)

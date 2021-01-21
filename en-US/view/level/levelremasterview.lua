@@ -93,7 +93,7 @@ function slot0.flush(slot0, slot1)
 		})
 	end, SFX_PANEL)
 
-	if getProxy(ChapterProxy).remasterDailyCount > 1 then
+	if getProxy(ChapterProxy).remasterDailyCount > 0 then
 		SetActive(slot0.getRemasterTF, false)
 		SetActive(slot0.gotRemasterTF, true)
 	else

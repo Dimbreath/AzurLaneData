@@ -2773,7 +2773,7 @@ Current expansions: <color=#92fc63>$3</color>
 		tip = "Not open yet"
 	},
 	levelScene_activate_remaster = {
-		tip = "Would you like to use a <color=#ffde38>Data Key</color> and gain access to this event for 15 minutes? Once your time is up, you will need to use another Data Key."
+		tip = "Unlocking this stage requires <color=#ffde38>1 Data Key</color>.\nWould you like to unlock this stage?"
 	},
 	levelScene_remaster_tickets_not_enough = {
 		tip = "You do not have enough Data Keys."
@@ -2787,19 +2787,16 @@ Current expansions: <color=#92fc63>$3</color>
 				info = "About <color=#92fc63>Data Keys:</color>\nYou can use <color=#92fc63>Data Keys</color> to gain temporary access to the stages of certain past events from the <color=#92fc63>War Archives</color> screen.\nAny progress you may have made on an event stage prior to its implementation to the <color=#92fc63>War Archives</color> feature does not carry over."
 			},
 			{
-				info = "\n 1. You can currently acquire 2 <color=#92fc63>Data Keys</color> a day through a daily mission."
+				info = "1. You can acquire 4 Data Keys a day by tapping the \"Collect\" button in the War Archives interface."
 			},
 			{
-				info = "2. You can store up to 30 <color=#92fc63>Data Keys</color> in total. Any <color=#92fc63>Data Keys</color> that you attempt to collect beyond that point will be automatically deleted."
+				info = "2. You can store up to 60 Data Keys in total. Any Data Keys that you attempt to collect beyond that amount will be lost."
 			},
 			{
-				info = "3. Using 1 <color=#92fc63>Data Key</color> allows you to play a past event for <color=#92fc63>15 minutes</color>."
+				info = "3. A Data Key can be consumed to grant one attempt on a selected event stage."
 			},
 			{
-				info = "4. All stages of the particular event will be available to you during this period, barring EX Stages, if applicable."
-			},
-			{
-				info = "5. You can still finish a stage if your 15 minutes run out. However, you must still complete your run in the allotted 12 hours before you are automatically booted out of the stage."
+				info = "4. Data Keys will not be refunded if you retreat from a stage."
 			}
 		}
 	},
@@ -2920,7 +2917,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "Spent <color=#92fc63>$1</color> Oil to recover <color=#92fc63>$2</color> AP."
 	},
 	world_stamina_resetwarning = {
-		tip = "Notice: Operation Siren is about to <color=#ff5c5c>reset</color>.\nYou will only carry over a maximum of <color=#ff5c5c>100 AP</color> after reset,\nso please plan your combat strategy accordingly! "
+		tip = "Notice: Operation Siren is about to <color=#ff5c5c>reset</color>.\nYou will only carry over a maximum of <color=#ff5c5c>$1 AP</color> after reset,\nso please plan your combat strategy accordingly! "
 	},
 	world_ship_healthy = {
 		tip = "The selected ship does not need any repairs. \nAre you sure you want to use this item? "
@@ -6598,7 +6595,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>12.29-1.13</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>1.21-2.3</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7600,7 +7597,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Rate UP for Prinz Heinrich, Peter Strasser, and more! "
+		tip = "Rate UP for Zara, Pola, and more! "
 	},
 	buildship_heavy_tip = {
 		tip = "Mikasa and Hiei are added to standard build pool!"
@@ -8410,21 +8407,26 @@ Once the mission is completed, all players who participated will be rewarded wit
 		tip = {
 			{
 				info = [[
-Once you get a Stage's Threat Level down to <color=#92fc63>Safe</color> and clear 
-it with <color=#92fc63>3 Stars</color>, you can choose to enable <color=#92fc63>Clearing Mode</color> from 
-the Stage's select screen.
+Once you get a stage’s Threat Level down to <color=#92fc63>Safe</color> and clear it with <color=#92fc63>3 stars</color>, you will be able to use <color=#92fc63>Clearing Mode</color>.
 
-Enabling Clearing Mode affects a Stage in the following ways:
-1. On non-event Hard Mode Stages, <color=#92fc63>enemy mob fleets will 
-disappear, leaving only the Boss Fleet</color>.
-2. On event Stages, the positioning and pathfinding of enemy 
-fleets will change.
-3. On event Stages, <color=#92fc63>the movement restriction placed on your 
-fleets is removed</color>, allowing you to move freely around the 
-map.
-4. In normal stages, the chance for ambushes and
- map airstrikes to occur will be removed. 
-5. Formation lock mode will be enabled.]]
+Enabling Clearing Mode affects a stage in the following ways:：
+
+1 On Normal and Hard Mode stages, enemy escort fleets <color=#92fc63>will not appear</color>.
+2 On Event stages, some changes will be made to the configuration of enemy fleets.
+3 活On event stages, <color=#92fc63>movement restrictions</color> will be lifted,
+allowing you to move freely.
+4 On normal stages, <color=#92fc63>ambushes and airstrikes will no longer occur</color>.
+5 <color=#92fc63>Fleet Formation Lock</color> will be enabled.
+6 <color=#92fc63>Auto-Search Mode</color> will be enabled.
+
+ <color=#92fc63>Auto-Search Mode</color> Details:
+1.  <color=#92fc63>Auto-Search Mode</color> can only be enabled in Clearing Mode, and will be automatically activated the first time you enter a stage in Clearing Mode.
+2.When Auto-Search Mode is enabled, <color=#92fc63>Auto Combat</color> and <color=#92fc63>Fleet Lock</color> will automatically be enabled as well. Auto Submarine will not be automatically enabled and depends on your personal settings.
+3.After enabling Auto-Search, you may change 4 settings on the fleet selection interface. The settings are as follows:①<color=#92fc63>Escorts Only</color>: This fleet will only engage escort fleets. When set, the other fleet will automatically be set to engage the enemy boss fleet.
+②<color=#92fc63>Flagship Only</color>: When the enemy flagship fleet spawns, this fleet will automatically move to engage it. When set, the other fleet will automatically be set to engage enemy escort fleets.
+③<color=#92fc63>All Enemies</color>: This fleet will engage enemy escort fleets until the flagship fleet spawns, then engage the enemy flagship. When set, the other fleet will automatically be set to standby.
+④<color=#92fc63>Standby</color>: This fleet will not be used to engage enemies. When set, the other fleet will automatically be set to engage all enemies.
+4. When Auto-Search is enabled, if there is an <color=#92fc63>Elite Enemy</color> present on the battlefield, that fleet will be prioritized. If there is no Elite Enemy present, your fleets will attempt to engage the <color=#92fc63>closest available enemy</color>. When the enemy flagship fleet appears, your fleets will prioritize attacking the <color=#92fc63>enemy flagship</color>.]]
 			}
 		}
 	},
@@ -12212,6 +12214,9 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 			},
 			{
 				info = "Be aware that these rewards will expire if not claimed within a certain period of time."
+			},
+			{
+				info = "Guild Operations will automatically be closed if not completed after 60 days."
 			}
 		}
 	},
@@ -12256,8 +12261,11 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 	word_shipState_guild_event = {
 		tip = "This ship is participating in Guild Operation and cannot be retired."
 	},
+	word_shipState_guild_boss = {
+		tip = "There are ships currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
+	},
 	commander_is_in_guild = {
-		tip = "The Meowfficer is currently in Guild Operation "
+		tip = "There are Meowfficers currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
 	},
 	guild_assult_ship_recommend = {
 		tip = "Successfully set recommended support ship."
@@ -12300,6 +12308,12 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 	},
 	multiple_ship_energy_low_warn = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"
+	},
+	guild_tip_quit_operation = {
+		tip = "Leaving your current Guild will not restore the number of monthly Guild Operation participations you have. Are you sure you want to leave your Guild?"
+	},
+	guild_tip_grand_fleet_is_frozen = {
+		tip = "This Guild has been frozen and cannot be joined."
 	},
 	us_error_download_painting = {
 		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
@@ -12801,6 +12815,63 @@ next character that appears on-screen.
 			}
 		}
 	},
+	autofight = {
+		tip = "Auto-Search"
+	},
+	autofight_errors_tip = {
+		tip = "No valid enemy found. Auto-Search Mode has been disabled."
+	},
+	autofight_special_operation_tip = {
+		tip = "In Auto-Search Mode, your fleets will prioritize fighting the enemy <color=#92fc63>flagship fleet</color>. If you want to use High-Efficiency Combat Logistics Plans, <color=#92fc63>please assign them to be used again</color>."
+	},
+	autofight_formation = {
+		tip = "Formation"
+	},
+	autofight_cat = {
+		tip = "Meowfficer"
+	},
+	autofight_function = {
+		tip = "Role"
+	},
+	autofight_function1 = {
+		tip = "Escorts"
+	},
+	autofight_function2 = {
+		tip = "Flagships"
+	},
+	autofight_function3 = {
+		tip = "All Enemies"
+	},
+	autofight_function4 = {
+		tip = "Standby"
+	},
+	autofight_rewards = {
+		tip = "Total Rewards"
+	},
+	autofight_rewards_none = {
+		tip = "No rewards earned."
+	},
+	autofight_leave = {
+		tip = "Exit"
+	},
+	autofight_onceagain = {
+		tip = "Continue"
+	},
+	autofight_entrust = {
+		tip = "Urgent Commission Posted: $1"
+	},
+	autofight_task = {
+		tip = "Mission Completed: $1"
+	},
+	autofight_farm = {
+		tip = "Clearing Mode"
+	},
+	autofight_change_tip = {
+		tip = "The status of this fleet has automatically been set to <color=#92fc63>All Enemies</color>."
+	},
+	autofight_selectprops_tip = {
+		tip = "Add Item"
+	},
 	index_equip = {
 		tip = "Equipped "
 	},
@@ -13168,6 +13239,9 @@ next character that appears on-screen.
 	world_collection_back = {
 		tip = "Tap to return "
 	},
+	archives_whether_to_retreat = {
+		tip = "Are you sure you want to <color=#92fc63>retreat</color>? Your Data Key will not be refunded if you retreat."
+	},
 	world_fleet_stop = {
 		tip = "Your fleet has stopped moving. "
 	},
@@ -13185,5 +13259,41 @@ next character that appears on-screen.
 	},
 	world_boss_inbattle = {
 		tip = "You are currently in an Ashes Showdown, and are unable to begin another one. "
+	},
+	area_putong = {
+		tip = "Normal"
+	},
+	area_anquan = {
+		tip = "Safe"
+	},
+	area_yaosai = {
+		tip = "Stronghold"
+	},
+	area_yaosai_2 = {
+		tip = "Siren-Occupied Zone"
+	},
+	area_shenyuan = {
+		tip = "Abyssal"
+	},
+	area_yinmi = {
+		tip = "Hidden"
+	},
+	area_renwu = {
+		tip = "Mission"
+	},
+	area_zhuxian = {
+		tip = "Campaign"
+	},
+	charge_trade_no_error = {
+		tip = "Incorrect Order ID. Please try again."
+	},
+	world_reset_1 = {
+		tip = "Operation SIren resets in <color=#92fc63>$1</color> day(s) "
+	},
+	world_reset_2 = {
+		tip = "Operation SIren resets in <color=#92fc63>$1</color> tomorrow "
+	},
+	world_reset_3 = {
+		tip = "Re-enter Operation Siren to reset "
 	}
 }

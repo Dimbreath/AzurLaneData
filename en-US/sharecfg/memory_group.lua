@@ -2516,6 +2516,21 @@ pg.memory_group = {
 			1477
 		}
 	},
+	[554] = {
+		title = "Moments with the Young Miss ",
+		type = 3,
+		id = 554,
+		icon = "title_chara_zhuiganzhe",
+		memories = {
+			1521,
+			1522,
+			1523,
+			1524,
+			1525,
+			1526,
+			1527
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2658,6 +2673,7 @@ pg.memory_group = {
 		550,
 		551,
 		552,
-		553
+		553,
+		554
 	}
 }

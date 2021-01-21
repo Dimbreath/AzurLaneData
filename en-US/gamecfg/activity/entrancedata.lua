@@ -260,7 +260,7 @@ return {
 			}
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(802) and not slot1:isEnd()
+			return getProxy(ActivityProxy):getActivityById(30802) and not slot1:isEnd()
 		end,
 		isTip = function ()
 			slot0 = 970701

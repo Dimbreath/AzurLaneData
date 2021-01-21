@@ -49,6 +49,9 @@ function slot0.Iter(slot0)
 	end
 
 	slot0.package.id = table.remove(slot0.idList, 1)
+	slot0.package.pos.row = slot0.currentChampion.row
+	slot0.package.pos.column = slot0.currentChampion.column
+	slot0.package.data = 0
 	slot0.currentChampion = uv0[slot0.attachment].New(Clone(slot0.package))
 end
 

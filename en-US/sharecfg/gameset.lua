@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 180
+		key_value = 183
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1448,11 +1448,11 @@ pg.gameset = {
 	},
 	reactivity_ticket_max = {
 		description = "",
-		key_value = 30
+		key_value = 60
 	},
 	reactivity_ticket_daily = {
 		description = "",
-		key_value = 2
+		key_value = 4
 	},
 	max_commander_bag = {
 		description = "",
@@ -1548,7 +1548,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 181
+		key_value = 184
 	},
 	order_pt_max = {
 		key_value = 0,

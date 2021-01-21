@@ -3,15 +3,6 @@ slot0 = class("YidaliMainPage", import(".TemplatePage.PreviewTemplatePage"))
 function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
 	slot0:initUI()
-
-	slot0.YDLtaskIDList = {
-		14981,
-		14982,
-		14983,
-		14984,
-		14985,
-		14986
-	}
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -32,6 +23,7 @@ end
 
 function slot0.initData(slot0)
 	slot0.finalTaskID = slot0.activity:getConfig("config_client")[1]
+	slot0.YDLtaskIDList = slot0.activity:getConfig("config_data")
 	slot0.taskIDList = Clone(pg.task_data_template[slot0.finalTaskID].target_id)
 	slot0.taskProxy = getProxy(TaskProxy)
 end

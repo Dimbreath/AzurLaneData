@@ -24250,6 +24250,101 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107072] = {
+		name = "Freshly-Baked Bonding!",
+		ship_group = 10707,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "Mmmmm... Nothing beats pizza straight outta the oven! Here, Commander, wanna give it a try? We're gonna have to recommend this to Enty next time!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "dahuangfeng_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 107072,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "dahuangfeng_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70479,
+		voice_actor = 24,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.536,
+					1.01,
+					0
+				}
+			},
+			plane = {
+				{
+					1.552,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.601,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107080] = {
 		name = "Wasp",
 		ship_group = 10708,
@@ -99070,6 +99165,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[601030] = {
+		name = "Vincenzo Gioberti ",
+		ship_group = 60103,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Alfredo Oriani-class destroyer – Vincenzo Gioberti. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "wenqinzuojiaobeidi",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 601030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wenqinzuojiaobeidi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.562,
+					1.007,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.534,
+					1.024,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.574,
+					1.018,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.525,
+							2.415,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[603010] = {
 		name = "Trento",
 		ship_group = 60301,
@@ -99536,6 +99740,115 @@ pg.ship_skin_template = {
 			main_2 = 0.5,
 			touch = 0.5,
 			main_3 = 0.5
+		}
+	},
+	[603030] = {
+		name = "Pola ",
+		ship_group = 60303,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Zara-class heavy cruiser – Pola. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bola",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 603030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bola",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 146,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.482,
+					0.941,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.449,
+					0.947,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.002,
+					-0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.463,
+					0.927,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.564,
+							2.415,
+							0
+						}
+					}
+				}
+			}
 		}
 	},
 	[605020] = {
@@ -100977,6 +101290,115 @@ pg.ship_skin_template = {
 						{
 							-0.443,
 							2.44,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[701060] = {
+		name = "Stremitelny ",
+		ship_group = 70106,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Gnevny-class destroyer - Stremitelny ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shensu",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 701060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shensu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.516,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.535,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.487,
+					0.994,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.08,
 							0
 						}
 					}
@@ -136219,7 +136641,8 @@ pg.ship_skin_template = {
 		},
 		[10707] = {
 			107070,
-			107071
+			107071,
+			107072
 		},
 		[10708] = {
 			107080
@@ -137447,6 +137870,9 @@ pg.ship_skin_template = {
 			601020,
 			601021
 		},
+		[60103] = {
+			601030
+		},
 		[60301] = {
 			603010,
 			603011
@@ -137454,6 +137880,9 @@ pg.ship_skin_template = {
 		[60302] = {
 			603020,
 			603021
+		},
+		[60303] = {
+			603030
 		},
 		[60502] = {
 			605020,
@@ -137481,6 +137910,9 @@ pg.ship_skin_template = {
 		},
 		[70105] = {
 			701050
+		},
+		[70106] = {
+			701060
 		},
 		[70201] = {
 			702010,
@@ -138496,6 +138928,7 @@ pg.ship_skin_template = {
 		107068,
 		107070,
 		107071,
+		107072,
 		107080,
 		107090,
 		107091,
@@ -139178,10 +139611,12 @@ pg.ship_skin_template = {
 		502039,
 		601020,
 		601021,
+		601030,
 		603010,
 		603011,
 		603020,
 		603021,
+		603030,
 		605020,
 		605021,
 		605022,
@@ -139195,6 +139630,7 @@ pg.ship_skin_template = {
 		701040,
 		701041,
 		701050,
+		701060,
 		702010,
 		702011,
 		702020,

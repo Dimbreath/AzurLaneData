@@ -7530,6 +7530,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1470001] = {
+		map = 1470001,
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 4,
+		on_activity = 838,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470002] = {
+		map = 1470002,
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 4,
+		on_activity = 839,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240005",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240005",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470011] = {
+		map = 1470011,
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 5,
+		on_activity = 838,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240003",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240003",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470012] = {
+		map = 1470012,
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 5,
+		on_activity = 839,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240006",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240006",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470025] = {
+		map = 1470025,
+		name = "Empyreal Tragicomedy - SP|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 8,
+		on_activity = 839,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240007",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240007",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470026] = {
+		map = 1470026,
+		name = "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 8,
+		on_activity = 839,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240008",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240008",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -8613,6 +8865,12 @@ pg.expedition_data_by_map = {
 		1460012,
 		1460025,
 		1460026,
+		1470001,
+		1470002,
+		1470011,
+		1470012,
+		1470025,
+		1470026,
 		2100000,
 		2100001,
 		2100010,

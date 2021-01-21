@@ -120,18 +120,19 @@ function slot0.UpdateOrderBtn(slot0)
 	slot3 = checkExist(slot0.map, {
 		"GetPort"
 	})
-	slot4 = nowWorld:IsSystemOpen(WorldConst.SystemOrderRedeploy) and slot1.realm == checkExist(slot3, {
+	slot4 = nowWorld:GetRealm()
+	slot5 = nowWorld:IsSystemOpen(WorldConst.SystemOrderRedeploy) and slot4 == checkExist(slot3, {
 		"GetRealm"
 	}) and checkExist(slot3, {
 		"IsOpen",
 		{
-			slot1.realm,
+			slot4,
 			slot1:GetProgress()
 		}
 	}) and slot1:BuildFormationIds()
-	slot5 = {
+	slot6 = {
 		system = WorldConst.SystemOrderRedeploy,
-		isLock = not slot4,
+		isLock = not slot5,
 		lockFunc = function ()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_1"))
 		end,
@@ -142,12 +143,12 @@ function slot0.UpdateOrderBtn(slot0)
 		end
 	}
 
-	slot0:SetButton(slot0.btnRedeploy, slot5)
-	slot0:SetButton(slot0.btnExpansion, slot5)
-	setActive(slot0.btnRedeploy, slot4 ~= WorldConst.FleetExpansion)
-	setActive(slot0.btnExpansion, slot4 == WorldConst.FleetExpansion)
+	slot0:SetButton(slot0.btnRedeploy, slot6)
+	slot0:SetButton(slot0.btnExpansion, slot6)
+	setActive(slot0.btnRedeploy, slot5 ~= WorldConst.FleetExpansion)
+	setActive(slot0.btnExpansion, slot5 == WorldConst.FleetExpansion)
 
-	slot6 = pg.TimeMgr.GetInstance()
+	slot7 = pg.TimeMgr.GetInstance()
 
 	slot0:SetButton(slot0.btnMaintenance, {
 		system = WorldConst.SystemOrderMaintenance,

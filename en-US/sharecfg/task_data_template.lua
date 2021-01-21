@@ -20682,6 +20682,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5561] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5408,
+		type = 5,
+		name = "The First Sound Under the Sky ",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "zhuiganzhe",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5562",
+		visibility = 1,
+		story_id = "ZHUIGANZHE1",
+		target_id_for_client = 50003,
+		id = 5561,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5562] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5409,
+		type = 5,
+		name = "Novel Tea Novelty ",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "zhuiganzhe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5563",
+		visibility = 1,
+		story_id = "ZHUIGANZHE2",
+		target_id_for_client = 0,
+		id = 5562,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5563] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5410,
+		type = 5,
+		name = "Curiosity and Cake ",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Chaser in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "zhuiganzhe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5564",
+		visibility = 1,
+		story_id = "ZHUIGANZHE3",
+		target_id_for_client = 20605,
+		id = 5563,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20605",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5564] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5411,
+		type = 5,
+		name = "When in Rome ",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Chaser in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "zhuiganzhe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5565",
+		visibility = 1,
+		story_id = "ZHUIGANZHE4",
+		target_id_for_client = 20605,
+		id = 5564,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20605",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5565] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5412,
+		type = 5,
+		name = "A Passion for the Exotic ",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Chaser.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "zhuiganzhe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5566",
+		visibility = 1,
+		story_id = "ZHUIGANZHE5",
+		target_id_for_client = 20605,
+		id = 5565,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20605",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5566] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5413,
+		type = 5,
+		name = "An Ungraceful Attempt? ",
+		count_inherit = 0,
+		desc = "Fully Limit Break Chaser.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "zhuiganzhe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5567",
+		visibility = 1,
+		story_id = "ZHUIGANZHE6",
+		target_id_for_client = 206054,
+		id = 5566,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "206054",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5567] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5414,
+		type = 5,
+		name = "Excitement and Curiosity ",
+		count_inherit = 0,
+		desc = "Get Chaser to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "zhuiganzhe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "ZHUIGANZHE7",
+		target_id_for_client = 20605,
+		id = 5567,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20605",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -59693,6 +59956,39 @@ pg.task_data_template = {
 			{
 				14,
 				206,
+				1
+			}
+		}
+	},
+	[14676] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91196,
+		type = 6,
+		name = "『限界挑战7』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14676,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				207,
 				1
 			}
 		}
@@ -100972,6 +101268,1206 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16230] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94281,
+		type = 6,
+		name = "『意大利复刻』角色收集：特伦托",
+		count_inherit = 0,
+		desc = "Fully Limit Break Trento",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 603014,
+		id = 16230,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "603014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				200
+			}
+		}
+	},
+	[16231] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94282,
+		type = 6,
+		name = "『意大利复刻』角色收集：加富尔伯爵",
+		count_inherit = 0,
+		desc = "Fully Limit Break Conte di Cavour",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 605054,
+		id = 16231,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "605054",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				200
+			}
+		}
+	},
+	[16232] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94283,
+		type = 6,
+		name = "『意大利复刻』角色收集：龙骑兵",
+		count_inherit = 0,
+		desc = "Fully Limit Break Carabiniere",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 601024,
+		id = 16232,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "601024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				400
+			}
+		}
+	},
+	[16233] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94284,
+		type = 6,
+		name = "『意大利复刻』角色收集：朱利奥·凯撒",
+		count_inherit = 0,
+		desc = "Fully Limit Break Giulio Cesare",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 605064,
+		id = 16233,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "605064",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				400
+			}
+		}
+	},
+	[16234] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94285,
+		type = 6,
+		name = "『意大利复刻』角色收集：可畏",
+		count_inherit = 0,
+		desc = "Fully Limit Break Formidable",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 207054,
+		id = 16234,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "207054",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				600
+			}
+		}
+	},
+	[16235] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94286,
+		type = 6,
+		name = "『意大利复刻』角色收集：扎拉",
+		count_inherit = 0,
+		desc = "Fully Limit Break Zara",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 603024,
+		id = 16235,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "603024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				600
+			}
+		}
+	},
+	[16236] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94287,
+		type = 6,
+		name = "『意大利复刻』角色收集：利托里奥",
+		count_inherit = 0,
+		desc = "Fully Limit Break Littorio",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 605024,
+		id = 16236,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "605024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				600
+			}
+		}
+	},
+	[16237] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94288,
+		type = 6,
+		name = "『意大利复刻』角色刷关：阿贾克斯",
+		count_inherit = 0,
+		desc = "Clear A2 or C2 10 times with Ajax at max Limit Break in your fleet. Ajax must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16237,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1250113,
+			1250713
+		},
+		target_id_2 = {
+			202034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16238] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94289,
+		type = 6,
+		name = "『意大利复刻』角色刷关：约克",
+		count_inherit = 0,
+		desc = "Clear A3 or C3 10 times with York at max Limit Break in your fleet. York must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16238,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1250213,
+			1250813
+		},
+		target_id_2 = {
+			203074
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16239] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94290,
+		type = 6,
+		name = "『意大利复刻』角色刷关：光辉",
+		count_inherit = 0,
+		desc = "Clear B2 or D2 10 times with Illustrious at max Limit Break in your fleet. Illustrious must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16239,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1250413,
+			1251013
+		},
+		target_id_2 = {
+			207034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16240] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94291,
+		type = 6,
+		name = "『意大利复刻』角色刷关：厌战",
+		count_inherit = 0,
+		desc = "Clear B3 or D3 10 times with Warspite at max Limit Break in your fleet. Warspite must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16240,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1250513,
+			1251113
+		},
+		target_id_2 = {
+			205024,
+			205124
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59195,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16251] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94301,
+		type = 36,
+		name = "『意大利复刻』-日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16251,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59196,
+				300
+			}
+		}
+	},
+	[16252] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94302,
+		type = 36,
+		name = "『意大利复刻』-日常出击",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16252,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59196,
+				300
+			}
+		}
+	},
+	[16253] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94303,
+		type = 36,
+		name = "『意大利复刻』-日常困难本",
+		count_inherit = 0,
+		desc = "Clear 1 non-event Hard Mode stage.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16253,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59196,
+				100
+			}
+		}
+	},
+	[16254] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94304,
+		type = 6,
+		name = "『意大利复刻』通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear A1 or C1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16255",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16254,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470001,
+			1470021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59196,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16255] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94305,
+		type = 6,
+		name = "『意大利复刻』通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear A2 or C2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16256",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16255,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470002,
+			1470022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59196,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16256] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94306,
+		type = 6,
+		name = "『意大利复刻』通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear A3 or C3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16257",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16256,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470003,
+			1470023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59196,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16257] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94307,
+		type = 6,
+		name = "『意大利复刻』通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear B1 or D1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16258",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16257,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470006,
+			1470026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59196,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16258] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94308,
+		type = 6,
+		name = "『意大利复刻』通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear B2 or D2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16259",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16258,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470007,
+			1470027
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59196,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16259] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94309,
+		type = 6,
+		name = "『意大利复刻』通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear B3 or D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16260",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16259,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470008,
+			1470028
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59196,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16260] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94310,
+		type = 6,
+		name = "『意大利复刻』通关SP",
+		count_inherit = 0,
+		desc = "Clear SP.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1470031,
+		id = 16260,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1470031",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16261] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94311,
+		type = 6,
+		name = "『意大利复刻』通关D3",
+		count_inherit = 0,
+		desc = "Clear D3<color=#92fc63>（If already cleared, you will not gain a second medal.）</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1470028,
+		id = 16261,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1470028",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				151,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16262] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94312,
+		type = 6,
+		name = "『意大利复刻』A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16263",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16262,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470001,
+			1470021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16263] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94313,
+		type = 6,
+		name = "『意大利复刻』A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16264",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16263,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470002,
+			1470022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16264] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94314,
+		type = 6,
+		name = "『意大利复刻』A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16265",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16264,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470003,
+			1470023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16265] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94315,
+		type = 6,
+		name = "『意大利复刻』B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16266",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16265,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470006,
+			1470026
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16266] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94316,
+		type = 6,
+		name = "『意大利复刻』B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16267",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16266,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470007,
+			1470027
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16267] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94317,
+		type = 6,
+		name = "『意大利复刻』B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16267,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1470008,
+			1470028
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16268] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94318,
+		type = 6,
+		name = "『意大利复刻』三星通关总任务",
+		count_inherit = 0,
+		desc = "Complete all tasks to get rewards.",
+		target_id_2 = "",
+		sub_type = 90,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16268,
+		target_num = 6,
+		fix_task = 0,
+		target_id = {
+			16262,
+			16263,
+			16264,
+			16265,
+			16266,
+			16267
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				603011,
+				1
+			}
+		}
+	},
+	[16269] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94358,
+		type = 6,
+		name = "『意大利复刻』0121登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Login to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16269,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				184,
+				2
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -113899,6 +115395,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5555,
 		5556,
 		5557,
+		5561,
+		5562,
+		5563,
+		5564,
+		5565,
+		5566,
+		5567,
 		6001,
 		6002,
 		6003,
@@ -114966,6 +116469,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		14673,
 		14674,
 		14675,
+		14676,
 		14730,
 		14731,
 		14732,
@@ -116016,6 +117520,36 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16217,
 		16218,
 		16219,
+		16230,
+		16231,
+		16232,
+		16233,
+		16234,
+		16235,
+		16236,
+		16237,
+		16238,
+		16239,
+		16240,
+		16251,
+		16252,
+		16253,
+		16254,
+		16255,
+		16256,
+		16257,
+		16258,
+		16259,
+		16260,
+		16261,
+		16262,
+		16263,
+		16264,
+		16265,
+		16266,
+		16267,
+		16268,
+		16269,
 		31013,
 		31014,
 		31015,

@@ -409,7 +409,7 @@ end
 
 function slot0.BuildProgressAction(slot0, slot1)
 	slot2 = {}
-	slot3 = nowWorld.realm
+	slot3 = nowWorld:GetRealm()
 
 	if nowWorld:GetProgress() < slot1 then
 		_.each(WorldConst.FindStageTemplates(slot1), function (slot0)

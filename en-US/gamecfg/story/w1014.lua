@@ -25,7 +25,7 @@ return {
 					flag = 0
 				},
 				{
-					content = "<color=#ff5c5c>Leave（Rewards will be abandoned)</color>",
+					content = "Leave for the time being.",
 					flag = 1
 				}
 			}

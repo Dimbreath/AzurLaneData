@@ -116,7 +116,8 @@ function slot0.addListener(slot0)
 					pg.m02:sendNotification(GAME.USE_TEC_SPEEDUP_ITEM, {
 						blueprintid = uv0.shipBluePrintOnDev.id,
 						itemid = uv0.itemID,
-						number = uv0.curUseNum
+						number = uv0.curUseNum,
+						taskID = uv0.expTaskID
 					})
 				end
 			})
@@ -124,7 +125,8 @@ function slot0.addListener(slot0)
 			pg.m02:sendNotification(GAME.USE_TEC_SPEEDUP_ITEM, {
 				blueprintid = uv0.shipBluePrintOnDev.id,
 				itemid = uv0.itemID,
-				number = uv0.curUseNum
+				number = uv0.curUseNum,
+				taskID = uv0.expTaskID
 			})
 		end
 	end, SFX_PANEL)

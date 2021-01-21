@@ -17,7 +17,10 @@ function slot0.Flush(slot0, slot1)
 
 	for slot5, slot6 in ipairs(slot1.ships) do
 		for slot10, slot11 in ipairs(slot6.ship_ids) do
-			if slot0:ExistMember(slot6.user_id) then
+			if slot0:IsVaildShip({
+				uid = slot6.user_id,
+				id = slot11
+			}) then
 				table.insert(slot0.userShips, {
 					uid = slot6.user_id,
 					id = slot11
@@ -54,13 +57,27 @@ function slot0.ExistMember(slot0, slot1)
 	return getProxy(GuildProxy):getRawData() and slot2:getMemberById(slot1)
 end
 
+function slot0.IsVaildShip(slot0, slot1)
+	return slot0:ExistMember(slot1.uid) and function (slot0)
+		slot1 = getProxy(GuildProxy):getRawData()
+
+		if getProxy(PlayerProxy):getRawData().id == slot0.uid then
+			return getProxy(BayProxy):getShipById(slot0.id) ~= nil
+		end
+
+		return slot1:getMemberById(slot0.uid):GetAssaultFleet():ExistShip(GuildAssaultFleet.GetVirtualId(slot0.uid, slot0.id))
+	end(slot1) and not function (slot0)
+		return pg.ShipFlagMgr.GetInstance():GetShipFlag(slot0.id, "inEvent")
+	end(slot1)
+end
+
 function slot0.ExistInvailShips(slot0)
 	if #slot0.invaildShips > 0 then
 		return true
 	end
 
 	if _.any(slot0.userShips, function (slot0)
-		return not uv0:ExistMember(slot0.uid)
+		return not uv0:IsVaildShip(slot0)
 	end) then
 		return true
 	end
@@ -71,17 +88,9 @@ end
 function slot0.ClearInvaildShip(slot0)
 	slot0.invaildShips = {}
 
-	for slot5 = #slot0.userShips, 1, -1 do
-		if not slot0:ExistMember(slot0.userShips[slot5].uid) or not function (slot0)
-			slot1 = getProxy(GuildProxy):getRawData()
-
-			if getProxy(PlayerProxy):getRawData().id == slot0.uid then
-				return true
-			end
-
-			return slot1:getMemberById(slot0.uid):GetAssaultFleet():ExistShip(GuildAssaultFleet.GetVirtualId(slot0.uid, slot0.id))
-		end(slot6) then
-			table.remove(slot0.userShips, slot5)
+	for slot4 = #slot0.userShips, 1, -1 do
+		if not slot0:IsVaildShip(slot0.userShips[slot4]) then
+			table.remove(slot0.userShips, slot4)
 		end
 	end
 end
@@ -143,6 +152,12 @@ end
 function slot0.ExistUserShip(slot0, slot1)
 	return _.any(slot0.userShips, function (slot0)
 		return slot0.uid == uv0
+	end)
+end
+
+function slot0.ContainShip(slot0, slot1, slot2)
+	return _.any(slot0.userShips, function (slot0)
+		return slot0.uid == uv0 and slot0.id == uv1
 	end)
 end
 
@@ -251,6 +266,16 @@ function slot0.RemoveCommander(slot0, slot1)
 	slot0.skills = {}
 
 	slot0:updateCommanderSkills()
+end
+
+function slot0.GetCommanderPos(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.commanders) do
+		if slot6.id == slot1 then
+			return slot5
+		end
+	end
+
+	return false
 end
 
 function slot0.updateCommanderSkills(slot0)
@@ -362,6 +387,24 @@ function slot0.ExistCommander(slot0, slot1)
 	end
 
 	return false
+end
+
+function slot0.ExistInvaildCommanders(slot0)
+	for slot6, slot7 in pairs(slot0:getCommanders()) do
+		if not getProxy(CommanderProxy):getCommanderById(slot7.id) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.RemoveInvaildCommanders(slot0)
+	for slot6, slot7 in pairs(slot0:getCommanders()) do
+		if not getProxy(CommanderProxy):getCommanderById(slot7.id) then
+			slot0:RemoveCommander(slot6)
+		end
+	end
 end
 
 return slot0

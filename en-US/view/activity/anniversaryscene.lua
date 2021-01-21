@@ -141,7 +141,7 @@ function slot0.updateTaskGroup(slot0, slot1, slot2, slot3)
 	if slot0.date < slot2 then
 		slot9 = slot0.activityVO.data1 + (slot2 - 1) * 86400 <= pg.TimeMgr.GetInstance():GetServerTime()
 
-		setText(slot1:Find("mask_lock"):Find("Text"), pg.TimeMgr.GetInstance():CTimeDescC(slot11, "%m/%d"))
+		setText(slot1:Find("mask_lock"):Find("Text"), pg.TimeMgr.GetInstance():STimeDescC(slot11, "%m/%d"))
 	else
 		slot8 = _.all(slot3, function (slot0)
 			return uv0:getTaskById(slot0) and slot1:isReceive()

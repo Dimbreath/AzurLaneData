@@ -174,7 +174,8 @@ function slot0.execute(slot0, slot1)
 					extraFlagRemoveList = slot0.del_flag_list,
 					extraFlagAddList = slot0.add_flag_list,
 					win = uv1.win,
-					teleportPaths = uv0.teleportPaths
+					teleportPaths = uv0.teleportPaths,
+					chapterVO = uv0.chapter
 				})
 			end
 		else
