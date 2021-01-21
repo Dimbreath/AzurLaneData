@@ -10418,6 +10418,11 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				2,
+				18122,
+				1
+			},
+			{
+				2,
 				18124,
 				1
 			}
