@@ -67,7 +67,7 @@ function slot2.AddHPBar(slot0, slot1, slot2)
 	slot0:initBarComponent()
 	slot0:SetHPBarCountText()
 
-	slot0._cacheHP = slot0._unitData:GetMaxHP()
+	slot0._cacheHP = slot0._unitData:GetCurrentHP()
 
 	slot0:UpdateHpBar()
 	slot0:initBarrierBar()

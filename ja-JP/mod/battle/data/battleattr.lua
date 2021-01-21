@@ -241,7 +241,7 @@ function slot0.SetEnemyAttr(slot0, slot1)
 	slot4.level = slot3
 	slot4.formulaLevel = slot3
 	slot5 = (slot3 - 1) / 1000
-	slot4.maxHP = slot2.durability + slot2.durability_growth * slot5
+	slot4.maxHP = math.ceil(slot2.durability + slot2.durability_growth * slot5)
 	slot4.cannonPower = slot2.cannon + slot2.cannon_growth * slot5
 	slot4.torpedoPower = slot2.torpedo + slot2.torpedo_growth * slot5
 	slot4.antiAirPower = slot2.antiaircraft + slot2.antiaircraft_growth * slot5
