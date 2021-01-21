@@ -23,6 +23,7 @@ function slot0.execute(slot0, slot1)
 			uv0:updateGuild(slot2)
 			uv1:sendNotification(GAME.GUILD_GET_ACTIVATION_EVENT_DONE)
 			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildBossEvent")
 
 			if uv2 then
 				uv2()

@@ -3,6 +3,8 @@ slot0.CHAPTER_UPDATED = "ChapterProxy:CHAPTER_UPDATED"
 slot0.CHAPTER_TIMESUP = "ChapterProxy:CHAPTER_TIMESUP"
 slot0.CHAPTER_CELL_UPDATED = "ChapterProxy:CHAPTER_CELL_UPDATED"
 slot0.CHAPTER_EXTAR_FLAG_UPDATED = "ChapterProxy:CHAPTER_EXTAR_FLAG_UPDATED"
+slot0.CHAPTER_AUTO_FIGHT_FLAG_UPDATED = "CHAPTERPROXY:CHAPTER_AUTO_FIGHT_FLAG_UPDATED"
+slot0.CHAPTER_SKIP_PRECOMBAT_UPDATED = "CHAPTERPROXY:CHAPTER_SKIP_PRECOMBAT_UPDATED"
 slot0.LAST_MAP_FOR_ACTIVITY = "last_map_for_activity"
 slot0.LAST_MAP = "last_map"
 
@@ -52,11 +54,9 @@ function slot0.register(slot0)
 		uv0.repairTimes = slot0.daily_repair_count
 
 		if slot0.react_chapter then
-			uv0.remasterId = slot0.react_chapter.active_id
-			uv0.remasterTime = slot0.react_chapter.active_timestamp
 			uv0.remasterTickets = slot0.react_chapter.count
 			uv0.remasterDailyCount = slot0.react_chapter.daily_count
-			uv0.remasterTip = uv0.remasterDailyCount <= 1
+			uv0.remasterTip = uv0.remasterDailyCount <= 0
 		end
 
 		Map.lastMap = uv0:getLastMap(uv1.LAST_MAP)
@@ -217,12 +217,6 @@ function slot0.IsChapterInRemaster(slot0, slot1)
 			return slot0 == uv0
 		end)
 	end)
-end
-
-function slot0.getActiveRemaster(slot0)
-	if slot0.remasterId and slot0.remasterId > 0 and pg.TimeMgr.GetInstance():GetServerTime() < slot0.remasterTime then
-		return slot0.remasterId
-	end
 end
 
 function slot0.getMaxEscortChallengeTimes(slot0)
@@ -431,10 +425,6 @@ function slot0.extraFlagUpdated(slot0, slot1)
 	slot0:removeExtendChapterData(slot1, "extraFlagUpdate")
 end
 
-function slot0.getUpdatedExtraFlags(slot0, slot1)
-	return slot0.chaptersExtend[slot1] and slot0.chaptersExtend[slot1].extraFlagUpdate
-end
-
 function slot0.removeExtendChapterData(slot0, slot1, slot2)
 	if not slot0.chaptersExtend[slot1] then
 		return
@@ -443,6 +433,69 @@ function slot0.removeExtendChapterData(slot0, slot1, slot2)
 	slot0.chaptersExtend[slot1][slot2] = nil
 
 	if next(slot0.chaptersExtend[slot1]) then
+		return
+	end
+
+	slot0.chaptersExtend[slot1] = nil
+end
+
+function slot0.getUpdatedExtraFlags(slot0, slot1)
+	return slot0.chaptersExtend[slot1] and slot0.chaptersExtend[slot1].extraFlagUpdate
+end
+
+function slot0.SetExtendChapterData(slot0, slot1, slot2, slot3)
+	slot0.chaptersExtend[slot1] = slot0.chaptersExtend[slot1] or {}
+	slot0.chaptersExtend[slot1][slot2] = slot3
+end
+
+function slot0.AddExtendChapterDataArray(slot0, slot1, slot2, slot3, slot4)
+	slot0.chaptersExtend[slot1] = slot0.chaptersExtend[slot1] or {}
+
+	if type(slot0.chaptersExtend[slot1][slot2]) ~= "table" then
+		slot0.chaptersExtend[slot1][slot2] = {}
+	end
+
+	slot0.chaptersExtend[slot1][slot2][slot4 or #slot0.chaptersExtend[slot1][slot2] + 1] = slot3
+end
+
+function slot0.AddExtendChapterDataTable(slot0, slot1, slot2, slot3, slot4)
+	slot0.chaptersExtend[slot1] = slot0.chaptersExtend[slot1] or {}
+
+	if type(slot0.chaptersExtend[slot1][slot2]) ~= "table" then
+		slot0.chaptersExtend[slot1][slot2] = {}
+	end
+
+	slot0.chaptersExtend[slot1][slot2][slot3] = slot4
+end
+
+function slot0.GetExtendChapterData(slot0, slot1, slot2)
+	if not slot2 or not slot0.chaptersExtend[slot1] then
+		return
+	end
+
+	return slot0.chaptersExtend[slot1][slot2]
+end
+
+function slot0.RemoveExtendChapterData(slot0, slot1, slot2)
+	if not slot2 or not slot0.chaptersExtend[slot1] then
+		return
+	end
+
+	slot0.chaptersExtend[slot1][slot2] = nil
+
+	if next(slot0.chaptersExtend[slot1]) then
+		return
+	end
+
+	slot0:RemoveExtendChapter(slot1)
+end
+
+function slot0.GetExtendChapter(slot0, slot1)
+	return slot0.chaptersExtend[slot1]
+end
+
+function slot0.RemoveExtendChapter(slot0, slot1)
+	if not slot0.chaptersExtend[slot1] then
 		return
 	end
 
@@ -903,8 +956,12 @@ function slot0.updateRemasterTicketsNum(slot0, slot1)
 	slot0.remasterTickets = slot1
 end
 
+function slot0.resetDailyCount(slot0)
+	slot0.remasterDailyCount = 0
+end
+
 function slot0.updateDailyCount(slot0)
-	slot0.remasterDailyCount = slot0.remasterDailyCount + 2
+	slot0.remasterDailyCount = slot0.remasterDailyCount + pg.gameset.reactivity_ticket_daily.key_value
 end
 
 function slot0.GetSkipPrecombat(slot0)
@@ -920,7 +977,39 @@ function slot0.UpdateSkipPrecombat(slot0, slot1)
 		PlayerPrefs.SetInt("chapter_skip_precombat", slot1)
 
 		slot0.skipPrecombat = slot1
+
+		slot0:sendNotification(uv0.CHAPTER_SKIP_PRECOMBAT_UPDATED, slot1)
 	end
+end
+
+function slot0.GetChapterAutoFlag(slot0, slot1)
+	return slot0:GetExtendChapterData(slot1, "AutoFightFlag")
+end
+
+function slot0.SetChapterAutoFlag(slot0, slot1, slot2)
+	if tobool(slot2) == (slot0:GetChapterAutoFlag(slot1) == 1) then
+		return
+	end
+
+	slot0:SetExtendChapterData(slot1, "AutoFightFlag", slot2 and 1 or 0)
+
+	if slot2 then
+		slot0:UpdateSkipPrecombat(true)
+
+		if AutoBotCommand.autoBotSatisfied() then
+			PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(), 1)
+		end
+	end
+
+	slot0.facade:sendNotification(uv0.CHAPTER_AUTO_FIGHT_FLAG_UPDATED, slot2 and 1 or 0)
+end
+
+function slot0.StopAutoFight(slot0)
+	if not slot0:getActiveChapter(true) then
+		return
+	end
+
+	slot0:SetChapterAutoFlag(slot1.id, false)
 end
 
 return slot0

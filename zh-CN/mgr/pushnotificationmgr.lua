@@ -11,6 +11,7 @@ slot1.PUSH_TYPE_CLASS = 6
 slot1.PUSH_TYPE_TECHNOLOGY = 7
 slot1.PUSH_TYPE_BLUEPRINT = 8
 slot1.PUSH_TYPE_COMMANDER = 9
+slot1.PUSH_TYPE_GUILD_MISSION_FORMATION = 10
 slot2 = {}
 slot3 = false
 
@@ -111,6 +112,10 @@ function slot1.PushAll(slot0)
 
 		if uv0[uv1.PUSH_TYPE_COMMANDER] then
 			slot0:PushCommander()
+		end
+
+		if uv0[uv1.PUSH_TYPE_GUILD_MISSION_FORMATION] then
+			slot0:PushGuildMissionFormation()
 		end
 	end
 end
@@ -220,6 +225,28 @@ function slot1.PushCommander(slot0)
 			end
 		end
 	end
+end
+
+function slot1.PushGuildMissionFormation(slot0)
+	if not getProxy(GuildProxy):getRawData() then
+		return
+	end
+
+	if not slot1:GetActiveEvent() or slot2 and not slot2:IsParticipant() then
+		return
+	end
+
+	if not slot2:GetUnlockMission() then
+		return
+	end
+
+	if slot3:GetNextFormationTime() <= uv0.TimeMgr.GetInstance():GetServerTime() then
+		return
+	end
+
+	slot6 = uv0.push_data_template[uv1.PUSH_TYPE_GUILD_MISSION_FORMATION]
+
+	slot0:Push(slot6.title, slot6.content, slot4)
 end
 
 function slot1.log(slot0, slot1, slot2, slot3)

@@ -96,7 +96,7 @@ pg.guildset = {
 	operation_duration_time = {
 		key_args = "",
 		key = "operation_duration_time",
-		key_value = 2592000
+		key_value = 5184000
 	},
 	operation_daily_boss_count = {
 		key_args = "",

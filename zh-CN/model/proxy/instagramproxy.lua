@@ -1,8 +1,36 @@
 slot0 = class("InstagramProxy", import(".NetProxy"))
+slot1 = pg.gameset_language_client
+slot2 = pg.activity_ins_npc_template
 
 function slot0.register(slot0)
 	slot0.caches = {}
 	slot0.messages = {}
+	slot0.allReply = {}
+
+	for slot5, slot6 in ipairs(uv1.all) do
+		slot0.allReply[slot6] = function (slot0)
+			slot1 = slot0.npc_reply_persist
+
+			if type(slot0.npc_reply_persist) == "string" then
+				slot1 = {}
+			end
+
+			slot2 = ""
+			slot3 = pg.TimeMgr.GetInstance():GetServerTime()
+
+			if uv0[slot0.message_persist] then
+				slot2 = uv0[slot0.message_persist].value
+				slot3 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.time_persist)
+			end
+
+			return {
+				id = slot0.id,
+				time = slot3,
+				text = slot2,
+				npc_reply = slot1
+			}
+		end(uv1[slot6])
+	end
 
 	slot0:on(11700, function (slot0)
 		for slot4, slot5 in ipairs(slot0.ins_message_list) do
@@ -14,6 +42,10 @@ function slot0.register(slot0)
 			end
 		end
 	end)
+end
+
+function slot0.GetAllReply(slot0)
+	return slot0.allReply
 end
 
 function slot0.InitLocalConfigs(slot0)

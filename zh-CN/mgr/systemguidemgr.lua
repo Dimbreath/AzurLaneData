@@ -82,13 +82,15 @@ function slot0.Play(slot0, slot1, slot2)
 	uv3(slot4.id, slot4.args(slot1), slot2)
 end
 
-function slot0.PlayChapter(slot0, slot1)
+function slot0.PlayChapter(slot0, slot1, slot2)
 	if slot1:getPlayType() == ChapterConst.TypeMainSub then
-		slot0:PlayByGuideId("NG003")
+		slot0:PlayByGuideId("NG003", nil, slot2)
 	elseif slot1.id == 1160002 then
-		slot0:PlayByGuideId("NG0011")
+		slot0:PlayByGuideId("NG0011", nil, slot2)
 	elseif slot1:isTypeDefence() then
-		slot0:PlayByGuideId("NG0016")
+		slot0:PlayByGuideId("NG0016", nil, slot2)
+	else
+		existCall(slot2)
 	end
 end
 

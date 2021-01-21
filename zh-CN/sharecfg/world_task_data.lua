@@ -55,7 +55,8 @@ pg.world_task_data = {
 				100000,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2000] = {
 		server_type = 1,
@@ -122,7 +123,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2001] = {
 		server_type = 1,
@@ -189,7 +191,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2002] = {
 		server_type = 1,
@@ -256,7 +259,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2003] = {
 		server_type = 1,
@@ -323,7 +327,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2004] = {
 		server_type = 1,
@@ -390,7 +395,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2010] = {
 		server_type = 1,
@@ -461,7 +467,8 @@ pg.world_task_data = {
 				2003,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2050] = {
 		server_type = 1,
@@ -528,7 +535,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2100] = {
 		server_type = 1,
@@ -597,7 +605,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2101] = {
 		server_type = 1,
@@ -664,7 +673,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2102] = {
 		server_type = 1,
@@ -731,7 +741,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2103] = {
 		server_type = 1,
@@ -798,7 +809,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2104] = {
 		server_type = 1,
@@ -865,7 +877,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2105] = {
 		server_type = 1,
@@ -932,7 +945,8 @@ pg.world_task_data = {
 				201,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2110] = {
 		server_type = 1,
@@ -1006,7 +1020,8 @@ pg.world_task_data = {
 				2004,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2150] = {
 		server_type = 1,
@@ -1059,7 +1074,8 @@ pg.world_task_data = {
 		task_goto = {
 			2
 		},
-		show = {}
+		show = {},
+		reset_task = {}
 	},
 	[2200] = {
 		server_type = 1,
@@ -1133,7 +1149,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2201] = {
 		server_type = 1,
@@ -1205,7 +1222,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2202] = {
 		server_type = 1,
@@ -1277,7 +1295,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2203] = {
 		server_type = 1,
@@ -1349,7 +1368,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2204] = {
 		server_type = 1,
@@ -1421,7 +1441,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2205] = {
 		server_type = 1,
@@ -1493,7 +1514,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2210] = {
 		server_type = 1,
@@ -1572,7 +1594,8 @@ pg.world_task_data = {
 				2014,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2300] = {
 		server_type = 1,
@@ -1646,7 +1669,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2301] = {
 		server_type = 1,
@@ -1718,7 +1742,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2302] = {
 		server_type = 1,
@@ -1792,7 +1817,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2303] = {
 		server_type = 1,
@@ -1864,7 +1890,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2304] = {
 		server_type = 1,
@@ -1936,7 +1963,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2305] = {
 		server_type = 1,
@@ -2008,7 +2036,8 @@ pg.world_task_data = {
 				202,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[2310] = {
 		server_type = 1,
@@ -2019,7 +2048,7 @@ pg.world_task_data = {
 		item_retrieve = 1,
 		sharing = 1,
 		rare_task_text = "在NA海域东南压制<color=#92fc63>8</color>处海域，（后续章节暂未开放）",
-		continuity = 0,
+		continuity = 1,
 		complete_stage = 0,
 		priority = 10,
 		task_op = "",
@@ -2080,6 +2109,10 @@ pg.world_task_data = {
 				2015,
 				1
 			}
+		},
+		reset_task = {
+			100,
+			100
 		}
 	},
 	[3101] = {
@@ -2142,7 +2175,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3102] = {
 		server_type = 2,
@@ -2204,7 +2238,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3103] = {
 		server_type = 2,
@@ -2266,7 +2301,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3201] = {
 		server_type = 2,
@@ -2328,7 +2364,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3202] = {
 		server_type = 2,
@@ -2390,7 +2427,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3203] = {
 		server_type = 2,
@@ -2452,7 +2490,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3301] = {
 		server_type = 2,
@@ -2514,7 +2553,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3302] = {
 		server_type = 2,
@@ -2576,7 +2616,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3303] = {
 		server_type = 2,
@@ -2638,7 +2679,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3304] = {
 		server_type = 2,
@@ -2700,7 +2742,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3401] = {
 		server_type = 2,
@@ -2762,7 +2805,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[3402] = {
 		server_type = 2,
@@ -2824,7 +2868,8 @@ pg.world_task_data = {
 				100,
 				100
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210000] = {
 		server_type = 3,
@@ -2892,7 +2937,8 @@ pg.world_task_data = {
 				110,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210100] = {
 		server_type = 3,
@@ -2960,7 +3006,8 @@ pg.world_task_data = {
 				2100011,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210200] = {
 		server_type = 3,
@@ -3028,7 +3075,8 @@ pg.world_task_data = {
 				2100011,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210300] = {
 		server_type = 3,
@@ -3096,7 +3144,8 @@ pg.world_task_data = {
 				2100012,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210400] = {
 		server_type = 3,
@@ -3164,7 +3213,8 @@ pg.world_task_data = {
 				2100013,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210500] = {
 		server_type = 3,
@@ -3232,7 +3282,8 @@ pg.world_task_data = {
 				2100013,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210600] = {
 		server_type = 3,
@@ -3300,7 +3351,8 @@ pg.world_task_data = {
 				110,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210700] = {
 		server_type = 3,
@@ -3368,7 +3420,8 @@ pg.world_task_data = {
 				110,
 				3
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210800] = {
 		server_type = 3,
@@ -3436,7 +3489,8 @@ pg.world_task_data = {
 				2100012,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[210900] = {
 		server_type = 3,
@@ -3504,7 +3558,8 @@ pg.world_task_data = {
 				2100013,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[211000] = {
 		server_type = 3,
@@ -3572,7 +3627,8 @@ pg.world_task_data = {
 				2100013,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[211100] = {
 		server_type = 3,
@@ -3645,7 +3701,8 @@ pg.world_task_data = {
 				2100013,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213000] = {
 		server_type = 3,
@@ -3744,7 +3801,8 @@ pg.world_task_data = {
 				202,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213100] = {
 		server_type = 3,
@@ -3843,7 +3901,8 @@ pg.world_task_data = {
 				203,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213200] = {
 		server_type = 3,
@@ -3942,7 +4001,8 @@ pg.world_task_data = {
 				251,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213300] = {
 		server_type = 3,
@@ -4041,7 +4101,8 @@ pg.world_task_data = {
 				252,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213400] = {
 		server_type = 3,
@@ -4140,7 +4201,8 @@ pg.world_task_data = {
 				2100021,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213500] = {
 		server_type = 3,
@@ -4239,7 +4301,8 @@ pg.world_task_data = {
 				2100021,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213600] = {
 		server_type = 3,
@@ -4338,7 +4401,8 @@ pg.world_task_data = {
 				2100011,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213700] = {
 		server_type = 3,
@@ -4437,7 +4501,8 @@ pg.world_task_data = {
 				2100012,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213800] = {
 		server_type = 3,
@@ -4536,7 +4601,8 @@ pg.world_task_data = {
 				2100011,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[213900] = {
 		server_type = 3,
@@ -4635,7 +4701,8 @@ pg.world_task_data = {
 				2100012,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[216000] = {
 		server_type = 3,
@@ -4682,7 +4749,8 @@ pg.world_task_data = {
 		task_goto = {
 			3
 		},
-		show = {}
+		show = {},
+		reset_task = {}
 	},
 	[216100] = {
 		server_type = 3,
@@ -4729,7 +4797,8 @@ pg.world_task_data = {
 		task_goto = {
 			3
 		},
-		show = {}
+		show = {},
+		reset_task = {}
 	},
 	[216200] = {
 		server_type = 3,
@@ -4776,7 +4845,8 @@ pg.world_task_data = {
 		task_goto = {
 			3
 		},
-		show = {}
+		show = {},
+		reset_task = {}
 	},
 	[216300] = {
 		server_type = 3,
@@ -4867,7 +4937,8 @@ pg.world_task_data = {
 				204,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[216400] = {
 		server_type = 3,
@@ -4958,7 +5029,8 @@ pg.world_task_data = {
 				205,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[216500] = {
 		server_type = 3,
@@ -5049,7 +5121,8 @@ pg.world_task_data = {
 				252,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[216600] = {
 		server_type = 3,
@@ -5140,7 +5213,8 @@ pg.world_task_data = {
 				253,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[216700] = {
 		server_type = 3,
@@ -5231,7 +5305,8 @@ pg.world_task_data = {
 				2100021,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[216800] = {
 		server_type = 3,
@@ -5312,7 +5387,8 @@ pg.world_task_data = {
 				2100021,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[216900] = {
 		server_type = 3,
@@ -5403,7 +5479,8 @@ pg.world_task_data = {
 				2100012,
 				10
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[217000] = {
 		server_type = 3,
@@ -5494,7 +5571,8 @@ pg.world_task_data = {
 				2100013,
 				5
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[217100] = {
 		server_type = 3,
@@ -5541,7 +5619,8 @@ pg.world_task_data = {
 		task_goto = {
 			3
 		},
-		show = {}
+		show = {},
+		reset_task = {}
 	},
 	[219000] = {
 		server_type = 3,
@@ -5600,7 +5679,8 @@ pg.world_task_data = {
 				251,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[219100] = {
 		server_type = 3,
@@ -5659,7 +5739,8 @@ pg.world_task_data = {
 				252,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[219200] = {
 		server_type = 3,
@@ -5718,7 +5799,8 @@ pg.world_task_data = {
 				101,
 				10
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[219300] = {
 		server_type = 3,
@@ -5777,7 +5859,8 @@ pg.world_task_data = {
 				101,
 				20
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[219400] = {
 		server_type = 3,
@@ -5831,7 +5914,8 @@ pg.world_task_data = {
 				2100001,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[219500] = {
 		server_type = 3,
@@ -5885,7 +5969,8 @@ pg.world_task_data = {
 				2100002,
 				1
 			}
-		}
+		},
+		reset_task = {}
 	},
 	[219600] = {
 		server_type = 3,
@@ -5944,7 +6029,8 @@ pg.world_task_data = {
 				2100014,
 				2
 			}
-		}
+		},
+		reset_task = {}
 	},
 	all = {
 		1,

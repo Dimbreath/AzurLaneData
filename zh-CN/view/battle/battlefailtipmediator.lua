@@ -35,7 +35,7 @@ function slot0.bindEvent(slot0)
 
 		slot2, slot3 = getProxy(ChapterProxy):getHigestClearChapterAndMap()
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+		uv0:sendNotification(GAME.CHANGE_SCENE, SCENE.LEVEL, {
 			targetChapter = slot2,
 			targetMap = slot3
 		})
@@ -53,7 +53,7 @@ function slot0.bindEvent(slot0)
 			uv0.tempShipIDList = slot1
 		end
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		uv0:sendNotification(GAME.CHANGE_SCENE, SCENE.DOCKYARD, {
 			priorEquipUpShipIDList = uv0.tempShipIDList,
 			priorMode = DockyardScene.PRIOR_MODE_EQUIP_UP,
 			mode = DockyardScene.MODE_OVERVIEW,
@@ -80,7 +80,7 @@ function slot0.bindEvent(slot0)
 			uv0.tempShipIDList = slot1
 		end
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		uv0:sendNotification(GAME.CHANGE_SCENE, SCENE.DOCKYARD, {
 			priorEquipUpShipIDList = uv0.tempShipIDList,
 			priorMode = DockyardScene.PRIOR_MODE_SHIP_UP,
 			mode = DockyardScene.MODE_OVERVIEW,
@@ -95,7 +95,7 @@ function slot0.bindEvent(slot0)
 	end)
 	slot0:bind(uv0.GO_NAVALTACTICS, function (slot0)
 		uv0:removeContextBeforeGO()
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
+		uv0:sendNotification(GAME.CHANGE_SCENE, SCENE.NAVALTACTICS)
 	end)
 end
 
@@ -137,7 +137,7 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			end
 
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+			slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.DOCKYARD, {
 				priorEquipUpShipIDList = slot0.tempShipIDList,
 				priorMode = DockyardScene.PRIOR_MODE_EQUIP_UP,
 				mode = DockyardScene.MODE_OVERVIEW,
@@ -161,7 +161,7 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			end
 
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
+			slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.NAVALTACTICS)
 		elseif slot0.viewComponent.lastClickBtn == BattleFailTipLayer.PowerUpBtn.ShipBreakUp then
 			if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
 				if slot5:getContextByMediator(ChapterPreCombatMediator) then
@@ -173,7 +173,7 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			end
 
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+			slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.DOCKYARD, {
 				priorEquipUpShipIDList = slot0.tempShipIDList,
 				priorMode = DockyardScene.PRIOR_MODE_SHIP_UP,
 				mode = DockyardScene.MODE_OVERVIEW,

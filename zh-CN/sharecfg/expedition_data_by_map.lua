@@ -8395,6 +8395,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1470001] = {
+		map = 1470001,
+		name = "神圣的悲喜剧·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 4,
+		on_activity = 838,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470002] = {
+		map = 1470002,
+		name = "神圣的悲喜剧·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 4,
+		on_activity = 839,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240005",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240005",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470011] = {
+		map = 1470011,
+		name = "神圣的悲喜剧·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 5,
+		on_activity = 838,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240003",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240003",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470012] = {
+		map = 1470012,
+		name = "神圣的悲喜剧·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 5,
+		on_activity = 839,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240006",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240006",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470025] = {
+		map = 1470025,
+		name = "神圣的悲喜剧·SP|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 8,
+		on_activity = 839,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240007",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240007",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470026] = {
+		map = 1470026,
+		name = "神圣的悲喜剧·EX|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 8,
+		on_activity = 839,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240008",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1240008",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -9319,6 +9571,174 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100120] = {
+		map = 2100120,
+		name = "苍红的回响·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "Nagato-map",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIANCHENGHUODONG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1180001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1180001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100130,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100121] = {
+		map = 2100121,
+		name = "苍红的回响·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIANCHENGHUODONG10",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1180002",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1180002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100131,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100130] = {
+		map = 2100130,
+		name = "苍红的回响·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "Nagato-map",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIANCHENGHUODONG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1180011",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1180001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100120,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100131] = {
+		map = 2100131,
+		name = "苍红的回响·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIANCHENGHUODONG10",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1180012",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1180002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100121,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "努力、希望和计划|| ||CHAPTER SP||S.P.",
@@ -9647,6 +10067,12 @@ pg.expedition_data_by_map = {
 		1460012,
 		1460025,
 		1460026,
+		1470001,
+		1470002,
+		1470011,
+		1470012,
+		1470025,
+		1470026,
 		2100000,
 		2100001,
 		2100010,
@@ -9671,6 +10097,10 @@ pg.expedition_data_by_map = {
 		2100101,
 		2100110,
 		2100111,
+		2100120,
+		2100121,
+		2100130,
+		2100131,
 		2200000,
 		2200010,
 		2200020

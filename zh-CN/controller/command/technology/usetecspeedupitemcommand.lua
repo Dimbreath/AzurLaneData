@@ -6,7 +6,8 @@ function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(63210, {
 		blueprintid = slot2.blueprintid,
 		itemid = slot2.itemid,
-		number = slot2.number
+		number = slot2.number,
+		task_id = slot2.taskID
 	}, 63211, function (slot0)
 		if slot0.result == 0 then
 			getProxy(BagProxy):removeItemById(uv0, uv1)

@@ -2,7 +2,6 @@ slot0 = class("Instagram", import("..BaseVO"))
 slot0.TYPE_PLAYER_COMMENT = 1
 slot0.TYPE_NPC_COMMENT = 2
 slot1 = pg.gameset_language_client
-slot2 = pg.activity_ins_npc_template
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
@@ -64,54 +63,30 @@ end
 function slot0.InitByConfig(slot0, slot1)
 	slot0.text = uv0[slot0:getConfig("message_persist")].value
 	slot0.picture = slot0:getConfig("picture_persist")
+	slot6 = slot0
 	slot7 = "time_persist"
-	slot0.time = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getConfig(slot7))
+	slot0.time = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.getConfig(slot6, slot7))
 	slot0.optionDiscuss = {}
 	slot0.discussList = {}
-	slot0.allReply = {}
+	slot0.allReply = getProxy(InstagramProxy):GetAllReply()
 
-	for slot7, slot8 in ipairs(uv1.all) do
-		slot0.allReply[slot8] = function (slot0)
-			slot1 = slot0.npc_reply_persist
-
-			if type(slot0.npc_reply_persist) == "string" then
-				slot1 = {}
-			end
-
-			slot2 = ""
-			slot3 = pg.TimeMgr.GetInstance():GetServerTime()
-
-			if uv0[slot0.message_persist] then
-				slot2 = uv0[slot0.message_persist].value
-				slot3 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.time_persist)
-			end
-
-			return {
-				id = slot0.id,
-				time = slot3,
-				text = slot2,
-				npc_reply = slot1
-			}
-		end(uv1[slot8])
-	end
-
-	for slot7, slot8 in ipairs(slot1.player_discuss) do
-		if slot8.text == "" then
-			for slot12, slot13 in ipairs(slot8.text_list) do
+	for slot6, slot7 in ipairs(slot1.player_discuss) do
+		if slot7.text == "" then
+			for slot11, slot12 in ipairs(slot7.text_list) do
 				table.insert(slot0.optionDiscuss, 1, {
-					id = slot8.id,
-					index = slot12,
-					text = slot13
+					id = slot7.id,
+					index = slot11,
+					text = slot12
 				})
 			end
 		else
-			table.insert(slot0.discussList, InstagramPlayerComment.New(slot8, slot0, 1))
+			table.insert(slot0.discussList, InstagramPlayerComment.New(slot7, slot0, 1))
 		end
 	end
 
 	if type(slot0:getConfig("npc_discuss_persist")) == "table" then
-		for slot8, slot9 in ipairs(slot4) do
-			table.insert(slot0.discussList, InstagramNpcComment.New(slot3(uv1[slot9]), slot0, 1))
+		for slot7, slot8 in ipairs(slot3) do
+			table.insert(slot0.discussList, InstagramNpcComment.New(slot0.allReply[slot8], slot0, 1))
 		end
 	end
 end

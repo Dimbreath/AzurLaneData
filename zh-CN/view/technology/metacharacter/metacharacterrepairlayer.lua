@@ -179,7 +179,10 @@ function slot0.updateAttrItem(slot0, slot1, slot2)
 		setActive(slot3, false)
 
 		slot8.interactable = true
+		slot12 = slot0:findTF("AttrRepairValue/Image", slot5)
+		slot13 = slot0:findTF("AttrRepairValue/NextValueText", slot5)
 		slot14 = slot0:findTF("IconTpl", slot5)
+		slot16 = slot0:findTF("NumText", slot0:findTF("ItemCount", slot5))
 		slot17 = slot6:getAddition()
 
 		setText(slot0:findTF("ValueText", slot4), "+" .. slot17)
@@ -188,10 +191,12 @@ function slot0.updateAttrItem(slot0, slot1, slot2)
 
 		slot20 = nil
 		slot20 = (slot6:isMaxLevel() or slot6:getItem()) and slot6:getItemByLevel(slot6:getLevel() - 1)
-		slot21 = slot20:getItemId()
-		slot22 = slot20:getTotalCnt()
 
-		setText(slot0:findTF("NumText", slot0:findTF("ItemCount", slot5)), getProxy(BagProxy):getItemCountById(slot21) .. "/" .. slot22)
+		if getProxy(BagProxy):getItemCountById(slot20:getItemId()) < slot20:getTotalCnt() then
+			slot23 = setColorStr(slot23, COLOR_RED)
+		end
+
+		setText(slot16, slot23 .. "/" .. slot22)
 		updateDrop(slot14, {
 			type = DROP_TYPE_ITEM,
 			id = slot21,
@@ -202,8 +207,8 @@ function slot0.updateAttrItem(slot0, slot1, slot2)
 		onButton(slot0, slot14, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
-		setActive(slot0:findTF("AttrRepairValue/Image", slot5), not slot19)
-		setActive(slot0:findTF("AttrRepairValue/NextValueText", slot5), not slot19)
+		setActive(slot12, not slot19)
+		setActive(slot13, not slot19)
 
 		if slot19 then
 			setText(slot13, slot17)

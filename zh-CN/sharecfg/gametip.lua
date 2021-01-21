@@ -2524,7 +2524,7 @@ pg.gametip = {
 		tip = "未开放"
 	},
 	levelScene_activate_remaster = {
-		tip = "消耗<color=#ffde38>档案密钥x1</color>解锁当前活动作战档案，持续15分钟\n是否确认开启？"
+		tip = "进入所选关卡需要消耗<color=#ffde38>档案秘钥x1</color>，\n是否进入？"
 	},
 	levelScene_remaster_tickets_not_enough = {
 		tip = "入场券数量不足"
@@ -2538,19 +2538,16 @@ pg.gametip = {
 				info = "作战档案说明\n作战档案系统是通过研究特殊作战档案，进行模拟作战的\n系统以往的特殊作战的攻略进度不会被继承，需重新攻略 "
 			},
 			{
-				info = "    \n1. 司令部每日能够提供两份<color=#92fc63>档案密钥</color>，请在每日任务中\n领取"
+				info = "    \n1. 司令部每日能够提供四份<color=#92fc63>档案密钥</color>，请在档案选择界面\n中领取"
 			},
 			{
-				info = "2.<color=#92fc63>档案密钥</color>存储上限为30份，领取超过存储上限的<color=#92fc63>档案密\n钥</color>将自动消失"
+				info = "2.<color=#92fc63>档案密钥</color>存储上限为60份，领取超过存储上限的<color=#92fc63>档案密\n钥</color>将自动消失"
 			},
 			{
-				info = "3.通过消耗<color=#92fc63>档案密钥</color>，可以解锁当前选择的特殊作战15分\n钟的开放权"
+				info = "3.通过消耗<color=#92fc63>档案密钥</color>，可以解锁当前选择的特殊作战关卡\n一次的开放权"
 			},
 			{
-				info = "4.特殊作战解锁期间，可以出击本作战内可挑战的任意关\n卡"
-			},
-			{
-				info = "5.特殊作战解锁时间结束后，已经在关卡战斗地图中的舰\n队不会被强制撤离，可以继续完成该轮作战"
+				info = "4.在特殊作战关卡中撤退不返还档案密钥"
 			}
 		}
 	},
@@ -6622,7 +6619,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>20.12.29-21.1.13</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+		tip = "*活动期间(<color=#A1E400FF>21.1.21-21.2.3</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
 	},
 	battle_result_boss_destruct = {
 		tip = "阻止boss自毁并击破boss"
@@ -7660,13 +7657,13 @@ $3]]
 		tip = "天赋点不足"
 	},
 	buildship_new_tip = {
-		tip = "海因里希亲王、彼得·史特拉塞 等角色建造概率UP！"
+		tip = "波拉、扎拉、可畏 等角色建造概率UP！"
 	},
 	buildship_heavy_tip = {
-		tip = "{namecode:82}、{namecode:71} 建造追加！"
+		tip = "{namecode:161}、{namecode:81}、{namecode:92} 等角色建造追加！"
 	},
 	buildship_light_tip = {
-		tip = "黑泽伍德、{namecode:148} 建造追加！"
+		tip = "{namecode:157}、{namecode:162} 等角色建造追加！"
 	},
 	buildship_special_tip = {
 		tip = "{namecode:163} 建造追加！"
@@ -8488,7 +8485,30 @@ $3]]
 3 活动关卡中我方的移动格数<color=#92fc63>不会受到移动力限制</color>，可自
 由移动
 4 通常海域关卡中<color=#92fc63>取消伏击与空袭</color>
-5 关卡内会开启<color=#92fc63>阵容锁定</color>模式]]
+5 关卡内会开启<color=#92fc63>阵容锁定</color>模式
+6 关卡内会开启<color=#92fc63>自律寻敌</color>模式
+
+ <color=#92fc63>自律寻敌</color>模式介绍：
+1.<color=#92fc63>自律寻敌</color>只会在周回模式下开启，当关卡首次进入周回
+模式时，自律寻敌会自动开启
+2.自律寻敌开启的同时，会自动开启<color=#92fc63>自律战斗</color><color=#92fc63>和阵容锁定</color>
+功能。自动呼叫潜艇功能会根据指挥官的设置，不会自动
+开启
+3.开启自律寻敌后，指挥官可以在舰队选择界面设置舰队
+职能，舰队职能一共分为四种：
+①<color=#92fc63>道中战斗</color>：该舰队只会进行道中战斗（<color=#92fc63>指与非敌方旗舰
+进行战斗</color>），选择该队为道中战斗后，另一队默认为旗舰
+战斗
+②<color=#92fc63>旗舰战斗</color>：敌方旗舰出现后会切换到该舰队与敌方旗舰
+进行战斗，选择该队为旗舰战斗后，另一队默认为道中战
+斗
+③<color=#92fc63>全部战斗</color>：该舰队会与道中敌人和敌方旗舰进行战斗，
+选择该队为全部战斗后，另一队默认为待机
+④<color=#92fc63>待机</color>：该舰队不参与战斗，原地待机，选择该队为待机
+后，另一队默认为全部战斗
+4.自律寻敌模式中，场上有精英舰队时，优先攻击<color=#92fc63>精英舰
+队</color>，场上没有精英舰队时，就近攻击离我方<color=#92fc63>最近的敌人</color>，
+当场上出现敌方旗舰时，最优先攻击<color=#92fc63>敌方旗舰</color>]]
 			}
 		}
 	},
@@ -12453,6 +12473,9 @@ BUFF加成也会增加
 			},
 			{
 				info = "12.所有事件和首领敌人的奖励将会发放到<color=#92fc63>作战报告</color>内，\n作战报告有存储上限，请指挥官<color=#92fc63>及时领取</color>。"
+			},
+			{
+				info = "13.作战开启后，若60天内未能完成作战，则作战将自动\n关闭。"
 			}
 		}
 	},
@@ -12502,8 +12525,11 @@ BUFF加成也会增加
 	word_shipState_guild_event = {
 		tip = "角色正在参与大舰队作战，无法退役"
 	},
+	word_shipState_guild_boss = {
+		tip = "该角色为大舰队作战首领战编队成员，是否确认将该角色移出编队？"
+	},
 	commander_is_in_guild = {
-		tip = "该指挥喵在大舰队编队中"
+		tip = "该指挥喵正在大舰队作战首领战编队中，是否确认将该指挥喵移出编队？"
 	},
 	guild_assult_ship_recommend = {
 		tip = "推荐状态更新成功，推荐攻坚队角色设置成功"
@@ -12540,6 +12566,12 @@ BUFF加成也会增加
 	},
 	guild_donate_list_update_failed = {
 		tip = "军需筹备项目刷新失败"
+	},
+	guild_tip_quit_operation = {
+		tip = "正在参与大舰队作战，退出大舰队将损失已经消耗的大舰队作战次数(本月参与次数剩余：$1)，是否确认退出大舰队？"
+	},
+	guild_tip_grand_fleet_is_frozen = {
+		tip = "该大舰队已被冻结，无法申请加入"
 	},
 	help_rollingBallGame = {
 		tip = {
@@ -13133,6 +13165,63 @@ BUFF加成也会增加
 			}
 		}
 	},
+	autofight = {
+		tip = "自律寻敌"
+	},
+	autofight_errors_tip = {
+		tip = "自律寻敌找不到敌人，已切换回手动模式"
+	},
+	autofight_special_operation_tip = {
+		tip = "已为您<color=#ff5c5c>取消</color>高效作战指令书，自律寻敌模式下会<color=#92fc63>优先攻击敌方旗舰</color>而不是触发所有战斗，如果希望依旧使用高效作战指令书，请<color=#92fc63>再次手动选择使用</color>"
+	},
+	autofight_formation = {
+		tip = "编队"
+	},
+	autofight_cat = {
+		tip = "指挥喵"
+	},
+	autofight_function = {
+		tip = "职能"
+	},
+	autofight_function1 = {
+		tip = "道中战斗"
+	},
+	autofight_function2 = {
+		tip = "旗舰战斗"
+	},
+	autofight_function3 = {
+		tip = "全部战斗"
+	},
+	autofight_function4 = {
+		tip = "待机"
+	},
+	autofight_rewards = {
+		tip = "合计获得奖励"
+	},
+	autofight_rewards_none = {
+		tip = "本次作战未获得奖励"
+	},
+	autofight_leave = {
+		tip = "离开"
+	},
+	autofight_onceagain = {
+		tip = "再次前往"
+	},
+	autofight_entrust = {
+		tip = "本次作战出现紧急委托：$1"
+	},
+	autofight_task = {
+		tip = "本次作战完成任务：$1"
+	},
+	autofight_farm = {
+		tip = "周回模式"
+	},
+	autofight_change_tip = {
+		tip = "由于舰队发生变化，舰队职能变为<color=#92fc63>全部战斗</color>"
+	},
+	autofight_selectprops_tip = {
+		tip = "点击选择\n作战道具"
+	},
 	index_equip = {
 		tip = "装备中"
 	},
@@ -13499,6 +13588,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	world_collection_back = {
 		tip = "点击空白处返回"
 	},
+	archives_whether_to_retreat = {
+		tip = "真的要<color=#92fc63>撤退</color>吗?\n（撤退不返还档案密钥）"
+	},
 	world_fleet_stop = {
 		tip = "舰队移动正在停止"
 	},
@@ -13516,5 +13608,32 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	world_boss_inbattle = {
 		tip = "当前处于信标·烬作战中，不可前往"
+	},
+	area_putong = {
+		tip = "普通海域"
+	},
+	area_anquan = {
+		tip = "安全海域"
+	},
+	area_yaosai = {
+		tip = "塞壬要塞"
+	},
+	area_yaosai_2 = {
+		tip = "当前海域已被塞壬入侵"
+	},
+	area_shenyuan = {
+		tip = "深渊海域"
+	},
+	area_yinmi = {
+		tip = "隐秘海域"
+	},
+	area_renwu = {
+		tip = "任务海域"
+	},
+	area_zhuxian = {
+		tip = "主线海域"
+	},
+	charge_trade_no_error = {
+		tip = "订单id异常，请重新尝试购买。"
 	}
 }

@@ -590,7 +590,7 @@ function slot0.checkCommander(slot0, slot1)
 		return
 	end
 
-	slot4, slot5 = slot0.onCommander(slot2, function ()
+	function slot4()
 		for slot3, slot4 in ipairs(uv0.selecteds) do
 			if slot4 == uv1.id then
 				table.remove(uv0.selecteds, slot3)
@@ -598,16 +598,23 @@ function slot0.checkCommander(slot0, slot1)
 				break
 			end
 		end
+	end
 
-		uv0:updateSelecteds()
+	slot5, slot6 = slot0.onCommander(slot2, function ()
+		uv0()
+		uv1:updateSelecteds()
 	end, function ()
-		uv0:emit(CommandRoomMediator.ON_REMARK)
-		uv0:updateCommanders()
-		uv0:updateSelecteds()
+		uv0()
+		uv1:emit(CommandRoomMediator.ON_REMARK)
+		uv1:updateCommanders()
+		uv1:checkCommander(uv1.commanderVOs[uv2.id])
+		uv1:updateSelecteds()
 	end, slot0)
 
-	if not slot4 then
-		pg.TipsMgr.GetInstance():ShowTips(slot5)
+	if not slot5 then
+		if slot6 then
+			pg.TipsMgr.GetInstance():ShowTips(slot6)
+		end
 
 		return
 	end

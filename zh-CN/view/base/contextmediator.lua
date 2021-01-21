@@ -308,4 +308,19 @@ function slot0.onBackPressed(slot0, slot1)
 	end
 end
 
+function slot0.removeSubLayers(slot0, slot1, slot2)
+	if not getProxy(ContextProxy):getContextByMediator(slot0.class or slot0) then
+		return
+	end
+
+	if not slot4:getContextByMediator(slot1) then
+		return
+	end
+
+	slot0:sendNotification(GAME.REMOVE_LAYERS, {
+		context = slot5,
+		callback = slot2
+	})
+end
+
 return slot0

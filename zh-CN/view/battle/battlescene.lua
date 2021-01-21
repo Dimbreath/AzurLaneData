@@ -402,6 +402,7 @@ end
 
 function slot0.exitBattle(slot0, slot1)
 	if not slot1 then
+		slot0:emit(BattleMediator.ON_QUIT_BATTLE_MANUALLY)
 		slot0:emit(BattleMediator.ON_BACK_PRE_SCENE)
 	elseif slot1 == "kick" then
 		-- Nothing

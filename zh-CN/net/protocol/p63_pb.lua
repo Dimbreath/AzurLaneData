@@ -54,6 +54,7 @@ slot2 = {
 	CS_63210_BLUEPRINTID_FIELD = slot0.FieldDescriptor(),
 	CS_63210_ITEMID_FIELD = slot0.FieldDescriptor(),
 	CS_63210_NUMBER_FIELD = slot0.FieldDescriptor(),
+	CS_63210_TASK_ID_FIELD = slot0.FieldDescriptor(),
 	SC_63211_RESULT_FIELD = slot0.FieldDescriptor(),
 	BLUPRINTINFO_ID_FIELD = slot0.FieldDescriptor(),
 	BLUPRINTINFO_SHIP_ID_FIELD = slot0.FieldDescriptor(),
@@ -895,6 +896,15 @@ slot2.CS_63210_NUMBER_FIELD.has_default_value = false
 slot2.CS_63210_NUMBER_FIELD.default_value = 0
 slot2.CS_63210_NUMBER_FIELD.type = 13
 slot2.CS_63210_NUMBER_FIELD.cpp_type = 3
+slot2.CS_63210_TASK_ID_FIELD.name = "task_id"
+slot2.CS_63210_TASK_ID_FIELD.full_name = "p63.cs_63210.task_id"
+slot2.CS_63210_TASK_ID_FIELD.number = 4
+slot2.CS_63210_TASK_ID_FIELD.index = 3
+slot2.CS_63210_TASK_ID_FIELD.label = 2
+slot2.CS_63210_TASK_ID_FIELD.has_default_value = false
+slot2.CS_63210_TASK_ID_FIELD.default_value = 0
+slot2.CS_63210_TASK_ID_FIELD.type = 13
+slot2.CS_63210_TASK_ID_FIELD.cpp_type = 3
 CS_63210.name = "cs_63210"
 CS_63210.full_name = "p63.cs_63210"
 CS_63210.nested_types = {}
@@ -902,7 +912,8 @@ CS_63210.enum_types = {}
 CS_63210.fields = {
 	slot2.CS_63210_BLUEPRINTID_FIELD,
 	slot2.CS_63210_ITEMID_FIELD,
-	slot2.CS_63210_NUMBER_FIELD
+	slot2.CS_63210_NUMBER_FIELD,
+	slot2.CS_63210_TASK_ID_FIELD
 }
 CS_63210.is_extendable = false
 CS_63210.extensions = {}

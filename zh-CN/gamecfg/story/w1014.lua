@@ -25,7 +25,7 @@ return {
 					flag = 0
 				},
 				{
-					content = "<color=#ff5c5c>离开(将会失去压制奖励)</color>",
+					content = "暂时离开(压制奖励不会消失)",
 					flag = 1
 				}
 			}

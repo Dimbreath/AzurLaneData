@@ -263,6 +263,8 @@ end
 function slot0.exitGuild(slot0)
 	slot0:Init()
 	slot0:sendNotification(uv0.EXIT_GUILD)
+	pg.ShipFlagMgr.GetInstance():ClearShipsFlag("inGuildEvent")
+	pg.ShipFlagMgr.GetInstance():ClearShipsFlag("inGuildBossEvent")
 end
 
 function slot0.getRequests(slot0)
@@ -502,13 +504,13 @@ function slot0.ShouldShowBattleTip(slot0)
 				end
 
 				return false
-			end() or slot5 and not slot0:GetBattleBtnRecord() or slot5:AnyMissionCanFormation() or function (slot0)
+			end() or slot5 and not slot0:GetBattleBtnRecord() or slot5:IsParticipant() and slot5:AnyMissionCanFormation() or function (slot0)
 				if slot0 then
 					return slot0:GetBossMission() and slot1:IsActive() and slot1:CanEnterBattle()
 				end
 
 				return false
-			end(slot5)
+			end(slot5) or not slot7 and not slot5:IsLimitedJoin()
 		end
 	end
 

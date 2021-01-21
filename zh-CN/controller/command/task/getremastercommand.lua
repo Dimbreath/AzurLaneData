@@ -9,22 +9,15 @@ function slot0.execute(slot0, slot1)
 
 			slot1:updateDailyCount()
 
-			slot4 = 2
+			slot2 = Item.New({
+				type = DROP_TYPE_VITEM,
+				id = ITEM_ID_REACT_CHAPTER_TICKET,
+				count = math.min(pg.gameset.reactivity_ticket_daily.key_value, pg.gameset.reactivity_ticket_max.key_value - slot1.remasterTickets)
+			})
 
-			if pg.gameset.reactivity_ticket_max.key_value < slot1.remasterTickets + pg.gameset.reactivity_ticket_daily.key_value then
-				slot1:updateRemasterTicketsNum(slot3)
-
-				slot4 = slot2 - slot3 == 2 and 0 or 1
-			else
-				slot1:updateRemasterTicketsNum(slot1.remasterTickets + pg.gameset.reactivity_ticket_daily.key_value)
-			end
-
+			uv0:sendNotification(GAME.ADD_ITEM, slot2)
 			uv0:sendNotification(GAME.GET_REMASTER_TICKETS_DONE, {
-				{
-					type = DROP_TYPE_ITEM,
-					id = ITEM_ID_REACT_CHAPTER_TICKET,
-					count = slot4
-				}
+				slot2
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips("领取失败")

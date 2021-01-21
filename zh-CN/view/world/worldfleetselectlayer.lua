@@ -6,7 +6,7 @@ end
 
 function slot0.init(slot0)
 	slot0.rtBg = slot0._tf:Find("bg")
-	slot1 = nowWorld.realm
+	slot1 = nowWorld:GetRealm()
 
 	eachChild(slot0.rtBg, function (slot0)
 		setActive(slot0, slot0.name == tostring(uv0))

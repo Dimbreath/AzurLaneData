@@ -197481,6 +197481,502 @@ pg.ship_data_statistics = {
 			"Soldati-Class"
 		}
 	},
+	[601031] = {
+		oxy_max = 0,
+		type = 1,
+		name = "文琴佐·焦贝蒂",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 601031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Vincenzo Gioberti",
+		oxy_cost = 0,
+		skin_id = 601030,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			300,
+			21,
+			54,
+			29,
+			0,
+			77,
+			0,
+			73,
+			78,
+			45.6,
+			44,
+			53
+		},
+		attrs_growth = {
+			7320,
+			206,
+			530,
+			564,
+			0,
+			382,
+			0,
+			1080,
+			1158,
+			0,
+			0,
+			526
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Poeti-Class"
+		}
+	},
+	[601032] = {
+		oxy_max = 0,
+		type = 1,
+		name = "文琴佐·焦贝蒂",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 601032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Vincenzo Gioberti",
+		oxy_cost = 0,
+		skin_id = 601030,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			373,
+			26,
+			67,
+			36,
+			0,
+			77,
+			0,
+			73,
+			78,
+			45.6,
+			44,
+			66
+		},
+		attrs_growth = {
+			7320,
+			206,
+			530,
+			564,
+			0,
+			382,
+			0,
+			1080,
+			1158,
+			0,
+			0,
+			526
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Poeti-Class"
+		}
+	},
+	[601033] = {
+		oxy_max = 0,
+		type = 1,
+		name = "文琴佐·焦贝蒂",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 601033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Vincenzo Gioberti",
+		oxy_cost = 0,
+		skin_id = 601030,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			520,
+			36,
+			94,
+			50,
+			0,
+			77,
+			0,
+			73,
+			78,
+			45.6,
+			44,
+			92
+		},
+		attrs_growth = {
+			7320,
+			206,
+			530,
+			564,
+			0,
+			382,
+			0,
+			1080,
+			1158,
+			0,
+			0,
+			526
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Poeti-Class"
+		}
+	},
+	[601034] = {
+		oxy_max = 0,
+		type = 1,
+		name = "文琴佐·焦贝蒂",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 601034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Vincenzo Gioberti",
+		oxy_cost = 0,
+		skin_id = 601030,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			739,
+			52,
+			134,
+			71,
+			0,
+			77,
+			0,
+			73,
+			78,
+			45.6,
+			44,
+			132
+		},
+		attrs_growth = {
+			7320,
+			206,
+			530,
+			564,
+			0,
+			382,
+			0,
+			1080,
+			1158,
+			0,
+			0,
+			526
+		},
+		attrs_growth_extra = {
+			6579,
+			492,
+			1146,
+			381,
+			0,
+			901,
+			0,
+			-633,
+			-778,
+			0,
+			0,
+			443
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Poeti-Class"
+		}
+	},
 	[603011] = {
 		oxy_max = 0,
 		type = 3,
@@ -198482,6 +198978,506 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Zara",
+			"Zara-Class"
+		}
+	},
+	[603031] = {
+		oxy_max = 0,
+		type = 3,
+		name = "波拉",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 603031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Pola",
+		oxy_cost = 0,
+		skin_id = 603030,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			853,
+			47,
+			0,
+			45,
+			0,
+			67,
+			0,
+			39,
+			9,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			20815,
+			462,
+			0,
+			888,
+			0,
+			332,
+			0,
+			570,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.55,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pola",
+			"Zara-Class"
+		}
+	},
+	[603032] = {
+		oxy_max = 0,
+		type = 3,
+		name = "波拉",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 603032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Pola",
+		oxy_cost = 0,
+		skin_id = 603030,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1061,
+			59,
+			0,
+			56,
+			0,
+			67,
+			0,
+			39,
+			9,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			20815,
+			462,
+			0,
+			888,
+			0,
+			332,
+			0,
+			570,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.55,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pola",
+			"Zara-Class"
+		}
+	},
+	[603033] = {
+		oxy_max = 0,
+		type = 3,
+		name = "波拉",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 603033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Pola",
+		oxy_cost = 0,
+		skin_id = 603030,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1477,
+			82,
+			0,
+			78,
+			0,
+			67,
+			0,
+			39,
+			9,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			20815,
+			462,
+			0,
+			888,
+			0,
+			332,
+			0,
+			570,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.55,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pola",
+			"Zara-Class"
+		}
+	},
+	[603034] = {
+		oxy_max = 0,
+		type = 3,
+		name = "波拉",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 603034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Pola",
+		oxy_cost = 0,
+		skin_id = 603030,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2102,
+			116,
+			0,
+			112,
+			0,
+			67,
+			0,
+			39,
+			9,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			20815,
+			462,
+			0,
+			888,
+			0,
+			332,
+			0,
+			570,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4161,
+			1072,
+			0,
+			605,
+			0,
+			786,
+			0,
+			255,
+			1422,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			0.6,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pola",
 			"Zara-Class"
 		}
 	},
@@ -201971,6 +202967,506 @@ pg.ship_data_statistics = {
 			"Northern Union-DD",
 			"μ",
 			"special"
+		}
+	},
+	[701061] = {
+		oxy_max = 0,
+		type = 1,
+		name = "神速",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Stremitelny",
+		oxy_cost = 0,
+		skin_id = 701060,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701062] = {
+		oxy_max = 0,
+		type = 1,
+		name = "神速",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Stremitelny",
+		oxy_cost = 0,
+		skin_id = 701060,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701063] = {
+		oxy_max = 0,
+		type = 1,
+		name = "神速",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Stremitelny",
+		oxy_cost = 0,
+		skin_id = 701060,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
+		}
+	},
+	[701064] = {
+		oxy_max = 0,
+		type = 1,
+		name = "神速",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Stremitelny",
+		oxy_cost = 0,
+		skin_id = 701060,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Gnevny-Class",
+			"Northern Union-DD"
 		}
 	},
 	[702011] = {
@@ -273329,6 +274825,10 @@ pg.ship_data_statistics = {
 		601022,
 		601023,
 		601024,
+		601031,
+		601032,
+		601033,
+		601034,
 		603011,
 		603012,
 		603013,
@@ -273337,6 +274837,10 @@ pg.ship_data_statistics = {
 		603022,
 		603023,
 		603024,
+		603031,
+		603032,
+		603033,
+		603034,
 		605021,
 		605022,
 		605023,
@@ -273365,6 +274869,10 @@ pg.ship_data_statistics = {
 		701052,
 		701053,
 		701054,
+		701061,
+		701062,
+		701063,
+		701064,
 		702011,
 		702012,
 		702013,

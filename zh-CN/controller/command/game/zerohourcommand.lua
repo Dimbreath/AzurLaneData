@@ -49,6 +49,7 @@ function slot0.mainHandler(slot0, slot1)
 		end
 	end
 
+	slot10:resetDailyCount()
 	getProxy(DailyLevelProxy):clearChaptersDefeatCount()
 
 	if pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").day == 1 then

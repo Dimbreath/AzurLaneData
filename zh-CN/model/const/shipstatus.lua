@@ -13,7 +13,8 @@ slot0.flagList = {
 	"inAdmiral",
 	"inWorld",
 	"isActivityNpc",
-	"inGuildEvent"
+	"inGuildEvent",
+	"inGuildBossEvent"
 }
 
 function slot0.checkShipFlag(slot0, slot1, slot2)
@@ -138,6 +139,7 @@ slot0.FILTER_SHIPS_FLAGS_2 = {
 	inGuildEvent = true,
 	inEvent = true,
 	inBackyard = true,
+	inGuildBossEvent = true,
 	isActivityNpc = true,
 	inWorld = true,
 	inAdmiral = true
@@ -354,6 +356,7 @@ slot1 = {
 		inBackyard = 1,
 		inGuildEvent = 2,
 		inEvent = 2,
+		inGuildBossEvent = 1,
 		isActivityNpc = 2,
 		inWorld = 2,
 		inAdmiral = 2
@@ -394,6 +397,9 @@ slot2 = {
 		tips_block = "playerinfo_ship_is_already_flagship"
 	},
 	inGuildEvent = {
+		tips_block = "word_shipState_guild_event"
+	},
+	inGuildBossEvent = {
 		tips_block = "word_shipState_guild_event"
 	},
 	isActivityNpc = {
@@ -535,6 +541,40 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 					callback = uv1,
 					shipId = getProxy(NavalAcademyProxy):getStudentIdByShipId(uv0.id),
 					type = Student.CANCEL_TYPE_MANUAL
+				})
+			end
+		})
+
+		return false, nil
+	elseif slot0 == "inGuildBossEvent" then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("word_shipState_guild_boss"),
+			onYes = function ()
+				if not getProxy(GuildProxy):getRawData() then
+					return
+				end
+
+				if not slot0:GetActiveEvent() then
+					return
+				end
+
+				if not slot1:GetBossMission() or not slot2:IsActive() then
+					return
+				end
+
+				if not slot2:GetFleetUserId(getProxy(PlayerProxy):getRawData().id, uv0.id) then
+					return
+				end
+
+				slot5 = Clone(slot4)
+
+				slot5:RemoveUserShip(slot3, uv0.id)
+				pg.m02:sendNotification(GAME.GUILD_UPDATE_BOSS_FORMATION, {
+					force = true,
+					editFleet = {
+						[slot5.id] = slot5
+					},
+					callback = uv1
 				})
 			end
 		})

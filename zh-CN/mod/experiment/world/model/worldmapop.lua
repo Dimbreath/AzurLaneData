@@ -63,10 +63,6 @@ function slot0.Apply(slot0)
 
 		if slot5.effect_type == WorldMapAttachment.EffectEventTeleport or slot6 == WorldMapAttachment.EffectEventTeleportBack then
 			slot1:NetUpdateActiveMap(slot0.entranceId, slot0.destMapId, slot0.destGridId)
-
-			if slot2:TreasureMap2ItemId(slot0.destMapId, slot0.entranceId) then
-				slot2:GetInventoryProxy():RemoveItem(slot8, 1)
-			end
 		elseif slot6 == WorldMapAttachment.EffectEventCollection then
 			slot2:GetCollectionProxy():unlockPlace(slot7[1])
 		elseif slot6 == WorldMapAttachment.EffectEventShipBuff then

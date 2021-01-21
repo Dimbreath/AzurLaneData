@@ -62,7 +62,8 @@ function slot0.execute(slot0, slot1)
 			end
 		elseif slot4 == 7 then
 			slot5 = getProxy(ChapterProxy)
-			slot5.remasterTickets = math.min(slot5.remasterTickets + slot2.count, pg.gameset.reactivity_ticket_max.key_value)
+
+			slot5:updateRemasterTicketsNum(math.min(slot5.remasterTickets + slot2.count, pg.gameset.reactivity_ticket_max.key_value))
 		elseif slot4 == 9 then
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) then
 				slot6.data1_list[1] = slot6.data1_list[1] + slot2.count

@@ -189,7 +189,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 			slot16 = slot8:getEquipProficiencyByPos(slot1) and slot15 * 100 or 0
 			slot17 = false
 
-			if not (slot0.contextData.fromMediatorName == WorldMediator.__cname and WorldConst.FetchWorldShip(slot8.id):IsBroken()) and slot9 then
+			if not (slot8:getFlag("inWorld") and slot0.contextData.fromMediatorName == WorldMediator.__cname and WorldConst.FetchWorldShip(slot8.id):IsBroken()) and slot9 then
 				for slot22, slot23 in ipairs(slot9) do
 					if slot0:equipmentCheck(slot23) and slot0.equipmentEnhance(slot23, slot2) then
 						slot16 = slot16 + slot23.number

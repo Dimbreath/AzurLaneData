@@ -1939,7 +1939,7 @@ function slot0.CheckGuideSLG(slot0, slot1, slot2)
 	table.insert(slot3, {
 		"WorldG007",
 		function ()
-			return uv0:InPort(uv1.id, nowWorld.realm)
+			return uv0:InPort(uv1.id, nowWorld:GetRealm())
 		end
 	})
 	table.insert(slot3, {

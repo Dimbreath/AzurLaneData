@@ -21,6 +21,8 @@ function slot0.execute(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_join_cd"))
 		elseif slot0.result == 6 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_apply_full"))
+		elseif slot0.result == 4305 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tip_grand_fleet_is_frozen"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_apply_erro", slot0.result))
 		end

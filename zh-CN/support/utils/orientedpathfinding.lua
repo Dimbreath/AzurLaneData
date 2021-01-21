@@ -82,7 +82,7 @@ function slot0._Find(slot0, slot1, slot2)
 					slot5.priority = slot4
 					uv5[slot1.row] = uv5[slot1.row] or {}
 					uv5[slot1.row][slot1.column] = slot5
-					slot6 = #uv1
+					slot6 = 0
 
 					for slot10 = #uv1, 1, -1 do
 						slot11 = uv1[slot10]

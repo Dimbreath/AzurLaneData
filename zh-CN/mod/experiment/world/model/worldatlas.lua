@@ -211,7 +211,7 @@ function slot0.GetAchEntranceList(slot0)
 end
 
 function slot0.GetOpenEntranceDic(slot0, slot1)
-	return slot0.replaceDic.open[nowWorld.realm][slot1] or {}
+	return slot0.replaceDic.open[nowWorld:GetRealm()][slot1] or {}
 end
 
 function slot0.GetStepDic(slot0, slot1)

@@ -10,6 +10,7 @@ slot0.ON_CHALLENGE_SHARE = "BattleResultMediator:ON_CHALLENGE_SHARE"
 slot0.ON_CHALLENGE_DEFEAT_SCENE = "BattleResultMediator:ON_CHALLENGE_DEFEAT_SCENE"
 slot0.DIRECT_EXIT = "BattleResultMediator:DIRECT_EXIT"
 slot0.OPEN_FAIL_TIP_LAYER = "BattleResultMediator:OPEN_FAIL_TIP_LAYER"
+slot0.PRE_BATTLE_FAIL_EXIT = "BattleResultMediator:PRE_BATTLE_FAIL_EXIT"
 
 function slot0.register(slot0)
 	if ys.Battle.BattleState.IsAutoBotActive() and PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0 then
@@ -69,6 +70,8 @@ function slot0.register(slot0)
 				table.insert(slot10, slot21)
 			end
 		end
+
+		slot0.viewComponent:SetSkipFlag(slot11:IsAutoFight())
 	elseif slot9 == SYSTEM_WORLD then
 		slot13 = nowWorld:GetActiveMap():GetFleet()
 		slot15 = slot13:GetTeamShipVOs(TeamType.Vanguard, true)
@@ -235,12 +238,13 @@ function slot0.register(slot0)
 
 		uv0:sendNotification(GAME.GO_BACK)
 	end)
-	slot0:bind(uv0.GET_NEW_SHIP, function (slot0, slot1, slot2)
+	slot0:bind(uv0.GET_NEW_SHIP, function (slot0, slot1, slot2, slot3)
 		uv0:addSubLayers(Context.New({
 			mediator = NewShipMediator,
 			viewComponent = NewShipLayer,
 			data = {
-				ship = slot1
+				ship = slot1,
+				autoExitTime = slot3
 			},
 			onRemoved = slot2
 		}))
@@ -263,6 +267,11 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.DIRECT_EXIT, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_BACK)
+	end)
+	slot0:bind(uv0.PRE_BATTLE_FAIL_EXIT, function (slot0)
+		if uv0 == SYSTEM_SCENARIO then
+			getProxy(ChapterProxy):StopAutoFight()
+		end
 	end)
 
 	slot11 = 0

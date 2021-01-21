@@ -230,7 +230,7 @@ function slot0.IsMapOpen(slot0, slot1)
 end
 
 function slot0.GetOpenProgress(slot0)
-	return nowWorld.realm > 0 and slot0.config.open_stage[slot1] or 9999
+	return nowWorld:GetRealm() > 0 and slot0.config.open_stage[slot1] or 9999
 end
 
 function slot0.RemoveAllCellDiscovered(slot0)

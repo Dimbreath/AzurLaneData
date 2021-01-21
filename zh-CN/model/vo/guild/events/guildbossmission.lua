@@ -183,4 +183,24 @@ function slot0.ExistCommander(slot0, slot1)
 	return false
 end
 
+function slot0.GetFleetUserId(slot0, slot1, slot2)
+	for slot6, slot7 in pairs(slot0.fleets) do
+		if slot7:ContainShip(slot1, slot2) then
+			return slot7
+		end
+	end
+
+	return false
+end
+
+function slot0.GetFleetCommanderId(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.fleets) do
+		if slot6:ExistCommander(slot1) then
+			return slot6
+		end
+	end
+
+	return false
+end
+
 return slot0

@@ -782,18 +782,12 @@ function slot0.IsAdministrator(slot0)
 	return GuildMember.IsAdministrator(slot0:getSelfDuty())
 end
 
-function slot0.GetAllEventShip(slot0)
+function slot0.GetMissionAndAssultFleetShips(slot0)
 	slot1 = {}
 
 	if slot0:GetActiveEvent() and not slot2:IsExpired() then
-		slot4 = slot2:GetBossShipIds()
-
-		for slot8, slot9 in ipairs(slot2:GetJoinShips()) do
-			table.insert(slot1, slot9)
-		end
-
-		for slot8, slot9 in ipairs(slot4) do
-			table.insert(slot1, slot9)
+		for slot7, slot8 in ipairs(slot2:GetJoinShips()) do
+			table.insert(slot1, slot8)
 		end
 	end
 
@@ -806,6 +800,18 @@ function slot0.GetAllEventShip(slot0)
 
 	for slot12, slot13 in pairs(slot6:GetShipList()) do
 		table.insert(slot1, GuildAssaultFleet.GetRealId(slot13.id))
+	end
+
+	return slot1
+end
+
+function slot0.GetBossMissionShips(slot0)
+	slot1 = {}
+
+	if slot0:GetActiveEvent() and not slot2:IsExpired() then
+		for slot7, slot8 in ipairs(slot2:GetBossShipIds()) do
+			table.insert(slot1, slot8)
+		end
 	end
 
 	return slot1

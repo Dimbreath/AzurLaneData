@@ -76,8 +76,9 @@ function slot0.OnUpdateSelectedFleet(slot0)
 		slot0.fleet = slot1
 
 		slot0:AddFleetListener(slot0.fleet)
-		slot0:OnUpdateFleetEmotion()
 	end
+
+	slot0:OnUpdateFleetEmotion()
 end
 
 function slot0.OnUpdateFleetEmotion(slot0)
