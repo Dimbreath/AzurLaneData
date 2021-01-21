@@ -199013,7 +199013,7 @@ pg.ship_data_statistics = {
 			39,
 			9,
 			26.4,
-			0,
+			75,
 			0
 		},
 		attrs_growth = {
@@ -199138,7 +199138,7 @@ pg.ship_data_statistics = {
 			39,
 			9,
 			26.4,
-			0,
+			75,
 			0
 		},
 		attrs_growth = {
@@ -199263,7 +199263,7 @@ pg.ship_data_statistics = {
 			39,
 			9,
 			26.4,
-			0,
+			75,
 			0
 		},
 		attrs_growth = {
@@ -199388,7 +199388,7 @@ pg.ship_data_statistics = {
 			39,
 			9,
 			26.4,
-			0,
+			75,
 			0
 		},
 		attrs_growth = {

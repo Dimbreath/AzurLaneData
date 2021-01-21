@@ -2672,7 +2672,7 @@ pg.gametip = {
 		tip = "使用<color=#92fc63>$1</color>后恢复行动力<color=#92fc63>$2</color>点"
 	},
 	world_stamina_resetwarning = {
-		tip = "注意：大型作战即将<color=#ff5c5c>重置</color>，重置后\n多于100的行动力<color=#ff5c5c>不会被保留</color>，\n指挥官请合理制定舰队作战策略！"
+		tip = "注意：大型作战即将<color=#ff5c5c>重置</color>，重置后\n多于$1的行动力<color=#ff5c5c>不会被保留</color>，\n指挥官请合理制定舰队作战策略！"
 	},
 	world_ship_healthy = {
 		tip = "所选目标无需修理！\n是否继续使用"

@@ -80,6 +80,10 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
+	if slot0:isDirtyRes() then
+		return
+	end
+
 	slot0.list:align(slot0.monthDays)
 
 	if slot0.specialTag then
@@ -110,6 +114,12 @@ end
 
 function slot0.UseSecondPage(slot0, slot1)
 	return tonumber(pg.TimeMgr.GetInstance():CTimeDescC(pg.TimeMgr.GetInstance():GetServerTime(), "%m")) == pg.activity_template[slot1.id].config_client[1]
+end
+
+function slot0.isDirtyRes(slot0)
+	if slot0.specialTag and slot0:getUIName() ~= slot0.activity:getConfig("page_info").ui_name2 then
+		return true
+	end
 end
 
 return slot0

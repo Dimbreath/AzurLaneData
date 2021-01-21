@@ -1665,7 +1665,7 @@ function slot0.UpdateSystemOpen(slot0)
 		setActive(slot0.rtTopAtlas:Find("reset_coutdown"), slot6)
 
 		if slot6 then
-			setActive(slot5:Find("zero"), math.floor(nowWorld:GetResetWaitingTime() / 86400) == 0)
+			setActive(slot5:Find("zero"), math.floor(math.max(nowWorld:GetResetWaitingTime(), 0) / 86400) == 0)
 			setActive(slot5:Find("over"), slot8 > 0)
 			setText(slot5:Find("over/Text"), slot8)
 		end

@@ -37,7 +37,12 @@ function slot0.Show(slot0)
 	end
 
 	setActive(slot0._tf, true)
-	triggerToggle(slot0.contextData.EditingCommander and slot0.commanderToggle or slot0.formationToggle, true)
+
+	slot0.contextData.tabIndex = slot0.contextData.tabIndex or uv0.TabIndex.Formation
+
+	triggerToggle(slot0.formationToggle, slot0.contextData.tabIndex == uv0.TabIndex.Formation)
+	triggerToggle(slot0.commanderToggle, slot0.contextData.tabIndex == uv0.TabIndex.Commander)
+	triggerToggle(slot0.dutyToggle, slot0.contextData.tabIndex == uv0.TabIndex.Duty)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
@@ -150,7 +155,7 @@ function slot0.onConfirm(slot0)
 		function (slot0)
 			uv0 = uv1:isLoop() and uv2:GetOrderedDuties() or nil
 
-			uv2:emit(LevelUIConst.HIDE_FLEET_SELECT)
+			uv2:onCancel()
 
 			if not uv1:isValid() then
 				return
@@ -165,6 +170,7 @@ function slot0.onConfirm(slot0)
 end
 
 function slot0.onCancel(slot0)
+	slot0:clear()
 	slot0:emit(LevelUIConst.HIDE_FLEET_SELECT)
 end
 
@@ -352,13 +358,6 @@ function slot0.set(slot0, slot1, slot2, slot3)
 			uv0:updateFleets()
 		end
 	end, SFX_UI_TAG)
-
-	slot0.contextData.tabIndex = slot0.contextData.tabIndex or uv1.TabIndex.Formation
-
-	if slot0.contextData.tabIndex == uv1.TabIndex.Commander then
-		triggerToggle(slot0.commanderToggle, slot0.contextData.tabIndex == uv1.TabIndex.Commander, true)
-	end
-
 	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
 	setActive(slot0.dutyToggle, slot0.dutyTabEnabled)
 	slot0:clearFleets()
@@ -714,10 +713,12 @@ end
 
 function slot0.clear(slot0)
 	triggerToggle(slot0.formationToggle, true)
-	triggerToggle(slot0.commanderToggle, false)
+
+	slot0.contextData.tabIndex = uv0.TabIndex.Formation
 end
 
 function slot0.onCancelHard(slot0, slot1)
+	slot0:clear()
 	slot0:emit(LevelUIConst.HIDE_FLEET_EDIT, slot1)
 end
 
@@ -1133,10 +1134,13 @@ function slot0.updateEliteFleets(slot0)
 		setActive(slot0:findTF("btn_select", slot7), false)
 		setActive(findTF(slot7, "selected"), false)
 		setActive(findTF(slot7, TeamType.Submarine), slot6 <= slot0.chapter:getConfig("submarine_num"))
-		setActive(slot0:findTF("btn_clear", slot7), slot6 <= slot0.chapter:getConfig("submarine_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("btn_recom", slot7), slot6 <= slot0.chapter:getConfig("submarine_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("blank", slot7), slot0.chapter:getConfig("submarine_num") < slot6)
-		setActive(slot13, slot6 <= slot0.chapter:getConfig("submarine_num") and slot0.contextData.EditingCommander)
+
+		slot14 = slot6 <= slot0.chapter:getConfig("submarine_num")
+
+		setActive(slot0:findTF("btn_clear", slot7), slot14 and slot1)
+		setActive(slot0:findTF("btn_recom", slot7), slot14 and slot1)
+		setActive(slot0:findTF("blank", slot7), not slot14 or not slot1)
+		setActive(slot13, slot14 and slot2)
 		setText(slot0:findTF("bg/name", slot7), slot6 <= slot0.chapter:getConfig("submarine_num") and Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID + slot6 - 1] or "")
 		slot0:initCommander(slot6 + 2, slot13, slot0.chapter)
 

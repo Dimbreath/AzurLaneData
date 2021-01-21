@@ -405,6 +405,14 @@ function slot0.getWeeklyTask(slot0)
 	return slot0.weeklyTask
 end
 
+function slot0.GetActiveWeeklyTask(slot0)
+	if slot0.weeklyTask and slot0.weeklyTask.id ~= 0 then
+		return slot0.weeklyTask
+	end
+
+	return nil
+end
+
 function slot0.addCapital(slot0, slot1)
 	slot0:updateCapital(slot0.capital + slot1)
 end

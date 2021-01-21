@@ -106,7 +106,7 @@ end
 
 function slot0.NotificationForGuildEvent(slot0, slot1)
 	if getProxy(GuildProxy):getRawData() then
-		if slot2:getWeeklyTask() and slot1.id == slot3:GetPresonTaskId() then
+		if slot2:GetActiveWeeklyTask() and slot1.id == slot3:GetPresonTaskId() then
 			slot0:Notification({
 				condition = function ()
 					return uv0:SamePrivateTaskType(GuildTask.PRIVATE_TASK_TYPE_EVENT) and uv0:PrivateBeFinished()
@@ -128,7 +128,7 @@ function slot0.OnBeginBattle(slot0)
 	end
 
 	if getProxy(GuildProxy):getRawData() then
-		slot0.taskFinished = slot1:getWeeklyTask() and slot2:PrivateBeFinished() and slot2:SamePrivateTaskType(GuildTask.PRIVATE_TASK_TYPE_BATTLE)
+		slot0.taskFinished = slot1:GetActiveWeeklyTask() and slot2:PrivateBeFinished() and slot2:SamePrivateTaskType(GuildTask.PRIVATE_TASK_TYPE_BATTLE)
 
 		print("taskFinished : ", slot0.taskFinished)
 	end
@@ -140,7 +140,7 @@ function slot0.OnFinishBattle(slot0, slot1)
 	end
 
 	if getProxy(GuildProxy):getRawData() and slot1 and SYSTEM_SCENARIO <= slot1.system and slot1.system <= SYSTEM_WORLD then
-		if not slot0.taskFinished and (slot2:getWeeklyTask() and slot3:PrivateBeFinished() and slot3:SamePrivateTaskType(GuildTask.PRIVATE_TASK_TYPE_BATTLE)) then
+		if not slot0.taskFinished and (slot2:GetActiveWeeklyTask() and slot3:PrivateBeFinished() and slot3:SamePrivateTaskType(GuildTask.PRIVATE_TASK_TYPE_BATTLE)) then
 			slot0.shouldShowBattleTip = true
 		end
 
@@ -154,7 +154,7 @@ function slot0.NotificationForBattle(slot0, slot1)
 	print("shouldShowBattleTip 2 :", slot0.shouldShowBattleTip)
 
 	if slot0.shouldShowBattleTip then
-		if getProxy(GuildProxy):getRawData() and slot2:getWeeklyTask() then
+		if getProxy(GuildProxy):getRawData() and slot2:GetActiveWeeklyTask() then
 			slot5 = {
 				pg.UIMgr.CameraLevel
 			}
@@ -187,7 +187,7 @@ function slot0.NotificationForBattle(slot0, slot1)
 end
 
 function slot0.NotificationForDailyBattle(slot0)
-	if slot0.shouldShowBattleTip and getProxy(GuildProxy):getRawData() and slot1:getWeeklyTask() then
+	if slot0.shouldShowBattleTip and getProxy(GuildProxy):getRawData() and slot1:GetActiveWeeklyTask() then
 		slot0:Notification({
 			condition = function ()
 				return true
@@ -206,7 +206,7 @@ end
 
 function slot0.NotificationForWorld(slot0, slot1)
 	if slot0.shouldShowBattleTip then
-		if getProxy(GuildProxy):getRawData() and slot2:getWeeklyTask() then
+		if getProxy(GuildProxy):getRawData() and slot2:GetActiveWeeklyTask() then
 			slot0:Notification({
 				condition = function ()
 					return true

@@ -1868,6 +1868,9 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 						pg.UIMgr.CameraUI
 					}
 				})
+
+				uv0.canvasGroup.blocksRaycasts = uv0.frozenCount == 0
+
 				uv0.levelStageView:updateStageInfo()
 				uv0.levelStageView:updateAmbushRate(uv1.fleet.line, true)
 				uv0.levelStageView:updateStageAchieve()
