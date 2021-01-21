@@ -201,7 +201,7 @@ function slot0.register(slot0)
 				if slot0 then
 					uv0()
 				end
-			end, slot4)
+			end, nil, slot4)
 		end
 	end)
 end

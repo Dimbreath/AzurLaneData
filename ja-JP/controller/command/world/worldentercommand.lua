@@ -28,14 +28,9 @@ end
 function slot0.AfterReq(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = getProxy(WorldProxy)
-	slot4 = {}
-
-	if nowWorld.realm == 0 then
-		nowWorld:SetupRealm(1)
-	end
 
 	if nowWorld:CheckReset(true) then
-		table.insert(slot4, function (slot0)
+		table.insert({}, function (slot0)
 			pg.ConnectionMgr.GetInstance():Send(33112, {
 				type = 1
 			}, 33113, function (slot0)
@@ -81,7 +76,7 @@ function slot0.AfterReq(slot0, slot1)
 			slot2, slot3 = nil
 
 			if nowWorld:IsRookie() then
-				slot2, slot3 = WorldConst.GetRealmRookieId(nowWorld.realm)
+				slot2, slot3 = WorldConst.GetRealmRookieId(nowWorld:GetRealm())
 			else
 				slot3 = 2
 				slot2 = 2

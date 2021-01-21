@@ -649,15 +649,20 @@ function slot0.ourUp2Hit(slot0, slot1)
 	slot0.anchoredPos[slot0.ballPosTag] = slot0:getRandomPos(slot0.ballPosTag)
 	slot0.qteType = uv0
 
-	slot0:managedTween(LeanTween.delayedCall, function ()
-		uv0:startQTE(uv1, 200, uv0.anchoredPos[uv0.ballPosTag])
-	end, uv2 - uv1 - 0.2, nil)
 	slot0:charHitBall()
+
+	slot4 = false
+
+	function slot5(slot0)
+		if uv0 then
+			slot0()
+		else
+			uv0 = true
+		end
+	end
+
 	table.insert(slot2, function (slot0)
-		uv0:ballUp2Hit(uv0.ball, uv1, uv0.anchoredPos[uv0.ballPosTag], slot0)
-	end)
-	table.insert(slot2, function (slot0)
-		uv0:managedTween(LeanTween.delayedCall, function ()
+		function slot1()
 			if uv0.isCutin then
 				uv0:showcutin(function ()
 					uv0.isCutin = false
@@ -667,7 +672,19 @@ function slot0.ourUp2Hit(slot0, slot1)
 			else
 				uv1()
 			end
-		end, uv1 - 0.2, nil)
+		end
+
+		uv0:managedTween(LeanTween.delayedCall, function ()
+			uv0(uv1)
+		end, uv2 - 0.2, nil)
+		uv0:managedTween(LeanTween.delayedCall, function ()
+			uv0:startQTE(uv1, 200, uv0.anchoredPos[uv0.ballPosTag], function ()
+				uv0(uv1)
+			end)
+		end, uv2 - uv3 - 0.2, nil)
+	end)
+	table.insert(slot2, function (slot0)
+		uv0:ballUp2Hit(uv0.ball, uv1, uv0.anchoredPos[uv0.ballPosTag], slot0)
 	end)
 	parallelAsync(slot2, function ()
 		if uv0 then
@@ -892,7 +909,7 @@ function slot0.hitFly(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.move, nil, slot0.ballShadow, Vector3(slot3.x, slot3.y + uv2), slot2):setEase(LeanTweenType.linear)
 end
 
-function slot0.startQTE(slot0, slot1, slot2, slot3)
+function slot0.startQTE(slot0, slot1, slot2, slot3, slot4)
 	slot0:changeQTEBtnStatus(uv0)
 
 	slot0.qte.anchoredPosition = {
@@ -908,6 +925,7 @@ function slot0.startQTE(slot0, slot1, slot2, slot3)
 		setActive(uv0.result, false)
 	end)
 
+	slot0.qteCallback = slot4
 	slot0.qteTween = LeanTween.scale(slot0.qteCircle, Vector3(0, 0, 1), slot1):setOnComplete(System.Action(function ()
 		uv0:changeQTEBtnStatus(uv1)
 		setImageSprite(uv0.result, uv0.resultTxt:Find("miss"):GetComponent(typeof(Image)).sprite, true)
@@ -917,6 +935,9 @@ function slot0.startQTE(slot0, slot1, slot2, slot3)
 		uv0.isCutin = false
 
 		setActive(uv0.qteCircles, false)
+		existCall(uv0.qteCallback)
+
+		uv0.qteCallback = nil
 	end)).uniqueId
 end
 
@@ -947,6 +968,9 @@ function slot0.qteResult(slot0)
 	end
 
 	setActive(slot0.qteCircles, false)
+	existCall(slot0.qteCallback)
+
+	slot0.qteCallback = nil
 end
 
 function slot34(slot0, slot1, slot2, slot3, slot4)

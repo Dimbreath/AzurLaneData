@@ -65,6 +65,16 @@ function slot0.init(slot0)
 	slot0.metaRepeatTF = slot0:findTF("MetaRepeat", slot0.rarityTF)
 	slot0.metaDarkTF = slot0:findTF("MetaMask", slot0._shake)
 	slot0.rarityEffect = {}
+
+	if slot0.contextData.autoExitTime then
+		slot0.autoExitTimer = Timer.New(function ()
+			uv0:showExitTip()
+		end, slot0.contextData.autoExitTime)
+
+		slot0.autoExitTimer:Start()
+
+		slot0.contextData.autoExitTime = nil
+	end
 end
 
 function slot0.voice(slot0, slot1)
@@ -408,30 +418,38 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._lockBtn, function ()
+		uv0:StopAutoExitTimer()
 		uv0:emit(NewShipMediator.ON_LOCK, {
 			uv0._shipVO.id
 		}, Ship.LOCK_STATE_LOCK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._unlockBtn, function ()
+		uv0:StopAutoExitTimer()
 		uv0:emit(NewShipMediator.ON_LOCK, {
 			uv0._shipVO.id
 		}, Ship.LOCK_STATE_UNLOCK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._viewBtn, function ()
+		uv0:StopAutoExitTimer()
+
 		uv0.isInView = true
 
 		uv0:paintView()
 		setActive(uv0.clickTF, false)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._evaluationBtn, function ()
+		uv0:StopAutoExitTimer()
 		uv0:emit(NewShipMediator.ON_EVALIATION, uv0._shipVO:getGroupId())
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
+		uv0:StopAutoExitTimer()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip, nil, {
 			weight = uv0:getWeightFromData()
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
+		uv0:StopAutoExitTimer()
+
 		if uv0.isInView or not uv0.isLoadBg then
 			return
 		end
@@ -439,6 +457,8 @@ function slot0.didEnter(slot0)
 		uv0:showExitTip()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.audioBtn, function ()
+		uv0:StopAutoExitTimer()
+
 		if uv0.isInView then
 			return
 		end
@@ -708,6 +728,7 @@ function slot0.ClearTweens(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
+	slot0:StopAutoExitTimer()
 	slot0:DestroyNewShipDocumentView()
 
 	if slot0.designBg then
@@ -775,6 +796,16 @@ function slot0.DestroyNewShipDocumentView(slot0)
 	if slot0.newShipDocumentView and slot0.newShipDocumentView:CheckState(BaseSubView.STATES.INITED) then
 		slot0.newShipDocumentView:Destroy()
 	end
+end
+
+function slot0.StopAutoExitTimer(slot0)
+	if not slot0.autoExitTimer then
+		return
+	end
+
+	slot0.autoExitTimer:Stop()
+
+	slot0.autoExitTimer = nil
 end
 
 return slot0

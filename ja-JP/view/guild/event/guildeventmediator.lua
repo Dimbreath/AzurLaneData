@@ -20,6 +20,7 @@ slot0.ON_SAVE_FORMATION = "GuildEventMediator:ON_SAVE_FORMATION"
 slot0.ON_JOIN_EVENT = "GuildEventMediator:ON_JOIN_EVENT"
 slot0.ON_RECOMM_ASSULT_SHIP = "GuildEventMediator:ON_RECOMM_ASSULT_SHIP"
 slot0.REFRESH_RECOMMAND_SHIPS = "GuildEventMediator:REFRESH_RECOMMAND_SHIPS"
+slot0.ON_CLEAR_BOSS_FLEET_INVAILD_SHIP = "GuildEventMediator:ON_CLEAR_BOSS_FLEET_INVAILD_SHIP"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.REFRESH_RECOMMAND_SHIPS, function (slot0, slot1)
@@ -55,6 +56,13 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GUILD_UPDATE_BOSS_FORMATION, {
 			editFleet = uv0.contextData.editBossFleet,
 			callback = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_CLEAR_BOSS_FLEET_INVAILD_SHIP, function (slot0)
+		uv0:sendNotification(GAME.GUILD_UPDATE_BOSS_FORMATION, {
+			force = true,
+			editFleet = uv0.contextData.editBossFleet,
+			callback = callback
 		})
 	end)
 	slot0:bind(uv0.ON_UPDATE_BOSS_FLEET, function (slot0)
@@ -166,6 +174,14 @@ function slot0.StartBossBattle(slot0)
 
 	if not slot5 then
 		pg.TipsMgr.GetInstance():ShowTips(slot6)
+
+		return
+	end
+
+	slot7, slot8 = slot3:GetSubFleet():IsLegal()
+
+	if not slot7 then
+		pg.TipsMgr.GetInstance():ShowTips(slot8)
 
 		return
 	end

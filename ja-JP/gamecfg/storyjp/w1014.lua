@@ -25,7 +25,7 @@ return {
 					flag = 0
 				},
 				{
-					content = "<color=#ff5c5c>離脱する（確保報酬を入手できなくなる）</color>",
+					content = "しばらく離れる（確保報酬は消失しません）",
 					flag = 1
 				}
 			}

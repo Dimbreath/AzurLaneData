@@ -351,8 +351,8 @@ function slot0.SetPort(slot0, slot1)
 	slot2 = nowWorld:GetActiveMap():GetFleet()
 	slot0.wsPortLeft = slot0:NewPortLeft()
 
-	setActive(slot0.buttons[1], slot0.port:GetRealm() == 0 or slot3 == nowWorld.realm)
-	setActive(slot0.buttons[3], slot3 == 0 or slot3 == nowWorld.realm)
+	setActive(slot0.buttons[1], slot0.port:GetRealm() == 0 or slot3 == nowWorld:GetRealm())
+	setActive(slot0.buttons[3], slot3 == 0 or slot3 == nowWorld:GetRealm())
 	setActive(slot0.resPanel._tf, nowWorld:IsSystemOpen(WorldConst.SystemResource))
 
 	slot0.inventory = nowWorld:GetInventoryProxy()

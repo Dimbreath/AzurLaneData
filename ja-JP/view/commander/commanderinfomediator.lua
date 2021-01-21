@@ -120,10 +120,6 @@ function slot0.register(slot0)
 			selectedIds = uv0.contextData.materialIds,
 			ignoredIds = slot3,
 			onCommander = function (slot0, slot1, slot2, slot3)
-				if getProxy(GuildProxy):getRawData() and slot4:ExistCommander(slot0.id) then
-					return false, i18n("commander_is_in_guild")
-				end
-
 				if nowWorld:CheckCommanderInFleet(slot0.id) then
 					return false, i18n("commander_is_in_bigworld")
 				end
@@ -132,36 +128,68 @@ function slot0.register(slot0)
 					return false, i18n("commander_select_matiral_erro")
 				end
 
+				slot5 = getProxy(GuildProxy):getRawData()
+				slot6, slot7 = nil
+
 				if _.detect(uv1, function (slot0)
 					return uv0.id == slot0.commanderId
 				end) then
-					slot3:openMsgBox({
-						content = i18n("commander_material_is_in_fleet_tip"),
-						onYes = function ()
-							uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
-								commanderId = 0,
-								fleetId = uv1.fleetId,
-								pos = uv1.pos,
-								callback = function ()
-									uv0 = uv1:getCommanders()
+					slot6 = i18n("commander_material_is_in_fleet_tip")
 
-									if uv2 then
-										uv2()
-									end
+					function slot7()
+						uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+							commanderId = 0,
+							fleetId = uv1.fleetId,
+							pos = uv1.pos,
+							callback = function ()
+								uv0 = uv1:getCommanders()
+
+								if uv2 then
+									uv2()
 								end
-							})
-						end,
-						onNo = function ()
-							if uv0 then
-								uv0()
 							end
-						end,
-						onClose = function ()
-							if uv0 then
-								uv0()
-							end
+						})
+					end
+				elseif slot5 and slot5:ExistCommander(slot0.id) then
+					slot6 = i18n("commander_is_in_guild")
+
+					function slot7()
+						if not uv0:GetActiveEvent() then
+							return
 						end
+
+						if not slot0:GetBossMission() or not slot1:IsActive() then
+							return
+						end
+
+						if not slot1:GetFleetCommanderId(uv1.id) then
+							return
+						end
+
+						if not Clone(slot2):GetCommanderPos(uv1.id) then
+							return
+						end
+
+						slot3:RemoveCommander(slot4)
+						uv2:sendNotification(GAME.GUILD_UPDATE_BOSS_FORMATION, {
+							force = true,
+							editFleet = {
+								[slot3.id] = slot3
+							},
+							callback = uv3
+						})
+					end
+				end
+
+				if slot6 and slot7 then
+					slot3:openMsgBox({
+						content = slot6,
+						onYes = slot7,
+						onNo = slot1,
+						onClose = slot1
 					})
+
+					return false, nil
 				end
 
 				return true

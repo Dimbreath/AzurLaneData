@@ -33,6 +33,7 @@ function slot0.register(slot0)
 	end)
 
 	slot0.timers = {}
+	slot0.tradeNoPrev = ""
 end
 
 function slot0.setShopStreet(slot0, slot1)

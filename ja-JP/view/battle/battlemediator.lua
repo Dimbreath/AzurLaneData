@@ -4,6 +4,7 @@ slot0.ON_PAUSE = "BattleMediator:ON_PAUSE"
 slot0.ENTER = "BattleMediator:ENTER"
 slot0.ON_BACK_PRE_SCENE = "BattleMediator:ON_BACK_PRE_SCENE"
 slot0.ON_LEAVE = "BattleMediator:ON_LEAVE"
+slot0.ON_QUIT_BATTLE_MANUALLY = "BattleMediator:ON_QUIT_BATTLE_MANUALLY"
 slot0.ON_CHAT = "BattleMediator:ON_CHAT"
 slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
@@ -96,6 +97,11 @@ function slot0.register(slot0)
 		end
 
 		uv0:sendNotification(GAME.GO_BACK)
+	end)
+	slot0:bind(uv0.ON_QUIT_BATTLE_MANUALLY, function (slot0)
+		if uv0 == SYSTEM_SCENARIO then
+			getProxy(ChapterProxy):StopAutoFight()
+		end
 	end)
 
 	if getProxy(PlayerProxy) then

@@ -4,12 +4,13 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.editFleet
 	slot4 = slot2.callback
+	slot5 = slot2.force
 
 	if not slot0:ExistBoss() then
 		return
 	end
 
-	function slot5(slot0)
+	function slot6(slot0)
 		if table.getCount(slot0) == 0 then
 			if uv0 then
 				uv0()
@@ -28,7 +29,7 @@ function slot0.execute(slot0, slot1)
 
 				slot1:updateGuild(slot2)
 				uv1:sendNotification(GAME.GUILD_UPDATE_BOSS_FORMATION_DONE)
-				pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+				pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildBossEvent")
 
 				if uv2 then
 					uv2()
@@ -39,22 +40,25 @@ function slot0.execute(slot0, slot1)
 		end)
 	end
 
-	slot6 = {}
+	slot7 = {}
 
-	for slot10, slot11 in pairs(slot3) do
-		slot12, slot13 = slot11:IsLegal()
+	for slot11, slot12 in pairs(slot3) do
+		if not slot5 then
+			slot13, slot14 = slot12:IsLegal()
 
-		if not slot12 then
-			pg.TipsMgr.GetInstance():ShowTips(slot13)
+			if not slot13 then
+				pg.TipsMgr.GetInstance():ShowTips(slot14)
 
-			return
+				return
+			end
 		end
 
-		slot11:ClearInvaildShip()
-		table.insert(slot6, slot0:WarpData(slot11))
+		slot12:ClearInvaildShip()
+		slot12:RemoveInvaildCommanders()
+		table.insert(slot7, slot0:WarpData(slot12))
 	end
 
-	slot5(slot6)
+	slot6(slot7)
 end
 
 function slot0.WarpData(slot0, slot1)

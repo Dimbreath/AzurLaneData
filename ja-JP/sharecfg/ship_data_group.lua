@@ -657,12 +657,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -755,12 +754,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -900,6 +898,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -1983,6 +1991,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -2117,12 +2135,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -2464,12 +2481,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "guild"
 					}
 				},
 				0
@@ -3021,6 +3037,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3521,6 +3547,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3573,6 +3609,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -4977,6 +5023,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5060,6 +5116,16 @@ pg.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -5158,6 +5224,16 @@ pg.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -6017,6 +6093,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6049,6 +6135,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -7284,6 +7380,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8414,6 +8520,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9056,6 +9172,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9085,6 +9211,17 @@ pg.ship_data_group = {
 				"イベント：縹映る深緋の残響",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -9673,6 +9810,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9712,6 +9859,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -9858,6 +10015,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -10445,6 +10612,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10477,6 +10654,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -10658,6 +10845,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10729,6 +10926,17 @@ pg.ship_data_group = {
 				"イベント：縹映る深緋の残響",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -10909,6 +11117,17 @@ pg.ship_data_group = {
 				"イベント：縹映る深緋の残響",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -11231,6 +11450,17 @@ pg.ship_data_group = {
 				"イベント：縹映る深緋の残響",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -11719,6 +11949,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12116,6 +12357,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12480,6 +12732,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12509,6 +12772,17 @@ pg.ship_data_group = {
 				"イベント：縹映る深緋の残響",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12715,6 +12989,16 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 202
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -15566,6 +15850,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[490] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 6,
+		hide = 0,
+		index_id = 376,
+		group_type = 60103,
+		code = 490,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：悲歎せし焔海の詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[414] = {
 		type = 3,
 		trans_skin = 0,
@@ -15574,7 +15889,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 6,
 		hide = 0,
-		index_id = 376,
+		index_id = 377,
 		group_type = 60301,
 		code = 414,
 		property_hexagon = {
@@ -15605,9 +15920,40 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 6,
 		hide = 0,
-		index_id = 377,
+		index_id = 378,
 		group_type = 60302,
 		code = 413,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：悲歎せし焔海の詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[489] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 6,
+		hide = 0,
+		index_id = 379,
+		group_type = 60303,
+		code = 489,
 		property_hexagon = {
 			"B",
 			"E",
@@ -15636,7 +15982,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 6,
 		hide = 0,
-		index_id = 378,
+		index_id = 380,
 		group_type = 60502,
 		code = 410,
 		property_hexagon = {
@@ -15667,7 +16013,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 6,
 		hide = 0,
-		index_id = 379,
+		index_id = 381,
 		group_type = 60505,
 		code = 411,
 		property_hexagon = {
@@ -15698,7 +16044,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 6,
 		hide = 0,
-		index_id = 380,
+		index_id = 382,
 		group_type = 60506,
 		code = 412,
 		property_hexagon = {
@@ -15729,7 +16075,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 381,
+		index_id = 383,
 		group_type = 70102,
 		code = 431,
 		property_hexagon = {
@@ -15760,7 +16106,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 382,
+		index_id = 384,
 		group_type = 70103,
 		code = 432,
 		property_hexagon = {
@@ -15791,7 +16137,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 383,
+		index_id = 385,
 		group_type = 70104,
 		code = 433,
 		property_hexagon = {
@@ -15822,7 +16168,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 384,
+		index_id = 386,
 		group_type = 70105,
 		code = 475,
 		property_hexagon = {
@@ -15845,6 +16191,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[491] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 7,
+		hide = 0,
+		index_id = 387,
+		group_type = 70106,
+		code = 491,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"ログインスタンプ",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[262] = {
 		type = 2,
 		trans_skin = 0,
@@ -15853,7 +16230,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 385,
+		index_id = 388,
 		group_type = 70201,
 		code = 262,
 		property_hexagon = {
@@ -15902,7 +16279,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 386,
+		index_id = 389,
 		group_type = 70202,
 		code = 434,
 		property_hexagon = {
@@ -15933,7 +16310,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 387,
+		index_id = 390,
 		group_type = 70203,
 		code = 436,
 		property_hexagon = {
@@ -15964,7 +16341,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 388,
+		index_id = 391,
 		group_type = 70501,
 		code = 437,
 		property_hexagon = {
@@ -15995,7 +16372,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 389,
+		index_id = 392,
 		group_type = 70505,
 		code = 441,
 		property_hexagon = {
@@ -16026,7 +16403,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 390,
+		index_id = 393,
 		group_type = 80102,
 		code = 348,
 		property_hexagon = {
@@ -16077,7 +16454,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 391,
+		index_id = 394,
 		group_type = 80103,
 		code = 359,
 		property_hexagon = {
@@ -16112,7 +16489,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 392,
+		index_id = 395,
 		group_type = 80104,
 		code = 395,
 		property_hexagon = {
@@ -16154,7 +16531,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 393,
+		index_id = 396,
 		group_type = 80101,
 		code = 347,
 		property_hexagon = {
@@ -16196,7 +16573,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 394,
+		index_id = 397,
 		group_type = 80201,
 		code = 349,
 		property_hexagon = {
@@ -16246,7 +16623,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 395,
+		index_id = 398,
 		group_type = 80202,
 		code = 454,
 		property_hexagon = {
@@ -16277,7 +16654,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 396,
+		index_id = 399,
 		group_type = 80501,
 		code = 453,
 		property_hexagon = {
@@ -16308,7 +16685,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 397,
+		index_id = 400,
 		group_type = 80701,
 		code = 458,
 		property_hexagon = {
@@ -16339,7 +16716,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 398,
+		index_id = 401,
 		group_type = 80801,
 		code = 350,
 		property_hexagon = {
@@ -16381,7 +16758,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 399,
+		index_id = 402,
 		group_type = 90101,
 		code = 351,
 		property_hexagon = {
@@ -16442,7 +16819,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 400,
+		index_id = 403,
 		group_type = 90102,
 		code = 452,
 		property_hexagon = {
@@ -16473,7 +16850,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 401,
+		index_id = 404,
 		group_type = 90103,
 		code = 457,
 		property_hexagon = {
@@ -16504,7 +16881,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 402,
+		index_id = 405,
 		group_type = 90111,
 		code = 394,
 		property_hexagon = {
@@ -16546,7 +16923,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 403,
+		index_id = 406,
 		group_type = 90112,
 		code = 481,
 		property_hexagon = {
@@ -16577,7 +16954,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 404,
+		index_id = 407,
 		group_type = 90201,
 		code = 456,
 		property_hexagon = {
@@ -16608,7 +16985,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 405,
+		index_id = 408,
 		group_type = 90302,
 		code = 455,
 		property_hexagon = {
@@ -16639,7 +17016,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 406,
+		index_id = 409,
 		group_type = 90401,
 		code = 352,
 		property_hexagon = {
@@ -16681,7 +17058,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 407,
+		index_id = 410,
 		group_type = 90501,
 		code = 353,
 		property_hexagon = {
@@ -16723,7 +17100,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 408,
+		index_id = 411,
 		group_type = 90503,
 		code = 418,
 		property_hexagon = {
@@ -18725,8 +19102,10 @@ pg.ship_data_group = {
 		258,
 		259,
 		415,
+		490,
 		414,
 		413,
+		489,
 		410,
 		411,
 		412,
@@ -18734,6 +19113,7 @@ pg.ship_data_group = {
 		432,
 		433,
 		475,
+		491,
 		262,
 		434,
 		436,

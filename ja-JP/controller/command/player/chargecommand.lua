@@ -23,32 +23,38 @@ function slot0.execute(slot0, slot1)
 		shop_id = slot3
 	}, 11502, function (slot0)
 		if slot0.result == 0 then
-			if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():GetIsPlatform() then
-				if pg.SdkMgr.GetInstance():CheckAudit() then
-					print("serverTag:audit 请求购买物品")
-					pg.SdkMgr.GetInstance():AiriBuy(uv0:getConfig("airijp_id"), "audit", slot0.pay_id)
-				elseif pg.SdkMgr.GetInstance():CheckPreAudit() then
-					print("serverTag:preAudit 请求购买物品")
-					pg.SdkMgr.GetInstance():AiriBuy(uv0:getConfig("airijp_id"), "preAudit", slot0.pay_id)
-				elseif pg.SdkMgr.GetInstance():CheckPretest() then
-					print("serverTag:preTest 请求购买物品")
-					pg.SdkMgr.GetInstance():AiriBuy(uv0:getConfig("airijp_id"), "preAudit", slot0.pay_id)
+			if uv0.tradeNoPrev ~= slot0.pay_id then
+				if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():GetIsPlatform() then
+					if pg.SdkMgr.GetInstance():CheckAudit() then
+						print("serverTag:audit 请求购买物品")
+						pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "audit", slot0.pay_id)
+					elseif pg.SdkMgr.GetInstance():CheckPreAudit() then
+						print("serverTag:preAudit 请求购买物品")
+						pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "preAudit", slot0.pay_id)
+					elseif pg.SdkMgr.GetInstance():CheckPretest() then
+						print("serverTag:preTest 请求购买物品")
+						pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "preAudit", slot0.pay_id)
+					else
+						print("serverTag:production 请求购买物品")
+						pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "production", slot0.pay_id)
+					end
+
+					print("请求购买的airijp_id为：" .. uv1:getConfig("airijp_id"))
+					print("请求购买的id为：" .. slot0.pay_id)
 				else
-					print("serverTag:production 请求购买物品")
-					pg.SdkMgr.GetInstance():AiriBuy(uv0:getConfig("airijp_id"), "production", slot0.pay_id)
+					slot3 = getProxy(PlayerProxy):getData()
+					slot7 = 0
+
+					pg.SdkMgr.GetInstance():SdkPay(uv1:getConfig("id_str"), uv1:getConfig("money") * 100, uv1:getConfig("name"), uv1:firstPayDouble() and uv2 and uv1:getConfig("gem") * 2 or uv1:getConfig("gem") + uv1:getConfig("extra_gem"), slot8, uv1:getConfig("subject"), "-" .. slot3.id .. "-" .. slot0.pay_id, slot3.name, slot0.url or "", slot0.order_sign or "")
 				end
 
-				print("请求购买的airijp_id为：" .. uv0:getConfig("airijp_id"))
-				print("请求购买的id为：" .. slot0.pay_id)
+				uv0.tradeNoPrev = slot0.pay_id
+
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE, uv3)
+				getProxy(ShopsProxy):addWaitTimer()
 			else
-				slot3 = getProxy(PlayerProxy):getData()
-				slot7 = 0
-
-				pg.SdkMgr.GetInstance():SdkPay(uv0:getConfig("id_str"), uv0:getConfig("money") * 100, uv0:getConfig("name"), uv0:firstPayDouble() and uv1 and uv0:getConfig("gem") * 2 or uv0:getConfig("gem") + uv0:getConfig("extra_gem"), slot8, uv0:getConfig("subject"), "-" .. slot3.id .. "-" .. slot0.pay_id, slot3.name, slot0.url or "", slot0.order_sign or "")
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("charge_trade_no_error", slot0.result))
 			end
-
-			pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE, uv2)
-			getProxy(ShopsProxy):addWaitTimer()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("charge_erro", slot0.result))
 		end

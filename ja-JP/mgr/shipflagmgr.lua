@@ -88,7 +88,18 @@ slot2 = {
 		return getProxy(BayProxy).activityNpcShipIds
 	end,
 	inGuildEvent = function ()
-		return getProxy(GuildProxy):getRawData():GetAllEventShip()
+		if getProxy(GuildProxy):getRawData() then
+			return slot0:GetMissionAndAssultFleetShips()
+		else
+			return {}
+		end
+	end,
+	inGuildBossEvent = function ()
+		if getProxy(GuildProxy):getRawData() then
+			return slot0:GetBossMissionShips()
+		else
+			return {}
+		end
 	end
 }
 
@@ -139,6 +150,10 @@ function slot1.UpdateFlagShips(slot0, slot1)
 	slot0.flagDic[slot1] = {}
 
 	slot0:MarkShipsFlag(slot1, uv0[slot1]())
+end
+
+function slot1.ClearShipsFlag(slot0, slot1)
+	slot0.flagDic[slot1] = {}
 end
 
 function slot1.DebugPrint(slot0, slot1)

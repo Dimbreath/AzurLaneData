@@ -596,4 +596,11 @@ function slot0.ReqWorldCheck(slot0)
 	seriesAsync(slot1, slot0)
 end
 
+function slot0.ReqWorldForServer()
+	pg.ConnectionMgr.GetInstance():Send(33000, {
+		type = 1
+	}, 33001, function (slot0)
+	end)
+end
+
 return slot0

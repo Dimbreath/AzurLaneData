@@ -4321,242 +4321,532 @@ pg.activity_ins_template = {
 	{
 		ship_group = 40502,
 		name = "Tirpitz",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_165",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_tierbici_M5HUJsDndp8kPyEP.jpg",
+		is_active = 0,
 		sculpture = "tierbici_4",
 		id = 165,
 		group_id = 165,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				29
+			},
+			{
+				13,
+				26,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1450,
+			1454,
+			1456
+		}
 	},
 	{
 		ship_group = 20212,
 		name = "Belfast_inService",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_166",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_beierfasite_qrRz1RMQTwBz9vdr.jpg",
+		is_active = 0,
 		sculpture = "beierfasite_8",
 		id = 166,
 		group_id = 166,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				30
+			},
+			{
+				10,
+				3,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1460,
+			1463,
+			1466
+		}
 	},
 	{
 		ship_group = 30405,
 		name = "Amagi",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_167",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_tiancheng_HgWnScrfb2fKUKx5.jpg",
+		is_active = 0,
 		sculpture = "tiancheng",
 		id = 167,
 		group_id = 167,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				31
+			},
+			{
+				19,
+				10,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1469,
+			1471
+		}
 	},
 	{
 		ship_group = 40808,
 		name = "HAI_110 ",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_168",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_u110_9yr5KrpQGuZCNgBX.jpg",
+		is_active = 0,
 		sculpture = "U110_5",
 		id = 168,
 		group_id = 168,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2020,
+				12,
+				31
+			},
+			{
+				19,
+				52,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1475,
+			1477
+		}
 	},
 	{
 		ship_group = 30184,
 		name = "Puuta",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_169",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_liangyue_p4ogMn5u5vrSoOj4.jpg",
+		is_active = 0,
 		sculpture = "liangyue_3",
 		id = 169,
 		group_id = 169,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1483,
+			1485,
+			1487
+		}
 	},
 	{
 		ship_group = 49903,
 		name = "Mainz",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_170",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_meiyinci_3r2umasq3PBjHKVE.jpg",
+		is_active = 0,
 		sculpture = "meiyinci",
 		id = 170,
 		group_id = 170,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				1
+			},
+			{
+				8,
+				18,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1492,
+			1496
+		}
 	},
 	{
 		ship_group = 30708,
 		name = "Shinano",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_171",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_xinnong_RnJm9pyF8H6jGxRJ.jpg",
+		is_active = 0,
 		sculpture = "xinnong",
 		id = 171,
 		group_id = 171,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				1
+			},
+			{
+				9,
+				22,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1502,
+			1504,
+			1508
+		}
 	},
 	{
 		ship_group = 40128,
 		name = "Zerstörer28",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_172",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_z1_IvGPDYeN6oIdmtf2.jpg",
+		is_active = 0,
 		sculpture = "Z28_3",
 		id = 172,
 		group_id = 172,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				2
+			},
+			{
+				14,
+				15,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1512,
+			1516
+		}
 	},
 	{
 		ship_group = 10225,
 		name = "Biloxi",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_173",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_biluokexi_odGrs4J4jr0NcHTW.jpg",
+		is_active = 0,
 		sculpture = "biluokexi_5",
 		id = 173,
 		group_id = 173,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				3
+			},
+			{
+				10,
+				33,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1521,
+			1524,
+			1526
+		}
 	},
 	{
 		ship_group = 30609,
 		name = "Chiyoda",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_174",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_qiansui_yxIVM23h3zqCD5L6.jpg",
+		is_active = 0,
 		sculpture = "qiandaitian",
 		id = 174,
 		group_id = 174,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				3
+			},
+			{
+				17,
+				47,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1531,
+			1534,
+			1536
+		}
 	},
 	{
 		ship_group = 80801,
 		name = "P.P.O",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_175",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_xukufu_ysapOjfP0JHOFiVO.jpg",
+		is_active = 0,
 		sculpture = "xukufu",
 		id = 175,
 		group_id = 175,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				4
+			},
+			{
+				11,
+				24,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1541,
+			1545
+		}
 	},
 	{
 		ship_group = 30508,
 		name = "Tosa",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_176",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_tuzuo_JgJNZNrxS6P2gr0P.jpg",
+		is_active = 0,
 		sculpture = "tuzuo",
 		id = 176,
 		group_id = 176,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				5
+			},
+			{
+				16,
+				51,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1551,
+			1553
+		}
 	},
 	{
 		ship_group = 30403,
 		name = "Haruna",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_177",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_zhenming_6FNmTrS1eb2kYfJc.jpg",
+		is_active = 0,
 		sculpture = "Zhenming_4",
 		id = 177,
 		group_id = 177,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				6
+			},
+			{
+				12,
+				8,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1558,
+			1561,
+			1563
+		}
 	},
 	{
 		ship_group = 39903,
 		name = "Kitakaze",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_178",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_beifeng_XexaAgwyZbny5ug2.jpg",
+		is_active = 0,
 		sculpture = "beifeng",
 		id = 178,
 		group_id = 178,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				7
+			},
+			{
+				10,
+				16,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1567,
+			1570
+		}
 	},
 	{
 		ship_group = 70102,
 		name = "Grozny",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_179",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_weiyan_F4dD6JI6y9aWmnD3.jpg",
+		is_active = 0,
 		sculpture = "weiyan",
 		id = 179,
 		group_id = 179,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				8
+			},
+			{
+				14,
+				41,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1575,
+			1578
+		}
 	},
 	{
 		ship_group = 30512,
 		name = "Kii",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_180",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_jiyi_rF1YKlUeCFqW5yST.jpg",
+		is_active = 0,
 		sculpture = "jiyi",
 		id = 180,
 		group_id = 180,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				9
+			},
+			{
+				13,
+				22,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1583,
+			1585,
+			1588
+		}
 	},
 	{
 		ship_group = 30111,
 		name = "RAI",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_181",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_xiao_xdIuDRmR5SATsnhw.jpg",
+		is_active = 0,
 		sculpture = "lei",
 		id = 181,
 		group_id = 181,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				10
+			},
+			{
+				17,
+				6,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1592,
+			1595
+		}
 	},
 	{
 		ship_group = 10601,
 		name = "L.I.",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_182",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_changdao_PjKjZaO8LwY7R4ke.jpg",
+		is_active = 0,
 		sculpture = "changdao",
 		id = 182,
 		group_id = 182,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				11
+			},
+			{
+				15,
+				35,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1600,
+			1603,
+			1607
+		}
 	},
 	{
 		ship_group = 49904,
 		name = "Odin",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_183",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_aoding_q8ELPRn7LGCa2UQt.jpg",
+		is_active = 0,
 		sculpture = "aoding_2",
 		id = 183,
 		group_id = 183,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				12
+			},
+			{
+				9,
+				42,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1612,
+			1616,
+			1618
+		}
 	},
 	{
 		ship_group = 39902,
 		name = "Izumo",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_184",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/201229_chuyun_d16K7yYzeBe1GwXa.jpg",
+		is_active = 0,
 		sculpture = "chuyun",
 		id = 184,
 		group_id = 184,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				1,
+				14
+			},
+			{
+				21,
+				15,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1623,
+			1627
+		}
 	},
 	all = {
 		1,

@@ -94,7 +94,7 @@ function slot0.CheckFleetShipState(slot0)
 		slot1:GetMainFleet(),
 		slot1:GetSubFleet()
 	}) do
-		if slot8:ExistInvailShips() then
+		if slot8:ExistInvailShips() or slot8:ExistInvaildCommanders() then
 			table.insert(slot3, slot8)
 		end
 	end
@@ -114,7 +114,7 @@ function slot0.CheckFleetShipState(slot0)
 			slot0.contextData.editBossFleet[slot8.id] = slot8
 		end
 
-		slot0:emit(GuildEventMediator.ON_SAVE_FORMATION)
+		slot0:emit(GuildEventMediator.ON_CLEAR_BOSS_FLEET_INVAILD_SHIP)
 	end
 end
 

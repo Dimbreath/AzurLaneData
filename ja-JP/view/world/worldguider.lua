@@ -21,16 +21,16 @@ function slot0.GetTempGridPos(slot0, slot1)
 end
 
 function slot0.CheckPlayChooseCamp(slot0)
-	if nowWorld.realm == nil or slot1.realm < 1 then
+	if nowWorld:GetRealm() == nil or slot1 < 1 then
 		slot0:PlayGuide("WorldG001")
 	end
 end
 
 function slot0.CheckIntruduce(slot0)
-	if nowWorld.realm and slot1.realm > 0 then
-		if slot1.realm == 1 then
+	if nowWorld:GetRealm() and slot1 > 0 then
+		if slot1 == 1 then
 			slot0:PlayGuide("WorldG002_1")
-		elseif slot1.realm == 2 then
+		elseif slot1 == 2 then
 			slot0:PlayGuide("WorldG002_2")
 		end
 	end

@@ -38,6 +38,7 @@ function slot0.InitUI(slot0)
 	slot0.titleBGDecoration = slot0:findTF("panel/title/Image")
 	slot0.titleIcon = slot0:findTF("panel/title/icon")
 	slot0.txTitle = slot0:findTF("panel/title_form")
+	slot0.txTitleOriginPosY = slot0.txTitle.anchoredPosition.y
 	slot0.txTitleHead = slot0:findTF("panel/title_head")
 
 	setActive(slot0.txTitleHead, false)
@@ -74,16 +75,24 @@ function slot0.InitUI(slot0)
 	end)
 	setActive(slot0.trDropTpl, false)
 
-	slot0.loopBtn = slot0:findTF("panel/loop_button")
-	slot0.loopToggle = slot0.loopBtn:Find("toggle")
-	slot0.loopOn = slot0.loopToggle:Find("on")
-	slot0.loopOff = slot0.loopToggle:Find("off")
-	slot0.loopHelp = slot0.loopBtn:Find("help")
 	slot0.btnConfirm = slot0:findTF("panel/start_button")
 	slot0.btnCancel = slot0:findTF("panel/btnBack")
 	slot0.quickPlayGroup = slot0:findTF("panel/quickPlay")
 	slot0.descQuickPlay = slot0:findTF("desc", slot0.quickPlayGroup)
 	slot0.toggleQuickPlay = slot0.quickPlayGroup:GetComponent(typeof(Toggle))
+	slot0.bottomExtra = slot0:findTF("panel/BottomExtra")
+	slot0.bottomAnimator = slot0.bottomExtra:GetComponent(typeof(Animator))
+
+	setText(slot0.bottomExtra:Find("LoopGroup/Loop/Text"), i18n("autofight_farm"))
+
+	slot0.loopToggle = slot0.bottomExtra:Find("LoopGroup/Loop/Toggle")
+	slot0.loopOn = slot0.loopToggle:Find("on")
+	slot0.loopOff = slot0.loopToggle:Find("off")
+	slot0.loopHelp = slot0.bottomExtra:Find("ButtonHelp")
+	slot0.autoFightToggle = slot0.bottomExtra:Find("LoopGroup/AutoFight")
+
+	setText(slot0.autoFightToggle:Find("Text"), i18n("autofight"))
+
 	slot0.delayTween = {}
 end
 
@@ -118,10 +127,10 @@ function slot0.set(slot0, slot1, slot2)
 	setText(slot0:findTF("title_index", slot0.txTitle), slot4.chapter_name .. "  ")
 	setText(slot0:findTF("title", slot0.txTitle), slot5[1])
 	setText(slot0:findTF("title_en", slot0.txTitle), slot5[2] or "")
-	setActive(slot0.txTitleHead, slot5[3])
-
-	slot0.txTitle.localPosition = Vector3(slot0.txTitle.localPosition.x, slot5[3] and 249 or 257, slot8.z)
-
+	setActive(slot0.txTitleHead, slot5[3] and #slot5[3] > 0)
+	setAnchoredPosition(slot0.txTitle, {
+		y = slot5[3] and #slot5[3] > 0 and slot0.txTitleOriginPosY or slot0.txTitleOriginPosY + 8
+	})
 	setText(slot0.txTitleHead, slot5[3] or "")
 	setText(slot0.winCondDesc, i18n("text_win_condition") .. "：" .. i18n(slot1:getConfig("win_condition_display")))
 	setText(slot0.loseCondDesc, i18n("text_lose_condition") .. "：" .. i18n(slot1:getConfig("lose_condition_display")))
@@ -180,13 +189,20 @@ function slot0.set(slot0, slot1, slot2)
 
 	slot9 = slot1:existLoop()
 
-	setActive(slot0.loopBtn, slot9)
+	setActive(slot0.bottomExtra, slot9)
 
 	if slot9 then
 		slot13 = PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or slot12 == -1 and slot1:canActivateLoop()
 
 		setActive(slot0.loopOn, slot13)
 		setActive(slot0.loopOff, not slot13)
+		onNextTick(function ()
+			if uv0.exited then
+				return
+			end
+
+			uv0.bottomAnimator:SetBool("IsActive", uv1)
+		end)
 		onButton(slot0, slot0.loopToggle, function ()
 			if not uv0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_activate_loop_mode_failed"))
@@ -198,6 +214,7 @@ function slot0.set(slot0, slot1, slot2)
 			PlayerPrefs.Save()
 			setActive(uv1.loopOn, slot0)
 			setActive(uv1.loopOff, not slot0)
+			uv1.bottomAnimator:SetBool("IsActive", slot0)
 		end, SFX_PANEL)
 		onButton(slot0, slot0.loopHelp, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -205,6 +222,15 @@ function slot0.set(slot0, slot1, slot2)
 				helps = i18n("levelScene_loop_help_tip")
 			})
 		end)
+		onToggle(slot0, slot0.autoFightToggle, function (slot0)
+			if slot0 ~= uv0 then
+				uv0 = slot0
+
+				PlayerPrefs.SetInt(uv1, uv0 and 1 or 0)
+				PlayerPrefs.Save()
+			end
+		end, SFX_UI_TAG)
+		triggerToggle(slot0.autoFightToggle, PlayerPrefs.GetInt("chapter_autofight_flag_" .. slot1.id, 1) == 1)
 	end
 
 	onButton(slot0, slot0.btnConfirm, function ()

@@ -203,7 +203,7 @@ function slot0.UpdatePage(slot0)
 		setActive(slot0:findTF("milestone/time", slot7), slot8)
 
 		if slot8 then
-			setText(slot0:findTF("milestone/time/Text", slot7), pg.TimeMgr.GetInstance():CTimeDescC(slot0.contextData.mileStones[5 - slot6], "%m/%d/%H:%M"))
+			setText(slot0:findTF("milestone/time/Text", slot7), pg.TimeMgr.GetInstance():STimeDescC(slot0.contextData.mileStones[5 - slot6], "%m/%d/%H:%M"))
 		end
 	end
 

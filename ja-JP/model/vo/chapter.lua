@@ -399,6 +399,13 @@ function slot0.update(slot0, slot1)
 	end
 
 	slot0.strategies = slot8
+	slot0.duties = {}
+
+	if #slot1.fleet_duties > 0 then
+		_.each(slot1.fleet_duties, function (slot0)
+			uv0.duties[slot0.key] = slot0.value
+		end)
+	end
 end
 
 function slot0.retreat(slot0, slot1)
@@ -417,8 +424,6 @@ function slot0.retreat(slot0, slot1)
 	slot0.cellAttachments = {}
 	slot0.round = 0
 	slot0.airDominanceStatus = nil
-
-	getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, nil)
 end
 
 function slot0.clearSubChapter(slot0)
@@ -705,11 +710,7 @@ function slot0.findPath(slot0, slot1, slot2, slot3)
 			if slot0.cells[ChapterCell.Line2Name(slot8, slot12)] and slot16:IsWalkable() then
 				slot13 = PathFinding.PrioNormal
 
-				if slot16.row == slot3.row and slot16.column == slot3.column then
-					if not slot0:considerAsStayPoint(slot1, slot16.row, slot16.column) then
-						slot13 = PathFinding.PrioObstacle
-					end
-				elseif slot0:considerAsObstacle(slot1, slot16.row, slot16.column) then
+				if slot0:considerAsObstacle(slot1, slot16.row, slot16.column) then
 					slot13 = PathFinding.PrioObstacle
 				end
 
@@ -723,15 +724,65 @@ function slot0.findPath(slot0, slot1, slot2, slot3)
 
 	if slot1 == ChapterConst.SubjectPlayer then
 		for slot9, slot10 in ipairs(slot0:getCoastalGunArea()) do
-			if slot10.row ~= slot3.row or slot10.column ~= slot3.column then
-				slot4[slot10.row][slot10.column].priority = math.max(slot4[slot10.row][slot10.column].priority, PathFinding.PrioObstacle)
-			end
+			slot4[slot10.row][slot10.column].priority = math.max(slot4[slot10.row][slot10.column].priority, PathFinding.PrioObstacle)
 		end
+	end
+
+	if slot4[slot3.row] and slot4[slot3.row][slot3.column] then
+		slot5.priority = slot0:considerAsStayPoint(slot1, slot3.row, slot3.column) and PathFinding.PrioNormal or PathFinding.PrioObstacle
 	end
 
 	slot0.pathFinder.cells = slot4
 
 	return slot0.pathFinder:Find(slot2, slot3)
+end
+
+function slot0.FindBossPath(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
+	for slot8 = 0, ChapterConst.MaxRow - 1 do
+		slot4[slot8] = slot4[slot8] or {}
+
+		for slot12 = 0, ChapterConst.MaxColumn - 1 do
+			slot4[slot8][slot12] = slot4[slot8][slot12] or {}
+			slot13 = PathFinding.PrioForbidden
+			slot14 = ChapterConst.ForbiddenAll
+			slot15 = nil
+
+			if slot0.cells[ChapterCell.Line2Name(slot8, slot12)] and slot17:IsWalkable() then
+				slot13 = PathFinding.PrioNormal
+
+				if slot0:considerAsObstacle(slot1, slot17.row, slot17.column) then
+					slot13 = PathFinding.PrioObstacle
+				end
+
+				slot18, slot19 = slot0:existEnemy(slot1, slot17.row, slot17.column)
+
+				if slot18 then
+					slot13 = PathFinding.PrioNormal
+					slot15 = slot19 ~= ChapterConst.AttachBoss
+				end
+
+				slot14 = (slot1 ~= ChapterConst.SubjectPlayer or slot17.forbiddenDirections) and ChapterConst.ForbiddenNone
+			end
+
+			slot4[slot8][slot12].forbiddens = slot14
+			slot4[slot8][slot12].priority = slot13
+			slot4[slot8][slot12].isEnemy = slot15
+		end
+	end
+
+	if slot1 == ChapterConst.SubjectPlayer then
+		for slot9, slot10 in ipairs(slot0:getCoastalGunArea()) do
+			slot4[slot10.row][slot10.column].priority = math.max(slot4[slot10.row][slot10.column].priority, PathFinding.PrioObstacle)
+		end
+	end
+
+	if slot4[slot3.row] and slot4[slot3.row][slot3.column] then
+		slot5.priority = slot0:considerAsStayPoint(slot1, slot3.row, slot3.column) and PathFinding.PrioNormal or PathFinding.PrioObstacle
+	end
+
+	return OrientedWeightPathFinding.StaticFind(slot4, ChapterConst.MaxRow, ChapterConst.MaxColumn, slot2, slot3)
 end
 
 function slot0.getWaveCount(slot0)
@@ -2812,6 +2863,14 @@ function slot0.IsSkipPrecombat(slot0)
 	return slot0:isLoop() and getProxy(ChapterProxy):GetSkipPrecombat()
 end
 
+function slot0.CanActivateAutoFight(slot0)
+	return pg.chapter_template_loop[slot0.id] and slot1.fightauto == 1
+end
+
+function slot0.IsAutoFight(slot0)
+	return slot0:CanActivateAutoFight() and getProxy(ChapterProxy):GetChapterAutoFlag(slot0.id) == 1 and slot0:isLoop() and not slot0:existOni() and not slot0:existBombEnemy()
+end
+
 function slot0.getTodayDefeatCount(slot0)
 	return getProxy(DailyLevelProxy):getChapterDefeatCount(slot0.configId)
 end
@@ -2854,11 +2913,9 @@ function slot0.GetSPOperationItemCacheKey(slot0)
 end
 
 function slot0.GetSPBuffByItem(slot0)
-	slot1 = pg.benefit_buff_template[buffID]
-
-	for slot5, slot6 in pairs(pg.benefit_buff_template) do
-		if tonumber(slot6.benefit_condition) == slot0 then
-			return slot6.id
+	for slot4, slot5 in pairs(pg.benefit_buff_template) do
+		if tonumber(slot5.benefit_condition) == slot0 then
+			return slot5.id
 		end
 	end
 end
@@ -2879,6 +2936,74 @@ end
 
 function slot0.GetOperationBuffList(slot0)
 	return slot0.operationBuffList
+end
+
+function slot0.GetAllEnemies(slot0, slot1)
+	for slot6, slot7 in pairs(slot0.cells) do
+		if (slot7.attachment == ChapterConst.AttachEnemy or slot7.attachment == ChapterConst.AttachElite or slot7.attachment == ChapterConst.AttachBoss or slot7.attachment == ChapterConst.AttachBox and pg.box_data_template[slot7.attachmentId].type == ChapterConst.BoxEnemy) and (slot1 or slot7.flag ~= 1) then
+			table.insert({}, slot7)
+		end
+	end
+
+	for slot6, slot7 in pairs(slot0.champions) do
+		if slot1 or slot7.flag ~= 1 then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
+function slot0.GetFleetofDuty(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0.fleets) do
+		if slot7:isValid() and slot7:getFleetType() == FleetType.Normal then
+			if (slot0.duties[slot7.id] or 0) == ChapterFleet.DUTY_KILLALL or slot1 and slot8 == ChapterFleet.DUTY_KILLBOSS or not slot1 and slot8 == ChapterFleet.DUTY_CLEANPATH then
+				return slot7
+			end
+
+			slot2 = slot7
+		end
+	end
+
+	return slot2
+end
+
+function slot0.GetChapterLastFleetCacheKey(slot0)
+	return "lastFleetIndex_" .. (slot0 or 0)
+end
+
+function slot0.SaveChapterLastFleetCache(slot0, slot1)
+	if not slot0 or not slot1 then
+		return
+	end
+
+	for slot7, slot8 in ipairs(slot1) do
+		slot2 = 0 + bit.lshift(slot8, 8 * (slot7 - 1))
+	end
+
+	PlayerPrefs.SetInt(uv0.GetChapterLastFleetCacheKey(slot0), slot2)
+	PlayerPrefs.Save()
+end
+
+function slot0.GetChapterLastFleetCache(slot0)
+	if not slot0 then
+		return {}
+	end
+
+	slot1 = PlayerPrefs.GetInt(uv0.GetChapterLastFleetCacheKey(slot0), 0)
+	slot2 = {}
+	slot3 = 255
+	slot4 = 8
+
+	while slot1 > 0 do
+		table.insert(slot2, bit.band(slot1, slot3))
+
+		slot1 = bit.rshift(slot1, slot4)
+	end
+
+	return slot2
 end
 
 return slot0

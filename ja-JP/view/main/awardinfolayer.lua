@@ -121,6 +121,20 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
+	function slot2()
+		if uv0 then
+			uv0()
+		end
+
+		if uv1.exited then
+			return
+		end
+
+		if uv1.contextData.closeOnCompleted then
+			uv1:closeView()
+		end
+	end
+
 	if slot0.contextData.animation then
 		slot0.inAniming = true
 		slot0.containerCG.alpha = 0
@@ -133,7 +147,7 @@ function slot0.onUIAnimEnd(slot0, slot1)
 		end)
 	else
 		slot0:displayAwards()
-		slot0:doAnim(slot1)
+		slot0:doAnim(slot2)
 	end
 end
 

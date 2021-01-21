@@ -98555,6 +98555,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[601030] = {
+		ship_group = 60103,
+		name = "ヴィンチェンツォ・ジョベルティ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "アルフレード・オリアーニ級級駆逐艦・ヴィンチェンツォ・ジョベルティ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "wenqinzuojiaobeidi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 601030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wenqinzuojiaobeidi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.562,
+					1.007,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.534,
+					1.024,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.574,
+					1.018,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.525,
+							2.415,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[603010] = {
 		ship_group = 60301,
 		name = "トレント",
@@ -99017,6 +99125,114 @@ pg.ship_skin_template = {
 			main_2 = 0.5,
 			touch = 0.5,
 			main_3 = 0.5
+		}
+	},
+	[603030] = {
+		ship_group = 60303,
+		name = "ポーラ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "ザラ級重巡洋艦・ポーラ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bola",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 603030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bola",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 146,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.482,
+					0.941,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.449,
+					0.947,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.002,
+					-0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.463,
+					0.927,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.564,
+							2.415,
+							0
+						}
+					}
+				}
+			}
 		}
 	},
 	[605020] = {
@@ -100445,6 +100661,114 @@ pg.ship_skin_template = {
 						{
 							-0.443,
 							2.44,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[701060] = {
+		ship_group = 70106,
+		name = "ストレミテルヌイ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "グネフヌイ級駆逐艦――ストレミテルヌイ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shensu",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 701060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shensu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.516,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.535,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.487,
+					0.994,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.08,
 							0
 						}
 					}
@@ -137631,6 +137955,9 @@ pg.ship_skin_template = {
 			601020,
 			601021
 		},
+		[60103] = {
+			601030
+		},
 		[60301] = {
 			603010,
 			603011
@@ -137638,6 +137965,9 @@ pg.ship_skin_template = {
 		[60302] = {
 			603020,
 			603021
+		},
+		[60303] = {
+			603030
 		},
 		[60502] = {
 			605020,
@@ -137665,6 +137995,9 @@ pg.ship_skin_template = {
 		},
 		[70105] = {
 			701050
+		},
+		[70106] = {
+			701060
 		},
 		[70201] = {
 			702010,
@@ -139386,10 +139719,12 @@ pg.ship_skin_template = {
 		502039,
 		601020,
 		601021,
+		601030,
 		603010,
 		603011,
 		603020,
 		603021,
+		603030,
 		605020,
 		605021,
 		605022,
@@ -139403,6 +139738,7 @@ pg.ship_skin_template = {
 		701040,
 		701041,
 		701050,
+		701060,
 		702010,
 		702011,
 		702020,

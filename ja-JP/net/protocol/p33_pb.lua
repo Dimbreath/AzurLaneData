@@ -62,6 +62,7 @@ slot2 = {
 	SC_33114_IS_WORLD_OPEN_FIELD = slot0.FieldDescriptor(),
 	SC_33114_SHIP_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_33114_CMD_ID_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_33114_PROGRESS_FIELD = slot0.FieldDescriptor(),
 	ELITEFLEETINFO_SHIP_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	ELITEFLEETINFO_COMMANDERS_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_MAP_ID_FIELD = slot0.FieldDescriptor(),
@@ -1015,6 +1016,15 @@ slot2.SC_33114_CMD_ID_LIST_FIELD.has_default_value = false
 slot2.SC_33114_CMD_ID_LIST_FIELD.default_value = {}
 slot2.SC_33114_CMD_ID_LIST_FIELD.type = 13
 slot2.SC_33114_CMD_ID_LIST_FIELD.cpp_type = 3
+slot2.SC_33114_PROGRESS_FIELD.name = "progress"
+slot2.SC_33114_PROGRESS_FIELD.full_name = "p33.sc_33114.progress"
+slot2.SC_33114_PROGRESS_FIELD.number = 4
+slot2.SC_33114_PROGRESS_FIELD.index = 3
+slot2.SC_33114_PROGRESS_FIELD.label = 2
+slot2.SC_33114_PROGRESS_FIELD.has_default_value = false
+slot2.SC_33114_PROGRESS_FIELD.default_value = 0
+slot2.SC_33114_PROGRESS_FIELD.type = 13
+slot2.SC_33114_PROGRESS_FIELD.cpp_type = 3
 SC_33114.name = "sc_33114"
 SC_33114.full_name = "p33.sc_33114"
 SC_33114.nested_types = {}
@@ -1022,7 +1032,8 @@ SC_33114.enum_types = {}
 SC_33114.fields = {
 	slot2.SC_33114_IS_WORLD_OPEN_FIELD,
 	slot2.SC_33114_SHIP_ID_LIST_FIELD,
-	slot2.SC_33114_CMD_ID_LIST_FIELD
+	slot2.SC_33114_CMD_ID_LIST_FIELD,
+	slot2.SC_33114_PROGRESS_FIELD
 }
 SC_33114.is_extendable = false
 SC_33114.extensions = {}

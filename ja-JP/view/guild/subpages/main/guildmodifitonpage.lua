@@ -40,10 +40,7 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.quitBtn, function ()
 		seriesAsync({
 			function (slot0)
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("guild_tip_quit"),
-					onYes = slot0
-				})
+				uv0:DealQuit(slot0)
 			end
 		}, function ()
 			uv0:emit(GuildMainMediator.QUIT, uv0.guildVO.id)
@@ -137,6 +134,20 @@ function slot0.OnInit(slot0)
 
 	slot1(slot0.nameInput)
 	slot1(slot0.manifestoInput)
+end
+
+function slot0.DealQuit(slot0, slot1)
+	if not slot0.guildVO:GetActiveEvent() or slot2 and not slot2:IsParticipant() then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("guild_tip_quit"),
+			onYes = slot1
+		})
+	else
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("guild_tip_quit_operation", string.format("<color=%s>%d</color>/%d", slot2:GetMaxJoinCnt() - slot2:GetJoinCnt() + slot2:GetExtraJoinCnt() <= 0 and COLOR_RED or COLOR_WHITE, slot5, slot4)),
+			onYes = slot1
+		})
+	end
 end
 
 function slot0.DealBattleReportAward(slot0, slot1)

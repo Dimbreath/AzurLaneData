@@ -6,12 +6,14 @@ function slot0.register(slot0)
 
 	slot0:BuildTestFunc()
 	slot0:on(33114, function (slot0)
+		uv0.isProtoLock = slot0.is_world_open == 0
+
 		uv0:BuildWorld(World.TypeBase)
 
-		uv0.isProtoLock = slot0.is_world_open == 0
 		nowWorld.baseShipIds = underscore.rest(slot0.ship_id_list, 1)
 		nowWorld.baseCmdIds = underscore.rest(slot0.cmd_id_list, 1)
 
+		nowWorld:UpdateProgress(slot0.progress)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
 		uv0:sendNotification(GAME.WORLD_GET_BOSS)
 	end)
@@ -133,7 +135,7 @@ end
 function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 	slot4 = nowWorld
 
-	slot4:SetupRealm(slot3)
+	slot4:SetRealm(slot3)
 
 	slot4.expiredTime = slot1.last_change_group_timestamp
 	slot4.roundIndex = slot1.round

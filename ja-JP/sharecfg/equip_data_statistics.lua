@@ -1498,8 +1498,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 201,
 		id = 202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			202
 		}
@@ -1509,8 +1507,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 201,
 		id = 203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -1523,8 +1519,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 2",
 		base = 201,
 		id = 204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -1582,8 +1576,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 211,
 		id = 212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			212
 		}
@@ -1593,8 +1585,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 2",
 		base = 211,
 		id = 213,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			213
 		}
@@ -1604,8 +1594,6 @@ pg.equip_data_statistics = {
 		damage = "6 x 2",
 		base = 211,
 		id = 214,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			214
 		}
@@ -1615,8 +1603,6 @@ pg.equip_data_statistics = {
 		damage = "6 x 2",
 		base = 211,
 		id = 215,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			215
 		}
@@ -1671,8 +1657,6 @@ pg.equip_data_statistics = {
 		damage = "3 x 2",
 		base = 221,
 		id = 222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			222
 		}
@@ -1682,8 +1666,6 @@ pg.equip_data_statistics = {
 		damage = "3 x 2",
 		base = 221,
 		id = 223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -1696,8 +1678,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 221,
 		id = 224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -1755,8 +1735,6 @@ pg.equip_data_statistics = {
 		damage = "3 x 2",
 		base = 231,
 		id = 232,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			232
 		}
@@ -1766,8 +1744,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 231,
 		id = 233,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			233
 		}
@@ -1777,8 +1753,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 2",
 		base = 231,
 		id = 234,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			234
 		}
@@ -1833,15 +1807,8 @@ pg.equip_data_statistics = {
 		damage = "3 x 2",
 		base = 251,
 		id = 252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			252
-		},
-		label = {
-			"RM",
-			"DD",
-			"MG"
 		}
 	},
 	[253] = {
@@ -1849,15 +1816,8 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 251,
 		id = 253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			253
-		},
-		label = {
-			"RM",
-			"DD",
-			"MG"
 		}
 	},
 	[254] = {
@@ -1865,15 +1825,8 @@ pg.equip_data_statistics = {
 		damage = "5 x 2",
 		base = 251,
 		id = 254,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			254
-		},
-		label = {
-			"RM",
-			"DD",
-			"MG"
 		}
 	},
 	[261] = {
@@ -1926,8 +1879,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 261,
 		id = 262,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			262
 		}
@@ -1937,8 +1888,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 261,
 		id = 263,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -1951,8 +1900,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 2",
 		base = 261,
 		id = 264,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -2010,8 +1957,6 @@ pg.equip_data_statistics = {
 		damage = "3 x 3",
 		base = 271,
 		id = 272,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			272
 		}
@@ -2021,8 +1966,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 3",
 		base = 271,
 		id = 273,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -2035,8 +1978,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 3",
 		base = 271,
 		id = 274,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -2094,8 +2035,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 3",
 		base = 301,
 		id = 302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			302
 		}
@@ -2105,8 +2044,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 3",
 		base = 301,
 		id = 303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -2119,8 +2056,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 3",
 		base = 301,
 		id = 304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -2178,8 +2113,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 3",
 		base = 311,
 		id = 312,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			312
 		}
@@ -2189,8 +2122,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 3",
 		base = 311,
 		id = 313,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			313
 		}
@@ -2200,8 +2131,6 @@ pg.equip_data_statistics = {
 		damage = "6 x 3",
 		base = 311,
 		id = 314,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			314
 		}
@@ -2256,8 +2185,6 @@ pg.equip_data_statistics = {
 		damage = "3 x 3",
 		base = 321,
 		id = 322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			322
 		}
@@ -2267,8 +2194,6 @@ pg.equip_data_statistics = {
 		damage = "3 x 3",
 		base = 321,
 		id = 323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -2281,8 +2206,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 3",
 		base = 321,
 		id = 324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_icon = {
 			3
 		},
@@ -2340,8 +2263,6 @@ pg.equip_data_statistics = {
 		damage = "3 x 3",
 		base = 331,
 		id = 332,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			332
 		}
@@ -2351,8 +2272,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 3",
 		base = 331,
 		id = 333,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			333
 		}
@@ -2362,8 +2281,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 3",
 		base = 331,
 		id = 334,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			334
 		}
@@ -2418,15 +2335,8 @@ pg.equip_data_statistics = {
 		damage = "3 x 2",
 		base = 351,
 		id = 352,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			352
-		},
-		label = {
-			"RM",
-			"DD",
-			"MG"
 		}
 	},
 	[353] = {
@@ -2434,15 +2344,8 @@ pg.equip_data_statistics = {
 		damage = "4 x 2",
 		base = 351,
 		id = 353,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			353
-		},
-		label = {
-			"RM",
-			"DD",
-			"MG"
 		}
 	},
 	[354] = {
@@ -2450,15 +2353,8 @@ pg.equip_data_statistics = {
 		damage = "5 x 2",
 		base = 351,
 		id = 354,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			354
-		},
-		label = {
-			"RM",
-			"DD",
-			"MG"
 		}
 	},
 	[371] = {
@@ -2512,8 +2408,6 @@ pg.equip_data_statistics = {
 		damage = "3 x 3",
 		base = 371,
 		id = 372,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			372
 		}
@@ -2523,8 +2417,6 @@ pg.equip_data_statistics = {
 		damage = "4 x 3",
 		base = 371,
 		id = 373,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			373
 		}
@@ -2534,8 +2426,6 @@ pg.equip_data_statistics = {
 		damage = "5 x 3",
 		base = 371,
 		id = 374,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			374
 		}
@@ -2836,110 +2726,84 @@ pg.equip_data_statistics = {
 	},
 	[501] = {
 		id = 501,
-		base = 500,
 		value_2 = 30,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[502] = {
 		id = 502,
-		base = 500,
 		value_2 = 35,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[503] = {
 		id = 503,
-		base = 500,
 		value_2 = 40,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[504] = {
 		id = 504,
-		base = 500,
 		value_2 = 45,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[505] = {
 		id = 505,
-		base = 500,
 		value_2 = 50,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[506] = {
 		id = 506,
-		base = 500,
 		value_2 = 55,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[507] = {
 		id = 507,
-		base = 500,
 		value_2 = 60,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[508] = {
 		id = 508,
-		base = 500,
 		value_2 = 65,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[509] = {
 		id = 509,
-		base = 500,
 		value_2 = 70,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[510] = {
 		id = 510,
-		base = 500,
 		value_2 = 75,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 500
 	},
 	[511] = {
 		id = 511,
 		anti_siren = 100,
 		base = 500,
 		value_2 = 80,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[512] = {
 		id = 512,
 		anti_siren = 200,
 		base = 500,
 		value_2 = 85,
-		value_1 = "41",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "41"
 	},
 	[513] = {
 		id = 513,
 		anti_siren = 300,
 		base = 500,
 		value_2 = 90,
-		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "44"
 	},
 	[520] = {
 		name = "真珠の涙",
@@ -2975,98 +2839,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[521] = {
-		base = 520,
 		id = 521,
 		value_1 = "230",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[522] = {
-		base = 520,
 		id = 522,
 		value_1 = "260",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[523] = {
-		base = 520,
 		id = 523,
 		value_1 = "290",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[524] = {
-		base = 520,
 		id = 524,
 		value_1 = "320",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[525] = {
-		base = 520,
 		id = 525,
 		value_1 = "350",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[526] = {
-		base = 520,
 		id = 526,
 		value_1 = "380",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[527] = {
-		base = 520,
 		id = 527,
 		value_1 = "410",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[528] = {
-		base = 520,
 		id = 528,
 		value_1 = "440",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[529] = {
-		base = 520,
 		id = 529,
 		value_1 = "470",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[530] = {
-		base = 520,
 		id = 530,
 		value_1 = "500",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[531] = {
-		anti_siren = 100,
-		base = 520,
 		id = 531,
+		anti_siren = 100,
 		value_1 = "530",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[532] = {
-		anti_siren = 200,
-		base = 520,
 		id = 532,
+		anti_siren = 200,
 		value_1 = "560",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[533] = {
-		anti_siren = 300,
-		base = 520,
 		id = 533,
+		anti_siren = 300,
 		value_1 = "590",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 520
 	},
 	[540] = {
 		name = "猫パンチ",
@@ -3102,98 +2940,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[541] = {
-		base = 540,
 		id = 541,
 		value_1 = "138",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[542] = {
-		base = 540,
 		id = 542,
 		value_1 = "156",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[543] = {
-		base = 540,
 		id = 543,
 		value_1 = "174",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[544] = {
-		base = 540,
 		id = 544,
 		value_1 = "192",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[545] = {
-		base = 540,
 		id = 545,
 		value_1 = "210",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[546] = {
-		base = 540,
 		id = 546,
 		value_1 = "228",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[547] = {
-		base = 540,
 		id = 547,
 		value_1 = "246",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[548] = {
-		base = 540,
 		id = 548,
 		value_1 = "264",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[549] = {
-		base = 540,
 		id = 549,
 		value_1 = "282",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[550] = {
-		base = 540,
 		id = 550,
 		value_1 = "300",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[551] = {
-		anti_siren = 100,
-		base = 540,
 		id = 551,
+		anti_siren = 100,
 		value_1 = "318",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[552] = {
-		anti_siren = 200,
-		base = 540,
 		id = 552,
+		anti_siren = 200,
 		value_1 = "336",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[553] = {
-		anti_siren = 300,
-		base = 540,
 		id = 553,
+		anti_siren = 300,
 		value_1 = "354",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 540
 	},
 	[580] = {
 		name = "九一式徹甲弾",
@@ -3239,92 +3051,70 @@ pg.equip_data_statistics = {
 	},
 	[581] = {
 		id = 581,
-		base = 580,
 		value_2 = 5,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[582] = {
 		id = 582,
-		base = 580,
 		value_2 = 5,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[583] = {
 		id = 583,
-		base = 580,
 		value_2 = 6,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[584] = {
 		id = 584,
-		base = 580,
 		value_2 = 6,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[585] = {
 		id = 585,
-		base = 580,
 		value_2 = 7,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[586] = {
 		id = 586,
-		base = 580,
 		value_2 = 7,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[587] = {
 		id = 587,
-		base = 580,
 		value_2 = 8,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[588] = {
 		id = 588,
-		base = 580,
 		value_2 = 8,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[589] = {
 		id = 589,
-		base = 580,
 		value_2 = 9,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[590] = {
 		id = 590,
-		base = 580,
 		value_2 = 10,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 580
 	},
 	[591] = {
 		id = 591,
 		anti_siren = 100,
 		base = 580,
 		value_2 = 11,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[600] = {
 		name = "一式徹甲弾",
@@ -3369,110 +3159,84 @@ pg.equip_data_statistics = {
 		}
 	},
 	[601] = {
-		base = 600,
 		id = 601,
 		value_1 = "25",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[602] = {
 		id = 602,
-		base = 600,
 		value_2 = 7,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[603] = {
 		id = 603,
-		base = 600,
 		value_2 = 8,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[604] = {
 		id = 604,
-		base = 600,
 		value_2 = 9,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[605] = {
 		id = 605,
-		base = 600,
 		value_2 = 10,
 		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[606] = {
 		id = 606,
-		base = 600,
 		value_2 = 11,
 		value_1 = "42",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[607] = {
 		id = 607,
-		base = 600,
 		value_2 = 12,
 		value_1 = "45",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[608] = {
 		id = 608,
-		base = 600,
 		value_2 = 13,
 		value_1 = "48",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[609] = {
 		id = 609,
-		base = 600,
 		value_2 = 14,
 		value_1 = "51",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[610] = {
 		id = 610,
-		base = 600,
 		value_2 = 15,
 		value_1 = "55",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 600
 	},
 	[611] = {
 		id = 611,
 		anti_siren = 100,
 		base = 600,
 		value_2 = 16,
-		value_1 = "59",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "59"
 	},
 	[612] = {
 		id = 612,
 		anti_siren = 200,
 		base = 600,
 		value_2 = 17,
-		value_1 = "63",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "63"
 	},
 	[613] = {
 		id = 613,
 		anti_siren = 300,
 		base = 600,
 		value_2 = 18,
-		value_1 = "67",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "67"
 	},
 	[620] = {
 		name = "SHS",
@@ -3516,98 +3280,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[621] = {
-		base = 620,
 		id = 621,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[622] = {
-		base = 620,
 		id = 622,
 		value_1 = "36",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[623] = {
-		base = 620,
 		id = 623,
 		value_1 = "40",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[624] = {
-		base = 620,
 		id = 624,
 		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[625] = {
-		base = 620,
 		id = 625,
 		value_1 = "49",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[626] = {
-		base = 620,
 		id = 626,
 		value_1 = "53",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[627] = {
-		base = 620,
 		id = 627,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[628] = {
-		base = 620,
 		id = 628,
 		value_1 = "61",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[629] = {
-		base = 620,
 		id = 629,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[630] = {
-		base = 620,
 		id = 630,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[631] = {
-		anti_siren = 100,
-		base = 620,
 		id = 631,
+		anti_siren = 100,
 		value_1 = "75",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[632] = {
-		anti_siren = 200,
-		base = 620,
 		id = 632,
+		anti_siren = 200,
 		value_1 = "80",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[633] = {
-		anti_siren = 300,
-		base = 620,
 		id = 633,
+		anti_siren = 300,
 		value_1 = "85",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 620
 	},
 	[640] = {
 		name = "Z旗",
@@ -3655,110 +3393,84 @@ pg.equip_data_statistics = {
 		}
 	},
 	[641] = {
-		base = 640,
 		id = 641,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[642] = {
 		id = 642,
-		base = 640,
 		value_2 = 5,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[643] = {
 		id = 643,
-		base = 640,
 		value_2 = 6,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[644] = {
 		id = 644,
-		base = 640,
 		value_2 = 6,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[645] = {
 		id = 645,
-		base = 640,
 		value_2 = 7,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[646] = {
 		id = 646,
-		base = 640,
 		value_2 = 8,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[647] = {
 		id = 647,
-		base = 640,
 		value_2 = 8,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[648] = {
 		id = 648,
-		base = 640,
 		value_2 = 9,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[649] = {
 		id = 649,
-		base = 640,
 		value_2 = 10,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[650] = {
 		id = 650,
-		base = 640,
 		value_2 = 10,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 640
 	},
 	[651] = {
 		id = 651,
 		anti_siren = 100,
 		base = 640,
 		value_2 = 11,
-		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "16"
 	},
 	[652] = {
 		id = 652,
 		anti_siren = 200,
 		base = 640,
 		value_2 = 12,
-		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "17"
 	},
 	[653] = {
 		id = 653,
 		anti_siren = 300,
 		base = 640,
 		value_2 = 13,
-		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "18"
 	},
 	[660] = {
 		name = "100/150航空燃料",
@@ -3802,82 +3514,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[661] = {
-		base = 660,
 		id = 661,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[662] = {
-		base = 660,
 		id = 662,
 		value_1 = "36",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[663] = {
-		base = 660,
 		id = 663,
 		value_1 = "40",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[664] = {
-		base = 660,
 		id = 664,
 		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[665] = {
-		base = 660,
 		id = 665,
 		value_1 = "49",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[666] = {
-		base = 660,
 		id = 666,
 		value_1 = "53",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[667] = {
-		base = 660,
 		id = 667,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[668] = {
-		base = 660,
 		id = 668,
 		value_1 = "61",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[669] = {
-		base = 660,
 		id = 669,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[670] = {
-		base = 660,
 		id = 670,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[671] = {
-		anti_siren = 100,
-		base = 660,
 		id = 671,
+		anti_siren = 100,
 		value_1 = "75",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 660
 	},
 	[680] = {
 		name = "ホーミングビーコン",
@@ -3921,82 +3611,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[681] = {
-		base = 680,
 		id = 681,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[682] = {
-		base = 680,
 		id = 682,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[683] = {
-		base = 680,
 		id = 683,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[684] = {
-		base = 680,
 		id = 684,
 		value_1 = "34",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[685] = {
-		base = 680,
 		id = 685,
 		value_1 = "39",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[686] = {
-		base = 680,
 		id = 686,
 		value_1 = "43",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[687] = {
-		base = 680,
 		id = 687,
 		value_1 = "47",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[688] = {
-		base = 680,
 		id = 688,
 		value_1 = "51",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[689] = {
-		base = 680,
 		id = 689,
 		value_1 = "55",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[690] = {
-		base = 680,
 		id = 690,
 		value_1 = "60",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[691] = {
-		anti_siren = 100,
-		base = 680,
 		id = 691,
+		anti_siren = 100,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 680
 	},
 	[700] = {
 		name = "九八式発砲遅延装置",
@@ -4042,82 +3710,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[701] = {
-		base = 700,
 		id = 701,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[702] = {
-		base = 700,
 		id = 702,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[703] = {
-		base = 700,
 		id = 703,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[704] = {
-		base = 700,
 		id = 704,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[705] = {
-		base = 700,
 		id = 705,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[706] = {
-		base = 700,
 		id = 706,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[707] = {
-		base = 700,
 		id = 707,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[708] = {
-		base = 700,
 		id = 708,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[709] = {
-		base = 700,
 		id = 709,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[710] = {
-		base = 700,
 		id = 710,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[711] = {
-		anti_siren = 100,
-		base = 700,
 		id = 711,
+		anti_siren = 100,
 		value_1 = "34",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 700
 	},
 	[720] = {
 		name = "約束の証明",
@@ -4165,110 +3811,84 @@ pg.equip_data_statistics = {
 	},
 	[721] = {
 		id = 721,
-		base = 720,
 		value_2 = 85,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[722] = {
 		id = 722,
-		base = 720,
 		value_2 = 90,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[723] = {
 		id = 723,
-		base = 720,
 		value_2 = 95,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[724] = {
 		id = 724,
-		base = 720,
 		value_2 = 100,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[725] = {
 		id = 725,
-		base = 720,
 		value_2 = 105,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[726] = {
 		id = 726,
-		base = 720,
 		value_2 = 110,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[727] = {
 		id = 727,
-		base = 720,
 		value_2 = 120,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[728] = {
 		id = 728,
-		base = 720,
 		value_2 = 130,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[729] = {
 		id = 729,
-		base = 720,
 		value_2 = 140,
 		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[730] = {
 		id = 730,
-		base = 720,
 		value_2 = 150,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 720
 	},
 	[731] = {
 		id = 731,
 		anti_siren = 100,
 		base = 720,
 		value_2 = 160,
-		value_1 = "21",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "21"
 	},
 	[732] = {
 		id = 732,
 		anti_siren = 200,
 		base = 720,
 		value_2 = 170,
-		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "22"
 	},
 	[733] = {
 		id = 733,
 		anti_siren = 300,
 		base = 720,
 		value_2 = 180,
-		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "23"
 	},
 	[740] = {
 		name = "Fl 282",
@@ -4306,92 +3926,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[741] = {
-		base = 740,
 		id = 741,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[742] = {
-		base = 740,
 		id = 742,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[743] = {
-		base = 740,
 		id = 743,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[744] = {
-		base = 740,
 		id = 744,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[745] = {
-		base = 740,
 		id = 745,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[746] = {
-		base = 740,
 		id = 746,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[747] = {
-		base = 740,
 		id = 747,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[748] = {
-		base = 740,
 		id = 748,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[749] = {
-		base = 740,
 		id = 749,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[750] = {
-		base = 740,
 		id = 750,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 740
 	},
 	[751] = {
-		anti_siren = 100,
-		base = 740,
 		id = 751,
+		anti_siren = 100,
 		value_1 = "27",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 740
 	},
 	[760] = {
 		name = "偵察レポート・NY周辺海域",
@@ -4429,92 +4017,70 @@ pg.equip_data_statistics = {
 	},
 	[761] = {
 		id = 761,
-		base = 760,
 		value_2 = 55,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[762] = {
 		id = 762,
-		base = 760,
 		value_2 = 60,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[763] = {
 		id = 763,
-		base = 760,
 		value_2 = 65,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[764] = {
 		id = 764,
-		base = 760,
 		value_2 = 70,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[765] = {
 		id = 765,
-		base = 760,
 		value_2 = 75,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[766] = {
 		id = 766,
-		base = 760,
 		value_2 = 80,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[767] = {
 		id = 767,
-		base = 760,
 		value_2 = 90,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[768] = {
 		id = 768,
-		base = 760,
 		value_2 = 100,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[769] = {
 		id = 769,
-		base = 760,
 		value_2 = 110,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[770] = {
 		id = 770,
-		base = 760,
 		value_2 = 120,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 760
 	},
 	[771] = {
 		id = 771,
 		anti_siren = 100,
 		base = 760,
 		value_2 = 130,
-		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "16"
 	},
 	[780] = {
 		name = "情報レポート・北極要塞",
@@ -4552,92 +4118,70 @@ pg.equip_data_statistics = {
 	},
 	[781] = {
 		id = 781,
-		base = 780,
 		value_2 = 105,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[782] = {
 		id = 782,
-		base = 780,
 		value_2 = 110,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[783] = {
 		id = 783,
-		base = 780,
 		value_2 = 115,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[784] = {
 		id = 784,
-		base = 780,
 		value_2 = 120,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[785] = {
 		id = 785,
-		base = 780,
 		value_2 = 125,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[786] = {
 		id = 786,
-		base = 780,
 		value_2 = 135,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[787] = {
 		id = 787,
-		base = 780,
 		value_2 = 150,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[788] = {
 		id = 788,
-		base = 780,
 		value_2 = 160,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[789] = {
 		id = 789,
-		base = 780,
 		value_2 = 170,
 		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[790] = {
 		id = 790,
-		base = 780,
 		value_2 = 180,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 780
 	},
 	[791] = {
 		id = 791,
 		anti_siren = 100,
 		base = 780,
 		value_2 = 190,
-		value_1 = "21",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "21"
 	},
 	[800] = {
 		name = "強化耐圧殻設計案",
@@ -4682,83 +4226,63 @@ pg.equip_data_statistics = {
 	},
 	[801] = {
 		id = 801,
-		base = 800,
 		value_2 = 45,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[802] = {
 		id = 802,
-		base = 800,
 		value_2 = 50,
 		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[803] = {
 		id = 803,
-		base = 800,
 		value_2 = 55,
 		value_1 = "21",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[804] = {
 		id = 804,
-		base = 800,
 		value_2 = 60,
 		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[805] = {
 		id = 805,
-		base = 800,
 		value_2 = 65,
 		value_1 = "25",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[806] = {
 		id = 806,
-		base = 800,
 		value_2 = 70,
 		value_1 = "27",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[807] = {
 		id = 807,
-		base = 800,
 		value_2 = 75,
 		value_1 = "29",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[808] = {
 		id = 808,
-		base = 800,
 		value_2 = 80,
 		value_1 = "31",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[809] = {
 		id = 809,
-		base = 800,
 		value_2 = 90,
 		value_1 = "33",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[810] = {
 		id = 810,
-		base = 800,
 		value_2 = 100,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 800
 	},
 	[820] = {
 		name = "フロンティアメダル",
@@ -4802,110 +4326,84 @@ pg.equip_data_statistics = {
 	},
 	[821] = {
 		id = 821,
-		base = 820,
 		value_2 = 24,
 		value_1 = "46",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[822] = {
 		id = 822,
-		base = 820,
 		value_2 = 28,
 		value_1 = "52",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[823] = {
 		id = 823,
-		base = 820,
 		value_2 = 32,
 		value_1 = "58",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[824] = {
 		id = 824,
-		base = 820,
 		value_2 = 36,
 		value_1 = "64",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[825] = {
 		id = 825,
-		base = 820,
 		value_2 = 40,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[826] = {
 		id = 826,
-		base = 820,
 		value_2 = 44,
 		value_1 = "76",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[827] = {
 		id = 827,
-		base = 820,
 		value_2 = 48,
 		value_1 = "82",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[828] = {
 		id = 828,
-		base = 820,
 		value_2 = 52,
 		value_1 = "88",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[829] = {
 		id = 829,
-		base = 820,
 		value_2 = 56,
 		value_1 = "94",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[830] = {
 		id = 830,
-		base = 820,
 		value_2 = 60,
 		value_1 = "100",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 820
 	},
 	[831] = {
 		id = 831,
 		anti_siren = 100,
 		base = 820,
 		value_2 = 64,
-		value_1 = "106",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "106"
 	},
 	[832] = {
 		id = 832,
 		anti_siren = 200,
 		base = 820,
 		value_2 = 68,
-		value_1 = "112",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "112"
 	},
 	[833] = {
 		id = 833,
 		anti_siren = 300,
 		base = 820,
 		value_2 = 72,
-		value_1 = "118",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "118"
 	},
 	[840] = {
 		name = "精鋭ダメコン饅頭(ユニオン)",
@@ -4944,110 +4442,83 @@ pg.equip_data_statistics = {
 	},
 	[841] = {
 		id = 841,
-		base = 840,
-		value_2 = 8,
 		value_1 = "230",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[842] = {
 		id = 842,
-		base = 840,
 		value_2 = 9,
 		value_1 = "260",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[843] = {
 		id = 843,
-		base = 840,
 		value_2 = 10,
 		value_1 = "290",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[844] = {
 		id = 844,
-		base = 840,
 		value_2 = 11,
 		value_1 = "320",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[845] = {
 		id = 845,
-		base = 840,
 		value_2 = 12,
 		value_1 = "350",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[846] = {
 		id = 846,
-		base = 840,
 		value_2 = 13,
 		value_1 = "380",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[847] = {
 		id = 847,
-		base = 840,
 		value_2 = 14,
 		value_1 = "410",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[848] = {
 		id = 848,
-		base = 840,
 		value_2 = 16,
 		value_1 = "440",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[849] = {
 		id = 849,
-		base = 840,
 		value_2 = 18,
 		value_1 = "470",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[850] = {
 		id = 850,
-		base = 840,
 		value_2 = 20,
 		value_1 = "500",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 840
 	},
 	[851] = {
 		id = 851,
 		anti_siren = 100,
 		base = 840,
 		value_2 = 22,
-		value_1 = "530",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "530"
 	},
 	[852] = {
 		id = 852,
 		anti_siren = 200,
 		base = 840,
 		value_2 = 24,
-		value_1 = "560",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "560"
 	},
 	[853] = {
 		id = 853,
 		anti_siren = 300,
 		base = 840,
 		value_2 = 26,
-		value_1 = "610",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "610"
 	},
 	[860] = {
 		name = "海軍条約文書",
@@ -5085,110 +4556,83 @@ pg.equip_data_statistics = {
 	},
 	[861] = {
 		id = 861,
-		base = 860,
 		value_2 = 13,
-		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[862] = {
 		id = 862,
-		base = 860,
 		value_2 = 14,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[863] = {
 		id = 863,
-		base = 860,
 		value_2 = 16,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[864] = {
 		id = 864,
-		base = 860,
 		value_2 = 18,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[865] = {
 		id = 865,
-		base = 860,
 		value_2 = 20,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[866] = {
 		id = 866,
-		base = 860,
 		value_2 = 22,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[867] = {
 		id = 867,
-		base = 860,
 		value_2 = 24,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[868] = {
 		id = 868,
-		base = 860,
 		value_2 = 26,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[869] = {
 		id = 869,
-		base = 860,
 		value_2 = 28,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[870] = {
 		id = 870,
-		base = 860,
 		value_2 = 30,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 860
 	},
 	[871] = {
 		id = 871,
 		anti_siren = 100,
 		base = 860,
 		value_2 = 32,
-		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "22"
 	},
 	[872] = {
 		id = 872,
 		anti_siren = 200,
 		base = 860,
 		value_2 = 34,
-		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "24"
 	},
 	[873] = {
 		id = 873,
 		anti_siren = 300,
 		base = 860,
 		value_2 = 36,
-		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "26"
 	},
 	[880] = {
 		name = "サイン・オブ・ビクトリー",
@@ -5230,110 +4674,83 @@ pg.equip_data_statistics = {
 	},
 	[881] = {
 		id = 881,
-		base = 880,
-		value_2 = 8,
 		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[882] = {
 		id = 882,
-		base = 880,
 		value_2 = 9,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[883] = {
 		id = 883,
-		base = 880,
 		value_2 = 10,
 		value_1 = "29",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[884] = {
 		id = 884,
-		base = 880,
 		value_2 = 11,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[885] = {
 		id = 885,
-		base = 880,
 		value_2 = 12,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[886] = {
 		id = 886,
-		base = 880,
 		value_2 = 13,
 		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[887] = {
 		id = 887,
-		base = 880,
 		value_2 = 14,
 		value_1 = "41",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[888] = {
 		id = 888,
-		base = 880,
 		value_2 = 16,
 		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[889] = {
 		id = 889,
-		base = 880,
 		value_2 = 18,
 		value_1 = "47",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[890] = {
 		id = 890,
-		base = 880,
 		value_2 = 20,
 		value_1 = "50",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 880
 	},
 	[891] = {
 		id = 891,
 		anti_siren = 100,
 		base = 880,
 		value_2 = 22,
-		value_1 = "53",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "53"
 	},
 	[892] = {
 		id = 892,
 		anti_siren = 200,
 		base = 880,
 		value_2 = 24,
-		value_1 = "56",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "56"
 	},
 	[893] = {
 		id = 893,
 		anti_siren = 300,
 		base = 880,
 		value_2 = 26,
-		value_1 = "59",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "59"
 	},
 	[1000] = {
 		name = "艦艇修理施設",
@@ -5373,46 +4790,34 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1001] = {
-		base = 1000,
 		id = 1001,
 		value_1 = "103",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1000
 	},
 	[1002] = {
-		base = 1000,
 		id = 1002,
 		value_1 = "117",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1000
 	},
 	[1003] = {
-		base = 1000,
 		id = 1003,
 		value_1 = "130",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1000
 	},
 	[1004] = {
-		base = 1000,
 		id = 1004,
 		value_1 = "144",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1000
 	},
 	[1005] = {
-		base = 1000,
 		id = 1005,
 		value_1 = "157",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1000
 	},
 	[1006] = {
-		base = 1000,
 		id = 1006,
 		value_1 = "171",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1000
 	},
 	[1020] = {
 		name = "艦艇修理施設",
@@ -5452,74 +4857,54 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1021] = {
-		base = 1020,
 		id = 1021,
 		value_1 = "161",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1022] = {
-		base = 1020,
 		id = 1022,
 		value_1 = "182",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1023] = {
-		base = 1020,
 		id = 1023,
 		value_1 = "203",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1024] = {
-		base = 1020,
 		id = 1024,
 		value_1 = "224",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1025] = {
-		base = 1020,
 		id = 1025,
 		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1026] = {
-		base = 1020,
 		id = 1026,
 		value_1 = "266",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1027] = {
-		base = 1020,
 		id = 1027,
 		value_1 = "287",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1028] = {
-		base = 1020,
 		id = 1028,
 		value_1 = "308",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1029] = {
-		base = 1020,
 		id = 1029,
 		value_1 = "329",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1030] = {
-		base = 1020,
 		id = 1030,
 		value_1 = "350",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1020
 	},
 	[1040] = {
 		name = "艦艇修理施設",
@@ -5559,98 +4944,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1041] = {
-		base = 1040,
 		id = 1041,
 		value_1 = "230",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1042] = {
-		base = 1040,
 		id = 1042,
 		value_1 = "260",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1043] = {
-		base = 1040,
 		id = 1043,
 		value_1 = "290",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1044] = {
-		base = 1040,
 		id = 1044,
 		value_1 = "320",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1045] = {
-		base = 1040,
 		id = 1045,
 		value_1 = "350",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1046] = {
-		base = 1040,
 		id = 1046,
 		value_1 = "380",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1047] = {
-		base = 1040,
 		id = 1047,
 		value_1 = "410",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1048] = {
-		base = 1040,
 		id = 1048,
 		value_1 = "440",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1049] = {
-		base = 1040,
 		id = 1049,
 		value_1 = "470",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1050] = {
-		base = 1040,
 		id = 1050,
 		value_1 = "500",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1051] = {
-		anti_siren = 100,
-		base = 1040,
 		id = 1051,
+		anti_siren = 100,
 		value_1 = "530",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1052] = {
-		anti_siren = 200,
-		base = 1040,
 		id = 1052,
+		anti_siren = 200,
 		value_1 = "560",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1053] = {
-		anti_siren = 300,
-		base = 1040,
 		id = 1053,
+		anti_siren = 300,
 		value_1 = "590",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1040
 	},
 	[1100] = {
 		name = "対空レーダー",
@@ -5684,25 +5043,19 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1101] = {
-		base = 1100,
 		id = 1101,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1100
 	},
 	[1102] = {
-		base = 1100,
 		id = 1102,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1100
 	},
 	[1103] = {
-		base = 1100,
 		id = 1103,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1100
 	},
 	[1120] = {
 		name = "対空レーダー",
@@ -5736,46 +5089,34 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1121] = {
-		base = 1120,
 		id = 1121,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1120
 	},
 	[1122] = {
-		base = 1120,
 		id = 1122,
 		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1120
 	},
 	[1123] = {
-		base = 1120,
 		id = 1123,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1120
 	},
 	[1124] = {
-		base = 1120,
 		id = 1124,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1120
 	},
 	[1125] = {
-		base = 1120,
 		id = 1125,
 		value_1 = "31",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1120
 	},
 	[1126] = {
-		base = 1120,
 		id = 1126,
 		value_1 = "34",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1120
 	},
 	[1140] = {
 		name = "対空レーダー",
@@ -5809,82 +5150,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1141] = {
-		base = 1140,
 		id = 1141,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1142] = {
-		base = 1140,
 		id = 1142,
 		value_1 = "36",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1143] = {
-		base = 1140,
 		id = 1143,
 		value_1 = "40",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1144] = {
-		base = 1140,
 		id = 1144,
 		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1145] = {
-		base = 1140,
 		id = 1145,
 		value_1 = "49",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1146] = {
-		base = 1140,
 		id = 1146,
 		value_1 = "53",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1147] = {
-		base = 1140,
 		id = 1147,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1148] = {
-		base = 1140,
 		id = 1148,
 		value_1 = "61",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1149] = {
-		base = 1140,
 		id = 1149,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1150] = {
-		base = 1140,
 		id = 1150,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1151] = {
-		anti_siren = 100,
-		base = 1140,
 		id = 1151,
+		anti_siren = 100,
 		value_1 = "75",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1140
 	},
 	[1160] = {
 		name = "高性能対空レーダー",
@@ -5922,98 +5241,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1161] = {
-		base = 1160,
 		id = 1161,
 		value_1 = "46",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1162] = {
-		base = 1160,
 		id = 1162,
 		value_1 = "52",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1163] = {
-		base = 1160,
 		id = 1163,
 		value_1 = "58",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1164] = {
-		base = 1160,
 		id = 1164,
 		value_1 = "64",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1165] = {
-		base = 1160,
 		id = 1165,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1166] = {
-		base = 1160,
 		id = 1166,
 		value_1 = "76",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1167] = {
-		base = 1160,
 		id = 1167,
 		value_1 = "82",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1168] = {
-		base = 1160,
 		id = 1168,
 		value_1 = "88",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1169] = {
-		base = 1160,
 		id = 1169,
 		value_1 = "94",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1170] = {
-		base = 1160,
 		id = 1170,
 		value_1 = "100",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1171] = {
-		anti_siren = 100,
-		base = 1160,
 		id = 1171,
+		anti_siren = 100,
 		value_1 = "106",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1172] = {
-		anti_siren = 200,
-		base = 1160,
 		id = 1172,
+		anti_siren = 200,
 		value_1 = "112",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1173] = {
-		anti_siren = 300,
-		base = 1160,
 		id = 1173,
+		anti_siren = 300,
 		value_1 = "118",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1160
 	},
 	[1200] = {
 		name = "火器管制レーダー",
@@ -6064,26 +5357,20 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1201] = {
-		base = 1200,
 		id = 1201,
 		value_1 = "4",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1200
 	},
 	[1202] = {
-		base = 1200,
 		id = 1202,
 		value_1 = "4",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1200
 	},
 	[1203] = {
 		id = 1203,
-		base = 1200,
 		value_2 = 4,
 		value_1 = "5",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1200
 	},
 	[1220] = {
 		name = "火器管制レーダー",
@@ -6135,51 +5422,39 @@ pg.equip_data_statistics = {
 	},
 	[1221] = {
 		id = 1221,
-		base = 1220,
 		value_2 = 6,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1220
 	},
 	[1222] = {
 		id = 1222,
-		base = 1220,
 		value_2 = 7,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1220
 	},
 	[1223] = {
 		id = 1223,
-		base = 1220,
 		value_2 = 7,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1220
 	},
 	[1224] = {
 		id = 1224,
-		base = 1220,
 		value_2 = 8,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1220
 	},
 	[1225] = {
 		id = 1225,
-		base = 1220,
 		value_2 = 9,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1220
 	},
 	[1226] = {
 		id = 1226,
-		base = 1220,
 		value_2 = 10,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1220
 	},
 	[1240] = {
 		name = "火器管制レーダー",
@@ -6231,92 +5506,70 @@ pg.equip_data_statistics = {
 	},
 	[1241] = {
 		id = 1241,
-		base = 1240,
 		value_2 = 9,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1242] = {
 		id = 1242,
-		base = 1240,
 		value_2 = 10,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1243] = {
 		id = 1243,
-		base = 1240,
 		value_2 = 12,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1244] = {
 		id = 1244,
-		base = 1240,
 		value_2 = 13,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1245] = {
 		id = 1245,
-		base = 1240,
 		value_2 = 14,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1246] = {
 		id = 1246,
-		base = 1240,
 		value_2 = 15,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1247] = {
 		id = 1247,
-		base = 1240,
 		value_2 = 17,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1248] = {
 		id = 1248,
-		base = 1240,
 		value_2 = 18,
 		value_1 = "21",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1249] = {
 		id = 1249,
-		base = 1240,
 		value_2 = 19,
 		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1250] = {
 		id = 1250,
-		base = 1240,
 		value_2 = 21,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1240
 	},
 	[1251] = {
 		id = 1251,
 		anti_siren = 100,
 		base = 1240,
 		value_2 = 23,
-		value_1 = "25",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "25"
 	},
 	[1260] = {
 		name = "高性能火器管制レーダー",
@@ -6364,110 +5617,84 @@ pg.equip_data_statistics = {
 	},
 	[1261] = {
 		id = 1261,
-		base = 1260,
 		value_2 = 13,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1262] = {
 		id = 1262,
-		base = 1260,
 		value_2 = 14,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1263] = {
 		id = 1263,
-		base = 1260,
 		value_2 = 16,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1264] = {
 		id = 1264,
-		base = 1260,
 		value_2 = 18,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1265] = {
 		id = 1265,
-		base = 1260,
 		value_2 = 20,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1266] = {
 		id = 1266,
-		base = 1260,
 		value_2 = 22,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1267] = {
 		id = 1267,
-		base = 1260,
 		value_2 = 24,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1268] = {
 		id = 1268,
-		base = 1260,
 		value_2 = 26,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1269] = {
 		id = 1269,
-		base = 1260,
 		value_2 = 28,
 		value_1 = "33",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1270] = {
 		id = 1270,
-		base = 1260,
 		value_2 = 30,
 		value_1 = "36",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1260
 	},
 	[1271] = {
 		id = 1271,
 		anti_siren = 100,
 		base = 1260,
 		value_2 = 32,
-		value_1 = "39",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "39"
 	},
 	[1272] = {
 		id = 1272,
 		anti_siren = 200,
 		base = 1260,
 		value_2 = 34,
-		value_1 = "42",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "42"
 	},
 	[1273] = {
 		id = 1273,
 		anti_siren = 300,
 		base = 1260,
 		value_2 = 36,
-		value_1 = "45",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "45"
 	},
 	[1300] = {
 		name = "バルジ",
@@ -6529,25 +5756,19 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1301] = {
-		base = 1300,
 		id = 1301,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1300
 	},
 	[1302] = {
-		base = 1300,
 		id = 1302,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1300
 	},
 	[1303] = {
-		base = 1300,
 		id = 1303,
 		value_1 = "72",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1300
 	},
 	[1320] = {
 		name = "バルジ",
@@ -6609,46 +5830,34 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1321] = {
-		base = 1320,
 		id = 1321,
 		value_1 = "103",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1320
 	},
 	[1322] = {
-		base = 1320,
 		id = 1322,
 		value_1 = "117",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1320
 	},
 	[1323] = {
-		base = 1320,
 		id = 1323,
 		value_1 = "130",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1320
 	},
 	[1324] = {
-		base = 1320,
 		id = 1324,
 		value_1 = "144",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1320
 	},
 	[1325] = {
-		base = 1320,
 		id = 1325,
 		value_1 = "157",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1320
 	},
 	[1326] = {
-		base = 1320,
 		id = 1326,
 		value_1 = "171",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1320
 	},
 	[1340] = {
 		name = "バルジ",
@@ -6710,82 +5919,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1341] = {
-		base = 1340,
 		id = 1341,
 		value_1 = "161",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1342] = {
-		base = 1340,
 		id = 1342,
 		value_1 = "182",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1343] = {
-		base = 1340,
 		id = 1343,
 		value_1 = "203",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1344] = {
-		base = 1340,
 		id = 1344,
 		value_1 = "224",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1345] = {
-		base = 1340,
 		id = 1345,
 		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1346] = {
-		base = 1340,
 		id = 1346,
 		value_1 = "266",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1347] = {
-		base = 1340,
 		id = 1347,
 		value_1 = "287",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1348] = {
-		base = 1340,
 		id = 1348,
 		value_1 = "308",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1349] = {
-		base = 1340,
 		id = 1349,
 		value_1 = "329",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1350] = {
-		base = 1340,
 		id = 1350,
 		value_1 = "350",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1351] = {
-		anti_siren = 100,
-		base = 1340,
 		id = 1351,
+		anti_siren = 100,
 		value_1 = "371",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1340
 	},
 	[1400] = {
 		name = "油圧カタパルト",
@@ -6829,51 +6016,39 @@ pg.equip_data_statistics = {
 	},
 	[1401] = {
 		id = 1401,
-		base = 1400,
 		value_2 = 21,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1400
 	},
 	[1402] = {
 		id = 1402,
-		base = 1400,
 		value_2 = 24,
 		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1400
 	},
 	[1403] = {
 		id = 1403,
-		base = 1400,
 		value_2 = 27,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1400
 	},
 	[1404] = {
 		id = 1404,
-		base = 1400,
 		value_2 = 30,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1400
 	},
 	[1405] = {
 		id = 1405,
-		base = 1400,
 		value_2 = 33,
 		value_1 = "31",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1400
 	},
 	[1406] = {
 		id = 1406,
-		base = 1400,
 		value_2 = 36,
 		value_1 = "34",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1400
 	},
 	[1420] = {
 		name = "油圧カタパルト",
@@ -6917,83 +6092,63 @@ pg.equip_data_statistics = {
 	},
 	[1421] = {
 		id = 1421,
-		base = 1420,
 		value_2 = 24,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1422] = {
 		id = 1422,
-		base = 1420,
 		value_2 = 28,
 		value_1 = "36",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1423] = {
 		id = 1423,
-		base = 1420,
 		value_2 = 32,
 		value_1 = "40",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1424] = {
 		id = 1424,
-		base = 1420,
 		value_2 = 36,
 		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1425] = {
 		id = 1425,
-		base = 1420,
 		value_2 = 40,
 		value_1 = "49",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1426] = {
 		id = 1426,
-		base = 1420,
 		value_2 = 44,
 		value_1 = "53",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1427] = {
 		id = 1427,
-		base = 1420,
 		value_2 = 48,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1428] = {
 		id = 1428,
-		base = 1420,
 		value_2 = 52,
 		value_1 = "61",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1429] = {
 		id = 1429,
-		base = 1420,
 		value_2 = 56,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1430] = {
 		id = 1430,
-		base = 1420,
 		value_2 = 60,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1420
 	},
 	[1440] = {
 		name = "油圧カタパルト",
@@ -7037,110 +6192,84 @@ pg.equip_data_statistics = {
 	},
 	[1441] = {
 		id = 1441,
-		base = 1440,
 		value_2 = 30,
 		value_1 = "46",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1442] = {
 		id = 1442,
-		base = 1440,
 		value_2 = 35,
 		value_1 = "52",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1443] = {
 		id = 1443,
-		base = 1440,
 		value_2 = 40,
 		value_1 = "58",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1444] = {
 		id = 1444,
-		base = 1440,
 		value_2 = 45,
 		value_1 = "64",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1445] = {
 		id = 1445,
-		base = 1440,
 		value_2 = 50,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1446] = {
 		id = 1446,
-		base = 1440,
 		value_2 = 55,
 		value_1 = "76",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1447] = {
 		id = 1447,
-		base = 1440,
 		value_2 = 60,
 		value_1 = "82",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1448] = {
 		id = 1448,
-		base = 1440,
 		value_2 = 65,
 		value_1 = "88",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1449] = {
 		id = 1449,
-		base = 1440,
 		value_2 = 70,
 		value_1 = "94",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1450] = {
 		id = 1450,
-		base = 1440,
 		value_2 = 75,
 		value_1 = "100",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1440
 	},
 	[1451] = {
 		id = 1451,
 		anti_siren = 100,
 		base = 1440,
 		value_2 = 80,
-		value_1 = "106",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "106"
 	},
 	[1452] = {
 		id = 1452,
 		anti_siren = 200,
 		base = 1440,
 		value_2 = 85,
-		value_1 = "112",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "112"
 	},
 	[1453] = {
 		id = 1453,
 		anti_siren = 300,
 		base = 1440,
 		value_2 = 90,
-		value_1 = "118",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "118"
 	},
 	[1500] = {
 		name = "SGレーダー",
@@ -7210,51 +6339,39 @@ pg.equip_data_statistics = {
 	},
 	[1501] = {
 		id = 1501,
-		base = 1500,
 		value_2 = 3,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1500
 	},
 	[1502] = {
 		id = 1502,
-		base = 1500,
 		value_2 = 3,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1500
 	},
 	[1503] = {
 		id = 1503,
-		base = 1500,
 		value_2 = 3,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1500
 	},
 	[1504] = {
 		id = 1504,
-		base = 1500,
 		value_2 = 4,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1500
 	},
 	[1505] = {
 		id = 1505,
-		base = 1500,
 		value_2 = 4,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1500
 	},
 	[1506] = {
 		id = 1506,
-		base = 1500,
 		value_2 = 5,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1500
 	},
 	[1520] = {
 		name = "SGレーダー",
@@ -7323,83 +6440,63 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1521] = {
-		base = 1520,
 		id = 1521,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1522] = {
 		id = 1522,
-		base = 1520,
 		value_2 = 5,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1523] = {
 		id = 1523,
-		base = 1520,
 		value_2 = 6,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1524] = {
 		id = 1524,
-		base = 1520,
 		value_2 = 6,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1525] = {
 		id = 1525,
-		base = 1520,
 		value_2 = 7,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1526] = {
 		id = 1526,
-		base = 1520,
 		value_2 = 7,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1527] = {
 		id = 1527,
-		base = 1520,
 		value_2 = 8,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1528] = {
 		id = 1528,
-		base = 1520,
 		value_2 = 9,
 		value_1 = "21",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1529] = {
 		id = 1529,
-		base = 1520,
 		value_2 = 9,
 		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1530] = {
 		id = 1530,
-		base = 1520,
 		value_2 = 10,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1520
 	},
 	[1540] = {
 		name = "SGレーダー",
@@ -7468,110 +6565,84 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1541] = {
-		base = 1540,
 		id = 1541,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1542] = {
 		id = 1542,
-		base = 1540,
 		value_2 = 7,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1543] = {
 		id = 1543,
-		base = 1540,
 		value_2 = 8,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1544] = {
 		id = 1544,
-		base = 1540,
 		value_2 = 9,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1545] = {
 		id = 1545,
-		base = 1540,
 		value_2 = 10,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1546] = {
 		id = 1546,
-		base = 1540,
 		value_2 = 11,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1547] = {
 		id = 1547,
-		base = 1540,
 		value_2 = 12,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1548] = {
 		id = 1548,
-		base = 1540,
 		value_2 = 13,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1549] = {
 		id = 1549,
-		base = 1540,
 		value_2 = 14,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1550] = {
 		id = 1550,
-		base = 1540,
 		value_2 = 15,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1540
 	},
 	[1551] = {
 		id = 1551,
 		anti_siren = 100,
 		base = 1540,
 		value_2 = 16,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[1552] = {
 		id = 1552,
 		anti_siren = 200,
 		base = 1540,
 		value_2 = 17,
-		value_1 = "41",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "41"
 	},
 	[1553] = {
 		id = 1553,
 		anti_siren = 300,
 		base = 1540,
 		value_2 = 18,
-		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "44"
 	},
 	[1600] = {
 		name = "電気式揚弾機",
@@ -7634,29 +6705,23 @@ pg.equip_data_statistics = {
 	},
 	[1601] = {
 		id = 1601,
-		torpedo_ammo = 0,
-		base = 1600,
-		value_2 = 1,
 		attribute_2 = "cannon",
-		property_rate = {}
+		value_2 = 1,
+		base = 1600
 	},
 	[1602] = {
 		value_2 = 1,
-		torpedo_ammo = 0,
 		base = 1600,
 		id = 1602,
 		value_1 = "3",
-		attribute_2 = "cannon",
-		property_rate = {}
+		attribute_2 = "cannon"
 	},
 	[1603] = {
 		value_2 = 2,
-		torpedo_ammo = 0,
 		base = 1600,
 		id = 1603,
 		value_1 = "3",
-		attribute_2 = "cannon",
-		property_rate = {}
+		attribute_2 = "cannon"
 	},
 	[1620] = {
 		name = "電気式揚弾機",
@@ -7720,26 +6785,20 @@ pg.equip_data_statistics = {
 	},
 	[1621] = {
 		id = 1621,
-		base = 1620,
 		value_2 = 2,
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1620
 	},
 	[1622] = {
 		id = 1622,
-		base = 1620,
 		value_2 = 2,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1620
 	},
 	[1623] = {
 		id = 1623,
-		base = 1620,
 		value_2 = 3,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1620
 	},
 	[1640] = {
 		name = "電気式揚弾機",
@@ -7802,58 +6861,44 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1641] = {
-		base = 1640,
 		id = 1641,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1640
 	},
 	[1642] = {
-		base = 1640,
 		id = 1642,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1640
 	},
 	[1643] = {
 		id = 1643,
-		base = 1640,
 		value_2 = 4,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1640
 	},
 	[1644] = {
 		id = 1644,
-		base = 1640,
 		value_2 = 4,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1640
 	},
 	[1645] = {
 		id = 1645,
-		base = 1640,
 		value_2 = 5,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1640
 	},
 	[1646] = {
 		id = 1646,
-		base = 1640,
 		value_2 = 5,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1640
 	},
 	[1647] = {
 		id = 1647,
-		base = 1640,
 		value_2 = 6,
 		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1640
 	},
 	[1700] = {
 		name = "油圧舵",
@@ -7889,26 +6934,20 @@ pg.equip_data_statistics = {
 	},
 	[1701] = {
 		id = 1701,
-		base = 1700,
 		value_2 = 16,
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1700
 	},
 	[1702] = {
 		id = 1702,
-		base = 1700,
 		value_2 = 18,
 		value_1 = "3",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1700
 	},
 	[1703] = {
 		id = 1703,
-		base = 1700,
 		value_2 = 20,
 		value_1 = "3",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1700
 	},
 	[1720] = {
 		name = "油圧舵",
@@ -7944,26 +6983,20 @@ pg.equip_data_statistics = {
 	},
 	[1721] = {
 		id = 1721,
-		base = 1720,
 		value_2 = 19,
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1720
 	},
 	[1722] = {
 		id = 1722,
-		base = 1720,
 		value_2 = 22,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1720
 	},
 	[1723] = {
 		id = 1723,
-		base = 1720,
 		value_2 = 25,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1720
 	},
 	[1740] = {
 		name = "油圧舵",
@@ -7999,59 +7032,45 @@ pg.equip_data_statistics = {
 	},
 	[1741] = {
 		id = 1741,
-		base = 1740,
 		value_2 = 24,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1740
 	},
 	[1742] = {
 		id = 1742,
-		base = 1740,
 		value_2 = 28,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1740
 	},
 	[1743] = {
 		id = 1743,
-		base = 1740,
 		value_2 = 32,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1740
 	},
 	[1744] = {
 		id = 1744,
-		base = 1740,
 		value_2 = 36,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1740
 	},
 	[1745] = {
 		id = 1745,
-		base = 1740,
 		value_2 = 40,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1740
 	},
 	[1746] = {
 		id = 1746,
-		base = 1740,
 		value_2 = 44,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1740
 	},
 	[1747] = {
 		id = 1747,
-		base = 1740,
 		value_2 = 48,
 		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1740
 	},
 	[1760] = {
 		name = "強化油圧舵",
@@ -8089,110 +7108,84 @@ pg.equip_data_statistics = {
 	},
 	[1761] = {
 		id = 1761,
-		base = 1760,
 		value_2 = 27,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1762] = {
 		id = 1762,
-		base = 1760,
 		value_2 = 30,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1763] = {
 		id = 1763,
-		base = 1760,
 		value_2 = 33,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1764] = {
 		id = 1764,
-		base = 1760,
 		value_2 = 36,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1765] = {
 		id = 1765,
-		base = 1760,
 		value_2 = 40,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1766] = {
 		id = 1766,
-		base = 1760,
 		value_2 = 44,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1767] = {
 		id = 1767,
-		base = 1760,
 		value_2 = 48,
 		value_1 = "31",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1768] = {
 		id = 1768,
-		base = 1760,
 		value_2 = 52,
 		value_1 = "34",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1769] = {
 		id = 1769,
-		base = 1760,
 		value_2 = 56,
 		value_1 = "37",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1770] = {
 		id = 1770,
-		base = 1760,
 		value_2 = 60,
 		value_1 = "40",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1760
 	},
 	[1771] = {
 		id = 1771,
 		anti_siren = 100,
 		base = 1760,
 		value_2 = 64,
-		value_1 = "43",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "43"
 	},
 	[1772] = {
 		id = 1772,
 		anti_siren = 200,
 		base = 1760,
 		value_2 = 68,
-		value_1 = "46",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "46"
 	},
 	[1773] = {
 		id = 1773,
 		anti_siren = 300,
 		base = 1760,
 		value_2 = 72,
-		value_1 = "49",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "49"
 	},
 	[1800] = {
 		name = "改良型缶",
@@ -8227,25 +7220,19 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1801] = {
-		base = 1800,
 		id = 1801,
 		value_1 = "40",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1800
 	},
 	[1802] = {
-		base = 1800,
 		id = 1802,
 		value_1 = "45",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1800
 	},
 	[1803] = {
-		base = 1800,
 		id = 1803,
 		value_1 = "50",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1800
 	},
 	[1820] = {
 		name = "改良型缶",
@@ -8280,50 +7267,38 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1821] = {
-		base = 1820,
 		id = 1821,
 		value_1 = "72",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1820
 	},
 	[1822] = {
-		base = 1820,
 		id = 1822,
 		value_1 = "81",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1820
 	},
 	[1823] = {
 		id = 1823,
-		base = 1820,
 		value_2 = 3,
 		value_1 = "91",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1820
 	},
 	[1824] = {
 		id = 1824,
-		base = 1820,
 		value_2 = 3,
 		value_1 = "100",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1820
 	},
 	[1825] = {
 		id = 1825,
-		base = 1820,
 		value_2 = 3,
 		value_1 = "110",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1820
 	},
 	[1826] = {
 		id = 1826,
-		base = 1820,
 		value_2 = 4,
 		value_1 = "119",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1820
 	},
 	[1840] = {
 		name = "改良型缶",
@@ -8358,92 +7333,70 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1841] = {
-		base = 1840,
 		id = 1841,
 		value_1 = "112",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1842] = {
 		id = 1842,
-		base = 1840,
 		value_2 = 4,
 		value_1 = "127",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1843] = {
 		id = 1843,
-		base = 1840,
 		value_2 = 4,
 		value_1 = "142",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1844] = {
 		id = 1844,
-		base = 1840,
 		value_2 = 5,
 		value_1 = "156",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1845] = {
 		id = 1845,
-		base = 1840,
 		value_2 = 5,
 		value_1 = "171",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1846] = {
 		id = 1846,
-		base = 1840,
 		value_2 = 6,
 		value_1 = "186",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1847] = {
 		id = 1847,
-		base = 1840,
 		value_2 = 6,
 		value_1 = "200",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1848] = {
 		id = 1848,
-		base = 1840,
 		value_2 = 7,
 		value_1 = "215",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1849] = {
 		id = 1849,
-		base = 1840,
 		value_2 = 7,
 		value_1 = "230",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1850] = {
 		id = 1850,
-		base = 1840,
 		value_2 = 8,
 		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1840
 	},
 	[1851] = {
 		id = 1851,
 		anti_siren = 100,
 		base = 1840,
 		value_2 = 8,
-		value_1 = "260",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "260"
 	},
 	[1900] = {
 		name = "迷彩塗装",
@@ -8479,26 +7432,20 @@ pg.equip_data_statistics = {
 	},
 	[1901] = {
 		id = 1901,
-		base = 1900,
 		value_2 = 16,
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1900
 	},
 	[1902] = {
 		id = 1902,
-		base = 1900,
 		value_2 = 18,
 		value_1 = "3",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1900
 	},
 	[1903] = {
 		id = 1903,
-		base = 1900,
 		value_2 = 20,
 		value_1 = "3",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1900
 	},
 	[1920] = {
 		name = "迷彩塗装",
@@ -8534,26 +7481,20 @@ pg.equip_data_statistics = {
 	},
 	[1921] = {
 		id = 1921,
-		base = 1920,
 		value_2 = 19,
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1920
 	},
 	[1922] = {
 		id = 1922,
-		base = 1920,
 		value_2 = 22,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1920
 	},
 	[1923] = {
 		id = 1923,
-		base = 1920,
 		value_2 = 25,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1920
 	},
 	[1940] = {
 		name = "迷彩塗装",
@@ -8589,59 +7530,45 @@ pg.equip_data_statistics = {
 	},
 	[1941] = {
 		id = 1941,
-		base = 1940,
 		value_2 = 24,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1940
 	},
 	[1942] = {
 		id = 1942,
-		base = 1940,
 		value_2 = 28,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1940
 	},
 	[1943] = {
 		id = 1943,
-		base = 1940,
 		value_2 = 32,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1940
 	},
 	[1944] = {
 		id = 1944,
-		base = 1940,
 		value_2 = 36,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1940
 	},
 	[1945] = {
 		id = 1945,
-		base = 1940,
 		value_2 = 40,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1940
 	},
 	[1946] = {
 		id = 1946,
-		base = 1940,
 		value_2 = 44,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1940
 	},
 	[1947] = {
 		id = 1947,
-		base = 1940,
 		value_2 = 48,
 		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1940
 	},
 	[1960] = {
 		name = "マリニエール魂（迷彩）",
@@ -8677,92 +7604,70 @@ pg.equip_data_statistics = {
 	},
 	[1961] = {
 		id = 1961,
-		base = 1960,
 		value_2 = 40,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1962] = {
 		id = 1962,
-		base = 1960,
 		value_2 = 45,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1963] = {
 		id = 1963,
-		base = 1960,
 		value_2 = 50,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1964] = {
 		id = 1964,
-		base = 1960,
 		value_2 = 55,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1965] = {
 		id = 1965,
-		base = 1960,
 		value_2 = 60,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1966] = {
 		id = 1966,
-		base = 1960,
 		value_2 = 65,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1967] = {
 		id = 1967,
-		base = 1960,
 		value_2 = 70,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1968] = {
 		id = 1968,
-		base = 1960,
 		value_2 = 80,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1969] = {
 		id = 1969,
-		base = 1960,
 		value_2 = 90,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1970] = {
 		id = 1970,
-		base = 1960,
 		value_2 = 100,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 1960
 	},
 	[1971] = {
 		id = 1971,
 		anti_siren = 100,
 		base = 1960,
 		value_2 = 110,
-		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "19"
 	},
 	[2000] = {
 		name = "燃料フィルター",
@@ -8797,25 +7702,19 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2001] = {
-		base = 2000,
 		id = 2001,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2000
 	},
 	[2002] = {
-		base = 2000,
 		id = 2002,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2000
 	},
 	[2003] = {
-		base = 2000,
 		id = 2003,
 		value_1 = "72",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2000
 	},
 	[2020] = {
 		name = "燃料フィルター",
@@ -8850,49 +7749,37 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2021] = {
-		base = 2020,
 		id = 2021,
 		value_1 = "103",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2020
 	},
 	[2022] = {
-		base = 2020,
 		id = 2022,
 		value_1 = "117",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2020
 	},
 	[2023] = {
-		base = 2020,
 		id = 2023,
 		value_1 = "130",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2020
 	},
 	[2024] = {
 		id = 2024,
-		base = 2020,
 		value_2 = 3,
 		value_1 = "144",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2020
 	},
 	[2025] = {
 		id = 2025,
-		base = 2020,
 		value_2 = 3,
 		value_1 = "157",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2020
 	},
 	[2026] = {
 		id = 2026,
-		base = 2020,
 		value_2 = 3,
 		value_1 = "171",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2020
 	},
 	[2040] = {
 		name = "燃料フィルター",
@@ -8927,90 +7814,68 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2041] = {
-		base = 2040,
 		id = 2041,
 		value_1 = "161",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2042] = {
-		base = 2040,
 		id = 2042,
 		value_1 = "182",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2043] = {
-		base = 2040,
 		id = 2043,
 		value_1 = "203",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2044] = {
 		id = 2044,
-		base = 2040,
 		value_2 = 3,
 		value_1 = "224",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2045] = {
 		id = 2045,
-		base = 2040,
 		value_2 = 3,
 		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2046] = {
 		id = 2046,
-		base = 2040,
 		value_2 = 3,
 		value_1 = "266",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2047] = {
 		id = 2047,
-		base = 2040,
 		value_2 = 4,
 		value_1 = "287",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2048] = {
 		id = 2048,
-		base = 2040,
 		value_2 = 4,
 		value_1 = "308",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2049] = {
 		id = 2049,
-		base = 2040,
 		value_2 = 4,
 		value_1 = "329",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2050] = {
 		id = 2050,
-		base = 2040,
 		value_2 = 5,
 		value_1 = "350",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2040
 	},
 	[2051] = {
 		id = 2051,
 		anti_siren = 100,
 		base = 2040,
 		value_2 = 6,
-		value_1 = "371",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "371"
 	},
 	[2100] = {
 		name = "空母燃料タンク",
@@ -9056,27 +7921,21 @@ pg.equip_data_statistics = {
 	},
 	[2101] = {
 		id = 2101,
-		base = 2100,
 		value_2 = 16,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2100
 	},
 	[2102] = {
 		id = 2102,
-		base = 2100,
 		value_2 = 18,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2100
 	},
 	[2103] = {
 		id = 2103,
-		base = 2100,
 		value_2 = 20,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2100
 	},
 	[2120] = {
 		name = "空母燃料タンク",
@@ -9122,51 +7981,39 @@ pg.equip_data_statistics = {
 	},
 	[2121] = {
 		id = 2121,
-		base = 2120,
 		value_2 = 19,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2120
 	},
 	[2122] = {
 		id = 2122,
-		base = 2120,
 		value_2 = 22,
 		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2120
 	},
 	[2123] = {
 		id = 2123,
-		base = 2120,
 		value_2 = 25,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2120
 	},
 	[2124] = {
 		id = 2124,
-		base = 2120,
 		value_2 = 28,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2120
 	},
 	[2125] = {
 		id = 2125,
-		base = 2120,
 		value_2 = 31,
 		value_1 = "31",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2120
 	},
 	[2126] = {
 		id = 2126,
-		base = 2120,
 		value_2 = 34,
 		value_1 = "34",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2120
 	},
 	[2140] = {
 		name = "空母燃料タンク",
@@ -9212,92 +8059,70 @@ pg.equip_data_statistics = {
 	},
 	[2141] = {
 		id = 2141,
-		base = 2140,
 		value_2 = 24,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2142] = {
 		id = 2142,
-		base = 2140,
 		value_2 = 28,
 		value_1 = "36",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2143] = {
 		id = 2143,
-		base = 2140,
 		value_2 = 32,
 		value_1 = "40",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2144] = {
 		id = 2144,
-		base = 2140,
 		value_2 = 36,
 		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2145] = {
 		id = 2145,
-		base = 2140,
 		value_2 = 40,
 		value_1 = "49",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2146] = {
 		id = 2146,
-		base = 2140,
 		value_2 = 44,
 		value_1 = "53",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2147] = {
 		id = 2147,
-		base = 2140,
 		value_2 = 48,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2148] = {
 		id = 2148,
-		base = 2140,
 		value_2 = 52,
 		value_1 = "61",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2149] = {
 		id = 2149,
-		base = 2140,
 		value_2 = 56,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2150] = {
 		id = 2150,
-		base = 2140,
 		value_2 = 60,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2140
 	},
 	[2151] = {
 		id = 2151,
 		anti_siren = 100,
 		base = 2140,
 		value_2 = 64,
-		value_1 = "75",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "75"
 	},
 	[2200] = {
 		name = "自動装填機構",
@@ -9361,24 +8186,18 @@ pg.equip_data_statistics = {
 	},
 	[2201] = {
 		id = 2201,
-		torpedo_ammo = 0,
-		base = 2200,
-		property_rate = {}
+		base = 2200
 	},
 	[2202] = {
-		base = 2200,
 		id = 2202,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2200
 	},
 	[2203] = {
 		id = 2203,
-		base = 2200,
 		value_2 = 2,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2200
 	},
 	[2220] = {
 		name = "自動装填機構",
@@ -9441,50 +8260,38 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2221] = {
-		base = 2220,
 		id = 2221,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2220
 	},
 	[2222] = {
-		base = 2220,
 		id = 2222,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2220
 	},
 	[2223] = {
 		id = 2223,
-		base = 2220,
 		value_2 = 3,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2220
 	},
 	[2224] = {
 		id = 2224,
-		base = 2220,
 		value_2 = 3,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2220
 	},
 	[2225] = {
 		id = 2225,
-		base = 2220,
 		value_2 = 4,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2220
 	},
 	[2226] = {
 		id = 2226,
-		base = 2220,
 		value_2 = 4,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2220
 	},
 	[2240] = {
 		name = "自動装填機構",
@@ -9547,91 +8354,69 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2241] = {
-		base = 2240,
 		id = 2241,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2242] = {
-		base = 2240,
 		id = 2242,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2243] = {
 		id = 2243,
-		base = 2240,
 		value_2 = 4,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2244] = {
 		id = 2244,
-		base = 2240,
 		value_2 = 4,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2245] = {
 		id = 2245,
-		base = 2240,
 		value_2 = 5,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2246] = {
 		id = 2246,
-		base = 2240,
 		value_2 = 5,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2247] = {
 		id = 2247,
-		base = 2240,
 		value_2 = 6,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2248] = {
 		id = 2248,
-		base = 2240,
 		value_2 = 6,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2249] = {
 		id = 2249,
-		base = 2240,
 		value_2 = 7,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2250] = {
 		id = 2250,
-		base = 2240,
 		value_2 = 7,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2240
 	},
 	[2251] = {
 		id = 2251,
 		anti_siren = 100,
 		base = 2240,
 		value_2 = 8,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[2300] = {
 		name = "ジャイロスコープ",
@@ -9695,23 +8480,17 @@ pg.equip_data_statistics = {
 	},
 	[2301] = {
 		id = 2301,
-		torpedo_ammo = 0,
-		base = 2300,
-		property_rate = {}
+		base = 2300
 	},
 	[2302] = {
-		base = 2300,
 		id = 2302,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2300
 	},
 	[2303] = {
-		base = 2300,
 		id = 2303,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2300
 	},
 	[2320] = {
 		name = "ジャイロスコープ",
@@ -9774,50 +8553,38 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2321] = {
-		base = 2320,
 		id = 2321,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2320
 	},
 	[2322] = {
-		base = 2320,
 		id = 2322,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2320
 	},
 	[2323] = {
 		id = 2323,
-		base = 2320,
 		value_2 = 3,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2320
 	},
 	[2324] = {
 		id = 2324,
-		base = 2320,
 		value_2 = 3,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2320
 	},
 	[2325] = {
 		id = 2325,
-		base = 2320,
 		value_2 = 3,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2320
 	},
 	[2326] = {
 		id = 2326,
-		base = 2320,
 		value_2 = 4,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2320
 	},
 	[2340] = {
 		name = "ジャイロスコープ",
@@ -9880,92 +8647,70 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2341] = {
-		base = 2340,
 		id = 2341,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2342] = {
 		id = 2342,
-		base = 2340,
 		value_2 = 4,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2343] = {
 		id = 2343,
-		base = 2340,
 		value_2 = 4,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2344] = {
 		id = 2344,
-		base = 2340,
 		value_2 = 5,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2345] = {
 		id = 2345,
-		base = 2340,
 		value_2 = 5,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2346] = {
 		id = 2346,
-		base = 2340,
 		value_2 = 6,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2347] = {
 		id = 2347,
-		base = 2340,
 		value_2 = 6,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2348] = {
 		id = 2348,
-		base = 2340,
 		value_2 = 7,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2349] = {
 		id = 2349,
-		base = 2340,
 		value_2 = 7,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2350] = {
 		id = 2350,
-		base = 2340,
 		value_2 = 8,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2340
 	},
 	[2351] = {
 		id = 2351,
 		anti_siren = 100,
 		base = 2340,
 		value_2 = 8,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[2400] = {
 		name = "応急修理装置",
@@ -10001,25 +8746,19 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2401] = {
-		base = 2400,
 		id = 2401,
 		value_1 = "103",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2400
 	},
 	[2402] = {
-		base = 2400,
 		id = 2402,
 		value_1 = "117",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2400
 	},
 	[2403] = {
-		base = 2400,
 		id = 2403,
 		value_1 = "130",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2400
 	},
 	[2420] = {
 		name = "応急修理装置",
@@ -10055,46 +8794,34 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2421] = {
-		base = 2420,
 		id = 2421,
 		value_1 = "161",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2420
 	},
 	[2422] = {
-		base = 2420,
 		id = 2422,
 		value_1 = "182",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2420
 	},
 	[2423] = {
-		base = 2420,
 		id = 2423,
 		value_1 = "203",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2420
 	},
 	[2424] = {
-		base = 2420,
 		id = 2424,
 		value_1 = "224",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2420
 	},
 	[2425] = {
-		base = 2420,
 		id = 2425,
 		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2420
 	},
 	[2426] = {
-		base = 2420,
 		id = 2426,
 		value_1 = "266",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2420
 	},
 	[2440] = {
 		name = "応急修理装置",
@@ -10130,82 +8857,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2441] = {
-		base = 2440,
 		id = 2441,
 		value_1 = "230",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2442] = {
-		base = 2440,
 		id = 2442,
 		value_1 = "260",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2443] = {
-		base = 2440,
 		id = 2443,
 		value_1 = "290",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2444] = {
-		base = 2440,
 		id = 2444,
 		value_1 = "320",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2445] = {
-		base = 2440,
 		id = 2445,
 		value_1 = "350",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2446] = {
-		base = 2440,
 		id = 2446,
 		value_1 = "380",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2447] = {
-		base = 2440,
 		id = 2447,
 		value_1 = "410",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2448] = {
-		base = 2440,
 		id = 2448,
 		value_1 = "440",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2449] = {
-		base = 2440,
 		id = 2449,
 		value_1 = "470",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2450] = {
-		base = 2440,
 		id = 2450,
 		value_1 = "500",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2451] = {
-		anti_siren = 100,
-		base = 2440,
 		id = 2451,
+		anti_siren = 100,
 		value_1 = "530",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2440
 	},
 	[2500] = {
 		name = "消火装置",
@@ -10241,25 +8946,19 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2501] = {
-		base = 2500,
 		id = 2501,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2500
 	},
 	[2502] = {
-		base = 2500,
 		id = 2502,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2500
 	},
 	[2503] = {
-		base = 2500,
 		id = 2503,
 		value_1 = "72",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2500
 	},
 	[2520] = {
 		name = "消火装置",
@@ -10295,25 +8994,19 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2521] = {
-		base = 2520,
 		id = 2521,
 		value_1 = "103",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2520
 	},
 	[2522] = {
-		base = 2520,
 		id = 2522,
 		value_1 = "117",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2520
 	},
 	[2523] = {
-		base = 2520,
 		id = 2523,
 		value_1 = "130",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2520
 	},
 	[2540] = {
 		name = "消火装置",
@@ -10349,53 +9042,39 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2541] = {
-		base = 2540,
 		id = 2541,
 		value_1 = "161",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2540
 	},
 	[2542] = {
-		base = 2540,
 		id = 2542,
 		value_1 = "182",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2540
 	},
 	[2543] = {
-		base = 2540,
 		id = 2543,
 		value_1 = "203",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2540
 	},
 	[2544] = {
-		base = 2540,
 		id = 2544,
 		value_1 = "224",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2540
 	},
 	[2545] = {
-		base = 2540,
 		id = 2545,
 		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2540
 	},
 	[2546] = {
-		base = 2540,
 		id = 2546,
 		value_1 = "266",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2540
 	},
 	[2547] = {
-		base = 2540,
 		id = 2547,
 		value_1 = "287",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2540
 	},
 	[2640] = {
 		name = "九三式酸素魚雷",
@@ -10446,83 +9125,70 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2641] = {
-		base = 2640,
 		id = 2641,
 		value_1 = "46",
-		torpedo_ammo = 1,
-		property_rate = {}
+		base = 2640
 	},
 	[2642] = {
 		id = 2642,
-		base = 2640,
 		value_2 = 4,
 		value_1 = "52",
-		torpedo_ammo = 1,
-		property_rate = {}
+		base = 2640
 	},
 	[2643] = {
 		id = 2643,
-		base = 2640,
 		value_2 = 5,
 		value_1 = "58",
-		torpedo_ammo = 1,
-		property_rate = {}
+		base = 2640
 	},
 	[2644] = {
 		id = 2644,
 		base = 2640,
 		value_2 = 6,
 		value_1 = "64",
-		torpedo_ammo = 2,
-		property_rate = {}
+		torpedo_ammo = 2
 	},
 	[2645] = {
 		id = 2645,
 		base = 2640,
 		value_2 = 6,
 		value_1 = "70",
-		torpedo_ammo = 2,
-		property_rate = {}
+		torpedo_ammo = 2
 	},
 	[2646] = {
 		id = 2646,
 		base = 2640,
 		value_2 = 7,
 		value_1 = "76",
-		torpedo_ammo = 2,
-		property_rate = {}
+		torpedo_ammo = 2
 	},
 	[2647] = {
 		id = 2647,
 		base = 2640,
 		value_2 = 8,
 		value_1 = "82",
-		torpedo_ammo = 3,
-		property_rate = {}
+		torpedo_ammo = 3
 	},
 	[2648] = {
 		id = 2648,
 		base = 2640,
 		value_2 = 9,
 		value_1 = "88",
-		torpedo_ammo = 3,
-		property_rate = {}
+		torpedo_ammo = 3
 	},
 	[2649] = {
 		id = 2649,
 		base = 2640,
 		value_2 = 9,
 		value_1 = "94",
-		torpedo_ammo = 3,
-		property_rate = {}
+		torpedo_ammo = 3
 	},
 	[2650] = {
 		id = 2650,
 		base = 2640,
 		value_2 = 10,
 		value_1 = "100",
-		torpedo_ammo = 4,
-		property_rate = {}
+		torpedo_ammo = 4
 	},
 	[2651] = {
 		id = 2651,
@@ -10530,8 +9196,7 @@ pg.equip_data_statistics = {
 		base = 2640,
 		value_2 = 11,
 		value_1 = "106",
-		torpedo_ammo = 4,
-		property_rate = {}
+		torpedo_ammo = 4
 	},
 	[2652] = {
 		id = 2652,
@@ -10539,8 +9204,7 @@ pg.equip_data_statistics = {
 		base = 2640,
 		value_2 = 12,
 		value_1 = "112",
-		torpedo_ammo = 4,
-		property_rate = {}
+		torpedo_ammo = 4
 	},
 	[2653] = {
 		id = 2653,
@@ -10548,8 +9212,7 @@ pg.equip_data_statistics = {
 		base = 2640,
 		value_2 = 13,
 		value_1 = "118",
-		torpedo_ammo = 4,
-		property_rate = {}
+		torpedo_ammo = 4
 	},
 	[2740] = {
 		name = "533mm磁気魚雷（水上艦用）",
@@ -10598,110 +9261,84 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2741] = {
-		base = 2740,
 		id = 2741,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2742] = {
 		id = 2742,
-		base = 2740,
 		value_2 = 7,
 		value_1 = "36",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2743] = {
 		id = 2743,
-		base = 2740,
 		value_2 = 8,
 		value_1 = "40",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2744] = {
 		id = 2744,
-		base = 2740,
 		value_2 = 9,
 		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2745] = {
 		id = 2745,
-		base = 2740,
 		value_2 = 10,
 		value_1 = "49",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2746] = {
 		id = 2746,
-		base = 2740,
 		value_2 = 11,
 		value_1 = "53",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2747] = {
 		id = 2747,
-		base = 2740,
 		value_2 = 12,
 		value_1 = "57",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2748] = {
 		id = 2748,
-		base = 2740,
 		value_2 = 13,
 		value_1 = "61",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2749] = {
 		id = 2749,
-		base = 2740,
 		value_2 = 14,
 		value_1 = "65",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2750] = {
 		id = 2750,
-		base = 2740,
 		value_2 = 15,
 		value_1 = "70",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2740
 	},
 	[2751] = {
 		id = 2751,
 		anti_siren = 100,
 		base = 2740,
 		value_2 = 16,
-		value_1 = "75",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "75"
 	},
 	[2752] = {
 		id = 2752,
 		anti_siren = 200,
 		base = 2740,
 		value_2 = 17,
-		value_1 = "80",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "80"
 	},
 	[2753] = {
 		id = 2753,
 		anti_siren = 300,
 		base = 2740,
 		value_2 = 18,
-		value_1 = "85",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "85"
 	},
 	[2800] = {
 		name = "94式高射装置",
@@ -10737,92 +9374,70 @@ pg.equip_data_statistics = {
 	},
 	[2801] = {
 		id = 2801,
-		base = 2800,
 		value_2 = 5,
 		value_1 = "25",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2802] = {
 		id = 2802,
-		base = 2800,
 		value_2 = 5,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2803] = {
 		id = 2803,
-		base = 2800,
 		value_2 = 6,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2804] = {
 		id = 2804,
-		base = 2800,
 		value_2 = 6,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2805] = {
 		id = 2805,
-		base = 2800,
 		value_2 = 7,
 		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2806] = {
 		id = 2806,
-		base = 2800,
 		value_2 = 7,
 		value_1 = "42",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2807] = {
 		id = 2807,
-		base = 2800,
 		value_2 = 8,
 		value_1 = "45",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2808] = {
 		id = 2808,
-		base = 2800,
 		value_2 = 8,
 		value_1 = "48",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2809] = {
 		id = 2809,
-		base = 2800,
 		value_2 = 9,
 		value_1 = "51",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2810] = {
 		id = 2810,
-		base = 2800,
 		value_2 = 10,
 		value_1 = "55",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2800
 	},
 	[2811] = {
 		id = 2811,
 		anti_siren = 100,
 		base = 2800,
 		value_2 = 11,
-		value_1 = "59",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "59"
 	},
 	[2900] = {
 		name = "従来型ソナー",
@@ -10866,27 +9481,21 @@ pg.equip_data_statistics = {
 	},
 	[2901] = {
 		id = 2901,
-		base = 2900,
 		value_2 = 2,
 		value_1 = "2",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2900
 	},
 	[2902] = {
 		id = 2902,
-		base = 2900,
 		value_2 = 2,
 		value_1 = "3",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2900
 	},
 	[2903] = {
 		id = 2903,
-		base = 2900,
 		value_2 = 3,
 		value_1 = "4",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2900
 	},
 	[2920] = {
 		name = "従来型ソナー",
@@ -10930,51 +9539,39 @@ pg.equip_data_statistics = {
 	},
 	[2921] = {
 		id = 2921,
-		base = 2920,
 		value_2 = 3,
 		value_1 = "4",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2920
 	},
 	[2922] = {
 		id = 2922,
-		base = 2920,
 		value_2 = 3,
 		value_1 = "5",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2920
 	},
 	[2923] = {
 		id = 2923,
-		base = 2920,
 		value_2 = 4,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2920
 	},
 	[2924] = {
 		id = 2924,
-		base = 2920,
 		value_2 = 4,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2920
 	},
 	[2925] = {
 		id = 2925,
-		base = 2920,
 		value_2 = 5,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2920
 	},
 	[2926] = {
 		id = 2926,
-		base = 2920,
 		value_2 = 5,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2920
 	},
 	[2940] = {
 		name = "従来型ソナー",
@@ -11020,92 +9617,69 @@ pg.equip_data_statistics = {
 	},
 	[2941] = {
 		id = 2941,
-		base = 2940,
-		value_2 = 4,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2942] = {
 		id = 2942,
-		base = 2940,
 		value_2 = 5,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2943] = {
 		id = 2943,
-		base = 2940,
 		value_2 = 5,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2944] = {
 		id = 2944,
-		base = 2940,
 		value_2 = 6,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2945] = {
 		id = 2945,
-		base = 2940,
 		value_2 = 6,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2946] = {
 		id = 2946,
-		base = 2940,
 		value_2 = 7,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2947] = {
 		id = 2947,
-		base = 2940,
 		value_2 = 7,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2948] = {
 		id = 2948,
-		base = 2940,
 		value_2 = 8,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2949] = {
 		id = 2949,
-		base = 2940,
 		value_2 = 8,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2950] = {
 		id = 2950,
-		base = 2940,
 		value_2 = 9,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 2940
 	},
 	[2951] = {
 		id = 2951,
 		anti_siren = 100,
 		base = 2940,
 		value_2 = 10,
-		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "20"
 	},
 	[3000] = {
 		name = "改良型ソナー",
@@ -11149,51 +9723,39 @@ pg.equip_data_statistics = {
 	},
 	[3001] = {
 		id = 3001,
-		base = 3000,
 		value_2 = 4,
 		value_1 = "5",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3000
 	},
 	[3002] = {
 		id = 3002,
-		base = 3000,
 		value_2 = 4,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3000
 	},
 	[3003] = {
 		id = 3003,
-		base = 3000,
 		value_2 = 5,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3000
 	},
 	[3004] = {
 		id = 3004,
-		base = 3000,
 		value_2 = 5,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3000
 	},
 	[3005] = {
 		id = 3005,
-		base = 3000,
 		value_2 = 6,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3000
 	},
 	[3006] = {
 		id = 3006,
-		base = 3000,
 		value_2 = 6,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3000
 	},
 	[3020] = {
 		name = "改良型ソナー",
@@ -11237,83 +9799,62 @@ pg.equip_data_statistics = {
 	},
 	[3021] = {
 		id = 3021,
-		base = 3020,
-		value_2 = 5,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3022] = {
 		id = 3022,
-		base = 3020,
 		value_2 = 6,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3023] = {
 		id = 3023,
-		base = 3020,
 		value_2 = 6,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3024] = {
 		id = 3024,
-		base = 3020,
 		value_2 = 7,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3025] = {
 		id = 3025,
-		base = 3020,
 		value_2 = 7,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3026] = {
 		id = 3026,
-		base = 3020,
 		value_2 = 8,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3027] = {
 		id = 3027,
-		base = 3020,
 		value_2 = 8,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3028] = {
 		id = 3028,
-		base = 3020,
 		value_2 = 9,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3029] = {
 		id = 3029,
-		base = 3020,
 		value_2 = 9,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3030] = {
 		id = 3030,
-		base = 3020,
 		value_2 = 10,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3020
 	},
 	[3040] = {
 		name = "改良型ソナー",
@@ -11359,110 +9900,83 @@ pg.equip_data_statistics = {
 	},
 	[3041] = {
 		id = 3041,
-		base = 3040,
-		value_2 = 7,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3042] = {
 		id = 3042,
-		base = 3040,
 		value_2 = 8,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3043] = {
 		id = 3043,
-		base = 3040,
 		value_2 = 8,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3044] = {
 		id = 3044,
-		base = 3040,
 		value_2 = 9,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3045] = {
 		id = 3045,
-		base = 3040,
 		value_2 = 9,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3046] = {
 		id = 3046,
-		base = 3040,
 		value_2 = 10,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3047] = {
 		id = 3047,
-		base = 3040,
 		value_2 = 10,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3048] = {
 		id = 3048,
-		base = 3040,
 		value_2 = 11,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3049] = {
 		id = 3049,
-		base = 3040,
 		value_2 = 11,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3050] = {
 		id = 3050,
-		base = 3040,
 		value_2 = 12,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3040
 	},
 	[3051] = {
 		id = 3051,
 		anti_siren = 100,
 		base = 3040,
 		value_2 = 13,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[3052] = {
 		id = 3052,
 		anti_siren = 200,
 		base = 3040,
 		value_2 = 14,
-		value_1 = "41",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "41"
 	},
 	[3053] = {
 		id = 3053,
 		anti_siren = 300,
 		base = 3040,
 		value_2 = 15,
-		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "44"
 	},
 	[3100] = {
 		name = "圧縮酸素ボンベ",
@@ -11502,84 +10016,62 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3101] = {
-		base = 3100,
 		id = 3101,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3102] = {
-		base = 3100,
 		id = 3102,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3103] = {
-		base = 3100,
 		id = 3103,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3104] = {
-		base = 3100,
 		id = 3104,
 		value_1 = "27",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3105] = {
-		base = 3100,
 		id = 3105,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3106] = {
-		base = 3100,
 		id = 3106,
 		value_1 = "33",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3107] = {
-		base = 3100,
 		id = 3107,
 		value_1 = "36",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3108] = {
-		base = 3100,
 		id = 3108,
 		value_1 = "39",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3109] = {
-		base = 3100,
 		id = 3109,
 		value_1 = "42",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3110] = {
-		base = 3100,
 		id = 3110,
 		value_1 = "45",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3100
 	},
 	[3111] = {
 		value_2 = 10,
 		anti_siren = 100,
 		base = 3100,
 		id = 3111,
-		torpedo_ammo = 0,
 		value_1 = "45",
-		attribute_2 = "hit",
-		property_rate = {}
+		attribute_2 = "hit"
 	},
 	[3120] = {
 		name = "改良型シュノーケル",
@@ -11619,104 +10111,78 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3121] = {
-		base = 3120,
 		id = 3121,
 		value_1 = "39",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3122] = {
-		base = 3120,
 		id = 3122,
 		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3123] = {
-		base = 3120,
 		id = 3123,
 		value_1 = "49",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3124] = {
-		base = 3120,
 		id = 3124,
 		value_1 = "54",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3125] = {
-		base = 3120,
 		id = 3125,
 		value_1 = "59",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3126] = {
-		base = 3120,
 		id = 3126,
 		value_1 = "64",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3127] = {
-		base = 3120,
 		id = 3127,
 		value_1 = "69",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3128] = {
-		base = 3120,
 		id = 3128,
 		value_1 = "74",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3129] = {
-		base = 3120,
 		id = 3129,
 		value_1 = "79",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3130] = {
-		base = 3120,
 		id = 3130,
 		value_1 = "85",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3120
 	},
 	[3131] = {
 		value_2 = 10,
 		anti_siren = 100,
 		base = 3120,
 		id = 3131,
-		torpedo_ammo = 0,
 		value_1 = "85",
-		attribute_2 = "hit",
-		property_rate = {}
+		attribute_2 = "hit"
 	},
 	[3132] = {
 		value_2 = 24,
 		anti_siren = 200,
 		base = 3120,
 		id = 3132,
-		torpedo_ammo = 0,
 		value_1 = "85",
-		attribute_2 = "hit",
-		property_rate = {}
+		attribute_2 = "hit"
 	},
 	[3133] = {
 		value_2 = 35,
 		anti_siren = 300,
 		base = 3120,
 		id = 3133,
-		torpedo_ammo = 0,
 		value_1 = "85",
-		attribute_2 = "hit",
-		property_rate = {}
+		attribute_2 = "hit"
 	},
 	[3140] = {
 		name = "改良型蓄電池群",
@@ -11760,74 +10226,54 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3141] = {
-		base = 3140,
 		id = 3141,
 		value_1 = "3",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3142] = {
-		base = 3140,
 		id = 3142,
 		value_1 = "4",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3143] = {
-		base = 3140,
 		id = 3143,
 		value_1 = "5",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3144] = {
-		base = 3140,
 		id = 3144,
 		value_1 = "6",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3145] = {
-		base = 3140,
 		id = 3145,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3146] = {
-		base = 3140,
 		id = 3146,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3147] = {
-		base = 3140,
 		id = 3147,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3148] = {
-		base = 3140,
 		id = 3148,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3149] = {
-		base = 3140,
 		id = 3149,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3140
 	},
 	[3150] = {
 		base = 3140,
 		id = 3150,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {},
 		skill_id = {
 			6291
 		},
@@ -11840,8 +10286,6 @@ pg.equip_data_statistics = {
 		base = 3140,
 		id = 3151,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {},
 		skill_id = {
 			6291
 		},
@@ -11854,8 +10298,6 @@ pg.equip_data_statistics = {
 		base = 3140,
 		id = 3152,
 		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {},
 		skill_id = {
 			6291
 		},
@@ -11868,8 +10310,6 @@ pg.equip_data_statistics = {
 		base = 3140,
 		id = 3153,
 		value_1 = "21",
-		torpedo_ammo = 0,
-		property_rate = {},
 		skill_id = {
 			6291
 		},
@@ -11923,98 +10363,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3201] = {
-		base = 3200,
 		id = 3201,
 		value_1 = "380",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3202] = {
-		base = 3200,
 		id = 3202,
 		value_1 = "410",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3203] = {
-		base = 3200,
 		id = 3203,
 		value_1 = "440",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3204] = {
-		base = 3200,
 		id = 3204,
 		value_1 = "470",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3205] = {
-		base = 3200,
 		id = 3205,
 		value_1 = "500",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3206] = {
-		base = 3200,
 		id = 3206,
 		value_1 = "530",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3207] = {
-		base = 3200,
 		id = 3207,
 		value_1 = "560",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3208] = {
-		base = 3200,
 		id = 3208,
 		value_1 = "590",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3209] = {
-		base = 3200,
 		id = 3209,
 		value_1 = "620",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3210] = {
-		base = 3200,
 		id = 3210,
 		value_1 = "650",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3211] = {
-		anti_siren = 100,
-		base = 3200,
 		id = 3211,
+		anti_siren = 100,
 		value_1 = "680",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3212] = {
-		anti_siren = 200,
-		base = 3200,
 		id = 3212,
+		anti_siren = 200,
 		value_1 = "710",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3213] = {
-		anti_siren = 300,
-		base = 3200,
 		id = 3213,
+		anti_siren = 300,
 		value_1 = "740",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3200
 	},
 	[3220] = {
 		name = "VC装甲鋼板",
@@ -12062,84 +10476,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3221] = {
-		base = 3220,
 		id = 3221,
 		value_1 = "250",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3222] = {
-		base = 3220,
 		id = 3222,
 		value_1 = "280",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3223] = {
-		base = 3220,
 		id = 3223,
 		value_1 = "310",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3224] = {
-		base = 3220,
 		id = 3224,
 		value_1 = "340",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3225] = {
-		base = 3220,
 		id = 3225,
 		value_1 = "370",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3226] = {
-		base = 3220,
 		id = 3226,
 		value_1 = "400",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3227] = {
-		base = 3220,
 		id = 3227,
 		value_1 = "430",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3228] = {
-		base = 3220,
 		id = 3228,
 		value_1 = "460",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3229] = {
-		base = 3220,
 		id = 3229,
 		value_1 = "490",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3220
 	},
 	[3230] = {
-		base = 3220,
 		id = 3230,
 		value_1 = "520",
-		torpedo_ammo = 0,
-		property_rate = {},
-		equip_parameters = {}
+		base = 3220
 	},
 	[3231] = {
-		anti_siren = 100,
-		base = 3220,
 		id = 3231,
+		anti_siren = 100,
 		value_1 = "550",
-		torpedo_ammo = 0,
-		property_rate = {},
-		equip_parameters = {}
+		base = 3220
 	},
 	[3300] = {
 		name = "四神の印",
@@ -12179,98 +10569,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3301] = {
-		base = 3300,
 		id = 3301,
 		value_1 = "280",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3302] = {
-		base = 3300,
 		id = 3302,
 		value_1 = "310",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3303] = {
-		base = 3300,
 		id = 3303,
 		value_1 = "340",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3304] = {
-		base = 3300,
 		id = 3304,
 		value_1 = "370",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3305] = {
-		base = 3300,
 		id = 3305,
 		value_1 = "400",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3306] = {
-		base = 3300,
 		id = 3306,
 		value_1 = "430",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3307] = {
-		base = 3300,
 		id = 3307,
 		value_1 = "460",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3308] = {
-		base = 3300,
 		id = 3308,
 		value_1 = "490",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3309] = {
-		base = 3300,
 		id = 3309,
 		value_1 = "520",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3310] = {
-		base = 3300,
 		id = 3310,
 		value_1 = "550",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3311] = {
-		anti_siren = 100,
-		base = 3300,
 		id = 3311,
+		anti_siren = 100,
 		value_1 = "580",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3312] = {
-		anti_siren = 200,
-		base = 3300,
 		id = 3312,
+		anti_siren = 200,
 		value_1 = "610",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3313] = {
-		anti_siren = 300,
-		base = 3300,
 		id = 3313,
+		anti_siren = 300,
 		value_1 = "640",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3300
 	},
 	[3400] = {
 		name = "九四式四十糎砲(積載)",
@@ -12310,98 +10674,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3401] = {
-		base = 3400,
 		id = 3401,
 		value_1 = "480",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3402] = {
-		base = 3400,
 		id = 3402,
 		value_1 = "510",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3403] = {
-		base = 3400,
 		id = 3403,
 		value_1 = "540",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3404] = {
-		base = 3400,
 		id = 3404,
 		value_1 = "570",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3405] = {
-		base = 3400,
 		id = 3405,
 		value_1 = "600",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3406] = {
-		base = 3400,
 		id = 3406,
 		value_1 = "630",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3407] = {
-		base = 3400,
 		id = 3407,
 		value_1 = "660",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3408] = {
-		base = 3400,
 		id = 3408,
 		value_1 = "690",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3409] = {
-		base = 3400,
 		id = 3409,
 		value_1 = "720",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3410] = {
-		base = 3400,
 		id = 3410,
 		value_1 = "750",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3411] = {
-		anti_siren = 100,
-		base = 3400,
 		id = 3411,
+		anti_siren = 100,
 		value_1 = "780",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3412] = {
-		anti_siren = 200,
-		base = 3400,
 		id = 3412,
+		anti_siren = 200,
 		value_1 = "810",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3413] = {
-		anti_siren = 300,
-		base = 3400,
 		id = 3413,
+		anti_siren = 300,
 		value_1 = "840",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3400
 	},
 	[3500] = {
 		name = "航空戦資材(積載)",
@@ -12441,82 +10779,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3501] = {
-		base = 3500,
 		id = 3501,
 		value_1 = "280",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3502] = {
-		base = 3500,
 		id = 3502,
 		value_1 = "310",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3503] = {
-		base = 3500,
 		id = 3503,
 		value_1 = "340",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3504] = {
-		base = 3500,
 		id = 3504,
 		value_1 = "370",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3505] = {
-		base = 3500,
 		id = 3505,
 		value_1 = "400",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3506] = {
-		base = 3500,
 		id = 3506,
 		value_1 = "430",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3507] = {
-		base = 3500,
 		id = 3507,
 		value_1 = "460",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3508] = {
-		base = 3500,
 		id = 3508,
 		value_1 = "490",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3509] = {
-		base = 3500,
 		id = 3509,
 		value_1 = "520",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3510] = {
-		base = 3500,
 		id = 3510,
 		value_1 = "550",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3511] = {
-		anti_siren = 100,
-		base = 3500,
 		id = 3511,
+		anti_siren = 100,
 		value_1 = "580",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3500
 	},
 	[3520] = {
 		name = "小口径主砲砲戦資材(積載)",
@@ -12556,82 +10872,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3521] = {
-		base = 3520,
 		id = 3521,
 		value_1 = "280",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3522] = {
-		base = 3520,
 		id = 3522,
 		value_1 = "310",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3523] = {
-		base = 3520,
 		id = 3523,
 		value_1 = "340",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3524] = {
-		base = 3520,
 		id = 3524,
 		value_1 = "370",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3525] = {
-		base = 3520,
 		id = 3525,
 		value_1 = "400",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3526] = {
-		base = 3520,
 		id = 3526,
 		value_1 = "430",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3527] = {
-		base = 3520,
 		id = 3527,
 		value_1 = "460",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3528] = {
-		base = 3520,
 		id = 3528,
 		value_1 = "490",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3529] = {
-		base = 3520,
 		id = 3529,
 		value_1 = "520",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3530] = {
-		base = 3520,
 		id = 3530,
 		value_1 = "550",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3531] = {
-		anti_siren = 100,
-		base = 3520,
 		id = 3531,
+		anti_siren = 100,
 		value_1 = "580",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3520
 	},
 	[3540] = {
 		name = "雷撃戦資材(積載)",
@@ -12671,82 +10965,60 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3541] = {
-		base = 3540,
 		id = 3541,
 		value_1 = "280",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3542] = {
-		base = 3540,
 		id = 3542,
 		value_1 = "310",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3543] = {
-		base = 3540,
 		id = 3543,
 		value_1 = "340",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3544] = {
-		base = 3540,
 		id = 3544,
 		value_1 = "370",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3545] = {
-		base = 3540,
 		id = 3545,
 		value_1 = "400",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3546] = {
-		base = 3540,
 		id = 3546,
 		value_1 = "430",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3547] = {
-		base = 3540,
 		id = 3547,
 		value_1 = "460",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3548] = {
-		base = 3540,
 		id = 3548,
 		value_1 = "490",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3549] = {
-		base = 3540,
 		id = 3549,
 		value_1 = "520",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3550] = {
-		base = 3540,
 		id = 3550,
 		value_1 = "550",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[3551] = {
-		anti_siren = 100,
-		base = 3540,
 		id = 3551,
+		anti_siren = 100,
 		value_1 = "580",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 3540
 	},
 	[4000] = {
 		name = "従来型爆雷投射機",
@@ -12797,31 +11069,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4001] = {
+		id = 4001,
 		damage = "17 x 3",
 		base = 4000,
-		id = 4001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4001
 		}
 	},
 	[4002] = {
+		id = 4002,
 		damage = "18 x 3",
 		base = 4000,
-		id = 4002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4002
 		}
 	},
 	[4003] = {
+		id = 4003,
 		damage = "20 x 3",
 		base = 4000,
-		id = 4003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4003
 		}
@@ -12876,31 +11142,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4021] = {
+		id = 4021,
 		damage = "20 x 3",
 		base = 4020,
-		id = 4021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4021
 		}
 	},
 	[4022] = {
+		id = 4022,
 		damage = "22 x 3",
 		base = 4020,
-		id = 4022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4022
 		}
 	},
 	[4023] = {
+		id = 4023,
 		damage = "24 x 3",
 		base = 4020,
-		id = 4023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4023
 		}
@@ -12955,71 +11215,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4041] = {
+		id = 4041,
 		damage = "24 x 3",
 		base = 4040,
-		id = 4041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4041
 		}
 	},
 	[4042] = {
+		id = 4042,
 		damage = "26 x 3",
 		base = 4040,
-		id = 4042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4042
 		}
 	},
 	[4043] = {
+		id = 4043,
 		damage = "29 x 3",
 		base = 4040,
-		id = 4043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4043
 		}
 	},
 	[4044] = {
+		id = 4044,
 		damage = "31 x 3",
 		base = 4040,
-		id = 4044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4044
 		}
 	},
 	[4045] = {
+		id = 4045,
 		damage = "34 x 3",
 		base = 4040,
-		id = 4045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4045
 		}
 	},
 	[4046] = {
+		id = 4046,
 		damage = "37 x 3",
 		base = 4040,
-		id = 4046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4046
 		}
 	},
 	[4047] = {
+		id = 4047,
 		damage = "37 x 3",
 		base = 4040,
-		id = 4047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4047
 		}
@@ -13074,31 +11320,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4101] = {
+		id = 4101,
 		damage = "22 x 3",
 		base = 4100,
-		id = 4101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4101
 		}
 	},
 	[4102] = {
+		id = 4102,
 		damage = "24 x 3",
 		base = 4100,
-		id = 4102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4102
 		}
 	},
 	[4103] = {
+		id = 4103,
 		damage = "26 x 3",
 		base = 4100,
-		id = 4103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4103
 		}
@@ -13153,61 +11393,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4121] = {
+		id = 4121,
 		damage = "26 x 3",
 		base = 4120,
-		id = 4121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4121
 		}
 	},
 	[4122] = {
+		id = 4122,
 		damage = "28 x 3",
 		base = 4120,
-		id = 4122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4122
 		}
 	},
 	[4123] = {
+		id = 4123,
 		damage = "30 x 3",
 		base = 4120,
-		id = 4123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4123
 		}
 	},
 	[4124] = {
+		id = 4124,
 		damage = "33 x 3",
 		base = 4120,
-		id = 4124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4124
 		}
 	},
 	[4125] = {
+		id = 4125,
 		damage = "36 x 3",
 		base = 4120,
-		id = 4125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4125
 		}
 	},
 	[4126] = {
+		id = 4126,
 		damage = "39 x 3",
 		base = 4120,
-		id = 4126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4126
 		}
@@ -13262,101 +11490,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4141] = {
+		id = 4141,
 		damage = "30 x 3",
 		base = 4140,
-		id = 4141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4141
 		}
 	},
 	[4142] = {
+		id = 4142,
 		damage = "33 x 3",
 		base = 4140,
-		id = 4142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4142
 		}
 	},
 	[4143] = {
+		id = 4143,
 		damage = "36 x 3",
 		base = 4140,
-		id = 4143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4143
 		}
 	},
 	[4144] = {
+		id = 4144,
 		damage = "39 x 3",
 		base = 4140,
-		id = 4144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4144
 		}
 	},
 	[4145] = {
+		id = 4145,
 		damage = "42 x 3",
 		base = 4140,
-		id = 4145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4145
 		}
 	},
 	[4146] = {
+		id = 4146,
 		damage = "45 x 3",
 		base = 4140,
-		id = 4146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4146
 		}
 	},
 	[4147] = {
+		id = 4147,
 		damage = "49 x 3",
 		base = 4140,
-		id = 4147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4147
 		}
 	},
 	[4148] = {
+		id = 4148,
 		damage = "53 x 3",
 		base = 4140,
-		id = 4148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4148
 		}
 	},
 	[4149] = {
+		id = 4149,
 		damage = "57 x 3",
 		base = 4140,
-		id = 4149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4149
 		}
 	},
 	[4150] = {
+		id = 4150,
 		damage = "61 x 3",
 		base = 4140,
-		id = 4150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4150
 		}
@@ -13366,8 +11574,6 @@ pg.equip_data_statistics = {
 		damage = "61 x 3",
 		base = 4140,
 		id = 4151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			4151
 		}
@@ -13417,10 +11623,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4201] = {
-		base = 4200,
 		id = 4201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4200,
 		ammo_info = {
 			{
 				8,
@@ -13432,10 +11636,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4202] = {
-		base = 4200,
 		id = 4202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4200,
 		ammo_info = {
 			{
 				8,
@@ -13447,10 +11649,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4203] = {
-		base = 4200,
 		id = 4203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4200,
 		ammo_info = {
 			{
 				8,
@@ -13506,10 +11706,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4221] = {
-		base = 4220,
 		id = 4221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4220,
 		ammo_info = {
 			{
 				8,
@@ -13521,10 +11719,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4222] = {
-		base = 4220,
 		id = 4222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4220,
 		ammo_info = {
 			{
 				8,
@@ -13536,10 +11732,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4223] = {
-		base = 4220,
 		id = 4223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4220,
 		ammo_info = {
 			{
 				8,
@@ -13551,10 +11745,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4224] = {
-		base = 4220,
 		id = 4224,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4220,
 		ammo_info = {
 			{
 				8,
@@ -13566,10 +11758,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4225] = {
-		base = 4220,
 		id = 4225,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4220,
 		ammo_info = {
 			{
 				8,
@@ -13581,10 +11771,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4226] = {
-		base = 4220,
 		id = 4226,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4220,
 		ammo_info = {
 			{
 				8,
@@ -13640,10 +11828,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4241] = {
-		base = 4240,
 		id = 4241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13655,10 +11841,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4242] = {
-		base = 4240,
 		id = 4242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13670,10 +11854,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4243] = {
-		base = 4240,
 		id = 4243,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13685,10 +11867,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4244] = {
-		base = 4240,
 		id = 4244,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13700,10 +11880,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4245] = {
-		base = 4240,
 		id = 4245,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13715,10 +11893,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4246] = {
-		base = 4240,
 		id = 4246,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13730,10 +11906,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4247] = {
-		base = 4240,
 		id = 4247,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13745,10 +11919,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4248] = {
-		base = 4240,
 		id = 4248,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13760,10 +11932,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4249] = {
-		base = 4240,
 		id = 4249,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13775,10 +11945,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4250] = {
-		base = 4240,
 		id = 4250,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4240,
 		ammo_info = {
 			{
 				8,
@@ -13793,8 +11961,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 4240,
 		id = 4251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				8,
@@ -13850,10 +12016,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4301] = {
-		base = 4300,
 		id = 4301,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4300,
 		ammo_info = {
 			{
 				8,
@@ -13865,10 +12029,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4302] = {
-		base = 4300,
 		id = 4302,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4300,
 		ammo_info = {
 			{
 				8,
@@ -13880,10 +12042,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4303] = {
-		base = 4300,
 		id = 4303,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4300,
 		ammo_info = {
 			{
 				8,
@@ -13939,10 +12099,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4321] = {
-		base = 4320,
 		id = 4321,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4320,
 		ammo_info = {
 			{
 				8,
@@ -13954,10 +12112,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4322] = {
-		base = 4320,
 		id = 4322,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4320,
 		ammo_info = {
 			{
 				8,
@@ -13969,10 +12125,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4323] = {
-		base = 4320,
 		id = 4323,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4320,
 		ammo_info = {
 			{
 				8,
@@ -13984,10 +12138,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4324] = {
-		base = 4320,
 		id = 4324,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4320,
 		ammo_info = {
 			{
 				8,
@@ -13999,10 +12151,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4325] = {
-		base = 4320,
 		id = 4325,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4320,
 		ammo_info = {
 			{
 				8,
@@ -14014,10 +12164,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4326] = {
-		base = 4320,
 		id = 4326,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4320,
 		ammo_info = {
 			{
 				8,
@@ -14073,10 +12221,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4341] = {
-		base = 4340,
 		id = 4341,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14088,10 +12234,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4342] = {
-		base = 4340,
 		id = 4342,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14103,10 +12247,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4343] = {
-		base = 4340,
 		id = 4343,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14118,10 +12260,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4344] = {
-		base = 4340,
 		id = 4344,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14133,10 +12273,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4345] = {
-		base = 4340,
 		id = 4345,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14148,10 +12286,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4346] = {
-		base = 4340,
 		id = 4346,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14163,10 +12299,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4347] = {
-		base = 4340,
 		id = 4347,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14178,10 +12312,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4348] = {
-		base = 4340,
 		id = 4348,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14193,10 +12325,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4349] = {
-		base = 4340,
 		id = 4349,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14208,10 +12338,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4350] = {
-		base = 4340,
 		id = 4350,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 4340,
 		ammo_info = {
 			{
 				8,
@@ -14226,8 +12354,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 4340,
 		id = 4351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				8,
@@ -14300,31 +12426,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5001] = {
+		id = 5001,
 		damage = "54 x 3",
 		base = 5000,
-		id = 5001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5001
 		}
 	},
 	[5002] = {
+		id = 5002,
 		damage = "62 x 3",
 		base = 5000,
-		id = 5002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5002
 		}
 	},
 	[5003] = {
+		id = 5003,
 		damage = "70 x 3",
 		base = 5000,
-		id = 5003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5003
 		}
@@ -14392,31 +12512,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5021] = {
+		id = 5021,
 		damage = "59 x 3",
 		base = 5020,
-		id = 5021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5021
 		}
 	},
 	[5022] = {
+		id = 5022,
 		damage = "68 x 3",
 		base = 5020,
-		id = 5022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5022
 		}
 	},
 	[5023] = {
+		id = 5023,
 		damage = "77 x 3",
 		base = 5020,
-		id = 5023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5023
 		}
@@ -14484,71 +12598,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5041] = {
+		id = 5041,
 		damage = "66 x 3",
 		base = 5040,
-		id = 5041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5041
 		}
 	},
 	[5042] = {
+		id = 5042,
 		damage = "76 x 3",
 		base = 5040,
-		id = 5042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5042
 		}
 	},
 	[5043] = {
+		id = 5043,
 		damage = "86 x 3",
 		base = 5040,
-		id = 5043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5043
 		}
 	},
 	[5044] = {
+		id = 5044,
 		damage = "96 x 3",
 		base = 5040,
-		id = 5044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5044
 		}
 	},
 	[5045] = {
+		id = 5045,
 		damage = "106 x 3",
 		base = 5040,
-		id = 5045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5045
 		}
 	},
 	[5046] = {
+		id = 5046,
 		damage = "116 x 3",
 		base = 5040,
-		id = 5046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5046
 		}
 	},
 	[5047] = {
+		id = 5047,
 		damage = "116 x 3",
 		base = 5040,
-		id = 5047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5047
 		}
@@ -14616,31 +12716,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5101] = {
+		id = 5101,
 		damage = "54 x 4",
 		base = 5100,
-		id = 5101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5101
 		}
 	},
 	[5102] = {
+		id = 5102,
 		damage = "62 x 4",
 		base = 5100,
-		id = 5102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5102
 		}
 	},
 	[5103] = {
+		id = 5103,
 		damage = "70 x 4",
 		base = 5100,
-		id = 5103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5103
 		}
@@ -14708,61 +12802,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5121] = {
+		id = 5121,
 		damage = "59 x 4",
 		base = 5120,
-		id = 5121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5121
 		}
 	},
 	[5122] = {
+		id = 5122,
 		damage = "68 x 4",
 		base = 5120,
-		id = 5122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5122
 		}
 	},
 	[5123] = {
+		id = 5123,
 		damage = "77 x 4",
 		base = 5120,
-		id = 5123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5123
 		}
 	},
 	[5124] = {
+		id = 5124,
 		damage = "86 x 4",
 		base = 5120,
-		id = 5124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5124
 		}
 	},
 	[5125] = {
+		id = 5125,
 		damage = "95 x 4",
 		base = 5120,
-		id = 5125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5125
 		}
 	},
 	[5126] = {
+		id = 5126,
 		damage = "104 x 4",
 		base = 5120,
-		id = 5126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5126
 		}
@@ -14830,101 +12912,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5141] = {
+		id = 5141,
 		damage = "66 x 4",
 		base = 5140,
-		id = 5141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5141
 		}
 	},
 	[5142] = {
+		id = 5142,
 		damage = "76 x 4",
 		base = 5140,
-		id = 5142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5142
 		}
 	},
 	[5143] = {
+		id = 5143,
 		damage = "86 x 4",
 		base = 5140,
-		id = 5143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5143
 		}
 	},
 	[5144] = {
+		id = 5144,
 		damage = "96 x 4",
 		base = 5140,
-		id = 5144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5144
 		}
 	},
 	[5145] = {
+		id = 5145,
 		damage = "106 x 4",
 		base = 5140,
-		id = 5145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5145
 		}
 	},
 	[5146] = {
+		id = 5146,
 		damage = "116 x 4",
 		base = 5140,
-		id = 5146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5146
 		}
 	},
 	[5147] = {
+		id = 5147,
 		damage = "126 x 4",
 		base = 5140,
-		id = 5147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5147
 		}
 	},
 	[5148] = {
+		id = 5148,
 		damage = "136 x 4",
 		base = 5140,
-		id = 5148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5148
 		}
 	},
 	[5149] = {
+		id = 5149,
 		damage = "146 x 4",
 		base = 5140,
-		id = 5149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5149
 		}
 	},
 	[5150] = {
+		id = 5150,
 		damage = "156 x 4",
 		base = 5140,
-		id = 5150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5150
 		}
@@ -14934,8 +12996,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 4",
 		base = 5140,
 		id = 5151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5151
 		}
@@ -15003,61 +13063,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5201] = {
+		id = 5201,
 		damage = "54 x 5",
 		base = 5200,
-		id = 5201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5201
 		}
 	},
 	[5202] = {
+		id = 5202,
 		damage = "62 x 5",
 		base = 5200,
-		id = 5202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5202
 		}
 	},
 	[5203] = {
+		id = 5203,
 		damage = "70 x 5",
 		base = 5200,
-		id = 5203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5203
 		}
 	},
 	[5204] = {
+		id = 5204,
 		damage = "78 x 5",
 		base = 5200,
-		id = 5204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5204
 		}
 	},
 	[5205] = {
+		id = 5205,
 		damage = "86 x 5",
 		base = 5200,
-		id = 5205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5205
 		}
 	},
 	[5206] = {
+		id = 5206,
 		damage = "94 x 5",
 		base = 5200,
-		id = 5206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5206
 		}
@@ -15125,101 +13173,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5221] = {
+		id = 5221,
 		damage = "59 x 5",
 		base = 5220,
-		id = 5221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5221
 		}
 	},
 	[5222] = {
+		id = 5222,
 		damage = "68 x 5",
 		base = 5220,
-		id = 5222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5222
 		}
 	},
 	[5223] = {
+		id = 5223,
 		damage = "77 x 5",
 		base = 5220,
-		id = 5223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5223
 		}
 	},
 	[5224] = {
+		id = 5224,
 		damage = "86 x 5",
 		base = 5220,
-		id = 5224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5224
 		}
 	},
 	[5225] = {
+		id = 5225,
 		damage = "95 x 5",
 		base = 5220,
-		id = 5225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5225
 		}
 	},
 	[5226] = {
+		id = 5226,
 		damage = "104 x 5",
 		base = 5220,
-		id = 5226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5226
 		}
 	},
 	[5227] = {
+		id = 5227,
 		damage = "113 x 5",
 		base = 5220,
-		id = 5227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5227
 		}
 	},
 	[5228] = {
+		id = 5228,
 		damage = "122 x 5",
 		base = 5220,
-		id = 5228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5228
 		}
 	},
 	[5229] = {
+		id = 5229,
 		damage = "131 x 5",
 		base = 5220,
-		id = 5229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5229
 		}
 	},
 	[5230] = {
+		id = 5230,
 		damage = "140 x 5",
 		base = 5220,
-		id = 5230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5230
 		}
@@ -15287,101 +13315,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5241] = {
+		id = 5241,
 		damage = "66 x 5",
 		base = 5240,
-		id = 5241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5241
 		}
 	},
 	[5242] = {
+		id = 5242,
 		damage = "76 x 5",
 		base = 5240,
-		id = 5242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5242
 		}
 	},
 	[5243] = {
+		id = 5243,
 		damage = "86 x 5",
 		base = 5240,
-		id = 5243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5243
 		}
 	},
 	[5244] = {
+		id = 5244,
 		damage = "96 x 5",
 		base = 5240,
-		id = 5244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5244
 		}
 	},
 	[5245] = {
+		id = 5245,
 		damage = "106 x 5",
 		base = 5240,
-		id = 5245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5245
 		}
 	},
 	[5246] = {
+		id = 5246,
 		damage = "116 x 5",
 		base = 5240,
-		id = 5246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5246
 		}
 	},
 	[5247] = {
+		id = 5247,
 		damage = "126 x 5",
 		base = 5240,
-		id = 5247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5247
 		}
 	},
 	[5248] = {
+		id = 5248,
 		damage = "136 x 5",
 		base = 5240,
-		id = 5248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5248
 		}
 	},
 	[5249] = {
+		id = 5249,
 		damage = "146 x 5",
 		base = 5240,
-		id = 5249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5249
 		}
 	},
 	[5250] = {
+		id = 5250,
 		damage = "156 x 5",
 		base = 5240,
-		id = 5250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5250
 		}
@@ -15391,8 +13399,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 5",
 		base = 5240,
 		id = 5251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5251
 		}
@@ -15402,8 +13408,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 5",
 		base = 5240,
 		id = 5252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5252
 		}
@@ -15413,8 +13417,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 5",
 		base = 5240,
 		id = 5253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5253
 		}
@@ -15481,31 +13483,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5301] = {
+		id = 5301,
 		damage = "49 x 2",
 		base = 5300,
-		id = 5301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5301
 		}
 	},
 	[5302] = {
+		id = 5302,
 		damage = "57 x 2",
 		base = 5300,
-		id = 5302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5302
 		}
 	},
 	[5303] = {
+		id = 5303,
 		damage = "65 x 2",
 		base = 5300,
-		id = 5303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5303
 		}
@@ -15573,31 +13569,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5321] = {
+		id = 5321,
 		damage = "55 x 2",
 		base = 5320,
-		id = 5321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5321
 		}
 	},
 	[5322] = {
+		id = 5322,
 		damage = "63 x 2",
 		base = 5320,
-		id = 5322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5322
 		}
 	},
 	[5323] = {
+		id = 5323,
 		damage = "72 x 2",
 		base = 5320,
-		id = 5323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5323
 		}
@@ -15665,71 +13655,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5341] = {
+		id = 5341,
 		damage = "61 x 2",
 		base = 5340,
-		id = 5341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5341
 		}
 	},
 	[5342] = {
+		id = 5342,
 		damage = "70 x 2",
 		base = 5340,
-		id = 5342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5342
 		}
 	},
 	[5343] = {
+		id = 5343,
 		damage = "79 x 2",
 		base = 5340,
-		id = 5343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5343
 		}
 	},
 	[5344] = {
+		id = 5344,
 		damage = "88 x 2",
 		base = 5340,
-		id = 5344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5344
 		}
 	},
 	[5345] = {
+		id = 5345,
 		damage = "98 x 2",
 		base = 5340,
-		id = 5345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5345
 		}
 	},
 	[5346] = {
+		id = 5346,
 		damage = "108 x 2",
 		base = 5340,
-		id = 5346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5346
 		}
 	},
 	[5347] = {
+		id = 5347,
 		damage = "108 x 2",
 		base = 5340,
-		id = 5347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5347
 		}
@@ -15797,31 +13773,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5401] = {
+		id = 5401,
 		damage = "55 x 3",
 		base = 5400,
-		id = 5401,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5401
 		}
 	},
 	[5402] = {
+		id = 5402,
 		damage = "63 x 3",
 		base = 5400,
-		id = 5402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5402
 		}
 	},
 	[5403] = {
+		id = 5403,
 		damage = "72 x 3",
 		base = 5400,
-		id = 5403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5403
 		}
@@ -15889,61 +13859,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5421] = {
+		id = 5421,
 		damage = "61 x 3",
 		base = 5420,
-		id = 5421,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5421
 		}
 	},
 	[5422] = {
+		id = 5422,
 		damage = "70 x 3",
 		base = 5420,
-		id = 5422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5422
 		}
 	},
 	[5423] = {
+		id = 5423,
 		damage = "79 x 3",
 		base = 5420,
-		id = 5423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5423
 		}
 	},
 	[5424] = {
+		id = 5424,
 		damage = "88 x 3",
 		base = 5420,
-		id = 5424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5424
 		}
 	},
 	[5425] = {
+		id = 5425,
 		damage = "98 x 3",
 		base = 5420,
-		id = 5425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5425
 		}
 	},
 	[5426] = {
+		id = 5426,
 		damage = "108 x 3",
 		base = 5420,
-		id = 5426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5426
 		}
@@ -16011,101 +13969,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5441] = {
+		id = 5441,
 		damage = "68 x 3",
 		base = 5440,
-		id = 5441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5441
 		}
 	},
 	[5442] = {
+		id = 5442,
 		damage = "78 x 3",
 		base = 5440,
-		id = 5442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5442
 		}
 	},
 	[5443] = {
+		id = 5443,
 		damage = "88 x 3",
 		base = 5440,
-		id = 5443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5443
 		}
 	},
 	[5444] = {
+		id = 5444,
 		damage = "98 x 3",
 		base = 5440,
-		id = 5444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5444
 		}
 	},
 	[5445] = {
+		id = 5445,
 		damage = "108 x 3",
 		base = 5440,
-		id = 5445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5445
 		}
 	},
 	[5446] = {
+		id = 5446,
 		damage = "118 x 3",
 		base = 5440,
-		id = 5446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5446
 		}
 	},
 	[5447] = {
+		id = 5447,
 		damage = "129 x 3",
 		base = 5440,
-		id = 5447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5447
 		}
 	},
 	[5448] = {
+		id = 5448,
 		damage = "140 x 3",
 		base = 5440,
-		id = 5448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5448
 		}
 	},
 	[5449] = {
+		id = 5449,
 		damage = "151 x 3",
 		base = 5440,
-		id = 5449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5449
 		}
 	},
 	[5450] = {
+		id = 5450,
 		damage = "162 x 3",
 		base = 5440,
-		id = 5450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5450
 		}
@@ -16115,8 +14053,6 @@ pg.equip_data_statistics = {
 		damage = "162 x 3",
 		base = 5440,
 		id = 5451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5451
 		}
@@ -16181,31 +14117,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5501] = {
+		id = 5501,
 		damage = "50 x 2",
 		base = 5500,
-		id = 5501,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5501
 		}
 	},
 	[5502] = {
+		id = 5502,
 		damage = "56 x 2",
 		base = 5500,
-		id = 5502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5502
 		}
 	},
 	[5503] = {
+		id = 5503,
 		damage = "62 x 2",
 		base = 5500,
-		id = 5503,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5503
 		}
@@ -16270,61 +14200,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5521] = {
+		id = 5521,
 		damage = "56 x 2",
 		base = 5520,
-		id = 5521,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5521
 		}
 	},
 	[5522] = {
+		id = 5522,
 		damage = "63 x 2",
 		base = 5520,
-		id = 5522,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5522
 		}
 	},
 	[5523] = {
+		id = 5523,
 		damage = "70 x 2",
 		base = 5520,
-		id = 5523,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5523
 		}
 	},
 	[5524] = {
+		id = 5524,
 		damage = "77 x 2",
 		base = 5520,
-		id = 5524,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5524
 		}
 	},
 	[5525] = {
+		id = 5525,
 		damage = "84 x 2",
 		base = 5520,
-		id = 5525,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5525
 		}
 	},
 	[5526] = {
+		id = 5526,
 		damage = "91 x 2",
 		base = 5520,
-		id = 5526,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5526
 		}
@@ -16389,101 +14307,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[5541] = {
+		id = 5541,
 		damage = "62 x 2",
 		base = 5540,
-		id = 5541,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5541
 		}
 	},
 	[5542] = {
+		id = 5542,
 		damage = "70 x 2",
 		base = 5540,
-		id = 5542,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5542
 		}
 	},
 	[5543] = {
+		id = 5543,
 		damage = "78 x 2",
 		base = 5540,
-		id = 5543,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5543
 		}
 	},
 	[5544] = {
+		id = 5544,
 		damage = "86 x 2",
 		base = 5540,
-		id = 5544,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5544
 		}
 	},
 	[5545] = {
+		id = 5545,
 		damage = "94 x 2",
 		base = 5540,
-		id = 5545,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5545
 		}
 	},
 	[5546] = {
+		id = 5546,
 		damage = "102 x 2",
 		base = 5540,
-		id = 5546,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5546
 		}
 	},
 	[5547] = {
+		id = 5547,
 		damage = "110 x 2",
 		base = 5540,
-		id = 5547,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5547
 		}
 	},
 	[5548] = {
+		id = 5548,
 		damage = "118 x 2",
 		base = 5540,
-		id = 5548,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5548
 		}
 	},
 	[5549] = {
+		id = 5549,
 		damage = "126 x 2",
 		base = 5540,
-		id = 5549,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5549
 		}
 	},
 	[5550] = {
+		id = 5550,
 		damage = "135 x 2",
 		base = 5540,
-		id = 5550,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5550
 		}
@@ -16493,8 +14391,6 @@ pg.equip_data_statistics = {
 		damage = "135 x 2",
 		base = 5540,
 		id = 5551,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5551
 		}
@@ -16561,31 +14457,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[6001] = {
+		id = 6001,
 		damage = "7/回",
 		base = 6000,
-		id = 6001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6001
 		}
 	},
 	[6002] = {
+		id = 6002,
 		damage = "8/回",
 		base = 6000,
-		id = 6002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6002
 		}
 	},
 	[6003] = {
+		id = 6003,
 		damage = "9/回",
 		base = 6000,
-		id = 6003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6003
 		}
@@ -16653,31 +14543,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[6021] = {
+		id = 6021,
 		damage = "9/回",
 		base = 6020,
-		id = 6021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6021
 		}
 	},
 	[6022] = {
+		id = 6022,
 		damage = "10/回",
 		base = 6020,
-		id = 6022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6022
 		}
 	},
 	[6023] = {
+		id = 6023,
 		damage = "11/回",
 		base = 6020,
-		id = 6023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6023
 		}
@@ -16745,71 +14629,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[6041] = {
+		id = 6041,
 		damage = "9/回",
 		base = 6040,
-		id = 6041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6041
 		}
 	},
 	[6042] = {
+		id = 6042,
 		damage = "10/回",
 		base = 6040,
-		id = 6042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6042
 		}
 	},
 	[6043] = {
+		id = 6043,
 		damage = "11/回",
 		base = 6040,
-		id = 6043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6043
 		}
 	},
 	[6044] = {
+		id = 6044,
 		damage = "12/回",
 		base = 6040,
-		id = 6044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6044
 		}
 	},
 	[6045] = {
+		id = 6045,
 		damage = "13/回",
 		base = 6040,
-		id = 6045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6045
 		}
 	},
 	[6046] = {
+		id = 6046,
 		damage = "15/回",
 		base = 6040,
-		id = 6046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6046
 		}
 	},
 	[6047] = {
+		id = 6047,
 		damage = "15/回",
 		base = 6040,
-		id = 6047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6047
 		}
@@ -16876,31 +14746,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[6101] = {
+		id = 6101,
 		damage = "20/回",
 		base = 6100,
-		id = 6101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6101
 		}
 	},
 	[6102] = {
+		id = 6102,
 		damage = "22/回",
 		base = 6100,
-		id = 6102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6102
 		}
 	},
 	[6103] = {
+		id = 6103,
 		damage = "25/回",
 		base = 6100,
-		id = 6103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6103
 		}
@@ -16968,31 +14832,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[6121] = {
+		id = 6121,
 		damage = "23/回",
 		base = 6120,
-		id = 6121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6121
 		}
 	},
 	[6122] = {
+		id = 6122,
 		damage = "26/回",
 		base = 6120,
-		id = 6122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6122
 		}
 	},
 	[6123] = {
+		id = 6123,
 		damage = "29/回",
 		base = 6120,
-		id = 6123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6123
 		}
@@ -17060,71 +14918,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[6141] = {
+		id = 6141,
 		damage = "25/回",
 		base = 6140,
-		id = 6141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6141
 		}
 	},
 	[6142] = {
+		id = 6142,
 		damage = "28/回",
 		base = 6140,
-		id = 6142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6142
 		}
 	},
 	[6143] = {
+		id = 6143,
 		damage = "32/回",
 		base = 6140,
-		id = 6143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6143
 		}
 	},
 	[6144] = {
+		id = 6144,
 		damage = "36/回",
 		base = 6140,
-		id = 6144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6144
 		}
 	},
 	[6145] = {
+		id = 6145,
 		damage = "40/回",
 		base = 6140,
-		id = 6145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6145
 		}
 	},
 	[6146] = {
+		id = 6146,
 		damage = "44/回",
 		base = 6140,
-		id = 6146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6146
 		}
 	},
 	[6147] = {
+		id = 6147,
 		damage = "44/回",
 		base = 6140,
-		id = 6147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			6147
 		}
@@ -17188,31 +15032,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7001] = {
+		id = 7001,
 		damage = "18 x 3",
 		base = 7000,
-		id = 7001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7001
 		}
 	},
 	[7002] = {
+		id = 7002,
 		damage = "20 x 3",
 		base = 7000,
-		id = 7002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7002
 		}
 	},
 	[7003] = {
+		id = 7003,
 		damage = "22 x 3",
 		base = 7000,
-		id = 7003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7003
 		}
@@ -17277,31 +15115,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7021] = {
+		id = 7021,
 		damage = "20 x 3",
 		base = 7020,
-		id = 7021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7021
 		}
 	},
 	[7022] = {
+		id = 7022,
 		damage = "22 x 3",
 		base = 7020,
-		id = 7022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7022
 		}
 	},
 	[7023] = {
+		id = 7023,
 		damage = "24 x 3",
 		base = 7020,
-		id = 7023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7023
 		}
@@ -17366,71 +15198,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7041] = {
+		id = 7041,
 		damage = "22 x 3",
 		base = 7040,
-		id = 7041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7041
 		}
 	},
 	[7042] = {
+		id = 7042,
 		damage = "24 x 3",
 		base = 7040,
-		id = 7042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7042
 		}
 	},
 	[7043] = {
+		id = 7043,
 		damage = "26 x 3",
 		base = 7040,
-		id = 7043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7043
 		}
 	},
 	[7044] = {
+		id = 7044,
 		damage = "28 x 3",
 		base = 7040,
-		id = 7044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7044
 		}
 	},
 	[7045] = {
+		id = 7045,
 		damage = "32 x 3",
 		base = 7040,
-		id = 7045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7045
 		}
 	},
 	[7046] = {
+		id = 7046,
 		damage = "34 x 3",
 		base = 7040,
-		id = 7046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7046
 		}
 	},
 	[7047] = {
+		id = 7047,
 		damage = "34 x 3",
 		base = 7040,
-		id = 7047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7047
 		}
@@ -17494,31 +15312,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7101] = {
+		id = 7101,
 		damage = "16 x 3",
 		base = 7100,
-		id = 7101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7101
 		}
 	},
 	[7102] = {
+		id = 7102,
 		damage = "18 x 3",
 		base = 7100,
-		id = 7102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7102
 		}
 	},
 	[7103] = {
+		id = 7103,
 		damage = "20 x 3",
 		base = 7100,
-		id = 7103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7103
 		}
@@ -17583,31 +15395,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7121] = {
+		id = 7121,
 		damage = "18 x 3",
 		base = 7120,
-		id = 7121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7121
 		}
 	},
 	[7122] = {
+		id = 7122,
 		damage = "20 x 3",
 		base = 7120,
-		id = 7122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7122
 		}
 	},
 	[7123] = {
+		id = 7123,
 		damage = "22 x 3",
 		base = 7120,
-		id = 7123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7123
 		}
@@ -17672,71 +15478,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7141] = {
+		id = 7141,
 		damage = "20 x 3",
 		base = 7140,
-		id = 7141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7141
 		}
 	},
 	[7142] = {
+		id = 7142,
 		damage = "22 x 3",
 		base = 7140,
-		id = 7142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7142
 		}
 	},
 	[7143] = {
+		id = 7143,
 		damage = "24 x 3",
 		base = 7140,
-		id = 7143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7143
 		}
 	},
 	[7144] = {
+		id = 7144,
 		damage = "26 x 3",
 		base = 7140,
-		id = 7144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7144
 		}
 	},
 	[7145] = {
+		id = 7145,
 		damage = "28 x 3",
 		base = 7140,
-		id = 7145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7145
 		}
 	},
 	[7146] = {
+		id = 7146,
 		damage = "32 x 3",
 		base = 7140,
-		id = 7146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7146
 		}
 	},
 	[7147] = {
+		id = 7147,
 		damage = "32 x 3",
 		base = 7140,
-		id = 7147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7147
 		}
@@ -17808,31 +15600,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7201] = {
+		id = 7201,
 		damage = "5 x 3",
 		base = 7200,
-		id = 7201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7201
 		}
 	},
 	[7202] = {
+		id = 7202,
 		damage = "6 x 3",
 		base = 7200,
-		id = 7202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7202
 		}
 	},
 	[7203] = {
+		id = 7203,
 		damage = "7 x 3",
 		base = 7200,
-		id = 7203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7203
 		}
@@ -17904,61 +15690,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7221] = {
+		id = 7221,
 		damage = "6 x 3",
 		base = 7220,
-		id = 7221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7221
 		}
 	},
 	[7222] = {
+		id = 7222,
 		damage = "7 x 3",
 		base = 7220,
-		id = 7222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7222
 		}
 	},
 	[7223] = {
+		id = 7223,
 		damage = "8 x 3",
 		base = 7220,
-		id = 7223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7223
 		}
 	},
 	[7224] = {
+		id = 7224,
 		damage = "9 x 3",
 		base = 7220,
-		id = 7224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7224
 		}
 	},
 	[7225] = {
+		id = 7225,
 		damage = "10 x 3",
 		base = 7220,
-		id = 7225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7225
 		}
 	},
 	[7226] = {
+		id = 7226,
 		damage = "12 x 3",
 		base = 7220,
-		id = 7226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7226
 		}
@@ -18031,101 +15805,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7241] = {
+		id = 7241,
 		damage = "7 x 3",
 		base = 7240,
-		id = 7241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7241
 		}
 	},
 	[7242] = {
+		id = 7242,
 		damage = "8 x 3",
 		base = 7240,
-		id = 7242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7242
 		}
 	},
 	[7243] = {
+		id = 7243,
 		damage = "9 x 3",
 		base = 7240,
-		id = 7243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7243
 		}
 	},
 	[7244] = {
+		id = 7244,
 		damage = "10 x 3",
 		base = 7240,
-		id = 7244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7244
 		}
 	},
 	[7245] = {
+		id = 7245,
 		damage = "11 x 3",
 		base = 7240,
-		id = 7245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7245
 		}
 	},
 	[7246] = {
+		id = 7246,
 		damage = "12 x 3",
 		base = 7240,
-		id = 7246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7246
 		}
 	},
 	[7247] = {
+		id = 7247,
 		damage = "13 x 3",
 		base = 7240,
-		id = 7247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7247
 		}
 	},
 	[7248] = {
+		id = 7248,
 		damage = "14 x 3",
 		base = 7240,
-		id = 7248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7248
 		}
 	},
 	[7249] = {
+		id = 7249,
 		damage = "15 x 3",
 		base = 7240,
-		id = 7249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7249
 		}
 	},
 	[7250] = {
+		id = 7250,
 		damage = "17 x 3",
 		base = 7240,
-		id = 7250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7250
 		}
@@ -18135,8 +15889,6 @@ pg.equip_data_statistics = {
 		damage = "17 x 3",
 		base = 7240,
 		id = 7251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7251
 		}
@@ -18201,101 +15953,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7301] = {
+		id = 7301,
 		damage = "32 x 3",
 		base = 7300,
-		id = 7301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7301
 		}
 	},
 	[7302] = {
+		id = 7302,
 		damage = "34 x 3",
 		base = 7300,
-		id = 7302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7302
 		}
 	},
 	[7303] = {
+		id = 7303,
 		damage = "36 x 3",
 		base = 7300,
-		id = 7303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7303
 		}
 	},
 	[7304] = {
+		id = 7304,
 		damage = "38 x 3",
 		base = 7300,
-		id = 7304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7304
 		}
 	},
 	[7305] = {
+		id = 7305,
 		damage = "40 x 3",
 		base = 7300,
-		id = 7305,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7305
 		}
 	},
 	[7306] = {
+		id = 7306,
 		damage = "42 x 3",
 		base = 7300,
-		id = 7306,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7306
 		}
 	},
 	[7307] = {
+		id = 7307,
 		damage = "44 x 3",
 		base = 7300,
-		id = 7307,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7307
 		}
 	},
 	[7308] = {
+		id = 7308,
 		damage = "46 x 3",
 		base = 7300,
-		id = 7308,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7308
 		}
 	},
 	[7309] = {
+		id = 7309,
 		damage = "49 x 3",
 		base = 7300,
-		id = 7309,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7309
 		}
 	},
 	[7310] = {
+		id = 7310,
 		damage = "52 x 3",
 		base = 7300,
-		id = 7310,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7310
 		}
@@ -18305,8 +16037,6 @@ pg.equip_data_statistics = {
 		damage = "52 x 3",
 		base = 7300,
 		id = 7311,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7311
 		}
@@ -18316,8 +16046,6 @@ pg.equip_data_statistics = {
 		damage = "52 x 3",
 		base = 7300,
 		id = 7312,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7312
 		}
@@ -18327,8 +16055,6 @@ pg.equip_data_statistics = {
 		damage = "52 x 3",
 		base = 7300,
 		id = 7313,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7313
 		}
@@ -18400,71 +16126,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7321] = {
+		id = 7321,
 		damage = "5 x 4",
 		base = 7320,
-		id = 7321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7321
 		}
 	},
 	[7322] = {
+		id = 7322,
 		damage = "6 x 4",
 		base = 7320,
-		id = 7322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7322
 		}
 	},
 	[7323] = {
+		id = 7323,
 		damage = "7 x 4",
 		base = 7320,
-		id = 7323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7323
 		}
 	},
 	[7324] = {
+		id = 7324,
 		damage = "8 x 4",
 		base = 7320,
-		id = 7324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7324
 		}
 	},
 	[7325] = {
+		id = 7325,
 		damage = "9 x 4",
 		base = 7320,
-		id = 7325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7325
 		}
 	},
 	[7326] = {
+		id = 7326,
 		damage = "10 x 4",
 		base = 7320,
-		id = 7326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7326
 		}
 	},
 	[7327] = {
+		id = 7327,
 		damage = "10 x 4",
 		base = 7320,
-		id = 7327,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7327
 		}
@@ -18529,71 +16241,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[7341] = {
+		id = 7341,
 		damage = "24 x 4",
 		base = 7340,
-		id = 7341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7341
 		}
 	},
 	[7342] = {
+		id = 7342,
 		damage = "26 x 4",
 		base = 7340,
-		id = 7342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7342
 		}
 	},
 	[7343] = {
+		id = 7343,
 		damage = "28 x 4",
 		base = 7340,
-		id = 7343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7343
 		}
 	},
 	[7344] = {
+		id = 7344,
 		damage = "30 x 4",
 		base = 7340,
-		id = 7344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7344
 		}
 	},
 	[7345] = {
+		id = 7345,
 		damage = "32 x 4",
 		base = 7340,
-		id = 7345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7345
 		}
 	},
 	[7346] = {
+		id = 7346,
 		damage = "34 x 4",
 		base = 7340,
-		id = 7346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7346
 		}
 	},
 	[7347] = {
+		id = 7347,
 		damage = "34 x 4",
 		base = 7340,
-		id = 7347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			7347
 		}
@@ -18664,30 +16362,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11001] = {
-		base = 11000,
 		id = 11001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11000,
 		weapon_id = {
 			11001
 		}
 	},
 	[11002] = {
+		id = 11002,
 		damage = "4 x 1",
 		base = 11000,
-		id = 11002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11002
 		}
 	},
 	[11003] = {
+		id = 11003,
 		damage = "4 x 1",
 		base = 11000,
-		id = 11003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11003
 		}
@@ -18759,30 +16451,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11021] = {
-		base = 11020,
 		id = 11021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11020,
 		weapon_id = {
 			11021
 		}
 	},
 	[11022] = {
+		id = 11022,
 		damage = "4 x 1",
 		base = 11020,
-		id = 11022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11022
 		}
 	},
 	[11023] = {
+		id = 11023,
 		damage = "4 x 1",
 		base = 11020,
-		id = 11023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11023
 		}
@@ -18854,70 +16540,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11041] = {
-		base = 11040,
 		id = 11041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11040,
 		weapon_id = {
 			11041
 		}
 	},
 	[11042] = {
+		id = 11042,
 		damage = "4 x 1",
 		base = 11040,
-		id = 11042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11042
 		}
 	},
 	[11043] = {
+		id = 11043,
 		damage = "4 x 1",
 		base = 11040,
-		id = 11043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11043
 		}
 	},
 	[11044] = {
+		id = 11044,
 		damage = "5 x 1",
 		base = 11040,
-		id = 11044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11044
 		}
 	},
 	[11045] = {
+		id = 11045,
 		damage = "5 x 1",
 		base = 11040,
-		id = 11045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11045
 		}
 	},
 	[11046] = {
+		id = 11046,
 		damage = "7 x 1",
 		base = 11040,
-		id = 11046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11046
 		}
 	},
 	[11047] = {
+		id = 11047,
 		damage = "7 x 1",
 		base = 11040,
-		id = 11047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11047
 		}
@@ -18989,70 +16661,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11061] = {
-		base = 11060,
 		id = 11061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11060,
 		weapon_id = {
 			11061
 		}
 	},
 	[11062] = {
+		id = 11062,
 		damage = "4 x 2",
 		base = 11060,
-		id = 11062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11062
 		}
 	},
 	[11063] = {
+		id = 11063,
 		damage = "6 x 2",
 		base = 11060,
-		id = 11063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11063
 		}
 	},
 	[11064] = {
+		id = 11064,
 		damage = "8 x 2",
 		base = 11060,
-		id = 11064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11064
 		}
 	},
 	[11065] = {
+		id = 11065,
 		damage = "10 x 2",
 		base = 11060,
-		id = 11065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11065
 		}
 	},
 	[11066] = {
+		id = 11066,
 		damage = "12 x 2",
 		base = 11060,
-		id = 11066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11066
 		}
 	},
 	[11067] = {
+		id = 11067,
 		damage = "12 x 2",
 		base = 11060,
-		id = 11067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11067
 		}
@@ -19124,30 +16782,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11101] = {
-		base = 11100,
 		id = 11101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11100,
 		weapon_id = {
 			11101
 		}
 	},
 	[11102] = {
+		id = 11102,
 		damage = "6 x 3",
 		base = 11100,
-		id = 11102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11102
 		}
 	},
 	[11103] = {
+		id = 11103,
 		damage = "6 x 3",
 		base = 11100,
-		id = 11103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11103
 		}
@@ -19219,60 +16871,48 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11121] = {
-		base = 11120,
 		id = 11121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11120,
 		weapon_id = {
 			11121
 		}
 	},
 	[11122] = {
+		id = 11122,
 		damage = "6 x 3",
 		base = 11120,
-		id = 11122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11122
 		}
 	},
 	[11123] = {
+		id = 11123,
 		damage = "7 x 3",
 		base = 11120,
-		id = 11123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11123
 		}
 	},
 	[11124] = {
+		id = 11124,
 		damage = "8 x 3",
 		base = 11120,
-		id = 11124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11124
 		}
 	},
 	[11125] = {
+		id = 11125,
 		damage = "9 x 3",
 		base = 11120,
-		id = 11125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11125
 		}
 	},
 	[11126] = {
+		id = 11126,
 		damage = "10 x 3",
 		base = 11120,
-		id = 11126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11126
 		}
@@ -19345,100 +16985,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11141] = {
-		base = 11140,
 		id = 11141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11140,
 		weapon_id = {
 			11141
 		}
 	},
 	[11142] = {
+		id = 11142,
 		damage = "7 x 3",
 		base = 11140,
-		id = 11142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11142
 		}
 	},
 	[11143] = {
+		id = 11143,
 		damage = "8 x 3",
 		base = 11140,
-		id = 11143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11143
 		}
 	},
 	[11144] = {
+		id = 11144,
 		damage = "9 x 3",
 		base = 11140,
-		id = 11144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11144
 		}
 	},
 	[11145] = {
+		id = 11145,
 		damage = "10 x 3",
 		base = 11140,
-		id = 11145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11145
 		}
 	},
 	[11146] = {
+		id = 11146,
 		damage = "11 x 3",
 		base = 11140,
-		id = 11146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11146
 		}
 	},
 	[11147] = {
+		id = 11147,
 		damage = "12 x 3",
 		base = 11140,
-		id = 11147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11147
 		}
 	},
 	[11148] = {
+		id = 11148,
 		damage = "13 x 3",
 		base = 11140,
-		id = 11148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11148
 		}
 	},
 	[11149] = {
+		id = 11149,
 		damage = "14 x 3",
 		base = 11140,
-		id = 11149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11149
 		}
 	},
 	[11150] = {
+		id = 11150,
 		damage = "15 x 3",
 		base = 11140,
-		id = 11150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11150
 		}
@@ -19448,8 +17068,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 3",
 		base = 11140,
 		id = 11151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11151
 		}
@@ -19522,100 +17140,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11161] = {
-		base = 11160,
 		id = 11161,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11160,
 		weapon_id = {
 			11161
 		}
 	},
 	[11162] = {
+		id = 11162,
 		damage = "7 x 4",
 		base = 11160,
-		id = 11162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11162
 		}
 	},
 	[11163] = {
+		id = 11163,
 		damage = "8 x 4",
 		base = 11160,
-		id = 11163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11163
 		}
 	},
 	[11164] = {
+		id = 11164,
 		damage = "9 x 4",
 		base = 11160,
-		id = 11164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11164
 		}
 	},
 	[11165] = {
+		id = 11165,
 		damage = "10 x 4",
 		base = 11160,
-		id = 11165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11165
 		}
 	},
 	[11166] = {
+		id = 11166,
 		damage = "11 x 4",
 		base = 11160,
-		id = 11166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11166
 		}
 	},
 	[11167] = {
+		id = 11167,
 		damage = "12 x 4",
 		base = 11160,
-		id = 11167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11167
 		}
 	},
 	[11168] = {
+		id = 11168,
 		damage = "13 x 4",
 		base = 11160,
-		id = 11168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11168
 		}
 	},
 	[11169] = {
+		id = 11169,
 		damage = "14 x 4",
 		base = 11160,
-		id = 11169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11169
 		}
 	},
 	[11170] = {
+		id = 11170,
 		damage = "15 x 4",
 		base = 11160,
-		id = 11170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11170
 		}
@@ -19625,8 +17223,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 4",
 		base = 11160,
 		id = 11171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11171
 		}
@@ -19699,60 +17295,48 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11201] = {
-		base = 11200,
 		id = 11201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11200,
 		weapon_id = {
 			11201
 		}
 	},
 	[11202] = {
+		id = 11202,
 		damage = "6 x 4",
 		base = 11200,
-		id = 11202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11202
 		}
 	},
 	[11203] = {
+		id = 11203,
 		damage = "6 x 4",
 		base = 11200,
-		id = 11203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11203
 		}
 	},
 	[11204] = {
+		id = 11204,
 		damage = "7 x 4",
 		base = 11200,
-		id = 11204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11204
 		}
 	},
 	[11205] = {
+		id = 11205,
 		damage = "8 x 4",
 		base = 11200,
-		id = 11205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11205
 		}
 	},
 	[11206] = {
+		id = 11206,
 		damage = "9 x 4",
 		base = 11200,
-		id = 11206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11206
 		}
@@ -19826,100 +17410,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11221] = {
-		base = 11220,
 		id = 11221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11220,
 		weapon_id = {
 			11221
 		}
 	},
 	[11222] = {
+		id = 11222,
 		damage = "6 x 4",
 		base = 11220,
-		id = 11222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11222
 		}
 	},
 	[11223] = {
+		id = 11223,
 		damage = "7 x 4",
 		base = 11220,
-		id = 11223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11223
 		}
 	},
 	[11224] = {
+		id = 11224,
 		damage = "8 x 4",
 		base = 11220,
-		id = 11224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11224
 		}
 	},
 	[11225] = {
+		id = 11225,
 		damage = "9 x 4",
 		base = 11220,
-		id = 11225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11225
 		}
 	},
 	[11226] = {
+		id = 11226,
 		damage = "10 x 4",
 		base = 11220,
-		id = 11226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11226
 		}
 	},
 	[11227] = {
+		id = 11227,
 		damage = "11 x 4",
 		base = 11220,
-		id = 11227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11227
 		}
 	},
 	[11228] = {
+		id = 11228,
 		damage = "12 x 4",
 		base = 11220,
-		id = 11228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11228
 		}
 	},
 	[11229] = {
+		id = 11229,
 		damage = "13 x 4",
 		base = 11220,
-		id = 11229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11229
 		}
 	},
 	[11230] = {
+		id = 11230,
 		damage = "14 x 4",
 		base = 11220,
-		id = 11230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11230
 		}
@@ -19993,100 +17557,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11241] = {
-		base = 11240,
 		id = 11241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 11240,
 		weapon_id = {
 			11241
 		}
 	},
 	[11242] = {
+		id = 11242,
 		damage = "7 x 4",
 		base = 11240,
-		id = 11242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11242
 		}
 	},
 	[11243] = {
+		id = 11243,
 		damage = "8 x 4",
 		base = 11240,
-		id = 11243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11243
 		}
 	},
 	[11244] = {
+		id = 11244,
 		damage = "9 x 4",
 		base = 11240,
-		id = 11244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11244
 		}
 	},
 	[11245] = {
+		id = 11245,
 		damage = "10 x 4",
 		base = 11240,
-		id = 11245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11245
 		}
 	},
 	[11246] = {
+		id = 11246,
 		damage = "11 x 4",
 		base = 11240,
-		id = 11246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11246
 		}
 	},
 	[11247] = {
+		id = 11247,
 		damage = "12 x 4",
 		base = 11240,
-		id = 11247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11247
 		}
 	},
 	[11248] = {
+		id = 11248,
 		damage = "13 x 4",
 		base = 11240,
-		id = 11248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11248
 		}
 	},
 	[11249] = {
+		id = 11249,
 		damage = "14 x 4",
 		base = 11240,
-		id = 11249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11249
 		}
 	},
 	[11250] = {
+		id = 11250,
 		damage = "15 x 4",
 		base = 11240,
-		id = 11250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11250
 		}
@@ -20096,8 +17640,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 4",
 		base = 11240,
 		id = 11251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11251
 		}
@@ -20107,8 +17649,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 4",
 		base = 11240,
 		id = 11252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11252
 		}
@@ -20118,8 +17658,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 4",
 		base = 11240,
 		id = 11253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			11253
 		}
@@ -20183,31 +17721,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12001] = {
+		id = 12001,
 		damage = "8 x 4",
 		base = 12000,
-		id = 12001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12001
 		}
 	},
 	[12002] = {
+		id = 12002,
 		damage = "9 x 4",
 		base = 12000,
-		id = 12002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12002
 		}
 	},
 	[12003] = {
+		id = 12003,
 		damage = "10 x 4",
 		base = 12000,
-		id = 12003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12003
 		}
@@ -20272,31 +17804,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12021] = {
+		id = 12021,
 		damage = "9 x 4",
 		base = 12020,
-		id = 12021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12021
 		}
 	},
 	[12022] = {
+		id = 12022,
 		damage = "10 x 4",
 		base = 12020,
-		id = 12022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12022
 		}
 	},
 	[12023] = {
+		id = 12023,
 		damage = "11 x 4",
 		base = 12020,
-		id = 12023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12023
 		}
@@ -20361,71 +17887,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12041] = {
+		id = 12041,
 		damage = "10 x 4",
 		base = 12040,
-		id = 12041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12041
 		}
 	},
 	[12042] = {
+		id = 12042,
 		damage = "11 x 4",
 		base = 12040,
-		id = 12042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12042
 		}
 	},
 	[12043] = {
+		id = 12043,
 		damage = "12 x 4",
 		base = 12040,
-		id = 12043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12043
 		}
 	},
 	[12044] = {
+		id = 12044,
 		damage = "13 x 4",
 		base = 12040,
-		id = 12044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12044
 		}
 	},
 	[12045] = {
+		id = 12045,
 		damage = "14 x 4",
 		base = 12040,
-		id = 12045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12045
 		}
 	},
 	[12046] = {
+		id = 12046,
 		damage = "15 x 4",
 		base = 12040,
-		id = 12046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12046
 		}
 	},
 	[12047] = {
+		id = 12047,
 		damage = "15 x 4",
 		base = 12040,
-		id = 12047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12047
 		}
@@ -20490,71 +18002,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12061] = {
+		id = 12061,
 		damage = "11 x 4",
 		base = 12060,
-		id = 12061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12061
 		}
 	},
 	[12062] = {
+		id = 12062,
 		damage = "12 x 4",
 		base = 12060,
-		id = 12062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12062
 		}
 	},
 	[12063] = {
+		id = 12063,
 		damage = "13 x 4",
 		base = 12060,
-		id = 12063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12063
 		}
 	},
 	[12064] = {
+		id = 12064,
 		damage = "14 x 4",
 		base = 12060,
-		id = 12064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12064
 		}
 	},
 	[12065] = {
+		id = 12065,
 		damage = "15 x 4",
 		base = 12060,
-		id = 12065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12065
 		}
 	},
 	[12066] = {
+		id = 12066,
 		damage = "16 x 4",
 		base = 12060,
-		id = 12066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12066
 		}
 	},
 	[12067] = {
+		id = 12067,
 		damage = "16 x 4",
 		base = 12060,
-		id = 12067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12067
 		}
@@ -20619,31 +18117,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12101] = {
+		id = 12101,
 		damage = "8 x 6",
 		base = 12100,
-		id = 12101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12101
 		}
 	},
 	[12102] = {
+		id = 12102,
 		damage = "9 x 6",
 		base = 12100,
-		id = 12102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12102
 		}
 	},
 	[12103] = {
+		id = 12103,
 		damage = "10 x 6",
 		base = 12100,
-		id = 12103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12103
 		}
@@ -20708,61 +18200,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12121] = {
+		id = 12121,
 		damage = "9 x 6",
 		base = 12120,
-		id = 12121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12121
 		}
 	},
 	[12122] = {
+		id = 12122,
 		damage = "10 x 6",
 		base = 12120,
-		id = 12122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12122
 		}
 	},
 	[12123] = {
+		id = 12123,
 		damage = "11 x 6",
 		base = 12120,
-		id = 12123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12123
 		}
 	},
 	[12124] = {
+		id = 12124,
 		damage = "12 x 6",
 		base = 12120,
-		id = 12124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12124
 		}
 	},
 	[12125] = {
+		id = 12125,
 		damage = "13 x 6",
 		base = 12120,
-		id = 12125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12125
 		}
 	},
 	[12126] = {
+		id = 12126,
 		damage = "14 x 6",
 		base = 12120,
-		id = 12126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12126
 		}
@@ -20828,101 +18308,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12141] = {
+		id = 12141,
 		damage = "10 x 6",
 		base = 12140,
-		id = 12141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12141
 		}
 	},
 	[12142] = {
+		id = 12142,
 		damage = "11 x 6",
 		base = 12140,
-		id = 12142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12142
 		}
 	},
 	[12143] = {
+		id = 12143,
 		damage = "12 x 6",
 		base = 12140,
-		id = 12143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12143
 		}
 	},
 	[12144] = {
+		id = 12144,
 		damage = "13 x 6",
 		base = 12140,
-		id = 12144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12144
 		}
 	},
 	[12145] = {
+		id = 12145,
 		damage = "14 x 6",
 		base = 12140,
-		id = 12145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12145
 		}
 	},
 	[12146] = {
+		id = 12146,
 		damage = "15 x 6",
 		base = 12140,
-		id = 12146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12146
 		}
 	},
 	[12147] = {
+		id = 12147,
 		damage = "16 x 6",
 		base = 12140,
-		id = 12147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12147
 		}
 	},
 	[12148] = {
+		id = 12148,
 		damage = "17 x 6",
 		base = 12140,
-		id = 12148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12148
 		}
 	},
 	[12149] = {
+		id = 12149,
 		damage = "18 x 6",
 		base = 12140,
-		id = 12149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12149
 		}
 	},
 	[12150] = {
+		id = 12150,
 		damage = "19 x 6",
 		base = 12140,
-		id = 12150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12150
 		}
@@ -20932,8 +18392,6 @@ pg.equip_data_statistics = {
 		damage = "19 x 6",
 		base = 12140,
 		id = 12151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12151
 		}
@@ -20999,101 +18457,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12161] = {
+		id = 12161,
 		damage = "11 x 6",
 		base = 12160,
-		id = 12161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12161
 		}
 	},
 	[12162] = {
+		id = 12162,
 		damage = "12 x 6",
 		base = 12160,
-		id = 12162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12162
 		}
 	},
 	[12163] = {
+		id = 12163,
 		damage = "13 x 6",
 		base = 12160,
-		id = 12163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12163
 		}
 	},
 	[12164] = {
+		id = 12164,
 		damage = "14 x 6",
 		base = 12160,
-		id = 12164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12164
 		}
 	},
 	[12165] = {
+		id = 12165,
 		damage = "15 x 6",
 		base = 12160,
-		id = 12165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12165
 		}
 	},
 	[12166] = {
+		id = 12166,
 		damage = "16 x 6",
 		base = 12160,
-		id = 12166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12166
 		}
 	},
 	[12167] = {
+		id = 12167,
 		damage = "17 x 6",
 		base = 12160,
-		id = 12167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12167
 		}
 	},
 	[12168] = {
+		id = 12168,
 		damage = "18 x 6",
 		base = 12160,
-		id = 12168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12168
 		}
 	},
 	[12169] = {
+		id = 12169,
 		damage = "19 x 6",
 		base = 12160,
-		id = 12169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12169
 		}
 	},
 	[12170] = {
+		id = 12170,
 		damage = "20 x 6",
 		base = 12160,
-		id = 12170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12170
 		}
@@ -21103,8 +18541,6 @@ pg.equip_data_statistics = {
 		damage = "20 x 6",
 		base = 12160,
 		id = 12171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12171
 		}
@@ -21114,8 +18550,6 @@ pg.equip_data_statistics = {
 		damage = "20 x 6",
 		base = 12160,
 		id = 12172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12172
 		}
@@ -21125,8 +18559,6 @@ pg.equip_data_statistics = {
 		damage = "20 x 6",
 		base = 12160,
 		id = 12173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12173
 		}
@@ -21193,101 +18625,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[12201] = {
+		id = 12201,
 		damage = "6 x 6",
 		base = 12200,
-		id = 12201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12201
 		}
 	},
 	[12202] = {
+		id = 12202,
 		damage = "7 x 6",
 		base = 12200,
-		id = 12202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12202
 		}
 	},
 	[12203] = {
+		id = 12203,
 		damage = "8 x 6",
 		base = 12200,
-		id = 12203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12203
 		}
 	},
 	[12204] = {
+		id = 12204,
 		damage = "9 x 6",
 		base = 12200,
-		id = 12204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12204
 		}
 	},
 	[12205] = {
+		id = 12205,
 		damage = "10 x 6",
 		base = 12200,
-		id = 12205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12205
 		}
 	},
 	[12206] = {
+		id = 12206,
 		damage = "11 x 6",
 		base = 12200,
-		id = 12206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12206
 		}
 	},
 	[12207] = {
+		id = 12207,
 		damage = "12 x 6",
 		base = 12200,
-		id = 12207,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12207
 		}
 	},
 	[12208] = {
+		id = 12208,
 		damage = "13 x 6",
 		base = 12200,
-		id = 12208,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12208
 		}
 	},
 	[12209] = {
+		id = 12209,
 		damage = "14 x 6",
 		base = 12200,
-		id = 12209,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12209
 		}
 	},
 	[12210] = {
+		id = 12210,
 		damage = "15 x 6",
 		base = 12200,
-		id = 12210,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12210
 		}
@@ -21297,8 +18709,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 6",
 		base = 12200,
 		id = 12211,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12211
 		}
@@ -21308,8 +18718,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 6",
 		base = 12200,
 		id = 12212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12212
 		}
@@ -21319,8 +18727,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 6",
 		base = 12200,
 		id = 12213,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			12213
 		}
@@ -21384,31 +18790,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[13001] = {
+		id = 13001,
 		damage = "24 x 3",
 		base = 13000,
-		id = 13001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13001
 		}
 	},
 	[13002] = {
+		id = 13002,
 		damage = "26 x 3",
 		base = 13000,
-		id = 13002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13002
 		}
 	},
 	[13003] = {
+		id = 13003,
 		damage = "28 x 3",
 		base = 13000,
-		id = 13003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13003
 		}
@@ -21473,31 +18873,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[13021] = {
+		id = 13021,
 		damage = "26 x 3",
 		base = 13020,
-		id = 13021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13021
 		}
 	},
 	[13022] = {
+		id = 13022,
 		damage = "28 x 3",
 		base = 13020,
-		id = 13022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13022
 		}
 	},
 	[13023] = {
+		id = 13023,
 		damage = "30 x 3",
 		base = 13020,
-		id = 13023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13023
 		}
@@ -21562,71 +18956,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[13041] = {
+		id = 13041,
 		damage = "28 x 3",
 		base = 13040,
-		id = 13041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13041
 		}
 	},
 	[13042] = {
+		id = 13042,
 		damage = "30 x 3",
 		base = 13040,
-		id = 13042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13042
 		}
 	},
 	[13043] = {
+		id = 13043,
 		damage = "32 x 3",
 		base = 13040,
-		id = 13043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13043
 		}
 	},
 	[13044] = {
+		id = 13044,
 		damage = "34 x 3",
 		base = 13040,
-		id = 13044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13044
 		}
 	},
 	[13045] = {
+		id = 13045,
 		damage = "36 x 3",
 		base = 13040,
-		id = 13045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13045
 		}
 	},
 	[13046] = {
+		id = 13046,
 		damage = "39 x 3",
 		base = 13040,
-		id = 13046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13046
 		}
 	},
 	[13047] = {
+		id = 13047,
 		damage = "39 x 3",
 		base = 13040,
-		id = 13047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13047
 		}
@@ -21691,71 +19071,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[13061] = {
+		id = 13061,
 		damage = "26 x 3",
 		base = 13060,
-		id = 13061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13061
 		}
 	},
 	[13062] = {
+		id = 13062,
 		damage = "29 x 3",
 		base = 13060,
-		id = 13062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13062
 		}
 	},
 	[13063] = {
+		id = 13063,
 		damage = "32 x 3",
 		base = 13060,
-		id = 13063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13063
 		}
 	},
 	[13064] = {
+		id = 13064,
 		damage = "36 x 3",
 		base = 13060,
-		id = 13064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13064
 		}
 	},
 	[13065] = {
+		id = 13065,
 		damage = "40 x 3",
 		base = 13060,
-		id = 13065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13065
 		}
 	},
 	[13066] = {
+		id = 13066,
 		damage = "44 x 3",
 		base = 13060,
-		id = 13066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13066
 		}
 	},
 	[13067] = {
+		id = 13067,
 		damage = "44 x 3",
 		base = 13060,
-		id = 13067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13067
 		}
@@ -21820,31 +19186,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[13101] = {
+		id = 13101,
 		damage = "26 x 3",
 		base = 13100,
-		id = 13101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13101
 		}
 	},
 	[13102] = {
+		id = 13102,
 		damage = "28 x 3",
 		base = 13100,
-		id = 13102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13102
 		}
 	},
 	[13103] = {
+		id = 13103,
 		damage = "30 x 3",
 		base = 13100,
-		id = 13103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13103
 		}
@@ -21909,61 +19269,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[13121] = {
+		id = 13121,
 		damage = "29 x 3",
 		base = 13120,
-		id = 13121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13121
 		}
 	},
 	[13122] = {
+		id = 13122,
 		damage = "31 x 3",
 		base = 13120,
-		id = 13122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13122
 		}
 	},
 	[13123] = {
+		id = 13123,
 		damage = "33 x 3",
 		base = 13120,
-		id = 13123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13123
 		}
 	},
 	[13124] = {
+		id = 13124,
 		damage = "35 x 3",
 		base = 13120,
-		id = 13124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13124
 		}
 	},
 	[13125] = {
+		id = 13125,
 		damage = "37 x 3",
 		base = 13120,
-		id = 13125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13125
 		}
 	},
 	[13126] = {
+		id = 13126,
 		damage = "40 x 3",
 		base = 13120,
-		id = 13126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13126
 		}
@@ -22028,101 +19376,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[13141] = {
+		id = 13141,
 		damage = "31 x 3",
 		base = 13140,
-		id = 13141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13141
 		}
 	},
 	[13142] = {
+		id = 13142,
 		damage = "34 x 3",
 		base = 13140,
-		id = 13142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13142
 		}
 	},
 	[13143] = {
+		id = 13143,
 		damage = "36 x 3",
 		base = 13140,
-		id = 13143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13143
 		}
 	},
 	[13144] = {
+		id = 13144,
 		damage = "38 x 3",
 		base = 13140,
-		id = 13144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13144
 		}
 	},
 	[13145] = {
+		id = 13145,
 		damage = "40 x 3",
 		base = 13140,
-		id = 13145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13145
 		}
 	},
 	[13146] = {
+		id = 13146,
 		damage = "43 x 3",
 		base = 13140,
-		id = 13146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13146
 		}
 	},
 	[13147] = {
+		id = 13147,
 		damage = "46 x 3",
 		base = 13140,
-		id = 13147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13147
 		}
 	},
 	[13148] = {
+		id = 13148,
 		damage = "48 x 3",
 		base = 13140,
-		id = 13148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13148
 		}
 	},
 	[13149] = {
+		id = 13149,
 		damage = "50 x 3",
 		base = 13140,
-		id = 13149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13149
 		}
 	},
 	[13150] = {
+		id = 13150,
 		damage = "52 x 3",
 		base = 13140,
-		id = 13150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13150
 		}
@@ -22132,8 +19460,6 @@ pg.equip_data_statistics = {
 		damage = "52 x 3",
 		base = 13140,
 		id = 13151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13151
 		}
@@ -22198,101 +19524,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[13161] = {
+		id = 13161,
 		damage = "30 x 6",
 		base = 13160,
-		id = 13161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13161
 		}
 	},
 	[13162] = {
+		id = 13162,
 		damage = "33 x 6",
 		base = 13160,
-		id = 13162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13162
 		}
 	},
 	[13163] = {
+		id = 13163,
 		damage = "35 x 6",
 		base = 13160,
-		id = 13163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13163
 		}
 	},
 	[13164] = {
+		id = 13164,
 		damage = "37 x 6",
 		base = 13160,
-		id = 13164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13164
 		}
 	},
 	[13165] = {
+		id = 13165,
 		damage = "39 x 6",
 		base = 13160,
-		id = 13165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13165
 		}
 	},
 	[13166] = {
+		id = 13166,
 		damage = "42 x 6",
 		base = 13160,
-		id = 13166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13166
 		}
 	},
 	[13167] = {
+		id = 13167,
 		damage = "45 x 6",
 		base = 13160,
-		id = 13167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13167
 		}
 	},
 	[13168] = {
+		id = 13168,
 		damage = "47 x 6",
 		base = 13160,
-		id = 13168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13168
 		}
 	},
 	[13169] = {
+		id = 13169,
 		damage = "49 x 6",
 		base = 13160,
-		id = 13169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13169
 		}
 	},
 	[13170] = {
+		id = 13170,
 		damage = "51 x 6",
 		base = 13160,
-		id = 13170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13170
 		}
@@ -22302,8 +19608,6 @@ pg.equip_data_statistics = {
 		damage = "51 x 6",
 		base = 13160,
 		id = 13171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13171
 		}
@@ -22313,8 +19617,6 @@ pg.equip_data_statistics = {
 		damage = "51 x 6",
 		base = 13160,
 		id = 13172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13172
 		}
@@ -22324,8 +19626,6 @@ pg.equip_data_statistics = {
 		damage = "51 x 6",
 		base = 13160,
 		id = 13173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			13173
 		}
@@ -22382,31 +19682,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14101] = {
+		id = 14101,
 		damage = "46 x 3",
 		base = 14100,
-		id = 14101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14101
 		}
 	},
 	[14102] = {
+		id = 14102,
 		damage = "50 x 3",
 		base = 14100,
-		id = 14102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14102
 		}
 	},
 	[14103] = {
+		id = 14103,
 		damage = "56 x 3",
 		base = 14100,
-		id = 14103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14103
 		}
@@ -22465,31 +19759,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14121] = {
+		id = 14121,
 		damage = "50 x 3",
 		base = 14120,
-		id = 14121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14121
 		}
 	},
 	[14122] = {
+		id = 14122,
 		damage = "55 x 3",
 		base = 14120,
-		id = 14122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14122
 		}
 	},
 	[14123] = {
+		id = 14123,
 		damage = "61 x 3",
 		base = 14120,
-		id = 14123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14123
 		}
@@ -22548,71 +19836,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14141] = {
+		id = 14141,
 		damage = "55 x 3",
 		base = 14140,
-		id = 14141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14141
 		}
 	},
 	[14142] = {
+		id = 14142,
 		damage = "60 x 3",
 		base = 14140,
-		id = 14142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14142
 		}
 	},
 	[14143] = {
+		id = 14143,
 		damage = "67 x 3",
 		base = 14140,
-		id = 14143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14143
 		}
 	},
 	[14144] = {
+		id = 14144,
 		damage = "72 x 3",
 		base = 14140,
-		id = 14144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14144
 		}
 	},
 	[14145] = {
+		id = 14145,
 		damage = "79 x 3",
 		base = 14140,
-		id = 14145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14145
 		}
 	},
 	[14146] = {
+		id = 14146,
 		damage = "84 x 3",
 		base = 14140,
-		id = 14146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14146
 		}
 	},
 	[14147] = {
+		id = 14147,
 		damage = "84 x 3",
 		base = 14140,
-		id = 14147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14147
 		}
@@ -22671,101 +19945,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14161] = {
+		id = 14161,
 		damage = "63 x 4",
 		base = 14160,
-		id = 14161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14161
 		}
 	},
 	[14162] = {
+		id = 14162,
 		damage = "68 x 4",
 		base = 14160,
-		id = 14162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14162
 		}
 	},
 	[14163] = {
+		id = 14163,
 		damage = "75 x 4",
 		base = 14160,
-		id = 14163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14163
 		}
 	},
 	[14164] = {
+		id = 14164,
 		damage = "80 x 4",
 		base = 14160,
-		id = 14164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14164
 		}
 	},
 	[14165] = {
+		id = 14165,
 		damage = "87 x 4",
 		base = 14160,
-		id = 14165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14165
 		}
 	},
 	[14166] = {
+		id = 14166,
 		damage = "92 x 4",
 		base = 14160,
-		id = 14166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14166
 		}
 	},
 	[14167] = {
+		id = 14167,
 		damage = "99 x 4",
 		base = 14160,
-		id = 14167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14167
 		}
 	},
 	[14168] = {
+		id = 14168,
 		damage = "104 x 4",
 		base = 14160,
-		id = 14168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14168
 		}
 	},
 	[14169] = {
+		id = 14169,
 		damage = "111 x 4",
 		base = 14160,
-		id = 14169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14169
 		}
 	},
 	[14170] = {
+		id = 14170,
 		damage = "116 x 4",
 		base = 14160,
-		id = 14170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14170
 		}
@@ -22775,8 +20029,6 @@ pg.equip_data_statistics = {
 		damage = "116 x 4",
 		base = 14160,
 		id = 14171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14171
 		}
@@ -22835,71 +20087,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14181] = {
+		id = 14181,
 		damage = "62 x 2",
 		base = 14180,
-		id = 14181,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14181
 		}
 	},
 	[14182] = {
+		id = 14182,
 		damage = "70 x 2",
 		base = 14180,
-		id = 14182,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14182
 		}
 	},
 	[14183] = {
+		id = 14183,
 		damage = "79 x 2",
 		base = 14180,
-		id = 14183,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14183
 		}
 	},
 	[14184] = {
+		id = 14184,
 		damage = "88 x 2",
 		base = 14180,
-		id = 14184,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14184
 		}
 	},
 	[14185] = {
+		id = 14185,
 		damage = "97 x 2",
 		base = 14180,
-		id = 14185,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14185
 		}
 	},
 	[14186] = {
+		id = 14186,
 		damage = "106 x 2",
 		base = 14180,
-		id = 14186,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14186
 		}
 	},
 	[14187] = {
+		id = 14187,
 		damage = "106 x 2",
 		base = 14180,
-		id = 14187,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14187
 		}
@@ -22957,31 +20195,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14201] = {
+		id = 14201,
 		damage = "56 x 2",
 		base = 14200,
-		id = 14201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14201
 		}
 	},
 	[14202] = {
+		id = 14202,
 		damage = "64 x 2",
 		base = 14200,
-		id = 14202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14202
 		}
 	},
 	[14203] = {
+		id = 14203,
 		damage = "72 x 2",
 		base = 14200,
-		id = 14203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14203
 		}
@@ -23040,61 +20272,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14221] = {
+		id = 14221,
 		damage = "62 x 2",
 		base = 14220,
-		id = 14221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14221
 		}
 	},
 	[14222] = {
+		id = 14222,
 		damage = "70 x 2",
 		base = 14220,
-		id = 14222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14222
 		}
 	},
 	[14223] = {
+		id = 14223,
 		damage = "79 x 2",
 		base = 14220,
-		id = 14223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14223
 		}
 	},
 	[14224] = {
+		id = 14224,
 		damage = "88 x 2",
 		base = 14220,
-		id = 14224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14224
 		}
 	},
 	[14225] = {
+		id = 14225,
 		damage = "97 x 2",
 		base = 14220,
-		id = 14225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14225
 		}
 	},
 	[14226] = {
+		id = 14226,
 		damage = "106 x 2",
 		base = 14220,
-		id = 14226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14226
 		}
@@ -23153,101 +20373,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14241] = {
+		id = 14241,
 		damage = "68 x 2",
 		base = 14240,
-		id = 14241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14241
 		}
 	},
 	[14242] = {
+		id = 14242,
 		damage = "76 x 2",
 		base = 14240,
-		id = 14242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14242
 		}
 	},
 	[14243] = {
+		id = 14243,
 		damage = "86 x 2",
 		base = 14240,
-		id = 14243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14243
 		}
 	},
 	[14244] = {
+		id = 14244,
 		damage = "96 x 2",
 		base = 14240,
-		id = 14244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14244
 		}
 	},
 	[14245] = {
+		id = 14245,
 		damage = "106 x 2",
 		base = 14240,
-		id = 14245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14245
 		}
 	},
 	[14246] = {
+		id = 14246,
 		damage = "116 x 2",
 		base = 14240,
-		id = 14246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14246
 		}
 	},
 	[14247] = {
+		id = 14247,
 		damage = "124 x 2",
 		base = 14240,
-		id = 14247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14247
 		}
 	},
 	[14248] = {
+		id = 14248,
 		damage = "134 x 2",
 		base = 14240,
-		id = 14248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14248
 		}
 	},
 	[14249] = {
+		id = 14249,
 		damage = "144 x 2",
 		base = 14240,
-		id = 14249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14249
 		}
 	},
 	[14250] = {
+		id = 14250,
 		damage = "154 x 2",
 		base = 14240,
-		id = 14250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14250
 		}
@@ -23257,8 +20457,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 2",
 		base = 14240,
 		id = 14251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14251
 		}
@@ -23317,101 +20515,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14261] = {
+		id = 14261,
 		damage = "68 x 2",
 		base = 14260,
-		id = 14261,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14261
 		}
 	},
 	[14262] = {
+		id = 14262,
 		damage = "76 x 2",
 		base = 14260,
-		id = 14262,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14262
 		}
 	},
 	[14263] = {
+		id = 14263,
 		damage = "86 x 2",
 		base = 14260,
-		id = 14263,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14263
 		}
 	},
 	[14264] = {
+		id = 14264,
 		damage = "96 x 2",
 		base = 14260,
-		id = 14264,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14264
 		}
 	},
 	[14265] = {
+		id = 14265,
 		damage = "106 x 2",
 		base = 14260,
-		id = 14265,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14265
 		}
 	},
 	[14266] = {
+		id = 14266,
 		damage = "116 x 2",
 		base = 14260,
-		id = 14266,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14266
 		}
 	},
 	[14267] = {
+		id = 14267,
 		damage = "124 x 2",
 		base = 14260,
-		id = 14267,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14267
 		}
 	},
 	[14268] = {
+		id = 14268,
 		damage = "134 x 2",
 		base = 14260,
-		id = 14268,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14268
 		}
 	},
 	[14269] = {
+		id = 14269,
 		damage = "144 x 2",
 		base = 14260,
-		id = 14269,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14269
 		}
 	},
 	[14270] = {
+		id = 14270,
 		damage = "154 x 2",
 		base = 14260,
-		id = 14270,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14270
 		}
@@ -23421,8 +20599,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 2",
 		base = 14260,
 		id = 14271,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14271
 		}
@@ -23480,31 +20656,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14301] = {
+		id = 14301,
 		damage = "58 x 3",
 		base = 14300,
-		id = 14301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14301
 		}
 	},
 	[14302] = {
+		id = 14302,
 		damage = "66 x 3",
 		base = 14300,
-		id = 14302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14302
 		}
 	},
 	[14303] = {
+		id = 14303,
 		damage = "74 x 3",
 		base = 14300,
-		id = 14303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14303
 		}
@@ -23563,61 +20733,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14321] = {
+		id = 14321,
 		damage = "64 x 3",
 		base = 14320,
-		id = 14321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14321
 		}
 	},
 	[14322] = {
+		id = 14322,
 		damage = "73 x 3",
 		base = 14320,
-		id = 14322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14322
 		}
 	},
 	[14323] = {
+		id = 14323,
 		damage = "81 x 3",
 		base = 14320,
-		id = 14323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14323
 		}
 	},
 	[14324] = {
+		id = 14324,
 		damage = "90 x 3",
 		base = 14320,
-		id = 14324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14324
 		}
 	},
 	[14325] = {
+		id = 14325,
 		damage = "99 x 3",
 		base = 14320,
-		id = 14325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14325
 		}
 	},
 	[14326] = {
+		id = 14326,
 		damage = "108 x 3",
 		base = 14320,
-		id = 14326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14326
 		}
@@ -23676,101 +20834,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14341] = {
+		id = 14341,
 		damage = "70 x 3",
 		base = 14340,
-		id = 14341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14341
 		}
 	},
 	[14342] = {
+		id = 14342,
 		damage = "80 x 3",
 		base = 14340,
-		id = 14342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14342
 		}
 	},
 	[14343] = {
+		id = 14343,
 		damage = "88 x 3",
 		base = 14340,
-		id = 14343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14343
 		}
 	},
 	[14344] = {
+		id = 14344,
 		damage = "98 x 3",
 		base = 14340,
-		id = 14344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14344
 		}
 	},
 	[14345] = {
+		id = 14345,
 		damage = "108 x 3",
 		base = 14340,
-		id = 14345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14345
 		}
 	},
 	[14346] = {
+		id = 14346,
 		damage = "118 x 3",
 		base = 14340,
-		id = 14346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14346
 		}
 	},
 	[14347] = {
+		id = 14347,
 		damage = "128 x 3",
 		base = 14340,
-		id = 14347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14347
 		}
 	},
 	[14348] = {
+		id = 14348,
 		damage = "136 x 3",
 		base = 14340,
-		id = 14348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14348
 		}
 	},
 	[14349] = {
+		id = 14349,
 		damage = "146 x 3",
 		base = 14340,
-		id = 14349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14349
 		}
 	},
 	[14350] = {
+		id = 14350,
 		damage = "156 x 3",
 		base = 14340,
-		id = 14350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14350
 		}
@@ -23780,8 +20918,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 3",
 		base = 14340,
 		id = 14351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14351
 		}
@@ -23840,101 +20976,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14361] = {
+		id = 14361,
 		damage = "68 x 3",
 		base = 14360,
-		id = 14361,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14361
 		}
 	},
 	[14362] = {
+		id = 14362,
 		damage = "76 x 3",
 		base = 14360,
-		id = 14362,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14362
 		}
 	},
 	[14363] = {
+		id = 14363,
 		damage = "86 x 3",
 		base = 14360,
-		id = 14363,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14363
 		}
 	},
 	[14364] = {
+		id = 14364,
 		damage = "96 x 3",
 		base = 14360,
-		id = 14364,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14364
 		}
 	},
 	[14365] = {
+		id = 14365,
 		damage = "106 x 3",
 		base = 14360,
-		id = 14365,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14365
 		}
 	},
 	[14366] = {
+		id = 14366,
 		damage = "116 x 3",
 		base = 14360,
-		id = 14366,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14366
 		}
 	},
 	[14367] = {
+		id = 14367,
 		damage = "124 x 3",
 		base = 14360,
-		id = 14367,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14367
 		}
 	},
 	[14368] = {
+		id = 14368,
 		damage = "134 x 3",
 		base = 14360,
-		id = 14368,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14368
 		}
 	},
 	[14369] = {
+		id = 14369,
 		damage = "144 x 3",
 		base = 14360,
-		id = 14369,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14369
 		}
 	},
 	[14370] = {
+		id = 14370,
 		damage = "154 x 3",
 		base = 14360,
-		id = 14370,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14370
 		}
@@ -23944,8 +21060,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 14360,
 		id = 14371,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14371
 		}
@@ -23955,8 +21069,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 14360,
 		id = 14372,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14372
 		}
@@ -23966,8 +21078,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 14360,
 		id = 14373,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14373
 		}
@@ -24025,101 +21135,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14381] = {
+		id = 14381,
 		damage = "70 x 3",
 		base = 14380,
-		id = 14381,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14381
 		}
 	},
 	[14382] = {
+		id = 14382,
 		damage = "80 x 3",
 		base = 14380,
-		id = 14382,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14382
 		}
 	},
 	[14383] = {
+		id = 14383,
 		damage = "88 x 3",
 		base = 14380,
-		id = 14383,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14383
 		}
 	},
 	[14384] = {
+		id = 14384,
 		damage = "98 x 3",
 		base = 14380,
-		id = 14384,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14384
 		}
 	},
 	[14385] = {
+		id = 14385,
 		damage = "108 x 3",
 		base = 14380,
-		id = 14385,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14385
 		}
 	},
 	[14386] = {
+		id = 14386,
 		damage = "118 x 3",
 		base = 14380,
-		id = 14386,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14386
 		}
 	},
 	[14387] = {
+		id = 14387,
 		damage = "128 x 3",
 		base = 14380,
-		id = 14387,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14387
 		}
 	},
 	[14388] = {
+		id = 14388,
 		damage = "136 x 3",
 		base = 14380,
-		id = 14388,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14388
 		}
 	},
 	[14389] = {
+		id = 14389,
 		damage = "146 x 3",
 		base = 14380,
-		id = 14389,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14389
 		}
 	},
 	[14390] = {
+		id = 14390,
 		damage = "156 x 3",
 		base = 14380,
-		id = 14390,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14390
 		}
@@ -24129,8 +21219,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 3",
 		base = 14380,
 		id = 14391,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14391
 		}
@@ -24189,101 +21277,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14501] = {
+		id = 14501,
 		damage = "91 x 2",
 		base = 14500,
-		id = 14501,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14501
 		}
 	},
 	[14502] = {
+		id = 14502,
 		damage = "102 x 2",
 		base = 14500,
-		id = 14502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14502
 		}
 	},
 	[14503] = {
+		id = 14503,
 		damage = "116 x 2",
 		base = 14500,
-		id = 14503,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14503
 		}
 	},
 	[14504] = {
+		id = 14504,
 		damage = "129 x 2",
 		base = 14500,
-		id = 14504,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14504
 		}
 	},
 	[14505] = {
+		id = 14505,
 		damage = "143 x 2",
 		base = 14500,
-		id = 14505,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14505
 		}
 	},
 	[14506] = {
+		id = 14506,
 		damage = "156 x 2",
 		base = 14500,
-		id = 14506,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14506
 		}
 	},
 	[14507] = {
+		id = 14507,
 		damage = "167 x 2",
 		base = 14500,
-		id = 14507,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14507
 		}
 	},
 	[14508] = {
+		id = 14508,
 		damage = "180 x 2",
 		base = 14500,
-		id = 14508,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14508
 		}
 	},
 	[14509] = {
+		id = 14509,
 		damage = "194 x 2",
 		base = 14500,
-		id = 14509,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14509
 		}
 	},
 	[14510] = {
+		id = 14510,
 		damage = "207 x 2",
 		base = 14500,
-		id = 14510,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14510
 		}
@@ -24293,8 +21361,6 @@ pg.equip_data_statistics = {
 		damage = "207 x 2",
 		base = 14500,
 		id = 14511,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14511
 		}
@@ -24304,8 +21370,6 @@ pg.equip_data_statistics = {
 		damage = "207 x 2",
 		base = 14500,
 		id = 14512,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14512
 		}
@@ -24315,8 +21379,6 @@ pg.equip_data_statistics = {
 		damage = "207 x 2",
 		base = 14500,
 		id = 14513,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14513
 		}
@@ -24381,31 +21443,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15001] = {
+		id = 15001,
 		damage = "48 x 3",
 		base = 15000,
-		id = 15001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15001
 		}
 	},
 	[15002] = {
+		id = 15002,
 		damage = "54 x 3",
 		base = 15000,
-		id = 15002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15002
 		}
 	},
 	[15003] = {
+		id = 15003,
 		damage = "60 x 3",
 		base = 15000,
-		id = 15003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15003
 		}
@@ -24470,61 +21526,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15021] = {
+		id = 15021,
 		damage = "53 x 3",
 		base = 15020,
-		id = 15021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15021
 		}
 	},
 	[15022] = {
+		id = 15022,
 		damage = "60 x 3",
 		base = 15020,
-		id = 15022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15022
 		}
 	},
 	[15023] = {
+		id = 15023,
 		damage = "67 x 3",
 		base = 15020,
-		id = 15023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15023
 		}
 	},
 	[15024] = {
+		id = 15024,
 		damage = "74 x 3",
 		base = 15020,
-		id = 15024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15024
 		}
 	},
 	[15025] = {
+		id = 15025,
 		damage = "81 x 3",
 		base = 15020,
-		id = 15025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15025
 		}
 	},
 	[15026] = {
+		id = 15026,
 		damage = "88 x 3",
 		base = 15020,
-		id = 15026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15026
 		}
@@ -24589,101 +21633,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15041] = {
+		id = 15041,
 		damage = "59 x 3",
 		base = 15040,
-		id = 15041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15041
 		}
 	},
 	[15042] = {
+		id = 15042,
 		damage = "67 x 3",
 		base = 15040,
-		id = 15042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15042
 		}
 	},
 	[15043] = {
+		id = 15043,
 		damage = "75 x 3",
 		base = 15040,
-		id = 15043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15043
 		}
 	},
 	[15044] = {
+		id = 15044,
 		damage = "83 x 3",
 		base = 15040,
-		id = 15044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15044
 		}
 	},
 	[15045] = {
+		id = 15045,
 		damage = "91 x 3",
 		base = 15040,
-		id = 15045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15045
 		}
 	},
 	[15046] = {
+		id = 15046,
 		damage = "99 x 3",
 		base = 15040,
-		id = 15046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15046
 		}
 	},
 	[15047] = {
+		id = 15047,
 		damage = "107 x 3",
 		base = 15040,
-		id = 15047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15047
 		}
 	},
 	[15048] = {
+		id = 15048,
 		damage = "115 x 3",
 		base = 15040,
-		id = 15048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15048
 		}
 	},
 	[15049] = {
+		id = 15049,
 		damage = "123 x 3",
 		base = 15040,
-		id = 15049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15049
 		}
 	},
 	[15050] = {
+		id = 15050,
 		damage = "131 x 3",
 		base = 15040,
-		id = 15050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15050
 		}
@@ -24693,8 +21717,6 @@ pg.equip_data_statistics = {
 		damage = "131 x 3",
 		base = 15040,
 		id = 15051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15051
 		}
@@ -24759,101 +21781,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15061] = {
+		id = 15061,
 		damage = "48 x 2",
 		base = 15060,
-		id = 15061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15061
 		}
 	},
 	[15062] = {
+		id = 15062,
 		damage = "56 x 2",
 		base = 15060,
-		id = 15062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15062
 		}
 	},
 	[15063] = {
+		id = 15063,
 		damage = "64 x 2",
 		base = 15060,
-		id = 15063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15063
 		}
 	},
 	[15064] = {
+		id = 15064,
 		damage = "72 x 2",
 		base = 15060,
-		id = 15064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15064
 		}
 	},
 	[15065] = {
+		id = 15065,
 		damage = "80 x 2",
 		base = 15060,
-		id = 15065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15065
 		}
 	},
 	[15066] = {
+		id = 15066,
 		damage = "88 x 2",
 		base = 15060,
-		id = 15066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15066
 		}
 	},
 	[15067] = {
+		id = 15067,
 		damage = "96 x 2",
 		base = 15060,
-		id = 15067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15067
 		}
 	},
 	[15068] = {
+		id = 15068,
 		damage = "104 x 2",
 		base = 15060,
-		id = 15068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15068
 		}
 	},
 	[15069] = {
+		id = 15069,
 		damage = "112 x 2",
 		base = 15060,
-		id = 15069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15069
 		}
 	},
 	[15070] = {
+		id = 15070,
 		damage = "120 x 2",
 		base = 15060,
-		id = 15070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15070
 		}
@@ -24863,8 +21865,6 @@ pg.equip_data_statistics = {
 		damage = "120 x 2",
 		base = 15060,
 		id = 15071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15071
 		}
@@ -24929,61 +21929,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15101] = {
+		id = 15101,
 		damage = "66 x 3",
 		base = 15100,
-		id = 15101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15101
 		}
 	},
 	[15102] = {
+		id = 15102,
 		damage = "74 x 3",
 		base = 15100,
-		id = 15102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15102
 		}
 	},
 	[15103] = {
+		id = 15103,
 		damage = "82 x 3",
 		base = 15100,
-		id = 15103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15103
 		}
 	},
 	[15104] = {
+		id = 15104,
 		damage = "91 x 3",
 		base = 15100,
-		id = 15104,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15104
 		}
 	},
 	[15105] = {
+		id = 15105,
 		damage = "100 x 3",
 		base = 15100,
-		id = 15105,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15105
 		}
 	},
 	[15106] = {
+		id = 15106,
 		damage = "109 x 3",
 		base = 15100,
-		id = 15106,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15106
 		}
@@ -25048,101 +22036,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15121] = {
+		id = 15121,
 		damage = "74 x 3",
 		base = 15120,
-		id = 15121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15121
 		}
 	},
 	[15122] = {
+		id = 15122,
 		damage = "83 x 3",
 		base = 15120,
-		id = 15122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15122
 		}
 	},
 	[15123] = {
+		id = 15123,
 		damage = "93 x 3",
 		base = 15120,
-		id = 15123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15123
 		}
 	},
 	[15124] = {
+		id = 15124,
 		damage = "103 x 3",
 		base = 15120,
-		id = 15124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15124
 		}
 	},
 	[15125] = {
+		id = 15125,
 		damage = "113 x 3",
 		base = 15120,
-		id = 15125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15125
 		}
 	},
 	[15126] = {
+		id = 15126,
 		damage = "123 x 3",
 		base = 15120,
-		id = 15126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15126
 		}
 	},
 	[15127] = {
+		id = 15127,
 		damage = "133 x 3",
 		base = 15120,
-		id = 15127,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15127
 		}
 	},
 	[15128] = {
+		id = 15128,
 		damage = "143 x 3",
 		base = 15120,
-		id = 15128,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15128
 		}
 	},
 	[15129] = {
+		id = 15129,
 		damage = "153 x 3",
 		base = 15120,
-		id = 15129,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15129
 		}
 	},
 	[15130] = {
+		id = 15130,
 		damage = "163 x 3",
 		base = 15120,
-		id = 15130,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15130
 		}
@@ -25207,101 +22175,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15141] = {
+		id = 15141,
 		damage = "82 x 3",
 		base = 15140,
-		id = 15141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15141
 		}
 	},
 	[15142] = {
+		id = 15142,
 		damage = "93 x 3",
 		base = 15140,
-		id = 15142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15142
 		}
 	},
 	[15143] = {
+		id = 15143,
 		damage = "104 x 3",
 		base = 15140,
-		id = 15143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15143
 		}
 	},
 	[15144] = {
+		id = 15144,
 		damage = "115 x 3",
 		base = 15140,
-		id = 15144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15144
 		}
 	},
 	[15145] = {
+		id = 15145,
 		damage = "126 x 3",
 		base = 15140,
-		id = 15145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15145
 		}
 	},
 	[15146] = {
+		id = 15146,
 		damage = "137 x 3",
 		base = 15140,
-		id = 15146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15146
 		}
 	},
 	[15147] = {
+		id = 15147,
 		damage = "148 x 3",
 		base = 15140,
-		id = 15147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15147
 		}
 	},
 	[15148] = {
+		id = 15148,
 		damage = "159 x 3",
 		base = 15140,
-		id = 15148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15148
 		}
 	},
 	[15149] = {
+		id = 15149,
 		damage = "170 x 3",
 		base = 15140,
-		id = 15149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15149
 		}
 	},
 	[15150] = {
+		id = 15150,
 		damage = "181 x 3",
 		base = 15140,
-		id = 15150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15150
 		}
@@ -25311,8 +22259,6 @@ pg.equip_data_statistics = {
 		damage = "181 x 3",
 		base = 15140,
 		id = 15151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15151
 		}
@@ -25322,8 +22268,6 @@ pg.equip_data_statistics = {
 		damage = "181 x 3",
 		base = 15140,
 		id = 15152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15152
 		}
@@ -25333,8 +22277,6 @@ pg.equip_data_statistics = {
 		damage = "181 x 3",
 		base = 15140,
 		id = 15153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15153
 		}
@@ -25399,101 +22341,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15161] = {
+		id = 15161,
 		damage = "62 x 2",
 		base = 15160,
-		id = 15161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15161
 		}
 	},
 	[15162] = {
+		id = 15162,
 		damage = "71 x 2",
 		base = 15160,
-		id = 15162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15162
 		}
 	},
 	[15163] = {
+		id = 15163,
 		damage = "80 x 2",
 		base = 15160,
-		id = 15163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15163
 		}
 	},
 	[15164] = {
+		id = 15164,
 		damage = "89 x 2",
 		base = 15160,
-		id = 15164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15164
 		}
 	},
 	[15165] = {
+		id = 15165,
 		damage = "99 x 2",
 		base = 15160,
-		id = 15165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15165
 		}
 	},
 	[15166] = {
+		id = 15166,
 		damage = "109 x 2",
 		base = 15160,
-		id = 15166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15166
 		}
 	},
 	[15167] = {
+		id = 15167,
 		damage = "119 x 2",
 		base = 15160,
-		id = 15167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15167
 		}
 	},
 	[15168] = {
+		id = 15168,
 		damage = "129 x 2",
 		base = 15160,
-		id = 15168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15168
 		}
 	},
 	[15169] = {
+		id = 15169,
 		damage = "139 x 2",
 		base = 15160,
-		id = 15169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15169
 		}
 	},
 	[15170] = {
+		id = 15170,
 		damage = "149 x 2",
 		base = 15160,
-		id = 15170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15170
 		}
@@ -25503,8 +22425,6 @@ pg.equip_data_statistics = {
 		damage = "149 x 2",
 		base = 15160,
 		id = 15171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15171
 		}
@@ -25514,8 +22434,6 @@ pg.equip_data_statistics = {
 		damage = "149 x 2",
 		base = 15160,
 		id = 15172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15172
 		}
@@ -25525,8 +22443,6 @@ pg.equip_data_statistics = {
 		damage = "149 x 2",
 		base = 15160,
 		id = 15173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15173
 		}
@@ -25594,71 +22510,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15201] = {
+		id = 15201,
 		damage = "70 x 3",
 		base = 15200,
-		id = 15201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15201
 		}
 	},
 	[15202] = {
+		id = 15202,
 		damage = "80 x 3",
 		base = 15200,
-		id = 15202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15202
 		}
 	},
 	[15203] = {
+		id = 15203,
 		damage = "90 x 3",
 		base = 15200,
-		id = 15203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15203
 		}
 	},
 	[15204] = {
+		id = 15204,
 		damage = "100 x 3",
 		base = 15200,
-		id = 15204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15204
 		}
 	},
 	[15205] = {
+		id = 15205,
 		damage = "110 x 3",
 		base = 15200,
-		id = 15205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15205
 		}
 	},
 	[15206] = {
+		id = 15206,
 		damage = "120 x 3",
 		base = 15200,
-		id = 15206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15206
 		}
 	},
 	[15207] = {
+		id = 15207,
 		damage = "120 x 3",
 		base = 15200,
-		id = 15207,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15207
 		}
@@ -25726,101 +22628,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15221] = {
+		id = 15221,
 		damage = "70 x 4",
 		base = 15220,
-		id = 15221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15221
 		}
 	},
 	[15222] = {
+		id = 15222,
 		damage = "80 x 4",
 		base = 15220,
-		id = 15222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15222
 		}
 	},
 	[15223] = {
+		id = 15223,
 		damage = "90 x 4",
 		base = 15220,
-		id = 15223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15223
 		}
 	},
 	[15224] = {
+		id = 15224,
 		damage = "100 x 4",
 		base = 15220,
-		id = 15224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15224
 		}
 	},
 	[15225] = {
+		id = 15225,
 		damage = "110 x 4",
 		base = 15220,
-		id = 15225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15225
 		}
 	},
 	[15226] = {
+		id = 15226,
 		damage = "120 x 4",
 		base = 15220,
-		id = 15226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15226
 		}
 	},
 	[15227] = {
+		id = 15227,
 		damage = "130 x 4",
 		base = 15220,
-		id = 15227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15227
 		}
 	},
 	[15228] = {
+		id = 15228,
 		damage = "140 x 4",
 		base = 15220,
-		id = 15228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15228
 		}
 	},
 	[15229] = {
+		id = 15229,
 		damage = "150 x 4",
 		base = 15220,
-		id = 15229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15229
 		}
 	},
 	[15230] = {
+		id = 15230,
 		damage = "160 x 4",
 		base = 15220,
-		id = 15230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15230
 		}
@@ -25830,8 +22712,6 @@ pg.equip_data_statistics = {
 		damage = "160 x 4",
 		base = 15220,
 		id = 15231,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15231
 		}
@@ -25899,101 +22779,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15241] = {
+		id = 15241,
 		damage = "70 x 5",
 		base = 15240,
-		id = 15241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15241
 		}
 	},
 	[15242] = {
+		id = 15242,
 		damage = "80 x 5",
 		base = 15240,
-		id = 15242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15242
 		}
 	},
 	[15243] = {
+		id = 15243,
 		damage = "90 x 5",
 		base = 15240,
-		id = 15243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15243
 		}
 	},
 	[15244] = {
+		id = 15244,
 		damage = "100 x 5",
 		base = 15240,
-		id = 15244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15244
 		}
 	},
 	[15245] = {
+		id = 15245,
 		damage = "110 x 5",
 		base = 15240,
-		id = 15245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15245
 		}
 	},
 	[15246] = {
+		id = 15246,
 		damage = "120 x 5",
 		base = 15240,
-		id = 15246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15246
 		}
 	},
 	[15247] = {
+		id = 15247,
 		damage = "130 x 5",
 		base = 15240,
-		id = 15247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15247
 		}
 	},
 	[15248] = {
+		id = 15248,
 		damage = "140 x 5",
 		base = 15240,
-		id = 15248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15248
 		}
 	},
 	[15249] = {
+		id = 15249,
 		damage = "150 x 5",
 		base = 15240,
-		id = 15249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15249
 		}
 	},
 	[15250] = {
+		id = 15250,
 		damage = "160 x 5",
 		base = 15240,
-		id = 15250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15250
 		}
@@ -26003,8 +22863,6 @@ pg.equip_data_statistics = {
 		damage = "160 x 5",
 		base = 15240,
 		id = 15251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15251
 		}
@@ -26014,8 +22872,6 @@ pg.equip_data_statistics = {
 		damage = "160 x 5",
 		base = 15240,
 		id = 15252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15252
 		}
@@ -26025,8 +22881,6 @@ pg.equip_data_statistics = {
 		damage = "160 x 5",
 		base = 15240,
 		id = 15253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			15253
 		}
@@ -26083,93 +22937,63 @@ pg.equip_data_statistics = {
 	},
 	[15501] = {
 		id = 15501,
-		base = 15500,
 		value_2 = 12,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15502] = {
 		id = 15502,
-		base = 15500,
 		value_2 = 14,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15503] = {
 		id = 15503,
-		base = 15500,
 		value_2 = 16,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15504] = {
 		id = 15504,
-		base = 15500,
 		value_2 = 18,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15505] = {
 		id = 15505,
-		base = 15500,
 		value_2 = 20,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15506] = {
 		id = 15506,
-		base = 15500,
 		value_2 = 22,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15507] = {
 		id = 15507,
-		base = 15500,
 		value_2 = 24,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15508] = {
 		id = 15508,
-		base = 15500,
 		value_2 = 26,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15509] = {
 		id = 15509,
-		base = 15500,
 		value_2 = 28,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15510] = {
 		id = 15510,
-		base = 15500,
 		value_2 = 30,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {},
-		weapon_id = {}
+		base = 15500
 	},
 	[15511] = {
 		id = 15511,
@@ -26177,8 +23001,6 @@ pg.equip_data_statistics = {
 		base = 15500,
 		value_2 = 32,
 		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			1
 		}
@@ -26245,31 +23067,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16001] = {
+		id = 16001,
 		damage = "9/回",
 		base = 16000,
-		id = 16001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16001
 		}
 	},
 	[16002] = {
+		id = 16002,
 		damage = "10/回",
 		base = 16000,
-		id = 16002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16002
 		}
 	},
 	[16003] = {
+		id = 16003,
 		damage = "12/回",
 		base = 16000,
-		id = 16003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16003
 		}
@@ -26337,31 +23153,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16021] = {
+		id = 16021,
 		damage = "10/回",
 		base = 16020,
-		id = 16021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16021
 		}
 	},
 	[16022] = {
+		id = 16022,
 		damage = "12/回",
 		base = 16020,
-		id = 16022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16022
 		}
 	},
 	[16023] = {
+		id = 16023,
 		damage = "14/回",
 		base = 16020,
-		id = 16023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16023
 		}
@@ -26429,71 +23239,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16041] = {
+		id = 16041,
 		damage = "12/回",
 		base = 16040,
-		id = 16041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16041
 		}
 	},
 	[16042] = {
+		id = 16042,
 		damage = "13/回",
 		base = 16040,
-		id = 16042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16042
 		}
 	},
 	[16043] = {
+		id = 16043,
 		damage = "14/回",
 		base = 16040,
-		id = 16043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16043
 		}
 	},
 	[16044] = {
+		id = 16044,
 		damage = "16/回",
 		base = 16040,
-		id = 16044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16044
 		}
 	},
 	[16045] = {
+		id = 16045,
 		damage = "18/回",
 		base = 16040,
-		id = 16045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16045
 		}
 	},
 	[16046] = {
+		id = 16046,
 		damage = "20/回",
 		base = 16040,
-		id = 16046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16046
 		}
 	},
 	[16047] = {
+		id = 16047,
 		damage = "20/回",
 		base = 16040,
-		id = 16047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16047
 		}
@@ -26561,101 +23357,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16061] = {
+		id = 16061,
 		damage = "32/回",
 		base = 16060,
-		id = 16061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16061
 		}
 	},
 	[16062] = {
+		id = 16062,
 		damage = "35/回",
 		base = 16060,
-		id = 16062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16062
 		}
 	},
 	[16063] = {
+		id = 16063,
 		damage = "38/回",
 		base = 16060,
-		id = 16063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16063
 		}
 	},
 	[16064] = {
+		id = 16064,
 		damage = "41/回",
 		base = 16060,
-		id = 16064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16064
 		}
 	},
 	[16065] = {
+		id = 16065,
 		damage = "44/回",
 		base = 16060,
-		id = 16065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16065
 		}
 	},
 	[16066] = {
+		id = 16066,
 		damage = "47/回",
 		base = 16060,
-		id = 16066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16066
 		}
 	},
 	[16067] = {
+		id = 16067,
 		damage = "50/回",
 		base = 16060,
-		id = 16067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16067
 		}
 	},
 	[16068] = {
+		id = 16068,
 		damage = "53/回",
 		base = 16060,
-		id = 16068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16068
 		}
 	},
 	[16069] = {
+		id = 16069,
 		damage = "57/回",
 		base = 16060,
-		id = 16069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16069
 		}
 	},
 	[16070] = {
+		id = 16070,
 		damage = "61/回",
 		base = 16060,
-		id = 16070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16070
 		}
@@ -26665,8 +23441,6 @@ pg.equip_data_statistics = {
 		damage = "61/回",
 		base = 16060,
 		id = 16071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16071
 		}
@@ -26734,101 +23508,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16081] = {
+		id = 16081,
 		damage = "39/回",
 		base = 16080,
-		id = 16081,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16081
 		}
 	},
 	[16082] = {
+		id = 16082,
 		damage = "45/回",
 		base = 16080,
-		id = 16082,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16082
 		}
 	},
 	[16083] = {
+		id = 16083,
 		damage = "51/回",
 		base = 16080,
-		id = 16083,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16083
 		}
 	},
 	[16084] = {
+		id = 16084,
 		damage = "57/回",
 		base = 16080,
-		id = 16084,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16084
 		}
 	},
 	[16085] = {
+		id = 16085,
 		damage = "63/回",
 		base = 16080,
-		id = 16085,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16085
 		}
 	},
 	[16086] = {
+		id = 16086,
 		damage = "69/回",
 		base = 16080,
-		id = 16086,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16086
 		}
 	},
 	[16087] = {
+		id = 16087,
 		damage = "75/回",
 		base = 16080,
-		id = 16087,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16087
 		}
 	},
 	[16088] = {
+		id = 16088,
 		damage = "81/回",
 		base = 16080,
-		id = 16088,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16088
 		}
 	},
 	[16089] = {
+		id = 16089,
 		damage = "87/回",
 		base = 16080,
-		id = 16089,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16089
 		}
 	},
 	[16090] = {
+		id = 16090,
 		damage = "94/回",
 		base = 16080,
-		id = 16090,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16090
 		}
@@ -26838,8 +23592,6 @@ pg.equip_data_statistics = {
 		damage = "94/回",
 		base = 16080,
 		id = 16091,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16091
 		}
@@ -26849,8 +23601,6 @@ pg.equip_data_statistics = {
 		damage = "94/回",
 		base = 16080,
 		id = 16092,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16092
 		}
@@ -26860,8 +23610,6 @@ pg.equip_data_statistics = {
 		damage = "94/回",
 		base = 16080,
 		id = 16093,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16093
 		}
@@ -26929,31 +23677,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16101] = {
+		id = 16101,
 		damage = "16/回",
 		base = 16100,
-		id = 16101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16101
 		}
 	},
 	[16102] = {
+		id = 16102,
 		damage = "18/回",
 		base = 16100,
-		id = 16102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16102
 		}
 	},
 	[16103] = {
+		id = 16103,
 		damage = "20/回",
 		base = 16100,
-		id = 16103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16103
 		}
@@ -27021,61 +23763,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16121] = {
+		id = 16121,
 		damage = "17/回",
 		base = 16120,
-		id = 16121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16121
 		}
 	},
 	[16122] = {
+		id = 16122,
 		damage = "19/回",
 		base = 16120,
-		id = 16122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16122
 		}
 	},
 	[16123] = {
+		id = 16123,
 		damage = "21/回",
 		base = 16120,
-		id = 16123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16123
 		}
 	},
 	[16124] = {
+		id = 16124,
 		damage = "24/回",
 		base = 16120,
-		id = 16124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16124
 		}
 	},
 	[16125] = {
+		id = 16125,
 		damage = "27/回",
 		base = 16120,
-		id = 16125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16125
 		}
 	},
 	[16126] = {
+		id = 16126,
 		damage = "30/回",
 		base = 16120,
-		id = 16126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16126
 		}
@@ -27143,101 +23873,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16141] = {
+		id = 16141,
 		damage = "20/回",
 		base = 16140,
-		id = 16141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16141
 		}
 	},
 	[16142] = {
+		id = 16142,
 		damage = "22/回",
 		base = 16140,
-		id = 16142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16142
 		}
 	},
 	[16143] = {
+		id = 16143,
 		damage = "24/回",
 		base = 16140,
-		id = 16143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16143
 		}
 	},
 	[16144] = {
+		id = 16144,
 		damage = "27/回",
 		base = 16140,
-		id = 16144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16144
 		}
 	},
 	[16145] = {
+		id = 16145,
 		damage = "30/回",
 		base = 16140,
-		id = 16145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16145
 		}
 	},
 	[16146] = {
+		id = 16146,
 		damage = "33/回",
 		base = 16140,
-		id = 16146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16146
 		}
 	},
 	[16147] = {
+		id = 16147,
 		damage = "36/回",
 		base = 16140,
-		id = 16147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16147
 		}
 	},
 	[16148] = {
+		id = 16148,
 		damage = "39/回",
 		base = 16140,
-		id = 16148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16148
 		}
 	},
 	[16149] = {
+		id = 16149,
 		damage = "42/回",
 		base = 16140,
-		id = 16149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16149
 		}
 	},
 	[16150] = {
+		id = 16150,
 		damage = "45/回",
 		base = 16140,
-		id = 16150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16150
 		}
@@ -27247,8 +23957,6 @@ pg.equip_data_statistics = {
 		damage = "45/回",
 		base = 16140,
 		id = 16151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16151
 		}
@@ -27316,101 +24024,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16161] = {
+		id = 16161,
 		damage = "27/回",
 		base = 16160,
-		id = 16161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16161
 		}
 	},
 	[16162] = {
+		id = 16162,
 		damage = "29/回",
 		base = 16160,
-		id = 16162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16162
 		}
 	},
 	[16163] = {
+		id = 16163,
 		damage = "31/回",
 		base = 16160,
-		id = 16163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16163
 		}
 	},
 	[16164] = {
+		id = 16164,
 		damage = "34/回",
 		base = 16160,
-		id = 16164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16164
 		}
 	},
 	[16165] = {
+		id = 16165,
 		damage = "37/回",
 		base = 16160,
-		id = 16165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16165
 		}
 	},
 	[16166] = {
+		id = 16166,
 		damage = "40/回",
 		base = 16160,
-		id = 16166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16166
 		}
 	},
 	[16167] = {
+		id = 16167,
 		damage = "43/回",
 		base = 16160,
-		id = 16167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16167
 		}
 	},
 	[16168] = {
+		id = 16168,
 		damage = "46/回",
 		base = 16160,
-		id = 16168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16168
 		}
 	},
 	[16169] = {
+		id = 16169,
 		damage = "49/回",
 		base = 16160,
-		id = 16169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16169
 		}
 	},
 	[16170] = {
+		id = 16170,
 		damage = "52/回",
 		base = 16160,
-		id = 16170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16170
 		}
@@ -27420,8 +24108,6 @@ pg.equip_data_statistics = {
 		damage = "52/回",
 		base = 16160,
 		id = 16171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16171
 		}
@@ -27489,31 +24175,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16201] = {
+		id = 16201,
 		damage = "26/回",
 		base = 16200,
-		id = 16201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16201
 		}
 	},
 	[16202] = {
+		id = 16202,
 		damage = "30/回",
 		base = 16200,
-		id = 16202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16202
 		}
 	},
 	[16203] = {
+		id = 16203,
 		damage = "34/回",
 		base = 16200,
-		id = 16203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16203
 		}
@@ -27581,61 +24261,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16221] = {
+		id = 16221,
 		damage = "29/回",
 		base = 16220,
-		id = 16221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16221
 		}
 	},
 	[16222] = {
+		id = 16222,
 		damage = "33/回",
 		base = 16220,
-		id = 16222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16222
 		}
 	},
 	[16223] = {
+		id = 16223,
 		damage = "37/回",
 		base = 16220,
-		id = 16223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16223
 		}
 	},
 	[16224] = {
+		id = 16224,
 		damage = "41/回",
 		base = 16220,
-		id = 16224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16224
 		}
 	},
 	[16225] = {
+		id = 16225,
 		damage = "45/回",
 		base = 16220,
-		id = 16225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16225
 		}
 	},
 	[16226] = {
+		id = 16226,
 		damage = "50/回",
 		base = 16220,
-		id = 16226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16226
 		}
@@ -27703,101 +24371,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16241] = {
+		id = 16241,
 		damage = "33/回",
 		base = 16240,
-		id = 16241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16241
 		}
 	},
 	[16242] = {
+		id = 16242,
 		damage = "37/回",
 		base = 16240,
-		id = 16242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16242
 		}
 	},
 	[16243] = {
+		id = 16243,
 		damage = "41/回",
 		base = 16240,
-		id = 16243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16243
 		}
 	},
 	[16244] = {
+		id = 16244,
 		damage = "45/回",
 		base = 16240,
-		id = 16244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16244
 		}
 	},
 	[16245] = {
+		id = 16245,
 		damage = "49/回",
 		base = 16240,
-		id = 16245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16245
 		}
 	},
 	[16246] = {
+		id = 16246,
 		damage = "53/回",
 		base = 16240,
-		id = 16246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16246
 		}
 	},
 	[16247] = {
+		id = 16247,
 		damage = "57/回",
 		base = 16240,
-		id = 16247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16247
 		}
 	},
 	[16248] = {
+		id = 16248,
 		damage = "62/回",
 		base = 16240,
-		id = 16248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16248
 		}
 	},
 	[16249] = {
+		id = 16249,
 		damage = "67/回",
 		base = 16240,
-		id = 16249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16249
 		}
 	},
 	[16250] = {
+		id = 16250,
 		damage = "72/回",
 		base = 16240,
-		id = 16250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16250
 		}
@@ -27807,8 +24455,6 @@ pg.equip_data_statistics = {
 		damage = "72/回",
 		base = 16240,
 		id = 16251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16251
 		}
@@ -27876,31 +24522,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16301] = {
+		id = 16301,
 		damage = "22/回",
 		base = 16300,
-		id = 16301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16301
 		}
 	},
 	[16302] = {
+		id = 16302,
 		damage = "25/回",
 		base = 16300,
-		id = 16302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16302
 		}
 	},
 	[16303] = {
+		id = 16303,
 		damage = "29/回",
 		base = 16300,
-		id = 16303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16303
 		}
@@ -27968,61 +24608,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16321] = {
+		id = 16321,
 		damage = "26/回",
 		base = 16320,
-		id = 16321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16321
 		}
 	},
 	[16322] = {
+		id = 16322,
 		damage = "29/回",
 		base = 16320,
-		id = 16322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16322
 		}
 	},
 	[16323] = {
+		id = 16323,
 		damage = "33/回",
 		base = 16320,
-		id = 16323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16323
 		}
 	},
 	[16324] = {
+		id = 16324,
 		damage = "37/回",
 		base = 16320,
-		id = 16324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16324
 		}
 	},
 	[16325] = {
+		id = 16325,
 		damage = "41/回",
 		base = 16320,
-		id = 16325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16325
 		}
 	},
 	[16326] = {
+		id = 16326,
 		damage = "45/回",
 		base = 16320,
-		id = 16326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16326
 		}
@@ -28090,101 +24718,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16341] = {
+		id = 16341,
 		damage = "28/回",
 		base = 16340,
-		id = 16341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16341
 		}
 	},
 	[16342] = {
+		id = 16342,
 		damage = "31/回",
 		base = 16340,
-		id = 16342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16342
 		}
 	},
 	[16343] = {
+		id = 16343,
 		damage = "34/回",
 		base = 16340,
-		id = 16343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16343
 		}
 	},
 	[16344] = {
+		id = 16344,
 		damage = "38/回",
 		base = 16340,
-		id = 16344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16344
 		}
 	},
 	[16345] = {
+		id = 16345,
 		damage = "42/回",
 		base = 16340,
-		id = 16345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16345
 		}
 	},
 	[16346] = {
+		id = 16346,
 		damage = "46/回",
 		base = 16340,
-		id = 16346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16346
 		}
 	},
 	[16347] = {
+		id = 16347,
 		damage = "50/回",
 		base = 16340,
-		id = 16347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16347
 		}
 	},
 	[16348] = {
+		id = 16348,
 		damage = "54/回",
 		base = 16340,
-		id = 16348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16348
 		}
 	},
 	[16349] = {
+		id = 16349,
 		damage = "58/回",
 		base = 16340,
-		id = 16349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16349
 		}
 	},
 	[16350] = {
+		id = 16350,
 		damage = "62/回",
 		base = 16340,
-		id = 16350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16350
 		}
@@ -28194,8 +24802,6 @@ pg.equip_data_statistics = {
 		damage = "62/回",
 		base = 16340,
 		id = 16351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16351
 		}
@@ -28263,61 +24869,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16401] = {
+		id = 16401,
 		damage = "44/回",
 		base = 16400,
-		id = 16401,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16401
 		}
 	},
 	[16402] = {
+		id = 16402,
 		damage = "50/回",
 		base = 16400,
-		id = 16402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16402
 		}
 	},
 	[16403] = {
+		id = 16403,
 		damage = "56/回",
 		base = 16400,
-		id = 16403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16403
 		}
 	},
 	[16404] = {
+		id = 16404,
 		damage = "62/回",
 		base = 16400,
-		id = 16404,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16404
 		}
 	},
 	[16405] = {
+		id = 16405,
 		damage = "69/回",
 		base = 16400,
-		id = 16405,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16405
 		}
 	},
 	[16406] = {
+		id = 16406,
 		damage = "76/回",
 		base = 16400,
-		id = 16406,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16406
 		}
@@ -28385,101 +24979,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16421] = {
+		id = 16421,
 		damage = "49/回",
 		base = 16420,
-		id = 16421,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16421
 		}
 	},
 	[16422] = {
+		id = 16422,
 		damage = "55/回",
 		base = 16420,
-		id = 16422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16422
 		}
 	},
 	[16423] = {
+		id = 16423,
 		damage = "61/回",
 		base = 16420,
-		id = 16423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16423
 		}
 	},
 	[16424] = {
+		id = 16424,
 		damage = "67/回",
 		base = 16420,
-		id = 16424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16424
 		}
 	},
 	[16425] = {
+		id = 16425,
 		damage = "73/回",
 		base = 16420,
-		id = 16425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16425
 		}
 	},
 	[16426] = {
+		id = 16426,
 		damage = "80/回",
 		base = 16420,
-		id = 16426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16426
 		}
 	},
 	[16427] = {
+		id = 16427,
 		damage = "87/回",
 		base = 16420,
-		id = 16427,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16427
 		}
 	},
 	[16428] = {
+		id = 16428,
 		damage = "94/回",
 		base = 16420,
-		id = 16428,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16428
 		}
 	},
 	[16429] = {
+		id = 16429,
 		damage = "101/回",
 		base = 16420,
-		id = 16429,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16429
 		}
 	},
 	[16430] = {
+		id = 16430,
 		damage = "108/回",
 		base = 16420,
-		id = 16430,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16430
 		}
@@ -28547,101 +25121,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16441] = {
+		id = 16441,
 		damage = "55/回",
 		base = 16440,
-		id = 16441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16441
 		}
 	},
 	[16442] = {
+		id = 16442,
 		damage = "62/回",
 		base = 16440,
-		id = 16442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16442
 		}
 	},
 	[16443] = {
+		id = 16443,
 		damage = "69/回",
 		base = 16440,
-		id = 16443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16443
 		}
 	},
 	[16444] = {
+		id = 16444,
 		damage = "76/回",
 		base = 16440,
-		id = 16444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16444
 		}
 	},
 	[16445] = {
+		id = 16445,
 		damage = "83/回",
 		base = 16440,
-		id = 16445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16445
 		}
 	},
 	[16446] = {
+		id = 16446,
 		damage = "90/回",
 		base = 16440,
-		id = 16446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16446
 		}
 	},
 	[16447] = {
+		id = 16447,
 		damage = "97/回",
 		base = 16440,
-		id = 16447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16447
 		}
 	},
 	[16448] = {
+		id = 16448,
 		damage = "104/回",
 		base = 16440,
-		id = 16448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16448
 		}
 	},
 	[16449] = {
+		id = 16449,
 		damage = "112/回",
 		base = 16440,
-		id = 16449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16449
 		}
 	},
 	[16450] = {
+		id = 16450,
 		damage = "120/回",
 		base = 16440,
-		id = 16450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16450
 		}
@@ -28651,8 +25205,6 @@ pg.equip_data_statistics = {
 		damage = "120/回",
 		base = 16440,
 		id = 16451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16451
 		}
@@ -28662,8 +25214,6 @@ pg.equip_data_statistics = {
 		damage = "120/回",
 		base = 16440,
 		id = 16452,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16452
 		}
@@ -28673,8 +25223,6 @@ pg.equip_data_statistics = {
 		damage = "120/回",
 		base = 16440,
 		id = 16453,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			16453
 		}
@@ -28728,10 +25276,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17001] = {
-		base = 17000,
 		id = 17001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17000,
 		ammo_info = {
 			{
 				6,
@@ -28744,10 +25290,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17002] = {
-		base = 17000,
 		id = 17002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17000,
 		ammo_info = {
 			{
 				6,
@@ -28760,10 +25304,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17003] = {
-		base = 17000,
 		id = 17003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17000,
 		ammo_info = {
 			{
 				6,
@@ -28825,10 +25367,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17021] = {
-		base = 17020,
 		id = 17021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17020,
 		ammo_info = {
 			{
 				6,
@@ -28841,10 +25381,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17022] = {
-		base = 17020,
 		id = 17022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17020,
 		ammo_info = {
 			{
 				6,
@@ -28857,10 +25395,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17023] = {
-		base = 17020,
 		id = 17023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17020,
 		ammo_info = {
 			{
 				6,
@@ -28922,10 +25458,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17041] = {
-		base = 17040,
 		id = 17041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17040,
 		ammo_info = {
 			{
 				6,
@@ -28938,10 +25472,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17042] = {
-		base = 17040,
 		id = 17042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17040,
 		ammo_info = {
 			{
 				6,
@@ -28954,10 +25486,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17043] = {
-		base = 17040,
 		id = 17043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17040,
 		ammo_info = {
 			{
 				6,
@@ -28970,10 +25500,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17044] = {
-		base = 17040,
 		id = 17044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17040,
 		ammo_info = {
 			{
 				6,
@@ -28986,10 +25514,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17045] = {
-		base = 17040,
 		id = 17045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17040,
 		ammo_info = {
 			{
 				6,
@@ -29002,10 +25528,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17046] = {
-		base = 17040,
 		id = 17046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17040,
 		ammo_info = {
 			{
 				6,
@@ -29018,10 +25542,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17047] = {
-		base = 17040,
 		id = 17047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17040,
 		ammo_info = {
 			{
 				6,
@@ -29085,10 +25607,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17061] = {
-		base = 17060,
 		id = 17061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29101,10 +25621,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17062] = {
-		base = 17060,
 		id = 17062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29117,10 +25635,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17063] = {
-		base = 17060,
 		id = 17063,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29133,10 +25649,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17064] = {
-		base = 17060,
 		id = 17064,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29149,10 +25663,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17065] = {
-		base = 17060,
 		id = 17065,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29165,10 +25677,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17066] = {
-		base = 17060,
 		id = 17066,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29181,10 +25691,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17067] = {
-		base = 17060,
 		id = 17067,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29197,10 +25705,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17068] = {
-		base = 17060,
 		id = 17068,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29213,10 +25719,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17069] = {
-		base = 17060,
 		id = 17069,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29229,10 +25733,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17070] = {
-		base = 17060,
 		id = 17070,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17060,
 		ammo_info = {
 			{
 				6,
@@ -29248,8 +25750,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17060,
 		id = 17071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -29265,8 +25765,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 17060,
 		id = 17072,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -29282,8 +25780,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 17060,
 		id = 17073,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -29349,10 +25845,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17081] = {
-		base = 17080,
 		id = 17081,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29369,10 +25863,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17082] = {
-		base = 17080,
 		id = 17082,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29389,10 +25881,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17083] = {
-		base = 17080,
 		id = 17083,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29409,10 +25899,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17084] = {
-		base = 17080,
 		id = 17084,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29429,10 +25917,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17085] = {
-		base = 17080,
 		id = 17085,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29449,10 +25935,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17086] = {
-		base = 17080,
 		id = 17086,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29469,10 +25953,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17087] = {
-		base = 17080,
 		id = 17087,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29489,10 +25971,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17088] = {
-		base = 17080,
 		id = 17088,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29509,10 +25989,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17089] = {
-		base = 17080,
 		id = 17089,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29529,10 +26007,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17090] = {
-		base = 17080,
 		id = 17090,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17080,
 		ammo_info = {
 			{
 				6,
@@ -29552,8 +26028,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17080,
 		id = 17091,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -29619,10 +26093,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17101] = {
-		base = 17100,
 		id = 17101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17100,
 		ammo_info = {
 			{
 				6,
@@ -29635,10 +26107,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17102] = {
-		base = 17100,
 		id = 17102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17100,
 		ammo_info = {
 			{
 				6,
@@ -29651,10 +26121,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17103] = {
-		base = 17100,
 		id = 17103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17100,
 		ammo_info = {
 			{
 				6,
@@ -29716,10 +26184,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17121] = {
-		base = 17120,
 		id = 17121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17120,
 		ammo_info = {
 			{
 				6,
@@ -29732,10 +26198,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17122] = {
-		base = 17120,
 		id = 17122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17120,
 		ammo_info = {
 			{
 				6,
@@ -29748,10 +26212,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17123] = {
-		base = 17120,
 		id = 17123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17120,
 		ammo_info = {
 			{
 				6,
@@ -29764,10 +26226,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17124] = {
-		base = 17120,
 		id = 17124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17120,
 		ammo_info = {
 			{
 				6,
@@ -29780,10 +26240,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17125] = {
-		base = 17120,
 		id = 17125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17120,
 		ammo_info = {
 			{
 				6,
@@ -29796,10 +26254,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17126] = {
-		base = 17120,
 		id = 17126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17120,
 		ammo_info = {
 			{
 				6,
@@ -29861,10 +26317,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17141] = {
-		base = 17140,
 		id = 17141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -29877,10 +26331,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17142] = {
-		base = 17140,
 		id = 17142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -29893,10 +26345,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17143] = {
-		base = 17140,
 		id = 17143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -29909,10 +26359,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17144] = {
-		base = 17140,
 		id = 17144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -29925,10 +26373,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17145] = {
-		base = 17140,
 		id = 17145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -29941,10 +26387,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17146] = {
-		base = 17140,
 		id = 17146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -29957,10 +26401,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17147] = {
-		base = 17140,
 		id = 17147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -29973,10 +26415,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17148] = {
-		base = 17140,
 		id = 17148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -29989,10 +26429,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17149] = {
-		base = 17140,
 		id = 17149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -30005,10 +26443,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17150] = {
-		base = 17140,
 		id = 17150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17140,
 		ammo_info = {
 			{
 				6,
@@ -30024,8 +26460,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17140,
 		id = 17151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -30091,10 +26525,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17201] = {
-		base = 17200,
 		id = 17201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17200,
 		ammo_info = {
 			{
 				6,
@@ -30111,10 +26543,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17202] = {
-		base = 17200,
 		id = 17202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17200,
 		ammo_info = {
 			{
 				6,
@@ -30131,10 +26561,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17203] = {
-		base = 17200,
 		id = 17203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17200,
 		ammo_info = {
 			{
 				6,
@@ -30204,10 +26632,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17221] = {
-		base = 17220,
 		id = 17221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17220,
 		ammo_info = {
 			{
 				6,
@@ -30224,10 +26650,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17222] = {
-		base = 17220,
 		id = 17222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17220,
 		ammo_info = {
 			{
 				6,
@@ -30244,10 +26668,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17223] = {
-		base = 17220,
 		id = 17223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17220,
 		ammo_info = {
 			{
 				6,
@@ -30264,10 +26686,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17224] = {
-		base = 17220,
 		id = 17224,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17220,
 		ammo_info = {
 			{
 				6,
@@ -30284,10 +26704,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17225] = {
-		base = 17220,
 		id = 17225,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17220,
 		ammo_info = {
 			{
 				6,
@@ -30304,10 +26722,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17226] = {
-		base = 17220,
 		id = 17226,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17220,
 		ammo_info = {
 			{
 				6,
@@ -30377,10 +26793,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17241] = {
-		base = 17240,
 		id = 17241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30397,10 +26811,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17242] = {
-		base = 17240,
 		id = 17242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30417,10 +26829,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17243] = {
-		base = 17240,
 		id = 17243,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30437,10 +26847,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17244] = {
-		base = 17240,
 		id = 17244,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30457,10 +26865,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17245] = {
-		base = 17240,
 		id = 17245,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30477,10 +26883,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17246] = {
-		base = 17240,
 		id = 17246,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30497,10 +26901,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17247] = {
-		base = 17240,
 		id = 17247,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30517,10 +26919,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17248] = {
-		base = 17240,
 		id = 17248,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30537,10 +26937,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17249] = {
-		base = 17240,
 		id = 17249,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30557,10 +26955,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17250] = {
-		base = 17240,
 		id = 17250,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17240,
 		ammo_info = {
 			{
 				6,
@@ -30580,8 +26976,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17240,
 		id = 17251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -30653,10 +27047,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17261] = {
-		base = 17260,
 		id = 17261,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30673,10 +27065,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17262] = {
-		base = 17260,
 		id = 17262,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30693,10 +27083,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17263] = {
-		base = 17260,
 		id = 17263,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30713,10 +27101,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17264] = {
-		base = 17260,
 		id = 17264,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30733,10 +27119,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17265] = {
-		base = 17260,
 		id = 17265,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30753,10 +27137,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17266] = {
-		base = 17260,
 		id = 17266,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30773,10 +27155,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17267] = {
-		base = 17260,
 		id = 17267,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30793,10 +27173,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17268] = {
-		base = 17260,
 		id = 17268,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30813,10 +27191,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17269] = {
-		base = 17260,
 		id = 17269,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30833,10 +27209,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17270] = {
-		base = 17260,
 		id = 17270,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17260,
 		ammo_info = {
 			{
 				6,
@@ -30856,8 +27230,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17260,
 		id = 17271,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -30877,8 +27249,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 17260,
 		id = 17272,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -30898,8 +27268,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 17260,
 		id = 17273,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -30974,10 +27342,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17301] = {
-		base = 17300,
 		id = 17301,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17300,
 		ammo_info = {
 			{
 				6,
@@ -30998,10 +27364,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17302] = {
-		base = 17300,
 		id = 17302,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17300,
 		ammo_info = {
 			{
 				6,
@@ -31022,10 +27386,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17303] = {
-		base = 17300,
 		id = 17303,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17300,
 		ammo_info = {
 			{
 				6,
@@ -31046,10 +27408,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17304] = {
-		base = 17300,
 		id = 17304,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17300,
 		ammo_info = {
 			{
 				6,
@@ -31070,10 +27430,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17305] = {
-		base = 17300,
 		id = 17305,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17300,
 		ammo_info = {
 			{
 				6,
@@ -31094,10 +27452,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17306] = {
-		base = 17300,
 		id = 17306,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17300,
 		ammo_info = {
 			{
 				6,
@@ -31176,10 +27532,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17321] = {
-		base = 17320,
 		id = 17321,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31200,10 +27554,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17322] = {
-		base = 17320,
 		id = 17322,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31224,10 +27576,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17323] = {
-		base = 17320,
 		id = 17323,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31248,10 +27598,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17324] = {
-		base = 17320,
 		id = 17324,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31272,10 +27620,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17325] = {
-		base = 17320,
 		id = 17325,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31296,10 +27642,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17326] = {
-		base = 17320,
 		id = 17326,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31320,10 +27664,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17327] = {
-		base = 17320,
 		id = 17327,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31344,10 +27686,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17328] = {
-		base = 17320,
 		id = 17328,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31368,10 +27708,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17329] = {
-		base = 17320,
 		id = 17329,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31392,10 +27730,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17330] = {
-		base = 17320,
 		id = 17330,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17320,
 		ammo_info = {
 			{
 				6,
@@ -31474,10 +27810,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17341] = {
-		base = 17340,
 		id = 17341,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31498,10 +27832,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17342] = {
-		base = 17340,
 		id = 17342,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31522,10 +27854,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17343] = {
-		base = 17340,
 		id = 17343,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31546,10 +27876,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17344] = {
-		base = 17340,
 		id = 17344,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31570,10 +27898,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17345] = {
-		base = 17340,
 		id = 17345,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31594,10 +27920,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17346] = {
-		base = 17340,
 		id = 17346,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31618,10 +27942,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17347] = {
-		base = 17340,
 		id = 17347,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31642,10 +27964,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17348] = {
-		base = 17340,
 		id = 17348,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31666,10 +27986,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17349] = {
-		base = 17340,
 		id = 17349,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31690,10 +28008,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17350] = {
-		base = 17340,
 		id = 17350,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17340,
 		ammo_info = {
 			{
 				6,
@@ -31717,8 +28033,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17340,
 		id = 17351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -31742,8 +28056,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 17340,
 		id = 17352,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -31767,8 +28079,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 17340,
 		id = 17353,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -31842,10 +28152,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17361] = {
-		base = 17360,
 		id = 17361,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -31862,10 +28170,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17362] = {
-		base = 17360,
 		id = 17362,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -31882,10 +28188,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17363] = {
-		base = 17360,
 		id = 17363,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -31902,10 +28206,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17364] = {
-		base = 17360,
 		id = 17364,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -31922,10 +28224,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17365] = {
-		base = 17360,
 		id = 17365,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -31942,10 +28242,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17366] = {
-		base = 17360,
 		id = 17366,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -31962,10 +28260,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17367] = {
-		base = 17360,
 		id = 17367,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -31982,10 +28278,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17368] = {
-		base = 17360,
 		id = 17368,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -32002,10 +28296,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17369] = {
-		base = 17360,
 		id = 17369,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -32022,10 +28314,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17370] = {
-		base = 17360,
 		id = 17370,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17360,
 		ammo_info = {
 			{
 				6,
@@ -32045,8 +28335,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17360,
 		id = 17371,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -32066,8 +28354,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 17360,
 		id = 17372,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -32087,8 +28373,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 17360,
 		id = 17373,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -32158,10 +28442,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17381] = {
-		base = 17380,
 		id = 17381,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32178,10 +28460,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17382] = {
-		base = 17380,
 		id = 17382,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32198,10 +28478,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17383] = {
-		base = 17380,
 		id = 17383,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32218,10 +28496,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17384] = {
-		base = 17380,
 		id = 17384,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32238,10 +28514,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17385] = {
-		base = 17380,
 		id = 17385,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32258,10 +28532,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17386] = {
-		base = 17380,
 		id = 17386,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32278,10 +28550,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17387] = {
-		base = 17380,
 		id = 17387,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32298,10 +28568,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17388] = {
-		base = 17380,
 		id = 17388,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32318,10 +28586,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17389] = {
-		base = 17380,
 		id = 17389,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32338,10 +28604,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17390] = {
-		base = 17380,
 		id = 17390,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17380,
 		ammo_info = {
 			{
 				6,
@@ -32361,8 +28625,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17380,
 		id = 17391,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -32382,8 +28644,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 17380,
 		id = 17392,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -32403,8 +28663,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 17380,
 		id = 17393,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -32474,10 +28732,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17401] = {
-		base = 17400,
 		id = 17401,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32494,10 +28750,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17402] = {
-		base = 17400,
 		id = 17402,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32514,10 +28768,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17403] = {
-		base = 17400,
 		id = 17403,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32534,10 +28786,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17404] = {
-		base = 17400,
 		id = 17404,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32554,10 +28804,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17405] = {
-		base = 17400,
 		id = 17405,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32574,10 +28822,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17406] = {
-		base = 17400,
 		id = 17406,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32594,10 +28840,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17407] = {
-		base = 17400,
 		id = 17407,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32614,10 +28858,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17408] = {
-		base = 17400,
 		id = 17408,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32634,10 +28876,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17409] = {
-		base = 17400,
 		id = 17409,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32654,10 +28894,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17410] = {
-		base = 17400,
 		id = 17410,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 17400,
 		ammo_info = {
 			{
 				6,
@@ -32677,8 +28915,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 17400,
 		id = 17411,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -32746,10 +28982,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18001] = {
-		base = 18000,
 		id = 18001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18000,
 		ammo_info = {
 			{
 				6,
@@ -32765,10 +28999,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18002] = {
-		base = 18000,
 		id = 18002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18000,
 		ammo_info = {
 			{
 				6,
@@ -32784,10 +29016,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18003] = {
-		base = 18000,
 		id = 18003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18000,
 		ammo_info = {
 			{
 				6,
@@ -32855,10 +29085,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18021] = {
-		base = 18020,
 		id = 18021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18020,
 		ammo_info = {
 			{
 				6,
@@ -32874,10 +29102,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18022] = {
-		base = 18020,
 		id = 18022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18020,
 		ammo_info = {
 			{
 				6,
@@ -32893,10 +29119,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18023] = {
-		base = 18020,
 		id = 18023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18020,
 		ammo_info = {
 			{
 				6,
@@ -32964,10 +29188,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18041] = {
-		base = 18040,
 		id = 18041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18040,
 		ammo_info = {
 			{
 				6,
@@ -32983,10 +29205,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18042] = {
-		base = 18040,
 		id = 18042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18040,
 		ammo_info = {
 			{
 				6,
@@ -33002,10 +29222,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18043] = {
-		base = 18040,
 		id = 18043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18040,
 		ammo_info = {
 			{
 				6,
@@ -33021,10 +29239,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18044] = {
-		base = 18040,
 		id = 18044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18040,
 		ammo_info = {
 			{
 				6,
@@ -33040,10 +29256,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18045] = {
-		base = 18040,
 		id = 18045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18040,
 		ammo_info = {
 			{
 				6,
@@ -33059,10 +29273,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18046] = {
-		base = 18040,
 		id = 18046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18040,
 		ammo_info = {
 			{
 				6,
@@ -33078,10 +29290,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18047] = {
-		base = 18040,
 		id = 18047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18040,
 		ammo_info = {
 			{
 				6,
@@ -33151,11 +29361,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18061] = {
+		descrip = "",
 		base = 18060,
 		id = 18061,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33174,11 +29382,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18062] = {
+		descrip = "",
 		base = 18060,
 		id = 18062,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33197,11 +29403,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18063] = {
+		descrip = "",
 		base = 18060,
 		id = 18063,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33220,11 +29424,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18064] = {
+		descrip = "",
 		base = 18060,
 		id = 18064,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33243,11 +29445,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18065] = {
+		descrip = "",
 		base = 18060,
 		id = 18065,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33266,11 +29466,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18066] = {
+		descrip = "",
 		base = 18060,
 		id = 18066,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33289,11 +29487,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18067] = {
+		descrip = "",
 		base = 18060,
 		id = 18067,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33312,11 +29508,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18068] = {
+		descrip = "",
 		base = 18060,
 		id = 18068,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33335,11 +29529,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18069] = {
+		descrip = "",
 		base = 18060,
 		id = 18069,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33358,11 +29550,9 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18070] = {
+		descrip = "",
 		base = 18060,
 		id = 18070,
-		descrip = "",
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33384,8 +29574,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 18060,
 		id = 18071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33407,8 +29595,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 18060,
 		id = 18072,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33430,8 +29616,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 18060,
 		id = 18073,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -33502,10 +29686,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18101] = {
-		base = 18100,
 		id = 18101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18100,
 		ammo_info = {
 			{
 				6,
@@ -33521,10 +29703,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18102] = {
-		base = 18100,
 		id = 18102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18100,
 		ammo_info = {
 			{
 				6,
@@ -33540,10 +29720,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18103] = {
-		base = 18100,
 		id = 18103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18100,
 		ammo_info = {
 			{
 				6,
@@ -33611,10 +29789,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18121] = {
-		base = 18120,
 		id = 18121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18120,
 		ammo_info = {
 			{
 				6,
@@ -33630,10 +29806,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18122] = {
-		base = 18120,
 		id = 18122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18120,
 		ammo_info = {
 			{
 				6,
@@ -33649,10 +29823,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18123] = {
-		base = 18120,
 		id = 18123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18120,
 		ammo_info = {
 			{
 				6,
@@ -33668,10 +29840,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18124] = {
-		base = 18120,
 		id = 18124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18120,
 		ammo_info = {
 			{
 				6,
@@ -33687,10 +29857,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18125] = {
-		base = 18120,
 		id = 18125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18120,
 		ammo_info = {
 			{
 				6,
@@ -33706,10 +29874,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18126] = {
-		base = 18120,
 		id = 18126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18120,
 		ammo_info = {
 			{
 				6,
@@ -33777,10 +29943,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18141] = {
-		base = 18140,
 		id = 18141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33796,10 +29960,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18142] = {
-		base = 18140,
 		id = 18142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33815,10 +29977,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18143] = {
-		base = 18140,
 		id = 18143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33834,10 +29994,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18144] = {
-		base = 18140,
 		id = 18144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33853,10 +30011,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18145] = {
-		base = 18140,
 		id = 18145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33872,10 +30028,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18146] = {
-		base = 18140,
 		id = 18146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33891,10 +30045,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18147] = {
-		base = 18140,
 		id = 18147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33910,10 +30062,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18148] = {
-		base = 18140,
 		id = 18148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33929,10 +30079,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18149] = {
-		base = 18140,
 		id = 18149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33948,10 +30096,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18150] = {
-		base = 18140,
 		id = 18150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18140,
 		ammo_info = {
 			{
 				6,
@@ -33970,8 +30116,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 18140,
 		id = 18151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34043,8 +30187,6 @@ pg.equip_data_statistics = {
 	[18181] = {
 		base = 18180,
 		id = 18181,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34065,8 +30207,6 @@ pg.equip_data_statistics = {
 	[18182] = {
 		base = 18180,
 		id = 18182,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34087,8 +30227,6 @@ pg.equip_data_statistics = {
 	[18183] = {
 		base = 18180,
 		id = 18183,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34109,8 +30247,6 @@ pg.equip_data_statistics = {
 	[18184] = {
 		base = 18180,
 		id = 18184,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34131,8 +30267,6 @@ pg.equip_data_statistics = {
 	[18185] = {
 		base = 18180,
 		id = 18185,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34153,8 +30287,6 @@ pg.equip_data_statistics = {
 	[18186] = {
 		base = 18180,
 		id = 18186,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34175,8 +30307,6 @@ pg.equip_data_statistics = {
 	[18187] = {
 		base = 18180,
 		id = 18187,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34197,8 +30327,6 @@ pg.equip_data_statistics = {
 	[18188] = {
 		base = 18180,
 		id = 18188,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34219,8 +30347,6 @@ pg.equip_data_statistics = {
 	[18189] = {
 		base = 18180,
 		id = 18189,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34241,8 +30367,6 @@ pg.equip_data_statistics = {
 	[18190] = {
 		base = 18180,
 		id = 18190,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34264,8 +30388,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 18180,
 		id = 18191,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34287,8 +30409,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 18180,
 		id = 18192,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34310,8 +30430,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 18180,
 		id = 18193,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34382,10 +30500,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18221] = {
-		base = 18220,
 		id = 18221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34401,10 +30517,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18222] = {
-		base = 18220,
 		id = 18222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34420,10 +30534,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18223] = {
-		base = 18220,
 		id = 18223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34439,10 +30551,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18224] = {
-		base = 18220,
 		id = 18224,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34458,10 +30568,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18225] = {
-		base = 18220,
 		id = 18225,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34477,10 +30585,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18226] = {
-		base = 18220,
 		id = 18226,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34496,10 +30602,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18227] = {
-		base = 18220,
 		id = 18227,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34515,10 +30619,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18228] = {
-		base = 18220,
 		id = 18228,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34534,10 +30636,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18229] = {
-		base = 18220,
 		id = 18229,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34553,10 +30653,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[18230] = {
-		base = 18220,
 		id = 18230,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 18220,
 		ammo_info = {
 			{
 				6,
@@ -34575,8 +30673,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 18220,
 		id = 18231,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34595,8 +30691,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 18220,
 		id = 18232,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34615,8 +30709,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 18220,
 		id = 18233,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -34687,10 +30779,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19001] = {
-		base = 19000,
 		id = 19001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19000,
 		ammo_info = {
 			{
 				6,
@@ -34710,10 +30800,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19002] = {
-		base = 19000,
 		id = 19002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19000,
 		ammo_info = {
 			{
 				6,
@@ -34733,10 +30821,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19003] = {
-		base = 19000,
 		id = 19003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19000,
 		ammo_info = {
 			{
 				6,
@@ -34812,10 +30898,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19021] = {
-		base = 19020,
 		id = 19021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19020,
 		ammo_info = {
 			{
 				6,
@@ -34835,10 +30919,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19022] = {
-		base = 19020,
 		id = 19022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19020,
 		ammo_info = {
 			{
 				6,
@@ -34858,10 +30940,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19023] = {
-		base = 19020,
 		id = 19023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19020,
 		ammo_info = {
 			{
 				6,
@@ -34937,10 +31017,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19041] = {
-		base = 19040,
 		id = 19041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19040,
 		ammo_info = {
 			{
 				6,
@@ -34960,10 +31038,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19042] = {
-		base = 19040,
 		id = 19042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19040,
 		ammo_info = {
 			{
 				6,
@@ -34983,10 +31059,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19043] = {
-		base = 19040,
 		id = 19043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19040,
 		ammo_info = {
 			{
 				6,
@@ -35006,10 +31080,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19044] = {
-		base = 19040,
 		id = 19044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19040,
 		ammo_info = {
 			{
 				6,
@@ -35029,10 +31101,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19045] = {
-		base = 19040,
 		id = 19045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19040,
 		ammo_info = {
 			{
 				6,
@@ -35052,10 +31122,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19046] = {
-		base = 19040,
 		id = 19046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19040,
 		ammo_info = {
 			{
 				6,
@@ -35075,10 +31143,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19047] = {
-		base = 19040,
 		id = 19047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19040,
 		ammo_info = {
 			{
 				6,
@@ -35152,10 +31218,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19061] = {
-		base = 19060,
 		id = 19061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35171,10 +31235,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19062] = {
-		base = 19060,
 		id = 19062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35190,10 +31252,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19063] = {
-		base = 19060,
 		id = 19063,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35209,10 +31269,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19064] = {
-		base = 19060,
 		id = 19064,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35228,10 +31286,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19065] = {
-		base = 19060,
 		id = 19065,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35247,10 +31303,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19066] = {
-		base = 19060,
 		id = 19066,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35266,10 +31320,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19067] = {
-		base = 19060,
 		id = 19067,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35285,10 +31337,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19068] = {
-		base = 19060,
 		id = 19068,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35304,10 +31354,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19069] = {
-		base = 19060,
 		id = 19069,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35323,10 +31371,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19070] = {
-		base = 19060,
 		id = 19070,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19060,
 		ammo_info = {
 			{
 				5,
@@ -35345,8 +31391,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 19060,
 		id = 19071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				5,
@@ -35365,8 +31409,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 19060,
 		id = 19072,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				5,
@@ -35385,8 +31427,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 19060,
 		id = 19073,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				5,
@@ -35458,10 +31498,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19101] = {
-		base = 19100,
 		id = 19101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19100,
 		ammo_info = {
 			{
 				6,
@@ -35481,10 +31519,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19102] = {
-		base = 19100,
 		id = 19102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19100,
 		ammo_info = {
 			{
 				6,
@@ -35504,10 +31540,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19103] = {
-		base = 19100,
 		id = 19103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19100,
 		ammo_info = {
 			{
 				6,
@@ -35583,10 +31617,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19121] = {
-		base = 19120,
 		id = 19121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19120,
 		ammo_info = {
 			{
 				6,
@@ -35606,10 +31638,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19122] = {
-		base = 19120,
 		id = 19122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19120,
 		ammo_info = {
 			{
 				6,
@@ -35629,10 +31659,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19123] = {
-		base = 19120,
 		id = 19123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19120,
 		ammo_info = {
 			{
 				6,
@@ -35652,10 +31680,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19124] = {
-		base = 19120,
 		id = 19124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19120,
 		ammo_info = {
 			{
 				6,
@@ -35675,10 +31701,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19125] = {
-		base = 19120,
 		id = 19125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19120,
 		ammo_info = {
 			{
 				6,
@@ -35698,10 +31722,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19126] = {
-		base = 19120,
 		id = 19126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19120,
 		ammo_info = {
 			{
 				6,
@@ -35777,10 +31799,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19141] = {
-		base = 19140,
 		id = 19141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35800,10 +31820,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19142] = {
-		base = 19140,
 		id = 19142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35823,10 +31841,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19143] = {
-		base = 19140,
 		id = 19143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35846,10 +31862,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19144] = {
-		base = 19140,
 		id = 19144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35869,10 +31883,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19145] = {
-		base = 19140,
 		id = 19145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35892,10 +31904,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19146] = {
-		base = 19140,
 		id = 19146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35915,10 +31925,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19147] = {
-		base = 19140,
 		id = 19147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35938,10 +31946,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19148] = {
-		base = 19140,
 		id = 19148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35961,10 +31967,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19149] = {
-		base = 19140,
 		id = 19149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -35984,10 +31988,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19150] = {
-		base = 19140,
 		id = 19150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19140,
 		ammo_info = {
 			{
 				6,
@@ -36010,8 +32012,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 19140,
 		id = 19151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -36087,10 +32087,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19161] = {
-		base = 19160,
 		id = 19161,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36110,10 +32108,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19162] = {
-		base = 19160,
 		id = 19162,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36133,10 +32129,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19163] = {
-		base = 19160,
 		id = 19163,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36156,10 +32150,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19164] = {
-		base = 19160,
 		id = 19164,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36179,10 +32171,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19165] = {
-		base = 19160,
 		id = 19165,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36202,10 +32192,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19166] = {
-		base = 19160,
 		id = 19166,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36225,10 +32213,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19167] = {
-		base = 19160,
 		id = 19167,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36248,10 +32234,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19168] = {
-		base = 19160,
 		id = 19168,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36271,10 +32255,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19169] = {
-		base = 19160,
 		id = 19169,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36294,10 +32276,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19170] = {
-		base = 19160,
 		id = 19170,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19160,
 		ammo_info = {
 			{
 				6,
@@ -36320,8 +32300,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 19160,
 		id = 19171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -36344,8 +32322,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 19160,
 		id = 19172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -36368,8 +32344,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 19160,
 		id = 19173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -36441,10 +32415,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19201] = {
-		base = 19200,
 		id = 19201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19200,
 		ammo_info = {
 			{
 				6,
@@ -36460,10 +32432,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19202] = {
-		base = 19200,
 		id = 19202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19200,
 		ammo_info = {
 			{
 				6,
@@ -36479,10 +32449,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19203] = {
-		base = 19200,
 		id = 19203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19200,
 		ammo_info = {
 			{
 				6,
@@ -36498,10 +32466,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19204] = {
-		base = 19200,
 		id = 19204,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19200,
 		ammo_info = {
 			{
 				6,
@@ -36517,10 +32483,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19205] = {
-		base = 19200,
 		id = 19205,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19200,
 		ammo_info = {
 			{
 				6,
@@ -36536,10 +32500,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19206] = {
-		base = 19200,
 		id = 19206,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19200,
 		ammo_info = {
 			{
 				6,
@@ -36607,10 +32569,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19221] = {
-		base = 19220,
 		id = 19221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36626,10 +32586,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19222] = {
-		base = 19220,
 		id = 19222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36645,10 +32603,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19223] = {
-		base = 19220,
 		id = 19223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36664,10 +32620,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19224] = {
-		base = 19220,
 		id = 19224,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36683,10 +32637,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19225] = {
-		base = 19220,
 		id = 19225,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36702,10 +32654,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19226] = {
-		base = 19220,
 		id = 19226,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36721,10 +32671,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19227] = {
-		base = 19220,
 		id = 19227,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36740,10 +32688,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19228] = {
-		base = 19220,
 		id = 19228,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36759,10 +32705,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19229] = {
-		base = 19220,
 		id = 19229,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36778,10 +32722,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19230] = {
-		base = 19220,
 		id = 19230,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19220,
 		ammo_info = {
 			{
 				6,
@@ -36849,10 +32791,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19241] = {
-		base = 19240,
 		id = 19241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -36868,10 +32808,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19242] = {
-		base = 19240,
 		id = 19242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -36887,10 +32825,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19243] = {
-		base = 19240,
 		id = 19243,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -36906,10 +32842,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19244] = {
-		base = 19240,
 		id = 19244,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -36925,10 +32859,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19245] = {
-		base = 19240,
 		id = 19245,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -36944,10 +32876,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19246] = {
-		base = 19240,
 		id = 19246,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -36963,10 +32893,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19247] = {
-		base = 19240,
 		id = 19247,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -36982,10 +32910,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19248] = {
-		base = 19240,
 		id = 19248,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -37001,10 +32927,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19249] = {
-		base = 19240,
 		id = 19249,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -37020,10 +32944,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[19250] = {
-		base = 19240,
 		id = 19250,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 19240,
 		ammo_info = {
 			{
 				6,
@@ -37042,8 +32964,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 19240,
 		id = 19251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -37062,8 +32982,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 19240,
 		id = 19252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -37082,8 +33000,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 19240,
 		id = 19253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -37164,30 +33080,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21001] = {
-		base = 21000,
 		id = 21001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21000,
 		weapon_id = {
 			21001
 		}
 	},
 	[21002] = {
+		id = 21002,
 		damage = "4 x 1",
 		base = 21000,
-		id = 21002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21002
 		}
 	},
 	[21003] = {
+		id = 21003,
 		damage = "4 x 1",
 		base = 21000,
-		id = 21003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21003
 		}
@@ -37259,30 +33169,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21021] = {
-		base = 21020,
 		id = 21021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21020,
 		weapon_id = {
 			21021
 		}
 	},
 	[21022] = {
+		id = 21022,
 		damage = "4 x 1",
 		base = 21020,
-		id = 21022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21022
 		}
 	},
 	[21023] = {
+		id = 21023,
 		damage = "4 x 1",
 		base = 21020,
-		id = 21023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21023
 		}
@@ -37354,70 +33258,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21041] = {
-		base = 21040,
 		id = 21041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21040,
 		weapon_id = {
 			21041
 		}
 	},
 	[21042] = {
+		id = 21042,
 		damage = "4 x 1",
 		base = 21040,
-		id = 21042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21042
 		}
 	},
 	[21043] = {
+		id = 21043,
 		damage = "4 x 1",
 		base = 21040,
-		id = 21043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21043
 		}
 	},
 	[21044] = {
+		id = 21044,
 		damage = "5 x 1",
 		base = 21040,
-		id = 21044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21044
 		}
 	},
 	[21045] = {
+		id = 21045,
 		damage = "5 x 1",
 		base = 21040,
-		id = 21045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21045
 		}
 	},
 	[21046] = {
+		id = 21046,
 		damage = "7 x 1",
 		base = 21040,
-		id = 21046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21046
 		}
 	},
 	[21047] = {
+		id = 21047,
 		damage = "7 x 1",
 		base = 21040,
-		id = 21047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21047
 		}
@@ -37488,30 +33378,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21101] = {
-		base = 21100,
 		id = 21101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21100,
 		weapon_id = {
 			21101
 		}
 	},
 	[21102] = {
+		id = 21102,
 		damage = "4 x 2",
 		base = 21100,
-		id = 21102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21102
 		}
 	},
 	[21103] = {
+		id = 21103,
 		damage = "4 x 2",
 		base = 21100,
-		id = 21103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21103
 		}
@@ -37583,30 +33467,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21121] = {
-		base = 21120,
 		id = 21121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21120,
 		weapon_id = {
 			21121
 		}
 	},
 	[21122] = {
+		id = 21122,
 		damage = "4 x 2",
 		base = 21120,
-		id = 21122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21122
 		}
 	},
 	[21123] = {
+		id = 21123,
 		damage = "4 x 2",
 		base = 21120,
-		id = 21123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21123
 		}
@@ -37678,70 +33556,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21141] = {
-		base = 21140,
 		id = 21141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21140,
 		weapon_id = {
 			21141
 		}
 	},
 	[21142] = {
+		id = 21142,
 		damage = "4 x 2",
 		base = 21140,
-		id = 21142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21142
 		}
 	},
 	[21143] = {
+		id = 21143,
 		damage = "4 x 2",
 		base = 21140,
-		id = 21143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21143
 		}
 	},
 	[21144] = {
+		id = 21144,
 		damage = "5 x 2",
 		base = 21140,
-		id = 21144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21144
 		}
 	},
 	[21145] = {
+		id = 21145,
 		damage = "5 x 2",
 		base = 21140,
-		id = 21145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21145
 		}
 	},
 	[21146] = {
+		id = 21146,
 		damage = "7 x 2",
 		base = 21140,
-		id = 21146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21146
 		}
 	},
 	[21147] = {
+		id = 21147,
 		damage = "7 x 2",
 		base = 21140,
-		id = 21147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21147
 		}
@@ -37811,100 +33675,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21161] = {
-		base = 21160,
 		id = 21161,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21160,
 		weapon_id = {
 			21161
 		}
 	},
 	[21162] = {
+		id = 21162,
 		damage = "4 x 2",
 		base = 21160,
-		id = 21162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21162
 		}
 	},
 	[21163] = {
+		id = 21163,
 		damage = "4 x 2",
 		base = 21160,
-		id = 21163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21163
 		}
 	},
 	[21164] = {
+		id = 21164,
 		damage = "5 x 2",
 		base = 21160,
-		id = 21164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21164
 		}
 	},
 	[21165] = {
+		id = 21165,
 		damage = "5 x 2",
 		base = 21160,
-		id = 21165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21165
 		}
 	},
 	[21166] = {
+		id = 21166,
 		damage = "8 x 2",
 		base = 21160,
-		id = 21166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21166
 		}
 	},
 	[21167] = {
+		id = 21167,
 		damage = "8 x 2",
 		base = 21160,
-		id = 21167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21167
 		}
 	},
 	[21168] = {
+		id = 21168,
 		damage = "9 x 2",
 		base = 21160,
-		id = 21168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21168
 		}
 	},
 	[21169] = {
+		id = 21169,
 		damage = "9 x 2",
 		base = 21160,
-		id = 21169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21169
 		}
 	},
 	[21170] = {
+		id = 21170,
 		damage = "10 x 2",
 		base = 21160,
-		id = 21170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21170
 		}
@@ -37914,8 +33758,6 @@ pg.equip_data_statistics = {
 		damage = "10 x 2",
 		base = 21160,
 		id = 21171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21171
 		}
@@ -37987,30 +33829,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21201] = {
-		base = 21200,
 		id = 21201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21200,
 		weapon_id = {
 			21201
 		}
 	},
 	[21202] = {
+		id = 21202,
 		damage = "4 x 3",
 		base = 21200,
-		id = 21202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21202
 		}
 	},
 	[21203] = {
+		id = 21203,
 		damage = "4 x 3",
 		base = 21200,
-		id = 21203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21203
 		}
@@ -38082,60 +33918,48 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21221] = {
-		base = 21220,
 		id = 21221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21220,
 		weapon_id = {
 			21221
 		}
 	},
 	[21222] = {
+		id = 21222,
 		damage = "4 x 3",
 		base = 21220,
-		id = 21222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21222
 		}
 	},
 	[21223] = {
+		id = 21223,
 		damage = "4 x 3",
 		base = 21220,
-		id = 21223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21223
 		}
 	},
 	[21224] = {
+		id = 21224,
 		damage = "5 x 3",
 		base = 21220,
-		id = 21224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21224
 		}
 	},
 	[21225] = {
+		id = 21225,
 		damage = "5 x 3",
 		base = 21220,
-		id = 21225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21225
 		}
 	},
 	[21226] = {
+		id = 21226,
 		damage = "7 x 3",
 		base = 21220,
-		id = 21226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21226
 		}
@@ -38207,100 +34031,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21241] = {
-		base = 21240,
 		id = 21241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21240,
 		weapon_id = {
 			21241
 		}
 	},
 	[21242] = {
+		id = 21242,
 		damage = "4 x 3",
 		base = 21240,
-		id = 21242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21242
 		}
 	},
 	[21243] = {
+		id = 21243,
 		damage = "4 x 3",
 		base = 21240,
-		id = 21243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21243
 		}
 	},
 	[21244] = {
+		id = 21244,
 		damage = "5 x 3",
 		base = 21240,
-		id = 21244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21244
 		}
 	},
 	[21245] = {
+		id = 21245,
 		damage = "5 x 3",
 		base = 21240,
-		id = 21245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21245
 		}
 	},
 	[21246] = {
+		id = 21246,
 		damage = "8 x 3",
 		base = 21240,
-		id = 21246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21246
 		}
 	},
 	[21247] = {
+		id = 21247,
 		damage = "8 x 3",
 		base = 21240,
-		id = 21247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21247
 		}
 	},
 	[21248] = {
+		id = 21248,
 		damage = "9 x 3",
 		base = 21240,
-		id = 21248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21248
 		}
 	},
 	[21249] = {
+		id = 21249,
 		damage = "9 x 3",
 		base = 21240,
-		id = 21249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21249
 		}
 	},
 	[21250] = {
+		id = 21250,
 		damage = "10 x 3",
 		base = 21240,
-		id = 21250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21250
 		}
@@ -38310,8 +34114,6 @@ pg.equip_data_statistics = {
 		damage = "10 x 3",
 		base = 21240,
 		id = 21251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21251
 		}
@@ -38382,30 +34184,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21301] = {
-		base = 21300,
 		id = 21301,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21300,
 		weapon_id = {
 			21301
 		}
 	},
 	[21302] = {
+		id = 21302,
 		damage = "6 x 1",
 		base = 21300,
-		id = 21302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21302
 		}
 	},
 	[21303] = {
+		id = 21303,
 		damage = "6 x 1",
 		base = 21300,
-		id = 21303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21303
 		}
@@ -38477,30 +34273,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21321] = {
-		base = 21320,
 		id = 21321,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21320,
 		weapon_id = {
 			21321
 		}
 	},
 	[21322] = {
+		id = 21322,
 		damage = "6 x 1",
 		base = 21320,
-		id = 21322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21322
 		}
 	},
 	[21323] = {
+		id = 21323,
 		damage = "7 x 1",
 		base = 21320,
-		id = 21323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21323
 		}
@@ -38572,70 +34362,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21341] = {
-		base = 21340,
 		id = 21341,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21340,
 		weapon_id = {
 			21341
 		}
 	},
 	[21342] = {
+		id = 21342,
 		damage = "7 x 1",
 		base = 21340,
-		id = 21342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21342
 		}
 	},
 	[21343] = {
+		id = 21343,
 		damage = "8 x 1",
 		base = 21340,
-		id = 21343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21343
 		}
 	},
 	[21344] = {
+		id = 21344,
 		damage = "9 x 1",
 		base = 21340,
-		id = 21344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21344
 		}
 	},
 	[21345] = {
+		id = 21345,
 		damage = "10 x 1",
 		base = 21340,
-		id = 21345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21345
 		}
 	},
 	[21346] = {
+		id = 21346,
 		damage = "11 x 1",
 		base = 21340,
-		id = 21346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21346
 		}
 	},
 	[21347] = {
+		id = 21347,
 		damage = "11 x 1",
 		base = 21340,
-		id = 21347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21347
 		}
@@ -38707,30 +34483,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21401] = {
-		base = 21400,
 		id = 21401,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21400,
 		weapon_id = {
 			21401
 		}
 	},
 	[21402] = {
+		id = 21402,
 		damage = "6 x 4",
 		base = 21400,
-		id = 21402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21402
 		}
 	},
 	[21403] = {
+		id = 21403,
 		damage = "6 x 4",
 		base = 21400,
-		id = 21403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21403
 		}
@@ -38802,60 +34572,48 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21421] = {
-		base = 21420,
 		id = 21421,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21420,
 		weapon_id = {
 			21421
 		}
 	},
 	[21422] = {
+		id = 21422,
 		damage = "6 x 4",
 		base = 21420,
-		id = 21422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21422
 		}
 	},
 	[21423] = {
+		id = 21423,
 		damage = "7 x 4",
 		base = 21420,
-		id = 21423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21423
 		}
 	},
 	[21424] = {
+		id = 21424,
 		damage = "8 x 4",
 		base = 21420,
-		id = 21424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21424
 		}
 	},
 	[21425] = {
+		id = 21425,
 		damage = "9 x 4",
 		base = 21420,
-		id = 21425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21425
 		}
 	},
 	[21426] = {
+		id = 21426,
 		damage = "10 x 4",
 		base = 21420,
-		id = 21426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21426
 		}
@@ -38927,100 +34685,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21441] = {
-		base = 21440,
 		id = 21441,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21440,
 		weapon_id = {
 			21441
 		}
 	},
 	[21442] = {
+		id = 21442,
 		damage = "7 x 4",
 		base = 21440,
-		id = 21442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21442
 		}
 	},
 	[21443] = {
+		id = 21443,
 		damage = "8 x 4",
 		base = 21440,
-		id = 21443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21443
 		}
 	},
 	[21444] = {
+		id = 21444,
 		damage = "9 x 4",
 		base = 21440,
-		id = 21444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21444
 		}
 	},
 	[21445] = {
+		id = 21445,
 		damage = "10 x 4",
 		base = 21440,
-		id = 21445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21445
 		}
 	},
 	[21446] = {
+		id = 21446,
 		damage = "11 x 4",
 		base = 21440,
-		id = 21446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21446
 		}
 	},
 	[21447] = {
+		id = 21447,
 		damage = "12 x 4",
 		base = 21440,
-		id = 21447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21447
 		}
 	},
 	[21448] = {
+		id = 21448,
 		damage = "13 x 4",
 		base = 21440,
-		id = 21448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21448
 		}
 	},
 	[21449] = {
+		id = 21449,
 		damage = "14 x 4",
 		base = 21440,
-		id = 21449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21449
 		}
 	},
 	[21450] = {
+		id = 21450,
 		damage = "15 x 4",
 		base = 21440,
-		id = 21450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21450
 		}
@@ -39030,8 +34768,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 4",
 		base = 21440,
 		id = 21451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21451
 		}
@@ -39102,101 +34838,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21461] = {
+		id = 21461,
 		damage = "7 x 4",
 		base = 21460,
-		id = 21461,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21461
 		}
 	},
 	[21462] = {
+		id = 21462,
 		damage = "8 x 4",
 		base = 21460,
-		id = 21462,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21462
 		}
 	},
 	[21463] = {
+		id = 21463,
 		damage = "9 x 4",
 		base = 21460,
-		id = 21463,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21463
 		}
 	},
 	[21464] = {
+		id = 21464,
 		damage = "10 x 4",
 		base = 21460,
-		id = 21464,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21464
 		}
 	},
 	[21465] = {
+		id = 21465,
 		damage = "11 x 4",
 		base = 21460,
-		id = 21465,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21465
 		}
 	},
 	[21466] = {
+		id = 21466,
 		damage = "12 x 4",
 		base = 21460,
-		id = 21466,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21466
 		}
 	},
 	[21467] = {
+		id = 21467,
 		damage = "13 x 4",
 		base = 21460,
-		id = 21467,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21467
 		}
 	},
 	[21468] = {
+		id = 21468,
 		damage = "14 x 4",
 		base = 21460,
-		id = 21468,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21468
 		}
 	},
 	[21469] = {
+		id = 21469,
 		damage = "15 x 4",
 		base = 21460,
-		id = 21469,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21469
 		}
 	},
 	[21470] = {
+		id = 21470,
 		damage = "17 x 4",
 		base = 21460,
-		id = 21470,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21470
 		}
@@ -39206,8 +34922,6 @@ pg.equip_data_statistics = {
 		damage = "17 x 4",
 		base = 21460,
 		id = 21471,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21471
 		}
@@ -39217,8 +34931,6 @@ pg.equip_data_statistics = {
 		damage = "17 x 4",
 		base = 21460,
 		id = 21472,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21472
 		}
@@ -39228,8 +34940,6 @@ pg.equip_data_statistics = {
 		damage = "17 x 4",
 		base = 21460,
 		id = 21473,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21473
 		}
@@ -39302,30 +35012,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21501] = {
-		base = 21500,
 		id = 21501,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21500,
 		weapon_id = {
 			21501
 		}
 	},
 	[21502] = {
+		id = 21502,
 		damage = "6 x 2",
 		base = 21500,
-		id = 21502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21502
 		}
 	},
 	[21503] = {
+		id = 21503,
 		damage = "6 x 2",
 		base = 21500,
-		id = 21503,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21503
 		}
@@ -39399,60 +35103,48 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21521] = {
-		base = 21520,
 		id = 21521,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21520,
 		weapon_id = {
 			21521
 		}
 	},
 	[21522] = {
+		id = 21522,
 		damage = "6 x 2",
 		base = 21520,
-		id = 21522,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21522
 		}
 	},
 	[21523] = {
+		id = 21523,
 		damage = "6 x 2",
 		base = 21520,
-		id = 21523,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21523
 		}
 	},
 	[21524] = {
+		id = 21524,
 		damage = "7 x 2",
 		base = 21520,
-		id = 21524,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21524
 		}
 	},
 	[21525] = {
+		id = 21525,
 		damage = "7 x 2",
 		base = 21520,
-		id = 21525,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21525
 		}
 	},
 	[21526] = {
+		id = 21526,
 		damage = "8 x 2",
 		base = 21520,
-		id = 21526,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21526
 		}
@@ -39526,100 +35218,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21541] = {
-		base = 21540,
 		id = 21541,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 21540,
 		weapon_id = {
 			21541
 		}
 	},
 	[21542] = {
+		id = 21542,
 		damage = "7 x 2",
 		base = 21540,
-		id = 21542,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21542
 		}
 	},
 	[21543] = {
+		id = 21543,
 		damage = "7 x 2",
 		base = 21540,
-		id = 21543,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21543
 		}
 	},
 	[21544] = {
+		id = 21544,
 		damage = "8 x 2",
 		base = 21540,
-		id = 21544,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21544
 		}
 	},
 	[21545] = {
+		id = 21545,
 		damage = "8 x 2",
 		base = 21540,
-		id = 21545,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21545
 		}
 	},
 	[21546] = {
+		id = 21546,
 		damage = "9 x 2",
 		base = 21540,
-		id = 21546,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21546
 		}
 	},
 	[21547] = {
+		id = 21547,
 		damage = "9 x 2",
 		base = 21540,
-		id = 21547,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21547
 		}
 	},
 	[21548] = {
+		id = 21548,
 		damage = "10 x 2",
 		base = 21540,
-		id = 21548,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21548
 		}
 	},
 	[21549] = {
+		id = 21549,
 		damage = "10 x 2",
 		base = 21540,
-		id = 21549,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21549
 		}
 	},
 	[21550] = {
+		id = 21550,
 		damage = "11 x 2",
 		base = 21540,
-		id = 21550,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21550
 		}
@@ -39629,8 +35301,6 @@ pg.equip_data_statistics = {
 		damage = "11 x 2",
 		base = 21540,
 		id = 21551,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21551
 		}
@@ -39704,101 +35374,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[21601] = {
+		id = 21601,
 		damage = "4 x 4",
 		base = 21600,
-		id = 21601,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21601
 		}
 	},
 	[21602] = {
+		id = 21602,
 		damage = "5 x 4",
 		base = 21600,
-		id = 21602,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21602
 		}
 	},
 	[21603] = {
+		id = 21603,
 		damage = "6 x 4",
 		base = 21600,
-		id = 21603,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21603
 		}
 	},
 	[21604] = {
+		id = 21604,
 		damage = "7 x 4",
 		base = 21600,
-		id = 21604,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21604
 		}
 	},
 	[21605] = {
+		id = 21605,
 		damage = "8 x 4",
 		base = 21600,
-		id = 21605,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21605
 		}
 	},
 	[21606] = {
+		id = 21606,
 		damage = "9 x 4",
 		base = 21600,
-		id = 21606,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21606
 		}
 	},
 	[21607] = {
+		id = 21607,
 		damage = "10 x 4",
 		base = 21600,
-		id = 21607,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21607
 		}
 	},
 	[21608] = {
+		id = 21608,
 		damage = "11 x 4",
 		base = 21600,
-		id = 21608,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21608
 		}
 	},
 	[21609] = {
+		id = 21609,
 		damage = "12 x 4",
 		base = 21600,
-		id = 21609,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21609
 		}
 	},
 	[21610] = {
+		id = 21610,
 		damage = "13 x 4",
 		base = 21600,
-		id = 21610,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21610
 		}
@@ -39808,8 +35458,6 @@ pg.equip_data_statistics = {
 		damage = "13 x 4",
 		base = 21600,
 		id = 21611,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21611
 		}
@@ -39819,8 +35467,6 @@ pg.equip_data_statistics = {
 		damage = "13 x 4",
 		base = 21600,
 		id = 21612,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21612
 		}
@@ -39830,8 +35476,6 @@ pg.equip_data_statistics = {
 		damage = "13 x 4",
 		base = 21600,
 		id = 21613,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			21613
 		}
@@ -39896,31 +35540,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22001] = {
+		id = 22001,
 		damage = "9 x 3",
 		base = 22000,
-		id = 22001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22001
 		}
 	},
 	[22002] = {
+		id = 22002,
 		damage = "10 x 3",
 		base = 22000,
-		id = 22002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22002
 		}
 	},
 	[22003] = {
+		id = 22003,
 		damage = "11 x 3",
 		base = 22000,
-		id = 22003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22003
 		}
@@ -39986,31 +35624,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22021] = {
+		id = 22021,
 		damage = "10 x 3",
 		base = 22020,
-		id = 22021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22021
 		}
 	},
 	[22022] = {
+		id = 22022,
 		damage = "11 x 3",
 		base = 22020,
-		id = 22022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22022
 		}
 	},
 	[22023] = {
+		id = 22023,
 		damage = "12 x 3",
 		base = 22020,
-		id = 22023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22023
 		}
@@ -40076,71 +35708,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22041] = {
+		id = 22041,
 		damage = "11 x 3",
 		base = 22040,
-		id = 22041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22041
 		}
 	},
 	[22042] = {
+		id = 22042,
 		damage = "12 x 3",
 		base = 22040,
-		id = 22042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22042
 		}
 	},
 	[22043] = {
+		id = 22043,
 		damage = "13 x 3",
 		base = 22040,
-		id = 22043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22043
 		}
 	},
 	[22044] = {
+		id = 22044,
 		damage = "14 x 3",
 		base = 22040,
-		id = 22044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22044
 		}
 	},
 	[22045] = {
+		id = 22045,
 		damage = "15 x 3",
 		base = 22040,
-		id = 22045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22045
 		}
 	},
 	[22046] = {
+		id = 22046,
 		damage = "16 x 3",
 		base = 22040,
-		id = 22046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22046
 		}
 	},
 	[22047] = {
+		id = 22047,
 		damage = "16 x 3",
 		base = 22040,
-		id = 22047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22047
 		}
@@ -40206,71 +35824,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22061] = {
+		id = 22061,
 		damage = "11 x 4",
 		base = 22060,
-		id = 22061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22061
 		}
 	},
 	[22062] = {
+		id = 22062,
 		damage = "12 x 4",
 		base = 22060,
-		id = 22062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22062
 		}
 	},
 	[22063] = {
+		id = 22063,
 		damage = "13 x 4",
 		base = 22060,
-		id = 22063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22063
 		}
 	},
 	[22064] = {
+		id = 22064,
 		damage = "14 x 4",
 		base = 22060,
-		id = 22064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22064
 		}
 	},
 	[22065] = {
+		id = 22065,
 		damage = "15 x 4",
 		base = 22060,
-		id = 22065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22065
 		}
 	},
 	[22066] = {
+		id = 22066,
 		damage = "16 x 4",
 		base = 22060,
-		id = 22066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22066
 		}
 	},
 	[22067] = {
+		id = 22067,
 		damage = "16 x 4",
 		base = 22060,
-		id = 22067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22067
 		}
@@ -40336,31 +35940,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22101] = {
+		id = 22101,
 		damage = "9 x 4",
 		base = 22100,
-		id = 22101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22101
 		}
 	},
 	[22102] = {
+		id = 22102,
 		damage = "10 x 4",
 		base = 22100,
-		id = 22102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22102
 		}
 	},
 	[22103] = {
+		id = 22103,
 		damage = "11 x 4",
 		base = 22100,
-		id = 22103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22103
 		}
@@ -40426,61 +36024,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22121] = {
+		id = 22121,
 		damage = "10 x 4",
 		base = 22120,
-		id = 22121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22121
 		}
 	},
 	[22122] = {
+		id = 22122,
 		damage = "11 x 4",
 		base = 22120,
-		id = 22122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22122
 		}
 	},
 	[22123] = {
+		id = 22123,
 		damage = "12 x 4",
 		base = 22120,
-		id = 22123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22123
 		}
 	},
 	[22124] = {
+		id = 22124,
 		damage = "13 x 4",
 		base = 22120,
-		id = 22124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22124
 		}
 	},
 	[22125] = {
+		id = 22125,
 		damage = "14 x 4",
 		base = 22120,
-		id = 22125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22125
 		}
 	},
 	[22126] = {
+		id = 22126,
 		damage = "15 x 4",
 		base = 22120,
-		id = 22126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22126
 		}
@@ -40546,101 +36132,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22141] = {
+		id = 22141,
 		damage = "11 x 4",
 		base = 22140,
-		id = 22141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22141
 		}
 	},
 	[22142] = {
+		id = 22142,
 		damage = "12 x 4",
 		base = 22140,
-		id = 22142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22142
 		}
 	},
 	[22143] = {
+		id = 22143,
 		damage = "13 x 4",
 		base = 22140,
-		id = 22143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22143
 		}
 	},
 	[22144] = {
+		id = 22144,
 		damage = "14 x 4",
 		base = 22140,
-		id = 22144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22144
 		}
 	},
 	[22145] = {
+		id = 22145,
 		damage = "15 x 4",
 		base = 22140,
-		id = 22145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22145
 		}
 	},
 	[22146] = {
+		id = 22146,
 		damage = "16 x 4",
 		base = 22140,
-		id = 22146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22146
 		}
 	},
 	[22147] = {
+		id = 22147,
 		damage = "17 x 4",
 		base = 22140,
-		id = 22147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22147
 		}
 	},
 	[22148] = {
+		id = 22148,
 		damage = "18 x 4",
 		base = 22140,
-		id = 22148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22148
 		}
 	},
 	[22149] = {
+		id = 22149,
 		damage = "20 x 4",
 		base = 22140,
-		id = 22149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22149
 		}
 	},
 	[22150] = {
+		id = 22150,
 		damage = "22 x 4",
 		base = 22140,
-		id = 22150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22150
 		}
@@ -40650,8 +36216,6 @@ pg.equip_data_statistics = {
 		damage = "22 x 4",
 		base = 22140,
 		id = 22151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22151
 		}
@@ -40717,31 +36281,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22201] = {
+		id = 22201,
 		damage = "9 x 6",
 		base = 22200,
-		id = 22201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22201
 		}
 	},
 	[22202] = {
+		id = 22202,
 		damage = "10 x 6",
 		base = 22200,
-		id = 22202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22202
 		}
 	},
 	[22203] = {
+		id = 22203,
 		damage = "11 x 6",
 		base = 22200,
-		id = 22203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22203
 		}
@@ -40807,61 +36365,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22221] = {
+		id = 22221,
 		damage = "10 x 6",
 		base = 22220,
-		id = 22221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22221
 		}
 	},
 	[22222] = {
+		id = 22222,
 		damage = "11 x 6",
 		base = 22220,
-		id = 22222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22222
 		}
 	},
 	[22223] = {
+		id = 22223,
 		damage = "12 x 6",
 		base = 22220,
-		id = 22223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22223
 		}
 	},
 	[22224] = {
+		id = 22224,
 		damage = "13 x 6",
 		base = 22220,
-		id = 22224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22224
 		}
 	},
 	[22225] = {
+		id = 22225,
 		damage = "14 x 6",
 		base = 22220,
-		id = 22225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22225
 		}
 	},
 	[22226] = {
+		id = 22226,
 		damage = "15 x 6",
 		base = 22220,
-		id = 22226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22226
 		}
@@ -40927,101 +36473,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22241] = {
+		id = 22241,
 		damage = "11 x 6",
 		base = 22240,
-		id = 22241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22241
 		}
 	},
 	[22242] = {
+		id = 22242,
 		damage = "12 x 6",
 		base = 22240,
-		id = 22242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22242
 		}
 	},
 	[22243] = {
+		id = 22243,
 		damage = "13 x 6",
 		base = 22240,
-		id = 22243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22243
 		}
 	},
 	[22244] = {
+		id = 22244,
 		damage = "14 x 6",
 		base = 22240,
-		id = 22244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22244
 		}
 	},
 	[22245] = {
+		id = 22245,
 		damage = "15 x 6",
 		base = 22240,
-		id = 22245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22245
 		}
 	},
 	[22246] = {
+		id = 22246,
 		damage = "16 x 6",
 		base = 22240,
-		id = 22246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22246
 		}
 	},
 	[22247] = {
+		id = 22247,
 		damage = "17 x 6",
 		base = 22240,
-		id = 22247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22247
 		}
 	},
 	[22248] = {
+		id = 22248,
 		damage = "18 x 6",
 		base = 22240,
-		id = 22248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22248
 		}
 	},
 	[22249] = {
+		id = 22249,
 		damage = "20 x 6",
 		base = 22240,
-		id = 22249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22249
 		}
 	},
 	[22250] = {
+		id = 22250,
 		damage = "22 x 6",
 		base = 22240,
-		id = 22250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22250
 		}
@@ -41031,8 +36557,6 @@ pg.equip_data_statistics = {
 		damage = "22 x 6",
 		base = 22240,
 		id = 22251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22251
 		}
@@ -41098,101 +36622,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[22261] = {
+		id = 22261,
 		damage = "12 x 3",
 		base = 22260,
-		id = 22261,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22261
 		}
 	},
 	[22262] = {
+		id = 22262,
 		damage = "13 x 3",
 		base = 22260,
-		id = 22262,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22262
 		}
 	},
 	[22263] = {
+		id = 22263,
 		damage = "14 x 3",
 		base = 22260,
-		id = 22263,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22263
 		}
 	},
 	[22264] = {
+		id = 22264,
 		damage = "15 x 3",
 		base = 22260,
-		id = 22264,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22264
 		}
 	},
 	[22265] = {
+		id = 22265,
 		damage = "16 x 3",
 		base = 22260,
-		id = 22265,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22265
 		}
 	},
 	[22266] = {
+		id = 22266,
 		damage = "17 x 3",
 		base = 22260,
-		id = 22266,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22266
 		}
 	},
 	[22267] = {
+		id = 22267,
 		damage = "18 x 3",
 		base = 22260,
-		id = 22267,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22267
 		}
 	},
 	[22268] = {
+		id = 22268,
 		damage = "20 x 3",
 		base = 22260,
-		id = 22268,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22268
 		}
 	},
 	[22269] = {
+		id = 22269,
 		damage = "22 x 3",
 		base = 22260,
-		id = 22269,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22269
 		}
 	},
 	[22270] = {
+		id = 22270,
 		damage = "24 x 3",
 		base = 22260,
-		id = 22270,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22270
 		}
@@ -41202,8 +36706,6 @@ pg.equip_data_statistics = {
 		damage = "24 x 3",
 		base = 22260,
 		id = 22271,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22271
 		}
@@ -41213,8 +36715,6 @@ pg.equip_data_statistics = {
 		damage = "24 x 3",
 		base = 22260,
 		id = 22272,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22272
 		}
@@ -41224,8 +36724,6 @@ pg.equip_data_statistics = {
 		damage = "24 x 3",
 		base = 22260,
 		id = 22273,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			22273
 		}
@@ -41290,31 +36788,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[23001] = {
+		id = 23001,
 		damage = "26 x 4",
 		base = 23000,
-		id = 23001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23001
 		}
 	},
 	[23002] = {
+		id = 23002,
 		damage = "28 x 4",
 		base = 23000,
-		id = 23002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23002
 		}
 	},
 	[23003] = {
+		id = 23003,
 		damage = "30 x 4",
 		base = 23000,
-		id = 23003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23003
 		}
@@ -41379,61 +36871,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[23021] = {
+		id = 23021,
 		damage = "28 x 4",
 		base = 23020,
-		id = 23021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23021
 		}
 	},
 	[23022] = {
+		id = 23022,
 		damage = "30 x 4",
 		base = 23020,
-		id = 23022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23022
 		}
 	},
 	[23023] = {
+		id = 23023,
 		damage = "32 x 4",
 		base = 23020,
-		id = 23023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23023
 		}
 	},
 	[23024] = {
+		id = 23024,
 		damage = "34 x 4",
 		base = 23020,
-		id = 23024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23024
 		}
 	},
 	[23025] = {
+		id = 23025,
 		damage = "36 x 4",
 		base = 23020,
-		id = 23025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23025
 		}
 	},
 	[23026] = {
+		id = 23026,
 		damage = "38 x 4",
 		base = 23020,
-		id = 23026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23026
 		}
@@ -41498,101 +36978,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[23041] = {
+		id = 23041,
 		damage = "30 x 4",
 		base = 23040,
-		id = 23041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23041
 		}
 	},
 	[23042] = {
+		id = 23042,
 		damage = "32 x 4",
 		base = 23040,
-		id = 23042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23042
 		}
 	},
 	[23043] = {
+		id = 23043,
 		damage = "34 x 4",
 		base = 23040,
-		id = 23043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23043
 		}
 	},
 	[23044] = {
+		id = 23044,
 		damage = "36 x 4",
 		base = 23040,
-		id = 23044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23044
 		}
 	},
 	[23045] = {
+		id = 23045,
 		damage = "38 x 4",
 		base = 23040,
-		id = 23045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23045
 		}
 	},
 	[23046] = {
+		id = 23046,
 		damage = "40 x 4",
 		base = 23040,
-		id = 23046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23046
 		}
 	},
 	[23047] = {
+		id = 23047,
 		damage = "42 x 4",
 		base = 23040,
-		id = 23047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23047
 		}
 	},
 	[23048] = {
+		id = 23048,
 		damage = "44 x 4",
 		base = 23040,
-		id = 23048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23048
 		}
 	},
 	[23049] = {
+		id = 23049,
 		damage = "46 x 4",
 		base = 23040,
-		id = 23049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23049
 		}
 	},
 	[23050] = {
+		id = 23050,
 		damage = "48 x 4",
 		base = 23040,
-		id = 23050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23050
 		}
@@ -41602,8 +37062,6 @@ pg.equip_data_statistics = {
 		damage = "48 x 4",
 		base = 23040,
 		id = 23051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23051
 		}
@@ -41668,101 +37126,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[23101] = {
+		id = 23101,
 		damage = "36 x 4",
 		base = 23100,
-		id = 23101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23101
 		}
 	},
 	[23102] = {
+		id = 23102,
 		damage = "38 x 4",
 		base = 23100,
-		id = 23102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23102
 		}
 	},
 	[23103] = {
+		id = 23103,
 		damage = "40 x 4",
 		base = 23100,
-		id = 23103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23103
 		}
 	},
 	[23104] = {
+		id = 23104,
 		damage = "42 x 4",
 		base = 23100,
-		id = 23104,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23104
 		}
 	},
 	[23105] = {
+		id = 23105,
 		damage = "44 x 4",
 		base = 23100,
-		id = 23105,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23105
 		}
 	},
 	[23106] = {
+		id = 23106,
 		damage = "46 x 4",
 		base = 23100,
-		id = 23106,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23106
 		}
 	},
 	[23107] = {
+		id = 23107,
 		damage = "48 x 4",
 		base = 23100,
-		id = 23107,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23107
 		}
 	},
 	[23108] = {
+		id = 23108,
 		damage = "50 x 4",
 		base = 23100,
-		id = 23108,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23108
 		}
 	},
 	[23109] = {
+		id = 23109,
 		damage = "52 x 4",
 		base = 23100,
-		id = 23109,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23109
 		}
 	},
 	[23110] = {
+		id = 23110,
 		damage = "54 x 4",
 		base = 23100,
-		id = 23110,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23110
 		}
@@ -41772,8 +37210,6 @@ pg.equip_data_statistics = {
 		damage = "54 x 4",
 		base = 23100,
 		id = 23111,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23111
 		}
@@ -41783,8 +37219,6 @@ pg.equip_data_statistics = {
 		damage = "54 x 4",
 		base = 23100,
 		id = 23112,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23112
 		}
@@ -41794,8 +37228,6 @@ pg.equip_data_statistics = {
 		damage = "54 x 4",
 		base = 23100,
 		id = 23113,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23113
 		}
@@ -41860,101 +37292,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[23121] = {
+		id = 23121,
 		damage = "36 x 6",
 		base = 23120,
-		id = 23121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23121
 		}
 	},
 	[23122] = {
+		id = 23122,
 		damage = "38 x 6",
 		base = 23120,
-		id = 23122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23122
 		}
 	},
 	[23123] = {
+		id = 23123,
 		damage = "40 x 6",
 		base = 23120,
-		id = 23123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23123
 		}
 	},
 	[23124] = {
+		id = 23124,
 		damage = "42 x 6",
 		base = 23120,
-		id = 23124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23124
 		}
 	},
 	[23125] = {
+		id = 23125,
 		damage = "44 x 6",
 		base = 23120,
-		id = 23125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23125
 		}
 	},
 	[23126] = {
+		id = 23126,
 		damage = "46 x 6",
 		base = 23120,
-		id = 23126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23126
 		}
 	},
 	[23127] = {
+		id = 23127,
 		damage = "48 x 6",
 		base = 23120,
-		id = 23127,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23127
 		}
 	},
 	[23128] = {
+		id = 23128,
 		damage = "50 x 6",
 		base = 23120,
-		id = 23128,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23128
 		}
 	},
 	[23129] = {
+		id = 23129,
 		damage = "52 x 6",
 		base = 23120,
-		id = 23129,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23129
 		}
 	},
 	[23130] = {
+		id = 23130,
 		damage = "54 x 6",
 		base = 23120,
-		id = 23130,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23130
 		}
@@ -41964,8 +37376,6 @@ pg.equip_data_statistics = {
 		damage = "54 x 6",
 		base = 23120,
 		id = 23131,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23131
 		}
@@ -41975,8 +37385,6 @@ pg.equip_data_statistics = {
 		damage = "54 x 6",
 		base = 23120,
 		id = 23132,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23132
 		}
@@ -41986,8 +37394,6 @@ pg.equip_data_statistics = {
 		damage = "54 x 6",
 		base = 23120,
 		id = 23133,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23133
 		}
@@ -42052,101 +37458,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[23201] = {
+		id = 23201,
 		damage = "30 x 3",
 		base = 23200,
-		id = 23201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23201
 		}
 	},
 	[23202] = {
+		id = 23202,
 		damage = "32 x 3",
 		base = 23200,
-		id = 23202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23202
 		}
 	},
 	[23203] = {
+		id = 23203,
 		damage = "34 x 3",
 		base = 23200,
-		id = 23203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23203
 		}
 	},
 	[23204] = {
+		id = 23204,
 		damage = "36 x 3",
 		base = 23200,
-		id = 23204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23204
 		}
 	},
 	[23205] = {
+		id = 23205,
 		damage = "38 x 3",
 		base = 23200,
-		id = 23205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23205
 		}
 	},
 	[23206] = {
+		id = 23206,
 		damage = "40 x 3",
 		base = 23200,
-		id = 23206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23206
 		}
 	},
 	[23207] = {
+		id = 23207,
 		damage = "42 x 3",
 		base = 23200,
-		id = 23207,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23207
 		}
 	},
 	[23208] = {
+		id = 23208,
 		damage = "44 x 3",
 		base = 23200,
-		id = 23208,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23208
 		}
 	},
 	[23209] = {
+		id = 23209,
 		damage = "46 x 3",
 		base = 23200,
-		id = 23209,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23209
 		}
 	},
 	[23210] = {
+		id = 23210,
 		damage = "49 x 3",
 		base = 23200,
-		id = 23210,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23210
 		}
@@ -42156,8 +37542,6 @@ pg.equip_data_statistics = {
 		damage = "49 x 3",
 		base = 23200,
 		id = 23211,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23211
 		}
@@ -42167,8 +37551,6 @@ pg.equip_data_statistics = {
 		damage = "49 x 3",
 		base = 23200,
 		id = 23212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23212
 		}
@@ -42178,8 +37560,6 @@ pg.equip_data_statistics = {
 		damage = "49 x 3",
 		base = 23200,
 		id = 23213,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			23213
 		}
@@ -42237,61 +37617,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24001] = {
+		id = 24001,
 		damage = "46 x 4",
 		base = 24000,
-		id = 24001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24001
 		}
 	},
 	[24002] = {
+		id = 24002,
 		damage = "50 x 4",
 		base = 24000,
-		id = 24002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24002
 		}
 	},
 	[24003] = {
+		id = 24003,
 		damage = "56 x 4",
 		base = 24000,
-		id = 24003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24003
 		}
 	},
 	[24004] = {
+		id = 24004,
 		damage = "60 x 4",
 		base = 24000,
-		id = 24004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24004
 		}
 	},
 	[24005] = {
+		id = 24005,
 		damage = "66 x 4",
 		base = 24000,
-		id = 24005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24005
 		}
 	},
 	[24006] = {
+		id = 24006,
 		damage = "70 x 4",
 		base = 24000,
-		id = 24006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24006
 		}
@@ -42350,101 +37718,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24021] = {
+		id = 24021,
 		damage = "50 x 4",
 		base = 24020,
-		id = 24021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24021
 		}
 	},
 	[24022] = {
+		id = 24022,
 		damage = "55 x 4",
 		base = 24020,
-		id = 24022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24022
 		}
 	},
 	[24023] = {
+		id = 24023,
 		damage = "61 x 4",
 		base = 24020,
-		id = 24023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24023
 		}
 	},
 	[24024] = {
+		id = 24024,
 		damage = "66 x 4",
 		base = 24020,
-		id = 24024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24024
 		}
 	},
 	[24025] = {
+		id = 24025,
 		damage = "72 x 4",
 		base = 24020,
-		id = 24025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24025
 		}
 	},
 	[24026] = {
+		id = 24026,
 		damage = "77 x 4",
 		base = 24020,
-		id = 24026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24026
 		}
 	},
 	[24027] = {
+		id = 24027,
 		damage = "83 x 4",
 		base = 24020,
-		id = 24027,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24027
 		}
 	},
 	[24028] = {
+		id = 24028,
 		damage = "88 x 4",
 		base = 24020,
-		id = 24028,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24028
 		}
 	},
 	[24029] = {
+		id = 24029,
 		damage = "94 x 4",
 		base = 24020,
-		id = 24029,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24029
 		}
 	},
 	[24030] = {
+		id = 24030,
 		damage = "99 x 4",
 		base = 24020,
-		id = 24030,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24030
 		}
@@ -42503,101 +37851,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24041] = {
+		id = 24041,
 		damage = "55 x 4",
 		base = 24040,
-		id = 24041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24041
 		}
 	},
 	[24042] = {
+		id = 24042,
 		damage = "60 x 4",
 		base = 24040,
-		id = 24042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24042
 		}
 	},
 	[24043] = {
+		id = 24043,
 		damage = "67 x 4",
 		base = 24040,
-		id = 24043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24043
 		}
 	},
 	[24044] = {
+		id = 24044,
 		damage = "72 x 4",
 		base = 24040,
-		id = 24044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24044
 		}
 	},
 	[24045] = {
+		id = 24045,
 		damage = "79 x 4",
 		base = 24040,
-		id = 24045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24045
 		}
 	},
 	[24046] = {
+		id = 24046,
 		damage = "84 x 4",
 		base = 24040,
-		id = 24046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24046
 		}
 	},
 	[24047] = {
+		id = 24047,
 		damage = "91 x 4",
 		base = 24040,
-		id = 24047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24047
 		}
 	},
 	[24048] = {
+		id = 24048,
 		damage = "96 x 4",
 		base = 24040,
-		id = 24048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24048
 		}
 	},
 	[24049] = {
+		id = 24049,
 		damage = "103 x 4",
 		base = 24040,
-		id = 24049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24049
 		}
 	},
 	[24050] = {
+		id = 24050,
 		damage = "108 x 4",
 		base = 24040,
-		id = 24050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24050
 		}
@@ -42607,8 +37935,6 @@ pg.equip_data_statistics = {
 		damage = "108 x 4",
 		base = 24040,
 		id = 24051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24051
 		}
@@ -42618,8 +37944,6 @@ pg.equip_data_statistics = {
 		damage = "108 x 4",
 		base = 24040,
 		id = 24052,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24052
 		}
@@ -42629,8 +37953,6 @@ pg.equip_data_statistics = {
 		damage = "108 x 4",
 		base = 24040,
 		id = 24053,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24053
 		}
@@ -42689,101 +38011,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24061] = {
+		id = 24061,
 		damage = "63 x 2",
 		base = 24060,
-		id = 24061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24061
 		}
 	},
 	[24062] = {
+		id = 24062,
 		damage = "68 x 2",
 		base = 24060,
-		id = 24062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24062
 		}
 	},
 	[24063] = {
+		id = 24063,
 		damage = "75 x 2",
 		base = 24060,
-		id = 24063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24063
 		}
 	},
 	[24064] = {
+		id = 24064,
 		damage = "80 x 2",
 		base = 24060,
-		id = 24064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24064
 		}
 	},
 	[24065] = {
+		id = 24065,
 		damage = "87 x 2",
 		base = 24060,
-		id = 24065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24065
 		}
 	},
 	[24066] = {
+		id = 24066,
 		damage = "92 x 2",
 		base = 24060,
-		id = 24066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24066
 		}
 	},
 	[24067] = {
+		id = 24067,
 		damage = "99 x 2",
 		base = 24060,
-		id = 24067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24067
 		}
 	},
 	[24068] = {
+		id = 24068,
 		damage = "104 x 2",
 		base = 24060,
-		id = 24068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24068
 		}
 	},
 	[24069] = {
+		id = 24069,
 		damage = "111 x 2",
 		base = 24060,
-		id = 24069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24069
 		}
 	},
 	[24070] = {
+		id = 24070,
 		damage = "116 x 2",
 		base = 24060,
-		id = 24070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24070
 		}
@@ -42793,8 +38095,6 @@ pg.equip_data_statistics = {
 		damage = "116 x 2",
 		base = 24060,
 		id = 24071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24071
 		}
@@ -42852,31 +38152,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24101] = {
+		id = 24101,
 		damage = "52 x 2",
 		base = 24100,
-		id = 24101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24101
 		}
 	},
 	[24102] = {
+		id = 24102,
 		damage = "58 x 2",
 		base = 24100,
-		id = 24102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24102
 		}
 	},
 	[24103] = {
+		id = 24103,
 		damage = "64 x 2",
 		base = 24100,
-		id = 24103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24103
 		}
@@ -42935,61 +38229,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24121] = {
+		id = 24121,
 		damage = "57 x 2",
 		base = 24120,
-		id = 24121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24121
 		}
 	},
 	[24122] = {
+		id = 24122,
 		damage = "64 x 2",
 		base = 24120,
-		id = 24122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24122
 		}
 	},
 	[24123] = {
+		id = 24123,
 		damage = "70 x 2",
 		base = 24120,
-		id = 24123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24123
 		}
 	},
 	[24124] = {
+		id = 24124,
 		damage = "77 x 2",
 		base = 24120,
-		id = 24124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24124
 		}
 	},
 	[24125] = {
+		id = 24125,
 		damage = "84 x 2",
 		base = 24120,
-		id = 24125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24125
 		}
 	},
 	[24126] = {
+		id = 24126,
 		damage = "90 x 2",
 		base = 24120,
-		id = 24126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24126
 		}
@@ -43048,101 +38330,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24141] = {
+		id = 24141,
 		damage = "62 x 2",
 		base = 24140,
-		id = 24141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24141
 		}
 	},
 	[24142] = {
+		id = 24142,
 		damage = "70 x 2",
 		base = 24140,
-		id = 24142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24142
 		}
 	},
 	[24143] = {
+		id = 24143,
 		damage = "76 x 2",
 		base = 24140,
-		id = 24143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24143
 		}
 	},
 	[24144] = {
+		id = 24144,
 		damage = "84 x 2",
 		base = 24140,
-		id = 24144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24144
 		}
 	},
 	[24145] = {
+		id = 24145,
 		damage = "92 x 2",
 		base = 24140,
-		id = 24145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24145
 		}
 	},
 	[24146] = {
+		id = 24146,
 		damage = "98 x 2",
 		base = 24140,
-		id = 24146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24146
 		}
 	},
 	[24147] = {
+		id = 24147,
 		damage = "106 x 2",
 		base = 24140,
-		id = 24147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24147
 		}
 	},
 	[24148] = {
+		id = 24148,
 		damage = "112 x 2",
 		base = 24140,
-		id = 24148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24148
 		}
 	},
 	[24149] = {
+		id = 24149,
 		damage = "120 x 2",
 		base = 24140,
-		id = 24149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24149
 		}
 	},
 	[24150] = {
+		id = 24150,
 		damage = "128 x 2",
 		base = 24140,
-		id = 24150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24150
 		}
@@ -43152,8 +38414,6 @@ pg.equip_data_statistics = {
 		damage = "128 x 2",
 		base = 24140,
 		id = 24151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24151
 		}
@@ -43212,101 +38472,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24161] = {
+		id = 24161,
 		damage = "64 x 3",
 		base = 24160,
-		id = 24161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24161
 		}
 	},
 	[24162] = {
+		id = 24162,
 		damage = "72 x 3",
 		base = 24160,
-		id = 24162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24162
 		}
 	},
 	[24163] = {
+		id = 24163,
 		damage = "80 x 3",
 		base = 24160,
-		id = 24163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24163
 		}
 	},
 	[24164] = {
+		id = 24164,
 		damage = "88 x 3",
 		base = 24160,
-		id = 24164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24164
 		}
 	},
 	[24165] = {
+		id = 24165,
 		damage = "97 x 3",
 		base = 24160,
-		id = 24165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24165
 		}
 	},
 	[24166] = {
+		id = 24166,
 		damage = "106 x 3",
 		base = 24160,
-		id = 24166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24166
 		}
 	},
 	[24167] = {
+		id = 24167,
 		damage = "115 x 3",
 		base = 24160,
-		id = 24167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24167
 		}
 	},
 	[24168] = {
+		id = 24168,
 		damage = "124 x 3",
 		base = 24160,
-		id = 24168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24168
 		}
 	},
 	[24169] = {
+		id = 24169,
 		damage = "133 x 3",
 		base = 24160,
-		id = 24169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24169
 		}
 	},
 	[24170] = {
+		id = 24170,
 		damage = "142 x 3",
 		base = 24160,
-		id = 24170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24170
 		}
@@ -43316,8 +38556,6 @@ pg.equip_data_statistics = {
 		damage = "142 x 3",
 		base = 24160,
 		id = 24171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24171
 		}
@@ -43327,8 +38565,6 @@ pg.equip_data_statistics = {
 		damage = "142 x 3",
 		base = 24160,
 		id = 24172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24172
 		}
@@ -43338,8 +38574,6 @@ pg.equip_data_statistics = {
 		damage = "142 x 3",
 		base = 24160,
 		id = 24173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24173
 		}
@@ -43397,61 +38631,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24201] = {
+		id = 24201,
 		damage = "56 x 3",
 		base = 24200,
-		id = 24201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24201
 		}
 	},
 	[24202] = {
+		id = 24202,
 		damage = "64 x 3",
 		base = 24200,
-		id = 24202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24202
 		}
 	},
 	[24203] = {
+		id = 24203,
 		damage = "72 x 3",
 		base = 24200,
-		id = 24203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24203
 		}
 	},
 	[24204] = {
+		id = 24204,
 		damage = "80 x 3",
 		base = 24200,
-		id = 24204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24204
 		}
 	},
 	[24205] = {
+		id = 24205,
 		damage = "88 x 3",
 		base = 24200,
-		id = 24205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24205
 		}
 	},
 	[24206] = {
+		id = 24206,
 		damage = "96 x 3",
 		base = 24200,
-		id = 24206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24206
 		}
@@ -43509,101 +38731,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24221] = {
+		id = 24221,
 		damage = "62 x 3",
 		base = 24220,
-		id = 24221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24221
 		}
 	},
 	[24222] = {
+		id = 24222,
 		damage = "70 x 3",
 		base = 24220,
-		id = 24222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24222
 		}
 	},
 	[24223] = {
+		id = 24223,
 		damage = "79 x 3",
 		base = 24220,
-		id = 24223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24223
 		}
 	},
 	[24224] = {
+		id = 24224,
 		damage = "88 x 3",
 		base = 24220,
-		id = 24224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24224
 		}
 	},
 	[24225] = {
+		id = 24225,
 		damage = "97 x 3",
 		base = 24220,
-		id = 24225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24225
 		}
 	},
 	[24226] = {
+		id = 24226,
 		damage = "106 x 3",
 		base = 24220,
-		id = 24226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24226
 		}
 	},
 	[24227] = {
+		id = 24227,
 		damage = "114 x 3",
 		base = 24220,
-		id = 24227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24227
 		}
 	},
 	[24228] = {
+		id = 24228,
 		damage = "123 x 3",
 		base = 24220,
-		id = 24228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24228
 		}
 	},
 	[24229] = {
+		id = 24229,
 		damage = "132 x 3",
 		base = 24220,
-		id = 24229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24229
 		}
 	},
 	[24230] = {
+		id = 24230,
 		damage = "141 x 3",
 		base = 24220,
-		id = 24230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24230
 		}
@@ -43661,101 +38863,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24241] = {
+		id = 24241,
 		damage = "68 x 3",
 		base = 24240,
-		id = 24241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24241
 		}
 	},
 	[24242] = {
+		id = 24242,
 		damage = "76 x 3",
 		base = 24240,
-		id = 24242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24242
 		}
 	},
 	[24243] = {
+		id = 24243,
 		damage = "86 x 3",
 		base = 24240,
-		id = 24243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24243
 		}
 	},
 	[24244] = {
+		id = 24244,
 		damage = "96 x 3",
 		base = 24240,
-		id = 24244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24244
 		}
 	},
 	[24245] = {
+		id = 24245,
 		damage = "106 x 3",
 		base = 24240,
-		id = 24245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24245
 		}
 	},
 	[24246] = {
+		id = 24246,
 		damage = "116 x 3",
 		base = 24240,
-		id = 24246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24246
 		}
 	},
 	[24247] = {
+		id = 24247,
 		damage = "124 x 3",
 		base = 24240,
-		id = 24247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24247
 		}
 	},
 	[24248] = {
+		id = 24248,
 		damage = "134 x 3",
 		base = 24240,
-		id = 24248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24248
 		}
 	},
 	[24249] = {
+		id = 24249,
 		damage = "144 x 3",
 		base = 24240,
-		id = 24249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24249
 		}
 	},
 	[24250] = {
+		id = 24250,
 		damage = "154 x 3",
 		base = 24240,
-		id = 24250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24250
 		}
@@ -43765,8 +38947,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 24240,
 		id = 24251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24251
 		}
@@ -43776,8 +38956,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 24240,
 		id = 24252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24252
 		}
@@ -43787,8 +38965,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 24240,
 		id = 24253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24253
 		}
@@ -43846,61 +39022,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24301] = {
+		id = 24301,
 		damage = "53 x 2",
 		base = 24300,
-		id = 24301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24301
 		}
 	},
 	[24302] = {
+		id = 24302,
 		damage = "60 x 2",
 		base = 24300,
-		id = 24302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24302
 		}
 	},
 	[24303] = {
+		id = 24303,
 		damage = "67 x 2",
 		base = 24300,
-		id = 24303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24303
 		}
 	},
 	[24304] = {
+		id = 24304,
 		damage = "74 x 2",
 		base = 24300,
-		id = 24304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24304
 		}
 	},
 	[24305] = {
+		id = 24305,
 		damage = "81 x 2",
 		base = 24300,
-		id = 24305,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24305
 		}
 	},
 	[24306] = {
+		id = 24306,
 		damage = "88 x 2",
 		base = 24300,
-		id = 24306,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24306
 		}
@@ -43959,101 +39123,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24321] = {
+		id = 24321,
 		damage = "58 x 2",
 		base = 24320,
-		id = 24321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24321
 		}
 	},
 	[24322] = {
+		id = 24322,
 		damage = "65 x 2",
 		base = 24320,
-		id = 24322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24322
 		}
 	},
 	[24323] = {
+		id = 24323,
 		damage = "72 x 2",
 		base = 24320,
-		id = 24323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24323
 		}
 	},
 	[24324] = {
+		id = 24324,
 		damage = "80 x 2",
 		base = 24320,
-		id = 24324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24324
 		}
 	},
 	[24325] = {
+		id = 24325,
 		damage = "88 x 2",
 		base = 24320,
-		id = 24325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24325
 		}
 	},
 	[24326] = {
+		id = 24326,
 		damage = "96 x 2",
 		base = 24320,
-		id = 24326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24326
 		}
 	},
 	[24327] = {
+		id = 24327,
 		damage = "104 x 2",
 		base = 24320,
-		id = 24327,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24327
 		}
 	},
 	[24328] = {
+		id = 24328,
 		damage = "112 x 2",
 		base = 24320,
-		id = 24328,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24328
 		}
 	},
 	[24329] = {
+		id = 24329,
 		damage = "120 x 2",
 		base = 24320,
-		id = 24329,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24329
 		}
 	},
 	[24330] = {
+		id = 24330,
 		damage = "128 x 2",
 		base = 24320,
-		id = 24330,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24330
 		}
@@ -44112,101 +39256,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24341] = {
+		id = 24341,
 		damage = "63 x 2",
 		base = 24340,
-		id = 24341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24341
 		}
 	},
 	[24342] = {
+		id = 24342,
 		damage = "70 x 2",
 		base = 24340,
-		id = 24342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24342
 		}
 	},
 	[24343] = {
+		id = 24343,
 		damage = "77 x 2",
 		base = 24340,
-		id = 24343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24343
 		}
 	},
 	[24344] = {
+		id = 24344,
 		damage = "85 x 2",
 		base = 24340,
-		id = 24344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24344
 		}
 	},
 	[24345] = {
+		id = 24345,
 		damage = "93 x 2",
 		base = 24340,
-		id = 24345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24345
 		}
 	},
 	[24346] = {
+		id = 24346,
 		damage = "101 x 2",
 		base = 24340,
-		id = 24346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24346
 		}
 	},
 	[24347] = {
+		id = 24347,
 		damage = "109 x 2",
 		base = 24340,
-		id = 24347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24347
 		}
 	},
 	[24348] = {
+		id = 24348,
 		damage = "117 x 2",
 		base = 24340,
-		id = 24348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24348
 		}
 	},
 	[24349] = {
+		id = 24349,
 		damage = "125 x 2",
 		base = 24340,
-		id = 24349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24349
 		}
 	},
 	[24350] = {
+		id = 24350,
 		damage = "133 x 2",
 		base = 24340,
-		id = 24350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24350
 		}
@@ -44216,8 +39340,6 @@ pg.equip_data_statistics = {
 		damage = "133 x 2",
 		base = 24340,
 		id = 24351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24351
 		}
@@ -44227,8 +39349,6 @@ pg.equip_data_statistics = {
 		damage = "133 x 2",
 		base = 24340,
 		id = 24352,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24352
 		}
@@ -44238,8 +39358,6 @@ pg.equip_data_statistics = {
 		damage = "133 x 2",
 		base = 24340,
 		id = 24353,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24353
 		}
@@ -44307,71 +39425,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25001] = {
+		id = 25001,
 		damage = "73 x 3",
 		base = 25000,
-		id = 25001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25001
 		}
 	},
 	[25002] = {
+		id = 25002,
 		damage = "84 x 3",
 		base = 25000,
-		id = 25002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25002
 		}
 	},
 	[25003] = {
+		id = 25003,
 		damage = "95 x 3",
 		base = 25000,
-		id = 25003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25003
 		}
 	},
 	[25004] = {
+		id = 25004,
 		damage = "106 x 3",
 		base = 25000,
-		id = 25004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25004
 		}
 	},
 	[25005] = {
+		id = 25005,
 		damage = "117 x 3",
 		base = 25000,
-		id = 25005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25005
 		}
 	},
 	[25006] = {
+		id = 25006,
 		damage = "128 x 3",
 		base = 25000,
-		id = 25006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25006
 		}
 	},
 	[25007] = {
+		id = 25007,
 		damage = "128 x 3",
 		base = 25000,
-		id = 25007,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25007
 		}
@@ -44439,101 +39543,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25021] = {
+		id = 25021,
 		damage = "73 x 4",
 		base = 25020,
-		id = 25021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25021
 		}
 	},
 	[25022] = {
+		id = 25022,
 		damage = "84 x 4",
 		base = 25020,
-		id = 25022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25022
 		}
 	},
 	[25023] = {
+		id = 25023,
 		damage = "95 x 4",
 		base = 25020,
-		id = 25023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25023
 		}
 	},
 	[25024] = {
+		id = 25024,
 		damage = "106 x 4",
 		base = 25020,
-		id = 25024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25024
 		}
 	},
 	[25025] = {
+		id = 25025,
 		damage = "117 x 4",
 		base = 25020,
-		id = 25025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25025
 		}
 	},
 	[25026] = {
+		id = 25026,
 		damage = "128 x 4",
 		base = 25020,
-		id = 25026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25026
 		}
 	},
 	[25027] = {
+		id = 25027,
 		damage = "139 x 4",
 		base = 25020,
-		id = 25027,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25027
 		}
 	},
 	[25028] = {
+		id = 25028,
 		damage = "150 x 4",
 		base = 25020,
-		id = 25028,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25028
 		}
 	},
 	[25029] = {
+		id = 25029,
 		damage = "161 x 4",
 		base = 25020,
-		id = 25029,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25029
 		}
 	},
 	[25030] = {
+		id = 25030,
 		damage = "172 x 4",
 		base = 25020,
-		id = 25030,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25030
 		}
@@ -44543,8 +39627,6 @@ pg.equip_data_statistics = {
 		damage = "172 x 4",
 		base = 25020,
 		id = 25031,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25031
 		}
@@ -44612,101 +39694,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25041] = {
+		id = 25041,
 		damage = "73 x 5",
 		base = 25040,
-		id = 25041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25041
 		}
 	},
 	[25042] = {
+		id = 25042,
 		damage = "84 x 5",
 		base = 25040,
-		id = 25042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25042
 		}
 	},
 	[25043] = {
+		id = 25043,
 		damage = "95 x 5",
 		base = 25040,
-		id = 25043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25043
 		}
 	},
 	[25044] = {
+		id = 25044,
 		damage = "106 x 5",
 		base = 25040,
-		id = 25044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25044
 		}
 	},
 	[25045] = {
+		id = 25045,
 		damage = "117 x 5",
 		base = 25040,
-		id = 25045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25045
 		}
 	},
 	[25046] = {
+		id = 25046,
 		damage = "128 x 5",
 		base = 25040,
-		id = 25046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25046
 		}
 	},
 	[25047] = {
+		id = 25047,
 		damage = "139 x 5",
 		base = 25040,
-		id = 25047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25047
 		}
 	},
 	[25048] = {
+		id = 25048,
 		damage = "150 x 5",
 		base = 25040,
-		id = 25048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25048
 		}
 	},
 	[25049] = {
+		id = 25049,
 		damage = "161 x 5",
 		base = 25040,
-		id = 25049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25049
 		}
 	},
 	[25050] = {
+		id = 25050,
 		damage = "172 x 5",
 		base = 25040,
-		id = 25050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25050
 		}
@@ -44716,8 +39778,6 @@ pg.equip_data_statistics = {
 		damage = "172 x 5",
 		base = 25040,
 		id = 25051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25051
 		}
@@ -44727,8 +39787,6 @@ pg.equip_data_statistics = {
 		damage = "172 x 5",
 		base = 25040,
 		id = 25052,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25052
 		}
@@ -44738,8 +39796,6 @@ pg.equip_data_statistics = {
 		damage = "172 x 5",
 		base = 25040,
 		id = 25053,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25053
 		}
@@ -44804,31 +39860,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25101] = {
+		id = 25101,
 		damage = "57 x 3",
 		base = 25100,
-		id = 25101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25101
 		}
 	},
 	[25102] = {
+		id = 25102,
 		damage = "65 x 3",
 		base = 25100,
-		id = 25102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25102
 		}
 	},
 	[25103] = {
+		id = 25103,
 		damage = "73 x 3",
 		base = 25100,
-		id = 25103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25103
 		}
@@ -44893,61 +39943,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25121] = {
+		id = 25121,
 		damage = "65 x 3",
 		base = 25120,
-		id = 25121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25121
 		}
 	},
 	[25122] = {
+		id = 25122,
 		damage = "73 x 3",
 		base = 25120,
-		id = 25122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25122
 		}
 	},
 	[25123] = {
+		id = 25123,
 		damage = "81 x 3",
 		base = 25120,
-		id = 25123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25123
 		}
 	},
 	[25124] = {
+		id = 25124,
 		damage = "90 x 3",
 		base = 25120,
-		id = 25124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25124
 		}
 	},
 	[25125] = {
+		id = 25125,
 		damage = "99 x 3",
 		base = 25120,
-		id = 25125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25125
 		}
 	},
 	[25126] = {
+		id = 25126,
 		damage = "108 x 3",
 		base = 25120,
-		id = 25126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25126
 		}
@@ -45012,101 +40050,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25141] = {
+		id = 25141,
 		damage = "73 x 3",
 		base = 25140,
-		id = 25141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25141
 		}
 	},
 	[25142] = {
+		id = 25142,
 		damage = "82 x 3",
 		base = 25140,
-		id = 25142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25142
 		}
 	},
 	[25143] = {
+		id = 25143,
 		damage = "91 x 3",
 		base = 25140,
-		id = 25143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25143
 		}
 	},
 	[25144] = {
+		id = 25144,
 		damage = "100 x 3",
 		base = 25140,
-		id = 25144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25144
 		}
 	},
 	[25145] = {
+		id = 25145,
 		damage = "109 x 3",
 		base = 25140,
-		id = 25145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25145
 		}
 	},
 	[25146] = {
+		id = 25146,
 		damage = "119 x 3",
 		base = 25140,
-		id = 25146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25146
 		}
 	},
 	[25147] = {
+		id = 25147,
 		damage = "129 x 3",
 		base = 25140,
-		id = 25147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25147
 		}
 	},
 	[25148] = {
+		id = 25148,
 		damage = "139 x 3",
 		base = 25140,
-		id = 25148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25148
 		}
 	},
 	[25149] = {
+		id = 25149,
 		damage = "149 x 3",
 		base = 25140,
-		id = 25149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25149
 		}
 	},
 	[25150] = {
+		id = 25150,
 		damage = "159 x 3",
 		base = 25140,
-		id = 25150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25150
 		}
@@ -45116,8 +40134,6 @@ pg.equip_data_statistics = {
 		damage = "159 x 3",
 		base = 25140,
 		id = 25151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25151
 		}
@@ -45182,101 +40198,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25201] = {
+		id = 25201,
 		damage = "64 x 3",
 		base = 25200,
-		id = 25201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25201
 		}
 	},
 	[25202] = {
+		id = 25202,
 		damage = "72 x 3",
 		base = 25200,
-		id = 25202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25202
 		}
 	},
 	[25203] = {
+		id = 25203,
 		damage = "80 x 3",
 		base = 25200,
-		id = 25203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25203
 		}
 	},
 	[25204] = {
+		id = 25204,
 		damage = "88 x 3",
 		base = 25200,
-		id = 25204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25204
 		}
 	},
 	[25205] = {
+		id = 25205,
 		damage = "96 x 3",
 		base = 25200,
-		id = 25205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25205
 		}
 	},
 	[25206] = {
+		id = 25206,
 		damage = "104 x 3",
 		base = 25200,
-		id = 25206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25206
 		}
 	},
 	[25207] = {
+		id = 25207,
 		damage = "113 x 3",
 		base = 25200,
-		id = 25207,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25207
 		}
 	},
 	[25208] = {
+		id = 25208,
 		damage = "122 x 3",
 		base = 25200,
-		id = 25208,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25208
 		}
 	},
 	[25209] = {
+		id = 25209,
 		damage = "130 x 3",
 		base = 25200,
-		id = 25209,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25209
 		}
 	},
 	[25210] = {
+		id = 25210,
 		damage = "139 x 3",
 		base = 25200,
-		id = 25210,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25210
 		}
@@ -45286,8 +40282,6 @@ pg.equip_data_statistics = {
 		damage = "139 x 3",
 		base = 25200,
 		id = 25211,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25211
 		}
@@ -45297,8 +40291,6 @@ pg.equip_data_statistics = {
 		damage = "139 x 3",
 		base = 25200,
 		id = 25212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25212
 		}
@@ -45308,8 +40300,6 @@ pg.equip_data_statistics = {
 		damage = "139 x 3",
 		base = 25200,
 		id = 25213,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25213
 		}
@@ -45374,101 +40364,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25301] = {
+		id = 25301,
 		damage = "80 x 3",
 		base = 25300,
-		id = 25301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25301
 		}
 	},
 	[25302] = {
+		id = 25302,
 		damage = "90 x 3",
 		base = 25300,
-		id = 25302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25302
 		}
 	},
 	[25303] = {
+		id = 25303,
 		damage = "100 x 3",
 		base = 25300,
-		id = 25303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25303
 		}
 	},
 	[25304] = {
+		id = 25304,
 		damage = "110 x 3",
 		base = 25300,
-		id = 25304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25304
 		}
 	},
 	[25305] = {
+		id = 25305,
 		damage = "121 x 3",
 		base = 25300,
-		id = 25305,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25305
 		}
 	},
 	[25306] = {
+		id = 25306,
 		damage = "132 x 3",
 		base = 25300,
-		id = 25306,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25306
 		}
 	},
 	[25307] = {
+		id = 25307,
 		damage = "143 x 3",
 		base = 25300,
-		id = 25307,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25307
 		}
 	},
 	[25308] = {
+		id = 25308,
 		damage = "154 x 3",
 		base = 25300,
-		id = 25308,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25308
 		}
 	},
 	[25309] = {
+		id = 25309,
 		damage = "165 x 3",
 		base = 25300,
-		id = 25309,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25309
 		}
 	},
 	[25310] = {
+		id = 25310,
 		damage = "176 x 3",
 		base = 25300,
-		id = 25310,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25310
 		}
@@ -45478,8 +40448,6 @@ pg.equip_data_statistics = {
 		damage = "176 x 3",
 		base = 25300,
 		id = 25311,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25311
 		}
@@ -45489,8 +40457,6 @@ pg.equip_data_statistics = {
 		damage = "176 x 3",
 		base = 25300,
 		id = 25312,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25312
 		}
@@ -45500,8 +40466,6 @@ pg.equip_data_statistics = {
 		damage = "176 x 3",
 		base = 25300,
 		id = 25313,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25313
 		}
@@ -45556,101 +40520,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[25801] = {
+		id = 25801,
 		damage = "94 ~ 188",
 		base = 25800,
-		id = 25801,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25801
 		}
 	},
 	[25802] = {
+		id = 25802,
 		damage = "103 ~ 206",
 		base = 25800,
-		id = 25802,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25802
 		}
 	},
 	[25803] = {
+		id = 25803,
 		damage = "112 ~ 224",
 		base = 25800,
-		id = 25803,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25803
 		}
 	},
 	[25804] = {
+		id = 25804,
 		damage = "122 ~ 244",
 		base = 25800,
-		id = 25804,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25804
 		}
 	},
 	[25805] = {
+		id = 25805,
 		damage = "132 ~ 264",
 		base = 25800,
-		id = 25805,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25805
 		}
 	},
 	[25806] = {
+		id = 25806,
 		damage = "142 ~ 284",
 		base = 25800,
-		id = 25806,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25806
 		}
 	},
 	[25807] = {
+		id = 25807,
 		damage = "153 ~ 306",
 		base = 25800,
-		id = 25807,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25807
 		}
 	},
 	[25808] = {
+		id = 25808,
 		damage = "164 ~ 328",
 		base = 25800,
-		id = 25808,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25808
 		}
 	},
 	[25809] = {
+		id = 25809,
 		damage = "175 ~ 350",
 		base = 25800,
-		id = 25809,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25809
 		}
 	},
 	[25810] = {
+		id = 25810,
 		damage = "186 ~ 372",
 		base = 25800,
-		id = 25810,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25810
 		}
@@ -45660,8 +40604,6 @@ pg.equip_data_statistics = {
 		damage = "186 ~ 372",
 		base = 25800,
 		id = 25811,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25811
 		}
@@ -45671,8 +40613,6 @@ pg.equip_data_statistics = {
 		damage = "186 ~ 372",
 		base = 25800,
 		id = 25812,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25812
 		}
@@ -45682,8 +40622,6 @@ pg.equip_data_statistics = {
 		damage = "186 ~ 372",
 		base = 25800,
 		id = 25813,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			25813
 		}
@@ -45750,31 +40688,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26001] = {
+		id = 26001,
 		damage = "16/回",
 		base = 26000,
-		id = 26001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26001
 		}
 	},
 	[26002] = {
+		id = 26002,
 		damage = "18/回",
 		base = 26000,
-		id = 26002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26002
 		}
 	},
 	[26003] = {
+		id = 26003,
 		damage = "21/回",
 		base = 26000,
-		id = 26003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26003
 		}
@@ -45842,31 +40774,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26021] = {
+		id = 26021,
 		damage = "22/回",
 		base = 26020,
-		id = 26021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26021
 		}
 	},
 	[26022] = {
+		id = 26022,
 		damage = "25/回",
 		base = 26020,
-		id = 26022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26022
 		}
 	},
 	[26023] = {
+		id = 26023,
 		damage = "29/回",
 		base = 26020,
-		id = 26023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26023
 		}
@@ -45934,71 +40860,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26041] = {
+		id = 26041,
 		damage = "26/回",
 		base = 26040,
-		id = 26041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26041
 		}
 	},
 	[26042] = {
+		id = 26042,
 		damage = "29/回",
 		base = 26040,
-		id = 26042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26042
 		}
 	},
 	[26043] = {
+		id = 26043,
 		damage = "33/回",
 		base = 26040,
-		id = 26043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26043
 		}
 	},
 	[26044] = {
+		id = 26044,
 		damage = "37/回",
 		base = 26040,
-		id = 26044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26044
 		}
 	},
 	[26045] = {
+		id = 26045,
 		damage = "41/回",
 		base = 26040,
-		id = 26045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26045
 		}
 	},
 	[26046] = {
+		id = 26046,
 		damage = "45/回",
 		base = 26040,
-		id = 26046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26046
 		}
 	},
 	[26047] = {
+		id = 26047,
 		damage = "45/回",
 		base = 26040,
-		id = 26047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26047
 		}
@@ -46066,101 +40978,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26061] = {
+		id = 26061,
 		damage = "30/回",
 		base = 26060,
-		id = 26061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26061
 		}
 	},
 	[26062] = {
+		id = 26062,
 		damage = "32/回",
 		base = 26060,
-		id = 26062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26062
 		}
 	},
 	[26063] = {
+		id = 26063,
 		damage = "36/回",
 		base = 26060,
-		id = 26063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26063
 		}
 	},
 	[26064] = {
+		id = 26064,
 		damage = "38/回",
 		base = 26060,
-		id = 26064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26064
 		}
 	},
 	[26065] = {
+		id = 26065,
 		damage = "40/回",
 		base = 26060,
-		id = 26065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26065
 		}
 	},
 	[26066] = {
+		id = 26066,
 		damage = "44/回",
 		base = 26060,
-		id = 26066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26066
 		}
 	},
 	[26067] = {
+		id = 26067,
 		damage = "48/回",
 		base = 26060,
-		id = 26067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26067
 		}
 	},
 	[26068] = {
+		id = 26068,
 		damage = "54/回",
 		base = 26060,
-		id = 26068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26068
 		}
 	},
 	[26069] = {
+		id = 26069,
 		damage = "54/回",
 		base = 26060,
-		id = 26069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26069
 		}
 	},
 	[26070] = {
+		id = 26070,
 		damage = "62/回",
 		base = 26060,
-		id = 26070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26070
 		}
@@ -46170,8 +41062,6 @@ pg.equip_data_statistics = {
 		damage = "62/回",
 		base = 26060,
 		id = 26071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26071
 		}
@@ -46239,31 +41129,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26101] = {
+		id = 26101,
 		damage = "31/回",
 		base = 26100,
-		id = 26101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26101
 		}
 	},
 	[26102] = {
+		id = 26102,
 		damage = "35/回",
 		base = 26100,
-		id = 26102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26102
 		}
 	},
 	[26103] = {
+		id = 26103,
 		damage = "40/回",
 		base = 26100,
-		id = 26103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26103
 		}
@@ -46331,61 +41215,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26121] = {
+		id = 26121,
 		damage = "35/回",
 		base = 26120,
-		id = 26121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26121
 		}
 	},
 	[26122] = {
+		id = 26122,
 		damage = "40/回",
 		base = 26120,
-		id = 26122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26122
 		}
 	},
 	[26123] = {
+		id = 26123,
 		damage = "45/回",
 		base = 26120,
-		id = 26123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26123
 		}
 	},
 	[26124] = {
+		id = 26124,
 		damage = "50/回",
 		base = 26120,
-		id = 26124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26124
 		}
 	},
 	[26125] = {
+		id = 26125,
 		damage = "55/回",
 		base = 26120,
-		id = 26125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26125
 		}
 	},
 	[26126] = {
+		id = 26126,
 		damage = "60/回",
 		base = 26120,
-		id = 26126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26126
 		}
@@ -46453,101 +41325,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26141] = {
+		id = 26141,
 		damage = "39/回",
 		base = 26140,
-		id = 26141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26141
 		}
 	},
 	[26142] = {
+		id = 26142,
 		damage = "44/回",
 		base = 26140,
-		id = 26142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26142
 		}
 	},
 	[26143] = {
+		id = 26143,
 		damage = "49/回",
 		base = 26140,
-		id = 26143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26143
 		}
 	},
 	[26144] = {
+		id = 26144,
 		damage = "54/回",
 		base = 26140,
-		id = 26144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26144
 		}
 	},
 	[26145] = {
+		id = 26145,
 		damage = "59/回",
 		base = 26140,
-		id = 26145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26145
 		}
 	},
 	[26146] = {
+		id = 26146,
 		damage = "64/回",
 		base = 26140,
-		id = 26146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26146
 		}
 	},
 	[26147] = {
+		id = 26147,
 		damage = "69/回",
 		base = 26140,
-		id = 26147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26147
 		}
 	},
 	[26148] = {
+		id = 26148,
 		damage = "74/回",
 		base = 26140,
-		id = 26148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26148
 		}
 	},
 	[26149] = {
+		id = 26149,
 		damage = "79/回",
 		base = 26140,
-		id = 26149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26149
 		}
 	},
 	[26150] = {
+		id = 26150,
 		damage = "84/回",
 		base = 26140,
-		id = 26150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26150
 		}
@@ -46557,8 +41409,6 @@ pg.equip_data_statistics = {
 		damage = "84/回",
 		base = 26140,
 		id = 26151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26151
 		}
@@ -46626,61 +41476,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26201] = {
+		id = 26201,
 		damage = "48/回",
 		base = 26200,
-		id = 26201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26201
 		}
 	},
 	[26202] = {
+		id = 26202,
 		damage = "54/回",
 		base = 26200,
-		id = 26202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26202
 		}
 	},
 	[26203] = {
+		id = 26203,
 		damage = "60/回",
 		base = 26200,
-		id = 26203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26203
 		}
 	},
 	[26204] = {
+		id = 26204,
 		damage = "66/回",
 		base = 26200,
-		id = 26204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26204
 		}
 	},
 	[26205] = {
+		id = 26205,
 		damage = "73/回",
 		base = 26200,
-		id = 26205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26205
 		}
 	},
 	[26206] = {
+		id = 26206,
 		damage = "80/回",
 		base = 26200,
-		id = 26206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26206
 		}
@@ -46748,101 +41586,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26221] = {
+		id = 26221,
 		damage = "53/回",
 		base = 26220,
-		id = 26221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26221
 		}
 	},
 	[26222] = {
+		id = 26222,
 		damage = "60/回",
 		base = 26220,
-		id = 26222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26222
 		}
 	},
 	[26223] = {
+		id = 26223,
 		damage = "67/回",
 		base = 26220,
-		id = 26223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26223
 		}
 	},
 	[26224] = {
+		id = 26224,
 		damage = "74/回",
 		base = 26220,
-		id = 26224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26224
 		}
 	},
 	[26225] = {
+		id = 26225,
 		damage = "81/回",
 		base = 26220,
-		id = 26225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26225
 		}
 	},
 	[26226] = {
+		id = 26226,
 		damage = "88/回",
 		base = 26220,
-		id = 26226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26226
 		}
 	},
 	[26227] = {
+		id = 26227,
 		damage = "95/回",
 		base = 26220,
-		id = 26227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26227
 		}
 	},
 	[26228] = {
+		id = 26228,
 		damage = "102/回",
 		base = 26220,
-		id = 26228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26228
 		}
 	},
 	[26229] = {
+		id = 26229,
 		damage = "109/回",
 		base = 26220,
-		id = 26229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26229
 		}
 	},
 	[26230] = {
+		id = 26230,
 		damage = "117/回",
 		base = 26220,
-		id = 26230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26230
 		}
@@ -46910,101 +41728,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26241] = {
+		id = 26241,
 		damage = "57/回",
 		base = 26240,
-		id = 26241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26241
 		}
 	},
 	[26242] = {
+		id = 26242,
 		damage = "64/回",
 		base = 26240,
-		id = 26242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26242
 		}
 	},
 	[26243] = {
+		id = 26243,
 		damage = "72/回",
 		base = 26240,
-		id = 26243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26243
 		}
 	},
 	[26244] = {
+		id = 26244,
 		damage = "80/回",
 		base = 26240,
-		id = 26244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26244
 		}
 	},
 	[26245] = {
+		id = 26245,
 		damage = "88/回",
 		base = 26240,
-		id = 26245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26245
 		}
 	},
 	[26246] = {
+		id = 26246,
 		damage = "96/回",
 		base = 26240,
-		id = 26246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26246
 		}
 	},
 	[26247] = {
+		id = 26247,
 		damage = "104/回",
 		base = 26240,
-		id = 26247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26247
 		}
 	},
 	[26248] = {
+		id = 26248,
 		damage = "112/回",
 		base = 26240,
-		id = 26248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26248
 		}
 	},
 	[26249] = {
+		id = 26249,
 		damage = "120/回",
 		base = 26240,
-		id = 26249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26249
 		}
 	},
 	[26250] = {
+		id = 26250,
 		damage = "128/回",
 		base = 26240,
-		id = 26250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26250
 		}
@@ -47014,8 +41812,6 @@ pg.equip_data_statistics = {
 		damage = "128/回",
 		base = 26240,
 		id = 26251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26251
 		}
@@ -47025,8 +41821,6 @@ pg.equip_data_statistics = {
 		damage = "128/回",
 		base = 26240,
 		id = 26252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26252
 		}
@@ -47036,8 +41830,6 @@ pg.equip_data_statistics = {
 		damage = "128/回",
 		base = 26240,
 		id = 26253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26253
 		}
@@ -47105,31 +41897,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26301] = {
+		id = 26301,
 		damage = "18/回",
 		base = 26300,
-		id = 26301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26301
 		}
 	},
 	[26302] = {
+		id = 26302,
 		damage = "21/回",
 		base = 26300,
-		id = 26302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26302
 		}
 	},
 	[26303] = {
+		id = 26303,
 		damage = "24/回",
 		base = 26300,
-		id = 26303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26303
 		}
@@ -47197,61 +41983,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26321] = {
+		id = 26321,
 		damage = "21/回",
 		base = 26320,
-		id = 26321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26321
 		}
 	},
 	[26322] = {
+		id = 26322,
 		damage = "24/回",
 		base = 26320,
-		id = 26322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26322
 		}
 	},
 	[26323] = {
+		id = 26323,
 		damage = "27/回",
 		base = 26320,
-		id = 26323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26323
 		}
 	},
 	[26324] = {
+		id = 26324,
 		damage = "30/回",
 		base = 26320,
-		id = 26324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26324
 		}
 	},
 	[26325] = {
+		id = 26325,
 		damage = "33/回",
 		base = 26320,
-		id = 26325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26325
 		}
 	},
 	[26326] = {
+		id = 26326,
 		damage = "36/回",
 		base = 26320,
-		id = 26326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26326
 		}
@@ -47319,101 +42093,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26341] = {
+		id = 26341,
 		damage = "25/回",
 		base = 26340,
-		id = 26341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26341
 		}
 	},
 	[26342] = {
+		id = 26342,
 		damage = "28/回",
 		base = 26340,
-		id = 26342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26342
 		}
 	},
 	[26343] = {
+		id = 26343,
 		damage = "31/回",
 		base = 26340,
-		id = 26343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26343
 		}
 	},
 	[26344] = {
+		id = 26344,
 		damage = "34/回",
 		base = 26340,
-		id = 26344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26344
 		}
 	},
 	[26345] = {
+		id = 26345,
 		damage = "37/回",
 		base = 26340,
-		id = 26345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26345
 		}
 	},
 	[26346] = {
+		id = 26346,
 		damage = "40/回",
 		base = 26340,
-		id = 26346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26346
 		}
 	},
 	[26347] = {
+		id = 26347,
 		damage = "43/回",
 		base = 26340,
-		id = 26347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26347
 		}
 	},
 	[26348] = {
+		id = 26348,
 		damage = "46/回",
 		base = 26340,
-		id = 26348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26348
 		}
 	},
 	[26349] = {
+		id = 26349,
 		damage = "50/回",
 		base = 26340,
-		id = 26349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26349
 		}
 	},
 	[26350] = {
+		id = 26350,
 		damage = "54/回",
 		base = 26340,
-		id = 26350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26350
 		}
@@ -47423,8 +42177,6 @@ pg.equip_data_statistics = {
 		damage = "54/回",
 		base = 26340,
 		id = 26351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26351
 		}
@@ -47492,101 +42244,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26361] = {
+		id = 26361,
 		damage = "18/回",
 		base = 26360,
-		id = 26361,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26361
 		}
 	},
 	[26362] = {
+		id = 26362,
 		damage = "20/回",
 		base = 26360,
-		id = 26362,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26362
 		}
 	},
 	[26363] = {
+		id = 26363,
 		damage = "22/回",
 		base = 26360,
-		id = 26363,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26363
 		}
 	},
 	[26364] = {
+		id = 26364,
 		damage = "24/回",
 		base = 26360,
-		id = 26364,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26364
 		}
 	},
 	[26365] = {
+		id = 26365,
 		damage = "26/回",
 		base = 26360,
-		id = 26365,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26365
 		}
 	},
 	[26366] = {
+		id = 26366,
 		damage = "28/回",
 		base = 26360,
-		id = 26366,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26366
 		}
 	},
 	[26367] = {
+		id = 26367,
 		damage = "28/回",
 		base = 26360,
-		id = 26367,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26367
 		}
 	},
 	[26368] = {
+		id = 26368,
 		damage = "30/回",
 		base = 26360,
-		id = 26368,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26368
 		}
 	},
 	[26369] = {
+		id = 26369,
 		damage = "30/回",
 		base = 26360,
-		id = 26369,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26369
 		}
 	},
 	[26370] = {
+		id = 26370,
 		damage = "32/回",
 		base = 26360,
-		id = 26370,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26370
 		}
@@ -47596,8 +42328,6 @@ pg.equip_data_statistics = {
 		damage = "32/回",
 		base = 26360,
 		id = 26371,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26371
 		}
@@ -47665,31 +42395,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26401] = {
+		id = 26401,
 		damage = "22/回",
 		base = 26400,
-		id = 26401,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26401
 		}
 	},
 	[26402] = {
+		id = 26402,
 		damage = "25/回",
 		base = 26400,
-		id = 26402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26402
 		}
 	},
 	[26403] = {
+		id = 26403,
 		damage = "28/回",
 		base = 26400,
-		id = 26403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26403
 		}
@@ -47757,61 +42481,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26421] = {
+		id = 26421,
 		damage = "24/回",
 		base = 26420,
-		id = 26421,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26421
 		}
 	},
 	[26422] = {
+		id = 26422,
 		damage = "27/回",
 		base = 26420,
-		id = 26422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26422
 		}
 	},
 	[26423] = {
+		id = 26423,
 		damage = "30/回",
 		base = 26420,
-		id = 26423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26423
 		}
 	},
 	[26424] = {
+		id = 26424,
 		damage = "34/回",
 		base = 26420,
-		id = 26424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26424
 		}
 	},
 	[26425] = {
+		id = 26425,
 		damage = "38/回",
 		base = 26420,
-		id = 26425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26425
 		}
 	},
 	[26426] = {
+		id = 26426,
 		damage = "42/回",
 		base = 26420,
-		id = 26426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26426
 		}
@@ -47879,101 +42591,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26441] = {
+		id = 26441,
 		damage = "28/回",
 		base = 26440,
-		id = 26441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26441
 		}
 	},
 	[26442] = {
+		id = 26442,
 		damage = "31/回",
 		base = 26440,
-		id = 26442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26442
 		}
 	},
 	[26443] = {
+		id = 26443,
 		damage = "35/回",
 		base = 26440,
-		id = 26443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26443
 		}
 	},
 	[26444] = {
+		id = 26444,
 		damage = "39/回",
 		base = 26440,
-		id = 26444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26444
 		}
 	},
 	[26445] = {
+		id = 26445,
 		damage = "43/回",
 		base = 26440,
-		id = 26445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26445
 		}
 	},
 	[26446] = {
+		id = 26446,
 		damage = "47/回",
 		base = 26440,
-		id = 26446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26446
 		}
 	},
 	[26447] = {
+		id = 26447,
 		damage = "51/回",
 		base = 26440,
-		id = 26447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26447
 		}
 	},
 	[26448] = {
+		id = 26448,
 		damage = "55/回",
 		base = 26440,
-		id = 26448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26448
 		}
 	},
 	[26449] = {
+		id = 26449,
 		damage = "59/回",
 		base = 26440,
-		id = 26449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26449
 		}
 	},
 	[26450] = {
+		id = 26450,
 		damage = "63/回",
 		base = 26440,
-		id = 26450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26450
 		}
@@ -47983,8 +42675,6 @@ pg.equip_data_statistics = {
 		damage = "63/回",
 		base = 26440,
 		id = 26451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26451
 		}
@@ -48052,101 +42742,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26461] = {
+		id = 26461,
 		damage = "47/回",
 		base = 26460,
-		id = 26461,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26461
 		}
 	},
 	[26462] = {
+		id = 26462,
 		damage = "53/回",
 		base = 26460,
-		id = 26462,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26462
 		}
 	},
 	[26463] = {
+		id = 26463,
 		damage = "59/回",
 		base = 26460,
-		id = 26463,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26463
 		}
 	},
 	[26464] = {
+		id = 26464,
 		damage = "66/回",
 		base = 26460,
-		id = 26464,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26464
 		}
 	},
 	[26465] = {
+		id = 26465,
 		damage = "73/回",
 		base = 26460,
-		id = 26465,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26465
 		}
 	},
 	[26466] = {
+		id = 26466,
 		damage = "80/回",
 		base = 26460,
-		id = 26466,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26466
 		}
 	},
 	[26467] = {
+		id = 26467,
 		damage = "87/回",
 		base = 26460,
-		id = 26467,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26467
 		}
 	},
 	[26468] = {
+		id = 26468,
 		damage = "94/回",
 		base = 26460,
-		id = 26468,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26468
 		}
 	},
 	[26469] = {
+		id = 26469,
 		damage = "101/回",
 		base = 26460,
-		id = 26469,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26469
 		}
 	},
 	[26470] = {
+		id = 26470,
 		damage = "108/回",
 		base = 26460,
-		id = 26470,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26470
 		}
@@ -48156,8 +42826,6 @@ pg.equip_data_statistics = {
 		damage = "108/回",
 		base = 26460,
 		id = 26471,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26471
 		}
@@ -48225,61 +42893,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26501] = {
+		id = 26501,
 		damage = "44/回",
 		base = 26500,
-		id = 26501,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26501
 		}
 	},
 	[26502] = {
+		id = 26502,
 		damage = "50/回",
 		base = 26500,
-		id = 26502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26502
 		}
 	},
 	[26503] = {
+		id = 26503,
 		damage = "56/回",
 		base = 26500,
-		id = 26503,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26503
 		}
 	},
 	[26504] = {
+		id = 26504,
 		damage = "62/回",
 		base = 26500,
-		id = 26504,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26504
 		}
 	},
 	[26505] = {
+		id = 26505,
 		damage = "68/回",
 		base = 26500,
-		id = 26505,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26505
 		}
 	},
 	[26506] = {
+		id = 26506,
 		damage = "75/回",
 		base = 26500,
-		id = 26506,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26506
 		}
@@ -48347,101 +43003,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26521] = {
+		id = 26521,
 		damage = "51/回",
 		base = 26520,
-		id = 26521,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26521
 		}
 	},
 	[26522] = {
+		id = 26522,
 		damage = "57/回",
 		base = 26520,
-		id = 26522,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26522
 		}
 	},
 	[26523] = {
+		id = 26523,
 		damage = "63/回",
 		base = 26520,
-		id = 26523,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26523
 		}
 	},
 	[26524] = {
+		id = 26524,
 		damage = "70/回",
 		base = 26520,
-		id = 26524,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26524
 		}
 	},
 	[26525] = {
+		id = 26525,
 		damage = "77/回",
 		base = 26520,
-		id = 26525,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26525
 		}
 	},
 	[26526] = {
+		id = 26526,
 		damage = "84/回",
 		base = 26520,
-		id = 26526,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26526
 		}
 	},
 	[26527] = {
+		id = 26527,
 		damage = "91/回",
 		base = 26520,
-		id = 26527,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26527
 		}
 	},
 	[26528] = {
+		id = 26528,
 		damage = "98/回",
 		base = 26520,
-		id = 26528,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26528
 		}
 	},
 	[26529] = {
+		id = 26529,
 		damage = "105/回",
 		base = 26520,
-		id = 26529,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26529
 		}
 	},
 	[26530] = {
+		id = 26530,
 		damage = "112/回",
 		base = 26520,
-		id = 26530,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26530
 		}
@@ -48509,101 +43145,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26541] = {
+		id = 26541,
 		damage = "59/回",
 		base = 26540,
-		id = 26541,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26541
 		}
 	},
 	[26542] = {
+		id = 26542,
 		damage = "66/回",
 		base = 26540,
-		id = 26542,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26542
 		}
 	},
 	[26543] = {
+		id = 26543,
 		damage = "74/回",
 		base = 26540,
-		id = 26543,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26543
 		}
 	},
 	[26544] = {
+		id = 26544,
 		damage = "82/回",
 		base = 26540,
-		id = 26544,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26544
 		}
 	},
 	[26545] = {
+		id = 26545,
 		damage = "90/回",
 		base = 26540,
-		id = 26545,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26545
 		}
 	},
 	[26546] = {
+		id = 26546,
 		damage = "98/回",
 		base = 26540,
-		id = 26546,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26546
 		}
 	},
 	[26547] = {
+		id = 26547,
 		damage = "106/回",
 		base = 26540,
-		id = 26547,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26547
 		}
 	},
 	[26548] = {
+		id = 26548,
 		damage = "114/回",
 		base = 26540,
-		id = 26548,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26548
 		}
 	},
 	[26549] = {
+		id = 26549,
 		damage = "122/回",
 		base = 26540,
-		id = 26549,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26549
 		}
 	},
 	[26550] = {
+		id = 26550,
 		damage = "130/回",
 		base = 26540,
-		id = 26550,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26550
 		}
@@ -48613,8 +43229,6 @@ pg.equip_data_statistics = {
 		damage = "130/回",
 		base = 26540,
 		id = 26551,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26551
 		}
@@ -48624,8 +43238,6 @@ pg.equip_data_statistics = {
 		damage = "130/回",
 		base = 26540,
 		id = 26552,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26552
 		}
@@ -48635,8 +43247,6 @@ pg.equip_data_statistics = {
 		damage = "130/回",
 		base = 26540,
 		id = 26553,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26553
 		}
@@ -48705,101 +43315,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26601] = {
+		id = 26601,
 		damage = "43/回",
 		base = 26600,
-		id = 26601,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26601
 		}
 	},
 	[26602] = {
+		id = 26602,
 		damage = "48/回",
 		base = 26600,
-		id = 26602,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26602
 		}
 	},
 	[26603] = {
+		id = 26603,
 		damage = "54/回",
 		base = 26600,
-		id = 26603,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26603
 		}
 	},
 	[26604] = {
+		id = 26604,
 		damage = "60/回",
 		base = 26600,
-		id = 26604,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26604
 		}
 	},
 	[26605] = {
+		id = 26605,
 		damage = "66/回",
 		base = 26600,
-		id = 26605,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26605
 		}
 	},
 	[26606] = {
+		id = 26606,
 		damage = "72/回",
 		base = 26600,
-		id = 26606,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26606
 		}
 	},
 	[26607] = {
+		id = 26607,
 		damage = "78/回",
 		base = 26600,
-		id = 26607,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26607
 		}
 	},
 	[26608] = {
+		id = 26608,
 		damage = "84/回",
 		base = 26600,
-		id = 26608,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26608
 		}
 	},
 	[26609] = {
+		id = 26609,
 		damage = "90/回",
 		base = 26600,
-		id = 26609,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26609
 		}
 	},
 	[26610] = {
+		id = 26610,
 		damage = "96/回",
 		base = 26600,
-		id = 26610,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26610
 		}
@@ -48809,8 +43399,6 @@ pg.equip_data_statistics = {
 		damage = "96/回",
 		base = 26600,
 		id = 26611,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26611
 		}
@@ -48820,8 +43408,6 @@ pg.equip_data_statistics = {
 		damage = "96/回",
 		base = 26600,
 		id = 26612,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26612
 		}
@@ -48831,8 +43417,6 @@ pg.equip_data_statistics = {
 		damage = "96/回",
 		base = 26600,
 		id = 26613,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26613
 		}
@@ -48901,101 +43485,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26621] = {
+		id = 26621,
 		damage = "43/回",
 		base = 26620,
-		id = 26621,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26621
 		}
 	},
 	[26622] = {
+		id = 26622,
 		damage = "48/回",
 		base = 26620,
-		id = 26622,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26622
 		}
 	},
 	[26623] = {
+		id = 26623,
 		damage = "54/回",
 		base = 26620,
-		id = 26623,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26623
 		}
 	},
 	[26624] = {
+		id = 26624,
 		damage = "60/回",
 		base = 26620,
-		id = 26624,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26624
 		}
 	},
 	[26625] = {
+		id = 26625,
 		damage = "66/回",
 		base = 26620,
-		id = 26625,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26625
 		}
 	},
 	[26626] = {
+		id = 26626,
 		damage = "72/回",
 		base = 26620,
-		id = 26626,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26626
 		}
 	},
 	[26627] = {
+		id = 26627,
 		damage = "78/回",
 		base = 26620,
-		id = 26627,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26627
 		}
 	},
 	[26628] = {
+		id = 26628,
 		damage = "84/回",
 		base = 26620,
-		id = 26628,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26628
 		}
 	},
 	[26629] = {
+		id = 26629,
 		damage = "90/回",
 		base = 26620,
-		id = 26629,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26629
 		}
 	},
 	[26630] = {
+		id = 26630,
 		damage = "96/回",
 		base = 26620,
-		id = 26630,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26630
 		}
@@ -49005,8 +43569,6 @@ pg.equip_data_statistics = {
 		damage = "96/回",
 		base = 26620,
 		id = 26631,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26631
 		}
@@ -49016,8 +43578,6 @@ pg.equip_data_statistics = {
 		damage = "96/回",
 		base = 26620,
 		id = 26632,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26632
 		}
@@ -49027,8 +43587,6 @@ pg.equip_data_statistics = {
 		damage = "96/回",
 		base = 26620,
 		id = 26633,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26633
 		}
@@ -49097,101 +43655,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26641] = {
+		id = 26641,
 		damage = "61/回",
 		base = 26640,
-		id = 26641,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26641
 		}
 	},
 	[26642] = {
+		id = 26642,
 		damage = "68/回",
 		base = 26640,
-		id = 26642,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26642
 		}
 	},
 	[26643] = {
+		id = 26643,
 		damage = "76/回",
 		base = 26640,
-		id = 26643,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26643
 		}
 	},
 	[26644] = {
+		id = 26644,
 		damage = "84/回",
 		base = 26640,
-		id = 26644,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26644
 		}
 	},
 	[26645] = {
+		id = 26645,
 		damage = "92/回",
 		base = 26640,
-		id = 26645,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26645
 		}
 	},
 	[26646] = {
+		id = 26646,
 		damage = "100/回",
 		base = 26640,
-		id = 26646,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26646
 		}
 	},
 	[26647] = {
+		id = 26647,
 		damage = "108/回",
 		base = 26640,
-		id = 26647,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26647
 		}
 	},
 	[26648] = {
+		id = 26648,
 		damage = "116/回",
 		base = 26640,
-		id = 26648,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26648
 		}
 	},
 	[26649] = {
+		id = 26649,
 		damage = "124/回",
 		base = 26640,
-		id = 26649,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26649
 		}
 	},
 	[26650] = {
+		id = 26650,
 		damage = "132/回",
 		base = 26640,
-		id = 26650,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26650
 		}
@@ -49201,8 +43739,6 @@ pg.equip_data_statistics = {
 		damage = "132/回",
 		base = 26640,
 		id = 26651,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26651
 		}
@@ -49212,8 +43748,6 @@ pg.equip_data_statistics = {
 		damage = "132/回",
 		base = 26640,
 		id = 26652,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26652
 		}
@@ -49223,8 +43757,6 @@ pg.equip_data_statistics = {
 		damage = "132/回",
 		base = 26640,
 		id = 26653,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26653
 		}
@@ -49292,101 +43824,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26661] = {
+		id = 26661,
 		damage = "52/回",
 		base = 26660,
-		id = 26661,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26661
 		}
 	},
 	[26662] = {
+		id = 26662,
 		damage = "63/回",
 		base = 26660,
-		id = 26662,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26662
 		}
 	},
 	[26663] = {
+		id = 26663,
 		damage = "73/回",
 		base = 26660,
-		id = 26663,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26663
 		}
 	},
 	[26664] = {
+		id = 26664,
 		damage = "84/回",
 		base = 26660,
-		id = 26664,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26664
 		}
 	},
 	[26665] = {
+		id = 26665,
 		damage = "94/回",
 		base = 26660,
-		id = 26665,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26665
 		}
 	},
 	[26666] = {
+		id = 26666,
 		damage = "105/回",
 		base = 26660,
-		id = 26666,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26666
 		}
 	},
 	[26667] = {
+		id = 26667,
 		damage = "115/回",
 		base = 26660,
-		id = 26667,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26667
 		}
 	},
 	[26668] = {
+		id = 26668,
 		damage = "126/回",
 		base = 26660,
-		id = 26668,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26668
 		}
 	},
 	[26669] = {
+		id = 26669,
 		damage = "138/回",
 		base = 26660,
-		id = 26669,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26669
 		}
 	},
 	[26670] = {
+		id = 26670,
 		damage = "150/回",
 		base = 26660,
-		id = 26670,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26670
 		}
@@ -49396,8 +43908,6 @@ pg.equip_data_statistics = {
 		damage = "150/回",
 		base = 26660,
 		id = 26671,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26671
 		}
@@ -49407,8 +43917,6 @@ pg.equip_data_statistics = {
 		damage = "150/回",
 		base = 26660,
 		id = 26672,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26672
 		}
@@ -49418,8 +43926,6 @@ pg.equip_data_statistics = {
 		damage = "150/回",
 		base = 26660,
 		id = 26673,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			26673
 		}
@@ -49482,10 +43988,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27001] = {
-		base = 27000,
 		id = 27001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27000,
 		ammo_info = {
 			{
 				6,
@@ -49506,10 +44010,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27002] = {
-		base = 27000,
 		id = 27002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27000,
 		ammo_info = {
 			{
 				6,
@@ -49530,10 +44032,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27003] = {
-		base = 27000,
 		id = 27003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27000,
 		ammo_info = {
 			{
 				6,
@@ -49611,10 +44111,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27021] = {
-		base = 27020,
 		id = 27021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27020,
 		ammo_info = {
 			{
 				6,
@@ -49635,10 +44133,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27022] = {
-		base = 27020,
 		id = 27022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27020,
 		ammo_info = {
 			{
 				6,
@@ -49659,10 +44155,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27023] = {
-		base = 27020,
 		id = 27023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27020,
 		ammo_info = {
 			{
 				6,
@@ -49683,10 +44177,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27024] = {
-		base = 27020,
 		id = 27024,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27020,
 		ammo_info = {
 			{
 				6,
@@ -49707,10 +44199,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27025] = {
-		base = 27020,
 		id = 27025,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27020,
 		ammo_info = {
 			{
 				6,
@@ -49731,10 +44221,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27026] = {
-		base = 27020,
 		id = 27026,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27020,
 		ammo_info = {
 			{
 				6,
@@ -49812,10 +44300,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27041] = {
-		base = 27040,
 		id = 27041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -49836,10 +44322,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27042] = {
-		base = 27040,
 		id = 27042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -49860,10 +44344,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27043] = {
-		base = 27040,
 		id = 27043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -49884,10 +44366,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27044] = {
-		base = 27040,
 		id = 27044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -49908,10 +44388,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27045] = {
-		base = 27040,
 		id = 27045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -49932,10 +44410,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27046] = {
-		base = 27040,
 		id = 27046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -49956,10 +44432,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27047] = {
-		base = 27040,
 		id = 27047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -49980,10 +44454,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27048] = {
-		base = 27040,
 		id = 27048,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -50004,10 +44476,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27049] = {
-		base = 27040,
 		id = 27049,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -50028,10 +44498,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27050] = {
-		base = 27040,
 		id = 27050,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27040,
 		ammo_info = {
 			{
 				6,
@@ -50055,8 +44523,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 27040,
 		id = 27051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -50134,10 +44600,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27061] = {
-		base = 27060,
 		id = 27061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50158,10 +44622,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27062] = {
-		base = 27060,
 		id = 27062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50182,10 +44644,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27063] = {
-		base = 27060,
 		id = 27063,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50206,10 +44666,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27064] = {
-		base = 27060,
 		id = 27064,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50230,10 +44688,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27065] = {
-		base = 27060,
 		id = 27065,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50254,10 +44710,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27066] = {
-		base = 27060,
 		id = 27066,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50278,10 +44732,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27067] = {
-		base = 27060,
 		id = 27067,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50302,10 +44754,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27068] = {
-		base = 27060,
 		id = 27068,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50326,10 +44776,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27069] = {
-		base = 27060,
 		id = 27069,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50350,10 +44798,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27070] = {
-		base = 27060,
 		id = 27070,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27060,
 		ammo_info = {
 			{
 				6,
@@ -50377,8 +44823,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 27060,
 		id = 27071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -50402,8 +44846,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 27060,
 		id = 27072,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -50427,8 +44869,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 27060,
 		id = 27073,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -50502,10 +44942,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27101] = {
-		base = 27100,
 		id = 27101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27100,
 		ammo_info = {
 			{
 				6,
@@ -50522,10 +44960,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27102] = {
-		base = 27100,
 		id = 27102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27100,
 		ammo_info = {
 			{
 				6,
@@ -50542,10 +44978,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27103] = {
-		base = 27100,
 		id = 27103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27100,
 		ammo_info = {
 			{
 				6,
@@ -50562,10 +44996,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27104] = {
-		base = 27100,
 		id = 27104,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27100,
 		ammo_info = {
 			{
 				6,
@@ -50582,10 +45014,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27105] = {
-		base = 27100,
 		id = 27105,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27100,
 		ammo_info = {
 			{
 				6,
@@ -50602,10 +45032,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27106] = {
-		base = 27100,
 		id = 27106,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27100,
 		ammo_info = {
 			{
 				6,
@@ -50675,10 +45103,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27121] = {
-		base = 27120,
 		id = 27121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50695,10 +45121,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27122] = {
-		base = 27120,
 		id = 27122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50715,10 +45139,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27123] = {
-		base = 27120,
 		id = 27123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50735,10 +45157,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27124] = {
-		base = 27120,
 		id = 27124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50755,10 +45175,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27125] = {
-		base = 27120,
 		id = 27125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50775,10 +45193,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27126] = {
-		base = 27120,
 		id = 27126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50795,10 +45211,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27127] = {
-		base = 27120,
 		id = 27127,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50815,10 +45229,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27128] = {
-		base = 27120,
 		id = 27128,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50835,10 +45247,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27129] = {
-		base = 27120,
 		id = 27129,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50855,10 +45265,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27130] = {
-		base = 27120,
 		id = 27130,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27120,
 		ammo_info = {
 			{
 				6,
@@ -50928,10 +45336,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27141] = {
-		base = 27140,
 		id = 27141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -50948,10 +45354,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27142] = {
-		base = 27140,
 		id = 27142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -50968,10 +45372,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27143] = {
-		base = 27140,
 		id = 27143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -50988,10 +45390,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27144] = {
-		base = 27140,
 		id = 27144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -51008,10 +45408,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27145] = {
-		base = 27140,
 		id = 27145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -51028,10 +45426,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27146] = {
-		base = 27140,
 		id = 27146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -51048,10 +45444,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27147] = {
-		base = 27140,
 		id = 27147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -51068,10 +45462,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27148] = {
-		base = 27140,
 		id = 27148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -51088,10 +45480,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27149] = {
-		base = 27140,
 		id = 27149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -51108,10 +45498,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27150] = {
-		base = 27140,
 		id = 27150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27140,
 		ammo_info = {
 			{
 				6,
@@ -51131,8 +45519,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 27140,
 		id = 27151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -51152,8 +45538,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 27140,
 		id = 27152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -51173,8 +45557,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 27140,
 		id = 27153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -51239,10 +45621,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27201] = {
-		base = 27200,
 		id = 27201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27200,
 		ammo_info = {
 			{
 				6,
@@ -51255,10 +45635,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27202] = {
-		base = 27200,
 		id = 27202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27200,
 		ammo_info = {
 			{
 				6,
@@ -51271,10 +45649,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27203] = {
-		base = 27200,
 		id = 27203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27200,
 		ammo_info = {
 			{
 				6,
@@ -51336,10 +45712,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27221] = {
-		base = 27220,
 		id = 27221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27220,
 		ammo_info = {
 			{
 				6,
@@ -51352,10 +45726,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27222] = {
-		base = 27220,
 		id = 27222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27220,
 		ammo_info = {
 			{
 				6,
@@ -51368,10 +45740,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27223] = {
-		base = 27220,
 		id = 27223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27220,
 		ammo_info = {
 			{
 				6,
@@ -51433,10 +45803,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27241] = {
-		base = 27240,
 		id = 27241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27240,
 		ammo_info = {
 			{
 				6,
@@ -51449,10 +45817,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27242] = {
-		base = 27240,
 		id = 27242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27240,
 		ammo_info = {
 			{
 				6,
@@ -51465,10 +45831,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27243] = {
-		base = 27240,
 		id = 27243,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27240,
 		ammo_info = {
 			{
 				6,
@@ -51481,10 +45845,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27244] = {
-		base = 27240,
 		id = 27244,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27240,
 		ammo_info = {
 			{
 				6,
@@ -51497,10 +45859,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27245] = {
-		base = 27240,
 		id = 27245,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27240,
 		ammo_info = {
 			{
 				6,
@@ -51513,10 +45873,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27246] = {
-		base = 27240,
 		id = 27246,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27240,
 		ammo_info = {
 			{
 				6,
@@ -51529,10 +45887,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27247] = {
-		base = 27240,
 		id = 27247,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27240,
 		ammo_info = {
 			{
 				6,
@@ -51594,10 +45950,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27261] = {
-		base = 27260,
 		id = 27261,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27260,
 		ammo_info = {
 			{
 				6,
@@ -51610,10 +45964,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27262] = {
-		base = 27260,
 		id = 27262,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27260,
 		ammo_info = {
 			{
 				6,
@@ -51626,10 +45978,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27263] = {
-		base = 27260,
 		id = 27263,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27260,
 		ammo_info = {
 			{
 				6,
@@ -51642,10 +45992,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27264] = {
-		base = 27260,
 		id = 27264,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27260,
 		ammo_info = {
 			{
 				6,
@@ -51658,10 +46006,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27265] = {
-		base = 27260,
 		id = 27265,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27260,
 		ammo_info = {
 			{
 				6,
@@ -51674,10 +46020,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27266] = {
-		base = 27260,
 		id = 27266,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27260,
 		ammo_info = {
 			{
 				6,
@@ -51690,10 +46034,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27267] = {
-		base = 27260,
 		id = 27267,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27260,
 		ammo_info = {
 			{
 				6,
@@ -51759,10 +46101,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27301] = {
-		base = 27300,
 		id = 27301,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51779,10 +46119,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27302] = {
-		base = 27300,
 		id = 27302,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51799,10 +46137,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27303] = {
-		base = 27300,
 		id = 27303,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51819,10 +46155,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27304] = {
-		base = 27300,
 		id = 27304,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51839,10 +46173,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27305] = {
-		base = 27300,
 		id = 27305,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51859,10 +46191,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27306] = {
-		base = 27300,
 		id = 27306,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51879,10 +46209,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27307] = {
-		base = 27300,
 		id = 27307,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51899,10 +46227,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27308] = {
-		base = 27300,
 		id = 27308,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51919,10 +46245,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27309] = {
-		base = 27300,
 		id = 27309,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51939,10 +46263,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27310] = {
-		base = 27300,
 		id = 27310,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -51962,8 +46284,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 27300,
 		id = 27311,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -51983,8 +46303,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 27300,
 		id = 27312,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52004,8 +46322,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 27300,
 		id = 27313,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52075,10 +46391,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27321] = {
-		base = 27320,
 		id = 27321,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52095,10 +46409,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27322] = {
-		base = 27320,
 		id = 27322,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52115,10 +46427,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27323] = {
-		base = 27320,
 		id = 27323,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52135,10 +46445,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27324] = {
-		base = 27320,
 		id = 27324,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52155,10 +46463,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27325] = {
-		base = 27320,
 		id = 27325,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52175,10 +46481,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27326] = {
-		base = 27320,
 		id = 27326,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52195,10 +46499,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27327] = {
-		base = 27320,
 		id = 27327,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52215,10 +46517,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27328] = {
-		base = 27320,
 		id = 27328,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52235,10 +46535,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27329] = {
-		base = 27320,
 		id = 27329,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52255,10 +46553,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[27330] = {
-		base = 27320,
 		id = 27330,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 27320,
 		ammo_info = {
 			{
 				6,
@@ -52278,8 +46574,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 27320,
 		id = 27331,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52299,8 +46593,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 27320,
 		id = 27332,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52320,8 +46612,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 27320,
 		id = 27333,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52390,10 +46680,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28001] = {
-		base = 28000,
 		id = 28001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28000,
 		ammo_info = {
 			{
 				6,
@@ -52409,10 +46697,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28002] = {
-		base = 28000,
 		id = 28002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28000,
 		ammo_info = {
 			{
 				6,
@@ -52428,10 +46714,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28003] = {
-		base = 28000,
 		id = 28003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28000,
 		ammo_info = {
 			{
 				6,
@@ -52499,10 +46783,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28021] = {
-		base = 28020,
 		id = 28021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28020,
 		ammo_info = {
 			{
 				6,
@@ -52518,10 +46800,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28022] = {
-		base = 28020,
 		id = 28022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28020,
 		ammo_info = {
 			{
 				6,
@@ -52537,10 +46817,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28023] = {
-		base = 28020,
 		id = 28023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28020,
 		ammo_info = {
 			{
 				6,
@@ -52556,10 +46834,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28024] = {
-		base = 28020,
 		id = 28024,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28020,
 		ammo_info = {
 			{
 				6,
@@ -52575,10 +46851,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28025] = {
-		base = 28020,
 		id = 28025,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28020,
 		ammo_info = {
 			{
 				6,
@@ -52594,10 +46868,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28026] = {
-		base = 28020,
 		id = 28026,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28020,
 		ammo_info = {
 			{
 				6,
@@ -52665,10 +46937,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28041] = {
-		base = 28040,
 		id = 28041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52684,10 +46954,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28042] = {
-		base = 28040,
 		id = 28042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52703,10 +46971,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28043] = {
-		base = 28040,
 		id = 28043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52722,10 +46988,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28044] = {
-		base = 28040,
 		id = 28044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52741,10 +47005,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28045] = {
-		base = 28040,
 		id = 28045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52760,10 +47022,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28046] = {
-		base = 28040,
 		id = 28046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52779,10 +47039,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28047] = {
-		base = 28040,
 		id = 28047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52798,10 +47056,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28048] = {
-		base = 28040,
 		id = 28048,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52817,10 +47073,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28049] = {
-		base = 28040,
 		id = 28049,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52836,10 +47090,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28050] = {
-		base = 28040,
 		id = 28050,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28040,
 		ammo_info = {
 			{
 				6,
@@ -52858,8 +47110,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 28040,
 		id = 28051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52931,8 +47181,6 @@ pg.equip_data_statistics = {
 	[28061] = {
 		base = 28060,
 		id = 28061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52953,8 +47201,6 @@ pg.equip_data_statistics = {
 	[28062] = {
 		base = 28060,
 		id = 28062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52975,8 +47221,6 @@ pg.equip_data_statistics = {
 	[28063] = {
 		base = 28060,
 		id = 28063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -52997,8 +47241,6 @@ pg.equip_data_statistics = {
 	[28064] = {
 		base = 28060,
 		id = 28064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53019,8 +47261,6 @@ pg.equip_data_statistics = {
 	[28065] = {
 		base = 28060,
 		id = 28065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53041,8 +47281,6 @@ pg.equip_data_statistics = {
 	[28066] = {
 		base = 28060,
 		id = 28066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53063,8 +47301,6 @@ pg.equip_data_statistics = {
 	[28067] = {
 		base = 28060,
 		id = 28067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53085,8 +47321,6 @@ pg.equip_data_statistics = {
 	[28068] = {
 		base = 28060,
 		id = 28068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53107,8 +47341,6 @@ pg.equip_data_statistics = {
 	[28069] = {
 		base = 28060,
 		id = 28069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53129,8 +47361,6 @@ pg.equip_data_statistics = {
 	[28070] = {
 		base = 28060,
 		id = 28070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53152,8 +47382,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 28060,
 		id = 28071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53175,8 +47403,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 28060,
 		id = 28072,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53198,8 +47424,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 28060,
 		id = 28073,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53270,10 +47494,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28101] = {
-		base = 28100,
 		id = 28101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28100,
 		ammo_info = {
 			{
 				6,
@@ -53289,10 +47511,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28102] = {
-		base = 28100,
 		id = 28102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28100,
 		ammo_info = {
 			{
 				6,
@@ -53308,10 +47528,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28103] = {
-		base = 28100,
 		id = 28103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28100,
 		ammo_info = {
 			{
 				6,
@@ -53327,10 +47545,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28104] = {
-		base = 28100,
 		id = 28104,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28100,
 		ammo_info = {
 			{
 				6,
@@ -53346,10 +47562,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28105] = {
-		base = 28100,
 		id = 28105,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28100,
 		ammo_info = {
 			{
 				6,
@@ -53365,10 +47579,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28106] = {
-		base = 28100,
 		id = 28106,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28100,
 		ammo_info = {
 			{
 				6,
@@ -53436,10 +47648,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28121] = {
-		base = 28120,
 		id = 28121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53455,10 +47665,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28122] = {
-		base = 28120,
 		id = 28122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53474,10 +47682,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28123] = {
-		base = 28120,
 		id = 28123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53493,10 +47699,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28124] = {
-		base = 28120,
 		id = 28124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53512,10 +47716,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28125] = {
-		base = 28120,
 		id = 28125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53531,10 +47733,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28126] = {
-		base = 28120,
 		id = 28126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53550,10 +47750,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28127] = {
-		base = 28120,
 		id = 28127,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53569,10 +47767,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28128] = {
-		base = 28120,
 		id = 28128,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53588,10 +47784,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28129] = {
-		base = 28120,
 		id = 28129,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53607,10 +47801,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28130] = {
-		base = 28120,
 		id = 28130,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28120,
 		ammo_info = {
 			{
 				6,
@@ -53678,10 +47870,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28141] = {
-		base = 28140,
 		id = 28141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53697,10 +47887,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28142] = {
-		base = 28140,
 		id = 28142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53716,10 +47904,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28143] = {
-		base = 28140,
 		id = 28143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53735,10 +47921,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28144] = {
-		base = 28140,
 		id = 28144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53754,10 +47938,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28145] = {
-		base = 28140,
 		id = 28145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53773,10 +47955,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28146] = {
-		base = 28140,
 		id = 28146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53792,10 +47972,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28147] = {
-		base = 28140,
 		id = 28147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53811,10 +47989,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28148] = {
-		base = 28140,
 		id = 28148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53830,10 +48006,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28149] = {
-		base = 28140,
 		id = 28149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53849,10 +48023,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28150] = {
-		base = 28140,
 		id = 28150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28140,
 		ammo_info = {
 			{
 				6,
@@ -53871,8 +48043,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 28140,
 		id = 28151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53891,8 +48061,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 28140,
 		id = 28152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53911,8 +48079,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 28140,
 		id = 28153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -53980,10 +48146,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28201] = {
-		base = 28200,
 		id = 28201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -53999,10 +48163,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28202] = {
-		base = 28200,
 		id = 28202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54018,10 +48180,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28203] = {
-		base = 28200,
 		id = 28203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54037,10 +48197,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28204] = {
-		base = 28200,
 		id = 28204,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54056,10 +48214,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28205] = {
-		base = 28200,
 		id = 28205,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54075,10 +48231,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28206] = {
-		base = 28200,
 		id = 28206,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54094,10 +48248,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28207] = {
-		base = 28200,
 		id = 28207,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54113,10 +48265,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28208] = {
-		base = 28200,
 		id = 28208,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54132,10 +48282,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28209] = {
-		base = 28200,
 		id = 28209,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54151,10 +48299,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28210] = {
-		base = 28200,
 		id = 28210,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28200,
 		ammo_info = {
 			{
 				6,
@@ -54173,8 +48319,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 28200,
 		id = 28211,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -54193,8 +48337,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 28200,
 		id = 28212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -54213,8 +48355,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 28200,
 		id = 28213,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -54282,10 +48422,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28221] = {
-		base = 28220,
 		id = 28221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54301,10 +48439,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28222] = {
-		base = 28220,
 		id = 28222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54320,10 +48456,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28223] = {
-		base = 28220,
 		id = 28223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54339,10 +48473,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28224] = {
-		base = 28220,
 		id = 28224,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54358,10 +48490,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28225] = {
-		base = 28220,
 		id = 28225,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54377,10 +48507,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28226] = {
-		base = 28220,
 		id = 28226,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54396,10 +48524,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28227] = {
-		base = 28220,
 		id = 28227,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54415,10 +48541,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28228] = {
-		base = 28220,
 		id = 28228,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54434,10 +48558,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28229] = {
-		base = 28220,
 		id = 28229,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54453,10 +48575,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28230] = {
-		base = 28220,
 		id = 28230,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28220,
 		ammo_info = {
 			{
 				6,
@@ -54475,8 +48595,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 28220,
 		id = 28231,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -54495,8 +48613,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 28220,
 		id = 28232,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -54515,8 +48631,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 28220,
 		id = 28233,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -54585,10 +48699,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28301] = {
-		base = 28300,
 		id = 28301,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28300,
 		ammo_info = {
 			{
 				6,
@@ -54604,10 +48716,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28302] = {
-		base = 28300,
 		id = 28302,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28300,
 		ammo_info = {
 			{
 				6,
@@ -54623,10 +48733,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28303] = {
-		base = 28300,
 		id = 28303,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28300,
 		ammo_info = {
 			{
 				6,
@@ -54695,10 +48803,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28321] = {
-		base = 28320,
 		id = 28321,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28320,
 		ammo_info = {
 			{
 				6,
@@ -54714,10 +48820,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28322] = {
-		base = 28320,
 		id = 28322,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28320,
 		ammo_info = {
 			{
 				6,
@@ -54733,10 +48837,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28323] = {
-		base = 28320,
 		id = 28323,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28320,
 		ammo_info = {
 			{
 				6,
@@ -54752,10 +48854,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28324] = {
-		base = 28320,
 		id = 28324,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28320,
 		ammo_info = {
 			{
 				6,
@@ -54771,10 +48871,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28325] = {
-		base = 28320,
 		id = 28325,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28320,
 		ammo_info = {
 			{
 				6,
@@ -54790,10 +48888,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28326] = {
-		base = 28320,
 		id = 28326,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28320,
 		ammo_info = {
 			{
 				6,
@@ -54862,10 +48958,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28341] = {
-		base = 28340,
 		id = 28341,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -54881,10 +48975,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28342] = {
-		base = 28340,
 		id = 28342,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -54900,10 +48992,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28343] = {
-		base = 28340,
 		id = 28343,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -54919,10 +49009,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28344] = {
-		base = 28340,
 		id = 28344,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -54938,10 +49026,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28345] = {
-		base = 28340,
 		id = 28345,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -54957,10 +49043,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28346] = {
-		base = 28340,
 		id = 28346,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -54976,10 +49060,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28347] = {
-		base = 28340,
 		id = 28347,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -54995,10 +49077,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28348] = {
-		base = 28340,
 		id = 28348,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -55014,10 +49094,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28349] = {
-		base = 28340,
 		id = 28349,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -55033,10 +49111,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28350] = {
-		base = 28340,
 		id = 28350,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28340,
 		ammo_info = {
 			{
 				6,
@@ -55055,8 +49131,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 28340,
 		id = 28351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -55125,10 +49199,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28401] = {
-		base = 28400,
 		id = 28401,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55145,10 +49217,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28402] = {
-		base = 28400,
 		id = 28402,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55165,10 +49235,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28403] = {
-		base = 28400,
 		id = 28403,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55185,10 +49253,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28404] = {
-		base = 28400,
 		id = 28404,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55205,10 +49271,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28405] = {
-		base = 28400,
 		id = 28405,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55225,10 +49289,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28406] = {
-		base = 28400,
 		id = 28406,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55245,10 +49307,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28407] = {
-		base = 28400,
 		id = 28407,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55265,10 +49325,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28408] = {
-		base = 28400,
 		id = 28408,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55285,10 +49343,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28409] = {
-		base = 28400,
 		id = 28409,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55305,10 +49361,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[28410] = {
-		base = 28400,
 		id = 28410,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 28400,
 		ammo_info = {
 			{
 				6,
@@ -55328,8 +49382,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 28400,
 		id = 28411,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -55349,8 +49401,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 28400,
 		id = 28412,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -55370,8 +49420,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 28400,
 		id = 28413,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -55439,10 +49487,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29001] = {
-		base = 29000,
 		id = 29001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29000,
 		ammo_info = {
 			{
 				6,
@@ -55458,10 +49504,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29002] = {
-		base = 29000,
 		id = 29002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29000,
 		ammo_info = {
 			{
 				6,
@@ -55477,10 +49521,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29003] = {
-		base = 29000,
 		id = 29003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29000,
 		ammo_info = {
 			{
 				6,
@@ -55548,10 +49590,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29021] = {
-		base = 29020,
 		id = 29021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29020,
 		ammo_info = {
 			{
 				6,
@@ -55567,10 +49607,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29022] = {
-		base = 29020,
 		id = 29022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29020,
 		ammo_info = {
 			{
 				6,
@@ -55586,10 +49624,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29023] = {
-		base = 29020,
 		id = 29023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29020,
 		ammo_info = {
 			{
 				6,
@@ -55657,10 +49693,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29041] = {
-		base = 29040,
 		id = 29041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29040,
 		ammo_info = {
 			{
 				6,
@@ -55676,10 +49710,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29042] = {
-		base = 29040,
 		id = 29042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29040,
 		ammo_info = {
 			{
 				6,
@@ -55695,10 +49727,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29043] = {
-		base = 29040,
 		id = 29043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29040,
 		ammo_info = {
 			{
 				6,
@@ -55714,10 +49744,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29044] = {
-		base = 29040,
 		id = 29044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29040,
 		ammo_info = {
 			{
 				6,
@@ -55733,10 +49761,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29045] = {
-		base = 29040,
 		id = 29045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29040,
 		ammo_info = {
 			{
 				6,
@@ -55752,10 +49778,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29046] = {
-		base = 29040,
 		id = 29046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29040,
 		ammo_info = {
 			{
 				6,
@@ -55771,10 +49795,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29047] = {
-		base = 29040,
 		id = 29047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29040,
 		ammo_info = {
 			{
 				6,
@@ -55842,10 +49864,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29101] = {
-		base = 29100,
 		id = 29101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29100,
 		ammo_info = {
 			{
 				6,
@@ -55861,10 +49881,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29102] = {
-		base = 29100,
 		id = 29102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29100,
 		ammo_info = {
 			{
 				6,
@@ -55880,10 +49898,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29103] = {
-		base = 29100,
 		id = 29103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29100,
 		ammo_info = {
 			{
 				6,
@@ -55951,10 +49967,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29121] = {
-		base = 29120,
 		id = 29121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29120,
 		ammo_info = {
 			{
 				6,
@@ -55970,10 +49984,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29122] = {
-		base = 29120,
 		id = 29122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29120,
 		ammo_info = {
 			{
 				6,
@@ -55989,10 +50001,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29123] = {
-		base = 29120,
 		id = 29123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29120,
 		ammo_info = {
 			{
 				6,
@@ -56008,10 +50018,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29124] = {
-		base = 29120,
 		id = 29124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29120,
 		ammo_info = {
 			{
 				6,
@@ -56027,10 +50035,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29125] = {
-		base = 29120,
 		id = 29125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29120,
 		ammo_info = {
 			{
 				6,
@@ -56046,10 +50052,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29126] = {
-		base = 29120,
 		id = 29126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29120,
 		ammo_info = {
 			{
 				6,
@@ -56117,10 +50121,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29141] = {
-		base = 29140,
 		id = 29141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56136,10 +50138,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29142] = {
-		base = 29140,
 		id = 29142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56155,10 +50155,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29143] = {
-		base = 29140,
 		id = 29143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56174,10 +50172,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29144] = {
-		base = 29140,
 		id = 29144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56193,10 +50189,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29145] = {
-		base = 29140,
 		id = 29145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56212,10 +50206,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29146] = {
-		base = 29140,
 		id = 29146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56231,10 +50223,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29147] = {
-		base = 29140,
 		id = 29147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56250,10 +50240,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29148] = {
-		base = 29140,
 		id = 29148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56269,10 +50257,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29149] = {
-		base = 29140,
 		id = 29149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56288,10 +50274,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29150] = {
-		base = 29140,
 		id = 29150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29140,
 		ammo_info = {
 			{
 				6,
@@ -56310,8 +50294,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 29140,
 		id = 29151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56379,10 +50361,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29201] = {
-		base = 29200,
 		id = 29201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56398,10 +50378,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29202] = {
-		base = 29200,
 		id = 29202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56417,10 +50395,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29203] = {
-		base = 29200,
 		id = 29203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56436,10 +50412,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29204] = {
-		base = 29200,
 		id = 29204,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56455,10 +50429,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29205] = {
-		base = 29200,
 		id = 29205,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56474,10 +50446,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29206] = {
-		base = 29200,
 		id = 29206,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56493,10 +50463,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29207] = {
-		base = 29200,
 		id = 29207,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56512,10 +50480,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29208] = {
-		base = 29200,
 		id = 29208,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56531,10 +50497,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29209] = {
-		base = 29200,
 		id = 29209,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56550,10 +50514,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[29210] = {
-		base = 29200,
 		id = 29210,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 29200,
 		ammo_info = {
 			{
 				6,
@@ -56572,8 +50534,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 29200,
 		id = 29211,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56592,8 +50552,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 29200,
 		id = 29212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56612,8 +50570,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 29200,
 		id = 29213,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56685,8 +50641,6 @@ pg.equip_data_statistics = {
 	[29301] = {
 		base = 29300,
 		id = 29301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56707,8 +50661,6 @@ pg.equip_data_statistics = {
 	[29302] = {
 		base = 29300,
 		id = 29302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56729,8 +50681,6 @@ pg.equip_data_statistics = {
 	[29303] = {
 		base = 29300,
 		id = 29303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56751,8 +50701,6 @@ pg.equip_data_statistics = {
 	[29304] = {
 		base = 29300,
 		id = 29304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56773,8 +50721,6 @@ pg.equip_data_statistics = {
 	[29305] = {
 		base = 29300,
 		id = 29305,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56795,8 +50741,6 @@ pg.equip_data_statistics = {
 	[29306] = {
 		base = 29300,
 		id = 29306,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56817,8 +50761,6 @@ pg.equip_data_statistics = {
 	[29307] = {
 		base = 29300,
 		id = 29307,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56839,8 +50781,6 @@ pg.equip_data_statistics = {
 	[29308] = {
 		base = 29300,
 		id = 29308,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56861,8 +50801,6 @@ pg.equip_data_statistics = {
 	[29309] = {
 		base = 29300,
 		id = 29309,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56883,8 +50821,6 @@ pg.equip_data_statistics = {
 	[29310] = {
 		base = 29300,
 		id = 29310,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56906,8 +50842,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 29300,
 		id = 29311,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56929,8 +50863,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 29300,
 		id = 29312,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -56952,8 +50884,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 29300,
 		id = 29313,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -57024,71 +50954,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[30001] = {
+		id = 30001,
 		damage = "45 x 2",
 		base = 30000,
-		id = 30001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			30001
 		}
 	},
 	[30002] = {
+		id = 30002,
 		damage = "50 x 2",
 		base = 30000,
-		id = 30002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			30002
 		}
 	},
 	[30003] = {
+		id = 30003,
 		damage = "56 x 2",
 		base = 30000,
-		id = 30003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			30003
 		}
 	},
 	[30004] = {
+		id = 30004,
 		damage = "62 x 2",
 		base = 30000,
-		id = 30004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			30004
 		}
 	},
 	[30005] = {
+		id = 30005,
 		damage = "68 x 2",
 		base = 30000,
-		id = 30005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			30005
 		}
 	},
 	[30006] = {
+		id = 30006,
 		damage = "74 x 2",
 		base = 30000,
-		id = 30006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			30006
 		}
 	},
 	[30007] = {
+		id = 30007,
 		damage = "74 x 2",
 		base = 30000,
-		id = 30007,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			30007
 		}
@@ -57161,60 +51077,48 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31001] = {
-		base = 31000,
 		id = 31001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31000,
 		weapon_id = {
 			31001
 		}
 	},
 	[31002] = {
+		id = 31002,
 		damage = "6 x 4",
 		base = 31000,
-		id = 31002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31002
 		}
 	},
 	[31003] = {
+		id = 31003,
 		damage = "6 x 4",
 		base = 31000,
-		id = 31003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31003
 		}
 	},
 	[31004] = {
+		id = 31004,
 		damage = "6 x 4",
 		base = 31000,
-		id = 31004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31004
 		}
 	},
 	[31005] = {
+		id = 31005,
 		damage = "7 x 4",
 		base = 31000,
-		id = 31005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31005
 		}
 	},
 	[31006] = {
+		id = 31006,
 		damage = "7 x 4",
 		base = 31000,
-		id = 31006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31006
 		}
@@ -57287,100 +51191,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31021] = {
-		base = 31020,
 		id = 31021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31020,
 		weapon_id = {
 			31021
 		}
 	},
 	[31022] = {
+		id = 31022,
 		damage = "6 x 4",
 		base = 31020,
-		id = 31022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31022
 		}
 	},
 	[31023] = {
+		id = 31023,
 		damage = "6 x 4",
 		base = 31020,
-		id = 31023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31023
 		}
 	},
 	[31024] = {
+		id = 31024,
 		damage = "7 x 4",
 		base = 31020,
-		id = 31024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31024
 		}
 	},
 	[31025] = {
+		id = 31025,
 		damage = "8 x 4",
 		base = 31020,
-		id = 31025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31025
 		}
 	},
 	[31026] = {
+		id = 31026,
 		damage = "8 x 4",
 		base = 31020,
-		id = 31026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31026
 		}
 	},
 	[31027] = {
+		id = 31027,
 		damage = "9 x 4",
 		base = 31020,
-		id = 31027,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31027
 		}
 	},
 	[31028] = {
+		id = 31028,
 		damage = "9 x 4",
 		base = 31020,
-		id = 31028,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31028
 		}
 	},
 	[31029] = {
+		id = 31029,
 		damage = "10 x 4",
 		base = 31020,
-		id = 31029,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31029
 		}
 	},
 	[31030] = {
+		id = 31030,
 		damage = "11 x 4",
 		base = 31020,
-		id = 31030,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31030
 		}
@@ -57453,100 +51337,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31041] = {
-		base = 31040,
 		id = 31041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31040,
 		weapon_id = {
 			31041
 		}
 	},
 	[31042] = {
+		id = 31042,
 		damage = "7 x 4",
 		base = 31040,
-		id = 31042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31042
 		}
 	},
 	[31043] = {
+		id = 31043,
 		damage = "7 x 4",
 		base = 31040,
-		id = 31043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31043
 		}
 	},
 	[31044] = {
+		id = 31044,
 		damage = "8 x 4",
 		base = 31040,
-		id = 31044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31044
 		}
 	},
 	[31045] = {
+		id = 31045,
 		damage = "9 x 4",
 		base = 31040,
-		id = 31045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31045
 		}
 	},
 	[31046] = {
+		id = 31046,
 		damage = "9 x 4",
 		base = 31040,
-		id = 31046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31046
 		}
 	},
 	[31047] = {
+		id = 31047,
 		damage = "10 x 4",
 		base = 31040,
-		id = 31047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31047
 		}
 	},
 	[31048] = {
+		id = 31048,
 		damage = "10 x 4",
 		base = 31040,
-		id = 31048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31048
 		}
 	},
 	[31049] = {
+		id = 31049,
 		damage = "11 x 4",
 		base = 31040,
-		id = 31049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31049
 		}
 	},
 	[31050] = {
+		id = 31050,
 		damage = "12 x 4",
 		base = 31040,
-		id = 31050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31050
 		}
@@ -57556,8 +51420,6 @@ pg.equip_data_statistics = {
 		damage = "12 x 4",
 		base = 31040,
 		id = 31051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31051
 		}
@@ -57567,8 +51429,6 @@ pg.equip_data_statistics = {
 		damage = "12 x 4",
 		base = 31040,
 		id = 31052,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31052
 		}
@@ -57578,8 +51438,6 @@ pg.equip_data_statistics = {
 		damage = "12 x 4",
 		base = 31040,
 		id = 31053,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31053
 		}
@@ -57651,100 +51509,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31061] = {
-		base = 31060,
 		id = 31061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31060,
 		weapon_id = {
 			31061
 		}
 	},
 	[31062] = {
+		id = 31062,
 		damage = "5 x 4",
 		base = 31060,
-		id = 31062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31062
 		}
 	},
 	[31063] = {
+		id = 31063,
 		damage = "5 x 4",
 		base = 31060,
-		id = 31063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31063
 		}
 	},
 	[31064] = {
+		id = 31064,
 		damage = "6 x 4",
 		base = 31060,
-		id = 31064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31064
 		}
 	},
 	[31065] = {
+		id = 31065,
 		damage = "6 x 4",
 		base = 31060,
-		id = 31065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31065
 		}
 	},
 	[31066] = {
+		id = 31066,
 		damage = "7 x 4",
 		base = 31060,
-		id = 31066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31066
 		}
 	},
 	[31067] = {
+		id = 31067,
 		damage = "7 x 4",
 		base = 31060,
-		id = 31067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31067
 		}
 	},
 	[31068] = {
+		id = 31068,
 		damage = "8 x 4",
 		base = 31060,
-		id = 31068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31068
 		}
 	},
 	[31069] = {
+		id = 31069,
 		damage = "8 x 4",
 		base = 31060,
-		id = 31069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31069
 		}
 	},
 	[31070] = {
+		id = 31070,
 		damage = "9 x 4",
 		base = 31060,
-		id = 31070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31070
 		}
@@ -57754,8 +51592,6 @@ pg.equip_data_statistics = {
 		damage = "9 x 4",
 		base = 31060,
 		id = 31071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31071
 		}
@@ -57826,30 +51662,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31101] = {
-		base = 31100,
 		id = 31101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31100,
 		weapon_id = {
 			31101
 		}
 	},
 	[31102] = {
+		id = 31102,
 		damage = "4 x 1",
 		base = 31100,
-		id = 31102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31102
 		}
 	},
 	[31103] = {
+		id = 31103,
 		damage = "4 x 1",
 		base = 31100,
-		id = 31103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31103
 		}
@@ -57921,30 +51751,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31121] = {
-		base = 31120,
 		id = 31121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31120,
 		weapon_id = {
 			31121
 		}
 	},
 	[31122] = {
+		id = 31122,
 		damage = "4 x 1",
 		base = 31120,
-		id = 31122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31122
 		}
 	},
 	[31123] = {
+		id = 31123,
 		damage = "4 x 1",
 		base = 31120,
-		id = 31123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31123
 		}
@@ -58016,70 +51840,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31141] = {
-		base = 31140,
 		id = 31141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31140,
 		weapon_id = {
 			31141
 		}
 	},
 	[31142] = {
+		id = 31142,
 		damage = "4 x 1",
 		base = 31140,
-		id = 31142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31142
 		}
 	},
 	[31143] = {
+		id = 31143,
 		damage = "4 x 1",
 		base = 31140,
-		id = 31143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31143
 		}
 	},
 	[31144] = {
+		id = 31144,
 		damage = "7 x 1",
 		base = 31140,
-		id = 31144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31144
 		}
 	},
 	[31145] = {
+		id = 31145,
 		damage = "7 x 1",
 		base = 31140,
-		id = 31145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31145
 		}
 	},
 	[31146] = {
+		id = 31146,
 		damage = "8 x 1",
 		base = 31140,
-		id = 31146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31146
 		}
 	},
 	[31147] = {
+		id = 31147,
 		damage = "8 x 1",
 		base = 31140,
-		id = 31147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31147
 		}
@@ -58151,70 +51961,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31161] = {
-		base = 31160,
 		id = 31161,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31160,
 		weapon_id = {
 			31161
 		}
 	},
 	[31162] = {
+		id = 31162,
 		damage = "4 x 2",
 		base = 31160,
-		id = 31162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31162
 		}
 	},
 	[31163] = {
+		id = 31163,
 		damage = "4 x 2",
 		base = 31160,
-		id = 31163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31163
 		}
 	},
 	[31164] = {
+		id = 31164,
 		damage = "7 x 2",
 		base = 31160,
-		id = 31164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31164
 		}
 	},
 	[31165] = {
+		id = 31165,
 		damage = "7 x 2",
 		base = 31160,
-		id = 31165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31165
 		}
 	},
 	[31166] = {
+		id = 31166,
 		damage = "8 x 2",
 		base = 31160,
-		id = 31166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31166
 		}
 	},
 	[31167] = {
+		id = 31167,
 		damage = "8 x 2",
 		base = 31160,
-		id = 31167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31167
 		}
@@ -58287,100 +52083,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31181] = {
-		base = 31180,
 		id = 31181,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31180,
 		weapon_id = {
 			31181
 		}
 	},
 	[31182] = {
+		id = 31182,
 		damage = "5 x 3",
 		base = 31180,
-		id = 31182,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31182
 		}
 	},
 	[31183] = {
+		id = 31183,
 		damage = "5 x 3",
 		base = 31180,
-		id = 31183,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31183
 		}
 	},
 	[31184] = {
+		id = 31184,
 		damage = "7 x 3",
 		base = 31180,
-		id = 31184,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31184
 		}
 	},
 	[31185] = {
+		id = 31185,
 		damage = "7 x 3",
 		base = 31180,
-		id = 31185,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31185
 		}
 	},
 	[31186] = {
+		id = 31186,
 		damage = "8 x 3",
 		base = 31180,
-		id = 31186,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31186
 		}
 	},
 	[31187] = {
+		id = 31187,
 		damage = "9 x 3",
 		base = 31180,
-		id = 31187,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31187
 		}
 	},
 	[31188] = {
+		id = 31188,
 		damage = "9 x 3",
 		base = 31180,
-		id = 31188,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31188
 		}
 	},
 	[31189] = {
+		id = 31189,
 		damage = "10 x 3",
 		base = 31180,
-		id = 31189,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31189
 		}
 	},
 	[31190] = {
+		id = 31190,
 		damage = "11 x 3",
 		base = 31180,
-		id = 31190,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31190
 		}
@@ -58390,8 +52166,6 @@ pg.equip_data_statistics = {
 		damage = "11 x 3",
 		base = 31180,
 		id = 31191,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31191
 		}
@@ -58463,30 +52237,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31201] = {
-		base = 31200,
 		id = 31201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31200,
 		weapon_id = {
 			31201
 		}
 	},
 	[31202] = {
+		id = 31202,
 		damage = "5 x 4",
 		base = 31200,
-		id = 31202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31202
 		}
 	},
 	[31203] = {
+		id = 31203,
 		damage = "5 x 4",
 		base = 31200,
-		id = 31203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31203
 		}
@@ -58558,60 +52326,48 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31221] = {
-		base = 31220,
 		id = 31221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31220,
 		weapon_id = {
 			31221
 		}
 	},
 	[31222] = {
+		id = 31222,
 		damage = "5 x 4",
 		base = 31220,
-		id = 31222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31222
 		}
 	},
 	[31223] = {
+		id = 31223,
 		damage = "5 x 4",
 		base = 31220,
-		id = 31223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31223
 		}
 	},
 	[31224] = {
+		id = 31224,
 		damage = "7 x 4",
 		base = 31220,
-		id = 31224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31224
 		}
 	},
 	[31225] = {
+		id = 31225,
 		damage = "7 x 4",
 		base = 31220,
-		id = 31225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31225
 		}
 	},
 	[31226] = {
+		id = 31226,
 		damage = "8 x 4",
 		base = 31220,
-		id = 31226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31226
 		}
@@ -58684,100 +52440,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31241] = {
-		base = 31240,
 		id = 31241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31240,
 		weapon_id = {
 			31241
 		}
 	},
 	[31242] = {
+		id = 31242,
 		damage = "5 x 4",
 		base = 31240,
-		id = 31242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31242
 		}
 	},
 	[31243] = {
+		id = 31243,
 		damage = "5 x 4",
 		base = 31240,
-		id = 31243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31243
 		}
 	},
 	[31244] = {
+		id = 31244,
 		damage = "8 x 4",
 		base = 31240,
-		id = 31244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31244
 		}
 	},
 	[31245] = {
+		id = 31245,
 		damage = "8 x 4",
 		base = 31240,
-		id = 31245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31245
 		}
 	},
 	[31246] = {
+		id = 31246,
 		damage = "9 x 4",
 		base = 31240,
-		id = 31246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31246
 		}
 	},
 	[31247] = {
+		id = 31247,
 		damage = "10 x 4",
 		base = 31240,
-		id = 31247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31247
 		}
 	},
 	[31248] = {
+		id = 31248,
 		damage = "10 x 4",
 		base = 31240,
-		id = 31248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31248
 		}
 	},
 	[31249] = {
+		id = 31249,
 		damage = "11 x 4",
 		base = 31240,
-		id = 31249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31249
 		}
 	},
 	[31250] = {
+		id = 31250,
 		damage = "12 x 4",
 		base = 31240,
-		id = 31250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31250
 		}
@@ -58787,8 +52523,6 @@ pg.equip_data_statistics = {
 		damage = "12 x 4",
 		base = 31240,
 		id = 31251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31251
 		}
@@ -58861,70 +52595,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31261] = {
-		base = 31260,
 		id = 31261,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 31260,
 		weapon_id = {
 			31261
 		}
 	},
 	[31262] = {
+		id = 31262,
 		damage = "4 x 2",
 		base = 31260,
-		id = 31262,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31262
 		}
 	},
 	[31263] = {
+		id = 31263,
 		damage = "4 x 2",
 		base = 31260,
-		id = 31263,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31263
 		}
 	},
 	[31264] = {
+		id = 31264,
 		damage = "7 x 2",
 		base = 31260,
-		id = 31264,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31264
 		}
 	},
 	[31265] = {
+		id = 31265,
 		damage = "7 x 2",
 		base = 31260,
-		id = 31265,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31265
 		}
 	},
 	[31266] = {
+		id = 31266,
 		damage = "8 x 2",
 		base = 31260,
-		id = 31266,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31266
 		}
 	},
 	[31267] = {
+		id = 31267,
 		damage = "8 x 2",
 		base = 31260,
-		id = 31267,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31267
 		}
@@ -58997,101 +52717,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[31281] = {
+		id = 31281,
 		damage = "5 x 4",
 		base = 31280,
-		id = 31281,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31281
 		}
 	},
 	[31282] = {
+		id = 31282,
 		damage = "6 x 4",
 		base = 31280,
-		id = 31282,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31282
 		}
 	},
 	[31283] = {
+		id = 31283,
 		damage = "7 x 4",
 		base = 31280,
-		id = 31283,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31283
 		}
 	},
 	[31284] = {
+		id = 31284,
 		damage = "8 x 4",
 		base = 31280,
-		id = 31284,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31284
 		}
 	},
 	[31285] = {
+		id = 31285,
 		damage = "9 x 4",
 		base = 31280,
-		id = 31285,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31285
 		}
 	},
 	[31286] = {
+		id = 31286,
 		damage = "10 x 4",
 		base = 31280,
-		id = 31286,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31286
 		}
 	},
 	[31287] = {
+		id = 31287,
 		damage = "11 x 4",
 		base = 31280,
-		id = 31287,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31287
 		}
 	},
 	[31288] = {
+		id = 31288,
 		damage = "12 x 4",
 		base = 31280,
-		id = 31288,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31288
 		}
 	},
 	[31289] = {
+		id = 31289,
 		damage = "13 x 4",
 		base = 31280,
-		id = 31289,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31289
 		}
 	},
 	[31290] = {
+		id = 31290,
 		damage = "14 x 4",
 		base = 31280,
-		id = 31290,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31290
 		}
@@ -59101,8 +52801,6 @@ pg.equip_data_statistics = {
 		damage = "14 x 4",
 		base = 31280,
 		id = 31291,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			31291
 		}
@@ -59166,31 +52864,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32001] = {
+		id = 32001,
 		damage = "6 x 3",
 		base = 32000,
-		id = 32001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32001
 		}
 	},
 	[32002] = {
+		id = 32002,
 		damage = "7 x 3",
 		base = 32000,
-		id = 32002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32002
 		}
 	},
 	[32003] = {
+		id = 32003,
 		damage = "8 x 3",
 		base = 32000,
-		id = 32003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32003
 		}
@@ -59255,31 +52947,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32021] = {
+		id = 32021,
 		damage = "7 x 3",
 		base = 32020,
-		id = 32021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32021
 		}
 	},
 	[32022] = {
+		id = 32022,
 		damage = "8 x 3",
 		base = 32020,
-		id = 32022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32022
 		}
 	},
 	[32023] = {
+		id = 32023,
 		damage = "9 x 3",
 		base = 32020,
-		id = 32023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32023
 		}
@@ -59344,71 +53030,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32041] = {
+		id = 32041,
 		damage = "8 x 3",
 		base = 32040,
-		id = 32041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32041
 		}
 	},
 	[32042] = {
+		id = 32042,
 		damage = "9 x 3",
 		base = 32040,
-		id = 32042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32042
 		}
 	},
 	[32043] = {
+		id = 32043,
 		damage = "10 x 3",
 		base = 32040,
-		id = 32043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32043
 		}
 	},
 	[32044] = {
+		id = 32044,
 		damage = "11 x 3",
 		base = 32040,
-		id = 32044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32044
 		}
 	},
 	[32045] = {
+		id = 32045,
 		damage = "12 x 3",
 		base = 32040,
-		id = 32045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32045
 		}
 	},
 	[32046] = {
+		id = 32046,
 		damage = "13 x 3",
 		base = 32040,
-		id = 32046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32046
 		}
 	},
 	[32047] = {
+		id = 32047,
 		damage = "13 x 3",
 		base = 32040,
-		id = 32047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32047
 		}
@@ -59474,71 +53146,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32061] = {
+		id = 32061,
 		damage = "8 x 3",
 		base = 32060,
-		id = 32061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32061
 		}
 	},
 	[32062] = {
+		id = 32062,
 		damage = "10 x 3",
 		base = 32060,
-		id = 32062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32062
 		}
 	},
 	[32063] = {
+		id = 32063,
 		damage = "12 x 3",
 		base = 32060,
-		id = 32063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32063
 		}
 	},
 	[32064] = {
+		id = 32064,
 		damage = "14 x 3",
 		base = 32060,
-		id = 32064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32064
 		}
 	},
 	[32065] = {
+		id = 32065,
 		damage = "15 x 3",
 		base = 32060,
-		id = 32065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32065
 		}
 	},
 	[32066] = {
+		id = 32066,
 		damage = "16 x 3",
 		base = 32060,
-		id = 32066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32066
 		}
 	},
 	[32067] = {
+		id = 32067,
 		damage = "16 x 3",
 		base = 32060,
-		id = 32067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32067
 		}
@@ -59603,31 +53261,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32101] = {
+		id = 32101,
 		damage = "6 x 4",
 		base = 32100,
-		id = 32101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32101
 		}
 	},
 	[32102] = {
+		id = 32102,
 		damage = "7 x 4",
 		base = 32100,
-		id = 32102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32102
 		}
 	},
 	[32103] = {
+		id = 32103,
 		damage = "8 x 4",
 		base = 32100,
-		id = 32103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32103
 		}
@@ -59692,61 +53344,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32121] = {
+		id = 32121,
 		damage = "7 x 4",
 		base = 32120,
-		id = 32121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32121
 		}
 	},
 	[32122] = {
+		id = 32122,
 		damage = "8 x 4",
 		base = 32120,
-		id = 32122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32122
 		}
 	},
 	[32123] = {
+		id = 32123,
 		damage = "9 x 4",
 		base = 32120,
-		id = 32123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32123
 		}
 	},
 	[32124] = {
+		id = 32124,
 		damage = "10 x 4",
 		base = 32120,
-		id = 32124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32124
 		}
 	},
 	[32125] = {
+		id = 32125,
 		damage = "11 x 4",
 		base = 32120,
-		id = 32125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32125
 		}
 	},
 	[32126] = {
+		id = 32126,
 		damage = "12 x 4",
 		base = 32120,
-		id = 32126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32126
 		}
@@ -59812,101 +53452,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32141] = {
+		id = 32141,
 		damage = "8 x 4",
 		base = 32140,
-		id = 32141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32141
 		}
 	},
 	[32142] = {
+		id = 32142,
 		damage = "9 x 4",
 		base = 32140,
-		id = 32142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32142
 		}
 	},
 	[32143] = {
+		id = 32143,
 		damage = "10 x 4",
 		base = 32140,
-		id = 32143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32143
 		}
 	},
 	[32144] = {
+		id = 32144,
 		damage = "11 x 4",
 		base = 32140,
-		id = 32144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32144
 		}
 	},
 	[32145] = {
+		id = 32145,
 		damage = "12 x 4",
 		base = 32140,
-		id = 32145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32145
 		}
 	},
 	[32146] = {
+		id = 32146,
 		damage = "13 x 4",
 		base = 32140,
-		id = 32146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32146
 		}
 	},
 	[32147] = {
+		id = 32147,
 		damage = "14 x 4",
 		base = 32140,
-		id = 32147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32147
 		}
 	},
 	[32148] = {
+		id = 32148,
 		damage = "15 x 4",
 		base = 32140,
-		id = 32148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32148
 		}
 	},
 	[32149] = {
+		id = 32149,
 		damage = "16 x 4",
 		base = 32140,
-		id = 32149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32149
 		}
 	},
 	[32150] = {
+		id = 32150,
 		damage = "17 x 4",
 		base = 32140,
-		id = 32150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32150
 		}
@@ -59916,8 +53536,6 @@ pg.equip_data_statistics = {
 		damage = "17 x 4",
 		base = 32140,
 		id = 32151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32151
 		}
@@ -59982,61 +53600,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32201] = {
+		id = 32201,
 		damage = "7 x 6",
 		base = 32200,
-		id = 32201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32201
 		}
 	},
 	[32202] = {
+		id = 32202,
 		damage = "8 x 6",
 		base = 32200,
-		id = 32202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32202
 		}
 	},
 	[32203] = {
+		id = 32203,
 		damage = "9 x 6",
 		base = 32200,
-		id = 32203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32203
 		}
 	},
 	[32204] = {
+		id = 32204,
 		damage = "10 x 6",
 		base = 32200,
-		id = 32204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32204
 		}
 	},
 	[32205] = {
+		id = 32205,
 		damage = "11 x 6",
 		base = 32200,
-		id = 32205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32205
 		}
 	},
 	[32206] = {
+		id = 32206,
 		damage = "12 x 6",
 		base = 32200,
-		id = 32206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32206
 		}
@@ -60102,101 +53708,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32221] = {
+		id = 32221,
 		damage = "8 x 6",
 		base = 32220,
-		id = 32221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32221
 		}
 	},
 	[32222] = {
+		id = 32222,
 		damage = "9 x 6",
 		base = 32220,
-		id = 32222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32222
 		}
 	},
 	[32223] = {
+		id = 32223,
 		damage = "10 x 6",
 		base = 32220,
-		id = 32223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32223
 		}
 	},
 	[32224] = {
+		id = 32224,
 		damage = "11 x 6",
 		base = 32220,
-		id = 32224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32224
 		}
 	},
 	[32225] = {
+		id = 32225,
 		damage = "12 x 6",
 		base = 32220,
-		id = 32225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32225
 		}
 	},
 	[32226] = {
+		id = 32226,
 		damage = "13 x 6",
 		base = 32220,
-		id = 32226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32226
 		}
 	},
 	[32227] = {
+		id = 32227,
 		damage = "14 x 6",
 		base = 32220,
-		id = 32227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32227
 		}
 	},
 	[32228] = {
+		id = 32228,
 		damage = "15 x 6",
 		base = 32220,
-		id = 32228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32228
 		}
 	},
 	[32229] = {
+		id = 32229,
 		damage = "16 x 6",
 		base = 32220,
-		id = 32229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32229
 		}
 	},
 	[32230] = {
+		id = 32230,
 		damage = "17 x 6",
 		base = 32220,
-		id = 32230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32230
 		}
@@ -60262,101 +53848,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32241] = {
+		id = 32241,
 		damage = "9 x 6",
 		base = 32240,
-		id = 32241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32241
 		}
 	},
 	[32242] = {
+		id = 32242,
 		damage = "10 x 6",
 		base = 32240,
-		id = 32242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32242
 		}
 	},
 	[32243] = {
+		id = 32243,
 		damage = "11 x 6",
 		base = 32240,
-		id = 32243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32243
 		}
 	},
 	[32244] = {
+		id = 32244,
 		damage = "12 x 6",
 		base = 32240,
-		id = 32244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32244
 		}
 	},
 	[32245] = {
+		id = 32245,
 		damage = "13 x 6",
 		base = 32240,
-		id = 32245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32245
 		}
 	},
 	[32246] = {
+		id = 32246,
 		damage = "14 x 6",
 		base = 32240,
-		id = 32246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32246
 		}
 	},
 	[32247] = {
+		id = 32247,
 		damage = "15 x 6",
 		base = 32240,
-		id = 32247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32247
 		}
 	},
 	[32248] = {
+		id = 32248,
 		damage = "16 x 6",
 		base = 32240,
-		id = 32248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32248
 		}
 	},
 	[32249] = {
+		id = 32249,
 		damage = "17 x 6",
 		base = 32240,
-		id = 32249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32249
 		}
 	},
 	[32250] = {
+		id = 32250,
 		damage = "18 x 6",
 		base = 32240,
-		id = 32250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32250
 		}
@@ -60366,8 +53932,6 @@ pg.equip_data_statistics = {
 		damage = "18 x 6",
 		base = 32240,
 		id = 32251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32251
 		}
@@ -60377,8 +53941,6 @@ pg.equip_data_statistics = {
 		damage = "18 x 6",
 		base = 32240,
 		id = 32252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32252
 		}
@@ -60388,8 +53950,6 @@ pg.equip_data_statistics = {
 		damage = "18 x 6",
 		base = 32240,
 		id = 32253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32253
 		}
@@ -60454,31 +54014,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32301] = {
+		id = 32301,
 		damage = "7 x 4",
 		base = 32300,
-		id = 32301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32301
 		}
 	},
 	[32302] = {
+		id = 32302,
 		damage = "8 x 4",
 		base = 32300,
-		id = 32302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32302
 		}
 	},
 	[32303] = {
+		id = 32303,
 		damage = "9 x 4",
 		base = 32300,
-		id = 32303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32303
 		}
@@ -60544,61 +54098,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32321] = {
+		id = 32321,
 		damage = "8 x 4",
 		base = 32320,
-		id = 32321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32321
 		}
 	},
 	[32322] = {
+		id = 32322,
 		damage = "9 x 4",
 		base = 32320,
-		id = 32322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32322
 		}
 	},
 	[32323] = {
+		id = 32323,
 		damage = "10 x 4",
 		base = 32320,
-		id = 32323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32323
 		}
 	},
 	[32324] = {
+		id = 32324,
 		damage = "11 x 4",
 		base = 32320,
-		id = 32324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32324
 		}
 	},
 	[32325] = {
+		id = 32325,
 		damage = "12 x 4",
 		base = 32320,
-		id = 32325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32325
 		}
 	},
 	[32326] = {
+		id = 32326,
 		damage = "13 x 4",
 		base = 32320,
-		id = 32326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32326
 		}
@@ -60664,101 +54206,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[32341] = {
+		id = 32341,
 		damage = "9 x 4",
 		base = 32340,
-		id = 32341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32341
 		}
 	},
 	[32342] = {
+		id = 32342,
 		damage = "10 x 4",
 		base = 32340,
-		id = 32342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32342
 		}
 	},
 	[32343] = {
+		id = 32343,
 		damage = "11 x 4",
 		base = 32340,
-		id = 32343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32343
 		}
 	},
 	[32344] = {
+		id = 32344,
 		damage = "12 x 4",
 		base = 32340,
-		id = 32344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32344
 		}
 	},
 	[32345] = {
+		id = 32345,
 		damage = "13 x 4",
 		base = 32340,
-		id = 32345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32345
 		}
 	},
 	[32346] = {
+		id = 32346,
 		damage = "14 x 4",
 		base = 32340,
-		id = 32346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32346
 		}
 	},
 	[32347] = {
+		id = 32347,
 		damage = "15 x 4",
 		base = 32340,
-		id = 32347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32347
 		}
 	},
 	[32348] = {
+		id = 32348,
 		damage = "16 x 4",
 		base = 32340,
-		id = 32348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32348
 		}
 	},
 	[32349] = {
+		id = 32349,
 		damage = "17 x 4",
 		base = 32340,
-		id = 32349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32349
 		}
 	},
 	[32350] = {
+		id = 32350,
 		damage = "18 x 4",
 		base = 32340,
-		id = 32350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32350
 		}
@@ -60768,8 +54290,6 @@ pg.equip_data_statistics = {
 		damage = "18 x 4",
 		base = 32340,
 		id = 32351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			32351
 		}
@@ -60834,31 +54354,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[33001] = {
+		id = 33001,
 		damage = "24 x 4",
 		base = 33000,
-		id = 33001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33001
 		}
 	},
 	[33002] = {
+		id = 33002,
 		damage = "26 x 4",
 		base = 33000,
-		id = 33002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33002
 		}
 	},
 	[33003] = {
+		id = 33003,
 		damage = "28 x 4",
 		base = 33000,
-		id = 33003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33003
 		}
@@ -60923,61 +54437,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[33021] = {
+		id = 33021,
 		damage = "26 x 4",
 		base = 33020,
-		id = 33021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33021
 		}
 	},
 	[33022] = {
+		id = 33022,
 		damage = "28 x 4",
 		base = 33020,
-		id = 33022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33022
 		}
 	},
 	[33023] = {
+		id = 33023,
 		damage = "30 x 4",
 		base = 33020,
-		id = 33023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33023
 		}
 	},
 	[33024] = {
+		id = 33024,
 		damage = "32 x 4",
 		base = 33020,
-		id = 33024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33024
 		}
 	},
 	[33025] = {
+		id = 33025,
 		damage = "34 x 4",
 		base = 33020,
-		id = 33025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33025
 		}
 	},
 	[33026] = {
+		id = 33026,
 		damage = "36 x 4",
 		base = 33020,
-		id = 33026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33026
 		}
@@ -61042,101 +54544,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[33041] = {
+		id = 33041,
 		damage = "28 x 4",
 		base = 33040,
-		id = 33041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33041
 		}
 	},
 	[33042] = {
+		id = 33042,
 		damage = "30 x 4",
 		base = 33040,
-		id = 33042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33042
 		}
 	},
 	[33043] = {
+		id = 33043,
 		damage = "32 x 4",
 		base = 33040,
-		id = 33043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33043
 		}
 	},
 	[33044] = {
+		id = 33044,
 		damage = "34 x 4",
 		base = 33040,
-		id = 33044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33044
 		}
 	},
 	[33045] = {
+		id = 33045,
 		damage = "36 x 4",
 		base = 33040,
-		id = 33045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33045
 		}
 	},
 	[33046] = {
+		id = 33046,
 		damage = "38 x 4",
 		base = 33040,
-		id = 33046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33046
 		}
 	},
 	[33047] = {
+		id = 33047,
 		damage = "40 x 4",
 		base = 33040,
-		id = 33047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33047
 		}
 	},
 	[33048] = {
+		id = 33048,
 		damage = "42 x 4",
 		base = 33040,
-		id = 33048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33048
 		}
 	},
 	[33049] = {
+		id = 33049,
 		damage = "44 x 4",
 		base = 33040,
-		id = 33049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33049
 		}
 	},
 	[33050] = {
+		id = 33050,
 		damage = "46 x 4",
 		base = 33040,
-		id = 33050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33050
 		}
@@ -61146,8 +54628,6 @@ pg.equip_data_statistics = {
 		damage = "46 x 4",
 		base = 33040,
 		id = 33051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33051
 		}
@@ -61212,101 +54692,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[33061] = {
+		id = 33061,
 		damage = "30 x 4",
 		base = 33060,
-		id = 33061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33061
 		}
 	},
 	[33062] = {
+		id = 33062,
 		damage = "32 x 4",
 		base = 33060,
-		id = 33062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33062
 		}
 	},
 	[33063] = {
+		id = 33063,
 		damage = "34 x 4",
 		base = 33060,
-		id = 33063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33063
 		}
 	},
 	[33064] = {
+		id = 33064,
 		damage = "36 x 4",
 		base = 33060,
-		id = 33064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33064
 		}
 	},
 	[33065] = {
+		id = 33065,
 		damage = "38 x 4",
 		base = 33060,
-		id = 33065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33065
 		}
 	},
 	[33066] = {
+		id = 33066,
 		damage = "40 x 4",
 		base = 33060,
-		id = 33066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33066
 		}
 	},
 	[33067] = {
+		id = 33067,
 		damage = "42 x 4",
 		base = 33060,
-		id = 33067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33067
 		}
 	},
 	[33068] = {
+		id = 33068,
 		damage = "44 x 4",
 		base = 33060,
-		id = 33068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33068
 		}
 	},
 	[33069] = {
+		id = 33069,
 		damage = "46 x 4",
 		base = 33060,
-		id = 33069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33069
 		}
 	},
 	[33070] = {
+		id = 33070,
 		damage = "48 x 4",
 		base = 33060,
-		id = 33070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33070
 		}
@@ -61316,8 +54776,6 @@ pg.equip_data_statistics = {
 		damage = "48 x 4",
 		base = 33060,
 		id = 33071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33071
 		}
@@ -61327,8 +54785,6 @@ pg.equip_data_statistics = {
 		damage = "48 x 4",
 		base = 33060,
 		id = 33072,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33072
 		}
@@ -61338,8 +54794,6 @@ pg.equip_data_statistics = {
 		damage = "48 x 4",
 		base = 33060,
 		id = 33073,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33073
 		}
@@ -61404,101 +54858,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[33081] = {
+		id = 33081,
 		damage = "30 x 4",
 		base = 33080,
-		id = 33081,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33081
 		}
 	},
 	[33082] = {
+		id = 33082,
 		damage = "32 x 4",
 		base = 33080,
-		id = 33082,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33082
 		}
 	},
 	[33083] = {
+		id = 33083,
 		damage = "34 x 4",
 		base = 33080,
-		id = 33083,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33083
 		}
 	},
 	[33084] = {
+		id = 33084,
 		damage = "36 x 4",
 		base = 33080,
-		id = 33084,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33084
 		}
 	},
 	[33085] = {
+		id = 33085,
 		damage = "38 x 4",
 		base = 33080,
-		id = 33085,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33085
 		}
 	},
 	[33086] = {
+		id = 33086,
 		damage = "40 x 4",
 		base = 33080,
-		id = 33086,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33086
 		}
 	},
 	[33087] = {
+		id = 33087,
 		damage = "42 x 4",
 		base = 33080,
-		id = 33087,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33087
 		}
 	},
 	[33088] = {
+		id = 33088,
 		damage = "44 x 4",
 		base = 33080,
-		id = 33088,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33088
 		}
 	},
 	[33089] = {
+		id = 33089,
 		damage = "46 x 4",
 		base = 33080,
-		id = 33089,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33089
 		}
 	},
 	[33090] = {
+		id = 33090,
 		damage = "48 x 4",
 		base = 33080,
-		id = 33090,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33090
 		}
@@ -61508,8 +54942,6 @@ pg.equip_data_statistics = {
 		damage = "48 x 4",
 		base = 33080,
 		id = 33091,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33091
 		}
@@ -61565,101 +54997,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[33101] = {
+		id = 33101,
 		damage = "38 x 6",
 		base = 33100,
-		id = 33101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33101
 		}
 	},
 	[33102] = {
+		id = 33102,
 		damage = "40 x 6",
 		base = 33100,
-		id = 33102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33102
 		}
 	},
 	[33103] = {
+		id = 33103,
 		damage = "42 x 6",
 		base = 33100,
-		id = 33103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33103
 		}
 	},
 	[33104] = {
+		id = 33104,
 		damage = "44 x 6",
 		base = 33100,
-		id = 33104,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33104
 		}
 	},
 	[33105] = {
+		id = 33105,
 		damage = "46 x 6",
 		base = 33100,
-		id = 33105,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33105
 		}
 	},
 	[33106] = {
+		id = 33106,
 		damage = "48 x 6",
 		base = 33100,
-		id = 33106,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33106
 		}
 	},
 	[33107] = {
+		id = 33107,
 		damage = "50 x 6",
 		base = 33100,
-		id = 33107,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33107
 		}
 	},
 	[33108] = {
+		id = 33108,
 		damage = "52 x 6",
 		base = 33100,
-		id = 33108,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33108
 		}
 	},
 	[33109] = {
+		id = 33109,
 		damage = "54 x 6",
 		base = 33100,
-		id = 33109,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33109
 		}
 	},
 	[33110] = {
+		id = 33110,
 		damage = "56 x 6",
 		base = 33100,
-		id = 33110,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33110
 		}
@@ -61669,8 +55081,6 @@ pg.equip_data_statistics = {
 		damage = "56 x 6",
 		base = 33100,
 		id = 33111,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33111
 		}
@@ -61680,8 +55090,6 @@ pg.equip_data_statistics = {
 		damage = "56 x 6",
 		base = 33100,
 		id = 33112,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33112
 		}
@@ -61691,8 +55099,6 @@ pg.equip_data_statistics = {
 		damage = "56 x 6",
 		base = 33100,
 		id = 33113,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			33113
 		}
@@ -61749,31 +55155,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34001] = {
+		id = 34001,
 		damage = "44 x 2",
 		base = 34000,
-		id = 34001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34001
 		}
 	},
 	[34002] = {
+		id = 34002,
 		damage = "50 x 2",
 		base = 34000,
-		id = 34002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34002
 		}
 	},
 	[34003] = {
+		id = 34003,
 		damage = "56 x 2",
 		base = 34000,
-		id = 34003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34003
 		}
@@ -61832,31 +55232,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34021] = {
+		id = 34021,
 		damage = "48 x 2",
 		base = 34020,
-		id = 34021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34021
 		}
 	},
 	[34022] = {
+		id = 34022,
 		damage = "55 x 2",
 		base = 34020,
-		id = 34022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34022
 		}
 	},
 	[34023] = {
+		id = 34023,
 		damage = "62 x 2",
 		base = 34020,
-		id = 34023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34023
 		}
@@ -61915,71 +55309,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34041] = {
+		id = 34041,
 		damage = "52 x 2",
 		base = 34040,
-		id = 34041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34041
 		}
 	},
 	[34042] = {
+		id = 34042,
 		damage = "60 x 2",
 		base = 34040,
-		id = 34042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34042
 		}
 	},
 	[34043] = {
+		id = 34043,
 		damage = "68 x 2",
 		base = 34040,
-		id = 34043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34043
 		}
 	},
 	[34044] = {
+		id = 34044,
 		damage = "74 x 2",
 		base = 34040,
-		id = 34044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34044
 		}
 	},
 	[34045] = {
+		id = 34045,
 		damage = "82 x 2",
 		base = 34040,
-		id = 34045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34045
 		}
 	},
 	[34046] = {
+		id = 34046,
 		damage = "88 x 2",
 		base = 34040,
-		id = 34046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34046
 		}
 	},
 	[34047] = {
+		id = 34047,
 		damage = "88 x 2",
 		base = 34040,
-		id = 34047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34047
 		}
@@ -62038,71 +55418,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34061] = {
+		id = 34061,
 		damage = "58 x 2",
 		base = 34060,
-		id = 34061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34061
 		}
 	},
 	[34062] = {
+		id = 34062,
 		damage = "66 x 2",
 		base = 34060,
-		id = 34062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34062
 		}
 	},
 	[34063] = {
+		id = 34063,
 		damage = "74 x 2",
 		base = 34060,
-		id = 34063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34063
 		}
 	},
 	[34064] = {
+		id = 34064,
 		damage = "80 x 2",
 		base = 34060,
-		id = 34064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34064
 		}
 	},
 	[34065] = {
+		id = 34065,
 		damage = "88 x 2",
 		base = 34060,
-		id = 34065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34065
 		}
 	},
 	[34066] = {
+		id = 34066,
 		damage = "94 x 2",
 		base = 34060,
-		id = 34066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34066
 		}
 	},
 	[34067] = {
+		id = 34067,
 		damage = "94 x 2",
 		base = 34060,
-		id = 34067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34067
 		}
@@ -62160,31 +55526,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34101] = {
+		id = 34101,
 		damage = "56 x 2",
 		base = 34100,
-		id = 34101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34101
 		}
 	},
 	[34102] = {
+		id = 34102,
 		damage = "64 x 2",
 		base = 34100,
-		id = 34102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34102
 		}
 	},
 	[34103] = {
+		id = 34103,
 		damage = "72 x 2",
 		base = 34100,
-		id = 34103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34103
 		}
@@ -62243,61 +55603,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34121] = {
+		id = 34121,
 		damage = "62 x 2",
 		base = 34120,
-		id = 34121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34121
 		}
 	},
 	[34122] = {
+		id = 34122,
 		damage = "70 x 2",
 		base = 34120,
-		id = 34122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34122
 		}
 	},
 	[34123] = {
+		id = 34123,
 		damage = "79 x 2",
 		base = 34120,
-		id = 34123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34123
 		}
 	},
 	[34124] = {
+		id = 34124,
 		damage = "88 x 2",
 		base = 34120,
-		id = 34124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34124
 		}
 	},
 	[34125] = {
+		id = 34125,
 		damage = "97 x 2",
 		base = 34120,
-		id = 34125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34125
 		}
 	},
 	[34126] = {
+		id = 34126,
 		damage = "106 x 2",
 		base = 34120,
-		id = 34126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34126
 		}
@@ -62356,101 +55704,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34141] = {
+		id = 34141,
 		damage = "68 x 2",
 		base = 34140,
-		id = 34141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34141
 		}
 	},
 	[34142] = {
+		id = 34142,
 		damage = "76 x 2",
 		base = 34140,
-		id = 34142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34142
 		}
 	},
 	[34143] = {
+		id = 34143,
 		damage = "86 x 2",
 		base = 34140,
-		id = 34143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34143
 		}
 	},
 	[34144] = {
+		id = 34144,
 		damage = "96 x 2",
 		base = 34140,
-		id = 34144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34144
 		}
 	},
 	[34145] = {
+		id = 34145,
 		damage = "106 x 2",
 		base = 34140,
-		id = 34145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34145
 		}
 	},
 	[34146] = {
+		id = 34146,
 		damage = "116 x 2",
 		base = 34140,
-		id = 34146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34146
 		}
 	},
 	[34147] = {
+		id = 34147,
 		damage = "124 x 2",
 		base = 34140,
-		id = 34147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34147
 		}
 	},
 	[34148] = {
+		id = 34148,
 		damage = "134 x 2",
 		base = 34140,
-		id = 34148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34148
 		}
 	},
 	[34149] = {
+		id = 34149,
 		damage = "144 x 2",
 		base = 34140,
-		id = 34149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34149
 		}
 	},
 	[34150] = {
+		id = 34150,
 		damage = "154 x 2",
 		base = 34140,
-		id = 34150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34150
 		}
@@ -62460,8 +55788,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 2",
 		base = 34140,
 		id = 34151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34151
 		}
@@ -62521,101 +55847,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34161] = {
+		id = 34161,
 		damage = "13 x 10 x 2",
 		base = 34160,
-		id = 34161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34161
 		}
 	},
 	[34162] = {
+		id = 34162,
 		damage = "14 x 10 x 2",
 		base = 34160,
-		id = 34162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34162
 		}
 	},
 	[34163] = {
+		id = 34163,
 		damage = "15 x 10 x 2",
 		base = 34160,
-		id = 34163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34163
 		}
 	},
 	[34164] = {
+		id = 34164,
 		damage = "16 x 10 x 2",
 		base = 34160,
-		id = 34164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34164
 		}
 	},
 	[34165] = {
+		id = 34165,
 		damage = "17 x 10 x 2",
 		base = 34160,
-		id = 34165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34165
 		}
 	},
 	[34166] = {
+		id = 34166,
 		damage = "18 x 10 x 2",
 		base = 34160,
-		id = 34166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34166
 		}
 	},
 	[34167] = {
+		id = 34167,
 		damage = "19 x 10 x 2",
 		base = 34160,
-		id = 34167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34167
 		}
 	},
 	[34168] = {
+		id = 34168,
 		damage = "20 x 10 x 2",
 		base = 34160,
-		id = 34168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34168
 		}
 	},
 	[34169] = {
+		id = 34169,
 		damage = "21 x 10 x 2",
 		base = 34160,
-		id = 34169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34169
 		}
 	},
 	[34170] = {
+		id = 34170,
 		damage = "22 x 10 x 2",
 		base = 34160,
-		id = 34170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34170
 		}
@@ -62625,8 +55931,6 @@ pg.equip_data_statistics = {
 		damage = "22 x 10 x 2",
 		base = 34160,
 		id = 34171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34171
 		}
@@ -62636,8 +55940,6 @@ pg.equip_data_statistics = {
 		damage = "22 x 10 x 2",
 		base = 34160,
 		id = 34172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34172
 		}
@@ -62647,8 +55949,6 @@ pg.equip_data_statistics = {
 		damage = "22 x 10 x 2",
 		base = 34160,
 		id = 34173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34173
 		}
@@ -62707,101 +56007,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34181] = {
+		id = 34181,
 		damage = "68 x 3",
 		base = 34180,
-		id = 34181,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34181
 		}
 	},
 	[34182] = {
+		id = 34182,
 		damage = "76 x 3",
 		base = 34180,
-		id = 34182,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34182
 		}
 	},
 	[34183] = {
+		id = 34183,
 		damage = "86 x 3",
 		base = 34180,
-		id = 34183,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34183
 		}
 	},
 	[34184] = {
+		id = 34184,
 		damage = "96 x 3",
 		base = 34180,
-		id = 34184,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34184
 		}
 	},
 	[34185] = {
+		id = 34185,
 		damage = "106 x 3",
 		base = 34180,
-		id = 34185,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34185
 		}
 	},
 	[34186] = {
+		id = 34186,
 		damage = "116 x 3",
 		base = 34180,
-		id = 34186,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34186
 		}
 	},
 	[34187] = {
+		id = 34187,
 		damage = "124 x 3",
 		base = 34180,
-		id = 34187,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34187
 		}
 	},
 	[34188] = {
+		id = 34188,
 		damage = "134 x 3",
 		base = 34180,
-		id = 34188,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34188
 		}
 	},
 	[34189] = {
+		id = 34189,
 		damage = "144 x 3",
 		base = 34180,
-		id = 34189,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34189
 		}
 	},
 	[34190] = {
+		id = 34190,
 		damage = "154 x 3",
 		base = 34180,
-		id = 34190,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34190
 		}
@@ -62811,8 +56091,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 34180,
 		id = 34191,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34191
 		}
@@ -62822,8 +56100,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 34180,
 		id = 34192,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34192
 		}
@@ -62833,8 +56109,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 3",
 		base = 34180,
 		id = 34193,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34193
 		}
@@ -62893,101 +56167,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[34301] = {
+		id = 34301,
 		damage = "70 x 2",
 		base = 34300,
-		id = 34301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34301
 		}
 	},
 	[34302] = {
+		id = 34302,
 		damage = "80 x 2",
 		base = 34300,
-		id = 34302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34302
 		}
 	},
 	[34303] = {
+		id = 34303,
 		damage = "88 x 2",
 		base = 34300,
-		id = 34303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34303
 		}
 	},
 	[34304] = {
+		id = 34304,
 		damage = "98 x 2",
 		base = 34300,
-		id = 34304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34304
 		}
 	},
 	[34305] = {
+		id = 34305,
 		damage = "108 x 2",
 		base = 34300,
-		id = 34305,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34305
 		}
 	},
 	[34306] = {
+		id = 34306,
 		damage = "118 x 2",
 		base = 34300,
-		id = 34306,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34306
 		}
 	},
 	[34307] = {
+		id = 34307,
 		damage = "128 x 2",
 		base = 34300,
-		id = 34307,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34307
 		}
 	},
 	[34308] = {
+		id = 34308,
 		damage = "136 x 2",
 		base = 34300,
-		id = 34308,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34308
 		}
 	},
 	[34309] = {
+		id = 34309,
 		damage = "146 x 2",
 		base = 34300,
-		id = 34309,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34309
 		}
 	},
 	[34310] = {
+		id = 34310,
 		damage = "156 x 2",
 		base = 34300,
-		id = 34310,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34310
 		}
@@ -62997,8 +56251,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 2",
 		base = 34300,
 		id = 34311,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			34311
 		}
@@ -63065,31 +56317,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35001] = {
+		id = 35001,
 		damage = "62 x 2",
 		base = 35000,
-		id = 35001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35001
 		}
 	},
 	[35002] = {
+		id = 35002,
 		damage = "72 x 2",
 		base = 35000,
-		id = 35002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35002
 		}
 	},
 	[35003] = {
+		id = 35003,
 		damage = "82 x 2",
 		base = 35000,
-		id = 35003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35003
 		}
@@ -63157,31 +56403,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35021] = {
+		id = 35021,
 		damage = "70 x 2",
 		base = 35020,
-		id = 35021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35021
 		}
 	},
 	[35022] = {
+		id = 35022,
 		damage = "82 x 2",
 		base = 35020,
-		id = 35022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35022
 		}
 	},
 	[35023] = {
+		id = 35023,
 		damage = "94 x 2",
 		base = 35020,
-		id = 35023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35023
 		}
@@ -63249,71 +56489,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35041] = {
+		id = 35041,
 		damage = "80 x 2",
 		base = 35040,
-		id = 35041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35041
 		}
 	},
 	[35042] = {
+		id = 35042,
 		damage = "94 x 2",
 		base = 35040,
-		id = 35042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35042
 		}
 	},
 	[35043] = {
+		id = 35043,
 		damage = "108 x 2",
 		base = 35040,
-		id = 35043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35043
 		}
 	},
 	[35044] = {
+		id = 35044,
 		damage = "122 x 2",
 		base = 35040,
-		id = 35044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35044
 		}
 	},
 	[35045] = {
+		id = 35045,
 		damage = "136 x 2",
 		base = 35040,
-		id = 35045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35045
 		}
 	},
 	[35046] = {
+		id = 35046,
 		damage = "150 x 2",
 		base = 35040,
-		id = 35046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35046
 		}
 	},
 	[35047] = {
+		id = 35047,
 		damage = "150 x 2",
 		base = 35040,
-		id = 35047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35047
 		}
@@ -63381,31 +56607,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35101] = {
+		id = 35101,
 		damage = "62 x 3",
 		base = 35100,
-		id = 35101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35101
 		}
 	},
 	[35102] = {
+		id = 35102,
 		damage = "72 x 3",
 		base = 35100,
-		id = 35102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35102
 		}
 	},
 	[35103] = {
+		id = 35103,
 		damage = "82 x 3",
 		base = 35100,
-		id = 35103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35103
 		}
@@ -63473,61 +56693,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35121] = {
+		id = 35121,
 		damage = "70 x 3",
 		base = 35120,
-		id = 35121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35121
 		}
 	},
 	[35122] = {
+		id = 35122,
 		damage = "82 x 3",
 		base = 35120,
-		id = 35122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35122
 		}
 	},
 	[35123] = {
+		id = 35123,
 		damage = "94 x 3",
 		base = 35120,
-		id = 35123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35123
 		}
 	},
 	[35124] = {
+		id = 35124,
 		damage = "106 x 3",
 		base = 35120,
-		id = 35124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35124
 		}
 	},
 	[35125] = {
+		id = 35125,
 		damage = "118 x 3",
 		base = 35120,
-		id = 35125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35125
 		}
 	},
 	[35126] = {
+		id = 35126,
 		damage = "130 x 3",
 		base = 35120,
-		id = 35126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35126
 		}
@@ -63595,101 +56803,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35141] = {
+		id = 35141,
 		damage = "80 x 3",
 		base = 35140,
-		id = 35141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35141
 		}
 	},
 	[35142] = {
+		id = 35142,
 		damage = "94 x 3",
 		base = 35140,
-		id = 35142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35142
 		}
 	},
 	[35143] = {
+		id = 35143,
 		damage = "108 x 3",
 		base = 35140,
-		id = 35143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35143
 		}
 	},
 	[35144] = {
+		id = 35144,
 		damage = "122 x 3",
 		base = 35140,
-		id = 35144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35144
 		}
 	},
 	[35145] = {
+		id = 35145,
 		damage = "136 x 3",
 		base = 35140,
-		id = 35145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35145
 		}
 	},
 	[35146] = {
+		id = 35146,
 		damage = "150 x 3",
 		base = 35140,
-		id = 35146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35146
 		}
 	},
 	[35147] = {
+		id = 35147,
 		damage = "164 x 3",
 		base = 35140,
-		id = 35147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35147
 		}
 	},
 	[35148] = {
+		id = 35148,
 		damage = "178 x 3",
 		base = 35140,
-		id = 35148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35148
 		}
 	},
 	[35149] = {
+		id = 35149,
 		damage = "192 x 3",
 		base = 35140,
-		id = 35149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35149
 		}
 	},
 	[35150] = {
+		id = 35150,
 		damage = "206 x 3",
 		base = 35140,
-		id = 35150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35150
 		}
@@ -63699,8 +56887,6 @@ pg.equip_data_statistics = {
 		damage = "206 x 3",
 		base = 35140,
 		id = 35151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35151
 		}
@@ -63768,101 +56954,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35161] = {
+		id = 35161,
 		damage = "84 x 3",
 		base = 35160,
-		id = 35161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35161
 		}
 	},
 	[35162] = {
+		id = 35162,
 		damage = "98 x 3",
 		base = 35160,
-		id = 35162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35162
 		}
 	},
 	[35163] = {
+		id = 35163,
 		damage = "112 x 3",
 		base = 35160,
-		id = 35163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35163
 		}
 	},
 	[35164] = {
+		id = 35164,
 		damage = "126 x 3",
 		base = 35160,
-		id = 35164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35164
 		}
 	},
 	[35165] = {
+		id = 35165,
 		damage = "140 x 3",
 		base = 35160,
-		id = 35165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35165
 		}
 	},
 	[35166] = {
+		id = 35166,
 		damage = "154 x 3",
 		base = 35160,
-		id = 35166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35166
 		}
 	},
 	[35167] = {
+		id = 35167,
 		damage = "168 x 3",
 		base = 35160,
-		id = 35167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35167
 		}
 	},
 	[35168] = {
+		id = 35168,
 		damage = "182 x 3",
 		base = 35160,
-		id = 35168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35168
 		}
 	},
 	[35169] = {
+		id = 35169,
 		damage = "196 x 3",
 		base = 35160,
-		id = 35169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35169
 		}
 	},
 	[35170] = {
+		id = 35170,
 		damage = "210 x 3",
 		base = 35160,
-		id = 35170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35170
 		}
@@ -63872,8 +57038,6 @@ pg.equip_data_statistics = {
 		damage = "210 x 3",
 		base = 35160,
 		id = 35171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35171
 		}
@@ -63941,61 +57105,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35201] = {
+		id = 35201,
 		damage = "62 x 4",
 		base = 35200,
-		id = 35201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35201
 		}
 	},
 	[35202] = {
+		id = 35202,
 		damage = "72 x 4",
 		base = 35200,
-		id = 35202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35202
 		}
 	},
 	[35203] = {
+		id = 35203,
 		damage = "82 x 4",
 		base = 35200,
-		id = 35203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35203
 		}
 	},
 	[35204] = {
+		id = 35204,
 		damage = "92 x 4",
 		base = 35200,
-		id = 35204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35204
 		}
 	},
 	[35205] = {
+		id = 35205,
 		damage = "102 x 4",
 		base = 35200,
-		id = 35205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35205
 		}
 	},
 	[35206] = {
+		id = 35206,
 		damage = "112 x 4",
 		base = 35200,
-		id = 35206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35206
 		}
@@ -64063,101 +57215,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35221] = {
+		id = 35221,
 		damage = "70 x 4",
 		base = 35220,
-		id = 35221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35221
 		}
 	},
 	[35222] = {
+		id = 35222,
 		damage = "82 x 4",
 		base = 35220,
-		id = 35222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35222
 		}
 	},
 	[35223] = {
+		id = 35223,
 		damage = "94 x 4",
 		base = 35220,
-		id = 35223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35223
 		}
 	},
 	[35224] = {
+		id = 35224,
 		damage = "106 x 4",
 		base = 35220,
-		id = 35224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35224
 		}
 	},
 	[35225] = {
+		id = 35225,
 		damage = "118 x 4",
 		base = 35220,
-		id = 35225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35225
 		}
 	},
 	[35226] = {
+		id = 35226,
 		damage = "130 x 4",
 		base = 35220,
-		id = 35226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35226
 		}
 	},
 	[35227] = {
+		id = 35227,
 		damage = "142 x 4",
 		base = 35220,
-		id = 35227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35227
 		}
 	},
 	[35228] = {
+		id = 35228,
 		damage = "154 x 4",
 		base = 35220,
-		id = 35228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35228
 		}
 	},
 	[35229] = {
+		id = 35229,
 		damage = "166 x 4",
 		base = 35220,
-		id = 35229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35229
 		}
 	},
 	[35230] = {
+		id = 35230,
 		damage = "178 x 4",
 		base = 35220,
-		id = 35230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35230
 		}
@@ -64225,101 +57357,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35241] = {
+		id = 35241,
 		damage = "80 x 4",
 		base = 35240,
-		id = 35241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35241
 		}
 	},
 	[35242] = {
+		id = 35242,
 		damage = "94 x 4",
 		base = 35240,
-		id = 35242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35242
 		}
 	},
 	[35243] = {
+		id = 35243,
 		damage = "108 x 4",
 		base = 35240,
-		id = 35243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35243
 		}
 	},
 	[35244] = {
+		id = 35244,
 		damage = "122 x 4",
 		base = 35240,
-		id = 35244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35244
 		}
 	},
 	[35245] = {
+		id = 35245,
 		damage = "136 x 4",
 		base = 35240,
-		id = 35245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35245
 		}
 	},
 	[35246] = {
+		id = 35246,
 		damage = "150 x 4",
 		base = 35240,
-		id = 35246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35246
 		}
 	},
 	[35247] = {
+		id = 35247,
 		damage = "164 x 4",
 		base = 35240,
-		id = 35247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35247
 		}
 	},
 	[35248] = {
+		id = 35248,
 		damage = "178 x 4",
 		base = 35240,
-		id = 35248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35248
 		}
 	},
 	[35249] = {
+		id = 35249,
 		damage = "192 x 4",
 		base = 35240,
-		id = 35249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35249
 		}
 	},
 	[35250] = {
+		id = 35250,
 		damage = "206 x 4",
 		base = 35240,
-		id = 35250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35250
 		}
@@ -64329,8 +57441,6 @@ pg.equip_data_statistics = {
 		damage = "206 x 4",
 		base = 35240,
 		id = 35251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35251
 		}
@@ -64340,8 +57450,6 @@ pg.equip_data_statistics = {
 		damage = "206 x 4",
 		base = 35240,
 		id = 35252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35252
 		}
@@ -64351,8 +57459,6 @@ pg.equip_data_statistics = {
 		damage = "206 x 4",
 		base = 35240,
 		id = 35253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35253
 		}
@@ -64420,101 +57526,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35261] = {
+		id = 35261,
 		damage = "84 x 4",
 		base = 35260,
-		id = 35261,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35261
 		}
 	},
 	[35262] = {
+		id = 35262,
 		damage = "98 x 4",
 		base = 35260,
-		id = 35262,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35262
 		}
 	},
 	[35263] = {
+		id = 35263,
 		damage = "112 x 4",
 		base = 35260,
-		id = 35263,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35263
 		}
 	},
 	[35264] = {
+		id = 35264,
 		damage = "126 x 4",
 		base = 35260,
-		id = 35264,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35264
 		}
 	},
 	[35265] = {
+		id = 35265,
 		damage = "140 x 4",
 		base = 35260,
-		id = 35265,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35265
 		}
 	},
 	[35266] = {
+		id = 35266,
 		damage = "154 x 4",
 		base = 35260,
-		id = 35266,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35266
 		}
 	},
 	[35267] = {
+		id = 35267,
 		damage = "168 x 4",
 		base = 35260,
-		id = 35267,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35267
 		}
 	},
 	[35268] = {
+		id = 35268,
 		damage = "182 x 4",
 		base = 35260,
-		id = 35268,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35268
 		}
 	},
 	[35269] = {
+		id = 35269,
 		damage = "196 x 4",
 		base = 35260,
-		id = 35269,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35269
 		}
 	},
 	[35270] = {
+		id = 35270,
 		damage = "210 x 4",
 		base = 35260,
-		id = 35270,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35270
 		}
@@ -64524,8 +57610,6 @@ pg.equip_data_statistics = {
 		damage = "210 x 4",
 		base = 35260,
 		id = 35271,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35271
 		}
@@ -64535,8 +57619,6 @@ pg.equip_data_statistics = {
 		damage = "210 x 4",
 		base = 35260,
 		id = 35272,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35272
 		}
@@ -64546,8 +57628,6 @@ pg.equip_data_statistics = {
 		damage = "210 x 4",
 		base = 35260,
 		id = 35273,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35273
 		}
@@ -64612,31 +57692,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35401] = {
+		id = 35401,
 		damage = "55 x 2",
 		base = 35400,
-		id = 35401,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35401
 		}
 	},
 	[35402] = {
+		id = 35402,
 		damage = "62 x 2",
 		base = 35400,
-		id = 35402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35402
 		}
 	},
 	[35403] = {
+		id = 35403,
 		damage = "69 x 2",
 		base = 35400,
-		id = 35403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35403
 		}
@@ -64701,61 +57775,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35421] = {
+		id = 35421,
 		damage = "62 x 2",
 		base = 35420,
-		id = 35421,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35421
 		}
 	},
 	[35422] = {
+		id = 35422,
 		damage = "70 x 2",
 		base = 35420,
-		id = 35422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35422
 		}
 	},
 	[35423] = {
+		id = 35423,
 		damage = "78 x 2",
 		base = 35420,
-		id = 35423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35423
 		}
 	},
 	[35424] = {
+		id = 35424,
 		damage = "86 x 2",
 		base = 35420,
-		id = 35424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35424
 		}
 	},
 	[35425] = {
+		id = 35425,
 		damage = "94 x 2",
 		base = 35420,
-		id = 35425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35425
 		}
 	},
 	[35426] = {
+		id = 35426,
 		damage = "102 x 2",
 		base = 35420,
-		id = 35426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35426
 		}
@@ -64820,101 +57882,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35441] = {
+		id = 35441,
 		damage = "69 x 2",
 		base = 35440,
-		id = 35441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35441
 		}
 	},
 	[35442] = {
+		id = 35442,
 		damage = "78 x 2",
 		base = 35440,
-		id = 35442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35442
 		}
 	},
 	[35443] = {
+		id = 35443,
 		damage = "87 x 2",
 		base = 35440,
-		id = 35443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35443
 		}
 	},
 	[35444] = {
+		id = 35444,
 		damage = "96 x 2",
 		base = 35440,
-		id = 35444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35444
 		}
 	},
 	[35445] = {
+		id = 35445,
 		damage = "105 x 2",
 		base = 35440,
-		id = 35445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35445
 		}
 	},
 	[35446] = {
+		id = 35446,
 		damage = "114 x 2",
 		base = 35440,
-		id = 35446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35446
 		}
 	},
 	[35447] = {
+		id = 35447,
 		damage = "123 x 2",
 		base = 35440,
-		id = 35447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35447
 		}
 	},
 	[35448] = {
+		id = 35448,
 		damage = "132 x 2",
 		base = 35440,
-		id = 35448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35448
 		}
 	},
 	[35449] = {
+		id = 35449,
 		damage = "141 x 2",
 		base = 35440,
-		id = 35449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35449
 		}
 	},
 	[35450] = {
+		id = 35450,
 		damage = "150 x 2",
 		base = 35440,
-		id = 35450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35450
 		}
@@ -64924,8 +57966,6 @@ pg.equip_data_statistics = {
 		damage = "150 x 2",
 		base = 35440,
 		id = 35451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35451
 		}
@@ -64990,101 +58030,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35461] = {
+		id = 35461,
 		damage = "69 x 2",
 		base = 35460,
-		id = 35461,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35461
 		}
 	},
 	[35462] = {
+		id = 35462,
 		damage = "78 x 2",
 		base = 35460,
-		id = 35462,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35462
 		}
 	},
 	[35463] = {
+		id = 35463,
 		damage = "87 x 2",
 		base = 35460,
-		id = 35463,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35463
 		}
 	},
 	[35464] = {
+		id = 35464,
 		damage = "96 x 2",
 		base = 35460,
-		id = 35464,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35464
 		}
 	},
 	[35465] = {
+		id = 35465,
 		damage = "105 x 2",
 		base = 35460,
-		id = 35465,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35465
 		}
 	},
 	[35466] = {
+		id = 35466,
 		damage = "114 x 2",
 		base = 35460,
-		id = 35466,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35466
 		}
 	},
 	[35467] = {
+		id = 35467,
 		damage = "123 x 2",
 		base = 35460,
-		id = 35467,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35467
 		}
 	},
 	[35468] = {
+		id = 35468,
 		damage = "132 x 2",
 		base = 35460,
-		id = 35468,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35468
 		}
 	},
 	[35469] = {
+		id = 35469,
 		damage = "141 x 2",
 		base = 35460,
-		id = 35469,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35469
 		}
 	},
 	[35470] = {
+		id = 35470,
 		damage = "150 x 2",
 		base = 35460,
-		id = 35470,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35470
 		}
@@ -65094,8 +58114,6 @@ pg.equip_data_statistics = {
 		damage = "150 x 2",
 		base = 35460,
 		id = 35471,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35471
 		}
@@ -65160,61 +58178,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35501] = {
+		id = 35501,
 		damage = "64 x 2",
 		base = 35500,
-		id = 35501,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35501
 		}
 	},
 	[35502] = {
+		id = 35502,
 		damage = "72 x 2",
 		base = 35500,
-		id = 35502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35502
 		}
 	},
 	[35503] = {
+		id = 35503,
 		damage = "80 x 2",
 		base = 35500,
-		id = 35503,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35503
 		}
 	},
 	[35504] = {
+		id = 35504,
 		damage = "88 x 2",
 		base = 35500,
-		id = 35504,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35504
 		}
 	},
 	[35505] = {
+		id = 35505,
 		damage = "96 x 2",
 		base = 35500,
-		id = 35505,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35505
 		}
 	},
 	[35506] = {
+		id = 35506,
 		damage = "104 x 2",
 		base = 35500,
-		id = 35506,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35506
 		}
@@ -65279,101 +58285,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35521] = {
+		id = 35521,
 		damage = "72 x 2",
 		base = 35520,
-		id = 35521,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35521
 		}
 	},
 	[35522] = {
+		id = 35522,
 		damage = "81 x 2",
 		base = 35520,
-		id = 35522,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35522
 		}
 	},
 	[35523] = {
+		id = 35523,
 		damage = "90 x 2",
 		base = 35520,
-		id = 35523,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35523
 		}
 	},
 	[35524] = {
+		id = 35524,
 		damage = "99 x 2",
 		base = 35520,
-		id = 35524,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35524
 		}
 	},
 	[35525] = {
+		id = 35525,
 		damage = "108 x 2",
 		base = 35520,
-		id = 35525,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35525
 		}
 	},
 	[35526] = {
+		id = 35526,
 		damage = "117 x 2",
 		base = 35520,
-		id = 35526,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35526
 		}
 	},
 	[35527] = {
+		id = 35527,
 		damage = "127 x 2",
 		base = 35520,
-		id = 35527,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35527
 		}
 	},
 	[35528] = {
+		id = 35528,
 		damage = "137 x 2",
 		base = 35520,
-		id = 35528,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35528
 		}
 	},
 	[35529] = {
+		id = 35529,
 		damage = "147 x 2",
 		base = 35520,
-		id = 35529,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35529
 		}
 	},
 	[35530] = {
+		id = 35530,
 		damage = "157 x 2",
 		base = 35520,
-		id = 35530,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35530
 		}
@@ -65438,101 +58424,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35541] = {
+		id = 35541,
 		damage = "80 x 2",
 		base = 35540,
-		id = 35541,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35541
 		}
 	},
 	[35542] = {
+		id = 35542,
 		damage = "90 x 2",
 		base = 35540,
-		id = 35542,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35542
 		}
 	},
 	[35543] = {
+		id = 35543,
 		damage = "100 x 2",
 		base = 35540,
-		id = 35543,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35543
 		}
 	},
 	[35544] = {
+		id = 35544,
 		damage = "110 x 2",
 		base = 35540,
-		id = 35544,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35544
 		}
 	},
 	[35545] = {
+		id = 35545,
 		damage = "120 x 2",
 		base = 35540,
-		id = 35545,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35545
 		}
 	},
 	[35546] = {
+		id = 35546,
 		damage = "130 x 2",
 		base = 35540,
-		id = 35546,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35546
 		}
 	},
 	[35547] = {
+		id = 35547,
 		damage = "141 x 2",
 		base = 35540,
-		id = 35547,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35547
 		}
 	},
 	[35548] = {
+		id = 35548,
 		damage = "152 x 2",
 		base = 35540,
-		id = 35548,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35548
 		}
 	},
 	[35549] = {
+		id = 35549,
 		damage = "163 x 2",
 		base = 35540,
-		id = 35549,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35549
 		}
 	},
 	[35550] = {
+		id = 35550,
 		damage = "174 x 2",
 		base = 35540,
-		id = 35550,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35550
 		}
@@ -65542,8 +58508,6 @@ pg.equip_data_statistics = {
 		damage = "174 x 2",
 		base = 35540,
 		id = 35551,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35551
 		}
@@ -65553,8 +58517,6 @@ pg.equip_data_statistics = {
 		damage = "174 x 2",
 		base = 35540,
 		id = 35552,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35552
 		}
@@ -65564,8 +58526,6 @@ pg.equip_data_statistics = {
 		damage = "174 x 2",
 		base = 35540,
 		id = 35553,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35553
 		}
@@ -65630,101 +58590,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[35561] = {
+		id = 35561,
 		damage = "86 x 2",
 		base = 35560,
-		id = 35561,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35561
 		}
 	},
 	[35562] = {
+		id = 35562,
 		damage = "96 x 2",
 		base = 35560,
-		id = 35562,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35562
 		}
 	},
 	[35563] = {
+		id = 35563,
 		damage = "106 x 2",
 		base = 35560,
-		id = 35563,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35563
 		}
 	},
 	[35564] = {
+		id = 35564,
 		damage = "116 x 2",
 		base = 35560,
-		id = 35564,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35564
 		}
 	},
 	[35565] = {
+		id = 35565,
 		damage = "126 x 2",
 		base = 35560,
-		id = 35565,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35565
 		}
 	},
 	[35566] = {
+		id = 35566,
 		damage = "136 x 2",
 		base = 35560,
-		id = 35566,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35566
 		}
 	},
 	[35567] = {
+		id = 35567,
 		damage = "147 x 2",
 		base = 35560,
-		id = 35567,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35567
 		}
 	},
 	[35568] = {
+		id = 35568,
 		damage = "158 x 2",
 		base = 35560,
-		id = 35568,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35568
 		}
 	},
 	[35569] = {
+		id = 35569,
 		damage = "169 x 2",
 		base = 35560,
-		id = 35569,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35569
 		}
 	},
 	[35570] = {
+		id = 35570,
 		damage = "180 x 2",
 		base = 35560,
-		id = 35570,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35570
 		}
@@ -65734,8 +58674,6 @@ pg.equip_data_statistics = {
 		damage = "180 x 2",
 		base = 35560,
 		id = 35571,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35571
 		}
@@ -65745,8 +58683,6 @@ pg.equip_data_statistics = {
 		damage = "180 x 2",
 		base = 35560,
 		id = 35572,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35572
 		}
@@ -65756,8 +58692,6 @@ pg.equip_data_statistics = {
 		damage = "180 x 2",
 		base = 35560,
 		id = 35573,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35573
 		}
@@ -65824,31 +58758,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36101] = {
+		id = 36101,
 		damage = "9/回",
 		base = 36100,
-		id = 36101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36101
 		}
 	},
 	[36102] = {
+		id = 36102,
 		damage = "10/回",
 		base = 36100,
-		id = 36102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36102
 		}
 	},
 	[36103] = {
+		id = 36103,
 		damage = "12/回",
 		base = 36100,
-		id = 36103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36103
 		}
@@ -65916,31 +58844,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36121] = {
+		id = 36121,
 		damage = "10/回",
 		base = 36120,
-		id = 36121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36121
 		}
 	},
 	[36122] = {
+		id = 36122,
 		damage = "12/回",
 		base = 36120,
-		id = 36122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36122
 		}
 	},
 	[36123] = {
+		id = 36123,
 		damage = "14/回",
 		base = 36120,
-		id = 36123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36123
 		}
@@ -66008,71 +58930,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36141] = {
+		id = 36141,
 		damage = "12/回",
 		base = 36140,
-		id = 36141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36141
 		}
 	},
 	[36142] = {
+		id = 36142,
 		damage = "13/回",
 		base = 36140,
-		id = 36142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36142
 		}
 	},
 	[36143] = {
+		id = 36143,
 		damage = "15/回",
 		base = 36140,
-		id = 36143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36143
 		}
 	},
 	[36144] = {
+		id = 36144,
 		damage = "17/回",
 		base = 36140,
-		id = 36144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36144
 		}
 	},
 	[36145] = {
+		id = 36145,
 		damage = "19/回",
 		base = 36140,
-		id = 36145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36145
 		}
 	},
 	[36146] = {
+		id = 36146,
 		damage = "21/回",
 		base = 36140,
-		id = 36146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36146
 		}
 	},
 	[36147] = {
+		id = 36147,
 		damage = "21/回",
 		base = 36140,
-		id = 36147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36147
 		}
@@ -66140,31 +59048,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36201] = {
+		id = 36201,
 		damage = "15/回",
 		base = 36200,
-		id = 36201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36201
 		}
 	},
 	[36202] = {
+		id = 36202,
 		damage = "17/回",
 		base = 36200,
-		id = 36202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36202
 		}
 	},
 	[36203] = {
+		id = 36203,
 		damage = "19/回",
 		base = 36200,
-		id = 36203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36203
 		}
@@ -66232,61 +59134,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36221] = {
+		id = 36221,
 		damage = "16/回",
 		base = 36220,
-		id = 36221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36221
 		}
 	},
 	[36222] = {
+		id = 36222,
 		damage = "18/回",
 		base = 36220,
-		id = 36222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36222
 		}
 	},
 	[36223] = {
+		id = 36223,
 		damage = "20/回",
 		base = 36220,
-		id = 36223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36223
 		}
 	},
 	[36224] = {
+		id = 36224,
 		damage = "22/回",
 		base = 36220,
-		id = 36224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36224
 		}
 	},
 	[36225] = {
+		id = 36225,
 		damage = "25/回",
 		base = 36220,
-		id = 36225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36225
 		}
 	},
 	[36226] = {
+		id = 36226,
 		damage = "28/回",
 		base = 36220,
-		id = 36226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36226
 		}
@@ -66354,101 +59244,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36241] = {
+		id = 36241,
 		damage = "18/回",
 		base = 36240,
-		id = 36241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36241
 		}
 	},
 	[36242] = {
+		id = 36242,
 		damage = "20/回",
 		base = 36240,
-		id = 36242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36242
 		}
 	},
 	[36243] = {
+		id = 36243,
 		damage = "22/回",
 		base = 36240,
-		id = 36243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36243
 		}
 	},
 	[36244] = {
+		id = 36244,
 		damage = "24/回",
 		base = 36240,
-		id = 36244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36244
 		}
 	},
 	[36245] = {
+		id = 36245,
 		damage = "26/回",
 		base = 36240,
-		id = 36245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36245
 		}
 	},
 	[36246] = {
+		id = 36246,
 		damage = "28/回",
 		base = 36240,
-		id = 36246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36246
 		}
 	},
 	[36247] = {
+		id = 36247,
 		damage = "31/回",
 		base = 36240,
-		id = 36247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36247
 		}
 	},
 	[36248] = {
+		id = 36248,
 		damage = "34/回",
 		base = 36240,
-		id = 36248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36248
 		}
 	},
 	[36249] = {
+		id = 36249,
 		damage = "37/回",
 		base = 36240,
-		id = 36249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36249
 		}
 	},
 	[36250] = {
+		id = 36250,
 		damage = "40/回",
 		base = 36240,
-		id = 36250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36250
 		}
@@ -66458,8 +59328,6 @@ pg.equip_data_statistics = {
 		damage = "40/回",
 		base = 36240,
 		id = 36251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36251
 		}
@@ -66527,31 +59395,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36301] = {
+		id = 36301,
 		damage = "18/回",
 		base = 36300,
-		id = 36301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36301
 		}
 	},
 	[36302] = {
+		id = 36302,
 		damage = "21/回",
 		base = 36300,
-		id = 36302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36302
 		}
 	},
 	[36303] = {
+		id = 36303,
 		damage = "24/回",
 		base = 36300,
-		id = 36303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36303
 		}
@@ -66619,61 +59481,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36321] = {
+		id = 36321,
 		damage = "21/回",
 		base = 36320,
-		id = 36321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36321
 		}
 	},
 	[36322] = {
+		id = 36322,
 		damage = "24/回",
 		base = 36320,
-		id = 36322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36322
 		}
 	},
 	[36323] = {
+		id = 36323,
 		damage = "27/回",
 		base = 36320,
-		id = 36323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36323
 		}
 	},
 	[36324] = {
+		id = 36324,
 		damage = "30/回",
 		base = 36320,
-		id = 36324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36324
 		}
 	},
 	[36325] = {
+		id = 36325,
 		damage = "33/回",
 		base = 36320,
-		id = 36325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36325
 		}
 	},
 	[36326] = {
+		id = 36326,
 		damage = "36/回",
 		base = 36320,
-		id = 36326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36326
 		}
@@ -66741,101 +59591,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36341] = {
+		id = 36341,
 		damage = "25/回",
 		base = 36340,
-		id = 36341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36341
 		}
 	},
 	[36342] = {
+		id = 36342,
 		damage = "28/回",
 		base = 36340,
-		id = 36342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36342
 		}
 	},
 	[36343] = {
+		id = 36343,
 		damage = "31/回",
 		base = 36340,
-		id = 36343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36343
 		}
 	},
 	[36344] = {
+		id = 36344,
 		damage = "34/回",
 		base = 36340,
-		id = 36344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36344
 		}
 	},
 	[36345] = {
+		id = 36345,
 		damage = "37/回",
 		base = 36340,
-		id = 36345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36345
 		}
 	},
 	[36346] = {
+		id = 36346,
 		damage = "40/回",
 		base = 36340,
-		id = 36346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36346
 		}
 	},
 	[36347] = {
+		id = 36347,
 		damage = "43/回",
 		base = 36340,
-		id = 36347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36347
 		}
 	},
 	[36348] = {
+		id = 36348,
 		damage = "46/回",
 		base = 36340,
-		id = 36348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36348
 		}
 	},
 	[36349] = {
+		id = 36349,
 		damage = "50/回",
 		base = 36340,
-		id = 36349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36349
 		}
 	},
 	[36350] = {
+		id = 36350,
 		damage = "54/回",
 		base = 36340,
-		id = 36350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36350
 		}
@@ -66845,8 +59675,6 @@ pg.equip_data_statistics = {
 		damage = "54/回",
 		base = 36340,
 		id = 36351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36351
 		}
@@ -66914,101 +59742,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36361] = {
+		id = 36361,
 		damage = "43/回",
 		base = 36360,
-		id = 36361,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36361
 		}
 	},
 	[36362] = {
+		id = 36362,
 		damage = "46/回",
 		base = 36360,
-		id = 36362,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36362
 		}
 	},
 	[36363] = {
+		id = 36363,
 		damage = "49/回",
 		base = 36360,
-		id = 36363,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36363
 		}
 	},
 	[36364] = {
+		id = 36364,
 		damage = "52/回",
 		base = 36360,
-		id = 36364,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36364
 		}
 	},
 	[36365] = {
+		id = 36365,
 		damage = "55/回",
 		base = 36360,
-		id = 36365,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36365
 		}
 	},
 	[36366] = {
+		id = 36366,
 		damage = "58/回",
 		base = 36360,
-		id = 36366,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36366
 		}
 	},
 	[36367] = {
+		id = 36367,
 		damage = "61/回",
 		base = 36360,
-		id = 36367,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36367
 		}
 	},
 	[36368] = {
+		id = 36368,
 		damage = "64/回",
 		base = 36360,
-		id = 36368,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36368
 		}
 	},
 	[36369] = {
+		id = 36369,
 		damage = "68/回",
 		base = 36360,
-		id = 36369,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36369
 		}
 	},
 	[36370] = {
+		id = 36370,
 		damage = "72/回",
 		base = 36360,
-		id = 36370,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36370
 		}
@@ -67018,8 +59826,6 @@ pg.equip_data_statistics = {
 		damage = "72/回",
 		base = 36360,
 		id = 36371,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36371
 		}
@@ -67029,8 +59835,6 @@ pg.equip_data_statistics = {
 		damage = "72/回",
 		base = 36360,
 		id = 36372,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36372
 		}
@@ -67040,8 +59844,6 @@ pg.equip_data_statistics = {
 		damage = "72/回",
 		base = 36360,
 		id = 36373,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36373
 		}
@@ -67109,31 +59911,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36401] = {
+		id = 36401,
 		damage = "22/回",
 		base = 36400,
-		id = 36401,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36401
 		}
 	},
 	[36402] = {
+		id = 36402,
 		damage = "25/回",
 		base = 36400,
-		id = 36402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36402
 		}
 	},
 	[36403] = {
+		id = 36403,
 		damage = "29/回",
 		base = 36400,
-		id = 36403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36403
 		}
@@ -67201,61 +59997,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36421] = {
+		id = 36421,
 		damage = "25/回",
 		base = 36420,
-		id = 36421,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36421
 		}
 	},
 	[36422] = {
+		id = 36422,
 		damage = "28/回",
 		base = 36420,
-		id = 36422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36422
 		}
 	},
 	[36423] = {
+		id = 36423,
 		damage = "31/回",
 		base = 36420,
-		id = 36423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36423
 		}
 	},
 	[36424] = {
+		id = 36424,
 		damage = "35/回",
 		base = 36420,
-		id = 36424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36424
 		}
 	},
 	[36425] = {
+		id = 36425,
 		damage = "39/回",
 		base = 36420,
-		id = 36425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36425
 		}
 	},
 	[36426] = {
+		id = 36426,
 		damage = "43/回",
 		base = 36420,
-		id = 36426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36426
 		}
@@ -67323,101 +60107,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36441] = {
+		id = 36441,
 		damage = "29/回",
 		base = 36440,
-		id = 36441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36441
 		}
 	},
 	[36442] = {
+		id = 36442,
 		damage = "33/回",
 		base = 36440,
-		id = 36442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36442
 		}
 	},
 	[36443] = {
+		id = 36443,
 		damage = "37/回",
 		base = 36440,
-		id = 36443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36443
 		}
 	},
 	[36444] = {
+		id = 36444,
 		damage = "41/回",
 		base = 36440,
-		id = 36444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36444
 		}
 	},
 	[36445] = {
+		id = 36445,
 		damage = "45/回",
 		base = 36440,
-		id = 36445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36445
 		}
 	},
 	[36446] = {
+		id = 36446,
 		damage = "49/回",
 		base = 36440,
-		id = 36446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36446
 		}
 	},
 	[36447] = {
+		id = 36447,
 		damage = "53/回",
 		base = 36440,
-		id = 36447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36447
 		}
 	},
 	[36448] = {
+		id = 36448,
 		damage = "57/回",
 		base = 36440,
-		id = 36448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36448
 		}
 	},
 	[36449] = {
+		id = 36449,
 		damage = "61/回",
 		base = 36440,
-		id = 36449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36449
 		}
 	},
 	[36450] = {
+		id = 36450,
 		damage = "65/回",
 		base = 36440,
-		id = 36450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36450
 		}
@@ -67427,8 +60191,6 @@ pg.equip_data_statistics = {
 		damage = "65/回",
 		base = 36440,
 		id = 36451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36451
 		}
@@ -67496,31 +60258,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36501] = {
+		id = 36501,
 		damage = "18/回",
 		base = 36500,
-		id = 36501,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36501
 		}
 	},
 	[36502] = {
+		id = 36502,
 		damage = "21/回",
 		base = 36500,
-		id = 36502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36502
 		}
 	},
 	[36503] = {
+		id = 36503,
 		damage = "24/回",
 		base = 36500,
-		id = 36503,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36503
 		}
@@ -67588,61 +60344,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36521] = {
+		id = 36521,
 		damage = "21/回",
 		base = 36520,
-		id = 36521,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36521
 		}
 	},
 	[36522] = {
+		id = 36522,
 		damage = "24/回",
 		base = 36520,
-		id = 36522,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36522
 		}
 	},
 	[36523] = {
+		id = 36523,
 		damage = "27/回",
 		base = 36520,
-		id = 36523,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36523
 		}
 	},
 	[36524] = {
+		id = 36524,
 		damage = "30/回",
 		base = 36520,
-		id = 36524,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36524
 		}
 	},
 	[36525] = {
+		id = 36525,
 		damage = "33/回",
 		base = 36520,
-		id = 36525,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36525
 		}
 	},
 	[36526] = {
+		id = 36526,
 		damage = "36/回",
 		base = 36520,
-		id = 36526,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36526
 		}
@@ -67710,101 +60454,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36541] = {
+		id = 36541,
 		damage = "25/回",
 		base = 36540,
-		id = 36541,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36541
 		}
 	},
 	[36542] = {
+		id = 36542,
 		damage = "28/回",
 		base = 36540,
-		id = 36542,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36542
 		}
 	},
 	[36543] = {
+		id = 36543,
 		damage = "31/回",
 		base = 36540,
-		id = 36543,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36543
 		}
 	},
 	[36544] = {
+		id = 36544,
 		damage = "34/回",
 		base = 36540,
-		id = 36544,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36544
 		}
 	},
 	[36545] = {
+		id = 36545,
 		damage = "37/回",
 		base = 36540,
-		id = 36545,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36545
 		}
 	},
 	[36546] = {
+		id = 36546,
 		damage = "40/回",
 		base = 36540,
-		id = 36546,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36546
 		}
 	},
 	[36547] = {
+		id = 36547,
 		damage = "43/回",
 		base = 36540,
-		id = 36547,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36547
 		}
 	},
 	[36548] = {
+		id = 36548,
 		damage = "46/回",
 		base = 36540,
-		id = 36548,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36548
 		}
 	},
 	[36549] = {
+		id = 36549,
 		damage = "50/回",
 		base = 36540,
-		id = 36549,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36549
 		}
 	},
 	[36550] = {
+		id = 36550,
 		damage = "54/回",
 		base = 36540,
-		id = 36550,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36550
 		}
@@ -67814,8 +60538,6 @@ pg.equip_data_statistics = {
 		damage = "54/回",
 		base = 36540,
 		id = 36551,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36551
 		}
@@ -67883,101 +60605,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36561] = {
+		id = 36561,
 		damage = "57/回",
 		base = 36560,
-		id = 36561,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36561
 		}
 	},
 	[36562] = {
+		id = 36562,
 		damage = "64/回",
 		base = 36560,
-		id = 36562,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36562
 		}
 	},
 	[36563] = {
+		id = 36563,
 		damage = "71/回",
 		base = 36560,
-		id = 36563,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36563
 		}
 	},
 	[36564] = {
+		id = 36564,
 		damage = "78/回",
 		base = 36560,
-		id = 36564,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36564
 		}
 	},
 	[36565] = {
+		id = 36565,
 		damage = "86/回",
 		base = 36560,
-		id = 36565,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36565
 		}
 	},
 	[36566] = {
+		id = 36566,
 		damage = "94/回",
 		base = 36560,
-		id = 36566,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36566
 		}
 	},
 	[36567] = {
+		id = 36567,
 		damage = "102/回",
 		base = 36560,
-		id = 36567,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36567
 		}
 	},
 	[36568] = {
+		id = 36568,
 		damage = "110/回",
 		base = 36560,
-		id = 36568,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36568
 		}
 	},
 	[36569] = {
+		id = 36569,
 		damage = "118/回",
 		base = 36560,
-		id = 36569,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36569
 		}
 	},
 	[36570] = {
+		id = 36570,
 		damage = "126/回",
 		base = 36560,
-		id = 36570,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36570
 		}
@@ -67987,8 +60689,6 @@ pg.equip_data_statistics = {
 		damage = "126/回",
 		base = 36560,
 		id = 36571,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36571
 		}
@@ -67998,8 +60698,6 @@ pg.equip_data_statistics = {
 		damage = "126/回",
 		base = 36560,
 		id = 36572,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36572
 		}
@@ -68009,8 +60707,6 @@ pg.equip_data_statistics = {
 		damage = "126/回",
 		base = 36560,
 		id = 36573,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36573
 		}
@@ -68078,101 +60774,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36581] = {
+		id = 36581,
 		damage = "48/回",
 		base = 36580,
-		id = 36581,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36581
 		}
 	},
 	[36582] = {
+		id = 36582,
 		damage = "52/回",
 		base = 36580,
-		id = 36582,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36582
 		}
 	},
 	[36583] = {
+		id = 36583,
 		damage = "56/回",
 		base = 36580,
-		id = 36583,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36583
 		}
 	},
 	[36584] = {
+		id = 36584,
 		damage = "60/回",
 		base = 36580,
-		id = 36584,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36584
 		}
 	},
 	[36585] = {
+		id = 36585,
 		damage = "64/回",
 		base = 36580,
-		id = 36585,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36585
 		}
 	},
 	[36586] = {
+		id = 36586,
 		damage = "68/回",
 		base = 36580,
-		id = 36586,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36586
 		}
 	},
 	[36587] = {
+		id = 36587,
 		damage = "72/回",
 		base = 36580,
-		id = 36587,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36587
 		}
 	},
 	[36588] = {
+		id = 36588,
 		damage = "76/回",
 		base = 36580,
-		id = 36588,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36588
 		}
 	},
 	[36589] = {
+		id = 36589,
 		damage = "80/回",
 		base = 36580,
-		id = 36589,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36589
 		}
 	},
 	[36590] = {
+		id = 36590,
 		damage = "84/回",
 		base = 36580,
-		id = 36590,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36590
 		}
@@ -68182,8 +60858,6 @@ pg.equip_data_statistics = {
 		damage = "84/回",
 		base = 36580,
 		id = 36591,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36591
 		}
@@ -68251,31 +60925,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36601] = {
+		id = 36601,
 		damage = "37/回",
 		base = 36600,
-		id = 36601,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36601
 		}
 	},
 	[36602] = {
+		id = 36602,
 		damage = "42/回",
 		base = 36600,
-		id = 36602,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36602
 		}
 	},
 	[36603] = {
+		id = 36603,
 		damage = "47/回",
 		base = 36600,
-		id = 36603,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36603
 		}
@@ -68343,61 +61011,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36621] = {
+		id = 36621,
 		damage = "45/回",
 		base = 36620,
-		id = 36621,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36621
 		}
 	},
 	[36622] = {
+		id = 36622,
 		damage = "51/回",
 		base = 36620,
-		id = 36622,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36622
 		}
 	},
 	[36623] = {
+		id = 36623,
 		damage = "57/回",
 		base = 36620,
-		id = 36623,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36623
 		}
 	},
 	[36624] = {
+		id = 36624,
 		damage = "63/回",
 		base = 36620,
-		id = 36624,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36624
 		}
 	},
 	[36625] = {
+		id = 36625,
 		damage = "70/回",
 		base = 36620,
-		id = 36625,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36625
 		}
 	},
 	[36626] = {
+		id = 36626,
 		damage = "77/回",
 		base = 36620,
-		id = 36626,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36626
 		}
@@ -68465,101 +61121,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36641] = {
+		id = 36641,
 		damage = "53/回",
 		base = 36640,
-		id = 36641,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36641
 		}
 	},
 	[36642] = {
+		id = 36642,
 		damage = "60/回",
 		base = 36640,
-		id = 36642,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36642
 		}
 	},
 	[36643] = {
+		id = 36643,
 		damage = "67/回",
 		base = 36640,
-		id = 36643,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36643
 		}
 	},
 	[36644] = {
+		id = 36644,
 		damage = "74/回",
 		base = 36640,
-		id = 36644,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36644
 		}
 	},
 	[36645] = {
+		id = 36645,
 		damage = "81/回",
 		base = 36640,
-		id = 36645,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36645
 		}
 	},
 	[36646] = {
+		id = 36646,
 		damage = "88/回",
 		base = 36640,
-		id = 36646,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36646
 		}
 	},
 	[36647] = {
+		id = 36647,
 		damage = "95/回",
 		base = 36640,
-		id = 36647,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36647
 		}
 	},
 	[36648] = {
+		id = 36648,
 		damage = "102/回",
 		base = 36640,
-		id = 36648,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36648
 		}
 	},
 	[36649] = {
+		id = 36649,
 		damage = "109/回",
 		base = 36640,
-		id = 36649,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36649
 		}
 	},
 	[36650] = {
+		id = 36650,
 		damage = "116/回",
 		base = 36640,
-		id = 36650,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36650
 		}
@@ -68569,8 +61205,6 @@ pg.equip_data_statistics = {
 		damage = "116/回",
 		base = 36640,
 		id = 36651,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36651
 		}
@@ -68638,101 +61272,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36661] = {
+		id = 36661,
 		damage = "61/回",
 		base = 36660,
-		id = 36661,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36661
 		}
 	},
 	[36662] = {
+		id = 36662,
 		damage = "68/回",
 		base = 36660,
-		id = 36662,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36662
 		}
 	},
 	[36663] = {
+		id = 36663,
 		damage = "75/回",
 		base = 36660,
-		id = 36663,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36663
 		}
 	},
 	[36664] = {
+		id = 36664,
 		damage = "82/回",
 		base = 36660,
-		id = 36664,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36664
 		}
 	},
 	[36665] = {
+		id = 36665,
 		damage = "89/回",
 		base = 36660,
-		id = 36665,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36665
 		}
 	},
 	[36666] = {
+		id = 36666,
 		damage = "96/回",
 		base = 36660,
-		id = 36666,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36666
 		}
 	},
 	[36667] = {
+		id = 36667,
 		damage = "103/回",
 		base = 36660,
-		id = 36667,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36667
 		}
 	},
 	[36668] = {
+		id = 36668,
 		damage = "110/回",
 		base = 36660,
-		id = 36668,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36668
 		}
 	},
 	[36669] = {
+		id = 36669,
 		damage = "117/回",
 		base = 36660,
-		id = 36669,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36669
 		}
 	},
 	[36670] = {
+		id = 36670,
 		damage = "124/回",
 		base = 36660,
-		id = 36670,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36670
 		}
@@ -68742,8 +61356,6 @@ pg.equip_data_statistics = {
 		damage = "124/回",
 		base = 36660,
 		id = 36671,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36671
 		}
@@ -68753,8 +61365,6 @@ pg.equip_data_statistics = {
 		damage = "124/回",
 		base = 36660,
 		id = 36672,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36672
 		}
@@ -68764,8 +61374,6 @@ pg.equip_data_statistics = {
 		damage = "124/回",
 		base = 36660,
 		id = 36673,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36673
 		}
@@ -68833,101 +61441,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[36701] = {
+		id = 36701,
 		damage = "51/回",
 		base = 36700,
-		id = 36701,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36701
 		}
 	},
 	[36702] = {
+		id = 36702,
 		damage = "55/回",
 		base = 36700,
-		id = 36702,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36702
 		}
 	},
 	[36703] = {
+		id = 36703,
 		damage = "59/回",
 		base = 36700,
-		id = 36703,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36703
 		}
 	},
 	[36704] = {
+		id = 36704,
 		damage = "63/回",
 		base = 36700,
-		id = 36704,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36704
 		}
 	},
 	[36705] = {
+		id = 36705,
 		damage = "67/回",
 		base = 36700,
-		id = 36705,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36705
 		}
 	},
 	[36706] = {
+		id = 36706,
 		damage = "71/回",
 		base = 36700,
-		id = 36706,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36706
 		}
 	},
 	[36707] = {
+		id = 36707,
 		damage = "75/回",
 		base = 36700,
-		id = 36707,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36707
 		}
 	},
 	[36708] = {
+		id = 36708,
 		damage = "79/回",
 		base = 36700,
-		id = 36708,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36708
 		}
 	},
 	[36709] = {
+		id = 36709,
 		damage = "83/回",
 		base = 36700,
-		id = 36709,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36709
 		}
 	},
 	[36710] = {
+		id = 36710,
 		damage = "87/回",
 		base = 36700,
-		id = 36710,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36710
 		}
@@ -68937,8 +61525,6 @@ pg.equip_data_statistics = {
 		damage = "87/回",
 		base = 36700,
 		id = 36711,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36711
 		}
@@ -68948,8 +61534,6 @@ pg.equip_data_statistics = {
 		damage = "87/回",
 		base = 36700,
 		id = 36712,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36712
 		}
@@ -68959,8 +61543,6 @@ pg.equip_data_statistics = {
 		damage = "87/回",
 		base = 36700,
 		id = 36713,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			36713
 		}
@@ -69014,10 +61596,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37001] = {
-		base = 37000,
 		id = 37001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37000,
 		ammo_info = {
 			{
 				6,
@@ -69030,10 +61610,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37002] = {
-		base = 37000,
 		id = 37002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37000,
 		ammo_info = {
 			{
 				6,
@@ -69046,10 +61624,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37003] = {
-		base = 37000,
 		id = 37003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37000,
 		ammo_info = {
 			{
 				6,
@@ -69111,10 +61687,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37021] = {
-		base = 37020,
 		id = 37021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37020,
 		ammo_info = {
 			{
 				6,
@@ -69127,10 +61701,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37022] = {
-		base = 37020,
 		id = 37022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37020,
 		ammo_info = {
 			{
 				6,
@@ -69143,10 +61715,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37023] = {
-		base = 37020,
 		id = 37023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37020,
 		ammo_info = {
 			{
 				6,
@@ -69208,10 +61778,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37041] = {
-		base = 37040,
 		id = 37041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37040,
 		ammo_info = {
 			{
 				6,
@@ -69224,10 +61792,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37042] = {
-		base = 37040,
 		id = 37042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37040,
 		ammo_info = {
 			{
 				6,
@@ -69240,10 +61806,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37043] = {
-		base = 37040,
 		id = 37043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37040,
 		ammo_info = {
 			{
 				6,
@@ -69256,10 +61820,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37044] = {
-		base = 37040,
 		id = 37044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37040,
 		ammo_info = {
 			{
 				6,
@@ -69272,10 +61834,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37045] = {
-		base = 37040,
 		id = 37045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37040,
 		ammo_info = {
 			{
 				6,
@@ -69288,10 +61848,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37046] = {
-		base = 37040,
 		id = 37046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37040,
 		ammo_info = {
 			{
 				6,
@@ -69304,10 +61862,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37047] = {
-		base = 37040,
 		id = 37047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37040,
 		ammo_info = {
 			{
 				6,
@@ -69377,10 +61933,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37101] = {
-		base = 37100,
 		id = 37101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37100,
 		ammo_info = {
 			{
 				6,
@@ -69401,10 +61955,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37102] = {
-		base = 37100,
 		id = 37102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37100,
 		ammo_info = {
 			{
 				6,
@@ -69425,10 +61977,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37103] = {
-		base = 37100,
 		id = 37103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37100,
 		ammo_info = {
 			{
 				6,
@@ -69506,10 +62056,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37121] = {
-		base = 37120,
 		id = 37121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37120,
 		ammo_info = {
 			{
 				6,
@@ -69530,10 +62078,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37122] = {
-		base = 37120,
 		id = 37122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37120,
 		ammo_info = {
 			{
 				6,
@@ -69554,10 +62100,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37123] = {
-		base = 37120,
 		id = 37123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37120,
 		ammo_info = {
 			{
 				6,
@@ -69578,10 +62122,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37124] = {
-		base = 37120,
 		id = 37124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37120,
 		ammo_info = {
 			{
 				6,
@@ -69602,10 +62144,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37125] = {
-		base = 37120,
 		id = 37125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37120,
 		ammo_info = {
 			{
 				6,
@@ -69626,10 +62166,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37126] = {
-		base = 37120,
 		id = 37126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37120,
 		ammo_info = {
 			{
 				6,
@@ -69707,10 +62245,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37141] = {
-		base = 37140,
 		id = 37141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69731,10 +62267,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37142] = {
-		base = 37140,
 		id = 37142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69755,10 +62289,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37143] = {
-		base = 37140,
 		id = 37143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69779,10 +62311,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37144] = {
-		base = 37140,
 		id = 37144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69803,10 +62333,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37145] = {
-		base = 37140,
 		id = 37145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69827,10 +62355,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37146] = {
-		base = 37140,
 		id = 37146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69851,10 +62377,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37147] = {
-		base = 37140,
 		id = 37147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69875,10 +62399,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37148] = {
-		base = 37140,
 		id = 37148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69899,10 +62421,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37149] = {
-		base = 37140,
 		id = 37149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69923,10 +62443,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37150] = {
-		base = 37140,
 		id = 37150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37140,
 		ammo_info = {
 			{
 				6,
@@ -69950,8 +62468,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 37140,
 		id = 37151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -70029,10 +62545,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37161] = {
-		base = 37160,
 		id = 37161,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70053,10 +62567,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37162] = {
-		base = 37160,
 		id = 37162,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70077,10 +62589,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37163] = {
-		base = 37160,
 		id = 37163,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70101,10 +62611,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37164] = {
-		base = 37160,
 		id = 37164,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70125,10 +62633,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37165] = {
-		base = 37160,
 		id = 37165,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70149,10 +62655,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37166] = {
-		base = 37160,
 		id = 37166,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70173,10 +62677,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37167] = {
-		base = 37160,
 		id = 37167,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70197,10 +62699,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37168] = {
-		base = 37160,
 		id = 37168,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70221,10 +62721,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37169] = {
-		base = 37160,
 		id = 37169,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70245,10 +62743,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37170] = {
-		base = 37160,
 		id = 37170,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37160,
 		ammo_info = {
 			{
 				6,
@@ -70272,8 +62768,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 37160,
 		id = 37171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -70351,10 +62845,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37201] = {
-		base = 37200,
 		id = 37201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37200,
 		ammo_info = {
 			{
 				6,
@@ -70375,10 +62867,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37202] = {
-		base = 37200,
 		id = 37202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37200,
 		ammo_info = {
 			{
 				6,
@@ -70399,10 +62889,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37203] = {
-		base = 37200,
 		id = 37203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37200,
 		ammo_info = {
 			{
 				6,
@@ -70423,10 +62911,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37204] = {
-		base = 37200,
 		id = 37204,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37200,
 		ammo_info = {
 			{
 				6,
@@ -70447,10 +62933,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37205] = {
-		base = 37200,
 		id = 37205,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37200,
 		ammo_info = {
 			{
 				6,
@@ -70471,10 +62955,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37206] = {
-		base = 37200,
 		id = 37206,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37200,
 		ammo_info = {
 			{
 				6,
@@ -70552,10 +63034,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37221] = {
-		base = 37220,
 		id = 37221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70576,10 +63056,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37222] = {
-		base = 37220,
 		id = 37222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70600,10 +63078,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37223] = {
-		base = 37220,
 		id = 37223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70624,10 +63100,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37224] = {
-		base = 37220,
 		id = 37224,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70648,10 +63122,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37225] = {
-		base = 37220,
 		id = 37225,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70672,10 +63144,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37226] = {
-		base = 37220,
 		id = 37226,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70696,10 +63166,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37227] = {
-		base = 37220,
 		id = 37227,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70720,10 +63188,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37228] = {
-		base = 37220,
 		id = 37228,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70744,10 +63210,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37229] = {
-		base = 37220,
 		id = 37229,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70768,10 +63232,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37230] = {
-		base = 37220,
 		id = 37230,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37220,
 		ammo_info = {
 			{
 				6,
@@ -70849,10 +63311,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37241] = {
-		base = 37240,
 		id = 37241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -70873,10 +63333,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37242] = {
-		base = 37240,
 		id = 37242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -70897,10 +63355,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37243] = {
-		base = 37240,
 		id = 37243,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -70921,10 +63377,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37244] = {
-		base = 37240,
 		id = 37244,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -70945,10 +63399,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37245] = {
-		base = 37240,
 		id = 37245,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -70969,10 +63421,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37246] = {
-		base = 37240,
 		id = 37246,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -70993,10 +63443,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37247] = {
-		base = 37240,
 		id = 37247,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -71017,10 +63465,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37248] = {
-		base = 37240,
 		id = 37248,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -71041,10 +63487,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37249] = {
-		base = 37240,
 		id = 37249,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -71065,10 +63509,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37250] = {
-		base = 37240,
 		id = 37250,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37240,
 		ammo_info = {
 			{
 				6,
@@ -71092,8 +63534,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 37240,
 		id = 37251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -71117,8 +63557,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 37240,
 		id = 37252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -71142,8 +63580,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 37240,
 		id = 37253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -71217,10 +63653,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37301] = {
-		base = 37300,
 		id = 37301,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37300,
 		ammo_info = {
 			{
 				6,
@@ -71237,10 +63671,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37302] = {
-		base = 37300,
 		id = 37302,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37300,
 		ammo_info = {
 			{
 				6,
@@ -71257,10 +63689,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37303] = {
-		base = 37300,
 		id = 37303,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37300,
 		ammo_info = {
 			{
 				6,
@@ -71277,10 +63707,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37304] = {
-		base = 37300,
 		id = 37304,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37300,
 		ammo_info = {
 			{
 				6,
@@ -71297,10 +63725,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37305] = {
-		base = 37300,
 		id = 37305,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37300,
 		ammo_info = {
 			{
 				6,
@@ -71317,10 +63743,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37306] = {
-		base = 37300,
 		id = 37306,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37300,
 		ammo_info = {
 			{
 				6,
@@ -71390,10 +63814,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37321] = {
-		base = 37320,
 		id = 37321,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71410,10 +63832,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37322] = {
-		base = 37320,
 		id = 37322,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71430,10 +63850,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37323] = {
-		base = 37320,
 		id = 37323,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71450,10 +63868,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37324] = {
-		base = 37320,
 		id = 37324,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71470,10 +63886,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37325] = {
-		base = 37320,
 		id = 37325,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71490,10 +63904,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37326] = {
-		base = 37320,
 		id = 37326,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71510,10 +63922,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37327] = {
-		base = 37320,
 		id = 37327,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71530,10 +63940,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37328] = {
-		base = 37320,
 		id = 37328,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71550,10 +63958,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37329] = {
-		base = 37320,
 		id = 37329,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71570,10 +63976,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37330] = {
-		base = 37320,
 		id = 37330,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37320,
 		ammo_info = {
 			{
 				6,
@@ -71643,10 +64047,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37341] = {
-		base = 37340,
 		id = 37341,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71663,10 +64065,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37342] = {
-		base = 37340,
 		id = 37342,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71683,10 +64083,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37343] = {
-		base = 37340,
 		id = 37343,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71703,10 +64101,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37344] = {
-		base = 37340,
 		id = 37344,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71723,10 +64119,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37345] = {
-		base = 37340,
 		id = 37345,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71743,10 +64137,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37346] = {
-		base = 37340,
 		id = 37346,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71763,10 +64155,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37347] = {
-		base = 37340,
 		id = 37347,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71783,10 +64173,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37348] = {
-		base = 37340,
 		id = 37348,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71803,10 +64191,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37349] = {
-		base = 37340,
 		id = 37349,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71823,10 +64209,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37350] = {
-		base = 37340,
 		id = 37350,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37340,
 		ammo_info = {
 			{
 				6,
@@ -71846,8 +64230,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 37340,
 		id = 37351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -71867,8 +64249,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 37340,
 		id = 37352,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -71888,8 +64268,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 37340,
 		id = 37353,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -71963,10 +64341,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37401] = {
-		base = 37400,
 		id = 37401,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -71987,10 +64363,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37402] = {
-		base = 37400,
 		id = 37402,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72011,10 +64385,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37403] = {
-		base = 37400,
 		id = 37403,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72035,10 +64407,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37404] = {
-		base = 37400,
 		id = 37404,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72059,10 +64429,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37405] = {
-		base = 37400,
 		id = 37405,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72083,10 +64451,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37406] = {
-		base = 37400,
 		id = 37406,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72107,10 +64473,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37407] = {
-		base = 37400,
 		id = 37407,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72131,10 +64495,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37408] = {
-		base = 37400,
 		id = 37408,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72155,10 +64517,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37409] = {
-		base = 37400,
 		id = 37409,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72179,10 +64539,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37410] = {
-		base = 37400,
 		id = 37410,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37400,
 		ammo_info = {
 			{
 				6,
@@ -72206,8 +64564,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 37400,
 		id = 37411,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -72231,8 +64587,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 37400,
 		id = 37412,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -72256,8 +64610,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 37400,
 		id = 37413,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -72335,10 +64687,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37421] = {
-		base = 37420,
 		id = 37421,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72359,10 +64709,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37422] = {
-		base = 37420,
 		id = 37422,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72383,10 +64731,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37423] = {
-		base = 37420,
 		id = 37423,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72407,10 +64753,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37424] = {
-		base = 37420,
 		id = 37424,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72431,10 +64775,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37425] = {
-		base = 37420,
 		id = 37425,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72455,10 +64797,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37426] = {
-		base = 37420,
 		id = 37426,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72479,10 +64819,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37427] = {
-		base = 37420,
 		id = 37427,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72503,10 +64841,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37428] = {
-		base = 37420,
 		id = 37428,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72527,10 +64863,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37429] = {
-		base = 37420,
 		id = 37429,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72551,10 +64885,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37430] = {
-		base = 37420,
 		id = 37430,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37420,
 		ammo_info = {
 			{
 				6,
@@ -72578,8 +64910,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 37420,
 		id = 37431,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -72657,10 +64987,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37441] = {
-		base = 37440,
 		id = 37441,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72681,10 +65009,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37442] = {
-		base = 37440,
 		id = 37442,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72705,10 +65031,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37443] = {
-		base = 37440,
 		id = 37443,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72729,10 +65053,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37444] = {
-		base = 37440,
 		id = 37444,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72753,10 +65075,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37445] = {
-		base = 37440,
 		id = 37445,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72777,10 +65097,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37446] = {
-		base = 37440,
 		id = 37446,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72801,10 +65119,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37447] = {
-		base = 37440,
 		id = 37447,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72825,10 +65141,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37448] = {
-		base = 37440,
 		id = 37448,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72849,10 +65163,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37449] = {
-		base = 37440,
 		id = 37449,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72873,10 +65185,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[37450] = {
-		base = 37440,
 		id = 37450,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 37440,
 		ammo_info = {
 			{
 				6,
@@ -72900,8 +65210,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 37440,
 		id = 37451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -72973,10 +65281,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38001] = {
-		base = 38000,
 		id = 38001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38000,
 		ammo_info = {
 			{
 				6,
@@ -72992,10 +65298,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38002] = {
-		base = 38000,
 		id = 38002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38000,
 		ammo_info = {
 			{
 				6,
@@ -73011,10 +65315,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38003] = {
-		base = 38000,
 		id = 38003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38000,
 		ammo_info = {
 			{
 				6,
@@ -73082,10 +65384,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38021] = {
-		base = 38020,
 		id = 38021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38020,
 		ammo_info = {
 			{
 				6,
@@ -73101,10 +65401,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38022] = {
-		base = 38020,
 		id = 38022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38020,
 		ammo_info = {
 			{
 				6,
@@ -73120,10 +65418,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38023] = {
-		base = 38020,
 		id = 38023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38020,
 		ammo_info = {
 			{
 				6,
@@ -73191,10 +65487,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38041] = {
-		base = 38040,
 		id = 38041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38040,
 		ammo_info = {
 			{
 				6,
@@ -73210,10 +65504,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38042] = {
-		base = 38040,
 		id = 38042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38040,
 		ammo_info = {
 			{
 				6,
@@ -73229,10 +65521,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38043] = {
-		base = 38040,
 		id = 38043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38040,
 		ammo_info = {
 			{
 				6,
@@ -73248,10 +65538,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38044] = {
-		base = 38040,
 		id = 38044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38040,
 		ammo_info = {
 			{
 				6,
@@ -73267,10 +65555,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38045] = {
-		base = 38040,
 		id = 38045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38040,
 		ammo_info = {
 			{
 				6,
@@ -73286,10 +65572,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38046] = {
-		base = 38040,
 		id = 38046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38040,
 		ammo_info = {
 			{
 				6,
@@ -73305,10 +65589,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38047] = {
-		base = 38040,
 		id = 38047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38040,
 		ammo_info = {
 			{
 				6,
@@ -73376,10 +65658,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38061] = {
-		base = 38060,
 		id = 38061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -73395,10 +65675,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38062] = {
-		base = 38060,
 		id = 38062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -73414,10 +65692,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38063] = {
-		base = 38060,
 		id = 38063,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -73433,10 +65709,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38064] = {
-		base = 38060,
 		id = 38064,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -73452,10 +65726,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38065] = {
-		base = 38060,
 		id = 38065,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -73471,10 +65743,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38066] = {
-		base = 38060,
 		id = 38066,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -73490,10 +65760,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38067] = {
-		base = 38060,
 		id = 38067,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -73561,10 +65829,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38101] = {
-		base = 38100,
 		id = 38101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38100,
 		ammo_info = {
 			{
 				6,
@@ -73580,10 +65846,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38102] = {
-		base = 38100,
 		id = 38102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38100,
 		ammo_info = {
 			{
 				6,
@@ -73599,10 +65863,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38103] = {
-		base = 38100,
 		id = 38103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38100,
 		ammo_info = {
 			{
 				6,
@@ -73670,10 +65932,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38121] = {
-		base = 38120,
 		id = 38121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38120,
 		ammo_info = {
 			{
 				6,
@@ -73689,10 +65949,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38122] = {
-		base = 38120,
 		id = 38122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38120,
 		ammo_info = {
 			{
 				6,
@@ -73708,10 +65966,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38123] = {
-		base = 38120,
 		id = 38123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38120,
 		ammo_info = {
 			{
 				6,
@@ -73727,10 +65983,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38124] = {
-		base = 38120,
 		id = 38124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38120,
 		ammo_info = {
 			{
 				6,
@@ -73746,10 +66000,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38125] = {
-		base = 38120,
 		id = 38125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38120,
 		ammo_info = {
 			{
 				6,
@@ -73765,10 +66017,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38126] = {
-		base = 38120,
 		id = 38126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38120,
 		ammo_info = {
 			{
 				6,
@@ -73836,10 +66086,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38141] = {
-		base = 38140,
 		id = 38141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -73855,10 +66103,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38142] = {
-		base = 38140,
 		id = 38142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -73874,10 +66120,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38143] = {
-		base = 38140,
 		id = 38143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -73893,10 +66137,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38144] = {
-		base = 38140,
 		id = 38144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -73912,10 +66154,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38145] = {
-		base = 38140,
 		id = 38145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -73931,10 +66171,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38146] = {
-		base = 38140,
 		id = 38146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -73950,10 +66188,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38147] = {
-		base = 38140,
 		id = 38147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -73969,10 +66205,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38148] = {
-		base = 38140,
 		id = 38148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -73988,10 +66222,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38149] = {
-		base = 38140,
 		id = 38149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -74007,10 +66239,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38150] = {
-		base = 38140,
 		id = 38150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38140,
 		ammo_info = {
 			{
 				6,
@@ -74029,8 +66259,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 38140,
 		id = 38151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -74102,10 +66330,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38161] = {
-		base = 38160,
 		id = 38161,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74125,10 +66351,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38162] = {
-		base = 38160,
 		id = 38162,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74148,10 +66372,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38163] = {
-		base = 38160,
 		id = 38163,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74171,10 +66393,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38164] = {
-		base = 38160,
 		id = 38164,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74194,10 +66414,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38165] = {
-		base = 38160,
 		id = 38165,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74217,10 +66435,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38166] = {
-		base = 38160,
 		id = 38166,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74240,10 +66456,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38167] = {
-		base = 38160,
 		id = 38167,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74263,10 +66477,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38168] = {
-		base = 38160,
 		id = 38168,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74286,10 +66498,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38169] = {
-		base = 38160,
 		id = 38169,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74309,10 +66519,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38170] = {
-		base = 38160,
 		id = 38170,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38160,
 		ammo_info = {
 			{
 				6,
@@ -74335,8 +66543,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 38160,
 		id = 38171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -74412,10 +66618,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38201] = {
-		base = 38200,
 		id = 38201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38200,
 		ammo_info = {
 			{
 				6,
@@ -74435,10 +66639,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38202] = {
-		base = 38200,
 		id = 38202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38200,
 		ammo_info = {
 			{
 				6,
@@ -74458,10 +66660,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38203] = {
-		base = 38200,
 		id = 38203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38200,
 		ammo_info = {
 			{
 				6,
@@ -74481,10 +66681,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38204] = {
-		base = 38200,
 		id = 38204,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38200,
 		ammo_info = {
 			{
 				6,
@@ -74504,10 +66702,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38205] = {
-		base = 38200,
 		id = 38205,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38200,
 		ammo_info = {
 			{
 				6,
@@ -74527,10 +66723,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38206] = {
-		base = 38200,
 		id = 38206,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38200,
 		ammo_info = {
 			{
 				6,
@@ -74606,10 +66800,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38221] = {
-		base = 38220,
 		id = 38221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74629,10 +66821,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38222] = {
-		base = 38220,
 		id = 38222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74652,10 +66842,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38223] = {
-		base = 38220,
 		id = 38223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74675,10 +66863,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38224] = {
-		base = 38220,
 		id = 38224,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74698,10 +66884,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38225] = {
-		base = 38220,
 		id = 38225,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74721,10 +66905,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38226] = {
-		base = 38220,
 		id = 38226,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74744,10 +66926,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38227] = {
-		base = 38220,
 		id = 38227,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74767,10 +66947,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38228] = {
-		base = 38220,
 		id = 38228,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74790,10 +66968,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38229] = {
-		base = 38220,
 		id = 38229,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74813,10 +66989,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38230] = {
-		base = 38220,
 		id = 38230,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38220,
 		ammo_info = {
 			{
 				6,
@@ -74892,10 +67066,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38241] = {
-		base = 38240,
 		id = 38241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -74915,10 +67087,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38242] = {
-		base = 38240,
 		id = 38242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -74938,10 +67108,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38243] = {
-		base = 38240,
 		id = 38243,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -74961,10 +67129,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38244] = {
-		base = 38240,
 		id = 38244,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -74984,10 +67150,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38245] = {
-		base = 38240,
 		id = 38245,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -75007,10 +67171,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38246] = {
-		base = 38240,
 		id = 38246,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -75030,10 +67192,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38247] = {
-		base = 38240,
 		id = 38247,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -75053,10 +67213,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38248] = {
-		base = 38240,
 		id = 38248,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -75076,10 +67234,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38249] = {
-		base = 38240,
 		id = 38249,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -75099,10 +67255,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[38250] = {
-		base = 38240,
 		id = 38250,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 38240,
 		ammo_info = {
 			{
 				6,
@@ -75125,8 +67279,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 38240,
 		id = 38251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -75149,8 +67301,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 38240,
 		id = 38252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -75173,8 +67323,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 38240,
 		id = 38253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -75250,10 +67398,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39001] = {
-		base = 39000,
 		id = 39001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39000,
 		ammo_info = {
 			{
 				6,
@@ -75273,10 +67419,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39002] = {
-		base = 39000,
 		id = 39002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39000,
 		ammo_info = {
 			{
 				6,
@@ -75296,10 +67440,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39003] = {
-		base = 39000,
 		id = 39003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39000,
 		ammo_info = {
 			{
 				6,
@@ -75375,10 +67517,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39021] = {
-		base = 39020,
 		id = 39021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39020,
 		ammo_info = {
 			{
 				6,
@@ -75398,10 +67538,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39022] = {
-		base = 39020,
 		id = 39022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39020,
 		ammo_info = {
 			{
 				6,
@@ -75421,10 +67559,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39023] = {
-		base = 39020,
 		id = 39023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39020,
 		ammo_info = {
 			{
 				6,
@@ -75444,10 +67580,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39024] = {
-		base = 39020,
 		id = 39024,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39020,
 		ammo_info = {
 			{
 				6,
@@ -75467,10 +67601,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39025] = {
-		base = 39020,
 		id = 39025,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39020,
 		ammo_info = {
 			{
 				6,
@@ -75490,10 +67622,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39026] = {
-		base = 39020,
 		id = 39026,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39020,
 		ammo_info = {
 			{
 				6,
@@ -75569,10 +67699,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39041] = {
-		base = 39040,
 		id = 39041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75592,10 +67720,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39042] = {
-		base = 39040,
 		id = 39042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75615,10 +67741,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39043] = {
-		base = 39040,
 		id = 39043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75638,10 +67762,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39044] = {
-		base = 39040,
 		id = 39044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75661,10 +67783,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39045] = {
-		base = 39040,
 		id = 39045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75684,10 +67804,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39046] = {
-		base = 39040,
 		id = 39046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75707,10 +67825,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39047] = {
-		base = 39040,
 		id = 39047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75730,10 +67846,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39048] = {
-		base = 39040,
 		id = 39048,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75753,10 +67867,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39049] = {
-		base = 39040,
 		id = 39049,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75776,10 +67888,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39050] = {
-		base = 39040,
 		id = 39050,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39040,
 		ammo_info = {
 			{
 				6,
@@ -75802,8 +67912,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 39040,
 		id = 39051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -75879,10 +67987,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39061] = {
-		base = 39060,
 		id = 39061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -75902,10 +68008,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39062] = {
-		base = 39060,
 		id = 39062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -75925,10 +68029,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39063] = {
-		base = 39060,
 		id = 39063,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -75948,10 +68050,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39064] = {
-		base = 39060,
 		id = 39064,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -75971,10 +68071,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39065] = {
-		base = 39060,
 		id = 39065,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -75994,10 +68092,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39066] = {
-		base = 39060,
 		id = 39066,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -76017,10 +68113,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39067] = {
-		base = 39060,
 		id = 39067,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -76040,10 +68134,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39068] = {
-		base = 39060,
 		id = 39068,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -76063,10 +68155,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39069] = {
-		base = 39060,
 		id = 39069,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -76086,10 +68176,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39070] = {
-		base = 39060,
 		id = 39070,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39060,
 		ammo_info = {
 			{
 				6,
@@ -76112,8 +68200,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 39060,
 		id = 39071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -76189,10 +68275,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39101] = {
-		base = 39100,
 		id = 39101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39100,
 		ammo_info = {
 			{
 				6,
@@ -76212,10 +68296,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39102] = {
-		base = 39100,
 		id = 39102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39100,
 		ammo_info = {
 			{
 				6,
@@ -76235,10 +68317,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39103] = {
-		base = 39100,
 		id = 39103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39100,
 		ammo_info = {
 			{
 				6,
@@ -76258,10 +68338,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39104] = {
-		base = 39100,
 		id = 39104,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39100,
 		ammo_info = {
 			{
 				6,
@@ -76281,10 +68359,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39105] = {
-		base = 39100,
 		id = 39105,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39100,
 		ammo_info = {
 			{
 				6,
@@ -76304,10 +68380,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39106] = {
-		base = 39100,
 		id = 39106,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39100,
 		ammo_info = {
 			{
 				6,
@@ -76383,10 +68457,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39121] = {
-		base = 39120,
 		id = 39121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76406,10 +68478,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39122] = {
-		base = 39120,
 		id = 39122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76429,10 +68499,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39123] = {
-		base = 39120,
 		id = 39123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76452,10 +68520,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39124] = {
-		base = 39120,
 		id = 39124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76475,10 +68541,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39125] = {
-		base = 39120,
 		id = 39125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76498,10 +68562,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39126] = {
-		base = 39120,
 		id = 39126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76521,10 +68583,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39127] = {
-		base = 39120,
 		id = 39127,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76544,10 +68604,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39128] = {
-		base = 39120,
 		id = 39128,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76567,10 +68625,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39129] = {
-		base = 39120,
 		id = 39129,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76590,10 +68646,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39130] = {
-		base = 39120,
 		id = 39130,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39120,
 		ammo_info = {
 			{
 				6,
@@ -76669,10 +68723,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39141] = {
-		base = 39140,
 		id = 39141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76692,10 +68744,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39142] = {
-		base = 39140,
 		id = 39142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76715,10 +68765,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39143] = {
-		base = 39140,
 		id = 39143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76738,10 +68786,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39144] = {
-		base = 39140,
 		id = 39144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76761,10 +68807,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39145] = {
-		base = 39140,
 		id = 39145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76784,10 +68828,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39146] = {
-		base = 39140,
 		id = 39146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76807,10 +68849,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39147] = {
-		base = 39140,
 		id = 39147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76830,10 +68870,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39148] = {
-		base = 39140,
 		id = 39148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76853,10 +68891,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39149] = {
-		base = 39140,
 		id = 39149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76876,10 +68912,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39150] = {
-		base = 39140,
 		id = 39150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39140,
 		ammo_info = {
 			{
 				6,
@@ -76902,8 +68936,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 39140,
 		id = 39151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -76926,8 +68958,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 39140,
 		id = 39152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -76950,8 +68980,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 39140,
 		id = 39153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -77027,10 +69055,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39161] = {
-		base = 39160,
 		id = 39161,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77050,10 +69076,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39162] = {
-		base = 39160,
 		id = 39162,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77073,10 +69097,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39163] = {
-		base = 39160,
 		id = 39163,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77096,10 +69118,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39164] = {
-		base = 39160,
 		id = 39164,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77119,10 +69139,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39165] = {
-		base = 39160,
 		id = 39165,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77142,10 +69160,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39166] = {
-		base = 39160,
 		id = 39166,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77165,10 +69181,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39167] = {
-		base = 39160,
 		id = 39167,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77188,10 +69202,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39168] = {
-		base = 39160,
 		id = 39168,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77211,10 +69223,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39169] = {
-		base = 39160,
 		id = 39169,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77234,10 +69244,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39170] = {
-		base = 39160,
 		id = 39170,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39160,
 		ammo_info = {
 			{
 				6,
@@ -77260,8 +69268,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 39160,
 		id = 39171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -77284,8 +69290,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 39160,
 		id = 39172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -77308,8 +69312,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 39160,
 		id = 39173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -77385,10 +69387,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39201] = {
-		base = 39200,
 		id = 39201,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39200,
 		ammo_info = {
 			{
 				6,
@@ -77408,10 +69408,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39202] = {
-		base = 39200,
 		id = 39202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39200,
 		ammo_info = {
 			{
 				6,
@@ -77431,10 +69429,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39203] = {
-		base = 39200,
 		id = 39203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39200,
 		ammo_info = {
 			{
 				6,
@@ -77510,10 +69506,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39221] = {
-		base = 39220,
 		id = 39221,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39220,
 		ammo_info = {
 			{
 				6,
@@ -77533,10 +69527,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39222] = {
-		base = 39220,
 		id = 39222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39220,
 		ammo_info = {
 			{
 				6,
@@ -77556,10 +69548,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39223] = {
-		base = 39220,
 		id = 39223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39220,
 		ammo_info = {
 			{
 				6,
@@ -77579,10 +69569,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39224] = {
-		base = 39220,
 		id = 39224,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39220,
 		ammo_info = {
 			{
 				6,
@@ -77602,10 +69590,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39225] = {
-		base = 39220,
 		id = 39225,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39220,
 		ammo_info = {
 			{
 				6,
@@ -77625,10 +69611,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39226] = {
-		base = 39220,
 		id = 39226,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39220,
 		ammo_info = {
 			{
 				6,
@@ -77704,10 +69688,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39241] = {
-		base = 39240,
 		id = 39241,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77727,10 +69709,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39242] = {
-		base = 39240,
 		id = 39242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77750,10 +69730,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39243] = {
-		base = 39240,
 		id = 39243,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77773,10 +69751,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39244] = {
-		base = 39240,
 		id = 39244,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77796,10 +69772,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39245] = {
-		base = 39240,
 		id = 39245,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77819,10 +69793,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39246] = {
-		base = 39240,
 		id = 39246,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77842,10 +69814,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39247] = {
-		base = 39240,
 		id = 39247,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77865,10 +69835,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39248] = {
-		base = 39240,
 		id = 39248,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77888,10 +69856,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39249] = {
-		base = 39240,
 		id = 39249,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77911,10 +69877,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39250] = {
-		base = 39240,
 		id = 39250,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39240,
 		ammo_info = {
 			{
 				6,
@@ -77937,8 +69901,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 39240,
 		id = 39251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -78012,10 +69974,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39301] = {
-		base = 39300,
 		id = 39301,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78031,10 +69991,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39302] = {
-		base = 39300,
 		id = 39302,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78050,10 +70008,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39303] = {
-		base = 39300,
 		id = 39303,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78069,10 +70025,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39304] = {
-		base = 39300,
 		id = 39304,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78088,10 +70042,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39305] = {
-		base = 39300,
 		id = 39305,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78107,10 +70059,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39306] = {
-		base = 39300,
 		id = 39306,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78126,10 +70076,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39307] = {
-		base = 39300,
 		id = 39307,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78145,10 +70093,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39308] = {
-		base = 39300,
 		id = 39308,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78164,10 +70110,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39309] = {
-		base = 39300,
 		id = 39309,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78183,10 +70127,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39310] = {
-		base = 39300,
 		id = 39310,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39300,
 		ammo_info = {
 			{
 				6,
@@ -78205,8 +70147,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 39300,
 		id = 39311,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -78276,10 +70216,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39321] = {
-		base = 39320,
 		id = 39321,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78299,10 +70237,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39322] = {
-		base = 39320,
 		id = 39322,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78322,10 +70258,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39323] = {
-		base = 39320,
 		id = 39323,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78345,10 +70279,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39324] = {
-		base = 39320,
 		id = 39324,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78368,10 +70300,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39325] = {
-		base = 39320,
 		id = 39325,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78391,10 +70321,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39326] = {
-		base = 39320,
 		id = 39326,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78414,10 +70342,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39327] = {
-		base = 39320,
 		id = 39327,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78437,10 +70363,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39328] = {
-		base = 39320,
 		id = 39328,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78460,10 +70384,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39329] = {
-		base = 39320,
 		id = 39329,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78483,10 +70405,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[39330] = {
-		base = 39320,
 		id = 39330,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 39320,
 		ammo_info = {
 			{
 				6,
@@ -78509,8 +70429,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 39320,
 		id = 39331,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -78533,8 +70451,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 39320,
 		id = 39332,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -78557,8 +70473,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 39320,
 		id = 39333,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -78644,30 +70558,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[41001] = {
-		base = 41000,
 		id = 41001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 41000,
 		weapon_id = {
 			41001
 		}
 	},
 	[41002] = {
+		id = 41002,
 		damage = "6 x 1",
 		base = 41000,
-		id = 41002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41002
 		}
 	},
 	[41003] = {
+		id = 41003,
 		damage = "6 x 1",
 		base = 41000,
-		id = 41003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41003
 		}
@@ -78740,30 +70648,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[41021] = {
-		base = 41020,
 		id = 41021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 41020,
 		weapon_id = {
 			41021
 		}
 	},
 	[41022] = {
+		id = 41022,
 		damage = "6 x 1",
 		base = 41020,
-		id = 41022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41022
 		}
 	},
 	[41023] = {
+		id = 41023,
 		damage = "6 x 1",
 		base = 41020,
-		id = 41023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41023
 		}
@@ -78836,70 +70738,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[41041] = {
-		base = 41040,
 		id = 41041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 41040,
 		weapon_id = {
 			41041
 		}
 	},
 	[41042] = {
+		id = 41042,
 		damage = "7 x 1",
 		base = 41040,
-		id = 41042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41042
 		}
 	},
 	[41043] = {
+		id = 41043,
 		damage = "7 x 1",
 		base = 41040,
-		id = 41043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41043
 		}
 	},
 	[41044] = {
+		id = 41044,
 		damage = "8 x 1",
 		base = 41040,
-		id = 41044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41044
 		}
 	},
 	[41045] = {
+		id = 41045,
 		damage = "8 x 1",
 		base = 41040,
-		id = 41045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41045
 		}
 	},
 	[41046] = {
+		id = 41046,
 		damage = "9 x 1",
 		base = 41040,
-		id = 41046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41046
 		}
 	},
 	[41047] = {
+		id = 41047,
 		damage = "9 x 1",
 		base = 41040,
-		id = 41047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41047
 		}
@@ -78972,101 +70860,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[41061] = {
+		id = 41061,
 		damage = "5 x 4",
 		base = 41060,
-		id = 41061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41061
 		}
 	},
 	[41062] = {
+		id = 41062,
 		damage = "5 x 4",
 		base = 41060,
-		id = 41062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41062
 		}
 	},
 	[41063] = {
+		id = 41063,
 		damage = "6 x 4",
 		base = 41060,
-		id = 41063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41063
 		}
 	},
 	[41064] = {
+		id = 41064,
 		damage = "6 x 4",
 		base = 41060,
-		id = 41064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41064
 		}
 	},
 	[41065] = {
+		id = 41065,
 		damage = "7 x 4",
 		base = 41060,
-		id = 41065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41065
 		}
 	},
 	[41066] = {
+		id = 41066,
 		damage = "7 x 4",
 		base = 41060,
-		id = 41066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41066
 		}
 	},
 	[41067] = {
+		id = 41067,
 		damage = "8 x 4",
 		base = 41060,
-		id = 41067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41067
 		}
 	},
 	[41068] = {
+		id = 41068,
 		damage = "8 x 4",
 		base = 41060,
-		id = 41068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41068
 		}
 	},
 	[41069] = {
+		id = 41069,
 		damage = "9 x 4",
 		base = 41060,
-		id = 41069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41069
 		}
 	},
 	[41070] = {
+		id = 41070,
 		damage = "10 x 4",
 		base = 41060,
-		id = 41070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41070
 		}
@@ -79076,8 +70944,6 @@ pg.equip_data_statistics = {
 		damage = "10 x 4",
 		base = 41060,
 		id = 41071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41071
 		}
@@ -79151,31 +71017,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[41101] = {
+		id = 41101,
 		damage = "5 x 4",
 		base = 41100,
-		id = 41101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41101
 		}
 	},
 	[41102] = {
+		id = 41102,
 		damage = "5 x 4",
 		base = 41100,
-		id = 41102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41102
 		}
 	},
 	[41103] = {
+		id = 41103,
 		damage = "6 x 4",
 		base = 41100,
-		id = 41103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41103
 		}
@@ -79249,61 +71109,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[41121] = {
+		id = 41121,
 		damage = "5 x 4",
 		base = 41120,
-		id = 41121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41121
 		}
 	},
 	[41122] = {
+		id = 41122,
 		damage = "5 x 4",
 		base = 41120,
-		id = 41122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41122
 		}
 	},
 	[41123] = {
+		id = 41123,
 		damage = "6 x 4",
 		base = 41120,
-		id = 41123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41123
 		}
 	},
 	[41124] = {
+		id = 41124,
 		damage = "6 x 4",
 		base = 41120,
-		id = 41124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41124
 		}
 	},
 	[41125] = {
+		id = 41125,
 		damage = "7 x 4",
 		base = 41120,
-		id = 41125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41125
 		}
 	},
 	[41126] = {
+		id = 41126,
 		damage = "8 x 4",
 		base = 41120,
-		id = 41126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41126
 		}
@@ -79377,101 +71225,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[41141] = {
+		id = 41141,
 		damage = "6 x 4",
 		base = 41140,
-		id = 41141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41141
 		}
 	},
 	[41142] = {
+		id = 41142,
 		damage = "6 x 4",
 		base = 41140,
-		id = 41142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41142
 		}
 	},
 	[41143] = {
+		id = 41143,
 		damage = "7 x 4",
 		base = 41140,
-		id = 41143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41143
 		}
 	},
 	[41144] = {
+		id = 41144,
 		damage = "7 x 4",
 		base = 41140,
-		id = 41144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41144
 		}
 	},
 	[41145] = {
+		id = 41145,
 		damage = "8 x 4",
 		base = 41140,
-		id = 41145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41145
 		}
 	},
 	[41146] = {
+		id = 41146,
 		damage = "8 x 4",
 		base = 41140,
-		id = 41146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41146
 		}
 	},
 	[41147] = {
+		id = 41147,
 		damage = "9 x 4",
 		base = 41140,
-		id = 41147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41147
 		}
 	},
 	[41148] = {
+		id = 41148,
 		damage = "9 x 4",
 		base = 41140,
-		id = 41148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41148
 		}
 	},
 	[41149] = {
+		id = 41149,
 		damage = "10 x 4",
 		base = 41140,
-		id = 41149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41149
 		}
 	},
 	[41150] = {
+		id = 41150,
 		damage = "11 x 4",
 		base = 41140,
-		id = 41150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41150
 		}
@@ -79481,8 +71309,6 @@ pg.equip_data_statistics = {
 		damage = "11 x 4",
 		base = 41140,
 		id = 41151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41151
 		}
@@ -79556,101 +71382,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[41161] = {
+		id = 41161,
 		damage = "7 x 4",
 		base = 41160,
-		id = 41161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41161
 		}
 	},
 	[41162] = {
+		id = 41162,
 		damage = "8 x 4",
 		base = 41160,
-		id = 41162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41162
 		}
 	},
 	[41163] = {
+		id = 41163,
 		damage = "9 x 4",
 		base = 41160,
-		id = 41163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41163
 		}
 	},
 	[41164] = {
+		id = 41164,
 		damage = "10 x 4",
 		base = 41160,
-		id = 41164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41164
 		}
 	},
 	[41165] = {
+		id = 41165,
 		damage = "11 x 4",
 		base = 41160,
-		id = 41165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41165
 		}
 	},
 	[41166] = {
+		id = 41166,
 		damage = "12 x 4",
 		base = 41160,
-		id = 41166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41166
 		}
 	},
 	[41167] = {
+		id = 41167,
 		damage = "13 x 4",
 		base = 41160,
-		id = 41167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41167
 		}
 	},
 	[41168] = {
+		id = 41168,
 		damage = "14 x 4",
 		base = 41160,
-		id = 41168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41168
 		}
 	},
 	[41169] = {
+		id = 41169,
 		damage = "15 x 4",
 		base = 41160,
-		id = 41169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41169
 		}
 	},
 	[41170] = {
+		id = 41170,
 		damage = "16 x 4",
 		base = 41160,
-		id = 41170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41170
 		}
@@ -79660,8 +71466,6 @@ pg.equip_data_statistics = {
 		damage = "16 x 4",
 		base = 41160,
 		id = 41171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41171
 		}
@@ -79671,8 +71475,6 @@ pg.equip_data_statistics = {
 		damage = "16 x 4",
 		base = 41160,
 		id = 41172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41172
 		}
@@ -79682,8 +71484,6 @@ pg.equip_data_statistics = {
 		damage = "16 x 4",
 		base = 41160,
 		id = 41173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			41173
 		}
@@ -79749,31 +71549,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42001] = {
+		id = 42001,
 		damage = "8 x 1",
 		base = 42000,
-		id = 42001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42001
 		}
 	},
 	[42002] = {
+		id = 42002,
 		damage = "9 x 1",
 		base = 42000,
-		id = 42002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42002
 		}
 	},
 	[42003] = {
+		id = 42003,
 		damage = "10 x 1",
 		base = 42000,
-		id = 42003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42003
 		}
@@ -79839,61 +71633,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42021] = {
+		id = 42021,
 		damage = "9 x 1",
 		base = 42020,
-		id = 42021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42021
 		}
 	},
 	[42022] = {
+		id = 42022,
 		damage = "10 x 1",
 		base = 42020,
-		id = 42022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42022
 		}
 	},
 	[42023] = {
+		id = 42023,
 		damage = "11 x 1",
 		base = 42020,
-		id = 42023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42023
 		}
 	},
 	[42024] = {
+		id = 42024,
 		damage = "12 x 1",
 		base = 42020,
-		id = 42024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42024
 		}
 	},
 	[42025] = {
+		id = 42025,
 		damage = "13 x 1",
 		base = 42020,
-		id = 42025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42025
 		}
 	},
 	[42026] = {
+		id = 42026,
 		damage = "14 x 1",
 		base = 42020,
-		id = 42026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42026
 		}
@@ -79959,101 +71741,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42041] = {
+		id = 42041,
 		damage = "10 x 1",
 		base = 42040,
-		id = 42041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42041
 		}
 	},
 	[42042] = {
+		id = 42042,
 		damage = "11 x 1",
 		base = 42040,
-		id = 42042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42042
 		}
 	},
 	[42043] = {
+		id = 42043,
 		damage = "12 x 1",
 		base = 42040,
-		id = 42043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42043
 		}
 	},
 	[42044] = {
+		id = 42044,
 		damage = "13 x 1",
 		base = 42040,
-		id = 42044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42044
 		}
 	},
 	[42045] = {
+		id = 42045,
 		damage = "14 x 1",
 		base = 42040,
-		id = 42045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42045
 		}
 	},
 	[42046] = {
+		id = 42046,
 		damage = "15 x 1",
 		base = 42040,
-		id = 42046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42046
 		}
 	},
 	[42047] = {
+		id = 42047,
 		damage = "16 x 1",
 		base = 42040,
-		id = 42047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42047
 		}
 	},
 	[42048] = {
+		id = 42048,
 		damage = "17 x 1",
 		base = 42040,
-		id = 42048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42048
 		}
 	},
 	[42049] = {
+		id = 42049,
 		damage = "19 x 1",
 		base = 42040,
-		id = 42049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42049
 		}
 	},
 	[42050] = {
+		id = 42050,
 		damage = "21 x 1",
 		base = 42040,
-		id = 42050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42050
 		}
@@ -80063,8 +71825,6 @@ pg.equip_data_statistics = {
 		damage = "21 x 1",
 		base = 42040,
 		id = 42051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42051
 		}
@@ -80130,101 +71890,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42061] = {
+		id = 42061,
 		damage = "10 x 4",
 		base = 42060,
-		id = 42061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42061
 		}
 	},
 	[42062] = {
+		id = 42062,
 		damage = "11 x 4",
 		base = 42060,
-		id = 42062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42062
 		}
 	},
 	[42063] = {
+		id = 42063,
 		damage = "12 x 4",
 		base = 42060,
-		id = 42063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42063
 		}
 	},
 	[42064] = {
+		id = 42064,
 		damage = "13 x 4",
 		base = 42060,
-		id = 42064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42064
 		}
 	},
 	[42065] = {
+		id = 42065,
 		damage = "14 x 4",
 		base = 42060,
-		id = 42065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42065
 		}
 	},
 	[42066] = {
+		id = 42066,
 		damage = "15 x 4",
 		base = 42060,
-		id = 42066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42066
 		}
 	},
 	[42067] = {
+		id = 42067,
 		damage = "16 x 4",
 		base = 42060,
-		id = 42067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42067
 		}
 	},
 	[42068] = {
+		id = 42068,
 		damage = "17 x 4",
 		base = 42060,
-		id = 42068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42068
 		}
 	},
 	[42069] = {
+		id = 42069,
 		damage = "19 x 4",
 		base = 42060,
-		id = 42069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42069
 		}
 	},
 	[42070] = {
+		id = 42070,
 		damage = "21 x 4",
 		base = 42060,
-		id = 42070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42070
 		}
@@ -80234,8 +71974,6 @@ pg.equip_data_statistics = {
 		damage = "21 x 4",
 		base = 42060,
 		id = 42071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42071
 		}
@@ -80301,31 +72039,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42101] = {
+		id = 42101,
 		damage = "8 x 3",
 		base = 42100,
-		id = 42101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42101
 		}
 	},
 	[42102] = {
+		id = 42102,
 		damage = "9 x 3",
 		base = 42100,
-		id = 42102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42102
 		}
 	},
 	[42103] = {
+		id = 42103,
 		damage = "10 x 3",
 		base = 42100,
-		id = 42103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42103
 		}
@@ -80391,61 +72123,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42121] = {
+		id = 42121,
 		damage = "9 x 3",
 		base = 42120,
-		id = 42121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42121
 		}
 	},
 	[42122] = {
+		id = 42122,
 		damage = "10 x 3",
 		base = 42120,
-		id = 42122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42122
 		}
 	},
 	[42123] = {
+		id = 42123,
 		damage = "11 x 3",
 		base = 42120,
-		id = 42123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42123
 		}
 	},
 	[42124] = {
+		id = 42124,
 		damage = "12 x 3",
 		base = 42120,
-		id = 42124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42124
 		}
 	},
 	[42125] = {
+		id = 42125,
 		damage = "13 x 3",
 		base = 42120,
-		id = 42125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42125
 		}
 	},
 	[42126] = {
+		id = 42126,
 		damage = "14 x 3",
 		base = 42120,
-		id = 42126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42126
 		}
@@ -80511,101 +72231,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42141] = {
+		id = 42141,
 		damage = "10 x 3",
 		base = 42140,
-		id = 42141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42141
 		}
 	},
 	[42142] = {
+		id = 42142,
 		damage = "11 x 3",
 		base = 42140,
-		id = 42142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42142
 		}
 	},
 	[42143] = {
+		id = 42143,
 		damage = "12 x 3",
 		base = 42140,
-		id = 42143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42143
 		}
 	},
 	[42144] = {
+		id = 42144,
 		damage = "13 x 3",
 		base = 42140,
-		id = 42144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42144
 		}
 	},
 	[42145] = {
+		id = 42145,
 		damage = "14 x 3",
 		base = 42140,
-		id = 42145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42145
 		}
 	},
 	[42146] = {
+		id = 42146,
 		damage = "15 x 3",
 		base = 42140,
-		id = 42146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42146
 		}
 	},
 	[42147] = {
+		id = 42147,
 		damage = "16 x 3",
 		base = 42140,
-		id = 42147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42147
 		}
 	},
 	[42148] = {
+		id = 42148,
 		damage = "17 x 3",
 		base = 42140,
-		id = 42148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42148
 		}
 	},
 	[42149] = {
+		id = 42149,
 		damage = "19 x 3",
 		base = 42140,
-		id = 42149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42149
 		}
 	},
 	[42150] = {
+		id = 42150,
 		damage = "21 x 3",
 		base = 42140,
-		id = 42150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42150
 		}
@@ -80615,8 +72315,6 @@ pg.equip_data_statistics = {
 		damage = "21 x 3",
 		base = 42140,
 		id = 42151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42151
 		}
@@ -80682,31 +72380,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42201] = {
+		id = 42201,
 		damage = "8 x 4",
 		base = 42200,
-		id = 42201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42201
 		}
 	},
 	[42202] = {
+		id = 42202,
 		damage = "9 x 4",
 		base = 42200,
-		id = 42202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42202
 		}
 	},
 	[42203] = {
+		id = 42203,
 		damage = "10 x 4",
 		base = 42200,
-		id = 42203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42203
 		}
@@ -80772,61 +72464,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42221] = {
+		id = 42221,
 		damage = "9 x 4",
 		base = 42220,
-		id = 42221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42221
 		}
 	},
 	[42222] = {
+		id = 42222,
 		damage = "10 x 4",
 		base = 42220,
-		id = 42222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42222
 		}
 	},
 	[42223] = {
+		id = 42223,
 		damage = "11 x 4",
 		base = 42220,
-		id = 42223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42223
 		}
 	},
 	[42224] = {
+		id = 42224,
 		damage = "12 x 4",
 		base = 42220,
-		id = 42224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42224
 		}
 	},
 	[42225] = {
+		id = 42225,
 		damage = "13 x 4",
 		base = 42220,
-		id = 42225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42225
 		}
 	},
 	[42226] = {
+		id = 42226,
 		damage = "14 x 4",
 		base = 42220,
-		id = 42226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42226
 		}
@@ -80892,101 +72572,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42241] = {
+		id = 42241,
 		damage = "10 x 4",
 		base = 42240,
-		id = 42241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42241
 		}
 	},
 	[42242] = {
+		id = 42242,
 		damage = "11 x 4",
 		base = 42240,
-		id = 42242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42242
 		}
 	},
 	[42243] = {
+		id = 42243,
 		damage = "12 x 4",
 		base = 42240,
-		id = 42243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42243
 		}
 	},
 	[42244] = {
+		id = 42244,
 		damage = "13 x 4",
 		base = 42240,
-		id = 42244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42244
 		}
 	},
 	[42245] = {
+		id = 42245,
 		damage = "14 x 4",
 		base = 42240,
-		id = 42245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42245
 		}
 	},
 	[42246] = {
+		id = 42246,
 		damage = "15 x 4",
 		base = 42240,
-		id = 42246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42246
 		}
 	},
 	[42247] = {
+		id = 42247,
 		damage = "16 x 4",
 		base = 42240,
-		id = 42247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42247
 		}
 	},
 	[42248] = {
+		id = 42248,
 		damage = "17 x 4",
 		base = 42240,
-		id = 42248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42248
 		}
 	},
 	[42249] = {
+		id = 42249,
 		damage = "19 x 4",
 		base = 42240,
-		id = 42249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42249
 		}
 	},
 	[42250] = {
+		id = 42250,
 		damage = "21 x 4",
 		base = 42240,
-		id = 42250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42250
 		}
@@ -80996,8 +72656,6 @@ pg.equip_data_statistics = {
 		damage = "21 x 4",
 		base = 42240,
 		id = 42251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42251
 		}
@@ -81063,31 +72721,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42301] = {
+		id = 42301,
 		damage = "8 x 3",
 		base = 42300,
-		id = 42301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42301
 		}
 	},
 	[42302] = {
+		id = 42302,
 		damage = "9 x 3",
 		base = 42300,
-		id = 42302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42302
 		}
 	},
 	[42303] = {
+		id = 42303,
 		damage = "10 x 3",
 		base = 42300,
-		id = 42303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42303
 		}
@@ -81153,100 +72805,80 @@ pg.equip_data_statistics = {
 		}
 	},
 	[42341] = {
-		base = 42340,
 		id = 42341,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 42340,
 		weapon_id = {
 			42341
 		}
 	},
 	[42342] = {
+		id = 42342,
 		damage = "7 x 3",
 		base = 42340,
-		id = 42342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42342
 		}
 	},
 	[42343] = {
+		id = 42343,
 		damage = "8 x 3",
 		base = 42340,
-		id = 42343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42343
 		}
 	},
 	[42344] = {
+		id = 42344,
 		damage = "9 x 3",
 		base = 42340,
-		id = 42344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42344
 		}
 	},
 	[42345] = {
+		id = 42345,
 		damage = "10 x 3",
 		base = 42340,
-		id = 42345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42345
 		}
 	},
 	[42346] = {
+		id = 42346,
 		damage = "11 x 3",
 		base = 42340,
-		id = 42346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42346
 		}
 	},
 	[42347] = {
+		id = 42347,
 		damage = "12 x 3",
 		base = 42340,
-		id = 42347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42347
 		}
 	},
 	[42348] = {
+		id = 42348,
 		damage = "13 x 3",
 		base = 42340,
-		id = 42348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42348
 		}
 	},
 	[42349] = {
+		id = 42349,
 		damage = "14 x 3",
 		base = 42340,
-		id = 42349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42349
 		}
 	},
 	[42350] = {
+		id = 42350,
 		damage = "15 x 3",
 		base = 42340,
-		id = 42350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42350
 		}
@@ -81256,8 +72888,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 3",
 		base = 42340,
 		id = 42351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			42351
 		}
@@ -81322,61 +72952,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[43001] = {
+		id = 43001,
 		damage = "27 x 6",
 		base = 43000,
-		id = 43001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43001
 		}
 	},
 	[43002] = {
+		id = 43002,
 		damage = "29 x 6",
 		base = 43000,
-		id = 43002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43002
 		}
 	},
 	[43003] = {
+		id = 43003,
 		damage = "31 x 6",
 		base = 43000,
-		id = 43003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43003
 		}
 	},
 	[43004] = {
+		id = 43004,
 		damage = "33 x 6",
 		base = 43000,
-		id = 43004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43004
 		}
 	},
 	[43005] = {
+		id = 43005,
 		damage = "35 x 6",
 		base = 43000,
-		id = 43005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43005
 		}
 	},
 	[43006] = {
+		id = 43006,
 		damage = "37 x 6",
 		base = 43000,
-		id = 43006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43006
 		}
@@ -81441,101 +73059,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[43021] = {
+		id = 43021,
 		damage = "29 x 6",
 		base = 43020,
-		id = 43021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43021
 		}
 	},
 	[43022] = {
+		id = 43022,
 		damage = "31 x 6",
 		base = 43020,
-		id = 43022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43022
 		}
 	},
 	[43023] = {
+		id = 43023,
 		damage = "33 x 6",
 		base = 43020,
-		id = 43023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43023
 		}
 	},
 	[43024] = {
+		id = 43024,
 		damage = "35 x 6",
 		base = 43020,
-		id = 43024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43024
 		}
 	},
 	[43025] = {
+		id = 43025,
 		damage = "37 x 6",
 		base = 43020,
-		id = 43025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43025
 		}
 	},
 	[43026] = {
+		id = 43026,
 		damage = "39 x 6",
 		base = 43020,
-		id = 43026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43026
 		}
 	},
 	[43027] = {
+		id = 43027,
 		damage = "41 x 6",
 		base = 43020,
-		id = 43027,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43027
 		}
 	},
 	[43028] = {
+		id = 43028,
 		damage = "43 x 6",
 		base = 43020,
-		id = 43028,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43028
 		}
 	},
 	[43029] = {
+		id = 43029,
 		damage = "45 x 6",
 		base = 43020,
-		id = 43029,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43029
 		}
 	},
 	[43030] = {
+		id = 43030,
 		damage = "47 x 6",
 		base = 43020,
-		id = 43030,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43030
 		}
@@ -81600,101 +73198,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[43041] = {
+		id = 43041,
 		damage = "32 x 6",
 		base = 43040,
-		id = 43041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43041
 		}
 	},
 	[43042] = {
+		id = 43042,
 		damage = "34 x 6",
 		base = 43040,
-		id = 43042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43042
 		}
 	},
 	[43043] = {
+		id = 43043,
 		damage = "36 x 6",
 		base = 43040,
-		id = 43043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43043
 		}
 	},
 	[43044] = {
+		id = 43044,
 		damage = "38 x 6",
 		base = 43040,
-		id = 43044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43044
 		}
 	},
 	[43045] = {
+		id = 43045,
 		damage = "40 x 6",
 		base = 43040,
-		id = 43045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43045
 		}
 	},
 	[43046] = {
+		id = 43046,
 		damage = "42 x 6",
 		base = 43040,
-		id = 43046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43046
 		}
 	},
 	[43047] = {
+		id = 43047,
 		damage = "44 x 6",
 		base = 43040,
-		id = 43047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43047
 		}
 	},
 	[43048] = {
+		id = 43048,
 		damage = "46 x 6",
 		base = 43040,
-		id = 43048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43048
 		}
 	},
 	[43049] = {
+		id = 43049,
 		damage = "48 x 6",
 		base = 43040,
-		id = 43049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43049
 		}
 	},
 	[43050] = {
+		id = 43050,
 		damage = "50 x 6",
 		base = 43040,
-		id = 43050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43050
 		}
@@ -81704,8 +73282,6 @@ pg.equip_data_statistics = {
 		damage = "50 x 6",
 		base = 43040,
 		id = 43051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43051
 		}
@@ -81715,8 +73291,6 @@ pg.equip_data_statistics = {
 		damage = "50 x 6",
 		base = 43040,
 		id = 43052,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43052
 		}
@@ -81726,8 +73300,6 @@ pg.equip_data_statistics = {
 		damage = "50 x 6",
 		base = 43040,
 		id = 43053,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43053
 		}
@@ -81792,101 +73364,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[43061] = {
+		id = 43061,
 		damage = "32 x 6",
 		base = 43060,
-		id = 43061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43061
 		}
 	},
 	[43062] = {
+		id = 43062,
 		damage = "34 x 6",
 		base = 43060,
-		id = 43062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43062
 		}
 	},
 	[43063] = {
+		id = 43063,
 		damage = "36 x 6",
 		base = 43060,
-		id = 43063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43063
 		}
 	},
 	[43064] = {
+		id = 43064,
 		damage = "38 x 6",
 		base = 43060,
-		id = 43064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43064
 		}
 	},
 	[43065] = {
+		id = 43065,
 		damage = "40 x 6",
 		base = 43060,
-		id = 43065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43065
 		}
 	},
 	[43066] = {
+		id = 43066,
 		damage = "42 x 6",
 		base = 43060,
-		id = 43066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43066
 		}
 	},
 	[43067] = {
+		id = 43067,
 		damage = "44 x 6",
 		base = 43060,
-		id = 43067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43067
 		}
 	},
 	[43068] = {
+		id = 43068,
 		damage = "46 x 6",
 		base = 43060,
-		id = 43068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43068
 		}
 	},
 	[43069] = {
+		id = 43069,
 		damage = "48 x 6",
 		base = 43060,
-		id = 43069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43069
 		}
 	},
 	[43070] = {
+		id = 43070,
 		damage = "50 x 6",
 		base = 43060,
-		id = 43070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43070
 		}
@@ -81896,8 +73448,6 @@ pg.equip_data_statistics = {
 		damage = "50 x 6",
 		base = 43060,
 		id = 43071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43071
 		}
@@ -81907,8 +73457,6 @@ pg.equip_data_statistics = {
 		damage = "50 x 6",
 		base = 43060,
 		id = 43072,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43072
 		}
@@ -81918,8 +73466,6 @@ pg.equip_data_statistics = {
 		damage = "50 x 6",
 		base = 43060,
 		id = 43073,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43073
 		}
@@ -81975,31 +73521,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[43101] = {
+		id = 43101,
 		damage = "32 x 6",
 		base = 43100,
-		id = 43101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43101
 		}
 	},
 	[43102] = {
+		id = 43102,
 		damage = "34 x 6",
 		base = 43100,
-		id = 43102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43102
 		}
 	},
 	[43103] = {
+		id = 43103,
 		damage = "36 x 6",
 		base = 43100,
-		id = 43103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43103
 		}
@@ -82055,61 +73595,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[43121] = {
+		id = 43121,
 		damage = "34 x 6",
 		base = 43120,
-		id = 43121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43121
 		}
 	},
 	[43122] = {
+		id = 43122,
 		damage = "36 x 6",
 		base = 43120,
-		id = 43122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43122
 		}
 	},
 	[43123] = {
+		id = 43123,
 		damage = "38 x 6",
 		base = 43120,
-		id = 43123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43123
 		}
 	},
 	[43124] = {
+		id = 43124,
 		damage = "40 x 6",
 		base = 43120,
-		id = 43124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43124
 		}
 	},
 	[43125] = {
+		id = 43125,
 		damage = "42 x 6",
 		base = 43120,
-		id = 43125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43125
 		}
 	},
 	[43126] = {
+		id = 43126,
 		damage = "44 x 6",
 		base = 43120,
-		id = 43126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43126
 		}
@@ -82165,101 +73693,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[43141] = {
+		id = 43141,
 		damage = "37 x 6",
 		base = 43140,
-		id = 43141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43141
 		}
 	},
 	[43142] = {
+		id = 43142,
 		damage = "39 x 6",
 		base = 43140,
-		id = 43142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43142
 		}
 	},
 	[43143] = {
+		id = 43143,
 		damage = "41 x 6",
 		base = 43140,
-		id = 43143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43143
 		}
 	},
 	[43144] = {
+		id = 43144,
 		damage = "43 x 6",
 		base = 43140,
-		id = 43144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43144
 		}
 	},
 	[43145] = {
+		id = 43145,
 		damage = "45 x 6",
 		base = 43140,
-		id = 43145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43145
 		}
 	},
 	[43146] = {
+		id = 43146,
 		damage = "47 x 6",
 		base = 43140,
-		id = 43146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43146
 		}
 	},
 	[43147] = {
+		id = 43147,
 		damage = "49 x 6",
 		base = 43140,
-		id = 43147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43147
 		}
 	},
 	[43148] = {
+		id = 43148,
 		damage = "51 x 6",
 		base = 43140,
-		id = 43148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43148
 		}
 	},
 	[43149] = {
+		id = 43149,
 		damage = "53 x 6",
 		base = 43140,
-		id = 43149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43149
 		}
 	},
 	[43150] = {
+		id = 43150,
 		damage = "55 x 6",
 		base = 43140,
-		id = 43150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43150
 		}
@@ -82269,8 +73777,6 @@ pg.equip_data_statistics = {
 		damage = "55 x 6",
 		base = 43140,
 		id = 43151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			43151
 		}
@@ -82328,31 +73834,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[44001] = {
+		id = 44001,
 		damage = "38 x 3",
 		base = 44000,
-		id = 44001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44001
 		}
 	},
 	[44002] = {
+		id = 44002,
 		damage = "42 x 3",
 		base = 44000,
-		id = 44002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44002
 		}
 	},
 	[44003] = {
+		id = 44003,
 		damage = "46 x 3",
 		base = 44000,
-		id = 44003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44003
 		}
@@ -82410,61 +73910,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[44021] = {
+		id = 44021,
 		damage = "42 x 3",
 		base = 44020,
-		id = 44021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44021
 		}
 	},
 	[44022] = {
+		id = 44022,
 		damage = "46 x 3",
 		base = 44020,
-		id = 44022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44022
 		}
 	},
 	[44023] = {
+		id = 44023,
 		damage = "51 x 3",
 		base = 44020,
-		id = 44023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44023
 		}
 	},
 	[44024] = {
+		id = 44024,
 		damage = "55 x 3",
 		base = 44020,
-		id = 44024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44024
 		}
 	},
 	[44025] = {
+		id = 44025,
 		damage = "59 x 3",
 		base = 44020,
-		id = 44025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44025
 		}
 	},
 	[44026] = {
+		id = 44026,
 		damage = "64 x 3",
 		base = 44020,
-		id = 44026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44026
 		}
@@ -82522,101 +74010,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[44041] = {
+		id = 44041,
 		damage = "46 x 3",
 		base = 44040,
-		id = 44041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44041
 		}
 	},
 	[44042] = {
+		id = 44042,
 		damage = "50 x 3",
 		base = 44040,
-		id = 44042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44042
 		}
 	},
 	[44043] = {
+		id = 44043,
 		damage = "56 x 3",
 		base = 44040,
-		id = 44043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44043
 		}
 	},
 	[44044] = {
+		id = 44044,
 		damage = "60 x 3",
 		base = 44040,
-		id = 44044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44044
 		}
 	},
 	[44045] = {
+		id = 44045,
 		damage = "64 x 3",
 		base = 44040,
-		id = 44045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44045
 		}
 	},
 	[44046] = {
+		id = 44046,
 		damage = "70 x 3",
 		base = 44040,
-		id = 44046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44046
 		}
 	},
 	[44047] = {
+		id = 44047,
 		damage = "74 x 3",
 		base = 44040,
-		id = 44047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44047
 		}
 	},
 	[44048] = {
+		id = 44048,
 		damage = "80 x 3",
 		base = 44040,
-		id = 44048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44048
 		}
 	},
 	[44049] = {
+		id = 44049,
 		damage = "84 x 3",
 		base = 44040,
-		id = 44049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44049
 		}
 	},
 	[44050] = {
+		id = 44050,
 		damage = "88 x 3",
 		base = 44040,
-		id = 44050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44050
 		}
@@ -82626,8 +74094,6 @@ pg.equip_data_statistics = {
 		damage = "88 x 3",
 		base = 44040,
 		id = 44051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44051
 		}
@@ -82685,61 +74151,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[44101] = {
+		id = 44101,
 		damage = "55 x 2",
 		base = 44100,
-		id = 44101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44101
 		}
 	},
 	[44102] = {
+		id = 44102,
 		damage = "61 x 2",
 		base = 44100,
-		id = 44102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44102
 		}
 	},
 	[44103] = {
+		id = 44103,
 		damage = "67 x 2",
 		base = 44100,
-		id = 44103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44103
 		}
 	},
 	[44104] = {
+		id = 44104,
 		damage = "73 x 2",
 		base = 44100,
-		id = 44104,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44104
 		}
 	},
 	[44105] = {
+		id = 44105,
 		damage = "79 x 2",
 		base = 44100,
-		id = 44105,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44105
 		}
 	},
 	[44106] = {
+		id = 44106,
 		damage = "86 x 2",
 		base = 44100,
-		id = 44106,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44106
 		}
@@ -82798,101 +74252,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[44121] = {
+		id = 44121,
 		damage = "61 x 2",
 		base = 44120,
-		id = 44121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44121
 		}
 	},
 	[44122] = {
+		id = 44122,
 		damage = "67 x 2",
 		base = 44120,
-		id = 44122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44122
 		}
 	},
 	[44123] = {
+		id = 44123,
 		damage = "74 x 2",
 		base = 44120,
-		id = 44123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44123
 		}
 	},
 	[44124] = {
+		id = 44124,
 		damage = "80 x 2",
 		base = 44120,
-		id = 44124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44124
 		}
 	},
 	[44125] = {
+		id = 44125,
 		damage = "87 x 2",
 		base = 44120,
-		id = 44125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44125
 		}
 	},
 	[44126] = {
+		id = 44126,
 		damage = "93 x 2",
 		base = 44120,
-		id = 44126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44126
 		}
 	},
 	[44127] = {
+		id = 44127,
 		damage = "100 x 2",
 		base = 44120,
-		id = 44127,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44127
 		}
 	},
 	[44128] = {
+		id = 44128,
 		damage = "107 x 2",
 		base = 44120,
-		id = 44128,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44128
 		}
 	},
 	[44129] = {
+		id = 44129,
 		damage = "114 x 2",
 		base = 44120,
-		id = 44129,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44129
 		}
 	},
 	[44130] = {
+		id = 44130,
 		damage = "122 x 2",
 		base = 44120,
-		id = 44130,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44130
 		}
@@ -82951,101 +74385,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[44141] = {
+		id = 44141,
 		damage = "64 x 2",
 		base = 44140,
-		id = 44141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44141
 		}
 	},
 	[44142] = {
+		id = 44142,
 		damage = "72 x 2",
 		base = 44140,
-		id = 44142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44142
 		}
 	},
 	[44143] = {
+		id = 44143,
 		damage = "80 x 2",
 		base = 44140,
-		id = 44143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44143
 		}
 	},
 	[44144] = {
+		id = 44144,
 		damage = "86 x 2",
 		base = 44140,
-		id = 44144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44144
 		}
 	},
 	[44145] = {
+		id = 44145,
 		damage = "94 x 2",
 		base = 44140,
-		id = 44145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44145
 		}
 	},
 	[44146] = {
+		id = 44146,
 		damage = "100 x 2",
 		base = 44140,
-		id = 44146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44146
 		}
 	},
 	[44147] = {
+		id = 44147,
 		damage = "108 x 2",
 		base = 44140,
-		id = 44147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44147
 		}
 	},
 	[44148] = {
+		id = 44148,
 		damage = "118 x 2",
 		base = 44140,
-		id = 44148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44148
 		}
 	},
 	[44149] = {
+		id = 44149,
 		damage = "124 x 2",
 		base = 44140,
-		id = 44149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44149
 		}
 	},
 	[44150] = {
+		id = 44150,
 		damage = "132 x 2",
 		base = 44140,
-		id = 44150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44150
 		}
@@ -83055,8 +74469,6 @@ pg.equip_data_statistics = {
 		damage = "132 x 2",
 		base = 44140,
 		id = 44151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44151
 		}
@@ -83066,8 +74478,6 @@ pg.equip_data_statistics = {
 		damage = "132 x 2",
 		base = 44140,
 		id = 44152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44152
 		}
@@ -83077,8 +74487,6 @@ pg.equip_data_statistics = {
 		damage = "132 x 2",
 		base = 44140,
 		id = 44153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44153
 		}
@@ -83137,101 +74545,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[44201] = {
+		id = 44201,
 		damage = "68 x 2",
 		base = 44200,
-		id = 44201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44201
 		}
 	},
 	[44202] = {
+		id = 44202,
 		damage = "76 x 2",
 		base = 44200,
-		id = 44202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44202
 		}
 	},
 	[44203] = {
+		id = 44203,
 		damage = "86 x 2",
 		base = 44200,
-		id = 44203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44203
 		}
 	},
 	[44204] = {
+		id = 44204,
 		damage = "96 x 2",
 		base = 44200,
-		id = 44204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44204
 		}
 	},
 	[44205] = {
+		id = 44205,
 		damage = "106 x 2",
 		base = 44200,
-		id = 44205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44205
 		}
 	},
 	[44206] = {
+		id = 44206,
 		damage = "116 x 2",
 		base = 44200,
-		id = 44206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44206
 		}
 	},
 	[44207] = {
+		id = 44207,
 		damage = "124 x 2",
 		base = 44200,
-		id = 44207,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44207
 		}
 	},
 	[44208] = {
+		id = 44208,
 		damage = "134 x 2",
 		base = 44200,
-		id = 44208,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44208
 		}
 	},
 	[44209] = {
+		id = 44209,
 		damage = "144 x 2",
 		base = 44200,
-		id = 44209,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44209
 		}
 	},
 	[44210] = {
+		id = 44210,
 		damage = "154 x 2",
 		base = 44200,
-		id = 44210,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44210
 		}
@@ -83241,8 +74629,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 2",
 		base = 44200,
 		id = 44211,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44211
 		}
@@ -83252,8 +74638,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 2",
 		base = 44200,
 		id = 44212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44212
 		}
@@ -83263,8 +74647,6 @@ pg.equip_data_statistics = {
 		damage = "154 x 2",
 		base = 44200,
 		id = 44213,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44213
 		}
@@ -83323,101 +74705,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[44301] = {
+		id = 44301,
 		damage = "63 x 3",
 		base = 44300,
-		id = 44301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44301
 		}
 	},
 	[44302] = {
+		id = 44302,
 		damage = "67 x 3",
 		base = 44300,
-		id = 44302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44302
 		}
 	},
 	[44303] = {
+		id = 44303,
 		damage = "73 x 3",
 		base = 44300,
-		id = 44303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44303
 		}
 	},
 	[44304] = {
+		id = 44304,
 		damage = "77 x 3",
 		base = 44300,
-		id = 44304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44304
 		}
 	},
 	[44305] = {
+		id = 44305,
 		damage = "81 x 3",
 		base = 44300,
-		id = 44305,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44305
 		}
 	},
 	[44306] = {
+		id = 44306,
 		damage = "87 x 3",
 		base = 44300,
-		id = 44306,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44306
 		}
 	},
 	[44307] = {
+		id = 44307,
 		damage = "91 x 3",
 		base = 44300,
-		id = 44307,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44307
 		}
 	},
 	[44308] = {
+		id = 44308,
 		damage = "97 x 3",
 		base = 44300,
-		id = 44308,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44308
 		}
 	},
 	[44309] = {
+		id = 44309,
 		damage = "101 x 3",
 		base = 44300,
-		id = 44309,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44309
 		}
 	},
 	[44310] = {
+		id = 44310,
 		damage = "105 x 3",
 		base = 44300,
-		id = 44310,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44310
 		}
@@ -83427,8 +74789,6 @@ pg.equip_data_statistics = {
 		damage = "105 x 3",
 		base = 44300,
 		id = 44311,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44311
 		}
@@ -83438,8 +74798,6 @@ pg.equip_data_statistics = {
 		damage = "105 x 3",
 		base = 44300,
 		id = 44312,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44312
 		}
@@ -83449,8 +74807,6 @@ pg.equip_data_statistics = {
 		damage = "105 x 3",
 		base = 44300,
 		id = 44313,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44313
 		}
@@ -83518,31 +74874,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45001] = {
+		id = 45001,
 		damage = "69 x 3",
 		base = 45000,
-		id = 45001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45001
 		}
 	},
 	[45002] = {
+		id = 45002,
 		damage = "75 x 3",
 		base = 45000,
-		id = 45002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45002
 		}
 	},
 	[45003] = {
+		id = 45003,
 		damage = "81 x 3",
 		base = 45000,
-		id = 45003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45003
 		}
@@ -83610,61 +74960,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45021] = {
+		id = 45021,
 		damage = "72 x 3",
 		base = 45020,
-		id = 45021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45021
 		}
 	},
 	[45022] = {
+		id = 45022,
 		damage = "79 x 3",
 		base = 45020,
-		id = 45022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45022
 		}
 	},
 	[45023] = {
+		id = 45023,
 		damage = "86 x 3",
 		base = 45020,
-		id = 45023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45023
 		}
 	},
 	[45024] = {
+		id = 45024,
 		damage = "92 x 3",
 		base = 45020,
-		id = 45024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45024
 		}
 	},
 	[45025] = {
+		id = 45025,
 		damage = "99 x 3",
 		base = 45020,
-		id = 45025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45025
 		}
 	},
 	[45026] = {
+		id = 45026,
 		damage = "106 x 3",
 		base = 45020,
-		id = 45026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45026
 		}
@@ -83732,101 +75070,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45041] = {
+		id = 45041,
 		damage = "77 x 3",
 		base = 45040,
-		id = 45041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45041
 		}
 	},
 	[45042] = {
+		id = 45042,
 		damage = "85 x 3",
 		base = 45040,
-		id = 45042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45042
 		}
 	},
 	[45043] = {
+		id = 45043,
 		damage = "92 x 3",
 		base = 45040,
-		id = 45043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45043
 		}
 	},
 	[45044] = {
+		id = 45044,
 		damage = "100 x 3",
 		base = 45040,
-		id = 45044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45044
 		}
 	},
 	[45045] = {
+		id = 45045,
 		damage = "107 x 3",
 		base = 45040,
-		id = 45045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45045
 		}
 	},
 	[45046] = {
+		id = 45046,
 		damage = "115 x 3",
 		base = 45040,
-		id = 45046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45046
 		}
 	},
 	[45047] = {
+		id = 45047,
 		damage = "122 x 3",
 		base = 45040,
-		id = 45047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45047
 		}
 	},
 	[45048] = {
+		id = 45048,
 		damage = "130 x 3",
 		base = 45040,
-		id = 45048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45048
 		}
 	},
 	[45049] = {
+		id = 45049,
 		damage = "137 x 3",
 		base = 45040,
-		id = 45049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45049
 		}
 	},
 	[45050] = {
+		id = 45050,
 		damage = "145 x 3",
 		base = 45040,
-		id = 45050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45050
 		}
@@ -83836,8 +75154,6 @@ pg.equip_data_statistics = {
 		damage = "145 x 3",
 		base = 45040,
 		id = 45051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45051
 		}
@@ -83905,61 +75221,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45101] = {
+		id = 45101,
 		damage = "69 x 4",
 		base = 45100,
-		id = 45101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45101
 		}
 	},
 	[45102] = {
+		id = 45102,
 		damage = "75 x 4",
 		base = 45100,
-		id = 45102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45102
 		}
 	},
 	[45103] = {
+		id = 45103,
 		damage = "81 x 4",
 		base = 45100,
-		id = 45103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45103
 		}
 	},
 	[45104] = {
+		id = 45104,
 		damage = "87 x 4",
 		base = 45100,
-		id = 45104,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45104
 		}
 	},
 	[45105] = {
+		id = 45105,
 		damage = "93 x 4",
 		base = 45100,
-		id = 45105,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45105
 		}
 	},
 	[45106] = {
+		id = 45106,
 		damage = "99 x 4",
 		base = 45100,
-		id = 45106,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45106
 		}
@@ -84027,101 +75331,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45121] = {
+		id = 45121,
 		damage = "72 x 4",
 		base = 45120,
-		id = 45121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45121
 		}
 	},
 	[45122] = {
+		id = 45122,
 		damage = "79 x 4",
 		base = 45120,
-		id = 45122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45122
 		}
 	},
 	[45123] = {
+		id = 45123,
 		damage = "86 x 4",
 		base = 45120,
-		id = 45123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45123
 		}
 	},
 	[45124] = {
+		id = 45124,
 		damage = "92 x 4",
 		base = 45120,
-		id = 45124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45124
 		}
 	},
 	[45125] = {
+		id = 45125,
 		damage = "99 x 4",
 		base = 45120,
-		id = 45125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45125
 		}
 	},
 	[45126] = {
+		id = 45126,
 		damage = "106 x 4",
 		base = 45120,
-		id = 45126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45126
 		}
 	},
 	[45127] = {
+		id = 45127,
 		damage = "112 x 4",
 		base = 45120,
-		id = 45127,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45127
 		}
 	},
 	[45128] = {
+		id = 45128,
 		damage = "119 x 4",
 		base = 45120,
-		id = 45128,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45128
 		}
 	},
 	[45129] = {
+		id = 45129,
 		damage = "126 x 4",
 		base = 45120,
-		id = 45129,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45129
 		}
 	},
 	[45130] = {
+		id = 45130,
 		damage = "133 x 4",
 		base = 45120,
-		id = 45130,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45130
 		}
@@ -84189,101 +75473,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45141] = {
+		id = 45141,
 		damage = "77 x 4",
 		base = 45140,
-		id = 45141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45141
 		}
 	},
 	[45142] = {
+		id = 45142,
 		damage = "85 x 4",
 		base = 45140,
-		id = 45142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45142
 		}
 	},
 	[45143] = {
+		id = 45143,
 		damage = "92 x 4",
 		base = 45140,
-		id = 45143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45143
 		}
 	},
 	[45144] = {
+		id = 45144,
 		damage = "100 x 4",
 		base = 45140,
-		id = 45144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45144
 		}
 	},
 	[45145] = {
+		id = 45145,
 		damage = "107 x 4",
 		base = 45140,
-		id = 45145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45145
 		}
 	},
 	[45146] = {
+		id = 45146,
 		damage = "115 x 4",
 		base = 45140,
-		id = 45146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45146
 		}
 	},
 	[45147] = {
+		id = 45147,
 		damage = "122 x 4",
 		base = 45140,
-		id = 45147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45147
 		}
 	},
 	[45148] = {
+		id = 45148,
 		damage = "130 x 4",
 		base = 45140,
-		id = 45148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45148
 		}
 	},
 	[45149] = {
+		id = 45149,
 		damage = "137 x 4",
 		base = 45140,
-		id = 45149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45149
 		}
 	},
 	[45150] = {
+		id = 45150,
 		damage = "145 x 4",
 		base = 45140,
-		id = 45150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45150
 		}
@@ -84293,8 +75557,6 @@ pg.equip_data_statistics = {
 		damage = "145 x 4",
 		base = 45140,
 		id = 45151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45151
 		}
@@ -84304,8 +75566,6 @@ pg.equip_data_statistics = {
 		damage = "145 x 4",
 		base = 45140,
 		id = 45152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45152
 		}
@@ -84315,8 +75575,6 @@ pg.equip_data_statistics = {
 		damage = "145 x 4",
 		base = 45140,
 		id = 45153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45153
 		}
@@ -84384,101 +75642,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45201] = {
+		id = 45201,
 		damage = "69 x 5",
 		base = 45200,
-		id = 45201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45201
 		}
 	},
 	[45202] = {
+		id = 45202,
 		damage = "75 x 5",
 		base = 45200,
-		id = 45202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45202
 		}
 	},
 	[45203] = {
+		id = 45203,
 		damage = "81 x 5",
 		base = 45200,
-		id = 45203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45203
 		}
 	},
 	[45204] = {
+		id = 45204,
 		damage = "87 x 5",
 		base = 45200,
-		id = 45204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45204
 		}
 	},
 	[45205] = {
+		id = 45205,
 		damage = "93 x 5",
 		base = 45200,
-		id = 45205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45205
 		}
 	},
 	[45206] = {
+		id = 45206,
 		damage = "99 x 5",
 		base = 45200,
-		id = 45206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45206
 		}
 	},
 	[45207] = {
+		id = 45207,
 		damage = "105 x 5",
 		base = 45200,
-		id = 45207,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45207
 		}
 	},
 	[45208] = {
+		id = 45208,
 		damage = "111 x 5",
 		base = 45200,
-		id = 45208,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45208
 		}
 	},
 	[45209] = {
+		id = 45209,
 		damage = "117 x 5",
 		base = 45200,
-		id = 45209,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45209
 		}
 	},
 	[45210] = {
+		id = 45210,
 		damage = "123 x 5",
 		base = 45200,
-		id = 45210,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45210
 		}
@@ -84546,101 +75784,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45221] = {
+		id = 45221,
 		damage = "72 x 5",
 		base = 45220,
-		id = 45221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45221
 		}
 	},
 	[45222] = {
+		id = 45222,
 		damage = "79 x 5",
 		base = 45220,
-		id = 45222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45222
 		}
 	},
 	[45223] = {
+		id = 45223,
 		damage = "86 x 5",
 		base = 45220,
-		id = 45223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45223
 		}
 	},
 	[45224] = {
+		id = 45224,
 		damage = "92 x 5",
 		base = 45220,
-		id = 45224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45224
 		}
 	},
 	[45225] = {
+		id = 45225,
 		damage = "99 x 5",
 		base = 45220,
-		id = 45225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45225
 		}
 	},
 	[45226] = {
+		id = 45226,
 		damage = "106 x 5",
 		base = 45220,
-		id = 45226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45226
 		}
 	},
 	[45227] = {
+		id = 45227,
 		damage = "112 x 5",
 		base = 45220,
-		id = 45227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45227
 		}
 	},
 	[45228] = {
+		id = 45228,
 		damage = "119 x 5",
 		base = 45220,
-		id = 45228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45228
 		}
 	},
 	[45229] = {
+		id = 45229,
 		damage = "126 x 5",
 		base = 45220,
-		id = 45229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45229
 		}
 	},
 	[45230] = {
+		id = 45230,
 		damage = "133 x 5",
 		base = 45220,
-		id = 45230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45230
 		}
@@ -84708,101 +75926,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45241] = {
+		id = 45241,
 		damage = "77 x 5",
 		base = 45240,
-		id = 45241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45241
 		}
 	},
 	[45242] = {
+		id = 45242,
 		damage = "85 x 5",
 		base = 45240,
-		id = 45242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45242
 		}
 	},
 	[45243] = {
+		id = 45243,
 		damage = "92 x 5",
 		base = 45240,
-		id = 45243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45243
 		}
 	},
 	[45244] = {
+		id = 45244,
 		damage = "100 x 5",
 		base = 45240,
-		id = 45244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45244
 		}
 	},
 	[45245] = {
+		id = 45245,
 		damage = "107 x 5",
 		base = 45240,
-		id = 45245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45245
 		}
 	},
 	[45246] = {
+		id = 45246,
 		damage = "115 x 5",
 		base = 45240,
-		id = 45246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45246
 		}
 	},
 	[45247] = {
+		id = 45247,
 		damage = "122 x 5",
 		base = 45240,
-		id = 45247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45247
 		}
 	},
 	[45248] = {
+		id = 45248,
 		damage = "130 x 5",
 		base = 45240,
-		id = 45248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45248
 		}
 	},
 	[45249] = {
+		id = 45249,
 		damage = "137 x 5",
 		base = 45240,
-		id = 45249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45249
 		}
 	},
 	[45250] = {
+		id = 45250,
 		damage = "145 x 5",
 		base = 45240,
-		id = 45250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45250
 		}
@@ -84812,8 +76010,6 @@ pg.equip_data_statistics = {
 		damage = "145 x 5",
 		base = 45240,
 		id = 45251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45251
 		}
@@ -84823,8 +76019,6 @@ pg.equip_data_statistics = {
 		damage = "145 x 5",
 		base = 45240,
 		id = 45252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45252
 		}
@@ -84834,8 +76028,6 @@ pg.equip_data_statistics = {
 		damage = "145 x 5",
 		base = 45240,
 		id = 45253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45253
 		}
@@ -84900,31 +76092,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45301] = {
+		id = 45301,
 		damage = "52 x 2",
 		base = 45300,
-		id = 45301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45301
 		}
 	},
 	[45302] = {
+		id = 45302,
 		damage = "59 x 2",
 		base = 45300,
-		id = 45302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45302
 		}
 	},
 	[45303] = {
+		id = 45303,
 		damage = "66 x 2",
 		base = 45300,
-		id = 45303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45303
 		}
@@ -84989,61 +76175,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45321] = {
+		id = 45321,
 		damage = "59 x 2",
 		base = 45320,
-		id = 45321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45321
 		}
 	},
 	[45322] = {
+		id = 45322,
 		damage = "66 x 2",
 		base = 45320,
-		id = 45322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45322
 		}
 	},
 	[45323] = {
+		id = 45323,
 		damage = "74 x 2",
 		base = 45320,
-		id = 45323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45323
 		}
 	},
 	[45324] = {
+		id = 45324,
 		damage = "82 x 2",
 		base = 45320,
-		id = 45324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45324
 		}
 	},
 	[45325] = {
+		id = 45325,
 		damage = "90 x 2",
 		base = 45320,
-		id = 45325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45325
 		}
 	},
 	[45326] = {
+		id = 45326,
 		damage = "98 x 2",
 		base = 45320,
-		id = 45326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45326
 		}
@@ -85108,101 +76282,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45341] = {
+		id = 45341,
 		damage = "66 x 2",
 		base = 45340,
-		id = 45341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45341
 		}
 	},
 	[45342] = {
+		id = 45342,
 		damage = "74 x 2",
 		base = 45340,
-		id = 45342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45342
 		}
 	},
 	[45343] = {
+		id = 45343,
 		damage = "82 x 2",
 		base = 45340,
-		id = 45343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45343
 		}
 	},
 	[45344] = {
+		id = 45344,
 		damage = "90 x 2",
 		base = 45340,
-		id = 45344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45344
 		}
 	},
 	[45345] = {
+		id = 45345,
 		damage = "99 x 2",
 		base = 45340,
-		id = 45345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45345
 		}
 	},
 	[45346] = {
+		id = 45346,
 		damage = "108 x 2",
 		base = 45340,
-		id = 45346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45346
 		}
 	},
 	[45347] = {
+		id = 45347,
 		damage = "117 x 2",
 		base = 45340,
-		id = 45347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45347
 		}
 	},
 	[45348] = {
+		id = 45348,
 		damage = "126 x 2",
 		base = 45340,
-		id = 45348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45348
 		}
 	},
 	[45349] = {
+		id = 45349,
 		damage = "135 x 2",
 		base = 45340,
-		id = 45349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45349
 		}
 	},
 	[45350] = {
+		id = 45350,
 		damage = "144 x 2",
 		base = 45340,
-		id = 45350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45350
 		}
@@ -85212,8 +76366,6 @@ pg.equip_data_statistics = {
 		damage = "144 x 2",
 		base = 45340,
 		id = 45351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45351
 		}
@@ -85278,61 +76430,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45401] = {
+		id = 45401,
 		damage = "59 x 2",
 		base = 45400,
-		id = 45401,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45401
 		}
 	},
 	[45402] = {
+		id = 45402,
 		damage = "66 x 2",
 		base = 45400,
-		id = 45402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45402
 		}
 	},
 	[45403] = {
+		id = 45403,
 		damage = "74 x 2",
 		base = 45400,
-		id = 45403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45403
 		}
 	},
 	[45404] = {
+		id = 45404,
 		damage = "82 x 2",
 		base = 45400,
-		id = 45404,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45404
 		}
 	},
 	[45405] = {
+		id = 45405,
 		damage = "90 x 2",
 		base = 45400,
-		id = 45405,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45405
 		}
 	},
 	[45406] = {
+		id = 45406,
 		damage = "98 x 2",
 		base = 45400,
-		id = 45406,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45406
 		}
@@ -85397,101 +76537,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45421] = {
+		id = 45421,
 		damage = "66 x 2",
 		base = 45420,
-		id = 45421,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45421
 		}
 	},
 	[45422] = {
+		id = 45422,
 		damage = "74 x 2",
 		base = 45420,
-		id = 45422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45422
 		}
 	},
 	[45423] = {
+		id = 45423,
 		damage = "82 x 2",
 		base = 45420,
-		id = 45423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45423
 		}
 	},
 	[45424] = {
+		id = 45424,
 		damage = "90 x 2",
 		base = 45420,
-		id = 45424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45424
 		}
 	},
 	[45425] = {
+		id = 45425,
 		damage = "99 x 2",
 		base = 45420,
-		id = 45425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45425
 		}
 	},
 	[45426] = {
+		id = 45426,
 		damage = "108 x 2",
 		base = 45420,
-		id = 45426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45426
 		}
 	},
 	[45427] = {
+		id = 45427,
 		damage = "117 x 2",
 		base = 45420,
-		id = 45427,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45427
 		}
 	},
 	[45428] = {
+		id = 45428,
 		damage = "126 x 2",
 		base = 45420,
-		id = 45428,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45428
 		}
 	},
 	[45429] = {
+		id = 45429,
 		damage = "135 x 2",
 		base = 45420,
-		id = 45429,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45429
 		}
 	},
 	[45430] = {
+		id = 45430,
 		damage = "144 x 2",
 		base = 45420,
-		id = 45430,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45430
 		}
@@ -85556,101 +76676,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[45441] = {
+		id = 45441,
 		damage = "73 x 2",
 		base = 45440,
-		id = 45441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45441
 		}
 	},
 	[45442] = {
+		id = 45442,
 		damage = "82 x 2",
 		base = 45440,
-		id = 45442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45442
 		}
 	},
 	[45443] = {
+		id = 45443,
 		damage = "91 x 2",
 		base = 45440,
-		id = 45443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45443
 		}
 	},
 	[45444] = {
+		id = 45444,
 		damage = "100 x 2",
 		base = 45440,
-		id = 45444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45444
 		}
 	},
 	[45445] = {
+		id = 45445,
 		damage = "110 x 2",
 		base = 45440,
-		id = 45445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45445
 		}
 	},
 	[45446] = {
+		id = 45446,
 		damage = "120 x 2",
 		base = 45440,
-		id = 45446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45446
 		}
 	},
 	[45447] = {
+		id = 45447,
 		damage = "130 x 2",
 		base = 45440,
-		id = 45447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45447
 		}
 	},
 	[45448] = {
+		id = 45448,
 		damage = "140 x 2",
 		base = 45440,
-		id = 45448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45448
 		}
 	},
 	[45449] = {
+		id = 45449,
 		damage = "150 x 2",
 		base = 45440,
-		id = 45449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45449
 		}
 	},
 	[45450] = {
+		id = 45450,
 		damage = "160 x 2",
 		base = 45440,
-		id = 45450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45450
 		}
@@ -85660,8 +76760,6 @@ pg.equip_data_statistics = {
 		damage = "160 x 2",
 		base = 45440,
 		id = 45451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45451
 		}
@@ -85671,8 +76769,6 @@ pg.equip_data_statistics = {
 		damage = "160 x 2",
 		base = 45440,
 		id = 45452,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45452
 		}
@@ -85682,8 +76778,6 @@ pg.equip_data_statistics = {
 		damage = "160 x 2",
 		base = 45440,
 		id = 45453,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			45453
 		}
@@ -85750,31 +76844,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46001] = {
+		id = 46001,
 		damage = "20/回",
 		base = 46000,
-		id = 46001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46001
 		}
 	},
 	[46002] = {
+		id = 46002,
 		damage = "23/回",
 		base = 46000,
-		id = 46002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46002
 		}
 	},
 	[46003] = {
+		id = 46003,
 		damage = "26/回",
 		base = 46000,
-		id = 46003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46003
 		}
@@ -85842,31 +76930,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46021] = {
+		id = 46021,
 		damage = "23/回",
 		base = 46020,
-		id = 46021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46021
 		}
 	},
 	[46022] = {
+		id = 46022,
 		damage = "27/回",
 		base = 46020,
-		id = 46022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46022
 		}
 	},
 	[46023] = {
+		id = 46023,
 		damage = "31/回",
 		base = 46020,
-		id = 46023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46023
 		}
@@ -85934,71 +77016,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46041] = {
+		id = 46041,
 		damage = "26/回",
 		base = 46040,
-		id = 46041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46041
 		}
 	},
 	[46042] = {
+		id = 46042,
 		damage = "30/回",
 		base = 46040,
-		id = 46042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46042
 		}
 	},
 	[46043] = {
+		id = 46043,
 		damage = "34/回",
 		base = 46040,
-		id = 46043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46043
 		}
 	},
 	[46044] = {
+		id = 46044,
 		damage = "38/回",
 		base = 46040,
-		id = 46044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46044
 		}
 	},
 	[46045] = {
+		id = 46045,
 		damage = "42/回",
 		base = 46040,
-		id = 46045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46045
 		}
 	},
 	[46046] = {
+		id = 46046,
 		damage = "46/回",
 		base = 46040,
-		id = 46046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46046
 		}
 	},
 	[46047] = {
+		id = 46047,
 		damage = "46/回",
 		base = 46040,
-		id = 46047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46047
 		}
@@ -86066,101 +77134,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46061] = {
+		id = 46061,
 		damage = "34/回",
 		base = 46060,
-		id = 46061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46061
 		}
 	},
 	[46062] = {
+		id = 46062,
 		damage = "40/回",
 		base = 46060,
-		id = 46062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46062
 		}
 	},
 	[46063] = {
+		id = 46063,
 		damage = "46/回",
 		base = 46060,
-		id = 46063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46063
 		}
 	},
 	[46064] = {
+		id = 46064,
 		damage = "52/回",
 		base = 46060,
-		id = 46064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46064
 		}
 	},
 	[46065] = {
+		id = 46065,
 		damage = "58/回",
 		base = 46060,
-		id = 46065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46065
 		}
 	},
 	[46066] = {
+		id = 46066,
 		damage = "64/回",
 		base = 46060,
-		id = 46066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46066
 		}
 	},
 	[46067] = {
+		id = 46067,
 		damage = "70/回",
 		base = 46060,
-		id = 46067,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46067
 		}
 	},
 	[46068] = {
+		id = 46068,
 		damage = "76/回",
 		base = 46060,
-		id = 46068,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46068
 		}
 	},
 	[46069] = {
+		id = 46069,
 		damage = "82/回",
 		base = 46060,
-		id = 46069,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46069
 		}
 	},
 	[46070] = {
+		id = 46070,
 		damage = "89/回",
 		base = 46060,
-		id = 46070,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46070
 		}
@@ -86170,8 +77218,6 @@ pg.equip_data_statistics = {
 		damage = "89/回",
 		base = 46060,
 		id = 46071,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46071
 		}
@@ -86238,31 +77284,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46101] = {
+		id = 46101,
 		damage = "9/回",
 		base = 46100,
-		id = 46101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46101
 		}
 	},
 	[46102] = {
+		id = 46102,
 		damage = "10/回",
 		base = 46100,
-		id = 46102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46102
 		}
 	},
 	[46103] = {
+		id = 46103,
 		damage = "12/回",
 		base = 46100,
-		id = 46103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46103
 		}
@@ -86330,31 +77370,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46121] = {
+		id = 46121,
 		damage = "12/回",
 		base = 46120,
-		id = 46121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46121
 		}
 	},
 	[46122] = {
+		id = 46122,
 		damage = "14/回",
 		base = 46120,
-		id = 46122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46122
 		}
 	},
 	[46123] = {
+		id = 46123,
 		damage = "16/回",
 		base = 46120,
-		id = 46123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46123
 		}
@@ -86422,71 +77456,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46141] = {
+		id = 46141,
 		damage = "14/回",
 		base = 46140,
-		id = 46141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46141
 		}
 	},
 	[46142] = {
+		id = 46142,
 		damage = "16/回",
 		base = 46140,
-		id = 46142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46142
 		}
 	},
 	[46143] = {
+		id = 46143,
 		damage = "18/回",
 		base = 46140,
-		id = 46143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46143
 		}
 	},
 	[46144] = {
+		id = 46144,
 		damage = "20/回",
 		base = 46140,
-		id = 46144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46144
 		}
 	},
 	[46145] = {
+		id = 46145,
 		damage = "22/回",
 		base = 46140,
-		id = 46145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46145
 		}
 	},
 	[46146] = {
+		id = 46146,
 		damage = "24/回",
 		base = 46140,
-		id = 46146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46146
 		}
 	},
 	[46147] = {
+		id = 46147,
 		damage = "24/回",
 		base = 46140,
-		id = 46147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46147
 		}
@@ -86554,31 +77574,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46201] = {
+		id = 46201,
 		damage = "17/回",
 		base = 46200,
-		id = 46201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46201
 		}
 	},
 	[46202] = {
+		id = 46202,
 		damage = "19/回",
 		base = 46200,
-		id = 46202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46202
 		}
 	},
 	[46203] = {
+		id = 46203,
 		damage = "22/回",
 		base = 46200,
-		id = 46203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46203
 		}
@@ -86646,61 +77660,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46221] = {
+		id = 46221,
 		damage = "19/回",
 		base = 46220,
-		id = 46221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46221
 		}
 	},
 	[46222] = {
+		id = 46222,
 		damage = "22/回",
 		base = 46220,
-		id = 46222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46222
 		}
 	},
 	[46223] = {
+		id = 46223,
 		damage = "25/回",
 		base = 46220,
-		id = 46223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46223
 		}
 	},
 	[46224] = {
+		id = 46224,
 		damage = "28/回",
 		base = 46220,
-		id = 46224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46224
 		}
 	},
 	[46225] = {
+		id = 46225,
 		damage = "31/回",
 		base = 46220,
-		id = 46225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46225
 		}
 	},
 	[46226] = {
+		id = 46226,
 		damage = "34/回",
 		base = 46220,
-		id = 46226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46226
 		}
@@ -86768,101 +77770,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46241] = {
+		id = 46241,
 		damage = "23/回",
 		base = 46240,
-		id = 46241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46241
 		}
 	},
 	[46242] = {
+		id = 46242,
 		damage = "26/回",
 		base = 46240,
-		id = 46242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46242
 		}
 	},
 	[46243] = {
+		id = 46243,
 		damage = "29/回",
 		base = 46240,
-		id = 46243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46243
 		}
 	},
 	[46244] = {
+		id = 46244,
 		damage = "32/回",
 		base = 46240,
-		id = 46244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46244
 		}
 	},
 	[46245] = {
+		id = 46245,
 		damage = "35/回",
 		base = 46240,
-		id = 46245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46245
 		}
 	},
 	[46246] = {
+		id = 46246,
 		damage = "38/回",
 		base = 46240,
-		id = 46246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46246
 		}
 	},
 	[46247] = {
+		id = 46247,
 		damage = "41/回",
 		base = 46240,
-		id = 46247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46247
 		}
 	},
 	[46248] = {
+		id = 46248,
 		damage = "44/回",
 		base = 46240,
-		id = 46248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46248
 		}
 	},
 	[46249] = {
+		id = 46249,
 		damage = "47/回",
 		base = 46240,
-		id = 46249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46249
 		}
 	},
 	[46250] = {
+		id = 46250,
 		damage = "50/回",
 		base = 46240,
-		id = 46250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46250
 		}
@@ -86872,8 +77854,6 @@ pg.equip_data_statistics = {
 		damage = "50/回",
 		base = 46240,
 		id = 46251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46251
 		}
@@ -86941,101 +77921,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46261] = {
+		id = 46261,
 		damage = "29/回",
 		base = 46260,
-		id = 46261,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46261
 		}
 	},
 	[46262] = {
+		id = 46262,
 		damage = "32/回",
 		base = 46260,
-		id = 46262,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46262
 		}
 	},
 	[46263] = {
+		id = 46263,
 		damage = "35/回",
 		base = 46260,
-		id = 46263,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46263
 		}
 	},
 	[46264] = {
+		id = 46264,
 		damage = "38/回",
 		base = 46260,
-		id = 46264,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46264
 		}
 	},
 	[46265] = {
+		id = 46265,
 		damage = "41/回",
 		base = 46260,
-		id = 46265,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46265
 		}
 	},
 	[46266] = {
+		id = 46266,
 		damage = "44/回",
 		base = 46260,
-		id = 46266,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46266
 		}
 	},
 	[46267] = {
+		id = 46267,
 		damage = "47/回",
 		base = 46260,
-		id = 46267,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46267
 		}
 	},
 	[46268] = {
+		id = 46268,
 		damage = "50/回",
 		base = 46260,
-		id = 46268,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46268
 		}
 	},
 	[46269] = {
+		id = 46269,
 		damage = "53/回",
 		base = 46260,
-		id = 46269,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46269
 		}
 	},
 	[46270] = {
+		id = 46270,
 		damage = "56/回",
 		base = 46260,
-		id = 46270,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46270
 		}
@@ -87045,8 +78005,6 @@ pg.equip_data_statistics = {
 		damage = "56/回",
 		base = 46260,
 		id = 46271,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46271
 		}
@@ -87114,61 +78072,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46301] = {
+		id = 46301,
 		damage = "39/回",
 		base = 46300,
-		id = 46301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46301
 		}
 	},
 	[46302] = {
+		id = 46302,
 		damage = "44/回",
 		base = 46300,
-		id = 46302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46302
 		}
 	},
 	[46303] = {
+		id = 46303,
 		damage = "50/回",
 		base = 46300,
-		id = 46303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46303
 		}
 	},
 	[46304] = {
+		id = 46304,
 		damage = "56/回",
 		base = 46300,
-		id = 46304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46304
 		}
 	},
 	[46305] = {
+		id = 46305,
 		damage = "62/回",
 		base = 46300,
-		id = 46305,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46305
 		}
 	},
 	[46306] = {
+		id = 46306,
 		damage = "68/回",
 		base = 46300,
-		id = 46306,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46306
 		}
@@ -87236,101 +78182,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46321] = {
+		id = 46321,
 		damage = "47/回",
 		base = 46320,
-		id = 46321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46321
 		}
 	},
 	[46322] = {
+		id = 46322,
 		damage = "53/回",
 		base = 46320,
-		id = 46322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46322
 		}
 	},
 	[46323] = {
+		id = 46323,
 		damage = "59/回",
 		base = 46320,
-		id = 46323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46323
 		}
 	},
 	[46324] = {
+		id = 46324,
 		damage = "65/回",
 		base = 46320,
-		id = 46324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46324
 		}
 	},
 	[46325] = {
+		id = 46325,
 		damage = "71/回",
 		base = 46320,
-		id = 46325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46325
 		}
 	},
 	[46326] = {
+		id = 46326,
 		damage = "77/回",
 		base = 46320,
-		id = 46326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46326
 		}
 	},
 	[46327] = {
+		id = 46327,
 		damage = "83/回",
 		base = 46320,
-		id = 46327,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46327
 		}
 	},
 	[46328] = {
+		id = 46328,
 		damage = "89/回",
 		base = 46320,
-		id = 46328,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46328
 		}
 	},
 	[46329] = {
+		id = 46329,
 		damage = "95/回",
 		base = 46320,
-		id = 46329,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46329
 		}
 	},
 	[46330] = {
+		id = 46330,
 		damage = "102/回",
 		base = 46320,
-		id = 46330,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46330
 		}
@@ -87398,101 +78324,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46341] = {
+		id = 46341,
 		damage = "56/回",
 		base = 46340,
-		id = 46341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46341
 		}
 	},
 	[46342] = {
+		id = 46342,
 		damage = "63/回",
 		base = 46340,
-		id = 46342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46342
 		}
 	},
 	[46343] = {
+		id = 46343,
 		damage = "70/回",
 		base = 46340,
-		id = 46343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46343
 		}
 	},
 	[46344] = {
+		id = 46344,
 		damage = "77/回",
 		base = 46340,
-		id = 46344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46344
 		}
 	},
 	[46345] = {
+		id = 46345,
 		damage = "84/回",
 		base = 46340,
-		id = 46345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46345
 		}
 	},
 	[46346] = {
+		id = 46346,
 		damage = "91/回",
 		base = 46340,
-		id = 46346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46346
 		}
 	},
 	[46347] = {
+		id = 46347,
 		damage = "98/回",
 		base = 46340,
-		id = 46347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46347
 		}
 	},
 	[46348] = {
+		id = 46348,
 		damage = "106/回",
 		base = 46340,
-		id = 46348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46348
 		}
 	},
 	[46349] = {
+		id = 46349,
 		damage = "114/回",
 		base = 46340,
-		id = 46349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46349
 		}
 	},
 	[46350] = {
+		id = 46350,
 		damage = "122/回",
 		base = 46340,
-		id = 46350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46350
 		}
@@ -87502,8 +78408,6 @@ pg.equip_data_statistics = {
 		damage = "122/回",
 		base = 46340,
 		id = 46351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46351
 		}
@@ -87513,8 +78417,6 @@ pg.equip_data_statistics = {
 		damage = "122/回",
 		base = 46340,
 		id = 46352,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46352
 		}
@@ -87524,8 +78426,6 @@ pg.equip_data_statistics = {
 		damage = "122/回",
 		base = 46340,
 		id = 46353,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46353
 		}
@@ -87593,101 +78493,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[46361] = {
+		id = 46361,
 		damage = "62/回",
 		base = 46360,
-		id = 46361,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46361
 		}
 	},
 	[46362] = {
+		id = 46362,
 		damage = "69/回",
 		base = 46360,
-		id = 46362,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46362
 		}
 	},
 	[46363] = {
+		id = 46363,
 		damage = "76/回",
 		base = 46360,
-		id = 46363,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46363
 		}
 	},
 	[46364] = {
+		id = 46364,
 		damage = "83/回",
 		base = 46360,
-		id = 46364,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46364
 		}
 	},
 	[46365] = {
+		id = 46365,
 		damage = "90/回",
 		base = 46360,
-		id = 46365,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46365
 		}
 	},
 	[46366] = {
+		id = 46366,
 		damage = "97/回",
 		base = 46360,
-		id = 46366,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46366
 		}
 	},
 	[46367] = {
+		id = 46367,
 		damage = "104/回",
 		base = 46360,
-		id = 46367,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46367
 		}
 	},
 	[46368] = {
+		id = 46368,
 		damage = "112/回",
 		base = 46360,
-		id = 46368,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46368
 		}
 	},
 	[46369] = {
+		id = 46369,
 		damage = "120/回",
 		base = 46360,
-		id = 46369,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46369
 		}
 	},
 	[46370] = {
+		id = 46370,
 		damage = "128/回",
 		base = 46360,
-		id = 46370,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46370
 		}
@@ -87697,8 +78577,6 @@ pg.equip_data_statistics = {
 		damage = "128/回",
 		base = 46360,
 		id = 46371,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46371
 		}
@@ -87708,8 +78586,6 @@ pg.equip_data_statistics = {
 		damage = "128/回",
 		base = 46360,
 		id = 46372,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46372
 		}
@@ -87719,8 +78595,6 @@ pg.equip_data_statistics = {
 		damage = "128/回",
 		base = 46360,
 		id = 46373,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			46373
 		}
@@ -87779,10 +78653,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47001] = {
-		base = 47000,
 		id = 47001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47000,
 		ammo_info = {
 			{
 				6,
@@ -87799,10 +78671,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47002] = {
-		base = 47000,
 		id = 47002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47000,
 		ammo_info = {
 			{
 				6,
@@ -87819,10 +78689,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47003] = {
-		base = 47000,
 		id = 47003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47000,
 		ammo_info = {
 			{
 				6,
@@ -87892,10 +78760,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47021] = {
-		base = 47020,
 		id = 47021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47020,
 		ammo_info = {
 			{
 				6,
@@ -87912,10 +78778,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47022] = {
-		base = 47020,
 		id = 47022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47020,
 		ammo_info = {
 			{
 				6,
@@ -87932,10 +78796,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47023] = {
-		base = 47020,
 		id = 47023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47020,
 		ammo_info = {
 			{
 				6,
@@ -87952,10 +78814,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47024] = {
-		base = 47020,
 		id = 47024,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47020,
 		ammo_info = {
 			{
 				6,
@@ -87972,10 +78832,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47025] = {
-		base = 47020,
 		id = 47025,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47020,
 		ammo_info = {
 			{
 				6,
@@ -87992,10 +78850,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47026] = {
-		base = 47020,
 		id = 47026,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47020,
 		ammo_info = {
 			{
 				6,
@@ -88065,10 +78921,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47041] = {
-		base = 47040,
 		id = 47041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88085,10 +78939,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47042] = {
-		base = 47040,
 		id = 47042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88105,10 +78957,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47043] = {
-		base = 47040,
 		id = 47043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88125,10 +78975,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47044] = {
-		base = 47040,
 		id = 47044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88145,10 +78993,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47045] = {
-		base = 47040,
 		id = 47045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88165,10 +79011,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47046] = {
-		base = 47040,
 		id = 47046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88185,10 +79029,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47047] = {
-		base = 47040,
 		id = 47047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88205,10 +79047,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47048] = {
-		base = 47040,
 		id = 47048,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88225,10 +79065,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47049] = {
-		base = 47040,
 		id = 47049,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88245,10 +79083,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47050] = {
-		base = 47040,
 		id = 47050,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47040,
 		ammo_info = {
 			{
 				6,
@@ -88268,8 +79104,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 47040,
 		id = 47051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -88343,10 +79177,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47061] = {
-		base = 47060,
 		id = 47061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47060,
 		ammo_info = {
 			{
 				6,
@@ -88367,10 +79199,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47062] = {
-		base = 47060,
 		id = 47062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47060,
 		ammo_info = {
 			{
 				6,
@@ -88391,10 +79221,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47063] = {
-		base = 47060,
 		id = 47063,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47060,
 		ammo_info = {
 			{
 				6,
@@ -88415,10 +79243,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47064] = {
-		base = 47060,
 		id = 47064,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47060,
 		ammo_info = {
 			{
 				6,
@@ -88439,10 +79265,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47065] = {
-		base = 47060,
 		id = 47065,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47060,
 		ammo_info = {
 			{
 				6,
@@ -88463,10 +79287,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47066] = {
-		base = 47060,
 		id = 47066,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47060,
 		ammo_info = {
 			{
 				6,
@@ -88487,10 +79309,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47067] = {
-		base = 47060,
 		id = 47067,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47060,
 		ammo_info = {
 			{
 				6,
@@ -88568,10 +79388,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47081] = {
-		base = 47080,
 		id = 47081,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88592,10 +79410,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47082] = {
-		base = 47080,
 		id = 47082,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88616,10 +79432,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47083] = {
-		base = 47080,
 		id = 47083,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88640,10 +79454,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47084] = {
-		base = 47080,
 		id = 47084,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88664,10 +79476,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47085] = {
-		base = 47080,
 		id = 47085,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88688,10 +79498,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47086] = {
-		base = 47080,
 		id = 47086,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88712,10 +79520,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47087] = {
-		base = 47080,
 		id = 47087,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88736,10 +79542,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47088] = {
-		base = 47080,
 		id = 47088,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88760,10 +79564,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47089] = {
-		base = 47080,
 		id = 47089,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88784,10 +79586,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47090] = {
-		base = 47080,
 		id = 47090,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47080,
 		ammo_info = {
 			{
 				6,
@@ -88811,8 +79611,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 47080,
 		id = 47091,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -88886,10 +79684,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47101] = {
-		base = 47100,
 		id = 47101,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47100,
 		ammo_info = {
 			{
 				6,
@@ -88906,10 +79702,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47102] = {
-		base = 47100,
 		id = 47102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47100,
 		ammo_info = {
 			{
 				6,
@@ -88926,10 +79720,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47103] = {
-		base = 47100,
 		id = 47103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47100,
 		ammo_info = {
 			{
 				6,
@@ -88946,10 +79738,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47104] = {
-		base = 47100,
 		id = 47104,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47100,
 		ammo_info = {
 			{
 				6,
@@ -88966,10 +79756,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47105] = {
-		base = 47100,
 		id = 47105,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47100,
 		ammo_info = {
 			{
 				6,
@@ -88986,10 +79774,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47106] = {
-		base = 47100,
 		id = 47106,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47100,
 		ammo_info = {
 			{
 				6,
@@ -89059,10 +79845,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47121] = {
-		base = 47120,
 		id = 47121,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89079,10 +79863,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47122] = {
-		base = 47120,
 		id = 47122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89099,10 +79881,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47123] = {
-		base = 47120,
 		id = 47123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89119,10 +79899,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47124] = {
-		base = 47120,
 		id = 47124,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89139,10 +79917,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47125] = {
-		base = 47120,
 		id = 47125,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89159,10 +79935,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47126] = {
-		base = 47120,
 		id = 47126,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89179,10 +79953,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47127] = {
-		base = 47120,
 		id = 47127,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89199,10 +79971,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47128] = {
-		base = 47120,
 		id = 47128,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89219,10 +79989,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47129] = {
-		base = 47120,
 		id = 47129,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89239,10 +80007,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47130] = {
-		base = 47120,
 		id = 47130,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47120,
 		ammo_info = {
 			{
 				6,
@@ -89312,10 +80078,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47141] = {
-		base = 47140,
 		id = 47141,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89332,10 +80096,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47142] = {
-		base = 47140,
 		id = 47142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89352,10 +80114,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47143] = {
-		base = 47140,
 		id = 47143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89372,10 +80132,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47144] = {
-		base = 47140,
 		id = 47144,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89392,10 +80150,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47145] = {
-		base = 47140,
 		id = 47145,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89412,10 +80168,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47146] = {
-		base = 47140,
 		id = 47146,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89432,10 +80186,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47147] = {
-		base = 47140,
 		id = 47147,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89452,10 +80204,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47148] = {
-		base = 47140,
 		id = 47148,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89472,10 +80222,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47149] = {
-		base = 47140,
 		id = 47149,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89492,10 +80240,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[47150] = {
-		base = 47140,
 		id = 47150,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 47140,
 		ammo_info = {
 			{
 				6,
@@ -89515,8 +80261,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 47140,
 		id = 47151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -89536,8 +80280,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 47140,
 		id = 47152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -89557,8 +80299,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 47140,
 		id = 47153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -89627,10 +80367,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48001] = {
-		base = 48000,
 		id = 48001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48000,
 		ammo_info = {
 			{
 				6,
@@ -89646,10 +80384,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48002] = {
-		base = 48000,
 		id = 48002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48000,
 		ammo_info = {
 			{
 				6,
@@ -89665,10 +80401,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48003] = {
-		base = 48000,
 		id = 48003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48000,
 		ammo_info = {
 			{
 				6,
@@ -89684,10 +80418,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48004] = {
-		base = 48000,
 		id = 48004,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48000,
 		ammo_info = {
 			{
 				6,
@@ -89703,10 +80435,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48005] = {
-		base = 48000,
 		id = 48005,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48000,
 		ammo_info = {
 			{
 				6,
@@ -89722,10 +80452,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48006] = {
-		base = 48000,
 		id = 48006,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48000,
 		ammo_info = {
 			{
 				6,
@@ -89741,10 +80469,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48007] = {
-		base = 48000,
 		id = 48007,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48000,
 		ammo_info = {
 			{
 				6,
@@ -89812,10 +80538,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48021] = {
-		base = 48020,
 		id = 48021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89831,10 +80555,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48022] = {
-		base = 48020,
 		id = 48022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89850,10 +80572,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48023] = {
-		base = 48020,
 		id = 48023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89869,10 +80589,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48024] = {
-		base = 48020,
 		id = 48024,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89888,10 +80606,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48025] = {
-		base = 48020,
 		id = 48025,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89907,10 +80623,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48026] = {
-		base = 48020,
 		id = 48026,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89926,10 +80640,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48027] = {
-		base = 48020,
 		id = 48027,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89945,10 +80657,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48028] = {
-		base = 48020,
 		id = 48028,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89964,10 +80674,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48029] = {
-		base = 48020,
 		id = 48029,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -89983,10 +80691,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48030] = {
-		base = 48020,
 		id = 48030,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48020,
 		ammo_info = {
 			{
 				6,
@@ -90005,8 +80711,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 48020,
 		id = 48031,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -90074,10 +80778,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48041] = {
-		base = 48040,
 		id = 48041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90093,10 +80795,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48042] = {
-		base = 48040,
 		id = 48042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90112,10 +80812,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48043] = {
-		base = 48040,
 		id = 48043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90131,10 +80829,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48044] = {
-		base = 48040,
 		id = 48044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90150,10 +80846,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48045] = {
-		base = 48040,
 		id = 48045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90169,10 +80863,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48046] = {
-		base = 48040,
 		id = 48046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90188,10 +80880,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48047] = {
-		base = 48040,
 		id = 48047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90207,10 +80897,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48048] = {
-		base = 48040,
 		id = 48048,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90226,10 +80914,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48049] = {
-		base = 48040,
 		id = 48049,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90245,10 +80931,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[48050] = {
-		base = 48040,
 		id = 48050,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 48040,
 		ammo_info = {
 			{
 				6,
@@ -90267,8 +80951,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 48040,
 		id = 48051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -90287,8 +80969,6 @@ pg.equip_data_statistics = {
 		anti_siren = 200,
 		base = 48040,
 		id = 48052,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -90307,8 +80987,6 @@ pg.equip_data_statistics = {
 		anti_siren = 300,
 		base = 48040,
 		id = 48053,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -90380,10 +81058,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49001] = {
-		base = 49000,
 		id = 49001,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49000,
 		ammo_info = {
 			{
 				6,
@@ -90403,10 +81079,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49002] = {
-		base = 49000,
 		id = 49002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49000,
 		ammo_info = {
 			{
 				6,
@@ -90426,10 +81100,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49003] = {
-		base = 49000,
 		id = 49003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49000,
 		ammo_info = {
 			{
 				6,
@@ -90505,10 +81177,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49021] = {
-		base = 49020,
 		id = 49021,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49020,
 		ammo_info = {
 			{
 				6,
@@ -90528,10 +81198,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49022] = {
-		base = 49020,
 		id = 49022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49020,
 		ammo_info = {
 			{
 				6,
@@ -90551,10 +81219,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49023] = {
-		base = 49020,
 		id = 49023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49020,
 		ammo_info = {
 			{
 				6,
@@ -90574,10 +81240,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49024] = {
-		base = 49020,
 		id = 49024,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49020,
 		ammo_info = {
 			{
 				6,
@@ -90597,10 +81261,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49025] = {
-		base = 49020,
 		id = 49025,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49020,
 		ammo_info = {
 			{
 				6,
@@ -90620,10 +81282,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49026] = {
-		base = 49020,
 		id = 49026,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49020,
 		ammo_info = {
 			{
 				6,
@@ -90699,10 +81359,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49041] = {
-		base = 49040,
 		id = 49041,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90722,10 +81380,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49042] = {
-		base = 49040,
 		id = 49042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90745,10 +81401,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49043] = {
-		base = 49040,
 		id = 49043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90768,10 +81422,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49044] = {
-		base = 49040,
 		id = 49044,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90791,10 +81443,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49045] = {
-		base = 49040,
 		id = 49045,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90814,10 +81464,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49046] = {
-		base = 49040,
 		id = 49046,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90837,10 +81485,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49047] = {
-		base = 49040,
 		id = 49047,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90860,10 +81506,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49048] = {
-		base = 49040,
 		id = 49048,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90883,10 +81527,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49049] = {
-		base = 49040,
 		id = 49049,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90906,10 +81548,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49050] = {
-		base = 49040,
 		id = 49050,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49040,
 		ammo_info = {
 			{
 				6,
@@ -90932,8 +81572,6 @@ pg.equip_data_statistics = {
 		anti_siren = 100,
 		base = 49040,
 		id = 49051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		ammo_info = {
 			{
 				6,
@@ -91005,10 +81643,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49061] = {
-		base = 49060,
 		id = 49061,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49060,
 		ammo_info = {
 			{
 				6,
@@ -91024,10 +81660,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49062] = {
-		base = 49060,
 		id = 49062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49060,
 		ammo_info = {
 			{
 				6,
@@ -91043,10 +81677,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49063] = {
-		base = 49060,
 		id = 49063,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49060,
 		ammo_info = {
 			{
 				6,
@@ -91062,10 +81694,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49064] = {
-		base = 49060,
 		id = 49064,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49060,
 		ammo_info = {
 			{
 				6,
@@ -91081,10 +81711,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49065] = {
-		base = 49060,
 		id = 49065,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49060,
 		ammo_info = {
 			{
 				6,
@@ -91100,10 +81728,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49066] = {
-		base = 49060,
 		id = 49066,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49060,
 		ammo_info = {
 			{
 				6,
@@ -91119,10 +81745,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[49067] = {
-		base = 49060,
 		id = 49067,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 49060,
 		ammo_info = {
 			{
 				6,
@@ -91166,46 +81790,36 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[54011] = {
-		base = 54010,
 		id = 54011,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 54010,
 		weapon_id = {
 			54011
 		}
 	},
 	[54012] = {
-		base = 54010,
 		id = 54012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 54010,
 		weapon_id = {
 			54012
 		}
 	},
 	[54013] = {
-		base = 54010,
 		id = 54013,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 54010,
 		weapon_id = {
 			54013
 		}
 	},
 	[54014] = {
-		base = 54010,
 		id = 54014,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 54010,
 		weapon_id = {
 			54014
 		}
 	},
 	[54015] = {
-		base = 54010,
 		id = 54015,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 54010,
 		weapon_id = {
 			54015
 		}
@@ -91239,19 +81853,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60002] = {
-		base = 60001,
 		id = 60002,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60001,
 		weapon_id = {
 			60002
 		}
 	},
 	[60003] = {
-		base = 60001,
 		id = 60003,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60001,
 		weapon_id = {
 			60003
 		}
@@ -91285,19 +81895,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60012] = {
-		base = 60011,
 		id = 60012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60011,
 		weapon_id = {
 			60012
 		}
 	},
 	[60013] = {
-		base = 60011,
 		id = 60013,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60011,
 		weapon_id = {
 			60013
 		}
@@ -91331,19 +81937,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60022] = {
-		base = 60021,
 		id = 60022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60021,
 		weapon_id = {
 			60022
 		}
 	},
 	[60023] = {
-		base = 60021,
 		id = 60023,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60021,
 		weapon_id = {
 			60023
 		}
@@ -91377,19 +81979,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60032] = {
-		base = 60031,
 		id = 60032,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60031,
 		weapon_id = {
 			60032
 		}
 	},
 	[60033] = {
-		base = 60031,
 		id = 60033,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60031,
 		weapon_id = {
 			60033
 		}
@@ -91423,19 +82021,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60042] = {
-		base = 60041,
 		id = 60042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60041,
 		weapon_id = {
 			60042
 		}
 	},
 	[60043] = {
-		base = 60041,
 		id = 60043,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60041,
 		weapon_id = {
 			60043
 		}
@@ -91469,19 +82063,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60052] = {
-		base = 60051,
 		id = 60052,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60051,
 		weapon_id = {
 			60052
 		}
 	},
 	[60053] = {
-		base = 60051,
 		id = 60053,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60051,
 		weapon_id = {
 			60053
 		}
@@ -91515,19 +82105,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60062] = {
-		base = 60061,
 		id = 60062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60061,
 		weapon_id = {
 			60062
 		}
 	},
 	[60063] = {
-		base = 60061,
 		id = 60063,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60061,
 		weapon_id = {
 			60063
 		}
@@ -91561,19 +82147,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60072] = {
-		base = 60071,
 		id = 60072,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60071,
 		weapon_id = {
 			60072
 		}
 	},
 	[60073] = {
-		base = 60071,
 		id = 60073,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60071,
 		weapon_id = {
 			60073
 		}
@@ -91607,19 +82189,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60082] = {
-		base = 60081,
 		id = 60082,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60081,
 		weapon_id = {
 			60082
 		}
 	},
 	[60083] = {
-		base = 60081,
 		id = 60083,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60081,
 		weapon_id = {
 			60083
 		}
@@ -91653,10 +82231,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60092] = {
-		base = 60091,
 		id = 60092,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60091,
 		weapon_id = {
 			60092
 		}
@@ -91690,19 +82266,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60102] = {
-		base = 60101,
 		id = 60102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60101,
 		weapon_id = {
 			60102
 		}
 	},
 	[60103] = {
-		base = 60101,
 		id = 60103,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60101,
 		weapon_id = {
 			60103
 		}
@@ -91736,19 +82308,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60112] = {
-		base = 60111,
 		id = 60112,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60111,
 		weapon_id = {
 			60112
 		}
 	},
 	[60113] = {
-		base = 60111,
 		id = 60113,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60111,
 		weapon_id = {
 			60113
 		}
@@ -91782,19 +82350,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60122] = {
-		base = 60121,
 		id = 60122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60121,
 		weapon_id = {
 			60122
 		}
 	},
 	[60123] = {
-		base = 60121,
 		id = 60123,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60121,
 		weapon_id = {
 			60123
 		}
@@ -91828,19 +82392,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60132] = {
-		base = 60131,
 		id = 60132,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60131,
 		weapon_id = {
 			60132
 		}
 	},
 	[60133] = {
-		base = 60131,
 		id = 60133,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60131,
 		weapon_id = {
 			60133
 		}
@@ -91874,19 +82434,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60142] = {
-		base = 60141,
 		id = 60142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60141,
 		weapon_id = {
 			60142
 		}
 	},
 	[60143] = {
-		base = 60141,
 		id = 60143,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60141,
 		weapon_id = {
 			60143
 		}
@@ -91920,19 +82476,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60152] = {
-		base = 60151,
 		id = 60152,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60151,
 		weapon_id = {
 			60152
 		}
 	},
 	[60153] = {
-		base = 60151,
 		id = 60153,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60151,
 		weapon_id = {
 			60153
 		}
@@ -91966,19 +82518,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60162] = {
-		base = 60161,
 		id = 60162,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60161,
 		weapon_id = {
 			60162
 		}
 	},
 	[60163] = {
-		base = 60161,
 		id = 60163,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60161,
 		weapon_id = {
 			60163
 		}
@@ -92012,19 +82560,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60172] = {
-		base = 60171,
 		id = 60172,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60171,
 		weapon_id = {
 			60172
 		}
 	},
 	[60173] = {
-		base = 60171,
 		id = 60173,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60171,
 		weapon_id = {
 			60173
 		}
@@ -92058,19 +82602,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60182] = {
-		base = 60181,
 		id = 60182,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60181,
 		weapon_id = {
 			60182
 		}
 	},
 	[60183] = {
-		base = 60181,
 		id = 60183,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60181,
 		weapon_id = {
 			60183
 		}
@@ -92104,19 +82644,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60192] = {
-		base = 60191,
 		id = 60192,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60191,
 		weapon_id = {
 			60192
 		}
 	},
 	[60193] = {
-		base = 60191,
 		id = 60193,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60191,
 		weapon_id = {
 			60193
 		}
@@ -92150,19 +82686,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60202] = {
-		base = 60201,
 		id = 60202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60201,
 		weapon_id = {
 			60202
 		}
 	},
 	[60203] = {
-		base = 60201,
 		id = 60203,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60201,
 		weapon_id = {
 			60203
 		}
@@ -92196,19 +82728,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60212] = {
-		base = 60211,
 		id = 60212,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60211,
 		weapon_id = {
 			60212
 		}
 	},
 	[60213] = {
-		base = 60211,
 		id = 60213,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60211,
 		weapon_id = {
 			60213
 		}
@@ -92242,19 +82770,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60222] = {
-		base = 60221,
 		id = 60222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60221,
 		weapon_id = {
 			60222
 		}
 	},
 	[60223] = {
-		base = 60221,
 		id = 60223,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60221,
 		weapon_id = {
 			60223
 		}
@@ -92405,10 +82929,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60235] = {
-		base = 60234,
 		id = 60235,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60234,
 		weapon_id = {
 			60235
 		}
@@ -92442,10 +82964,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60237] = {
-		base = 60236,
 		id = 60237,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60236,
 		weapon_id = {
 			60237
 		}
@@ -92479,10 +82999,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60239] = {
-		base = 60238,
 		id = 60239,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60238,
 		weapon_id = {
 			60239
 		}
@@ -92516,19 +83034,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60242] = {
-		base = 60241,
 		id = 60242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60241,
 		weapon_id = {
 			60242
 		}
 	},
 	[60243] = {
-		base = 60241,
 		id = 60243,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60241,
 		weapon_id = {
 			60243
 		}
@@ -92562,19 +83076,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60252] = {
-		base = 60251,
 		id = 60252,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60251,
 		weapon_id = {
 			60252
 		}
 	},
 	[60253] = {
-		base = 60251,
 		id = 60253,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60251,
 		weapon_id = {
 			60253
 		}
@@ -92608,19 +83118,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60262] = {
-		base = 60261,
 		id = 60262,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60261,
 		weapon_id = {
 			60262
 		}
 	},
 	[60263] = {
-		base = 60261,
 		id = 60263,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60261,
 		weapon_id = {
 			60263
 		}
@@ -92654,19 +83160,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60272] = {
-		base = 60271,
 		id = 60272,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60271,
 		weapon_id = {
 			60272
 		}
 	},
 	[60273] = {
-		base = 60271,
 		id = 60273,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60271,
 		weapon_id = {
 			60273
 		}
@@ -92700,19 +83202,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60282] = {
-		base = 60281,
 		id = 60282,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60281,
 		weapon_id = {
 			60282
 		}
 	},
 	[60283] = {
-		base = 60281,
 		id = 60283,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60281,
 		weapon_id = {
 			60283
 		}
@@ -92746,19 +83244,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60292] = {
-		base = 60291,
 		id = 60292,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60291,
 		weapon_id = {
 			60292
 		}
 	},
 	[60293] = {
-		base = 60291,
 		id = 60293,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60291,
 		weapon_id = {
 			60293
 		}
@@ -92792,11 +83286,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60302] = {
+		id = 60302,
 		name = "0",
 		base = 60301,
-		id = 60302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60302
 		}
@@ -92830,19 +83322,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60312] = {
-		base = 60311,
 		id = 60312,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60311,
 		weapon_id = {
 			60312
 		}
 	},
 	[60313] = {
-		base = 60311,
 		id = 60313,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60311,
 		weapon_id = {
 			60313
 		}
@@ -92880,8 +83368,6 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-埃塞克斯II",
 		base = 60321,
 		id = 60322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60322
 		}
@@ -92891,8 +83377,6 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-埃塞克斯II",
 		base = 60321,
 		id = 60323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60323
 		}
@@ -92930,8 +83414,6 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-大凤II",
 		base = 60331,
 		id = 60332,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60332
 		}
@@ -92941,8 +83423,6 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-大凤III",
 		base = 60331,
 		id = 60333,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60333
 		}
@@ -92976,19 +83456,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60342] = {
-		base = 60341,
 		id = 60342,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60341,
 		weapon_id = {
 			60342
 		}
 	},
 	[60343] = {
-		base = 60341,
 		id = 60343,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60341,
 		weapon_id = {
 			60343
 		}
@@ -93022,19 +83498,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60352] = {
-		base = 60351,
 		id = 60352,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60351,
 		weapon_id = {
 			60352
 		}
 	},
 	[60353] = {
-		base = 60351,
 		id = 60353,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60351,
 		weapon_id = {
 			60353
 		}
@@ -93068,19 +83540,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60362] = {
-		base = 60361,
 		id = 60362,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60361,
 		weapon_id = {
 			60362
 		}
 	},
 	[60363] = {
-		base = 60361,
 		id = 60363,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60361,
 		weapon_id = {
 			60363
 		}
@@ -93114,19 +83582,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60372] = {
-		base = 60371,
 		id = 60372,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60371,
 		weapon_id = {
 			60372
 		}
 	},
 	[60373] = {
-		base = 60371,
 		id = 60373,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60371,
 		weapon_id = {
 			60373
 		}
@@ -93160,19 +83624,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60382] = {
-		base = 60381,
 		id = 60382,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60381,
 		weapon_id = {
 			60382
 		}
 	},
 	[60383] = {
-		base = 60381,
 		id = 60383,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60381,
 		weapon_id = {
 			60383
 		}
@@ -93206,19 +83666,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60392] = {
-		base = 60391,
 		id = 60392,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60391,
 		weapon_id = {
 			60392
 		}
 	},
 	[60393] = {
-		base = 60391,
 		id = 60393,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 60391,
 		weapon_id = {
 			60393
 		}
@@ -93252,21 +83708,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60402] = {
+		id = 60402,
 		name = "航空攻击展示-爱酱II",
 		base = 60401,
-		id = 60402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60402
 		}
 	},
 	[60403] = {
+		id = 60403,
 		name = "航空攻击展示-爱酱III",
 		base = 60401,
-		id = 60403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60403
 		}
@@ -93300,21 +83752,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60412] = {
+		id = 60412,
 		name = "航空攻击展示-小齐柏林II",
 		base = 60411,
-		id = 60412,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60412
 		}
 	},
 	[60413] = {
+		id = 60413,
 		name = "航空攻击展示-小齐柏林III",
 		base = 60411,
-		id = 60413,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60413
 		}
@@ -93348,21 +83796,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60422] = {
+		id = 60422,
 		name = "航空攻击展示-可畏II",
 		base = 60421,
-		id = 60422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60422
 		}
 	},
 	[60423] = {
+		id = 60423,
 		name = "航空攻击展示-可畏III",
 		base = 60421,
-		id = 60423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60423
 		}
@@ -93396,21 +83840,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60432] = {
+		id = 60432,
 		name = "航空攻击展示-时乃空II",
 		base = 60431,
-		id = 60432,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60432
 		}
 	},
 	[60433] = {
+		id = 60433,
 		name = "航空攻击展示-时乃空III",
 		base = 60431,
-		id = 60433,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60433
 		}
@@ -93444,21 +83884,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60442] = {
+		id = 60442,
 		name = "航空攻击展示-紫咲诗音II",
 		base = 60441,
-		id = 60442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60442
 		}
 	},
 	[60443] = {
+		id = 60443,
 		name = "航空攻击展示-紫咲诗音III",
 		base = 60441,
-		id = 60443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60443
 		}
@@ -93492,21 +83928,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60452] = {
+		id = 60452,
 		name = "航空攻击展示-大神澪II",
 		base = 60451,
-		id = 60452,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60452
 		}
 	},
 	[60453] = {
+		id = 60453,
 		name = "航空攻击展示-大神澪III",
 		base = 60451,
-		id = 60453,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60453
 		}
@@ -93568,21 +84000,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60472] = {
+		id = 60472,
 		name = "航空攻击展示-龙凤II",
 		base = 60471,
-		id = 60472,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60472
 		}
 	},
 	[60473] = {
+		id = 60473,
 		name = "航空攻击展示-龙凤III",
 		base = 60471,
-		id = 60473,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60473
 		}
@@ -93616,21 +84044,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60492] = {
+		id = 60492,
 		name = "航空攻击展示-卡萨布兰卡II",
 		base = 60491,
-		id = 60492,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60492
 		}
 	},
 	[60493] = {
+		id = 60493,
 		name = "航空攻击展示-卡萨布兰卡III",
 		base = 60491,
-		id = 60493,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60493
 		}
@@ -93664,21 +84088,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60512] = {
+		id = 60512,
 		name = "航空攻击展示-贝亚恩II",
 		base = 60511,
-		id = 60512,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60512
 		}
 	},
 	[60513] = {
+		id = 60513,
 		name = "航空攻击展示-贝亚恩III",
 		base = 60511,
-		id = 60513,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60513
 		}
@@ -93712,21 +84132,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60522] = {
+		id = 60522,
 		name = "航空攻击展示-英仙座II",
 		base = 60521,
-		id = 60522,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60522
 		}
 	},
 	[60523] = {
+		id = 60523,
 		name = "航空攻击展示-英仙座III",
 		base = 60521,
-		id = 60523,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60523
 		}
@@ -93760,21 +84176,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60532] = {
+		id = 60532,
 		name = "航空攻击展示-鹰II",
 		base = 60531,
-		id = 60532,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60532
 		}
 	},
 	[60533] = {
+		id = 60533,
 		name = "航空攻击展示-鹰III",
 		base = 60531,
-		id = 60533,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60533
 		}
@@ -93808,21 +84220,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60542] = {
+		id = 60542,
 		name = "航空攻击展示-千岁II",
 		base = 60541,
-		id = 60542,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60542
 		}
 	},
 	[60543] = {
+		id = 60543,
 		name = "航空攻击展示-千岁III",
 		base = 60541,
-		id = 60543,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60543
 		}
@@ -93856,21 +84264,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60552] = {
+		id = 60552,
 		name = "航空攻击展示-千代田II",
 		base = 60551,
-		id = 60552,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60552
 		}
 	},
 	[60553] = {
+		id = 60553,
 		name = "航空攻击展示-千代田III",
 		base = 60551,
-		id = 60553,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60553
 		}
@@ -93904,21 +84308,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60562] = {
+		id = 60562,
 		name = "航空攻击展示-信浓II",
 		base = 60561,
-		id = 60562,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60562
 		}
 	},
 	[60563] = {
+		id = 60563,
 		name = "航空攻击展示-信浓III",
 		base = 60561,
-		id = 60563,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60563
 		}
@@ -93952,21 +84352,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60592] = {
+		id = 60592,
 		name = "航空攻击展示-威悉II",
 		base = 60591,
-		id = 60592,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60592
 		}
 	},
 	[60593] = {
+		id = 60593,
 		name = "航空攻击展示-威悉III",
 		base = 60591,
-		id = 60593,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60593
 		}
@@ -94000,21 +84396,17 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[60602] = {
+		id = 60602,
 		name = "航空攻击展示-彼得史特拉塞II",
 		base = 60601,
-		id = 60602,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60602
 		}
 	},
 	[60603] = {
+		id = 60603,
 		name = "航空攻击展示-彼得史特拉塞III",
 		base = 60601,
-		id = 60603,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60603
 		}
@@ -94059,19 +84451,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[61008] = {
-		base = 61007,
 		id = 61008,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 61007,
 		weapon_id = {
 			61008
 		}
 	},
 	[61009] = {
-		base = 61007,
 		id = 61009,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 61007,
 		weapon_id = {
 			61009
 		}
@@ -94116,19 +84504,15 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[61011] = {
-		base = 61010,
 		id = 61011,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 61010,
 		weapon_id = {
 			61011
 		}
 	},
 	[61012] = {
-		base = 61010,
 		id = 61012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 61010,
 		weapon_id = {
 			61012
 		}
@@ -94587,10 +84971,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70012] = {
-		base = 70011,
 		id = 70012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70011,
 		weapon_id = {
 			70012
 		}
@@ -94635,10 +85017,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70022] = {
-		base = 70021,
 		id = 70022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70021,
 		weapon_id = {
 			70022
 		}
@@ -94683,10 +85063,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70032] = {
-		base = 70031,
 		id = 70032,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70031,
 		weapon_id = {
 			70032
 		}
@@ -94731,10 +85109,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70042] = {
-		base = 70041,
 		id = 70042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70041,
 		weapon_id = {
 			70042
 		}
@@ -94779,10 +85155,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70052] = {
-		base = 70051,
 		id = 70052,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70051,
 		weapon_id = {
 			70052
 		}
@@ -94827,10 +85201,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70062] = {
-		base = 70061,
 		id = 70062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70061,
 		weapon_id = {
 			70062
 		}
@@ -94875,10 +85247,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70072] = {
-		base = 70071,
 		id = 70072,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70071,
 		weapon_id = {
 			70072
 		}
@@ -94923,11 +85293,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70082] = {
+		id = 70082,
 		name = "全弹发射-艾伦·萨姆那级II",
 		base = 70081,
-		id = 70082,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			70082
 		}
@@ -94972,10 +85340,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70112] = {
-		base = 70111,
 		id = 70112,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70111,
 		weapon_id = {
 			70112
 		}
@@ -95020,10 +85386,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70122] = {
-		base = 70121,
 		id = 70122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70121,
 		weapon_id = {
 			70122
 		}
@@ -95068,10 +85432,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70132] = {
-		base = 70131,
 		id = 70132,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70131,
 		weapon_id = {
 			70132
 		}
@@ -95116,10 +85478,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70142] = {
-		base = 70141,
 		id = 70142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70141,
 		weapon_id = {
 			70142
 		}
@@ -95164,10 +85524,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70212] = {
-		base = 70211,
 		id = 70212,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70211,
 		weapon_id = {
 			70212
 		}
@@ -95212,10 +85570,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70222] = {
-		base = 70221,
 		id = 70222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70221,
 		weapon_id = {
 			70222
 		}
@@ -95260,10 +85616,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70232] = {
-		base = 70231,
 		id = 70232,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70231,
 		weapon_id = {
 			70232
 		}
@@ -95308,10 +85662,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70242] = {
-		base = 70241,
 		id = 70242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70241,
 		weapon_id = {
 			70242
 		}
@@ -95356,10 +85708,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70252] = {
-		base = 70251,
 		id = 70252,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70251,
 		weapon_id = {
 			70252
 		}
@@ -95404,10 +85754,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70262] = {
-		base = 70261,
 		id = 70262,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70261,
 		weapon_id = {
 			70262
 		}
@@ -95452,10 +85800,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70272] = {
-		base = 70271,
 		id = 70272,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70271,
 		weapon_id = {
 			70272
 		}
@@ -95500,10 +85846,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[70312] = {
-		base = 70311,
 		id = 70312,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 70311,
 		weapon_id = {
 			70312
 		}
@@ -95548,10 +85892,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71012] = {
-		base = 71011,
 		id = 71012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71011,
 		weapon_id = {
 			71012
 		}
@@ -95596,10 +85938,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71022] = {
-		base = 71021,
 		id = 71022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71021,
 		weapon_id = {
 			71022
 		}
@@ -95644,10 +85984,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71032] = {
-		base = 71031,
 		id = 71032,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71031,
 		weapon_id = {
 			71032
 		}
@@ -95692,10 +86030,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71042] = {
-		base = 71041,
 		id = 71042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71041,
 		weapon_id = {
 			71042
 		}
@@ -95740,10 +86076,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71052] = {
-		base = 71051,
 		id = 71052,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71051,
 		weapon_id = {
 			71052
 		}
@@ -95788,10 +86122,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71062] = {
-		base = 71061,
 		id = 71062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71061,
 		weapon_id = {
 			71062
 		}
@@ -95836,11 +86168,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71027] = {
+		id = 71027,
 		name = "0",
 		base = 71026,
-		id = 71027,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			71027
 		}
@@ -95885,10 +86215,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71072] = {
-		base = 71071,
 		id = 71072,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71071,
 		weapon_id = {
 			71072
 		}
@@ -95933,10 +86261,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71082] = {
-		base = 71081,
 		id = 71082,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71081,
 		weapon_id = {
 			71082
 		}
@@ -95981,10 +86307,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71092] = {
-		base = 71091,
 		id = 71092,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71091,
 		weapon_id = {
 			71092
 		}
@@ -96029,10 +86353,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71017] = {
-		base = 71016,
 		id = 71017,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71016,
 		weapon_id = {
 			71017
 		}
@@ -96077,10 +86399,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71112] = {
-		base = 71111,
 		id = 71112,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71111,
 		weapon_id = {
 			71112
 		}
@@ -96125,10 +86445,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71122] = {
-		base = 71121,
 		id = 71122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71121,
 		weapon_id = {
 			71122
 		}
@@ -96173,10 +86491,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71132] = {
-		base = 71131,
 		id = 71132,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71131,
 		weapon_id = {
 			71132
 		}
@@ -96221,10 +86537,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71142] = {
-		base = 71141,
 		id = 71142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71141,
 		weapon_id = {
 			71142
 		}
@@ -96269,10 +86583,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71152] = {
-		base = 71151,
 		id = 71152,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71151,
 		weapon_id = {
 			71152
 		}
@@ -96317,10 +86629,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71162] = {
-		base = 71161,
 		id = 71162,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71161,
 		weapon_id = {
 			71162
 		}
@@ -96365,10 +86675,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71172] = {
-		base = 71171,
 		id = 71172,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71171,
 		weapon_id = {
 			71172
 		}
@@ -96413,10 +86721,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71182] = {
-		base = 71181,
 		id = 71182,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71181,
 		weapon_id = {
 			71182
 		}
@@ -96461,10 +86767,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71212] = {
-		base = 71211,
 		id = 71212,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71211,
 		weapon_id = {
 			71212
 		}
@@ -96509,10 +86813,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71222] = {
-		base = 71221,
 		id = 71222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71221,
 		weapon_id = {
 			71222
 		}
@@ -96557,10 +86859,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71232] = {
-		base = 71231,
 		id = 71232,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71231,
 		weapon_id = {
 			71232
 		}
@@ -96605,10 +86905,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71242] = {
-		base = 71241,
 		id = 71242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 71241,
 		weapon_id = {
 			71242
 		}
@@ -96653,10 +86951,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72012] = {
-		base = 72011,
 		id = 72012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72011,
 		weapon_id = {
 			72012
 		}
@@ -96701,10 +86997,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72022] = {
-		base = 72021,
 		id = 72022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72021,
 		weapon_id = {
 			72022
 		}
@@ -96749,10 +87043,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72032] = {
-		base = 72031,
 		id = 72032,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72031,
 		weapon_id = {
 			72032
 		}
@@ -96797,10 +87089,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72042] = {
-		base = 72041,
 		id = 72042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72041,
 		weapon_id = {
 			72042
 		}
@@ -96845,10 +87135,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72052] = {
-		base = 72051,
 		id = 72052,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72051,
 		weapon_id = {
 			72052
 		}
@@ -96893,10 +87181,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72057] = {
-		base = 72056,
 		id = 72057,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72056,
 		weapon_id = {
 			72057
 		}
@@ -96941,10 +87227,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72062] = {
-		base = 72061,
 		id = 72062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72061,
 		weapon_id = {
 			72062
 		}
@@ -96989,10 +87273,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72072] = {
-		base = 72071,
 		id = 72072,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72071,
 		weapon_id = {
 			72072
 		}
@@ -97037,10 +87319,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72082] = {
-		base = 72081,
 		id = 72082,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72081,
 		weapon_id = {
 			72082
 		}
@@ -97085,10 +87365,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72092] = {
-		base = 72091,
 		id = 72092,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72091,
 		weapon_id = {
 			72092
 		}
@@ -97133,10 +87411,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72112] = {
-		base = 72111,
 		id = 72112,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72111,
 		weapon_id = {
 			72112
 		}
@@ -97181,10 +87457,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72122] = {
-		base = 72121,
 		id = 72122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72121,
 		weapon_id = {
 			72122
 		}
@@ -97229,10 +87503,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72132] = {
-		base = 72131,
 		id = 72132,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72131,
 		weapon_id = {
 			72132
 		}
@@ -97277,10 +87549,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72142] = {
-		base = 72141,
 		id = 72142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72141,
 		weapon_id = {
 			72142
 		}
@@ -97325,10 +87595,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72152] = {
-		base = 72151,
 		id = 72152,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72151,
 		weapon_id = {
 			72152
 		}
@@ -97373,10 +87641,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72162] = {
-		base = 72161,
 		id = 72162,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72161,
 		weapon_id = {
 			72162
 		}
@@ -97421,10 +87687,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72212] = {
-		base = 72211,
 		id = 72212,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72211,
 		weapon_id = {
 			72212
 		}
@@ -97469,10 +87733,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72222] = {
-		base = 72221,
 		id = 72222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72221,
 		weapon_id = {
 			72222
 		}
@@ -97517,10 +87779,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72232] = {
-		base = 72231,
 		id = 72232,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72231,
 		weapon_id = {
 			72232
 		}
@@ -97565,10 +87825,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72242] = {
-		base = 72241,
 		id = 72242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72241,
 		weapon_id = {
 			72242
 		}
@@ -97613,82 +87871,42 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72252] = {
-		base = 72251,
 		id = 72252,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72251,
 		weapon_id = {
 			72252
 		}
 	},
 	[72254] = {
-		nationality = 0,
-		name = "0",
-		type = 1,
-		speciality = "なし",
-		tech = 1,
 		descrip = "スキル弾幕",
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		rarity = 1,
+		name = "0",
+		speciality = "なし",
 		base = 72251,
-		ammo = 10,
-		value_3 = 0,
 		id = 72254,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
 		weapon_id = {
 			72254
-		},
-		skill_id = {},
-		equip_parameters = {},
-		label = {}
+		}
 	},
 	[72255] = {
-		base = 72251,
 		id = 72255,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72251,
 		weapon_id = {
 			72255
 		}
 	},
 	[72256] = {
-		nationality = 0,
-		name = "0",
-		type = 1,
-		speciality = "なし",
-		tech = 1,
 		descrip = "スキル弾幕",
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		rarity = 1,
+		name = "0",
+		speciality = "なし",
 		base = 72251,
-		ammo = 10,
-		value_3 = 0,
 		id = 72256,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
 		weapon_id = {
 			72256
-		},
-		skill_id = {},
-		equip_parameters = {},
-		label = {}
+		}
 	},
 	[72257] = {
-		base = 72251,
 		id = 72257,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72251,
 		weapon_id = {
 			72257
 		}
@@ -97733,10 +87951,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72262] = {
-		base = 72261,
 		id = 72262,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72261,
 		weapon_id = {
 			72262
 		}
@@ -97781,10 +87997,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72312] = {
-		base = 72311,
 		id = 72312,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72311,
 		weapon_id = {
 			72312
 		}
@@ -97829,10 +88043,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[72412] = {
-		base = 72411,
 		id = 72412,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 72411,
 		weapon_id = {
 			72412
 		}
@@ -97877,10 +88089,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73012] = {
-		base = 73011,
 		id = 73012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73011,
 		weapon_id = {
 			73012
 		}
@@ -97925,10 +88135,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73032] = {
-		base = 73031,
 		id = 73032,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73031,
 		weapon_id = {
 			73032
 		}
@@ -97973,10 +88181,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73042] = {
-		base = 73041,
 		id = 73042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73041,
 		weapon_id = {
 			73042
 		}
@@ -98021,10 +88227,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73052] = {
-		base = 73051,
 		id = 73052,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73051,
 		weapon_id = {
 			73052
 		}
@@ -98069,10 +88273,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73112] = {
-		base = 73111,
 		id = 73112,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73111,
 		weapon_id = {
 			73112
 		}
@@ -98117,10 +88319,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73122] = {
-		base = 73121,
 		id = 73122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73121,
 		weapon_id = {
 			73112
 		}
@@ -98165,10 +88365,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73212] = {
-		base = 73211,
 		id = 73212,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73211,
 		weapon_id = {
 			73212
 		}
@@ -98213,10 +88411,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73222] = {
-		base = 73221,
 		id = 73222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73221,
 		weapon_id = {
 			73222
 		}
@@ -98261,11 +88457,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73232] = {
+		id = 73232,
 		name = "全弹发射-P级II",
 		base = 73231,
-		id = 73232,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			73232
 		}
@@ -98310,10 +88504,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73312] = {
-		base = 73311,
 		id = 73312,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73311,
 		weapon_id = {
 			73312
 		}
@@ -98358,11 +88550,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73322] = {
+		id = 73322,
 		name = "全弹发射-Type IXB型II",
 		base = 73321,
-		id = 73322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			73322
 		}
@@ -98407,10 +88597,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73412] = {
-		base = 73411,
 		id = 73412,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 73411,
 		weapon_id = {
 			73412
 		}
@@ -98455,11 +88643,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[73512] = {
+		id = 73512,
 		name = "全弹发射-Type IXC型II",
 		base = 73511,
-		id = 73512,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			73512
 		}
@@ -98504,10 +88690,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[74012] = {
-		base = 74011,
 		id = 74012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 74011,
 		weapon_id = {
 			74012
 		}
@@ -98552,10 +88736,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[74112] = {
-		base = 74111,
 		id = 74112,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 74111,
 		weapon_id = {
 			74112
 		}
@@ -98600,10 +88782,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[74122] = {
-		base = 74121,
 		id = 74122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 74121,
 		weapon_id = {
 			74122
 		}
@@ -98648,11 +88828,56 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[75012] = {
+		id = 75012,
 		name = "全弹发射-索尔达蒂级II",
 		base = 75011,
-		id = 75012,
+		weapon_id = {
+			75012
+		}
+	},
+	[75021] = {
+		name = "全弹发射-诗人级I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 75021,
 		torpedo_ammo = 0,
 		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75011
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75022] = {
+		id = 75022,
+		name = "全弹发射-诗人级II",
+		base = 75021,
 		weapon_id = {
 			75012
 		}
@@ -98697,11 +88922,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[75212] = {
+		id = 75212,
 		name = "全弹发射-特伦托级II",
 		base = 75211,
-		id = 75212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			75212
 		}
@@ -98746,11 +88969,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[75222] = {
+		id = 75222,
 		name = "全弹发射-扎拉级II",
 		base = 75221,
-		id = 75222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			75222
 		}
@@ -98795,11 +89016,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[76012] = {
+		id = 76012,
 		name = "全弹发射-愤怒级II",
 		base = 76011,
-		id = 76012,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			76012
 		}
@@ -98844,11 +89063,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[76022] = {
+		id = 76022,
 		name = "全弹发射-明斯克级II",
 		base = 76021,
-		id = 76022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			76022
 		}
@@ -98893,11 +89110,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[76112] = {
+		id = 76112,
 		name = "全弹发射-博加特里级II",
 		base = 76111,
-		id = 76112,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			76112
 		}
@@ -98942,10 +89157,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[78012] = {
-		base = 78011,
 		id = 78012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 78011,
 		weapon_id = {
 			78012
 		}
@@ -98990,10 +89203,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[78022] = {
-		base = 78021,
 		id = 78022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 78021,
 		weapon_id = {
 			78022
 		}
@@ -99038,11 +89249,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[78032] = {
+		id = 78032,
 		name = "全弹发射-沃克兰级II",
 		base = 78031,
-		id = 78032,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			78032
 		}
@@ -99087,10 +89296,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[78112] = {
-		base = 78111,
 		id = 78112,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 78111,
 		weapon_id = {
 			78112
 		}
@@ -99135,11 +89342,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[78122] = {
+		id = 78122,
 		name = "0",
 		base = 78121,
-		id = 78122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			78122
 		}
@@ -99184,11 +89389,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[78212] = {
+		id = 78212,
 		name = "0",
 		base = 78211,
-		id = 78212,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			78212
 		}
@@ -99233,10 +89436,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79012] = {
-		base = 79011,
 		id = 79012,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79011,
 		weapon_id = {
 			79012
 		}
@@ -99281,10 +89482,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79022] = {
-		base = 79021,
 		id = 79022,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79021,
 		weapon_id = {
 			79022
 		}
@@ -99329,10 +89528,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79032] = {
-		base = 79031,
 		id = 79032,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79031,
 		weapon_id = {
 			79032
 		}
@@ -99377,10 +89574,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79042] = {
-		base = 79041,
 		id = 79042,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79041,
 		weapon_id = {
 			79042
 		}
@@ -99425,10 +89620,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79052] = {
-		base = 79051,
 		id = 79052,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79051,
 		weapon_id = {
 			79052
 		}
@@ -99473,10 +89666,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79062] = {
-		base = 79061,
 		id = 79062,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79061,
 		weapon_id = {
 			79062
 		}
@@ -99521,10 +89712,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79072] = {
-		base = 79071,
 		id = 79072,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79071,
 		weapon_id = {
 			79072
 		}
@@ -99569,10 +89758,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79082] = {
-		base = 79081,
 		id = 79082,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79081,
 		weapon_id = {
 			79082
 		}
@@ -99617,10 +89804,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79092] = {
-		base = 79091,
 		id = 79092,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79091,
 		weapon_id = {
 			79092
 		}
@@ -99665,10 +89850,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79102] = {
-		base = 79101,
 		id = 79102,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79101,
 		weapon_id = {
 			79102
 		}
@@ -99713,10 +89896,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79112] = {
-		base = 79111,
 		id = 79112,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79111,
 		weapon_id = {
 			79112
 		}
@@ -99761,10 +89942,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79122] = {
-		base = 79121,
 		id = 79122,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79121,
 		weapon_id = {
 			79122
 		}
@@ -99809,10 +89988,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79132] = {
-		base = 79131,
 		id = 79132,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79131,
 		weapon_id = {
 			79132
 		}
@@ -99857,10 +90034,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79142] = {
-		base = 79141,
 		id = 79142,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79141,
 		weapon_id = {
 			79142
 		}
@@ -99905,10 +90080,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79152] = {
-		base = 79151,
 		id = 79152,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79151,
 		weapon_id = {
 			79152
 		}
@@ -99953,10 +90126,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79162] = {
-		base = 79161,
 		id = 79162,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79161,
 		weapon_id = {
 			79162
 		}
@@ -100001,10 +90172,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79172] = {
-		base = 79171,
 		id = 79172,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79171,
 		weapon_id = {
 			79172
 		}
@@ -100049,10 +90218,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79182] = {
-		base = 79181,
 		id = 79182,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79181,
 		weapon_id = {
 			79182
 		}
@@ -100097,10 +90264,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79192] = {
-		base = 79191,
 		id = 79192,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79191,
 		weapon_id = {
 			79192
 		}
@@ -100145,10 +90310,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79202] = {
-		base = 79201,
 		id = 79202,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79201,
 		weapon_id = {
 			79202
 		}
@@ -100193,10 +90356,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79212] = {
-		base = 79211,
 		id = 79212,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79211,
 		weapon_id = {
 			79212
 		}
@@ -100241,10 +90402,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79222] = {
-		base = 79221,
 		id = 79222,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79221,
 		weapon_id = {
 			79222
 		}
@@ -100289,10 +90448,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79232] = {
-		base = 79231,
 		id = 79232,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79231,
 		weapon_id = {
 			79232
 		}
@@ -100337,10 +90494,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79242] = {
-		base = 79241,
 		id = 79242,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79241,
 		weapon_id = {
 			79242
 		}
@@ -100385,10 +90540,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79252] = {
-		base = 79251,
 		id = 79252,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79251,
 		weapon_id = {
 			79252
 		}
@@ -100433,10 +90586,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79262] = {
-		base = 79261,
 		id = 79262,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79261,
 		weapon_id = {
 			79262
 		}
@@ -100481,10 +90632,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79272] = {
-		base = 79271,
 		id = 79272,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79271,
 		weapon_id = {
 			79272
 		}
@@ -100529,10 +90678,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79312] = {
-		base = 79311,
 		id = 79312,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79311,
 		weapon_id = {
 			79312
 		}
@@ -100577,10 +90724,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79322] = {
-		base = 79321,
 		id = 79322,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79321,
 		weapon_id = {
 			79322
 		}
@@ -100625,10 +90770,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79332] = {
-		base = 79321,
 		id = 79332,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79321,
 		weapon_id = {
 			60304
 		}
@@ -100673,10 +90816,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79342] = {
-		base = 79341,
 		id = 79342,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79341,
 		weapon_id = {
 			79342
 		}
@@ -100721,11 +90862,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79362] = {
+		id = 79362,
 		name = "专属弹幕-天狼星II",
 		base = 79361,
-		id = 79362,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79362
 		}
@@ -100770,10 +90909,8 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79372] = {
-		base = 79371,
 		id = 79372,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 79371,
 		weapon_id = {
 			79372
 		}
@@ -100818,11 +90955,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79382] = {
+		id = 79382,
 		name = "专属弹幕-北风II",
 		base = 79381,
-		id = 79382,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79382
 		}
@@ -100867,11 +91002,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79384] = {
+		id = 79384,
 		name = "专属弹幕鱼雷-北风II",
 		base = 79383,
-		id = 79384,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79384
 		}
@@ -100916,11 +91049,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79392] = {
+		id = 79392,
 		name = "专属弹幕-西雅图II",
 		base = 79391,
-		id = 79392,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79392
 		}
@@ -100965,11 +91096,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79402] = {
+		id = 79402,
 		name = "专属弹幕-确捷II",
 		base = 79401,
-		id = 79402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79402
 		}
@@ -101014,11 +91143,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79412] = {
+		id = 79412,
 		name = "专属弹幕-恶毒II",
 		base = 79411,
-		id = 79412,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79412
 		}
@@ -101063,11 +91190,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79422] = {
+		id = 79422,
 		name = "专属弹幕-I168II",
 		base = 79421,
-		id = 79422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79422
 		}
@@ -101112,11 +91237,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79432] = {
+		id = 79432,
 		name = "专属弹幕-U101II",
 		base = 79431,
-		id = 79432,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79432
 		}
@@ -101161,11 +91284,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79442] = {
+		id = 79442,
 		name = "专属弹幕-棘鳍II",
 		base = 79441,
-		id = 79442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79442
 		}
@@ -101210,11 +91331,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79452] = {
+		id = 79452,
 		name = "全弹发射-克利夫兰μII",
 		base = 79451,
-		id = 79452,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79452
 		}
@@ -101259,11 +91378,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79462] = {
+		id = 79462,
 		name = "全弹发射-南安普顿μII",
 		base = 79461,
-		id = 79462,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79462
 		}
@@ -101308,11 +91425,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79472] = {
+		id = 79472,
 		name = "全弹发射-希佩尔海军上将μII",
 		base = 79471,
-		id = 79472,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79472
 		}
@@ -101357,11 +91472,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79482] = {
+		id = 79482,
 		name = "专属弹幕-能代II",
 		base = 79481,
-		id = 79482,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60482
 		}
@@ -101406,11 +91519,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79492] = {
+		id = 79492,
 		name = "专属弹幕-黛朵II",
 		base = 79491,
-		id = 79492,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79492
 		}
@@ -101455,11 +91566,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79502] = {
+		id = 79502,
 		name = "专属弹幕-塔什干II",
 		base = 79501,
-		id = 79502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79502
 		}
@@ -101504,11 +91613,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79512] = {
+		id = 79512,
 		name = "专属弹幕-恰巴耶夫II",
 		base = 79511,
-		id = 79512,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79512
 		}
@@ -101553,11 +91660,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79522] = {
+		id = 79522,
 		name = "专属弹幕-里诺II",
 		base = 79521,
-		id = 79522,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79522
 		}
@@ -101602,11 +91707,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79542] = {
+		id = 79542,
 		name = "专属弹幕-圣女贞德II",
 		base = 79541,
-		id = 79542,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60502
 		}
@@ -101650,11 +91753,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79552] = {
+		id = 79552,
 		name = "专属弹幕-柴郡II",
 		base = 79551,
-		id = 79552,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79552
 		}
@@ -101698,11 +91799,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79562] = {
+		id = 79562,
 		name = "专属弹幕-德雷克II",
 		base = 79561,
-		id = 79562,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79562
 		}
@@ -101746,11 +91845,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79572] = {
+		id = 79572,
 		name = "专属弹幕-美因茨II",
 		base = 79571,
-		id = 79572,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79572
 		}
@@ -101795,11 +91892,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79582] = {
+		id = 79582,
 		name = "专属弹幕-赫敏II",
 		base = 79581,
-		id = 79582,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79582
 		}
@@ -101843,11 +91938,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79592] = {
+		id = 79592,
 		name = "专属弹幕-U96II",
 		base = 79591,
-		id = 79592,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79592
 		}
@@ -101892,11 +91985,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79602] = {
+		id = 79602,
 		name = "专属弹幕-凉月II",
 		base = 79601,
-		id = 79602,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60572
 		}
@@ -101941,11 +92032,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79612] = {
+		id = 79612,
 		name = "专属弹幕-罗恩μII",
 		base = 79611,
-		id = 79612,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79612
 		}
@@ -101990,11 +92079,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79622] = {
+		id = 79622,
 		name = "专属弹幕-恶毒μII",
 		base = 79621,
-		id = 79622,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			60582
 		}
@@ -102039,11 +92126,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79632] = {
+		id = 79632,
 		name = "专属弹幕-黛朵μII",
 		base = 79631,
-		id = 79632,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79632
 		}
@@ -102088,11 +92173,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79642] = {
+		id = 79642,
 		name = "专属弹幕-塔什干μII",
 		base = 79641,
-		id = 79642,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79642
 		}
@@ -102137,11 +92220,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79652] = {
+		id = 79652,
 		name = "专属弹幕-大青花鱼μII",
 		base = 79651,
-		id = 79652,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79652
 		}
@@ -102186,11 +92267,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79662] = {
+		id = 79662,
 		name = "专属弹幕-巴尔的摩μII",
 		base = 79661,
-		id = 79662,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79662
 		}
@@ -102234,11 +92313,9 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[79672] = {
+		id = 79672,
 		name = "专属弹幕-U37II",
 		base = 79671,
-		id = 79672,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			79672
 		}
@@ -102310,61 +92387,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85001] = {
+		id = 85001,
 		damage = "3 x 6",
 		base = 85000,
-		id = 85001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85001
 		}
 	},
 	[85002] = {
+		id = 85002,
 		damage = "4 x 6",
 		base = 85000,
-		id = 85002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85002
 		}
 	},
 	[85003] = {
+		id = 85003,
 		damage = "4 x 6",
 		base = 85000,
-		id = 85003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85003
 		}
 	},
 	[85004] = {
+		id = 85004,
 		damage = "5 x 6",
 		base = 85000,
-		id = 85004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85004
 		}
 	},
 	[85005] = {
+		id = 85005,
 		damage = "6 x 6",
 		base = 85000,
-		id = 85005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85005
 		}
 	},
 	[85006] = {
+		id = 85006,
 		damage = "7 x 6",
 		base = 85000,
-		id = 85006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85006
 		}
@@ -102436,101 +92501,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85041] = {
+		id = 85041,
 		damage = "6 x 6",
 		base = 85040,
-		id = 85041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85041
 		}
 	},
 	[85042] = {
+		id = 85042,
 		damage = "7 x 6",
 		base = 85040,
-		id = 85042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85042
 		}
 	},
 	[85043] = {
+		id = 85043,
 		damage = "8 x 6",
 		base = 85040,
-		id = 85043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85043
 		}
 	},
 	[85044] = {
+		id = 85044,
 		damage = "9 x 6",
 		base = 85040,
-		id = 85044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85044
 		}
 	},
 	[85045] = {
+		id = 85045,
 		damage = "10 x 6",
 		base = 85040,
-		id = 85045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85045
 		}
 	},
 	[85046] = {
+		id = 85046,
 		damage = "11 x 6",
 		base = 85040,
-		id = 85046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85046
 		}
 	},
 	[85047] = {
+		id = 85047,
 		damage = "12 x 6",
 		base = 85040,
-		id = 85047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85047
 		}
 	},
 	[85048] = {
+		id = 85048,
 		damage = "13 x 6",
 		base = 85040,
-		id = 85048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85048
 		}
 	},
 	[85049] = {
+		id = 85049,
 		damage = "14 x 6",
 		base = 85040,
-		id = 85049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85049
 		}
 	},
 	[85050] = {
+		id = 85050,
 		damage = "15 x 6",
 		base = 85040,
-		id = 85050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85050
 		}
@@ -102540,8 +92585,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 6",
 		base = 85040,
 		id = 85051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85051
 		}
@@ -102551,8 +92594,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 6",
 		base = 85040,
 		id = 85052,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85052
 		}
@@ -102562,8 +92603,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 6",
 		base = 85040,
 		id = 85053,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85053
 		}
@@ -102631,61 +92670,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85061] = {
+		id = 85061,
 		damage = "40/回",
 		base = 85060,
-		id = 85061,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85061
 		}
 	},
 	[85062] = {
+		id = 85062,
 		damage = "45/回",
 		base = 85060,
-		id = 85062,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85062
 		}
 	},
 	[85063] = {
+		id = 85063,
 		damage = "51/回",
 		base = 85060,
-		id = 85063,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85063
 		}
 	},
 	[85064] = {
+		id = 85064,
 		damage = "57/回",
 		base = 85060,
-		id = 85064,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85064
 		}
 	},
 	[85065] = {
+		id = 85065,
 		damage = "63/回",
 		base = 85060,
-		id = 85065,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85065
 		}
 	},
 	[85066] = {
+		id = 85066,
 		damage = "70/回",
 		base = 85060,
-		id = 85066,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85066
 		}
@@ -102750,61 +92777,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85121] = {
+		id = 85121,
 		damage = "5 x 6",
 		base = 85120,
-		id = 85121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85121
 		}
 	},
 	[85122] = {
+		id = 85122,
 		damage = "6 x 6",
 		base = 85120,
-		id = 85122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85122
 		}
 	},
 	[85123] = {
+		id = 85123,
 		damage = "7 x 6",
 		base = 85120,
-		id = 85123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85123
 		}
 	},
 	[85124] = {
+		id = 85124,
 		damage = "8 x 6",
 		base = 85120,
-		id = 85124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85124
 		}
 	},
 	[85125] = {
+		id = 85125,
 		damage = "9 x 6",
 		base = 85120,
-		id = 85125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85125
 		}
 	},
 	[85126] = {
+		id = 85126,
 		damage = "10 x 6",
 		base = 85120,
-		id = 85126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85126
 		}
@@ -102870,101 +92885,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85141] = {
+		id = 85141,
 		damage = "6 x 6",
 		base = 85140,
-		id = 85141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85141
 		}
 	},
 	[85142] = {
+		id = 85142,
 		damage = "7 x 6",
 		base = 85140,
-		id = 85142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85142
 		}
 	},
 	[85143] = {
+		id = 85143,
 		damage = "8 x 6",
 		base = 85140,
-		id = 85143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85143
 		}
 	},
 	[85144] = {
+		id = 85144,
 		damage = "9 x 6",
 		base = 85140,
-		id = 85144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85144
 		}
 	},
 	[85145] = {
+		id = 85145,
 		damage = "10 x 6",
 		base = 85140,
-		id = 85145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85145
 		}
 	},
 	[85146] = {
+		id = 85146,
 		damage = "11 x 6",
 		base = 85140,
-		id = 85146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85146
 		}
 	},
 	[85147] = {
+		id = 85147,
 		damage = "12 x 6",
 		base = 85140,
-		id = 85147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85147
 		}
 	},
 	[85148] = {
+		id = 85148,
 		damage = "13 x 6",
 		base = 85140,
-		id = 85148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85148
 		}
 	},
 	[85149] = {
+		id = 85149,
 		damage = "14 x 6",
 		base = 85140,
-		id = 85149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85149
 		}
 	},
 	[85150] = {
+		id = 85150,
 		damage = "15 x 6",
 		base = 85140,
-		id = 85150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85150
 		}
@@ -103030,101 +93025,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85161] = {
+		id = 85161,
 		damage = "7 x 6",
 		base = 85160,
-		id = 85161,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85161
 		}
 	},
 	[85162] = {
+		id = 85162,
 		damage = "8 x 6",
 		base = 85160,
-		id = 85162,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85162
 		}
 	},
 	[85163] = {
+		id = 85163,
 		damage = "9 x 6",
 		base = 85160,
-		id = 85163,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85163
 		}
 	},
 	[85164] = {
+		id = 85164,
 		damage = "10 x 6",
 		base = 85160,
-		id = 85164,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85164
 		}
 	},
 	[85165] = {
+		id = 85165,
 		damage = "11 x 6",
 		base = 85160,
-		id = 85165,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85165
 		}
 	},
 	[85166] = {
+		id = 85166,
 		damage = "12 x 6",
 		base = 85160,
-		id = 85166,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85166
 		}
 	},
 	[85167] = {
+		id = 85167,
 		damage = "13 x 6",
 		base = 85160,
-		id = 85167,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85167
 		}
 	},
 	[85168] = {
+		id = 85168,
 		damage = "14 x 6",
 		base = 85160,
-		id = 85168,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85168
 		}
 	},
 	[85169] = {
+		id = 85169,
 		damage = "15 x 6",
 		base = 85160,
-		id = 85169,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85169
 		}
 	},
 	[85170] = {
+		id = 85170,
 		damage = "16 x 6",
 		base = 85160,
-		id = 85170,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85170
 		}
@@ -103134,8 +93109,6 @@ pg.equip_data_statistics = {
 		damage = "16 x 6",
 		base = 85160,
 		id = 85171,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85171
 		}
@@ -103145,8 +93118,6 @@ pg.equip_data_statistics = {
 		damage = "16 x 6",
 		base = 85160,
 		id = 85172,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85172
 		}
@@ -103156,8 +93127,6 @@ pg.equip_data_statistics = {
 		damage = "16 x 6",
 		base = 85160,
 		id = 85173,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85173
 		}
@@ -103225,31 +93194,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85181] = {
+		id = 85181,
 		damage = "11/回",
 		base = 85180,
-		id = 85181,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85181
 		}
 	},
 	[85182] = {
+		id = 85182,
 		damage = "13/回",
 		base = 85180,
-		id = 85182,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85182
 		}
 	},
 	[85183] = {
+		id = 85183,
 		damage = "16/回",
 		base = 85180,
-		id = 85183,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85183
 		}
@@ -103317,61 +93280,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85201] = {
+		id = 85201,
 		damage = "13/回",
 		base = 85200,
-		id = 85201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85201
 		}
 	},
 	[85202] = {
+		id = 85202,
 		damage = "16/回",
 		base = 85200,
-		id = 85202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85202
 		}
 	},
 	[85203] = {
+		id = 85203,
 		damage = "19/回",
 		base = 85200,
-		id = 85203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85203
 		}
 	},
 	[85204] = {
+		id = 85204,
 		damage = "22/回",
 		base = 85200,
-		id = 85204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85204
 		}
 	},
 	[85205] = {
+		id = 85205,
 		damage = "25/回",
 		base = 85200,
-		id = 85205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85205
 		}
 	},
 	[85206] = {
+		id = 85206,
 		damage = "28/回",
 		base = 85200,
-		id = 85206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85206
 		}
@@ -103439,101 +93390,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85221] = {
+		id = 85221,
 		damage = "17/回",
 		base = 85220,
-		id = 85221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85221
 		}
 	},
 	[85222] = {
+		id = 85222,
 		damage = "20/回",
 		base = 85220,
-		id = 85222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85222
 		}
 	},
 	[85223] = {
+		id = 85223,
 		damage = "23/回",
 		base = 85220,
-		id = 85223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85223
 		}
 	},
 	[85224] = {
+		id = 85224,
 		damage = "26/回",
 		base = 85220,
-		id = 85224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85224
 		}
 	},
 	[85225] = {
+		id = 85225,
 		damage = "29/回",
 		base = 85220,
-		id = 85225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85225
 		}
 	},
 	[85226] = {
+		id = 85226,
 		damage = "32/回",
 		base = 85220,
-		id = 85226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85226
 		}
 	},
 	[85227] = {
+		id = 85227,
 		damage = "35/回",
 		base = 85220,
-		id = 85227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85227
 		}
 	},
 	[85228] = {
+		id = 85228,
 		damage = "38/回",
 		base = 85220,
-		id = 85228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85228
 		}
 	},
 	[85229] = {
+		id = 85229,
 		damage = "41/回",
 		base = 85220,
-		id = 85229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85229
 		}
 	},
 	[85230] = {
+		id = 85230,
 		damage = "44/回",
 		base = 85220,
-		id = 85230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85230
 		}
@@ -103543,8 +93474,6 @@ pg.equip_data_statistics = {
 		damage = "44/回",
 		base = 85220,
 		id = 85231,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85231
 		}
@@ -103612,61 +93541,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85261] = {
+		id = 85261,
 		damage = "41/回",
 		base = 85260,
-		id = 85261,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85261
 		}
 	},
 	[85262] = {
+		id = 85262,
 		damage = "47/回",
 		base = 85260,
-		id = 85262,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85262
 		}
 	},
 	[85263] = {
+		id = 85263,
 		damage = "52/回",
 		base = 85260,
-		id = 85263,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85263
 		}
 	},
 	[85264] = {
+		id = 85264,
 		damage = "59/回",
 		base = 85260,
-		id = 85264,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85264
 		}
 	},
 	[85265] = {
+		id = 85265,
 		damage = "66/回",
 		base = 85260,
-		id = 85265,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85265
 		}
 	},
 	[85266] = {
+		id = 85266,
 		damage = "73/回",
 		base = 85260,
-		id = 85266,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85266
 		}
@@ -103734,101 +93651,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85281] = {
+		id = 85281,
 		damage = "48/回",
 		base = 85280,
-		id = 85281,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85281
 		}
 	},
 	[85282] = {
+		id = 85282,
 		damage = "54/回",
 		base = 85280,
-		id = 85282,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85282
 		}
 	},
 	[85283] = {
+		id = 85283,
 		damage = "61/回",
 		base = 85280,
-		id = 85283,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85283
 		}
 	},
 	[85284] = {
+		id = 85284,
 		damage = "68/回",
 		base = 85280,
-		id = 85284,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85284
 		}
 	},
 	[85285] = {
+		id = 85285,
 		damage = "75/回",
 		base = 85280,
-		id = 85285,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85285
 		}
 	},
 	[85286] = {
+		id = 85286,
 		damage = "82/回",
 		base = 85280,
-		id = 85286,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85286
 		}
 	},
 	[85287] = {
+		id = 85287,
 		damage = "89/回",
 		base = 85280,
-		id = 85287,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85287
 		}
 	},
 	[85288] = {
+		id = 85288,
 		damage = "96/回",
 		base = 85280,
-		id = 85288,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85288
 		}
 	},
 	[85289] = {
+		id = 85289,
 		damage = "103/回",
 		base = 85280,
-		id = 85289,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85289
 		}
 	},
 	[85290] = {
+		id = 85290,
 		damage = "110/回",
 		base = 85280,
-		id = 85290,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85290
 		}
@@ -103838,8 +93735,6 @@ pg.equip_data_statistics = {
 		damage = "110/回",
 		base = 85280,
 		id = 85291,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85291
 		}
@@ -103897,61 +93792,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85301] = {
+		id = 85301,
 		damage = "59 x 3",
 		base = 85300,
-		id = 85301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85301
 		}
 	},
 	[85302] = {
+		id = 85302,
 		damage = "67 x 3",
 		base = 85300,
-		id = 85302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85302
 		}
 	},
 	[85303] = {
+		id = 85303,
 		damage = "76 x 3",
 		base = 85300,
-		id = 85303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85303
 		}
 	},
 	[85304] = {
+		id = 85304,
 		damage = "84 x 3",
 		base = 85300,
-		id = 85304,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85304
 		}
 	},
 	[85305] = {
+		id = 85305,
 		damage = "92 x 3",
 		base = 85300,
-		id = 85305,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85305
 		}
 	},
 	[85306] = {
+		id = 85306,
 		damage = "101 x 3",
 		base = 85300,
-		id = 85306,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85306
 		}
@@ -104010,101 +93893,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85321] = {
+		id = 85321,
 		damage = "65 x 3",
 		base = 85320,
-		id = 85321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85321
 		}
 	},
 	[85322] = {
+		id = 85322,
 		damage = "73 x 3",
 		base = 85320,
-		id = 85322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85322
 		}
 	},
 	[85323] = {
+		id = 85323,
 		damage = "83 x 3",
 		base = 85320,
-		id = 85323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85323
 		}
 	},
 	[85324] = {
+		id = 85324,
 		damage = "92 x 3",
 		base = 85320,
-		id = 85324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85324
 		}
 	},
 	[85325] = {
+		id = 85325,
 		damage = "102 x 3",
 		base = 85320,
-		id = 85325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85325
 		}
 	},
 	[85326] = {
+		id = 85326,
 		damage = "112 x 3",
 		base = 85320,
-		id = 85326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85326
 		}
 	},
 	[85327] = {
+		id = 85327,
 		damage = "120 x 3",
 		base = 85320,
-		id = 85327,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85327
 		}
 	},
 	[85328] = {
+		id = 85328,
 		damage = "129 x 3",
 		base = 85320,
-		id = 85328,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85328
 		}
 	},
 	[85329] = {
+		id = 85329,
 		damage = "139 x 3",
 		base = 85320,
-		id = 85329,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85329
 		}
 	},
 	[85330] = {
+		id = 85330,
 		damage = "149 x 3",
 		base = 85320,
-		id = 85330,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85330
 		}
@@ -104172,31 +94035,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85361] = {
+		id = 85361,
 		damage = "16/回",
 		base = 85360,
-		id = 85361,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85361
 		}
 	},
 	[85362] = {
+		id = 85362,
 		damage = "19/回",
 		base = 85360,
-		id = 85362,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85362
 		}
 	},
 	[85363] = {
+		id = 85363,
 		damage = "22/回",
 		base = 85360,
-		id = 85363,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85363
 		}
@@ -104264,61 +94121,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85381] = {
+		id = 85381,
 		damage = "36/回",
 		base = 85380,
-		id = 85381,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85381
 		}
 	},
 	[85382] = {
+		id = 85382,
 		damage = "41/回",
 		base = 85380,
-		id = 85382,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85382
 		}
 	},
 	[85383] = {
+		id = 85383,
 		damage = "45/回",
 		base = 85380,
-		id = 85383,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85383
 		}
 	},
 	[85384] = {
+		id = 85384,
 		damage = "51/回",
 		base = 85380,
-		id = 85384,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85384
 		}
 	},
 	[85385] = {
+		id = 85385,
 		damage = "57/回",
 		base = 85380,
-		id = 85385,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85385
 		}
 	},
 	[85386] = {
+		id = 85386,
 		damage = "64/回",
 		base = 85380,
-		id = 85386,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85386
 		}
@@ -104386,101 +94231,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85401] = {
+		id = 85401,
 		damage = "42/回",
 		base = 85400,
-		id = 85401,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85401
 		}
 	},
 	[85402] = {
+		id = 85402,
 		damage = "47/回",
 		base = 85400,
-		id = 85402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85402
 		}
 	},
 	[85403] = {
+		id = 85403,
 		damage = "53/回",
 		base = 85400,
-		id = 85403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85403
 		}
 	},
 	[85404] = {
+		id = 85404,
 		damage = "59/回",
 		base = 85400,
-		id = 85404,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85404
 		}
 	},
 	[85405] = {
+		id = 85405,
 		damage = "65/回",
 		base = 85400,
-		id = 85405,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85405
 		}
 	},
 	[85406] = {
+		id = 85406,
 		damage = "71/回",
 		base = 85400,
-		id = 85406,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85406
 		}
 	},
 	[85407] = {
+		id = 85407,
 		damage = "77/回",
 		base = 85400,
-		id = 85407,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85407
 		}
 	},
 	[85408] = {
+		id = 85408,
 		damage = "83/回",
 		base = 85400,
-		id = 85408,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85408
 		}
 	},
 	[85409] = {
+		id = 85409,
 		damage = "89/回",
 		base = 85400,
-		id = 85409,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85409
 		}
 	},
 	[85410] = {
+		id = 85410,
 		damage = "96/回",
 		base = 85400,
-		id = 85410,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85410
 		}
@@ -104490,8 +94315,6 @@ pg.equip_data_statistics = {
 		damage = "96/回",
 		base = 85400,
 		id = 85411,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85411
 		}
@@ -104550,71 +94373,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85421] = {
+		id = 85421,
 		damage = "59 x 3",
 		base = 85420,
-		id = 85421,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85421
 		}
 	},
 	[85422] = {
+		id = 85422,
 		damage = "64 x 3",
 		base = 85420,
-		id = 85422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85422
 		}
 	},
 	[85423] = {
+		id = 85423,
 		damage = "70 x 3",
 		base = 85420,
-		id = 85423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85423
 		}
 	},
 	[85424] = {
+		id = 85424,
 		damage = "76 x 3",
 		base = 85420,
-		id = 85424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85424
 		}
 	},
 	[85425] = {
+		id = 85425,
 		damage = "84 x 3",
 		base = 85420,
-		id = 85425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85425
 		}
 	},
 	[85426] = {
+		id = 85426,
 		damage = "92 x 3",
 		base = 85420,
-		id = 85426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85426
 		}
 	},
 	[85427] = {
+		id = 85427,
 		damage = "92 x 3",
 		base = 85420,
-		id = 85427,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85427
 		}
@@ -104679,71 +94488,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85441] = {
+		id = 85441,
 		damage = "9 x 4",
 		base = 85440,
-		id = 85441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85441
 		}
 	},
 	[85442] = {
+		id = 85442,
 		damage = "10 x 4",
 		base = 85440,
-		id = 85442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85442
 		}
 	},
 	[85443] = {
+		id = 85443,
 		damage = "11 x 4",
 		base = 85440,
-		id = 85443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85443
 		}
 	},
 	[85444] = {
+		id = 85444,
 		damage = "12 x 4",
 		base = 85440,
-		id = 85444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85444
 		}
 	},
 	[85445] = {
+		id = 85445,
 		damage = "13 x 4",
 		base = 85440,
-		id = 85445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85445
 		}
 	},
 	[85446] = {
+		id = 85446,
 		damage = "14 x 4",
 		base = 85440,
-		id = 85446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85446
 		}
 	},
 	[85447] = {
+		id = 85447,
 		damage = "14 x 4",
 		base = 85440,
-		id = 85447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			85447
 		}
@@ -104784,108 +94579,82 @@ pg.equip_data_statistics = {
 	},
 	[89001] = {
 		id = 89001,
-		torpedo_ammo = 0,
-		base = 89000,
-		property_rate = {}
+		base = 89000
 	},
 	[89002] = {
 		id = 89002,
-		base = 89000,
 		value_2 = 7,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89003] = {
 		id = 89003,
-		base = 89000,
 		value_2 = 8,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89004] = {
 		id = 89004,
-		base = 89000,
 		value_2 = 9,
 		value_1 = "19",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89005] = {
 		id = 89005,
-		base = 89000,
 		value_2 = 10,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89006] = {
 		id = 89006,
-		base = 89000,
 		value_2 = 11,
 		value_1 = "21",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89007] = {
 		id = 89007,
-		base = 89000,
 		value_2 = 12,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89008] = {
 		id = 89008,
-		base = 89000,
 		value_2 = 13,
 		value_1 = "23",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89009] = {
 		id = 89009,
-		base = 89000,
 		value_2 = 14,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89010] = {
 		id = 89010,
-		base = 89000,
 		value_2 = 15,
 		value_1 = "25",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89000
 	},
 	[89011] = {
 		id = 89011,
 		anti_siren = 100,
 		base = 89000,
 		value_2 = 16,
-		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "26"
 	},
 	[89012] = {
 		id = 89012,
 		anti_siren = 200,
 		base = 89000,
 		value_2 = 17,
-		value_1 = "27",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "27"
 	},
 	[89013] = {
 		id = 89013,
 		anti_siren = 300,
 		base = 89000,
 		value_2 = 18,
-		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "28"
 	},
 	[89020] = {
 		name = "ぴょこぴょこ",
@@ -104923,110 +94692,75 @@ pg.equip_data_statistics = {
 	},
 	[89021] = {
 		id = 89021,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "230",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89022] = {
 		id = 89022,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "260",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89023] = {
 		id = 89023,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "290",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89024] = {
 		id = 89024,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "320",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89025] = {
 		id = 89025,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "350",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89026] = {
 		id = 89026,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "380",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89027] = {
 		id = 89027,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "410",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89028] = {
 		id = 89028,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "440",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89029] = {
 		id = 89029,
-		base = 89020,
-		value_2 = 1,
 		value_1 = "470",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89030] = {
 		id = 89030,
-		base = 89020,
 		value_2 = 2,
 		value_1 = "500",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89020
 	},
 	[89031] = {
 		id = 89031,
 		anti_siren = 100,
 		base = 89020,
 		value_2 = 2,
-		value_1 = "530",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "530"
 	},
 	[89032] = {
 		id = 89032,
 		anti_siren = 200,
 		base = 89020,
 		value_2 = 2,
-		value_1 = "560",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "560"
 	},
 	[89033] = {
 		id = 89033,
 		anti_siren = 300,
 		base = 89020,
 		value_2 = 2,
-		value_1 = "590",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "590"
 	},
 	[89040] = {
 		name = "インテリジェントチップ",
@@ -105063,110 +94797,84 @@ pg.equip_data_statistics = {
 		}
 	},
 	[89041] = {
-		base = 89040,
 		id = 89041,
 		value_1 = "112",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89042] = {
 		id = 89042,
-		base = 89040,
 		value_2 = 4,
 		value_1 = "127",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89043] = {
 		id = 89043,
-		base = 89040,
 		value_2 = 4,
 		value_1 = "142",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89044] = {
 		id = 89044,
-		base = 89040,
 		value_2 = 5,
 		value_1 = "156",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89045] = {
 		id = 89045,
-		base = 89040,
 		value_2 = 5,
 		value_1 = "171",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89046] = {
 		id = 89046,
-		base = 89040,
 		value_2 = 6,
 		value_1 = "186",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89047] = {
 		id = 89047,
-		base = 89040,
 		value_2 = 6,
 		value_1 = "200",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89048] = {
 		id = 89048,
-		base = 89040,
 		value_2 = 7,
 		value_1 = "215",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89049] = {
 		id = 89049,
-		base = 89040,
 		value_2 = 7,
 		value_1 = "230",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89050] = {
 		id = 89050,
-		base = 89040,
 		value_2 = 8,
 		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89040
 	},
 	[89051] = {
 		id = 89051,
 		anti_siren = 100,
 		base = 89040,
 		value_2 = 8,
-		value_1 = "260",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "260"
 	},
 	[89052] = {
 		id = 89052,
 		anti_siren = 200,
 		base = 89040,
 		value_2 = 8,
-		value_1 = "275",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "275"
 	},
 	[89053] = {
 		id = 89053,
 		anti_siren = 300,
 		base = 89040,
 		value_2 = 8,
-		value_1 = "290",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "290"
 	},
 	[89060] = {
 		name = "チームエンブレム",
@@ -105203,110 +94911,84 @@ pg.equip_data_statistics = {
 		}
 	},
 	[89061] = {
-		base = 89060,
 		id = 89061,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89062] = {
 		id = 89062,
-		base = 89060,
 		value_2 = 17,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89063] = {
 		id = 89063,
-		base = 89060,
 		value_2 = 18,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89064] = {
 		id = 89064,
-		base = 89060,
 		value_2 = 19,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89065] = {
 		id = 89065,
-		base = 89060,
 		value_2 = 20,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89066] = {
 		id = 89066,
-		base = 89060,
 		value_2 = 21,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89067] = {
 		id = 89067,
-		base = 89060,
 		value_2 = 22,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89068] = {
 		id = 89068,
-		base = 89060,
 		value_2 = 23,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89069] = {
 		id = 89069,
-		base = 89060,
 		value_2 = 24,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89070] = {
 		id = 89070,
-		base = 89060,
 		value_2 = 25,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89060
 	},
 	[89071] = {
 		id = 89071,
 		anti_siren = 100,
 		base = 89060,
 		value_2 = 26,
-		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "16"
 	},
 	[89072] = {
 		id = 89072,
 		anti_siren = 200,
 		base = 89060,
 		value_2 = 27,
-		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "17"
 	},
 	[89073] = {
 		id = 89073,
 		anti_siren = 300,
 		base = 89060,
 		value_2 = 28,
-		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "18"
 	},
 	[89080] = {
 		name = "ゲーマーズの証",
@@ -105342,98 +95024,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[89081] = {
-		base = 89080,
 		id = 89081,
 		value_1 = "280",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89082] = {
-		base = 89080,
 		id = 89082,
 		value_1 = "310",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89083] = {
-		base = 89080,
 		id = 89083,
 		value_1 = "340",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89084] = {
-		base = 89080,
 		id = 89084,
 		value_1 = "370",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89085] = {
-		base = 89080,
 		id = 89085,
 		value_1 = "400",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89086] = {
-		base = 89080,
 		id = 89086,
 		value_1 = "430",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89087] = {
-		base = 89080,
 		id = 89087,
 		value_1 = "460",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89088] = {
-		base = 89080,
 		id = 89088,
 		value_1 = "490",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89089] = {
-		base = 89080,
 		id = 89089,
 		value_1 = "520",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89090] = {
-		base = 89080,
 		id = 89090,
 		value_1 = "550",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89091] = {
-		anti_siren = 100,
-		base = 89080,
 		id = 89091,
+		anti_siren = 100,
 		value_1 = "580",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89092] = {
-		anti_siren = 200,
-		base = 89080,
 		id = 89092,
+		anti_siren = 200,
 		value_1 = "610",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89093] = {
-		anti_siren = 300,
-		base = 89080,
 		id = 89093,
+		anti_siren = 300,
 		value_1 = "640",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89080
 	},
 	[89100] = {
 		name = "トウモロコシの灯籠",
@@ -105471,110 +95127,84 @@ pg.equip_data_statistics = {
 	},
 	[89101] = {
 		id = 89101,
-		base = 89100,
 		value_2 = 55,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89102] = {
 		id = 89102,
-		base = 89100,
 		value_2 = 60,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89103] = {
 		id = 89103,
-		base = 89100,
 		value_2 = 65,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89104] = {
 		id = 89104,
-		base = 89100,
 		value_2 = 70,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89105] = {
 		id = 89105,
-		base = 89100,
 		value_2 = 75,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89106] = {
 		id = 89106,
-		base = 89100,
 		value_2 = 80,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89107] = {
 		id = 89107,
-		base = 89100,
 		value_2 = 90,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89108] = {
 		id = 89108,
-		base = 89100,
 		value_2 = 100,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89109] = {
 		id = 89109,
-		base = 89100,
 		value_2 = 110,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89110] = {
 		id = 89110,
-		base = 89100,
 		value_2 = 120,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89100
 	},
 	[89111] = {
 		id = 89111,
 		anti_siren = 100,
 		base = 89100,
 		value_2 = 130,
-		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "26"
 	},
 	[89112] = {
 		id = 89112,
 		anti_siren = 200,
 		base = 89100,
 		value_2 = 140,
-		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "28"
 	},
 	[89113] = {
 		id = 89113,
 		anti_siren = 300,
 		base = 89100,
 		value_2 = 150,
-		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "30"
 	},
 	[89120] = {
 		name = "あん肝",
@@ -105611,110 +95241,84 @@ pg.equip_data_statistics = {
 		}
 	},
 	[89121] = {
-		base = 89120,
 		id = 89121,
 		value_1 = "112",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89122] = {
 		id = 89122,
-		base = 89120,
 		value_2 = 4,
 		value_1 = "127",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89123] = {
 		id = 89123,
-		base = 89120,
 		value_2 = 4,
 		value_1 = "142",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89124] = {
 		id = 89124,
-		base = 89120,
 		value_2 = 5,
 		value_1 = "156",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89125] = {
 		id = 89125,
-		base = 89120,
 		value_2 = 5,
 		value_1 = "171",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89126] = {
 		id = 89126,
-		base = 89120,
 		value_2 = 6,
 		value_1 = "186",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89127] = {
 		id = 89127,
-		base = 89120,
 		value_2 = 6,
 		value_1 = "200",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89128] = {
 		id = 89128,
-		base = 89120,
 		value_2 = 7,
 		value_1 = "215",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89129] = {
 		id = 89129,
-		base = 89120,
 		value_2 = 7,
 		value_1 = "230",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89130] = {
 		id = 89130,
-		base = 89120,
 		value_2 = 8,
 		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89120
 	},
 	[89131] = {
 		id = 89131,
 		anti_siren = 100,
 		base = 89120,
 		value_2 = 8,
-		value_1 = "260",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "260"
 	},
 	[89132] = {
 		id = 89132,
 		anti_siren = 200,
 		base = 89120,
 		value_2 = 8,
-		value_1 = "275",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "275"
 	},
 	[89133] = {
 		id = 89133,
 		anti_siren = 300,
 		base = 89120,
 		value_2 = 8,
-		value_1 = "290",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "290"
 	},
 	[89140] = {
 		name = "熱愛のフィリンエッター",
@@ -105752,110 +95356,84 @@ pg.equip_data_statistics = {
 	},
 	[89141] = {
 		id = 89141,
-		base = 89140,
 		value_2 = 16,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89142] = {
 		id = 89142,
-		base = 89140,
 		value_2 = 17,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89143] = {
 		id = 89143,
-		base = 89140,
 		value_2 = 18,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89144] = {
 		id = 89144,
-		base = 89140,
 		value_2 = 19,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89145] = {
 		id = 89145,
-		base = 89140,
 		value_2 = 20,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89146] = {
 		id = 89146,
-		base = 89140,
 		value_2 = 22,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89147] = {
 		id = 89147,
-		base = 89140,
 		value_2 = 24,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89148] = {
 		id = 89148,
-		base = 89140,
 		value_2 = 26,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89149] = {
 		id = 89149,
-		base = 89140,
 		value_2 = 28,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89150] = {
 		id = 89150,
-		base = 89140,
 		value_2 = 30,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89140
 	},
 	[89151] = {
 		id = 89151,
 		anti_siren = 100,
 		base = 89140,
 		value_2 = 32,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[89152] = {
 		id = 89152,
 		anti_siren = 200,
 		base = 89140,
 		value_2 = 34,
-		value_1 = "41",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "41"
 	},
 	[89153] = {
 		id = 89153,
 		anti_siren = 300,
 		base = 89140,
 		value_2 = 36,
-		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "44"
 	},
 	[89160] = {
 		name = "神聖なるリュミエール",
@@ -105893,110 +95471,84 @@ pg.equip_data_statistics = {
 	},
 	[89161] = {
 		id = 89161,
-		base = 89160,
 		value_2 = 16,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89162] = {
 		id = 89162,
-		base = 89160,
 		value_2 = 17,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89163] = {
 		id = 89163,
-		base = 89160,
 		value_2 = 18,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89164] = {
 		id = 89164,
-		base = 89160,
 		value_2 = 19,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89165] = {
 		id = 89165,
-		base = 89160,
 		value_2 = 20,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89166] = {
 		id = 89166,
-		base = 89160,
 		value_2 = 22,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89167] = {
 		id = 89167,
-		base = 89160,
 		value_2 = 24,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89168] = {
 		id = 89168,
-		base = 89160,
 		value_2 = 26,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89169] = {
 		id = 89169,
-		base = 89160,
 		value_2 = 28,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89170] = {
 		id = 89170,
-		base = 89160,
 		value_2 = 30,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89160
 	},
 	[89171] = {
 		id = 89171,
 		anti_siren = 100,
 		base = 89160,
 		value_2 = 32,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[89172] = {
 		id = 89172,
 		anti_siren = 200,
 		base = 89160,
 		value_2 = 34,
-		value_1 = "41",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "41"
 	},
 	[89173] = {
 		id = 89173,
 		anti_siren = 300,
 		base = 89160,
 		value_2 = 36,
-		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "44"
 	},
 	[89180] = {
 		name = "輝けるアストラム",
@@ -106034,110 +95586,84 @@ pg.equip_data_statistics = {
 	},
 	[89181] = {
 		id = 89181,
-		base = 89180,
 		value_2 = 16,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89182] = {
 		id = 89182,
-		base = 89180,
 		value_2 = 17,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89183] = {
 		id = 89183,
-		base = 89180,
 		value_2 = 18,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89184] = {
 		id = 89184,
-		base = 89180,
 		value_2 = 19,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89185] = {
 		id = 89185,
-		base = 89180,
 		value_2 = 20,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89186] = {
 		id = 89186,
-		base = 89180,
 		value_2 = 22,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89187] = {
 		id = 89187,
-		base = 89180,
 		value_2 = 24,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89188] = {
 		id = 89188,
-		base = 89180,
 		value_2 = 26,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89189] = {
 		id = 89189,
-		base = 89180,
 		value_2 = 28,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89190] = {
 		id = 89190,
-		base = 89180,
 		value_2 = 30,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89180
 	},
 	[89191] = {
 		id = 89191,
 		anti_siren = 100,
 		base = 89180,
 		value_2 = 32,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[89192] = {
 		id = 89192,
 		anti_siren = 200,
 		base = 89180,
 		value_2 = 34,
-		value_1 = "41",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "41"
 	},
 	[89193] = {
 		id = 89193,
 		anti_siren = 300,
 		base = 89180,
 		value_2 = 36,
-		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "44"
 	},
 	[89200] = {
 		name = "グラヴィティシューズ",
@@ -106174,109 +95700,83 @@ pg.equip_data_statistics = {
 		}
 	},
 	[89201] = {
-		base = 89200,
 		id = 89201,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89202] = {
-		base = 89200,
 		id = 89202,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89203] = {
 		id = 89203,
-		base = 89200,
 		value_2 = 2,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89204] = {
 		id = 89204,
-		base = 89200,
 		value_2 = 2,
 		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89205] = {
 		id = 89205,
-		base = 89200,
 		value_2 = 2,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89206] = {
 		id = 89206,
-		base = 89200,
 		value_2 = 3,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89207] = {
 		id = 89207,
-		base = 89200,
 		value_2 = 3,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89208] = {
 		id = 89208,
-		base = 89200,
 		value_2 = 4,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89209] = {
 		id = 89209,
-		base = 89200,
 		value_2 = 4,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89210] = {
 		id = 89210,
-		base = 89200,
 		value_2 = 5,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89200
 	},
 	[89211] = {
 		id = 89211,
 		anti_siren = 100,
 		base = 89200,
 		value_2 = 5,
-		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "30"
 	},
 	[89212] = {
 		id = 89212,
 		anti_siren = 200,
 		base = 89200,
 		value_2 = 5,
-		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "32"
 	},
 	[89213] = {
 		id = 89213,
 		anti_siren = 300,
 		base = 89200,
 		value_2 = 5,
-		value_1 = "34",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "34"
 	},
 	[89220] = {
 		name = "ネビュラドレス",
@@ -106312,98 +95812,72 @@ pg.equip_data_statistics = {
 		}
 	},
 	[89221] = {
-		base = 89220,
 		id = 89221,
 		value_1 = "280",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89222] = {
-		base = 89220,
 		id = 89222,
 		value_1 = "310",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89223] = {
-		base = 89220,
 		id = 89223,
 		value_1 = "340",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89224] = {
-		base = 89220,
 		id = 89224,
 		value_1 = "370",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89225] = {
-		base = 89220,
 		id = 89225,
 		value_1 = "400",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89226] = {
-		base = 89220,
 		id = 89226,
 		value_1 = "430",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89227] = {
-		base = 89220,
 		id = 89227,
 		value_1 = "460",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89228] = {
-		base = 89220,
 		id = 89228,
 		value_1 = "490",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89229] = {
-		base = 89220,
 		id = 89229,
 		value_1 = "520",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89230] = {
-		base = 89220,
 		id = 89230,
 		value_1 = "550",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89231] = {
-		anti_siren = 100,
-		base = 89220,
 		id = 89231,
+		anti_siren = 100,
 		value_1 = "580",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89232] = {
-		anti_siren = 200,
-		base = 89220,
 		id = 89232,
+		anti_siren = 200,
 		value_1 = "610",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89233] = {
-		anti_siren = 300,
-		base = 89220,
 		id = 89233,
+		anti_siren = 300,
 		value_1 = "640",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89220
 	},
 	[89240] = {
 		name = "ヴィーナス覚醒ジェム",
@@ -106440,110 +95914,84 @@ pg.equip_data_statistics = {
 		}
 	},
 	[89241] = {
-		base = 89240,
 		id = 89241,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89242] = {
 		id = 89242,
-		base = 89240,
 		value_2 = 17,
 		value_1 = "7",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89243] = {
 		id = 89243,
-		base = 89240,
 		value_2 = 18,
 		value_1 = "8",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89244] = {
 		id = 89244,
-		base = 89240,
 		value_2 = 19,
 		value_1 = "9",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89245] = {
 		id = 89245,
-		base = 89240,
 		value_2 = 20,
 		value_1 = "10",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89246] = {
 		id = 89246,
-		base = 89240,
 		value_2 = 21,
 		value_1 = "11",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89247] = {
 		id = 89247,
-		base = 89240,
 		value_2 = 22,
 		value_1 = "12",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89248] = {
 		id = 89248,
-		base = 89240,
 		value_2 = 23,
 		value_1 = "13",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89249] = {
 		id = 89249,
-		base = 89240,
 		value_2 = 24,
 		value_1 = "14",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89250] = {
 		id = 89250,
-		base = 89240,
 		value_2 = 25,
 		value_1 = "15",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89240
 	},
 	[89251] = {
 		id = 89251,
 		anti_siren = 100,
 		base = 89240,
 		value_2 = 26,
-		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "16"
 	},
 	[89252] = {
 		id = 89252,
 		anti_siren = 200,
 		base = 89240,
 		value_2 = 27,
-		value_1 = "17",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "17"
 	},
 	[89253] = {
 		id = 89253,
 		anti_siren = 300,
 		base = 89240,
 		value_2 = 28,
-		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "18"
 	},
 	[89260] = {
 		name = "ココロの鍵",
@@ -106557,7 +96005,7 @@ pg.equip_data_statistics = {
 		attribute_2 = "hit",
 		rarity = 5,
 		descrip = "",
-		nationality = 0,
+		nationality = 106,
 		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antiaircraft",
@@ -106581,110 +96029,84 @@ pg.equip_data_statistics = {
 	},
 	[89261] = {
 		id = 89261,
-		base = 89260,
 		value_2 = 16,
 		value_1 = "16",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89262] = {
 		id = 89262,
-		base = 89260,
 		value_2 = 17,
 		value_1 = "18",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89263] = {
 		id = 89263,
-		base = 89260,
 		value_2 = 18,
 		value_1 = "20",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89264] = {
 		id = 89264,
-		base = 89260,
 		value_2 = 19,
 		value_1 = "22",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89265] = {
 		id = 89265,
-		base = 89260,
 		value_2 = 20,
 		value_1 = "24",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89266] = {
 		id = 89266,
-		base = 89260,
 		value_2 = 22,
 		value_1 = "26",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89267] = {
 		id = 89267,
-		base = 89260,
 		value_2 = 24,
 		value_1 = "28",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89268] = {
 		id = 89268,
-		base = 89260,
 		value_2 = 26,
 		value_1 = "30",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89269] = {
 		id = 89269,
-		base = 89260,
 		value_2 = 28,
 		value_1 = "32",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89270] = {
 		id = 89270,
-		base = 89260,
 		value_2 = 30,
 		value_1 = "35",
-		torpedo_ammo = 0,
-		property_rate = {}
+		base = 89260
 	},
 	[89271] = {
 		id = 89271,
 		anti_siren = 100,
 		base = 89260,
 		value_2 = 32,
-		value_1 = "38",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "38"
 	},
 	[89272] = {
 		id = 89272,
 		anti_siren = 200,
 		base = 89260,
 		value_2 = 34,
-		value_1 = "41",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "41"
 	},
 	[89273] = {
 		id = 89273,
 		anti_siren = 300,
 		base = 89260,
 		value_2 = 36,
-		value_1 = "44",
-		torpedo_ammo = 0,
-		property_rate = {}
+		value_1 = "44"
 	},
 	[90000] = {
 		name = "130mm単装砲Mle1924",
@@ -106752,31 +96174,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90001] = {
+		id = 90001,
 		damage = "3 x 5",
 		base = 90000,
-		id = 90001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90001
 		}
 	},
 	[90002] = {
+		id = 90002,
 		damage = "4 x 5",
 		base = 90000,
-		id = 90002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90002
 		}
 	},
 	[90003] = {
+		id = 90003,
 		damage = "4 x 5",
 		base = 90000,
-		id = 90003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90003
 		}
@@ -106848,31 +96264,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90021] = {
+		id = 90021,
 		damage = "4 x 5",
 		base = 90020,
-		id = 90021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90021
 		}
 	},
 	[90022] = {
+		id = 90022,
 		damage = "4 x 5",
 		base = 90020,
-		id = 90022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90022
 		}
 	},
 	[90023] = {
+		id = 90023,
 		damage = "5 x 5",
 		base = 90020,
-		id = 90023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90023
 		}
@@ -106944,71 +96354,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90041] = {
+		id = 90041,
 		damage = "5 x 5",
 		base = 90040,
-		id = 90041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90041
 		}
 	},
 	[90042] = {
+		id = 90042,
 		damage = "5 x 5",
 		base = 90040,
-		id = 90042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90042
 		}
 	},
 	[90043] = {
+		id = 90043,
 		damage = "6 x 5",
 		base = 90040,
-		id = 90043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90043
 		}
 	},
 	[90044] = {
+		id = 90044,
 		damage = "6 x 5",
 		base = 90040,
-		id = 90044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90044
 		}
 	},
 	[90045] = {
+		id = 90045,
 		damage = "7 x 5",
 		base = 90040,
-		id = 90045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90045
 		}
 	},
 	[90046] = {
+		id = 90046,
 		damage = "8 x 5",
 		base = 90040,
-		id = 90046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90046
 		}
 	},
 	[90047] = {
+		id = 90047,
 		damage = "8 x 5",
 		base = 90040,
-		id = 90047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90047
 		}
@@ -107080,61 +96476,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90101] = {
+		id = 90101,
 		damage = "4 x 5",
 		base = 90100,
-		id = 90101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90101
 		}
 	},
 	[90102] = {
+		id = 90102,
 		damage = "5 x 5",
 		base = 90100,
-		id = 90102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90102
 		}
 	},
 	[90103] = {
+		id = 90103,
 		damage = "6 x 5",
 		base = 90100,
-		id = 90103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90103
 		}
 	},
 	[90104] = {
+		id = 90104,
 		damage = "7 x 5",
 		base = 90100,
-		id = 90104,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90104
 		}
 	},
 	[90105] = {
+		id = 90105,
 		damage = "8 x 5",
 		base = 90100,
-		id = 90105,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90105
 		}
 	},
 	[90106] = {
+		id = 90106,
 		damage = "9 x 5",
 		base = 90100,
-		id = 90106,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90106
 		}
@@ -107207,101 +96591,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90121] = {
+		id = 90121,
 		damage = "5 x 5",
 		base = 90120,
-		id = 90121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90121
 		}
 	},
 	[90122] = {
+		id = 90122,
 		damage = "6 x 5",
 		base = 90120,
-		id = 90122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90122
 		}
 	},
 	[90123] = {
+		id = 90123,
 		damage = "7 x 5",
 		base = 90120,
-		id = 90123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90123
 		}
 	},
 	[90124] = {
+		id = 90124,
 		damage = "8 x 5",
 		base = 90120,
-		id = 90124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90124
 		}
 	},
 	[90125] = {
+		id = 90125,
 		damage = "9 x 5",
 		base = 90120,
-		id = 90125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90125
 		}
 	},
 	[90126] = {
+		id = 90126,
 		damage = "10 x 5",
 		base = 90120,
-		id = 90126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90126
 		}
 	},
 	[90127] = {
+		id = 90127,
 		damage = "11 x 5",
 		base = 90120,
-		id = 90127,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90127
 		}
 	},
 	[90128] = {
+		id = 90128,
 		damage = "12 x 5",
 		base = 90120,
-		id = 90128,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90128
 		}
 	},
 	[90129] = {
+		id = 90129,
 		damage = "13 x 5",
 		base = 90120,
-		id = 90129,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90129
 		}
 	},
 	[90130] = {
+		id = 90130,
 		damage = "14 x 5",
 		base = 90120,
-		id = 90130,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90130
 		}
@@ -107374,101 +96738,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90141] = {
+		id = 90141,
 		damage = "6 x 5",
 		base = 90140,
-		id = 90141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90141
 		}
 	},
 	[90142] = {
+		id = 90142,
 		damage = "7 x 5",
 		base = 90140,
-		id = 90142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90142
 		}
 	},
 	[90143] = {
+		id = 90143,
 		damage = "8 x 5",
 		base = 90140,
-		id = 90143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90143
 		}
 	},
 	[90144] = {
+		id = 90144,
 		damage = "9 x 5",
 		base = 90140,
-		id = 90144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90144
 		}
 	},
 	[90145] = {
+		id = 90145,
 		damage = "10 x 5",
 		base = 90140,
-		id = 90145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90145
 		}
 	},
 	[90146] = {
+		id = 90146,
 		damage = "11 x 5",
 		base = 90140,
-		id = 90146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90146
 		}
 	},
 	[90147] = {
+		id = 90147,
 		damage = "12 x 5",
 		base = 90140,
-		id = 90147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90147
 		}
 	},
 	[90148] = {
+		id = 90148,
 		damage = "13 x 5",
 		base = 90140,
-		id = 90148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90148
 		}
 	},
 	[90149] = {
+		id = 90149,
 		damage = "14 x 5",
 		base = 90140,
-		id = 90149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90149
 		}
 	},
 	[90150] = {
+		id = 90150,
 		damage = "15 x 5",
 		base = 90140,
-		id = 90150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90150
 		}
@@ -107478,8 +96822,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 5",
 		base = 90140,
 		id = 90151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90151
 		}
@@ -107489,8 +96831,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 5",
 		base = 90140,
 		id = 90152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90152
 		}
@@ -107500,8 +96840,6 @@ pg.equip_data_statistics = {
 		damage = "15 x 5",
 		base = 90140,
 		id = 90153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90153
 		}
@@ -107565,31 +96903,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90201] = {
+		id = 90201,
 		damage = "8 x 6",
 		base = 90200,
-		id = 90201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90201
 		}
 	},
 	[90202] = {
+		id = 90202,
 		damage = "9 x 6",
 		base = 90200,
-		id = 90202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90202
 		}
 	},
 	[90203] = {
+		id = 90203,
 		damage = "10 x 6",
 		base = 90200,
-		id = 90203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90203
 		}
@@ -107654,31 +96986,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90221] = {
+		id = 90221,
 		damage = "9 x 6",
 		base = 90220,
-		id = 90221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90221
 		}
 	},
 	[90222] = {
+		id = 90222,
 		damage = "10 x 6",
 		base = 90220,
-		id = 90222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90222
 		}
 	},
 	[90223] = {
+		id = 90223,
 		damage = "11 x 6",
 		base = 90220,
-		id = 90223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90223
 		}
@@ -107744,71 +97070,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90241] = {
+		id = 90241,
 		damage = "10 x 6",
 		base = 90240,
-		id = 90241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90241
 		}
 	},
 	[90242] = {
+		id = 90242,
 		damage = "11 x 6",
 		base = 90240,
-		id = 90242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90242
 		}
 	},
 	[90243] = {
+		id = 90243,
 		damage = "12 x 6",
 		base = 90240,
-		id = 90243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90243
 		}
 	},
 	[90244] = {
+		id = 90244,
 		damage = "13 x 6",
 		base = 90240,
-		id = 90244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90244
 		}
 	},
 	[90245] = {
+		id = 90245,
 		damage = "14 x 6",
 		base = 90240,
-		id = 90245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90245
 		}
 	},
 	[90246] = {
+		id = 90246,
 		damage = "15 x 6",
 		base = 90240,
-		id = 90246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90246
 		}
 	},
 	[90247] = {
+		id = 90247,
 		damage = "15 x 6",
 		base = 90240,
-		id = 90247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90247
 		}
@@ -107866,31 +97178,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90301] = {
+		id = 90301,
 		damage = "39 x 4",
 		base = 90300,
-		id = 90301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90301
 		}
 	},
 	[90302] = {
+		id = 90302,
 		damage = "44 x 4",
 		base = 90300,
-		id = 90302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90302
 		}
 	},
 	[90303] = {
+		id = 90303,
 		damage = "49 x 4",
 		base = 90300,
-		id = 90303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90303
 		}
@@ -107948,61 +97254,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90321] = {
+		id = 90321,
 		damage = "42 x 4",
 		base = 90320,
-		id = 90321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90321
 		}
 	},
 	[90322] = {
+		id = 90322,
 		damage = "47 x 4",
 		base = 90320,
-		id = 90322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90322
 		}
 	},
 	[90323] = {
+		id = 90323,
 		damage = "52 x 4",
 		base = 90320,
-		id = 90323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90323
 		}
 	},
 	[90324] = {
+		id = 90324,
 		damage = "57 x 4",
 		base = 90320,
-		id = 90324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90324
 		}
 	},
 	[90325] = {
+		id = 90325,
 		damage = "63 x 4",
 		base = 90320,
-		id = 90325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90325
 		}
 	},
 	[90326] = {
+		id = 90326,
 		damage = "69 x 4",
 		base = 90320,
-		id = 90326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90326
 		}
@@ -108061,101 +97355,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90341] = {
+		id = 90341,
 		damage = "47 x 4",
 		base = 90340,
-		id = 90341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90341
 		}
 	},
 	[90342] = {
+		id = 90342,
 		damage = "53 x 4",
 		base = 90340,
-		id = 90342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90342
 		}
 	},
 	[90343] = {
+		id = 90343,
 		damage = "59 x 4",
 		base = 90340,
-		id = 90343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90343
 		}
 	},
 	[90344] = {
+		id = 90344,
 		damage = "65 x 4",
 		base = 90340,
-		id = 90344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90344
 		}
 	},
 	[90345] = {
+		id = 90345,
 		damage = "71 x 4",
 		base = 90340,
-		id = 90345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90345
 		}
 	},
 	[90346] = {
+		id = 90346,
 		damage = "77 x 4",
 		base = 90340,
-		id = 90346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90346
 		}
 	},
 	[90347] = {
+		id = 90347,
 		damage = "83 x 4",
 		base = 90340,
-		id = 90347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90347
 		}
 	},
 	[90348] = {
+		id = 90348,
 		damage = "89 x 4",
 		base = 90340,
-		id = 90348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90348
 		}
 	},
 	[90349] = {
+		id = 90349,
 		damage = "95 x 4",
 		base = 90340,
-		id = 90349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90349
 		}
 	},
 	[90350] = {
+		id = 90350,
 		damage = "102 x 4",
 		base = 90340,
-		id = 90350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90350
 		}
@@ -108165,8 +97439,6 @@ pg.equip_data_statistics = {
 		damage = "102 x 4",
 		base = 90340,
 		id = 90351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90351
 		}
@@ -108225,61 +97497,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90401] = {
+		id = 90401,
 		damage = "46 x 4",
 		base = 90400,
-		id = 90401,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90401
 		}
 	},
 	[90402] = {
+		id = 90402,
 		damage = "52 x 4",
 		base = 90400,
-		id = 90402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90402
 		}
 	},
 	[90403] = {
+		id = 90403,
 		damage = "58 x 4",
 		base = 90400,
-		id = 90403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90403
 		}
 	},
 	[90404] = {
+		id = 90404,
 		damage = "64 x 4",
 		base = 90400,
-		id = 90404,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90404
 		}
 	},
 	[90405] = {
+		id = 90405,
 		damage = "70 x 4",
 		base = 90400,
-		id = 90405,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90405
 		}
 	},
 	[90406] = {
+		id = 90406,
 		damage = "76 x 4",
 		base = 90400,
-		id = 90406,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90406
 		}
@@ -108338,101 +97598,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90421] = {
+		id = 90421,
 		damage = "50 x 4",
 		base = 90420,
-		id = 90421,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90421
 		}
 	},
 	[90422] = {
+		id = 90422,
 		damage = "56 x 4",
 		base = 90420,
-		id = 90422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90422
 		}
 	},
 	[90423] = {
+		id = 90423,
 		damage = "62 x 4",
 		base = 90420,
-		id = 90423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90423
 		}
 	},
 	[90424] = {
+		id = 90424,
 		damage = "68 x 4",
 		base = 90420,
-		id = 90424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90424
 		}
 	},
 	[90425] = {
+		id = 90425,
 		damage = "75 x 4",
 		base = 90420,
-		id = 90425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90425
 		}
 	},
 	[90426] = {
+		id = 90426,
 		damage = "82 x 4",
 		base = 90420,
-		id = 90426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90426
 		}
 	},
 	[90427] = {
+		id = 90427,
 		damage = "89 x 4",
 		base = 90420,
-		id = 90427,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90427
 		}
 	},
 	[90428] = {
+		id = 90428,
 		damage = "96 x 4",
 		base = 90420,
-		id = 90428,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90428
 		}
 	},
 	[90429] = {
+		id = 90429,
 		damage = "103 x 4",
 		base = 90420,
-		id = 90429,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90429
 		}
 	},
 	[90430] = {
+		id = 90430,
 		damage = "110 x 4",
 		base = 90420,
-		id = 90430,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90430
 		}
@@ -108491,101 +97731,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90441] = {
+		id = 90441,
 		damage = "55 x 4",
 		base = 90440,
-		id = 90441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90441
 		}
 	},
 	[90442] = {
+		id = 90442,
 		damage = "62 x 4",
 		base = 90440,
-		id = 90442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90442
 		}
 	},
 	[90443] = {
+		id = 90443,
 		damage = "69 x 4",
 		base = 90440,
-		id = 90443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90443
 		}
 	},
 	[90444] = {
+		id = 90444,
 		damage = "76 x 4",
 		base = 90440,
-		id = 90444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90444
 		}
 	},
 	[90445] = {
+		id = 90445,
 		damage = "83 x 4",
 		base = 90440,
-		id = 90445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90445
 		}
 	},
 	[90446] = {
+		id = 90446,
 		damage = "90 x 4",
 		base = 90440,
-		id = 90446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90446
 		}
 	},
 	[90447] = {
+		id = 90447,
 		damage = "97 x 4",
 		base = 90440,
-		id = 90447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90447
 		}
 	},
 	[90448] = {
+		id = 90448,
 		damage = "104 x 4",
 		base = 90440,
-		id = 90448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90448
 		}
 	},
 	[90449] = {
+		id = 90449,
 		damage = "112 x 4",
 		base = 90440,
-		id = 90449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90449
 		}
 	},
 	[90450] = {
+		id = 90450,
 		damage = "120 x 4",
 		base = 90440,
-		id = 90450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90450
 		}
@@ -108595,8 +97815,6 @@ pg.equip_data_statistics = {
 		damage = "120 x 4",
 		base = 90440,
 		id = 90451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90451
 		}
@@ -108606,8 +97824,6 @@ pg.equip_data_statistics = {
 		damage = "120 x 4",
 		base = 90440,
 		id = 90452,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90452
 		}
@@ -108617,8 +97833,6 @@ pg.equip_data_statistics = {
 		damage = "120 x 4",
 		base = 90440,
 		id = 90453,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90453
 		}
@@ -108690,30 +97904,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90501] = {
-		base = 90500,
 		id = 90501,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90500,
 		weapon_id = {
 			90501
 		}
 	},
 	[90502] = {
+		id = 90502,
 		damage = "10 x 2",
 		base = 90500,
-		id = 90502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90502
 		}
 	},
 	[90503] = {
+		id = 90503,
 		damage = "10 x 2",
 		base = 90500,
-		id = 90503,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90503
 		}
@@ -108781,101 +97989,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90601] = {
+		id = 90601,
 		damage = "42/回",
 		base = 90600,
-		id = 90601,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90601
 		}
 	},
 	[90602] = {
+		id = 90602,
 		damage = "46/回",
 		base = 90600,
-		id = 90602,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90602
 		}
 	},
 	[90603] = {
+		id = 90603,
 		damage = "50/回",
 		base = 90600,
-		id = 90603,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90603
 		}
 	},
 	[90604] = {
+		id = 90604,
 		damage = "54/回",
 		base = 90600,
-		id = 90604,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90604
 		}
 	},
 	[90605] = {
+		id = 90605,
 		damage = "58/回",
 		base = 90600,
-		id = 90605,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90605
 		}
 	},
 	[90606] = {
+		id = 90606,
 		damage = "62/回",
 		base = 90600,
-		id = 90606,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90606
 		}
 	},
 	[90607] = {
+		id = 90607,
 		damage = "66/回",
 		base = 90600,
-		id = 90607,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90607
 		}
 	},
 	[90608] = {
+		id = 90608,
 		damage = "70/回",
 		base = 90600,
-		id = 90608,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90608
 		}
 	},
 	[90609] = {
+		id = 90609,
 		damage = "74/回",
 		base = 90600,
-		id = 90609,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90609
 		}
 	},
 	[90610] = {
+		id = 90610,
 		damage = "78/回",
 		base = 90600,
-		id = 90610,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90610
 		}
@@ -108885,8 +98073,6 @@ pg.equip_data_statistics = {
 		damage = "78/回",
 		base = 90600,
 		id = 90611,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90611
 		}
@@ -108896,8 +98082,6 @@ pg.equip_data_statistics = {
 		damage = "78/回",
 		base = 90600,
 		id = 90612,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90612
 		}
@@ -108907,8 +98091,6 @@ pg.equip_data_statistics = {
 		damage = "78/回",
 		base = 90600,
 		id = 90613,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90613
 		}
@@ -108980,31 +98162,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90701] = {
+		id = 90701,
 		damage = "4 x 4",
 		base = 90700,
-		id = 90701,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90701
 		}
 	},
 	[90702] = {
+		id = 90702,
 		damage = "5 x 4",
 		base = 90700,
-		id = 90702,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90702
 		}
 	},
 	[90703] = {
+		id = 90703,
 		damage = "6 x 4",
 		base = 90700,
-		id = 90703,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90703
 		}
@@ -109076,61 +98252,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90721] = {
+		id = 90721,
 		damage = "7 x 4",
 		base = 90720,
-		id = 90721,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90721
 		}
 	},
 	[90722] = {
+		id = 90722,
 		damage = "8 x 4",
 		base = 90720,
-		id = 90722,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90722
 		}
 	},
 	[90723] = {
+		id = 90723,
 		damage = "9 x 4",
 		base = 90720,
-		id = 90723,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90723
 		}
 	},
 	[90724] = {
+		id = 90724,
 		damage = "10 x 4",
 		base = 90720,
-		id = 90724,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90724
 		}
 	},
 	[90725] = {
+		id = 90725,
 		damage = "12 x 4",
 		base = 90720,
-		id = 90725,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90725
 		}
 	},
 	[90726] = {
+		id = 90726,
 		damage = "14 x 4",
 		base = 90720,
-		id = 90726,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90726
 		}
@@ -109202,101 +98366,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90741] = {
+		id = 90741,
 		damage = "7 x 4",
 		base = 90740,
-		id = 90741,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90741
 		}
 	},
 	[90742] = {
+		id = 90742,
 		damage = "8 x 4",
 		base = 90740,
-		id = 90742,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90742
 		}
 	},
 	[90743] = {
+		id = 90743,
 		damage = "9 x 4",
 		base = 90740,
-		id = 90743,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90743
 		}
 	},
 	[90744] = {
+		id = 90744,
 		damage = "10 x 4",
 		base = 90740,
-		id = 90744,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90744
 		}
 	},
 	[90745] = {
+		id = 90745,
 		damage = "11 x 4",
 		base = 90740,
-		id = 90745,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90745
 		}
 	},
 	[90746] = {
+		id = 90746,
 		damage = "12 x 4",
 		base = 90740,
-		id = 90746,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90746
 		}
 	},
 	[90747] = {
+		id = 90747,
 		damage = "13 x 4",
 		base = 90740,
-		id = 90747,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90747
 		}
 	},
 	[90748] = {
+		id = 90748,
 		damage = "15 x 4",
 		base = 90740,
-		id = 90748,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90748
 		}
 	},
 	[90749] = {
+		id = 90749,
 		damage = "17 x 4",
 		base = 90740,
-		id = 90749,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90749
 		}
 	},
 	[90750] = {
+		id = 90750,
 		damage = "19 x 4",
 		base = 90740,
-		id = 90750,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90750
 		}
@@ -109306,8 +98450,6 @@ pg.equip_data_statistics = {
 		damage = "19 x 4",
 		base = 90740,
 		id = 90751,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90751
 		}
@@ -109373,71 +98515,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90781] = {
+		id = 90781,
 		damage = "12 x 4",
 		base = 90780,
-		id = 90781,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90781
 		}
 	},
 	[90782] = {
+		id = 90782,
 		damage = "14 x 4",
 		base = 90780,
-		id = 90782,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90782
 		}
 	},
 	[90783] = {
+		id = 90783,
 		damage = "16 x 4",
 		base = 90780,
-		id = 90783,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90783
 		}
 	},
 	[90784] = {
+		id = 90784,
 		damage = "17 x 4",
 		base = 90780,
-		id = 90784,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90784
 		}
 	},
 	[90785] = {
+		id = 90785,
 		damage = "18 x 4",
 		base = 90780,
-		id = 90785,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90785
 		}
 	},
 	[90786] = {
+		id = 90786,
 		damage = "19 x 4",
 		base = 90780,
-		id = 90786,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90786
 		}
 	},
 	[90787] = {
+		id = 90787,
 		damage = "19 x 4",
 		base = 90780,
-		id = 90787,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90787
 		}
@@ -109503,71 +98631,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90801] = {
+		id = 90801,
 		damage = "12 x 4",
 		base = 90800,
-		id = 90801,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90801
 		}
 	},
 	[90802] = {
+		id = 90802,
 		damage = "14 x 4",
 		base = 90800,
-		id = 90802,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90802
 		}
 	},
 	[90803] = {
+		id = 90803,
 		damage = "16 x 4",
 		base = 90800,
-		id = 90803,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90803
 		}
 	},
 	[90804] = {
+		id = 90804,
 		damage = "17 x 4",
 		base = 90800,
-		id = 90804,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90804
 		}
 	},
 	[90805] = {
+		id = 90805,
 		damage = "18 x 4",
 		base = 90800,
-		id = 90805,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90805
 		}
 	},
 	[90806] = {
+		id = 90806,
 		damage = "19 x 4",
 		base = 90800,
-		id = 90806,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90806
 		}
 	},
 	[90807] = {
+		id = 90807,
 		damage = "19 x 4",
 		base = 90800,
-		id = 90807,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90807
 		}
@@ -109622,10 +98736,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90821] = {
-		base = 90820,
 		id = 90821,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90820,
 		ammo_info = {
 			{
 				6,
@@ -109638,10 +98750,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90822] = {
-		base = 90820,
 		id = 90822,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90820,
 		ammo_info = {
 			{
 				6,
@@ -109654,10 +98764,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90823] = {
-		base = 90820,
 		id = 90823,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90820,
 		ammo_info = {
 			{
 				6,
@@ -109670,10 +98778,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90824] = {
-		base = 90820,
 		id = 90824,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90820,
 		ammo_info = {
 			{
 				6,
@@ -109686,10 +98792,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90825] = {
-		base = 90820,
 		id = 90825,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90820,
 		ammo_info = {
 			{
 				6,
@@ -109702,10 +98806,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90826] = {
-		base = 90820,
 		id = 90826,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90820,
 		ammo_info = {
 			{
 				6,
@@ -109718,10 +98820,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90827] = {
-		base = 90820,
 		id = 90827,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90820,
 		ammo_info = {
 			{
 				6,
@@ -109786,10 +98886,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90841] = {
-		base = 90840,
 		id = 90841,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90840,
 		ammo_info = {
 			{
 				6,
@@ -109805,10 +98903,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90842] = {
-		base = 90840,
 		id = 90842,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90840,
 		ammo_info = {
 			{
 				6,
@@ -109824,10 +98920,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90843] = {
-		base = 90840,
 		id = 90843,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90840,
 		ammo_info = {
 			{
 				6,
@@ -109843,10 +98937,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90844] = {
-		base = 90840,
 		id = 90844,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90840,
 		ammo_info = {
 			{
 				6,
@@ -109862,10 +98954,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90845] = {
-		base = 90840,
 		id = 90845,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90840,
 		ammo_info = {
 			{
 				6,
@@ -109881,10 +98971,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90846] = {
-		base = 90840,
 		id = 90846,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90840,
 		ammo_info = {
 			{
 				6,
@@ -109900,10 +98988,8 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90847] = {
-		base = 90840,
 		id = 90847,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 90840,
 		ammo_info = {
 			{
 				6,
@@ -109978,61 +99064,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90861] = {
+		id = 90861,
 		damage = "28 x 4",
 		base = 90860,
-		id = 90861,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90861
 		}
 	},
 	[90862] = {
+		id = 90862,
 		damage = "30 x 4",
 		base = 90860,
-		id = 90862,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90862
 		}
 	},
 	[90863] = {
+		id = 90863,
 		damage = "32 x 4",
 		base = 90860,
-		id = 90863,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90863
 		}
 	},
 	[90864] = {
+		id = 90864,
 		damage = "34 x 4",
 		base = 90860,
-		id = 90864,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90864
 		}
 	},
 	[90865] = {
+		id = 90865,
 		damage = "36 x 4",
 		base = 90860,
-		id = 90865,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90865
 		}
 	},
 	[90866] = {
+		id = 90866,
 		damage = "38 x 4",
 		base = 90860,
-		id = 90866,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90866
 		}
@@ -110097,101 +99171,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90881] = {
+		id = 90881,
 		damage = "30 x 4",
 		base = 90880,
-		id = 90881,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90881
 		}
 	},
 	[90882] = {
+		id = 90882,
 		damage = "32 x 4",
 		base = 90880,
-		id = 90882,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90882
 		}
 	},
 	[90883] = {
+		id = 90883,
 		damage = "34 x 4",
 		base = 90880,
-		id = 90883,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90883
 		}
 	},
 	[90884] = {
+		id = 90884,
 		damage = "36 x 4",
 		base = 90880,
-		id = 90884,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90884
 		}
 	},
 	[90885] = {
+		id = 90885,
 		damage = "38 x 4",
 		base = 90880,
-		id = 90885,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90885
 		}
 	},
 	[90886] = {
+		id = 90886,
 		damage = "40 x 4",
 		base = 90880,
-		id = 90886,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90886
 		}
 	},
 	[90887] = {
+		id = 90887,
 		damage = "42 x 4",
 		base = 90880,
-		id = 90887,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90887
 		}
 	},
 	[90888] = {
+		id = 90888,
 		damage = "44 x 4",
 		base = 90880,
-		id = 90888,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90888
 		}
 	},
 	[90889] = {
+		id = 90889,
 		damage = "46 x 4",
 		base = 90880,
-		id = 90889,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90889
 		}
 	},
 	[90890] = {
+		id = 90890,
 		damage = "48 x 4",
 		base = 90880,
-		id = 90890,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90890
 		}
@@ -110256,101 +99310,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[90901] = {
+		id = 90901,
 		damage = "33 x 4",
 		base = 90900,
-		id = 90901,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90901
 		}
 	},
 	[90902] = {
+		id = 90902,
 		damage = "35 x 4",
 		base = 90900,
-		id = 90902,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90902
 		}
 	},
 	[90903] = {
+		id = 90903,
 		damage = "37 x 4",
 		base = 90900,
-		id = 90903,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90903
 		}
 	},
 	[90904] = {
+		id = 90904,
 		damage = "39 x 4",
 		base = 90900,
-		id = 90904,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90904
 		}
 	},
 	[90905] = {
+		id = 90905,
 		damage = "41 x 4",
 		base = 90900,
-		id = 90905,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90905
 		}
 	},
 	[90906] = {
+		id = 90906,
 		damage = "43 x 4",
 		base = 90900,
-		id = 90906,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90906
 		}
 	},
 	[90907] = {
+		id = 90907,
 		damage = "45 x 4",
 		base = 90900,
-		id = 90907,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90907
 		}
 	},
 	[90908] = {
+		id = 90908,
 		damage = "47 x 4",
 		base = 90900,
-		id = 90908,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90908
 		}
 	},
 	[90909] = {
+		id = 90909,
 		damage = "49 x 4",
 		base = 90900,
-		id = 90909,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90909
 		}
 	},
 	[90910] = {
+		id = 90910,
 		damage = "52 x 4",
 		base = 90900,
-		id = 90910,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90910
 		}
@@ -110360,8 +99394,6 @@ pg.equip_data_statistics = {
 		damage = "52 x 4",
 		base = 90900,
 		id = 90911,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90911
 		}
@@ -110371,8 +99403,6 @@ pg.equip_data_statistics = {
 		damage = "52 x 4",
 		base = 90900,
 		id = 90912,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90912
 		}
@@ -110382,8 +99412,6 @@ pg.equip_data_statistics = {
 		damage = "52 x 4",
 		base = 90900,
 		id = 90913,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90913
 		}
@@ -110442,101 +99470,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[91001] = {
+		id = 91001,
 		damage = "64 x 3",
 		base = 91000,
-		id = 91001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91001
 		}
 	},
 	[91002] = {
+		id = 91002,
 		damage = "72 x 3",
 		base = 91000,
-		id = 91002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91002
 		}
 	},
 	[91003] = {
+		id = 91003,
 		damage = "82 x 3",
 		base = 91000,
-		id = 91003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91003
 		}
 	},
 	[91004] = {
+		id = 91004,
 		damage = "92 x 3",
 		base = 91000,
-		id = 91004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91004
 		}
 	},
 	[91005] = {
+		id = 91005,
 		damage = "102 x 3",
 		base = 91000,
-		id = 91005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91005
 		}
 	},
 	[91006] = {
+		id = 91006,
 		damage = "112 x 3",
 		base = 91000,
-		id = 91006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91006
 		}
 	},
 	[91007] = {
+		id = 91007,
 		damage = "120 x 3",
 		base = 91000,
-		id = 91007,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91007
 		}
 	},
 	[91008] = {
+		id = 91008,
 		damage = "130 x 3",
 		base = 91000,
-		id = 91008,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91008
 		}
 	},
 	[91009] = {
+		id = 91009,
 		damage = "140 x 3",
 		base = 91000,
-		id = 91009,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91009
 		}
 	},
 	[91010] = {
+		id = 91010,
 		damage = "150 x 3",
 		base = 91000,
-		id = 91010,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91010
 		}
@@ -110546,8 +99554,6 @@ pg.equip_data_statistics = {
 		damage = "150 x 3",
 		base = 91000,
 		id = 91011,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91011
 		}
@@ -110557,8 +99563,6 @@ pg.equip_data_statistics = {
 		damage = "150 x 3",
 		base = 91000,
 		id = 91012,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91012
 		}
@@ -110568,8 +99572,6 @@ pg.equip_data_statistics = {
 		damage = "150 x 3",
 		base = 91000,
 		id = 91013,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			91013
 		}
@@ -110627,61 +99629,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95001] = {
+		id = 95001,
 		damage = "50 x 3",
 		base = 95000,
-		id = 95001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95001
 		}
 	},
 	[95002] = {
+		id = 95002,
 		damage = "58 x 3",
 		base = 95000,
-		id = 95002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95002
 		}
 	},
 	[95003] = {
+		id = 95003,
 		damage = "66 x 3",
 		base = 95000,
-		id = 95003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95003
 		}
 	},
 	[95004] = {
+		id = 95004,
 		damage = "74 x 3",
 		base = 95000,
-		id = 95004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95004
 		}
 	},
 	[95005] = {
+		id = 95005,
 		damage = "82 x 3",
 		base = 95000,
-		id = 95005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95005
 		}
 	},
 	[95006] = {
+		id = 95006,
 		damage = "90 x 3",
 		base = 95000,
-		id = 95006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95006
 		}
@@ -110740,101 +99730,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95021] = {
+		id = 95021,
 		damage = "56 x 3",
 		base = 95020,
-		id = 95021,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95021
 		}
 	},
 	[95022] = {
+		id = 95022,
 		damage = "64 x 3",
 		base = 95020,
-		id = 95022,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95022
 		}
 	},
 	[95023] = {
+		id = 95023,
 		damage = "73 x 3",
 		base = 95020,
-		id = 95023,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95023
 		}
 	},
 	[95024] = {
+		id = 95024,
 		damage = "82 x 3",
 		base = 95020,
-		id = 95024,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95024
 		}
 	},
 	[95025] = {
+		id = 95025,
 		damage = "91 x 3",
 		base = 95020,
-		id = 95025,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95025
 		}
 	},
 	[95026] = {
+		id = 95026,
 		damage = "100 x 3",
 		base = 95020,
-		id = 95026,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95026
 		}
 	},
 	[95027] = {
+		id = 95027,
 		damage = "108 x 3",
 		base = 95020,
-		id = 95027,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95027
 		}
 	},
 	[95028] = {
+		id = 95028,
 		damage = "117 x 3",
 		base = 95020,
-		id = 95028,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95028
 		}
 	},
 	[95029] = {
+		id = 95029,
 		damage = "126 x 3",
 		base = 95020,
-		id = 95029,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95029
 		}
 	},
 	[95030] = {
+		id = 95030,
 		damage = "135 x 3",
 		base = 95020,
-		id = 95030,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95030
 		}
@@ -110895,101 +99865,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95041] = {
+		id = 95041,
 		damage = "62 x 3",
 		base = 95040,
-		id = 95041,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95041
 		}
 	},
 	[95042] = {
+		id = 95042,
 		damage = "70 x 3",
 		base = 95040,
-		id = 95042,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95042
 		}
 	},
 	[95043] = {
+		id = 95043,
 		damage = "80 x 3",
 		base = 95040,
-		id = 95043,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95043
 		}
 	},
 	[95044] = {
+		id = 95044,
 		damage = "90 x 3",
 		base = 95040,
-		id = 95044,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95044
 		}
 	},
 	[95045] = {
+		id = 95045,
 		damage = "100 x 3",
 		base = 95040,
-		id = 95045,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95045
 		}
 	},
 	[95046] = {
+		id = 95046,
 		damage = "110 x 3",
 		base = 95040,
-		id = 95046,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95046
 		}
 	},
 	[95047] = {
+		id = 95047,
 		damage = "118 x 3",
 		base = 95040,
-		id = 95047,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95047
 		}
 	},
 	[95048] = {
+		id = 95048,
 		damage = "128 x 3",
 		base = 95040,
-		id = 95048,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95048
 		}
 	},
 	[95049] = {
+		id = 95049,
 		damage = "138 x 3",
 		base = 95040,
-		id = 95049,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95049
 		}
 	},
 	[95050] = {
+		id = 95050,
 		damage = "148 x 3",
 		base = 95040,
-		id = 95050,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95050
 		}
@@ -110999,8 +99949,6 @@ pg.equip_data_statistics = {
 		damage = "148 x 3",
 		base = 95040,
 		id = 95051,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95051
 		}
@@ -111010,8 +99958,6 @@ pg.equip_data_statistics = {
 		damage = "148 x 3",
 		base = 95040,
 		id = 95052,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95052
 		}
@@ -111021,8 +99967,6 @@ pg.equip_data_statistics = {
 		damage = "148 x 3",
 		base = 95040,
 		id = 95053,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95053
 		}
@@ -111090,61 +100034,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95101] = {
+		id = 95101,
 		damage = "38/回",
 		base = 95100,
-		id = 95101,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95101
 		}
 	},
 	[95102] = {
+		id = 95102,
 		damage = "42/回",
 		base = 95100,
-		id = 95102,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95102
 		}
 	},
 	[95103] = {
+		id = 95103,
 		damage = "46/回",
 		base = 95100,
-		id = 95103,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95103
 		}
 	},
 	[95104] = {
+		id = 95104,
 		damage = "51/回",
 		base = 95100,
-		id = 95104,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95104
 		}
 	},
 	[95105] = {
+		id = 95105,
 		damage = "56/回",
 		base = 95100,
-		id = 95105,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95105
 		}
 	},
 	[95106] = {
+		id = 95106,
 		damage = "61/回",
 		base = 95100,
-		id = 95106,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95106
 		}
@@ -111212,101 +100144,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95121] = {
+		id = 95121,
 		damage = "39/回",
 		base = 95120,
-		id = 95121,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95121
 		}
 	},
 	[95122] = {
+		id = 95122,
 		damage = "44/回",
 		base = 95120,
-		id = 95122,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95122
 		}
 	},
 	[95123] = {
+		id = 95123,
 		damage = "49/回",
 		base = 95120,
-		id = 95123,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95123
 		}
 	},
 	[95124] = {
+		id = 95124,
 		damage = "54/回",
 		base = 95120,
-		id = 95124,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95124
 		}
 	},
 	[95125] = {
+		id = 95125,
 		damage = "59/回",
 		base = 95120,
-		id = 95125,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95125
 		}
 	},
 	[95126] = {
+		id = 95126,
 		damage = "65/回",
 		base = 95120,
-		id = 95126,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95126
 		}
 	},
 	[95127] = {
+		id = 95127,
 		damage = "71/回",
 		base = 95120,
-		id = 95127,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95127
 		}
 	},
 	[95128] = {
+		id = 95128,
 		damage = "77/回",
 		base = 95120,
-		id = 95128,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95128
 		}
 	},
 	[95129] = {
+		id = 95129,
 		damage = "83/回",
 		base = 95120,
-		id = 95129,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95129
 		}
 	},
 	[95130] = {
+		id = 95130,
 		damage = "90/回",
 		base = 95120,
-		id = 95130,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95130
 		}
@@ -111374,101 +100286,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95141] = {
+		id = 95141,
 		damage = "45/回",
 		base = 95140,
-		id = 95141,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95141
 		}
 	},
 	[95142] = {
+		id = 95142,
 		damage = "50/回",
 		base = 95140,
-		id = 95142,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95142
 		}
 	},
 	[95143] = {
+		id = 95143,
 		damage = "56/回",
 		base = 95140,
-		id = 95143,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95143
 		}
 	},
 	[95144] = {
+		id = 95144,
 		damage = "62/回",
 		base = 95140,
-		id = 95144,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95144
 		}
 	},
 	[95145] = {
+		id = 95145,
 		damage = "68/回",
 		base = 95140,
-		id = 95145,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95145
 		}
 	},
 	[95146] = {
+		id = 95146,
 		damage = "74/回",
 		base = 95140,
-		id = 95146,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95146
 		}
 	},
 	[95147] = {
+		id = 95147,
 		damage = "80/回",
 		base = 95140,
-		id = 95147,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95147
 		}
 	},
 	[95148] = {
+		id = 95148,
 		damage = "86/回",
 		base = 95140,
-		id = 95148,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95148
 		}
 	},
 	[95149] = {
+		id = 95149,
 		damage = "92/回",
 		base = 95140,
-		id = 95149,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95149
 		}
 	},
 	[95150] = {
+		id = 95150,
 		damage = "98/回",
 		base = 95140,
-		id = 95150,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95150
 		}
@@ -111478,8 +100370,6 @@ pg.equip_data_statistics = {
 		damage = "98/回",
 		base = 95140,
 		id = 95151,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95151
 		}
@@ -111489,8 +100379,6 @@ pg.equip_data_statistics = {
 		damage = "98/回",
 		base = 95140,
 		id = 95152,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95152
 		}
@@ -111500,8 +100388,6 @@ pg.equip_data_statistics = {
 		damage = "98/回",
 		base = 95140,
 		id = 95153,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95153
 		}
@@ -111566,61 +100452,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95201] = {
+		id = 95201,
 		damage = "20 x 8",
 		base = 95200,
-		id = 95201,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95201
 		}
 	},
 	[95202] = {
+		id = 95202,
 		damage = "21 x 8",
 		base = 95200,
-		id = 95202,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95202
 		}
 	},
 	[95203] = {
+		id = 95203,
 		damage = "22 x 8",
 		base = 95200,
-		id = 95203,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95203
 		}
 	},
 	[95204] = {
+		id = 95204,
 		damage = "23 x 8",
 		base = 95200,
-		id = 95204,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95204
 		}
 	},
 	[95205] = {
+		id = 95205,
 		damage = "24 x 8",
 		base = 95200,
-		id = 95205,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95205
 		}
 	},
 	[95206] = {
+		id = 95206,
 		damage = "25 x 8",
 		base = 95200,
-		id = 95206,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95206
 		}
@@ -111685,101 +100559,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95221] = {
+		id = 95221,
 		damage = "26 x 8",
 		base = 95220,
-		id = 95221,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95221
 		}
 	},
 	[95222] = {
+		id = 95222,
 		damage = "27 x 8",
 		base = 95220,
-		id = 95222,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95222
 		}
 	},
 	[95223] = {
+		id = 95223,
 		damage = "28 x 8",
 		base = 95220,
-		id = 95223,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95223
 		}
 	},
 	[95224] = {
+		id = 95224,
 		damage = "29 x 8",
 		base = 95220,
-		id = 95224,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95224
 		}
 	},
 	[95225] = {
+		id = 95225,
 		damage = "30 x 8",
 		base = 95220,
-		id = 95225,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95225
 		}
 	},
 	[95226] = {
+		id = 95226,
 		damage = "31 x 8",
 		base = 95220,
-		id = 95226,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95226
 		}
 	},
 	[95227] = {
+		id = 95227,
 		damage = "32 x 8",
 		base = 95220,
-		id = 95227,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95227
 		}
 	},
 	[95228] = {
+		id = 95228,
 		damage = "33 x 8",
 		base = 95220,
-		id = 95228,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95228
 		}
 	},
 	[95229] = {
+		id = 95229,
 		damage = "34 x 8",
 		base = 95220,
-		id = 95229,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95229
 		}
 	},
 	[95230] = {
+		id = 95230,
 		damage = "35 x 8",
 		base = 95220,
-		id = 95230,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95230
 		}
@@ -111844,101 +100698,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95241] = {
+		id = 95241,
 		damage = "37 x 8",
 		base = 95240,
-		id = 95241,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95241
 		}
 	},
 	[95242] = {
+		id = 95242,
 		damage = "37 x 8",
 		base = 95240,
-		id = 95242,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95242
 		}
 	},
 	[95243] = {
+		id = 95243,
 		damage = "38 x 8",
 		base = 95240,
-		id = 95243,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95243
 		}
 	},
 	[95244] = {
+		id = 95244,
 		damage = "38 x 8",
 		base = 95240,
-		id = 95244,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95244
 		}
 	},
 	[95245] = {
+		id = 95245,
 		damage = "39 x 8",
 		base = 95240,
-		id = 95245,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95245
 		}
 	},
 	[95246] = {
+		id = 95246,
 		damage = "39 x 8",
 		base = 95240,
-		id = 95246,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95246
 		}
 	},
 	[95247] = {
+		id = 95247,
 		damage = "40 x 8",
 		base = 95240,
-		id = 95247,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95247
 		}
 	},
 	[95248] = {
+		id = 95248,
 		damage = "41 x 8",
 		base = 95240,
-		id = 95248,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95248
 		}
 	},
 	[95249] = {
+		id = 95249,
 		damage = "42 x 8",
 		base = 95240,
-		id = 95249,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95249
 		}
 	},
 	[95250] = {
+		id = 95250,
 		damage = "43 x 8",
 		base = 95240,
-		id = 95250,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95250
 		}
@@ -111948,8 +100782,6 @@ pg.equip_data_statistics = {
 		damage = "43 x 8",
 		base = 95240,
 		id = 95251,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95251
 		}
@@ -111959,8 +100791,6 @@ pg.equip_data_statistics = {
 		damage = "43 x 8",
 		base = 95240,
 		id = 95252,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95252
 		}
@@ -111970,8 +100800,6 @@ pg.equip_data_statistics = {
 		damage = "43 x 8",
 		base = 95240,
 		id = 95253,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95253
 		}
@@ -112036,31 +100864,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95301] = {
+		id = 95301,
 		damage = "24 x 6",
 		base = 95300,
-		id = 95301,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95301
 		}
 	},
 	[95302] = {
+		id = 95302,
 		damage = "26 x 6",
 		base = 95300,
-		id = 95302,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95302
 		}
 	},
 	[95303] = {
+		id = 95303,
 		damage = "28 x 6",
 		base = 95300,
-		id = 95303,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95303
 		}
@@ -112125,61 +100947,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95321] = {
+		id = 95321,
 		damage = "26 x 6",
 		base = 95320,
-		id = 95321,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95321
 		}
 	},
 	[95322] = {
+		id = 95322,
 		damage = "28 x 6",
 		base = 95320,
-		id = 95322,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95322
 		}
 	},
 	[95323] = {
+		id = 95323,
 		damage = "30 x 6",
 		base = 95320,
-		id = 95323,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95323
 		}
 	},
 	[95324] = {
+		id = 95324,
 		damage = "32 x 6",
 		base = 95320,
-		id = 95324,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95324
 		}
 	},
 	[95325] = {
+		id = 95325,
 		damage = "34 x 6",
 		base = 95320,
-		id = 95325,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95325
 		}
 	},
 	[95326] = {
+		id = 95326,
 		damage = "36 x 6",
 		base = 95320,
-		id = 95326,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95326
 		}
@@ -112244,101 +101054,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95341] = {
+		id = 95341,
 		damage = "28 x 6",
 		base = 95340,
-		id = 95341,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95341
 		}
 	},
 	[95342] = {
+		id = 95342,
 		damage = "30 x 6",
 		base = 95340,
-		id = 95342,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95342
 		}
 	},
 	[95343] = {
+		id = 95343,
 		damage = "32 x 6",
 		base = 95340,
-		id = 95343,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95343
 		}
 	},
 	[95344] = {
+		id = 95344,
 		damage = "34 x 6",
 		base = 95340,
-		id = 95344,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95344
 		}
 	},
 	[95345] = {
+		id = 95345,
 		damage = "36 x 6",
 		base = 95340,
-		id = 95345,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95345
 		}
 	},
 	[95346] = {
+		id = 95346,
 		damage = "38 x 6",
 		base = 95340,
-		id = 95346,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95346
 		}
 	},
 	[95347] = {
+		id = 95347,
 		damage = "40 x 6",
 		base = 95340,
-		id = 95347,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95347
 		}
 	},
 	[95348] = {
+		id = 95348,
 		damage = "42 x 6",
 		base = 95340,
-		id = 95348,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95348
 		}
 	},
 	[95349] = {
+		id = 95349,
 		damage = "44 x 6",
 		base = 95340,
-		id = 95349,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95349
 		}
 	},
 	[95350] = {
+		id = 95350,
 		damage = "46 x 6",
 		base = 95340,
-		id = 95350,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95350
 		}
@@ -112348,8 +101138,6 @@ pg.equip_data_statistics = {
 		damage = "46 x 6",
 		base = 95340,
 		id = 95351,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95351
 		}
@@ -112422,30 +101210,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95401] = {
-		base = 95400,
 		id = 95401,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 95400,
 		weapon_id = {
 			95401
 		}
 	},
 	[95402] = {
+		id = 95402,
 		damage = "7 x 4",
 		base = 95400,
-		id = 95402,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95402
 		}
 	},
 	[95403] = {
+		id = 95403,
 		damage = "8 x 4",
 		base = 95400,
-		id = 95403,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95403
 		}
@@ -112518,60 +101300,48 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95421] = {
-		base = 95420,
 		id = 95421,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 95420,
 		weapon_id = {
 			95421
 		}
 	},
 	[95422] = {
+		id = 95422,
 		damage = "7 x 4",
 		base = 95420,
-		id = 95422,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95422
 		}
 	},
 	[95423] = {
+		id = 95423,
 		damage = "8 x 4",
 		base = 95420,
-		id = 95423,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95423
 		}
 	},
 	[95424] = {
+		id = 95424,
 		damage = "9 x 4",
 		base = 95420,
-		id = 95424,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95424
 		}
 	},
 	[95425] = {
+		id = 95425,
 		damage = "10 x 4",
 		base = 95420,
-		id = 95425,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95425
 		}
 	},
 	[95426] = {
+		id = 95426,
 		damage = "11 x 4",
 		base = 95420,
-		id = 95426,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95426
 		}
@@ -112644,101 +101414,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95441] = {
+		id = 95441,
 		damage = "7 x 4",
 		base = 95440,
-		id = 95441,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95441
 		}
 	},
 	[95442] = {
+		id = 95442,
 		damage = "8 x 4",
 		base = 95440,
-		id = 95442,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95442
 		}
 	},
 	[95443] = {
+		id = 95443,
 		damage = "9 x 4",
 		base = 95440,
-		id = 95443,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95443
 		}
 	},
 	[95444] = {
+		id = 95444,
 		damage = "10 x 4",
 		base = 95440,
-		id = 95444,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95444
 		}
 	},
 	[95445] = {
+		id = 95445,
 		damage = "11 x 4",
 		base = 95440,
-		id = 95445,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95445
 		}
 	},
 	[95446] = {
+		id = 95446,
 		damage = "12 x 4",
 		base = 95440,
-		id = 95446,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95446
 		}
 	},
 	[95447] = {
+		id = 95447,
 		damage = "13 x 4",
 		base = 95440,
-		id = 95447,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95447
 		}
 	},
 	[95448] = {
+		id = 95448,
 		damage = "14 x 4",
 		base = 95440,
-		id = 95448,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95448
 		}
 	},
 	[95449] = {
+		id = 95449,
 		damage = "15 x 4",
 		base = 95440,
-		id = 95449,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95449
 		}
 	},
 	[95450] = {
+		id = 95450,
 		damage = "17 x 4",
 		base = 95440,
-		id = 95450,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95450
 		}
@@ -112748,8 +101498,6 @@ pg.equip_data_statistics = {
 		damage = "17 x 4",
 		base = 95440,
 		id = 95451,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95451
 		}
@@ -112821,70 +101569,56 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95461] = {
-		base = 95460,
 		id = 95461,
-		torpedo_ammo = 0,
-		property_rate = {},
+		base = 95460,
 		weapon_id = {
 			95461
 		}
 	},
 	[95462] = {
+		id = 95462,
 		damage = "5 x 4",
 		base = 95460,
-		id = 95462,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95462
 		}
 	},
 	[95463] = {
+		id = 95463,
 		damage = "6 x 4",
 		base = 95460,
-		id = 95463,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95463
 		}
 	},
 	[95464] = {
+		id = 95464,
 		damage = "7 x 4",
 		base = 95460,
-		id = 95464,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95464
 		}
 	},
 	[95465] = {
+		id = 95465,
 		damage = "8 x 4",
 		base = 95460,
-		id = 95465,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95465
 		}
 	},
 	[95466] = {
+		id = 95466,
 		damage = "9 x 4",
 		base = 95460,
-		id = 95466,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95466
 		}
 	},
 	[95467] = {
+		id = 95467,
 		damage = "9 x 4",
 		base = 95460,
-		id = 95467,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95467
 		}
@@ -112943,71 +101677,57 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95481] = {
+		id = 95481,
 		damage = "39 x 3",
 		base = 95480,
-		id = 95481,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95481
 		}
 	},
 	[95482] = {
+		id = 95482,
 		damage = "56 x 3",
 		base = 95480,
-		id = 95482,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95482
 		}
 	},
 	[95483] = {
+		id = 95483,
 		damage = "62 x 3",
 		base = 95480,
-		id = 95483,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95483
 		}
 	},
 	[95484] = {
+		id = 95484,
 		damage = "68 x 3",
 		base = 95480,
-		id = 95484,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95484
 		}
 	},
 	[95485] = {
+		id = 95485,
 		damage = "74 x 3",
 		base = 95480,
-		id = 95485,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95485
 		}
 	},
 	[95486] = {
+		id = 95486,
 		damage = "80 x 3",
 		base = 95480,
-		id = 95486,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95486
 		}
 	},
 	[95487] = {
+		id = 95487,
 		damage = "80 x 3",
 		base = 95480,
-		id = 95487,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95487
 		}
@@ -113075,31 +101795,25 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95501] = {
+		id = 95501,
 		damage = "17/回",
 		base = 95500,
-		id = 95501,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95501
 		}
 	},
 	[95502] = {
+		id = 95502,
 		damage = "19/回",
 		base = 95500,
-		id = 95502,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95502
 		}
 	},
 	[95503] = {
+		id = 95503,
 		damage = "22/回",
 		base = 95500,
-		id = 95503,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95503
 		}
@@ -113167,61 +101881,49 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95521] = {
+		id = 95521,
 		damage = "19/回",
 		base = 95520,
-		id = 95521,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95521
 		}
 	},
 	[95522] = {
+		id = 95522,
 		damage = "22/回",
 		base = 95520,
-		id = 95522,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95522
 		}
 	},
 	[95523] = {
+		id = 95523,
 		damage = "25/回",
 		base = 95520,
-		id = 95523,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95523
 		}
 	},
 	[95524] = {
+		id = 95524,
 		damage = "28/回",
 		base = 95520,
-		id = 95524,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95524
 		}
 	},
 	[95525] = {
+		id = 95525,
 		damage = "31/回",
 		base = 95520,
-		id = 95525,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95525
 		}
 	},
 	[95526] = {
+		id = 95526,
 		damage = "34/回",
 		base = 95520,
-		id = 95526,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95526
 		}
@@ -113289,101 +101991,81 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95541] = {
+		id = 95541,
 		damage = "23/回",
 		base = 95540,
-		id = 95541,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95541
 		}
 	},
 	[95542] = {
+		id = 95542,
 		damage = "26/回",
 		base = 95540,
-		id = 95542,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95542
 		}
 	},
 	[95543] = {
+		id = 95543,
 		damage = "29/回",
 		base = 95540,
-		id = 95543,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95543
 		}
 	},
 	[95544] = {
+		id = 95544,
 		damage = "32/回",
 		base = 95540,
-		id = 95544,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95544
 		}
 	},
 	[95545] = {
+		id = 95545,
 		damage = "35/回",
 		base = 95540,
-		id = 95545,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95545
 		}
 	},
 	[95546] = {
+		id = 95546,
 		damage = "38/回",
 		base = 95540,
-		id = 95546,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95546
 		}
 	},
 	[95547] = {
+		id = 95547,
 		damage = "41/回",
 		base = 95540,
-		id = 95547,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95547
 		}
 	},
 	[95548] = {
+		id = 95548,
 		damage = "44/回",
 		base = 95540,
-		id = 95548,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95548
 		}
 	},
 	[95549] = {
+		id = 95549,
 		damage = "47/回",
 		base = 95540,
-		id = 95549,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95549
 		}
 	},
 	[95550] = {
+		id = 95550,
 		damage = "50/回",
 		base = 95540,
-		id = 95550,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95550
 		}
@@ -113393,8 +102075,6 @@ pg.equip_data_statistics = {
 		damage = "50/回",
 		base = 95540,
 		id = 95551,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			95551
 		}
@@ -113810,122 +102490,90 @@ pg.equip_data_statistics = {
 		}
 	},
 	[800000] = {
+		id = 800000,
 		type = 1,
 		base = 100000,
-		id = 800000,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800000
-		},
-		label = {}
+		}
 	},
 	[800001] = {
+		id = 800001,
 		type = 3,
 		base = 100000,
-		id = 800001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800001
-		},
-		label = {}
+		}
 	},
 	[800002] = {
+		id = 800002,
 		type = 6,
 		base = 100000,
-		id = 800002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800002
-		},
-		label = {}
+		}
 	},
 	[800003] = {
+		id = 800003,
 		type = 5,
 		base = 100000,
-		id = 800003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800003
-		},
-		label = {}
+		}
 	},
 	[800004] = {
+		id = 800004,
 		type = 5,
 		base = 100000,
-		id = 800004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800004
-		},
-		label = {}
+		}
 	},
 	[800005] = {
+		id = 800005,
 		type = 7,
 		base = 100000,
-		id = 800005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800005
-		},
-		label = {}
+		}
 	},
 	[800006] = {
+		id = 800006,
 		type = 8,
 		base = 100000,
-		id = 800006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800006
-		},
-		label = {}
+		}
 	},
 	[800007] = {
+		id = 800007,
 		type = 9,
 		base = 100000,
-		id = 800007,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800007
-		},
-		label = {}
+		}
 	},
 	[800008] = {
+		id = 800008,
 		type = 4,
 		base = 100000,
-		id = 800008,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800008
-		},
-		label = {}
+		}
 	},
 	[800009] = {
+		id = 800009,
 		type = 4,
 		base = 100000,
-		id = 800009,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			800009
-		},
-		label = {}
+		}
 	},
 	[960001] = {
 		name = "【翻格子活动】驱逐主炮",
 		damage = "15 x 5",
 		base = 90140,
 		id = 960001,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90150
 		}
@@ -113935,8 +102583,6 @@ pg.equip_data_statistics = {
 		damage = "206 x 3",
 		base = 35140,
 		id = 960002,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			35150
 		}
@@ -113946,8 +102592,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 4",
 		base = 5140,
 		id = 960003,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5150
 		}
@@ -113957,8 +102601,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 5",
 		base = 5240,
 		id = 960004,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			5250
 		}
@@ -113968,8 +102610,6 @@ pg.equip_data_statistics = {
 		damage = "132 x 2",
 		base = 44140,
 		id = 960005,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			44150
 		}
@@ -113979,8 +102619,6 @@ pg.equip_data_statistics = {
 		damage = "156 x 3",
 		base = 14340,
 		id = 960006,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			14350
 		}
@@ -113990,8 +102628,6 @@ pg.equip_data_statistics = {
 		damage = "120 x 4",
 		base = 90440,
 		id = 960007,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			90450
 		}
@@ -114001,8 +102637,6 @@ pg.equip_data_statistics = {
 		damage = "108 x 4",
 		base = 24040,
 		id = 960008,
-		torpedo_ammo = 0,
-		property_rate = {},
 		weapon_id = {
 			24050
 		}
@@ -120252,6 +108886,8 @@ pg.equip_data_statistics = {
 		74122,
 		75011,
 		75012,
+		75021,
+		75022,
 		75211,
 		75212,
 		75221,

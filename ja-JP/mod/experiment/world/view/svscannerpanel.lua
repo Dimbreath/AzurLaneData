@@ -181,7 +181,7 @@ function slot0.OnUpdate(slot0)
 		GetImageSpriteFromAtlasAsync("world/buff/" .. WorldBuff.GetTemplate(slot2.config.buff_id).icon, "", slot0.rtInfo:Find("Image"))
 		setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.desc))
 	elseif slot2.type == WorldMapAttachment.TypePort then
-		slot5 = slot2.config.port_camp > 0 and slot8 ~= nowWorld.realm
+		slot5 = slot2.config.port_camp > 0 and slot8 ~= nowWorld:GetRealm()
 		slot6 = true
 
 		setActive(slot0.rtInfo:Find("Image"), false)
